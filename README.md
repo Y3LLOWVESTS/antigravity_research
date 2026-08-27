@@ -80,7 +80,7 @@ In a local rest frame, consider stress-energy of the approximate form
 ```math
 T^\mu{}_{\nu}
 =
-\operatorname{diag}
+\mathrm{diag}
 \left(
 \epsilon,
  p_x,
@@ -119,11 +119,9 @@ C\frac{a h^2}{G}
 with the best verified thin conserved architecture at
 
 ```math
-\boxed{
 C_{\mathrm{thin}}
 =
 23.426710175391
-}
 ```
 
 and the best tested finite-thickness regularization at
@@ -466,9 +464,7 @@ q\le1
 Therefore the interval
 
 ```math
-\boxed{
-\frac{1}{2}<q\le1
-}
+q\in\left(\frac{1}{2},1\right]
 ```
 
 contains positive-energy, NEC/WEC/DEC-compatible repulsive stress-energy.
@@ -557,7 +553,7 @@ approximately
 ```math
 M_{\mathrm{equiv}}
 \approx
-1.17\times10^{13}\ {\rm kg}
+1.17\times10^{13}\ \mathrm{kg}
 ```
 
 This demonstrates a finite positive-energy **local** antigravity-like field in
@@ -627,9 +623,7 @@ M_{\mathrm{equiv}}
 with the important dependence
 
 ```math
-\boxed{
 M,E\propto h^2
-}
 ```
 
 The coefficient $C=1$ is an optimistic abstract result inside the model that
@@ -700,11 +694,9 @@ and
 with coefficient
 
 ```math
-\boxed{
 C_{\mathrm{006B,thin}}
 =
 23.426710175391
-}
 ```
 
 This improves the 005B disk/rim value by approximately
@@ -1035,12 +1027,12 @@ M
 \frac{a h^2}{G}
 ```
 
-which for $a=1g$ and $h=1\ {\rm m}$ is approximately
+which for $a=1g$ and $h=1\ \mathrm{m}$ is approximately
 
 ```math
 M
 \approx
-1.47\times10^{11}\ {\rm kg}
+1.47\times10^{11}\ \mathrm{kg}
 ```
 
 The classical static branch is therefore preserved as a strong theoretical
