@@ -1,25 +1,24 @@
 ### BEGIN NOTE - AUGUST 27 2026 - 01:00 CST
 
-
 # ANTIGRAVITY_RESEARCH — Comprehensive Carry-Forward Notes
 
 This is the right place to stop adding patches and consolidate what we actually know.
 
 The project has advanced far enough that the problem is now much more sharply defined than when we started. We have **not discovered a new law of physics or a practical antigravity device**, but we have established something important and useful:
 
-$$
+```math
 \boxed{\text{General relativity absolutely permits local gravitational repulsion.}}
-$$
+```
 
 More specifically, we have reproduced several known GR mechanisms and constructed a finite linearized-GR model in which **positive energy, positive total mass, and classical energy conditions coexist with a locally repulsive gravitational field**. What has emerged as the dominant obstacle is no longer the **sign** of gravity. It is the **stress-energy cost and physical realizability** of the source.
 
 Simulation 006A then sharpened that further: within its stated assumptions, the optimistic static energy cost scales as
 
-$$
-\boxed{M_{\rm equiv}\sim\frac{a h^2}{G}},
-$$
+```math
+\boxed{M_{\rm equiv}\sim\frac{a h^2}{G}}
+```
 
-where \(a\) is the desired repulsive acceleration and \(h\) is the source-to-target scale. Your optimizer independently reproduced the coefficient 1.0 exactly, while the explicit finite disk/rim architecture costs 79.753 times more. 
+where $a$ is the desired repulsive acceleration and $h$ is the source-to-target scale. Your optimizer independently reproduced the coefficient 1.0 exactly, while the explicit finite disk/rim architecture costs 79.753 times more. 
 
 That gap—**1 versus 79.753**—is now one of the most important open mathematical questions in the project.
 
@@ -29,59 +28,59 @@ That gap—**1 versus 79.753**—is now one of the most important open mathemati
 
 The simplest useful description of everything we have learned is:
 
-$$
+```math
 \boxed{\text{gravity responds to stress-energy, not merely mass density}}
-$$
+```
 
 and therefore sufficiently large **negative pressure/tension** can make the local active gravitational source negative even when the actual energy density remains positive.
 
 For type-I matter in its local rest frame,
 
-$$
+```math
 T^\mu{}_\nu
 \sim
-{\rm diag}(\epsilon,p_x,p_y,p_z),
-$$
+{\rm diag}(\epsilon,p_x,p_y,p_z)
+```
 
 and in static weak-field GR the relevant active combination is schematically
 
-$$
-S=\epsilon+p_x+p_y+p_z.
-$$
+```math
+S=\epsilon+p_x+p_y+p_z
+```
 
 Ordinary matter has relatively tiny stresses compared with its rest energy:
 
-$$
-|p_i|\ll\epsilon.
-$$
+```math
+|p_i|\ll\epsilon
+```
 
 Hence it attracts.
 
 Relativistic fields can instead have
 
-$$
-|p_i|\sim\epsilon,
-$$
+```math
+|p_i|\sim\epsilon
+```
 
 and sufficiently negative principal pressures can make
 
-$$
-S<0.
-$$
+```math
+S<0
+```
 
 That is the recurring mechanism behind essentially every successful branch we found:
 
-$$
+```math
 \text{vacuum energy},
 \quad
 \text{domain walls},
 \quad
 \text{anisotropic Maxwell stress},
 \quad
-\text{relativistic tension}.
-$$
+\text{relativistic tension}
+```
 
-This is not speculative. Exact GR domain-wall solutions are known to repel, and the planar-wall attraction/repulsion transition occurs at tension/surface-energy ratio \(1/2\). ([APS Journals][1]) Reissner–Nordström spacetime likewise has a known repulsive region for neutral test particles. ([arXiv][2])
+This is not speculative. Exact GR domain-wall solutions are known to repel, and the planar-wall attraction/repulsion transition occurs at tension/surface-energy ratio $1/2$. ([APS Journals][1]) Reissner–Nordström spacetime likewise has a known repulsive region for neutral test particles. ([arXiv][2])
 
 So a useful project-level statement is now:
 
@@ -114,13 +113,10 @@ Licensing was also cleaned up:
 ```text
 Software:
 MIT OR Apache-2.0
-
 Original research:
 CC0-1.0
-
 Human project lead / affirmer:
 Stevan White
-
 AI assistance:
 ChatGPT by OpenAI disclosed in AI_ASSISTANCE.md
 ```
@@ -157,9 +153,9 @@ Simulation 006A then added six more tests, which individually passed:
 
 So the expected total current regression count is approximately:
 
-$$
+```math
 \boxed{67\text{ tests}}
-$$
+```
 
 assuming everything is still present and no test discovery issue exists.
 
@@ -168,7 +164,6 @@ The first verification command next session should therefore be:
 ```bash
 ROOT="$(pwd)"
 PY="$ROOT/.venv/bin/python"
-
 PYTHONPATH="$ROOT/src" \
 "$PY" -m pytest -q tests/known_solutions
 ```
@@ -191,44 +186,43 @@ Files:
 src/antigravity_research/geometry/kottler.py
 tests/known_solutions/test_kottler.py
 simulations/001_kottler_weak_field.py
-
 results/data/001_kottler_weak_field.csv
 results/figures/001_kottler_weak_field.png
 ```
 
 We began with known GR:
 
-$$
+```math
 a(r)=
 -\frac{GM}{r^2}
 +
-\frac{\Lambda c^2r}{3}.
-$$
+\frac{\Lambda c^2r}{3}
+```
 
 The radius where attraction and cosmological repulsion balance is
 
-$$
+```math
 r_s=
 \left(
 \frac{3GM}{\Lambda c^2}
-\right)^{1/3}.
-$$
+\right)^{1/3}
+```
 
-For a \(10^{12}M_\odot\) mass and observed cosmological parameters, we reproduced:
+For a $10^{12}M_\odot$ mass and observed cosmological parameters, we reproduced:
 
-$$
-r_s\simeq1.1139\ {\rm Mpc}.
-$$
+```math
+r_s\simeq1.1139\ {\rm Mpc}
+```
 
 Below that scale, gravity was inward.
 
-Above it, the cosmological-\(\Lambda\) contribution won.
+Above it, the cosmological-$\Lambda$ contribution won.
 
 ### Conclusion
 
 Cosmological repulsion is real GR physics.
 
-But observed \(\Lambda\) is fantastically too weak for laboratory antigravity.
+But observed $\Lambda$ is fantastically too weak for laboratory antigravity.
 
 Classification:
 
@@ -248,7 +242,6 @@ Files:
 src/antigravity_research/geometry/kottler_tidal.py
 tests/known_solutions/test_kottler_tidal.py
 simulations/001b_kottler_tidal_eigenvalues.py
-
 results/data/001b_kottler_tidal_eigenvalues.csv
 results/figures/001b_kottler_tidal_eigenvalues.png
 ```
@@ -257,23 +250,23 @@ This was important because coordinate acceleration alone can be misleading in GR
 
 We therefore examined the local free-fall tidal eigenvalues:
 
-$$
+```math
 \lambda_r=
 \frac{2GM}{r^3}
-+\frac{\Lambda c^2}{3},
-$$
++\frac{\Lambda c^2}{3}
+```
 
-$$
+```math
 \lambda_t=
 -\frac{GM}{r^3}
-+\frac{\Lambda c^2}{3}.
-$$
++\frac{\Lambda c^2}{3}
+```
 
 We reproduced:
 
-$$
-\lambda_r+2\lambda_t=\Lambda c^2.
-$$
+```math
+\lambda_r+2\lambda_t=\Lambda c^2
+```
 
 At sufficiently large radius all three spatial modes become stretching modes.
 
@@ -302,55 +295,54 @@ Files:
 src/antigravity_research/geometry/perfect_fluid_defocusing.py
 tests/known_solutions/test_perfect_fluid_defocusing.py
 simulations/002_required_stress_energy.py
-
 results/data/002_required_stress_energy.csv
 results/figures/002_required_energy_density_1m.png
 ```
 
 For an ideal isotropic fluid we used
 
-$$
+```math
 \frac{\ddot\xi}{\xi}
 =
 -\frac{4\pi G}{3c^2}
 (\epsilon+3p)
 +
-\frac{\Lambda c^2}{3}.
-$$
+\frac{\Lambda c^2}{3}
+```
 
 For
 
-$$
-p=w\epsilon,
-$$
+```math
+p=w\epsilon
+```
 
 the active combination is
 
-$$
-\epsilon(1+3w).
-$$
+```math
+\epsilon(1+3w)
+```
 
 Positive-energy defocusing becomes possible when
 
-$$
-\boxed{w<-\frac13}.
-$$
+```math
+\boxed{w<-\frac13}
+```
 
-The especially interesting \(w=-1\) case preserved classical NEC/WEC/DEC while violating SEC.
+The especially interesting $w=-1$ case preserved classical NEC/WEC/DEC while violating SEC.
 
-For \(1g\) of relative acceleration across one meter:
+For $1g$ of relative acceleration across one meter:
 
-$$
+```math
 \epsilon
 \simeq
-1.5763\times10^{27}\ {\rm J/m^3},
-$$
+1.5763\times10^{27}\ {\rm J/m^3}
+```
 
 with
 
-$$
-p=-\epsilon.
-$$
+```math
+p=-\epsilon
+```
 
 ### Conclusion
 
@@ -372,39 +364,39 @@ tests/known_solutions/test_vacuum_energy_core.py
 simulations/003a_finite_vacuum_energy_core.py
 ```
 
-We attempted to make a finite \(w=-1\) region.
+We attempted to make a finite $w=-1$ region.
 
 The TOV equation gave
 
-$$
+```math
 \frac{dp}{dr}=0
-$$
+```
 
 for pure
 
-$$
-p=-\epsilon.
-$$
+```math
+p=-\epsilon
+```
 
 Therefore a pure vacuum-energy region cannot simply taper continuously to zero at a finite radius while retaining that same EOS.
 
 The proposed de Sitter interior and Schwarzschild exterior had:
 
-$$
-f_{\rm in}(R)=f_{\rm out}(R),
-$$
+```math
+f_{\rm in}(R)=f_{\rm out}(R)
+```
 
 but
 
-$$
-f'_{\rm in}(R)\ne f'_{\rm out}(R).
-$$
+```math
+f'_{\rm in}(R)\ne f'_{\rm out}(R)
+```
 
 Specifically we found the derivative ratio:
 
-$$
-\frac{f'_{\rm in}}{f'_{\rm out}}=-2.
-$$
+```math
+\frac{f'_{\rm in}}{f'_{\rm out}}=-2
+```
 
 Therefore boundary stress is needed.
 
@@ -429,7 +421,6 @@ Files:
 src/antigravity_research/geometry/israel_shell.py
 tests/known_solutions/test_israel_shell.py
 simulations/003b_israel_shell_mass_search.py
-
 results/data/003b_israel_shell_mass_search.csv
 results/figures/003b_israel_shell_conditions_1g.png
 ```
@@ -442,9 +433,9 @@ The central question was:
 
 For an asymptotically flat Schwarzschild exterior, outward weak-field behavior requires
 
-$$
-M_{\rm ADM}<0.
-$$
+```math
+M_{\rm ADM}<0
+```
 
 The exact shell search showed:
 
@@ -458,17 +449,17 @@ NEGATIVE_SHELL_ENERGY_REQUIRED_FOR_OUTWARD_EXTERIOR=YES
 
 The NEC survived approximately over the narrow region
 
-$$
--\frac12M_v\lesssim M_{\rm ADM}<0,
-$$
+```math
+-\frac12M_v\lesssim M_{\rm ADM}<0
+```
 
 but WEC/DEC did not.
 
 The mass relation closed to roughly
 
-$$
+```math
 5\times10^{-16}
-$$
+```
 
 fractional error.
 
@@ -478,9 +469,9 @@ Negative Schwarzschild mass provides repulsion mathematically, but it buys that 
 
 This also fits the broader positive-mass theorem: for asymptotically flat initial data satisfying the dominant energy condition,
 
-$$
-E\ge |P|,
-$$
+```math
+E\ge |P|
+```
 
 so negative ADM energy is unavailable under those assumptions. ([arXiv][3])
 
@@ -496,7 +487,6 @@ Files:
 src/antigravity_research/geometry/reissner_nordstrom.py
 tests/known_solutions/test_reissner_nordstrom.py
 simulations/004a_einstein_maxwell_repulsion.py
-
 results/data/004a_einstein_maxwell_repulsion.csv
 results/figures/004a_rn_neutral_gravity_1g_z1p2.png
 ```
@@ -513,24 +503,24 @@ Reissner–Nordström exterior
 
 and recovered the known RN sign-change radius
 
-$$
+```math
 r_{\rm rep}
 =
 \frac{Q^2}
-{4\pi\epsilon_0Mc^2}.
-$$
+{4\pi\epsilon_0Mc^2}
+```
 
 Define
 
-$$
-z=\frac{r_{\rm rep}}{R}.
-$$
+```math
+z=\frac{r_{\rm rep}}{R}
+```
 
 Then
 
-$$
+```math
 z>1
-$$
+```
 
 puts part of the repulsive region **outside the physical source**.
 
@@ -560,23 +550,23 @@ This is consistent with known RN repulsive behavior for neutral test particles. 
 
 The electromagnetic field has anisotropic stresses:
 
-$$
+```math
 p_r=-\epsilon,
 \qquad
-p_t=+\epsilon.
-$$
+p_t=+\epsilon
+```
 
 It therefore taught us that **anisotropic relativistic stress can reverse local gravity without negative energy**.
 
 ### Physical failure mode
 
-For the \(1g\), \(1\,{\rm m}\) benchmark:
+For the $1g$, $1\,{\rm m}$ benchmark:
 
-$$
+```math
 E_{\rm surface}
 \simeq
-2.67\times10^{19}\ {\rm V/m},
-$$
+2.67\times10^{19}\ {\rm V/m}
+```
 
 around twenty Schwinger fields.
 
@@ -604,54 +594,53 @@ Files:
 src/antigravity_research/geometry/relativistic_wall.py
 tests/known_solutions/test_relativistic_wall.py
 simulations/005a_relativistic_tension_wall.py
-
 results/data/005a_relativistic_tension_wall.csv
 results/figures/005a_tension_efficiency.png
 ```
 
 This generalized the RN lesson.
 
-For a membrane having surface energy \(U\) and tension
+For a membrane having surface energy $U$ and tension
 
-$$
-\tau=qU,
-$$
+```math
+\tau=qU
+```
 
 the planar gravitational sign changes at:
 
-$$
-\boxed{q=\frac12}.
-$$
+```math
+\boxed{q=\frac12}
+```
 
 Repulsion:
 
-$$
-q>\frac12.
-$$
+```math
+q>\frac12
+```
 
 DEC:
 
-$$
-q\le1.
-$$
+```math
+q\le1
+```
 
 Therefore the entire interval
 
-$$
+```math
 \boxed{
 \frac12<q\le1
 }
-$$
+```
 
 supports positive-energy repulsive gravity while satisfying NEC/WEC/DEC.
 
-This matches established GR wall results: sufficiently high tension makes walls repulsive, with the transition at \(\tau/\sigma=1/2\). ([APS Journals][4])
+This matches established GR wall results: sufficiently high tension makes walls repulsive, with the transition at $\tau/\sigma=1/2$. ([APS Journals][4])
 
 The most efficient member of this membrane class is
 
-$$
-q=1,
-$$
+```math
+q=1
+```
 
 the ideal domain-wall stress tensor.
 
@@ -659,25 +648,25 @@ the ideal domain-wall stress tensor.
 
 We obtained:
 
-$$
+```math
 U_{\min}
 \simeq
-2.1017\times10^{27}\ {\rm J/m^2}.
-$$
+2.1017\times10^{27}\ {\rm J/m^2}
+```
 
 Equivalent surface mass:
 
-$$
-2.3385\times10^{10}\ {\rm kg/m^2}.
-$$
+```math
+2.3385\times10^{10}\ {\rm kg/m^2}
+```
 
-The toy \(\phi^4\) mapping produced
+The toy $\phi^4$ mapping produced
 
-$$
+```math
 v\simeq81.5\ {\rm GeV}
-$$
+```
 
-for \(\lambda=1\).
+for $\lambda=1$.
 
 Important caveat:
 
@@ -697,7 +686,6 @@ Files:
 src/antigravity_research/geometry/finite_tension_disk.py
 tests/known_solutions/test_finite_tension_disk.py
 simulations/005b_finite_supported_antigravity.py
-
 results/data/005b_finite_supported_antigravity.csv
 results/figures/005b_finite_supported_field.png
 ```
@@ -722,7 +710,6 @@ FINITE_SOURCE_TOTAL_ENERGY_POSITIVE=YES
 COMPONENT_NEC_WEC_DEC_COMPATIBLE=YES
 VON_LAUE_STRESS_BALANCE=YES
 TOTAL_ACTIVE_MASS_POSITIVE=YES
-
 LOCAL_FIELD_DIRECTION_NEAR_WALL=REPULSIVE
 FAR_FIELD_DIRECTION=ATTRACTIVE
 ```
@@ -731,62 +718,62 @@ This is the key physical picture.
 
 A finite positive-energy system can have:
 
-$$
+```math
 \boxed{\text{repulsive near field}}
-$$
+```
 
 while still having:
 
-$$
-\boxed{\text{ordinary attractive far field}}.
-$$
+```math
+\boxed{\text{ordinary attractive far field}}
+```
 
 There is no contradiction with positive total mass.
 
 The optimal disk geometry in this model was
 
-$$
-q=1,
-$$
+```math
+q=1
+```
 
-$$
+```math
 \frac{R}{h}
-\simeq4.00615,
-$$
+\simeq4.00615
+```
 
 with repulsion extending to
 
-$$
+```math
 \frac{z}{R}
-\simeq0.393320.
-$$
+\simeq0.393320
+```
 
 The architecture's mass law was:
 
-$$
+```math
 \boxed{
 M_{\rm disk}
 \simeq
 79.753148
 \frac{ah^2}{G}.
 }
-$$
+```
 
-At \(1g\) one meter away:
+At $1g$ one meter away:
 
-$$
-M\simeq1.172\times10^{13}\ {\rm kg},
-$$
+```math
+M\simeq1.172\times10^{13}\ {\rm kg}
+```
 
-$$
-E\simeq1.053\times10^{30}\ {\rm J}.
-$$
+```math
+E\simeq1.053\times10^{30}\ {\rm J}
+```
 
-At \(10^{-6}g\), one centimeter away:
+At $10^{-6}g$, one centimeter away:
 
-$$
-M\simeq1.172\times10^3\ {\rm kg}.
-$$
+```math
+M\simeq1.172\times10^3\ {\rm kg}
+```
 
 ### Important qualification
 
@@ -823,7 +810,6 @@ Files:
 src/antigravity_research/geometry/energy_bounds.py
 tests/known_solutions/test_energy_bounds.py
 simulations/006a_static_dec_lower_bound.py
-
 results/data/006a_static_dec_energy_bound.csv
 results/figures/006a_static_dec_mass_bound.png
 ```
@@ -840,11 +826,9 @@ It returned exactly:
 GENERAL_MIN_ENERGY_COEFFICIENT=1.000000
 E_REP=0.500000
 E_SUPPORT=0.500000
-
 P_REP_X=-0.500000
 P_REP_Y=-0.500000
 P_REP_Z=-0.500000
-
 P_SUPPORT_X=+0.500000
 P_SUPPORT_Y=+0.500000
 P_SUPPORT_Z=+0.500000
@@ -864,13 +848,13 @@ And:
 
 So:
 
-$$
+```math
 \boxed{
 1
 <
 79.753
 }
-$$
+```
 
 by an enormous margin. 
 
@@ -878,17 +862,17 @@ The general solution tells us that the abstract optimum wants:
 
 ### Repulsive region
 
-$$
-p_x=p_y=p_z=-\epsilon.
-$$
+```math
+p_x=p_y=p_z=-\epsilon
+```
 
 That is maximally negative pressure while saturating DEC.
 
 ### Supporting region
 
-$$
-p_x=p_y=p_z=+\epsilon.
-$$
+```math
+p_x=p_y=p_z=+\epsilon
+```
 
 That is maximally positive stress.
 
@@ -902,9 +886,9 @@ The optimizer splits the energy equally.
 
 Do **not** promote
 
-$$
+```math
 M\ge\frac{ah^2}{G}
-$$
+```
 
 to a universal theorem yet.
 
@@ -916,13 +900,13 @@ That LP uses:
 * type-I stress-energy;
 * DEC;
 * integrated Laue balance;
-* an optimistic \(1/h^2\) gravitational kernel;
+* an optimistic $1/h^2$ gravitational kernel;
 * no explicit spatial support geometry;
 * no discrete local equation
 
-  $$
-  \partial_jT^{ij}=0;
-  $$
+```math
+  \partial_jT^{ij}=0
+```
 * no exact Einstein constraint equations;
 * no stability conditions;
 * no finite-thickness field realization.
@@ -945,23 +929,23 @@ The **pointwise** part is much stronger:
 
 DEC gives
 
-$$
+```math
 |p_i|\le\epsilon
-$$
+```
 
 and therefore
 
-$$
+```math
 \epsilon+p_x+p_y+p_z
 \ge
--2\epsilon.
-$$
+-2\epsilon
+```
 
 That really does identify
 
-$$
+```math
 p_x=p_y=p_z=-\epsilon
-$$
+```
 
 as the maximally negative active source within this type-I DEC framework.
 
@@ -975,82 +959,82 @@ But converting that local statement into the global coefficient exactly equal to
 
 For a static DEC source, the optimistic abstract bound is:
 
-$$
+```math
 \boxed{
 M_{\rm static}
 \approx
 \frac{ah^2}{G}.
 }
-$$
+```
 
-### \(1g\)
+### $1g$
 
-At \(h=1\,{\rm m}\):
+At $h=1\,{\rm m}$:
 
-$$
+```math
 M_{\min}
 =
-1.4693\times10^{11}\ {\rm kg},
-$$
+1.4693\times10^{11}\ {\rm kg}
+```
 
-$$
+```math
 E_{\min}
 =
-1.3206\times10^{28}\ {\rm J}.
-$$
+1.3206\times10^{28}\ {\rm J}
+```
 
-At \(h=1\,{\rm cm}\):
+At $h=1\,{\rm cm}$:
 
-$$
+```math
 M_{\min}
 =
-1.4693\times10^7\ {\rm kg}.
-$$
+1.4693\times10^7\ {\rm kg}
+```
 
-At \(h=1\,{\rm mm}\):
+At $h=1\,{\rm mm}$:
 
-$$
+```math
 M_{\min}
 =
-1.4693\times10^5\ {\rm kg}.
-$$
+1.4693\times10^5\ {\rm kg}
+```
 
-At \(h=1\,\mu{\rm m}\):
+At $h=1\,\mu{\rm m}$:
 
-$$
+```math
 M_{\min}
 =
-0.1469\ {\rm kg},
-$$
+0.1469\ {\rm kg}
+```
 
 but still:
 
-$$
+```math
 E_{\min}
 =
-1.3206\times10^{16}\ {\rm J}.
-$$
+1.3206\times10^{16}\ {\rm J}
+```
 
-At \(h=1\,{\rm nm}\):
+At $h=1\,{\rm nm}$:
 
-$$
+```math
 M_{\min}
 =
-1.4693\times10^{-7}\ {\rm kg},
-$$
+1.4693\times10^{-7}\ {\rm kg}
+```
 
 with
 
-$$
+```math
 E_{\min}
-\sim1.32\times10^{10}\ {\rm J}.
-$$
+\sim1.32\times10^{10}\ {\rm J}
+```
 
 The extremely important scaling is:
 
-$$
-\boxed{M,E\propto h^2}.
-$$
+```math
+\boxed{M,E\propto h^2}
+```
 
 This means microscopic stand-off helps enormously.
 
@@ -1064,7 +1048,7 @@ I would classify our results like this.
 
 ## KNOWN_RESULT — independently reproduced
 
-### Cosmological-\(\Lambda\) defocusing
+### Cosmological-$\Lambda$ defocusing
 
 Confirmed.
 
@@ -1078,9 +1062,9 @@ Confirmed and consistent with known exact GR results. ([APS Journals][1])
 
 ### Tension threshold near
 
-$$
+```math
 \tau/U=1/2
-$$
+```
 
 Confirmed and consistent with established planar-wall calculations. ([APS Journals][4])
 
@@ -1096,17 +1080,17 @@ Confirmed and consistent with known neutral-test-particle analyses. ([arXiv][2])
 
 We obtained:
 
-$$
-R/h\simeq4.00615,
-$$
+```math
+R/h\simeq4.00615
+```
 
-$$
-z_{\rm zero}/R\simeq0.393320,
-$$
+```math
+z_{\rm zero}/R\simeq0.393320
+```
 
-$$
-M\simeq79.753\,ah^2/G.
-$$
+```math
+M\simeq79.753\,ah^2/G
+```
 
 This appears internally consistent in our linearized model.
 
@@ -1116,9 +1100,9 @@ It needs independent analytical derivation and ideally an independent implementa
 
 We obtained:
 
-$$
-C_{\rm optimum}=1.
-$$
+```math
+C_{\rm optimum}=1
+```
 
 This is extremely interesting.
 
@@ -1144,7 +1128,7 @@ Low priority.
 
 Correct sign.
 
-Hopeless magnitude at observed \(\Lambda\).
+Hopeless magnitude at observed $\Lambda$.
 
 Low priority.
 
@@ -1160,15 +1144,15 @@ Keep as reference solution, not primary practical route.
 
 Far too small because ordinary matter has roughly
 
-$$
-\tau/U\ll1.
-$$
+```math
+\tau/U\ll1
+```
 
 Antigravity wants relativistic stresses:
 
-$$
-\tau/U\sim1.
-$$
+```math
+\tau/U\sim1
+```
 
 Low priority unless an exotic condensed-matter effective stress can mimic relativistic field stress gravitationally—which would require extremely careful treatment because effective pressure is not automatically the same as fundamental stress-energy.
 
@@ -1182,19 +1166,19 @@ This is, in my assessment, more important than immediately jumping to modified g
 
 The unresolved question is:
 
-$$
+```math
 \boxed{
 1
 \le C_{\rm real}
 \le79.753
 }
-$$
+```
 
 where
 
-$$
-M=C_{\rm real}\frac{ah^2}{G}.
-$$
+```math
+M=C_{\rm real}\frac{ah^2}{G}
+```
 
 We need to determine how close an actual spatially conserved source can get to 1.
 
@@ -1204,32 +1188,32 @@ Use axisymmetry initially.
 
 Each cell should contain variables like:
 
-$$
+```math
 \epsilon,
 p_r,
 p_z,
-p_\phi,
-$$
+p_\phi
+```
 
 and potentially shear stresses.
 
 Impose pointwise:
 
-$$
-\epsilon\ge0,
-$$
+```math
+\epsilon\ge0
+```
 
 and DEC constraints such as
 
-$$
-|p_i|\le\epsilon.
-$$
+```math
+|p_i|\le\epsilon
+```
 
 Then impose discrete local conservation:
 
-$$
-\partial_jT^{ij}=0.
-$$
+```math
+\partial_jT^{ij}=0
+```
 
 Not merely integrated Laue balance.
 
@@ -1237,15 +1221,15 @@ The target acceleration should be computed using the actual spatial Green-functi
 
 Objective:
 
-$$
-\min \int \epsilon\,dV.
-$$
+```math
+\min \int \epsilon\,dV
+```
 
 Constraint:
 
-$$
-a_z(\text{target})\ge a_{\rm requested}.
-$$
+```math
+a_z(\text{target})\ge a_{\rm requested}
+```
 
 Then optimize source geometry.
 
@@ -1253,25 +1237,25 @@ Then optimize source geometry.
 
 If it reaches:
 
-$$
-C\sim1-5,
-$$
+```math
+C\sim1-5
+```
 
 then our disk was extremely inefficient and there may be a much better classical architecture.
 
 If it bottoms out around:
 
-$$
-C\sim10-100,
-$$
+```math
+C\sim10-100
+```
 
 then finite geometry/local stress conservation imposes a major penalty.
 
 If it reproduces approximately:
 
-$$
-C\sim79.753,
-$$
+```math
+C\sim79.753
+```
 
 then our simple disk/rim architecture may already be surprisingly close to optimal.
 
@@ -1287,9 +1271,9 @@ Do not reuse `finite_tension_disk.py`.
 
 Write an independent numerical integration directly over the stress-energy:
 
-$$
-T_{\mu\nu}(\mathbf x).
-$$
+```math
+T_{\mu\nu}(\mathbf x)
+```
 
 Numerically integrate the linearized Einstein Green function.
 
@@ -1299,25 +1283,25 @@ Compare the resulting axial acceleration against:
 dimensionless_axis_factor()
 ```
 
-for many \(q,z/R\).
+for many $q,z/R$.
 
 Specifically reproduce:
 
-$$
+```math
 z_{\rm zero}/R
 =
 0.393319893190
-$$
+```
 
-for \(q=1\),
+for $q=1$,
 
 and
 
-$$
+```math
 R/h
 =
 4.006149670781
-$$
+```
 
 at the optimum.
 
@@ -1335,9 +1319,9 @@ Replace them with finite thickness.
 
 Check:
 
-$$
+```math
 \nabla_\mu T^{\mu\nu}=0
-$$
+```
 
 throughout the entire source.
 
@@ -1373,7 +1357,7 @@ Calculate:
 * principal pressures;
 * active gravitational combination;
 * predicted local gravitational acceleration;
-* dependence on plate spacing \(d\);
+* dependence on plate spacing $d$;
 * apparatus support stresses;
 * total apparatus mass;
 * gravitational field including plates/support.
@@ -1392,17 +1376,17 @@ Scan:
 
 The fundamental Casimir scaling is roughly:
 
-$$
-|\rho_C|\propto\frac{\hbar c}{d^4}.
-$$
+```math
+|\rho_C|\propto\frac{\hbar c}{d^4}
+```
 
 The corresponding gravitational scale is therefore roughly:
 
-$$
+```math
 a_{\rm Casimir}
 \sim
 \frac{G\hbar}{c\,d^3}
-$$
+```
 
 up to order-one/geometric factors.
 
@@ -1420,15 +1404,15 @@ Instead of choosing a particular apparatus, impose a representative QEI bound.
 
 Ask:
 
-> Given a sampling duration \(\tau\) and spatial scale \(h\), what maximum negative stress-energy is quantum field theory plausibly allowed to sustain?
+> Given a sampling duration $\tau$ and spatial scale $h$, what maximum negative stress-energy is quantum field theory plausibly allowed to sustain?
 
 Then convert that into maximum gravitational acceleration.
 
 Make the result a map:
 
-$$
-a_{\max}(h,\tau).
-$$
+```math
+a_{\max}(h,\tau)
+```
 
 If QEI-limited negative energy remains hopelessly weak until near nuclear or Planck scales, we can deprioritize the whole quantum-vacuum branch.
 
@@ -1444,21 +1428,21 @@ A time-dependent source need not satisfy the same instantaneous Laue conditions.
 
 Therefore a dynamic pulse could in principle avoid the factor-of-two support-energy penalty that changed:
 
-$$
+```math
 \frac{ah^2}{2G}
-$$
+```
 
 into:
 
-$$
-\frac{ah^2}{G}.
-$$
+```math
+\frac{ah^2}{G}
+```
 
 But it does **not** automatically evade the pointwise DEC inequality
 
-$$
-S\ge-2\epsilon.
-$$
+```math
+S\ge-2\epsilon
+```
 
 Therefore I do not currently expect dynamics alone to reduce the energy requirement by dozens of orders of magnitude.
 
@@ -1482,7 +1466,7 @@ Still, a future Simulation 007C should investigate:
 Modified gravity gives us enormous freedom:
 
 * scalar-tensor gravity;
-* \(f(R)\);
+* $f(R)$;
 * Horndeski-type theories;
 * vector-tensor models;
 * massive gravity;
@@ -1543,51 +1527,36 @@ I would record the current claims as:
 ```text
 KNOWN_RESULT:
 Cosmological Lambda produces geodesic defocusing.
-
 KNOWN_RESULT_REPRODUCED:
 Kottler static-radius transition.
-
 KNOWN_RESULT_REPRODUCED:
 Reissner-Nordstrom geometry can produce local neutral-particle
 gravitational repulsion.
-
 KNOWN_RESULT_REPRODUCED:
 Relativistic domain-wall tension can produce gravitational repulsion.
-
 REPRODUCED:
 Positive energy does not forbid local gravitational repulsion.
-
 REPRODUCED:
 Negative ADM mass is not required for local gravitational repulsion.
-
 NUMERICAL_MODEL_RESULT:
 Finite DEC-supported tension disk has a local repulsive region.
-
 NUMERICAL_MODEL_RESULT:
 005B optimum R/h ≈ 4.00614967.
-
 NUMERICAL_MODEL_RESULT:
 005B coefficient ≈ 79.753148.
-
 NUMERICAL_OPTIMIZATION_RESULT:
 Abstract static DEC+Laue LP coefficient = 1.
-
 CONJECTURE / UNPROVEN:
 Coefficient 1 is a universal attainable lower bound for finite static
 DEC matter in GR.
-
 NOT_ESTABLISHED:
 Finite material capable of realizing required relativistic stress.
-
 NOT_ESTABLISHED:
 Stable laboratory domain-wall source.
-
 NOT_ESTABLISHED:
 Global positive-mass antigravity.
-
 NOT_ESTABLISHED:
 Practical antigravity device.
-
 NOVEL_PHYSICS_CLAIM:
 NO.
 ```
@@ -1630,7 +1599,6 @@ To preserve all output:
 
 ```bash
 mkdir -p results/logs
-
 for SIM in \
   simulations/001_kottler_weak_field.py \
   simulations/001b_kottler_tidal_eigenvalues.py \
@@ -1645,7 +1613,6 @@ do
     NAME="$(basename "$SIM" .py)"
     echo
     echo "===== $NAME ====="
-
     "$PY" "$SIM" 2>&1 |
       tee "results/logs/${NAME}_rerun.log"
 done
@@ -1664,49 +1631,42 @@ The highest-value path is:
 ```text
 FIRST:
 Run full ~67-test regression.
-
 SECOND:
 006B geometry-aware DEC optimizer with local conservation.
-
 THIRD:
 006C independently integrate the 005B stress-energy gravitational field.
-
 FOURTH:
 006D finite-thickness/local-conservation realization.
-
 FIFTH:
 007A Casimir negative-energy gravitational benchmark.
-
 SIXTH:
 007B quantum-energy-inequality bound.
-
 SEVENTH:
 007C dynamic/nonstatic stress sources.
-
 ONLY THEN:
 008 modified-gravity escape routes.
 ```
 
 The single most important immediate question is therefore:
 
-$$
+```math
 \boxed{
 \textbf{How close can an actual finite, locally conserved DEC source get to }
 M=\frac{ah^2}{G}\textbf{?}
 }
-$$
+```
 
 If we can reduce the explicit coefficient from
 
-$$
+```math
 79.753
-$$
+```
 
 toward
 
-$$
-1,
-$$
+```math
+1
+```
 
 that is a substantial improvement in the classical positive-energy antigravity architecture.
 
@@ -1770,44 +1730,42 @@ The required relativistic stress-energy densities are enormous.
 
 The project has converged on:
 
-$$
+```math
 \boxed{
 \textbf{Antigravity in GR is fundamentally a stress-engineering problem.}
 }
-$$
+```
 
 The source should not be thought of as “negative mass.”
 
 The more useful target is:
 
-$$
+```math
 \boxed{
 \text{positive energy with relativistically negative principal pressure/tension}
 }
-$$
+```
 
 placed near the target while compensating positive stresses are arranged so that the complete isolated system remains physically consistent.
 
 And 006A has now made the next research objective extraordinarily clear:
 
-$$
+```math
 \boxed{
 \textbf{Find the minimum-energy spatial realization of that stress tensor.}
 }
-$$
+```
 
 That is where I would resume. It gives us a focused mathematical optimization problem instead of another broad search for mysterious antigravity physics.
 
-[1]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.30.712?utm_source=chatgpt.com "Gravitationally repulsive domain wall | Phys. Rev. D"
-[2]: https://arxiv.org/abs/1012.5411?utm_source=chatgpt.com "Circular motion of neutral test particles in Reissner-Nordström spacetime"
-[3]: https://arxiv.org/abs/1110.2087?utm_source=chatgpt.com "The spacetime positive mass theorem in dimensions less than eight"
-[4]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.30.2452?utm_source=chatgpt.com "Repulsive and attractive planar walls in general relativity | Phys. Rev. D"
-[5]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.39.3571?utm_source=chatgpt.com "General-relativistic domain walls | Phys. Rev. D"
+[1]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.30.712 "Gravitationally repulsive domain wall | Phys. Rev. D"
+[2]: https://arxiv.org/abs/1012.5411 "Circular motion of neutral test particles in Reissner-Nordström spacetime"
+[3]: https://arxiv.org/abs/1110.2087 "The spacetime positive mass theorem in dimensions less than eight"
+[4]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.30.2452 "Repulsive and attractive planar walls in general relativity | Phys. Rev. D"
+[5]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.39.3571 "General-relativistic domain walls | Phys. Rev. D"
 [6]: https://arxiv.org/abs/1808.09320 "[1808.09320] Laue's Theorem Revisited: Energy-Momentum Tensors, Symmetries, and the Habitat of Globally Conserved Quantities"
-[7]: https://arxiv.org/abs/math-ph/0501073?utm_source=chatgpt.com "Energy Inequalities in Quantum Field Theory"
-[8]: https://arxiv.org/abs/gr-qc/9711030?utm_source=chatgpt.com "Quantum Inequalities and Singular Energy Densities"
-[9]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.76.025008?utm_source=chatgpt.com "Relativistic mechanics of Casimir apparatuses in a weak gravitational field | Phys. Rev. D"
-
-
+[7]: https://arxiv.org/abs/math-ph/0501073 "Energy Inequalities in Quantum Field Theory"
+[8]: https://arxiv.org/abs/gr-qc/9711030 "Quantum Inequalities and Singular Energy Densities"
+[9]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.76.025008 "Relativistic mechanics of Casimir apparatuses in a weak gravitational field | Phys. Rev. D"
 
 ### END NOTE - AUGUST 27 2026 - 01:00 CST
