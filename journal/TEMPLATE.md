@@ -36,6 +36,13 @@ Did CLAIMS.md change?
 
 What remains unresolved?
 
+## AI Assistance
+
+AI assistant used: ChatGPT by OpenAI
+
+Record any substantial AI-assisted derivation, code generation, analysis, or
+verification performed during this session.
+
 ## Next Action
 
 What is the highest-value task for the next research session?
