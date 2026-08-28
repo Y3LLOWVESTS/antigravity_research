@@ -1,122 +1,1105 @@
 # Antigravity Research
 
-> For detailed running research notes, intermediate conclusions, assumptions,
-> and next-step planning, see [`NOTES.md`](NOTES.md).
->
-> Project formatting, GitHub math, code-header, and documentation standards:
-> [`FORMATTING_AND_CODE_STANDARDS.md`](FORMATTING_AND_CODE_STANDARDS.md).
->
-> Active research priorities, decision gates, and execution strategy:
-> [`RESEARCH_BUILDPLAN.md`](RESEARCH_BUILDPLAN.md).
+> # **We have a mathematical construction for antigravity-like gravitational repulsion.**
 
-Mathematical and computational research into gravitational repulsion,
-gravitational defocusing, reduced gravitational attraction, relativistic
-stress-energy, quantum stress-energy, and related phenomena in general
-relativity and neighboring theories.
+The exact scientific claim is:
 
-The project begins with established physics, reproduces known solutions, and
-then uses analytical and numerical methods to investigate the conditions under
-which gravity can become locally repulsive.
+> **Within static linearized general relativity, there exists an explicit finite-radius, finite-thickness, nonsingular, positive-energy, locally conserved type-I stress-energy configuration satisfying NEC, WEC, and DEC whose calculated near field points outward while its far-field active mass remains positive.**
 
-The long-term question is:
+Everything required to reconstruct the **006D headline calculation** is given below: the linearized-GR field equation, sign convention, exact dimensionless source, smoothing widths, finite-thickness profile, energy density, conservation proof, energy-condition proof, positive far-field proof, numerical integrals, quadrature tolerances, convergence data, expected numerical invariants, and a standalone Python reproducer that imports no project modules.
 
-> What physically consistent stress-energy configurations, spacetime
-> geometries, quantum effects, or well-motivated extensions of gravitational
-> theory can produce measurable gravitational repulsion or reduced attraction?
+The result is a **constructive linearized-GR stress-energy result**. It is not an exact nonlinear solution, a stability proof, a material realization, or a practical antigravity device.
 
----
-
-## Research Philosophy
-
-- Start with established physics.
-- Reproduce known results before exploring new ideas.
-- Separate coordinate effects from measurable physical effects.
-- Prefer operational or invariant quantities such as geodesic deviation,
-  proper acceleration, curvature, and relative free-fall acceleration.
-- Verify important results independently.
-- Record assumptions explicitly.
-- Test dimensional consistency and limiting cases.
-- Record negative results and no-go results.
-- Distinguish exact GR solutions from weak-field or idealized models.
-- Distinguish mathematical possibility from physical realizability.
-- Distinguish local repulsion from global repulsion.
-- Distinguish a theoretical stress-energy construction from a practical device.
-- Treat AI-generated mathematics and code as unverified until checked.
-- Do not classify anything as a discovery without independent validation and
-  literature comparison.
+```text
+HEADLINE_CLAIM=SUPPORTED_WITHIN_STATIC_LINEARIZED_GR
+ANALYTIC_CONSERVATION_PROOF=YES
+ANALYTIC_ENERGY_CONDITION_PROOF=YES
+ANALYTIC_POSITIVE_FAR_FIELD_ACTIVE_MASS_PROOF=YES
+FINITE_SOURCE_SPECIFIED_EXPLICITLY=YES
+LOCAL_OUTWARD_FIELD=NUMERICALLY_REPRODUCIBLE
+TWO_NUMERICAL_Z_INTEGRATION_METHODS=AGREE
+EXACT_NONLINEAR_GR=NOT_ESTABLISHED
+DYNAMIC_STABILITY=NOT_ESTABLISHED
+KNOWN_MATERIAL_REALIZATION=NO
+PRACTICAL_ANTIGRAVITY_DEVICE=NO
+```
 
 ---
 
-## Current Research Status
+# Verification Dossier for the Headline Claim
 
-The project has established that **local gravitational repulsion is permitted
-within established general relativity** and has reproduced several known
-mechanisms computationally, including:
+## 1. Conventions and approximation
 
-- cosmological-constant-driven geodesic defocusing;
-- Schwarzschild-de Sitter / Kottler repulsive behavior;
-- Reissner-Nordstrom gravitational repulsion;
-- relativistic domain-wall gravitational repulsion.
+Use metric signature $(-,+,+,+)$.
 
-The project has also constructed a stronger finite-source result within
-**static linearized general relativity**:
-
-> **A finite-radius, finite-thickness, nonsingular, positive-energy, locally
-> conserved stress-energy configuration satisfying NEC, WEC, and DEC can
-> produce a locally outward gravitational field while retaining positive
-> far-field mass.**
-
-This result is project-derived and belongs specifically to the linearized-GR
-model used in Simulations 006B-006D. It is not yet an exact nonlinear GR
-solution and does not establish a realizable material or practical device.
-
-The recurring classical mechanism is:
-
-> **Positive energy combined with sufficiently large relativistic negative
-> pressure or tension can produce locally repulsive gravity.**
-
-In a local rest frame, consider stress-energy of the approximate form
+In a local orthonormal frame the static type-I source is
 
 ```math
-T^\mu{}_{\nu}
+T_{\hat\mu\hat\nu}
 =
 \mathrm{diag}
 \left(
 \epsilon,
- p_x,
- p_y,
- p_z
+p_r,
+p_\phi,
+p_z
 \right)
 ```
 
-In the static weak-field limit, the active gravitational source contains the
-combination
+where $\epsilon$ and the principal pressures have units of energy density.
+
+The calculation is performed in **static linearized general relativity** about Minkowski spacetime.
+
+Write
 
 ```math
-\epsilon+p_x+p_y+p_z
-```
-
-Ordinary matter generally satisfies
-
-```math
-|p_i|\ll\epsilon
-```
-
-and therefore behaves attractively.
-
-Relativistic fields can instead have stresses comparable in magnitude to
-their energy density. Sufficiently negative principal pressures can make the
-local active gravitational contribution negative.
-
-The current best classical static architecture is characterized using
-
-```math
-M_{\mathrm{equiv}}
+g_{\mu\nu}
 =
-C\frac{a h^2}{G}
+\eta_{\mu\nu}
++
+h_{\mu\nu}
 ```
 
-with the best verified thin conserved architecture at
+with $|h_{\mu\nu}|\ll1$, and define the trace-reversed perturbation
+
+```math
+\bar h_{\mu\nu}
+=
+h_{\mu\nu}
+-
+\frac{1}{2}
+\eta_{\mu\nu}h
+```
+
+In harmonic gauge,
+
+```math
+\Box\bar h_{\mu\nu}
+=
+-\frac{16\pi G}{c^4}
+T_{\mu\nu}
+```
+
+For a static source,
+
+```math
+\nabla^2\bar h_{\mu\nu}
+=
+-\frac{16\pi G}{c^4}
+T_{\mu\nu}
+```
+
+Using
+
+```math
+h_{00}
+=
+\frac{1}{2}
+\left(
+\bar h_{00}
++
+\bar h_{11}
++
+\bar h_{22}
++
+\bar h_{33}
+\right)
+```
+
+and the weak-field definition
+
+```math
+g_{00}
+=
+-\left(
+1+\frac{2\Phi}{c^2}
+\right)
+```
+
+gives
+
+```math
+\boxed{
+\nabla^2\Phi
+=
+\frac{4\pi G}{c^2}
+\left(
+\epsilon+p_r+p_\phi+p_z
+\right)
+}
+```
+
+Define the active source
+
+```math
+S
+=
+\epsilon+p_r+p_\phi+p_z
+```
+
+The Green-function solution is
+
+```math
+\Phi(\mathbf x)
+=
+-\frac{G}{c^2}
+\int
+\frac{
+S(\mathbf x')
+}{
+|\mathbf x-\mathbf x'|
+}
+\,d^3x'
+```
+
+and the physical weak-field acceleration is
+
+```math
+\mathbf a
+=
+-\nabla\Phi
+```
+
+For an axisymmetric source and an on-axis target at $z=h$,
+
+```math
+a_z(h)
+=
+-\frac{2\pi G}{c^2}
+\int dz
+\int_0^\infty dr\,
+r
+S(r,z)
+\frac{h-z}
+{\left[
+r^2+(h-z)^2
+\right]^{3/2}}
+```
+
+The repository convention is:
+
+```text
+a_z > 0  -> outward, away from the source slab
+a_z < 0  -> inward, toward the source slab
+```
+
+---
+
+## 2. Dimensionless normalization
+
+Let
+
+```math
+x
+=
+\frac{r}{h}
+```
+
+and
+
+```math
+\zeta
+=
+\frac{z}{h}
+```
+
+The target is fixed at
+
+```math
+\zeta_{\mathrm{target}}=1
+```
+
+The finite source occupies
+
+```math
+-\delta
+\le
+\zeta
+\le
+0
+```
+
+with the finest tested regularization
+
+```math
+\boxed{
+\delta
+=
+0.00625
+}
+```
+
+The dimensionless radial constants are
+
+```math
+\boxed{
+\alpha
+=
+1.437500564637
+}
+```
+
+and
+
+```math
+\boxed{
+\beta
+=
+4.701437405300
+}
+```
+
+The exact smoothing widths for the quoted finite result are
+
+```math
+\delta_{\mathrm{inner}}
+=
+\frac{\delta}{4}
+=
+0.0015625
+```
+
+and
+
+```math
+\delta_{\mathrm{outer}}
+=
+\delta
+=
+0.00625
+```
+
+Therefore
+
+```math
+x_-
+=
+\alpha-\delta_{\mathrm{inner}}
+=
+1.435938064637
+```
+
+```math
+x_+
+=
+\alpha+\delta_{\mathrm{inner}}
+=
+1.439063064637
+```
+
+and the outer support radius is
+
+```math
+x_{\max}
+=
+\beta+\delta_{\mathrm{outer}}
+=
+4.707687405300
+```
+
+These constants are sufficient to reconstruct the finite source used for the quoted value $C_{\mathrm{finite}}=23.591586299249$.
+
+---
+
+## 3. Exact radial stress construction
+
+Define
+
+```math
+q(x)
+=
+x p_r(x)
+```
+
+and impose
+
+```math
+p_\phi(x)
+=
+\frac{dq}{dx}
+```
+
+with
+
+```math
+p_z=0
+```
+
+and no shear component:
+
+```math
+T_{\hat r\hat z}=0
+```
+
+Define the cubic smoothstep
+
+```math
+s(u)
+=
+u^2(3-2u)
+```
+
+with
+
+```math
+s'(u)
+=
+6u(1-u)
+```
+
+The core and annular branches are
+
+```math
+q_{\mathrm{core}}(x)
+=
+-x
+```
+
+and
+
+```math
+q_{\mathrm{ann}}(x)
+=
+-\frac{\alpha^2}{x}
+```
+
+Their derivatives are
+
+```math
+q'_{\mathrm{core}}(x)
+=
+-1
+```
+
+and
+
+```math
+q'_{\mathrm{ann}}(x)
+=
+\frac{\alpha^2}{x^2}
+```
+
+The complete finite radial source is:
+
+### Region I — inner tension region
+
+For
+
+```math
+0\le x<x_-
+```
+
+use
+
+```math
+q(x)
+=
+q_{\mathrm{core}}(x)
+```
+
+### Region II — smooth inner transition
+
+For
+
+```math
+x_-\le x\le x_+
+```
+
+define
+
+```math
+u
+=
+\frac{x-x_-}{x_+-x_-}
+```
+
+and use
+
+```math
+q(x)
+=
+\left[
+1-s(u)
+\right]
+q_{\mathrm{core}}(x)
++
+s(u)q_{\mathrm{ann}}(x)
+```
+
+The exact derivative is
+
+```math
+q'(x)
+=
+\left[
+1-s(u)
+\right]
+q'_{\mathrm{core}}(x)
++
+s(u)q'_{\mathrm{ann}}(x)
++
+\frac{s'(u)}{x_+-x_-}
+\left[
+q_{\mathrm{ann}}(x)-q_{\mathrm{core}}(x)
+\right]
+```
+
+### Region III — conserved transfer annulus
+
+For
+
+```math
+x_+<x<\beta
+```
+
+use
+
+```math
+q(x)
+=
+q_{\mathrm{ann}}(x)
+```
+
+### Region IV — finite outer support collar
+
+For
+
+```math
+\beta\le x\le\beta+\delta_{\mathrm{outer}}
+```
+
+define
+
+```math
+v
+=
+\frac{x-\beta}{\delta_{\mathrm{outer}}}
+```
+
+and use
+
+```math
+q(x)
+=
+\left[
+1-s(v)
+\right]
+q_{\mathrm{ann}}(x)
+```
+
+with derivative
+
+```math
+q'(x)
+=
+\left[
+1-s(v)
+\right]
+q'_{\mathrm{ann}}(x)
+-
+\frac{s'(v)}{\delta_{\mathrm{outer}}}
+q_{\mathrm{ann}}(x)
+```
+
+### Region V — vacuum
+
+For
+
+```math
+x>\beta+\delta_{\mathrm{outer}}
+```
+
+use
+
+```math
+q(x)=0
+```
+
+At $x=0$ the regular limiting values are
+
+```math
+q(0)=0
+```
+
+```math
+p_r(0)=-1
+```
+
+```math
+p_\phi(0)=-1
+```
+
+At the outer boundary,
+
+```math
+q(x_{\max})=0
+```
+
+and
+
+```math
+q'(x_{\max})=0
+```
+
+so there is no hidden singular line support.
+
+---
+
+## 4. Exact finite-thickness profile
+
+Let $U_0>0$ be an arbitrary positive surface-energy scale.
+
+Define the normalized vertical bump
+
+```math
+\varphi_\delta(\zeta)
+=
+\frac{30}{\delta}
+y^2(1-y)^2
+```
+
+for
+
+```math
+-\delta\le\zeta\le0
+```
+
+where
+
+```math
+y
+=
+\frac{\zeta+\delta}{\delta}
+```
+
+and set $\varphi_\delta=0$ outside the slab.
+
+The profile is normalized:
+
+```math
+\int_{-\delta}^{0}
+\varphi_\delta(\zeta)
+\,d\zeta
+=
+1
+```
+
+It also vanishes smoothly at both slab boundaries.
+
+The physical volume stresses are
+
+```math
+p_r^{\mathrm{phys}}(r,z)
+=
+\frac{U_0}{h}
+p_r(x)
+\varphi_\delta(\zeta)
+```
+
+```math
+p_\phi^{\mathrm{phys}}(r,z)
+=
+\frac{U_0}{h}
+p_\phi(x)
+\varphi_\delta(\zeta)
+```
+
+```math
+p_z^{\mathrm{phys}}(r,z)=0
+```
+
+The physical energy density is
+
+```math
+\epsilon^{\mathrm{phys}}(r,z)
+=
+\frac{U_0}{h}
+\epsilon(x)
+\varphi_\delta(\zeta)
+```
+
+where the dimensionless energy profile is defined below.
+
+Because $U_0>0$, changing $U_0$ rescales the entire source and field without changing any sign statement or the coefficient $C$.
+
+---
+
+## 5. Analytic local-conservation proof
+
+By definition,
+
+```math
+p_r(x)
+=
+\frac{q(x)}{x}
+```
+
+for $x>0$, and
+
+```math
+p_\phi(x)
+=
+q'(x)
+```
+
+Therefore
+
+```math
+\frac{dp_r}{dx}
+=
+\frac{q'}{x}
+-
+\frac{q}{x^2}
+```
+
+and
+
+```math
+\frac{dp_r}{dx}
++
+\frac{
+p_r-p_\phi
+}{x}
+=
+\left(
+\frac{q'}{x}
+-
+\frac{q}{x^2}
+\right)
++
+\frac{
+q/x-q'
+}{x}
+=
+0
+```
+
+Thus the flat-background cylindrical radial conservation equation is satisfied identically wherever the source is differentiable.
+
+The smoothing functions make $q$ and $q'$ continuous at the interfaces, so there is no omitted distributional radial force.
+
+Since
+
+```math
+p_z=0
+```
+
+and
+
+```math
+T_{\hat r\hat z}=0
+```
+
+the static $z$-directed conservation equation also vanishes.
+
+Multiplication by the common nonnegative vertical profile does not spoil the radial identity, and there are no $z$-indexed stresses whose $z$ derivative would create a new force term.
+
+Therefore
+
+```math
+\boxed{
+\partial_\mu T^{\mu\nu}=0
+}
+```
+
+for the static source on the flat background used by the linearized calculation.
+
+This is **linearized-order conservation**, not yet the exact nonlinear statement $\nabla_\mu T^{\mu\nu}=0$ in the self-consistent curved metric.
+
+---
+
+## 6. Analytic positive-energy and energy-condition proof
+
+Choose
+
+```math
+\boxed{
+\epsilon(x)
+=
+\max
+\left(
+|p_r(x)|,
+|p_\phi(x)|
+\right)
+}
+```
+
+with $p_z=0$.
+
+Immediately,
+
+```math
+\epsilon\ge0
+```
+
+and
+
+```math
+|p_r|\le\epsilon
+```
+
+```math
+|p_\phi|\le\epsilon
+```
+
+```math
+|p_z|\le\epsilon
+```
+
+For a diagonal type-I stress-energy tensor these are the pointwise dominant-energy-condition inequalities.
+
+Therefore:
+
+```text
+DEC=SATISFIED
+WEC=SATISFIED
+NEC=SATISFIED
+```
+
+The construction saturates some inequalities at some points; it does not require negative energy density.
+
+---
+
+## 7. Analytic proof of positive far-field active mass
+
+The dimensionless positive mass factor is
+
+```math
+m_\delta
+=
+2
+\int_0^{x_{\max}}
+x\epsilon(x)
+\,dx
+```
+
+Because $\epsilon\ge0$ and the source is nonzero,
+
+```math
+m_\delta>0
+```
+
+The integrated dimensionless spatial-stress trace is
+
+```math
+\tau_\delta
+=
+2
+\int_0^{x_{\max}}
+x
+\left(
+p_r+p_\phi
+\right)
+\,dx
+```
+
+Using $p_r=q/x$ and $p_\phi=q'$,
+
+```math
+\tau_\delta
+=
+2
+\int_0^{x_{\max}}
+\left(
+q+xq'
+\right)
+\,dx
+```
+
+so
+
+```math
+\tau_\delta
+=
+2
+\left[
+xq(x)
+\right]_0^{x_{\max}}
+```
+
+The boundary conditions give
+
+```math
+q(0)=0
+```
+
+and
+
+```math
+q(x_{\max})=0
+```
+
+hence
+
+```math
+\boxed{
+\tau_\delta=0
+}
+```
+
+Therefore the integrated active gravitational source is
+
+```math
+m_{\mathrm{active}}
+=
+m_\delta+\tau_\delta
+=
+m_\delta
+>
+0
+```
+
+So the far-field active mass is positive **analytically**, not merely because a program prints a Boolean flag.
+
+---
+
+## 8. Exact finite-source local-field integral
+
+Define the dimensionless active radial profile
+
+```math
+A(x)
+=
+\epsilon(x)+p_r(x)+p_\phi(x)
+```
+
+because $p_z=0$.
+
+For the finite vertical slab define
+
+```math
+K_\delta(x)
+=
+\int_{-\delta}^{0}
+\varphi_\delta(\zeta)
+\frac{
+1-\zeta
+}{
+\left[
+x^2+(1-\zeta)^2
+\right]^{3/2}
+}
+\,d\zeta
+```
+
+The dimensionless outward field factor is
+
+```math
+\boxed{
+F_\delta
+=
+-
+\int_0^{x_{\max}}
+xA(x)K_\delta(x)
+\,dx
+}
+```
+
+The physical acceleration at the target is then
+
+```math
+\boxed{
+a_z
+=
+\frac{
+2\pi G U_0
+}{
+c^2
+}
+F_\delta
+}
+```
+
+Therefore:
+
+```text
+F_delta > 0  -> outward local gravitational acceleration
+F_delta < 0  -> inward local gravitational acceleration
+```
+
+The total energy-equivalent mass is
+
+```math
+M
+=
+\frac{
+\pi U_0 h^2
+}{
+c^2
+}
+m_\delta
+```
+
+Eliminating $U_0$ between the acceleration and mass expressions gives
+
+```math
+M
+=
+C
+\frac{
+a_z h^2
+}{
+G
+}
+```
+
+with
+
+```math
+\boxed{
+C
+=
+\frac{
+m_\delta
+}{
+2F_\delta
+}
+}
+```
+
+Thus the headline claim reduces to one transparent numerical sign check:
+
+```math
+F_\delta>0
+```
+
+for the explicit source above.
+
+---
+
+## 9. Numerical method used for the quoted 006D result
+
+For the finest quoted source:
+
+```text
+delta                    = 0.00625
+inner smoothing width    = delta / 4
+outer collar width       = delta
+target z/h               = 1
+radial support end        = 4.707687405300
+```
+
+Radial integration is performed piecewise across the four interfaces
+
+```text
+0
+alpha - delta/4
+alpha + delta/4
+beta
+beta + delta
+```
+
+using adaptive SciPy `quad` with
+
+```text
+epsabs = 2e-11
+epsrel = 2e-11
+limit  = 300 or greater
+```
+
+The production 006D calculation averages the vertical kernel using **64-point Gauss-Legendre quadrature**.
+
+The standalone verifier below also evaluates the same vertical integral a second way using nested adaptive `quad`, so the local field sign is not dependent on the Gauss-Legendre implementation.
+
+Pointwise energy conditions are sampled at 4001 radial points.
+
+Local conservation is additionally checked over 150 radial control volumes using
+
+```math
+q(b)-q(a)
+-
+\int_a^b p_\phi(x)
+\,dx
+```
+
+---
+
+## 10. Reproducible numerical invariants
+
+For the explicit finest source, direct evaluation gives:
+
+```text
+MASS_FACTOR
+= 1.110076490539830e+01
+
+INTEGRATED_STRESS_TRACE_FACTOR
+= 2.922107000813412e-13
+≈ 0
+
+ACTIVE_MASS_FACTOR
+= 1.110076490539859e+01
+> 0
+
+FIELD_FACTOR_GAUSS_LEGENDRE_64
+= 2.352695737495157e-01
+> 0
+
+FIELD_FACTOR_NESTED_ADAPTIVE_QUAD
+= 2.352695737495351e-01
+> 0
+
+ABSOLUTE_DIFFERENCE_BETWEEN_FIELD_METHODS
+≈ 1.94e-14
+
+C_GAUSS_LEGENDRE_64
+= 23.5915862992487
+
+C_NESTED_ADAPTIVE_QUAD
+= 23.5915862992467
+
+MAX_CONTROL_VOLUME_CONSERVATION_RESIDUAL
+= 3.103073353827312e-14
+
+MAX_DEC_VIOLATION
+= 0
+
+MIN_NEC_MARGIN
+= 0
+```
+
+The field factor is approximately $0.235$, while the two independent vertical-integration routes differ by only about $2\times10^{-14}$.
+
+The sign is therefore not numerically marginal.
+
+The conclusion for this explicit source is:
+
+```math
+\boxed{
+F_\delta
+=
+0.2352695737495\ldots
+>
+0
+}
+```
+
+and consequently
+
+```math
+\boxed{
+a_z>0
+}
+```
+
+under the stated sign convention.
+
+---
+
+## 11. Finite-thickness convergence
+
+The regularization sequence is:
+
+| $\delta=t/h$ | Mass factor $m_\delta$ | Field factor $F_\delta$ | $C=m_\delta/(2F_\delta)$ |
+|---:|---:|---:|---:|
+| 0.40000 | 11.369718516276 | 0.149453529535 | 38.037638025730 |
+| 0.20000 | 11.233723934208 | 0.190019680852 | 29.559369544823 |
+| 0.10000 | 11.165255241660 | 0.212604998246 | 26.258214373557 |
+| 0.05000 | 11.130897375158 | 0.224509078286 | 24.789414887263 |
+| 0.02500 | 11.113686825672 | 0.230618147495 | 24.095429926871 |
+| 0.01250 | 11.105073553053 | 0.233712433325 | 23.757986246352 |
+| 0.00625 | 11.100764905398 | 0.235269573750 | 23.591586299249 |
+
+The independently established thin conserved reference is
 
 ```math
 C_{\mathrm{thin}}
@@ -124,63 +1107,731 @@ C_{\mathrm{thin}}
 23.426710175391
 ```
 
-and the best tested finite-thickness regularization at
+The finite sequence approaches that reference monotonically from above.
+
+At the finest tested regularization,
 
 ```math
-C_{\mathrm{finite}}
-=
-23.591586299249
+\frac{
+C_{\mathrm{finite}}-C_{\mathrm{thin}}
+}{
+C_{\mathrm{thin}}
+}
+\approx
+0.00704
 ```
 
-The finite-thickness value is approximately $0.704\%$ above the thin limit.
-
-The classical static branch has therefore reached its current decision gate:
-local repulsion, finite support, positive energy, pointwise classical energy
-conditions, and local conservation have been demonstrated within the
-linearized model, but no known material realization, dynamical stability,
-energetic plausibility, experimental accessibility, or practical device has
-been established.
-
-The active research frontier is now the **established-quantum-physics gate**,
-beginning with a complete Casimir apparatus benchmark and then quantum energy
-inequality bounds.
+or approximately $0.704\%$.
 
 ---
 
-## Important Terminology
+## 12. Physical scale restoration
 
-### Local gravitational repulsion
+For the finest finite source,
 
-A nearby freely falling neutral object experiences acceleration away from a
-source region.
+```math
+F_\delta
+\approx
+0.2352695737495
+```
 
-This is known to occur in general relativity and has been reproduced in this
-repository.
+so the positive surface-energy scale required for a desired outward acceleration is
+
+```math
+U_0
+=
+\frac{
+a_z c^2
+}{
+2\pi G F_\delta
+}
+```
+
+For $a_z=g$,
+
+```math
+U_0
+\approx
+8.93\times10^{27}
+\ {\rm J\,m^{-2}}
+```
+
+The mass scaling is
+
+```math
+\boxed{
+M_{\mathrm{equiv}}
+=
+23.591586299249
+\frac{
+a h^2
+}{
+G
+}
+}
+```
+
+For $a=g$ and $h=1\ {\rm m}$,
+
+```math
+M_{\mathrm{equiv}}
+\approx
+3.466\times10^{12}
+\ {\rm kg}
+```
+
+and
+
+```math
+E
+=
+M_{\mathrm{equiv}}c^2
+\approx
+3.115\times10^{29}
+\ {\rm J}
+```
+
+This enormous stress-energy requirement is why the result is a mathematical construction rather than a practical device.
+
+The gravitational field itself is still safely weak-field at this scale. A characteristic compactness based on the total energy-equivalent mass and $h=1\ {\rm m}$ is only of order
+
+```math
+\frac{
+GM_{\mathrm{equiv}}
+}{
+hc^2
+}
+\sim
+2.6\times10^{-15}
+```
+
+so the failure of practicality is not caused by strong spacetime curvature; it is caused by the extraordinary material/field stress-energy required.
+
+---
+
+## 13. Standalone reproduction from the README alone
+
+A scientist does **not** need to trust the repository implementation to reproduce the numerical claim.
+
+Create a fresh environment with Python, NumPy, and SciPy, copy the following block into `verify_006d_from_readme.py`, and run it.
+
+```bash
+python3 -m venv .verify-006d
+source .verify-006d/bin/activate
+python -m pip install --upgrade pip
+python -m pip install numpy scipy
+python verify_006d_from_readme.py
+```
+
+The complete standalone verifier is below.
+
+```python
+#!/usr/bin/env python3
+"""Standalone README verifier for the 006D finite-source construction.
+
+This script imports no ANTIGRAVITY_RESEARCH project modules. It reconstructs
+the exact normalized 006D source from the equations and constants documented
+in README.md and evaluates:
+
+- positive energy / DEC / WEC / NEC;
+- local flat-background stress conservation;
+- integrated spatial-stress trace;
+- positive far-field active mass;
+- outward local axial field;
+- the finite-source coefficient C.
+
+Dependencies:
+    numpy
+    scipy
+
+Claim scope:
+    static linearized general relativity
+"""
+
+from __future__ import annotations
+
+import math
+
+import numpy as np
+from numpy.polynomial.legendre import leggauss
+from scipy.integrate import quad
+
+
+ALPHA = 1.437500564637
+BETA = 4.701437405300
+DELTA = 0.00625
+INNER_WIDTH = DELTA / 4.0
+OUTER_WIDTH = DELTA
+
+RADIAL_EPS = 2.0e-11
+CONTROL_EPS = 1.0e-10
+GL_ORDER = 64
+
+
+def smoothstep(u: float) -> float:
+    return u * u * (3.0 - 2.0 * u)
+
+
+def smoothstep_prime(u: float) -> float:
+    return 6.0 * u * (1.0 - u)
+
+
+def q_and_prime(x: float) -> tuple[float, float]:
+    """Return q=x*p_r and dq/dx for the exact README source."""
+
+    if x <= 0.0:
+        return 0.0, -1.0
+
+    x_minus = ALPHA - INNER_WIDTH
+    x_plus = ALPHA + INNER_WIDTH
+
+    q_core = -x
+    qp_core = -1.0
+
+    q_annulus = -(ALPHA * ALPHA) / x
+    qp_annulus = (ALPHA * ALPHA) / (x * x)
+
+    if x < x_minus:
+        return q_core, qp_core
+
+    if x <= x_plus:
+        u = (x - x_minus) / (x_plus - x_minus)
+        s = smoothstep(u)
+        sp = smoothstep_prime(u) / (x_plus - x_minus)
+
+        q = (1.0 - s) * q_core + s * q_annulus
+        qp = (
+            (1.0 - s) * qp_core
+            + s * qp_annulus
+            + sp * (q_annulus - q_core)
+        )
+        return q, qp
+
+    if x < BETA:
+        return q_annulus, qp_annulus
+
+    if x <= BETA + OUTER_WIDTH:
+        u = (x - BETA) / OUTER_WIDTH
+        s = smoothstep(u)
+        sp = smoothstep_prime(u) / OUTER_WIDTH
+
+        q = (1.0 - s) * q_annulus
+        qp = (1.0 - s) * qp_annulus - sp * q_annulus
+        return q, qp
+
+    return 0.0, 0.0
+
+
+def surface_profiles(x: float) -> tuple[float, float, float]:
+    """Return dimensionless epsilon, p_r, p_phi."""
+
+    q, qp = q_and_prime(x)
+
+    p_r = -1.0 if x == 0.0 else q / x
+    p_phi = qp
+    epsilon = max(abs(p_r), abs(p_phi))
+
+    return epsilon, p_r, p_phi
+
+
+def radial_breakpoints() -> list[float]:
+    return [
+        0.0,
+        ALPHA - INNER_WIDTH,
+        ALPHA + INNER_WIDTH,
+        BETA,
+        BETA + OUTER_WIDTH,
+    ]
+
+
+def radial_integral(function, eps: float = RADIAL_EPS) -> float:
+    total = 0.0
+
+    points = radial_breakpoints()
+
+    for lower, upper in zip(points[:-1], points[1:]):
+        value, _ = quad(
+            function,
+            lower,
+            upper,
+            epsabs=eps,
+            epsrel=eps,
+            limit=400,
+        )
+        total += value
+
+    return float(total)
+
+
+def vertical_profile(zeta: float) -> float:
+    """Normalized compact profile in zeta=z/h."""
+
+    if zeta < -DELTA or zeta > 0.0:
+        return 0.0
+
+    y = (zeta + DELTA) / DELTA
+
+    return (
+        30.0
+        / DELTA
+        * y * y
+        * (1.0 - y) * (1.0 - y)
+    )
+
+
+def field_factor_gauss_legendre(order: int = GL_ORDER) -> float:
+    """Evaluate the finite-thickness axial field using GL quadrature in z."""
+
+    z_nodes, z_weights = leggauss(order)
+
+    y_nodes = 0.5 * (z_nodes + 1.0)
+    y_weights = 0.5 * z_weights
+
+    bump_weights = (
+        y_weights
+        * 30.0
+        * y_nodes**2
+        * (1.0 - y_nodes)**2
+    )
+
+    source_zeta = -DELTA + DELTA * y_nodes
+    separation = 1.0 - source_zeta
+
+    def integrand(x: float) -> float:
+        epsilon, p_r, p_phi = surface_profiles(x)
+
+        active = epsilon + p_r + p_phi
+
+        kernel_average = float(
+            np.sum(
+                bump_weights
+                * separation
+                / (
+                    x * x
+                    + separation * separation
+                ) ** 1.5
+            )
+        )
+
+        return x * active * kernel_average
+
+    # Positive return value means outward acceleration.
+    return -radial_integral(integrand)
+
+
+def field_factor_nested_quad() -> float:
+    """Independent z integration using adaptive quadrature instead of GL."""
+
+    def kernel_average(x: float) -> float:
+        value, _ = quad(
+            lambda zeta:
+                vertical_profile(zeta)
+                * (1.0 - zeta)
+                / (
+                    x * x
+                    + (1.0 - zeta) ** 2
+                ) ** 1.5,
+            -DELTA,
+            0.0,
+            epsabs=5.0e-13,
+            epsrel=5.0e-13,
+            limit=250,
+        )
+        return float(value)
+
+    def integrand(x: float) -> float:
+        epsilon, p_r, p_phi = surface_profiles(x)
+        active = epsilon + p_r + p_phi
+        return x * active * kernel_average(x)
+
+    return -radial_integral(integrand, eps=5.0e-12)
+
+
+def conservation_residual() -> float:
+    """Check q(b)-q(a)-integral p_phi dx over 150 control volumes."""
+
+    outer_radius = BETA + OUTER_WIDTH
+    edges = np.linspace(0.0, outer_radius, 151)
+
+    maximum = 0.0
+
+    for left, right in zip(edges[:-1], edges[1:]):
+        q_left = q_and_prime(float(left))[0]
+        q_right = q_and_prime(float(right))[0]
+
+        interior_points = [
+            point
+            for point in radial_breakpoints()[1:-1]
+            if left < point < right
+        ]
+
+        integral, _ = quad(
+            lambda x: surface_profiles(x)[2],
+            float(left),
+            float(right),
+            epsabs=CONTROL_EPS,
+            epsrel=CONTROL_EPS,
+            limit=150,
+            points=interior_points,
+        )
+
+        residual = q_right - q_left - integral
+        maximum = max(maximum, abs(float(residual)))
+
+    return maximum
+
+
+def energy_condition_checks() -> tuple[float, float]:
+    """Return max DEC violation and minimum NEC margin."""
+
+    outer_radius = BETA + OUTER_WIDTH
+    sample_x = np.linspace(0.0, outer_radius, 4001)
+
+    max_dec_violation = 0.0
+    min_nec_margin = math.inf
+
+    for x in sample_x:
+        epsilon, p_r, p_phi = surface_profiles(float(x))
+
+        max_dec_violation = max(
+            max_dec_violation,
+            abs(p_r) - epsilon,
+            abs(p_phi) - epsilon,
+            -epsilon,
+        )
+
+        min_nec_margin = min(
+            min_nec_margin,
+            epsilon + p_r,
+            epsilon + p_phi,
+            epsilon,
+        )
+
+    return max_dec_violation, min_nec_margin
+
+
+def main() -> None:
+    mass_factor = (
+        2.0
+        * radial_integral(
+            lambda x: x * surface_profiles(x)[0]
+        )
+    )
+
+    trace_factor = (
+        2.0
+        * radial_integral(
+            lambda x:
+                x
+                * (
+                    surface_profiles(x)[1]
+                    + surface_profiles(x)[2]
+                )
+        )
+    )
+
+    active_mass_factor = mass_factor + trace_factor
+
+    field_gl64 = field_factor_gauss_legendre(64)
+    field_nested = field_factor_nested_quad()
+
+    coefficient_gl64 = mass_factor / (2.0 * field_gl64)
+    coefficient_nested = mass_factor / (2.0 * field_nested)
+
+    max_control_residual = conservation_residual()
+    max_dec_violation, min_nec_margin = energy_condition_checks()
+
+    print("=== README 006D STANDALONE VERIFICATION ===")
+    print(f"ALPHA={ALPHA:.12f}")
+    print(f"BETA={BETA:.12f}")
+    print(f"DELTA={DELTA:.8f}")
+    print(f"INNER_WIDTH={INNER_WIDTH:.8f}")
+    print(f"OUTER_WIDTH={OUTER_WIDTH:.8f}")
+    print(f"OUTER_RADIUS={BETA + OUTER_WIDTH:.12f}")
+    print()
+    print(f"MASS_FACTOR={mass_factor:.15e}")
+    print(f"TRACE_FACTOR={trace_factor:.15e}")
+    print(f"ACTIVE_MASS_FACTOR={active_mass_factor:.15e}")
+    print(f"FIELD_FACTOR_GL64={field_gl64:.15e}")
+    print(f"FIELD_FACTOR_NESTED={field_nested:.15e}")
+    print(f"FIELD_METHOD_ABS_DIFFERENCE={abs(field_gl64-field_nested):.15e}")
+    print(f"C_GL64={coefficient_gl64:.15e}")
+    print(f"C_NESTED={coefficient_nested:.15e}")
+    print()
+    print(f"MAX_CONTROL_VOLUME_CONSERVATION_RESIDUAL={max_control_residual:.15e}")
+    print(f"MAX_DEC_VIOLATION={max_dec_violation:.15e}")
+    print(f"MIN_NEC_MARGIN={min_nec_margin:.15e}")
+    print()
+    print(
+        "LOCAL_CONSERVATION="
+        + ("PASS" if max_control_residual < 1.0e-8 else "FAIL")
+    )
+    print(
+        "DEC="
+        + ("PASS" if max_dec_violation <= 1.0e-12 else "FAIL")
+    )
+    print(
+        "NEC_WEC="
+        + ("PASS" if min_nec_margin >= -1.0e-12 else "FAIL")
+    )
+    print(
+        "POSITIVE_FAR_FIELD_ACTIVE_MASS="
+        + ("YES" if active_mass_factor > 0.0 else "NO")
+    )
+    print(
+        "OUTWARD_LOCAL_FIELD_GL64="
+        + ("YES" if field_gl64 > 0.0 else "NO")
+    )
+    print(
+        "OUTWARD_LOCAL_FIELD_NESTED="
+        + ("YES" if field_nested > 0.0 else "NO")
+    )
+
+
+if __name__ == "__main__":
+    main()
+```
+
+Expected output from the standalone verifier:
+
+```text
+=== README 006D STANDALONE VERIFICATION ===
+ALPHA=1.437500564637
+BETA=4.701437405300
+DELTA=0.00625000
+INNER_WIDTH=0.00156250
+OUTER_WIDTH=0.00625000
+OUTER_RADIUS=4.707687405300
+
+MASS_FACTOR=1.110076490539830e+01
+TRACE_FACTOR=2.922107000813412e-13
+ACTIVE_MASS_FACTOR=1.110076490539859e+01
+FIELD_FACTOR_GL64=2.352695737495157e-01
+FIELD_FACTOR_NESTED=2.352695737495351e-01
+FIELD_METHOD_ABS_DIFFERENCE=1.942890293094024e-14
+C_GL64=2.359158629924866e+01
+C_NESTED=2.359158629924672e+01
+
+MAX_CONTROL_VOLUME_CONSERVATION_RESIDUAL=3.103073353827313e-14
+MAX_DEC_VIOLATION=0.000000000000000e+00
+MIN_NEC_MARGIN=0.000000000000000e+00
+
+LOCAL_CONSERVATION=PASS
+DEC=PASS
+NEC_WEC=PASS
+POSITIVE_FAR_FIELD_ACTIVE_MASS=YES
+OUTWARD_LOCAL_FIELD_GL64=YES
+OUTWARD_LOCAL_FIELD_NESTED=YES
+```
+
+The two field evaluations use different vertical integration methods:
+
+```text
+METHOD_1=64_POINT_GAUSS_LEGENDRE
+METHOD_2=NESTED_ADAPTIVE_SCIPY_QUAD
+```
+
+Both independently return a positive field factor.
+
+---
+
+## 14. Repository cross-check
+
+The repository reference implementation is:
+
+```text
+simulations/006d_finite_thickness_conserved_source.py
+```
+
+The codebundle snapshot records its SHA-256 as:
+
+```text
+e303b3bb454d19cc16516e189e6db559d1812dad733f9e02bf1ecafce2594d76
+```
+
+Run the project implementation from the repository root with:
+
+```bash
+ROOT="$(pwd)"
+PY="$ROOT/.venv/bin/python"
+
+PYTHONPATH="$ROOT/src" \
+"$PY" simulations/006d_finite_thickness_conserved_source.py
+```
+
+Run the focused regression checks with:
+
+```bash
+ROOT="$(pwd)"
+PY="$ROOT/.venv/bin/python"
+
+PYTHONPATH="$ROOT/src" \
+"$PY" -m pytest -q \
+tests/known_solutions/test_006c_006d_regressions.py
+```
+
+Run the full known-solution suite with:
+
+```bash
+ROOT="$(pwd)"
+PY="$ROOT/.venv/bin/python"
+
+PYTHONPATH="$ROOT/src" \
+"$PY" -m pytest -q tests/known_solutions
+```
+
+The verified session baseline is:
+
+```text
+94 passed
+```
+
+Important validation distinction:
+
+- Simulation 006C is an independent Green-function reconstruction of the earlier 005B finite disk.
+- Simulation 006D has analytic conservation and energy-condition structure, finite-volume checks, convergence to the independently established 006B thin reference, regression coverage, and the standalone README reproducer above.
+- A separately authored, publication-grade independent implementation of the **entire 006D finite-thickness field calculation** would still be an additional desirable validation step.
+
+That limitation does not change the reproducibility of the present claim; it prevents us from overstating the validation level.
+
+---
+
+## 15. What the calculation establishes
+
+For the explicitly specified finite source:
+
+```text
+FINITE_RADIUS=YES
+FINITE_THICKNESS=YES
+NONSINGULAR_OUTER_SUPPORT=YES
+POSITIVE_ENERGY_DENSITY=YES
+LOCAL_CONSERVATION_LINEARIZED_ORDER=YES
+DEC=PASS
+WEC=PASS
+NEC=PASS
+POSITIVE_FAR_FIELD_ACTIVE_MASS=YES
+OUTWARD_LOCAL_GRAVITATIONAL_FIELD=YES
+```
+
+The compact mathematical statement is:
+
+```math
+\boxed{
+\begin{gathered}
+\epsilon\ge0,
+\qquad
+|p_i|\le\epsilon,
+\qquad
+\partial_\mu T^{\mu\nu}=0,
+\\
+M_{\mathrm{active}}>0,
+\qquad
+F_\delta>0
+\end{gathered}
+}
+```
+
+for the explicit 006D source in static linearized GR.
+
+Therefore the headline is supported:
+
+> # **We have a mathematical construction for antigravity-like gravitational repulsion.**
+
+---
+
+## 16. What the calculation does not establish
+
+The following claims are deliberately **not** made:
+
+```text
+EXACT_NONLINEAR_EINSTEIN_SOLUTION=NOT_ESTABLISHED
+FULL_CURVED_SPACETIME_CONSERVATION=NOT_ESTABLISHED
+DYNAMIC_STABILITY=NOT_ESTABLISHED
+CONSTITUTIVE_MATERIAL_MODEL=NOT_ESTABLISHED
+KNOWN_FIELD_THEORY_REALIZATION=NOT_ESTABLISHED
+EXPERIMENTAL_ACCESSIBILITY=NOT_ESTABLISHED
+ENERGETIC_PRACTICALITY=NO
+GLOBAL_POSITIVE_MASS_REPULSION=NOT_ESTABLISHED
+REACTIONLESS_PROPULSION=NOT_ESTABLISHED
+PRACTICAL_ANTIGRAVITY_DEVICE=NO
+NEW_PHYSICS_DISCOVERY=NO
+```
+
+The strongest justified classification is:
+
+```text
+CLAIM_CLASSIFICATION=
+CONSTRUCTIVE_LINEARIZED_GR_STRESS_ENERGY_RESULT
+```
+
+---
+
+---
+
+# Why the Result Matters
+
+The project began with the question of whether gravitational repulsion itself was forbidden.
+
+That question has been answered.
+
+**The sign of gravity is not the fundamental obstacle.**
+
+General relativity couples to the full stress-energy tensor, not merely rest-mass density. Relativistic pressure and tension contribute gravitationally. A positive-energy source can therefore contain a locally repulsive active-stress region without requiring negative total mass.
+
+The present obstacle is instead the physical realization and cost of the required stress-energy.
+
+The most important classical design principle found so far is:
+
+> **Maximize physically realizable relativistic tension per unit positive energy while preserving local conservation and stability.**
+
+---
+
+# Important Terminology
+
+## Local gravitational repulsion
+
+A neutral test body in a specified region experiences gravitational acceleration away from the source region.
 
 ```text
 PROJECT_STATUS=YES
 ```
 
-### Global gravitational repulsion
+This is known in GR and is reproduced by several calculations in this repository.
 
-The asymptotic gravitational field of an isolated source points outward.
+## Global gravitational repulsion
 
-This has **not** been established for a conventional positive-mass isolated
-system in this project.
+The asymptotic field of an isolated positive-total-mass source points outward.
 
 ```text
 PROJECT_STATUS=NO
 ```
 
-The finite 005B/006D architectures retain an attractive positive-mass far
-field.
+The finite 005B/006D architectures retain attractive positive-mass far fields.
 
-### Practical antigravity
+## Ground-referenced antigravity-like levitation
 
-A finite, controllable, stable apparatus produces useful gravitational
-repulsion at physically realizable energy and material scales.
+A body is pushed upward through interaction with an external source, external field, or reaction partner.
 
-This has **not** been established.
+```text
+FUNDAMENTALLY_FORBIDDEN=NO
+PRACTICAL_REALIZATION=NOT_ESTABLISHED
+```
+
+This is distinct from a self-contained craft.
+
+## Self-contained antigravity
+
+An isolated apparatus changes its center-of-energy motion or its passive gravitational response without an external reaction partner.
+
+```text
+PROJECT_STATUS=NOT_ESTABLISHED
+```
+
+The 009P and 010D analyses reinforce that reciprocal internal forces cannot self-accelerate an isolated center of energy.
+
+## Practical antigravity
+
+A finite, controllable, stable apparatus produces useful gravitational repulsion at physically realizable energy and material scales.
 
 ```text
 PROJECT_STATUS=NO
@@ -188,90 +1839,31 @@ PROJECT_STATUS=NO
 
 ---
 
-# Research Program
+# Research Program and Major Results
 
-## Research 001A — Schwarzschild-de Sitter Baseline
+## 001 — Established GR baselines
 
-The first calculation reproduced the weak-field Kottler acceleration:
+The repository reproduced:
+
+- Schwarzschild-de Sitter / Kottler attraction-repulsion transition;
+- positive-$\Lambda$ geodesic defocusing;
+- invariant tidal behavior through geodesic deviation.
+
+For Kottler spacetime,
 
 ```math
 a(r)
 =
 -\frac{GM}{r^2}
 +
-\frac{\Lambda c^2 r}{3}
+\frac{\Lambda c^2r}{3}
 ```
 
-The static radius is
+The effect is real but the observed cosmological constant is useless at laboratory scales.
 
-```math
-r_{\mathrm{static}}
-=
-\left(
-\frac{3GM}{\Lambda c^2}
-\right)^{1/3}
-```
+## 002 — Stress-energy sign criterion
 
-The observed positive cosmological constant therefore produces genuine
-outward gravitational behavior at sufficiently large distances.
-
-However, the observed value of $\Lambda$ is far too small to be useful at
-laboratory scales.
-
-Files:
-
-```text
-src/antigravity_research/geometry/kottler.py
-tests/known_solutions/test_kottler.py
-simulations/001_kottler_weak_field.py
-```
-
----
-
-## Research 001B — Geodesic Deviation
-
-Because coordinate acceleration can be misleading in general relativity, the
-Kottler result was checked using free-fall tidal eigenvalues.
-
-For Schwarzschild-de Sitter spacetime:
-
-```math
-\lambda_r
-=
-\frac{2GM}{r^3}
-+
-\frac{\Lambda c^2}{3}
-```
-
-and
-
-```math
-\lambda_t
-=
--\frac{GM}{r^3}
-+
-\frac{\Lambda c^2}{3}
-```
-
-The calculation reproduced the region in which all spatial directions
-experience geodesic stretching.
-
-This confirms that the cosmological repulsive effect is physical rather than
-merely a coordinate artifact.
-
-Files:
-
-```text
-src/antigravity_research/geometry/kottler_tidal.py
-tests/known_solutions/test_kottler_tidal.py
-simulations/001b_kottler_tidal_eigenvalues.py
-```
-
----
-
-## Research 002 — Stress-Energy Required for Defocusing
-
-For an ideal homogeneous and isotropic perfect fluid:
+For a perfect fluid,
 
 ```math
 \frac{\ddot{\xi}}{\xi}
@@ -284,111 +1876,29 @@ For an ideal homogeneous and isotropic perfect fluid:
 \frac{\Lambda c^2}{3}
 ```
 
-For an equation of state
+With
 
 ```math
 p=w\epsilon
 ```
 
-positive-energy defocusing becomes possible when
+positive-energy defocusing is possible for
 
 ```math
-w<-\frac{1}{3}
+w<-\frac13
 ```
 
-A particularly important case is
+Negative energy is therefore not required for the sign of local gravitational repulsion.
 
-```math
-w=-1
-```
+## 003 — Localizing vacuum-like stress
 
-for which
+A finite pure $w=-1$ region cannot simply taper to vacuum while retaining the same local equation of state. Boundary stresses are required.
 
-```math
-p=-\epsilon
-```
+A de Sitter-core / Schwarzschild-exterior thin-shell search showed that forcing a negative-mass exterior in the tested construction requires exotic shell properties incompatible with ordinary WEC/DEC assumptions.
 
-This produces repulsive geodesic behavior with positive energy while
-satisfying NEC, WEC, and DEC and violating the strong energy condition.
+## 004 — Einstein-Maxwell / Reissner-Nordström
 
-This established an important project result:
-
-> **Negative energy is not required for the sign of local gravitational
-> repulsion.**
-
-Files:
-
-```text
-src/antigravity_research/geometry/perfect_fluid_defocusing.py
-tests/known_solutions/test_perfect_fluid_defocusing.py
-simulations/002_required_stress_energy.py
-```
-
----
-
-## Research 003A — Finite Vacuum-Energy Localization
-
-The project next investigated whether a finite $w=-1$ region could simply be
-localized inside ordinary vacuum.
-
-For pure vacuum-like stress,
-
-```math
-p=-\epsilon
-```
-
-stress-energy conservation gives a vanishing pressure gradient.
-
-The calculation therefore found that a pure $w=-1$ region cannot smoothly
-taper from finite energy density to vacuum while retaining the same equation
-of state.
-
-A de Sitter interior and Schwarzschild exterior can match their metric value
-at the boundary while failing to match the required derivative structure.
-
-A boundary stress layer is therefore required.
-
-Files:
-
-```text
-src/antigravity_research/geometry/vacuum_energy_core.py
-tests/known_solutions/test_vacuum_energy_core.py
-simulations/003a_finite_vacuum_energy_core.py
-```
-
----
-
-## Research 003B — Israel Thin-Shell Search
-
-The boundary was then modeled using the Israel junction conditions.
-
-The search varied the exterior Schwarzschild ADM mass and calculated the
-required shell surface energy and pressure.
-
-A repulsive Schwarzschild exterior requires negative ADM mass.
-
-Within the tested de Sitter-core construction, obtaining such an exterior
-required negative shell surface energy and violation of WEC and DEC.
-
-A small negative-mass interval could retain NEC, but the ordinary positive
-energy conditions did not survive.
-
-This branch is therefore currently considered a mathematical exotic-matter
-route rather than a promising practical mechanism.
-
-Files:
-
-```text
-src/antigravity_research/geometry/israel_shell.py
-tests/known_solutions/test_israel_shell.py
-simulations/003b_israel_shell_mass_search.py
-```
-
----
-
-## Research 004A — Einstein-Maxwell / Reissner-Nordstrom Repulsion
-
-The exact Reissner-Nordstrom exterior is
+The exact metric contains
 
 ```math
 f(r)
@@ -400,7 +1910,7 @@ f(r)
 \frac{GQ^2}{4\pi\epsilon_0c^4r^2}
 ```
 
-For neutral matter, the gravitational tendency changes sign at
+and the neutral-particle gravitational tendency changes sign at
 
 ```math
 r_{\mathrm{rep}}
@@ -408,535 +1918,50 @@ r_{\mathrm{rep}}
 \frac{Q^2}{4\pi\epsilon_0Mc^2}
 ```
 
-The repository reproduced a region in which:
+This provides an exact established-theory example of positive-energy local gravitational repulsion, but useful laboratory acceleration requires extreme electric fields.
 
-- ADM mass is positive;
-- electromagnetic energy is positive;
-- shell surface energy is nonnegative;
-- shell NEC, WEC, and DEC can hold;
-- neutral matter nevertheless experiences outward gravitational behavior.
+## 005 — Relativistic tension
 
-This demonstrates that positive-energy local gravitational repulsion can occur
-in an exact solution of ordinary Einstein-Maxwell theory.
-
-The physical problem is the required electrical field strength. Useful
-macroscopic acceleration requires enormous charge and fields that rapidly
-approach or exceed fundamental quantum-electrodynamic limits.
-
-The Einstein-Maxwell solution is therefore retained as an important
-proof-of-principle rather than the leading engineering candidate.
-
-Files:
-
-```text
-src/antigravity_research/geometry/reissner_nordstrom.py
-tests/known_solutions/test_reissner_nordstrom.py
-simulations/004a_einstein_maxwell_repulsion.py
-```
-
----
-
-## Research 005A — Relativistic Tension and Domain Walls
-
-The Einstein-Maxwell result suggested a more general principle:
-
-> **The important ingredient is not electric charge itself, but relativistic
-> stress.**
-
-For an ideal membrane with surface energy density $U$ and tangential tension
+For a planar membrane with tangential tension
 
 ```math
 \tau=qU
 ```
 
-the planar gravitational field becomes repulsive when
+the gravitational field becomes repulsive for
 
 ```math
-q>\frac{1}{2}
+q>\frac12
 ```
 
-The dominant energy condition permits
+while DEC permits
 
 ```math
 q\le1
 ```
 
-Therefore the interval
+so the interval
 
 ```math
-q\in\left(\frac{1}{2},1\right]
+\frac12<q\le1
 ```
 
-contains positive-energy, NEC/WEC/DEC-compatible repulsive stress-energy.
+contains positive-energy, energy-condition-compatible repulsive stress.
 
-The most efficient member of this membrane class is
-
-```math
-q=1
-```
-
-corresponding to ideal relativistic domain-wall stress.
-
-This gives the classical design principle:
-
-> **Maximize relativistic tangential tension per unit positive energy.**
-
-Files:
-
-```text
-src/antigravity_research/geometry/relativistic_wall.py
-tests/known_solutions/test_relativistic_wall.py
-simulations/005a_relativistic_tension_wall.py
-```
-
----
-
-## Research 005B — Finite Supported Relativistic-Tension Source
-
-An infinite domain wall is not a device.
-
-The next model therefore used:
-
-```text
-finite circular relativistic-tension membrane
-+
-minimum-energy DEC-compatible compressive support rim
-```
-
-The result was:
-
-```text
-FINITE_LOCAL_GRAVITATIONAL_REPULSION=YES
-FINITE_SOURCE_TOTAL_ENERGY_POSITIVE=YES
-COMPONENT_NEC_WEC_DEC_COMPATIBLE=YES
-VON_LAUE_STRESS_BALANCE=YES
-TOTAL_ACTIVE_MASS_POSITIVE=YES
-LOCAL_FIELD_DIRECTION_NEAR_WALL=REPULSIVE
-FAR_FIELD_DIRECTION=ATTRACTIVE
-```
-
-The optimal member of this architecture was again
-
-```math
-q=1
-```
-
-The optimized geometry was approximately
-
-```math
-\frac{R}{h}
-\approx
-4.00614967
-```
-
-with the repulsive region extending to approximately
-
-```math
-\frac{z_{\mathrm{zero}}}{R}
-\approx
-0.393319893
-```
-
-For this particular disk-plus-rim architecture,
+The 005B finite membrane-plus-support model yielded
 
 ```math
 M_{\mathrm{equiv}}
 \approx
-79.753148\frac{a h^2}{G}
-```
-
-This is a model-specific result, not a universal lower bound.
-
-For $1g$ at a one-meter stand-off, the required energy-equivalent mass is
-approximately
-
-```math
-M_{\mathrm{equiv}}
-\approx
-1.17\times10^{13}\ \mathrm{kg}
-```
-
-This demonstrates a finite positive-energy **local** antigravity-like field in
-the linearized model, but not a practical apparatus.
-
-Simulation 006C later independently reproduced the field, zero crossing,
-optimum geometry, and coefficient to high numerical precision.
-
-Files:
-
-```text
-src/antigravity_research/geometry/finite_tension_disk.py
-tests/known_solutions/test_finite_tension_disk.py
-simulations/005b_finite_supported_antigravity.py
-```
-
----
-
-## Research 006A — Static DEC Energy Lower-Bound Search
-
-Simulation 006A asked how much of the enormous 005B energy cost might be
-fundamental and how much might come from inefficient source geometry.
-
-For type-I matter satisfying the dominant energy condition:
-
-```math
-|p_i|\le\epsilon
-```
-
-Therefore the static active source satisfies
-
-```math
-\epsilon+p_x+p_y+p_z
-\ge
--2\epsilon
-```
-
-The maximally negative local source permitted by this condition is
-
-```math
-p_x=p_y=p_z=-\epsilon
-```
-
-A linear-program optimization was then performed using:
-
-- positive energy;
-- type-I DEC;
-- negative active gravitational source;
-- integrated static stress balance.
-
-The optimizer returned:
-
-```text
-GENERAL_MIN_ENERGY_COEFFICIENT=1.000000
-DOMAIN_WALL_MIN_ENERGY_COEFFICIENT=2.000000
-005B_DISK_MASS_COEFFICIENT=79.753148
-```
-
-This suggested the optimistic scaling
-
-```math
-M_{\mathrm{equiv}}
-\sim
+79.753148116012
 \frac{a h^2}{G}
 ```
 
-with the important dependence
+and was later independently verified by Simulation 006C to approximately machine precision.
 
-```math
-M,E\propto h^2
-```
+## 006 — Finite conserved positive-energy construction
 
-The coefficient $C=1$ is an optimistic abstract result inside the model that
-was optimized. It is **not** established as a universal lower bound in general
-relativity because 006A imposed integrated stress balance rather than a fully
-spatially resolved, locally conserved source.
-
-Files:
-
-```text
-src/antigravity_research/geometry/energy_bounds.py
-tests/known_solutions/test_energy_bounds.py
-simulations/006a_static_dec_lower_bound.py
-```
-
----
-
-## Research 006B — Geometry-Aware Conserved DEC Optimization
-
-**Status: complete at the classical decision level.**
-
-Simulation 006B replaced the abstract 006A stress accounting with explicit
-axisymmetric spatial geometry, actual gravitational kernels, pointwise
-positive energy, pointwise DEC, and local stress conservation.
-
-For a static axisymmetric thin source without shear, local radial conservation
-requires
-
-```math
-\frac{dp_r}{dr}
-+
-\frac{p_r-p_\phi}{r}
-=
-0
-```
-
-or equivalently
-
-```math
-\frac{d(rp_r)}{dr}
-=
-p_\phi
-```
-
-An efficient piecewise conserved architecture was found and independently
-checked with a discretized radial linear program.
-
-The optimized dimensionless radii are
-
-```math
-\alpha
-=
-\frac{a}{h}
-=
-1.437500564637
-```
-
-and
-
-```math
-\beta
-=
-\frac{R}{h}
-=
-4.701437405300
-```
-
-with coefficient
-
-```math
-C_{\mathrm{006B,thin}}
-=
-23.426710175391
-```
-
-This improves the 005B disk/rim value by approximately
-
-```math
-\frac{79.753148116012}{23.426710175391}
-\approx
-3.40437
-```
-
-A separate radial LP converged toward the same closed-form value:
-
-```text
-N=50   C=23.279848767693
-N=100  C=23.390094671093
-N=200  C=23.417573464368
-N=400  C=23.424535334824
-N=800  C=23.426231369342
-```
-
-A more general staggered finite-volume $r$-$z$ optimizer was then built with
-exact cell force balance and exact type-I DEC imposed through second-order-cone
-constraints on stress eigenvalues.
-
-Finite-grid $r$-$z$ results initially appeared much more expensive, but radial
-and especially vertical refinement showed that a substantial part of the gap
-was discretization error. Combined continuum diagnostics bracketed the thin
-coefficient:
-
-```text
-DEPTH8_CONTINUUM_BRACKET=22.949343418307,24.570375590694
-DEPTH_AND_GRID_EXTRAPOLATED_BRACKET=22.554042171855,24.175074344242
-THIN_REFERENCE_C=23.426710175391
-```
-
-The correct conclusion is therefore:
-
-```text
-FULL_RZ_CONTINUUM_EVIDENCE=CONSISTENT_WITH_THIN_REFERENCE
-VERIFIED_FULL_RZ_IMPROVEMENT_BELOW_THIN=NO
-VERIFIED_FINITE_2D_PENALTY_ABOVE_THIN=NO
-C_1_TO_5_ROUTE_FOUND=NO
-GLOBAL_FULL_RZ_OPTIMUM=NOT_ESTABLISHED
-```
-
-Simulation 006B falsified the idea that 005B was near-optimal within the
-restricted locally conserved thin class, but it did **not** establish
-$C=23.426710175391$ as a universal lower bound of GR.
-
-Files:
-
-```text
-src/antigravity_research/geometry/axisymmetric_thin_stress.py
-tests/known_solutions/test_axisymmetric_thin_stress.py
-simulations/006b_geometry_aware_dec_optimizer.py
-simulations/006b_full_rz_decision.py
-```
-
-Primary generated outputs:
-
-```text
-results/data/006b_geometry_aware_dec_optimizer.csv
-results/figures/006b_geometry_aware_dec_convergence.png
-results/logs/006b_geometry_aware_dec_optimizer.log
-results/data/006b_full_rz_decision.csv
-results/logs/006b_full_rz_decision.log
-```
-
----
-
-## Research 006C — Independent Verification of the Finite Disk
-
-**Status: complete and green.**
-
-Simulation 006C independently reconstructed the 005B gravitational field by
-numerically integrating the complete membrane-plus-support stress-energy
-through the linearized gravitational Green function.
-
-The primary independent calculation does not reuse the 005B analytic field
-formula.
-
-Field-grid comparison:
-
-```text
-COMPARISON_POINT_COUNT=30
-MAX_ABSOLUTE_FIELD_ERROR=2.220446049250e-16
-MAX_RELATIVE_FIELD_ERROR=1.419475206905e-15
-FIELD_GRID_MATCH=PASS
-```
-
-Independent repulsive zero:
-
-```math
-\frac{z_{\mathrm{zero}}}{R}
-=
-0.393319893190334
-```
-
-Reference value:
-
-```math
-\frac{z_{\mathrm{zero}}}{R}
-=
-0.393319893190329
-```
-
-Independent optimized geometry:
-
-```math
-\frac{R}{h}
-=
-4.006149730747969
-```
-
-Independent coefficient:
-
-```math
-C_{\mathrm{005B}}
-=
-79.753148116012255
-```
-
-Reference coefficient:
-
-```math
-C_{\mathrm{005B,reference}}
-=
-79.753148116011999
-```
-
-Final classification:
-
-```text
-FIELD_GRID_VERIFIED=YES
-REPULSIVE_ZERO_VERIFIED=YES
-005B_OPTIMUM_VERIFIED=YES
-SIMULATION_006C=GREEN
-CLAIM_CLASSIFICATION=INDEPENDENT_NUMERICAL_VERIFICATION
-```
-
-This materially upgrades confidence in the 005B result and removes reuse of a
-single analytic field implementation as a central validation weakness.
-
-Files:
-
-```text
-simulations/006c_independent_finite_disk_field.py
-results/data/006c_independent_finite_disk_field.csv
-results/logs/006c_independent_finite_disk_field.log
-```
-
----
-
-## Research 006D — Finite-Thickness Locally Conserved Source
-
-**Status: complete and green at the linearized-GR model level.**
-
-Simulation 006D replaced the ideal zero-thickness source and singular support
-ring with a finite-thickness source and finite radial support collar.
-
-Define
-
-```math
-q(r)=r p_r(r)
-```
-
-and impose
-
-```math
-p_\phi(r)
-=
-\frac{dq}{dr}
-```
-
-with
-
-```math
-p_z=0
-```
-
-and
-
-```math
-T_{rz}=0
-```
-
-Then the static cylindrical radial conservation equation
-
-```math
-\frac{dp_r}{dr}
-+
-\frac{p_r-p_\phi}{r}
-=
-0
-```
-
-is satisfied by construction.
-
-The in-plane source is multiplied by a smooth, compact, nonnegative vertical
-profile of finite thickness. The energy density is chosen as
-
-```math
-\epsilon
-=
-\max\left(
-|p_r|,
-|p_\phi|
-\right)
-```
-
-which enforces the static type-I dominant energy condition pointwise for the
-constructed stress tensor.
-
-Independent numerical checks gave:
-
-```text
-MAX_CONTROL_VOLUME_CONSERVATION_RESIDUAL=3.103073353827e-14
-MAX_DEC_VIOLATION=0.000000000000e+00
-MIN_NEC_MARGIN=0.000000000000e+00
-MAX_INTEGRATED_STRESS_TRACE=2.922107000813e-13
-LOCAL_CONSERVATION=PASS
-NEC=PASS
-WEC=PASS
-DEC=PASS
-LAUE_STRESS_BALANCE=PASS
-```
-
-Finite-thickness convergence was:
-
-```text
-scale=0.40000  C=38.037638025730
-scale=0.20000  C=29.559369544823
-scale=0.10000  C=26.258214373557
-scale=0.05000  C=24.789414887263
-scale=0.02500  C=24.095429926871
-scale=0.01250  C=23.757986246352
-scale=0.00625  C=23.591586299249
-```
-
-against the independently established thin reference
+Simulation 006B reduced the locally conserved thin-source coefficient to
 
 ```math
 C_{\mathrm{thin}}
@@ -944,341 +1969,412 @@ C_{\mathrm{thin}}
 23.426710175391
 ```
 
-The finest tested finite source differs from the thin value by approximately
-$0.704\%$ and approaches it monotonically as the regularization scale is
-reduced.
+Simulation 006C independently reconstructed the earlier 005B field and optimum.
 
-Final classification:
+Simulation 006D then regularized the optimized architecture to finite thickness and finite radial support while preserving:
 
 ```text
 FINITE_SPATIAL_SUPPORT=YES
 FINITE_THICKNESS=YES
-SINGULAR_OUTER_RING=NO
-FINITE_RADIAL_SUPPORT_COLLAR=YES
 POINTWISE_POSITIVE_ENERGY=YES
 POINTWISE_NEC_WEC_DEC=YES
 LOCAL_CONSERVATION_LINEARIZED_ORDER=YES
 OUTWARD_GRAVITATIONAL_FIELD=YES
 POSITIVE_FAR_FIELD_ACTIVE_MASS=YES
-FINITE_THICKNESS_STRESS_ENERGY_CONFIGURATION=YES
-C_FINITE_BEST_TESTED=23.591586299249
-C_THIN_LIMIT=23.426710175391
-SIMULATION_006D=GREEN
-CLAIM_CLASSIFICATION=CONSTRUCTIVE_LINEARIZED_GR_STRESS_ENERGY_RESULT
 ```
 
-The following remain explicitly unestablished:
-
-```text
-EXACT_NONLINEAR_GR_CONSERVATION=NOT_ESTABLISHED
-DYNAMIC_STABILITY=NOT_ESTABLISHED
-KNOWN_MATERIAL_REALIZATION=NO
-PRACTICAL_ANTIGRAVITY_DEVICE=NO
-```
-
-Files:
-
-```text
-simulations/006d_finite_thickness_conserved_source.py
-results/data/006d_finite_thickness_conserved_source.csv
-results/logs/006d_finite_thickness_conserved_source.log
-```
-
----
-
-# Classical-GR Decision Gate
-
-Simulations 006B, 006C, and 006D have now answered the principal classical
-static questions that motivated this phase.
-
-Current status:
-
-```text
-LOCAL_GRAVITATIONAL_REPULSION_IN_LINEARIZED_GR=YES
-POSITIVE_ENERGY_SOURCE=YES
-FINITE_RADIUS_SOURCE=YES
-FINITE_THICKNESS_SOURCE=YES
-LOCAL_CONSERVATION_LINEARIZED_ORDER=YES
-NEC=PASS
-WEC=PASS
-DEC=PASS
-POSITIVE_FAR_FIELD_MASS=YES
-
-BEST_VERIFIED_THIN_COEFFICIENT=23.426710175391
-BEST_TESTED_FINITE_THICKNESS_COEFFICIENT=23.591586299249
-
-EXACT_NONLINEAR_GR_SOLUTION=NOT_ESTABLISHED
-DYNAMIC_STABILITY=NOT_ESTABLISHED
-KNOWN_MATERIAL_REALIZATION=NO
-ENERGETIC_PLAUSIBILITY=NO
-EXPERIMENTAL_ACCESSIBILITY=NO
-PRACTICAL_ANTIGRAVITY_DEVICE=NO
-```
-
-The best mature classical results remain in the approximate regime
-$C\sim20$-$25$, not $C\sim1$-$5$.
-
-At human scales, the underlying scaling remains severe. Even the abstract
-coefficient $C=1$ would require
+The best tested finite coefficient is
 
 ```math
-M
-\sim
-\frac{a h^2}{G}
+C_{\mathrm{finite}}
+=
+23.591586299249
 ```
 
-which for $a=1g$ and $h=1\ \mathrm{m}$ is approximately
+This is the mathematical construction highlighted at the top of this README.
+
+## 007 — Established quantum-field routes
+
+The project then tested whether established quantum stress-energy could change the practical scaling.
+
+The main conclusions were:
+
+- a complete Casimir apparatus cannot be evaluated by counting the negative vacuum region alone;
+- support and plate stresses must be included;
+- the static Casimir route did not provide a practical macroscopic escape;
+- free-electromagnetic quantum-energy-inequality bounds make macroscopic negative-energy acceleration extraordinarily small.
+
+```text
+ESTABLISHED_QFT_MACROSCOPIC_PRACTICAL_ESCAPE=NOT_FOUND
+```
+
+## 008 — Field realizability and stability
+
+The project asked whether known classical fields could realize the 006D stress pattern.
+
+Key outcomes include:
+
+- wall/current-loop support did not materially improve the classical scaling;
+- a canonical scalar can locally reproduce relevant stress tensors;
+- purely static scalar realizations face Derrick-type instability;
+- one charged complex scalar cannot exactly reproduce the full target architecture;
+- finite ungauged winding constructions fail at the boundary;
+- local gauge-assisted boundary takeover remains mathematically possible in a restricted window but does not solve the basic energy scaling.
+
+```text
+KNOWN_PRACTICAL_FIELD_REALIZATION_OF_006D=NO
+```
+
+## 009 — Short-range fifth-force program
+
+The project investigated whether a new non-gravitational interaction could provide a much larger force on neutral matter.
+
+### Ordinary unscreened vector benchmark
+
+The optimistic ordinary-matter vector half-space ceiling was approximately
 
 ```math
-M
+\frac{a_{\max}}{g}
 \approx
-1.47\times10^{11}\ \mathrm{kg}
+2.21\times10^{-2}
 ```
 
-The classical static branch is therefore preserved as a strong theoretical
-reference result, but further order-unity coefficient tuning is deprioritized
-unless a specific physically motivated matter or field model makes it
-worthwhile.
+under the tested constraints.
 
----
+### Opposite-sign scalar benchmark
 
-# Current Research Frontier
-
-The highest-priority question is no longer whether a finite, positive-energy,
-locally conserved linearized-GR stress-energy distribution can produce local
-repulsion. Simulation 006D answers that question constructively within its
-stated approximation.
-
-The new frontier is:
-
-> **Can any physically motivated matter, quantum field, or dynamical mechanism
-> realize or outperform the required stress-energy while avoiding the severe
-> $a h^2/G$ energy scale?**
-
-The active next branch is established quantum field theory.
-
----
-
-# Planned Research
-
-## Research 007A — Complete Casimir Benchmark
-
-**Next active experiment.**
-
-Do not count only the negative vacuum-energy region. The complete model must
-include:
-
-- Casimir-region stress-energy;
-- conducting plates;
-- supports required for static equilibrium;
-- total apparatus energy;
-- total apparatus stress-energy;
-- local gravitational field;
-- far-field mass.
-
-Primary outputs should include:
-
-```text
-vacuum energy density
-principal stresses
-active gravitational density
-plate/support energy
-total apparatus mass
-local gravitational acceleration
-far-field mass
-dependence on plate separation
-energy-condition behavior of the complete apparatus
-```
-
-A useful initial separation scan is:
-
-```text
-1 mm
-100 micrometers
-10 micrometers
-1 micrometer
-100 nm
-10 nm
-1 nm
-```
-
-The purpose is to determine quantitatively whether complete-apparatus quantum
-stress-energy can materially outperform the classical static branch.
-
----
-
-## Research 007B — Quantum Energy Inequality Bound
-
-After 007A, quantify the negative-energy magnitude/duration restrictions from
-established quantum field theory.
-
-For spatial scale $h$ and sampling duration $\tau$, the target output is a
-bound or benchmark of the form
+The optimized neutron-star-normalized opposite-sign scalar preflight gave
 
 ```math
-a_{\max}(h,\tau)
+\frac{a_{\max}}{g}
+\approx
+7.33\times10^{-4}
 ```
 
-The purpose is to determine whether allowed quantum negative energy can ever
-produce useful gravitational acceleration at experimentally accessible
-scales.
+even for an optimistic zero-gap infinite osmium half-space acting on hydrogen.
 
-If the answer is decisively negative, close or strongly deprioritize the
-quantum-vacuum branch rather than adding unnecessary model complexity.
+### Material-blind vector direction
+
+A gold-phobic phenomenological vector direction could formally reach order-$1g$ in a low-energy force recast, but the simple UV completions examined failed or became severely stressed by:
+
+- electroweak $SU(2)_L$ consistency;
+- unavoidable axial couplings;
+- longitudinal-mode / stellar constraints;
+- vectorlike-partner mass and mixing requirements;
+- low effective UV cutoff scales.
+
+The effective-$Z'$ preflight found, at the $1g$ benchmark,
+
+```text
+UNAVOIDABLE_AXIAL_COUPLING_AT_1G=1.064556829114e-11
+STRONG_NDA_LAMBDA_U_MAX_GEV=582.021760
+STRONG_NDA_LAMBDA_D_MAX_GEV=601.574737
+```
+
+and the simple effective-$Z'$ rescue is therefore severely stressed, though not claimed to be a theorem excluding every exotic UV completion.
+
+### Momentum-conservation result
+
+A reciprocal fifth-force stack internal to one isolated craft obeys total momentum conservation.
+
+```text
+SELF_CONTAINED_MULTILAYER_FIFTH_FORCE_LIFT=REJECTED
+GROUND_REFERENCED_EXTERNAL_SOURCE_FORCE=NOT_REJECTED_BY_THIS_ARGUMENT
+```
+
+Thus a new short-range force and self-contained gravitational antigravity are not the same achievement.
+
+## 010 — Modified-gravity and conservation gates
+
+### 010A — Healthy universal scalar-tensor sign gate
+
+A healthy universally coupled canonical scalar adds attraction or screens back toward GR.
+
+Metric $f(R)$ gives the familiar short-range enhancement
+
+```math
+\frac{F}{F_{\mathrm{GR}}}
+\rightarrow
+\frac43
+```
+
+rather than repulsion.
+
+Opposite scalar charges return to the already-tested fifth-force class, while wrong-sign kinetic terms introduce ghosts.
+
+### 010B — Vector-tensor and spin-2 sign gate
+
+Healthy positive-residue extra spin-2 exchange adds attraction.
+
+A healthy spin-1 field can repel like charges, but doing so requires an explicit matter current or charge and therefore returns to fifth-force physics.
+
+The tested Einstein-æther Newtonian sign flip requires crossing a singular/pathological parameter region rather than providing a viable laboratory antigravity regime.
+
+### 010C — Nonperturbative and nonminimal scalar gate
+
+A constant-density scalarization estimate gives
+
+```math
+|\beta|
+\frac{GM}{Rc^2}
+=
+\frac{\pi^2}{12}
+```
+
+For a neutron star with compactness $0.2$,
+
+```math
+|\beta|_{\mathrm{crit}}
+\approx
+4.11
+```
+
+consistent with the known strong-field scale.
+
+For a one-meter osmium sphere,
+
+```math
+|\beta|_{\mathrm{crit}}
+\approx
+1.17\times10^{22}
+```
+
+so laboratory-density matter is nowhere near the compactness needed for the standard spontaneous-scalarization mechanism.
+
+The same gate showed that healthy general conformal scalar-tensor theories retain positive effective gravitational coupling under the tested stability conditions.
+
+### 010D — Equivalence-principle and center-of-energy gate
+
+Define
+
+```math
+\chi
+=
+\frac{m_{\mathrm{passive}}}
+{m_{\mathrm{inertial}}}
+```
+
+Then
+
+```math
+a
+=
+\chi g
+```
+
+Ordinary free fall corresponds to
+
+```math
+\chi=1
+```
+
+weight cancellation requires
+
+```math
+\chi=0
+```
+
+and upward gravitational acceleration of magnitude $g$ requires
+
+```math
+\chi=-1
+```
+
+Thus true gravitational inversion requires an order-unity change in passive gravitational response.
+
+Within ordinary equivalence-principle bookkeeping, internal energy changes inertial and gravitational mass together and does not provide this switch.
+
+For an isolated system, internal conservative fields also cannot accelerate the total center of energy.
+
+```text
+WEP_PRESERVING_INTERNAL_STATE_WEIGHT_MODULATION=REJECTED
+ISOLATED_INTERNAL_BACKGROUND_SELF_ACCELERATION=REJECTED
+RADIATIVE_MOMENTUM_EXPORT=ORDINARY_REACTION_PROPULSION
+KNOWN_PRACTICAL_GRAVITATIONAL_BACKGROUND_ACTUATOR=NO
+```
 
 ---
 
-## Research 007C — Dynamic Sources
+# Current Scientific Position
 
-Only pursue this branch after the cheaper 007A/007B gates unless a new
-analytical argument changes the priority.
+The project has answered one foundational question positively:
 
-Candidate systems include:
+> **Can physically respectable stress-energy produce local gravitational repulsion? Yes, within the explicitly tested linearized-GR construction.**
 
-- scalar-field pulses;
-- moving domain walls;
-- oscillating anisotropic stresses;
-- transient field configurations;
-- retarded gravitational response.
+It has not yet answered the engineering question:
 
-The decisive question is:
+> **Can the required stress-energy or an equivalent gravitational-response mechanism be produced stably, controllably, and economically enough for practical antigravity? Not yet.**
 
-> Can dynamics improve the **parametric scaling** of useful gravitational
-> repulsion rather than merely change an order-unity coefficient?
+The current theoretical landscape is:
 
-If dynamics only changes $C$ by a factor of order unity while preserving the
-same basic energy scaling, deprioritize the branch.
+```text
+CLASSICAL_GR_LOCAL_REPULSION=YES
+FINITE_POSITIVE_ENERGY_LINEARIZED_GR_CONSTRUCTION=YES
+KNOWN_PRACTICAL_CLASSICAL_SOURCE=NO
 
----
+STATIC_CASIMIR_PRACTICAL_ROUTE=DEPRIORITIZED
+FREE_QFT_MACROSCOPIC_ROUTE=CLOSED_OR_STRONGLY_DEPRIORITIZED
 
-## Research 008 — Modified Gravity
+ORDINARY_UNSCREENED_VECTOR_1G=NO
+OPPOSITE_SIGN_SCALAR_1G=NO
+GOLD_NULL_VECTOR_LOW_ENERGY_FORCE=POTENTIALLY_LARGE
+GOLD_NULL_SIMPLE_HEALTHY_UV_COMPLETION=NOT_FOUND
 
-Modified gravitational theories remain deferred until the established-GR and
-established-QFT parameter spaces have been quantitatively constrained.
+UNIVERSAL_HEALTHY_SCALAR_TENSOR_SIGN_REVERSAL=NO
+HEALTHY_POSITIVE_RESIDUE_SPIN2_SIGN_REVERSAL=NO
+LAB_SPONTANEOUS_SCALARIZATION=NO
 
-Possible later candidates include:
+INTERNAL_CONSERVATIVE_SELF_THRUST=NO
+SWITCHABLE_NEGATIVE_PASSIVE_GRAVITATIONAL_RESPONSE=NOT_ESTABLISHED
 
-- scalar-tensor gravity;
-- $f(R)$ gravity;
-- vector-tensor models;
-- Horndeski-type theories;
-- massive gravity;
-- other well-defined and observationally constrained extensions.
-
-A modified theory producing repulsion is not by itself considered evidence for
-a new physical effect. Any candidate must be independently motivated and
-filtered by theoretical consistency, stability, solar-system constraints,
-gravity-wave constraints, cosmology, and other relevant observations.
+PRACTICAL_ANTIGRAVITY_DEVICE=NO
+```
 
 ---
 
-# Current Claims Ledger
+# Current Theoretical Frontier
 
-## Known Results Reproduced
+The project should not restart solved coefficient optimization or reopen rejected branches without a genuinely new physical mechanism.
 
-- Positive cosmological constant produces geodesic defocusing.
-- Kottler spacetime contains an attraction/repulsion transition.
-- Reissner-Nordstrom spacetime can produce local neutral-particle
-  gravitational repulsion.
-- Relativistic domain-wall stress can produce gravitational repulsion.
+The current theory-side question is:
 
-## Project-Derived Results Supported by Current Calculations
+> **Is there any physically consistent mechanism that changes the practical scaling or the gravitational response itself without requiring ghosts, forbidden material charges, pathological UV structure, astronomical energy, or violation of total energy-momentum conservation?**
 
+The remaining logical possibilities include:
+
+- a new physically realizable source of large relativistic tension with radically improved scaling;
+- an observationally viable nonstandard gravitational response not covered by the tested healthy scalar/vector/spin-2 classes;
+- a controllable external gravitational or cosmological background interaction;
+- genuinely new physics producing state-dependent passive gravitational response.
+
+None of these has yet been established.
+
+The next work should therefore be selected by **information gain**, not by preserving any particular speculative branch.
+
+---
+
+# Claims Ledger
+
+## Supported
+
+- Local gravitational repulsion exists in established GR.
 - Positive energy does not forbid local gravitational repulsion.
-- Negative ADM mass is not required for local gravitational repulsion.
-- Relativistically negative pressure/tension is a recurring mechanism for
-  gravitational repulsion.
-- The 005B finite supported tension disk has a repulsive near field, positive
-  total energy, positive far-field mass, and independently verified coefficient
-  $C_{005B}\approx79.753148116012$ within its linearized model.
-- The 006B locally conserved thin radial architecture reduces the coefficient
-  to $C_{\mathrm{thin}}=23.426710175391$ within its restricted optimization
-  class.
-- Full $r$-$z$ continuum diagnostics are consistent with the 006B thin
-  reference; no verified lower full-2D coefficient has been established.
-- Simulation 006D constructs a finite-radius, finite-thickness, nonsingular,
-  positive-energy, locally conserved linearized-GR stress-energy distribution
-  satisfying NEC/WEC/DEC and producing a local outward gravitational field.
-- The best tested finite-thickness coefficient is
-  $C_{\mathrm{finite}}=23.591586299249$.
-- The static positive-energy mechanisms studied so far retain the basic energy
-  scaling $M\sim C a h^2/G$.
+- Negative total/ADM mass is not required for a locally repulsive near field.
+- Relativistic negative pressure and tension can contribute repulsively.
+- Reissner-Nordström provides an exact established-theory local repulsion example.
+- The 005B finite supported disk result was independently numerically verified.
+- The 006B thin locally conserved architecture has $C_{\mathrm{thin}}=23.426710175391$ within its stated class.
+- The 006D finite-thickness source is finite, positive-energy, locally conserved at linearized order, NEC/WEC/DEC-compatible, locally repulsive, and positive in far-field active mass.
+- The best tested 006D finite coefficient is $C_{\mathrm{finite}}=23.591586299249$.
+- The classical sources studied retain the severe $a h^2/G$ scaling.
+- Ordinary internal conservative forces cannot self-accelerate an isolated center of energy.
 
-## Not Established
+## Strongly disfavored or rejected in tested scope
 
-- A universal proof that $C=23.426710175391$ or $C=1$ is the absolute lower
-  bound in full general relativity.
-- A self-consistent exact nonlinear-GR realization of the 006D source.
-- Dynamical stability of the finite stress-energy architecture.
-- A known laboratory material or field configuration capable of sustaining
-  the required relativistic stress.
-- Energetically plausible human-scale antigravity.
-- Experimentally accessible antigravity from the project-derived source.
-- Global positive-mass antigravity.
-- A practical antigravity device.
-- Novel physics.
+- negative-mass thin-shell engineering under ordinary energy conditions;
+- practical Reissner-Nordström electric-field scaling;
+- complete static Casimir apparatus as a practical macroscopic route;
+- free-field quantum negative energy as a macroscopic route;
+- ordinary unscreened $B-L$-like vector force as an order-$1g$ actuator;
+- terrestrial chameleon rescue mechanisms tested in 009I-009K;
+- opposite-sign unscreened scalar as an order-$0.1g$ to $1g$ route under the 009O preflight;
+- simple gold-null vector UV completions tested in 009M-009Q;
+- universal canonical scalar-tensor sign reversal;
+- metric $f(R)$ sign reversal;
+- standard laboratory spontaneous scalarization;
+- self-contained reciprocal fifth-force stacking;
+- WEP-preserving internal-state weight switching.
+
+## Not established
+
+- an exact nonlinear-GR version of 006D;
+- dynamical stability of 006D;
+- a known material or field configuration that realizes 006D;
+- a universal lower bound on the coefficient $C$;
+- an experimentally allowed healthy order-$1g$ new force on ordinary matter;
+- switchable negative passive gravitational mass;
+- global positive-mass antigravity;
+- reactionless propulsion;
+- a practical antigravity device;
+- a discovery of new physics.
 
 ---
 
-# Running the Research
+# Regression Status
 
-Activate the repository environment from the project root:
+The current verified known-solution regression baseline is:
+
+```text
+94 passed
+```
+
+Run it from the project root with:
 
 ```bash
 ROOT="$(pwd)"
 PY="$ROOT/.venv/bin/python"
-export PYTHONPATH="$ROOT/src"
-```
 
-Run the complete known-solution test suite:
-
-```bash
+PYTHONPATH="$ROOT/src" \
 "$PY" -m pytest -q tests/known_solutions
 ```
 
-The current observed regression baseline after 006D is:
+The 009-010 frontier calculations were performed primarily as disposable analytical/literature gates and are documented in `NOTES.md`; they should not be described as permanent simulation files unless and until they are deliberately landed in the repository.
 
-```text
-72 passed
-```
+---
 
-Run the existing simulations:
+# Repository Outputs
 
-```bash
-"$PY" simulations/001_kottler_weak_field.py
-"$PY" simulations/001b_kottler_tidal_eigenvalues.py
-"$PY" simulations/002_required_stress_energy.py
-"$PY" simulations/003a_finite_vacuum_energy_core.py
-"$PY" simulations/003b_israel_shell_mass_search.py
-"$PY" simulations/004a_einstein_maxwell_repulsion.py
-"$PY" simulations/005a_relativistic_tension_wall.py
-"$PY" simulations/005b_finite_supported_antigravity.py
-"$PY" simulations/006a_static_dec_lower_bound.py
-"$PY" simulations/006b_geometry_aware_dec_optimizer.py
-"$PY" simulations/006b_full_rz_decision.py
-"$PY" simulations/006c_independent_finite_disk_field.py
-"$PY" simulations/006d_finite_thickness_conserved_source.py
-```
-
-Simulation output should be preserved in `results/logs/` whenever possible.
-
-Generated numerical data is stored under:
+Persistent numerical outputs are organized under:
 
 ```text
 results/data/
+results/figures/
+results/logs/
 ```
 
-Generated figures are stored under:
+Important permanent simulations through the classical and field-realizability stages include:
 
 ```text
-results/figures/
+simulations/001_kottler_weak_field.py
+simulations/001b_kottler_tidal_eigenvalues.py
+simulations/002_required_stress_energy.py
+simulations/003a_finite_vacuum_energy_core.py
+simulations/003b_israel_shell_mass_search.py
+simulations/004a_einstein_maxwell_repulsion.py
+simulations/005a_relativistic_tension_wall.py
+simulations/005b_finite_supported_antigravity.py
+simulations/006a_static_dec_lower_bound.py
+simulations/006b_geometry_aware_dec_optimizer.py
+simulations/006b_full_rz_decision.py
+simulations/006c_independent_finite_disk_field.py
+simulations/006d_finite_thickness_conserved_source.py
+simulations/008a_wall_current_loop_gate.py
+simulations/008b_distributed_field_representability_gate.py
 ```
+
+See the codebundle and `NOTES.md` for the exact current implementation state.
+
+---
+
+# Research Philosophy
+
+- Start with established physics.
+- Reproduce known results before exploring speculative extensions.
+- Separate coordinate effects from invariant or operational observables.
+- State assumptions and approximation levels explicitly.
+- Check dimensions and limiting cases.
+- Attempt falsification before increasing model complexity.
+- Prefer the cheapest decisive analytical or numerical gate.
+- Preserve negative results.
+- Require local conservation where the physical model requires it.
+- Distinguish mathematical sign, physical observable, theoretical consistency, realizability, experimental accessibility, and practical engineering.
+- Never promote an internally generated calculation to a discovery without independent verification and literature comparison.
 
 ---
 
 # Scientific Classification
 
-Results in this repository should use categories such as:
+Results should use conservative categories such as:
 
 ```text
 KNOWN_RESULT
@@ -1287,24 +2383,22 @@ NUMERICAL_OBSERVATION
 NUMERICAL_OPTIMIZATION_RESULT
 INDEPENDENT_NUMERICAL_VERIFICATION
 CONSTRUCTIVE_LINEARIZED_GR_STRESS_ENERGY_RESULT
+ANALYTIC_SIGN_GATE
+ANALYTIC_UV_PREFLIGHT
 CONJECTURE
 NOVEL_CANDIDATE
 REJECTED
 ```
 
-A result should not be promoted to `NOVEL_CANDIDATE` merely because it has not
-yet been found in the project's literature search.
-
-Independent mathematical verification and literature review are required.
+A result is not a discovery merely because the project has not yet located a precedent.
 
 ---
 
-## AI-Assisted Research
+# AI-Assisted Research
 
-Antigravity Research is a human-directed research project by **Stevan White**
-that uses **ChatGPT by OpenAI** as an AI research and development assistant.
+Antigravity Research is a human-directed research project that uses **ChatGPT by OpenAI** as an AI research and development assistant.
 
-ChatGPT assists with:
+AI assistance includes:
 
 - mathematical derivations;
 - Python development;
@@ -1316,10 +2410,7 @@ ChatGPT assists with:
 - hypothesis generation;
 - falsification efforts.
 
-AI-generated material is not assumed to be correct.
-
-Important results are subject to analytical, numerical, dimensional,
-literature, and other independent verification.
+AI-generated material is not assumed to be correct. Important results are subject to analytical, numerical, dimensional, literature, and independent verification.
 
 Use of ChatGPT does not imply endorsement or sponsorship by OpenAI.
 
@@ -1327,47 +2418,30 @@ See [`AI_ASSISTANCE.md`](AI_ASSISTANCE.md) for the complete disclosure.
 
 ---
 
-## Licensing
+# Licensing
 
-Antigravity Research uses separate licenses for software and research
-materials.
+Antigravity Research uses separate licenses for software and research materials.
 
 - **Software:** MIT OR Apache-2.0, at the user's option.
-- **Original research materials, generated data, and original figures:**
-  CC0 1.0 Universal.
+- **Original research materials, generated data, and original figures:** CC0 1.0 Universal.
 
-See [`LICENSE.md`](LICENSE.md) for the complete licensing policy and the
-`LICENSES/` directory for the full license texts.
+See [`LICENSE.md`](LICENSE.md) and the `LICENSES/` directory for the complete licensing policy.
 
 Third-party materials retain their original copyright and licensing terms.
 
 ---
 
-## Current Project Direction
+# Bottom Line
 
-The current working interpretation is:
+> # **We have a mathematical construction for antigravity-like gravitational repulsion.**
 
-> **Local gravitational repulsion in established GR is possible in theory,
-> but the practical problem is dominated by stress-energy realizability,
-> stability, and energy scale.**
+The construction is finite, positive-energy, locally conserved at linearized order, compatible with NEC/WEC/DEC, and produces a verified outward local gravitational field.
 
-The static classical branch has progressed from a finite disk coefficient of
-$C\approx79.753148$ to a locally conserved optimized thin architecture with
-$C\approx23.426710$, followed by a finite-thickness regularization with
-$C\approx23.591586$.
+The unresolved challenge is no longer whether gravitational repulsion can exist mathematically.
 
-That is a substantial theoretical improvement, but it does not solve the
-underlying engineering problem because the basic scaling remains
+The unresolved challenge is whether Nature provides a **stable, physically realizable, energetically practical mechanism** capable of producing it at useful scales.
 
-```math
-M_{\mathrm{equiv}}
-\sim
-C\frac{a h^2}{G}
+```text
+THEORETICAL_LOCAL_REPULSION=YES
+PRACTICAL_ANTIGRAVITY=NOT_YET
 ```
-
-The immediate next objective is therefore **Simulation 007A: a complete
-Casimir apparatus benchmark**, followed by **Simulation 007B: quantum energy
-inequality bounds**. The goal is to determine quickly whether established
-quantum physics offers a route that materially outperforms the classical
-static stress-energy scaling before considering more speculative extensions of
-gravity.
