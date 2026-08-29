@@ -225,7 +225,7 @@ The complete 016A–016H record is preserved in:
 
 [`journal/2026-08-29_016a_016h_006d_realizability_and_canonical_field_gates.md`](journal/2026-08-29_016a_016h_006d_realizability_and_canonical_field_gates.md)
 
-For detailed chronology, rejected branches, and numerical context, see [`NOTES.md`](NOTES.md).
+For detailed chronology, rejected branches, and numerical context, use [`notes/chronology/`](notes/chronology/) for the preferred GitHub-readable view. The complete monolithic history is retained in [`NOTES.MD`](NOTES.MD) for single-file review and AI-session handoff.
 
 For the active decision tree and branch ranking, see [`RESEARCH_BUILDPLAN.md`](RESEARCH_BUILDPLAN.md).
 
@@ -1810,11 +1810,47 @@ NO
 
 ---
 
+# Notes and Research History
+
+The project intentionally preserves its chronological research history in **two complementary forms**.
+
+## GitHub-readable chronology
+
+[`notes/chronology/`](notes/chronology/) is the **preferred version for reading the detailed research history on GitHub**.
+
+The chronology is divided into smaller Markdown files because the complete research history contains a very large number of mathematical expressions. These smaller files render substantially more reliably on GitHub.
+
+If GitHub displays `Unable to render expression` while viewing the monolithic notes, readers should consult the corresponding entry in [`notes/chronology/`](notes/chronology/).
+
+## Monolithic research history
+
+[`NOTES.MD`](NOTES.MD) is intentionally retained as the **complete long-running single-file research record**.
+
+The monolithic file is useful for:
+
+- carrying the full project history into a new ChatGPT or other AI-assisted research session;
+- searching the complete chronological record in one file;
+- preserving the continuous history of the project as a single artifact;
+- archival and whole-project handoff purposes.
+
+`NOTES.MD` is therefore **not deprecated and is not being discarded**.
+
+Because it is unusually large and math-heavy, GitHub may sometimes fail to render otherwise valid mathematical expressions in the monolithic file. This is a rendering limitation of the large document rather than an indication that the corresponding equation is necessarily malformed.
+
+For reliable GitHub reading and mathematical rendering, prefer `notes/chronology/`.
+
+For a complete single-file historical record or AI-session handoff, prefer `NOTES.MD`.
+
+Both forms preserve the research history. The active frontier remains governed by `RESEARCH_BUILDPLAN.md`, while durable completed results and proofs are preserved in `journal/`.
+
+---
+
 # Repository Navigation
 
 For complete detail rather than README-level summaries:
 
-* [`NOTES.md`](NOTES.md) — chronological research record, calculations, failures, and carry-forward context.
+* [`notes/chronology/`](notes/chronology/) — preferred GitHub-readable chronological research record, including calculations, failures, and carry-forward context.
+* [`NOTES.MD`](NOTES.MD) — complete monolithic research history retained for single-file review, archival continuity, and convenient AI-session handoff.
 * [`RESEARCH_BUILDPLAN.md`](RESEARCH_BUILDPLAN.md) — active priorities, decision gates, and stop rules.
 * [`journal/2026-08-28_006d_constructive_linearized_gr_repulsion.md`](journal/2026-08-28_006d_constructive_linearized_gr_repulsion.md) — complete durable record and standalone reconstruction of 006D.
 * [`journal/2026-08-29_016a_016h_006d_realizability_and_canonical_field_gates.md`](journal/2026-08-29_016a_016h_006d_realizability_and_canonical_field_gates.md) — complete 016A–016H physical-realizability program.
