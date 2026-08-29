@@ -242,7 +242,7 @@ For a type-I source in a local orthonormal frame,
 ```math
 T_{\hat\mu\hat\nu}
 =
-\operatorname{diag}
+\mathrm{diag}
 \left(
 \epsilon,
 p_r,
