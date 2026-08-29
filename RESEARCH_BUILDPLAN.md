@@ -268,7 +268,7 @@ where
 ```math
 g
 =
-9.80665\ {\rm m\,s^{-2}}
+9.80665\ {\mathrm{m}\,s^{-2}}
 ```
 
 A pointwise acceleration may still be used in inexpensive prerequisite gates.
@@ -332,7 +332,7 @@ z-z'
 Then
 
 ```math
-\boxed{
+
 a_{\mathrm{CM},z}
 =
 -\frac{G}{c^2}
@@ -340,7 +340,7 @@ a_{\mathrm{CM},z}
 S(\mathbf x')
 \overline{K}_P(\mathbf x')
 \,d^3x'
-}
+
 ```
 
 This is the preferred operational quantity for future GR source optimization.
@@ -448,7 +448,7 @@ Outward finite-payload acceleration requires
 Therefore the necessary leverage condition is
 
 ```math
-\boxed{
+
 \frac{
 \kappa_-
 }{
@@ -460,7 +460,7 @@ Q_+
 }{
 Q_-
 }
-}
+
 ```
 
 This equation should guide the next established-GR source design.
@@ -651,7 +651,7 @@ C_{\mathrm{thin}}
 23.426710175391
 ```
 
-The finite source is therefore approximately $0.704%$ above the thin result.
+The finite source is therefore approximately $0.704\%$ above the thin result.
 
 The central project headline remains:
 
@@ -710,7 +710,7 @@ peak stresses were reduced by hundreds-fold while the gravitational coefficient 
 016A also established the tiled-area scaling
 
 ```math
-\boxed{
+
 \frac{
 E
 }{
@@ -722,7 +722,7 @@ Cac^2
 }{
 \pi x_{\max}^2G
 }
-}
+
 ```
 
 for the simple cell-coverage architecture.
@@ -792,7 +792,7 @@ The exact promoted power-law target was rejected for the minimum asymptotically 
 The central identity is
 
 ```math
-\boxed{
+
 k_\infty^2-s^2
 =
 \frac{
@@ -801,7 +801,7 @@ m(m+2)
 4(1-\eta)
 }
 >0
-}
+
 ```
 
 under the stated assumptions.
@@ -1724,7 +1724,7 @@ with representative
 ```math
 C_\phi
 \approx
-9.54\times10^{-20}\ {\rm eV^{-3}}
+9.54\times10^{-20}\ {\mathrm{eV}^{-3}}
 ```
 
 for the selected normalization.
@@ -1744,7 +1744,7 @@ The working mediator mass is approximately
 ```math
 m_\phi
 \approx
-3.95\times10^{-11}\ {\rm eV}
+3.95\times10^{-11}\ {\mathrm{eV}}
 ```
 
 The branch remains:

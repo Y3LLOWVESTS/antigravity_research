@@ -83,7 +83,7 @@ Before this research slice, Simulation 006D had established:
 The best tested finite coefficient was
 
 ```math
-C_{\rm finite}
+C_{\mathrm{finite}}
 =
 23.591586299249
 ```
@@ -91,7 +91,7 @@ C_{\rm finite}
 in the scaling
 
 ```math
-M_{\rm equiv}
+M_{\mathrm{equiv}}
 =
 C\frac{ah^2}{G}.
 ```
@@ -99,7 +99,7 @@ C\frac{ah^2}{G}.
 The independently obtained thin conserved reference was
 
 ```math
-C_{\rm thin}
+C_{\mathrm{thin}}
 =
 23.426710175391.
 ```
@@ -241,17 +241,17 @@ r^2+(h-z)^2
 Then outward gravity requires
 
 ```math
-\boxed{
+
 \int S K_h\,dV<0
-}
+
 ```
 
 while positive far-field active mass requires
 
 ```math
-\boxed{
+
 \int S\,dV>0.
-}
+
 ```
 
 The fact that both can hold simultaneously is the key spatial mechanism behind 006D.
@@ -369,11 +369,11 @@ P\approx0,
 one-mode stability requires
 
 ```math
-\boxed{
+
 \frac{T}{E}
 >
 \frac18
-}.
+.
 ```
 
 The original fine 006D source had
@@ -540,7 +540,7 @@ C=
 The peak stress scales approximately as
 
 ```math
-\epsilon_{\rm peak}
+\epsilon_{\mathrm{peak}}
 \propto
 \frac{1}{h\delta^2}.
 ```
@@ -560,7 +560,7 @@ DELTA≈0.10_TO_0.20.
 A single 006D cell has energy
 
 ```math
-E_{\rm cell}
+E_{\mathrm{cell}}
 =
 C\frac{ah^2c^2}{G}.
 ```
@@ -568,7 +568,7 @@ C\frac{ah^2c^2}{G}.
 Its geometric footprint is approximately
 
 ```math
-A_{\rm cell}
+A_{\mathrm{cell}}
 =
 \pi x_{\max}^2h^2.
 ```
@@ -576,16 +576,16 @@ A_{\rm cell}
 Therefore
 
 ```math
-\boxed{
-\frac{E_{\rm cell}}
-{A_{\rm cell}}
+
+\frac{E_{\mathrm{cell}}}
+{A_{\mathrm{cell}}}
 =
 \frac{
 Cac^2
 }{
 \pi x_{\max}^2G
 }
-}.
+.
 ```
 
 The factor $h^2$ cancels exactly.
@@ -766,7 +766,7 @@ This is a local conformal map with scale
 A necessary integrability condition is
 
 ```math
-\boxed{
+
 \left(
 \partial_r^2
 +
@@ -775,7 +775,7 @@ A necessary integrability condition is
 \ln g
 =
 0
-}
+
 ```
 
 where $g>0$.
@@ -825,7 +825,7 @@ v=y=\frac12,
 this becomes
 
 ```math
-\boxed{
+
 \Delta\ln g
 =
 \frac1{r^2}
@@ -833,7 +833,7 @@ this becomes
 \frac{24}{\delta^2}
 <
 0.
-}
+
 ```
 
 Thus the harmonicity condition fails.
@@ -1134,7 +1134,7 @@ I(r)
 Therefore exact angular-stress matching requires
 
 ```math
-\boxed{
+
 |k(r)|
 \ge
 K_{\min}(r)
@@ -1144,7 +1144,7 @@ r\sqrt{A(r)}
 }{
 I(r)
 }
-}.
+.
 ```
 
 This is a necessary kinematic condition independent of the detailed self-potential.
@@ -1192,7 +1192,7 @@ I(r)
 Therefore
 
 ```math
-\boxed{
+
 K_{\min}(r)
 \sim
 \frac{
@@ -1200,7 +1200,7 @@ r
 }{
 \sqrt2\,\ell
 }
-}.
+.
 ```
 
 Hence
@@ -1300,7 +1300,7 @@ for large $x$.
 For this class the asymptotic required gauge mismatch tends to a finite constant:
 
 ```math
-\boxed{
+
 K_\infty
 =
 \sqrt{
@@ -1308,7 +1308,7 @@ K_\infty
 m(m+1)
 }{2}
 }
-}.
+.
 ```
 
 Examples:
@@ -1451,8 +1451,8 @@ A.
 Therefore
 
 ```math
-\boxed{
-K_{\rm inner}(r)
+
+K_{\mathrm{inner}}(r)
 =
 \frac{
 r\sqrt{A(r)}
@@ -1462,7 +1462,7 @@ r\sqrt{A(r)}
 \sqrt{G_r(s)}
 \,ds
 }
-}
+
 ```
 
 is a necessary mismatch bound.
@@ -1486,8 +1486,8 @@ F(r)
 and hence
 
 ```math
-\boxed{
-K_{\rm outer}(r)
+
+K_{\mathrm{outer}}(r)
 =
 \frac{
 r\sqrt{A(r)}
@@ -1497,21 +1497,21 @@ r\sqrt{A(r)}
 \sqrt{G_r(s)}
 \,ds
 }
-}.
+.
 ```
 
 The global minimum required mismatch is therefore at least
 
 ```math
-\boxed{
-K_{\rm required}
+
+K_{\mathrm{required}}
 =
 \max
 \left(
-K_{\rm inner},
-K_{\rm outer}
+K_{\mathrm{inner}},
+K_{\mathrm{outer}}
 \right).
-}
+
 ```
 
 ---
@@ -1727,19 +1727,19 @@ r^{-m-2}.
 The remaining radial gradient capacity is
 
 ```math
-\boxed{
+
 G_r
 \sim
 (1-\eta)
 mC_\infty
 r^{-m-2}
-}.
+.
 ```
 
 The required remaining angular Gram component is
 
 ```math
-\boxed{
+
 A
 \sim
 \left[
@@ -1749,7 +1749,7 @@ A
 \right]
 C_\infty
 r^{-m-2}.
-}
+
 ```
 
 ---
@@ -1805,9 +1805,9 @@ r^{-s}
 with
 
 ```math
-\boxed{
+
 s=\frac m2.
-}
+
 ```
 
 Any faster power-law decay has
@@ -1835,7 +1835,7 @@ Using the largest kinematically allowed amplitude gives the smallest possible as
 This yields
 
 ```math
-\boxed{
+
 k_\infty^2
 \ge
 \frac{
@@ -1846,7 +1846,7 @@ m
 }{
 4(1-\eta)
 }.
-}
+
 ```
 
 Because
@@ -1904,7 +1904,7 @@ m+2.
 Therefore
 
 ```math
-\boxed{
+
 k_\infty^2-s^2
 =
 \frac{
@@ -1912,7 +1912,7 @@ m(m+2)
 }{
 4(1-\eta)
 }.
-}
+
 ```
 
 For
@@ -1932,9 +1932,9 @@ both numerator and denominator are positive.
 Therefore
 
 ```math
-\boxed{
+
 k_\infty^2>s^2.
-}
+
 ```
 
 This result is exact within the stated asymptotic assumptions.
@@ -1952,7 +1952,7 @@ F''
 -
 \frac{k^2}{r^2}F
 -
-U_{\rm eff}'(F)
+U_{\mathrm{eff}}'(F)
 =
 0.
 ```
@@ -1996,7 +1996,7 @@ s^2Ar^{-s-2}
 The Euler-Lagrange equation then requires
 
 ```math
-U_{\rm eff}'(F)
+U_{\mathrm{eff}}'(F)
 =
 \frac{
 s^2-k^2
@@ -2013,9 +2013,9 @@ k^2>s^2.
 Therefore
 
 ```math
-\boxed{
-U_{\rm eff}'(F)<0
-}
+
+U_{\mathrm{eff}}'(F)<0
+
 ```
 
 for sufficiently small positive $F$.
@@ -2261,7 +2261,7 @@ e^{i(\omega t-n\phi)}.
 Their angular momentum densities cancel, giving
 
 ```math
-T_{t\phi,\rm total}=0.
+T_{t\phi,\mathrm{total}}=0.
 ```
 
 The potential was chosen nonnegative:
@@ -2389,13 +2389,13 @@ S
 simplifies exactly to
 
 ```math
-\boxed{
+
 S
 =
 8\omega^2Y^2
 -
 2V.
-}
+
 ```
 
 The spatial gradient terms cancel from the active trace.
@@ -2788,17 +2788,17 @@ MOVED TO A LOWER-KERNEL OUTER REGION
 The new design criterion is therefore:
 
 ```math
-\boxed{
+
 \int S\,dV>0
-}
+
 ```
 
 while simultaneously
 
 ```math
-\boxed{
+
 \int S K_h\,dV<0.
-}
+
 ```
 
 This pair of conditions should guide future established-GR matter models.
@@ -2814,7 +2814,7 @@ The following major analytical results were established in this research slice.
 ### 016A coverage scaling
 
 ```math
-\boxed{
+
 \frac{E}{A}
 =
 \frac{
@@ -2822,7 +2822,7 @@ Cac^2
 }{
 \pi x_{\max}^2G
 }
-}
+
 ```
 
 for simple tiled cells.
@@ -2840,9 +2840,9 @@ J^TJ=gI
 requires
 
 ```math
-\boxed{
+
 \Delta\ln g=0.
-}
+
 ```
 
 The compact 006D target violates this condition.
@@ -2850,7 +2850,7 @@ The compact 006D target violates this condition.
 ### 016E gauge mismatch bound
 
 ```math
-\boxed{
+
 |k(r)|
 \ge
 \frac{
@@ -2860,17 +2860,17 @@ r\sqrt A
 \int_r^\infty
 \sqrt{G_r}\,ds
 }.
-}
+
 ```
 
 ### 016E exponential asymptotic
 
 ```math
-\boxed{
+
 K_{\min}(r)
 \sim
 \frac r{\sqrt2\,\ell}
-}
+
 ```
 
 leading to logarithmically divergent minimal magnetic-energy scaling.
@@ -2878,7 +2878,7 @@ leading to logarithmically divergent minimal magnetic-energy scaling.
 ### 016E power-law asymptotic
 
 ```math
-\boxed{
+
 K_\infty
 =
 \sqrt{
@@ -2886,27 +2886,27 @@ K_\infty
 m(m+1)
 }{2}
 }.
-}
+
 ```
 
 ### 016F simultaneous charge/winding requirement
 
 ```math
-\boxed{
-K_{\rm required}
+
+K_{\mathrm{required}}
 =
 \max
 \left(
-K_{\rm inner},
-K_{\rm outer}
+K_{\mathrm{inner}},
+K_{\mathrm{outer}}
 \right).
-}
+
 ```
 
 ### 016G asymptotic no-go identity
 
 ```math
-\boxed{
+
 k_\infty^2-s^2
 =
 \frac{
@@ -2915,19 +2915,19 @@ m(m+2)
 4(1-\eta)
 }
 >0.
-}
+
 ```
 
 ### 016H active-source identity
 
 ```math
-\boxed{
+
 S
 =
 8\omega^2Y^2
 -
 2V.
-}
+
 ```
 
 These equations define the core mathematical advances of the slice.
@@ -2999,7 +2999,7 @@ Since
 \frac{ah^2}{G}
 \right]
 =
-{\rm kg},
+{\mathrm{kg}},
 ```
 
 the coefficient $C$ is dimensionless.
@@ -3019,7 +3019,7 @@ Cac^2
 has units
 
 ```math
-{\rm J/m^2}.
+{\mathrm{J/m^2}}.
 ```
 
 The 016A cancellation of $h$ is therefore dimensionally consistent.
@@ -3545,7 +3545,7 @@ This remains mandatory.
 A future finite payload must use
 
 ```math
-\mathbf a_{\rm CM}
+\mathbf a_{\mathrm{CM}}
 =
 \frac{
 \int
@@ -3916,17 +3916,17 @@ not exact stress-tensor matching.
 The central design condition should be:
 
 ```math
-\boxed{
+
 \int S\,dV>0
-}
+
 ```
 
 while
 
 ```math
-\boxed{
+
 \int S K_h\,dV<0.
-}
+
 ```
 
 This is the clearest mathematical statement of the current physical frontier.

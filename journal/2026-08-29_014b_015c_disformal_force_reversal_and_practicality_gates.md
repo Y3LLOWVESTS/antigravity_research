@@ -63,7 +63,7 @@ Within static linearized general relativity, 006D constructed an explicit finite
 Its best tested finite-thickness coefficient is
 
 ```math
-C_{\rm finite}
+C_{\mathrm{finite}}
 =
 23.591586299249
 ```
@@ -71,7 +71,7 @@ C_{\rm finite}
 in
 
 ```math
-M_{\rm equiv}
+M_{\mathrm{equiv}}
 =
 C\frac{ah^2}{G}
 ```
@@ -79,7 +79,7 @@ C\frac{ah^2}{G}
 The independent thin conserved reference is
 
 ```math
-C_{\rm thin}
+C_{\mathrm{thin}}
 =
 23.426710175391
 ```
@@ -190,9 +190,9 @@ When $\eta^2>0$, the fifth-force divergence changes sign relative to Newtonian g
 or equivalently
 
 ```math
-\boxed{
+
 \delta_d>1
-}
+
 ```
 
 At homogeneous background order, $\delta_d=0$, so spatial and nonlinear corrections are essential.
@@ -337,9 +337,9 @@ The scalar field was evolved without imposing a quasistatic approximation.
 014C found regions satisfying
 
 ```math
-\boxed{
+
 \mathbf F_\phi\cdot\mathbf F_\Psi<0
-}
+
 ```
 
 This is an actual fifth-force component pointing partly or fully opposite Newtonian gravity.
@@ -531,24 +531,24 @@ gives
 so
 
 ```math
-\boxed{
+
 \mathbf F_\phi
 =
 -\frac{\epsilon^2}{2g_0}
 \xi_1\nabla\phi_1
 +
 O(\epsilon^3)
-}
+
 ```
 
 Hence
 
 ```math
-\boxed{
+
 \mathbf F_\phi
 =
 O(\epsilon^2)
-}
+
 ```
 
 Meanwhile,
@@ -572,17 +572,17 @@ O(\epsilon^2)
 imply
 
 ```math
-\boxed{
+
 \mathbf F_\Psi
 =
 O(\epsilon)
-}
+
 ```
 
 Therefore
 
 ```math
-\boxed{
+
 \frac{
 |\mathbf F_\phi|
 }{
@@ -590,13 +590,13 @@ Therefore
 }
 =
 O(\epsilon)
-}
+
 ```
 
 and thus
 
 ```math
-\boxed{
+
 \lim_{\epsilon\to0}
 \frac{
 |\mathbf F_\phi|
@@ -605,7 +605,7 @@ and thus
 }
 =
 0
-}
+
 ```
 
 within a regular weak-field expansion about the $\xi_0=0$ background.
@@ -653,7 +653,7 @@ PROVED_WITHIN_REGULAR_PERTURBATIVE_ASSUMPTIONS
 Define
 
 ```math
-\mathbf F_{\rm tot}
+\mathbf F_{\mathrm{tot}}
 =
 \mathbf F_\Psi
 +
@@ -673,13 +673,13 @@ A repulsive fifth-force component requires only
 Actual local total-force reversal requires
 
 ```math
-\boxed{
-\mathbf F_{\rm tot}
+
+\mathbf F_{\mathrm{tot}}
 \cdot
 \mathbf F_\Psi
 <
 0
-}
+
 ```
 
 Substituting the total force gives
@@ -711,23 +711,23 @@ or
 Therefore the exact projection condition is
 
 ```math
-\boxed{
+
 -\mathbf F_\phi
 \cdot
 \mathbf F_\Psi
 >
 |\mathbf F_\Psi|^2
-}
+
 ```
 
 For perfectly antiparallel forces this reduces to
 
 ```math
-\boxed{
+
 |\mathbf F_\phi|
 >
 |\mathbf F_\Psi|
-}
+
 ```
 
 This is the mathematical reason 014D is stronger than 014C.
@@ -902,11 +902,11 @@ This result is numerical, not a universal analytical theorem.
 The numerical parameter called `B0` in the reduced 014C/014D code corresponds to a dimensionless quantity $b_0$, related to the dimensionful disformal coefficient by
 
 ```math
-\boxed{
+
 b_0
 =
-H_0^2 M_{\rm Pl}^2 B_0
-}
+H_0^2 M_{\mathrm{Pl}}^2 B_0
+
 ```
 
 For the minimal constant operator,
@@ -920,29 +920,29 @@ B_0
 therefore
 
 ```math
-\boxed{
+
 b_0
 =
 \frac{
-H_0^2 M_{\rm Pl}^2
+H_0^2 M_{\mathrm{Pl}}^2
 }{
 M_D^4
 }
-}
+
 ```
 
 Solving for the suppression scale gives
 
 ```math
-\boxed{
+
 M_D
 =
 \sqrt{
-H_0M_{\rm Pl}
+H_0M_{\mathrm{Pl}}
 }
 \,
 b_0^{-1/4}
-}
+
 ```
 
 ### Physical scale of the 014D reversal
@@ -975,21 +975,21 @@ the ratio of two constant couplings is
 
 ```math
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm constrained}
+B_{\mathrm{constrained}}
 }
 =
 \left(
 \frac{
-M_{D,\rm constrained}
+M_{D,\mathrm{constrained}}
 }{
-M_{D,\rm operating}
+M_{D,\mathrm{operating}}
 }
 \right)^4
 ```
 
-Using the project's declared constant-coupling comparison with the $650\,{\rm GeV}$ benchmark gives
+Using the project's declared constant-coupling comparison with the $650\,{\mathrm{GeV}}$ benchmark gives
 
 ```text
 COLLIDER_ALLOWED_CONSTANT_B_b0_MAX=
@@ -1020,9 +1020,9 @@ An environment-dependent theory would need at least
 
 ```math
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm constrained}
+B_{\mathrm{constrained}}
 }
 \gtrsim
 3.4605562139399018\times10^{57}
@@ -1036,9 +1036,9 @@ The logarithmic hierarchy is
 \ln
 \left(
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm constrained}
+B_{\mathrm{constrained}}
 }
 \right)
 ```
@@ -1053,11 +1053,11 @@ REQUIRED_ENVIRONMENTAL_DELTA_LN_B=
 or
 
 ```math
-\boxed{
+
 \Delta\ln B
 \gtrsim
 132.49
-}
+
 ```
 
 This is the central hierarchy any environment-dependent rescue must explain.
@@ -1113,7 +1113,7 @@ Substitution gives
 Setting $\mathcal C=1$ gives the radius at which the weak/noncompact configuration ceases to be self-consistent:
 
 ```math
-\boxed{
+
 R_{\mathcal C=1}
 =
 \sqrt{
@@ -1123,7 +1123,7 @@ R_{\mathcal C=1}
 8\pi G\rho_E
 }
 }
-}
+
 ```
 
 For the matched energy density above,
@@ -1136,11 +1136,11 @@ COMPACTNESS_ONE_RADIUS=
 or approximately
 
 ```math
-\boxed{
+
 R_{\mathcal C=1}
 \approx
-3.23\ {\rm mm}
-}
+3.23\ {\mathrm{mm}}
+
 ```
 
 Thus a direct canonical-energy compensation route reaches order-unity gravitational compactness at a millimeter scale.
@@ -1195,9 +1195,9 @@ q_\phi-q_D+q_A+q_B=0
 Subtracting the first condition from the second gives
 
 ```math
-\boxed{
+
 q_\phi=0
-}
+
 ```
 
 But the one-body operators
@@ -1231,9 +1231,9 @@ Because $q_\phi=0$, both one-body operators are invariant under the same additiv
 Therefore
 
 ```math
-\boxed{
+
 \text{ordinary additive symmetry alone cannot forbid the one-body terms}
-}
+
 ```
 
 within this minimal portal while allowing both pair vertices.
@@ -1305,9 +1305,9 @@ so the superficial ultraviolet degree is
 giving
 
 ```math
-\boxed{
+
 \omega=0
-}
+
 ```
 
 Thus the graph is logarithmically divergent by power counting.
@@ -1365,13 +1365,13 @@ B0_0P28_MD_EQUIVALENT_TEMPERATURE_K=
 29.923837881591
 ```
 
-At $77\,{\rm K}$,
+At $77\,{\mathrm{K}}$,
 
 ```text
 kBT / MD(B0=0.24) ≈ 2.4759
 ```
 
-and at $300\,{\rm K}$,
+and at $300\,{\mathrm{K}}$,
 
 ```text
 kBT / MD(B0=0.24) ≈ 9.6464
@@ -1494,7 +1494,7 @@ Let $w(\mathbf x)$ be a positive compact-support payload weight.
 The mass-weighted center-of-mass acceleration is
 
 ```math
-\mathbf a_{\rm CM}
+\mathbf a_{\mathrm{CM}}
 =
 \frac{
 \int
@@ -1516,7 +1516,7 @@ Define $\hat{\mathbf n}$ to point from the localized source toward the payload c
 Newtonian attraction requires
 
 ```math
-\mathbf a_{\Psi,\rm CM}
+\mathbf a_{\Psi,\mathrm{CM}}
 \cdot
 \hat{\mathbf n}
 <
@@ -1526,13 +1526,13 @@ Newtonian attraction requires
 A finite-payload antigravity-like reversal would require
 
 ```math
-\boxed{
-\mathbf a_{\rm CM}
+
+\mathbf a_{\mathrm{CM}}
 \cdot
 \hat{\mathbf n}
 >
 0
-}
+
 ```
 
 ### Payload self-force control
@@ -1629,7 +1629,7 @@ g_\phi\ge0.1
 a positive kinetic denominator,
 
 ```math
-K_{\rm eff}>0
+K_{\mathrm{eff}}>0
 ```
 
 and weak Newtonian potential,
@@ -1742,9 +1742,9 @@ The outward-to-Newtonian ratio is
 
 ```math
 \frac{
-F_{\phi,\rm out}
+F_{\phi,\mathrm{out}}
 }{
-|F_{\Psi,\rm out}|
+|F_{\Psi,\mathrm{out}}|
 }
 =
 \frac{
@@ -1757,15 +1757,15 @@ F_{\phi,\rm out}
 giving approximately
 
 ```math
-\boxed{
+
 \frac{
-F_{\phi,\rm out}
+F_{\phi,\mathrm{out}}
 }{
-|F_{\Psi,\rm out}|
+|F_{\Psi,\mathrm{out}}|
 }
 \approx
 0.523
-}
+
 ```
 
 So the strongest safe tested finite payload recovered about $52.3\%$ of the inward Newtonian radial acceleration at root time, but did not cross the reversal threshold.
@@ -1940,9 +1940,9 @@ NO
 The force-divergence sign criterion was reduced to
 
 ```math
-\boxed{
+
 \delta_d>1
-}
+
 ```
 
 for sign reversal when $\eta^2>0$ and $g_\phi>0$.
@@ -1952,21 +1952,21 @@ for sign reversal when $\eta^2>0$ and $g_\phi>0$.
 The weak-perturbation theorem established
 
 ```math
-\boxed{
+
 \mathbf F_\phi=O(\epsilon^2)
-}
+
 ```
 
 ```math
-\boxed{
+
 \mathbf F_\Psi=O(\epsilon)
-}
+
 ```
 
 and
 
 ```math
-\boxed{
+
 \frac{
 |\mathbf F_\phi|
 }{
@@ -1974,7 +1974,7 @@ and
 }
 =
 O(\epsilon)
-}
+
 ```
 
 around a regular $\xi_0=0$ background.
@@ -1984,11 +1984,11 @@ around a regular $\xi_0=0$ background.
 The local total-reversal condition was exactly reduced to
 
 ```math
-\boxed{
+
 -\mathbf F_\phi\cdot\mathbf F_\Psi
 >
 |\mathbf F_\Psi|^2
-}
+
 ```
 
 ### 014E
@@ -1996,54 +1996,54 @@ The local total-reversal condition was exactly reduced to
 The dimensionless/disformal-scale mapping was reconstructed as
 
 ```math
-\boxed{
+
 b_0
 =
 \frac{
-H_0^2M_{\rm Pl}^2
+H_0^2M_{\mathrm{Pl}}^2
 }{
 M_D^4
 }
-}
+
 ```
 
 and therefore
 
 ```math
-\boxed{
+
 M_D
 =
 \sqrt{
-H_0M_{\rm Pl}
+H_0M_{\mathrm{Pl}}
 }
 b_0^{-1/4}
-}
+
 ```
 
 The constant-$B$ coupling hierarchy follows from
 
 ```math
-\boxed{
+
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm constrained}
+B_{\mathrm{constrained}}
 }
 =
 \left(
 \frac{
-M_{D,\rm constrained}
+M_{D,\mathrm{constrained}}
 }{
-M_{D,\rm operating}
+M_{D,\mathrm{operating}}
 }
 \right)^4
-}
+
 ```
 
 The canonical-energy compactness radius follows from
 
 ```math
-\boxed{
+
 R_{\mathcal C=1}
 =
 \sqrt{
@@ -2053,7 +2053,7 @@ R_{\mathcal C=1}
 8\pi G\rho_E
 }
 }
-}
+
 ```
 
 ### 015A
@@ -2061,9 +2061,9 @@ R_{\mathcal C=1}
 The minimal additive-symmetry proof established
 
 ```math
-\boxed{
+
 q_\phi=0
-}
+
 ```
 
 whenever both
@@ -2085,9 +2085,9 @@ Therefore one-body operators proportional to $\phi A^\dagger A$ and $\phi B^\dag
 The scalar one-loop prototype has
 
 ```math
-\boxed{
+
 \omega=4L-2I=0
-}
+
 ```
 
 and is logarithmically divergent by superficial power counting.
@@ -2097,8 +2097,8 @@ and is logarithmically divergent by superficial power counting.
 The physically relevant finite-payload observable was explicitly promoted from a pointwise criterion to
 
 ```math
-\boxed{
-\mathbf a_{\rm CM}
+
+\mathbf a_{\mathrm{CM}}
 =
 \frac{
 \int
@@ -2111,15 +2111,15 @@ dV
 \int
 w(\mathbf x)dV
 }
-}
+
 ```
 
 with outward reversal requiring
 
 ```math
-\boxed{
-\mathbf a_{\rm CM}\cdot\hat{\mathbf n}>0
-}
+
+\mathbf a_{\mathrm{CM}}\cdot\hat{\mathbf n}>0
+
 ```
 
 No tested safe candidate satisfied this root-time finite-body criterion.
@@ -2194,7 +2194,7 @@ with
 B_0=M_D^{-4}
 ```
 
-The compactness derivation uses energy density $\rho_E$ in ${\rm J/m^3}$ and converts to mass density through $\rho_E/c^2$ before inserting into the Schwarzschild compactness.
+The compactness derivation uses energy density $\rho_E$ in ${\mathrm{J/m^3}}$ and converts to mass density through $\rho_E/c^2$ before inserting into the Schwarzschild compactness.
 
 ---
 
@@ -2382,7 +2382,7 @@ Therefore the strongest immediate reopen condition is:
 ```math
 \exists t:
 \quad
-\mathbf a_{\rm CM}(t)
+\mathbf a_{\mathrm{CM}}(t)
 \cdot
 \hat{\mathbf n}
 >
@@ -2396,7 +2396,7 @@ g_\phi(t,\mathbf x)\ge0.1
 ```
 
 ```math
-K_{\rm eff}(t,\mathbf x)>0
+K_{\mathrm{eff}}(t,\mathbf x)>0
 ```
 
 and weak-field control.
@@ -2436,7 +2436,7 @@ The $b_0=0.32$ cases approached the safety boundary but violated the $g_\phi\ge0
 The critical question is whether any physically controlled geometry/time choice produces
 
 ```math
-a_{\rm CM,out}>0
+a_{\mathrm{CM,out}}>0
 ```
 
 **before** the metric-health boundary is crossed.
@@ -2483,7 +2483,7 @@ The highest-value 006D revisit is not coefficient micro-optimization.
 It is a microstandoff/realizability map exploiting
 
 ```math
-M_{\rm equiv}
+M_{\mathrm{equiv}}
 =
 C\frac{ah^2}{G}
 ```
@@ -2491,7 +2491,7 @@ C\frac{ah^2}{G}
 and hence
 
 ```math
-M_{\rm equiv}\propto h^2
+M_{\mathrm{equiv}}\propto h^2
 ```
 
 while tracking the opposing growth of local stress-energy density as the source is miniaturized.
@@ -2539,7 +2539,7 @@ The next 006D task should test whether microscopic stand-off and explicit field-
 Do **not** spend the next 006D run merely reducing
 
 ```math
-C_{\rm finite}=23.591586299249
+C_{\mathrm{finite}}=23.591586299249
 ```
 
 by a small percentage.
@@ -2563,10 +2563,10 @@ before inventing a more complicated UV theory.
 That continuation should answer:
 
 ```math
-\boxed{
+
 \text{Does a safe finite-payload COM reversal exist anywhere in time
 before the }g_\phi\text{ health boundary is crossed?}
-}
+
 ```
 
 If yes, freeze the source geometry, payload geometry, $b_0$, and normalized evaluation time and require 2D/3D refinement plus independent implementation.

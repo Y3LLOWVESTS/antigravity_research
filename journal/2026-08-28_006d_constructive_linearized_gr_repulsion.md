@@ -71,7 +71,7 @@ For a type-I stress tensor in a local orthonormal frame,
 ```math
 T_{\hat\mu\hat\nu}
 =
-\operatorname{diag}
+\mathrm{diag}
 \left(
 \epsilon,
 p_r,
@@ -207,14 +207,14 @@ g_{00}
 gives
 
 ```math
-\boxed{
+
 \nabla^2\Phi
 =
 \frac{4\pi G}{c^2}
 \left(
 \epsilon+p_r+p_\phi+p_z
 \right)
-}
+
 ```
 
 The Green-function solution is
@@ -305,31 +305,31 @@ The finite source occupies
 The finest tested source uses
 
 ```math
-\boxed{
+
 \delta
 =
 0.00625
-}
+
 ```
 
 The optimized radial constants are
 
 ```math
-\boxed{
+
 \alpha
 =
 1.437500564637
-}
+
 ```
 
 and
 
 ```math
-\boxed{
+
 \beta
 =
 4.701437405300
-}
+
 ```
 
 The inner transition width is
@@ -828,13 +828,13 @@ q/x-q'
 Therefore
 
 ```math
-\boxed{
+
 \frac{dp_r}{dx}
 +
 \frac{p_r-p_\phi}{x}
 =
 0
-}
+
 ```
 
 identically wherever the source is differentiable.
@@ -862,9 +862,9 @@ The common vertical factor multiplies the entire in-plane conserved stress patte
 Consequently, in the flat background used by the linearized calculation,
 
 ```math
-\boxed{
+
 \partial_\mu T^{\mu\nu}=0
-}
+
 ```
 
 for the constructed static source.
@@ -890,7 +890,7 @@ for a self-consistently solved nonlinear Einstein geometry.
 Choose
 
 ```math
-\boxed{
+
 \epsilon(x)
 =
 \max
@@ -898,7 +898,7 @@ Choose
 |p_r(x)|,
 |p_\phi(x)|
 \right)
-}
+
 ```
 
 with $p_z=0$.
@@ -1090,9 +1090,9 @@ q(x_{\max})=0
 Therefore
 
 ```math
-\boxed{
+
 \tau_\delta=0
-}
+
 ```
 
 The integrated active mass factor is therefore
@@ -1108,9 +1108,9 @@ m_\delta
 and hence
 
 ```math
-\boxed{
+
 m_{\mathrm{active}}>0
-}
+
 ```
 
 The source is therefore locally repulsive near the target while retaining positive far-field active mass.
@@ -1155,20 +1155,20 @@ x^2+(1-\zeta)^2
 The dimensionless field factor is
 
 ```math
-\boxed{
+
 F_\delta
 =
 -
 \int_0^{x_{\max}}
 xA(x)K_\delta(x)
 \,dx
-}
+
 ```
 
 The physical axial acceleration is
 
 ```math
-\boxed{
+
 a_z
 =
 \frac{
@@ -1177,7 +1177,7 @@ a_z
 c^2
 }
 F_\delta
-}
+
 ```
 
 Because $U_0>0$,
@@ -1217,7 +1217,7 @@ G
 where
 
 ```math
-\boxed{
+
 C
 =
 \frac{
@@ -1225,7 +1225,7 @@ m_\delta
 }{
 2F_\delta
 }
-}
+
 ```
 
 Thus the numerical portion of the constructive proof reduces to evaluating the explicitly specified integrals and showing
@@ -1289,21 +1289,21 @@ MIN_NEC_MARGIN=
 Therefore
 
 ```math
-\boxed{
+
 F_\delta
 =
 0.2352695737495\ldots
 >
 0
-}
+
 ```
 
 and hence
 
 ```math
-\boxed{
+
 a_z>0
-}
+
 ```
 
 for the explicit finite source.
@@ -1406,13 +1406,13 @@ this gives approximately
 U_0
 \approx
 8.93\times10^{27}
-\ {\rm J\,m^{-2}}
+\ {\mathrm{J}\,m^{-2}}
 ```
 
 The total mass-equivalent scaling is
 
 ```math
-\boxed{
+
 M_{\mathrm{equiv}}
 =
 23.591586299249
@@ -1421,7 +1421,7 @@ ah^2
 }{
 G
 }
-}
+
 ```
 
 For
@@ -1433,7 +1433,7 @@ a=g
 and
 
 ```math
-h=1\ {\rm m}
+h=1\ {\mathrm{m}}
 ```
 
 the equivalent mass is approximately
@@ -1441,7 +1441,7 @@ the equivalent mass is approximately
 ```math
 M_{\mathrm{equiv}}
 \approx
-3.47\times10^{12}\ {\rm kg}
+3.47\times10^{12}\ {\mathrm{kg}}
 ```
 
 The equivalent rest energy is
@@ -1457,7 +1457,7 @@ giving approximately
 ```math
 E
 \approx
-3.12\times10^{29}\ {\rm J}
+3.12\times10^{29}\ {\mathrm{J}}
 ```
 
 This is why the construction is not remotely a practical human-scale source.
@@ -1712,19 +1712,19 @@ has dimensions
 
 ```math
 \frac{
-{\rm m^3}
+{\mathrm{m^3}}
 }{
-{\rm kg\,s^2}
+{\mathrm{kg\,s^2}}
 }
 \frac{
-{\rm J}
+{\mathrm{J}}
 }{
-{\rm m^3}
+{\mathrm{m^3}}
 }
 \frac{
-{\rm kg}
+{\mathrm{kg}}
 }{
-{\rm J}/c^2
+{\mathrm{J}}/c^2
 }
 ```
 
@@ -1746,13 +1746,13 @@ is dimensionally correct because
 \right]
 =
 \frac{
-({\rm m\,s^{-2}})
-({\rm m^2})
+({\mathrm{m}\,s^{-2}})
+({\mathrm{m^2}})
 }{
-{\rm m^3\,kg^{-1}\,s^{-2}}
+{\mathrm{m}^3\,kg^{-1}\,s^{-2}}
 }
 =
-{\rm kg}
+{\mathrm{kg}}
 ```
 
 The coefficient $C$ is dimensionless.
@@ -1795,7 +1795,7 @@ Therefore the far field is attractive rather than globally repulsive.
 
 ### Weak-field validity
 
-For the $1g$, $1,{\rm m}$ illustrative normalization, the compactness remains of order
+For the $1g$, $1,{\mathrm{m}}$ illustrative normalization, the compactness remains of order
 
 ```math
 10^{-15}
@@ -1951,7 +1951,7 @@ An exact nonlinear solution with self-consistent
 
 has not been constructed.
 
-However, the target metric compactness for the illustrative $1g$, $1,{\rm m}$ scaling is extremely small.
+However, the target metric compactness for the illustrative $1g$, $1,{\mathrm{m}}$ scaling is extremely small.
 
 This makes an ordinary strong-curvature failure unlikely to be the leading issue, but it is **not** an exact nonlinear proof.
 
@@ -2859,15 +2859,15 @@ Even the theoretical coefficient-one scale would require
 ```math
 M
 \sim
-1.47\times10^{11}\ {\rm kg}
+1.47\times10^{11}\ {\mathrm{kg}}
 ```
 
-for $1g$ at $1,{\rm m}$.
+for $1g$ at $1,{\mathrm{m}}$.
 
 The explicit finite source requires roughly
 
 ```math
-3.47\times10^{12}\ {\rm kg}
+3.47\times10^{12}\ {\mathrm{kg}}
 ```
 
 equivalent stress-energy.
@@ -2897,7 +2897,7 @@ The working range is
 ```math
 \lambda
 =
-5000\ {\rm m}
+5000\ {\mathrm{m}}
 ```
 
 which corresponds to mediator mass
@@ -2907,7 +2907,7 @@ m_\phi
 =
 \frac{\hbar c}{\lambda}
 =
-3.946539608\times10^{-11}\ {\rm eV}
+3.946539608\times10^{-11}\ {\mathrm{eV}}
 ```
 
 The working Yukawa strength is
@@ -2936,7 +2936,7 @@ The activated test state needed for approximately $1g$ in the selected half-spac
 
 This is an enormous material-state-dependent scalar response.
 
-The exact current $5,{\rm km}$ experimental margin has **not** yet been numerically reconstructed from modern exclusion-curve data.
+The exact current $5,{\mathrm{km}}$ experimental margin has **not** yet been numerically reconstructed from modern exclusion-curve data.
 
 Therefore:
 
@@ -3068,7 +3068,7 @@ This separates **what material it is** from **whether it is activated**.
 
 The project found a finite cluster-size window because thermal leakage decreases strongly with $N$ while switching susceptibility increases with $N$.
 
-At $77,{\rm K}$ the selected one-ton benchmark gives
+At $77,{\mathrm{K}}$ the selected one-ton benchmark gives
 
 ```text
 N_MIN_LEAKAGE=2
@@ -3223,7 +3223,7 @@ C_\phi
 A^\dagger B^\dagger BA
 ```
 
-For a representative pair radius of $3,{\rm \AA}$,
+For a representative pair radius of $3,{\mathrm{\AA}}$,
 
 ```text
 C_PHI=
@@ -3415,14 +3415,14 @@ of the target response?
 ```math
 m_\phi
 \approx
-3.95\times10^{-11}\ {\rm eV}
+3.95\times10^{-11}\ {\mathrm{eV}}
 ```
 
 remain technically natural?
 
 5. Can the NR coefficient $C_\phi$ be independently derived from a relativistic microscopic amplitude?
 
-6. Does the exact modern $5,{\rm km}$ fifth-force bound permit the selected working point?
+6. Does the exact modern $5,{\mathrm{km}}$ fifth-force bound permit the selected working point?
 
 7. Does any surviving relativistic theory pass stellar and cosmological constraints?
 
@@ -3506,23 +3506,23 @@ The central historical result being locked in by this entry is:
 The key numerical invariant is
 
 ```math
-\boxed{
+
 C_{\mathrm{finite}}
 =
 23.591586299249
-}
+
 ```
 
 with
 
 ```math
-\boxed{
+
 F_\delta
 =
 0.2352695737495\ldots
 >
 0
-}
+
 ```
 
 and conservation residual

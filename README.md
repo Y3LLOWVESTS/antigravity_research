@@ -280,14 +280,14 @@ g_{00}
 gives
 
 ```math
-\boxed{
+
 \nabla^2\Phi
 =
 \frac{4\pi G}{c^2}
 \left(
 \epsilon+p_r+p_\phi+p_z
 \right).
-}
+
 ```
 
 Define
@@ -497,7 +497,7 @@ q/x-q'
 Hence
 
 ```math
-\boxed{
+
 \frac{dp_r}{dx}
 +
 \frac{
@@ -505,7 +505,7 @@ p_r-p_\phi
 }{x}
 =
 0.
-}
+
 ```
 
 This is the static cylindrical radial conservation equation.
@@ -527,9 +527,9 @@ the remaining static flat-background conservation equation also vanishes.
 Thus
 
 ```math
-\boxed{
+
 \partial_\mu T^{\mu\nu}=0
-}
+
 ```
 
 at the linearized/static background order.
@@ -547,7 +547,7 @@ This is not yet an exact nonlinear curved-spacetime proof of
 Choose
 
 ```math
-\boxed{
+
 \epsilon
 =
 \max
@@ -555,7 +555,7 @@ Choose
 |p_r|,
 |p_\phi|
 \right).
-}
+
 ```
 
 Since $p_z=0$,
@@ -662,9 +662,9 @@ q(x_{\max})=0.
 Hence
 
 ```math
-\boxed{
+
 \tau=0.
-}
+
 ```
 
 Because
@@ -769,21 +769,21 @@ MIN_NEC_MARGIN=
 Thus
 
 ```math
-\boxed{
+
 F_\delta
 =
 0.2352695737495\ldots
 >
 0
-}
+
 ```
 
 and therefore
 
 ```math
-\boxed{
+
 a_z>0.
-}
+
 ```
 
 This establishes the 006D headline claim within static linearized GR.
@@ -808,12 +808,12 @@ C
 23.591586299249.
 ```
 
-For $a=g$ and $h=1\ {\rm m}$,
+For $a=g$ and $h=1\ {\mathrm{m}}$,
 
 ```math
 M_{\mathrm{equiv}}
 \approx
-3.47\times10^{12}\ {\rm kg}
+3.47\times10^{12}\ {\mathrm{kg}}
 ```
 
 and
@@ -821,7 +821,7 @@ and
 ```math
 E
 \approx
-3.12\times10^{29}\ {\rm J}.
+3.12\times10^{29}\ {\mathrm{J}}.
 ```
 
 This is why the construction is mathematically important but not practical.
@@ -831,7 +831,7 @@ This is why the construction is mathematically important but not practical.
 For one source cell,
 
 ```math
-E_{\rm cell}
+E_{\mathrm{cell}}
 =
 C\frac{ah^2c^2}{G}.
 ```
@@ -839,7 +839,7 @@ C\frac{ah^2c^2}{G}.
 If its footprint is
 
 ```math
-A_{\rm cell}
+A_{\mathrm{cell}}
 =
 \pi x_{\max}^2h^2,
 ```
@@ -847,11 +847,11 @@ A_{\rm cell}
 then
 
 ```math
-\boxed{
+
 \frac{
-E_{\rm cell}
+E_{\mathrm{cell}}
 }{
-A_{\rm cell}
+A_{\mathrm{cell}}
 }
 =
 \frac{
@@ -859,7 +859,7 @@ Cac^2
 }{
 \pi x_{\max}^2G
 }.
-}
+
 ```
 
 The stand-off scale $h$ cancels.
@@ -915,19 +915,19 @@ Allocate a fraction $\eta$ of the available temporal kinetic capacity to the cha
 The remaining radial Gram budget is
 
 ```math
-\boxed{
+
 G_r
 \sim
 (1-\eta)
 mC_\infty
 r^{-m-2}.
-}
+
 ```
 
 The required angular Gram component is
 
 ```math
-\boxed{
+
 A
 \sim
 \left[
@@ -935,7 +935,7 @@ A
 \right]
 C_\infty
 r^{-m-2}.
-}
+
 ```
 
 ---
@@ -985,9 +985,9 @@ r^{-s}
 with
 
 ```math
-\boxed{
+
 s=\frac m2.
-}
+
 ```
 
 ---
@@ -1078,7 +1078,7 @@ m+2.
 Therefore
 
 ```math
-\boxed{
+
 k_\infty^2-s^2
 =
 \frac{
@@ -1087,7 +1087,7 @@ m(m+2)
 4(1-\eta)
 }
 >0
-}
+
 ```
 
 for every
@@ -1105,9 +1105,9 @@ and
 Thus
 
 ```math
-\boxed{
+
 k_\infty^2>s^2.
-}
+
 ```
 
 ---
@@ -1123,7 +1123,7 @@ F''
 -
 \frac{k^2}{r^2}F
 -
-U_{\rm eff}'(F)
+U_{\mathrm{eff}}'(F)
 =
 0.
 ```
@@ -1149,7 +1149,7 @@ F''
 Therefore the field equation requires
 
 ```math
-U_{\rm eff}'(F)
+U_{\mathrm{eff}}'(F)
 =
 \frac{
 s^2-k^2
@@ -1167,9 +1167,9 @@ k^2>s^2.
 Hence
 
 ```math
-\boxed{
-U_{\rm eff}'(F)<0
-}
+
+U_{\mathrm{eff}}'(F)<0
+
 ```
 
 for sufficiently small positive $F$.
@@ -1256,13 +1256,13 @@ which is nonnegative.
 For this model the exact active-source combination simplifies to
 
 ```math
-\boxed{
+
 S
 =
 \rho+p_r+p_\phi+p_z
 =
 8\omega^2Y^2-2V.
-}
+
 ```
 
 Thus the field model can genuinely generate regions with
@@ -1353,21 +1353,21 @@ S
 For positive far-field active mass we need
 
 ```math
-\boxed{
+
 \int S\,dV>0.
-}
+
 ```
 
 For an outward field at the chosen target we need
 
 ```math
-\boxed{
+
 \int
 S K_h
 \,dV
 <
 0,
-}
+
 ```
 
 where
@@ -1907,11 +1907,11 @@ POSITIVE
 The explicit finite coefficient is
 
 ```math
-\boxed{
+
 C_{\mathrm{finite}}
 =
 23.591586299249.
-}
+
 ```
 
 The project has since made substantial progress toward understanding whether this stress organization can arise from actual matter.
