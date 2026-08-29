@@ -15,7 +15,7 @@ More specifically, we have reproduced several known GR mechanisms and constructe
 Simulation 006A then sharpened that further: within its stated assumptions, the optimistic static energy cost scales as
 
 ```math
-M_{\rm equiv}\sim\frac{a h^2}{G}
+M_{\mathrm{equiv}}\sim\frac{a h^2}{G}
 ```
 
 where $a$ is the desired repulsive acceleration and $h$ is the source-to-target scale. Your optimizer independently reproduced the coefficient 1.0 exactly, while the explicit finite disk/rim architecture costs 79.753 times more. 
@@ -39,7 +39,7 @@ For type-I matter in its local rest frame,
 ```math
 T^\mu{}_\nu
 \sim
-{\rm diag}(\epsilon,p_x,p_y,p_z)
+{\mathrm{diag}}(\epsilon,p_x,p_y,p_z)
 ```
 
 and in static weak-field GR the relevant active combination is schematically
@@ -211,7 +211,7 @@ r_s=
 For a $10^{12}M_\odot$ mass and observed cosmological parameters, we reproduced:
 
 ```math
-r_s\simeq1.1139\ {\rm Mpc}
+r_s\simeq1.1139\ {\mathrm{Mpc}}
 ```
 
 Below that scale, gravity was inward.
@@ -335,7 +335,7 @@ For $1g$ of relative acceleration across one meter:
 ```math
 \epsilon
 \simeq
-1.5763\times10^{27}\ {\rm J/m^3}
+1.5763\times10^{27}\ {\mathrm{J/m^3}}
 ```
 
 with
@@ -383,19 +383,19 @@ Therefore a pure vacuum-energy region cannot simply taper continuously to zero a
 The proposed de Sitter interior and Schwarzschild exterior had:
 
 ```math
-f_{\rm in}(R)=f_{\rm out}(R)
+f_{\mathrm{in}}(R)=f_{\mathrm{out}}(R)
 ```
 
 but
 
 ```math
-f'_{\rm in}(R)\ne f'_{\rm out}(R)
+f'_{\mathrm{in}}(R)\ne f'_{\mathrm{out}}(R)
 ```
 
 Specifically we found the derivative ratio:
 
 ```math
-\frac{f'_{\rm in}}{f'_{\rm out}}=-2
+\frac{f'_{\mathrm{in}}}{f'_{\mathrm{out}}}=-2
 ```
 
 Therefore boundary stress is needed.
@@ -434,7 +434,7 @@ The central question was:
 For an asymptotically flat Schwarzschild exterior, outward weak-field behavior requires
 
 ```math
-M_{\rm ADM}<0
+M_{\mathrm{ADM}}<0
 ```
 
 The exact shell search showed:
@@ -450,7 +450,7 @@ NEGATIVE_SHELL_ENERGY_REQUIRED_FOR_OUTWARD_EXTERIOR=YES
 The NEC survived approximately over the narrow region
 
 ```math
--\frac12M_v\lesssim M_{\rm ADM}<0
+-\frac12M_v\lesssim M_{\mathrm{ADM}}<0
 ```
 
 but WEC/DEC did not.
@@ -504,7 +504,7 @@ Reissner–Nordström exterior
 and recovered the known RN sign-change radius
 
 ```math
-r_{\rm rep}
+r_{\mathrm{rep}}
 =
 \frac{Q^2}
 {4\pi\epsilon_0Mc^2}
@@ -513,7 +513,7 @@ r_{\rm rep}
 Define
 
 ```math
-z=\frac{r_{\rm rep}}{R}
+z=\frac{r_{\mathrm{rep}}}{R}
 ```
 
 Then
@@ -560,12 +560,12 @@ It therefore taught us that **anisotropic relativistic stress can reverse local 
 
 ### Physical failure mode
 
-For the $1g$, $1\,{\rm m}$ benchmark:
+For the $1g$, $1\,{\mathrm{m}}$ benchmark:
 
 ```math
-E_{\rm surface}
+E_{\mathrm{surface}}
 \simeq
-2.67\times10^{19}\ {\rm V/m}
+2.67\times10^{19}\ {\mathrm{V/m}}
 ```
 
 around twenty Schwinger fields.
@@ -627,9 +627,7 @@ q\le1
 Therefore the entire interval
 
 ```math
-
 \frac12<q\le1
-
 ```
 
 supports positive-energy repulsive gravity while satisfying NEC/WEC/DEC.
@@ -651,19 +649,19 @@ We obtained:
 ```math
 U_{\min}
 \simeq
-2.1017\times10^{27}\ {\rm J/m^2}
+2.1017\times10^{27}\ {\mathrm{J/m^2}}
 ```
 
 Equivalent surface mass:
 
 ```math
-2.3385\times10^{10}\ {\rm kg/m^2}
+2.3385\times10^{10}\ {\mathrm{kg/m^2}}
 ```
 
 The toy $\phi^4$ mapping produced
 
 ```math
-v\simeq81.5\ {\rm GeV}
+v\simeq81.5\ {\mathrm{GeV}}
 ```
 
 for $\lambda=1$.
@@ -751,28 +749,26 @@ with repulsion extending to
 The architecture's mass law was:
 
 ```math
-
-M_{\rm disk}
+M_{\mathrm{disk}}
 \simeq
 79.753148
 \frac{ah^2}{G}.
-
 ```
 
 At $1g$ one meter away:
 
 ```math
-M\simeq1.172\times10^{13}\ {\rm kg}
+M\simeq1.172\times10^{13}\ {\mathrm{kg}}
 ```
 
 ```math
-E\simeq1.053\times10^{30}\ {\rm J}
+E\simeq1.053\times10^{30}\ {\mathrm{J}}
 ```
 
 At $10^{-6}g$, one centimeter away:
 
 ```math
-M\simeq1.172\times10^3\ {\rm kg}
+M\simeq1.172\times10^3\ {\mathrm{kg}}
 ```
 
 ### Important qualification
@@ -849,11 +845,9 @@ And:
 So:
 
 ```math
-
 1
 <
 79.753
-
 ```
 
 by an enormous margin. 
@@ -960,51 +954,49 @@ But converting that local statement into the global coefficient exactly equal to
 For a static DEC source, the optimistic abstract bound is:
 
 ```math
-
-M_{\rm static}
+M_{\mathrm{static}}
 \approx
 \frac{ah^2}{G}.
-
 ```
 
 ### $1g$
 
-At $h=1\,{\rm m}$:
+At $h=1\,{\mathrm{m}}$:
 
 ```math
 M_{\min}
 =
-1.4693\times10^{11}\ {\rm kg}
+1.4693\times10^{11}\ {\mathrm{kg}}
 ```
 
 ```math
 E_{\min}
 =
-1.3206\times10^{28}\ {\rm J}
+1.3206\times10^{28}\ {\mathrm{J}}
 ```
 
-At $h=1\,{\rm cm}$:
+At $h=1\,{\mathrm{cm}}$:
 
 ```math
 M_{\min}
 =
-1.4693\times10^7\ {\rm kg}
+1.4693\times10^7\ {\mathrm{kg}}
 ```
 
-At $h=1\,{\rm mm}$:
+At $h=1\,{\mathrm{mm}}$:
 
 ```math
 M_{\min}
 =
-1.4693\times10^5\ {\rm kg}
+1.4693\times10^5\ {\mathrm{kg}}
 ```
 
-At $h=1\,\mu{\rm m}$:
+At $h=1\,\mu{\mathrm{m}}$:
 
 ```math
 M_{\min}
 =
-0.1469\ {\rm kg}
+0.1469\ {\mathrm{kg}}
 ```
 
 but still:
@@ -1012,22 +1004,22 @@ but still:
 ```math
 E_{\min}
 =
-1.3206\times10^{16}\ {\rm J}
+1.3206\times10^{16}\ {\mathrm{J}}
 ```
 
-At $h=1\,{\rm nm}$:
+At $h=1\,{\mathrm{nm}}$:
 
 ```math
 M_{\min}
 =
-1.4693\times10^{-7}\ {\rm kg}
+1.4693\times10^{-7}\ {\mathrm{kg}}
 ```
 
 with
 
 ```math
 E_{\min}
-\sim1.32\times10^{10}\ {\rm J}
+\sim1.32\times10^{10}\ {\mathrm{J}}
 ```
 
 The extremely important scaling is:
@@ -1085,7 +1077,7 @@ R/h\simeq4.00615
 ```
 
 ```math
-z_{\rm zero}/R\simeq0.393320
+z_{\mathrm{zero}}/R\simeq0.393320
 ```
 
 ```math
@@ -1101,7 +1093,7 @@ It needs independent analytical derivation and ideally an independent implementa
 We obtained:
 
 ```math
-C_{\rm optimum}=1
+C_{\mathrm{optimum}}=1
 ```
 
 This is extremely interesting.
@@ -1167,17 +1159,15 @@ This is, in my assessment, more important than immediately jumping to modified g
 The unresolved question is:
 
 ```math
-
 1
-\le C_{\rm real}
+\le C_{\mathrm{real}}
 \le79.753
-
 ```
 
 where
 
 ```math
-M=C_{\rm real}\frac{ah^2}{G}
+M=C_{\mathrm{real}}\frac{ah^2}{G}
 ```
 
 We need to determine how close an actual spatially conserved source can get to 1.
@@ -1228,7 +1218,7 @@ Objective:
 Constraint:
 
 ```math
-a_z(\text{target})\ge a_{\rm requested}
+a_z(\text{target})\ge a_{\mathrm{requested}}
 ```
 
 Then optimize source geometry.
@@ -1272,7 +1262,7 @@ Do not reuse `finite_tension_disk.py`.
 Write an independent numerical integration directly over the stress-energy:
 
 ```math
-T_{\mu\nu}(\mathbf x)
+T_{\mu\nu}(\mathbf{x})
 ```
 
 Numerically integrate the linearized Einstein Green function.
@@ -1288,7 +1278,7 @@ for many $q,z/R$.
 Specifically reproduce:
 
 ```math
-z_{\rm zero}/R
+z_{\mathrm{zero}}/R
 =
 0.393319893190
 ```
@@ -1383,7 +1373,7 @@ The fundamental Casimir scaling is roughly:
 The corresponding gravitational scale is therefore roughly:
 
 ```math
-a_{\rm Casimir}
+a_{\mathrm{Casimir}}
 \sim
 \frac{G\hbar}{c\,d^3}
 ```
@@ -1650,10 +1640,8 @@ ONLY THEN:
 The single most important immediate question is therefore:
 
 ```math
-
 \text{How close can an actual finite, locally conserved DEC source get to }
 M=\frac{ah^2}{G}\text{?}
-
 ```
 
 If we can reduce the explicit coefficient from
@@ -1731,9 +1719,7 @@ The required relativistic stress-energy densities are enormous.
 The project has converged on:
 
 ```math
-
 \text{Antigravity in GR is fundamentally a stress-engineering problem.}
-
 ```
 
 The source should not be thought of as “negative mass.”
@@ -1741,9 +1727,7 @@ The source should not be thought of as “negative mass.”
 The more useful target is:
 
 ```math
-
 \text{positive energy with relativistically negative principal pressure/tension}
-
 ```
 
 placed near the target while compensating positive stresses are arranged so that the complete isolated system remains physically consistent.
@@ -1751,9 +1735,7 @@ placed near the target while compensating positive stresses are arranged so that
 And 006A has now made the next research objective extraordinarily clear:
 
 ```math
-
 \text{Find the minimum-energy spatial realization of that stress tensor.}
-
 ```
 
 That is where I would resume. It gives us a focused mathematical optimization problem instead of another broad search for mysterious antigravity physics.
@@ -4435,9 +4417,7 @@ The project has established with high confidence that **local repulsive gravitat
 The core classical lesson remains:
 
 ```math
-
 \text{gravity responds to the full stress-energy tensor, not merely positive mass density}
-
 ```
 
 Large relativistic stresses or tensions can make the local active gravitational source repulsive even when energy density and total mass remain positive.
@@ -4608,7 +4588,7 @@ Einstein–Maxwell provides a known example where:
 Repulsive radius:
 
 ```math
-r_{\rm rep}
+r_{\mathrm{rep}}
 =
 \frac{Q^2}
 {4\pi\epsilon_0Mc^2}
@@ -5001,7 +4981,7 @@ An optimistic acceleration scale:
 ```math
 a_{\max}
 =
-\frac{4\pi\alpha_{\rm QI}G\hbar}
+\frac{4\pi\alpha_{\mathrm{QI}}G\hbar}
 {c^4\tau^3}
 ```
 
@@ -5025,7 +5005,7 @@ gives:
 ```math
 a_{\max}(h)
 =
-\frac{4\pi\alpha_{\rm QI}G\hbar}
+\frac{4\pi\alpha_{\mathrm{QI}}G\hbar}
 {ch^3}
 ```
 
@@ -5732,8 +5712,8 @@ Important experiment features:
 * structured depth approximately 2.10 µm;
 * gaps approximately 200–1000 nm;
 * common Au layer suppresses differential Casimir background by more than roughly $10^6$;
-* thermal force noise near 6 fN/$\sqrt{\rm Hz}$;
-* measured short-gap random noise could be closer to 12 fN/$\sqrt{\rm Hz}$ due to wobble;
+* thermal force noise near 6 fN/$\sqrt{\mathrm{Hz}}$;
+* measured short-gap random noise could be closer to 12 fN/$\sqrt{\mathrm{Hz}}$ due to wobble;
 * long-integration differential force sensitivity approximately 0.1–0.2 fN.
 
 For:
@@ -5752,7 +5732,7 @@ project recast differential forces were approximately:
 8 um:  0.1447 fN
 ```
 
-A hypothetical hybrid combining the 2016 Casimir-less geometry with a 2008-style cryogenic 0.2 fN/$\sqrt{\rm Hz}$ force sensor yielded, for a 50% signal-transfer assumption at 6 µm:
+A hypothetical hybrid combining the 2016 Casimir-less geometry with a 2008-style cryogenic 0.2 fN/$\sqrt{\mathrm{Hz}}$ force sensor yielded, for a 50% signal-transfer assumption at 6 µm:
 
 ```text
 signal ≈ 0.0401 fN
@@ -6511,7 +6491,7 @@ N = 118
 Therefore:
 
 ```math
-\beta_{\rm Au}
+\beta_{\mathrm{Au}}
 =
 -\frac{118}{79}
 =
@@ -6521,7 +6501,7 @@ Therefore:
 makes natural gold exactly neutral at the nuclear-counting level:
 
 ```math
-Q_5(^{197}{\rm Au})=0
+Q_5(^{197}{\mathrm{Au}})=0
 ```
 
 Other material charge-to-mass factors at this direction:
@@ -6714,7 +6694,7 @@ electromagnetic current
 cannot change neutral-atom composition charge away from neutron number because:
 
 ```math
-Q_{\rm EM}=0
+Q_{\mathrm{EM}}=0
 ```
 
 for a neutral atom.
@@ -6934,7 +6914,7 @@ Using the literature-motivated approximate bound:
 ```math
 \frac{|c_A^N|}{f_X}
 \lesssim
-(10^8\ {\rm GeV})^{-1}
+(10^8\ {\mathrm{GeV}})^{-1}
 ```
 
 with:
@@ -7493,9 +7473,9 @@ An anchored source producing upward force does not imply reactionless propulsion
 For an isolated source plus payload:
 
 ```math
-\mathbf F_{12}
+\mathbf{F}_{12}
 =
--\mathbf F_{21}
+-\mathbf{F}_{21}
 ```
 
 and the center of mass cannot accelerate without exchanging momentum with something external.
@@ -8240,7 +8220,7 @@ More specifically, we have reproduced several known GR mechanisms and constructe
 Simulation 006A then sharpened that further: within its stated assumptions, the optimistic static energy cost scales as
 
 ```math
-M_{\rm equiv}\sim\frac{a h^2}{G}
+M_{\mathrm{equiv}}\sim\frac{a h^2}{G}
 ```
 
 where $a$ is the desired repulsive acceleration and $h$ is the source-to-target scale. Your optimizer independently reproduced the coefficient 1.0 exactly, while the explicit finite disk/rim architecture costs 79.753 times more. 
@@ -8264,7 +8244,7 @@ For type-I matter in its local rest frame,
 ```math
 T^\mu{}_\nu
 \sim
-{\rm diag}(\epsilon,p_x,p_y,p_z)
+{\mathrm{diag}}(\epsilon,p_x,p_y,p_z)
 ```
 
 and in static weak-field GR the relevant active combination is schematically
@@ -8436,7 +8416,7 @@ r_s=
 For a $10^{12}M_\odot$ mass and observed cosmological parameters, we reproduced:
 
 ```math
-r_s\simeq1.1139\ {\rm Mpc}
+r_s\simeq1.1139\ {\mathrm{Mpc}}
 ```
 
 Below that scale, gravity was inward.
@@ -8560,7 +8540,7 @@ For $1g$ of relative acceleration across one meter:
 ```math
 \epsilon
 \simeq
-1.5763\times10^{27}\ {\rm J/m^3}
+1.5763\times10^{27}\ {\mathrm{J/m^3}}
 ```
 
 with
@@ -8608,19 +8588,19 @@ Therefore a pure vacuum-energy region cannot simply taper continuously to zero a
 The proposed de Sitter interior and Schwarzschild exterior had:
 
 ```math
-f_{\rm in}(R)=f_{\rm out}(R)
+f_{\mathrm{in}}(R)=f_{\mathrm{out}}(R)
 ```
 
 but
 
 ```math
-f'_{\rm in}(R)\ne f'_{\rm out}(R)
+f'_{\mathrm{in}}(R)\ne f'_{\mathrm{out}}(R)
 ```
 
 Specifically we found the derivative ratio:
 
 ```math
-\frac{f'_{\rm in}}{f'_{\rm out}}=-2
+\frac{f'_{\mathrm{in}}}{f'_{\mathrm{out}}}=-2
 ```
 
 Therefore boundary stress is needed.
@@ -8659,7 +8639,7 @@ The central question was:
 For an asymptotically flat Schwarzschild exterior, outward weak-field behavior requires
 
 ```math
-M_{\rm ADM}<0
+M_{\mathrm{ADM}}<0
 ```
 
 The exact shell search showed:
@@ -8675,7 +8655,7 @@ NEGATIVE_SHELL_ENERGY_REQUIRED_FOR_OUTWARD_EXTERIOR=YES
 The NEC survived approximately over the narrow region
 
 ```math
--\frac12M_v\lesssim M_{\rm ADM}<0
+-\frac12M_v\lesssim M_{\mathrm{ADM}}<0
 ```
 
 but WEC/DEC did not.
@@ -8729,7 +8709,7 @@ Reissner–Nordström exterior
 and recovered the known RN sign-change radius
 
 ```math
-r_{\rm rep}
+r_{\mathrm{rep}}
 =
 \frac{Q^2}
 {4\pi\epsilon_0Mc^2}
@@ -8738,7 +8718,7 @@ r_{\rm rep}
 Define
 
 ```math
-z=\frac{r_{\rm rep}}{R}
+z=\frac{r_{\mathrm{rep}}}{R}
 ```
 
 Then
@@ -8785,12 +8765,12 @@ It therefore taught us that **anisotropic relativistic stress can reverse local 
 
 ### Physical failure mode
 
-For the $1g$, $1\,{\rm m}$ benchmark:
+For the $1g$, $1\,{\mathrm{m}}$ benchmark:
 
 ```math
-E_{\rm surface}
+E_{\mathrm{surface}}
 \simeq
-2.67\times10^{19}\ {\rm V/m}
+2.67\times10^{19}\ {\mathrm{V/m}}
 ```
 
 around twenty Schwinger fields.
@@ -8852,9 +8832,7 @@ q\le1
 Therefore the entire interval
 
 ```math
-
 \frac12<q\le1
-
 ```
 
 supports positive-energy repulsive gravity while satisfying NEC/WEC/DEC.
@@ -8876,19 +8854,19 @@ We obtained:
 ```math
 U_{\min}
 \simeq
-2.1017\times10^{27}\ {\rm J/m^2}
+2.1017\times10^{27}\ {\mathrm{J/m^2}}
 ```
 
 Equivalent surface mass:
 
 ```math
-2.3385\times10^{10}\ {\rm kg/m^2}
+2.3385\times10^{10}\ {\mathrm{kg/m^2}}
 ```
 
 The toy $\phi^4$ mapping produced
 
 ```math
-v\simeq81.5\ {\rm GeV}
+v\simeq81.5\ {\mathrm{GeV}}
 ```
 
 for $\lambda=1$.
@@ -8976,28 +8954,26 @@ with repulsion extending to
 The architecture's mass law was:
 
 ```math
-
-M_{\rm disk}
+M_{\mathrm{disk}}
 \simeq
 79.753148
 \frac{ah^2}{G}.
-
 ```
 
 At $1g$ one meter away:
 
 ```math
-M\simeq1.172\times10^{13}\ {\rm kg}
+M\simeq1.172\times10^{13}\ {\mathrm{kg}}
 ```
 
 ```math
-E\simeq1.053\times10^{30}\ {\rm J}
+E\simeq1.053\times10^{30}\ {\mathrm{J}}
 ```
 
 At $10^{-6}g$, one centimeter away:
 
 ```math
-M\simeq1.172\times10^3\ {\rm kg}
+M\simeq1.172\times10^3\ {\mathrm{kg}}
 ```
 
 ### Important qualification
@@ -9074,11 +9050,9 @@ And:
 So:
 
 ```math
-
 1
 <
 79.753
-
 ```
 
 by an enormous margin. 
@@ -9185,51 +9159,49 @@ But converting that local statement into the global coefficient exactly equal to
 For a static DEC source, the optimistic abstract bound is:
 
 ```math
-
-M_{\rm static}
+M_{\mathrm{static}}
 \approx
 \frac{ah^2}{G}.
-
 ```
 
 ### $1g$
 
-At $h=1\,{\rm m}$:
+At $h=1\,{\mathrm{m}}$:
 
 ```math
 M_{\min}
 =
-1.4693\times10^{11}\ {\rm kg}
+1.4693\times10^{11}\ {\mathrm{kg}}
 ```
 
 ```math
 E_{\min}
 =
-1.3206\times10^{28}\ {\rm J}
+1.3206\times10^{28}\ {\mathrm{J}}
 ```
 
-At $h=1\,{\rm cm}$:
+At $h=1\,{\mathrm{cm}}$:
 
 ```math
 M_{\min}
 =
-1.4693\times10^7\ {\rm kg}
+1.4693\times10^7\ {\mathrm{kg}}
 ```
 
-At $h=1\,{\rm mm}$:
+At $h=1\,{\mathrm{mm}}$:
 
 ```math
 M_{\min}
 =
-1.4693\times10^5\ {\rm kg}
+1.4693\times10^5\ {\mathrm{kg}}
 ```
 
-At $h=1\,\mu{\rm m}$:
+At $h=1\,\mu{\mathrm{m}}$:
 
 ```math
 M_{\min}
 =
-0.1469\ {\rm kg}
+0.1469\ {\mathrm{kg}}
 ```
 
 but still:
@@ -9237,22 +9209,22 @@ but still:
 ```math
 E_{\min}
 =
-1.3206\times10^{16}\ {\rm J}
+1.3206\times10^{16}\ {\mathrm{J}}
 ```
 
-At $h=1\,{\rm nm}$:
+At $h=1\,{\mathrm{nm}}$:
 
 ```math
 M_{\min}
 =
-1.4693\times10^{-7}\ {\rm kg}
+1.4693\times10^{-7}\ {\mathrm{kg}}
 ```
 
 with
 
 ```math
 E_{\min}
-\sim1.32\times10^{10}\ {\rm J}
+\sim1.32\times10^{10}\ {\mathrm{J}}
 ```
 
 The extremely important scaling is:
@@ -9310,7 +9282,7 @@ R/h\simeq4.00615
 ```
 
 ```math
-z_{\rm zero}/R\simeq0.393320
+z_{\mathrm{zero}}/R\simeq0.393320
 ```
 
 ```math
@@ -9326,7 +9298,7 @@ It needs independent analytical derivation and ideally an independent implementa
 We obtained:
 
 ```math
-C_{\rm optimum}=1
+C_{\mathrm{optimum}}=1
 ```
 
 This is extremely interesting.
@@ -9392,17 +9364,15 @@ This is, in my assessment, more important than immediately jumping to modified g
 The unresolved question is:
 
 ```math
-
 1
-\le C_{\rm real}
+\le C_{\mathrm{real}}
 \le79.753
-
 ```
 
 where
 
 ```math
-M=C_{\rm real}\frac{ah^2}{G}
+M=C_{\mathrm{real}}\frac{ah^2}{G}
 ```
 
 We need to determine how close an actual spatially conserved source can get to 1.
@@ -9453,7 +9423,7 @@ Objective:
 Constraint:
 
 ```math
-a_z(\text{target})\ge a_{\rm requested}
+a_z(\text{target})\ge a_{\mathrm{requested}}
 ```
 
 Then optimize source geometry.
@@ -9497,7 +9467,7 @@ Do not reuse `finite_tension_disk.py`.
 Write an independent numerical integration directly over the stress-energy:
 
 ```math
-T_{\mu\nu}(\mathbf x)
+T_{\mu\nu}(\mathbf{x})
 ```
 
 Numerically integrate the linearized Einstein Green function.
@@ -9513,7 +9483,7 @@ for many $q,z/R$.
 Specifically reproduce:
 
 ```math
-z_{\rm zero}/R
+z_{\mathrm{zero}}/R
 =
 0.393319893190
 ```
@@ -9608,7 +9578,7 @@ The fundamental Casimir scaling is roughly:
 The corresponding gravitational scale is therefore roughly:
 
 ```math
-a_{\rm Casimir}
+a_{\mathrm{Casimir}}
 \sim
 \frac{G\hbar}{c\,d^3}
 ```
@@ -9875,10 +9845,8 @@ ONLY THEN:
 The single most important immediate question is therefore:
 
 ```math
-
 \text{How close can an actual finite, locally conserved DEC source get to }
 M=\frac{ah^2}{G}\text{?}
-
 ```
 
 If we can reduce the explicit coefficient from
@@ -9956,9 +9924,7 @@ The required relativistic stress-energy densities are enormous.
 The project has converged on:
 
 ```math
-
 \text{Antigravity in GR is fundamentally a stress-engineering problem.}
-
 ```
 
 The source should not be thought of as “negative mass.”
@@ -9966,9 +9932,7 @@ The source should not be thought of as “negative mass.”
 The more useful target is:
 
 ```math
-
 \text{positive energy with relativistically negative principal pressure/tension}
-
 ```
 
 placed near the target while compensating positive stresses are arranged so that the complete isolated system remains physically consistent.
@@ -9976,9 +9940,7 @@ placed near the target while compensating positive stresses are arranged so that
 And 006A has now made the next research objective extraordinarily clear:
 
 ```math
-
 \text{Find the minimum-energy spatial realization of that stress tensor.}
-
 ```
 
 That is where I would resume. It gives us a focused mathematical optimization problem instead of another broad search for mysterious antigravity physics.
@@ -12660,9 +12622,7 @@ The project has established with high confidence that **local repulsive gravitat
 The core classical lesson remains:
 
 ```math
-
 \text{gravity responds to the full stress-energy tensor, not merely positive mass density}
-
 ```
 
 Large relativistic stresses or tensions can make the local active gravitational source repulsive even when energy density and total mass remain positive.
@@ -12833,7 +12793,7 @@ Einstein–Maxwell provides a known example where:
 Repulsive radius:
 
 ```math
-r_{\rm rep}
+r_{\mathrm{rep}}
 =
 \frac{Q^2}
 {4\pi\epsilon_0Mc^2}
@@ -13226,7 +13186,7 @@ An optimistic acceleration scale:
 ```math
 a_{\max}
 =
-\frac{4\pi\alpha_{\rm QI}G\hbar}
+\frac{4\pi\alpha_{\mathrm{QI}}G\hbar}
 {c^4\tau^3}
 ```
 
@@ -13250,7 +13210,7 @@ gives:
 ```math
 a_{\max}(h)
 =
-\frac{4\pi\alpha_{\rm QI}G\hbar}
+\frac{4\pi\alpha_{\mathrm{QI}}G\hbar}
 {ch^3}
 ```
 
@@ -13957,8 +13917,8 @@ Important experiment features:
 * structured depth approximately 2.10 µm;
 * gaps approximately 200–1000 nm;
 * common Au layer suppresses differential Casimir background by more than roughly $10^6$;
-* thermal force noise near 6 fN/$\sqrt{\rm Hz}$;
-* measured short-gap random noise could be closer to 12 fN/$\sqrt{\rm Hz}$ due to wobble;
+* thermal force noise near 6 fN/$\sqrt{\mathrm{Hz}}$;
+* measured short-gap random noise could be closer to 12 fN/$\sqrt{\mathrm{Hz}}$ due to wobble;
 * long-integration differential force sensitivity approximately 0.1–0.2 fN.
 
 For:
@@ -13977,7 +13937,7 @@ project recast differential forces were approximately:
 8 um:  0.1447 fN
 ```
 
-A hypothetical hybrid combining the 2016 Casimir-less geometry with a 2008-style cryogenic 0.2 fN/$\sqrt{\rm Hz}$ force sensor yielded, for a 50% signal-transfer assumption at 6 µm:
+A hypothetical hybrid combining the 2016 Casimir-less geometry with a 2008-style cryogenic 0.2 fN/$\sqrt{\mathrm{Hz}}$ force sensor yielded, for a 50% signal-transfer assumption at 6 µm:
 
 ```text
 signal ≈ 0.0401 fN
@@ -14736,7 +14696,7 @@ N = 118
 Therefore:
 
 ```math
-\beta_{\rm Au}
+\beta_{\mathrm{Au}}
 =
 -\frac{118}{79}
 =
@@ -14746,7 +14706,7 @@ Therefore:
 makes natural gold exactly neutral at the nuclear-counting level:
 
 ```math
-Q_5(^{197}{\rm Au})=0
+Q_5(^{197}{\mathrm{Au}})=0
 ```
 
 Other material charge-to-mass factors at this direction:
@@ -14939,7 +14899,7 @@ electromagnetic current
 cannot change neutral-atom composition charge away from neutron number because:
 
 ```math
-Q_{\rm EM}=0
+Q_{\mathrm{EM}}=0
 ```
 
 for a neutral atom.
@@ -15159,7 +15119,7 @@ Using the literature-motivated approximate bound:
 ```math
 \frac{|c_A^N|}{f_X}
 \lesssim
-(10^8\ {\rm GeV})^{-1}
+(10^8\ {\mathrm{GeV}})^{-1}
 ```
 
 with:
@@ -15718,9 +15678,9 @@ An anchored source producing upward force does not imply reactionless propulsion
 For an isolated source plus payload:
 
 ```math
-\mathbf F_{12}
+\mathbf{F}_{12}
 =
--\mathbf F_{21}
+-\mathbf{F}_{21}
 ```
 
 and the center of mass cannot accelerate without exchanging momentum with something external.
@@ -16575,7 +16535,7 @@ C_EQ_4PI_SQUARED_LAMBDA_U_MAX_GEV=582.021760
 C_EQ_4PI_SQUARED_LAMBDA_D_MAX_GEV=601.574737
 ```
 
-Even with the extreme $y=4\pi$ choice, a $1.5\ {\rm TeV}$ up-type partner required
+Even with the extreme $y=4\pi$ choice, a $1.5\ {\mathrm{TeV}}$ up-type partner required
 
 ```text
 M1500_UP_SIN2=1.186576777155e+00
@@ -16873,7 +16833,7 @@ The session tested and strongly constrained or rejected, within stated scopes:
 - healthy weak-field positive-residue spin-2 repulsion;
 - viable Einstein-æther Newtonian sign reversal;
 - laboratory spontaneous scalarization of ordinary-density matter;
-- healthy general conformal scalar-tensor negative $G_{\rm Cav}$;
+- healthy general conformal scalar-tensor negative $G_{\mathrm{Cav}}$;
 - static pure-disformal lift at leading classical order;
 - self-contained reciprocal fifth-force multilayer lift;
 - WEP-preserving internal-state weight modulation;
@@ -17056,7 +17016,7 @@ Examples:
 For carbon-12,
 
 ```math
-\frac{s_{\rm C}}{g_n}
+\frac{s_{\mathrm{C}}}{g_n}
 =
 -0.24683544303797467
 ```
@@ -17064,7 +17024,7 @@ For carbon-12,
 For osmium-192,
 
 ```math
-\frac{s_{\rm Os}}{g_n}
+\frac{s_{\mathrm{Os}}}{g_n}
 =
 0.01292194092827007
 ```
@@ -17086,7 +17046,7 @@ PRACTICAL_ANTIGRAVITY=NO
 A representative electroweak-gauge-invariant operator structure was noted:
 
 ```math
-\mathcal L_{\rm eff}
+\mathcal{L}_{\mathrm{eff}}
 \supset
 -\frac{\phi}{\Lambda}
 \left[
@@ -17123,7 +17083,7 @@ g_N
 5\times10^{-14}
 ```
 
-for sufficiently light scalars, including the $\sim1.76\ {\rm eV}$ mediator relevant to the $112\ {\rm nm}$ benchmark.
+for sufficiently light scalars, including the $\sim1.76\ {\mathrm{eV}}$ mediator relevant to the $112\ {\mathrm{nm}}$ benchmark.
 
 The paper's more important feature for this project was its treatment of unequal proton and neutron couplings.
 
@@ -17187,14 +17147,14 @@ The project therefore used it only as a **literature-normalized preflight**, not
 
 # 5. Scalar Infinite-Half-Space Force Formula
 
-For a scalar source with density $\rho$, range $\lambda$, source specific scalar charge $s_{\rm src}$, test specific scalar charge $s_{\rm test}$, stand-off $z$, and a sufficiently thick half-space, the project derived:
+For a scalar source with density $\rho$, range $\lambda$, source specific scalar charge $s_{\mathrm{src}}$, test specific scalar charge $s_{\mathrm{test}}$, stand-off $z$, and a sufficiently thick half-space, the project derived:
 
 ```math
-a_{\rm half}
+a_{\mathrm{half}}
 =
 \frac{\hbar c}{2m_u^2}
 \rho\lambda
-|s_{\rm src}s_{\rm test}|
+|s_{\mathrm{src}}s_{\mathrm{test}}|
 e^{-z/\lambda}
 ```
 
@@ -17209,7 +17169,7 @@ The expression passes dimensional analysis.
 In the universal-charge limit it maps to the standard Yukawa half-space form:
 
 ```math
-a_{\rm half}
+a_{\mathrm{half}}
 =
 2\pi G\rho\alpha\lambda
 ```
@@ -17295,11 +17255,9 @@ BEST_CONTACT_A_OVER_G=7.327295675071e-04
 or
 
 ```math
-
-\frac{a_{\rm scalar,max}}{g}
+\frac{a_{\mathrm{scalar,max}}}{g}
 \approx
 7.33\times10^{-4}
-
 ```
 
 for this deliberately optimistic preflight.
@@ -17414,7 +17372,7 @@ A published loophole exists in **effective-$Z'$** models:
 The session used the relation associated with this construction:
 
 ```math
-g_{\rm eff}
+g_{\mathrm{eff}}
 =
 g'\sin^2\theta
 ```
@@ -17426,24 +17384,22 @@ M_Q
 =
 \frac{y}{\sqrt2}
 \frac{M_X}
-{\sqrt{g'g_{\rm eff}}}
+{\sqrt{g'g_{\mathrm{eff}}}}
 ```
 
 Since
 
 ```math
-g'\ge g_{\rm eff}
+g'\ge g_{\mathrm{eff}}
 ```
 
 one obtains the optimistic ceiling:
 
 ```math
-
 M_Q
 \le
 \frac{y}{\sqrt2}
-\frac{M_X}{g_{\rm eff}}
-
+\frac{M_X}{g_{\mathrm{eff}}}
 ```
 
 This is a very cheap UV consistency test.
@@ -17553,17 +17509,17 @@ MORE_REQUIRED_FORCE
 For two internal subsystems:
 
 ```math
-\mathbf F_{12}
+\mathbf{F}_{12}
 =
--\mathbf F_{21}
+-\mathbf{F}_{21}
 ```
 
 so:
 
 ```math
-\mathbf F_{12}
+\mathbf{F}_{12}
 +
-\mathbf F_{21}
+\mathbf{F}_{21}
 =
 0
 ```
@@ -17715,7 +17671,7 @@ H^\ast H
 After symmetry breaking:
 
 ```math
-g_{\rm eff}
+g_{\mathrm{eff}}
 \sim
 \frac{
 C g' v_\phi^2v_H^2
@@ -17740,7 +17696,7 @@ giving:
 \frac{
 C M_X^2v_H^2
 }{
-2g'g_{\rm eff}
+2g'g_{\mathrm{eff}}
 }
 ```
 
@@ -17807,7 +17763,7 @@ Required $\sin^2\theta$:
 | 1530 GeV | 15.51336647130 | NO | 11.90976270413 | NO |
 | 1700 GeV | 19.15230428555 | NO | 14.70341074584 | NO |
 
-Thus the simple perturbative portal cannot support even a $500\ {\rm GeV}$ partner at the required $1g$ couplings.
+Thus the simple perturbative portal cannot support even a $500\ {\mathrm{GeV}}$ partner at the required $1g$ couplings.
 
 ---
 
@@ -17899,7 +17855,7 @@ S
 =
 \int d^4x\sqrt{-g}
 \left[
-\frac{M_{\rm Pl}^2}{2}R
+\frac{M_{\mathrm{Pl}}^2}{2}R
 -
 \frac12(\partial\phi)^2
 -
@@ -17914,7 +17870,7 @@ Define a scalar coupling:
 ```math
 \alpha_A
 =
-M_{\rm Pl}
+M_{\mathrm{Pl}}
 \frac{\partial\ln m_A}
 {\partial\phi}
 ```
@@ -17935,7 +17891,7 @@ e^{-r/\lambda}
 and the corresponding force ratio can be written:
 
 ```math
-\frac{F}{F_{\rm GR}}
+\frac{F}{F_{\mathrm{GR}}}
 =
 1+
 2\alpha_A\alpha_B
@@ -17960,10 +17916,8 @@ so:
 therefore:
 
 ```math
-
-\frac{F}{F_{\rm GR}}
+\frac{F}{F_{\mathrm{GR}}}
 \ge1
-
 ```
 
 for a healthy canonical scalar.
@@ -17997,7 +17951,7 @@ For metric $f(R)$:
 so the short-range unscreened force becomes:
 
 ```math
-\frac{F}{F_{\rm GR}}
+\frac{F}{F_{\mathrm{GR}}}
 \to
 \frac43
 ```
@@ -18182,7 +18136,7 @@ EINSTEIN_AETHER_LAB_ANTIGRAVITY_ROUTE=STRONGLY_REJECTED
 A schematic extra-spin-2 force was modeled as:
 
 ```math
-\frac{F}{F_{\rm GR}}
+\frac{F}{F_{\mathrm{GR}}}
 =
 1
 +
@@ -18240,7 +18194,7 @@ within the weak-field positive-residue scope.
 A repulsive vector Yukawa contribution was written schematically:
 
 ```math
-\frac{F}{F_{\rm GR}}
+\frac{F}{F_{\mathrm{GR}}}
 =
 1
 -
@@ -18375,12 +18329,10 @@ Using:
 gives:
 
 ```math
-
 |\beta|
 \frac{GM}{Rc^2}
 =
 \frac{\pi^2}{12}
-
 ```
 
 This was an important analytical result because it reproduces the correct order of magnitude for neutron-star scalarization.
@@ -18507,7 +18459,7 @@ OSMIUM_MASS_FOR_BETA_4P5_SOLAR=6.312349523518e+06
 So ordinary-density osmium would need a radius of order:
 
 ```math
-5.1\times10^{10}\ {\rm m}
+5.1\times10^{10}\ {\mathrm{m}}
 ```
 
 and a mass of order:
@@ -18547,7 +18499,7 @@ S_m[g_{\mu\nu},\psi]
 The standard massless-scalar Cavendish coupling is:
 
 ```math
-G_{\rm Cav}
+G_{\mathrm{Cav}}
 =
 \frac{G_*}{F}
 \frac{
@@ -18586,9 +18538,7 @@ Q+F_{,\phi}^2
 Therefore:
 
 ```math
-
-G_{\rm Cav}>0
-
+G_{\mathrm{Cav}}>0
 ```
 
 within this class.
@@ -18672,9 +18622,9 @@ Define:
 \chi
 =
 \frac{
-m_{\rm passive}
+m_{\mathrm{passive}}
 }{
-m_{\rm inertial}
+m_{\mathrm{inertial}}
 }
 ```
 
@@ -18724,8 +18674,8 @@ where:
 ```math
 f
 =
-\frac{E_{\rm internal}}
-{m_{\rm inertial}c^2}
+\frac{E_{\mathrm{internal}}}
+{m_{\mathrm{inertial}}c^2}
 ```
 
 To reach a target $\chi$:
@@ -18794,9 +18744,9 @@ Do not misuse MICROSCOPE as a model-independent exclusion of every possible engi
 For internal forces:
 
 ```math
-\mathbf F_{AB}
+\mathbf{F}_{AB}
 +
-\mathbf F_{BA}
+\mathbf{F}_{BA}
 =
 0
 ```
@@ -18833,13 +18783,13 @@ If momentum is exported as perfectly collimated massless radiation:
 ```math
 F
 =
-\frac{P_{\rm rad}}{c}
+\frac{P_{\mathrm{rad}}}{c}
 ```
 
 so:
 
 ```math
-\frac{P_{\rm rad}}{m}
+\frac{P_{\mathrm{rad}}}{m}
 =
 ac
 ```
@@ -18855,7 +18805,7 @@ RADIATIVE_10G_MIN_POWER_W_PER_KG=2.939959708246e+10
 Thus an ideal photon rocket requires roughly:
 
 ```math
-2.94\ {\rm GW/kg}
+2.94\ {\mathrm{GW/kg}}
 ```
 
 for $1g$.
@@ -19039,7 +18989,7 @@ That is the basis for the new project headline.
 The best tested finite-thickness coefficient remains:
 
 ```math
-C_{\rm finite}
+C_{\mathrm{finite}}
 =
 23.591586299249
 ```
@@ -19047,11 +18997,9 @@ C_{\rm finite}
 in:
 
 ```math
-
-M_{\rm equiv}
+M_{\mathrm{equiv}}
 =
 C\frac{ah^2}{G}
-
 ```
 
 For:
@@ -19063,15 +19011,15 @@ a=g
 and:
 
 ```math
-h=1\ {\rm m}
+h=1\ {\mathrm{m}}
 ```
 
 the required energy-equivalent mass is approximately:
 
 ```math
-M_{\rm equiv}
+M_{\mathrm{equiv}}
 \approx
-3.47\times10^{12}\ {\rm kg}
+3.47\times10^{12}\ {\mathrm{kg}}
 ```
 
 and:
@@ -19079,9 +19027,9 @@ and:
 ```math
 E
 =
-M_{\rm equiv}c^2
+M_{\mathrm{equiv}}c^2
 \approx
-3.12\times10^{29}\ {\rm J}
+3.12\times10^{29}\ {\mathrm{J}}
 ```
 
 Therefore the formula works mathematically but is catastrophically impractical at human scales.
@@ -19096,9 +19044,9 @@ A second formula clarified the actual practical target:
 \chi
 =
 \frac{
-m_{\rm passive}
+m_{\mathrm{passive}}
 }{
-m_{\rm inertial}
+m_{\mathrm{inertial}}
 }
 ```
 
@@ -19119,9 +19067,7 @@ chi=-1 -> upward gravitational acceleration of magnitude g
 Thus:
 
 ```math
-
 \chi=-1
-
 ```
 
 is a compact **target condition** for true gravitational inversion.
@@ -19247,13 +19193,13 @@ The inherited optimized geometry is:
 with thin-profile pieces:
 
 ```math
-q_{\rm core}(r)=-r
+q_{\mathrm{core}}(r)=-r
 ```
 
 and:
 
 ```math
-q_{\rm annulus}(r)
+q_{\mathrm{annulus}}(r)
 =
 -\frac{\alpha^2}{r}
 ```
@@ -19344,7 +19290,7 @@ scale=0.00625  C=23.591586299249
 with:
 
 ```math
-C_{\rm thin}
+C_{\mathrm{thin}}
 =
 23.426710175391
 ```
@@ -19352,7 +19298,7 @@ C_{\rm thin}
 and:
 
 ```math
-C_{\rm finite}
+C_{\mathrm{finite}}
 =
 23.591586299249
 ```
@@ -19515,7 +19461,7 @@ arXiv:1104.4127
 Used for:
 
 - effective $Z'$ generation from vectorlike fermion mixing;
-- relation between $g_{\rm eff}$, $g'$, mixing angle, and partner mass;
+- relation between $g_{\mathrm{eff}}$, $g'$, mixing angle, and partner mass;
 - difficulty of unequal $u_L,d_L$ couplings under $SU(2)_L$;
 - dimension-eight Higgs-inserted isospin violation;
 - custodial / electroweak precision concerns.
@@ -19659,7 +19605,7 @@ Any design that consists entirely of internal source/receiver layers for a recip
 If the total system is isolated:
 
 ```math
-\frac{d\mathbf P_{\rm total}}{dt}=0
+\frac{d\mathbf{P}_{\mathrm{total}}}{dt}=0
 ```
 
 Therefore:
@@ -19898,7 +19844,7 @@ The most important negative results are:
 
 1. **Classical scaling problem**
    ```math
-   M_{\rm equiv}
+   M_{\mathrm{equiv}}
    \sim
    C\frac{ah^2}{G}
    ```
@@ -20061,7 +20007,7 @@ p_\phi(r)=\frac{dq}{dr}
 ## Best finite classical scaling
 
 ```math
-M_{\rm equiv}
+M_{\mathrm{equiv}}
 =
 23.591586299249
 \frac{ah^2}{G}
@@ -20090,11 +20036,11 @@ e^{-r/\lambda}
 ## Scalar half-space acceleration
 
 ```math
-a_{\rm half}
+a_{\mathrm{half}}
 =
 \frac{\hbar c}{2m_u^2}
 \rho\lambda
-|s_{\rm src}s_{\rm test}|
+|s_{\mathrm{src}}s_{\mathrm{test}}|
 e^{-z/\lambda}
 ```
 
@@ -20115,7 +20061,7 @@ g
 ## Effective-$Z'$ portal
 
 ```math
-g_{\rm eff}
+g_{\mathrm{eff}}
 =
 g'\sin^2\theta
 ```
@@ -20125,7 +20071,7 @@ M_Q
 =
 \frac{y}{\sqrt2}
 \frac{M_X}
-{\sqrt{g'g_{\rm eff}}}
+{\sqrt{g'g_{\mathrm{eff}}}}
 ```
 
 ## Effective-$Z'$ optimistic partner ceiling
@@ -20134,7 +20080,7 @@ M_Q
 M_Q
 \le
 \frac{y}{\sqrt2}
-\frac{M_X}{g_{\rm eff}}
+\frac{M_X}{g_{\mathrm{eff}}}
 ```
 
 ## $SU(2)_L$ axial floor
@@ -20155,14 +20101,14 @@ M_Q
 \frac{
 C M_X^2v_H^2
 }{
-2g'g_{\rm eff}
+2g'g_{\mathrm{eff}}
 }
 ```
 
 ## Universal scalar-tensor force
 
 ```math
-\frac{F}{F_{\rm GR}}
+\frac{F}{F_{\mathrm{GR}}}
 =
 1+
 2\alpha_A\alpha_B
@@ -20193,7 +20139,7 @@ G_N
 ## General conformal scalar-tensor Cavendish coupling
 
 ```math
-G_{\rm Cav}
+G_{\mathrm{Cav}}
 =
 \frac{G_*}{F}
 \frac{
@@ -20209,9 +20155,9 @@ G_{\rm Cav}
 \chi
 =
 \frac{
-m_{\rm passive}
+m_{\mathrm{passive}}
 }{
-m_{\rm inertial}
+m_{\mathrm{inertial}}
 }
 ```
 
@@ -20915,7 +20861,7 @@ Keep units visible:
 ```math
 E
 =
-1.06\times10^8\ {\rm J}
+1.06\times10^8\ {\mathrm{J}}
 ```
 
 Important equations may be boxed, but boxing should be reserved for central thresholds or results.
@@ -21175,7 +21121,7 @@ The integrated active mass remains positive, so the far field remains attractive
 Best tested finite-thickness coefficient:
 
 ```math
-C_{\rm finite}
+C_{\mathrm{finite}}
 =
 23.591586299249
 ```
@@ -21183,7 +21129,7 @@ C_{\rm finite}
 with:
 
 ```math
-M_{\rm equiv}
+M_{\mathrm{equiv}}
 =
 C\frac{ah^2}{G}
 ```
@@ -21191,7 +21137,7 @@ C\frac{ah^2}{G}
 Thin-limit result:
 
 ```math
-C_{\rm thin}
+C_{\mathrm{thin}}
 =
 23.426710175391
 ```
@@ -21216,14 +21162,14 @@ or about:
 0.704\%
 ```
 
-For a $1g$ effect at $h=1,{\rm m}$:
+For a $1g$ effect at $h=1,{\mathrm{m}}$:
 
 ```math
 M
 =
 23.591586299249
 \frac{
-9.80665\times(1\,{\rm m})^2
+9.80665\times(1\,{\mathrm{m}})^2
 }{
 6.67430\times10^{-11}
 }
@@ -21234,7 +21180,7 @@ which gives approximately:
 ```math
 M
 \approx
-3.47\times10^{12}\ {\rm kg}
+3.47\times10^{12}\ {\mathrm{kg}}
 ```
 
 The corresponding rest-energy equivalent is approximately:
@@ -21244,7 +21190,7 @@ E
 =
 Mc^2
 \approx
-3.12\times10^{29}\ {\rm J}
+3.12\times10^{29}\ {\mathrm{J}}
 ```
 
 This illustrates why 006D establishes mathematical repulsion but not energetic practicality.
@@ -21277,7 +21223,7 @@ The late classical analysis produced a useful standoff bound for a static, finit
 The result is:
 
 ```math
-a_{\rm out}
+a_{\mathrm{out}}
 \le
 \frac{GE}{c^2h^2}
 ```
@@ -21293,7 +21239,7 @@ M
 this becomes:
 
 ```math
-a_{\rm out}
+a_{\mathrm{out}}
 \le
 \frac{GM}{h^2}
 ```
@@ -21301,16 +21247,14 @@ a_{\rm out}
 Therefore:
 
 ```math
-
 M
 \ge
 \frac{ah^2}{G}
-
 ```
 
 under the stated assumptions.
 
-For $a=g$ and $h=1,{\rm m}$:
+For $a=g$ and $h=1,{\mathrm{m}}$:
 
 ```math
 M_{\min}
@@ -21324,7 +21268,7 @@ giving:
 ```math
 M_{\min}
 \approx
-1.4693\times10^{11}\ {\rm kg}
+1.4693\times10^{11}\ {\mathrm{kg}}
 ```
 
 Thus even the optimistic coefficient-one static-DEC limit is catastrophically large at meter standoff.
@@ -21349,7 +21293,7 @@ At acceleration $a$ across distance $h$, a useful dimensionless weak-field param
 \frac{ah}{c^2}
 ```
 
-For $a=g$ and $h=1,{\rm m}$:
+For $a=g$ and $h=1,{\mathrm{m}}$:
 
 ```math
 \frac{gh}{c^2}
@@ -21464,7 +21408,7 @@ The late 010E branch used a phenomenological Yukawa scalar with range:
 ```math
 \lambda
 =
-5000\ {\rm m}
+5000\ {\mathrm{m}}
 ```
 
 and pure-Yukawa strength:
@@ -21478,7 +21422,7 @@ and pure-Yukawa strength:
 The working source coupling is defined through:
 
 ```math
-\alpha_{\rm source}
+\alpha_{\mathrm{source}}
 =
 \sqrt{
 \frac{\alpha_Y}{2}
@@ -21488,7 +21432,7 @@ The working source coupling is defined through:
 Therefore:
 
 ```math
-\alpha_{\rm source}
+\alpha_{\mathrm{source}}
 =
 10^{-2}
 ```
@@ -21500,8 +21444,8 @@ a_\phi
 =
 -4\pi G
 \rho
-\alpha_{\rm source}
-\alpha_{\rm test}
+\alpha_{\mathrm{source}}
+\alpha_{\mathrm{test}}
 \lambda
 ```
 
@@ -21516,7 +21460,7 @@ alpha_source = 0.01
 and demanding approximately $1g$ upward acceleration gives:
 
 ```math
-\alpha_{\rm activated}
+\alpha_{\mathrm{activated}}
 =
 -
 \frac{
@@ -21524,7 +21468,7 @@ g
 }{
 4\pi G
 \rho
-\alpha_{\rm source}
+\alpha_{\mathrm{source}}
 \lambda
 }
 ```
@@ -21538,7 +21482,7 @@ ALPHA_ACTIVATED=
 
 This is an enormous effective test-body scalar response.
 
-The mediator mass corresponding to the $5,{\rm km}$ range is:
+The mediator mass corresponding to the $5,{\mathrm{km}}$ range is:
 
 ```math
 m_\phi
@@ -21551,7 +21495,7 @@ Using:
 ```math
 \hbar c
 \approx
-1.973269804\times10^{-7}\ {\rm eV\,m}
+1.973269804\times10^{-7}\ {\mathrm{eV\,m}}
 ```
 
 gives:
@@ -21559,7 +21503,7 @@ gives:
 ```math
 m_\phi
 =
-3.946539608\times10^{-11}\ {\rm eV}
+3.946539608\times10^{-11}\ {\mathrm{eV}}
 ```
 
 The extra dimensionless microscopic scalar coupling per nucleon required by the activated state is:
@@ -21568,7 +21512,7 @@ The extra dimensionless microscopic scalar coupling per nucleon required by the 
 g_N
 \sim
 |\Delta\alpha|
-\frac{m_N}{M_{\rm Pl}}
+\frac{m_N}{M_{\mathrm{Pl}}}
 ```
 
 with:
@@ -21585,7 +21529,7 @@ ACTIVATED_EXTRA_COUPLING_PER_NUCLEON=
 6.011882433614129e-14
 ```
 
-This small microscopic number should not be confused with the enormous macroscopic $\alpha_{\rm activated}$. The macroscopic enhancement arises from coherent mass-normalized scalar charge.
+This small microscopic number should not be confused with the enormous macroscopic $\alpha_{\mathrm{activated}}$. The macroscopic enhancement arises from coherent mass-normalized scalar charge.
 
 ---
 
@@ -21788,10 +21732,10 @@ For a 100-nucleon reference cell, spacing:
 ```math
 a
 =
-5.496459502753594\times10^{-10}\ {\rm m}
+5.496459502753594\times10^{-10}\ {\mathrm{m}}
 ```
 
-A $1,{\rm eV}$ particle has reduced Compton wavelength:
+A $1,{\mathrm{eV}}$ particle has reduced Compton wavelength:
 
 ```math
 \bar\lambda_C
@@ -21804,7 +21748,7 @@ which gives:
 ```math
 \bar\lambda_C
 \approx
-1.97327\times10^{-7}\ {\rm m}
+1.97327\times10^{-7}\ {\mathrm{m}}
 ```
 
 Therefore:
@@ -21822,7 +21766,7 @@ pc
 \sim
 \frac{\hbar c}{a}
 \approx
-359\ {\rm eV}
+359\ {\mathrm{eV}}
 ```
 
 The exact relativistic localization kinetic energy is:
@@ -21843,11 +21787,11 @@ which gives approximately:
 358 eV
 ```
 
-for $m=1,{\rm eV}$.
+for $m=1,{\mathrm{eV}}$.
 
-That is vastly above the intended $5,{\rm eV}$ matching cutoff.
+That is vastly above the intended $5,{\mathrm{eV}}$ matching cutoff.
 
-Demanding localization kinetic energy $\le5,{\rm eV}$ requires:
+Demanding localization kinetic energy $\le5,{\mathrm{eV}}$ requires:
 
 ```text
 m_X >= 1.2886e4 eV
@@ -21863,9 +21807,9 @@ Hence:
 
 ```math
 \frac{
-m_{\rm localization,min}
+m_{\mathrm{localization,min}}
 }{
-m_{\rm naturalness,max}
+m_{\mathrm{naturalness,max}}
 }
 \approx
 221
@@ -21907,7 +21851,7 @@ H=f
 The difference portal was:
 
 ```math
-V_{\rm portal}
+V_{\mathrm{portal}}
 =
 \epsilon\phi
 |\Psi-H|^2
@@ -21987,11 +21931,11 @@ The original compact-phase potential had two degenerate minima.
 R added an explicit bias:
 
 ```math
-V_{\rm vac}(\theta)
+V_{\mathrm{vac}}(\theta)
 =
 V_0\sin^2\theta
 +
-\Delta V_{\rm vac}
+\Delta V_{\mathrm{vac}}
 \frac{1-\cos\theta}{2}
 ```
 
@@ -22003,7 +21947,7 @@ V''(0)
 2V_0
 +
 \frac{
-\Delta V_{\rm vac}
+\Delta V_{\mathrm{vac}}
 }{2}
 ```
 
@@ -22015,14 +21959,14 @@ V''(\pi)
 2V_0
 -
 \frac{
-\Delta V_{\rm vac}
+\Delta V_{\mathrm{vac}}
 }{2}
 ```
 
 Therefore:
 
 ```math
-\Delta V_{\rm vac}
+\Delta V_{\mathrm{vac}}
 >
 4V_0
 ```
@@ -22032,7 +21976,7 @@ makes $\theta=\pi$ cease to be a local vacuum.
 The selected benchmark used:
 
 ```math
-\Delta V_{\rm vac}
+\Delta V_{\mathrm{vac}}
 =
 5V_0
 ```
@@ -22147,7 +22091,7 @@ S(S+1)
 and in the truncated $S=0,1,2$ manifold:
 
 ```math
-P_{\rm HS}
+P_{\mathrm{HS}}
 =
 \frac{
 x(x-2)
@@ -22159,19 +22103,19 @@ x(x-2)
 Then:
 
 ```math
-P_{\rm HS}(S=0)
+P_{\mathrm{HS}}(S=0)
 =
 0
 ```
 
 ```math
-P_{\rm HS}(S=1)
+P_{\mathrm{HS}}(S=1)
 =
 0
 ```
 
 ```math
-P_{\rm HS}(S=2)
+P_{\mathrm{HS}}(S=2)
 =
 1
 ```
@@ -22255,19 +22199,19 @@ REJECTED_BY_PHASE_POTENTIAL_NATURALNESS
 The rotationally invariant Kanamori spin term contains:
 
 ```math
--2J_H\mathbf S^2
+-2J_H\mathbf{S}^2
 ```
 
 For:
 
 ```math
-S_{\rm LS}=0
+S_{\mathrm{LS}}=0
 ```
 
 and:
 
 ```math
-S_{\rm HS}=2
+S_{\mathrm{HS}}=2
 ```
 
 the difference in $S(S+1)$ is:
@@ -22301,13 +22245,13 @@ corresponds to a Hund-scale change of:
 12
 }
 \approx
-0.01806\ {\rm eV}
+0.01806\ {\mathrm{eV}}
 ```
 
 Relative to:
 
 ```math
-J_H\approx0.85\ {\rm eV}
+J_H\approx0.85\ {\mathrm{eV}}
 ```
 
 this is approximately:
@@ -22377,7 +22321,7 @@ with observed spin-crossover displacement scale:
 ```math
 \Delta x
 \sim
-0.2\ {\rm \AA}
+0.2\ {\mathrm{\AA}}
 ```
 
 Since:
@@ -22391,7 +22335,7 @@ K\Delta x
 integrating out $x$ gives a cross term:
 
 ```math
-J_{\rm cross}
+J_{\mathrm{cross}}
 =
 \frac{
 F_sF_h
@@ -22445,7 +22389,7 @@ V made one of the most important conceptual corrections of the entire late sessi
 Earlier reasoning often treated:
 
 ```math
-m_{\rm eff}^2<0
+m_{\mathrm{eff}}^2<0
 ```
 
 inside material as immediate instability.
@@ -22457,7 +22401,7 @@ A finite body instead requires a spatial eigenmode capable of fitting inside the
 For a spherical region of radius $R$ with interior effective mass:
 
 ```math
-m_{\rm in}^2
+m_{\mathrm{in}}^2
 =
 -\mu^2
 ```
@@ -22465,7 +22409,7 @@ m_{\rm in}^2
 and ordinary exterior mediator mass:
 
 ```math
-m_{\rm out}
+m_{\mathrm{out}}
 =
 m_\phi
 ```
@@ -22485,7 +22429,7 @@ r
 The regular interior zero-mode solution is:
 
 ```math
-u_{\rm in}
+u_{\mathrm{in}}
 \propto
 \sin(\mu r)
 ```
@@ -22493,7 +22437,7 @@ u_{\rm in}
 The decaying exterior solution is:
 
 ```math
-u_{\rm out}
+u_{\mathrm{out}}
 \propto
 e^{-m_\phi(r-R)}
 ```
@@ -22523,7 +22467,7 @@ x\cot x
 -m_\phi R
 ```
 
-For the one-ton benchmark with density $1000,{\rm kg/m^3}$:
+For the one-ton benchmark with density $1000,{\mathrm{kg/m^3}}$:
 
 ```text
 PAYLOAD_RADIUS_M=
@@ -22549,7 +22493,7 @@ FINITE_SPHERE_ZERO_MODE_X_CRITICAL=
 1.570875308300910
 ```
 
-The representative $K=20,{\rm eV/\AA^2}$ model had worst combined susceptibility:
+The representative $K=20,{\mathrm{eV/\AA^2}}$ model had worst combined susceptibility:
 
 ```text
 MU_R=
@@ -22574,7 +22518,7 @@ The estimated critical radius was:
 2.66985 m
 ```
 
-and corresponding mass at $1000,{\rm kg/m^3}$:
+and corresponding mass at $1000,{\mathrm{kg/m^3}}$:
 
 ```text
 7.97e4 kg
@@ -22612,7 +22556,7 @@ where:
 For $P=1$, minimizing with respect to $x$ gives:
 
 ```math
-x_{\rm HS}
+x_{\mathrm{HS}}
 =
 \Delta x
 -
@@ -22626,15 +22570,15 @@ K
 The scalar charge magnitude is:
 
 ```math
-g_{\rm site}
+g_{\mathrm{site}}
 =
-c x_{\rm HS}
+c x_{\mathrm{HS}}
 ```
 
 so:
 
 ```math
-g_{\rm site}
+g_{\mathrm{site}}
 =
 c
 \left(
@@ -22714,19 +22658,19 @@ MAXIMUM_PORTAL_LEAKAGE_FRACTION=
 For Fe(II):
 
 ```math
-S_{\rm LS}=0
+S_{\mathrm{LS}}=0
 ```
 
 ```math
-S_{\rm HS}=2
+S_{\mathrm{HS}}=2
 ```
 
 The minimal spin multiplicities are:
 
 ```math
-g_{\rm LS}
+g_{\mathrm{LS}}
 =
-2S_{\rm LS}+1
+2S_{\mathrm{LS}}+1
 =
 1
 ```
@@ -22734,9 +22678,9 @@ g_{\rm LS}
 and:
 
 ```math
-g_{\rm HS}
+g_{\mathrm{HS}}
 =
-2S_{\rm HS}+1
+2S_{\mathrm{HS}}+1
 =
 5
 ```
@@ -22744,7 +22688,7 @@ g_{\rm HS}
 For total free-energy gap $\Delta$:
 
 ```math
-p_{\rm HS}
+p_{\mathrm{HS}}
 =
 \frac{
 5e^{-\Delta/k_BT}
@@ -22756,9 +22700,9 @@ p_{\rm HS}
 Demand:
 
 ```math
-p_{\rm HS}
+p_{\mathrm{HS}}
 \le
-f_{\rm leak}
+f_{\mathrm{leak}}
 ```
 
 Solving gives:
@@ -22770,14 +22714,14 @@ k_BT
 \ln
 \left[
 \frac{
-5(1-f_{\rm leak})
+5(1-f_{\mathrm{leak}})
 }{
-f_{\rm leak}
+f_{\mathrm{leak}}
 }
 \right]
 ```
 
-At $300,{\rm K}$:
+At $300,{\mathrm{K}}$:
 
 ```text
 REQUIRED_TOTAL_OFF_STATE_GAP=
@@ -22815,7 +22759,7 @@ ROOM_TEMPERATURE_NEAR_COEXISTENCE_DIRECT_ROUTE=
 REJECTED_BY_OFF_STATE_THERMAL_LEAKAGE
 ```
 
-At $77,{\rm K}$:
+At $77,{\mathrm{K}}$:
 
 ```text
 REQUIRED_TOTAL_OFF_STATE_GAP=
@@ -22828,7 +22772,7 @@ and total control:
 0.1080385570837458 eV/site
 ```
 
-At $4.2,{\rm K}$ the scalar penalty alone makes the activated thermal fraction negligible.
+At $4.2,{\mathrm{K}}$ the scalar penalty alone makes the activated thermal fraction negligible.
 
 But X later showed that very low temperature worsens switching-point scalar susceptibility.
 
@@ -22843,7 +22787,7 @@ W tested whether structural variables alone could suppress the unwanted scalar c
 The target leakage level is:
 
 ```math
-f_{\rm leak}
+f_{\mathrm{leak}}
 \approx
 5.77\times10^{-7}
 ```
@@ -22865,7 +22809,7 @@ Activated displacement:
 Thus leakage:
 
 ```math
-f_{\rm linear}
+f_{\mathrm{linear}}
 =
 \frac{
 0.0203198
@@ -22919,7 +22863,7 @@ Quantum zero-point fluctuations therefore produce nonzero normal-state charge ev
 \langle x\rangle=0
 ```
 
-Best tested order at $300,{\rm K}$:
+Best tested order at $300,{\mathrm{K}}$:
 
 ```text
 n=7
@@ -23044,7 +22988,7 @@ Requiring:
 ```math
 p_T
 \le
-f_{\rm leak}
+f_{\mathrm{leak}}
 ```
 
 gives approximately:
@@ -23090,22 +23034,22 @@ Define:
 ```math
 Q_N
 =
-B_{\rm material}
+B_{\mathrm{material}}
 \prod_{i=1}^N
-P_{{\rm HS},i}
+P_{{\mathrm{HS}},i}
 ```
 
 where:
 
-* $B_{\rm material}$ is a fixed projector onto a specific bound material/cluster species;
-* $P_{{\rm HS},i}$ are switchable high-spin projectors.
+* $B_{\mathrm{material}}$ is a fixed projector onto a specific bound material/cluster species;
+* $P_{{\mathrm{HS}},i}$ are switchable high-spin projectors.
 
 Then it is possible to have:
 
 ```math
 [
-B_{\rm material},
-H_{\rm control}
+B_{\mathrm{material}},
+H_{\mathrm{control}}
 ]
 =
 0
@@ -23116,7 +23060,7 @@ while:
 ```math
 [
 Q_N,
-H_{\rm control}
+H_{\mathrm{control}}
 ]
 \ne
 0
@@ -23211,7 +23155,7 @@ k_BT
 and:
 
 ```math
-p_{\rm all-HS}
+p_{\mathrm{all-HS}}
 \le
 \frac{
 W_N
@@ -23241,16 +23185,16 @@ The scalar-charge difference of an $N$-site cluster is:
 ```math
 G_N
 =
-Ng_{\rm site}
+Ng_{\mathrm{site}}
 ```
 
 The number density of clusters is:
 
 ```math
-n_{\rm cluster}
+n_{\mathrm{cluster}}
 =
 \frac{
-n_{\rm site}
+n_{\mathrm{site}}
 }{
 N
 }
@@ -23262,7 +23206,7 @@ At maximal equilibrium two-state susceptibility:
 |\Delta m_\phi^2|
 =
 \frac{
-n_{\rm cluster}
+n_{\mathrm{cluster}}
 G_N^2
 }{
 4k_BT
@@ -23272,10 +23216,10 @@ G_N^2
 Substitute:
 
 ```math
-n_{\rm cluster}
+n_{\mathrm{cluster}}
 =
 \frac{
-n_{\rm site}
+n_{\mathrm{site}}
 }{
 N
 }
@@ -23286,7 +23230,7 @@ and:
 ```math
 G_N^2
 =
-N^2g_{\rm site}^2
+N^2g_{\mathrm{site}}^2
 ```
 
 to obtain:
@@ -23296,8 +23240,8 @@ to obtain:
 =
 N
 \frac{
-n_{\rm site}
-g_{\rm site}^2
+n_{\mathrm{site}}
+g_{\mathrm{site}}^2
 }{
 4k_BT
 }
@@ -23408,16 +23352,16 @@ DINUCLEAR_LEAKAGE_T_MAX_K=
 Thus:
 
 ```math
-28.13\ {\rm K}
+28.13\ {\mathrm{K}}
 <
 T
 <
-101.83\ {\rm K}
+101.83\ {\mathrm{K}}
 ```
 
 for the selected idealized one-ton benchmark without extra off-state material gap.
 
-At $77,{\rm K}$:
+At $77,{\mathrm{K}}$:
 
 ```text
 DINUCLEAR_ALL_HS_LEAKAGE=
@@ -23516,7 +23460,7 @@ BALANCED_CRITICAL_PAYLOAD_MASS_KG=
 6065.807834674159
 ```
 
-Do not interpret $6066,{\rm kg}$ as a universal maximum antigravity payload.
+Do not interpret $6066,{\mathrm{kg}}$ as a universal maximum antigravity payload.
 
 It is the specific zero-mode extrapolation of the selected effective susceptibility model.
 
@@ -23524,7 +23468,7 @@ It is the specific zero-mode extrapolation of the selected effective susceptibil
 
 # 33. Control burden after cooperative selectivity
 
-Because the cooperative selector itself supplies off-state purity, the model no longer requires W's $0.336,{\rm eV/site}$ additional room-temperature gap in the selected moderate-temperature window.
+Because the cooperative selector itself supplies off-state purity, the model no longer requires W's $0.336,{\mathrm{eV/site}}$ additional room-temperature gap in the selected moderate-temperature window.
 
 Minimum selected control shift:
 
@@ -23555,7 +23499,7 @@ For one ton:
 or approximately:
 
 ```math
-106\ {\rm MJ}
+106\ {\mathrm{MJ}}
 ```
 
 This is a free-energy scale in the model.
@@ -23572,7 +23516,7 @@ It is not yet associated with an actual switching technology.
 
 Real spin-crossover clusters can have cooperative stabilization of the all-high-spin state.
 
-At $77,{\rm K}$, the dimer can tolerate approximately:
+At $77,{\mathrm{K}}$, the dimer can tolerate approximately:
 
 ```text
 0.0376 eV/dimer
@@ -23621,9 +23565,9 @@ A real material calculation would still need its actual many-body free-energy la
 For an illustrative electronic gap:
 
 ```math
-\Delta_{\rm UV}
+\Delta_{\mathrm{UV}}
 =
-5\ {\rm eV}
+5\ {\mathrm{eV}}
 ```
 
 a schematic $N$th-order process:
@@ -23631,9 +23575,9 @@ a schematic $N$th-order process:
 ```math
 J_N
 \sim
-\Delta_{\rm UV}
+\Delta_{\mathrm{UV}}
 \left(
-\frac{t}{\Delta_{\rm UV}}
+\frac{t}{\Delta_{\mathrm{UV}}}
 \right)^N
 ```
 
@@ -23725,7 +23669,7 @@ N_B
 The local conversion interaction is:
 
 ```math
-H_{\rm mix}
+H_{\mathrm{mix}}
 =
 h
 \left(
@@ -23841,7 +23785,7 @@ EARTH_PHI=
 0.9701060143517443
 ```
 
-Thus the selected dressed bound state is approximately $97%$ dimer-like.
+Thus the selected dressed bound state is approximately $97\%$ dimer-like.
 
 ---
 
@@ -23886,7 +23830,7 @@ Therefore:
 
 ```math
 \frac{
-dE_{\rm bound}
+dE_{\mathrm{bound}}
 }{
 d\phi
 }
@@ -24027,7 +23971,7 @@ This is an internal model result, not evidence for the actual interaction.
 The same low-energy physics was represented independently as:
 
 ```math
-\mathcal H_{\phi,2}
+\mathcal{H}_{\phi,2}
 =
 C_\phi
 \phi
@@ -24076,7 +24020,7 @@ Matching requires:
 C_\phi
 |\psi(0)|^2
 =
-G_{\rm dimer}
+G_{\mathrm{dimer}}
 ```
 
 so:
@@ -24085,7 +24029,7 @@ so:
 C_\phi
 =
 \frac{
-G_{\rm dimer}
+G_{\mathrm{dimer}}
 }{
 |\psi(0)|^2
 }
@@ -24094,7 +24038,7 @@ G_{\rm dimer}
 For:
 
 ```math
-a=3\ {\rm \AA}
+a=3\ {\mathrm{\AA}}
 ```
 
 Y found:
@@ -24107,7 +24051,7 @@ C_PHI=
 The formal coefficient scale:
 
 ```math
-\Lambda_{\rm pair}
+\Lambda_{\mathrm{pair}}
 =
 C_\phi^{-1/3}
 ```
@@ -24123,7 +24067,7 @@ This must not be interpreted as a new mediator mass.
 The actual atomic EFT cutoff is:
 
 ```math
-\Lambda_{\rm EFT}
+\Lambda_{\mathrm{EFT}}
 \sim
 \frac{
 \hbar c
@@ -24132,7 +24076,7 @@ a
 }
 ```
 
-For $a=3,{\rm \AA}$:
+For $a=3,{\mathrm{\AA}}$:
 
 ```text
 ≈657.76 eV
@@ -24142,7 +24086,7 @@ The dimensionless Wilson strength is:
 
 ```math
 C_\phi
-\Lambda_{\rm EFT}^3
+\Lambda_{\mathrm{EFT}}^3
 =
 2.713818830692468e-11
 ```
@@ -24191,14 +24135,14 @@ This still falls short of independent UV derivations of an actual microscopic th
 A Schrödinger propagator has the form:
 
 ```math
-G(\omega,\mathbf p)
+G(\omega,\mathbf{p})
 =
 \frac{
 i
 }{
 \omega
 -
-E_{\mathbf p}
+E_{\mathbf{p}}
 +
 i\epsilon
 }
@@ -24240,7 +24184,7 @@ Do not promote it to a UV solution.
 
 Y reproduced the dinuclear finite-size results.
 
-At $77,{\rm K}$:
+At $77,{\mathrm{K}}$:
 
 ```text
 DINUCLEAR_MU_R=
@@ -24280,7 +24224,7 @@ STABILITY_MARGIN=
 1.823739827829086
 ```
 
-The $77,{\rm K}$ leakage result is:
+The $77,{\mathrm{K}}$ leakage result is:
 
 ```text
 1.989338055378181e-9
@@ -24313,7 +24257,7 @@ The dinuclear object is approximately:
 or about:
 
 ```math
-134\ {\rm GeV}
+134\ {\mathrm{GeV}}
 ```
 
 If this entire object were treated as a fundamental relativistic fermion-like particle with coupling $g_D$, the scalar-mass correction is parametrically:
@@ -24392,7 +24336,7 @@ A typical one-loop mixing factor is:
 Allowed target-equivalent ordinary-matter leakage is:
 
 ```math
-f_{\rm leak}
+f_{\mathrm{leak}}
 =
 5.77296\times10^{-7}
 ```
@@ -24474,7 +24418,7 @@ The allowed leakage fraction is:
 5.77e-7
 ```
 
-Thus if relativistic corrections were genuinely controlled only by $E_{\rm low}/M_{\rm rest}$, there would be a hierarchy margin of approximately:
+Thus if relativistic corrections were genuinely controlled only by $E_{\mathrm{low}}/M_{\mathrm{rest}}$, there would be a hierarchy margin of approximately:
 
 ```math
 \frac{
@@ -24730,7 +24674,7 @@ The mediator range is:
 ```math
 \lambda
 =
-5\times10^3\ {\rm m}
+5\times10^3\ {\mathrm{m}}
 ```
 
 Thus:
@@ -24738,7 +24682,7 @@ Thus:
 ```math
 m_\phi
 =
-3.946539608\times10^{-11}\ {\rm eV}
+3.946539608\times10^{-11}\ {\mathrm{eV}}
 ```
 
 Any proposed relativistic completion must calculate its threshold correction:
@@ -24781,7 +24725,7 @@ The next session should begin with exactly one high-priority question:
 In symbols, the low-energy target is:
 
 ```math
-\mathcal H_{\rm EFT}
+\mathcal{H}_{\mathrm{EFT}}
 \supset
 C_\phi
 \phi
@@ -24919,9 +24863,9 @@ It is to identify every symmetry-allowed one-body operator.
 For example, schematically:
 
 ```math
-\mathcal L
+\mathcal{L}
 =
-\mathcal L_{\rm SM}
+\mathcal{L}_{\mathrm{SM}}
 +
 \frac12
 (\partial\phi)^2
@@ -24931,7 +24875,7 @@ m_\phi^2\phi^2
 +
 \sum_i
 c_i
-\mathcal O_i
+\mathcal{O}_i
 ```
 
 Then classify:
@@ -24982,7 +24926,7 @@ with no further suppression, the branch is already in severe trouble because:
 while:
 
 ```math
-f_{\rm leak}
+f_{\mathrm{leak}}
 \approx
 5.77\times10^{-7}
 ```
@@ -25039,7 +24983,7 @@ Every candidate UV completion should pass the following limits.
 As the dimer/bound state disappears:
 
 ```math
-E_{\rm bind}\to0
+E_{\mathrm{bind}}\to0
 ```
 
 the bound-specific scalar charge should behave consistently with the claimed mechanism.
@@ -25107,7 +25051,7 @@ The selected mediator mass is:
 ```math
 m_\phi
 =
-3.94654\times10^{-11}\ {\rm eV}
+3.94654\times10^{-11}\ {\mathrm{eV}}
 ```
 
 so:
@@ -25115,7 +25059,7 @@ so:
 ```math
 m_\phi^2
 \approx
-1.56\times10^{-21}\ {\rm eV^2}
+1.56\times10^{-21}\ {\mathrm{eV^2}}
 ```
 
 This is extraordinarily small.
@@ -25128,7 +25072,7 @@ A valid completion must explain technically why this mass remains small.
 
 # 62. Exact experimental-bound closure
 
-If a microscopic completion survives operator mixing and naturalness, the next empirical gate should be the exact $5,{\rm km}$ Yukawa boundary.
+If a microscopic completion survives operator mixing and naturalness, the next empirical gate should be the exact $5,{\mathrm{km}}$ Yukawa boundary.
 
 Target point:
 
@@ -25504,7 +25448,7 @@ The following published topics/results were used as external anchors during the 
 * Murata, Fujiie, Suzuki, 2026, review of short-range/inverse-square-law gravitational tests.
 * March et al., 2019, intermediate-range/ocean Yukawa constraint.
 
-The exact modern $5,{\rm km}$ numerical boundary remains to be reconstructed.
+The exact modern $5,{\mathrm{km}}$ numerical boundary remains to be reconstructed.
 
 ## Spin crossover
 
@@ -25732,7 +25676,7 @@ Do not open another speculative branch until this is answered or clearly stalled
 The required low-energy target is:
 
 ```math
-\mathcal H_{\phi,2}
+\mathcal{H}_{\phi,2}
 =
 C_\phi
 \phi
@@ -25744,7 +25688,7 @@ with representative:
 ```math
 C_\phi
 \approx
-9.54\times10^{-20}\ {\rm eV^{-3}}
+9.54\times10^{-20}\ {\mathrm{eV^{-3}}}
 ```
 
 and one-body leakage below approximately:
@@ -25760,7 +25704,7 @@ The ultralight scalar must retain:
 ```math
 m_\phi
 \approx
-3.95\times10^{-11}\ {\rm eV}
+3.95\times10^{-11}\ {\mathrm{eV}}
 ```
 
 without fine-tuned cancellation.
@@ -25911,7 +25855,7 @@ It is the dominant remaining theoretical obstacle.
 
 # 77. Most important positive result from the session
 
-The strongest positive result is not the precise $77,{\rm K}$ number or the $106,{\rm MJ}$ control scale.
+The strongest positive result is not the precise $77,{\mathrm{K}}$ number or the $106,{\mathrm{MJ}}$ control scale.
 
 It is the structural result:
 
@@ -25936,7 +25880,7 @@ The next session must determine whether that low-energy separation can survive r
 
 # 79. One-paragraph handoff for the next session
 
-The strongest established project result remains 006D: an explicit finite, positive-energy, locally conserved, NEC/WEC/DEC-compatible static linearized-GR source with a locally outward near field and positive far-field active mass. The late 010E search then investigated whether a much more practical ground-referenced scalar fifth force could produce order-$1g$ repulsion. After rejecting localized hidden carriers, material-created hidden condensates, direct electron-mass portals, simple electron mediators, continuous structural selectors, universal high-spin charge, accidental polynomial selectors, fundamental relativistic dimers, and generic unprotected UV matching, the remaining low-energy survivor is a cooperative dinuclear bound-state scalar response. In the selected NR EFT, the dimer carries target coupling $8.638\times10^{-12}$ while isolated constituents carry exactly zero extra scalar charge; Feynman-Hellmann and an independent two-body contact representation agree, and a one-ton dinuclear material model possesses a finite thermal/stability window. The decisive unresolved question is now whether a technically natural relativistic microscopic theory can generate the required two-body coefficient while suppressing induced one-body couplings below the approximately $5.77\times10^{-7}$ leakage allowance and preserving the $3.95\times10^{-11},{\rm eV}$ mediator mass. That is the only high-priority frontier that should be opened next.
+The strongest established project result remains 006D: an explicit finite, positive-energy, locally conserved, NEC/WEC/DEC-compatible static linearized-GR source with a locally outward near field and positive far-field active mass. The late 010E search then investigated whether a much more practical ground-referenced scalar fifth force could produce order-$1g$ repulsion. After rejecting localized hidden carriers, material-created hidden condensates, direct electron-mass portals, simple electron mediators, continuous structural selectors, universal high-spin charge, accidental polynomial selectors, fundamental relativistic dimers, and generic unprotected UV matching, the remaining low-energy survivor is a cooperative dinuclear bound-state scalar response. In the selected NR EFT, the dimer carries target coupling $8.638\times10^{-12}$ while isolated constituents carry exactly zero extra scalar charge; Feynman-Hellmann and an independent two-body contact representation agree, and a one-ton dinuclear material model possesses a finite thermal/stability window. The decisive unresolved question is now whether a technically natural relativistic microscopic theory can generate the required two-body coefficient while suppressing induced one-body couplings below the approximately $5.77\times10^{-7}$ leakage allowance and preserving the $3.95\times10^{-11},{\mathrm{eV}}$ mediator mass. That is the only high-priority frontier that should be opened next.
 
 ---
 
@@ -26255,7 +26199,7 @@ FIELD_METHOD_ABS_DIFFERENCE=
 The finite source coefficient is:
 
 ```math
-C_{\rm finite}
+C_{\mathrm{finite}}
 =
 23.591586299249
 ```
@@ -26263,7 +26207,7 @@ C_{\rm finite}
 in:
 
 ```math
-M_{\rm equiv}
+M_{\mathrm{equiv}}
 =
 C\frac{a h^2}{G}
 ```
@@ -26271,7 +26215,7 @@ C\frac{a h^2}{G}
 The independently established conserved thin architecture is:
 
 ```math
-C_{\rm thin}
+C_{\mathrm{thin}}
 =
 23.426710175391
 ```
@@ -26330,19 +26274,19 @@ S
 The Green-function potential is:
 
 ```math
-\Phi(\mathbf x)
+\Phi(\mathbf{x})
 =
 -\frac{G}{c^2}
 \int
-\frac{S(\mathbf x')}
-{|\mathbf x-\mathbf x'|}
+\frac{S(\mathbf{x}')}
+{|\mathbf{x}-\mathbf{x}'|}
 \,d^3x'
 ```
 
 and:
 
 ```math
-\mathbf a
+\mathbf{a}
 =
 -\nabla\Phi
 ```
@@ -26544,7 +26488,7 @@ This is local, not global, antigravity.
 A previously established static one-sided conserved-DEC bound gives:
 
 ```math
-a_{\rm out}
+a_{\mathrm{out}}
 \le
 \frac{GE}{c^2h^2}
 ```
@@ -26568,7 +26512,7 @@ a=g
 and:
 
 ```math
-h=1\,{\rm m}
+h=1\,{\mathrm{m}}
 ```
 
 the absolute coefficient-one optimistic floor is:
@@ -26605,7 +26549,7 @@ The low-energy construction used constituent fields $A,B$ and a dimer field $D$ 
 The interaction included:
 
 ```math
-H_{\rm mix}
+H_{\mathrm{mix}}
 =
 h
 \left(
@@ -26638,7 +26582,7 @@ Consequently:
 while the bound state has:
 
 ```math
-\frac{dE_{\rm bound}}{d\phi}
+\frac{dE_{\mathrm{bound}}}{d\phi}
 =
 g_D Z_D
 ```
@@ -26671,7 +26615,7 @@ and finite-difference/Feynman-Hellmann agreement at relative error:
 The independent contact representation was:
 
 ```math
-\mathcal H_{\phi,2}
+\mathcal{H}_{\phi,2}
 =
 C_\phi
 \phi
@@ -26787,7 +26731,7 @@ c_2\phi^2\bar N N
 which is an effective ordinary one-body linear coupling:
 
 ```math
-g_{\rm eff}
+g_{\mathrm{eff}}
 =
 2c_2\phi_\oplus
 ```
@@ -26795,7 +26739,7 @@ g_{\rm eff}
 Requiring:
 
 ```math
-g_{\rm eff}
+g_{\mathrm{eff}}
 \le
 3.470636550308009\times10^{-20}
 ```
@@ -26809,7 +26753,7 @@ c_2
 3.470636550308009\times10^{-20}
 }{
 2\left(
-1.690631280830914\times10^{10}\ {\rm eV}
+1.690631280830914\times10^{10}\ {\mathrm{eV}}
 \right)
 }
 ```
@@ -26820,7 +26764,7 @@ or:
 c_2
 \lesssim
 1.026432135043146\times10^{-30}
-\ {\rm eV^{-1}}
+\ {\mathrm{eV^{-1}}}
 ```
 
 The corresponding inverse scale is:
@@ -26828,7 +26772,7 @@ The corresponding inverse scale is:
 ```math
 \Lambda_{c_2}
 \sim
-9.7425\times10^{20}\ {\rm GeV}
+9.7425\times10^{20}\ {\mathrm{GeV}}
 ```
 
 approximately:
@@ -26848,7 +26792,7 @@ This does not prove all such operators impossible, but demonstrates that simple 
 Consider:
 
 ```math
-\mathcal L
+\mathcal{L}
 \supset
 -\frac12
 \left(
@@ -27015,7 +26959,7 @@ This already strongly disfavors an ordinary controlled heavy-mediator contact or
 The most favorable simple protected dual-current architecture was modeled by:
 
 ```math
-\mathcal L
+\mathcal{L}
 \supset
 g_A X_\mu J_A^\mu
 +
@@ -27068,7 +27012,7 @@ therefore creates a linear scalar response in the same-sector interaction.
 For small mixing:
 
 ```math
-R_{\rm same}
+R_{\mathrm{same}}
 \sim
 \frac{
 \mu\phi_\oplus
@@ -27156,7 +27100,6 @@ C_\phi^2M^8
 Substitution into $C_{AA}$ yields:
 
 ```math
-
 \frac{
 |C_{AA}|
 }{
@@ -27168,7 +27111,6 @@ C_\phi\phi_\oplus M^2
 }{
 4\pi N
 }
-
 ```
 
 Therefore the leakage requirement imposes:
@@ -27179,7 +27121,7 @@ N
 \frac{
 C_\phi\phi_\oplus M^2
 }{
-4\pi f_{\rm leak}
+4\pi f_{\mathrm{leak}}
 }
 ```
 
@@ -27247,7 +27189,7 @@ the charge is the generator of the gauge symmetry.
 For a composite built from microscopic constituents:
 
 ```math
-Q_{\rm composite}
+Q_{\mathrm{composite}}
 =
 \sum_i q_i
 ```
@@ -27301,7 +27243,7 @@ STATIC_DEC_COEFFICIENT_ONE_MASS_FLOOR_KG=
 3.466347478859659e12
 ```
 
-and a $1g$, $1,{\rm m}$ gravitational-wave benchmark:
+and a $1g$, $1,{\mathrm{m}}$ gravitational-wave benchmark:
 
 ```text
 BETA=0.10
@@ -27529,7 +27471,7 @@ r^2 Z(\phi,\phi')\phi'
 \frac{
 \beta\rho
 }{
-M_{\rm Pl}
+M_{\mathrm{Pl}}
 }
 ```
 
@@ -27563,7 +27505,7 @@ a_\phi
 -\frac{
 \beta\phi'
 }{
-M_{\rm Pl}
+M_{\mathrm{Pl}}
 }
 ```
 
@@ -28032,9 +27974,7 @@ The force is outward when:
 or:
 
 ```math
-
 \eta>\frac23
-
 ```
 
 Therefore:
@@ -28098,7 +28038,7 @@ O(x^5)
 Therefore:
 
 ```math
-\eta_{\rm crit}(0)
+\eta_{\mathrm{crit}}(0)
 =
 \frac{
 M_2
@@ -28110,21 +28050,19 @@ M_4
 or:
 
 ```math
-
-\eta_{\rm crit}(0)
+\eta_{\mathrm{crit}}(0)
 =
 \frac{
 \Gamma\left(\frac{3}{2N}\right)
 }{
 \Gamma\left(\frac{5}{2N}\right)
 }
-
 ```
 
 For $N=1$ this exactly gives:
 
 ```math
-\eta_{\rm crit}
+\eta_{\mathrm{crit}}
 =
 \frac23
 ```
@@ -28294,13 +28232,13 @@ This kills the naïve idea that merely having $N^2$ particle pairs gives an $N^2
 The published smeared contact kernel may be written:
 
 ```math
-f_0(\mathbf r)
+f_0(\mathbf{r})
 =
 4\pi
 \int
 \frac{d^3k}{(2\pi)^3}
 \frac{
-e^{i\mathbf k\cdot\mathbf r}
+e^{i\mathbf{k}\cdot\mathbf{r}}
 }{
 F(-k^2)
 }
@@ -28316,7 +28254,7 @@ integrating over all space gives:
 
 ```math
 \int d^3r\,
-f_0(\mathbf r)
+f_0(\mathbf{r})
 =
 4\pi
 ```
@@ -28325,15 +28263,15 @@ because:
 
 ```math
 \int d^3r\,
-e^{i\mathbf k\cdot\mathbf r}
+e^{i\mathbf{k}\cdot\mathbf{r}}
 =
-(2\pi)^3\delta^3(\mathbf k)
+(2\pi)^3\delta^3(\mathbf{k})
 ```
 
 For homogeneous particle number density $n_0$:
 
 ```math
-U_q(\mathbf x)
+U_q(\mathbf{x})
 =
 \frac{
 G\hbar^2
@@ -28343,7 +28281,7 @@ c^2
 \int
 d^3x'\,
 n_0
-f_0(\mathbf x-\mathbf x')
+f_0(\mathbf{x}-\mathbf{x}')
 ```
 
 so:
@@ -28363,9 +28301,7 @@ which is spatially constant.
 Therefore:
 
 ```math
-
 \nabla U_q=0
-
 ```
 
 Thus the smeared contact term cannot generate a force inside an infinite homogeneous medium at leading pairwise order.
@@ -28486,14 +28422,12 @@ assuming the boundary terms vanish appropriately.
 Hence:
 
 ```math
-
 a_z
 =
 2\pi G\Sigma
 \left[
 -P_N(x)+\eta R_N(x)
 \right]
-
 ```
 
 Define:
@@ -28518,7 +28452,6 @@ G\Sigma B_N
 and the surface mass necessary for $1g$ is:
 
 ```math
-
 \Sigma_{1g}
 =
 \frac{
@@ -28526,7 +28459,6 @@ g
 }{
 GB_N
 }
-
 ```
 
 At fixed dimensionless $x,\eta$, this contains no explicit $\ell$.
@@ -28623,7 +28555,7 @@ NO_IN_TESTED_CONTROLLED_CASE
 For Gaussian one-particle densities:
 
 ```math
-\rho_i(\mathbf r)
+\rho_i(\mathbf{r})
 \propto
 e^{-r^2/(2\sigma_i^2)}
 ```
@@ -28631,7 +28563,7 @@ e^{-r^2/(2\sigma_i^2)}
 the momentum-space form factor is:
 
 ```math
-\rho_i(\mathbf k)
+\rho_i(\mathbf{k})
 =
 e^{-\sigma_i^2k^2/2}
 ```
@@ -28745,21 +28677,17 @@ A^2
 or:
 
 ```math
-
 A^2
 \ge
 \chi^2\eta
-
 ```
 
 Hence:
 
 ```math
-
 \frac{\eta}{A^2}
 \le
 \frac1{\chi^2}
-
 ```
 
 This is the maximum quantum-contact strength available after imposing the Gaussian localization condition.
@@ -28789,7 +28717,7 @@ The effective smeared force therefore reduces asymptotically to the Gaussian $GF
 The point-force reversal condition was:
 
 ```math
-\eta_{\rm effective}
+\eta_{\mathrm{effective}}
 >
 \frac23
 ```
@@ -28797,7 +28725,7 @@ The point-force reversal condition was:
 but the localization bound gives:
 
 ```math
-\eta_{\rm effective}
+\eta_{\mathrm{effective}}
 =
 \frac{\eta}{A^2}
 \le
@@ -28823,11 +28751,9 @@ or:
 and hence:
 
 ```math
-
 \chi
 <
 \sqrt{\frac32}
-
 ```
 
 Numerically:
@@ -29233,7 +29159,7 @@ unless a rigorous conversion mechanism is found without adding a new fifth force
 At the same time derive:
 
 ```math
-a_{\rm payload}
+a_{\mathrm{payload}}
 \left(
 \rho_\phi,
 \ell,
@@ -29286,7 +29212,7 @@ and the relevant quantum/contact kernel.
 
 At minimum compare against modern short-range inverse-square-law experiments.
 
-The 2020 Eöt-Wash experiment tested Newtonian gravity over approximately $52,\mu{\rm m}$ to $3,{\rm mm}$ and found consistency with Newtonian behavior in that regime; its published Yukawa limits cannot simply be substituted for the oscillatory $GF_N$ kernel.
+The 2020 Eöt-Wash experiment tested Newtonian gravity over approximately $52,\mu{\mathrm{m}}$ to $3,{\mathrm{mm}}$ and found consistency with Newtonian behavior in that regime; its published Yukawa limits cannot simply be substituted for the oscillatory $GF_N$ kernel.
 
 Therefore perform a geometry-specific likelihood or conservative exclusion reconstruction rather than reading a Yukawa plot.
 
@@ -29460,7 +29386,7 @@ REJECTED_AS_PRACTICAL_SUSTAINED_ROUTE
 
 Reason:
 
-The effect is oscillatory tidal acceleration and the controlled $1g$, $1,{\rm m}$ flux scale is approximately:
+The effect is oscillatory tidal acceleration and the controlled $1g$, $1,{\mathrm{m}}$ flux scale is approximately:
 
 ```text
 8.59e20 W/m^2
@@ -30663,7 +30589,7 @@ POSITIVE_FAR_FIELD_ACTIVE_MASS=YES
 The best finite-thickness coefficient remains:
 
 ```math
-C_{\rm finite}
+C_{\mathrm{finite}}
 =
 23.591586299249
 ```
@@ -30671,7 +30597,7 @@ C_{\rm finite}
 in:
 
 ```math
-M_{\rm equiv}
+M_{\mathrm{equiv}}
 =
 C\frac{ah^2}{G}
 ```
@@ -30700,7 +30626,7 @@ M
 \frac{ah^2}{G}
 ```
 
-For $a=g$ and $h=1,{\rm m}$:
+For $a=g$ and $h=1,{\mathrm{m}}$:
 
 ```text
 M ≈ 1.4693e11 kg
@@ -30763,7 +30689,7 @@ V_{SP}(r)
 }{
 8\pi m_e
 }
-(\boldsymbol{\sigma}\cdot\hat{\mathbf r})
+(\boldsymbol{\sigma}\cdot\hat{\mathbf{r}})
 \left(
 \frac{1}{\lambda r}
 +
@@ -30775,7 +30701,7 @@ e^{-r/\lambda}
 For an infinite source slab, exact integration reduced the force magnitude to:
 
 ```math
-|F_{\rm spin}|
+|F_{\mathrm{spin}}|
 =
 \frac{
 |g_s^N g_p^e|
@@ -30877,7 +30803,7 @@ For two independent spins:
 Since every Pauli matrix is traceless:
 
 ```math
-{\rm Tr}(\sigma_i)=0
+{\mathrm{Tr}}(\sigma_i)=0
 ```
 
 we have:
@@ -30885,7 +30811,7 @@ we have:
 ```math
 \langle\sigma_i\rangle
 =
-{\rm Tr}
+{\mathrm{Tr}}
 \left(
 \frac{I}{2}\sigma_i
 \right)
@@ -31003,7 +30929,7 @@ The dimensionless field equation tested was:
 The exact screened-plane background is:
 
 ```math
-\varphi_{\rm bg}(z)
+\varphi_{\mathrm{bg}}(z)
 =
 \tanh
 \left(
@@ -31065,7 +30991,6 @@ while:
 so:
 
 ```math
-
 \left[
 \frac{\partial^2\varphi}{\partial r^2}
 +
@@ -31074,7 +30999,6 @@ so:
 \right]_{r=0}
 =
 4A
-
 ```
 
 With:
@@ -31088,7 +31012,6 @@ A\Delta r^2+O(\Delta r^4)
 the second-order finite-difference axis stencil becomes:
 
 ```math
-
 \left[
 \nabla_r^2\varphi
 \right]_{r=0}
@@ -31101,7 +31024,6 @@ the second-order finite-difference axis stencil becomes:
 }
 +
 O(\Delta r^2)
-
 ```
 
 This correction was incorporated before trusting the 014A result.
@@ -31202,7 +31124,7 @@ Define:
 ```math
 L
 =
-\frac{R_{\rm large}}{a}
+\frac{R_{\mathrm{large}}}{a}
 ```
 
 and:
@@ -31216,7 +31138,7 @@ d
 The approximate image-force ratio can be written:
 
 ```math
-R_{\rm image}
+R_{\mathrm{image}}
 =
 \frac{\alpha}{3}
 \frac{(L+d)^3}
@@ -31228,7 +31150,7 @@ d^2(2L+d)^2
 Differentiate with respect to $L$:
 
 ```math
-\frac{\partial R_{\rm image}}{\partial L}
+\frac{\partial R_{\mathrm{image}}}{\partial L}
 =
 \frac{\alpha}{3d^2}
 \frac{
@@ -31244,8 +31166,8 @@ Differentiate with respect to $L$:
 Using logarithmic differentiation:
 
 ```math
-\frac{1}{R_{\rm image}}
-\frac{\partial R_{\rm image}}{\partial L}
+\frac{1}{R_{\mathrm{image}}}
+\frac{\partial R_{\mathrm{image}}}{\partial L}
 =
 \frac{3}{L+d}
 -
@@ -31280,15 +31202,13 @@ so:
 Therefore:
 
 ```math
-
-\frac{\partial R_{\rm image}}{\partial L}
+\frac{\partial R_{\mathrm{image}}}{\partial L}
 =
 \frac{
 \alpha(2L-d)(L+d)^2
 }{
 3d^2(2L+d)^3
 }
-
 ```
 
 For:
@@ -31300,7 +31220,7 @@ L>\frac{d}{2}
 we have:
 
 ```math
-\frac{\partial R_{\rm image}}{\partial L}>0
+\frac{\partial R_{\mathrm{image}}}{\partial L}>0
 ```
 
 Thus within the approximation itself, increasing the large-body radius makes the relative image effect more favorable.
@@ -31347,10 +31267,10 @@ rather than restarting the rejected static calculation.
 The published weak-field structure motivating the gate had the form:
 
 ```math
-\nabla\cdot\mathbf F_\phi
+\nabla\cdot\mathbf{F}_\phi
 =
 (1-\delta_d)\eta^2
-\nabla\cdot\mathbf F_\Psi
+\nabla\cdot\mathbf{F}_\Psi
 ```
 
 with:
@@ -31382,9 +31302,7 @@ If $\eta^2>0$, the divergence changes sign relative to Newtonian gravity precise
 or:
 
 ```math
-
 \delta_d>1
-
 ```
 
 At homogeneous background order:
@@ -31497,7 +31415,7 @@ PROJECT_DERIVED_REPRODUCTION_OF_PUBLISHED_DISFORMAL_REPULSION_PREREQUISITE
 The reduced model used:
 
 ```math
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 =
 -\frac{\nabla\Psi}{a^2}
 ```
@@ -31505,7 +31423,7 @@ The reduced model used:
 and:
 
 ```math
-\mathbf F_\phi
+\mathbf{F}_\phi
 =
 -\frac12
 \frac{\xi}{g_\phi}
@@ -31612,7 +31530,7 @@ O(\epsilon^2)
 Substitute into the fifth-force expression:
 
 ```math
-\mathbf F_\phi
+\mathbf{F}_\phi
 =
 -\frac12
 \frac{
@@ -31640,8 +31558,7 @@ O(\epsilon)
 therefore:
 
 ```math
-
-\mathbf F_\phi
+\mathbf{F}_\phi
 =
 -\frac{
 \epsilon^2
@@ -31651,23 +31568,20 @@ therefore:
 \xi_1\nabla\phi_1
 +
 O(\epsilon^3)
-
 ```
 
 Hence:
 
 ```math
-
-\mathbf F_\phi
+\mathbf{F}_\phi
 =
 O(\epsilon^2)
-
 ```
 
 Newtonian gravity is:
 
 ```math
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 =
 -\frac{\nabla\Psi}{a^2}
 ```
@@ -31685,40 +31599,34 @@ O(\epsilon^2)
 we obtain:
 
 ```math
-
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 =
 O(\epsilon)
-
 ```
 
 Therefore:
 
 ```math
-
 \frac{
-|\mathbf F_\phi|
+|\mathbf{F}_\phi|
 }{
-|\mathbf F_\Psi|
+|\mathbf{F}_\Psi|
 }
 =
 O(\epsilon)
-
 ```
 
 and consequently:
 
 ```math
-
 \lim_{\epsilon\to0}
 \frac{
-|\mathbf F_\phi|
+|\mathbf{F}_\phi|
 }{
-|\mathbf F_\Psi|
+|\mathbf{F}_\Psi|
 }
 =
 0
-
 ```
 
 within a regular weak-field expansion about the $\xi_0=0$ background.
@@ -31867,19 +31775,19 @@ PROJECT_DERIVED_REDUCED_NONSTATIC_DISFORMAL_FORCE_REPRODUCTION_AND_SCALING_GATE
 Define:
 
 ```math
-\mathbf F_{\rm tot}
+\mathbf{F}_{\mathrm{tot}}
 =
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 +
-\mathbf F_\phi
+\mathbf{F}_\phi
 ```
 
 A merely antiparallel fifth force requires:
 
 ```math
-\mathbf F_\phi
+\mathbf{F}_\phi
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 <
 0
 ```
@@ -31887,25 +31795,23 @@ A merely antiparallel fifth force requires:
 Actual reversal of the total local acceleration projection requires:
 
 ```math
-
-\mathbf F_{\rm tot}
+\mathbf{F}_{\mathrm{tot}}
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 <
 0
-
 ```
 
 Substituting:
 
 ```math
 \left(
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 +
-\mathbf F_\phi
+\mathbf{F}_\phi
 \right)
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 <
 0
 ```
@@ -31913,11 +31819,11 @@ Substituting:
 gives:
 
 ```math
-|\mathbf F_\Psi|^2
+|\mathbf{F}_\Psi|^2
 +
-\mathbf F_\phi
+\mathbf{F}_\phi
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 <
 0
 ```
@@ -31925,13 +31831,11 @@ gives:
 or:
 
 ```math
-
--\mathbf F_\phi
+-\mathbf{F}_\phi
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 >
-|\mathbf F_\Psi|^2
-
+|\mathbf{F}_\Psi|^2
 ```
 
 Thus the anti-gravity component along the Newtonian direction must exceed the Newtonian field itself.
@@ -31939,11 +31843,9 @@ Thus the anti-gravity component along the Newtonian direction must exceed the Ne
 For perfectly antiparallel forces this reduces to:
 
 ```math
-
-|\mathbf F_\phi|
+|\mathbf{F}_\phi|
 >
-|\mathbf F_\Psi|
-
+|\mathbf{F}_\Psi|
 ```
 
 014D computed the full vector projection directly rather than inferring reversal solely from magnitudes.
@@ -32063,7 +31965,7 @@ The high-grid outward-projection relative change was:
 0.0031517
 ```
 
-or approximately $0.315%$.
+or approximately $0.315\%$.
 
 Result:
 
@@ -32112,7 +32014,7 @@ High-grid 3D outward-projection relative change:
 0.0466575
 ```
 
-or approximately $4.67%$.
+or approximately $4.67\%$.
 
 Result:
 
@@ -32329,11 +32231,9 @@ The parameter numerically called `B0` inside the reduced 014C/014D natural-unit 
 The relation is:
 
 ```math
-
 b_0
 =
-H_0^2 M_{\rm Pl}^2 B_0
-
+H_0^2 M_{\mathrm{Pl}}^2 B_0
 ```
 
 For the minimal constant disformal operator:
@@ -32350,7 +32250,7 @@ so:
 b_0
 =
 \frac{
-H_0^2 M_{\rm Pl}^2
+H_0^2 M_{\mathrm{Pl}}^2
 }{
 M_D^4
 }
@@ -32368,7 +32268,7 @@ Start from:
 b_0
 =
 \frac{
-H_0^2 M_{\rm Pl}^2
+H_0^2 M_{\mathrm{Pl}}^2
 }{
 M_D^4
 }
@@ -32379,7 +32279,7 @@ Multiply both sides by $M_D^4$:
 ```math
 b_0M_D^4
 =
-H_0^2M_{\rm Pl}^2
+H_0^2M_{\mathrm{Pl}}^2
 ```
 
 Then:
@@ -32388,7 +32288,7 @@ Then:
 M_D^4
 =
 \frac{
-H_0^2M_{\rm Pl}^2
+H_0^2M_{\mathrm{Pl}}^2
 }{
 b_0
 }
@@ -32400,7 +32300,7 @@ Taking the positive fourth root:
 M_D
 =
 \left(
-H_0^2M_{\rm Pl}^2
+H_0^2M_{\mathrm{Pl}}^2
 \right)^{1/4}
 b_0^{-1/4}
 ```
@@ -32409,25 +32309,23 @@ Since:
 
 ```math
 \left(
-H_0^2M_{\rm Pl}^2
+H_0^2M_{\mathrm{Pl}}^2
 \right)^{1/4}
 =
 \sqrt{
-H_0M_{\rm Pl}
+H_0M_{\mathrm{Pl}}
 }
 ```
 
 we obtain:
 
 ```math
-
 M_D
 =
 \sqrt{
-H_0M_{\rm Pl}
+H_0M_{\mathrm{Pl}}
 }
 \,b_0^{-1/4}
-
 ```
 
 This is exact under the declared constant-$B$ normalization.
@@ -32518,9 +32416,9 @@ Thus:
 
 ```math
 \frac{
-b_{0,\rm reversal}
+b_{0,\mathrm{reversal}}
 }{
-b_{0,\rm collider}
+b_{0,\mathrm{collider}}
 }
 =
 \frac{
@@ -32533,15 +32431,13 @@ b_{0,\rm collider}
 giving:
 
 ```math
-
 \frac{
-b_{0,\rm reversal}
+b_{0,\mathrm{reversal}}
 }{
-b_{0,\rm collider}
+b_{0,\mathrm{collider}}
 }
 =
 3.4605562139399018\times10^{57}
-
 ```
 
 Therefore the minimal constant-$B$ Standard-Model bridge misses the required coupling by approximately:
@@ -32576,9 +32472,7 @@ COLLIDER_MD_OVER_FIRST_REVERSAL_MD=
 Thus the required 014D operating scale is approximately:
 
 ```math
-
 2.43\times10^{14}
-
 ```
 
 times lower in $M_D$ than the direct constant-coupling collider benchmark.
@@ -32676,11 +32570,9 @@ q
 and therefore:
 
 ```math
-
 \dot\phi^2
 =
 qM_D^4
-
 ```
 
 For a canonical scalar, the temporal kinetic energy density is:
@@ -32694,12 +32586,10 @@ K
 so:
 
 ```math
-
 K
 =
 \frac{q}{2}
 M_D^4
-
 ```
 
 This relation is exact under the canonical homogeneous assumptions.
@@ -32782,7 +32672,7 @@ c^2
 The Schwarzschild compactness parameter is:
 
 ```math
-\mathcal C
+\mathcal{C}
 =
 \frac{
 2GM
@@ -32794,7 +32684,7 @@ Rc^2
 Substitute $M$:
 
 ```math
-\mathcal C
+\mathcal{C}
 =
 \frac{
 2G
@@ -32814,24 +32704,22 @@ c^2
 Therefore:
 
 ```math
-
-\mathcal C
+\mathcal{C}
 =
 \frac{
 8\pi G uR^2
 }{
 3c^4
 }
-
 ```
 
-Set $\mathcal C=1$:
+Set $\mathcal{C}=1$:
 
 ```math
 1
 =
 \frac{
-8\pi G uR_{\rm crit}^2
+8\pi G uR_{\mathrm{crit}}^2
 }{
 3c^4
 }
@@ -32840,7 +32728,7 @@ Set $\mathcal C=1$:
 so:
 
 ```math
-R_{\rm crit}^2
+R_{\mathrm{crit}}^2
 =
 \frac{
 3c^4
@@ -32852,8 +32740,7 @@ R_{\rm crit}^2
 and:
 
 ```math
-
-R_{\rm crit}
+R_{\mathrm{crit}}
 =
 \sqrt{
 \frac{
@@ -32862,7 +32749,6 @@ R_{\rm crit}
 8\pi G u
 }
 }
-
 ```
 
 For the 014E kinetic density:
@@ -32871,7 +32757,7 @@ For the 014E kinetic density:
 u
 =
 1.3821555639528073\times10^{48}
-\ {\rm J/m^3}
+\ {\mathrm{J/m^3}}
 ```
 
 the result is:
@@ -32936,9 +32822,9 @@ The minimum required hierarchy is:
 
 ```math
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm dense}
+B_{\mathrm{dense}}
 }
 \gtrsim
 3.4605562139399018\times10^{57}
@@ -32952,9 +32838,9 @@ Taking the natural logarithm:
 \ln
 \left(
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm dense}
+B_{\mathrm{dense}}
 }
 \right)
 ```
@@ -32962,11 +32848,9 @@ B_{\rm dense}
 gives:
 
 ```math
-
 \Delta\ln B
 \gtrsim
 132.48877963228443
-
 ```
 
 This is the exact hierarchy that any simple environment-dependent rescue must explain.
@@ -32980,14 +32864,14 @@ Consider:
 ```math
 B(\phi)
 =
-B_{\rm dense}
+B_{\mathrm{dense}}
 \exp
 \left[
 \beta
 \frac{
-\phi-\phi_{\rm dense}
+\phi-\phi_{\mathrm{dense}}
 }{
-M_{\rm Pl}
+M_{\mathrm{Pl}}
 }
 \right]
 ```
@@ -32996,9 +32880,9 @@ Then:
 
 ```math
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm dense}
+B_{\mathrm{dense}}
 }
 =
 \exp
@@ -33007,7 +32891,7 @@ B_{\rm dense}
 \frac{
 \Delta\phi
 }{
-M_{\rm Pl}
+M_{\mathrm{Pl}}
 }
 \right]
 ```
@@ -33018,9 +32902,9 @@ Take $\ln$:
 \ln
 \left(
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm dense}
+B_{\mathrm{dense}}
 }
 \right)
 =
@@ -33028,25 +32912,23 @@ B_{\rm dense}
 \frac{
 \Delta\phi
 }{
-M_{\rm Pl}
+M_{\mathrm{Pl}}
 }
 ```
 
 Therefore the hierarchy condition requires:
 
 ```math
-
 \left|
 \beta
 \frac{
 \Delta\phi
 }{
-M_{\rm Pl}
+M_{\mathrm{Pl}}
 }
 \right|
 \gtrsim
 132.49
-
 ```
 
 Examples from 014E:
@@ -33139,17 +33021,15 @@ LOCAL_REPULSIVE_COMPONENT=YES
 because the complete local force satisfies:
 
 ```math
-
 \left(
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 +
-\mathbf F_\phi
+\mathbf{F}_\phi
 \right)
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 <
 0
-
 ```
 
 in the identified regions.
@@ -33163,17 +33043,13 @@ This means the local total acceleration projection is opposite ordinary Newtonia
 The strongest new analytic theorem is the 014C weak-perturbation scaling result:
 
 ```math
-
 F_\phi=O(\epsilon^2)
-
 ```
 
 while:
 
 ```math
-
 F_\Psi=O(\epsilon)
-
 ```
 
 at a regular $\xi_0=0$ background.
@@ -33181,7 +33057,6 @@ at a regular $\xi_0=0$ background.
 Therefore:
 
 ```math
-
 \frac{
 F_\phi
 }{
@@ -33189,7 +33064,6 @@ F_\Psi
 }
 =
 O(\epsilon)
-
 ```
 
 and the fifth-force advantage vanishes toward the regular weak-perturbation limit.
@@ -33221,9 +33095,7 @@ M_D>=650 GeV
 The coupling mismatch is:
 
 ```math
-
 3.46\times10^{57}
-
 ```
 
 in $B$.
@@ -33231,9 +33103,7 @@ in $B$.
 The corresponding energy-scale mismatch is:
 
 ```math
-
 2.43\times10^{14}
-
 ```
 
 in $M_D$.
@@ -33630,7 +33500,7 @@ b_0
 Protect:
 
 ```math
-R_{\rm crit}
+R_{\mathrm{crit}}
 =
 \sqrt{
 \frac{
@@ -33670,10 +33540,10 @@ The key reproduction target is:
 
 ```math
 \left(
-\mathbf F_\Psi+\mathbf F_\phi
+\mathbf{F}_\Psi+\mathbf{F}_\phi
 \right)
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 <
 0
 ```
@@ -33723,25 +33593,21 @@ This is the precise frontier.
 Any proposed baryonic continuation must explain why the effective coupling can differ by at least:
 
 ```math
-
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm constrained}
+B_{\mathrm{constrained}}
 }
 \sim
 3.46\times10^{57}
-
 ```
 
 or equivalently:
 
 ```math
-
 \Delta\ln B
 \gtrsim
 132.49
-
 ```
 
 between the relevant environments, unless it changes the mechanism sufficiently that the 014D constant-$B$ normalization no longer applies.
@@ -33760,7 +33626,7 @@ The branch should be reopened only if a specific theory supplies one or more of 
 2. a density-dependent disformal coupling;
 3. a phase-transition mechanism that strongly redresses the coupling;
 4. a UV completion in which the low-energy effective disformal interaction becomes large while high-energy Standard-Model processes remain suppressed;
-5. a noncanonical kinetic structure that achieves the required dimensionless deformation without the canonical $10^{48},{\rm J/m^3}$ energy density;
+5. a noncanonical kinetic structure that achieves the required dimensionless deformation without the canonical $10^{48},{\mathrm{J/m^3}}$ energy density;
 6. a screened baryonic model whose screening acts directly on the derivative/disformal operator rather than only on a conformal VEV coupling;
 7. an empirical anomaly pointing toward such environment dependence.
 
@@ -33836,7 +33702,7 @@ The weak-field target has:
 10^{-16}
 ```
 
-at $1g$, $1,{\rm m}$.
+at $1g$, $1,{\mathrm{m}}$.
 
 Do not restart generic Casimir negative-energy device searches without a genuinely new quantum state or theorem.
 
@@ -34178,9 +34044,9 @@ An explicit function $B(\phi)$ or other coupling structure satisfying:
 
 ```math
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm constrained}
+B_{\mathrm{constrained}}
 }
 \gtrsim
 3.46\times10^{57}
@@ -34345,9 +34211,9 @@ First, 006D demonstrates that finite, nonsingular, positive-energy, locally cons
 
 Second, 014D demonstrates numerically that a controlled reduced non-static disformal modified-gravity model can produce **local total-force reversal**, not merely a repulsive correction. The result survives 2D and 3D refinement, timestep halving, and a conservative positive-$g_\phi$ margin.
 
-However, 014E finds that the direct minimal constant-$B$ extension to Standard-Model matter is not viable in its declared EFT scope. The first reversal corresponds to a physical constant-disformal suppression scale of only about $2.68,{\rm meV}$, while the directly compared collider benchmark is about $650,{\rm GeV}$. This is a coupling mismatch of approximately $3.46\times10^{57}$.
+However, 014E finds that the direct minimal constant-$B$ extension to Standard-Model matter is not viable in its declared EFT scope. The first reversal corresponds to a physical constant-disformal suppression scale of only about $2.68,{\mathrm{meV}}$, while the directly compared collider benchmark is about $650,{\mathrm{GeV}}$. This is a coupling mismatch of approximately $3.46\times10^{57}$.
 
-Attempting to compensate with canonical scalar kinetic energy requires approximately $1.38\times10^{48},{\rm J/m^3}$ and reaches compactness unity at only about $3.23,{\rm mm}$.
+Attempting to compensate with canonical scalar kinetic energy requires approximately $1.38\times10^{48},{\mathrm{J/m^3}}$ and reaches compactness unity at only about $3.23,{\mathrm{mm}}$.
 
 Therefore:
 
@@ -34851,7 +34717,6 @@ g_{00}
 one obtains:
 
 ```math
-
 \nabla^2\Phi
 =
 \frac{4\pi G}{c^2}
@@ -34874,19 +34739,19 @@ This is the active weak-field source.
 The Green-function solution is:
 
 ```math
-\Phi(\mathbf x)
+\Phi(\mathbf{x})
 =
 -\frac{G}{c^2}
 \int
-\frac{S(\mathbf x')}
-{|\mathbf x-\mathbf x'|}
+\frac{S(\mathbf{x}')}
+{|\mathbf{x}-\mathbf{x}'|}
 \,d^3x'.
 ```
 
 Physical acceleration is:
 
 ```math
-\mathbf a=-\nabla\Phi.
+\mathbf{a}=-\nabla\Phi.
 ```
 
 For an axisymmetric source and an on-axis target at $z=h$:
@@ -34953,7 +34818,7 @@ x=\frac rh,
 Target:
 
 ```math
-\zeta_{\rm target}=1.
+\zeta_{\mathrm{target}}=1.
 ```
 
 Finest tested finite construction:
@@ -35032,13 +34897,11 @@ Substitution gives:
 Therefore:
 
 ```math
-
 \frac{dp_r}{dx}
 +
 \frac{p_r-p_\phi}{x}
 =
 0
-
 ```
 
 identically.
@@ -35062,7 +34925,7 @@ in a self-consistent nonlinear metric.
 Core branch:
 
 ```math
-q_{\rm core}(x)=-x.
+q_{\mathrm{core}}(x)=-x.
 ```
 
 Therefore:
@@ -35078,7 +34941,7 @@ This gives the central tension-dominated active source.
 Transfer annulus:
 
 ```math
-q_{\rm ann}(x)
+q_{\mathrm{ann}}(x)
 =
 -\frac{\alpha^2}{x}.
 ```
@@ -35182,7 +35045,7 @@ Peak:
 Physical stress scale:
 
 ```math
-p_r^{\rm phys}
+p_r^{\mathrm{phys}}
 =
 \frac{U_0}{h}
 p_r(x)
@@ -35317,7 +35180,6 @@ q(x_{\max})=0.
 Hence:
 
 ```math
-
 \tau=0
 .
 ```
@@ -35412,17 +35274,14 @@ m_\delta.
 Eliminating $U_0$ gives:
 
 ```math
-
 M
 =
 C\frac{ah^2}{G}
-
 ```
 
 with:
 
 ```math
-
 C
 =
 \frac{m_\delta}
@@ -35509,7 +35368,7 @@ a=g
 and:
 
 ```math
-h=1\ {\rm m},
+h=1\ {\mathrm{m}},
 ```
 
 the finest 006D source requires approximately:
@@ -35732,7 +35591,6 @@ P\approx0,
 one-mode stability requires:
 
 ```math
-
 \frac TE>\frac18
 .
 ```
@@ -35928,9 +35786,9 @@ These results should remain documented because they are part of the reranking af
 The exact vector criterion for the total force to reverse relative to the Newtonian direction is:
 
 ```math
-\mathbf F_{\rm tot}
+\mathbf{F}_{\mathrm{tot}}
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 <
 0.
 ```
@@ -35938,21 +35796,21 @@ The exact vector criterion for the total force to reverse relative to the Newton
 With:
 
 ```math
-\mathbf F_{\rm tot}
+\mathbf{F}_{\mathrm{tot}}
 =
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 +
-\mathbf F_\phi,
+\mathbf{F}_\phi,
 ```
 
 this becomes:
 
 ```math
-|\mathbf F_\Psi|^2
+|\mathbf{F}_\Psi|^2
 +
-\mathbf F_\phi
+\mathbf{F}_\phi
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 <
 0.
 ```
@@ -35960,21 +35818,20 @@ this becomes:
 Therefore:
 
 ```math
-
--\mathbf F_\phi
+-\mathbf{F}_\phi
 \cdot
-\mathbf F_\Psi
+\mathbf{F}_\Psi
 >
-|\mathbf F_\Psi|^2
+|\mathbf{F}_\Psi|^2
 .
 ```
 
 For perfectly antiparallel forces:
 
 ```math
-|\mathbf F_\phi|
+|\mathbf{F}_\phi|
 >
-|\mathbf F_\Psi|.
+|\mathbf{F}_\Psi|.
 ```
 
 014D found local total-force reversal in a controlled reduced, non-static, nonsymmetric disformal model.
@@ -36014,7 +35871,7 @@ Mapping the reduced disformal parameter to a minimal constant disformal operator
 ```math
 b_0
 =
-H_0^2M_{\rm Pl}^2B_0,
+H_0^2M_{\mathrm{Pl}}^2B_0,
 ```
 
 with:
@@ -36029,9 +35886,9 @@ Matching the 014D operating coupling while respecting the constrained ordinary-m
 
 ```math
 \frac{
-B_{\rm operating}
+B_{\mathrm{operating}}
 }{
-B_{\rm dense}
+B_{\mathrm{dense}}
 }
 \gtrsim
 3.46\times10^{57}.
@@ -36040,7 +35897,6 @@ B_{\rm dense}
 Equivalently:
 
 ```math
-
 \Delta\ln B
 \gtrsim
 132.49
@@ -36154,7 +36010,7 @@ C=23.591586299249
 The peak stress behaves roughly as:
 
 ```math
-\epsilon_{\rm peak}
+\epsilon_{\mathrm{peak}}
 \propto
 \frac1{h\delta^2}.
 ```
@@ -36176,7 +36032,7 @@ This was an important design improvement.
 For one cell:
 
 ```math
-E_{\rm cell}
+E_{\mathrm{cell}}
 =
 C\frac{ah^2c^2}{G}.
 ```
@@ -36184,7 +36040,7 @@ C\frac{ah^2c^2}{G}.
 Its footprint is approximately:
 
 ```math
-A_{\rm cell}
+A_{\mathrm{cell}}
 =
 \pi x_{\max}^2h^2.
 ```
@@ -36192,9 +36048,8 @@ A_{\rm cell}
 Therefore:
 
 ```math
-
-\frac{E_{\rm cell}}
-{A_{\rm cell}}
+\frac{E_{\mathrm{cell}}}
+{A_{\mathrm{cell}}}
 =
 \frac{
 Cac^2
@@ -36316,7 +36171,6 @@ This means the map is locally conformal with scale $\sqrt g$.
 A necessary integrability condition is:
 
 ```math
-
 \left(
 \partial_r^2+\partial_z^2
 \right)\ln g
@@ -36364,7 +36218,6 @@ v=y=\frac12,
 one obtains:
 
 ```math
-
 \Delta\ln g
 =
 \frac1{r^2}
@@ -36587,7 +36440,6 @@ I(r)
 Therefore:
 
 ```math
-
 |k(r)|
 \ge
 K_{\min}(r)
@@ -36615,7 +36467,7 @@ Asymptotically:
 ```math
 G_r
 \sim
-{\rm const}
+{\mathrm{const}}
 \frac{
 e^{-r/\ell}
 }{r}
@@ -36639,7 +36491,6 @@ I(r)
 Thus:
 
 ```math
-
 K_{\min}(r)
 \sim
 \frac r{\sqrt2\,\ell}
@@ -36717,7 +36568,6 @@ f_m(x)\sim x^{-m}.
 The asymptotic gauge mismatch now tends to:
 
 ```math
-
 K_\infty
 =
 \sqrt{
@@ -36810,7 +36660,7 @@ F(r)
 Therefore:
 
 ```math
-K_{\rm inner}(r)
+K_{\mathrm{inner}}(r)
 =
 \frac{
 r\sqrt{A(r)}
@@ -36825,7 +36675,7 @@ r\sqrt{A(r)}
 For the outer decay:
 
 ```math
-K_{\rm outer}(r)
+K_{\mathrm{outer}}(r)
 =
 \frac{
 r\sqrt{A(r)}
@@ -36840,12 +36690,12 @@ r\sqrt{A(r)}
 Hence:
 
 ```math
-K_{\rm required}
+K_{\mathrm{required}}
 =
 \max
 \left(
-K_{\rm inner},
-K_{\rm outer}
+K_{\mathrm{inner}},
+K_{\mathrm{outer}}
 \right).
 ```
 
@@ -37042,7 +36892,6 @@ D
 Then remaining radial gradient capacity is:
 
 ```math
-
 G_r
 \sim
 (1-\eta)
@@ -37054,7 +36903,6 @@ r^{-m-2}
 The required angular Gram becomes:
 
 ```math
-
 A
 \sim
 \left[
@@ -37118,7 +36966,6 @@ r^{-s},
 with:
 
 ```math
-
 s=\frac m2
 .
 ```
@@ -37148,7 +36995,6 @@ Using the maximum available amplitude gives the smallest possible $k$.
 This yields:
 
 ```math
-
 k_\infty^2
 \ge
 \frac{
@@ -37215,7 +37061,6 @@ m+2.
 Therefore:
 
 ```math
-
 k_\infty^2-s^2
 =
 \frac{
@@ -37243,7 +37088,6 @@ the numerator and denominator are positive.
 Hence:
 
 ```math
-
 k_\infty^2>s^2
 .
 ```
@@ -37265,7 +37109,7 @@ F''
 -
 \frac{k^2}{r^2}F
 -
-U_{\rm eff}'(F)
+U_{\mathrm{eff}}'(F)
 =
 0.
 ```
@@ -37307,7 +37151,7 @@ s^2Ar^{-s-2}
 The E-L equation requires:
 
 ```math
-U_{\rm eff}'(F)
+U_{\mathrm{eff}}'(F)
 =
 \frac{
 s^2-k^2
@@ -37324,9 +37168,7 @@ k^2>s^2.
 Therefore:
 
 ```math
-
-U_{\rm eff}'(F)<0
-
+U_{\mathrm{eff}}'(F)<0
 ```
 
 for sufficiently small positive asymptotic $F$.
@@ -37609,7 +37451,6 @@ S
 simplifies exactly to:
 
 ```math
-
 S
 =
 8\omega^2Y^2
@@ -37772,8 +37613,8 @@ a_z(h)
 =
 -\frac{G}{c^2}
 \int
-S(\mathbf x)
-K_h(\mathbf x)
+S(\mathbf{x})
+K_h(\mathbf{x})
 \,dV,
 ```
 
@@ -37786,7 +37627,6 @@ K_h>0.
 To have outward near-field acceleration:
 
 ```math
-
 \int
 S K_h
 \,dV
@@ -37798,7 +37638,6 @@ S K_h
 At the same time, to retain positive far-field mass:
 
 ```math
-
 \int S\,dV>0
 .
 ```
@@ -38261,18 +38100,18 @@ If compactness remains at the old $10^{-15}$-type scale, nonlinear corrections m
 
 This is mandatory.
 
-For payload density $\rho_P(\mathbf x)$:
+For payload density $\rho_P(\mathbf{x})$:
 
 ```math
-\mathbf a_{\rm CM}
+\mathbf{a}_{\mathrm{CM}}
 =
 \frac{
 \int
-\rho_P(\mathbf x)
-\mathbf a(\mathbf x)\,dV
+\rho_P(\mathbf{x})
+\mathbf{a}(\mathbf{x})\,dV
 }{
 \int
-\rho_P(\mathbf x)\,dV
+\rho_P(\mathbf{x})\,dV
 }.
 ```
 
@@ -38418,7 +38257,7 @@ If original 014D geometry cannot produce finite-body reversal, the branch weaken
 Therefore a rigorous next test would search:
 
 ```math
-a_{\rm CM}(t)
+a_{\mathrm{CM}}(t)
 ```
 
 through the full controlled time evolution.
@@ -38440,7 +38279,7 @@ The operational quantity is not merely instantaneous force but possibly:
 ```math
 \Delta v
 =
-\int a_{\rm CM}(t)\,dt.
+\int a_{\mathrm{CM}}(t)\,dt.
 ```
 
 A time-dependent local reversal with zero integrated impulse is not a practical lift mechanism.
@@ -39429,7 +39268,6 @@ r\sqrt A
 ## 016G asymptotic identity
 
 ```math
-
 k_\infty^2-s^2
 =
 \frac{
@@ -39444,7 +39282,6 @@ m(m+2)
 ## 016H explicit field active-source identity
 
 ```math
-
 S
 =
 8\omega^2Y^2
@@ -39456,7 +39293,6 @@ S
 ## New spatial-moment requirement
 
 ```math
-
 \int S\,dV>0
 \quad\text{while}\quad
 \int S K_h\,dV<0
