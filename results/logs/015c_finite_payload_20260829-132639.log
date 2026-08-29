@@ -1,0 +1,38 @@
+=== 015C — FINITE SOURCE / FINITE PAYLOAD GLOBAL FORCE GATE ===
+014D_SHA256=01220601e0ed71e84c79c94b36fec7d60b596572bc192b1ce168dec2db35d71c
+014D_HASH_MATCH=True
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/015c_disformal_finite_payload_global_force.py", line 2438, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/015c_disformal_finite_payload_global_force.py", line 1879, in main
+    ) = load_014d_model()
+        ~~~~~~~~~~~~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/015c_disformal_finite_payload_global_force.py", line 1530, in load_014d_model
+    exec(
+    ~~~~^
+        compile(
+        ^^^^^^^^
+    ...<7 lines>...
+        namespace,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/014d_disformal_total_reversal.py", line 233, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "/usr/local/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/dataclasses.py", line 1354, in dataclass
+    return wrap(cls)
+  File "/usr/local/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/dataclasses.py", line 1344, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "/usr/local/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/dataclasses.py", line 997, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 _is_kw_only))):
+                 ^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/dataclasses.py", line 757, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?
