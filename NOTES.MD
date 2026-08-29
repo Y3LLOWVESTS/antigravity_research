@@ -7,7 +7,7 @@ This is the right place to stop adding patches and consolidate what we actually 
 The project has advanced far enough that the problem is now much more sharply defined than when we started. We have **not discovered a new law of physics or a practical antigravity device**, but we have established something important and useful:
 
 ```math
-\boxed{\text{General relativity absolutely permits local gravitational repulsion.}}
+\text{General relativity absolutely permits local gravitational repulsion.}
 ```
 
 More specifically, we have reproduced several known GR mechanisms and constructed a finite linearized-GR model in which **positive energy, positive total mass, and classical energy conditions coexist with a locally repulsive gravitational field**. What has emerged as the dominant obstacle is no longer the **sign** of gravity. It is the **stress-energy cost and physical realizability** of the source.
@@ -15,7 +15,7 @@ More specifically, we have reproduced several known GR mechanisms and constructe
 Simulation 006A then sharpened that further: within its stated assumptions, the optimistic static energy cost scales as
 
 ```math
-\boxed{M_{\rm equiv}\sim\frac{a h^2}{G}}
+M_{\rm equiv}\sim\frac{a h^2}{G}
 ```
 
 where $a$ is the desired repulsive acceleration and $h$ is the source-to-target scale. Your optimizer independently reproduced the coefficient 1.0 exactly, while the explicit finite disk/rim architecture costs 79.753 times more. 
@@ -29,7 +29,7 @@ That gap—**1 versus 79.753**—is now one of the most important open mathemati
 The simplest useful description of everything we have learned is:
 
 ```math
-\boxed{\text{gravity responds to stress-energy, not merely mass density}}
+\text{gravity responds to stress-energy, not merely mass density}
 ```
 
 and therefore sufficiently large **negative pressure/tension** can make the local active gravitational source negative even when the actual energy density remains positive.
@@ -154,7 +154,7 @@ Simulation 006A then added six more tests, which individually passed:
 So the expected total current regression count is approximately:
 
 ```math
-\boxed{67\text{ tests}}
+67\text{ tests}
 ```
 
 assuming everything is still present and no test discovery issue exists.
@@ -325,7 +325,7 @@ the active combination is
 Positive-energy defocusing becomes possible when
 
 ```math
-\boxed{w<-\frac13}
+w<-\frac13
 ```
 
 The especially interesting $w=-1$ case preserved classical NEC/WEC/DEC while violating SEC.
@@ -609,7 +609,7 @@ For a membrane having surface energy $U$ and tension
 the planar gravitational sign changes at:
 
 ```math
-\boxed{q=\frac12}
+q=\frac12
 ```
 
 Repulsion:
@@ -627,9 +627,9 @@ q\le1
 Therefore the entire interval
 
 ```math
-\boxed{
+
 \frac12<q\le1
-}
+
 ```
 
 supports positive-energy repulsive gravity while satisfying NEC/WEC/DEC.
@@ -719,13 +719,13 @@ This is the key physical picture.
 A finite positive-energy system can have:
 
 ```math
-\boxed{\text{repulsive near field}}
+\text{repulsive near field}
 ```
 
 while still having:
 
 ```math
-\boxed{\text{ordinary attractive far field}}
+\text{ordinary attractive far field}
 ```
 
 There is no contradiction with positive total mass.
@@ -751,12 +751,12 @@ with repulsion extending to
 The architecture's mass law was:
 
 ```math
-\boxed{
+
 M_{\rm disk}
 \simeq
 79.753148
 \frac{ah^2}{G}.
-}
+
 ```
 
 At $1g$ one meter away:
@@ -849,11 +849,11 @@ And:
 So:
 
 ```math
-\boxed{
+
 1
 <
 79.753
-}
+
 ```
 
 by an enormous margin. 
@@ -960,11 +960,11 @@ But converting that local statement into the global coefficient exactly equal to
 For a static DEC source, the optimistic abstract bound is:
 
 ```math
-\boxed{
+
 M_{\rm static}
 \approx
 \frac{ah^2}{G}.
-}
+
 ```
 
 ### $1g$
@@ -1033,7 +1033,7 @@ E_{\min}
 The extremely important scaling is:
 
 ```math
-\boxed{M,E\propto h^2}
+M,E\propto h^2
 ```
 
 This means microscopic stand-off helps enormously.
@@ -1167,11 +1167,11 @@ This is, in my assessment, more important than immediately jumping to modified g
 The unresolved question is:
 
 ```math
-\boxed{
+
 1
 \le C_{\rm real}
 \le79.753
-}
+
 ```
 
 where
@@ -1650,10 +1650,10 @@ ONLY THEN:
 The single most important immediate question is therefore:
 
 ```math
-\boxed{
-\textbf{How close can an actual finite, locally conserved DEC source get to }
-M=\frac{ah^2}{G}\textbf{?}
-}
+
+\text{How close can an actual finite, locally conserved DEC source get to }
+M=\frac{ah^2}{G}\text{?}
+
 ```
 
 If we can reduce the explicit coefficient from
@@ -1731,9 +1731,9 @@ The required relativistic stress-energy densities are enormous.
 The project has converged on:
 
 ```math
-\boxed{
-\textbf{Antigravity in GR is fundamentally a stress-engineering problem.}
-}
+
+\text{Antigravity in GR is fundamentally a stress-engineering problem.}
+
 ```
 
 The source should not be thought of as “negative mass.”
@@ -1741,9 +1741,9 @@ The source should not be thought of as “negative mass.”
 The more useful target is:
 
 ```math
-\boxed{
+
 \text{positive energy with relativistically negative principal pressure/tension}
-}
+
 ```
 
 placed near the target while compensating positive stresses are arranged so that the complete isolated system remains physically consistent.
@@ -1751,9 +1751,9 @@ placed near the target while compensating positive stresses are arranged so that
 And 006A has now made the next research objective extraordinarily clear:
 
 ```math
-\boxed{
-\textbf{Find the minimum-energy spatial realization of that stress tensor.}
-}
+
+\text{Find the minimum-energy spatial realization of that stress tensor.}
+
 ```
 
 That is where I would resume. It gives us a focused mathematical optimization problem instead of another broad search for mysterious antigravity physics.
@@ -4435,9 +4435,9 @@ The project has established with high confidence that **local repulsive gravitat
 The core classical lesson remains:
 
 ```math
-\boxed{
+
 \text{gravity responds to the full stress-energy tensor, not merely positive mass density}
-}
+
 ```
 
 Large relativistic stresses or tensions can make the local active gravitational source repulsive even when energy density and total mass remain positive.
@@ -8232,7 +8232,7 @@ This is the right place to stop adding patches and consolidate what we actually 
 The project has advanced far enough that the problem is now much more sharply defined than when we started. We have **not discovered a new law of physics or a practical antigravity device**, but we have established something important and useful:
 
 ```math
-\boxed{\text{General relativity absolutely permits local gravitational repulsion.}}
+\text{General relativity absolutely permits local gravitational repulsion.}
 ```
 
 More specifically, we have reproduced several known GR mechanisms and constructed a finite linearized-GR model in which **positive energy, positive total mass, and classical energy conditions coexist with a locally repulsive gravitational field**. What has emerged as the dominant obstacle is no longer the **sign** of gravity. It is the **stress-energy cost and physical realizability** of the source.
@@ -8240,7 +8240,7 @@ More specifically, we have reproduced several known GR mechanisms and constructe
 Simulation 006A then sharpened that further: within its stated assumptions, the optimistic static energy cost scales as
 
 ```math
-\boxed{M_{\rm equiv}\sim\frac{a h^2}{G}}
+M_{\rm equiv}\sim\frac{a h^2}{G}
 ```
 
 where $a$ is the desired repulsive acceleration and $h$ is the source-to-target scale. Your optimizer independently reproduced the coefficient 1.0 exactly, while the explicit finite disk/rim architecture costs 79.753 times more. 
@@ -8254,7 +8254,7 @@ That gap—**1 versus 79.753**—is now one of the most important open mathemati
 The simplest useful description of everything we have learned is:
 
 ```math
-\boxed{\text{gravity responds to stress-energy, not merely mass density}}
+\text{gravity responds to stress-energy, not merely mass density}
 ```
 
 and therefore sufficiently large **negative pressure/tension** can make the local active gravitational source negative even when the actual energy density remains positive.
@@ -8379,7 +8379,7 @@ Simulation 006A then added six more tests, which individually passed:
 So the expected total current regression count is approximately:
 
 ```math
-\boxed{67\text{ tests}}
+67\text{ tests}
 ```
 
 assuming everything is still present and no test discovery issue exists.
@@ -8550,7 +8550,7 @@ the active combination is
 Positive-energy defocusing becomes possible when
 
 ```math
-\boxed{w<-\frac13}
+w<-\frac13
 ```
 
 The especially interesting $w=-1$ case preserved classical NEC/WEC/DEC while violating SEC.
@@ -8834,7 +8834,7 @@ For a membrane having surface energy $U$ and tension
 the planar gravitational sign changes at:
 
 ```math
-\boxed{q=\frac12}
+q=\frac12
 ```
 
 Repulsion:
@@ -8852,9 +8852,9 @@ q\le1
 Therefore the entire interval
 
 ```math
-\boxed{
+
 \frac12<q\le1
-}
+
 ```
 
 supports positive-energy repulsive gravity while satisfying NEC/WEC/DEC.
@@ -8944,13 +8944,13 @@ This is the key physical picture.
 A finite positive-energy system can have:
 
 ```math
-\boxed{\text{repulsive near field}}
+\text{repulsive near field}
 ```
 
 while still having:
 
 ```math
-\boxed{\text{ordinary attractive far field}}
+\text{ordinary attractive far field}
 ```
 
 There is no contradiction with positive total mass.
@@ -8976,12 +8976,12 @@ with repulsion extending to
 The architecture's mass law was:
 
 ```math
-\boxed{
+
 M_{\rm disk}
 \simeq
 79.753148
 \frac{ah^2}{G}.
-}
+
 ```
 
 At $1g$ one meter away:
@@ -9074,11 +9074,11 @@ And:
 So:
 
 ```math
-\boxed{
+
 1
 <
 79.753
-}
+
 ```
 
 by an enormous margin. 
@@ -9185,11 +9185,11 @@ But converting that local statement into the global coefficient exactly equal to
 For a static DEC source, the optimistic abstract bound is:
 
 ```math
-\boxed{
+
 M_{\rm static}
 \approx
 \frac{ah^2}{G}.
-}
+
 ```
 
 ### $1g$
@@ -9258,7 +9258,7 @@ E_{\min}
 The extremely important scaling is:
 
 ```math
-\boxed{M,E\propto h^2}
+M,E\propto h^2
 ```
 
 This means microscopic stand-off helps enormously.
@@ -9392,11 +9392,11 @@ This is, in my assessment, more important than immediately jumping to modified g
 The unresolved question is:
 
 ```math
-\boxed{
+
 1
 \le C_{\rm real}
 \le79.753
-}
+
 ```
 
 where
@@ -9875,10 +9875,10 @@ ONLY THEN:
 The single most important immediate question is therefore:
 
 ```math
-\boxed{
-\textbf{How close can an actual finite, locally conserved DEC source get to }
-M=\frac{ah^2}{G}\textbf{?}
-}
+
+\text{How close can an actual finite, locally conserved DEC source get to }
+M=\frac{ah^2}{G}\text{?}
+
 ```
 
 If we can reduce the explicit coefficient from
@@ -9956,9 +9956,9 @@ The required relativistic stress-energy densities are enormous.
 The project has converged on:
 
 ```math
-\boxed{
-\textbf{Antigravity in GR is fundamentally a stress-engineering problem.}
-}
+
+\text{Antigravity in GR is fundamentally a stress-engineering problem.}
+
 ```
 
 The source should not be thought of as “negative mass.”
@@ -9966,9 +9966,9 @@ The source should not be thought of as “negative mass.”
 The more useful target is:
 
 ```math
-\boxed{
+
 \text{positive energy with relativistically negative principal pressure/tension}
-}
+
 ```
 
 placed near the target while compensating positive stresses are arranged so that the complete isolated system remains physically consistent.
@@ -9976,9 +9976,9 @@ placed near the target while compensating positive stresses are arranged so that
 And 006A has now made the next research objective extraordinarily clear:
 
 ```math
-\boxed{
-\textbf{Find the minimum-energy spatial realization of that stress tensor.}
-}
+
+\text{Find the minimum-energy spatial realization of that stress tensor.}
+
 ```
 
 That is where I would resume. It gives us a focused mathematical optimization problem instead of another broad search for mysterious antigravity physics.
@@ -12660,9 +12660,9 @@ The project has established with high confidence that **local repulsive gravitat
 The core classical lesson remains:
 
 ```math
-\boxed{
+
 \text{gravity responds to the full stress-energy tensor, not merely positive mass density}
-}
+
 ```
 
 Large relativistic stresses or tensions can make the local active gravitational source repulsive even when energy density and total mass remain positive.
@@ -17295,11 +17295,11 @@ BEST_CONTACT_A_OVER_G=7.327295675071e-04
 or
 
 ```math
-\boxed{
+
 \frac{a_{\rm scalar,max}}{g}
 \approx
 7.33\times10^{-4}
-}
+
 ```
 
 for this deliberately optimistic preflight.
@@ -17438,12 +17438,12 @@ g'\ge g_{\rm eff}
 one obtains the optimistic ceiling:
 
 ```math
-\boxed{
+
 M_Q
 \le
 \frac{y}{\sqrt2}
 \frac{M_X}{g_{\rm eff}}
-}
+
 ```
 
 This is a very cheap UV consistency test.
@@ -17960,10 +17960,10 @@ so:
 therefore:
 
 ```math
-\boxed{
+
 \frac{F}{F_{\rm GR}}
 \ge1
-}
+
 ```
 
 for a healthy canonical scalar.
@@ -18375,12 +18375,12 @@ Using:
 gives:
 
 ```math
-\boxed{
+
 |\beta|
 \frac{GM}{Rc^2}
 =
 \frac{\pi^2}{12}
-}
+
 ```
 
 This was an important analytical result because it reproduces the correct order of magnitude for neutron-star scalarization.
@@ -18586,9 +18586,9 @@ Q+F_{,\phi}^2
 Therefore:
 
 ```math
-\boxed{
+
 G_{\rm Cav}>0
-}
+
 ```
 
 within this class.
@@ -19047,11 +19047,11 @@ C_{\rm finite}
 in:
 
 ```math
-\boxed{
+
 M_{\rm equiv}
 =
 C\frac{ah^2}{G}
-}
+
 ```
 
 For:
@@ -19119,9 +19119,9 @@ chi=-1 -> upward gravitational acceleration of magnitude g
 Thus:
 
 ```math
-\boxed{
+
 \chi=-1
-}
+
 ```
 
 is a compact **target condition** for true gravitational inversion.
@@ -21301,11 +21301,11 @@ a_{\rm out}
 Therefore:
 
 ```math
-\boxed{
+
 M
 \ge
 \frac{ah^2}{G}
-}
+
 ```
 
 under the stated assumptions.
@@ -26299,7 +26299,7 @@ For a static type-I stress tensor:
 ```math
 T_{\hat\mu\hat\nu}
 =
-\operatorname{diag}
+\mathrm{diag}
 \left(
 \epsilon,
 p_r,
@@ -27156,7 +27156,7 @@ C_\phi^2M^8
 Substitution into $C_{AA}$ yields:
 
 ```math
-\boxed{
+
 \frac{
 |C_{AA}|
 }{
@@ -27168,7 +27168,7 @@ C_\phi\phi_\oplus M^2
 }{
 4\pi N
 }
-}
+
 ```
 
 Therefore the leakage requirement imposes:
@@ -27550,9 +27550,9 @@ Z>0
 Therefore:
 
 ```math
-\operatorname{sign}(\phi')
+\mathrm{sgn}(\phi')
 =
-\operatorname{sign}(\beta)
+\mathrm{sgn}(\beta)
 ```
 
 A universally coupled test body experiences:
@@ -27609,7 +27609,7 @@ For the canonical exponential nonlocal form factor, the point-mass potential is:
 \Phi(r)
 =
 -\frac{GM}{r}
-\operatorname{erf}
+\mathrm{erf}
 \left(
 \frac{M_s r}{2}
 \right)
@@ -27637,7 +27637,7 @@ with:
 ```math
 F(z)
 =
-\operatorname{erf}(z)
+\mathrm{erf}(z)
 -
 \frac{
 2z
@@ -27864,7 +27864,7 @@ Gm_A m_B
 }{
 r
 }
-\operatorname{erf}
+\mathrm{erf}
 \left(
 \frac{r}{2\ell}
 \right)
@@ -27924,7 +27924,7 @@ For $N=1$:
 ```math
 C_1(x)
 =
-\operatorname{erf}
+\mathrm{erf}
 \left(
 \frac x2
 \right)
@@ -27951,7 +27951,7 @@ Expand for small $x$.
 First:
 
 ```math
-\operatorname{erf}
+\mathrm{erf}
 \left(
 \frac x2
 \right)
@@ -28032,9 +28032,9 @@ The force is outward when:
 or:
 
 ```math
-\boxed{
+
 \eta>\frac23
-}
+
 ```
 
 Therefore:
@@ -28110,7 +28110,7 @@ M_4
 or:
 
 ```math
-\boxed{
+
 \eta_{\rm crit}(0)
 =
 \frac{
@@ -28118,7 +28118,7 @@ or:
 }{
 \Gamma\left(\frac{5}{2N}\right)
 }
-}
+
 ```
 
 For $N=1$ this exactly gives:
@@ -28363,9 +28363,9 @@ which is spatially constant.
 Therefore:
 
 ```math
-\boxed{
+
 \nabla U_q=0
-}
+
 ```
 
 Thus the smeared contact term cannot generate a force inside an infinite homogeneous medium at leading pairwise order.
@@ -28486,14 +28486,14 @@ assuming the boundary terms vanish appropriately.
 Hence:
 
 ```math
-\boxed{
+
 a_z
 =
 2\pi G\Sigma
 \left[
 -P_N(x)+\eta R_N(x)
 \right]
-}
+
 ```
 
 Define:
@@ -28518,7 +28518,7 @@ G\Sigma B_N
 and the surface mass necessary for $1g$ is:
 
 ```math
-\boxed{
+
 \Sigma_{1g}
 =
 \frac{
@@ -28526,7 +28526,7 @@ g
 }{
 GB_N
 }
-}
+
 ```
 
 At fixed dimensionless $x,\eta$, this contains no explicit $\ell$.
@@ -28745,21 +28745,21 @@ A^2
 or:
 
 ```math
-\boxed{
+
 A^2
 \ge
 \chi^2\eta
-}
+
 ```
 
 Hence:
 
 ```math
-\boxed{
+
 \frac{\eta}{A^2}
 \le
 \frac1{\chi^2}
-}
+
 ```
 
 This is the maximum quantum-contact strength available after imposing the Gaussian localization condition.
@@ -28823,11 +28823,11 @@ or:
 and hence:
 
 ```math
-\boxed{
+
 \chi
 <
 \sqrt{\frac32}
-}
+
 ```
 
 Numerically:
@@ -31065,7 +31065,7 @@ while:
 so:
 
 ```math
-\boxed{
+
 \left[
 \frac{\partial^2\varphi}{\partial r^2}
 +
@@ -31074,7 +31074,7 @@ so:
 \right]_{r=0}
 =
 4A
-}
+
 ```
 
 With:
@@ -31088,7 +31088,7 @@ A\Delta r^2+O(\Delta r^4)
 the second-order finite-difference axis stencil becomes:
 
 ```math
-\boxed{
+
 \left[
 \nabla_r^2\varphi
 \right]_{r=0}
@@ -31101,7 +31101,7 @@ the second-order finite-difference axis stencil becomes:
 }
 +
 O(\Delta r^2)
-}
+
 ```
 
 This correction was incorporated before trusting the 014A result.
@@ -31280,7 +31280,7 @@ so:
 Therefore:
 
 ```math
-\boxed{
+
 \frac{\partial R_{\rm image}}{\partial L}
 =
 \frac{
@@ -31288,7 +31288,7 @@ Therefore:
 }{
 3d^2(2L+d)^3
 }
-}
+
 ```
 
 For:
@@ -31382,9 +31382,9 @@ If $\eta^2>0$, the divergence changes sign relative to Newtonian gravity precise
 or:
 
 ```math
-\boxed{
+
 \delta_d>1
-}
+
 ```
 
 At homogeneous background order:
@@ -31640,7 +31640,7 @@ O(\epsilon)
 therefore:
 
 ```math
-\boxed{
+
 \mathbf F_\phi
 =
 -\frac{
@@ -31651,17 +31651,17 @@ therefore:
 \xi_1\nabla\phi_1
 +
 O(\epsilon^3)
-}
+
 ```
 
 Hence:
 
 ```math
-\boxed{
+
 \mathbf F_\phi
 =
 O(\epsilon^2)
-}
+
 ```
 
 Newtonian gravity is:
@@ -31685,17 +31685,17 @@ O(\epsilon^2)
 we obtain:
 
 ```math
-\boxed{
+
 \mathbf F_\Psi
 =
 O(\epsilon)
-}
+
 ```
 
 Therefore:
 
 ```math
-\boxed{
+
 \frac{
 |\mathbf F_\phi|
 }{
@@ -31703,13 +31703,13 @@ Therefore:
 }
 =
 O(\epsilon)
-}
+
 ```
 
 and consequently:
 
 ```math
-\boxed{
+
 \lim_{\epsilon\to0}
 \frac{
 |\mathbf F_\phi|
@@ -31718,7 +31718,7 @@ and consequently:
 }
 =
 0
-}
+
 ```
 
 within a regular weak-field expansion about the $\xi_0=0$ background.
@@ -31887,13 +31887,13 @@ A merely antiparallel fifth force requires:
 Actual reversal of the total local acceleration projection requires:
 
 ```math
-\boxed{
+
 \mathbf F_{\rm tot}
 \cdot
 \mathbf F_\Psi
 <
 0
-}
+
 ```
 
 Substituting:
@@ -31925,13 +31925,13 @@ gives:
 or:
 
 ```math
-\boxed{
+
 -\mathbf F_\phi
 \cdot
 \mathbf F_\Psi
 >
 |\mathbf F_\Psi|^2
-}
+
 ```
 
 Thus the anti-gravity component along the Newtonian direction must exceed the Newtonian field itself.
@@ -31939,11 +31939,11 @@ Thus the anti-gravity component along the Newtonian direction must exceed the Ne
 For perfectly antiparallel forces this reduces to:
 
 ```math
-\boxed{
+
 |\mathbf F_\phi|
 >
 |\mathbf F_\Psi|
-}
+
 ```
 
 014D computed the full vector projection directly rather than inferring reversal solely from magnitudes.
@@ -32329,11 +32329,11 @@ The parameter numerically called `B0` inside the reduced 014C/014D natural-unit 
 The relation is:
 
 ```math
-\boxed{
+
 b_0
 =
 H_0^2 M_{\rm Pl}^2 B_0
-}
+
 ```
 
 For the minimal constant disformal operator:
@@ -32420,14 +32420,14 @@ H_0M_{\rm Pl}
 we obtain:
 
 ```math
-\boxed{
+
 M_D
 =
 \sqrt{
 H_0M_{\rm Pl}
 }
 \,b_0^{-1/4}
-}
+
 ```
 
 This is exact under the declared constant-$B$ normalization.
@@ -32533,7 +32533,7 @@ b_{0,\rm collider}
 giving:
 
 ```math
-\boxed{
+
 \frac{
 b_{0,\rm reversal}
 }{
@@ -32541,7 +32541,7 @@ b_{0,\rm collider}
 }
 =
 3.4605562139399018\times10^{57}
-}
+
 ```
 
 Therefore the minimal constant-$B$ Standard-Model bridge misses the required coupling by approximately:
@@ -32576,9 +32576,9 @@ COLLIDER_MD_OVER_FIRST_REVERSAL_MD=
 Thus the required 014D operating scale is approximately:
 
 ```math
-\boxed{
+
 2.43\times10^{14}
-}
+
 ```
 
 times lower in $M_D$ than the direct constant-coupling collider benchmark.
@@ -32676,11 +32676,11 @@ q
 and therefore:
 
 ```math
-\boxed{
+
 \dot\phi^2
 =
 qM_D^4
-}
+
 ```
 
 For a canonical scalar, the temporal kinetic energy density is:
@@ -32694,12 +32694,12 @@ K
 so:
 
 ```math
-\boxed{
+
 K
 =
 \frac{q}{2}
 M_D^4
-}
+
 ```
 
 This relation is exact under the canonical homogeneous assumptions.
@@ -32814,7 +32814,7 @@ c^2
 Therefore:
 
 ```math
-\boxed{
+
 \mathcal C
 =
 \frac{
@@ -32822,7 +32822,7 @@ Therefore:
 }{
 3c^4
 }
-}
+
 ```
 
 Set $\mathcal C=1$:
@@ -32852,7 +32852,7 @@ R_{\rm crit}^2
 and:
 
 ```math
-\boxed{
+
 R_{\rm crit}
 =
 \sqrt{
@@ -32862,7 +32862,7 @@ R_{\rm crit}
 8\pi G u
 }
 }
-}
+
 ```
 
 For the 014E kinetic density:
@@ -32962,11 +32962,11 @@ B_{\rm dense}
 gives:
 
 ```math
-\boxed{
+
 \Delta\ln B
 \gtrsim
 132.48877963228443
-}
+
 ```
 
 This is the exact hierarchy that any simple environment-dependent rescue must explain.
@@ -33035,7 +33035,7 @@ M_{\rm Pl}
 Therefore the hierarchy condition requires:
 
 ```math
-\boxed{
+
 \left|
 \beta
 \frac{
@@ -33046,7 +33046,7 @@ M_{\rm Pl}
 \right|
 \gtrsim
 132.49
-}
+
 ```
 
 Examples from 014E:
@@ -33139,7 +33139,7 @@ LOCAL_REPULSIVE_COMPONENT=YES
 because the complete local force satisfies:
 
 ```math
-\boxed{
+
 \left(
 \mathbf F_\Psi
 +
@@ -33149,7 +33149,7 @@ because the complete local force satisfies:
 \mathbf F_\Psi
 <
 0
-}
+
 ```
 
 in the identified regions.
@@ -33163,17 +33163,17 @@ This means the local total acceleration projection is opposite ordinary Newtonia
 The strongest new analytic theorem is the 014C weak-perturbation scaling result:
 
 ```math
-\boxed{
+
 F_\phi=O(\epsilon^2)
-}
+
 ```
 
 while:
 
 ```math
-\boxed{
+
 F_\Psi=O(\epsilon)
-}
+
 ```
 
 at a regular $\xi_0=0$ background.
@@ -33181,7 +33181,7 @@ at a regular $\xi_0=0$ background.
 Therefore:
 
 ```math
-\boxed{
+
 \frac{
 F_\phi
 }{
@@ -33189,7 +33189,7 @@ F_\Psi
 }
 =
 O(\epsilon)
-}
+
 ```
 
 and the fifth-force advantage vanishes toward the regular weak-perturbation limit.
@@ -33221,9 +33221,9 @@ M_D>=650 GeV
 The coupling mismatch is:
 
 ```math
-\boxed{
+
 3.46\times10^{57}
-}
+
 ```
 
 in $B$.
@@ -33231,9 +33231,9 @@ in $B$.
 The corresponding energy-scale mismatch is:
 
 ```math
-\boxed{
+
 2.43\times10^{14}
-}
+
 ```
 
 in $M_D$.
@@ -33723,7 +33723,7 @@ This is the precise frontier.
 Any proposed baryonic continuation must explain why the effective coupling can differ by at least:
 
 ```math
-\boxed{
+
 \frac{
 B_{\rm operating}
 }{
@@ -33731,17 +33731,17 @@ B_{\rm constrained}
 }
 \sim
 3.46\times10^{57}
-}
+
 ```
 
 or equivalently:
 
 ```math
-\boxed{
+
 \Delta\ln B
 \gtrsim
 132.49
-}
+
 ```
 
 between the relevant environments, unless it changes the mechanism sufficiently that the 014D constant-$B$ normalization no longer applies.
@@ -34764,7 +34764,7 @@ Use a local orthonormal frame with static type-I stress energy:
 ```math
 T_{\hat\mu\hat\nu}
 =
-\operatorname{diag}
+\mathrm{diag}
 \left(
 \epsilon,
 p_r,
@@ -34851,14 +34851,14 @@ g_{00}
 one obtains:
 
 ```math
-\boxed{
+
 \nabla^2\Phi
 =
 \frac{4\pi G}{c^2}
 \left(
 \epsilon+p_r+p_\phi+p_z
 \right)
-}.
+.
 ```
 
 Define:
@@ -35032,13 +35032,13 @@ Substitution gives:
 Therefore:
 
 ```math
-\boxed{
+
 \frac{dp_r}{dx}
 +
 \frac{p_r-p_\phi}{x}
 =
 0
-}
+
 ```
 
 identically.
@@ -35317,9 +35317,9 @@ q(x_{\max})=0.
 Hence:
 
 ```math
-\boxed{
+
 \tau=0
-}.
+.
 ```
 
 Since:
@@ -35412,22 +35412,22 @@ m_\delta.
 Eliminating $U_0$ gives:
 
 ```math
-\boxed{
+
 M
 =
 C\frac{ah^2}{G}
-}
+
 ```
 
 with:
 
 ```math
-\boxed{
+
 C
 =
 \frac{m_\delta}
 {2F_\delta}
-}.
+.
 ```
 
 ---
@@ -35732,9 +35732,9 @@ P\approx0,
 one-mode stability requires:
 
 ```math
-\boxed{
+
 \frac TE>\frac18
-}.
+.
 ```
 
 For the finest original 006D source:
@@ -35960,13 +35960,13 @@ this becomes:
 Therefore:
 
 ```math
-\boxed{
+
 -\mathbf F_\phi
 \cdot
 \mathbf F_\Psi
 >
 |\mathbf F_\Psi|^2
-}.
+.
 ```
 
 For perfectly antiparallel forces:
@@ -36040,11 +36040,11 @@ B_{\rm dense}
 Equivalently:
 
 ```math
-\boxed{
+
 \Delta\ln B
 \gtrsim
 132.49
-}.
+.
 ```
 
 The simplest constant-$B$ ordinary-baryon bridge was therefore rejected.
@@ -36192,7 +36192,7 @@ A_{\rm cell}
 Therefore:
 
 ```math
-\boxed{
+
 \frac{E_{\rm cell}}
 {A_{\rm cell}}
 =
@@ -36201,7 +36201,7 @@ Cac^2
 }{
 \pi x_{\max}^2G
 }
-}.
+.
 ```
 
 The factor:
@@ -36316,13 +36316,13 @@ This means the map is locally conformal with scale $\sqrt g$.
 A necessary integrability condition is:
 
 ```math
-\boxed{
+
 \left(
 \partial_r^2+\partial_z^2
 \right)\ln g
 =
 0
-}.
+.
 ```
 
 For the compact 006D collar:
@@ -36364,7 +36364,7 @@ v=y=\frac12,
 one obtains:
 
 ```math
-\boxed{
+
 \Delta\ln g
 =
 \frac1{r^2}
@@ -36372,7 +36372,7 @@ one obtains:
 \frac{24}{\delta^2}
 <
 0
-}.
+.
 ```
 
 Therefore the harmonicity requirement fails.
@@ -36489,7 +36489,7 @@ The vertical compact polynomial was replaced by:
 \varphi(z)
 =
 \frac1{2w}
-\operatorname{sech}^2
+\mathrm{sech}^2
 \left(
 \frac{z-z_0}{w}
 \right),
@@ -36587,7 +36587,7 @@ I(r)
 Therefore:
 
 ```math
-\boxed{
+
 |k(r)|
 \ge
 K_{\min}(r)
@@ -36597,7 +36597,7 @@ r\sqrt{A(r)}
 }{
 I(r)
 }
-}.
+.
 ```
 
 ---
@@ -36639,11 +36639,11 @@ I(r)
 Thus:
 
 ```math
-\boxed{
+
 K_{\min}(r)
 \sim
 \frac r{\sqrt2\,\ell}
-}.
+.
 ```
 
 Hence:
@@ -36717,7 +36717,7 @@ f_m(x)\sim x^{-m}.
 The asymptotic gauge mismatch now tends to:
 
 ```math
-\boxed{
+
 K_\infty
 =
 \sqrt{
@@ -36725,7 +36725,7 @@ K_\infty
 m(m+1)
 }{2}
 }
-}.
+.
 ```
 
 Therefore it remains finite.
@@ -37042,19 +37042,19 @@ D
 Then remaining radial gradient capacity is:
 
 ```math
-\boxed{
+
 G_r
 \sim
 (1-\eta)
 mC_\infty
 r^{-m-2}
-}.
+.
 ```
 
 The required angular Gram becomes:
 
 ```math
-\boxed{
+
 A
 \sim
 \left[
@@ -37064,7 +37064,7 @@ A
 \right]
 C_\infty
 r^{-m-2}
-}.
+.
 ```
 
 ---
@@ -37118,9 +37118,9 @@ r^{-s},
 with:
 
 ```math
-\boxed{
+
 s=\frac m2
-}.
+.
 ```
 
 Any faster power-law decay has:
@@ -37148,7 +37148,7 @@ Using the maximum available amplitude gives the smallest possible $k$.
 This yields:
 
 ```math
-\boxed{
+
 k_\infty^2
 \ge
 \frac{
@@ -37159,7 +37159,7 @@ m
 }{
 4(1-\eta)
 }
-}.
+.
 ```
 
 Since:
@@ -37215,7 +37215,7 @@ m+2.
 Therefore:
 
 ```math
-\boxed{
+
 k_\infty^2-s^2
 =
 \frac{
@@ -37223,7 +37223,7 @@ m(m+2)
 }{
 4(1-\eta)
 }
-}.
+.
 ```
 
 For:
@@ -37243,9 +37243,9 @@ the numerator and denominator are positive.
 Hence:
 
 ```math
-\boxed{
+
 k_\infty^2>s^2
-}.
+.
 ```
 
 This is not a numerical accident.
@@ -37324,9 +37324,9 @@ k^2>s^2.
 Therefore:
 
 ```math
-\boxed{
+
 U_{\rm eff}'(F)<0
-}
+
 ```
 
 for sufficiently small positive asymptotic $F$.
@@ -37609,13 +37609,13 @@ S
 simplifies exactly to:
 
 ```math
-\boxed{
+
 S
 =
 8\omega^2Y^2
 -
 2V
-}.
+.
 ```
 
 All spatial-gradient pieces cancel from the active trace.
@@ -37786,21 +37786,21 @@ K_h>0.
 To have outward near-field acceleration:
 
 ```math
-\boxed{
+
 \int
 S K_h
 \,dV
 <
 0
-}.
+.
 ```
 
 At the same time, to retain positive far-field mass:
 
 ```math
-\boxed{
+
 \int S\,dV>0
-}.
+.
 ```
 
 These conditions can coexist only if the signs of $S$ are **spatially segregated**.
@@ -39429,7 +39429,7 @@ r\sqrt A
 ## 016G asymptotic identity
 
 ```math
-\boxed{
+
 k_\infty^2-s^2
 =
 \frac{
@@ -39438,29 +39438,29 @@ m(m+2)
 4(1-\eta)
 }
 >0
-}.
+.
 ```
 
 ## 016H explicit field active-source identity
 
 ```math
-\boxed{
+
 S
 =
 8\omega^2Y^2
 -
 2V
-}.
+.
 ```
 
 ## New spatial-moment requirement
 
 ```math
-\boxed{
+
 \int S\,dV>0
 \quad\text{while}\quad
 \int S K_h\,dV<0
-}.
+.
 ```
 
 This final pair may be the most important design equation for the next established-GR slice.

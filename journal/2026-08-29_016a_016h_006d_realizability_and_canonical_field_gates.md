@@ -166,7 +166,7 @@ For a local orthonormal type-I stress tensor,
 ```math
 T_{\hat\mu\hat\nu}
 =
-\operatorname{diag}
+\mathrm{diag}
 \left(
 \epsilon,
 p_r,
@@ -1004,7 +1004,7 @@ The original compact polynomial vertical profile was replaced by
 \varphi(z)
 =
 \frac1{2w}
-\operatorname{sech}^2
+\mathrm{sech}^2
 \left(
 \frac{z-z_0}{w}
 \right)
