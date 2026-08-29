@@ -1,3 +1,5 @@
+GitHub rendering note: This file intentionally contains the complete monolithic research history for AI/session handoff. Because it contains roughly 39,000 lines and more than one thousand mathematical display blocks, GitHub may show Unable to render expression for otherwise valid mathematics. For reliable rendered equations, use the corresponding files under notes/chronology/. The raw mathematical source remains intact.
+
 ### BEGIN NOTE - AUGUST 27 2026 - 01:00 CST
 
 # ANTIGRAVITY_RESEARCH — Comprehensive Carry-Forward Notes
@@ -34378,8 +34380,6 @@ NOT_SOLVED
 ```
 
 ### END NOTE - AUGUST 29 2026 - 12:35 CST
-
-
 
 
 ### BEGIN NOTE - AUGUST 29 2026 - 15:10 CST
