@@ -1,0 +1,1991 @@
+"""Simulation 018A-3 — wall-pull versus junction-binding force gate.
+
+PURPOSE
+-------
+Test whether the nonthermal N_DW=1 wall found in 018A-1 would physically
+pull its boundary string away from the 017P gauged-vorton core despite the
+co-centered core binding found in 018A-2.
+
+This is deliberately performed before a full two-dimensional string-wall
+Euler-Lagrange solve because failure of this force-balance prerequisite would
+make the expensive PDE unnecessary.
+
+SCIENTIFIC QUESTION
+-------------------
+Does the local junction binding between the separate nonthermal boundary
+string and the 017P gauged superconducting string provide enough restoring
+force to oppose the wall tension?
+
+018A-2 established
+
+    DELTA E_bind < 0
+
+for co-centered straight strings across the tested healthy coupling region.
+
+That does not by itself prove a wall-loaded composite.
+
+A wall attached to the boundary string exerts a lateral force per unit string
+length equal to its microscopic wall tension:
+
+    F_wall = sigma_W.
+
+Let d be the transverse separation between the wall-sector string core and
+the fixed 017P vortex core.
+
+The binding potential is
+
+    E_bind(d).
+
+The restoring-force magnitude is
+
+    F_bind(d) = dE_bind/dd
+
+for d >= 0, because E_bind rises from its negative minimum toward zero as the
+two strings separate.
+
+A necessary condition for a metastable bound junction is
+
+    max_d F_bind(d) > sigma_W.
+
+A stronger condition is that the effective displacement energy
+
+    E_eff(d)
+      =
+      E_bind(d) - E_bind(0) - sigma_W d
+
+contain:
+
+1. a first stationary point with positive curvature;
+2. a second stationary point with negative curvature;
+3. a positive escape barrier between them.
+
+The first stationary point represents the wall pulling the boundary string
+slightly away from exact co-centering until junction restoring force balances
+wall tension.
+
+The second stationary point is the escape saddle.
+
+If no such pair exists, the wall peels the string away from the vorton.
+
+PHYSICAL MODEL
+--------------
+The local gauge-invariant interaction from 018A-2 is
+
+    V_J
+      =
+      -kappa/4
+      (f^2 - eta_phi^2)
+      (rho^2 - F^2).
+
+Here:
+
+    f(r)
+
+is the 017P vortex magnitude, and
+
+    rho(r)
+
+is the magnitude of the separate nonthermal wall-sector string.
+
+For a rigid transverse displacement d,
+
+    rho(r)
+      ->
+      rho(|x - d, y|).
+
+The interaction energy per unit string length is therefore
+
+    E_J(d)
+      =
+      -kappa/4
+      integral d^2x
+      [f(r)^2 - 1]
+      [rho(|x-d,y|)^2 - F^2].
+
+This is a two-dimensional cross-correlation of the two radial core deficits.
+
+WHY TWO ESTIMATES ARE USED
+--------------------------
+A rigid-profile overlap can overestimate the true restoring force because the
+fields relax when they interact.
+
+This run therefore evaluates two independent profile choices:
+
+1. BASELINE-SHAPE estimate
+
+   Uses the kappa=0 profiles reconstructed from the 017P + global-string
+   system, then applies the candidate kappa only in the overlap energy.
+
+2. RELAXED-SHAPE estimate
+
+   Uses the fully relaxed co-centered profiles obtained by solving the 018A-2
+   radial BVP at the requested kappa.
+
+The relaxed co-centered 018A-2 result provides a directly measured relaxation
+efficiency
+
+    eta_relax
+      =
+      |Delta A_total|
+      /
+      |A_cross|.
+
+The displacement binding curve is multiplied by eta_relax as a deliberately
+conservative deformation penalty.
+
+Promotion requires BOTH the baseline-shape and relaxed-shape estimates to
+beat wall tension with margin.
+
+MICROSCOPIC WALL FORCE
+----------------------
+The wall tension is not a free input.
+
+It is recomputed using the 018A-1 coupled one-dimensional wall BVP at the
+12-wall-width domain used in the converged calculation.
+
+Thus
+
+    F_wall = sigma_W
+
+is obtained from the microscopic field Lagrangian.
+
+NUMERICAL CROSS-CORRELATION
+---------------------------
+Because both isolated string profiles are axisymmetric, the rigid
+displacement interaction is a convolution.
+
+Define
+
+    A(x,y)
+      =
+      f(r)^2 - 1
+
+and
+
+    B(x,y)
+      =
+      rho(r)^2 - F^2.
+
+Then
+
+    C(d)
+      =
+      integral A(x,y) B(x-d,y) dx dy.
+
+The interaction is
+
+    E_J(d)
+      =
+      -kappa C(d)/4.
+
+The correlation is calculated with a zero-padded FFT convolution.
+
+The selected kappa=0.625 result is repeated at multiple Cartesian resolutions
+and box sizes.
+
+BOUND / UNBOUND CLASSIFICATION
+------------------------------
+For each force curve define
+
+    R_force
+      =
+      max(F_bind) / sigma_W.
+
+A conservative strong preflight requires
+
+    R_force >= 1.25
+
+for both profile estimates.
+
+The 25 percent margin is intentionally larger than unity because this is
+still a reduced translational preflight rather than the final full 2D field
+solution.
+
+The effective displacement potential must also contain both a stable minimum
+and an escape saddle with
+
+    Delta E_barrier > 0.
+
+HEALTHY COUPLING REGION
+-----------------------
+018A-2 independently found:
+
+    kappa_fraction <= 0.65
+        EOS/extrinsic health survives in the tested scan
+
+while
+
+    kappa_fraction >= 0.70
+        fails the m=2...40 extrinsic stability gate.
+
+The nonmarginal promotion set used here is
+
+    0.40
+    0.50
+    0.60
+    0.625.
+
+The point
+
+    0.65
+
+is retained as a near-stability-boundary control.
+
+The point
+
+    0.70
+
+is retained as an intentionally unhealthy control and may not promote the
+model even if its junction binding is strong.
+
+BLIND WILDCARD FAMILY
+---------------------
+The user's numbers
+
+    1.6
+    1.875
+    3.125
+    0.625
+    5
+
+are included only as a separately labeled blind wildcard check.
+
+They are not physics priors or optimization targets.
+
+Values above the allowed normalized coupling interval are mapped by x -> 1/x
+only for the blind auxiliary scan, exactly as in 018A-2.
+
+The physically motivated scan and falsification criteria remain primary.
+
+UNITS
+-----
+Natural units and the dimensionless 017P normalization are used.
+
+The reported force is energy per unit string length per unit transverse
+distance, which in natural units has the same normalized magnitude as the
+wall tension.
+
+No SI practical-device claim is inferred.
+
+VALIDATION
+----------
+The run validates itself through:
+
+- fresh 018A-1 wall-BVP reconstruction;
+- fresh 018A-2 radial BVP reconstruction;
+- baseline-vs-relaxed independent force estimates;
+- FFT resolution/box convergence;
+- exact proportional scaling of the baseline-shape force with kappa;
+- explicit stable/unstable stationary-point search;
+- escape-barrier reconstruction.
+
+FALSIFICATION
+-------------
+This junction interaction should be rejected or strongly demoted if:
+
+- max binding force is <= wall tension throughout the healthy coupling region;
+- only the kappa~1 boundedness edge survives;
+- no stable displacement equilibrium exists;
+- no positive escape barrier exists;
+- the result disappears with spatial refinement;
+- only the already-unhealthy kappa>=0.70 region survives.
+
+SUCCESS CONDITION
+-----------------
+018A-3 is green only if a contiguous, nonmarginal healthy coupling
+neighborhood has:
+
+    WALL_FORCE_BEATEN_BY_BASELINE_SHAPES=YES
+    WALL_FORCE_BEATEN_BY_RELAXED_SHAPES=YES
+    STABLE_DISPLACED_EQUILIBRIUM=YES
+    POSITIVE_ESCAPE_BARRIER=YES
+    NUMERICAL_CONVERGENCE=YES.
+
+LIMITATIONS
+-----------
+A green result does NOT establish:
+
+- the true 2D string-wall field solution;
+- complete anisotropic deformation of f, s and the gauge field;
+- the final microscopic junction stress tensor;
+- finite-payload repulsion after junction bookkeeping;
+- full drum-vorton dynamic stability;
+- nonlinear Einstein-matter consistency;
+- practical energy scaling;
+- a practical antigravity device.
+
+A green result justifies:
+
+    018A4_TRUE_2D_EXPLICIT_BREAKING_STRING_WALL_JUNCTION
+
+A red result means this separate-sector binding model should be audited or
+demoted before any large PDE escalation.
+
+RELATED FILES
+-------------
+018A-1:
+    simulations/018a_nonthermal_wall_topology_preflight.py
+
+018A-2:
+    simulations/018a2_nonthermal_core_binding_preflight.py
+
+CLAIM CLASSIFICATION
+--------------------
+PROJECT_DERIVED_018A_TRANSLATIONAL_JUNCTION_FORCE_PREFLIGHT
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+import importlib.util
+import math
+from pathlib import Path
+
+import numpy as np
+from scipy.interpolate import CubicSpline
+from scipy.signal import fftconvolve
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+WALL_PATH = (
+    ROOT
+    / "simulations"
+    / "018a_nonthermal_wall_topology_preflight.py"
+)
+
+CORE_PATH = (
+    ROOT
+    / "simulations"
+    / "018a2_nonthermal_core_binding_preflight.py"
+)
+
+CORE_LOG_PATH = (
+    ROOT
+    / "results"
+    / "logs"
+    / "018a2_nonthermal_core_binding_preflight.log"
+)
+
+
+def load_module(
+    name: str,
+    path: Path,
+):
+    """Load one prior simulation module by explicit filesystem path."""
+
+    spec = importlib.util.spec_from_file_location(
+        name,
+        path,
+    )
+
+    if (
+        spec is None
+        or spec.loader is None
+    ):
+        raise RuntimeError(
+            f"Cannot load module from {path}"
+        )
+
+    module = importlib.util.module_from_spec(
+        spec
+    )
+
+    spec.loader.exec_module(
+        module
+    )
+
+    return module
+
+
+wall_mod = load_module(
+    "antigravity_018a1",
+    WALL_PATH,
+)
+
+core_mod = load_module(
+    "antigravity_018a2",
+    CORE_PATH,
+)
+
+
+# ---------------------------------------------------------------------------
+# Coupling sets.
+# ---------------------------------------------------------------------------
+
+NONMARGINAL_HEALTHY = (
+    0.40,
+    0.50,
+    0.60,
+    0.625,
+)
+
+EDGE_HEALTH_CONTROL = (
+    0.65,
+)
+
+UNHEALTHY_CONTROL = (
+    0.70,
+)
+
+ALL_MAIN_FRACTIONS = (
+    NONMARGINAL_HEALTHY
+    +
+    EDGE_HEALTH_CONTROL
+    +
+    UNHEALTHY_CONTROL
+)
+
+WILDCARD_VALUES = (
+    1.6,
+    1.875,
+    3.125,
+    0.625,
+    5.0,
+)
+
+
+# ---------------------------------------------------------------------------
+# Numerical controls.
+# ---------------------------------------------------------------------------
+
+PROFILE_RMAX_MAIN = 80.0
+
+FFT_BOX_MAIN = 160.0
+FFT_DX_MAIN = 0.60
+
+DISPLACEMENT_MAX = 120.0
+
+FORCE_MARGIN_REQUIRED = 1.25
+
+GRID_CONVERGENCE_CASES = (
+    (140.0, 0.70),
+    (160.0, 0.60),
+    (180.0, 0.45),
+)
+
+PROFILE_RMAX_CONVERGENCE = (
+    60.0,
+    80.0,
+)
+
+MAX_GRID_FORCE_RATIO_SPREAD = 0.03
+MAX_PROFILE_FORCE_RATIO_SPREAD = 0.05
+
+
+@dataclass
+class ForceMetrics:
+    """Summary of one displacement-force curve."""
+
+    force_ratio: float
+    force_max: float
+    force_max_at_d: float
+
+    stable_found: bool
+    unstable_found: bool
+
+    stable_d: float
+    unstable_d: float
+
+    stable_curvature: float
+    unstable_curvature: float
+
+    barrier: float
+    barrier_over_sigma_delta_wall: float
+
+    pass_force_margin: bool
+    pass_metastable: bool
+    passed: bool
+
+
+def previous_gate_is_green() -> bool:
+    """Require the saved 018A-2 run to have completed green."""
+
+    if not CORE_LOG_PATH.exists():
+        return False
+
+    text = CORE_LOG_PATH.read_text(
+        encoding="utf-8",
+        errors="replace",
+    )
+
+    return (
+        "018A2_CORE_BINDING_PREFLIGHT=GREEN"
+        in text
+    )
+
+
+def odd_grid_count(
+    box_half: float,
+    requested_dx: float,
+) -> int:
+    """Return an odd grid count near the requested uniform spacing."""
+
+    n = int(
+        round(
+            2.0
+            *
+            box_half
+            /
+            requested_dx
+        )
+    ) + 1
+
+    if n % 2 == 0:
+        n += 1
+
+    return max(
+        n,
+        101,
+    )
+
+
+def extract_radial_fields(
+    solution,
+    radius: np.ndarray,
+    profile_rmax: float,
+) -> tuple[
+    np.ndarray,
+    np.ndarray,
+]:
+    """Evaluate f(r) and rho(r), extending them by vacuum outside the BVP."""
+
+    flat = radius.ravel()
+
+    clipped = np.clip(
+        flat,
+        core_mod.R0,
+        profile_rmax,
+    )
+
+    values = solution.sol(
+        clipped
+    )
+
+    f = values[0].reshape(
+        radius.shape
+    )
+
+    rho = values[6].reshape(
+        radius.shape
+    )
+
+    inside_axis = (
+        radius
+        <
+        core_mod.R0
+    )
+
+    outside = (
+        radius
+        >
+        profile_rmax
+    )
+
+    f = np.array(
+        f,
+        copy=True,
+    )
+
+    rho = np.array(
+        rho,
+        copy=True,
+    )
+
+    f[inside_axis] = 0.0
+    rho[inside_axis] = 0.0
+
+    f[outside] = (
+        core_mod.ETA_PHI
+    )
+
+    rho[outside] = (
+        core_mod.F_PHASE
+    )
+
+    return (
+        f,
+        rho,
+    )
+
+
+def correlation_curve(
+    solution,
+    *,
+    box_half: float,
+    requested_dx: float,
+    profile_rmax: float,
+    displacement_max: float,
+) -> tuple[
+    np.ndarray,
+    np.ndarray,
+    float,
+    int,
+]:
+    """Compute the axisymmetric core-deficit cross-correlation by FFT."""
+
+    n = odd_grid_count(
+        box_half,
+        requested_dx,
+    )
+
+    x = np.linspace(
+        -box_half,
+        box_half,
+        n,
+    )
+
+    dx = float(
+        x[1]
+        -
+        x[0]
+    )
+
+    X, Y = np.meshgrid(
+        x,
+        x,
+        indexing="ij",
+    )
+
+    radius = np.sqrt(
+        X * X
+        +
+        Y * Y
+    )
+
+    f, rho = (
+        extract_radial_fields(
+            solution,
+            radius,
+            profile_rmax,
+        )
+    )
+
+    f_deficit = (
+        f * f
+        -
+        core_mod.ETA_PHI
+        *
+        core_mod.ETA_PHI
+    )
+
+    rho_deficit = (
+        rho * rho
+        -
+        core_mod.F_PHASE
+        *
+        core_mod.F_PHASE
+    )
+
+    correlation = (
+        fftconvolve(
+            f_deficit,
+            rho_deficit,
+            mode="same",
+        )
+        *
+        dx
+        *
+        dx
+    )
+
+    center = (
+        n // 2
+    )
+
+    displacement = (
+        x[
+            center:
+        ]
+        -
+        x[
+            center
+        ]
+    )
+
+    line = correlation[
+        center:,
+        center,
+    ]
+
+    keep = (
+        displacement
+        <=
+        displacement_max
+    )
+
+    return (
+        displacement[
+            keep
+        ],
+        line[
+            keep
+        ],
+        dx,
+        n,
+    )
+
+
+def interaction_energy_curve(
+    displacement: np.ndarray,
+    correlation: np.ndarray,
+    *,
+    kappa_fraction: float,
+) -> np.ndarray:
+    """Convert one correlation curve into the junction interaction energy."""
+
+    kappa = (
+        core_mod.kappa_from_fraction(
+            kappa_fraction
+        )
+    )
+
+    energy = (
+        -0.25
+        *
+        kappa
+        *
+        correlation
+    )
+
+    # Only a constant shift is removed.
+    #
+    # Forces and barriers are unchanged.
+    tail_reference = float(
+        energy[-1]
+    )
+
+    return (
+        energy
+        -
+        tail_reference
+    )
+
+
+def linear_root(
+    x0: float,
+    x1: float,
+    y0: float,
+    y1: float,
+) -> float:
+    """Linearly interpolate a zero crossing."""
+
+    if y1 == y0:
+        return (
+            0.5
+            *
+            (
+                x0
+                +
+                x1
+            )
+        )
+
+    return (
+        x0
+        -
+        y0
+        *
+        (
+            x1
+            -
+            x0
+        )
+        /
+        (
+            y1
+            -
+            y0
+        )
+    )
+
+
+def force_metrics(
+    displacement: np.ndarray,
+    interaction_energy: np.ndarray,
+    *,
+    relaxation_efficiency: float,
+    sigma_wall: float,
+    delta_wall: float,
+) -> ForceMetrics:
+    """Find force margin, metastable equilibrium, and escape barrier."""
+
+    eta = float(
+        np.clip(
+            relaxation_efficiency,
+            0.0,
+            1.0,
+        )
+    )
+
+    spline = CubicSpline(
+        displacement,
+        interaction_energy,
+        bc_type="natural",
+    )
+
+    dense_d = np.linspace(
+        float(
+            displacement[0]
+        ),
+        float(
+            displacement[-1]
+        ),
+        12001,
+    )
+
+    raw_force = spline(
+        dense_d,
+        1,
+    )
+
+    force = (
+        eta
+        *
+        raw_force
+    )
+
+    max_index = int(
+        np.argmax(
+            force
+        )
+    )
+
+    force_max = float(
+        force[
+            max_index
+        ]
+    )
+
+    force_max_at_d = float(
+        dense_d[
+            max_index
+        ]
+    )
+
+    force_ratio = (
+        force_max
+        /
+        sigma_wall
+    )
+
+    balance = (
+        force
+        -
+        sigma_wall
+    )
+
+    upward = np.where(
+        (
+            balance[:-1]
+            <
+            0.0
+        )
+        &
+        (
+            balance[1:]
+            >=
+            0.0
+        )
+    )[0]
+
+    stable_found = (
+        len(
+            upward
+        )
+        >
+        0
+    )
+
+    stable_d = math.nan
+    unstable_d = math.nan
+
+    stable_curvature = math.nan
+    unstable_curvature = math.nan
+
+    barrier = math.nan
+    barrier_normalized = math.nan
+
+    unstable_found = False
+
+    if stable_found:
+        i_stable = int(
+            upward[0]
+        )
+
+        stable_d = linear_root(
+            dense_d[i_stable],
+            dense_d[i_stable + 1],
+            balance[i_stable],
+            balance[i_stable + 1],
+        )
+
+        downward = np.where(
+            (
+                np.arange(
+                    len(
+                        balance
+                    )
+                    -
+                    1
+                )
+                >
+                i_stable
+            )
+            &
+            (
+                balance[:-1]
+                >=
+                0.0
+            )
+            &
+            (
+                balance[1:]
+                <
+                0.0
+            )
+        )[0]
+
+        unstable_found = (
+            len(
+                downward
+            )
+            >
+            0
+        )
+
+        stable_curvature = float(
+            eta
+            *
+            spline(
+                stable_d,
+                2,
+            )
+        )
+
+        if unstable_found:
+            i_unstable = int(
+                downward[0]
+            )
+
+            unstable_d = (
+                linear_root(
+                    dense_d[
+                        i_unstable
+                    ],
+                    dense_d[
+                        i_unstable
+                        +
+                        1
+                    ],
+                    balance[
+                        i_unstable
+                    ],
+                    balance[
+                        i_unstable
+                        +
+                        1
+                    ],
+                )
+            )
+
+            unstable_curvature = float(
+                eta
+                *
+                spline(
+                    unstable_d,
+                    2,
+                )
+            )
+
+            def effective_energy(
+                d: float,
+            ) -> float:
+                return float(
+                    eta
+                    *
+                    (
+                        spline(d)
+                        -
+                        spline(0.0)
+                    )
+                    -
+                    sigma_wall
+                    *
+                    d
+                )
+
+            e_stable = (
+                effective_energy(
+                    stable_d
+                )
+            )
+
+            e_unstable = (
+                effective_energy(
+                    unstable_d
+                )
+            )
+
+            barrier = (
+                e_unstable
+                -
+                e_stable
+            )
+
+            barrier_normalized = (
+                barrier
+                /
+                (
+                    sigma_wall
+                    *
+                    delta_wall
+                )
+            )
+
+    pass_force_margin = (
+        force_ratio
+        >=
+        FORCE_MARGIN_REQUIRED
+    )
+
+    pass_metastable = (
+        stable_found
+        and
+        unstable_found
+        and
+        np.isfinite(
+            barrier
+        )
+        and
+        barrier
+        >
+        0.0
+        and
+        stable_curvature
+        >
+        0.0
+        and
+        unstable_curvature
+        <
+        0.0
+    )
+
+    passed = (
+        pass_force_margin
+        and
+        pass_metastable
+    )
+
+    return ForceMetrics(
+        force_ratio=force_ratio,
+        force_max=force_max,
+        force_max_at_d=force_max_at_d,
+        stable_found=stable_found,
+        unstable_found=unstable_found,
+        stable_d=stable_d,
+        unstable_d=unstable_d,
+        stable_curvature=stable_curvature,
+        unstable_curvature=unstable_curvature,
+        barrier=barrier,
+        barrier_over_sigma_delta_wall=(
+            barrier_normalized
+        ),
+        pass_force_margin=(
+            pass_force_margin
+        ),
+        pass_metastable=(
+            pass_metastable
+        ),
+        passed=passed,
+    )
+
+
+def print_metrics(
+    label: str,
+    metrics: ForceMetrics,
+) -> None:
+    """Print one compact force/barrier result."""
+
+    print(
+        f"{label} "
+        f"FORCE_RATIO={metrics.force_ratio:.12f} "
+        f"FMAX={metrics.force_max:.15e} "
+        f"FMAX_D={metrics.force_max_at_d:.9f} "
+        f"STABLE_D={metrics.stable_d:.9f} "
+        f"UNSTABLE_D={metrics.unstable_d:.9f} "
+        f"BARRIER={metrics.barrier:.15e} "
+        f"BARRIER_OVER_SIGMA_DELTA="
+        f"{metrics.barrier_over_sigma_delta_wall:.12f} "
+        f"STABLE_CURV={metrics.stable_curvature:+.15e} "
+        f"UNSTABLE_CURV={metrics.unstable_curvature:+.15e} "
+        f"PASS={'YES' if metrics.passed else 'NO'}"
+    )
+
+
+def main() -> None:
+    """Execute the 018A-3 translational junction-force gate."""
+
+    print(
+        "=== ANTIGRAVITY_RESEARCH 018A-3 ==="
+    )
+
+    print(
+        "QUESTION="
+        "DOES_MICROSCOPIC_WALL_TENSION_PEEL_THE_BOUNDARY_STRING_OFF_THE_017P_CORE"
+    )
+
+    print(
+        "TRUE_2D_EXPLICIT_BREAKING_JUNCTION="
+        "NOT_SOLVED_BY_THIS_GATE"
+    )
+
+    print(
+        "TRANSLATIONAL_BINDING_FORCE_PREFLIGHT="
+        "YES"
+    )
+
+    assert (
+        previous_gate_is_green()
+    )
+
+    print(
+        "018A2_PRIOR_GATE_RECHECK=GREEN"
+    )
+
+    print(
+        "\n=== MICROSCOPIC WALL FORCE RECONSTRUCTION ==="
+    )
+
+    wall = (
+        wall_mod.solve_planar_wall(
+            wall_mod.F_PHASE,
+            wall_mod.MASS_HIERARCHY,
+            12.0,
+        )
+    )
+
+    sigma_wall = float(
+        wall[
+            "tension"
+        ]
+    )
+
+    delta_wall = (
+        1.0
+        /
+        wall_mod.wall_parameters(
+            wall_mod.F_PHASE,
+            wall_mod.MASS_HIERARCHY,
+        )[
+            "m_a"
+        ]
+    )
+
+    print(
+        f"SIGMA_W={sigma_wall:.15e}"
+    )
+
+    print(
+        f"DELTA_W={delta_wall:.15e}"
+    )
+
+    print(
+        f"ACTIVE_OVER_SIGMA={wall['active_over_tension']:+.15e}"
+    )
+
+    print(
+        f"WALL_VIRIAL_RESIDUAL={wall['virial_residual']:+.15e}"
+    )
+
+    assert (
+        abs(
+            wall[
+                "active_over_tension"
+            ]
+            +
+            1.0
+        )
+        <
+        1.0e-5
+    )
+
+    print(
+        "MICROSCOPIC_WALL_FORCE_RECONSTRUCTION=PASS"
+    )
+
+    print(
+        "\n=== RADIAL PROFILE RECONSTRUCTION ==="
+    )
+
+    base_solution, base_diag = (
+        core_mod.solve_and_diagnose(
+            chi=core_mod.CHI_SELECTED,
+            fraction=0.0,
+            rmax=PROFILE_RMAX_MAIN,
+        )
+    )
+
+    a_relerr = (
+        abs(
+            base_diag.a_original
+            -
+            core_mod.A_STRING_JOURNAL
+        )
+        /
+        core_mod.A_STRING_JOURNAL
+    )
+
+    sigma2_relerr = (
+        abs(
+            base_diag.sigma2
+            -
+            core_mod.SIGMA2_JOURNAL
+        )
+        /
+        core_mod.SIGMA2_JOURNAL
+    )
+
+    print(
+        f"BASE_A_STRING_RELERR={a_relerr:.15e}"
+    )
+
+    print(
+        f"BASE_SIGMA2_RELERR={sigma2_relerr:.15e}"
+    )
+
+    assert (
+        a_relerr
+        <
+        5.0e-5
+    )
+
+    assert (
+        sigma2_relerr
+        <
+        5.0e-5
+    )
+
+    print(
+        "017P_BASELINE_RECONSTRUCTION=PASS"
+    )
+
+    print(
+        "\n=== BASELINE PROFILE FFT CORRELATION ==="
+    )
+
+    (
+        d_base,
+        corr_base,
+        dx_base,
+        n_base,
+    ) = correlation_curve(
+        base_solution,
+        box_half=FFT_BOX_MAIN,
+        requested_dx=FFT_DX_MAIN,
+        profile_rmax=PROFILE_RMAX_MAIN,
+        displacement_max=DISPLACEMENT_MAX,
+    )
+
+    print(
+        f"FFT_MAIN_N={n_base}"
+    )
+
+    print(
+        f"FFT_MAIN_DX={dx_base:.15e}"
+    )
+
+    print(
+        f"FFT_MAIN_BOX_HALF={FFT_BOX_MAIN:.9f}"
+    )
+
+    print(
+        f"FFT_MAIN_DMAX={float(d_base[-1]):.9f}"
+    )
+
+    print(
+        "\n=== HEALTHY COUPLING FORCE / BARRIER SCAN ==="
+    )
+
+    previous = (
+        base_solution
+    )
+
+    records = {}
+
+    eta_values = []
+
+    for fraction in ALL_MAIN_FRACTIONS:
+        solution, diag = (
+            core_mod.solve_and_diagnose(
+                chi=core_mod.CHI_SELECTED,
+                fraction=fraction,
+                rmax=PROFILE_RMAX_MAIN,
+                previous=previous,
+            )
+        )
+
+        previous = (
+            solution
+        )
+
+        delta_total = (
+            diag.a_total_ir
+            -
+            base_diag.a_total_ir
+        )
+
+        if (
+            diag.a_cross
+            >=
+            0.0
+            or
+            delta_total
+            >=
+            0.0
+        ):
+            eta = 0.0
+        else:
+            eta = (
+                abs(
+                    delta_total
+                )
+                /
+                abs(
+                    diag.a_cross
+                )
+            )
+
+        eta = float(
+            np.clip(
+                eta,
+                0.0,
+                1.0,
+            )
+        )
+
+        eta_values.append(
+            eta
+        )
+
+        print(
+            "COUPLING "
+            f"KF={fraction:.9f} "
+            f"DELTA_TOTAL={delta_total:+.15e} "
+            f"A_CROSS={diag.a_cross:+.15e} "
+            f"ETA_RELAX={eta:.12f}"
+        )
+
+        base_energy = (
+            interaction_energy_curve(
+                d_base,
+                corr_base,
+                kappa_fraction=fraction,
+            )
+        )
+
+        base_metrics = (
+            force_metrics(
+                d_base,
+                base_energy,
+                relaxation_efficiency=eta,
+                sigma_wall=sigma_wall,
+                delta_wall=delta_wall,
+            )
+        )
+
+        (
+            d_relaxed,
+            corr_relaxed,
+            dx_relaxed,
+            n_relaxed,
+        ) = correlation_curve(
+            solution,
+            box_half=FFT_BOX_MAIN,
+            requested_dx=FFT_DX_MAIN,
+            profile_rmax=PROFILE_RMAX_MAIN,
+            displacement_max=DISPLACEMENT_MAX,
+        )
+
+        relaxed_energy = (
+            interaction_energy_curve(
+                d_relaxed,
+                corr_relaxed,
+                kappa_fraction=fraction,
+            )
+        )
+
+        relaxed_metrics = (
+            force_metrics(
+                d_relaxed,
+                relaxed_energy,
+                relaxation_efficiency=eta,
+                sigma_wall=sigma_wall,
+                delta_wall=delta_wall,
+            )
+        )
+
+        print_metrics(
+            f"BASELINE_SHAPE KF={fraction:.9f}",
+            base_metrics,
+        )
+
+        print_metrics(
+            f"RELAXED_SHAPE KF={fraction:.9f}",
+            relaxed_metrics,
+        )
+
+        both_pass = (
+            base_metrics.passed
+            and
+            relaxed_metrics.passed
+        )
+
+        print(
+            "FORCE_GATE "
+            f"KF={fraction:.9f} "
+            f"BOTH_ESTIMATES_PASS="
+            f"{'YES' if both_pass else 'NO'}"
+        )
+
+        records[
+            float(
+                fraction
+            )
+        ] = {
+            "solution": solution,
+            "diag": diag,
+            "eta": eta,
+            "base_metrics": (
+                base_metrics
+            ),
+            "relaxed_metrics": (
+                relaxed_metrics
+            ),
+            "both_pass": (
+                both_pass
+            ),
+        }
+
+    print(
+        "\n=== NONMARGINAL NEIGHBORHOOD DECISION ==="
+    )
+
+    nonmarginal_passes = [
+        fraction
+        for fraction
+        in NONMARGINAL_HEALTHY
+        if bool(
+            records[
+                float(
+                    fraction
+                )
+            ][
+                "both_pass"
+            ]
+        )
+    ]
+
+    print(
+        "NONMARGINAL_TESTED_COUNT="
+        f"{len(NONMARGINAL_HEALTHY)}"
+    )
+
+    print(
+        "NONMARGINAL_PASS_COUNT="
+        f"{len(nonmarginal_passes)}"
+    )
+
+    if nonmarginal_passes:
+        print(
+            "NONMARGINAL_PASS_MIN_KF="
+            f"{min(nonmarginal_passes):.9f}"
+        )
+
+        print(
+            "NONMARGINAL_PASS_MAX_KF="
+            f"{max(nonmarginal_passes):.9f}"
+        )
+
+    nonmarginal_all_pass = (
+        len(
+            nonmarginal_passes
+        )
+        ==
+        len(
+            NONMARGINAL_HEALTHY
+        )
+    )
+
+    print(
+        "NONMARGINAL_CONTIGUOUS_FORCE_BASIN="
+        f"{'PASS' if nonmarginal_all_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== SELECTED 0.625 FFT CONVERGENCE ==="
+    )
+
+    selected = (
+        records[
+            0.625
+        ]
+    )
+
+    selected_solution = (
+        selected[
+            "solution"
+        ]
+    )
+
+    selected_eta = float(
+        selected[
+            "eta"
+        ]
+    )
+
+    grid_force_ratios = []
+
+    for (
+        box_half,
+        requested_dx,
+    ) in GRID_CONVERGENCE_CASES:
+
+        (
+            d_conv,
+            corr_conv,
+            dx_conv,
+            n_conv,
+        ) = correlation_curve(
+            selected_solution,
+            box_half=box_half,
+            requested_dx=requested_dx,
+            profile_rmax=PROFILE_RMAX_MAIN,
+            displacement_max=min(
+                DISPLACEMENT_MAX,
+                0.75
+                *
+                box_half,
+            ),
+        )
+
+        e_conv = (
+            interaction_energy_curve(
+                d_conv,
+                corr_conv,
+                kappa_fraction=0.625,
+            )
+        )
+
+        m_conv = (
+            force_metrics(
+                d_conv,
+                e_conv,
+                relaxation_efficiency=selected_eta,
+                sigma_wall=sigma_wall,
+                delta_wall=delta_wall,
+            )
+        )
+
+        grid_force_ratios.append(
+            m_conv.force_ratio
+        )
+
+        print(
+            "GRID_CONV "
+            f"BOX_HALF={box_half:.6f} "
+            f"N={n_conv} "
+            f"DX={dx_conv:.12e} "
+            f"FORCE_RATIO={m_conv.force_ratio:.12f} "
+            f"STABLE_D={m_conv.stable_d:.9f} "
+            f"UNSTABLE_D={m_conv.unstable_d:.9f} "
+            f"BARRIER={m_conv.barrier:.15e} "
+            f"PASS={'YES' if m_conv.passed else 'NO'}"
+        )
+
+    grid_force_ratios = np.array(
+        grid_force_ratios,
+        dtype=float,
+    )
+
+    grid_spread = (
+        float(
+            np.max(
+                grid_force_ratios
+            )
+            -
+            np.min(
+                grid_force_ratios
+            )
+        )
+        /
+        float(
+            np.mean(
+                grid_force_ratios
+            )
+        )
+    )
+
+    print(
+        f"GRID_FORCE_RATIO_REL_SPREAD={grid_spread:.15e}"
+    )
+
+    grid_convergence_pass = (
+        grid_spread
+        <=
+        MAX_GRID_FORCE_RATIO_SPREAD
+    )
+
+    print(
+        "FFT_GRID_CONVERGENCE="
+        f"{'PASS' if grid_convergence_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== SELECTED 0.625 RADIAL-PROFILE DOMAIN CONVERGENCE ==="
+    )
+
+    profile_force_ratios = []
+
+    for rmax in PROFILE_RMAX_CONVERGENCE:
+        base_sol_r, base_diag_r = (
+            core_mod.solve_and_diagnose(
+                chi=core_mod.CHI_SELECTED,
+                fraction=0.0,
+                rmax=rmax,
+            )
+        )
+
+        selected_sol_r, selected_diag_r = (
+            core_mod.solve_and_diagnose(
+                chi=core_mod.CHI_SELECTED,
+                fraction=0.625,
+                rmax=rmax,
+                previous=base_sol_r,
+            )
+        )
+
+        delta_r = (
+            selected_diag_r.a_total_ir
+            -
+            base_diag_r.a_total_ir
+        )
+
+        eta_r = (
+            abs(
+                delta_r
+            )
+            /
+            abs(
+                selected_diag_r.a_cross
+            )
+        )
+
+        eta_r = float(
+            np.clip(
+                eta_r,
+                0.0,
+                1.0,
+            )
+        )
+
+        d_r, corr_r, _, _ = (
+            correlation_curve(
+                selected_sol_r,
+                box_half=FFT_BOX_MAIN,
+                requested_dx=FFT_DX_MAIN,
+                profile_rmax=rmax,
+                displacement_max=DISPLACEMENT_MAX,
+            )
+        )
+
+        e_r = (
+            interaction_energy_curve(
+                d_r,
+                corr_r,
+                kappa_fraction=0.625,
+            )
+        )
+
+        metrics_r = (
+            force_metrics(
+                d_r,
+                e_r,
+                relaxation_efficiency=eta_r,
+                sigma_wall=sigma_wall,
+                delta_wall=delta_wall,
+            )
+        )
+
+        profile_force_ratios.append(
+            metrics_r.force_ratio
+        )
+
+        print(
+            "PROFILE_CONV "
+            f"RMAX={rmax:.3f} "
+            f"ETA={eta_r:.12f} "
+            f"FORCE_RATIO={metrics_r.force_ratio:.12f} "
+            f"STABLE_D={metrics_r.stable_d:.9f} "
+            f"UNSTABLE_D={metrics_r.unstable_d:.9f} "
+            f"BARRIER={metrics_r.barrier:.15e} "
+            f"PASS={'YES' if metrics_r.passed else 'NO'}"
+        )
+
+    profile_force_ratios = (
+        np.array(
+            profile_force_ratios,
+            dtype=float,
+        )
+    )
+
+    profile_spread = (
+        float(
+            np.max(
+                profile_force_ratios
+            )
+            -
+            np.min(
+                profile_force_ratios
+            )
+        )
+        /
+        float(
+            np.mean(
+                profile_force_ratios
+            )
+        )
+    )
+
+    print(
+        f"PROFILE_FORCE_RATIO_REL_SPREAD={profile_spread:.15e}"
+    )
+
+    profile_convergence_pass = (
+        profile_spread
+        <=
+        MAX_PROFILE_FORCE_RATIO_SPREAD
+    )
+
+    print(
+        "RADIAL_PROFILE_CONVERGENCE="
+        f"{'PASS' if profile_convergence_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== CONSERVATIVE CRITICAL COUPLING ESTIMATE ==="
+    )
+
+    eta_floor = float(
+        min(
+            records[
+                float(
+                    fraction
+                )
+            ][
+                "eta"
+            ]
+            for fraction
+            in NONMARGINAL_HEALTHY
+        )
+    )
+
+    unit_energy = (
+        interaction_energy_curve(
+            d_base,
+            corr_base,
+            kappa_fraction=0.999,
+        )
+    )
+
+    unit_metrics = (
+        force_metrics(
+            d_base,
+            unit_energy,
+            relaxation_efficiency=eta_floor,
+            sigma_wall=sigma_wall,
+            delta_wall=delta_wall,
+        )
+    )
+
+    if (
+        unit_metrics.force_ratio
+        >
+        0.0
+    ):
+        critical_fraction_linear = (
+            0.999
+            /
+            unit_metrics.force_ratio
+        )
+    else:
+        critical_fraction_linear = (
+            math.inf
+        )
+
+    print(
+        f"ETA_RELAX_FLOOR={eta_floor:.15e}"
+    )
+
+    print(
+        f"LINEARIZED_CRITICAL_KF_ESTIMATE="
+        f"{critical_fraction_linear:.15e}"
+    )
+
+    print(
+        "\n=== BLIND WILDCARD FORCE CHECK ==="
+    )
+
+    for raw in WILDCARD_VALUES:
+        if raw > 1.0:
+            fraction = (
+                1.0
+                /
+                raw
+            )
+
+            transform = (
+                "INVERSE"
+            )
+        else:
+            fraction = raw
+
+            transform = (
+                "IDENTITY"
+            )
+
+        if not (
+            0.0
+            <=
+            fraction
+            <
+            1.0
+        ):
+            print(
+                "WILDCARD "
+                f"RAW={raw:.9f} "
+                "VALID=NO"
+            )
+            continue
+
+        wildcard_energy = (
+            interaction_energy_curve(
+                d_base,
+                corr_base,
+                kappa_fraction=fraction,
+            )
+        )
+
+        wildcard_metrics = (
+            force_metrics(
+                d_base,
+                wildcard_energy,
+                relaxation_efficiency=eta_floor,
+                sigma_wall=sigma_wall,
+                delta_wall=delta_wall,
+            )
+        )
+
+        print(
+            "WILDCARD "
+            f"RAW={raw:.9f} "
+            f"TRANSFORM={transform} "
+            f"KF={fraction:.9f} "
+            f"FORCE_RATIO={wildcard_metrics.force_ratio:.12f} "
+            f"STABLE_D={wildcard_metrics.stable_d:.9f} "
+            f"BARRIER={wildcard_metrics.barrier:.15e} "
+            f"PASS={'YES' if wildcard_metrics.passed else 'NO'} "
+            "INTERPRETATION=BLIND_CONTROL_ONLY"
+        )
+
+    print(
+        "\n=== 018A-3 DECISION ==="
+    )
+
+    selected_both_pass = bool(
+        records[
+            0.625
+        ][
+            "both_pass"
+        ]
+    )
+
+    overall_green = (
+        nonmarginal_all_pass
+        and
+        selected_both_pass
+        and
+        grid_convergence_pass
+        and
+        profile_convergence_pass
+    )
+
+    print(
+        "SELECTED_KF_0P625_FORCE_GATE="
+        f"{'PASS' if selected_both_pass else 'FAIL'}"
+    )
+
+    print(
+        "NONMARGINAL_FORCE_BASIN="
+        f"{'PASS' if nonmarginal_all_pass else 'FAIL'}"
+    )
+
+    print(
+        "FFT_GRID_CONVERGENCE="
+        f"{'PASS' if grid_convergence_pass else 'FAIL'}"
+    )
+
+    print(
+        "RADIAL_PROFILE_CONVERGENCE="
+        f"{'PASS' if profile_convergence_pass else 'FAIL'}"
+    )
+
+    print(
+        "018A3_WALL_PULL_VS_BINDING_FORCE_GATE="
+        f"{'GREEN' if overall_green else 'RED'}"
+    )
+
+    print(
+        "TRUE_2D_STRING_WALL_JUNCTION="
+        "NOT_YET_SOLVED"
+    )
+
+    print(
+        "COMPLETE_JUNCTION_STRESS_ENERGY="
+        "NOT_YET_SOLVED"
+    )
+
+    print(
+        "FINITE_PAYLOAD_GRAVITY_AFTER_TRUE_JUNCTION="
+        "NOT_YET_TESTED"
+    )
+
+    print(
+        "FULL_018A_GATE="
+        "NOT_YET_GREEN"
+    )
+
+    print(
+        "PRACTICAL_ANTIGRAVITY_DEVICE="
+        "NO"
+    )
+
+    print(
+        "CLAIM_CLASSIFICATION="
+        "PROJECT_DERIVED_018A_TRANSLATIONAL_JUNCTION_FORCE_PREFLIGHT"
+    )
+
+    if overall_green:
+        print(
+            "NEXT="
+            "018A4_TRUE_2D_EXPLICIT_BREAKING_STRING_WALL_JUNCTION_WITH_ANISOTROPIC_FIELD_RELAXATION"
+        )
+    else:
+        print(
+            "NEXT="
+            "AUDIT_OR_DEMOTE_SEPARATE_WALL_CORE_BINDING_BEFORE_FULL_2D_PDE"
+        )
+
+
+if __name__ == "__main__":
+    main()

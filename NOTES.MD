@@ -42349,3 +42349,11284 @@ notes/chronology/0014_august_29_2026_21_00_cst.md
 ```
 
 ### END NOTE - AUGUST 29 2026 - 21:00 CST
+
+
+### BEGIN NOTE - AUGUST 30 2026 - 14:30 CST
+
+
+# ANTIGRAVITY_RESEARCH — Comprehensive Carry-Forward Notes Through 018B-0A
+
+**Session closeout:** August 30, 2026
+**Project:** `ANTIGRAVITY_RESEARCH`
+**Known-solution regression baseline:** `94 passed`
+**Current milestone heuristic:** approximately `66%`
+**Important:** this percentage is an internal project-management completion ruler, **not a probability that practical antigravity exists**.
+**Strongest established project-derived result:** 006D finite positive-energy locally conserved linearized-GR repulsion.
+**Strongest newly completed realization gate:** `FULL_018A_GATE=GREEN`.
+**Current validated nonthermal realization:** topology-consistent KLS-like microscopic wall + literature-backed gauged-vorton rim at the 018A preflight level, including finite wall thickness, finite payload, complete declared zero-temperature support bookkeeping, and positive total active mass.
+**Leading lower-energy architecture candidate:** a **single stationary gauged vorton + one KLS wall**, currently source-level and integer-EOS consistent but **not yet microscopically revalidated** at its new operating point.
+**Current unresolved gate:** same-\(N\) local continuity for that new single-vorton operating point.
+**Practical antigravity device:** `NO`.
+**New-physics discovery:** `NO`.
+**Novelty of the full project combination:** `NOT_ESTABLISHED`.
+**Current validated 1g / 1m energy:** approximately `2.343e34 J`.
+**Current projected single-vorton 1g / 1m energy if microscopic revalidation succeeds:** approximately `1.158e34 J`.
+**Documentation rule for next session:** do **not** update journal, README, buildplan, claims, or other public/durable summary documents at the start. Continue from these notes. If the project genuinely earns the ~80% milestone by the end of the next session, perform one consolidated documentation sweep then.
+
+---
+
+# 0. Purpose of this handoff
+
+These notes are designed to allow a fresh session to resume without reconstructing the August 30 work from chat logs.
+
+They preserve:
+
+* the exact promoted state of 018A;
+* the mathematical proofs underlying the current nonthermal architecture;
+* the sequence 018A-6A through 018A-8;
+* the architecture simplification discovered in 018B-0;
+* the integer-EOS consistency work in 018B-0A;
+* the exact reason 018B-0A is formally RED;
+* the distinction between the validated two-copy source and the projected single-vorton source;
+* the current 1g energy ledger;
+* the shortest credible route from approximately 66% to 80%;
+* the separate, much harder route from 80% to 90%;
+* the necessary stop rules and falsifiers;
+* the numerical and repository workflow needed to preserve scientific reliability;
+* the documentation work intentionally deferred until the end of the next session.
+
+The authoritative older context remains:
+
+```text
+RESEARCH_BUILDPLAN.md
+FORMATTING_AND_CODE_STANDARDS.md
+NOTES.MD
+notes/chronology/
+journal/
+README.md
+latest ANTIGRAVITY_RESEARCH codebundle
+```
+
+However, the currently attached buildplan/codebundle predates much of the 018A-6A through 018B-0A work.
+
+Therefore:
+
+```text
+FOR_CURRENT_FRONTIER=
+USE_THIS_CARRY_FORWARD_NOTE_PLUS_ACTUAL_REPOSITORY_SOURCE_AND_LOGS
+
+FOR_GATE_DEFINITIONS_AND_OLDER_HISTORY=
+USE_RESEARCH_BUILDPLAN_AND_JOURNALS
+```
+
+Do not allow stale wording in older files to demote the already-completed 018A result.
+
+---
+
+# 1. Governing scientific discipline
+
+The project continues to ask:
+
+> Can a physically consistent stress-energy configuration, spacetime geometry, quantum effect, or well-motivated extension of gravity produce measurable gravitational repulsion, defocusing, reduced attraction, or an operationally equivalent force on neutral matter, and can any such mechanism become stable, finite-payload, experimentally accessible, and practically energetic?
+
+The following levels must remain separate:
+
+```text
+1. MATHEMATICAL POSSIBILITY
+
+2. LOCAL REPULSION
+
+3. EFFECTIVE / WORLDSHEET REALIZATION
+
+4. FINITE-PAYLOAD RESPONSE
+
+5. MICROSCOPIC LOCAL FIELD REALIZATION
+
+6. GLOBAL FINITE-THICKNESS FIELD REALIZATION
+
+7. DYNAMIC STABILITY
+
+8. STATIONARY / FRAME-DRAGGING CONSISTENCY
+
+9. NONLINEAR EINSTEIN-MATTER CONSISTENCY
+
+10. EXPERIMENTAL ACCESSIBILITY
+
+11. PRACTICAL ENERGY / CONTROL SCALING
+
+12. PRACTICAL ANTIGRAVITY DEVICE
+```
+
+Never promote one level to the next without the corresponding gate.
+
+In particular:
+
+```text
+LOCAL_REPULSION
+DOES_NOT_IMPLY
+FINITE_PAYLOAD_REPULSION
+
+NEGATIVE_ACTIVE_DENSITY
+DOES_NOT_IMPLY
+OUTWARD_GRAVITY
+
+EFFECTIVE_WORLDSHEET_SOLUTION
+DOES_NOT_IMPLY
+MICROSCOPIC_FIELD_SOLUTION
+
+MICROSCOPIC_LOCAL_JUNCTION
+DOES_NOT_IMPLY
+GLOBAL_TOROIDAL_FIELD_SOLUTION
+
+FIELD_EQUATIONS
+DO_NOT_IMPLY
+STABILITY
+
+STABILITY
+DOES_NOT_IMPLY
+NONLINEAR_GR_CONTINUATION
+
+NONLINEAR_GR_CONTINUATION
+DOES_NOT_IMPLY
+PRACTICAL_ENERGY
+
+THEORETICAL_POSSIBILITY
+DOES_NOT_IMPLY
+A PRACTICAL DEVICE
+```
+
+Every support sector required for the configuration to exist must be included in both energy and gravity:
+
+```text
+WALL
+RIM
+CURRENT
+GAUGE_FIELD
+JUNCTION
+BIAS
+CONFINEMENT
+STABILIZER
+THERMAL_BATH
+CONTROL_FIELD
+ENCLOSURE
+OTHER_MANDATORY_SUPPORT
+```
+
+The 017S thermal obstruction is the permanent warning against subsystem-only gravitational accounting.
+
+---
+
+# 2. Current compact checkpoint
+
+```text
+KNOWN_SOLUTION_BASELINE=
+94_PASSED
+
+STRONGEST_FOUNDATIONAL_RESULT=
+006D_FINITE_POSITIVE_ENERGY_LOCALLY_CONSERVED_LINEARIZED_GR_REPULSION
+
+006D_THIN_C=
+23.426710175391
+
+006D_FINITE_C=
+23.591586299249
+
+006D_NEC_WEC_DEC=
+PASS
+
+006D_POSITIVE_FAR_ACTIVE_MASS=
+YES
+
+CORE_GR_DESIGN_PRINCIPLE=
+SPATIAL_KERNEL_LEVERAGE / ACTIVE_STRESS_SEGREGATION
+
+017C_EFFECTIVE_DRUM_FINITE_PAYLOAD_REPULSION=
+YES
+
+017O_BARE_MECHANICAL_DRUM_NONAXIAL_STABILITY=
+FAIL
+
+017P_GAUGED_VORTON_RADIAL_FIELD_EOS=
+SOLVED_AND_LITERATURE_BENCHMARKED
+
+017P_WORLD_SHEET_STABLE_CHI_REGION=
+YES_IN_TESTED_CRITERIA
+
+017R_ROBUST_EFFECTIVE_PHYSICAL_EM_BASIN=
+YES
+
+017S_LITERAL_LOCALIZED_THERMAL_O4_IMPLEMENTATION=
+STRONGLY_DEMOTED
+
+018A_KLS_TOPOLOGY=
+PASS
+
+018A_MICROSCOPIC_WALL=
+PASS
+
+018A_FIXED_BACKGROUND_2D_JUNCTION=
+PASS
+
+018A_FULLY_COUPLED_LOCAL_2D_JUNCTION=
+PASS
+
+018A_FINE_CORE_AND_GLOBAL_OUTER_MATCH=
+PASS
+
+018A_COMPLETE_DECLARED_ZERO_T_BOOKKEEPING=
+PASS
+
+018A_POSITIVE_TOTAL_ACTIVE_MASS=
+PASS
+
+018A_FINITE_THICKNESS_FINITE_PAYLOAD_OUTWARD_GRAVITY=
+PASS
+
+018A_FINITE_RIM_CORE_ENVELOPE=
+PASS
+
+018A_ROBUST_PARAMETER_NEIGHBORHOOD=
+PASS
+
+FULL_018A_GATE=
+GREEN
+
+018B_AUTHORIZED=
+YES
+
+018B0_SINGLE_STATIONARY_VORTON_SOURCE_LEVEL_REGION=
+SUPPORTED
+
+018B0_SOURCE_LEVEL_ENERGY_IMPROVEMENT=
+APPROX_2P02X
+
+018B0A_INTEGER_EOS_LOCK=
+PASS_AT_NOMINAL_POINT
+
+018B0A_DIRECT_017P_BVP_LOCK=
+PASS
+
+018B0A_WORLD_SHEET_STABILITY=
+PASS
+
+018B0A_FIXED_N_LOCAL_CONTINUITY=
+FAIL
+
+NEW_SINGLE_VORTON_MICROSCOPIC_REVALIDATION=
+NOT_YET_COMPLETE
+
+TRUE_018B_GLOBAL_TOROIDAL_FIELD_SOLUTION=
+NOT_YET_SOLVED
+
+018C_FULL_COMPOSITE_STABILITY=
+NOT_YET_SOLVED
+
+018D_STATIONARY_GR_FRAME_DRAGGING=
+NOT_YET_SOLVED
+
+018E_NONLINEAR_EINSTEIN_MATTER=
+NOT_YET_SOLVED
+
+CURRENT_INTERNAL_HEURISTIC=
+APPROXIMATELY_66_PERCENT_NOT_A_PROBABILITY
+
+PRACTICAL_ENERGY_SCALING=
+CATASTROPHIC
+
+PRACTICAL_ANTIGRAVITY_DEVICE=
+NO
+
+NEW_PHYSICS_DISCOVERY=
+NO
+```
+
+---
+
+# 3. Foundational GR result that still anchors the project
+
+The strongest established project-derived construction remains 006D.
+
+It establishes, within static linearized GR, a source that is:
+
+```text
+FINITE_RADIUS
+FINITE_THICKNESS
+NONSINGULAR
+POSITIVE_ENERGY
+LOCALLY_CONSERVED_AT_LINEARIZED_ORDER
+NEC_PASS
+WEC_PASS
+DEC_PASS
+LOCAL_OUTWARD_GRAVITY
+POSITIVE_FAR_ACTIVE_MASS
+```
+
+The energy scaling is
+
+```math
+M_E
+=
+C
+\frac{a h^2}{G}
+```
+
+where
+
+```math
+M_E
+=
+\frac{E}{c^2}.
+```
+
+For 006D:
+
+```math
+C_{\rm finite}
+=
+23.591586299249.
+```
+
+This was an enormous conceptual result but an enormous practical energy cost.
+
+---
+
+# 4. Why positive energy can still produce local gravitational repulsion
+
+For a static weak field, the linearized gravitational source for the Newtonian-like potential is proportional to the active combination
+
+```math
+S
+=
+T_{00}
++
+T_{xx}
++
+T_{yy}
++
+T_{zz}.
+```
+
+Writing the local energy density as `epsilon` and the principal stresses as `p_i`:
+
+```math
+S
+=
+\epsilon
++
+p_x
++
+p_y
++
+p_z.
+```
+
+Therefore positive energy density does not imply positive active density.
+
+For an ideal relativistic domain wall with the wall lying in the `x-y` plane:
+
+```math
+p_x
+=
+-\epsilon
+
+p_y
+=
+-\epsilon
+
+p_z
+=
+0.
+```
+
+Then
+
+```math
+S
+=
+\epsilon
+-\epsilon
+-\epsilon
+=
+-\epsilon
+<
+0.
+```
+
+Thus a positive-energy domain wall can gravitationally repel nearby matter.
+
+This is the fundamental reason that the project does not require negative inertial mass.
+
+The difficult part is not obtaining `S<0` locally.
+
+The difficult part is arranging a finite isolated configuration that:
+
+* remains physically realizable;
+* balances stresses;
+* retains positive total energy / far active mass;
+* places the negative-active component close enough to the payload to dominate the local kernel;
+* remains dynamically stable.
+
+---
+
+# 5. Kernel-leverage theorem used throughout the current architecture
+
+Split the complete active source into positive and negative pieces:
+
+```math
+S
+=
+S_+
+-
+S_-,
+```
+
+where both `S_+` and `S_-` are nonnegative magnitudes.
+
+Define the unweighted active magnitudes:
+
+```math
+Q_+
+=
+\int S_+\,dV
+```
+
+and
+
+```math
+Q_-
+=
+\int S_-\,dV.
+```
+
+Positive far-field active mass requires
+
+```math
+Q_+
+>
+Q_-.
+```
+
+For a chosen payload observable, define source-kernel weighted magnitudes:
+
+```math
+W_+
+=
+\kappa_+ Q_+
+```
+
+and
+
+```math
+W_-
+=
+\kappa_- Q_-.
+```
+
+Outward local or finite-payload acceleration requires
+
+```math
+W_-
+>
+W_+.
+```
+
+Therefore
+
+```math
+\kappa_- Q_-
+>
+\kappa_+ Q_+.
+```
+
+Dividing by positive quantities gives
+
+```math
+\frac{\kappa_-}{\kappa_+}
+>
+\frac{Q_+}{Q_-}.
+```
+
+This is the core kernel-leverage criterion.
+
+It explains how a source can have:
+
+```text
+POSITIVE_FAR_ACTIVE_MASS=YES
+```
+
+while simultaneously producing:
+
+```text
+LOCAL_OR_FINITE_PAYLOAD_OUTWARD_ACCELERATION=YES.
+```
+
+The central architecture is therefore spatial:
+
+```text
+NEGATIVE_ACTIVE_WALL=
+NEAR_AND_HIGH_KERNEL_WEIGHT
+
+COMPENSATING_POSITIVE_ACTIVE_RIM=
+FARTHER_AND_LOWER_KERNEL_WEIGHT
+```
+
+This result should continue to guide both pure-GR and future stronger-interaction branches.
+
+---
+
+# 6. 017O nonaxisymmetric drum instability proof
+
+For the bare effective drum with wall tension `sigma`, perturb the circular boundary by
+
+```math
+r(\phi)
+=
+R
+\left[
+1
++
+\epsilon\cos(m\phi)
+\right].
+```
+
+The area is
+
+```math
+A
+=
+\frac12
+\int_0^{2\pi}
+r^2\,d\phi.
+```
+
+Expanding:
+
+```math
+A
+=
+\pi R^2
+\left(
+1
++
+\frac{\epsilon^2}{2}
+\right)
++
+O(\epsilon^3).
+```
+
+The perimeter is
+
+```math
+L
+=
+\int_0^{2\pi}
+\sqrt{
+r^2
++
+\left(
+\frac{dr}{d\phi}
+\right)^2
+}
+\,d\phi.
+```
+
+Expanding:
+
+```math
+L
+=
+2\pi R
+\left(
+1
++
+\frac{m^2\epsilon^2}{4}
+\right)
++
+O(\epsilon^3).
+```
+
+For the minimal wall-plus-boundary energy, imposing the circular radial equilibrium condition and expanding the total energy gives
+
+```math
+\Delta E_m
+=
+-
+\frac{\pi\sigma R^2}{2}
+\left(
+m^2-1
+\right)
+\epsilon^2
++
+O(\epsilon^3).
+```
+
+For every
+
+```math
+m\ge2,
+```
+
+we have
+
+```math
+m^2-1>0,
+```
+
+so
+
+```math
+\Delta E_m<0.
+```
+
+Therefore the bare mechanical drum is nonaxisymmetrically unstable.
+
+This does **not** prove all field-theoretic vortons are unstable.
+
+It falsifies only the minimal mechanical 017C rim equation of state.
+
+This failure motivated replacing the mechanical rim with the published gauged-vorton field theory.
+
+---
+
+# 7. 017P gauged-vorton field model
+
+The working field theory is
+
+```math
+\mathcal L
+=
+(D_\mu\phi)^*
+D^\mu\phi
++
+\partial_\mu\sigma^*
+\partial^\mu\sigma
+-
+\frac14
+F_{\mu\nu}F^{\mu\nu}
+-
+V(\phi,\sigma),
+```
+
+with
+
+```math
+V
+=
+\frac{\lambda_\phi}{4}
+\left(
+|\phi|^2-\eta_\phi^2
+\right)^2
++
+\frac{\lambda_\sigma}{4}
+\left(
+|\sigma|^2-\eta_\sigma^2
+\right)^2
++
+\beta
+|\phi|^2
+|\sigma|^2.
+```
+
+The straight-string ansatz is
+
+```math
+\phi
+=
+f(r)
+e^{in\theta},
+```
+
+```math
+\sigma
+=
+s(r)
+e^{i(\omega t+kz)},
+```
+
+with
+
+```math
+\chi
+=
+\omega^2-k^2.
+```
+
+The radial equations are
+
+```math
+f''
++
+\frac{f'}{r}
+-
+\left[
+\frac{\lambda_\phi}{2}
+\left(
+f^2-\eta_\phi^2
+\right)
++
+\beta s^2
++
+\left(
+\frac{n-gA_\theta}{r}
+\right)^2
+\right]f
+=
+0,
+```
+
+```math
+s''
++
+\frac{s'}{r}
+-
+\left[
+\frac{\lambda_\sigma}{2}
+\left(
+s^2-\eta_\sigma^2
+\right)
++
+\beta f^2
+-
+\chi
+\right]s
+=
+0,
+```
+
+```math
+A_\theta''
+-
+\frac{A_\theta'}{r}
++
+2g f^2
+\left(
+n-gA_\theta
+\right)
+=
+0.
+```
+
+Define
+
+```math
+\Sigma_n
+=
+2\pi
+\int_0^\infty
+r s^n\,dr.
+```
+
+The string quantity used by the EOS is
+
+```math
+A_{\rm string}
+=
+\mu
+-
+\frac{\lambda_\sigma}{4}
+\Sigma_4.
+```
+
+The independently tested variational identity is
+
+```math
+\frac{dA_{\rm string}}{d\chi}
+=
+-\Sigma_2.
+```
+
+For one string copy:
+
+```math
+T_{tt}
+=
+2\omega^2\Sigma_2
++
+A_{\rm string},
+```
+
+```math
+T_{tz}
+=
+2\omega k\Sigma_2,
+```
+
+```math
+T_{zz}
+=
+2k^2\Sigma_2
+-
+A_{\rm string}.
+```
+
+The active line source is therefore
+
+```math
+T_{tt}
++
+T_{zz}
+=
+2\Sigma_2
+\left(
+\omega^2+k^2
+\right).
+```
+
+This expression is positive.
+
+The negative-active component of the composite must therefore come from the membrane/wall rather than the rim.
+
+---
+
+# 8. KLS-like wall topology used in 018A
+
+The old 017P vortex-forming field `phi` is reinterpreted with charge
+
+```math
+q_\phi=2
+```
+
+under a fundamental gauge coupling
+
+```math
+g_X
+=
+\frac{g_{017P}}{2}.
+```
+
+This preserves the original physical product:
+
+```math
+q_\phi g_X
+=
+g_{017P}.
+```
+
+Introduce a second complex field `A` with
+
+```math
+q_A=1.
+```
+
+Use the phase-locking interaction
+
+```math
+\phi^*A^2
++
+\mathrm{h.c.}
+```
+
+The phase combination is
+
+```math
+\delta
+=
+2\arg A
+-
+\arg\phi.
+```
+
+The unit `phi` vortex carries gauge flux
+
+```math
+\Phi_X
+=
+\frac{2\pi}{q_\phi g_X}
+=
+\frac{2\pi}{g_{017P}}.
+```
+
+Transporting `A` around that flux gives the Wilson phase
+
+```math
+\exp
+\left(
+iq_A g_X\Phi_X
+\right)
+=
+\exp(i\pi)
+=
+-1.
+```
+
+Therefore a smooth globally single-valued nonzero `A` cannot return to itself after one circuit without a sign change.
+
+That sign change is represented by a residual `Z_2` wall.
+
+Thus the wall can terminate on the `phi` vortex.
+
+This is the topological reason the new wall sector avoids the naive same-`U(1)` relative-phase obstruction.
+
+The common phase is gauge.
+
+The physically relevant relative phase is massive through the phase-locking interaction.
+
+Therefore there is no mandatory ungauged logarithmic global tail from the relative phase.
+
+---
+
+# 9. Vacuum-preserving microscopic wall potential
+
+The working potential is
+
+```math
+V
+=
+\frac{\lambda_\phi}{4}
+\left(
+f^2-v^2
+\right)^2
++
+\frac{\lambda_A}{4}
+\left(
+a^2-F^2
+\right)^2
+-
+2hfa^2\cos\delta
++
+c_\phi
+\left(
+f^2-v^2
+\right)
++
+c_A
+\left(
+a^2-F^2
+\right)
++
+C,
+```
+
+with
+
+```math
+c_\phi
+=
+\frac{hF^2}{v},
+```
+
+```math
+c_A
+=
+2hv,
+```
+
+and
+
+```math
+C
+=
+2hvF^2.
+```
+
+These choices preserve the intended asymptotic vacuum and remove an unwanted extensive vacuum-energy offset.
+
+The radial vacuum Hessian is
+
+```math
+H_{ff}
+=
+2\lambda_\phi v^2
++
+\frac{2hF^2}{v},
+```
+
+```math
+H_{aa}
+=
+2\lambda_A F^2,
+```
+
+```math
+H_{fa}
+=
+-4hF.
+```
+
+Positive eigenvalues of this Hessian are part of the local-vacuum stability preflight.
+
+---
+
+# 10. Exact planar Ising-wall proof
+
+Far from the vortex, take `phi` at its vacuum value and write
+
+```math
+A
+=
+x+iy.
+```
+
+The relevant wall potential becomes
+
+```math
+V_{\rm wall}
+=
+\frac{\lambda_A}{4}
+\left(
+x^2+y^2-F^2
+\right)^2
++
+4hv\,y^2.
+```
+
+The `y=0` wall equation is
+
+```math
+x''
+=
+\lambda_A
+x
+\left(
+x^2-F^2
+\right).
+```
+
+The exact kink solution is
+
+```math
+x(z)
+=
+F\tanh(k_W z),
+```
+
+with
+
+```math
+k_W
+=
+\frac{F\sqrt{\lambda_A}}{2}.
+```
+
+To verify this, differentiate:
+
+```math
+x'
+=
+Fk_W
+\operatorname{sech}^2(k_W z),
+```
+
+and
+
+```math
+x''
+=
+-2Fk_W^2
+\tanh(k_Wz)
+\operatorname{sech}^2(k_Wz).
+```
+
+Also:
+
+```math
+x
+\left(
+x^2-F^2
+\right)
+=
+-F^3
+\tanh(k_Wz)
+\operatorname{sech}^2(k_Wz).
+```
+
+Equality requires
+
+```math
+2k_W^2
+=
+\lambda_A F^2/2,
+```
+
+which is exactly satisfied by
+
+```math
+k_W
+=
+F\sqrt{\lambda_A}/2.
+```
+
+---
+
+# 11. Exact planar-wall tension
+
+The kink obeys the one-dimensional virial relation between gradient and potential energy.
+
+Integrating the wall energy gives
+
+```math
+\sigma_W
+=
+\frac{4}{3}
+F^3
+\sqrt{\lambda_A}.
+```
+
+At the original selected point
+
+```text
+F=0.075
+lambda_A=1
+```
+
+the analytic value is
+
+```math
+\sigma_W
+=
+5.625e-4.
+```
+
+The numerical BVP produced
+
+```text
+sigma_W=
+5.623876169625573e-4
+```
+
+with a relative discrepancy of only about `2e-4`.
+
+The 018B-0 campaign therefore used the exact `F^3` law with a calibration factor derived from the solved `F=0.075` wall rather than assuming the numerical discrepancy vanished.
+
+---
+
+# 12. Wall active source equals minus wall tension
+
+For a static planar canonical wall,
+
+```math
+T_{00}
+=
+\frac12
+(\partial_z A)^2
++
+V,
+```
+
+while the two tangential pressures are negative.
+
+On the wall solution the integrated active combination is
+
+```math
+\int
+\left(
+T_{00}
++
+T_{xx}
++
+T_{yy}
++
+T_{zz}
+\right)
+dz
+=
+-\sigma_W.
+```
+
+The numerical wall BVP explicitly reconstructed
+
+```text
+ACTIVE_OVER_TENSION≈-1
+```
+
+and passed the virial identity.
+
+Therefore the wall supplies the required negative-active component without negative local energy density.
+
+---
+
+# 13. 018A-6A — fixed-background 2D junction
+
+018A-6A embedded the KLS wall into the actual 017P vortex background.
+
+The calculation used:
+
+```text
+phi vortex winding
+complex A field
+q_phi=2
+q_A=1
+g_X=g_017P/2
+gauge-covariant links
+negative-x branch wall
+positive-x no-wall side
+vortex-core suppression
+```
+
+Important results:
+
+```text
+BACKGROUND_SIGMA2_RECONSTRUCTION=
+PASS
+
+A_STRING_RECONSTRUCTION=
+PASS
+
+RADIAL_BVP_RESIDUAL=
+PASS
+
+ANALYTIC_GRADIENT_DIRECTIONAL_CHECK=
+PASS
+
+FIXED_DX_JUNCTION_EXCESS_STABLE_WITH_DOMAIN=
+PASS
+
+RESOLUTION_JUNCTION_EXCESS_SPREAD≈1.97_PERCENT
+
+NEGATIVE_WALL_A_OVER_F≈6.77e-5
+
+POSITIVE_RECOVERY_A_OVER_F≈0.9871
+
+RELATIVE_PHASE_RMS≈2.22e-7
+
+FAR_NEGATIVE_WALL_TENSION_RATIO≈1.000136
+
+GAUGE_TRANSFORM_ENERGY_INVARIANCE=
+PASS
+
+MU_JUNCTION≈0.0035230593
+
+MU_OVER_DECLARED_POSITIVE_LINE_BUDGET≈0.004105
+```
+
+The result supported:
+
+```text
+MICROSCOPIC_WALL_ENDS_ON_017P_VORTEX_IN_FIXED_BACKGROUND=
+SUPPORTED
+```
+
+but did not yet include full backreaction.
+
+---
+
+# 14. 018A-6B0 — backreaction / stress / EOS preflight
+
+The frozen-background extension stress was audited before releasing all fields.
+
+Important selected quantities:
+
+```text
+MU_JUNCTION≈3.523059294668687e-3
+
+PHI_EXTENSION_SOURCE_MAX≈5.63e-5
+
+A_TO_PHI_GAUGE_CURRENT_L2_RATIO≈4.08e-4
+
+DMU_DCHI≈-1.02784e-3
+
+VARIATIONAL_RELERR≈9.75e-4
+```
+
+The junction active source was tiny relative to the old two-copy 017P active line.
+
+The EOS remained healthy.
+
+The `m=2..40` worldsheet stability test remained green.
+
+Both one- and two-junction stationarity estimates passed.
+
+Therefore:
+
+```text
+018A6B0_BACKREACTION_STRESS_EOS_PREFLIGHT=
+GREEN
+```
+
+and full coupling was justified.
+
+---
+
+# 15. Initial 018A-6B RED and why it was not a physical falsification
+
+The first fully coupled 2D calculation released:
+
+```text
+phi amplitude
+sigma amplitude
+complex A
+noncompact gauge links
+```
+
+and initially showed large resolution drift.
+
+At face value the result was RED.
+
+However, 018A-6B1 measured the underlying 017P core widths:
+
+```text
+PHI_CORE_WIDTH≈4.389
+
+SIGMA_CORE_WIDTH≈3.137
+```
+
+while the original coarse grids had only roughly one to three cells across those structures.
+
+Therefore the original calculation was underresolved.
+
+The key test was then to compare the complete KLS solve against a **matched base solve on exactly the same lattice**.
+
+The large common drift appeared in both.
+
+Subtracting the matched base relaxation isolated the KLS-specific correction.
+
+Result:
+
+```text
+BASE_LATTICE_RELAXATION_EXPLAINS_RESOLUTION_DRIFT=
+PASS
+
+MATCHED_RESOLUTION_CONVERGENCE=
+PASS
+
+MATCHED_ACTIVE_SOURCE_BUDGET=
+PASS
+
+MATCHED_VARIATIONAL_IDENTITY=
+PASS
+
+DISCRETE_ENVELOPE_VARIATIONAL_IDENTITY=
+PASS
+
+018A6B1_MATCHED_LATTICE_CONTROL_AUDIT=
+GREEN
+```
+
+Thus the first 6B RED was dominated by a numerical common-mode lattice artifact.
+
+This is an important numerical-method lesson:
+
+> Never interpret a large fully coupled relaxation as new physical backreaction until the original background is relaxed on the same discretization.
+
+---
+
+# 16. 018A-6B2 and 6B3 — fine-core coupled junction closure
+
+018A-6B2 moved to local grids with
+
+```text
+dx=
+0.8
+0.625
+0.5
+```
+
+which resolved the `phi` and `sigma` cores adequately.
+
+The physical matched quantities converged strongly, but some optimizer success flags and an inappropriate global wall-morphology test on a local box caused a formal RED.
+
+The wall's global width was much larger than the local box, so demanding full asymptotic wall recovery inside that small patch was geometrically invalid.
+
+018A-6B3 therefore:
+
+* explicitly continued marginal optimizers to tight gradient tolerances;
+* reran the resolution sequence;
+* reran the patch-size sequence;
+* matched fine local core morphology to the already-verified large-domain outer wall.
+
+Results:
+
+```text
+N=51:
+FULL_SOLVER=PASS
+BASE_SOLVER=PASS
+
+N=65:
+FULL_SOLVER=PASS
+BASE_SOLVER=PASS
+
+N=81:
+FULL_SOLVER=PASS
+BASE_SOLVER=PASS
+
+KLS_DELTA_E_RESOLUTION_RANGE≈5.50e-6
+
+KLS_DELTA_SIGMA2_RESOLUTION_RANGE≈5.99e-6
+
+MATCHED_RESOLUTION_CONVERGENCE=
+PASS
+
+PATCH_L16=
+PASS
+
+PATCH_L20=
+PASS
+
+PATCH_L24=
+PASS
+
+KLS_DELTA_E_PATCH_RANGE≈1.45e-6
+
+KLS_DELTA_SIGMA2_PATCH_RANGE≈3.95e-5
+
+MATCHED_PATCH_CONVERGENCE=
+PASS
+```
+
+Topology:
+
+```text
+LOCAL_NEGATIVE_TO_POSITIVE_A_RATIO≈0.09469
+
+LOCAL_PHASE_LOCK_RMS≈1.72e-3
+
+OUTER_NEGATIVE_WALL_A_OVER_F≈6.77e-5
+
+OUTER_POSITIVE_RECOVERY_A_OVER_F≈0.9871
+
+FINE_CORE_PLUS_GLOBAL_OUTER_TOPOLOGY=
+PASS
+```
+
+Stress / EOS:
+
+```text
+ACTIVE_PAIR_FRACTION≈1.02e-3
+
+VARIATIONAL_RELERR≈5.05e-5
+
+CT2≈0.99900114
+
+CL2≈0.99295807
+
+M2_TO_M40_ROOT_IMAGINARY_PART=
+0
+
+ONE_JUNCTION_STATIONARITY=
+PASS
+
+TWO_JUNCTION_STATIONARITY=
+PASS
+```
+
+Decision:
+
+```text
+018A6B3_FINE_COUPLED_JUNCTION_CLOSEOUT=
+GREEN
+
+FULLY_COUPLED_LOCAL_2D_KLS_JUNCTION=
+SUPPORTED_WITH_FINE_CORE_PLUS_MATCHED_GLOBAL_OUTER_SOLUTION
+
+LOCAL_MICROSCOPIC_JUNCTION_ESCALATION=
+STOP
+```
+
+This closed the local junction problem at the current approximation level.
+
+---
+
+# 17. 018A-7 and the finite-payload quadrature issue
+
+018A-7 included:
+
+```text
+WALL_ENERGY
+WALL_STRESS
+VORTON_RIM_ENERGY
+VORTON_RIM_STRESS
+GAUGE_CONTRIBUTION
+JUNCTION_ENERGY
+JUNCTION_ACTIVE_STRESS
+CONDENSATE_BACKREACTION
+```
+
+It obtained:
+
+```text
+POSITIVE_TOTAL_ACTIVE_MASS=
+PASS
+
+KERNEL_LEVERAGE=
+PASS
+
+POINT_OUTWARD_ACCELERATION=
+PASS
+
+DIRECT_POINT_GRAVITY_RECONSTRUCTION=
+PASS
+```
+
+The finite spherical payload was outward by both calculations:
+
+```text
+MEAN_VALUE_RESULT≈+1.74948
+
+DIRECT_VOLUME_QUADRATURE≈+1.75066
+```
+
+but their relative discrepancy was
+
+```math
+6.78\times10^{-4},
+```
+
+slightly larger than the strict
+
+```math
+5\times10^{-4}
+```
+
+numerical agreement gate.
+
+Thus 018A-7 was formally RED.
+
+This was not a physical sign reversal.
+
+---
+
+# 18. Exact spherical-payload overlap-kernel proof
+
+018A-8 identified a deeper issue.
+
+The finite microscopic wall has tails that overlap the passive payload volume.
+
+Therefore the source-free harmonic mean-value theorem cannot be applied to the complete finite wall everywhere.
+
+Instead, average the gravitational kernel exactly over a uniform sphere.
+
+Let the spherical payload have:
+
+```text
+center = c
+radius = a
+volume = V
+```
+
+and let a source point be at `x'`.
+
+Define
+
+```math
+\overline{\mathbf K}(\mathbf x')
+=
+\frac{1}{V}
+\int_{\rm payload}
+\frac{
+\mathbf x-\mathbf x'
+}{
+|\mathbf x-\mathbf x'|^3
+}
+\,d^3x.
+```
+
+This is mathematically identical to the field generated by a uniform sphere evaluated at the source point, divided by total payload volume.
+
+By Newton's shell theorem:
+
+For a point outside the sphere:
+
+```math
+d
+=
+|\mathbf x'-\mathbf c|
+>
+a,
+```
+
+the sphere acts as a point mass at its center:
+
+```math
+\overline{\mathbf K}
+=
+\frac{
+\mathbf c-\mathbf x'
+}{
+d^3
+}.
+```
+
+For a point inside a uniform sphere:
+
+```math
+d<a,
+```
+
+the gravitational field is linear in displacement:
+
+```math
+\overline{\mathbf K}
+=
+\frac{
+\mathbf c-\mathbf x'
+}{
+a^3
+}.
+```
+
+Thus:
+
+```math
+\overline{\mathbf K}(\mathbf x')
+=
+\begin{cases}
+\dfrac{
+\mathbf c-\mathbf x'
+}{
+a^3
+},
+&
+d<a,
+\\[8pt]
+\dfrac{
+\mathbf c-\mathbf x'
+}{
+d^3
+},
+&
+d\ge a.
+\end{cases}
+```
+
+For the vertical component of an axis-centered spherical payload:
+
+```math
+d^2
+=
+r'^2
++
+(h-z')^2.
+```
+
+Therefore:
+
+```math
+\overline K_z
+=
+\begin{cases}
+\dfrac{
+h-z'
+}{
+a^3
+},
+&
+d<a,
+\\[8pt]
+\dfrac{
+h-z'
+}{
+\left[
+r'^2+(h-z')^2
+\right]^{3/2}
+},
+&
+d\ge a.
+\end{cases}
+```
+
+This kernel is exact for a uniform passive spherical payload in linearized gravity, including source/payload spatial overlap.
+
+It removes the artificial singular/numerical difficulty of brute-force nested volume integration.
+
+---
+
+# 19. 018A-8 — FULL 018A GATE GREEN
+
+018A-8 explicitly measured the finite wall overlap.
+
+Selected geometry:
+
+```text
+WALL_TENSION=
+5.623876169625573e-4
+
+WALL_K=
+0.0375
+
+WALL_WIDTH90≈
+78.51837
+
+R≈
+1513.44857
+
+h≈
+20.289886
+
+PAYLOAD_RADIUS≈
+5.072472
+```
+
+The payload lies close compared with the wall width:
+
+```math
+\frac{h}{\text{wall width}_{90}}
+\approx
+0.2584.
+```
+
+Approximately
+
+```math
+0.10122
+```
+
+or about `10.1%` of the normalized wall active profile lies in the payload's vertical `z` band.
+
+Therefore:
+
+```text
+SOURCE_FREE_MEAN_VALUE_THEOREM_FOR_COMPLETE_FINITE_WALL=
+NOT_APPLICABLE
+
+EXACT_OVERLAP_KERNEL_USED=
+YES
+```
+
+First, the exact overlap kernel was applied to the old thin source.
+
+It reproduced the point field with relative discrepancy
+
+```math
+5.08\times10^{-16}.
+```
+
+Therefore the 018A-7 discrepancy was conclusively numerical.
+
+For the finite wall:
+
+```text
+FINITE_WALL_POINT_OUTWARD_FACTOR=
+4.3688606155
+
+FINITE_WALL_PAYLOAD_OUTWARD_FACTOR=
+4.3431313832
+```
+
+The worst positive rim inward factor was
+
+```text
+3.5267347589.
+```
+
+Hence:
+
+```math
+F_{\rm point}
+=
+4.3688606155
+-
+3.5267347589
+=
+0.8421258566
+>
+0,
+```
+
+and:
+
+```math
+F_{\rm payload}
+=
+4.3431313832
+-
+3.5267347589
+=
+0.8163966242
+>
+0.
+```
+
+Therefore both point and finite-payload acceleration remain outward after finite wall thickness is included.
+
+---
+
+# 20. 018A-8 positive total active mass and leverage proof
+
+The complete active magnitudes were:
+
+```text
+Q_PLUS≈
+3.9824065366e5
+
+Q_MINUS≈
+4.0468858899e3
+```
+
+so:
+
+```math
+Q_+-Q_-
+\approx
+3.9419376777\times10^5
+>
+0.
+```
+
+Thus the far active mass remains positive.
+
+The ratio is:
+
+```math
+\frac{Q_+}{Q_-}
+\approx
+98.406692.
+```
+
+The finite-thickness kernel ratio is:
+
+```math
+\frac{\kappa_-}{\kappa_+}
+\approx
+121.186656.
+```
+
+Therefore:
+
+```math
+\frac{
+\kappa_-/\kappa_+
+}{
+Q_+/Q_-
+}
+\approx
+1.231488
+>
+1.
+```
+
+Hence the kernel-leverage condition is satisfied.
+
+This gives the desired coexistence:
+
+```text
+POSITIVE_FAR_ACTIVE_MASS=
+YES
+
+FINITE_PAYLOAD_LOCAL_OUTWARD_ACCELERATION=
+YES
+```
+
+within the linearized test-payload model.
+
+---
+
+# 21. 018A-8 robustness
+
+A simultaneous seven-parameter finite-thickness source envelope used three levels for each parameter:
+
+```text
+0.95
+1.00
+1.05
+```
+
+for:
+
+```math
+3^7
+=
+2187
+```
+
+cases.
+
+Results:
+
+```text
+PASSING=
+2187
+
+PASS_FRACTION=
+1.0
+
+MIN_PAYLOAD_OUTWARD≈
+0.33897
+
+MIN_POINT_OUTWARD≈
+0.36358
+
+MIN_ACTIVE_MASS_PER_R≈
+247.30
+
+MIN_KERNEL_LEVERAGE_MARGIN≈
+1.08718
+
+MIN_SCALE_SEPARATION≈
+17.43
+
+MAX_INTEGER_MISMATCH≈
+1.36e-4
+```
+
+Thus the finite-thickness source-level 018A result is not an isolated tuned point.
+
+Decision:
+
+```text
+018A8_FINITE_THICKNESS_PAYLOAD_CLOSEOUT=
+GREEN
+
+FULL_018A_GATE=
+GREEN
+
+018B_AUTHORIZED=
+YES
+```
+
+This is the current promoted realization milestone.
+
+---
+
+# 22. Validated 018A energy scaling
+
+018A-8 gives
+
+```math
+C_{\rm eff,payload}
+=
+1.774169582609975\times10^6.
+```
+
+The general scaling is:
+
+```math
+M_E
+=
+C_{\rm eff}
+\frac{a h^2}{G}.
+```
+
+At:
+
+```math
+a=g
+```
+
+and
+
+```math
+h=1\ {\rm m},
+```
+
+this gives:
+
+```math
+M_{1g,1m}
+\approx
+2.6068142183\times10^{17}\ {\rm kg}.
+```
+
+Then:
+
+```math
+E
+=
+M_Ec^2
+```
+
+gives:
+
+```math
+E_{1g,1m}
+\approx
+2.3428877787\times10^{34}\ {\rm J}.
+```
+
+This is the **latest validated energy number** until a new microscopic source is promoted.
+
+---
+
+# 23. Why nonlinear gravity may be perturbative, but is not yet solved
+
+For the current 018A source normalized to 1g at 1m:
+
+```math
+\frac{GM}{Rc^2}
+\approx
+2.60\times10^{-12}.
+```
+
+Thus:
+
+```math
+\frac{2GM}{Rc^2}
+\approx
+5.19\times10^{-12}.
+```
+
+This is extremely far from black-hole compactness.
+
+It strongly suggests that metric nonlinearities themselves may be perturbative.
+
+It does **not** establish nonlinear persistence of the matter configuration.
+
+The nonlinear problem is still required because:
+
+* matter fields may shift when coupled to gravity;
+* stationary frame-dragging terms may matter;
+* stress conservation becomes covariant;
+* the operational observable must be reconstructed in the curved solution.
+
+The low compactness is therefore an important strategic simplification, not a substitute for 018E.
+
+---
+
+# 24. 018B-0 — exhaustive architecture simplification campaign
+
+018B-0 asked whether the old counterrotating pair was truly necessary.
+
+The old pair was introduced primarily to cancel the effective off-diagonal momentum flux.
+
+However, published vortons are naturally **stationary**, not necessarily static.
+
+A single vorton can carry angular momentum.
+
+The buildplan already contains a stationary/frame-dragging gate.
+
+Therefore forcing total angular momentum to zero by duplicating the complete vorton sector may be unnecessary.
+
+018B-0 scanned:
+
+```text
+VORTON_COPY_COUNT=
+1,2,3,4
+
+F=
+0.020 ... 0.085
+
+HEIGHT_RATIO h/R=
+optimized for every candidate
+```
+
+while enforcing:
+
+```text
+TOPOLOGY
+VACUUM_HESSIAN
+TRANSVERSE_WALL_STABILITY
+POSITIVE_TOTAL_ACTIVE_MASS
+POINT_OUTWARD_GRAVITY
+FINITE_PAYLOAD_OUTWARD_GRAVITY
+KERNEL_LEVERAGE
+INTEGER_WINDING_PREFLIGHT
+R/WALL_SCALE
+R/CORE_SCALE
+ENERGY_COEFFICIENT
+```
+
+---
+
+# 25. Independent 018B-0 control reconstruction
+
+Before trusting the scan, the old two-copy 018A-8 result was independently reconstructed.
+
+It obtained:
+
+```text
+CURRENT_PAIR_C=
+1.774169582601282e6
+```
+
+versus the validated:
+
+```text
+1.774169582609975e6.
+```
+
+The high-precision relative discrepancy was approximately:
+
+```math
+3.94\times10^{-15}.
+```
+
+Thus the new architecture code reproduced the previous source.
+
+The one-copy longitudinal stress was also reconstructed independently:
+
+From the stress tensor:
+
+```text
+P_PARALLEL=
+0.4291023742661775
+```
+
+and from the old pair wall-load bookkeeping:
+
+```text
+P_PARALLEL=
+0.4290951394949467.
+```
+
+Relative difference:
+
+```math
+1.686\times10^{-5}.
+```
+
+This validated the one-copy radial-support extraction at the preflight level.
+
+---
+
+# 26. Why reducing `F` can improve the single-vorton geometry
+
+The KLS wall tension scales as
+
+```math
+\sigma_W
+\propto
+F^3.
+```
+
+The wall thickness scales as
+
+```math
+\delta_W
+\propto
+F^{-1}.
+```
+
+For a fixed one-vorton radial support `P_eff`:
+
+```math
+R
+=
+\frac{P_{\rm eff}}{\sigma_W}
+\propto
+F^{-3}.
+```
+
+Therefore:
+
+```math
+\frac{R}{\delta_W}
+\propto
+\frac{F^{-3}}{F^{-1}}
+=
+F^{-2}.
+```
+
+Thus reducing `F` makes the wall absolutely thicker, but the equilibrium loop radius grows faster.
+
+The wall becomes **relatively thinner compared with the loop**.
+
+This is why the finite-thickness gravitational penalty can improve substantially at smaller `F`.
+
+This is a genuine parametric scaling observation inside the source model.
+
+It is not yet a practical-energy breakthrough because the fundamental gravitational factor `1/G` remains.
+
+---
+
+# 27. 018B-0 single-vorton result
+
+A one-vorton thin-wall asymptotic efficiency floor was reconstructed at approximately
+
+```math
+C_{\rm thin,1v}
+\approx
+8.2771191\times10^5.
+```
+
+The scan found a large feasible one-vorton region.
+
+The robustness-first Pareto selection picked:
+
+```text
+F=
+0.0384
+
+COPIES=
+1
+
+X=h/R≈
+0.01363463
+
+R≈
+5638.0
+
+N_REQUIRED≈
+12553.1
+
+PAYLOAD_OUTWARD≈
+0.79853
+
+POINT_OUTWARD≈
+0.80589
+
+KERNEL_LEVERAGE≈
+1.44527
+
+R_OVER_WALL≈
+36.76
+
+R_OVER_CORE≈
+422.85
+```
+
+Nominal coefficient:
+
+```math
+C
+\approx
+8.76822\times10^5.
+```
+
+---
+
+# 28. 018B-0 deterministic and random robustness
+
+For the selected `F=0.0384` source-level candidate:
+
+```text
+DETERMINISTIC_CASES=
+6561
+
+DETERMINISTIC_PASSING=
+6561
+
+DEEP_PASS=
+YES
+```
+
+Worst selected margins included approximately:
+
+```text
+MIN_PAYLOAD_OUTWARD≈
+0.0611
+
+MIN_KERNEL_LEVERAGE≈
+1.0281
+
+MIN_SCALE≈
+26.5
+```
+
+An independent continuous random test gave:
+
+```text
+RANDOM_CASES=
+20000
+
+RANDOM_PASSING=
+20000
+
+MIN_PAYLOAD≈
+0.1226
+
+MIN_LEVERAGE≈
+1.0576
+
+MIN_SCALE≈
+26.8
+```
+
+The high-precision independent wall calculation agreed with the fast scout at roughly `1e-12` relative accuracy.
+
+Finite rim-core smearing also passed.
+
+Therefore the one-vorton source-level region is broad enough to deserve microscopic revalidation.
+
+---
+
+# 29. Single-vorton local topology at `F=0.0384`
+
+At the source-level selected point:
+
+```text
+MIN_VACUUM_HESSIAN_EIGENVALUE≈
+2.94794e-3
+
+TRANSVERSE_WALL_EIGENVALUE≈
+3.963136e-2
+
+GAUGE_MASS_SHIFT_FRACTION≈
+3.6864e-4
+```
+
+Thus the local topology/vacuum/wall stability preflight remains healthy.
+
+The resulting source is:
+
+```text
+STATIC=
+NO
+
+STATIONARY_AXISYMMETRIC=
+YES
+
+NET_ANGULAR_MOMENTUM=
+NONZERO
+```
+
+The old counterrotating pair should therefore **not** be considered physically mandatory merely to have a vorton field solution.
+
+However:
+
+> The single-vorton + KLS-wall **global composite field solution has not yet been solved.**
+
+Do not promote the second copy as unnecessary for the complete composite until the single-vorton microscopic/global field construction survives.
+
+---
+
+# 30. 018B-0 source-level energy improvement
+
+The projected high-precision coefficient was:
+
+```math
+C_{\rm projected}
+=
+8.768254563224691\times10^5.
+```
+
+This corresponds to:
+
+```math
+M_{1g,1m}
+\approx
+1.2883329130\times10^{17}\ {\rm kg},
+```
+
+and:
+
+```math
+E_{1g,1m}
+\approx
+1.1578958775\times10^{34}\ {\rm J}.
+```
+
+Compared with validated 018A-8:
+
+```math
+\frac{
+E_{\rm validated}
+}{
+E_{\rm projected}
+}
+\approx
+2.0234.
+```
+
+Therefore source-level energy is reduced by approximately a factor of two.
+
+But:
+
+```text
+ENERGY_MODEL_STATUS=
+SOURCE_LEVEL_REPARAMETERIZATION_ONLY
+```
+
+The new number is **not validated** until the wall and coupled local junction are solved at the new `F` and locked EOS point.
+
+---
+
+# 31. Integer winding / EOS consistency
+
+A circular stationary vorton must satisfy phase single-valuedness.
+
+For condensate phase:
+
+```math
+\sigma
+\propto
+e^{i(\omega t+N\varphi)}.
+```
+
+The local straight-string longitudinal wavenumber is related to the circular geometry by:
+
+```math
+kL
+=
+2\pi N.
+```
+
+Since:
+
+```math
+L
+=
+2\pi R,
+```
+
+we obtain the exact quantization condition:
+
+```math
+kR
+=
+N.
+```
+
+Therefore `N` cannot simply be rounded while `R`, `omega`, and `chi` remain frozen.
+
+The EOS and radius must move self-consistently.
+
+---
+
+# 32. EOS identities used in 018B-0A
+
+Let:
+
+```math
+q
+=
+\frac{Q}{N}
+```
+
+and
+
+```math
+\ell
+=
+\frac{L}{Q}.
+```
+
+Then:
+
+```math
+q\ell
+=
+\frac{Q}{N}
+\frac{L}{Q}
+=
+\frac{L}{N}.
+```
+
+Using:
+
+```math
+kL
+=
+2\pi N,
+```
+
+we obtain:
+
+```math
+k
+=
+\frac{2\pi}{q\ell}.
+```
+
+Also:
+
+```math
+\chi
+=
+\omega^2-k^2,
+```
+
+so:
+
+```math
+\omega
+=
+\sqrt{
+k^2+\chi
+}.
+```
+
+The fixed-charge relation gives:
+
+```math
+\frac{\omega}{k}
+=
+\frac{q}{2\pi\Sigma_2}.
+```
+
+Therefore:
+
+```math
+\Sigma_2
+=
+\frac{
+qk
+}{
+2\pi\omega
+}.
+```
+
+The one-copy longitudinal stress is:
+
+```math
+P_\parallel
+=
+2k^2\Sigma_2
+-
+A_{\rm string}.
+```
+
+The previously promoted pair-load quantity supplies an independent reconstruction:
+
+```math
+P_\parallel
+=
+\frac{
+w_{\rm stat}\ell
+}{
+4\pi
+}.
+```
+
+Thus:
+
+```math
+A_{\rm string}
+=
+2k^2\Sigma_2
+-
+P_\parallel.
+```
+
+The one-copy active line is:
+
+```math
+\Lambda_{\rm active}
+=
+2\Sigma_2
+\left(
+\omega^2+k^2
+\right).
+```
+
+The one-copy physical energy line is:
+
+```math
+U
+=
+\Lambda_{\rm active}
+-
+P_\parallel.
+```
+
+018B-0A reconstructed the selected 017P endpoint from these identities at roughly `1e-13` relative precision for the central EOS quantities.
+
+This is a strong internal consistency check.
+
+---
+
+# 33. Integer-locked radial equilibrium equation
+
+For one vorton copy, define effective radial support:
+
+```math
+P_{\rm eff}
+=
+P_\parallel
+-
+\mu_J.
+```
+
+At source-preflight level the circular equilibrium radius is:
+
+```math
+R
+=
+\frac{
+P_{\rm eff}
+}{
+\sigma_W(F)
+}.
+```
+
+The exact integer-lock equation is therefore:
+
+```math
+k(\chi)
+\frac{
+P_\parallel(\chi)-\mu_J
+}{
+\sigma_W(F)
+}
+=
+N.
+```
+
+Define:
+
+```math
+\mathcal F(
+\chi;
+F,N,\theta
+)
+=
+k(\chi;\theta)
+R(\chi,F;\theta)
+-
+N,
+```
+
+where `theta` represents other physical parameters.
+
+An allowed operating point satisfies:
+
+```math
+\mathcal F=0
+```
+
+inside the verified healthy `chi` interval.
+
+---
+
+# 34. 018B-0A full integer map
+
+The verified EOS interpolation band is:
+
+```math
+0.0015
+\le
+\chi
+\le
+0.00475.
+```
+
+At:
+
+```text
+F=0.0384
+```
+
+the full map contained:
+
+```text
+636
+```
+
+integer roots.
+
+The highest-`chi` root was also the minimum-`C` root:
+
+```text
+N=
+12553
+
+CHI_INTERPOLATED=
+0.004749476873922067
+
+R≈
+5637.98895
+
+X≈
+0.0136345442
+
+PAYLOAD_OUTWARD≈
+0.79852
+
+POINT_OUTWARD≈
+0.80588
+
+LEVERAGE≈
+1.44526
+
+C≈
+8.7684594e5
+```
+
+This demonstrates that integer quantization itself does **not** destroy the single-vorton source-level architecture.
+
+---
+
+# 35. Direct BVP independent integer-lock verification
+
+The interpolation-based lock was then checked against a fresh direct solution of the 017P radial BVP.
+
+The direct result was:
+
+```text
+N=
+12553
+
+CHI_DIRECT=
+0.004748387739443118
+
+R_DIRECT≈
+5637.98833348
+
+INTEGER_RESIDUAL≈
+3.09e-11
+```
+
+The direct BVP and interpolation agreed at:
+
+```text
+SIGMA2_RELERR≈
+3.89e-7
+
+A_STRING_RELERR≈
+3.16e-7
+
+P_PARALLEL_RELERR≈
+1.686e-5
+```
+
+The direct local EOS check gave:
+
+```text
+VARIATIONAL_RELERR≈
+6.80e-6
+
+CT2≈
+0.999002144
+
+CL2≈
+0.993017957
+
+M2_TO_M40_STABILITY=
+PASS
+```
+
+Thus the integer-locked state is not an interpolation artifact.
+
+---
+
+# 36. High-precision integer-locked gravity
+
+Using the direct-BVP locked state:
+
+```text
+OPTIMAL_X≈
+0.01363454691
+
+POINT_OUTWARD≈
+0.80587835
+
+PAYLOAD_OUTWARD≈
+0.79851646
+```
+
+The fast and independent adaptive wall integrators agreed to approximately:
+
+```math
+6\times10^{-13}.
+```
+
+The high-precision coefficient was:
+
+```math
+C_{\rm integer\ locked}
+=
+8.768487174104034\times10^5.
+```
+
+Thus exact integer locking changes the original 018B-0 projected coefficient by only approximately:
+
+```math
+2.65\times10^{-5}
+```
+
+fractionally.
+
+The corresponding projected energy remains:
+
+```math
+E_{1g,1m}
+\approx
+1.1579265950\times10^{34}\ {\rm J}.
+```
+
+---
+
+# 37. Why 018B-0A is formally RED
+
+Almost every 018B-0A gate passed:
+
+```text
+EOS_ENDPOINT_RECONSTRUCTION=
+PASS
+
+FULL_INTEGER_MAP=
+PASS
+
+INTEGER_LOCKED_FEASIBLE_REGION=
+YES
+
+WORLD_SHEET_STABILITY=
+PASS
+
+INTEGER_RELOCKED_DETERMINISTIC_STRESS=
+PASS
+
+INTEGER_RELOCKED_RANDOM_STRESS=
+PASS
+
+DIRECT_BVP_INTEGER_LOCK=
+PASS
+
+DIRECT_BVP_EOS_STABILITY=
+PASS
+
+HIGH_PRECISION_LOCKED_GRAVITY=
+PASS
+```
+
+The only blocking gate was:
+
+```text
+FIXED_N_LOCAL_CONTINUITY=
+FAIL
+```
+
+with:
+
+```text
+TOTAL=
+243
+
+PASSING=
+122.
+```
+
+Thus:
+
+```text
+018B0A_INTEGER_LOCKED_EOS_ARCHITECTURE_GATE=
+RED
+```
+
+The script execution itself completed correctly.
+
+Do not confuse:
+
+```text
+EXECUTION_GREEN
+```
+
+with:
+
+```text
+SCIENTIFIC_GATE_GREEN.
+```
+
+---
+
+# 38. Critical interpretation of the fixed-`N` failure
+
+The failed test asks a stronger question than family-level robustness.
+
+## Family robustness
+
+For a family of nearby devices, allow the integer winding to relock to whichever nearby integer solves the EOS equilibrium.
+
+This passed extremely strongly:
+
+```text
+6561 / 6561 deterministic
+20000 / 20000 random
+```
+
+for the relevant candidate.
+
+## Fixed-topological-sector robustness
+
+Hold:
+
+```math
+N=12553
+```
+
+exactly fixed while perturbing the physical parameters.
+
+Require the **same topological sector** to retain an equilibrium inside the verified EOS band.
+
+This passed only:
+
+```text
+122 / 243.
+```
+
+These are different physical questions.
+
+A real device cannot continuously change an integer winding without a phase-slip / topological transition.
+
+Therefore same-`N` local continuity is a legitimate thing to understand.
+
+However, the selected `N=12553` point was deliberately chosen because it sits at the highest-`chi` / minimum-energy edge.
+
+Its interpolated distance from the upper verified EOS boundary is only:
+
+```math
+0.00475
+-
+0.004749476873922067
+\approx
+5.23\times10^{-7}.
+```
+
+The direct-BVP lock has only:
+
+```math
+0.00475
+-
+0.004748387739443118
+\approx
+1.61\times10^{-6}
+```
+
+of upper-`chi` headroom.
+
+Thus the minimum-energy operating point was selected almost directly on the edge of the already-verified EOS domain.
+
+It is therefore unsurprising that perturbations can push the same-`N` equilibrium outside that verified interval.
+
+This is not evidence that gravity reversed.
+
+Indeed, among the fixed-`N` cases that retained roots, the minimum finite-payload acceleration remained strongly positive:
+
+```text
+MIN_PAYLOAD≈
+0.748.
+```
+
+The next session must classify the 121 nonpassing fixed-`N` cases explicitly:
+
+```text
+NO_ROOT_IN_VERIFIED_CHI_BAND
+
+OR
+
+ROOT_EXISTS_BUT_PHYSICAL_GATE_FAILS
+```
+
+Do not assume the answer.
+
+The output strongly suggests boundary headroom is the issue, but this must be demonstrated.
+
+---
+
+# 39. First-order fixed-`N` sensitivity analysis
+
+The continuous winding estimate is approximately:
+
+```math
+N_{\rm cont}
+=
+kR
+=
+k
+\frac{
+P_\parallel-\mu_J
+}{
+\sigma_W
+}.
+```
+
+Take a logarithmic differential:
+
+```math
+d\ln N_{\rm cont}
+=
+d\ln k
++
+d\ln(P_\parallel-\mu_J)
+-
+d\ln\sigma_W.
+```
+
+Since:
+
+```math
+k
+=
+\frac{2\pi}{q\ell},
+```
+
+we have:
+
+```math
+d\ln k
+=
+-d\ln q
+-
+d\ln\ell.
+```
+
+The wall tension obeys:
+
+```math
+\sigma_W
+\propto
+F^3,
+```
+
+so:
+
+```math
+d\ln\sigma_W
+=
+3d\ln F.
+```
+
+Therefore:
+
+```math
+d\ln N_{\rm cont}
+\approx
+-d\ln q
+-d\ln\ell
++
+d\ln(P_\parallel-\mu_J)
+-
+3d\ln F.
+```
+
+The fixed-`N` test used approximately:
+
+```text
+F:
++/-0.5%
+
+SUPPORT:
++/-1%
+
+q:
++/-0.1%
+
+ell:
++/-0.1%
+
+mu_J:
++/-10%
+```
+
+The `F` contribution alone can move the continuous winding scale by approximately:
+
+```math
+3(0.5\%)
+=
+1.5\%.
+```
+
+At:
+
+```math
+N\approx12553,
+```
+
+that is approximately:
+
+```math
+0.015(12553)
+\approx
+188
+```
+
+winding units.
+
+A one-percent support perturbation is another order:
+
+```math
+126
+```
+
+winding units.
+
+The entire verified EOS interval at `F=0.0384` contains approximately:
+
+```text
+N≈11918 ... 12553
+```
+
+or roughly:
+
+```math
+635
+```
+
+winding intervals.
+
+Thus an interior `N` sector could plausibly possess enough headroom for the declared perturbation set even though the boundary/minimum-energy sector does not.
+
+This is the highest-information hypothesis for the next run.
+
+It must be tested rather than assumed.
+
+---
+
+# 40. Implicit-function-theorem formulation of the fixed-`N` problem
+
+Define the exact locking function:
+
+```math
+\mathcal F(
+\chi,\theta
+)
+=
+k(\chi,\theta)
+R(\chi,\theta)
+-
+N.
+```
+
+Suppose at a nominal state:
+
+```math
+\mathcal F(
+\chi_0,\theta_0
+)
+=
+0.
+```
+
+If:
+
+```math
+\frac{
+\partial\mathcal F
+}{
+\partial\chi
+}
+\neq
+0,
+```
+
+then the implicit function theorem guarantees a local continuous function:
+
+```math
+\chi
+=
+\chi(\theta)
+```
+
+in some neighborhood of `theta_0`.
+
+To first order:
+
+```math
+\delta\chi
+\approx
+-
+\frac{
+\nabla_\theta\mathcal F
+\cdot
+\delta\theta
+}{
+\partial_\chi\mathcal F
+}.
+```
+
+Therefore the correct fixed-`N` robustness criterion is not merely:
+
+```text
+IS_CHI_NOMINAL_STABLE?
+```
+
+It is:
+
+```text
+IS_DF_DCHI_NONZERO?
+
+HOW_LARGE_IS_THE_REQUIRED_DELTA_CHI_UNDER_PARAMETER_PERTURBATIONS?
+
+DOES_THE_REQUIRED_CHI_REMAIN_INSIDE_THE_VERIFIED_EOS_INTERVAL?
+
+DO_GRAVITY_AND_STABILITY_REMAIN_GREEN_THERE?
+```
+
+Define EOS headroom:
+
+```math
+H_\chi
+=
+\min
+\left(
+\chi-\chi_{\min},
+\chi_{\max}-\chi
+\right).
+```
+
+A robust fixed-`N` candidate should maximize a normalized margin such as:
+
+```math
+\mathcal M_N
+=
+\frac{
+H_\chi
+}{
+\max_{\delta\theta}
+|\delta\chi_{\rm predicted}|
+}.
+```
+
+A strong candidate should satisfy:
+
+```math
+\mathcal M_N>1
+```
+
+before expensive microscopic revalidation.
+
+This is the cheapest and most decisive next action.
+
+---
+
+# 41. Immediate next-session gate: 018B-0A-FN fixed-`N` headroom optimization
+
+## Active question
+
+> Does the single-stationary-vorton architecture possess a robust **interior** fixed-winding sector, or was the only problem that the minimum-energy state was selected too close to the upper EOS boundary?
+
+## Cheapest decisive experiment
+
+Map:
+
+```text
+F
+N
+chi
+```
+
+over the complete verified EOS band.
+
+For every exact fixed-`N` root compute:
+
+```text
+LOWER_CHI_HEADROOM
+UPPER_CHI_HEADROOM
+DFLOCK_DCHI
+FIRST_ORDER_DELTA_CHI_BOUND
+FIXED_N_MARGIN
+POINT_FORCE
+FINITE_PAYLOAD_FORCE
+KERNEL_LEVERAGE
+WORLD_SHEET_STABILITY
+R_OVER_WALL
+R_OVER_CORE
+C_EFF
+```
+
+Then perform:
+
+1. analytic sensitivity ranking;
+2. deterministic fixed-`N` perturbation lattice;
+3. randomized fixed-`N` perturbations;
+4. direct 017P BVP reconstruction;
+5. independent high-precision gravity.
+
+## Selection rule
+
+Do **not** choose minimum `C`.
+
+Choose the largest-energy-efficiency candidate that simultaneously has:
+
+```text
+FIXED_N_CONTINUITY=
+PASS
+
+COMFORTABLE_EOS_HEADROOM=
+PASS
+
+DETERMINISTIC_STRESS=
+PASS
+
+RANDOM_STRESS=
+PASS
+
+DIRECT_BVP=
+PASS
+
+FINITE_PAYLOAD=
+PASS
+
+KERNEL_LEVERAGE=
+PASS
+```
+
+This is a robustness-first selection.
+
+## Promotion condition
+
+```text
+SINGLE_VORTON_FIXED_N_INTERIOR_BASIN=
+GREEN
+```
+
+## Falsifier
+
+If no fixed `N` in the entire verified healthy EOS interval retains a meaningful neighborhood under the declared physically reasonable perturbations:
+
+```text
+SINGLE_VORTON_FIXED_N_REALIZATION=
+DEMOTE
+```
+
+Then return to the validated two-copy architecture or explicitly model a mechanism for winding-changing transitions.
+
+Do not widen the EOS stability interval merely to rescue the candidate.
+
+---
+
+# 42. Expected percentage treatment of the fixed-`N` repair
+
+Even a GREEN fixed-`N` interior basin should **not** by itself move the project materially above 66%.
+
+It repairs architecture selection.
+
+The actual next scientific promotion is still the microscopic/global field realization.
+
+Recommended heuristic discipline:
+
+```text
+CURRENT=
+~66%
+
+FIXED_N_HEADROOM_GREEN=
+STILL_ABOUT_66%
+
+018B0B_MICROSCOPIC_REVALIDATION_GREEN=
+ABOUT_66_TO_67%
+
+TRUE_018B_GLOBAL_FIELD_SOLUTION_GREEN=
+ABOUT_68%
+
+018C_FULL_STABILITY_GREEN=
+ABOUT_71_TO_72%
+
+018D_STATIONARY_GR_GREEN=
+ABOUT_72_TO_74%
+
+018E_NONLINEAR_EINSTEIN_MATTER_GREEN=
+ABOUT_78_TO_80%
+```
+
+These are not probabilities.
+
+They are milestone accounting.
+
+Do not manipulate gates to make the number increase.
+
+---
+
+# 43. 018B-0B — microscopic revalidation at the selected fixed-`N` interior point
+
+Only after fixed-`N` headroom is green.
+
+The selected parameters must be explicit:
+
+```text
+F=
+FROM_FIXED_N_HEADROOM_RUN
+
+CHI=
+DIRECT_BVP_LOCKED_VALUE
+
+N=
+EXACT_INTEGER
+
+R=
+EOS_AND_WALL_EQUILIBRIUM_VALUE
+```
+
+Then rerun the actual microscopic physics rather than using `F^3` continuation alone.
+
+---
+
+# 44. 018B-0B planar-wall requirements
+
+Re-solve the one-dimensional wall BVP at the selected new `F`.
+
+Require:
+
+```text
+PLANAR_WALL_BVP=
+PASS
+
+DOMAIN_SIZE_CONVERGENCE=
+PASS
+
+TENSION_CONVERGENCE=
+PASS
+
+SIGMA_VS_F3_LAW=
+RECONSTRUCTED
+
+INTEGRATED_ACTIVE_SOURCE_EQUALS_MINUS_TENSION=
+PASS
+
+VIRIAL_IDENTITY=
+PASS
+
+VACUUM_HESSIAN=
+POSITIVE
+
+TRANSVERSE_WALL_MODE=
+POSITIVE
+
+MIN_ENERGY_DENSITY=
+NONNEGATIVE
+
+BOUNDARY_DECAY=
+PASS
+```
+
+This replaces extrapolated wall quantities with solved ones.
+
+---
+
+# 45. 018B-0B fully coupled local junction requirements
+
+Re-run the complete local 2D:
+
+```text
+phi
+sigma
+A
+gauge
+```
+
+junction at the selected:
+
+```text
+F
+chi.
+```
+
+Do not inherit the `F=0.075` junction numbers.
+
+Require:
+
+```text
+FULL_SOLVER=
+PASS
+
+BASE_MATCHED_SOLVER=
+PASS
+
+FINE_CORE_RESOLUTION=
+PASS
+
+RESOLUTION_CONVERGENCE=
+PASS
+
+PATCH_SIZE_CONVERGENCE=
+PASS
+
+GLOBAL_OUTER_WALL_MATCH=
+PASS
+
+LOCAL_TOPOLOGY=
+PASS
+
+GAUGE_INVARIANCE=
+PASS
+
+JUNCTION_EXCESS_ENERGY=
+FINITE_AND_CONVERGED
+
+DELTA_SIGMA2=
+FINITE_AND_CONVERGED
+
+JUNCTION_ACTIVE_SOURCE=
+CONVERGED
+
+VARIATIONAL_IDENTITY=
+PASS
+
+EOS_HEALTH=
+PASS
+
+M2_TO_M40_PREFLIGHT=
+PASS
+
+FIXED_N_STATIONARITY=
+PASS
+```
+
+If this fails badly, do not launch the global PDE.
+
+---
+
+# 46. 018B-0B complete gravity revalidation
+
+Using only re-solved microscopic quantities:
+
+```text
+WALL_TENSION
+WALL_PROFILE
+RIM_EOS
+JUNCTION_ENERGY
+JUNCTION_ACTIVE_SOURCE
+DELTA_SIGMA2
+GAUGE_ENERGY
+```
+
+recompute:
+
+```text
+POSITIVE_TOTAL_ACTIVE_MASS
+
+FINITE_THICKNESS_POINT_FORCE
+
+EXACT_FINITE_PAYLOAD_FORCE
+
+FINITE_RIM_CORE_ENVELOPE
+
+KERNEL_LEVERAGE
+
+ROBUST_PARAMETER_NEIGHBORHOOD
+
+C_EFF_PAYLOAD
+
+1G_1M_MASS
+
+1G_1M_ENERGY
+```
+
+Only after this gate may the single-vorton projected energy replace the validated 018A-8 value.
+
+---
+
+# 47. Energy ledger rule for every next-session run
+
+After every run report:
+
+```text
+ENERGY_MODEL_STATUS=
+VALIDATED
+OR
+PROJECTED
+OR
+UNCHANGED
+
+C_EFF=
+
+ONE_G_ONE_M_MASS_KG=
+
+ONE_G_ONE_M_ENERGY_J=
+
+CHANGE_VS_PREVIOUS_FACTOR=
+
+PHYSICAL_REASON_FOR_CHANGE=
+```
+
+Current ledger:
+
+```text
+VALIDATED_018A8_C=
+1.774169582609975e6
+
+VALIDATED_018A8_MASS_1G_1M=
+2.606814218315347e17 kg
+
+VALIDATED_018A8_ENERGY_1G_1M=
+2.342887778715687e34 J
+```
+
+Current unpromoted single-vorton projection:
+
+```text
+PROJECTED_INTEGER_LOCKED_C=
+8.768487174104034e5
+
+PROJECTED_INTEGER_LOCKED_MASS_1G_1M=
+1.288367090869864e17 kg
+
+PROJECTED_INTEGER_LOCKED_ENERGY_1G_1M=
+1.157926595033378e34 J
+
+PROJECTED_IMPROVEMENT=
+2.023347411455x
+```
+
+Do not call the projected value validated until 018B-0B is green.
+
+---
+
+# 48. TRUE 018B — global toroidal finite-thickness matter-field solution
+
+After microscopic revalidation, stop doing thin-source source-level approximations.
+
+018B is the first true global field-realization milestone.
+
+The buildplan requires a globally regular finite-energy solution of the actual coupled matter equations in axisymmetric geometry.
+
+The global source is stationary and axisymmetric.
+
+Use cylindrical coordinates:
+
+```math
+(r,z,\varphi).
+```
+
+The computational domain can exploit axisymmetry so the background matter solve remains two-dimensional in:
+
+```math
+(r,z).
+```
+
+---
+
+# 49. Physical 018B field content
+
+The likely minimal single-vorton field content is:
+
+```text
+VORTEX_FORMING_PHI
+
+CURRENT_CARRYING_SIGMA
+
+KLS_WALL_FIELD_A
+
+GAUGE_FIELD
+```
+
+with:
+
+```math
+\sigma(r,z,\varphi,t)
+=
+s(r,z)
+e^{i(\omega t+N\varphi)}.
+```
+
+The `phi` vortex is a ring.
+
+Its local winding is in the meridional plane around the ring core.
+
+The `A` field carries the wall extending across the disk bounded by that vortex ring.
+
+The gauge field must resolve the ring-vortex flux consistently.
+
+Do not force the final stress tensor to resemble 006D.
+
+Solve the matter equations.
+
+Then calculate the stress tensor and gravity that the solution actually produces.
+
+---
+
+# 50. Why a naive uniform 018B grid is inefficient
+
+The projected one-vorton source has very separated scales.
+
+At the current source-level candidate:
+
+```text
+R_OVER_WALL≈
+36.8
+
+R_OVER_RIM_CORE≈
+423.
+```
+
+A uniform grid fine enough to resolve the core over a domain several radii wide would waste enormous computation in empty space.
+
+The shortest path therefore uses a multiscale representation.
+
+Preferred approaches:
+
+```text
+NONUNIFORM_COORDINATE_MAPPING
+
+OR
+
+MULTIPATCH_DOMAIN
+
+OR
+
+ADAPTIVE_FINITE_ELEMENT / FINITE_VOLUME
+```
+
+The computational mesh should concentrate points:
+
+```text
+NEAR_R_EQUALS_R_RING
+NEAR_Z_EQUALS_0
+ACROSS_WALL
+ACROSS_VORTEX_CORE
+ACROSS_CURRENT_CONDENSATE
+```
+
+while remaining coarse in the far vacuum.
+
+The global disk wall still has to be represented.
+
+Do not replace it by a boundary condition so aggressively that its gravitational stress disappears.
+
+---
+
+# 51. Shortest 018B continuation strategy
+
+Do not initialize the full toroidal PDE from noise.
+
+Use continuation from solved lower-dimensional limits.
+
+Recommended chain:
+
+```text
+STEP_1:
+STRAIGHT_017P_STRING_BVP
+
+STEP_2:
+PLANAR_KLS_WALL_BVP
+
+STEP_3:
+LOCAL_2D_WALL_VORTEX_JUNCTION
+
+STEP_4:
+VERY_LARGE_RADIUS_CURVED_RING
+
+STEP_5:
+CONTINUE_CURVATURE_1/R_UPWARD
+
+STEP_6:
+TARGET_FINITE_RADIUS
+```
+
+At every continuation step:
+
+```text
+SOLVER_RESIDUAL
+ENERGY
+CHARGE
+WINDING
+STRESS_CONSERVATION
+```
+
+must remain controlled.
+
+This is dramatically safer than attempting the final toroidal solution in one jump.
+
+---
+
+# 52. 018B numerical convergence requirements
+
+The buildplan requires independent studies of:
+
+```text
+RADIAL_RESOLUTION
+
+VERTICAL_RESOLUTION
+
+DOMAIN_SIZE
+
+BOUNDARY_LOCATION
+
+INITIAL_GUESS
+
+CONTINUATION_PATH
+
+SOLVER_TOLERANCE
+
+CHARGE_OR_WINDING_CONTINUATION
+```
+
+Because previous work already exposed common-mode lattice artifacts, convergence must be separated by source.
+
+Do not accept a result that changes substantially under:
+
+```text
+GRID_REFINEMENT
+
+DOMAIN_EXPANSION
+
+MAPPING_PARAMETER_CHANGE
+
+ALTERNATE_INITIALIZATION
+```
+
+even if the nonlinear optimizer returns `success=True`.
+
+---
+
+# 53. 018B mandatory physical outputs
+
+A genuine 018B solution must report:
+
+```text
+FIELD_EQUATION_RESIDUALS
+
+FINITE_TOTAL_ENERGY
+
+GLOBAL_REGULARITY
+
+NOETHER_CHARGE
+
+GAUGE_CHARGE
+
+INTEGER_WINDING
+
+NET_ANGULAR_MOMENTUM
+
+COMPLETE_T_MUNU
+
+LOCAL_CONSERVATION_RESIDUAL
+
+TOTAL_ACTIVE_MASS
+
+NEGATIVE_ACTIVE_REGION
+
+KERNEL_WEIGHTED_ACTIVE_MOMENT
+
+POINT_ACCELERATION
+
+FINITE_PAYLOAD_CM_ACCELERATION
+
+FINITE_SOURCE_THICKNESS
+
+BOUNDARY_DECAY
+```
+
+Pass condition:
+
+> A globally regular finite-energy nonthermal field configuration satisfying its own Euler-Lagrange equations produces robust outward finite-payload acceleration while all mandatory support sectors are included.
+
+If this passes, classify:
+
+```text
+FIELD_THEORETICAL_CANDIDATE
+```
+
+within the stated field model.
+
+Do not call it a practical device.
+
+---
+
+# 54. 018B independent reconstruction requirement
+
+A positive 018B cannot be accepted from one solver path.
+
+At minimum independently reproduce:
+
+```text
+FIELD_RESIDUAL
+
+TOTAL_ENERGY
+
+ACTIVE_MASS
+
+FINITE_PAYLOAD_FORCE_SIGN
+```
+
+Preferred independent routes:
+
+```text
+ALTERNATE_DISCRETIZATION
+
+VIRIAL_OR_POHOZAEV_IDENTITY
+
+INDEPENDENT_T_MUNU_CONSTRUCTION
+
+INDEPENDENT_GRAVITY_INTEGRATOR
+
+HIGHER_ORDER_QUADRATURE
+
+ALTERNATE_DOMAIN_MAPPING
+```
+
+A particularly strong combination would be:
+
+```text
+PRIMARY:
+GAUGE_COVARIANT_MAPPED_GRID_NONLINEAR_SOLVER
+
+INDEPENDENT:
+SEPARATE_T_MUNU_AND_GRAVITY_RECONSTRUCTION
++
+VIRIAL_IDENTITY
++
+SECOND_GRID_MAPPING
+```
+
+---
+
+# 55. 018B promotion effect on heuristic
+
+A genuine positive global 018B result is qualitatively different from 018A.
+
+018A showed that all currently required local sectors fit together and preserve the desired gravity at a controlled preflight level.
+
+018B would show that the actual curved finite-thickness matter fields solve their own global equations.
+
+That deserves movement to roughly:
+
+```text
+~68%
+```
+
+on the internal milestone ruler.
+
+If 018B fails fundamentally, do not fake progress toward 80.
+
+Rerank.
+
+---
+
+# 56. 018C — full composite stability
+
+Worldsheet `c_T` / `c_L` and `m=2..40` thin-string criteria are not enough after 018B.
+
+The complete field solution must survive coupled perturbations.
+
+Required mode classes include:
+
+```text
+RADIAL_DILATION
+
+VERTICAL_TRANSLATION
+
+M2_ELLIPTIC_MODE
+
+HIGHER_AZIMUTHAL_MODES
+
+WALL_RIM_RELATIVE_DISPLACEMENT
+
+MEMBRANE_RIPPLE
+
+CHARGE_TRANSFER
+
+CURRENT_PERTURBATION
+
+GAUGE_PERTURBATION
+
+VORTEX_SPLITTING
+
+FIELD_AMPLITUDE_MODE
+
+COLLAPSE
+
+EXPANSION
+
+JUNCTION_UNBINDING
+```
+
+---
+
+# 57. Efficient 018C reduction using axisymmetry
+
+For an axisymmetric stationary background, perturbations can be Fourier decomposed in azimuth:
+
+```math
+\delta\Psi
+=
+e^{\lambda t}
+e^{im\varphi}
+u_m(r,z).
+```
+
+Different integer `m` sectors decouple at linear order.
+
+Thus the full three-dimensional perturbation problem can be converted into a sequence of two-dimensional eigenvalue problems.
+
+This is the computational shortcut that makes 018C potentially feasible in the next session.
+
+Recommended hierarchy:
+
+```text
+M=0:
+AXISYMMETRIC_RADIAL_AND_FIELD_AMPLITUDE_MODES
+
+M=1:
+TRANSLATION / DISPLACEMENT / GAUGE_ZERO_MODE_AUDIT
+
+M=2:
+ELLIPTIC / SPLITTING CONTROL MODE
+
+M=3...:
+HIGHER_AZIMUTHAL_CONVERGENCE
+
+CHARGE_CURRENT_BLOCK:
+COUPLED_CONDENSATE_MODES
+```
+
+Gauge zero modes and translational zero modes must be identified rather than mistaken for instabilities.
+
+---
+
+# 58. Stability eigenvalue criterion
+
+Schematically linearize around the stationary field solution:
+
+```math
+\Psi
+=
+\Psi_0
++
+\delta\Psi.
+```
+
+The second variation gives a generalized eigenvalue problem of the form:
+
+```math
+\mathcal H_m u
+=
+\omega_m^2
+\mathcal W_m u.
+```
+
+For physical positive-norm modes:
+
+```math
+\omega_m^2<0
+```
+
+implies exponential growth.
+
+A strong pass requires:
+
+```text
+NO_PHYSICAL_NEGATIVE_OMEGA_SQUARED_MODE=
+FOUND
+```
+
+after removing gauge and symmetry zero modes.
+
+If the system is formulated directly in first-order time evolution, equivalent failure is:
+
+```math
+\operatorname{Re}\lambda>0.
+```
+
+The lowest eigenmodes should be independently tested by direct time evolution.
+
+---
+
+# 59. Why 018C is strategically linked to 018E
+
+A stable isolated matter solution with a nondegenerate physical Hessian provides more than a stability result.
+
+After gauge and symmetry zero modes are fixed, nondegeneracy supplies the mathematical condition needed for an implicit-function continuation in a small gravitational coupling parameter.
+
+This can make the nonlinear Einstein-matter step much easier.
+
+Therefore 018C should explicitly report:
+
+```text
+LOWEST_PHYSICAL_HESSIAN_EIGENVALUE
+
+SPECTRAL_GAP
+
+ZERO_MODE_CLASSIFICATION
+```
+
+not merely:
+
+```text
+NO_CRASH_IN_TIME_EVOLUTION.
+```
+
+A meaningful 018C pass deserves roughly:
+
+```text
+~71_TO_72_PERCENT
+```
+
+on the milestone ruler.
+
+---
+
+# 60. 018D — stationary gravity / frame dragging
+
+The selected single-vorton source has nonzero angular momentum.
+
+Therefore:
+
+```text
+STATIC=
+NO
+
+STATIONARY_AXISYMMETRIC=
+YES.
+```
+
+Do not call the final single-vorton model static.
+
+Required outputs:
+
+```text
+TOTAL_ANGULAR_MOMENTUM
+
+T_TPHI_DISTRIBUTION
+
+H_0PHI_OR_EQUIVALENT_GRAVITOMAGNETIC_POTENTIAL
+
+FRAME_DRAGGING
+
+REST_PAYLOAD_INITIAL_ACCELERATION
+
+MOVING_PAYLOAD_CORRECTION
+```
+
+---
+
+# 61. Analytical reason frame dragging may not change initial rest acceleration at leading order
+
+The geodesic equation is:
+
+```math
+\frac{d^2x^i}{dt^2}
+=
+-c^2
+\Gamma^i_{00}
++
+O(v).
+```
+
+For a stationary metric:
+
+```math
+\partial_0 g_{\mu\nu}
+=
+0.
+```
+
+Therefore:
+
+```math
+\Gamma^i_{00}
+=
+-\frac12
+g^{ij}
+\partial_j g_{00}
+```
+
+to leading stationary order.
+
+The off-diagonal stationary metric components `g_{0i}` enter the acceleration through velocity-dependent terms at linear weak-field order.
+
+Thus for a payload initially at rest:
+
+```math
+v^i=0,
+```
+
+the leading initial acceleration is controlled by the gravitoelectric `g_{00}` gradient.
+
+This suggests that nonzero vorton angular momentum may not erase the already-positive **initial rest-payload** acceleration at first order.
+
+But this must be explicitly checked using the realized `T_{t\varphi}`.
+
+Do not use this analytical observation to skip 018D.
+
+---
+
+# 62. 018D pass rule
+
+Require:
+
+```text
+REST_PAYLOAD_OUTWARD=
+YES
+
+FRAME_DRAGGING_FINITE=
+YES
+
+NO_PATHOLOGICAL_STATIONARY_METRIC_BEHAVIOR=
+YES
+
+MOVING_PAYLOAD_CORRECTION=
+QUANTIFIED
+```
+
+If frame dragging changes the interpretation but not the rest-payload sign, retain the source as a stationary antigravity-like GR candidate.
+
+A strong 018D result can move the internal milestone into roughly:
+
+```text
+72_TO_74_PERCENT.
+```
+
+---
+
+# 63. 018E — nonlinear Einstein-matter continuation
+
+Only after:
+
+```text
+018B=
+GREEN
+
+018C=
+GREEN
+
+018D=
+GREEN
+```
+
+should the project perform the nonlinear gravity continuation.
+
+Solve:
+
+```math
+G_{\mu\nu}
+=
+\frac{8\pi G}{c^4}
+T_{\mu\nu}
+```
+
+with the actual matter fields.
+
+The solution must be stationary and axisymmetric if the single-vorton branch remains selected.
+
+---
+
+# 64. 018E required checks
+
+```text
+METRIC_REGULARITY
+
+CURVATURE_INVARIANTS
+
+HORIZON_CHECK
+
+ERGOREGION_CHECK_IF_RELEVANT
+
+COMPACTNESS
+
+FULL_COVARIANT_STRESS_CONSERVATION
+
+ASYMPTOTIC_MASS
+
+ANGULAR_MOMENTUM
+
+PROPER_ACCELERATION
+
+GEODESIC_RESPONSE
+
+FINITE_PAYLOAD_RESPONSE
+
+PAYLOAD_BACKREACTION_PREFLIGHT
+```
+
+The operational result must not rely on a coordinate acceleration alone.
+
+Use:
+
+```text
+PROPER_LOCAL_OBSERVABLE
+OR
+GEODESIC_RELATIVE_RESPONSE
+OR
+FINITE_PAYLOAD_CENTER_OF_MASS_OBSERVABLE
+```
+
+with the coordinate-to-operational mapping stated explicitly.
+
+---
+
+# 65. Why the nonlinear continuation may be computationally favorable
+
+The current validated compactness is only order:
+
+```math
+10^{-12}.
+```
+
+For the projected single-vorton normalization the compactness is also order:
+
+```math
+10^{-12}.
+```
+
+At `h=1 m`, the projected one-vorton geometry has approximately:
+
+```math
+R
+\approx
+\frac{1}{0.0136345}
+\approx
+73.3\ {\rm m}.
+```
+
+Using the projected source mass gives roughly:
+
+```math
+\frac{GM}{Rc^2}
+\approx
+1.3\times10^{-12}.
+```
+
+Thus introduce a gravitational continuation parameter `epsilon_G` and solve:
+
+```text
+epsilon_G=0:
+FLAT_SPACE_018B_MATTER_SOLUTION
+
+epsilon_G>0:
+COUPLED_EINSTEIN_MATTER
+
+CONTINUE_TO_PHYSICAL_EPSILON_G
+```
+
+If 018C proves the physical Hessian is nondegenerate, the implicit-function theorem provides a strong local mathematical reason to expect a nearby coupled solution for sufficiently small gravitational coupling.
+
+That is not itself the nonlinear proof.
+
+It is the shortest rigorous route to constructing it.
+
+---
+
+# 66. 018E promotion and the 80% milestone
+
+The existing buildplan explicitly treats a positive nonlinear Einstein-matter continuation as the milestone for approximately the:
+
+```text
+72_TO_80_PERCENT
+```
+
+tier.
+
+To claim approximately 80%, require all of the following:
+
+```text
+GLOBAL_MICROSCOPIC_FIELD_SOLUTION=
+YES
+
+FINITE_TOTAL_ENERGY=
+YES
+
+COMPLETE_T_MUNU=
+YES
+
+FINITE_PAYLOAD_OUTWARD=
+YES
+
+POSITIVE_ASYMPTOTIC_MASS=
+YES
+
+FULL_RELEVANT_STABILITY=
+NO_GROWING_MODE_FOUND
+
+STATIONARY_FRAME_DRAGGING=
+ACCOUNTED_FOR
+
+NONLINEAR_EINSTEIN_MATTER=
+YES
+
+NONLINEAR_FINITE_PAYLOAD_REPULSION=
+YES
+
+INDEPENDENT_RECONSTRUCTION=
+YES
+```
+
+Then:
+
+```text
+CURRENT_PROJECT_HEURISTIC=
+APPROXIMATELY_78_TO_80_PERCENT
+```
+
+would be scientifically defensible.
+
+Do not declare 80% merely because we complete many scripts.
+
+The physics gates must actually be green.
+
+---
+
+# 67. Exact shortest path from current ~66% to 80%
+
+The next session should follow this order and should not branch randomly.
+
+```text
+PHASE 1:
+FIXED_N_HEADROOM / IMPLICIT_FUNCTION_GATE
+
+PHASE 2:
+MICROSCOPIC_REVALIDATION_AT_ROBUST_INTEGER_LOCKED_POINT
+
+PHASE 3:
+TRUE_GLOBAL_018B_TOROIDAL_FIELD_SOLVE
+
+PHASE 4:
+018B_INDEPENDENT_RECONSTRUCTION
+
+PHASE 5:
+018C_FULL_COMPOSITE_STABILITY
+
+PHASE 6:
+018D_STATIONARY_GR / FRAME_DRAGGING
+
+PHASE 7:
+018E_NONLINEAR_EINSTEIN_MATTER
+
+PHASE 8:
+ONLY_IF_ALL_GREEN:
+CLAIM_APPROXIMATELY_80_PERCENT_INTERNAL_MILESTONE
+```
+
+This is the shortest path because each phase resolves a failure mode that would otherwise invalidate later expensive work.
+
+Skipping any of them would create only an inflated percentage, not scientific progress.
+
+---
+
+# 68. Compute-allocation strategy for the next session
+
+The user wants to push hard.
+
+The correct way to spend compute is not to use maximum resolution from the beginning.
+
+Use compute in an information-optimal hierarchy.
+
+## Stage A — cheap analytical / tabulated gates
+
+Use milliseconds-to-seconds for:
+
+```text
+FIXED_N_HEADROOM
+EOS_ROOTS
+SENSITIVITY
+TOPOLOGY
+STATIONARITY
+GRAVITY_KERNEL
+```
+
+Reject bad points here.
+
+## Stage B — local microscopic BVP
+
+Use moderate/high resolution for:
+
+```text
+PLANAR_WALL
+LOCAL_JUNCTION
+DIRECT_017P_RADIAL_BVP
+```
+
+Reject before global PDE if local physics fails.
+
+## Stage C — global 018B continuation
+
+Use moderate mapped grids first.
+
+Only refine converged physical candidates.
+
+## Stage D — stability
+
+Compute lowest modes first.
+
+A single robust growing mode is a stop rule.
+
+Do not compute the entire high-`m` spectrum after a fatal `m=0` or `m=2` instability is found.
+
+## Stage E — nonlinear GR
+
+Only after stable matter exists.
+
+The very small compactness means continuation should begin extremely close to the flat-space solution.
+
+This is how to use large compute without wasting it.
+
+---
+
+# 69. 80% does not mean practical antigravity
+
+The milestone meaning must stay clear.
+
+At approximately 80%, if earned, the project would have something close to:
+
+> A theoretically credible, microscopic, finite-energy, dynamically stable, nonlinear-GR source producing operational finite-payload gravitational repulsion.
+
+That would be a major theoretical result.
+
+It would still **not** be practical.
+
+The energy problem is separate.
+
+---
+
+# 70. Pure-GR energy scaling theorem relevant to the 90% goal
+
+The present GR family obeys:
+
+```math
+M_E
+=
+C
+\frac{a h^2}{G}.
+```
+
+Therefore:
+
+```math
+E
+=
+M_Ec^2
+=
+C
+\frac{
+a h^2 c^2
+}{
+G
+}.
+```
+
+At:
+
+```math
+a=g,
+```
+
+and:
+
+```math
+h=1\ {\rm m},
+```
+
+the energy per unit coefficient is:
+
+```math
+E_{C=1}
+=
+\frac{
+gc^2
+}{
+G
+}.
+```
+
+Numerically:
+
+```math
+E_{C=1}
+\approx
+1.320554586\times10^{28}\ {\rm J}.
+```
+
+This is crucial.
+
+Even if pure-GR geometry somehow improved the current coefficient all the way from:
+
+```math
+C\sim10^6
+```
+
+to:
+
+```math
+C=1,
+```
+
+the 1g/1m source would still require approximately:
+
+```math
+1.32\times10^{28}\ {\rm J}.
+```
+
+Therefore the practical problem cannot be solved by an order-unity coefficient optimization alone.
+
+---
+
+# 71. Quantitative proof that 90% requires a qualitative scaling change
+
+Take an aspirational engineering-scale setup energy:
+
+```math
+E_{\rm target}
+\sim
+10^9\ {\rm J}.
+```
+
+If the same pure-GR law remained valid, the required coefficient would be:
+
+```math
+C_{\rm required}
+=
+\frac{
+10^9
+}{
+1.320554586\times10^{28}
+}
+\approx
+7.57\times10^{-20}.
+```
+
+For:
+
+```math
+E_{\rm target}
+\sim
+10^6\ {\rm J},
+```
+
+one would need:
+
+```math
+C_{\rm required}
+\approx
+7.57\times10^{-23}.
+```
+
+This is not a plausible continuation of:
+
+```text
+C≈23
+```
+
+or:
+
+```text
+C≈1e6
+```
+
+by ordinary geometry optimization.
+
+Therefore:
+
+> Reaching a theoretically practical ~90% state requires either a qualitatively different scaling law, a physically allowed interaction much stronger than ordinary gravity, or some other genuine parametric amplification whose complete energy cost does not reintroduce the same suppression.
+
+This conclusion should control the post-80 research strategy.
+
+---
+
+# 72. 018F — practical scaling gate after 80%
+
+If 018E is green, immediately quantify:
+
+```text
+TOTAL_SOURCE_ENERGY
+
+MASS_EQUIVALENT
+
+ENERGY_PER_PAYLOAD_MASS
+
+ENERGY_PER_AREA
+
+PEAK_FIELD_ENERGY_DENSITY
+
+CONTROL_ENERGY
+
+CHARGE_REQUIREMENT
+
+CURRENT_REQUIREMENT
+
+DISSIPATION
+
+HEAT
+
+SOURCE_SIZE
+
+PAYLOAD_STANDOFF
+
+FABRICATION_SCALE
+```
+
+If:
+
+```text
+PURE_GR_SCALING=
+STILL_CATASTROPHIC
+```
+
+then the established-GR branch has succeeded theoretically but failed the practicality gate.
+
+That is not a scientific failure.
+
+It tells us exactly what kind of new mechanism is needed.
+
+---
+
+# 73. Trigger for protected scalar branch after successful GR realization
+
+The buildplan says to activate the protected scalar branch if:
+
+```text
+NONTHERMAL_GR_FIELD_REALIZATION=
+SUCCESS
+
+BUT
+
+PURE_GR_PRACTICAL_SCALING=
+CATASTROPHIC
+```
+
+The low-energy target remains schematically:
+
+```math
+\mathcal H_{\phi,2}
+=
+C_\phi
+\phi
+A^\dagger
+B^\dagger
+BA.
+```
+
+Representative coefficient:
+
+```math
+C_\phi
+\approx
+9.54\times10^{-20}\ {\rm eV^{-3}}.
+```
+
+Working ultralight mediator mass:
+
+```math
+m_\phi
+\approx
+3.95\times10^{-11}\ {\rm eV}.
+```
+
+Allowed ordinary-matter leakage fraction:
+
+```math
+f_{\rm leak}
+\approx
+5.77\times10^{-7}.
+```
+
+Current status:
+
+```text
+LOW_ENERGY_PARAMETRIC_SURVIVOR=
+YES
+
+RELATIVISTIC_MICROSCOPIC_COMPLETION=
+NO
+```
+
+---
+
+# 74. Why generic loop suppression is insufficient for the scalar branch
+
+A generic one-loop factor is:
+
+```math
+\frac{1}{16\pi^2}
+\approx
+6.33\times10^{-3}.
+```
+
+Compare this with the allowed leakage:
+
+```math
+5.77\times10^{-7}.
+```
+
+The ratio is:
+
+```math
+\frac{
+6.33\times10^{-3}
+}{
+5.77\times10^{-7}
+}
+\approx
+1.10\times10^4.
+```
+
+Thus ordinary loop suppression is about eleven thousand times too weak.
+
+The additional structural suppression required relative to a generic loop is roughly:
+
+```math
+\frac{
+5.77\times10^{-7}
+}{
+6.33\times10^{-3}
+}
+\approx
+9.1\times10^{-5}.
+```
+
+Therefore a successful scalar practicality route needs:
+
+```text
+EXACT_SYMMETRY
+
+OR
+
+TECHNICALLY_NATURAL_SELECTION_RULE
+
+OR
+
+NONPERTURBATIVE_PROTECTION
+
+OR
+
+OTHER_GENUINE_STRUCTURAL_MECHANISM
+```
+
+not fine-tuned cancellation.
+
+---
+
+# 75. Protected scalar route to ~90%
+
+After 80%, if pure GR remains catastrophic, the shortest serious practicality sequence is:
+
+```text
+A.
+RELATIVISTIC_OPERATOR_BASIS
+
+B.
+EXACT_OR_TECHNICALLY_NATURAL_PROTECTION
+
+C.
+TREE_LEVEL_ONE_BODY_OPERATOR_AUDIT
+
+D.
+ONE_LOOP_AND_RG_MIXING
+
+E.
+ULTRALIGHT_MEDIATOR_MASS_NATURALNESS
+
+F.
+INDEPENDENT_NONRELATIVISTIC_MATCHING
+
+G.
+EXACT_CURRENT_EXPERIMENTAL_FORCE_BOUND
+
+H.
+STELLAR_AND_COSMOLOGICAL_CONSTRAINTS
+
+I.
+REAL_MATERIAL_MATCH
+
+J.
+FINITE_PAYLOAD_SOURCE_GEOMETRY
+
+K.
+COMPLETE_SOURCE_REACTION_AND_MOMENTUM_ACCOUNTING
+
+L.
+CONTROL_ENERGY_AND_HEATING
+
+M.
+ROBUST_ORDER_1G_DEVICE_LEVEL_SIMULATION
+```
+
+Stop immediately if:
+
+```text
+ONE_BODY_LEAKAGE_TOO_LARGE
+
+MEDIATOR_MASS_UNNATURAL
+
+EXPERIMENTAL_BOUND_EXCLUDES_POINT
+
+STELLAR_BOUND_FATAL
+
+REAL_MATERIAL_MATCH_FAILS
+
+CONTROL_ENERGY_CATASTROPHIC
+```
+
+Do not add arbitrary hidden knobs.
+
+---
+
+# 76. Hybrid route after 80%
+
+A second possible practicality path is to reuse the **geometry principle** learned from GR while replacing the interaction strength.
+
+The GR lesson is:
+
+```text
+REPULSIVE_COMPONENT=
+NEAR_PAYLOAD
+
+COMPENSATING_COMPONENT=
+FARTHER_FROM_PAYLOAD
+```
+
+A stronger allowed interaction might exploit the same kernel leverage.
+
+This could be:
+
+```text
+PROTECTED_SCALAR
+
+PROTECTED_VECTOR
+
+OTHER_WELL_MOTIVATED_FORCE
+```
+
+but would be classified as:
+
+```text
+OPERATIONAL_ANTIGRAVITY
+```
+
+or:
+
+```text
+FIFTH_FORCE_REPULSION
+```
+
+unless it is shown to be genuinely gravitational.
+
+Do not blur this classification.
+
+---
+
+# 77. Disformal branch ranking after 80%
+
+The disformal branch remains lower priority because:
+
+```text
+LOCAL_FORCE_REVERSAL=
+YES_IN_REDUCED_MODEL
+
+FINITE_PAYLOAD_COM_REVERSAL=
+NOT_ESTABLISHED
+
+ORDINARY_MATTER_BRIDGE=
+SEVERELY_HIERARCHICAL
+```
+
+Do not reopen it before the protected scalar branch unless a new physical idea directly addresses:
+
+```text
+FINITE_PAYLOAD
++
+ORDINARY_MATTER_BRIDGE
+```
+
+simultaneously.
+
+---
+
+# 78. Meaning of the ~90% milestone
+
+Approximately 90% should mean something stronger than merely “the equations allow it.”
+
+A defensible theoretical ~90% state would require something like:
+
+```text
+FULL_MICROSCOPIC_THEORY=
+YES
+
+FULL_STABILITY=
+YES
+
+NONLINEAR_OR_APPROPRIATE_FIELD_EQUATIONS=
+YES
+
+FINITE_PAYLOAD_ORDER_1G=
+YES
+
+ALL_MANDATORY_SUPPORT_ENERGY=
+INCLUDED
+
+EXISTING_EXPERIMENTAL_CONSTRAINTS=
+PASS
+
+STELLAR_COSMOLOGICAL_CONSTRAINTS=
+PASS_IF_RELEVANT
+
+REAL_MATERIAL_OR_FIELD_PARAMETERS=
+PLAUSIBLE
+
+FABRICATION_REQUIREMENTS=
+PLAUSIBLE
+
+CONTROL_SCHEME=
+PLAUSIBLE
+
+ENERGY=
+ENGINEERING_RELEVANT
+
+POWER=
+ENGINEERING_RELEVANT
+
+HEATING=
+MANAGEABLE
+
+ROBUSTNESS=
+BROAD
+
+INDEPENDENT_THEORETICAL_RECONSTRUCTION=
+PASS
+```
+
+At that point the project would have a **theoretically practical candidate**.
+
+It still would not be experimentally demonstrated.
+
+Above roughly 90%, progress increasingly requires hardware.
+
+---
+
+# 79. Meaning of 100%
+
+A 100% milestone should not be reachable by simulation alone.
+
+It should require:
+
+```text
+PHYSICAL_APPARATUS
+
+MEASURED_OUTWARD_FORCE_OR_GRAVITATIONAL_RESPONSE
+
+NEUTRAL_PAYLOAD
+
+COMPLETE_CALIBRATION
+
+ELECTROMAGNETIC_ARTIFACT_REJECTION
+
+THERMAL_ARTIFACT_REJECTION
+
+VIBRATION_REJECTION
+
+RADIATION_PRESSURE_REJECTION
+
+CONVENTIONAL_FORCE_REJECTION
+
+SOURCE_ON_OFF_OR_STATE_CONTROL
+
+REPRODUCIBILITY
+
+INDEPENDENT_REPLICATION
+
+PRACTICAL_ENERGY_AND_CONTROL
+```
+
+Only then could the project claim practical demonstrated antigravity or an operational equivalent, with classification determined by the actual interaction.
+
+---
+
+# 80. Stop rules on the road to 80%
+
+Immediately stop or rerank if any of these occurs:
+
+```text
+NO_FIXED_N_INTERIOR_SINGLE_VORTON_BASIN
+
+MICROSCOPIC_REPARAMETERIZED_WALL_FAILS
+
+MICROSCOPIC_REPARAMETERIZED_JUNCTION_FAILS
+
+MANDATORY_NEW_SUPPORT_ENERGY_REVERSES_GRAVITY
+
+GLOBAL_018B_FIELD_SOLUTION_DOES_NOT_EXIST
+
+GLOBAL_018B_SOLUTION_LOSES_FINITE_PAYLOAD_REPULSION
+
+GLOBAL_018B_TOTAL_ACTIVE_MASS_BECOMES_NONPHYSICAL
+
+018B_FAILS_CONVERGENCE
+
+018C_FINDS_ROBUST_GROWING_MODE
+
+018D_FRAME_DRAGGING_REVERSES_OPERATIONAL_EFFECT
+
+018E_NONLINEAR_COUPLING_DESTROYS_REPULSION
+```
+
+A negative result is not permission to increase model complexity indefinitely.
+
+At a fundamental failure:
+
+```text
+PRESERVE_NEGATIVE_RESULT
+
+RERANK_BRANCHES
+
+DO_NOT_PROTECT_SUNK_COST
+```
+
+---
+
+# 81. Stop rules on the road from 80 to 90%
+
+```text
+PURE_GR_ENERGY_REMAINS_CATASTROPHIC
+->
+STOP_COEFFICIENT_MICROTUNING
+
+PROTECTED_SCALAR_ONE_BODY_LEAKAGE_FATAL
+->
+CLOSE_OR_DEMOTE_SCALAR
+
+ULTRALIGHT_MASS_RADIATIVELY_UNSTABLE
+->
+CLOSE_OR_DEMOTE_SCALAR
+
+CURRENT_FORCE_BOUND_EXCLUDES_WORKING_POINT
+->
+CLOSE_POINT
+
+STELLAR_OR_COSMOLOGICAL_BOUND_FATAL
+->
+CLOSE_MODEL
+
+REAL_MATERIAL_MATCH_REQUIRES_UNPHYSICAL_PROPERTIES
+->
+CLOSE_IMPLEMENTATION
+
+CONTROL_OR_SUPPORT_ENERGY_REINTRODUCES_CATASTROPHIC_COST
+->
+NO_PRACTICAL_PROMOTION
+```
+
+---
+
+# 82. Do not restart these already-resolved searches
+
+Do not spend the next session on:
+
+```text
+ANOTHER_RANDOM_006D_GEOMETRY_SEARCH
+
+ANOTHER_THERMAL_O4_PARAMETER_SCAN
+
+ANOTHER_017R_WORLDSHEET_ONLY_SCAN
+
+ANOTHER_LOCAL_DISFORMAL_SIGN_SCAN
+
+ANOTHER_SOURCE_LEVEL_SINGLE_VORTON_F_SCAN_WITHOUT_FIXED_N_RESOLUTION
+
+ANOTHER_THIN_PAYLOAD_MEAN_VALUE_CHECK
+
+ANOTHER_LOCAL_KLS_JUNCTION_AT_F_EQUALS_0P075
+
+ANOTHER_COARSE_018A6B_GRID
+```
+
+The frontier has moved.
+
+---
+
+# 83. Numerical lessons that must carry forward
+
+## 83.1 Common-grid subtraction
+
+When adding a new coupled field sector, compare:
+
+```text
+FULL_MODEL
+```
+
+and:
+
+```text
+BASE_MODEL
+```
+
+on the **same discretization**.
+
+Otherwise base lattice relaxation can masquerade as physical backreaction.
+
+## 83.2 Resolve physical core widths
+
+Count cells across:
+
+```text
+PHI_CORE
+SIGMA_CORE
+WALL_CORE
+JUNCTION_CORE
+```
+
+before interpreting resolution trends.
+
+## 83.3 Local boxes cannot satisfy global asymptotic tests
+
+A fine local junction patch should be matched to an independently verified global outer solution.
+
+Do not demand asymptotic vacuum recovery inside a box smaller than the physical wall width.
+
+## 83.4 Solver success is not physical convergence
+
+Require:
+
+```text
+GRADIENT_RESIDUAL
+RESOLUTION_CONVERGENCE
+DOMAIN_CONVERGENCE
+PHYSICAL_IDENTITY
+```
+
+not merely `optimizer.success`.
+
+## 83.5 Exact kernels should replace brute-force singular quadrature when possible
+
+The spherical payload overlap kernel eliminated an artificial numerical failure and produced a stronger physical result.
+
+Look for similar analytical reductions before spending compute.
+
+---
+
+# 84. Repository / terminal workflow for next session
+
+First action:
+
+```bash
+ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+PY="$ROOT/.venv/bin/python"
+
+printf '%s\n' "=== REPOSITORY STATUS ==="
+git -C "$ROOT" status --short
+
+printf '\n%s\n' "=== RECENT 018 FILES ==="
+find "$ROOT/simulations" -maxdepth 1 -type f \
+    -name '018*.py' \
+    -print \
+    | sort
+
+printf '\n%s\n' "=== RECENT 018 LOGS ==="
+find "$ROOT/results/logs" -maxdepth 1 -type f \
+    -name '018*.log' \
+    -print \
+    | sort
+
+printf '\n%s\n' "=== REGRESSION BASELINE ==="
+PYTHONPATH="$ROOT/src" \
+"$PY" -m pytest -q "$ROOT/tests/known_solutions"
+
+printf '%s\n' "TERMINAL_WILL_REMAIN_OPEN=YES"
+```
+
+Expected known-solution baseline:
+
+```text
+94 passed
+```
+
+Do not assume the old codebundle contains the newest 018 scripts.
+
+The actual repository source and logs are newer.
+
+---
+
+# 85. Recent simulation files that should exist
+
+Known from this session:
+
+```text
+simulations/018a6a_fixed_background_2d_kls_junction.py
+
+simulations/018a6b0_kls_backreaction_stress_eos_preflight.py
+
+simulations/018a6b2_fine_local_multiscale_junction.py
+
+simulations/018a6b3_fine_continuation_outer_match_closeout.py
+
+simulations/018a7_complete_microscopic_gravity_closeout.py
+
+simulations/018a8_finite_thickness_payload_kernel_closeout.py
+
+simulations/018b0_exhaustive_architecture_pareto_campaign.py
+
+simulations/018b0a_integer_locked_eos_architecture_gate.py
+```
+
+There are also earlier fully coupled 6B / matched-lattice-control files.
+
+Confirm their exact filenames from the repository rather than guessing.
+
+Corresponding logs should live under:
+
+```text
+results/logs/
+```
+
+---
+
+# 86. Shell-block policy
+
+For this project on the Mac:
+
+```text
+DO_NOT_USE=
+set -euo pipefail
+```
+
+by default.
+
+In particular avoid:
+
+```text
+set -u
+```
+
+because it can interfere with the user's zsh prompt configuration.
+
+Do not use:
+
+```text
+exit
+```
+
+in paste-ready blocks.
+
+Always end important blocks with:
+
+```text
+TERMINAL_WILL_REMAIN_OPEN=YES
+```
+
+When a Python run fails, immediately provide a self-contained diagnostic block that prints the relevant file/function context so the user can paste the output back.
+
+---
+
+# 87. Code-documentation policy for true 018B and beyond
+
+The next major source files must have unusually complete top-of-file documentation covering:
+
+```text
+PURPOSE
+
+ACTIVE_SCIENTIFIC_QUESTION
+
+PHYSICAL_MODEL
+
+LAGRANGIAN
+
+FIELD_ANSATZ
+
+EQUATIONS
+
+UNITS
+
+SIGN_CONVENTIONS
+
+INPUTS
+
+OUTPUTS
+
+BOUNDARY_CONDITIONS
+
+GAUGE_CHOICE
+
+CHARGE_AND_WINDING
+
+APPROXIMATION_LEVEL
+
+ENERGY_CONDITIONS_IF_RELEVANT
+
+STRESS_CONSERVATION
+
+NUMERICAL_METHOD
+
+MESH_MAPPING
+
+CONTINUATION
+
+VALIDATION
+
+INDEPENDENT_RECONSTRUCTION
+
+FALSIFICATION
+
+LIMITATIONS
+
+RELATED_FILES
+
+CLAIM_CLASSIFICATION
+```
+
+Important functions require meaningful docstrings.
+
+Important equations should appear next to implementation.
+
+Comments should explain why calculations exist.
+
+---
+
+# 88. GitHub math policy
+
+Use:
+
+````text
+inline:
+$...$
+
+display:
+```math
+...
+````
+
+````
+
+Do not rely on formatting constructs known to render poorly in GitHub.
+
+Avoid decorative boxing commands in project Markdown.
+
+---
+
+# 89. Literature anchors to preserve
+
+The field-theory ingredients are not project inventions.
+
+Relevant published anchors include:
+
+```text
+R. A. Battye,
+S. J. Cotterill,
+J. A. Pearson,
+A detailed study of the stability of vortons,
+JHEP 04 (2022) 005,
+arXiv:2112.08066.
+````
+
+```text
+R. A. Battye,
+S. J. Cotterill,
+Stable Cosmic Vortons in Bosonic Field Theory,
+Phys. Rev. Lett. 127, 241601 (2021),
+arXiv:2111.07822.
+```
+
+```text
+B. Carter,
+R. H. Brandenberger,
+A.-C. Davis,
+Thermal stabilization of superconducting sigma strings and their drum vortons,
+Phys. Rev. D 65, 103520 (2002),
+hep-ph/0201155.
+```
+
+```text
+J. Kunz,
+E. Radu,
+B. Subagyo,
+Gravitating vortons as ring solitons in general relativity,
+Phys. Rev. D 87, 104022 (2013),
+arXiv:1303.1003.
+```
+
+These references support the legitimacy of:
+
+```text
+GAUGED_VORTONS
+
+STABLE_VORTON_REGIMES
+
+DRUM_VORTON_CONCEPTS
+
+GRAVITATING_VORTONS
+```
+
+They do **not** establish the project's specific repulsive KLS-wall/vorton composite.
+
+That remains project-derived and requires independent literature comparison before any novelty claim.
+
+---
+
+# 90. Current claim ledger
+
+## Strongly supported within stated approximations
+
+```text
+006D_FINITE_POSITIVE_ENERGY_LINEARIZED_GR_LOCAL_REPULSION=
+ESTABLISHED
+
+006D_LOCAL_CONSERVATION=
+ESTABLISHED_AT_LINEARIZED_MODEL_LEVEL
+
+006D_NEC_WEC_DEC=
+PASS
+
+006D_POSITIVE_FAR_ACTIVE_MASS=
+YES
+
+SPATIAL_KERNEL_LEVERAGE=
+SUPPORTED_DESIGN_PRINCIPLE
+
+017C_EFFECTIVE_FINITE_PAYLOAD_REPULSION=
+YES
+
+017O_MINIMAL_MECHANICAL_DRUM_NONAXIAL_INSTABILITY=
+PROVED_IN_MODEL
+
+017P_PUBLISHED_GAUGED_VORTON_EOS_RECONSTRUCTION=
+PASS
+
+017P_NEIGHBORING_WORLD_SHEET_STABLE_CHI_BAND=
+YES_IN_TESTED_CRITERIA
+
+017S_LITERAL_LOCALIZED_THERMAL_O4_ROUTE=
+STRONGLY_DEMOTED
+
+018A_KLS_WALL_TOPOLOGY=
+SUPPORTED
+
+018A_PLANAR_MICROSCOPIC_WALL=
+SUPPORTED
+
+018A_FIXED_BACKGROUND_JUNCTION=
+SUPPORTED
+
+018A_FULLY_COUPLED_LOCAL_JUNCTION=
+SUPPORTED
+
+018A_FINITE_THICKNESS_FINITE_PAYLOAD_OUTWARD_GRAVITY=
+PASS
+
+018A_POSITIVE_TOTAL_ACTIVE_MASS=
+PASS
+
+018A_COMPLETE_DECLARED_ZERO_T_FIELD_MODEL_BOOKKEEPING=
+PASS
+
+018A_ROBUST_REGION=
+PASS
+
+FULL_018A_GATE=
+GREEN
+
+018B0_SINGLE_STATIONARY_VORTON_SOURCE_LEVEL_REGION=
+SUPPORTED
+
+018B0A_INTEGER_LOCKED_NOMINAL_SOURCE=
+SUPPORTED
+
+018B0A_DIRECT_BVP_INTEGER_LOCK=
+PASS
+
+018B0A_WORLD_SHEET_STABILITY=
+PASS
+```
+
+## Not yet established
+
+```text
+ROBUST_FIXED_N_SINGLE_VORTON_LOCAL_BASIN=
+NO
+
+SINGLE_VORTON_REPARAMETERIZED_MICROSCOPIC_WALL=
+NO
+
+SINGLE_VORTON_REPARAMETERIZED_FULLY_COUPLED_JUNCTION=
+NO
+
+GLOBAL_SINGLE_VORTON_KLS_COMPOSITE_FIELD_SOLUTION=
+NO
+
+GLOBAL_FINITE_THICKNESS_018B_EULER_LAGRANGE_SOLUTION=
+NO
+
+FULL_COMPOSITE_DYNAMIC_STABILITY=
+NO
+
+STATIONARY_FRAME_DRAGGING_COMPLETE=
+NO
+
+NONLINEAR_EINSTEIN_MATTER_REPULSION=
+NO
+
+PRACTICAL_ENERGY_SCALING=
+NO
+
+EXPERIMENTAL_ANTIGRAVITY=
+NO
+
+PRACTICAL_ANTIGRAVITY_DEVICE=
+NO
+
+NEW_PHYSICS_DISCOVERY=
+NO
+
+NOVELTY=
+NOT_ESTABLISHED
+```
+
+---
+
+# 91. Current milestone heuristic
+
+The current internal completion ruler is:
+
+```text
+APPROXIMATELY_66_PERCENT
+```
+
+This is justified because:
+
+* local repulsion in GR has long been established;
+* an explicit finite positive-energy conserved source exists;
+* finite-payload repulsive architecture exists;
+* a published field-theory vorton EOS has been integrated into the architecture;
+* the thermal support route was falsified rather than ignored;
+* the nonthermal wall topology now exists;
+* the local microscopic junction is fully coupled and converged;
+* finite wall thickness is included;
+* complete declared zero-temperature support energy is included at 018A level;
+* finite payload remains outward;
+* total active mass remains positive;
+* robustness is broad;
+* 018A is genuinely GREEN.
+
+It is not higher because:
+
+* no global toroidal composite field solution yet exists;
+* full stability is not established;
+* the stationary metric is not yet reconstructed;
+* nonlinear Einstein-matter continuation is not established;
+* energy scaling is catastrophic.
+
+---
+
+# 92. Next-session target
+
+The desired target is:
+
+```text
+~80_PERCENT_INTERNAL_MILESTONE
+```
+
+but only if physically earned.
+
+The project should not enter the next session with the instruction:
+
+```text
+MAKE_PERCENTAGE_EQUAL_80.
+```
+
+It should enter with:
+
+```text
+TRY_TO_PASS_THE_SHORTEST_SEQUENCE_OF_DECISIVE_PHYSICS_GATES_THAT_WOULD_JUSTIFY_80.
+```
+
+If a gate fails, preserve the failure and rerank.
+
+---
+
+# 93. Decision tree to 80
+
+```text
+START ~66%
+
+|
+v
+
+FIXED_N_HEADROOM GATE
+|
++-- RED FUNDAMENTALLY
+|     |
+|     v
+|   RETURN TO VALIDATED TWO-COPY SOURCE
+|   OR RERANK
+|
++-- GREEN
+      |
+      v
+
+MICROSCOPIC REVALIDATION
+AT ROBUST F,CHI,N
+|
++-- RED
+|     |
+|     v
+|   SINGLE-VORTON DEMOTION
+|
++-- GREEN
+      |
+      v
+
+TRUE 018B GLOBAL TOROIDAL FIELD SOLUTION
+|
++-- RED
+|     |
+|     v
+|   GR REALIZATION DEMOTION / RERANK
+|
++-- GREEN
+      |
+      v
+    ~68%
+      |
+      v
+
+018C FULL COMPOSITE STABILITY
+|
++-- GROWING MODE
+|     |
+|     v
+|   DEMOTE OR FIND PHYSICALLY MOTIVATED STABILIZER
+|
++-- GREEN
+      |
+      v
+    ~71-72%
+      |
+      v
+
+018D STATIONARY / FRAME-DRAGGING
+|
++-- OPERATIONAL REPULSION LOST
+|     |
+|     v
+|   DEMOTE
+|
++-- GREEN
+      |
+      v
+    ~72-74%
+      |
+      v
+
+018E NONLINEAR EINSTEIN-MATTER
+|
++-- REPULSION LOST
+|     |
+|     v
+|   DEMOTE
+|
++-- REPULSION PRESERVED
+      |
+      v
+
+~78-80%
+STRONG THEORETICAL ANTIGRAVITY CANDIDATE
+```
+
+---
+
+# 94. Decision tree from 80 to 90
+
+```text
+THEORETICAL GR CANDIDATE
+~80%
+|
+v
+
+018F COMPLETE PRACTICAL SCALING
+|
++-- PURE GR QUALITATIVE SCALING BREAKTHROUGH
+|       |
+|       v
+|   ENGINEERING / MATERIAL REALIZATION
+|
++-- PURE GR STILL CATASTROPHIC
+        |
+        v
+PROTECTED STRONGER-INTERACTION BRANCH
+        |
+        v
+RELATIVISTIC UV PROTECTION
+        |
+        v
+NO ONE-BODY LEAKAGE
+        |
+        v
+RADIATIVE NATURALNESS
+        |
+        v
+EXPERIMENTAL / STELLAR / COSMOLOGY
+        |
+        v
+REAL MATERIAL MATCH
+        |
+        v
+FINITE-PAYLOAD DEVICE SIMULATION
+        |
+        v
+PRACTICAL ENERGY + POWER + HEAT
+        |
+        v
+
+~85-90%
+THEORETICALLY PRACTICAL CANDIDATE
+```
+
+---
+
+# 95. What changed scientifically during this session
+
+The start-of-session frontier was:
+
+> Can a topology-consistent nonthermal microscopic wall end on the gauged-vorton rim without its own required support destroying repulsion?
+
+That question has now advanced substantially.
+
+The answer at the 018A preflight level is:
+
+```text
+YES.
+```
+
+More specifically:
+
+* the topology works;
+* the exact planar wall exists;
+* the wall terminates on the vortex in 2D;
+* the fully coupled local junction converges;
+* the apparent coarse-grid backreaction failure was diagnosed as a lattice artifact;
+* fine-core and global-outer solutions match;
+* complete declared zero-temperature source bookkeeping preserves positive active mass;
+* finite wall thickness does not kill the payload effect;
+* the exact overlap kernel confirms finite-payload repulsion;
+* 2187/2187 finite-thickness source perturbations pass.
+
+The active question is no longer whether 018A exists.
+
+The active question is:
+
+> Can this local/matched microscopic construction be promoted to a globally regular, dynamically stable, stationary, nonlinear Einstein-matter field solution?
+
+That is an enormous narrowing of the research problem.
+
+---
+
+# 96. One-sentence scientific carry-forward
+
+> **ANTIGRAVITY_RESEARCH has now completed the 018A nonthermal model-selection gate: a topology-consistent zero-temperature KLS-like microscopic wall can end on the literature-backed gauged-vorton rim, its fully coupled local junction is numerically supported, and complete finite-thickness source-level bookkeeping preserves positive far active mass together with outward finite-payload linearized gravity across a robust region; the next decisive frontier is a true global toroidal field solution, full composite stability, stationary frame-dragging consistency, and nonlinear Einstein-matter continuation, while practical energy scaling remains catastrophically unresolved.**
+
+---
+
+# 97. One-sentence architecture carry-forward
+
+> **A source-level exhaustive search indicates that a single stationary gauged vorton plus one KLS wall may replace the old counterrotating two-vorton bookkeeping and approximately halve the already-catastrophic 1g energy coefficient, but this simplification is not yet promoted because the minimum-energy integer-locked state lies extremely close to the upper verified EOS boundary and fails the declared same-\(N\) local-continuity gate.**
+
+---
+
+# 98. One-sentence next action
+
+> **Begin the next session with a fixed-\(N\) interior-headroom / implicit-function scan over the verified vorton EOS, select the most robust same-winding sector rather than the minimum-energy boundary point, directly re-solve the wall and fully coupled junction at that exact integer-locked state, and—only if those remain green—launch the true global 018B toroidal field solve.**
+
+---
+
+# 99. Documentation deferral instruction
+
+Do not update at the beginning of the next session:
+
+```text
+README.md
+
+RESEARCH_BUILDPLAN.md
+
+journal/
+
+CLAIMS.md
+
+ASSUMPTIONS.md
+
+OTHER_PUBLIC_SUMMARY_DOCS
+```
+
+Continue research using these notes and the actual repository.
+
+If and only if the next session genuinely earns the intended major milestone—ideally approximately 80% after a positive 018E result—then perform a consolidated documentation sweep containing:
+
+```text
+1.
+NEW JOURNAL ENTRY FOR 018A THROUGH 018E
+
+2.
+README PROMOTION OF THE NEW STRONGEST RESULT
+
+3.
+BUILDPLAN RERANK TO 018F / PRACTICAL SCALING
+
+4.
+NOTES / CHRONOLOGY SYNCHRONIZATION
+
+5.
+CLAIM BOUNDARY UPDATE
+
+6.
+REGRESSION / SOURCE FILE INVENTORY
+
+7.
+LITERATURE COMPARISON / NOVELTY CHECK
+
+8.
+ENERGY LEDGER UPDATE
+```
+
+If 80% is **not** earned because a gate turns RED, do not manufacture the documentation headline.
+
+Write another truthful carry-forward note and rerank.
+
+---
+
+# 100. Final session closeout state
+
+```text
+SESSION_CLOSEOUT_DATE=
+2026-08-30
+
+KNOWN_SOLUTION_BASELINE=
+94_PASSED
+
+FULL_018A_GATE=
+GREEN
+
+018B_AUTHORIZED=
+YES
+
+CURRENT_VALIDATED_ARCHITECTURE=
+TWO_COPY_EFFECTIVE_VORTON_BOOKKEEPING_PLUS_MICROSCOPIC_KLS_WALL_AT_018A_LEVEL
+
+LEADING_SIMPLIFIED_ARCHITECTURE=
+SINGLE_STATIONARY_GAUGED_VORTON_PLUS_ONE_KLS_WALL
+
+SIMPLIFIED_ARCHITECTURE_SOURCE_LEVEL_REGION=
+STRONGLY_SUPPORTED
+
+SIMPLIFIED_ARCHITECTURE_INTEGER_LOCK=
+SUPPORTED_AT_NOMINAL_POINT
+
+SIMPLIFIED_ARCHITECTURE_DIRECT_BVP=
+PASS
+
+SIMPLIFIED_ARCHITECTURE_FIXED_N_CONTINUITY=
+FAIL_AT_CURRENT_BOUNDARY_OPTIMUM
+
+SIMPLIFIED_ARCHITECTURE_MICROSCOPIC_REVALIDATION=
+NOT_YET_COMPLETE
+
+CURRENT_VALIDATED_C=
+1.774169582609975e6
+
+CURRENT_VALIDATED_ONE_G_ONE_M_ENERGY_J=
+2.342887778715687e34
+
+CURRENT_PROJECTED_SINGLE_VORTON_C=
+8.768487174104034e5
+
+CURRENT_PROJECTED_SINGLE_VORTON_ONE_G_ONE_M_ENERGY_J=
+1.157926595033378e34
+
+PROJECTED_ENERGY_IMPROVEMENT_FACTOR=
+2.023347411455
+
+PROJECTED_ENERGY_STATUS=
+NOT_YET_VALIDATED
+
+CURRENT_HEURISTIC=
+APPROXIMATELY_66_PERCENT_NOT_A_PROBABILITY
+
+NEXT_80_PERCENT_SEQUENCE=
+FIXED_N_HEADROOM
+THEN_MICROSCOPIC_REVALIDATION
+THEN_TRUE_018B
+THEN_018C
+THEN_018D
+THEN_018E
+
+PATH_AFTER_80=
+018F_PRACTICAL_SCALING
+
+IF_PURE_GR_SCALING_CATASTROPHIC=
+ACTIVATE_PROTECTED_SCALAR_OR_OTHER_PHYSICALLY_CONTROLLED_STRONGER_INTERACTION
+
+TARGET_90_PERCENT_MEANING=
+THEORETICALLY_PRACTICAL_ENGINEERING_RELEVANT_CANDIDATE_NOT_YET_EXPERIMENTALLY_DEMONSTRATED
+
+PRACTICAL_ANTIGRAVITY_DEVICE=
+NO
+
+NEW_PHYSICS_DISCOVERY=
+NO
+
+NOVELTY=
+NOT_ESTABLISHED
+```
+
+
+### END NOTE - AUGUST 30 2026 - 14:30 CST
+
+
+### BEGIN NOTE - AUGUST 30 2026 - 22:00 CST
+
+# ANTIGRAVITY_RESEARCH — COMPREHENSIVE SESSION CARRY-OVER
+
+## Session closeout: 2026-08-30
+
+## 018A–019C field realization, stability falsification, protected Wilson/vector rerank, and shortest path toward the 85–90% theoretical-practical milestone
+
+---
+
+# 0. Purpose of this note
+
+This document is intended to be sufficient carry-over context for a fresh research session.
+
+The next session should be able to reconstruct:
+
+1. what was known before this session;
+2. exactly what was accomplished during 018A–019C;
+3. which results remain valid;
+4. which architectures were falsified;
+5. the central mathematical proofs;
+6. the strongest permitted claims;
+7. the current ~68% internal milestone and what it means;
+8. what must **not** be repeated;
+9. the current highest-value frontier;
+10. the shortest scientifically defensible path toward the project's 85–90% theoretical-practical milestone.
+
+This note should be read together with:
+
+```text
+RESEARCH_BUILDPLAN.md
+
+FORMATTING_AND_CODE_STANDARDS.md
+
+README.md
+
+NOTES.md
+
+journal/
+
+latest codebundle
+```
+
+The journal entry covering this session should also be consulted.
+
+---
+
+# 1. Non-negotiable scientific rules
+
+These rules remain in force.
+
+Do not equate:
+
+```text
+MATHEMATICAL POSSIBILITY
+WITH
+PHYSICAL REALIZATION
+```
+
+Do not equate:
+
+```text
+LOCAL REPULSION
+WITH
+FINITE-PAYLOAD REPULSION
+```
+
+Do not equate:
+
+```text
+NEGATIVE ACTIVE DENSITY
+WITH
+OUTWARD GRAVITY
+```
+
+Do not equate:
+
+```text
+A FIELD SOLUTION
+WITH
+A STABLE FIELD SOLUTION
+```
+
+Do not equate:
+
+```text
+A STABLE MATTER SOLUTION
+WITH
+A NONLINEAR EINSTEIN-MATTER SOLUTION
+```
+
+Do not equate:
+
+```text
+A LOW-ENERGY EFFECTIVE OPERATOR
+WITH
+A MICROSCOPIC UV COMPLETION
+```
+
+Do not equate:
+
+```text
+AN ANOMALY-FREE CURRENT
+WITH
+A TECHNICALLY NATURAL PORTAL
+```
+
+Do not equate:
+
+```text
+A PARAMETER WINDOW
+WITH
+A PRACTICAL DEVICE
+```
+
+Do not promote an internally generated result to:
+
+```text
+NEW PHYSICS DISCOVERY
+```
+
+without independent verification and literature comparison.
+
+Every physical sector required to create, stabilize, confine, support, cool, heat, bias, screen, or control a configuration must be included in its energy and gravitational bookkeeping.
+
+A negative result should be preserved and used to rerank.
+
+Do not protect sunk effort.
+
+---
+
+# 2. Current executive state
+
+The project has achieved substantially more than a phenomenological antigravity toy model.
+
+The strongest established project-derived result remains the 006D constructive linearized-GR result.
+
+During the present session the established-GR realization program advanced much further:
+
+```text
+ENGINEERED STRESS TENSOR
+->
+MICROSCOPIC FIELD MODEL
+->
+GLOBAL CURVED FINITE-THICKNESS FIELD SOLUTION
+->
+COMPLETE T_MUNU
+->
+FINITE-PAYLOAD OUTWARD LINEARIZED GRAVITY
+```
+
+That advancement is 018B.
+
+However, the same architecture was subsequently shown to possess a direct full-field nonaxisymmetric instability:
+
+```text
+018C:
+M2 NEGATIVE FIXED-CHARGE HESSIAN DIRECTION
+```
+
+Therefore:
+
+```text
+018B_FIELD_EXISTENCE_RESULT=
+RETAINED
+
+018B_STABLE_REALIZATION=
+NO
+```
+
+The project then correctly reranked into the previously protected material-specific fifth-force branch.
+
+That branch advanced through:
+
+```text
+019A:
+WILSON-LINE UV PROTECTION WITNESS
+
+019B:
+REAL ANOMALY-FREE BARYON/LEPTON CURRENT ENDPOINT
++
+DIRECT SCALAR ENDPOINT FALSIFICATION
+
+019C:
+TWO MINIMAL ABELIAN VECTOR-WILSON UV COMPLETIONS TESTED
+```
+
+The current surviving frontier is now exceptionally narrow:
+
+```text
+PROTECTED ULTRALIGHT WILSON / PNGB DEGREE OF FREEDOM
+
++
+
+ANOMALY-FREE BARYON / LEPTON VECTOR CURRENTS
+
++
+
+RENORMALIZABLE HEAVY VECTOR / HIGGS MEDIATOR
+
++
+
+MISSING:
+STRONG TECHNICALLY NATURAL WILSON-ODD VECTOR-MASS SEED
+```
+
+The two strongest candidate mechanisms for that missing seed are:
+
+```text
+1.
+COLLECTIVE TREE-LEVEL THEORY-SPACE / MOOSE SEED
+
+2.
+NON-ABELIAN CHARGED-VECTOR WILSON SEED
+```
+
+The first should be tested first.
+
+---
+
+# 3. Current internal percentage
+
+The formal project heuristic is:
+
+```text
+CURRENT_KNOWLEDGE_HEURISTIC=
+APPROXIMATELY_68_PERCENT
+```
+
+This is:
+
+```text
+NOT A PROBABILITY
+
+NOT A MEASURE OF DEVICE COMPLETION
+
+NOT A CLAIM THAT PRACTICAL ANTIGRAVITY IS 68% LIKELY
+```
+
+It is an internal research-accomplishment ruler.
+
+The ~68% was earned because the project reached an actual microscopic finite-thickness matter-field solution producing finite-payload outward gravity.
+
+The subsequent stability failure does not erase that accomplishment.
+
+Therefore:
+
+```text
+68_PERCENT=
+RETAINED
+```
+
+but should now be described as:
+
+> **Approximately 68% of the project's current knowledge/accomplishment ladder has been completed, including a full field-realization milestone and the successful falsification of that specific realization at the stability stage.**
+
+The project has **not** reached the stable-candidate milestone.
+
+---
+
+# 4. Ultimate milestone meanings
+
+The approximate milestone ladder should now be interpreted as:
+
+```text
+~68%
+FULL MICROSCOPIC FIELD-EXISTENCE LEVEL REACHED
++
+MAJOR REALIZATION ARCHITECTURE FALSIFIED AT STABILITY
+
+~70–72%
+COMPLETE TECHNICALLY NATURAL MICROSCOPIC PORTAL
+OR
+A NEW FULLY STABLE FIELD REALIZATION
+
+~72–76%
+ONE-BODY MIXING
++
+EXACT EXPERIMENTAL BOUNDS
++
+RADIATIVE NATURALNESS
+
+~76–80%
+MODEL-SPECIFIC STELLAR / COSMOLOGY
++
+REAL MATERIAL MATCH
++
+CONTROLLED MACROSCOPIC RESPONSE
+
+~80–85%
+FINITE-PAYLOAD DEVICE-LEVEL DYNAMICS
++
+FULL CONTROL CYCLE
++
+COMPLETE ENERGY / MOMENTUM ACCOUNTING
+
+~85–90%
+THEORETICALLY PRACTICAL CANDIDATE:
+PRACTICAL ENERGY
+PRACTICAL POWER
+PRACTICAL HEAT
+ROBUST MATERIAL / FIELD CONTROL
+EXPERIMENTALLY ACCESSIBLE PARAMETER SPACE
+```
+
+The percentage must move only when these physical accomplishments are actually earned.
+
+---
+
+# 5. Permanent anchor — 006D
+
+The 006D result remains valid and should not be weakened by later realization failures.
+
+For a static type-I stress tensor,
+
+```math
+T_{\hat\mu\hat\nu}
+=
+\mathrm{diag}
+\left(
+\epsilon,
+p_r,
+p_\phi,
+p_z
+\right),
+```
+
+static linearized GR gives
+
+```math
+\nabla^2\Phi
+=
+\frac{4\pi G}{c^2}
+\left(
+\epsilon+p_r+p_\phi+p_z
+\right).
+```
+
+Define the active source
+
+```math
+S
+=
+\epsilon+p_r+p_\phi+p_z.
+```
+
+The on-axis acceleration is kernel weighted:
+
+```math
+a_z
+=
+-\frac{2\pi G}{c^2}
+\int
+rS(r,z)
+\frac{h-z}
+{\left[r^2+(h-z)^2\right]^{3/2}}
+\,dr\,dz.
+```
+
+The project proved that a finite positive-energy locally conserved source can satisfy:
+
+```math
+\int S\,dV>0
+```
+
+while simultaneously
+
+```math
+\int S K_h\,dV<0.
+```
+
+Therefore positive far active mass and local outward gravity can coexist.
+
+The finite 006D coefficient remains:
+
+```math
+C_{006D}
+=
+23.591586299249.
+```
+
+The thin reference is:
+
+```math
+C_{\rm thin}
+=
+23.426710175391.
+```
+
+Permitted claim:
+
+> **Within static linearized general relativity, there exists an explicit finite-radius, finite-thickness, nonsingular, positive-energy, locally conserved NEC/WEC/DEC-compatible stress-energy distribution whose near gravitational field points outward while its integrated far active mass remains positive.**
+
+Do not claim:
+
+```text
+PRACTICAL_DEVICE
+
+EXACT_NONLINEAR_SOLUTION
+
+KNOWN_MATERIAL
+
+STABILITY
+
+NEW_PHYSICS
+```
+
+from 006D.
+
+---
+
+# 6. Core GR design principle carried forward
+
+The 016–018 program established that merely obtaining
+
+```math
+S<0
+```
+
+somewhere is insufficient.
+
+The useful architecture requires spatial leverage.
+
+Write:
+
+```math
+S=S_-+S_+
+```
+
+with:
+
+```math
+S_-\le0,
+\qquad
+S_+\ge0.
+```
+
+Positive far active mass requires:
+
+```math
+\int S_+\,dV
+>
+\left|
+\int S_-\,dV
+\right|.
+```
+
+Outward near-field gravity requires:
+
+```math
+\int K S_+\,dV
+<
+\left|
+\int K S_-\,dV
+\right|.
+```
+
+Therefore the successful architecture is qualitatively:
+
+```text
+NEGATIVE ACTIVE STRESS:
+CLOSE TO PAYLOAD / HIGH KERNEL
+
+POSITIVE COMPENSATING ENERGY:
+FARTHER FROM PAYLOAD / LOWER KERNEL
+```
+
+The drum/rim architecture was the most successful implementation of this principle.
+
+---
+
+# 7. Pre-session context — 017S
+
+017P had provided a literature-backed gauged-vorton rim equation of state.
+
+017R had found a robust physical-electromagnetic worldsheet basin.
+
+However 017S included the minimum thermal support energy required by the literal localized O(4) thermal realization.
+
+The thermal photon active gravity overwhelmed the desired repulsion throughout the robust basin.
+
+Therefore the thermal O(4) implementation was demoted.
+
+The active GR frontier became:
+
+```text
+NONTHERMAL GAUGED VORTON
+
++
+
+TOPOLOGY-CONSISTENT MICROSCOPIC WALL
+```
+
+That is where the present session began.
+
+---
+
+# 8. 018A — nonthermal topology/junction gate
+
+018A tested whether a genuine zero-temperature wall could terminate on the current-carrying rim.
+
+The successful topology used:
+
+```text
+H:
+CHARGE-2 VORTEX FIELD
+
+A:
+CHARGE-1 WALL FIELD
+```
+
+with relative-phase locking schematically:
+
+```math
+V_{\rm lock}
+=
+-h
+\left(
+H^\ast A^2
++
+HA^{\ast2}
+\right).
+```
+
+The symmetry breaking has KLS-like form:
+
+```math
+U(1)
+\rightarrow
+Z_2
+\rightarrow
+1.
+```
+
+This provides the topology required for a wall to terminate on the string.
+
+The wall tension was approximately:
+
+```math
+\sigma_W
+=
+5.62275213\times10^{-4}
+```
+
+in model units.
+
+018A closed:
+
+```text
+TOPOLOGY
+
+PLANAR WALL
+
+LOCAL STRING-WALL JUNCTION
+
+FULL COUPLED LOCAL JUNCTION
+
+FINE-CORE / GLOBAL MATCH
+
+ZERO-TEMPERATURE ENERGY BOOKKEEPING
+
+FINITE WALL THICKNESS
+
+FINITE-PAYLOAD OUTWARD SOURCE-LEVEL GRAVITY
+
+POSITIVE ACTIVE MASS
+
+ROBUSTNESS
+```
+
+Final robustness:
+
+```text
+2187 / 2187 PASS
+```
+
+The source-level coefficient remained enormous:
+
+```math
+C_{018A}
+=
+1.774169582609975\times10^6.
+```
+
+Illustrative 1g / 1m scale:
+
+```text
+M_EQUIVALENT≈2.6068e17 kg
+
+E_EQUIVALENT≈2.3429e34 J
+```
+
+This was a realization preflight, not a global field solution.
+
+018A authorized 018B.
+
+---
+
+# 9. 018B microscopic model
+
+The selected microscopic string model followed the two-current cosmic-string class of:
+
+```text
+Marc Lilley
+Xavier Martin
+Patrick Peter
+
+"Coupled currents in cosmic strings"
+
+Phys. Rev. D 79, 103514 (2009)
+arXiv:0903.4328
+```
+
+The matter model contained:
+
+```text
+CHARGED VORTEX HIGGS FIELD
+
+GAUGE FIELD
+
+TWO NEUTRAL COMPLEX CURRENT CARRIERS
+
+KLS WALL FIELD
+```
+
+The carrier sector has:
+
+```math
+U(1)_\Phi\times U(1)_\Sigma
+```
+
+global charge conservation.
+
+---
+
+# 10. 018B-0D / 0E — exact counterflow failure
+
+An exact two-current counterflow reconstruction succeeded microscopically.
+
+However exact zero-momentum counterflow had the wrong worldsheet pressure sign.
+
+The relevant longitudinal relation was effectively:
+
+```math
+P_\parallel=-T
+```
+
+for the zero-momentum eigenframe.
+
+A positive-tension membrane needed a stationary state with nonzero momentum.
+
+Therefore:
+
+```text
+EXACT_COUNTERFLOW=
+MICROSCOPICALLY VALID
+
+EXACT_COUNTERFLOW_WALL SUPPORT=
+FAIL
+
+ROUTE=
+STATIONARY NONZERO-MOMENTUM CURRENT STATE
+```
+
+This was a useful narrowing.
+
+---
+
+# 11. 018B-0F / 0G / 0G2 — coupled stationary junction
+
+The common-gauge KLS bridge was coupled to the two-current string.
+
+The fully coupled local 2D junction converged.
+
+Representative corrected eigenframe quantities:
+
+```text
+U=
+5.1359477893
+
+T=
+4.8505568157
+
+J=
+approximately -5.66e-8
+```
+
+Lab-frame quantities included:
+
+```text
+P_PARALLEL=
+8.17499
+
+ACTIVE_SOURCE=
+26.33648
+```
+
+Selected reduced junction energy:
+
+```text
+approximately
+5.158319795e-3
+```
+
+Both condensates survived.
+
+The topology survived.
+
+The local gravitational source remained viable.
+
+---
+
+# 12. 018B-0H — complete source-level revalidation
+
+Selected base current state:
+
+```text
+BASE_N_PHI=-204
+
+BASE_N_SIGMA=-463
+```
+
+Common integer multiplier:
+
+```text
+48
+```
+
+Final exact windings:
+
+```text
+N_PHI=-9792
+
+N_SIGMA=-22224
+```
+
+Stationary velocity:
+
+```text
+v=
+0.9898903893
+```
+
+Lorentz factor:
+
+```text
+gamma≈7.05047
+```
+
+Radius:
+
+```text
+R≈16097.5548786
+```
+
+Representative lab quantities:
+
+```text
+E≈19.0371
+
+P_PARALLEL≈9.0506
+
+MOMENTUM≈-14.0431
+
+ACTIVE≈28.0877
+```
+
+Force decomposition:
+
+```text
+WALL=
++47.20845 OUTWARD
+
+RIM=
+-29.21234 INWARD
+
+TOTAL FINITE PAYLOAD=
++17.9961 OUTWARD
+```
+
+Severe three-core control:
+
+```text
++17.9490 OUTWARD
+```
+
+Projected source-level coefficient:
+
+```math
+C_{018B0H}
+\approx
+276.7734.
+```
+
+This represented an approximately 6410-fold improvement over the 018A source-level candidate.
+
+Still, this was not yet the global curved field solution.
+
+---
+
+# 13. 018B-1A parser incident
+
+The first toroidal-curvature run produced an apparent huge phase mismatch.
+
+This was software, not physics.
+
+The parser searched the substring:
+
+```text
+N_PHI=
+```
+
+and accidentally matched:
+
+```text
+BASE_N_PHI=-204
+```
+
+instead of:
+
+```text
+N_PHI=-9792.
+```
+
+The parser was repaired to require exact labels and ledger consistency.
+
+Corrected 018B-1A source SHA-256:
+
+```text
+43a48f8b2cbe1cb66095095739a0dba5eba5549dc3e675eb9e46dbcec2c5a2ff
+```
+
+This incident is important because future numerical scripts must use exact ledger keys.
+
+---
+
+# 14. 018B-1A toroidal curvature continuation
+
+The microscopic junction was continued through:
+
+```text
+4R
+
+2R
+
+3R/2
+
+5R/4
+
+R
+```
+
+with exact winding rescaling.
+
+At target radius:
+
+```math
+k_\Phi
+=
+\frac{N_\Phi}{R}
+=
+-0.608291139484396
+```
+
+and
+
+```math
+k_\Sigma
+=
+\frac{N_\Sigma}{R}
+=
+-1.380582341084683.
+```
+
+Representative target diagnostics:
+
+```text
+FIELD_GRAD_RMS=
+4.108e-7
+
+FIELD_GRAD_MAX=
+3.384e-6
+
+PHI_RETENTION=
+0.9386609
+
+SIGMA_RETENTION=
+0.9424765
+
+ONE_WALL_CONTRAST=
+0.1377037
+
+PHASE_LOCK_COS=
+0.9959969
+
+PATCH_FLUX_OVER_PI=
+-0.94898
+
+MATCH_DERIVATIVE=
+0.0353314
+```
+
+Curvature parameters remained small:
+
+```text
+WALL_CURVATURE≈4.8796e-3
+
+CORE_CURVATURE≈1.9644e-4
+```
+
+018B-1A therefore passed.
+
+Promoted target artifact:
+
+```text
+results/data/018b1a_global_toroidal_curvature_target.npz
+```
+
+---
+
+# 15. 018B-1B — strongest GR field-realization result
+
+This was the first true global curved microscopic realization.
+
+The actual curved fields were used to reconstruct:
+
+```text
+FULL T_MUNU
+
+GLOBAL ENERGY
+
+GLOBAL STRESSES
+
+ACTIVE SOURCE
+
+CHARGES
+
+ANGULAR MOMENTUM
+
+GAUGE FLUX
+
+LOCAL CONSERVATION
+
+FINITE PAYLOAD GRAVITY
+```
+
+No engineered 006D tensor was imposed.
+
+---
+
+# 16. 018B promoted state
+
+Refined equilibrium radius:
+
+```math
+R_{\rm eq}
+=
+16109.76099162808.
+```
+
+Exact windings:
+
+```text
+N_PHI=-9792
+
+N_SIGMA=-22224
+```
+
+Carrier frequencies:
+
+```math
+\omega_\Phi
+=
+0.6207220699741571
+```
+
+```math
+\omega_\Sigma
+=
+1.386390648080941.
+```
+
+Conserved charges:
+
+```math
+Q_\Phi
+=
+512492.8816462382
+```
+
+```math
+Q_\Sigma
+=
+836443.6234565492.
+```
+
+Net angular momentum:
+
+```math
+J
+\approx
+-2.360745338\times10^{10}
+```
+
+model units.
+
+Therefore:
+
+```text
+SOURCE=
+STATIONARY
+
+NOT STATIC
+```
+
+Frame dragging had not yet been included.
+
+---
+
+# 17. 018B stationarity and convergence
+
+Radius shift:
+
+```text
+approximately
+7.58e-4 relative
+```
+
+Final stationarity residual:
+
+```text
+approximately
+1.96e-4
+```
+
+Representative resolution sequence:
+
+```text
+N33:
+C≈290.003
+CONSERVATION≈0.006987
+
+N41:
+C≈292.592254
+CONSERVATION≈0.004797
+
+N49:
+C≈293.979398
+CONSERVATION≈0.003478
+```
+
+The conservation residual decreased with refinement.
+
+Other controls:
+
+```text
+LARGER DOMAIN
+
+FRESH INITIAL CONDITION
+
+TWO REFERENCE TAILS
+
+NODE GRAVITY
+
+CELL GRAVITY
+
+DIRECT T_MUNU ENERGY
+
+DISCRETE ACTION ENERGY
+```
+
+Resolution coefficient spread:
+
+```text
+approximately
+0.984%
+```
+
+Domain shift:
+
+```text
+approximately
+1.89%
+```
+
+Fresh-initialization shift:
+
+```text
+approximately
+3.73e-6
+```
+
+Tail shift:
+
+```text
+approximately
+1.74e-7
+```
+
+---
+
+# 18. 018B stress-energy
+
+Integrated energy:
+
+```math
+E
+=
+2.416246670\times10^6
+```
+
+model units.
+
+Integrated stresses:
+
+```text
+P_R=
+-458606.18
+
+P_Z=
+-1818.93
+
+P_PHI=
+514738.493
+
+T_RZ=
+9.615
+```
+
+Total active mass:
+
+```math
+M_{\rm active}
+=
+2.470560053\times10^6
+```
+
+and:
+
+```text
+POSITIVE
+```
+
+Active-trace reconstruction error:
+
+```text
+approximately
+1.88e-16
+```
+
+Minimum local active density:
+
+```text
+-1.58077e-5
+```
+
+so a genuine negative-active region exists.
+
+Gauge flux:
+
+```math
+\Phi_B/\pi
+=
+-1.000001842.
+```
+
+---
+
+# 19. 018B finite-payload gravity
+
+Independent gravity calculations:
+
+```text
+NODE=
+1.070527758188269e-3
+
+CELL=
+1.070527760752849e-3
+```
+
+Relative difference:
+
+```text
+2.396e-9
+```
+
+Payload center:
+
+```text
+h≈2777.4117
+```
+
+Payload radius:
+
+```text
+≈694.3529
+```
+
+Source clearance:
+
+```text
+≈1816.392
+```
+
+The payload occupies a source-free ball.
+
+Since:
+
+```math
+\nabla^2\Phi=0
+```
+
+inside that region,
+
+```math
+\nabla^2a_i=0.
+```
+
+By the harmonic mean-value theorem:
+
+```math
+\boxed{
+\mathbf a_{\rm CM}
+=
+\mathbf a(\mathbf x_{\rm center})
+}
+```
+
+for a uniform passive spherical payload.
+
+Therefore:
+
+```text
+FINITE_PAYLOAD_OUTWARD_FIELD=
+PASS
+```
+
+for the reconstructed microscopic source in linearized GR.
+
+---
+
+# 20. 018B coefficient and practical energy
+
+Promoted full-field coefficient:
+
+```math
+\boxed{
+C_{018B}
+=
+292.5922543912093
+}
+```
+
+Improvement relative to 018A:
+
+```text
+approximately
+6063.6x
+```
+
+Illustrative $1g$, $1,{\rm m}$ mass equivalent:
+
+```text
+approximately
+4.30e13 kg
+```
+
+Illustrative energy:
+
+```math
+\boxed{
+E_{1g,1m}
+\approx
+3.86384\times10^{30}
+\ {\rm J}
+}
+```
+
+This is still catastrophically impractical.
+
+Thus even a stable version of the architecture would not have solved practicality.
+
+---
+
+# 21. 018B promotion classification
+
+```text
+018B_FULL_2D_COUPLED_FINITE_THICKNESS_EULER_LAGRANGE_SOLUTION=
+GREEN
+
+FIELD_THEORETICAL_CANDIDATE=
+YES_AS_EXISTENCE_RESULT
+
+FINITE_ENERGY=
+PASS
+
+GLOBAL_REGULARITY=
+PASS
+
+COMPLETE_STRESS_ENERGY=
+PASS
+
+POSITIVE_ACTIVE_MASS=
+PASS
+
+FINITE_PAYLOAD_OUTWARD_FIELD=
+PASS
+
+INDEPENDENT_RECONSTRUCTION=
+PASS
+```
+
+018B-1B source SHA-256:
+
+```text
+c18d61e1b74e5d90e2cdf2a7d66a09da1f05280539df353d01ae53d323ad41e0
+```
+
+Promoted field artifact SHA-256:
+
+```text
+5e4b88dc33e38e5e6faed73d84aafd41a99c3bad9c4ff78dd24d8db4b4f4da5c
+```
+
+This is the result that justifies retaining the ~68% knowledge milestone.
+
+---
+
+# 22. 018C-1 — fixed-charge radial stability
+
+018B had shown negative radius curvature at fixed frequency.
+
+However the physical Noether charges are conserved.
+
+Let the grand potential be:
+
+```math
+F(R,\omega)
+=
+E(R,Q)-\omega^TQ.
+```
+
+At fixed charge:
+
+```math
+dQ
+=
+Q_R\,dR
++
+Q_\omega\,d\omega
+=
+0.
+```
+
+Therefore:
+
+```math
+\frac{d\omega}{dR}
+=
+-
+Q_\omega^{-1}Q_R.
+```
+
+The physical fixed-charge radius curvature is the Schur complement:
+
+```math
+\boxed{
+\left.
+\frac{d^2E}{dR^2}
+\right|_Q
+=
+F_{RR}
++
+Q_R^TQ_\omega^{-1}Q_R
+}
+```
+
+Primary resolution result:
+
+```text
+F_RR_FIXED_OMEGA=
+-0.2734104685620432
+
+CHARGE_CORRECTION=
++0.2908653865360183
+
+E_RR_FIXED_Q=
++0.01745491797397514
+```
+
+Thus:
+
+```text
+FIXED_CHARGE_RADIAL_STABILITY=
+PASS
+```
+
+The fixed-frequency negative curvature was an ensemble artifact.
+
+This was a real positive stability result.
+
+---
+
+# 23. 018C-1 — microscopic bending result
+
+For a drum with bending rigidity $B$ define:
+
+```math
+b
+=
+\frac{B}{\sigma R^3}.
+```
+
+The quadratic nonaxisymmetric shape energy is:
+
+```math
+\Delta E_m
+=
+\frac{\pi\sigma R^2}{2}
+(m^2-1)
+\left[
+b(m^2-1)-1
+\right]
+\epsilon^2.
+```
+
+For $m=2$:
+
+```math
+B_{\rm crit}
+=
+\frac{\sigma R^3}{3}.
+```
+
+The microscopic field curvature reconstruction instead found:
+
+```text
+B_MICRO
+approximately
+-8.65e3 to -8.17e3
+```
+
+A deliberately favorable upper bound was still:
+
+```text
+B_UPPER=
+-7205.43
+```
+
+while:
+
+```math
+B_{\rm crit}
+=
+7.836009886405334\times10^8.
+```
+
+Thus:
+
+```text
+WRONG SIGN
+
+AND
+
+approximately 1.09e5 MAGNITUDE GAP
+```
+
+The inferred $m=2$ coefficient:
+
+```math
+\Delta E_{m=2}/\epsilon^2
+\approx
+-6.876576171\times10^5.
+```
+
+The direct finite-amplitude shape integral confirmed the same sign and scale.
+
+Still, because this calculation used a derivative/shape reduction, one direct full-field check was authorized.
+
+---
+
+# 24. 018C-2 — decisive full-field stability test
+
+The physical deformation was:
+
+```math
+r_b(\varphi)
+=
+R
+\left[
+1+\epsilon\cos(2\varphi)
+\right].
+```
+
+The microscopic cross-section was transported with the local Frenet normal.
+
+This avoided artificially overcharging the bending mode.
+
+The tubular metric is:
+
+```math
+dl^2
+=
+dz^2
++
+dx^2
++
+(1+\kappa x)^2ds^2.
+```
+
+Carrier windings remained exact:
+
+```math
+\theta_\Phi=N_\Phi\varphi
+```
+
+```math
+\theta_\Sigma=N_\Sigma\varphi.
+```
+
+Charges were enforced exactly.
+
+For carrier norm:
+
+```math
+I_i(\epsilon)
+=
+\int
+\sqrt g
+|\psi_i|^2
+d\varphi\,dx\,dz,
+```
+
+the required frequency is:
+
+```math
+\omega_i(\epsilon)
+=
+\frac{Q_i}{I_i(\epsilon)}.
+```
+
+Therefore:
+
+```text
+Q_PHI=
+FIXED
+
+Q_SIGMA=
+FIXED
+
+N_PHI=
+FIXED
+
+N_SIGMA=
+FIXED
+```
+
+and:
+
+```math
+J_i=N_iQ_i
+```
+
+is also fixed.
+
+---
+
+# 25. 018C-2 second variation
+
+The direct full-field quadratic coefficient was:
+
+```math
+C_2(\epsilon)
+=
+\frac{
+E(+\epsilon)
++
+E(-\epsilon)
+-
+2E(0)
+}{
+2\epsilon^2
+}.
+```
+
+Results:
+
+```text
+N=33:
+approximately
+-3.7586e5
+
+N=41:
+approximately
+-3.8064e5
+```
+
+Mean:
+
+```math
+-3.782494397083712\times10^5.
+```
+
+Most favorable value:
+
+```math
+-3.758585262112319\times10^5.
+```
+
+Still decisively negative.
+
+Numerical controls:
+
+```text
+EPSILON SPREAD=
+5.02e-6
+
+RESOLUTION SPREAD=
+1.264e-2
+
+QUADRATURE DISAGREEMENT=
+1.835e-6
+
+TAIL SHIFT=
+1.113e-6
+
+BASELINE ENERGY ERROR=
+2.12e-15
+
+BASELINE CHARGE ERROR=
+9.09e-16
+```
+
+---
+
+# 26. Mathematical proof of 018C instability
+
+Let $\mathcal H_Q$ be the energy Hessian restricted to the fixed-charge manifold.
+
+For the explicitly constructed admissible deformation vector $v$:
+
+```math
+v^T
+\mathcal H_Q
+v
+<
+0.
+```
+
+The minimum eigenvalue satisfies the Rayleigh-Ritz inequality:
+
+```math
+\lambda_{\min}
+\le
+\frac{
+v^T\mathcal H_Qv
+}{
+v^Tv
+}.
+```
+
+Since the right side is negative:
+
+```math
+\boxed{
+\lambda_{\min}(\mathcal H_Q)<0
+}
+```
+
+Therefore the constrained Hessian contains a negative physical direction.
+
+Within the canonical scalar/gauge matter model with positive kinetic metric, this is the static spectral signature of an exponentially growing mode.
+
+This is stronger than the earlier effective rigidity inference.
+
+---
+
+# 27. 018C final classification
+
+```text
+FIXED_CHARGE_RADIAL_STABILITY=
+PASS
+
+FULL_FIELD_M2_NEGATIVE_DIRECTION=
+CONFIRMED
+
+CONSTRAINED_HESSIAN_NEGATIVE_EIGENVALUE=
+YES_BY_RAYLEIGH_RITZ
+
+FULL_COMPOSITE_STABILITY=
+FAIL_M2
+
+STABLE_FIELD_THEORETICAL_CANDIDATE=
+NO
+
+FIELD_EXISTENCE_RESULT=
+RETAINED
+
+TWO_CURRENT_KLS_WALL_RIM_ARCHITECTURE=
+DEMOTED
+```
+
+Do not add arbitrary rigidity to this architecture.
+
+The next GR work should occur only if a genuinely motivated microscopic sector changes the stability problem.
+
+---
+
+# 28. Why the GR branch is no longer the fastest practical route
+
+Even ignoring the instability:
+
+```math
+E_{018B}
+\approx
+3.86\times10^{30}\ {\rm J}
+```
+
+for the illustrative $1g$, $1,{\rm m}$ normalization.
+
+Pure-GR gravitational strength carries the fundamental scale:
+
+```math
+\frac{ah^2}{G}.
+```
+
+Order-unity optimization of $C$ cannot remove tens of orders of practical burden.
+
+Therefore the buildplan correctly ranks a stronger non-gravitational interaction as the required path to the 80–90 practicality tier if pure GR retains catastrophic scaling.
+
+This is why the project reranked.
+
+---
+
+# 29. Protected fifth-force branch inherited targets
+
+The low-energy survivor inherited:
+
+```math
+C_\phi
+=
+9.536416387852626\times10^{-20}
+\ {\rm eV^{-3}}
+```
+
+Selected range:
+
+```math
+\lambda_\phi
+=
+5000\ {\rm m}
+```
+
+Mediator mass:
+
+```math
+m_\phi
+=
+3.946539608\times10^{-11}
+\ {\rm eV}.
+```
+
+Hence:
+
+```math
+m_\phi^2
+=
+1.55751749\times10^{-21}
+\ {\rm eV^2}.
+```
+
+Terrestrial background:
+
+```math
+\phi_\oplus
+=
+1.690631280830914\times10^{10}
+\ {\rm eV}.
+```
+
+Conservative allowed ordinary one-body leakage fraction:
+
+```math
+f_{\rm leak}
+=
+5.772961445324848\times10^{-7}.
+```
+
+Material EFT cutoff:
+
+```math
+\Lambda_{\rm mat}
+=
+657.7566\ {\rm eV}.
+```
+
+Earlier low-energy material calculations also contained a contingent control-energy scale around:
+
+```text
+1000 KG CONTROL FREE ENERGY:
+approximately
+1.06e8 J
+```
+
+This number is not yet the energy of a real device.
+
+But if a UV completion truly reproduces the low-energy material response, it illustrates why the fifth-force route is strategically attractive.
+
+The difference between:
+
+```text
+~1e8 J
+```
+
+of low-energy control free energy and:
+
+```text
+~1e30 J
+```
+
+of GR field energy is over twenty orders of magnitude.
+
+That is the sort of qualitative scaling change needed for the 80–90 milestone.
+
+---
+
+# 30. 019A — deconstructed Wilson protection
+
+Define:
+
+```math
+\theta
+=
+\frac{\phi}{f}.
+```
+
+For an $N$-site periodic deconstruction, the messenger spectrum used:
+
+```math
+\lambda_n(\theta)
+=
+\rho^2
++
+2
+-
+2\cos
+\left(
+\frac{2\pi n+\theta}{N}
+\right).
+```
+
+A relative discrete $Z_4$ endpoint phase produces:
+
+```text
+LOCAL RESPONSE:
+EVEN IN THETA
+
+CROSS RESPONSE:
+LINEAR RESPONSE ALLOWED
+```
+
+Thus:
+
+```math
+G_{00}(\theta)
+=
+G_{00}(-\theta)
+```
+
+and consequently:
+
+```math
+\boxed{
+G'_{00}(0)=0
+}
+```
+
+while:
+
+```math
+G'_{\rm cross}(0)\ne0.
+```
+
+This is the core protection mechanism.
+
+---
+
+# 31. 019A independent verification
+
+Matrix inversion and spectral reconstruction agreed at approximately:
+
+```text
+1e-15
+```
+
+relative accuracy.
+
+Maximum propagator reconstruction error:
+
+```text
+1.6048e-15
+```
+
+Derivative reconstruction:
+
+```text
+3.5383e-16
+```
+
+Coleman-Weinberg curvature:
+
+```math
+\kappa_{\rm CW}
+=
+3.840968505435784\times10^{-9}
+```
+
+with independent reconstruction agreement at reported machine precision.
+
+---
+
+# 32. 019A selected microscopic point
+
+```text
+N=
+9
+
+RHO=
+3
+
+SEPARATION=
+1
+
+Y_A Y_B=
+3 pi
+
+Y_ENDPOINT=
+3.0699801238
+
+Y^2/(4 pi)=
+0.75
+```
+
+Simultaneous solution:
+
+```math
+\mu
+=
+1.104648408\times10^3\ {\rm eV}
+```
+
+```math
+f
+=
+7.624514411\times10^{10}\ {\rm eV}
+=
+76.2451\ {\rm GeV}.
+```
+
+Lightest messenger:
+
+```math
+m_X
+=
+3.313945224\times10^3
+\ {\rm eV}.
+```
+
+EFT margin:
+
+```text
+5.038x
+```
+
+Earth Wilson phase:
+
+```math
+\theta_\oplus
+=
+0.2217362562.
+```
+
+Local response proxy:
+
+```math
+1.975201414\times10^{-8}.
+```
+
+Leakage margin:
+
+```math
+29.2272.
+```
+
+---
+
+# 33. 019A basin
+
+Scan:
+
+```text
+840
+```
+
+points.
+
+Pass:
+
+```text
+56
+```
+
+points.
+
+Fraction:
+
+```text
+6.67%
+```
+
+Selected local robustness:
+
+```text
+9 / 9 PASS
+```
+
+Therefore:
+
+```text
+WILSON PROTECTION=
+NOT AN ISOLATED OPTIMUM
+```
+
+within the tested model.
+
+---
+
+# 34. 019A claim
+
+```text
+019A=
+GREEN
+
+RELATIVISTIC THEORY-SPACE OPERATOR WITNESS=
+SUPPORTED
+
+NONLOCAL WILSON PROTECTION=
+PASS
+
+PAIR MATCH=
+PASS
+
+ULTRALIGHT NATURALNESS PREFLIGHT=
+PASS IN TESTED MESSENGER SECTOR
+
+REAL MATERIAL ENDPOINT=
+NOT YET
+```
+
+No percentage increase was awarded.
+
+---
+
+# 35. 019B anomaly-free material currents
+
+019B reconstructed an anomaly-free:
+
+```math
+U(1)_B\times U(1)_L
+```
+
+completion using the Duerr–Fileviez Perez–Wise construction.
+
+Exact rational anomaly arithmetic gave zero for all tested:
+
+```text
+SU(3)^2 B
+
+SU(2)^2 B
+
+Y^2 B
+
+Y B^2
+
+B^3
+
+GRAV^2 B
+
+SU(3)^2 L
+
+SU(2)^2 L
+
+Y^2 L
+
+Y L^2
+
+L^3
+
+GRAV^2 L
+
+B^2 L
+
+B L^2
+
+Y B L
+```
+
+Thus real anomaly-free baryon and lepton currents exist.
+
+This is an important positive result.
+
+---
+
+# 36. 019B scalar-density endpoint failure
+
+Desired relativistic pair form:
+
+```math
+C_\phi
+\phi
+(\bar NN)
+(\bar ee).
+```
+
+A scalar density has:
+
+```text
+GOOD:
+COHERENT SPIN-INDEPENDENT NR RESPONSE
+
+BAD:
+VACUUM SCALAR ONE-POINT FUNCTION
+```
+
+Closing one endpoint generates a symmetry-allowed one-body scalar counterterm.
+
+The hard-cutoff diagnostic used:
+
+```math
+I_f(\Lambda)
+=
+\frac{m_f}{4\pi^2}
+\left[
+\Lambda^2
+-
+m_f^2
+\ln
+\left(
+1+\frac{\Lambda^2}{m_f^2}
+\right)
+\right].
+```
+
+The exact coefficient is scheme dependent.
+
+The important physical conclusion is not the precise cutoff number.
+
+The important conclusion is:
+
+```text
+ONE-BODY COUNTERTERM=
+NOT FORBIDDEN BY SYMMETRY
+```
+
+Even at the most favorable tested cutoff, the natural contribution exceeded the allowed nucleon-side one-body scale by:
+
+```text
+approximately
+1.27475e4
+```
+
+and at the highest tested matching scale by:
+
+```text
+approximately
+8.21e6.
+```
+
+Therefore:
+
+```text
+DIRECT SCALAR DENSITY ENDPOINT=
+REJECTED
+```
+
+unless an additional exact protection principle is introduced.
+
+Do not reopen this endpoint with tuning.
+
+---
+
+# 37. 019B pseudoscalar endpoint failure
+
+For a pseudoscalar:
+
+```math
+\bar u
+i\gamma_5
+u
+\sim
+O
+\left(
+\frac{q}{2m}
+\right).
+```
+
+At the material scale:
+
+```text
+ELECTRON SUPPRESSION=
+6.43599e-4
+
+NUCLEON SUPPRESSION=
+3.50274e-7
+```
+
+Pair suppression:
+
+```math
+2.254357379\times10^{-10}.
+```
+
+Required endpoint product:
+
+```math
+y_Ay_B
+\approx
+4.18069\times10^{10}.
+```
+
+Individual equal coupling:
+
+```math
+y
+\approx
+2.04467\times10^5.
+```
+
+Thus:
+
+```math
+y^2/(4 pi)
+\approx
+3.33\times10^9.
+```
+
+This is nonperturbative by an enormous margin.
+
+Additionally:
+
+```text
+UNPOLARIZED q -> 0 COHERENT RESPONSE=
+ZERO
+```
+
+Therefore:
+
+```text
+PSEUDOSCALAR ENDPOINT=
+REJECTED
+```
+
+---
+
+# 38. 019B scalar-messenger Lorentz basis
+
+Tested bilinears:
+
+```text
+SCALAR
+
+PSEUDOSCALAR
+
+VECTOR
+
+AXIAL VECTOR
+
+TENSOR
+```
+
+Results:
+
+```text
+SCALAR:
+FAIL NATURALNESS
+
+PSEUDOSCALAR:
+FAIL COHERENCE / PERTURBATIVITY
+
+VECTOR:
+SCALAR MESSENGER INDEX MISMATCH
+
+AXIAL:
+FAIL UNPOLARIZED COHERENCE
+
+TENSOR:
+FAIL UNPOLARIZED COHERENCE
+```
+
+Therefore:
+
+```text
+DIRECT 019A SCALAR MESSENGER
+TO ORDINARY SM BILINEARS=
+CLOSED IN TESTED RENORMALIZABLE CLASSES
+```
+
+This failure is durable.
+
+---
+
+# 39. 019B vector-current escape
+
+The surviving operator is:
+
+```math
+\boxed{
+C_\phi
+\phi
+J_B^\mu J_{L\mu}
+}
+```
+
+Nonrelativistically:
+
+```math
+J_B^0
+\rightarrow
+n_B
+```
+
+```math
+J_L^0
+\rightarrow
+n_L
+```
+
+and therefore:
+
+```math
+\phi J_B^\mu J_{L\mu}
+\rightarrow
+\phi n_B n_L
+```
+
+for slowly moving matter.
+
+A single vector current has zero Lorentz-invariant vacuum expectation:
+
+```math
+\langle0|J^\mu|0\rangle=0.
+```
+
+This avoids the direct scalar tadpole mechanism.
+
+The leading electron vacuum polarization behaves as:
+
+```math
+\Pi_e(q^2)
+\sim
+\frac{\alpha}{15\pi}
+\frac{q^2}{m_e^2}.
+```
+
+019B deliberately inflated the one-body estimate by including:
+
+```text
+QED VACUUM POLARIZATION
+
+OUTER QED LOOP
+
+WEAK CHANNEL
+
+HADRONIC CHANNEL
+
+64-FOLD CHANNEL MULTIPLICITY
+```
+
+Result:
+
+```math
+f_{\rm mix}
+=
+2.995751232\times10^{-11}.
+```
+
+Allowed:
+
+```math
+f_{\rm leak}
+=
+5.772961445\times10^{-7}.
+```
+
+Margin:
+
+```math
+\boxed{
+1.92705\times10^4
+}
+```
+
+This is a very strong leading preflight margin.
+
+It is **not** an all-orders theorem.
+
+The complete UV model must recompute it.
+
+---
+
+# 40. 019B result
+
+```text
+019B=
+GREEN_NEGATIVE_RESULT
+
+ANOMALY-FREE MATERIAL CURRENTS=
+PASS
+
+DIRECT SCALAR MATERIAL EMBEDDING=
+REJECTED
+
+VECTOR CURRENT ENDPOINT=
+SUPPORTED AT CURRENT EFT PREFLIGHT LEVEL
+
+PROTECTED BRANCH=
+RETAIN AND REFORMULATE WITH VECTOR PORTAL
+```
+
+---
+
+# 41. 019C target
+
+019C tested whether the vector-current escape could be embedded into a minimal renormalizable Abelian Wilson portal.
+
+Two classes were tested:
+
+```text
+CLASS K:
+LOOP-INDUCED KINETIC MIXING
+
+CLASS M:
+WILSON-SEEDED HEAVY VECTOR MASS MIXING
+```
+
+The second class was separated into:
+
+```text
+M0:
+EXACT HEAVY VECTOR / HIGGS MEDIATOR ALGEBRA
+
+M1:
+MINIMAL LOOP-GENERATED WILSON SEED
+```
+
+---
+
+# 42. 019C independent reconstruction
+
+Wilson determinant derivative:
+
+```text
+DOUBLE MATRIX=
+2.011308679947986e-10
+
+70-DIGIT MATRIX=
+2.011308680607443e-10
+
+SPECTRAL=
+2.011308680607443e-10
+
+CLOSED FORM=
+2.011308680607443e-10
+```
+
+High-precision relative error:
+
+```text
+1.2852e-16
+```
+
+Exact material bound-state kernel:
+
+```text
+ANALYTIC=
+6.542825923239690
+
+NUMERIC=
+6.542825923239686
+
+RELERR=
+5.43e-16
+```
+
+Therefore:
+
+```text
+VECTOR PORTAL MATHEMATICS=
+INDEPENDENTLY RECONSTRUCTED
+```
+
+---
+
+# 43. 019C Class K failure
+
+Loop-induced kinetic mixing:
+
+```math
+\epsilon(\theta)
+F_B^{\mu\nu}
+F_{L\mu\nu}.
+```
+
+After integrating out the two massive vectors, the pair kernel contains derivative suppression.
+
+Scan:
+
+```text
+1116
+```
+
+points.
+
+Even at:
+
+```text
+NEW MASS SCALE=
+EXACTLY THE MATERIAL EFT CUTOFF
+```
+
+the best required coupling was:
+
+```text
+g=
+77.859
+```
+
+with:
+
+```math
+g^2/(4\pi)
+=
+482.4.
+```
+
+At a proper $2\times$ EFT margin:
+
+```text
+g=
+178.975
+
+g^2/(4 pi)=
+2549.0
+```
+
+Perturbative passers:
+
+```text
+0
+```
+
+Therefore:
+
+```text
+MINIMAL KINETIC-MIXING WILSON PORTAL=
+CLOSED
+```
+
+Do not spend more compute trying to rescue it with ordinary small group factors.
+
+---
+
+# 44. 019C M0 — major positive structural result
+
+Take heavy vectors:
+
+```text
+B_mu
+
+L_mu
+```
+
+coupled to:
+
+```text
+J_B
+
+J_L.
+```
+
+The conventional vector/Higgs mediator sector itself can reproduce the target.
+
+Selected exact algebra witness:
+
+```text
+g=
+1
+
+M_VECTOR=
+1.3155132e3 eV
+
+M_VECTOR / EFT=
+2
+
+BRIDGE_VEV=
+930.208 eV
+
+ETA=
+1.28986e-2
+```
+
+Earth odd splitting:
+
+```text
+D_EARTH=
+2.83671e-3
+```
+
+Reconstructed coefficient:
+
+```math
+C_\phi
+=
+9.536416387852626\times10^{-20}
+\ {\rm eV^{-3}}
+```
+
+with zero reported numerical mismatch.
+
+Therefore:
+
+```text
+HEAVY VECTOR / HIGGS MEDIATOR=
+NOT THE BOTTLENECK
+```
+
+This is strategically crucial.
+
+---
+
+# 45. General heavy-vector matching formula
+
+Let:
+
+```math
+V_\mu
+=
+\begin{pmatrix}
+B_\mu\\
+L_\mu
+\end{pmatrix}.
+```
+
+Write:
+
+```math
+\mathcal L
+\supset
+\frac12
+V_\mu^T
+M^2(\theta)
+V^\mu
++
+g_B B_\mu J_B^\mu
++
+g_L L_\mu J_L^\mu.
+```
+
+Define:
+
+```math
+G
+=
+\mathrm{diag}(g_B,g_L).
+```
+
+Integrating out the heavy vectors at low momentum gives:
+
+```math
+\mathcal L_{\rm eff}
+=
+-\frac12
+J_\mu^T
+G
+M^{-2}(\theta)
+G
+J^\mu.
+```
+
+The baryon-lepton cross coefficient is proportional to:
+
+```math
+K_{BL}(\theta)
+=
+-g_Bg_L
+\left[
+M^{-2}(\theta)
+\right]_{BL}.
+```
+
+Since:
+
+```math
+\phi=f\theta,
+```
+
+the linear scalar coefficient is:
+
+```math
+C_\phi
+=
+\frac{1}{f}
+\frac{dK_{BL}}{d\theta}.
+```
+
+Use the matrix identity:
+
+```math
+\frac{dM^{-2}}{d\theta}
+=
+-
+M^{-2}
+\frac{dM^2}{d\theta}
+M^{-2}.
+```
+
+Therefore:
+
+```math
+\boxed{
+C_\phi
+=
+\frac{
+g_Bg_L
+}{f}
+\left[
+M^{-2}
+M_\theta^2
+M^{-2}
+\right]_{BL}
+}
+```
+
+up to the overall convention/sign associated with the interaction Lagrangian.
+
+This is the **central design equation for the next session**.
+
+The problem is now reduced to generating:
+
+```math
+M_\theta^2
+\equiv
+\frac{dM^2}{d\theta}
+```
+
+large enough without generating an unacceptable Wilson potential.
+
+---
+
+# 46. Simplified equal-mass interpretation
+
+If:
+
+```math
+M^2
+\approx
+\begin{pmatrix}
+M_B^2 & \delta m^2(\theta)\\
+\delta m^2(\theta) & M_L^2
+\end{pmatrix}
+```
+
+and the off-diagonal term is small, then:
+
+```math
+C_\phi
+\sim
+\frac{
+g_Bg_L
+}{
+fM_B^2M_L^2
+}
+\frac{
+d\,\delta m^2
+}{
+d\theta
+}.
+```
+
+019C M0 demonstrated that the required:
+
+```math
+d\,\delta m^2/d\theta
+```
+
+is not absurdly large.
+
+The missing question is whether it can be generated naturally.
+
+---
+
+# 47. 019C M1 failure
+
+The minimal loop seed generated the odd bridge through the same Wilson Coleman-Weinberg determinant.
+
+The scan intentionally maximized the response by:
+
+```text
+SATURATING DIMENSIONLESS COUPLINGS AT PERTURBATIVITY LIMIT
+
+SATURATING TRILINEAR / MASS RATIO
+
+MINIMIZING ALL NEW MASSES
+
+MAXIMIZING THE WILSON RESPONSE
+```
+
+Scan:
+
+```text
+1120 points
+```
+
+At the absolute optimistic:
+
+```text
+1x EFT SCALE MARGIN
+```
+
+best result:
+
+```math
+\frac{
+C_{\max}
+}{
+C_{\rm target}
+}
+=
+0.1230123102.
+```
+
+Deficit:
+
+```text
+8.129x
+```
+
+At:
+
+```text
+2x EFT SCALE MARGIN
+```
+
+best result:
+
+```math
+\frac{
+C_{\max}
+}{
+C_{\rm target}
+}
+=
+7.688269390\times10^{-3}.
+```
+
+That is only:
+
+```text
+0.769%
+```
+
+of target.
+
+Deficit:
+
+```math
+\boxed{
+130.068
+}
+```
+
+No passers.
+
+Therefore:
+
+```text
+MINIMAL LOOP-SEEDED HIGGS BRIDGE=
+REJECTED
+```
+
+---
+
+# 48. Extremely important strategic clue from 019C
+
+At the normal $2\times$ EFT separation:
+
+```math
+\frac{C_{\max}}{C_{\rm target}}
+\approx
+0.007688.
+```
+
+A standard loop factor is:
+
+```math
+16\pi^2
+\approx
+157.9.
+```
+
+Numerically:
+
+```math
+0.007688
+\times
+16\pi^2
+\approx
+1.21.
+```
+
+This is **not a proof**.
+
+The UV structure will change if the seed becomes tree level.
+
+But this is an unusually informative coincidence:
+
+> **The remaining 019C deficit is approximately one ordinary loop factor.**
+
+This makes the next target very specific:
+
+```text
+REMOVE THE LOOP SUPPRESSION
+WITHOUT REMOVING THE WILSON / PNGB PROTECTION.
+```
+
+That is precisely what a collective tree-level theory-space interaction is designed to attempt.
+
+This is the strongest strategic insight at session close.
+
+---
+
+# 49. Why ordinary non-Abelian loop enhancement is not first priority
+
+For the kinetic portal, the best required:
+
+```math
+g^2/(4\pi)
+```
+
+is hundreds to thousands.
+
+A modest non-Abelian Casimir or multiplicity factor cannot plausibly solve that class without introducing:
+
+```text
+LARGE GROUPS
+
+LARGE REPRESENTATIONS
+
+MANY STATES
+
+LOSS OF PERTURBATIVITY
+
+LARGE CW POTENTIALS
+
+NEW ONE-BODY OPERATORS
+```
+
+Therefore:
+
+```text
+NON-ABELIAN LOOP ENHANCEMENT OF CLASS K=
+LOW PRIORITY
+```
+
+The non-Abelian route remains interesting only if it changes the **order at which the desired coupling appears**, for example through:
+
+```text
+TREE-LEVEL CHARGED-VECTOR MASS DEPENDENCE
+
+COLLECTIVE GAUGE BREAKING
+
+GAUGE-HIGGS / HOSOTANI STRUCTURE
+
+NONLOCAL THEORY-SPACE INTERACTION
+```
+
+not merely because $C_2(G)>1$.
+
+---
+
+# 50. Literature-motivated next principle
+
+Three known ideas are relevant.
+
+## Dimensional deconstruction / theory-space Wilson protection
+
+Arkani-Hamed, Cohen, and Georgi showed that a scalar distributed through theory space can behave as a Wilson degree of freedom whose radiative mass is finite because local interactions cannot generate the relevant nonlocal operator.
+
+## Minimal Moose / Little Higgs collective breaking
+
+The Minimal Moose demonstrates an important protection pattern:
+
+```text
+COUPLING 1 ALONE:
+EXACT SYMMETRY PROTECTS PNGB
+
+COUPLING 2 ALONE:
+DIFFERENT EXACT SYMMETRY PROTECTS PNGB
+
+BOTH TOGETHER:
+DESIRED INTERACTION GENERATED
+```
+
+This is called collective symmetry breaking.
+
+## 2026 deconstructed extra-dimensional axion
+
+Hor, Nakai, Suzuki, and Xu constructed a renormalizable 4D moose where a Wilson-line axion appears as a collective pNGB and nonlocal suppression of symmetry-breaking effects is transparent.
+
+None of these papers proves the ANTIGRAVITY_RESEARCH portal.
+
+They establish that the required **type of protection mechanism** is physically motivated.
+
+---
+
+# 51. Best current path — priority ranking
+
+## Priority 1 — collective tree-level Wilson-to-vector seed
+
+```text
+RANK=
+1
+
+STATUS=
+ACTIVE NEXT SESSION
+```
+
+Why:
+
+1. 019A already established the Wilson protection principle.
+2. 019B already established anomaly-free ordinary material currents.
+3. 019C M0 already established that the heavy-vector/Higgs mediator can reproduce the target.
+4. The only missing quantity is a sufficiently large protected odd seed.
+5. The remaining $2\times$-EFT deficit is approximately one loop factor.
+6. Collective symmetry breaking is specifically designed to generate interactions without allowing any individual coupling to destroy the light pNGB protection.
+
+This route reuses almost every surviving successful element.
+
+That gives it the highest expected information value and shortest path.
+
+It is **not** assigned a numerical probability of success.
+
+---
+
+## Priority 2 — non-Abelian charged-vector Wilson portal
+
+```text
+RANK=
+2
+```
+
+Use if the collective tree-level seed fails or if the operator analysis shows that the cleanest collective realization requires a non-Abelian Wilson structure.
+
+Promising feature:
+
+```text
+GAUGE-HIGGS / HOSOTANI SYSTEMS:
+WILSON PHASE DIRECTLY CHANGES GAUGE-BOSON SPECTRUM
+```
+
+Potentially useful because:
+
+```math
+\frac{dM_V^2}{d\theta}
+```
+
+can arise from gauge structure rather than a small loop-generated scalar tadpole.
+
+Major dangers:
+
+```text
+WILSON POTENTIAL TOO LARGE
+
+DIRECT ORDINARY-MATTER COUPLINGS
+
+ELECTROWEAK / COLLIDER CONSTRAINTS
+
+MANY NEW LIGHT STATES
+
+GAUGE ANOMALIES
+
+LOSS OF MATERIAL SPECIFICITY
+```
+
+Do not launch a huge non-Abelian scan before the group-theory operator gate.
+
+---
+
+## Priority 3 — new GR topology with intrinsic positive bending stiffness
+
+The GR existence result is real.
+
+A different microscopic wall/rim topology might possess:
+
+```text
+POSITIVE BENDING RIGIDITY
+
+NO M2 SPLITTING MODE
+
+MULTI-RIM STABILITY
+
+TOPOLOGICAL SHAPE PROTECTION
+```
+
+This remains theoretically interesting.
+
+However its practicality ranking is lower because the GR energy scale remains catastrophic.
+
+Use this route primarily if the fifth-force protection program closes.
+
+---
+
+## Priority 4 — disformal finite-cycle branch
+
+Positive anchors:
+
+```text
+LOCAL TOTAL FORCE REVERSAL=
+YES
+
+TRANSIENT FINITE-PAYLOAD EFFECT=
+YES
+```
+
+Negative anchors:
+
+```text
+FULL VALIDATED HISTORY NET IMPULSE=
+INWARD
+
+DIRECT ORDINARY-MATTER BRIDGE=
+SEVERELY CONSTRAINED
+```
+
+Do not reopen unless a new mechanism directly addresses:
+
+```text
+FULL-CYCLE IMPULSE
+
+AND
+
+MICROSCOPIC COUPLING PROTECTION
+```
+
+---
+
+## Priority 5 — generic modified gravity
+
+Keep ranked below all of the above.
+
+Do not open generic speculative modified-gravity scans merely because the current microscopic portals are difficult.
+
+---
+
+# 52. Absolute shortest path toward 85–90
+
+The fastest scientifically defensible path is:
+
+```text
+68%
+
+|
+v
+
+020A
+COLLECTIVE TREE-LEVEL WILSON-TO-VECTOR
+MICROSCOPIC UV WITNESS
+
+|
+v
+
+020B
+COMPLETE ONE-BODY MIXING
++
+ULTRALIGHT NATURALNESS
++
+EXACT 5-KM EXPERIMENTAL BOUND
+
+|
+v
+
+020C
+STELLAR + COSMOLOGY
++
+REAL MATERIAL / BOUND-STATE MATCH
+
+|
+v
+
+020D
+FINITE MACROSCOPIC PAYLOAD
++
+FULL CONTROL CYCLE
++
+ENERGY-MOMENTUM ACCOUNTING
+
+|
+v
+
+020E
+PRACTICAL ENERGY
++
+POWER
++
+HEAT
++
+ROBUST ENGINEERING PARAMETER BASIN
+
+|
+v
+
+85–90%
+THEORETICALLY PRACTICAL CANDIDATE
+```
+
+Each stage must fail closed.
+
+---
+
+# 53. Proposed 020A name
+
+Recommended next major gate:
+
+```text
+020A_COLLECTIVE_WILSON_VECTOR_SEED_OPERATOR_AND_NATURALNESS_GATE
+```
+
+Do **not** begin 020A with a large parameter optimization.
+
+First perform the cheapest decisive analytic/operator test.
+
+---
+
+# 54. 020A single active scientific question
+
+> **Does there exist a minimal renormalizable four-dimensional theory-space or non-Abelian Wilson construction in which an ultralight protected Wilson/pNGB field generates the required odd heavy-vector mass response at tree or collective-tree level, while every individual interaction preserves enough symmetry to forbid a large Wilson mass and dangerous one-body ordinary-matter coupling?**
+
+---
+
+# 55. 020A target effective theory
+
+Retain:
+
+```math
+\mathcal L
+\supset
+g_B B_\mu J_B^\mu
++
+g_L L_\mu J_L^\mu
++
+\frac12
+V_\mu^T
+M^2(\theta)
+V^\mu.
+```
+
+Target:
+
+```math
+\boxed{
+C_\phi
+=
+\frac{
+g_Bg_L
+}{f}
+\left[
+M^{-2}
+M_\theta^2
+M^{-2}
+\right]_{BL}
+}
+```
+
+with:
+
+```math
+C_\phi
+=
+9.536416387852626\times10^{-20}
+\ {\rm eV^{-3}}.
+```
+
+This equation should be used as the primary microscopic capacity target.
+
+---
+
+# 56. 020A collective-protection conditions
+
+Introduce at least two independent spurions/couplings:
+
+```text
+lambda_1
+
+lambda_2.
+```
+
+The desired collective structure must satisfy:
+
+```math
+m_\phi^2(\lambda_1,0)=0
+```
+
+to the declared protection order and:
+
+```math
+m_\phi^2(0,\lambda_2)=0.
+```
+
+Equivalently each coupling alone must leave an exact shift or equivalent symmetry protecting $\theta$.
+
+The desired vector mass response must require both:
+
+```math
+\frac{
+\partial M_{BL}^2
+}{
+\partial\theta
+}
+\propto
+\lambda_1\lambda_2
+```
+
+or an equivalent collective invariant.
+
+A valid candidate should satisfy:
+
+```text
+IF lambda_1=0:
+PORTAL OFF
++
+THETA PROTECTED
+
+IF lambda_2=0:
+PORTAL OFF
++
+THETA PROTECTED
+
+IF BOTH NONZERO:
+PORTAL ON
+```
+
+This is much stronger than fine-tuned cancellation.
+
+---
+
+# 57. 020A naturalness condition
+
+The target mass is:
+
+```math
+m_\phi
+=
+3.946539608\times10^{-11}
+\ {\rm eV}.
+```
+
+Therefore:
+
+```math
+m_\phi^2
+=
+1.55751749\times10^{-21}
+\ {\rm eV^2}.
+```
+
+For every proposed collective portal calculate:
+
+```math
+\delta m_\phi^2
+=
+\frac{1}{f^2}
+\frac{
+\partial^2 V_{\rm induced}
+}{
+\partial\theta^2
+}.
+```
+
+A promotion-grade candidate should satisfy at minimum:
+
+```math
+|\delta m_\phi^2|
+\lesssim
+m_\phi^2
+```
+
+without cancellation between unrelated large terms.
+
+Prefer a stronger safety goal:
+
+```math
+|\delta m_\phi^2|
+\lesssim
+0.1m_\phi^2
+```
+
+if achievable.
+
+---
+
+# 58. 020A one-body operator condition
+
+Do not assume the 019B $1.93\times10^4$ margin survives.
+
+For the new microscopic theory enumerate every operator linear in $\phi$ and containing one ordinary-matter current or density.
+
+At minimum:
+
+```text
+PHI J_B
+
+PHI J_L
+
+PHI d_mu F^{mu nu}
+
+PHI B_mu B^mu
+
+PHI L_mu L^mu
+
+PHI F_B F_B
+
+PHI F_L F_L
+
+PHI F_B F_L
+
+PHI H_DAGGER H
+
+PHI qbar q
+
+PHI ebar e
+
+PHI G_GLUON^2
+
+PHI F_EM^2
+```
+
+where gauge invariance determines the proper operator form.
+
+For every generated operator compute its nonrelativistic ordinary-matter scalar charge.
+
+Promotion requires:
+
+```math
+f_{\rm one-body}
+<
+5.772961445324848\times10^{-7}
+```
+
+with no tuned cancellation.
+
+---
+
+# 59. 020A mass / EFT conditions
+
+Required:
+
+```text
+ALL NEW PROPAGATING STATES
+ABOVE MATERIAL EFT CUTOFF
+```
+
+Absolute minimum:
+
+```math
+M_{\rm new}
+>
+657.7566\ {\rm eV}.
+```
+
+Preferred initial gate:
+
+```math
+M_{\rm new}
+\ge
+2
+\Lambda_{\rm mat}.
+```
+
+The $2\times$ margin should be the normal promoted condition.
+
+The $1\times$ cutoff can be used only as an optimistic failure bound.
+
+---
+
+# 60. 020A perturbativity
+
+Require:
+
+```math
+\frac{g_i^2}{4\pi}
+\le
+1
+```
+
+for every gauge/Yukawa-type coupling in the initial gate.
+
+Also test:
+
+```text
+TREE UNITARITY
+
+SCALAR QUARTICS
+
+TRILINEAR / MASS RATIOS
+
+LARGE-N / LARGE-REPRESENTATION LOOP EXPANSION PARAMETER
+```
+
+If a candidate only works through large representation multiplicity that makes the loop expansion uncontrolled, reject it.
+
+---
+
+# 61. 020A terrestrial field excursion
+
+Retain:
+
+```math
+\theta_\oplus
+=
+\frac{
+\phi_\oplus
+}{
+f
+}.
+```
+
+Require:
+
+```math
+|\theta_\oplus|
+\lesssim
+0.5
+```
+
+for the first gate unless a different periodic branch is explicitly proven healthy.
+
+Do not hide nonlinear response behind a large multi-period terrestrial excursion.
+
+---
+
+# 62. 020A first analytic candidate class
+
+Priority candidate:
+
+```text
+MINIMAL PRODUCT-GROUP / MOOSE
+WITH COLLECTIVE PROTECTION
+```
+
+Start with:
+
+```text
+SMALLEST GROUP
+
+FEWEST SITES
+
+FEWEST LINK FIELDS
+
+FEWEST BRIDGE FIELDS
+```
+
+Do not begin with a large quiver.
+
+The basic design target is:
+
+```text
+WILSON / PNGB THETA
+->
+COLLECTIVELY CONTROLS
+BRIDGE SCALAR MASS DIFFERENCE
+->
+GENERATES
+OFF-DIAGONAL B-L VECTOR MASS
+->
+PRODUCES
+PHI J_B.J_L
+```
+
+019C M0 already proves the last two arrows can work.
+
+020A only needs to solve the first arrow while preserving protection.
+
+---
+
+# 63. Minimal collective algebra to look for
+
+The Little-Higgs-style pattern to imitate is schematically:
+
+```math
+V
+=
+\lambda_1
+f_c^2
+\left|
+S+F(\theta,\Xi)
+\right|^2
++
+\lambda_2
+f_c^2
+\left|
+S-F(\theta,\Xi)
+\right|^2.
+```
+
+Here:
+
+```text
+S=
+HEAVY AUXILIARY / BRIDGE FIELD
+
+Xi=
+VECTOR-BRIDGE ORDER PARAMETER
+```
+
+Each term alone should permit a field redefinition or exact symmetry that removes the $\theta$ dependence from the physical potential.
+
+Only both terms together should generate the desired interaction after integrating out $S$.
+
+The exact form must arise from a gauge-invariant renormalizable moose.
+
+Do not accept this schematic form by itself as the answer.
+
+The 020A job is to determine whether an actual gauge representation realizes it.
+
+---
+
+# 64. Required 020A symbolic checks before numerical scanning
+
+For every candidate group/moose:
+
+```text
+1.
+LIST ALL FIELDS AND REPRESENTATIONS
+
+2.
+WRITE EVERY RENORMALIZABLE GAUGE-INVARIANT OPERATOR
+
+3.
+IDENTIFY GLOBAL / GAUGE SYMMETRIES
+
+4.
+IDENTIFY PHYSICAL WILSON / PNGB MODE
+
+5.
+TURN OFF SPURION 1
+AND PROVE SHIFT SYMMETRY
+
+6.
+TURN OFF SPURION 2
+AND PROVE SHIFT SYMMETRY
+
+7.
+TURN BOTH ON
+AND DERIVE M_B_L^2(theta)
+
+8.
+CHECK WHETHER
+d M_B_L^2 / d theta
+IS NONZERO
+
+9.
+DERIVE TREE-LEVEL C_phi
+
+10.
+COMPUTE FIRST NONZERO THETA POTENTIAL
+
+11.
+COMPUTE ONE-BODY OPERATORS
+
+12.
+ONLY THEN NUMERICALLY SCAN
+```
+
+If step 7 or 8 fails algebraically, stop.
+
+---
+
+# 65. Candidate group ordering
+
+Do not scan arbitrary groups.
+
+Recommended hierarchy:
+
+```text
+A.
+SMALLEST SU(2)-BASED PRODUCT GROUP / MOOSE
+
+B.
+SU(3)-BASED MINIMAL MOOSE
+ONLY IF SU(2) INVARIANTS FORBID THE NEEDED ODD RESPONSE
+
+C.
+NON-ABELIAN GAUGE-HIGGS / HOSOTANI-STYLE CHARGED VECTOR
+IF THE COLLECTIVE SCALAR-BRIDGE SEED FAILS
+
+D.
+ONLY THEN:
+LARGER GROUPS / REPRESENTATIONS
+```
+
+The group must be selected by operator availability, not because a larger Casimir improves a number.
+
+---
+
+# 66. Promotion condition for 020A
+
+A genuine major victory requires an explicit microscopic witness satisfying simultaneously:
+
+```text
+RENORMALIZABLE_4D_UV_WITNESS=
+YES
+
+ANOMALY_FREE_MATERIAL_CURRENTS=
+YES
+
+PHYSICAL_WILSON_OR_PNGB_MODE=
+YES
+
+COLLECTIVE_PROTECTION=
+PROVED
+
+TREE_OR_COLLECTIVE_TREE_ODD_VECTOR_SEED=
+YES
+
+TARGET_C_PHI_MATCH=
+PASS
+
+PERTURBATIVITY=
+PASS
+
+ALL_NEW_STATES_ABOVE_2X_MATERIAL_EFT=
+PASS
+
+EARTH_EXCURSION=
+CONTROLLED
+
+ULTRALIGHT_MASS_NATURALNESS=
+PASS
+
+ONE_BODY_OPERATOR_PREFLIGHT=
+PASS
+
+ROBUST_PARAMETER_BASIN=
+YES
+
+INDEPENDENT_RECONSTRUCTION=
+PASS
+```
+
+If these pass:
+
+```text
+PROJECT_HEURISTIC=
+ELIGIBLE_FOR_APPROXIMATELY_70–72_PERCENT
+```
+
+This would be the next genuine promotion.
+
+---
+
+# 67. 020A falsifiers
+
+Immediately reject a candidate if:
+
+```text
+A SINGLE SPURION ALREADY GENERATES A THETA MASS
+
+THE DESIRED RESPONSE EXISTS ONLY THROUGH TUNED CANCELLATION
+
+THE TREE RESPONSE ALSO GENERATES TREE ONE-BODY PHI J
+
+M_PHI RECEIVES AN UNPROTECTED LARGE THRESHOLD
+
+THE REQUIRED RESPONSE STILL CARRIES THE SAME LOOP SUPPRESSION AS 019C
+
+THE PORTAL NEEDS g^2/(4pi)>1
+
+THE PORTAL NEEDS STATES BELOW THE MATERIAL EFT
+
+THE ONLY SOLUTION REQUIRES LARGE THETA_EARTH MULTI-PERIOD MOTION
+
+ANOMALIES ARE NOT CANCELED
+
+MATERIAL SPECIFICITY IS LOST
+```
+
+Do not rescue a failed minimal candidate by immediately adding many fields.
+
+Move to the next minimal class.
+
+---
+
+# 68. If collective tree-level 020A is GREEN
+
+Immediately perform:
+
+```text
+020B_COMPLETE_VECTOR_PORTAL_OPERATOR_MIXING_AND_EXPERIMENTAL_GATE
+```
+
+Do not optimize material parameters first.
+
+020B should contain:
+
+```text
+FULL RENORMALIZATION / MATCHING BASIS
+
+ALL ONE-BODY OPERATORS
+
+INDEPENDENT LOW-ENERGY MATCH
+
+EXACT CURRENT 5-KM FIFTH-FORCE LIMIT
+
+COMPOSITION-DEPENDENT FORCE LIMITS
+
+EQUIVALENCE-PRINCIPLE LIMITS
+
+LABORATORY VECTOR-BOSON LIMITS
+
+COLLIDER / PRECISION LIMITS AS APPLICABLE
+```
+
+If 020B passes, a move into approximately the low/mid-70s would become scientifically defensible.
+
+---
+
+# 69. Exact experimental gate after a portal exists
+
+Do not compare the current effective material coefficient naively to a universal Yukawa $\alpha$.
+
+The completed microscopic theory determines:
+
+```text
+BARYON CHARGE
+
+LEPTON CHARGE
+
+MATERIAL STATE DEPENDENCE
+
+PAIR / BOUND-STATE MATRIX ELEMENT
+
+ORDINARY BACKGROUND CHARGE
+
+EARTH SOURCE CHARGE
+```
+
+Only after these are known can the exact fifth-force observable be compared with experiments.
+
+Need current data near:
+
+```math
+\lambda
+\sim
+5\,{\rm km}.
+```
+
+Required classes:
+
+```text
+EQUIVALENCE PRINCIPLE
+
+TORSION BALANCE
+
+INVERSE SQUARE LAW
+
+GEOPHYSICAL
+
+EARTH / MOON
+
+COMPOSITION DEPENDENT
+
+ATOMIC / MOLECULAR IF RELEVANT
+```
+
+Do not claim experimental safety until this is numerically closed.
+
+---
+
+# 70. Stellar/cosmological gate
+
+Only after 020A and 020B pass.
+
+For the actual completed model compute:
+
+```text
+STAR PRODUCTION RATES
+
+PLASMA MIXING
+
+BREMSSTRAHLUNG
+
+COMPTON-LIKE CHANNELS
+
+PAIR PRODUCTION
+
+TRAPPING VS FREE STREAMING
+
+SUPERNOVA
+
+EARLY UNIVERSE THERMALIZATION
+
+DELTA N_EFF
+
+LIGHT-ELEMENT ABUNDANCE IF RELEVANT
+
+CMB
+
+LATE-TIME FIFTH FORCE
+
+BACKGROUND PHI EVOLUTION
+```
+
+The ultralight field cannot simply be declared safe because its direct one-body coupling is small.
+
+The new heavy states and collective sector must also be included.
+
+---
+
+# 71. Real-material gate
+
+To move toward 80%, the completed portal must be matched to an actual microscopic material state.
+
+Need:
+
+```text
+REAL ATOMIC / MOLECULAR / SOLID-STATE HAMILTONIAN
+
+REAL BARYON / LEPTON PAIR DENSITY
+
+STATE-DEPENDENT MATRIX ELEMENT
+
+CONTROL STATE
+
+OFF STATE
+
+ON STATE
+
+FINITE TEMPERATURE
+
+PHONONS
+
+ELECTRON CORRELATION
+
+NUCLEAR FINITE SIZE
+
+MATERIAL DENSITY
+
+DOMAIN STRUCTURE
+
+HYSTERESIS
+
+CONTROL FIELD
+
+HEAT LOAD
+```
+
+The earlier dinuclear / collective low-energy survivor can be reused only if the new vector-current UV theory reproduces its effective operator.
+
+Do not assume this automatically.
+
+---
+
+# 72. Finite-payload operational gate
+
+A material-specific microscopic force still does not establish antigravity.
+
+Need an actual finite body.
+
+Calculate:
+
+```math
+\mathbf F_{\rm payload}
+=
+\int
+\rho_{\rm response}(\mathbf x)
+\mathbf f_\phi(\mathbf x)
+\,d^3x.
+```
+
+Require:
+
+```text
+FINITE PAYLOAD
+
+FINITE SOURCE
+
+SOURCE CLEARANCE
+
+REAL GEOMETRY
+
+FULL BACKGROUND GRAVITY
+
+FULL FIFTH FORCE
+
+SELF-FORCE CONTROL
+
+REACTION FORCE
+
+MOMENTUM FLOW
+
+BOUNDARY STRESSES
+
+CONTROL HARDWARE
+```
+
+Operational criterion:
+
+```math
+\mathbf a_{\rm CM}
+\cdot
+\hat{\mathbf z}
+>
+0
+```
+
+against the complete ordinary gravitational background.
+
+This would be an 80-ish level result only if the microscopic physics and constraints had already survived.
+
+---
+
+# 73. Full-cycle control gate
+
+If the material force is switchable, one static ON-state force is insufficient for a practical system.
+
+Need:
+
+```text
+TURN ON
+
+HOLD
+
+TURN OFF
+
+RESET
+
+REPEAT
+```
+
+Track:
+
+```text
+WORK
+
+HEAT
+
+ENTROPY
+
+MOMENTUM
+
+RADIATION
+
+FIELD ENERGY
+
+CONTROL ENERGY
+
+HYSTERESIS LOSS
+
+MECHANICAL REACTION
+```
+
+Reject any architecture whose apparent useful force disappears when the complete cycle is included.
+
+The disformal branch demonstrated why transient reversal is not enough.
+
+---
+
+# 74. Practical scaling gate
+
+This is the decisive 80–90 transition.
+
+Need quantify:
+
+```text
+STORED ENERGY
+
+CONTINUOUS POWER
+
+PEAK POWER
+
+HEAT
+
+MASS OF CONTROL APPARATUS
+
+FIELD STRENGTH
+
+MATERIAL VOLUME
+
+PAYLOAD MASS
+
+ACCELERATION
+
+DUTY CYCLE
+```
+
+A useful scaling law should be derived.
+
+The project should seek something qualitatively better than:
+
+```math
+E
+\propto
+\frac{ah^2c^2}{G}.
+```
+
+For the stronger-interaction branch, the hope is that the relevant scale instead tracks microscopic interaction/control energies rather than gravitational rest-energy equivalence.
+
+That hope must be demonstrated quantitatively.
+
+---
+
+# 75. What would justify 85–90%
+
+Do not award ~85–90 merely because a microscopic fifth-force theory survives constraints.
+
+A theoretically practical candidate should satisfy something close to:
+
+```text
+COMPLETE MICROSCOPIC UV THEORY=
+YES
+
+TECHNICALLY NATURAL=
+YES
+
+EXPERIMENTAL LIMITS=
+PASS
+
+STELLAR / COSMOLOGY=
+PASS
+
+REAL MATERIAL=
+YES
+
+FINITE PAYLOAD OUTWARD RESPONSE=
+YES
+
+CONTROLLED SWITCHING=
+YES
+
+COMPLETE ENERGY / MOMENTUM ACCOUNTING=
+YES
+
+PRACTICAL ENERGY SCALING=
+YES
+
+PRACTICAL POWER=
+PLAUSIBLE
+
+HEAT MANAGEMENT=
+PLAUSIBLE
+
+ROBUST PARAMETER BASIN=
+YES
+
+NO FATAL FINE TUNING=
+YES
+```
+
+Only then should the internal ruler approach:
+
+```text
+85–90%
+```
+
+That would still not be a demonstrated antigravity device.
+
+---
+
+# 76. Why the fifth-force branch is currently the only plausible route to 85–90
+
+The GR branch demonstrated that repulsion is possible.
+
+It also demonstrated that gravitational-strength stress-energy is brutally expensive.
+
+Current GR field-level illustrative energy:
+
+```math
+3.86\times10^{30}\ {\rm J}.
+```
+
+The earlier low-energy material-control estimate was on the order of:
+
+```math
+10^8\ {\rm J}
+```
+
+for a 1000 kg benchmark.
+
+Those numbers do not yet refer to equivalent validated devices.
+
+But they show the strategic issue.
+
+A route whose relevant control scale remains microscopic/material has the potential for a qualitative scaling change.
+
+A pure GR stress-energy source does not presently have such a mechanism.
+
+Therefore:
+
+```text
+BEST ROUTE TO 85–90=
+PROTECTED STRONGER INTERACTION
+```
+
+unless new evidence changes the ranking.
+
+---
+
+# 77. What not to do next session
+
+Do not:
+
+```text
+REOPEN 018B WITH AN ARBITRARY POSITIVE BENDING TERM
+
+RUN FRAME DRAGGING FOR THE UNSTABLE 018B ARCHITECTURE
+
+RUN NONLINEAR EINSTEIN EQUATIONS FOR 018B
+
+REOPTIMIZE 018A OR 018B C COEFFICIENTS
+
+REOPEN THE LITERAL THERMAL O4 ROUTE
+
+REOPEN DIRECT SCALAR DENSITY MATERIAL COUPLING
+
+REOPEN PSEUDOSCALAR MATERIAL COUPLING
+
+RERUN MINIMAL KINETIC MIXING
+
+RERUN MINIMAL LOOP-SEEDED HIGGS BRIDGE
+
+TRY LARGE NON-ABELIAN REPRESENTATIONS BEFORE THE OPERATOR GATE
+
+USE A LARGE PARAMETER SCAN TO SUBSTITUTE FOR A SYMMETRY PROOF
+
+ASSUME THE 019B LEAKAGE MARGIN SURVIVES A NEW UV MODEL
+
+JUMP DIRECTLY TO EXPERIMENTAL DESIGN
+
+CALL 68% A PROBABILITY
+
+CALL 018B A STABLE ANTIGRAVITY FIELD
+
+CALL 019A A REAL ANTIGRAVITY MATERIAL
+```
+
+---
+
+# 78. Branch reopen conditions
+
+## 018B GR branch
+
+Only reopen if there is a concrete physically motivated mechanism for:
+
+```text
+POSITIVE MICROSCOPIC BENDING RIGIDITY
+
+OR
+
+REMOVAL OF M2 MODE
+
+OR
+
+A DIFFERENT TOPOLOGY
+```
+
+and its complete energy/stress is included.
+
+---
+
+## Disformal branch
+
+Only reopen if there is a concrete mechanism for:
+
+```text
+FULL-CYCLE POSITIVE FINITE-PAYLOAD IMPULSE
+
+AND
+
+TECHNICALLY NATURAL ORDINARY-MATTER COUPLING
+```
+
+---
+
+## Direct scalar endpoint
+
+Only reopen if a new exact symmetry forbids the one-body scalar counterterm.
+
+---
+
+# 79. Source / artifact hashes to preserve
+
+## 018B-1A
+
+```text
+SOURCE_SHA256=
+43a48f8b2cbe1cb66095095739a0dba5eba5549dc3e675eb9e46dbcec2c5a2ff
+```
+
+## 018B-1B
+
+```text
+SOURCE_SHA256=
+c18d61e1b74e5d90e2cdf2a7d66a09da1f05280539df353d01ae53d323ad41e0
+```
+
+Promoted field artifact:
+
+```text
+ARTIFACT_SHA256=
+5e4b88dc33e38e5e6faed73d84aafd41a99c3bad9c4ff78dd24d8db4b4f4da5c
+```
+
+## 018C-1
+
+```text
+SOURCE_SHA256=
+797c3bf1fddb1dd1219c812cddbdaacb7f70d708346ccf226825f2ffb09c9de6
+```
+
+## 018C-2
+
+```text
+SOURCE_SHA256=
+51e2e3cdf04d8d715839c8c7218a537874e85b9ba87f96ebf804c09d6cc89fc9
+```
+
+## 019A
+
+```text
+SOURCE_SHA256=
+27514c58298ccf9ecaa5543a3dc6d4368df7174ae2c55cb1a547adb922b756e7
+```
+
+## 019B
+
+```text
+SOURCE_SHA256=
+0812ced28d18a53297e7599d5b508eaff3b4377ebcf955e129c38e8ce2497e74
+```
+
+## 019C
+
+```text
+SOURCE_SHA256=
+dfc97a9b9563bdd7bd92b03b679f89e2f0ebfa20bca4e8f94ffdab7c7ea98514
+```
+
+Known-solution baseline throughout final runs:
+
+```text
+94 passed
+```
+
+---
+
+# 80. Durable claims ledger
+
+## Established / supported within stated scope
+
+```text
+006D_FINITE_POSITIVE_ENERGY_LINEARIZED_GR_REPULSION=
+ESTABLISHED_IN_PROJECT_SCOPE
+
+006D_NEC=
+PASS
+
+006D_WEC=
+PASS
+
+006D_DEC=
+PASS
+
+006D_POSITIVE_FAR_ACTIVE_MASS=
+PASS
+```
+
+```text
+018A_NONTHERMAL_KLS_STRING_WALL_TOPOLOGY=
+SUPPORTED
+
+018A_COUPLED_LOCAL_JUNCTION=
+SUPPORTED
+
+018A_ZERO_T_SUPPORT_BOOKKEEPING=
+SUPPORTED
+```
+
+```text
+018B_FULL_CURVED_FINITE_THICKNESS_MICROSCOPIC_FIELD_SOLUTION=
+SUPPORTED_WITHIN_SELECTED MODEL
+
+018B_COMPLETE_T_MUNU=
+SUPPORTED
+
+018B_FINITE_PAYLOAD_OUTWARD_LINEARIZED_GRAVITY=
+SUPPORTED
+
+018B_POSITIVE_ACTIVE_MASS=
+SUPPORTED
+```
+
+```text
+018C_FIXED_CHARGE_RADIAL_STABILITY=
+SUPPORTED
+```
+
+```text
+018C_FULL_FIELD_M2_NEGATIVE_HESSIAN_DIRECTION=
+SUPPORTED
+
+018C_CONSTRAINED_HESSIAN_NEGATIVE_EIGENVALUE=
+SUPPORTED_BY_RAYLEIGH_RITZ
+```
+
+```text
+019A_WILSON_LINE_NONLOCAL_PROTECTION=
+SUPPORTED_IN_TESTED MODEL
+
+019A_ULTRALIGHT_MASS_PREFLIGHT=
+PASS_IN_TESTED MESSENGER SECTOR
+```
+
+```text
+019B_ANOMALY_FREE_BARYON_LEPTON_CURRENT_COMPLETION=
+SUPPORTED
+```
+
+```text
+019B_VECTOR_CURRENT_ONE_BODY_MIXING_PREFLIGHT=
+PASS
+```
+
+```text
+019C_VECTOR_HIGGS_MEDIATOR_ALGEBRA=
+SUPPORTED
+```
+
+---
+
+# 81. Durable negative results
+
+```text
+017S_LITERAL_LOCALIZED_THERMAL O4=
+DEMOTED
+```
+
+```text
+018B TWO-CURRENT KLS WALL-RIM AS STABLE REALIZATION=
+REJECTED_BY M2 INSTABILITY
+```
+
+```text
+019B DIRECT SCALAR-DENSITY SM ENDPOINT=
+REJECTED BY ONE-BODY NATURALNESS
+```
+
+```text
+019B PSEUDOSCALAR ENDPOINT=
+REJECTED BY COHERENCE / PERTURBATIVITY
+```
+
+```text
+019C MINIMAL LOOP KINETIC-MIXING VECTOR PORTAL=
+REJECTED NONPERTURBATIVE
+```
+
+```text
+019C MINIMAL LOOP-SEEDED HIGGS VECTOR PORTAL=
+REJECTED BY RESPONSE / NATURALNESS BOUND
+```
+
+Do not erase these failures.
+
+---
+
+# 82. Claims that remain prohibited
+
+```text
+STABLE ANTIGRAVITY FIELD=
+ESTABLISHED
+```
+
+```text
+NONLINEAR GR ANTIGRAVITY=
+ESTABLISHED
+```
+
+```text
+REAL ANTIGRAVITY MATERIAL=
+ESTABLISHED
+```
+
+```text
+EXPERIMENTALLY ALLOWED 5-KM ANTIGRAVITY FORCE=
+ESTABLISHED
+```
+
+```text
+PRACTICAL ANTIGRAVITY DEVICE=
+ESTABLISHED
+```
+
+```text
+REACTIONLESS PROPULSION=
+ESTABLISHED
+```
+
+```text
+NEW PHYSICS DISCOVERY=
+ESTABLISHED
+```
+
+```text
+NOVELTY=
+ESTABLISHED
+```
+
+---
+
+# 83. Literature anchors for next session
+
+## Two-current string
+
+```text
+Marc Lilley
+Xavier Martin
+Patrick Peter
+
+Coupled currents in cosmic strings
+Phys. Rev. D 79, 103514 (2009)
+arXiv:0903.4328
+```
+
+## Theory-space protection
+
+```text
+Nima Arkani-Hamed
+Andrew G. Cohen
+Howard Georgi
+
+Electroweak symmetry breaking from dimensional deconstruction
+Phys. Lett. B 513, 232–240 (2001)
+arXiv:hep-ph/0105239
+```
+
+## Collective symmetry / minimal moose
+
+```text
+N. Arkani-Hamed
+A. G. Cohen
+T. Gregoire
+E. Katz
+A. E. Nelson
+J. G. Wacker
+
+The Minimal Moose for a Little Higgs
+arXiv:hep-ph/0206020
+```
+
+## Wilson-line gauge symmetry
+
+```text
+Yutaka Hosotani
+
+Dynamical Gauge Symmetry Breaking by Wilson Lines
+arXiv:hep-ph/0504272
+```
+
+## Recent renormalizable deconstructed Wilson/pNGB example
+
+```text
+Shihwen Hor
+Yuichiro Nakai
+Motoo Suzuki
+Junxuan Xu
+
+Deconstructing the Extra-Dimensional Axion
+arXiv:2606.02728
+```
+
+## Anomaly-free B/L currents
+
+```text
+Michael Duerr
+Pavel Fileviez Perez
+Mark B. Wise
+
+Gauge Theory for Baryon and Lepton Numbers with Leptoquarks
+arXiv:1304.0576
+```
+
+## Vector-current renormalization caveat
+
+```text
+John Collins
+Aneesh Manohar
+Mark Wise
+
+Renormalization of the Vector Current in QED
+hep-th/0512187
+```
+
+These papers motivate the candidate mechanism.
+
+None establishes the project's target force.
+
+---
+
+# 84. Recommended exact first-session workflow next time
+
+1. Read this carry-over note.
+2. Read the new 018A–019C journal.
+3. Read `RESEARCH_BUILDPLAN.md`.
+4. Read `FORMATTING_AND_CODE_STANDARDS.md`.
+5. Inspect latest codebundle.
+6. Run:
+
+```text
+git status --short
+```
+
+7. Reconfirm:
+
+```text
+94 passed
+```
+
+8. State the one active question:
+
+```text
+CAN_A_COLLECTIVELY_PROTECTED_TREE_LEVEL
+WILSON_TO_VECTOR_MASS_SEED
+REPRODUCE C_PHI
+WITHOUT DESTABILIZING M_PHI
+OR GENERATING ONE-BODY LEAKAGE
+```
+
+9. Perform literature/operator reconstruction.
+10. Derive candidate gauge groups and representations.
+11. Do analytic spurion test.
+12. Only if it survives, write `020A`.
+13. Only if `020A` is green, move to exact experimental constraints.
+
+---
+
+# 85. 020A computational strategy
+
+The best compute allocation is:
+
+```text
+PHASE 1:
+SYMBOLIC OPERATOR ENUMERATION
+
+PHASE 2:
+EXACT MASS-MATRIX ALGEBRA
+
+PHASE 3:
+HIGH-PRECISION WILSON / PNGB POTENTIAL
+
+PHASE 4:
+ONE-BODY OPERATOR MATCHING
+
+PHASE 5:
+PARAMETER BOUNDS
+
+PHASE 6:
+ROBUST BASIN
+```
+
+Do not start with Monte Carlo.
+
+The main risk is structural, not numerical.
+
+---
+
+# 86. Independent reconstruction requirement for 020A
+
+Any positive candidate must be reconstructed at least two ways.
+
+Examples:
+
+```text
+MASS MATRIX:
+DIRECT SYMBOLIC INVERSION
+
+VERSUS
+
+SCHUR COMPLEMENT / EIGENBASIS
+```
+
+```text
+WILSON POTENTIAL:
+MASS EIGENVALUE SUM
+
+VERSUS
+
+DETERMINANT / TRACE REPRESENTATION
+```
+
+```text
+C_PHI:
+FINITE DIFFERENCE IN THETA
+
+VERSUS
+
+ANALYTIC MATRIX DERIVATIVE
+```
+
+```text
+ONE-BODY COUPLINGS:
+DIAGRAMMATIC MATCH
+
+VERSUS
+
+BACKGROUND-FIELD DERIVATIVE
+```
+
+Do not promote from one implementation.
+
+---
+
+# 87. Recommended 020A robustness requirements
+
+For a positive nominal point, test:
+
+```text
+COUPLINGS:
+±10%
+
+MASS RATIOS:
+±10%
+
+LINK VEvs:
+±10%
+
+EARTH BACKGROUND:
+±10%
+
+MATERIAL MATRIX ELEMENT:
+±10%
+```
+
+Require a broad pass region.
+
+Do not promote a point sitting on:
+
+```text
+PERTURBATIVITY BOUNDARY
+
+EFT CUTOFF BOUNDARY
+
+THETA_EARTH BOUNDARY
+
+LEAKAGE BOUNDARY
+
+MASS-NATURALNESS BOUNDARY
+```
+
+---
+
+# 88. If 020A collective tree-level route fails
+
+Do not immediately conclude the protected fifth-force branch is impossible.
+
+Proceed to one explicitly defined backup:
+
+```text
+020A2_NONABELIAN_CHARGED_VECTOR_WILSON_OPERATOR_GATE
+```
+
+Question:
+
+> Can a non-Abelian Wilson / gauge-Higgs system make the heavy vector mass matrix depend on the Wilson phase at a lower order than the failed Abelian loop mechanisms?
+
+Use:
+
+```text
+SU(2)
+FIRST
+
+SU(3)
+SECOND
+```
+
+and require small representations.
+
+If the required enhancement is only from ordinary loop group factors, demote early.
+
+The point of the non-Abelian route must be structural.
+
+---
+
+# 89. If both collective tree-level and non-Abelian routes fail
+
+Then the protected vector-current route will have lost its two best remaining UV mechanisms.
+
+At that point:
+
+```text
+DO NOT ADD LARGE AD HOC QUIVERS
+```
+
+Rerank.
+
+Recommended rerank:
+
+```text
+1.
+SEARCH FOR AN ALREADY-KNOWN STABLE SOLITON TOPOLOGY
+WITH INTRINSIC POSITIVE BENDING STIFFNESS
+FOR GR REALIZATION
+
+2.
+REASSESS DISFORMAL ONLY IF A FULL-CYCLE MECHANISM EXISTS
+
+3.
+CONSIDER SUPERSYMMETRIC / STRONGLY COUPLED WILSON PROTECTION
+ONLY IF A SPECIFIC LITERATURE MODEL PROVIDES THE NEEDED STRUCTURE
+
+4.
+KEEP GENERIC MODIFIED GR LOW PRIORITY
+```
+
+Failure of 020A would make the 85–90 goal materially harder.
+
+---
+
+# 90. Most important conceptual distinction at session close
+
+The project has **not** fallen apart.
+
+The scientific state is:
+
+```text
+REPULSIVE GRAVITY IN THE EQUATIONS=
+YES
+
+FINITE POSITIVE-ENERGY GR SOURCE=
+YES
+
+MICROSCOPIC FIELD REALIZATION=
+YES FOR ONE MODEL
+
+FINITE-PAYLOAD OUTWARD GRAVITY=
+YES FOR THAT MODEL
+
+STABILITY=
+NO FOR THAT MODEL
+
+PRACTICAL ENERGY=
+NO FOR GR ROUTE
+
+PROTECTED STRONGER-INTERACTION LOW-ENERGY SURVIVOR=
+YES
+
+PROTECTED MICROSCOPIC THEORY-SPACE WITNESS=
+YES
+
+REAL-MATTER VECTOR CURRENT ENDPOINT=
+YES AT EFT LEVEL
+
+COMPLETE UV PORTAL=
+NOT YET
+
+PRACTICAL DEVICE=
+NO
+```
+
+We have learned exactly where the frontiers are.
+
+---
+
+# 91. Why 68% is legitimately retained
+
+The project previously lacked an actual microscopic source satisfying its own equations.
+
+018B closed that gap.
+
+018C did not show that 018B was numerically fake.
+
+It showed that the realized state is unstable.
+
+Therefore the knowledge gained is cumulative:
+
+```text
+CAN SUCH A MICROSCOPIC FIELD SOURCE EXIST?
+YES
+
+IS THIS ONE STABLE?
+NO
+```
+
+Both answers are valuable.
+
+Reducing the heuristic would confuse:
+
+```text
+KNOWLEDGE PROGRESS
+```
+
+with:
+
+```text
+MATURITY OF ONE ARCHITECTURE.
+```
+
+Keep:
+
+```text
+68%
+```
+
+with the correct label.
+
+---
+
+# 92. How the next victory should be defined
+
+The next major victory is **not** another parameter improvement.
+
+The next major victory should be:
+
+> **An explicit renormalizable, anomaly-free, perturbative, collectively protected Wilson/vector microscopic theory that reproduces the required material pair coefficient, preserves the ultralight scalar mass, keeps every new state above the material EFT cutoff, and suppresses all one-body ordinary-matter couplings without tuning.**
+
+That would be qualitatively stronger than 019A.
+
+It would convert:
+
+```text
+THEORY-SPACE WITNESS
+```
+
+into:
+
+```text
+COMPLETE MICROSCOPIC MATERIAL-PORTAL WITNESS.
+```
+
+That is the result that can legitimately carry the project through approximately 70%.
+
+---
+
+# 93. Path from 70 toward 80
+
+If 020A is green:
+
+```text
+70–72:
+COMPLETE PORTAL
+
+72–74:
+FULL OPERATOR MIXING
++
+EXACT 5-KM EXPERIMENTAL BOUND
+
+74–77:
+STELLAR / COSMOLOGY
+
+77–80:
+REAL MATERIAL MATCH
++
+MACROSCOPIC FINITE-PAYLOAD RESPONSE
+```
+
+The exact percentages remain heuristic and should be adjusted only after seeing the physical strength of each result.
+
+---
+
+# 94. Path from 80 toward 85–90
+
+The final theoretical-practical climb requires:
+
+```text
+REAL SOURCE MATERIAL
+
+REAL CONTROL PROCESS
+
+REAL PAYLOAD
+
+FINITE SOURCE GEOMETRY
+
+COMPLETE APPARATUS
+
+FULL MOMENTUM ACCOUNTING
+
+FULL THERMAL ACCOUNTING
+
+PRACTICAL ENERGY
+
+PRACTICAL POWER
+
+PRACTICAL HEAT
+
+ROBUST REPEATABILITY
+```
+
+A force that exists but costs:
+
+```text
+1e20 J
+```
+
+is not an 85–90% practical candidate.
+
+A practical scaling breakthrough must remove many orders of magnitude.
+
+That is why the low-energy material-control route matters so much.
+
+---
+
+# 95. What 85–90% would actually mean
+
+If reached honestly, ~85–90% would permit a statement approximately like:
+
+> **A complete theoretically consistent microscopic model exists in which known or plausibly synthesizable matter can be placed into a controlled state that produces an outward finite-payload force of useful magnitude; the mechanism survives the relevant laboratory, fifth-force, stellar, and cosmological constraints; a complete source/payload/control simulation closes energy and momentum accounting; and the estimated stored energy, power, and heat are in an engineering-relevant rather than astronomical regime.**
+
+It would **not** yet mean:
+
+```text
+DEVICE DEMONSTRATED
+```
+
+or:
+
+```text
+NEW FORCE DISCOVERED.
+```
+
+Those would require experiment and independent replication.
+
+---
+
+# 96. Current shortest-path decision tree
+
+```text
+START:
+68%
+
+|
+v
+
+020A
+COLLECTIVE TREE-LEVEL WILSON VECTOR SEED
+
+|
++-- FUNDAMENTAL RED
+|      |
+|      v
+|   020A2
+|   NON-ABELIAN CHARGED-VECTOR WILSON GATE
+|      |
+|      +-- RED
+|      |    |
+|      |    v
+|      |  GLOBAL RERANK
+|      |
+|      +-- GREEN
+|           |
+|           v
+|         70–72
+|
++-- GREEN
+       |
+       v
+     70–72
+
+       |
+       v
+
+020B
+FULL ONE-BODY MIXING
++
+EXACT 5-KM EXPERIMENTAL BOUND
+
+       |
+       +-- RED
+       |     |
+       |     v
+       |   DEMOTE
+       |
+       +-- GREEN
+             |
+             v
+           72–75
+
+             |
+             v
+
+020C
+STELLAR / COSMOLOGY
++
+REAL MATERIAL MICROSCOPIC MATCH
+
+             |
+             +-- RED
+             |     |
+             |     v
+             |   DEMOTE
+             |
+             +-- GREEN
+                   |
+                   v
+                 76–80
+
+                   |
+                   v
+
+020D
+FINITE-PAYLOAD DEVICE SIMULATION
++
+FULL CONTROL CYCLE
++
+MOMENTUM ACCOUNTING
+
+                   |
+                   v
+                 80–85
+
+                   |
+                   v
+
+020E
+PRACTICAL ENERGY / POWER / HEAT
++
+ROBUST PARAMETER BASIN
+
+                   |
+                   +-- CATASTROPHIC
+                   |     |
+                   |     v
+                   |   NOT PRACTICAL
+                   |
+                   +-- ENGINEERING-RELEVANT
+                         |
+                         v
+
+                       85–90%
+```
+
+---
+
+# 97. Best possible next-session opening sentence
+
+> **The project is at approximately the 68% internal knowledge milestone: it has a preserved full microscopic finite-payload repulsive linearized-GR field-existence result whose specific realization was directly falsified by an $m=2$ stability mode, while the highest-ranked practicality route is now an anomaly-free baryon/lepton vector-current fifth-force architecture with demonstrated Wilson-line protection and healthy heavy-vector mediator algebra but no complete protected Wilson-to-vector UV seed; the immediate task is therefore to test whether a minimal collective theory-space interaction can generate that seed at tree level while each individual spurion preserves the ultralight Wilson/pNGB symmetry.**
+
+---
+
+# 98. One-sentence warning
+
+> **Do not spend the next session optimizing numbers until the collective symmetry/operator structure has been proven possible; the present bottleneck is structural and a symbolic no-go theorem would be more valuable than a million-point scan.**
+
+---
+
+# 99. One-sentence shortest path to the goal
+
+> **The shortest credible path from the retained ~68% milestone toward 85–90% is to remove the single remaining loop-factor-sized UV response deficit using a genuinely collective protected Wilson-to-vector interaction, then immediately force that completed portal through one-body mixing, present fifth-force bounds, stellar/cosmological constraints, real-material matching, finite-payload control-cycle dynamics, and finally practical energy/power/heat scaling, stopping and reranking at the first fundamental failure rather than protecting any branch with additional arbitrary sectors.**
+
+---
+
+# 100. Final state block
+
+```text
+DATE=
+2026-08-30
+
+REGRESSION_BASELINE=
+94_PASSED
+
+CURRENT_KNOWLEDGE_HEURISTIC=
+APPROXIMATELY_68_PERCENT_NOT_A_PROBABILITY
+
+006D_LINEARIZED_GR_CONSTRUCTION=
+PRESERVED
+
+006D_C_FINITE=
+23.591586299249
+
+018A_NONTHERMAL_KLS_TOPOLOGY=
+PASS
+
+018A_ROBUSTNESS=
+2187_OF_2187
+
+018B_GLOBAL_MICROSCOPIC_FIELD_SOLUTION=
+PASS
+
+018B_COMPLETE_T_MUNU=
+PASS
+
+018B_POSITIVE_ACTIVE_MASS=
+PASS
+
+018B_FINITE_PAYLOAD_OUTWARD_GRAVITY=
+PASS
+
+018B_FIELD_LEVEL_C=
+292.5922543912093
+
+018B_1G_1M_PROJECTED_ENERGY=
+3.86384043374e30_J
+
+018B_EXISTENCE_RESULT=
+RETAINED
+
+018C_FIXED_CHARGE_RADIAL_STABILITY=
+PASS
+
+018C_FULL_FIELD_M2_INSTABILITY=
+CONFIRMED
+
+018C_NEGATIVE_CONSTRAINED_HESSIAN_EIGENVALUE=
+YES_BY_RAYLEIGH_RITZ
+
+018B_TWO_CURRENT_KLS_ARCHITECTURE=
+DEMOTED_FOR_STABILITY
+
+STABLE_GR_FIELD_CANDIDATE=
+NO
+
+019A_WILSON_LINE_PROTECTION=
+PASS
+
+019A_PAIR_MATCH=
+PASS
+
+019A_MICROSCOPIC_BASIN=
+56_OF_840
+
+019A_LOCAL_ROBUSTNESS=
+9_OF_9
+
+019B_ANOMALY_FREE_BARYON_LEPTON_CURRENTS=
+PASS
+
+019B_DIRECT_SCALAR_ENDPOINT=
+REJECTED
+
+019B_PSEUDOSCALAR_ENDPOINT=
+REJECTED
+
+019B_VECTOR_CURRENT_ESCAPE=
+SUPPORTED_AT_RELATIVISTIC_EFT_LEVEL
+
+019B_VECTOR_MIXING_PREFLIGHT_MARGIN=
+1.92705e4
+
+019C_KINETIC_MIXING_PORTAL=
+REJECTED_NONPERTURBATIVE
+
+019C_VECTOR_HIGGS_MEDIATOR_ALGEBRA=
+PASS
+
+019C_MINIMAL_LOOP_WILSON_SEED=
+REJECTED
+
+019C_2X_EFT_TARGET_DEFICIT=
+130.068X
+
+KEY_NEW_STRATEGIC_OBSERVATION=
+DEFICIT_IS_OF_ORDER_ONE_STANDARD_LOOP_FACTOR
+
+ACTIVE_NEXT_FRONTIER=
+COLLECTIVE_TREE_LEVEL_WILSON_TO_VECTOR_SEED
+
+BACKUP_FRONTIER=
+NONABELIAN_CHARGED_VECTOR_WILSON_PORTAL
+
+NEXT_GATE=
+020A_COLLECTIVE_WILSON_VECTOR_SEED_OPERATOR_AND_NATURALNESS_GATE
+
+PRACTICAL_ANTIGRAVITY_DEVICE=
+NO
+
+REAL_ANTIGRAVITY_MATERIAL=
+NO
+
+NEW_PHYSICS_DISCOVERY=
+NO
+
+NOVELTY=
+NOT_ESTABLISHED
+```
+
+---
+
+# 101. Final recommendation
+
+The project should now concentrate nearly all near-term research effort on one question:
+
+```text
+CAN WE OBTAIN THE NEEDED VECTOR-MASS RESPONSE
+AT COLLECTIVE TREE LEVEL
+WHILE KEEPING THE WILSON / PNGB MASS PROTECTED?
+```
+
+The reason is quantitative, not merely aesthetic.
+
+The existing vector mediator already works.
+
+The existing material currents already work at leading preflight.
+
+The existing Wilson protection already works.
+
+The minimal loop seed is short by approximately the size of one loop factor.
+
+Therefore the most economical possible solution is to change **the perturbative order of the desired response**, not to continue multiplying fields and couplings inside the same failed loop mechanism.
+
+If an exact collective-symmetry construction exists, it could potentially close the current microscopic gap in one conceptual step.
+
+If it does not exist, proving that cheaply will tell the project to stop investing in this protection class and rerank.
+
+That makes 020A the highest-information and shortest plausible next action.
+
+### END SESSION CARRY-OVER — AUGUST 30, 2026
+
+
+### END NOTE - AUGUST 30 2026 - 22:00 CST

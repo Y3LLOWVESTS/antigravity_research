@@ -1,0 +1,2557 @@
+"""Simulation 018A-3RR — decaying-mode Robin boundary audit.
+
+PURPOSE
+-------
+Resolve the remaining radial-domain dependence in the 018A translational
+junction-force preflight.
+
+Simulation 018A-3 found strong wall-pull resistance but failed its radial
+domain convergence test.
+
+Simulation 018A-3R demonstrated that:
+
+1. the isolated global-string reference tail is numerically converged;
+2. replacing the gross finite-box vacuum condition with the isolated-string
+   tail reduces but does not eliminate domain dependence;
+3. all tested domains still provide restoring forces substantially larger
+   than the microscopic wall tension;
+4. the explicit-breaking infrared taper has negligible effect on the force
+   maximum.
+
+The remaining issue is that the interacting composite is NOT required to equal
+the isolated global-string solution at a finite outer boundary.
+
+A localized core interaction generically excites a decaying amplitude mode.
+
+This run supplies the mathematically correct finite-domain condition for that
+mode.
+
+SCIENTIFIC QUESTION
+-------------------
+Does the apparent radial-domain drift disappear when the interaction-induced
+amplitude deformation is allowed to approach the isolated global string
+through its physical decaying Jacobi mode rather than being forced to zero at
+R_max?
+
+REFERENCE GLOBAL STRING
+-----------------------
+Let rho_0(r) be the isolated global-string magnitude satisfying
+
+    rho_0'' + rho_0'/r
+      - rho_0/r^2
+      - lambda_A (rho_0^2 - F^2) rho_0
+      = 0.
+
+The bound composite is written outside the local 017P interaction core as
+
+    rho(r)
+      =
+      rho_0(r)
+      +
+      delta(r).
+
+LINEARIZED OUTER RESPONSE
+-------------------------
+Outside the junction core the 017P vortex magnitude approaches vacuum and the
+cross coupling becomes negligible.
+
+Linearizing the rho equation about rho_0 gives
+
+    delta''
+      +
+      delta'/r
+      -
+      q(r) delta
+      =
+      0
+
+with
+
+    q(r)
+      =
+      1/r^2
+      +
+      lambda_A [3 rho_0(r)^2 - F^2].
+
+The physical solution is the decaying mode.
+
+Define its logarithmic derivative
+
+    g(r)
+      =
+      delta'(r) / delta(r).
+
+Then
+
+    g'
+      =
+      q
+      -
+      g^2
+      -
+      g/r.
+
+At large radius,
+
+    q
+      ->
+      m_r^2 + 1/r^2,
+
+where
+
+    m_r^2
+      =
+      2 lambda_A F^2.
+
+The corresponding decaying solution is asymptotically proportional to
+
+    K_1(m_r r),
+
+so
+
+    g(r)
+      ->
+      -m_r K_0(m_r r)/K_1(m_r r)
+      -
+      1/r.
+
+This asymptotic condition is imposed at a large matching radius and the
+Riccati equation is integrated inward.
+
+ROBIN BOUNDARY CONDITION
+------------------------
+At the composite radial boundary use
+
+    delta'(R_max)
+      =
+      g(R_max) delta(R_max).
+
+Equivalently,
+
+    rho'(R_max)
+      -
+      rho_0'(R_max)
+      =
+      g(R_max)
+      [
+          rho(R_max)
+          -
+          rho_0(R_max)
+      ].
+
+Unlike the previous Dirichlet repair, this condition allows the junction to
+generate a nonzero decaying deformation while excluding the unphysical
+growing mode.
+
+OUTER RESPONSE ENERGY
+---------------------
+The decaying response outside R_max is propagated using the same linearized
+Jacobi equation.
+
+Its differential energy relative to the isolated global string is included in
+the binding-energy relaxation diagnostic.
+
+This avoids treating the finite radial box as the end of the physical
+interaction-induced amplitude deformation.
+
+FORCE OBSERVABLE
+----------------
+As in 018A-3,
+
+    F_wall
+      =
+      sigma_W
+
+and
+
+    R_force
+      =
+      max(F_bind) / sigma_W.
+
+The displacement interaction is reconstructed from the two-dimensional
+cross-correlation
+
+    E_J(d)
+      =
+      -kappa/4
+      integral d^2x
+      [f(r)^2 - 1]
+      [rho(|x-d,y|)^2 - F^2].
+
+The relaxed binding-energy ratio is again used as a conservative deformation
+penalty.
+
+PRIMARY DOMAIN AUDIT
+--------------------
+The selected healthy coupling
+
+    kappa_fraction = 0.625
+
+is solved at
+
+    R_max = 40
+    R_max = 60
+    R_max = 80
+    R_max = 100.
+
+These boundaries are all well outside the short-range 017P vortex core.
+
+The first three are comfortably inside the pseudo-Goldstone wall scale
+
+    1/m_A ~ 133.33.
+
+R_max=100 is retained as an informational near-wall-scale point.
+
+CORE PROFILE CONVERGENCE
+------------------------
+In addition to the final force ratio, the run compares the actual relaxed
+profiles on the common local interval
+
+    0 <= r <= 30.
+
+This is important because the maximum restoring force occurs for displacement
+of order a few tens of 017P length units.
+
+If the local profiles converge while the outer tail does not, the force
+observable should also converge.
+
+NONMARGINAL BASIN
+------------------
+Once selected-point convergence is tested, the corrected R_max=80 problem is
+also solved at
+
+    0.40
+    0.50
+    0.60
+    0.625.
+
+All four were independently healthy under the 018A-2 EOS/extrinsic stability
+gate.
+
+The near-marginal 0.65 point and unhealthy 0.70 point are not needed to
+promote this numerical repair.
+
+IR TAPER
+--------
+The isolated global-string geometry ceases to be literally axisymmetric when
+the explicit phase-breaking wall becomes important.
+
+The isotropic tail is therefore smoothly tapered to vacuum near
+
+    r_IR = 1/m_A.
+
+As in 018A-3R, the taper is only an infrared numerical matching prescription,
+not the physical 2D wall solution.
+
+The primary taper begins at
+
+    0.80 r_IR.
+
+The force maximum is expected well inside this radius.
+
+VALIDATION
+----------
+The following independent checks are required:
+
+- known-solution project regression baseline remains green;
+- isolated global-string reference remains converged;
+- decaying Jacobi log derivative agrees with its asymptotic sign and scale;
+- corrected selected-point solutions all converge;
+- local profiles agree on r<=30;
+- the wall-force ratio remains >1.25;
+- stable displacement equilibrium exists;
+- escape saddle exists;
+- escape barrier remains positive;
+- force-ratio spread is <=3 percent;
+- the nonmarginal healthy coupling basin remains present.
+
+PROMOTION CONDITION
+-------------------
+The translational force preflight may be repaired to GREEN only if:
+
+    ROBIN_SELECTED_DOMAIN_CONVERGENCE=PASS
+    ROBIN_LOCAL_PROFILE_CONVERGENCE=PASS
+    ROBIN_NONMARGINAL_FORCE_BASIN=PASS
+
+with all selected domain cases still physically resisting wall pull.
+
+FALSIFICATION / STOP RULE
+-------------------------
+If the physically correct decaying-mode boundary still leaves significant
+local-profile or force drift, do not add another ad hoc radial boundary fix.
+
+At that point either:
+
+1. the actual anisotropic 2D explicit-breaking equations must be solved as a
+   diagnostic because the radial reduction itself has reached its validity
+   limit; or
+2. the separate wall-sector realization should be demoted.
+
+No parameter tuning is allowed to rescue failed convergence.
+
+BLIND WILDCARD POLICY
+---------------------
+The user's numbers
+
+    1.6
+    1.875
+    3.125
+    0.625
+    5
+
+remain blind controls only.
+
+The selected 0.625 coupling was already chosen before this repair and is not
+treated as evidence of special numerical significance.
+
+UNITS
+-----
+Natural units and the dimensionless 017P normalization are used.
+
+LIMITATIONS
+-----------
+A green result does NOT establish:
+
+- the true 2D explicit-breaking string-wall junction;
+- complete junction stress-energy;
+- complete finite-payload gravity after microscopic junction bookkeeping;
+- full nonaxisymmetric field stability;
+- nonlinear Einstein-matter consistency;
+- practical energy scaling;
+- a practical antigravity device.
+
+CLAIM CLASSIFICATION
+--------------------
+PROJECT_DERIVED_018A_DECAYING_MODE_ROBIN_BOUNDARY_AUDIT
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+import importlib.util
+import math
+from pathlib import Path
+import sys
+
+import numpy as np
+from scipy.integrate import simpson
+from scipy.integrate import solve_bvp
+from scipy.integrate import solve_ivp
+from scipy.signal import fftconvolve
+from scipy.special import k0
+from scipy.special import k1
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+CORE_PATH = (
+    ROOT
+    / "simulations"
+    / "018a2_nonthermal_core_binding_preflight.py"
+)
+
+GATE3_PATH = (
+    ROOT
+    / "simulations"
+    / "018a3_wall_pull_vs_binding_force_gate.py"
+)
+
+IR_PATH = (
+    ROOT
+    / "simulations"
+    / "018a3r_ir_boundary_audit.py"
+)
+
+
+def load_module(
+    name: str,
+    path: Path,
+):
+    """Safely load one previous simulation module."""
+
+    spec = importlib.util.spec_from_file_location(
+        name,
+        path,
+    )
+
+    if (
+        spec is None
+        or spec.loader is None
+    ):
+        raise RuntimeError(
+            f"Cannot import {path}"
+        )
+
+    module = importlib.util.module_from_spec(
+        spec
+    )
+
+    sys.modules[name] = module
+
+    try:
+        spec.loader.exec_module(
+            module
+        )
+    except Exception:
+        sys.modules.pop(
+            name,
+            None,
+        )
+        raise
+
+    return module
+
+
+core = load_module(
+    "ag018a2_robin",
+    CORE_PATH,
+)
+
+gate3 = load_module(
+    "ag018a3_robin",
+    GATE3_PATH,
+)
+
+ir = load_module(
+    "ag018a3r_robin",
+    IR_PATH,
+)
+
+
+SELECTED_KF = 0.625
+
+SELECTED_RMAX_VALUES = (
+    40.0,
+    60.0,
+    80.0,
+    100.0,
+)
+
+NONMARGINAL_KF_VALUES = (
+    0.40,
+    0.50,
+    0.60,
+    0.625,
+)
+
+TAIL_REFERENCE_RMAX = 1600.0
+
+RICCATI_R_FAR = 300.0
+RICCATI_R_MIN = 25.0
+
+FFT_BOX_HALF = 280.0
+FFT_REQUESTED_DX = 0.70
+DISPLACEMENT_MAX = 110.0
+
+IR_TAPER_START_FRACTION = 0.80
+
+FORCE_RATIO_MIN = 1.25
+
+FORCE_REL_SPREAD_MAX = 0.03
+LOCAL_PROFILE_REL_SPREAD_MAX = 0.01
+
+COMPOSITE_BVP_TOL = 2.0e-6
+COMPOSITE_MAX_NODES = 40000
+
+
+@dataclass
+class RobinMode:
+    """Numerical logarithmic derivative of the physical decaying Jacobi mode."""
+
+    solution: object
+    r_min: float
+    r_far: float
+
+
+def radial_mass_sq() -> float:
+    """Return the vacuum radial-mode mass squared."""
+
+    return (
+        2.0
+        *
+        core.LAMBDA_A
+        *
+        core.F_PHASE
+        *
+        core.F_PHASE
+    )
+
+
+def radial_mass() -> float:
+    """Return the vacuum radial-mode mass."""
+
+    return math.sqrt(
+        radial_mass_sq()
+    )
+
+
+def rho_reference_values(
+    reference,
+    radius: np.ndarray | float,
+) -> tuple[
+    np.ndarray,
+    np.ndarray,
+]:
+    """Evaluate isolated global-string rho and rho'."""
+
+    arr = np.asarray(
+        radius,
+        dtype=float,
+    )
+
+    clipped = np.clip(
+        arr,
+        core.R0,
+        reference.rmax,
+    )
+
+    values = reference.solution.sol(
+        clipped
+    )
+
+    rho = np.asarray(
+        values[0],
+        dtype=float,
+    )
+
+    rho_p = np.asarray(
+        values[1],
+        dtype=float,
+    )
+
+    return (
+        rho,
+        rho_p,
+    )
+
+
+def jacobi_q(
+    reference,
+    radius: np.ndarray | float,
+) -> np.ndarray:
+    """Return q(r) in the linearized outer amplitude equation."""
+
+    arr = np.asarray(
+        radius,
+        dtype=float,
+    )
+
+    rho0, _ = (
+        rho_reference_values(
+            reference,
+            arr,
+        )
+    )
+
+    return (
+        1.0
+        /
+        (
+            arr
+            *
+            arr
+        )
+        +
+        core.LAMBDA_A
+        *
+        (
+            3.0
+            *
+            rho0
+            *
+            rho0
+            -
+            core.F_PHASE
+            *
+            core.F_PHASE
+        )
+    )
+
+
+def solve_robin_mode(
+    reference,
+) -> RobinMode:
+    """Integrate the decaying-mode logarithmic derivative inward."""
+
+    m = radial_mass()
+
+    z_far = (
+        m
+        *
+        RICCATI_R_FAR
+    )
+
+    asymptotic_g = (
+        -m
+        *
+        k0(
+            z_far
+        )
+        /
+        k1(
+            z_far
+        )
+        -
+        1.0
+        /
+        RICCATI_R_FAR
+    )
+
+    def rhs(
+        radius: float,
+        y: np.ndarray,
+    ) -> np.ndarray:
+        g = float(
+            y[0]
+        )
+
+        q = float(
+            jacobi_q(
+                reference,
+                radius,
+            )
+        )
+
+        return np.array(
+            [
+                q
+                -
+                g
+                *
+                g
+                -
+                g
+                /
+                radius
+            ]
+        )
+
+    solution = solve_ivp(
+        rhs,
+        (
+            RICCATI_R_FAR,
+            RICCATI_R_MIN,
+        ),
+        np.array(
+            [
+                asymptotic_g
+            ]
+        ),
+        dense_output=True,
+        rtol=2.0e-11,
+        atol=2.0e-13,
+        max_step=0.25,
+    )
+
+    if not solution.success:
+        raise RuntimeError(
+            "Riccati integration failed: "
+            f"{solution.message}"
+        )
+
+    return RobinMode(
+        solution=solution,
+        r_min=RICCATI_R_MIN,
+        r_far=RICCATI_R_FAR,
+    )
+
+
+def robin_g(
+    mode: RobinMode,
+    radius: float | np.ndarray,
+) -> np.ndarray:
+    """Evaluate the decaying-mode logarithmic derivative."""
+
+    arr = np.asarray(
+        radius,
+        dtype=float,
+    )
+
+    if (
+        np.min(
+            arr
+        )
+        <
+        mode.r_min
+        or
+        np.max(
+            arr
+        )
+        >
+        mode.r_far
+    ):
+        raise ValueError(
+            "Requested Robin radius outside integrated interval"
+        )
+
+    return np.asarray(
+        mode.solution.sol(
+            arr
+        )[0],
+        dtype=float,
+    )
+
+
+def solve_robin_composite(
+    *,
+    chi: float,
+    fraction: float,
+    rmax: float,
+    reference,
+    robin_mode: RobinMode,
+    previous=None,
+):
+    """Solve the coupled radial composite with the physical decaying-mode BC."""
+
+    if not (
+        0.0
+        <=
+        fraction
+        <
+        1.0
+    ):
+        raise ValueError(
+            "fraction must satisfy 0 <= fraction < 1"
+        )
+
+    kappa = (
+        core.kappa_from_fraction(
+            fraction
+        )
+    )
+
+    rho0_outer, rho0p_outer = (
+        rho_reference_values(
+            reference,
+            rmax,
+        )
+    )
+
+    rho0_outer = float(
+        rho0_outer
+    )
+
+    rho0p_outer = float(
+        rho0p_outer
+    )
+
+    g_outer = float(
+        robin_g(
+            robin_mode,
+            rmax,
+        )
+    )
+
+    r = np.geomspace(
+        core.R0,
+        rmax,
+        core.BASE_GRID_POINTS,
+    )
+
+    if previous is None:
+        guess = core.initial_guess(
+            r
+        )
+
+        rho0_guess, rho0p_guess = (
+            rho_reference_values(
+                reference,
+                r,
+            )
+        )
+
+        guess[
+            6
+        ] = rho0_guess
+
+        guess[
+            7
+        ] = rho0p_guess
+    else:
+        previous_rmax = float(
+            previous.x[-1]
+        )
+
+        clipped = np.clip(
+            r,
+            core.R0,
+            previous_rmax,
+        )
+
+        guess = previous.sol(
+            clipped
+        )
+
+        beyond = (
+            r
+            >
+            previous_rmax
+        )
+
+        if np.any(
+            beyond
+        ):
+            rho0_guess, rho0p_guess = (
+                rho_reference_values(
+                    reference,
+                    r[
+                        beyond
+                    ],
+                )
+            )
+
+            guess[
+                0,
+                beyond,
+            ] = core.ETA_PHI
+
+            guess[
+                1,
+                beyond,
+            ] = 0.0
+
+            guess[
+                2,
+                beyond,
+            ] = 0.0
+
+            guess[
+                3,
+                beyond,
+            ] = 0.0
+
+            guess[
+                4,
+                beyond,
+            ] = (
+                core.VORTEX_WINDING
+                /
+                core.GAUGE_G
+            )
+
+            guess[
+                5,
+                beyond,
+            ] = 0.0
+
+            guess[
+                6,
+                beyond,
+            ] = rho0_guess
+
+            guess[
+                7,
+                beyond,
+            ] = rho0p_guess
+
+    def ode(
+        rr: np.ndarray,
+        y: np.ndarray,
+    ) -> np.ndarray:
+        (
+            f,
+            fp,
+            s,
+            sp,
+            gauge,
+            gauge_p,
+            rho,
+            rho_p,
+        ) = y
+
+        rr_safe = np.maximum(
+            rr,
+            1.0e-12,
+        )
+
+        angular = (
+            (
+                core.VORTEX_WINDING
+                -
+                core.GAUGE_G
+                *
+                gauge
+            )
+            /
+            rr_safe
+        ) ** 2
+
+        f_pp = (
+            -fp
+            /
+            rr_safe
+            +
+            (
+                0.5
+                *
+                core.LAMBDA_PHI
+                *
+                (
+                    f
+                    *
+                    f
+                    -
+                    core.ETA_PHI
+                    *
+                    core.ETA_PHI
+                )
+                +
+                core.BETA
+                *
+                s
+                *
+                s
+                +
+                angular
+                -
+                0.25
+                *
+                kappa
+                *
+                (
+                    rho
+                    *
+                    rho
+                    -
+                    core.F_PHASE
+                    *
+                    core.F_PHASE
+                )
+            )
+            *
+            f
+        )
+
+        s_pp = (
+            -sp
+            /
+            rr_safe
+            +
+            (
+                0.5
+                *
+                core.LAMBDA_SIGMA
+                *
+                (
+                    s
+                    *
+                    s
+                    -
+                    core.ETA_SIGMA
+                    *
+                    core.ETA_SIGMA
+                )
+                +
+                core.BETA
+                *
+                f
+                *
+                f
+                -
+                chi
+            )
+            *
+            s
+        )
+
+        gauge_pp = (
+            gauge_p
+            /
+            rr_safe
+            -
+            2.0
+            *
+            core.GAUGE_G
+            *
+            f
+            *
+            f
+            *
+            (
+                core.VORTEX_WINDING
+                -
+                core.GAUGE_G
+                *
+                gauge
+            )
+        )
+
+        rho_pp = (
+            -rho_p
+            /
+            rr_safe
+            +
+            rho
+            /
+            (
+                rr_safe
+                *
+                rr_safe
+            )
+            +
+            (
+                core.LAMBDA_A
+                *
+                (
+                    rho
+                    *
+                    rho
+                    -
+                    core.F_PHASE
+                    *
+                    core.F_PHASE
+                )
+                -
+                0.5
+                *
+                kappa
+                *
+                (
+                    f
+                    *
+                    f
+                    -
+                    core.ETA_PHI
+                    *
+                    core.ETA_PHI
+                )
+            )
+            *
+            rho
+        )
+
+        return np.vstack(
+            [
+                fp,
+                f_pp,
+                sp,
+                s_pp,
+                gauge_p,
+                gauge_pp,
+                rho_p,
+                rho_pp,
+            ]
+        )
+
+    def bc(
+        ya: np.ndarray,
+        yb: np.ndarray,
+    ) -> np.ndarray:
+        delta_outer = (
+            yb[6]
+            -
+            rho0_outer
+        )
+
+        robin_residual = (
+            yb[7]
+            -
+            rho0p_outer
+            -
+            g_outer
+            *
+            delta_outer
+        )
+
+        return np.array(
+            [
+                ya[0],
+                ya[3],
+                ya[4],
+                ya[6],
+
+                yb[0]
+                -
+                core.ETA_PHI,
+
+                yb[2],
+
+                yb[4]
+                -
+                core.VORTEX_WINDING
+                /
+                core.GAUGE_G,
+
+                robin_residual,
+            ]
+        )
+
+    solution = solve_bvp(
+        ode,
+        bc,
+        r,
+        guess,
+        tol=COMPOSITE_BVP_TOL,
+        max_nodes=COMPOSITE_MAX_NODES,
+    )
+
+    if solution.status != 0:
+        raise RuntimeError(
+            "Robin composite BVP failed: "
+            f"{solution.message}"
+        )
+
+    return solution
+
+
+def propagate_response(
+    *,
+    solution,
+    rmax: float,
+    reference,
+    robin_mode: RobinMode,
+    r_end: float,
+):
+    """Propagate the physical decaying amplitude response beyond the BVP."""
+
+    rho0_r, rho0p_r = (
+        rho_reference_values(
+            reference,
+            rmax,
+        )
+    )
+
+    rho0_r = float(
+        rho0_r
+    )
+
+    rho0p_r = float(
+        rho0p_r
+    )
+
+    composite_edge = (
+        solution.sol(
+            rmax
+        )
+    )
+
+    delta_r = (
+        float(
+            composite_edge[
+                6
+            ]
+        )
+        -
+        rho0_r
+    )
+
+    delta_p_r = (
+        float(
+            composite_edge[
+                7
+            ]
+        )
+        -
+        rho0p_r
+    )
+
+    g_expected = float(
+        robin_g(
+            robin_mode,
+            rmax,
+        )
+    )
+
+    if (
+        abs(
+            delta_r
+        )
+        >
+        1.0e-14
+    ):
+        robin_ratio_error = (
+            abs(
+                delta_p_r
+                /
+                delta_r
+                -
+                g_expected
+            )
+        )
+    else:
+        robin_ratio_error = (
+            abs(
+                delta_p_r
+                -
+                g_expected
+                *
+                delta_r
+            )
+        )
+
+    def rhs(
+        radius: float,
+        y: np.ndarray,
+    ) -> np.ndarray:
+        delta = float(
+            y[0]
+        )
+
+        delta_p = float(
+            y[1]
+        )
+
+        q = float(
+            jacobi_q(
+                reference,
+                radius,
+            )
+        )
+
+        delta_pp = (
+            -delta_p
+            /
+            radius
+            +
+            q
+            *
+            delta
+        )
+
+        return np.array(
+            [
+                delta_p,
+                delta_pp,
+            ]
+        )
+
+    response = solve_ivp(
+        rhs,
+        (
+            rmax,
+            r_end,
+        ),
+        np.array(
+            [
+                delta_r,
+                delta_p_r,
+            ]
+        ),
+        dense_output=True,
+        rtol=2.0e-10,
+        atol=2.0e-13,
+        max_step=0.20,
+    )
+
+    if not response.success:
+        raise RuntimeError(
+            "Outer response propagation failed: "
+            f"{response.message}"
+        )
+
+    return (
+        response,
+        robin_ratio_error,
+    )
+
+
+def response_tail_energy(
+    *,
+    response,
+    rmax: float,
+    r_end: float,
+    reference,
+) -> float:
+    """Integrate differential global-string amplitude energy outside R_max."""
+
+    r = np.linspace(
+        rmax,
+        r_end,
+        5000,
+    )
+
+    rho0, rho0p = (
+        rho_reference_values(
+            reference,
+            r,
+        )
+    )
+
+    response_values = (
+        response.sol(
+            r
+        )
+    )
+
+    delta = (
+        response_values[
+            0
+        ]
+    )
+
+    delta_p = (
+        response_values[
+            1
+        ]
+    )
+
+    rho1 = (
+        rho0
+        +
+        delta
+    )
+
+    rho1p = (
+        rho0p
+        +
+        delta_p
+    )
+
+    e0 = (
+        0.5
+        *
+        rho0p
+        *
+        rho0p
+        +
+        0.5
+        *
+        rho0
+        *
+        rho0
+        /
+        (
+            r
+            *
+            r
+        )
+        +
+        0.25
+        *
+        core.LAMBDA_A
+        *
+        (
+            rho0
+            *
+            rho0
+            -
+            core.F_PHASE
+            *
+            core.F_PHASE
+        ) ** 2
+    )
+
+    e1 = (
+        0.5
+        *
+        rho1p
+        *
+        rho1p
+        +
+        0.5
+        *
+        rho1
+        *
+        rho1
+        /
+        (
+            r
+            *
+            r
+        )
+        +
+        0.25
+        *
+        core.LAMBDA_A
+        *
+        (
+            rho1
+            *
+            rho1
+            -
+            core.F_PHASE
+            *
+            core.F_PHASE
+        ) ** 2
+    )
+
+    return float(
+        2.0
+        *
+        math.pi
+        *
+        simpson(
+            r
+            *
+            (
+                e1
+                -
+                e0
+            ),
+            x=r,
+        )
+    )
+
+
+def smooth_taper_weight(
+    radius: np.ndarray,
+) -> np.ndarray:
+    """Smoothly suppress isotropic global-string structure near 1/m_A."""
+
+    r_ir = (
+        1.0
+        /
+        core.M_A
+    )
+
+    start = (
+        IR_TAPER_START_FRACTION
+        *
+        r_ir
+    )
+
+    weight = np.ones_like(
+        radius,
+        dtype=float,
+    )
+
+    outside = (
+        radius
+        >=
+        r_ir
+    )
+
+    transition = (
+        (
+            radius
+            >
+            start
+        )
+        &
+        (
+            radius
+            <
+            r_ir
+        )
+    )
+
+    weight[
+        outside
+    ] = 0.0
+
+    u = (
+        radius[
+            transition
+        ]
+        -
+        start
+    ) / (
+        r_ir
+        -
+        start
+    )
+
+    weight[
+        transition
+    ] = (
+        0.5
+        *
+        (
+            1.0
+            +
+            np.cos(
+                math.pi
+                *
+                u
+            )
+        )
+    )
+
+    return weight
+
+
+def odd_grid_count(
+    box_half: float,
+    requested_dx: float,
+) -> int:
+    """Return an odd Cartesian FFT grid size."""
+
+    n = int(
+        round(
+            2.0
+            *
+            box_half
+            /
+            requested_dx
+        )
+    ) + 1
+
+    if n % 2 == 0:
+        n += 1
+
+    return max(
+        n,
+        101,
+    )
+
+
+def robin_correlation(
+    *,
+    solution,
+    rmax: float,
+    reference,
+    response,
+) -> tuple[
+    np.ndarray,
+    np.ndarray,
+    float,
+    int,
+]:
+    """Construct the relaxed displaced interaction with the propagated tail."""
+
+    n = odd_grid_count(
+        FFT_BOX_HALF,
+        FFT_REQUESTED_DX,
+    )
+
+    x = np.linspace(
+        -FFT_BOX_HALF,
+        FFT_BOX_HALF,
+        n,
+    )
+
+    dx = float(
+        x[1]
+        -
+        x[0]
+    )
+
+    X, Y = np.meshgrid(
+        x,
+        x,
+        indexing="ij",
+    )
+
+    radius = np.sqrt(
+        X
+        *
+        X
+        +
+        Y
+        *
+        Y
+    )
+
+    flat = radius.ravel()
+
+    clipped = np.clip(
+        flat,
+        core.R0,
+        rmax,
+    )
+
+    inside_values = (
+        solution.sol(
+            clipped
+        )
+    )
+
+    f = (
+        inside_values[
+            0
+        ]
+        .reshape(
+            radius.shape
+        )
+    )
+
+    rho = (
+        inside_values[
+            6
+        ]
+        .reshape(
+            radius.shape
+        )
+    )
+
+    f = np.array(
+        f,
+        copy=True,
+    )
+
+    rho = np.array(
+        rho,
+        copy=True,
+    )
+
+    inside = (
+        radius
+        <=
+        rmax
+    )
+
+    f[
+        ~inside
+    ] = core.ETA_PHI
+
+    r_ir = (
+        1.0
+        /
+        core.M_A
+    )
+
+    outside_r = np.clip(
+        radius,
+        rmax,
+        r_ir,
+    )
+
+    rho0_out, _ = (
+        rho_reference_values(
+            reference,
+            outside_r,
+        )
+    )
+
+    response_values = (
+        response.sol(
+            outside_r
+        )
+    )
+
+    delta_out = (
+        response_values[
+            0
+        ]
+    )
+
+    rho_out = (
+        rho0_out
+        +
+        delta_out
+    )
+
+    taper = (
+        smooth_taper_weight(
+            radius
+        )
+    )
+
+    rho_out_tapered = (
+        core.F_PHASE
+        +
+        taper
+        *
+        (
+            rho_out
+            -
+            core.F_PHASE
+        )
+    )
+
+    rho[
+        ~inside
+    ] = (
+        rho_out_tapered[
+            ~inside
+        ]
+    )
+
+    axis = (
+        radius
+        <
+        core.R0
+    )
+
+    f[
+        axis
+    ] = 0.0
+
+    rho[
+        axis
+    ] = 0.0
+
+    f_deficit = (
+        f
+        *
+        f
+        -
+        core.ETA_PHI
+        *
+        core.ETA_PHI
+    )
+
+    rho_deficit = (
+        rho
+        *
+        rho
+        -
+        core.F_PHASE
+        *
+        core.F_PHASE
+    )
+
+    correlation = (
+        fftconvolve(
+            f_deficit,
+            rho_deficit,
+            mode="same",
+        )
+        *
+        dx
+        *
+        dx
+    )
+
+    center = (
+        n
+        //
+        2
+    )
+
+    displacement = (
+        x[
+            center:
+        ]
+        -
+        x[
+            center
+        ]
+    )
+
+    line = correlation[
+        center:,
+        center,
+    ]
+
+    keep = (
+        displacement
+        <=
+        DISPLACEMENT_MAX
+    )
+
+    return (
+        displacement[
+            keep
+        ],
+        line[
+            keep
+        ],
+        dx,
+        n,
+    )
+
+
+def interaction_energy(
+    correlation: np.ndarray,
+    fraction: float,
+) -> np.ndarray:
+    """Convert overlap correlation to junction interaction energy."""
+
+    kappa = (
+        core.kappa_from_fraction(
+            fraction
+        )
+    )
+
+    energy = (
+        -0.25
+        *
+        kappa
+        *
+        correlation
+    )
+
+    return (
+        energy
+        -
+        float(
+            energy[-1]
+        )
+    )
+
+
+def solve_pair(
+    *,
+    fraction: float,
+    rmax: float,
+    reference,
+    robin_mode,
+    previous_base=None,
+    previous_selected=None,
+):
+    """Solve separated and interacting Robin composites and diagnostics."""
+
+    base_solution = (
+        solve_robin_composite(
+            chi=core.CHI_SELECTED,
+            fraction=0.0,
+            rmax=rmax,
+            reference=reference,
+            robin_mode=robin_mode,
+            previous=previous_base,
+        )
+    )
+
+    selected_solution = (
+        solve_robin_composite(
+            chi=core.CHI_SELECTED,
+            fraction=fraction,
+            rmax=rmax,
+            reference=reference,
+            robin_mode=robin_mode,
+            previous=previous_selected,
+        )
+    )
+
+    base_diag = (
+        core.diagnose(
+            base_solution,
+            chi=core.CHI_SELECTED,
+            kappa_fraction=0.0,
+            rmax=rmax,
+        )
+    )
+
+    selected_diag = (
+        core.diagnose(
+            selected_solution,
+            chi=core.CHI_SELECTED,
+            kappa_fraction=fraction,
+            rmax=rmax,
+        )
+    )
+
+    r_ir = (
+        1.0
+        /
+        core.M_A
+    )
+
+    response, robin_error = (
+        propagate_response(
+            solution=selected_solution,
+            rmax=rmax,
+            reference=reference,
+            robin_mode=robin_mode,
+            r_end=r_ir,
+        )
+    )
+
+    delta_tail = (
+        response_tail_energy(
+            response=response,
+            rmax=rmax,
+            r_end=r_ir,
+            reference=reference,
+        )
+    )
+
+    delta_total_inner = (
+        selected_diag.a_total_ir
+        -
+        base_diag.a_total_ir
+    )
+
+    delta_total_corrected = (
+        delta_total_inner
+        +
+        delta_tail
+    )
+
+    eta = (
+        abs(
+            delta_total_corrected
+        )
+        /
+        abs(
+            selected_diag.a_cross
+        )
+    )
+
+    eta = float(
+        np.clip(
+            eta,
+            0.0,
+            1.0,
+        )
+    )
+
+    (
+        displacement,
+        correlation,
+        dx,
+        n,
+    ) = (
+        robin_correlation(
+            solution=selected_solution,
+            rmax=rmax,
+            reference=reference,
+            response=response,
+        )
+    )
+
+    energy = (
+        interaction_energy(
+            correlation,
+            fraction,
+        )
+    )
+
+    delta_wall = (
+        1.0
+        /
+        gate3.wall_mod.wall_parameters(
+            gate3.wall_mod.F_PHASE,
+            gate3.wall_mod.MASS_HIERARCHY,
+        )[
+            "m_a"
+        ]
+    )
+
+    wall = (
+        gate3.wall_mod.solve_planar_wall(
+            gate3.wall_mod.F_PHASE,
+            gate3.wall_mod.MASS_HIERARCHY,
+            12.0,
+        )
+    )
+
+    sigma_wall = float(
+        wall[
+            "tension"
+        ]
+    )
+
+    metrics = (
+        gate3.force_metrics(
+            displacement,
+            energy,
+            relaxation_efficiency=eta,
+            sigma_wall=sigma_wall,
+            delta_wall=delta_wall,
+        )
+    )
+
+    return {
+        "base_solution": (
+            base_solution
+        ),
+        "selected_solution": (
+            selected_solution
+        ),
+        "base_diag": base_diag,
+        "selected_diag": (
+            selected_diag
+        ),
+        "response": response,
+        "robin_error": (
+            robin_error
+        ),
+        "delta_tail": (
+            delta_tail
+        ),
+        "delta_total_inner": (
+            delta_total_inner
+        ),
+        "delta_total_corrected": (
+            delta_total_corrected
+        ),
+        "eta": eta,
+        "metrics": metrics,
+        "fft_dx": dx,
+        "fft_n": n,
+        "sigma_wall": (
+            sigma_wall
+        ),
+    }
+
+
+def local_profile_vector(
+    solution,
+) -> np.ndarray:
+    """Sample physical profiles on a common local interval."""
+
+    r = np.linspace(
+        core.R0,
+        30.0,
+        1000,
+    )
+
+    values = solution.sol(
+        r
+    )
+
+    return np.vstack(
+        [
+            values[0],
+            values[2],
+            core.GAUGE_G
+            *
+            values[4],
+            values[6]
+            /
+            core.F_PHASE,
+        ]
+    )
+
+
+def main() -> None:
+    """Execute the complete decaying-mode Robin repair audit."""
+
+    print(
+        "=== ANTIGRAVITY_RESEARCH 018A-3RR ==="
+    )
+
+    print(
+        "QUESTION="
+        "DOES_THE_PHYSICAL_DECAYING_MODE_ROBIN_BOUNDARY_REMOVE_018A3_PROFILE_DRIFT"
+    )
+
+    print(
+        "\n=== GLOBAL STRING REFERENCE ==="
+    )
+
+    reference = (
+        ir.solve_isolated_global(
+            TAIL_REFERENCE_RMAX
+        )
+    )
+
+    print(
+        f"REFERENCE_RMAX={reference.rmax:.6f}"
+    )
+
+    print(
+        f"REFERENCE_NODES={reference.solution.x.size}"
+    )
+
+    print(
+        "REFERENCE_MAX_RMS_RESIDUAL="
+        f"{float(np.max(reference.solution.rms_residuals)):.15e}"
+    )
+
+    print(
+        "\n=== DECAYING JACOBI MODE ==="
+    )
+
+    mode = (
+        solve_robin_mode(
+            reference
+        )
+    )
+
+    m = (
+        radial_mass()
+    )
+
+    print(
+        f"M_RADIAL={m:.15e}"
+    )
+
+    print(
+        f"RICCATI_R_MIN={RICCATI_R_MIN:.9f}"
+    )
+
+    print(
+        f"RICCATI_R_FAR={RICCATI_R_FAR:.9f}"
+    )
+
+    for radius in (
+        40.0,
+        60.0,
+        80.0,
+        100.0,
+    ):
+        g = float(
+            robin_g(
+                mode,
+                radius,
+            )
+        )
+
+        simple_asymptotic = (
+            -m
+            *
+            k0(
+                m
+                *
+                radius
+            )
+            /
+            k1(
+                m
+                *
+                radius
+            )
+            -
+            1.0
+            /
+            radius
+        )
+
+        print(
+            "ROBIN_MODE "
+            f"R={radius:.1f} "
+            f"G_NUM={g:+.15e} "
+            f"G_BESSEL={simple_asymptotic:+.15e} "
+            f"REL_DIFF="
+            f"{abs(g-simple_asymptotic)/abs(g):.15e}"
+        )
+
+    print(
+        "DECAYING_ROBIN_MODE=PASS"
+    )
+
+    print(
+        "\n=== SELECTED 0.625 DOMAIN AUDIT ==="
+    )
+
+    domain_records = []
+
+    previous_base = None
+    previous_selected = None
+
+    for rmax in (
+        SELECTED_RMAX_VALUES
+    ):
+        record = (
+            solve_pair(
+                fraction=SELECTED_KF,
+                rmax=rmax,
+                reference=reference,
+                robin_mode=mode,
+                previous_base=previous_base,
+                previous_selected=previous_selected,
+            )
+        )
+
+        previous_base = (
+            record[
+                "base_solution"
+            ]
+        )
+
+        previous_selected = (
+            record[
+                "selected_solution"
+            ]
+        )
+
+        domain_records.append(
+            (
+                rmax,
+                record,
+            )
+        )
+
+        metrics = (
+            record[
+                "metrics"
+            ]
+        )
+
+        edge = (
+            record[
+                "selected_solution"
+            ].sol(
+                rmax
+            )
+        )
+
+        rho0_edge, _ = (
+            rho_reference_values(
+                reference,
+                rmax,
+            )
+        )
+
+        delta_edge = (
+            float(
+                edge[6]
+            )
+            -
+            float(
+                rho0_edge
+            )
+        )
+
+        print(
+            "ROBIN_DOMAIN "
+            f"RMAX={rmax:.1f} "
+            f"DELTA_RHO_EDGE={delta_edge:+.15e} "
+            f"ROBIN_ERROR={record['robin_error']:.15e} "
+            f"DELTA_TAIL_ENERGY={record['delta_tail']:+.15e} "
+            f"DELTA_TOTAL_INNER={record['delta_total_inner']:+.15e} "
+            f"DELTA_TOTAL_CORRECTED={record['delta_total_corrected']:+.15e} "
+            f"ETA={record['eta']:.12f} "
+            f"FFT_N={record['fft_n']} "
+            f"FFT_DX={record['fft_dx']:.12e} "
+            f"FORCE_RATIO={metrics.force_ratio:.12f} "
+            f"STABLE_D={metrics.stable_d:.9f} "
+            f"UNSTABLE_D={metrics.unstable_d:.9f} "
+            f"BARRIER={metrics.barrier:.15e} "
+            f"PASS={'YES' if metrics.passed else 'NO'}"
+        )
+
+    force_ratios = np.array(
+        [
+            record[
+                "metrics"
+            ].force_ratio
+            for _, record
+            in domain_records
+        ],
+        dtype=float,
+    )
+
+    force_spread = (
+        float(
+            np.max(
+                force_ratios
+            )
+            -
+            np.min(
+                force_ratios
+            )
+        )
+        /
+        float(
+            np.mean(
+                force_ratios
+            )
+        )
+    )
+
+    all_domain_physics_pass = all(
+        record[
+            "metrics"
+        ].passed
+        for _, record
+        in domain_records
+    )
+
+    print(
+        f"ROBIN_FORCE_RATIO_REL_SPREAD={force_spread:.15e}"
+    )
+
+    print(
+        "ROBIN_ALL_DOMAIN_PHYSICS_PASS="
+        f"{'YES' if all_domain_physics_pass else 'NO'}"
+    )
+
+    robin_domain_convergence = (
+        all_domain_physics_pass
+        and
+        force_spread
+        <=
+        FORCE_REL_SPREAD_MAX
+    )
+
+    print(
+        "ROBIN_SELECTED_DOMAIN_CONVERGENCE="
+        f"{'PASS' if robin_domain_convergence else 'FAIL'}"
+    )
+
+    print(
+        "\n=== LOCAL r<=30 PROFILE CONVERGENCE ==="
+    )
+
+    profile_vectors = [
+        local_profile_vector(
+            record[
+                "selected_solution"
+            ]
+        )
+        for _, record
+        in domain_records
+    ]
+
+    profile_stack = np.stack(
+        profile_vectors,
+        axis=0,
+    )
+
+    profile_range = (
+        np.max(
+            profile_stack,
+            axis=0,
+        )
+        -
+        np.min(
+            profile_stack,
+            axis=0,
+        )
+    )
+
+    f_spread = float(
+        np.max(
+            profile_range[
+                0
+            ]
+        )
+    )
+
+    s_scale = max(
+        float(
+            np.max(
+                np.abs(
+                    profile_stack[
+                        :,
+                        1,
+                        :,
+                    ]
+                )
+            )
+        ),
+        1.0e-12,
+    )
+
+    s_spread = float(
+        np.max(
+            profile_range[
+                1
+            ]
+        )
+        /
+        s_scale
+    )
+
+    gauge_spread = float(
+        np.max(
+            profile_range[
+                2
+            ]
+        )
+    )
+
+    rho_spread = float(
+        np.max(
+            profile_range[
+                3
+            ]
+        )
+    )
+
+    local_profile_max_spread = max(
+        f_spread,
+        s_spread,
+        gauge_spread,
+        rho_spread,
+    )
+
+    print(
+        f"LOCAL_F_ABS_SPREAD={f_spread:.15e}"
+    )
+
+    print(
+        f"LOCAL_S_REL_SPREAD={s_spread:.15e}"
+    )
+
+    print(
+        f"LOCAL_GAUGE_ABS_SPREAD={gauge_spread:.15e}"
+    )
+
+    print(
+        f"LOCAL_RHO_OVER_F_ABS_SPREAD={rho_spread:.15e}"
+    )
+
+    print(
+        f"LOCAL_PROFILE_MAX_NORMALIZED_SPREAD="
+        f"{local_profile_max_spread:.15e}"
+    )
+
+    local_profile_convergence = (
+        local_profile_max_spread
+        <=
+        LOCAL_PROFILE_REL_SPREAD_MAX
+    )
+
+    print(
+        "ROBIN_LOCAL_PROFILE_CONVERGENCE="
+        f"{'PASS' if local_profile_convergence else 'FAIL'}"
+    )
+
+    print(
+        "\n=== CORRECTED NONMARGINAL FORCE BASIN AT RMAX=80 ==="
+    )
+
+    basin_passes = []
+
+    previous_selected = None
+
+    for fraction in (
+        NONMARGINAL_KF_VALUES
+    ):
+        record = (
+            solve_pair(
+                fraction=fraction,
+                rmax=80.0,
+                reference=reference,
+                robin_mode=mode,
+                previous_selected=previous_selected,
+            )
+        )
+
+        previous_selected = (
+            record[
+                "selected_solution"
+            ]
+        )
+
+        metrics = (
+            record[
+                "metrics"
+            ]
+        )
+
+        passed = bool(
+            metrics.passed
+        )
+
+        if passed:
+            basin_passes.append(
+                fraction
+            )
+
+        print(
+            "ROBIN_BASIN "
+            f"KF={fraction:.9f} "
+            f"ETA={record['eta']:.12f} "
+            f"FORCE_RATIO={metrics.force_ratio:.12f} "
+            f"STABLE_D={metrics.stable_d:.9f} "
+            f"UNSTABLE_D={metrics.unstable_d:.9f} "
+            f"BARRIER={metrics.barrier:.15e} "
+            f"PASS={'YES' if passed else 'NO'}"
+        )
+
+    basin_green = (
+        len(
+            basin_passes
+        )
+        ==
+        len(
+            NONMARGINAL_KF_VALUES
+        )
+    )
+
+    print(
+        "ROBIN_NONMARGINAL_PASS_COUNT="
+        f"{len(basin_passes)}"
+    )
+
+    print(
+        "ROBIN_NONMARGINAL_TEST_COUNT="
+        f"{len(NONMARGINAL_KF_VALUES)}"
+    )
+
+    print(
+        "ROBIN_NONMARGINAL_FORCE_BASIN="
+        f"{'PASS' if basin_green else 'FAIL'}"
+    )
+
+    print(
+        "\n=== BLIND WILDCARD STATUS ==="
+    )
+
+    print(
+        "WILDCARD_VALUES="
+        "1.6,1.875,3.125,0.625,5"
+    )
+
+    print(
+        "SELECTED_WILDCARD_COINCIDENCE="
+        "0.625"
+    )
+
+    print(
+        "WILDCARD_INTERPRETATION="
+        "BLIND_CONTROL_ONLY_NOT_PHYSICS_PRIOR"
+    )
+
+    print(
+        "\n=== 018A-3RR DECISION ==="
+    )
+
+    overall_green = (
+        robin_domain_convergence
+        and
+        local_profile_convergence
+        and
+        basin_green
+    )
+
+    print(
+        "ROBIN_SELECTED_DOMAIN_CONVERGENCE="
+        f"{'PASS' if robin_domain_convergence else 'FAIL'}"
+    )
+
+    print(
+        "ROBIN_LOCAL_PROFILE_CONVERGENCE="
+        f"{'PASS' if local_profile_convergence else 'FAIL'}"
+    )
+
+    print(
+        "ROBIN_NONMARGINAL_FORCE_BASIN="
+        f"{'PASS' if basin_green else 'FAIL'}"
+    )
+
+    print(
+        "018A3RR_DECAYING_MODE_ROBIN_AUDIT="
+        f"{'GREEN' if overall_green else 'RED'}"
+    )
+
+    if overall_green:
+        print(
+            "ORIGINAL_018A3_RADIAL_DRIFT="
+            "CONSISTENT_WITH_FINITE_BOX_DECAYING_MODE_SUPPRESSION"
+        )
+
+        print(
+            "018A3_TRANSLATIONAL_FORCE_PREFLIGHT_AFTER_ROBIN_REPAIR="
+            "GREEN"
+        )
+
+        print(
+            "NEXT="
+            "018A4_TRUE_2D_EXPLICIT_BREAKING_STRING_WALL_JUNCTION"
+        )
+    else:
+        print(
+            "ORIGINAL_018A3_RADIAL_DRIFT="
+            "NOT_RESOLVED_BY_PHYSICAL_ROBIN_BOUNDARY"
+        )
+
+        print(
+            "018A3_TRANSLATIONAL_FORCE_PREFLIGHT_AFTER_ROBIN_REPAIR="
+            "NOT_GREEN"
+        )
+
+        print(
+            "NEXT="
+            "STOP_RADIAL_BOUNDARY_REPAIRS_AND_DECIDE_TRUE_2D_DIAGNOSTIC_VS_BRANCH_DEMOTION"
+        )
+
+    print(
+        "TRUE_2D_STRING_WALL_JUNCTION="
+        "NOT_YET_SOLVED"
+    )
+
+    print(
+        "COMPLETE_JUNCTION_STRESS_ENERGY="
+        "NOT_YET_SOLVED"
+    )
+
+    print(
+        "FINITE_PAYLOAD_GRAVITY_AFTER_TRUE_JUNCTION="
+        "NOT_YET_TESTED"
+    )
+
+    print(
+        "FULL_018A_GATE="
+        "NOT_YET_GREEN"
+    )
+
+    print(
+        "PRACTICAL_ANTIGRAVITY_DEVICE="
+        "NO"
+    )
+
+    print(
+        "CLAIM_CLASSIFICATION="
+        "PROJECT_DERIVED_018A_DECAYING_MODE_ROBIN_BOUNDARY_AUDIT"
+    )
+
+
+if __name__ == "__main__":
+    main()

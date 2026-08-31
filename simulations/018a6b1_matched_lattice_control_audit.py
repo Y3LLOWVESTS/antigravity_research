@@ -1,0 +1,3005 @@
+#!/usr/bin/env python3
+"""Simulation 018A-6B1 — matched-lattice control and resolution audit.
+
+PURPOSE
+-------
+Diagnose the failed resolution convergence in 018A-6B before deciding whether
+the fully coupled same-gauge KLS microscopic junction is physically red or
+whether the apparent large backreaction is dominated by square-lattice
+discretization relaxation of the pre-existing 017P vortex.
+
+WHY THIS GATE IS REQUIRED
+-------------------------
+018A-6B produced the following mixed result.
+
+Strongly positive:
+
+    full analytic gradient check passed;
+    one-sided wall termination survived;
+    relative-phase locking survived;
+    wall-energy domain slope survived;
+    c_T^2 and c_L^2 remained physical;
+    m=2..40 thin-string extrinsic stability survived;
+    one- and two-junction stationarity survived.
+
+Negative / unresolved:
+
+    fully coupled resolution convergence failed;
+    Delta Sigma_2 changed sign with grid spacing;
+    inferred junction energy changed strongly with grid spacing;
+    hybrid variational identity failed;
+    active-source budget failed.
+
+The most important numerical pattern was:
+
+    dx = 2.5:
+        Delta E_relax ~ -1.013e-1
+
+    dx = 2.0:
+        Delta E_relax ~ -6.055e-2
+
+    dx = 1.6667:
+        Delta E_relax ~ -1.037e-2.
+
+Meanwhile the same-dx domain sequence was extremely stable.
+
+This is consistent with a discretization artifact in the relaxed base-string
+sector, but that interpretation must be tested rather than assumed.
+
+SCIENTIFIC QUESTION
+-------------------
+If the original 017P vortex is independently relaxed on exactly the same
+square lattices, how much of the 018A-6B energy and Sigma_2 change is explained
+by ordinary base-string lattice relaxation?
+
+Define
+
+    Delta E_full
+      =
+      E_full_KLS
+      -
+      E_sampled_reference
+
+from 018A-6B.
+
+Independently define
+
+    Delta E_base
+      =
+      E_relaxed_017P_lattice
+      -
+      E_sampled_017P_lattice.
+
+Then form the matched correction
+
+    Delta E_KLS,matched
+      =
+      Delta E_full
+      -
+      Delta E_base.
+
+The matched junction excess is
+
+    mu_matched
+      =
+      mu_fixed
+      +
+      Delta E_KLS,matched.
+
+Likewise
+
+    Delta Sigma2_matched
+      =
+      Delta Sigma2_full
+      -
+      Delta Sigma2_base
+
+and
+
+    Sigma2_matched
+      =
+      Sigma2_radial
+      +
+      Delta Sigma2_matched.
+
+This is a control subtraction, not an assumption that the KLS sector has zero
+backreaction.
+
+If the violent resolution dependence is common-mode lattice relaxation, it
+should largely cancel.
+
+MATCHED ACTIVE SOURCE
+---------------------
+The same-grid active-source change of the relaxed base string is also measured.
+
+For the original 017P reduced system
+
+    S_base
+      =
+      2(omega^2+k^2)s^2
+      -
+      2 V_base
+      +
+      B^2.
+
+The matched localized junction active source is
+
+    Lambda_J,matched
+      =
+      Lambda_J,fixed
+
+      +
+      (
+        Delta Lambda_active,full
+        -
+        Delta Lambda_active,base
+      ).
+
+This removes the active-source change caused solely by allowing a sampled
+continuum 017P vortex to relax onto the square lattice.
+
+VARIATIONAL IDENTITIES
+----------------------
+Two independent checks are performed.
+
+1. Matched hybrid identity:
+
+       A_eff,matched
+         =
+         A_string,radial
+         +
+         mu_matched
+
+   should satisfy
+
+       dA_eff,matched/dchi
+         ~
+         -Sigma2_matched.
+
+2. Pure discrete envelope identity:
+
+       dE_full,lattice/dchi
+         ~
+         -Sigma2_full,lattice.
+
+The second check uses the actual lattice objective and its actual lattice
+Noether integral. It avoids mixing radial-BVP and Cartesian-lattice
+representations.
+
+If the discrete identity passes while the old 018A-6B hybrid identity failed,
+that is strong evidence that the previous 13-percent error was a bookkeeping /
+representation mismatch rather than failure of the solved lattice equations.
+
+CORE RESOLUTION AUDIT
+---------------------
+The script independently reconstructs the selected 017P radial profiles and
+measures:
+
+    Phi 10%-90% transition width;
+    sigma 90%-10% transition width;
+    sigma half-maximum radius.
+
+It reports the number of grid intervals across those structures for every
+resolution used in 018A-6B.
+
+This determines whether the previous grids had any right to be treated as
+continuum-resolved.
+
+NUMERICAL CASES
+---------------
+Matched resolution controls at
+
+    L = 100
+
+    N = 81
+    N = 101
+    N = 121.
+
+Thus
+
+    dx =
+      2.5
+      2.0
+      1.666666...
+
+Common-grid chi continuation at
+
+    N = 81
+    L = 100
+
+for
+
+    chi =
+      0.00425
+      0.00450
+      0.00475.
+
+This gate intentionally does NOT yet launch a very large uniform-grid solve.
+
+PASS / INTERPRETATION
+---------------------
+This audit may conclude one of three things.
+
+A. NUMERICAL_ARTIFACT_STRONGLY_SUPPORTED
+
+    Base-string relaxation explains most resolution drift;
+    matched quantities converge materially better;
+    variational consistency is restored;
+    matched active-source budget is healthy.
+
+    Next:
+        fine/local multiscale fully coupled solver.
+
+B. MIXED
+
+    Common-mode lattice error is important but does not fully explain the
+    failure.
+
+    Next:
+        block-release Phi/sigma/gauge channel audit.
+
+C. PHYSICAL_NONPERTURBATIVE_RESPONSE_SUPPORTED
+
+    Matched subtraction leaves large nonconvergent or physically damaging
+    backreaction.
+
+    Next:
+        identify/demote the candidate before gravity promotion.
+
+STOP RULE
+---------
+Do not call the KLS class physically red merely because the old coarse-grid
+018A-6B output was red.
+
+Do not call it rescued merely because matched subtraction improves one number.
+
+Require coherent evidence across:
+
+    energy;
+    Sigma2;
+    variational identity;
+    active source.
+
+CLAIM CLASSIFICATION
+--------------------
+PROJECT_DERIVED_018A_FULL_COUPLED_MATCHED_LATTICE_CONTROL_AUDIT
+
+PRACTICAL CLAIM
+---------------
+This calculation cannot establish a practical antigravity device.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+import importlib.util
+import math
+from pathlib import Path
+import sys
+
+import numpy as np
+from scipy.optimize import minimize
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+FULL_SOURCE = (
+    ROOT
+    / "simulations"
+    / "018a6b_fully_coupled_2d_kls_junction.py"
+)
+
+
+def load_module(
+    name: str,
+    path: Path,
+):
+    """Load a local research module without executing its main function."""
+
+    spec = importlib.util.spec_from_file_location(
+        name,
+        path,
+    )
+
+    if (
+        spec is None
+        or spec.loader is None
+    ):
+        raise RuntimeError(
+            f"Cannot import {path}"
+        )
+
+    module = importlib.util.module_from_spec(
+        spec
+    )
+
+    sys.modules[
+        name
+    ] = module
+
+    try:
+        spec.loader.exec_module(
+            module
+        )
+    except Exception:
+        sys.modules.pop(
+            name,
+            None,
+        )
+        raise
+
+    return module
+
+
+fc = load_module(
+    "ag018a6b_matched_control",
+    FULL_SOURCE,
+)
+
+m = fc.m
+
+
+# ============================================================================
+# Audit configuration.
+# ============================================================================
+
+CHI_SELECTED = 0.00475
+
+CHI_VALUES = (
+    0.00425,
+    0.00450,
+    0.00475,
+)
+
+RESOLUTION_CASES = (
+    (81, 100.0),
+    (101, 100.0),
+    (121, 100.0),
+)
+
+CHI_CASE = (
+    81,
+    100.0,
+)
+
+GRADIENT_CASE = (
+    31,
+    50.0,
+)
+
+OMEGA = fc.OMEGA_SELECTED
+K_LONG = fc.K_SELECTED
+
+MAX_BASE_GRADIENT_RELERR = 2.0e-6
+
+MAX_DIAGNOSTIC_GRAD_RMS = 2.0e-6
+MAX_DIAGNOSTIC_GRAD_MAX = 3.0e-4
+
+MAX_MATCHED_MU_REL_SPREAD = 0.15
+MAX_MATCHED_SIGMA2_REL_SPREAD = 0.02
+
+MAX_MATCHED_VARIATIONAL_RELERR = 0.02
+MAX_DISCRETE_VARIATIONAL_RELERR = 0.02
+
+MAX_MATCHED_ACTIVE_PAIR_FRACTION = 0.01
+
+MAX_COMMON_MODE_RESIDUAL_FRACTION = 0.35
+
+
+# ============================================================================
+# Base-only square-lattice control.
+# ============================================================================
+
+
+@dataclass
+class BaseProblem:
+    """Square-lattice representation of the original 017P straight string."""
+
+    chi: float
+
+    n: int
+    box_half: float
+    dx: float
+
+    radial_solution: object
+    radial_diag: object
+
+    background: object
+
+    weights: np.ndarray
+
+    phi_phase: np.ndarray
+
+    f0: np.ndarray
+    s0: np.ndarray
+
+    ax0: np.ndarray
+    az0: np.ndarray
+
+    f_free: np.ndarray
+    s_free: np.ndarray
+
+    ax_free: np.ndarray
+    az_free: np.ndarray
+
+    nf: int
+    ns: int
+    nax: int
+    naz: int
+
+
+@dataclass
+class BaseResult:
+    """Relaxed original-017P lattice control diagnostics."""
+
+    chi: float
+
+    n: int
+    box_half: float
+    dx: float
+
+    success: bool
+    iterations: int
+    message: str
+
+    energy_initial: float
+    energy_relaxed: float
+    delta_energy: float
+
+    sigma2_initial_grid: float
+    sigma2_relaxed_grid: float
+    delta_sigma2: float
+
+    active_initial: float
+    active_relaxed: float
+    delta_active: float
+
+    grad_rms: float
+    grad_max: float
+
+    f: np.ndarray
+    s: np.ndarray
+
+    ax: np.ndarray
+    az: np.ndarray
+
+    problem: BaseProblem
+
+
+def build_base_problem(
+    chi: float,
+    n: int,
+    box_half: float,
+) -> BaseProblem:
+    """Sample the selected radial 017P solution onto one Cartesian lattice."""
+
+    m.CHI_SELECTED = float(
+        chi
+    )
+
+    radial_solution = (
+        m.solve_017p_background()
+    )
+
+    radial_diag = (
+        m.diagnose_017p(
+            radial_solution
+        )
+    )
+
+    background = (
+        m.build_problem(
+            radial_solution,
+            n=n,
+            box_half=box_half,
+        )
+    )
+
+    theta = np.arctan2(
+        background.Z,
+        background.X,
+    )
+
+    phi_phase = np.exp(
+        1j
+        *
+        theta
+    )
+
+    f0 = np.array(
+        background.f_background,
+        copy=True,
+    )
+
+    s0 = (
+        m.evaluate_radial_component(
+            radial_solution,
+            background.radius,
+            2,
+            0.0,
+        )
+    )
+
+    ax0 = np.angle(
+        background.ux
+    )
+
+    az0 = np.angle(
+        background.uz
+    )
+
+    node_interior = np.array(
+        ~background.fixed_mask,
+        copy=True,
+    )
+
+    f_free = np.array(
+        node_interior,
+        copy=True,
+    )
+
+    center = (
+        n
+        //
+        2
+    )
+
+    f_free[
+        center,
+        center,
+    ] = False
+
+    s_free = np.array(
+        node_interior,
+        copy=True,
+    )
+
+    ax_free = np.zeros(
+        ax0.shape,
+        dtype=bool,
+    )
+
+    ax_free[
+        1:-1,
+        1:-1,
+    ] = True
+
+    az_free = np.zeros(
+        az0.shape,
+        dtype=bool,
+    )
+
+    az_free[
+        1:-1,
+        1:-1,
+    ] = True
+
+    return BaseProblem(
+        chi=float(
+            chi
+        ),
+
+        n=n,
+        box_half=box_half,
+        dx=background.dx,
+
+        radial_solution=radial_solution,
+        radial_diag=radial_diag,
+
+        background=background,
+
+        weights=np.array(
+            background.weights,
+            copy=True,
+        ),
+
+        phi_phase=phi_phase,
+
+        f0=f0,
+        s0=s0,
+
+        ax0=ax0,
+        az0=az0,
+
+        f_free=f_free,
+        s_free=s_free,
+
+        ax_free=ax_free,
+        az_free=az_free,
+
+        nf=int(
+            np.count_nonzero(
+                f_free
+            )
+        ),
+
+        ns=int(
+            np.count_nonzero(
+                s_free
+            )
+        ),
+
+        nax=int(
+            np.count_nonzero(
+                ax_free
+            )
+        ),
+
+        naz=int(
+            np.count_nonzero(
+                az_free
+            )
+        ),
+    )
+
+
+def pack_base(
+    problem: BaseProblem,
+) -> np.ndarray:
+    """Pack the original-string lattice variables."""
+
+    return np.concatenate(
+        [
+            problem.f0[
+                problem.f_free
+            ],
+
+            problem.s0[
+                problem.s_free
+            ],
+
+            problem.ax0[
+                problem.ax_free
+            ],
+
+            problem.az0[
+                problem.az_free
+            ],
+        ]
+    )
+
+
+def unpack_base(
+    problem: BaseProblem,
+    variables: np.ndarray,
+):
+    """Restore one original-string lattice state."""
+
+    f = np.array(
+        problem.f0,
+        copy=True,
+    )
+
+    s = np.array(
+        problem.s0,
+        copy=True,
+    )
+
+    ax = np.array(
+        problem.ax0,
+        copy=True,
+    )
+
+    az = np.array(
+        problem.az0,
+        copy=True,
+    )
+
+    offset = 0
+
+    f[
+        problem.f_free
+    ] = variables[
+        offset:
+        offset
+        +
+        problem.nf
+    ]
+
+    offset += problem.nf
+
+    s[
+        problem.s_free
+    ] = variables[
+        offset:
+        offset
+        +
+        problem.ns
+    ]
+
+    offset += problem.ns
+
+    ax[
+        problem.ax_free
+    ] = variables[
+        offset:
+        offset
+        +
+        problem.nax
+    ]
+
+    offset += problem.nax
+
+    az[
+        problem.az_free
+    ] = variables[
+        offset:
+        offset
+        +
+        problem.naz
+    ]
+
+    offset += problem.naz
+
+    if offset != variables.size:
+        raise RuntimeError(
+            "Base pack/unpack mismatch"
+        )
+
+    center = (
+        problem.n
+        //
+        2
+    )
+
+    f[
+        center,
+        center,
+    ] = 0.0
+
+    return (
+        f,
+        s,
+        ax,
+        az,
+    )
+
+
+def base_bounds(
+    problem: BaseProblem,
+):
+    """Return conservative optimizer bounds."""
+
+    return (
+        [
+            (
+                0.0,
+                1.5,
+            )
+        ]
+        *
+        problem.nf
+
+        +
+        [
+            (
+                0.0,
+                1.0,
+            )
+        ]
+        *
+        problem.ns
+
+        +
+        [
+            (
+                None,
+                None,
+            )
+        ]
+        *
+        (
+            problem.nax
+            +
+            problem.naz
+        )
+    )
+
+
+def base_potential(
+    problem: BaseProblem,
+    f: np.ndarray,
+    s: np.ndarray,
+) -> np.ndarray:
+    """Original 017P reduced potential at fixed chi."""
+
+    return (
+        m.LAMBDA_PHI
+        /
+        4.0
+        *
+        (
+            f
+            *
+            f
+            -
+            m.ETA_PHI
+            *
+            m.ETA_PHI
+        ) ** 2
+
+        +
+        m.LAMBDA_SIGMA
+        /
+        4.0
+        *
+        (
+            s
+            *
+            s
+            -
+            m.ETA_SIGMA
+            *
+            m.ETA_SIGMA
+        ) ** 2
+
+        +
+        m.BETA
+        *
+        f
+        *
+        f
+        *
+        s
+        *
+        s
+
+        -
+        m.LAMBDA_SIGMA
+        /
+        4.0
+        *
+        m.ETA_SIGMA**4
+
+        -
+        problem.chi
+        *
+        s
+        *
+        s
+    )
+
+
+def plaquette(
+    ax: np.ndarray,
+    az: np.ndarray,
+) -> np.ndarray:
+    """Fundamental noncompact plaquette angle."""
+
+    return (
+        ax[
+            :,
+            :-1
+        ]
+
+        +
+        az[
+            1:,
+            :
+        ]
+
+        -
+        ax[
+            :,
+            1:
+        ]
+
+        -
+        az[
+            :-1,
+            :
+        ]
+    )
+
+
+def base_objective_and_gradient(
+    problem: BaseProblem,
+    variables: np.ndarray,
+):
+    """Return original-017P lattice energy and exact optimizer gradient."""
+
+    (
+        f,
+        s,
+        ax,
+        az,
+    ) = unpack_base(
+        problem,
+        variables,
+    )
+
+    phi = (
+        f
+        *
+        problem.phi_phase
+    )
+
+    ux = np.exp(
+        1j
+        *
+        ax
+    )
+
+    uz = np.exp(
+        1j
+        *
+        az
+    )
+
+    ux2 = (
+        ux
+        *
+        ux
+    )
+
+    uz2 = (
+        uz
+        *
+        uz
+    )
+
+    rphi_x = (
+        phi[
+            1:,
+            :
+        ]
+
+        -
+        ux2
+        *
+        phi[
+            :-1,
+            :
+        ]
+    )
+
+    rphi_z = (
+        phi[
+            :,
+            1:
+        ]
+
+        -
+        uz2
+        *
+        phi[
+            :,
+            :-1
+        ]
+    )
+
+    rs_x = (
+        s[
+            1:,
+            :
+        ]
+
+        -
+        s[
+            :-1,
+            :
+        ]
+    )
+
+    rs_z = (
+        s[
+            :,
+            1:
+        ]
+
+        -
+        s[
+            :,
+            :-1
+        ]
+    )
+
+    scalar_gradient = float(
+        np.sum(
+            np.abs(
+                rphi_x
+            ) ** 2
+        )
+
+        +
+        np.sum(
+            np.abs(
+                rphi_z
+            ) ** 2
+        )
+
+        +
+        np.sum(
+            rs_x
+            *
+            rs_x
+        )
+
+        +
+        np.sum(
+            rs_z
+            *
+            rs_z
+        )
+    )
+
+    flux = plaquette(
+        ax,
+        az,
+    )
+
+    gauge_energy = float(
+        0.5
+        /
+        (
+            m.G_X
+            *
+            m.G_X
+            *
+            problem.dx
+            *
+            problem.dx
+        )
+        *
+        np.sum(
+            flux
+            *
+            flux
+        )
+    )
+
+    potential = base_potential(
+        problem,
+        f,
+        s,
+    )
+
+    potential_energy = float(
+        problem.dx
+        *
+        problem.dx
+        *
+        np.sum(
+            problem.weights
+            *
+            potential
+        )
+    )
+
+    total = (
+        scalar_gradient
+        +
+        gauge_energy
+        +
+        potential_energy
+    )
+
+    # -----------------------------------------------------------------------
+    # Phi complex link gradient.
+    # -----------------------------------------------------------------------
+
+    g_phi = np.zeros_like(
+        phi,
+        dtype=complex,
+    )
+
+    g_phi[
+        1:,
+        :
+    ] += rphi_x
+
+    g_phi[
+        :-1,
+        :
+    ] += (
+        -np.conj(
+            ux2
+        )
+        *
+        rphi_x
+    )
+
+    g_phi[
+        :,
+        1:
+    ] += rphi_z
+
+    g_phi[
+        :,
+        :-1
+    ] += (
+        -np.conj(
+            uz2
+        )
+        *
+        rphi_z
+    )
+
+    g_f = (
+        2.0
+        *
+        np.real(
+            np.conj(
+                problem.phi_phase
+            )
+            *
+            g_phi
+        )
+    )
+
+    # -----------------------------------------------------------------------
+    # Sigma real link gradient.
+    # -----------------------------------------------------------------------
+
+    g_s = np.zeros_like(
+        s,
+        dtype=float,
+    )
+
+    g_s[
+        1:,
+        :
+    ] += (
+        2.0
+        *
+        rs_x
+    )
+
+    g_s[
+        :-1,
+        :
+    ] -= (
+        2.0
+        *
+        rs_x
+    )
+
+    g_s[
+        :,
+        1:
+    ] += (
+        2.0
+        *
+        rs_z
+    )
+
+    g_s[
+        :,
+        :-1
+    ] -= (
+        2.0
+        *
+        rs_z
+    )
+
+    weight = (
+        problem.weights
+        *
+        problem.dx
+        *
+        problem.dx
+    )
+
+    dv_df = (
+        m.LAMBDA_PHI
+        *
+        f
+        *
+        (
+            f
+            *
+            f
+            -
+            m.ETA_PHI
+            *
+            m.ETA_PHI
+        )
+
+        +
+        2.0
+        *
+        m.BETA
+        *
+        f
+        *
+        s
+        *
+        s
+    )
+
+    dv_ds = (
+        m.LAMBDA_SIGMA
+        *
+        s
+        *
+        (
+            s
+            *
+            s
+            -
+            m.ETA_SIGMA
+            *
+            m.ETA_SIGMA
+        )
+
+        +
+        2.0
+        *
+        m.BETA
+        *
+        f
+        *
+        f
+        *
+        s
+
+        -
+        2.0
+        *
+        problem.chi
+        *
+        s
+    )
+
+    g_f += (
+        weight
+        *
+        dv_df
+    )
+
+    g_s += (
+        weight
+        *
+        dv_ds
+    )
+
+    # -----------------------------------------------------------------------
+    # Gauge-link gradients from charge-2 Phi.
+    # -----------------------------------------------------------------------
+
+    g_ax = (
+        4.0
+        *
+        np.imag(
+            np.conj(
+                phi[
+                    1:,
+                    :
+                ]
+            )
+            *
+            ux2
+            *
+            phi[
+                :-1,
+                :
+            ]
+        )
+    )
+
+    g_az = (
+        4.0
+        *
+        np.imag(
+            np.conj(
+                phi[
+                    :,
+                    1:
+                ]
+            )
+            *
+            uz2
+            *
+            phi[
+                :,
+                :-1
+            ]
+        )
+    )
+
+    gauge_coefficient = (
+        1.0
+        /
+        (
+            m.G_X
+            *
+            m.G_X
+            *
+            problem.dx
+            *
+            problem.dx
+        )
+    )
+
+    gf = (
+        gauge_coefficient
+        *
+        flux
+    )
+
+    g_ax[
+        :,
+        :-1
+    ] += gf
+
+    g_az[
+        1:,
+        :
+    ] += gf
+
+    g_ax[
+        :,
+        1:
+    ] -= gf
+
+    g_az[
+        :-1,
+        :
+    ] -= gf
+
+    gradient = np.concatenate(
+        [
+            g_f[
+                problem.f_free
+            ],
+
+            g_s[
+                problem.s_free
+            ],
+
+            g_ax[
+                problem.ax_free
+            ],
+
+            g_az[
+                problem.az_free
+            ],
+        ]
+    )
+
+    return (
+        total,
+        gradient,
+    )
+
+
+def base_active_source(
+    problem: BaseProblem,
+    f: np.ndarray,
+    s: np.ndarray,
+    ax: np.ndarray,
+    az: np.ndarray,
+) -> float:
+    """Integrate the physical active line source of the base lattice string."""
+
+    potential = base_potential(
+        problem,
+        f,
+        s,
+    )
+
+    measure = (
+        problem.weights
+        *
+        problem.dx
+        *
+        problem.dx
+    )
+
+    sigma2_grid = float(
+        np.sum(
+            measure
+            *
+            s
+            *
+            s
+        )
+    )
+
+    potential_integral = float(
+        np.sum(
+            measure
+            *
+            potential
+        )
+    )
+
+    flux = plaquette(
+        ax,
+        az,
+    )
+
+    b2_integral = float(
+        1.0
+        /
+        (
+            m.G_X
+            *
+            m.G_X
+            *
+            problem.dx
+            *
+            problem.dx
+        )
+        *
+        np.sum(
+            flux
+            *
+            flux
+        )
+    )
+
+    return (
+        2.0
+        *
+        (
+            OMEGA**2
+            +
+            K_LONG**2
+        )
+        *
+        sigma2_grid
+
+        -
+        2.0
+        *
+        potential_integral
+
+        +
+        b2_integral
+    )
+
+
+def solve_base_case(
+    chi: float,
+    n: int,
+    box_half: float,
+) -> BaseResult:
+    """Relax the original 017P string on one square lattice."""
+
+    problem = build_base_problem(
+        chi,
+        n,
+        box_half,
+    )
+
+    variables0 = pack_base(
+        problem
+    )
+
+    e0, _ = (
+        base_objective_and_gradient(
+            problem,
+            variables0,
+        )
+    )
+
+    (
+        f0,
+        s0,
+        ax0,
+        az0,
+    ) = unpack_base(
+        problem,
+        variables0,
+    )
+
+    result = minimize(
+        lambda vector: base_objective_and_gradient(
+            problem,
+            vector,
+        ),
+        variables0,
+        method="L-BFGS-B",
+        jac=True,
+        bounds=base_bounds(
+            problem
+        ),
+        options={
+            "maxiter":
+                1400,
+
+            "ftol":
+                2.0e-12,
+
+            "gtol":
+                2.0e-7,
+
+            "maxls":
+                50,
+
+            "maxcor":
+                20,
+        },
+    )
+
+    (
+        f,
+        s,
+        ax,
+        az,
+    ) = unpack_base(
+        problem,
+        result.x,
+    )
+
+    e1, gradient = (
+        base_objective_and_gradient(
+            problem,
+            result.x,
+        )
+    )
+
+    grad_rms = float(
+        np.linalg.norm(
+            gradient
+        )
+        /
+        math.sqrt(
+            gradient.size
+        )
+    )
+
+    grad_max = float(
+        np.max(
+            np.abs(
+                gradient
+            )
+        )
+    )
+
+    measure = (
+        problem.weights
+        *
+        problem.dx
+        *
+        problem.dx
+    )
+
+    sigma2_initial = float(
+        np.sum(
+            measure
+            *
+            s0
+            *
+            s0
+        )
+    )
+
+    sigma2_relaxed = float(
+        np.sum(
+            measure
+            *
+            s
+            *
+            s
+        )
+    )
+
+    active_initial = (
+        base_active_source(
+            problem,
+            f0,
+            s0,
+            ax0,
+            az0,
+        )
+    )
+
+    active_relaxed = (
+        base_active_source(
+            problem,
+            f,
+            s,
+            ax,
+            az,
+        )
+    )
+
+    success = (
+        grad_rms
+        <
+        MAX_DIAGNOSTIC_GRAD_RMS
+
+        and
+        grad_max
+        <
+        MAX_DIAGNOSTIC_GRAD_MAX
+    )
+
+    return BaseResult(
+        chi=float(
+            chi
+        ),
+
+        n=n,
+        box_half=box_half,
+        dx=problem.dx,
+
+        success=success,
+        iterations=int(
+            result.nit
+        ),
+        message=str(
+            result.message
+        ),
+
+        energy_initial=float(
+            e0
+        ),
+        energy_relaxed=float(
+            e1
+        ),
+        delta_energy=float(
+            e1
+            -
+            e0
+        ),
+
+        sigma2_initial_grid=(
+            sigma2_initial
+        ),
+        sigma2_relaxed_grid=(
+            sigma2_relaxed
+        ),
+        delta_sigma2=float(
+            sigma2_relaxed
+            -
+            sigma2_initial
+        ),
+
+        active_initial=float(
+            active_initial
+        ),
+        active_relaxed=float(
+            active_relaxed
+        ),
+        delta_active=float(
+            active_relaxed
+            -
+            active_initial
+        ),
+
+        grad_rms=grad_rms,
+        grad_max=grad_max,
+
+        f=f,
+        s=s,
+
+        ax=ax,
+        az=az,
+
+        problem=problem,
+    )
+
+
+# ============================================================================
+# Base-gradient validation.
+# ============================================================================
+
+
+def base_gradient_check() -> float:
+    """Directional finite-difference audit of the control objective."""
+
+    problem = build_base_problem(
+        CHI_SELECTED,
+        GRADIENT_CASE[
+            0
+        ],
+        GRADIENT_CASE[
+            1
+        ],
+    )
+
+    variables = pack_base(
+        problem
+    )
+
+    _, gradient = (
+        base_objective_and_gradient(
+            problem,
+            variables,
+        )
+    )
+
+    rng = np.random.default_rng(
+        18061
+    )
+
+    direction = rng.normal(
+        size=variables.size
+    )
+
+    direction /= np.linalg.norm(
+        direction
+    )
+
+    epsilon = 5.0e-7
+
+    ep, _ = (
+        base_objective_and_gradient(
+            problem,
+            variables
+            +
+            epsilon
+            *
+            direction,
+        )
+    )
+
+    em, _ = (
+        base_objective_and_gradient(
+            problem,
+            variables
+            -
+            epsilon
+            *
+            direction,
+        )
+    )
+
+    numerical = (
+        ep
+        -
+        em
+    ) / (
+        2.0
+        *
+        epsilon
+    )
+
+    analytic = float(
+        np.dot(
+            gradient,
+            direction,
+        )
+    )
+
+    return (
+        abs(
+            numerical
+            -
+            analytic
+        )
+        /
+        max(
+            abs(
+                numerical
+            ),
+            abs(
+                analytic
+            ),
+            1.0e-14,
+        )
+    )
+
+
+# ============================================================================
+# Resolution-scale diagnostics.
+# ============================================================================
+
+
+def crossing_radius(
+    radius: np.ndarray,
+    values: np.ndarray,
+    target: float,
+    increasing: bool,
+) -> float:
+    """Interpolate the first monotonic threshold crossing."""
+
+    if increasing:
+
+        indices = np.where(
+            values
+            >=
+            target
+        )[
+            0
+        ]
+
+    else:
+
+        indices = np.where(
+            values
+            <=
+            target
+        )[
+            0
+        ]
+
+    if indices.size == 0:
+        return math.nan
+
+    index = int(
+        indices[
+            0
+        ]
+    )
+
+    if index == 0:
+        return float(
+            radius[
+                0
+            ]
+        )
+
+    x0 = float(
+        radius[
+            index
+            -
+            1
+        ]
+    )
+
+    x1 = float(
+        radius[
+            index
+        ]
+    )
+
+    y0 = float(
+        values[
+            index
+            -
+            1
+        ]
+    )
+
+    y1 = float(
+        values[
+            index
+        ]
+    )
+
+    if y1 == y0:
+        return x1
+
+    fraction = (
+        target
+        -
+        y0
+    ) / (
+        y1
+        -
+        y0
+    )
+
+    return (
+        x0
+        +
+        fraction
+        *
+        (
+            x1
+            -
+            x0
+        )
+    )
+
+
+def radial_resolution_audit():
+    """Measure actual 017P core widths and compare them with prior dx."""
+
+    m.CHI_SELECTED = (
+        CHI_SELECTED
+    )
+
+    solution = (
+        m.solve_017p_background()
+    )
+
+    radius = np.linspace(
+        1.0e-4,
+        20.0,
+        100000,
+    )
+
+    (
+        f,
+        _,
+        s,
+        _,
+        _,
+        _,
+    ) = solution.sol(
+        radius
+    )
+
+    f10 = crossing_radius(
+        radius,
+        f,
+        0.10
+        *
+        m.ETA_PHI,
+        True,
+    )
+
+    f90 = crossing_radius(
+        radius,
+        f,
+        0.90
+        *
+        m.ETA_PHI,
+        True,
+    )
+
+    f_width = (
+        f90
+        -
+        f10
+    )
+
+    s_center = float(
+        s[
+            0
+        ]
+    )
+
+    s90 = crossing_radius(
+        radius,
+        s,
+        0.90
+        *
+        s_center,
+        False,
+    )
+
+    s50 = crossing_radius(
+        radius,
+        s,
+        0.50
+        *
+        s_center,
+        False,
+    )
+
+    s10 = crossing_radius(
+        radius,
+        s,
+        0.10
+        *
+        s_center,
+        False,
+    )
+
+    s_width = (
+        s10
+        -
+        s90
+    )
+
+    return {
+        "f10":
+            f10,
+
+        "f90":
+            f90,
+
+        "f_width":
+            f_width,
+
+        "s_center":
+            s_center,
+
+        "s90":
+            s90,
+
+        "s50":
+            s50,
+
+        "s10":
+            s10,
+
+        "s_width":
+            s_width,
+    }
+
+
+# ============================================================================
+# Matched controls.
+# ============================================================================
+
+
+BASE_CACHE = {}
+
+
+def cached_base(
+    chi: float,
+    n: int,
+    box_half: float,
+):
+    """Solve or reuse one original-017P matched lattice control."""
+
+    key = (
+        round(
+            float(
+                chi
+            ),
+            9,
+        ),
+        int(
+            n
+        ),
+        float(
+            box_half
+        ),
+    )
+
+    if key not in BASE_CACHE:
+        BASE_CACHE[
+            key
+        ] = solve_base_case(
+            chi,
+            n,
+            box_half,
+        )
+
+    return BASE_CACHE[
+        key
+    ]
+
+
+def matched_quantities(
+    chi: float,
+    n: int,
+    box_half: float,
+):
+    """Return the full KLS result with common-mode base relaxation removed."""
+
+    full = fc.cached_case(
+        chi,
+        n,
+        box_half,
+    )
+
+    base = cached_base(
+        chi,
+        n,
+        box_half,
+    )
+
+    corrected_relaxation = (
+        full.relaxation_delta_energy
+        -
+        base.delta_energy
+    )
+
+    mu_matched = (
+        full.mu_fixed
+        +
+        corrected_relaxation
+    )
+
+    delta_sigma2_matched = (
+        full.delta_sigma2
+        -
+        base.delta_sigma2
+    )
+
+    sigma2_matched = (
+        full.sigma2_background
+        +
+        delta_sigma2_matched
+    )
+
+    full_measure = (
+        full.problem.weights
+        *
+        full.dx
+        *
+        full.dx
+    )
+
+    sigma2_grid_full = float(
+        np.sum(
+            full_measure
+            *
+            full.s
+            *
+            full.s
+        )
+    )
+
+    active_full = (
+        fc.active_source_diagnostics(
+            full
+        )
+    )
+
+    matched_junction_active = (
+        active_full[
+            "fixed_junction_active"
+        ]
+
+        +
+        active_full[
+            "active_relaxation_delta"
+        ]
+
+        -
+        base.delta_active
+    )
+
+    active_line_pair = (
+        4.0
+        *
+        full.sigma2_background
+        *
+        (
+            OMEGA**2
+            +
+            K_LONG**2
+        )
+    )
+
+    matched_pair_fraction = (
+        2.0
+        *
+        abs(
+            matched_junction_active
+        )
+        /
+        active_line_pair
+    )
+
+    return {
+        "full":
+            full,
+
+        "base":
+            base,
+
+        "corrected_relaxation":
+            corrected_relaxation,
+
+        "mu_matched":
+            mu_matched,
+
+        "delta_sigma2_matched":
+            delta_sigma2_matched,
+
+        "sigma2_matched":
+            sigma2_matched,
+
+        "sigma2_grid_full":
+            sigma2_grid_full,
+
+        "matched_junction_active":
+            matched_junction_active,
+
+        "matched_pair_fraction":
+            matched_pair_fraction,
+    }
+
+
+# ============================================================================
+# Main audit.
+# ============================================================================
+
+
+def main() -> None:
+    """Execute the complete 018A-6B1 matched-lattice control gate."""
+
+    original_chi = float(
+        m.CHI_SELECTED
+    )
+
+    print(
+        "=== ANTIGRAVITY_RESEARCH 018A-6B1 ==="
+    )
+
+    print(
+        "QUESTION="
+        "IS_THE_018A6B_RESOLUTION_FAILURE_DOMINATED_BY_COMMON_MODE_017P_LATTICE_RELAXATION"
+    )
+
+    # ========================================================================
+    # Radial scale audit.
+    # ========================================================================
+
+    print(
+        "\n=== 017P CORE RESOLUTION AUDIT ==="
+    )
+
+    widths = radial_resolution_audit()
+
+    print(
+        "PHI_R10="
+        f"{widths['f10']:.12f}"
+    )
+
+    print(
+        "PHI_R90="
+        f"{widths['f90']:.12f}"
+    )
+
+    print(
+        "PHI_10_TO_90_WIDTH="
+        f"{widths['f_width']:.12f}"
+    )
+
+    print(
+        "SIGMA_CENTER="
+        f"{widths['s_center']:.12e}"
+    )
+
+    print(
+        "SIGMA_R90="
+        f"{widths['s90']:.12f}"
+    )
+
+    print(
+        "SIGMA_R50="
+        f"{widths['s50']:.12f}"
+    )
+
+    print(
+        "SIGMA_R10="
+        f"{widths['s10']:.12f}"
+    )
+
+    print(
+        "SIGMA_90_TO_10_WIDTH="
+        f"{widths['s_width']:.12f}"
+    )
+
+    min_prior_intervals = math.inf
+
+    for (
+        n,
+        box_half,
+    ) in RESOLUTION_CASES:
+
+        dx = (
+            2.0
+            *
+            box_half
+            /
+            (
+                n
+                -
+                1
+            )
+        )
+
+        f_intervals = (
+            widths[
+                "f_width"
+            ]
+            /
+            dx
+        )
+
+        s_intervals = (
+            widths[
+                "s_width"
+            ]
+            /
+            dx
+        )
+
+        min_prior_intervals = min(
+            min_prior_intervals,
+            f_intervals,
+            s_intervals,
+        )
+
+        print(
+            "CORE_RESOLUTION "
+            f"N={n} "
+            f"DX={dx:.12f} "
+            f"PHI_INTERVALS_10_TO_90={f_intervals:.6f} "
+            f"SIGMA_INTERVALS_90_TO_10={s_intervals:.6f}"
+        )
+
+    underresolved = (
+        min_prior_intervals
+        <
+        4.0
+    )
+
+    print(
+        "PRIOR_FULL_COUPLED_CORE_RESOLUTION="
+        f"{'UNDERRESOLVED' if underresolved else 'ADEQUATE_PREFLIGHT'}"
+    )
+
+    # ========================================================================
+    # Base control gradient.
+    # ========================================================================
+
+    print(
+        "\n=== BASE-ONLY ANALYTIC GRADIENT CHECK ==="
+    )
+
+    gradient_error = (
+        base_gradient_check()
+    )
+
+    base_gradient_pass = (
+        gradient_error
+        <
+        MAX_BASE_GRADIENT_RELERR
+    )
+
+    print(
+        "BASE_GRADIENT_DIRECTIONAL_RELERR="
+        f"{gradient_error:.15e}"
+    )
+
+    print(
+        "BASE_ANALYTIC_GRADIENT="
+        f"{'PASS' if base_gradient_pass else 'FAIL'}"
+    )
+
+    if not base_gradient_pass:
+
+        print(
+            "018A6B1_MATCHED_LATTICE_CONTROL_AUDIT="
+            "RED"
+        )
+
+        print(
+            "NEXT="
+            "AUDIT_BASE_CONTROL_GRADIENT"
+        )
+
+        m.CHI_SELECTED = original_chi
+        return
+
+    # ========================================================================
+    # Resolution sequence.
+    # ========================================================================
+
+    print(
+        "\n=== MATCHED RESOLUTION CONTROLS ==="
+    )
+
+    resolution_records = []
+
+    for (
+        n,
+        box_half,
+    ) in RESOLUTION_CASES:
+
+        record = matched_quantities(
+            CHI_SELECTED,
+            n,
+            box_half,
+        )
+
+        resolution_records.append(
+            record
+        )
+
+        full = record[
+            "full"
+        ]
+
+        base = record[
+            "base"
+        ]
+
+        common_fraction = (
+            base.delta_energy
+            /
+            full.relaxation_delta_energy
+            if
+            abs(
+                full.relaxation_delta_energy
+            )
+            >
+            1.0e-30
+            else
+            math.nan
+        )
+
+        print(
+            "MATCHED_RESOLUTION "
+            f"N={n} "
+            f"DX={full.dx:.12f} "
+            f"FULL_DELTA_E={full.relaxation_delta_energy:+.15e} "
+            f"BASE_DELTA_E={base.delta_energy:+.15e} "
+            f"BASE_OVER_FULL={common_fraction:+.12f} "
+            f"CORRECTED_DELTA_E={record['corrected_relaxation']:+.15e} "
+            f"MU_FIXED={full.mu_fixed:+.15e} "
+            f"MU_MATCHED={record['mu_matched']:+.15e} "
+            f"FULL_DELTA_SIGMA2={full.delta_sigma2:+.15e} "
+            f"BASE_DELTA_SIGMA2={base.delta_sigma2:+.15e} "
+            f"MATCHED_DELTA_SIGMA2={record['delta_sigma2_matched']:+.15e} "
+            f"SIGMA2_MATCHED={record['sigma2_matched']:.15e} "
+            f"MATCHED_ACTIVE_PAIR_FRACTION={record['matched_pair_fraction']:.15e} "
+            f"BASE_OPT={'PASS' if base.success else 'DIAGNOSTIC'} "
+            f"FULL_GRAD_RMS={full.grad_rms:.6e} "
+            f"BASE_GRAD_RMS={base.grad_rms:.6e}"
+        )
+
+    full_delta = np.array(
+        [
+            record[
+                "full"
+            ].relaxation_delta_energy
+            for record
+            in resolution_records
+        ],
+        dtype=float,
+    )
+
+    corrected_delta = np.array(
+        [
+            record[
+                "corrected_relaxation"
+            ]
+            for record
+            in resolution_records
+        ],
+        dtype=float,
+    )
+
+    mu_matched = np.array(
+        [
+            record[
+                "mu_matched"
+            ]
+            for record
+            in resolution_records
+        ],
+        dtype=float,
+    )
+
+    sigma_matched = np.array(
+        [
+            record[
+                "sigma2_matched"
+            ]
+            for record
+            in resolution_records
+        ],
+        dtype=float,
+    )
+
+    raw_delta_range = float(
+        np.max(
+            full_delta
+        )
+        -
+        np.min(
+            full_delta
+        )
+    )
+
+    corrected_delta_range = float(
+        np.max(
+            corrected_delta
+        )
+        -
+        np.min(
+            corrected_delta
+        )
+    )
+
+    residual_fraction = (
+        corrected_delta_range
+        /
+        max(
+            raw_delta_range,
+            1.0e-30,
+        )
+    )
+
+    print(
+        "COMMON_MODE_RESIDUAL_RANGE_FRACTION="
+        f"{residual_fraction:.15e}"
+    )
+
+    common_mode_pass = (
+        residual_fraction
+        <
+        MAX_COMMON_MODE_RESIDUAL_FRACTION
+    )
+
+    print(
+        "BASE_LATTICE_RELAXATION_EXPLAINS_RESOLUTION_DRIFT="
+        f"{'PASS' if common_mode_pass else 'FAIL'}"
+    )
+
+    mu_scale = max(
+        float(
+            np.mean(
+                np.abs(
+                    mu_matched
+                )
+            )
+        ),
+        1.0e-3,
+    )
+
+    mu_spread = (
+        float(
+            np.max(
+                mu_matched
+            )
+            -
+            np.min(
+                mu_matched
+            )
+        )
+        /
+        mu_scale
+    )
+
+    sigma_spread = (
+        float(
+            np.max(
+                sigma_matched
+            )
+            -
+            np.min(
+                sigma_matched
+            )
+        )
+        /
+        float(
+            np.mean(
+                sigma_matched
+            )
+        )
+    )
+
+    print(
+        "MATCHED_MU_RESOLUTION_REL_SPREAD="
+        f"{mu_spread:.15e}"
+    )
+
+    print(
+        "MATCHED_SIGMA2_RESOLUTION_REL_SPREAD="
+        f"{sigma_spread:.15e}"
+    )
+
+    matched_resolution_pass = (
+        mu_spread
+        <
+        MAX_MATCHED_MU_REL_SPREAD
+
+        and
+        sigma_spread
+        <
+        MAX_MATCHED_SIGMA2_REL_SPREAD
+    )
+
+    print(
+        "MATCHED_RESOLUTION_CONVERGENCE="
+        f"{'PASS' if matched_resolution_pass else 'FAIL'}"
+    )
+
+    selected_record = (
+        resolution_records[
+            -1
+        ]
+    )
+
+    matched_active_pass = (
+        selected_record[
+            "matched_pair_fraction"
+        ]
+        <
+        MAX_MATCHED_ACTIVE_PAIR_FRACTION
+    )
+
+    print(
+        "MATCHED_SELECTED_JUNCTION_ACTIVE="
+        f"{selected_record['matched_junction_active']:+.15e}"
+    )
+
+    print(
+        "MATCHED_SELECTED_ACTIVE_PAIR_FRACTION="
+        f"{selected_record['matched_pair_fraction']:.15e}"
+    )
+
+    print(
+        "MATCHED_ACTIVE_SOURCE_BUDGET="
+        f"{'PASS' if matched_active_pass else 'FAIL'}"
+    )
+
+    # ========================================================================
+    # Chi continuation.
+    # ========================================================================
+
+    print(
+        "\n=== MATCHED COMMON-GRID CHI CONTINUATION ==="
+    )
+
+    chi_records = []
+
+    for chi in CHI_VALUES:
+
+        record = matched_quantities(
+            chi,
+            CHI_CASE[
+                0
+            ],
+            CHI_CASE[
+                1
+            ],
+        )
+
+        full = record[
+            "full"
+        ]
+
+        a_eff_matched = (
+            full.problem.radial_diag.a_string
+            +
+            record[
+                "mu_matched"
+            ]
+        )
+
+        raw_full_energy = (
+            full.energy_full
+        )
+
+        chi_records.append(
+            {
+                "chi":
+                    float(
+                        chi
+                    ),
+
+                "a_eff_matched":
+                    float(
+                        a_eff_matched
+                    ),
+
+                "sigma2_matched":
+                    float(
+                        record[
+                            "sigma2_matched"
+                        ]
+                    ),
+
+                "raw_full_energy":
+                    float(
+                        raw_full_energy
+                    ),
+
+                "sigma2_grid_full":
+                    float(
+                        record[
+                            "sigma2_grid_full"
+                        ]
+                    ),
+            }
+        )
+
+        print(
+            "MATCHED_CHI "
+            f"CHI={chi:.9f} "
+            f"A_EFF_MATCHED={a_eff_matched:.15e} "
+            f"SIGMA2_MATCHED={record['sigma2_matched']:.15e} "
+            f"RAW_FULL_E={raw_full_energy:.15e} "
+            f"RAW_GRID_SIGMA2={record['sigma2_grid_full']:.15e}"
+        )
+
+    chi_array = np.array(
+        [
+            record[
+                "chi"
+            ]
+            for record
+            in chi_records
+        ],
+        dtype=float,
+    )
+
+    matched_a = np.array(
+        [
+            record[
+                "a_eff_matched"
+            ]
+            for record
+            in chi_records
+        ],
+        dtype=float,
+    )
+
+    matched_sigma = np.array(
+        [
+            record[
+                "sigma2_matched"
+            ]
+            for record
+            in chi_records
+        ],
+        dtype=float,
+    )
+
+    raw_energy = np.array(
+        [
+            record[
+                "raw_full_energy"
+            ]
+            for record
+            in chi_records
+        ],
+        dtype=float,
+    )
+
+    raw_sigma = np.array(
+        [
+            record[
+                "sigma2_grid_full"
+            ]
+            for record
+            in chi_records
+        ],
+        dtype=float,
+    )
+
+    matched_poly = np.polyfit(
+        chi_array,
+        matched_a,
+        2,
+    )
+
+    raw_poly = np.polyfit(
+        chi_array,
+        raw_energy,
+        2,
+    )
+
+    d_matched = float(
+        np.polyval(
+            np.polyder(
+                matched_poly
+            ),
+            CHI_SELECTED,
+        )
+    )
+
+    d_raw = float(
+        np.polyval(
+            np.polyder(
+                raw_poly
+            ),
+            CHI_SELECTED,
+        )
+    )
+
+    matched_variational_relerr = (
+        abs(
+            d_matched
+            +
+            matched_sigma[
+                -1
+            ]
+        )
+        /
+        matched_sigma[
+            -1
+        ]
+    )
+
+    discrete_variational_relerr = (
+        abs(
+            d_raw
+            +
+            raw_sigma[
+                -1
+            ]
+        )
+        /
+        raw_sigma[
+            -1
+        ]
+    )
+
+    print(
+        "MATCHED_DA_DCHI="
+        f"{d_matched:+.15e}"
+    )
+
+    print(
+        "MATCHED_VARIATIONAL_RELERR="
+        f"{matched_variational_relerr:.15e}"
+    )
+
+    print(
+        "MATCHED_VARIATIONAL_IDENTITY="
+        f"{'PASS' if matched_variational_relerr < MAX_MATCHED_VARIATIONAL_RELERR else 'FAIL'}"
+    )
+
+    print(
+        "DISCRETE_DFULL_DCHI="
+        f"{d_raw:+.15e}"
+    )
+
+    print(
+        "DISCRETE_VARIATIONAL_RELERR="
+        f"{discrete_variational_relerr:.15e}"
+    )
+
+    print(
+        "DISCRETE_ENVELOPE_VARIATIONAL_IDENTITY="
+        f"{'PASS' if discrete_variational_relerr < MAX_DISCRETE_VARIATIONAL_RELERR else 'FAIL'}"
+    )
+
+    matched_variational_pass = (
+        matched_variational_relerr
+        <
+        MAX_MATCHED_VARIATIONAL_RELERR
+    )
+
+    discrete_variational_pass = (
+        discrete_variational_relerr
+        <
+        MAX_DISCRETE_VARIATIONAL_RELERR
+    )
+
+    # ========================================================================
+    # Decision.
+    # ========================================================================
+
+    numerical_artifact_supported = (
+        underresolved
+
+        and
+        common_mode_pass
+
+        and
+        matched_resolution_pass
+
+        and
+        matched_active_pass
+
+        and
+        (
+            matched_variational_pass
+            or
+            discrete_variational_pass
+        )
+    )
+
+    mixed = (
+        underresolved
+
+        and
+        not numerical_artifact_supported
+    )
+
+    print(
+        "\n=== 018A-6B1 DECISION ==="
+    )
+
+    print(
+        "PRIOR_FULL_COUPLED_CORE_RESOLUTION="
+        f"{'UNDERRESOLVED' if underresolved else 'ADEQUATE_PREFLIGHT'}"
+    )
+
+    print(
+        "BASE_LATTICE_RELAXATION_EXPLAINS_RESOLUTION_DRIFT="
+        f"{'PASS' if common_mode_pass else 'FAIL'}"
+    )
+
+    print(
+        "MATCHED_RESOLUTION_CONVERGENCE="
+        f"{'PASS' if matched_resolution_pass else 'FAIL'}"
+    )
+
+    print(
+        "MATCHED_ACTIVE_SOURCE_BUDGET="
+        f"{'PASS' if matched_active_pass else 'FAIL'}"
+    )
+
+    print(
+        "MATCHED_VARIATIONAL_IDENTITY="
+        f"{'PASS' if matched_variational_pass else 'FAIL'}"
+    )
+
+    print(
+        "DISCRETE_ENVELOPE_VARIATIONAL_IDENTITY="
+        f"{'PASS' if discrete_variational_pass else 'FAIL'}"
+    )
+
+    if numerical_artifact_supported:
+
+        print(
+            "018A6B1_MATCHED_LATTICE_CONTROL_AUDIT="
+            "GREEN"
+        )
+
+        print(
+            "018A6B_RED_INTERPRETATION="
+            "DOMINATED_BY_UNDERRESOLVED_COMMON_MODE_LATTICE_RELAXATION"
+        )
+
+        print(
+            "PHYSICAL_KLS_FULL_COUPLING_STATUS="
+            "NOT_YET_GREEN_BUT_NOT_FALSIFIED"
+        )
+
+        print(
+            "NEXT="
+            "018A6B2_FINE_LOCAL_MULTISCALE_FULL_COUPLED_JUNCTION"
+        )
+
+    elif mixed:
+
+        print(
+            "018A6B1_MATCHED_LATTICE_CONTROL_AUDIT="
+            "MIXED"
+        )
+
+        print(
+            "018A6B_RED_INTERPRETATION="
+            "NUMERICAL_ARTIFACT_PRESENT_BUT_NOT_SUFFICIENT_TO_EXPLAIN_ALL_FAILURES"
+        )
+
+        print(
+            "PHYSICAL_KLS_FULL_COUPLING_STATUS="
+            "UNRESOLVED"
+        )
+
+        print(
+            "NEXT="
+            "018A6B2_BLOCK_RELEASE_PHI_SIGMA_GAUGE_CHANNEL_DIAGNOSTIC"
+        )
+
+    else:
+
+        print(
+            "018A6B1_MATCHED_LATTICE_CONTROL_AUDIT="
+            "RED"
+        )
+
+        print(
+            "018A6B_RED_INTERPRETATION="
+            "NOT_EXPLAINED_BY_DECLARED_MATCHED_LATTICE_CONTROL"
+        )
+
+        print(
+            "PHYSICAL_KLS_FULL_COUPLING_STATUS="
+            "SERIOUS_NEGATIVE_EVIDENCE"
+        )
+
+        print(
+            "NEXT="
+            "IDENTIFY_PHYSICAL_NONPERTURBATIVE_CHANNEL_AND_RERANK_IF_UNAVOIDABLE"
+        )
+
+    print(
+        "FULLY_COUPLED_LOCAL_2D_KLS_JUNCTION="
+        "NOT_YET_ESTABLISHED"
+    )
+
+    print(
+        "FINITE_PAYLOAD_GRAVITY_WITH_COMPLETE_NEW_SECTOR="
+        "NOT_YET_TESTED"
+    )
+
+    print(
+        "FULL_018A_GATE="
+        "NOT_YET_GREEN"
+    )
+
+    print(
+        "018B_FULL_FINITE_THICKNESS_DRUM="
+        "NOT_YET_AUTHORIZED"
+    )
+
+    print(
+        "PRACTICAL_ANTIGRAVITY_DEVICE="
+        "NO"
+    )
+
+    print(
+        "CLAIM_CLASSIFICATION="
+        "PROJECT_DERIVED_018A_FULL_COUPLED_MATCHED_LATTICE_CONTROL_AUDIT"
+    )
+
+    m.CHI_SELECTED = (
+        original_chi
+    )
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,3974 @@
+#!/usr/bin/env python3
+"""Simulation 018B-1A — global toroidal curvature-continuation gate.
+
+PURPOSE
+-------
+Begin the true 018B global toroidal matter-field program after the complete
+source-level closeout 018B-0H.
+
+This file performs the first curvature-continuation stage required by the
+active buildplan.  It does NOT jump from the straight string directly to an
+unverified target-radius torus.
+
+The already-solved hierarchy is
+
+    straight two-current string BVP
+        -> planar nonthermal KLS wall BVP
+        -> fully coupled local string-wall junction
+        -> complete source/gravity closeout.
+
+This simulation adds the missing toroidal curvature terms and continues the
+fully coupled microscopic rim/junction fields from very large radius to the
+018B-0H target radius.
+
+ACTIVE SCIENTIFIC QUESTION
+--------------------------
+When the actual cylindrical geometry and exact azimuthal integer windings are
+inserted into the microscopic Euler-Lagrange functional, can the fully coupled
+two-current/KLS string-wall junction be continued smoothly to the finite target
+radius without losing:
+
+- field-equation stationarity;
+- one-wall topology;
+- both current condensates;
+- gauge flux;
+- outer matching to the global planar wall/vacuum patches;
+- exact integer winding;
+- finite field amplitudes?
+
+This is a decisive curvature gate.  A GREEN result authorizes the complete
+global multipatch stress-energy/gravity closeout 018B-1B.  It is not by itself
+the full 018B promotion to FIELD_THEORETICAL_CANDIDATE.
+
+PHYSICAL MODEL
+--------------
+Use the literature-backed two-current Abelian string plus the same-gauge KLS
+wall sector already solved in 018B-0G2.
+
+Cylindrical coordinates are
+
+    (r,z,phi).
+
+The vortex ring is centered at
+
+    r = R,
+    z = 0.
+
+Use local rim coordinates
+
+    x = r - R.
+
+The charge-two vortex-forming field is
+
+    H = h(x,z) exp(i theta),
+
+where
+
+    theta = atan2(z,x).
+
+The two neutral current carriers are
+
+    Phi =
+        phi(x,z)
+        exp[i(omega_phi t + N_phi varphi)],
+
+    Sigma =
+        sigma(x,z)
+        exp[i(omega_sigma t + N_sigma varphi)].
+
+Therefore the exact toroidal carrier state parameters entering the transverse
+Euler-Lagrange equations are spatially varying:
+
+    w_phi(r) =
+        N_phi^2/r^2
+        -
+        omega_phi^2,
+
+    w_sigma(r) =
+        N_sigma^2/r^2
+        -
+        omega_sigma^2.
+
+This is the curvature term absent from the straight-string and local Cartesian
+junction calculations.
+
+The charge-one KLS wall field A carries the half-poloidal winding and terminates
+on the vortex ring exactly as established in 018B-0F0 and 018B-0G2.
+
+GAUGE SECTOR
+------------
+Use the fundamental U(1)_X link angle
+
+    a_i =
+        g_X integral C_i dl.
+
+The charge-two H field sees
+
+    exp(-2 i a_i),
+
+and the charge-one A field sees
+
+    exp(-i a_i).
+
+Only the meridional gauge components are required by the axisymmetric ansatz.
+The current carriers are neutral.
+
+MULTIPATCH GLOBAL REPRESENTATION
+--------------------------------
+A uniform global grid would be scientifically wasteful because the target
+radius is enormous compared with the microscopic core.
+
+The global matter configuration is represented by three matched patches:
+
+1. INNER DISK-WALL PATCH
+
+   For r well inside the rim, the already independently solved planar wall is
+   used as an actual field solution across z.  It is not replaced by a stress
+   boundary condition.
+
+2. CURVED RIM/JUNCTION PATCH
+
+   A fully coupled two-dimensional microscopic patch centered on r=R releases
+
+       h,
+       Phi amplitude,
+       Sigma amplitude,
+       complex A,
+       radial gauge links,
+       vertical gauge links.
+
+   The action carries the exact cylindrical volume factor and exact
+   N_i^2/r^2 terms.
+
+3. OUTER VACUUM PATCH
+
+   Outside the rim the fields match to the vacuum.
+
+The inner planar wall and outer vacuum are exact lower-dimensional solutions.
+The curved patch is required to match them at its boundaries.  This is the
+multipatch strategy explicitly preferred by RESEARCH_BUILDPLAN.md.
+
+CONTINUATION PATH
+-----------------
+The buildplan requires continuation from very large radius rather than a jump.
+
+Use the rational radius/winding sequence
+
+    (R,N_phi,N_sigma) =
+        4    * target,
+        2    * target,
+        3/2  * target,
+        5/4  * target,
+        1    * target.
+
+At each stage N_phi and N_sigma are scaled by the same rational factor as R.
+Therefore
+
+    N_phi/R
+    and
+    N_sigma/R
+
+at the ring center are held exactly fixed while curvature 1/R is increased.
+
+This isolates curvature as the continuation parameter rather than changing the
+local straight-string state at the same time.
+
+The temporal frequencies are the 018B-0H laboratory-frame frequencies.
+
+REDUCED ACTION
+--------------
+The stationary field equations follow from the axisymmetric reduced functional
+
+    F =
+        2 pi integral r dr dz [
+            1/2 |D_perp H|^2
+            + 1/2 |grad_perp Phi|^2
+            + 1/2 |grad_perp Sigma|^2
+            + |D_perp A|^2
+            + 1/2 B_phi^2
+            + V_eff
+        ],
+
+with
+
+    V_eff =
+        V_static
+        + 1/2 (N_phi^2/r^2 - omega_phi^2) Phi^2
+        + 1/2 (N_sigma^2/r^2 - omega_sigma^2) Sigma^2.
+
+The optimizer divides the complete local functional by the constant 2 pi R.
+That normalization changes no stationary point and prevents the large target
+radius from creating an artificial optimizer scale.
+
+BOUNDARY / MATCHING CONDITIONS
+------------------------------
+The local curved patch uses continuum straight-string + planar-wall fields as
+outer matching data.
+
+This is not claimed to be exact merely because Dirichlet values are fixed.
+The code also measures a first-normal-difference mismatch between the optimized
+interior solution and the independently reconstructed outer matched profile.
+
+The matching metric must remain controlled through the curvature continuation.
+
+INPUTS
+------
+Required GREEN upstream artifacts:
+
+    results/logs/018b0d_literature_two_current_counterflow_gate.log
+    results/logs/018b0f0_lilley_kls_same_gauge_normalization_wall_bridge.log
+    results/logs/018b0g2_fully_coupled_two_current_matched_2d_junction.log
+    results/logs/018b0h_complete_source_gravity_revalidation.log
+
+Required source:
+
+    simulations/018b0g2_fully_coupled_two_current_matched_2d_junction.py
+
+The 018B-0H integer pair, radius, and boost are read from the executed log.
+No winding or radius is silently refit.
+
+OUTPUTS
+-------
+Report for every curvature stage:
+
+- exact scaled integer windings;
+- R and 1/R;
+- local ring-center k_i=N_i/R;
+- field-action gradient RMS/max;
+- carrier integrals and retention;
+- one-wall morphology;
+- gauge-invariant phase locking;
+- finite-patch gauge flux;
+- outer matching derivative mismatch;
+- relative field displacement from the preceding continuation stage.
+
+At the target radius additionally report:
+
+- exact N_i/R reconstruction;
+- target phase-invariant reconstruction;
+- field regularity;
+- curvature parameter wall_width/R;
+- curvature parameter core_width/R.
+
+UNITS
+-----
+Dimensionless natural units inherited from 018B-0D through 018B-0H.
+
+SIGN CONVENTIONS
+----------------
+The sign convention for N_i and omega_i is inherited from the executed 018B-0H
+stationary solution.
+
+No gravitational sign is newly promoted in this file.  The 018B-0H source-level
+gravity result is only carried forward as an upstream requirement.
+
+APPROXIMATION LEVEL
+-------------------
+This is a flat-spacetime matter-field solve.
+
+It includes cylindrical curvature of the actual microscopic rim/junction
+fields.
+
+It does not yet reconstruct the complete global T_munu and gravity from the
+curved fields.  That is the immediate 018B-1B gate after a GREEN continuation.
+
+It also does not include:
+
+- frame dragging;
+- nonlinear Einstein equations;
+- payload backreaction;
+- full composite stability.
+
+VALIDATION
+----------
+Require:
+
+- 94-test known-solution baseline before execution;
+- independent reconstruction of the straight string and planar wall inherited
+  through the 018B-0G2 module;
+- two directional finite-difference checks of the new cylindrical analytic
+  gradient;
+- all curvature stages satisfy the declared field residual;
+- topology and both condensates survive every stage;
+- exact N_i/R center values are preserved by the rational continuation;
+- target solution remains regular;
+- outer matching mismatch remains controlled;
+- no stage requires changing the microscopic Lagrangian.
+
+FALSIFICATION / STOP RULE
+-------------------------
+If curvature continuation:
+
+- fails to converge;
+- destroys one wall;
+- loses a condensate;
+- develops singular/unbounded fields;
+- produces uncontrolled outer matching;
+- or cannot reach the target radius,
+
+then do not claim a global 018B solution and do not proceed to stability merely
+because the source-level 018B-0H model was favorable.
+
+Classify the failed curvature channel first.
+
+PROMOTION CONDITION
+-------------------
+GREEN here means:
+
+    TOROIDAL_CURVATURE_CONTINUATION_TO_TARGET=
+    SUPPORTED
+
+and authorizes:
+
+    018B-1B_GLOBAL_MULTIPATCH_T_MUNU_GRAVITY_AND_CONVERGENCE_CLOSEOUT.
+
+The project heuristic remains approximately 66 percent after this gate alone.
+
+A genuine positive 018B promotion still requires the complete global outputs
+and independent reconstruction demanded by the buildplan.
+
+CLAIM CLASSIFICATION
+--------------------
+PROJECT_DERIVED_018B1A_GLOBAL_TOROIDAL_CURVATURE_CONTINUATION_GATE
+
+WHAT THIS FILE DOES NOT ESTABLISH
+---------------------------------
+- full 018B FIELD_THEORETICAL_CANDIDATE status;
+- complete global curved-source T_munu;
+- local conservation of the reconstructed global T_munu;
+- independently reconstructed global gravity;
+- full dynamic stability;
+- stationary frame-dragging consistency;
+- nonlinear Einstein-matter consistency;
+- practical energy scaling;
+- a practical antigravity device;
+- new physics discovery.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from fractions import Fraction
+import importlib.util
+import math
+from pathlib import Path
+import re
+import sys
+
+import numpy as np
+from scipy.optimize import minimize
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+D_LOG = ROOT / "results/logs/018b0d_literature_two_current_counterflow_gate.log"
+F0_LOG = ROOT / "results/logs/018b0f0_lilley_kls_same_gauge_normalization_wall_bridge.log"
+G2_LOG = ROOT / "results/logs/018b0g2_fully_coupled_two_current_matched_2d_junction.log"
+H_LOG = ROOT / "results/logs/018b0h_complete_source_gravity_revalidation.log"
+
+OUTPUT_NPZ = ROOT / "results/data/018b1a_global_toroidal_curvature_target.npz"
+
+G2_SOURCE = (
+    ROOT
+    / "simulations"
+    / "018b0g2_fully_coupled_two_current_matched_2d_junction.py"
+)
+
+PRIMARY_N = 41
+PRIMARY_BOX_HALF = 12.0
+PRIMARY_BLEND_FACTOR = 2.0
+
+GRADIENT_RMS_TOL = 2.0e-6
+GRADIENT_MAX_TOL = 2.0e-5
+GRADIENT_CHECK_TOL = 3.0e-5
+
+MIN_PHASE_LOCK_COS = 0.97
+MAX_WALL_CONTRAST = 0.20
+MIN_CARRIER_RETENTION = 0.80
+MAX_MATCHING_DERIVATIVE_MISMATCH = 0.12
+
+MAXITER = 1800
+
+CONTINUATION_RATIOS = (
+    Fraction(4, 1),
+    Fraction(2, 1),
+    Fraction(3, 2),
+    Fraction(5, 4),
+    Fraction(1, 1),
+)
+
+
+@dataclass
+class ToroidalProblem:
+    """One cylindrical local rim patch embedded in global wall/vacuum patches."""
+
+    n: int
+    box_half: float
+    dx: float
+
+    R: float
+    n_phi: int
+    n_sigma: int
+
+    omega_phi: float
+    omega_sigma: float
+
+    x: np.ndarray
+    z: np.ndarray
+    X: np.ndarray
+    Z: np.ndarray
+
+    cylindrical_r: np.ndarray
+    core_radius: np.ndarray
+    phase: np.ndarray
+
+    node_weights: np.ndarray
+
+    h0: np.ndarray
+    phi0: np.ndarray
+    sigma0: np.ndarray
+    a0: np.ndarray
+    ax0: np.ndarray
+    az0: np.ndarray
+
+    h_free: np.ndarray
+    phi_free: np.ndarray
+    sigma_free: np.ndarray
+    a_free: np.ndarray
+    ax_free: np.ndarray
+    az_free: np.ndarray
+
+
+@dataclass
+class ToroidalResult:
+    """Relaxed curved-rim field state and diagnostics."""
+
+    problem: ToroidalProblem
+
+    normalized_action: float
+    gradient_rms: float
+    gradient_max: float
+
+    optimizer_success: bool
+    iterations: int
+
+    h: np.ndarray
+    phi: np.ndarray
+    sigma: np.ndarray
+    a: np.ndarray
+    ax: np.ndarray
+    az: np.ndarray
+
+    sigma_phi_normalized: float
+    sigma_sigma_normalized: float
+
+    wall_contrast: float
+    phase_lock_cos: float
+    flux_angle: float
+
+    matching_mismatch: float
+    regularity_pass: bool
+
+
+def load_module(name: str, path: Path):
+    """Import one repository simulation without invoking its main function."""
+
+    spec = importlib.util.spec_from_file_location(name, path)
+
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Cannot import {path}")
+
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+
+    try:
+        spec.loader.exec_module(module)
+    except Exception:
+        sys.modules.pop(name, None)
+        raise
+
+    return module
+
+
+def require_marker(path: Path, marker: str) -> None:
+    """Require a GREEN upstream marker before inheriting its outputs."""
+
+    if not path.exists():
+        raise RuntimeError(f"Missing upstream artifact: {path}")
+
+    text = path.read_text(errors="replace")
+
+    if marker not in text:
+        raise RuntimeError(f"Missing upstream marker {marker!r} in {path}")
+
+
+def scalar(path: Path, label: str) -> float:
+    """Read one finite floating-point scalar following an exact label."""
+
+    text = path.read_text(errors="replace")
+
+    number = r"([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)"
+
+    match = re.search(
+        re.escape(label) + number,
+        text,
+    )
+
+    if match is None:
+        raise RuntimeError(f"Missing {label!r} in {path}")
+
+    value = float(match.group(1))
+
+    if not math.isfinite(value):
+        raise RuntimeError(f"Nonfinite {label!r} in {path}")
+
+    return value
+
+
+def integer_scalar(path: Path, label: str) -> int:
+    """Read one signed integer following an exact label."""
+
+    text = path.read_text(errors="replace")
+
+    match = re.search(
+        re.escape(label) + r"([+-]?\d+)",
+        text,
+    )
+
+    if match is None:
+        raise RuntimeError(f"Missing integer {label!r} in {path}")
+
+    return int(match.group(1))
+
+
+def scaled_integer(value: int, ratio: Fraction) -> int:
+    """Scale an exact winding by a rational continuation ratio."""
+
+    numerator = value * ratio.numerator
+
+    if numerator % ratio.denominator != 0:
+        raise RuntimeError(
+            "Continuation ratio does not preserve integer winding: "
+            f"value={value} ratio={ratio}"
+        )
+
+    return numerator // ratio.denominator
+
+
+def build_problem(
+    g2,
+    p,
+    data,
+    *,
+    R: float,
+    n_phi: int,
+    n_sigma: int,
+    omega_phi: float,
+    omega_sigma: float,
+    n: int = PRIMARY_N,
+    box_half: float = PRIMARY_BOX_HALF,
+    blend_factor: float = PRIMARY_BLEND_FACTOR,
+) -> ToroidalProblem:
+    """Build one cylindrical curved-rim patch from the established continuum data."""
+
+    x = np.linspace(
+        -box_half,
+        box_half,
+        n,
+    )
+
+    z = np.linspace(
+        -box_half,
+        box_half,
+        n,
+    )
+
+    dx = float(
+        x[1]
+        -
+        x[0]
+    )
+
+    X, Z = np.meshgrid(
+        x,
+        z,
+        indexing="ij",
+    )
+
+    cylindrical_r = (
+        R
+        +
+        X
+    )
+
+    if np.min(cylindrical_r) <= 0.0:
+        raise RuntimeError(
+            "Local toroidal patch crossed the cylindrical axis"
+        )
+
+    core_radius = np.hypot(
+        X,
+        Z,
+    )
+
+    theta = np.arctan2(
+        Z,
+        X,
+    )
+
+    phase = np.exp(
+        1.0j
+        *
+        theta
+    )
+
+    phase[
+        core_radius
+        <
+        1.0e-14
+    ] = 1.0 + 0.0j
+
+    h_radial, _Q_node, phi_radial, sigma_radial = g2.radial_values(
+        data,
+        np.maximum(
+            core_radius,
+            g2.RADIAL_EPS,
+        ),
+    )
+
+    x_mid = (
+        0.5
+        *
+        (
+            x[:-1, None]
+            +
+            x[1:, None]
+        )
+    )
+
+    z_on_x = np.broadcast_to(
+        z[None, :],
+        (
+            n - 1,
+            n,
+        ),
+    )
+
+    core_mid_x = np.hypot(
+        x_mid,
+        z_on_x,
+    )
+
+    Q_mid_x = g2.radial_values(
+        data,
+        np.maximum(
+            core_mid_x,
+            g2.RADIAL_EPS,
+        ),
+    )[
+        1
+    ]
+
+    ax0 = (
+        0.5
+        *
+        (
+            Q_mid_x
+            -
+            1.0
+        )
+        *
+        (
+            -z_on_x
+            /
+            np.maximum(
+                core_mid_x
+                *
+                core_mid_x,
+                1.0e-14,
+            )
+        )
+        *
+        dx
+    )
+
+    x_on_z = np.broadcast_to(
+        x[:, None],
+        (
+            n,
+            n - 1,
+        ),
+    )
+
+    z_mid = (
+        0.5
+        *
+        (
+            z[None, :-1]
+            +
+            z[None, 1:]
+        )
+    )
+
+    core_mid_z = np.hypot(
+        x_on_z,
+        z_mid,
+    )
+
+    Q_mid_z = g2.radial_values(
+        data,
+        np.maximum(
+            core_mid_z,
+            g2.RADIAL_EPS,
+        ),
+    )[
+        1
+    ]
+
+    az0 = (
+        0.5
+        *
+        (
+            Q_mid_z
+            -
+            1.0
+        )
+        *
+        (
+            x_on_z
+            /
+            np.maximum(
+                core_mid_z
+                *
+                core_mid_z,
+                1.0e-14,
+            )
+        )
+        *
+        dx
+    )
+
+    H_wall, A_wall_abs = g2.planar_wall_values(
+        data,
+        Z,
+    )
+
+    blend_width = (
+        blend_factor
+        *
+        p.core_width
+    )
+
+    blend = (
+        0.5
+        *
+        (
+            1.0
+            -
+            np.tanh(
+                X
+                /
+                blend_width
+            )
+        )
+    )
+
+    h0 = (
+        h_radial
+        +
+        blend
+        *
+        (
+            H_wall
+            -
+            1.0
+        )
+    )
+
+    phi0 = phi_radial.copy()
+    sigma0 = sigma_radial.copy()
+
+    amplitude = (
+        g2.F_A
+        +
+        blend
+        *
+        (
+            A_wall_abs
+            -
+            g2.F_A
+        )
+    )
+
+    a0 = (
+        amplitude
+        *
+        np.exp(
+            0.5j
+            *
+            theta
+        )
+    )
+
+    center = (
+        n // 2,
+        n // 2,
+    )
+
+    h0[
+        center
+    ] = 0.0
+
+    a0[
+        center
+    ] = 0.0 + 0.0j
+
+    node_weights = np.ones(
+        (
+            n,
+            n,
+        ),
+        dtype=float,
+    )
+
+    node_weights[
+        [
+            0,
+            -1,
+        ],
+        :
+    ] *= 0.5
+
+    node_weights[
+        :,
+        [
+            0,
+            -1,
+        ]
+    ] *= 0.5
+
+    node_free = np.zeros(
+        (
+            n,
+            n,
+        ),
+        dtype=bool,
+    )
+
+    node_free[
+        1:-1,
+        1:-1
+    ] = True
+
+    h_free = node_free.copy()
+    h_free[
+        center
+    ] = False
+
+    phi_free = node_free.copy()
+    sigma_free = node_free.copy()
+    a_free = node_free.copy()
+
+    ax_free = np.zeros(
+        (
+            n - 1,
+            n,
+        ),
+        dtype=bool,
+    )
+
+    ax_free[
+        1:-1,
+        1:-1
+    ] = True
+
+    az_free = np.zeros(
+        (
+            n,
+            n - 1,
+        ),
+        dtype=bool,
+    )
+
+    az_free[
+        1:-1,
+        1:-1
+    ] = True
+
+    return ToroidalProblem(
+        n=n,
+        box_half=box_half,
+        dx=dx,
+
+        R=R,
+        n_phi=n_phi,
+        n_sigma=n_sigma,
+
+        omega_phi=omega_phi,
+        omega_sigma=omega_sigma,
+
+        x=x,
+        z=z,
+        X=X,
+        Z=Z,
+
+        cylindrical_r=cylindrical_r,
+        core_radius=core_radius,
+        phase=phase,
+
+        node_weights=node_weights,
+
+        h0=h0,
+        phi0=phi0,
+        sigma0=sigma0,
+        a0=a0,
+        ax0=ax0,
+        az0=az0,
+
+        h_free=h_free,
+        phi_free=phi_free,
+        sigma_free=sigma_free,
+        a_free=a_free,
+        ax_free=ax_free,
+        az_free=az_free,
+    )
+
+
+def pack(problem: ToroidalProblem) -> np.ndarray:
+    """Pack all released fields into one deterministic real vector."""
+
+    a_values = problem.a0[
+        problem.a_free
+    ]
+
+    return np.concatenate(
+        (
+            problem.h0[
+                problem.h_free
+            ],
+
+            problem.phi0[
+                problem.phi_free
+            ],
+
+            problem.sigma0[
+                problem.sigma_free
+            ],
+
+            a_values.real,
+            a_values.imag,
+
+            problem.ax0[
+                problem.ax_free
+            ],
+
+            problem.az0[
+                problem.az_free
+            ],
+        )
+    )
+
+
+def unpack(
+    problem: ToroidalProblem,
+    vector: np.ndarray,
+):
+    """Restore one optimizer vector to the complete field arrays."""
+
+    h = problem.h0.copy()
+    phi = problem.phi0.copy()
+    sigma = problem.sigma0.copy()
+    a = problem.a0.copy()
+    ax = problem.ax0.copy()
+    az = problem.az0.copy()
+
+    offset = 0
+
+    for array, mask in (
+        (
+            h,
+            problem.h_free,
+        ),
+        (
+            phi,
+            problem.phi_free,
+        ),
+        (
+            sigma,
+            problem.sigma_free,
+        ),
+    ):
+
+        count = int(
+            np.count_nonzero(
+                mask
+            )
+        )
+
+        array[
+            mask
+        ] = vector[
+            offset
+            :
+            offset
+            +
+            count
+        ]
+
+        offset += count
+
+    count_a = int(
+        np.count_nonzero(
+            problem.a_free
+        )
+    )
+
+    real = vector[
+        offset
+        :
+        offset
+        +
+        count_a
+    ]
+
+    offset += count_a
+
+    imag = vector[
+        offset
+        :
+        offset
+        +
+        count_a
+    ]
+
+    offset += count_a
+
+    a[
+        problem.a_free
+    ] = (
+        real
+        +
+        1.0j
+        *
+        imag
+    )
+
+    count = int(
+        np.count_nonzero(
+            problem.ax_free
+        )
+    )
+
+    ax[
+        problem.ax_free
+    ] = vector[
+        offset
+        :
+        offset
+        +
+        count
+    ]
+
+    offset += count
+
+    count = int(
+        np.count_nonzero(
+            problem.az_free
+        )
+    )
+
+    az[
+        problem.az_free
+    ] = vector[
+        offset
+        :
+        offset
+        +
+        count
+    ]
+
+    offset += count
+
+    if offset != vector.size:
+        raise RuntimeError(
+            "Toroidal optimizer pack/unpack size mismatch"
+        )
+
+    return (
+        h,
+        phi,
+        sigma,
+        a,
+        ax,
+        az,
+    )
+
+
+def bounds(problem: ToroidalProblem):
+    """Return broad numerical bounds inherited from the validated local solve."""
+
+    result = []
+
+    result.extend(
+        [
+            (
+                0.0,
+                1.5,
+            )
+        ]
+        *
+        int(
+            np.count_nonzero(
+                problem.h_free
+            )
+        )
+    )
+
+    result.extend(
+        [
+            (
+                0.0,
+                1.0,
+            )
+        ]
+        *
+        int(
+            np.count_nonzero(
+                problem.phi_free
+            )
+        )
+    )
+
+    result.extend(
+        [
+            (
+                0.0,
+                1.0,
+            )
+        ]
+        *
+        int(
+            np.count_nonzero(
+                problem.sigma_free
+            )
+        )
+    )
+
+    count_a = int(
+        np.count_nonzero(
+            problem.a_free
+        )
+    )
+
+    result.extend(
+        [
+            (
+                -0.20,
+                0.20,
+            )
+        ]
+        *
+        count_a
+    )
+
+    result.extend(
+        [
+            (
+                -0.20,
+                0.20,
+            )
+        ]
+        *
+        count_a
+    )
+
+    result.extend(
+        [
+            (
+                -0.5,
+                0.5,
+            )
+        ]
+        *
+        int(
+            np.count_nonzero(
+                problem.ax_free
+            )
+        )
+    )
+
+    result.extend(
+        [
+            (
+                -0.5,
+                0.5,
+            )
+        ]
+        *
+        int(
+            np.count_nonzero(
+                problem.az_free
+            )
+        )
+    )
+
+    return result
+
+
+def action_and_gradient(
+    g2,
+    p,
+    problem: ToroidalProblem,
+    vector: np.ndarray,
+):
+    """Return normalized cylindrical stationary action and exact gradient.
+
+    The complete local action has an overall factor 2*pi*R.  It is divided out
+    here.  The remaining geometric weight is r/R.
+
+    That constant normalization leaves every Euler-Lagrange stationary point
+    unchanged while keeping optimizer scales comparable to 018B-0G2.
+    """
+
+    (
+        h,
+        phi,
+        sigma,
+        a,
+        ax,
+        az,
+    ) = unpack(
+        problem,
+        vector,
+    )
+
+    H = (
+        h
+        *
+        problem.phase
+    )
+
+    dx = problem.dx
+
+    g_h = np.zeros_like(
+        h
+    )
+
+    g_phi = np.zeros_like(
+        phi
+    )
+
+    g_sigma = np.zeros_like(
+        sigma
+    )
+
+    g_a = np.zeros_like(
+        a,
+        dtype=complex,
+    )
+
+    g_ax = np.zeros_like(
+        ax
+    )
+
+    g_az = np.zeros_like(
+        az
+    )
+
+    g_H = np.zeros_like(
+        H,
+        dtype=complex,
+    )
+
+    energy = 0.0
+
+    # Cylindrical r/R weights at nodes, links, and plaquettes.
+    node_cyl = (
+        problem.cylindrical_r
+        /
+        problem.R
+    )
+
+    r_x_link = (
+        0.5
+        *
+        (
+            problem.cylindrical_r[
+                1:,
+                :
+            ]
+            +
+            problem.cylindrical_r[
+                :-1,
+                :
+            ]
+        )
+        /
+        problem.R
+    )
+
+    r_z_link = (
+        0.5
+        *
+        (
+            problem.cylindrical_r[
+                :,
+                1:
+            ]
+            +
+            problem.cylindrical_r[
+                :,
+                :-1
+            ]
+        )
+        /
+        problem.R
+    )
+
+    r_cell = (
+        0.25
+        *
+        (
+            problem.cylindrical_r[
+                :-1,
+                :-1
+            ]
+            +
+            problem.cylindrical_r[
+                1:,
+                :-1
+            ]
+            +
+            problem.cylindrical_r[
+                :-1,
+                1:
+            ]
+            +
+            problem.cylindrical_r[
+                1:,
+                1:
+            ]
+        )
+        /
+        problem.R
+    )
+
+    # ---------------------------------------------------------------
+    # Charge-two H covariant transverse gradients.
+    # ---------------------------------------------------------------
+
+    u_hx = np.exp(
+        -2.0j
+        *
+        ax
+    )
+
+    d_hx = (
+        H[
+            1:,
+            :
+        ]
+        -
+        u_hx
+        *
+        H[
+            :-1,
+            :
+        ]
+    )
+
+    energy += (
+        0.5
+        *
+        float(
+            np.sum(
+                r_x_link
+                *
+                np.abs(
+                    d_hx
+                ) ** 2
+            )
+        )
+    )
+
+    weighted = (
+        r_x_link
+        *
+        d_hx
+    )
+
+    g_H[
+        1:,
+        :
+    ] += weighted
+
+    g_H[
+        :-1,
+        :
+    ] -= (
+        np.conj(
+            u_hx
+        )
+        *
+        weighted
+    )
+
+    g_ax += (
+        -2.0
+        *
+        r_x_link
+        *
+        np.imag(
+            np.conj(
+                d_hx
+            )
+            *
+            u_hx
+            *
+            H[
+                :-1,
+                :
+            ]
+        )
+    )
+
+    u_hz = np.exp(
+        -2.0j
+        *
+        az
+    )
+
+    d_hz = (
+        H[
+            :,
+            1:
+        ]
+        -
+        u_hz
+        *
+        H[
+            :,
+            :-1
+        ]
+    )
+
+    energy += (
+        0.5
+        *
+        float(
+            np.sum(
+                r_z_link
+                *
+                np.abs(
+                    d_hz
+                ) ** 2
+            )
+        )
+    )
+
+    weighted = (
+        r_z_link
+        *
+        d_hz
+    )
+
+    g_H[
+        :,
+        1:
+    ] += weighted
+
+    g_H[
+        :,
+        :-1
+    ] -= (
+        np.conj(
+            u_hz
+        )
+        *
+        weighted
+    )
+
+    g_az += (
+        -2.0
+        *
+        r_z_link
+        *
+        np.imag(
+            np.conj(
+                d_hz
+            )
+            *
+            u_hz
+            *
+            H[
+                :,
+                :-1
+            ]
+        )
+    )
+
+    g_h += np.real(
+        np.conj(
+            problem.phase
+        )
+        *
+        g_H
+    )
+
+    # ---------------------------------------------------------------
+    # Neutral carrier transverse gradients.
+    # ---------------------------------------------------------------
+
+    for field, gradient in (
+        (
+            phi,
+            g_phi,
+        ),
+        (
+            sigma,
+            g_sigma,
+        ),
+    ):
+
+        delta = (
+            field[
+                1:,
+                :
+            ]
+            -
+            field[
+                :-1,
+                :
+            ]
+        )
+
+        energy += (
+            0.5
+            *
+            float(
+                np.sum(
+                    r_x_link
+                    *
+                    delta
+                    *
+                    delta
+                )
+            )
+        )
+
+        weighted = (
+            r_x_link
+            *
+            delta
+        )
+
+        gradient[
+            1:,
+            :
+        ] += weighted
+
+        gradient[
+            :-1,
+            :
+        ] -= weighted
+
+        delta = (
+            field[
+                :,
+                1:
+            ]
+            -
+            field[
+                :,
+                :-1
+            ]
+        )
+
+        energy += (
+            0.5
+            *
+            float(
+                np.sum(
+                    r_z_link
+                    *
+                    delta
+                    *
+                    delta
+                )
+            )
+        )
+
+        weighted = (
+            r_z_link
+            *
+            delta
+        )
+
+        gradient[
+            :,
+            1:
+        ] += weighted
+
+        gradient[
+            :,
+            :-1
+        ] -= weighted
+
+    # ---------------------------------------------------------------
+    # Charge-one KLS field transverse gradients.
+    # ---------------------------------------------------------------
+
+    u_ax = np.exp(
+        -1.0j
+        *
+        ax
+    )
+
+    d_ax = (
+        a[
+            1:,
+            :
+        ]
+        -
+        u_ax
+        *
+        a[
+            :-1,
+            :
+        ]
+    )
+
+    energy += float(
+        np.sum(
+            r_x_link
+            *
+            np.abs(
+                d_ax
+            ) ** 2
+        )
+    )
+
+    weighted = (
+        2.0
+        *
+        r_x_link
+        *
+        d_ax
+    )
+
+    g_a[
+        1:,
+        :
+    ] += weighted
+
+    g_a[
+        :-1,
+        :
+    ] -= (
+        np.conj(
+            u_ax
+        )
+        *
+        weighted
+    )
+
+    g_ax += (
+        -2.0
+        *
+        r_x_link
+        *
+        np.imag(
+            np.conj(
+                d_ax
+            )
+            *
+            u_ax
+            *
+            a[
+                :-1,
+                :
+            ]
+        )
+    )
+
+    u_az = np.exp(
+        -1.0j
+        *
+        az
+    )
+
+    d_az = (
+        a[
+            :,
+            1:
+        ]
+        -
+        u_az
+        *
+        a[
+            :,
+            :-1
+        ]
+    )
+
+    energy += float(
+        np.sum(
+            r_z_link
+            *
+            np.abs(
+                d_az
+            ) ** 2
+        )
+    )
+
+    weighted = (
+        2.0
+        *
+        r_z_link
+        *
+        d_az
+    )
+
+    g_a[
+        :,
+        1:
+    ] += weighted
+
+    g_a[
+        :,
+        :-1
+    ] -= (
+        np.conj(
+            u_az
+        )
+        *
+        weighted
+    )
+
+    g_az += (
+        -2.0
+        *
+        r_z_link
+        *
+        np.imag(
+            np.conj(
+                d_az
+            )
+            *
+            u_az
+            *
+            a[
+                :,
+                :-1
+            ]
+        )
+    )
+
+    # ---------------------------------------------------------------
+    # Meridional magnetic gauge field.
+    # ---------------------------------------------------------------
+
+    flux = (
+        ax[
+            :,
+            :-1
+        ]
+        +
+        az[
+            1:,
+            :
+        ]
+        -
+        ax[
+            :,
+            1:
+        ]
+        -
+        az[
+            :-1,
+            :
+        ]
+    )
+
+    gauge_coefficient = (
+        1.0
+        /
+        (
+            p.g_x
+            *
+            p.g_x
+            *
+            dx
+            *
+            dx
+        )
+    )
+
+    energy += (
+        0.5
+        *
+        gauge_coefficient
+        *
+        float(
+            np.sum(
+                r_cell
+                *
+                flux
+                *
+                flux
+            )
+        )
+    )
+
+    g_flux = (
+        gauge_coefficient
+        *
+        r_cell
+        *
+        flux
+    )
+
+    g_ax[
+        :,
+        :-1
+    ] += g_flux
+
+    g_az[
+        1:,
+        :
+    ] += g_flux
+
+    g_ax[
+        :,
+        1:
+    ] -= g_flux
+
+    g_az[
+        :-1,
+        :
+    ] -= g_flux
+
+    # ---------------------------------------------------------------
+    # Node potentials including exact toroidal N^2/r^2 - omega^2.
+    # ---------------------------------------------------------------
+
+    h2 = h * h
+    phi2 = phi * phi
+    sigma2 = sigma * sigma
+    amplitude_sq = np.abs(
+        a
+    ) ** 2
+
+    w_phi = (
+        (
+            problem.n_phi
+            /
+            problem.cylindrical_r
+        ) ** 2
+        -
+        problem.omega_phi**2
+    )
+
+    w_sigma = (
+        (
+            problem.n_sigma
+            /
+            problem.cylindrical_r
+        ) ** 2
+        -
+        problem.omega_sigma**2
+    )
+
+    a_phi = (
+        w_phi
+        +
+        p.m_phi_sq
+        +
+        p.f_phi
+        *
+        (
+            h2
+            -
+            1.0
+        )
+    )
+
+    a_sigma = (
+        w_sigma
+        +
+        p.m_sigma_sq
+        +
+        p.f_sigma
+        *
+        (
+            h2
+            -
+            1.0
+        )
+    )
+
+    potential = (
+        g2.LAMBDA_H
+        /
+        8.0
+        *
+        (
+            h2
+            -
+            1.0
+        ) ** 2
+
+        +
+
+        0.5
+        *
+        a_phi
+        *
+        phi2
+
+        +
+
+        p.lambda_phi
+        /
+        4.0
+        *
+        phi2
+        *
+        phi2
+
+        +
+
+        0.5
+        *
+        a_sigma
+        *
+        sigma2
+
+        +
+
+        p.lambda_sigma
+        /
+        4.0
+        *
+        sigma2
+        *
+        sigma2
+
+        +
+
+        p.g_cross
+        /
+        2.0
+        *
+        phi2
+        *
+        sigma2
+    )
+
+    c_h = (
+        g2.H_LOCK
+        *
+        g2.F_A
+        *
+        g2.F_A
+    )
+
+    c_a = (
+        2.0
+        *
+        g2.H_LOCK
+    )
+
+    constant = (
+        2.0
+        *
+        g2.H_LOCK
+        *
+        g2.F_A
+        *
+        g2.F_A
+    )
+
+    trilinear = (
+        g2.H_LOCK
+        *
+        (
+            np.conj(
+                H
+            )
+            *
+            a
+            *
+            a
+
+            +
+
+            H
+            *
+            np.conj(
+                a
+            )
+            *
+            np.conj(
+                a
+            )
+        )
+    ).real
+
+    potential += (
+        g2.LAMBDA_A
+        /
+        4.0
+        *
+        (
+            amplitude_sq
+            -
+            g2.F_A
+            *
+            g2.F_A
+        ) ** 2
+
+        -
+
+        trilinear
+
+        +
+
+        c_h
+        *
+        (
+            h2
+            -
+            1.0
+        )
+
+        +
+
+        c_a
+        *
+        (
+            amplitude_sq
+            -
+            g2.F_A
+            *
+            g2.F_A
+        )
+
+        +
+
+        constant
+    )
+
+    g_h_potential = (
+        0.5
+        *
+        g2.LAMBDA_H
+        *
+        h
+        *
+        (
+            h2
+            -
+            1.0
+        )
+
+        +
+
+        p.f_phi
+        *
+        h
+        *
+        phi2
+
+        +
+
+        p.f_sigma
+        *
+        h
+        *
+        sigma2
+
+        -
+
+        2.0
+        *
+        g2.H_LOCK
+        *
+        np.real(
+            np.conj(
+                problem.phase
+            )
+            *
+            a
+            *
+            a
+        )
+
+        +
+
+        2.0
+        *
+        c_h
+        *
+        h
+    )
+
+    g_phi_potential = (
+        w_phi
+
+        +
+
+        p.m_phi_sq
+
+        +
+
+        p.f_phi
+        *
+        (
+            h2
+            -
+            1.0
+        )
+
+        +
+
+        p.lambda_phi
+        *
+        phi2
+
+        +
+
+        p.g_cross
+        *
+        sigma2
+    ) * phi
+
+    g_sigma_potential = (
+        w_sigma
+
+        +
+
+        p.m_sigma_sq
+
+        +
+
+        p.f_sigma
+        *
+        (
+            h2
+            -
+            1.0
+        )
+
+        +
+
+        p.lambda_sigma
+        *
+        sigma2
+
+        +
+
+        p.g_cross
+        *
+        phi2
+    ) * sigma
+
+    g_a_potential = (
+        g2.LAMBDA_A
+        *
+        (
+            amplitude_sq
+            -
+            g2.F_A
+            *
+            g2.F_A
+        )
+        *
+        a
+
+        +
+
+        2.0
+        *
+        c_a
+        *
+        a
+
+        -
+
+        4.0
+        *
+        g2.H_LOCK
+        *
+        H
+        *
+        np.conj(
+            a
+        )
+    )
+
+    node_weight = (
+        dx
+        *
+        dx
+        *
+        problem.node_weights
+        *
+        node_cyl
+    )
+
+    energy += float(
+        np.sum(
+            node_weight
+            *
+            potential
+        )
+    )
+
+    g_h += (
+        node_weight
+        *
+        g_h_potential
+    )
+
+    g_phi += (
+        node_weight
+        *
+        g_phi_potential
+    )
+
+    g_sigma += (
+        node_weight
+        *
+        g_sigma_potential
+    )
+
+    g_a += (
+        node_weight
+        *
+        g_a_potential
+    )
+
+    pieces = [
+        g_h[
+            problem.h_free
+        ],
+
+        g_phi[
+            problem.phi_free
+        ],
+
+        g_sigma[
+            problem.sigma_free
+        ],
+    ]
+
+    a_gradient = g_a[
+        problem.a_free
+    ]
+
+    pieces.extend(
+        (
+            a_gradient.real,
+            a_gradient.imag,
+
+            g_ax[
+                problem.ax_free
+            ],
+
+            g_az[
+                problem.az_free
+            ],
+        )
+    )
+
+    return (
+        float(
+            energy
+        ),
+
+        np.concatenate(
+            pieces
+        ),
+    )
+
+
+def directional_gradient_check(
+    g2,
+    p,
+    problem: ToroidalProblem,
+    seed: int,
+) -> float:
+    """Compare the cylindrical analytic gradient with a centered difference."""
+
+    vector = pack(
+        problem
+    )
+
+    _, gradient = action_and_gradient(
+        g2,
+        p,
+        problem,
+        vector,
+    )
+
+    rng = np.random.default_rng(
+        seed
+    )
+
+    direction = rng.normal(
+        size=vector.size
+    )
+
+    direction /= np.linalg.norm(
+        direction
+    )
+
+    epsilon = 5.0e-7
+
+    plus, _ = action_and_gradient(
+        g2,
+        p,
+        problem,
+        vector
+        +
+        epsilon
+        *
+        direction,
+    )
+
+    minus, _ = action_and_gradient(
+        g2,
+        p,
+        problem,
+        vector
+        -
+        epsilon
+        *
+        direction,
+    )
+
+    finite_difference = (
+        plus
+        -
+        minus
+    ) / (
+        2.0
+        *
+        epsilon
+    )
+
+    analytic = float(
+        np.dot(
+            gradient,
+            direction,
+        )
+    )
+
+    return (
+        abs(
+            finite_difference
+            -
+            analytic
+        )
+        /
+        max(
+            abs(
+                finite_difference
+            ),
+            abs(
+                analytic
+            ),
+            1.0e-14,
+        )
+    )
+
+
+def set_initial_from_result(
+    problem: ToroidalProblem,
+    previous: ToroidalResult,
+) -> None:
+    """Warm-start one continuation stage from the preceding same-grid solution."""
+
+    if (
+        problem.n
+        !=
+        previous.problem.n
+        or
+        not math.isclose(
+            problem.box_half,
+            previous.problem.box_half,
+            rel_tol=0.0,
+            abs_tol=1.0e-12,
+        )
+    ):
+        raise RuntimeError(
+            "Warm-start requires identical local continuation grids"
+        )
+
+    problem.h0[
+        problem.h_free
+    ] = previous.h[
+        problem.h_free
+    ]
+
+    problem.phi0[
+        problem.phi_free
+    ] = previous.phi[
+        problem.phi_free
+    ]
+
+    problem.sigma0[
+        problem.sigma_free
+    ] = previous.sigma[
+        problem.sigma_free
+    ]
+
+    problem.a0[
+        problem.a_free
+    ] = previous.a[
+        problem.a_free
+    ]
+
+    problem.ax0[
+        problem.ax_free
+    ] = previous.ax[
+        problem.ax_free
+    ]
+
+    problem.az0[
+        problem.az_free
+    ] = previous.az[
+        problem.az_free
+    ]
+
+
+def matching_derivative_mismatch(
+    problem: ToroidalProblem,
+    h,
+    phi,
+    sigma,
+    a,
+    ax,
+    az,
+) -> float:
+    """Measure C1 mismatch against independently reconstructed outer data.
+
+    The boundary values themselves are Dirichlet matched exactly.  This metric
+    compares the first interior normal difference with the same normal
+    difference of the continuum-matched initialization.
+
+    It is intentionally dimensionless and aggregated across all released field
+    channels.
+    """
+
+    differences = []
+    references = []
+
+    for field, reference in (
+        (
+            h,
+            problem.h0,
+        ),
+        (
+            phi,
+            problem.phi0,
+        ),
+        (
+            sigma,
+            problem.sigma0,
+        ),
+        (
+            a.real,
+            problem.a0.real,
+        ),
+        (
+            a.imag,
+            problem.a0.imag,
+        ),
+    ):
+
+        for solved_delta, reference_delta in (
+            (
+                field[
+                    1,
+                    :
+                ]
+                -
+                field[
+                    0,
+                    :
+                ],
+
+                reference[
+                    1,
+                    :
+                ]
+                -
+                reference[
+                    0,
+                    :
+                ],
+            ),
+
+            (
+                field[
+                    -1,
+                    :
+                ]
+                -
+                field[
+                    -2,
+                    :
+                ],
+
+                reference[
+                    -1,
+                    :
+                ]
+                -
+                reference[
+                    -2,
+                    :
+                ],
+            ),
+
+            (
+                field[
+                    :,
+                    1
+                ]
+                -
+                field[
+                    :,
+                    0
+                ],
+
+                reference[
+                    :,
+                    1
+                ]
+                -
+                reference[
+                    :,
+                    0
+                ],
+            ),
+
+            (
+                field[
+                    :,
+                    -1
+                ]
+                -
+                field[
+                    :,
+                    -2
+                ],
+
+                reference[
+                    :,
+                    -1
+                ]
+                -
+                reference[
+                    :,
+                    -2
+                ],
+            ),
+        ):
+
+            differences.append(
+                np.ravel(
+                    solved_delta
+                    -
+                    reference_delta
+                )
+            )
+
+            references.append(
+                np.ravel(
+                    reference_delta
+                )
+            )
+
+    # Gauge links are already line-integrated derivatives.  Compare only the
+    # first free layers adjacent to the fixed outer boundary; comparing the
+    # complete interior would incorrectly count legitimate curved-core
+    # relaxation as a matching failure.
+    for field, reference in (
+        (ax, problem.ax0),
+        (az, problem.az0),
+    ):
+
+        solved_edge = np.concatenate(
+            (
+                np.ravel(field[1, :]),
+                np.ravel(field[-2, :]),
+                np.ravel(field[:, 1]),
+                np.ravel(field[:, -2]),
+            )
+        )
+
+        reference_edge = np.concatenate(
+            (
+                np.ravel(reference[1, :]),
+                np.ravel(reference[-2, :]),
+                np.ravel(reference[:, 1]),
+                np.ravel(reference[:, -2]),
+            )
+        )
+
+        differences.append(
+            solved_edge
+            -
+            reference_edge
+        )
+
+        references.append(
+            reference_edge
+        )
+
+    difference = np.concatenate(
+        differences
+    )
+
+    reference = np.concatenate(
+        references
+    )
+
+    return float(
+        np.linalg.norm(
+            difference
+        )
+        /
+        max(
+            np.linalg.norm(
+                reference
+            ),
+            math.sqrt(
+                reference.size
+            )
+            *
+            1.0e-3,
+        )
+    )
+
+
+def topology_metrics(
+    g2,
+    p,
+    result_fields,
+    problem: ToroidalProblem,
+):
+    """Return one-wall, phase-lock, flux, and carrier diagnostics."""
+
+    (
+        h,
+        phi,
+        sigma,
+        a,
+        ax,
+        az,
+    ) = result_fields
+
+    iz0 = int(
+        np.argmin(
+            np.abs(
+                problem.z
+            )
+        )
+    )
+
+    ix_negative = int(
+        np.argmin(
+            np.abs(
+                problem.x
+                +
+                0.5
+                *
+                problem.box_half
+            )
+        )
+    )
+
+    ix_positive = int(
+        np.argmin(
+            np.abs(
+                problem.x
+                -
+                0.5
+                *
+                problem.box_half
+            )
+        )
+    )
+
+    wall_contrast = (
+        abs(
+            a[
+                ix_negative,
+                iz0
+            ]
+        )
+        /
+        max(
+            abs(
+                a[
+                    ix_positive,
+                    iz0
+                ]
+            ),
+            1.0e-30,
+        )
+    )
+
+    H = (
+        h
+        *
+        problem.phase
+    )
+
+    relative = (
+        np.conj(
+            H
+        )
+        *
+        a
+        *
+        a
+    )
+
+    mask = (
+        (
+            np.abs(
+                a
+            )
+            >
+            0.40
+            *
+            g2.F_A
+        )
+
+        &
+
+        (
+            h
+            >
+            0.40
+        )
+    )
+
+    if np.count_nonzero(
+        mask
+    ) == 0:
+
+        phase_lock_cos = -1.0
+
+    else:
+
+        cosine = (
+            np.real(
+                relative
+            )
+            /
+            (
+                np.abs(
+                    relative
+                )
+                +
+                1.0e-30
+            )
+        )
+
+        phase_weights = (
+            np.abs(
+                a
+            ) ** 2
+            *
+            h**2
+        )
+
+        phase_lock_cos = float(
+            np.average(
+                cosine[
+                    mask
+                ],
+                weights=phase_weights[
+                    mask
+                ],
+            )
+        )
+
+    flux = (
+        ax[
+            :,
+            :-1
+        ]
+        +
+        az[
+            1:,
+            :
+        ]
+        -
+        ax[
+            :,
+            1:
+        ]
+        -
+        az[
+            :-1,
+            :
+        ]
+    )
+
+    flux_angle = float(
+        np.sum(
+            flux
+        )
+    )
+
+    node_factor = (
+        problem.node_weights
+        *
+        problem.cylindrical_r
+        /
+        problem.R
+    )
+
+    sigma_phi_normalized = (
+        problem.dx
+        *
+        problem.dx
+        *
+        float(
+            np.sum(
+                node_factor
+                *
+                phi
+                *
+                phi
+            )
+        )
+    )
+
+    sigma_sigma_normalized = (
+        problem.dx
+        *
+        problem.dx
+        *
+        float(
+            np.sum(
+                node_factor
+                *
+                sigma
+                *
+                sigma
+            )
+        )
+    )
+
+    return (
+        wall_contrast,
+        phase_lock_cos,
+        flux_angle,
+        sigma_phi_normalized,
+        sigma_sigma_normalized,
+    )
+
+
+def solve_problem(
+    g2,
+    p,
+    problem: ToroidalProblem,
+    reference_problem: ToroidalProblem,
+) -> ToroidalResult:
+    """Relax one cylindrical continuation stage."""
+
+    initial = pack(
+        problem
+    )
+
+    result = minimize(
+        lambda vector:
+            action_and_gradient(
+                g2,
+                p,
+                problem,
+                vector,
+            ),
+
+        initial,
+
+        method="L-BFGS-B",
+
+        jac=True,
+
+        bounds=bounds(
+            problem
+        ),
+
+        options={
+            "maxiter":
+                MAXITER,
+
+            "ftol":
+                1.0e-13,
+
+            "gtol":
+                1.0e-8,
+
+            "maxls":
+                50,
+
+            "maxcor":
+                20,
+        },
+    )
+
+    normalized_action, gradient = (
+        action_and_gradient(
+            g2,
+            p,
+            problem,
+            result.x,
+        )
+    )
+
+    gradient_rms = float(
+        np.linalg.norm(
+            gradient
+        )
+        /
+        math.sqrt(
+            gradient.size
+        )
+    )
+
+    gradient_max = float(
+        np.max(
+            np.abs(
+                gradient
+            )
+        )
+    )
+
+    fields = unpack(
+        problem,
+        result.x,
+    )
+
+    (
+        h,
+        phi,
+        sigma,
+        a,
+        ax,
+        az,
+    ) = fields
+
+    (
+        wall_contrast,
+        phase_lock_cos,
+        flux_angle,
+        sigma_phi_normalized,
+        sigma_sigma_normalized,
+    ) = topology_metrics(
+        g2,
+        p,
+        fields,
+        problem,
+    )
+
+    matching_mismatch = matching_derivative_mismatch(
+        reference_problem,
+        h,
+        phi,
+        sigma,
+        a,
+        ax,
+        az,
+    )
+
+    regularity_pass = bool(
+        np.all(
+            np.isfinite(
+                h
+            )
+        )
+        and
+        np.all(
+            np.isfinite(
+                phi
+            )
+        )
+        and
+        np.all(
+            np.isfinite(
+                sigma
+            )
+        )
+        and
+        np.all(
+            np.isfinite(
+                a.real
+            )
+        )
+        and
+        np.all(
+            np.isfinite(
+                a.imag
+            )
+        )
+        and
+        np.all(
+            np.isfinite(
+                ax
+            )
+        )
+        and
+        np.all(
+            np.isfinite(
+                az
+            )
+        )
+        and
+        np.min(
+            h
+        )
+        >=
+        -1.0e-10
+        and
+        np.max(
+            h
+        )
+        <=
+        1.5
+        +
+        1.0e-10
+        and
+        np.min(
+            phi
+        )
+        >=
+        -1.0e-10
+        and
+        np.min(
+            sigma
+        )
+        >=
+        -1.0e-10
+    )
+
+    return ToroidalResult(
+        problem=problem,
+
+        normalized_action=normalized_action,
+        gradient_rms=gradient_rms,
+        gradient_max=gradient_max,
+
+        optimizer_success=bool(
+            result.success
+        ),
+        iterations=int(
+            result.nit
+        ),
+
+        h=h,
+        phi=phi,
+        sigma=sigma,
+        a=a,
+        ax=ax,
+        az=az,
+
+        sigma_phi_normalized=sigma_phi_normalized,
+        sigma_sigma_normalized=sigma_sigma_normalized,
+
+        wall_contrast=wall_contrast,
+        phase_lock_cos=phase_lock_cos,
+        flux_angle=flux_angle,
+
+        matching_mismatch=matching_mismatch,
+        regularity_pass=regularity_pass,
+    )
+
+
+def relative_field_change(
+    previous: ToroidalResult,
+    current: ToroidalResult,
+) -> float:
+    """Return RMS relative displacement between successive continuation fields."""
+
+    arrays_previous = (
+        previous.h,
+        previous.phi,
+        previous.sigma,
+        previous.a.real,
+        previous.a.imag,
+        previous.ax,
+        previous.az,
+    )
+
+    arrays_current = (
+        current.h,
+        current.phi,
+        current.sigma,
+        current.a.real,
+        current.a.imag,
+        current.ax,
+        current.az,
+    )
+
+    numerator = 0.0
+    denominator = 0.0
+
+    for old, new in zip(
+        arrays_previous,
+        arrays_current,
+    ):
+
+        numerator += float(
+            np.sum(
+                (
+                    new
+                    -
+                    old
+                ) ** 2
+            )
+        )
+
+        denominator += float(
+            np.sum(
+                old**2
+            )
+        )
+
+    return math.sqrt(
+        numerator
+        /
+        max(
+            denominator,
+            1.0e-30,
+        )
+    )
+
+
+def main() -> None:
+    """Run the 018B curvature continuation from 4R to the 0H target radius."""
+
+    print(
+        "=== 018B-1A — GLOBAL TOROIDAL CURVATURE CONTINUATION GATE ==="
+    )
+
+    require_marker(
+        D_LOG,
+        "018B0D_TWO_CURRENT_COUNTERFLOW_GATE=GREEN",
+    )
+
+    require_marker(
+        F0_LOG,
+        "018B0F0_LILLEY_KLS_NORMALIZATION_WALL_BRIDGE=GREEN",
+    )
+
+    require_marker(
+        G2_LOG,
+        "018B0G2_FULLY_COUPLED_TWO_CURRENT_2D_STRING_WALL_JUNCTION=GREEN",
+    )
+
+    require_marker(
+        H_LOG,
+        "018B0H_COMPLETE_SOURCE_GRAVITY_REVALIDATION=GREEN",
+    )
+
+    if not G2_SOURCE.exists():
+        raise RuntimeError(
+            f"Missing required source: {G2_SOURCE}"
+        )
+
+    g2 = load_module(
+        "ag018b1a_g2",
+        G2_SOURCE,
+    )
+
+    p = g2.load_parameters()
+    data = g2.reconstruct_continuum(
+        p
+    )
+
+    target_n_phi = integer_scalar(
+        H_LOG,
+        "N_PHI=",
+    )
+
+    target_n_sigma = integer_scalar(
+        H_LOG,
+        "N_SIGMA=",
+    )
+
+    target_R = scalar(
+        H_LOG,
+        "RADIUS=",
+    )
+
+    target_v = scalar(
+        H_LOG,
+        "BOOST_V=",
+    )
+
+    gamma = (
+        1.0
+        /
+        math.sqrt(
+            1.0
+            -
+            target_v
+            *
+            target_v
+        )
+    )
+
+    omega_phi_lab = (
+        gamma
+        *
+        (
+            p.omega_phi
+            -
+            target_v
+            *
+            p.k_phi
+        )
+    )
+
+    k_phi_lab = (
+        gamma
+        *
+        (
+            p.k_phi
+            -
+            target_v
+            *
+            p.omega_phi
+        )
+    )
+
+    omega_sigma_lab = (
+        gamma
+        *
+        (
+            p.omega_sigma
+            -
+            target_v
+            *
+            p.k_sigma
+        )
+    )
+
+    k_sigma_lab = (
+        gamma
+        *
+        (
+            p.k_sigma
+            -
+            target_v
+            *
+            p.omega_sigma
+        )
+    )
+
+    print(
+        "\n=== TARGET INTEGER / PHASE RECONSTRUCTION ==="
+    )
+
+    print(
+        f"TARGET_N_PHI="
+        f"{target_n_phi}"
+    )
+
+    print(
+        f"TARGET_N_SIGMA="
+        f"{target_n_sigma}"
+    )
+
+    print(
+        f"TARGET_RADIUS="
+        f"{target_R:.15e}"
+    )
+
+    print(
+        f"TARGET_BOOST_V="
+        f"{target_v:+.15e}"
+    )
+
+    print(
+        "OMEGA_PHI_LAB="
+        f"{omega_phi_lab:+.15e}"
+    )
+
+    print(
+        "OMEGA_SIGMA_LAB="
+        f"{omega_sigma_lab:+.15e}"
+    )
+
+    print(
+        "K_PHI_LAB_FROM_BOOST="
+        f"{k_phi_lab:+.15e}"
+    )
+
+    print(
+        "K_PHI_FROM_INTEGER_OVER_R="
+        f"{target_n_phi / target_R:+.15e}"
+    )
+
+    print(
+        "K_SIGMA_LAB_FROM_BOOST="
+        f"{k_sigma_lab:+.15e}"
+    )
+
+    print(
+        "K_SIGMA_FROM_INTEGER_OVER_R="
+        f"{target_n_sigma / target_R:+.15e}"
+    )
+
+    k_phi_relerr = (
+        abs(
+            k_phi_lab
+            -
+            target_n_phi
+            /
+            target_R
+        )
+        /
+        max(
+            abs(
+                k_phi_lab
+            ),
+            1.0e-30,
+        )
+    )
+
+    k_sigma_relerr = (
+        abs(
+            k_sigma_lab
+            -
+            target_n_sigma
+            /
+            target_R
+        )
+        /
+        max(
+            abs(
+                k_sigma_lab
+            ),
+            1.0e-30,
+        )
+    )
+
+    print(
+        "TARGET_INTEGER_PHASE_MAX_RELERR="
+        f"{max(k_phi_relerr, k_sigma_relerr):.15e}"
+    )
+
+    target_integer_pass = (
+        max(
+            k_phi_relerr,
+            k_sigma_relerr,
+        )
+        <
+        2.0e-12
+    )
+
+    print(
+        "TARGET_INTEGER_PHASE_RECONSTRUCTION="
+        f"{'PASS' if target_integer_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== CYLINDRICAL ANALYTIC GRADIENT CHECK ==="
+    )
+
+    gradient_checks = []
+
+    for ratio, seed in (
+        (
+            CONTINUATION_RATIOS[
+                0
+            ],
+            202608311,
+        ),
+        (
+            CONTINUATION_RATIOS[
+                -1
+            ],
+            202608312,
+        ),
+    ):
+
+        R = (
+            target_R
+            *
+            float(
+                ratio
+            )
+        )
+
+        n_phi = scaled_integer(
+            target_n_phi,
+            ratio,
+        )
+
+        n_sigma = scaled_integer(
+            target_n_sigma,
+            ratio,
+        )
+
+        problem = build_problem(
+            g2,
+            p,
+            data,
+            R=R,
+            n_phi=n_phi,
+            n_sigma=n_sigma,
+            omega_phi=omega_phi_lab,
+            omega_sigma=omega_sigma_lab,
+            n=25,
+            box_half=10.0,
+        )
+
+        error = directional_gradient_check(
+            g2,
+            p,
+            problem,
+            seed,
+        )
+
+        gradient_checks.append(
+            error
+        )
+
+        print(
+            "GRADIENT_CHECK_RATIO="
+            f"{ratio.numerator}/{ratio.denominator} "
+            f"RELERR={error:.15e}"
+        )
+
+    gradient_pass = (
+        max(
+            gradient_checks
+        )
+        <=
+        GRADIENT_CHECK_TOL
+    )
+
+    print(
+        "CYLINDRICAL_ANALYTIC_GRADIENT_CHECK="
+        f"{'PASS' if gradient_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== CURVATURE CONTINUATION ==="
+    )
+
+    results = []
+
+    previous = None
+
+    # reconstruct_continuum() reports the full transverse condensate
+    # integrals 2*pi*integral rho*s^2 dr.  The toroidal patch integral uses
+    # the corresponding local meridional area measure, so compare directly
+    # without another 2*pi division.
+    straight_sigma_phi = data.sigma_phi
+    straight_sigma_sigma = data.sigma_sigma
+
+    all_stage_pass = True
+
+    for ratio in CONTINUATION_RATIOS:
+
+        R = (
+            target_R
+            *
+            float(
+                ratio
+            )
+        )
+
+        n_phi = scaled_integer(
+            target_n_phi,
+            ratio,
+        )
+
+        n_sigma = scaled_integer(
+            target_n_sigma,
+            ratio,
+        )
+
+        problem = build_problem(
+            g2,
+            p,
+            data,
+            R=R,
+            n_phi=n_phi,
+            n_sigma=n_sigma,
+            omega_phi=omega_phi_lab,
+            omega_sigma=omega_sigma_lab,
+        )
+
+        # Preserve an independent continuum-matched reference before any
+        # warm-start interpolation modifies the free interior values.
+        reference_problem = build_problem(
+            g2,
+            p,
+            data,
+            R=R,
+            n_phi=n_phi,
+            n_sigma=n_sigma,
+            omega_phi=omega_phi_lab,
+            omega_sigma=omega_sigma_lab,
+        )
+
+        if previous is not None:
+
+            set_initial_from_result(
+                problem,
+                previous,
+            )
+
+        result = solve_problem(
+            g2,
+            p,
+            problem,
+            reference_problem,
+        )
+
+        if previous is None:
+
+            field_change = math.nan
+
+        else:
+
+            field_change = relative_field_change(
+                previous,
+                result,
+            )
+
+        phi_retention = (
+            result.sigma_phi_normalized
+            /
+            max(
+                straight_sigma_phi,
+                1.0e-30,
+            )
+        )
+
+        sigma_retention = (
+            result.sigma_sigma_normalized
+            /
+            max(
+                straight_sigma_sigma,
+                1.0e-30,
+            )
+        )
+
+        ring_k_phi = (
+            n_phi
+            /
+            R
+        )
+
+        ring_k_sigma = (
+            n_sigma
+            /
+            R
+        )
+
+        center_k_relerr = max(
+            abs(
+                ring_k_phi
+                -
+                target_n_phi
+                /
+                target_R
+            )
+            /
+            max(
+                abs(
+                    target_n_phi
+                    /
+                    target_R
+                ),
+                1.0e-30,
+            ),
+
+            abs(
+                ring_k_sigma
+                -
+                target_n_sigma
+                /
+                target_R
+            )
+            /
+            max(
+                abs(
+                    target_n_sigma
+                    /
+                    target_R
+                ),
+                1.0e-30,
+            ),
+        )
+
+        stage_pass = (
+            result.gradient_rms
+            <=
+            GRADIENT_RMS_TOL
+
+            and
+
+            result.gradient_max
+            <=
+            GRADIENT_MAX_TOL
+
+            and
+
+            result.regularity_pass
+
+            and
+
+            result.wall_contrast
+            <=
+            MAX_WALL_CONTRAST
+
+            and
+
+            result.phase_lock_cos
+            >=
+            MIN_PHASE_LOCK_COS
+
+            and
+
+            phi_retention
+            >=
+            MIN_CARRIER_RETENTION
+
+            and
+
+            sigma_retention
+            >=
+            MIN_CARRIER_RETENTION
+
+            and
+
+            result.matching_mismatch
+            <=
+            MAX_MATCHING_DERIVATIVE_MISMATCH
+
+            and
+
+            center_k_relerr
+            <
+            1.0e-14
+        )
+
+        all_stage_pass = (
+            all_stage_pass
+            and
+            stage_pass
+        )
+
+        print(
+            "CURVATURE_STAGE="
+            f"{ratio.numerator}/{ratio.denominator} "
+            f"R={R:.12e} "
+            f"INV_R={1.0 / R:.12e} "
+            f"N_PHI={n_phi} "
+            f"N_SIGMA={n_sigma} "
+            f"KPHI_CENTER={ring_k_phi:+.12e} "
+            f"KSIGMA_CENTER={ring_k_sigma:+.12e} "
+            f"ACTION={result.normalized_action:.12e} "
+            f"GRAD_RMS={result.gradient_rms:.3e} "
+            f"GRAD_MAX={result.gradient_max:.3e} "
+            f"PHI_RETAIN={phi_retention:.9f} "
+            f"SIGMA_RETAIN={sigma_retention:.9f} "
+            f"WALL_CONTRAST={result.wall_contrast:.6e} "
+            f"PHASE_LOCK={result.phase_lock_cos:.9f} "
+            f"FLUX_OVER_PI={result.flux_angle / math.pi:+.9f} "
+            f"MATCH_DERIV={result.matching_mismatch:.6e} "
+            f"FIELD_CHANGE="
+            f"{field_change if math.isfinite(field_change) else float('nan'):.6e} "
+            f"ITER={result.iterations} "
+            f"OPT_SUCCESS={'YES' if result.optimizer_success else 'NO'} "
+            f"PASS={'YES' if stage_pass else 'NO'}"
+        )
+
+        results.append(
+            (
+                ratio,
+                result,
+                phi_retention,
+                sigma_retention,
+                field_change,
+                stage_pass,
+            )
+        )
+
+        previous = result
+
+    target_result = results[
+        -1
+    ][
+        1
+    ]
+
+    target_phi_retention = results[
+        -1
+    ][
+        2
+    ]
+
+    target_sigma_retention = results[
+        -1
+    ][
+        3
+    ]
+
+    print(
+        "\n=== TARGET CURVED-RING CLOSEOUT ==="
+    )
+
+    print(
+        "TARGET_FIELD_GRADIENT_RMS="
+        f"{target_result.gradient_rms:.15e}"
+    )
+
+    print(
+        "TARGET_FIELD_GRADIENT_MAX="
+        f"{target_result.gradient_max:.15e}"
+    )
+
+    print(
+        "TARGET_PHI_CONDENSATE_RETAINED_FRACTION="
+        f"{target_phi_retention:.15e}"
+    )
+
+    print(
+        "TARGET_SIGMA_CONDENSATE_RETAINED_FRACTION="
+        f"{target_sigma_retention:.15e}"
+    )
+
+    print(
+        "TARGET_ONE_WALL_CONTRAST="
+        f"{target_result.wall_contrast:.15e}"
+    )
+
+    print(
+        "TARGET_GAUGE_INVARIANT_PHASE_LOCK_COS="
+        f"{target_result.phase_lock_cos:.15e}"
+    )
+
+    print(
+        "TARGET_PATCH_FLUX_OVER_PI="
+        f"{target_result.flux_angle / math.pi:+.15e}"
+    )
+
+    print(
+        "TARGET_OUTER_MATCH_DERIVATIVE_MISMATCH="
+        f"{target_result.matching_mismatch:.15e}"
+    )
+
+    print(
+        "TARGET_GLOBAL_REGULARITY_PREFLIGHT="
+        f"{'PASS' if target_result.regularity_pass else 'FAIL'}"
+    )
+
+    print(
+        "TARGET_WALL_CURVATURE_PARAMETER_W90_OVER_R="
+        f"{p.wall_width90 / target_R:.15e}"
+    )
+
+    print(
+        "TARGET_CORE_CURVATURE_PARAMETER_CORE_OVER_R="
+        f"{p.core_width / target_R:.15e}"
+    )
+
+    print(
+        "TARGET_LOCAL_CURVATURE_FUNCTIONAL="
+        f"{target_result.normalized_action:.15e}"
+    )
+
+    OUTPUT_NPZ.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    np.savez_compressed(
+        OUTPUT_NPZ,
+        R=np.array(target_result.problem.R),
+        n_phi=np.array(target_result.problem.n_phi),
+        n_sigma=np.array(target_result.problem.n_sigma),
+        omega_phi=np.array(target_result.problem.omega_phi),
+        omega_sigma=np.array(target_result.problem.omega_sigma),
+        x=target_result.problem.x,
+        z=target_result.problem.z,
+        cylindrical_r=target_result.problem.cylindrical_r,
+        h=target_result.h,
+        phi=target_result.phi,
+        sigma=target_result.sigma,
+        a_real=target_result.a.real,
+        a_imag=target_result.a.imag,
+        ax=target_result.ax,
+        az=target_result.az,
+        normalized_action=np.array(target_result.normalized_action),
+        gradient_rms=np.array(target_result.gradient_rms),
+        gradient_max=np.array(target_result.gradient_max),
+        matching_mismatch=np.array(target_result.matching_mismatch),
+    )
+
+    print(
+        "TARGET_FIELD_ARTIFACT="
+        f"{OUTPUT_NPZ}"
+    )
+
+    print(
+        "\n=== GLOBAL PATCH ACCOUNTING STATUS ==="
+    )
+
+    print(
+        "INNER_PLANAR_WALL_PATCH="
+        "REPRESENTED_BY_INDEPENDENT_BVP"
+    )
+
+    print(
+        "CURVED_RIM_JUNCTION_PATCH="
+        "FULLY_COUPLED_AND_RELAXED"
+    )
+
+    print(
+        "OUTER_VACUUM_PATCH="
+        "EXACT_VACUUM"
+    )
+
+    print(
+        "GLOBAL_T_MUNU_RECONSTRUCTED="
+        "NOT_YET_018B1B"
+    )
+
+    print(
+        "GLOBAL_GRAVITY_RECONSTRUCTED="
+        "NOT_YET_018B1B"
+    )
+
+    print(
+        "SOURCE_LEVEL_018B0H_GRAVITY_CARRY_FORWARD="
+        "GREEN_NOT_REPROMOTED_HERE"
+    )
+
+    overall = (
+        target_integer_pass
+        and
+        gradient_pass
+        and
+        all_stage_pass
+        and
+        target_result.regularity_pass
+    )
+
+    print(
+        "\n=== DECISION ==="
+    )
+
+    if overall:
+
+        print(
+            "018B1A_GLOBAL_TOROIDAL_CURVATURE_CONTINUATION="
+            "GREEN"
+        )
+
+        print(
+            "VERY_LARGE_RADIUS_CURVED_RING="
+            "SOLVED"
+        )
+
+        print(
+            "CURVATURE_CONTINUATION_1_OVER_R_TO_TARGET="
+            "PASS"
+        )
+
+        print(
+            "TARGET_CURVED_MICROSCOPIC_RIM_JUNCTION="
+            "SUPPORTED"
+        )
+
+        print(
+            "TRUE_018B_GLOBAL_MULTIPATCH_CLOSEOUT="
+            "AUTHORIZED"
+        )
+
+        print(
+            "NEXT="
+            "018B1B_GLOBAL_MULTIPATCH_T_MUNU_GRAVITY_"
+            "CONSERVATION_AND_CONVERGENCE_CLOSEOUT"
+        )
+
+    else:
+
+        print(
+            "018B1A_GLOBAL_TOROIDAL_CURVATURE_CONTINUATION="
+            "RED"
+        )
+
+        print(
+            "TRUE_018B_GLOBAL_MULTIPATCH_CLOSEOUT="
+            "NOT_AUTHORIZED"
+        )
+
+        print(
+            "NEXT="
+            "CLASSIFY_CURVATURE_OR_MATCHING_FAILURE"
+        )
+
+    print(
+        "CURRENT_HEURISTIC="
+        "APPROXIMATELY_66_PERCENT_NOT_A_PROBABILITY"
+    )
+
+    print(
+        "HEURISTIC_INCREASE_FROM_THIS_GATE="
+        "NO_CURVATURE_CONTINUATION_ONLY"
+    )
+
+    print(
+        "FIELD_THEORETICAL_CANDIDATE="
+        "NOT_YET"
+    )
+
+    print(
+        "FULL_COMPOSITE_STABILITY="
+        "NOT_ESTABLISHED"
+    )
+
+    print(
+        "FRAME_DRAGGING="
+        "NOT_INCLUDED"
+    )
+
+    print(
+        "NONLINEAR_EINSTEIN_MATTER="
+        "NOT_ESTABLISHED"
+    )
+
+    print(
+        "PRACTICAL_ANTIGRAVITY_DEVICE=NO"
+    )
+
+    print(
+        "NEW_PHYSICS_DISCOVERY=NO"
+    )
+
+    print(
+        "CLAIM_CLASSIFICATION="
+        "PROJECT_DERIVED_018B1A_GLOBAL_TOROIDAL_"
+        "CURVATURE_CONTINUATION_GATE"
+    )
+
+
+if __name__ == "__main__":
+    main()

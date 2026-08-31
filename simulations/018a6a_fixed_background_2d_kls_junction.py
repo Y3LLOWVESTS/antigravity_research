@@ -1,0 +1,3517 @@
+#!/usr/bin/env python3
+"""Simulation 018A-6A — fixed-background 2D KLS junction diagnostic.
+
+PURPOSE
+-------
+Solve the first genuinely two-dimensional wall-ending-on-string configuration
+for the preferred 018A same-gauge discrete-remnant model.
+
+018A-4 established the exact charge/holonomy topology
+
+    U(1)_X -> Z2 -> 1
+
+with the existing 017P vortex field reinterpreted as charge 2 and one new
+charge-1 complex scalar A.
+
+018A-5 then established a converged microscopic planar wall with:
+
+    finite positive tension;
+    finite thickness;
+    integrated active source = -wall tension;
+    positive transverse complex-A fluctuation eigenvalue;
+    finite Q, N, and R scale matching;
+    125/125 selected robustness.
+
+The remaining question is whether that wall actually terminates regularly on
+the selected 017P vortex once the geometry is two-dimensional.
+
+SCIENTIFIC QUESTION
+-------------------
+On the reconstructed 017P straight-string background at chi=0.00475, does the
+full complex charge-1 field A(x,z) relax to a finite-energy configuration in
+which:
+
+    - a single wall occupies only one side of the vortex;
+    - the wall terminates at the vortex core;
+    - the gauge-invariant relative phase is locked away from the defect;
+    - the added junction energy remains finite after subtracting the
+      asymptotic planar-wall contribution;
+    - the result converges with domain size and grid resolution?
+
+APPROXIMATION LEVEL
+-------------------
+This is a:
+
+    NUMERICAL_APPROXIMATION
+    FIXED_BACKGROUND_FIELD_THEORY_DIAGNOSTIC
+    TRUE_TWO_DIMENSIONAL_A_FIELD_SOLVE
+
+It is NOT yet the fully coupled 2D junction.
+
+The following 017P fields are reconstructed self-consistently in their radial
+straight-string BVP but are then held fixed during the 2D A-field relaxation:
+
+    vortex amplitude f;
+    superconducting condensate s;
+    azimuthal gauge field X_theta.
+
+The new charge-1 field A is allowed to relax in two dimensions.
+
+If this gate is green, the next calculation must release the frozen
+background and solve the fully coupled Phi/A/sigma/gauge junction.
+
+017P BACKGROUND
+---------------
+Use
+
+    Phi = f(r) exp(i theta)
+
+    sigma =
+      s(r) exp[i(omega t + k y)]
+
+with
+
+    chi = omega^2 - k^2 = 0.00475.
+
+The radial equations are reconstructed directly rather than imported from a
+previous disposable script.
+
+Parameters:
+
+    lambda_Phi   = 1
+    lambda_sigma = 900
+    eta_Phi      = 1
+    eta_sigma    = 0.1825
+    beta         = 20
+    g_017P       = 0.1414213562373095.
+
+The reconstruction must reproduce the journaled selected-point values
+
+    Sigma_2 =
+      1.054410621125
+
+    A_string =
+      10.02499735504.
+
+SAME-GAUGE KLS EXTENSION
+------------------------
+The existing Phi field is charge 2 under a fundamental coupling
+
+    g_X =
+      g_017P / 2.
+
+The new complex field A has charge 1.
+
+The target-preserving extension potential is
+
+    V_ext =
+      lambda_A/4 (|A|^2-F^2)^2
+
+      - h [
+          Phi^* A^2
+          +
+          Phi (A^*)^2
+        ]
+
+      + c_Phi (|Phi|^2-v^2)
+
+      + c_A (|A|^2-F^2)
+
+      + C
+
+with
+
+    c_Phi =
+      h F^2 / v
+
+    c_A =
+      2 h v
+
+    C =
+      2 h v F^2.
+
+Selected parameters:
+
+    F = 0.075
+    h = 0.010
+    lambda_A = 1.
+
+These are exactly the selected 018A-4/018A-5 parameters.
+
+GAUGE-COVARIANT 2D DISCRETIZATION
+---------------------------------
+The straight vortex lies along the y direction.
+
+The numerical plane is therefore the transverse x-z plane.
+
+The 017P gauge one-form is
+
+    X =
+      X_theta(r) dtheta.
+
+Its Cartesian components are
+
+    X_x =
+      -X_theta z/r^2
+
+    X_z =
+      +X_theta x/r^2.
+
+For the charge-1 field,
+
+    D_i A =
+      (partial_i - i g_X X_i) A.
+
+The finite-difference gradient energy is implemented with compact U(1) link
+variables
+
+    U_pq =
+      exp[
+        i g_X integral_p^q X_i dx^i
+      ].
+
+Thus the discrete link energy is
+
+    |A_q - U_pq A_p|^2.
+
+This preserves exact lattice gauge covariance of the A-field gradient term.
+
+HALF-FLUX / WALL BOUNDARY CONDITION
+-----------------------------------
+At large radius the charge-2 Phi vortex carries the holonomy
+
+    g_X integral X.dl =
+      pi.
+
+Therefore a charge-1 field transported once around the vortex acquires
+
+    exp(i pi) =
+      -1.
+
+Away from the wall, the asymptotic phase is locally
+
+    arg A =
+      theta/2.
+
+The principal half-angle changes sign across the negative x axis.
+
+The field therefore leaves the vacuum manifold on that branch ray.
+
+At the outer negative-x boundary the amplitude is initialized with the
+microscopic real-wall profile
+
+    |A|
+      ~
+      F |tanh(k_W z)|
+
+where
+
+    k_W =
+      F sqrt(lambda_A)/2.
+
+This produces one wall extending from the string toward negative x.
+
+No wall is imposed on the positive x side.
+
+INITIAL CONDITION
+-----------------
+The initial 2D field combines:
+
+    - the half-angle phase;
+    - suppression near the vortex;
+    - the converged planar-wall profile on the negative-x branch.
+
+The optimizer is free to deform the complete interior complex field.
+
+Only the outermost box boundary is fixed.
+
+ENERGY BOOKKEEPING
+------------------
+The reported added energy includes:
+
+    charge-1 covariant-gradient energy;
+    charge-1 quartic potential;
+    trilinear phase-locking energy;
+    the mandatory Phi mass-shift contribution;
+    the mandatory A mass-shift contribution;
+    the vacuum constant.
+
+The measured total extension energy has the asymptotic form
+
+    E_ext(L)
+      =
+      sigma_W L
+      +
+      mu_junction
+      +
+      small boundary corrections
+
+because one wall of length L extends from the junction to the negative-x
+boundary.
+
+Therefore define
+
+    mu_junction(L)
+      =
+      E_ext(L)
+      -
+      sigma_W L.
+
+The relaxed 018A-5 wall tension used in this subtraction is
+
+    sigma_W =
+      5.623876169625573e-4.
+
+This is a FIXED-BACKGROUND junction-energy diagnostic.
+
+Any future energy associated with relaxation of Phi, sigma, or the gauge
+field remains mandatory and must be included in 018A-6B.
+
+STATIONARITY BUDGET
+-------------------
+The pre-existing 017P weak-wall radial stationarity scale gives the positive
+line-energy budget
+
+    mu_budget =
+      w_stat ell / (2 pi)
+
+with
+
+    w_stat =
+      12.66497926067
+
+    ell =
+      0.4257542346286.
+
+The junction diagnostic reports
+
+    |mu_junction| / mu_budget.
+
+A small value is encouraging but is NOT a proof that the final coupled
+stationarity condition survives.
+
+DOMAIN CONVERGENCE
+------------------
+Hold Cartesian spacing fixed at approximately 2.5 and vary box half-size:
+
+    N=61,  L=75
+    N=81,  L=100
+    N=101, L=125.
+
+This tests whether
+
+    E_ext(L) - sigma_W L
+
+approaches a finite constant.
+
+RESOLUTION CONVERGENCE
+----------------------
+At fixed
+
+    L=100
+
+repeat with:
+
+    N=101
+    N=121
+    N=141.
+
+This directly tests the inferred junction excess energy.
+
+MORPHOLOGY TESTS
+----------------
+At the highest resolution:
+
+1. Negative-x wall:
+
+       |A(x<0,z=0)| / F
+         << 1
+
+   far from the string but on the wall.
+
+2. Positive-x recovery:
+
+       |A(x>0,z=0)| / F
+         -> 1.
+
+3. Far-negative-x energy per unit x agrees with the independent 018A-5
+   planar-wall tension.
+
+4. Far-positive-x extension energy per unit x approaches zero.
+
+5. Away from the wall/core, the gauge-invariant phase-lock variable
+
+       cos(delta)
+         =
+       Re[Phi^* A^2]
+       /
+       (|Phi| |A|^2)
+
+   approaches +1.
+
+These jointly distinguish a wall ENDING on the string from a wall simply
+passing through the whole box.
+
+INDEPENDENT NUMERICAL CHECKS
+----------------------------
+The implementation also performs:
+
+    - an analytic-gradient directional finite-difference check;
+    - an exact discrete gauge-transformation invariance check;
+    - a fresh 017P baseline reconstruction;
+    - domain convergence;
+    - resolution convergence.
+
+BLIND WILDCARD CHECK
+--------------------
+After the primary gate, one low-cost auxiliary 2D solve uses
+
+    h_multiplier = 0.625
+
+which is also
+
+    1 / 1.6.
+
+This is only a blind auxiliary morphology check.
+
+It does not enter the promotion decision.
+
+PRIMARY PASS CONDITIONS
+-----------------------
+Require:
+
+    017P_BASELINE_RECONSTRUCTION=PASS
+
+    ANALYTIC_GRADIENT_CHECK=PASS
+
+    DOMAIN_JUNCTION_EXCESS_CONVERGENCE=PASS
+
+    DOMAIN_ENERGY_SLOPE_MATCHES_WALL=PASS
+
+    RESOLUTION_JUNCTION_EXCESS_CONVERGENCE=PASS
+
+    ONE_SIDED_WALL_TERMINATION=PASS
+
+    FAR_WALL_TENSION_RECONSTRUCTION=PASS
+
+    POSITIVE_SIDE_VACUUM_RECOVERY=PASS
+
+    RELATIVE_PHASE_LOCKING=PASS
+
+    DISCRETE_GAUGE_INVARIANCE=PASS
+
+    FIXED_BACKGROUND_JUNCTION_ENERGY_BUDGET=PASS.
+
+FALSIFICATION
+-------------
+This candidate should be demoted before full coupling if the 2D A field:
+
+    - cannot converge;
+    - produces a wall on both sides of the vortex;
+    - fails to terminate;
+    - leaves a delocalized phase-gradient tail;
+    - has junction excess energy growing with domain size;
+    - consumes a large fraction of the available line-energy budget;
+    - loses the solution under ordinary resolution refinement.
+
+LIMITATIONS
+-----------
+A green result does NOT establish:
+
+    fully coupled 2D junction existence;
+    perturbed 017P EOS;
+    complete junction stress-energy;
+    finite-payload gravity with the extension;
+    full composite stability;
+    nonlinear Einstein-matter consistency;
+    practical energy scaling;
+    a practical antigravity device.
+
+CLAIM CLASSIFICATION
+--------------------
+PROJECT_DERIVED_018A_FIXED_BACKGROUND_2D_KLS_JUNCTION_DIAGNOSTIC
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+import math
+
+import numpy as np
+from scipy.integrate import simpson
+from scipy.integrate import solve_bvp
+from scipy.optimize import minimize
+
+
+# ============================================================================
+# 017P selected straight-string parameters.
+# ============================================================================
+
+LAMBDA_PHI = 1.0
+LAMBDA_SIGMA = 900.0
+
+ETA_PHI = 1.0
+ETA_SIGMA = 0.1825
+
+BETA = 20.0
+
+G_017P = 0.1414213562373095
+
+CHI_SELECTED = 0.004750000000
+
+SIGMA2_JOURNAL = 1.054410621125
+A_STRING_JOURNAL = 10.02499735504
+
+RADIAL_R0 = 1.0e-4
+RADIAL_RMAX = 80.0
+
+RADIAL_TOL = 2.0e-6
+RADIAL_MAX_NODES = 30000
+
+
+# ============================================================================
+# Selected same-gauge KLS parameters.
+# ============================================================================
+
+F_A = 0.075
+H_LOCK = 0.010
+LAMBDA_A = 1.0
+
+Q_PHI = 2
+Q_A = 1
+
+G_X = (
+    G_017P
+    /
+    Q_PHI
+)
+
+C_PHI = (
+    H_LOCK
+    *
+    F_A
+    *
+    F_A
+    /
+    ETA_PHI
+)
+
+C_A = (
+    2.0
+    *
+    H_LOCK
+    *
+    ETA_PHI
+)
+
+V_CONSTANT = (
+    2.0
+    *
+    H_LOCK
+    *
+    ETA_PHI
+    *
+    F_A
+    *
+    F_A
+)
+
+K_WALL = (
+    F_A
+    *
+    math.sqrt(
+        LAMBDA_A
+    )
+    /
+    2.0
+)
+
+A_CORE_WIDTH = (
+    1.0
+    /
+    (
+        F_A
+        *
+        math.sqrt(
+            LAMBDA_A
+        )
+    )
+)
+
+# Finest selected 018A-5 coupled-planar-wall tension.
+SIGMA_W_RELAXED_018A5 = (
+    5.623876169625573e-4
+)
+
+SIGMA_W_ANALYTIC = (
+    4.0
+    /
+    3.0
+    *
+    F_A**3
+    *
+    math.sqrt(
+        LAMBDA_A
+    )
+)
+
+
+# ============================================================================
+# Existing 017P stationarity scale.
+# ============================================================================
+
+W_STAT = 12.66497926067
+ELL = 0.4257542346286
+
+EXTRA_LINE_BUDGET = (
+    W_STAT
+    *
+    ELL
+    /
+    (
+        2.0
+        *
+        math.pi
+    )
+)
+
+
+# ============================================================================
+# 2D numerical gates.
+# ============================================================================
+
+DOMAIN_CASES = (
+    (61, 75.0),
+    (81, 100.0),
+    (101, 125.0),
+)
+
+RESOLUTION_CASES = (
+    (101, 100.0),
+    (121, 100.0),
+    (141, 100.0),
+)
+
+OPT_MAXITER = 900
+OPT_FTOL = 2.0e-12
+OPT_GTOL = 5.0e-8
+
+MAX_GRADIENT_RMS = 2.0e-6
+MAX_GRADIENT_ABS = 2.0e-5
+
+MAX_DOMAIN_MU_REL_SPREAD = 0.01
+MAX_DOMAIN_SLOPE_RELERR = 0.01
+
+MAX_RESOLUTION_MU_REL_SPREAD = 0.03
+
+MAX_NEGATIVE_WALL_A_OVER_F = 0.02
+MIN_POSITIVE_RECOVERY_A_OVER_F = 0.95
+
+MAX_FAR_WALL_TENSION_RELERR = 0.02
+MAX_POSITIVE_SIDE_SLICE_OVER_SIGMA = 0.02
+
+MAX_PHASE_LOCK_RMS = 1.0e-3
+
+MAX_GAUGE_INVARIANCE_RELERR = 1.0e-10
+MAX_GRADIENT_CHECK_RELERR = 1.0e-6
+
+MAX_JUNCTION_BUDGET_FRACTION = 0.10
+
+
+@dataclass
+class RadialDiagnostics:
+    """Integrated validation quantities for the reconstructed 017P string."""
+
+    sigma2: float
+    a_string: float
+    max_rms_residual: float
+
+
+@dataclass
+class Problem2D:
+    """One fixed-background 2D KLS junction minimization problem."""
+
+    n: int
+    box_half: float
+    dx: float
+
+    x: np.ndarray
+    X: np.ndarray
+    Z: np.ndarray
+    radius: np.ndarray
+
+    phi: np.ndarray
+    f_background: np.ndarray
+
+    ux: np.ndarray
+    uz: np.ndarray
+
+    weights: np.ndarray
+
+    fixed_mask: np.ndarray
+    interior: tuple[np.ndarray, np.ndarray]
+
+    boundary_field: np.ndarray
+    initial_field: np.ndarray
+
+    h_lock: float
+    c_phi: float
+    c_a: float
+    constant: float
+
+
+@dataclass
+class CaseResult:
+    """Numerical result from one 2D minimization."""
+
+    n: int
+    box_half: float
+    dx: float
+
+    optimizer_success: bool
+    iterations: int
+
+    total_extension_energy: float
+    junction_excess_energy: float
+
+    gradient_rms: float
+    gradient_max: float
+
+    field: np.ndarray
+    problem: Problem2D
+
+
+# ============================================================================
+# 017P radial reconstruction.
+# ============================================================================
+
+
+def radial_initial_guess(
+    radius: np.ndarray,
+) -> np.ndarray:
+    """Return a smooth 017P straight-string BVP initial guess."""
+
+    f = np.tanh(
+        radius
+    )
+
+    fp = (
+        1.0
+        /
+        np.cosh(
+            np.minimum(
+                radius,
+                40.0,
+            )
+        ) ** 2
+    )
+
+    s = (
+        0.32
+        *
+        np.exp(
+            -0.15
+            *
+            radius
+        )
+    )
+
+    sp = (
+        -0.15
+        *
+        s
+    )
+
+    gauge = (
+        1.0
+        /
+        G_017P
+        *
+        (
+            1.0
+            -
+            np.exp(
+                -0.2
+                *
+                radius
+                *
+                radius
+            )
+        )
+    )
+
+    gauge_p = (
+        1.0
+        /
+        G_017P
+        *
+        0.4
+        *
+        radius
+        *
+        np.exp(
+            -0.2
+            *
+            radius
+            *
+            radius
+        )
+    )
+
+    return np.vstack(
+        [
+            f,
+            fp,
+            s,
+            sp,
+            gauge,
+            gauge_p,
+        ]
+    )
+
+
+def solve_017p_background():
+    """Reconstruct the selected 017P radial string independently."""
+
+    radius = np.geomspace(
+        RADIAL_R0,
+        RADIAL_RMAX,
+        850,
+    )
+
+    guess = radial_initial_guess(
+        radius
+    )
+
+    def ode(
+        rr: np.ndarray,
+        y: np.ndarray,
+    ) -> np.ndarray:
+        (
+            f,
+            fp,
+            s,
+            sp,
+            gauge,
+            gauge_p,
+        ) = y
+
+        rr_safe = np.maximum(
+            rr,
+            1.0e-12,
+        )
+
+        angular = (
+            (
+                1.0
+                -
+                G_017P
+                *
+                gauge
+            )
+            /
+            rr_safe
+        ) ** 2
+
+        f_pp = (
+            -fp
+            /
+            rr_safe
+
+            +
+            (
+                0.5
+                *
+                LAMBDA_PHI
+                *
+                (
+                    f
+                    *
+                    f
+                    -
+                    ETA_PHI
+                    *
+                    ETA_PHI
+                )
+
+                +
+                BETA
+                *
+                s
+                *
+                s
+
+                +
+                angular
+            )
+            *
+            f
+        )
+
+        s_pp = (
+            -sp
+            /
+            rr_safe
+
+            +
+            (
+                0.5
+                *
+                LAMBDA_SIGMA
+                *
+                (
+                    s
+                    *
+                    s
+                    -
+                    ETA_SIGMA
+                    *
+                    ETA_SIGMA
+                )
+
+                +
+                BETA
+                *
+                f
+                *
+                f
+
+                -
+                CHI_SELECTED
+            )
+            *
+            s
+        )
+
+        gauge_pp = (
+            gauge_p
+            /
+            rr_safe
+
+            -
+            2.0
+            *
+            G_017P
+            *
+            f
+            *
+            f
+            *
+            (
+                1.0
+                -
+                G_017P
+                *
+                gauge
+            )
+        )
+
+        return np.vstack(
+            [
+                fp,
+                f_pp,
+                sp,
+                s_pp,
+                gauge_p,
+                gauge_pp,
+            ]
+        )
+
+    def bc(
+        ya: np.ndarray,
+        yb: np.ndarray,
+    ) -> np.ndarray:
+        return np.array(
+            [
+                ya[0],
+                ya[3],
+                ya[4],
+
+                yb[0]
+                -
+                ETA_PHI,
+
+                yb[2],
+
+                yb[4]
+                -
+                1.0
+                /
+                G_017P,
+            ]
+        )
+
+    solution = solve_bvp(
+        ode,
+        bc,
+        radius,
+        guess,
+        tol=RADIAL_TOL,
+        max_nodes=RADIAL_MAX_NODES,
+    )
+
+    if solution.status != 0:
+        raise RuntimeError(
+            "017P radial background failed: "
+            f"{solution.message}"
+        )
+
+    return solution
+
+
+def diagnose_017p(
+    solution,
+) -> RadialDiagnostics:
+    """Reconstruct Sigma_2 and A_string from the radial solution."""
+
+    radius = np.linspace(
+        RADIAL_R0,
+        RADIAL_RMAX,
+        16000,
+    )
+
+    (
+        f,
+        fp,
+        s,
+        sp,
+        gauge,
+        gauge_p,
+    ) = solution.sol(
+        radius
+    )
+
+    sigma2 = float(
+        2.0
+        *
+        math.pi
+        *
+        simpson(
+            radius
+            *
+            s
+            *
+            s,
+            x=radius,
+        )
+    )
+
+    e_phi = (
+        fp
+        *
+        fp
+
+        +
+        (
+            (
+                1.0
+                -
+                G_017P
+                *
+                gauge
+            )
+            /
+            radius
+        ) ** 2
+        *
+        f
+        *
+        f
+
+        +
+        0.5
+        *
+        (
+            gauge_p
+            /
+            radius
+        ) ** 2
+
+        +
+        0.25
+        *
+        LAMBDA_PHI
+        *
+        (
+            f
+            *
+            f
+            -
+            ETA_PHI
+            *
+            ETA_PHI
+        ) ** 2
+    )
+
+    e_sigma = (
+        sp
+        *
+        sp
+
+        +
+        0.25
+        *
+        LAMBDA_SIGMA
+        *
+        (
+            s
+            *
+            s
+            -
+            ETA_SIGMA
+            *
+            ETA_SIGMA
+        ) ** 2
+
+        +
+        BETA
+        *
+        f
+        *
+        f
+        *
+        s
+        *
+        s
+
+        -
+        0.25
+        *
+        LAMBDA_SIGMA
+        *
+        ETA_SIGMA**4
+
+        -
+        CHI_SELECTED
+        *
+        s
+        *
+        s
+    )
+
+    a_string = float(
+        2.0
+        *
+        math.pi
+        *
+        simpson(
+            radius
+            *
+            (
+                e_phi
+                +
+                e_sigma
+            ),
+            x=radius,
+        )
+    )
+
+    return RadialDiagnostics(
+        sigma2=sigma2,
+        a_string=a_string,
+        max_rms_residual=float(
+            np.max(
+                solution.rms_residuals
+            )
+        ),
+    )
+
+
+def evaluate_radial_component(
+    solution,
+    radius: np.ndarray,
+    component: int,
+    vacuum_value: float,
+) -> np.ndarray:
+    """Evaluate a radial field and continue it by vacuum outside RADIAL_RMAX."""
+
+    flat = radius.ravel()
+
+    clipped = np.clip(
+        flat,
+        RADIAL_R0,
+        RADIAL_RMAX,
+    )
+
+    values = (
+        solution.sol(
+            clipped
+        )[
+            component
+        ]
+        .reshape(
+            radius.shape
+        )
+    )
+
+    values = np.array(
+        values,
+        copy=True,
+    )
+
+    values[
+        radius
+        >
+        RADIAL_RMAX
+    ] = vacuum_value
+
+    return values
+
+
+# ============================================================================
+# 2D problem construction.
+# ============================================================================
+
+
+def build_problem(
+    radial_solution,
+    *,
+    n: int,
+    box_half: float,
+    h_lock: float = H_LOCK,
+) -> Problem2D:
+    """Construct one gauge-covariant fixed-background 2D junction problem."""
+
+    x = np.linspace(
+        -box_half,
+        box_half,
+        n,
+    )
+
+    dx = float(
+        x[1]
+        -
+        x[0]
+    )
+
+    X, Z = np.meshgrid(
+        x,
+        x,
+        indexing="ij",
+    )
+
+    radius = np.sqrt(
+        X
+        *
+        X
+        +
+        Z
+        *
+        Z
+    )
+
+    theta = np.arctan2(
+        Z,
+        X,
+    )
+
+    f_background = (
+        evaluate_radial_component(
+            radial_solution,
+            radius,
+            0,
+            ETA_PHI,
+        )
+    )
+
+    phi = (
+        f_background
+        *
+        np.exp(
+            1j
+            *
+            theta
+        )
+    )
+
+    # -----------------------------------------------------------------------
+    # Gauge links along x.
+    #
+    # The polar one-form is
+    #
+    #     X = X_theta dtheta.
+    #
+    # Therefore
+    #
+    #     X_x = -X_theta z/r^2.
+    # -----------------------------------------------------------------------
+
+    x_mid = (
+        x[:-1]
+        +
+        x[1:]
+    ) / 2.0
+
+    XMX, XMZ = np.meshgrid(
+        x_mid,
+        x,
+        indexing="ij",
+    )
+
+    radius_x_mid = np.sqrt(
+        XMX
+        *
+        XMX
+        +
+        XMZ
+        *
+        XMZ
+    )
+
+    gauge_x_mid = (
+        evaluate_radial_component(
+            radial_solution,
+            radius_x_mid,
+            4,
+            1.0
+            /
+            G_017P,
+        )
+    )
+
+    r2_x = (
+        XMX
+        *
+        XMX
+        +
+        XMZ
+        *
+        XMZ
+    )
+
+    connection_x = np.zeros_like(
+        r2_x
+    )
+
+    nonzero_x = (
+        r2_x
+        >
+        1.0e-20
+    )
+
+    connection_x[
+        nonzero_x
+    ] = (
+        -gauge_x_mid[
+            nonzero_x
+        ]
+        *
+        XMZ[
+            nonzero_x
+        ]
+        /
+        r2_x[
+            nonzero_x
+        ]
+    )
+
+    ux = np.exp(
+        1j
+        *
+        Q_A
+        *
+        G_X
+        *
+        connection_x
+        *
+        dx
+    )
+
+    # -----------------------------------------------------------------------
+    # Gauge links along z:
+    #
+    #     X_z = +X_theta x/r^2.
+    # -----------------------------------------------------------------------
+
+    z_mid = (
+        x[:-1]
+        +
+        x[1:]
+    ) / 2.0
+
+    ZMX, ZMZ = np.meshgrid(
+        x,
+        z_mid,
+        indexing="ij",
+    )
+
+    radius_z_mid = np.sqrt(
+        ZMX
+        *
+        ZMX
+        +
+        ZMZ
+        *
+        ZMZ
+    )
+
+    gauge_z_mid = (
+        evaluate_radial_component(
+            radial_solution,
+            radius_z_mid,
+            4,
+            1.0
+            /
+            G_017P,
+        )
+    )
+
+    r2_z = (
+        ZMX
+        *
+        ZMX
+        +
+        ZMZ
+        *
+        ZMZ
+    )
+
+    connection_z = np.zeros_like(
+        r2_z
+    )
+
+    nonzero_z = (
+        r2_z
+        >
+        1.0e-20
+    )
+
+    connection_z[
+        nonzero_z
+    ] = (
+        gauge_z_mid[
+            nonzero_z
+        ]
+        *
+        ZMX[
+            nonzero_z
+        ]
+        /
+        r2_z[
+            nonzero_z
+        ]
+    )
+
+    uz = np.exp(
+        1j
+        *
+        Q_A
+        *
+        G_X
+        *
+        connection_z
+        *
+        dx
+    )
+
+    # -----------------------------------------------------------------------
+    # Initial half-vortex + one-sided-wall field.
+    # -----------------------------------------------------------------------
+
+    core_factor = np.tanh(
+        radius
+        /
+        A_CORE_WIDTH
+    )
+
+    negative_x_activation = (
+        0.5
+        *
+        (
+            1.0
+            -
+            np.tanh(
+                X
+                /
+                (
+                    2.0
+                    *
+                    A_CORE_WIDTH
+                )
+            )
+        )
+    )
+
+    wall_amplitude_factor = (
+        1.0
+
+        -
+        negative_x_activation
+        *
+        (
+            1.0
+            -
+            np.abs(
+                np.tanh(
+                    K_WALL
+                    *
+                    Z
+                )
+            )
+        )
+    )
+
+    initial_field = (
+        F_A
+        *
+        core_factor
+        *
+        wall_amplitude_factor
+        *
+        np.exp(
+            0.5j
+            *
+            theta
+        )
+    )
+
+    fixed_mask = np.zeros(
+        (
+            n,
+            n,
+        ),
+        dtype=bool,
+    )
+
+    fixed_mask[
+        0,
+        :
+    ] = True
+
+    fixed_mask[
+        -1,
+        :
+    ] = True
+
+    fixed_mask[
+        :,
+        0
+    ] = True
+
+    fixed_mask[
+        :,
+        -1
+    ] = True
+
+    interior = np.where(
+        ~fixed_mask
+    )
+
+    weights = np.ones(
+        (
+            n,
+            n,
+        ),
+        dtype=float,
+    )
+
+    weights[
+        0,
+        :
+    ] *= 0.5
+
+    weights[
+        -1,
+        :
+    ] *= 0.5
+
+    weights[
+        :,
+        0
+    ] *= 0.5
+
+    weights[
+        :,
+        -1
+    ] *= 0.5
+
+    c_phi = (
+        h_lock
+        *
+        F_A
+        *
+        F_A
+        /
+        ETA_PHI
+    )
+
+    c_a = (
+        2.0
+        *
+        h_lock
+        *
+        ETA_PHI
+    )
+
+    constant = (
+        2.0
+        *
+        h_lock
+        *
+        ETA_PHI
+        *
+        F_A
+        *
+        F_A
+    )
+
+    return Problem2D(
+        n=n,
+        box_half=box_half,
+        dx=dx,
+
+        x=x,
+        X=X,
+        Z=Z,
+        radius=radius,
+
+        phi=phi,
+        f_background=f_background,
+
+        ux=ux,
+        uz=uz,
+
+        weights=weights,
+
+        fixed_mask=fixed_mask,
+        interior=interior,
+
+        boundary_field=np.array(
+            initial_field,
+            copy=True,
+        ),
+
+        initial_field=np.array(
+            initial_field,
+            copy=True,
+        ),
+
+        h_lock=h_lock,
+        c_phi=c_phi,
+        c_a=c_a,
+        constant=constant,
+    )
+
+
+# ============================================================================
+# Packing and energy/gradient.
+# ============================================================================
+
+
+def pack_field(
+    problem: Problem2D,
+    field: np.ndarray,
+) -> np.ndarray:
+    """Pack complex interior A values into real optimizer variables."""
+
+    values = field[
+        problem.interior
+    ]
+
+    return np.concatenate(
+        [
+            values.real,
+            values.imag,
+        ]
+    )
+
+
+def unpack_field(
+    problem: Problem2D,
+    variables: np.ndarray,
+) -> np.ndarray:
+    """Restore one optimizer vector to the full complex field."""
+
+    field = np.array(
+        problem.boundary_field,
+        copy=True,
+    )
+
+    count = (
+        problem.interior[
+            0
+        ].size
+    )
+
+    field[
+        problem.interior
+    ] = (
+        variables[
+            :count
+        ]
+
+        +
+        1j
+        *
+        variables[
+            count:
+        ]
+    )
+
+    return field
+
+
+def extension_potential(
+    problem: Problem2D,
+    field: np.ndarray,
+    *,
+    phi_override: np.ndarray | None = None,
+) -> np.ndarray:
+    """Return the complete added same-gauge potential density."""
+
+    phi = (
+        problem.phi
+        if phi_override is None
+        else phi_override
+    )
+
+    amplitude_sq = (
+        np.abs(
+            field
+        ) ** 2
+    )
+
+    trilinear = (
+        problem.h_lock
+        *
+        (
+            np.conj(
+                phi
+            )
+            *
+            field
+            *
+            field
+
+            +
+            phi
+            *
+            np.conj(
+                field
+            )
+            *
+            np.conj(
+                field
+            )
+        )
+    ).real
+
+    return (
+        LAMBDA_A
+        /
+        4.0
+        *
+        (
+            amplitude_sq
+            -
+            F_A
+            *
+            F_A
+        ) ** 2
+
+        -
+        trilinear
+
+        +
+        problem.c_phi
+        *
+        (
+            problem.f_background
+            *
+            problem.f_background
+            -
+            ETA_PHI
+            *
+            ETA_PHI
+        )
+
+        +
+        problem.c_a
+        *
+        (
+            amplitude_sq
+            -
+            F_A
+            *
+            F_A
+        )
+
+        +
+        problem.constant
+    )
+
+
+def evaluate_energy(
+    problem: Problem2D,
+    field: np.ndarray,
+    *,
+    phi_override: np.ndarray | None = None,
+    ux_override: np.ndarray | None = None,
+    uz_override: np.ndarray | None = None,
+) -> float:
+    """Evaluate the full fixed-background extension energy."""
+
+    ux = (
+        problem.ux
+        if ux_override is None
+        else ux_override
+    )
+
+    uz = (
+        problem.uz
+        if uz_override is None
+        else uz_override
+    )
+
+    rx = (
+        field[
+            1:,
+            :
+        ]
+
+        -
+        ux
+        *
+        field[
+            :-1,
+            :
+        ]
+    )
+
+    rz = (
+        field[
+            :,
+            1:
+        ]
+
+        -
+        uz
+        *
+        field[
+            :,
+            :-1
+        ]
+    )
+
+    gradient_energy = (
+        np.sum(
+            np.abs(
+                rx
+            ) ** 2
+        )
+
+        +
+        np.sum(
+            np.abs(
+                rz
+            ) ** 2
+        )
+    )
+
+    potential = extension_potential(
+        problem,
+        field,
+        phi_override=phi_override,
+    )
+
+    potential_energy = (
+        problem.dx
+        *
+        problem.dx
+        *
+        np.sum(
+            problem.weights
+            *
+            potential
+        )
+    )
+
+    return float(
+        gradient_energy
+        +
+        potential_energy
+    )
+
+
+def objective_and_gradient(
+    problem: Problem2D,
+    variables: np.ndarray,
+) -> tuple[
+    float,
+    np.ndarray,
+]:
+    """Return extension energy and its exact analytic real-variable gradient."""
+
+    field = unpack_field(
+        problem,
+        variables,
+    )
+
+    rx = (
+        field[
+            1:,
+            :
+        ]
+
+        -
+        problem.ux
+        *
+        field[
+            :-1,
+            :
+        ]
+    )
+
+    rz = (
+        field[
+            :,
+            1:
+        ]
+
+        -
+        problem.uz
+        *
+        field[
+            :,
+            :-1
+        ]
+    )
+
+    energy_gradient = (
+        np.sum(
+            np.abs(
+                rx
+            ) ** 2
+        )
+
+        +
+        np.sum(
+            np.abs(
+                rz
+            ) ** 2
+        )
+    )
+
+    potential = extension_potential(
+        problem,
+        field,
+    )
+
+    energy_potential = (
+        problem.dx
+        *
+        problem.dx
+        *
+        np.sum(
+            problem.weights
+            *
+            potential
+        )
+    )
+
+    # -----------------------------------------------------------------------
+    # Complex Wirtinger gradient dE/dA*.
+    # -----------------------------------------------------------------------
+
+    gradient_complex = np.zeros_like(
+        field,
+        dtype=complex,
+    )
+
+    gradient_complex[
+        1:,
+        :
+    ] += rx
+
+    gradient_complex[
+        :-1,
+        :
+    ] += (
+        -np.conj(
+            problem.ux
+        )
+        *
+        rx
+    )
+
+    gradient_complex[
+        :,
+        1:
+    ] += rz
+
+    gradient_complex[
+        :,
+        :-1
+    ] += (
+        -np.conj(
+            problem.uz
+        )
+        *
+        rz
+    )
+
+    amplitude_sq = (
+        np.abs(
+            field
+        ) ** 2
+    )
+
+    potential_gradient = (
+        LAMBDA_A
+        /
+        2.0
+        *
+        (
+            amplitude_sq
+            -
+            F_A
+            *
+            F_A
+        )
+        *
+        field
+
+        +
+        problem.c_a
+        *
+        field
+
+        -
+        2.0
+        *
+        problem.h_lock
+        *
+        problem.phi
+        *
+        np.conj(
+            field
+        )
+    )
+
+    gradient_complex += (
+        problem.weights
+        *
+        problem.dx
+        *
+        problem.dx
+        *
+        potential_gradient
+    )
+
+    interior_gradient = (
+        gradient_complex[
+            problem.interior
+        ]
+    )
+
+    gradient_real = np.concatenate(
+        [
+            2.0
+            *
+            interior_gradient.real,
+
+            2.0
+            *
+            interior_gradient.imag,
+        ]
+    )
+
+    return (
+        float(
+            energy_gradient
+            +
+            energy_potential
+        ),
+        gradient_real,
+    )
+
+
+# ============================================================================
+# Validation utilities.
+# ============================================================================
+
+
+def directional_gradient_check(
+    problem: Problem2D,
+) -> float:
+    """Compare the analytic optimizer gradient with a finite-difference slope."""
+
+    variables = pack_field(
+        problem,
+        problem.initial_field,
+    )
+
+    energy, gradient = objective_and_gradient(
+        problem,
+        variables,
+    )
+
+    del energy
+
+    rng = np.random.default_rng(
+        123456
+    )
+
+    direction = rng.normal(
+        size=variables.size
+    )
+
+    direction /= np.linalg.norm(
+        direction
+    )
+
+    epsilon = 1.0e-6
+
+    energy_plus, _ = (
+        objective_and_gradient(
+            problem,
+            variables
+            +
+            epsilon
+            *
+            direction,
+        )
+    )
+
+    energy_minus, _ = (
+        objective_and_gradient(
+            problem,
+            variables
+            -
+            epsilon
+            *
+            direction,
+        )
+    )
+
+    finite_difference = (
+        energy_plus
+        -
+        energy_minus
+    ) / (
+        2.0
+        *
+        epsilon
+    )
+
+    analytic = float(
+        np.dot(
+            gradient,
+            direction,
+        )
+    )
+
+    return (
+        abs(
+            finite_difference
+            -
+            analytic
+        )
+        /
+        max(
+            abs(
+                finite_difference
+            ),
+            abs(
+                analytic
+            ),
+            1.0e-14,
+        )
+    )
+
+
+def run_case(
+    radial_solution,
+    *,
+    n: int,
+    box_half: float,
+    h_lock: float = H_LOCK,
+) -> CaseResult:
+    """Solve one complete fixed-background 2D junction minimization."""
+
+    problem = build_problem(
+        radial_solution,
+        n=n,
+        box_half=box_half,
+        h_lock=h_lock,
+    )
+
+    variables0 = pack_field(
+        problem,
+        problem.initial_field,
+    )
+
+    result = minimize(
+        lambda vector: objective_and_gradient(
+            problem,
+            vector,
+        ),
+        variables0,
+        method="L-BFGS-B",
+        jac=True,
+        options={
+            "maxiter":
+                OPT_MAXITER,
+
+            "ftol":
+                OPT_FTOL,
+
+            "gtol":
+                OPT_GTOL,
+
+            "maxls":
+                40,
+        },
+    )
+
+    field = unpack_field(
+        problem,
+        result.x,
+    )
+
+    total_energy, gradient = (
+        objective_and_gradient(
+            problem,
+            result.x,
+        )
+    )
+
+    gradient_rms = float(
+        np.linalg.norm(
+            gradient
+        )
+        /
+        math.sqrt(
+            gradient.size
+        )
+    )
+
+    gradient_max = float(
+        np.max(
+            np.abs(
+                gradient
+            )
+        )
+    )
+
+    junction_excess = (
+        total_energy
+
+        -
+        SIGMA_W_RELAXED_018A5
+        *
+        box_half
+    )
+
+    optimizer_success = (
+        bool(
+            result.success
+        )
+
+        and
+        gradient_rms
+        <
+        MAX_GRADIENT_RMS
+
+        and
+        gradient_max
+        <
+        MAX_GRADIENT_ABS
+    )
+
+    return CaseResult(
+        n=n,
+        box_half=box_half,
+        dx=problem.dx,
+
+        optimizer_success=optimizer_success,
+        iterations=int(
+            result.nit
+        ),
+
+        total_extension_energy=(
+            total_energy
+        ),
+
+        junction_excess_energy=(
+            junction_excess
+        ),
+
+        gradient_rms=gradient_rms,
+        gradient_max=gradient_max,
+
+        field=field,
+        problem=problem,
+    )
+
+
+def energy_slice_per_x(
+    result: CaseResult,
+) -> np.ndarray:
+    """Allocate the extension energy into approximate dE/dx slices."""
+
+    problem = result.problem
+    field = result.field
+
+    rx = (
+        field[
+            1:,
+            :
+        ]
+
+        -
+        problem.ux
+        *
+        field[
+            :-1,
+            :
+        ]
+    )
+
+    rz = (
+        field[
+            :,
+            1:
+        ]
+
+        -
+        problem.uz
+        *
+        field[
+            :,
+            :-1
+        ]
+    )
+
+    potential = extension_potential(
+        problem,
+        field,
+    )
+
+    potential_column = (
+        problem.dx
+        *
+        problem.dx
+        *
+        np.sum(
+            problem.weights
+            *
+            potential,
+            axis=1,
+        )
+    )
+
+    z_link_column = np.sum(
+        np.abs(
+            rz
+        ) ** 2,
+        axis=1,
+    )
+
+    x_link_energy = np.sum(
+        np.abs(
+            rx
+        ) ** 2,
+        axis=1,
+    )
+
+    x_link_column = np.zeros(
+        problem.n,
+        dtype=float,
+    )
+
+    x_link_column[
+        :-1
+    ] += (
+        0.5
+        *
+        x_link_energy
+    )
+
+    x_link_column[
+        1:
+    ] += (
+        0.5
+        *
+        x_link_energy
+    )
+
+    return (
+        potential_column
+        +
+        z_link_column
+        +
+        x_link_column
+    ) / problem.dx
+
+
+def gauge_invariance_relative_error(
+    result: CaseResult,
+) -> float:
+    """Apply a smooth gauge transformation and re-evaluate the lattice energy."""
+
+    problem = result.problem
+    field = result.field
+
+    L = problem.box_half
+
+    alpha = (
+        0.217
+        *
+        np.sin(
+            math.pi
+            *
+            (
+                problem.X
+                +
+                L
+            )
+            /
+            (
+                2.0
+                *
+                L
+            )
+        )
+        *
+        np.sin(
+            math.pi
+            *
+            (
+                problem.Z
+                +
+                L
+            )
+            /
+            (
+                2.0
+                *
+                L
+            )
+        )
+    )
+
+    transformed_field = (
+        np.exp(
+            1j
+            *
+            alpha
+        )
+        *
+        field
+    )
+
+    transformed_phi = (
+        np.exp(
+            2j
+            *
+            alpha
+        )
+        *
+        problem.phi
+    )
+
+    transformed_ux = (
+        np.exp(
+            1j
+            *
+            alpha[
+                1:,
+                :
+            ]
+        )
+        *
+        problem.ux
+        *
+        np.exp(
+            -1j
+            *
+            alpha[
+                :-1,
+                :
+            ]
+        )
+    )
+
+    transformed_uz = (
+        np.exp(
+            1j
+            *
+            alpha[
+                :,
+                1:
+            ]
+        )
+        *
+        problem.uz
+        *
+        np.exp(
+            -1j
+            *
+            alpha[
+                :,
+                :-1
+            ]
+        )
+    )
+
+    original = evaluate_energy(
+        problem,
+        field,
+    )
+
+    transformed = evaluate_energy(
+        problem,
+        transformed_field,
+        phi_override=transformed_phi,
+        ux_override=transformed_ux,
+        uz_override=transformed_uz,
+    )
+
+    return (
+        abs(
+            transformed
+            -
+            original
+        )
+        /
+        max(
+            abs(
+                original
+            ),
+            1.0e-30,
+        )
+    )
+
+
+def morphology_metrics(
+    result: CaseResult,
+) -> dict[str, float]:
+    """Measure one-sided wall termination and far-vacuum phase locking."""
+
+    problem = result.problem
+    field = result.field
+
+    x = problem.x
+    L = problem.box_half
+
+    j_zero = int(
+        np.argmin(
+            np.abs(
+                x
+            )
+        )
+    )
+
+    negative_region = (
+        (
+            x
+            >
+            -0.75
+            *
+            L
+        )
+        &
+        (
+            x
+            <
+            -0.45
+            *
+            L
+        )
+    )
+
+    positive_region = (
+        (
+            x
+            >
+            0.45
+            *
+            L
+        )
+        &
+        (
+            x
+            <
+            0.75
+            *
+            L
+        )
+    )
+
+    negative_wall_max = float(
+        np.max(
+            np.abs(
+                field[
+                    negative_region,
+                    j_zero,
+                ]
+            )
+        )
+        /
+        F_A
+    )
+
+    positive_recovery_min = float(
+        np.min(
+            np.abs(
+                field[
+                    positive_region,
+                    j_zero,
+                ]
+            )
+        )
+        /
+        F_A
+    )
+
+    amplitude = np.abs(
+        field
+    )
+
+    phi_amplitude = (
+        problem.f_background
+    )
+
+    lock_mask = (
+        (
+            problem.radius
+            >
+            30.0
+        )
+        &
+        (
+            amplitude
+            >
+            0.5
+            *
+            F_A
+        )
+        &
+        (
+            phi_amplitude
+            >
+            0.90
+        )
+    )
+
+    lock_cosine = (
+        np.real(
+            np.conj(
+                problem.phi
+            )
+            *
+            field
+            *
+            field
+        )
+        /
+        np.maximum(
+            phi_amplitude
+            *
+            amplitude
+            *
+            amplitude,
+            1.0e-30,
+        )
+    )
+
+    phase_lock_rms = float(
+        np.sqrt(
+            np.mean(
+                (
+                    1.0
+                    -
+                    lock_cosine[
+                        lock_mask
+                    ]
+                ) ** 2
+            )
+        )
+    )
+
+    slices = energy_slice_per_x(
+        result
+    )
+
+    far_negative = (
+        (
+            x
+            >
+            -0.80
+            *
+            L
+        )
+        &
+        (
+            x
+            <
+            -0.50
+            *
+            L
+        )
+    )
+
+    far_positive = (
+        (
+            x
+            >
+            0.50
+            *
+            L
+        )
+        &
+        (
+            x
+            <
+            0.80
+            *
+            L
+        )
+    )
+
+    far_wall_tension_ratio = float(
+        np.mean(
+            slices[
+                far_negative
+            ]
+        )
+        /
+        SIGMA_W_RELAXED_018A5
+    )
+
+    positive_slice_ratio = float(
+        np.mean(
+            slices[
+                far_positive
+            ]
+        )
+        /
+        SIGMA_W_RELAXED_018A5
+    )
+
+    core_amplitude_ratio = float(
+        np.abs(
+            field[
+                j_zero,
+                j_zero,
+            ]
+        )
+        /
+        F_A
+    )
+
+    return {
+        "negative_wall_max":
+            negative_wall_max,
+
+        "positive_recovery_min":
+            positive_recovery_min,
+
+        "phase_lock_rms":
+            phase_lock_rms,
+
+        "far_wall_tension_ratio":
+            far_wall_tension_ratio,
+
+        "positive_slice_ratio":
+            positive_slice_ratio,
+
+        "core_amplitude_ratio":
+            core_amplitude_ratio,
+    }
+
+
+# ============================================================================
+# Main execution.
+# ============================================================================
+
+
+def main() -> None:
+    """Execute the complete 018A-6A fixed-background 2D junction diagnostic."""
+
+    print(
+        "=== ANTIGRAVITY_RESEARCH 018A-6A ==="
+    )
+
+    print(
+        "QUESTION="
+        "DOES_THE_MICROSCOPIC_KLS_WALL_TERMINATE_ON_THE_RECONSTRUCTED_017P_VORTEX_IN_2D"
+    )
+
+    print(
+        "TRUE_2D_COMPLEX_A_FIELD="
+        "YES"
+    )
+
+    print(
+        "FULLY_COUPLED_PHI_A_SIGMA_GAUGE_2D="
+        "NO"
+    )
+
+    print(
+        "\n=== 017P BACKGROUND RECONSTRUCTION ==="
+    )
+
+    radial_solution = (
+        solve_017p_background()
+    )
+
+    radial_diag = diagnose_017p(
+        radial_solution
+    )
+
+    sigma2_relerr = (
+        abs(
+            radial_diag.sigma2
+            -
+            SIGMA2_JOURNAL
+        )
+        /
+        SIGMA2_JOURNAL
+    )
+
+    a_string_relerr = (
+        abs(
+            radial_diag.a_string
+            -
+            A_STRING_JOURNAL
+        )
+        /
+        A_STRING_JOURNAL
+    )
+
+    print(
+        f"RECONSTRUCTED_SIGMA2={radial_diag.sigma2:.15e}"
+    )
+
+    print(
+        f"SIGMA2_RELERR={sigma2_relerr:.15e}"
+    )
+
+    print(
+        f"RECONSTRUCTED_A_STRING={radial_diag.a_string:.15e}"
+    )
+
+    print(
+        f"A_STRING_RELERR={a_string_relerr:.15e}"
+    )
+
+    print(
+        "RADIAL_MAX_RMS_RESIDUAL="
+        f"{radial_diag.max_rms_residual:.15e}"
+    )
+
+    baseline_pass = (
+        sigma2_relerr
+        <
+        5.0e-5
+
+        and
+        a_string_relerr
+        <
+        5.0e-5
+    )
+
+    print(
+        "017P_BASELINE_RECONSTRUCTION="
+        f"{'PASS' if baseline_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== WALL REFERENCE ==="
+    )
+
+    print(
+        "SIGMA_W_RELAXED_018A5="
+        f"{SIGMA_W_RELAXED_018A5:.15e}"
+    )
+
+    print(
+        "SIGMA_W_ANALYTIC_REAL_KINK="
+        f"{SIGMA_W_ANALYTIC:.15e}"
+    )
+
+    print(
+        "RELAXED_VS_ANALYTIC_RELERR="
+        f"{abs(SIGMA_W_RELAXED_018A5-SIGMA_W_ANALYTIC)/SIGMA_W_ANALYTIC:.15e}"
+    )
+
+    print(
+        "EXTRA_LINE_BUDGET="
+        f"{EXTRA_LINE_BUDGET:.15e}"
+    )
+
+    print(
+        "\n=== ANALYTIC OPTIMIZER-GRADIENT CHECK ==="
+    )
+
+    gradient_problem = build_problem(
+        radial_solution,
+        n=61,
+        box_half=75.0,
+    )
+
+    gradient_check = (
+        directional_gradient_check(
+            gradient_problem
+        )
+    )
+
+    gradient_check_pass = (
+        gradient_check
+        <
+        MAX_GRADIENT_CHECK_RELERR
+    )
+
+    print(
+        "GRADIENT_DIRECTIONAL_RELERR="
+        f"{gradient_check:.15e}"
+    )
+
+    print(
+        "ANALYTIC_GRADIENT_CHECK="
+        f"{'PASS' if gradient_check_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== FIXED-DX DOMAIN CONVERGENCE ==="
+    )
+
+    domain_results = []
+
+    for (
+        n,
+        box_half,
+    ) in DOMAIN_CASES:
+
+        result = run_case(
+            radial_solution,
+            n=n,
+            box_half=box_half,
+        )
+
+        domain_results.append(
+            result
+        )
+
+        print(
+            "DOMAIN "
+            f"N={result.n} "
+            f"L={result.box_half:.3f} "
+            f"DX={result.dx:.12f} "
+            f"ITER={result.iterations} "
+            f"OPT={'PASS' if result.optimizer_success else 'FAIL'} "
+            f"E_EXT={result.total_extension_energy:.15e} "
+            f"MU_JUNCTION={result.junction_excess_energy:+.15e} "
+            f"GRAD_RMS={result.gradient_rms:.6e} "
+            f"GRAD_MAX={result.gradient_max:.6e}"
+        )
+
+    domain_mu = np.array(
+        [
+            result.junction_excess_energy
+            for result
+            in domain_results
+        ],
+        dtype=float,
+    )
+
+    domain_mu_spread = (
+        float(
+            np.max(
+                domain_mu
+            )
+            -
+            np.min(
+                domain_mu
+            )
+        )
+        /
+        max(
+            abs(
+                float(
+                    np.mean(
+                        domain_mu
+                    )
+                )
+            ),
+            1.0e-30,
+        )
+    )
+
+    domain_optimizer_pass = all(
+        result.optimizer_success
+        for result
+        in domain_results
+    )
+
+    print(
+        "DOMAIN_MU_REL_SPREAD="
+        f"{domain_mu_spread:.15e}"
+    )
+
+    domain_mu_pass = (
+        domain_optimizer_pass
+        and
+        domain_mu_spread
+        <
+        MAX_DOMAIN_MU_REL_SPREAD
+    )
+
+    print(
+        "DOMAIN_JUNCTION_EXCESS_CONVERGENCE="
+        f"{'PASS' if domain_mu_pass else 'FAIL'}"
+    )
+
+    slope_ratios = []
+
+    for left, right in zip(
+        domain_results[:-1],
+        domain_results[1:],
+    ):
+
+        slope = (
+            right.total_extension_energy
+            -
+            left.total_extension_energy
+        ) / (
+            right.box_half
+            -
+            left.box_half
+        )
+
+        ratio = (
+            slope
+            /
+            SIGMA_W_RELAXED_018A5
+        )
+
+        slope_ratios.append(
+            ratio
+        )
+
+        print(
+            "DOMAIN_SLOPE "
+            f"L1={left.box_half:.1f} "
+            f"L2={right.box_half:.1f} "
+            f"DE_DL={slope:.15e} "
+            f"OVER_SIGMA={ratio:.12f}"
+        )
+
+    slope_pass = all(
+        abs(
+            ratio
+            -
+            1.0
+        )
+        <
+        MAX_DOMAIN_SLOPE_RELERR
+        for ratio
+        in slope_ratios
+    )
+
+    print(
+        "DOMAIN_ENERGY_SLOPE_MATCHES_WALL="
+        f"{'PASS' if slope_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== FIXED-DOMAIN RESOLUTION CONVERGENCE ==="
+    )
+
+    resolution_results = []
+
+    for (
+        n,
+        box_half,
+    ) in RESOLUTION_CASES:
+
+        result = run_case(
+            radial_solution,
+            n=n,
+            box_half=box_half,
+        )
+
+        resolution_results.append(
+            result
+        )
+
+        print(
+            "RESOLUTION "
+            f"N={result.n} "
+            f"L={result.box_half:.3f} "
+            f"DX={result.dx:.12f} "
+            f"ITER={result.iterations} "
+            f"OPT={'PASS' if result.optimizer_success else 'FAIL'} "
+            f"E_EXT={result.total_extension_energy:.15e} "
+            f"MU_JUNCTION={result.junction_excess_energy:+.15e} "
+            f"GRAD_RMS={result.gradient_rms:.6e} "
+            f"GRAD_MAX={result.gradient_max:.6e}"
+        )
+
+    resolution_mu = np.array(
+        [
+            result.junction_excess_energy
+            for result
+            in resolution_results
+        ],
+        dtype=float,
+    )
+
+    resolution_mu_spread = (
+        float(
+            np.max(
+                resolution_mu
+            )
+            -
+            np.min(
+                resolution_mu
+            )
+        )
+        /
+        max(
+            abs(
+                float(
+                    np.mean(
+                        resolution_mu
+                    )
+                )
+            ),
+            1.0e-30,
+        )
+    )
+
+    resolution_optimizer_pass = all(
+        result.optimizer_success
+        for result
+        in resolution_results
+    )
+
+    resolution_pass = (
+        resolution_optimizer_pass
+        and
+        resolution_mu_spread
+        <
+        MAX_RESOLUTION_MU_REL_SPREAD
+    )
+
+    print(
+        "RESOLUTION_MU_REL_SPREAD="
+        f"{resolution_mu_spread:.15e}"
+    )
+
+    print(
+        "RESOLUTION_JUNCTION_EXCESS_CONVERGENCE="
+        f"{'PASS' if resolution_pass else 'FAIL'}"
+    )
+
+    finest = (
+        resolution_results[
+            -1
+        ]
+    )
+
+    print(
+        "\n=== FINEST-GRID JUNCTION MORPHOLOGY ==="
+    )
+
+    morphology = morphology_metrics(
+        finest
+    )
+
+    print(
+        "NEGATIVE_SIDE_WALL_MAX_A_OVER_F="
+        f"{morphology['negative_wall_max']:.15e}"
+    )
+
+    print(
+        "POSITIVE_SIDE_RECOVERY_MIN_A_OVER_F="
+        f"{morphology['positive_recovery_min']:.15e}"
+    )
+
+    print(
+        "CORE_A_OVER_F="
+        f"{morphology['core_amplitude_ratio']:.15e}"
+    )
+
+    print(
+        "RELATIVE_PHASE_LOCK_RMS="
+        f"{morphology['phase_lock_rms']:.15e}"
+    )
+
+    print(
+        "FAR_NEGATIVE_WALL_TENSION_OVER_018A5="
+        f"{morphology['far_wall_tension_ratio']:.15e}"
+    )
+
+    print(
+        "FAR_POSITIVE_SLICE_OVER_SIGMA="
+        f"{morphology['positive_slice_ratio']:.15e}"
+    )
+
+    termination_pass = (
+        morphology[
+            "negative_wall_max"
+        ]
+        <
+        MAX_NEGATIVE_WALL_A_OVER_F
+
+        and
+
+        morphology[
+            "positive_recovery_min"
+        ]
+        >
+        MIN_POSITIVE_RECOVERY_A_OVER_F
+    )
+
+    wall_tension_pass = (
+        abs(
+            morphology[
+                "far_wall_tension_ratio"
+            ]
+            -
+            1.0
+        )
+        <
+        MAX_FAR_WALL_TENSION_RELERR
+    )
+
+    positive_recovery_pass = (
+        morphology[
+            "positive_slice_ratio"
+        ]
+        <
+        MAX_POSITIVE_SIDE_SLICE_OVER_SIGMA
+    )
+
+    phase_lock_pass = (
+        morphology[
+            "phase_lock_rms"
+        ]
+        <
+        MAX_PHASE_LOCK_RMS
+    )
+
+    print(
+        "ONE_SIDED_WALL_TERMINATION="
+        f"{'PASS' if termination_pass else 'FAIL'}"
+    )
+
+    print(
+        "FAR_WALL_TENSION_RECONSTRUCTION="
+        f"{'PASS' if wall_tension_pass else 'FAIL'}"
+    )
+
+    print(
+        "POSITIVE_SIDE_VACUUM_RECOVERY="
+        f"{'PASS' if positive_recovery_pass else 'FAIL'}"
+    )
+
+    print(
+        "RELATIVE_PHASE_LOCKING="
+        f"{'PASS' if phase_lock_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== DISCRETE GAUGE-INVARIANCE CHECK ==="
+    )
+
+    gauge_relerr = (
+        gauge_invariance_relative_error(
+            finest
+        )
+    )
+
+    gauge_pass = (
+        gauge_relerr
+        <
+        MAX_GAUGE_INVARIANCE_RELERR
+    )
+
+    print(
+        "GAUGE_TRANSFORM_ENERGY_RELERR="
+        f"{gauge_relerr:.15e}"
+    )
+
+    print(
+        "DISCRETE_GAUGE_INVARIANCE="
+        f"{'PASS' if gauge_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== JUNCTION ENERGY BUDGET ==="
+    )
+
+    finest_mu = (
+        finest.junction_excess_energy
+    )
+
+    budget_fraction = (
+        abs(
+            finest_mu
+        )
+        /
+        EXTRA_LINE_BUDGET
+    )
+
+    budget_pass = (
+        budget_fraction
+        <
+        MAX_JUNCTION_BUDGET_FRACTION
+    )
+
+    print(
+        "FINEST_MU_JUNCTION="
+        f"{finest_mu:+.15e}"
+    )
+
+    print(
+        "EXTRA_LINE_BUDGET="
+        f"{EXTRA_LINE_BUDGET:.15e}"
+    )
+
+    print(
+        "ABS_MU_OVER_LINE_BUDGET="
+        f"{budget_fraction:.15e}"
+    )
+
+    print(
+        "FIXED_BACKGROUND_JUNCTION_ENERGY_BUDGET="
+        f"{'PASS' if budget_pass else 'FAIL'}"
+    )
+
+    print(
+        "\n=== BLIND AUXILIARY 2D WILDCARD ==="
+    )
+
+    wildcard_h = (
+        H_LOCK
+        *
+        0.625
+    )
+
+    wildcard_result = run_case(
+        radial_solution,
+        n=61,
+        box_half=75.0,
+        h_lock=wildcard_h,
+    )
+
+    wildcard_morphology = (
+        morphology_metrics(
+            wildcard_result
+        )
+    )
+
+    wildcard_pass = (
+        wildcard_result.optimizer_success
+
+        and
+        wildcard_morphology[
+            "negative_wall_max"
+        ]
+        <
+        0.05
+
+        and
+        wildcard_morphology[
+            "positive_recovery_min"
+        ]
+        >
+        0.90
+    )
+
+    print(
+        "WILDCARD_SOURCE_VALUES="
+        "0.625_AND_RECIPROCAL_OF_1.6"
+    )
+
+    print(
+        "WILDCARD_H_MULTIPLIER=0.625"
+    )
+
+    print(
+        "WILDCARD_H="
+        f"{wildcard_h:.15e}"
+    )
+
+    print(
+        "WILDCARD_NEGATIVE_WALL_MAX_A_OVER_F="
+        f"{wildcard_morphology['negative_wall_max']:.15e}"
+    )
+
+    print(
+        "WILDCARD_POSITIVE_RECOVERY_MIN_A_OVER_F="
+        f"{wildcard_morphology['positive_recovery_min']:.15e}"
+    )
+
+    print(
+        "WILDCARD_2D_TERMINATION="
+        f"{'PASS' if wildcard_pass else 'FAIL'}"
+    )
+
+    print(
+        "WILDCARD_INTERPRETATION="
+        "BLIND_AUXILIARY_ONLY_NOT_PROMOTION_INPUT"
+    )
+
+    print(
+        "\n=== 018A-6A DECISION ==="
+    )
+
+    overall_green = (
+        baseline_pass
+
+        and
+        gradient_check_pass
+
+        and
+        domain_mu_pass
+
+        and
+        slope_pass
+
+        and
+        resolution_pass
+
+        and
+        termination_pass
+
+        and
+        wall_tension_pass
+
+        and
+        positive_recovery_pass
+
+        and
+        phase_lock_pass
+
+        and
+        gauge_pass
+
+        and
+        budget_pass
+    )
+
+    print(
+        "017P_BASELINE_RECONSTRUCTION="
+        f"{'PASS' if baseline_pass else 'FAIL'}"
+    )
+
+    print(
+        "ANALYTIC_GRADIENT_CHECK="
+        f"{'PASS' if gradient_check_pass else 'FAIL'}"
+    )
+
+    print(
+        "DOMAIN_JUNCTION_EXCESS_CONVERGENCE="
+        f"{'PASS' if domain_mu_pass else 'FAIL'}"
+    )
+
+    print(
+        "DOMAIN_ENERGY_SLOPE_MATCHES_WALL="
+        f"{'PASS' if slope_pass else 'FAIL'}"
+    )
+
+    print(
+        "RESOLUTION_JUNCTION_EXCESS_CONVERGENCE="
+        f"{'PASS' if resolution_pass else 'FAIL'}"
+    )
+
+    print(
+        "ONE_SIDED_WALL_TERMINATION="
+        f"{'PASS' if termination_pass else 'FAIL'}"
+    )
+
+    print(
+        "FAR_WALL_TENSION_RECONSTRUCTION="
+        f"{'PASS' if wall_tension_pass else 'FAIL'}"
+    )
+
+    print(
+        "POSITIVE_SIDE_VACUUM_RECOVERY="
+        f"{'PASS' if positive_recovery_pass else 'FAIL'}"
+    )
+
+    print(
+        "RELATIVE_PHASE_LOCKING="
+        f"{'PASS' if phase_lock_pass else 'FAIL'}"
+    )
+
+    print(
+        "DISCRETE_GAUGE_INVARIANCE="
+        f"{'PASS' if gauge_pass else 'FAIL'}"
+    )
+
+    print(
+        "FIXED_BACKGROUND_JUNCTION_ENERGY_BUDGET="
+        f"{'PASS' if budget_pass else 'FAIL'}"
+    )
+
+    print(
+        "018A6A_FIXED_BACKGROUND_2D_KLS_JUNCTION="
+        f"{'GREEN' if overall_green else 'RED'}"
+    )
+
+    print(
+        "MICROSCOPIC_WALL_ENDS_ON_017P_VORTEX_IN_FIXED_BACKGROUND="
+        +
+        (
+            "SUPPORTED"
+            if overall_green
+            else
+            "NOT_ESTABLISHED"
+        )
+    )
+
+    print(
+        "FULLY_COUPLED_2D_JUNCTION="
+        "NOT_YET_SOLVED"
+    )
+
+    print(
+        "PERTURBED_017P_EOS="
+        "NOT_YET_SOLVED"
+    )
+
+    print(
+        "COMPLETE_JUNCTION_T_MUNU="
+        "NOT_YET_SOLVED"
+    )
+
+    print(
+        "FINITE_PAYLOAD_GRAVITY_WITH_COMPLETE_NEW_SECTOR="
+        "NOT_YET_TESTED"
+    )
+
+    print(
+        "FULL_018A_GATE="
+        "NOT_YET_GREEN"
+    )
+
+    print(
+        "PRACTICAL_ANTIGRAVITY_DEVICE="
+        "NO"
+    )
+
+    print(
+        "CLAIM_CLASSIFICATION="
+        "PROJECT_DERIVED_018A_FIXED_BACKGROUND_2D_KLS_JUNCTION_DIAGNOSTIC"
+    )
+
+    if overall_green:
+        print(
+            "NEXT="
+            "018A6B_FULLY_COUPLED_2D_KLS_JUNCTION_WITH_PHI_A_SIGMA_GAUGE_RELAXATION_AND_COMPLETE_LINE_STRESS"
+        )
+    else:
+        print(
+            "NEXT="
+            "AUDIT_2D_JUNCTION_FAILURE_BEFORE_FULL_COUPLED_ESCALATION"
+        )
+
+
+if __name__ == "__main__":
+    main()
