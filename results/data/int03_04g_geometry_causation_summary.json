@@ -1,0 +1,481 @@
+{
+  "claim_classification": "PROJECT_DERIVED_INT03_04G_GEOMETRY_CAUSATION_EXPANSION_SIGNATURE",
+  "claim_limits": {
+    "expanded_field_stationary": false,
+    "int_level_2": false,
+    "int_level_3": false,
+    "practical_device": false,
+    "source_mask_physical": false
+  },
+  "decision": "GEOMETRY_SIGNATURE_IDENTIFIED_FOR_SOURCE_BOUND_TARGETING",
+  "exact_map": {
+    "F50_energy_fraction": 0.04092922160695207,
+    "I": 60.8680423971251,
+    "degree": 6.999999999999997,
+    "net_force": 28.817876381145645,
+    "payload_center": 0.38701612745649,
+    "payload_radius": 0.016757357432051617,
+    "rows": [
+      {
+        "energy_weighted_background_mean": 2.8490704514159555,
+        "field": "EXACT_MAP",
+        "metric": "J",
+        "pearson_log_leverage": -0.022212538004887414,
+        "spearman_leverage": -0.04911922780230665,
+        "top50_energy_weighted_mean": 2.830221430941608,
+        "top50_to_background_ratio": 0.9933841507973312
+      },
+      {
+        "energy_weighted_background_mean": 8.465264445881544,
+        "field": "EXACT_MAP",
+        "metric": "J2",
+        "pearson_log_leverage": -0.01988036317216487,
+        "spearman_leverage": -0.04911922780230665,
+        "top50_energy_weighted_mean": 8.323624908214933,
+        "top50_to_background_ratio": 0.9832681496754043
+      },
+      {
+        "energy_weighted_background_mean": 79.65984273102441,
+        "field": "EXACT_MAP",
+        "metric": "J4",
+        "pearson_log_leverage": -0.01725833872105973,
+        "spearman_leverage": -0.04911922780230665,
+        "top50_energy_weighted_mean": 76.282214584808,
+        "top50_to_background_ratio": 0.9575993621074405
+      },
+      {
+        "energy_weighted_background_mean": 2181695620580476.2,
+        "field": "EXACT_MAP",
+        "metric": "Wronskian_abs",
+        "pearson_log_leverage": -0.030466967597368888,
+        "spearman_leverage": -0.05151776666071242,
+        "top50_energy_weighted_mean": 163783095189179.62,
+        "top50_to_background_ratio": 0.07507146901894703
+      },
+      {
+        "energy_weighted_background_mean": 0.8306473246068494,
+        "field": "EXACT_MAP",
+        "metric": "radius",
+        "pearson_log_leverage": -0.8102881164412559,
+        "spearman_leverage": -0.6748567009959816,
+        "top50_energy_weighted_mean": 0.6151232512011778,
+        "top50_to_background_ratio": 0.740534800966607
+      }
+    ]
+  },
+  "expanded_diagnostic": {
+    "analytic_force": 184.6744397055071,
+    "force_close_abs": 1.7053025658242404e-13,
+    "force_close_rel": 9.23410174436493e-16,
+    "force_ratio_to_reference": 639.6064989266501,
+    "gain50_stationary_top50_weighted_jaccard": 0.025166671949385447,
+    "gain_F50_energy_fraction": 0.2011268774932686,
+    "gain_sectors": [
+      {
+        "cell_count": 72848,
+        "positive_force_gain": 611.7619019170896,
+        "positive_force_gain_fraction": 0.7711423677083344,
+        "reference_energy_fraction": 0.8289389305927323,
+        "sector": "SPLUS_TO_SPLUS",
+        "signed_force_gain": 86.53781735384163,
+        "signed_force_gain_fraction": 0.4693303950704007
+      },
+      {
+        "cell_count": 2912,
+        "positive_force_gain": 91.75412726206099,
+        "positive_force_gain_fraction": 0.11565855069128977,
+        "reference_energy_fraction": 0.11797312354435728,
+        "sector": "SPLUS_TO_SMINUS",
+        "signed_force_gain": 34.65594015382064,
+        "signed_force_gain_fraction": 0.18795350496792665
+      },
+      {
+        "cell_count": 0,
+        "positive_force_gain": 0.0,
+        "positive_force_gain_fraction": 0.0,
+        "reference_energy_fraction": 0.0,
+        "sector": "SMINUS_TO_SPLUS",
+        "signed_force_gain": 0.0,
+        "signed_force_gain_fraction": 0.0
+      },
+      {
+        "cell_count": 186384,
+        "positive_force_gain": 89.8029836707223,
+        "positive_force_gain_fraction": 0.11319908160037574,
+        "reference_energy_fraction": 0.05308794586291045,
+        "sector": "SMINUS_TO_SMINUS",
+        "signed_force_gain": 63.191950860662686,
+        "signed_force_gain_fraction": 0.34271609996167274
+      }
+    ],
+    "lambda": 1.25,
+    "net_force": 184.67443970550727,
+    "stationary": false,
+    "top50_weighted_jaccard_to_stationary": 0.4066527750308003
+  },
+  "expanded_geometry_correlations": [
+    {
+      "energy_weighted_background_mean": 0.8117709629038945,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "radius",
+      "pearson_log_leverage": -0.31849182803934767,
+      "spearman_leverage": -0.12194071892679863,
+      "top50_energy_weighted_mean": 0.41210612291462106,
+      "top50_to_background_ratio": 0.5076630499820062
+    },
+    {
+      "energy_weighted_background_mean": 364.3364355974966,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "rho_center",
+      "pearson_log_leverage": 0.157124464289626,
+      "spearman_leverage": 0.11323146023229223,
+      "top50_energy_weighted_mean": 266.33254942577224,
+      "top50_to_background_ratio": 0.731007177443008
+    },
+    {
+      "energy_weighted_background_mean": 444.6035882604943,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "S_center",
+      "pearson_log_leverage": 0.051484684243467485,
+      "spearman_leverage": -0.1867158071322787,
+      "top50_energy_weighted_mean": 190.7120534230527,
+      "top50_to_background_ratio": 0.42894852506524095
+    },
+    {
+      "energy_weighted_background_mean": 452.5264493397425,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "abs_S_center",
+      "pearson_log_leverage": 0.1446111862183521,
+      "spearman_leverage": 0.11336623411538244,
+      "top50_energy_weighted_mean": 342.47488938870106,
+      "top50_to_background_ratio": 0.7568063477579888
+    },
+    {
+      "energy_weighted_background_mean": 2361.8209335875863,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "gradS",
+      "pearson_log_leverage": 0.16463832824748054,
+      "spearman_leverage": 0.11532463240485939,
+      "top50_energy_weighted_mean": 1631.2128405907133,
+      "top50_to_background_ratio": 0.6906589815481543
+    },
+    {
+      "energy_weighted_background_mean": 0.23488397614494025,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "sigma_plane_distance",
+      "pearson_log_leverage": 0.23643533406432776,
+      "spearman_leverage": 0.017699926697489404,
+      "top50_energy_weighted_mean": 1.0849058460214411,
+      "top50_to_background_ratio": 4.618901058418632
+    },
+    {
+      "energy_weighted_background_mean": 0.14990505718839198,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "sigma_nearest_distance",
+      "pearson_log_leverage": -0.18167629775382238,
+      "spearman_leverage": -0.1484829474884046,
+      "top50_energy_weighted_mean": 0.0949227343195913,
+      "top50_to_background_ratio": 0.6332190260952832
+    },
+    {
+      "energy_weighted_background_mean": 0.021616377468373763,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "distance_energy_ridge",
+      "pearson_log_leverage": -0.2065882558264654,
+      "spearman_leverage": -0.1161569606239777,
+      "top50_energy_weighted_mean": 0.05677019721629412,
+      "top50_to_background_ratio": 2.6262585994972008
+    },
+    {
+      "energy_weighted_background_mean": 0.054458008820303806,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "distance_topology_ridge",
+      "pearson_log_leverage": -0.20349171850189934,
+      "spearman_leverage": -0.11309082853556077,
+      "top50_energy_weighted_mean": 0.12774860226185575,
+      "top50_to_background_ratio": 2.345818457729338
+    },
+    {
+      "energy_weighted_background_mean": 1.4109711026018927,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "baryon_abs",
+      "pearson_log_leverage": 0.12168771564652228,
+      "spearman_leverage": 0.11062204707360906,
+      "top50_energy_weighted_mean": 0.8641337089451979,
+      "top50_to_background_ratio": 0.6124389842936524
+    },
+    {
+      "energy_weighted_background_mean": 6.8017254418249635,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "strain_eig1",
+      "pearson_log_leverage": 0.13391735082366124,
+      "spearman_leverage": 0.10954822027901724,
+      "top50_energy_weighted_mean": 4.276711273895552,
+      "top50_to_background_ratio": 0.6287685838651071
+    },
+    {
+      "energy_weighted_background_mean": 8.353057976053076,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "strain_eig2",
+      "pearson_log_leverage": 0.133080723455293,
+      "spearman_leverage": 0.11083992257545774,
+      "top50_energy_weighted_mean": 5.195191664869608,
+      "top50_to_background_ratio": 0.6219508687433294
+    },
+    {
+      "energy_weighted_background_mean": 12.237781792045752,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "strain_eig3",
+      "pearson_log_leverage": 0.1422564836590695,
+      "spearman_leverage": 0.1118896526238136,
+      "top50_energy_weighted_mean": 7.963186854956037,
+      "top50_to_background_ratio": 0.6507050861236884
+    },
+    {
+      "energy_weighted_background_mean": 27.39256520992379,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "strain_trace",
+      "pearson_log_leverage": 0.1400319036890024,
+      "spearman_leverage": 0.1108802018083541,
+      "top50_energy_weighted_mean": 17.435089793721197,
+      "top50_to_background_ratio": 0.6364898526336191
+    },
+    {
+      "energy_weighted_background_mean": 0.31179270539267745,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "strain_anisotropy",
+      "pearson_log_leverage": -0.20795375033036628,
+      "spearman_leverage": -0.06229279099458785,
+      "top50_energy_weighted_mean": 0.3497384394259254,
+      "top50_to_background_ratio": 1.1217018017963518
+    },
+    {
+      "energy_weighted_background_mean": 3.3056251525037696,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "strain_eig_ratio",
+      "pearson_log_leverage": -0.004103281161480916,
+      "spearman_leverage": -0.05855148466631554,
+      "top50_energy_weighted_mean": 2.583900418079358,
+      "top50_to_background_ratio": 0.7816677024381431
+    },
+    {
+      "energy_weighted_background_mean": 4.465344133528821,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "e4_over_V",
+      "pearson_log_leverage": 0.08712962121943882,
+      "spearman_leverage": 0.10369420610686583,
+      "top50_energy_weighted_mean": 2.2574096231775584,
+      "top50_to_background_ratio": 0.5055398992044984
+    },
+    {
+      "energy_weighted_background_mean": 0.20832131371155133,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "V_fraction_center",
+      "pearson_log_leverage": 0.1953919880509943,
+      "spearman_leverage": 0.03326540128964716,
+      "top50_energy_weighted_mean": 0.558810277836687,
+      "top50_to_background_ratio": 2.682444095040772
+    },
+    {
+      "energy_weighted_background_mean": 0.69162351654971,
+      "field": "N65_EXPANDED_LAMBDA_1P25_DIAGNOSTIC",
+      "metric": "e4_fraction_center",
+      "pearson_log_leverage": 0.10025993554532643,
+      "spearman_leverage": 0.10582479898507882,
+      "top50_energy_weighted_mean": 0.3806082310015876,
+      "top50_to_background_ratio": 0.5503112920455931
+    }
+  ],
+  "gates": {
+    "force_scaling_closure": true,
+    "geometry_signal": true
+  },
+  "next": "INT08_SOURCE_LEVEL_CONSERVATION_AWARE_HEADROOM_BOUND_WITH_GEOMETRY_SIGNATURE_CONSTRAINTS",
+  "nontrivial_exact_map_metrics": [
+    "radius"
+  ],
+  "reference": {
+    "direction": [
+      -0.45435018446379805,
+      0.01878880658050992,
+      0.8906249999999961
+    ],
+    "net_force": 0.2887313371821847,
+    "payload_center": 0.38701612745649,
+    "payload_radius": 0.01675735743205162
+  },
+  "reproducible_unrestricted_metrics": [],
+  "stationary_geometry_correlations": [
+    {
+      "energy_weighted_background_mean": 0.8079385513956203,
+      "field": "N65_STATIONARY",
+      "metric": "radius",
+      "pearson_log_leverage": -0.3132897072541315,
+      "spearman_leverage": -0.05521080222236347,
+      "top50_energy_weighted_mean": 0.6045233842647281,
+      "top50_to_background_ratio": 0.7482294083138921
+    },
+    {
+      "energy_weighted_background_mean": 384.19871758852184,
+      "field": "N65_STATIONARY",
+      "metric": "rho_center",
+      "pearson_log_leverage": 0.24073792616451298,
+      "spearman_leverage": 0.04808791313490169,
+      "top50_energy_weighted_mean": 441.99153708902344,
+      "top50_to_background_ratio": 1.1504242904902091
+    },
+    {
+      "energy_weighted_background_mean": 477.7724539415477,
+      "field": "N65_STATIONARY",
+      "metric": "S_center",
+      "pearson_log_leverage": 0.16183304908437018,
+      "spearman_leverage": -0.18405405461574925,
+      "top50_energy_weighted_mean": 526.5726859303173,
+      "top50_to_background_ratio": 1.1021411585916587
+    },
+    {
+      "energy_weighted_background_mean": 482.9688464429164,
+      "field": "N65_STATIONARY",
+      "metric": "abs_S_center",
+      "pearson_log_leverage": 0.23451202634835416,
+      "spearman_leverage": 0.049862830152387544,
+      "top50_energy_weighted_mean": 569.7171980044027,
+      "top50_to_background_ratio": 1.1796147975182896
+    },
+    {
+      "energy_weighted_background_mean": 2423.0850681924235,
+      "field": "N65_STATIONARY",
+      "metric": "gradS",
+      "pearson_log_leverage": 0.235649241447521,
+      "spearman_leverage": 0.049680200310997805,
+      "top50_energy_weighted_mean": 2583.777673716228,
+      "top50_to_background_ratio": 1.0663173603078155
+    },
+    {
+      "energy_weighted_background_mean": 0.23808788748037085,
+      "field": "N65_STATIONARY",
+      "metric": "sigma_plane_distance",
+      "pearson_log_leverage": 0.21723501431675454,
+      "spearman_leverage": 0.006180486921242695,
+      "top50_energy_weighted_mean": 0.6201146590634182,
+      "top50_to_background_ratio": 2.604561977620737
+    },
+    {
+      "energy_weighted_background_mean": 0.15750082438437096,
+      "field": "N65_STATIONARY",
+      "metric": "sigma_nearest_distance",
+      "pearson_log_leverage": -0.164646828089696,
+      "spearman_leverage": -0.07428420577377563,
+      "top50_energy_weighted_mean": 0.12998515741348926,
+      "top50_to_background_ratio": 0.8252982669872798
+    },
+    {
+      "energy_weighted_background_mean": 0.017143106460083445,
+      "field": "N65_STATIONARY",
+      "metric": "distance_energy_ridge",
+      "pearson_log_leverage": -0.2261609754712391,
+      "spearman_leverage": -0.05016771998481541,
+      "top50_energy_weighted_mean": 0.018860786897571213,
+      "top50_to_background_ratio": 1.1001965683108408
+    },
+    {
+      "energy_weighted_background_mean": 0.045658159160018245,
+      "field": "N65_STATIONARY",
+      "metric": "distance_topology_ridge",
+      "pearson_log_leverage": -0.22932325062770198,
+      "spearman_leverage": -0.04766592137921905,
+      "top50_energy_weighted_mean": 0.039099728310297954,
+      "top50_to_background_ratio": 0.8563579660157795
+    },
+    {
+      "energy_weighted_background_mean": 1.489479821555674,
+      "field": "N65_STATIONARY",
+      "metric": "baryon_abs",
+      "pearson_log_leverage": 0.21916186231104196,
+      "spearman_leverage": 0.04531239201704749,
+      "top50_energy_weighted_mean": 1.6347517920251102,
+      "top50_to_background_ratio": 1.0975320164577378
+    },
+    {
+      "energy_weighted_background_mean": 7.127658978300689,
+      "field": "N65_STATIONARY",
+      "metric": "strain_eig1",
+      "pearson_log_leverage": 0.23003445609860373,
+      "spearman_leverage": 0.04421621020886492,
+      "top50_energy_weighted_mean": 7.517567564698906,
+      "top50_to_background_ratio": 1.054703597294041
+    },
+    {
+      "energy_weighted_background_mean": 8.733934664542025,
+      "field": "N65_STATIONARY",
+      "metric": "strain_eig2",
+      "pearson_log_leverage": 0.22991293322759898,
+      "spearman_leverage": 0.04564767023971293,
+      "top50_energy_weighted_mean": 9.111154400078648,
+      "top50_to_background_ratio": 1.043190125644981
+    },
+    {
+      "energy_weighted_background_mean": 12.664166081229123,
+      "field": "N65_STATIONARY",
+      "metric": "strain_eig3",
+      "pearson_log_leverage": 0.21715298808002553,
+      "spearman_leverage": 0.04669898986055249,
+      "top50_energy_weighted_mean": 13.274716618115178,
+      "top50_to_background_ratio": 1.0482108757078774
+    },
+    {
+      "energy_weighted_background_mean": 28.52575972407184,
+      "field": "N65_STATIONARY",
+      "metric": "strain_trace",
+      "pearson_log_leverage": 0.2285001213121733,
+      "spearman_leverage": 0.045739679164783165,
+      "top50_energy_weighted_mean": 29.903438582892733,
+      "top50_to_background_ratio": 1.04829595678247
+    },
+    {
+      "energy_weighted_background_mean": 0.2933682962669211,
+      "field": "N65_STATIONARY",
+      "metric": "strain_anisotropy",
+      "pearson_log_leverage": -0.27241631738976024,
+      "spearman_leverage": -0.0018138331064673678,
+      "top50_energy_weighted_mean": 0.27334826817717156,
+      "top50_to_background_ratio": 0.9317580381230617
+    },
+    {
+      "energy_weighted_background_mean": 2.841595953135932,
+      "field": "N65_STATIONARY",
+      "metric": "strain_eig_ratio",
+      "pearson_log_leverage": -0.004030523003598874,
+      "spearman_leverage": 0.0024564180045451474,
+      "top50_energy_weighted_mean": 2.01599709525346,
+      "top50_to_background_ratio": 0.7094594476138113
+    },
+    {
+      "energy_weighted_background_mean": 4.703887706132348,
+      "field": "N65_STATIONARY",
+      "metric": "e4_over_V",
+      "pearson_log_leverage": 0.20108382744115413,
+      "spearman_leverage": 0.03945830479774018,
+      "top50_energy_weighted_mean": 4.578939176874606,
+      "top50_to_background_ratio": 0.9734371785502342
+    },
+    {
+      "energy_weighted_background_mean": 0.19379961346268781,
+      "field": "N65_STATIONARY",
+      "metric": "V_fraction_center",
+      "pearson_log_leverage": 0.03616047038507918,
+      "spearman_leverage": 0.08490781328186148,
+      "top50_energy_weighted_mean": 0.2710046308961812,
+      "top50_to_background_ratio": 1.398375497525735
+    },
+    {
+      "energy_weighted_background_mean": 0.710972634000538,
+      "field": "N65_STATIONARY",
+      "metric": "e4_fraction_center",
+      "pearson_log_leverage": 0.19208955816699014,
+      "spearman_leverage": 0.04124690952466003,
+      "top50_energy_weighted_mean": 0.6628683689098034,
+      "top50_to_background_ratio": 0.9323402015910809
+    }
+  ]
+}

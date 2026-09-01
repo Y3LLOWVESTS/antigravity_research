@@ -1,0 +1,58 @@
+{
+  "b7": {
+    "pass": true,
+    "rebuilt_A": 28.817876381145645,
+    "rebuilt_C": 422.22207090830875,
+    "rebuilt_E": 1822.4727005552854,
+    "trusted_A": 28.817876381145645,
+    "trusted_C": 422.22207090830875
+  },
+  "certification": {
+    "C40_C48_rel_diff": 0.15566855290061402,
+    "C_convergence_limit": 0.15,
+    "N48_min_width_cells": 1.85640788315356,
+    "formal_INT_level3": false,
+    "formal_thousandfold_certificate": false,
+    "minimum_width_cells": 3.0,
+    "status_unchanged": true
+  },
+  "claim_classification": "PROJECT_DERIVED_INT15R_THOUSANDFOLD_REGRESSION_PROVENANCE_AUDIT",
+  "claim_limits": {
+    "certified_ge1000x_source_class": false,
+    "microscopic_ge1000x_field_realization": false,
+    "practical_device": false
+  },
+  "current_C": {
+    "INT14A": 422.22207090830875,
+    "INT14C": 422.22207090830875,
+    "INT14D": 422.22207090830875,
+    "INT15": 422.22207090830875,
+    "relative_spread": 0.0
+  },
+  "decision": "NO_REGRESSION_RAW_THOUSANDFOLD_PLUS_SIGNAL_PERSISTS_BUT_REMAINS_UNCERTIFIED",
+  "overall_pass": true,
+  "raw_headroom": {
+    "INT14D": 17230.415530686732,
+    "INT15": 17230.415530686732,
+    "independently_recomputed": 17230.415530714177,
+    "margin_over_1000": 17.230415530714176,
+    "no_regression_pass": true
+  },
+  "robust_promoted": {
+    "006B_headroom": 12.81217460653181,
+    "006D_headroom": 17.897146277177196,
+    "two_route_ge10x": true
+  },
+  "teacher": {
+    "INT14D_C": 0.02450446248126442,
+    "INT15_C": 0.02450446248126442,
+    "independent_force": {
+      "base": 1.000000000001593,
+      "high_order": 1.0000039300080221,
+      "pass": true,
+      "relative_error": 3.929990984279752e-06
+    },
+    "recomputed_DEC_violation": 0.0,
+    "reconstructed_C": 0.024504462481225384
+  }
+}

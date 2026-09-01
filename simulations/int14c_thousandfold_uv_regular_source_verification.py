@@ -1,0 +1,2614 @@
+#!/usr/bin/env python3
+"""INT-14C — thousand-fold headroom UV / regular-source verification gate.
+
+PURPOSE
+-------
+Decisively test whether the spectacular raw same-support source-level headroom
+seen in INT-14B represents:
+
+A. a regular finite-scale conserved-DEC source architecture with >=1000x
+   lower standardized energy than the current B=7 Skyrmion,
+
+or
+
+B. an ultraviolet / grid-scale concentration sequence whose apparent
+   efficiency improves without a resolved continuum morphology.
+
+This run is a verification gate, not an exploratory optimizer scan.
+
+SCIENTIFIC TARGET
+-----------------
+INT-14A established robust constructive conserved-DEC headroom:
+
+    006D                   ~= 17.90x
+    independent 006B       ~= 12.81x.
+
+INT-14B then found same-R99-support relaxed-source coefficients
+
+    N8   C ~= 0.688
+    N12  C ~= 0.236
+    N16  C ~= 0.103
+
+corresponding to raw headrooms from hundreds to thousands, while all tested
+DEC, conservation, Laue, active-total, and matched negative-core constraints
+remained green.
+
+However the coefficient changed by ~56% between N12 and N16, violating the
+predeclared convergence gate.
+
+Therefore the raw thousands-fold numbers are NOT promotion evidence yet.
+
+FIXED THOUSAND-FOLD TARGET
+--------------------------
+The current exact-map coefficient is loaded from INT-14B/INT-14A:
+
+    C_current ~= 422.22.
+
+Define before solving:
+
+    C_1000 = C_current / 1000
+    C_2000 = C_current / 2000
+    C_4000 = C_current / 4000.
+
+A >=1000x claim requires a trustworthy candidate with
+
+    C <= C_1000
+
+under the same matched finite-payload, support, conservation, DEC, positive
+total active mass, and matched negative-enclosed-active-core constraints.
+
+TWO VERIFICATION TRACKS
+-----------------------
+
+TRACK A — unrestricted continuum audit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Re-solve the R99 matched-core relaxed source at:
+
+    N12 = 12 x 24
+    N16 = 16 x 32
+    N20 = 20 x 40
+    N24 = 24 x 48.
+
+Measure, in addition to C:
+
+    peak energy density,
+    maximum cell energy fraction,
+    maximum cell outward-force fraction,
+    energy participation length,
+    outward-force participation length,
+    physical width / grid-spacing ratios,
+    productive distance from the payload surface,
+    DEC saturation,
+    F50/F90-type energy participation in gross outward force.
+
+If C keeps falling while peak density grows and physical widths collapse with
+the grid, the thousands-fold sequence is classified as UV-concentrated.
+
+TRACK B — finite-density existence certificate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Use the unrestricted N12 solution only to define ONE fixed, non-tuned density
+ceiling:
+
+    rho_cap = max(rho)_N12.
+
+Then re-solve N16, N20, and N24 with
+
+    rho <= rho_cap
+
+everywhere.
+
+This does NOT claim rho_cap is a fundamental physical limit.
+
+Its purpose is narrower and rigorous:
+
+    if a converged >=1000x solution exists while its energy density is bounded
+    by the already-observed finite N12 peak, then the thousand-fold effect
+    cannot be dismissed solely as divergence of rho_max -> infinity.
+
+Promotion from Track B is explicitly labeled a FINITE-DENSITY SOURCE-CLASS
+existence certificate, not a microscopic field realization.
+
+INDEPENDENT FORCE RECONSTRUCTION
+--------------------------------
+The optimization uses the INT-14B finite-spherical-payload cell kernel.
+
+For the highest-resolution candidate, independently rebuild every cell kernel
+with a separate high-order Gauss-Legendre cubature implementation using:
+
+    order = 14
+    near-payload subdivision = 8.
+
+Recompute the payload acceleration from the solved stress tensor.
+
+Promotion requires agreement with the optimization-kernel force at <=1e-4
+relative error and an independently positive target acceleration.
+
+INDEPENDENT SOLVER CHECK
+------------------------
+If SCS is installed, independently re-solve the finite-density N12 case with
+SCS rather than CLARABEL.
+
+Require:
+
+    objective agreement <= 5%
+    and direct DEC/conservation/Laue/active-total post-checks green.
+
+The SCS check is supplementary to the independent force reconstruction.  If
+SCS is unavailable, report that explicitly; do not fabricate solver
+independence.
+
+ANALYTIC DEC + FINITE-PAYLOAD FLOOR
+-----------------------------------
+For type-I DEC:
+
+    -rho <= p_i <= rho
+
+so
+
+    -2 rho <= S <= 4 rho.
+
+For the uniform spherical payload kernel:
+
+    |K_P| <= 1 / R_P^2.
+
+Therefore:
+
+    |A_P|
+        <=
+    4 E / R_P^2
+
+and for target |A_P| >= 1:
+
+    E >= R_P^2 / 4.
+
+This is a rigorous but intentionally loose local DEC/kernel lower bound.
+
+The run reports it to quantify how far the numerical sequence remains from the
+absolute relaxed limit.
+
+REGULARITY METRICS
+------------------
+For cell energy E_i and volume V_i define the participation volume
+
+    V_E,eff
+      =
+    (sum E_i)^2
+    /
+    sum(E_i^2 / V_i).
+
+Define
+
+    L_E = V_E,eff^(1/3).
+
+For gross outward cell force F_i^+ define similarly
+
+    V_F,eff
+      =
+    (sum F_i^+)^2
+    /
+    sum((F_i^+)^2 / V_i),
+
+and
+
+    L_F = V_F,eff^(1/3).
+
+For a regular continuum source these lengths should approach finite physical
+values while
+
+    L_E / dx
+    and
+    L_F / dx
+
+grow with resolution.
+
+For a one/few-cell UV concentration they instead remain O(1) grid cells.
+
+UNRESTRICTED CONTINUUM PROMOTION
+--------------------------------
+Track A verifies >=1000x unrestricted same-support continuum headroom only if:
+
+    N20 and N24 are green;
+
+    conservative C = max(C20,C24) <= C_1000;
+
+    relerr(C20,C24) <= 0.15;
+
+    relerr(L_E20,L_E24) <= 0.25;
+
+    relerr(L_F20,L_F24) <= 0.25;
+
+    min(L_E/dx, L_F/dx) >= 3 at N24;
+
+    rho_max24 / rho_max20 <= 1.5;
+
+    independent high-order force reconstruction passes.
+
+This is intentionally conservative.
+
+FINITE-DENSITY CERTIFICATE PROMOTION
+------------------------------------
+Track B verifies a bounded-density >=1000x source-class existence result if:
+
+    capped N20 and capped N24 are green;
+
+    conservative capped C <= C_1000;
+
+    relerr(C20,C24) <= 0.15;
+
+    relerr(L_E20,L_E24) <= 0.25;
+
+    relerr(L_F20,L_F24) <= 0.25;
+
+    min(L_E/dx, L_F/dx) >= 3 at N24;
+
+    rho_max <= fixed N12 rho_cap;
+
+    independent high-order force reconstruction passes;
+
+    and, if SCS is installed, the declared SCS cross-check passes.
+
+Permitted claim if only Track B passes:
+
+    A finite-density, same-R99-support, static conserved-DEC source class
+    contains a numerically resolved candidate with >=1000x lower standardized
+    energy than the present B=7 realization under the tested source-level
+    constraints.
+
+This remains a source-level result only.
+
+UV FALSIFIER
+------------
+Classify the unrestricted sequence as UV-concentrated if:
+
+    C decreases materially with refinement
+
+AND at least two of:
+
+    rho_max increases strongly,
+    L_E/dx stays O(1),
+    L_F/dx stays O(1),
+    max-cell energy fraction does not fall,
+    max-cell force fraction does not fall.
+
+Do not call that a regular physical morphology.
+
+STOP RULE
+---------
+If Track A passes, stop relaxed-source coefficient polishing and move directly
+to INT-9 mandatory scaffolding / field-space accessibility.
+
+If Track A fails but Track B passes, preserve the >=1000x finite-density
+source-class certificate and move to field-space accessibility with the density
+cap labeled diagnostic, not fundamental.
+
+If both fail, retain INT-14A's 12.8-17.9x constructive result and classify the
+thousands-fold INT-14B sequence as unverified UV headroom.
+
+CLAIM LIMITS
+------------
+No abstract source tensor is a microscopic field realization.
+No density cap is claimed fundamental.
+No arbitrary rigidity/smoothing term is added.
+No strict N=73 field is established.
+No Hessian stability is established.
+No nonlinear Einstein-Skyrme solution is established.
+No practical antigravity device is established.
+
+CLAIM CLASSIFICATION
+--------------------
+PROJECT_DERIVED_INT14C_THOUSANDFOLD_UV_REGULAR_SOURCE_VERIFICATION
+"""
+
+from __future__ import annotations
+
+import csv
+import importlib.util
+import json
+import math
+from pathlib import Path
+import sys
+from typing import Any
+
+import cvxpy as cp
+import numpy as np
+from numpy.polynomial.legendre import leggauss
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SIM = ROOT / "simulations"
+DATA = ROOT / "results/data"
+
+INT14B_SOURCE = SIM / "int14b_support_constrained_structural_overhead_bridge.py"
+INT14B_SUMMARY = DATA / "int14b_support_constrained_structural_overhead_summary.json"
+
+OUT_JSON = DATA / "int14c_thousandfold_uv_regular_source_summary.json"
+OUT_CSV = DATA / "int14c_thousandfold_resolution_cases.csv"
+OUT_NPZ = DATA / "int14c_thousandfold_selected_arrays.npz"
+
+DEC_TOL = 3.0e-6
+CONS_TOL = 3.0e-6
+TRACE_TOL = 3.0e-6
+ACTIVE_TOTAL_REL_TOL = 3.0e-6
+
+C_CONVERGENCE_TOL = 0.15
+WIDTH_CONVERGENCE_TOL = 0.25
+MIN_WIDTH_CELLS = 3.0
+RHO_GROWTH_TOL = 1.5
+
+INDEPENDENT_FORCE_REL_TOL = 1.0e-4
+INDEPENDENT_SOLVER_C_REL_TOL = 0.05
+
+HI_KERNEL_ORDER = 14
+HI_KERNEL_NEAR_SUBDIV = 8
+
+TRACK_RESOLUTIONS = (12, 16, 20, 24)
+
+
+def require(path: Path) -> None:
+    if not path.is_file():
+        raise RuntimeError(f"Required file missing: {path}")
+
+
+def load_module(name: str, path: Path):
+    spec = importlib.util.spec_from_file_location(name, path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Cannot import {path}")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+def relative_error(a: float, b: float) -> float:
+    return abs(a - b) / max(abs(a), abs(b), 1.0e-300)
+
+
+def effective_volume(
+    cell_quantity: np.ndarray,
+    volumes: np.ndarray,
+) -> float:
+    q = np.maximum(
+        np.asarray(cell_quantity, dtype=float),
+        0.0,
+    )
+    v = np.asarray(volumes, dtype=float)
+
+    numerator = float(np.sum(q)) ** 2
+    denominator = float(
+        np.sum(
+            q * q
+            / np.maximum(v, 1.0e-300)
+        )
+    )
+
+    if denominator <= 0.0:
+        return 0.0
+
+    return numerator / denominator
+
+
+def minimum_volume_fraction_for_quantity(
+    quantity: np.ndarray,
+    volumes: np.ndarray,
+    fraction: float,
+) -> float:
+    # These diagnostics operate on the complete set of finite-volume cells,
+    # independent of the array's 2-D storage shape.
+    q = np.maximum(
+        np.asarray(quantity, dtype=float).ravel(),
+        0.0,
+    )
+    v = np.asarray(
+        volumes,
+        dtype=float,
+    ).ravel()
+
+    if q.shape != v.shape:
+        raise RuntimeError(
+            "Quantity/volume shape mismatch in concentration diagnostic"
+        )
+
+    total = float(np.sum(q))
+    total_v = float(np.sum(v))
+
+    if total <= 0.0 or total_v <= 0.0:
+        return float("nan")
+
+    density = q / np.maximum(
+        v,
+        1.0e-300,
+    )
+
+    order = np.argsort(
+        density
+    )[::-1]
+
+    cumulative = np.cumsum(
+        q[order]
+    )
+
+    index = int(
+        np.searchsorted(
+            cumulative,
+            fraction * total,
+            side="left",
+        )
+    )
+    index = min(
+        index,
+        len(order) - 1,
+    )
+
+    return float(
+        np.sum(
+            v[
+                order[: index + 1]
+            ]
+        )
+        / total_v
+    )
+
+def force_energy_fraction(
+    cell_energy: np.ndarray,
+    outward_force: np.ndarray,
+    fraction: float,
+) -> float:
+    # Flatten the finite-volume cell arrays before constructing a global
+    # leverage ranking. np.argsort on the raw 2-D matrix sorts each row
+    # independently and is not the desired concentration statistic.
+    e = np.maximum(
+        np.asarray(
+            cell_energy,
+            dtype=float,
+        ).ravel(),
+        0.0,
+    )
+    f = np.maximum(
+        np.asarray(
+            outward_force,
+            dtype=float,
+        ).ravel(),
+        0.0,
+    )
+
+    if e.shape != f.shape:
+        raise RuntimeError(
+            "Energy/force shape mismatch in leverage diagnostic"
+        )
+
+    total_f = float(
+        np.sum(f)
+    )
+    total_e = float(
+        np.sum(e)
+    )
+
+    if total_f <= 0.0 or total_e <= 0.0:
+        return float("nan")
+
+    leverage = np.zeros_like(
+        e
+    )
+
+    good = (
+        e
+        >
+        max(
+            float(np.max(e)),
+            1.0,
+        )
+        * 1.0e-15
+    )
+
+    leverage[good] = (
+        f[good]
+        / e[good]
+    )
+
+    order = np.argsort(
+        leverage
+    )[::-1]
+
+    cumulative = np.cumsum(
+        f[order]
+    )
+
+    index = int(
+        np.searchsorted(
+            cumulative,
+            fraction * total_f,
+            side="left",
+        )
+    )
+    index = min(
+        index,
+        len(order) - 1,
+    )
+
+    return float(
+        np.sum(
+            e[
+                order[: index + 1]
+            ]
+        )
+        / total_e
+    )
+
+def solve_diagnostic_case(
+    int14b,
+    case,
+    *,
+    density_cap: float | None = None,
+    solver_override: str | None = None,
+) -> dict[str, Any]:
+    (
+        r_edges,
+        z_edges,
+        r_centers,
+        z_centers,
+        volumes,
+        kernels,
+        active_mask,
+    ) = int14b.build_geometry(case)
+
+    nr = case.nr
+    nz = case.nz
+
+    e = cp.Variable(
+        (nr, nz),
+        nonneg=True,
+        name=f"e_{case.name}",
+    )
+    pphi = cp.Variable(
+        (nr, nz),
+        name=f"pphi_{case.name}",
+    )
+    pr_face = cp.Variable(
+        (nr + 1, nz),
+        name=f"pr_face_{case.name}",
+    )
+    pz_face = cp.Variable(
+        (nr, nz + 1),
+        name=f"pz_face_{case.name}",
+    )
+    trz_vertex = cp.Variable(
+        (nr + 1, nz + 1),
+        name=f"trz_vertex_{case.name}",
+    )
+
+    constraints: list[cp.Constraint] = []
+
+    int14b.add_mask_boundary_constraints(
+        constraints,
+        case,
+        active_mask,
+        e,
+        pphi,
+        pr_face,
+        pz_face,
+        trz_vertex,
+    )
+
+    int14b.add_reflection_symmetry(
+        constraints,
+        case,
+        e,
+        pphi,
+        pr_face,
+        pz_face,
+        trz_vertex,
+    )
+
+    if density_cap is not None:
+        constraints.append(
+            e <= float(density_cap)
+        )
+
+    pr_cell: list[list[cp.Expression]] = [
+        [None for _ in range(nz)]
+        for _ in range(nr)
+    ]  # type: ignore[list-item]
+
+    pz_cell: list[list[cp.Expression]] = [
+        [None for _ in range(nz)]
+        for _ in range(nr)
+    ]  # type: ignore[list-item]
+
+    trz_cell: list[list[cp.Expression]] = [
+        [None for _ in range(nz)]
+        for _ in range(nr)
+    ]  # type: ignore[list-item]
+
+    for i in range(nr):
+        for j in range(nz):
+            prc = 0.5 * (
+                pr_face[i, j]
+                + pr_face[i + 1, j]
+            )
+            pzc = 0.5 * (
+                pz_face[i, j]
+                + pz_face[i, j + 1]
+            )
+            trzc = 0.25 * (
+                trz_vertex[i, j]
+                + trz_vertex[i + 1, j]
+                + trz_vertex[i, j + 1]
+                + trz_vertex[i + 1, j + 1]
+            )
+
+            pr_cell[i][j] = prc
+            pz_cell[i][j] = pzc
+            trz_cell[i][j] = trzc
+
+            mean = 0.5 * (
+                prc + pzc
+            )
+            half_difference = 0.5 * (
+                prc - pzc
+            )
+            spectral_radius = cp.norm(
+                cp.hstack([
+                    half_difference,
+                    trzc,
+                ]),
+                2,
+            )
+
+            constraints.extend([
+                spectral_radius
+                <= e[i, j] - mean,
+                spectral_radius
+                <= e[i, j] + mean,
+                pphi[i, j] <= e[i, j],
+                -pphi[i, j] <= e[i, j],
+            ])
+
+    for i in range(nr):
+        r0 = r_edges[i]
+        r1 = r_edges[i + 1]
+        dr = r1 - r0
+
+        annular_radial_factor = 0.5 * (
+            r1 * r1 - r0 * r0
+        )
+
+        for j in range(nz):
+            dz = (
+                z_edges[j + 1]
+                - z_edges[j]
+            )
+
+            trz_south = 0.5 * (
+                trz_vertex[i, j]
+                + trz_vertex[i + 1, j]
+            )
+            trz_north = 0.5 * (
+                trz_vertex[i, j + 1]
+                + trz_vertex[i + 1, j + 1]
+            )
+            trz_west = 0.5 * (
+                trz_vertex[i, j]
+                + trz_vertex[i, j + 1]
+            )
+            trz_east = 0.5 * (
+                trz_vertex[i + 1, j]
+                + trz_vertex[i + 1, j + 1]
+            )
+
+            radial_balance = (
+                dz
+                * (
+                    r1 * pr_face[i + 1, j]
+                    - r0 * pr_face[i, j]
+                )
+                + annular_radial_factor
+                * (
+                    trz_north - trz_south
+                )
+                - dr
+                * dz
+                * pphi[i, j]
+            )
+
+            vertical_balance = (
+                2.0
+                * dz
+                * (
+                    r1 * trz_east
+                    - r0 * trz_west
+                )
+                + (
+                    r1 * r1 - r0 * r0
+                )
+                * (
+                    pz_face[i, j + 1]
+                    - pz_face[i, j]
+                )
+            )
+
+            constraints.extend([
+                radial_balance == 0.0,
+                vertical_balance == 0.0,
+            ])
+
+    pr_matrix = cp.vstack([
+        cp.hstack([
+            pr_cell[i][j]
+            for j in range(nz)
+        ])
+        for i in range(nr)
+    ])
+
+    pz_matrix = cp.vstack([
+        cp.hstack([
+            pz_cell[i][j]
+            for j in range(nz)
+        ])
+        for i in range(nr)
+    ])
+
+    volume_constant = cp.Constant(
+        volumes
+    )
+
+    constraints.extend([
+        cp.sum(
+            cp.multiply(
+                volume_constant,
+                pr_matrix + pphi,
+            )
+        ) == 0.0,
+        cp.sum(
+            cp.multiply(
+                volume_constant,
+                pz_matrix,
+            )
+        ) == 0.0,
+    ])
+
+    active_density = (
+        e
+        + pr_matrix
+        + pz_matrix
+        + pphi
+    )
+
+    total_mass = cp.sum(
+        cp.multiply(
+            volume_constant,
+            e,
+        )
+    )
+
+    target_acceleration = cp.sum(
+        cp.multiply(
+            cp.Constant(kernels),
+            active_density,
+        )
+    )
+
+    constraints.append(
+        target_acceleration >= 1.0
+    )
+
+    if (
+        case.core_radius is not None
+        and case.core_fraction_target is not None
+    ):
+        R, Z = np.meshgrid(
+            r_centers,
+            z_centers,
+            indexing="ij",
+        )
+
+        core_mask = (
+            R * R + Z * Z
+            <= case.core_radius**2
+        ).astype(float)
+
+        core_active = cp.sum(
+            cp.multiply(
+                cp.Constant(
+                    volumes * core_mask
+                ),
+                active_density,
+            )
+        )
+
+        constraints.append(
+            core_active
+            <= case.core_fraction_target
+            * total_mass
+        )
+
+    problem = cp.Problem(
+        cp.Minimize(total_mass),
+        constraints,
+    )
+
+    installed = cp.installed_solvers()
+
+    if solver_override is not None:
+        if solver_override not in installed:
+            return {
+                "name": case.name,
+                "status": "SOLVER_NOT_INSTALLED",
+                "solver": solver_override,
+                "green": False,
+                "coefficient": float("nan"),
+            }
+        solver = solver_override
+    else:
+        solver = (
+            "CLARABEL"
+            if "CLARABEL" in installed
+            else "SCS"
+        )
+
+    if solver == "SCS":
+        problem.solve(
+            solver=solver,
+            verbose=False,
+            eps=1.0e-6,
+            max_iters=200000,
+        )
+    else:
+        problem.solve(
+            solver=solver,
+            verbose=False,
+        )
+
+    base = {
+        "name": case.name,
+        "nr": nr,
+        "nz": nz,
+        "support_radius": float(case.radius),
+        "status": str(problem.status),
+        "solver": solver,
+        "density_cap": (
+            float(density_cap)
+            if density_cap is not None
+            else float("nan")
+        ),
+    }
+
+    if problem.status not in (
+        cp.OPTIMAL,
+        cp.OPTIMAL_INACCURATE,
+    ):
+        return {
+            **base,
+            "green": False,
+            "coefficient": float("nan"),
+        }
+
+    e_v = np.asarray(
+        e.value,
+        dtype=float,
+    )
+    pphi_v = np.asarray(
+        pphi.value,
+        dtype=float,
+    )
+    prf_v = np.asarray(
+        pr_face.value,
+        dtype=float,
+    )
+    pzf_v = np.asarray(
+        pz_face.value,
+        dtype=float,
+    )
+    trzv_v = np.asarray(
+        trz_vertex.value,
+        dtype=float,
+    )
+
+    pr_v = 0.5 * (
+        prf_v[:-1, :]
+        + prf_v[1:, :]
+    )
+    pz_v = 0.5 * (
+        pzf_v[:, :-1]
+        + pzf_v[:, 1:]
+    )
+    trz_v = 0.25 * (
+        trzv_v[:-1, :-1]
+        + trzv_v[1:, :-1]
+        + trzv_v[:-1, 1:]
+        + trzv_v[1:, 1:]
+    )
+
+    active_v = (
+        e_v
+        + pr_v
+        + pz_v
+        + pphi_v
+    )
+
+    mass_v = float(
+        np.sum(
+            volumes * e_v
+        )
+    )
+    acceleration_v = float(
+        np.sum(
+            kernels * active_v
+        )
+    )
+
+    max_dec_violation = 0.0
+    dec_ratio = np.zeros_like(e_v)
+
+    for i in range(nr):
+        for j in range(nz):
+            stress = np.array([
+                [
+                    pr_v[i, j],
+                    trz_v[i, j],
+                    0.0,
+                ],
+                [
+                    trz_v[i, j],
+                    pz_v[i, j],
+                    0.0,
+                ],
+                [
+                    0.0,
+                    0.0,
+                    pphi_v[i, j],
+                ],
+            ])
+
+            largest = float(
+                np.max(
+                    np.abs(
+                        np.linalg.eigvalsh(
+                            stress
+                        )
+                    )
+                )
+            )
+
+            max_dec_violation = max(
+                max_dec_violation,
+                largest - e_v[i, j],
+            )
+
+            if e_v[i, j] > 1.0e-14:
+                dec_ratio[i, j] = (
+                    largest / e_v[i, j]
+                )
+
+    max_conservation_residual = 0.0
+
+    for i in range(nr):
+        r0 = r_edges[i]
+        r1 = r_edges[i + 1]
+        dr = r1 - r0
+
+        annular_radial_factor = 0.5 * (
+            r1 * r1 - r0 * r0
+        )
+
+        for j in range(nz):
+            dz = (
+                z_edges[j + 1]
+                - z_edges[j]
+            )
+
+            trz_south = 0.5 * (
+                trzv_v[i, j]
+                + trzv_v[i + 1, j]
+            )
+            trz_north = 0.5 * (
+                trzv_v[i, j + 1]
+                + trzv_v[i + 1, j + 1]
+            )
+            trz_west = 0.5 * (
+                trzv_v[i, j]
+                + trzv_v[i, j + 1]
+            )
+            trz_east = 0.5 * (
+                trzv_v[i + 1, j]
+                + trzv_v[i + 1, j + 1]
+            )
+
+            rr = (
+                dz
+                * (
+                    r1 * prf_v[i + 1, j]
+                    - r0 * prf_v[i, j]
+                )
+                + annular_radial_factor
+                * (
+                    trz_north - trz_south
+                )
+                - dr
+                * dz
+                * pphi_v[i, j]
+            )
+
+            zz = (
+                2.0
+                * dz
+                * (
+                    r1 * trz_east
+                    - r0 * trz_west
+                )
+                + (
+                    r1 * r1 - r0 * r0
+                )
+                * (
+                    pzf_v[i, j + 1]
+                    - pzf_v[i, j]
+                )
+            )
+
+            max_conservation_residual = max(
+                max_conservation_residual,
+                abs(float(rr)),
+                abs(float(zz)),
+            )
+
+    radial_laue = float(
+        np.sum(
+            volumes
+            * (
+                pr_v + pphi_v
+            )
+        )
+    )
+    vertical_laue = float(
+        np.sum(
+            volumes * pz_v
+        )
+    )
+    trace_integral = (
+        radial_laue + vertical_laue
+    )
+
+    active_total = float(
+        np.sum(
+            volumes * active_v
+        )
+    )
+    active_total_relerr = (
+        abs(active_total - mass_v)
+        / max(abs(mass_v), 1.0e-300)
+    )
+
+    R, Z = np.meshgrid(
+        r_centers,
+        z_centers,
+        indexing="ij",
+    )
+
+    if case.core_radius is not None:
+        core_mask_numeric = (
+            R * R + Z * Z
+            <= case.core_radius**2
+        )
+
+        core_active_numeric = float(
+            np.sum(
+                volumes[core_mask_numeric]
+                * active_v[core_mask_numeric]
+            )
+        )
+
+        core_active_fraction = (
+            core_active_numeric
+            / max(mass_v, 1.0e-300)
+        )
+    else:
+        core_active_numeric = float("nan")
+        core_active_fraction = float("nan")
+
+    cell_energy = (
+        volumes * e_v
+    )
+    cell_force = (
+        kernels * active_v
+    )
+    outward = np.maximum(
+        cell_force,
+        0.0,
+    )
+
+    energy_veff = effective_volume(
+        cell_energy,
+        volumes,
+    )
+    force_veff = effective_volume(
+        outward,
+        volumes,
+    )
+
+    energy_length = (
+        energy_veff ** (1.0 / 3.0)
+        if energy_veff > 0.0
+        else 0.0
+    )
+    force_length = (
+        force_veff ** (1.0 / 3.0)
+        if force_veff > 0.0
+        else 0.0
+    )
+
+    dx = float(
+        case.radius / case.nr
+    )
+    dz = float(
+        (case.zmax - case.zmin)
+        / case.nz
+    )
+    grid_scale = max(dx, dz)
+
+    max_cell_energy_fraction = float(
+        np.max(cell_energy)
+        / max(mass_v, 1.0e-300)
+    )
+    max_cell_force_fraction = float(
+        np.max(outward)
+        / max(float(np.sum(outward)), 1.0e-300)
+    )
+
+    distance_to_payload = np.sqrt(
+        R * R
+        + (
+            Z - case.target_z
+        ) ** 2
+    )
+    distance_to_payload_surface = np.abs(
+        distance_to_payload
+        - case.payload_radius
+    )
+
+    peak_energy_index = np.unravel_index(
+        int(np.argmax(e_v)),
+        e_v.shape,
+    )
+    peak_force_index = np.unravel_index(
+        int(np.argmax(outward)),
+        outward.shape,
+    )
+
+    energy_sat_weight = cell_energy
+    sat_mask = dec_ratio >= 0.99
+    dec_saturation_energy_fraction = float(
+        np.sum(
+            energy_sat_weight[sat_mask]
+        )
+        / max(mass_v, 1.0e-300)
+    )
+
+    finite_density_cap_active = False
+    if density_cap is not None:
+        finite_density_cap_active = bool(
+            float(np.max(e_v))
+            >= 0.995 * float(density_cap)
+        )
+
+    green = bool(
+        math.isfinite(mass_v)
+        and mass_v > 0.0
+        and acceleration_v >= 1.0 - 2.0e-5
+        and max_dec_violation < DEC_TOL
+        and max_conservation_residual < CONS_TOL
+        and abs(trace_integral) < TRACE_TOL
+        and active_total_relerr < ACTIVE_TOTAL_REL_TOL
+    )
+
+    return {
+        **base,
+        "green": green,
+        "coefficient": mass_v,
+        "acceleration": acceleration_v,
+        "max_energy_density": float(
+            np.max(e_v)
+        ),
+        "max_dec_violation": max_dec_violation,
+        "max_conservation_residual": (
+            max_conservation_residual
+        ),
+        "trace_integral": trace_integral,
+        "active_total": active_total,
+        "active_total_relerr": active_total_relerr,
+        "core_active": core_active_numeric,
+        "core_active_fraction": core_active_fraction,
+        "energy_effective_volume": energy_veff,
+        "force_effective_volume": force_veff,
+        "energy_effective_length": energy_length,
+        "force_effective_length": force_length,
+        "grid_scale": grid_scale,
+        "energy_width_cells": (
+            energy_length
+            / max(grid_scale, 1.0e-300)
+        ),
+        "force_width_cells": (
+            force_length
+            / max(grid_scale, 1.0e-300)
+        ),
+        "max_cell_energy_fraction": (
+            max_cell_energy_fraction
+        ),
+        "max_cell_force_fraction": (
+            max_cell_force_fraction
+        ),
+        "energy_volume_fraction_50": (
+            minimum_volume_fraction_for_quantity(
+                cell_energy,
+                volumes,
+                0.50,
+            )
+        ),
+        "force_volume_fraction_50": (
+            minimum_volume_fraction_for_quantity(
+                outward,
+                volumes,
+                0.50,
+            )
+        ),
+        "F50_energy_fraction": (
+            force_energy_fraction(
+                cell_energy,
+                outward,
+                0.50,
+            )
+        ),
+        "F90_energy_fraction": (
+            force_energy_fraction(
+                cell_energy,
+                outward,
+                0.90,
+            )
+        ),
+        "peak_energy_payload_surface_distance": float(
+            distance_to_payload_surface[
+                peak_energy_index
+            ]
+        ),
+        "peak_force_payload_surface_distance": float(
+            distance_to_payload_surface[
+                peak_force_index
+            ]
+        ),
+        "dec_saturation_energy_fraction": (
+            dec_saturation_energy_fraction
+        ),
+        "density_cap_active": (
+            finite_density_cap_active
+        ),
+        "_arrays": {
+            "r_edges": r_edges,
+            "z_edges": z_edges,
+            "r_centers": r_centers,
+            "z_centers": z_centers,
+            "volumes": volumes,
+            "kernels": kernels,
+            "active_mask": active_mask,
+            "e": e_v,
+            "pphi": pphi_v,
+            "pr": pr_v,
+            "pz": pz_v,
+            "trz": trz_v,
+            "active_density": active_v,
+            "outward_force": outward,
+            "dec_ratio": dec_ratio,
+        },
+    }
+
+
+def gauss_interval(
+    a: float,
+    b: float,
+    order: int,
+) -> tuple[np.ndarray, np.ndarray]:
+    nodes, weights = leggauss(order)
+    x = (
+        0.5 * (a + b)
+        + 0.5 * (b - a) * nodes
+    )
+    w = (
+        0.5 * (b - a)
+        * weights
+    )
+    return x, w
+
+
+def independent_cell_kernel(
+    r0: float,
+    r1: float,
+    z0: float,
+    z1: float,
+    target_z: float,
+    payload_radius: float,
+) -> float:
+    dr = r1 - r0
+    dz = z1 - z0
+
+    r_closest = max(r0, 0.0)
+
+    if z0 <= target_z <= z1:
+        z_distance = 0.0
+    else:
+        z_distance = min(
+            abs(z0 - target_z),
+            abs(z1 - target_z),
+        )
+
+    dmin = math.hypot(
+        r_closest,
+        z_distance,
+    )
+
+    near_scale = max(
+        payload_radius,
+        dr,
+        dz,
+    )
+
+    subdiv = (
+        HI_KERNEL_NEAR_SUBDIV
+        if dmin < 2.5 * near_scale
+        else 1
+    )
+
+    r_breaks = np.linspace(
+        r0,
+        r1,
+        subdiv + 1,
+    )
+    z_breaks = np.linspace(
+        z0,
+        z1,
+        subdiv + 1,
+    )
+
+    total = 0.0
+    rp3 = payload_radius**3
+
+    for ir in range(subdiv):
+        rr, rw = gauss_interval(
+            r_breaks[ir],
+            r_breaks[ir + 1],
+            HI_KERNEL_ORDER,
+        )
+
+        for iz in range(subdiv):
+            zz, zw = gauss_interval(
+                z_breaks[iz],
+                z_breaks[iz + 1],
+                HI_KERNEL_ORDER,
+            )
+
+            R, Z = np.meshgrid(
+                rr,
+                zz,
+                indexing="ij",
+            )
+            WR, WZ = np.meshgrid(
+                rw,
+                zw,
+                indexing="ij",
+            )
+
+            dZ = Z - target_z
+            d2 = R * R + dZ * dZ
+            d = np.sqrt(d2)
+
+            denominator = np.maximum(
+                d2 * d,
+                rp3,
+            )
+
+            integrand = (
+                2.0
+                * math.pi
+                * R
+                * dZ
+                / denominator
+            )
+
+            total += float(
+                np.sum(
+                    WR
+                    * WZ
+                    * integrand
+                )
+            )
+
+    return total
+
+
+def independent_force_reconstruction(
+    case,
+    row: dict[str, Any],
+) -> dict[str, float | bool]:
+    arrays = row["_arrays"]
+
+    r_edges = arrays["r_edges"]
+    z_edges = arrays["z_edges"]
+    active_density = arrays[
+        "active_density"
+    ]
+
+    kernels_hi = np.zeros_like(
+        active_density,
+        dtype=float,
+    )
+
+    for i in range(case.nr):
+        for j in range(case.nz):
+            kernels_hi[i, j] = (
+                independent_cell_kernel(
+                    float(r_edges[i]),
+                    float(r_edges[i + 1]),
+                    float(z_edges[j]),
+                    float(z_edges[j + 1]),
+                    float(case.target_z),
+                    float(case.payload_radius),
+                )
+            )
+
+    acceleration_hi = float(
+        np.sum(
+            kernels_hi
+            * active_density
+        )
+    )
+
+    acceleration_base = float(
+        row["acceleration"]
+    )
+
+    rel = relative_error(
+        acceleration_hi,
+        acceleration_base,
+    )
+
+    return {
+        "acceleration_base": (
+            acceleration_base
+        ),
+        "acceleration_independent": (
+            acceleration_hi
+        ),
+        "relative_error": rel,
+        "pass": bool(
+            acceleration_hi > 0.0
+            and rel
+            <= INDEPENDENT_FORCE_REL_TOL
+        ),
+        "kernels_hi": kernels_hi,
+    }
+
+
+def public_row(
+    row: dict[str, Any],
+    current_C: float,
+) -> dict[str, Any]:
+    clean = {
+        k: v
+        for k, v in row.items()
+        if k != "_arrays"
+    }
+
+    c = float(
+        clean.get(
+            "coefficient",
+            float("nan"),
+        )
+    )
+
+    clean["headroom_vs_current"] = (
+        current_C / c
+        if (
+            bool(clean.get("green", False))
+            and math.isfinite(c)
+            and c > 0.0
+        )
+        else float("nan")
+    )
+
+    return clean
+
+
+def print_row(
+    label: str,
+    row: dict[str, Any],
+    current_C: float,
+) -> None:
+    p = public_row(
+        row,
+        current_C,
+    )
+
+    print(
+        f"INT14C_CASE={label} "
+        f"C={float(p.get('coefficient', float('nan'))):.15e} "
+        f"HEADROOM={float(p.get('headroom_vs_current', float('nan'))):.15e} "
+        f"RHO_MAX={float(p.get('max_energy_density', float('nan'))):.15e} "
+        f"L_E={float(p.get('energy_effective_length', float('nan'))):.9e} "
+        f"L_F={float(p.get('force_effective_length', float('nan'))):.9e} "
+        f"L_E_DX={float(p.get('energy_width_cells', float('nan'))):.6f} "
+        f"L_F_DX={float(p.get('force_width_cells', float('nan'))):.6f} "
+        f"MAX_E_CELL={float(p.get('max_cell_energy_fraction', float('nan'))):.6e} "
+        f"MAX_F_CELL={float(p.get('max_cell_force_fraction', float('nan'))):.6e} "
+        f"F50={float(p.get('F50_energy_fraction', float('nan'))):.6e} "
+        f"F90={float(p.get('F90_energy_fraction', float('nan'))):.6e} "
+        f"DEC_SAT_E={float(p.get('dec_saturation_energy_fraction', float('nan'))):.6e} "
+        f"GREEN={'YES' if bool(p.get('green', False)) else 'NO'}",
+        flush=True,
+    )
+
+
+def analyze_pair(
+    row20: dict[str, Any],
+    row24: dict[str, Any],
+    current_C: float,
+    target_C: float,
+    *,
+    require_rho_growth_bound: bool,
+) -> dict[str, Any]:
+    if not (
+        bool(row20.get("green", False))
+        and bool(row24.get("green", False))
+    ):
+        return {
+            "pass": False,
+            "reason": "N20_OR_N24_NOT_GREEN",
+        }
+
+    c20 = float(row20["coefficient"])
+    c24 = float(row24["coefficient"])
+
+    conservative_C = max(
+        c20,
+        c24,
+    )
+    conservative_headroom = (
+        current_C
+        / conservative_C
+    )
+
+    c_rel = relative_error(
+        c20,
+        c24,
+    )
+
+    le_rel = relative_error(
+        float(
+            row20[
+                "energy_effective_length"
+            ]
+        ),
+        float(
+            row24[
+                "energy_effective_length"
+            ]
+        ),
+    )
+
+    lf_rel = relative_error(
+        float(
+            row20[
+                "force_effective_length"
+            ]
+        ),
+        float(
+            row24[
+                "force_effective_length"
+            ]
+        ),
+    )
+
+    width_cells_min = min(
+        float(
+            row24[
+                "energy_width_cells"
+            ]
+        ),
+        float(
+            row24[
+                "force_width_cells"
+            ]
+        ),
+    )
+
+    rho_ratio = (
+        float(
+            row24[
+                "max_energy_density"
+            ]
+        )
+        / max(
+            float(
+                row20[
+                    "max_energy_density"
+                ]
+            ),
+            1.0e-300,
+        )
+    )
+
+    passed = bool(
+        conservative_C <= target_C
+        and c_rel <= C_CONVERGENCE_TOL
+        and le_rel
+        <= WIDTH_CONVERGENCE_TOL
+        and lf_rel
+        <= WIDTH_CONVERGENCE_TOL
+        and width_cells_min
+        >= MIN_WIDTH_CELLS
+        and (
+            (not require_rho_growth_bound)
+            or rho_ratio
+            <= RHO_GROWTH_TOL
+        )
+    )
+
+    return {
+        "pass": passed,
+        "conservative_C": (
+            conservative_C
+        ),
+        "conservative_headroom": (
+            conservative_headroom
+        ),
+        "C_rel_diff": c_rel,
+        "energy_length_rel_diff": (
+            le_rel
+        ),
+        "force_length_rel_diff": (
+            lf_rel
+        ),
+        "N24_min_width_cells": (
+            width_cells_min
+        ),
+        "rho24_over_rho20": (
+            rho_ratio
+        ),
+    }
+
+
+def classify_uv(
+    rows: list[dict[str, Any]],
+) -> dict[str, Any]:
+    usable = [
+        row
+        for row in rows
+        if bool(row.get("green", False))
+    ]
+
+    if len(usable) < 3:
+        return {
+            "uv_concentrated": False,
+            "reason": "INSUFFICIENT_GREEN_RESOLUTIONS",
+        }
+
+    usable = sorted(
+        usable,
+        key=lambda x: int(x["nr"]),
+    )
+
+    first = usable[0]
+    last = usable[-1]
+
+    c_decrease = (
+        float(last["coefficient"])
+        < 0.75
+        * float(first["coefficient"])
+    )
+
+    rho_growth = (
+        float(
+            last["max_energy_density"]
+        )
+        > 1.5
+        * float(
+            first["max_energy_density"]
+        )
+    )
+
+    le_cells_o1 = (
+        float(
+            last["energy_width_cells"]
+        )
+        < 4.0
+    )
+
+    lf_cells_o1 = (
+        float(
+            last["force_width_cells"]
+        )
+        < 4.0
+    )
+
+    max_e_not_falling = (
+        float(
+            last[
+                "max_cell_energy_fraction"
+            ]
+        )
+        >= 0.8
+        * float(
+            first[
+                "max_cell_energy_fraction"
+            ]
+        )
+    )
+
+    max_f_not_falling = (
+        float(
+            last[
+                "max_cell_force_fraction"
+            ]
+        )
+        >= 0.8
+        * float(
+            first[
+                "max_cell_force_fraction"
+            ]
+        )
+    )
+
+    indicators = {
+        "rho_growth": rho_growth,
+        "energy_width_O1_cells": (
+            le_cells_o1
+        ),
+        "force_width_O1_cells": (
+            lf_cells_o1
+        ),
+        "max_cell_energy_not_falling": (
+            max_e_not_falling
+        ),
+        "max_cell_force_not_falling": (
+            max_f_not_falling
+        ),
+    }
+
+    count = sum(
+        bool(v)
+        for v in indicators.values()
+    )
+
+    return {
+        "uv_concentrated": bool(
+            c_decrease
+            and count >= 2
+        ),
+        "C_materially_decreases": (
+            c_decrease
+        ),
+        "indicator_count": count,
+        "indicators": indicators,
+    }
+
+
+def make_case(
+    int14b,
+    name: str,
+    n: int,
+    r99: float,
+    q_payload: float,
+    core_radius: float,
+    core_fraction: float,
+):
+    return int14b.SupportCase(
+        name=name,
+        nr=n,
+        nz=2 * n,
+        radius=r99,
+        zmin=-r99,
+        zmax=+r99,
+        target_z=1.0,
+        payload_radius=q_payload,
+        spherical_mask=True,
+        reflection_symmetry=True,
+        core_radius=core_radius,
+        core_fraction_target=(
+            core_fraction
+        ),
+        category="INT14C",
+    )
+
+
+def main() -> None:
+    print(
+        "=== INT-14C — THOUSAND-FOLD UV / REGULAR-SOURCE VERIFICATION ===",
+        flush=True,
+    )
+
+    require(INT14B_SOURCE)
+    require(INT14B_SUMMARY)
+
+    prior = json.loads(
+        INT14B_SUMMARY.read_text()
+    )
+
+    if not bool(
+        prior.get(
+            "validation",
+            {},
+        ).get(
+            "pass",
+            False,
+        )
+    ):
+        raise RuntimeError(
+            "INT-14B generalized solver validation did not pass"
+        )
+
+    current_C = float(
+        prior["current_C"]
+    )
+
+    anatomy = prior[
+        "exact_support_anatomy"
+    ]
+
+    r99 = float(
+        anatomy["R99_over_h"]
+    )
+    q_payload = float(
+        anatomy["payload_radius_over_h"]
+    )
+    core_radius = float(
+        anatomy["core_radius_over_h"]
+    )
+    core_fraction = float(
+        anatomy["core_active_fraction"]
+    )
+
+    C1000 = current_C / 1000.0
+    C2000 = current_C / 2000.0
+    C4000 = current_C / 4000.0
+
+    absolute_dec_kernel_floor = (
+        q_payload * q_payload / 4.0
+    )
+    absolute_relaxed_headroom_ceiling = (
+        current_C
+        / absolute_dec_kernel_floor
+    )
+
+    print("\n=== A — FIXED VERIFICATION TARGETS ===")
+    print(f"CURRENT_C={current_C:.15e}")
+    print(f"C_1000_TARGET={C1000:.15e}")
+    print(f"C_2000_TARGET={C2000:.15e}")
+    print(f"C_4000_TARGET={C4000:.15e}")
+    print(f"R99_OVER_H={r99:.15e}")
+    print(f"PAYLOAD_RADIUS_OVER_H={q_payload:.15e}")
+    print(f"CORE_RADIUS_OVER_H={core_radius:.15e}")
+    print(f"CORE_ACTIVE_FRACTION={core_fraction:+.15e}")
+    print(
+        f"ABSOLUTE_DEC_KERNEL_C_FLOOR="
+        f"{absolute_dec_kernel_floor:.15e}"
+    )
+    print(
+        f"ABSOLUTE_RELAXED_HEADROOM_CEILING="
+        f"{absolute_relaxed_headroom_ceiling:.15e}"
+    )
+    print(
+        "EXPANSION_HUNDREDS_FOLD_HEADROOM_STATUS="
+        "PRESERVED_AS_NONSTATIONARY_MECHANISM_CLUE"
+    )
+
+    int14b = load_module(
+        "int14c_int14b",
+        INT14B_SOURCE,
+    )
+
+    unrestricted_rows: list[
+        dict[str, Any]
+    ] = []
+
+    unrestricted_cases = {}
+
+    print(
+        "\n=== B — TRACK A: UNRESTRICTED CONTINUUM AUDIT ===",
+        flush=True,
+    )
+
+    for n in TRACK_RESOLUTIONS:
+        case = make_case(
+            int14b,
+            f"UNRESTRICTED_N{n}",
+            n,
+            r99,
+            q_payload,
+            core_radius,
+            core_fraction,
+        )
+
+        unrestricted_cases[n] = case
+
+        print(
+            f"INT14C_SOLVE_BEGIN=UNRESTRICTED_N{n} "
+            f"GRID={n}x{2*n}",
+            flush=True,
+        )
+
+        row = solve_diagnostic_case(
+            int14b,
+            case,
+        )
+
+        print_row(
+            f"UNRESTRICTED_N{n}",
+            row,
+            current_C,
+        )
+
+        unrestricted_rows.append(
+            row
+        )
+
+    unrestricted_by_n = {
+        int(row["nr"]): row
+        for row in unrestricted_rows
+        if bool(row.get("green", False))
+    }
+
+    unrestricted_pair = analyze_pair(
+        unrestricted_by_n.get(
+            20,
+            {"green": False},
+        ),
+        unrestricted_by_n.get(
+            24,
+            {"green": False},
+        ),
+        current_C,
+        C1000,
+        require_rho_growth_bound=True,
+    )
+
+    uv_class = classify_uv(
+        unrestricted_rows
+    )
+
+    print(
+        f"UNRESTRICTED_N20_N24_C_REL_DIFF="
+        f"{float(unrestricted_pair.get('C_rel_diff', float('nan'))):.15e}"
+    )
+    print(
+        f"UNRESTRICTED_N24_MIN_WIDTH_CELLS="
+        f"{float(unrestricted_pair.get('N24_min_width_cells', float('nan'))):.15e}"
+    )
+    print(
+        f"UNRESTRICTED_RHO24_OVER_RHO20="
+        f"{float(unrestricted_pair.get('rho24_over_rho20', float('nan'))):.15e}"
+    )
+    print(
+        "UNRESTRICTED_UV_CONCENTRATED="
+        + (
+            "YES"
+            if bool(
+                uv_class.get(
+                    "uv_concentrated",
+                    False,
+                )
+            )
+            else "NO"
+        )
+    )
+
+    # ---------------------------------------------------------------
+    # Track B: fixed density ceiling from the finite N12 candidate.
+    # ---------------------------------------------------------------
+    n12 = unrestricted_by_n.get(12)
+
+    if n12 is None:
+        raise RuntimeError(
+            "Unrestricted N12 did not produce a green density-cap reference"
+        )
+
+    rho_cap = float(
+        n12["max_energy_density"]
+    )
+
+    print(
+        "\n=== C — TRACK B: FIXED N12-DENSITY-CAP CERTIFICATE ===",
+        flush=True,
+    )
+    print(f"FIXED_RHO_CAP_FROM_N12={rho_cap:.15e}")
+    print(
+        "RHO_CAP_FUNDAMENTAL_PHYSICS_VALUE=NO"
+    )
+
+    capped_rows: list[
+        dict[str, Any]
+    ] = []
+    capped_cases = {}
+
+    for n in (16, 20, 24):
+        case = make_case(
+            int14b,
+            f"CAPPED_N{n}",
+            n,
+            r99,
+            q_payload,
+            core_radius,
+            core_fraction,
+        )
+
+        capped_cases[n] = case
+
+        print(
+            f"INT14C_SOLVE_BEGIN=CAPPED_N{n} "
+            f"GRID={n}x{2*n}",
+            flush=True,
+        )
+
+        row = solve_diagnostic_case(
+            int14b,
+            case,
+            density_cap=rho_cap,
+        )
+
+        print_row(
+            f"CAPPED_N{n}",
+            row,
+            current_C,
+        )
+
+        capped_rows.append(
+            row
+        )
+
+    capped_by_n = {
+        int(row["nr"]): row
+        for row in capped_rows
+        if bool(row.get("green", False))
+    }
+
+    capped_pair = analyze_pair(
+        capped_by_n.get(
+            20,
+            {"green": False},
+        ),
+        capped_by_n.get(
+            24,
+            {"green": False},
+        ),
+        current_C,
+        C1000,
+        require_rho_growth_bound=False,
+    )
+
+    # Explicit fixed-cap check.
+    capped_rho_green = all(
+        (
+            not bool(
+                row.get("green", False)
+            )
+        )
+        or (
+            float(
+                row[
+                    "max_energy_density"
+                ]
+            )
+            <= rho_cap
+            * (1.0 + 2.0e-5)
+        )
+        for row in capped_rows
+    )
+
+    print(
+        f"CAPPED_N20_N24_C_REL_DIFF="
+        f"{float(capped_pair.get('C_rel_diff', float('nan'))):.15e}"
+    )
+    print(
+        f"CAPPED_N24_MIN_WIDTH_CELLS="
+        f"{float(capped_pair.get('N24_min_width_cells', float('nan'))):.15e}"
+    )
+    print(
+        "CAPPED_FIXED_RHO_CAP_POSTCHECK="
+        + (
+            "PASS"
+            if capped_rho_green
+            else "FAIL"
+        )
+    )
+
+    # ---------------------------------------------------------------
+    # Independent force reconstruction on highest-resolution green
+    # candidate in each track.
+    # ---------------------------------------------------------------
+    print(
+        "\n=== D — INDEPENDENT HIGH-ORDER FORCE RECONSTRUCTION ===",
+        flush=True,
+    )
+
+    force_checks = {}
+
+    for track_name, by_n, cases in (
+        (
+            "UNRESTRICTED",
+            unrestricted_by_n,
+            unrestricted_cases,
+        ),
+        (
+            "CAPPED",
+            capped_by_n,
+            capped_cases,
+        ),
+    ):
+        if 24 not in by_n:
+            force_checks[track_name] = {
+                "pass": False,
+                "reason": "N24_NOT_GREEN",
+            }
+            print(
+                f"INDEPENDENT_FORCE_{track_name}=FAIL "
+                "REASON=N24_NOT_GREEN"
+            )
+            continue
+
+        print(
+            f"INDEPENDENT_FORCE_RECONSTRUCTION_BEGIN={track_name}_N24",
+            flush=True,
+        )
+
+        check = independent_force_reconstruction(
+            cases[24],
+            by_n[24],
+        )
+
+        force_checks[track_name] = check
+
+        print(
+            f"INDEPENDENT_FORCE_{track_name}_BASE="
+            f"{float(check['acceleration_base']):.15e}"
+        )
+        print(
+            f"INDEPENDENT_FORCE_{track_name}_HI="
+            f"{float(check['acceleration_independent']):.15e}"
+        )
+        print(
+            f"INDEPENDENT_FORCE_{track_name}_RELERR="
+            f"{float(check['relative_error']):.15e}"
+        )
+        print(
+            f"INDEPENDENT_FORCE_{track_name}="
+            + (
+                "PASS"
+                if bool(check["pass"])
+                else "FAIL"
+            )
+        )
+
+    # ---------------------------------------------------------------
+    # Independent solver cross-check, N12 finite-density problem.
+    # ---------------------------------------------------------------
+    print(
+        "\n=== E — INDEPENDENT SCS SOLVER CHECK ===",
+        flush=True,
+    )
+
+    installed = cp.installed_solvers()
+    scs_available = "SCS" in installed
+
+    scs_pass = False
+    scs_row = None
+    scs_c_rel = float("nan")
+
+    if scs_available:
+        scs_case = make_case(
+            int14b,
+            "CAPPED_N12_SCS",
+            12,
+            r99,
+            q_payload,
+            core_radius,
+            core_fraction,
+        )
+
+        scs_row = solve_diagnostic_case(
+            int14b,
+            scs_case,
+            density_cap=rho_cap,
+            solver_override="SCS",
+        )
+
+        print_row(
+            "CAPPED_N12_SCS",
+            scs_row,
+            current_C,
+        )
+
+        c_ref = float(
+            n12["coefficient"]
+        )
+        c_scs = float(
+            scs_row.get(
+                "coefficient",
+                float("nan"),
+            )
+        )
+
+        scs_c_rel = (
+            relative_error(
+                c_scs,
+                c_ref,
+            )
+            if (
+                math.isfinite(c_scs)
+                and math.isfinite(c_ref)
+            )
+            else float("nan")
+        )
+
+        scs_pass = bool(
+            scs_row.get("green", False)
+            and scs_c_rel
+            <= INDEPENDENT_SOLVER_C_REL_TOL
+        )
+
+        print(
+            f"SCS_CLARABEL_C_REL_DIFF="
+            f"{scs_c_rel:.15e}"
+        )
+        print(
+            "INDEPENDENT_SCS_SOLVER_CHECK="
+            + (
+                "PASS"
+                if scs_pass
+                else "FAIL"
+            )
+        )
+    else:
+        print(
+            "INDEPENDENT_SCS_SOLVER_CHECK="
+            "UNAVAILABLE"
+        )
+
+    # ---------------------------------------------------------------
+    # Final gates.
+    # ---------------------------------------------------------------
+    unrestricted_force_pass = bool(
+        force_checks.get(
+            "UNRESTRICTED",
+            {},
+        ).get(
+            "pass",
+            False,
+        )
+    )
+
+    capped_force_pass = bool(
+        force_checks.get(
+            "CAPPED",
+            {},
+        ).get(
+            "pass",
+            False,
+        )
+    )
+
+    unrestricted_1000_pass = bool(
+        unrestricted_pair.get(
+            "pass",
+            False,
+        )
+        and unrestricted_force_pass
+    )
+
+    solver_independence_required_pass = bool(
+        (not scs_available)
+        or scs_pass
+    )
+
+    capped_1000_pass = bool(
+        capped_pair.get(
+            "pass",
+            False,
+        )
+        and capped_rho_green
+        and capped_force_pass
+        and solver_independence_required_pass
+    )
+
+    print(
+        "\n=== F — THOUSAND-FOLD VERIFICATION DECISION ==="
+    )
+    print(
+        "THOUSANDFOLD_UNRESTRICTED_CONTINUUM="
+        + (
+            "PASS"
+            if unrestricted_1000_pass
+            else "FAIL"
+        )
+    )
+    print(
+        "THOUSANDFOLD_FINITE_DENSITY_CERTIFICATE="
+        + (
+            "PASS"
+            if capped_1000_pass
+            else "FAIL"
+        )
+    )
+
+    if unrestricted_1000_pass:
+        decision = (
+            "VERIFIED_GE1000X_SAME_SUPPORT_REGULAR_CONSERVED_DEC_"
+            "SOURCE_LEVEL_HEADROOM"
+        )
+        formal_level3 = True
+        next_action = (
+            "INT09_MANDATORY_SCAFFOLDING_AND_FIELD_SPACE_ACCESSIBILITY"
+        )
+    elif capped_1000_pass:
+        decision = (
+            "VERIFIED_GE1000X_FINITE_DENSITY_SOURCE_CLASS_CERTIFICATE_"
+            "UNRESTRICTED_OPTIMUM_STILL_UV_SENSITIVE"
+        )
+        formal_level3 = True
+        next_action = (
+            "INT09_MANDATORY_SCAFFOLDING_AND_FIELD_SPACE_ACCESSIBILITY_"
+            "WITH_RHO_CAP_EXPLICITLY_DIAGNOSTIC"
+        )
+    elif bool(
+        uv_class.get(
+            "uv_concentrated",
+            False,
+        )
+    ):
+        decision = (
+            "THOUSANDFOLD_RAW_HEADROOM_CLASSIFIED_AS_UV_CONCENTRATED_"
+            "NOT_REGULARLY_VERIFIED"
+        )
+        formal_level3 = False
+        next_action = (
+            "RETAIN_INT14A_12P8_TO_17P9X_AND_MOVE_TO_FIELD_SPACE_"
+            "ACCESSIBILITY_OR_023C_023D_RERANK"
+        )
+    else:
+        decision = (
+            "THOUSANDFOLD_HEADROOM_UNRESOLVED_NO_REGULAR_VERIFICATION"
+        )
+        formal_level3 = False
+        next_action = (
+            "ONE_FINAL_TARGETED_REGULARITY_CHECK_ONLY_IF_INFORMATION_GAIN_JUSTIFIES"
+        )
+
+    print(
+        "INT_LEVEL_3_FORMAL="
+        + (
+            "PASS"
+            if formal_level3
+            else "NOT_YET"
+        )
+    )
+    print(f"INT14C_DECISION={decision}")
+    print(
+        "DENSITY_CAP_IS_FUNDAMENTAL_PHYSICS="
+        "NO"
+    )
+    print(
+        "MICROSCOPIC_FIELD_REALIZATION="
+        "NOT_ESTABLISHED"
+    )
+    print(
+        "PRACTICAL_ANTIGRAVITY_DEVICE=NO"
+    )
+    print(
+        "EXPANSION_HUNDREDS_FOLD_HEADROOM_STATUS="
+        "PRESERVED_AS_NONSTATIONARY_MECHANISM_CLUE"
+    )
+    print(f"NEXT={next_action}")
+    print(
+        "CLAIM_CLASSIFICATION="
+        "PROJECT_DERIVED_INT14C_THOUSANDFOLD_UV_REGULAR_SOURCE_VERIFICATION"
+    )
+
+    all_rows = (
+        unrestricted_rows
+        + capped_rows
+        + (
+            [scs_row]
+            if scs_row is not None
+            else []
+        )
+    )
+
+    public_rows = [
+        public_row(
+            row,
+            current_C,
+        )
+        for row in all_rows
+    ]
+
+    fieldnames = sorted({
+        key
+        for row in public_rows
+        for key in row.keys()
+    })
+
+    with OUT_CSV.open(
+        "w",
+        newline="",
+    ) as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=fieldnames,
+        )
+        writer.writeheader()
+        writer.writerows(
+            public_rows
+        )
+
+    selected_arrays = {}
+
+    for name, by_n in (
+        (
+            "unrestricted",
+            unrestricted_by_n,
+        ),
+        (
+            "capped",
+            capped_by_n,
+        ),
+    ):
+        if 24 in by_n:
+            arrays = by_n[24][
+                "_arrays"
+            ]
+
+            for key in (
+                "e",
+                "pphi",
+                "pr",
+                "pz",
+                "trz",
+                "active_density",
+                "outward_force",
+                "volumes",
+                "kernels",
+                "dec_ratio",
+                "r_edges",
+                "z_edges",
+            ):
+                selected_arrays[
+                    f"{name}_N24_{key}"
+                ] = arrays[key]
+
+    for track_name, check in force_checks.items():
+        if "kernels_hi" in check:
+            selected_arrays[
+                f"{track_name.lower()}_N24_kernels_hi"
+            ] = check["kernels_hi"]
+
+    np.savez_compressed(
+        OUT_NPZ,
+        **selected_arrays,
+    )
+
+    summary = {
+        "claim_classification": (
+            "PROJECT_DERIVED_INT14C_THOUSANDFOLD_UV_REGULAR_SOURCE_VERIFICATION"
+        ),
+        "decision": decision,
+        "next": next_action,
+        "current_C": current_C,
+        "targets": {
+            "C1000": C1000,
+            "C2000": C2000,
+            "C4000": C4000,
+            "absolute_dec_kernel_floor": (
+                absolute_dec_kernel_floor
+            ),
+            "absolute_relaxed_headroom_ceiling": (
+                absolute_relaxed_headroom_ceiling
+            ),
+        },
+        "rho_cap": {
+            "value": rho_cap,
+            "source": (
+                "UNRESTRICTED_N12_MAX_ENERGY_DENSITY"
+            ),
+            "fundamental_physics_value": False,
+        },
+        "unrestricted": {
+            "cases": [
+                public_row(
+                    row,
+                    current_C,
+                )
+                for row in unrestricted_rows
+            ],
+            "N20_N24_gate": (
+                unrestricted_pair
+            ),
+            "uv_classification": (
+                uv_class
+            ),
+            "independent_force": {
+                k: v
+                for k, v in force_checks.get(
+                    "UNRESTRICTED",
+                    {},
+                ).items()
+                if k != "kernels_hi"
+            },
+            "thousandfold_pass": (
+                unrestricted_1000_pass
+            ),
+        },
+        "finite_density": {
+            "cases": [
+                public_row(
+                    row,
+                    current_C,
+                )
+                for row in capped_rows
+            ],
+            "N20_N24_gate": (
+                capped_pair
+            ),
+            "rho_cap_postcheck": (
+                capped_rho_green
+            ),
+            "independent_force": {
+                k: v
+                for k, v in force_checks.get(
+                    "CAPPED",
+                    {},
+                ).items()
+                if k != "kernels_hi"
+            },
+            "SCS_available": (
+                scs_available
+            ),
+            "SCS_pass": scs_pass,
+            "SCS_C_rel_diff": (
+                scs_c_rel
+            ),
+            "thousandfold_pass": (
+                capped_1000_pass
+            ),
+        },
+        "gates": {
+            "thousandfold_unrestricted_continuum": (
+                unrestricted_1000_pass
+            ),
+            "thousandfold_finite_density_certificate": (
+                capped_1000_pass
+            ),
+            "int_level_3_formal": (
+                formal_level3
+            ),
+        },
+        "claim_limits": {
+            "density_cap_fundamental": False,
+            "microscopic_field_realization": False,
+            "strict_n73": False,
+            "full_hessian_stability": False,
+            "nonlinear_einstein_skyrme": False,
+            "practical_device": False,
+        },
+    }
+
+    OUT_JSON.write_text(
+        json.dumps(
+            summary,
+            indent=2,
+            sort_keys=True,
+            allow_nan=True,
+        )
+        + "\n"
+    )
+
+    print(f"INT14C_SUMMARY_JSON={OUT_JSON}")
+    print(f"INT14C_CASES_CSV={OUT_CSV}")
+    print(f"INT14C_ARRAYS_NPZ={OUT_NPZ}")
+    print("INT14C_RUN_COMPLETE=YES")
+
+
+if __name__ == "__main__":
+    main()

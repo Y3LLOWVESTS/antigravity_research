@@ -1,0 +1,104 @@
+=== INT-14C — THOUSAND-FOLD UV / REGULAR-SOURCE VERIFICATION ===
+
+=== A — FIXED VERIFICATION TARGETS ===
+CURRENT_C=4.222220709083088e+02
+C_1000_TARGET=4.222220709083088e-01
+C_2000_TARGET=2.111110354541544e-01
+C_4000_TARGET=1.055555177270772e-01
+R99_OVER_H=3.353681771042527e+00
+PAYLOAD_RADIUS_OVER_H=4.329886080505922e-02
+CORE_RADIUS_OVER_H=1.043298860805059e+00
+CORE_ACTIVE_FRACTION=-1.757579994798524e-02
+ABSOLUTE_DEC_KERNEL_C_FLOOR=4.686978367539733e-04
+ABSOLUTE_RELAXED_HEADROOM_CEILING=9.008406649206269e+05
+EXPANSION_HUNDREDS_FOLD_HEADROOM_STATUS=PRESERVED_AS_NONSTATIONARY_MECHANISM_CLUE
+
+=== B — TRACK A: UNRESTRICTED CONTINUUM AUDIT ===
+INT14C_SOLVE_BEGIN=UNRESTRICTED_N12 GRID=12x24
+INT14C_CASE=UNRESTRICTED_N12 C=2.357116686671713e-01 HEADROOM=1.791265037050385e+03 RHO_MAX=1.669855319420529e+00 L_E=5.256939406e-01 L_F=4.104356163e-01 L_E_DX=1.881015 L_F_DX=1.468603 MAX_E_CELL=4.858134e-01 MAX_F_CELL=9.959056e-01 F50=4.859764e-01 F90=4.859764e-01 DEC_SAT_E=2.837273e-02 GREEN=YES
+INT14C_SOLVE_BEGIN=UNRESTRICTED_N16 GRID=16x32
+INT14C_CASE=UNRESTRICTED_N16 C=1.030330989039161e-01 HEADROOM=4.097926543993921e+03 RHO_MAX=1.730243269928964e+00 L_E=3.942609324e-01 L_F=3.075069170e-01 L_E_DX=1.880970 L_F_DX=1.467077 MAX_E_CELL=4.858317e-01 MAX_F_CELL=9.974597e-01 F50=4.858317e-01 F90=4.858317e-01 DEC_SAT_E=2.833558e-02 GREEN=YES
+INT14C_SOLVE_BEGIN=UNRESTRICTED_N20 GRID=20x40
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #5790 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #5791 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #6590 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #6591 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #6592 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+INT14C_CASE=UNRESTRICTED_N20 C=5.839114748830323e-02 HEADROOM=7.230926074759658e+03 RHO_MAX=1.918902172886403e+00 L_E=3.149999736e-01 L_F=2.458544809e-01 L_E_DX=1.878532 L_F_DX=1.466177 MAX_E_CELL=4.867784e-01 MAX_F_CELL=9.983791e-01 F50=4.867784e-01 F90=4.867784e-01 DEC_SAT_E=2.644155e-02 GREEN=YES
+INT14C_SOLVE_BEGIN=UNRESTRICTED_N24 GRID=24x48
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #8340 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #8341 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #9492 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #9493 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #9494 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+INT14C_CASE=UNRESTRICTED_N24 C=5.369024337202092e-02 HEADROOM=7.864037195412254e+03 RHO_MAX=3.052420598064816e+00 L_E=2.622989469e-01 L_F=2.048484214e-01 L_E_DX=1.877094 L_F_DX=1.465960 MAX_E_CELL=4.873385e-01 MAX_F_CELL=9.986008e-01 F50=4.873385e-01 F90=4.873385e-01 DEC_SAT_E=2.532259e-02 GREEN=YES
+UNRESTRICTED_N20_N24_C_REL_DIFF=8.050713710025964e-02
+UNRESTRICTED_N24_MIN_WIDTH_CELLS=1.465959637795155e+00
+UNRESTRICTED_RHO24_OVER_RHO20=1.590711939980442e+00
+UNRESTRICTED_UV_CONCENTRATED=YES
+
+=== C — TRACK B: FIXED N12-DENSITY-CAP CERTIFICATE ===
+FIXED_RHO_CAP_FROM_N12=1.669855319420529e+00
+RHO_CAP_FUNDAMENTAL_PHYSICS_VALUE=NO
+INT14C_SOLVE_BEGIN=CAPPED_N16 GRID=16x32
+INT14C_CASE=CAPPED_N16 C=1.032427120396295e-01 HEADROOM=4.089606545266264e+03 RHO_MAX=1.669855317983004e+00 L_E=4.042226479e-01 L_F=3.084102608e-01 L_E_DX=1.928496 L_F_DX=1.471387 MAX_E_CELL=4.679236e-01 MAX_F_CELL=9.930760e-01 F50=4.679236e-01 F90=4.679236e-01 DEC_SAT_E=6.415278e-02 GREEN=YES
+INT14C_SOLVE_BEGIN=CAPPED_N20 GRID=20x40
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #5792 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #6593 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+INT14C_CASE=CAPPED_N20 C=5.962809853211935e-02 HEADROOM=7.080924619470702e+03 RHO_MAX=1.669855319355157e+00 L_E=3.499959664e-01 L_F=2.492562942e-01 L_E_DX=2.087234 L_F_DX=1.486464 MAX_E_CELL=4.148139e-01 MAX_F_CELL=9.779575e-01 F50=4.148139e-01 F90=4.148139e-01 DEC_SAT_E=1.703722e-01 GREEN=YES
+INT14C_SOLVE_BEGIN=CAPPED_N24 GRID=24x48
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #8342 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #9495 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+INT14C_CASE=CAPPED_N24 C=5.993163325446853e-02 HEADROOM=7.045061981133773e+03 RHO_MAX=1.669855319189950e+00 L_E=4.074708333e-01 L_F=2.245440524e-01 L_E_DX=2.915989 L_F_DX=1.606908 MAX_E_CELL=2.388386e-01 MAX_F_CELL=8.670341e-01 F50=2.388386e-01 F90=2.681122e-01 DEC_SAT_E=5.223228e-01 GREEN=YES
+CAPPED_N20_N24_C_REL_DIFF=5.064682970683816e-03
+CAPPED_N24_MIN_WIDTH_CELLS=1.606907758884313e+00
+CAPPED_FIXED_RHO_CAP_POSTCHECK=PASS
+
+=== D — INDEPENDENT HIGH-ORDER FORCE RECONSTRUCTION ===
+INDEPENDENT_FORCE_RECONSTRUCTION_BEGIN=UNRESTRICTED_N24
+INDEPENDENT_FORCE_UNRESTRICTED_BASE=1.000000000057745e+00
+INDEPENDENT_FORCE_UNRESTRICTED_HI=1.000019944787501e+00
+INDEPENDENT_FORCE_UNRESTRICTED_RELERR=1.994433197073087e-05
+INDEPENDENT_FORCE_UNRESTRICTED=PASS
+INDEPENDENT_FORCE_RECONSTRUCTION_BEGIN=CAPPED_N24
+INDEPENDENT_FORCE_CAPPED_BASE=1.000000000007640e+00
+INDEPENDENT_FORCE_CAPPED_HI=1.000017168576528e+00
+INDEPENDENT_FORCE_CAPPED_RELERR=1.716827413284274e-05
+INDEPENDENT_FORCE_CAPPED=PASS
+
+=== E — INDEPENDENT SCS SOLVER CHECK ===
+INT14C_CASE=CAPPED_N12_SCS C=2.357100755751067e-01 HEADROOM=1.791277143661056e+03 RHO_MAX=1.669808739561467e+00 L_E=5.257013470e-01 L_F=4.104393930e-01 L_E_DX=1.881042 L_F_DX=1.468617 MAX_E_CELL=4.858031e-01 MAX_F_CELL=9.958918e-01 F50=4.859669e-01 F90=4.859669e-01 DEC_SAT_E=2.839383e-02 GREEN=YES
+SCS_CLARABEL_C_REL_DIFF=6.758647434113025e-06
+INDEPENDENT_SCS_SOLVER_CHECK=PASS
+
+=== F — THOUSAND-FOLD VERIFICATION DECISION ===
+THOUSANDFOLD_UNRESTRICTED_CONTINUUM=FAIL
+THOUSANDFOLD_FINITE_DENSITY_CERTIFICATE=FAIL
+INT_LEVEL_3_FORMAL=NOT_YET
+INT14C_DECISION=THOUSANDFOLD_RAW_HEADROOM_CLASSIFIED_AS_UV_CONCENTRATED_NOT_REGULARLY_VERIFIED
+DENSITY_CAP_IS_FUNDAMENTAL_PHYSICS=NO
+MICROSCOPIC_FIELD_REALIZATION=NOT_ESTABLISHED
+PRACTICAL_ANTIGRAVITY_DEVICE=NO
+EXPANSION_HUNDREDS_FOLD_HEADROOM_STATUS=PRESERVED_AS_NONSTATIONARY_MECHANISM_CLUE
+NEXT=RETAIN_INT14A_12P8_TO_17P9X_AND_MOVE_TO_FIELD_SPACE_ACCESSIBILITY_OR_023C_023D_RERANK
+CLAIM_CLASSIFICATION=PROJECT_DERIVED_INT14C_THOUSANDFOLD_UV_REGULAR_SOURCE_VERIFICATION
+INT14C_SUMMARY_JSON=/Users/mymac/Desktop/antigravity_research/results/data/int14c_thousandfold_uv_regular_source_summary.json
+INT14C_CASES_CSV=/Users/mymac/Desktop/antigravity_research/results/data/int14c_thousandfold_resolution_cases.csv
+INT14C_ARRAYS_NPZ=/Users/mymac/Desktop/antigravity_research/results/data/int14c_thousandfold_selected_arrays.npz
+INT14C_RUN_COMPLETE=YES
+
+__INT14C_RUN_RC__=0

@@ -1,0 +1,2920 @@
+#!/usr/bin/env python3
+"""INT-15 — static/pulse successor-blueprint synthesis and final information audit.
+
+PURPOSE
+-------
+Extract the maximum scientifically useful information from the completed
+Introspective source-bound program before returning to field-model design.
+
+This is deliberately NOT another source-coefficient optimizer.
+
+The run combines five high-information tasks:
+
+1. Reconstruct and independently audit the best finite-density N48 teacher
+   stress tensor from INT-14D.
+
+2. Determine the minimal productive source anatomy:
+   - where the outward force comes from;
+   - how strongly the stress tensor saturates DEC;
+   - which principal-stress pattern is favored;
+   - how much energy sits in the F50/F90 productive skeleton;
+   - how much of the force comes from rho versus the spatial stress trace;
+   - how source sign and payload-kernel sign cooperate.
+
+3. Rebuild the exact promotion-grade B=7 rational-map source and compare its
+   axisymmetrized source/kernel anatomy directly with the N48 teacher.
+   This quantifies the field-space redesign gap rather than merely stating that
+   the current Skyrmion is inefficient.
+
+4. Treat static and pulsed operation in tandem.
+   Static:
+       use source-energy coefficient C.
+
+   Pulsed:
+       use full-cycle finite-payload impulse
+           Delta v = integral a(t) dt
+       and explicitly distinguish the ideal static-seed impulse from the
+       missing dynamic conservation/control completion.
+
+   A time-dependent amplitude multiplier applied to a static T^{mu nu} is NOT
+   assumed to be a physical conserved solution.
+
+5. Produce a machine-readable successor blueprint containing the target
+   geometry, stress ratios, productive/scaffolding partition, pulse overhead
+   budgets, and the next field-theory questions.
+
+SCIENTIFIC QUESTION
+-------------------
+After INT-01 through INT-14, do we know enough about the productive GR source
+mechanism to specify a substantially more efficient successor architecture,
+and how does allowing repeatable finite-duration pulses change the design
+requirements?
+
+TRUSTED INPUTS
+--------------
+Primary teacher:
+    results/data/int14d_capped_thousandfold_final_refinement_N48.npz
+
+Teacher metadata:
+    results/data/int14d_capped_thousandfold_final_refinement_summary.json
+
+Robust conservative source comparison:
+    results/data/int14a_conservation_aware_constructive_headroom_summary.json
+
+Unrestricted/capped UV audit:
+    results/data/int14c_thousandfold_uv_regular_source_summary.json
+
+Current physical-field comparator:
+    exact B=7, eta=0.4, m=8 rational-map field rebuilt from repository code.
+
+IMPORTANT CLAIM BOUNDARY
+------------------------
+INT-14D did NOT certify >=1000x continuum source-level headroom because the
+frozen 3-cell resolution criterion and 15% C-convergence criterion failed.
+
+Therefore this run must use:
+
+    INT14D_N48_RAW_HEADROOM
+
+only as:
+
+    TEACHER / DESIGN DIAGNOSTIC
+
+never as:
+
+    VERIFIED_PHYSICAL_FIELD_IMPROVEMENT.
+
+The strongest robust constructive conserved-DEC source-level headroom remains
+the independently verified INT-14A 006B/006D result.
+
+STATIC OBSERVABLE
+-----------------
+For the normalized source:
+
+    A_P = integral S K_P dV
+
+with
+
+    S = rho + p_r + p_z + p_phi.
+
+Operational coefficient:
+
+    C = E / (h^2 A_P)
+
+under the normalized A_P=1, h=1 source-bound convention.
+
+Lower C is more efficient.
+
+PRODUCTIVE SKELETON
+-------------------
+Define cell energy:
+
+    E_i = rho_i V_i
+
+and gross outward influence:
+
+    F_i^+ = max(S_i K_i, 0).
+
+Define leverage:
+
+    ell_i = F_i^+ / E_i
+
+for non-vacuum cells.
+
+Rank cells by ell_i.
+
+F50/F90 are the minimum energy fractions needed to account for 50%/90% of
+gross outward influence.
+
+The F90 set is treated as a diagnostic PRODUCTIVE SKELETON.
+
+Its complement is called SCAFFOLDING only descriptively.  This run does NOT
+claim the complement is physically removable.
+
+STRESS ANATOMY
+--------------
+For the axisymmetric spatial stress block:
+
+    [[p_r, T_rz, 0],
+     [T_rz, p_z, 0],
+     [0,   0,   p_phi]]
+
+compute principal stresses lambda_min <= lambda_mid <= lambda_max.
+
+Report energy- and force-weighted quantiles of:
+
+    S/rho
+    lambda_min/rho
+    lambda_mid/rho
+    lambda_max/rho
+    anisotropy = (lambda_max-lambda_min)/rho
+    DEC saturation = max |lambda_i| / rho.
+
+Decompose payload acceleration:
+
+    A_rho   = sum rho_i K_i
+    A_trace = sum (p_r+p_z+p_phi)_i K_i
+
+so
+
+    A = A_rho + A_trace.
+
+This tells us whether efficient response is primarily ordinary density
+placement or relativistic stress leverage.
+
+SIGNED SOURCE/KERNEL LEDGER
+---------------------------
+Compute the four contributions:
+
+    S+ K+
+    S+ K-
+    S- K+
+    S- K-
+
+and reconstruct the total force.
+
+This prevents the shortcut:
+
+    negative active density = outward force.
+
+B=7 FIELD COMPARATOR
+--------------------
+Rebuild the exact-map source using the already independently used exact-map
+quadrature.
+
+For each quadrature point compute:
+
+    rho
+    S
+    S/rho
+    K_P
+    I = S K_P
+    I_+.
+
+Bin the exact B=7 source into the N48 teacher's cylindrical (r,z) grid after
+normalizing coordinates by the B=7 payload-center distance h.
+
+Compare:
+
+    energy-map cosine similarity
+    gross-outward-map cosine similarity
+    signed-influence-map cosine similarity
+
+and productive-set cross-overlap:
+
+    fraction of B=7 energy inside teacher F50/F90 cells
+    fraction of B=7 outward force inside teacher F50/F90 cells
+    fraction of teacher energy inside B=7 F50/F90 cells
+    fraction of teacher outward force inside B=7 F50/F90 cells.
+
+This is an axisymmetrized scalar-source comparison, not a full field-space
+distance and not a proof of deformability.
+
+PULSE BRANCH
+------------
+The desired device may be repeatable and short-lived.
+
+The correct primary pulse observable is:
+
+    Delta v_P = integral a_P(t) dt.
+
+For an idealized peak-state seed with nonnegative envelope f(t):
+
+    a_P(t) = a_peak f(t)
+
+and dimensionless time:
+
+    theta = c t / h,
+
+define:
+
+    Q_f = integral f(theta) dtheta.
+
+Then:
+
+    Delta v_P = a_peak (h/c) Q_f.
+
+For the peak source energy:
+
+    E_peak = C a_peak c^2 h^2 / G.
+
+Therefore the dimensionless ideal seed impulse efficiency is:
+
+    Xi_seed
+      =
+    (Delta v_P / E_peak) (c^3 h / G)
+      =
+    Q_f / C.
+
+This identity is exact for the ideal seed model.
+
+However an amplitude-modulated static stress tensor is not by itself a
+conserved dynamic source.
+
+If:
+
+    T00 = f(t) rho
+
+then energy conservation requires nonzero T0i.
+
+Because T^{mu nu} is symmetric, this is also momentum density, whose time
+variation then requires additional dynamic Tij corrections.
+
+Therefore pulse results in this run are only:
+
+    IDEAL_SEED_IMPULSE
+    CAUSAL / DYNAMIC-COMPLETION SCALING
+    FULL-CYCLE OVERHEAD BUDGET.
+
+They are NOT a dynamic Einstein-matter solution.
+
+PULSE ENVELOPE
+--------------
+Use a raised-cosine turn-on and turn-off.
+
+Let alpha be the duration of EACH ramp as a fraction of total pulse duration:
+
+    0 < alpha <= 1/2.
+
+The plateau fraction is:
+
+    1 - 2 alpha.
+
+The integrated envelope area is:
+
+    Q_f = Theta (1-alpha)
+
+where:
+
+    Theta = c T_total / h.
+
+For one ramp:
+
+    max |df/dtheta|
+        =
+    pi / (2 alpha Theta)
+
+and:
+
+    max |d2f/dtheta2|
+        =
+    pi^2 / (2 alpha^2 Theta^2).
+
+Conservation-completion scaling indicators are reported at both:
+
+    L = productive force participation length L_F
+
+and:
+
+    L = global R99 support radius.
+
+Define diagnostics:
+
+    B1(L) = L max|df/dtheta|
+    B2(L) = L^2 max|d2f/dtheta2|.
+
+These are order-of-magnitude continuation indicators, NOT rigorous energy
+bounds.
+
+A boundary-fed causal support condition requires at least:
+
+    alpha Theta >= R99
+
+if information/energy must traverse the entire support no faster than c.
+
+Distributed local actuation could change this requirement but would add its own
+control/support sector and must be included in a physical realization.
+
+FULL-CYCLE OVERHEAD BUDGET
+--------------------------
+Let:
+
+    kappa_cycle >= 1
+
+be total creation/support/reset/loss energy divided by the ideal peak source
+inventory per pulse.
+
+Let:
+
+    zeta_return
+
+be the fraction of ideal outward impulse canceled by collapse/reset dynamics.
+
+Then the effective penalty relative to the ideal seed is:
+
+    Gamma_cycle
+      =
+    kappa_cycle / (1-zeta_return).
+
+If a raw teacher headroom is H_raw, retaining target headroom H_target requires:
+
+    Gamma_cycle
+      <=
+    H_raw / H_target.
+
+This is a useful design budget even though H_raw itself remains a diagnostic
+rather than a promoted physical result.
+
+STATIC/PULSE TANDEM RULE
+------------------------
+Do not force one branch to replace the other.
+
+Static successor success:
+    stationary field reproduces efficient source anatomy.
+
+Pulse successor success:
+    repeatable transient field reproduces efficient anatomy near peak and the
+    COMPLETE formation-collapse-reset cycle has positive useful net impulse.
+
+The pulse branch may tolerate instability/collapse only if:
+    complete stress-energy bookkeeping closes;
+    reaction momentum is tracked;
+    destructive return impulse does not erase the useful impulse;
+    repetition/reset is physically possible;
+    energy/power/heat remain explicit.
+
+VALIDATION
+----------
+Require:
+- exact re-summation of N48 energy and force from stored arrays;
+- DEC/stress reconstruction;
+- independent high-order N48 finite-payload force reconstruction;
+- exact B=7 force reproduction within the known exact-map normalization
+  tolerance when comparator reconstruction is available;
+- all decomposition ledgers close numerically.
+
+No source coefficient is reoptimized.
+
+PROMOTION / OUTCOME
+-------------------
+This run is primarily a mechanism/design synthesis, not a new claim-promotion
+gate.
+
+A strong closeout should identify:
+- a simple productive source geometry;
+- a reproducible principal-stress signature;
+- a quantitative field-vs-teacher anatomy gap;
+- an explicit static successor target;
+- an explicit pulse successor target;
+- an overhead budget showing how much dynamic/control cost can be tolerated;
+- the cheapest next field-theory construction to test.
+
+STOP RULE
+---------
+After INT-15:
+    stop abstract source optimization;
+    return to field/model design.
+
+If no simple anatomy is found:
+    do not invent one;
+    return to 023C/023D/global reranking.
+
+If a simple anatomy is found:
+    use it as the teacher for static AND pulsed successor construction.
+
+CLAIM CLASSIFICATION
+--------------------
+PROJECT_DERIVED_INT15_STATIC_PULSE_SUCCESSOR_BLUEPRINT_SYNTHESIS
+"""
+
+from __future__ import annotations
+
+import csv
+import importlib.util
+import json
+import math
+from pathlib import Path
+import sys
+from typing import Any
+
+import numpy as np
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SIM = ROOT / "simulations"
+DATA = ROOT / "results/data"
+
+INT14A_SUMMARY = DATA / "int14a_conservation_aware_constructive_headroom_summary.json"
+INT14B_SUMMARY = DATA / "int14b_support_constrained_structural_overhead_summary.json"
+INT14C_SUMMARY = DATA / "int14c_thousandfold_uv_regular_source_summary.json"
+INT14D_SUMMARY = DATA / "int14d_capped_thousandfold_final_refinement_summary.json"
+INT14D_N48 = DATA / "int14d_capped_thousandfold_final_refinement_N48.npz"
+
+INT14C_SOURCE = SIM / "int14c_thousandfold_uv_regular_source_verification.py"
+INT02_SOURCE = SIM / "int02_signed_kernel_orientation_robustness.py"
+A23_SOURCE = SIM / "023a_topological_false_core_multiskyrmion_gr_repulsion_gate.py"
+B23_SOURCE = SIM / "023b_exact_rational_map_full3d_tmunu_gravity_promotion_gate.py"
+
+OUT_JSON = DATA / "int15_static_pulse_successor_blueprint_summary.json"
+OUT_TEACHER_CSV = DATA / "int15_teacher_cell_anatomy.csv"
+OUT_PULSE_CSV = DATA / "int15_static_pulse_matrix.csv"
+OUT_MAPS_NPZ = DATA / "int15_teacher_b7_comparison_maps.npz"
+OUT_MD = DATA / "int15_successor_blueprint.md"
+
+B = 7
+ETA = 0.4
+MASS = 8.0
+
+EXACT_NR = 68
+EXACT_NMU = 32
+EXACT_NPHI = 64
+
+FORCE_REPRO_REL_TOL = 1.0e-4
+LEDGER_REL_TOL = 2.0e-8
+
+C_LIGHT = 299_792_458.0
+G_NEWTON = 6.67430e-11
+
+
+def require(path: Path) -> None:
+    if not path.is_file():
+        raise RuntimeError(f"Required file missing: {path}")
+
+
+def load_module(name: str, path: Path):
+    spec = importlib.util.spec_from_file_location(name, path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Cannot import {path}")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+def relative_error(a: float, b: float) -> float:
+    return abs(a - b) / max(abs(a), abs(b), 1.0e-300)
+
+
+def weighted_quantile(
+    values: np.ndarray,
+    weights: np.ndarray,
+    quantiles=(0.05, 0.25, 0.50, 0.75, 0.95),
+) -> dict[str, float]:
+    v = np.asarray(values, dtype=float).ravel()
+    w = np.asarray(weights, dtype=float).ravel()
+
+    good = (
+        np.isfinite(v)
+        & np.isfinite(w)
+        & (w > 0.0)
+    )
+
+    v = v[good]
+    w = w[good]
+
+    if len(v) == 0 or float(np.sum(w)) <= 0.0:
+        return {
+            f"q{int(round(100*q)):02d}": float("nan")
+            for q in quantiles
+        }
+
+    order = np.argsort(v)
+    v = v[order]
+    w = w[order]
+
+    cumulative = np.cumsum(w)
+    cumulative /= cumulative[-1]
+
+    out = {}
+
+    for q in quantiles:
+        out[f"q{int(round(100*q)):02d}"] = float(
+            np.interp(
+                q,
+                cumulative,
+                v,
+            )
+        )
+
+    return out
+
+
+def cosine_similarity(
+    a: np.ndarray,
+    b: np.ndarray,
+) -> float:
+    x = np.asarray(a, dtype=float).ravel()
+    y = np.asarray(b, dtype=float).ravel()
+
+    denom = (
+        float(np.linalg.norm(x))
+        * float(np.linalg.norm(y))
+    )
+
+    if denom <= 0.0:
+        return float("nan")
+
+    return float(
+        np.dot(x, y)
+        / denom
+    )
+
+
+def normalize_nonnegative(a: np.ndarray) -> np.ndarray:
+    x = np.maximum(
+        np.asarray(a, dtype=float),
+        0.0,
+    )
+    total = float(np.sum(x))
+
+    if total <= 0.0:
+        return np.zeros_like(x)
+
+    return x / total
+
+
+def jensen_shannon_divergence(
+    a: np.ndarray,
+    b: np.ndarray,
+) -> float:
+    p = normalize_nonnegative(a).ravel()
+    q = normalize_nonnegative(b).ravel()
+
+    m = 0.5 * (p + q)
+
+    def kl(x, y):
+        good = x > 0.0
+        return float(
+            np.sum(
+                x[good]
+                * np.log(
+                    x[good]
+                    / np.maximum(
+                        y[good],
+                        1.0e-300,
+                    )
+                )
+            )
+        )
+
+    return 0.5 * kl(p, m) + 0.5 * kl(q, m)
+
+
+def top_leverage_mask(
+    energy: np.ndarray,
+    outward: np.ndarray,
+    fraction: float,
+) -> tuple[np.ndarray, float]:
+    e = np.asarray(energy, dtype=float).ravel()
+    f = np.asarray(outward, dtype=float).ravel()
+
+    total_f = float(np.sum(np.maximum(f, 0.0)))
+    total_e = float(np.sum(np.maximum(e, 0.0)))
+
+    mask_flat = np.zeros_like(
+        e,
+        dtype=bool,
+    )
+
+    if total_f <= 0.0 or total_e <= 0.0:
+        return mask_flat.reshape(
+            np.asarray(energy).shape
+        ), float("nan")
+
+    leverage = np.zeros_like(e)
+
+    floor = max(
+        float(np.max(e)),
+        1.0,
+    ) * 1.0e-15
+
+    good = e > floor
+    leverage[good] = (
+        np.maximum(f[good], 0.0)
+        / e[good]
+    )
+
+    order = np.argsort(
+        leverage
+    )[::-1]
+
+    cumulative = np.cumsum(
+        np.maximum(
+            f[order],
+            0.0,
+        )
+    )
+
+    index = int(
+        np.searchsorted(
+            cumulative,
+            fraction * total_f,
+            side="left",
+        )
+    )
+    index = min(
+        index,
+        len(order) - 1,
+    )
+
+    selected = order[: index + 1]
+    mask_flat[selected] = True
+
+    energy_fraction = float(
+        np.sum(
+            np.maximum(
+                e[selected],
+                0.0,
+            )
+        )
+        / total_e
+    )
+
+    return (
+        mask_flat.reshape(
+            np.asarray(energy).shape
+        ),
+        energy_fraction,
+    )
+
+
+def connected_components_4(mask: np.ndarray) -> list[list[tuple[int, int]]]:
+    m = np.asarray(mask, dtype=bool)
+    nr, nz = m.shape
+
+    seen = np.zeros_like(
+        m,
+        dtype=bool,
+    )
+
+    components = []
+
+    for i in range(nr):
+        for j in range(nz):
+            if not m[i, j] or seen[i, j]:
+                continue
+
+            stack = [(i, j)]
+            seen[i, j] = True
+            component = []
+
+            while stack:
+                ci, cj = stack.pop()
+                component.append((ci, cj))
+
+                for ni, nj in (
+                    (ci - 1, cj),
+                    (ci + 1, cj),
+                    (ci, cj - 1),
+                    (ci, cj + 1),
+                ):
+                    if (
+                        0 <= ni < nr
+                        and 0 <= nj < nz
+                        and m[ni, nj]
+                        and not seen[ni, nj]
+                    ):
+                        seen[ni, nj] = True
+                        stack.append(
+                            (ni, nj)
+                        )
+
+            components.append(component)
+
+    return components
+
+
+def stress_eigenvalues(
+    pr: np.ndarray,
+    pz: np.ndarray,
+    pphi: np.ndarray,
+    trz: np.ndarray,
+) -> np.ndarray:
+    pr = np.asarray(pr, dtype=float)
+    pz = np.asarray(pz, dtype=float)
+    pphi = np.asarray(pphi, dtype=float)
+    trz = np.asarray(trz, dtype=float)
+
+    mean = 0.5 * (
+        pr + pz
+    )
+    radius = np.sqrt(
+        0.25 * (
+            pr - pz
+        ) ** 2
+        + trz**2
+    )
+
+    lam_a = mean - radius
+    lam_b = mean + radius
+    lam_c = pphi
+
+    stack = np.stack(
+        [
+            lam_a,
+            lam_b,
+            lam_c,
+        ],
+        axis=-1,
+    )
+
+    return np.sort(
+        stack,
+        axis=-1,
+    )
+
+
+def geometry_summary(
+    mask: np.ndarray,
+    weights: np.ndarray,
+    r_centers: np.ndarray,
+    z_centers: np.ndarray,
+    payload_z: float,
+    payload_radius: float,
+) -> dict[str, Any]:
+    m = np.asarray(mask, dtype=bool)
+    w = np.asarray(weights, dtype=float)
+
+    R, Z = np.meshgrid(
+        r_centers,
+        z_centers,
+        indexing="ij",
+    )
+
+    selected = (
+        m
+        & np.isfinite(w)
+        & (w > 0.0)
+    )
+
+    if not np.any(selected):
+        return {
+            "weight": 0.0,
+            "r_mean": float("nan"),
+            "z_mean": float("nan"),
+            "r_min": float("nan"),
+            "r_max": float("nan"),
+            "z_min": float("nan"),
+            "z_max": float("nan"),
+            "payload_surface_distance_mean": float("nan"),
+            "payload_surface_distance_min": float("nan"),
+            "component_count": 0,
+        }
+
+    ws = w[selected]
+    rs = R[selected]
+    zs = Z[selected]
+
+    distance_center = np.sqrt(
+        rs**2
+        + (
+            zs - payload_z
+        ) ** 2
+    )
+
+    distance_surface = np.abs(
+        distance_center
+        - payload_radius
+    )
+
+    components = connected_components_4(
+        m
+    )
+
+    return {
+        "weight": float(
+            np.sum(ws)
+        ),
+        "r_mean": float(
+            np.sum(ws * rs)
+            / np.sum(ws)
+        ),
+        "z_mean": float(
+            np.sum(ws * zs)
+            / np.sum(ws)
+        ),
+        "r_min": float(np.min(rs)),
+        "r_max": float(np.max(rs)),
+        "z_min": float(np.min(zs)),
+        "z_max": float(np.max(zs)),
+        "payload_surface_distance_mean": float(
+            np.sum(
+                ws
+                * distance_surface
+            )
+            / np.sum(ws)
+        ),
+        "payload_surface_distance_min": float(
+            np.min(
+                distance_surface
+            )
+        ),
+        "component_count": int(
+            len(components)
+        ),
+        "largest_component_cells": int(
+            max(
+                (
+                    len(c)
+                    for c in components
+                ),
+                default=0,
+            )
+        ),
+    }
+
+
+def teacher_anatomy(
+    arrays: dict[str, np.ndarray],
+    teacher_summary_case: dict[str, Any],
+) -> dict[str, Any]:
+    e = arrays["e"]
+    pr = arrays["pr"]
+    pz = arrays["pz"]
+    pphi = arrays["pphi"]
+    trz = arrays["trz"]
+    volumes = arrays["volumes"]
+    kernels = arrays["kernels"]
+    active_density = arrays["active_density"]
+    active_mask = arrays["active_mask"].astype(bool)
+    r_centers = arrays["r_centers"]
+    z_centers = arrays["z_centers"]
+
+    cell_energy = (
+        volumes * e
+    )
+    cell_force = (
+        kernels
+        * active_density
+    )
+    outward = np.maximum(
+        cell_force,
+        0.0,
+    )
+    inward = np.maximum(
+        -cell_force,
+        0.0,
+    )
+
+    E = float(
+        np.sum(
+            cell_energy
+        )
+    )
+    A = float(
+        np.sum(
+            cell_force
+        )
+    )
+
+    trace = (
+        pr + pz + pphi
+    )
+
+    A_rho = float(
+        np.sum(
+            kernels * e
+        )
+    )
+    A_trace = float(
+        np.sum(
+            kernels * trace
+        )
+    )
+
+    ledger_relerr = relative_error(
+        A,
+        A_rho + A_trace,
+    )
+
+    eig = stress_eigenvalues(
+        pr,
+        pz,
+        pphi,
+        trz,
+    )
+
+    rho_floor = max(
+        float(np.max(e)),
+        1.0,
+    ) * 1.0e-14
+
+    good = (
+        active_mask
+        & (e > rho_floor)
+    )
+
+    ratios = np.zeros(
+        e.shape + (3,),
+        dtype=float,
+    )
+
+    ratios[good, :] = (
+        eig[good, :]
+        / e[good, None]
+    )
+
+    S_over_rho = np.zeros_like(e)
+    S_over_rho[good] = (
+        active_density[good]
+        / e[good]
+    )
+
+    anisotropy = np.zeros_like(e)
+    anisotropy[good] = (
+        (
+            eig[..., 2][good]
+            - eig[..., 0][good]
+        )
+        / e[good]
+    )
+
+    dec_ratio = np.zeros_like(e)
+    dec_ratio[good] = (
+        np.max(
+            np.abs(
+                eig[good, :]
+            ),
+            axis=1,
+        )
+        / e[good]
+    )
+
+    f_masks = {}
+    f_energy = {}
+
+    for percentage in (
+        25,
+        50,
+        75,
+        90,
+        99,
+    ):
+        mask, ef = (
+            top_leverage_mask(
+                cell_energy,
+                outward,
+                percentage / 100.0,
+            )
+        )
+        f_masks[percentage] = mask
+        f_energy[percentage] = ef
+
+    payload_z = 1.0
+    payload_radius = float(
+        teacher_summary_case[
+            "support_radius"
+        ]
+        * 0.0
+        + 0.043298860805059215
+    )
+
+    # Prefer the exact value recorded in the main summary if present later.
+    geometry = {
+        "F50": geometry_summary(
+            f_masks[50],
+            outward,
+            r_centers,
+            z_centers,
+            payload_z,
+            payload_radius,
+        ),
+        "F90": geometry_summary(
+            f_masks[90],
+            outward,
+            r_centers,
+            z_centers,
+            payload_z,
+            payload_radius,
+        ),
+    }
+
+    gross_out = float(
+        np.sum(outward)
+    )
+    gross_in = float(
+        np.sum(inward)
+    )
+
+    cancellation = (
+        (
+            gross_out
+            + gross_in
+        )
+        / max(
+            abs(A),
+            1.0e-300,
+        )
+    )
+
+    ksign = np.sign(
+        kernels
+    )
+    ssign = np.sign(
+        active_density
+    )
+
+    signed_ledger = {}
+
+    for s_label, s_condition in (
+        ("SPLUS", ssign >= 0.0),
+        ("SMINUS", ssign < 0.0),
+    ):
+        for k_label, k_condition in (
+            ("KPLUS", ksign >= 0.0),
+            ("KMINUS", ksign < 0.0),
+        ):
+            selected = (
+                active_mask
+                & s_condition
+                & k_condition
+            )
+            signed_ledger[
+                f"{s_label}_{k_label}"
+            ] = float(
+                np.sum(
+                    cell_force[
+                        selected
+                    ]
+                )
+            )
+
+    signed_sum = float(
+        sum(
+            signed_ledger.values()
+        )
+    )
+
+    stress_stats = {
+        "energy_weighted": {
+            "S_over_rho": weighted_quantile(
+                S_over_rho[good],
+                cell_energy[good],
+            ),
+            "lambda_min_over_rho": weighted_quantile(
+                ratios[..., 0][good],
+                cell_energy[good],
+            ),
+            "lambda_mid_over_rho": weighted_quantile(
+                ratios[..., 1][good],
+                cell_energy[good],
+            ),
+            "lambda_max_over_rho": weighted_quantile(
+                ratios[..., 2][good],
+                cell_energy[good],
+            ),
+            "anisotropy_over_rho": weighted_quantile(
+                anisotropy[good],
+                cell_energy[good],
+            ),
+            "dec_ratio": weighted_quantile(
+                dec_ratio[good],
+                cell_energy[good],
+            ),
+        },
+        "outward_force_weighted": {
+            "S_over_rho": weighted_quantile(
+                S_over_rho[good],
+                outward[good],
+            ),
+            "lambda_min_over_rho": weighted_quantile(
+                ratios[..., 0][good],
+                outward[good],
+            ),
+            "lambda_mid_over_rho": weighted_quantile(
+                ratios[..., 1][good],
+                outward[good],
+            ),
+            "lambda_max_over_rho": weighted_quantile(
+                ratios[..., 2][good],
+                outward[good],
+            ),
+            "anisotropy_over_rho": weighted_quantile(
+                anisotropy[good],
+                outward[good],
+            ),
+            "dec_ratio": weighted_quantile(
+                dec_ratio[good],
+                outward[good],
+            ),
+        },
+    }
+
+    def zone_stats(mask):
+        selected = (
+            mask
+            & good
+        )
+
+        energy = float(
+            np.sum(
+                cell_energy[selected]
+            )
+        )
+
+        force = float(
+            np.sum(
+                outward[selected]
+            )
+        )
+
+        return {
+            "energy_fraction": (
+                energy
+                / max(E, 1.0e-300)
+            ),
+            "gross_outward_fraction": (
+                force
+                / max(
+                    gross_out,
+                    1.0e-300,
+                )
+            ),
+            "S_over_rho": weighted_quantile(
+                S_over_rho[selected],
+                cell_energy[selected],
+            ),
+            "lambda_min_over_rho": weighted_quantile(
+                ratios[..., 0][selected],
+                cell_energy[selected],
+            ),
+            "lambda_mid_over_rho": weighted_quantile(
+                ratios[..., 1][selected],
+                cell_energy[selected],
+            ),
+            "lambda_max_over_rho": weighted_quantile(
+                ratios[..., 2][selected],
+                cell_energy[selected],
+            ),
+            "dec_ratio": weighted_quantile(
+                dec_ratio[selected],
+                cell_energy[selected],
+            ),
+        }
+
+    f90_zone = zone_stats(
+        f_masks[90]
+    )
+    scaffold_zone = zone_stats(
+        ~f_masks[90]
+    )
+
+    return {
+        "E": E,
+        "A": A,
+        "A_rho": A_rho,
+        "A_trace": A_trace,
+        "rho_trace_ledger_relerr": ledger_relerr,
+        "gross_outward": gross_out,
+        "gross_inward": gross_in,
+        "cancellation": cancellation,
+        "signed_ledger": signed_ledger,
+        "signed_ledger_relerr": relative_error(
+            A,
+            signed_sum,
+        ),
+        "F_energy_fractions": {
+            f"F{p}": float(
+                f_energy[p]
+            )
+            for p in f_energy
+        },
+        "geometry": geometry,
+        "stress_stats": stress_stats,
+        "productive_F90_zone": f90_zone,
+        "scaffolding_complement_zone": scaffold_zone,
+        "arrays_derived": {
+            "cell_energy": cell_energy,
+            "cell_force": cell_force,
+            "outward": outward,
+            "inward": inward,
+            "stress_eigenvalues": eig,
+            "stress_ratios": ratios,
+            "S_over_rho": S_over_rho,
+            "anisotropy": anisotropy,
+            "dec_ratio_recomputed": dec_ratio,
+            "F50_mask": f_masks[50],
+            "F90_mask": f_masks[90],
+        },
+    }
+
+
+def independent_teacher_force(
+    int14c,
+    arrays: dict[str, np.ndarray],
+    payload_z: float,
+    payload_radius: float,
+) -> dict[str, Any]:
+    r_edges = arrays["r_edges"]
+    z_edges = arrays["z_edges"]
+    active_density = arrays["active_density"]
+
+    nr, nz = active_density.shape
+
+    kernels_hi = np.zeros_like(
+        active_density,
+        dtype=float,
+    )
+
+    for i in range(nr):
+        for j in range(nz):
+            kernels_hi[i, j] = (
+                int14c.independent_cell_kernel(
+                    float(r_edges[i]),
+                    float(r_edges[i + 1]),
+                    float(z_edges[j]),
+                    float(z_edges[j + 1]),
+                    float(payload_z),
+                    float(payload_radius),
+                )
+            )
+
+    A_base = float(
+        np.sum(
+            arrays["kernels"]
+            * active_density
+        )
+    )
+
+    A_hi = float(
+        np.sum(
+            kernels_hi
+            * active_density
+        )
+    )
+
+    rel = relative_error(
+        A_base,
+        A_hi,
+    )
+
+    return {
+        "A_base": A_base,
+        "A_independent_high_order": A_hi,
+        "relative_error": rel,
+        "pass": bool(
+            A_hi > 0.0
+            and rel
+            <= FORCE_REPRO_REL_TOL
+        ),
+        "kernels_hi": kernels_hi,
+    }
+
+
+def rebuild_exact_b7(
+    int02,
+    a23,
+    b23,
+) -> dict[str, Any]:
+    degree, I = (
+        b23.angular_integrals_b7(
+            b23.B7_B0
+        )
+    )
+
+    profile = (
+        b23.solve_profile_with_custom_I(
+            a23,
+            B,
+            ETA,
+            MASS,
+            I,
+        )
+    )
+
+    sector_profiles, sector_energies = (
+        b23.solve_exact_sector(
+            a23,
+            ETA,
+            MASS,
+        )
+    )
+
+    if not all(
+        p.success
+        for p in sector_profiles.values()
+    ):
+        raise RuntimeError(
+            "Exact B=7 sector solve failed"
+        )
+
+    candidate = (
+        b23.candidate_from_sector(
+            a23,
+            sector_profiles,
+            sector_energies,
+            B,
+        )
+    )
+
+    payload = candidate.payload
+
+    (
+        xyz,
+        energy_w,
+        active_w,
+        e4_w,
+        v_w,
+    ) = int02.exact_map_weighted_source(
+        b23,
+        profile,
+        b23.B7_B0,
+        EXACT_NR,
+        EXACT_NMU,
+        EXACT_NPHI,
+    )
+
+    h = float(
+        payload.payload_center
+    )
+    rp = float(
+        payload.payload_radius
+    )
+
+    q = xyz.copy()
+    q[:, 2] -= h
+
+    d2 = np.sum(
+        q * q,
+        axis=1,
+    )
+    d = np.sqrt(d2)
+
+    K = (
+        q[:, 2]
+        / np.maximum(
+            d2 * d,
+            rp**3,
+        )
+    )
+
+    influence = (
+        active_w * K
+    )
+
+    outward = np.maximum(
+        influence,
+        0.0,
+    )
+
+    E = float(
+        np.sum(
+            energy_w
+        )
+    )
+    A = float(
+        np.sum(
+            influence
+        )
+    )
+
+    S_over_rho = (
+        active_w
+        / np.maximum(
+            energy_w,
+            1.0e-300,
+        )
+    )
+
+    return {
+        "degree": float(degree),
+        "I": float(I),
+        "profile": profile,
+        "candidate": candidate,
+        "xyz": xyz,
+        "energy_w": energy_w,
+        "active_w": active_w,
+        "e4_w": e4_w,
+        "v_w": v_w,
+        "K": K,
+        "influence": influence,
+        "outward": outward,
+        "S_over_rho": S_over_rho,
+        "E": E,
+        "A": A,
+        "h": h,
+        "payload_radius": rp,
+        "payload_radius_over_h": (
+            rp / h
+        ),
+        "shell_radius_over_h": float(
+            profile.shell_radius
+            / h
+        ),
+    }
+
+
+def bin_exact_to_teacher(
+    exact: dict[str, Any],
+    arrays: dict[str, np.ndarray],
+) -> dict[str, np.ndarray]:
+    r_edges = arrays["r_edges"]
+    z_edges = arrays["z_edges"]
+
+    shape = arrays["e"].shape
+
+    energy = np.zeros(
+        shape,
+        dtype=float,
+    )
+    active = np.zeros_like(
+        energy
+    )
+    influence = np.zeros_like(
+        energy
+    )
+    outward = np.zeros_like(
+        energy
+    )
+
+    xyz = exact["xyz"]
+    h = float(
+        exact["h"]
+    )
+
+    r = np.sqrt(
+        xyz[:, 0] ** 2
+        + xyz[:, 1] ** 2
+    ) / h
+    z = (
+        xyz[:, 2]
+        / h
+    )
+
+    ir = (
+        np.searchsorted(
+            r_edges,
+            r,
+            side="right",
+        )
+        - 1
+    )
+    iz = (
+        np.searchsorted(
+            z_edges,
+            z,
+            side="right",
+        )
+        - 1
+    )
+
+    good = (
+        (ir >= 0)
+        & (ir < shape[0])
+        & (iz >= 0)
+        & (iz < shape[1])
+    )
+
+    for i, j, ew, aw, iw, ow in zip(
+        ir[good],
+        iz[good],
+        exact["energy_w"][good],
+        exact["active_w"][good],
+        exact["influence"][good],
+        exact["outward"][good],
+    ):
+        energy[i, j] += ew
+        active[i, j] += aw
+        influence[i, j] += iw
+        outward[i, j] += ow
+
+    return {
+        "energy": energy,
+        "active": active,
+        "influence": influence,
+        "outward": outward,
+    }
+
+
+def cross_overlap(
+    teacher_energy: np.ndarray,
+    teacher_outward: np.ndarray,
+    exact_energy: np.ndarray,
+    exact_outward: np.ndarray,
+    teacher_mask: np.ndarray,
+    exact_mask: np.ndarray,
+) -> dict[str, float]:
+    def frac(x, mask):
+        return float(
+            np.sum(
+                x[mask]
+            )
+            / max(
+                float(
+                    np.sum(x)
+                ),
+                1.0e-300,
+            )
+        )
+
+    return {
+        "b7_energy_in_teacher_mask": (
+            frac(
+                exact_energy,
+                teacher_mask,
+            )
+        ),
+        "b7_outward_in_teacher_mask": (
+            frac(
+                exact_outward,
+                teacher_mask,
+            )
+        ),
+        "teacher_energy_in_b7_mask": (
+            frac(
+                teacher_energy,
+                exact_mask,
+            )
+        ),
+        "teacher_outward_in_b7_mask": (
+            frac(
+                teacher_outward,
+                exact_mask,
+            )
+        ),
+    }
+
+
+def pulse_matrix(
+    *,
+    current_C: float,
+    teacher_C: float,
+    c006d: float,
+    r99: float,
+    force_length: float,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    rows = []
+
+    C_sources = {
+        "B7_CURRENT": current_C,
+        "006D_ROBUST": c006d,
+        "INT14D_N48_TEACHER_DIAGNOSTIC": teacher_C,
+    }
+
+    alpha_values = (
+        0.10,
+        0.25,
+        0.50,
+    )
+
+    theta_values = (
+        2.0 * r99,
+        10.0 * r99,
+        30.0 * r99,
+        100.0 * r99,
+    )
+
+    for source_name, C in C_sources.items():
+        for alpha in alpha_values:
+            for theta in theta_values:
+                area_fraction = (
+                    1.0 - alpha
+                )
+                Q = (
+                    theta
+                    * area_fraction
+                )
+
+                ramp_theta = (
+                    alpha
+                    * theta
+                )
+
+                max_d1 = (
+                    math.pi
+                    / (
+                        2.0
+                        * alpha
+                        * theta
+                    )
+                )
+
+                max_d2 = (
+                    math.pi**2
+                    / (
+                        2.0
+                        * alpha**2
+                        * theta**2
+                    )
+                )
+
+                B1_prod = (
+                    force_length
+                    * max_d1
+                )
+                B2_prod = (
+                    force_length**2
+                    * max_d2
+                )
+                B1_global = (
+                    r99
+                    * max_d1
+                )
+                B2_global = (
+                    r99**2
+                    * max_d2
+                )
+
+                boundary_causal = bool(
+                    ramp_theta >= r99
+                )
+
+                rows.append({
+                    "source": source_name,
+                    "C": C,
+                    "alpha_each_ramp": alpha,
+                    "theta_total_cT_over_h": theta,
+                    "envelope_area_fraction": area_fraction,
+                    "Q_integral_f_dtheta": Q,
+                    "Xi_seed_Q_over_C": (
+                        Q / C
+                    ),
+                    "ramp_theta": ramp_theta,
+                    "boundary_fed_global_causal": boundary_causal,
+                    "B1_productive": B1_prod,
+                    "B2_productive": B2_prod,
+                    "B1_global": B1_global,
+                    "B2_global": B2_global,
+                })
+
+    raw_headroom = (
+        current_C / teacher_C
+    )
+
+    overhead_budgets = {}
+
+    for target in (
+        1000.0,
+        100.0,
+        10.0,
+        1.0,
+    ):
+        budget = (
+            raw_headroom / target
+        )
+
+        table = []
+
+        for kappa in (
+            1.0,
+            2.0,
+            5.0,
+            10.0,
+            20.0,
+            50.0,
+        ):
+            if budget > 0.0:
+                zeta_max = (
+                    1.0
+                    - kappa / budget
+                )
+            else:
+                zeta_max = float("nan")
+
+            feasible = bool(
+                zeta_max >= 0.0
+            )
+
+            table.append({
+                "kappa_cycle": kappa,
+                "maximum_return_cancellation_fraction": (
+                    max(
+                        min(
+                            zeta_max,
+                            1.0,
+                        ),
+                        0.0,
+                    )
+                    if feasible
+                    else float("nan")
+                ),
+                "feasible": feasible,
+            })
+
+        overhead_budgets[
+            f"retain_{int(target)}x"
+        ] = {
+            "maximum_effective_cycle_penalty": budget,
+            "examples": table,
+        }
+
+    physical_duration_examples = []
+
+    for h_m in (
+        0.01,
+        0.10,
+        1.0,
+    ):
+        for theta_factor in (
+            10.0,
+            30.0,
+            100.0,
+        ):
+            theta = (
+                theta_factor
+                * r99
+            )
+            T = (
+                theta
+                * h_m
+                / C_LIGHT
+            )
+
+            physical_duration_examples.append({
+                "h_m": h_m,
+                "theta_over_R99": theta_factor,
+                "theta_total": theta,
+                "duration_seconds": T,
+            })
+
+    return rows, {
+        "raw_teacher_headroom_vs_B7": raw_headroom,
+        "overhead_budgets": overhead_budgets,
+        "physical_duration_examples": physical_duration_examples,
+        "dynamic_completion_warning": (
+            "Pulse Xi values are ideal peak-state seed metrics only. "
+            "A conserved dynamic Tmunu and complete creation/collapse/reset "
+            "cycle have not been constructed."
+        ),
+    }
+
+
+def build_markdown(
+    summary: dict[str, Any],
+) -> str:
+    t = summary["teacher"]
+    c = summary["teacher_vs_b7"]
+    p = summary["pulse"]
+
+    lines = []
+
+    lines.append(
+        "# INT-15 Static/Pulse Successor Blueprint"
+    )
+    lines.append("")
+    lines.append(
+        "This file is generated from repository data. "
+        "It is a design handoff, not a new physical-field claim."
+    )
+    lines.append("")
+
+    lines.append("## 1. Teacher source")
+    lines.append("")
+    lines.append(
+        f"- N48 teacher coefficient: `{t['coefficient']:.12g}`"
+    )
+    lines.append(
+        f"- Raw diagnostic headroom vs B=7: `{t['raw_headroom_vs_b7']:.6g}x`"
+    )
+    lines.append(
+        f"- Independent N48 force reconstruction: "
+        f"`{'PASS' if t['independent_force']['pass'] else 'FAIL'}`"
+    )
+    lines.append(
+        f"- F50 energy fraction: `{t['anatomy']['F_energy_fractions']['F50']:.6g}`"
+    )
+    lines.append(
+        f"- F90 energy fraction: `{t['anatomy']['F_energy_fractions']['F90']:.6g}`"
+    )
+    lines.append(
+        f"- Outward-force cancellation factor: `{t['anatomy']['cancellation']:.6g}`"
+    )
+    lines.append("")
+
+    lines.append("## 2. Force origin")
+    lines.append("")
+    lines.append(
+        f"- Density term contribution: `{t['anatomy']['A_rho']:.12g}`"
+    )
+    lines.append(
+        f"- Spatial-stress trace contribution: `{t['anatomy']['A_trace']:.12g}`"
+    )
+    lines.append(
+        f"- Total: `{t['anatomy']['A']:.12g}`"
+    )
+    lines.append("")
+
+    lines.append("## 3. Productive skeleton")
+    lines.append("")
+    f90 = t["anatomy"]["geometry"]["F90"]
+    lines.append(
+        f"- F90 connected components: `{f90['component_count']}`"
+    )
+    lines.append(
+        f"- F90 weighted mean cylindrical radius: `{f90['r_mean']:.6g} h`"
+    )
+    lines.append(
+        f"- F90 weighted mean z: `{f90['z_mean']:.6g} h`"
+    )
+    lines.append(
+        f"- F90 mean distance from payload surface: "
+        f"`{f90['payload_surface_distance_mean']:.6g} h`"
+    )
+    lines.append("")
+
+    lines.append("## 4. B=7 comparison")
+    lines.append("")
+    if c.get("available", False):
+        lines.append(
+            f"- Energy map cosine similarity: "
+            f"`{c['energy_cosine_similarity']:.6g}`"
+        )
+        lines.append(
+            f"- Gross-outward map cosine similarity: "
+            f"`{c['outward_cosine_similarity']:.6g}`"
+        )
+        lines.append(
+            f"- Signed-influence map cosine similarity: "
+            f"`{c['signed_influence_cosine_similarity']:.6g}`"
+        )
+        lines.append(
+            f"- B=7 outward force inside teacher F90 cells: "
+            f"`{c['F90_cross_overlap']['b7_outward_in_teacher_mask']:.6g}`"
+        )
+    else:
+        lines.append(
+            "- Exact B=7 comparator reconstruction unavailable."
+        )
+    lines.append("")
+
+    lines.append("## 5. Pulse branch")
+    lines.append("")
+    lines.append(
+        f"- Raw teacher/B=7 diagnostic headroom: "
+        f"`{p['raw_teacher_headroom_vs_B7']:.6g}x`"
+    )
+    lines.append(
+        f"- Max total effective cycle penalty retaining 1000x: "
+        f"`{p['overhead_budgets']['retain_1000x']['maximum_effective_cycle_penalty']:.6g}x`"
+    )
+    lines.append(
+        "- Pulse results are seed-level impulse and dynamic-completion diagnostics, "
+        "not a conserved time-dependent field solution."
+    )
+    lines.append("")
+
+    lines.append("## 6. Successor targets")
+    lines.append("")
+    for item in summary[
+        "successor_blueprint"
+    ]["static_targets"]:
+        lines.append(
+            f"- Static: {item}"
+        )
+    for item in summary[
+        "successor_blueprint"
+    ]["pulse_targets"]:
+        lines.append(
+            f"- Pulse: {item}"
+        )
+
+    lines.append("")
+    lines.append("## 7. Claim boundary")
+    lines.append("")
+    lines.append(
+        "- Robust conserved-DEC source-level headroom remains the INT-14A "
+        "12.8x to 17.9x result."
+    )
+    lines.append(
+        "- INT-14D thousand/tens-of-thousands-fold values remain teacher/design "
+        "diagnostics because continuum regularity was not certified."
+    )
+    lines.append(
+        "- No microscopic successor, dynamic completion, nonlinear GR result, "
+        "or practical device is established."
+    )
+    lines.append("")
+
+    return "\n".join(lines)
+
+
+def main() -> None:
+    print(
+        "=== INT-15 — STATIC/PULSE SUCCESSOR-BLUEPRINT SYNTHESIS ===",
+        flush=True,
+    )
+
+    for path in (
+        INT14A_SUMMARY,
+        INT14B_SUMMARY,
+        INT14C_SUMMARY,
+        INT14D_SUMMARY,
+        INT14D_N48,
+        INT14C_SOURCE,
+    ):
+        require(path)
+
+    a14 = json.loads(
+        INT14A_SUMMARY.read_text()
+    )
+    b14 = json.loads(
+        INT14B_SUMMARY.read_text()
+    )
+    c14 = json.loads(
+        INT14C_SUMMARY.read_text()
+    )
+    d14 = json.loads(
+        INT14D_SUMMARY.read_text()
+    )
+
+    current_C = float(
+        d14["current_C"]
+    )
+    teacher_C = float(
+        d14["final_pair"][
+            "conservative_C"
+        ]
+    )
+    raw_headroom = float(
+        d14["final_pair"][
+            "conservative_headroom"
+        ]
+    )
+
+    c006d = float(
+        a14["source_006d"][
+            "finest_C"
+        ]
+    )
+
+    with np.load(
+        INT14D_N48,
+        allow_pickle=False,
+    ) as archive:
+        arrays = {
+            key: np.array(
+                archive[key],
+                copy=True,
+            )
+            for key in archive.files
+        }
+
+    required_array_keys = (
+        "r_edges",
+        "z_edges",
+        "r_centers",
+        "z_centers",
+        "volumes",
+        "kernels",
+        "active_mask",
+        "e",
+        "pphi",
+        "pr",
+        "pz",
+        "trz",
+        "active_density",
+        "outward_force",
+        "dec_ratio",
+    )
+
+    missing = [
+        key
+        for key in required_array_keys
+        if key not in arrays
+    ]
+
+    if missing:
+        raise RuntimeError(
+            "INT-14D N48 archive missing keys: "
+            + ", ".join(missing)
+        )
+
+    n48_case = next(
+        row
+        for row in d14["cases"]
+        if int(row["nr"]) == 48
+    )
+
+    payload_radius = float(
+        d14["support"][
+            "payload_radius_over_h"
+        ]
+    )
+    r99 = float(
+        d14["support"][
+            "R99_over_h"
+        ]
+    )
+
+    print("\n=== A — TEACHER INTEGRITY / STRESS ANATOMY ===", flush=True)
+
+    anatomy = teacher_anatomy(
+        arrays,
+        n48_case,
+    )
+
+    print(f"TEACHER_RECONSTRUCTED_E={anatomy['E']:.15e}")
+    print(f"TEACHER_SUMMARY_C={float(n48_case['coefficient']):.15e}")
+    print(f"TEACHER_RECONSTRUCTED_A={anatomy['A']:.15e}")
+    print(f"TEACHER_A_RHO={anatomy['A_rho']:.15e}")
+    print(f"TEACHER_A_SPATIAL_STRESS_TRACE={anatomy['A_trace']:.15e}")
+    print(f"TEACHER_RHO_TRACE_LEDGER_RELERR={anatomy['rho_trace_ledger_relerr']:.15e}")
+    print(f"TEACHER_CANCELLATION={anatomy['cancellation']:.15e}")
+    print(f"TEACHER_F50_ENERGY={anatomy['F_energy_fractions']['F50']:.15e}")
+    print(f"TEACHER_F90_ENERGY={anatomy['F_energy_fractions']['F90']:.15e}")
+    print(
+        "TEACHER_SIGNED_LEDGER_RELERR="
+        f"{anatomy['signed_ledger_relerr']:.15e}"
+    )
+
+    if relative_error(
+        anatomy["E"],
+        float(n48_case["coefficient"]),
+    ) > 2.0e-8:
+        raise RuntimeError(
+            "Teacher energy reconstruction failed"
+        )
+
+    if (
+        anatomy["rho_trace_ledger_relerr"]
+        > LEDGER_REL_TOL
+        or anatomy["signed_ledger_relerr"]
+        > LEDGER_REL_TOL
+    ):
+        raise RuntimeError(
+            "Teacher force decomposition ledger failed"
+        )
+
+    int14c = load_module(
+        "int15_int14c",
+        INT14C_SOURCE,
+    )
+
+    print(
+        "\n=== B — INDEPENDENT N48 FORCE RECONSTRUCTION ===",
+        flush=True,
+    )
+
+    independent_force = independent_teacher_force(
+        int14c,
+        arrays,
+        1.0,
+        payload_radius,
+    )
+
+    print(
+        f"INDEPENDENT_N48_FORCE_BASE="
+        f"{independent_force['A_base']:.15e}"
+    )
+    print(
+        f"INDEPENDENT_N48_FORCE_HI="
+        f"{independent_force['A_independent_high_order']:.15e}"
+    )
+    print(
+        f"INDEPENDENT_N48_FORCE_RELERR="
+        f"{independent_force['relative_error']:.15e}"
+    )
+    print(
+        "INDEPENDENT_N48_FORCE="
+        + (
+            "PASS"
+            if independent_force["pass"]
+            else "FAIL"
+        )
+    )
+
+    # ---------------------------------------------------------------
+    # B=7 exact-map comparator.
+    # ---------------------------------------------------------------
+    comparator: dict[str, Any]
+
+    print(
+        "\n=== C — EXACT B=7 TEACHER-GAP COMPARISON ===",
+        flush=True,
+    )
+
+    comparator = {
+        "available": False,
+    }
+
+    comparison_maps = {}
+
+    try:
+        for path in (
+            INT02_SOURCE,
+            A23_SOURCE,
+            B23_SOURCE,
+        ):
+            require(path)
+
+        int02 = load_module(
+            "int15_int02",
+            INT02_SOURCE,
+        )
+        a23 = load_module(
+            "int15_a23",
+            A23_SOURCE,
+        )
+        b23 = load_module(
+            "int15_b23",
+            B23_SOURCE,
+        )
+
+        exact = rebuild_exact_b7(
+            int02,
+            a23,
+            b23,
+        )
+
+        binned = bin_exact_to_teacher(
+            exact,
+            arrays,
+        )
+
+        teacher_energy = (
+            anatomy["arrays_derived"][
+                "cell_energy"
+            ]
+        )
+        teacher_outward = (
+            anatomy["arrays_derived"][
+                "outward"
+            ]
+        )
+        teacher_influence = (
+            anatomy["arrays_derived"][
+                "cell_force"
+            ]
+        )
+
+        b7_F50_mask, b7_F50_energy = (
+            top_leverage_mask(
+                binned["energy"],
+                binned["outward"],
+                0.50,
+            )
+        )
+        b7_F90_mask, b7_F90_energy = (
+            top_leverage_mask(
+                binned["energy"],
+                binned["outward"],
+                0.90,
+            )
+        )
+
+        teacher_F50_mask = (
+            anatomy["arrays_derived"][
+                "F50_mask"
+            ]
+        )
+        teacher_F90_mask = (
+            anatomy["arrays_derived"][
+                "F90_mask"
+            ]
+        )
+
+        F50_overlap = cross_overlap(
+            teacher_energy,
+            teacher_outward,
+            binned["energy"],
+            binned["outward"],
+            teacher_F50_mask,
+            b7_F50_mask,
+        )
+
+        F90_overlap = cross_overlap(
+            teacher_energy,
+            teacher_outward,
+            binned["energy"],
+            binned["outward"],
+            teacher_F90_mask,
+            b7_F90_mask,
+        )
+
+        exact_force_relerr_to_int14a = (
+            relative_error(
+                float(exact["A"]),
+                float(
+                    a14[
+                        "current_exact_map"
+                    ]["A"]
+                ),
+            )
+        )
+
+        exact_force_pass = bool(
+            exact_force_relerr_to_int14a
+            <= 2.0e-3
+        )
+
+        comparator = {
+            "available": True,
+            "exact_E": float(
+                exact["E"]
+            ),
+            "exact_A": float(
+                exact["A"]
+            ),
+            "exact_eta_op": (
+                exact["h"] ** 2
+                * exact["A"]
+                / exact["E"]
+            ),
+            "exact_force_repro_relerr_to_int14a": (
+                exact_force_relerr_to_int14a
+            ),
+            "exact_force_reproduction_pass": (
+                exact_force_pass
+            ),
+            "energy_cosine_similarity": (
+                cosine_similarity(
+                    teacher_energy,
+                    binned["energy"],
+                )
+            ),
+            "outward_cosine_similarity": (
+                cosine_similarity(
+                    teacher_outward,
+                    binned["outward"],
+                )
+            ),
+            "signed_influence_cosine_similarity": (
+                cosine_similarity(
+                    teacher_influence,
+                    binned["influence"],
+                )
+            ),
+            "energy_JSD": (
+                jensen_shannon_divergence(
+                    teacher_energy,
+                    binned["energy"],
+                )
+            ),
+            "outward_JSD": (
+                jensen_shannon_divergence(
+                    teacher_outward,
+                    binned["outward"],
+                )
+            ),
+            "B7_F50_energy_fraction": (
+                b7_F50_energy
+            ),
+            "B7_F90_energy_fraction": (
+                b7_F90_energy
+            ),
+            "F50_cross_overlap": (
+                F50_overlap
+            ),
+            "F90_cross_overlap": (
+                F90_overlap
+            ),
+            "B7_S_over_rho_energy_weighted": (
+                weighted_quantile(
+                    exact["S_over_rho"],
+                    exact["energy_w"],
+                )
+            ),
+            "B7_S_over_rho_outward_weighted": (
+                weighted_quantile(
+                    exact["S_over_rho"],
+                    exact["outward"],
+                )
+            ),
+            "shell_radius_over_h": float(
+                exact[
+                    "shell_radius_over_h"
+                ]
+            ),
+            "payload_radius_over_h": float(
+                exact[
+                    "payload_radius_over_h"
+                ]
+            ),
+        }
+
+        comparison_maps = {
+            "teacher_energy": teacher_energy,
+            "teacher_outward": teacher_outward,
+            "teacher_influence": teacher_influence,
+            "teacher_S_over_rho": (
+                anatomy["arrays_derived"][
+                    "S_over_rho"
+                ]
+            ),
+            "teacher_F50_mask": (
+                teacher_F50_mask.astype(
+                    np.uint8
+                )
+            ),
+            "teacher_F90_mask": (
+                teacher_F90_mask.astype(
+                    np.uint8
+                )
+            ),
+            "b7_energy_binned": (
+                binned["energy"]
+            ),
+            "b7_active_binned": (
+                binned["active"]
+            ),
+            "b7_influence_binned": (
+                binned["influence"]
+            ),
+            "b7_outward_binned": (
+                binned["outward"]
+            ),
+            "b7_F50_mask": (
+                b7_F50_mask.astype(
+                    np.uint8
+                )
+            ),
+            "b7_F90_mask": (
+                b7_F90_mask.astype(
+                    np.uint8
+                )
+            ),
+            "r_edges": arrays[
+                "r_edges"
+            ],
+            "z_edges": arrays[
+                "z_edges"
+            ],
+        }
+
+        print(
+            f"B7_EXACT_FORCE_REPRO_RELERR="
+            f"{exact_force_relerr_to_int14a:.15e}"
+        )
+        print(
+            "B7_EXACT_FORCE_REPRODUCTION="
+            + (
+                "PASS"
+                if exact_force_pass
+                else "FAIL"
+            )
+        )
+        print(
+            f"TEACHER_B7_ENERGY_COSINE="
+            f"{comparator['energy_cosine_similarity']:.15e}"
+        )
+        print(
+            f"TEACHER_B7_OUTWARD_COSINE="
+            f"{comparator['outward_cosine_similarity']:.15e}"
+        )
+        print(
+            f"TEACHER_B7_SIGNED_INFLUENCE_COSINE="
+            f"{comparator['signed_influence_cosine_similarity']:.15e}"
+        )
+        print(
+            f"B7_OUTWARD_IN_TEACHER_F90="
+            f"{F90_overlap['b7_outward_in_teacher_mask']:.15e}"
+        )
+        print(
+            f"TEACHER_OUTWARD_IN_B7_F90="
+            f"{F90_overlap['teacher_outward_in_b7_mask']:.15e}"
+        )
+
+    except Exception as exc:
+        comparator = {
+            "available": False,
+            "error": (
+                f"{type(exc).__name__}: {exc}"
+            ),
+        }
+
+        print(
+            "B7_COMPARATOR_AVAILABLE=NO"
+        )
+        print(
+            f"B7_COMPARATOR_ERROR={comparator['error']}"
+        )
+
+    # ---------------------------------------------------------------
+    # Pulse/static tandem.
+    # ---------------------------------------------------------------
+    print(
+        "\n=== D — STATIC / PULSE TANDEM ===",
+        flush=True,
+    )
+
+    force_length = float(
+        n48_case[
+            "force_effective_length"
+        ]
+    )
+
+    pulse_rows, pulse_summary = (
+        pulse_matrix(
+            current_C=current_C,
+            teacher_C=teacher_C,
+            c006d=c006d,
+            r99=r99,
+            force_length=force_length,
+        )
+    )
+
+    print(
+        f"RAW_TEACHER_HEADROOM_VS_B7="
+        f"{pulse_summary['raw_teacher_headroom_vs_B7']:.15e}"
+    )
+
+    for target_name in (
+        "retain_1000x",
+        "retain_100x",
+        "retain_10x",
+    ):
+        print(
+            f"PULSE_MAX_EFFECTIVE_PENALTY_{target_name.upper()}="
+            f"{pulse_summary['overhead_budgets'][target_name]['maximum_effective_cycle_penalty']:.15e}"
+        )
+
+    # ---------------------------------------------------------------
+    # Successor blueprint logic.
+    # ---------------------------------------------------------------
+    f90_geom = (
+        anatomy["geometry"]["F90"]
+    )
+
+    productive_stats = (
+        anatomy[
+            "productive_F90_zone"
+        ]
+    )
+
+    force_stress = (
+        anatomy["stress_stats"][
+            "outward_force_weighted"
+        ]
+    )
+
+    static_targets = [
+        (
+            "Preserve positive total active mass and exact local stress-energy "
+            "conservation while moving useful source weight toward the certified "
+            "payload-kernel high-leverage region."
+        ),
+        (
+            "Reproduce the teacher F90 productive skeleton using a microscopic "
+            "field rather than a source mask."
+        ),
+        (
+            "Generate the teacher-like high anisotropic stress per unit energy "
+            "without violating the declared energy conditions."
+        ),
+        (
+            "Keep topology/stability/scaffolding energy preferentially in "
+            "low-kernel-leverage regions."
+        ),
+        (
+            "Optimize matched finite-payload acceleration per total field energy, "
+            "not negative active density by itself."
+        ),
+    ]
+
+    pulse_targets = [
+        (
+            "Treat the efficient static tensor only as a peak-state target; "
+            "construct the additional T0i and dynamic Tij sectors required by "
+            "full stress-energy conservation during formation and collapse."
+        ),
+        (
+            "Use complete-cycle payload impulse integral int a(t) dt as the "
+            "primary transient observable."
+        ),
+        (
+            "Track creation, support, reset, radiation/loss energy and reaction "
+            "momentum; a collapsing source is acceptable only if net cycle "
+            "impulse remains outward."
+        ),
+        (
+            "Exploit pulse operation only when the total cycle penalty remains "
+            "inside the explicit headroom budget rather than assuming instability "
+            "is free."
+        ),
+        (
+            "Run static and pulse successor realizations in tandem; do not discard "
+            "a transient realization solely because it lacks infinite lifetime."
+        ),
+    ]
+
+    if comparator.get(
+        "available",
+        False,
+    ):
+        outward_overlap = float(
+            comparator[
+                "F90_cross_overlap"
+            ][
+                "b7_outward_in_teacher_mask"
+            ]
+        )
+
+        if outward_overlap >= 0.50:
+            field_gap = (
+                "GEOMETRY_PARTLY_ALIGNED_STRESS_CONSTITUTIVE_GAP_LIKELY_DOMINANT"
+            )
+        else:
+            field_gap = (
+                "MAJOR_GEOMETRIC_REORGANIZATION_PLUS_CONSTITUTIVE_STRESS_GAP"
+            )
+    else:
+        field_gap = (
+            "FIELD_TEACHER_GAP_UNRESOLVED_COMPARATOR_UNAVAILABLE"
+        )
+
+    successor_blueprint = {
+        "field_gap_classification": (
+            field_gap
+        ),
+        "static_targets": static_targets,
+        "pulse_targets": pulse_targets,
+        "teacher_numeric_targets": {
+            "F50_energy_fraction": float(
+                anatomy[
+                    "F_energy_fractions"
+                ]["F50"]
+            ),
+            "F90_energy_fraction": float(
+                anatomy[
+                    "F_energy_fractions"
+                ]["F90"]
+            ),
+            "F90_geometry": f90_geom,
+            "productive_F90_stress": (
+                productive_stats
+            ),
+            "outward_force_weighted_stress": (
+                force_stress
+            ),
+            "A_rho": float(
+                anatomy["A_rho"]
+            ),
+            "A_stress_trace": float(
+                anatomy[
+                    "A_trace"
+                ]
+            ),
+            "cancellation": float(
+                anatomy[
+                    "cancellation"
+                ]
+            ),
+            "force_effective_length_over_h": (
+                force_length
+            ),
+            "R99_over_h": (
+                r99
+            ),
+            "payload_radius_over_h": (
+                payload_radius
+            ),
+        },
+    }
+
+    # ---------------------------------------------------------------
+    # Cell CSV.
+    # ---------------------------------------------------------------
+    print(
+        "\n=== E — WRITE CELL / PULSE / BLUEPRINT ARTIFACTS ===",
+        flush=True,
+    )
+
+    derived = anatomy[
+        "arrays_derived"
+    ]
+
+    R, Z = np.meshgrid(
+        arrays["r_centers"],
+        arrays["z_centers"],
+        indexing="ij",
+    )
+
+    eig = derived[
+        "stress_eigenvalues"
+    ]
+
+    cell_rows = []
+
+    for i in range(
+        arrays["e"].shape[0]
+    ):
+        for j in range(
+            arrays["e"].shape[1]
+        ):
+            if not bool(
+                arrays["active_mask"][i, j]
+            ):
+                continue
+
+            rho = float(
+                arrays["e"][i, j]
+            )
+            energy = float(
+                derived[
+                    "cell_energy"
+                ][i, j]
+            )
+
+            if rho > 0.0:
+                lam_ratios = (
+                    eig[i, j, :]
+                    / rho
+                )
+            else:
+                lam_ratios = (
+                    np.array(
+                        [np.nan, np.nan, np.nan]
+                    )
+                )
+
+            distance_payload_surface = abs(
+                math.hypot(
+                    float(R[i, j]),
+                    float(Z[i, j] - 1.0),
+                )
+                - payload_radius
+            )
+
+            cell_rows.append({
+                "i": i,
+                "j": j,
+                "r_over_h": float(
+                    R[i, j]
+                ),
+                "z_over_h": float(
+                    Z[i, j]
+                ),
+                "payload_surface_distance_over_h": (
+                    distance_payload_surface
+                ),
+                "rho": rho,
+                "cell_energy": energy,
+                "S": float(
+                    arrays[
+                        "active_density"
+                    ][i, j]
+                ),
+                "S_over_rho": float(
+                    derived[
+                        "S_over_rho"
+                    ][i, j]
+                ) if rho > 0.0 else float("nan"),
+                "kernel_cell_integral": float(
+                    arrays[
+                        "kernels"
+                    ][i, j]
+                ),
+                "signed_force": float(
+                    derived[
+                        "cell_force"
+                    ][i, j]
+                ),
+                "gross_outward_force": float(
+                    derived[
+                        "outward"
+                    ][i, j]
+                ),
+                "lambda_min_over_rho": float(
+                    lam_ratios[0]
+                ),
+                "lambda_mid_over_rho": float(
+                    lam_ratios[1]
+                ),
+                "lambda_max_over_rho": float(
+                    lam_ratios[2]
+                ),
+                "dec_ratio": float(
+                    derived[
+                        "dec_ratio_recomputed"
+                    ][i, j]
+                ),
+                "in_teacher_F50": int(
+                    derived[
+                        "F50_mask"
+                    ][i, j]
+                ),
+                "in_teacher_F90": int(
+                    derived[
+                        "F90_mask"
+                    ][i, j]
+                ),
+            })
+
+    with OUT_TEACHER_CSV.open(
+        "w",
+        newline="",
+    ) as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=list(
+                cell_rows[0].keys()
+            ),
+        )
+        writer.writeheader()
+        writer.writerows(
+            cell_rows
+        )
+
+    with OUT_PULSE_CSV.open(
+        "w",
+        newline="",
+    ) as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=list(
+                pulse_rows[0].keys()
+            ),
+        )
+        writer.writeheader()
+        writer.writerows(
+            pulse_rows
+        )
+
+    comparison_maps[
+        "teacher_independent_kernels_hi"
+    ] = independent_force[
+        "kernels_hi"
+    ]
+
+    np.savez_compressed(
+        OUT_MAPS_NPZ,
+        **comparison_maps,
+    )
+
+    summary = {
+        "claim_classification": (
+            "PROJECT_DERIVED_INT15_STATIC_PULSE_SUCCESSOR_BLUEPRINT_SYNTHESIS"
+        ),
+        "claim_limits": {
+            "INT14D_thousandfold_continuum_certified": False,
+            "teacher_is_microscopic_field": False,
+            "pulse_dynamic_Tmunu_constructed": False,
+            "full_cycle_energy_closed": False,
+            "full_hessian_stability": False,
+            "nonlinear_einstein_skyrme": False,
+            "practical_device": False,
+        },
+        "teacher": {
+            "coefficient": teacher_C,
+            "current_B7_C": current_C,
+            "raw_headroom_vs_b7": raw_headroom,
+            "robust_006D_C": c006d,
+            "anatomy": {
+                key: value
+                for key, value
+                in anatomy.items()
+                if key != "arrays_derived"
+            },
+            "independent_force": {
+                key: value
+                for key, value
+                in independent_force.items()
+                if key != "kernels_hi"
+            },
+        },
+        "teacher_vs_b7": comparator,
+        "pulse": pulse_summary,
+        "successor_blueprint": (
+            successor_blueprint
+        ),
+        "project_interpretation": {
+            "robust_constructive_headroom": (
+                "INT14A_006B_006D_12P8_TO_17P9X"
+            ),
+            "very_large_teacher_headroom": (
+                "DESIGN_DIAGNOSTIC_NOT_CONTINUUM_CERTIFIED"
+            ),
+            "static_and_pulse_tandem": True,
+            "next": (
+                "RETURN_TO_FIELD_MODEL_DESIGN_USING_INT15_TEACHER_TARGETS"
+            ),
+        },
+    }
+
+    OUT_JSON.write_text(
+        json.dumps(
+            summary,
+            indent=2,
+            sort_keys=True,
+            allow_nan=True,
+        )
+        + "\n"
+    )
+
+    OUT_MD.write_text(
+        build_markdown(
+            summary
+        )
+        + "\n"
+    )
+
+    print("\n=== F — FINAL INFORMATION EXTRACT ===")
+
+    print(
+        f"TEACHER_RAW_HEADROOM_CONTEXT="
+        f"{raw_headroom:.15e}"
+    )
+    print(
+        f"ROBUST_006D_HEADROOM="
+        f"{float(a14['source_006d']['headroom_vs_current']):.15e}"
+    )
+    print(
+        f"TEACHER_F50_ENERGY="
+        f"{anatomy['F_energy_fractions']['F50']:.15e}"
+    )
+    print(
+        f"TEACHER_F90_ENERGY="
+        f"{anatomy['F_energy_fractions']['F90']:.15e}"
+    )
+    print(
+        f"TEACHER_F90_COMPONENTS="
+        f"{int(anatomy['geometry']['F90']['component_count'])}"
+    )
+    print(
+        f"TEACHER_F90_MEAN_PAYLOAD_SURFACE_DISTANCE="
+        f"{anatomy['geometry']['F90']['payload_surface_distance_mean']:.15e}"
+    )
+    print(
+        f"TEACHER_FORCE_WEIGHTED_S_OVER_RHO_MEDIAN="
+        f"{anatomy['stress_stats']['outward_force_weighted']['S_over_rho']['q50']:.15e}"
+    )
+    print(
+        f"TEACHER_FORCE_WEIGHTED_DEC_RATIO_MEDIAN="
+        f"{anatomy['stress_stats']['outward_force_weighted']['dec_ratio']['q50']:.15e}"
+    )
+    print(
+        f"TEACHER_A_RHO_FRACTION_OF_NET="
+        f"{anatomy['A_rho']/max(abs(anatomy['A']),1e-300):.15e}"
+    )
+    print(
+        f"TEACHER_A_STRESS_TRACE_FRACTION_OF_NET="
+        f"{anatomy['A_trace']/max(abs(anatomy['A']),1e-300):.15e}"
+    )
+
+    if comparator.get(
+        "available",
+        False,
+    ):
+        print(
+            f"B7_OUTWARD_IN_TEACHER_F90="
+            f"{comparator['F90_cross_overlap']['b7_outward_in_teacher_mask']:.15e}"
+        )
+        print(
+            f"TEACHER_B7_OUTWARD_COSINE="
+            f"{comparator['outward_cosine_similarity']:.15e}"
+        )
+
+    print(
+        f"PULSE_1000X_EFFECTIVE_OVERHEAD_BUDGET="
+        f"{pulse_summary['overhead_budgets']['retain_1000x']['maximum_effective_cycle_penalty']:.15e}"
+    )
+    print(
+        f"FIELD_TEACHER_GAP_CLASSIFICATION="
+        f"{successor_blueprint['field_gap_classification']}"
+    )
+    print(
+        "STATIC_PULSE_TANDEM_RECOMMENDATION="
+        "YES"
+    )
+    print(
+        "ABSTRACT_SOURCE_OPTIMIZATION_AFTER_INT15="
+        "STOP"
+    )
+    print(
+        "NEXT="
+        "RETURN_TO_FIELD_MODEL_DESIGN_USING_INT15_TEACHER_TARGETS"
+    )
+    print(
+        "PRACTICAL_ANTIGRAVITY_DEVICE=NO"
+    )
+
+    print(f"INT15_SUMMARY_JSON={OUT_JSON}")
+    print(f"INT15_TEACHER_CSV={OUT_TEACHER_CSV}")
+    print(f"INT15_PULSE_CSV={OUT_PULSE_CSV}")
+    print(f"INT15_MAPS_NPZ={OUT_MAPS_NPZ}")
+    print(f"INT15_BLUEPRINT_MD={OUT_MD}")
+    print("INT15_RUN_COMPLETE=YES")
+
+
+if __name__ == "__main__":
+    main()

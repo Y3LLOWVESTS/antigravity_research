@@ -10,11 +10,27 @@ The strongest conservative public-facing project result remains:
 
 > **Within static linearized general relativity, there exists an explicit finite-radius, finite-thickness, nonsingular, positive-energy, locally conserved type-I stress-energy configuration satisfying NEC, WEC, and DEC whose calculated near gravitational field points outward while its far-field active mass remains positive.**
 
-That is the 006D construction.
+That is the **006D construction**.
 
 It is a constructive linearized-GR stress-energy result. It is **not** an exact nonlinear Einstein solution, an experimental observation, a known antigravity material, or a practical antigravity device.
 
-The project has since moved substantially beyond 006D. The strongest current topological branch is now a false-core $B=7$ Skyrmion program. A promotion-grade rational-map field has passed a broad robustness stack, and an unrestricted Cartesian $N=65$ field has reached strict stationarity. Full unrestricted stability, fine-resolution finite-payload force convergence, nonlinear Einstein-Skyrme continuation, and practical energy scaling remain unresolved.
+The project has since moved substantially beyond the original constructive source problem.
+
+A false-core $B=7$ Skyrmion has provided the strongest current topological field witness, including a promotion-grade rational-map robustness result and a strictly stationary unrestricted Cartesian $N=65$ representative.
+
+A completed **Introspective** mechanism-discovery program has now gone further and asked a different question:
+
+> **What stress-energy organization produces the useful outward force most efficiently?**
+
+That program found robust evidence that the present $B=7$ field is far from the most efficient known source organization for the finite-payload gravitational observable.
+
+Two independent conserved-DEC constructive source classes demonstrate approximately **12.8–17.9x** source-level efficiency headroom over the current $B=7$ field.
+
+A more aggressive finite-density relaxed-source calculation repeatedly produces a raw approximately **17,230x** efficiency signal. That very large result survived independent force reconstruction and a dedicated no-regression audit, but it **did not pass the project's predeclared continuum-resolution certificate** and has **not been realized by a microscopic field**.
+
+The active research frontier is therefore now:
+
+> **Build a physically consistent successor field that reproduces the efficient stress and geometry identified by Introspective.**
 
 ---
 
@@ -26,7 +42,7 @@ This is **not a probability that practical antigravity exists**.
 
 It is not a probability that the current branch will survive its remaining falsification gates, and it is not a literal device-completion percentage.
 
-The present milestone was earned by the 023BR promotion-grade false-core Skyrmion result after the protected Wilson/vector practicality program was closed in its tested minimal classes.
+It is an internal research-management measure of how many distinct theoretical, numerical, and physical questions have been resolved.
 
 ```text
 CURRENT_KNOWLEDGE_HEURISTIC=
@@ -38,23 +54,47 @@ NO
 STRONGEST_CONSERVATIVE_PUBLIC_RESULT=
 006D_FINITE_POSITIVE_ENERGY_LINEARIZED_GR_REPULSION
 
-STRONGEST_CURRENT_TOPOLOGICAL_PREFLIGHT=
-023BR_B7_FALSE_CORE_SKYRMION
+STRONGEST_CURRENT_TOPOLOGICAL_WITNESS=
+B7_ETA0P4_M8_FALSE_CORE_SKYRMION
 
 UNRESTRICTED_N65_STRICT_STATIONARY_FIELD=
 YES
 
+ROBUST_CONSERVED_DEC_SOURCE_HEADROOM=
+12P8_TO_17P9X
+
+RAW_FINITE_DENSITY_TEACHER_HEADROOM=
+APPROXIMATELY_17230X
+
+RAW_GE1000X_SOURCE_LEVEL_SIGNAL=
+PRESENT
+
+CERTIFIED_GE1000X_CONTINUUM_SOURCE_CLASS=
+NO
+
+INTROSPECTIVE=
+COMPLETED_FOR_CURRENT_MODEL
+
+ACTIVE_BRANCH=
+TEACHER_GUIDED_SUCCESSOR_FIELD_DESIGN
+
+ACTIVE_PHASE=
+024A_GENERALIZED_TOPOLOGICAL_STRESS_CONSTITUTIVE_PREFLIGHT
+
+STATIC_SUCCESSOR=
+ACTIVE_IN_TANDEM
+
+PULSED_SUCCESSOR=
+ACTIVE_IN_TANDEM
+
 FULL_UNRESTRICTED_3D_STABILITY=
 NOT_YET
 
-ACTIVE_BRANCH=
-INTROSPECTIVE
-
-ACTIVE_PHASE=
-INT_01_CERTIFIED_FIXED_FIELD_INFLUENCE_TOMOGRAPHY
+NONLINEAR_EINSTEIN_MATTER=
+NOT_YET
 
 ANALOGUE_ANTIGRAVITY=
-DEFERRED_PENDING_MECHANISM_CLOSEOUT
+DEFERRED_DURING_FIRST_FOCUSED_SUCCESSOR_GR_ATTEMPT
 
 PRACTICAL_ANTIGRAVITY_DEVICE=
 NO
@@ -66,9 +106,12 @@ NOVELTY=
 NOT_ESTABLISHED
 ```
 
-The approximately 72% milestone remains reserved for a substantially complete unrestricted 023C result, including trustworthy fine-resolution finite-payload force convergence and full physical stability testing.
+The next major progress increase is reserved for a genuine new physical accomplishment such as:
 
-The approximately 76–80% theoretical tier remains downstream of a controlled self-consistent Einstein-matter continuation. The Introspective branch can rerank that sequence if it reveals major source-efficiency headroom.
+- a healthy successor theory that can access the efficient teacher stress regime;
+- an actual microscopic successor field with substantial finite-payload efficiency improvement;
+- full fine-grid and physical-stability closure;
+- or controlled nonlinear Einstein-matter continuation.
 
 ---
 
@@ -93,7 +136,7 @@ PASS
 PASS
 
 CORE_GR_DESIGN_PRINCIPLE=
-SPATIAL_ACTIVE_STRESS_SEGREGATION_BY_KERNEL_LEVERAGE
+SPATIAL_AND_STRESS_KERNEL_LEVERAGE
 
 018B_COMPLETE_MICROSCOPIC_FIELD_EXISTENCE=
 YES_IN_SELECTED_MODEL
@@ -119,9 +162,6 @@ CLOSED_IN_TESTED_IMPLEMENTATION
 022A_TESTED_SHORT_RANGE_PROTECTED_VECTOR_PRACTICALITY_BRANCH=
 CLOSED_IN_TESTED_CLASSES
 
-023BR_PROMOTION_GRADE_RATIONAL_MAP_STABLE_FIELD_PREFLIGHT=
-SUPPORTED
-
 023BR_SELECTED_B=
 7
 
@@ -131,11 +171,8 @@ SUPPORTED
 023BR_SELECTED_M=
 8
 
-023BR_ROBUST_WORST_NEGATIVE_ACTIVE_FRACTION=
-APPROXIMATELY_1.6209_PERCENT
-
-023BR_ROBUST_WORST_BINARY_FISSION_MARGIN=
-APPROXIMATELY_3.1421_PERCENT
+023BR_PROMOTION_GRADE_RATIONAL_MAP_PREFLIGHT=
+SUPPORTED
 
 023BR_ROBUSTNESS_CASES=
 17_OF_17_PASS
@@ -146,14 +183,11 @@ APPROXIMATELY_3.1421_PERCENT
 023BR_POINTWISE_DEC=
 PASS
 
-023BR_ACTIVE_TRACE_HIGH_PRECISION=
-PASS
-
 023CR4R_UNRESTRICTED_N65_STRICT_STATIONARITY=
 PASS
 
 023CR4R_TOPOLOGY=
-B_APPROX_7_WITH_GEOMETRIC_DEGREES_MINUS_7_MINUS_7_MINUS_7
+B_APPROX_7
 
 023CR4R_POINTWISE_DEC=
 PASS
@@ -164,19 +198,46 @@ YES
 023CR4R_NEGATIVE_ENCLOSED_ACTIVE_REGION=
 YES
 
+INTROSPECTIVE_ROBUST_CONSTRUCTIVE_HEADROOM=
+12P8_TO_17P9X
+
+INTROSPECTIVE_RAW_TEACHER_HEADROOM=
+APPROXIMATELY_17230X
+
+INT15R_RAW_HEADROOM_NO_REGRESSION=
+PASS
+
+INTROSPECTIVE_TEACHER_LOW_CANCELLATION=
+YES
+
+INTROSPECTIVE_TEACHER_STRESS_DOMINATED_RESPONSE=
+YES
+
+STANDARD_SKYRME_S_OVER_RHO_MAX=
+2
+
+TEACHER_FORCE_WEIGHTED_S_OVER_RHO=
+APPROXIMATELY_2P65
+
 N73_STRICT_STATIONARITY=
 NOT_YET
 
 FULL_PHYSICAL_HESSIAN=
 NOT_YET
 
-NONLINEAR_EINSTEIN_SKYRME=
+NONLINEAR_EINSTEIN_MATTER=
 NOT_YET
 ```
 
 The project has **not** established:
 
 ```text
+CERTIFIED_GE1000X_CONTINUUM_SOURCE_CLASS=
+NO
+
+MICROSCOPIC_FIELD_GE1000X_REALIZATION=
+NO
+
 FULLY_STABLE_UNRESTRICTED_3D_REPULSIVE_SKYRMION=
 NO
 
@@ -216,14 +277,23 @@ Simulation 006D constructs a finite static stress-energy source in linearized GR
 
 ```text
 FINITE_RADIUS=YES
+
 FINITE_THICKNESS=YES
+
 NONSINGULAR=YES
+
 POSITIVE_ENERGY_DENSITY=YES
+
 LOCAL_CONSERVATION_LINEARIZED_ORDER=YES
+
 NEC=PASS
+
 WEC=PASS
+
 DEC=PASS
+
 LOCAL_GRAVITATIONAL_FIELD=OUTWARD
+
 POSITIVE_FAR_FIELD_ACTIVE_MASS=YES
 ```
 
@@ -235,12 +305,13 @@ C_{006D}
 23.591586299249
 ```
 
-in:
+in the physical energy scaling:
 
 ```math
-M_{\mathrm{equiv}}
+E_{\mathrm{physical}}
 =
-C\frac{ah^2}{G}
+C
+\frac{a c^2 h^2}{G}
 ```
 
 The independent thin conserved reference is:
@@ -259,20 +330,27 @@ For the full derivation and standalone reconstruction, see:
 
 # 2. Why Positive Energy Can Still Produce Local Outward Gravity
 
-For a static type-I source, the active weak-field gravitational source is:
+For a static type-I source, define the active weak-field source:
 
 ```math
 S
 =
-\epsilon+p_x+p_y+p_z
+\rho+p_x+p_y+p_z
 ```
 
-The linearized potential satisfies:
+in $c=1$ source units.
+
+The weak-field potential obeys:
 
 ```math
 \nabla^2\Phi
 =
-\frac{4\pi G}{c^2}S
+4\pi G
+\left(
+\rho
++
+\frac{p_x+p_y+p_z}{c^2}
+\right)
 ```
 
 and:
@@ -283,75 +361,70 @@ and:
 -\nabla\Phi
 ```
 
-Positive local energy density does not require $S>0$ because sufficiently negative relativistic pressures or tensions can make the pressure sum negative.
+Positive local energy density does not determine the gravitational response by itself because relativistic stress contributes to the active source.
 
-For a finite payload, the sign is controlled by the spatially weighted source, not by the source sign at one point.
-
-Write:
+For a finite payload the operational observable can be written:
 
 ```math
-S
+A_P
 =
-S_+-S_-
+\int
+S(\mathbf x)
+K_P(\mathbf x)
+\,d^3x
 ```
 
-with integrated budgets:
+where $K_P$ is the finite-payload gravitational kernel.
+
+Define:
 
 ```math
-Q_+
+I_P
 =
-\int S_+\,dV
+S K_P
 ```
 
-and:
+so:
 
 ```math
-Q_-
+A_P
 =
-\int S_-\,dV
+\int I_P\,d^3x
 ```
 
-Positive total active mass requires:
+The important quantity is therefore not simply the sign of $S$.
+
+It is the spatially weighted product:
 
 ```math
-Q_+>Q_-
+S K_P
 ```
 
-If the negative-active region has greater payload-kernel leverage, local outward acceleration can still occur. In the project's kernel notation the operational condition is:
+This has become one of the project's permanent design principles:
 
-```math
-\kappa_-Q_-
->
-\kappa_+Q_+
-```
-
-or:
-
-```math
-\frac{\kappa_-}{\kappa_+}
->
-\frac{Q_+}{Q_-}
-```
-
-This is one of the project's permanent design principles:
-
-> **Positive total active mass and local outward gravity can coexist when negative active stress is placed at sufficiently greater gravitational leverage than the compensating positive source.**
+> **Local active-source sign and finite-payload gravitational leverage are separate quantities. Efficient gravitational repulsion requires the right stress in the right place.**
 
 ---
 
 # 3. 018B and 018C — Field Existence Versus Stability
 
-The 018 program promoted the project from engineered source tensors to a complete curved finite-thickness microscopic matter-field configuration.
+The 018 program promoted the project from engineered source tensors to a complete finite-thickness microscopic matter-field configuration.
 
 018B reconstructed the full microscopic stress-energy and found:
 
 ```text
 FULL_COUPLED_EULER_LAGRANGE_SOLUTION=PASS
+
 FINITE_ENERGY=PASS
+
 GLOBAL_REGULARITY=PASS
+
 COMPLETE_T_MUNU=PASS
+
 POSITIVE_TOTAL_ACTIVE_MASS=PASS
+
 FINITE_PAYLOAD_OUTWARD_LINEARIZED_GRAVITY=PASS
+
 INDEPENDENT_RECONSTRUCTION=PASS
 ```
 
@@ -369,12 +442,15 @@ Thus:
 
 ```text
 018B_FIELD_EXISTENCE_RESULT=RETAINED
+
 018B_FIXED_CHARGE_RADIAL_STABILITY=PASS
+
 018C_FULL_FIELD_M2_NEGATIVE_DIRECTION=CONFIRMED
+
 018B_TWO_CURRENT_KLS_REALIZATION=DEMOTED_FOR_STABILITY
 ```
 
-This established a permanent project rule:
+This established a permanent rule:
 
 > **A field solution is not a physical candidate until the relevant perturbation spectrum is tested. Field existence and field stability are separate accomplishments.**
 
@@ -384,17 +460,19 @@ Detailed record:
 
 ---
 
-# 4. 019–022 — Protected Vector-Current Practicality Program
+# 4. 019–022 — Protected Vector-Current Program
 
-The project next explored a potentially stronger-than-gravity interaction whose ordinary-matter response could be protected by a Wilson/pNGB structure.
+The project explored a potentially stronger-than-gravity interaction protected by Wilson/pNGB structure.
 
 Important partial results survived:
 
 ```text
 019A_NONLOCAL_WILSON_PROTECTION_WITNESS=SUPPORTED
+
 019B_ANOMALY_FREE_BARYON_LEPTON_VECTOR_CURRENTS=SUPPORTED
-019B_VECTOR_CURRENT_ONE_BODY_MIXING_PREFLIGHT=PASS_WITH_LARGE_MARGIN
+
 019C_HEAVY_VECTOR_HIGGS_MEDIATOR_ALGEBRA=PASS
+
 020A1_ISOSPECTRAL_VECTOR_RESPONSE_REPRESENTATION=SUPPORTED
 ```
 
@@ -402,23 +480,21 @@ But the tested complete implementations did not survive:
 
 ```text
 MINIMAL_ABELIAN_WILSON_SEEDING=FAILED
+
 MINIMAL_COLLECTIVE_TREE_IMPLEMENTATION=FAILED_NATURALNESS
+
 SMALL_SU2_NONABELIAN_IMPLEMENTATION=FAILED_IN_TESTED_CLASS
-ISOLATED_ISOTOPE_SIGN_PROMOTION=REJECTED_BY_COMPLETE_MATERIAL_KERNEL
+
 TESTED_SHORT_RANGE_PROTECTED_VECTOR_PRACTICALITY_BRANCH=CLOSED
 ```
 
-The branch was therefore reranked rather than enlarged into an arbitrary quiver or protected by tuned cancellations.
-
-The complete closeout through the 023 rerank is preserved in:
-
-[`journal/2026-09-01_020a_023c_protected_vector_closeout_false_core_skyrmion_promotion_numerical_repairs_and_introspective_frontier.md`](journal/2026-09-01_020a_023c_protected_vector_closeout_false_core_skyrmion_promotion_numerical_repairs_and_introspective_frontier.md)
+The branch remains closed in those tested classes absent genuinely new protection.
 
 ---
 
 # 5. 023 — False-Core Topological Skyrmion Route
 
-After the protected-vector practicality closeout, the project reranked to an established topological matter-field class with an intrinsic stability mechanism.
+After the protected-vector closeout, the project reranked to an established topological matter-field class with an intrinsic stabilization mechanism.
 
 The static $SU(2)$ field is represented by:
 
@@ -454,11 +530,13 @@ V
 m^2(1-\sigma)(1+\eta\sigma)
 ```
 
-The selected promotion-grade rational-map candidate is:
+The selected promotion-grade candidate is:
 
 ```text
 B=7
+
 ETA=0.4
+
 M=8
 ```
 
@@ -466,7 +544,7 @@ M=8
 
 ## 5.1 Active-source identity
 
-For a static energy contribution homogeneous in spatial derivative order $N$, the project uses:
+For a static contribution homogeneous in spatial derivative order $N$:
 
 ```math
 S_N
@@ -474,17 +552,20 @@ S_N
 (N-2)e_N
 ```
 
-Therefore for the current Skyrme model:
+For the current Skyrme model:
 
 ```text
-e2: DIRECT ACTIVE SOURCE = 0
+e2:
+DIRECT_ACTIVE_SOURCE=0
 
-e4: DIRECT ACTIVE SOURCE = +2 e4
+e4:
+DIRECT_ACTIVE_SOURCE=+2e4
 
-V: DIRECT ACTIVE SOURCE = -2 V
+V:
+DIRECT_ACTIVE_SOURCE=-2V
 ```
 
-and:
+Therefore:
 
 ```math
 S
@@ -492,48 +573,34 @@ S
 2(e_4-V)
 ```
 
-Thus:
+while:
 
 ```math
-S<0
+\rho
+=
+e_2+e_4+V
 ```
 
-if and only if:
-
-```math
-V>e_4
-```
-
-This is an important clue for the current Introspective branch.
-
-The $e_2$ sector can consume energy without appearing directly in $S$, although it may still be essential for topology, equilibrium, and stability.
+The $e_2$ sector can therefore consume energy without contributing directly to $S$, although it can remain essential for topology, equilibrium, and stability.
 
 ---
 
 ## 5.2 023BR promotion-grade rational-map result
 
-The exact-$\mathcal I$ robustness rerank selected $B=7$, $\eta=0.4$, $m=8$.
-
-Representative promotion values are:
+Representative promotion values include:
 
 ```text
 ROBUST_WORST_ACTIVE_FRACTION=
--1.620907899959349e-02
+APPROXIMATELY_-1P6209_PERCENT
 
 ROBUST_WORST_FISSION_MARGIN=
-3.142055829320160e-02
+APPROXIMATELY_3P1421_PERCENT
 
 ROBUST_CASES=
 17_OF_17_PASS
 
-FULL_3D_ENERGY_RELERR=
-APPROXIMATELY_9.41e-7
-
 POINTWISE_DEC=
 PASS
-
-MAX_ACTIVE_TRACE_SCALED_RESIDUAL=
-APPROXIMATELY_1.93e-16
 
 DENSE_PAYLOAD_ORIENTATIONS=
 320
@@ -548,7 +615,7 @@ RATIONAL_MAP_SHAPE_CURVATURE=
 PASS
 ```
 
-The correct classification is:
+Correct classification:
 
 ```text
 PROMOTION_GRADE_RATIONAL_MAP_STABLE_FIELD_PREFLIGHT
@@ -556,17 +623,13 @@ PROMOTION_GRADE_RATIONAL_MAP_STABLE_FIELD_PREFLIGHT
 
 It does **not** establish unrestricted Cartesian stability or nonlinear Einstein-Skyrme gravity.
 
-This was the result that justified moving the internal heuristic from approximately 68% to approximately 70–71%.
-
 ---
 
 # 6. 023C — Unrestricted Cartesian Field Program
 
-The rational-map restriction was then removed.
-
 The original centered-difference Cartesian action produced apparent topology collapse and checkerboard structure.
 
-That was traced to a numerical artifact: the centered derivative has an exact Nyquist/checkerboard null mode.
+That was traced to a numerical artifact: the centered derivative possesses a Nyquist/checkerboard null mode.
 
 Therefore:
 
@@ -578,7 +641,7 @@ PHYSICAL_SKYRMION_INSTABILITY=
 NOT_ESTABLISHED_BY_THAT_RUN
 ```
 
-The project repaired the representation using a checkerboard-free high-order action and independent geometric topology witnesses.
+The representation was repaired using a checkerboard-free high-order action and independent topology witnesses.
 
 ---
 
@@ -586,7 +649,7 @@ The project repaired the representation using a checkerboard-free high-order act
 
 023CR4R produced the first strict stationary unrestricted $B=7$ Cartesian state.
 
-Representative values are:
+Representative values:
 
 ```text
 GRAD_RMS=
@@ -601,53 +664,33 @@ GRAD_MAX=
 GRAD_MAX_THRESHOLD=
 5.0e-2
 
-TOPOLOGY4=
+TOPOLOGY=
 APPROXIMATELY_6.96748
 
 GEOMETRIC_DEGREES=
 -7,-7,-7
 
-CONTINUUM_ENERGY=
-1780.230521772526
-
-ACTIVE_TOTAL=
-APPROXIMATELY_1851.388
-
-MIN_ACTIVE_FRACTION=
-APPROXIMATELY_-1.47093_PERCENT
-
 POINTWISE_DEC=
 PASS
 
-ACTIVE_TRACE=
-PASS
+POSITIVE_TOTAL_ACTIVE_MASS=
+YES
+
+NEGATIVE_ENCLOSED_ACTIVE_REGION=
+YES
 ```
 
 The durable claim is:
 
 > **A fully unrestricted Cartesian $B=7$ field at $N=65$ reaches strict discrete stationarity while preserving topology, positive total active mass, a negative enclosed active region, pointwise DEC, and the active-trace identity.**
 
-That is stronger than a rational-map-only stationarity statement.
-
-It is still not a full stability result because the complete physical Hessian and a converged fine-grid companion remain outstanding.
+It is still not a full stability result.
 
 ---
 
-## 6.2 Important payload-force correction
+## 6.2 Payload-force resolution correction
 
-The old $N=65$ midpoint-source calculation reported an outward minimum over 320 directions.
-
-Later numerical auditing showed that the payload radius is substantially smaller than one source-grid cell:
-
-```text
-R_PAYLOAD_OVER_DX_N65=
-APPROXIMATELY_0.167
-
-R_PAYLOAD_OVER_DX_N73=
-APPROXIMATELY_0.188
-```
-
-Native voxel quadrature changed sign with quadrature order.
+The old $N=65$ midpoint-source payload-force calculation was later found to be underresolved because the payload radius is substantially smaller than one source-grid cell.
 
 Therefore:
 
@@ -656,110 +699,51 @@ OLD_N65_MIDPOINT_PAYLOAD_FORCE=
 SUPERSEDED_AS_PROMOTION_GRADE_EVIDENCE
 ```
 
-This does **not** invalidate the stationary field itself.
+This does **not** invalidate the stationary field.
 
-An analytic rectangular-prism plus exact spherical-cap operator repaired the piecewise-constant source integration, but $N=65$ and $N=73$ source representations were not force-converged.
+Analytic finite-cell integration and continuous reconstruction repaired the force operator, but fine-grid force convergence remains unresolved.
 
-Continuous field reconstruction then gave the same outward sign for both cubic and quintic representations at the tested state:
+---
+
+# 7. Introspective — Completed Mechanism-Discovery Program
+
+After obtaining the strict $N=65$ field, the project deliberately paused expensive fine-grid and nonlinear-gravity work and asked:
+
+> **Which parts of the field actually generate the useful outward finite-payload response, and how much of the total energy is productive rather than structural overhead?**
+
+The detailed methodology is preserved in:
+
+[`INTROSPECTIVE_BUILDPLAN.md`](INTROSPECTIVE_BUILDPLAN.md)
+
+That buildplan is intentionally retained as a reusable mechanism-discovery framework.
+
+When a substantially better antigravity field is obtained, the project may run another Introspective cycle against the new model.
+
+For the current $B=7$ model:
 
 ```text
-CUBIC_CONTINUOUS_FORCE=
-OUTWARD
+INTROSPECTIVE=
+COMPLETED_FOR_CURRENT_MODEL
 
-QUINTIC_CONTINUOUS_FORCE=
-OUTWARD
-```
-
-but their representation spread remained too large for a conservative sign certificate.
-
-Thus:
-
-```text
-STRICT_N65_FIELD=
-RETAINED
-
-PROMOTION_GRADE_CONTINUOUS_N65_FORCE_SIGN=
-NOT_YET_CERTIFIED_AFTER_RESOLUTION_REAUDIT
+ABSTRACT_SOURCE_COEFFICIENT_POLISHING=
+STOP
 ```
 
 ---
 
-# 7. Current $N=73$ Numerical Frontier
+# 8. Robust Source-Efficiency Headroom
 
-The fine $N=73$ companion has preserved the $B=7$ topological sector but has not yet reached the unchanged strict stationarity gate.
+The strongest promoted Introspective efficiency result comes from independent conservation-aware source constructions.
 
-Riemannian L-BFGS, matrix-free Newton-Krylov, adaptive damping, true-linear-residual certification, and residual-informed coarse methods have progressively reduced the residual.
-
-The final R3 state reached approximately:
-
-```text
-GRAD_RMS=
-2.71346e-3
-
-GRAD_MAX=
-1.34977e-2
-
-STATIONARITY_MERIT=
-1.80897
-
-STRICT_STATIONARITY=
-FAIL_ONLY_RMS_THRESHOLD
-```
-
-Residual localization showed the remaining error was predominantly a smooth extended wall/tail mode rather than a core, boundary, or checkerboard defect.
-
-A 13-dimensional coarse Galerkin space captured approximately 99.9% of that residual, but coarse correction generated a high-frequency complement.
-
-A subsequent two-level V-cycle could not relax the fine complement without worsening the stationarity merit.
-
-Therefore:
-
-```text
-N73_PHYSICAL_BRANCH_FALSIFIED=
-NO
-
-CURRENT_N73_PROBLEM=
-NUMERICAL_SOLVER_CLOSURE
-
-NEXT_IF_MAIN_023C_SOLVER_RESUMES=
-AUGMENTED_OR_DEFLATED_COUPLED_KRYLOV_SOLVER
-```
-
-The project does not weaken stationarity thresholds to force promotion.
-
----
-
-# 8. Pure-GR Energy Scaling
-
-The project distinguishes **source realization** from **practical scaling**.
-
-A characteristic gravitational mass scale for acceleration $a$ at scale $h$ is:
+The current exact-map $B=7$ reference has:
 
 ```math
-M_{\mathrm{grav}}
-\sim
-\frac{ah^2}{G}
-```
-
-and its mass-energy scale is:
-
-```math
-E_{\mathrm{grav}}
-\sim
-\frac{ac^2h^2}{G}
-```
-
-This should be interpreted as the natural pure-GR scale, not as a proved universal lower bound over every conceivable GR configuration.
-
-For the explicit 006D construction:
-
-```math
-E_{006D}
+C_{B7}
 =
-C_{006D}\frac{ac^2h^2}{G}
+422.222070908309
 ```
 
-with:
+006D gives:
 
 ```math
 C_{006D}
@@ -767,376 +751,346 @@ C_{006D}
 23.591586299249
 ```
 
-For $a=g$ and $h=1\ \mathrm{m}$:
+and therefore:
 
 ```math
-M_{\mathrm{equiv}}
+\frac{C_{B7}}{C_{006D}}
 \approx
-3.47\times10^{12}\ \mathrm{kg}
+17.90
+```
+
+An independent 006B construction gives:
+
+```math
+C_{006B}
+=
+32.95475466695
 ```
 
 and:
 
 ```math
-E_{006D}
+\frac{C_{B7}}{C_{006B}}
 \approx
-3.12\times10^{29}\ \mathrm{J}
+12.81
 ```
 
-For a source where only a fraction $\beta$ of the total energy has useful active-source/kernel leverage, the scaling becomes schematically:
+Therefore:
 
-```math
-E
-\sim
-\frac{ac^2h^2}{G\beta}
+```text
+ROBUST_TWO_ROUTE_CONSERVED_DEC_GE10X_HEADROOM=
+PASS
+
+ROBUST_PROMOTED_SOURCE_LEVEL_HEADROOM=
+APPROXIMATELY_12P8_TO_17P9X
 ```
 
-up to model-dependent geometry coefficients.
+This means:
 
-This is one reason the project now asks whether the current Skyrmion is an expensive scaffold surrounding a smaller gravitationally productive structure.
+> **The present $B=7$ field uses substantially more energy than is required by the best independently verified conserved-DEC source organizations currently known for the same normalized finite-payload observable.**
+
+It does not yet identify a microscopic field capable of realizing those improved sources.
 
 ---
 
-# 9. New Active Frontier — Introspective Source Tomography
+# 9. Raw Thousand-Fold-Plus Teacher Signal
 
-The current primary scientific question is:
+A more aggressive same-support source optimization produced much larger apparent efficiency.
 
-> **Which parts of the strongest stationary field actually produce the useful outward payload response, which parts mainly pay for topology, stability, equilibrium, and compensating positive active mass, and how much of the present energy burden is structural overhead rather than irreducible gravitational work?**
+The unrestricted optimizer developed ultraviolet concentration.
 
-The central hypothesis is:
+A fixed finite-density cap removed the simplest amplitude divergence.
 
-> **A small subset of the field configuration may be doing most of the useful repulsive work, while a much larger amount of energy is mostly paying for topology, stability, and compensating positive active mass.**
-
-This is a hypothesis to test, not an assumption.
-
-The active plan is:
-
-[`INTROSPECTIVE_BUILDPLAN.md`](INTROSPECTIVE_BUILDPLAN.md)
-
----
-
-## 9.1 Exact finite-payload influence density
-
-For a uniform spherical payload centered at $\mathbf c$, define:
+The final $N=48$ finite-density teacher gave:
 
 ```math
-\mathbf q
+C_{\mathrm{teacher}}
 =
-\mathbf x'-\mathbf c
+0.02450446248
 ```
 
-and:
+relative to:
 
 ```math
-d
+C_{B7}
 =
-|\mathbf q|
-```
-
-with outward direction:
-
-```math
-\hat{\mathbf n}
-=
-\frac{\mathbf c}{|\mathbf c|}
-```
-
-The exact payload-averaged radial kernel is:
-
-```math
-K_P(\mathbf x')
-=
-\frac{
-\mathbf q\cdot\hat{\mathbf n}
-}{
-\max(d^3,R_P^3)
-}
-```
-
-The operational radial source integral is:
-
-```math
-A_P
-=
-\int
-S(\mathbf x')K_P(\mathbf x')
-\,d^3x'
-```
-
-Define the local payload-influence density:
-
-```math
-I_P(\mathbf x)
-=
-S(\mathbf x)K_P(\mathbf x)
+422.2220709
 ```
 
 so:
 
 ```math
-A_P
+H_{\mathrm{raw}}
 =
-\int I_P\,d^3x
+\frac{C_{B7}}{C_{\mathrm{teacher}}}
+\approx
+17230.4
 ```
 
-This is the quantity that answers:
+or approximately:
 
-> **Where is the useful outward gravitational response actually coming from?**
+```text
+RAW_HEADROOM=
+1P72E4X
+```
+
+This enormous raw signal survived:
+
+```text
+DIRECT_ARRAY_RECONSTRUCTION=
+PASS
+
+DEC_RECOMPUTATION=
+PASS
+
+INDEPENDENT_HIGH_ORDER_PAYLOAD_FORCE=
+PASS
+
+B7_REFERENCE_REBUILD=
+PASS
+
+CROSS_STAGE_PROVENANCE=
+PASS
+
+NO_REGRESSION_AUDIT=
+PASS
+```
+
+The dedicated INT-15R audit returned:
+
+```text
+RAW_THOUSANDFOLD_SIGNAL_PRESENT=
+YES
+
+RAW_HEADROOM_NO_REGRESSION=
+PASS
+```
 
 ---
 
-## 9.2 Cancellation factor
+## 9.1 Why this is not a certified 17,000x result
 
-Split:
+The project declared convergence requirements before the final refinement.
+
+The $N=40$ to $N=48$ coefficient change was:
 
 ```math
-I_+
+0.155668553
+```
+
+against a maximum allowed:
+
+```math
+0.15
+```
+
+The productive force width was:
+
+```math
+1.8564
+```
+
+grid cells against a required minimum:
+
+```math
+3
+```
+
+cells.
+
+Therefore:
+
+```text
+RAW_GE1000X_SOURCE_LEVEL_SIGNAL=
+PRESENT
+
+CERTIFIED_GE1000X_CONTINUUM_SOURCE_CLASS=
+NO
+
+MICROSCOPIC_FIELD_GE1000X_REALIZATION=
+NO
+```
+
+The correct conclusion is not that the thousand-fold signal disappeared.
+
+The correct conclusion is:
+
+> **A reproducible finite-density source-level signal at the thousand- to ten-thousand-fold scale exists in the relaxed problem, but its continuum regularity and physical field realizability remain unproven.**
+
+The project will not weaken the frozen thresholds or continue brute-force source-grid polishing merely to obtain a desired label.
+
+---
+
+# 10. What the Efficient Teacher Looks Like
+
+The completed INT-15 anatomy analysis provides a concrete design target.
+
+The teacher has:
+
+```text
+F50_ENERGY_FRACTION=
+0.0730
+
+F90_ENERGY_FRACTION=
+0.1966
+
+F90_GROSS_OUTWARD_SHARE=
+0.9218
+
+CANCELLATION_FACTOR=
+1.0592
+
+DENSITY_CONTRIBUTION_TO_NET_RESPONSE=
+41.44_PERCENT
+
+SPATIAL_STRESS_TRACE_CONTRIBUTION_TO_NET_RESPONSE=
+58.56_PERCENT
+
+FORCE_WEIGHTED_MEDIAN_S_OVER_RHO=
+2.6496
+
+FORCE_WEIGHTED_DEC_UTILIZATION=
+APPROXIMATELY_1
+
+FORCE_EFFECTIVE_LENGTH_OVER_H=
+APPROXIMATELY_0.1297
+
+F90_MEAN_PAYLOAD_SURFACE_DISTANCE_OVER_H=
+APPROXIMATELY_0.0494
+```
+
+This means approximately:
+
+> **7.3% of teacher energy accounts for half of its gross outward influence, while about 19.7% accounts for more than 92%.**
+
+The optimized source also has very little destructive cancellation:
+
+```math
+\mathcal C
+\approx
+1.059
+```
+
+compared with much larger cancellation in the original field representations.
+
+---
+
+# 11. The Main Mechanism Is Not Simply Negative Active Density
+
+The teacher signed source/kernel ledger is dominated by:
+
+```text
+POSITIVE_ACTIVE_SOURCE
+IN
+POSITIVE_KERNEL_REGION
+```
+
+The largest contribution is the $S^+K^+$ sector.
+
+Negative-active source remains part of the complete architecture, but it is not the dominant engine of the optimized outward response.
+
+The high-efficiency lesson is therefore:
+
+> **Generate large useful active stress per unit energy and place it where the finite-payload kernel gives maximum leverage while minimizing destructive cancellation.**
+
+This is a stronger design rule than simply maximizing negative active density.
+
+---
+
+# 12. Stress Engineering Is Essential
+
+The normalized teacher response decomposes approximately as:
+
+```math
+A_\rho
 =
-\max(I_P,0)
+0.4144
 ```
 
 and:
 
 ```math
-I_-
+A_{\mathrm{stress}}
 =
-\max(-I_P,0)
+0.5856
+```
+
+Therefore approximately 59% of the useful response arises from the spatial stress trace rather than energy density alone.
+
+The teacher's force-weighted median is:
+
+```math
+\frac{S}{\rho}
+\approx
+2.65
+```
+
+while its principal stresses operate very close to the DEC boundary:
+
+```math
+\frac{\max |p_i|}{\rho}
+\approx
+1
+```
+
+Thus the efficient source is best described as:
+
+```text
+COMPACT
+
+PAYLOAD_ADJACENT
+
+LOW_CANCELLATION
+
+STRONGLY_ANISOTROPIC
+
+NEAR_DEC_SATURATION
+
+HIGH_ACTIVE_SOURCE_PER_UNIT_ENERGY
+```
+
+---
+
+# 13. A New Analytical Constraint on the Standard Skyrme Model
+
+For the present positive-energy Skyrme model:
+
+```math
+\rho
+=
+e_2+e_4+V
+```
+
+and:
+
+```math
+S
+=
+2(e_4-V)
 ```
 
 with:
 
 ```math
-A_+
-=
-\int I_+\,d^3x
+e_2\ge0,
+\qquad
+e_4\ge0,
+\qquad
+V\ge0
+```
+
+we have:
+
+```math
+S
+\le
+2e_4
 ```
 
 and:
 
 ```math
-A_-
-=
-\int I_-\,d^3x
-```
-
-Then:
-
-```math
-A_P
-=
-A_+-A_-
-```
-
-Define:
-
-```math
-\mathcal C
-=
-\frac{A_++A_-}{|A_P|}
-```
-
-Interpretation:
-
-```text
-C_APPROX_1=
-LITTLE_CANCELLATION
-
-C_MUCH_GREATER_THAN_1=
-NET_OUTWARD_FORCE_IS_A_SMALL_RESIDUAL_OF_LARGE_OPPOSING_CONTRIBUTIONS
-```
-
-This is a direct test of whether a major part of the current energy problem comes from generating large mutually cancelling gravitational contributions.
-
----
-
-## 9.3 Productive-energy concentration
-
-Define the normalized source-energy measure:
-
-```math
-d\mu_E
-=
-\frac{\rho(\mathbf x)d^3x}{E}
-```
-
-and gross outward leverage per unit local energy:
-
-```math
-\ell_+(\mathbf x)
-=
-\frac{I_+(\mathbf x)}{\rho(\mathbf x)}
-```
-
-where $\rho$ is safely above the numerical vacuum floor.
-
-The Introspective program will compute:
-
-```text
-F25
-F50
-F75
-F90
-F99
-
-TOP_1_PERCENT_ENERGY_OUTWARD_SHARE
-TOP_5_PERCENT_ENERGY_OUTWARD_SHARE
-TOP_10_PERCENT_ENERGY_OUTWARD_SHARE
-TOP_25_PERCENT_ENERGY_OUTWARD_SHARE
-```
-
-where `F50`, for example, is the minimum source-energy fraction accounting for 50% of gross outward influence.
-
-Predeclared interpretation:
-
-```text
-STRONG_CONCENTRATION:
-F50 <= 0.10
-
-VERY_STRONG_CONCENTRATION:
-F50 <= 0.05
-
-EXTREME_CONCENTRATION:
-F50 <= 0.01
-```
-
-A broad result such as:
-
-```text
-F50 >= 0.35
-AND
-ENERGY_PARTICIPATION_FRACTION >= 0.50
-```
-
-would strongly weaken the small-productive-skeleton hypothesis.
-
----
-
-## 9.4 First Introspective experiment
-
-The immediate experiment is:
-
-```text
-INT_01_CERTIFIED_FIXED_FIELD_INFLUENCE_TOMOGRAPHY
-```
-
-Primary source:
-
-```text
-STRICT_STATIONARY_UNRESTRICTED_N65_B7_FIELD
-```
-
-Independent comparator:
-
-```text
-023BR_EXACT_B7_RATIONAL_MAP_FIELD
-```
-
-The first experiment will reconstruct:
-
-```text
-rho
-e2
-e4
-V
-S
-principal_stresses
-DEC_margin
-topological_density
-strain_eigenvalues
-payload_kernel
-influence_density
-outward_and_inward_influence
-cancellation_factor
-energy_participation
-F25_F50_F75_F90_F99
-```
-
-No field optimization is allowed in INT-01.
-
-The attribution integral must independently reproduce the trusted total force before any hotspot interpretation is accepted.
-
-A source mask is an attribution diagnostic, not a new physical solution.
-
----
-
-# 10. A New Analytical Introspective Clue
-
-Under uniform dilation of the static Skyrme energy:
-
-```math
-E(\lambda)
-=
-\lambda E_2
-+
-\lambda^{-1}E_4
-+
-\lambda^3E_0
-```
-
-stationarity gives:
-
-```math
-E_2-E_4+3E_0
-=
-0
-```
-
-so:
-
-```math
-E_4
-=
-E_2+3E_0
-```
-
-The integrated active source is:
-
-```math
-M_A
-=
-2(E_4-E_0)
-```
-
-and therefore:
-
-```math
-M_A
-=
-2(E_2+2E_0)
-```
-
-while:
-
-```math
-E
-=
-E_2+E_4+E_0
-=
-2E_2+4E_0
-```
-
-Hence at exact static virial equilibrium:
-
-```math
-M_A
-=
-E
-```
-
-Interpretation:
-
-> **Positive total far-field active mass is not merely an inefficient accident of the selected solution. Under the present static assumptions, global pressure balance restores the integrated active source to the positive total energy. The useful outward effect must come from spatial kernel leverage, not from making the global active mass negative.**
-
-This is another reason the Introspective source anatomy matters.
-
----
-
-# 11. DEC Bound on Negative-Active Efficiency
-
-For a type-I source satisfying DEC:
-
-```math
-|p_i|
+e_4
 \le
 \rho
 ```
@@ -1144,153 +1098,455 @@ For a type-I source satisfying DEC:
 therefore:
 
 ```math
--2\rho
-\le
 S
 \le
-4\rho
+2\rho
 ```
 
-In a negative-active region:
+or:
 
 ```math
-\frac{-S}{\rho}
+\boxed{
+\frac{S}{\rho}
 \le
 2
-```
-
-For the current Skyrme field:
-
-```math
-\frac{-S}{\rho}
-=
-\frac{
-2(V-e_4)
-}{
-e_2+e_4+V
 }
 ```
 
-when $V>e_4$.
+for every point with positive $\rho$.
 
-This suggests that the most directly efficient negative-active regions should be potential dominated and located where the payload kernel has large leverage, while minimizing unnecessary energy overhead consistent with topology and stability.
+The teacher's force-weighted median is approximately:
 
-INT-01 will test this rather than assume it.
+```math
+\frac{S}{\rho}
+\approx
+2.65
+```
+
+Therefore:
+
+> **The ordinary positive-energy $e_2+e_4+V$ Skyrme constitutive structure cannot reproduce the full efficient teacher stress regime regardless of geometric rearrangement.**
+
+This is an important reason the project has stopped simple coefficient polishing of the current model.
+
+The successor likely needs both:
+
+```text
+MAJOR_GEOMETRIC_REORGANIZATION
+
+AND
+
+A_MORE_CAPABLE_HEALTHY_STRESS_GENERATING_SECTOR
+```
 
 ---
 
-# 12. Relationship to 023C, 023D, and Analogue Antigravity
+# 14. Current Active Frontier — Teacher-Guided Successor Field Design
 
-The new execution order is:
+The project is now returning from mechanism discovery to physical model construction.
+
+The active question is:
+
+> **What physically consistent field theory can generate the compact, payload-adjacent, near-DEC, high-$S/\rho$ stress architecture identified by Introspective?**
+
+The first candidate to falsify is a minimally generalized topological model containing:
 
 ```text
-INTROSPECTIVE=
-PRIMARY_MECHANISM_DISCOVERY_BRANCH
+L2
 
-023C=
-RETAINED_AS_PHYSICAL_VALIDATION_AND_HESSIAN_INFRASTRUCTURE
+L4
+
+L6
+
+V
 ```
 
-INT-01 through the fixed-field mechanism stages can begin from the already strict $N=65$ field.
+or a closely related sixth-order/BPS-Skyrme-type sector.
 
-If Introspective finds credible order-of-magnitude pure-GR efficiency headroom, the project should identify and validate the better source architecture before committing large compute to nonlinear Einstein continuation of an obviously inferior field.
+This is a hypothesis, not an established solution.
 
-If Introspective finds little headroom, the project should resume 023D rather than spending large compute polishing small coefficient improvements.
+For a homogeneous sixth-order energy contribution, the project derivative-order identity suggests:
 
-Analogue Antigravity remains a valid later program but is currently deferred:
+```math
+S_6
+=
+4e_6
+```
+
+so a generalized model may have schematic source structure:
+
+```math
+\rho
+=
+e_2+e_4+e_6+V
+```
+
+and:
+
+```math
+S
+=
+2e_4+4e_6-2V
+```
+
+The exact stress tensor must be derived independently from the precise future Lagrangian before these expressions are used as physical claims.
+
+The attraction of this model class is that it may access:
+
+```math
+2
+<
+\frac{S}{\rho}
+\le
+4
+```
+
+while the current positive-energy Skyrme model is bounded by:
+
+```math
+S/\rho\le2
+```
+
+and the type-I DEC ceiling is:
+
+```math
+S/\rho\le4
+```
+
+---
+
+## 14.1 Current phase — 024A
 
 ```text
-ANALOGUE_ANTIGRAVITY=
-DEFERRED
+ACTIVE_PHASE=
+024A_GENERALIZED_TOPOLOGICAL_STRESS_CONSTITUTIVE_PREFLIGHT
+```
 
-UNDEFER_WHEN=
-INTROSPECTIVE_CLOSEOUT
+The first task is analytical, not a large simulation.
+
+Before any unrestricted PDE solve the project will derive and audit:
+
+```text
+EXACT_LAGRANGIAN
+
+FIELD_EQUATIONS
+
+FULL_T_MUNU
+
+ENERGY_DENSITY
+
+PRINCIPAL_STRESSES
+
+ACTIVE_SOURCE
+
+HAMILTONIAN
+
+TOPOLOGICAL_CURRENT
+
+DERRICK_SCALING
+
+VIRIAL_RELATION
+
+DEC_NEC_WEC_WHERE_RELEVANT
+
+CHARACTERISTIC_SPEEDS
+
+TIME_DEPENDENT_FIELD_EQUATIONS
+
+HYPERBOLICITY_OR_WELL_POSEDNESS
+
+STANDARD_SKYRME_LIMIT
+```
+
+The candidate proceeds only if the teacher-relevant stress regime is accessible without an immediate theoretical pathology.
+
+---
+
+# 15. Static and Pulsed Successor Research
+
+The project will pursue two operational endpoints in tandem.
+
+## Static branch
+
+A static successor should produce:
+
+```text
+STATIONARY_FIELD
+
+FINITE_PAYLOAD_OUTWARD_FORCE
+
+LOWER_TOTAL_ENERGY_AT_MATCHED_OPERATION
+
+CONSERVATION
+
+TOPOLOGY_OR_OTHER_STABILITY
+
+ENERGY_CONDITIONS
+
+RESOLUTION_CONVERGENCE
+
+PHYSICAL_STABILITY
+```
+
+The primary static efficiency metric remains:
+
+```math
+\eta_{\mathrm{op}}
+=
+\frac{h^2A_P}{E}
+```
+
+or:
+
+```math
+C
+=
+\frac{1}{\eta_{\mathrm{op}}}
+```
+
+---
+
+## Pulsed branch
+
+Infinite stationarity is not the only possible operational endpoint.
+
+A short-lived source may remain useful if the complete formation-collapse-reset cycle produces positive net outward payload impulse.
+
+The primary pulse observable is:
+
+```math
+\Delta v_P
+=
+\int_{\mathrm{full\ cycle}}
+a_P(t)\,dt
+```
+
+A transient calculation must include:
+
+```text
+FORMATION
+
+ENERGY_FLUX
+
+MOMENTUM_DENSITY
+
+DYNAMIC_STRESS
+
+PEAK_RESPONSE
+
+COLLAPSE
+
+RETURN_IMPULSE
+
+RADIATION
+
+REACTION_MOMENTUM
+
+RESET_OR_DISPERSAL
+
+TOTAL_CYCLE_ENERGY
+
+REPETITION_RATE
+```
+
+A static optimized stress tensor multiplied by an arbitrary time envelope is **not** a physical pulse.
+
+Full dynamic stress-energy conservation must be satisfied.
+
+---
+
+# 16. Relationship to 023C and 023D
+
+023C remains valuable as the project's tested field-validation infrastructure.
+
+It contains machinery for:
+
+```text
+TOPOLOGY
+
+UNRESTRICTED_FIELD_RELAXATION
+
+DEC
+
+FINITE_PAYLOAD_KERNELS
+
+CONTINUOUS_FORCE_RECONSTRUCTION
+
+HESSIAN_VECTOR_PRODUCTS
+
+FISSION_TESTS
+
+DOMAIN_AND_RESOLUTION_CONVERGENCE
+```
+
+The existing $B=7$ unresolved gates remain preserved.
+
+However:
+
+```text
+023D_NONLINEAR_EINSTEIN_MATTER=
+PAUSED
+```
+
+The current ordering is:
+
+```text
+SUCCESSOR_ANALYTIC_PREFLIGHT
+
+THEN
+
+SUCCESSOR_REDUCED_FIELD_SCOUT
+
+THEN
+
+SUCCESSOR_UNRESTRICTED_FIELD
+
+THEN
+
+SUCCESSOR_STABILITY_OR_COMPLETE_PULSE_CYCLE
+
+THEN
+
+023C_EQUIVALENT_VALIDATION
+
+THEN
+
+NONLINEAR_EINSTEIN_MATTER
+```
+
+If the successor program fails cleanly, the project returns to the existing $B=7$ 023C/023D sequence.
+
+---
+
+# 17. Pure-GR Energy Scaling Remains Severe
+
+The project distinguishes **source efficiency** from **practical energy scaling**.
+
+A characteristic pure-GR scale is:
+
+```math
+E
+\sim
+C
+\frac{a c^2h^2}{G}
+```
+
+For:
+
+```math
+a=g
+```
+
+and:
+
+```math
+h=1\ \mathrm{m}
+```
+
+the coefficient-one scale is approximately:
+
+```math
+\frac{g c^2}{G}
+\sim
+1.3\times10^{28}\ \mathrm{J}
+```
+
+Therefore even enormous relative efficiency improvements do not automatically produce practical antigravity.
+
+Representative coefficients are:
+
+```text
+CURRENT_B7=
+422.22
+
+006D=
+23.59
+
+RAW_N48_TEACHER=
+0.0245
+```
+
+The raw teacher is dramatically more efficient mathematically, but even that coefficient remains associated with extreme macroscopic pure-GR energy scales.
+
+Thus:
+
+> **A source-efficiency breakthrough and a practical-energy breakthrough are separate accomplishments.**
+
+---
+
+# 18. Introspective as a Reusable Research Tool
+
+The completed Introspective program is intentionally preserved in:
+
+[`INTROSPECTIVE_BUILDPLAN.md`](INTROSPECTIVE_BUILDPLAN.md)
+
+It will not be rewritten merely because the active frontier has changed.
+
+Its purpose going forward is:
+
+```text
+REFERENCE_FOR_CURRENT_MECHANISM_DISCOVERY=
+YES
+
+ACTIVE_SOURCE_OPTIMIZATION_BRANCH=
+NO
+
+REUSE_AFTER_A_SUBSTANTIALLY_BETTER_FIELD_IS_FOUND=
+YES
+```
+
+A future successor field may undergo another Introspective cycle to determine:
+
+- which new energy sectors are productive;
+- whether efficiency is still concentrated;
+- how much new structural overhead remains;
+- whether another order-of-magnitude design improvement is available.
+
+---
+
+# 19. Analogue Antigravity
+
+**Analogue Antigravity** remains a valid later research program.
+
+Introspective has now distilled a mechanism suitable for eventual translation:
+
+```text
+COMPACT_PRODUCTIVE_REGION
+
+PAYLOAD_ADJACENCY
+
+HIGH_KERNEL_LEVERAGE
+
+STRONG_ANISOTROPIC_STRESS
+
+LOW_CANCELLATION
+
+PRODUCTIVE_STRUCTURE_SEPARATED_FROM_SCAFFOLDING
+```
+
+The branch remains deferred during the first focused true-GR successor attempt.
+
+It may be activated if:
+
+```text
+THE_FIRST_WELL_MOTIVATED_SUCCESSOR_GR_CLASS_FAILS
+
 OR
-PURE_GR_HEADROOM_PROVEN_TOO_SMALL
+
+REALIZABLE_PURE_GR_HEADROOM_IS_TOO_SMALL
+
 OR
-A_MINIMAL_SOURCE_KERNEL_SIGNATURE_IS_READY_FOR_TRANSLATION
+
+THE_1_OVER_G_ENERGY_BURDEN_REMAINS_OVERWHELMING
+
+OR
+
+A_SPECIFIC_ESTABLISHED_PHYSICS_ANALOGUE_CAN_REPRODUCE_THE_DISTILLED_MECHANISM
 ```
-
-The reason is simple:
-
-> **A synthetic analogue should imitate the minimal productive mechanism, not the entire expensive witness configuration.**
 
 ---
 
-# 13. What Would Count as a Major Introspective Result?
-
-A major positive outcome would be one or more of:
-
-```text
-SMALL_ENERGY_FRACTION_DOMINATES_OUTWARD_INFLUENCE
-
-VERY_LARGE_CANCELLATION_FACTOR_IDENTIFIED
-
-SIMPLE_GEOMETRIC_PRODUCTIVE_SKELETON_IDENTIFIED
-
-LARGE_SOURCE_LEVEL_EFFICIENCY_HEADROOM_DERIVED
-
-TOPOLOGY_SHOWN_TO_BE_PRIMARILY_STABILITY_SCAFFOLDING
-
-TOPOLOGY_SHOWN_TO_DIRECTLY_CREATE_HIGH_KERNEL_LEVERAGE
-```
-
-A major negative outcome would also be valuable:
-
-```text
-USEFUL_INFLUENCE_IS_DIFFUSE
-
-LOW_DIRECT_LEVERAGE_ENERGY_IS_MANDATORY_FOR_STABILITY
-
-CONSERVATION_FORCES_THE_COMPENSATING_STRUCTURE
-
-CURRENT_MODEL_IS_ALREADY_CLOSE_TO_A_SOURCE_LEVEL_BOUND
-```
-
-Either result sharply improves the project's next decision.
-
----
-
-# 14. Progress Ladder From the Current 70–71%
-
-These are internal project-management milestones, not probabilities.
-
-```text
-CURRENT_70_TO_71_PERCENT=
-PROMOTION_GRADE_B7_RATIONAL_MAP_PREFLIGHT
-PLUS
-STRICT_UNRESTRICTED_N65_STATIONARY_FIELD
-PLUS
-NUMERICAL_FAILURE_MODES_IDENTIFIED_AND_REPAIRED
-
-APPROXIMATELY_72_PERCENT=
-TRUSTWORTHY_UNRESTRICTED_023C_COMPLETION
-INCLUDING_FINE_GRID_FORCE_CONVERGENCE_AND_FULL_STABILITY_GATE
-
-APPROXIMATELY_72_TO_76_PERCENT=
-CONTROLLED_WEAK_GRAVITY_AND_MATTER_BACKREACTION
-
-APPROXIMATELY_76_TO_80_PERCENT=
-SELF_CONSISTENT_EINSTEIN_MATTER_CONTINUATION
-FINITE_PAYLOAD_GEODESIC_RESPONSE
-ASYMPTOTIC_FLATNESS
-ADM_MASS
-NO_HORIZON
-NONLINEAR_RESIDUAL_CONTROL
-
-BEYOND_80_PERCENT=
-PRACTICAL_SCALING
-REAL_MATERIAL_OR_ALTERNATIVE_REALIZATION
-CONTROL_SYSTEM
-EXPERIMENTAL_ACCESS
-ENGINEERING
-```
-
-Introspective results may change this ordering if a substantially better source architecture is identified.
-
----
-
-# 15. Current Claim Boundaries
+# 20. Current Claim Boundaries
 
 The project can currently say:
 
@@ -1298,29 +1554,45 @@ The project can currently say:
 
 It can also say:
 
-> **A selected false-core $B=7$ Skyrmion passes a promotion-grade rational-map robustness stack including topology, positive total active mass, a robust negative enclosed active region, pointwise DEC, binary-fission margin, rational-map shape curvature, and outward finite-payload response in every one of 320 tested orientations within the rational-map approximation.**
+> **A selected false-core $B=7$ Skyrmion passes a promotion-grade rational-map robustness stack including topology, positive total active mass, a robust negative enclosed active region, pointwise DEC, binary-fission margin, and outward finite-payload response in all 320 tested rational-map orientations.**
 
 It can further say:
 
-> **An unrestricted Cartesian $N=65$ representative of that $B=7$ topological sector has reached strict discrete stationarity while preserving topology, positive total active mass, a negative enclosed active region, pointwise DEC, and the active-trace identity.**
+> **An unrestricted Cartesian $N=65$ representative of that $B=7$ topological sector reaches strict discrete stationarity while preserving topology, positive total active mass, a negative enclosed active region, and pointwise DEC.**
 
-It must **not** currently say:
+The project can now additionally say:
+
+> **Independent conserved-DEC source constructions demonstrate approximately 12.8–17.9x source-level efficiency headroom relative to the present $B=7$ field.**
+
+And:
+
+> **A finite-density relaxed-source teacher repeatedly exhibits a raw approximately 17,230x efficiency signal, and a dedicated regression audit confirms that this raw signal persists; however it has not passed the project's predeclared continuum-resolution certificate and has not been realized by a microscopic field.**
+
+The project must **not** currently say:
 
 ```text
-FULL_STABLE_3D_ANTIGRAVITY_FIELD=ESTABLISHED
+CERTIFIED_17000X_PHYSICAL_ANTIGRAVITY_FIELD=
+YES
 
-CONTINUUM_FINITE_PAYLOAD_FORCE_FOR_UNRESTRICTED_FIELD=ESTABLISHED
+CERTIFIED_GE1000X_CONTINUUM_SOURCE_CLASS=
+YES
 
-NONLINEAR_GENERAL_RELATIVITY_ANTIGRAVITY=ESTABLISHED
+FULL_STABLE_3D_ANTIGRAVITY_FIELD=
+YES
 
-PRACTICAL_ANTIGRAVITY=ESTABLISHED
+NONLINEAR_GENERAL_RELATIVITY_ANTIGRAVITY=
+ESTABLISHED
 
-NEW_PHYSICS=DISCOVERED
+PRACTICAL_ANTIGRAVITY=
+ESTABLISHED
+
+NEW_PHYSICS=
+DISCOVERED
 ```
 
 ---
 
-# 16. Reproduction and Repository Integrity
+# 21. Reproduction and Repository Integrity
 
 From the repository root:
 
@@ -1352,44 +1624,78 @@ Reference values:
 
 ```text
 C_FINITE_BEST_TESTED=23.591586299249
+
 OUTWARD_GRAVITATIONAL_FIELD=YES
+
 POSITIVE_FAR_FIELD_ACTIVE_MASS=YES
+
 MAX_DEC_VIOLATION=0
 ```
 
-## Current topological program
-
-Important simulation families include:
+Important current simulation families include:
 
 ```text
-023A:
-FALSE_CORE_TOPOLOGICAL_MULTISKYRMION_GATE
-
-023B / 023BR:
+023A / 023B / 023BR:
+FALSE_CORE_TOPOLOGICAL_SKYRMION
 EXACT_RATIONAL_MAP
 FULL_3D_T_MUNU
-DENSE_FINITE_PAYLOAD_ROBUSTNESS
-
-023CR2:
-CHECKERBOARD_FREE_HIGH_ORDER_CARTESIAN_REPRESENTATION
+FINITE_PAYLOAD_ROBUSTNESS
 
 023CR4R:
 STRICT_UNRESTRICTED_N65_STATIONARITY
 
 023C2AQ / AQR / AQS:
-PAYLOAD_KERNEL_AND_CONTINUOUS_SOURCE_REPAIRS
+FINITE_PAYLOAD_KERNEL_AND_CONTINUOUS_SOURCE_REPAIRS
 
-023C2AQS2R / R2 / R3 / R4 / R5:
-N73_STATIONARITY_SOLVER_AND_SPECTRAL_DIAGNOSTICS
+INT01_TO_INT15:
+INTROSPECTIVE_SOURCE_ANATOMY_AND_HEADROOM
+
+INT14A:
+ROBUST_CONSERVATION_AWARE_CONSTRUCTIVE_HEADROOM
+
+INT14C / INT14D:
+FINITE_DENSITY_RAW_SOURCE_HEADROOM_AND_CONTINUUM_GATES
+
+INT15:
+STATIC_PULSE_SUCCESSOR_BLUEPRINT_SYNTHESIS
+
+INT15R:
+THOUSANDFOLD_REGRESSION_AND_PROVENANCE_AUDIT
 ```
-
-The detailed durable record is:
-
-[`journal/2026-09-01_020a_023c_protected_vector_closeout_false_core_skyrmion_promotion_numerical_repairs_and_introspective_frontier.md`](journal/2026-09-01_020a_023c_protected_vector_closeout_false_core_skyrmion_promotion_numerical_repairs_and_introspective_frontier.md)
 
 ---
 
-# 17. Published Research Used in the Current Program
+# 22. Durable Research Records
+
+For complete detail rather than README-level summaries:
+
+- [`RESEARCH_BUILDPLAN.md`](RESEARCH_BUILDPLAN.md) — active global strategy, pathway ranking, gates, stop rules, and next action.
+
+- [`INTROSPECTIVE_BUILDPLAN.md`](INTROSPECTIVE_BUILDPLAN.md) — preserved detailed Introspective mechanism-discovery methodology for the current model and future reuse.
+
+- [`notes/chronology/`](notes/chronology/) — GitHub-readable chronological carry-forward files.
+
+- [`NOTES.md`](NOTES.md) — monolithic research history and AI-session handoff.
+
+- [`journal/2026-08-28_006d_constructive_linearized_gr_repulsion.md`](journal/2026-08-28_006d_constructive_linearized_gr_repulsion.md) — complete 006D proof and standalone reconstruction.
+
+- [`journal/2026-08-29_016a_016h_006d_realizability_and_canonical_field_gates.md`](journal/2026-08-29_016a_016h_006d_realizability_and_canonical_field_gates.md) — 006D realizability and canonical-field gates.
+
+- [`journal/2026-08-29_017a_017s_drum_vorton_realization_and_thermal_obstruction.md`](journal/2026-08-29_017a_017s_drum_vorton_realization_and_thermal_obstruction.md) — drum/vorton realization and thermal obstruction.
+
+- [`journal/2026-08-30_018a_019c_nonthermal_field_realization_stability_falsification_and_protected_wilson_vector_portal.md`](journal/2026-08-30_018a_019c_nonthermal_field_realization_stability_falsification_and_protected_wilson_vector_portal.md) — microscopic field realization, stability falsification, and Wilson/vector program.
+
+- [`journal/2026-09-01_020a_023c_protected_vector_closeout_false_core_skyrmion_promotion_numerical_repairs_and_introspective_frontier.md`](journal/2026-09-01_020a_023c_protected_vector_closeout_false_core_skyrmion_promotion_numerical_repairs_and_introspective_frontier.md) — protected-vector closeout, topological promotion, numerical repairs, and handoff into Introspective.
+
+- [`journal/2026-09-01_introspective_closeout_efficiency_headroom_teacher_anatomy_and_successor_field_handoff.md`](journal/2026-09-01_introspective_closeout_efficiency_headroom_teacher_anatomy_and_successor_field_handoff.md) — Introspective closeout, robust and raw source-efficiency headroom, teacher anatomy, no-regression audit, constitutive constraint, and successor-field handoff.
+
+- [`FORMATTING_AND_CODE_STANDARDS.md`](FORMATTING_AND_CODE_STANDARDS.md) — repository mathematics, code, validation, and documentation standards.
+
+- [`AI_ASSISTANCE.md`](AI_ASSISTANCE.md) — AI-assistance disclosure.
+
+---
+
+# 23. Published Research Used in the Current Program
 
 The project builds on established literature and does not claim novelty for the underlying field theories.
 
@@ -1397,12 +1703,9 @@ Important references include:
 
 ## Rational-map Skyrmions
 
-C. J. Houghton, N. S. Manton, P. M. Sutcliffe
-
-**Rational Maps, Monopoles and Skyrmions**
-
-Nucl. Phys. B 510, 507–537 (1998)
-
+C. J. Houghton, N. S. Manton, P. M. Sutcliffe  
+**Rational Maps, Monopoles and Skyrmions**  
+Nucl. Phys. B 510, 507–537 (1998)  
 [arXiv:hep-th/9705151](https://arxiv.org/abs/hep-th/9705151)
 
 ## False-vacuum multiskyrmions
@@ -1411,66 +1714,36 @@ The 023 program uses false-vacuum-potential Skyrmion literature as a matter-fiel
 
 ## Two-current cosmic strings
 
-Marc Lilley, Xavier Martin, Patrick Peter
-
-**Coupled currents in cosmic strings**
-
-Phys. Rev. D 79, 103514 (2009)
-
+Marc Lilley, Xavier Martin, Patrick Peter  
+**Coupled currents in cosmic strings**  
+Phys. Rev. D 79, 103514 (2009)  
 [arXiv:0903.4328](https://arxiv.org/abs/0903.4328)
 
 ## Stable gauged vortons
 
-R. A. Battye, S. J. Cotterill, J. A. Pearson
-
-**A detailed study of the stability of vortons**
-
-JHEP 04 (2022) 005
-
+R. A. Battye, S. J. Cotterill, J. A. Pearson  
+**A detailed study of the stability of vortons**  
+JHEP 04 (2022) 005  
 [arXiv:2112.08066](https://arxiv.org/abs/2112.08066)
 
 ## Gravitating vortons
 
-J. Kunz, E. Radu, B. Subagyo
-
-**Gravitating vortons as ring solitons in general relativity**
-
-Phys. Rev. D 87, 104022 (2013)
-
+J. Kunz, E. Radu, B. Subagyo  
+**Gravitating vortons as ring solitons in general relativity**  
+Phys. Rev. D 87, 104022 (2013)  
 [arXiv:1303.1003](https://arxiv.org/abs/1303.1003)
-
-## Wilson-line and collective-symmetry program
-
-The 019–022 program used established deconstruction, Wilson-line, collective-symmetry, anomaly-free baryon/lepton-current, and vector-current-renormalization literature. Those references and the branch's negative closeout are preserved in the 2026-09-01 journal.
 
 The project currently maintains:
 
 ```text
 NOVELTY=NOT_ESTABLISHED
+
 NEW_PHYSICS_DISCOVERY=NO
 ```
 
 ---
 
-# 18. Repository Navigation
-
-For complete detail rather than README-level summaries:
-
-- [`RESEARCH_BUILDPLAN.md`](RESEARCH_BUILDPLAN.md) — main project execution strategy, decision gates, stop rules, and broader pathway ranking.
-- [`INTROSPECTIVE_BUILDPLAN.md`](INTROSPECTIVE_BUILDPLAN.md) — active mechanism-discovery branch and source-tomography program.
-- [`notes/chronology/`](notes/chronology/) — GitHub-readable chronological research carry-forward files.
-- [`NOTES.md`](NOTES.md) — monolithic research history and AI-session handoff.
-- [`journal/2026-08-28_006d_constructive_linearized_gr_repulsion.md`](journal/2026-08-28_006d_constructive_linearized_gr_repulsion.md) — complete 006D proof and standalone reconstruction.
-- [`journal/2026-08-29_016a_016h_006d_realizability_and_canonical_field_gates.md`](journal/2026-08-29_016a_016h_006d_realizability_and_canonical_field_gates.md) — 006D realizability and canonical-field gates.
-- [`journal/2026-08-29_017a_017s_drum_vorton_realization_and_thermal_obstruction.md`](journal/2026-08-29_017a_017s_drum_vorton_realization_and_thermal_obstruction.md) — drum/vorton realization and thermal obstruction.
-- [`journal/2026-08-30_018a_019c_nonthermal_field_realization_stability_falsification_and_protected_wilson_vector_portal.md`](journal/2026-08-30_018a_019c_nonthermal_field_realization_stability_falsification_and_protected_wilson_vector_portal.md) — microscopic field realization, stability falsification, and Wilson/vector program.
-- [`journal/2026-09-01_020a_023c_protected_vector_closeout_false_core_skyrmion_promotion_numerical_repairs_and_introspective_frontier.md`](journal/2026-09-01_020a_023c_protected_vector_closeout_false_core_skyrmion_promotion_numerical_repairs_and_introspective_frontier.md) — protected-vector closeout, 023 promotion, numerical repairs, and current Introspective frontier.
-- [`FORMATTING_AND_CODE_STANDARDS.md`](FORMATTING_AND_CODE_STANDARDS.md) — repository math, code, validation, and documentation rules.
-- [`AI_ASSISTANCE.md`](AI_ASSISTANCE.md) — AI-assistance disclosure.
-
----
-
-# 19. Research Standards
+# 24. Research Standards
 
 The project follows strict rules:
 
@@ -1483,27 +1756,31 @@ The project follows strict rules:
 7. Preserve negative results.
 8. Require conservation, stability, or naturalness rather than assuming them.
 9. Distinguish local repulsion from finite-payload repulsion.
-10. Distinguish gravitational effects from fifth forces.
+10. Distinguish gravitational effects from additional forces.
 11. Distinguish field existence from field stability.
-12. Include mandatory support, environment, containment, thermal, gauge, junction, and control sectors in the physical ledger.
-13. Track reaction momentum in additional-force branches.
-14. Require independent reconstruction for central quantitative claims.
-15. Search robust parameter regions rather than isolated optima.
-16. Never promote an internally generated result to a discovery without independent verification and literature comparison.
+12. Distinguish static failure from transient failure.
+13. Include mandatory support, environment, containment, thermal, gauge, junction, control, and reset sectors in the physical ledger.
+14. Track reaction momentum in additional-force and transient branches.
+15. Require independent reconstruction for central quantitative claims.
+16. Search robust parameter regions rather than isolated optima.
+17. Never promote an internally generated result to a discovery without independent verification and literature comparison.
+18. Treat a relaxed source optimizer as a diagnostic, not a microscopic field.
+19. Do not weaken predeclared gates to preserve an attractive result.
+20. Optimize for information gain rather than sunk effort.
 
-Two permanent lessons remain especially important:
+Permanent lessons include:
 
 > **A support mechanism is part of the physical source. If the environment, containment, bias, or field required to create the desired stress produces a larger opposite effect, the favorable subsystem result does not survive complete bookkeeping.**
 
 > **A microscopic field solution is not a stable physical candidate until the relevant perturbation spectrum is tested.**
 
-The newest lesson is:
+> **Negative active density does not by itself imply useful finite-payload repulsion. The operational response depends on the complete source and payload kernel.**
 
-> **Before building a cheaper source, determine which parts of the current source actually generate the useful finite-payload response and which parts are structural overhead.**
+> **Efficient gravitational source design requires both favorable geometry and favorable stress per unit energy.**
 
 ---
 
-# 20. AI-Assisted Research
+# 25. AI-Assisted Research
 
 Antigravity Research is a human-directed research project using **ChatGPT by OpenAI** as an AI research and development assistant.
 
@@ -1525,12 +1802,19 @@ Important claims remain subject to:
 
 ```text
 ANALYTIC_VERIFICATION
+
 NUMERICAL_VERIFICATION
+
 DIMENSIONAL_CHECKS
+
 LIMITING_CASE_CHECKS
+
 INDEPENDENT_RECONSTRUCTION
+
 LITERATURE_COMPARISON
+
 ASSUMPTION_AUDIT
+
 EVENTUAL_EXTERNAL_REPLICATION
 ```
 
@@ -1540,7 +1824,7 @@ See [`AI_ASSISTANCE.md`](AI_ASSISTANCE.md).
 
 ---
 
-# 21. Licensing
+# 26. Licensing
 
 Antigravity Research uses separate licenses for software and research materials.
 
@@ -1562,10 +1846,15 @@ The conservative headline remains 006D:
 
 ```text
 FINITE=YES
+
 POSITIVE_ENERGY=YES
+
 LOCALLY_CONSERVED_AT_LINEARIZED_ORDER=YES
+
 NEC_WEC_DEC=PASS
+
 LOCAL_GRAVITATIONAL_FIELD=OUTWARD
+
 FAR_FIELD_ACTIVE_MASS=POSITIVE
 ```
 
@@ -1579,22 +1868,57 @@ C_{006D}
 
 The project has now gone substantially further:
 
-1. a complete microscopic matter-field configuration was shown in 018B to produce outward finite-payload linearized gravity, then correctly demoted for a full-field $m=2$ instability in 018C;
-2. the protected Wilson/vector program produced several useful microscopic/EFT witnesses but the tested minimal practical completions were closed through 022A;
-3. the 023 false-core Skyrmion route produced a promotion-grade $B=7$ rational-map field with robust negative enclosed active mass, positive total active mass, pointwise DEC, binary-fission margin, positive rational-map shape curvature, and outward finite-payload response in all 320 tested orientations;
-4. an unrestricted Cartesian $N=65$ $B=7$ field reached strict stationarity while preserving topology, positive total active mass, a negative enclosed active region, DEC, and the active-trace identity;
-5. later numerical auditing correctly invalidated the old coarse midpoint payload-force readout as promotion-grade evidence and identified the remaining fine-resolution/stationarity problem rather than hiding it;
-6. the active frontier is now **Introspective source tomography**: determine exactly where the useful outward gravitational response originates and how much of the current enormous energy budget is productive versus structural overhead.
+1. A complete microscopic matter-field configuration was shown in 018B to produce outward finite-payload linearized gravity and was then correctly demoted after 018C found a full-field $m=2$ instability.
 
-The current scientific question is therefore no longer simply:
+2. The protected Wilson/vector program produced several useful EFT and microscopic witnesses, but the tested practical implementations were closed through 022A.
+
+3. The 023 false-core Skyrmion route produced a promotion-grade $B=7$ rational-map field with robust topology, negative enclosed active mass, positive total active mass, pointwise DEC, binary-fission margin, and outward finite-payload response throughout the tested rational-map orientation set.
+
+4. An unrestricted Cartesian $N=65$ $B=7$ field reached strict stationarity while preserving topology, positive total active mass, a negative enclosed active region, and DEC.
+
+5. Introspective source tomography showed that useful gravitational influence is highly concentrated and that spatial/kernel placement is a dominant design variable.
+
+6. Two independent conserved-DEC constructive sources demonstrate approximately **12.8–17.9x robust source-level efficiency headroom** relative to the current $B=7$ field.
+
+7. A finite-density relaxed-source teacher repeatedly produces a raw approximately **17,230x** efficiency signal. Independent reconstruction and a dedicated regression audit confirm that the signal persists, but it remains **uncertified as a continuum source class and unrealized as a microscopic field**.
+
+8. The efficient teacher uses only about **19.7% of its energy to account for more than 92% of gross outward influence**, has a cancellation factor near **1.06**, obtains approximately **59% of its net response from spatial stress**, and operates close to the DEC stress boundary.
+
+9. The current positive-energy $e_2+e_4+V$ Skyrme model obeys the analytical local bound:
+
+```math
+\frac{S}{\rho}
+\le
+2
+```
+
+while the teacher's force-weighted median is approximately:
+
+```math
+\frac{S}{\rho}
+\approx
+2.65
+```
+
+indicating that a substantially more efficient successor likely requires both a new spatial organization and a more capable healthy stress-generating sector.
+
+10. The project has therefore returned from Introspective mechanism discovery to **teacher-guided successor field construction**, with static and pulsed realizations pursued in tandem.
+
+The current scientific question is no longer simply:
 
 > Can gravity mathematically point outward?
 
 Within the stated linearized-GR scope, that has already been answered.
 
+It is also no longer primarily:
+
+> Where is the useful outward response coming from?
+
+The completed Introspective program has answered that well enough for design.
+
 The current question is:
 
-> **Where, inside a physically structured positive-energy field, does the useful outward finite-payload gravitational response actually come from, and can that mechanism be isolated into a much more efficient realization without losing topology, conservation, energy conditions, or stability?**
+> **Can an actual physically consistent field generate the compact, high-leverage, near-DEC anisotropic stress architecture that Introspective has shown to be efficient, while preserving positive energy, conservation, topology or other stability, finite-payload response, and either stationary stability or a useful complete transient cycle?**
 
 ```text
 MATHEMATICAL_LOCAL_GRAVITATIONAL_REPULSION=
@@ -1612,20 +1936,41 @@ SUPPORTED
 023CR4R_STRICT_UNRESTRICTED_N65_FIELD=
 SUPPORTED
 
-FULL_UNRESTRICTED_3D_STABILITY=
-NOT_ESTABLISHED
+ROBUST_CONSERVED_DEC_SOURCE_HEADROOM=
+12P8_TO_17P9X
 
-CONTINUUM_FINITE_PAYLOAD_FORCE_CONVERGENCE=
+RAW_GE1000X_SOURCE_LEVEL_SIGNAL=
+PRESENT
+
+RAW_TEACHER_HEADROOM=
+APPROXIMATELY_17230X
+
+CERTIFIED_GE1000X_CONTINUUM_SOURCE_CLASS=
+NO
+
+MICROSCOPIC_FIELD_GE1000X_REALIZATION=
+NO
+
+INTROSPECTIVE=
+COMPLETED_FOR_CURRENT_MODEL_AND_RETAINED_FOR_FUTURE_REUSE
+
+ACTIVE_BRANCH=
+TEACHER_GUIDED_SUCCESSOR_FIELD_DESIGN
+
+ACTIVE_PHASE=
+024A_GENERALIZED_TOPOLOGICAL_STRESS_CONSTITUTIVE_PREFLIGHT
+
+STATIC_SUCCESSOR=
+ACTIVE_IN_TANDEM
+
+PULSED_SUCCESSOR=
+ACTIVE_IN_TANDEM
+
+FULL_UNRESTRICTED_3D_STABILITY=
 NOT_ESTABLISHED
 
 NONLINEAR_EINSTEIN_MATTER_REPULSION=
 NOT_ESTABLISHED
-
-ACTIVE_BRANCH=
-INTROSPECTIVE
-
-ACTIVE_PHASE=
-INT_01_CERTIFIED_FIXED_FIELD_INFLUENCE_TOMOGRAPHY
 
 CURRENT_INFORMAL_PROJECT_PROGRESS=
 APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY

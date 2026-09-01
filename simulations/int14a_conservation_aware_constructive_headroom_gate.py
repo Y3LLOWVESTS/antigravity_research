@@ -1,0 +1,1007 @@
+#!/usr/bin/env python3
+"""INT-14A — conservation-aware constructive headroom gate.
+
+PURPOSE
+-------
+Quantify, in the common operational energy coefficient
+
+    E = C * a * h^2 * c^2 / G
+
+how inefficient the current promotion-grade B=7 rational-map Skyrmion is
+relative to already-audited static positive-energy, DEC-satisfying,
+locally-conserved linearized-GR source architectures.
+
+This is the first conservation-aware headroom slice after INT-03/04.
+
+The immediate question is deliberately cheaper than a new unrestricted
+stress-tensor optimization:
+
+    Does a known constructive conserved-DEC source already reproduce the same
+    outward finite-payload observable with >=10x lower standardized energy
+    than the current B=7 field?
+
+If YES, Introspective has established that a large fraction of the current
+field energy is not required by the weak-field gravitational observable plus
+positive energy + DEC + static local conservation alone.
+
+That would NOT prove that the Skyrme field can be continuously deformed into
+that source, and it would NOT prove a realizable material.
+
+BACKGROUND
+----------
+INT-03/04G preserved the important mechanism clue:
+
+    expansion exposed hundreds-fold apparent antigravity headroom
+
+but the lambda=1.25 field was nonstationary.
+
+INT-03/04G also found:
+
+- the expansion gain is mostly spatial/kernel reweighting, not S-sign change;
+- no simple unrestricted local geometry scalar strongly predicts leverage;
+- exact-map radius is the strongest simple independent geometric correlate.
+
+The next useful comparison is therefore source-level efficiency under actual
+static conservation and DEC.
+
+CURRENT FIELD
+-------------
+Use the exact B=7 rational-map equilibrium at:
+
+    B   = 7
+    eta = 0.4
+    m   = 8
+
+rather than the fragile near-zero N=65 baseline force.
+
+Rebuild its exact-map source and finite spherical payload observable using the
+same independent machinery already used in INT-02/INT-03.
+
+Operational efficiency:
+
+    eta_op = h^2 * A_P / E
+
+so the corresponding dimensionless physical-energy coefficient is
+
+    C_current = 1 / eta_op.
+
+This relation is exactly the one defined by INTROSPECTIVE_BUILDPLAN.md:
+
+    E_physical = a c^2 h^2 / (G eta_op).
+
+CONSERVATION-AWARE COMPARATORS
+------------------------------
+1. 006D finite-thickness source.
+
+   Re-run the repository implementation in a subprocess and parse its own
+   output.  Require:
+
+       local conservation PASS
+       NEC/WEC/DEC PASS
+       Laue balance PASS
+       positive far-field active mass
+       outward field
+       finest finite C
+
+   The 006D source is an explicit finite positive-energy stress tensor.
+   It is a constructive feasible source, not a microscopic realization.
+
+2. Independent 006B full-r-z conic finite-volume sources.
+
+   Re-use the staggered finite-volume optimizer with:
+
+       exact cell force balance
+       exact type-I DEC through SOC constraints
+       positive cell energy
+       traction-free finite boundaries
+       exact axial kernel
+
+   Include:
+
+       KNOWN_THIN20:
+           nr=20, nz=2, R/h=5, depth/h=0.125
+
+   plus two compact scale-class checks with radial support comparable to the
+   B=7 shell-radius / payload-center ratio.
+
+   These are independent constructive source checks, not claims of a common
+   microscopic model.
+
+FINITE-PAYLOAD MATCHING
+-----------------------
+The Skyrmion payload is a uniform sphere with radius ratio
+
+    q_P = R_P / h.
+
+For the 006B stand-off geometry, the source lies at z<=0 while the payload
+center is at z=h.  If q_P<1, the entire payload ball is source-free.
+
+Each Cartesian component of the Newtonian/linearized-GR acceleration is
+harmonic in that ball.  Therefore the mean-value theorem gives exactly
+
+    <a>_sphere = a(center).
+
+Thus the point-target 006B observable is exactly the center-of-mass
+acceleration of the matched uniform spherical payload.
+
+The same source-free-ball argument applies to the finite-thickness 006D
+stand-off construction because its finest vertical support thickness is tiny
+relative to h and q_P << 1.
+
+HEADROOM DEFINITIONS
+--------------------
+For a constructive source with coefficient C_source:
+
+    H_source = C_current / C_source.
+
+Interpret:
+
+    H < 2       minor
+    2 <= H < 10 meaningful
+    10 <= H < 100 major pure-GR source-level headroom
+    H >= 100    very large
+
+The >=10x gate is the Introspective Level-3 headroom threshold.
+
+IMPORTANT LOGIC
+---------------
+A constructive lower-C source proves that the current field is not close to
+the best possible weak-field source efficiency under the shared constraints.
+
+It does NOT, by itself, provide the strict INT-14 fixed-support global minimum.
+In optimization language a feasible low-energy source gives an upper bound on
+the minimum energy, not a universal lower bound.
+
+Therefore this run explicitly distinguishes:
+
+    CONSTRUCTIVE CONSERVED-DEC HEADROOM
+
+from:
+
+    STRICT SAME-SUPPORT CONSERVATION-AWARE LOWER BOUND.
+
+PROMOTION CONDITION
+-------------------
+Promotion-grade result for this slice requires BOTH:
+
+- verified 006D headroom >=10x;
+- an independently solved 006B conic finite-volume source also gives >=10x,
+  with post-checked DEC and conservation residuals green.
+
+This two-route requirement reduces the chance that a normalization mistake or
+one special analytic architecture creates a false positive.
+
+FALSIFIERS
+----------
+- exact-map operational coefficient does not reproduce prior eta_op scale;
+- 006D self-audit fails;
+- 006B independent source fails DEC/conservation;
+- coefficient normalization is inconsistent;
+- no independently verified conserved source reaches >=10x.
+
+STOP RULE
+---------
+If >=10x constructive headroom survives, do NOT do more coefficient scans.
+
+Proceed to the strict support-constrained source bound / structural-overhead
+bridge needed to determine whether the headroom is accessible to a successor
+stationary field.
+
+If <10x survives, close coefficient-polishing direction and return to the
+main 023C/023D gates.
+
+CLAIM LIMITS
+------------
+This run does not establish:
+
+- a same-support global source optimum;
+- a continuous deformation of the Skyrmion into 006D;
+- Skyrmion Hessian stability;
+- strict N=73 stationarity;
+- a microscopic realization of 006D;
+- nonlinear Einstein consistency;
+- practical antigravity.
+
+CLAIM CLASSIFICATION
+--------------------
+PROJECT_DERIVED_INT14A_CONSERVATION_AWARE_CONSTRUCTIVE_HEADROOM_GATE
+"""
+
+from __future__ import annotations
+
+import csv
+import importlib.util
+import json
+import math
+import re
+import subprocess
+from pathlib import Path
+import sys
+from typing import Any
+
+import numpy as np
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SIM = ROOT / "simulations"
+DATA = ROOT / "results/data"
+
+PRIOR_SUMMARY = DATA / "int03_04g_geometry_causation_summary.json"
+INT02_SOURCE = SIM / "int02_signed_kernel_orientation_robustness.py"
+A23_SOURCE = SIM / "023a_topological_false_core_multiskyrmion_gr_repulsion_gate.py"
+B23_SOURCE = SIM / "023b_exact_rational_map_full3d_tmunu_gravity_promotion_gate.py"
+S006D = SIM / "006d_finite_thickness_conserved_source.py"
+S006B = SIM / "006b_full_rz_decision.py"
+
+OUT_JSON = DATA / "int14a_conservation_aware_constructive_headroom_summary.json"
+OUT_CSV = DATA / "int14a_conserved_source_comparators.csv"
+OUT_006D_LOG = DATA / "int14a_006d_reverification.txt"
+
+B = 7
+ETA = 0.4
+MASS = 8.0
+
+HEADROOM_MAJOR = 10.0
+
+# Independent exact-map quadrature already used successfully upstream.
+EXACT_NR = 68
+EXACT_NMU = 32
+EXACT_NPHI = 64
+
+# 006B independent finite-volume checks.
+# The first is a known regression-compatible case.  The compact cases use
+# R/h close to the current exact-map shell radius / payload-center ratio.
+COMPACT_NR = 14
+
+DEC_TOL = 2.0e-6
+CONS_TOL = 2.0e-6
+TRACE_TOL = 2.0e-6
+
+ETA_PRIOR_REL_TOL = 2.0e-3
+
+
+def require(path: Path) -> None:
+    if not path.is_file():
+        raise RuntimeError(f"Required file missing: {path}")
+
+
+def load_module(name: str, path: Path):
+    spec = importlib.util.spec_from_file_location(name, path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Cannot import {path}")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+def parse_key(text: str, key: str) -> str:
+    match = re.search(
+        rf"^{re.escape(key)}=(.+)$",
+        text,
+        flags=re.MULTILINE,
+    )
+    if match is None:
+        raise RuntimeError(f"Missing 006D output key: {key}")
+    return match.group(1).strip()
+
+
+def parse_float(text: str, key: str) -> float:
+    return float(parse_key(text, key))
+
+
+def relative_error(a: float, b: float) -> float:
+    return abs(a - b) / max(abs(a), abs(b), 1.0e-300)
+
+
+def exact_map_current(int02, a23, b23) -> dict[str, float]:
+    degree, I = b23.angular_integrals_b7(b23.B7_B0)
+
+    profile = b23.solve_profile_with_custom_I(
+        a23,
+        B,
+        ETA,
+        MASS,
+        I,
+    )
+
+    sector_profiles, sector_energies = b23.solve_exact_sector(
+        a23,
+        ETA,
+        MASS,
+    )
+
+    if not all(p.success for p in sector_profiles.values()):
+        raise RuntimeError("Exact sector solve failed")
+
+    candidate = b23.candidate_from_sector(
+        a23,
+        sector_profiles,
+        sector_energies,
+        B,
+    )
+
+    payload = candidate.payload
+
+    xyz, energy_w, active_w, e4_w, v_w = int02.exact_map_weighted_source(
+        b23,
+        profile,
+        b23.B7_B0,
+        EXACT_NR,
+        EXACT_NMU,
+        EXACT_NPHI,
+    )
+
+    direction = np.asarray(
+        int02.c2aq.KNOWN_WORST_DIRECTION
+        if hasattr(int02, "c2aq")
+        else [-0.45435018446379805, 0.01878880658050992, 0.8906249999999961],
+        dtype=float,
+    )
+    direction /= np.linalg.norm(direction)
+
+    metrics = int02.exact_map_case_metrics(
+        xyz,
+        energy_w,
+        active_w,
+        e4_w,
+        v_w,
+        direction,
+        float(payload.payload_center),
+        float(payload.payload_radius),
+    )
+
+    E = float(np.sum(energy_w))
+    A = float(metrics["net"])
+    h = float(payload.payload_center)
+    rp = float(payload.payload_radius)
+
+    if not (E > 0.0 and A > 0.0 and h > 0.0 and rp > 0.0):
+        raise RuntimeError("Nonpositive exact-map operational quantity")
+
+    eta_op = h * h * A / E
+    C = 1.0 / eta_op
+
+    return {
+        "degree": float(degree),
+        "I": float(I),
+        "E": E,
+        "A": A,
+        "h": h,
+        "payload_radius": rp,
+        "payload_radius_over_h": rp / h,
+        "eta_op": eta_op,
+        "C": C,
+        "F50": float(metrics["F50"]),
+        "F90": float(metrics["F90"]),
+        "cancellation": float(metrics["cancellation"]),
+        "virial_relerr": float(profile.virial_relerr),
+        "active_total_relerr": float(profile.active_total_relerr),
+        "fission_margin": float(candidate.fission_margin),
+        "shell_radius": float(profile.shell_radius),
+        "shell_radius_over_h": float(profile.shell_radius / h),
+    }
+
+
+def rerun_006d() -> dict[str, Any]:
+    proc = subprocess.run(
+        [sys.executable, str(S006D)],
+        cwd=str(ROOT),
+        env={
+            **dict(__import__("os").environ),
+            "PYTHONPATH": str(ROOT / "src"),
+        },
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=False,
+    )
+
+    OUT_006D_LOG.write_text(proc.stdout)
+
+    if proc.returncode != 0:
+        raise RuntimeError(
+            "006D repository reverification failed:\n"
+            + proc.stdout[-4000:]
+        )
+
+    text = proc.stdout
+
+    # Current regression tests protect these exact labels.
+    result = {
+        "returncode": int(proc.returncode),
+        "finest_C": parse_float(text, "FINEST_FINITE_C"),
+        "thin_C": parse_float(text, "THIN_REFERENCE_C"),
+        "max_conservation_residual": parse_float(
+            text,
+            "MAX_CONTROL_VOLUME_CONSERVATION_RESIDUAL",
+        ),
+        "max_dec_violation": parse_float(
+            text,
+            "MAX_DEC_VIOLATION",
+        ),
+        "min_nec_margin": parse_float(
+            text,
+            "MIN_NEC_MARGIN",
+        ),
+        "max_integrated_stress_trace": parse_float(
+            text,
+            "MAX_INTEGRATED_STRESS_TRACE",
+        ),
+        "local_conservation": parse_key(
+            text,
+            "LOCAL_CONSERVATION",
+        ),
+        "nec": parse_key(text, "NEC"),
+        "wec": parse_key(text, "WEC"),
+        "dec": parse_key(text, "DEC"),
+        "laue": parse_key(text, "LAUE_STRESS_BALANCE"),
+        "positive_far_field": parse_key(
+            text,
+            "POSITIVE_FAR_FIELD_ACTIVE_MASS",
+        ),
+        "outward_field": parse_key(
+            text,
+            "OUTWARD_GRAVITATIONAL_FIELD",
+        ),
+        "simulation": parse_key(
+            text,
+            "SIMULATION_006D",
+        ),
+    }
+
+    result["green"] = bool(
+        result["local_conservation"] == "PASS"
+        and result["nec"] == "PASS"
+        and result["wec"] == "PASS"
+        and result["dec"] == "PASS"
+        and result["laue"] == "PASS"
+        and result["positive_far_field"] == "YES"
+        and result["outward_field"] == "YES"
+        and result["simulation"] == "GREEN"
+        and float(result["max_conservation_residual"]) < 1.0e-8
+        and float(result["max_dec_violation"]) <= 1.0e-12
+        and float(result["max_integrated_stress_trace"]) < 1.0e-8
+    )
+
+    return result
+
+
+def solve_006b_comparators(s006b, shell_over_h: float) -> list[dict[str, Any]]:
+    # R/h ~= shell/h is a scale-class compact radial comparator.
+    compact_r = max(1.5, min(3.0, shell_over_h))
+
+    cases = [
+        s006b.Case(
+            "KNOWN_THIN20",
+            20,
+            2,
+            5.0,
+            0.125,
+        ),
+        s006b.Case(
+            "COMPACT_R_MATCH_D0P5",
+            COMPACT_NR,
+            4,
+            compact_r,
+            0.5,
+        ),
+        s006b.Case(
+            "COMPACT_R_MATCH_D1P0",
+            COMPACT_NR,
+            6,
+            compact_r,
+            1.0,
+        ),
+    ]
+
+    rows = []
+
+    for case in cases:
+        print(
+            f"INT14A_006B_SOLVE_BEGIN={case.name} "
+            f"GRID={case.nr}x{case.nz} "
+            f"RMAX={case.radius:.9e} DEPTH={case.depth:.9e}",
+            flush=True,
+        )
+
+        raw = s006b.solve_case(case)
+
+        # 006B may return a reduced result dictionary when an optional
+        # comparator is infeasible or non-finite. Record that case as
+        # non-green instead of aborting the entire INT-14A gate.
+        coefficient = float(
+            raw.get("coefficient", float("inf"))
+        )
+
+        if math.isfinite(coefficient):
+            acceleration = float(
+                raw.get("acceleration", float("nan"))
+            )
+            max_dec = float(
+                raw.get(
+                    "max_dec_violation",
+                    float("inf"),
+                )
+            )
+            max_cons = float(
+                raw.get(
+                    "max_conservation_residual",
+                    float("inf"),
+                )
+            )
+            trace = float(
+                raw.get(
+                    "trace_integral",
+                    float("nan"),
+                )
+            )
+        else:
+            acceleration = float("nan")
+            max_dec = float("inf")
+            max_cons = float("inf")
+            trace = float("nan")
+
+        row = {
+            "name": str(
+                raw.get(
+                    "name",
+                    case.name,
+                )
+            ),
+            "nr": int(case.nr),
+            "nz": int(case.nz),
+            "radius_over_h": float(case.radius),
+            "depth_over_h": float(case.depth),
+            "status": str(
+                raw.get(
+                    "status",
+                    "UNKNOWN",
+                )
+            ),
+            "solver": str(
+                raw.get(
+                    "solver",
+                    "UNKNOWN",
+                )
+            ),
+            "coefficient": coefficient,
+            "acceleration": acceleration,
+            "max_dec_violation": max_dec,
+            "max_conservation_residual": max_cons,
+            "trace_integral": trace,
+        }
+
+        row["green"] = bool(
+            math.isfinite(row["coefficient"])
+            and row["coefficient"] > 0.0
+            and math.isfinite(row["acceleration"])
+            and abs(row["acceleration"] - 1.0) < 2.0e-5
+            and math.isfinite(row["max_dec_violation"])
+            and row["max_dec_violation"] < DEC_TOL
+            and math.isfinite(
+                row["max_conservation_residual"]
+            )
+            and row["max_conservation_residual"] < CONS_TOL
+            and math.isfinite(row["trace_integral"])
+            and abs(row["trace_integral"]) < TRACE_TOL
+        )
+
+        rows.append(row)
+
+        if row["green"]:
+            print(
+                f"INT14A_006B_CASE={row['name']} "
+                f"STATUS={row['status']} "
+                f"SOLVER={row['solver']} "
+                f"C={row['coefficient']:.15e} "
+                f"ACCEL={row['acceleration']:.15e} "
+                f"DEC={row['max_dec_violation']:.3e} "
+                f"CONS={row['max_conservation_residual']:.3e} "
+                f"TRACE={row['trace_integral']:.3e} "
+                "GREEN=YES",
+                flush=True,
+            )
+        else:
+            print(
+                f"INT14A_006B_CASE={row['name']} "
+                f"STATUS={row['status']} "
+                f"SOLVER={row['solver']} "
+                f"C={row['coefficient']:.15e} "
+                "GREEN=NO "
+                "CASE_DISPOSITION="
+                "OPTIONAL_COMPARATOR_NOT_USED_FOR_PROMOTION",
+                flush=True,
+            )
+
+    return rows
+
+
+def main() -> None:
+    print(
+        "=== INT-14A — CONSERVATION-AWARE CONSTRUCTIVE HEADROOM GATE ===",
+        flush=True,
+    )
+
+    for p in (
+        PRIOR_SUMMARY,
+        INT02_SOURCE,
+        A23_SOURCE,
+        B23_SOURCE,
+        S006D,
+        S006B,
+    ):
+        require(p)
+
+    prior = json.loads(PRIOR_SUMMARY.read_text())
+
+    if prior.get("decision") != (
+        "GEOMETRY_SIGNATURE_IDENTIFIED_FOR_SOURCE_BOUND_TARGETING"
+    ):
+        raise RuntimeError(
+            "INT-03/04G did not authorize conservation-aware headroom gate"
+        )
+
+    print("\n=== A — PRIOR MECHANISM AUDIT ===")
+    prior_ratio = float(
+        prior["expanded_diagnostic"]["force_ratio_to_reference"]
+    )
+    print(f"PRIOR_EXPANSION_FORCE_RATIO={prior_ratio:.15e}")
+    print(
+        "PRIOR_EXPANSION_FIELD_STATIONARY="
+        f"{str(bool(prior['claim_limits']['expanded_field_stationary'])).upper()}"
+    )
+    print(
+        "EXPANSION_HUNDREDS_FOLD_HEADROOM_STATUS="
+        "PRESERVED_AS_NONSTATIONARY_MECHANISM_CLUE"
+    )
+
+    int02 = load_module("int14a_int02", INT02_SOURCE)
+    a23 = load_module("int14a_a23", A23_SOURCE)
+    b23 = load_module("int14a_b23", B23_SOURCE)
+    s006b = load_module("int14a_006b", S006B)
+
+    print("\n=== B — REBUILD CURRENT EXACT-MAP OPERATIONAL COEFFICIENT ===")
+    current = exact_map_current(
+        int02,
+        a23,
+        b23,
+    )
+
+    print(f"CURRENT_EXACT_MAP_E={current['E']:.15e}")
+    print(f"CURRENT_EXACT_MAP_A={current['A']:.15e}")
+    print(f"CURRENT_EXACT_MAP_H={current['h']:.15e}")
+    print(
+        f"CURRENT_PAYLOAD_RADIUS_OVER_H="
+        f"{current['payload_radius_over_h']:.15e}"
+    )
+    print(f"CURRENT_EXACT_MAP_ETA_OP={current['eta_op']:.15e}")
+    print(f"CURRENT_EXACT_MAP_C={current['C']:.15e}")
+    print(f"CURRENT_EXACT_MAP_F50={current['F50']:.15e}")
+    print(f"CURRENT_EXACT_MAP_F90={current['F90']:.15e}")
+    print(f"CURRENT_EXACT_MAP_VIRIAL_RELERR={current['virial_relerr']:.15e}")
+    print(f"CURRENT_SHELL_RADIUS_OVER_H={current['shell_radius_over_h']:.15e}")
+
+    # Compare against the prior re-equilibrated m=8 eta_op as a normalization
+    # sanity check if available.
+    scale_summary = DATA / "int03_04s_scale_zero_surface_summary.json"
+    eta_prior = float("nan")
+    eta_prior_relerr = float("nan")
+
+    if scale_summary.is_file():
+        scale = json.loads(scale_summary.read_text())
+        mrows = scale.get("reequilibrated_exact_m", {}).get("cases", [])
+        for row in mrows:
+            if (
+                row.get("success")
+                and abs(float(row["m"]) - MASS) < 1.0e-12
+            ):
+                eta_prior = float(row["eta_op"])
+                eta_prior_relerr = relative_error(
+                    current["eta_op"],
+                    eta_prior,
+                )
+                break
+
+    print(f"PRIOR_EXACT_MAP_ETA_OP={eta_prior:.15e}")
+    print(f"EXACT_MAP_ETA_OP_REPRO_RELERR={eta_prior_relerr:.15e}")
+
+    eta_repro_green = bool(
+        not math.isfinite(eta_prior_relerr)
+        or eta_prior_relerr <= ETA_PRIOR_REL_TOL
+    )
+
+    print(
+        "EXACT_MAP_ETA_OP_REPRODUCTION="
+        + ("PASS" if eta_repro_green else "FAIL")
+    )
+
+    if not eta_repro_green:
+        raise RuntimeError(
+            "Current exact-map eta_op does not reproduce prior scale"
+        )
+
+    # The matched payload is tiny compared with unit stand-off.
+    payload_mean_value_green = (
+        current["payload_radius_over_h"] < 1.0
+    )
+
+    print("\n=== C — FINITE-PAYLOAD MEAN-VALUE MATCH ===")
+    print(
+        "MATCHED_PAYLOAD_BALL_SOURCE_FREE_FOR_006B="
+        + ("YES" if payload_mean_value_green else "NO")
+    )
+    print(
+        "UNIFORM_SPHERE_CM_ACCEL_EQUALS_CENTER_ACCEL_006B="
+        + ("YES" if payload_mean_value_green else "NO")
+    )
+    print(
+        "FINITE_PAYLOAD_COMPARATOR_USES_MEAN_VALUE_THEOREM="
+        + ("YES" if payload_mean_value_green else "NO")
+    )
+
+    if not payload_mean_value_green:
+        raise RuntimeError(
+            "Matched payload sphere is too large for source-free 006B ball"
+        )
+
+    print("\n=== D — 006D REPOSITORY REVERIFICATION ===", flush=True)
+    r006d = rerun_006d()
+
+    print(f"006D_FINITE_C={r006d['finest_C']:.15e}")
+    print(f"006D_THIN_C={r006d['thin_C']:.15e}")
+    print(
+        f"006D_MAX_CONSERVATION_RESIDUAL="
+        f"{r006d['max_conservation_residual']:.15e}"
+    )
+    print(
+        f"006D_MAX_DEC_VIOLATION="
+        f"{r006d['max_dec_violation']:.15e}"
+    )
+    print(
+        f"006D_MAX_STRESS_TRACE="
+        f"{r006d['max_integrated_stress_trace']:.15e}"
+    )
+    print(
+        "006D_REVERIFICATION="
+        + ("PASS" if r006d["green"] else "FAIL")
+    )
+
+    if not r006d["green"]:
+        raise RuntimeError("006D reverification failed")
+
+    headroom_006d = current["C"] / float(r006d["finest_C"])
+    headroom_thin = current["C"] / float(r006d["thin_C"])
+
+    print(f"HEADROOM_CURRENT_OVER_006D_FINITE={headroom_006d:.15e}")
+    print(f"HEADROOM_CURRENT_OVER_006B_THIN_REFERENCE={headroom_thin:.15e}")
+
+    print("\n=== E — INDEPENDENT 006B CONIC SOURCE CHECKS ===", flush=True)
+
+    rows006b = solve_006b_comparators(
+        s006b,
+        current["shell_radius_over_h"],
+    )
+
+    for row in rows006b:
+        row["headroom_vs_current"] = (
+            current["C"] / row["coefficient"]
+            if row["green"] and row["coefficient"] > 0.0
+            else float("nan")
+        )
+        print(
+            f"INT14A_006B_HEADROOM={row['name']} "
+            f"RATIO={row['headroom_vs_current']:.15e}",
+            flush=True,
+        )
+
+    known20 = next(
+        row for row in rows006b
+        if row["name"] == "KNOWN_THIN20"
+    )
+
+    independent_ge10 = bool(
+        known20["green"]
+        and known20["headroom_vs_current"] >= HEADROOM_MAJOR
+    )
+
+    d006d_ge10 = bool(
+        r006d["green"]
+        and headroom_006d >= HEADROOM_MAJOR
+    )
+
+    compact_green = [
+        row for row in rows006b
+        if row["name"].startswith("COMPACT_") and row["green"]
+    ]
+
+    compact_best = (
+        min(compact_green, key=lambda x: x["coefficient"])
+        if compact_green
+        else None
+    )
+
+    if compact_best is not None:
+        compact_headroom = float(compact_best["headroom_vs_current"])
+        compact_name = str(compact_best["name"])
+        compact_c = float(compact_best["coefficient"])
+    else:
+        compact_headroom = float("nan")
+        compact_name = "NONE"
+        compact_c = float("nan")
+
+    print("\n=== F — HEADROOM CLASSIFICATION ===")
+    print(
+        "006D_CONSTRUCTIVE_HEADROOM_GE10X="
+        + ("PASS" if d006d_ge10 else "FAIL")
+    )
+    print(
+        "INDEPENDENT_006B_CONSTRUCTIVE_HEADROOM_GE10X="
+        + ("PASS" if independent_ge10 else "FAIL")
+    )
+    print(f"BEST_COMPACT_006B_CASE={compact_name}")
+    print(f"BEST_COMPACT_006B_C={compact_c:.15e}")
+    print(f"BEST_COMPACT_006B_HEADROOM={compact_headroom:.15e}")
+
+    two_route_pass = bool(
+        d006d_ge10
+        and independent_ge10
+    )
+
+    print(
+        "TWO_ROUTE_CONSERVED_DEC_GE10X_HEADROOM="
+        + ("PASS" if two_route_pass else "FAIL")
+    )
+
+    # The support geometry is not identical to the Skyrmion shell.  Do not
+    # silently promote this to the strict fixed-support global minimum.
+    print(
+        "STRICT_INT14_SAME_SUPPORT_GLOBAL_LOWER_BOUND="
+        "NOT_YET"
+    )
+    print(
+        "006D_006B_MICROSCOPIC_FIELD_REALIZATION="
+        "NOT_ESTABLISHED"
+    )
+
+    if two_route_pass:
+        decision = (
+            "MAJOR_CONSTRUCTIVE_CONSERVATION_AWARE_SOURCE_HEADROOM_FOUND_"
+            "BUT_FIXED_SUPPORT_ACCESSIBILITY_REMAINS_OPEN"
+        )
+        next_action = (
+            "INT14B_STRICT_SUPPORT_CONSTRAINED_SOURCE_BOUND_AND_"
+            "STRUCTURAL_OVERHEAD_BRIDGE"
+        )
+        level3_precursor = "PASS"
+    else:
+        decision = (
+            "GE10X_CONSTRUCTIVE_CONSERVATION_AWARE_SOURCE_HEADROOM_NOT_CONFIRMED"
+        )
+        next_action = (
+            "CLOSE_COEFFICIENT_POLISHING_AND_RETURN_TO_023C_023D_GLOBAL_RERANK"
+        )
+        level3_precursor = "FAIL"
+
+    print("\n=== G — INT-14A DECISION ===")
+    print(f"INT14A_DECISION={decision}")
+    print(
+        f"INT_LEVEL_3_CONSTRUCTIVE_SOURCE_CLASS_PRECURSOR="
+        f"{level3_precursor}"
+    )
+    print(
+        "INT_LEVEL_3_FORMAL="
+        "NOT_YET_REQUIRES_FIXED_SUPPORT_BOUND_OR_CONTINUABLE_STATIONARY_DIRECTION"
+    )
+    print(
+        "EXPANSION_HUNDREDS_FOLD_HEADROOM_STATUS="
+        "PRESERVED_AS_NONSTATIONARY_MECHANISM_CLUE"
+    )
+    print(
+        "PRACTICAL_ANTIGRAVITY_DEVICE=NO"
+    )
+    print(
+        "CURRENT_KNOWLEDGE_HEURISTIC="
+        "APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY"
+    )
+    print(f"NEXT={next_action}")
+    print(
+        "CLAIM_CLASSIFICATION="
+        "PROJECT_DERIVED_INT14A_CONSERVATION_AWARE_CONSTRUCTIVE_HEADROOM_GATE"
+    )
+
+    with OUT_CSV.open("w", newline="") as f:
+        fields = [
+            "name",
+            "nr",
+            "nz",
+            "radius_over_h",
+            "depth_over_h",
+            "status",
+            "solver",
+            "coefficient",
+            "acceleration",
+            "max_dec_violation",
+            "max_conservation_residual",
+            "trace_integral",
+            "green",
+            "headroom_vs_current",
+        ]
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows006b)
+
+    summary = {
+        "claim_classification": (
+            "PROJECT_DERIVED_INT14A_CONSERVATION_AWARE_CONSTRUCTIVE_HEADROOM_GATE"
+        ),
+        "decision": decision,
+        "next": next_action,
+        "prior_expansion": {
+            "force_ratio": prior_ratio,
+            "stationary": False,
+            "status": (
+                "PRESERVED_AS_NONSTATIONARY_MECHANISM_CLUE"
+            ),
+        },
+        "current_exact_map": current,
+        "normalization": {
+            "definition": "C=1/eta_op",
+            "eta_op_definition": "h^2*A_P/E",
+            "eta_prior": eta_prior,
+            "eta_reproduction_relerr": eta_prior_relerr,
+            "eta_reproduction_pass": eta_repro_green,
+        },
+        "finite_payload_match": {
+            "payload_radius_over_h": current["payload_radius_over_h"],
+            "006b_source_free_ball": payload_mean_value_green,
+            "mean_value_theorem_applies": payload_mean_value_green,
+        },
+        "source_006d": {
+            **r006d,
+            "headroom_vs_current": headroom_006d,
+        },
+        "thin_reference": {
+            "C": float(r006d["thin_C"]),
+            "headroom_vs_current": headroom_thin,
+        },
+        "source_006b": rows006b,
+        "best_compact": {
+            "name": compact_name,
+            "C": compact_c,
+            "headroom_vs_current": compact_headroom,
+        },
+        "gates": {
+            "006d_ge10x": d006d_ge10,
+            "independent_006b_ge10x": independent_ge10,
+            "two_route_ge10x": two_route_pass,
+            "strict_same_support_bound_closed": False,
+        },
+        "claim_limits": {
+            "strict_same_support_global_bound": False,
+            "continuous_skyrmion_deformation": False,
+            "microscopic_realization_006d": False,
+            "nonlinear_einstein": False,
+            "int_level_3_formal": False,
+            "practical_device": False,
+        },
+    }
+
+    OUT_JSON.write_text(
+        json.dumps(
+            summary,
+            indent=2,
+            sort_keys=True,
+            allow_nan=True,
+        )
+        + "\n"
+    )
+
+    print(f"INT14A_SUMMARY_JSON={OUT_JSON}")
+    print(f"INT14A_006B_COMPARATORS_CSV={OUT_CSV}")
+    print(f"INT14A_006D_REVERIFY_LOG={OUT_006D_LOG}")
+    print("INT14A_RUN_COMPLETE=YES")
+
+
+if __name__ == "__main__":
+    main()

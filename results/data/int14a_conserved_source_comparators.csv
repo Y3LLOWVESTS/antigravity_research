@@ -1,0 +1,4 @@
+name,nr,nz,radius_over_h,depth_over_h,status,solver,coefficient,acceleration,max_dec_violation,max_conservation_residual,trace_integral,green,headroom_vs_current
+KNOWN_THIN20,20,2,5.0,0.125,optimal,CLARABEL,32.95475466694425,0.9999999999476894,2.4587443192558567e-10,2.834803105096163e-14,1.1314355605310453e-14,True,12.81217460653181
+COMPACT_R_MATCH_D0P5,14,4,2.164943040252961,0.5,infeasible,CLARABEL,nan,nan,inf,inf,nan,False,nan
+COMPACT_R_MATCH_D1P0,14,6,2.164943040252961,1.0,infeasible,CLARABEL,nan,nan,inf,inf,nan,False,nan

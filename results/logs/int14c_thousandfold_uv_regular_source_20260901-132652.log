@@ -1,0 +1,43 @@
+=== INT-14C — THOUSAND-FOLD UV / REGULAR-SOURCE VERIFICATION ===
+
+=== A — FIXED VERIFICATION TARGETS ===
+CURRENT_C=4.222220709083088e+02
+C_1000_TARGET=4.222220709083088e-01
+C_2000_TARGET=2.111110354541544e-01
+C_4000_TARGET=1.055555177270772e-01
+R99_OVER_H=3.353681771042527e+00
+PAYLOAD_RADIUS_OVER_H=4.329886080505922e-02
+CORE_RADIUS_OVER_H=1.043298860805059e+00
+CORE_ACTIVE_FRACTION=-1.757579994798524e-02
+ABSOLUTE_DEC_KERNEL_C_FLOOR=4.686978367539733e-04
+ABSOLUTE_RELAXED_HEADROOM_CEILING=9.008406649206269e+05
+EXPANSION_HUNDREDS_FOLD_HEADROOM_STATUS=PRESERVED_AS_NONSTATIONARY_MECHANISM_CLUE
+
+=== B — TRACK A: UNRESTRICTED CONTINUUM AUDIT ===
+INT14C_SOLVE_BEGIN=UNRESTRICTED_N12 GRID=12x24
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py", line 2536, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py", line 1856, in main
+    row = solve_diagnostic_case(
+        int14b,
+        case,
+    )
+  File "/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py", line 1161, in solve_diagnostic_case
+    minimum_volume_fraction_for_quantity(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        cell_energy,
+        ^^^^^^^^^^^^
+        volumes,
+        ^^^^^^^^
+        0.50,
+        ^^^^^
+    )
+    ^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py", line 407, in minimum_volume_fraction_for_quantity
+    cumulative = np.cumsum(q[order])
+                           ~^^^^^^^
+IndexError: index 12 is out of bounds for axis 0 with size 12
+
+__INT14C_RUN_RC__=1

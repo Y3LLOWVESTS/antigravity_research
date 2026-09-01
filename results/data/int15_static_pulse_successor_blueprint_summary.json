@@ -1,0 +1,618 @@
+{
+  "claim_classification": "PROJECT_DERIVED_INT15_STATIC_PULSE_SUCCESSOR_BLUEPRINT_SYNTHESIS",
+  "claim_limits": {
+    "INT14D_thousandfold_continuum_certified": false,
+    "full_cycle_energy_closed": false,
+    "full_hessian_stability": false,
+    "nonlinear_einstein_skyrme": false,
+    "practical_device": false,
+    "pulse_dynamic_Tmunu_constructed": false,
+    "teacher_is_microscopic_field": false
+  },
+  "project_interpretation": {
+    "next": "RETURN_TO_FIELD_MODEL_DESIGN_USING_INT15_TEACHER_TARGETS",
+    "robust_constructive_headroom": "INT14A_006B_006D_12P8_TO_17P9X",
+    "static_and_pulse_tandem": true,
+    "very_large_teacher_headroom": "DESIGN_DIAGNOSTIC_NOT_CONTINUUM_CERTIFIED"
+  },
+  "pulse": {
+    "dynamic_completion_warning": "Pulse Xi values are ideal peak-state seed metrics only. A conserved dynamic Tmunu and complete creation/collapse/reset cycle have not been constructed.",
+    "overhead_budgets": {
+      "retain_1000x": {
+        "examples": [
+          {
+            "feasible": true,
+            "kappa_cycle": 1.0,
+            "maximum_return_cancellation_fraction": 0.9419630943769732
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 2.0,
+            "maximum_return_cancellation_fraction": 0.8839261887539465
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 5.0,
+            "maximum_return_cancellation_fraction": 0.7098154718848664
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 10.0,
+            "maximum_return_cancellation_fraction": 0.41963094376973264
+          },
+          {
+            "feasible": false,
+            "kappa_cycle": 20.0,
+            "maximum_return_cancellation_fraction": NaN
+          },
+          {
+            "feasible": false,
+            "kappa_cycle": 50.0,
+            "maximum_return_cancellation_fraction": NaN
+          }
+        ],
+        "maximum_effective_cycle_penalty": 17.23041553068673
+      },
+      "retain_100x": {
+        "examples": [
+          {
+            "feasible": true,
+            "kappa_cycle": 1.0,
+            "maximum_return_cancellation_fraction": 0.9941963094376973
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 2.0,
+            "maximum_return_cancellation_fraction": 0.9883926188753946
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 5.0,
+            "maximum_return_cancellation_fraction": 0.9709815471884866
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 10.0,
+            "maximum_return_cancellation_fraction": 0.9419630943769732
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 20.0,
+            "maximum_return_cancellation_fraction": 0.8839261887539466
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 50.0,
+            "maximum_return_cancellation_fraction": 0.7098154718848664
+          }
+        ],
+        "maximum_effective_cycle_penalty": 172.30415530686733
+      },
+      "retain_10x": {
+        "examples": [
+          {
+            "feasible": true,
+            "kappa_cycle": 1.0,
+            "maximum_return_cancellation_fraction": 0.9994196309437697
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 2.0,
+            "maximum_return_cancellation_fraction": 0.9988392618875395
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 5.0,
+            "maximum_return_cancellation_fraction": 0.9970981547188487
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 10.0,
+            "maximum_return_cancellation_fraction": 0.9941963094376973
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 20.0,
+            "maximum_return_cancellation_fraction": 0.9883926188753946
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 50.0,
+            "maximum_return_cancellation_fraction": 0.9709815471884866
+          }
+        ],
+        "maximum_effective_cycle_penalty": 1723.0415530686732
+      },
+      "retain_1x": {
+        "examples": [
+          {
+            "feasible": true,
+            "kappa_cycle": 1.0,
+            "maximum_return_cancellation_fraction": 0.999941963094377
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 2.0,
+            "maximum_return_cancellation_fraction": 0.999883926188754
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 5.0,
+            "maximum_return_cancellation_fraction": 0.9997098154718849
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 10.0,
+            "maximum_return_cancellation_fraction": 0.9994196309437697
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 20.0,
+            "maximum_return_cancellation_fraction": 0.9988392618875395
+          },
+          {
+            "feasible": true,
+            "kappa_cycle": 50.0,
+            "maximum_return_cancellation_fraction": 0.9970981547188487
+          }
+        ],
+        "maximum_effective_cycle_penalty": 17230.415530686732
+      }
+    },
+    "physical_duration_examples": [
+      {
+        "duration_seconds": 1.1186678255403367e-09,
+        "h_m": 0.01,
+        "theta_over_R99": 10.0,
+        "theta_total": 33.53681771042527
+      },
+      {
+        "duration_seconds": 3.35600347662101e-09,
+        "h_m": 0.01,
+        "theta_over_R99": 30.0,
+        "theta_total": 100.61045313127582
+      },
+      {
+        "duration_seconds": 1.1186678255403367e-08,
+        "h_m": 0.01,
+        "theta_over_R99": 100.0,
+        "theta_total": 335.3681771042527
+      },
+      {
+        "duration_seconds": 1.1186678255403367e-08,
+        "h_m": 0.1,
+        "theta_over_R99": 10.0,
+        "theta_total": 33.53681771042527
+      },
+      {
+        "duration_seconds": 3.3560034766210104e-08,
+        "h_m": 0.1,
+        "theta_over_R99": 30.0,
+        "theta_total": 100.61045313127582
+      },
+      {
+        "duration_seconds": 1.1186678255403368e-07,
+        "h_m": 0.1,
+        "theta_over_R99": 100.0,
+        "theta_total": 335.3681771042527
+      },
+      {
+        "duration_seconds": 1.1186678255403366e-07,
+        "h_m": 1.0,
+        "theta_over_R99": 10.0,
+        "theta_total": 33.53681771042527
+      },
+      {
+        "duration_seconds": 3.3560034766210104e-07,
+        "h_m": 1.0,
+        "theta_over_R99": 30.0,
+        "theta_total": 100.61045313127582
+      },
+      {
+        "duration_seconds": 1.1186678255403368e-06,
+        "h_m": 1.0,
+        "theta_over_R99": 100.0,
+        "theta_total": 335.3681771042527
+      }
+    ],
+    "raw_teacher_headroom_vs_B7": 17230.415530686732
+  },
+  "successor_blueprint": {
+    "field_gap_classification": "MAJOR_GEOMETRIC_REORGANIZATION_PLUS_CONSTITUTIVE_STRESS_GAP",
+    "pulse_targets": [
+      "Treat the efficient static tensor only as a peak-state target; construct the additional T0i and dynamic Tij sectors required by full stress-energy conservation during formation and collapse.",
+      "Use complete-cycle payload impulse integral int a(t) dt as the primary transient observable.",
+      "Track creation, support, reset, radiation/loss energy and reaction momentum; a collapsing source is acceptable only if net cycle impulse remains outward.",
+      "Exploit pulse operation only when the total cycle penalty remains inside the explicit headroom budget rather than assuming instability is free.",
+      "Run static and pulse successor realizations in tandem; do not discard a transient realization solely because it lacks infinite lifetime."
+    ],
+    "static_targets": [
+      "Preserve positive total active mass and exact local stress-energy conservation while moving useful source weight toward the certified payload-kernel high-leverage region.",
+      "Reproduce the teacher F90 productive skeleton using a microscopic field rather than a source mask.",
+      "Generate the teacher-like high anisotropic stress per unit energy without violating the declared energy conditions.",
+      "Keep topology/stability/scaffolding energy preferentially in low-kernel-leverage regions.",
+      "Optimize matched finite-payload acceleration per total field energy, not negative active density by itself."
+    ],
+    "teacher_numeric_targets": {
+      "A_rho": 0.41435529126257964,
+      "A_stress_trace": 0.5856447087390132,
+      "F50_energy_fraction": 0.07301723367570537,
+      "F90_energy_fraction": 0.19660247357465246,
+      "F90_geometry": {
+        "component_count": 1,
+        "largest_component_cells": 3,
+        "payload_surface_distance_mean": 0.04943778836823031,
+        "payload_surface_distance_min": 0.005992276740667102,
+        "r_max": 0.10480255534507896,
+        "r_mean": 0.04569973860610415,
+        "r_min": 0.03493418511502632,
+        "weight": 0.9491294086156759,
+        "z_max": 1.0829597385658158,
+        "z_mean": 1.076090400004233,
+        "z_min": 1.0130913683357634
+      },
+      "R99_over_h": 3.353681771042527,
+      "cancellation": 1.0592218990859925,
+      "force_effective_length_over_h": 0.12970419327816124,
+      "outward_force_weighted_stress": {
+        "S_over_rho": {
+          "q05": 0.5856199647241277,
+          "q25": 2.1064476590984436,
+          "q50": 2.6496291391878843,
+          "q75": 3.2451757992399894,
+          "q95": 3.721613127281673
+        },
+        "anisotropy_over_rho": {
+          "q05": 0.15902817429529748,
+          "q25": 0.1591062035759489,
+          "q50": 0.15920374017676317,
+          "q75": 1.3879634933662364,
+          "q95": 1.80094087183899
+        },
+        "dec_ratio": {
+          "q05": 0.9999999996540762,
+          "q25": 0.9999999998726012,
+          "q50": 0.9999999999549795,
+          "q75": 0.9999999999704102,
+          "q95": 0.9999999999827549
+        },
+        "lambda_max_over_rho": {
+          "q05": 0.5239235172857608,
+          "q25": 0.9999999997886583,
+          "q50": 0.9999999999045451,
+          "q75": 0.9999999999451931,
+          "q95": 0.9999999999777115
+        },
+        "lambda_mid_over_rho": {
+          "q05": -0.38496456431059756,
+          "q25": 0.9944904687115051,
+          "q50": 0.9999999994228045,
+          "q75": 0.9999999996766096,
+          "q95": 0.9999999998796537
+        },
+        "lambda_min_over_rho": {
+          "q05": -0.9999999998640774,
+          "q25": -0.38846792761266696,
+          "q50": 0.2753716882482352,
+          "q75": 0.5580470738120366,
+          "q95": 0.7841873822630776
+        }
+      },
+      "payload_radius_over_h": 0.043298860805059215,
+      "productive_F90_stress": {
+        "S_over_rho": {
+          "q05": 1.2333105969362572,
+          "q25": 1.3089228954346646,
+          "q50": 1.8966663477721135,
+          "q75": 2.735626460259468,
+          "q95": 3.619703259485569
+        },
+        "dec_ratio": {
+          "q05": 0.9999999996750369,
+          "q25": 0.9999999996905988,
+          "q50": 0.9999999998115628,
+          "q75": 0.9999999999104147,
+          "q95": 0.9999999999707558
+        },
+        "energy_fraction": 0.19660247357465246,
+        "gross_outward_fraction": 0.9218330564913331,
+        "lambda_max_over_rho": {
+          "q05": 0.9999999996750369,
+          "q25": 0.9999999996905988,
+          "q50": 0.9999999998115628,
+          "q75": 0.9999999999104147,
+          "q95": 0.9999999999707558
+        },
+        "lambda_mid_over_rho": {
+          "q05": -0.3782725673668848,
+          "q25": -0.27035692468399725,
+          "q50": 0.5684842909813466,
+          "q75": 0.9999999994594541,
+          "q95": 0.9999999998362227
+        },
+        "lambda_min_over_rho": {
+          "q05": -0.800987358174697,
+          "q25": -0.800987358174697,
+          "q50": -0.631985630787891,
+          "q75": 0.013343039647109922,
+          "q95": 0.6752465754300923
+        }
+      }
+    }
+  },
+  "teacher": {
+    "anatomy": {
+      "A": 1.000000000001593,
+      "A_rho": 0.41435529126257964,
+      "A_trace": 0.5856447087390132,
+      "E": 0.02450446248126442,
+      "F_energy_fractions": {
+        "F25": 0.07301723367570537,
+        "F50": 0.07301723367570537,
+        "F75": 0.11584469999581849,
+        "F90": 0.19660247357465246,
+        "F99": 0.3565478640212465
+      },
+      "cancellation": 1.0592218990859925,
+      "geometry": {
+        "F50": {
+          "component_count": 1,
+          "largest_component_cells": 1,
+          "payload_surface_distance_mean": 0.04671622411163371,
+          "payload_surface_distance_min": 0.04671622411163371,
+          "r_max": 0.03493418511502632,
+          "r_mean": 0.03493418511502632,
+          "r_min": 0.03493418511502632,
+          "weight": 0.7095675781359988,
+          "z_max": 1.0829597385658158,
+          "z_mean": 1.0829597385658158,
+          "z_min": 1.0829597385658158
+        },
+        "F90": {
+          "component_count": 1,
+          "largest_component_cells": 3,
+          "payload_surface_distance_mean": 0.04943778836823031,
+          "payload_surface_distance_min": 0.005992276740667102,
+          "r_max": 0.10480255534507896,
+          "r_mean": 0.04569973860610415,
+          "r_min": 0.03493418511502632,
+          "weight": 0.9491294086156759,
+          "z_max": 1.0829597385658158,
+          "z_mean": 1.076090400004233,
+          "z_min": 1.0130913683357634
+        }
+      },
+      "gross_inward": 0.029610949543043486,
+      "gross_outward": 1.0296109495446364,
+      "productive_F90_zone": {
+        "S_over_rho": {
+          "q05": 1.2333105969362572,
+          "q25": 1.3089228954346646,
+          "q50": 1.8966663477721135,
+          "q75": 2.735626460259468,
+          "q95": 3.619703259485569
+        },
+        "dec_ratio": {
+          "q05": 0.9999999996750369,
+          "q25": 0.9999999996905988,
+          "q50": 0.9999999998115628,
+          "q75": 0.9999999999104147,
+          "q95": 0.9999999999707558
+        },
+        "energy_fraction": 0.19660247357465246,
+        "gross_outward_fraction": 0.9218330564913331,
+        "lambda_max_over_rho": {
+          "q05": 0.9999999996750369,
+          "q25": 0.9999999996905988,
+          "q50": 0.9999999998115628,
+          "q75": 0.9999999999104147,
+          "q95": 0.9999999999707558
+        },
+        "lambda_mid_over_rho": {
+          "q05": -0.3782725673668848,
+          "q25": -0.27035692468399725,
+          "q50": 0.5684842909813466,
+          "q75": 0.9999999994594541,
+          "q95": 0.9999999998362227
+        },
+        "lambda_min_over_rho": {
+          "q05": -0.800987358174697,
+          "q25": -0.800987358174697,
+          "q50": -0.631985630787891,
+          "q75": 0.013343039647109922,
+          "q95": 0.6752465754300923
+        }
+      },
+      "rho_trace_ledger_relerr": 0.0,
+      "scaffolding_complement_zone": {
+        "S_over_rho": {
+          "q05": -0.8168568581243015,
+          "q25": -0.6505757876235695,
+          "q50": 0.5676749811520667,
+          "q75": 1.2330985501122154,
+          "q95": 3.3169909703630096
+        },
+        "dec_ratio": {
+          "q05": 0.9999999987554533,
+          "q25": 0.9999999996534007,
+          "q50": 0.9999999998779517,
+          "q75": 0.9999999999394974,
+          "q95": 0.9999999999624404
+        },
+        "energy_fraction": 0.8033975264252099,
+        "gross_outward_fraction": 0.07816694350862222,
+        "lambda_max_over_rho": {
+          "q05": 0.18314313999799248,
+          "q25": 0.34942421224861314,
+          "q50": 0.5240671350050665,
+          "q75": 0.9999999996440868,
+          "q95": 0.9999999999241964
+        },
+        "lambda_mid_over_rho": {
+          "q05": -0.9999999999288786,
+          "q25": -0.9999999987965268,
+          "q50": -0.7123394579826993,
+          "q75": 0.06348958346294915,
+          "q95": 0.9999999995455078
+        },
+        "lambda_min_over_rho": {
+          "q05": -0.9999999999433054,
+          "q25": -0.9999999999262746,
+          "q50": -0.999999999726571,
+          "q75": -0.7208480930908534,
+          "q95": 0.41203266596598925
+        }
+      },
+      "signed_ledger": {
+        "SMINUS_KMINUS": 0.02419166528558689,
+        "SMINUS_KPLUS": -0.022113282135708838,
+        "SPLUS_KMINUS": -0.007497667407295509,
+        "SPLUS_KPLUS": 1.0054192842590035
+      },
+      "signed_ledger_relerr": 6.883382752665005e-15,
+      "stress_stats": {
+        "energy_weighted": {
+          "S_over_rho": {
+            "q05": -0.8168568581242935,
+            "q25": -0.4684646010212017,
+            "q50": 0.5873087880073984,
+            "q75": 2.1974143774872306,
+            "q95": 3.840722459292094
+          },
+          "anisotropy_over_rho": {
+            "q05": 0.1591927834964078,
+            "q25": 1.3486240260134652,
+            "q50": 1.5184923057840731,
+            "q75": 1.719985560153407,
+            "q95": 1.800987358048486
+          },
+          "dec_ratio": {
+            "q05": 0.9999999988398998,
+            "q25": 0.9999999996750366,
+            "q50": 0.9999999998737891,
+            "q75": 0.9999999999411511,
+            "q95": 0.9999999999858411
+          },
+          "lambda_max_over_rho": {
+            "q05": 0.18314313999799295,
+            "q25": 0.4231312023626402,
+            "q50": 0.9999999982327203,
+            "q75": 0.9999999998166726,
+            "q95": 0.9999999999858411
+          },
+          "lambda_mid_over_rho": {
+            "q05": -0.9999999999288786,
+            "q25": -0.999999998258211,
+            "q50": -0.37827256736688436,
+            "q75": 0.9999999987043837,
+            "q95": 0.999999999930415
+          },
+          "lambda_min_over_rho": {
+            "q05": -0.9999999999433054,
+            "q25": -0.9999999999104372,
+            "q50": -0.9999999961972103,
+            "q75": -0.7199855605093206,
+            "q95": 0.8407224593758381
+          }
+        },
+        "outward_force_weighted": {
+          "S_over_rho": {
+            "q05": 0.5856199647241277,
+            "q25": 2.1064476590984436,
+            "q50": 2.6496291391878843,
+            "q75": 3.2451757992399894,
+            "q95": 3.721613127281673
+          },
+          "anisotropy_over_rho": {
+            "q05": 0.15902817429529748,
+            "q25": 0.1591062035759489,
+            "q50": 0.15920374017676317,
+            "q75": 1.3879634933662364,
+            "q95": 1.80094087183899
+          },
+          "dec_ratio": {
+            "q05": 0.9999999996540762,
+            "q25": 0.9999999998726012,
+            "q50": 0.9999999999549795,
+            "q75": 0.9999999999704102,
+            "q95": 0.9999999999827549
+          },
+          "lambda_max_over_rho": {
+            "q05": 0.5239235172857608,
+            "q25": 0.9999999997886583,
+            "q50": 0.9999999999045451,
+            "q75": 0.9999999999451931,
+            "q95": 0.9999999999777115
+          },
+          "lambda_mid_over_rho": {
+            "q05": -0.38496456431059756,
+            "q25": 0.9944904687115051,
+            "q50": 0.9999999994228045,
+            "q75": 0.9999999996766096,
+            "q95": 0.9999999998796537
+          },
+          "lambda_min_over_rho": {
+            "q05": -0.9999999998640774,
+            "q25": -0.38846792761266696,
+            "q50": 0.2753716882482352,
+            "q75": 0.5580470738120366,
+            "q95": 0.7841873822630776
+          }
+        }
+      }
+    },
+    "coefficient": 0.02450446248126442,
+    "current_B7_C": 422.22207090830875,
+    "independent_force": {
+      "A_base": 1.000000000001593,
+      "A_independent_high_order": 1.0000039300080221,
+      "pass": true,
+      "relative_error": 3.929990984279752e-06
+    },
+    "raw_headroom_vs_b7": 17230.415530686732,
+    "robust_006D_C": 23.591586299249
+  },
+  "teacher_vs_b7": {
+    "B7_F50_energy_fraction": 0.04329747826978172,
+    "B7_F90_energy_fraction": 0.15700671261177918,
+    "B7_S_over_rho_energy_weighted": {
+      "q05": -0.453180619252082,
+      "q25": 0.8263580510871023,
+      "q50": 1.2386483307602523,
+      "q75": 1.4279230523971491,
+      "q95": 1.536673741242046
+    },
+    "B7_S_over_rho_outward_weighted": {
+      "q05": -1.923624308084995,
+      "q25": 0.12255733757028284,
+      "q50": 1.259015685264974,
+      "q75": 1.4403287215752538,
+      "q95": 1.5419728401659587
+    },
+    "F50_cross_overlap": {
+      "b7_energy_in_teacher_mask": 3.4521199573947303e-06,
+      "b7_outward_in_teacher_mask": 0.0,
+      "teacher_energy_in_b7_mask": 0.1495687291172349,
+      "teacher_outward_in_b7_mask": 0.11358126064913855
+    },
+    "F90_cross_overlap": {
+      "b7_energy_in_teacher_mask": 1.822886938756719e-05,
+      "b7_outward_in_teacher_mask": 0.0037520304298721617,
+      "teacher_energy_in_b7_mask": 0.6480593576112403,
+      "teacher_outward_in_b7_mask": 0.11412897670892432
+    },
+    "available": true,
+    "energy_JSD": 0.6913477027770164,
+    "energy_cosine_similarity": 0.0012908986630556808,
+    "exact_A": 28.817876381145645,
+    "exact_E": 1822.4727005552854,
+    "exact_eta_op": 0.0023684219014149157,
+    "exact_force_repro_relerr_to_int14a": 0.0,
+    "exact_force_reproduction_pass": true,
+    "outward_JSD": 0.6756020408943837,
+    "outward_cosine_similarity": 0.011274256231299667,
+    "payload_radius_over_h": 0.043298860805059215,
+    "shell_radius_over_h": 2.164943040252961,
+    "signed_influence_cosine_similarity": -0.1354724351292655
+  }
+}

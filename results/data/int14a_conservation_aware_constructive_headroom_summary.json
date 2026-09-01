@@ -1,0 +1,133 @@
+{
+  "best_compact": {
+    "C": NaN,
+    "headroom_vs_current": NaN,
+    "name": "NONE"
+  },
+  "claim_classification": "PROJECT_DERIVED_INT14A_CONSERVATION_AWARE_CONSTRUCTIVE_HEADROOM_GATE",
+  "claim_limits": {
+    "continuous_skyrmion_deformation": false,
+    "int_level_3_formal": false,
+    "microscopic_realization_006d": false,
+    "nonlinear_einstein": false,
+    "practical_device": false,
+    "strict_same_support_global_bound": false
+  },
+  "current_exact_map": {
+    "A": 28.817876381145645,
+    "C": 422.22207090830875,
+    "E": 1822.4727005552854,
+    "F50": 0.04092922160695223,
+    "F90": 0.14917426395302938,
+    "I": 60.8680423971251,
+    "active_total_relerr": 8.69850507401182e-07,
+    "cancellation": 69.014718686455,
+    "degree": 6.999999999999997,
+    "eta_op": 0.0023684219014149157,
+    "fission_margin": 0.03355363351896305,
+    "h": 0.38701612745649,
+    "payload_radius": 0.016757357432051617,
+    "payload_radius_over_h": 0.043298860805059215,
+    "shell_radius": 0.8378678716025809,
+    "shell_radius_over_h": 2.164943040252961,
+    "virial_relerr": 7.151981387379543e-08
+  },
+  "decision": "MAJOR_CONSTRUCTIVE_CONSERVATION_AWARE_SOURCE_HEADROOM_FOUND_BUT_FIXED_SUPPORT_ACCESSIBILITY_REMAINS_OPEN",
+  "finite_payload_match": {
+    "006b_source_free_ball": true,
+    "mean_value_theorem_applies": true,
+    "payload_radius_over_h": 0.043298860805059215
+  },
+  "gates": {
+    "006d_ge10x": true,
+    "independent_006b_ge10x": true,
+    "strict_same_support_bound_closed": false,
+    "two_route_ge10x": true
+  },
+  "next": "INT14B_STRICT_SUPPORT_CONSTRAINED_SOURCE_BOUND_AND_STRUCTURAL_OVERHEAD_BRIDGE",
+  "normalization": {
+    "definition": "C=1/eta_op",
+    "eta_op_definition": "h^2*A_P/E",
+    "eta_prior": 0.0023697770573114793,
+    "eta_reproduction_pass": true,
+    "eta_reproduction_relerr": 0.0005718495300570915
+  },
+  "prior_expansion": {
+    "force_ratio": 639.6064989266501,
+    "stationary": false,
+    "status": "PRESERVED_AS_NONSTATIONARY_MECHANISM_CLUE"
+  },
+  "source_006b": [
+    {
+      "acceleration": 0.9999999999476894,
+      "coefficient": 32.95475466694425,
+      "depth_over_h": 0.125,
+      "green": true,
+      "headroom_vs_current": 12.81217460653181,
+      "max_conservation_residual": 2.834803105096163e-14,
+      "max_dec_violation": 2.4587443192558567e-10,
+      "name": "KNOWN_THIN20",
+      "nr": 20,
+      "nz": 2,
+      "radius_over_h": 5.0,
+      "solver": "CLARABEL",
+      "status": "optimal",
+      "trace_integral": 1.1314355605310453e-14
+    },
+    {
+      "acceleration": NaN,
+      "coefficient": NaN,
+      "depth_over_h": 0.5,
+      "green": false,
+      "headroom_vs_current": NaN,
+      "max_conservation_residual": Infinity,
+      "max_dec_violation": Infinity,
+      "name": "COMPACT_R_MATCH_D0P5",
+      "nr": 14,
+      "nz": 4,
+      "radius_over_h": 2.164943040252961,
+      "solver": "CLARABEL",
+      "status": "infeasible",
+      "trace_integral": NaN
+    },
+    {
+      "acceleration": NaN,
+      "coefficient": NaN,
+      "depth_over_h": 1.0,
+      "green": false,
+      "headroom_vs_current": NaN,
+      "max_conservation_residual": Infinity,
+      "max_dec_violation": Infinity,
+      "name": "COMPACT_R_MATCH_D1P0",
+      "nr": 14,
+      "nz": 6,
+      "radius_over_h": 2.164943040252961,
+      "solver": "CLARABEL",
+      "status": "infeasible",
+      "trace_integral": NaN
+    }
+  ],
+  "source_006d": {
+    "dec": "PASS",
+    "finest_C": 23.591586299249,
+    "green": true,
+    "headroom_vs_current": 17.897146277177196,
+    "laue": "PASS",
+    "local_conservation": "PASS",
+    "max_conservation_residual": 3.103073353827e-14,
+    "max_dec_violation": 0.0,
+    "max_integrated_stress_trace": 2.922107000813e-13,
+    "min_nec_margin": 0.0,
+    "nec": "PASS",
+    "outward_field": "YES",
+    "positive_far_field": "YES",
+    "returncode": 0,
+    "simulation": "GREEN",
+    "thin_C": 23.426710175391,
+    "wec": "PASS"
+  },
+  "thin_reference": {
+    "C": 23.426710175391,
+    "headroom_vs_current": 18.023105581074688
+  }
+}

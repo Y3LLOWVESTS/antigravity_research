@@ -1,0 +1,40 @@
+=== INT-15R — THOUSAND-FOLD REGRESSION / PROVENANCE AUDIT ===
+
+=== A — CROSS-STAGE PROVENANCE ===
+INT14A_CURRENT_C=4.222220709083088e+02
+INT14C_CURRENT_C=4.222220709083088e+02
+INT14D_CURRENT_C=4.222220709083088e+02
+INT15_CURRENT_C=4.222220709083088e+02
+CURRENT_C_REL_SPREAD=0.000000000000000e+00
+INT14D_TEACHER_C=2.450446248126442e-02
+INT15_TEACHER_C=2.450446248126442e-02
+TEACHER_C_REL_DIFF_D15=0.000000000000000e+00
+INT14D_RAW_HEADROOM=1.723041553068673e+04
+INT15_RAW_HEADROOM=1.723041553068673e+04
+RAW_HEADROOM_REL_DIFF_D15=0.000000000000000e+00
+C_1000_THRESHOLD=4.222220709083088e-01
+TEACHER_BELOW_C1000=YES
+CROSS_STAGE_PROVENANCE=PASS
+
+=== B — DIRECT N48 TEACHER RECONSTRUCTION ===
+N48_RECONSTRUCTED_E=2.450446248126442e-02
+N48_RECONSTRUCTED_A=1.000000000001593e+00
+N48_RECONSTRUCTED_C=2.450446248122538e-02
+N48_C_RELERR_VS_INT14D=1.592964860432064e-12
+N48_RECOMPUTED_DEC_VIOLATION=0.000000000000000e+00
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/int15r_thousandfold_regression_provenance_audit.py", line 551, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/int15r_thousandfold_regression_provenance_audit.py", line 245, in main
+    force = int15.independent_teacher_force(
+        int15,
+    ...<2 lines>...
+        payload_radius,
+    )
+  File "/Users/mymac/Desktop/antigravity_research/simulations/int15_static_pulse_successor_blueprint_synthesis.py", line 1252, in independent_teacher_force
+    int14c.independent_cell_kernel(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'int15r_int15' has no attribute 'independent_cell_kernel'
+
+__INT15R_RUN_RC__=1
