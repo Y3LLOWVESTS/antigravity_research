@@ -78,3 +78,6 @@ codebundles/
 .env.*.local
 # Large generated numerical checkpoints
 results/data/*_checkpoint.npz
+.npz
+
+# extra
