@@ -81,3 +81,5 @@ results/data/*_checkpoint.npz
 .npz
 
 # extra
+ANALOGUE_NOTES.MD 
+
