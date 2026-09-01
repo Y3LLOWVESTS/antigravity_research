@@ -53630,3 +53630,4504 @@ That makes 020A the highest-information and shortest plausible next action.
 
 
 ### END NOTE - AUGUST 30 2026 - 22:00 CST
+
+
+### BEGIN NOTE - AUGUST 31 2026 - 11:50 CST
+
+# ANTIGRAVITY_RESEARCH — Comprehensive Carry-Forward Through 023B and Strategy to the 80% Milestone
+
+**Session closeout:** August 31, 2026
+**Recommended future chronology filename:** `notes/chronology/0015_august_31_2026_11_17_cst.md` — verify that `0015` remains unused before adding
+**Project:** `ANTIGRAVITY_RESEARCH`
+**Known-solution regression baseline:** `94 passed`
+**Current defensible internal knowledge/accomplishment heuristic:** approximately `68%`
+**Important:** this percentage is **not a probability that practical antigravity exists**, not a probability that the active branch will succeed, and not a literal device-completion percentage
+**Strongest conservative public result:** 006D finite positive-energy local gravitational repulsion in static linearized GR
+**Strongest complete microscopic GR field-existence result:** 018B, retained despite later instability
+**Strongest falsification of the 018B realization:** 018C fixed-charge full-field $m=2$ negative Hessian direction
+**Strongest current stability-oriented candidate:** 023B exact $B=7$ false-core rational-map Skyrmion branch, presently **not yet promotion-grade** because unrestricted Cartesian stability is untested and two narrow 023B gates remain formally unresolved
+**Immediate next action:** `023BR_PROMOTION_GRADE_EXACT_MAP_ROBUSTNESS_REPAIR`
+**Target after 023BR:** `023C_UNRESTRICTED_CARTESIAN_3D_RELAXATION_AND_HESSIAN_GATE`
+**Target after 023C:** controlled weak-gravity/full Einstein–Skyrme continuation toward the approximately `72–80%` tier
+**Practical antigravity device:** `NO`
+**Real material realization:** `NO`
+**Experimental antigravity signal:** `NO`
+**New-physics discovery:** `NO`
+**Novelty of the full project-derived combination:** `NOT_ESTABLISHED`
+
+---
+
+# 0. Purpose of this handoff
+
+These notes are intended to let a fresh research session continue immediately without reconstructing the August 31 work from chat history.
+
+They preserve:
+
+* the project’s authoritative pre-session state;
+* the permanent 006D result;
+* the key 016–018 GR-realization lessons;
+* the complete protected-force rerank through 022A;
+* the new false-core Skyrmion route opened in 023A;
+* the exact positive and negative findings of 023B;
+* the mathematical proofs on which the new branch depends;
+* the current claim boundaries;
+* the exact reason the heuristic remains approximately 68%;
+* the shortest credible sequence from the present frontier to approximately 80%;
+* the pure-GR practical-energy obstruction that becomes decisive after 80%;
+* branch stop rules;
+* repository hashes and workflow needed to reproduce the work;
+* the documentation freeze requested for the next session.
+
+This handoff should be read together with:
+
+```text
+RESEARCH_BUILDPLAN.md
+FORMATTING_AND_CODE_STANDARDS.md
+README.md
+NOTES.md
+notes/chronology/
+journal/2026-08-28_006d_constructive_linearized_gr_repulsion.md
+journal/2026-08-29_016a_016h_006d_realizability_and_canonical_field_gates.md
+journal/2026-08-29_017a_017s_drum_vorton_realization_and_thermal_obstruction.md
+journal/2026-08-30_018a_019c_nonthermal_field_realization_stability_falsification_and_protected_wilson_vector_portal.md
+latest ANTIGRAVITY_RESEARCH codebundle
+```
+
+The project files remain authoritative for work already durably recorded.
+
+The present carry-forward supersedes their **active frontier** only where the repository has not yet been updated to include 020A through 023B.
+
+---
+
+# 1. Documentation freeze for the next session
+
+Do **not** begin the next session by editing:
+
+```text
+README.md
+
+RESEARCH_BUILDPLAN.md
+
+journal/
+
+CLAIMS.md
+
+ASSUMPTIONS.md
+
+OTHER_PUBLIC_SUMMARY_DOCS
+```
+
+The project already has an explicit precedent for deferring documentation until a major milestone has actually been earned.
+
+For the next session:
+
+```text
+FIRST_PRIORITY=
+RESEARCH
+
+DOCUMENTATION_SWEEP=
+DEFER_TO_SESSION_END
+```
+
+If the next session genuinely reaches the approximately 80% theoretical milestone, then perform one consolidated documentation update.
+
+If it does not, record the truthful new frontier and do not manufacture an 80% headline.
+
+The eventual consolidated sweep should include:
+
+```text
+1.
+NEW JOURNAL ENTRY COVERING 020A THROUGH THE FINAL 023/024 SLICE
+
+2.
+README UPDATE
+
+3.
+RESEARCH_BUILDPLAN GLOBAL RERANK
+
+4.
+NOTES.md APPEND
+
+5.
+notes/chronology/ NEW ENTRY
+
+6.
+CLAIM BOUNDARY UPDATE
+
+7.
+SOURCE / LOG / SHA256 INVENTORY
+
+8.
+FOCUSED REGRESSION TESTS
+
+9.
+LITERATURE COMPARISON
+
+10.
+PRACTICAL ENERGY LEDGER
+```
+
+---
+
+# 2. Non-negotiable scientific discipline
+
+The next session must continue to distinguish:
+
+```text
+MATHEMATICAL POSSIBILITY
+
+LOCAL NEGATIVE ACTIVE SOURCE
+
+LOCAL OUTWARD GRAVITY
+
+FINITE-PAYLOAD OUTWARD GRAVITY
+
+MICROSCOPIC FIELD EXISTENCE
+
+TOPOLOGICAL OR DYNAMIC STABILITY
+
+UNRESTRICTED 3D STABILITY
+
+NONLINEAR EINSTEIN-MATTER CONSISTENCY
+
+REAL-MATERIAL REALIZATION
+
+PRACTICAL ENERGY / POWER / HEAT
+
+CONTROL CYCLE
+
+EXPERIMENTAL DEMONSTRATION
+
+PRACTICAL ANTIGRAVITY
+```
+
+None of these implies the next.
+
+In particular:
+
+```text
+NEGATIVE_ACTIVE_DENSITY
+DOES_NOT_IMPLY
+OUTWARD_GRAVITY
+
+TOPOLOGICAL_CHARGE
+DOES_NOT_BY_ITSELF_IMPLY
+FULL_DYNAMIC_STABILITY
+
+RATIONAL_MAP_STABILITY
+DOES_NOT_IMPLY
+UNRESTRICTED_CARTESIAN_STABILITY
+
+LINEARIZED_GR_REPULSION
+DOES_NOT_IMPLY
+NONLINEAR_EINSTEIN_MATTER_REPULSION
+
+A_STABLE_FIELD_CONFIGURATION
+DOES_NOT_IMPLY
+PRACTICAL_ENERGY
+
+A_70_OR_80_PERCENT_HEURISTIC
+DOES_NOT_MEAN
+70_OR_80_PERCENT_PROBABILITY_OF_SUCCESS
+```
+
+Every new major run should explicitly state:
+
+```text
+ACTIVE_SCIENTIFIC_QUESTION
+
+OPERATIONAL_OBSERVABLE
+
+CHEAPEST_DECISIVE_EXPERIMENT
+
+PROMOTION_CONDITION
+
+FALSIFIER
+
+STOP_RULE
+```
+
+---
+
+# 3. Current project milestone ladder
+
+The current authoritative buildplan uses a staged accomplishment ladder including:
+
+```text
+LEVEL_1=
+LOCAL_OPERATIONAL_REPULSION
+
+LEVEL_2=
+GOVERNING_THEORY_CONSISTENCY
+
+LEVEL_3=
+COMPLETE_SOURCE_OR_CHARGE_CHARACTERIZATION
+
+LEVEL_4=
+FINITE_LOCALIZATION
+
+LEVEL_5=
+CONSERVATION
+
+LEVEL_6=
+MICROSCOPIC_REALIZATION
+
+LEVEL_7=
+STABILITY_OR_NATURALNESS
+
+LEVEL_8=
+FINITE_PAYLOAD_OPERATIONAL_REPULSION
+
+LEVEL_9=
+NONLINEAR_GRAVITY_OR_EMPIRICAL_CONSISTENCY
+
+LEVEL_10=
+REAL_MATERIAL_OR_APPARATUS
+
+LEVEL_11=
+PRACTICAL_SCALING_AND_CONTROL
+
+LEVEL_12=
+EXPERIMENTAL_DEMONSTRATION
+
+LEVEL_13=
+PRACTICAL_ANTIGRAVITY
+```
+
+The project is not at Level 13.
+
+The useful percentage interpretation retained from the buildplan history is approximately:
+
+```text
+~66_TO_68_PERCENT=
+COMPLETE_MICROSCOPIC_FIELD_EXISTENCE
+
+~68_TO_72_PERCENT=
+MEANINGFUL_FULL_COMPOSITE_STABILITY
+
+~72_TO_80_PERCENT=
+SELF_CONSISTENT_NONLINEAR_EINSTEIN_MATTER
+WITH_FINITE_PAYLOAD_REPULSION_PRESERVED
+
+~80_TO_90_PERCENT=
+QUALITATIVE_PRACTICAL_SCALING_AND_CONTROL_BREAKTHROUGH
+
+~90_PLUS=
+EXPERIMENTAL_ACCESSIBILITY_AND_DEMONSTRATION
+```
+
+This is why the shortest honest route to approximately 80% is now:
+
+```text
+ROBUST_STABLE_3D_FALSE_CORE_SKYRMION
+
+->
+
+UNRESTRICTED_CARTESIAN_STABILITY
+
+->
+
+SELF_CONSISTENT_EINSTEIN_SKYRME_CONTINUATION
+
+->
+
+FINITE_PAYLOAD_REPULSION_SURVIVES_NONLINEAR_GR
+```
+
+It is **not** another parameter scan and it is **not** an energy-efficiency optimization.
+
+---
+
+# 4. Permanent strongest conservative result — 006D
+
+006D remains the cleanest established-physics public headline.
+
+The construction has:
+
+```text
+FINITE_RADIUS=
+YES
+
+FINITE_THICKNESS=
+YES
+
+NONSINGULAR=
+YES
+
+POSITIVE_ENERGY=
+YES
+
+LOCAL_CONSERVATION_LINEARIZED_ORDER=
+YES
+
+NEC=
+PASS
+
+WEC=
+PASS
+
+DEC=
+PASS
+
+LOCAL_OUTWARD_GRAVITATIONAL_FIELD=
+YES
+
+POSITIVE_FAR_FIELD_ACTIVE_MASS=
+YES
+```
+
+The best finite coefficient is:
+
+```math
+C_{\mathrm{finite}}
+=
+23.591586299249
+```
+
+The thin conserved reference is:
+
+```math
+C_{\mathrm{thin}}
+=
+23.426710175391
+```
+
+with scaling:
+
+```math
+M_{\mathrm{equiv}}
+=
+C\frac{ah^2}{G}
+```
+
+The conservative public statement remains:
+
+> **We have a mathematical construction for antigravity-like gravitational repulsion.**
+
+Correct limitations:
+
+```text
+EXACT_NONLINEAR_GR=
+NOT_ESTABLISHED
+
+DYNAMIC_STABILITY=
+NOT_ESTABLISHED_FOR_006D_SOURCE
+
+KNOWN_MATERIAL_REALIZATION=
+NO
+
+PRACTICAL_ENERGY=
+NO
+
+PRACTICAL_ANTIGRAVITY_DEVICE=
+NO
+
+NEW_PHYSICS_DISCOVERY=
+NO
+```
+
+---
+
+# 5. Basic linearized-GR active-source equation
+
+For a static weak field, the Newtonian-like potential obeys:
+
+```math
+\nabla^2\Phi
+=
+\frac{4\pi G}{c^2}
+\left(
+\epsilon
++
+p_1
++
+p_2
++
+p_3
+\right)
+```
+
+Define the active source:
+
+```math
+S
+=
+\epsilon+\sum_i p_i
+```
+
+Then:
+
+```math
+\nabla^2\Phi
+=
+\frac{4\pi G}{c^2}S
+```
+
+The key lesson is that gravitational sign is controlled not by energy density alone but by the complete relativistic stress combination.
+
+This was the foundation of 006D and remains the foundation of the new 023 branch.
+
+---
+
+# 6. Permanent GR design lesson from 016
+
+The 016 program established that:
+
+```text
+NEGATIVE_ACTIVE_DENSITY_ALONE=
+INSUFFICIENT
+
+SPATIAL_ACTIVE_STRESS_SEGREGATION=
+REQUIRED
+```
+
+Several canonical field realizations could generate negative active density yet fail to generate useful outward gravity because compensating positive-active contributions occupied more favorable gravitational-kernel locations.
+
+The durable GR design principle is therefore:
+
+> **The spatial arrangement of active stress is as important as its local sign.**
+
+This is exactly why the 023 false-core architecture is interesting: it naturally places negative-active potential energy in the interior and positive-active stabilizing gradients in a shell.
+
+---
+
+# 7. 017A–017S — effective drum/vorton lessons
+
+The 017 program established several useful but ultimately incomplete ideas.
+
+## 7.1 Effective finite-payload drum
+
+A central negative-active membrane plus a positive-current-supported rim can produce finite-payload outward gravity.
+
+Thus:
+
+```text
+SPATIAL_DRUM_ARCHITECTURE=
+OPERATIONALLY_CAPABLE_AT_EFFECTIVE_LEVEL
+```
+
+## 7.2 Bare nonaxisymmetric instability
+
+For a perturbation:
+
+```math
+r(\phi)
+=
+R
+\left[
+1+\epsilon\cos(m\phi)
+\right]
+```
+
+the bare effective drum has:
+
+```math
+\Delta E_m
+=
+-
+\frac{\pi\sigma R^2}{2}
+\left(
+m^2-1
+\right)
+\epsilon^2
+```
+
+for $m\ge2$.
+
+Therefore every such bare nonaxisymmetric mode is unstable.
+
+A simple curvature-rigidity correction produces the controlling $m=2$ threshold:
+
+```math
+b_{\mathrm{crit}}
+=
+\frac13
+```
+
+but the required rigidity carries severe energy cost.
+
+The project correctly did not promote arbitrary rigidity as a rescue.
+
+## 7.3 Literature-backed gauged-vorton rim
+
+017P showed that genuine field-theory vortons can possess healthy worldsheet equations of state and that vorton-like topology is not generically ruled out by the simple mechanical instability.
+
+## 7.4 Thermal support obstruction
+
+017S then demonstrated a critical bookkeeping lesson:
+
+> **The support mechanism gravitates too.**
+
+For equilibrium radiation:
+
+```math
+S_\gamma
+=
+\rho_\gamma+3p_\gamma
+=
+2\rho_\gamma
+```
+
+The literal thermal O(4) support field generated attractive active gravity at least about 94 times stronger than the desired defect repulsion throughout the tested robust basin.
+
+Therefore:
+
+```text
+LITERAL_LOCALIZED_THERMAL_O4_ROUTE=
+STRONGLY_DEMOTED
+```
+
+---
+
+# 8. 018A–018C — microscopic field existence and direct stability falsification
+
+## 8.1 018A
+
+018A produced a topology-consistent zero-temperature string-wall realization preflight.
+
+This authorized the full microscopic field solve.
+
+## 8.2 018B — strongest microscopic GR field-existence result
+
+018B produced:
+
+```text
+FULL_CURVED_FINITE_THICKNESS_FIELD_CONFIGURATION=
+YES
+
+COMPLETE_T_MUNU=
+YES
+
+GLOBAL_RECONSTRUCTION=
+YES
+
+POSITIVE_TOTAL_ACTIVE_MASS=
+YES
+
+FINITE_PAYLOAD_OUTWARD_LINEARIZED_GRAVITY=
+YES
+```
+
+The field-level coefficient was approximately:
+
+```math
+C_{018B}
+=
+292.5922543912093
+```
+
+An illustrative 1g/1m energy projection was approximately:
+
+```math
+E_{1g,1m}
+\approx
+3.86\times10^{30}\ {\rm J}
+```
+
+This is a **field-existence** accomplishment.
+
+It remains valid.
+
+## 8.3 018C — direct full-field instability proof
+
+018C evaluated a physically admissible fixed-charge deformation $v$ and found:
+
+```math
+v^T\mathcal H_Qv<0
+```
+
+The Rayleigh quotient gives:
+
+```math
+\lambda_{\min}(\mathcal H_Q)
+\le
+\frac{
+v^T\mathcal H_Qv
+}{
+v^Tv
+}
+<
+0
+```
+
+Therefore:
+
+```math
+\lambda_{\min}(\mathcal H_Q)<0
+```
+
+This is an actual constrained negative Hessian direction.
+
+Thus:
+
+```text
+018B_FIELD_EXISTENCE_RESULT=
+RETAINED
+
+018B_SPECIFIC_TWO_CURRENT_KLS_REALIZATION=
+DEMOTED_FOR_STABILITY
+
+FULL_FIELD_M2_STABILITY=
+FAIL
+```
+
+The next stable GR route therefore needed an **intrinsic** stability mechanism rather than a new phenomenological rigidity term.
+
+---
+
+# 9. Protected-force branch — 019 through 022
+
+This entire branch must be remembered because it contains several attractive partial results but is now closed in the tested practicality classes.
+
+## 9.1 019A — Wilson-line protection
+
+The same-site propagator obeys:
+
+```math
+G_{00}(\theta)
+=
+G_{00}(-\theta)
+```
+
+so at the symmetry point:
+
+```math
+G'_{00}(0)=0
+```
+
+A nonlocal cross-sector response can nevertheless remain nonzero.
+
+This demonstrates a real protection principle:
+
+```text
+LOCAL_ONE_BODY_RESPONSE=
+SYMMETRY_SUPPRESSED
+
+PAIR_OR_CROSS_RESPONSE=
+CAN_REMAIN_NONZERO
+```
+
+019A found a robust microscopic theory-space basin.
+
+This remains a valid protection witness.
+
+## 9.2 019B
+
+The direct scalar-density endpoint was rejected because the one-body scalar counterterm is allowed by the same symmetries.
+
+The pseudoscalar endpoint was rejected because the coherent unpolarized low-$q$ response disappears and the required coupling becomes nonperturbative.
+
+Conserved vector currents were more promising.
+
+Their leading low-$q$ one-body mixing begins schematically as:
+
+```math
+\Pi_e(q^2)
+\propto
+\frac{\alpha}{15\pi}
+\frac{q^2}{m_e^2}
+```
+
+This generated a large leading one-body mixing margin.
+
+The anomaly-free baryon/lepton completion remains a valid EFT construction.
+
+## 9.3 019C
+
+Ordinary heavy-vector/Higgs mediation can algebraically generate the desired current-current interaction if an adequate protected Wilson-odd seed exists.
+
+However:
+
+```text
+MINIMAL_ABELIAN_KINETIC_PORTAL=
+REJECTED_NONPERTURBATIVE
+
+MINIMAL_LOOP_SEEDED_HIGGS_PORTAL=
+REJECTED_BY_RESPONSE_NATURALNESS_BOUND
+```
+
+The old 5-km target had an approximate factor-130 response deficit in the best minimal loop-seeded case.
+
+---
+
+# 10. 020A — collective/non-Abelian Wilson route closeout
+
+020A1 established:
+
+```text
+ABELIAN_LINK_MASS_PHASE_BLINDNESS=
+YES
+
+ISOSPECTRAL_VECTOR_ROTATION_MATHEMATICALLY_POSSIBLE=
+YES
+
+MINIMAL_ABELIAN_NEUTRAL_ROTATOR=
+REJECTED
+```
+
+020A2 produced an explicit:
+
+```text
+SU(2)_X
+x
+U(1)_B
+x
+U(1)_L
+```
+
+heavy-vector mass construction with an isospectral relative orientation capable of changing the effective $B$-$L$ propagator response.
+
+However 020A2R then performed the decisive naturalness audit.
+
+Exact beta-function bookkeeping gave:
+
+```text
+SUM_WEYL_B2=
+22
+
+SUM_WEYL_L2=
+30
+
+b_B=
+44/3
+
+b_L=
+20
+
+FULL_FERMION_DELTA_b=
+16/3
+```
+
+Even an intentionally conservative one-light-Weyl lower bound produced a radiative exchange-breaking floor:
+
+```math
+\delta_{\mathrm{RG,min}}
+=
+1.304238086218143\times10^{-2}
+```
+
+while the maximum allowed splitting was only:
+
+```math
+\delta_{\mathrm{allowed}}
+=
+4.207864624024100\times10^{-7}
+```
+
+The deficit was approximately:
+
+```math
+3.10\times10^4
+```
+
+Thus:
+
+```text
+MINIMAL_B_L_EXCHANGE_SYMMETRIC_SU2_PORTAL=
+CLOSED_BY_RG_NATURALNESS
+
+MINIMAL_COLLECTIVE_TREE_CLASS=
+CLOSED_IN_TESTED_CLASSES
+
+LARGER_QUIVER_RESCUE=
+NOT_JUSTIFIED_WITHOUT_NEW_PROTECTION_PRINCIPLE
+```
+
+The project remained approximately 68%.
+
+---
+
+# 11. 021A — short-range isotope-sign portal attempt
+
+021A attempted to change the source scaling rather than rescue the old 5-km target.
+
+It defined:
+
+```math
+J_X
+=
+J_L
+-
+\frac{13}{28}J_B
+```
+
+For an isolated neutral iron atom this gives:
+
+```math
+Q_X(^{54}\mathrm{Fe})
+=
++\frac{13}{14}
+```
+
+and:
+
+```math
+Q_X(^{58}\mathrm{Fe})
+=
+-\frac{13}{14}
+```
+
+The run itself was numerically very strong:
+
+```text
+PORTAL_SCAN_TOTAL_FINITE_POINTS=
+84000
+
+PORTAL_FULL_GATE_PASSERS=
+2635
+
+ROBUST_DISTINCT_LAMBDAS=
+25
+
+ROBUST_RANGE=
+1E-4_TO_1E-1_M
+
+INDEPENDENT_PAYLOAD_ACCELERATION=
+9.80665_M_PER_S2
+
+LOCAL_NEIGHBORHOOD=
+12_OF_12_PASS
+```
+
+The selected nominal point used approximately:
+
+```text
+RANGE=
+1E-4_M
+
+M_PHI=
+1.973E-3_EV
+
+SOURCE_MASS=
+5.01_KG
+
+PAYLOAD_MASS=
+1_KG
+
+VECTOR_MASS=
+1.644_KEV
+
+G_BRIDGE=
+0.75
+```
+
+The script conditionally suggested a 68→70 promotion.
+
+The post-run claim audit correctly rejected that promotion.
+
+---
+
+# 12. 021B0 — why 021A did not survive material/current bookkeeping
+
+## 12.1 Whole formula unit
+
+The actual dinuclear host formula was taken as:
+
+```text
+Fe2C40H30N16S4
+```
+
+For the two Fe isotope versions:
+
+```text
+L_TOTAL=
+498
+
+B_54=
+970
+
+B_58=
+978
+```
+
+The coefficient that makes the **integrated whole-formula charges** opposite is:
+
+```math
+c_*
+=
+\frac{
+2L
+}{
+B_{54}+B_{58}
+}
+=
+\frac{249}{487}
+```
+
+The relative integrated charge is:
+
+```math
+\frac{|Q_X|}{L}
+=
+\frac{
+B_{58}-B_{54}
+}{
+B_{58}+B_{54}
+}
+=
+\frac{2}{487}
+```
+
+Therefore the normalization penalty is:
+
+```math
+\frac{487}{2}
+=
+243.5
+```
+
+not 28.
+
+## 12.2 Composite-current kernel
+
+More importantly, a local current-current interaction does not reduce to an integrated charge product inside a composite molecule.
+
+The response is schematically:
+
+```math
+Q_\phi
+\propto
+\sum_{B,L}K(r_{BL})
+-
+c
+\sum_{B,B}
+K(r_{BB})
+```
+
+At the selected 1.644-keV vector mass, even an intentionally survival-favoring kernel bound gave:
+
+```text
+FE54_SCALAR_KERNEL_CHARGE_UPPER=
+-59.21
+
+FE58_SCALAR_KERNEL_CHARGE_UPPER=
+-182.21
+```
+
+Thus both signs are forced negative.
+
+Therefore:
+
+```text
+INTEGRATED_ISOTOPE_SIGN=
+NOT_EQUAL_TO
+MATERIAL_SCALAR_KERNEL_SIGN
+```
+
+## 12.3 Direct ordinary-matter vector effects
+
+At $g=0.75$ and $M_V\approx1.64,\mathrm{keV}$:
+
+```math
+\Delta a_e
+\approx
+7.05\times10^{-3}
+```
+
+Even the deliberately weak preflight allowance was only:
+
+```math
+10^{-6}
+```
+
+giving:
+
+```math
+g_X^{\max}
+\approx
+8.93\times10^{-3}
+```
+
+The baryonic vector also failed an extremely permissive nuclear-energy test.
+
+At the selected coupling its estimated vector self-energy was roughly:
+
+```text
+7.94_TIMES_THE_ENTIRE_NUCLEAR_BINDING_ENERGY
+```
+
+Thus the selected 021A realization was physically unacceptable.
+
+---
+
+# 13. 022A — final tested Wilson/vector practicality closeout
+
+022A answered whether the surviving asymmetric-coupling capacity could become a real microscopic portal.
+
+## 13.1 Material selector obstruction
+
+For the Fe(II) spin-crossover host:
+
+```text
+LS_FE_N=
+1.97_ANGSTROM
+
+HS_FE_N=
+2.22_ANGSTROM
+
+DELTA_R=
+0.25_ANGSTROM
+```
+
+Using the project phonon scale at 77 K gave:
+
+```text
+TOTAL_RMS_FE_N_FLUCTUATION=
+0.0464771_ANGSTROM
+```
+
+so:
+
+```math
+\frac{\sigma}{\Delta r}
+\approx
+0.1859
+```
+
+If one tries to manufacture off-state suppression through an $n$th-order smooth kernel zero:
+
+```math
+f_{\mathrm{leak}}
+\sim
+\left(
+\frac{\sigma}{\Delta r}
+\right)^n
+```
+
+then:
+
+```text
+LEAKAGE_1E-2:
+n>=3
+KERNEL_SECTORS>=4
+
+LEAKAGE_1E-4:
+n>=6
+KERNEL_SECTORS>=7
+
+STRICT_5.77E-7:
+n>=9
+KERNEL_SECTORS>=10
+```
+
+Bare conserved baryon and lepton numbers do not change between LS and HS states.
+
+Therefore:
+
+```text
+BARE_JB_JL_Q0_RESPONSE_STATE_SELECTIVE=
+NO
+```
+
+and the bare conserved-current endpoint does not UV-complete the exact low-energy cooperative selector:
+
+```text
+B_MATERIAL
+TIMES
+P_HS1
+TIMES
+P_HS2
+```
+
+without a genuinely new exact symmetry.
+
+## 13.2 Full asymmetric portal naturalness
+
+022A then gave the portal essentially every favorable assumption:
+
+```text
+PERFECT_MATERIAL_SELECTOR_FOR_FREE
+
+F=
+PLANCK_SCALE
+
+MAXIMUM_WILSON_CURVATURE
+
+DIRECT_VECTOR_COUPLINGS_NEAR_LOOSE_CEILINGS
+
+HESSIAN_NEAR_STABILITY_BOUNDARY
+
+VERY_WEAK_RADIATIVE_QUARTIC_FLOOR
+
+1_NM_MOLECULAR_LAYER
+
+0.3_NM_GAP
+```
+
+Results:
+
+```text
+IDEAL_LAMBDA_SCALED_MANDATORY_PASSERS=
+4817
+
+ATOMIC_OPTIMISTIC_MANDATORY_PASSERS=
+864
+
+MOLECULAR_OPTIMISTIC_MANDATORY_PASSERS=
+0
+```
+
+The least-bad molecular point had:
+
+```math
+\frac{
+|\delta m_\phi^2|_P
+}{
+m_\phi^2
+}
+=
+1.2679720117
+```
+
+while the vector/Higgs contribution was only:
+
+```math
+2.00\times10^{-4}
+```
+
+Thus the obstruction was clearly the $P$-bridge backreaction.
+
+Final interpretation:
+
+```text
+BARE_CONSERVED_CURRENT_MATERIAL_SELECTOR=
+REJECTED
+
+ASYMMETRIC_019C_SHORT_RANGE_PORTAL=
+REJECTED_AT_MOLECULAR_SCALE
+
+PROTECTED_VECTOR_CURRENT_PRACTICALITY_BRANCH=
+CLOSED_IN_TESTED_SHORT_RANGE_CLASSES
+
+GLOBAL_RERANK=
+REQUIRED
+```
+
+The heuristic remained approximately 68%.
+
+---
+
+# 14. Why the project returned to GR after 022A
+
+The protected-force program produced genuine insights, but every tested path to a practically useful complete portal acquired one of:
+
+```text
+ONE_BODY_NATURALNESS
+
+COHERENCE_FAILURE
+
+RG_NATURALNESS
+
+DIRECT_VECTOR_ORDINARY_MATTER_EFFECTS
+
+MATERIAL_SELECTOR_FAILURE
+
+P_BRIDGE_BACKREACTION
+```
+
+The appropriate response was not to enlarge the quiver.
+
+The project returned to the strongest thing it had actually demonstrated:
+
+```text
+POSITIVE_ENERGY
++
+RELATIVISTIC_STRESS
++
+SPATIAL_ACTIVE_STRESS_SEGREGATION
++
+FINITE_PAYLOAD_OUTWARD_GRAVITY
+```
+
+but sought a **new intrinsic stability principle**.
+
+That led to 023A.
+
+---
+
+# 15. 023A — topological false-core Skyrmion breakthrough preflight
+
+The new route uses a standard positive-sign SU(2) Skyrme field with a false-vacuum potential.
+
+The central theoretical breakthrough is the derivative-order active-source theorem.
+
+---
+
+# 16. Proof — derivative-order active-source theorem
+
+Suppose a static scalar-field energy contribution $e_n$ is homogeneous in $n$ spatial derivatives.
+
+Under isotropic spatial scaling:
+
+```math
+x^i
+\rightarrow
+\lambda x^i
+```
+
+the local derivative term transforms with weight $n$ while the volume element transforms with weight $-3$.
+
+Metric variation or the equivalent spatial scaling relation gives:
+
+```math
+\sum_i p_i
+=
+(n-3)e_n
+```
+
+Since:
+
+```math
+\rho_n=e_n
+```
+
+the active gravitational source is:
+
+```math
+S_n
+=
+\rho_n+\sum_i p_i
+```
+
+and therefore:
+
+```math
+S_n
+=
+(n-2)e_n
+```
+
+For the Skyrme model:
+
+```text
+n=2:
+S_2=0
+
+n=4:
+S_4=+2e_4
+
+n=0:
+S_0=-2V
+```
+
+Therefore:
+
+```math
+S
+=
+2(e_4-V)
+```
+
+This is the key new structural principle.
+
+It says:
+
+> **Ordinary positive potential energy can contribute negative active gravitational density, while the topology-supporting quartic Skyrme gradients contribute positive active density and the ordinary quadratic gradient term contributes zero to the static active trace.**
+
+This naturally separates the gravitational roles of the core and shell.
+
+---
+
+# 17. False-core potential and vacuum proof
+
+Use:
+
+```math
+V(F)
+=
+m^2
+(1-\cos F)
+(1+\eta\cos F)
+```
+
+The true vacuum is:
+
+```math
+F=0
+```
+
+with:
+
+```math
+V(0)=0
+```
+
+and curvature:
+
+```math
+V''(0)
+=
+m^2(1+\eta)
+>
+0
+```
+
+The false vacuum is:
+
+```math
+F=\pi
+```
+
+with:
+
+```math
+V(\pi)
+=
+2m^2(1-\eta)
+```
+
+and curvature:
+
+```math
+V''(\pi)
+=
+m^2(3\eta-1)
+```
+
+For:
+
+```math
+\frac13<\eta<1
+```
+
+both curvatures are positive and:
+
+```math
+V(\pi)>0
+```
+
+Thus $F=\pi$ is a locally stable positive-energy false vacuum.
+
+The Skyrmion boundary conditions:
+
+```math
+F(0)=\pi
+```
+
+and:
+
+```math
+F(\infty)=0
+```
+
+force the center into the false vacuum while ordinary space approaches the true vacuum.
+
+This creates the desired negative-active core without negative local energy density.
+
+---
+
+# 18. Rational-map Skyrmion energy
+
+For:
+
+```math
+U
+=
+\cos F
++
+i\sin F
+\,
+\mathbf n_R
+\cdot
+\boldsymbol\tau
+```
+
+the rational-map radial energy is:
+
+```math
+E
+=
+\int dr
+\left[
+r^2F'^2
++
+2B(F'^2+1)\sin^2F
++
+\mathcal I
+\frac{\sin^4F}{r^2}
++
+r^2V(F)
+\right]
+```
+
+Define:
+
+```math
+e_2
+=
+F'^2
++
+2B
+\frac{\sin^2F}{r^2}
+```
+
+```math
+e_4
+=
+2B
+\frac{\sin^2F\,F'^2}{r^2}
++
+\mathcal I
+\frac{\sin^4F}{r^4}
+```
+
+```math
+e_0
+=
+V(F)
+```
+
+Then the cumulative angularly integrated active mass is:
+
+```math
+M_A(r)
+=
+\int_0^r
+2r'^2
+\left[
+e_4(r')-V(r')
+\right]
+dr'
+```
+
+If:
+
+```math
+M_A(r)<0
+```
+
+then the monopole radial field points outward at that radius.
+
+---
+
+# 19. Derrick virial proof
+
+Under a reciprocal radial dilation, the energy components scale as:
+
+```math
+E_2(\lambda)
+\propto
+\lambda^{-1}
+```
+
+```math
+E_4(\lambda)
+\propto
+\lambda
+```
+
+```math
+E_0(\lambda)
+\propto
+\lambda^{-3}
+```
+
+Stationarity gives:
+
+```math
+\frac{dE}{d\lambda}
+\bigg|_{\lambda=1}
+=
+0
+```
+
+so:
+
+```math
+E_2-E_4+3E_0
+=
+0
+```
+
+Rearrange:
+
+```math
+E_4
+=
+E_2+3E_0
+```
+
+The total active mass is:
+
+```math
+M_{A,\infty}
+=
+2(E_4-E_0)
+```
+
+Substitute the virial relation:
+
+```math
+M_{A,\infty}
+=
+2(E_2+2E_0)
+>
+0
+```
+
+up to the common normalization convention used in the radial functional.
+
+Thus the same stationary object can possess:
+
+```text
+NEGATIVE_ENCLOSED_ACTIVE_MASS=
+YES
+
+POSITIVE_TOTAL_ACTIVE_MASS=
+YES
+```
+
+There is no contradiction.
+
+The far field remains attractive.
+
+---
+
+# 20. Topological-charge proof
+
+For rational-map degree $B$:
+
+```math
+Q
+=
+\frac{B}{\pi}
+\left[
+F
+-
+\frac12\sin(2F)
+\right]_{\infty}^{0}
+```
+
+Using:
+
+```math
+F(0)=\pi
+```
+
+and:
+
+```math
+F(\infty)=0
+```
+
+gives:
+
+```math
+Q=B
+```
+
+Therefore the field cannot continuously unwind to the vacuum while remaining in the same finite-energy topological sector.
+
+This is a genuine intrinsic stabilization principle.
+
+It does **not**, by itself, prove stability against all deformations or fission.
+
+---
+
+# 21. Binary-fission criterion
+
+For a topological sector $B$, every binary channel:
+
+```math
+B
+\rightarrow
+k+(B-k)
+```
+
+must satisfy:
+
+```math
+E_B
+<
+E_k+E_{B-k}
+```
+
+Define:
+
+```math
+\delta_{\mathrm{fiss}}
+=
+\min_k
+\frac{
+E_k+E_{B-k}-E_B
+}{
+E_B
+}
+```
+
+A positive value proves energetic binding against every tested binary split.
+
+A comfortably positive value is much stronger than merely conserving topological charge.
+
+---
+
+# 22. 023A numerical result
+
+023A solved all:
+
+```text
+B=
+1_TO_8
+
+ETA=
+0.36
+0.40
+0.50
+0.70
+
+M=
+1
+2
+3
+5
+8
+```
+
+using the initial approximation:
+
+```math
+\mathcal I
+\approx
+1.28B^2
+```
+
+for $B>1$.
+
+Results:
+
+```text
+TOTAL_BVP_PROFILES=
+160
+
+CONVERGED=
+160
+
+NEGATIVE_ACTIVE_CORE_CANDIDATES=
+19
+
+FULL_CAPACITY_PASSERS=
+19
+```
+
+The strongest negative enclosed active fraction increased systematically with $B$:
+
+```text
+B1:
+~0
+
+B2:
+-1.51E-4
+
+B3:
+-1.85E-3
+
+B4:
+-5.42E-3
+
+B5:
+-1.01E-2
+
+B6:
+-1.53E-2
+
+B7:
+-2.08E-2
+
+B8:
+-2.62E-2
+```
+
+This monotonic trend was an important argument against the result being a single numerical accident.
+
+The approximate-map selected point was:
+
+```text
+B=
+8
+
+ETA=
+0.4
+
+M=
+8
+```
+
+with:
+
+```text
+TOPOLOGICAL_CHARGE=
+8
+
+VIRIAL_RELERR=
+9.04E-8
+
+TOTAL_ACTIVE_TO_ENERGY_RELERR=
+8.57E-7
+
+MIN_ENCLOSED_ACTIVE_FRACTION=
+-0.024695
+
+CENTRAL_BINARY_FISSION_MARGIN=
+0.003891
+
+FINITE_PAYLOAD_MONOPOLE_OUTWARD=
+YES
+
+VARIATIONAL_INDEPENDENT_SIGN_CHECK=
+PASS
+```
+
+Robustness:
+
+```text
+14_OF_17_PASS
+```
+
+but the worst fission margin fell to:
+
+```math
+5.31\times10^{-4}
+```
+
+which remained positive but was below the stricter $0.002$ promotion threshold.
+
+This prompted 023B.
+
+---
+
+# 23. Literature correction — exact rational-map integrals
+
+The rational-map approximation is well established and reproduces low-$B$ minimal Skyrmions well, but it is still an ansatz and the exact angular integral matters.
+
+Published minimal rational-map values used in 023B were:
+
+```text
+B1:
+1.00
+
+B2:
+5.81
+
+B3:
+13.58
+
+B4:
+20.65
+
+B5:
+35.75
+
+B6:
+50.76
+
+B7:
+60.87
+
+B8:
+85.63
+```
+
+Rational-map methods are known to provide good approximations to minimal Skyrmions through the low-$B$ sector, but the 2023 false-vacuum multi-Skyrmion literature also explicitly warns that product-ansatz and rational-map structures can differ for some parameter choices.
+
+Therefore unrestricted 3D relaxation remains mandatory before a full stability claim.
+
+---
+
+# 24. 023B — exact rational-map rerank
+
+023B replaced the approximate $\mathcal I$ table with the literature values and reran every $B=1,\ldots,8$ fission channel.
+
+Results:
+
+```text
+EXACT_I_TOTAL_CANDIDATES=
+140
+
+EXACT_I_PROMOTION_PASSERS=
+10
+```
+
+The approximate $B=8$ selection did not remain the best exact-map candidate.
+
+The exact rerank selected:
+
+```text
+B=
+7
+
+ETA=
+0.5
+
+M=
+3
+
+I=
+60.87
+```
+
+with:
+
+```text
+MIN_ENCLOSED_ACTIVE_FRACTION=
+-0.0101323310
+
+BINARY_FISSION_MARGIN=
+0.0412030361
+
+VIRIAL_RELERR=
+6.8568E-9
+
+ACTIVE_TOTAL_TO_ENERGY_RELERR=
+9.4854E-7
+
+TOPOLOGICAL_CHARGE=
+7.000000000000001
+
+TOPOLOGY_RELERR=
+2.22E-16
+```
+
+The approximately 4.12% fission margin is a substantial improvement over the 023A approximate $B=8$ central result.
+
+---
+
+# 25. Exact $B=7$ icosahedral map reconstruction
+
+The tested $B=7$ rational-map family used:
+
+```math
+b_0
+=
+\frac{7}{\sqrt5}
+```
+
+The direct angular quadrature gave:
+
+```text
+DEGREE=
+6.999999999999997
+
+DEGREE_RELERR=
+3.81E-16
+
+I_DIRECT=
+60.8680423971251
+
+I_LITERATURE=
+60.87
+
+I_RELERR=
+3.216E-5
+```
+
+Re-solving with directly reconstructed $\mathcal I$ changed the profile energy by only:
+
+```math
+7.27\times10^{-6}
+```
+
+Thus the exact angular reconstruction strongly supports the chosen rational map.
+
+---
+
+# 26. Full 3D stress reconstruction in 023B
+
+Let:
+
+```math
+a
+=
+F'^2
+```
+
+and:
+
+```math
+b
+=
+\frac{
+\sin^2F\,J^2
+}{
+r^2
+}
+```
+
+where $J$ is the local conformal angular stretch of the rational map.
+
+Then:
+
+```math
+e_2
+=
+a+2b
+```
+
+```math
+e_4
+=
+2ab+b^2
+```
+
+and:
+
+```math
+\rho
+=
+a+2b+2ab+b^2+V
+```
+
+The principal pressures are:
+
+```math
+p_r
+=
+a-2b+2ab-b^2-V
+```
+
+and:
+
+```math
+p_t
+=
+-a+b^2-V
+```
+
+with two equal tangential pressures.
+
+---
+
+# 27. Exact 3D active-trace identity
+
+Compute:
+
+```math
+\rho+p_r+2p_t
+```
+
+Substitute:
+
+```math
+\rho+p_r+2p_t
+=
+a+2b+2ab+b^2+V
++
+a-2b+2ab-b^2-V
++
+2(-a+b^2-V)
+```
+
+Cancel terms:
+
+```math
+\rho+p_r+2p_t
+=
+4ab+2b^2-2V
+```
+
+Since:
+
+```math
+e_4
+=
+2ab+b^2
+```
+
+we obtain the exact identity:
+
+```math
+\rho+p_r+2p_t
+=
+2(e_4-V)
+```
+
+This identity is algebraic.
+
+The 023B run found a pointwise relative trace residual of:
+
+```math
+9.56\times10^{-10}
+```
+
+against a hard threshold of:
+
+```math
+10^{-10}
+```
+
+so the script printed:
+
+```text
+FULL_3D_ACTIVE_TRACE_RECONSTRUCTION=
+FAIL
+```
+
+However the integrated active-mass reconstruction agreed at:
+
+```math
+5.33\times10^{-16}
+```
+
+and the identity above is exact.
+
+The most likely explanation is conditioning of a purely relative error near points where the active source crosses zero.
+
+The next run must **verify this in higher/scaled precision rather than simply relaxing the tolerance**.
+
+---
+
+# 28. 023B 3D energy and DEC results
+
+Direct 3D quadrature gave approximately:
+
+```text
+E2_3D=
+258.2003248
+
+E2_EXPECTED=
+258.2000781
+
+E4_3D=
+830.4474178
+
+E4_EXPECTED=
+830.4466244
+
+E0_3D=
+190.7490339
+
+E0_EXPECTED=
+190.7488517
+```
+
+Maximum energy relative discrepancy:
+
+```math
+9.55\times10^{-7}
+```
+
+Therefore:
+
+```text
+FULL_3D_ENERGY_RECONSTRUCTION=
+PASS
+```
+
+The pointwise DEC test gave:
+
+```text
+MIN_DEC_MARGIN=
+0
+
+MIN_RHO=
+7.13E-34
+
+POINTWISE_3D_DEC=
+PASS
+```
+
+This is consistent with established results that the ordinary positive-sign SU(2) Skyrme stress tensor obeys DEC; the added nonnegative potential has $\rho=V$ and $p_i=-V$, which also lies on the DEC boundary.
+
+---
+
+# 29. 023B actual anisotropic finite-payload gravity
+
+This was a significant upgrade over the 023A monopole result.
+
+The actual anisotropic 3D active source was integrated directly over a finite spherical payload.
+
+Six payload-center orientations were tested.
+
+Outward radial kernels:
+
+```text
++Z:
+49.4943
+
++X:
+49.5630
+
+(1,1,1):
+63.8673
+
+(1,1,0):
+12.2441
+
+(1,2,3):
+48.6951
+
+(2,-1,1):
+42.4738
+```
+
+Thus:
+
+```text
+MIN_OUTWARD_KERNEL=
+12.2441
+
+MAX_OUTWARD_KERNEL=
+63.8673
+
+MEAN_OUTWARD_KERNEL=
+44.3896
+
+ALL_SIX_ORIENTATIONS_OUTWARD=
+YES
+```
+
+This strongly supports the statement:
+
+> **The outward finite-payload effect is not solely an artifact of the spherical monopole average.**
+
+However the field is highly anisotropic.
+
+The orientation anisotropy statistic was approximately:
+
+```math
+1.163
+```
+
+and several orientations produced large transverse components.
+
+Therefore the next promotion-grade run must replace six directions with a dense orientation sphere.
+
+---
+
+# 30. 023B exact binary-fission robustness
+
+Central exact-map fission margin:
+
+```math
+\delta_{\mathrm{fiss}}
+=
+0.0412030
+```
+
+The 17 robustness cases gave a **worst fission margin** of:
+
+```math
+0.0401486
+```
+
+This is more than 20 times the declared promotion floor:
+
+```math
+0.002
+```
+
+Thus the phrase:
+
+```text
+ROBUST_BINARY_FISSION_MARGIN=FAIL
+```
+
+in the run should **not** be interpreted as a fission-instability finding.
+
+The fission margin was robustly excellent.
+
+The combined robustness predicate failed because four parameter cases had negative-active fractions whose magnitude fell slightly below 1%.
+
+The weakest was:
+
+```math
+-0.0078876
+```
+
+All still had:
+
+```text
+NEGATIVE_ENCLOSED_ACTIVE_MASS=
+YES
+
+BINARY_FISSION=
+STRONGLY_BOUND
+
+FINITE_PAYLOAD_MONOPOLE_OUTWARD=
+YES
+```
+
+The four sub-1% cases were approximately:
+
+```text
+ETA=0.46
+M=2.4
+MIN_ACTIVE=-0.00948
+
+ETA=0.50
+M=2.4
+MIN_ACTIVE=-0.00868
+
+ETA=0.54
+M=2.4
+MIN_ACTIVE=-0.00789
+
+ETA=0.54
+M=3.0
+MIN_ACTIVE=-0.00922
+```
+
+Thus 023B found a **robust-strength-selection issue**, not a new stability failure.
+
+---
+
+# 31. 023B rational-map shape stability
+
+Perturbing the $B=7$ map parameter by:
+
+```text
+PLUS_MINUS_1_PERCENT
+
+PLUS_MINUS_2_PERCENT
+
+PLUS_MINUS_4_PERCENT
+```
+
+gave positive symmetric energy curvature in every case.
+
+Minimum:
+
+```math
+\frac{d^2E}{d\epsilon^2}
+\approx
+50.56
+>
+0
+```
+
+Therefore the selected icosahedral map is locally stable along that dominant one-parameter rational-map deformation family.
+
+This remains weaker than the unrestricted Cartesian Hessian.
+
+---
+
+# 32. Exact current 023B claim classification
+
+The run formally ended:
+
+```text
+023B_EXACT_RATIONAL_MAP_FULL3D_T_MUNU_GRAVITY_PROMOTION_GATE=
+GREEN_NEGATIVE_OR_INCOMPLETE_RESULT
+
+FULL_3D_RATIONAL_MAP_STABLE_FIELD_THEORY_PREFLIGHT=
+NOT_ESTABLISHED
+
+HEURISTIC_PROMOTION_ELIGIBILITY=
+NO
+
+CURRENT_KNOWLEDGE_HEURISTIC=
+APPROXIMATELY_68_PERCENT_NOT_A_PROBABILITY
+```
+
+The scientifically useful interpretation is more precise:
+
+```text
+EXACT_RATIONAL_MAP=
+PASS
+
+TOPOLOGICAL_CHARGE=
+PASS
+
+DERRICK_VIRIAL=
+PASS
+
+CENTRAL_BINARY_FISSION=
+PASS_STRONGLY
+
+ROBUST_BINARY_FISSION=
+PASS_STRONGLY_IN_SUBSTANCE
+
+NEGATIVE_ENCLOSED_ACTIVE_MASS=
+PASS
+
+POSITIVE_TOTAL_ACTIVE_MASS=
+PASS
+
+POINTWISE_3D_DEC=
+PASS
+
+FULL_3D_ENERGY_RECONSTRUCTION=
+PASS
+
+ANISOTROPIC_FINITE_PAYLOAD_OUTWARD_GRAVITY=
+PASS_IN_ALL_6_TESTED_ORIENTATIONS
+
+RATIONAL_MAP_SHAPE_CURVATURE=
+PASS
+
+POINTWISE_ACTIVE_TRACE_NUMERICAL_CRITERION=
+FORMAL_FAIL_BY_FACTOR_9P6_WITH_EXACT_ALGEBRAIC_IDENTITY
+
+ROBUST_GREATER_THAN_OR_EQUAL_TO_1_PERCENT_ACTIVE_STRENGTH=
+13_OF_17
+
+UNRESTRICTED_CARTESIAN_3D_STABILITY=
+NOT_TESTED
+
+NONLINEAR_EINSTEIN_MATTER=
+NOT_TESTED
+```
+
+---
+
+# 33. Why the current heuristic remains approximately 68%
+
+The project has not yet earned the next qualitative accomplishment.
+
+018B already gave field existence.
+
+023A/023B now strongly suggest that an **intrinsically topological** realization can repair the fatal stability weakness of 018B.
+
+But:
+
+```text
+RATIONAL_MAP_ANSATZ=
+STILL_A_RESTRICTED_FIELD_CLASS
+
+FULL_CARTESIAN_RELAXATION=
+NOT_DONE
+
+COMPLETE_3D_HESSIAN=
+NOT_DONE
+
+FULL_NONLINEAR_EINSTEIN_SKYRME=
+NOT_DONE
+```
+
+Therefore:
+
+```text
+CURRENT_HEURISTIC=
+APPROXIMATELY_68_PERCENT
+```
+
+should be retained at session closeout.
+
+The next increase must be earned by completing one or more of those genuinely new accomplishments.
+
+---
+
+# 34. Central strategic insight for the path to 80%
+
+There are now two distinct theoretical breakthroughs remaining before the 80% milestone:
+
+```text
+BREAKTHROUGH_A=
+UNRESTRICTED_STABLE_3D_TOPOLOGICAL_REPULSIVE_FIELD
+
+BREAKTHROUGH_B=
+SELF_CONSISTENT_EINSTEIN_MATTER_CONTINUATION
+PRESERVING_FINITE_PAYLOAD_REPULSION
+```
+
+The first is likely enough to reach approximately 70–72%.
+
+The second is the shortest honest route into the approximately 72–80% tier.
+
+The most efficient strategy is therefore:
+
+```text
+023BR
+CHEAP_PROMOTION_REPAIR
+
+->
+
+023C
+UNRESTRICTED_CARTESIAN_3D_RELAXATION_AND_HESSIAN
+
+->
+
+023D
+CONTROLLED_WEAK_GRAVITY_EINSTEIN_SKYRME_CONTINUATION
+
+->
+
+023E
+FULL_COUPLED_NUMERICAL_CONFIRMATION_ONLY_IF_NEEDED
+
+->
+
+APPROXIMATELY_80_PERCENT
+IF_ALL_GREEN
+```
+
+---
+
+# 35. NEXT — 023BR promotion-grade robustness repair
+
+This should be the **first run of the next session**.
+
+Do not launch the expensive unrestricted 3D solve before closing the two narrow 023B issues.
+
+## 35.1 Active question
+
+> Does an already-existing exact-map $B\le8$ candidate satisfy the original robustness thresholds when candidates are ranked by worst-case promotion margin rather than central fission margin?
+
+## 35.2 Do not change thresholds
+
+The goal is **not** to lower the 1% criterion.
+
+Instead search all ten existing exact-$\mathcal I$ promotion passers.
+
+For each candidate evaluate its complete declared robustness neighborhood.
+
+Define:
+
+```math
+A_{\mathrm{worst}}
+=
+\max_{\mathrm{robustness}}
+\left(
+\frac{M_A^{\min}}{E}
+\right)
+```
+
+Since the values are negative, require:
+
+```math
+A_{\mathrm{worst}}
+\le
+-0.01
+```
+
+Define:
+
+```math
+\delta_{\mathrm{fiss,worst}}
+=
+\min_{\mathrm{robustness}}
+\delta_{\mathrm{fiss}}
+```
+
+Require:
+
+```math
+\delta_{\mathrm{fiss,worst}}
+\ge
+0.002
+```
+
+Also require:
+
+```text
+FINITE_PAYLOAD_OUTWARD_IN_EVERY_ROBUSTNESS_CASE=
+YES
+```
+
+## 35.3 Why a stronger candidate probably exists
+
+The existing diagnostic data showed that increasing $m$ strengthened the negative-active core while keeping fission margins huge.
+
+Examples, explicitly treated only as directional diagnostics so far:
+
+```text
+M=4.8:
+MIN_ACTIVE≈-1.294_PERCENT
+FISSION≈3.94_PERCENT
+
+M=5.625:
+MIN_ACTIVE≈-1.378_PERCENT
+FISSION≈3.85_PERCENT
+
+M=9.375:
+MIN_ACTIVE≈-1.605_PERCENT
+FISSION≈3.57_PERCENT
+```
+
+The existing promotion grid already contains:
+
+```text
+M=5
+
+M=8
+```
+
+Therefore no parameter-space expansion is necessary.
+
+The first run should rerank the **existing exact-map basin by maximin robustness**.
+
+## 35.4 Correct the active-trace numerical diagnostic
+
+Do not simply change:
+
+```text
+1E-10
+```
+
+to:
+
+```text
+1E-9
+```
+
+Instead use a scaled residual that remains meaningful at zero crossings:
+
+```math
+R_{\mathrm{trace}}
+=
+\frac{
+\left|
+(\rho+p_r+2p_t)-2(e_4-V)
+\right|
+}{
+\max
+\left[
+\rho+|p_r|+2|p_t|+2e_4+2V,
+\epsilon
+\right]
+}
+```
+
+Also report:
+
+```text
+MAX_ABSOLUTE_TRACE_RESIDUAL
+
+MAX_ABSOLUTE_RESIDUAL_OVER_GLOBAL_PEAK_ENERGY
+
+LONG_DOUBLE_SPOT_CHECK
+
+ARBITRARY_PRECISION_SPOT_CHECK
+```
+
+The pointwise identity should pass as an algebraic reconstruction, not because the tolerance was weakened.
+
+## 35.5 Upgrade orientation robustness
+
+Replace six directions by a dense deterministic orientation set.
+
+Recommended:
+
+```text
+>=162_DIRECTIONS
+```
+
+preferably:
+
+```text
+256_OR_MORE
+```
+
+using a Fibonacci sphere, Lebedev rule, or equivalent deterministic scheme.
+
+Require:
+
+```math
+\min_{\hat n}
+a_{\mathrm{CM}}(\hat n)\cdot\hat n
+>
+0
+```
+
+Also report:
+
+```text
+MIN_RADIAL_OUTWARD
+
+MAX_RADIAL_OUTWARD
+
+MAX_TRANSVERSE_MAGNITUDE
+
+MAX_TRANSVERSE_OVER_RADIAL
+
+ORIENTATION_OF_WORST_RADIAL_FORCE
+```
+
+Perform low/primary/high quadrature convergence.
+
+## 35.6 023BR promotion rule
+
+A strong 023BR result requires:
+
+```text
+EXACT_I_BASIN=
+PASS
+
+MAXIMIN_SELECTED_CANDIDATE=
+FOUND
+
+ROBUST_WORST_ACTIVE_FRACTION<=-0.01
+
+ROBUST_WORST_FISSION_MARGIN>=0.002
+
+POINTWISE_ACTIVE_TRACE=
+PASS_WITH_SCALED_AND_HIGH_PRECISION_RECONSTRUCTION
+
+POINTWISE_DEC=
+PASS
+
+DENSE_ORIENTATION_FINITE_PAYLOAD_OUTWARD=
+PASS
+
+3D_QUADRATURE_CONVERGENCE=
+PASS
+
+MAP_SHAPE_CURVATURE=
+PASS
+```
+
+If green, classify only as:
+
+```text
+PROMOTION_GRADE_RATIONAL_MAP_STABLE_FIELD_PREFLIGHT
+```
+
+A cautious heuristic may move toward approximately 70–71%, but the project should reserve the approximately 72% milestone for unrestricted 3D stability.
+
+---
+
+# 36. 023C — unrestricted Cartesian 3D relaxation and Hessian
+
+This is the most important next-session run if 023BR is green.
+
+It is the true stability gate.
+
+## 36.1 Active scientific question
+
+> When all rational-map restrictions are removed, does the selected $B=7$ false-core field relax to a genuine finite-energy three-dimensional local minimum that preserves negative enclosed active mass and finite-payload outward linearized gravity?
+
+## 36.2 Field representation
+
+Represent:
+
+```math
+U
+=
+\sigma I
++
+i\pi_a\tau_a
+```
+
+with constraint:
+
+```math
+\sigma^2+\pi_a\pi_a=1
+```
+
+Use the selected 023BR rational-map solution **only as initial data**.
+
+The relaxation must allow arbitrary:
+
+```text
+RADIAL
+
+ANGULAR
+
+POLYHEDRAL
+
+CLUSTERING
+
+FISSION-LIKE
+
+SHEAR
+
+TWIST
+
+LOCAL_FIELD
+```
+
+deformations.
+
+## 36.3 Boundary conditions
+
+Use a finite Cartesian cube with:
+
+```math
+U\rightarrow I
+```
+
+at the outer boundary.
+
+Required:
+
+```text
+LOW_RESOLUTION
+
+PRIMARY_RESOLUTION
+
+HIGH_RESOLUTION
+
+SMALL_DOMAIN
+
+PRIMARY_DOMAIN
+
+LARGE_DOMAIN
+```
+
+The central result must converge under both mesh and domain refinement.
+
+## 36.4 Minimization
+
+Suitable approaches:
+
+```text
+CONSTRAINED_L_BFGS
+
+TANGENT_SPACE_GRADIENT_FLOW
+
+PROJECTED_NONLINEAR_CONJUGATE_GRADIENT
+```
+
+Do not allow the unit-SU(2) constraint to drift.
+
+The relaxed energy should satisfy:
+
+```math
+E_{\mathrm{relaxed}}
+\le
+E_{\mathrm{rational\ map}}
+```
+
+up to numerical tolerance.
+
+If it relaxes substantially downward into a different configuration, that is not automatically a failure.
+
+The correct question is whether the **relaxed true configuration** retains the desired gravitational behavior and topology.
+
+## 36.5 Topological charge
+
+Compute the full 3D baryon/topological density directly.
+
+Require:
+
+```math
+Q
+\approx
+7
+```
+
+with convergence.
+
+Topology must not be inferred from the initial condition.
+
+## 36.6 Complete 3D stress tensor
+
+Reconstruct:
+
+```math
+T_{\mu\nu}(x,y,z)
+```
+
+directly from the relaxed field.
+
+Check:
+
+```text
+ENERGY_DENSITY>=0
+
+DEC_POINTWISE=
+PASS
+
+ACTIVE_SOURCE=
+RHO+P1+P2+P3
+
+TOTAL_ACTIVE_MASS>0
+```
+
+Do not assume the rational-map pressure formulas after unrestricted relaxation.
+
+## 36.7 Full 3D finite-payload gravity
+
+Integrate:
+
+```math
+\mathbf a(\mathbf x)
+=
+-
+\frac{G}{c^2}
+\int
+S(\mathbf x')
+\frac{
+\mathbf x-\mathbf x'
+}{
+|\mathbf x-\mathbf x'|^3
+}
+d^3x'
+```
+
+over the complete numerical source.
+
+Then integrate the acceleration over a finite payload.
+
+Require a robust operating volume rather than a single point.
+
+Test a dense set of payload positions and orientations.
+
+## 36.8 Complete static Hessian
+
+This is the key improvement over 023B.
+
+Compute Hessian-vector products for the constrained energy functional.
+
+Use Lanczos or LOBPCG to obtain the lowest eigenmodes.
+
+Project out symmetry zero modes explicitly.
+
+Likely zero-mode sectors include:
+
+```text
+3_TRANSLATIONS
+
+3_SPATIAL_ROTATIONS
+
+GLOBAL_ISOROTATIONS_OR_CONJUGATIONS_WHERE_EXACTLY_SYMMETRIC
+```
+
+The precise null-space count must be derived from the actual potential symmetry.
+
+Do not classify a numerical near-zero Goldstone mode as an instability.
+
+After zero-mode projection require:
+
+```math
+\lambda_{\min,\mathrm{physical}}
+>
+0
+```
+
+with resolution convergence.
+
+## 36.9 Independent Hessian verification
+
+At minimum compare two of:
+
+```text
+AUTODIFF_HESSIAN_VECTOR_PRODUCTS
+
+FINITE_DIFFERENCE_HESSIAN_VECTOR_PRODUCTS
+
+DIRECT_SECOND_DIFFERENCE_ALONG_LOWEST_MODE
+
+PERTURB_AND_RELAX_ENERGY_CURVATURE
+```
+
+A positive eigenvalue from one implementation is insufficient.
+
+## 36.10 Fission/deformation challenge
+
+Explicitly initialize:
+
+```text
+B1+B6
+
+B2+B5
+
+B3+B4
+```
+
+widely separated and in attractive relative orientations.
+
+Relax them.
+
+Compare final energies with the single $B=7$ candidate.
+
+Also seed the lowest Hessian eigenvectors at several finite amplitudes and relax.
+
+## 36.11 023C promotion condition
+
+A meaningful stable-field-theory candidate requires:
+
+```text
+UNRESTRICTED_3D_RELAXATION=
+CONVERGED
+
+TOPOLOGICAL_CHARGE=
+7
+
+FINITE_ENERGY=
+YES
+
+GLOBAL_REGULARITY=
+YES
+
+COMPLETE_T_MUNU=
+YES
+
+POINTWISE_DEC=
+PASS
+
+POSITIVE_TOTAL_ACTIVE_MASS=
+YES
+
+NEGATIVE_ACTIVE_REGION=
+YES
+
+FINITE_PAYLOAD_OUTWARD_GRAVITY=
+YES
+
+DENSE_POSITION_AND_ORIENTATION_ROBUSTNESS=
+PASS
+
+ALL_BINARY_FISSION_CHANNELS=
+BOUND
+
+LOWEST_PHYSICAL_HESSIAN_EIGENVALUE=
+POSITIVE
+
+HESSIAN_RESOLUTION_CONVERGENCE=
+PASS
+
+INDEPENDENT_HESSIAN_CHECK=
+PASS
+```
+
+If this complete bundle is green, the project has achieved something qualitatively stronger than 018B:
+
+> **A complete unrestricted three-dimensional positive-energy relativistic field configuration with intrinsic topological stabilization and finite-payload outward gravity in linearized GR.**
+
+That should justify the approximately 70–72% accomplishment tier after claim audit.
+
+---
+
+# 37. Why 023C is the right route rather than another model search
+
+The project already knows how to produce the desired sign.
+
+The outstanding issue is not another mechanism.
+
+023B already has:
+
+```text
+TOPOLOGY
+
+STRONG_BINARY_BINDING
+
+DERRICK_STABILITY
+
+MAP_SHAPE_STABILITY
+
+3D_DEC
+
+3D_FINITE_PAYLOAD_REPULSION
+```
+
+The most valuable remaining falsifier is therefore:
+
+```text
+DOES_AN_UNRESTRICTED_3D_MODE_KILL_IT
+```
+
+This is exactly what destroyed 018B.
+
+Repeating that test in the new intrinsically topological architecture has extremely high information gain.
+
+---
+
+# 38. 023D — shortest credible path from ~72% to the 72–80% nonlinear-GR tier
+
+If 023C is green, do **not** immediately perform an enormous strong-gravity scan.
+
+The intended device operating point is extraordinarily weak in dimensionless compactness.
+
+This provides a cheaper route.
+
+---
+
+# 39. Weak-gravity compactness theorem
+
+For a target acceleration $a$ over characteristic scale $L$, the relevant weak-field parameter is of order:
+
+```math
+\varepsilon_g
+\sim
+\frac{aL}{c^2}
+```
+
+For $a=1g$:
+
+```text
+L=1_M:
+EPSILON_G≈1.09E-16
+
+L=0.1_M:
+EPSILON_G≈1.09E-17
+
+L=0.05_M:
+EPSILON_G≈5.46E-18
+
+L=0.043_M:
+EPSILON_G≈4.69E-18
+```
+
+Thus a macroscopic 1g configuration is, paradoxically, **extremely weak-field in compactness**, despite requiring an enormous absolute source energy.
+
+This is strategically crucial.
+
+It means the nonlinear Einstein correction at the target operating point should be perturbatively tiny unless a structural degeneracy or instability intervenes.
+
+---
+
+# 40. Einstein–Skyrme literature anchor
+
+Self-gravitating Skyrmions are a well-established problem class.
+
+A standard dimensionless gravitational coupling is of the form:
+
+```math
+\alpha^2
+=
+4\pi G f_\pi^2
+```
+
+in one common convention.
+
+Published gravitating Skyrmion solutions form a branch continuously connected to the flat-space Skyrmion at $\alpha=0$ and persist to finite gravitational coupling.
+
+Stability studies also show stable low-gravity branches in established Einstein–Skyrme models, although those results do not prove stability of the project’s specific false-core $B=7$ configuration.
+
+Therefore a weak-gravity continuation of a verified flat-space local minimum is physically well motivated.
+
+---
+
+# 41. Implicit-function strategy for Einstein–Skyrme continuation
+
+Let the coupled field equations be written schematically as:
+
+```math
+\mathcal F(u,g;G)
+=
+0
+```
+
+where:
+
+```text
+u=
+SKYRME_FIELD
+
+g=
+SPACETIME_METRIC
+```
+
+At $G=0$:
+
+```math
+\mathcal F(u_0,\eta;0)=0
+```
+
+where $u_0$ is the 023C flat-space stable field and $\eta$ is Minkowski spacetime.
+
+Gauge-fix the metric, for example with harmonic or DeTurck gauge, and remove matter symmetry zero modes.
+
+If the full linearized operator:
+
+```math
+D_{(u,g)}
+\mathcal F
+```
+
+is invertible on the physical quotient space, then the implicit-function theorem gives a nearby exact solution:
+
+```math
+(u(G),g(G))
+```
+
+for sufficiently small $G$.
+
+The 023C positive Hessian gap is therefore not merely a stability result.
+
+It is the crucial mathematical ingredient for a controlled nonlinear-gravity continuation.
+
+---
+
+# 42. Operational-force continuation
+
+Define the finite-payload acceleration functional:
+
+```math
+A(G)
+```
+
+At weak gravity:
+
+```math
+A(G)
+=
+GA_1
++
+O(G^2)
+```
+
+The 023C calculation supplies $A_1$.
+
+If the minimum finite-payload outward margin over the complete allowed payload region is:
+
+```math
+A_1
+>
+0
+```
+
+with a finite gap, then for sufficiently small $G$ the sign remains positive.
+
+The target compactness being of order $10^{-18}$–$10^{-16}$ gives enormous perturbative separation from order-one nonlinear corrections.
+
+This suggests a much cheaper path to nonlinear consistency than searching near the maximum gravitating-Skyrmion coupling.
+
+---
+
+# 43. Practical 023D implementation
+
+A high-information 023D should proceed in stages.
+
+## Stage 1 — first metric correction
+
+Solve the linearized Einstein equation sourced by the full 023C $T_{\mu\nu}$.
+
+Use an explicit gauge.
+
+Reconstruct:
+
+```math
+h_{\mu\nu}^{(1)}
+```
+
+and compare with independent Green-function and elliptic-PDE implementations.
+
+## Stage 2 — first matter backreaction
+
+The curved metric perturbs the Skyrme Euler-Lagrange equations.
+
+Write:
+
+```math
+u
+=
+u_0
++
+Gu_1
++
+O(G^2)
+```
+
+Then solve:
+
+```math
+\mathcal H
+u_1
+=
+-
+\mathcal S_g
+```
+
+where:
+
+```text
+H=
+023C_MATTER_HESSIAN
+
+S_g=
+METRIC_INDUCED_FIELD_EQUATION_FORCING
+```
+
+The inverse is controlled by the 023C Hessian spectral gap.
+
+## Stage 3 — second-order/error bound
+
+Estimate:
+
+```math
+R
+=
+\mathcal F(u_{\mathrm{approx}},g_{\mathrm{approx}})
+```
+
+and the inverse-Jacobian norm.
+
+Use a Newton-Kantorovich or equivalent validated-numerics criterion.
+
+The goal is not merely:
+
+```text
+RESIDUAL_SMALL
+```
+
+but:
+
+```text
+AN_EXACT_NEARBY_COUPLED_SOLUTION_IS_CERTIFIED
+```
+
+if computationally feasible.
+
+## Stage 4 — finite-payload geodesic response
+
+Evaluate the actual finite-payload acceleration in the corrected metric.
+
+Do not infer nonlinear sign preservation solely from the matter-source sign.
+
+## Stage 5 — global GR checks
+
+Require:
+
+```text
+ASYMPTOTIC_FLATNESS
+
+POSITIVE_ADM_MASS
+
+NO_HORIZON
+
+NO_TRAPPED_SURFACE
+
+NO_GAUGE_PATHOLOGY
+
+METRIC_RESIDUAL_CONVERGENCE
+
+MATTER_RESIDUAL_CONVERGENCE
+
+FINITE_PAYLOAD_OUTWARD=
+YES
+```
+
+## Stage 6 — payload backreaction
+
+Include or rigorously bound the payload stress-energy.
+
+For the enormous source energies implied by pure GR, a 1-kg payload should be an extremely small perturbation, but it still must be explicitly booked.
+
+---
+
+# 44. 023D promotion condition toward approximately 76–80%
+
+A strong controlled weak-gravity continuation requires:
+
+```text
+023C_STABLE_UNRESTRICTED_3D_FIELD=
+PASS
+
+GAUGE_FIXED_LINEAR_OPERATOR=
+INVERTIBLE_AFTER_ZERO_MODE_REMOVAL
+
+FIRST_ORDER_METRIC=
+CONVERGED
+
+FIRST_ORDER_FIELD_BACKREACTION=
+CONVERGED
+
+NONLINEAR_RESIDUAL_BOUND=
+PASS
+
+ASYMPTOTIC_FLATNESS=
+PASS
+
+ADM_MASS_POSITIVE=
+PASS
+
+NO_HORIZON=
+PASS
+
+FINITE_PAYLOAD_OUTWARD_NONLINEAR_METRIC=
+PASS
+
+PAYLOAD_BACKREACTION=
+INCLUDED_OR_RIGOROUSLY_BOUNDED
+
+INDEPENDENT_IMPLEMENTATION=
+PASS
+```
+
+A validated result of this type would represent the missing nonlinear Einstein–matter accomplishment.
+
+Depending on the strength of the certification, this could justify movement through the mid/high 70s and potentially to approximately 80%.
+
+---
+
+# 45. 023E — full coupled Einstein–Skyrme PDE only if 023D is not sufficient
+
+If the claim audit judges the perturbative/validated continuation insufficient for the 80% milestone, then 023E should solve the full static coupled system directly.
+
+Use a gauge-fixed Einstein elliptic formulation such as Einstein-DeTurck.
+
+Schematic equation:
+
+```math
+R_{\mu\nu}
+-
+\nabla_{(\mu}\xi_{\nu)}
+=
+8\pi G
+\left(
+T_{\mu\nu}
+-
+\frac12g_{\mu\nu}T
+\right)
+```
+
+together with the curved-space Skyrme Euler-Lagrange equations.
+
+Required:
+
+```text
+FULL_ANISOTROPIC_3D_METRIC
+
+FULL_3D_SKYRME_FIELD
+
+NO_RATIONAL_MAP_CONSTRAINT
+
+DE_TURCK_VECTOR_NORM_TO_ZERO
+
+EINSTEIN_RESIDUAL_CONVERGENCE
+
+MATTER_RESIDUAL_CONVERGENCE
+
+TOPOLOGY_PRESERVED
+
+ADM_MASS_POSITIVE
+
+FINITE_PAYLOAD_GEODESIC_ACCELERATION_OUTWARD
+
+STABILITY_CONTINUED_FROM_023C
+```
+
+It may be useful to solve a sequence of artificially larger gravitational couplings to demonstrate a smooth branch and then include the physical weak-coupling point.
+
+Do **not** require approaching the strong-gravity critical branch merely to prove a weak-gravity 1g operating configuration.
+
+---
+
+# 46. Proposed milestone sequence to 80%
+
+The shortest defensible ladder is:
+
+```text
+CURRENT:
+~68_PERCENT
+
+023BR:
+PROMOTION_GRADE_EXACT_MAP_ROBUSTNESS
+POSSIBLE_RESULT:
+~70_TO_71_PERCENT
+
+023C:
+UNRESTRICTED_CARTESIAN_3D_FIELD
++
+FULL_HESSIAN
++
+FINITE_PAYLOAD_OUTWARD_GRAVITY
+POSSIBLE_RESULT:
+~72_PERCENT
+
+023D:
+CONTROLLED_SELF_CONSISTENT_WEAK_GRAVITY
+EINSTEIN_SKYRME_CONTINUATION
+POSSIBLE_RESULT:
+~76_TO_80_PERCENT
+
+023E:
+FULL_COUPLED_NONLINEAR_CONFIRMATION
+IF_REQUIRED
+POSSIBLE_RESULT:
+~80_PERCENT
+```
+
+The percentage should move only after post-run claim audit.
+
+---
+
+# 47. Critical strategic warning — 80% is not practical antigravity
+
+Even if 023C/D/E are all successful, the pure-GR energy problem remains enormous.
+
+The approximately 80% milestone means roughly:
+
+> **A stable, finite, microscopic field configuration survives self-consistent nonlinear Einstein–matter continuation while producing finite-payload outward gravity.**
+
+It does **not** mean:
+
+```text
+ENERGETICALLY_PRACTICAL=
+YES
+
+BUILDABLE_DEVICE=
+YES
+
+KNOWN_MATERIAL=
+YES
+
+EXPERIMENTAL_SIGNAL=
+YES
+```
+
+Practical scaling remains the next major breakthrough.
+
+---
+
+# 48. New pure-GR scaling theorem for the 023 branch
+
+The standard Skyrme model has characteristic length and classical energy scales:
+
+```math
+L
+\sim
+\frac{2x_*}{eF_\pi}
+```
+
+and:
+
+```math
+E
+\sim
+\frac{F_\pi}{4e}
+\mathcal E
+```
+
+where $x_*$ and $\mathcal E$ are dimensionless profile factors.
+
+Eliminate $e$ using:
+
+```math
+e
+\sim
+\frac{2x_*}{F_\pi L}
+```
+
+Then:
+
+```math
+E
+\sim
+\frac{\mathcal E}{8x_*}
+F_\pi^2L
+```
+
+The Einstein–Skyrme gravitational coupling satisfies schematically:
+
+```math
+\alpha
+\propto
+GF_\pi^2
+```
+
+up to convention-dependent constants.
+
+Therefore:
+
+```math
+E
+\propto
+\frac{\alpha L}{G}
+```
+
+in natural units.
+
+At scale $L$, gravitational acceleration behaves as:
+
+```math
+a
+\sim
+\frac{GE}{c^2L^2}
+```
+
+Substitute:
+
+```math
+E
+\sim
+\frac{a c^2L^2}{G}
+```
+
+up to a dimensionless profile coefficient.
+
+Thus:
+
+> **Changing $e$, $F_\pi$, or ordinary Skyrme normalization cannot remove the fundamental $1/G$ energetic burden for a fixed macroscopic gravitational acceleration and size.**
+
+Topology can solve stability.
+
+It cannot by itself solve gravitational coupling strength.
+
+---
+
+# 49. Active-fraction version of the energy bound
+
+If only a fraction $\beta$ of total energy contributes usefully to the negative enclosed active mass:
+
+```math
+a
+\sim
+\frac{
+G\beta E
+}{
+c^2L^2
+}
+```
+
+Therefore:
+
+```math
+E
+\sim
+\frac{
+a c^2L^2
+}{
+G\beta
+}
+```
+
+For the 023B exact $B=7$ central point:
+
+```math
+\beta
+\approx
+0.01013
+```
+
+so an order-$10^2$ penalty is expected.
+
+That is consistent with the 023B monopole payload coefficient:
+
+```math
+C
+\approx
+108.9
+```
+
+This is not a numerical accident.
+
+It is physically tied to the fraction of total energy producing useful enclosed negative active mass.
+
+---
+
+# 50. Representative pure-GR energy burden
+
+Using the representative 023B coefficient $C\approx108.9$:
+
+```math
+E
+\sim
+C
+\frac{
+ah^2c^2
+}{
+G
+}
+```
+
+For $a=1g$:
+
+```text
+h=1_M:
+E≈1.44E30_J
+
+h=0.1_M:
+E≈1.44E28_J
+
+h=0.05_M:
+E≈3.59E27_J
+
+h=0.043_M:
+E≈2.66E27_J
+
+h=0.01_M:
+E≈1.44E26_J
+```
+
+A 1-kg sphere at density $3000,\mathrm{kg/m^3}$ has radius about:
+
+```math
+0.0430\ {\rm m}
+```
+
+so even shrinking the geometry to payload scale leaves a catastrophic energy burden.
+
+This is why 80% and practical antigravity must remain separate milestones.
+
+---
+
+# 51. What happens after 80%
+
+If approximately 80% is genuinely earned, the next global frontier should become:
+
+```text
+BREAKTHROUGH_B=
+PRACTICAL_INTERACTION_STRENGTH_OR_SCALING
+```
+
+The project should then treat the stable nonlinear-GR Skyrmion as an **existence benchmark**, not continue optimizing its coefficient by small factors.
+
+The following should become a permanent stop rule:
+
+```text
+DO_NOT_SPEND_MAJOR_RESEARCH_TIME
+REDUCING_PURE_GR_C
+BY_FACTORS_OF_2_OR_10
+
+WHEN_THE_ENERGY_GAP_IS
+MANY_ORDERS_OF_MAGNITUDE
+```
+
+A route toward actual practicality requires a qualitative scaling change.
+
+Potential classes may include:
+
+```text
+A_GENUINELY_NEW_EXACTLY_PROTECTED_ADDITIONAL_INTERACTION
+
+A_COLLECTIVE_EFFECT_WITH_A_REAL_SYMMETRY_ELIMINATING_ONE_BODY_COUPLINGS
+
+A_BACKGROUND_FIELD_OR_ENVIRONMENT_WHERE_THE_COMPLETE_ENERGY_LEDGER_CHANGES_THE_SCALING
+
+A_WELL_MOTIVATED_EXTENSION_OF_GRAVITY_WITH_STRONG_EMPIRICAL_AND_STABILITY_CONTROL
+```
+
+None is presently promoted.
+
+The already-tested Wilson/vector architectures must remain closed unless a **new independent protection principle** appears.
+
+---
+
+# 52. Do not reopen these branches without new physics
+
+## 52.1 Two-current/KLS 018B realization
+
+Do not add arbitrary rigidity or stabilizers.
+
+Closed by a direct full-field $m=2$ negative Hessian direction.
+
+## 52.2 Literal thermal drum/O(4)
+
+Do not rerun ordinary thermal support optimization.
+
+The support radiation gravitated in the wrong direction by a fatal margin.
+
+## 52.3 Minimal Abelian Wilson portals
+
+Closed by perturbativity/response-naturalness.
+
+## 52.4 Minimal B/L exchange SU(2) Wilson portal
+
+Closed by unavoidable RG exchange breaking.
+
+## 52.5 021A isotope-sign direct-current model
+
+Closed as a physical implementation because:
+
+```text
+WHOLE_FORMULA_NORMALIZATION_CHANGED
+
+COMPOSITE_KERNEL_SIGN_FAILED
+
+DIRECT_VECTOR_ELECTRON_PREFLIGHT_FAILED
+
+DIRECT_VECTOR_NUCLEAR_PREFLIGHT_FAILED
+```
+
+## 52.6 Short-range asymmetric vector practicality branch
+
+022A closed the tested class through:
+
+```text
+MATERIAL_SELECTOR_FAILURE
+
+P_BRIDGE_NATURALNESS_FAILURE
+```
+
+Do not enlarge the quiver without a genuinely new exact selector/protection mechanism.
+
+---
+
+# 53. Contingency if 023BR fails
+
+If no existing exact-$\mathcal I$ candidate satisfies the original robust 1% negative-active threshold:
+
+1. Do **not** immediately lower the threshold.
+2. Separate:
+
+   ```text
+   ROBUST_SIGN
+   ```
+
+   from:
+
+   ```text
+   ROBUST_STRENGTH
+   ```
+3. Determine whether the 1% requirement has a physical promotion rationale or was only a numerical safety margin.
+4. If it remains the declared promotion criterion, do not promote.
+5. Check whether an existing literature-backed false-vacuum potential parameterization produces larger core leverage without introducing new terms.
+6. Do not proceed to huge $B$ merely to obtain a shell limit.
+
+A small extension in a known potential family is permissible only after an analytical active-source/fission argument says it has high information value.
+
+---
+
+# 54. Contingency if 023C unrestricted relaxation fails
+
+Possible outcomes must be distinguished.
+
+## Case A — field relaxes to a different $B=7$ configuration but retains repulsion
+
+This is a success.
+
+Promote the relaxed field, not the rational-map shape.
+
+## Case B — field retains topology but negative-active core disappears
+
+Then the rational-map repulsion was ansatz-dependent.
+
+Close the minimal false-core architecture.
+
+## Case C — negative Hessian mode appears
+
+Then topology plus Derrick stabilization was insufficient.
+
+Do not add arbitrary rigidity.
+
+One literature-backed generalized Skyrme term may be considered only after deriving its active-source contribution.
+
+For an $n=6$ term:
+
+```math
+S_6
+=
+4e_6
+>
+0
+```
+
+so a sextic stabilizer actually adds positive active gravitational density.
+
+It is therefore gravitationally unfavorable unless it can be spatially segregated away from the payload.
+
+This makes a sextic rescue a low-priority fallback, not the default next step.
+
+## Case D — field fissions
+
+Close the selected $B=7$ branch.
+
+Do not move to very large $B$ unless the literature and an analytical bound provide a specific reason.
+
+---
+
+# 55. Contingency if Einstein continuation fails
+
+A failure at physical 1g compactness would be surprising because:
+
+```math
+\frac{aL}{c^2}
+\ll
+1
+```
+
+and gravitating Skyrmion branches are independently known in the literature.
+
+Therefore first diagnose:
+
+```text
+GAUGE_ZERO_MODE
+
+NUMERICAL_ELLIPTIC_CONDITIONING
+
+INSUFFICIENT_DOMAIN
+
+MATTER_HESSIAN_NEAR_ZERO_MODE
+
+IMPLEMENTATION_SIGN_ERROR
+```
+
+before concluding that nonlinear gravity physically destroys the solution.
+
+A genuine small-$G$ obstruction would be an important negative result.
+
+---
+
+# 56. Literature anchors for the new branch
+
+Preserve at minimum:
+
+```text
+Houghton, Manton, Sutcliffe
+"Rational Maps, Monopoles and Skyrmions"
+Nucl. Phys. B 510, 507–537 (1998)
+hep-th/9705151
+DOI: 10.1016/S0550-3213(97)00619-6
+```
+
+This establishes the rational-map construction as a good approximation to low-$B$ minimal Skyrmions, including the relevant symmetry structures.
+
+```text
+Wang, Ma
+"Multi-skyrmion states in the Skyrme model with a false vacuum potential"
+Chinese Physics C 47, 094102 (2023)
+arXiv:2304.10982
+DOI: 10.1088/1674-1137/ace9c7
+```
+
+This studies false-vacuum-potential multi-Skyrmions through $B=8$ using 3D simulation/product-ansatz initial data and explicitly notes that product and rational-map conclusions can differ for some parameter choices.
+
+That supports the need for unrestricted 023C relaxation.
+
+```text
+Gibbons
+"Causality and the Skyrme Model"
+Phys. Lett. B 566, 171–174 (2003)
+hep-th/0302149
+DOI: 10.1016/S0370-2693(03)00384-8
+```
+
+This supports DEC for the standard positive-sign SU(2) Skyrme stress tensor.
+
+```text
+Heusler, Droz, Straumann
+"Stability analysis of self-gravitating skyrmions"
+Phys. Lett. B 271, 61–67 (1991)
+DOI: 10.1016/0370-2693(91)91278-4
+```
+
+This establishes that self-gravitating Skyrmions can possess stable low-gravity branches under studied radial perturbations, while stronger-gravity branches can become unstable.
+
+```text
+Nelmes, Piette
+"Skyrmion stars and the multilayered rational map ansatz"
+Phys. Rev. D 84, 085017 (2011)
+DOI: 10.1103/PhysRevD.84.085017
+```
+
+This confirms that Einstein–Skyrme multi-baryon rational-map constructions are an established gravitational problem class.
+
+Modern gravitating-Skyrmion work also uses an effective coupling:
+
+```math
+\alpha^2
+=
+4\pi Gf_\pi^2
+```
+
+and explicitly exhibits a branch connected continuously to the flat-space Skyrmion at $\alpha=0$.
+
+No literature result should be cited as proving the project’s specific false-core repulsive $B=7$ solution.
+
+That remains project-derived and requires independent verification.
+
+---
+
+# 57. Repository integrity at session closeout
+
+The scientific runs through 023B all retained:
+
+```text
+KNOWN_SOLUTION_BASELINE=
+94_PASSED
+```
+
+The next session should begin with:
+
+```bash
+git status --short
+
+ROOT="$(pwd)"
+PY="$ROOT/.venv/bin/python"
+
+PYTHONPATH="$ROOT/src" \
+"$PY" -m pytest -q tests/known_solutions
+```
+
+Expected:
+
+```text
+94 passed
+```
+
+If not:
+
+```text
+NEW_SCIENTIFIC_CLAIMS=
+PAUSE
+```
+
+until the regression is understood.
+
+---
+
+# 58. Recent source hashes to preserve
+
+Verify these against the actual repository at next-session start.
+
+```text
+021A
+021a_short_range_isotope_sign_wilson_vector_portal_promotion_gate.py
+
+SHA256=
+aedf8be83f17efc6e7e07f8f25630744a41b8ac7aa76909bc5f183f47565e372
+```
+
+```text
+021B0
+021b0_current_kernel_direct_vector_and_nanorange_rerank_gate.py
+
+SHA256=
+1a4ad7e154ac478789d4ea539d2f3e171dbc6f0cc65039a2d67310c49f96fe9a
+```
+
+```text
+022A
+022a_asymmetric_vector_material_selector_and_naturalness_closeout.py
+
+SHA256=
+fbdc971e6c61bde7a36ac84360adec208222aa10d3bfbc4bd9659039cefb66dc
+```
+
+```text
+023A
+023a_topological_false_core_multiskyrmion_gr_repulsion_gate.py
+
+SHA256=
+0087a5d2b4f93667308cabf4c3c498200ed29381e9493acf21714df7d8e11c9b
+```
+
+```text
+023B
+023b_exact_rational_map_full3d_tmunu_gravity_promotion_gate.py
+
+SHA256=
+6bf99785e67cfe1b2dfcb460bc3145a24115e25949e112f8480a89c880a2803c
+```
+
+Upstream older hashes:
+
+```text
+019A=
+27514c58298ccf9ecaa5543a3dc6d4368df7174ae2c55cb1a547adb922b756e7
+
+019B=
+0812ced28d18a53297e7599d5b508eaff3b4377ebcf955e129c38e8ce2497e74
+
+019C=
+dfc97a9b9563bdd7bd92b03b679f89e2f0ebfa20bca4e8f94ffdab7c7ea98514
+
+020A1=
+9700f2ff39a3ce89d86a6973a0e17bcb2440106211eeaad63d9899572afcc194
+
+020A2=
+8478124e69426fd43edc41e62b2f0a09594c68155a428abbacdea33c4cf62f7d
+```
+
+---
+
+# 59. Likely currently untracked files
+
+Unless separately committed since the terminal outputs, expect some or all of:
+
+```text
+simulations/021a_short_range_isotope_sign_wilson_vector_portal_promotion_gate.py
+simulations/021b0_current_kernel_direct_vector_and_nanorange_rerank_gate.py
+simulations/022a_asymmetric_vector_material_selector_and_naturalness_closeout.py
+simulations/023a_topological_false_core_multiskyrmion_gr_repulsion_gate.py
+simulations/023b_exact_rational_map_full3d_tmunu_gravity_promotion_gate.py
+
+results/logs/021a_*
+results/logs/021b0_*
+results/logs/022a_*
+results/logs/023a_*
+results/logs/023b_*
+```
+
+Do not assume git state.
+
+Check it.
+
+Do not modify the documentation merely because these files are untracked.
+
+---
+
+# 60. Recommended exact next-session sequence
+
+The highest-information sequence is:
+
+```text
+STEP_0
+GIT_STATUS
++
+94_REGRESSION_TESTS
++
+RECENT_SOURCE_HASH_AUDIT
+```
+
+Then:
+
+```text
+STEP_1
+023BR_PROMOTION_GRADE_EXACT_MAP_ROBUSTNESS_REPAIR
+```
+
+Only if green:
+
+```text
+STEP_2
+023C_UNRESTRICTED_CARTESIAN_3D_RELAXATION_AND_HESSIAN
+```
+
+Only if green:
+
+```text
+STEP_3
+023D_WEAK_GRAVITY_VALIDATED_EINSTEIN_SKYRME_CONTINUATION
+```
+
+If 023D validation is not strong enough for promotion:
+
+```text
+STEP_4
+023E_FULL_COUPLED_EINSTEIN_DETURCK_SKYRME_SOLVE
+```
+
+Then perform the post-run claim audit.
+
+Only after that decide whether the project has earned:
+
+```text
+~70
+
+~72
+
+~76
+
+OR
+
+~80
+```
+
+Do not preassign the percentage.
+
+---
+
+# 61. Promotion ladder for the next session
+
+## Approximately 70–71%
+
+Possible only after a fully robust exact-map preflight:
+
+```text
+023BR_GREEN
+
+ROBUST_ACTIVE_STRENGTH
+
+ROBUST_FISSION
+
+HIGH_PRECISION_TRACE
+
+DENSE_ORIENTATION_FINITE_PAYLOAD_REPULSION
+```
+
+## Approximately 72%
+
+Requires the genuinely new accomplishment:
+
+```text
+UNRESTRICTED_CARTESIAN_3D_FIELD=
+STABLE
+
+COMPLETE_PHYSICAL_HESSIAN=
+POSITIVE
+
+FINITE_PAYLOAD_REPULSION=
+PRESERVED
+```
+
+## Approximately 76–80%
+
+Requires:
+
+```text
+SELF_CONSISTENT_EINSTEIN_SKYRME_SOLUTION
+
+NONLINEAR_GRAVITY=
+CONSISTENT
+
+FINITE_PAYLOAD_OUTWARD_GRAVITY=
+PRESERVED
+
+PAYLOAD_BACKREACTION=
+ACCOUNTED_OR_BOUNDED
+
+ADM_MASS=
+POSITIVE
+
+NO_HORIZON=
+YES
+
+INDEPENDENT_RECONSTRUCTION=
+PASS
+```
+
+Approximately 80 should be awarded only if this is a sufficiently complete nonlinear matter-plus-gravity result.
+
+---
+
+# 62. Strategy optimized for probability of success
+
+The reason the 023 route should dominate the next session is not optimism.
+
+It is the number of independent gates already passed.
+
+The $B=7$ branch already possesses:
+
+```text
+KNOWN_TOPOLOGICAL_FIELD_THEORY_CLASS
+
+NONNEGATIVE_LOCAL_ENERGY
+
+DEC_COMPATIBILITY
+
+TRUE_PLUS_FALSE_VACUUM_STRUCTURE
+
+EXACT_TOPOLOGICAL_CHARGE
+
+EXACT_RATIONAL_MAP_RECONSTRUCTION
+
+DERRICK_STABILITY
+
+~4_PERCENT_BINARY_FISSION_MARGIN
+
+POSITIVE_MAP_SHAPE_CURVATURE
+
+NEGATIVE_ENCLOSED_ACTIVE_MASS
+
+POSITIVE_TOTAL_ACTIVE_MASS
+
+FULL_3D_STRESS_RECONSTRUCTION
+
+FINITE_PAYLOAD_OUTWARD_GRAVITY
+IN_ALL_SIX_TESTED_3D_ORIENTATIONS
+```
+
+The missing questions are now sharply localized:
+
+```text
+MAXIMIN_ROBUSTNESS
+
+UNRESTRICTED_3D_MODES
+
+NONLINEAR_GR
+```
+
+That is a much narrower scientific risk stack than starting another new mechanism.
+
+Therefore the highest expected information gain per unit compute is:
+
+```text
+CLOSE_THE_EXISTING_CANDIDATE
+BEFORE_SEARCHING_FOR_A_NEW_ONE
+```
+
+---
+
+# 63. Why the probability of reaching the theoretical 80% milestone is materially better than before 023A
+
+This is not a success probability estimate.
+
+It is a structural assessment.
+
+Before 023A, the project had no stable microscopic GR candidate.
+
+Now the candidate’s instability risk has been narrowed from:
+
+```text
+UNKNOWN_ENTIRE_STABILITY_PROBLEM
+```
+
+to:
+
+```text
+UNRESTRICTED_MODES_NOT_YET_TESTED
+```
+
+while multiple restricted stability indicators are already positive.
+
+Likewise, nonlinear GR used to be a completely open problem.
+
+Now the target compactness estimate:
+
+```math
+\frac{aL}{c^2}
+\sim
+10^{-18}
+\text{ to }
+10^{-16}
+```
+
+shows that the physical 1g operating point lies extremely close to the flat-space limit.
+
+The existence of established gravitating Skyrmion branches further reduces the conceptual risk of the nonlinear continuation.
+
+Therefore the shortest route to 80 is no longer speculative.
+
+It is a sequence of increasingly complete validations of one existing field configuration.
+
+---
+
+# 64. What could still kill the route
+
+The project should actively try to falsify the candidate through:
+
+```text
+UNRESTRICTED_CLUSTERING
+
+NON_RATIONAL_MAP_DEFORMATION
+
+LOWEST_HESSIAN_MODE
+
+FISSION_AFTER_FULL_RELAXATION
+
+FALSE_CORE_COLLAPSE
+
+PAYLOAD_FORCE_SIGN_REVERSAL
+
+ANISOTROPIC_TRANSVERSE_FORCE_PROBLEM
+
+CURVED_SPACE_MATTER_BACKREACTION
+
+GAUGE_FIXED_EINSTEIN_FAILURE
+
+NONLINEAR_FORCE_SIGN_CHANGE
+```
+
+Any one of these can legitimately end the branch.
+
+Do not protect the candidate from falsification merely because it is currently promising.
+
+---
+
+# 65. What will remain even if the 023 branch ultimately fails
+
+The following permanent results survive:
+
+```text
+006D:
+FINITE_POSITIVE_ENERGY_LINEARIZED_GR_REPULSION
+
+016:
+SPATIAL_ACTIVE_STRESS_SEGREGATION_PRINCIPLE
+
+018B:
+COMPLETE_MICROSCOPIC_FIELD_EXISTENCE_WITH_FINITE_PAYLOAD_REPULSION
+
+018C:
+DIRECT_FULL_FIELD_INSTABILITY_FALSIFICATION
+
+019A:
+WILSON_NONLOCAL_PROTECTION_WITNESS
+
+019B:
+ANOMALY_FREE_VECTOR_CURRENT_EFT_ESCAPE
+
+020A2R:
+MINIMAL_NONABELIAN_WILSON_NATURALNESS_CLOSEOUT
+
+022A:
+TESTED_SHORT_RANGE_PROTECTED_VECTOR_PRACTICALITY_CLOSEOUT
+
+023:
+FALSE_CORE_TOPOLOGICAL_ACTIVE_STRESS_SEGREGATION_MECHANISM
+```
+
+A later failure would narrow the problem further.
+
+It would not erase these accomplishments.
+
+---
+
+# 66. Strongest current conservative statements
+
+Public-facing:
+
+> **Within static linearized general relativity, the project has an explicit finite positive-energy locally conserved stress-energy construction satisfying NEC/WEC/DEC that produces a locally outward gravitational field while retaining positive far-field active mass.**
+
+Internal field-existence statement:
+
+> **A specific microscopic zero-temperature field theory has been numerically shown to realize finite-payload outward linearized gravity with complete reconstructed stress-energy, but that specific realization fails a direct full-field nonaxisymmetric stability test.**
+
+Current topological preflight statement:
+
+> **A positive-energy false-core Skyrme architecture has been shown, within an exact low-$B$ rational-map field class, to possess intrinsic topological stabilization, strong binary binding, positive total active mass, negative enclosed active mass, DEC-compatible full 3D stress, and outward finite-payload linearized gravity in every tested anisotropic orientation; unrestricted Cartesian stability and nonlinear Einstein–matter continuation remain unestablished.**
+
+Do **not** currently say:
+
+```text
+STABLE_FULL_3D_ANTIGRAVITY_FIELD=
+ESTABLISHED
+
+NONLINEAR_GR_ANTIGRAVITY=
+ESTABLISHED
+
+PRACTICAL_ANTIGRAVITY=
+ESTABLISHED
+
+NEW_PHYSICS=
+DISCOVERED
+```
+
+---
+
+# 67. Compact next-session checkpoint
+
+```text
+DATE=
+2026-08-31
+
+KNOWN_SOLUTION_BASELINE=
+94_PASSED
+
+CURRENT_KNOWLEDGE_HEURISTIC=
+APPROXIMATELY_68_PERCENT_NOT_A_PROBABILITY
+
+STRONGEST_PUBLIC_RESULT=
+006D
+
+006D_C_FINITE=
+23.591586299249
+
+006D_DEC=
+PASS
+
+006D_OUTWARD_LOCAL_FIELD=
+YES
+
+006D_POSITIVE_FAR_ACTIVE_MASS=
+YES
+
+018B_FULL_MICROSCOPIC_FIELD_EXISTENCE=
+PASS
+
+018B_FINITE_PAYLOAD_OUTWARD_LINEARIZED_GRAVITY=
+PASS
+
+018B_C=
+292.5922543912093
+
+018C_FULL_FIELD_M2_STABILITY=
+FAIL
+
+019A_WILSON_PROTECTION=
+PASS
+
+020A2R_MINIMAL_COLLECTIVE_NONABELIAN_CLASS=
+CLOSED_IN_TESTED_FORMS
+
+021A_SHORT_RANGE_SCALING_INSIGHT=
+RETAINED
+
+021A_PHYSICAL_ISOTOPE_VECTOR_IMPLEMENTATION=
+REJECTED
+
+022A_TESTED_PROTECTED_VECTOR_PRACTICALITY_CLASS=
+CLOSED
+
+023A_TOPOLOGICAL_FALSE_CORE_CAPACITY=
+GREEN
+
+023B_EXACT_MAP_SELECTED_B=
+7
+
+023B_SELECTED_ETA=
+0.5
+
+023B_SELECTED_M=
+3
+
+023B_EXACT_I=
+60.87
+
+023B_MIN_ACTIVE_FRACTION=
+-0.0101323310
+
+023B_CENTRAL_BINARY_FISSION_MARGIN=
+0.0412030361
+
+023B_ROBUST_WORST_FISSION_MARGIN=
+0.0401486406
+
+023B_POINTWISE_DEC=
+PASS
+
+023B_FULL3D_ENERGY_RECONSTRUCTION=
+PASS
+
+023B_FULL3D_PAYLOAD_OUTWARD_6_OF_6_ORIENTATIONS=
+PASS
+
+023B_MAP_SHAPE_CURVATURE=
+PASS
+
+023B_POINTWISE_ACTIVE_TRACE_FORMAL_GATE=
+FAIL_NUMERICAL_RELATIVE_RESIDUAL_9.56E-10_VS_1E-10
+
+023B_ROBUST_GREATER_THAN_1_PERCENT_ACTIVE_STRENGTH=
+13_OF_17
+
+023B_UNRESTRICTED_3D_HESSIAN=
+NOT_TESTED
+
+NONLINEAR_EINSTEIN_SKYRME=
+NOT_TESTED
+
+PRACTICAL_ENERGY=
+CATASTROPHIC
+
+REAL_MATERIAL=
+NO
+
+PRACTICAL_ANTIGRAVITY_DEVICE=
+NO
+
+NEW_PHYSICS_DISCOVERY=
+NO
+
+NEXT=
+023BR_PROMOTION_GRADE_EXACT_MAP_ROBUSTNESS_REPAIR
+
+NEXT_IF_023BR_GREEN=
+023C_UNRESTRICTED_CARTESIAN_3D_RELAXATION_AND_HESSIAN
+
+NEXT_IF_023C_GREEN=
+023D_VALIDATED_WEAK_GRAVITY_EINSTEIN_SKYRME_CONTINUATION
+
+NEXT_IF_023D_INSUFFICIENT_FOR_80=
+023E_FULL_COUPLED_EINSTEIN_DETURCK_SKYRME_SOLVE
+```
+
+---
+
+# 68. One-sentence carry-forward
+
+> **The project remains at approximately 68% on its internal accomplishment heuristic, but the active frontier has changed qualitatively: after closing the tested protected-vector practicality classes, a false-core $B=7$ Skyrme configuration now survives exact rational-map reconstruction, strong binary binding, Derrick and map-shape stability, pointwise DEC, positive total active mass, negative enclosed active mass, and actual anisotropic finite-payload outward linearized gravity; the shortest credible route to approximately 80% is to close the narrow 023B robustness/numerical issues, perform an unrestricted Cartesian 3D relaxation and full physical Hessian, then exploit the extremely weak target compactness to obtain a controlled self-consistent Einstein–Skyrme continuation preserving finite-payload repulsion, after which the still-catastrophic $1/G$ pure-GR energy scaling becomes the dominant practicality frontier.**
+
+---
+
+# 69. Final stop-rule statement
+
+The next session should not search broadly.
+
+The current candidate has earned the right to be tested to destruction.
+
+Proceed:
+
+```text
+023BR
+
+THEN_023C_IF_GREEN
+
+THEN_023D_IF_GREEN
+
+THEN_023E_ONLY_IF_NEEDED
+```
+
+Do not update the public/durable documentation until the end of that research sequence.
+
+Do not raise the heuristic because a script prints a target percentage.
+
+Raise it only if a qualitatively new accomplishment survives claim audit.
+
+The immediate objective is not “make the number 80.”
+
+It is:
+
+> **Establish, or decisively falsify, an unrestricted intrinsically stable three-dimensional microscopic field configuration whose finite-payload outward gravitational response survives self-consistent Einstein–matter coupling.**
+
+If that is established, approximately 80% becomes a defensible theoretical milestone.
+
+If it fails, preserve the negative result and rerank.
+
+### END CARRY-FORWARD NOTE — AUGUST 31 2026
+
+
+### END NOTE - AUGUST 31 2026 - 11:50 CST

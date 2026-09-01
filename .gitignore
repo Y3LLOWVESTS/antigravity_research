@@ -76,3 +76,5 @@ codebundles/
 .env
 .env.local
 .env.*.local
+# Large generated numerical checkpoints
+results/data/*_checkpoint.npz

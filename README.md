@@ -2,6 +2,8 @@
 
 # Antigravity Research
 
+![False-Core Topological Skyrmion Antigravity Model](assets/img.png)
+
 > # **We have a mathematical construction for antigravity-like gravitational repulsion.**
 
 The exact scientific claim supporting that headline is:
