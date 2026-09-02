@@ -1,0 +1,181 @@
+{
+  "006D": {
+    "C": 23.591586299249
+  },
+  "blind_wildcards": {
+    "physics_prior": false,
+    "results": [
+      {
+        "C_peak": null,
+        "duration": 0.05062023328698262,
+        "energy": 0.31160807059863704,
+        "energy_conservation_relative": 0.0,
+        "eta": -0.03702368960919111,
+        "max_outward": -0.21690530962267107,
+        "meeting_radius": 0.6636131506057976,
+        "min_outward": -0.26476446201307974,
+        "q_inner": 0.03,
+        "q_outer": 0.03,
+        "status": "CLOSED_BEFORE_OUTER_TURN",
+        "v_inner": 0.2375,
+        "v_inner_over_v_outer": 0.25,
+        "v_outer": 0.95,
+        "x0": 0.625
+      },
+      {
+        "C_peak": null,
+        "duration": 0.1295877972146756,
+        "energy": 2.0421546514752285,
+        "energy_conservation_relative": 4.3492221270241e-16,
+        "eta": -0.022253885202059957,
+        "max_outward": -0.3278129800358315,
+        "meeting_radius": 1.698849665550842,
+        "min_outward": -0.4236231392209277,
+        "q_inner": 0.03,
+        "q_outer": 0.03,
+        "status": "CLOSED_BEFORE_OUTER_TURN",
+        "v_inner": 0.2375,
+        "v_inner_over_v_outer": 0.25,
+        "v_outer": 0.95,
+        "x0": 1.6
+      },
+      {
+        "C_peak": null,
+        "duration": 0.15186069986094805,
+        "energy": 2.804472635387734,
+        "energy_conservation_relative": 0.0,
+        "eta": -0.018161282345344136,
+        "max_outward": -0.31267104007685287,
+        "meeting_radius": 1.990839451817393,
+        "min_outward": -0.4072306399746553,
+        "q_inner": 0.03,
+        "q_outer": 0.03,
+        "status": "CLOSED_BEFORE_OUTER_TURN",
+        "v_inner": 0.2375,
+        "v_inner_over_v_outer": 0.25,
+        "v_outer": 0.95,
+        "x0": 1.875
+      },
+      {
+        "C_peak": null,
+        "duration": 0.2531011664349132,
+        "energy": 7.7902017649659285,
+        "energy_conservation_relative": 4.560489941066423e-16,
+        "eta": -0.008132402581568103,
+        "max_outward": -0.23197175429254027,
+        "meeting_radius": 3.3180657530289883,
+        "min_outward": -0.3072952712937005,
+        "q_inner": 0.03,
+        "q_outer": 0.03,
+        "status": "CLOSED_BEFORE_OUTER_TURN",
+        "v_inner": 0.2375,
+        "v_inner_over_v_outer": 0.25,
+        "v_outer": 0.95,
+        "x0": 3.125
+      },
+      {
+        "C_peak": null,
+        "duration": 0.40496186629586095,
+        "energy": 19.94291651831277,
+        "energy_conservation_relative": 0.0,
+        "eta": -0.003450860169985178,
+        "max_outward": -0.15709069615755444,
+        "meeting_radius": 5.308905204846381,
+        "min_outward": -0.2096016477970657,
+        "q_inner": 0.03,
+        "q_outer": 0.03,
+        "status": "CLOSED_BEFORE_OUTER_TURN",
+        "v_inner": 0.2375,
+        "v_inner_over_v_outer": 0.25,
+        "v_outer": 0.95,
+        "x0": 5.0
+      }
+    ]
+  },
+  "claim_classification": "PROJECT_DERIVED_FREE_NAMBU_GOTO_ANNULAR_PULSE_IMPULSE_PREFILTER",
+  "claim_limits": [
+    "NO_UNIVERSAL_TRANSIENT_GR_NO_GO",
+    "NO_MICROSCOPIC_BOUNDARY_CREATION_SOLUTION",
+    "NO_ANNIHILATION_RADIATION_LEDGER",
+    "NO_NONLINEAR_GR",
+    "NO_PRACTICAL_DEVICE"
+  ],
+  "decisions": {
+    "ANALOGUE_ANTIGRAVITY": "PRIMARY_RERANK_CANDIDATE_IN_TANDEM",
+    "CURRENT_KNOWLEDGE_HEURISTIC": "70_TO_71_PERCENT_RETAINED",
+    "FREE_OUTWARD_ANNULAR_WALL_PULSE": "RED_IN_TESTED_NAMBU_GOTO_CLASS",
+    "NEXT": "RERANK_006D_MICROSCOPIC_REALIZATION_VS_023C_023D_AND_ANALOGUE_ANTIGRAVITY",
+    "PRACTICAL_ANTIGRAVITY_DEVICE": "NO",
+    "PULSE_MICROSCOPIC_PDE_AUTHORIZED": "NO",
+    "PURE_GR_DOMAIN_WALL_PULSE_FAMILY": "PAUSE_CURRENT_PURE_GR_DOMAIN_WALL_PULSE_FAMILY",
+    "STATIC_006D": "KEEP_AS_STRONGEST_TRUE_STANDOFF_SOURCE",
+    "STATIC_023C": "KEEP_AS_ACTUAL_FIELD_FALLBACK"
+  },
+  "independent_ode_refinement": {
+    "best_eta_case": {
+      "closed": true,
+      "duration": 0.0005565556470144076,
+      "eta": -5.909631324842202e-07,
+      "max_outward": -0.002850441382647561
+    },
+    "best_instantaneous_case": {
+      "closed": true,
+      "duration": 7.175385783432772e-05,
+      "eta": -5.916103967884128e-06,
+      "max_outward": -1.1332386560415657e-05
+    },
+    "pass": true
+  },
+  "model": {
+    "closure_condition": "inner catches outer before outer turns",
+    "initial_wall_area": 0.0,
+    "inner_boundary": "free outward-moving supercritical Nambu-Goto string",
+    "outer_boundary": "free outward-moving Nambu-Goto string",
+    "stationary_support": false,
+    "wall": "Nambu-Goto thin domain wall"
+  },
+  "scan": {
+    "best_eta_case": {
+      "C_peak": null,
+      "duration": 0.0005608175848615052,
+      "energy": 2.68572893148081,
+      "energy_conservation_relative": 0.0,
+      "eta": -5.954875290387008e-07,
+      "max_outward": -0.0028504318399668175,
+      "meeting_radius": 4.07258828087256,
+      "min_outward": -0.002855747606042111,
+      "q_inner": 0.018426109436756762,
+      "q_outer": 0.006836602084625451,
+      "status": "CLOSED_BEFORE_OUTER_TURN",
+      "v_inner": 0.19442493559792637,
+      "v_inner_over_v_outer": 0.937823486328125,
+      "v_outer": 0.2073150634765625,
+      "x0": 4.072477337343833
+    },
+    "best_instantaneous_case": {
+      "C_peak": null,
+      "duration": 7.194452544119839e-05,
+      "energy": 0.00016966621440259524,
+      "energy_conservation_relative": 0.0,
+      "eta": -5.937604536421673e-06,
+      "max_outward": -1.1332015593517982e-05,
+      "meeting_radius": 0.053473274938391546,
+      "min_outward": -1.9322525127342613e-05,
+      "q_inner": 0.005131667644178003,
+      "q_outer": 0.0040386738375785625,
+      "status": "CLOSED_BEFORE_OUTER_TURN",
+      "v_inner": 0.07038058133795856,
+      "v_inner_over_v_outer": 0.203521728515625,
+      "v_outer": 0.34581359863281247,
+      "x0": 0.05345923487526138
+    },
+    "closed_cases": 12301,
+    "closed_ge10_positive_cases": 0,
+    "closed_positive_eta_cases": 0,
+    "closed_positive_instantaneous_cases": 0,
+    "invalid_cases": 6,
+    "maximum_energy_conservation_relative": 7.450048664245185e-15,
+    "outer_turn_before_closure_cases": 4077,
+    "requested_cases": 16384
+  }
+}

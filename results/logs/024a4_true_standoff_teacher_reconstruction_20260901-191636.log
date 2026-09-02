@@ -1,0 +1,125 @@
+=== 024A4 — TRUE STAND-OFF CONSERVED-DEC TEACHER RECONSTRUCTION ===
+
+=== A — CORRECTED TARGET / ANALYTIC BOUNDS ===
+CURRENT_B7_C=4.222220709083088e+02
+006D_C=2.359158629924900e+01
+006D_HEADROOM_VS_B7=1.789714627717720e+01
+R99_OVER_H=3.353681771042527e+00
+PAYLOAD_RADIUS_OVER_H=4.329886080505922e-02
+FIXED_RHO_CAP=1.669855319420529e+00
+CORE_RADIUS_OVER_H=1.043298860805059e+00
+CORE_ACTIVE_FRACTION_TARGET=-1.757579994798524e-02
+OLD_TEACHER_FAR_ATTRACTION_GROSS_FRACTION=9.765040714686590e-01
+OLD_RAW_TEACHER_AS_TRUE_STANDOFF_BLUEPRINT=RETIRED
+KNEG_TANGENT_DEC_C_FLOOR=9.373956735079451e-04
+KNEG_TANGENT_B7_HEADROOM_ABSOLUTE_CEILING=4.504203324603142e+05
+HALF_GAP_DEC_C_FLOOR=1.250000000000000e-01
+HALF_GAP_B7_HEADROOM_ABSOLUTE_CEILING=3.377776567266470e+03
+STRICT_STANDOFF_DEC_C_FLOOR=5.000000000000000e-01
+STRICT_STANDOFF_B7_HEADROOM_ABSOLUTE_CEILING=8.444441418166175e+02
+STRICT_STANDOFF_006D_IMPROVEMENT_ABSOLUTE_CEILING=4.718317259849800e+01
+RAW_17230X_COMPATIBLE_WITH_ZLE0_STATIC_DEC=NO
+
+=== B — N16 GEOMETRY LADDER ===
+024A4_SOLVE_BEGIN=KNEG_TANGENT_FREECORE_N16 GRID=16x21 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=9.567011392e-01 MATCHED_CORE=NO SOLVER=DEFAULT
+/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:83: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+024A4_CASE=KNEG_TANGENT_FREECORE_N16 STATUS=optimal GREEN=True GRID=16x21 C=9.022752680731e-01 HEADROOM_B7=4.679526147e+02 GAIN_VS_006D=2.614677265e+01 ACCEL=9.999999999903e-01 RHO_MAX=1.669855319419e+00 LE_CELLS=4.256433e+00 LF_CELLS=1.696334e+00
+024A4_SOLVE_BEGIN=HALF_GAP_FREECORE_N16 GRID=16x18 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=5.000000000e-01 MATCHED_CORE=NO SOLVER=DEFAULT
+024A4_CASE=HALF_GAP_FREECORE_N16 STATUS=optimal GREEN=True GRID=16x18 C=1.122468087816e+01 HEADROOM_B7=3.761550778e+01 GAIN_VS_006D=2.101760091e+00 ACCEL=9.999999999281e-01 RHO_MAX=1.669855319614e+00 LE_CELLS=9.574944e+00 LF_CELLS=4.698265e+00
+024A4_SOLVE_BEGIN=STRICT_STANDOFF_FREECORE_N16 GRID=16x16 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=0.000000000e+00 MATCHED_CORE=NO SOLVER=DEFAULT
+024A4_CASE=STRICT_STANDOFF_FREECORE_N16 STATUS=infeasible GREEN=False GRID=16x16 C=nan HEADROOM_B7=nan GAIN_VS_006D=nan ACCEL=nan RHO_MAX=nan LE_CELLS=nan LF_CELLS=nan
+024A4_SOLVE_BEGIN=STRICT_STANDOFF_MATCHED_CORE_N16 GRID=16x16 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=0.000000000e+00 MATCHED_CORE=YES SOLVER=DEFAULT
+024A4_CASE=STRICT_STANDOFF_MATCHED_CORE_N16 STATUS=infeasible GREEN=False GRID=16x16 C=nan HEADROOM_B7=nan GAIN_VS_006D=nan ACCEL=nan RHO_MAX=nan LE_CELLS=nan LF_CELLS=nan
+
+=== C — PRIMARY STRICT STANDOFF FREECORE REFINEMENT ===
+024A4_SOLVE_BEGIN=STRICT_STANDOFF_FREECORE_N24 GRID=24x24 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=0.000000000e+00 MATCHED_CORE=NO SOLVER=DEFAULT
+024A4_CASE=STRICT_STANDOFF_FREECORE_N24 STATUS=infeasible GREEN=False GRID=24x24 C=nan HEADROOM_B7=nan GAIN_VS_006D=nan ACCEL=nan RHO_MAX=nan LE_CELLS=nan LF_CELLS=nan
+024A4_SOLVE_BEGIN=STRICT_STANDOFF_FREECORE_N32 GRID=32x32 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=0.000000000e+00 MATCHED_CORE=NO SOLVER=DEFAULT
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #7271 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #8295 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #8296 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+024A4_CASE=STRICT_STANDOFF_FREECORE_N32 STATUS=infeasible GREEN=False GRID=32x32 C=nan HEADROOM_B7=nan GAIN_VS_006D=nan ACCEL=nan RHO_MAX=nan LE_CELLS=nan LF_CELLS=nan
+024A4_SOLVE_BEGIN=STRICT_STANDOFF_FREECORE_N40 GRID=40x40 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=0.000000000e+00 MATCHED_CORE=NO SOLVER=DEFAULT
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #11368 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #11369 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #11370 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #12968 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #12969 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #12970 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #12971 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+024A4_CASE=STRICT_STANDOFF_FREECORE_N40 STATUS=infeasible GREEN=False GRID=40x40 C=nan HEADROOM_B7=nan GAIN_VS_006D=nan ACCEL=nan RHO_MAX=nan LE_CELLS=nan LF_CELLS=nan
+
+=== D — MATCHED-CORE OVERHEAD REFINEMENT ===
+024A4_SOLVE_BEGIN=STRICT_STANDOFF_MATCHED_CORE_N24 GRID=24x24 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=0.000000000e+00 MATCHED_CORE=YES SOLVER=DEFAULT
+024A4_CASE=STRICT_STANDOFF_MATCHED_CORE_N24 STATUS=infeasible GREEN=False GRID=24x24 C=nan HEADROOM_B7=nan GAIN_VS_006D=nan ACCEL=nan RHO_MAX=nan LE_CELLS=nan LF_CELLS=nan
+024A4_SOLVE_BEGIN=STRICT_STANDOFF_MATCHED_CORE_N32 GRID=32x32 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=0.000000000e+00 MATCHED_CORE=YES SOLVER=DEFAULT
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:824: UserWarning: Constraint #7272 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem = cp.Problem(
+/Users/mymac/Desktop/antigravity_research/simulations/int14c_thousandfold_uv_regular_source_verification.py:856: UserWarning: Constraint #8297 contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+  problem.solve(
+024A4_CASE=STRICT_STANDOFF_MATCHED_CORE_N32 STATUS=infeasible GREEN=False GRID=32x32 C=nan HEADROOM_B7=nan GAIN_VS_006D=nan ACCEL=nan RHO_MAX=nan LE_CELLS=nan LF_CELLS=nan
+
+=== E — INDEPENDENT FORCE / SOLVER CHECKS ===
+STRICT_N40_INDEPENDENT_FORCE_BASE=nan
+STRICT_N40_INDEPENDENT_FORCE_HI=nan
+STRICT_N40_INDEPENDENT_FORCE_RELERR=nan
+STRICT_N40_INDEPENDENT_FORCE=FAIL
+024A4_SOLVE_BEGIN=STRICT_STANDOFF_FREECORE_N16_SCS GRID=16x16 R=3.353681771e+00 ZMIN=-3.353681771e+00 ZMAX=0.000000000e+00 MATCHED_CORE=NO SOLVER=SCS
+024A4_CASE=STRICT_STANDOFF_FREECORE_N16_SCS STATUS=infeasible GREEN=False GRID=16x16 C=nan HEADROOM_B7=nan GAIN_VS_006D=nan ACCEL=nan RHO_MAX=nan LE_CELLS=nan LF_CELLS=nan
+STRICT_N16_SCS_AVAILABLE=YES
+STRICT_N16_SCS_CLARABEL_C_RELERR=nan
+STRICT_N16_INDEPENDENT_SOLVER=FAIL
+
+=== F — STRICT STANDOFF SOURCE ANATOMY ===
+STRICT_KERNEL_ALL_NEGATIVE=FAIL
+STRICT_OUTWARD_CHANNEL_IS_NEGATIVE_ACTIVE_NEGATIVE_KERNEL=FAIL
+
+=== G — STRICT STANDOFF CERTIFICATE ===
+STRICT_C24=nan
+STRICT_C32=nan
+STRICT_C40=nan
+STRICT_CONSERVATIVE_C32_C40=nan
+STRICT_CONSERVATIVE_HEADROOM_VS_B7=nan
+STRICT_CONSERVATIVE_IMPROVEMENT_VS_006D=nan
+STRICT_C_REL_DIFF_24_32=inf
+STRICT_C_REL_DIFF_32_40=inf
+STRICT_ENERGY_LENGTH_REL_DIFF_24_32=inf
+STRICT_ENERGY_LENGTH_REL_DIFF_32_40=inf
+STRICT_FORCE_LENGTH_REL_DIFF_24_32=inf
+STRICT_FORCE_LENGTH_REL_DIFF_32_40=inf
+STRICT_N40_MIN_WIDTH_CELLS=0.000000000000000e+00
+STRICT_STANDOFF_NUMERICAL_GATE=FAIL
+
+=== H — MATCHED-CORE OVERHEAD ===
+MATCHED_CORE_C32=nan
+MATCHED_CORE_OVER_FREECORE_C_RATIO_N32=nan
+
+=== J — 024A4 DECISION ===
+024A4_TRUE_STANDOFF_TEACHER_RECONSTRUCTION=RED_TRUE_STANDOFF_SOURCE_PRIMARY_NOT_GREEN
+STRICT_CONSERVATIVE_C=nan
+STRICT_CONSERVATIVE_HEADROOM_VS_B7=nan
+STRICT_CONSERVATIVE_IMPROVEMENT_VS_006D=nan
+STRICT_ABSOLUTE_DEC_B7_HEADROOM_CEILING=8.444441418166175e+02
+MATCHED_CORE_OVER_FREECORE_C_RATIO_N32=nan
+OLD_RAW_17230X_TRUE_STANDOFF_TARGET=RETIRED
+NEXT=REVIEW_CONSTRAINT_FEASIBILITY_THEN_RERANK_006D_VS_023C_023D_AND_ANALOGUE_ANTIGRAVITY
+LARGE_3D_MICROSCOPIC_SOLVE_AUTHORIZED=NO_PREFILTER_FIRST
+CURRENT_KNOWLEDGE_HEURISTIC=APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY
+PRACTICAL_ANTIGRAVITY_DEVICE=NO
+NEW_PHYSICS_DISCOVERY=NO
+CLAIM_CLASSIFICATION=PROJECT_DERIVED_024A4_TRUE_STANDOFF_CONSERVED_DEC_TEACHER_RECONSTRUCTION
+SUMMARY_JSON=results/data/024a4_true_standoff_teacher_reconstruction_summary.json
+CASES_CSV=results/data/024a4_true_standoff_teacher_cases.csv
+BEST_ARRAYS_NPZ=results/data/024a4_true_standoff_teacher_best_arrays.npz
+024A4_RUN_COMPLETE=YES

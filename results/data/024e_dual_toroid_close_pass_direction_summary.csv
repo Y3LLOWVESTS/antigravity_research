@@ -1,0 +1,5 @@
+direction,throat_class,best_outer_C,strict,outer_pos,outer_006d,uniform_pos,uniform_006d,greq_pert
+L_CCW_R_CW,PARALLEL_AT_THROAT,inf,524288,0,0,0,0,0
+L_CW_R_CCW,PARALLEL_AT_THROAT_REVERSED,inf,524288,0,0,0,0,0
+L_CCW_R_CCW,ANTIPARALLEL_AT_THROAT,inf,524288,0,0,0,0,0
+L_CW_R_CW,ANTIPARALLEL_AT_THROAT_REVERSED,inf,524288,0,0,0,0,0

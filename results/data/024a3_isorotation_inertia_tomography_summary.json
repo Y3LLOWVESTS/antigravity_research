@@ -1,0 +1,298 @@
+{
+  "claim_classification": "PROJECT_DERIVED_024A3_ISOROTATION_INERTIA_TOMOGRAPHY_PREFILTER",
+  "teacher_audit": {
+    "E": 0.02450446248126442,
+    "A": 1.000000000001593,
+    "C": 0.024504462481225384,
+    "gross_outward": 1.0296109495446364,
+    "gross_opposing": 0.029610949543043486,
+    "cancellation": 1.0592218990859925,
+    "ledger": {
+      "Spos_Kpos": 1.0054192842590495,
+      "Spos_Kneg": -0.007497667407334653,
+      "Sneg_Kpos": -0.022113282135708838,
+      "Sneg_Kneg": 0.02419166528558689
+    },
+    "ledger_relerr": 0.0,
+    "positive_active_positive_kernel_fraction_of_gross_outward": 0.976504071468659,
+    "negative_active_negative_kernel_fraction_of_gross_outward": 0.023495928531340967,
+    "positive_active_positive_kernel_far_of_payload_center_fraction": 1.0000000000000002,
+    "positive_active_positive_kernel_fully_beyond_payload_sphere_fraction": 0.9071862055151669,
+    "negative_active_negative_kernel_fully_near_of_payload_sphere_fraction": 1.0,
+    "positive_channel_centroid_r_over_h": 0.047163121497341955,
+    "positive_channel_centroid_z_over_h": 1.0803866734491145,
+    "energy_reflection_relerr": 3.2011384114001764e-16,
+    "active_reflection_relerr": 4.329132421687292e-16,
+    "mechanism_classification": "POSITIVE_ACTIVE_FAR_KERNEL_ATTRACTION_DOMINATED"
+  },
+  "local_isorotation": {
+    "min_sampled_ME_eigenvalue": -9.33306678877898e-15,
+    "MS_minus_2ME_minus_2T_scaled": 2.783442917159535e-16,
+    "local_energy_PSD_pass": true,
+    "constitutive_identity_pass": true
+  },
+  "payload": {
+    "h": 0.38701612745649,
+    "radius": 0.016757357432051617,
+    "direction": [
+      0.7295301735222595,
+      -0.47652160003045185,
+      -0.49062500000000014
+    ],
+    "selection": "BASELINE_MAX_FROM_024A1_BEFORE_ISOROTATION"
+  },
+  "methods": {
+    "cubic": {
+      "method": "cubic",
+      "q2": {
+        "JE_eigenvalues": [
+          53.646587370195235,
+          53.646606208541876,
+          53.65796005741257
+        ],
+        "generalized_eigenvalues": [
+          -0.09332947126358017,
+          -0.0215960211437008,
+          0.09476948460386458
+        ],
+        "axis": [
+          -0.48493186005868044,
+          0.18342766225580914,
+          0.8550996338552588
+        ],
+        "eta_iso": 0.09476948460386458,
+        "E0": 1788.7248760492168,
+        "A0": 234.1894699197052,
+        "eta0": 0.1309253720655817,
+        "gain": 0.723843538564807
+      },
+      "q3": {
+        "JE_eigenvalues": [
+          53.65117432639558,
+          53.65117440393448,
+          53.662564768427046
+        ],
+        "generalized_eigenvalues": [
+          -0.09335853027447887,
+          -0.021615261965081282,
+          0.0947906334720833
+        ],
+        "axis": [
+          -0.4850329236934642,
+          0.18357580665488882,
+          0.8550105181483891
+        ],
+        "eta_iso": 0.0947906334720833,
+        "E0": 1788.9820831197014,
+        "A0": 234.0769325018041,
+        "eta0": 0.1308436427119555,
+        "gain": 0.7244573103238897
+      },
+      "near_coarse": {
+        "JE_eigenvalues": [
+          53.65117432639559,
+          53.6511744039345,
+          53.66256476842707
+        ],
+        "generalized_eigenvalues": [
+          -0.09335662898969392,
+          -0.021611796856032945,
+          0.09479438285478552
+        ],
+        "axis": [
+          -0.48502733406540327,
+          0.18356579690851524,
+          0.8550158381075461
+        ],
+        "eta_iso": 0.09479438285478552,
+        "E0": 1788.9820831197014,
+        "A0": 234.08266407263187,
+        "eta0": 0.1308468465287415,
+        "gain": 0.7244682265534248
+      },
+      "q4": null,
+      "q4_used": false,
+      "best": {
+        "JE_eigenvalues": [
+          53.65117432639558,
+          53.65117440393448,
+          53.662564768427046
+        ],
+        "generalized_eigenvalues": [
+          -0.09335853027447887,
+          -0.021615261965081282,
+          0.0947906334720833
+        ],
+        "axis": [
+          -0.4850329236934642,
+          0.18357580665488882,
+          0.8550105181483891
+        ],
+        "eta_iso": 0.0947906334720833,
+        "E0": 1788.9820831197014,
+        "A0": 234.0769325018041,
+        "eta0": 0.1308436427119555,
+        "gain": 0.7244573103238897
+      },
+      "internal_gain_abs_error": 0.0006137717590827263,
+      "fibonacci": {
+        "scan_eta_max": 0.0947893631591775,
+        "eigen_eta": 0.0947906334720833,
+        "relative_gap": 1.3401249250752973e-05,
+        "nearest_best_axis_absdot": 0.9999954077598915
+      }
+    },
+    "quintic": {
+      "method": "quintic",
+      "q2": {
+        "JE_eigenvalues": [
+          53.65462927019258,
+          53.65464414855873,
+          53.66606402444349
+        ],
+        "generalized_eigenvalues": [
+          -0.09346334953612878,
+          -0.021714621528927155,
+          0.09477310784208828
+        ],
+        "axis": [
+          -0.48498794075899426,
+          0.18357090254669825,
+          0.8550370875327812
+        ],
+        "eta_iso": 0.09477310784208828,
+        "E0": 1788.9531883687093,
+        "A0": 233.65118876834566,
+        "eta0": 0.13060777123039474,
+        "gain": 0.7256314608945176
+      },
+      "q3": {
+        "JE_eigenvalues": [
+          53.65480853461438,
+          53.654808642665394,
+          53.66622908682418
+        ],
+        "generalized_eigenvalues": [
+          -0.0934646744276376,
+          -0.02171606295607447,
+          0.09478065190849755
+        ],
+        "axis": [
+          -0.4850200280894997,
+          0.18363077957043075,
+          0.85500602871934
+        ],
+        "eta_iso": 0.09478065190849755,
+        "E0": 1788.9532050528053,
+        "A0": 233.66043754254935,
+        "eta0": 0.13061293994867368,
+        "gain": 0.7256605045850972
+      },
+      "near_coarse": {
+        "JE_eigenvalues": [
+          53.65480853461436,
+          53.654808642665394,
+          53.66622908682418
+        ],
+        "generalized_eigenvalues": [
+          -0.0934627739679554,
+          -0.021712601974087673,
+          0.09478440589032364
+        ],
+        "axis": [
+          -0.48501441483601315,
+          0.18362075518358154,
+          0.8550113658116429
+        ],
+        "eta_iso": 0.09478440589032364,
+        "E0": 1788.9532050528053,
+        "A0": 233.66616195131894,
+        "eta0": 0.13061613981368603,
+        "gain": 0.725671467749134
+      },
+      "q4": null,
+      "q4_used": false,
+      "best": {
+        "JE_eigenvalues": [
+          53.65480853461438,
+          53.654808642665394,
+          53.66622908682418
+        ],
+        "generalized_eigenvalues": [
+          -0.0934646744276376,
+          -0.02171606295607447,
+          0.09478065190849755
+        ],
+        "axis": [
+          -0.4850200280894997,
+          0.18363077957043075,
+          0.85500602871934
+        ],
+        "eta_iso": 0.09478065190849755,
+        "E0": 1788.9532050528053,
+        "A0": 233.66043754254935,
+        "eta0": 0.13061293994867368,
+        "gain": 0.7256605045850972
+      },
+      "internal_gain_abs_error": 2.904369057965539e-05,
+      "fibonacci": {
+        "scan_eta_max": 0.09477934704682167,
+        "eigen_eta": 0.09478065190849755,
+        "relative_gap": 1.3767173464229778e-05,
+        "nearest_best_axis_absdot": 0.9999953236747995
+      }
+    }
+  },
+  "cross_representation": {
+    "gain_abs_spread": 0.0012031942612075186,
+    "gain_rel_spread": 0.0012031942612075186,
+    "axis_absdot": 0.9999999983957634,
+    "error_bound_abs": 0.0012031942612075186,
+    "gain_floor_raw": 0.7244573103238897,
+    "gain_floor_conservative": 0.7184413390178521,
+    "baseline_reproduction": true,
+    "fibonacci_crosscheck": true,
+    "representation_pass": true,
+    "all_health": true
+  },
+  "frozen_energy_fraction_diagnostics": [
+    {
+      "Erot_over_Estatic": 0.01,
+      "conservative_total_efficiency_ratio": 0.9972122904853253
+    },
+    {
+      "Erot_over_Estatic": 0.05,
+      "conservative_total_efficiency_ratio": 0.9865924447151357
+    },
+    {
+      "Erot_over_Estatic": 0.1,
+      "conservative_total_efficiency_ratio": 0.974403758092532
+    },
+    {
+      "Erot_over_Estatic": 0.25,
+      "conservative_total_efficiency_ratio": 0.9436882678035705
+    },
+    {
+      "Erot_over_Estatic": 0.5,
+      "conservative_total_efficiency_ratio": 0.9061471130059507
+    },
+    {
+      "Erot_over_Estatic": 1.0,
+      "conservative_total_efficiency_ratio": 0.8592206695089261
+    }
+  ],
+  "decision": "RED_RIGID_ISOROTATION_NO_CERTIFIED_EFFICIENCY_ADVANTAGE",
+  "next": "024A4_ALTERNATIVE_DYNAMIC_OR_GEOMETRY_REORGANIZING_FIELD_PREFILTER",
+  "large_coupled_isospinning_solve_authorized": false,
+  "claim_limits": {
+    "rigid_fixed_field_only": true,
+    "coupled_isospinning_stationary_solution": false,
+    "full_conservation_on_reequilibrated_solution": false,
+    "finite_frequency_hyperbolicity": false,
+    "T0i_reaction_momentum_completion": false,
+    "fission_stability": false,
+    "nonlinear_einstein_matter": false,
+    "practical_device": false
+  },
+  "current_knowledge_heuristic": "APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY"
+}

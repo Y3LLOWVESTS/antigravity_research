@@ -1,0 +1,11 @@
+{
+  "claim_classification": "PROJECT_DERIVED_INTUITIVE_GUARDED_STRESS_SANDWICH_SOURCE_PREFILTER",
+  "decision": "RED_INTUITIVE_SANDWICH_NO_PLANAR_FEASIBLE_SCOUT",
+  "gates": {
+    "beats_006D": false,
+    "beats_024C": false,
+    "planar_feasible": false
+  },
+  "next": "STOP_024C1_AND_RERANK_006D_MICROSCOPIC_REALIZATION_VS_ANALOGUE_ANTIGRAVITY",
+  "practical_antigravity_device": false
+}

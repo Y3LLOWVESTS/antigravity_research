@@ -1,0 +1,224 @@
+{
+  "claim_classification": "PROJECT_DERIVED_024A1_FIXED_FIELD_SEXTIC_KERNEL_PLACEMENT_GATE",
+  "claim_limits": {
+    "generalized_field_equations_solved": false,
+    "generalized_field_stationary": false,
+    "generalized_field_stable": false,
+    "continuum_N65_force_certified": false,
+    "nonlinear_einstein_matter": false,
+    "practical_device": false
+  },
+  "question": "Does the natural B0^2 sextic energy shape improve finite-payload acceleration per total energy on current trusted B7 geometries?",
+  "payload": {
+    "center_radius": 0.38701612745649,
+    "payload_radius": 0.016757357432051617,
+    "orientation_count": 320
+  },
+  "trusted_reference_reproduction": {
+    "A_rebuilt": 28.817876381145627,
+    "A_expected": 28.81787638114564,
+    "relative_error": 4.931263680657463e-16,
+    "pass": true
+  },
+  "exact_levels": {
+    "LOW": {
+      "name": "EXACT_LOW",
+      "E": 1822.4727274047382,
+      "E6_raw": 4340.8072438608215,
+      "baseline_all_320_outward": true,
+      "baseline_min_A": 15.807359529859768,
+      "baseline_max_A": 319.7539007617389,
+      "baseline_C_worst_dense320": 769.7391585925664,
+      "worst_orientation_index": 166,
+      "worst_orientation": [
+        -0.831159241079432,
+        0.554548397656384,
+        -0.04062499999999992
+      ],
+      "worst_direction_L6": -0.08610249932368527,
+      "worst_direction_gain_ratio_G6": -39.7079490682511,
+      "gain_ratio_min": -39.839052694094114,
+      "gain_ratio_median": 0.07107106066205965,
+      "gain_ratio_max": 1.1251839556273517,
+      "fraction_orientations_G6_gt_1": 0.0625,
+      "fraction_orientations_L6_positive": 0.51875,
+      "lambda_first_orientation_reversal": 0.025100998451909568,
+      "one_percent_C_headroom": 0.5969509993242467,
+      "one_percent_all_320_outward": true,
+      "best_positive_frozen_lambda": {
+        "lambda": 0.0,
+        "C_worst": 769.7391585925664,
+        "headroom_vs_lambda0": 1.0,
+        "min_A": 15.807359529859768,
+        "all_outward": true,
+        "worst_index": 166
+      },
+      "force_weighted_median_S_over_rho_at_worst_lambda0": 1.2636092517202109,
+      "force_weighted_median_S_over_rho_at_worst_lambda0p01": 1.3033626213448617,
+      "teacher_target_S_over_rho": 2.649629,
+      "teacher_F90_overlap": {
+        "available": true,
+        "e6_energy_in_teacher_F90": 1.470571321779054e-07,
+        "e6_gross_outward_in_teacher_F90": 6.369951162964554e-05,
+        "fraction_e6_captured_by_teacher_grid": 0.9999802010432729
+      },
+      "infinitesimal_worst_direction_improvement": false,
+      "finite_positive_lambda_improvement": false,
+      "direct_sextic_geometry_pass": false
+    },
+    "PRIMARY": {
+      "name": "EXACT_PRIMARY",
+      "E": 1822.4727005552854,
+      "E6_raw": 4340.807229257614,
+      "baseline_all_320_outward": true,
+      "baseline_min_A": 17.611399512922723,
+      "baseline_max_A": 321.7123658971319,
+      "baseline_C_worst_dense320": 690.8902064199252,
+      "worst_orientation_index": 156,
+      "worst_orientation": [
+        -0.855058402773181,
+        -0.5180700842762266,
+        0.021874999999999978
+      ],
+      "worst_direction_L6": -0.0877566759445327,
+      "worst_direction_gain_ratio_G6": -36.32514181125302,
+      "gain_ratio_min": -36.32514181125302,
+      "gain_ratio_median": 0.07203360358559852,
+      "gain_ratio_max": 1.1182841020525964,
+      "fraction_orientations_G6_gt_1": 0.059375,
+      "fraction_orientations_L6_positive": 0.51875,
+      "lambda_first_orientation_reversal": 0.027529142355342828,
+      "one_percent_C_headroom": 0.6304441404826433,
+      "one_percent_all_320_outward": true,
+      "best_positive_frozen_lambda": {
+        "lambda": 0.0,
+        "C_worst": 690.8902064199252,
+        "headroom_vs_lambda0": 1.0,
+        "min_A": 17.611399512922723,
+        "all_outward": true,
+        "worst_index": 156
+      },
+      "force_weighted_median_S_over_rho_at_worst_lambda0": 1.2601175064673629,
+      "force_weighted_median_S_over_rho_at_worst_lambda0p01": 1.2985125972737133,
+      "teacher_target_S_over_rho": 2.649629,
+      "teacher_F90_overlap": {
+        "available": true,
+        "e6_energy_in_teacher_F90": 1.3226013755867518e-07,
+        "e6_gross_outward_in_teacher_F90": 6.794108957533794e-05,
+        "fraction_e6_captured_by_teacher_grid": 0.9999787627490031
+      },
+      "infinitesimal_worst_direction_improvement": false,
+      "finite_positive_lambda_improvement": false,
+      "direct_sextic_geometry_pass": false
+    },
+    "HIGH": {
+      "name": "EXACT_HIGH",
+      "E": 1822.4727250621668,
+      "E6_raw": 4340.807360364925,
+      "baseline_all_320_outward": true,
+      "baseline_min_A": 18.373486979354396,
+      "baseline_max_A": 322.7106682496701,
+      "baseline_C_worst_dense320": 662.2337731600285,
+      "worst_orientation_index": 156,
+      "worst_orientation": [
+        -0.855058402773181,
+        -0.5180700842762266,
+        0.021874999999999978
+      ],
+      "worst_direction_L6": -0.08775660570635228,
+      "worst_direction_gain_ratio_G6": -34.81843604832852,
+      "gain_ratio_min": -34.81843604832852,
+      "gain_ratio_median": 0.07376195563030756,
+      "gain_ratio_max": 1.1282227534024865,
+      "fraction_orientations_G6_gt_1": 0.059375,
+      "fraction_orientations_L6_positive": 0.51875,
+      "lambda_first_orientation_reversal": 0.028720416925446763,
+      "one_percent_C_headroom": 0.6453620193234799,
+      "one_percent_all_320_outward": true,
+      "best_positive_frozen_lambda": {
+        "lambda": 0.0,
+        "C_worst": 662.2337731600285,
+        "headroom_vs_lambda0": 1.0,
+        "min_A": 18.373486979354396,
+        "all_outward": true,
+        "worst_index": 156
+      },
+      "force_weighted_median_S_over_rho_at_worst_lambda0": 1.2586733613814136,
+      "force_weighted_median_S_over_rho_at_worst_lambda0p01": 1.2953189861967156,
+      "teacher_target_S_over_rho": 2.649629,
+      "teacher_F90_overlap": {
+        "available": true,
+        "e6_energy_in_teacher_F90": 9.316761184270922e-08,
+        "e6_gross_outward_in_teacher_F90": 5.171477493917671e-05,
+        "fraction_e6_captured_by_teacher_grid": 0.9999686864740779
+      },
+      "infinitesimal_worst_direction_improvement": false,
+      "finite_positive_lambda_improvement": false,
+      "direct_sextic_geometry_pass": false
+    }
+  },
+  "exact_primary_high_convergence": {
+    "worst_G6_relative_error": 0.0414783174351639,
+    "min_A_relative_error": 0.04147756314781197,
+    "pass": true
+  },
+  "n65_artifact": {
+    "B": 7,
+    "eta": 0.4,
+    "mass": 8.0,
+    "shape": [
+      65,
+      65,
+      65,
+      4
+    ],
+    "source": "023CR4R_N65"
+  },
+  "n65": {
+    "name": "N65",
+    "E": 1780.2305217725257,
+    "E6_raw": 10.39991966699472,
+    "baseline_all_320_outward": true,
+    "baseline_min_A": 5.601853299485973,
+    "baseline_max_A": 370.1310482023879,
+    "baseline_C_worst_dense320": 2121.711768426323,
+    "worst_orientation_index": 17,
+    "worst_orientation": [
+      -0.4543501844637903,
+      0.01878880658050768,
+      0.890625
+    ],
+    "worst_direction_L6": -0.09480063228267024,
+    "worst_direction_gain_ratio_G6": -120.50796052687025,
+    "gain_ratio_min": -120.50796052687025,
+    "gain_ratio_median": -0.3300024378576076,
+    "gain_ratio_max": 2.8431800176665085,
+    "fraction_orientations_G6_gt_1": 0.06875,
+    "fraction_orientations_L6_positive": 0.425,
+    "lambda_first_orientation_reversal": 0.008298206986724541,
+    "one_percent_C_headroom": 0.0,
+    "one_percent_all_320_outward": false,
+    "best_positive_frozen_lambda": {
+      "lambda": 0.0,
+      "C_worst": 2121.711768426323,
+      "headroom_vs_lambda0": 1.0,
+      "min_A": 5.601853299485973,
+      "all_outward": true,
+      "worst_index": 17
+    },
+    "force_weighted_median_S_over_rho_at_worst_lambda0": 1.2368801322775853,
+    "force_weighted_median_S_over_rho_at_worst_lambda0p01": 1.2748066279318644,
+    "teacher_target_S_over_rho": 2.649629,
+    "teacher_F90_overlap": {
+      "available": true,
+      "e6_energy_in_teacher_F90": 0.0,
+      "e6_gross_outward_in_teacher_F90": 0.0,
+      "fraction_e6_captured_by_teacher_grid": 0.9999783154580653
+    },
+    "infinitesimal_worst_direction_improvement": false,
+    "finite_positive_lambda_improvement": false,
+    "direct_sextic_geometry_pass": false
+  },
+  "decision": "RED_NAIVE_B0_SQUARED_SEXTIC_PLACEMENT_ON_CURRENT_GEOMETRIES",
+  "next": "024A2_GEOMETRY_REORGANIZING_HIGHER_ORDER_OR_ALTERNATIVE_TOPOLOGICAL_OPERATOR_PREFILTER"
+}

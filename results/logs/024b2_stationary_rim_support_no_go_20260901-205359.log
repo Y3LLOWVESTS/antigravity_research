@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/024b2_stationary_rim_support_no_go.py", line 2003, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/024b2_stationary_rim_support_no_go.py", line 1214, in main
+    raise RuntimeError(
+        "Could not uniquely reconstruct 024B1 reference."
+    )
+RuntimeError: Could not uniquely reconstruct 024B1 reference.

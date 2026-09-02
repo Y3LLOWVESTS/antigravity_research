@@ -1,0 +1,133 @@
+{
+  "anchors": {
+    "C006D": 23.591586299249,
+    "C024D": 6.610457607426174,
+    "C024D1R": 19.04617786197023
+  },
+  "best_outer": null,
+  "best_uniform": null,
+  "claim": "PROJECT_DERIVED_DUAL_TOROID_NONCOLLIDING_CLOSE_PASS_PORTAL_PREFILTER",
+  "counts": {
+    "L_CCW_R_CCW": {
+      "greq_pert": 0,
+      "outer_006d": 0,
+      "outer_pos": 0,
+      "strict": 524288,
+      "uniform_006d": 0,
+      "uniform_pos": 0
+    },
+    "L_CCW_R_CW": {
+      "greq_pert": 0,
+      "outer_006d": 0,
+      "outer_pos": 0,
+      "strict": 524288,
+      "uniform_006d": 0,
+      "uniform_pos": 0
+    },
+    "L_CW_R_CCW": {
+      "greq_pert": 0,
+      "outer_006d": 0,
+      "outer_pos": 0,
+      "strict": 524288,
+      "uniform_006d": 0,
+      "uniform_pos": 0
+    },
+    "L_CW_R_CW": {
+      "greq_pert": 0,
+      "outer_006d": 0,
+      "outer_pos": 0,
+      "strict": 524288,
+      "uniform_006d": 0,
+      "uniform_pos": 0
+    }
+  },
+  "decision": {
+    "min_exact_g_required_006D": 17857.140474144588,
+    "next": "CLOSE_024E_AND_RETURN_TO_024D2_MINIMAL_POLOIDAL_SCALAR_TRANSPORT_PREFLIGHT",
+    "outer_beats_006D": false,
+    "outer_beats_024D": false,
+    "outer_beats_024D1R": false,
+    "practical_device": false,
+    "result": "RED_DUAL_TOROID_CLOSE_PASS_PORTAL_NO_STRICT_006D_ADVANCE",
+    "uniform_beats_006D": false
+  },
+  "independent": null,
+  "limits": [
+    "NO_SELF_BOUND_PACKET",
+    "NO_MICROSCOPIC_GUIDE",
+    "NO_FULL_LOCAL_DYNAMIC_TMUNU_CONSERVATION",
+    "NO_FULL_STABILITY",
+    "NO_NONLINEAR_GR",
+    "NO_1_OVER_G_ESCAPE",
+    "NO_RADIATIVE_EMISSION_CLAIM",
+    "NO_DEVICE"
+  ],
+  "mechanism": {
+    "S_int": "-2V_int",
+    "centerline_intersection": false,
+    "collider": false,
+    "field_overlap": true,
+    "portal": "g|Phi|^2|Chi|^2"
+  },
+  "min_required_g": {
+    "A2": 0.6226296106688582,
+    "Co": Infinity,
+    "Co_med": Infinity,
+    "Co_rel": Infinity,
+    "Cu": Infinity,
+    "Cu_med": Infinity,
+    "E": 2.0395416649182576,
+    "Eextra": 0.007633463576375985,
+    "Eg": 0.02054932975688259,
+    "Eg0": 0.012915866180506604,
+    "Em": 2.0064683592880264,
+    "Go1": 7.238207572661824e-05,
+    "Gu1": 5.071389876800468e-05,
+    "KU": 0.5690118305870858,
+    "Kg": 0.22453728568546877,
+    "Ko": 0.07735602812111797,
+    "R": 1.0946380574709247,
+    "a": 0.3021991450627584,
+    "base": 0.45224095640012774,
+    "beta": 0.08023162908852101,
+    "clear": 0.0051144596189260485,
+    "d0": 0.15684077987268455,
+    "direction": "L_CCW_R_CW",
+    "duty": 0.1168212890625,
+    "frac": 0.006241800831483099,
+    "g19": 27856.44068802701,
+    "g6": 17857.140474144588,
+    "g66": Infinity,
+    "gam": 1.0032341796440132,
+    "gcap": 12.566370614359172,
+    "gm": 1.591014452278614,
+    "gp": 6247.968877104443,
+    "gu6": 63545.6350343498,
+    "index": 343035,
+    "lag": 0.011083510424941767,
+    "m": 0.8804295953605509,
+    "minq": 0.5206595727491592,
+    "mu": 592.2437178954528,
+    "nphase": 16384,
+    "om": 2.310840666759759,
+    "omega": 2.0345325131780005,
+    "sr": 0.5189980925992131,
+    "srest": 0.11970693057985778,
+    "strict": true,
+    "throat_class": "PARALLEL_AT_THROAT",
+    "u1": 0.000996626333703528,
+    "ua": 7.361051711743856e-05
+  },
+  "scan": {
+    "coarse": 320,
+    "high": 16384,
+    "independent": 65536,
+    "medium": 4096,
+    "sobol": 524288,
+    "total_direction_cases": 2097152
+  },
+  "symmetry": {
+    "antiparallel_relerr": 5.0601345909212984e-15,
+    "parallel_relerr": 8.978647063048873e-14
+  }
+}

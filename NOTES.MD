@@ -65300,3 +65300,7848 @@ The next research phase should convert that knowledge into a physical field.
 
 
 ### END NOTE - SEPTEMBER 1 2026 - 15:00 CST
+
+
+### BEGIN NOTE - SEPTEMBER 1 2026 - 19:40 CST
+
+# ANTIGRAVITY_RESEARCH — Comprehensive Carry-Over Notes
+
+**Session closeout:** 2026-09-01
+**Purpose:** Temporary authoritative delta for the next research session
+**Documentation policy:** The main project documents are intentionally **not being updated at this closeout**. `RESEARCH_BUILDPLAN.md`, README, journals, and the other major documentation should remain unchanged until the end of the next session.
+
+---
+
+# 0. How to use these notes next session
+
+These notes record everything materially learned after the currently attached buildplan/codebundle state.
+
+At the beginning of the next session:
+
+1. Reconstruct the existing project baseline from:
+
+   * codebundle;
+   * `RESEARCH_BUILDPLAN.md`;
+   * `FORMATTING_AND_CODE_STANDARDS.md`;
+   * Introspective closeout;
+   * prior notes/journals.
+
+2. Then apply **this carry-over document as the post-buildplan delta** covering:
+
+   * 024A analytical successor prefilter;
+   * 024A1;
+   * 024A1R;
+   * 024A2;
+   * 024A3;
+   * 024A4;
+   * 024A4R.
+
+3. Do **not** repeat those runs unless an explicit numerical repair or independent verification is required.
+
+4. The current highest-information next action is exactly:
+
+```text
+RERANK_006D_MICROSCOPIC_REALIZATION_VS_023C_023D_AND_ANALOGUE_ANTIGRAVITY
+```
+
+5. Do **not** launch another speculative generalized-Skyrme, sextic, omega, isorotation, or abstract teacher optimization before completing that rerank.
+
+6. The project heuristic remains:
+
+```text
+CURRENT_KNOWLEDGE_HEURISTIC=
+APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY
+```
+
+No run in this session justified increasing it.
+
+---
+
+# 1. Executive state at session close
+
+The biggest change this session was **not a new antigravity field**.
+
+The biggest accomplishment was correcting our interpretation of the Introspective teacher and eliminating several plausible-but-wrong successor mechanisms.
+
+The session established the following hierarchy:
+
+```text
+BEST_CERTIFIED_CLASSICAL_TRUE_STANDOFF_SOURCE:
+006D
+
+C_006D:
+23.591586299249
+
+HEADROOM_VS_CURRENT_B7:
+approximately 17.897x
+
+BEST_ACTUAL_MICROSCOPIC_TOPOLOGICAL_FIELD:
+B=7, eta=0.4, m=8 false-core Skyrmion
+strict unrestricted N65 stationary representative from 023CR4R
+
+CURRENT_B7_REFERENCE_COEFFICIENT:
+422.2220709083088
+
+RAW_INTROSPECTIVE_TEACHER_HEADROOM:
+approximately 17230x
+
+RAW_TEACHER_TRUE_STANDOFF_INTERPRETATION:
+RETIRED
+
+CERTIFIED_GE1000X_CONTINUUM_SOURCE:
+NO
+
+NEW_CERTIFIED_STANDOFF_RECORD_THIS_SESSION:
+NO
+
+NEW_MICROSCOPIC_FIELD_THIS_SESSION:
+NO
+
+PRACTICAL_ANTIGRAVITY_DEVICE:
+NO
+
+NEW_PHYSICS_DISCOVERY:
+NO
+```
+
+The strongest new conceptual result is:
+
+> The raw approximately 17,230x Introspective teacher is overwhelmingly an **operational outward-force configuration dominated by ordinary positive active stress-energy placed on the far side of the payload**, not a blueprint for a one-sided source repelling a payload away from itself.
+
+This is now a permanent interpretational constraint.
+
+---
+
+# 2. Pre-session anchors that remain unchanged
+
+## 2.1 006D remains the strongest conservative stand-off result
+
+006D remains a finite, positive-energy, finite-thickness, static linearized-GR stress-energy construction with:
+
+```text
+OUTWARD_LOCAL_GRAVITATIONAL_FIELD=YES
+POSITIVE_FAR_FIELD_ACTIVE_MASS=YES
+DEC=PASS
+LOCAL_CONSERVATION_AT_LINEARIZED_ORDER=YES
+```
+
+Reference coefficient:
+
+```math
+C_{006D}
+=
+23.591586299249.
+```
+
+With the current B7 comparator:
+
+```math
+C_{B7}
+=
+422.2220709083088,
+```
+
+the source-level improvement is
+
+```math
+\frac{C_{B7}}{C_{006D}}
+\approx
+17.8971463.
+```
+
+This remains the best robust true stand-off source architecture known in the project.
+
+Do not demote 006D based on 024A4. 024A4R explicitly showed that 024A4's strict infeasibility came from an added nonfundamental density-cap constraint.
+
+---
+
+## 2.2 006B remains the thin constructive reference
+
+Thin analytic optimum:
+
+```math
+C_{006B,\mathrm{thin}}
+=
+23.426710175391,
+```
+
+with approximately
+
+```math
+R/h
+=
+4.7014374053.
+```
+
+The known finite-volume positive-control case:
+
+```text
+nr=20
+nz=2
+R/h=5
+depth/h=0.125
+```
+
+has:
+
+```math
+C
+=
+32.95475466694425.
+```
+
+024A4R reproduced this value exactly using the direct 006B solver and independently using the generalized INT14 solver.
+
+---
+
+## 2.3 Strongest actual field remains the B=7 false-core Skyrmion
+
+Parameters:
+
+```text
+B=7
+eta=0.4
+m=8
+```
+
+023BR established promotion-grade rational-map robustness including:
+
+```text
+negative enclosed active region
+positive total active mass
+DEC
+fission margin
+outward finite-payload response over 320 orientations
+```
+
+023CR4R established an unrestricted Cartesian N65 strictly stationary field preserving:
+
+```text
+topology
+positive total active mass
+negative enclosed active region
+DEC
+active-trace identity
+strict discrete stationarity
+```
+
+The old N65 midpoint payload-force value remains superseded.
+
+Outstanding:
+
+```text
+strict N73 stationarity
+continuous N65/N73 force convergence
+full Hessian / fission stability
+nonlinear Einstein-Skyrme continuation
+practical scaling
+```
+
+---
+
+# 3. Introspective state entering this session
+
+The completed Introspective phase had established:
+
+```text
+ROBUST_PROMOTED_CONSERVED_DEC_HEADROOM:
+approximately 12.8x to 17.9x
+
+RAW_FINITE_DENSITY_TEACHER_HEADROOM:
+approximately 17230x
+
+RAW_GE1000X_SIGNAL:
+PRESENT
+
+CERTIFIED_GE1000X_CONTINUUM_SOURCE:
+NO
+```
+
+The final raw teacher values were approximately:
+
+```math
+E_{\mathrm{teacher}}
+=
+0.02450446248126442,
+```
+
+```math
+A_{\mathrm{teacher}}
+=
+1.000000000001593,
+```
+
+```math
+C_{\mathrm{teacher}}
+=
+0.02450446248122538.
+```
+
+Trusted B7 reference:
+
+```math
+E_{B7}
+=
+1822.472700555285,
+```
+
+```math
+A_{B7}
+=
+28.81787638114564,
+```
+
+```math
+C_{B7}
+=
+422.2220709083088.
+```
+
+Thus the raw reconstructed headroom was:
+
+```math
+H_{\mathrm{raw}}
+=
+17230.41553071418.
+```
+
+INT15R independently reconstructed the teacher arrays, DEC, high-order force, B7 comparator, and cross-stage coefficient provenance.
+
+Important preserved distinction:
+
+```text
+RAW_GE1000X_SIGNAL=PRESENT
+
+CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO
+```
+
+The raw signal must never be silently promoted.
+
+---
+
+# 4. Introspective anatomy that remains valid
+
+Before the new mechanism audit, Introspective had established that the raw teacher was:
+
+```text
+compact
+payload-adjacent
+low-cancellation
+near DEC saturation
+stress dominated
+```
+
+Approximately 59% of its net response came from spatial stress.
+
+Its force-weighted median was approximately:
+
+```math
+\left(\frac{S}{\rho}\right)_{\mathrm{teacher}}
+\approx
+2.649629.
+```
+
+The ordinary positive-energy static
+
+```text
+e2 + e4 + V
+```
+
+Skyrme model obeys:
+
+```math
+\frac{S}{\rho}
+\le
+2.
+```
+
+This originally suggested both a constitutive gap and a spatial-organization gap.
+
+That statement remains mathematically correct.
+
+However, **the design interpretation changed substantially this session** because we learned where the teacher's useful active source actually sits relative to the payload.
+
+---
+
+# 5. 024A — analytical generalized-Skyrme prefilter
+
+The first successor hypothesis was a generalized topological:
+
+```text
+L2 + L4 + L6 + V
+```
+
+model.
+
+Metric convention:
+
+```math
+(-,+,+,+).
+```
+
+Define:
+
+```math
+H_{\mu\nu}
+=
+G_{AB}
+\partial_\mu\phi^A
+\partial_\nu\phi^B,
+```
+
+```math
+H
+=
+g^{\mu\nu}H_{\mu\nu},
+```
+
+```math
+Q
+=
+\frac12
+\left(
+H^2-H_{\mu\nu}H^{\mu\nu}
+\right).
+```
+
+Model:
+
+```math
+\mathcal L
+=
+-c_2 H
+-c_4 Q
++c_6 B_\mu B^\mu
+-V(\phi),
+```
+
+with:
+
+```text
+c2 > 0
+c4 >= 0
+c6 >= 0
+V >= 0
+```
+
+Stress tensor derived:
+
+```math
+T_{\mu\nu}
+=
+2c_2H_{\mu\nu}
+-c_2Hg_{\mu\nu}
++2c_4
+\left(
+HH_{\mu\nu}
+-H_{\mu\alpha}H_\nu{}^\alpha
+\right)
+-c_4Qg_{\mu\nu}
++2c_6B_\mu B_\nu
+-c_6(B_\alpha B^\alpha)g_{\mu\nu}
+-Vg_{\mu\nu}.
+```
+
+For static strain eigenvalues:
+
+```math
+x_1,x_2,x_3,
+```
+
+define:
+
+```math
+e_2
+=
+c_2(x_1+x_2+x_3),
+```
+
+```math
+e_4
+=
+c_4(x_1x_2+x_1x_3+x_2x_3),
+```
+
+```math
+e_6
+\propto
+c_6x_1x_2x_3,
+```
+
+and:
+
+```math
+\rho
+=
+e_2+e_4+e_6+V.
+```
+
+Principal pressure example:
+
+```math
+p_1
+=
+c_2(x_1-x_2-x_3)
++c_4(x_1x_2+x_1x_3-x_2x_3)
++e_6-V,
+```
+
+with cyclic permutations.
+
+Important anisotropy identity:
+
+```math
+p_1-p_2
+=
+2(x_1-x_2)
+(c_2+c_4x_3).
+```
+
+Thus:
+
+```text
+L6 and V contribute isotropically to pressure differences.
+```
+
+Static active source:
+
+```math
+S
+=
+\rho+\sum_i p_i
+=
+2e_4+4e_6-2V.
+```
+
+Hence the positive generalized model has local ceiling:
+
+```math
+-2
+\le
+\frac{S}{\rho}
+\le
+4.
+```
+
+The sextic term therefore **can** cross the old Skyrme ceiling 2.
+
+---
+
+## 5.1 Teacher constitutive requirement derived in 024A
+
+If the teacher target is:
+
+```math
+q_T
+=
+2.649629,
+```
+
+and the local source is simplified to an L4/L6 mixture, the minimum sextic energy fraction required is:
+
+```math
+f_6
+\gtrsim
+\frac{q_T-2}{2}
+=
+0.3248145.
+```
+
+More generally:
+
+```math
+f_6
+=
+0.3248145
++
+f_2
++
+2f_0,
+```
+
+under the corresponding normalized decomposition.
+
+Therefore at least roughly 32.5% sextic contribution is required in the most favorable simplified limit.
+
+---
+
+## 5.2 Derrick identity
+
+For scale transformation:
+
+```math
+E(\lambda)
+=
+\lambda E_2
++
+\lambda^{-1}E_4
++
+\lambda^{-3}E_6
++
+\lambda^3E_0.
+```
+
+Stationarity requires:
+
+```math
+E_2
+-E_4
+-3E_6
++3E_0
+=
+0.
+```
+
+Integrated active mass:
+
+```math
+M_A
+=
+2E_4
++
+4E_6
+-
+2E_0.
+```
+
+Using the virial identity at a true static stationary point:
+
+```math
+M_A=E>0.
+```
+
+Thus a globally isolated static stationary generalized Skyrmion still has positive total active mass.
+
+---
+
+## 5.3 Pure BPS route demoted
+
+For pure:
+
+```text
+L6 + V
+```
+
+BPS balance:
+
+```math
+e_6=V
+```
+
+implies zero pressure and:
+
+```math
+\frac{S}{\rho}=1.
+```
+
+Therefore pure BPS Skyrme is **not** the teacher-like static successor.
+
+Preserve:
+
+```text
+PURE_BPS_L6_PLUS_V_STATIC_TEACHER_MATCH=
+DEMOTED
+```
+
+---
+
+## 5.4 Hyperbolicity result
+
+With:
+
+```text
+c2 > 0
+```
+
+the ordinary quadratic kinetic term supplies a hyperbolic anchor on finite static backgrounds.
+
+The preliminary characteristic analysis gave:
+
+```math
+0<c_{\mathrm{char}}^2\le1
+```
+
+for the relevant static-background modes.
+
+Pure BPS:
+
+```text
+c2=0
+```
+
+can become kinetically degenerate.
+
+Full dynamical hyperbolicity for a nonlinear successor must still be checked on the actual solution.
+
+---
+
+## 5.5 024A analytical decision
+
+```text
+MIXED_L2_L4_L6_V_CONSTITUTIVE_PREFLIGHT=
+PROVISIONAL_GREEN
+
+PURE_BPS_STATIC_TEACHER_SUCCESSOR=
+DEMOTED
+```
+
+This was only an analytical constitutive prefilter.
+
+No field realization was established.
+
+---
+
+# 6. 024A1 — naive local sextic placement test
+
+024A1 added the natural local:
+
+```math
+B_0^2
+```
+
+sextic energy density on the already-known B7 geometries without re-equilibrating the field.
+
+Two references were tested:
+
+```text
+exact high-resolution rational-map geometry
+strict unrestricted N65 field
+```
+
+The key question:
+
+> Is the existing baryon-density geometry already in the right location for a useful L6 sector?
+
+Answer:
+
+```text
+NO for robust/worst-direction performance.
+```
+
+---
+
+## 6.1 Exact-map result
+
+Representative values:
+
+```text
+E:
+1822.472725062167
+
+E6_raw:
+4340.807360364925
+
+baseline min A:
+18.37348697935440
+
+dense-320 worst C:
+662.2337731600285
+```
+
+Important:
+
+**Do not confuse this dense-320 worst coefficient with the trusted Introspective B7 coefficient 422.2220709083088.**
+
+They are different comparator definitions.
+
+Worst sextic orientation:
+
+```text
+L6:
+-0.08775660570635
+
+G6:
+-34.81843604833
+```
+
+Across orientations:
+
+```text
+min G6:
+-34.8184
+
+median G6:
+0.07376196
+
+max G6:
+1.12822275
+
+fraction G6 > 1:
+0.059375
+```
+
+The natural B0² sextic sector barely overlapped the teacher productive F90 region:
+
+```text
+teacher F90 sextic-energy overlap:
+approximately 9.3e-8
+```
+
+Essentially disjoint.
+
+---
+
+## 6.2 Strict N65 result
+
+Representative values:
+
+```text
+E:
+1780.230521772526
+
+E6_raw:
+10.39991966699472
+
+baseline min A:
+5.601853299485973
+
+dense-320 worst C:
+2121.711768426323
+```
+
+Worst:
+
+```text
+G6:
+-120.50796052687
+```
+
+Across orientations:
+
+```text
+median G6:
+-0.33000244
+
+max G6:
+2.84318001767
+
+fraction G6 > 1:
+0.06875
+```
+
+At finite normalized sextic energy:
+
+```math
+\lambda=0.01
+```
+
+the all-outward property was lost.
+
+Teacher F90 overlap was effectively zero.
+
+---
+
+## 6.3 Original 024A1 conclusion
+
+The naive interpretation was:
+
+```text
+RED_NAIVE_B0_SQUARED_SEXTIC_PLACEMENT_ON_CURRENT_GEOMETRIES
+```
+
+This remains correct for:
+
+```text
+worst-case robustness
+isotropic robustness
+teacher spatial overlap
+```
+
+but the criterion was subsequently repaired by 024A1R.
+
+---
+
+# 7. 024A1R — orientation-criterion repair
+
+024A1R was a methodological correction, not a reversal of 024A1.
+
+The original requirement that a positive added active-source sector improve **every orientation simultaneously** was too strong.
+
+---
+
+## 7.1 Point-payload orientation-average theorem
+
+Payload center:
+
+```math
+\mathbf c
+=
+h\hat{\mathbf n}.
+```
+
+Point-source location:
+
+```math
+\mathbf x.
+```
+
+Radial point-payload kernel:
+
+```math
+K
+=
+\frac{
+\mathbf x\cdot\hat{\mathbf n}-h
+}{
+|\mathbf x-h\hat{\mathbf n}|^3
+}.
+```
+
+Using the shell theorem:
+
+```math
+\left\langle
+\frac1{|\mathbf x-h\hat{\mathbf n}|}
+\right\rangle_{\hat n}
+=
+\frac1{\max(r,h)}.
+```
+
+Differentiating with respect to h gives:
+
+For:
+
+```math
+r<h,
+```
+
+```math
+\langle K\rangle_{\hat n}
+=
+-\frac1{h^2}.
+```
+
+For:
+
+```math
+r>h,
+```
+
+```math
+\langle K\rangle_{\hat n}
+=
+0.
+```
+
+Therefore:
+
+> A nonnegative additive active-source sector cannot produce a positive increment in every orientation.
+
+This is structural.
+
+It is not specific to B0².
+
+024A1R numerically verified:
+
+```text
+POINT_PAYLOAD_ORIENTATION_AVERAGE_THEOREM=PASS
+
+FINITE_PAYLOAD_ORIENTATION_AVERAGE_NONPOSITIVE=PASS
+```
+
+The finite-spherical-payload kernel likewise had nonpositive orientation average in the numerical check.
+
+---
+
+## 7.2 Corrected orientation-locked result
+
+024A1R distinguished:
+
+```text
+trusted predeclared axis
+baseline-max axis selected without sextic information
+baseline-min axis
+sextic-selected exploratory maximum
+```
+
+Exact-map baseline-max axis:
+
+```math
+G_6
+=
+1.12293896508755.
+```
+
+Exploratory sextic-selected maximum:
+
+```math
+G_{6,\max}
+=
+1.128222753402486.
+```
+
+N65 baseline-max axis:
+
+```math
+G_6
+=
+2.142954955629833.
+```
+
+N65 exploratory maximum:
+
+```math
+G_{6,\max}
+=
+2.843180017666509.
+```
+
+Thus a real, pre-sextic-selected orientation-locked infinitesimal efficiency signal exists in both geometries.
+
+Decision:
+
+```text
+024A1R_ORIENTATION_CRITERION_REPAIR=
+GREEN_ORIENTATION_LOCKED_SIGNAL_IN_BOTH_REFERENCES
+```
+
+However:
+
+```text
+LARGE_GENERALIZED_3D_PDE_SCAN_AUTHORIZED=NO
+```
+
+because:
+
+* most orientations are not improved;
+* teacher spatial overlap remains negligible;
+* the sector remains poorly located for robust device geometry;
+* a physical orientation-lock/control/stability sector would need its own energy and reaction ledger.
+
+---
+
+# 8. Permanent lesson from 024A1/024A1R
+
+Do not use:
+
+```text
+ALL_ORIENTATIONS_IMPROVE
+```
+
+as a generic promotion condition for a positive additive source sector.
+
+Instead separate:
+
+```text
+isotropic / arbitrary-orientation robustness
+
+from
+
+orientation-locked device operation
+```
+
+and ensure that any orientation-locking mechanism itself is physically included.
+
+Also preserve:
+
+> A positive local stress sector can have excellent constitutive leverage and still be gravitationally useless because it occupies the wrong spatial kernel.
+
+This became a dominant theme of the session.
+
+---
+
+# 9. 024A2 — explicit omega/Proca topological mediator
+
+To allow stress to move away from exact B0² placement, 024A2 tested an explicit finite-range vector mediator rather than integrating it out.
+
+Model class:
+
+```math
+\mathcal L
+=
+\mathcal L_{\mathrm{Skyrme}}
+-\frac14 W_{\mu\nu}W^{\mu\nu}
+-\frac12m_\omega^2\omega_\mu\omega^\mu
++g_\omega\omega_\mu B^\mu.
+```
+
+Static temporal field:
+
+```math
+\omega_\mu
+=
+(\omega_0,0,0,0)
+```
+
+satisfies:
+
+```math
+(-\nabla^2+m_\omega^2)\omega_0
+=
+g_\omega B_0.
+```
+
+---
+
+## 9.1 Proca constitutive match
+
+Define:
+
+```math
+e_E
+=
+\frac12|\nabla\omega_0|^2,
+```
+
+```math
+e_m
+=
+\frac12m_\omega^2\omega_0^2.
+```
+
+Then:
+
+```math
+\rho_\omega
+=
+e_E+e_m.
+```
+
+With gradient direction as one principal axis:
+
+```math
+p_{\perp1}
+=
+\rho_\omega,
+```
+
+```math
+p_{\perp2}
+=
+\rho_\omega,
+```
+
+```math
+p_\parallel
+=
+-e_E+e_m.
+```
+
+Therefore:
+
+```math
+S_\omega
+=
+2e_E+4e_m.
+```
+
+and:
+
+```math
+\frac{S_\omega}{\rho_\omega}
+=
+2+2f_m,
+```
+
+where:
+
+```math
+f_m
+=
+\frac{e_m}{e_E+e_m}.
+```
+
+Matching the old teacher constitutive target:
+
+```math
+S/\rho
+=
+2.649629
+```
+
+would require:
+
+```math
+f_m
+=
+0.3248145
+```
+
+and:
+
+```math
+\frac{p_\parallel}{\rho}
+=
+-0.350371.
+```
+
+So the vector field had excellent **constitutive** motivation.
+
+---
+
+# 10. 024A2 numerical result — explicit omega route failed
+
+The baseline selected axis was chosen before looking at omega:
+
+```text
+axis index:
+238
+
+direction:
+(0.72953017, -0.47652160, -0.490625)
+```
+
+Repaired baseline point/prism finite-payload:
+
+```math
+A_0
+=
+214.5316638019077,
+```
+
+```math
+\eta_0
+=
+0.120507800073164.
+```
+
+Independent continuous reconstruction:
+
+```text
+cubic force:
+234.0769325018041
+
+quintic force:
+233.6604375425494
+
+continuous sign:
+OUTWARD
+
+certified:
+YES
+```
+
+---
+
+## 10.1 Important numerical trap found
+
+The cheap midpoint omega scan looked promising.
+
+For example:
+
+```text
+mu*h=1.875
+midpoint gain vs baseline:
+approximately 2.04x
+```
+
+But promotion-grade repaired finite-payload calculation reversed the sign.
+
+Best resolved selected candidate:
+
+```text
+mu*h:
+1.875
+
+mu*dx:
+0.4853897
+
+omega force:
+-0.1032465247
+
+eta_omega:
+-0.6722593705
+
+gain vs baseline:
+-5.578554833
+
+gain vs local B0^2:
+-11.06897040
+```
+
+Other candidates:
+
+```text
+mu*h=1.6:
+gain=-6.37956
+
+mu*h=1.4:
+gain=-6.87530
+```
+
+All were inward.
+
+Padding convergence was excellent, e.g.:
+
+```math
+\sim
+1.65\times10^{-16},
+```
+
+so the sign failure was not a box-size artifact.
+
+---
+
+## 10.2 Teacher constitutive miss
+
+Best resolved candidate:
+
+```math
+\left(
+S/\rho
+\right)_{\mathrm{weighted}}
+\approx
+3.71153,
+```
+
+teacher target:
+
+```math
+2.64963.
+```
+
+Difference:
+
+```math
+1.06190.
+```
+
+Thus the field became too mass-term dominated and spatially wrong.
+
+---
+
+## 10.3 024A2 decision
+
+```text
+024A2_EXPLICIT_OMEGA_PROCA_TEACHER_MATCH_PREFILTER=
+RED_EXPLICIT_OMEGA_FIXED_FIELD_PREFILTER_NO_RESOLVED_BREAKTHROUGH
+
+LARGE_3D_COUPLED_OMEGA_SKYRME_SCAN_AUTHORIZED=
+NO
+```
+
+Closed claim:
+
+> Explicit finite-range omega smoothing of B0 on the current N65 geometry does not provide a resolved fixed-field efficiency breakthrough.
+
+Do not launch the coupled 3D omega-Skyrme solve absent a genuinely new geometric argument.
+
+---
+
+# 11. Permanent numerical lesson from 024A2
+
+This is extremely important:
+
+> Midpoint finite-payload evaluation can give not just a wrong magnitude, but the **wrong sign**, when the payload is small compared with grid resolution.
+
+Therefore future promotion-grade payload work should use:
+
+```text
+exact prism / spherical-cap machinery
+
+or
+
+continuous cubic/quintic source reconstruction with convergence
+
+or another independently validated continuous operator
+```
+
+Midpoint force is permitted only as:
+
+```text
+cheap scout / diagnostic
+```
+
+not promotion evidence.
+
+---
+
+# 12. 024A3 — rigid SU(2) isorotation / inertia tomography
+
+024A3 tested whether the existing Skyrme field itself already contains a usable dynamic stress sector through global internal SU(2) rotation.
+
+Let:
+
+```math
+\phi=(\sigma,\boldsymbol\pi)
+```
+
+and choose unit isospin axis:
+
+```math
+\mathbf a.
+```
+
+At unit angular frequency:
+
+```math
+u
+=
+(0,\mathbf a\times\boldsymbol\pi).
+```
+
+Define spatial derivatives:
+
+```math
+q_i=\partial_i\phi,
+```
+
+```math
+t=u\cdot u,
+```
+
+```math
+b_i=u\cdot q_i,
+```
+
+```math
+s=\sum_iq_i\cdot q_i.
+```
+
+The coefficient of rotational energy:
+
+```math
+k
+=
+t(1+s)
+-
+\sum_i b_i^2.
+```
+
+The active-source coefficient:
+
+```math
+\Delta S
+=
+2t(2+s)
+-
+2\sum_i b_i^2.
+```
+
+Identity:
+
+```math
+\Delta S
+=
+2(k+t).
+```
+
+Therefore:
+
+```math
+\frac{\Delta S}{k}
+=
+2+2\frac{t}{k}.
+```
+
+Using Cauchy-Schwarz:
+
+```math
+k\ge t,
+```
+
+which gives:
+
+```math
+2
+\le
+\frac{\Delta S}{k}
+\le
+4.
+```
+
+Thus ordinary time-dependent Skyrme dynamics can cross the static constitutive ceiling 2 without adding a new field.
+
+---
+
+# 13. Exact isospin-axis optimization
+
+Define:
+
+```math
+T
+=
+|\boldsymbol\pi|^2I
+-
+\boldsymbol\pi\boldsymbol\pi^T
+```
+
+and:
+
+```math
+C
+=
+\sum_i
+(\boldsymbol\pi\times\partial_i\boldsymbol\pi)
+(\boldsymbol\pi\times\partial_i\boldsymbol\pi)^T.
+```
+
+Then:
+
+```math
+M_E
+=
+(1+s)T-C,
+```
+
+```math
+M_S
+=
+2[(2+s)T-C].
+```
+
+For axis a:
+
+```math
+k
+=
+\mathbf a^TM_E\mathbf a,
+```
+
+```math
+\Delta S
+=
+\mathbf a^TM_S\mathbf a.
+```
+
+Integrated:
+
+```math
+J_E
+=
+\int M_E\,d^3x,
+```
+
+```math
+J_A
+=
+\int K_PM_S\,d^3x.
+```
+
+The globally optimal rigid isorotation is exactly the largest generalized eigenvalue:
+
+```math
+J_A\mathbf a
+=
+\eta_{\mathrm{iso}}
+J_E\mathbf a.
+```
+
+This means 024A3 exhaustively optimized rigid isospin orientation; a failure cannot later be blamed on choosing the wrong internal axis.
+
+---
+
+# 14. 024A3 rigid-isorotation result
+
+Local checks:
+
+```text
+ISOROTATION_LOCAL_ENERGY_PSD=PASS
+
+ISOROTATION_DS_MINUS_2K_EQUALS_2T=PASS
+```
+
+Continuous finite-payload reconstructions:
+
+Cubic:
+
+```math
+\eta_0
+=
+0.1308436427,
+```
+
+```math
+\eta_{\mathrm{iso,opt}}
+=
+0.09479063347,
+```
+
+```math
+G_{\mathrm{iso}}
+=
+0.7244573103.
+```
+
+Quintic:
+
+```math
+\eta_0
+=
+0.1306129399,
+```
+
+```math
+\eta_{\mathrm{iso,opt}}
+=
+0.09478065191,
+```
+
+```math
+G_{\mathrm{iso}}
+=
+0.7256605046.
+```
+
+Cross-representation agreement:
+
+```text
+axis abs dot:
+0.9999999984
+
+gain spread:
+0.00120319
+
+Fibonacci eigen cross-check:
+PASS
+
+cubic/quintic representation:
+PASS
+```
+
+Conservative gain floor:
+
+```math
+G_{\mathrm{floor}}
+=
+0.718441339.
+```
+
+Therefore even the exactly optimal rigid-isorotation sector is roughly:
+
+```text
+28% less efficient
+```
+
+than the static baseline.
+
+Decision:
+
+```text
+024A3_ISOROTATION_INERTIA_TOMOGRAPHY=
+RED_RIGID_ISOROTATION_NO_CERTIFIED_EFFICIENCY_ADVANTAGE
+
+LARGE_COUPLED_ISOSPINNING_SOLVE_AUTHORIZED=
+NO
+```
+
+Rigid isorotation is closed as a direct efficiency successor absent genuinely new reorganization physics.
+
+---
+
+# 15. 024A3's most important discovery — teacher mechanism audit
+
+This was arguably the most important scientific result of the session.
+
+Teacher force ledger:
+
+```math
+E
+=
+0.02450446248126442,
+```
+
+```math
+A
+=
+1.000000000001593,
+```
+
+```math
+C
+=
+0.02450446248122538.
+```
+
+Gross outward:
+
+```math
+1.029610949544636.
+```
+
+Gross opposing:
+
+```math
+0.0296109495430435.
+```
+
+Cancellation factor:
+
+```math
+1.05922189909.
+```
+
+Signed channel ledger:
+
+```text
+S+ K+:
++1.005419284259049
+
+S+ K-:
+-0.007497667407335
+
+S- K+:
+-0.022113282135709
+
+S- K-:
++0.024191665285587
+```
+
+Thus gross outward fraction from:
+
+```text
+positive active source
+times
+positive kernel
+```
+
+was:
+
+```math
+0.976504071468659
+```
+
+or:
+
+```text
+97.6504%
+```
+
+while the conventional useful near-side:
+
+```text
+negative active source
+times
+negative kernel
+```
+
+channel contributed only:
+
+```math
+0.023495928531341
+```
+
+or:
+
+```text
+2.3496%
+```
+
+of gross outward response.
+
+---
+
+# 16. Spatial location of dominant teacher channel
+
+For the dominant S+K+ channel:
+
+```text
+fraction beyond payload center:
+100%
+
+fraction completely beyond payload sphere:
+90.71862055%
+```
+
+Force-weighted centroid:
+
+```math
+r/h
+\approx
+0.0471631,
+```
+
+```math
+z/h
+\approx
+1.0803867.
+```
+
+Payload center was:
+
+```math
+z/h=1.
+```
+
+Therefore the dominant mechanism is:
+
+> Positive stress-energy located just beyond the payload, gravitationally attracting the payload toward it in the nominal “outward” direction.
+
+024A3 classification:
+
+```text
+TEACHER_OPERATIONAL_MECHANISM=
+POSITIVE_ACTIVE_FAR_KERNEL_ATTRACTION_DOMINATED
+```
+
+---
+
+# 17. Permanent reinterpretation of the 17,230x raw teacher
+
+The old statement:
+
+```text
+RAW_TEACHER_HEADROOM ≈ 17230x
+```
+
+remains numerically true for the relaxed **operational-force** objective under its original admissible geometry.
+
+But it must no longer be used as:
+
+```text
+TRUE_ONE_SIDED_REPULSIVE_SOURCE_HEADROOM
+```
+
+or as a direct target for a stand-off antigravity device.
+
+Correct distinction:
+
+```text
+RAW_OPERATIONAL_FORCE_TEACHER:
+approximately 17230x
+
+TRUE_STANDOFF_REPULSIVE_TEACHER_HEADROOM:
+NOT_ESTABLISHED
+
+ROBUST_PROMOTED_CONSERVED_DEC_SOURCE_HEADROOM:
+approximately 12.8x to 17.9x
+```
+
+The old raw teacher remains scientifically useful as evidence that:
+
+```text
+kernel placement dominates
+low cancellation is possible
+near-DEC stress can produce high leverage
+spatial stress is important
+```
+
+but its exact morphology is no longer the microscopic stand-off target.
+
+---
+
+# 18. The project must now separate two operational classes
+
+Future work must explicitly distinguish:
+
+## Class A — true one-sided stand-off repulsion
+
+Source lies entirely on the source side of the payload.
+
+Operationally:
+
+```text
+source behind payload
+payload pushed away from source
+```
+
+Useful channel primarily:
+
+```text
+S < 0
+K < 0
+```
+
+This is the physically stronger “antigravity” interpretation.
+
+006D belongs here.
+
+---
+
+## Class B — embedded / two-sided operational outward gravity
+
+Source may extend beyond or around the payload.
+
+Payload receives outward acceleration because of a combination of:
+
+```text
+repulsion from near-side negative active source
+
+and/or
+
+attraction toward far-side positive active source
+```
+
+The raw Introspective teacher belongs overwhelmingly to this class.
+
+Class B may still be useful for an operational gravitational actuator, but it is a different accomplishment and must not be conflated with Class A.
+
+---
+
+# 19. 024A4 — corrected true stand-off teacher attempt
+
+024A4 repaired the teacher target by requiring the source to remain on the source side.
+
+Payload center normalized to:
+
+```math
+z/h=1.
+```
+
+Primary strict geometry required:
+
+```math
+z\le0.
+```
+
+Thus:
+
+```math
+K<0
+```
+
+throughout the source.
+
+---
+
+# 20. New strict stand-off DEC bound
+
+For:
+
+```math
+z\le0
+```
+
+with payload center:
+
+```math
+h=1,
+```
+
+the kernel obeys:
+
+```math
+K<0,
+```
+
+and:
+
+```math
+|K|\le1.
+```
+
+Type-I DEC implies:
+
+```math
+-\rho
+\le
+p_i
+\le
+\rho.
+```
+
+Therefore:
+
+```math
+S
+=
+\rho+p_1+p_2+p_3
+\ge
+-2\rho.
+```
+
+Because K is negative:
+
+```math
+SK
+\le
+2\rho|K|
+\le
+2\rho.
+```
+
+Integrating:
+
+```math
+A
+\le
+2E.
+```
+
+Hence:
+
+```math
+\boxed{
+C=\frac EA\ge\frac12
+}
+```
+
+for the strict normalized stand-off class.
+
+Using:
+
+```math
+C_{B7}
+=
+422.2220709083,
+```
+
+the absolute DEC ceiling on B7 headroom is:
+
+```math
+\frac{422.2220709083}{0.5}
+=
+844.4441418166.
+```
+
+Thus:
+
+```text
+RAW_17230X_COMPATIBLE_WITH_ZLE0_STATIC_DEC=
+NO
+```
+
+This is a rigorous and important class distinction.
+
+It does **not** say 844x is achievable.
+
+It is only the broad DEC ceiling.
+
+---
+
+# 21. 024A4 geometry ladder
+
+024A4 tested:
+
+```text
+KNEG tangent
+half-gap
+strict stand-off
+```
+
+using:
+
+```text
+R99/h:
+3.3536817710
+
+rho cap:
+1.6698553194
+```
+
+which came from the prior capped teacher diagnostics.
+
+---
+
+## 21.1 Kernel-negative tangent scout
+
+At N16:
+
+```math
+C
+=
+0.902275268073.
+```
+
+Implied:
+
+```text
+headroom vs B7:
+467.95x
+
+improvement vs 006D:
+26.15x
+```
+
+But:
+
+```text
+force effective width:
+1.696 cells
+```
+
+so it was under-resolved.
+
+It was never promoted.
+
+---
+
+## 21.2 Half-gap scout
+
+Source front:
+
+```math
+z_{\max}=0.5h.
+```
+
+N16 result:
+
+```math
+C
+=
+11.22468087816.
+```
+
+Implied:
+
+```text
+headroom vs B7:
+37.62x
+
+improvement vs 006D:
+2.10x
+```
+
+Participation:
+
+```text
+energy width:
+9.57 cells
+
+force width:
+4.70 cells
+```
+
+This remains an interesting **scout**, not a certified source.
+
+It shows how rapidly gravitational efficiency changes with source-payload separation.
+
+Do not promote it.
+
+---
+
+## 21.3 Strict z <= 0 result
+
+The strict branch was infeasible at:
+
+```text
+N16
+N24
+N32
+N40
+```
+
+for:
+
+```text
+freecore
+```
+
+and also infeasible for:
+
+```text
+matched-core
+```
+
+variants.
+
+SCS independently agreed with Clarabel at N16.
+
+Original decision:
+
+```text
+RED_TRUE_STANDOFF_SOURCE_PRIMARY_NOT_GREEN
+```
+
+At first glance this could have looked like a stand-off no-go.
+
+That interpretation is **incorrect** and was repaired by 024A4R.
+
+---
+
+# 22. Why 024A4 strict infeasibility could not be universal
+
+006B and 006D are already explicit counterexamples to a universal statement like:
+
+```text
+STATIC_POSITIVE_ENERGY_DEC_CONSERVED_ZLE0_OUTWARD_SOURCE=
+IMPOSSIBLE
+```
+
+Therefore the correct question became:
+
+> Which extra 024A4 restriction made the optimization infeasible?
+
+The suspects were:
+
+```text
+radial support
+frozen density cap
+vertical thickness / capacity
+```
+
+This motivated 024A4R.
+
+---
+
+# 23. 024A4R — stand-off feasibility decomposition
+
+024A4R was the final run of the session.
+
+It first required exact positive controls.
+
+Regression:
+
+```text
+94 passed
+```
+
+Run:
+
+```text
+RUN_RC=0
+```
+
+---
+
+# 24. 024A4R positive controls
+
+Direct known 006B:
+
+```math
+C
+=
+32.95475466694425.
+```
+
+Expected:
+
+```math
+32.95475466694425.
+```
+
+Thus:
+
+```text
+DIRECT_006B_POSITIVE_CONTROL=PASS
+```
+
+Generalized independent solver:
+
+```math
+C
+=
+32.954754666952105.
+```
+
+Relative error:
+
+```math
+2.3846642880\times10^{-13}.
+```
+
+Thus:
+
+```text
+GENERALIZED_006B_POSITIVE_CONTROL=PASS
+```
+
+This strongly validates the feasibility decomposition.
+
+---
+
+# 25. 024A4R Track A — radial support was NOT the primary obstruction
+
+Uncapped thin sources were feasible at every tested radius down to:
+
+```math
+R/h=3.0.
+```
+
+Examples:
+
+```text
+R=3.0:
+C=40.7173
+
+R=3.35368:
+C=34.9538
+
+R=3.75:
+C=32.5687
+
+R=4.0:
+C=31.9536
+
+R=4.25:
+C=31.8371
+
+R=4.5:
+C=32.2047
+
+R=4.70144:
+C=32.3761
+
+R=5:
+C=32.9548
+
+R=5.5:
+C=34.7334
+
+R=6:
+C=36.2381
+```
+
+The best tested N20 uncapped finite-volume coefficient was near:
+
+```math
+R/h=4.25,
+```
+
+with:
+
+```math
+C
+\approx
+31.8371.
+```
+
+But even that is still worse than:
+
+```math
+C_{006D}
+=
+23.5916.
+```
+
+Conclusion:
+
+```text
+UNCAPPED_MIN_TESTED_FEASIBLE_R_OVER_H=
+3.0
+
+R99_BELOW_UNCAPPED_FEASIBILITY_THRESHOLD=
+NO
+
+RADIAL_SUPPORT_OBSTRUCTION=
+NO
+```
+
+Thus 024A4 did not fail because R99=3.35 was inherently too small.
+
+---
+
+# 26. 024A4R Track B — frozen density cap was the primary obstruction
+
+Known 006B geometry:
+
+```text
+R/h=5
+depth/h=0.125
+```
+
+Teacher-derived frozen density cap:
+
+```math
+\rho_{\max}
+=
+1.6698553194.
+```
+
+Results by cap multiplier:
+
+```text
+1x:
+infeasible
+
+2x:
+infeasible
+
+3x:
+infeasible
+
+3.5x:
+infeasible
+
+3.625x:
+infeasible
+
+3.75x:
+feasible
+
+4x:
+feasible
+
+8x:
+feasible
+
+16x:
+feasible
+
+uncapped:
+feasible
+```
+
+Critical bracket:
+
+```text
+3.625 < required multiplier <= 3.75
+```
+
+Thus:
+
+```text
+DENSITY_CAP_IS_A_FEASIBILITY_OBSTRUCTION=
+YES
+```
+
+and:
+
+```text
+024A4_INFEASIBILITY_DIAGNOSIS=
+FROZEN_DENSITY_CAP_PRIMARY
+```
+
+This is a major methodological clarification.
+
+The density cap was always diagnostic.
+
+It was never fundamental physics.
+
+024A4R proved that it was strong enough to remove otherwise valid known stand-off solutions.
+
+Therefore:
+
+> Never treat the frozen Introspective density cap as a physical no-go constraint.
+
+---
+
+# 27. 024A4R Track C — thickness can rescue capped feasibility
+
+At the original cap, most tested strict geometries remained infeasible.
+
+The only base-cap geometry in the coarse matrix that became feasible was approximately:
+
+```text
+R/h=6
+depth/h=1
+```
+
+N12 scout:
+
+```math
+C
+=
+68.8279781303.
+```
+
+Thus increasing volume/thickness can restore feasibility under the low cap.
+
+Conclusion:
+
+```text
+THICKNESS_VOLUME_RESCUE=
+YES
+```
+
+but it comes with poor efficiency.
+
+---
+
+# 28. 024A4R refinement of capped thick source
+
+Selected geometry:
+
+```text
+R/h=6
+depth/h=1
+rho cap=1.6698553194
+```
+
+N16:
+
+```math
+C_{16}
+=
+49.9354229553.
+```
+
+N24:
+
+```math
+C_{24}
+=
+39.9300176629.
+```
+
+Conservative coefficient:
+
+```math
+C_{\mathrm{cons}}
+=
+49.9354229553.
+```
+
+Headroom versus B7:
+
+```math
+8.45536.
+```
+
+Efficiency relative to 006D:
+
+```math
+0.472442.
+```
+
+So it is more than a factor of two **worse** than 006D.
+
+Numerical checks:
+
+```text
+independent force relative error:
+5.55e-16
+PASS
+
+SCS vs Clarabel relative error:
+1.576e-7
+PASS
+
+N24 min participation width:
+6.065 cells
+PASS
+```
+
+But coefficient convergence:
+
+```math
+\frac{|C_{16}-C_{24}|}{\max(C_{16},C_{24})}
+=
+0.20037
+```
+
+or approximately 20.0%, exceeding the predeclared 15% threshold.
+
+Therefore:
+
+```text
+REFINED_NUMERICAL_CERTIFICATE=
+FAIL
+```
+
+and it was not promoted.
+
+---
+
+# 29. Final 024A4R decision
+
+```text
+024A4R_STANDOFF_FEASIBILITY_DECOMPOSITION=
+YELLOW_024A4_INFEASIBILITY_CAUSE_IDENTIFIED_NO_NEW_CERTIFIED_STANDOFF_RECORD
+```
+
+Causal result:
+
+```text
+RADIAL_SUPPORT_OBSTRUCTION=NO
+
+FROZEN_DENSITY_CAP_OBSTRUCTION=YES
+
+THICKNESS_VOLUME_RESCUE=YES
+
+024A4_INFEASIBILITY_DIAGNOSIS=
+FROZEN_DENSITY_CAP_PRIMARY
+```
+
+No new stand-off coefficient beat 006D.
+
+Therefore:
+
+```text
+006D_REMAINS_BEST_CERTIFIED_CLASSICAL_STANDOFF_ANCHOR=YES
+```
+
+---
+
+# 30. What is now closed
+
+The following routes should not be repeated in their tested forms.
+
+## 30.1 Naive local B0² addition on current B7 geometries
+
+Closed for:
+
+```text
+robust all-orientation improvement
+teacher spatial matching
+```
+
+Narrow orientation-locked signal remains as a scientific fact but is insufficient to reopen the route by itself.
+
+---
+
+## 30.2 Explicit omega/Proca smoothing on frozen N65 geometry
+
+Closed in the tested fixed-field form.
+
+Promotion-grade finite-payload result was inward.
+
+Do not launch the coupled omega-Skyrme PDE merely because the midpoint scout once looked positive.
+
+---
+
+## 30.3 Rigid global isorotation
+
+Closed as an efficiency successor.
+
+The exact generalized-eigenvalue optimum had:
+
+```math
+G
+\approx
+0.72<1.
+```
+
+There is no hidden rigid isospin axis to find.
+
+---
+
+## 30.4 Old raw teacher as true stand-off blueprint
+
+Permanently retired.
+
+Preserve raw 17,230x only as:
+
+```text
+relaxed operational-force source signal
+```
+
+not:
+
+```text
+one-sided repulsive source efficiency
+```
+
+---
+
+## 30.5 Frozen teacher density cap as fundamental physics
+
+Retired.
+
+024A4R proved it can exclude known valid 006B-like stand-off solutions.
+
+It may still be used as:
+
+```text
+regularization diagnostic
+```
+
+but not as:
+
+```text
+physical law
+```
+
+or:
+
+```text
+fundamental source-density limit
+```
+
+---
+
+## 30.6 Additional abstract stand-off coefficient polishing
+
+Stop for now.
+
+024A4R's explicit next action is reranking, not another source LP.
+
+A new source-optimizer run should require a genuinely new physical constraint or a need arising from a selected microscopic model.
+
+---
+
+# 31. What remains alive
+
+## 31.1 006D microscopic realization
+
+Still alive.
+
+006D remains the best known true stand-off source architecture.
+
+Relevant earlier supporting work remains:
+
+```text
+016D exponential-tail 006D realizability preflight:
+GREEN
+
+preferred region:
+Delta approximately 0.10–0.20
+ell approximately 0.20–0.40
+
+017A kernel leverage / spatial segregation:
+GREEN
+```
+
+However, previous concrete drum/vorton and related realizations encountered serious obstructions.
+
+The next session should evaluate whether there is a **genuinely new microscopic realization strategy** for the 006D stress architecture before investing in it again.
+
+Do not blindly resume closed drum/vorton implementations.
+
+---
+
+## 31.2 023C / 023D topological branch
+
+Still alive and is the strongest actual field branch.
+
+Advantages:
+
+```text
+actual microscopic field
+positive energy
+topology
+DEC
+strict N65 stationarity
+negative enclosed active region
+positive total active mass
+```
+
+Disadvantages:
+
+```text
+very poor source efficiency compared with 006D
+C approximately 422 vs 23.6
+N73 unresolved
+full Hessian unresolved
+nonlinear Einstein-Skyrme unresolved
+pure-GR absolute energy remains catastrophic
+```
+
+023D remains paused until reranking decides that the topological nonlinear-GR path is worth resuming.
+
+---
+
+## 31.3 Analogue Antigravity
+
+Previously deferred during the first focused successor-GR attempt.
+
+That first successor campaign has now tested:
+
+```text
+local sextic
+orientation repair
+explicit omega
+isorotation
+corrected stand-off source target
+stand-off feasibility decomposition
+```
+
+without producing a better microscopic GR source.
+
+Therefore the stated condition for reranking Analogue Antigravity has now effectively been reached.
+
+The next session should take that rerank seriously.
+
+Do not assume pure-GR remains the best practical route merely because it remains theoretically interesting.
+
+---
+
+# 32. Absolute pure-GR energy scaling remains catastrophic
+
+None of this session solved the fundamental:
+
+```math
+1/G
+```
+
+scaling.
+
+Coefficient-one scale for approximately:
+
+```math
+a=g,
+```
+
+```math
+h=1\ \mathrm{m}
+```
+
+is roughly:
+
+```math
+E
+\sim
+\frac{
+g c^2 h^2
+}{
+G
+}
+\sim
+1.3\times10^{28}\ \mathrm{J}.
+```
+
+Multiplying by a coefficient like:
+
+```math
+C=23.6
+```
+
+is still catastrophic.
+
+Therefore even realizing 006D microscopically would still leave a severe practicality barrier.
+
+The rerank must explicitly score:
+
+```text
+theoretical validity
+field realizability
+stability
+finite-payload response
+absolute energy
+support/control sectors
+reaction momentum
+experimental accessibility
+```
+
+not only dimensionless C.
+
+---
+
+# 33. Updated interpretation of “source efficiency”
+
+Three very different things must now remain separated:
+
+## 33.1 Raw relaxed operational efficiency
+
+Example:
+
+```text
+old teacher approximately 17230x
+```
+
+Can exploit:
+
+```text
+far-side attraction
+embedded source geometry
+non-microscopic stress patterns
+```
+
+Not equivalent to stand-off antigravity.
+
+---
+
+## 33.2 Certified stand-off source efficiency
+
+Current best:
+
+```text
+006D approximately 17.9x better than B7
+```
+
+This is the relevant comparison for:
+
+```text
+source behind payload
+payload accelerated away from source
+```
+
+---
+
+## 33.3 Actual microscopic field efficiency
+
+Current B7 Skyrmion is an actual field existence/stationarity result but has:
+
+```math
+C
+\sim422.
+```
+
+Thus:
+
+> The actual-field branch remains far less efficient than the best abstract conserved stand-off source.
+
+Closing this realizability gap remains central.
+
+---
+
+# 34. New design principles that should permanently carry forward
+
+## Principle 1 — Geometry dominates constitutive cleverness
+
+A sector with high:
+
+```math
+S/\rho
+```
+
+can still worsen the payload force if it sits in the wrong kernel region.
+
+024A1 and 024A2 both demonstrated this.
+
+---
+
+## Principle 2 — Stress location is at least as important as stress magnitude
+
+The useful quantity is not just:
+
+```math
+S
+```
+
+but:
+
+```math
+S(\mathbf x)K_P(\mathbf x).
+```
+
+Spatial/kernel leverage is a permanent design principle.
+
+---
+
+## Principle 3 — Negative active density is not synonymous with outward gravity
+
+Always compute the actual finite-payload kernel.
+
+Keep the signed ledger:
+
+```text
+S+K+
+S+K-
+S-K+
+S-K-
+```
+
+whenever practical.
+
+---
+
+## Principle 4 — “Operational antigravity” must identify which side of the payload contains the source
+
+Far-side attraction can masquerade as extraordinarily efficient outward gravity.
+
+Future optimizers should explicitly state:
+
+```text
+SOURCE_EXCLUSION_GEOMETRY
+```
+
+and:
+
+```text
+PAYLOAD_TOPOLOGY
+```
+
+before interpreting headroom.
+
+---
+
+## Principle 5 — Midpoint payload forces are scouts only
+
+Promotion-grade force must use:
+
+```text
+continuous-field cubature
+exact prism/cap methods
+or another independently validated finite-payload operator
+```
+
+if payload radius is small relative to grid spacing.
+
+---
+
+## Principle 6 — Nonfundamental regularization must never become an accidental physics law
+
+The Introspective density cap was useful for diagnosing UV concentration.
+
+It was not a physical source-density bound.
+
+024A4R proved that treating it as such can falsely make valid stand-off source classes appear infeasible.
+
+---
+
+## Principle 7 — Compare every “breakthrough” against the strongest relevant anchor
+
+For true stand-off source optimization, the benchmark is no longer B7 alone.
+
+A new abstract stand-off source must beat:
+
+```math
+C_{006D}=23.591586299249.
+```
+
+Merely beating B7 by 10x is no longer impressive if 006D already provides approximately 17.9x.
+
+---
+
+## Principle 8 — A fixed-field positive result does not authorize a full PDE
+
+024A1R's orientation signal did not justify a full sextic solve.
+
+Any future fixed-field successor should show:
+
+```text
+correct spatial placement
+meaningful efficiency
+healthy stress tensor
+resolved finite-payload force
+model motivation
+```
+
+before a large 3D solve.
+
+---
+
+## Principle 9 — Dynamic branches need full-cycle accounting
+
+If a transient branch is revisited:
+
+```math
+\Delta v_P
+=
+\int_{\mathrm{full\ cycle}}
+a_P(t)\,dt.
+```
+
+Mandatory sectors:
+
+```text
+formation
+peak
+T0i
+Tij
+collapse / return
+radiation
+reaction momentum
+reset
+losses
+repetition rate
+heat
+total cycle energy
+```
+
+A time-envelope-multiplied static stress tensor is not a conserved pulse solution.
+
+---
+
+# 35. Analytical insight worth preserving but not yet overpromoting
+
+There is a useful general constitutive observation from this session's reasoning.
+
+For a static positive energy sector homogeneous in spatial derivative order N, scale arguments give:
+
+```math
+\sum_i p_i
+=
+(N-3)e_N.
+```
+
+Thus:
+
+```math
+S_N
+=
+\rho+\sum_i p_i
+=
+(N-2)e_N.
+```
+
+If the sector by itself satisfies DEC:
+
+```math
+|p_i|\le e_N,
+```
+
+then:
+
+```math
+\sum_i p_i
+\le
+3e_N.
+```
+
+Therefore a pure positive homogeneous sector with:
+
+```math
+N>6
+```
+
+cannot dominate while independently satisfying DEC.
+
+At:
+
+```math
+N=6,
+```
+
+saturating:
+
+```math
+S/\rho=4
+```
+
+forces:
+
+```math
+p_1=p_2=p_3=\rho.
+```
+
+This is strong motivation not to blindly chase:
+
+```text
+L8
+L10
+higher and higher derivative order
+```
+
+as a “more stress” solution.
+
+Treat this as an analytical design argument requiring formal documentation/independent verification before elevating it to a durable theorem.
+
+---
+
+# 36. Session chronology — condensed
+
+The sequence was:
+
+```text
+INT15R
+teacher raw 17230x survives independent audit
+formal >=1000x certificate remains NO
+
+↓
+
+024A
+L2+L4+L6+V analytical constitutive prefilter
+S/rho ceiling extended from 2 to 4
+pure BPS static route demoted
+
+↓
+
+024A1
+naive B0^2 placement fails robust geometry / teacher overlap
+
+↓
+
+024A1R
+all-orientation criterion repaired
+orientation-locked infinitesimal sextic signal exists
+but no PDE authorization
+
+↓
+
+024A2
+explicit omega/Proca mediator tested
+cheap midpoint falsely looked positive
+repaired finite-payload force is inward
+omega route RED
+
+↓
+
+024A3
+rigid Skyrme isorotation tested
+exact optimal internal axis found
+gain only approximately 0.72
+rigid isorotation RED
+
+024A3 simultaneously audits teacher geometry
+
+↓
+
+MAJOR REINTERPRETATION
+97.65% of teacher gross outward effect is S+K+
+dominant stress is beyond payload
+old 17230x true-stand-off interpretation retired
+
+↓
+
+024A4
+rebuild true stand-off teacher with z<=0
+strict source infeasible under R99 + frozen teacher rho cap
+half-gap scout C~11.22 but not certified
+
+↓
+
+024A4R
+positive-control decomposition
+006B recovered exactly
+radial support NOT primary obstruction
+frozen teacher density cap IS primary obstruction
+critical cap multiplier ~3.625–3.75
+thickness can rescue feasibility but inefficiently
+no new stand-off record
+006D remains best
+
+↓
+
+NEXT
+RERANK_006D_MICROSCOPIC_REALIZATION
+VS
+023C/023D
+VS
+ANALOGUE_ANTIGRAVITY
+```
+
+---
+
+# 37. Software / numerical state
+
+The known-solutions regression baseline remained:
+
+```text
+94 passed
+```
+
+through all major runs this session.
+
+No run introduced a known-solution regression.
+
+Important run result codes were clean.
+
+---
+
+# 38. New simulation families created/run this session
+
+Important new simulation sources include approximately:
+
+```text
+simulations/024a1_sextic_fixed_field_kernel_placement_gate.py
+
+simulations/024a1r_orientation_criterion_repair.py
+
+simulations/024a2_explicit_omega_proca_teacher_match_prefilter.py
+
+simulations/024a3_isorotation_inertia_tomography_teacher_mechanism_audit.py
+
+simulations/024a4_true_standoff_teacher_reconstruction.py
+
+simulations/024a4r_standoff_feasibility_decomposition.py
+```
+
+Representative new result artifacts include:
+
+```text
+results/data/024a1_sextic_fixed_field_orientation_arrays.npz
+results/data/024a1_sextic_fixed_field_kernel_placement_summary.json
+
+results/data/024a1r_orientation_criterion_repair_summary.json
+results/data/024a1r_orientation_axis_metrics.csv
+
+results/data/024a2_explicit_omega_proca_teacher_match_summary.json
+results/data/024a2_explicit_omega_proca_mu_scan.csv
+results/data/024a2_explicit_omega_proca_selected_field.npz
+
+results/data/024a3_isorotation_inertia_tomography_summary.json
+results/data/024a3_isorotation_reconstruction_metrics.csv
+results/data/024a3_isorotation_inertia_matrices.npz
+
+results/data/024a4_true_standoff_teacher_reconstruction_summary.json
+results/data/024a4_true_standoff_teacher_cases.csv
+
+results/data/024a4r_standoff_feasibility_decomposition_summary.json
+results/data/024a4r_standoff_feasibility_cases.csv
+```
+
+The exact repository contents should be verified from the codebundle next session before documentation is updated.
+
+---
+
+# 39. Specific numerical constants to carry forward
+
+```text
+TRUSTED_B7_C:
+422.2220709083088
+
+TRUSTED_B7_A:
+28.81787638114564
+
+TRUSTED_B7_E:
+1822.472700555285
+
+006D_C:
+23.591586299249
+
+006D_HEADROOM_VS_B7:
+17.8971462771772
+
+006B_THIN_C:
+23.426710175391
+
+006B_THIN_BETA:
+4.7014374053
+
+006B_KNOWN_THIN20_C:
+32.95475466694425
+
+INTROSPECTIVE_TEACHER_E:
+0.02450446248126442
+
+INTROSPECTIVE_TEACHER_A:
+1.000000000001593
+
+INTROSPECTIVE_TEACHER_C:
+0.02450446248122538
+
+INTROSPECTIVE_RAW_HEADROOM:
+17230.41553071418
+
+TEACHER_FORCE_WEIGHTED_S_OVER_RHO_OLD_TARGET:
+approximately 2.649629
+
+TEACHER_SPOS_KPOS_GROSS_OUTWARD_FRACTION:
+0.976504071468659
+
+TEACHER_SNEG_KNEG_GROSS_OUTWARD_FRACTION:
+0.023495928531341
+
+TEACHER_DOMINANT_POSITIVE_CHANNEL_BEYOND_CENTER:
+1.0
+
+TEACHER_DOMINANT_POSITIVE_CHANNEL_FULLY_BEYOND_PAYLOAD:
+0.907186205515167
+
+TEACHER_DOMINANT_CHANNEL_CENTROID_Z_OVER_H:
+1.080386673449115
+
+024A1R_N65_BASELINE_MAX_G6:
+2.142954955629833
+
+024A1R_N65_EXPLORATORY_MAX_G6:
+2.843180017666509
+
+024A2_BEST_REPAIRED_GAIN:
+-5.57855483295936
+
+024A3_CONSERVATIVE_ISOROTATION_GAIN_FLOOR:
+0.718441339017852
+
+STRICT_STANDOFF_DEC_C_FLOOR:
+0.5
+
+STRICT_STANDOFF_B7_ABSOLUTE_HEADROOM_CEILING:
+844.4441418166175
+
+024A4_HALF_GAP_N16_C:
+11.2246808781599
+
+024A4R_RHO_CAP:
+1.669855319420529
+
+024A4R_CRITICAL_CAP_MULTIPLIER:
+between 3.625 and 3.75
+
+024A4R_CAPPED_R6_D1_C16:
+49.93542295531682
+
+024A4R_CAPPED_R6_D1_C24:
+39.9300176629455
+
+024A4R_CONSERVATIVE_C:
+49.93542295531682
+```
+
+---
+
+# 40. Claim wording that is safe at session close
+
+Safe:
+
+> We have established multiple mathematically and numerically consistent linearized-GR stress-energy constructions that produce outward gravitational response while retaining positive total energy and positive far-field active mass.
+
+Safe:
+
+> 006D remains our strongest certified true stand-off classical source architecture.
+
+Safe:
+
+> The false-core B=7 Skyrmion remains the strongest actual topological microscopic field witness, including a strict unrestricted N65 stationary representative.
+
+Safe:
+
+> The Introspective phase demonstrated substantial source-organization headroom, but the raw approximately 17,230x teacher is not continuum-certified and is dominated by far-side positive-source attraction rather than one-sided repulsion.
+
+Safe:
+
+> The robust independently supported source-level efficiency gap remains approximately 12.8–17.9x.
+
+Safe:
+
+> This session falsified naive local-sextic placement, the tested fixed-field omega successor, and rigid isorotation as direct efficiency breakthroughs.
+
+Safe:
+
+> The apparent strict-source infeasibility in 024A4 was mainly caused by the diagnostic frozen density cap rather than a new physical no-go.
+
+---
+
+# 41. Claims that are NOT allowed
+
+Do not say:
+
+```text
+WE_HAVE_A_PRACTICAL_ANTIGRAVITY_DEVICE
+```
+
+Do not say:
+
+```text
+THE_17230X_TEACHER_IS_A_ONE_SIDED_ANTIGRAVITY_SOURCE
+```
+
+Do not say:
+
+```text
+TRUE_STANDOFF_1000X_HEADROOM_HAS_BEEN_ESTABLISHED
+```
+
+Do not say:
+
+```text
+THE_SKYRMION_IS_FULLY_STABLE
+```
+
+Do not say:
+
+```text
+N73_HAS_CONVERGED
+```
+
+Do not say:
+
+```text
+NONLINEAR_GR_ANTIGRAVITY_HAS_BEEN ESTABLISHED
+```
+
+Do not say:
+
+```text
+THE_OMEGA_MODEL_WORKS
+```
+
+Do not say:
+
+```text
+RIGID_ISOROTATION_IMPROVES_THE_FIELD
+```
+
+Do not say:
+
+```text
+STATIC_ZLE0_CONSERVED_DEC_SOURCES_ARE_IMPOSSIBLE
+```
+
+Do not treat:
+
+```text
+rho_cap=1.669855...
+```
+
+as a fundamental physical limit.
+
+Do not treat the old N65 midpoint force as authoritative.
+
+Do not use midpoint finite-payload signs as promotion evidence.
+
+---
+
+# 42. Current practical heuristic
+
+Keep:
+
+```text
+approximately 70–71%
+```
+
+and explicitly label it:
+
+```text
+KNOWLEDGE / ACCOMPLISHMENT HEURISTIC
+NOT A PROBABILITY OF SUCCESS
+```
+
+Why it did not increase this session:
+
+```text
+no new better certified stand-off source
+no new microscopic field
+no new stability proof
+no nonlinear Einstein-matter continuation
+no practical energy-scale solution
+no experiment
+no device
+```
+
+Why the session was still valuable:
+
+```text
+major teacher-mechanism reinterpretation
+multiple successor falsifications
+orientation criterion repaired
+finite-payload numerical trap identified
+true stand-off DEC ceiling derived
+024A4 infeasibility cause isolated
+nonfundamental density-cap obstruction identified
+search space materially narrowed
+```
+
+This is major epistemic progress without a new accomplishment-class milestone.
+
+---
+
+# 43. Highest-information next action
+
+The exact next action is:
+
+```text
+RERANK_006D_MICROSCOPIC_REALIZATION_VS_023C_023D_AND_ANALOGUE_ANTIGRAVITY
+```
+
+This rerank should be an explicit short research slice before another expensive simulation.
+
+---
+
+# 44. Recommended rerank questions
+
+For each branch score:
+
+```text
+1. strongest existing demonstrated accomplishment
+2. remaining missing physics
+3. known falsifiers / prior failed implementations
+4. expected information gain from next run
+5. compute cost
+6. probability that the next run changes branch status
+7. absolute energy scaling
+8. required support/control/environment sectors
+9. finite-payload operational quality
+10. stability burden
+11. nonlinear GR burden
+12. experimental accessibility
+13. practical-device relevance
+```
+
+---
+
+# 45. 006D realization branch — questions for rerank
+
+Ask:
+
+> Is there a genuinely new microscopic field architecture capable of producing the 006D stress pattern without repeating the closed 017–022 implementations?
+
+Requirements:
+
+```text
+positive energy
+DEC or explicitly justified controlled violation
+local conservation
+compact finite source
+correct stress anisotropy
+correct spatial/kernel placement
+positive far-field active mass
+finite-payload outward response
+full support sector
+stability / naturalness
+```
+
+Relevant facts:
+
+```text
+006D C approximately 23.59
+best true stand-off source efficiency
+016D exponential-tail realizability preflight green
+spatial/kernel leverage permanent
+previous concrete drum/vorton and protected-vector attempts encountered fatal obstructions
+```
+
+Stop rule:
+
+> If no genuinely new microscopic protection or matter architecture exists, do not reopen already-closed implementations simply because 006D remains attractive.
+
+---
+
+# 46. 023C / 023D branch — questions for rerank
+
+Ask:
+
+> Is it now more valuable to finish the actual-field proof stack than to keep searching for a higher-efficiency microscopic successor?
+
+Potential next accomplishments:
+
+```text
+strict N73 stationarity
+continuous N65/N73 force convergence
+full N65 tangent Hessian
+fission stability
+nonlinear Einstein-Skyrme continuation
+```
+
+Strength:
+
+```text
+actual topological field already exists
+strict N65 stationarity already exists
+```
+
+Weakness:
+
+```text
+C approximately 422
+absolute pure-GR scale catastrophic
+large efficiency gap to 006D
+```
+
+Resume only if the value of proving nonlinear/stable existence outweighs the poor efficiency.
+
+---
+
+# 47. Analogue Antigravity branch — questions for rerank
+
+The branch was deferred only during the first focused successor-GR attempt.
+
+That attempt has now yielded:
+
+```text
+024A constitutive insight
+024A1 local sextic geometry failure
+024A1R narrow orientation signal only
+024A2 omega failure
+024A3 isorotation failure
+024A4 teacher reinterpretation
+024A4R no new stand-off record
+```
+
+Thus the reason for deferral has substantially expired.
+
+Ask:
+
+> If pure-GR source engineering remains bounded by catastrophic 1/G scaling even after best-case structural improvements, can a lower-energy operational analogue provide the desired neutral-matter acceleration without pretending to be literal gravitational repulsion?
+
+Keep the name:
+
+```text
+Analogue Antigravity
+```
+
+for this branch.
+
+The analogue branch must still obey:
+
+```text
+reaction momentum
+support energy
+environmental coupling
+neutral-matter universality claims
+empirical bounds
+cycle energy
+control/reset
+```
+
+Do not lower scientific standards merely because it is an analogue.
+
+---
+
+# 48. Likely rerank logic, without pre-deciding it
+
+The next session should not assume a winner before doing the rerank.
+
+However the updated evidence suggests the following tension:
+
+```text
+006D:
+best true stand-off geometry,
+but no convincing microscopic realization and catastrophic 1/G scale.
+
+023C:
+best actual field,
+but approximately 18x worse source efficiency than 006D and unresolved stability/nonlinear GR.
+
+Analogue Antigravity:
+not literal pure-GR repulsion,
+but now increasingly relevant because pure-GR practicality remains catastrophically energy limited.
+```
+
+The rerank should decide whether the next major compute budget belongs to:
+
+```text
+006D_REALIZATION
+
+or
+
+023C_STABILITY_NONLINEAR_GR
+
+or
+
+ANALOGUE_ANTIGRAVITY
+```
+
+rather than automatically extending the 024 successor series.
+
+---
+
+# 49. Specific stop rules for next session
+
+Do not:
+
+```text
+run another unrestricted source LP merely to improve C
+```
+
+unless a selected field model requires a targeted source benchmark.
+
+Do not:
+
+```text
+run another omega scan
+```
+
+without new geometry.
+
+Do not:
+
+```text
+run another rigid isorotation scan.
+```
+
+Do not:
+
+```text
+launch a large L2+L4+L6+V 3D solve
+```
+
+based only on constitutive possibility.
+
+Do not:
+
+```text
+optimize toward old teacher F90 morphology
+```
+
+without checking source/payload sidedness.
+
+Do not:
+
+```text
+use the frozen rho cap as a physical constraint.
+```
+
+Do not:
+
+```text
+bump the heuristic merely because a negative branch was eliminated.
+```
+
+---
+
+# 50. What would justify the next heuristic increase
+
+A move beyond approximately 70–71% should require a genuinely new accomplishment, such as one of:
+
+```text
+a microscopic field that materially approaches or beats 006D efficiency;
+
+strict N73 + continuous-force convergence plus meaningful stability progress;
+
+a positive full physical Hessian/fission-stability result for the unrestricted field;
+
+a controlled nonlinear Einstein-matter continuation retaining finite-payload outward response;
+
+a genuinely lower-energy analogue mechanism with full reaction/support accounting;
+
+or another comparably strong advancement in physical realizability.
+```
+
+Routine negative prefilters, numerical repairs, or abstract LP improvements alone should not move it.
+
+---
+
+# 51. Current overall scientific conclusion
+
+At session close, the project supports the following conservative summary:
+
+> Established GR permits finite positive-energy stress-energy configurations with local and operational outward gravitational response. The strongest current true stand-off source construction remains 006D. A false-core B=7 Skyrmion supplies the strongest current microscopic topological field witness but is much less source-efficient. Introspective optimization showed that dramatically different source organizations can be far more efficient, but the spectacular raw approximately 17,230x teacher is predominantly a far-side-attraction operational geometry and is not a true one-sided repulsive blueprint or a continuum-certified field. Attempts to translate its earlier constitutive clues through a naive sextic sector, an explicit omega mediator, or rigid Skyrmion isorotation did not produce a new field-level breakthrough. A corrected true stand-off optimization showed that an imposed frozen teacher density cap—not a new physical no-go—caused the strict-source infeasibility, and no corrected source beat 006D. The project should now stop abstract source polishing and explicitly rerank 006D microscopic realization, completion of the 023C/023D topological GR path, and Analogue Antigravity.
+
+---
+
+# 52. Exact session-close markers
+
+Carry these exact markers into the next session:
+
+```text
+KNOWN_SOLUTION_REGRESSION_BASELINE=
+94_PASSED
+
+006D_CONSTRUCTIVE_LINEARIZED_GR_RESULT=
+RETAINED
+
+006D_BEST_TRUE_STANDOFF_CLASSICAL_ANCHOR=
+YES
+
+023BR_PROMOTION_GRADE_RATIONAL_MAP_RESULT=
+RETAINED
+
+023CR4R_STRICT_N65_STATIONARY_FIELD=
+RETAINED
+
+STRICT_N73_STATIONARITY=
+UNRESOLVED
+
+FULL_HESSIAN_FISSION_STABILITY=
+UNRESOLVED
+
+NONLINEAR_EINSTEIN_MATTER_CONTINUATION=
+UNRESOLVED
+
+RAW_GE1000X_SIGNAL=
+PRESENT
+
+CERTIFIED_GE1000X_CONTINUUM_SOURCE=
+NO
+
+OLD_RAW_17230X_TRUE_STANDOFF_TARGET=
+RETIRED
+
+TEACHER_OPERATIONAL_MECHANISM=
+POSITIVE_ACTIVE_FAR_KERNEL_ATTRACTION_DOMINATED
+
+024A_MIXED_L2_L4_L6_V_CONSTITUTIVE_PREFLIGHT=
+PROVISIONAL_GREEN
+
+PURE_BPS_L6_PLUS_V_STATIC_TEACHER_MATCH=
+DEMOTED
+
+024A1_NAIVE_LOCAL_B0SQ_ROBUST_PLACEMENT=
+RED
+
+024A1R_ORIENTATION_CRITERION_REPAIR=
+GREEN_ORIENTATION_LOCKED_SIGNAL_IN_BOTH_REFERENCES
+
+LARGE_GENERALIZED_3D_PDE_SCAN_AUTHORIZED_FROM_024A1R=
+NO
+
+024A2_EXPLICIT_OMEGA_PROCA_TEACHER_MATCH_PREFILTER=
+RED_EXPLICIT_OMEGA_FIXED_FIELD_PREFILTER_NO_RESOLVED_BREAKTHROUGH
+
+LARGE_COUPLED_OMEGA_SKYRME_SCAN_AUTHORIZED=
+NO
+
+024A3_ISOROTATION_INERTIA_TOMOGRAPHY=
+RED_RIGID_ISOROTATION_NO_CERTIFIED_EFFICIENCY_ADVANTAGE
+
+LARGE_COUPLED_ISOSPINNING_SOLVE_AUTHORIZED=
+NO
+
+024A4_TRUE_STANDOFF_TEACHER_RECONSTRUCTION=
+RED_UNDER_FROZEN_CAP
+
+024A4_UNIVERSAL_STANDOFF_NO_GO=
+NO
+
+024A4R_DENSITY_CAP_IS_A_FEASIBILITY_OBSTRUCTION=
+YES
+
+024A4R_CRITICAL_CAP_MULTIPLIER=
+BETWEEN_3P625_AND_3P75
+
+024A4R_RADIAL_SUPPORT_OBSTRUCTION=
+NO
+
+024A4R_THICKNESS_VOLUME_RESCUE=
+YES
+
+024A4R_STANDOFF_FEASIBILITY_DECOMPOSITION=
+YELLOW_024A4_INFEASIBILITY_CAUSE_IDENTIFIED_NO_NEW_CERTIFIED_STANDOFF_RECORD
+
+NEW_CERTIFIED_STANDOFF_RECORD=
+NO
+
+BEST_CERTIFIED_TRUE_STANDOFF_SOURCE=
+006D
+
+CURRENT_KNOWLEDGE_HEURISTIC=
+APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY
+
+PRACTICAL_ANTIGRAVITY_DEVICE=
+NO
+
+NEW_PHYSICS_DISCOVERY=
+NO
+
+NEXT=
+RERANK_006D_MICROSCOPIC_REALIZATION_VS_023C_023D_AND_ANALOGUE_ANTIGRAVITY
+```
+
+---
+
+# 53. Documentation note for next session closeout
+
+The user intentionally chose **not to update most project documents at this session close**.
+
+At the end of the next session, after the rerank and whichever next branch is actually executed, update as appropriate:
+
+```text
+RESEARCH_BUILDPLAN.md
+NOTES.md / carry-over notes
+codebundle
+README
+journal entry
+project instructions if frontier materially changes
+```
+
+The next documentation update must incorporate the critical post-Introspective corrections from this session, especially:
+
+```text
+teacher far-side attraction reinterpretation
+raw 17230x true-stand-off target retirement
+024A1R orientation theorem
+024A2 midpoint-force sign failure
+024A3 rigid-isorotation falsification
+strict stand-off DEC C>=1/2 bound
+024A4 density-cap artifact
+024A4R causal decomposition
+006D retained as best true stand-off source
+reranking of pure-GR vs Analogue Antigravity
+```
+
+Do not allow the older buildplan language about “teacher-guided successor field design” to survive unchanged if the next-session rerank materially changes the active frontier.
+
+---
+
+# 54. Final one-paragraph restart context
+
+If a very short restart paragraph is needed next session, use:
+
+> The project remains at approximately 70–71% on its knowledge/accomplishment heuristic. 006D remains the strongest certified true stand-off classical source with $C\approx23.5916$, approximately 17.9x more source-efficient than the current B7 field. The strict unrestricted N65 false-core $B=7,\eta=0.4,m=8$ Skyrmion remains the strongest actual microscopic field witness, but N73 convergence, full stability, nonlinear GR, and practical scaling remain unresolved. The completed Introspective raw approximately 17,230x teacher survives numerically but 024A3 proved approximately 97.65% of its gross outward force is positive-active far-side attraction, so it is retired as a true one-sided stand-off blueprint. 024A/024A1/024A1R showed that generalized sextic stress is constitutively possible but naturally misplaced on current B7 geometries; 024A2 falsified the tested explicit omega fixed-field successor; 024A3 falsified rigid isorotation as an efficiency improvement. 024A4's strict-source infeasibility was then shown by 024A4R to be primarily caused by the nonfundamental frozen Introspective density cap, requiring roughly 3.625–3.75x more density capacity in the known thin geometry; no corrected source beat 006D. Abstract source polishing should now stop. The next action is to rerank 006D microscopic realization versus 023C/023D completion versus Analogue Antigravity, with pure-GR $1/G$ energy scaling treated as a central practicality obstruction.
+
+
+### END NOTE - SEPTEMBER 1 2026 - 19:40 CST
+
+
+### BEGIN NOTE - SEPTEMBER 2 2026 - 11:40 CST
+
+# ANTIGRAVITY RESEARCH — COMPREHENSIVE SESSION CARRY-FORWARD NOTES
+
+**Date:** September 2, 2026
+**Session closeout frontier:** through `025B1`
+**Current knowledge/accomplishment heuristic:** approximately **70–71%**, explicitly **not a probability of success**
+**Practical antigravity device:** `NO`
+**New physics discovery:** `NO`
+**Strongest conservative global result:** `006D`
+**Strongest actual microscopic field stack:** false-core $B=7$, $\eta=0.4$, $m=8$ Skyrmion / `023BR` + strict unrestricted `023CR4R N=65`
+**Newest local matter witness:** `025A` Saturating Relativistic Hencky Solid
+**Newest realization obstruction:** `025B0/025B1` global material compatibility / extreme intrinsic geometry
+**Next scientific phase after documentation:** global rerank with **Analogue Antigravity activated in tandem**, while keeping `023C/023D`, deferred `025B2` general 2-D shear, and deferred `024D2` scalar stress transport as explicit fallback branches.
+
+---
+
+# 0. Purpose of these notes
+
+These notes are the comprehensive scientific handoff for the next research session.
+
+They are intended to prevent a future session from:
+
+* reconstructing the current state from chat history;
+* repeating falsified or superseded calculations;
+* confusing source-level optimization with field realization;
+* confusing local negative active density with finite-payload repulsion;
+* confusing local constitutive viability with a globally compatible material;
+* confusing a transient peak force with useful full-cycle impulse;
+* treating the raw Introspective teacher as a physical field;
+* returning to closed toroidal/portal/domain-wall variations;
+* overlooking the dominant pure-GR $1/G$ practicality barrier;
+* or continuing pure-GR source polishing after the project has already identified deeper realization and scaling bottlenecks.
+
+The next session should reconstruct state from these notes together with:
+
+```text
+RESEARCH_BUILDPLAN.md
+INTROSPECTIVE_BUILDPLAN.md
+FORMATTING_AND_CODE_STANDARDS.md
+latest codebundle
+latest journal entry
+README.md
+NOTES.MD / NOTES.md
+relevant 024–025 result summaries and logs
+```
+
+The current known-solution regression baseline is:
+
+```text
+94 passed
+```
+
+and remained green throughout the final `025A–025B1` sequence. The repaired final `025B1` run completed with `RUN_RC=0` and `DIFF_CHECK_RC=0`.
+
+---
+
+# 1. Absolute claim state at session close
+
+The strongest defensible conservative claim remains:
+
+> A finite, positive-energy, locally conserved, static source in linearized general relativity can produce a local outward gravitational field while satisfying the tested classical energy conditions and retaining positive far-field active mass.
+
+That is `006D`, with
+
+```math
+C_{006D}
+=
+23.591586299249.
+```
+
+The energy scaling remains
+
+```math
+E
+=
+C
+\frac{a c^2 h^2}{G}.
+```
+
+At $a=g$ and $h=1\ \mathrm{m}$, the coefficient-one scale is approximately
+
+```math
+\frac{g c^2}{G}
+\approx
+1.32\times10^{28}\ \mathrm{J}.
+```
+
+Therefore `006D` requires roughly
+
+```math
+E_{006D}
+\approx
+3.12\times10^{29}\ \mathrm{J}
+```
+
+for the normalized $1g$, $1\ \mathrm{m}$ example.
+
+This absolute scaling is now one of the most important facts governing branch selection. Reducing a dimensionless source coefficient by a factor of ten, one hundred, or even one thousand does **not** by itself make macroscopic pure-GR antigravity practical.
+
+Current essential claims:
+
+```text
+BEST_CERTIFIED_TRUE_STANDOFF_SOURCE=006D
+C_006D=23.591586299249
+
+PRACTICAL_ANTIGRAVITY_DEVICE=NO
+NEW_PHYSICS_DISCOVERY=NO
+
+NONLINEAR_EINSTEIN_MATTER_ANTIGRAVITY=NOT_ESTABLISHED
+FULL_STABLE_3D_ANTIGRAVITY_FIELD=NOT_ESTABLISHED
+
+CURRENT_KNOWLEDGE_HEURISTIC=APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY
+```
+
+---
+
+# 2. Important state inherited at the start of this session
+
+The work performed before the present session remains authoritative and must not be lost.
+
+## 2.1 `006B` and `006D`: spatial stress transfer is real and important
+
+The restricted thin `006B` architecture has
+
+```math
+C_{006B}
+=
+23.426710175391.
+```
+
+Its key stress architecture is:
+
+### Inner productive disk
+
+```math
+U=U_0,
+```
+
+```math
+p_r=-U_0,
+```
+
+```math
+p_\phi=-U_0.
+```
+
+Thus
+
+```math
+S
+=
+U+p_r+p_\phi
+=
+-U_0.
+```
+
+### Stress-transfer annulus
+
+For $a<r<R$,
+
+```math
+U
+=
+U_0\frac{a^2}{r^2},
+```
+
+```math
+p_r=-U,
+```
+
+```math
+p_\phi=+U.
+```
+
+Its active source is
+
+```math
+S=U.
+```
+
+The importance of the annulus is not that it creates negative active density. It transports the required radial tension outward while satisfying local static conservation.
+
+Indeed,
+
+```math
+\frac{dp_r}{dr}
++
+\frac{p_r-p_\phi}{r}
+=
+0.
+```
+
+For $p_r=-K/r^2$, $p_\phi=+K/r^2$,
+
+```math
+\frac{dp_r}{dr}
+=
+\frac{2K}{r^3},
+```
+
+while
+
+```math
+\frac{p_r-p_\phi}{r}
+=
+-\frac{2K}{r^3},
+```
+
+so conservation closes exactly.
+
+The minimum thin outer support has
+
+```math
+\lambda
+=
+\frac{U_0 a^2}{R}.
+```
+
+The optimized thin geometry is
+
+```text
+a/h = 1.437500564637
+R/h = 4.701437405300
+C = 23.426710175391
+```
+
+versus the simpler supported tension disk
+
+```math
+C_{005B}
+=
+79.753148116012.
+```
+
+Thus distributed stress transfer improved the restricted source coefficient by about $3.40\times$. This remains a permanent design lesson.
+
+`006D` then supplied the finite-thickness positive-energy conserved construction and remains the stronger claim class despite its slightly higher coefficient.
+
+---
+
+## 2.2 Strongest actual field witness remains the $B=7$ Skyrmion
+
+The current strongest microscopic field stack is still the false-core
+
+```text
+B=7
+eta=0.4
+m=8
+```
+
+Skyrmion.
+
+`023BR` established a promotion-grade rational-map robustness stack including:
+
+* topology;
+* positive total active mass;
+* negative enclosed active region;
+* pointwise DEC;
+* binary-fission margin;
+* outward finite-payload response across 320 rational-map orientations.
+
+`023CR4R` then obtained strict unrestricted discrete stationarity at $N=65$ while preserving topology, DEC, positive total active mass, and the negative enclosed active region.
+
+Still unresolved:
+
+```text
+STRICT_N73_STATIONARITY
+CONTINUOUS_FORCE_CONVERGENCE_AT_HIGH_RESOLUTION
+FULL_HESSIAN_STABILITY
+FULL_FISSION_STABILITY
+NONLINEAR_EINSTEIN_MATTER_CONTINUATION
+PRACTICAL_ENERGY_SCALING
+```
+
+The B7 field coefficient remains of order
+
+```text
+C_B7 ≈ 422.22207
+```
+
+so `006D` is about $17.9\times$ more source-efficient.
+
+---
+
+## 2.3 Introspective remains mechanism knowledge, not a field
+
+The completed Introspective program showed two distinct things.
+
+### Robust source-level headroom
+
+Independent conserved-DEC constructions established approximately
+
+```text
+12.8x–17.9x
+```
+
+source-level efficiency headroom relative to the current B7 field.
+
+### Raw teacher signal
+
+The finite-density relaxed teacher repeatedly produced a raw headroom around
+
+```text
+17,230x
+```
+
+relative to B7.
+
+This was independently reconstructed and survived provenance/regression auditing.
+
+However:
+
+```text
+RAW_GE1000X_SIGNAL=PRESENT
+
+CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO
+
+MICROSCOPIC_FIELD_REALIZATION=NO
+```
+
+The raw teacher failed its frozen continuum certificate and must never be promoted into a physical field claim.
+
+Additionally, the teacher's old interpretation as a strict one-sided stand-off blueprint is retired. Subsequent source decomposition showed that most of its gross outward force was associated with positive-active source on the favorable/far side of the payload rather than the negative-active mechanism one would need for a true source-below-payload stand-off device.
+
+The teacher remains useful for **mechanism anatomy**, not as a literal geometry to copy.
+
+Durable teacher lessons:
+
+```text
+COMPACT_PRODUCTIVE_REGION
+PAYLOAD_ADJACENCY
+HIGH_KERNEL_LEVERAGE
+STRONG_SPATIAL_STRESS
+LOW_CANCELLATION
+HIGH_PRODUCTIVE_PARTICIPATION
+PRODUCTIVE_STRUCTURE_SEPARATED_FROM_SCAFFOLDING
+```
+
+Roughly $19.7%$ of the teacher energy accounted for more than $92%$ of gross outward influence; cancellation was around $1.06$; spatial stress supplied a large fraction of the net response.
+
+---
+
+# 3. The antigravity conditions map established during this session
+
+One of the most important conceptual advances was to stop treating “antigravity” as one undifferentiated requirement.
+
+There are several distinct operational classes.
+
+## Class A — strict static stand-off GR
+
+All relevant source support is behind/below the payload and the payload accelerates away from it.
+
+`006D` belongs to this class.
+
+This is the strongest classical interpretation.
+
+## Class B — embedded or two-sided GR
+
+Source structure may surround, pass beyond, or lie on both sides of the payload.
+
+Positive active mass on the far side may pull the payload outward.
+
+This can produce a useful operational response but is not equivalent to strict one-sided repulsive gravity.
+
+The raw teacher largely falls into this broader category.
+
+## Class C — dynamic / pulsed GR
+
+A time-dependent conserved stress-energy configuration gives a net useful
+
+```math
+\Delta v
+=
+\int a(t)\,dt.
+```
+
+Formation, transport, collapse, reset, radiation, reaction momentum, and full cycle energy all matter.
+
+## Class D — operational analogue
+
+A non-gravitational or additional interaction causes neutral matter to accelerate in the desired direction with an operational effect similar to antigravity.
+
+This does not require literal curvature repulsion, but must satisfy complete reaction momentum, energy, empirical and universality constraints.
+
+This classification must remain explicit in all future work.
+
+---
+
+# 4. Mathematical proof: strict stand-off static GR requires negative active source somewhere
+
+For stationary weak-field GR define the active source
+
+```math
+S
+=
+T_{00}
++
+T_{xx}
++
+T_{yy}
++
+T_{zz}.
+```
+
+For type-I matter this is
+
+```math
+S
+=
+\rho
++
+p_1+p_2+p_3.
+```
+
+The weak-field potential obeys schematically
+
+```math
+\nabla^2\Phi
+=
+\frac{4\pi G}{c^2}S.
+```
+
+The finite-payload acceleration is a spatially kernel-weighted integral of $S$.
+
+For a payload entirely above a source whose support lies entirely in $z\le0$, the vertical Newtonian/linearized-GR kernel has one fixed sign: positive active source below the payload attracts it downward.
+
+Therefore if
+
+```math
+S(\mathbf x)\ge0
+```
+
+everywhere in a strict one-sided source, the axial response cannot be outward.
+
+Thus:
+
+```math
+\boxed{
+\text{Strict static stand-off outward gravity requires }S<0
+\text{ somewhere, or some stated assumption must be abandoned.}
+}
+```
+
+Negative **energy density** is not required. Negative **active density** is sufficient locally and can coexist with $\rho>0$ when sufficiently negative stresses are present.
+
+This distinction remains central:
+
+```text
+NEGATIVE_ENERGY_DENSITY != NEGATIVE_ACTIVE_DENSITY
+NEGATIVE_ACTIVE_DENSITY != FINITE_PAYLOAD_REPULSION
+```
+
+---
+
+# 5. Mathematical proof: type-I DEC limits negative active source
+
+For type-I matter satisfying the dominant energy condition,
+
+```math
+|p_i|
+\le
+\rho.
+```
+
+Therefore each pressure obeys
+
+```math
+p_i\ge-\rho.
+```
+
+Hence
+
+```math
+S
+=
+\rho+p_1+p_2+p_3
+\ge
+\rho-3\rho
+=
+-2\rho.
+```
+
+Thus
+
+```math
+\boxed{
+-\frac{S}{\rho}
+\le
+2.
+}
+```
+
+This is the local DEC negative-active ceiling.
+
+Similarly,
+
+```math
+p_1+p_2+p_3
+\le
+3\rho,
+```
+
+so
+
+```math
+S\le4\rho.
+```
+
+Therefore type-I DEC permits
+
+```math
+-2
+\le
+\frac{S}{\rho}
+\le
+4.
+```
+
+In the normalized strict stand-off source class where the positive kernel is bounded by unity,
+
+```math
+A
+=
+-\int S K\,dV
+\le
+2\int\rho K\,dV
+\le
+2E.
+```
+
+Therefore
+
+```math
+C
+=
+\frac{E}{A}
+\ge
+\frac12.
+```
+
+The project must interpret this carefully:
+
+```text
+STRICT_STANDOFF_TYPE_I_DEC_LOWER_BOUND_C=1/2
+
+ATTAINABILITY_OF_C_EQUALS_1/2=NOT_ESTABLISHED
+```
+
+It is a lower bound in the normalized source class, not a claim that a physical material can reach it.
+
+---
+
+# 6. Session branch `024B`: dynamic virial / pulse rerank
+
+`024B` asked whether transient stress engineering could avoid the severe static support penalty.
+
+The answer was partially encouraging at the relaxed source level but ultimately negative for the tested physical wall family.
+
+## 6.1 Mathematical proof: closed-cycle virial compensation
+
+For an isolated conserved symmetric stress tensor,
+
+```math
+\partial_\mu T^{\mu\nu}=0.
+```
+
+Define the second energy moment
+
+```math
+I_{ij}
+=
+\int
+x_i x_j T^{00}\,d^3x.
+```
+
+Using conservation and dropping vanishing boundary fluxes,
+
+```math
+\frac{dI_{ij}}{dt}
+=
+\int
+\left(
+x_i T^{0j}
++
+x_j T^{0i}
+\right)d^3x.
+```
+
+Differentiating again gives
+
+```math
+\boxed{
+\frac{d^2 I_{ij}}{dt^2}
+=
+2\int T^{ij}\,d^3x.
+}
+```
+
+For a closed cycle returning to the same macroscopic state and first derivative,
+
+```math
+\dot I_{ij}(T)
+=
+\dot I_{ij}(0),
+```
+
+so
+
+```math
+\int_0^Tdt
+\int T^{ij}\,d^3x
+=
+0.
+```
+
+Taking the trace,
+
+```math
+\boxed{
+\int_0^Tdt
+\int
+(T^{xx}+T^{yy}+T^{zz})\,d^3x
+=
+0.
+}
+```
+
+This means a cyclic source cannot obtain a negative-stress phase for free. A compensating positive-stress phase must exist somewhere in the full cycle.
+
+The possible loophole is **spatiotemporal kernel rectification**:
+
+* place the useful negative stress where the payload kernel is large;
+* place the compensating positive stress where the kernel is small.
+
+That became the key dynamic design principle.
+
+A static source multiplied by an arbitrary time envelope is **not** a valid conserved pulse solution.
+
+---
+
+# 7. Mathematical proof: canonical scalar active source
+
+For a canonical real scalar,
+
+```math
+\rho
+=
+\frac12\dot\phi^2
++
+\frac12|\nabla\phi|^2
++
+V.
+```
+
+The summed principal pressures are
+
+```math
+p_x+p_y+p_z
+=
+\frac32\dot\phi^2
+-
+\frac12|\nabla\phi|^2
+-
+3V.
+```
+
+Therefore
+
+```math
+S
+=
+\rho+p_x+p_y+p_z
+```
+
+becomes
+
+```math
+\boxed{
+S
+=
+2\dot\phi^2
+-
+2V.
+}
+```
+
+The spatial-gradient contribution cancels exactly from the active source.
+
+Therefore:
+
+```text
+POTENTIAL_DOMINATED_PHASE -> NEGATIVE_ACTIVE_SOURCE
+KINETIC_DOMINATED_PHASE -> POSITIVE_ACTIVE_RESET
+```
+
+This identity became the basis of the later stress-state transport models.
+
+`024B` verified this and found that a relaxed spatiotemporal rectifier could reach source-level $C=2$ at one idealized setting, while the thin domain-wall throughput optimum was
+
+```math
+C
+\approx
+2.11803398875.
+```
+
+Neither was a conserved microscopic field solution.
+
+---
+
+# 8. `024B1–024B3`: pulse branch closeout
+
+## `024B1`
+
+Natural outer-edge collapse failed.
+
+A held-rim center-out hole gave an initially interesting relaxed target with source-level
+
+```math
+C
+\approx
+1.92734,
+```
+
+but the external rim stabilization energy/stress had not yet been included.
+
+A freely evolving two-boundary annulus produced no useful positive full-cycle response in the tested class.
+
+## `024B2`
+
+Including the minimum physical stationary DEC support killed the held-rim loophole.
+
+The support gravity was inward and larger than the apparent wall gain.
+
+The corrected reference became inward.
+
+An optimistic annular calculation reproduced
+
+```math
+C
+\approx
+79.753234,
+```
+
+essentially the `005B` supported-tension result.
+
+This was not a generic vorton no-go; it closed the tested stationary rim-support loophole.
+
+## `024B3`
+
+A large free annular wall-pulse scan tested 16,384 requested cases.
+
+Results:
+
+```text
+CLOSED_POSITIVE_ETA_CASES=0
+CLOSED_POSITIVE_INSTANTANEOUS_CASES=0
+ENERGY_CONSERVATION_RELATIVE_ERROR < 7.45e-15
+```
+
+Decision:
+
+```text
+FREE_OUTWARD_ANNULAR_WALL_PULSE=
+RED_IN_TESTED_NAMBU_GOTO_CLASS
+
+PURE_GR_DOMAIN_WALL_PULSE_FAMILY=
+PAUSED
+
+PULSE_MICROSCOPIC_PDE_AUTHORIZED=
+NO
+```
+
+## Durable pulse lesson
+
+Any future pulse must report:
+
+```text
+FORMATION
+T0I_TRANSPORT
+TIJ
+COLLAPSE_OR_RETURN
+REACTION_MOMENTUM
+RADIATION
+RESET
+FULL_CYCLE_DELTA_V
+TOTAL_CYCLE_ENERGY
+REPETITION_RATE
+LOSSES
+```
+
+and must not claim success from peak acceleration alone.
+
+Most importantly,
+
+```text
+PULSE_REMOVES_1_OVER_G_SCALING=NO
+```
+
+for the tested pure-GR routes.
+
+---
+
+# 9. `024C / 024C1`: static teacher-guided stress lenses
+
+The project next asked whether the Introspective design principles could produce a better strict one-sided static source without requiring a microscopic field yet.
+
+## `024C`
+
+The source was constrained to lie strictly below the target plane.
+
+Refined coefficients:
+
+```text
+MEDIUM:
+C=38.3223910871
+
+HIGH:
+C=33.8332520842
+
+CONSERVATIVE:
+C=38.3223910871
+```
+
+Thus it did not beat `006D`.
+
+The independent vector-force reconstruction passed to approximately
+
+```text
+5.9e-11
+```
+
+relative error.
+
+At an aperture radius of $0.5h$ all axial sentinels remained outward, but:
+
+```text
+FLATNESS ≈ 12.08%
+MAX_TRANSVERSE_FRACTION ≈ 57.4%
+```
+
+so the planar working-region gate failed.
+
+### Stress anatomy
+
+The selected source decomposed approximately into:
+
+```text
+A_rho = -3.17778
+A_stress = +4.17778
+net = +1
+```
+
+Thus ordinary energy density by itself attracted the payload; spatial stresses supplied more than the entire net outward response and overcame the energy attraction.
+
+This was an important result:
+
+```math
+\boxed{
+\text{Useful conservative antigravity can be stress-dominated rather than negative-energy dominated.}
+}
+```
+
+Cancellation was about
+
+```text
+3.43
+```
+
+and roughly $21.6%$ of energy accounted for 90% of the selected force concentration.
+
+Burial/vertical routing gave only modest leverage, of order $\sim8%$ in the relevant decomposition. Therefore merely burying compensating support deeper was not sufficient.
+
+Decision:
+
+```text
+024C=RED
+```
+
+for beating `006D`.
+
+## `024C1`
+
+An intuitive top-face + side-guard + buried-backplane stress sandwich was tested.
+
+Some point-payload configurations existed around
+
+```text
+C ≈ 75–82
+```
+
+but no physically selected planar configuration passed the required working-region gate.
+
+Decision:
+
+```text
+RED_INTUITIVE_SANDWICH_NO_PLANAR_FEASIBLE_SCOUT
+```
+
+Hand-designed static source geometry scans should remain stopped unless a genuinely new conservation or constitutive mechanism is introduced.
+
+---
+
+# 10. `024D`: counterrotation, spin, and stress conversion
+
+The two-counterrotating-toroid idea was tested seriously rather than dismissed.
+
+The key discovery was that **spin/counterrotation itself is not the useful mechanism**.
+
+## 10.1 Mathematical result: counterrotation cancels momentum but not stress
+
+For two equal streams moving oppositely,
+
+```math
+T^{0i}_{(+)}
++
+T^{0i}_{(-)}
+=
+0.
+```
+
+The momentum density cancels.
+
+But the spatial stress is quadratic in velocity:
+
+```math
+T^{ij}
+\propto
+v_i v_j.
+```
+
+Since
+
+```math
+(-v_i)(-v_j)
+=
+v_i v_j,
+```
+
+the spatial stresses add rather than cancel.
+
+Thus:
+
+```text
+COUNTERROTATION_CANCELS_T0I=YES
+COUNTERROTATION_CANCELS_TIJ=NO
+```
+
+For the simplified stream model, tangential pressure scales as
+
+```math
+p_{\rm tangent}
+\sim
+\beta^2 E_{\rm packet}.
+```
+
+A DEC-compatible guide/support sector has an energy burden of at least the same order.
+
+Therefore opposite circulation is not a source of free stress.
+
+---
+
+# 11. Mathematical result: pure Maxwell circulation cannot provide negative active source
+
+The electromagnetic stress tensor is traceless:
+
+```math
+T^\mu_{\ \mu}=0.
+```
+
+With signature $(-,+,+,+)$,
+
+```math
+-\rho+p_1+p_2+p_3=0,
+```
+
+so
+
+```math
+p_1+p_2+p_3=\rho.
+```
+
+Therefore
+
+```math
+\boxed{
+S
+=
+\rho+p_1+p_2+p_3
+=
+2\rho>0.
+}
+```
+
+Pure linear Maxwell stress cannot supply the negative active source required for strict stand-off repulsion.
+
+Thus:
+
+```text
+PURE_LINEAR_EM_COUNTERROTATION=RED
+```
+
+in this mechanism class.
+
+---
+
+# 12. `024D` numerical result: stress conversion, not spin, had headroom
+
+The large low-discrepancy campaign tested several families.
+
+The strongest relaxed canonical-scalar transport result was
+
+```math
+C_{\rm 024D,scalar}
+=
+6.610457607426174.
+```
+
+This was far below `006D` at the **effective source-cycle level**.
+
+Selected parameters included a low transport speed,
+
+```text
+beta ≈ 0.116,
+```
+
+and a broad interaction window.
+
+A hypothetical 25% loss still gave
+
+```text
+C ≈ 8.81.
+```
+
+However:
+
+```text
+MICROSCOPIC_FIELD_REALIZATION=NO
+FULL_DYNAMIC_LOCAL_T_MUNU_CONSERVATION=NOT_ESTABLISHED
+FULL_STABILITY=NO
+NONLINEAR_GR=NO
+```
+
+The spin-speed audit was decisive: once the mechanism was constrained so that stress conversion actually depended on physically available kinetic/spin energy, the advantage disappeared.
+
+The strongest lesson was:
+
+```text
+STRESS_CONVERSION_IS_PROMISING
+SPIN_IS_NOT_THE_DRIVER
+```
+
+---
+
+# 13. `024D1R`: kernel-adaptive orbit repair
+
+The first orbit model incorrectly assumed that the geometric top of a torus was the location of maximum gravitational kernel.
+
+`024D1R` repaired this.
+
+For an on-axis payload the axial kernel along an internal orbit has the form
+
+```math
+K
+=
+\frac{1-z}
+{
+\left[
+\rho^2+(1-z)^2
+\right]^{3/2}
+}.
+```
+
+## 13.1 Mathematical proof: pure toroidal motion cannot rectify the kernel
+
+For a purely toroidal orbit at fixed $\rho$ and $z$,
+
+```math
+\rho=\mathrm{constant},
+```
+
+```math
+z=\mathrm{constant}.
+```
+
+Therefore
+
+```math
+K=\mathrm{constant}
+```
+
+around the entire orbit.
+
+A negative conversion phase and its required positive reset phase then operate at the same kernel and the virial compensation cannot be spatially rectified.
+
+Therefore:
+
+```math
+\boxed{
+\text{Pure toroidal transport is exactly RED for this on-axis rectification mechanism.}
+}
+```
+
+Poloidal displacement is what changes the gravitational kernel.
+
+---
+
+## 13.2 Fenchel theorem correction
+
+For a closed space curve,
+
+```math
+\oint \kappa\,ds
+\ge
+2\pi.
+```
+
+This is Fenchel's theorem.
+
+An earlier heuristic interpretation treated this as though it directly implied a support energy proportional to total curvature.
+
+That implication is **not** a theorem.
+
+Therefore `024D1R` explicitly separated:
+
+```text
+EXACT_GEOMETRIC_BOUND:
+integral kappa ds >= 2pi
+
+FROM
+
+HEURISTIC_ENGINEERING_PROXY:
+support energy proportional to curvature
+```
+
+This distinction must remain preserved.
+
+---
+
+## 13.3 `024D1R` result
+
+With finite contiguous interaction/reset windows, the strongest scalar DEC-floor no-spin result was
+
+```math
+C
+\approx
+19.046178.
+```
+
+An independent reconstruction agreed at approximately $10^{-8}$ relative scale.
+
+The selected orbit was essentially pure poloidal winding `(0,1)`.
+
+Interaction/reset duties were approximately:
+
+```text
+interaction = 0.5412
+reset = 0.4538
+```
+
+so nearly the entire cycle participated.
+
+This is not a sparse “collision” mechanism.
+
+It is better interpreted as:
+
+> a closed stress-state conveyor that carries a field through high-kernel and low-kernel regions.
+
+Kinetic-limited no-spin and spin variants did not retain a positive advantage.
+
+Final durable statement:
+
+```text
+THE_ORBIT_MATTERS_BECAUSE_IT_TRANSPORTS_STRESS_STATES_THROUGH_DIFFERENT_GRAVITATIONAL_KERNELS_NOT_BECAUSE_ENERGY_SPINS_FAST
+```
+
+Decision:
+
+```text
+024D1R=
+YELLOW_KERNEL_ADAPTIVE_SCALAR_ORBIT_HEADROOM_KINETIC_DRIVER_NOT_PROMOTED
+```
+
+`024D2`, a minimal canonical-scalar poloidal transport field preflight, remains a theoretically interesting deferred branch, but is no longer the automatic next action after the later global rerank.
+
+---
+
+# 14. `024E`: non-colliding dual-toroid close-pass portal
+
+The close-pass idea was then tested as two distinct scalar fields whose orbits pass near one another without centerline collision.
+
+Use a healthy positive portal
+
+```math
+V_{\rm int}
+=
+g|\Phi|^2|\Chi|^2.
+```
+
+## 14.1 Mathematical proof: portal potential saturates the DEC negative-active limit
+
+A positive local potential contributes
+
+```math
+\rho_{\rm int}
+=
++V_{\rm int},
+```
+
+and
+
+```math
+p_x=p_y=p_z=-V_{\rm int}.
+```
+
+Thus
+
+```math
+S_{\rm int}
+=
+V_{\rm int}
+-
+3V_{\rm int}
+=
+-2V_{\rm int}.
+```
+
+Therefore
+
+```math
+\boxed{
+-\frac{S_{\rm int}}{\rho_{\rm int}}
+=
+2.
+}
+```
+
+The portal exactly saturates the type-I DEC negative-active bound.
+
+This is crucial:
+
+> Failure of the portal route cannot be fixed merely by asking for a locally “more negative” healthy type-I DEC potential sector. Locally, it is already at the bound.
+
+The remaining levers are:
+
+```text
+PARTICIPATION
+KERNEL_PLACEMENT
+TOTAL_SUPPORT_OVERHEAD
+```
+
+---
+
+# 15. `024E` result
+
+The campaign evaluated over two million strict directional cases.
+
+No strict positive survivor was found at the perturbative coupling ceiling.
+
+For the best candidate the required portal coupling to beat `006D` was around
+
+```text
+g_required ≈ 1.79e4
+```
+
+while the generous perturbative ceiling was
+
+```math
+4\pi
+\approx
+12.57.
+```
+
+Geometry/kernel leverage was favorable, but the interaction energy represented too small a fraction of the total inventory.
+
+The route was strongly demoted.
+
+---
+
+# 16. `024E1`: final Introspective-guided close-pass rescue
+
+`024E1` gave the close-pass idea its strongest fair rescue.
+
+Instead of spherical packets, anisotropic compact packets were allowed to broaden horizontally while remaining thin vertically.
+
+The campaign contained
+
+```text
+524,288 morphologies
+x 2 inequivalent throat direction classes
+=
+1,048,576 kinematic cases.
+```
+
+The spherical predecessor was independently reconstructed first.
+
+## Key results
+
+Maximum strict peak portal participation:
+
+```math
+f_{\rm peak}
+=
+1.18388\times10^{-3}
+\approx
+0.118\%.
+```
+
+Maximum strict cycle participation:
+
+```math
+f_{\rm cycle}
+=
+5.3583\times10^{-5}
+\approx
+0.00536\%.
+```
+
+Relative to the roughly $19.7%$ productive-energy reference from Introspective,
+
+```math
+\frac{f_{\rm peak}}{0.197}
+\approx
+0.00601.
+```
+
+Thus the best peak overlap achieved only roughly **0.6% of the teacher-like productive participation scale**.
+
+Worse, the anisotropic rescue reduced peak participation relative to the previous spherical close-pass best:
+
+```text
+PARTICIPATION_FACTOR_VS_024E_BEST
+≈
+0.1897
+```
+
+or about a $5.3\times$ decrease.
+
+The coupling required to beat `006D` in the actual routing became
+
+```math
+g
+\approx
+3.81\times10^5,
+```
+
+while even the deliberately over-favorable teacher-routing ceiling required
+
+```math
+g
+\approx
+1.67\times10^5.
+```
+
+Both are enormous compared with $4\pi$.
+
+Yet cancellation was excellent:
+
+```text
+cancellation ≈ 1.00035
+```
+
+and the kernel leverage was also strong:
+
+```text
+K_U ≈ 0.4227
+K_G ≈ 0.0913
+K_O ≈ 0.01618
+```
+
+Therefore the failure was cleanly isolated.
+
+It was **not primarily cancellation**.
+
+It was **not primarily kernel placement**.
+
+It was:
+
+```math
+\boxed{
+\text{insufficient productive interaction participation per total field energy.}
+}
+```
+
+No loose dense-core-overlap rescue survived either.
+
+Final decision:
+
+```text
+024E_CLOSE_PASS_BRANCH=CLOSED
+DO_NOT_RUN_ANOTHER_CLOSE_PASS_PROFILE_SCAN=YES
+```
+
+---
+
+# 17. Major design principle added this session: participation is an independent constraint
+
+Before `024E1`, the project already knew that:
+
+* correct sign is insufficient;
+* kernel placement matters;
+* cancellation matters.
+
+`024E1` established another independent bottleneck:
+
+```math
+\boxed{
+\text{A locally optimal stress mechanism is useless if too little of total energy participates in it.}
+}
+```
+
+A useful design must simultaneously achieve:
+
+```text
+STRONG_LOCAL_STRESS_RESPONSE
+HIGH_PRODUCTIVE_PARTICIPATION
+HIGH_KERNEL_LEVERAGE
+LOW_CANCELLATION
+LOW_SUPPORT_OVERHEAD
+```
+
+Optimizing any one of these alone is insufficient.
+
+---
+
+# 18. Project reset: derive conditions before inventing more models
+
+At this point the project deliberately stepped back and formulated the necessary-conditions map.
+
+The resulting realization ladder is now:
+
+```text
+1. CORRECT LOCAL STRESS SIGN / MAGNITUDE
+
+2. FAVORABLE SOURCE-PAYLOAD SIDEDNESS
+
+3. LARGE PRODUCTIVE PARTICIPATION
+
+4. HIGH KERNEL LEVERAGE
+
+5. LOW-KERNEL COMPENSATION / SUPPORT
+
+6. LOW CANCELLATION
+
+7. LOCAL STRESS-ENERGY CONSERVATION
+
+8. ACTUAL MICROSCOPIC OR MATERIAL FIELD LAW
+
+9. GLOBAL FIELD / DEFORMATION COMPATIBILITY
+
+10. STATIONARITY OR COMPLETE DYNAMIC CYCLE
+
+11. CAUSALITY / HYPERBOLICITY
+
+12. STABILITY
+
+13. FINITE THICKNESS / INTERFACES / SUPPORT COMPLETION
+
+14. NONLINEAR EINSTEIN-MATTER CONTINUATION
+
+15. ABSOLUTE ENERGY SCALING
+
+16. EMPIRICAL / TECHNOLOGICAL REALIZABILITY
+```
+
+A candidate does not advance merely by satisfying a late-stage mathematical condition in isolation.
+
+---
+
+# 19. `025A`: Saturating Relativistic Hencky Solid
+
+After leaving the previous model families behind, the project attacked the matter-realization problem directly.
+
+Instead of prescribing $T_{\mu\nu}$, we proposed a covariant relativistic hyperelastic continuum in terms of material-coordinate fields.
+
+The project-derived stored-energy law is
+
+```math
+\rho
+=
+\rho_\star(\Phi)
+\exp
+\left[
+\sum_i y_i
++
+\frac1k
+\sum_i
+\ln\cosh(ky_i)
+\right],
+```
+
+where
+
+```math
+y_i
+=
+\ln\left(\frac{n_i}{n_{i0}}\right)
+```
+
+are principal logarithmic material-density strains.
+
+This is a **candidate continuum EFT constitutive law**, not a known microscopic material.
+
+---
+
+# 20. Mathematical proof: exact pressure law of the Hencky candidate
+
+For hyperelastic matter,
+
+```math
+\rho+p_i
+=
+\frac{\partial\rho}{\partial y_i}.
+```
+
+From the proposed stored energy,
+
+```math
+\ln\rho
+=
+\ln\rho_\star
++
+\sum_j y_j
++
+\frac1k
+\sum_j\ln\cosh(ky_j).
+```
+
+Differentiate:
+
+```math
+\frac{\partial\ln\rho}{\partial y_i}
+=
+1
++
+\tanh(ky_i).
+```
+
+Therefore
+
+```math
+\frac{1}{\rho}
+\frac{\partial\rho}{\partial y_i}
+=
+1+\tanh(ky_i).
+```
+
+Using
+
+```math
+\rho+p_i
+=
+\frac{\partial\rho}{\partial y_i},
+```
+
+we obtain
+
+```math
+1+\frac{p_i}{\rho}
+=
+1+\tanh(ky_i),
+```
+
+hence
+
+```math
+\boxed{
+\frac{p_i}{\rho}
+=
+\tanh(ky_i).
+}
+```
+
+This is the key exact constitutive identity.
+
+---
+
+# 21. Consequences: positive energy and local DEC are built in
+
+The exponential stored energy guarantees
+
+```math
+\rho>0.
+```
+
+At every finite $y_i$,
+
+```math
+|\tanh(ky_i)|<1.
+```
+
+Therefore
+
+```math
+|p_i|<\rho.
+```
+
+Thus the local type-I dominant energy condition is automatically satisfied at all finite strains in the declared model.
+
+WEC and NEC then follow locally as well.
+
+This is materially stronger than numerically fitting an arbitrary stress tensor and checking DEC after the fact.
+
+---
+
+# 22. Mathematical proof: log-strain convexity
+
+Differentiate again:
+
+```math
+\frac{\partial^2\ln\rho}
+{
+\partial y_i\partial y_j
+}
+=
+k
+\operatorname{sech}^2(ky_i)
+\delta_{ij}.
+```
+
+For $k>0$,
+
+```math
+k\operatorname{sech}^2(ky_i)
+\ge0.
+```
+
+Therefore the logarithm of the stored energy is convex in the principal logarithmic strain variables.
+
+This was a useful local constitutive-health property but is **not by itself a proof of complete global elastic stability**.
+
+---
+
+# 23. Mathematical proof: principal longitudinal characteristic speed
+
+For the declared relativistic elastic model, the principal longitudinal mode satisfies
+
+```math
+c_{L,i}^2
+=
+\frac{
+\rho_{,ii}-\rho_{,i}
+}
+{
+\rho_{,i}
+}.
+```
+
+Let
+
+```math
+w
+=
+\tanh(ky_i)
+=
+\frac{p_i}{\rho}.
+```
+
+Then
+
+```math
+\rho_{,i}
+=
+\rho(1+w).
+```
+
+Also,
+
+```math
+w_{,i}
+=
+k(1-w^2).
+```
+
+Therefore
+
+```math
+\rho_{,ii}
+=
+\rho(1+w)^2
++
+\rho k(1-w^2).
+```
+
+Then
+
+```math
+\rho_{,ii}-\rho_{,i}
+=
+\rho
+\left[
+(1+w)^2-(1+w)+k(1-w^2)
+\right].
+```
+
+Factor $1+w$:
+
+```math
+=
+\rho(1+w)
+\left[
+w+k(1-w)
+\right].
+```
+
+Divide by $\rho_{,i}=\rho(1+w)$:
+
+```math
+\boxed{
+c_{L,i}^2
+=
+k+(1-k)w
+=
+k+(1-k)\frac{p_i}{\rho}.
+}
+```
+
+For
+
+```math
+\frac12
+\le
+k
+<
+1
+```
+
+and finite DEC states
+
+```math
+-1<w<1,
+```
+
+the principal longitudinal speed remains nonnegative and below light speed.
+
+At the isotropic reference state:
+
+```math
+c_L^2=k,
+```
+
+and the small-strain transverse result is
+
+```math
+c_T^2=\frac{k}{2}.
+```
+
+This was later tested more aggressively in `025B0`.
+
+---
+
+# 24. Exact state-energy factors of the Hencky law
+
+For one principal stress ratio
+
+```math
+w
+=
+\tanh(ky),
+```
+
+we have
+
+```math
+y
+=
+\frac{\operatorname{atanh}(w)}{k}.
+```
+
+Using
+
+```math
+e^y
+\cosh(ky)^{1/k},
+```
+
+one obtains
+
+```math
+\boxed{
+\frac{\rho}{\rho_\star}
+=
+(1-w)^{-1/k}
+}
+```
+
+for one activated principal direction.
+
+Therefore the useful source states have exact factors.
+
+## Core
+
+For
+
+```math
+(p_r,p_\phi,p_z)
+=
+(-t\rho,-t\rho,0),
+```
+
+```math
+\boxed{
+\frac{\rho_{\rm core}}{\rho_{\star,\rm core}}
+=
+(1+t)^{-2/k}.
+}
+```
+
+## Transfer annulus
+
+For
+
+```math
+(p_r,p_\phi,p_z)
+=
+(-q\rho,+q\rho,0),
+```
+
+```math
+\boxed{
+\frac{\rho_{\rm ann}}{\rho_{\star,\rm ann}}
+=
+(1-q^2)^{-1/k}.
+}
+```
+
+## Support
+
+For one positive support stress ratio $s$,
+
+```math
+\boxed{
+\frac{\rho_{\rm support}}{\rho_{\star,\rm support}}
+=
+(1-s)^{-1/k}.
+}
+```
+
+These identities became crucial in `025B1`.
+
+---
+
+# 25. Generalized 006B architecture in the Hencky material
+
+`025A` generalized the 006B stress transformer using finite stress ratios.
+
+Core:
+
+```math
+p_r=p_\phi=-tU_0.
+```
+
+Annulus:
+
+```math
+\rho
+=
+\frac{t}{q}
+U_0
+\frac{a^2}{r^2},
+```
+
+```math
+p_r
+=
+-tU_0\frac{a^2}{r^2},
+```
+
+```math
+p_\phi
+=
++tU_0\frac{a^2}{r^2}.
+```
+
+Outer support:
+
+```math
+\lambda
+=
+\frac{
+tU_0a^2
+}{
+sR
+}.
+```
+
+At
+
+```math
+t=q=s=1
+```
+
+the construction reduces exactly to the established `006B` ideal thin stress architecture.
+
+The `006B` coefficient was independently reproduced to relative error
+
+```text
+3.49e-15
+```
+
+inside `025A`.
+
+---
+
+# 26. `025A` numerical result
+
+The full campaign used
+
+```text
+2^20 = 1,048,576
+```
+
+joint material/geometry cases.
+
+Results included:
+
+```text
+OUTWARD_CAUSAL_CASES=516453
+CASES_BEATING_006D_FINITE_COEFFICIENT=284
+CASES_BEATING_006B_THIN_COEFFICIENT=0
+```
+
+The important strain frontier was:
+
+```text
+max |y| <= 1.0 : C ≈ 95.76
+max |y| <= 1.5 : C ≈ 36.71
+max |y| <= 2.0 : C ≈ 27.60
+max |y| <= 2.5 : C ≈ 24.93
+max |y| <= 3.0 : C ≈ 23.99
+max |y| <= 3.5 : C ≈ 23.64
+max |y| <= 4.0 : C ≈ 23.51
+max |y| <= 5.0 : C ≈ 23.44
+```
+
+The selected cap-4 thin candidate was approximately
+
+```math
+C_{025A}
+=
+23.51038455.
+```
+
+Its independent finite spherical-payload reconstruction was approximately
+
+```math
+C_{\rm payload}
+=
+23.51058,
+```
+
+and all sampled payload points remained outward.
+
+This slightly beat the `006D` coefficient numerically, but:
+
+```text
+SUPERSEDES_006D_CLAIM_CLASS=NO
+```
+
+because `025A` remained an idealized thin-source constitutive preflight, not a finite globally compatible material.
+
+Its selected stress ratios were extreme:
+
+```text
+t ≈ 0.998998
+q ≈ 0.998999
+s ≈ 0.998984
+```
+
+and the intrinsic material grading was approximately
+
+```math
+\frac{
+\rho_{\star,\rm ann}
+}{
+\rho_{\star,\rm core}
+}
+\approx
+3.36\times10^{-4},
+```
+
+roughly a $3000:1$ contrast.
+
+`025A` therefore established:
+
+```text
+LOCAL_MATTER_LAW_WITNESS=YES
+
+GLOBAL_MATERIAL_REALIZATION=NO
+```
+
+---
+
+# 27. `025B0`: exact global radial compatibility test
+
+`025A` allowed each principal stress state locally.
+
+`025B0` asked whether one ordinary elastic body could realize all those states simultaneously.
+
+For an ordinary axisymmetric Euclidean-reference radial material map
+
+```math
+X=X(r),
+```
+
+the principal material densities are
+
+```math
+n_r
+=
+\frac{dX}{dr},
+```
+
+```math
+n_\phi
+=
+\frac{X}{r}.
+```
+
+Therefore
+
+```math
+y_r
+=
+\ln\frac{dX}{dr},
+```
+
+```math
+y_\phi
+=
+\ln\frac{X}{r}.
+```
+
+Define
+
+```math
+g(r)
+=
+\ln\frac{X}{r}.
+```
+
+Then
+
+```math
+X
+=
+r e^g.
+```
+
+Differentiate:
+
+```math
+\frac{dX}{dr}
+=
+e^g(1+rg').
+```
+
+Thus
+
+```math
+\boxed{
+y_\phi=g,
+}
+```
+
+and
+
+```math
+\boxed{
+y_r
+=
+g+\ln(1+rg').
+}
+```
+
+Orientation preservation requires
+
+```math
+1+rg'>0.
+```
+
+This exact compatibility identity was the central `025B0` result.
+
+---
+
+# 28. Mathematical proof: the piecewise 025A target is incompatible with a continuous ordinary radial map
+
+The selected core wants
+
+```math
+y_\phi
+\approx
+-4,
+```
+
+hence
+
+```math
+\frac{X}{r}
+\approx
+e^{-4}
+\approx
+0.01832.
+```
+
+The transfer annulus wants
+
+```math
+y_\phi
+\approx
++4,
+```
+
+hence
+
+```math
+\frac{X}{r}
+\approx
+e^{4}
+\approx
+54.59.
+```
+
+The required interface ratio is
+
+```math
+\frac{
+(X/r)_{\rm ann}
+}{
+(X/r)_{\rm core}
+}
+\approx
+2.979\times10^3.
+```
+
+But $X/r$ is continuous for a continuous deformation at nonzero $r$.
+
+Therefore the exact piecewise target cannot be realized by one continuous ordinary radial map.
+
+Furthermore, suppose $g$ smoothly rises from negative to positive.
+
+At an upward zero crossing,
+
+```math
+g=0,
+```
+
+and generically
+
+```math
+g'>0.
+```
+
+Then
+
+```math
+y_r
+=
+\ln(1+rg')
+>
+0.
+```
+
+So the transition necessarily develops **radial compression**, whereas the ideal stress-transfer annulus demands radial tension.
+
+Thus:
+
+```math
+\boxed{
+\text{The direct diagonal 006B/025A radial stress transformer is incompatible with an ordinary Euclidean-reference radial solid.}
+}
+```
+
+This is not a theorem against every 2-D elastic map.
+
+---
+
+# 29. Compatible radial equilibrium identity
+
+For an axisymmetric thin solid,
+
+```math
+\frac{dp_r}{dr}
++
+\frac{p_r-p_\phi}{r}
+=
+0.
+```
+
+Define
+
+```math
+w_r
+=
+\frac{p_r}{\rho},
+```
+
+```math
+w_\phi
+=
+\frac{p_\phi}{\rho}.
+```
+
+For sign-definite radial tension let
+
+```math
+p_r=-P,
+```
+
+with $P>0$.
+
+Then
+
+```math
+\boxed{
+\frac{d\ln P}{d\ln r}
+=
+-1+\frac{w_\phi}{w_r}.
+}
+```
+
+`025B0` used this to reconstruct the stress magnitude from the compatible deformation rather than prescribing the desired $1/r^2$ source by hand.
+
+This is why the compatibility test was physically stronger than `025A`.
+
+---
+
+# 30. `025B0` full arbitrary-direction acoustic cone
+
+`025B0` also repaired the remaining local stability gap from `025A`.
+
+It reconstructed the relativistic Hadamard elasticity tensor and solved the generalized characteristic equation
+
+```math
+\left[
+v^2(\rho h^{ac}+p^{ac})
+-
+Q^{ac}
+\right]\iota_c
+=
+0,
+```
+
+where
+
+```math
+Q^{ac}
+=
+A^{abcd}\nu_b\nu_d.
+```
+
+The implementation was validated at zero strain and against the analytic principal longitudinal formula.
+
+The full selected-state direction scan found no negative and no superluminal characteristic eigenvalues.
+
+Representative full-run values:
+
+### Core
+
+```text
+min v^2 ≈ 0.3349
+max v^2 ≈ 0.999334
+```
+
+### Annulus
+
+```text
+min v^2 ≈ 3.41e-4
+max v^2 ≈ 0.999959
+```
+
+### Support
+
+```text
+min v^2 ≈ 3.68e-4
+max v^2 ≈ 0.999949
+```
+
+Thus the law survived the declared full local acoustic-cone gate.
+
+These margins are **near-marginal**, especially in the annulus/support, and should not be described as comfortably separated from instability or luminality.
+
+Still:
+
+```text
+025B0_FULL_SELECTED_STATE_ACOUSTIC_CONE=PASS
+```
+
+---
+
+# 31. `025B0` global-compatible radial result
+
+Once ordinary radial compatibility was imposed, the optimizer no longer reproduced the efficient 006B stress-transfer annulus.
+
+Instead it converged toward nearly uniform near-DEC biaxial tension plus an outer support.
+
+At strain cap 4:
+
+```math
+C
+=
+80.1054496251.
+```
+
+The finite spherical-payload audit gave
+
+```math
+C_{\rm payload}
+=
+80.1052662886,
+```
+
+with all 128 sampled payload points outward.
+
+At strain cap 6:
+
+```math
+C
+=
+79.7614963466.
+```
+
+Compare with
+
+```math
+C_{005B}
+=
+79.7531481160.
+```
+
+The asymptotic similarity is striking.
+
+The compatible material effectively rediscovered the old supported-tension-disk architecture.
+
+Therefore:
+
+```text
+LOCAL_HENCKY_LAW=RETAIN
+
+DIRECT_006B_HYPERELASTIC_REALIZATION=DEMOTED
+
+COMPATIBILITY_ERASES_006B_STRESS_TRANSFER_ADVANTAGE_IN_TESTED_RADIAL_CLASS
+```
+
+This established another permanent necessary condition:
+
+```math
+\boxed{
+\text{LOCAL CONSTITUTIVE ACCESSIBILITY IS NOT ENOUGH; THE STRESS FIELD MUST BE GLOBALLY INTEGRABLE.}
+}
+```
+
+---
+
+# 32. `025B1`: grading–geometry duality
+
+The final science run asked whether 2-D deformation or non-Euclidean/prestrained elasticity might provide a credible escape.
+
+The strongest new exact identity is the grading–geometry relation.
+
+From `025A`,
+
+```math
+G
+\equiv
+\frac{
+\rho_{\star,\rm ann}
+}{
+\rho_{\star,\rm core}
+}
+=
+\frac{t}{q}
+(1+t)^{-2/k}
+(1-q^2)^{1/k}.
+```
+
+The intrinsic annular geometric excess is
+
+```math
+\chi
+=
+e^{2Y_{\rm ann}}.
+```
+
+Since
+
+```math
+Y_{\rm ann}
+=
+\frac{\operatorname{atanh}q}{k},
+```
+
+we have
+
+```math
+\chi
+=
+\left(
+\frac{1+q}{1-q}
+\right)^{1/k}.
+```
+
+Multiply $G$ and $\chi$:
+
+```math
+G\chi
+=
+\frac{t}{q}
+(1+t)^{-2/k}
+(1-q^2)^{1/k}
+\left(
+\frac{1+q}{1-q}
+\right)^{1/k}.
+```
+
+Since
+
+```math
+1-q^2
+=
+(1-q)(1+q),
+```
+
+the last two factors simplify:
+
+```math
+(1-q^2)^{1/k}
+\left(
+\frac{1+q}{1-q}
+\right)^{1/k}
+=
+(1+q)^{2/k}.
+```
+
+Therefore
+
+```math
+\boxed{
+G\chi
+=
+\frac{t}{q}
+\left(
+\frac{1+q}{1+t}
+\right)^{2/k}.
+}
+```
+
+If
+
+```math
+t=q,
+```
+
+then exactly
+
+```math
+\boxed{
+G\chi=1.
+}
+```
+
+The selected `025A` solution has $t\approx q$, and the run found
+
+```text
+G * chi =
+1.000000024856745
+
+independent RHS =
+1.000000024856740
+
+relative error =
+5.107e-15
+```
+
+Therefore the approximately $3000:1$ material grading and the approximately $3000\times$ intrinsic geometric excess are **not separate coincidences**.
+
+They are the same leading realization burden expressed in two complementary ways.
+
+This is one of the most important mathematical results of the session.
+
+---
+
+# 33. `025B1`: exact reference-metric embedding obstruction
+
+Consider an axisymmetric 2-D reference metric
+
+```math
+d\bar\ell^2
+=
+A(r)^2dr^2
++
+B(r)^2d\phi^2.
+```
+
+For the target material strains,
+
+```math
+A=e^{y_r},
+```
+
+```math
+B=r e^{y_\phi}.
+```
+
+Define proper radial distance
+
+```math
+du=A\,dr.
+```
+
+In the desired annulus,
+
+```math
+y_r=-Y_{\rm ann},
+```
+
+```math
+y_\phi=+Y_{\rm ann}.
+```
+
+Then
+
+```math
+\frac{dB}{du}
+=
+\frac1A
+\frac{dB}{dr}
+=
+e^{2Y_{\rm ann}}
+=
+\chi.
+```
+
+The selected candidate gives
+
+```math
+\chi
+=
+2980.1134047.
+```
+
+Now consider a stress-free axisymmetric isometric embedding as a surface of revolution in Euclidean space:
+
+```math
+\mathbf X(u,\phi)
+=
+(
+B(u)\cos\phi,
+B(u)\sin\phi,
+Z(u)
+).
+```
+
+For $u$ to be proper meridional distance,
+
+```math
+\left(\frac{dB}{du}\right)^2
++
+\left(\frac{dZ}{du}\right)^2
+=
+1.
+```
+
+Therefore necessarily
+
+```math
+\boxed{
+\left|
+\frac{dB}{du}
+\right|
+\le1.
+}
+```
+
+But the target requires
+
+```math
+\left|
+\frac{dB}{du}
+\right|
+\approx2980.
+```
+
+Therefore:
+
+```math
+\boxed{
+\text{The selected reference metric has no stress-free axisymmetric surface-of-revolution isometric embedding in ordinary Euclidean 3-space.}
+}
+```
+
+This is an exact obstruction for that embedding class.
+
+It does **not** rule out:
+
+* non-axisymmetric wrinkled embeddings;
+* active manufacturing/prestrain;
+* stretching away from the reference metric;
+* genuinely 3-D architectures.
+
+Those remain separate unresolved possibilities.
+
+Final branch marker:
+
+```text
+NON_EUCLIDEAN_AXISYMMETRIC_STRESS_FREE_ROUTE=
+RED_EXACT_EMBEDDING_CONDITION
+```
+
+---
+
+# 34. `025B1`: Gaussian-curvature invariant
+
+For
+
+```math
+d\bar\ell^2
+=
+A(r)^2dr^2+B(r)^2d\phi^2,
+```
+
+define
+
+```math
+f(r)
+=
+\frac1A\frac{dB}{dr}.
+```
+
+The Gaussian curvature is
+
+```math
+\boxed{
+K
+=
+-\frac1{AB}
+\frac{df}{dr}.
+}
+```
+
+The area element is
+
+```math
+dA
+=
+AB\,dr\,d\phi.
+```
+
+Hence over an axisymmetric transition,
+
+```math
+\int K\,dA
+=
+-2\pi
+\int
+\frac{df}{dr}\,dr.
+```
+
+Therefore
+
+```math
+\boxed{
+\int K\,dA
+=
+-2\pi
+\left[
+f_{\rm out}-f_{\rm in}
+\right].
+}
+```
+
+For the core,
+
+```math
+f_{\rm in}=1.
+```
+
+For the annulus,
+
+```math
+f_{\rm out}=\chi.
+```
+
+Thus
+
+```math
+\boxed{
+\int K\,dA
+=
+-2\pi(\chi-1).
+}
+```
+
+For the selected candidate,
+
+```math
+\int K\,dA
+=
+-1.8718321573\times10^4.
+```
+
+Equivalently,
+
+```math
+\frac{1}{4\pi}\int K\,dA
+\approx
+-1489.5567.
+```
+
+This integrated curvature is independent of the detailed smoothing profile.
+
+The first smoke implementation differentiated a very steep numerical profile with `np.gradient`; its overly tight validator failed because of discretization error.
+
+The numerical method was repaired by:
+
+```text
+ANALYTIC_DF_DR
++
+SIMPSON_QUADRATURE
+```
+
+with **no relaxation of the validation thresholds**.
+
+Final full-resolution checks:
+
+```text
+DETERMINISTIC_MAX_RELERR
+=
+2.64e-14
+
+RANDOMIZED_MONOTONE_CASES
+=
+512
+
+RANDOMIZED_MAX_RELERR
+=
+2.34e-5
+```
+
+Both passed.
+
+The superseded failed smoke log should be preserved as numerical-repair provenance, not interpreted as a physical failure.
+
+---
+
+# 35. `025B1`: general 2-D Euclidean same-z kinematic lower bound
+
+A general axisymmetric material map may depend on both $r$ and $z$:
+
+```math
+X=X(r,z),
+```
+
+```math
+Z=Z(r,z).
+```
+
+However the hoop material density still contains
+
+```math
+n_\phi
+=
+\frac{X}{r}.
+```
+
+For the selected target, approximately
+
+```math
+X_{\rm core}
+=
+a e^{-Y_c},
+```
+
+and
+
+```math
+X_{\rm ann}
+=
+R e^{Y_a}.
+```
+
+Along a direct same-$z$ radial path from $a$ to $R$, the mean-value theorem implies that somewhere
+
+```math
+\left|
+\frac{\partial X}{\partial r}
+\right|
+\ge
+\frac{
+R e^{Y_a}
+-
+a e^{-Y_c}
+}{
+R-a
+}.
+```
+
+For the selected candidate,
+
+```math
+\boxed{
+\max |\partial_rX|
+\ge
+78.75433.
+}
+```
+
+The largest singular value of a matrix is at least the magnitude of any matrix component, so the meridional deformation gradient must have
+
+```math
+\sigma_{\max}
+\ge
+78.75433.
+```
+
+Thus a corresponding logarithmic strain obeys
+
+```math
+\boxed{
+y_{\max}
+\ge
+\ln(78.75433)
+=
+4.36633.
+}
+```
+
+Therefore a direct same-$z$ route cannot realize the target while enforcing a cap of
+
+```math
+|y|\le4.
+```
+
+This does **not** universally rule out a general 2-D shear deformation, because the material path may detour in $z$.
+
+At cap 4 the minimum path-length diagnostic gave
+
+```text
+required path / radial span
+≈
+1.44244
+```
+
+and the simple straight-detour interpretation corresponded to a vertical excursion of approximately
+
+```text
+3.38 h.
+```
+
+At cap 5 the simple direct kinematic lower bound no longer prohibits the route.
+
+Thus:
+
+```text
+GENERAL_2D_EUCLIDEAN_SHEAR=UNRESOLVED
+```
+
+not RED.
+
+---
+
+# 36. Final `025A–025B1` interpretation
+
+The correct scientific interpretation is:
+
+```text
+025A_LOCAL_HYPERELASTIC_LAW=RETAIN
+
+025B0_FULL_LOCAL_ACOUSTIC_CONE=PASS
+
+025B0_ORDINARY_RADIAL_GLOBAL_REALIZATION=DEMOTED
+
+025B0_COMPATIBLE_RADIAL_C≈80.105
+
+025B1_GRADING_GEOMETRY_DUALITY=PASS
+
+025B1_AXISYMMETRIC_STRESS_FREE_REFERENCE_METRIC=RED
+
+GENERAL_2D_EUCLIDEAN_SHEAR=UNRESOLVED_DEFERRED
+
+NONAXISYMMETRIC_GEOMETRICALLY_FRUSTRATED_METRIC=UNRESOLVED_DEFERRED
+
+HYPERELASTIC_DIRECT_EFFICIENT_REALIZATION=PAUSED
+```
+
+Most importantly:
+
+```text
+NO_NEW_GLOBAL_PURE_GR_REALIZATION_SUPERSEDES_006D
+```
+
+---
+
+# 37. What the hyperelastic sequence actually taught us
+
+The sequence clarified an important hierarchy.
+
+Before `025A`, a reasonable concern was:
+
+> Maybe the 006B/006D stresses are simply impossible for healthy relativistic matter.
+
+`025A/025B0` showed that this is too simple.
+
+The local constitutive law can generate essentially the required stress states with:
+
+* positive energy;
+* finite-strain DEC;
+* NEC;
+* convex declared strain energy;
+* causal tested acoustic modes.
+
+The deeper obstruction was:
+
+```math
+\boxed{
+\text{GLOBAL GEOMETRIC COMPATIBILITY}
+}
+```
+
+The stress states can individually exist but cannot be arranged in the efficient 006B pattern by the simplest ordinary radial material map.
+
+This means future matter realization work must optimize not just $T_{\mu\nu}$ but the **integrable field/deformation that produces $T_{\mu\nu}$**.
+
+---
+
+# 38. Consolidated necessary conditions for a useful antigravity source
+
+A practical route must now be assumed to require all of the following, unless it explicitly changes the physical problem.
+
+## Source-level conditions
+
+```text
+CORRECT_OPERATIONAL_FORCE_SIGN
+FINITE_PAYLOAD_OUTWARD_RESPONSE
+EXPLICIT_SOURCE_PAYLOAD_SIDEDNESS
+HIGH_KERNEL_LEVERAGE
+LOW_CANCELLATION
+HIGH_PRODUCTIVE_PARTICIPATION
+COMPLETE_SUPPORT_LEDGER
+```
+
+## Matter/field conditions
+
+```text
+POSITIVE_OR_OTHERWISE_JUSTIFIED_ENERGY
+LOCAL_TMUNU_CONSERVATION
+HEALTHY_CONSTITUTIVE_LAW
+GLOBAL_FIELD_OR_DEFORMATION_COMPATIBILITY
+FINITE_INTERFACES
+HYPERBOLIC_WELL_POSED_DYNAMICS
+STABILITY_OR_CONTROLLED_TRANSIENCE
+```
+
+## Dynamic conditions
+
+```text
+FORMATION
+T0I_TRANSPORT
+FULL_TIJ
+REACTION_MOMENTUM
+RADIATION
+RETURN_OR_RESET
+FULL_CYCLE_DELTA_V
+TOTAL_CYCLE_ENERGY
+```
+
+## GR-completion conditions
+
+```text
+FINITE_THICKNESS
+NONLINEAR_EINSTEIN_MATTER
+BACKREACTION
+POSITIVE_FAR_FIELD_BEHAVIOR
+NO_HIDDEN_SUPPORT_REVERSAL
+```
+
+## Practical conditions
+
+```text
+ABSOLUTE_ENERGY
+POWER
+SIZE
+RANGE
+MATERIAL_STRESS
+CONTROL_ENERGY
+RESET_ENERGY
+REPETITION_RATE
+HEAT/RADIATION
+EMPIRICAL_CONSISTENCY
+```
+
+---
+
+# 39. Branches that are now CLOSED or PAUSED
+
+Do not repeat the following absent a genuinely new physical ingredient.
+
+## Closed / strongly demoted
+
+```text
+018C_SPECIFIC_TWO_CURRENT_KLS_M2_REALIZATION
+```
+
+The specific realization is unstable. Do not reopen it by analogy.
+
+```text
+TESTED_019_TO_022_COLLECTIVE_VECTOR_IMPLEMENTATIONS
+```
+
+Do not repeat without genuinely new protection.
+
+```text
+024B_CURRENT_DOMAIN_WALL_PULSE_FAMILY
+```
+
+The tested free Nambu-Goto annular family is RED.
+
+```text
+024C_HAND_DESIGNED_STATIC_STRESS_LENS_POLISHING
+```
+
+Did not beat 006D and working-region quality was poor.
+
+```text
+024C1_INTUITIVE_STRESS_SANDWICH
+```
+
+No selected planar feasible source.
+
+```text
+024E_AND_024E1_NONCOLLIDING_CLOSE_PASS_PORTAL
+```
+
+Closed by participation/coupling obstruction.
+
+```text
+025B0_ORDINARY_RADIAL_HENCKY_REALIZATION_OF_006B
+```
+
+Compatibility returns it to approximately the 005B scale.
+
+```text
+025B1_AXISYMMETRIC_STRESS_FREE_NON_EUCLIDEAN_REFERENCE_METRIC
+```
+
+Exact surface-of-revolution embedding obstruction.
+
+## Paused / deferred
+
+```text
+024D2_CANONICAL_SCALAR_POLOIDAL_STRESS_TRANSPORT
+```
+
+Interesting effective source-level mechanism but no microscopic field.
+
+```text
+025B2_GENERAL_2D_EUCLIDEAN_HYPERELASTIC_SHEAR
+```
+
+Not ruled out, but defer pending global practicality rerank.
+
+```text
+NONAXISYMMETRIC_GEOMETRICALLY_FRUSTRATED_REFERENCE_METRIC
+```
+
+Not ruled out; extreme and uncosted.
+
+```text
+023D_NONLINEAR_B7_CONTINUATION
+```
+
+Keep as the principal actual-field pure-GR fallback.
+
+---
+
+# 40. What should NOT be claimed
+
+Never state:
+
+```text
+PRACTICAL_ANTIGRAVITY_EXISTS
+```
+
+or
+
+```text
+NEW_PHYSICS_DISCOVERED
+```
+
+or
+
+```text
+025A_IS_A_REAL_MATERIAL
+```
+
+or
+
+```text
+025A_REALIZES_006D_GLOBALLY
+```
+
+or
+
+```text
+GENERAL_ELASTICITY_CANNOT_REALIZE_006D
+```
+
+or
+
+```text
+ALL_NON_EUCLIDEAN_ELASTICITY_IS_RULED_OUT
+```
+
+or
+
+```text
+024D_C_EQUALS_6P61_IS_A_FIELD_SOLUTION
+```
+
+or
+
+```text
+024D1R_C_EQUALS_19P05_IS_A_STABLE_DEVICE
+```
+
+or
+
+```text
+PULSE_ANTIGRAVITY_AVOIDS_1_OVER_G
+```
+
+or
+
+```text
+TEACHER_17230X_IS_A_PHYSICAL_FIELD
+```
+
+or
+
+```text
+NEGATIVE_ACTIVE_DENSITY_AUTOMATICALLY_PRODUCES_OUTWARD_GRAVITY
+```
+
+or
+
+```text
+POSITIVE_FAR_SIDE_ATTRACTION_IS_STRICT_STANDOFF_REPULSION
+```
+
+The proper hierarchy remains:
+
+```text
+MATHEMATICAL SOURCE
+LOCAL FORCE
+FINITE PAYLOAD
+SOURCE EFFICIENCY
+FIELD REALIZATION
+GLOBAL COMPATIBILITY
+STABILITY
+NONLINEAR GR
+PRACTICAL SCALE
+DEVICE
+```
+
+Each is a separate accomplishment.
+
+---
+
+# 41. Current interpretation of the 70–71% heuristic
+
+Keep:
+
+```text
+CURRENT_KNOWLEDGE_HEURISTIC=
+APPROXIMATELY_70_TO_71_PERCENT
+```
+
+Do not increase it because of `025A`.
+
+Reasons:
+
+* a new local matter witness was achieved;
+* full local acoustic characteristics survived;
+* but global efficient realization failed in the simplest material class;
+* no new finite-thickness field superseded 006D;
+* no nonlinear GR result was obtained;
+* no stability-complete device was obtained;
+* no $1/G$ scaling escape was found.
+
+The heuristic represents breadth/depth of understanding, not probability that a practical device will ultimately exist.
+
+---
+
+# 42. Most important scientific lessons of this entire session
+
+The session narrowed the problem considerably.
+
+## Lesson 1 — stress sign is only the beginning
+
+A local $S<0$ region is not enough.
+
+## Lesson 2 — sidedness must always be explicit
+
+Far-side positive active mass can imitate outward response without being strict stand-off repulsion.
+
+## Lesson 3 — kernel leverage is real
+
+Useful stress must occur where the payload kernel is large.
+
+## Lesson 4 — compensation is unavoidable
+
+Static conservation and dynamic virial identities force support/reset sectors.
+
+## Lesson 5 — support gravity can reverse apparent gains
+
+`024B2` demonstrated this directly.
+
+## Lesson 6 — participation is a separate bottleneck
+
+`024E1` had excellent sign, kernel placement and cancellation but failed because too little energy entered the useful interaction.
+
+## Lesson 7 — spin is not a magic stress source
+
+Counterrotation cancels momentum but not the stress-energy burden.
+
+## Lesson 8 — spatial stress conversion remains more interesting than spin
+
+`024D/024D1R` preserved source-level leverage from moving different stress states through different kernels.
+
+## Lesson 9 — local matter viability is not global realization
+
+`025A` passed locally; `025B0` exposed compatibility.
+
+## Lesson 10 — compatibility can erase an entire source-efficiency gain
+
+The compatible Hencky radial source reverted from $C\sim23.5$ to $C\sim80$.
+
+## Lesson 11 — material grading and geometric incompatibility were mathematically dual
+
+The $3000:1$ grading and $3000\times$ metric excess are the same leading burden.
+
+## Lesson 12 — pure-GR coefficient optimization no longer attacks the dominant practicality problem
+
+Even $C=1$ at macroscopic range is catastrophically energetic.
+
+This is the most important branch-management conclusion.
+
+---
+
+# 43. Most likely path toward PRACTICAL antigravity from here
+
+The most likely research path toward **practical** antigravity is no longer “keep improving the pure-GR coefficient.”
+
+The next session should distinguish two objectives.
+
+## Objective A — scientifically complete genuine GR antigravity
+
+Best remaining routes:
+
+```text
+006D
+as benchmark source architecture
+
+023C/023D
+as strongest actual microscopic field route
+
+025B2
+as deferred material-realization experiment
+
+024D2
+as deferred dynamic stress-transport experiment
+```
+
+These remain important for establishing whether physically realizable GR matter can reproduce the conservative antigravity effect.
+
+However, none currently provides a plausible route around the absolute
+
+```math
+1/G
+```
+
+energy burden.
+
+## Objective B — practical operational antigravity
+
+The highest-probability research direction, given current information, is now:
+
+```text
+ANALOGUE ANTIGRAVITY
+```
+
+meaning a force or interaction on neutral matter that produces the desired operational acceleration without requiring the full macroscopic GR curvature energy scale.
+
+This does **not** mean an analogue mechanism has already been found.
+
+It means it is now the rational branch to investigate first because:
+
+1. Pure-GR repulsion is mathematically established at the source level.
+
+2. Multiple attempts to realize the most efficient pure-GR stress arrangements have encountered conservation, participation, support, or compatibility barriers.
+
+3. Pulsing did not remove the $1/G$ scaling.
+
+4. The hyperelastic route showed that even a healthy local matter law may lose most of the source-efficiency gain once global geometry is enforced.
+
+5. Even an impossible-to-ignore hypothetical $C\sim1$ pure-GR source at $1g$, $1\ \mathrm{m}$ remains around $10^{28}\ \mathrm{J}$.
+
+Therefore:
+
+```math
+\boxed{
+\text{For practicality, escaping the pure-GR energy scaling is more important than polishing }C.
+}
+```
+
+This is a branch-ranking argument, not proof that an analogue interaction exists.
+
+---
+
+# 44. What Analogue Antigravity should imitate
+
+Do **not** try to imitate the whole B7 field or raw teacher.
+
+The productive mechanism distilled by Introspective and the 024-series is:
+
+```text
+COMPACT PRODUCTIVE REGION
+
+STRONG PAYLOAD COUPLING
+
+HIGH SPATIAL KERNEL LEVERAGE
+
+LARGE PARTICIPATING FRACTION
+
+LOW CANCELLATION
+
+CONTROLLED COMPENSATION
+
+SEPARATION OF PRODUCTIVE SECTOR FROM SCAFFOLDING
+
+NEUTRAL-MATTER RESPONSE
+
+LOW TOTAL SUPPORT/RESET COST
+```
+
+For an analogue interaction, the gravitational active-source formula need not apply literally.
+
+What should be reproduced is the **operational mapping**:
+
+```math
+\text{source state}
+\longrightarrow
+\text{controllable finite-payload outward force}.
+```
+
+The mechanism should be judged by:
+
+```math
+\frac{
+\text{useful finite-payload force or impulse}
+}{
+\text{total system energy / power / mass / support burden}
+}.
+```
+
+---
+
+# 45. Proposed next-session branch ranking
+
+After the documentation updates, perform a global rerank before another large numerical solve.
+
+## Rank 1 — Analogue Antigravity global mechanism rerank
+
+**Role:** primary practicality frontier.
+
+Question:
+
+> Is there any established-physics or well-motivated additional interaction capable of producing a controllable force on neutral bulk matter with dramatically lower system energy than pure-GR curvature while surviving present empirical constraints?
+
+Candidate classes should be ranked analytically before detailed simulations.
+
+Requirements:
+
+```text
+NEUTRAL_BULK_RESPONSE
+ADEQUATE_RANGE
+CONTROLLABILITY
+REACTION_MOMENTUM_ACCOUNTED
+NO_HIDDEN_PROPULSIVE_MEDIUM_ASSUMPTION
+SUPPORT/CONTROL ENERGY INCLUDED
+EMPIRICAL FIFTH_FORCE / EP / STELLAR / COLLIDER / CASIMIR CONSISTENCY
+SCALING BETTER THAN PURE_GR
+```
+
+Do not reopen old 019–022 protected-vector implementations merely by changing parameters. They remain closed absent genuinely new protection.
+
+## Rank 2 — `023C/023D` pure-GR actual-field fallback
+
+**Role:** strongest route to completing a genuine microscopic GR field claim.
+
+If the global rerank shows no plausible analogue route, resume:
+
+```text
+N73 STRICT STATIONARITY
+CONTINUOUS FORCE CONVERGENCE
+FULL HESSIAN / FISSION STABILITY
+NONLINEAR EINSTEIN-MATTER
+```
+
+The advantage is that this branch already possesses an actual topological field.
+
+Its disadvantage is poor source efficiency and $1/G$ scaling.
+
+## Rank 3 — deferred `025B2` general 2-D Euclidean shear
+
+**Role:** highest-information continuation of the new local material law.
+
+Only resume if the pure-GR realization question remains strategically important.
+
+Do not start with a huge PDE.
+
+First solve a minimal 2-D compatibility/shear BVP with:
+
+```text
+EXPLICIT MATERIAL MAP
+FINITE THICKNESS
+FULL TMUNU
+ACOUSTIC CONE
+SUPPORT ENERGY
+FINITE PAYLOAD
+```
+
+Promotion requires a substantial recovery from the radial $C\sim80$ result.
+
+If it cannot approach at least the $C\sim20$–$30$ range, close the hyperelastic realization branch.
+
+## Rank 4 — deferred `024D2` scalar stress-state transport
+
+**Role:** best dynamic source-level mechanism identified this session.
+
+Only resume if dynamics are strategically competitive after the global rerank.
+
+Must begin from an actual scalar field solution rather than another effective stress ledger.
+
+Must include full-cycle impulse and reaction/reset.
+
+---
+
+# 46. Proposed exact next scientific slice after documentation
+
+Recommended identifier:
+
+```text
+026A — GLOBAL PRACTICALITY RERANK AND ANALOGUE ANTIGRAVITY MECHANISM-SELECTION GATE
+```
+
+## Scientific question
+
+> Given everything learned through 025B1, which surviving physical branch has the highest information-adjusted probability of reaching a practically useful neutral-matter outward force?
+
+## Primary observable
+
+Not merely $C$.
+
+Use a multi-axis system metric including:
+
+```text
+FINITE_PAYLOAD_ACCELERATION_OR_IMPULSE
+TOTAL_SOURCE_ENERGY
+POWER
+RANGE
+SOURCE_MASS
+SUPPORT_ENERGY
+RESET_ENERGY
+REACTION_MOMENTUM
+EMPIRICAL_CONSTRAINT_MARGIN
+SCALABILITY
+```
+
+## Cheapest decisive test
+
+Perform an analytical/literature upper-bound rerank before constructing a new field.
+
+For each candidate mechanism:
+
+1. derive maximum possible neutral-matter acceleration under known constraints;
+2. compute total source energy/power;
+3. determine the range;
+4. identify unavoidable reaction momentum;
+5. identify mandatory support/control sectors;
+6. compare against `006D`, B7, and any relevant engineering baseline.
+
+## Promotion condition
+
+A candidate analogue branch should be promoted only if it offers a **parametric or many-orders-of-magnitude absolute scaling advantage**, not merely a factor-of-two improvement.
+
+## Falsifier
+
+Demote a candidate if:
+
+```text
+EMPIRICAL BOUNDS FORCE EFFECT TO NEGLIGIBLE LEVEL
+
+OR
+
+SUPPORT/CONTROL ENERGY RESTORES PURE_GR_LIKE COST
+
+OR
+
+REACTION_MOMENTUM REVEALS IT TO BE ORDINARY PROPULSION WITHOUT THE CLAIMED OPERATIONAL ADVANTAGE
+
+OR
+
+REQUIRED NEW PHYSICS IS INTERNALLY INCONSISTENT / UNNATURAL / ALREADY EXCLUDED
+```
+
+## Stop rule
+
+```text
+NO_LARGE_ANALOGUE_PDE_OR_PARAMETER_SCAN
+UNTIL
+ANALYTIC_SCALING_AND_EMPIRICAL_UPPER_BOUNDS_PASS
+```
+
+This should be the first scientific action of the next research session after documentation reconciliation.
+
+---
+
+# 47. Why Analogue Antigravity now ranks first for practicality
+
+This ranking should be stated conservatively.
+
+We do **not** have evidence that an analogue antigravity device exists.
+
+But we now have strong evidence that the principal obstacle to practical pure-GR antigravity is not simply ignorance of the right coefficient.
+
+The sequence is:
+
+```text
+006D:
+GR REPULSION IS MATHEMATICALLY CONSTRUCTIBLE
+
+INTROSPECTIVE:
+SOURCE ORGANIZATION CAN BE MUCH MORE EFFICIENT
+
+024A-C:
+COPYING TEACHER GEOMETRY DOES NOT DIRECTLY PRODUCE A BETTER TRUE STANDOFF FIELD
+
+024B:
+PULSING DOES NOT REMOVE FULL-CYCLE COMPENSATION OR 1/G
+
+024D:
+STRESS-STATE TRANSPORT HAS SOURCE-LEVEL LEVERAGE BUT NO FIELD YET
+
+024E:
+LOCAL OPTIMAL NEGATIVE-ACTIVE PORTAL FAILS FROM PARTICIPATION
+
+025A:
+A LOCALLY HEALTHY RELATIVISTIC MATTER LAW CAN PRODUCE THE NEEDED STRESSES
+
+025B0:
+GLOBAL COMPATIBILITY ERASES THE EFFICIENT RADIAL STRESS-TRANSFER PATTERN
+
+025B1:
+THE REQUIRED MATERIAL GRADING IS DUAL TO AN EXTREME INTRINSIC GEOMETRIC BURDEN
+
+ABSOLUTE 1/G SCALE:
+REMAINS
+```
+
+Therefore the path to practicality most likely requires either:
+
+```text
+A NEW PARAMETRIC GR SCALING MECHANISM
+```
+
+or
+
+```text
+AN OPERATIONALLY EQUIVALENT ADDITIONAL INTERACTION
+```
+
+rather than another modest improvement in the pure-GR coefficient.
+
+---
+
+# 48. Pure-GR path should still be preserved scientifically
+
+Do not abandon genuine GR research entirely.
+
+`006D` proves that the phenomenon is mathematically available in established GR at linear order with positive energy.
+
+The B7 field shows that microscopic topological fields can possess qualitatively relevant active-source structures.
+
+`025A` shows that locally healthy relativistic matter laws can access extreme negative and mixed stress states.
+
+These are scientifically valuable independent of practicality.
+
+Therefore the recommended strategy is:
+
+```text
+PRACTICALITY FRONTIER:
+ANALOGUE ANTIGRAVITY
+
+PURE_GR FIELD COMPLETION:
+KEEP AS PARALLEL / FALLBACK SCIENTIFIC PROGRAM
+```
+
+not:
+
+```text
+ABANDON_GENERAL_RELATIVITY
+```
+
+and not:
+
+```text
+ASSUME_ANALOGUE_ANTIGRAVITY_EXISTS
+```
+
+---
+
+# 49. Numerical/repository state to preserve
+
+Current regression:
+
+```text
+94_KNOWN_SOLUTIONS=PASS
+```
+
+The user intentionally deferred most documentation changes during the science campaign.
+
+Known intentionally dirty documentation state included:
+
+```text
+M NOTES.MD
+?? notes/chronology/0019_september_1_2026_19_40_cst.md
+```
+
+plus the large body of untracked 024–025 simulations, logs, CSVs, JSONs and NPZs.
+
+Do not mistake those untracked files for failed work; they are the outputs awaiting documentation/git reconciliation.
+
+Important final new simulations include:
+
+```text
+simulations/024b_spatiotemporal_virial_kernel_rectification_gate.py
+
+simulations/024b1_directional_wall_reset_support_gate.py
+
+simulations/024b2_stationary_rim_support_no_go.py
+
+simulations/024b3_free_outward_annular_wall_pulse_gate.py
+
+simulations/024c_teacher_guided_planar_stress_lens.py
+
+simulations/024c1_intuitive_guarded_stress_sandwich.py
+
+simulations/024d_counterrotating_toroidal_stress_conversion_campaign.py
+
+simulations/024d1_internal_toroidal_orbit_and_spin_campaign.py
+
+simulations/024d1r_kernel_adaptive_internal_orbit_repair.py
+
+simulations/024e_dual_toroid_close_pass_portal_prefilter.py
+
+simulations/024e1_teacher_guided_anisotropic_close_pass_rescue.py
+
+simulations/025a_saturating_relativistic_hencky_stress_transformer.py
+
+simulations/025b0_hyperelastic_compatibility_acoustic_cone.py
+
+simulations/025b1_geometric_compatibility_prestrain_closeout.py
+```
+
+Important final `025B1` retained artifacts:
+
+```text
+results/data/025b1_geometric_compatibility_prestrain_closeout_summary.json
+
+results/data/025b1_prestrain_geometry_frontier.csv
+
+results/data/025b1_reference_metric_transition_scan.csv
+
+results/data/025b1_reference_metric_transition_profile.npz
+
+results/logs/025b1_geometric_compatibility_prestrain_closeout_20260902-023001.log
+
+results/logs/025b1_geometric_compatibility_prestrain_closeout_smoke_repair_20260902-023001.log
+```
+
+Also preserve the superseded failed smoke provenance:
+
+```text
+results/logs/025b1_geometric_compatibility_prestrain_closeout_smoke_20260902-022138.log
+```
+
+with the explicit interpretation:
+
+```text
+FAILED_NUMERICAL_CURVATURE_VALIDATOR
+NOT_PHYSICS_FAILURE
+SUPERSEDED_BY_ANALYTIC_DFDR_PLUS_SIMPSON_REPAIR
+VALIDATION_THRESHOLDS_WERE_NOT_RELAXED
+```
+
+Final `025B1` decision:
+
+```text
+025B1_DECISION=
+YELLOW_LOCAL_HYPERELASTIC_LAW_RETAINED_BUT_DIRECT_EFFICIENT_MATERIAL_REALIZATION_PAUSED
+```
+
+---
+
+# 50. Documentation work that must follow these carry-forward notes
+
+The science session is closed.
+
+Do **not** start another physics run before documentation reconciliation.
+
+The intended remaining session closeout sequence is:
+
+```text
+1. THIS COMPREHENSIVE CARRY-FORWARD NOTE
+
+2. DEDICATED JOURNAL ENTRY
+
+3. RESEARCH_BUILDPLAN.md UPDATE
+
+4. NOTES.MD / MONOLITHIC NOTES UPDATE
+
+5. README.md UPDATE
+
+6. CODEBUNDLE UPDATE
+
+7. CHRONOLOGY / CARRY-OVER INDEX RECONCILIATION
+
+8. PROJECT INSTRUCTIONS UPDATE IF REQUIRED BY NEW FRONTIER
+```
+
+The buildplan must no longer describe the old teacher-guided sixth-order successor program as though it were still the sole active frontier.
+
+The new active strategic statement should reflect:
+
+```text
+006D_REMAINS_STRONGEST_CONSERVATIVE_GLOBAL_SOURCE
+
+B7_REMAINS_STRONGEST_ACTUAL_FIELD_STACK
+
+INTROSPECTIVE_SOURCE_OPTIMIZATION=CLOSED_FOR_NOW
+
+024_PURE_GR_DYNAMIC_AND_SOURCE_POLISHING=PAUSED_OR_CLOSED_AS_DOCUMENTED
+
+025A_LOCAL_HYPERELASTIC_WITNESS=RETAIN
+
+025B0_RADIAL_REALIZATION=DEMOTED
+
+025B1_AXISYMMETRIC_STRESS_FREE_PRESTRAIN=RED
+
+025B2_GENERAL_2D_SHEAR=DEFERRED
+
+ANALOGUE_ANTIGRAVITY=ACTIVATE_IN_TANDEM
+
+NEXT=GLOBAL_PRACTICALITY_RERANK
+```
+
+---
+
+# 51. Recommended durable journal themes
+
+The journal entry written after these notes should preserve at minimum:
+
+1. dynamic virial proof and closed-cycle compensation;
+2. canonical scalar active-source identity;
+3. domain-wall pulse falsification;
+4. support gravity reversal in `024B2`;
+5. static stress-lens anatomy;
+6. counterrotation momentum/stress distinction;
+7. Maxwell active-source sign;
+8. canonical scalar stress-conversion headroom;
+9. pure-toroidal constant-kernel theorem;
+10. close-pass portal DEC saturation;
+11. participation obstruction;
+12. antigravity necessary-conditions map;
+13. exact Hencky constitutive law;
+14. pressure/DEC proof;
+15. longitudinal characteristic proof;
+16. full acoustic-cone numerical validation;
+17. radial deformation compatibility identity;
+18. radial compatibility no-go for the exact 025A piecewise target;
+19. collapse of compatible radial source to 005B scale;
+20. grading–geometry duality;
+21. exact axisymmetric reference-metric embedding obstruction;
+22. Gaussian-curvature invariant and repaired independent validation;
+23. 2-D same-$z$ mean-value lower bound;
+24. final branch rerank;
+25. preservation of 006D as strongest global result;
+26. explicit statement that practical antigravity is not established.
+
+---
+
+# 52. Ultra-short next-session restart summary
+
+If only one paragraph can be read at the beginning of the next session, use:
+
+> The project remains at approximately 70–71% on its knowledge/accomplishment heuristic, not a success probability. `006D` remains the strongest conservative global true-stand-off source with $C=23.591586299249$, while the false-core $B=7,\eta=0.4,m=8$ Skyrmion remains the strongest actual microscopic field stack. This session tested dynamic pulses, static stress lenses, counterrotating/orbiting stress conversion, close-pass scalar portals, and a new relativistic hyperelastic realization. Closed-cycle virial analysis proved compensating stress is mandatory; canonical scalar matter obeys $S=2\dot\phi^2-2V$; counterrotation cancels momentum but not stress; pure Maxwell has $S=2\rho$; and a positive scalar portal saturates the type-I DEC negative-active bound $-S/\rho=2$. `024D/024D1R` found source-level headroom from transporting scalar stress states through different kernels, but no microscopic field; `024E/E1` decisively failed because useful interaction participation was tiny despite favorable kernel placement. `025A` introduced the Saturating Relativistic Hencky Solid, with exact $p_i/\rho=\tanh(ky_i)$, positive energy, finite-strain DEC, causal tested characteristics, and thin-source $C\approx23.51$. `025B0` then proved the exact 006B-like piecewise stress target is incompatible with an ordinary radial Euclidean-reference deformation and found compatible sources regress to $C\approx80$, essentially the old 005B architecture, although the full local acoustic cone passed. `025B1` showed the required $\sim3000:1$ intrinsic material grading and $\sim3000\times$ geometric excess satisfy an exact grading–geometry identity, proved the corresponding axisymmetric stress-free reference metric cannot embed as a Euclidean surface of revolution, and verified the transition curvature invariant. General 2-D Euclidean shear remains unresolved but deferred. No new global pure-GR realization supersedes 006D, no $1/G$ escape was found, and no practical device exists. After documentation, the highest-information next action is a global practicality rerank with **Analogue Antigravity activated in tandem**, retaining B7/023D as the pure-GR field fallback, `025B2` 2-D shear as a deferred realization option, and `024D2` scalar stress transport as a deferred dynamic option.
+
+---
+
+# 53. Final carry-forward status block
+
+```text
+SESSION_CLOSE_DATE=
+2026-09-02
+
+KNOWN_SOLUTION_REGRESSION=
+94_PASS
+
+CURRENT_KNOWLEDGE_HEURISTIC=
+APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY
+
+PRACTICAL_ANTIGRAVITY_DEVICE=
+NO
+
+NEW_PHYSICS_DISCOVERY=
+NO
+
+STRONGEST_CONSERVATIVE_GLOBAL_RESULT=
+006D
+
+C_006D=
+23.591586299249
+
+STRONGEST_THIN_STRESS_TRANSFER_REFERENCE=
+006B
+
+C_006B=
+23.426710175391
+
+STRONGEST_ACTUAL_MICROSCOPIC_FIELD_STACK=
+B7_FALSE_CORE_023BR_PLUS_023CR4R_N65
+
+INTROSPECTIVE_ROBUST_SOURCE_HEADROOM=
+APPROXIMATELY_12P8_TO_17P9X
+
+RAW_TEACHER_HEADROOM=
+APPROXIMATELY_17230X_SOURCE_LEVEL_ONLY
+
+RAW_TEACHER_CONTINUUM_CERTIFIED=
+NO
+
+RAW_TEACHER_MICROSCOPIC_FIELD=
+NO
+
+024B_DOMAIN_WALL_PULSE=
+PAUSED_RED_IN_TESTED_CLASS
+
+024C_STATIC_STRESS_LENS=
+RED_VS_006D
+
+024D_CANONICAL_SCALAR_EFFECTIVE_CYCLE=
+YELLOW_SOURCE_LEVEL_HEADROOM
+
+024D_CANONICAL_SCALAR_C=
+6.610457607426174_EFFECTIVE_NOT_FIELD
+
+024D1R_KERNEL_ADAPTIVE_SCALAR_C=
+APPROXIMATELY_19.04618_EFFECTIVE_NOT_FIELD
+
+024D_SPIN_DRIVER=
+NO
+
+024E_CLOSE_PASS_PORTAL=
+CLOSED
+
+024E1_FAILURE_MODE=
+INSUFFICIENT_PRODUCTIVE_PARTICIPATION
+
+025A_MODEL=
+SATURATING_RELATIVISTIC_HENCKY_SOLID
+
+025A_LOCAL_POSITIVE_ENERGY=
+YES
+
+025A_LOCAL_DEC=
+YES
+
+025A_EXACT_PRESSURE_IDENTITY=
+P_I_OVER_RHO_EQUALS_TANH_K_Y_I
+
+025A_SELECTED_THIN_C=
+APPROXIMATELY_23.5104
+
+025A_GLOBAL_MATERIAL_REALIZATION=
+NO
+
+025B0_FULL_LOCAL_ACOUSTIC_CONE=
+PASS
+
+025B0_EXACT_006B_RADIAL_COMPATIBILITY=
+NO
+
+025B0_COMPATIBLE_RADIAL_C=
+APPROXIMATELY_80.105
+
+025B0_INTERPRETATION=
+COMPATIBILITY_ERASES_006B_STRESS_TRANSFER_ADVANTAGE_IN_TESTED_RADIAL_CLASS
+
+025B1_GRADING_GEOMETRY_IDENTITY=
+PASS
+
+025B1_SELECTED_CHI=
+APPROXIMATELY_2980.113
+
+025B1_SELECTED_INVERSE_GRADING=
+APPROXIMATELY_2980.113
+
+025B1_INTEGRATED_GAUSSIAN_CURVATURE=
+APPROXIMATELY_MINUS_1P8718E4
+
+025B1_AXISYMMETRIC_STRESS_FREE_REFERENCE_METRIC=
+RED
+
+GENERAL_2D_EUCLIDEAN_SHEAR=
+UNRESOLVED_DEFERRED
+
+NONAXISYMMETRIC_FRUSTRATED_REFERENCE_METRIC=
+UNRESOLVED_DEFERRED
+
+HYPERELASTIC_DIRECT_EFFICIENT_REALIZATION=
+PAUSED
+
+PURE_GR_1_OVER_G_SCALING_ESCAPE=
+NO
+
+MOST_LIKELY_PRACTICAL_RESEARCH_DIRECTION=
+ANALOGUE_ANTIGRAVITY_GLOBAL_RERANK
+
+PURE_GR_ACTUAL_FIELD_FALLBACK=
+023C_023D_B7
+
+PURE_GR_MATERIAL_FALLBACK=
+025B2_GENERAL_2D_EUCLIDEAN_SHEAR_DEFERRED
+
+PURE_GR_DYNAMIC_FALLBACK=
+024D2_CANONICAL_SCALAR_POLOIDAL_STRESS_TRANSPORT_DEFERRED
+
+NEXT_SCIENTIFIC_SLICE_AFTER_DOCUMENTATION=
+026A_GLOBAL_PRACTICALITY_RERANK_AND_ANALOGUE_ANTIGRAVITY_MECHANISM_SELECTION_GATE
+
+NO_MORE_SCIENCE_BEFORE_DOCUMENTATION_CLOSEOUT=
+YES
+```
+
+### END OF COMPREHENSIVE CARRY-FORWARD NOTE — SEPTEMBER 2, 2026
+
+
+### END NOTE - SEPTEMBER 2 2026 - 11:40 CST

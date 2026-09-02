@@ -1,0 +1,446 @@
+{
+  "claim_classification": "PROJECT_DERIVED_024A4R_STANDOFF_FEASIBILITY_DECOMPOSITION",
+  "anchors": {
+    "current_B7_C": 422.22207090830875,
+    "006B_thin_C": 23.426710175391,
+    "006B_beta": 4.7014374053,
+    "006D_C": 23.591586299249,
+    "024A4_R99": 3.353681771042527,
+    "024A4_rho_cap": 1.6698553194205294
+  },
+  "positive_controls": {
+    "direct_006B_pass": true,
+    "direct_006B_C": 32.95475466694425,
+    "generalized_006B_pass": true,
+    "generalized_006B_C": 32.954754666952105,
+    "generalized_recovery_relerr": 2.384664288029891e-13
+  },
+  "radial_support": {
+    "scan": [
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R3P0",
+        "nr": 20,
+        "nz": 2,
+        "radius": 3.0,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 40.71726410132416,
+        "acceleration": 1.000000000011691,
+        "max_dec_violation": 0.0,
+        "max_conservation_residual": 3.452793606584237e-13,
+        "radial_laue": 1.5987211554602254e-14,
+        "vertical_laue": 2.2233186781197684e-15,
+        "trace_integral": 1.8210530232722024e-14,
+        "active_mass_integral": 40.71726410132417,
+        "max_energy_density": 111.15607540623094,
+        "occupied_fraction": 0.475,
+        "green_postcheck": true,
+        "headroom_vs_B7": 10.369608082154462,
+        "gain_vs_006D": 0.5794000854414425
+      },
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R3P353682",
+        "nr": 20,
+        "nz": 2,
+        "radius": 3.353681771042527,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 34.953778568222276,
+        "acceleration": 0.999999999961268,
+        "max_dec_violation": 0.0,
+        "max_conservation_residual": 5.520028878436278e-13,
+        "radial_laue": 3.2862601528904634e-14,
+        "vertical_laue": 1.4967538962709257e-15,
+        "trace_integral": 3.4359355425175556e-14,
+        "active_mass_integral": 34.95377856822232,
+        "max_energy_density": 72.7232078864331,
+        "occupied_fraction": 0.475,
+        "green_postcheck": true,
+        "headroom_vs_B7": 12.079439997716467,
+        "gain_vs_006D": 0.6749366525053445
+      },
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R3P75",
+        "nr": 20,
+        "nz": 2,
+        "radius": 3.75,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 32.56869061380768,
+        "acceleration": 0.9999999999969743,
+        "max_dec_violation": 0.0,
+        "max_conservation_residual": 2.3092638912203256e-14,
+        "radial_laue": 7.105427357601002e-15,
+        "vertical_laue": 2.8525431373832196e-16,
+        "trace_integral": 7.390681671339324e-15,
+        "active_mass_integral": 32.568690613807696,
+        "max_energy_density": 54.195143898937765,
+        "occupied_fraction": 0.475,
+        "green_postcheck": true,
+        "headroom_vs_B7": 12.964048076569135,
+        "gain_vs_006D": 0.7243639782450207
+      },
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R4P0",
+        "nr": 20,
+        "nz": 2,
+        "radius": 4.0,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 31.95358735639181,
+        "acceleration": 0.9999999999692961,
+        "max_dec_violation": 0.0,
+        "max_conservation_residual": 4.32888801115045e-14,
+        "radial_laue": 1.7763568394002505e-15,
+        "vertical_laue": 5.002122320435522e-16,
+        "trace_integral": 2.2765690714438024e-15,
+        "active_mass_integral": 31.953587356391807,
+        "max_energy_density": 44.352991961121894,
+        "occupied_fraction": 0.475,
+        "green_postcheck": true,
+        "headroom_vs_B7": 13.213604663510493,
+        "gain_vs_006D": 0.7383079100359564
+      },
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R4P25",
+        "nr": 20,
+        "nz": 2,
+        "radius": 4.25,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 31.837123802013952,
+        "acceleration": 0.9999999994670777,
+        "max_dec_violation": 0.0,
+        "max_conservation_residual": 6.495156477428072e-14,
+        "radial_laue": 8.881784197001252e-16,
+        "vertical_laue": -6.671891309940908e-17,
+        "trace_integral": 8.2145950660071615e-16,
+        "active_mass_integral": 31.837123802013956,
+        "max_energy_density": 39.14525435083764,
+        "occupied_fraction": 0.525,
+        "green_postcheck": true,
+        "headroom_vs_B7": 13.261941422032598,
+        "gain_vs_006D": 0.7410087181856748
+      },
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R4P5",
+        "nr": 20,
+        "nz": 2,
+        "radius": 4.5,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 32.20470642109565,
+        "acceleration": 0.9999999999732583,
+        "max_dec_violation": 2.55262477821816e-11,
+        "max_conservation_residual": 2.2214822152661893e-14,
+        "radial_laue": -3.552713678800501e-15,
+        "vertical_laue": 2.708571937216696e-16,
+        "trace_integral": -3.2818564850788315e-15,
+        "active_mass_integral": 32.20470642109564,
+        "max_energy_density": 35.31974835192651,
+        "occupied_fraction": 0.475,
+        "green_postcheck": true,
+        "headroom_vs_B7": 13.11057040506765,
+        "gain_vs_006D": 0.7325508883942305
+      },
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R4P701437",
+        "nr": 20,
+        "nz": 2,
+        "radius": 4.7014374053,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 32.37609818415572,
+        "acceleration": 0.9999999997480076,
+        "max_dec_violation": 5.750386833369703e-10,
+        "max_conservation_residual": 2.2688135679851078e-13,
+        "radial_laue": 4.440892098500626e-15,
+        "vertical_laue": 2.815680906907486e-15,
+        "trace_integral": 7.256573005408112e-15,
+        "active_mass_integral": 32.37609818415573,
+        "max_energy_density": 30.73396760000449,
+        "occupied_fraction": 0.475,
+        "green_postcheck": true,
+        "headroom_vs_B7": 13.04116600174312,
+        "gain_vs_006D": 0.7286729291794122
+      },
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R5P0",
+        "nr": 20,
+        "nz": 2,
+        "radius": 5.0,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 32.95475466694425,
+        "acceleration": 0.9999999999476894,
+        "max_dec_violation": 2.4587443192558567e-10,
+        "max_conservation_residual": 2.834803105096163e-14,
+        "radial_laue": 1.0658141036401503e-14,
+        "vertical_laue": 6.562145689089506e-16,
+        "trace_integral": 1.1314355605310453e-14,
+        "active_mass_integral": 32.954754666944254,
+        "max_energy_density": 27.65881433033882,
+        "occupied_fraction": 0.475,
+        "green_postcheck": true,
+        "headroom_vs_B7": 12.81217460653181,
+        "gain_vs_006D": 0.7158780739737349
+      },
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R5P5",
+        "nr": 20,
+        "nz": 2,
+        "radius": 5.5,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 34.73339867841094,
+        "acceleration": 0.9999999998399223,
+        "max_dec_violation": 1.123011017511999e-09,
+        "max_conservation_residual": 1.799921054058623e-13,
+        "radial_laue": 8.881784197001252e-16,
+        "vertical_laue": 1.5343655265807524e-15,
+        "trace_integral": 2.4225439462808776e-15,
+        "active_mass_integral": 34.73339867841094,
+        "max_energy_density": 24.09224855185644,
+        "occupied_fraction": 0.475,
+        "green_postcheck": true,
+        "headroom_vs_B7": 12.156082818660275,
+        "gain_vs_006D": 0.6792190570717946
+      },
+      {
+        "track": "A_UNCAPPED_RADIAL_SUPPORT",
+        "name": "RADIAL_R6P0",
+        "nr": 20,
+        "nz": 2,
+        "radius": 6.0,
+        "depth": 0.125,
+        "status": "optimal",
+        "solver": "CLARABEL",
+        "coefficient": 36.23812498368514,
+        "acceleration": 0.9999999988780831,
+        "max_dec_violation": 1.1099686503257544e-08,
+        "max_conservation_residual": 1.203289129848937e-12,
+        "radial_laue": -2.4868995751603507e-14,
+        "vertical_laue": 1.6703811494182907e-15,
+        "trace_integral": -2.3198614602185216e-14,
+        "active_mass_integral": 36.23812498368512,
+        "max_energy_density": 21.48296893518817,
+        "occupied_fraction": 0.8,
+        "green_postcheck": true,
+        "headroom_vs_B7": 11.651322222063047,
+        "gain_vs_006D": 0.6510156447076174
+      }
+    ],
+    "minimum_tested_feasible_R": 3.0,
+    "R99_below_threshold": false
+  },
+  "density_capacity": {
+    "base_cap_R5_thin_feasible": false,
+    "cap_is_obstruction": true,
+    "critical_multiplier_lower": 3.625,
+    "critical_multiplier_upper": 3.75
+  },
+  "base_cap_geometry": {
+    "green_count": 1,
+    "thickness_rescue": true,
+    "selected_R": 6.0,
+    "selected_depth": 1.0
+  },
+  "refinement": {
+    "attempted": true,
+    "green_both": true,
+    "C16": 49.93542295531682,
+    "C24": 39.9300176629455,
+    "conservative_C": 49.93542295531682,
+    "C_relerr": 0.20036688787685536,
+    "width24_min_cells": 6.06503208408947,
+    "independent_force": {
+      "acceleration_base": 0.9999999988817138,
+      "acceleration_independent": 0.9999999988817132,
+      "relative_error": 5.551115129333518e-16,
+      "pass": true,
+      "kernels_hi": [
+        [
+          -0.013838815489756257,
+          -0.018370020757055537,
+          -0.025536409643868906,
+          -0.03783437629544516
+        ],
+        [
+          -0.039409040634989165,
+          -0.051444699088902666,
+          -0.06966874958695324,
+          -0.09877958330815097
+        ],
+        [
+          -0.05948719179792227,
+          -0.07537528311563946,
+          -0.09760688914372503,
+          -0.12892618302504316
+        ],
+        [
+          -0.072596673491832,
+          -0.08861486627122056,
+          -0.10881491145226377,
+          -0.13301802831209739
+        ],
+        [
+          -0.07910262745900926,
+          -0.09280202846179644,
+          -0.10806521009879656,
+          -0.12303484262913619
+        ],
+        [
+          -0.08042527821033729,
+          -0.09081167533746447,
+          -0.1007668446593946,
+          -0.10806521009879655
+        ],
+        [
+          -0.07823298732759373,
+          -0.08531403844645138,
+          -0.09081167533746447,
+          -0.09280202846179644
+        ],
+        [
+          -0.07396595568772965,
+          -0.07823298732759373,
+          -0.08042527821033726,
+          -0.07910262745900927
+        ],
+        [
+          -0.06867892005080574,
+          -0.07075713022188143,
+          -0.07067826745482952,
+          -0.06744509789079856
+        ],
+        [
+          -0.0630634963152547,
+          -0.06353651003625292,
+          -0.06198328252759825,
+          -0.05774571817686007
+        ],
+        [
+          -0.057533809648469623,
+          -0.056880265664391305,
+          -0.054421479112578365,
+          -0.049738025316484635
+        ],
+        [
+          -0.052314721234833585,
+          -0.05090102635683301,
+          -0.04792538477856299,
+          -0.04312888907982408
+        ],
+        [
+          -0.04751132697829706,
+          -0.045606700819299587,
+          -0.04237235486133952,
+          -0.03765448689828876
+        ],
+        [
+          -0.04315732770849627,
+          -0.04095437703634823,
+          -0.037628931306725205,
+          -0.033094793164925404
+        ],
+        [
+          -0.03924636404631457,
+          -0.0368802477498583,
+          -0.03357002841463097,
+          -0.029272361595511463
+        ],
+        [
+          -0.03575135475791182,
+          -0.03331538042957934,
+          -0.03008584558335744,
+          -0.026046148002344664
+        ],
+        [
+          -0.03263597381270177,
+          -0.030193489492391333,
+          -0.0270831138029764,
+          -0.023304588259994905
+        ],
+        [
+          -0.029861198578168463,
+          -0.027454344761550398,
+          -0.02448394251368707,
+          -0.02095940621372302
+        ],
+        [
+          -0.02738886184398958,
+          -0.025044884504737016,
+          -0.022223827427602975,
+          -0.018940524259692542
+        ],
+        [
+          -0.02518342870685062,
+          -0.022919180620259952,
+          -0.020249529797094726,
+          -0.017192038637183098
+        ],
+        [
+          -0.023212749111437003,
+          -0.0210378782441535,
+          -0.018517123290571064,
+          -0.015669094268173117
+        ],
+        [
+          -0.021448238728020118,
+          -0.019367438186242165,
+          -0.016990308442073155,
+          -0.0143354770429986
+        ],
+        [
+          -0.01986475652900677,
+          -0.017879348723510192,
+          -0.01563900608834637,
+          -0.013161762641711752
+        ],
+        [
+          -0.018440335333179243,
+          -0.016549385514639955,
+          -0.01443820485211242,
+          -0.012123891351637548
+        ]
+      ]
+    },
+    "SCS_available": true,
+    "SCS_relerr": 1.5763376764367126e-07,
+    "SCS_pass": true,
+    "certified": false,
+    "headroom_vs_B7": 8.455361863783976,
+    "gain_vs_006D": 0.4724419040239072
+  },
+  "causal_diagnosis": "FROZEN_DENSITY_CAP_PRIMARY",
+  "decision": "YELLOW_024A4_INFEASIBILITY_CAUSE_IDENTIFIED_NO_NEW_CERTIFIED_STANDOFF_RECORD",
+  "next": "RERANK_006D_MICROSCOPIC_REALIZATION_VS_023C_023D_AND_ANALOGUE_ANTIGRAVITY",
+  "density_cap_fundamental": false,
+  "large_microscopic_solve_authorized": false,
+  "current_knowledge_heuristic": "APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY",
+  "claim_limits": {
+    "source_level_only": true,
+    "microscopic_realization": false,
+    "stability": false,
+    "nonlinear_GR": false,
+    "practical_device": false
+  }
+}

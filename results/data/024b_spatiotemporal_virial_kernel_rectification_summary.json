@@ -1,0 +1,168 @@
+{
+  "006D": {
+    "B7_C_reference": 422.222070908309,
+    "B7_to_006D_headroom": 17.897146277177207,
+    "c": 23.591586299249,
+    "relative_error_vs_reference": 0.0,
+    "returncode": 0
+  },
+  "absolute_scaling": {
+    "006D_E_1g_1m_J": 3.1153977479264292e+29,
+    "coefficient_one_E_1g_1m_J": 1.320554586032904e+28,
+    "ell_required_for_power_caps_1cm": {
+      "1e+03_W": 1.516993899621267e-32,
+      "1e+06_W": 1.516993899621267e-29,
+      "1e+09_W": 1.516993899621267e-26,
+      "1e+12_W": 1.516993899621267e-23
+    },
+    "ell_required_for_power_caps_1m": {
+      "1e+03_W": 1.5169938996212672e-34,
+      "1e+06_W": 1.5169938996212671e-31,
+      "1e+09_W": 1.5169938996212672e-28,
+      "1e+12_W": 1.516993899621267e-25
+    },
+    "inverse_G_scaling_removed": false,
+    "wall_opt_E_1g_1m_J": 2.796979497217238e+28,
+    "wall_opt_P_loss_1g_1m_ell1_W": 6.5919843201061e+36,
+    "wall_opt_delta_v_per_1g_pulse_m_per_s": 4.160962413506461e-08,
+    "wall_opt_tau_1m_xi1_s": 4.243000834644309e-09
+  },
+  "claim_classification": "PROJECT_DERIVED_024B_ANALYTIC_NUMERICAL_PULSE_PREFILTER_AND_RERANK_GATE",
+  "claim_limits": [
+    "NO_CONSERVED_PULSE_FIELD_SOLUTION",
+    "NO_DYNAMIC_GR_CERTIFICATION",
+    "NO_NONLINEAR_GR",
+    "NO_PRACTICAL_ENERGY_SOURCE",
+    "NO_EXPERIMENTAL_ANTIGRAVITY",
+    "NO_DEVICE"
+  ],
+  "decisions": {
+    "ANALOGUE_ANTIGRAVITY_RERANK": "ACTIVATE_IN_TANDEM",
+    "NEXT_PULSE": "024B1_CONSERVED_AXISYMMETRIC_STRING_BOUNDED_DOMAIN_WALL_COLLAPSE_WITH_RETARDED_LINEARIZED_GR",
+    "NEXT_STATIC": "RERANK_ONLY_GENUINELY_NEW_006D_MICROSCOPIC_REALIZATION_ARCHITECTURES",
+    "PULSE_FULL_CYCLE_FIELD_PROMOTION": "NO",
+    "PULSE_REMOVES_1_OVER_G": "NO",
+    "QWALL_DIRECT_ROUTE": "RED",
+    "STATIC_006D": "KEEP_AS_STRONGEST_CERTIFIED_TRUE_STANDOFF_SOURCE",
+    "STATIC_023C": "KEEP_AS_ACTUAL_FIELD_PROOF_STACK_FALLBACK",
+    "TOPOLOGICAL_COLLAPSING_WALL_PULSE": "YELLOW_PROMOTE_ONE_FOCUSED_DYNAMIC_FIELD_GATE"
+  },
+  "domain_wall_disk": {
+    "C_opt": 2.118033988749895,
+    "boundary_support_included": false,
+    "classification": "TRANSIENT_COLLAPSE_PREFILTER_ONLY",
+    "gain_vs_006D_at_C_opt": 11.138436127350918,
+    "source_level_ge10x_vs_006D": true,
+    "throughput_C_over_x_opt": 1.6650953383927807,
+    "x_opt_dense": 1.2720152880611522,
+    "x_opt_exact": 1.272019649514069
+  },
+  "dynamic_virial": {
+    "closed_cycle_integral_trace_stress": "ZERO",
+    "identity": "I_ddot=2*integral_trace_Tij",
+    "scalar_active_identity": "S=2*phidot^2-2*V",
+    "two_phase_global_active_cycle_over_E": 1.0,
+    "two_phase_q_cycle_over_E": 0.0
+  },
+  "qwall": {
+    "active_exact": 0.26666666666666666,
+    "active_numeric": 0.26666666666666666,
+    "active_over_energy": 0.11111111111111112,
+    "constitutive_classification": "NET_ACTIVE_ATTRACTIVE_AT_FINITE_ANALYTIC_PROFILE_AND_ACTIVE_NEUTRAL_ASYMPTOTICALLY",
+    "dec_violation": 0.0,
+    "direct_standoff_repulsion": "NO",
+    "energy_exact": 2.4,
+    "energy_numeric": 2.4,
+    "gross_negative_active": -0.3666666667557296,
+    "gross_positive_active": 0.6333333334223963,
+    "large_q_active_over_energy_inference": 0.0,
+    "normal_pressure_residual": 2.220446049250313e-16
+  },
+  "relaxed_spatiotemporal_rectifier": {
+    "delta_1_C": 2.0,
+    "delta_1_eta": 0.5,
+    "delta_1_gain_vs_006D": 11.7957931496245,
+    "field_solution": false,
+    "global_virial_closed": true,
+    "local_conservation_solved": false,
+    "main_scan": {
+      "delta_0.45": {
+        "C": 20.51219512195122,
+        "eta": 0.04875148632580262,
+        "gain_vs_006D": 1.1501248968718298
+      },
+      "delta_0.5": {
+        "C": 8.999999999999996,
+        "eta": 0.11111111111111116,
+        "gain_vs_006D": 2.621287366583223
+      },
+      "delta_0.75": {
+        "C": 2.88235294117647,
+        "eta": 0.34693877551020413,
+        "gain_vs_006D": 8.184836063004756
+      },
+      "delta_1": {
+        "C": 2.0,
+        "eta": 0.5,
+        "gain_vs_006D": 11.7957931496245
+      },
+      "delta_1.5": {
+        "C": 1.4705882352941178,
+        "eta": 0.6799999999999999,
+        "gain_vs_006D": 16.042278683489318
+      },
+      "delta_2": {
+        "C": 1.2857142857142856,
+        "eta": 0.7777777777777778,
+        "gain_vs_006D": 18.349011566082556
+      },
+      "delta_3": {
+        "C": 1.1428571428571428,
+        "eta": 0.875,
+        "gain_vs_006D": 20.642638011842873
+      },
+      "delta_4": {
+        "C": 1.0869565217391304,
+        "eta": 0.92,
+        "gain_vs_006D": 21.70425939530908
+      }
+    },
+    "outward_threshold_delta": 0.41421356237309515,
+    "retarded_gravity_included": false,
+    "transport_T0i_included": false
+  },
+  "stress_archetypes": {
+    "nambu_string": {
+      "S_over_rho": 0.0,
+      "p_over_rho": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stiff_scalar_reset": {
+      "S_over_rho": 4.0,
+      "p_over_rho": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "topological_domain_wall": {
+      "S_over_rho": -1.0,
+      "p_over_rho": [
+        0.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    "vacuum_like_scalar_phase": {
+      "S_over_rho": -2.0,
+      "p_over_rho": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    }
+  }
+}

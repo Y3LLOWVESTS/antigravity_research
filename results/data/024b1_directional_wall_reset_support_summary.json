@@ -1,0 +1,152 @@
+{
+  "006D": {
+    "c": 23.591586299249,
+    "relative_error": 0.0,
+    "returncode": 0
+  },
+  "claim_classification": "PROJECT_DERIVED_024B1_THIN_DEFECT_DYNAMIC_IMPULSE_AND_SUPPORT_PREFILTER",
+  "claim_limits": [
+    "NO_MICROSCOPIC_DYNAMIC_FIELD",
+    "NO_COMPLETE_FORMATION_RESET_CYCLE",
+    "NO_ANNIHILATION_RADIATION_LEDGER",
+    "NO_FINITE_PAYLOAD_DYNAMIC_AVERAGING",
+    "NO_NONLINEAR_GR",
+    "NO_PRACTICAL_DEVICE"
+  ],
+  "decisions": {
+    "FREE_TWO_BOUNDARY_HOLE_ANNIHILATION": "RED_IN_TESTED_CLASS",
+    "HELD_RIM_OUTWARD_HOLE": "YELLOW_TARGET_EXISTS",
+    "NATURAL_INWARD_COLLAPSE": "RED",
+    "NEXT_PULSE": "024B2_LOW_ACTIVE_STABILIZED_RIM_EOS_AND_TRANSIENT_STABILITY_INTERSECTION",
+    "NEXT_STATIC": "CONTINUE_GENUINELY_NEW_006D_MICROSCOPIC_REALIZATION_RERANK_IN_PARALLEL",
+    "PRACTICAL_ANTIGRAVITY_DEVICE": "NO",
+    "PULSE_BRANCH": "YELLOW_HELD_RIM_TARGET_ONLY",
+    "PULSE_EFFECTIVE_FIELD_PROMOTION": "NO"
+  },
+  "free_two_boundary_annulus": {
+    "coarse_cases": 675,
+    "decision": "RED_IN_TESTED_FREE_CLASS",
+    "ge10_positive_eta_cases": 0,
+    "positive_eta_cases": 0,
+    "reference": {
+      "c_initial": 1.9273425180062627,
+      "eta_inner_string_attraction": 0.0029534648154953143,
+      "eta_outer_string_attraction": 0.45666992545660334,
+      "eta_total": -0.30601172396254533,
+      "eta_wall": 0.15361166630955334,
+      "gain_vs_006d": 12.24047416525283,
+      "kappa": 1.02,
+      "meeting_radius_over_h": 0.2008050044573662,
+      "q_inner": 0.18,
+      "q_outer": 0.18,
+      "tau_to_meeting": 0.5511196725678756,
+      "x0": 0.6666666666666666
+    }
+  },
+  "held_rim_center_out_hole": {
+    "best_ge10_eta_case": {
+      "c_initial_chi0": 2.2961842692826124,
+      "chi_max_gain10": 0.07048056795660826,
+      "chi_max_positive_reset": 1.354309064162079,
+      "eta_inner_string_attraction": 0.17852288486189088,
+      "eta_total_chi0": 0.3358274742685167,
+      "eta_wall": 0.5143503591304076,
+      "extra_inert_energy_margin_for_10x": 0.027425656331127923,
+      "gain_vs_006d_chi0": 10.274256563311281,
+      "kappa": 1.01,
+      "outer_kernel": 0.5306746044371243,
+      "outer_rim_energy_fraction": 0.31081515458419895,
+      "q": 0.2382984704172845,
+      "r0_over_h": 0.17449405496305653,
+      "tau_reset": 1.5033771580837594,
+      "x0": 0.7249999999999999
+    },
+    "best_ge10_support20_eta_case": {
+      "c_initial_chi0": 1.9269375592659088,
+      "chi_max_gain10": 0.5944921535481911,
+      "chi_max_positive_reset": 1.5024435081370995,
+      "eta_inner_string_attraction": 0.19689510581520484,
+      "eta_total_chi0": 0.2879246038244976,
+      "eta_wall": 0.48481970963970245,
+      "extra_inert_energy_margin_for_10x": 0.22430465822859924,
+      "gain_vs_006d_chi0": 12.243046582285993,
+      "kappa": 1.01,
+      "outer_kernel": 0.5975251139766683,
+      "outer_rim_energy_fraction": 0.26765715578143734,
+      "q": 0.18928720334405796,
+      "r0_over_h": 0.12235524824159905,
+      "tau_reset": 1.198244941731,
+      "x0": 0.6399999999999999
+    },
+    "decision": "YELLOW_SUPPORT_DEPENDENT_TARGET",
+    "dense_cases": 8405,
+    "fixed_reference": {
+      "c_initial_chi0": 1.9273425180062624,
+      "chi_max_gain10": 0.6376634616546826,
+      "chi_max_positive_reset": 1.4344137172940539,
+      "eta_inner_string_attraction": 0.20554056191674785,
+      "eta_total_chi0": 0.24326774031844062,
+      "eta_wall": 0.44880830223518847,
+      "extra_inert_energy_margin_for_10x": 0.22404741652528326,
+      "gain_vs_006d_chi0": 12.240474165252833,
+      "kappa": 1.02,
+      "outer_kernel": 0.5760348191569687,
+      "outer_rim_energy_fraction": 0.2585488012011373,
+      "q": 0.18,
+      "r0_over_h": 0.1224,
+      "tau_reset": 1.1387249259543566,
+      "x0": 0.6666666666666666
+    },
+    "fixed_reference_delta_v_stage_1g_1m_m_per_s": 1.5337105180407424e-08,
+    "ge10_positive_eta_cases": 4545,
+    "ge10_support20_positive_eta_cases": 3457,
+    "outer_rim_physically_stabilized": false,
+    "positive_eta_cases": 8405
+  },
+  "outer_edge_collapse": {
+    "C_wall_024b": 2.118033988749895,
+    "analytic_ultra_impulse_negative_for_every_x_positive": true,
+    "best_eta_case": {
+      "c_initial": 1.0018846286086185,
+      "eta_string_attraction": 0.06661707765076427,
+      "eta_total": -0.04996905009911214,
+      "eta_wall": 0.016648027551652126,
+      "final_string_active_over_energy": 2.0,
+      "gain_vs_006d": 23.547208556350594,
+      "lam": 100000.0,
+      "max_force_per_energy": 0.9981189165351164,
+      "min_force_per_energy": -2.0,
+      "tau_collapse": 0.05000025577822935,
+      "x0": 0.05
+    },
+    "decision": "RED_AS_NATURAL_RESET",
+    "delta_v_stage_1g_1m_m_per_s": -6.73266676198822e-08,
+    "dense_cases": 2601,
+    "ge10_cases": 1539,
+    "ge10_positive_eta_cases": 0,
+    "positive_eta_cases": 0,
+    "ultra_eta_exact": -0.9717365435132914,
+    "ultra_eta_numeric": -0.9717365764860895,
+    "x_024b": 1.272019649514069,
+    "xopt_lambda1e5": {
+      "c_initial": 2.1180551690897826,
+      "eta_string_attraction": 1.2322345831334676,
+      "eta_total": -0.9717395492624198,
+      "eta_wall": 0.26049503387104783,
+      "final_string_active_over_energy": 1.9999999999999996,
+      "gain_vs_006d": 11.138324744103477,
+      "lam": 100000.0,
+      "max_force_per_energy": 0.47213123368724247,
+      "min_force_per_energy": -1.9999999999999996,
+      "tau_collapse": 1.2720260108604897,
+      "x0": 1.272019649514069
+    }
+  },
+  "retarded_impulse_identity": {
+    "axisymmetric_in_plane_defect_has_T0z_on_axis": 0.0,
+    "formation_reset_still_mandatory": true,
+    "full_cycle_retardation_changes_waveform_not_integrated_impulse": true,
+    "requires_compact_complete_history": true,
+    "requires_endpoint_h0z_term_to_vanish": true
+  }
+}
