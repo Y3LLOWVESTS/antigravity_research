@@ -1,0 +1,59 @@
+{
+  "claim_class": "FINITE_SUPPORT_ORACLE_AND_FINITE_SENSITIVITY_PREFLIGHT",
+  "true_antigravity_target": true,
+  "microscopic_source": false,
+  "practical_device": false,
+  "geometry_pass": true,
+  "halfspace_bound_pass": true,
+  "basis_convergence_pass": true,
+  "one_tj_candidate_alpha_m5_mono_le_0p1": true,
+  "strong_1e11_candidate_alpha_m10_mono_le_0p1": true,
+  "net_neutral_1tj_candidate_alpha_m5": true,
+  "classification": "GREEN_FINITE_SUPPORT_PARETO_SURVIVES_OPTIMISTIC_1E11_GATE",
+  "next": "031A_R3_PROTECTED_CHARGE_ACTIVATION_EFT_NATURALNESS_GATE",
+  "payload_radius_m": 0.1,
+  "clearance_m": 1.0,
+  "center_to_source_support_m": 1.1,
+  "blob_radius_m": 0.055,
+  "alpha_m_values": [
+    1.0,
+    2.0,
+    3.0,
+    3.125,
+    5.0,
+    10.0
+  ],
+  "alpha_x_grid": [
+    100000000000000.0,
+    177827941003892.28,
+    316227766016837.94,
+    562341325190349.06,
+    1000000000000000.0,
+    1778279410038922.8,
+    3162277660168379.5,
+    5623413251903491.0,
+    1e+16,
+    1.7782794100389228e+16,
+    3.162277660168379e+16,
+    5.623413251903491e+16,
+    1e+17,
+    1.778279410038923e+17,
+    3.1622776601683795e+17,
+    5.6234132519034906e+17,
+    1e+18
+  ],
+  "leakage_cases": [
+    1.0,
+    0.1,
+    0.01,
+    0.0
+  ],
+  "omitted_costs": [
+    "microscopic realization",
+    "stabilization",
+    "activation gate field",
+    "support control",
+    "full radiative corrections",
+    "off-state empirical leakage"
+  ]
+}

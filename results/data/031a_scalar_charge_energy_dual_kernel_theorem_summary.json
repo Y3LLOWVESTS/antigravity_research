@@ -1,0 +1,358 @@
+{
+  "checks": [
+    {
+      "a": 159820482297.95325,
+      "b": 159820482297.95325,
+      "name": "CAVITY_LAMBDA_inf",
+      "passed": true,
+      "relerr": 0.0
+    },
+    {
+      "a": 958922893787.7195,
+      "b": 958922893787.7197,
+      "name": "HALFSPACE_LAMBDA_inf",
+      "passed": true,
+      "relerr": 2.5459880724679656e-16
+    },
+    {
+      "a": 166995162033.82834,
+      "b": 166995162033.82834,
+      "name": "CAVITY_LAMBDA_3.3000000000000003",
+      "passed": true,
+      "relerr": 0.0
+    },
+    {
+      "a": 988614943475.036,
+      "b": 988614947610.4705,
+      "name": "HALFSPACE_LAMBDA_3.3000000000000003",
+      "passed": true,
+      "relerr": 4.183058791734568e-09
+    },
+    {
+      "a": 232147802663.13004,
+      "b": 232147802663.12973,
+      "name": "CAVITY_LAMBDA_1.1",
+      "passed": true,
+      "relerr": 1.3145753599608305e-15
+    },
+    {
+      "a": 1414766896470.3552,
+      "b": 1414766904959.0623,
+      "name": "HALFSPACE_LAMBDA_1.1",
+      "passed": true,
+      "relerr": 6.000074642328186e-09
+    },
+    {
+      "a": 584105167051.0521,
+      "b": 584105167051.0499,
+      "name": "CAVITY_LAMBDA_0.55",
+      "passed": true,
+      "relerr": 3.761763718155833e-15
+    },
+    {
+      "a": 4000812964234.879,
+      "b": 4000812989368.5054,
+      "name": "HALFSPACE_LAMBDA_0.55",
+      "passed": true,
+      "relerr": 6.2821297900282215e-09
+    },
+    {
+      "a": 1.000091830376129,
+      "b": 1.0000918303761328,
+      "name": "PAYLOAD_FACTOR_LAMBDA_3.3000000000000003",
+      "passed": true,
+      "relerr": 3.774411678081454e-15
+    },
+    {
+      "a": 1.0008266902517051,
+      "b": 1.0008266902517093,
+      "name": "PAYLOAD_FACTOR_LAMBDA_1.1",
+      "passed": true,
+      "relerr": 4.215362694328774e-15
+    },
+    {
+      "a": 1.0033096904482033,
+      "b": 1.0033096904482068,
+      "name": "PAYLOAD_FACTOR_LAMBDA_0.55",
+      "passed": true,
+      "relerr": 3.5409940845018683e-15
+    },
+    {
+      "a": 8.002500812007625e-11,
+      "b": 8.002502353363324e-11,
+      "name": "SPHERE_FIELD_VS_SOURCE_X0",
+      "passed": true,
+      "relerr": 1.9260921531783147e-07
+    },
+    {
+      "a": 8.002502353363324e-11,
+      "b": 8.009159999999998e-11,
+      "name": "SPHERE_SOURCE_VS_EXACT_X0",
+      "passed": true,
+      "relerr": 0.0008312540437043308
+    },
+    {
+      "a": 0.9999999999999999,
+      "b": 1.0,
+      "name": "SPHERE_QFAR_VS_EXACT_X0",
+      "passed": true,
+      "relerr": 1.1102230246251565e-16
+    },
+    {
+      "a": 7.216382322277772e-11,
+      "b": 7.216398306492358e-11,
+      "name": "FINITE_SHELL_FIELD_VS_SOURCE_X0",
+      "passed": true,
+      "relerr": 2.2149850807409417e-06
+    },
+    {
+      "a": 6.671525213619777e-11,
+      "b": 6.6743e-11,
+      "name": "THIN_SHELL_NUM_VS_EXACT_X0",
+      "passed": true,
+      "relerr": 0.00041574193252059293
+    },
+    {
+      "a": 3.7624907562035516e-11,
+      "b": 3.7624908977500395e-11,
+      "name": "SPHERE_FIELD_VS_SOURCE_X1",
+      "passed": true,
+      "relerr": 3.762042002318272e-08
+    },
+    {
+      "a": 3.7624908977500395e-11,
+      "b": 3.7640709436897665e-11,
+      "name": "SPHERE_SOURCE_VS_EXACT_X1",
+      "passed": true,
+      "relerr": 0.0004197704993780449
+    },
+    {
+      "a": 1.1036919873501612,
+      "b": 1.103638323514327,
+      "name": "SPHERE_QFAR_VS_EXACT_X1",
+      "passed": true,
+      "relerr": 4.8622112373038056e-05
+    },
+    {
+      "a": 3.221323615975543e-11,
+      "b": 3.22132496489194e-11,
+      "name": "FINITE_SHELL_FIELD_VS_SOURCE_X1",
+      "passed": true,
+      "relerr": 4.1874583029848713e-07
+    },
+    {
+      "a": 2.884682262569074e-11,
+      "b": 2.8855158595469378e-11,
+      "name": "THIN_SHELL_NUM_VS_EXACT_X1",
+      "passed": true,
+      "relerr": 0.0002888901043831431
+    },
+    {
+      "a": 1.2303518695691099e-11,
+      "b": 1.2303518004175263e-11,
+      "name": "SPHERE_FIELD_VS_SOURCE_X3",
+      "passed": true,
+      "relerr": 5.62047210852856e-08
+    },
+    {
+      "a": 1.2303518004175263e-11,
+      "b": 1.2310795746214149e-11,
+      "name": "SPHERE_SOURCE_VS_EXACT_X3",
+      "passed": true,
+      "relerr": 0.0005911674751914032
+    },
+    {
+      "a": 2.2436124346581265,
+      "b": 2.2427901177692657,
+      "name": "SPHERE_QFAR_VS_EXACT_X3",
+      "passed": true,
+      "relerr": 0.0003665146779176723
+    },
+    {
+      "a": 1.1261756724891095e-11,
+      "b": 1.1261765260067915e-11,
+      "name": "FINITE_SHELL_FIELD_VS_SOURCE_X3",
+      "passed": true,
+      "relerr": 7.578897821976852e-07
+    },
+    {
+      "a": 1.1087931032510576e-11,
+      "b": 1.109626010724546e-11,
+      "name": "THIN_SHELL_NUM_VS_EXACT_X3",
+      "passed": true,
+      "relerr": 0.0007506199975831921
+    }
+  ],
+  "claim_limits": [
+    "No microscopic source or activation field is constructed.",
+    "All theorem energies are optimistic lower bounds.",
+    "No negative interaction-energy cancellation is credited.",
+    "The half-space optimum need not be attainable by a finite compact source.",
+    "The uniform disk is a comparator, not an optimized physical realization.",
+    "The embedded neutral shell is explicitly two-sided and cannot be promoted as true stand-off.",
+    "Full source/scalar/gate/support T_munu, GR backreaction, stability, EFT and empirical leakage remain mandatory."
+  ],
+  "classification": "GREEN_FOR_ONE_SIDED_PARETO_MORPHOLOGY_ONLY",
+  "generated_utc": "2026-09-03T17:50:39.342373+00:00",
+  "next": "031A_R2_ONE_SIDED_LENS_PARETO_ENERGY_QABS_LEAKAGE",
+  "normalization_pass": true,
+  "primary": {
+    "acceleration_m_s2": 9.80665,
+    "alpha_m_min_field_only_1e11j": 3.096648016465093,
+    "alpha_m_min_field_only_1tj": 0.9792460843872287,
+    "alpha_product_floor_ignore_field": 7989355245499072.0,
+    "cavity_floor_alpha1_j": 159820482297.95325,
+    "clearance_m": 1.0,
+    "d_m": 1.1,
+    "dual_scan": [
+      {
+        "abs_alpha_x_floor": 1.9449654520966605e+17,
+        "alpha_m": 1.0,
+        "alpha_product_floor_with_field": 1.9449654520966605e+17,
+        "field_energy_floor_j": 958922893787.7195,
+        "fx_scale_gev_max": 12.519502582295667,
+        "qabs_floor_kg": 88893565617.36813,
+        "qabs_per_source_joule_floor_kg_per_j": 2.164065919297701,
+        "scan": "PHYSICAL",
+        "source_energy_budget_max_j": 41077106212.28052,
+        "status": "ok"
+      },
+      {
+        "abs_alpha_x_floor": 5254293111594245.0,
+        "alpha_m": 2.0,
+        "alpha_product_floor_with_field": 1.050858622318849e+16,
+        "field_energy_floor_j": 239730723446.92987,
+        "fx_scale_gev_max": 463.43056016933514,
+        "qabs_floor_kg": 44446782808.68407,
+        "qabs_per_source_joule_floor_kg_per_j": 0.05846189525137478,
+        "scan": "PHYSICAL",
+        "source_energy_budget_max_j": 760269276553.0701,
+        "status": "ok"
+      },
+      {
+        "abs_alpha_x_floor": 2980703383378857.5,
+        "alpha_m": 3.0,
+        "alpha_product_floor_with_field": 8942110150136572.0,
+        "field_energy_floor_j": 106546988198.63548,
+        "fx_scale_gev_max": 816.921272199765,
+        "qabs_floor_kg": 29631188539.12271,
+        "qabs_per_source_joule_floor_kg_per_j": 0.03316479786595696,
+        "scan": "PHYSICAL",
+        "source_energy_budget_max_j": 893453011801.3645,
+        "status": "ok"
+      },
+      {
+        "abs_alpha_x_floor": 1661605095770563.5,
+        "alpha_m": 5.0,
+        "alpha_product_floor_with_field": 8308025478852818.0,
+        "field_energy_floor_j": 38356915751.50878,
+        "fx_scale_gev_max": 1465.4504889266589,
+        "qabs_floor_kg": 17778713123.473625,
+        "qabs_per_source_joule_floor_kg_per_j": 0.018487850029480956,
+        "scan": "PHYSICAL",
+        "source_energy_budget_max_j": 961643084248.4912,
+        "status": "ok"
+      },
+      {
+        "abs_alpha_x_floor": 806670876259881.1,
+        "alpha_m": 10.0,
+        "alpha_product_floor_with_field": 8066708762598811.0,
+        "field_energy_floor_j": 9589228937.877195,
+        "fx_scale_gev_max": 3018.5792888542665,
+        "qabs_floor_kg": 8889356561.736813,
+        "qabs_per_source_joule_floor_kg_per_j": 0.008975423956873783,
+        "scan": "PHYSICAL",
+        "source_energy_budget_max_j": 990410771062.1228,
+        "status": "ok"
+      },
+      {
+        "alpha_m": 0.625,
+        "scan": "BLIND_WILDCARD",
+        "status": "field_floor_exceeds_target"
+      },
+      {
+        "abs_alpha_x_floor": 7983980498627947.0,
+        "alpha_m": 1.6,
+        "alpha_product_floor_with_field": 1.2774368797804716e+16,
+        "field_energy_floor_j": 374579255385.8278,
+        "fx_scale_gev_max": 304.9857148847566,
+        "qabs_floor_kg": 55558478510.85508,
+        "qabs_per_source_joule_floor_kg_per_j": 0.08883376349329382,
+        "scan": "BLIND_WILDCARD",
+        "source_energy_budget_max_j": 625420744614.1721,
+        "status": "ok"
+      },
+      {
+        "abs_alpha_x_floor": 5859126508681720.0,
+        "alpha_m": 1.875,
+        "alpha_product_floor_with_field": 1.0985862203778224e+16,
+        "field_energy_floor_j": 272760289788.5069,
+        "fx_scale_gev_max": 415.5909582071586,
+        "qabs_floor_kg": 47409901662.59634,
+        "qabs_per_source_joule_floor_kg_per_j": 0.06519157438309958,
+        "scan": "BLIND_WILDCARD",
+        "source_energy_budget_max_j": 727239710211.4932,
+        "status": "ok"
+      },
+      {
+        "abs_alpha_x_floor": 2834969871931170.5,
+        "alpha_m": 3.125,
+        "alpha_product_floor_with_field": 8859280849784908.0,
+        "field_energy_floor_j": 98193704323.86247,
+        "fx_scale_gev_max": 858.915653428545,
+        "qabs_floor_kg": 28445940997.5578,
+        "qabs_per_source_joule_floor_kg_per_j": 0.03154329386914536,
+        "scan": "BLIND_WILDCARD",
+        "source_energy_budget_max_j": 901806295676.1376,
+        "status": "ok"
+      },
+      {
+        "abs_alpha_x_floor": 1661605095770563.5,
+        "alpha_m": 5.0,
+        "alpha_product_floor_with_field": 8308025478852818.0,
+        "field_energy_floor_j": 38356915751.50878,
+        "fx_scale_gev_max": 1465.4504889266589,
+        "qabs_floor_kg": 17778713123.473625,
+        "qabs_per_source_joule_floor_kg_per_j": 0.018487850029480956,
+        "scan": "BLIND_WILDCARD",
+        "source_energy_budget_max_j": 961643084248.4912,
+        "status": "ok"
+      }
+    ],
+    "embedded_neutral_shell_control": {
+      "field_energy_j": 479461446893.85974,
+      "net_charge_kg": 0.0,
+      "over_cavity": 3.0,
+      "qabs_kg": 133340348426.0522
+    },
+    "halfspace_floor_alpha1_j": 958922893787.7195,
+    "halfspace_over_cavity": 6.0,
+    "long_range_bd_reference_alpha_m": 0.0013362990508363818,
+    "payload_radius_m": 0.1,
+    "target_j": 1000000000000.0,
+    "uniform_disk": {
+      "field_energy_j": 2135680846770.6558,
+      "qabs_kg": 119654472774.5748,
+      "radius_m": 0.7595845124136119,
+      "radius_over_d": 0.6905313749214653
+    }
+  },
+  "secondary": {
+    "acceleration_m_s2": 0.980665,
+    "alpha_product_floor_ignore_field": 79893552.4549907,
+    "clearance_m": 0.01,
+    "d_m": 0.011,
+    "dual_alpha_m1": {
+      "abs_alpha_x_floor": 79893552.45575681,
+      "alpha_product_floor_with_field": 79893552.45575681,
+      "field_energy_floor_j": 9589.228937877193,
+      "fx_scale_gev_max": 30478053924.92024,
+      "qabs_floor_kg": 888935.6561736811,
+      "qabs_per_source_joule_floor_kg_per_j": 8.889356561822054e-10,
+      "source_energy_budget_max_j": 999999999990410.8
+    },
+    "halfspace_floor_alpha1_j": 9589.228937877193,
+    "payload_radius_m": 0.001,
+    "target_j": 1000000000000000.0
+  }
+}
