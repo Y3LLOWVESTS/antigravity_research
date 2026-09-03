@@ -1,0 +1,57 @@
+{
+  "backreaction_target_pass": true,
+  "base_extrema": {
+    "adverse_max_mps2": 10.49817720520869,
+    "adverse_min_mps2": 9.819147594149598,
+    "backreaction_max": 0.0008332965730100412,
+    "energy_max_J": 605145876423.8419,
+    "energy_min_J": 536328068122.4647
+  },
+  "base_provenance_pass": true,
+  "claim_class": "ANALYTIC_SCALING_THEOREM_PLUS_DIRECT_BVP_VALIDATION",
+  "claim_limits": [
+    "X density profile remains prescribed.",
+    "Full source/support conservation is not established.",
+    "Nonradial stability is not established.",
+    "EFT/radiative naturalness is not established.",
+    "The alpha_m value is an activated on-state coupling.",
+    "Empirical off-state closure remains to be demonstrated beyond the exact Z2 linear null.",
+    "The 83-GJ recovery uses a scaling symmetry of the R4 prescribed-source model and must survive microscopic source realization."
+  ],
+  "classification": "GREEN_Z2_SCALING_RECOVERS_83GJ_CLASSICAL_TARGET_WITH_ONSTATE_ALPHA_M_APPROX27_SOURCE_REALIZATION_AND_EFT_OPEN",
+  "convergence_pass": true,
+  "direct_scaling_pass": true,
+  "direct_target_extrema": {
+    "adverse_max_mps2": 10.484815357170122,
+    "adverse_min_mps2": 9.806649999999996,
+    "backreaction_max": 0.006086035130179347,
+    "energy_max_J": 82750782014.30057,
+    "energy_min_J": 73340278406.30669
+  },
+  "energy_target_pass": true,
+  "field_amplitude_over_MX": 2.452303529195166,
+  "force_target_pass": true,
+  "full_local_conservation": false,
+  "full_source_realization": false,
+  "gradient_momentum_over_MX": 2.55147312826531e-16,
+  "ln_A_m_near": 1.0190071493993551e-16,
+  "next": "031B1_B7_FIXED_FIELD_Z2_CHARGE_TOMOGRAPHY_PLUS_031B2_QBALL_SCALING_PREFLIGHT",
+  "practical_device": false,
+  "radial_hessian_target_m2inv": 0.10566606237034612,
+  "radial_stability_scaling_pass": true,
+  "radiative_naturalness_closed": false,
+  "scaling": {
+    "M_X_required_gev": 30.93538053981517,
+    "M_m_nominal_required_gev": 1287098267.0915184,
+    "alpha_m_cap_max_1pct_backreaction": 34.61972756004626,
+    "alpha_m_cap_required": 27.007903507182004,
+    "alpha_x_center_nominal_required": -1.930268511132369e+17,
+    "energy_floor_1pct_backreaction_J": 50362416638.88468,
+    "force_factor": 0.9987272220903325,
+    "mx_scale_required": 0.3697907250833996,
+    "phi_center_nominal_required_gev": 75.86294287478421,
+    "predicted_max_backreaction": 0.006086035130179348
+  },
+  "target_acceleration_mps2": 9.80665,
+  "target_energy_J": 82750782014.3006
+}

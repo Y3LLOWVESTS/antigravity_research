@@ -1,0 +1,3178 @@
+"""
+031B2-A
+=======
+
+Independent global-U(1) Q-ball activated-scalar control.
+
+PURPOSE
+-------
+031A-R4S established an 82.750782-GJ nonlinear scalar-field target for
+finite-payload 1-g true stand-off in the prescribed-source theory.
+
+031B1-A showed that the existing B7 e4 morphology could preserve that target
+at fixed assigned scalar sensitivity.
+
+031B1-B0 then falsified the minimal exact local-Z2 e4 realization:
+nonlinear self-consistency restored a ~0.58-TJ minimum and strongly weakened
+the Skyrme stabilizing term.
+
+Per the buildplan, do NOT add arbitrary B7 operators.
+
+This run executes the independent microscopic source control:
+
+    GLOBAL U(1) Q-BALL
+
+with a manifestly positive source Hamiltonian and an exact local Z2 scalar
+coupling.
+
+SOURCE MODEL
+------------
+Write
+
+    X = sigma(r) exp(-i omega t) / sqrt(2)
+
+and define
+
+    y = sigma/F
+    u = phi/Mc
+    x = mX r
+    Omega = omega/mX
+    epsilon = mphi/mX
+    chi = F/Mc.
+
+Use the positive logarithmic/flat source potential
+
+    U_X
+      = mX^2 F^2
+        exp(-u^2/2)
+        W(y)
+
+    W(y)
+      = 1/2 log(1 + y^2).
+
+Properties:
+
+    W >= 0
+    W ~ y^2/2 near y=0
+    W/y^2 -> 0 at large y
+
+so the vacuum particle mass is mX and the source has the standard
+sub-quadratic property required for global Q-ball solutions.
+
+The coupled radial equations are
+
+    y'' + 2 y'/x
+      = exp(-u^2/2) y/(1+y^2)
+        - Omega^2 y
+
+    u'' + 2 u'/x
+      = epsilon^2 u
+        - chi^2 exp(-u^2/2) W(y) u.
+
+No scalar charge density is prescribed.
+
+The scalar charge emerges from the solved coupled fields.
+
+ORDINARY MATTER
+---------------
+Ordinary neutral matter follows
+
+    A_m(phi)
+      = exp(phi^2/(2 Mm^2)).
+
+The run fixes the maximum activated ordinary-matter sensitivity at the near
+payload surface to the already established R4S value
+
+    |alpha_m| = 27.0079...
+
+and solves for the source amplitude scale F required to obtain 1 g after
+including ordinary GR attraction.
+
+ENERGY LEDGER
+-------------
+Actual on-state:
+
+    E_on
+      = E_X,on + E_phi.
+
+Conservative inventory:
+
+    E_inventory
+      = E_X evaluated with the Z2 suppression removed
+        at the same field profile
+        + E_phi.
+
+Thus the run does NOT credit the scalar-induced reduction of source
+potential energy as free negative energy.
+
+STABILITY / CONSERVATION
+------------------------
+The run evaluates:
+
+    exact conserved U(1) Noether charge Q
+
+    E_on / (Q mX)
+
+    full radial rho, p_r, p_t
+
+    DEC
+
+    local radial stress conservation
+
+    scalar fixed-X radial Hessian
+
+    scalar field energy identity
+
+The Noether condition
+
+    E_on/Q < mX
+
+is an absolute stability check against decay into free X quanta.
+
+It is NOT a complete proof against every nonlinear fragmentation mode.
+
+STAND-OFF
+---------
+The complete source is required to have <= 1e-4 of its X energy outside the
+declared 0.95-m source radius.
+
+X-field energy overlapping the finite payload radial interval must be
+<= 1e-10 of total X energy.
+
+The scalar/metric field itself is allowed to extend through the payload.
+
+The payload has:
+
+    radius = 0.10 m
+    source-surface clearance = 1.00 m
+    center = 2.05 m.
+
+The run directly evaluates:
+
+    full finite-payload surface angular scan
+    payload CM volume average
+    ordinary GR attraction
+    scalar metric acceleration.
+
+CLAIM LIMITS
+------------
+This is still a radial microscopic-source preflight.
+
+It does NOT establish:
+
+    full nonradial dynamical stability
+    radiative naturalness
+    UV completion of the logarithmic potential
+    experimental fifth-force closure
+    practical device construction.
+
+026C N89 remains mandatory in parallel.
+"""
+
+from __future__ import annotations
+
+import csv
+import json
+import math
+from pathlib import Path
+from typing import Any
+
+import numpy as np
+
+from scipy.integrate import (
+    cumulative_trapezoid,
+    quad,
+    solve_bvp,
+)
+
+from scipy.linalg import eigh_tridiagonal
+
+from scipy.optimize import brentq
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+DATA = ROOT / "results" / "data"
+
+
+R4S_SUMMARY = (
+    DATA
+    /
+    "031a_r4s_z2_scaling_83gj_recovery_summary.json"
+)
+
+B1B0_SUMMARY = (
+    DATA
+    /
+    "031b1b0_b7_e4_exact_z2_selfconsistency_summary.json"
+)
+
+OUT_JSON = (
+    DATA
+    /
+    "031b2a_global_qball_activated_scalar_control_summary.json"
+)
+
+OUT_CSV = (
+    DATA
+    /
+    "031b2a_global_qball_activated_scalar_control_scan.csv"
+)
+
+
+G = 6.67430e-11
+
+C = 299_792_458.0
+
+G0 = 9.80665
+
+
+MPL_GEV = 2.435e18
+
+HBARC_GEV_M = 1.973269804e-16
+
+J_PER_GEV = 1.602176634e-10
+
+J_M3_TO_GEV4 = (
+    (1.0 / J_PER_GEV)
+    *
+    HBARC_GEV_M**3
+)
+
+
+SOURCE_RADIUS_M = 0.95
+
+PAYLOAD_RADIUS_M = 0.10
+
+CLEARANCE_M = 1.00
+
+PAYLOAD_CENTER_M = (
+    SOURCE_RADIUS_M
+    +
+    CLEARANCE_M
+    +
+    PAYLOAD_RADIUS_M
+)
+
+
+X_MATCH = 80.0
+
+
+OMEGAS = (
+    0.40,
+    0.55,
+    0.70,
+)
+
+
+EPSILONS = (
+    0.010,
+    0.020,
+    0.025,
+)
+
+
+CHI_FACTORS_DESC = (
+    5.0,
+    3.125,
+    2.0,
+    1.875,
+    1.6,
+    1.25,
+    1.10,
+)
+
+
+SOURCE_LEAK_LIMIT = 1.0e-4
+
+PAYLOAD_X_OVERLAP_LIMIT = 1.0e-10
+
+BACKREACTION_LIMIT = 1.0e-2
+
+CONSERVATION_REL_TOL = 3.0e-2
+
+SCALAR_IDENTITY_REL_TOL = 5.0e-3
+
+TARGET_REL_TOL = 2.0e-3
+
+
+def require(
+    path: Path,
+) -> None:
+
+    if not path.is_file():
+
+        raise RuntimeError(
+            f"Required file missing: {path}"
+        )
+
+
+def relerr(
+    a: float,
+    b: float,
+) -> float:
+
+    return (
+        abs(
+            a
+            -
+            b
+        )
+        /
+        max(
+            abs(
+                a
+            ),
+            abs(
+                b
+            ),
+            1.0e-300,
+        )
+    )
+
+
+def to_builtin(
+    value: Any,
+):
+
+    if isinstance(
+        value,
+        np.generic,
+    ):
+
+        return value.item()
+
+    if isinstance(
+        value,
+        np.ndarray,
+    ):
+
+        return value.tolist()
+
+    if isinstance(
+        value,
+        dict,
+    ):
+
+        return {
+            str(
+                key
+            ):
+            to_builtin(
+                item
+            )
+            for key, item
+            in value.items()
+        }
+
+    if isinstance(
+        value,
+        (
+            list,
+            tuple,
+        ),
+    ):
+
+        return [
+            to_builtin(
+                item
+            )
+            for item
+            in value
+        ]
+
+    return value
+
+
+def W(
+    y,
+):
+
+    return (
+        0.5
+        *
+        np.log1p(
+            y
+            *
+            y
+        )
+    )
+
+
+def dW(
+    y,
+):
+
+    return (
+        y
+        /
+        (
+            1.0
+            +
+            y
+            *
+            y
+        )
+    )
+
+
+def solve_uncoupled_qball(
+    omega,
+):
+
+    r = np.linspace(
+        1.0e-5,
+        X_MATCH,
+        1000,
+    )
+
+    y0 = (
+        2.0
+        *
+        math.sqrt(
+            max(
+                1.0
+                /
+                omega**2
+                -
+                1.0,
+                0.1,
+            )
+        )
+    )
+
+    decay = math.sqrt(
+        max(
+            1.0
+            -
+            omega**2,
+            1.0e-8,
+        )
+    )
+
+    radius_guess = (
+        5.0
+        /
+        max(
+            decay,
+            0.1,
+        )
+    )
+
+    width = (
+        1.0
+        /
+        max(
+            decay,
+            0.1,
+        )
+    )
+
+    base = (
+        y0
+        /
+        (
+            1.0
+            +
+            np.exp(
+                np.clip(
+                    (
+                        r
+                        -
+                        radius_guess
+                    )
+                    /
+                    width,
+                    -50.0,
+                    50.0,
+                )
+            )
+        )
+    )
+
+    derivative = np.gradient(
+        base,
+        r,
+    )
+
+    def equations(
+        x,
+        state,
+    ):
+
+        y = state[
+            0
+        ]
+
+        return np.vstack(
+            (
+                state[
+                    1
+                ],
+
+                dW(
+                    y
+                )
+                -
+                omega**2
+                *
+                y
+                -
+                2.0
+                *
+                state[
+                    1
+                ]
+                /
+                x,
+            )
+        )
+
+    def boundary_conditions(
+        left,
+        right,
+    ):
+
+        return np.array(
+            (
+                left[
+                    1
+                ],
+
+                right[
+                    1
+                ]
+                +
+                (
+                    decay
+                    +
+                    1.0
+                    /
+                    X_MATCH
+                )
+                *
+                right[
+                    0
+                ],
+            )
+        )
+
+    for multiplier in (
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+    ):
+
+        solution = solve_bvp(
+            equations,
+            boundary_conditions,
+            r,
+            np.vstack(
+                (
+                    multiplier
+                    *
+                    base,
+
+                    multiplier
+                    *
+                    derivative,
+                )
+            ),
+            tol=3.0e-5,
+            max_nodes=30_000,
+            verbose=0,
+        )
+
+        if (
+            solution.success
+            and
+            abs(
+                float(
+                    solution.sol(
+                        1.0e-5
+                    )[
+                        0
+                    ]
+                )
+            )
+            >
+            1.0e-3
+        ):
+
+            return solution
+
+    return None
+
+
+def scalarization_critical_chi(
+    qball_solution,
+    epsilon,
+):
+
+    x = np.linspace(
+        0.0,
+        X_MATCH,
+        700,
+    )
+
+    h = (
+        x[
+            1
+        ]
+        -
+        x[
+            0
+        ]
+    )
+
+    interior = x[
+        1:-1
+    ]
+
+    y = qball_solution.sol(
+        np.maximum(
+            interior,
+            1.0e-5,
+        )
+    )[
+        0
+    ]
+
+    source = W(
+        y
+    )
+
+    off = (
+        -np.ones(
+            len(
+                interior
+            )
+            -
+            1
+        )
+        /
+        h**2
+    )
+
+    def lowest(
+        chi,
+    ):
+
+        diagonal = (
+            2.0
+            /
+            h**2
+            +
+            epsilon**2
+            -
+            chi**2
+            *
+            source
+        )
+
+        return float(
+            eigh_tridiagonal(
+                diagonal,
+                off,
+                select="i",
+                select_range=(
+                    0,
+                    0,
+                ),
+                eigvals_only=True,
+            )[
+                0
+            ]
+        )
+
+    scan = np.geomspace(
+        1.0e-3,
+        10.0,
+        120,
+    )
+
+    values = [
+        lowest(
+            value
+        )
+        for value
+        in scan
+    ]
+
+    for (
+        left,
+        right,
+        f_left,
+        f_right,
+    ) in zip(
+        scan[
+            :-1
+        ],
+        scan[
+            1:
+        ],
+        values[
+            :-1
+        ],
+        values[
+            1:
+        ],
+    ):
+
+        if (
+            f_left
+            ==
+            0.0
+            or
+            f_left
+            *
+            f_right
+            <
+            0.0
+        ):
+
+            return float(
+                brentq(
+                    lowest,
+                    left,
+                    right,
+                    xtol=1.0e-10,
+                    rtol=1.0e-10,
+                    maxiter=200,
+                )
+            )
+
+    return None
+
+
+def solve_coupled(
+    qball_solution,
+    omega,
+    epsilon,
+    chi,
+    previous=None,
+):
+
+    r = np.linspace(
+        1.0e-5,
+        X_MATCH,
+        1200,
+    )
+
+    y = qball_solution.sol(
+        r
+    )[
+        0
+    ]
+
+    if y[
+        0
+    ] < 0.0:
+
+        y = -y
+
+    yp = np.gradient(
+        y,
+        r,
+    )
+
+    decay = math.sqrt(
+        max(
+            1.0
+            -
+            omega**2,
+            1.0e-8,
+        )
+    )
+
+    def equations(
+        x,
+        state,
+    ):
+
+        yy = state[
+            0
+        ]
+
+        yyp = state[
+            1
+        ]
+
+        u = state[
+            2
+        ]
+
+        up = state[
+            3
+        ]
+
+        A = np.exp(
+            np.clip(
+                -0.5
+                *
+                u
+                *
+                u,
+                -700.0,
+                0.0,
+            )
+        )
+
+        return np.vstack(
+            (
+                yyp,
+
+                A
+                *
+                dW(
+                    yy
+                )
+                -
+                omega**2
+                *
+                yy
+                -
+                2.0
+                *
+                yyp
+                /
+                x,
+
+                up,
+
+                epsilon**2
+                *
+                u
+                -
+                chi**2
+                *
+                A
+                *
+                W(
+                    yy
+                )
+                *
+                u
+                -
+                2.0
+                *
+                up
+                /
+                x,
+            )
+        )
+
+    def boundary_conditions(
+        left,
+        right,
+    ):
+
+        return np.array(
+            (
+                left[
+                    1
+                ],
+
+                right[
+                    1
+                ]
+                +
+                (
+                    decay
+                    +
+                    1.0
+                    /
+                    X_MATCH
+                )
+                *
+                right[
+                    0
+                ],
+
+                left[
+                    3
+                ],
+
+                right[
+                    3
+                ]
+                +
+                (
+                    epsilon
+                    +
+                    1.0
+                    /
+                    X_MATCH
+                )
+                *
+                right[
+                    2
+                ],
+            )
+        )
+
+    guesses = []
+
+    if previous is not None:
+
+        guesses.append(
+            previous.sol(
+                r
+            )
+        )
+
+    for amplitude in (
+        3.0,
+        2.0,
+        5.0,
+        1.0,
+    ):
+
+        u_guess = (
+            amplitude
+            *
+            np.exp(
+                -(
+                    r
+                    /
+                    8.0
+                )**2
+            )
+        )
+
+        guesses.append(
+            np.vstack(
+                (
+                    y,
+                    yp,
+                    u_guess,
+                    np.gradient(
+                        u_guess,
+                        r,
+                    ),
+                )
+            )
+        )
+
+    for guess in guesses:
+
+        solution = solve_bvp(
+            equations,
+            boundary_conditions,
+            r,
+            guess,
+            tol=3.0e-5,
+            max_nodes=35_000,
+            verbose=0,
+        )
+
+        if (
+            solution.success
+            and
+            abs(
+                float(
+                    solution.sol(
+                        1.0e-5
+                    )[
+                        2
+                    ]
+                )
+            )
+            >
+            1.0e-4
+        ):
+
+            return solution
+
+    return None
+
+
+def scalar_fixed_x_hessian(
+    solution,
+    epsilon,
+    chi,
+):
+
+    x = np.linspace(
+        0.0,
+        X_MATCH,
+        700,
+    )
+
+    h = (
+        x[
+            1
+        ]
+        -
+        x[
+            0
+        ]
+    )
+
+    interior = x[
+        1:-1
+    ]
+
+    state = solution.sol(
+        np.maximum(
+            interior,
+            1.0e-5,
+        )
+    )
+
+    y = state[
+        0
+    ]
+
+    u = state[
+        2
+    ]
+
+    A = np.exp(
+        np.clip(
+            -0.5
+            *
+            u
+            *
+            u,
+            -700.0,
+            0.0,
+        )
+    )
+
+    diagonal = (
+        2.0
+        /
+        h**2
+        +
+        epsilon**2
+        +
+        chi**2
+        *
+        A
+        *
+        W(
+            y
+        )
+        *
+        (
+            u
+            *
+            u
+            -
+            1.0
+        )
+    )
+
+    off = (
+        -np.ones(
+            len(
+                diagonal
+            )
+            -
+            1
+        )
+        /
+        h**2
+    )
+
+    return float(
+        eigh_tridiagonal(
+            diagonal,
+            off,
+            select="i",
+            select_range=(
+                0,
+                0,
+            ),
+            eigvals_only=True,
+        )[
+            0
+        ]
+    )
+
+
+def evaluate_case(
+    solution,
+    omega,
+    epsilon,
+    chi,
+    target_energy_j,
+    alpha_m_cap,
+    mediator_range_m,
+):
+
+    x = np.linspace(
+        1.0e-5,
+        X_MATCH,
+        10_000,
+    )
+
+    state = solution.sol(
+        x
+    )
+
+    y = state[
+        0
+    ]
+
+    yp = state[
+        1
+    ]
+
+    u = state[
+        2
+    ]
+
+    up = state[
+        3
+    ]
+
+    A = np.exp(
+        np.clip(
+            -0.5
+            *
+            u
+            *
+            u,
+            -700.0,
+            0.0,
+        )
+    )
+
+    potential = W(
+        y
+    )
+
+    source_on_density = (
+        0.5
+        *
+        yp**2
+        +
+        0.5
+        *
+        omega**2
+        *
+        y**2
+        +
+        A
+        *
+        potential
+    )
+
+    source_off_density = (
+        0.5
+        *
+        yp**2
+        +
+        0.5
+        *
+        omega**2
+        *
+        y**2
+        +
+        potential
+    )
+
+    scalar_density = (
+        (
+            0.5
+            *
+            up**2
+            +
+            0.5
+            *
+            epsilon**2
+            *
+            u**2
+        )
+        /
+        chi**2
+    )
+
+    total_on_density = (
+        source_on_density
+        +
+        scalar_density
+    )
+
+    def integrate(
+        density,
+    ):
+
+        return float(
+            4.0
+            *
+            math.pi
+            *
+            np.trapezoid(
+                x**2
+                *
+                density,
+                x,
+            )
+        )
+
+    I_X_ON = integrate(
+        source_on_density
+    )
+
+    I_X_OFF = integrate(
+        source_off_density
+    )
+
+    I_PHI_INSIDE = integrate(
+        scalar_density
+    )
+
+    u_boundary = float(
+        solution.sol(
+            X_MATCH
+        )[
+            2
+        ]
+    )
+
+    def scalar_tail_integrand(
+        xx,
+    ):
+
+        uu = (
+            u_boundary
+            *
+            X_MATCH
+            /
+            xx
+            *
+            math.exp(
+                -epsilon
+                *
+                (
+                    xx
+                    -
+                    X_MATCH
+                )
+            )
+        )
+
+        uup = (
+            uu
+            *
+            (
+                -epsilon
+                -
+                1.0
+                /
+                xx
+            )
+        )
+
+        return (
+            4.0
+            *
+            math.pi
+            *
+            xx**2
+            *
+            (
+                0.5
+                *
+                uup**2
+                +
+                0.5
+                *
+                epsilon**2
+                *
+                uu**2
+            )
+            /
+            chi**2
+        )
+
+    I_PHI_TAIL = float(
+        quad(
+            scalar_tail_integrand,
+            X_MATCH,
+            np.inf,
+            epsabs=1.0e-12,
+            epsrel=1.0e-8,
+            limit=200,
+        )[
+            0
+        ]
+    )
+
+    I_ON = (
+        I_X_ON
+        +
+        I_PHI_INSIDE
+        +
+        I_PHI_TAIL
+    )
+
+    I_INVENTORY = (
+        I_X_OFF
+        +
+        I_PHI_INSIDE
+        +
+        I_PHI_TAIL
+    )
+
+    I_Q = float(
+        4.0
+        *
+        math.pi
+        *
+        omega
+        *
+        np.trapezoid(
+            x**2
+            *
+            y**2,
+            x,
+        )
+    )
+
+    I_PHI_IDENTITY = float(
+        2.0
+        *
+        math.pi
+        *
+        np.trapezoid(
+            x**2
+            *
+            A
+            *
+            potential
+            *
+            u**2,
+            x,
+        )
+    )
+
+    scalar_identity_relerr = relerr(
+        I_PHI_INSIDE
+        +
+        I_PHI_TAIL,
+        I_PHI_IDENTITY,
+    )
+
+    m_phi_gev = (
+        HBARC_GEV_M
+        /
+        mediator_range_m
+    )
+
+    m_x_gev = (
+        m_phi_gev
+        /
+        epsilon
+    )
+
+    x_source_radius = (
+        m_x_gev
+        *
+        SOURCE_RADIUS_M
+        /
+        HBARC_GEV_M
+    )
+
+    x_payload_near = (
+        m_x_gev
+        *
+        (
+            PAYLOAD_CENTER_M
+            -
+            PAYLOAD_RADIUS_M
+        )
+        /
+        HBARC_GEV_M
+    )
+
+    x_payload_far = (
+        m_x_gev
+        *
+        (
+            PAYLOAD_CENTER_M
+            +
+            PAYLOAD_RADIUS_M
+        )
+        /
+        HBARC_GEV_M
+    )
+
+    if x_payload_far >= X_MATCH:
+
+        return {
+            "success":
+            False,
+
+            "reason":
+            "PAYLOAD_OUTSIDE_NUMERICAL_DOMAIN",
+        }
+
+    outside_mask = (
+        x
+        >=
+        x_source_radius
+    )
+
+    payload_mask = (
+        (
+            x
+            >=
+            x_payload_near
+        )
+        &
+        (
+            x
+            <=
+            x_payload_far
+        )
+    )
+
+    source_leak_fraction = (
+        integrate(
+            source_on_density
+            *
+            outside_mask
+        )
+        /
+        max(
+            I_X_ON,
+            1.0e-300,
+        )
+    )
+
+    payload_x_overlap_fraction = (
+        integrate(
+            source_on_density
+            *
+            payload_mask
+        )
+        /
+        max(
+            I_X_ON,
+            1.0e-300,
+        )
+    )
+
+    cumulative_on = np.concatenate(
+        (
+            [
+                0.0
+            ],
+
+            cumulative_trapezoid(
+                4.0
+                *
+                math.pi
+                *
+                x**2
+                *
+                total_on_density,
+                x,
+            ),
+        )
+    )
+
+    def enclosed_dimensionless_energy(
+        xx,
+    ):
+
+        return float(
+            np.interp(
+                xx,
+                x,
+                cumulative_on,
+                left=0.0,
+                right=cumulative_on[
+                    -1
+                ],
+            )
+        )
+
+    u_near = abs(
+        float(
+            solution.sol(
+                x_payload_near
+            )[
+                2
+            ]
+        )
+    )
+
+    if u_near < 1.0e-14:
+
+        return {
+            "success":
+            False,
+
+            "reason":
+            "VANISHING_PAYLOAD_FIELD",
+        }
+
+    def scalar_accel_coeff(
+        radius_m,
+    ):
+
+        xx = (
+            m_x_gev
+            *
+            radius_m
+            /
+            HBARC_GEV_M
+        )
+
+        uu = float(
+            solution.sol(
+                xx
+            )[
+                2
+            ]
+        )
+
+        uup = float(
+            solution.sol(
+                xx
+            )[
+                3
+            ]
+        )
+
+        return float(
+            -C**2
+            *
+            alpha_m_cap
+            *
+            (
+                m_x_gev
+                /
+                (
+                    chi
+                    *
+                    HBARC_GEV_M
+                    *
+                    MPL_GEV
+                )
+            )
+            *
+            (
+                uu
+                *
+                uup
+                /
+                u_near
+            )
+        )
+
+    def gr_accel_coeff(
+        radius_m,
+    ):
+
+        xx = (
+            m_x_gev
+            *
+            radius_m
+            /
+            HBARC_GEV_M
+        )
+
+        energy_coeff_j_per_gev2 = (
+            enclosed_dimensionless_energy(
+                xx
+            )
+            /
+            m_x_gev
+            *
+            J_PER_GEV
+        )
+
+        return (
+            G
+            *
+            (
+                energy_coeff_j_per_gev2
+                /
+                C**2
+            )
+            /
+            radius_m**2
+        )
+
+    mu_surface = np.linspace(
+        -1.0,
+        1.0,
+        121,
+    )
+
+    surface_scalar_coeff = []
+
+    surface_gr_coeff = []
+
+    for mu in mu_surface:
+
+        radius = math.sqrt(
+            PAYLOAD_CENTER_M**2
+            +
+            PAYLOAD_RADIUS_M**2
+            +
+            2.0
+            *
+            PAYLOAD_CENTER_M
+            *
+            PAYLOAD_RADIUS_M
+            *
+            mu
+        )
+
+        projection = (
+            PAYLOAD_CENTER_M
+            +
+            PAYLOAD_RADIUS_M
+            *
+            mu
+        ) / radius
+
+        surface_scalar_coeff.append(
+            scalar_accel_coeff(
+                radius
+            )
+            *
+            projection
+        )
+
+        surface_gr_coeff.append(
+            gr_accel_coeff(
+                radius
+            )
+            *
+            projection
+        )
+
+    surface_scalar_coeff = np.asarray(
+        surface_scalar_coeff,
+        dtype=float,
+    )
+
+    surface_gr_coeff = np.asarray(
+        surface_gr_coeff,
+        dtype=float,
+    )
+
+    radial_nodes, radial_weights = (
+        np.polynomial.legendre.leggauss(
+            16
+        )
+    )
+
+    angular_nodes, angular_weights = (
+        np.polynomial.legendre.leggauss(
+            20
+        )
+    )
+
+    payload_radii = (
+        0.5
+        *
+        PAYLOAD_RADIUS_M
+        *
+        (
+            radial_nodes
+            +
+            1.0
+        )
+    )
+
+    payload_radial_weights = (
+        0.5
+        *
+        PAYLOAD_RADIUS_M
+        *
+        radial_weights
+    )
+
+    payload_volume = (
+        4.0
+        *
+        math.pi
+        *
+        PAYLOAD_RADIUS_M**3
+        /
+        3.0
+    )
+
+    scalar_cm_coeff = 0.0
+
+    gr_cm_coeff = 0.0
+
+    for (
+        s,
+        ws,
+    ) in zip(
+        payload_radii,
+        payload_radial_weights,
+    ):
+
+        for (
+            mu,
+            wmu,
+        ) in zip(
+            angular_nodes,
+            angular_weights,
+        ):
+
+            radius = math.sqrt(
+                PAYLOAD_CENTER_M**2
+                +
+                s**2
+                +
+                2.0
+                *
+                PAYLOAD_CENTER_M
+                *
+                s
+                *
+                mu
+            )
+
+            projection = (
+                PAYLOAD_CENTER_M
+                +
+                s
+                *
+                mu
+            ) / radius
+
+            common = (
+                2.0
+                *
+                math.pi
+                *
+                s**2
+                *
+                ws
+                *
+                wmu
+                *
+                projection
+            )
+
+            scalar_cm_coeff += (
+                common
+                *
+                scalar_accel_coeff(
+                    radius
+                )
+            )
+
+            gr_cm_coeff += (
+                common
+                *
+                gr_accel_coeff(
+                    radius
+                )
+            )
+
+    scalar_cm_coeff /= payload_volume
+
+    gr_cm_coeff /= payload_volume
+
+    if float(
+        np.min(
+            surface_scalar_coeff
+        )
+    ) <= 0.0:
+
+        return {
+            "success":
+            False,
+
+            "reason":
+            "WRONG_SCALAR_FORCE_SIGN",
+        }
+
+    scalar_only_guess = (
+        G0
+        /
+        float(
+            np.min(
+                surface_scalar_coeff
+            )
+        )
+    )
+
+    F_scan = np.geomspace(
+        max(
+            scalar_only_guess
+            *
+            1.0e-3,
+            1.0e-12,
+        ),
+        scalar_only_guess
+        *
+        100.0,
+        500,
+    )
+
+    def adverse_surface(
+        F,
+    ):
+
+        return float(
+            np.min(
+                surface_scalar_coeff
+                *
+                F
+                -
+                surface_gr_coeff
+                *
+                F**2
+            )
+        )
+
+    values = [
+        adverse_surface(
+            F
+        )
+        -
+        G0
+        for F
+        in F_scan
+    ]
+
+    F_required = None
+
+    for (
+        left,
+        right,
+        f_left,
+        f_right,
+    ) in zip(
+        F_scan[
+            :-1
+        ],
+        F_scan[
+            1:
+        ],
+        values[
+            :-1
+        ],
+        values[
+            1:
+        ],
+    ):
+
+        if (
+            f_left
+            <=
+            0.0
+            and
+            f_right
+            >=
+            0.0
+        ):
+
+            F_required = float(
+                brentq(
+                    lambda F:
+                    adverse_surface(
+                        F
+                    )
+                    -
+                    G0,
+                    left,
+                    right,
+                    xtol=1.0e-12,
+                    rtol=1.0e-12,
+                    maxiter=300,
+                )
+            )
+
+            break
+
+    if F_required is None:
+
+        return {
+            "success":
+            False,
+
+            "reason":
+            "NO_1G_FORCE_ROOT",
+        }
+
+    surface_net = (
+        surface_scalar_coeff
+        *
+        F_required
+        -
+        surface_gr_coeff
+        *
+        F_required**2
+    )
+
+    a_cm = (
+        scalar_cm_coeff
+        *
+        F_required
+        -
+        gr_cm_coeff
+        *
+        F_required**2
+    )
+
+    E_on_j = (
+        I_ON
+        /
+        m_x_gev
+        *
+        F_required**2
+        *
+        J_PER_GEV
+    )
+
+    E_inventory_j = (
+        I_INVENTORY
+        /
+        m_x_gev
+        *
+        F_required**2
+        *
+        J_PER_GEV
+    )
+
+    E_x_on_j = (
+        I_X_ON
+        /
+        m_x_gev
+        *
+        F_required**2
+        *
+        J_PER_GEV
+    )
+
+    noether_charge = (
+        I_Q
+        *
+        F_required**2
+        /
+        m_x_gev**2
+    )
+
+    E_over_QmX = (
+        I_ON
+        /
+        I_Q
+        if I_Q
+        >
+        0.0
+        else math.inf
+    )
+
+    M_c_gev = (
+        F_required
+        /
+        chi
+    )
+
+    phi_near_gev = (
+        M_c_gev
+        *
+        u_near
+    )
+
+    M_m_squared = (
+        MPL_GEV
+        *
+        phi_near_gev
+        /
+        alpha_m_cap
+    )
+
+    M_m_gev = math.sqrt(
+        M_m_squared
+    )
+
+    payload_density_gev4 = (
+        8000.0
+        *
+        C**2
+        *
+        J_M3_TO_GEV4
+    )
+
+    payload_backreaction = (
+        payload_density_gev4
+        /
+        (
+            M_m_squared
+            *
+            m_phi_gev**2
+        )
+    )
+
+    r_boundary_m = (
+        X_MATCH
+        *
+        HBARC_GEV_M
+        /
+        m_x_gev
+    )
+
+    phi_boundary_gev = (
+        M_c_gev
+        *
+        u_boundary
+    )
+
+    scalar_charge_kg = (
+        -C**2
+        *
+        r_boundary_m
+        /
+        (
+            2.0
+            *
+            G
+        )
+        *
+        (
+            phi_boundary_gev
+            /
+            MPL_GEV
+        )
+        *
+        math.exp(
+            r_boundary_m
+            /
+            mediator_range_m
+        )
+    )
+
+    alpha_eff_tail = (
+        abs(
+            scalar_charge_kg
+        )
+        *
+        C**2
+        /
+        max(
+            E_x_on_j,
+            1.0e-300,
+        )
+    )
+
+    rho = (
+        source_on_density
+        +
+        scalar_density
+    )
+
+    p_r = (
+        0.5
+        *
+        yp**2
+        +
+        0.5
+        *
+        omega**2
+        *
+        y**2
+        -
+        A
+        *
+        potential
+        +
+        (
+            0.5
+            *
+            up**2
+            -
+            0.5
+            *
+            epsilon**2
+            *
+            u**2
+        )
+        /
+        chi**2
+    )
+
+    p_t = (
+        -0.5
+        *
+        yp**2
+        +
+        0.5
+        *
+        omega**2
+        *
+        y**2
+        -
+        A
+        *
+        potential
+        +
+        (
+            -0.5
+            *
+            up**2
+            -
+            0.5
+            *
+            epsilon**2
+            *
+            u**2
+        )
+        /
+        chi**2
+    )
+
+    physical_mask = (
+        rho
+        >
+        1.0e-9
+        *
+        float(
+            np.max(
+                rho
+            )
+        )
+    )
+
+    rho_scale = max(
+        float(
+            np.max(
+                rho
+            )
+        ),
+        1.0e-300,
+    )
+
+    dec_margin = min(
+        float(
+            np.min(
+                (
+                    rho
+                    -
+                    np.abs(
+                        p_r
+                    )
+                )[
+                    physical_mask
+                ]
+            )
+        ),
+
+        float(
+            np.min(
+                (
+                    rho
+                    -
+                    np.abs(
+                        p_t
+                    )
+                )[
+                    physical_mask
+                ]
+            )
+        ),
+    ) / rho_scale
+
+    dp_r = np.gradient(
+        p_r,
+        x,
+        edge_order=2,
+    )
+
+    anisotropy_term = (
+        2.0
+        *
+        (
+            p_r
+            -
+            p_t
+        )
+        /
+        x
+    )
+
+    conservation_mask = (
+        physical_mask
+        &
+        (
+            x
+            >
+            0.1
+        )
+        &
+        (
+            x
+            <
+            X_MATCH
+            -
+            1.0
+        )
+    )
+
+    conservation_residual = (
+        dp_r
+        +
+        anisotropy_term
+    )
+
+    conservation_scale = max(
+        float(
+            np.max(
+                (
+                    np.abs(
+                        dp_r
+                    )
+                    +
+                    np.abs(
+                        anisotropy_term
+                    )
+                )[
+                    conservation_mask
+                ]
+            )
+        ),
+        1.0e-300,
+    )
+
+    conservation_rel = (
+        float(
+            np.max(
+                np.abs(
+                    conservation_residual[
+                        conservation_mask
+                    ]
+                )
+            )
+        )
+        /
+        conservation_scale
+    )
+
+    scalar_hessian = scalar_fixed_x_hessian(
+        solution,
+        epsilon,
+        chi,
+    )
+
+    source_containment_pass = bool(
+        source_leak_fraction
+        <=
+        SOURCE_LEAK_LIMIT
+    )
+
+    payload_overlap_pass = bool(
+        payload_x_overlap_fraction
+        <=
+        PAYLOAD_X_OVERLAP_LIMIT
+    )
+
+    backreaction_pass = bool(
+        payload_backreaction
+        <=
+        BACKREACTION_LIMIT
+    )
+
+    noether_decay_pass = bool(
+        E_over_QmX
+        <
+        1.0
+    )
+
+    scalar_identity_pass = bool(
+        scalar_identity_relerr
+        <=
+        SCALAR_IDENTITY_REL_TOL
+    )
+
+    scalar_stability_pass = bool(
+        scalar_hessian
+        >
+        0.0
+    )
+
+    dec_pass = bool(
+        dec_margin
+        >=
+        -1.0e-6
+    )
+
+    conservation_pass = bool(
+        conservation_rel
+        <=
+        CONSERVATION_REL_TOL
+    )
+
+    force_pass = bool(
+        float(
+            np.min(
+                surface_net
+            )
+        )
+        >=
+        G0
+        *
+        (
+            1.0
+            -
+            1.0e-8
+        )
+        and
+        a_cm
+        >=
+        G0
+    )
+
+    target_83gj_pass = bool(
+        E_inventory_j
+        <=
+        target_energy_j
+        *
+        (
+            1.0
+            +
+            TARGET_REL_TOL
+        )
+    )
+
+    target_1tj_pass = bool(
+        E_inventory_j
+        <=
+        1.0e12
+    )
+
+    prefilter_pass = bool(
+        source_containment_pass
+        and
+        payload_overlap_pass
+        and
+        backreaction_pass
+        and
+        noether_decay_pass
+        and
+        scalar_identity_pass
+        and
+        scalar_stability_pass
+        and
+        dec_pass
+        and
+        conservation_pass
+        and
+        force_pass
+    )
+
+    return {
+        "success":
+        True,
+
+        "omega":
+        omega,
+
+        "epsilon":
+        epsilon,
+
+        "chi":
+        chi,
+
+        "m_x_gev":
+        m_x_gev,
+
+        "m_x_eV":
+        m_x_gev
+        *
+        1.0e9,
+
+        "F_gev":
+        F_required,
+
+        "M_c_gev":
+        M_c_gev,
+
+        "M_m_gev":
+        M_m_gev,
+
+        "y_center":
+        abs(
+            float(
+                solution.sol(
+                    1.0e-5
+                )[
+                    0
+                ]
+            )
+        ),
+
+        "u_center":
+        abs(
+            float(
+                solution.sol(
+                    1.0e-5
+                )[
+                    2
+                ]
+            )
+        ),
+
+        "E_x_on_J":
+        E_x_on_j,
+
+        "E_on_J":
+        E_on_j,
+
+        "E_inventory_J":
+        E_inventory_j,
+
+        "noether_charge":
+        noether_charge,
+
+        "E_over_QmX":
+        E_over_QmX,
+
+        "source_leak_fraction":
+        source_leak_fraction,
+
+        "payload_x_overlap_fraction":
+        payload_x_overlap_fraction,
+
+        "payload_backreaction_ratio":
+        payload_backreaction,
+
+        "surface_min_acceleration_mps2":
+        float(
+            np.min(
+                surface_net
+            )
+        ),
+
+        "surface_max_acceleration_mps2":
+        float(
+            np.max(
+                surface_net
+            )
+        ),
+
+        "a_cm_mps2":
+        a_cm,
+
+        "scalar_charge_kg":
+        scalar_charge_kg,
+
+        "alpha_eff_tail":
+        alpha_eff_tail,
+
+        "scalar_energy_identity_relerr":
+        scalar_identity_relerr,
+
+        "scalar_fixed_x_hessian":
+        scalar_hessian,
+
+        "DEC_margin_normalized":
+        dec_margin,
+
+        "conservation_rel":
+        conservation_rel,
+
+        "source_containment_pass":
+        source_containment_pass,
+
+        "payload_overlap_pass":
+        payload_overlap_pass,
+
+        "backreaction_pass":
+        backreaction_pass,
+
+        "noether_decay_pass":
+        noether_decay_pass,
+
+        "scalar_identity_pass":
+        scalar_identity_pass,
+
+        "scalar_fixed_x_stability_pass":
+        scalar_stability_pass,
+
+        "DEC_pass":
+        dec_pass,
+
+        "conservation_pass":
+        conservation_pass,
+
+        "finite_payload_1g_pass":
+        force_pass,
+
+        "prefilter_pass":
+        prefilter_pass,
+
+        "target_83gj_pass":
+        bool(
+            prefilter_pass
+            and
+            target_83gj_pass
+        ),
+
+        "target_1tj_pass":
+        bool(
+            prefilter_pass
+            and
+            target_1tj_pass
+        ),
+    }
+
+
+def main():
+
+    print(
+        "=== 031B2-A GLOBAL U(1) Q-BALL "
+        "ACTIVATED-SCALAR CONTROL ==="
+    )
+
+    print(
+        "CLAIM_CLASS="
+        "COUPLED_MICROSCOPIC_SOLITON_"
+        "RADIAL_PREFLIGHT"
+    )
+
+    print(
+        "SOURCE_SCALAR_CHARGE_PRESCRIBED=NO"
+    )
+
+    print(
+        "SOURCE_REACTION_TO_SCALAR=YES"
+    )
+
+    print(
+        "NOETHER_STABILITY_MECHANISM=YES"
+    )
+
+    print(
+        "POSITIVE_HAMILTONIAN_BY_CONSTRUCTION=YES"
+    )
+
+    print(
+        "PRACTICAL_DEVICE=NO"
+    )
+
+    for path in (
+        R4S_SUMMARY,
+        B1B0_SUMMARY,
+    ):
+
+        require(
+            path
+        )
+
+    r4s = json.loads(
+        R4S_SUMMARY.read_text()
+    )
+
+    b1b0 = json.loads(
+        B1B0_SUMMARY.read_text()
+    )
+
+    if bool(
+        b1b0.get(
+            "exact_local_z2_83gj_survives",
+            True,
+        )
+    ):
+
+        raise RuntimeError(
+            "031B1-B0 did not close the minimal B7 route"
+        )
+
+    target_energy_j = float(
+        r4s[
+            "target_energy_J"
+        ]
+    )
+
+    alpha_m_cap = float(
+        r4s[
+            "scaling"
+        ][
+            "alpha_m_cap_required"
+        ]
+    )
+
+    mediator_range_m = float(
+        r4s[
+            "mediator_range_m"
+        ]
+    )
+
+    print(
+        f"TARGET_ENERGY_J="
+        f"{target_energy_j:.15e}"
+    )
+
+    print(
+        f"ALPHA_M_ON_CAP="
+        f"{alpha_m_cap:.15e}"
+    )
+
+    print(
+        f"MEDIATOR_RANGE_M="
+        f"{mediator_range_m:.15e}"
+    )
+
+    print(
+        "SOURCE_POTENTIAL="
+        "0.5_LOG_1_PLUS_Y2"
+    )
+
+    print(
+        "SOURCE_POTENTIAL_NONNEGATIVE="
+        "ANALYTIC_TRUE"
+    )
+
+    print(
+        "OFF_STATE_LINEAR_MATTER_COUPLING="
+        "ZERO_BY_Z2"
+    )
+
+    rows = []
+
+    strong_survivors = []
+
+    one_tj_survivors = []
+
+    for omega in OMEGAS:
+
+        print(
+            f"\n=== OMEGA={omega:.6f} "
+            f"UNCOUPLED Q-BALL ==="
+        )
+
+        qball = solve_uncoupled_qball(
+            omega
+        )
+
+        if qball is None:
+
+            print(
+                f"QBALL_SEED "
+                f"OMEGA={omega:.9e} "
+                f"SUCCESS=False"
+            )
+
+            continue
+
+        print(
+            f"QBALL_SEED "
+            f"OMEGA={omega:.9e} "
+            f"SUCCESS=True "
+            f"Y0="
+            f"{abs(float(qball.sol(1.0e-5)[0])):.9e}"
+        )
+
+        for epsilon in EPSILONS:
+
+            chi_critical = scalarization_critical_chi(
+                qball,
+                epsilon,
+            )
+
+            if chi_critical is None:
+
+                print(
+                    f"SCALARIZATION_THRESHOLD "
+                    f"OMEGA={omega:.9e} "
+                    f"EPS={epsilon:.9e} "
+                    f"SUCCESS=False"
+                )
+
+                continue
+
+            print(
+                f"SCALARIZATION_THRESHOLD "
+                f"OMEGA={omega:.9e} "
+                f"EPS={epsilon:.9e} "
+                f"CHI_CRIT="
+                f"{chi_critical:.9e}"
+            )
+
+            previous = None
+
+            for factor in CHI_FACTORS_DESC:
+
+                chi = (
+                    chi_critical
+                    *
+                    factor
+                )
+
+                solution = solve_coupled(
+                    qball,
+                    omega,
+                    epsilon,
+                    chi,
+                    previous=previous,
+                )
+
+                if solution is None:
+
+                    print(
+                        f"QBALL_CASE "
+                        f"OMEGA={omega:.9e} "
+                        f"EPS={epsilon:.9e} "
+                        f"CHI_FACTOR={factor:.9e} "
+                        f"SUCCESS=False "
+                        f"REASON=NONTRIVIAL_COUPLED_BRANCH_NOT_FOUND"
+                    )
+
+                    continue
+
+                previous = solution
+
+                result = evaluate_case(
+                    solution,
+                    omega,
+                    epsilon,
+                    chi,
+                    target_energy_j,
+                    alpha_m_cap,
+                    mediator_range_m,
+                )
+
+                result[
+                    "chi_factor"
+                ] = factor
+
+                result[
+                    "chi_critical"
+                ] = chi_critical
+
+                rows.append(
+                    result
+                )
+
+                if not result.get(
+                    "success",
+                    False,
+                ):
+
+                    print(
+                        f"QBALL_CASE "
+                        f"OMEGA={omega:.9e} "
+                        f"EPS={epsilon:.9e} "
+                        f"CHI_FACTOR={factor:.9e} "
+                        f"SUCCESS=False "
+                        f"REASON="
+                        f"{result.get('reason', 'UNKNOWN')}"
+                    )
+
+                    continue
+
+                if result[
+                    "target_83gj_pass"
+                ]:
+
+                    strong_survivors.append(
+                        result
+                    )
+
+                if result[
+                    "target_1tj_pass"
+                ]:
+
+                    one_tj_survivors.append(
+                        result
+                    )
+
+                print(
+                    f"QBALL_CASE "
+                    f"OMEGA={omega:.9e} "
+                    f"EPS={epsilon:.9e} "
+                    f"CHI_FACTOR={factor:.9e} "
+                    f"CHI={chi:.9e} "
+                    f"MX_EV="
+                    f"{result['m_x_eV']:.9e} "
+                    f"F_GEV="
+                    f"{result['F_gev']:.9e} "
+                    f"MC_GEV="
+                    f"{result['M_c_gev']:.9e} "
+                    f"E_INV_J="
+                    f"{result['E_inventory_J']:.9e} "
+                    f"E_ON_J="
+                    f"{result['E_on_J']:.9e} "
+                    f"A_SURFACE_MIN="
+                    f"{result['surface_min_acceleration_mps2']:.9e} "
+                    f"A_CM="
+                    f"{result['a_cm_mps2']:.9e} "
+                    f"LEAK="
+                    f"{result['source_leak_fraction']:.9e} "
+                    f"PAYLOAD_X="
+                    f"{result['payload_x_overlap_fraction']:.9e} "
+                    f"BACK="
+                    f"{result['payload_backreaction_ratio']:.9e} "
+                    f"E_OVER_QMX="
+                    f"{result['E_over_QmX']:.9e} "
+                    f"ALPHA_EFF="
+                    f"{result['alpha_eff_tail']:.9e} "
+                    f"HESS="
+                    f"{result['scalar_fixed_x_hessian']:.9e} "
+                    f"DEC="
+                    f"{result['DEC_pass']} "
+                    f"CONS="
+                    f"{result['conservation_pass']} "
+                    f"PREFILTER="
+                    f"{result['prefilter_pass']} "
+                    f"PASS83="
+                    f"{result['target_83gj_pass']} "
+                    f"PASS1TJ="
+                    f"{result['target_1tj_pass']}"
+                )
+
+    print(
+        "\n=== 031B2-A BEST CANDIDATES ==="
+    )
+
+    valid = [
+        row
+        for row
+        in rows
+        if row.get(
+            "success",
+            False,
+        )
+        and
+        row.get(
+            "prefilter_pass",
+            False,
+        )
+    ]
+
+    valid.sort(
+        key=lambda row:
+        row[
+            "E_inventory_J"
+        ]
+    )
+
+    best = (
+        valid[
+            0
+        ]
+        if valid
+        else None
+    )
+
+    if best is not None:
+
+        print(
+            f"BEST_E_INVENTORY_J="
+            f"{best['E_inventory_J']:.15e}"
+        )
+
+        print(
+            f"BEST_OMEGA="
+            f"{best['omega']:.15e}"
+        )
+
+        print(
+            f"BEST_EPSILON="
+            f"{best['epsilon']:.15e}"
+        )
+
+        print(
+            f"BEST_CHI_FACTOR="
+            f"{best['chi_factor']:.15e}"
+        )
+
+        print(
+            f"BEST_CHI="
+            f"{best['chi']:.15e}"
+        )
+
+        print(
+            f"BEST_MX_EV="
+            f"{best['m_x_eV']:.15e}"
+        )
+
+        print(
+            f"BEST_F_GEV="
+            f"{best['F_gev']:.15e}"
+        )
+
+        print(
+            f"BEST_MC_GEV="
+            f"{best['M_c_gev']:.15e}"
+        )
+
+        print(
+            f"BEST_MM_GEV="
+            f"{best['M_m_gev']:.15e}"
+        )
+
+        print(
+            f"BEST_ALPHA_EFF_TAIL="
+            f"{best['alpha_eff_tail']:.15e}"
+        )
+
+        print(
+            f"BEST_E_OVER_QMX="
+            f"{best['E_over_QmX']:.15e}"
+        )
+
+        print(
+            f"BEST_SOURCE_LEAK="
+            f"{best['source_leak_fraction']:.15e}"
+        )
+
+        print(
+            f"BEST_PAYLOAD_X_OVERLAP="
+            f"{best['payload_x_overlap_fraction']:.15e}"
+        )
+
+        print(
+            f"BEST_BACKREACTION="
+            f"{best['payload_backreaction_ratio']:.15e}"
+        )
+
+        print(
+            f"BEST_SCALAR_HESSIAN="
+            f"{best['scalar_fixed_x_hessian']:.15e}"
+        )
+
+        print(
+            f"BEST_SCALAR_IDENTITY_RELERR="
+            f"{best['scalar_energy_identity_relerr']:.15e}"
+        )
+
+        print(
+            f"BEST_CONSERVATION_REL="
+            f"{best['conservation_rel']:.15e}"
+        )
+
+    print(
+        "\n=== DECISION ==="
+    )
+
+    if strong_survivors:
+
+        classification = (
+            "GREEN_GLOBAL_QBALL_MICROSCOPIC_"
+            "CONTROL_PRESERVES_83GJ_RADIAL_PREFLIGHT"
+        )
+
+        next_step = (
+            "031B2B_QBALL_FULL_COUPLED_STABILITY_"
+            "EFT_AND_INDEPENDENT_QSHELL_REPLICATION"
+        )
+
+    elif one_tj_survivors:
+
+        classification = (
+            "YELLOW_GLOBAL_QBALL_REAL_SOURCE_"
+            "SURVIVES_BELOW_1TJ_BUT_NOT_83GJ"
+        )
+
+        next_step = (
+            "031B2B_QSHELL_PAYLOAD_ADJACENT_"
+            "MORPHOLOGY_83GJ_RECOVERY_GATE"
+        )
+
+    else:
+
+        classification = (
+            "RED_POSITIVE_LOG_GLOBAL_QBALL_"
+            "FAILS_MICROSCOPIC_SOURCE_GATE"
+        )
+
+        next_step = (
+            "031B2B_QSHELL_INDEPENDENT_"
+            "MORPHOLOGY_GATE"
+        )
+
+    print(
+        f"QBALL_VALID_PREFILTER_CASES="
+        f"{len(valid)}"
+    )
+
+    print(
+        f"QBALL_1TJ_SURVIVORS="
+        f"{len(one_tj_survivors)}"
+    )
+
+    print(
+        f"QBALL_83GJ_SURVIVORS="
+        f"{len(strong_survivors)}"
+    )
+
+    print(
+        f"031B2A_CLASSIFICATION="
+        f"{classification}"
+    )
+
+    print(
+        f"NEXT="
+        f"{next_step}"
+    )
+
+    print(
+        "FULL_NONRADIAL_STABILITY="
+        "NOT_YET"
+    )
+
+    print(
+        "RADIATIVE_NATURALNESS="
+        "NOT_CLOSED"
+    )
+
+    print(
+        "EFT_UV_COMPLETION="
+        "NOT_CLOSED"
+    )
+
+    print(
+        "PRACTICAL_DEVICE=NO"
+    )
+
+    OUT_CSV.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    if rows:
+
+        public_rows = [
+            {
+                key:
+                to_builtin(
+                    value
+                )
+                for key, value
+                in row.items()
+            }
+            for row
+            in rows
+        ]
+
+        fieldnames = []
+
+        for row in public_rows:
+
+            for key in row:
+
+                if key not in fieldnames:
+
+                    fieldnames.append(
+                        key
+                    )
+
+        with OUT_CSV.open(
+            "w",
+            newline="",
+        ) as handle:
+
+            writer = csv.DictWriter(
+                handle,
+                fieldnames=fieldnames,
+                extrasaction="ignore",
+            )
+
+            writer.writeheader()
+
+            writer.writerows(
+                public_rows
+            )
+
+    summary = {
+        "claim_class":
+        "COUPLED_MICROSCOPIC_SOLITON_RADIAL_PREFLIGHT",
+
+        "source_model":
+        "GLOBAL_U1_POSITIVE_LOG_QBALL",
+
+        "target_energy_J":
+        target_energy_j,
+
+        "target_acceleration_mps2":
+        G0,
+
+        "alpha_m_on_cap":
+        alpha_m_cap,
+
+        "mediator_range_m":
+        mediator_range_m,
+
+        "positive_hamiltonian":
+        True,
+
+        "scalar_charge_prescribed":
+        False,
+
+        "source_reaction_included":
+        True,
+
+        "noether_stability_mechanism":
+        True,
+
+        "valid_prefilter_cases":
+        len(
+            valid
+        ),
+
+        "one_tj_survivors":
+        len(
+            one_tj_survivors
+        ),
+
+        "83gj_survivors":
+        len(
+            strong_survivors
+        ),
+
+        "best":
+        best,
+
+        "classification":
+        classification,
+
+        "next":
+        next_step,
+
+        "claim_limits": [
+            "This is a radial coupled microscopic-source preflight.",
+            "Full nonradial dynamical stability is not yet established.",
+            "E/Q < mX checks stability against free-X decay but is not a complete fragmentation theorem.",
+            "The logarithmic source potential is treated as an exact positive effective interaction and still requires UV justification.",
+            "Radiative naturalness is not closed.",
+            "Empirical off-state fifth-force closure is not complete beyond the exact Z2 linear null.",
+            "The Q-ball has exponentially small rather than mathematically compact X tails; source containment and payload overlap are explicitly quantified.",
+            "026C N89 remains mandatory in parallel.",
+            "No practical device is established.",
+        ],
+    }
+
+    OUT_JSON.write_text(
+        json.dumps(
+            to_builtin(
+                summary
+            ),
+            indent=2,
+            sort_keys=True,
+        )
+        +
+        "\n"
+    )
+
+    print(
+        f"SUMMARY_JSON="
+        f"{OUT_JSON.resolve()}"
+    )
+
+    print(
+        f"SCAN_CSV="
+        f"{OUT_CSV.resolve()}"
+    )
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,45 @@
+=== 031B2-D273 FULL COUPLED LINEAR ANGULAR-MODE GATE ===
+CLAIM_CLASS=COUPLED_QBALL_PHASE_AMPLITUDE_SCALAR_LINEAR_DYNAMIC_STABILITY_PREFLIGHT
+NONLINEAR_FRAGMENTATION_PROOF=NO
+OMEGA=4.000000000000000e-01
+EPSILON=2.000000000000000e-02
+CHI=5.390644449430598e-01
+
+=== GRID_N=160 ===
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031b2d273_full_coupled_linear_mode_gate.py", line 552, in largest_growth
+    values = eigs(
+        operator,
+    ...<4 lines>...
+        maxiter=40_000,
+    )
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 1438, in eigs
+    params.iterate()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 850, in iterate
+    self._raise_no_convergence()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 441, in _raise_no_convergence
+    raise ArpackNoConvergence(f"No convergence ({num_iter} iterations, "
+                              f"{k_ok}/{self.k} eigenvectors converged)",
+                              ev, vec)
+scipy.sparse.linalg._eigen.arpack.arpack.ArpackNoConvergence: ARPACK error -1: No convergence (40001 iterations, 0/18 eigenvectors converged)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031b2d273_full_coupled_linear_mode_gate.py", line 955, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031b2d273_full_coupled_linear_mode_gate.py", line 693, in main
+    growth, values = largest_growth(
+                     ~~~~~~~~~~~~~~^
+        operator
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031b2d273_full_coupled_linear_mode_gate.py", line 569, in largest_growth
+    raise RuntimeError(
+        "ARPACK failed without sufficient eigenvalues"
+    )
+RuntimeError: ARPACK failed without sufficient eigenvalues

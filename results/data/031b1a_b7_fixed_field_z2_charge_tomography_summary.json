@@ -1,0 +1,91 @@
+{
+  "R4S_alpha_m_on": 27.007903507182004,
+  "R4S_alpha_x_magnitude": 1.930268511132369e+17,
+  "best_sector": "e4",
+  "claim_class": "FIXED_MICROSCOPIC_FIELD_SCALAR_CHARGE_TOMOGRAPHY_AND_ENERGY_FLOOR_GATE",
+  "claim_limits": [
+    "B7 is not re-equilibrated after scalar dressing.",
+    "The physical B7 dimensional scale is normalized for morphology tomography rather than microscopically derived.",
+    "The X/scalar source coupling is a fixed-field derivative attribution only.",
+    "Full source/support local conservation after dressing is not established.",
+    "Nonradial stability of the coupled system is not established.",
+    "EFT and radiative naturalness remain open.",
+    "Empirical off-state closure remains open.",
+    "026C N89 remains mandatory for the old pure-GR B7 force-convergence credibility branch.",
+    "No practical device is established."
+  ],
+  "classification": "GREEN_B7_FIXED_FIELD_ONE_SECTOR_DRESSING_PRESERVES_83GJ_AT_R4S_SCALAR_SENSITIVITY",
+  "fft_validation": {
+    "max_relerr": 6.004687590018628e-16,
+    "pass": true
+  },
+  "finite_payload_factor": 1.000091830376129,
+  "max_cell_self_energy_fraction": 0.003583374198713382,
+  "mediator_range_m": 3.3,
+  "next": "031B1B_MINIMAL_B7_Z2_COUPLED_FIELD_REEQUILIBRATION_AND_CONSERVATION_GATE",
+  "pair_results": {
+    "V": {
+      "N73_F90": 0.8983054548654624,
+      "N73_floor_J": 67575802507.27217,
+      "N81_F90": 0.8980843258295819,
+      "N81_floor_J": 67691640473.701195,
+      "R4S_alphaX_83GJ_pair_pass": false,
+      "asymptotic_floor_relchange": 0.001711259553150109,
+      "kernel_curve_relative_difference": 7.755289369578542e-08,
+      "pair_convergence_pass": true,
+      "required_alpha_max": 4.0157801324265056e+17,
+      "required_alpha_over_R4S": 2.0804256554289933,
+      "sector": "V",
+      "sector_fraction_relchange": 0.0073960175700516495,
+      "self_coefficient_relchange": 0.016421586837954256,
+      "target_reachable_pair": true,
+      "within_10x_R4S_alpha": true
+    },
+    "e2": {
+      "N73_F90": 0.8978011897780098,
+      "N73_floor_J": 61937427748.70241,
+      "N81_F90": 0.8976303512438478,
+      "N81_floor_J": 62061047840.035164,
+      "R4S_alphaX_83GJ_pair_pass": false,
+      "asymptotic_floor_relchange": 0.001991911120343823,
+      "kernel_curve_relative_difference": 1.921159923565338e-07,
+      "pair_convergence_pass": true,
+      "required_alpha_max": 6.00132956665228e+17,
+      "required_alpha_over_R4S": 3.1090646363658867,
+      "sector": "e2",
+      "sector_fraction_relchange": 0.0031881708831227357,
+      "self_coefficient_relchange": 0.008343070729243481,
+      "target_reachable_pair": true,
+      "within_10x_R4S_alpha": true
+    },
+    "e4": {
+      "N73_F90": 0.898686348559131,
+      "N73_floor_J": 70963212980.99171,
+      "N81_F90": 0.898469990091756,
+      "N81_floor_J": 71166160891.88876,
+      "R4S_alphaX_83GJ_pair_pass": true,
+      "asymptotic_floor_relchange": 0.002851747352303504,
+      "kernel_curve_relative_difference": 3.3811031478062104e-07,
+      "pair_convergence_pass": true,
+      "required_alpha_max": 1.4332125438244112e+17,
+      "required_alpha_over_R4S": 0.7424938735511124,
+      "sector": "e4",
+      "sector_fraction_relchange": 0.00245077570709558,
+      "self_coefficient_relchange": 0.0020520130569418957,
+      "target_reachable_pair": true,
+      "within_10x_R4S_alpha": true
+    }
+  },
+  "payload_center_m": 2.05,
+  "payload_radius_m": 0.1,
+  "source_radius_m": 0.95,
+  "strong_survivors": [
+    "e4"
+  ],
+  "target_acceleration_mps2": 9.80665,
+  "target_energy_J": 82750782014.3006,
+  "weak_survivors": [
+    "e2",
+    "V"
+  ]
+}

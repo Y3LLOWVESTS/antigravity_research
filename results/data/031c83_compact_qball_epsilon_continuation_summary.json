@@ -1,0 +1,40 @@
+{
+  "83gj_survivors": 0,
+  "best": {
+    "DEC_pass": true,
+    "E_over_QmX": 0.49933639387732753,
+    "PASS83": false,
+    "X_MATCH": 80.0,
+    "a_cm_mps2": 12.434604851616779,
+    "ceiling_E_J": 96141319171.05128,
+    "ceiling_alpha_m": 32.62020373729278,
+    "ceiling_backreaction": 0.009999999999998767,
+    "centered_E_J": 488623125761.2342,
+    "chi": 0.42601826862576553,
+    "chi_critical": 0.13632584596024497,
+    "chi_factor": 3.125,
+    "conservation_rel": 6.353329509161501e-07,
+    "epsilon": 0.01,
+    "max_shift_m": 0.5569440007415939,
+    "omega": 0.34,
+    "payload_overlap": 5.0641932433224826e-30,
+    "promoted_E_J": 140249612056.68405,
+    "promoted_backreaction": 0.006855014980874417,
+    "scalar_hessian": 0.001844009791696659,
+    "source_leak": 0.00010000000025766913,
+    "surface_min_mps2": 9.80665
+  },
+  "claim_limits": [
+    "Same global-Q-ball source theory as 031B2-A.",
+    "No source leakage or backreaction threshold is relaxed.",
+    "The continuation is motivated by the previous optimum lying at the minimum scanned epsilon.",
+    "Full coupled nonradial stability remains open.",
+    "Radiative naturalness remains open.",
+    "Activation/off-state remains open.",
+    "No practical device is established."
+  ],
+  "classification": "RED_COMPACT_QBALL_CONTINUATION_DOES_NOT_RECOVER_83GJ",
+  "next": "031C_QSHELL_OR_MULTICOMPONENT_PAYLOAD_ADJACENT_SOURCE",
+  "target_energy_J": 82750782014.3006,
+  "valid_cases": 120
+}

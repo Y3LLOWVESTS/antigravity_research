@@ -1,0 +1,19 @@
+=== 031B2-A GLOBAL U(1) Q-BALL ACTIVATED-SCALAR CONTROL ===
+CLAIM_CLASS=COUPLED_MICROSCOPIC_SOLITON_RADIAL_PREFLIGHT
+SOURCE_SCALAR_CHARGE_PRESCRIBED=NO
+SOURCE_REACTION_TO_SCALAR=YES
+NOETHER_STABILITY_MECHANISM=YES
+POSITIVE_HAMILTONIAN_BY_CONSTRUCTION=YES
+PRACTICAL_DEVICE=NO
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031b2a_global_qball_activated_scalar_control.py", line 3178, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031b2a_global_qball_activated_scalar_control.py", line 2604, in main
+    r4s[
+    ~~~^
+        "mediator_range_m"
+        ^^^^^^^^^^^^^^^^^^
+    ]
+    ^
+KeyError: 'mediator_range_m'
