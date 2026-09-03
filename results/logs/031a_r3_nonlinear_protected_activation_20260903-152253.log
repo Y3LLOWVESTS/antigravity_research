@@ -1,0 +1,37 @@
+=== 031A-R3 NONLINEAR SOURCE-SENSITIVITY + PROTECTED ACTIVATION GATE ===
+CLAIM_CLASS=THEOREM_AND_PROTECTION_PREFLIGHT
+MICROSCOPIC_FIELD=NO
+PRACTICAL_DEVICE=NO
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031a_r3_nonlinear_protected_activation_gate.py", line 2538, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031a_r3_nonlinear_protected_activation_gate.py", line 1656, in main
+    r2 = load_r2_module()
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031a_r3_nonlinear_protected_activation_gate.py", line 228, in load_r2_module
+    spec.loader.exec_module(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        module
+        ^^^^^^
+    )
+    ^
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031a_r2r_finite_support_scalar_charge_pareto_gate.py", line 147, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "/usr/local/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/dataclasses.py", line 1354, in dataclass
+    return wrap(cls)
+  File "/usr/local/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/dataclasses.py", line 1344, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "/usr/local/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/dataclasses.py", line 997, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 _is_kw_only))):
+                 ^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/dataclasses.py", line 757, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?

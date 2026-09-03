@@ -1,0 +1,38 @@
+{
+  "claim_class": "NUMERICAL_PROVENANCE_AND_TOMOGRAPHY_AUDIT",
+  "practical_device": false,
+  "microscopic_field": false,
+  "provenance_repaired": true,
+  "order_unity_tomography_robust": true,
+  "cases": [
+    {
+      "label": "MONO_LE_0P1",
+      "total_relerr": 4.3283842924492877e-10,
+      "field_relerr": 5.586878191522574e-06,
+      "core_relerr": 5.015370790767619e-06,
+      "stored_inside_1e5": true,
+      "min_w50": 1.7191125894606019,
+      "min_w90": 3.723084566020876,
+      "tomography_robust": true,
+      "provenance_repaired": true
+    },
+    {
+      "label": "NET_NEUTRAL",
+      "total_relerr": 3.0048245501230214e-09,
+      "field_relerr": 7.217218549408806e-06,
+      "core_relerr": 7.066078478597986e-06,
+      "stored_inside_1e5": true,
+      "min_w50": 0.9670386785763576,
+      "min_w90": 3.974217720745815,
+      "tomography_robust": true,
+      "provenance_repaired": true
+    }
+  ],
+  "near_opt_eps": [
+    1e-08,
+    1e-06,
+    1e-05
+  ],
+  "classification": "GREEN_R2R_PROVENANCE_REPAIRED_ORDER_UNITY_SELF_FIELD_ROBUST",
+  "next": "031A_R4_Z2_INDUCED_SCALARIZATION_FINITE_SOURCE_BVP"
+}

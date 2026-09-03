@@ -1,0 +1,121 @@
+{
+  "claim_class": "THEOREM_AND_PROTECTION_PREFLIGHT",
+  "practical_device": false,
+  "microscopic_field": false,
+  "r2_provenance_pass": false,
+  "strong_candidate": {
+    "E_total_J": 82750781996.56973,
+    "E_field_J": 39141696660.43975,
+    "E_core_J": 43609085336.12999,
+    "monopole_fraction": 0.09999999999999946,
+    "w50": 1.7261009834744145,
+    "w90": 3.732509879407004,
+    "w99": 4.069839931400702,
+    "wmax": 4.069839931400702,
+    "weighted_mean_w": -1.7951166074107487,
+    "ell50_exponential_m": 0.06660906375794277
+  },
+  "f_x_gev": 43.30110363444777,
+  "unprotected_cw_carrier_low_ev": 127.54859589377791,
+  "unprotected_cw_carrier_high_ev": 180.38095417462597,
+  "source_compactness": 3.2757232605267118e-34,
+  "strong_field_compactness_reference": 0.1,
+  "symmetron_rcrit_3p3m_m": 14.661513695922608,
+  "z2_classical_survivor": true,
+  "z2_rows": [
+    {
+      "allowed_fraction": 1.0,
+      "phi0_gev": 161.62179710480282,
+      "M_X_gev": 83.65645334354521,
+      "M_m_gev": 6273348993.561532,
+      "ratio_reconstruction": 5623413251903491.0,
+      "ell10_m": 0.06971821221144638,
+      "ell50_m": 0.1286696517359325,
+      "ell90_m": 0.2232638171531985,
+      "positive_mass_term_j_m3": 973791346.9312892,
+      "positive_mass_term_support_j": 374611984.07636017,
+      "positive_mass_term_d_ball_j": 5429159189.512468,
+      "cw_quad_low_ev": 177.28660504569018,
+      "cw_quad_high_ev": 250.72112128269745,
+      "payload_screening": {
+        "100.0": 1.0000000115387742,
+        "1000.0": 0.9999999996971056,
+        "8000.0": 0.999999910884592
+      },
+      "classical_window": true
+    },
+    {
+      "allowed_fraction": 0.3,
+      "phi0_gev": 538.7393236826761,
+      "M_X_gev": 152.73508859046063,
+      "M_m_gev": 11453515849.586607,
+      "ratio_reconstruction": 5623413251903491.0,
+      "ell10_m": 0.12728745832380436,
+      "ell50_m": 0.23491756907367997,
+      "ell90_m": 0.40762209643171887,
+      "positive_mass_term_j_m3": 10819903854.792103,
+      "positive_mass_term_support_j": 4162355378.6262245,
+      "positive_mass_term_d_ball_j": 60323990994.582985,
+      "cw_quad_low_ev": 239.54968818295015,
+      "cw_quad_high_ev": 338.77441789057406,
+      "payload_screening": {
+        "100.0": 1.0000000904832307,
+        "1000.0": 1.0000000115387737,
+        "8000.0": 0.9999999720665455
+      },
+      "classical_window": true
+    },
+    {
+      "allowed_fraction": 0.1,
+      "phi0_gev": 1616.2179710480282,
+      "M_X_gev": 264.54493353721136,
+      "M_m_gev": 19838071376.77942,
+      "ratio_reconstruction": 5623413251903490.0,
+      "ell10_m": 0.22046834498313517,
+      "ell50_m": 0.4068891652261849,
+      "ell90_m": 0.7060221813074775,
+      "positive_mass_term_j_m3": 97379134693.1289,
+      "positive_mass_term_support_j": 37461198407.63602,
+      "positive_mass_term_d_ball_j": 542915918951.2467,
+      "cw_quad_low_ev": 315.2651194284535,
+      "cw_quad_high_ev": 445.8522076388925,
+      "payload_screening": {
+        "100.0": 1.0000004852055147,
+        "1000.0": 1.0000000115387742,
+        "8000.0": 0.9999999967366887
+      },
+      "classical_window": true
+    },
+    {
+      "allowed_fraction": 0.03,
+      "phi0_gev": 5387.393236826761,
+      "M_X_gev": 482.99075857345196,
+      "M_m_gev": 36219197301.53219,
+      "ratio_reconstruction": 5623413251903493.0,
+      "ell10_m": 0.40251828587698013,
+      "ell50_m": 0.7428745806627602,
+      "ell90_m": 1.2890142493370254,
+      "positive_mass_term_j_m3": 1081990385479.2102,
+      "positive_mass_term_support_j": 416235537862.62244,
+      "positive_mass_term_d_ball_j": 6032399099458.298,
+      "cw_quad_low_ev": 425.9862781769845,
+      "cw_quad_high_ev": 602.4355719827295,
+      "payload_screening": {
+        "100.0": 0.999999999966248,
+        "1000.0": 1.000000090483231,
+        "8000.0": 1.0000000411429457
+      },
+      "classical_window": false
+    }
+  ],
+  "classification": "RED_R2_PROVENANCE_RECONSTRUCTION_FAILURE",
+  "next": "DIAGNOSE_R2R_BEFORE_NEW_PHYSICS",
+  "claim_limits": [
+    "No microscopic source solved.",
+    "No activation PDE solved.",
+    "No radiative protection established.",
+    "No empirical fifth-force closure established.",
+    "Negative interaction energy is not credited as a practical energy saving.",
+    "Z2 scaffold results are only classical parameter translations."
+  ]
+}
