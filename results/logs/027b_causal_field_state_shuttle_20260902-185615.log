@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/027b_causal_field_state_shuttle_gate.py", line 813, in <module>
+    wcsv.writerow({k: m[k] for k in fields})
+                      ~^^^
+KeyError: 'potential'

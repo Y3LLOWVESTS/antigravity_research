@@ -1,0 +1,51 @@
+{
+  "audit": {
+    "active_identity_maxrel": 1.1089786173487414e-15,
+    "l1_driver_reproduction_relerr": 4.189460314923269e-16,
+    "positive_active_farfield_check": true
+  },
+  "branch": "TRUE_ANTIGRAVITY",
+  "claims": {
+    "continuum_force_convergence": false,
+    "energy_scaling_improved": false,
+    "finite_payload_standoff": false,
+    "practical_antigravity_device": false,
+    "stability": false,
+    "strict_compact_support_standoff": false
+  },
+  "field": {
+    "B": 7,
+    "N": 73,
+    "eta": 0.4,
+    "m": 8.0
+  },
+  "practicality_clue": "REORGANIZE_NEGATIVE_ACTIVE_CORE_AND_POSITIVE_SCAFFOLDING_BEFORE_MORE_LOCAL_STRESS",
+  "simulation": "026L2",
+  "support": {
+    "projected_q90": 0.6425747055290836,
+    "projected_q95": 0.7609964817227962,
+    "projected_q99": 0.9617600790249105,
+    "projected_q999": 1.1690270253809778,
+    "projected_q9999": 1.3480414278265915,
+    "radial_r50": 0.8015088790598802,
+    "radial_r90": 1.0723827747712598,
+    "radial_r99": 1.2874754941513993
+  },
+  "transition": {
+    "best_true_repulsive": null,
+    "crossings": [
+      {
+        "d_left": 0.38701612745649,
+        "d_right": 0.49379671638650124,
+        "f_left": 0.13250191446741155,
+        "f_right": -330.04007436647544,
+        "linear_root": 0.38705897969037495
+      }
+    ],
+    "mechanism_class": "OUTWARD_RESPONSE_IS_PREDOMINANTLY_EMBEDDED_OR_TWO_SIDED",
+    "outward_with_99_percent_energy_behind": false,
+    "outward_with_99p99_percent_energy_behind": false,
+    "outward_with_99p9_percent_energy_behind": false,
+    "true_repulsive_dominant_outward_point": false
+  }
+}

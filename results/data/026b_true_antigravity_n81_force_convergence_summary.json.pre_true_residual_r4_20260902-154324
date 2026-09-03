@@ -1,0 +1,451 @@
+{
+  "branch": "TRUE_ANTIGRAVITY",
+  "claims": {
+    "heuristic_increase_authorized": false,
+    "new_physics_discovery": false,
+    "practical_antigravity_device": false
+  },
+  "decision": "INCOMPLETE_N81_STATIONARITY",
+  "field": {
+    "B": 7,
+    "N": 81,
+    "eta": 0.4,
+    "m": 8.0
+  },
+  "force_convergence": null,
+  "full_physical_hessian": "DEFERRED_FORCE_CONVERGENCE_NOT_COMPLETE",
+  "local_resolution": null,
+  "n73_reference": {
+    "continuum_energy": 1782.457314172114,
+    "energy": 1767.3499025296078,
+    "force": {
+      "certified": true,
+      "cubic": 1.895502428955595,
+      "error": 0.1417291266264158,
+      "mean_relchange": 0.9037530444807379,
+      "quintic": 2.037231555582011,
+      "sign": "OUTWARD",
+      "spread": 0.1417291266264158,
+      "spread_ratio": 0.7123892332618439
+    },
+    "grad_max": 0.010937380123281486,
+    "grad_rms": 0.0012419982914933384,
+    "min_active_fraction": -0.014117583091656057,
+    "topology4": 6.979145456147961
+  },
+  "n81": {
+    "accepted_this_run": 4,
+    "energy": 1772.3666688534045,
+    "geometric_degrees": [
+      -7,
+      -7,
+      -7
+    ],
+    "grad_max": 0.47539967858507315,
+    "grad_rms": 0.03226872058969584,
+    "max_neighbor_angle": 0.36415791210235643,
+    "physical_gate": false,
+    "start_source": "026B_N81_CHECKPOINT",
+    "stationary": false,
+    "topology4": 6.986193753058316
+  },
+  "n81_force": null,
+  "next": "RERUN_026B_FROM_CHECKPOINT",
+  "nonlinear_einstein_skyrme": "NOT_AUTHORIZED",
+  "outer_reports": [
+    {
+      "accepted": true,
+      "alpha": 1.0,
+      "angle": 0.3645950655933671,
+      "augment_dim": 16,
+      "augment_names": [
+        "R4_FULL_SIGMA_1",
+        "R4_FULL_SIGMA_2",
+        "R4_FULL_SIGMA_4",
+        "R4_FULL_SIGMA_8",
+        "R4_COMP_0_SIGMA_2",
+        "R4_COMP_1_SIGMA_2",
+        "R4_X_MOD_SIGMA_4",
+        "R4_Y_MOD_SIGMA_4",
+        "R4_Z_MOD_SIGMA_4",
+        "R4_WALL_SIGMA_2",
+        "R4_WALL_SIGMA_4",
+        "R4_TAIL_SIGMA_2",
+        "R4_TAIL_SIGMA_4",
+        "SPATIAL_5",
+        "SPATIAL_4",
+        "SPATIAL_3"
+      ],
+      "coarse_eigs": [
+        -0.5756837943445708,
+        -0.5638562711012743,
+        -0.5638562653856848,
+        177.63964302318473,
+        236.96173589935526,
+        352.8485073772839,
+        355.385142203518,
+        355.38514464392085,
+        356.2772285861448,
+        577.3151637263494,
+        652.0619850475944,
+        3022.5569658949394,
+        3022.556968026666,
+        3133.481638128358,
+        4247.708444360759,
+        77528.99235146286
+      ],
+      "coupling": 0.7670141547673665,
+      "end_merit": 619.2405327071318,
+      "gradient_capture": 0.6992077317313328,
+      "hvp_calls": 25,
+      "linear_trials": [
+        {
+          "factor": 0.0,
+          "gd_components": -192.47552338388047,
+          "info": 0,
+          "iters": 5,
+          "mu": 7.692307526645228,
+          "relres": 0.1856889417542331
+        }
+      ],
+      "outer": 1,
+      "topology4": 6.986166372088542
+    },
+    {
+      "accepted": true,
+      "alpha": 1.0,
+      "angle": 0.3641637906471065,
+      "augment_dim": 17,
+      "augment_names": [
+        "R4_FULL_SIGMA_1",
+        "R4_FULL_SIGMA_2",
+        "R4_FULL_SIGMA_4",
+        "R4_FULL_SIGMA_8",
+        "R4_COMP_0_SIGMA_2",
+        "R4_COMP_1_SIGMA_2",
+        "R4_X_MOD_SIGMA_4",
+        "R4_Y_MOD_SIGMA_4",
+        "R4_Z_MOD_SIGMA_4",
+        "R4_WALL_SIGMA_2",
+        "R4_WALL_SIGMA_4",
+        "R4_TAIL_SIGMA_2",
+        "R4_TAIL_SIGMA_4",
+        "SPATIAL_5",
+        "SPATIAL_4",
+        "SPATIAL_3",
+        "SECANT_0"
+      ],
+      "coarse_eigs": [
+        0.7148653025724058,
+        0.7205490382714781,
+        0.7205490927877808,
+        236.3590822236048,
+        888.9831046780155,
+        1873.6643276321602,
+        2502.2031584904707,
+        2502.2044769821996,
+        2807.204093710382,
+        3015.4328240901136,
+        3207.876294157049,
+        3561.492129653316,
+        3561.498305861983,
+        3839.1796650193733,
+        4725.172337663084,
+        7575.615664036814,
+        27155.346942956545
+      ],
+      "coupling": 0.8485439387663771,
+      "end_merit": 57.349015111488164,
+      "gradient_capture": 0.841129976572006,
+      "hvp_calls": 64,
+      "linear_trials": [
+        {
+          "factor": 0.0,
+          "gd_components": -42.781075765853245,
+          "info": 0,
+          "iters": 43,
+          "mu": 55.42921657163524,
+          "relres": 0.08865854043186494
+        }
+      ],
+      "outer": 2,
+      "topology4": 6.986183973363866
+    },
+    {
+      "accepted": true,
+      "alpha": 1.0,
+      "angle": 0.36415347122076647,
+      "augment_dim": 18,
+      "augment_names": [
+        "R4_FULL_SIGMA_1",
+        "R4_FULL_SIGMA_2",
+        "R4_FULL_SIGMA_4",
+        "R4_FULL_SIGMA_8",
+        "R4_COMP_0_SIGMA_2",
+        "R4_COMP_1_SIGMA_2",
+        "R4_X_MOD_SIGMA_4",
+        "R4_Y_MOD_SIGMA_4",
+        "R4_Z_MOD_SIGMA_4",
+        "R4_WALL_SIGMA_2",
+        "R4_WALL_SIGMA_4",
+        "R4_TAIL_SIGMA_2",
+        "R4_TAIL_SIGMA_4",
+        "SPATIAL_5",
+        "SPATIAL_4",
+        "SPATIAL_3",
+        "SECANT_0",
+        "SECANT_1"
+      ],
+      "coarse_eigs": [
+        1.1230077218848449,
+        1.1298043217340448,
+        1.1298043342688917,
+        216.4332142900372,
+        336.6858918735797,
+        701.2496715003801,
+        894.6721919642454,
+        972.216098088873,
+        972.2209429701966,
+        1036.6619698134482,
+        1149.3715402130015,
+        1178.1551964628857,
+        1178.1557773840977,
+        1330.1633696221572,
+        2016.9560122178425,
+        2422.797735299042,
+        3068.213134866737,
+        5890.925011148889
+      ],
+      "coupling": 0.954796397638545,
+      "end_merit": 28.851951054555755,
+      "gradient_capture": 0.9337399844623993,
+      "hvp_calls": 165,
+      "linear_trials": [
+        {
+          "factor": 0.0,
+          "gd_components": -6.040990810096136,
+          "info": 0,
+          "iters": 35,
+          "mu": 18.9658214059516,
+          "relres": 0.5809312406292532
+        },
+        {
+          "factor": 0.02,
+          "gd_components": -5.648564131323802,
+          "info": 0,
+          "iters": 35,
+          "mu": 39.05465053378805,
+          "relres": 0.532782377775429
+        },
+        {
+          "factor": 0.1,
+          "gd_components": -4.525396696518563,
+          "info": 0,
+          "iters": 34,
+          "mu": 119.40996704513384,
+          "relres": 0.41927749381099527
+        },
+        {
+          "factor": 0.5,
+          "gd_components": -2.525384353403308,
+          "info": 0,
+          "iters": 33,
+          "mu": 521.1865496018628,
+          "relres": 0.21646461675535544
+        }
+      ],
+      "outer": 3,
+      "topology4": 6.986188956042415
+    },
+    {
+      "accepted": true,
+      "alpha": 1.0,
+      "angle": 0.36415791210235643,
+      "augment_dim": 18,
+      "augment_names": [
+        "R4_FULL_SIGMA_1",
+        "R4_FULL_SIGMA_2",
+        "R4_FULL_SIGMA_4",
+        "R4_FULL_SIGMA_8",
+        "R4_COMP_0_SIGMA_2",
+        "R4_COMP_1_SIGMA_2",
+        "R4_X_MOD_SIGMA_4",
+        "R4_Y_MOD_SIGMA_4",
+        "R4_Z_MOD_SIGMA_4",
+        "R4_WALL_SIGMA_2",
+        "R4_WALL_SIGMA_4",
+        "R4_TAIL_SIGMA_2",
+        "R4_TAIL_SIGMA_4",
+        "SPATIAL_5",
+        "SPATIAL_4",
+        "SPATIAL_3",
+        "SECANT_0",
+        "SECANT_1"
+      ],
+      "coarse_eigs": [
+        1.1309193704188683,
+        1.1369731618651155,
+        1.136973168524986,
+        114.29742484780803,
+        199.92636406268645,
+        239.20494024880952,
+        239.20526162705553,
+        256.78385467249024,
+        280.0986243060888,
+        360.29244445121407,
+        437.51841911919604,
+        785.7795716558014,
+        1066.5912628290114,
+        1066.5912857279025,
+        1083.7795145601979,
+        1160.262945909665,
+        1794.161439007616,
+        3393.3226480005624
+      ],
+      "coupling": 0.9215309101119652,
+      "end_merit": 21.51248039313056,
+      "gradient_capture": 0.9789931218655152,
+      "hvp_calls": 139,
+      "linear_trials": [
+        {
+          "factor": 0.0,
+          "gd_components": -4.824505094925771,
+          "info": 0,
+          "iters": 22,
+          "mu": 5.272991317154161,
+          "relres": 2.405598335736744
+        },
+        {
+          "factor": 0.02,
+          "gd_components": -4.5916304215986425,
+          "info": 0,
+          "iters": 22,
+          "mu": 11.67690200472719,
+          "relres": 2.250301840162995
+        },
+        {
+          "factor": 0.1,
+          "gd_components": -3.8693638781117627,
+          "info": 0,
+          "iters": 22,
+          "mu": 37.29254475501931,
+          "relres": 1.7783597893061824
+        },
+        {
+          "factor": 0.5,
+          "gd_components": -2.2573464363759155,
+          "info": 0,
+          "iters": 22,
+          "mu": 165.3707585064799,
+          "relres": 0.8160817920702526
+        },
+        {
+          "factor": 2.0,
+          "gd_components": -0.9527100881540098,
+          "info": 0,
+          "iters": 21,
+          "mu": 645.6640600744571,
+          "relres": 0.2330951878876747
+        }
+      ],
+      "outer": 4,
+      "topology4": 6.986193753058316
+    },
+    {
+      "accepted": false,
+      "augment_dim": 18,
+      "augment_names": [
+        "R4_FULL_SIGMA_1",
+        "R4_FULL_SIGMA_2",
+        "R4_FULL_SIGMA_4",
+        "R4_FULL_SIGMA_8",
+        "R4_COMP_0_SIGMA_2",
+        "R4_COMP_1_SIGMA_2",
+        "R4_X_MOD_SIGMA_4",
+        "R4_Y_MOD_SIGMA_4",
+        "R4_Z_MOD_SIGMA_4",
+        "R4_WALL_SIGMA_2",
+        "R4_WALL_SIGMA_4",
+        "R4_TAIL_SIGMA_2",
+        "R4_TAIL_SIGMA_4",
+        "SPATIAL_5",
+        "SPATIAL_4",
+        "SPATIAL_3",
+        "SECANT_0",
+        "SECANT_1"
+      ],
+      "coarse_eigs": [
+        1.1405284429626055,
+        1.1464055070192238,
+        1.1464055146272847,
+        101.17887841038593,
+        168.75914887337498,
+        181.08342524480193,
+        181.08352360319503,
+        183.5236397910622,
+        243.08154390861873,
+        318.4705076182403,
+        387.1961961860345,
+        669.6109200297092,
+        917.703256136535,
+        933.6994071353496,
+        1012.9024302799057,
+        1012.9024476218574,
+        1855.9243795555512,
+        9702.303344494117
+      ],
+      "coupling": 0.9599930185451914,
+      "gradient_capture": 0.9766234034544417,
+      "hvp_calls": 113,
+      "linear_trials": [
+        {
+          "factor": 0.0,
+          "gd_components": -3.7374044877435484,
+          "info": 0,
+          "iters": 16,
+          "mu": 4.4749920723059855,
+          "relres": 1.362453040206851
+        },
+        {
+          "factor": 0.02,
+          "gd_components": -3.545041839237294,
+          "info": 0,
+          "iters": 16,
+          "mu": 10.090512587574576,
+          "relres": 1.2902087441040708
+        },
+        {
+          "factor": 0.1,
+          "gd_components": -2.9501079269104276,
+          "info": 0,
+          "iters": 16,
+          "mu": 32.55259464864894,
+          "relres": 1.0780540693831666
+        },
+        {
+          "factor": 0.5,
+          "gd_components": -1.6429245842092164,
+          "info": 0,
+          "iters": 16,
+          "mu": 144.86300495402074,
+          "relres": 0.6900725531680887
+        },
+        {
+          "factor": 2.0,
+          "gd_components": -0.6472735849958303,
+          "info": 0,
+          "iters": 19,
+          "mu": 566.027043599165,
+          "relres": 0.45962342357376484
+        }
+      ],
+      "outer": 5
+    }
+  ],
+  "provenance": {
+    "a26_source_sha256": "1023bcafde9aabd3fd432834b6ae2f4cd89fdf4e80ce5fc422a56e929dc09508",
+    "n73_field_sha256": "6da8b702802b2fb14a92d708f1fdd05ec59134ab3d80f34487837b1f6744c747",
+    "n73_summary_sha256": "d5bbf41306e23113570821b3b67eef570c68e8940657d327d2b9242fee95cc8a"
+  },
+  "simulation": "026B"
+}

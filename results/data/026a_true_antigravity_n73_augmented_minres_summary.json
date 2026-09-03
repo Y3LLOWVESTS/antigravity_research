@@ -1,0 +1,108 @@
+{
+  "branch": "TRUE_ANTIGRAVITY",
+  "claims": {
+    "heuristic_increase_authorized": false,
+    "new_physics_discovery": false,
+    "practical_antigravity_device": false
+  },
+  "decision": "GREEN_STRICT_N73_CONTINUOUS_OUTWARD_SENTINEL",
+  "field": {
+    "B": 7,
+    "N": 73,
+    "eta": 0.4,
+    "m": 8.0
+  },
+  "final": {
+    "degrees": [
+      -7,
+      -7,
+      -7
+    ],
+    "energy": 1767.3499025296078,
+    "grad_max": 0.010937380123281486,
+    "grad_rms": 0.0012419982914933384,
+    "max_neighbor_angle": 0.40568382154696814,
+    "merit": 0.8279988609955589,
+    "physical_gate": true,
+    "stationary": true,
+    "topology4": 6.979145456147961
+  },
+  "force": {
+    "certified": true,
+    "cubic": 1.895502428955595,
+    "error": 0.1417291266264158,
+    "mean_relchange": 0.9037530444807379,
+    "quintic": 2.037231555582011,
+    "sign": "OUTWARD",
+    "spread": 0.1417291266264158,
+    "spread_ratio": 0.7123892332618439
+  },
+  "full_physical_hessian": "DEFERRED_UNTIL_N73_N81_FORCE_CONVERGENCE",
+  "next": "026B_N81_STATIONARY_COMPANION_CONTINUOUS_FORCE_CONVERGENCE",
+  "outer_reports": [
+    {
+      "accepted": true,
+      "alpha": 1.0,
+      "angle": 0.40568382154696814,
+      "augment_dim": 18,
+      "augment_names": [
+        "R4_FULL_SIGMA_1",
+        "R4_FULL_SIGMA_2",
+        "R4_FULL_SIGMA_4",
+        "R4_FULL_SIGMA_8",
+        "R4_COMP_0_SIGMA_2",
+        "R4_COMP_1_SIGMA_2",
+        "R4_X_MOD_SIGMA_4",
+        "R4_Y_MOD_SIGMA_4",
+        "R4_Z_MOD_SIGMA_4",
+        "R4_WALL_SIGMA_2",
+        "R4_WALL_SIGMA_4",
+        "R4_TAIL_SIGMA_2",
+        "R4_TAIL_SIGMA_4",
+        "SPATIAL_5",
+        "SPATIAL_4",
+        "SPATIAL_3",
+        "SECANT_0",
+        "SECANT_1"
+      ],
+      "coarse_eigs": [
+        1.8387809352250988,
+        1.8964439387361933,
+        1.8964439509363422,
+        119.0767316190053,
+        191.94437473086776,
+        267.78431903848156,
+        325.8367243481269,
+        530.6326058773309,
+        725.4924102010192,
+        1008.9568185293675,
+        1028.6012101169879,
+        1161.5865309163125,
+        1161.5873994522285,
+        3241.936031441158,
+        3241.937246964651,
+        3709.9256404869457,
+        4693.23071061579,
+        21668.084540465905
+      ],
+      "coupling": 0.8936021521828483,
+      "end_merit": 0.8279988609955589,
+      "gradient_capture": 0.788977382266008,
+      "hvp_calls": 50,
+      "linear_trials": [
+        {
+          "factor": 0.0,
+          "gd_components": -0.00014640639730582395,
+          "info": 0,
+          "iters": 28,
+          "mu": 5120.086023204544,
+          "relres": 0.027365438260018592
+        }
+      ],
+      "outer": 1,
+      "topology4": 6.979145456147961
+    }
+  ],
+  "simulation": "026A",
+  "start_merit": 1.6228597935270472
+}

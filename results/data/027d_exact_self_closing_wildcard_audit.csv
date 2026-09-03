@@ -1,0 +1,6 @@
+budget_factor,feasible,C_robust,all_payload_samples_outward,selection_role
+0.625,False,nan,,BLIND_NON_EVIDENTIARY_EXCLUDED
+1.6,True,inf,False,BLIND_NON_EVIDENTIARY_EXCLUDED
+1.875,True,inf,False,BLIND_NON_EVIDENTIARY_EXCLUDED
+3.125,True,inf,False,BLIND_NON_EVIDENTIARY_EXCLUDED
+5.0,True,inf,False,BLIND_NON_EVIDENTIARY_EXCLUDED

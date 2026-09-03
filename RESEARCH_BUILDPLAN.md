@@ -1,456 +1,337 @@
 # Antigravity Research — Research Buildplan
 
-**Date:** 2026-09-01
-**Role:** master project strategy, cross-branch decision plan, and active execution guide
-**Active frontier:** teacher-guided successor field design
-**Detailed Introspective plan:** `INTROSPECTIVE_BUILDPLAN.md` retained as completed mechanism-discovery record
-**Future detailed successor plan:** create only if the analytical successor preflight survives
+**Date:** 2026-09-03
+
+**Role:** master project strategy, active execution guide, branch-ranking document, promotion/falsification framework, and practicality roadmap
+
+**Active frontier:** `031 — ACTIVATED SCALAR-METRIC CHARGE ANTIGRAVITY`
+
+**Immediate active phase:** `031A — SCALAR-CHARGE ENERGY / DUAL-KERNEL / MORPHOLOGY THEOREM GATE`
+
+**Primary microscopic implementation tracks:** augmented B7 scalar-charge dressing and independent non-gravitationally bound soliton control
+
+**Mandatory parallel scientific-credibility branch:** `026C — N89 B7 force-convergence gate`
+
+**Completed mechanism-discovery record:** `INTROSPECTIVE_BUILDPLAN.md`
+
 **Current internal knowledge/accomplishment heuristic:** approximately 70–71%, not a probability
+
 **Known-solution regression baseline:** 94 passed
+
 **Practical antigravity device:** no
+
 **New-physics discovery:** no
+
 **Novelty:** not established
+
+**Analogue Antigravity:** out of scope for the active program
 
 ---
 
 # 0. Purpose and document hierarchy
 
-This document is the master scientific execution plan for **Antigravity Research**.
+This document controls the next scientific decision for **Antigravity Research**.
 
-Its purpose is to maximize scientific information gain per unit research time while moving toward the strongest physically defensible form of useful outward acceleration of neutral matter.
+The project objective is **true antigravity**:
 
-It is a living plan.
+> A physically consistent gravitational or metric-sector field producing outward acceleration of a finite neutral payload, with complete source, field, control, support, stability, conservation, energy, backreaction, and empirical accounting.
 
-Update it when:
+The project is not searching for a merely analogous force.
 
-* a major analytical or numerical gate closes;
-* a major branch is falsified or strongly demoted;
-* the active scientific frontier changes;
-* a successor field is promoted or rejected;
-* a support, stability, naturalness, empirical, or energy term materially changes the ranking;
-* nonlinear gravity changes the flat-space conclusion;
-* the internal progress heuristic changes for a substantive physical reason.
-
-Repository roles:
+Repository roles remain:
 
 ```text
 RESEARCH_BUILDPLAN.md
-    Master active frontier, pathway ranking, decision gates,
-    stop rules, branch handoffs, and NEXT.
+
+    Master current frontier
+    branch ranking
+    promotion gates
+    falsifiers
+    stop rules
+    practicality targets
+    NEXT
 
 INTROSPECTIVE_BUILDPLAN.md
-    Completed mechanism-discovery plan and permanent record
-    of the Introspective sequence, definitions, and gates.
+
+    Completed mechanism-discovery methodology
+    historical Introspective definitions
+    attribution metrics
+    teacher reconstruction
+    mechanism-discovery gates
 
 NOTES.md
-    Monolithic chronological carry-forward history.
+
+    Authoritative chronological carry-forward state
 
 notes/chronology/
-    GitHub-readable detailed carry-forward notes.
+
+    GitHub-readable chronological notes
 
 journal/
-    Durable proofs, completed scientific slices,
-    falsifications, validation, and claim boundaries.
+
+    Durable completed results
+    proofs
+    falsifications
+    validation
+    claim boundaries
 
 README.md
-    Concise public-facing reproducible state.
+
+    Public reproducible state
 
 FORMATTING_AND_CODE_STANDARDS.md
-    Required Markdown, mathematics, code, validation,
-    and documentation conventions.
+
+    Required code
+    mathematics
+    validation
+    and documentation conventions
 
 results/
-    Persistent numerical data, logs, and artifacts.
+
+    Numerical artifacts
+    fields
+    logs
+    scans
+    reconstruction outputs
 
 tests/
-    Scientific regression and known-solution constraints.
+
+    Scientific regression baseline
 
 latest codebundle
-    Authoritative implementation and repository state.
+
+    Implementation and repository state
 ```
 
-The buildplan should not become a chronological journal.
+The buildplan is **not a chronological journal**.
 
-Its job is to control the **next decision**.
+Historical details from superseded branches belong in `NOTES.md` and `journal/`.
 
----
-
-# 1. Global coordination rule
-
-`RESEARCH_BUILDPLAN.md` owns:
+The buildplan exists to answer:
 
 ```text
-GLOBAL_PROJECT_PRIORITY
+WHAT IS THE BEST CURRENT PATH?
 
-ACTIVE_FRONTIER
+WHAT IS THE NEXT DECISIVE TEST?
 
-PATHWAY_RANKING
+WHAT WOULD PROMOTE IT?
 
-BRANCH_OPEN_CLOSE_RERANK_DECISIONS
+WHAT WOULD KILL IT?
 
-STATIC_VS_PULSE_COORDINATION
-
-023C_VS_SUCCESSOR_VS_023D_ORDERING
-
-ANALOGUE_ANTIGRAVITY_HANDOFF
-
-PRACTICALITY_THRESHOLDS
-
-GLOBAL_STOP_RULES
-
-CLAIM_PROMOTION_REQUIREMENTS
-
-NEXT
-```
-
-`INTROSPECTIVE_BUILDPLAN.md` now owns only:
-
-```text
-COMPLETED_INTROSPECTIVE_SEQUENCE
-
-INTROSPECTIVE_DEFINITIONS
-
-INTROSPECTIVE_METRICS
-
-INTROSPECTIVE_PROMOTION_LEVELS
-
-INTROSPECTIVE_FALSIFIERS
-
-INTROSPECTIVE_STOP_RULES
-
-MECHANISM_DISCOVERY_HISTORY
-```
-
-If an old Introspective instruction conflicts with the current global priority:
-
-```text
-RESEARCH_BUILDPLAN.md WINS
-```
-
-Do not restart completed Introspective work merely because its detailed plan still contains future-looking phases.
-
----
-
-# 2. Central objective
-
-The project asks:
-
-> **What physically consistent mechanism offers the shortest credible path from demonstrated gravitational repulsion to stable or repeatably transient, finite-payload, experimentally defensible, energetically useful, controllable acceleration of neutral matter?**
-
-The project is no longer primarily asking whether a repulsive gravitational sign is mathematically possible.
-
-006D answered that constructively.
-
-The project is no longer primarily asking whether a microscopic field can exhibit the required qualitative stress-energy organization.
-
-018B and the later 023 branch supplied field-existence witnesses.
-
-The project is no longer primarily asking where the useful response of the current best field comes from.
-
-Introspective has now answered that mechanism question well enough for design.
-
-The current problem is:
-
-```text
-BUILD_A_PHYSICAL_FIELD_THAT_APPROACHES_THE_EFFICIENT_SOURCE_ANATOMY
-
-WHILE_SURVIVING:
-
-POSITIVE_ENERGY
-
-FIELD_EQUATIONS
-
-FINITE_LOCALIZATION
-
-CONSERVATION
-
-FINITE_PAYLOAD_RESPONSE
-
-TOPOLOGY_OR_OTHER_STABILITY
-
-STATIONARITY_IF_STATIC
-
-COMPLETE_TIME_EVOLUTION_IF_PULSED
-
-FULL_STABILITY_OR_CONTROLLED_TRANSIENCE
-
-RESOLUTION_CONVERGENCE
-
-NONLINEAR_GRAVITY
-
-PRACTICAL_ENERGY_SCALING
-
-CONTROL
-
-EXPERIMENTAL_ACCESSIBILITY
+WHAT DO WE DO AFTER EITHER OUTCOME?
 ```
 
 ---
 
-# 3. Primary strategic principle
+# 1. Central objective
+
+The active project question is now:
+
+> **Can a positive-energy field configuration carry a gravitational scalar charge whose magnitude and sign are not fixed by its inertial stress-energy, and can that charge be arranged using the high-leverage morphology discovered by Introspective to produce true stand-off metric repulsion of neutral matter at radically lower total energy than direct GR stress engineering?**
+
+This is intentionally different from the previous program.
+
+The project has already learned that:
+
+```text
+PURE_GR_SIGN=
+
+POSSIBLE
+
+PURE_GR_TRUE_STANDOFF=
+
+POSSIBLE
+
+MICROSCOPIC_OUTWARD_FIELD=
+
+POSSIBLE
+
+PURE_GR_PRACTICAL_SCALING=
+
+NOT_FOUND
+```
+
+The new problem is therefore no longer:
+
+```text
+MAKE ORDINARY STRESS-ENERGY GRAVITATE HARDER
+```
+
+The new problem is:
+
+```text
+CREATE A NEW GRAVITATIONAL CHARGE DEGREE OF FREEDOM
+
+WITH:
+
+LARGE CHARGE PER TOTAL JOULE
+
+OPPOSITE SOURCE/PAYLOAD SIGN
+
+UNIVERSAL PAYLOAD RESPONSE
+
+POSITIVE TOTAL ENERGY
+
+SELF-CONSISTENT FIELD EQUATIONS
+
+LOW SCALAR-FIELD SELF-ENERGY
+
+LOW FAR-FIELD LEAKAGE
+
+HIGH PRODUCTIVE PARTICIPATION
+
+HIGH PAYLOAD KERNEL LEVERAGE
+
+LOW CANCELLATION
+
+NO PLANCK-SCALE LOCALIZATION COST
+
+NO KINETIC CRITICALITY
+
+NO GHOST
+
+NO STRONG-COUPLING COLLAPSE
+
+NO EMPIRICAL CATASTROPHE
+```
+
+---
+
+# 2. Primary strategic principle
 
 Operate under:
 
-> **At every stage, test the cheapest condition that can decisively kill, explain, or promote the highest-ranked mechanism before increasing model complexity.**
+> **Attack the quantity that is actually causing the remaining orders-of-magnitude gap, while preserving every useful geometric and mechanistic lesson already earned.**
 
-Preferred ordering:
+For every new mechanism ask, in this order:
 
 ```text
-ANALYTIC_IDENTITY
+1. SIGN
 
-->
+2. SIDEDNESS / TRUE STANDOFF
 
-DIMENSIONAL_AND_LIMITING_CHECK
+3. CHARGE OR STRESS PER TOTAL ENERGY
 
-->
+4. PRODUCTIVE PARTICIPATION
 
-SYMMETRY_TOPOLOGY_CONSERVATION_VIRIAL
+5. KERNEL LEVERAGE
 
-->
+6. CANCELLATION
 
-CONSTITUTIVE_STRESS_PREFILTER
+7. FIELD SELF-ENERGY
 
-->
+8. SUPPORT / CONTROL / LOCALIZATION COST
 
-HAMILTONIAN_AND_WELL_POSEDNESS
+9. CONSERVATION
 
-->
+10. MICROSCOPIC REALIZABILITY
 
-REDUCED_FIELD_OR_ANSATZ_WITNESS
+11. STATIONARITY OR COMPLETE DYNAMICS
 
-->
+12. STABILITY
 
-ROBUST_PARAMETER_REGION
+13. EFT CUTOFF / NATURALNESS
 
-->
+14. RANGE
 
-UNRESTRICTED_FIELD_SOLUTION
+15. ABSOLUTE ENERGY AND POWER
 
-->
+16. UNIVERSAL METRIC RESPONSE
 
-FINITE_PAYLOAD_RESPONSE
+17. EMPIRICAL CONSISTENCY
 
-->
-
-INDEPENDENT_RECONSTRUCTION
-
-->
-
-FULL_STABILITY_OR_COMPLETE_TRANSIENT_CYCLE
-
-->
-
-RESOLUTION_AND_DOMAIN_CONVERGENCE
-
-->
-
-NONLINEAR_EINSTEIN_MATTER
-
-->
-
-PRACTICAL_SCALING
-
-->
-
-REALIZATION_AND_EXPERIMENT
+18. NONLINEAR BACKREACTION
 ```
 
-Do not launch a large PDE solve when an algebraic stress-tensor identity can kill the theory.
+Do not launch an expensive PDE solve if an analytical bound kills the branch.
 
-Do not optimize parameters in a theory that cannot access the required stress regime.
+Do not optimize coupling constants in a theory whose source charge has the wrong sign.
 
-Do not run nonlinear GR on an obviously superseded inefficient flat-space source.
+Do not credit negative interaction energy as free cancellation.
 
-Do not infer a device from a source-level optimization.
+Do not omit the energy of whatever turns the interaction on or off.
+
+Do not infer practicality from a reduced-source optimization.
 
 ---
 
-# 4. Current informal progress
+# 3. Current heuristic
 
 ```text
-CURRENT_INFORMAL_PROJECT_PROGRESS_HEURISTIC=
+CURRENT_INTERNAL_KNOWLEDGE_ACCOMPLISHMENT_HEURISTIC=
+
 APPROXIMATELY_70_TO_71_PERCENT
 ```
 
 This is:
 
 ```text
-NOT_A_PROBABILITY_OF_SUCCESS
+NOT A SUCCESS PROBABILITY
 
-NOT_A_PROBABILITY_THAT_ANTIGRAVITY_EXISTS
+NOT A DEVICE COMPLETION PERCENTAGE
 
-NOT_A_DEVICE_COMPLETION_PERCENTAGE
+NOT A CONFIDENCE INTERVAL
 
-NOT_A_CONFIDENCE_INTERVAL
+NOT A CLAIM THAT PRACTICAL ANTIGRAVITY IS CLOSE
 ```
 
-It is an internal knowledge/accomplishment ruler.
+The project has accumulated major knowledge since the previous buildplan, but the 027–030 program largely produced **falsifications**, not a new physical realization barrier crossing.
 
-Introspective materially improved mechanism understanding and exposed large source-level headroom.
+Therefore the heuristic is not raised merely because additional branches were tested.
 
-It did not yet cross a new microscopic successor-realization, stability, nonlinear-gravity, or practical-scaling barrier.
-
-Therefore:
-
-```text
-CURRENT_HEURISTIC=
-70_TO_71_PERCENT_RETAINED
-```
-
-The next increase requires a qualitatively stronger physical accomplishment.
-
-Examples include:
-
-```text
-A_REAL_SUCCESSOR_FIELD_WITH_MAJOR_EFFICIENCY_IMPROVEMENT
-
-OR
-
-FULL_FINE_GRID_AND_STABILITY_CLOSURE
-
-OR
-
-CONTROLLED_NONLINEAR_EINSTEIN_MATTER_CONTINUATION
-```
-
-Do not raise the heuristic to satisfy a desired target.
+The next substantial promotion requires a qualitatively new accomplishment.
 
 ---
 
-# 5. Permanent scientific distinctions
+# 4. Strongest permanent anchors
 
-Always distinguish:
+## 4.1 006D — strongest conservative true-stand-off source
 
-```text
-MATHEMATICAL_REPULSIVE_SIGN
-
-LOCAL_OUTWARD_FIELD
-
-POINT_TARGET_RESPONSE
-
-FINITE_PAYLOAD_CENTER_OF_MASS_RESPONSE
-
-SOURCE_LEVEL_EFFICIENCY
-
-FIXED_FIELD_ATTRIBUTION
-
-RELAXED_SOURCE_OPTIMIZATION
-
-MICROSCOPIC_FIELD_EXISTENCE
-
-STATIONARITY
-
-STATIC_STABILITY
-
-TRANSIENT_FIELD_EXISTENCE
-
-FULL_CYCLE_TRANSIENT_IMPULSE
-
-CONTINUUM_CONVERGENCE
-
-NONLINEAR_GRAVITATIONAL_CONSISTENCY
-
-EMPIRICAL_VIABILITY
-
-REAL_MATERIAL_OR_FIELD_REALIZATION
-
-PRACTICAL_SCALING
-
-CONTROL
-
-EXPERIMENTAL_DEMONSTRATION
-
-PRACTICAL_DEVICE
-```
-
-Permanent rules:
+Preserve:
 
 ```text
-NEGATIVE_ACTIVE_DENSITY_ALONE=
-INSUFFICIENT
+FINITE POSITIVE ENERGY=
 
-LOCAL_REPULSION_ALONE=
-INSUFFICIENT
-
-POINT_RESPONSE_ALONE=
-INSUFFICIENT_ONCE_FINITE_PAYLOAD_IS_AFFORDABLE
-
-A_SOURCE_MASK=
-NOT_A_PHYSICAL_FIELD
-
-A_RELAXED_SOURCE_OPTIMUM=
-NOT_A_MICROSCOPIC_REALIZATION
-
-A_FIELD_SOLUTION=
-NOT_A_STABLE_FIELD
-
-A_STATIC_INSTABILITY=
-NOT_AUTOMATICALLY_FATAL_TO_A_TRANSIENT_ROUTE
-
-A_TRANSIENT_PEAK=
-NOT_A_COMPLETE_PULSE_CYCLE
-
-A_TIME_ENVELOPE_ON_STATIC_TMUNU=
-NOT_AUTOMATICALLY_CONSERVED
-
-A_SINGLE_GRID=
-NOT_A_CONTINUUM_RESULT
-
-SUPPORT_CONTROL_RESET_ENERGY=
-PART_OF_THE_PHYSICAL_LEDGER
-
-REACTION_MOMENTUM=
-MUST_BE_TRACKED
-
-EFT_PROTECTION=
-NOT_UV_COMPLETION
-
-THEORETICAL_POSSIBILITY=
-NOT_PRACTICAL_DEVICE
-
-SOURCE_EFFICIENCY_IMPROVEMENT=
-NOT_A_1_OVER_G_SCALING_BREAKTHROUGH
-```
-
----
-
-# 6. Strongest conservative anchor — 006D
-
-006D remains the strongest conservative public-facing project result.
-
-```text
-FINITE_RADIUS=
 YES
 
-FINITE_THICKNESS=
+FINITE THICKNESS=
+
 YES
 
 NONSINGULAR=
+
 YES
 
-POSITIVE_ENERGY=
-YES
+LOCAL CONSERVATION AT LINEARIZED ORDER=
 
-LOCAL_CONSERVATION_LINEARIZED_ORDER=
 PASS
 
 NEC=
+
 PASS
 
 WEC=
+
 PASS
 
 DEC=
+
 PASS
 
-LOCAL_OUTWARD_FIELD=
+LOCAL OUTWARD GRAVITY=
+
 YES
 
-POSITIVE_FAR_FIELD_ACTIVE_MASS=
+TRUE STANDOFF=
+
+YES
+
+POSITIVE FAR-FIELD ACTIVE MASS=
+
 YES
 ```
 
-Finite-thickness coefficient:
+with:
 
 ```math
 C_{006D}
@@ -458,2391 +339,3375 @@ C_{006D}
 23.591586299249
 ```
 
-Thin conserved reference:
+and:
 
 ```math
-C_{\mathrm{thin}}
-=
-23.426710175391
-```
-
-Physical scaling:
-
-```math
-E_{\mathrm{physical}}
+E
 =
 C
-\frac{a c^2 h^2}{G}
+\frac{
+a c^2 h^2
+}{
+G
+}
 ```
 
-Claim boundary:
+006D remains the conservative true-stand-off benchmark.
+
+It is not a known microscopic matter realization.
+
+---
+
+## 4.2 018B / 018C
+
+Preserve:
 
 ```text
-MICROSCOPIC_REALIZATION_OF_006D=
-NO
+018B_FIELD_EXISTENCE=
 
-FULL_STABILITY=
-NO
+YES
 
-EXACT_NONLINEAR_GR=
-NO
+018C_FULL_FIELD_M2_INSTABILITY=
 
-KNOWN_MATERIAL=
-NO
+FATAL_FOR_THAT_REALIZATION
+```
 
-PRACTICAL_ENERGY=
-NO
+The lesson is permanent:
 
-PRACTICAL_DEVICE=
+> Field existence does not imply stability.
+
+Do not revive the protected-vector/two-current implementation without genuinely new stabilizing physics.
+
+---
+
+## 4.3 False-core B7
+
+The strongest current microscopic field remains:
+
+```text
+B=
+
+7
+
+ETA=
+
+0.4
+
+M=
+
+8
+```
+
+Preserve:
+
+```text
+026A_N73_STRICT_STATIONARITY=
+
+PASS
+
+026B_R4_N81_STRICT_STATIONARITY=
+
+PASS
+
+TOPOLOGY=
+
+PRESERVED
+
+DEC=
+
+PASS
+
+POSITIVE_TOTAL_ACTIVE_MASS=
+
+YES
+
+CONTINUOUS_FINITE_PAYLOAD_OUTWARD_SIGN=
+
+CERTIFIED_IN_TESTED_OPERATING_GEOMETRY
+```
+
+Force magnitude remains unresolved:
+
+```text
+N65 ≈ 0.1893
+
+N73 ≈ 1.9664
+
+N81 ≈ 7.2641
+```
+
+B7 therefore remains:
+
+```text
+STRONGEST_MICROSCOPIC_FIELD=
+
+YES
+
+CONTINUUM_FORCE_MAGNITUDE=
+
+NOT_YET_CREDIBLE
+
+STRONGEST_TRUE_STANDOFF_ARCHITECTURE=
+
 NO
+```
+
+---
+
+# 5. 026L1 / 026L2 sidedness correction
+
+Preserve the crucial distinction:
+
+```text
+CURRENT_B7_OPERATING_GEOMETRY=
+
+PREDOMINANTLY_EMBEDDED_OR_TWO_SIDED
+
+NOT_TRUE_ONE_SIDED_STANDOFF
+```
+
+A genuine external repulsive component exists, but the attractive contribution dominates at true stand-off.
+
+Therefore:
+
+```text
+B7=
+
+MICROSCOPIC_FIELD_ANCHOR
+
+006D=
+
+TRUE_STANDOFF_ANCHOR
+```
+
+Do not interchange these accomplishments.
+
+---
+
+# 6. Introspective — permanent mechanism knowledge
+
+Introspective is complete as an abstract source-discovery program.
+
+Do not restart global teacher optimization.
+
+Preserve:
+
+```text
+ROBUST_CONSERVED_DEC_HEADROOM=
+
+APPROXIMATELY_12P8_TO_17P9X
+
+RAW_FINITE_DENSITY_TEACHER_HEADROOM=
+
+APPROXIMATELY_17230X
+
+RAW_GE1000X_SIGNAL=
+
+PRESENT
+
+CERTIFIED_GE1000X_CONTINUUM_SOURCE=
+
+NO
+```
+
+The raw teacher is:
+
+```text
+NOT A FIELD
+
+NOT A TRUE-STANDOFF REALIZATION
+
+NOT A DEVICE
+
+NOT A CONTINUUM-CERTIFIED THOUSANDFOLD SOURCE
+```
+
+But its **mechanism anatomy is permanent design knowledge**.
+
+---
+
+# 7. Introspective productive anatomy
+
+The N48 teacher established approximately:
+
+```text
+F50_ENERGY_FRACTION=
+
+0.0730
+
+F90_ENERGY_FRACTION=
+
+0.1966
+
+F90_GROSS_OUTWARD_SHARE=
+
+0.9218
+
+CANCELLATION_FACTOR=
+
+1.0592
+
+DENSITY_FORCE_SHARE=
+
+0.4144
+
+SPATIAL_STRESS_FORCE_SHARE=
+
+0.5856
+
+FORCE_WEIGHTED_MEDIAN_S_OVER_RHO=
+
+2.6496
+
+DEC_UTILIZATION=
+
+NEAR_1
+
+FORCE_EFFECTIVE_LENGTH_OVER_H=
+
+0.1297
+
+F90_MEAN_PAYLOAD_SURFACE_DISTANCE_OVER_H=
+
+0.0494
+
+PAYLOAD_RADIUS_OVER_H=
+
+0.0433
+```
+
+Permanent lessons:
+
+```text
+COMPACT PRODUCTIVE REGION
+
+PAYLOAD ADJACENCY
+
+STRONG KERNEL LEVERAGE
+
+STRONG RELATIVISTIC STRESS
+
+LOW CANCELLATION
+
+HIGH PRODUCTIVE PARTICIPATION
+
+SEPARATION OF PRODUCTIVE STRUCTURE FROM STABILIZING SCAFFOLDING
+```
+
+These properties are now **morphology priors**, not GR-only instructions.
+
+---
+
+# 8. The most important Introspective reinterpretation
+
+The teacher's huge raw efficiency did **not** come mainly from negative-active density.
+
+Its signed influence ledger was dominated by favorable positive-active source in a favorable kernel region.
+
+Therefore:
+
+```text
+NEGATIVE_ACTIVE_DENSITY=
+
+NOT_THE_UNIVERSAL_DESIGN_TARGET
+```
+
+The deeper principle is:
+
+```math
+\boxed{
+\text{maximize useful source charge or stress per joule}
+\times
+\text{physical payload kernel}
+}
+```
+
+The correct quantity is always the **source-kernel product**.
+
+For GR:
+
+```math
+I_{\rm GR}
+=
+S K_{\rm GR}
+```
+
+For the new scalar-metric branch:
+
+```math
+I_\phi
+=
+J_\phi K_\phi
+```
+
+and eventually:
+
+```math
+I_{\rm total}
+=
+I_{\rm GR}
++
+I_\phi
++
+I_{\rm control}
+```
+
+The source variable changes.
+
+The design principle does not.
+
+---
+
+# 9. Most-energy-is-wasted lesson
+
+The current microscopic fields spend large fractions of their energy on:
+
+```text
+TOPOLOGY
+
+STABILITY
+
+LOCALIZATION
+
+SUPPORT
+
+FIELD GRADIENTS
+
+LOW-LEVERAGE REGIONS
+
+COMPENSATING STRESS
+
+FAR-SIDE STRUCTURE
+```
+
+rather than direct payload acceleration.
+
+This is not merely qualitative.
+
+The teacher showed that roughly:
+
+```text
+19.7% OF ENERGY
+```
+
+accounted for approximately:
+
+```text
+92.2% OF GROSS OUTWARD INFLUENCE
+```
+
+in the relaxed diagnostic.
+
+This does **not** mean the remaining energy can simply be deleted.
+
+It means the new field should be designed so that less energy is required as nonproductive scaffolding.
+
+Define permanently:
+
+```math
+f_{\rm prod}
+=
+\frac{
+E_{\rm directly\ productive}
+}{
+E_{\rm total}
+}
+```
+
+and:
+
+```math
+\tau_{\rm scaffold}
+=
+\frac{
+E_{\rm total}
+-
+E_{\rm directly\ productive}
+}{
+E_{\rm total}
+}
+```
+
+Track both.
+
+---
+
+# 10. 024E / 024E1 participation lesson
+
+024E1 demonstrated a separate failure mode.
+
+It achieved:
+
+```text
+EXCELLENT CANCELLATION ≈ 1.00035
+
+GOOD KERNEL SEPARATION
+
+CORRECT LOCAL NEGATIVE-ACTIVE STRESS
+```
+
+but only:
+
+```text
+STRICT_PEAK_PRODUCTIVE_PARTICIPATION ≈ 0.118%
+
+STRICT_CYCLE_PARTICIPATION ≈ 0.00536%
+```
+
+compared with an approximately:
+
+```text
+19.7%
+```
+
+teacher-scale productive-energy reference.
+
+Therefore:
+
+> **Correct sign, favorable geometry, and low cancellation are still useless if almost none of the total energy participates in the useful interaction.**
+
+Every 031 implementation must explicitly track productive participation.
+
+---
+
+# 11. 026P true-stand-off architecture lesson
+
+026P tested the actual B7 energy and stress inventory at genuine stand-off.
+
+Geometry-only rearrangement of the existing B7 stress histogram failed.
+
+At approximately `1.25 R999` for N81:
+
+```text
+ACTUAL_B7_FORCE ≈ -544.58
+
+BEST_PACKET_RELOCATION ≈ -129.67
+
+RELAXED_DEC_PLUS_LAUE ≈ +110.67
+```
+
+Therefore:
+
+```text
+GEOMETRY_ONLY=
+
+INSUFFICIENT
+
+GEOMETRY_PLUS_STRESS_STATE_CHANGE=
+
+REQUIRED
+```
+
+Actual B7 negative-active participation:
+
+```math
+f_-^{\rm B7}
+\approx
+0.0515
+```
+
+Relaxed DEC+Laue optimum:
+
+```math
+f_-^{\rm ideal}
+\approx
+0.5001
+```
+
+Participation gap:
+
+```math
+\frac{
+f_-^{\rm ideal}
+}{
+f_-^{\rm B7}
+}
+\approx
+9.7
+```
+
+This is not a universal requirement for the scalar-charge program.
+
+It is a permanent warning:
+
+> A successful source must change both **which source state exists** and **where it exists**.
+
+---
+
+# 12. Geometry and orientation inheritance
+
+The trusted historical Introspective/B7 comparator direction is:
+
+```math
+\hat n_{\rm seed}
+=
+(
+-0.4543501845,
+0.0187888066,
+0.890625
+)
+```
+
+Equivalent spherical angles are approximately:
+
+```text
+POLAR_ANGLE_FROM_PLUS_Z=
+
+27.048 DEGREES
+
+AZIMUTH=
+
+177.632 DEGREES
+```
+
+This direction is retained for:
+
+```text
+PROVENANCE
+
+MORPHOLOGY SEEDING
+
+COMPARATOR RECONSTRUCTION
+```
+
+It is **not** a magic angle.
+
+Do not tune a new theory to this exact direction.
+
+The dense physical kernel must still be scanned.
+
+024D1R established that:
+
+```text
+GEOMETRIC_TOP_BOTTOM=
+
+NOT_AUTOMATICALLY_KERNEL_MAX_MIN
+```
+
+Therefore every 031 geometry must calculate its actual:
+
+```text
+KERNEL MAXIMUM
+
+KERNEL MINIMUM
+
+FINITE-PAYLOAD AVERAGED KERNEL
+
+CONTIGUOUS HIGH-LEVERAGE REGION
+
+LOW-LEVERAGE SUPPORT REGION
+```
+
+before assigning source roles.
+
+---
+
+# 13. Geometry priors for the new program
+
+Use the following only as seeded families.
+
+### Family A — Introspective compact lens
+
+```text
+PRODUCTIVE WIDTH / H ~ O(0.1)
+
+PRODUCTIVE SURFACE DISTANCE / H ~ O(0.05)
+
+COMPACT PAYLOAD-ADJACENT CAP OR LENS
+```
+
+### Family B — trusted B7 orientation family
+
+Orient the source around the historical high-leverage axis and a local angular neighborhood.
+
+### Family C — 006D stand-off disk/collar family
+
+Reuse the strongest conservative stand-off geometry as a comparator.
+
+### Family D — differential front/rear scalar-charge lens
+
+Place the desired-sign charge close to the payload and compensating charge farther away.
+
+### Family E — charge-neutral shell/cap
+
+Permit:
+
+```math
+Q_{\rm net}
+\approx
+0
+```
+
+while maintaining:
+
+```math
+Q_{\rm front}
+\ne
+0
+```
+
+to suppress long-range leakage.
+
+### Family F — unrestricted morphology
+
+Use deterministic angular searches and direct optimization after the analytical gate survives.
+
+No seeded family is privileged physics.
+
+---
+
+# 14. Post-Introspective source-engine results
+
+## 14.1 027A
+
+027A showed that a canonical scalar can locally access the full type-I DEC active-source interval:
+
+```math
+-2
+\le
+\frac{S}{\rho}
+\le
+4
+```
+
+The best tested potential waveform produced approximately:
+
+```text
+NEGATIVE_DUTY ≈ 0.90
+
+GROSS_NEGATIVE_Q ≈ 1.70
+
+IDEAL_SEPARATED_C ≈ 1.075
+```
+
+This confirmed:
+
+```text
+LOCAL_HEALTHY_STRESS_STATE_CAPACITY=
+
+REAL
+```
+
+But it did not produce a complete source.
+
+---
+
+## 14.2 027B / 027C
+
+The corrected genuine causal shuttle retained reduced source-level promise.
+
+A genuine-transfer case reached approximately:
+
+```math
+C
+\approx
+3.08
+```
+
+at the reduced source level.
+
+But 027C found that the required virial/support transport path had to be extraordinarily more efficient than a direct mechanical path.
+
+The robust path factor required merely to beat 006D was approximately:
+
+```math
+g_{\rm path}
+\lesssim
+0.046
+```
+
+while the direct normalized path:
+
+```math
+g_{\rm path}
+=
+1
+```
+
+failed.
+
+---
+
+## 14.3 027D
+
+027D explicitly solved the self-closing distributed stress architecture.
+
+All tested envelopes were inward.
+
+Therefore:
+
+```text
+027B_027C_SHUTTLE_CLOSURE_CLASS=
+
+CLOSED_IN_TESTED_FORM
 ```
 
 Permanent lesson:
 
-> **Spatial placement and finite-payload kernel leverage are fundamental GR design variables.**
+> Do not transport useful stress through a costly separate support network and assume the support will remain gravitationally neutral.
+
+The new 031 architecture should therefore prefer:
+
+```text
+SELF-SUPPORTED SOURCE CHARGE
+
+STATICALLY DISTINCT CHARGE STATES
+
+OR
+
+FIELD-INTERNAL CHARGE SEPARATION
+```
+
+over a macroscopic moving stress shuttle.
 
 ---
 
-# 7. Locked 018 result
+# 15. Closed local gain program
 
-018B remains a valid microscopic field-existence result:
+## 15.1 028A
 
-```text
-COMPLETE_FINITE_THICKNESS_MICROSCOPIC_FIELD=
-YES_IN_SELECTED_MODEL
-
-COMPLETE_TMUNU=
-YES
-
-POSITIVE_TOTAL_ACTIVE_MASS=
-YES
-
-FINITE_PAYLOAD_OUTWARD_LINEARIZED_GRAVITY=
-YES
-```
-
-018C remains a valid falsification of that specific realization:
+Conventional positive-kinetic local variation of the effective Planck mass:
 
 ```text
-FULL_FIELD_M2_DIRECTION=
-NEGATIVE
-
-018B_TWO_CURRENT_KLS_REALIZATION=
-DEMOTED_FOR_STABILITY
+RED
 ```
 
-Do not erase the 018B field-existence accomplishment.
+Localization recreated an enormous gravitational-scale wall cost.
 
-Do not revive the failed architecture with arbitrary rigidity.
-
-A transient reconsideration is allowed only if a complete time-dependent calculation demonstrates useful full-cycle impulse.
+Do not reopen with a wider parameter scan.
 
 ---
 
-# 8. Locked 019–022 result
+## 15.2 028B / 028C
 
-Retain:
+Critical kinetic braiding appeared promising in a reduced surrogate.
 
-```text
-019A_WILSON_PROTECTION=
-PARTIAL_POSITIVE_RESULT
+028C imposed the actual cubic-Galileon equation of motion.
 
-019B_ANOMALY_FREE_VECTOR_CURRENT=
-PARTIAL_POSITIVE_RESULT
+The promising 028B background was off shell.
 
-019C_HEAVY_VECTOR_MEDIATOR_ALGEBRA=
-PARTIAL_POSITIVE_RESULT
-
-020A1_ISOSPECTRAL_VECTOR_RESPONSE=
-PARTIAL_POSITIVE_RESULT
-```
-
-Close in tested classes:
-
-```text
-MINIMAL_COLLECTIVE_TREE=
-CLOSED
-
-SMALL_SU2_NONABELIAN_IMPLEMENTATION=
-CLOSED
-
-TESTED_SHORT_RANGE_PROTECTED_VECTOR_ROUTE=
-CLOSED
-```
-
-Reopen only with a genuinely new protection mechanism that changes the previous failure structure.
-
----
-
-# 9. Strongest topological witness — false-core B7
-
-The strongest current topological field witness remains:
-
-```text
-B=
-7
-
-ETA=
-0.4
-
-M=
-8
-```
-
-with:
+Matching its critical coefficient gave approximately:
 
 ```math
-E
-=
-\int
-(e_2+e_4+V)
-\,d^3x
+\mathcal E_{\rm EOM}
+\approx
+-0.375
 ```
 
-and:
+and forcing the same Hessian on shell yielded:
 
 ```math
-S
-=
-2(e_4-V)
+Z_3
+\approx
+-5
 ```
 
-023BR established promotion-grade rational-map robustness:
+for that construction.
 
-```text
-NEGATIVE_ENCLOSED_ACTIVE_MASS=
-YES
-
-POSITIVE_TOTAL_ACTIVE_MASS=
-YES
-
-POINTWISE_DEC=
-PASS
-
-ROBUST_FISSION_MARGIN=
-POSITIVE
-
-ROBUST_CASES=
-17_OF_17
-
-FINITE_PAYLOAD_ORIENTATIONS=
-320_ALL_OUTWARD_IN_TESTED_RATIONAL_MAP_SOURCE
-
-SOURCE_QUADRATURE_CONVERGENCE=
-PASS
-```
-
-023CR4R produced the first strict unrestricted $N=65$ field:
-
-```text
-STRICT_DISCRETE_STATIONARITY=
-PASS
-
-TOPOLOGY=
-B_APPROX_7
-
-POINTWISE_DEC=
-PASS
-
-POSITIVE_TOTAL_ACTIVE_MASS=
-YES
-
-NEGATIVE_ENCLOSED_ACTIVE_REGION=
-YES
-```
-
-The old $N=65$ midpoint payload force is superseded as promotion evidence.
-
----
-
-# 10. Unresolved 023C gates
-
-The existing B7 branch still lacks:
-
-```text
-STRICT_N73_STATIONARITY
-
-CONTINUOUS_N65_N73_N81_FORCE_CONVERGENCE
-
-DENSE_CONTINUOUS_ORIENTATION_FORCE_CERTIFICATE
-
-FULL_PHYSICAL_HESSIAN
-
-DIRECT_CURVATURE_CONFIRMATION
-
-FINITE_AMPLITUDE_FISSION_TESTS
-
-DOMAIN_CONVERGENCE
-
-NONLINEAR_EINSTEIN_SKYRME
-```
-
-These remain real unresolved questions.
-
-They are not currently the highest-information first action because Introspective found major efficiency headroom.
-
-023C remains important as reusable validation infrastructure.
-
----
-
-# 11. Introspective closeout state
-
-Introspective is no longer the active research frontier.
-
-```text
-INTROSPECTIVE=
-CLOSED_FOR_MODEL_HANDOFF
-
-ABSTRACT_SOURCE_COEFFICIENT_POLISHING=
-STOP
-
-MECHANISM_SIGNATURE=
-ISOLATED
-
-SUCCESSOR_DESIGN_AUTHORIZED=
-YES
-```
-
-Do not interpret this as every formal Introspective promotion level having passed.
-
-In particular:
-
-```text
-FORMAL_GE1000X_CONTINUUM_CERTIFICATE=
-NO
-
-FORMAL_INT_LEVEL_3_LABEL=
-NOT_YET_UNDER_THE_FROZEN_DETAILED_GATE_SET
-```
-
-The global branch handoff is nevertheless justified by the robust independently verified order-of-magnitude source headroom and the teacher morphology.
-
----
-
-# 12. Permanent finite-payload influence formulation
-
-For a finite payload define:
-
-```math
-S
-=
-\rho+p_1+p_2+p_3
-```
-
-and payload kernel $K_P$.
-
-The operational response is:
-
-```math
-A_P
-=
-\int
-S(\mathbf x)
-K_P(\mathbf x)
-\,d^3x
-```
-
-Define:
-
-```math
-I_P
-=
-S K_P
-```
-
-so:
-
-```math
-A_P
-=
-\int I_P\,d^3x
-```
-
-The source sign alone is insufficient.
-
-The local useful quantity is the product:
-
-```math
-S K_P
-```
-
-This is a permanent design principle.
-
----
-
-# 13. Operational efficiency
-
-Define:
-
-```math
-\eta_{\mathrm{op}}
-=
-\frac{h^2A_P}{E}
-```
-
-and:
-
-```math
-C
-=
-\frac{1}{\eta_{\mathrm{op}}}
-```
-
-so:
-
-```math
-E_{\mathrm{physical}}
-=
-C
-\frac{a c^2 h^2}{G}
-```
-
-Lower $C$ is more efficient.
-
-The current exact-map B7 reference is:
-
-```text
-E=
-1822.472700555285
-
-A=
-28.81787638114564
-
-C=
-422.222070908309
-```
-
----
-
-# 14. Robust conserved-DEC source headroom — INT-14A
-
-INT-14A compared the B7 operational observable against independent constructive conserved-DEC source classes.
-
-006D:
-
-```math
-C_{006D}
-=
-23.591586299249
-```
-
-Headroom:
-
-```math
-H_{006D}
-=
-17.8971462772
-```
-
-Independent 006B KNOWN_THIN20:
-
-```math
-C_{006B}
-=
-32.95475466695
-```
-
-Headroom:
-
-```math
-H_{006B}
-=
-12.8121746065
-```
+The full on-shell branch then failed its energy gate.
 
 Therefore:
 
 ```text
-ROBUST_TWO_ROUTE_CONSERVED_DEC_GE10X_HEADROOM=
-PASS
+028A_TO_028C_LOCAL_SCALAR_GAIN_CLASSES=
 
-ROBUST_PROMOTED_SOURCE_HEADROOM=
-12P8_TO_17P9X
+CLOSED_IN_TESTED_FORM
 ```
-
-This is the strongest promoted efficiency comparison.
-
-It demonstrates that the present B7 field is not close to the best source organization already known in the relaxed conserved-DEC problem.
-
-It does not establish a common microscopic realization.
 
 ---
 
-# 15. Raw finite-density teacher headroom
+# 16. 031 is not a reopening of 028
 
-INT-14B through INT-14D explored same-support relaxed source efficiency.
+This distinction is mandatory.
 
-The unrestricted branch became UV concentrated.
-
-A fixed finite density cap removed the simplest amplitude divergence.
-
-The final N48 teacher had:
+028 asked:
 
 ```text
-C_TEACHER=
-0.0245044624812644
-
-RAW_HEADROOM_VS_B7=
-17230.4155X
+CAN A SCALAR MAKE THE EXISTING GR SOURCE GRAVITATE MUCH MORE STRONGLY?
 ```
 
-The teacher passed:
+031 asks:
 
 ```text
-POSITIVE_ENERGY=
-YES
-
-FINITE_DENSITY_CAP=
-YES
-
-DEC=
-PASS
-
-CONSERVATION=
-PASS
-
-UNIT_OUTWARD_PAYLOAD_RESPONSE=
-PASS
-
-INDEPENDENT_HIGH_ORDER_FORCE_RECONSTRUCTION=
-PASS
+CAN A POSITIVE-ENERGY DEVICE FIELD CARRY A NEW UNIVERSALLY METRIC
+GRAVITATIONAL CHARGE WHOSE CHARGE-TO-ENERGY RATIO IS PARAMETRICALLY
+LARGER THAN ORDINARY MASS-ENERGY?
 ```
 
-However its formal continuum certificate failed.
+031 does **not** require:
+
+```text
+F(phi) -> 0
+
+M_PLANCK -> 0
+
+KINETIC EIGENVALUE -> 0
+
+G_EFF -> 1 / EPSILON
+```
+
+The principal design variable is instead:
+
+```math
+\frac{
+|Q_\phi|
+}{
+E_{\rm total}
+}
+```
+
+and its finite-payload kernel placement.
 
 ---
 
-# 16. Why raw thousand-fold-plus remains uncertified
+# 17. 029A massive spin-2 closeout
 
-The final frozen INT-14D gates were:
+029A tested a genuinely different spin-2 propagator.
 
-Coefficient convergence:
+For B7:
 
-```math
-\delta_C
-=
-0.155668553
+```text
+NEGATIVE_FP_PARTICIPATION_N73 ≈ 1.09%
+
+NEGATIVE_FP_PARTICIPATION_N81 ≈ 0.95%
 ```
 
-required:
+No promotion-grade external B7 Fierz-Pauli repulsive candidate was found.
 
-```math
-\delta_C
-\le
-0.15
-```
+The independent conserved-DEC relaxed source search also failed.
 
-Minimum resolved width:
-
-```math
-w_{48}
-=
-1.8564
-```
-
-cells, required:
-
-```math
-w
-\ge
-3
-```
+006D cannot simply be multiplied by this mode because its Fierz-Pauli source combination is nonnegative under its DEC structure.
 
 Therefore:
 
 ```text
-RAW_GE1000X_SOURCE_SIGNAL=
-PRESENT
+TESTED_MASS_GATED_SPIN2_ROUTE=
 
-CERTIFIED_GE1000X_CONTINUUM_SOURCE_CLASS=
-NO
+CLOSED
 ```
-
-Do not weaken these gates retroactively.
-
-Do not run larger global source grids solely to force the old optimizer through them.
 
 ---
 
-# 17. INT-15R no-regression result
+# 18. 030A dynamic pure-GR closeout
 
-The final regression/provenance audit independently confirmed:
+030A tested:
 
 ```text
-B7_CURRENT_C_ACROSS_INT14A_INT14C_INT14D_INT15=
-IDENTICAL
+REUSABLE NEAR-ZONE PULSING
 
-N48_TEACHER_DIRECT_ARRAY_RECONSTRUCTION=
-PASS
+COMPACT WEAK-TT RADIATION
 
-N48_RECOMPUTED_DEC_VIOLATION=
+GRAVITATIONAL MEMORY
+
+RECOIL-BALANCED OUTWARD-MEMORY ORACLE
+```
+
+The full campaign gave:
+
+```text
+COMPACT_TT_CASES=
+
+64
+
+OUTWARD_RADIAL_CASES=
+
 0
 
-N48_INDEPENDENT_HIGH_ORDER_FORCE=
-PASS
+SECOND_ORDER_SIGN=
 
-B7_WORST_DIRECTION_REBUILD=
-PASS
+INWARD
 
-RAW_HEADROOM_RECOMPUTATION=
-PASS
+MACRO_IDEAL_C1_ENERGY_GAP=
 
-RAW_THOUSANDFOLD_SIGNAL_PRESENT=
-YES
+1.32E16
 
-CERTIFICATION_STATUS_UNCHANGED=
-PASS
-```
+MACRO_MEMORY_CHI_REQUIRED=
 
-Independent raw headroom:
+2.47E21
 
-```math
-H_{\mathrm{raw}}
-=
-17230.415530714
-```
+CHI_1E12_ORACLE_POWER_GAP=
 
-Final decision:
-
-```text
-NO_REGRESSION_RAW_THOUSANDFOLD_PLUS_SIGNAL_PERSISTS_BUT_REMAINS_UNCERTIFIED
-```
-
-The regression question is closed unless future code materially changes these baselines.
-
----
-
-# 18. Final teacher anatomy
-
-The N48 teacher is now a diagnostic specification for successor design.
-
-It is not a physical field.
-
-Key metrics:
-
-```text
-F50_ENERGY_FRACTION=
-0.0730172
-
-F90_ENERGY_FRACTION=
-0.196602
-
-F90_GROSS_OUTWARD_SHARE=
-0.921833
-
-CANCELLATION_FACTOR=
-1.05922
-
-DENSITY_CONTRIBUTION_TO_NET=
-0.414355
-
-SPATIAL_STRESS_TRACE_CONTRIBUTION_TO_NET=
-0.585645
-
-FORCE_WEIGHTED_MEDIAN_S_OVER_RHO=
-2.649629
-
-FORCE_WEIGHTED_DEC_SATURATION=
-APPROXIMATELY_1
-
-FORCE_EFFECTIVE_LENGTH_OVER_H=
-0.129704
-
-F90_MEAN_PAYLOAD_SURFACE_DISTANCE_OVER_H=
-0.04944
-
-PAYLOAD_RADIUS_OVER_H=
-0.0432989
-
-R99_OVER_H=
-3.35368
-```
-
-The productive structure is:
-
-```text
-COMPACT
-
-PAYLOAD_ADJACENT
-
-LOW_CANCELLATION
-
-HIGH_STRESS_PER_ENERGY
-
-NEAR_DEC_SATURATION
-
-DOMINATED_BY_POSITIVE_ACTIVE_SOURCE_IN_FAVORABLE_KERNEL_REGION
-```
-
-Do not overfit to the exact N48 voxel count.
-
----
-
-# 19. Signed mechanism result
-
-The final teacher signed ledger is dominated by:
-
-```text
-SPLUS_KPLUS=
-APPROXIMATELY_1.0054
-```
-
-while the negative-active sectors are much smaller.
-
-Therefore the most efficient known relaxed source is not primarily a negative-active-density machine.
-
-Permanent conclusion:
-
-> **The dominant high-efficiency mechanism is strong active source per unit energy placed in the favorable finite-payload kernel region with very low cancellation.**
-
-Negative enclosed active regions may remain useful or necessary in complete fields.
-
-They are not the sole design target.
-
----
-
-# 20. Teacher versus B7 structural gap
-
-After repairing the original INT-15 orientation bug, the exact B7 force reproduced the trusted reference exactly.
-
-Corrected teacher/B7 comparisons were approximately:
-
-```text
-ENERGY_MAP_COSINE=
-0.00129
-
-OUTWARD_FORCE_MAP_COSINE=
-0.01127
-
-SIGNED_INFLUENCE_COSINE=
--0.13547
-
-B7_OUTWARD_FORCE_IN_TEACHER_F90=
-0.00375
-```
-
-This supports the classification:
-
-```text
-FIELD_TEACHER_GAP=
-MAJOR_GEOMETRIC_REORGANIZATION_PLUS_CONSTITUTIVE_STRESS_GAP
-```
-
-This is an axisymmetrized source/kernel comparison.
-
-It is not a rigorous field-space distance.
-
-Nevertheless simple parameter polishing of the existing B7 field is strongly demoted as the primary next strategy.
-
----
-
-# 21. Standard-Skyrme constitutive ceiling
-
-For the tested positive-energy Skyrme model:
-
-```math
-\rho
-=
-e_2+e_4+V
-```
-
-and:
-
-```math
-S
-=
-2(e_4-V)
-```
-
-with:
-
-```math
-e_2\ge0
-```
-
-```math
-e_4\ge0
-```
-
-```math
-V\ge0
-```
-
-Then:
-
-```math
-S
-\le
-2e_4
-\le
-2\rho
+2.47E9
 ```
 
 Therefore:
 
-```math
-\frac{S}{\rho}
-\le
-2
+```text
+TESTED_DYNAMIC_PURE_GR_PRACTICALITY_CLASSES=
+
+RED
 ```
 
-for every point with positive $\rho$.
+This is not a universal theorem against every nonlinear time-dependent GR spacetime.
 
-The teacher force-weighted median is approximately:
+It is sufficient to stop using ordinary pulsing as the central practicality strategy.
 
-```math
-\frac{S}{\rho}
-\approx
-2.65
-```
+---
 
-Therefore:
+# 19. New strategic pivot
 
-> **The ordinary positive-energy $e_2+e_4+V$ constitutive structure cannot reproduce the full teacher stress regime regardless of geometric rearrangement.**
-
-This is a new design constraint.
-
-A successor likely needs both:
+The old practicality program was:
 
 ```text
-GEOMETRIC_REORGANIZATION
+BUILD REPULSIVE STRESS
+
+THEN
+
+AMPLIFY ITS GR RESPONSE
+```
+
+The new program is:
+
+```text
+BUILD LARGE OPPOSITE-SIGN GRAVITATIONAL CHARGE
+
+WITH POSITIVE ENERGY
+
+THEN
+
+USE INTROSPECTIVE MORPHOLOGY TO MAXIMIZE
+
+CHARGE x PAYLOAD KERNEL
+
+WHILE MINIMIZING
+
+FIELD ENERGY + SOURCE ENERGY + CONTROL ENERGY
+```
+
+The goal is **not** to remove gravity from the mechanism.
+
+The goal is to change the relationship between:
+
+```text
+INERTIAL ENERGY
 
 AND
 
-A_STRONGER_HEALTHY_STRESS_GENERATING_SECTOR
+GRAVITATIONAL SOURCE CHARGE
+```
+
+within a legitimate metric theory.
+
+---
+
+# 20. Definition of true antigravity for 031
+
+A 031 solution counts as a **true gravitational/metric route** only if:
+
+```text
+ORDINARY NEUTRAL PAYLOAD=
+
+MINIMALLY COUPLED TO ONE PHYSICAL METRIC
+
+PAYLOAD RESPONSE=
+
+UNIVERSAL TO DECLARED PRECISION
+
+DIRECT ELECTROMAGNETIC FORCE=
+
+ABSENT
+
+COMPOSITION-SPECIFIC DEVICE CHARGE=
+
+NOT REQUIRED FOR THE PAYLOAD
+
+GROUND-REACTION SUPPORT FORCE=
+
+NOT THE PAYLOAD ACCELERATION MECHANISM
+
+PAYLOAD=
+
+COMPLETELY OUTSIDE SOURCE MATERIAL
+
+FIELD RESPONSE=
+
+DERIVED FROM THE METRIC THEORY
+
+SOURCE REACTION=
+
+ACCOUNTED
+
+TOTAL TMUNU=
+
+ACCOUNTED
+```
+
+Use a Jordan-frame physical metric:
+
+```math
+\tilde g_{\mu\nu}
+=
+A^2(\phi,\chi)
+g_{\mu\nu}
+```
+
+or a mathematically equivalent single physical metric.
+
+If ordinary payload materials require different couplings:
+
+```text
+TRUE_ANTIGRAVITY_ROUTE=
+
+FAIL
+```
+
+If the acceleration is fundamentally electromagnetic, mechanical, acoustic, or composition-specific:
+
+```text
+OUT_OF_SCOPE
 ```
 
 ---
 
-# 22. Active successor hypothesis
+# 21. Reference 031 theory scaffold
 
-The first candidate to falsify is a minimally generalized topological theory with:
-
-```text
-L2
-
-L4
-
-L6
-
-V
-```
-
-or a closely related sixth-order/BPS-Skyrme-type sector.
-
-This is a hypothesis, not an established model solution.
-
-Motivation:
-
-The project derivative-order identity is:
-
-```math
-S_N
-=
-(N-2)e_N
-```
-
-so a homogeneous sixth-order contribution provisionally gives:
-
-```math
-S_6
-=
-4e_6
-```
-
-A generalized source would therefore be expected to have the schematic form:
-
-```math
-\rho
-=
-e_2+e_4+e_6+V
-```
+The initial theory-space scaffold is:
 
 ```math
 S
 =
-2e_4+4e_6-2V
+\int d^4x
+\sqrt{-g}
+\left[
+\frac{
+M_{\rm Pl}^2
+}{
+2
+}
+R
+-
+\frac12
+(\partial\phi)^2
+-
+V_\phi(\phi)
++
+\mathcal L_X(X,\phi)
++
+\mathcal L_\chi(\chi,\phi)
+\right]
++
+S_{\rm SM}
+[
+A^2(\phi,\chi)g_{\mu\nu},
+\Psi_{\rm SM}
+]
 ```
 
-The exact result must be re-derived from the precise candidate Lagrangian before use.
+where:
 
-Do not treat dimensional counting as the final stress tensor.
+```text
+phi = gravitational scalar mediator
+
+X = device source / soliton sector
+
+chi = optional activation / range / screening sector
+
+SM = ordinary neutral payload matter
+```
+
+This is a scaffold.
+
+It is not yet the chosen Lagrangian.
 
 ---
 
-# 23. Why the sixth-order candidate is Priority 1
+# 22. Scalar source charge
 
-It directly targets the identified constitutive gap.
-
-The standard model has:
+For an isolated stationary source configuration with energy:
 
 ```math
-S/\rho\le2
+E_X(\phi_\infty)
 ```
 
-The DEC ceiling permits:
+define the source sensitivity:
 
 ```math
-S/\rho\le4
-```
-
-The teacher uses substantial weight above 2.
-
-A sixth-order positive-energy stress sector may potentially fill:
-
-```math
-2<S/\rho\le4
-```
-
-while remaining topological.
-
-Additional reasons:
-
-```text
-ADJACENT_TO_EXISTING_VALIDATED_TOPOLOGICAL_INFRASTRUCTURE
-
-CAN_BE_ANALYTICALLY_PREFILTERED_CHEAPLY
-
-HAS_CLEAR_DERRICK_SCALING
-
-STATIC_AND_PULSE_EQUATIONS_CAN_SHARE_ONE_MODEL
-
-DIRECTLY_TESTS_THE_TEACHER_CONSTITUTIVE_REQUIREMENT
-
-FAILURE_WOULD_BE_HIGH_INFORMATION
-```
-
----
-
-# 24. Generalized Derrick preflight
-
-For a candidate with integrated sectors:
-
-```text
-E2
-
-E4
-
-E6
-
-E0
-```
-
-homothetic scaling gives provisionally:
-
-```math
-E(\lambda)
+\alpha_X
 =
-\lambda E_2
-+
-\lambda^{-1}E_4
-+
-\lambda^{-3}E_6
-+
-\lambda^3E_0
+M_{\rm Pl}
+\frac{
+\partial \ln E_X
+}{
+\partial \phi_\infty
+}
 ```
 
-Stationarity requires:
+in the final convention adopted by 031A.
+
+The corresponding scalar charge is obtained from the exact variation of the action.
+
+Do not assume a normalization from chat.
+
+031A must derive it independently.
+
+For ordinary matter define:
 
 ```math
-E_2-E_4-3E_6+3E_0
+\alpha_m
 =
+M_{\rm Pl}
+\frac{
+d \ln A
+}{
+d\phi
+}
+```
+
+again in the final action convention.
+
+The required repulsive-sign relation in the ordinary linear scalar-exchange regime is schematically:
+
+```math
+\alpha_X
+\alpha_m
+<
 0
 ```
 
-If the source decomposition is:
-
-```math
-M_A
-=
-2E_4+4E_6-2E_0
-```
-
-then:
-
-```math
-M_A-E
-=
--\left(
-E_2-E_4-3E_6+3E_0
-\right)
-```
-
-and exact virial equilibrium would imply:
-
-```math
-M_A
-=
-E
-```
-
-This is a preflight identity.
-
-The precise future Lagrangian must independently reproduce it before the candidate is promoted.
+The exact force coefficient must be derived from the action before numerical use.
 
 ---
 
-# 25. Active phase — 024A
+# 23. Why scalar charge may change the practicality scaling
 
-```text
-ACTIVE_BRANCH=
-TEACHER_GUIDED_SUCCESSOR_FIELD_DESIGN
+A canonical scalar halo has positive field energy.
 
-ACTIVE_PHASE=
-024A_GENERALIZED_TOPOLOGICAL_STRESS_CONSTITUTIVE_PREFLIGHT
+An optimistic spherical preflight suggests a relation of the schematic form:
+
+```math
+E_\phi
+\sim
+\frac{
+a^2 r^4
+}{
+4 \beta_m^2 G R
+}
 ```
 
-Primary scientific question:
+for a source of characteristic radius `R` producing acceleration `a` at distance `r`.
 
-> **Can a minimal healthy topological field access the teacher-required high-$S/\rho$ anisotropic stress regime while preserving positive energy, DEC compatibility, topology, conservation, and a plausible route to compact payload-adjacent localization?**
-
-Primary candidate:
+For:
 
 ```text
-GENERALIZED_L2_L4_L6_PLUS_V_TOPOLOGICAL_FIELD
+a = 1 g
+
+r ~ R ~ 1 m
+
+beta_m ~ 1
 ```
 
-Approximation level:
+this schematic estimate is of order:
 
 ```text
-FLAT_SPACETIME_MATTER_FIELD_PREFLIGHT
+FEW TIMES 10^11 J
+```
+
+rather than:
+
+```text
+~1E28 J
+```
+
+for a unit-coefficient direct GR stress source.
+
+This is **not a project result**.
+
+It is the reason 031A is worth running.
+
+Therefore:
+
+```text
+SCALAR_CHARGE_ENERGY_SCALING=
+
+UNVERIFIED_PREFLIGHT
+
+FIRST_031A_TASK=
+
+DERIVE_OR_FALSIFY_IT
+```
+
+No future document may quote this scaling as established until 031A independently reconstructs the normalization from the action and a finite source.
+
+---
+
+# 24. New dual-kernel formulation
+
+The complete operational response must be evaluated as:
+
+```math
+a_P
+=
+a_{\rm GR}
++
+a_\phi
++
+a_{\rm other}
+```
+
+with no double counting.
+
+Define the GR influence:
+
+```math
+I_{\rm GR}(\mathbf x)
+=
+S_{\rm total}(\mathbf x)
+K_{\rm GR,P}(\mathbf x)
+```
+
+Define scalar-charge density from the actual field equations:
+
+```math
+J_\phi(\mathbf x)
+=
+-
+\frac{
+\delta \mathcal L_{\rm source}
+}{
+\delta\phi
+}
+```
+
+and scalar influence:
+
+```math
+I_\phi(\mathbf x)
+=
+J_\phi(\mathbf x)
+K_{\phi,P}(\mathbf x)
+```
+
+The physical quantity is not either map separately.
+
+It is the complete metric response.
+
+The source energy that carries scalar charge also contributes ordinary GR attraction.
+
+Therefore 031 must optimize:
+
+```text
+SCALAR REPULSION
+
+MINUS
+
+GR ATTRACTION FROM ALL POSITIVE ENERGY
 
 PLUS
 
-LINEARIZED_GR_OPERATIONAL_SOURCE_INTERPRETATION
+ALL GATE / WALL / SUPPORT METRIC CONTRIBUTIONS
 ```
-
-No large PDE solve is authorized yet.
 
 ---
 
-# 26. 024A required analytical work
+# 25. New charge-productivity diagnostics
 
-Before coding a new field solver derive the exact candidate:
-
-```text
-LAGRANGIAN
-
-FIELD_CONTENT
-
-TOPOLOGICAL_CURRENT
-
-EULER_LAGRANGE_EQUATIONS
-
-FULL_TMUNU
-
-ENERGY_DENSITY
-
-PRINCIPAL_STRESSES
-
-ACTIVE_SOURCE_S
-
-HAMILTONIAN
-
-DERRICK_SCALING
-
-VIRIAL_IDENTITY
-
-DEC_CONDITIONS
-
-NEC_WEC_WHERE_RELEVANT
-
-CHARACTERISTIC_SPEEDS
-
-TIME_DEPENDENT_FIELD_EQUATIONS
-
-HYPERBOLICITY_OR_WELL_POSEDNESS
-
-BOUNDARY_CONDITIONS
-
-VACUUM_STRUCTURE
-```
-
-Also perform:
-
-```text
-DIMENSIONAL_CHECKS
-
-SIGN_CHECKS
-
-STANDARD_SKYRME_LIMIT
-
-PURE_L6_LIMIT
-
-VACUUM_LIMIT
-
-SMALL_FIELD_LIMIT
-
-LITERATURE_COMPARISON
-```
-
-The candidate must reproduce the known standard model when its new coupling is removed.
-
----
-
-# 27. 024A primary observables
-
-The constitutive preflight should map the physically accessible range of:
-
-```text
-S_OVER_RHO
-
-PRINCIPAL_STRESS_OVER_RHO
-
-DEC_MARGIN
-
-ENERGY_SECTOR_FRACTIONS
-
-ANISOTROPY
-
-TOPOLOGICAL_DENSITY
-```
-
-against the teacher target:
-
-```text
-FORCE_WEIGHTED_MEDIAN_S_OVER_RHO=
-2.6496
-
-DEC_UTILIZATION=
-NEAR_1
-```
-
-The preflight should answer whether the theory can generate the target stress state **without** numerical geometry optimization.
-
----
-
-# 28. 024A promotion condition
-
-Promote to a numerical successor field scout only if:
-
-```text
-HAMILTONIAN_POSITIVE_OR_BOUNDED_IN_DECLARED_SECTOR=
-YES
-
-TEACHER_RELEVANT_S_OVER_RHO_RANGE=
-ACCESSIBLE
-
-DEC_COMPATIBLE_REGION=
-YES
-
-TOPOLOGICAL_SECTOR=
-YES
-
-STATIC_DERRICK_BALANCE=
-NOT_ANALYTICALLY_FORBIDDEN
-
-NO_IMMEDIATE_GHOST=
-YES
-
-NO_IMMEDIATE_FATAL_GRADIENT_INSTABILITY=
-YES
-
-TIME_DEPENDENT_EQUATIONS=
-WELL_POSED_AT_PREFLIGHT_LEVEL
-
-STANDARD_SKYRME_LIMIT=
-RECOVERED
-
-INDEPENDENT_STRESS_TENSOR_CHECK=
-PASS
-```
-
-If any item is unresolved but not fatal, record it explicitly before proceeding.
-
----
-
-# 29. 024A falsifiers
-
-Demote the sixth-order candidate immediately if:
-
-```text
-REQUIRED_S_OVER_RHO_REQUIRES_NEGATIVE_ENERGY
-
-OR
-
-DEC_FAILURE_IS_STRUCTURAL_IN_THE_TARGET_REGION
-
-OR
-
-HAMILTONIAN_IS_UNBOUNDED_IN_THE_RELEVANT_SECTOR
-
-OR
-
-THE_NEW_TERM_HAS_A_FATAL_GHOST_OR_GRADIENT_INSTABILITY
-
-OR
-
-THE_TOPOLOGICAL_SECTOR_CANNOT_SUPPORT_THE_REQUIRED_STRESS
-
-OR
-
-DERRICK_BALANCE_ANALYTICALLY_ELIMINATES_THE_TARGET_CONFIGURATION
-
-OR
-
-THE_STANDARD_MODEL_LIMIT_IS_NOT_RECOVERED
-```
-
-A clean analytical falsification is a successful research result.
-
-Do not tune around a structural failure.
-
----
-
-# 30. 024A stop rule
-
-```text
-NO_3D_UNRESTRICTED_FIELD_SOLVE_BEFORE_024A_CLOSES
-
-NO_LARGE_PARAMETER_SCAN_BEFORE_CONSTITUTIVE_ACCESSIBILITY_IS_PROVEN
-
-NO_ARBITRARY_EXTRA_SUPPORT_TERM_TO_FORCE_A_GREEN_GATE
-
-NO_COUPLING_TUNING_TO_THE_TEACHER_NUMBERS_BEFORE_THEORY_HEALTH_IS_ESTABLISHED
-```
-
-The teacher is a target distribution, not a parameter oracle.
-
----
-
-# 31. 024B — reduced static successor scout
-
-If 024A is green:
-
-```text
-NEXT_PHASE=
-024B_REDUCED_STATIC_SUCCESSOR_FIELD_SCOUT
-```
-
-Use the cheapest physically defensible reduced representation:
-
-```text
-RATIONAL_MAP
-
-AXISYMMETRIC_ANSATZ
-
-LOW_MODE_VARIATIONAL_FIELD
-
-OR_EQUIVALENT
-```
-
-Do not begin with unrestricted 3D relaxation unless symmetry itself is the question.
-
-Primary static objective:
+Define:
 
 ```math
-\eta_{\mathrm{op}}
+\ell_\phi
 =
-\frac{h^2A_P}{E_{\mathrm{total}}}
+\frac{
+I_{\phi,+}
+}{
+\rho_{\rm total}
+}
 ```
+
+where meaningful.
 
 Track:
 
 ```text
-C
+SCALAR_F50_ENERGY
 
-FINITE_PAYLOAD_OUTWARD_FORCE
+SCALAR_F90_ENERGY
 
-TOTAL_ENERGY
+TOTAL_F50_ENERGY
 
-S_OVER_RHO_DISTRIBUTION
+TOTAL_F90_ENERGY
 
-PRINCIPAL_STRESSES
+PRODUCTIVE_CHARGE_PARTICIPATION
 
-DEC_MARGIN
+SCALAR_CANCELLATION
 
-CANCELLATION_FACTOR
+TOTAL_METRIC_CANCELLATION
 
-F50
+CHARGE_PER_TOTAL_JOULE
 
-F90
+CHARGE_PER_SOURCE_JOULE
 
-PRODUCTIVE_REGION_DISTANCE
+CHARGE_PER_PRODUCTIVE_JOULE
 
-PRODUCTIVE_REGION_WIDTH
+GR_ATTRACTION_PER_SOURCE_JOULE
 
-TOPOLOGY
+FAR_FIELD_SCALAR_MONOPOLE
 
-VIRIAL_RESIDUAL
+FAR_FIELD_SCALAR_DIPOLE
 
-POSITIVE_TOTAL_ACTIVE_MASS
+SCALAR_FIELD_SELF_ENERGY
 
-NEGATIVE_ENCLOSED_ACTIVE_REGION_IF_PRESENT
+SOURCE_CORE_ENERGY
+
+SCAFFOLDING_ENERGY
+
+ACTIVATION_ENERGY
+
+WALL_ENERGY
+```
+
+These inherit the best parts of Introspective.
+
+---
+
+# 26. Central 031 architecture — differential scalar-charge lens
+
+The highest-ranked conceptual source architecture is:
+
+```text
+FRONT / PAYLOAD-ADJACENT REGION:
+
+    LARGE OPPOSITE-SIGN SCALAR CHARGE
+    HIGH |K_phi|
+    HIGH CHARGE PER JOULE
+
+REAR / LOW-KERNEL REGION:
+
+    STABILITY ENERGY
+    COMPENSATING CHARGE IF NEEDED
+    GATE / RETURN STRUCTURE
+    LOW |K_phi|
+
+TOTAL:
+
+    POSITIVE ENERGY
+    LOW CANCELLATION
+    SMALL FAR-FIELD LEAKAGE
+```
+
+This is the scalar-charge analogue of the strongest Introspective lesson:
+
+```text
+PUT THE PRODUCTIVE STATE WHERE THE KERNEL IS LARGE
+
+PUT THE REQUIRED COMPENSATION WHERE THE KERNEL IS SMALL
+```
+
+But unlike 027B–027D, the preferred implementation is **not a moving stress shuttle**.
+
+Prefer:
+
+```text
+STATIC MULTI-STATE SOURCE
+
+MULTI-COMPONENT SOLITON
+
+ANISOTROPIC SOLITON
+
+CHARGE-SENSITIVITY SEPARATION
+
+OR
+
+SELF-SUPPORTED FIELD DOMAINS
+```
+
+so no massive mechanical transport path is required.
+
+---
+
+# 27. Charge-neutral lens subhypothesis
+
+A particularly valuable architecture is:
+
+```math
+Q_{\rm front}
++
+Q_{\rm rear}
+\approx
+0
+```
+
+with:
+
+```text
+|K_FRONT| >> |K_REAR|
+```
+
+Then the payload may experience a strong local scalar field while the asymptotic monopole is strongly reduced.
+
+Potential advantages:
+
+```text
+LOWER FAR-FIELD LEAKAGE
+
+FASTER EXTERIOR FIELD DECAY
+
+LOWER EMPIRICAL SIGNATURE
+
+INTROSPECTIVE-LIKE KERNEL SEGREGATION
+```
+
+Possible costs:
+
+```text
+OPPOSITE CHARGES ATTRACT
+
+SUPPORT / FIELD COMPATIBILITY
+
+ADDITIONAL FIELD ENERGY
+
+STABILITY BURDEN
+```
+
+This architecture is a hypothesis.
+
+031A must determine whether charge neutralization actually lowers the complete energy ledger at fixed payload acceleration.
+
+---
+
+# 28. 031A — scalar-charge energy / dual-kernel / morphology theorem gate
+
+```text
+ACTIVE_PHASE=
+
+031A
+```
+
+Primary scientific question:
+
+> **Does a canonical positive-energy metric scalar with an engineered opposite-sign source charge possess a finite-source, finite-payload energy bound that is genuinely many orders below direct GR stress engineering, after scalar self-energy and ordinary GR attraction of the source are included?**
+
+Secondary question:
+
+> **Can Introspective-inspired front/rear charge segregation reduce total field energy or far-field leakage without reintroducing a support penalty comparable to the gain?**
+
+No microscopic source PDE is authorized before this gate closes.
+
+---
+
+# 29. 031A required analytical derivations
+
+Derive independently:
+
+```text
+FULL ACTION CONVENTION
+
+DIMENSIONS OF phi
+
+PHYSICAL JORDAN METRIC
+
+ORDINARY-MATTER COUPLING alpha_m
+
+SOURCE SCALAR CHARGE
+
+STATIC SCALAR GREEN FUNCTION
+
+MASSLESS LIMIT
+
+MASSIVE / YUKAWA LIMIT
+
+FINITE SOURCE SELF-ENERGY
+
+FINITE PAYLOAD RESPONSE
+
+SCALAR FORCE NORMALIZATION
+
+GR SOURCE BACKREACTION
+
+TOTAL SOURCE ADM / ACTIVE MASS AT WEAK FIELD
+
+CHARGE-ENERGY RELATION
+
+SCALAR FIELD ENERGY OUTSIDE SOURCE
+
+SCALAR FIELD ENERGY INSIDE SOURCE
+
+CHARGE-NEUTRAL DIPOLE / MULTIPOLE LIMIT
+
+MEDIATOR-RANGE OPTIMUM
+
+FAR-FIELD LEAKAGE
+```
+
+Check:
+
+```text
+DIMENSIONS
+
+SIGNS
+
+r -> infinity
+
+m_phi -> 0
+
+m_phi -> infinity
+
+Q_phi -> 0
+
+alpha_m -> 0
+
+R_payload -> 0
+
+SOURCE_RADIUS -> 0
+
+NET_CHARGE -> 0
 ```
 
 ---
 
-# 32. Static successor efficiency labels
+# 30. 031A morphology optimization
 
-For an actual microscopic field at matched $a$ and $h$:
+After the analytical normalization is validated, optimize the finite-source charge distribution.
+
+Source variables may include:
 
 ```text
-LESS_THAN_2X=
-MINOR_OPTIMIZATION
+POSITIVE ENERGY DENSITY
 
-2X_TO_10X=
-MEANINGFUL_STRUCTURAL_IMPROVEMENT
+SCALAR CHARGE DENSITY
 
-10X_TO_100X=
-MAJOR_PURE_GR_REALIZATION_IMPROVEMENT
+SOURCE RADIUS
 
-100X_TO_1000X=
-VERY_LARGE_REALIZATION_IMPROVEMENT
+SOURCE THICKNESS
 
-GE1000X=
-EXTREME_REALIZATION_IMPROVEMENT_REQUIRING_EXCEPTIONAL_VERIFICATION
+FRONT CAP ANGLE
+
+REAR COMPENSATOR ANGLE
+
+FRONT / REAR SEPARATION
+
+SCALAR RANGE
+
+PAYLOAD SIZE
+
+PAYLOAD STANDOFF
 ```
 
-These labels apply to **physical field realizations**, not relaxed source masks.
+Constraints:
 
-Even $1000\times$ does not eliminate the pure-GR $1/G$ burden.
+```text
+POSITIVE TOTAL ENERGY
+
+DECLARED LOCAL ENERGY CONDITIONS WHERE APPLICABLE
+
+FINITE SOURCE
+
+FINITE PAYLOAD FULLY OUTSIDE SOURCE
+
+FIXED TOTAL SOURCE ENERGY OR SOURCE CHARGE
+
+SCALAR FIELD EQUATION
+
+NO ARBITRARY POSITION-DEPENDENT COUPLING
+```
+
+Seed with:
+
+```text
+INTROSPECTIVE COMPACT LENS
+
+TRUSTED B7 AXIS
+
+006D DISK
+
+SPHERICAL SHELL
+
+FRONT CAP + REAR CAP
+
+NET-NEUTRAL CHARGE DIPOLE
+
+UNRESTRICTED ANGULAR BASIS
+```
+
+Then optimize the actual scalar and GR kernels.
 
 ---
 
-# 33. 024B promotion gate
+# 31. 031A most important bound
 
-A reduced static successor is worth unrestricted continuation if:
+The central 031A output is:
+
+```math
+E_{\rm minimum}
+(
+a,
+h,
+R_P,
+\alpha_m,
+m_\phi
+)
+```
+
+including at minimum:
+
+```math
+E_{\rm total}
+=
+E_{\rm source}
++
+E_{\phi}
++
+E_{\rm mandatory\ stabilization}
+```
+
+with GR attraction from all positive energy explicitly calculated.
+
+Do not count an arbitrary source charge with zero source energy.
+
+Instead report two nested bounds.
+
+### Oracle-source lower bound
 
 ```text
-REAL_FIELD_EQUATIONS=
-SATISFIED_AT_DECLARED_APPROXIMATION
+SCALAR CHARGE MAY BE ASSIGNED AT ZERO CORE COST
+```
 
-FINITE_ENERGY=
+Purpose:
+
+If this already exceeds the target, kill the class.
+
+### Finite charge-sensitivity bound
+
+Require:
+
+```math
+|Q_\phi|
+\le
+\Xi
+E_X
+```
+
+with `Xi` scanned and later mapped to microscopic coupling scales.
+
+Solve for:
+
+```math
+\Xi_{\rm required}
+```
+
+This becomes the exact target for 031B.
+
+---
+
+# 32. 031A practical targets
+
+Primary target:
+
+```text
+ACCELERATION=
+
+1 g
+
+STANDOFF=
+
+1 m
+
+FINITE PAYLOAD=
+
+DECLARED NONZERO RADIUS
+
+TOTAL ENERGY TARGET=
+
+1 TJ
+```
+
+Secondary generous target:
+
+```text
+ACCELERATION=
+
+0.1 g
+
+STANDOFF=
+
+1 cm
+
+TOTAL ENERGY TARGET=
+
+1 PJ
+```
+
+Also scan lower acceleration targets to establish experimental scaling.
+
+The project should not optimize only one benchmark.
+
+---
+
+# 33. 031A promotion condition
+
+Promote to microscopic source realization only if all are true:
+
+```text
+EXACT SCALAR NORMALIZATION=
+
+VERIFIED
+
+FINITE PAYLOAD OUTWARD METRIC RESPONSE=
+
 YES
 
-TOPOLOGY=
-CORRECT
+SCALAR FIELD ENERGY=
 
-FINITE_PAYLOAD_OUTWARD_FORCE=
+FINITE AND POSITIVE
+
+TOTAL GR + SCALAR SIGN=
+
+OUTWARD
+
+ORACLE SOURCE FLOOR BELOW PRIMARY TARGET=
+
 YES
 
-POSITIVE_TOTAL_ACTIVE_MASS=
-YES_IF_REQUIRED
+REQUIRED CHARGE PER JOULE=
 
-DECLARED_ENERGY_CONDITIONS=
-PASS
+FINITE AND EXPLICIT
 
-VIRIAL=
-CONTROLLED
+NO IMMEDIATE EFT OR POSITIVITY NO-GO=
 
-INDEPENDENT_FORCE_RECONSTRUCTION=
-PASS
+YES
 
-EFFICIENCY_IMPROVEMENT=
-AT_LEAST_MEANINGFUL
+MORPHOLOGY ROBUSTNESS=
+
+NOT A SINGLE VOXEL OR SINGLE ANGLE ARTIFACT
 ```
 
 Preferred strong promotion:
 
 ```text
-ACTUAL_FIELD_HEADROOM_GE10X=
+TOTAL PREFLIGHT ENERGY <= 1E11 J
+```
+
+for the 1 g / 1 m case, leaving at least a factor-of-ten engineering/model overhead below the 1-TJ target.
+
+This is a preferred margin, not a claim requirement.
+
+---
+
+# 34. 031A falsifiers
+
+Close or strongly demote 031 immediately if:
+
+```text
+EXACT SCALAR SELF-ENERGY RESTORES ~1E28 J SCALE
+
+OR
+
+FINITE SOURCE REGULARIZATION DESTROYS THE LOW-ENERGY WINDOW
+
+OR
+
+SOURCE GR ATTRACTION ALWAYS EXCEEDS SCALAR REPULSION AT POSITIVE ENERGY
+
+OR
+
+REQUIRED CHARGE PER JOULE IS INFINITE
+
+OR
+
+REQUIRED alpha_m IS ALREADY EXCLUDED EVEN WITH PERFECT OFF-STATE GATING
+
+OR
+
+THE SCALAR FIELD REQUIRES A GHOST / WRONG-SIGN KINETIC TERM
+
+OR
+
+TRUE STANDOFF SIGN REQUIRES NEGATIVE TOTAL ENERGY
+
+OR
+
+THE APPARENT GAIN EXISTS ONLY FOR A POINT PAYLOAD
+
+OR
+
+THE APPARENT GAIN EXISTS ONLY THROUGH UNEXPLAINED NEGATIVE INTERACTION ENERGY
+```
+
+A RED 031A is a successful research outcome.
+
+Do not build a Q-ball merely to rescue a failed energy theorem.
+
+---
+
+# 35. 031A stop rule
+
+```text
+NO LARGE NEW PDE
+
+NO Q-BALL PARAMETER CAMPAIGN
+
+NO B7 RE-RELAXATION
+
+NO ACTIVATION-WALL MODEL
+
+NO HUGE COUPLING SCAN
+
+UNTIL THE EXACT CHARGE-ENERGY NORMALIZATION AND FINITE-PAYLOAD BOUND ARE GREEN
+```
+
+---
+
+# 36. 031B1 — minimally augmented B7 scalar-charge dressing
+
+If 031A survives, immediately test whether the existing microscopic B7 field can be **augmented** rather than discarded.
+
+This is the highest-value reuse of existing infrastructure.
+
+Use the current B7 field as a fixed first scout.
+
+Introduce the smallest technically defensible dependence of existing B7 energy sectors on the gravitational scalar.
+
+Candidate one-sector dressings:
+
+```text
+V(phi,U)
+
+c2(phi) L2
+
+c4(phi) L4
+```
+
+Only consider additional operators after these fail.
+
+A schematic example is:
+
+```math
+V(U,\phi)
+=
+F(\phi/f_X)
+V_0(U)
+```
+
+or an analogous modulation of one existing coefficient.
+
+Do not insert an explicit spatial function.
+
+Spatial charge morphology must emerge from the existing field invariants.
+
+---
+
+# 37. 031B1 fixed-field charge tomography
+
+Before re-equilibrating B7, calculate:
+
+```math
+J_\phi(\mathbf x)
+=
+-
+\frac{
+\partial \rho_{\rm B7}
+}{
+\partial\phi
+}
+```
+
+for each minimal coupling candidate.
+
+Compare its maps with:
+
+```text
+INTROSPECTIVE HIGH-LEVERAGE MAP
+
+B7 e2
+
+B7 e4
+
+B7 V
+
+TOPOLOGICAL DENSITY
+
+026P TRUE-STANDOFF KERNEL
+
+TRUSTED INT15 DIRECTION
+
+DENSE ORIENTATION SET
+```
+
+Measure:
+
+```text
+CHARGE-ENERGY COSINE WITH TEACHER MORPHOLOGY
+
+CHARGE-KERNEL CORRELATION
+
+SCALAR F50
+
+SCALAR F90
+
+PRODUCTIVE CHARGE PARTICIPATION
+
+FRONT / REAR CHARGE ASYMMETRY
+
+TOTAL SCALAR CHARGE
+
+SCALAR DIPOLE
+
+GR ATTRACTION
+
+TOTAL OUTWARD FIELD
+```
+
+This is attribution only.
+
+It is not yet a new field solution.
+
+---
+
+# 38. Why B7 augmentation is promising enough to test
+
+The standard B7 field's weakness is:
+
+```text
+ITS GRAVITATIONAL ACTIVE SOURCE IS TIED TO ITS STRESS-ENERGY
+```
+
+A scalar charge adds a new object:
+
+```math
+J_\phi
+=
+-
+\frac{
+\partial \mathcal L_{\rm B7}
+}{
+\partial\phi
+}
+```
+
+which need not have the same spatial distribution as:
+
+```math
+S_{\rm GR}
+=
+\rho+\sum_i p_i
+```
+
+Therefore the large amount of B7 energy currently acting mostly as topological/stability scaffolding may potentially carry little scalar charge, while a smaller high-leverage field sector carries much larger charge sensitivity.
+
+This is exactly the kind of separation Introspective suggested.
+
+The hypothesis must be tested rather than assumed.
+
+---
+
+# 39. 031B1 promotion
+
+Promote B7 dressing to full re-equilibration only if:
+
+```text
+OUTWARD SCALAR-METRIC SIGN=
+
+YES AT TRUE STANDOFF
+
+N73 AND N81 CHARGE MAPS=
+
+CONSISTENT
+
+PRODUCTIVE CHARGE PARTICIPATION=
+
+MAJOR IMPROVEMENT OVER CURRENT B7 ACTIVE PARTICIPATION
+
+CHARGE-TO-ENERGY TARGET FROM 031A=
+
+REACHABLE WITH A DECLARED MICROSCOPIC SCALE
+
+SCALAR FIELD SELF-ENERGY=
+
+INCLUDED
+
+TOTAL GR ATTRACTION=
+
+INCLUDED
+
+NO ARBITRARY POSITION-DEPENDENT COUPLING=
+
 YES
 ```
 
-But a well-verified 2–10x field improvement is still scientifically meaningful.
+A particularly strong result would be a scalar-charge morphology that naturally overlaps the Introspective high-leverage region without manually imposing that geometry.
 
 ---
 
-# 34. 024C — unrestricted successor field
+# 40. 031B2 — independent Q-ball / Q-shell control
 
-If 024B is promising:
+Run in parallel with B7 dressing only after 031A is green.
+
+Purpose:
+
+> Determine whether the required opposite scalar charge is a generic soliton possibility or only an artifact of modifying B7.
+
+Use a non-gravitationally stabilized field carrying a conserved internal charge.
+
+Primary candidate:
 
 ```text
-024C=
-UNRESTRICTED_SUCCESSOR_FIELD_RELAXATION
+GLOBAL U(1) Q-BALL / Q-SHELL
 ```
 
-Reuse validated 023C infrastructure where mathematically compatible:
+before gauged variants.
+
+Why:
 
 ```text
-CHECKERBOARD_FREE_DISCRETIZATION
+FINITE ENERGY
 
-TOPOLOGY_DIAGNOSTICS
+NOETHER STABILITY MECHANISM
 
-DEC_DIAGNOSTICS
+DOES NOT REQUIRE SELF-GRAVITY FOR EXISTENCE
 
-PAYLOAD_KERNEL
+CAN HAVE FIELD-DEPENDENT MASS / POTENTIAL
 
-ANALYTIC_CELL_INTEGRATION
-
-CONTINUOUS_FORCE_RECONSTRUCTION
-
-HVP_HESSIAN_INFRASTRUCTURE
-
-DOMAIN_TESTS
-
-FISSION_TESTS
+CHEAPER STABILITY ANALYSIS THAN A FULL NEW TOPOLOGICAL MODEL
 ```
+
+The project must not assume all Q-balls are stable.
+
+The chosen model must be explicitly tested.
+
+---
+
+# 41. 031B2 reference source form
+
+A schematic starting class is:
+
+```math
+\mathcal L_X
+=
+|\partial X|^2
+-
+U(
+|X|,
+\phi
+)
+```
+
+with:
+
+```math
+X
+=
+f(r,\Omega)
+e^{-i\omega t}
+```
+
+and scalar dependence introduced through the smallest defensible coupling, for example a field-dependent mass or low-order potential coefficient.
+
+The source scalar charge is not imposed.
+
+It emerges from:
+
+```math
+Q_\phi
+=
+-
+\frac{
+\partial E_X
+}{
+\partial\phi_\infty
+}
+```
+
+after the field is solved.
+
+---
+
+# 42. 031B microscopic-source requirements
+
+For B7 dressing or Q-ball control require:
+
+```text
+FIELD EQUATIONS=
+
+SOLVED
+
+FINITE ENERGY=
+
+YES
+
+POSITIVE HAMILTONIAN=
+
+YES
+
+SOURCE STABILITY CHARGE / TOPOLOGY=
+
+EXPLICIT
+
+SCALAR CHARGE=
+
+DERIVED
+
+SCALAR SELF-ENERGY=
+
+INCLUDED
+
+TOTAL STRESS-ENERGY=
+
+COMPUTED
+
+OUTWARD FINITE-PAYLOAD METRIC RESPONSE=
+
+YES
+
+GR ATTRACTION FROM SOURCE ENERGY=
+
+INCLUDED
+
+SOURCE REACTION=
+
+INCLUDED
+
+EFT SCALE=
+
+ABOVE SOURCE GRADIENT SCALE
+
+RADIATIVE STABILITY=
+
+CHECKED
+
+LOOP / NATURALNESS RISK=
+
+QUANTIFIED
+```
+
+---
+
+# 43. 031C — teacher-guided microscopic morphology realization
+
+After a microscopic source demonstrates sufficient scalar charge per joule, re-optimize its morphology.
+
+Primary goal:
+
+```text
+INCREASE PRODUCTIVE CHARGE PARTICIPATION
+
+WITHOUT
+
+ADDING A LARGE SUPPORT TAX
+```
+
+Use the Introspective morphology as a **target family**, not a voxel prescription.
+
+Desired properties:
+
+```text
+COMPACT PRODUCTIVE CHARGE
+
+PAYLOAD-ADJACENT HIGH-LEVERAGE REGION
+
+LOW TOTAL CANCELLATION
+
+LOW-CHARGE STABILIZING BULK
+
+REAR / LOW-KERNEL COMPENSATION
+
+SMALL FAR-FIELD MONOPOLE IF POSSIBLE
+```
+
+Test:
+
+```text
+ANISOTROPIC Q-BALL
+
+Q-SHELL
+
+MULTI-COMPONENT SOLITON
+
+B7 PLUS SCALAR CHARGE
+
+TWO-STATE SOURCE
+
+FRONT/REAR CHARGE SEGREGATION
+```
+
+No arbitrary external support distribution may be added without including its full field theory.
+
+---
+
+# 44. 031C morphology objective
+
+Optimize:
+
+```math
+\eta_{\rm metric}
+=
+\frac{
+a_P
+}{
+E_{\rm total}
+}
+```
+
+where:
+
+```math
+E_{\rm total}
+=
+E_X
++
+E_\phi
++
+E_{\rm stabilization}
++
+E_{\rm gate}
++
+E_{\rm support}
+```
+
+and `a_P` is derived from the physical metric.
+
+Track separately:
+
+```text
+SCALAR CONTRIBUTION
+
+ORDINARY GR CONTRIBUTION
+
+GATE CONTRIBUTION
+
+TOTAL
+```
+
+Do not use a guessed effective coupling multiplier.
+
+---
+
+# 45. 031D — activation / off-state / range control
+
+A laboratory-strength universal scalar interaction cannot simply remain active everywhere.
+
+031D asks:
+
+> **Can the strong payload coupling exist only in the controlled operating region while the ordinary vacuum remains sufficiently close to GR?**
+
+Do not assume a particular answer.
+
+Run a small theory tournament.
+
+---
+
+# 46. 031D candidate activation mechanisms
+
+## D1 — symmetry-restored / self-activated metric coupling
+
+Use a coupling with:
+
+```math
+\left.
+\frac{
+d\ln A
+}{
+d\phi
+}
+\right|_{\phi=0}
+=
+0
+```
+
+so the ordinary vacuum has no linear scalar force.
+
+A nonzero device scalar background may activate the coupling.
+
+This is structurally related to symmetron/scalarization mechanisms.
+
+---
+
+## D2 — mediator-mass gating
+
+Keep matter coupling fixed but make:
+
+```text
+SCALAR HEAVY OUTSIDE
+
+SCALAR LIGHT INSIDE
+```
+
+through a dynamical environmental field.
+
+This gates range rather than Planck mass.
+
+---
+
+## D3 — auxiliary activation field
+
+Allow:
+
+```math
+A
+=
+A(\phi,\chi)
+```
+
+with a stable off-state vacuum.
+
+The complete `chi` stress-energy and wall energy are mandatory.
+
+---
+
+# 47. 031D anti-cheat rule
+
+Never prescribe:
+
+```math
+A(\mathbf x)
+```
+
+or:
+
+```math
+m_\phi(\mathbf x)
+```
+
+by hand.
+
+Any spatial activation must arise from a dynamical field satisfying its own equations.
+
+Include:
+
+```text
+GATE FIELD ENERGY
+
+WALL ENERGY
+
+FIELD GRADIENTS
+
+CONTROL ENERGY
+
+FORMATION ENERGY
+
+RESET ENERGY
+
+BACKREACTION
+```
+
+If these restore the old gigantic energy burden:
+
+```text
+031D=
+
+RED
+```
+
+---
+
+# 48. Environmental screening is not automatic victory
+
+Screening can suppress laboratory fifth forces.
+
+It can also make extended-body response depend on:
+
+```text
+SIZE
+
+DENSITY
+
+COMPOSITION
+
+ENVIRONMENT
+```
+
+which would violate the desired universal finite-payload behavior.
+
+Therefore require simultaneously:
+
+```text
+OFF-STATE SUPPRESSION=
+
+STRONG
+
+ON-STATE PAYLOAD COUPLING=
+
+STRONG
+
+ON-STATE PAYLOAD UNSCREENED OR UNIVERSAL=
+
+YES
+
+COMPOSITION DEPENDENCE=
+
+BELOW DECLARED LIMIT
+
+SOURCE SCREENING=
+
+EXPLICITLY CALCULATED
+```
+
+Do not use the word “screening” as a substitute for an empirical calculation.
+
+---
+
+# 49. 031E — full combined true-stand-off metric solution
+
+Only after 031A–D survive.
+
+Solve:
+
+```text
+SOURCE FIELD
+
+GRAVITATIONAL SCALAR
+
+ACTIVATION FIELD IF PRESENT
+
+PHYSICAL METRIC
+
+FINITE PAYLOAD
+```
+
+self-consistently.
 
 Require:
 
 ```text
-STRICT_STATIONARITY
+FULL SOURCE-FREE PAYLOAD REGION
+
+TRUE STANDOFF
+
+FINITE PAYLOAD
+
+OUTWARD CENTER OF MASS
+
+OUTWARD ADVERSE SURFACE SAMPLES
+
+FULL TMUNU
+
+LOCAL CONSERVATION
+
+BOUNDARY CONDITIONS
+
+ASYMPTOTIC OFF STATE
+
+POSITIVE TOTAL ENERGY
+
+FINITE ADM ENERGY
+
+NO HORIZON
+
+NO SINGULARITY
+```
+
+At this phase, stop separating “force” from “metric.”
+
+Compute geodesics of:
+
+```math
+\tilde g_{\mu\nu}
+```
+
+directly.
+
+---
+
+# 50. 031F — full stability, naturalness, empirical closure
+
+Before any device-scale claim require:
+
+```text
+FULL UNRESTRICTED HESSIAN OR APPROPRIATE DYNAMIC STABILITY
+
+RADIAL STABILITY
+
+NONAXISYMMETRIC STABILITY
+
+FISSION / FRAGMENTATION
+
+SCALAR RADIATION
+
+SOURCE DECAY
+
+VACUUM DECAY
+
+GHOST CHECK
+
+GRADIENT STABILITY
+
+CHARACTERISTIC SPEEDS
+
+EFT CUTOFF
+
+LOOP CORRECTIONS
+
+TECHNICAL NATURALNESS
+
+ORDINARY FIFTH-FORCE LIMITS
+
+EQUIVALENCE PRINCIPLE
+
+CLOCK / REDSHIFT TESTS
+
+SOLAR-SYSTEM / PPN WHERE RELEVANT
+
+BINARY / STRONG-FIELD CONSTRAINTS WHERE RELEVANT
+
+COSMOLOGICAL VACUUM
+
+EXTERIOR LEAKAGE
+```
+
+The on-state cannot be assessed independently of the off-state theory.
+
+---
+
+# 51. Why Q-balls and scalarized solitons are only candidates
+
+Known field theory contains:
+
+```text
+FINITE-ENERGY U(1) NONTOPOLOGICAL SOLITONS
+
+BOSON STARS
+
+SCALARIZED BOSON-STAR SOLUTIONS
+
+ENVIRONMENT-DEPENDENT SCALAR COUPLINGS
+```
+
+This makes the model class scientifically legitimate enough to test.
+
+It does **not** establish:
+
+```text
+REQUIRED CHARGE-TO-ENERGY RATIO
+
+OPPOSITE SIGN
+
+LAB-SCALE STABILITY
+
+PRACTICAL ENERGY
+
+EMPIRICAL VIABILITY
+```
+
+Those are precisely the 031 gates.
+
+---
+
+# 52. Why the B7 augmentation track is strategically important
+
+Do not assume the new route requires discarding the work already done.
+
+B7 already supplies:
+
+```text
+REAL MICROSCOPIC FIELD EQUATIONS
 
 TOPOLOGY
 
-FINITE_ENERGY
-
-FINITE_PAYLOAD_OUTWARD_FORCE
-
-POSITIVE_TOTAL_ACTIVE_MASS
-
-CONSERVATION
-
-DECLARED_ENERGY_CONDITIONS
-
-INDEPENDENT_FORCE_RECONSTRUCTION
-
-DOMAIN_AND_RESOLUTION_SUPPORT
-```
-
----
-
-# 35. Static full-validation gate
-
-Before calling a successor a genuinely improved static field require:
-
-```text
-STRICT_STATIONARY_FINE_COMPANION
-
-CONTINUOUS_FINITE_PAYLOAD_FORCE_CONVERGENCE
-
-DENSE_ORIENTATION_FORCE_ROBUSTNESS_WHERE_RELEVANT
-
-FULL_PHYSICAL_TANGENT_HESSIAN
-
-DIRECT_ENERGY_CURVATURE_OF_CRITICAL_MODES
-
-FINITE_AMPLITUDE_PERTURBATIONS
-
-BINARY_FISSION_CHANNELS
-
-DOMAIN_SIZE_CONVERGENCE
-
-TOPOLOGY
-
-CONSERVATION
-
-DEC_IF_CLAIMED
-
-POSITIVE_TOTAL_ACTIVE_MASS
-
-MATCHED_a_h_ENERGY_COMPARISON
-
-INDEPENDENT_VERIFICATION
-```
-
-A significant negative physical mode confirmed by direct curvature demotes the static branch.
-
-Do not rescue it with arbitrary rigidity.
-
----
-
-# 36. Pulsed successor branch
-
-Static and pulsed work should proceed in tandem where scientifically efficient.
-
-The pulsed branch asks:
-
-> **Can the same physically healthy field theory pass through a teacher-like high-efficiency stress state for a finite time and generate useful positive full-cycle payload impulse even if that state is not stationary?**
-
-Primary observable:
-
-```math
-\Delta v_P
-=
-\int_{\mathrm{full\ cycle}}
-a_P(t)
-\,dt
-```
-
-A field may collapse.
-
-Collapse is not automatically disqualifying.
-
-The full cycle must remain physically consistent.
-
----
-
-# 37. Pulse success requirements
-
-A pulsed candidate must explicitly include:
-
-```text
-FORMATION
-
-PEAK_STATE
-
-ENERGY_FLUX
-
-MOMENTUM_DENSITY
-
-DYNAMIC_SPATIAL_STRESS
-
-COLLAPSE
-
-RADIATION
-
-REACTION_MOMENTUM
-
-RESET_OR_DISPERSAL
-
-HEAT
-
-REPETITION_OR_RECREATION
-```
-
-Track:
-
-```text
-PEAK_ACCELERATION
-
-PULSE_DURATION
-
-FULL_CYCLE_DELTA_V
-
-OUTWARD_IMPULSE
-
-RETURN_IMPULSE
-
-NET_IMPULSE
-
-CREATION_ENERGY
-
-PEAK_STORED_ENERGY
-
-COLLAPSE_LOSSES
-
-RESET_ENERGY
-
-AVERAGE_POWER
-
-DUTY_CYCLE
-
-REPETITION_RATE
-```
-
-No pulse may be promoted from peak acceleration alone.
-
----
-
-# 38. Dynamic conservation rule
-
-A static stress tensor may not simply be multiplied by a switching function and called a physical pulse.
-
-If:
-
-```math
-T^{00}(t,\mathbf x)
-=
-f(t)\rho(\mathbf x)
-```
-
-then:
-
-```math
-\partial_\mu T^{\mu0}
-=
-0
-```
-
-requires nonzero energy flux $T^{0i}$.
-
-Momentum conservation:
-
-```math
-\partial_\mu T^{\mu i}
-=
-0
-```
-
-then requires corresponding dynamic $T^{ij}$.
-
-Therefore:
-
-```text
-STATIC_TEACHER_TMUNU=
-PEAK_STATE_TARGET_ONLY
-
-PHYSICAL_PULSE=
-FULL_TIME_DEPENDENT_FIELD_SOLUTION_REQUIRED
-```
-
----
-
-# 39. Pulse efficiency metric
-
-For a complete cycle define:
-
-```math
-\eta_{\mathrm{pulse}}
-=
-\frac{\Delta v_P}{E_{\mathrm{cycle}}}
-```
-
-or a dimensionless normalized equivalent appropriate to the model.
-
-The full cycle energy must include:
-
-```math
-E_{\mathrm{cycle}}
-=
-E_{\mathrm{create}}
-+
-E_{\mathrm{support}}
-+
-E_{\mathrm{control}}
-+
-E_{\mathrm{reset}}
-+
-E_{\mathrm{loss}}
-```
-
-If repeated at frequency $f$:
-
-```math
-\bar a
-=
-f\Delta v_P
-```
-
-only when the pulse cycles are physically repeatable and do not overlap in an invalid way.
-
----
-
-# 40. Teacher pulse budget
-
-The raw teacher headroom provides a diagnostic, not physical, overhead budget.
-
-Define:
-
-```math
-\Gamma_{\mathrm{cycle}}
-=
-\frac{\kappa_{\mathrm{cycle}}}
-{1-\zeta_{\mathrm{return}}}
-```
-
-where $\kappa_{\mathrm{cycle}}$ is full-cycle energy overhead relative to the ideal peak source inventory and $\zeta_{\mathrm{return}}$ is the fraction of outward impulse canceled during reset/collapse.
-
-With raw:
-
-```math
-H_{\mathrm{raw}}
-\approx
-17230.4
-```
-
-retaining a target headroom requires:
-
-```math
-\Gamma_{\mathrm{cycle}}
-\le
-\frac{H_{\mathrm{raw}}}{H_{\mathrm{target}}}
-```
-
-Diagnostic budgets:
-
-```text
-RETAIN_1000X:
-GAMMA_CYCLE_LE_17P23
-
-RETAIN_100X:
-GAMMA_CYCLE_LE_172P3
-
-RETAIN_10X:
-GAMMA_CYCLE_LE_1723
-```
-
-These are not physical predictions because the teacher itself is not a certified field.
-
----
-
-# 41. Static versus pulse branch logic
-
-Use:
-
-```text
-STATIC_GREEN
-PULSE_UNKNOWN
-- CONTINUE_STATIC
-- CONTINUE_PULSE_IF_CHEAP
-
-STATIC_RED_BY_INSTABILITY
-PULSE_NET_FULL_CYCLE_IMPULSE_POSITIVE
-- DEMOTE_STATIC
-- RETAIN_PULSE
-
-STATIC_GREEN
-PULSE_RETURN_IMPULSE_CANCELS
-- RETAIN_STATIC
-- DEMOTE_PULSE
-
-STATIC_RED
-PULSE_RED
-- DEMOTE_MODEL_CLASS
-```
-
-Do not require the two branches to succeed or fail together.
-
----
-
-# 42. 023C role under the successor program
-
-023C becomes:
-
-```text
-SUCCESSOR_VALIDATION_INFRASTRUCTURE
-
-PLUS
-
-FALLBACK_B7_COMPLETION_BRANCH
-```
-
-Reuse:
-
-```text
-FIELD_RELAXATION
-
-TOPOLOGY
-
-PAYLOAD_FORCE
+STRICT N73/N81 STATIONARY SOLUTIONS
 
 DEC
 
-CONTINUOUS_RECONSTRUCTION
+KNOWN GEOMETRIC ANISOTROPY
 
-HESSIAN
+MATURE NUMERICAL INFRASTRUCTURE
 
-FISSION
+INTROSPECTIVE ATTRIBUTION MAPS
 
-DOMAIN_CONVERGENCE
+DENSE PAYLOAD KERNEL INFRASTRUCTURE
 ```
 
-Do not spend major compute finishing $N=73$ merely because it is unfinished.
+The cheapest question is therefore:
 
-Resume old B7 $N=73$ work when:
+> Can one minimally modify how B7 couples to the new gravitational scalar so that the **scalar-charge distribution**, rather than the GR active-stress distribution, acquires the high-leverage morphology we already know is productive?
 
-```text
-SUCCESSOR_FAILS_AND_B7_RETURNS_TO_PRIORITY_1
-
-OR
-
-A_SUCCESSOR_COMPARISON_REQUIRES_A_FINE_B7_REFERENCE
-
-OR
-
-A_NEW_AUGMENTED_DEFLATED_SOLVER_HAS_A_CLEAR_SPECTRAL_JUSTIFICATION
-```
-
-If resumed, the next solver should address the known coarse/fine residual coupling.
-
-Do not repeat R3/R4/R5 damping patterns without a new spectral mechanism.
+That should be tested before constructing an elaborate unrelated field.
 
 ---
 
-# 43. 023D nonlinear-gravity authorization
+# 53. But do not force B7 to survive
 
-023D remains:
+Preserve the teacher/B7 structural mismatch:
 
 ```text
-PAUSED
+ENERGY_MAP_COSINE ≈ 0.0013
+
+OUTWARD_FORCE_MAP_COSINE ≈ 0.011
+
+SIGNED_INFLUENCE_COSINE ≈ -0.135
 ```
 
-## Path A — successor succeeds
+The new coupling may fail to produce useful charge morphology.
+
+If so:
+
+```text
+B7_CHARGE_DRESSING=
+
+RED
+```
+
+and the Q-ball / independent source continues.
+
+Do not overfit increasingly artificial B7 interactions to preserve sunk effort.
+
+---
+
+# 54. 026C mandatory credibility branch
+
+026C remains required.
+
+Question:
+
+```text
+DOES N81 -> N89 FORCE REFINEMENT CLEARLY IMPROVE?
+```
+
+Current force sequence:
+
+```text
+N65 ≈ 0.1893
+
+N73 ≈ 1.9664
+
+N81 ≈ 7.2641
+```
 
 Require:
 
-```text
-SUCCESSOR_REAL_FIELD=
-GREEN
-
-SUCCESSOR_023C_EQUIVALENT_GATES=
-GREEN
+```math
+|\Delta F_{81\rightarrow89}|
+<
+|\Delta F_{73\rightarrow81}|
 ```
 
-Then run nonlinear Einstein-matter continuation on the successor.
+and preferably substantially smaller.
 
-## Path B — successor fails
-
-If the first well-motivated successor classes fail and B7 remains best:
+If not:
 
 ```text
-RETURN_TO_023C
-
-COMPLETE_B7_STABILITY_AND_FORCE_GATES
+STOP BLIND GRID ESCALATION
 ```
 
-Then run 023D on B7 if green.
-
-## Path C — no meaningful efficiency gain
-
-If physically realizable successor headroom is small:
+Diagnose:
 
 ```text
-STOP_SUCCESSOR_COEFFICIENT_POLISHING
+SUB-CELL PAYLOAD CONDITIONING
 
-COMPLETE_B7_023C
+FORCE FUNCTIONAL CONVERGENCE
 
-RUN_023D_IF_AUTHORIZED
+DERIVATIVE CONVERGENCE
 
-GLOBAL_RERANK
+SOURCE RECONSTRUCTION
+
+CONTINUUM INTERPOLATION
+
+ALTERNATE SPECTRAL / AD REPRESENTATION
 ```
 
-Do not run 023D on a source known to be superseded.
+before N97.
+
+026C validates the existing microscopic phenomenon.
+
+It is not the central practicality strategy.
 
 ---
 
-# 44. 023D required scope
+# 55. Full B7 Hessian timing
 
-A legitimate nonlinear program must include:
+Do not run the full expensive unrestricted Hessian until 026C makes force convergence credible.
+
+If N89 gives:
 
 ```text
-METRIC_FIRST_CORRECTION
+OUTWARD SIGN PRESERVED
 
-INDEPENDENT_GRAVITATIONAL_RECONSTRUCTION
+FORCE DELTA CLEARLY SHRINKS
 
-MATTER_BACKREACTION
-
-NONLINEAR_EINSTEIN_MATTER_RESIDUAL
-
-NEWTON_KANTOROVICH_OR_EQUIVALENT_CONTROL
-
-FINITE_PAYLOAD_GEODESIC_RESPONSE
-
-ASYMPTOTIC_FLATNESS
-
-ADM_MASS
-
-NO_HORIZON
-
-GLOBAL_REGULARITY
-
-PAYLOAD_BACKREACTION_WHEN_AFFORDABLE
+REPRESENTATION SPREAD CONTROLLED
 ```
 
-A weak-field continuation is not a complete nonlinear result.
+then run:
+
+```text
+DENSE FINITE-PAYLOAD ROBUSTNESS
+
+FULL PHYSICAL HESSIAN
+
+DIRECT CURVATURE OF LOWEST MODES
+
+FINITE-AMPLITUDE PERTURBATIONS
+
+FISSION CHANNELS
+```
+
+This is scientific credibility work.
+
+It does not substitute for 031 practicality work.
 
 ---
 
-# 45. Analogue Antigravity coordination rule
+# 56. 030B nonlocal gravity status
 
-Analogue Antigravity remains:
-
-```text
-DEFERRED_DURING_FIRST_FOCUSED_SUCCESSOR_GR_ATTEMPT
-```
-
-Introspective has now distilled a transferable mechanism:
+The previously queued:
 
 ```text
-COMPACT_PRODUCTIVE_REGION
-
-PAYLOAD_ADJACENCY
-
-HIGH_KERNEL_LEVERAGE
-
-STRONG_ANISOTROPIC_STRESS
-
-LOW_CANCELLATION
-
-PRODUCTIVE_VS_SCAFFOLDING_SEPARATION
+030B_POSITIVE_SPECTRAL_NONLOCAL_PROPAGATOR
 ```
 
-Therefore Analogue Antigravity is now **eligible** for future activation.
+is demoted from central priority.
 
-Activate it when one of the following occurs:
+Reason:
+
+Standard healthy nonlocal theories typically preserve ordinary long-distance gravity and modify shorter-distance kernels.
+
+The earlier 012 branch already found force-reversal structure but encountered localized realization problems.
+
+030B remains useful as a **cheap theorem/backstop branch**.
+
+Run it if:
 
 ```text
-FIRST_WELL_MOTIVATED_SUCCESSOR_GR_CLASS_FAILS
+031A=
 
-OR
-
-PHYSICAL_SUCCESSOR_HEADROOM_IS_TOO_SMALL_TO_CHANGE_PRACTICAL_SCALING
-
-OR
-
-A_TRUE_GR_SUCCESSOR_SUCCEEDS_BUT_THE_1_OVER_G_BURDEN_REMAINS_OVERWHELMING
-
-OR
-
-A_SPECIFIC_ESTABLISHED_PHYSICS_ANALOGUE_CAN_REPRODUCE_THE_DISTILLED_KERNEL_WITH_MUCH_BETTER_SCALING
+RED
 ```
 
-When activated, give Analogue Antigravity its own detailed buildplan.
+or if an analytical positive-spectral theorem can be evaluated cheaply in parallel.
 
-Reaction momentum and support sectors must be explicit.
+Do not invest in a large nonlocal-field implementation before such a theorem survives.
 
 ---
 
-# 46. Updated global pathway ranking
+# 57. Global pathway ranking
 
-This is a strategic ranking, not a probability ranking.
+This is an information-value ranking, not a success probability.
 
-## Priority 1 — teacher-guided generalized topological successor
-
-Status:
+## Priority 1 — 031A scalar-charge energy and morphology theorem
 
 ```text
 ACTIVE
 ```
 
-Immediate form:
-
-```text
-024A_L2_L4_L6_V_CONSTITUTIVE_PREFLIGHT
-```
-
-Why:
-
-```text
-DIRECTLY_TARGETS_THE_IDENTIFIED_STRESS_GAP
-
-DIRECTLY_TARGETS_LARGE_SOURCE_HEADROOM
-
-REUSES_TOPOLOGICAL_INFRASTRUCTURE
-
-CHEAP_ANALYTICAL_FALSIFIER_AVAILABLE
-
-STATIC_AND_PULSE_BRANCHES_SHARE_THEORY
-
-HIGHEST_INFORMATION_GAIN_PER_COMPUTE
-```
+Highest leverage because it tests whether the new architecture actually changes the practical energy scaling before any large implementation.
 
 ---
 
-## Priority 2 — static and pulsed successor realization
-
-Status:
+## Priority 2 — 031B1 augmented B7 scalar-charge dressing
 
 ```text
-CONDITIONAL_ON_024A_GREEN
+CONDITIONAL_ON_031A_GREEN
 ```
 
-Proceed through reduced field, unrestricted field, stability, or full-cycle transient gates.
+Highest-value microscopic reuse of existing project infrastructure.
 
 ---
 
-## Priority 3 — 023C validation infrastructure / B7 fallback
-
-Status:
+## Priority 3 — 031B2 Q-ball / Q-shell independent source
 
 ```text
-ACTIVE_SUPPORTING_INFRASTRUCTURE
+CONDITIONAL_ON_031A_GREEN
 ```
 
-Do not allow unfinished N73 solver work to displace the active analytical successor preflight.
+Independent control against B7-specific failure.
 
 ---
 
-## Priority 4 — nonlinear Einstein-matter continuation
-
-Status:
+## Priority 4 — 031C/D morphology + activation
 
 ```text
 CONDITIONAL
 ```
 
-Run on the best surviving validated flat-space field.
+Only after a real source charge survives.
 
 ---
 
-## Priority 5 — Analogue Antigravity
-
-Status:
+## Priority 5 — 026C N89 scientific credibility
 
 ```text
-DEFERRED_BUT_NOW_MECHANISM_READY
+MANDATORY_PARALLEL
 ```
 
-High practical interest once the first pure-GR successor attempt clarifies physical realizability and remaining scaling burden.
+Important but not central to practical scaling.
 
 ---
 
-## Priority 6 — protected vector-current additional force
-
-Status:
+## Priority 6 — 030B positive-spectral nonlocal theorem
 
 ```text
-CLOSED_IN_TESTED_CLASSES
+BACKSTOP
 ```
 
-Reopen only with genuine new protection.
+Analytical first.
 
 ---
 
-## Priority 7 — disformal finite-cycle route
-
-Status:
+## Priority 7 — nonlinear scalarization / gravitational phase transition
 
 ```text
-PARKED_CONDITIONAL
+SECONDARY_031_SUBBRANCH
 ```
 
-Reopen only with a qualitatively new complete-cycle mechanism.
+Use only if it offers a genuine activation mechanism that does not require stellar compactness.
 
 ---
 
-## Priority 8 — established quantum stress-energy
-
-Status:
+## Closed / strongly demoted
 
 ```text
-REFERENCE_CONSTRAINT_BRANCH
+TESTED 019-022 PROTECTED VECTOR IMPLEMENTATIONS
+
+024E / 024E1 CLOSE-PASS PORTAL
+
+025 ORDINARY GLOBALLY COMPATIBLE HYPERELASTIC REALIZATION
+
+027B-D STRESS SHUTTLE CLOSURE CLASS
+
+028A CONVENTIONAL LOCAL PLANCK-MASS GAIN
+
+028B/C CRITICAL CUBIC BRAIDING
+
+029A MASS-GATED SPIN2 ROUTE
+
+030A TESTED PURE-GR DYNAMIC PRACTICALITY ROUTES
 ```
 
-No practical macroscopic route currently survives.
+Do not reopen these through wider scans alone.
 
 ---
 
-## Priority 9 — broad speculative modified gravity
+# 58. Practical scaling targets
 
-Status:
+Track the primary benchmark:
 
 ```text
-DEFERRED
+1 g
+
+1 m
+
+1 TJ
 ```
 
-Do not open a broad theory space while a targeted established-field successor test remains available.
-
----
-
-# 47. Pure-GR practicality rule
-
-Even a dramatic coefficient improvement does not automatically make the source practical.
-
-Physical scaling remains:
+The direct pure-GR unit-coefficient energy scale is approximately:
 
 ```math
-E
-=
-C
-\frac{a c^2 h^2}{G}
+1.32\times10^{28}\ {\rm J}
 ```
 
-At approximately $a=g$ and $h=1\ \mathrm{m}$:
+so:
 
 ```math
-\frac{g c^2}{G}
-\sim
-1.3\times10^{28}\ \mathrm{J}
+C_{\rm required}
+\approx
+7.57\times10^{-17}
 ```
 
-Representative scales:
+for direct GR stress engineering.
+
+Against 006D the gap is approximately:
 
 ```text
-CURRENT_B7_C=
-422P22
-
-006D_C=
-23P59
-
-RAW_TEACHER_C=
-0P0245
+3.12E17
 ```
 
-Even the raw teacher remains enormously energetic at macroscopic scale.
+This is why order-unity source-coefficient improvements are no longer a central practicality strategy.
 
-Therefore track two separate questions:
-
-```text
-EFFICIENCY_IMPROVEMENT
-
-AND
-
-ABSOLUTE_PRACTICAL_SCALING
-```
-
-A large efficiency gain can be a major theoretical accomplishment while remaining nowhere near a device.
+031 must change the effective **charge-energy relation**, not merely `C_GR`.
 
 ---
 
-# 48. No order-unity victory rule
+# 59. No order-unity victory rule
 
-When the practical gap spans many orders of magnitude:
+Do not promote:
 
 ```text
-ORDER_UNITY_GAIN=
-SCIENTIFICALLY_INTERESTING_NOT_PRACTICAL_BREAKTHROUGH
+2X
 
-2_TO_10X=
-MEANINGFUL_FIELD_IMPROVEMENT
+10X
 
-10_TO_100X=
-MAJOR_FIELD_IMPROVEMENT
+100X
 
-100_TO_1000X=
-VERY_LARGE_FIELD_IMPROVEMENT
-
-GE1000X=
-EXTREME_FIELD_IMPROVEMENT
+1000X
 ```
 
-Practical antigravity still requires plausible absolute:
+source improvement as practical scaling when the remaining gap spans many orders of magnitude.
+
+Such results can still be major physics accomplishments.
+
+A practicality breakthrough requires either:
 
 ```text
-ENERGY
-
-POWER
-
-HEAT
-
-SOURCE_SIZE
-
-SOURCE_MASS
-
-FIELD_STRENGTH
-
-CONTROL
-
-REPETITION_OR_STABILITY
-```
-
-or a qualitative scaling change.
-
----
-
-# 49. Current major-breakthrough definitions
-
-## 49.1 Near-term theoretical breakthrough
-
-A healthy successor theory passes 024A and analytically accesses the teacher stress regime.
-
-This is a real advance but not yet a field realization.
-
-## 49.2 Major realization breakthrough
-
-An actual microscopic successor field achieves:
-
-```text
-FINITE_PAYLOAD_OUTWARD_FORCE
-
-LOWER_TOTAL_ENERGY_AT_MATCHED_a_h
-
-CONSERVATION
-
-TOPOLOGY
-
-DECLARED_ENERGY_CONDITIONS
-
-STATIONARITY_OR_CONTROLLED_TRANSIENCE
-
-INDEPENDENT_VERIFICATION
-```
-
-with preferably:
-
-```text
-GE10X_FIELD_EFFICIENCY_IMPROVEMENT
-```
-
-## 49.3 Major physical breakthrough
-
-The improved field survives:
-
-```text
-FULL_STABILITY
+TOTAL ENERGY ENTERS ENGINEERING SCALE
 
 OR
 
-COMPLETE_REPEATABLE_PULSE_CYCLE
+A NEW PARAMETRIC SCALING LAW
 ```
 
-plus resolution and domain convergence.
-
-## 49.4 Nonlinear-gravity breakthrough
-
-A self-consistent Einstein-matter continuation preserves useful finite-payload outward response.
-
-## 49.5 Practical breakthrough
-
-The required energy, power, heat, field strength, or source scale becomes engineering-relevant by many orders of magnitude or through a qualitatively better scaling law.
+031 is being tested specifically because it may offer the latter.
 
 ---
 
-# 50. What counts as a successful negative result
+# 60. 80% heuristic gate
 
-The following would be valuable successful outcomes:
+The project does not receive 80% because a promising formula is found.
+
+Approximately 78–82% becomes eligible only when the same explicit theory has:
 
 ```text
-THE_L6_SUCCESSOR_CANNOT_REACH_TEACHER_STRESS_WITHOUT_DEC_FAILURE
+REAL MICROSCOPIC OPPOSITE-SIGN SOURCE CHARGE
 
-THE_GENERALIZED_HAMILTONIAN_IS_UNHEALTHY
+FINITE POSITIVE TOTAL ENERGY
 
-STATIC_BALANCE_FORCES_LARGE_LOW_LEVERAGE_OVERHEAD
+FINITE-PAYLOAD TRUE-STANDOFF OUTWARD METRIC RESPONSE
 
-THE_SUCCESSOR_HAS_A_FATAL_PHYSICAL_HESSIAN_MODE
+SOURCE + SCALAR HALO ENERGY INCLUDED
 
-THE_PULSE_FORMATION_AND_COLLAPSE_IMPULSES_CANCEL
+GR ATTRACTION INCLUDED
 
-THE_DYNAMIC_SOURCE_CANNOT_BE_RECREATED_WITHOUT_PROHIBITIVE_ENERGY
+HIGH PRODUCTIVE PARTICIPATION
 
-ANY_REAL_FIELD_PAYS_BACK_MOST_OF_THE_RELAXED_SOURCE_HEADROOM
+LOW CANCELLATION
 
-NONLINEAR_BACKREACTION_REMOVES_THE_OUTWARD_RESPONSE
+EXPLICIT ON/OFF OR RANGE CONTROL
+
+FULL CONTROL / WALL ENERGY INCLUDED
+
+STABLE SOURCE
+
+HEALTHY EFT
+
+UNIVERSAL PAYLOAD RESPONSE
+
+NO IMMEDIATE EMPIRICAL FATALITY
+
+TOTAL 1G / 1M ENERGY AT OR BELOW APPROXIMATELY 1 TJ
 ```
 
-Each would eliminate a large part of the remaining search space.
+At that stage:
 
-The project optimizes for truth, not branch preservation.
+```text
+PRACTICAL_DEVICE=
+
+STILL_NO
+```
+
+But an approximately 80% research-accomplishment marker could be justified because both the sign engine and practical scaling engine would finally exist in one explicit theory.
 
 ---
 
-# 51. Global successor stop rule
+# 61. Updated progress ladder
 
-Do not endlessly decorate the first successor hypothesis.
+## Current — approximately 70–71%
 
-If:
-
-```text
-THE_FIRST_FEW_WELL_MOTIVATED_HEALTHY_SUCCESSOR_CLASSES=
-RED
-```
-
-then:
+Includes:
 
 ```text
-STOP_SUCCESSOR_COEFFICIENT_POLISHING
+006D TRUE-STANDOFF CONSTRUCTIVE GR SOURCE
 
-RETURN_TO_023C_B7_COMPLETION
+018B FIELD EXISTENCE
 
-PREPARE_023D_IF_B7_GREEN
+018C STABILITY FALSIFICATION
 
-RERANK_ANALOGUE_ANTIGRAVITY_AND_OTHER_SURVIVORS
-```
+B7 MICROSCOPIC FIELD PROGRAM
 
-Do not add arbitrary:
+N73/N81 STRICT STATIONARITY
 
-```text
-RIGIDITY
+INTROSPECTIVE MECHANISM EXTRACTION
 
-CONTAINMENT
+12.8-17.9X ROBUST CONSERVED-DEC HEADROOM
 
-EXTERNAL_PRESSURE
+RAW 17230X TEACHER SIGNAL
 
-BACKGROUND_ENERGY
+PRODUCTIVE PARTICIPATION DISCOVERY
 
-CONTROL_FIELD
-```
+026P TRUE-STANDOFF PARTICIPATION GAP
 
-without including its full stress-energy and physical origin.
+027 SOURCE-TRANSPORT FALSIFICATION
 
----
+028 LOCAL SCALAR-GAIN FALSIFICATION
 
-# 52. Permanent anti-drift rules
+029 MASSIVE-SPIN2 FALSIFICATION
 
-Do not:
-
-```text
-RESTART_SOLVED_006D_OR_016_WORK
-
-REOPEN_018B_KLS_STATIC_ROUTE_WITHOUT_NEW_STABILITY_PHYSICS
-
-REOPEN_019_TO_022_TESTED_VECTOR_CLASSES_WITH_ONLY_WIDER_SCANS
-
-USE_OLD_N65_MIDPOINT_FORCE_AS_PROMOTION_EVIDENCE
-
-REPEAT_INT01_TO_INT15_MECHANISM_TOMOGRAPHY_WITHOUT_NEW_REASON
-
-RUN_MORE_INT14_ABSTRACT_SOURCE_COEFFICIENT_POLISHING
-
-RUN_N64_N80_N96_ONLY_TO_FORCE_THE_OLD_THOUSANDFOLD_GATE
-
-TREAT_RAW_17230X_AS_A_CERTIFIED_PHYSICAL_FIELD
-
-TREAT_THE_N48_THREE_CELL_PATTERN_AS_PHYSICAL_STRUCTURE
-
-FORCE_THE_STANDARD_SKYRME_MODEL_TO_MATCH_S_OVER_RHO_GT_2
-
-START_A_LARGE_NEW_POTENTIAL_SCAN_BEFORE_024A
-
-START_A_3D_L6_PDE_BEFORE_THE_ANALYTICAL_PREFLIGHT
-
-RUN_023D_ON_AN_OBVIOUSLY_SUPERSEDED_FIELD
-
-TREAT_A_TRANSIENT_PEAK_AS_A_COMPLETE_PULSE
-
-OMIT_RESET_OR_REACTION_MOMENTUM
-
-CALL_A_FIFTH_FORCE_ORDINARY_GR
-
-CALL_GROUND_REFERENCED_FORCE_REACTIONLESS_PROPULSION
-
-RAISE_THE_PROGRESS_HEURISTIC_TO_MEET_A_TARGET
+030A DYNAMIC PURE-GR FALSIFICATION
 ```
 
 ---
 
-# 53. Quantities to track across all successor fields
+## Approximately 72–74%
 
-Static or stationary candidates:
+Eligible if 031A independently proves:
 
 ```text
-TOTAL_ENERGY
+A REAL FINITE-SOURCE CHARGE-ENERGY SCALING WINDOW
 
-C
+MANY ORDERS BELOW PURE GR
 
-ETA_OP
+TRUE FINITE-PAYLOAD OUTWARD SIGN
 
-FINITE_PAYLOAD_ACCELERATION
-
-GROSS_OUTWARD_INFLUENCE
-
-GROSS_INWARD_INFLUENCE
-
-CANCELLATION_FACTOR
-
-F25
-
-F50
-
-F75
-
-F90
-
-F99
-
-S_OVER_RHO_DISTRIBUTION
-
-PRINCIPAL_STRESS_RATIOS
-
-DEC_MARGIN
-
-NEC_WEC_WHERE_RELEVANT
-
-ENERGY_SECTOR_FRACTIONS
-
-PRODUCTIVE_REGION_DISTANCE
-
-PRODUCTIVE_REGION_WIDTH
-
-TOPOLOGY
-
-VIRIAL_RESIDUAL
-
-STATIONARITY_RESIDUAL
-
-TOTAL_ACTIVE_MASS
-
-ENCLOSED_ACTIVE_MASS
-
-HESSIAN_MODES
-
-FISSION_MARGIN
-
-SOURCE_SIZE
-
-PAYLOAD_SIZE
-
-STANDOFF
-
-DOMAIN_CONVERGENCE
-
-RESOLUTION_CONVERGENCE
+NO IMMEDIATE THEORETICAL NO-GO
 ```
 
-Pulsed candidates add:
+---
+
+## Approximately 74–78%
+
+Requires:
 
 ```text
-PEAK_ACCELERATION
+ACTUAL MICROSCOPIC SOURCE
 
-FULL_CYCLE_DELTA_V
+REQUIRED OPPOSITE SCALAR CHARGE
 
-OUTWARD_IMPULSE
+STABILITY
 
-RETURN_IMPULSE
+POSITIVE ENERGY
 
-PULSE_DURATION
+SOURCE + HALO ENERGY BELOW PRACTICALITY ENVELOPE
 
-CREATION_ENERGY
+N73/N81 OR EQUIVALENT RESOLUTION SUPPORT
+```
 
-CONTROL_ENERGY
+---
 
-RESET_ENERGY
+## Approximately 78–82%
 
-RADIATION
+Requires:
 
-REACTION_MOMENTUM
+```text
+COMPLETE SOURCE + ACTIVATION SYSTEM
+
+TRUE STANDOFF
+
+FINITE PAYLOAD
+
+FULL TMUNU
+
+UNIVERSAL METRIC RESPONSE
+
+STABILITY
+
+EMPIRICAL OFF-STATE PLAUSIBILITY
+
+TOTAL ENERGY NEAR OR BELOW 1 TJ AT 1G / 1M
+```
+
+---
+
+## Approximately 82–86%
+
+Requires:
+
+```text
+NONLINEAR EINSTEIN-SCALAR CONTINUATION
+
+FULL BACKREACTION
+
+ASYMPTOTIC CONTROL
+
+ROBUST CONTINUUM SOLUTION
+
+FULL EMPIRICAL AUDIT
+```
+
+---
+
+## Approximately 86–90%
+
+Requires movement toward:
+
+```text
+LAB-SCALE FIELD GENERATION
+
+REALISTIC SOURCE FORMATION
 
 HEAT
 
-REPETITION_RATE
+POWER
 
-DUTY_CYCLE
+CONTROL
 
-AVERAGE_POWER
+REPETITION / STABILITY
+
+MEASURABLE SIGNAL
+
+NO FATAL MATERIAL OR EFT BARRIER
+```
+
+Above 90% increasingly requires experimental milestones.
+
+---
+
+# 62. Universal 031 metrics
+
+Every 031 result must report:
+
+```text
+TOTAL ENERGY
+
+SOURCE CORE ENERGY
+
+SCALAR FIELD ENERGY
+
+CONTROL / GATE ENERGY
+
+SUPPORT ENERGY
+
+WALL ENERGY
+
+GR ATTRACTIVE ACCELERATION
+
+SCALAR REPULSIVE ACCELERATION
+
+TOTAL PAYLOAD ACCELERATION
+
+FINITE PAYLOAD MINIMUM ACCELERATION
+
+TRUE STANDOFF DISTANCE
+
+SCALAR CHARGE
+
+NET SCALAR CHARGE
+
+ABSOLUTE SCALAR CHARGE
+
+CHARGE PER TOTAL JOULE
+
+CHARGE PER SOURCE JOULE
+
+PRODUCTIVE CHARGE PARTICIPATION
+
+F50
+
+F90
+
+CANCELLATION
+
+FAR-FIELD LEAKAGE
+
+MEDIATOR RANGE
+
+OFF-STATE COUPLING
+
+ON-STATE COUPLING
+
+EFT CUTOFF
+
+MAX FIELD GRADIENT
+
+MAX CURVATURE
+
+COMPACTNESS
+
+STABILITY MARGIN
+
+EMPIRICAL MARGINS
+```
+
+If the source is pulsed add:
+
+```text
+FORMATION ENERGY
+
+RESET ENERGY
+
+RADIATION
+
+REACTION MOMENTUM
+
+FULL-CYCLE DELTA-V
+
+AVERAGE POWER
 ```
 
 ---
 
-# 54. Independent verification rule
+# 63. Conservation and reaction rule
 
-Every central quantitative claim should receive at least two genuinely independent verification paths where feasible.
+Any dynamic 031 source must satisfy the full cycle.
+
+A time envelope on a static solution is not a physical pulse.
+
+Track:
+
+```math
+\nabla_\mu
+T^{\mu\nu}_{\rm total}
+=
+0
+```
+
+including:
+
+```text
+SOURCE FIELD
+
+SCALAR MEDIATOR
+
+ACTIVATION FIELD
+
+ORDINARY MATTER
+
+RADIATION
+
+CONTROL SYSTEM
+```
+
+Reaction momentum is not optional.
+
+---
+
+# 64. Naturalness rule
+
+A large dimensionless source sensitivity such as:
+
+```math
+\alpha_X
+\gg
+1
+```
+
+is not automatically pathological.
+
+What matters is the microscopic coupling scale that produces it.
+
+Therefore map every required `alpha_X` into:
+
+```text
+PHYSICAL COUPLING
+
+MASS SCALE
+
+FIELD EXCURSION
+
+LOOP CORRECTION
+
+STRONG-COUPLING SCALE
+
+EFT CUTOFF
+```
+
+For example, if a dependence schematically contains:
+
+```math
+E_X(\phi)
+\propto
+e^{\phi/f_X}
+```
+
+then a large gravitational sensitivity can arise from:
+
+```math
+M_{\rm Pl}/f_X
+```
+
+without automatically implying a large particle-physics coupling.
+
+But this is only acceptable if the explicit EFT remains radiatively and dynamically healthy.
+
+No large number is accepted without this translation.
+
+---
+
+# 65. Reciprocity rule
+
+If ordinary matter responds strongly to `phi`, ordinary matter also generally affects `phi`.
+
+Therefore calculate:
+
+```text
+SOURCE -> PAYLOAD RESPONSE
+
+PAYLOAD -> SOURCE RESPONSE
+
+EARTH / ENVIRONMENT -> DEVICE FIELD
+
+DEVICE -> ENVIRONMENT FIELD
+```
+
+The payload cannot be treated as a passive test body forever if its scalar charge is large.
+
+This becomes mandatory before 031E promotion.
+
+---
+
+# 66. Far-field and empirical-leakage rule
+
+A local device cannot simply generate a strong unscreened meter-range scalar field everywhere.
+
+Track:
+
+```math
+\frac{
+|Q_{\rm net}|
+}{
+Q_{\rm abs}
+}
+```
+
+and exterior multipoles.
+
+A nearly charge-neutral device may help.
+
+But cancellation must be generated by a real field/source architecture.
+
+No hand-inserted compensating charge is permitted.
+
+---
+
+# 67. Independent verification rule
+
+Every central result needs at least two independent methods where feasible.
 
 Examples:
 
 ```text
-DIRECT_FORCE_INTEGRAL
+ANALYTIC SCALAR SELF-ENERGY
 VS
-INDEPENDENT_HIGH_ORDER_CUBATURE
+DIRECT FIELD INTEGRATION
 
-ANALYTIC_TMUNU
+GREEN-FUNCTION FORCE
 VS
-AUTOMATIC_OR_NUMERICAL_VARIATION
+PHYSICAL-METRIC GEODESIC CALCULATION
 
-DERRICK_IDENTITY
+VARIATIONAL SCALAR CHARGE
 VS
-FINITE_DILATION_ENERGY
+ASYMPTOTIC FIELD COEFFICIENT
 
-MATRIX_FREE_HVP
+FINITE-DIFFERENCE SOURCE SENSITIVITY
 VS
-DIRECT_ENERGY_CURVATURE
+ANALYTIC dE/dphi
 
-STATIC_SOLVER
+DIRECT ENERGY
 VS
-VIRIAL_NOETHER_CHECK
+VIRIAL / NOETHER IDENTITY
 
-PULSE_ENERGY_LEDGER
+HESSIAN MODE
 VS
-NOETHER_CONSERVATION
+FINITE-AMPLITUDE CURVATURE
 
-LINEAR_SENSITIVITY
+FIELD RESPONSE
 VS
-EXPLICIT_RESOLVED_PERTURBATION
+INDEPENDENT HIGH-ORDER RECONSTRUCTION
 ```
 
-A unit test calling the same implementation is not independent scientific verification.
+A second call to the same implementation is not independent verification.
 
 ---
 
-# 55. Regression integrity gate
+# 68. Regression integrity
 
-Before every major scientific extension:
+Before any major 031 claim:
 
 ```text
 EXPECTED_KNOWN_SOLUTION_BASELINE=
-94_PASSED
+
+94 PASSED
 ```
 
-Run repository status and the known-solution suite.
-
-If the baseline unexpectedly fails:
+If the suite fails unexpectedly:
 
 ```text
-NEW_SCIENTIFIC_CLAIMS=
+NEW_PHYSICAL_CLAIMS=
+
 PAUSE
 ```
 
-until understood.
-
-If permanent tests are intentionally added, update the baseline count.
+If new permanent tests are added, update the baseline count explicitly.
 
 ---
 
-# 56. Blind wildcard parameter rule
+# 69. Blind wildcard rule
 
-The established blind wildcard values remain:
+Preserve:
 
 ```text
 0.625
@@ -2861,112 +3726,185 @@ Use only when:
 ```text
 CHEAP
 
-SCIENTIFICALLY_HARMLESS
+NONDISRUPTIVE
 
-CLEARLY_LABELED_AS_BLIND_WILDCARD
+CLEARLY LABELED
+
+EXCLUDED FROM MODEL SELECTION
 ```
 
-Never treat them as:
-
-```text
-PHYSICS_PRIORS
-
-EVIDENCE
-
-OPTIMIZATION_TARGETS
-
-PRIVILEGED_COUPLINGS
-```
-
-Physically motivated scans and falsification criteria take priority.
+Never interpret them as physical priors.
 
 ---
 
-# 57. Documentation and source-code standard
+# 70. Anti-drift rules
 
-Every substantial successor source file must document near the top:
-
-```text
-PURPOSE
-
-SCIENTIFIC_QUESTION
-
-PHYSICAL_MODEL
-
-LAGRANGIAN
-
-FIELD_CONTENT
-
-EQUATIONS
-
-TMUNU
-
-ACTIVE_SOURCE
-
-SIGN_CONVENTIONS
-
-UNITS
-
-BOUNDARY_CONDITIONS
-
-TOPOLOGY
-
-ASSUMPTIONS
-
-APPROXIMATION_LEVEL
-
-CONSERVATION
-
-ENERGY_CONDITIONS
-
-STABILITY_OR_TRANSIENT_ASSUMPTIONS
-
-INPUTS
-
-OUTPUTS
-
-NUMERICAL_METHOD
-
-VALIDATION
-
-FALSIFICATION
-
-LIMITATIONS
-
-RELATED_FILES
-
-CLAIM_CLASSIFICATION
-
-NEXT
-```
-
-Pulse simulations must additionally document:
+Do not:
 
 ```text
-INITIAL_DATA
+RESTART ABSTRACT INTROSPECTIVE SOURCE OPTIMIZATION
 
-ENERGY_FLUX
+CLAIM THE RAW TEACHER IS A FIELD
 
-REACTION_MOMENTUM
+COPY THE TEACHER VOXEL MAP INTO A LAGRANGIAN
 
-FORMATION_PROTOCOL
+TREAT THE TRUSTED 27-DEGREE AXIS AS A MAGIC ANGLE
 
-COLLAPSE_PROTOCOL
+USE GEOMETRIC TOP / BOTTOM INSTEAD OF ACTUAL KERNEL EXTREMA
 
-RESET_OR_DISPERSAL
+IGNORE PRODUCTIVE PARTICIPATION
 
-FULL_CYCLE_IMPULSE
+RESTART 024E CLOSE-PASS SCANS
 
-ENERGY_LEDGER
+RESTART 027 SHUTTLE TOPOLOGIES BY WIDER PARAMETER SEARCH
+
+REOPEN 028A F(phi)R LOCAL GAIN
+
+REOPEN 028B/C CRITICAL BRAIDING BY TUNING
+
+REOPEN 029A MASSIVE-SPIN2 WITHOUT A NEW SOURCE FUNCTIONAL
+
+USE DUTY CYCLE TO CLAIM LOWER PURE-GR PEAK ENERGY AFTER 030A
+
+CALL AN ORDINARY COMPOSITION-SPECIFIC FIFTH FORCE TRUE ANTIGRAVITY
+
+PRESCRIBE A SPATIAL COUPLING BY HAND
+
+IGNORE SCALAR FIELD SELF-ENERGY
+
+IGNORE ORDINARY GR ATTRACTION FROM THE NEW SOURCE
+
+IGNORE OFF-STATE EMPIRICAL CONSTRAINTS
+
+CREDIT NEGATIVE INTERACTION ENERGY WITHOUT STABILITY
+
+RAISE THE PROGRESS HEURISTIC TO HIT A TARGET
 ```
-
-Central scientific results must be reconstructible without chat history.
 
 ---
 
-# 58. Research-session protocol
+# 71. 031 source-theory anti-overfitting rule
 
-At the beginning of every substantial session:
+The first B7 scalar dressings must be minimal.
+
+Allowed first wave:
+
+```text
+ONE EXISTING B7 SECTOR COUPLED TO phi
+
+ONE LOW-ORDER OR EXPONENTIAL FUNCTION
+
+ONE NEW PHYSICAL SCALE
+```
+
+Do not construct an arbitrary function specifically fitted to the teacher map.
+
+If more than one new function is required merely to obtain the sign:
+
+```text
+MODEL NATURALNESS=
+
+STRONGLY DEMOTED
+```
+
+---
+
+# 72. Literature-comparison gate
+
+031 must compare explicitly with established work on:
+
+```text
+SCALAR-TENSOR GRAVITY
+
+DAMOUR-ESPOSITO-FARESE SCALARIZATION
+
+SYMMETRON / CHAMELEON SCREENING
+
+Q-BALLS
+
+Q-SHELLS
+
+BOSON STARS
+
+SCALARIZED BOSON STARS
+
+FIFTH-FORCE SEARCHES
+
+EQUIVALENCE-PRINCIPLE TESTS
+```
+
+The literature establishes that these theory structures can exist.
+
+It does not establish our required device regime.
+
+Any apparent new region must be checked for previous exclusions.
+
+---
+
+# 73. Current decision tree
+
+```text
+START
+  |
+  v
+031A
+EXACT SCALAR-CHARGE ENERGY / FINITE-PAYLOAD THEOREM
+  |
+  +-- RED
+  |     |
+  |     +--> PRESERVE RESULT
+  |     |
+  |     +--> RUN CHEAP 030B POSITIVE-SPECTRAL NONLOCAL THEOREM
+  |     |
+  |     +--> GLOBAL RERANK
+  |
+  +-- GREEN
+        |
+        +------------------------------+
+        |                              |
+        v                              v
+   031B1                         031B2
+   AUGMENT B7                    Q-BALL / Q-SHELL
+   CHARGE DRESSING               INDEPENDENT CONTROL
+        |                              |
+        +--------------+---------------+
+                       |
+                       v
+              BEST REAL SOURCE
+                       |
+                       v
+                   031C
+          TEACHER-GUIDED MORPHOLOGY
+                       |
+                       v
+                   031D
+            ACTIVATION / OFF STATE
+                       |
+                       v
+                   031E
+      FULL TRUE-STANDOFF METRIC SYSTEM
+                       |
+                       v
+                   031F
+       STABILITY + EMPIRICAL CLOSURE
+                       |
+                       v
+          PRACTICAL REALIZATION WORK
+```
+
+In parallel:
+
+```text
+026C N89
+```
+
+continues as the B7 credibility branch.
+
+---
+
+# 74. Session protocol
+
+At the beginning of each substantial session:
 
 ## Step 1 — orient
 
@@ -2975,762 +3913,488 @@ Read:
 ```text
 RESEARCH_BUILDPLAN.md
 
-LATEST_RELEVANT_JOURNAL
+LATEST RELEVANT JOURNAL
 
-LATEST_CARRY_OVER_NOTE
-
-NOTES.md
+LATEST CARRY-OVER NOTE
 
 FORMATTING_AND_CODE_STANDARDS.md
 
-LATEST_CODEBUNDLE
+LATEST CODEBUNDLE
 ```
 
-Read `INTROSPECTIVE_BUILDPLAN.md` only when historical Introspective definitions or results are needed.
+Use Introspective only when its metrics or maps are relevant.
 
-## Step 2 — verify repository state
+---
+
+## Step 2 — repository integrity
+
+Run:
 
 ```text
-GIT_STATUS
-
-94_KNOWN_SOLUTIONS
-
-RELEVANT_SOURCE_HASH_AUDITS
+git status --short
 ```
+
+and the known-solution suite.
+
+---
 
 ## Step 3 — state one active question
 
 For the next session:
 
-> **Can a minimal generalized topological field with a sixth-order stress sector physically access the teacher stress regime without introducing an immediate theoretical pathology?**
+> **Does canonical scalar-metric charge engineering actually possess the favorable finite-source energy scaling suggested by the preliminary estimate once the action normalization, scalar self-energy, GR attraction, finite payload, and true stand-off geometry are treated exactly?**
 
-## Step 4 — state observables
+---
 
-Primary constitutive observable:
+## Step 4 — primary observable
 
 ```text
-ACCESSIBLE_S_OVER_RHO_AND_PRINCIPAL_STRESS_REGION
+MINIMUM TOTAL POSITIVE ENERGY REQUIRED FOR A DECLARED FINITE PAYLOAD TO EXPERIENCE 1g OUTWARD AT 1m
 ```
 
-Primary eventual static observable:
+with:
 
 ```text
-FINITE_PAYLOAD_ACCELERATION_PER_TOTAL_FIELD_ENERGY
+SOURCE CORE
+
+SCALAR HALO
+
+ORDINARY GR ATTRACTION
 ```
 
-Primary eventual pulse observable:
+all included.
+
+---
+
+## Step 5 — cheapest decisive test
 
 ```text
-FULL_CYCLE_FINITE_PAYLOAD_IMPULSE_PER_TOTAL_CYCLE_ENERGY
+ANALYTIC CANONICAL SCALAR GREEN-FUNCTION / SELF-ENERGY / CHARGE BOUND
+
+PLUS
+
+FINITE-PAYLOAD DUAL-KERNEL MORPHOLOGY OPTIMIZATION
 ```
 
-## Step 5 — state cheapest decisive test
+---
+
+## Step 6 — promotion
 
 ```text
-ANALYTIC_LAGRANGIAN_TMUNU_HAMILTONIAN_DEC_DERRICK_AND_WELL_POSEDNESS_PREFLIGHT
+MANY-ORDERS ENERGY WINDOW BELOW PURE GR
+
+TRUE-STANDOFF OUTWARD SIGN
+
+FINITE CHARGE-PER-JOULE REQUIREMENT
+
+NO IMMEDIATE GHOST / POSITIVITY / EFT FALSIFIER
 ```
 
-## Step 6 — state promotion condition
+---
+
+## Step 7 — falsifier
 
 ```text
-TEACHER_STRESS_RANGE_ACCESSIBLE
-AND
-NO_IMMEDIATE_FATAL_PHYSICAL_FALSIFIER
-```
-
-## Step 7 — state falsifier
-
-```text
-NEGATIVE_ENERGY_REQUIREMENT
+SCALAR SELF-ENERGY RESTORES OLD SCALE
 
 OR
 
-STRUCTURAL_DEC_FAILURE
+SOURCE GR ATTRACTION WINS
 
 OR
 
-UNBOUNDED_HAMILTONIAN
+FINITE PAYLOAD DESTROYS THE WINDOW
 
 OR
 
-GHOST_OR_FATAL_GRADIENT_INSTABILITY
+REQUIRED CHARGE SENSITIVITY IS PHYSICALLY INFINITE / PATHOLOGICAL
 
 OR
 
-TOPOLOGICAL_INCOMPATIBILITY
-
-OR
-
-DERRICK_NO_GO
+TRUE METRIC UNIVERSALITY FAILS
 ```
 
-## Step 8 — state stop rule
+---
+
+## Step 8 — stop rule
 
 ```text
-NO_LARGE_PDE_SOLVE_BEFORE_024A_CLOSES
+NO LARGE MICROSCOPIC PDE BEFORE 031A
 ```
 
-## Step 9 — execute minimum required work
+---
 
-## Step 10 — independently verify the central identity
+## Step 9 — independent reconstruction
 
-## Step 11 — record closeout
+The main bound must be reproduced with an implementation not algebraically dependent on the first.
+
+---
+
+## Step 10 — record closeout
+
+Always record:
 
 ```text
-WHAT_CHANGED
+QUESTION
 
-WHAT_WAS_LEARNED
+RESULT
 
-WHAT_WAS_FALSIFIED
+WHAT CHANGED
 
-WHAT_REMAINS_UNRESOLVED
+WHAT SURVIVED
 
-PRACTICALITY_IMPACT
+WHAT FAILED
 
-CLAIM_CLASSIFICATION
+PRACTICALITY IMPACT
+
+CLAIM CLASSIFICATION
 
 NEXT
 ```
 
 ---
 
-# 59. Updated progress ladder
-
-These are internal knowledge milestones, not probabilities.
-
-## Current — approximately 70–71%
-
-Includes:
-
-```text
-006D_CONSTRUCTIVE_GR_REPULSION
-
-018B_FIELD_EXISTENCE
-
-018C_STABILITY_FALSIFICATION
-
-019_TO_022_PARTIAL_RESULTS_AND_CLOSEOUT
-
-023BR_PROMOTION_GRADE_B7_PREFLIGHT
-
-023CR4R_STRICT_N65_FIELD
-
-INTROSPECTIVE_MECHANISM_EXTRACTION
-
-ROBUST_12P8_TO_17P9X_SOURCE_HEADROOM
-
-RAW_17230X_TEACHER_SIGNAL_WITH_NO_REGRESSION
-
-TEACHER_STRESS_ANATOMY
-
-STANDARD_SKYRME_S_OVER_RHO_CEILING
-```
-
-## Approximately 72–74%
-
-Eligible accomplishments include:
-
-```text
-HEALTHY_SUCCESSOR_THEORY_ANALYTICALLY_ACCESSING_TEACHER_STRESS
-
-OR
-
-A_REDUCED_MICROSCOPIC_SUCCESSOR_WITH_CLEAR_MULTI_X_EFFICIENCY_GAIN
-
-OR
-
-FULL_B7_FINE_GRID_AND_STABILITY_CLOSURE
-```
-
-Do not promote for algebra alone unless it removes a genuinely important physical barrier.
-
-## Approximately 74–78%
-
-Requires a robust unrestricted successor field with:
-
-```text
-STRICT_STATIONARITY_OR_CONTROLLED_TRANSIENT_SOLUTION
-
-FINITE_PAYLOAD_RESPONSE
-
-MAJOR_EFFICIENCY_IMPROVEMENT
-
-CONSERVATION
-
-TOPOLOGY
-
-ENERGY_CONDITIONS
-
-INDEPENDENT_VERIFICATION
-```
-
-## Approximately 78–82%
-
-Requires:
-
-```text
-FULL_STABILITY_OR_REPEATABLE_PULSE_CYCLE
-
-RESOLUTION_CONVERGENCE
-
-FINITE_AMPLITUDE_CHALLENGES
-
-ROBUST_ORIENTATION_OR_OPERATIONAL_MARGIN
-```
-
-## Approximately 82–86%
-
-Requires controlled nonlinear Einstein-matter continuation of the best field or an experimentally equivalent branch with comparably strong theoretical closure.
-
-## Approximately 86–90%
-
-Requires movement toward realistic realization with:
-
-```text
-PRACTICAL_OR_NEAR_PRACTICAL_ENERGY
-
-POWER
-
-HEAT
-
-SOURCE_SCALE
-
-CONTROL
-
-REPETITION_OR_STABILITY
-
-NO_FATAL_EMPIRICAL_OR_MATERIAL_BARRIER
-```
-
-Above approximately 90% requires increasingly experimental and engineering milestones.
-
-There is no guaranteed path to 100%.
-
----
-
-# 60. Unified success ladder
-
-All branches use:
-
-```text
-LEVEL_0:
-MATHEMATICAL_SIGN
-
-LEVEL_1:
-LOCAL_OPERATIONAL_RESPONSE
-
-LEVEL_2:
-GOVERNING_THEORY_CONSISTENCY
-
-LEVEL_3:
-COMPLETE_SOURCE_CHARACTERIZATION
-
-LEVEL_4:
-FINITE_LOCALIZATION
-
-LEVEL_5:
-CONSERVATION
-
-LEVEL_6:
-MICROSCOPIC_REALIZATION
-
-LEVEL_7A:
-STATIC_STATIONARITY
-
-LEVEL_7B:
-TRANSIENT_DYNAMIC_SOLUTION
-
-LEVEL_8A:
-STATIC_STABILITY
-
-LEVEL_8B:
-POSITIVE_FULL_CYCLE_TRANSIENT_IMPULSE
-
-LEVEL_9:
-FINITE_PAYLOAD_ROBUSTNESS_AND_CONTINUUM_SUPPORT
-
-LEVEL_10:
-NONLINEAR_GR_OR_EMPIRICAL_CONSISTENCY
-
-LEVEL_11:
-REAL_REALIZATION
-
-LEVEL_12:
-PRACTICAL_SCALING_AND_CONTROL
-
-LEVEL_13:
-EXPERIMENTAL_DEMONSTRATION
-
-LEVEL_14:
-PRACTICAL_ANTIGRAVITY
-```
-
-A branch may proceed through the static or transient track.
-
-The project is not at Level 14.
-
----
-
-# 61. Current project checkpoint
+# 75. Current project checkpoint
 
 ```text
 DATE=
-2026_09_01
 
-CURRENT_INFORMAL_PROGRESS=
+2026_09_03
+
+CURRENT_HEURISTIC=
+
 APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY
 
 REGRESSION_BASELINE=
+
 94_PASSED
 
-STRONGEST_CONSERVATIVE_PUBLIC_RESULT=
+STRONGEST_TRUE_STANDOFF_CONSERVATIVE_SOURCE=
+
 006D
 
 006D_C=
+
 23P591586299249
 
-006D_FINITE_POSITIVE_ENERGY_LINEARIZED_GR_REPULSION=
-PASS
+STRONGEST_MICROSCOPIC_FIELD=
 
-006D_NEC_WEC_DEC=
-PASS
-
-018B_MICROSCOPIC_FIELD_EXISTENCE=
-PASS
-
-018C_FULL_FIELD_M2_INSTABILITY=
-CONFIRMED
-
-018B_KLS_REALIZATION=
-DEMOTED
-
-019_TO_022_TESTED_VECTOR_PRACTICAL_ROUTE=
-CLOSED
-
-023BR_SELECTED_FIELD=
-B7_ETA0P4_M8
-
-023BR_PROMOTION_GRADE_RATIONAL_MAP=
-PASS
-
-023CR4R_STRICT_N65_STATIONARITY=
-PASS
-
-023CR4R_DEC=
-PASS
-
-023CR4R_POSITIVE_TOTAL_ACTIVE_MASS=
-YES
-
-023CR4R_NEGATIVE_ENCLOSED_ACTIVE_REGION=
-YES
+FALSE_CORE_B7_ETA0P4_M8
 
 N73_STRICT_STATIONARITY=
-NOT_YET
 
-FULL_PHYSICAL_HESSIAN=
-NOT_YET
+PASS
 
-NONLINEAR_EINSTEIN_SKYRME=
-NOT_YET
+N81_STRICT_STATIONARITY=
+
+PASS
+
+B7_FORCE_MAGNITUDE_CONVERGENCE=
+
+UNRESOLVED
+
+026C_N89=
+
+MANDATORY_PARALLEL_BRANCH
+
+B7_CURRENT_SIDEDNESS=
+
+PREDOMINANTLY_EMBEDDED_TWO_SIDED
 
 INTROSPECTIVE=
-CLOSED_FOR_MODEL_HANDOFF
 
-ROBUST_CONSERVED_DEC_SOURCE_HEADROOM=
+CLOSED_FOR_MECHANISM_DISCOVERY
+
+ROBUST_CONSERVED_DEC_HEADROOM=
+
 12P8_TO_17P9X
 
-RAW_FINITE_DENSITY_TEACHER_C=
-0P02450446248
-
 RAW_TEACHER_HEADROOM=
+
 APPROXIMATELY_17230X
 
 RAW_GE1000X_SIGNAL=
+
 PRESENT
 
 CERTIFIED_GE1000X_CONTINUUM_SOURCE=
+
 NO
 
-INT15R_NO_REGRESSION_AUDIT=
-PASS
-
-TEACHER_F50_ENERGY=
-0P0730
-
 TEACHER_F90_ENERGY=
+
 0P1966
 
-TEACHER_F90_GROSS_OUTWARD_SHARE=
+TEACHER_F90_GROSS_OUTWARD=
+
 0P9218
 
 TEACHER_CANCELLATION=
+
 1P0592
 
-TEACHER_DENSITY_FORCE_SHARE=
-0P4144
-
 TEACHER_STRESS_FORCE_SHARE=
+
 0P5856
 
-TEACHER_FORCE_WEIGHTED_S_OVER_RHO=
-2P6496
+TEACHER_EFFECTIVE_LENGTH_OVER_H=
 
-TEACHER_DEC_UTILIZATION=
-APPROXIMATELY_1
-
-TEACHER_FORCE_LENGTH_OVER_H=
 0P1297
 
-TEACHER_PAYLOAD_SURFACE_DISTANCE_OVER_H=
-APPROXIMATELY_0P0494
+TEACHER_MEAN_PAYLOAD_SURFACE_DISTANCE_OVER_H=
 
-STANDARD_SKYRME_S_OVER_RHO_MAX=
-2
+0P0494
 
-FIELD_TEACHER_GAP=
-MAJOR_GEOMETRIC_REORGANIZATION_PLUS_CONSTITUTIVE_STRESS_GAP
+B7_NEGATIVE_ACTIVE_PARTICIPATION=
 
-ACTIVE_BRANCH=
-TEACHER_GUIDED_SUCCESSOR_FIELD_DESIGN
+APPROXIMATELY_0P0515
+
+026P_RELAXED_NEGATIVE_PARTICIPATION=
+
+APPROXIMATELY_0P500
+
+PRODUCTIVE_PARTICIPATION_GAP=
+
+APPROXIMATELY_9P7X
+
+027_SHUTTLE_CLOSURE_CLASS=
+
+RED
+
+028_LOCAL_SCALAR_GAIN_CLASSES=
+
+RED
+
+029_MASS_GATED_SPIN2=
+
+RED
+
+030A_TESTED_DYNAMIC_PURE_GR=
+
+RED
+
+ACTIVE_FRONTIER=
+
+031_ACTIVATED_SCALAR_METRIC_CHARGE_ANTIGRAVITY
 
 ACTIVE_PHASE=
-024A_GENERALIZED_TOPOLOGICAL_STRESS_CONSTITUTIVE_PREFLIGHT
 
-PRIMARY_SUCCESSOR_HYPOTHESIS=
-L2_L4_L6_PLUS_V_TOPOLOGICAL_FIELD
+031A_SCALAR_CHARGE_ENERGY_DUAL_KERNEL_MORPHOLOGY_THEOREM
 
-STATIC_SUCCESSOR=
-ACTIVE_IN_TANDEM
+PRIMARY_MICROSCOPIC_REUSE_TRACK=
 
-PULSED_SUCCESSOR=
-ACTIVE_IN_TANDEM
+AUGMENTED_B7_SCALAR_CHARGE_DRESSING
 
-023C_ROLE=
-VALIDATION_INFRASTRUCTURE_AND_B7_FALLBACK
+INDEPENDENT_SOURCE_CONTROL=
 
-023D=
-PAUSED
+QBALL_QSHELL
 
-ANALOGUE_ANTIGRAVITY=
-DEFERRED_DURING_FIRST_SUCCESSOR_GR_ATTEMPT
+030B_NONLOCAL=
+
+BACKSTOP
 
 PRACTICAL_ANTIGRAVITY_DEVICE=
+
 NO
 
 NEW_PHYSICS_DISCOVERY=
+
 NO
-
-NOVELTY=
-NOT_ESTABLISHED
 ```
 
 ---
 
-# 62. Current decision tree
+# 76. Highest-information immediate next action
 
 ```text
-START
-|
-v
-024A ANALYTIC SUCCESSOR PREFLIGHT
-CAN A HEALTHY GENERALIZED TOPOLOGICAL FIELD
-ACCESS THE TEACHER STRESS REGIME?
-|
-+-- NO
-|    |
-|    v
-|  RECORD FALSIFIER
-|  TEST ONLY THE NEXT WELL-MOTIVATED
-|  CONSTITUTIVE SUCCESSOR CLASS
-|    |
-|    +-- FIRST FEW CLASSES ALSO RED
-|         |
-|         v
-|       RETURN TO B7 023C COMPLETION
-|       AND GLOBAL RERANK
-|
-+-- YES
-     |
-     v
-   024B REDUCED FIELD SCOUT
-   DOES AN ACTUAL FIELD IMPROVE FINITE-PAYLOAD
-   RESPONSE PER TOTAL ENERGY?
-     |
-     +-- NO OR <MEANINGFUL_GAIN
-     |    |
-     |    v
-     |  ANALYZE STRUCTURAL OVERHEAD
-     |  ONE PHYSICALLY MOTIVATED REDESIGN MAX
-     |  THEN STOP OR RERANK
-     |
-     +-- YES
-          |
-          +----------------------------+
-          |                            |
-          v                            v
-       STATIC TRACK                 PULSE TRACK
-          |                            |
-          v                            v
-       024C                         TIME-DEPENDENT
-       UNRESTRICTED FIELD           FORMATION-COLLAPSE
-          |                            |
-          v                            v
-       STATIONARITY                 FULL-CYCLE DELTA-V
-       FORCE                        ENERGY/MOMENTUM
-       TOPOLOGY                     RESET
-          |                            |
-          +-------------+--------------+
-                        |
-                        v
-                 BEST SURVIVING
-                 SUCCESSOR FIELD
-                        |
-                        v
-              023C-EQUIVALENT GATES
-                        |
-                        v
-               FULL STABILITY OR
-               REPEATABLE PULSE
-                        |
-                        v
-                    023D
-              NONLINEAR EINSTEIN
-                    MATTER
-                        |
-                        v
-              PRACTICAL SCALING
-                        |
-              +---------+---------+
-              |                   |
-              v                   v
-         CONTINUE PURE GR    ANALOGUE ANTIGRAVITY
-```
-
----
-
-# 63. Global reranking rule
-
-Whenever a major branch fails, compare surviving branches using:
-
-```text
-THEORY_CONFIDENCE
-
-VERIFIED_POSITIVE_ANCHORS
-
-NUMBER_OF_NEW_ASSUMPTIONS
-
-MICROSCOPIC_REALIZATION
-
-STATIC_OR_TRANSIENT_VIABILITY
-
-STABILITY_OR_NATURALNESS
-
-FINITE_PAYLOAD_STATUS
-
-CONTINUUM_STATUS
-
-NONLINEAR_OR_EMPIRICAL_RISK
-
-ABSOLUTE_ENERGY_SCALING
-
-CONTROL_AND_RESET_BURDEN
-
-NEXT_CALCULATION_COST
-
-NEXT_CALCULATION_FALSIFICATION_POWER
-
-ABILITY_TO_REUSE_VALIDATED_INFRASTRUCTURE
-
-ABILITY_TO_REACH_EXPERIMENT
-```
-
-Do not automatically choose the most exotic mechanism.
-
-Do not automatically remain with the branch that has received the most work.
-
----
-
-# 64. Highest-information immediate next action
-
-```text
-ACTIVE_FRONTIER=
-TEACHER_GUIDED_SUCCESSOR_FIELD_DESIGN
-
-ACTIVE_PHASE=
-024A_GENERALIZED_TOPOLOGICAL_STRESS_CONSTITUTIVE_PREFLIGHT
-
 ACTIVE_TASK=
-DEFINE_THE_MINIMAL_L2_L4_L6_PLUS_V_SUCCESSOR_AND_DERIVE_ITS_EXACT
-STRESS_ENERGY_HAMILTONIAN_ENERGY_CONDITIONS_DERRICK_VIRIAL_TOPOLOGY_AND
-TIME_DEPENDENT_WELL_POSEDNESS_BEFORE_ANY_LARGE_NUMERICAL_FIELD_SOLVE
 
-PRIMARY_SCIENTIFIC_QUESTION=
-CAN_A_MINIMAL_HEALTHY_TOPOLOGICAL_FIELD_GENERATE_THE_TEACHER_REQUIRED
-HIGH_S_OVER_RHO_NEAR_DEC_ANISOTROPIC_STRESS_WHILE_PRESERVING_POSITIVE
-ENERGY_TOPOLOGY_CONSERVATION_AND_A_ROUTE_TO_COMPACT_PAYLOAD_ADJACENT
-LOCALIZATION
+031A
+DERIVE THE EXACT POSITIVE-ENERGY CANONICAL SCALAR CHARGE / METRIC FORCE
+NORMALIZATION AND DETERMINE THE MINIMUM TOTAL ENERGY OF A FINITE SOURCE
+PRODUCING TRUE-STANDOFF OUTWARD ACCELERATION OF A FINITE NEUTRAL PAYLOAD
 
-PRIMARY_CONSTITUTIVE_OBSERVABLE=
-ACCESSIBLE_S_OVER_RHO_AND_PRINCIPAL_STRESS_REGION
+WHILE INCLUDING:
 
-PRIMARY_EVENTUAL_STATIC_OBSERVABLE=
-FINITE_PAYLOAD_OUTWARD_ACCELERATION_PER_TOTAL_FIELD_ENERGY
+SCALAR SELF ENERGY
 
-PRIMARY_EVENTUAL_PULSE_OBSERVABLE=
-FULL_CYCLE_FINITE_PAYLOAD_OUTWARD_IMPULSE_PER_TOTAL_CYCLE_ENERGY
+SOURCE CORE ENERGY
 
-TEACHER_TARGET=
-FORCE_WEIGHTED_S_OVER_RHO_APPROX_2P65
-WITH_NEAR_DEC_STRESS_AND_LOW_CANCELLATION
+ORDINARY GR ATTRACTION
 
-CHEAPEST_DECISIVE_TEST=
-ANALYTIC_TMUNU_HAMILTONIAN_DEC_DERRICK_VIRIAL_AND_DYNAMIC_WELL_POSEDNESS
+FINITE PAYLOAD
 
-PROMOTION_CONDITION=
-TEACHER_STRESS_RANGE_ACCESSIBLE_WITH_NO_IMMEDIATE_FATAL_THEORETICAL_FALSIFIER
+MEDIATOR RANGE
 
-FALSIFIER=
-NEGATIVE_ENERGY_REQUIREMENT
-OR_STRUCTURAL_DEC_FAILURE
-OR_UNBOUNDED_HAMILTONIAN
-OR_GHOST
-OR_FATAL_GRADIENT_INSTABILITY
-OR_TOPOLOGICAL_INCOMPATIBILITY
-OR_DERRICK_NO_GO
+SOURCE SIZE
 
-STOP_RULE=
-NO_LARGE_PARAMETER_SCAN
-NO_UNRESTRICTED_3D_PDE
-BEFORE_024A_CLOSES
+FRONT / REAR MORPHOLOGY
 
-INTROSPECTIVE=
-CLOSED
-
-ABSTRACT_SOURCE_OPTIMIZATION=
-STOP
-
-023C=
-SUPPORTING_VALIDATION_INFRASTRUCTURE
-
-N73=
-NOT_CURRENT_PRIORITY
-
-023D=
-PAUSED_PENDING_BEST_SUCCESSOR
-
-ANALOGUE_ANTIGRAVITY=
-DEFERRED_DURING_FIRST_FOCUSED_SUCCESSOR_GR_ATTEMPT
-
-CURRENT_HEURISTIC=
-APPROXIMATELY_70_TO_71_PERCENT_NOT_A_PROBABILITY
-
-PRACTICAL_ANTIGRAVITY=
-NO
-
-NEW_PHYSICS_DISCOVERY=
-NO
+OPTIONAL NET-NEUTRAL CHARGE SEGREGATION
 ```
 
----
+Primary question:
 
-# 65. Final strategic principle
+> **Is the preliminary scalar-charge energy advantage real after exact normalization and complete finite-source accounting?**
 
-The project should now operate under:
-
-> **Use the efficient teacher to design a physical successor, not to keep optimizing an abstract source.**
-
-The shortest high-information path is:
+Primary observable:
 
 ```text
-1.
-KEEP_006D_AS_THE_CONSERVATIVE_GR_ANCHOR
-
-2.
-KEEP_018B_AS_A_FIELD_EXISTENCE_RESULT
-AND_018C_AS_ITS_STABILITY_FALSIFICATION
-
-3.
-KEEP_019_TO_022_PARTIAL_RESULTS
-BUT_KEEP_THE_TESTED_PRACTICAL_VECTOR_ROUTE_CLOSED
-
-4.
-KEEP_023BR_AND_023CR4R_AS_THE_STRONGEST_TOPOLOGICAL_FIELD_WITNESS
-
-5.
-PRESERVE_THE_FAILED_N73_HESSIAN_AND_NONLINEAR_GATES_AS_UNRESOLVED
-
-6.
-CLOSE_INTROSPECTIVE_AS_MECHANISM_DISCOVERY
-
-7.
-PRESERVE_THE_ROBUST_12P8_TO_17P9X_CONSTRUCTIVE_HEADROOM
-
-8.
-PRESERVE_THE_RAW_17230X_TEACHER_AS_UNCERTIFIED_DESIGN_EVIDENCE
-
-9.
-USE_THE_TEACHER_ANATOMY:
-COMPACT
-PAYLOAD_ADJACENT
-LOW_CANCELLATION
-HIGH_STRESS
-NEAR_DEC
-POSITIVE_ACTIVE_SOURCE_DOMINATED
-
-10.
-USE_THE_STANDARD_SKYRME_S_OVER_RHO_LE_2_RESULT
-AS_A_CONSTITUTIVE_FALSIFIER_OF_SIMPLE_COEFFICIENT_POLISHING
-
-11.
-TEST_THE_MINIMAL_L2_L4_L6_PLUS_V_SUCCESSOR_ANALYTICALLY_FIRST
-
-12.
-IF_GREEN:
-BUILD_THE_CHEAPEST_REAL_FIELD_SCOUT
-
-13.
-PURSUE_STATIC_AND_PULSED_REALIZATIONS_IN_TANDEM
-
-14.
-IF_A_SUCCESSOR_SURVIVES:
-APPLY_023C_EQUIVALENT_VALIDATION
-
-15.
-RUN_023D_ONLY_ON_THE_BEST_SURVIVING_FIELD
-
-16.
-IF_SUCCESSOR_CLASSES_FAIL:
-RETURN_TO_B7_023C_AND_GLOBAL_RERANK
-
-17.
-IF_PURE_GR_REMAINS_OVERWHELMINGLY_IMPRACTICAL:
-HAND_THE_DISTILLED_MECHANISM_TO_ANALOGUE_ANTIGRAVITY
-
-18.
-IF_ANY_FUNDAMENTAL_GATE_FAILS:
-PRESERVE_THE_NEGATIVE_RESULT
-AND_MOVE_ON
+E_MINIMUM_1G_1M
 ```
 
-The immediate target is no longer another favorable source optimization.
-
-The immediate target is to answer quantitatively and falsifiably:
-
-> **Can an actual healthy topological field generate the compact, high-leverage, near-DEC stress anatomy that the completed Introspective program has shown to be efficient?**
-
-That answer determines whether the next major step is:
+Secondary observables:
 
 ```text
-A_VASTLY_MORE_EFFICIENT_TRUE_GR_FIELD
+REQUIRED_SOURCE_CHARGE_PER_JOULE
 
-A_REPEATABLE_PULSED_TRUE_GR_FIELD
+BEST_MEDIATOR_RANGE
 
-THE_EXISTING_B7_FIELD_THROUGH_023C_AND_023D
+BEST_FRONT_REAR_GEOMETRY
+
+F90
+
+PRODUCTIVE_PARTICIPATION
+
+CANCELLATION
+
+FAR_FIELD_LEAKAGE
+```
+
+Cheapest decisive test:
+
+```text
+ANALYTIC BOUND + INDEPENDENT GREEN-FUNCTION NUMERICAL RECONSTRUCTION
+```
+
+Promotion:
+
+```text
+SUB-TJ OR CLEARLY SUB-1E13-J ORACLE SOURCE WINDOW
+
+PLUS
+
+FINITE REALIZABLE CHARGE-SENSITIVITY TARGET
+
+PLUS
+
+NO IMMEDIATE THEORETICAL FALSIFIER
+```
+
+Falsifier:
+
+```text
+COMPLETE POSITIVE FIELD ENERGY RETURNS THE OLD 1_OVER_G PRACTICALITY GAP
 
 OR
 
-THE_DISTILLED_ANALOGUE_ANTIGRAVITY_PROGRAM
+FINITE SOURCE / FINITE PAYLOAD REMOVES THE ADVANTAGE
+
+OR
+
+SOURCE GR ATTRACTION CANNOT BE OVERCOME HEALTHILY
 ```
 
-and is therefore the highest-information next step in the project.
+Stop rule:
+
+```text
+NO 031B FIELD PDE UNTIL 031A IS GREEN
+```
+
+---
+
+# 77. Final strategic principle
+
+The project should now operate under:
+
+> **Do not throw away the mechanism knowledge we earned; change the degree of freedom that carries the useful source.**
+
+The old GR field taught us **where** useful gravitational structure belongs.
+
+Introspective taught us **how little of the total energy is actually doing useful work**.
+
+024E taught us that **productive participation is independent of sign, kernel placement, and cancellation**.
+
+026P taught us that **geometry alone cannot fix the microscopic source; the source state itself must change**.
+
+027D taught us that **separate support transport can destroy the benefit**.
+
+028 taught us not to obtain gain by collapsing the Planck scale or a kinetic eigenvalue.
+
+029 taught us that changing propagator spin can destroy the repulsive source sign.
+
+030 taught us that pulsing ordinary GR does not eliminate the gravitational energy scale.
+
+Therefore the new shortest path is:
+
+```text
+1.
+PRESERVE 006D AS THE TRUE-STANDOFF GR ANCHOR
+
+2.
+PRESERVE B7 AS THE STRONGEST MICROSCOPIC FIELD
+
+3.
+PRESERVE 026C AS THE REQUIRED B7 CREDIBILITY BRANCH
+
+4.
+PRESERVE INTROSPECTIVE AS MORPHOLOGY / PARTICIPATION KNOWLEDGE
+
+5.
+DO NOT COPY THE TEACHER SOURCE DIRECTLY
+
+6.
+DERIVE A NEW METRIC SCALAR-CHARGE ENERGY BOUND
+
+7.
+IF GREEN:
+TEST MINIMAL SCALAR-CHARGE DRESSING OF THE EXISTING B7 FIELD
+
+8.
+IN PARALLEL:
+TEST AN INDEPENDENT U(1)-STABILIZED SOLITON SOURCE
+
+9.
+USE THE INTROSPECTIVE GEOMETRY TO CONCENTRATE LARGE CHARGE PER JOULE
+IN THE ACTUAL HIGH-LEVERAGE SCALAR KERNEL
+
+10.
+PLACE STABILITY / COMPENSATING STRUCTURE IN LOW-LEVERAGE REGIONS
+
+11.
+TEST A NEAR-NEUTRAL FRONT/REAR CHARGE LENS TO REDUCE FAR-FIELD LEAKAGE
+
+12.
+DERIVE THE ON/OFF OR RANGE-CONTROL PHYSICS RATHER THAN PRESCRIBING IT
+
+13.
+REQUIRE ONE UNIVERSAL PHYSICAL METRIC FOR ORDINARY PAYLOAD MATTER
+
+14.
+INCLUDE SOURCE, HALO, GATE, WALL, SUPPORT, AND BACKREACTION ENERGY
+
+15.
+PROMOTE ONLY A REAL MICROSCOPIC FIELD
+
+16.
+RUN NONLINEAR EINSTEIN-SCALAR CONTINUATION ONLY AFTER THE FLAT/WEAK
+FIELD ENERGY WINDOW IS REAL
+
+17.
+IF 031A FAILS:
+DO NOT FORCE THE MODEL
+MOVE TO THE CHEAP 030B NONLOCAL SPECTRAL THEOREM AND RERANK
+
+18.
+PRESERVE EVERY FALSIFICATION
+```
+
+The new frontier is therefore not:
+
+> “Can we make the old B7 stress tensor a little better?”
+
+It is:
+
+> **Can we use the geometry, anisotropy, source-kernel correlation, productive-participation lessons, and validated microscopic field infrastructure already discovered by this project to engineer a stable positive-energy source with an enormous opposite-sign gravitational scalar charge per joule, producing true finite-payload metric repulsion without paying the direct \(a c^2h^2/G\) stress-energy cost?**
+
+That is the highest-information current path toward practical true antigravity.

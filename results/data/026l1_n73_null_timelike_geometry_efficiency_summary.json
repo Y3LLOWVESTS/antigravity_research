@@ -1,0 +1,70 @@
+{
+  "branch": "TRUE_ANTIGRAVITY",
+  "claims": {
+    "energy_scaling_improved": false,
+    "integrated_photon_deflection_angle": false,
+    "nonlinear_gr": false,
+    "practical_antigravity_device": false,
+    "stability": false
+  },
+  "field": {
+    "B": 7,
+    "N": 73,
+    "eta": 0.4,
+    "m": 8.0
+  },
+  "identities": {
+    "active_source_stress_maxrel": 6.76907767745997e-16,
+    "all_null_directions_nonnegative": true,
+    "laue_stress_over_energy": 0.021172298049159488,
+    "min_null_source_scaled": 2.614189606956424e-12
+  },
+  "lineage": {
+    "n73_green": true
+  },
+  "null_probe": {
+    "all_inward": true,
+    "all_outward": false,
+    "directions": 24,
+    "radial_driver_max": -168.97538635155115,
+    "radial_driver_mean": -169.25921518383532,
+    "radial_driver_min": -169.5430440161196,
+    "timelike_null_sign_split": "PRESENT_SLOW_OUTWARD_NULL_INWARD"
+  },
+  "practicality_clue": "CONSTITUTIVE_STRESS_AND_GEOMETRY_BOTH_REMAIN_PLAUSIBLE_IMPROVEMENT_AXES",
+  "productive_anatomy": {
+    "classification": "SUBSTANTIAL_LOCAL_DEC_STRESS_HEADROOM_REMAINS",
+    "dec_trace_leverage_p10_p50_p90": [
+      0.0,
+      0.0,
+      0.7606685353477547
+    ],
+    "gross_outward_from_negative_active_fraction": 0.1811980708006787,
+    "gross_outward_near_nec_fraction": 0.10027582369670317,
+    "min_null_over_rho_p10_p50_p90": [
+      0.0930369099989536,
+      0.9466165178682646,
+      1.0148750560878241
+    ],
+    "negative_active_energy_fraction": 0.05224328358090905,
+    "point_force_f90_energy_fraction": 0.14348072171942564,
+    "s_over_rho_p10_p50_p90": [
+      -1.5213370708499425,
+      1.2428401008255245,
+      1.427747284027824
+    ],
+    "transverse_pair_over_rho_p10_p50_p90": [
+      -1.6232515009102142,
+      0.28556859110900457,
+      0.43485512908200624
+    ]
+  },
+  "simulation": "026L1",
+  "slow_matter": {
+    "cancellation_factor": 15104.483876637236,
+    "gross_inward": -1000.6202643910582,
+    "gross_outward": 1000.7527663055256,
+    "point_radial_driver": 0.13250191446741155,
+    "sign": "OUTWARD"
+  }
+}

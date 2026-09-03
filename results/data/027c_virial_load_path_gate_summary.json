@@ -1,0 +1,378 @@
+{
+  "branch": "TRUE_ANTIGRAVITY",
+  "claims": {
+    "full_stability": false,
+    "microscopic_field_realization": false,
+    "nonlinear_GR": false,
+    "pointwise_local_Tmunu_conservation": false,
+    "practical_antigravity_device": false,
+    "radiation_lifetime_closed": false,
+    "reaction_momentum_closed": false,
+    "removes_1_over_G_scaling": false
+  },
+  "controls": {
+    "N_tail": 2,
+    "direct_path_normalization": "E_path = g_path D_H L/R; g_path=1 is direct axial DEC load-member benchmark",
+    "genuine_transfer_min_delta_f": 0.25,
+    "payload_mu_samples_per_radius": 17,
+    "payload_radii_h": [
+      0.25,
+      0.5
+    ],
+    "q_link": 2.0,
+    "q_path": 2.0
+  },
+  "decision": "YELLOW_ZERO_COST_EXPORT_SURVIVES_BUT_DIRECT_LOAD_PATH_FAILS",
+  "lineage": {
+    "027b_saved_decision_known_to_include_zero_transfer_gate_bug": "EXCEPTIONAL_SOURCE_GREEN_AUTHORIZE_027C_AND_PARALLEL_028A",
+    "B7_negative_active_fraction": 0.051465043743791114,
+    "C_006D": 23.591586299249,
+    "C_024D": 6.610457607426174,
+    "closest_independent_center_reconstruction_relerr": 0.001015902353473758,
+    "corrected_027b_genuine_center_reference_C": 3.08075881130598
+  },
+  "mandatory_parallel_credibility_branch": "026C_N89_FORCE_CONVERGENCE",
+  "next": "DERIVE_EXPLICIT_DISTRIBUTED_STRESS_GEOMETRY_BEATING_REQUIRED_G_PATH_BEFORE_PDE",
+  "overall_practical_antigravity_80_heuristic_authorized": false,
+  "question": "Does genuine 027B field-state shuttling survive subvolume virial closure and DEC-limited stress transport at true stand-off for a finite payload?",
+  "robust": {
+    "direct_g1_both_seeds": false,
+    "direct_g1_worst_C_payload": null,
+    "g_path_max_beating_006D_both_seeds": 0.04560965387393934,
+    "g_path_max_beating_024D_both_seeds": null
+  },
+  "seeds": [
+    {
+      "best_center_global_control": 3.0752050397927677,
+      "best_center_global_control_meta": {
+        "C_center_global_control": 3.0752050397927677,
+        "D0": 1.9891450349054072,
+        "D_high": 2.50644818870879,
+        "E_high": 0.9761685118359379,
+        "E_link": 0.4853302218311214,
+        "K_ratio": 9.90047223928863,
+        "S_high": -1.5302796768728524,
+        "chi": 0.1343755027701059,
+        "clearance": 1.09085813164711e-05,
+        "d_comp": 5.215465058428588,
+        "d_high": 1.235964717231691,
+        "d_low": 3.888964944696289,
+        "delta_f": 0.25,
+        "f_hi": 1.0,
+        "f_lo": 0.75,
+        "negative_duty": 0.9014074266803556,
+        "pot_a": 0.9884588225092739,
+        "pot_b": 1.1226674255818845,
+        "potential": "027A_rank1",
+        "qbar": -1.4744752567365287,
+        "qcut": 0.125,
+        "qmask": -1.697692937281824,
+        "radius": 0.2359538086503744,
+        "route_duty": 0.9046740473437516,
+        "seed": 2703,
+        "separation": 2.653000227464598
+      },
+      "best_dense_direct_g1": null,
+      "best_dense_global_control": {
+        "A_payload_min": 0.3052458848420845,
+        "C_payload": 7.177162220399505,
+        "E_comp": 0.6418380120577512,
+        "E_extra": 0.0,
+        "E_link": 0.5489612205632752,
+        "E_total": 2.1907992326210266,
+        "extra_fraction": 0.0,
+        "g_path": 0.0,
+        "link_fraction": 0.2505757772730774,
+        "meta": {
+          "C_center_global_control": 3.1042086011930077,
+          "D0": 1.9255140361732535,
+          "D_high": 2.50644818870879,
+          "E_high": 0.9761685118359379,
+          "E_link": 0.5489612205632752,
+          "K_ratio": 11.884965898178141,
+          "S_high": -1.5302796768728524,
+          "chi": 0.1343755027701059,
+          "clearance": 0.0033477754332125187,
+          "d_comp": 5.8037030444492315,
+          "d_high": 1.2424472089949996,
+          "d_low": 4.283284432631154,
+          "delta_f": 0.25,
+          "f_hi": 1.0,
+          "f_lo": 0.75,
+          "negative_duty": 0.9014074266803556,
+          "pot_a": 0.9884588225092739,
+          "pot_b": 1.1226674255818845,
+          "potential": "027A_rank1",
+          "qbar": -1.4744752567365287,
+          "qcut": 0.125,
+          "qmask": -1.697692937281824,
+          "radius": 0.239099433561787,
+          "route_duty": 0.9046740473437516,
+          "seed": 2703,
+          "separation": 3.0408372236361543
+        },
+        "mode": "GLOBAL_CONTROL",
+        "negative_active_participation": 0.41145140698352833,
+        "payload_min_location": "R0.50_MU+1.0000"
+      },
+      "best_dense_local_front_closure": null,
+      "seed": 2703,
+      "sobol_points": 16384,
+      "thresholds": {
+        "23.591586299249": {
+          "audit": {
+            "A_payload_min": 0.09705633922784743,
+            "C_payload": 23.591586299248963,
+            "E_comp": 0.5923811269767919,
+            "E_extra": 0.5060469451575365,
+            "E_link": 0.19128493064861665,
+            "E_total": 2.289713002782945,
+            "extra_fraction": 0.22100889698511597,
+            "g_path": 0.04560965387393934,
+            "link_fraction": 0.0835410072861213,
+            "meta": {
+              "C_center_global_control": 4.097377428663376,
+              "D0": 2.283190326087912,
+              "D_high": 2.5036886115536134,
+              "E_high": 0.9735831589310002,
+              "E_link": 0.19128493064861665,
+              "K_ratio": 4.963748966716661,
+              "S_high": -1.5301054526226132,
+              "chi": 0.1343755027701059,
+              "clearance": 0.031573256477713585,
+              "d_comp": 4.055363577175722,
+              "d_high": 1.4269797601457685,
+              "d_low": 3.1792356381657374,
+              "delta_f": 0.25,
+              "f_hi": 1.0,
+              "f_lo": 0.75,
+              "negative_duty": 0.9014074266803556,
+              "pot_a": 0.9884588225092739,
+              "pot_b": 1.1226674255818845,
+              "potential": "027A_rank1",
+              "qbar": -1.4744752567365287,
+              "qcut": -0.25,
+              "qmask": -1.6969960402808668,
+              "radius": 0.39540650366805496,
+              "route_duty": 0.8943326357240009,
+              "seed": 2703,
+              "separation": 1.7522558780199686
+            },
+            "mode": "REMOTE_PATH",
+            "negative_active_participation": 0.39367703532485254,
+            "payload_min_location": "R0.50_MU+1.0000"
+          },
+          "g_path_max": 0.04560965387393934
+        },
+        "6.610457607426174": {
+          "audit": null,
+          "g_path_max": null
+        }
+      },
+      "wildcards": [
+        {
+          "C_payload": null,
+          "g_path": 0.625,
+          "seed": 2703,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        },
+        {
+          "C_payload": null,
+          "g_path": 1.6,
+          "seed": 2703,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        },
+        {
+          "C_payload": null,
+          "g_path": 1.875,
+          "seed": 2703,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        },
+        {
+          "C_payload": null,
+          "g_path": 3.125,
+          "seed": 2703,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        },
+        {
+          "C_payload": null,
+          "g_path": 5.0,
+          "seed": 2703,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        }
+      ]
+    },
+    {
+      "best_center_global_control": 3.083888561432871,
+      "best_center_global_control_meta": {
+        "C_center_global_control": 3.083888561432871,
+        "D0": 1.955185143510766,
+        "D_high": 2.50644818870879,
+        "E_high": 0.9761685118359379,
+        "E_link": 0.5192901132257625,
+        "K_ratio": 9.416663018213534,
+        "S_high": -1.5302796768728524,
+        "chi": 0.1343755027701059,
+        "clearance": 0.0021053235977888107,
+        "d_comp": 4.965439702285879,
+        "d_high": 1.2102010992821306,
+        "d_low": 3.7136935012846295,
+        "delta_f": 0.25,
+        "f_hi": 1.0,
+        "f_lo": 0.75,
+        "negative_duty": 0.9014074266803556,
+        "pot_a": 0.9884588225092739,
+        "pot_b": 1.1226674255818845,
+        "potential": "027A_rank1",
+        "qbar": -1.4744752567365287,
+        "qcut": 0.125,
+        "qmask": -1.697692937281824,
+        "radius": 0.2080957756843418,
+        "route_duty": 0.9046740473437516,
+        "seed": 2704,
+        "separation": 2.503492402002499
+      },
+      "best_dense_direct_g1": null,
+      "best_dense_global_control": {
+        "A_payload_min": 0.2864172973916228,
+        "C_payload": 7.411893859177315,
+        "E_comp": 0.6757903245186984,
+        "E_extra": 0.0,
+        "E_link": 0.44710428318043344,
+        "E_total": 2.122894607699132,
+        "extra_fraction": 0.0,
+        "g_path": 0.0,
+        "link_fraction": 0.21061068296038532,
+        "meta": {
+          "C_center_global_control": 3.0906318263997425,
+          "D0": 2.027370973556095,
+          "D_high": 2.50644818870879,
+          "E_high": 0.9761685118359379,
+          "E_link": 0.44710428318043344,
+          "K_ratio": 8.687986407916982,
+          "S_high": -1.5302796768728524,
+          "chi": 0.1343755027701059,
+          "clearance": 0.0013766419142484665,
+          "d_comp": 4.835965790472221,
+          "d_high": 1.2332530612125994,
+          "d_low": 3.63506154738568,
+          "delta_f": 0.25,
+          "f_hi": 1.0,
+          "f_lo": 0.75,
+          "negative_duty": 0.9014074266803556,
+          "pot_a": 0.9884588225092739,
+          "pot_b": 1.1226674255818845,
+          "potential": "027A_rank1",
+          "qbar": -1.4744752567365287,
+          "qcut": 0.125,
+          "qmask": -1.697692937281824,
+          "radius": 0.23187641929835082,
+          "route_duty": 0.9046740473437516,
+          "seed": 2704,
+          "separation": 2.401808486173081
+        },
+        "mode": "GLOBAL_CONTROL",
+        "negative_active_participation": 0.4246124246635742,
+        "payload_min_location": "R0.50_MU+1.0000"
+      },
+      "best_dense_local_front_closure": null,
+      "seed": 2704,
+      "sobol_points": 16384,
+      "thresholds": {
+        "23.591586299249": {
+          "audit": {
+            "A_payload_min": 0.09772646325079244,
+            "C_payload": 23.59158629924895,
+            "E_comp": 0.5844764826175389,
+            "E_extra": 0.5265594783346671,
+            "E_link": 0.19448633054924472,
+            "E_total": 2.305522291501451,
+            "extra_fraction": 0.2283905387840557,
+            "g_path": 0.046677230384079046,
+            "link_fraction": 0.0843567339453427,
+            "meta": {
+              "C_center_global_control": 3.98691104202654,
+              "D0": 2.279988926187284,
+              "D_high": 2.5036886115536134,
+              "E_high": 0.9735831589310002,
+              "E_link": 0.19448633054924472,
+              "K_ratio": 5.087467642452751,
+              "S_high": -1.5301054526226132,
+              "chi": 0.1343755027701059,
+              "clearance": 0.02044605277478695,
+              "d_comp": 4.07886716653347,
+              "d_high": 1.4146463255491106,
+              "d_low": 3.190793552872017,
+              "delta_f": 0.25,
+              "f_hi": 1.0,
+              "f_lo": 0.75,
+              "negative_duty": 0.9014074266803556,
+              "pot_a": 0.9884588225092739,
+              "pot_b": 1.1226674255818845,
+              "potential": "027A_rank1",
+              "qbar": -1.4744752567365287,
+              "qcut": -0.25,
+              "qmask": -1.6969960402808668,
+              "radius": 0.3942002727743238,
+              "route_duty": 0.8943326357240009,
+              "seed": 2704,
+              "separation": 1.7761472273229062
+            },
+            "mode": "REMOTE_PATH",
+            "negative_active_participation": 0.39097753684841713,
+            "payload_min_location": "R0.50_MU+1.0000"
+          },
+          "g_path_max": 0.046677230384079046
+        },
+        "6.610457607426174": {
+          "audit": null,
+          "g_path_max": null
+        }
+      },
+      "wildcards": [
+        {
+          "C_payload": null,
+          "g_path": 0.625,
+          "seed": 2704,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        },
+        {
+          "C_payload": null,
+          "g_path": 1.6,
+          "seed": 2704,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        },
+        {
+          "C_payload": null,
+          "g_path": 1.875,
+          "seed": 2704,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        },
+        {
+          "C_payload": null,
+          "g_path": 3.125,
+          "seed": 2704,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        },
+        {
+          "C_payload": null,
+          "g_path": 5.0,
+          "seed": 2704,
+          "selection_role": "BLIND_NON_EVIDENTIARY_EXCLUDED",
+          "status": "NO_STRICT_SURVIVOR"
+        }
+      ]
+    }
+  ],
+  "simulation": "027C",
+  "source_engine_80_heuristic_authorized": false
+}

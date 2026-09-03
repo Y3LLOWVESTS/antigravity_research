@@ -1,0 +1,88 @@
+{
+  "B7_N81_validation": null,
+  "B7_fields": {
+    "N73": {
+      "active_reconstruction_relerr": 3.691487127237025e-16,
+      "dx": 0.08905654211776426,
+      "energy": 1782.457314172114,
+      "energy_centroid": [
+        2.3649935126759696e-10,
+        2.4821716522453433e-10,
+        2.473255841475369e-10
+      ],
+      "grad_max": 0.010937380123281486,
+      "grad_rms": 0.0012419982914933384,
+      "n": 73,
+      "negative_fp_energy_fraction": 0.01090447881578948,
+      "negative_gr_energy_fraction": 0.05224328358090905,
+      "phi_norm_maxerr": 2.220446049250313e-16,
+      "sfp_identity_maxerr": 4.547473508864641e-13,
+      "sfp_total": 3630.279080356207,
+      "sgr_total": 1847.8217661840933,
+      "stored_active_total": 1847.8217661840927,
+      "support_radius": 1.9531624515301693,
+      "virial_fp_ratio": 2.0366709774715352,
+      "virial_gr_ratio": 1.0366709774715357,
+      "virial_green": false
+    },
+    "N81": {
+      "active_reconstruction_relerr": 1.2371112827126192e-16,
+      "dx": 0.08015088790598801,
+      "energy": 1783.8918769950303,
+      "energy_centroid": [
+        4.474428151139587e-10,
+        4.65701496543246e-10,
+        4.859782359252975e-10
+      ],
+      "grad_max": 0.011151066181988115,
+      "grad_rms": 0.0009287074718385812,
+      "n": 81,
+      "negative_fp_energy_fraction": 0.009538584193689475,
+      "negative_gr_energy_fraction": 0.052388231635967,
+      "phi_norm_maxerr": 2.220446049250313e-16,
+      "sfp_identity_maxerr": 4.547473508864641e-13,
+      "sfp_total": 3621.8322354781317,
+      "sgr_total": 1837.9403584831014,
+      "stored_active_total": 1837.9403584831011,
+      "support_radius": 1.9534466742644296,
+      "virial_fp_ratio": 2.03029807029511,
+      "virial_gr_ratio": 1.03029807029511,
+      "virial_green": false
+    }
+  },
+  "B7_selected_N73": null,
+  "branch": "TRUE_ANTIGRAVITY",
+  "claims": {
+    "N73_N81_FP_standoff_sign_tested": true,
+    "actual_B7_field_used": true,
+    "full_bimetric_field_equations_solved": false,
+    "mass_wall_full_Tmunu_included": false,
+    "nonlinear_portal_stability_proven": false,
+    "practical_antigravity_device": false,
+    "published_fifth_force_curve_fully_applied": false,
+    "relaxed_conserved_DEC_FP_source_tested": true
+  },
+  "decision": "RED_NO_PROMOTION_GRADE_MASS_GATED_SPIN2_ROUTE_IN_029A",
+  "lineage_028C": "DECISIVE_RED_ONSHELL_CUBIC_BRAIDING_CLOSES_028B_SUBSCALE_WINDOW",
+  "mandatory_parallel_credibility_branch": "026C_N89_FORCE_CONVERGENCE",
+  "next": "PRESERVE_006D_AND_CLOSE_CURRENT_SIGN_PLUS_LOCAL_GAIN_PROGRAM",
+  "overall_practical_antigravity_device": false,
+  "overall_practical_antigravity_proven": false,
+  "physics": {
+    "006D_direct_FP_amplification": false,
+    "006D_reason": "p_z=0 plus DEC implies 2rho+p_r+p_phi >= 0",
+    "B7_FP_identity": "S_FP = e2 + 3 e4 - V",
+    "FP_source": "2 rho + trace(T)",
+    "GR_source": "rho + trace(T)",
+    "massive_mode_normalization": "a_FP = (2/3) alpha^2 K[S_FP]"
+  },
+  "portal_scaling": [],
+  "relaxed_FP_DEC_source": {
+    "C_relative_change": null,
+    "coarse_best": null,
+    "converged": false,
+    "refined": null
+  },
+  "route_level_80_heuristic_authorized": false,
+  "simulation": "029A"
+}

@@ -1,0 +1,33 @@
+{
+  "analytic_bound": "E_wall >= 3 c^4 A/(32 pi G ell) (ln Gamma)^2",
+  "best_case": {
+    "B_dimensionless": 21479888138808.02,
+    "C_source": 23.591586299249,
+    "E_baseline_J": 3.1153977479264292e+29,
+    "E_min_J": 3.115397747925574e+29,
+    "Gamma_opt": 1.0000000000005491,
+    "R_over_h": 0.25,
+    "accel_m_s2": 9.80665,
+    "area_model": "OPTIMISTIC_DISK",
+    "ell_over_R": 10.0,
+    "energy_reduction_factor": 1.0000000000002744,
+    "h_m": 1.0,
+    "scenario": "ONE_G_ONE_M",
+    "source": "006D_REFERENCE",
+    "x_opt_ln_Gamma": 5.491552410976664e-13
+  },
+  "best_energy_reduction_factor": 1.0000000000002744,
+  "branch": "TRUE_ANTIGRAVITY_GAIN_ENGINE",
+  "claims": {
+    "closes_all_modified_gravity": false,
+    "closes_positive_kinetic_conformal_F_R_local_gain_under_assumptions": true,
+    "practical_antigravity_device": false,
+    "practical_gain_engine": false
+  },
+  "decision": "RED_CONVENTIONAL_POSITIVE_KINETIC_F_R_LOCAL_GAIN",
+  "next": "DO_NOT_BUILD_F_R_GAIN_PDE; RERANK_HEALTHY_DERIVATIVE_MIXING_CRITICAL_OR_NONCONFORMAL_GAIN_CLASSES",
+  "optimization": "x_opt = LambertW(C/(2B)), x=ln Gamma",
+  "simulation": "028A",
+  "source_scaling": "E_source = C a c^2 h^2/(G Gamma)",
+  "theory_class": "metric scalar-tensor F(chi)R with F>0 and nonnegative Jordan-frame scalar kinetic energy"
+}
