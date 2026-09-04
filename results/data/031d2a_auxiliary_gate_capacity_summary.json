@@ -1,0 +1,70 @@
+{
+  "best": {
+    "candidate_pass": true,
+    "g_s": 3.5449077018110318,
+    "gate_energy_fraction": 1.2980739903937268e-33,
+    "gate_gradient_floor_J": 6.440262514393998e-23,
+    "gate_radius_m": 1.6980500914943577,
+    "gate_total_positive_floor_J": 1.5778554974650104e-22,
+    "gate_volume_energy_J": 9.338292460256107e-23,
+    "lambda_on_max": 2.8932651195823387e+33,
+    "lambda_s": 4.7844069220575225,
+    "lambda_width_min": 4.556578021007164,
+    "m_s_out_eV": 2.0219998529542747e-06,
+    "naive_naturalness_cutoff_eV": 7.167802851798382e-06,
+    "naturalness_cutoff_over_mX": 1.198708324780845,
+    "off_phi_mass_eV": 2.3179366180618384e-06,
+    "off_phi_range_m": 0.08513044699427397,
+    "on_curvature_ratio": 7.256736728417148e+32,
+    "phi_boundary_eV": 10865053608.782568,
+    "required_delta_m2_hat": 0.1501650749306419,
+    "source_scale_naturalness_pass": true,
+    "v_s_eV": 6.536602366149351e-07,
+    "wall_cap_m": 0.1,
+    "wall_width_actual_m": 0.09759000729485331
+  },
+  "claim_limits": [
+    "This is only a canonical auxiliary-gate capacity preflight.",
+    "No spatially varying mass is prescribed as final physics; the proposed mass shift comes from the dynamical field s.",
+    "The gate positive-energy ledger is an optimistic lower bound, not a solved wall.",
+    "No negative interaction energy is credited.",
+    "The naturalness cutoff is only a naive one-loop diagnostic.",
+    "The coupled y/u/s equations, wall profile, switching barrier, formation/reset energy and radiation remain unsolved.",
+    "Full physical-metric backreaction and empirical closure remain open.",
+    "No practical device is established."
+  ],
+  "classification": "GREEN_D2A_CANONICAL_RECIPROCAL_AUXILIARY_MASS_GATE_HAS_CAPACITY_NO_OBVIOUS_ENERGY_OR_WIDTH_OBSTRUCTION",
+  "geometry": {
+    "gate_radii_m": [
+      1.6980500914943577,
+      2.0980500914943576,
+      2.5980500914943576,
+      3.0980500914943576
+    ],
+    "payload_center_from_source_m": 1.4980500914943575,
+    "payload_far_surface_from_source_m": 1.5980500914943576
+  },
+  "model": {
+    "gate_potential": "lambda_s/4*(s^2-v_s^2)^2",
+    "interaction": "1/2*g_s^2*s^2*phi^2",
+    "reciprocal": true
+  },
+  "next": "031D2B_SOLVE_FULL_COUPLED_Y_U_S_ON_OFF_BVP_WALL_ENERGY_SWITCHING_AND_RECIPROCITY",
+  "on_profile_phi_boundary_eV": {
+    "1.6980500914943577": 10865053608.782568,
+    "2.0980500914943576": 7789772293.110485,
+    "2.5980500914943576": 5406184975.3318,
+    "3.0980500914943576": 3896258760.096889
+  },
+  "passing_count": 2056,
+  "required_off_stabilization": {
+    "critical_delta_m2_hat": 0.1251375624422016,
+    "m_phi_off_eV": 2.3179366180618384e-06,
+    "m_phi_on_eV": 5.979605466666666e-08,
+    "margin": 1.2,
+    "off_range_m": 0.08513044699427397,
+    "required_delta_m2_hat": 0.1501650749306419,
+    "required_delta_m_eV": 2.3171652071439047e-06
+  },
+  "scan_count": 2160
+}

@@ -1,0 +1,48 @@
+{
+  "auxiliary_gate_required": true,
+  "claim_limits": [
+    "Closure applies to the current nodeless same-Noether-charge u=0 Q-ball ground-state family.",
+    "The high branch is rejected by source stability; the tiny E/(QmX)>1 excess is recorded as an independent energetic diagnostic.",
+    "Auxiliary gate architectures remain open.",
+    "Gate/control stress-energy, reciprocity and switching/reset costs remain unpriced.",
+    "The GREEN scalarized antigravity on-state is not falsified by this off-state result.",
+    "Full metric backreaction, nonlinear stability, EFT/naturalness and empirical closure remain open."
+  ],
+  "classification": "RED_D1HR_GATE_FREE_SAME_Q_OFFSTATE_ROUTE_CLOSED_LOW_BRANCH_SCALAR_TACHYON_HIGH_BRANCH_QBALL_SOURCE_UNSTABLE",
+  "gate_free_same_Q_offstate_route_closed": true,
+  "global_log": "/Users/mymac/Desktop/antigravity_research/results/logs/031d1h_highomega_branch_20260903-231905.log",
+  "global_topology": {
+    "Q_min": 153.6922695454035,
+    "Q_min_omega": 0.972950744764864,
+    "crossing_count": 2,
+    "reversal_count": 1
+  },
+  "global_topology_pass": true,
+  "high_root": {
+    "energetically_unbound": true,
+    "maximum_quadrature_spread": 4.440892098500626e-16,
+    "minimum_E_over_Q_excess": 4.081902233110668e-06,
+    "minimum_local_dQ_domega": 763310636.5042219,
+    "mu_bracket": [
+      0.0028575,
+      0.00287375
+    ],
+    "mu_interpolated": 0.002866151794906431,
+    "omega_bracket": [
+      0.9999958707719435,
+      0.9999959173385409
+    ],
+    "omega_interpolated": 0.9999958925785088,
+    "secant_dQ_domega": 802937596.7019186,
+    "source_slope_unstable": true
+  },
+  "low_branch": {
+    "critical_delta_m2_over_mphi2": 1251.3756244220158,
+    "lambda0": -0.1251375624422016,
+    "omega": 0.49396038994897457,
+    "robust_scalar_tachyon": true,
+    "uncontrolled_e_fold_time_s": 3.1117119772233713e-10
+  },
+  "next": "031D2_MINIMUM_AUXILIARY_GATE_MASS_SHIFT_CONTROL_ENERGY_RECIPROCITY_AND_SWITCHING_COST",
+  "target_I_Q": 6594.219892350219
+}

@@ -1,0 +1,56 @@
+{
+  "best": {
+    "E_over_Qm": 0.43581007030370333,
+    "I_E_activation": 15904.603304434242,
+    "I_Q_activation": 36494.34556055758,
+    "V_eft_eV": 5.213565397836093e-20,
+    "V_reaction_eV": 1.1873404670670295e-09,
+    "V_required_eV": 1.0178360884724218e-07,
+    "V_self_eV": 1.0178360884724218e-07,
+    "activation_charge": 2904.1277454332535,
+    "activation_energy_GJ": 7.316546687925947e-32,
+    "activation_energy_J": 7.316546687925947e-23,
+    "activation_energy_fraction": 6.01919438779827e-34,
+    "bound_pass": true,
+    "candidate_pass": true,
+    "eft_pass": true,
+    "f_leak_10m": 7.91352650075794e-09,
+    "geometry_pass": true,
+    "m_A_eV": 3.6081349892071025e-07,
+    "metric_operator_scale_eV": 83.54953555895523,
+    "mu_mA_over_mX": 0.06034068651051754,
+    "omega_activation": 0.35,
+    "payload_f_min": 1.0,
+    "reaction_pass": true,
+    "reaction_ratio": 1.3608017185651716e-05,
+    "reaction_shape": 1.6514811597010116e-40,
+    "self_coupling_est": 12.566370614359169,
+    "source_A_relerr": 0.0,
+    "source_f_min": 1.0
+  },
+  "claim_limits": [
+    "This is a fixed-field capacity and reaction preflight, not a coupled X/phi/Y solution.",
+    "The activation field has positive canonical Q-ball energy and conserved U(1) charge.",
+    "Switching requires injection/removal of activation charge or an explicit reservoir.",
+    "The reaction bound is deliberately perturbative; a full coupled field may shift the optimum.",
+    "The metric-operator scale is only a dimensional EFT diagnostic, not radiative closure.",
+    "Formation/reset, radiation, full metric backreaction and empirical constraints remain open.",
+    "No practical device is established."
+  ],
+  "classification": "GREEN_D3A_U1_METRIC_ACTIVATION_HAS_LOW_ENERGY_GEOMETRIC_REACTION_CAPACITY",
+  "mechanism": {
+    "activation_field": "independent complex global-U1 Q-ball",
+    "metric": "log A = -0.5 * (1-exp(-a^2/2)) * u^2",
+    "off_state": "Y=0 => f=0 => A=1",
+    "quadratic_phi_Y_mixing_off": false
+  },
+  "next": "031D3B_FULL_FIXED_QX_QY_COUPLED_X_PHI_Y_METRIC_ACTIVATION_SOLVE",
+  "off_state": {
+    "activation_vacuum_stable": true,
+    "scalar_mass2_hat": 0.0001,
+    "scalar_quadratic_stable": true,
+    "source_qball_pass": true
+  },
+  "passing_count": 227,
+  "scan_count": 228
+}

@@ -1,0 +1,26 @@
+=== 031D2C-FV SPARSE FIXED-Q GATE HOMOTOPY ===
+SOLVE_BVP_USED=NO
+ENERGY_MINIMIZER_USED=NO
+FINITE_VOLUME_RADIAL_RESIDUAL=YES
+SPARSE_TRUST_REGION_LEAST_SQUARES=YES
+FIXED_NOETHER_CHARGE=YES
+PRACTICAL_DEVICE=NO
+TARGET_I_Q=6.594219892350219e+03
+A2_GATE=6.003112500000002e-04
+B2_GATE=1.183907900560071e+01
+DELTA2_GATE=1.501650749306419e-01
+RHO_GATE=6.988670618752463e-02
+OFF_SCALAR_LAMBDA0_WITH_GATE=+2.502751248844032e-02
+
+=== STAGE A: BASELINE ON STATE ===
+
+=== STAGE B: FIXED-Q FINITE-VOLUME HOMOTOPY ===
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d2cfv_sparse_fixedq_gate_homotopy.py", line 2461, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d2cfv_sparse_fixedq_gate_homotopy.py", line 1360, in main
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: Finite-volume t=0 solve failed: The maximum number of function evaluations is exceeded.

@@ -1,0 +1,45 @@
+{
+  "EFT": {
+    "V_GeV": 1.458108242865562,
+    "matter_metric_scale_GeV": 40011.15711911719,
+    "source_activation_scale_GeV": 10.0
+  },
+  "claim_limits": [
+    "This is a normalization/provenance repair, not the full coupled D3 solution.",
+    "The D3A-R source-reaction and 10-GeV source operator tests remain applicable.",
+    "Ordinary-matter reaction must use M_m rather than M_c.",
+    "Switching requires activation-charge transport or a reservoir and remains unclosed.",
+    "Full coupled stability, metric backreaction, radiative naturalness and empirical closure remain mandatory."
+  ],
+  "classification": "GREEN_D3AR2_CORRECT_SOURCE_AND_PHYSICAL_METRIC_NORMALIZATION_PASS",
+  "couplings": {
+    "ordinary_matter": "A_m=exp[+f(a)phi^2/(2 M_m^2)]",
+    "source": "A_X=exp[-f(a)u^2/2]"
+  },
+  "energy": {
+    "activation_GJ": 6.228597773925715,
+    "optimistic_total_GJ": 127.78218479144398,
+    "source_operating_GJ": 121.55358701751827
+  },
+  "next": "031D3B_FULL_FIXED_QX_QY_COUPLED_X_PHI_Y_ACTIVATION_SOLVE",
+  "off_state": {
+    "scalar_mass2_hat": 0.0001,
+    "scalar_stable": true,
+    "source_qball_pass": true
+  },
+  "payload": {
+    "correct_reaction_ratio": 3.438551375014167e-16,
+    "expected_Mc2_over_Mm2": 3.901894787744707e-15,
+    "f_min": 0.9999999999997287,
+    "metric_gradient_relerr_max": 2.167718560348638e-12,
+    "observed_suppression": 3.9018947877447326e-15,
+    "old_D3AR_reaction_ratio": 0.08812516897724004,
+    "outward_sign_pass": true
+  },
+  "reconstructed": {
+    "M_c_GeV": 68.58201405094178,
+    "M_m_GeV": 1097924452.3469064,
+    "alpha_m": 29.194094249756294,
+    "phi_near_payload_GeV": 14.452432687070921
+  }
+}

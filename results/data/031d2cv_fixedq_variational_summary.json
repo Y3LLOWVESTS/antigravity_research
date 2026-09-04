@@ -1,0 +1,53 @@
+{
+  "baseline_reconstruction_relerr": 1.1808325306122268e-05,
+  "claim_limits": [
+    "This closes only the declared canonical s^2 phi^2 gate in the tested fixed theory/parameter point and multi-seed variational test.",
+    "It does not close all possible auxiliary activation fields."
+  ],
+  "classification": "RED_D2CV_NO_ON_LOCAL_MINIMUM_FOUND_IN_DECLARED_MULTI_SEED_FIXEDQ_VARIATIONAL_TEST",
+  "next": "DEMOTE_CANONICAL_S2PHI2_GATE_AND_RERANK_031D",
+  "seed_rows": [
+    {
+      "E_over_QmX": 0.5560273149755243,
+      "initial_transition_x": 206.48164006305123,
+      "inventory_GJ": 126.08845554490567,
+      "inventory_J": 126088455544.90567,
+      "omega": 0.3515092920883869,
+      "on_survivor": false,
+      "optimizer_iterations": 2200,
+      "optimizer_success": false,
+      "projected_gradient_max": 411.58042532136295,
+      "u0_final": 1.921783930379158,
+      "u_seed_factor": 0.85,
+      "z0_final": 6.063178019773925e-07
+    },
+    {
+      "E_over_QmX": 0.5605065048019082,
+      "initial_transition_x": 217.52383851942133,
+      "inventory_GJ": 130.72769050705065,
+      "inventory_J": 130727690507.05066,
+      "omega": 0.3398059312541963,
+      "on_survivor": false,
+      "optimizer_iterations": 2200,
+      "optimizer_success": false,
+      "projected_gradient_max": 403.9735801699616,
+      "u0_final": 2.2147853961641366,
+      "u_seed_factor": 1.0,
+      "z0_final": 2.8204101144605074e-07
+    },
+    {
+      "E_over_QmX": 0.5776266187330226,
+      "initial_transition_x": 227.1637514040674,
+      "inventory_GJ": 136.69994469735252,
+      "inventory_J": 136699944697.35252,
+      "omega": 0.32782013643637886,
+      "on_survivor": false,
+      "optimizer_iterations": 2200,
+      "optimizer_success": false,
+      "projected_gradient_max": 458.317226459881,
+      "u0_final": 2.5395848538286803,
+      "u_seed_factor": 1.15,
+      "z0_final": 1.4471727755596523e-07
+    }
+  ]
+}

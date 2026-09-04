@@ -1,0 +1,44 @@
+/Users/mymac/Desktop/antigravity_research/simulations/031d2cr_loggate_fixedq_homotopy.py:1032: RuntimeWarning: overflow encountered in square
+  -state[1]**2
+/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/integrate/_bvp.py:312: RuntimeWarning: overflow encountered in multiply
+  4 * f_middle)
+/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/integrate/_bvp.py:41: RuntimeWarning: invalid value encountered in subtract
+  df_dy[:, i, :] = (f_new - f0) / hi
+/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/integrate/_bvp.py:567: RuntimeWarning: invalid value encountered in divide
+  r_middle /= 1 + np.abs(f_middle)
+/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/integrate/_bvp.py:568: RuntimeWarning: invalid value encountered in divide
+  r1 /= 1 + np.abs(f1)
+/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/integrate/_bvp.py:569: RuntimeWarning: invalid value encountered in divide
+  r2 /= 1 + np.abs(f2)
+=== 031D2C-R LOG-GATE FIXED-Q HOMOTOPY ===
+DIRECT_Z_COLLOCATION=REMOVED
+GATE_VARIABLE=q=LOG_Z
+FIXED_NOETHER_CHARGE=YES
+SOURCE_REACTION_AT_FINAL_T1=YES
+RECIPROCAL_TARGET_THEORY_AT_T1=YES
+INTERMEDIATE_HOMOTOPY_PHYSICAL=NO
+PRACTICAL_DEVICE=NO
+TARGET_I_Q=6.594219892350219e+03
+G_S=3.000000000000000e-16
+V_S_EV=7.723884023813016e+09
+LAMBDA_S=3.597908003905330e-34
+A2_GATE=6.003112500000002e-04
+B2_GATE=1.183907900560071e+01
+DELTA2_GATE=1.501650749306419e-01
+U_TRANSITION=7.120808095092115e-03
+OFF_FIXEDQ_SCALAR_LAMBDA0=+2.502751248844032e-02
+
+=== STAGE A: RECONSTRUCT UNGATED FIXED-Q ON STATE ===
+INITIAL_TRANSITION_X=2.175236606569869e+02
+INITIAL_TRANSITION_M=7.178280801680568e+00
+
+=== STAGE B: SPECTATOR LOG-GATE SOLVE ===
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d2cr_loggate_fixedq_homotopy.py", line 2899, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d2cr_loggate_fixedq_homotopy.py", line 1086, in main
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: Spectator log-gate BVP failed: A singular Jacobian encountered when solving the collocation system.

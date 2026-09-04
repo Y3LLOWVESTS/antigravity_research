@@ -1,0 +1,184 @@
+{
+  "charges": {
+    "physical_QY": 2.2018036001115653e+35,
+    "physical_QY_provenance_relerr": 0.0,
+    "target_I_QX": 6594.219892350219,
+    "target_I_QY": 10583.537786052691
+  },
+  "claim_limits": [
+    "GREEN establishes a static microscopic coupled ON field at fixed Q_X and fixed Q_Y.",
+    "The OFF vacuum lies in the Q_Y=0 sector, so activation requires charge injection/removal or a reservoir.",
+    "Ordinary-payload reaction is not included in the BVP because D3A-R2 bounded it at ~3.4e-16.",
+    "Complete coupled perturbative and nonlinear stability remain open.",
+    "Switching/reset/power/radiation remain open.",
+    "Full Einstein/physical-metric backreaction, radiative naturalness and empirical closure remain open.",
+    "No practical device is established."
+  ],
+  "classification": "GREEN_D3B_FULL_FIXED_QX_QY_COUPLED_MICROSCOPIC_ON_FIELD_EXISTS",
+  "convergence": {
+    "a0_rel_spread": 0.0,
+    "dense_normalized_residual_max": 8.587068351664397e-06,
+    "energy_rel_spread": 6.276620303096363e-07,
+    "omega_x_rel_spread": 0.0,
+    "omega_y_rel_spread": 0.0,
+    "pass": true,
+    "u0_rel_spread": 0.0
+  },
+  "domain_rows": [
+    {
+      "QX_relerr": 0.0,
+      "QY_relerr": 0.0,
+      "a0": 9.49854603185502,
+      "activation_GJ": 6.228597769672656,
+      "conservative_total_GJ": 127.78235831410389,
+      "f0": 1.0,
+      "max_bvp_rms": 5.780357561758105e-06,
+      "nodes": 3512,
+      "omega_x": 0.3399999998876553,
+      "omega_y": 0.4500000012825411,
+      "u0": 2.2158214354907413,
+      "xmax": 500.0,
+      "y0": 5.856062545941247
+    },
+    {
+      "QX_relerr": 0.0,
+      "QY_relerr": 0.0,
+      "a0": 9.49854603185502,
+      "activation_GJ": 6.228597769672653,
+      "conservative_total_GJ": 127.78243714380602,
+      "f0": 1.0,
+      "max_bvp_rms": 5.621505119913924e-06,
+      "nodes": 3509,
+      "omega_x": 0.3399999998876553,
+      "omega_y": 0.4500000012825411,
+      "u0": 2.2158214354907413,
+      "xmax": 700.0,
+      "y0": 5.856062545941248
+    },
+    {
+      "QX_relerr": 0.0,
+      "QY_relerr": 0.0,
+      "a0": 9.49854603185502,
+      "activation_GJ": 6.228597769672653,
+      "conservative_total_GJ": 127.78243851827162,
+      "f0": 1.0,
+      "max_bvp_rms": 5.621505119913924e-06,
+      "nodes": 3895,
+      "omega_x": 0.3399999998876553,
+      "omega_y": 0.4500000012825411,
+      "u0": 2.2158214354907413,
+      "xmax": 900.0,
+      "y0": 5.856062545941248
+    }
+  ],
+  "energy": {
+    "activation_J": 6228597769.672653,
+    "activation_fraction_of_source": 0.05124157931081861,
+    "full_conservative_on_J": 127782438518.27162,
+    "precoupling_reference_J": 127782184791.44398,
+    "source_inventory_rel_shift": 2.0873966560094883e-06,
+    "source_scalar_conservative_J": 121553840748.59897
+  },
+  "homotopy_rows": [
+    {
+      "QX_relerr": 0.0,
+      "QY_relerr": 0.0,
+      "a0": 9.498546031855017,
+      "f0": 1.0,
+      "max_bvp_rms": 1.9900594703486115e-05,
+      "nodes": 3448,
+      "omega_x": 0.33999999988602536,
+      "omega_y": 0.4500000012825411,
+      "t": 0.0,
+      "u0": 2.215821435496763,
+      "y0": 5.856062545952437
+    },
+    {
+      "QX_relerr": 0.0,
+      "QY_relerr": 0.0,
+      "a0": 9.498546031855017,
+      "f0": 1.0,
+      "max_bvp_rms": 1.990059470348611e-05,
+      "nodes": 3448,
+      "omega_x": 0.33999999988602536,
+      "omega_y": 0.4500000012825411,
+      "t": 0.1,
+      "u0": 2.215821435496763,
+      "y0": 5.856062545952437
+    },
+    {
+      "QX_relerr": 0.0,
+      "QY_relerr": 0.0,
+      "a0": 9.498546031855017,
+      "f0": 1.0,
+      "max_bvp_rms": 1.990059470348611e-05,
+      "nodes": 3448,
+      "omega_x": 0.33999999988602536,
+      "omega_y": 0.4500000012825411,
+      "t": 0.25,
+      "u0": 2.215821435496763,
+      "y0": 5.856062545952437
+    },
+    {
+      "QX_relerr": 0.0,
+      "QY_relerr": 0.0,
+      "a0": 9.498546031855017,
+      "f0": 1.0,
+      "max_bvp_rms": 1.990059470348611e-05,
+      "nodes": 3448,
+      "omega_x": 0.33999999988602536,
+      "omega_y": 0.4500000012825411,
+      "t": 0.5,
+      "u0": 2.215821435496763,
+      "y0": 5.856062545952437
+    },
+    {
+      "QX_relerr": 0.0,
+      "QY_relerr": 0.0,
+      "a0": 9.498546031855017,
+      "f0": 1.0,
+      "max_bvp_rms": 1.990059470348611e-05,
+      "nodes": 3448,
+      "omega_x": 0.33999999988602536,
+      "omega_y": 0.4500000012825411,
+      "t": 0.75,
+      "u0": 2.215821435496763,
+      "y0": 5.856062545952437
+    },
+    {
+      "QX_relerr": 0.0,
+      "QY_relerr": 0.0,
+      "a0": 9.498546031855017,
+      "f0": 1.0,
+      "max_bvp_rms": 1.9900594703486105e-05,
+      "nodes": 3448,
+      "omega_x": 0.33999999988602536,
+      "omega_y": 0.4500000012825411,
+      "t": 1.0,
+      "u0": 2.215821435496763,
+      "y0": 5.856062545952437
+    }
+  ],
+  "next": "031D3C_COUPLED_LINEAR_STABILITY_PLUS_QY_SWITCHING_RESERVOIR_RESET_GATE",
+  "off_state": {
+    "QY": 0.0,
+    "bare_scalar_mass2_hat": 0.0001,
+    "same_QY_as_ON": false,
+    "source_qball_pass": true,
+    "structure_pass": true
+  },
+  "payload": {
+    "acceleration_ratio_max": 1.0000000014251993,
+    "acceleration_ratio_min": 1.000000001418515,
+    "outward_sign_pass": true,
+    "pass": true,
+    "payload_f_min": 0.9999999999997287,
+    "source_f_min": 1.0
+  },
+  "theory": {
+    "f": "1-exp(-a^2/2)",
+    "matter_metric": "A_m=exp[+f(a)phi^2/(2 M_m^2)]",
+    "off_same_QY": false,
+    "source_metric_factor": "A_X=exp[-f(a)u^2/2]"
+  }
+}
