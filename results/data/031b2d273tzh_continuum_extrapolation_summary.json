@@ -1,0 +1,111 @@
+{
+  "claim_limits": [
+    "This closes only the coupled-linear l=1 translation question.",
+    "Prior l=0 and l=2..8 D273-R evidence remains companion evidence.",
+    "Finite-amplitude fragmentation and fission remain open.",
+    "Physical-metric dynamical backreaction remains open.",
+    "Activation/off-state remains open.",
+    "Radiative naturalness and empirical closure remain open.",
+    "This is not a practical-device claim."
+  ],
+  "classification": "GREEN_D273_L1_TRANSLATIONAL_GOLDSTONE_DISCRETIZATION_ARTIFACT_CERTIFIED_AT_COUPLED_LINEAR_LEVEL",
+  "distinct_low_overlap_instability": false,
+  "domains": {
+    "3.0": {
+      "domain_pass": true,
+      "growth": [
+        0.010610487580898855,
+        0.00796878471304951,
+        0.005320333178573204,
+        0.003994138692853605
+      ],
+      "growth_monotone": true,
+      "growth_power": 0.9961499295542208,
+      "growth_power_pass": true,
+      "h": [
+        0.5,
+        0.375,
+        0.25,
+        0.1875
+      ],
+      "linear_intercept": 2.6279806554654814e-05,
+      "linear_intercept_over_finest_growth": 0.006579592892373814,
+      "linear_slope": 0.021172285667928805,
+      "low_overlap_dynamic_pass": true,
+      "maximum_low_overlap_real": 6.564082099014181e-16,
+      "minimum_projected_k0": 0.0009948078999381061,
+      "minimum_translation_overlap": 0.9989602453624604,
+      "points": 4,
+      "projected_stiffness_positive": true,
+      "quadratic_intercept": 5.206293441341714e-06,
+      "quadratic_intercept_over_finest_growth": 0.0013034833894618938,
+      "residual_monotone": true,
+      "residual_order_pass": true,
+      "residual_power": 2.9883816061977533,
+      "s_over_h": [
+        0.02122097516179771,
+        0.021250092568132026,
+        0.021281332714292816,
+        0.021302073028552557
+      ],
+      "s_over_h_cv": 0.0014483669145981526,
+      "s_over_h_pass": true,
+      "translation_overlap_pass": true,
+      "zero_intercept_pass": true
+    },
+    "5.0": {
+      "domain_pass": true,
+      "growth": [
+        0.010610354191308851,
+        0.007964673316227128,
+        0.005320228760894609,
+        0.003995055731877767
+      ],
+      "growth_monotone": true,
+      "growth_power": 0.9961563436707204,
+      "growth_power_pass": true,
+      "h": [
+        0.5,
+        0.3748125937031484,
+        0.25,
+        0.18754688672168043
+      ],
+      "linear_intercept": 2.6230985859363246e-05,
+      "linear_intercept_over_finest_growth": 0.0065658623107703405,
+      "linear_slope": 0.02117208620908989,
+      "low_overlap_dynamic_pass": true,
+      "maximum_low_overlap_real": 7.899118095034525e-16,
+      "minimum_projected_k0": 0.0006373554732572443,
+      "minimum_translation_overlap": 0.9989503983463469,
+      "points": 4,
+      "projected_stiffness_positive": true,
+      "quadratic_intercept": 5.291556492339609e-06,
+      "quadratic_intercept_over_finest_growth": 0.001324526326408082,
+      "residual_monotone": true,
+      "residual_order_pass": true,
+      "residual_power": 2.994091414498299,
+      "s_over_h": [
+        0.021220708382617703,
+        0.021249748407693978,
+        0.021280915043578437,
+        0.02130163716237225
+      ],
+      "s_over_h_cv": 0.0014452887809036068,
+      "s_over_h_pass": true,
+      "translation_overlap_pass": true,
+      "zero_intercept_pass": true
+    }
+  },
+  "fine_domain_relative_spreads": {
+    "0.1875": 0.00022956983530734217,
+    "0.25": 1.962634665138012e-05
+  },
+  "fine_domain_spread_pass": true,
+  "global_low_overlap_dynamic_pass": true,
+  "global_projected_stiffness_positive": true,
+  "global_translation_overlap_pass": true,
+  "negative_projected_stiffness": false,
+  "next": "APPLY_SAME_COUPLED_STABILITY_STACK_TO_96P141_GJ_CANDIDATE",
+  "translation_zero_mode_artifact_established": true,
+  "true_physical_instability_established": false
+}

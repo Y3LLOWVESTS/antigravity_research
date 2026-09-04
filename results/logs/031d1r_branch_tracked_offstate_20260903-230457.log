@@ -1,0 +1,38 @@
+=== 031D1-R BRANCH-TRACKED FIXED-CHARGE OFF-STATE GATE ===
+COLD_START_ROOT_FINDING=REMOVED
+BRANCH_TRACKING=EXPLICIT_BVP_CONTINUATION
+NODEFUL_BRANCHES_ACCEPTED=NO
+AUXILIARY_GATE_FIELD_INCLUDED=NO
+PRACTICAL_DEVICE=NO
+
+=== STAGE A: ON-STATE CHARGE RECONSTRUCTION ===
+TARGET_I_Q=6.594219892350219e+03
+ON_E_OVER_QMX=4.993363938918737e-01
+
+=== STAGE B: LOW-OMEGA BRANCH CONTINUATION ===
+CONTINUATION branch=low omega=0.493897436 I_Q=6.598528601e+03 Q_RES=+4.308708236e+00 Y0=8.125944157e+00 DIST=9.252963e-03 NODES=0
+CONTINUATION branch=low omega=0.491897436 I_Q=6.737114423e+03 Q_RES=+1.428945306e+02 Y0=8.182739793e+00 DIST=9.278623e-03 NODES=0
+CONTINUATION branch=low omega=0.489897436 I_Q=6.879067770e+03 Q_RES=+2.848478775e+02 Y0=8.240035350e+00 DIST=9.304582e-03 NODES=0
+CONTINUATION branch=low omega=0.487897436 I_Q=7.024482904e+03 Q_RES=+4.302630118e+02 Y0=8.297837495e+00 DIST=9.330837e-03 NODES=0
+CONTINUATION branch=low omega=0.485897436 I_Q=7.173457095e+03 Q_RES=+5.792372031e+02 Y0=8.356153008e+00 DIST=9.357390e-03 NODES=0
+CONTINUATION branch=low omega=0.497897436 I_Q=6.331096893e+03 Q_RES=-2.631229995e+02 Y0=8.013826532e+00 DIST=9.146971e-03 NODES=0
+CONTINUATION branch=low omega=0.499897436 I_Q=6.202076600e+03 Q_RES=-3.921432924e+02 Y0=7.958491754e+00 DIST=9.122300e-03 NODES=0
+CONTINUATION branch=low omega=0.501897436 I_Q=6.076074828e+03 Q_RES=-5.181450639e+02 Y0=7.903631315e+00 DIST=9.097905e-03 NODES=0
+LOW_BRANCH_BRACKETS=1
+
+=== STAGE C: HIGH-OMEGA BRANCH CONTINUATION ===
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d1r_branch_tracked_offstate_fixed_charge_gate.py", line 1720, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d1r_branch_tracked_offstate_fixed_charge_gate.py", line 1104, in main
+    high_records = walk_branch(
+        qmod,
+    ...<5 lines>...
+        target_q,
+    )
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d1r_branch_tracked_offstate_fixed_charge_gate.py", line 422, in walk_branch
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: high: nodeless seed failed at omega=0.93025641
