@@ -1,0 +1,97 @@
+=== 031D3C COUPLED ACTIVATION STABILITY + SWITCHING ===
+D3B_MICROSCOPIC_ON_FIELD_REQUIRED=YES
+INHERITED_X_PHI_LINEAR_STABILITY_REQUIRED=YES
+ACTIVATION_DYNAMIC_MODES_INCLUDED=YES
+CROSS_HESSIAN_INCLUDED=YES
+COMMON_TRANSLATION_GOLDSTONE_TREATED_EXPLICITLY=YES
+RELATIVE_TRANSLATION_PROJECTED_OUT=NO
+OFF_STATE_SAME_QY=NO
+EXPLICIT_QY_RESERVOIR_REALIZED=NO
+PRACTICAL_DEVICE=NO
+OMEGA_X=3.399999998876553e-01
+OMEGA_Y=4.500000012825411e-01
+MU_MA_OVER_MX=5.346177557001615e-02
+RHO_Y=2.490592146370240e-03
+PHYSICAL_QY=2.201803600111565e+35
+FULL_ON_CONSERVATIVE_GJ=127.782438518272
+
+=== STAGE A: RECONSTRUCT X+PHI AND Y BACKGROUNDS ===
+X_U0=2.215821146105762e+00
+Y_A0=9.498545933641751e+00
+
+=== STAGE B: ACTIVATION Q-BALL BRANCH SLOPE ===
+Y_BRANCH OMEGA=0.440000001 I_Q=1.184718967661e+04 E_OVER_QM=5.408552256634e-01
+Y_BRANCH OMEGA=0.445000001 I_Q=1.119465864134e+04 E_OVER_QM=5.465899024295e-01
+Y_BRANCH OMEGA=0.450000001 I_Q=1.058353763434e+04 E_OVER_QM=5.523131805290e-01
+Y_BRANCH OMEGA=0.455000001 I_Q=1.001082814269e+04 E_OVER_QM=5.580249325129e-01
+Y_BRANCH OMEGA=0.460000001 I_Q=9.473776160683e+03 E_OVER_QM=5.637250277496e-01
+Y_DQ_DOMEGA=-1.186131506099845e+05
+Y_BRANCH_SLOPE_STABLE=True
+
+=== STAGE C: D3 CROSS-COUPLING HESSIAN DIAGNOSTICS ===
+PRODUCTIVE_ONE_MINUS_F_MAX=0.000000000000000e+00
+PRODUCTIVE_FP_MAX=2.037700462618677e-18
+PRODUCT_BACKGROUND_EOM_DEFECT_MAX=4.406646304473141e-17
+NEW_CANONICAL_CROSS_HESSIAN_MAX=1.622185506562823e-18
+BACKGROUND_PRODUCT_APPROXIMATION_PASS=True
+CROSS_HESSIAN_SMALL_PREFLIGHT_PASS=True
+
+=== STAGE D: FULL FIVE-FIELD COUPLED LINEAR SPECTRUM ===
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d3cr_arpack_goldstone_closeout.py", line 2855, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d3cr_arpack_goldstone_closeout.py", line 2138, in main
+    row = spectrum_case(
+        rmax,
+        h_target,
+        ell,
+    )
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d3cr_arpack_goldstone_closeout.py", line 1876, in spectrum_case
+    safe_eigs(
+    ~~~~~~~~~^
+        companion,
+        ^^^^^^^^^^
+        k=RIGHT_EIG_COUNT,
+        ^^^^^^^^^^^^^^^^^^
+        which="LR",
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d3cr_arpack_goldstone_closeout.py", line 455, in safe_eigs
+    values, vectors = eigs(
+                      ~~~~^
+        matrix,
+        ^^^^^^^
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 1438, in eigs
+    params.iterate()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 820, in iterate
+    self.workd[yslice] = self.OP(self.workd[xslice])
+                         ~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 391, in matvec
+    return self._shared_matvec(x)
+           ~~~~~~~~~~~~~~~~~~~^^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 353, in _shared_matvec
+    y = self._rmatvec(x) if adjoint else self._matvec(x)
+                                         ~~~~~~~~~~~~^^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 310, in _matvec
+    return self._matmat(x[..., xp.newaxis])[..., 0]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 1118, in _matmat
+    return self.A @ X
+           ~~~~~~~^~~
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/_base.py", line 1007, in __matmul__
+    if isscalarlike(other):
+       ~~~~~~~~~~~~^^^^^^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/_sputils.py", line 346, in isscalarlike
+    return np.isscalar(x) or (isdense(x) and x.ndim == 0)
+                              ~~~~~~~^^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/_sputils.py", line 401, in isdense
+    def isdense(x) -> bool:
+    
+KeyboardInterrupt

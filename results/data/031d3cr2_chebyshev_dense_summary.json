@@ -1,0 +1,224 @@
+{
+  "chebyshev_decisions": {
+    "0": {
+      "growth_spread": 4.9597076371247605e-15,
+      "pass": true,
+      "worst_real_growth": 6.0140044425044885e-15
+    },
+    "1": {
+      "growth_spread": 4.2234986068521036e-07,
+      "pass": true,
+      "worst_real_growth": 1.344473482819862e-06
+    },
+    "2": {
+      "growth_spread": 9.66585850370439e-16,
+      "pass": true,
+      "worst_real_growth": 1.7526975808747281e-15
+    }
+  },
+  "claim_limits": [
+    "GREEN establishes coupled-linear stability through l=8 only in the declared flat-space effective X/phi/Y theory.",
+    "l=0,1,2 are independently reconstructed using Chebyshev collocation and complete dense diagonalization rather than finite differences and sparse ARPACK.",
+    "l=3..8 are inherited from D3C because their rightmost searches completed at both declared grids.",
+    "The exact common l=1 translation is removed only for the projected-stiffness diagnostic; relative translation remains physical.",
+    "The explicit QY reservoir/transfer/reset mechanism and switching radiation remain open.",
+    "Nonlinear fragmentation, Einstein backreaction, radiative naturalness and empirical closure remain open.",
+    "No practical device is established."
+  ],
+  "classification": "YELLOW_OR_RED_D3CR2_INDEPENDENT_SPECTRAL_CLOSEOUT_FAILED",
+  "decision": {
+    "full_coupled_linear_stability_pass": false,
+    "independent_chebyshev_l012_pass": false
+  },
+  "inherited": {
+    "finite_difference_l1_continuum_pass": true,
+    "l3_to_l8_pass": true,
+    "l3_to_l8_rightmost_complete": true,
+    "l3_to_l8_worst_real": 1.4184605840098885e-11
+  },
+  "l1": {
+    "domain_growth_difference": 1.0479895940392076e-07,
+    "domain_pass": true,
+    "low_overlap_pass": true,
+    "maximum_low_overlap_real": 1.344473482819862e-06,
+    "minimum_projected_k": -4.421051569523006,
+    "minimum_translation_overlap": 0.8646773876006965,
+    "projected_stiffness_pass": false,
+    "translation_overlap_pass": false
+  },
+  "method": {
+    "eigensolver": "complete dense scipy.linalg.eig",
+    "inherited_l": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "radial_discretization": "Chebyshev-Lobatto",
+    "recomputed_l": [
+      0,
+      1,
+      2
+    ],
+    "sparse_ARPACK": false
+  },
+  "next": "DIAGNOSE_ONLY_FAILED_CHEBYSHEV_SUBGATE",
+  "rows": [
+    {
+      "N": 112,
+      "companion_dimension": 1110,
+      "ell": 0,
+      "interior_nodes": 111,
+      "low_translation_overlap_max_real": 8.356518082666671e-08,
+      "max_physical_real": 1.072125305891608e-15,
+      "projected_k0": NaN,
+      "rmax": 600.0,
+      "translation_K_residual": NaN,
+      "translation_imag": NaN,
+      "translation_overlap": NaN,
+      "translation_real": NaN
+    },
+    {
+      "N": 112,
+      "companion_dimension": 1110,
+      "ell": 1,
+      "interior_nodes": 111,
+      "low_translation_overlap_max_real": 1.2320209311143427e-06,
+      "max_physical_real": 1.2320209311143427e-06,
+      "projected_k0": -0.37091435706955517,
+      "rmax": 600.0,
+      "translation_K_residual": 2.1332795400112848e-05,
+      "translation_imag": 0.02179088781746082,
+      "translation_overlap": 0.8646773876006965,
+      "translation_real": 3.1749128165662496e-17
+    },
+    {
+      "N": 112,
+      "companion_dimension": 1110,
+      "ell": 2,
+      "interior_nodes": 111,
+      "low_translation_overlap_max_real": 7.861117305042891e-16,
+      "max_physical_real": 7.861117305042891e-16,
+      "projected_k0": NaN,
+      "rmax": 600.0,
+      "translation_K_residual": NaN,
+      "translation_imag": NaN,
+      "translation_overlap": NaN,
+      "translation_real": NaN
+    },
+    {
+      "N": 144,
+      "companion_dimension": 1430,
+      "ell": 0,
+      "interior_nodes": 143,
+      "low_translation_overlap_max_real": 0.0017311592353021893,
+      "max_physical_real": 1.0542968053797276e-15,
+      "projected_k0": NaN,
+      "rmax": 600.0,
+      "translation_K_residual": NaN,
+      "translation_imag": NaN,
+      "translation_overlap": NaN,
+      "translation_real": NaN
+    },
+    {
+      "N": 144,
+      "companion_dimension": 1430,
+      "ell": 1,
+      "interior_nodes": 143,
+      "low_translation_overlap_max_real": 1.344473482819862e-06,
+      "max_physical_real": 1.344473482819862e-06,
+      "projected_k0": -1.0147378221900651,
+      "rmax": 600.0,
+      "translation_K_residual": 8.329432198595512e-06,
+      "translation_imag": 0.0,
+      "translation_overlap": 0.9906713093488594,
+      "translation_real": 0.009520720417891666
+    },
+    {
+      "N": 144,
+      "companion_dimension": 1430,
+      "ell": 2,
+      "interior_nodes": 143,
+      "low_translation_overlap_max_real": 1.281795243462203e-15,
+      "max_physical_real": 1.281795243462203e-15,
+      "projected_k0": NaN,
+      "rmax": 600.0,
+      "translation_K_residual": NaN,
+      "translation_imag": NaN,
+      "translation_overlap": NaN,
+      "translation_real": NaN
+    },
+    {
+      "N": 176,
+      "companion_dimension": 1750,
+      "ell": 0,
+      "interior_nodes": 175,
+      "low_translation_overlap_max_real": 3.38435211025322e-07,
+      "max_physical_real": 6.0140044425044885e-15,
+      "projected_k0": NaN,
+      "rmax": 600.0,
+      "translation_K_residual": NaN,
+      "translation_imag": NaN,
+      "translation_overlap": NaN,
+      "translation_real": NaN
+    },
+    {
+      "N": 176,
+      "companion_dimension": 1750,
+      "ell": 1,
+      "interior_nodes": 175,
+      "low_translation_overlap_max_real": 9.221236221346516e-07,
+      "max_physical_real": 9.221236221346516e-07,
+      "projected_k0": -2.265644556921603,
+      "rmax": 600.0,
+      "translation_K_residual": 6.678582191287896e-06,
+      "translation_imag": 0.0038674129405869896,
+      "translation_overlap": 0.991790843748253,
+      "translation_real": 6.201529278910617e-16
+    },
+    {
+      "N": 176,
+      "companion_dimension": 1750,
+      "ell": 2,
+      "interior_nodes": 175,
+      "low_translation_overlap_max_real": 1.7526975808747281e-15,
+      "max_physical_real": 1.7526975808747281e-15,
+      "projected_k0": NaN,
+      "rmax": 600.0,
+      "translation_K_residual": NaN,
+      "translation_imag": NaN,
+      "translation_overlap": NaN,
+      "translation_real": NaN
+    },
+    {
+      "N": 208,
+      "companion_dimension": 2070,
+      "ell": 1,
+      "interior_nodes": 207,
+      "low_translation_overlap_max_real": 1.3058824563665842e-06,
+      "max_physical_real": 1.3058824563665842e-06,
+      "projected_k0": -4.421051569523006,
+      "rmax": 600.0,
+      "translation_K_residual": 6.125624887233026e-06,
+      "translation_imag": 0.0,
+      "translation_overlap": 0.9919526779469249,
+      "translation_real": -0.0015988305416063666
+    },
+    {
+      "N": 224,
+      "companion_dimension": 2230,
+      "ell": 1,
+      "interior_nodes": 223,
+      "low_translation_overlap_max_real": 1.2010834969626634e-06,
+      "max_physical_real": 1.2010834969626634e-06,
+      "projected_k0": -3.345228571641475,
+      "rmax": 800.0,
+      "translation_K_residual": 8.772627396902353e-07,
+      "translation_imag": 0.0,
+      "translation_overlap": 0.992096006513371,
+      "translation_real": 0.0021373452238779393
+    }
+  ]
+}

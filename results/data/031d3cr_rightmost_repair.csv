@@ -1,0 +1,6 @@
+best_common_translation_overlap,complete,ell,h,matrix_dimension,max_physical_real,max_raw_real,requested_k,returned_count,rmax
+0.0,False,1,0.5,11990,-inf,nan,4,0,600.0
+0.0,False,0,0.5,11990,-inf,nan,3,0,600.0
+0.0,False,2,0.375,15990,-inf,nan,2,0,600.0
+0.0,False,1,0.375,15990,-inf,nan,4,0,600.0
+0.0,False,0,0.375,15990,-inf,nan,3,0,600.0

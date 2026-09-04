@@ -1,0 +1,53 @@
+=== 031D3C-R2 INDEPENDENT CHEBYSHEV DENSE SPECTRUM ===
+SPARSE_ARPACK_USED=NO
+RADIAL_DISCRETIZATION=CHEBYSHEV_LOBATTO
+EIGENSOLVER=DENSE_SCIPY_LINALG_EIG
+RECOMPUTED_L=0,1,2
+INHERITED_L=3_TO_8
+D96_STYLE_TRANSLATION_ORTHOGONAL_STIFFNESS=YES
+PRACTICAL_DEVICE=NO
+
+=== STAGE A: BACKGROUND RECONSTRUCTION ===
+SOURCE_U0=2.215821146105762e+00
+ACTIVATION_A0=9.498545933641751e+00
+
+=== STAGE B: CHEBYSHEV DENSE l=0,1,2 ===
+START_DENSE L=0 N=112 RMAX=600.0
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d3cr2_chebyshev_dense_independent_closeout.py", line 2531, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d3cr2_chebyshev_dense_independent_closeout.py", line 1820, in main
+    dense_case(
+    ~~~~~~~~~~^
+        ell,
+        ^^^^
+        N,
+        ^^
+        RMAX,
+        ^^^^^
+    )
+    ^
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d3cr2_chebyshev_dense_independent_closeout.py", line 1434, in dense_case
+    problem = build_problem(
+        ell,
+        N,
+        rmax,
+    )
+  File "/Users/mymac/Desktop/antigravity_research/simulations/031d3cr2_chebyshev_dense_independent_closeout.py", line 1217, in build_problem
+    K = np.block(
+        (
+    ...<35 lines>...
+        )
+    )
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/numpy/_core/shape_base.py", line 928, in block
+    arrays, list_ndim, result_ndim, final_size = _block_setup(arrays)
+                                                 ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/numpy/_core/shape_base.py", line 959, in _block_setup
+    bottom_index, arr_ndim, final_size = _block_check_depths_match(arrays)
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/numpy/_core/shape_base.py", line 594, in _block_check_depths_match
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: arrays is a tuple. Only lists can be used to arrange blocks, and np.block does not allow implicit conversion from tuple to ndarray.

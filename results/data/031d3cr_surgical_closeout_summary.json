@@ -1,0 +1,216 @@
+{
+  "claim_limits": [
+    "GREEN closes the numerical coupled-linear stability gate through l=8 in the declared flat-space effective X/phi/Y model.",
+    "The original D3C l=3..8 spectra are inherited rather than recomputed because those rightmost requests completed.",
+    "Only previously incomplete rightmost sectors are recomputed.",
+    "The l=1 apparent growth is promoted as a discretized zero-mode artifact only if the new h=.1875 point continues the h->0 trend.",
+    "The explicit QY reservoir/transfer/reset and switching-radiation mechanism remains open.",
+    "Nonlinear fragmentation, Einstein backreaction, radiative naturalness and empirical closure remain open.",
+    "No practical device is established."
+  ],
+  "classification": "YELLOW_D3CR_RIGHTMOST_ARPACK_STILL_NUMERICALLY_INCOMPLETE",
+  "decision": {
+    "coupled_linear_stability_closeout_pass": false,
+    "inherited_non_l1_pass": true,
+    "l1_continuum_pass": true,
+    "rightmost_complete": false,
+    "rightmost_growth_pass": true
+  },
+  "inherited_D3C": {
+    "activation_slope_pass": true,
+    "background_pass": true,
+    "classification": "RED_OR_YELLOW_D3C_COUPLED_LINEAR_STABILITY_NOT_CERTIFIED",
+    "cross_hessian_pass": true,
+    "new_cross_hessian_max": 1.6221855065628234e-18
+  },
+  "l1_continuum": {
+    "closeout_pass": true,
+    "common_growth": [
+      0.003178715151236785,
+      0.0042332204920800766,
+      0.006347924817435824,
+      0.008467401407963432
+    ],
+    "common_growth_power": 0.9989492182769424,
+    "domain_difference": 1.3755815063409838e-18,
+    "domain_pass": true,
+    "fine_monotonic_pass": true,
+    "h": [
+      0.1875,
+      0.25,
+      0.375,
+      0.5
+    ],
+    "intercept_pass": true,
+    "linear_h0_intercept": 7.160336627120642e-08,
+    "power_pass": true,
+    "quadratic_h0_intercept": 1.0587229917569166e-07,
+    "relative_growth": [
+      1.565901064638184e-05,
+      2.0846296933721084e-05,
+      3.123474911763488e-05,
+      4.163017410768846e-05
+    ],
+    "relative_power": 0.9969441541166467
+  },
+  "l1_fine": {
+    "common_overlap": 0.9767154337106317,
+    "common_real": 0.003178715151236785,
+    "h": 0.1875,
+    "near_complete": true,
+    "relative_imag": 0.0,
+    "relative_overlap": 0.9768244694990867,
+    "relative_real": -1.565901064638184e-05
+  },
+  "next": "STOP_BRUTE_FORCE_ARPACK_AND_USE_INDEPENDENT_SPECTRAL_METHOD",
+  "rightmost_repair": {
+    "all_complete": false,
+    "growth_pass": true,
+    "rows": [
+      {
+        "best_common_translation_overlap": 0.0,
+        "complete": false,
+        "ell": 1,
+        "h": 0.5,
+        "matrix_dimension": 11990,
+        "max_physical_real": -Infinity,
+        "max_raw_real": NaN,
+        "requested_k": 4,
+        "returned_count": 0,
+        "rmax": 600.0
+      },
+      {
+        "best_common_translation_overlap": 0.0,
+        "complete": false,
+        "ell": 0,
+        "h": 0.5,
+        "matrix_dimension": 11990,
+        "max_physical_real": -Infinity,
+        "max_raw_real": NaN,
+        "requested_k": 3,
+        "returned_count": 0,
+        "rmax": 600.0
+      },
+      {
+        "best_common_translation_overlap": 0.0,
+        "complete": false,
+        "ell": 2,
+        "h": 0.375,
+        "matrix_dimension": 15990,
+        "max_physical_real": -Infinity,
+        "max_raw_real": NaN,
+        "requested_k": 2,
+        "returned_count": 0,
+        "rmax": 600.0
+      },
+      {
+        "best_common_translation_overlap": 0.0,
+        "complete": false,
+        "ell": 1,
+        "h": 0.375,
+        "matrix_dimension": 15990,
+        "max_physical_real": -Infinity,
+        "max_raw_real": NaN,
+        "requested_k": 4,
+        "returned_count": 0,
+        "rmax": 600.0
+      },
+      {
+        "best_common_translation_overlap": 0.0,
+        "complete": false,
+        "ell": 0,
+        "h": 0.375,
+        "matrix_dimension": 15990,
+        "max_physical_real": -Infinity,
+        "max_raw_real": NaN,
+        "requested_k": 3,
+        "returned_count": 0,
+        "rmax": 600.0
+      }
+    ],
+    "targets": [
+      [
+        1,
+        0.5
+      ],
+      [
+        0,
+        0.5
+      ],
+      [
+        2,
+        0.375
+      ],
+      [
+        1,
+        0.375
+      ],
+      [
+        0,
+        0.375
+      ]
+    ],
+    "worst_physical_real": -Infinity
+  },
+  "switching_inherited_not_rerun": {
+    "conservative_on_minus_off_J": 36966477704.62021,
+    "explicit_reservoir_realized": false,
+    "full_on_conservative_J": 127782438518.27162,
+    "off_QY": 0.0,
+    "off_omega_x": 0.49396039073715564,
+    "off_source_energy_J": 90815960813.65141,
+    "on_activation_inventory_J": 6228597769.672653,
+    "on_physical_QY": 2.2018036001115653e+35,
+    "power_rows": [
+      {
+        "activation_inventory_power_W": 6228597769.672653,
+        "conservative_delta_power_W": 36966477704.62021,
+        "seconds": 1.0
+      },
+      {
+        "activation_inventory_power_W": 62285977696.72653,
+        "conservative_delta_power_W": 369664777046.2021,
+        "seconds": 0.1
+      },
+      {
+        "activation_inventory_power_W": 622859776967.2653,
+        "conservative_delta_power_W": 3696647770462.021,
+        "seconds": 0.01
+      },
+      {
+        "activation_inventory_power_W": 6228597769672.653,
+        "conservative_delta_power_W": 36966477704620.21,
+        "seconds": 0.001
+      },
+      {
+        "activation_inventory_power_W": 6228597769672653.0,
+        "conservative_delta_power_W": 3.696647770462021e+16,
+        "seconds": 1e-06
+      }
+    ],
+    "recoverability_established": false,
+    "strict_minimum_work_established": false
+  },
+  "translation_residuals": [
+    {
+      "common_residual": 0.0007424925251799571,
+      "h": 0.1875,
+      "relative_residual": 0.0001626914544888494
+    },
+    {
+      "common_residual": 0.0005879453164893755,
+      "h": 0.25,
+      "relative_residual": 0.00012882783857506736
+    },
+    {
+      "common_residual": 0.0008470380269284526,
+      "h": 0.375,
+      "relative_residual": 0.00018559886868420156
+    },
+    {
+      "common_residual": 0.0014342332149802064,
+      "h": 0.5,
+      "relative_residual": 0.00031426220173681095
+    }
+  ]
+}

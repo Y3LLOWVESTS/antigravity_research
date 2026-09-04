@@ -87284,3 +87284,2834 @@ A conservative summary of what has actually been achieved is:
 
 
 ### END NOTE - SEPTEMBER 3 2026 - 19:25 CST
+
+
+### BEGIN NOTE - SEPTEMBER 4 2026 - 11:40 CST
+
+
+# ANTIGRAVITY_RESEARCH — CARRY-OVER NOTES
+
+## Session closeout: 2026-09-04
+
+These notes are the authoritative carry-over state from the 2026-09-03/04 research session.
+
+They are intentionally comprehensive because the active 031 model is now close enough to final theoretical verification that the next session must reconstruct the exact state before doing any new work.
+
+---
+
+# 0. DOCUMENTATION / REPOSITORY POLICY FOR NEXT SESSION
+
+## 0.1 Files being advanced at this session boundary
+
+Only the following should be treated as newly advanced/current at the end of this session:
+
+* these carry-over notes / `NOTES.md`
+* the new journal entry for this session
+* the shortened session-introduction text
+* the current codebundle
+* the new simulation scripts
+* the new result JSON/CSV artifacts
+* the new run logs
+* the new known-solution test logs
+
+## 0.2 Files intentionally NOT being updated yet
+
+Do **not** update the following until the new 031 model has been completely verified:
+
+* `RESEARCH_BUILDPLAN.md`
+* `README.md`
+* `INTROSPECTIVE_BUILDPLAN.md`
+* older research journals
+* formatting/code standards
+* older historical documentation
+* public-facing claims elsewhere in the repository
+
+The user explicitly wants to avoid propagating a still-unverified 031 activation model into the broader documentation stack.
+
+Therefore:
+
+> **Newer carry-over notes, the new journal, codebundle, simulations, logs, and numerical artifacts supersede the lagging buildplan/README wherever they conflict.**
+
+The buildplan and README are intentionally behind the research frontier.
+
+Do not “repair” that mismatch automatically in the next session.
+
+Only after the 031 model survives the remaining verification stack should the broader documentation be reconciled.
+
+---
+
+# 1. WORKFLOW / IMPLEMENTATION RULES TO PRESERVE
+
+Repository/environment:
+
+* local macOS VS Code repository: `antigravity_research`
+* Python virtual environment: `.venv`
+* known-solution baseline: **94 tests**
+* baseline should be run before major scientific claims
+* current baseline remained clean throughout this session
+
+Terminal-run preferences:
+
+* provide complete paste-ready terminal blocks
+* blocks may create scripts directly under `simulations/`
+* human-readable source only
+* no base64/zlib/obfuscated code
+* do not use `set -e`
+* do not use `set -u`
+* do not put `exit` at the end
+* avoid shell constructions that conceal return codes
+* when piping with `tee` under zsh, preserve Python return status
+* only use `git status --short` unless the user explicitly asks for other git commands
+
+Scientific execution rules:
+
+* prefer decisive cheap falsification before expensive simulation
+* preserve all negative results
+* preserve all provenance bugs and repaired bugs
+* distinguish:
+
+  * mathematical existence
+  * microscopic realization
+  * conservation
+  * finite-payload response
+  * stability
+  * convergence
+  * nonlinear consistency
+  * activation/off-state control
+  * empirical viability
+  * practical device
+
+Never promote one accomplishment into another.
+
+---
+
+# 2. PERMANENT CONSERVATIVE ANCHORS
+
+## 2.1 006D remains the strongest fully conservative pure-GR stand-off architecture
+
+Preserve 006D exactly as the strongest conservative pure-GR true-stand-off source.
+
+Properties:
+
+* finite positive energy
+* finite geometry
+* local conservation
+* DEC
+* outward near-field gravity
+* positive far-field active mass
+* finite-payload stand-off
+* coefficient
+
+$$
+C_{006D}=23.591586299249.
+$$
+
+Pure-GR scaling remains
+
+$$
+E=C\frac{ac^2h^2}{G}.
+$$
+
+At
+
+$$
+a=g,\qquad h=1\ {\rm m},\qquad C=1,
+$$
+
+the scale is approximately
+
+$$
+1.32\times10^{28}\ {\rm J}.
+$$
+
+A 1-TJ target would require approximately
+
+$$
+C\approx7.57\times10^{-17}.
+$$
+
+No tested pure-GR mechanism has removed the \(1/G\) burden.
+
+Do not confuse:
+
+* coefficient improvement,
+* pulsing,
+* dynamic stress conversion,
+* guessed \(G_{\rm eff}\),
+* local force enhancement,
+
+with escaping this scaling.
+
+---
+
+# 3. OLDER MICROSCOPIC / PURE-GR STATE
+
+Preserve:
+
+* 018B = microscopic field existence
+* 018C = fatal \(m=2\) instability
+* protected-vector realizations through 022A = closed absent genuinely new protection
+* strongest older microscopic GR field = false-core \(B=7,\eta=0.4,m=8\) Skyrmion
+
+026 state:
+
+* 026A/026B-R4 achieved strict stationarity at \(N=73/81\)
+* topology preserved
+* DEC preserved
+* positive total active mass
+* finite-payload outward sign
+* force magnitude unresolved
+
+Current force sequence:
+
+$$
+F_{65}\approx0.1893,
+$$
+
+$$
+F_{73}\approx1.9664,
+$$
+
+$$
+F_{81}\approx7.2641.
+$$
+
+`026C` \(N=89\) remains mandatory before any force-convergence claim.
+
+026L1/L2 showed B7 is mainly embedded/two-sided rather than a clean one-sided stand-off architecture.
+
+006D therefore remains the strongest conservative pure-GR architecture.
+
+---
+
+# 4. INTROSPECTIVE PROGRAM — DURABLE MECHANISM KNOWLEDGE
+
+The completed Introspective program is mechanism knowledge, not a microscopic field.
+
+Preserve:
+
+* conserved-DEC headroom: approximately **12.8–17.9×**
+* raw teacher headroom: approximately **17,230×**
+* `RAW_GE1000X_SIGNAL=PRESENT`
+* `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`
+
+Important teacher anatomy:
+
+* F50 contained about **7.30%** of total energy
+* F90 contained about **19.66%** of total energy
+* that F90 region supplied about **92.18%** of gross outward influence
+
+Durable design lessons:
+
+1. high payload-kernel leverage
+2. compact payload-adjacent productive structure
+3. strong response per joule
+4. low cancellation
+5. high productive participation
+6. separate productive structure from scaffolding/support structure
+
+026P comparison:
+
+* B7 negative-active participation approximately **5.15%**
+* relaxed optimum approximately **50%**
+* participation gap approximately **9.7×**
+
+Conclusion:
+
+> Geometry alone is insufficient; productive stress/charge participation matters strongly.
+
+Do not reopen abstract source optimization before a stable microscopic field is frozen.
+
+---
+
+# 5. CLOSED 024–030 ROUTES
+
+Preserve as closed/demoted unless genuinely new physics appears.
+
+## 5.1 027
+
+027B achieved reduced
+
+$$
+C\approx3.08,
+$$
+
+but support/virial closure in 027C/D killed the architecture.
+
+## 5.2 028
+
+Tested local scalar-gain routes 028A–C closed.
+
+## 5.3 029
+
+029A found no viable massive-spin-2 source.
+
+## 5.4 030
+
+030A showed tested pulsing, weak GW, and memory routes do not escape the pure-GR \(1/G\) energy burden.
+
+Do not reopen these classes merely because a local reduced-model gain looks attractive.
+
+---
+
+# 6. ACTIVE FRONTIER — 031 ACTIVATED SCALAR-METRIC CHARGE ANTIGRAVITY
+
+031 is the active frontier.
+
+Goal:
+
+> Construct a stable positive-energy microscopic field carrying extremely large opposite-sign gravitational scalar charge per total joule, while ordinary neutral matter responds universally through a single physical metric.
+
+The useful quantity is not merely scalar amplitude.
+
+Optimize roughly:
+
+$$
+\frac{\text{useful gravitational charge}}{\text{total joule}}
+\times
+\text{payload kernel},
+$$
+
+including:
+
+* source energy
+* scalar self-energy
+* activation/gate energy
+* support/control energy
+* GR attraction
+* reaction/backreaction
+* reciprocity
+* leakage
+* range
+* empirical constraints
+
+---
+
+# 7. CRITICAL 031 COUPLING DISTINCTION
+
+Never again conflate the exotic source metric coupling with the ordinary-matter physical metric coupling.
+
+## 7.1 Exotic source coupling
+
+For the exotic \(X\) source:
+
+$$
+A_X(u)=e^{-u^2/2},
+\qquad
+u=\phi/M_c.
+$$
+
+In the activated D3 theory this becomes
+
+$$
+A_X(u,a)
+=
+\exp\left[-\frac12 f(a)u^2\right].
+$$
+
+## 7.2 Ordinary neutral matter coupling
+
+Neutral matter responds through
+
+$$
+A_m(\phi)
+=
+\exp\left[
++\frac{\phi^2}{2M_m^2}
+\right].
+$$
+
+In D3:
+
+$$
+A_m(\phi,a)
+=
+\exp\left[
++\frac{f(a)\phi^2}{2M_m^2}
+\right].
+$$
+
+The positive exponent is essential.
+
+For a localized scalar profile with decreasing \(\phi^2(r)\),
+
+$$
+a_r
+=
+-c^2\frac{d}{dr}\ln A_m
+>0,
+$$
+
+giving outward physical-metric acceleration.
+
+Current scales:
+
+$$
+M_c\sim68.6\ {\rm GeV},
+$$
+
+while
+
+$$
+M_m\approx1.09792445\times10^9\ {\rm GeV}.
+$$
+
+Therefore
+
+$$
+\frac{M_m}{M_c}
+\approx1.6009\times10^7.
+$$
+
+This enormous separation is why ordinary-payload backreaction is tiny despite substantial source scalarization.
+
+---
+
+# 8. 031A / PRESCRIBED-SOURCE RESULTS
+
+031A established:
+
+* exact scalar normalization
+* positive canonical scalar self-energy
+* finite-payload response
+* cavity energy floors
+* strict one-sided energy floors
+* Yukawa/range penalties
+* scalar-charge bounds
+* even-\(Z_2\) scalarization producing outward physical-metric response
+
+031A-R4S achieved a classical prescribed-source benchmark near
+
+$$
+82.750782\ {\rm GJ}.
+$$
+
+Important:
+
+> This was not a microscopic source.
+
+Do not claim a microscopic \(\le83\)-GJ realization.
+
+---
+
+# 9. MINIMAL B7 SCALAR DRESSING — CLOSED
+
+Fixed-field tomography initially looked favorable.
+
+Exact local \(Z_2\) self-consistency in 031B1-B0 raised the energy to roughly
+
+$$
+575\ {\rm GJ},
+$$
+
+and weakened the stabilizing \(e_4\) sector.
+
+Conclusion:
+
+> Minimal B7 scalar-charge dressing is closed.
+
+---
+
+# 10. GLOBAL U(1) Q-BALL MICROSCOPIC SOURCE
+
+The strongest 031 microscopic source is the independent global \(U(1)\) Q-ball realization.
+
+Fields:
+
+$$
+X=\frac{\sigma}{\sqrt2}e^{-i\omega t},
+$$
+
+$$
+y=\sigma/F,
+\qquad
+u=\phi/M_c,
+\qquad
+x=m_Xr,
+$$
+
+$$
+\Omega=\omega/m_X,
+\qquad
+\epsilon=m_\phi/m_X,
+\qquad
+\chi=F/M_c.
+$$
+
+Source potential function:
+
+$$
+W(y)=\frac12\ln(1+y^2).
+$$
+
+Equations:
+
+$$
+y''
++\frac{2}{x}y'
+=
+e^{-u^2/2}
+\frac{y}{1+y^2}
+-
+\Omega^2y,
+$$
+
+$$
+u''
++\frac{2}{x}u'
+=
+\epsilon^2u
+-
+\chi^2e^{-u^2/2}W(y)u.
+$$
+
+The model has:
+
+* positive Hamiltonian
+* global conserved \(U(1)\) charge
+* DEC
+* source reaction to scalar
+* bound-state criterion \(E/(Qm_X)<1\)
+* negligible payload overlap
+* finite-payload outward response
+
+---
+
+# 11. Q-BALL ENERGY LEADERBOARD
+
+Centered anchor:
+
+$$
+E_{\rm inventory}
+\approx273.464\ {\rm GJ}.
+$$
+
+Morphology optimization later found:
+
+* approximately \(103\) GJ
+* edge leader approximately
+
+$$
+96.141319171\ {\rm GJ}.
+$$
+
+The 96-GJ candidate sat very close to:
+
+* \(10^{-4}\) source-leak boundary
+* 1% payload-backreaction boundary
+
+and was therefore not immediately treated as the robust operating point.
+
+The robust interior operating candidate was:
+
+$$
+E_{\rm source}
+=
+121.553587017518\ {\rm GJ}
+$$
+
+before activation/control.
+
+Approximate robust parameters:
+
+$$
+\Omega_X=0.34,
+$$
+
+$$
+\epsilon=0.01,
+$$
+
+$$
+\chi=0.4260182686,
+$$
+
+$$
+{\rm shift}
+\approx0.55195\ {\rm m},
+$$
+
+$$
+\alpha_m\approx29.1941,
+$$
+
+$$
+{\rm leak}=8\times10^{-5},
+$$
+
+$$
+{\rm payload\ backreaction}=0.008.
+$$
+
+Finite-payload acceleration remained above the Earth-gravity cancellation threshold.
+
+---
+
+# 12. SOURCE STABILITY BEFORE ACTIVATION
+
+The 96-GJ source-family candidate received an intrinsic coupled-linear certification.
+
+Broad spectrum:
+
+$$
+l=0,\ldots,8
+$$
+
+showed no non-translation positive real growth at the declared resolution.
+
+The original apparent \(l=1\) mode was diagnosed as a translational Goldstone discretization artifact.
+
+Important historical precedent:
+
+* analytic translation mode constructed
+* discrete residual studied
+* eigenvector overlap measured
+* grid convergence performed
+* translation projected out
+* next \(l=1\) mode checked
+
+D96 classification remained GREEN for the intrinsic \(X+\phi\) source.
+
+This precedent matters for the current D3 activation stability problem.
+
+---
+
+# 13. 031D1 — GATE-FREE SAME-\(Q_X\) OFF-STATE TEST
+
+The natural \(u=0\) branch was tested as a possible gate-free OFF state.
+
+Because the theory is even-\(Z_2\),
+
+$$
+u=0
+$$
+
+has zero linear ordinary-matter scalar coupling.
+
+The OFF scalar operator is
+
+$$
+L_{\rm off}
+=
+-\nabla_x^2
++
+\epsilon^2
+-
+\chi^2W(y).
+$$
+
+## 13.1 D1 low branch
+
+At fixed source charge:
+
+$$
+I_Q
+=
+6594.219892350219.
+$$
+
+Same-\(Q_X\) low branch:
+
+$$
+\Omega_{\rm off}
+\approx0.49396038995.
+$$
+
+Source stability:
+
+$$
+\frac{dQ}{d\omega}
+\approx-68415.9,
+$$
+
+which is source-stable.
+
+But scalar Hessian:
+
+$$
+\lambda_0
+=
+-0.1251375624422016.
+$$
+
+This is a real scalar tachyon.
+
+Uncontrolled e-folding time was approximately
+
+$$
+3.11\times10^{-10}\ {\rm s}.
+$$
+
+Required stabilizing dimensionless mass shift:
+
+$$
+\delta \hat m^2_{\rm crit}
+=
+0.1251375624422016.
+$$
+
+This is approximately
+
+$$
+1251.38
+$$
+
+times the bare \(m_\phi^2\) contribution.
+
+Therefore the low same-\(Q_X\) OFF branch is not naturally stable.
+
+## 13.2 D1 high branch
+
+A second high-\(\omega\) same-charge crossing was investigated.
+
+Approximate high root:
+
+$$
+\mu\approx0.00286615,
+$$
+
+$$
+\omega\approx0.9999958926.
+$$
+
+This branch had:
+
+$$
+dQ/d\omega>0
+$$
+
+with magnitude of order
+
+$$
+8\times10^8,
+$$
+
+so it was source-unstable.
+
+It also had
+
+$$
+E/(Qm_X)>1
+$$
+
+by approximately \(4.1\times10^{-6}\), so it was unbound.
+
+Final D1 conclusion:
+
+```text
+GATE_FREE_SAME_Q_OFFSTATE_ROUTE_CLOSED=True
+AUXILIARY_GATE_REQUIRED=True
+```
+
+This closes the tested gate-free same-\(Q_X\), nodeless \(u=0\) route in the current single-field \(Z_2\) Q-ball theory.
+
+It does **not** close all possible activation architectures.
+
+---
+
+# 14. 031D2 — CANONICAL MEDIATOR-MASS GATE
+
+Canonical auxiliary scalar gate tested:
+
+$$
+V_s
+=
+\frac{\lambda_s}{4}(s^2-v_s^2)^2,
+$$
+
+$$
+V_{\rm int}
+=
+\frac12g_s^2s^2\phi^2.
+$$
+
+Required stabilization with 20% margin:
+
+$$
+\delta \hat m^2_{\rm required}
+=
+0.1501650749306419.
+$$
+
+Current mass scales:
+
+$$
+m_X
+=
+5.9796054667\times10^{-6}\ {\rm eV},
+$$
+
+$$
+m_{\phi,\rm on}
+=
+5.9796054667\times10^{-8}\ {\rm eV}.
+$$
+
+Required additional scalar mass:
+
+$$
+\Delta m
+=
+2.31716520714\times10^{-6}\ {\rm eV}.
+$$
+
+Therefore:
+
+$$
+m_{\phi,\rm off}
+\approx2.31793661806\times10^{-6}\ {\rm eV},
+$$
+
+with off-state scalar range approximately
+
+$$
+0.08513\ {\rm m}.
+$$
+
+D2 numerical history:
+
+* D2A capacity looked possible but implied an actual gate wall scale of roughly 112.7 m
+* D2A therefore demoted
+* D2B corrected scan found candidate parameters near:
+
+  * \(g\approx2.2077\times10^{-9}\)
+  * \(v\approx1049.6\) eV
+  * \(\lambda\approx1.95\times10^{-20}\)
+  * predicted transition scale approximately 52.77 m
+* raw BVP failed
+* D2B-R exact rescaling identity passed but BVP still failed with excessive node count
+* D2C full fixed-\(Q\) source+\(\phi+s\) BVP failed
+* D2C-R logarithmic-gate homotopy became singular
+* D2C-V variational attempt:
+
+  * baseline relative error approximately \(1.18\times10^{-5}\)
+  * three optimizer seeds failed
+  * gradients remained very large
+  * endpoints remained ON-like
+  * therefore unresolved, not promotion-grade
+* D2C-FV sparse finite-volume trust-region attempt:
+
+  * `RUN_RC=1`
+  * stopped at maximum evaluations near \(t=0\)
+
+Final D2 status:
+
+> Strongly demoted under the stop rule.
+
+Do **not** claim mathematical nonexistence.
+
+Do not spend further expensive computation on D2 unless genuinely new analytical leverage appears.
+
+---
+
+# 15. 031D3 — AUXILIARY METRIC ACTIVATION
+
+D3 became the preferred activation architecture.
+
+Introduce an independent complex global-\(U(1)\) activation Q-ball \(Y\).
+
+Define:
+
+$$
+a=|Y|/V,
+$$
+
+$$
+f(a)=1-e^{-a^2/2}.
+$$
+
+Source coupling:
+
+$$
+A_X(u,a)
+=
+\exp\left[
+-\frac12 f(a)u^2
+\right].
+$$
+
+Ordinary-matter physical metric:
+
+$$
+A_m(\phi,a)
+=
+\exp\left[
++\frac{f(a)\phi^2}{2M_m^2}
+\right].
+$$
+
+Structural properties:
+
+### OFF
+
+At
+
+$$
+Y=0,
+$$
+
+we have
+
+$$
+a=0,
+\qquad
+f(0)=0.
+$$
+
+Therefore:
+
+$$
+A_X=1,
+$$
+
+$$
+A_m=1.
+$$
+
+Thus:
+
+* source scalarization is OFF
+* ordinary-matter scalar metric coupling is OFF
+* \(\phi=0\) is an exact OFF configuration
+* bare scalar mass is positive
+
+Near OFF:
+
+$$
+f(a)
+=
+\frac12a^2+\mathcal O(a^4).
+$$
+
+Therefore there is no bilinear \(\phi-Y\) mixing in the quadratic Hessian about \(Y=0\).
+
+### ON
+
+For
+
+$$
+a\gg1,
+$$
+
+$$
+f(a)\to1.
+$$
+
+Therefore the theory recovers the ordinary scalarized source and physical-matter coupling.
+
+### Critical charge-sector fact
+
+ON and OFF are **not the same \(Q_Y\) sector**.
+
+OFF:
+
+$$
+Q_Y=0.
+$$
+
+ON:
+
+$$
+Q_Y\neq0.
+$$
+
+Therefore activation cannot occur by simply “dialing” \(Y\).
+
+A physical mechanism must:
+
+* inject/remove activation charge,
+* or exchange charge with a reservoir.
+
+This is mandatory.
+
+---
+
+# 16. ACTIVATION Q-BALL MODEL
+
+Activation Q-ball potential:
+
+$$
+W_A(a)
+=
+\frac12\ln(1+a^2).
+$$
+
+Energy integral:
+
+$$
+I_E
+=
+4\pi
+\int
+\rho^2
+\left[
+\frac12a'^2
++
+\frac12\Omega_A^2a^2
++
+W_A(a)
+\right]
+d\rho.
+$$
+
+Charge:
+
+$$
+I_Q
+=
+4\pi\Omega_A
+\int
+\rho^2a^2\,d\rho.
+$$
+
+Physical activation energy:
+
+$$
+E_A
+=
+I_EV^2/m_A.
+$$
+
+This activation field has:
+
+* positive canonical Hamiltonian
+* conserved global \(U(1)\) charge
+* solitonic stabilization
+
+---
+
+# 17. 031D3A — ACTIVATION CAPACITY
+
+D3A capacity scan:
+
+* 228 cases
+* 227 passed
+
+Best original capacity point:
+
+$$
+\Omega_Y=0.35,
+$$
+
+$$
+\mu=0.0603406865.
+$$
+
+The original raw activation-energy estimate was extraordinarily small, but it sat at a permissive strong-coupling/EFT boundary.
+
+Do **not** promote the original \(\sim10^{-22}\)-J-class quote.
+
+The candidate was constrained by roughly:
+
+$$
+m_A^2/V^2\sim4\pi,
+$$
+
+and the source-side metric operator scale was only around tens of eV.
+
+Therefore D3A was a capacity proof, not a realistic EFT-qualified implementation.
+
+---
+
+# 18. 031D3A-R — 10-GeV EFT / PAYLOAD PREFLIGHT
+
+A strengthened source-side EFT floor of
+
+$$
+10\ {\rm GeV}
+$$
+
+was imposed.
+
+Important:
+
+> 10 GeV is a declared preflight floor, not a final UV completion.
+
+Best 10-GeV candidate:
+
+$$
+\Omega_Y=0.45,
+$$
+
+$$
+\mu
+=
+0.05346177557001615,
+$$
+
+$$
+V
+=
+1.458108242865562\ {\rm GeV},
+$$
+
+$$
+m_A
+=
+3.196803254561750\times10^{-7}\ {\rm eV}.
+$$
+
+Activation energy:
+
+$$
+E_Y
+=
+6.228597773926\ {\rm GJ}.
+$$
+
+Activation energy fraction of source:
+
+$$
+\approx5.124\%.
+$$
+
+Physical activation charge:
+
+$$
+Q_Y
+=
+2.201803600111565\times10^{35}.
+$$
+
+Source reaction:
+
+$$
+\sim7.62\times10^{-15}.
+$$
+
+Pre-coupling total inventory:
+
+$$
+127.782184791444\ {\rm GJ}.
+$$
+
+A 100-GeV stress test increased activation energy catastrophically to roughly
+
+$$
+46{,}023\ {\rm GJ}.
+$$
+
+Therefore 100 GeV was not adopted as the current promotion requirement.
+
+---
+
+# 19. 031D3A-R2 — PHYSICAL-METRIC NORMALIZATION REPAIR
+
+A major provenance bug was found and repaired.
+
+Earlier payload reaction had incorrectly used the source scale \(M_c\) instead of the ordinary-matter scale \(M_m\).
+
+Correct values:
+
+$$
+\alpha_m
+=
+29.19409424975629,
+$$
+
+$$
+u_{\rm payload}
+\approx0.2107321123,
+$$
+
+$$
+\phi_{\rm payload}
+\approx14.4524326871\ {\rm GeV}.
+$$
+
+Reconstructed ordinary-matter metric scale:
+
+$$
+M_m
+=
+1.097924452346906\times10^9\ {\rm GeV}.
+$$
+
+Ratio:
+
+$$
+M_m/M_c
+=
+1.600892694010682\times10^7.
+$$
+
+Corrected payload reaction:
+
+old incorrect value:
+
+$$
+0.08812516897724.
+$$
+
+correct value:
+
+$$
+3.438551375014167\times10^{-16}.
+$$
+
+Expected suppression:
+
+$$
+(M_c/M_m)^2
+=
+3.901894787744707\times10^{-15}.
+$$
+
+Observed suppression matched to machine precision.
+
+This was a strong provenance confirmation.
+
+Source activation operator scale:
+
+$$
+10\ {\rm GeV}.
+$$
+
+Matter-side metric operator scale:
+
+$$
+40011.15711911719\ {\rm GeV}
+$$
+
+or approximately 40 TeV.
+
+Current pre-coupling D3 inventory remained:
+
+$$
+127.782184791444\ {\rm GJ}.
+$$
+
+D3A-R2 classification:
+
+```text
+GREEN_D3AR2_CORRECT_SOURCE_AND_PHYSICAL_METRIC_NORMALIZATION_PASS
+```
+
+---
+
+# 20. 031D3B — FULL FIXED-\(Q_X,Q_Y\) MICROSCOPIC COUPLED ON FIELD
+
+This was one of the most important successes of the session.
+
+Script:
+
+`simulations/031d3b_full_fixedqx_qy_coupled_activation.py`
+
+This was the first full microscopic ON-state solution simultaneously solving:
+
+* source \(X\)
+* scalar \(\phi\)
+* activation \(Y\)
+
+with:
+
+* fixed \(Q_X\)
+* fixed \(Q_Y\)
+* source/activation reciprocity
+* positive activation energy
+* finite-payload physical-metric response
+
+The physical equations used:
+
+$$
+f(a)
+=
+1-e^{-a^2/2},
+$$
+
+$$
+A_X
+=
+e^{-f(a)u^2/2}.
+$$
+
+Source:
+
+$$
+y''
++\frac2x y'
+=
+A_X
+\frac{y}{1+y^2}
+-
+\Omega_X^2y.
+$$
+
+Scalar:
+
+$$
+u''
++\frac2x u'
+=
+\epsilon^2u
+-
+\chi^2f(a)A_XW_X(y)u.
+$$
+
+Activation:
+
+$$
+a''
++\frac2x a'
+=
+\mu^2
+\left[
+\frac{a}{1+a^2}
+-
+\Omega_Y^2a
+\right]
+-
+\frac{1}{2\rho_Y}
+u^2A_XW_X(y)f'(a).
+$$
+
+Charge targets:
+
+$$
+I_{Q_X}
+=
+6594.219892350219,
+$$
+
+$$
+I_{Q_Y}
+=
+10583.537786052691.
+$$
+
+Physical activation charge:
+
+$$
+Q_Y
+=
+2.201803600111565\times10^{35}.
+$$
+
+Operating frequencies:
+
+$$
+\Omega_X
+\approx0.3399999998877,
+$$
+
+$$
+\Omega_Y
+\approx0.4500000012825.
+$$
+
+Activation/source scale ratio:
+
+$$
+\mu
+=
+0.05346177557001615.
+$$
+
+$$
+\rho_Y
+=
+2.490592146370240\times10^{-3}.
+$$
+
+---
+
+# 21. D3B HOMOTOPY RESULT
+
+Coupling homotopy:
+
+$$
+t=
+0,\ 0.10,\ 0.25,\ 0.50,\ 0.75,\ 1.
+$$
+
+The solution barely moved across the homotopy.
+
+Reason:
+
+Activation is deeply saturated in the productive region.
+
+Central activation:
+
+$$
+a_0
+\approx9.498546.
+$$
+
+Therefore:
+
+$$
+f(a)\approx1
+$$
+
+to machine precision in the useful source region.
+
+Also:
+
+$$
+f'(a)\approx0.
+$$
+
+This means the reciprocal correction is physically included but numerically tiny in the saturated source core.
+
+This is not a failure.
+
+It means the microscopic ON solution is extremely close to the direct product of:
+
+* the already-stable source soliton
+* the activation Q-ball
+
+while still belonging to the full reciprocal coupled theory.
+
+---
+
+# 22. D3B DOMAIN CONVERGENCE
+
+Physical \(t=1\) domains:
+
+$$
+x_{\max}=500,\ 700,\ 900.
+$$
+
+The frequencies, central scalar, central activation field, and charges were essentially identical across the sequence.
+
+Total conservative energies:
+
+$$
+127.782358314\ {\rm GJ},
+$$
+
+$$
+127.782437144\ {\rm GJ},
+$$
+
+$$
+127.782438518\ {\rm GJ}.
+$$
+
+Fractional energy spread:
+
+$$
+6.27662\times10^{-7}.
+$$
+
+Dense equation residual:
+
+$$
+8.58707\times10^{-6}.
+$$
+
+Maximum BVP RMS residual:
+
+$$
+5.62151\times10^{-6}.
+$$
+
+Both fixed charges closed exactly at printed precision.
+
+---
+
+# 23. D3B FINITE-PAYLOAD RESPONSE
+
+Source productive activation:
+
+$$
+f_{\min}=1.0
+$$
+
+at printed precision.
+
+Payload activation:
+
+$$
+f_{\min}
+=
+0.9999999999997287.
+$$
+
+Acceleration ratio relative to the pre-activation scalarized source:
+
+$$
+1.000000001418515
+\lesssim
+\frac{a_{\rm D3}}{a_{\rm source}}
+\lesssim
+1.000000001425199.
+$$
+
+Outward sign:
+
+```text
+PAYLOAD_OUTWARD_SIGN_PASS=True
+```
+
+Therefore activation did not degrade the desired finite-payload response.
+
+---
+
+# 24. D3B ENERGY LEDGER
+
+Activation:
+
+$$
+E_Y
+=
+6.228597769673\ {\rm GJ}.
+$$
+
+Conservative source+scalar:
+
+$$
+E_{X+\phi}
+=
+121.553840748599\ {\rm GJ}.
+$$
+
+Full conservative ON inventory:
+
+$$
+\boxed{
+E_{\rm ON}
+=
+127.782438518272\ {\rm GJ}
+}
+$$
+
+Pre-coupling reference:
+
+$$
+127.782184791444\ {\rm GJ}.
+$$
+
+Source inventory fractional shift:
+
+$$
+2.087396656\times10^{-6}.
+$$
+
+Activation fraction of source:
+
+$$
+0.05124157931
+$$
+
+or approximately
+
+$$
+5.124\%.
+$$
+
+D3B classification:
+
+```text
+GREEN_D3B_FULL_FIXED_QX_QY_COUPLED_MICROSCOPIC_ON_FIELD_EXISTS
+```
+
+This is a genuine promotion.
+
+Meaning:
+
+> A microscopic reciprocal \(X+\phi+Y\) ON field exists at fixed \(Q_X,Q_Y\), with domain convergence, finite-payload outward response, and a conservative positive-energy inventory near 127.7824 GJ.
+
+It is still not a practical device.
+
+---
+
+# 25. 031D3C — COUPLED-LINEAR STABILITY + SWITCHING LEDGER
+
+D3C added:
+
+* activation-field dynamical modes
+* coupled five-field spectrum
+* source/activation cross-Hessian
+* common translation mode
+* relative translation mode retained as physical
+* \(Q_Y\) switching ledger
+
+Baseline:
+
+```text
+94 passed
+```
+
+---
+
+# 26. D3C ACTIVATION BRANCH STABILITY
+
+Activation branch scan around:
+
+$$
+\Omega_Y=0.45.
+$$
+
+Charge slope:
+
+$$
+\frac{dQ_Y}{d\Omega_Y}
+=
+-1.186131506099845\times10^5.
+$$
+
+Therefore:
+
+```text
+Y_BRANCH_SLOPE_STABLE=True
+```
+
+This is favorable.
+
+---
+
+# 27. D3C SATURATION / CROSS-HESSIAN RESULT
+
+In the productive source region:
+
+$$
+1-f
+=
+0
+$$
+
+at machine precision.
+
+Maximum productive derivative:
+
+$$
+f'_{\max}
+=
+2.0377004626\times10^{-18}.
+$$
+
+Background equation defect:
+
+$$
+4.4066463045\times10^{-17}.
+$$
+
+New canonical cross-Hessian magnitude:
+
+$$
+1.6221855066\times10^{-18}.
+$$
+
+Therefore:
+
+> The activation sector is dynamically coupled in principle but the new local \(Y\)-mixing inside the productive saturated core is extraordinarily small.
+
+This strongly supports viewing D3 as two weakly mixed stable solitonic sectors.
+
+---
+
+# 28. D3C FIRST FIVE-FIELD SPECTRUM
+
+Finite-difference sparse spectrum:
+
+$$
+l=0,\ldots,8.
+$$
+
+Results outside \(l=1\):
+
+* \(l=0\): real growth approximately \(10^{-11}\) or below
+* \(l=2,\ldots,8\): real parts approximately numerical zero
+* inherited \(l=3\ldots8\) worst real growth:
+
+$$
+1.4184605840\times10^{-11}.
+$$
+
+No physical instability was found outside the translation sector.
+
+The problematic sector remained \(l=1\).
+
+At:
+
+$$
+R=600,\ h=0.5:
+$$
+
+apparent growth:
+
+$$
+4.16301741077\times10^{-5}.
+$$
+
+At:
+
+$$
+h=0.375:
+$$
+
+$$
+3.12347491176\times10^{-5}.
+$$
+
+At:
+
+$$
+h=0.25:
+$$
+
+$$
+2.08462969337\times10^{-5}.
+$$
+
+Changing the domain:
+
+$$
+R=600\rightarrow800
+$$
+
+at fixed
+
+$$
+h=0.5
+$$
+
+left the apparent value unchanged to approximately
+
+$$
+1.4\times10^{-18}.
+$$
+
+This strongly suggested a grid discretization artifact rather than a finite-domain physical instability.
+
+However:
+
+`which="LR"` ARPACK rightmost searches were incomplete in several sectors.
+
+Therefore original D3C classification was conservatively:
+
+```text
+RED_OR_YELLOW_D3C_COUPLED_LINEAR_STABILITY_NOT_CERTIFIED
+```
+
+Important:
+
+```text
+TRUE D3 INSTABILITY = NOT ESTABLISHED
+```
+
+---
+
+# 29. D3C SWITCHING / OFF-STATE LEDGER
+
+OFF has:
+
+$$
+Q_Y=0.
+$$
+
+Same-\(Q_X\) OFF source frequency:
+
+$$
+\Omega_{X,\rm off}
+=
+0.4939603907371556.
+$$
+
+OFF source:
+
+$$
+E/(Qm_X)
+=
+0.6021212818941611.
+$$
+
+OFF source energy:
+
+$$
+E_{\rm OFF}
+=
+90.815960813651\ {\rm GJ}.
+$$
+
+ON activation inventory:
+
+$$
+6.228597769673\ {\rm GJ}.
+$$
+
+Full ON:
+
+$$
+127.782438518272\ {\rm GJ}.
+$$
+
+Conservative ON-OFF inventory difference:
+
+$$
+\boxed{
+\Delta E_{\rm ON-OFF}
+=
+36.966477704620\ {\rm GJ}
+}
+$$
+
+Physical activation charge transfer required:
+
+$$
+Q_Y
+=
+2.201803600111565\times10^{35}.
+$$
+
+Important:
+
+> The 36.97-GJ difference is **not** established as irreversible switching work.
+
+Also:
+
+> The 6.23-GJ activation inventory cannot be assumed recoverable without a physical reservoir/transfer model.
+
+Power examples from the conservative ON-OFF difference:
+
+1 s:
+
+$$
+3.69665\times10^{10}\ {\rm W}.
+$$
+
+0.1 s:
+
+$$
+3.69665\times10^{11}\ {\rm W}.
+$$
+
+0.01 s:
+
+$$
+3.69665\times10^{12}\ {\rm W}.
+$$
+
+1 ms:
+
+$$
+3.69665\times10^{13}\ {\rm W}.
+$$
+
+1 μs:
+
+$$
+3.69665\times10^{16}\ {\rm W}.
+$$
+
+These are inventory/time illustrative powers, not proven switching-work requirements.
+
+---
+
+# 30. D3C-R — SURGICAL FINITE-DIFFERENCE GOLDSTONE CLOSEOUT
+
+The first attempted D3C-R repair was stopped because it unnecessarily raised the ARPACK iteration ceiling to 120,000 and risked very long runtimes.
+
+That aborted script also had a provenance flaw:
+
+it retained original D3C output filenames and could have overwritten original artifacts.
+
+This was identified before completion.
+
+Do not use that aborted run as a scientific result.
+
+---
+
+# 31. D3C-R SURGICAL REPAIR RESULT
+
+A narrower repair was then used.
+
+It:
+
+* preserved original D3C artifacts
+* reran only incomplete rightmost sectors
+* added a new fine \(l=1\) point
+* used unbuffered output
+* avoided broad \(l=0\ldots8\) reruns
+
+The rightmost ARPACK solver again failed to return eigenpairs in all five targeted repair cases.
+
+Therefore:
+
+> `which="LR"` is now considered numerically unsuitable for this non-normal companion problem.
+
+Do not keep tuning/brute-forcing that method.
+
+However, the near-zero \(l=1\) result improved dramatically.
+
+New point:
+
+$$
+h=0.1875,
+$$
+
+$$
+|s|
+=
+1.56590106464\times10^{-5}.
+$$
+
+Full sequence:
+
+$$
+\begin{array}{c|c}
+h & |s| \\
+\hline
+0.5000 & 4.16301741077\times10^{-5}\\
+0.3750 & 3.12347491176\times10^{-5}\\
+0.2500 & 2.08462969337\times10^{-5}\\
+0.1875 & 1.56590106464\times10^{-5}
+\end{array}
+$$
+
+Power-law fit:
+
+$$
+|s|\propto h^{0.9969441541}.
+$$
+
+Linear continuum intercept:
+
+$$
+7.1603366271\times10^{-8}.
+$$
+
+Quadratic intercept:
+
+$$
+1.0587229918\times10^{-7}.
+$$
+
+Common Goldstone growth power:
+
+$$
+0.9989492183.
+$$
+
+Thus both the suspicious relative-translation-like mode and the common translation artifact scale almost exactly linearly to zero with grid spacing.
+
+D3C-R declared:
+
+```text
+L1_CONTINUUM_ZERO_MODE_CLOSEOUT_PASS=True
+```
+
+and:
+
+```text
+TRUE_D3_INSTABILITY_ESTABLISHED=False
+```
+
+But global coupled-linear certification remained YELLOW because rightmost ARPACK was still incomplete.
+
+---
+
+# 32. D3C-R ANALYTIC TRANSLATION RESIDUALS
+
+Finite-difference analytic translation residuals:
+
+$$
+h=0.5:
+\quad
+R_T
+=
+1.43423\times10^{-3},
+$$
+
+$$
+h=0.375:
+\quad
+R_T
+=
+8.47038\times10^{-4},
+$$
+
+$$
+h=0.25:
+\quad
+R_T
+=
+5.87945\times10^{-4},
+$$
+
+$$
+h=0.1875:
+\quad
+R_T
+=
+7.42493\times10^{-4}.
+$$
+
+The final point did not continue monotonically downward.
+
+Overall residual power:
+
+$$
+\approx0.705.
+$$
+
+Therefore:
+
+> The eigenvalue continuum behavior is much cleaner than the raw analytic-vector residual behavior.
+
+Do not overstate the residual test.
+
+---
+
+# 33. D3C-R2 — INDEPENDENT CHEBYSHEV / DENSE SPECTRAL CLOSEOUT
+
+Because sparse rightmost ARPACK repeatedly failed numerically, an independent method was constructed.
+
+Method:
+
+* Chebyshev-Lobatto radial collocation
+* complete dense `scipy.linalg.eig`
+* no sparse ARPACK
+* recompute \(l=0,1,2\)
+* inherit completed \(l=3\ldots8\)
+* attempt D96-style translation-orthogonal projected-stiffness diagnostic
+
+First R2 run failed before physics because NumPy rejected tuple containers inside `np.block`.
+
+Error:
+
+```text
+TypeError:
+arrays is a tuple.
+Only lists can be used to arrange blocks.
+```
+
+This was an implementation-only failure.
+
+No physics result from that first R2 execution.
+
+The bug was repaired by converting exactly three structural `np.block` containers:
+
+* \(K\)
+* \(G\)
+* companion matrix
+
+from nested tuples to nested lists.
+
+No physics logic was changed.
+
+The repaired R2 then ran successfully.
+
+---
+
+# 34. D3C-R2 REPAIRED CHEBYSHEV SPECTRUM
+
+94-test baseline:
+
+```text
+94 passed
+```
+
+## 34.1 \(l=0\)
+
+Worst physical real growth:
+
+$$
+6.0140044425\times10^{-15}.
+$$
+
+Growth spread:
+
+$$
+4.9597\times10^{-15}.
+$$
+
+Classification:
+
+```text
+CHEB_L0_PASS=True
+```
+
+## 34.2 \(l=1\)
+
+Worst physical real growth:
+
+$$
+1.34447348282\times10^{-6}.
+$$
+
+Declared gate:
+
+$$
+10^{-5}.
+$$
+
+Therefore spectral-growth gate:
+
+```text
+CHEB_L1_PASS=True
+```
+
+Grid spread:
+
+$$
+4.22349860685\times10^{-7}.
+$$
+
+Low-translation-overlap maximum real growth:
+
+$$
+1.34447348282\times10^{-6}.
+$$
+
+Therefore:
+
+```text
+CHEB_LOW_OVERLAP_MODES_PASS=True
+```
+
+Domain comparison:
+
+$$
+R=600\ {\rm vs}\ 800
+$$
+
+growth difference:
+
+$$
+1.04798959404\times10^{-7}.
+$$
+
+Therefore:
+
+```text
+CHEB_DOMAIN_PASS=True
+```
+
+## 34.3 \(l=2\)
+
+Worst physical real growth:
+
+$$
+1.75269758087\times10^{-15}.
+$$
+
+Classification:
+
+```text
+CHEB_L2_PASS=True
+```
+
+## 34.4 inherited \(l=3\ldots8\)
+
+Original rightmost searches in these sectors completed.
+
+Worst inherited real growth:
+
+$$
+1.41846058401\times10^{-11}.
+$$
+
+Classification:
+
+```text
+INHERITED_L3_TO_L8_PASS=True
+```
+
+---
+
+# 35. D3C-R2 TRANSLATION OVERLAP
+
+Translation overlaps:
+
+$$
+N=112:
+\quad
+0.864677388,
+$$
+
+$$
+N=144:
+\quad
+0.990671309,
+$$
+
+$$
+N=176:
+\quad
+0.991790844,
+$$
+
+$$
+N=208:
+\quad
+0.991952678,
+$$
+
+$$
+N=224,\ R=800:
+\quad
+0.992096007.
+$$
+
+The minimum overlap gate failed only because the coarsest \(N=112\) grid gave
+
+$$
+0.8647<0.95.
+$$
+
+At all finer grids the overlap is approximately
+
+$$
+0.991-0.992.
+$$
+
+This strongly suggests the coarse-grid failure may be discretization quality rather than physical loss of the translation mode.
+
+However, the declared gate formally failed:
+
+```text
+CHEB_TRANSLATION_OVERLAP_PASS=False
+```
+
+Do not simply ignore it.
+
+---
+
+# 36. D3C-R2 PROJECTED-STIFFNESS RESULT
+
+The attempted D96-style translation-orthogonal projected stiffness produced:
+
+$$
+K_{\rm proj,0}
+=
+-0.3709
+$$
+
+at \(N=112\),
+
+$$
+-1.0147
+$$
+
+at \(N=144\),
+
+$$
+-2.2656
+$$
+
+at \(N=176\),
+
+$$
+-4.4211
+$$
+
+at \(N=208\),
+
+and
+
+$$
+-3.3452
+$$
+
+for \(N=224,\ R=800\).
+
+Therefore the declared test gave:
+
+```text
+CHEB_TRANSLATION_PROJECTED_STIFFNESS_PASS=False
+```
+
+This blocked final GREEN.
+
+However, this diagnostic is **not yet trusted as a physical negative mode**.
+
+Reason to investigate next session:
+
+Chebyshev collocation operators are not generally symmetric under the ordinary Euclidean vector inner product.
+
+The R2 code projected using:
+
+$$
+P=I-tt^T
+$$
+
+and then called a Hermitian/symmetric eigensolver on the projected \(K\).
+
+That may not be the correct variational inner product for the Chebyshev discretization.
+
+The proper analysis likely requires one of:
+
+* Clenshaw-Curtis/Chebyshev quadrature weights
+* the correct radial energy inner product
+* explicit symmetrization under the weighted inner product
+* a generalized eigenvalue formulation
+* independent Rayleigh quotient / second-variation reconstruction
+
+Therefore:
+
+> Do **not** interpret the negative `KPROJ0` values as an established physical instability until the projected-stiffness operator is rebuilt in the correct weighted variational metric.
+
+This is the highest-priority numerical/mathematical issue for the next session.
+
+---
+
+# 37. CURRENT D3 COUPLED-LINEAR STABILITY STATUS
+
+The correct conservative status at session close is:
+
+```text
+D3B MICROSCOPIC COUPLED ON FIELD EXISTENCE = GREEN
+
+ACTIVATION Q-BALL BRANCH STABILITY = PASS
+
+D3 NEW CROSS-HESSIAN = TINY / PASS
+
+FINITE-DIFFERENCE l=1 CONTINUUM ZERO-MODE BEHAVIOR = PASS
+
+CHEBYSHEV l=0 SPECTRAL GROWTH = PASS
+
+CHEBYSHEV l=1 SPECTRAL GROWTH = PASS
+
+CHEBYSHEV l=2 SPECTRAL GROWTH = PASS
+
+INHERITED l=3..8 SPECTRAL GROWTH = PASS
+
+CHEBYSHEV LOW-TRANSLATION-OVERLAP MODES = PASS
+
+CHEBYSHEV DOMAIN CHECK = PASS
+
+CHEBYSHEV TRANSLATION OVERLAP = FORMAL FAIL DUE COARSE N=112 ONLY
+
+CHEBYSHEV PROJECTED STIFFNESS = FORMAL FAIL / DIAGNOSTIC VALIDITY UNRESOLVED
+
+TRUE D3 INSTABILITY = NOT ESTABLISHED
+
+FINAL COUPLED-LINEAR CERTIFICATION = YELLOW / UNRESOLVED
+```
+
+Do **not** label D3 stable yet.
+
+Also do **not** label D3 unstable.
+
+Current scientific statement:
+
+> Two independent spectral approaches find no reproducible physical exponential instability through \(l=8\), and the apparent finite-difference \(l=1\) growth converges nearly linearly to zero. Formal certification is nevertheless blocked because the independent Chebyshev translation/projected-stiffness subgate has not yet been reconstructed in the correct variational inner product.
+
+---
+
+# 38. CURRENT 031 ENERGY / REALIZATION LEADERBOARD
+
+## Fully conservative pure-GR architecture
+
+006D:
+
+$$
+C=23.591586299249.
+$$
+
+Still strongest completely conservative stand-off architecture.
+
+## Microscopic scalar-metric source leader
+
+031 global \(U(1)\) Q-ball.
+
+## Robust microscopic source energy before activation
+
+Approximately:
+
+$$
+121.5536\ {\rm GJ}.
+$$
+
+## Full microscopic activated ON inventory
+
+$$
+\boxed{
+127.782438518272\ {\rm GJ}
+}
+$$
+
+## Activation inventory
+
+$$
+6.228597769673\ {\rm GJ}.
+$$
+
+## OFF source inventory
+
+$$
+90.815960813651\ {\rm GJ}.
+$$
+
+## Conservative ON-OFF difference
+
+$$
+36.966477704620\ {\rm GJ}.
+$$
+
+## Prescribed-source benchmark
+
+Approximately:
+
+$$
+82.7508\ {\rm GJ}.
+$$
+
+No microscopic \(\le83\)-GJ source has been established.
+
+---
+
+# 39. CURRENT CLAIM HIERARCHY
+
+It is now defensible to say:
+
+### YES
+
+* true outward physical-metric response on neutral matter exists in the model
+* finite-payload outward response has been demonstrated numerically
+* the microscopic \(X+\phi\) source exists
+* the microscopic source has passed a substantial coupled-linear stability stack
+* a microscopic \(Y\) activation Q-ball exists
+* a fully reciprocal microscopic \(X+\phi+Y\) ON solution exists at fixed \(Q_X,Q_Y\)
+* its conservative inventory is approximately 127.7824 GJ
+* domain convergence is excellent
+* activation preserves the finite-payload response
+* the activation field is deeply saturated in the productive region
+* new source/activation cross-Hessian coupling is extremely small
+* no true D3 instability has been established
+* two independent spectral methods currently show very small or zero physical real growth through the tested \(l\) sectors
+
+### NOT YET
+
+* fully certified D3 coupled-linear stability
+* explicit \(Q_Y\) charge-transfer reservoir
+* reversible or efficient switching
+* reset mechanism
+* switching radiation closure
+* nonlinear fragmentation stability
+* full Einstein/physical-metric backreaction
+* radiative naturalness
+* EFT UV completion
+* fifth-force closure
+* EP closure
+* PPN closure
+* far-field leakage closure
+* practical device
+
+---
+
+# 40. CURRENT PROJECT COMPARATIVE STATEMENT
+
+Use this wording conservatively:
+
+> **031 has surpassed 006D as the energy-efficiency and microscopic-source leader, but it has not yet surpassed 006D as the most fully certified conservative true-stand-off architecture.**
+
+006D remains more completely conservative/certified.
+
+031 is dramatically lower-energy but still has unresolved stability/control/backreaction/empirical gates.
+
+---
+
+# 41. NEXT SESSION — FIRST PRIORITY
+
+Do **not** begin with 031D3D.
+
+First close the remaining D3 coupled-linear diagnostic properly.
+
+The immediate next task is:
+
+## 031D3C-R3 — weighted Chebyshev / variational \(l=1\) certification
+
+Goal:
+
+Determine whether the negative R2 projected-stiffness values are:
+
+1. a real physical negative second-variation mode,
+2. a consequence of projecting a non-self-adjoint Chebyshev collocation matrix in the wrong Euclidean inner product,
+3. or another representation artifact of the translational zero mode.
+
+The next analysis should be cheap and surgical.
+
+Recommended sequence:
+
+### A. Derive the correct quadratic energy functional
+
+Write the canonical second variation for:
+
+* \(X\) amplitude
+* \(X\) phase
+* scalar \(u/\chi\)
+* \(Y\) amplitude
+* \(Y\) phase
+
+for \(l=1\).
+
+Do not infer stability directly from a matrix that has not been demonstrated to represent the physical quadratic form.
+
+### B. Identify the correct radial inner product
+
+For reduced radial perturbations, derive the exact energy inner product.
+
+For Chebyshev discretization, implement appropriate quadrature weights.
+
+Likely use:
+
+* Clenshaw-Curtis weights on \([0,R]\), or
+* an equivalent Galerkin-weighted form.
+
+### C. Symmetrize the physical quadratic form
+
+Construct a matrix \(H\) satisfying the discrete analog of the true variational second variation.
+
+Verify numerically:
+
+$$
+H-H^T
+$$
+
+is negligible after weighting/symmetrization.
+
+### D. Reconstruct the exact common translation
+
+Use analytic derivatives of:
+
+* \(X\)
+* \(\phi\)
+* \(Y\)
+
+to construct the common \(l=1\) Goldstone direction.
+
+Measure:
+
+* weighted residual
+* weighted overlap
+* convergence with \(N\)
+* convergence with \(R\)
+
+### E. Project translation using the physical weighted inner product
+
+Do not use simply:
+
+$$
+P=I-tt^T
+$$
+
+unless \(t\) is normalized in the correct energy/quadrature metric.
+
+Use the weighted projector.
+
+### F. Compute the next eigenvalue / Rayleigh minimum
+
+After removing only the exact common translation, compute:
+
+$$
+\lambda_{\rm next}.
+$$
+
+Interpretation:
+
+* robustly positive and convergent → D3 coupled-linear certification can likely become GREEN
+* negative and convergent → genuine \(l=1\) instability; D3 must be demoted/fixed
+* approaches zero with refinement → likely another symmetry/discretization issue; diagnose before promotion
+
+### G. Cross-check relative translation
+
+The relative displacement between:
+
+* \(X+\phi\) source
+* activation \(Y\)
+
+is **not** an exact symmetry.
+
+Do not project it away.
+
+A growing relative-translation mode would be a real physical problem.
+
+---
+
+# 42. IF D3 COUPLED-LINEAR STABILITY FINALLY GOES GREEN
+
+Only then proceed to:
+
+## 031D3D — explicit \(Q_Y\) transfer / reservoir / reset / radiation
+
+Requirements:
+
+* introduce a physical mechanism that conserves total activation charge
+* ON sector has \(Q_Y\neq0\)
+* OFF sector has \(Q_Y=0\)
+* no spatially prescribed activation
+* no hand-set local coupling
+* no hand-set local mediator mass
+* reservoir must have its own stress-energy
+* transfer mechanism must be reciprocal
+* charge transport energy must be included
+* formation/reset energy must be included
+* switching time must be explicit
+* switching power must be explicit
+* radiation must be estimated
+* reset recoverability must not be assumed
+* momentum reaction must be accounted for
+
+Current charge to handle:
+
+$$
+Q_Y
+=
+2.201803600111565\times10^{35}.
+$$
+
+Current activation inventory:
+
+$$
+6.2286\ {\rm GJ}.
+$$
+
+Current conservative ON-OFF difference:
+
+$$
+36.9665\ {\rm GJ}.
+$$
+
+These values give the scale the reservoir must confront.
+
+---
+
+# 43. AFTER 031D3D
+
+If activation/control survives:
+
+## 031E — full physical metric / Einstein backreaction
+
+Must include:
+
+* physical metric sourced by complete stress-energy
+* source \(X\)
+* scalar \(\phi\)
+* activation \(Y\)
+* reservoir/control fields
+* supports
+* payload
+* scalar stress-energy
+* GR attraction
+* reaction/backreaction
+* finite-payload response
+* far-field behavior
+* nonlinear metric consistency
+
+Need to verify the outward scalar-metric effect survives the ordinary attractive Einstein response of the full energy inventory.
+
+---
+
+# 44. FINAL 031F STACK
+
+After 031E:
+
+* nonlinear stability
+* fragmentation/fission
+* large perturbations
+* radiative stability
+* loop corrections
+* naturalness
+* EFT cutoff
+* UV consistency
+* fifth-force bounds
+* equivalence-principle constraints
+* PPN constraints
+* far-field leakage
+* astrophysical/cosmological consistency where applicable
+* activation radiation
+* control losses
+* practical energy/power accounting
+
+Only after this should the broader project documentation be promoted.
+
+---
+
+# 45. ESTIMATED REMAINING MAJOR RUNS
+
+If the D3 stability diagnostic is repaired cleanly:
+
+approximately **3 major scientific gates** remain after stability:
+
+1. 031D3D — explicit activation reservoir/transfer/reset/radiation
+2. 031E — full metric/Einstein/backreaction
+3. 031F — nonlinear/EFT/radiative/empirical closeout
+
+This estimate assumes no new fatal issue.
+
+Do not force a predetermined number of runs.
+
+A newly discovered inconsistency takes priority over schedule.
+
+---
+
+# 46. IMPORTANT NEGATIVE / PROVENANCE RESULTS FROM THIS SESSION
+
+Preserve these explicitly.
+
+1. Gate-free same-\(Q\) OFF state failed:
+
+   * low branch scalar tachyon
+   * high branch source-unstable and unbound
+
+2. Canonical mediator-mass D2 gate strongly demoted:
+
+   * repeated BVP/variational/numerical failure
+   * no mathematical nonexistence theorem claimed
+
+3. D3A ultra-low activation-energy quote was not EFT-qualified and must not be promoted.
+
+4. D3A-R payload reaction initially used wrong coupling scale.
+
+   * source \(M_c\) was incorrectly used where matter \(M_m\) belongs
+   * corrected reaction became \(3.44\times10^{-16}\)
+
+5. Original D3C sparse rightmost ARPACK was numerically incomplete.
+
+   * this is not evidence of instability
+
+6. First D3C-R repair was too computationally expensive and risked overwriting original artifacts.
+
+   * aborted intentionally
+
+7. Surgical D3C-R confirmed rightmost `which="LR"` ARPACK repeatedly fails to return eigenpairs.
+
+   * stop brute-force tuning of this solver
+
+8. First D3C-R2 Chebyshev run failed because `np.block` was passed nested tuples.
+
+   * implementation bug only
+   * no physics result
+
+9. R2 was patched by converting exactly three `np.block` structural containers to lists.
+
+   * physics logic unchanged
+
+10. Repaired D3C-R2 independent dense spectra passed all direct real-growth gates.
+
+* final certification still blocked by auxiliary translation/projection diagnostics
+
+11. Negative Chebyshev projected stiffness is not yet trusted as physical because the discrete operator/inner product has not been demonstrated to be the correct self-adjoint variational representation.
+
+---
+
+# 47. CURRENT BEST SCIENTIFIC INTERPRETATION
+
+The strongest current interpretation is:
+
+> A stable-looking microscopic scalar-metric antigravity source has been constructed and combined with an independent conserved activation soliton into a fully reciprocal fixed-\(Q_X,Q_Y\) microscopic ON solution with a conservative energy inventory of approximately 127.8 GJ. The activation sector is deeply saturated, adds only about 5.1% to the source inventory, preserves finite-payload outward response, and couples extraordinarily weakly to the source perturbatively. Multiple stability diagnostics find no reproducible physical positive-growth mode through \(l=8\), and the finite-difference \(l=1\) anomaly converges almost exactly to zero with grid spacing. However, final coupled-linear certification is still withheld because the independent Chebyshev translation/projected-stiffness diagnostic must be reconstructed using the correct weighted variational inner product.
+
+This is the correct claim level.
+
+Do not strengthen it.
+
+---
+
+# 48. PRACTICALITY STATUS
+
+No practical device exists.
+
+Current ON inventory:
+
+$$
+127.8\ {\rm GJ}.
+$$
+
+That is vastly below the pure-GR \(10^{28}\)-J-class scale, but it is still enormous for ordinary engineering.
+
+Additionally unresolved:
+
+* activation charge generation
+* activation charge storage
+* reservoir
+* reset
+* power
+* switching radiation
+* nonlinear stability
+* full gravity backreaction
+* quantum corrections
+* experimental constraints
+
+Therefore:
+
+```text
+THEORETICAL MODEL = ADVANCED BUT UNVERIFIED
+MICROSCOPIC ON FIELD = YES
+FINITE-PAYLOAD OUTWARD RESPONSE = YES
+FULL COUPLED-LINEAR CERTIFICATION = NOT YET
+ACTIVATION CONTROL = NOT YET
+FULL GR/EINSTEIN CLOSURE = NOT YET
+EMPIRICAL CLOSURE = NOT YET
+PRACTICAL DEVICE = NO
+```
+
+---
+
+# 49. SESSION-END PROJECT POSITION
+
+The project should resume next session from:
+
+```text
+ACTIVE_FRONTIER = 031D3C-R3
+QUESTION = IS THE CHEBYSHEV NEGATIVE PROJECTED STIFFNESS PHYSICAL
+           OR AN INNER-PRODUCT / COLLOCATION ARTIFACT?
+
+D3B_MICROSCOPIC_ON_FIELD = GREEN
+
+D3C_DIRECT_SPECTRAL_GROWTH = FAVORABLE
+
+D3C_FINITE_DIFFERENCE_L1_CONTINUUM = PASS
+
+D3CR2_CHEBYSHEV_L0 = PASS
+D3CR2_CHEBYSHEV_L1 = PASS
+D3CR2_CHEBYSHEV_L2 = PASS
+D3CR2_INHERITED_L3_TO_L8 = PASS
+
+TRUE_D3_INSTABILITY = NOT ESTABLISHED
+
+D3_COUPLED_LINEAR_CERTIFICATION = YELLOW
+
+NEXT = REBUILD l=1 SECOND-VARIATION / PROJECTED-STIFFNESS TEST
+       WITH CORRECT WEIGHTED VARIATIONAL INNER PRODUCT
+
+DO_NOT_ADVANCE_TO_D3D_UNTIL_THIS_IS_RESOLVED
+```
+
+---
+
+# 50. DOCUMENTATION INSTRUCTION FOR NEXT SESSION
+
+At the beginning of the next session:
+
+1. reconstruct the research state from:
+
+   * newest carry-over notes
+   * newest journal
+   * newest codebundle
+   * newest simulation scripts
+   * newest result artifacts/logs
+
+2. treat these as newer than:
+
+   * buildplan
+   * README
+   * older notes
+   * older journals
+
+3. **do not update the buildplan or README yet**
+
+4. **do not update broader documentation until the 031 model is completely verified**
+
+5. once 031 survives:
+
+   * microscopic stability
+   * activation/control
+   * Einstein/backreaction
+   * nonlinear/EFT/empirical closure
+
+then perform the coordinated documentation update.
+
+The next session should therefore begin with scientific verification, not documentation cleanup.
+
+---
+
+# 51. FINAL CARRY-OVER ONE-PARAGRAPH SUMMARY
+
+031 is now the clear active frontier. A global-\(U(1)\) Q-ball source plus canonical scalar and independent global-\(U(1)\) metric-activation Q-ball has produced a fully reciprocal microscopic fixed-\(Q_X,Q_Y\) ON solution with excellent domain convergence, outward finite-payload physical-metric response, positive conservative energy, and total inventory \(127.782438518\) GJ. Activation contributes \(6.228598\) GJ and is deeply saturated, leaving new source/activation perturbative coupling at only \(\sim10^{-18}\). The activation branch is source-stable, finite-difference \(l=1\) growth converges approximately as \(h^{0.997}\) to zero, independent Chebyshev dense spectra pass direct growth gates for \(l=0,1,2\), and inherited \(l=3\ldots8\) remain clean. No true D3 instability has been established. Final coupled-linear certification remains YELLOW solely because the independent Chebyshev translation/projected-stiffness subgate failed; the negative projected stiffness is not yet trustworthy because the collocation operator was projected/evaluated in an ordinary Euclidean inner product rather than a demonstrated physical weighted variational metric. The next session must first rebuild that \(l=1\) second-variation/projection test correctly. Only if that passes should work advance to 031D3D explicit \(Q_Y\) reservoir/transfer/reset/radiation, followed by 031E full Einstein/physical-metric backreaction and 031F nonlinear/EFT/radiative/empirical closeout. Buildplan, README, and other broad documentation are intentionally not being updated until this model is completely verified.
+
+
+
+### END NOTE - SEPTEMBER 4 2026 - 11:40 CST
