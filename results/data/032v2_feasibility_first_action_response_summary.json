@@ -1,0 +1,146 @@
+{
+  "branch": "032V2_FEASIBILITY_FIRST_ACTION_RESPONSE_TEMPLATES",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "MATHEMATICAL_DESIGN_TARGET_GENERATOR_NOT_PHYSICAL_MODEL_SEARCH",
+  "claim_discipline": {
+    "eft_required_next": true,
+    "explicit_physical_action_match_required_next": true,
+    "microscopic_source_required_next": true,
+    "naturalness_required_next": true,
+    "reference_equivalent_energy_is_complete_operating_energy": false,
+    "sub10_template_is_certified_antigravity": false,
+    "templates_are_physical_models": false,
+    "templates_inserted_into_agminer_database": false,
+    "universal_physical_metric_required_next": true
+  },
+  "decision": "GREEN_ROBUST_SUB10MJ_ACTION_RESPONSE_TARGETS_EXIST",
+  "exact_requirements": [
+    {
+      "required_amplitude_response_gain": 2.307389582874982,
+      "required_susceptibility_gain": 5.324046687159985,
+      "total_tax": 1.0
+    },
+    {
+      "required_amplitude_response_gain": 3.2631416417801984,
+      "required_susceptibility_gain": 10.64809337431997,
+      "total_tax": 2.0
+    },
+    {
+      "required_amplitude_response_gain": 5.159479957883345,
+      "required_susceptibility_gain": 26.620233435799925,
+      "total_tax": 5.0
+    },
+    {
+      "required_amplitude_response_gain": 7.2966065312307915,
+      "required_susceptibility_gain": 53.24046687159985,
+      "total_tax": 10.0
+    }
+  ],
+  "historical_comparison_only": {
+    "conserved_dec_headroom_range": [
+      12.8,
+      17.9
+    ],
+    "cross_theory_headrooms_multiplied": false,
+    "productive_participation_gap": 9.7,
+    "raw_teacher_headroom": 17230.0
+  },
+  "least_deformed_target": {
+    "amplitude_response_gain": 2.5682520968387075,
+    "band": "TARGET_LT_10MJ",
+    "cancellation_tax": 1.0243379678577185,
+    "certification_eligible": false,
+    "complete_energy_prediction": false,
+    "distance_from_unit_template": 0.3924826214403596,
+    "g1": 1.2340969354845583,
+    "g2": 1.5574332042597234,
+    "index": 479495,
+    "kinetic_condition_number": 2.187970289221572,
+    "kinetic_min_eigenvalue": 0.5983999531185353,
+    "physical_model": false,
+    "positive_hamiltonian": true,
+    "productive_participation": 0.9796930602751672,
+    "reference_equivalent_energy_j": 8859331.480271252,
+    "reference_equivalent_energy_mj": 8.859331480271251,
+    "rho": -0.36766540352255106,
+    "scaffold_tax": 1.0497385838848743,
+    "susceptibility_gain": 6.595918832916418,
+    "total_tax": 1.097575487057604,
+    "z1": 1.0160944949136324,
+    "z2": 0.8915867766998399
+  },
+  "lowest_reference_equivalent_energy_target": {
+    "amplitude_response_gain": 6.256947939363405,
+    "band": "TARGET_LT_10MJ",
+    "cancellation_tax": 1.1118931230157614,
+    "certification_eligible": false,
+    "complete_energy_prediction": false,
+    "distance_from_unit_template": 2.7657512182329658,
+    "g1": 2.9571035499684513,
+    "g2": 2.666690044105053,
+    "index": 312377,
+    "kinetic_condition_number": 2.0732333838155235,
+    "kinetic_min_eigenvalue": 0.40048977371299826,
+    "physical_model": false,
+    "positive_hamiltonian": true,
+    "productive_participation": 0.9113529738970101,
+    "reference_equivalent_energy_j": 1789571.7044674584,
+    "reference_equivalent_energy_mj": 1.7895717044674584,
+    "rho": -0.34360287245362997,
+    "scaffold_tax": 1.0785887919183976,
+    "susceptibility_gain": 39.149397515903956,
+    "total_tax": 1.3159286189276995,
+    "z1": 0.6562774450628837,
+    "z2": 0.5745210973886271
+  },
+  "next": "032V3_MATCH_ROBUST_TARGETS_TO_EXPLICIT_SYMMETRY_PROTECTED_PHYSICAL_ACTIONS",
+  "reference_control": {
+    "declared_branch_reopened": false,
+    "energy_j": 53240466.87159985,
+    "name": "032N1_GHOST_CONDENSATE_CONTINUUM_FLOOR",
+    "target_factor": 5.324046687159985
+  },
+  "search": {
+    "kinetic_condition_number_max": 5.0,
+    "kinetic_min_eigenvalue_requirement": 0.4,
+    "mechanism_100mj_to_1gj_count": 140133,
+    "near_10_to_100mj_count": 772734,
+    "parameter_box": {
+      "cancellation_tax": [
+        1.0,
+        2.0
+      ],
+      "g1_g2": [
+        0.5,
+        3.0
+      ],
+      "productive_participation": [
+        0.5,
+        1.0
+      ],
+      "rho": [
+        -0.5,
+        0.5
+      ],
+      "scaffold_tax": [
+        1.0,
+        5.0
+      ],
+      "z1_z2": [
+        0.5,
+        2.0
+      ]
+    },
+    "robust_count": 980794,
+    "samples": 1048576,
+    "target_lt10mj_count": 67459
+  },
+  "strict_policy_changed": false,
+  "strict_target_j": 10000000.0,
+  "template_action": {
+    "energy": "E=1/2*x^T*H*x",
+    "hamiltonian_positive_definite_required": true,
+    "minimum_energy_scaling": "E_min proportional to 1/(k^T H^-1 k)",
+    "useful_response": "A=k^T*x"
+  }
+}

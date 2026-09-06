@@ -1,0 +1,64 @@
+{
+  "branch": "032S1_CUBIC_MAG_PURE_DILATION_EXTERIOR_HAMILTONIAN",
+  "claim_class": "EXACT_GHOST_FREE_QUADRATIC_EXTERIOR_ENERGY_GATE",
+  "decision": "RED_PURE_DILATION_CANONICAL_RN_ENERGY_BURDEN",
+  "declared_stable_pure_dilation_branch_closed": true,
+  "finite_payload_input_from_032S0": {
+    "required_q_metric_m2": 2.946069723321201e-18,
+    "source_radius_m": 0.09999999700712055,
+    "turnover_radius_m": 3.5654972755778036e+19
+  },
+  "finite_source_matching_needed_to_rescue_energy_gate": false,
+  "full_cubic_mag_family_closed": false,
+  "literature_equations_reconstructed": {
+    "metric_dilation_coefficient_simplifies_to_4w": true,
+    "positive_kinetic_square_identity": true,
+    "pure_dilation_lambda_zero": true,
+    "pure_dilation_saturates_square_bound": true,
+    "pure_dilation_weyl_trace_reconstruction": true,
+    "torsion_to_weyl_field_strength_ratio_3_over_2": true
+  },
+  "negative_binding_allowed_to_game_objective": false,
+  "next": "032S2_CUBIC_MAG_SHEAR_CHARGE_LEVERAGE_PREFLIGHT",
+  "numeric_stress": {
+    "max_cancellation_ratio": 9.39841834002953e+33,
+    "max_relative_error": 5.543317248524418e-68,
+    "max_schur_ratio_to_4w": 1.0,
+    "min_schur_ratio_to_4w": 1.0,
+    "multiprecision_decimal_digits": 100,
+    "pass": true,
+    "samples": 20000
+  },
+  "positive_exterior_inventory": {
+    "032s0_benchmark_j": 1.782748691144421e+27,
+    "formula": "Q*c^4/(2*G*R)",
+    "radius_for_tail_to_fall_to_10mj_ly": 1884.3667969991166,
+    "radius_for_tail_to_fall_to_10mj_m": 1.782748637788902e+19,
+    "radius_for_tail_to_fall_to_10mj_pc": 577.7494863631428,
+    "relative_match_to_032s0_benchmark": 0.0,
+    "required_charge_per_joule_enhancement_vs_exact_dilation": 1.782748691144421e+20,
+    "required_surviving_fraction_for_10mj": 5.6093155752539535e-21,
+    "source_surface_energy_j": 1.782748691144421e+27,
+    "source_surface_energy_over_10mj": 1.782748691144421e+20,
+    "tail_energy_at_turnover_radius_j": 5000000.0
+  },
+  "shear_charge_branch_closed": false,
+  "source_internal_energy_included": false,
+  "spin_charge_branch_closed": false,
+  "strict_sub10mj_pure_dilation_branch": false,
+  "support_control_energy_included": false,
+  "symbolic": {
+    "F_T_over_F_W": "3/2",
+    "Lambda_r": "0",
+    "Lambda_t": "0",
+    "T_r_charge": "-3*kd/(2*psi*r)",
+    "T_t_charge": "3*kd/(2*r)",
+    "W_r": "-kd/(psi*r)",
+    "W_t": "kd/r",
+    "positive_kinetic_form": "(4*FT**2*x - 12*FT*FW*x + 288*FW**2*w + 9*FW**2*x)/72",
+    "pure_dilation_positive_kinetic": "4*FW**2*w",
+    "q_d": "4*kd**2*w",
+    "square_form": "(4*FT**2*x - 12*FT*FW*x + 288*FW**2*w + 9*FW**2*x)/72"
+  },
+  "those_omissions_can_only_increase_positive_inventory": true
+}

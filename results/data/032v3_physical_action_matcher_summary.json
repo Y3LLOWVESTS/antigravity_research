@@ -1,0 +1,122 @@
+{
+  "asymmetron": {
+    "014a_full_nonlinear_repulsion_found": false,
+    "014a_standard_symmetron_tested_cases": 20,
+    "bubble_branch_closed": false,
+    "bubble_complete_energy_established": false,
+    "bubble_finite_payload_repulsion_established": false,
+    "dlnA_dz": "2*phi*phip/(2*M_positive**2 + phi**2)",
+    "minimal_screened_body_direction": "INWARD",
+    "minimal_screened_body_outward": false,
+    "weyl_factor": "A=1+phi^2/(2M^2)+..."
+  },
+  "branch": "032V3_PHYSICAL_ACTION_MATCHER",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "LITERATURE_AND_PROJECT_PROVENANCE_RERANK_NOT_MODEL_CERTIFICATION",
+  "decision": "GREEN_PHYSICAL_MATCHER_GHOST_CONDENSATE_COEFFICIENT_PROVENANCE_TOP",
+  "ghost_condensate": {
+    "full_family_closed": false,
+    "kappa_23_complete_field_certified": false,
+    "kappa_23_naturalness_certified": false,
+    "kappa_23_stability_certified": false,
+    "kappa_explicit_eft_mapping_derived": false,
+    "m_only_escape_within_minimal_cap": false,
+    "minimal_project_m_cap_gev": 100.0,
+    "n1_energy_j_at_kappa10": 53240466.87159985,
+    "n1_kappa": 10.0,
+    "required_amplitude_gain": 2.307389582874982,
+    "required_kappa_for_10mj": 23.073895828749823,
+    "required_m_gev_at_kappa10": 151.90094084221408,
+    "required_susceptibility_gain": 5.324046687159984,
+    "v2_least_target_equivalent_kappa": 25.682520968387074,
+    "v2_no_tax_amplitude_identity_relerr": 0.0
+  },
+  "matcher_matrix": [
+    {
+      "candidate": "SHIFT_SYMMETRIC_GHOST_CONDENSATE",
+      "energy_proximity": "53.2404669_MJ_OPTIMISTIC_N1_CONTROL",
+      "explicit_action": "YES",
+      "hard_blocker": "KAPPA_NOT_YET_MAPPED_TO_EXPLICIT_STABLE_EFT_COEFFICIENT",
+      "healthy_sector": "CONDITIONAL_EFT_BACKGROUND",
+      "next_test": "DERIVE_KAPPA_FROM_EXPLICIT_GHOST_EFT_AND_TEST_KAPPA_23_TO_26",
+      "priority": 1,
+      "repulsive_or_antigravitating_mechanism": "YES_IN_LITERATURE_AND_PROJECT_PREFIELD",
+      "status": "OPEN_HIGHEST_PRIORITY",
+      "universal_neutral_metric_response": "YES_GRAVITATIONAL",
+      "v2_amplitude_gap": 2.307389582874982
+    },
+    {
+      "candidate": "2026_ASYMMETRON_BUBBLE_BRANCH",
+      "energy_proximity": "NOT_DERIVED",
+      "explicit_action": "YES",
+      "hard_blocker": "MINIMAL_SCREENED_BODY_FORCE_INWARD_BUBBLE_STANDOFF_UNRESOLVED",
+      "healthy_sector": "CANONICAL_SCALAR_METASTABLE_VACUA",
+      "next_test": "ONLY_AFTER_GHOST_PROVENANCE_OR_IF_BUBBLE_HAS_NEW_OUTWARD_METRIC_SIGN",
+      "priority": 2,
+      "repulsive_or_antigravitating_mechanism": "NOT_ESTABLISHED_FOR_BUBBLE_PAYLOAD",
+      "status": "SECONDARY_OPEN_NEW_BRANCH",
+      "universal_neutral_metric_response": "YES_JORDAN_METRIC",
+      "v2_amplitude_gap": ""
+    },
+    {
+      "candidate": "CUBIC_MAG_SHEAR_CHARGE",
+      "energy_proximity": "NOT_AUTHORIZED",
+      "explicit_action": "YES",
+      "hard_blocker": "POSITIVE_TENSOR_HAMILTONIAN_NOT_CERTIFIED",
+      "healthy_sector": "TENSOR_SECTOR_UNRESOLVED",
+      "next_test": "FULL_TENSOR_HAMILTONIAN_ONLY_IF_RERANK_JUSTIFIES_COST",
+      "priority": 3,
+      "repulsive_or_antigravitating_mechanism": "METRIC_COEFFICIENT_EXISTS",
+      "status": "BLOCKED_UNRESOLVED",
+      "universal_neutral_metric_response": "YES_IF_EXACT_METRIC_BRANCH_HEALTHY",
+      "v2_amplitude_gap": ""
+    },
+    {
+      "candidate": "HEALTHY_SYMMETRIC_MAG_SPIN3",
+      "energy_proximity": "NOT_AUTHORIZED",
+      "explicit_action": "YES",
+      "hard_blocker": "ORDINARY_MATTER_SOURCE_PORTAL_ABSENT",
+      "healthy_sector": "YES_LINEARIZED",
+      "next_test": "WAIT_FOR_EXPLICIT_SYMMETRY_PROTECTED_UNIVERSAL_PORTAL",
+      "priority": 4,
+      "repulsive_or_antigravitating_mechanism": "NO_MINIMAL_METRIC_ONLY_RESPONSE",
+      "status": "BLOCKED_BY_032T_032U",
+      "universal_neutral_metric_response": "NO_PORTAL_ESTABLISHED",
+      "v2_amplitude_gap": ""
+    },
+    {
+      "candidate": "STRONG_FIELD_SCALARIZATION_CLASS",
+      "energy_proximity": "NO_LAB_TRIGGER_ESTABLISHED",
+      "explicit_action": "YES_MULTIPLE_THEORIES",
+      "hard_blocker": "KNOWN_SCALARIZATION_IS_STRONG_GRAVITY_TRIGGERED",
+      "healthy_sector": "THEORY_DEPENDENT",
+      "next_test": "ONLY_PROMOTE_IF_NEW_LOW_COMPACTNESS_ACTIVATION_MECHANISM_FOUND",
+      "priority": 5,
+      "repulsive_or_antigravitating_mechanism": "NOT_ESTABLISHED_AT_LAB_COMPACTNESS",
+      "status": "LOW_PRIORITY_NOT_CLOSED",
+      "universal_neutral_metric_response": "YES_IN_SCALAR_TENSOR_REALIZATIONS",
+      "v2_amplitude_gap": ""
+    }
+  ],
+  "new_physical_model_certified": false,
+  "next": "032V4_GHOST_CONDENSATE_EFFECTIVE_CHARGE_COEFFICIENT_PROVENANCE",
+  "promoted_candidate": "SHIFT_SYMMETRIC_GHOST_CONDENSATE",
+  "promoted_status": "OPEN_HIGHEST_PRIORITY",
+  "strict_policy_changed": false,
+  "strict_target_j": 10000000.0,
+  "strong_field_scale": {
+    "10mj_mass_kg": 1.1126500560536184e-10,
+    "compactness_at_10cm": 8.262717639698036e-37,
+    "compactness_at_planck_length": 0.005112261146723776,
+    "used_as_no_go_theorem": false
+  },
+  "templates_are_physical_models": false,
+  "v2_target": {
+    "amplitude_gain": 2.5682520968387075,
+    "equivalent_energy_j": 8859331.480271252,
+    "kinetic_condition_number": 2.187970289221572,
+    "kinetic_min_eigenvalue": 0.5983999531185353,
+    "susceptibility_gain": 6.595918832916418,
+    "total_tax": 1.097575487057604
+  }
+}

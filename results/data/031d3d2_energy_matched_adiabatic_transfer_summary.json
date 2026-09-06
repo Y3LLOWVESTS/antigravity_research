@@ -1,0 +1,90 @@
+{
+  "claim_class": "ADIABATIC_MULTISCALE_FIXED_CHARGE_TRANSFER_CLOSEOUT",
+  "claim_limits": [
+    "GREEN closes D3D only at the adiabatic multiscale flat-space effective-theory level.",
+    "The spectator R mass is one globally fixed parameter, not a spatially prescribed coupling.",
+    "The X+phi source response is solved self-consistently along the prescribed conserved-charge population path.",
+    "The Y/R population path is an explicit finite-energy collective path, not a carrier-resolved nonlinear PDE trajectory.",
+    "Only leading single-particle radiation thresholds and the slow scalar envelope are closed here.",
+    "Higher-harmonic, nonlinear fragmentation and multiparticle radiation remain for 031F.",
+    "Einstein backreaction remains for 031E.",
+    "EFT/naturalness and empirical fifth-force/EP/PPN closure remain for 031F.",
+    "No practical antigravity device is established."
+  ],
+  "classification": "YELLOW_OR_RED_D3D2_ENERGY_MATCHED_TRANSFER_CLOSEOUT_FAILED",
+  "controller_remap": {
+    "inherited_boundedness_pass": true,
+    "mapped_gate_energy_1s_J": 18428.948790774528,
+    "mapped_stabilizer_barrier_half_J": 35.14542782112581,
+    "mode_overlap_gain": 0.06564242012545334
+  },
+  "decision": {
+    "full_D3D_adiabatic_multiscale_closed": false,
+    "full_carrier_resolved_radial_PDE_solved": false,
+    "prerequisites": false
+  },
+  "energy_matched_reservoir": {
+    "E_over_Qm": 0.5523131805289669,
+    "m_R_eV": 1.8972898911007225e-06,
+    "m_Y_eV": 3.1968032545617497e-07,
+    "mass_ratio": 5.934959833368983,
+    "mu_R": 0.317293490628633,
+    "pass": true,
+    "rebuilt_R_energy_J": 36966482341.05615,
+    "relative_error": 1.2542269780574015e-07,
+    "rho_R": 0.08772799069167786,
+    "target_R_energy_J": 36966477704.62021
+  },
+  "hamiltonian_provenance": {
+    "Y_certified_J": 6228597769.672653,
+    "Y_rebuilt_J": 6228598108.122351,
+    "Y_relerr": 5.4338021432648604e-08,
+    "common_energy_scale_J": 22872560.202018753,
+    "full_ON_certified_J": 127782438518.27162,
+    "full_ON_rebuilt_J": 81541854973.71555,
+    "full_ON_relerr": 0.3618696284148947,
+    "pass": false,
+    "source_ON_rebuilt_J": 75313256865.5932,
+    "source_ON_relerr": 0.3804123637577346,
+    "source_ON_target_J": 121553840748.59897
+  },
+  "next": "DIAGNOSE_ONLY_FAILED_D3D2_ENERGY_BRANCH_PATH_OR_RADIATION_SUBGATE",
+  "path": {
+    "endpoint_match_pass": false,
+    "endpoint_relerr": Infinity,
+    "finite_path_pass": false,
+    "max_abs_chirp_Hz": Infinity,
+    "reversible_barrier_J": NaN
+  },
+  "radiation": {
+    "fundamental_S_closed": false,
+    "higher_harmonics_deferred_031F": true,
+    "mS_eV": 3.1968032545617495e-06,
+    "mS_threshold_Hz": 772983588.0319116,
+    "mphi_eV": 5.979605466666666e-08,
+    "mphi_threshold_Hz": 14458621.693542048,
+    "scalar_envelope_closed": true,
+    "source_envelope_Hz": 1.0
+  },
+  "rwa": {
+    "forward": {
+      "fidelity": 0.9996270032432929,
+      "norm_error": 3.642974810702526e-12,
+      "steps": 22
+    },
+    "pass": true,
+    "reverse": {
+      "fidelity": 0.9996270032432929,
+      "norm_error": 3.642974810702526e-12,
+      "steps": 22
+    },
+    "test_detuning_Hz": 0.01581929993151869
+  },
+  "scalarization": {
+    "branch_gap": 0.0026892150728236187,
+    "coverage_pass": true,
+    "lambda_at_qcrit": -1.6534685212912175e-07,
+    "qcrit": 0.0073107849271763815,
+    "scalarized_min_q": 0.01
+  }
+}

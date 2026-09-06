@@ -1,0 +1,130 @@
+{
+  "branch": "032N1_GHOST_CONDENSATE_ONE_SIDED_CONTINUUM_BOUND",
+  "claim_class": "ANALYTIC_CONTINUUM_ENERGY_LOWER_BOUND",
+  "complete_operating_ledger": false,
+  "derivative_ratio_1_over_hm": 9.86634902e-18,
+  "energy_target_j": 10000000.0,
+  "far_surface_height_zero_gap_infimum_m": 0.2,
+  "field_solution": false,
+  "finite_box_convergence": [
+    {
+      "active_mass_abs_kg": 17373067836.55611,
+      "energy_j": 142102594.56557822,
+      "energy_rel_to_exact": 2.669071158002565,
+      "extent_m": 0.25,
+      "kernel_l1_quad_error": 3.8627937707240086e-15,
+      "kernel_l2": 2.9425898258374326,
+      "kernel_l2_quad_error": 3.266930976672447e-14,
+      "kernel_l2_rel_to_exact": 0.37466217301915744
+    },
+    {
+      "active_mass_abs_kg": 33481707387.559193,
+      "energy_j": 85061346.94716235,
+      "energy_rel_to_exact": 1.597682213274068,
+      "extent_m": 0.5,
+      "kernel_l1_quad_error": 1.2436619737781311e-14,
+      "kernel_l2": 4.915859717734245,
+      "kernel_l2_quad_error": 5.457700644457853e-14,
+      "kernel_l2_rel_to_exact": 0.6259066988989875
+    },
+    {
+      "active_mass_abs_kg": 67646040674.246544,
+      "energy_j": 66934061.97501681,
+      "energy_rel_to_exact": 1.257202761509245,
+      "extent_m": 1.0,
+      "kernel_l1_quad_error": 3.1931712864231135e-14,
+      "kernel_l2": 6.247187704667421,
+      "kernel_l2_quad_error": 6.935771560603565e-14,
+      "kernel_l2_rel_to_exact": 0.7954166428965853
+    },
+    {
+      "active_mass_abs_kg": 136566080302.39009,
+      "energy_j": 59662431.93636742,
+      "energy_rel_to_exact": 1.1206218773448293,
+      "extent_m": 2.0,
+      "kernel_l1_quad_error": 7.232174677958376e-14,
+      "kernel_l2": 7.0085920976159155,
+      "kernel_l2_quad_error": 7.780959289223432e-14,
+      "kernel_l2_rel_to_exact": 0.8923616611602947
+    },
+    {
+      "active_mass_abs_kg": 274381064725.99905,
+      "energy_j": 56361568.96044264,
+      "energy_rel_to_exact": 1.0586227407879416,
+      "extent_m": 4.0,
+      "kernel_l1_quad_error": 1.5381478304246425e-13,
+      "kernel_l2": 7.419056224060236,
+      "kernel_l2_quad_error": 8.252684252459215e-14,
+      "kernel_l2_rel_to_exact": 0.944623576908703
+    },
+    {
+      "active_mass_abs_kg": 549878094007.846,
+      "energy_j": 54780556.981422685,
+      "energy_rel_to_exact": 1.028927058688968,
+      "extent_m": 8.0,
+      "kernel_l1_quad_error": 3.171516604304993e-13,
+      "kernel_l2": 7.633176295297181,
+      "kernel_l2_quad_error": 8.481692993231873e-14,
+      "kernel_l2_rel_to_exact": 0.9718861911107419
+    },
+    {
+      "active_mass_abs_kg": 1100770373654.1028,
+      "energy_j": 54005644.2150981,
+      "energy_rel_to_exact": 1.0143721005554596,
+      "extent_m": 16.0,
+      "kernel_l1_quad_error": 6.439981144790576e-13,
+      "kernel_l2": 7.742702731742844,
+      "kernel_l2_quad_error": 8.524394249173248e-14,
+      "kernel_l2_rel_to_exact": 0.9858315301183959
+    },
+    {
+      "active_mass_abs_kg": 2202494592211.0117,
+      "energy_j": 53621869.27417022,
+      "energy_rel_to_exact": 1.0071637689333228,
+      "extent_m": 32.0,
+      "kernel_l1_quad_error": 1.2977765296836697e-12,
+      "kernel_l2": 7.7981177205099,
+      "kernel_l2_quad_error": 8.532791841986871e-14,
+      "kernel_l2_rel_to_exact": 0.9928871856253231
+    }
+  ],
+  "floor_over_target_kappa1": 532.4046687159987,
+  "floor_over_target_kappa10": 5.324046687159985,
+  "full_ghost_condensate_family_closed": false,
+  "geometry_only_rescue_to_sub10mj_possible": false,
+  "global_halfspace_floor_kappa10_j": 53240466.87159985,
+  "global_halfspace_floor_kappa1_j": 5324046687.1599865,
+  "independent_2m_double_integral": {
+    "closed_radial": 7.0085920976159155,
+    "direct": 7.008592097615916,
+    "quad_error": 9.176780220171709e-10,
+    "relative_error": 1.2672708117829446e-16
+  },
+  "kappa_max": 10.0,
+  "kernel_l2_exact": 7.853981633974483,
+  "m_gev": 100.0,
+  "maximum_morphology_gain_vs_n0_uniform": 2.454809604951741,
+  "minimal_m_le_100gev_kappa_le_10_one_sided_branch_closed": true,
+  "n0_uniform_best_kappa10_j": 130695209.44851829,
+  "n0_uniform_same_geometry_kappa1_j": 13069520944.847294,
+  "next": "032O_GAUGED_GHOST_CONDENSATE_PREFIELD",
+  "optimal_profile_qmax_kg_m3": 467697533126.21106,
+  "optimistic_features": [
+    "zero_gap_infimum",
+    "infinite_source_extent_allowed",
+    "only_far_surface_necessary_constraint_used",
+    "negative_active_mass_compensation_omitted",
+    "localization_energy_omitted",
+    "generator_energy_omitted",
+    "support_control_energy_omitted",
+    "nonlinear_backreaction_omitted"
+  ],
+  "payload_radius_m": 0.1,
+  "required_kappa_at_m100gev_for_10mj": 23.073895828749823,
+  "required_m_gev_at_kappa10_for_10mj": 151.90094084221408,
+  "required_m_gev_at_kappa1_for_10mj": 480.3529517838922,
+  "small_fluctuation_pi_dot_over_m2_max": 2.015837415382436e-18,
+  "strict_lt_target": true,
+  "target_acceleration_mps2": 9.80665,
+  "theory_scope": "MINIMAL_SMALL_FLUCTUATION_GHOST_CONDENSATE_ONE_SIDED_HALFSPACE"
+}

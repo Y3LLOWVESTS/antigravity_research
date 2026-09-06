@@ -1,0 +1,55 @@
+{
+  "branch": "032T_SYMMETRY_PROTECTED_MAG_MATTER_COUPLING_GATE",
+  "certified_sub10mj_model": false,
+  "claim_class": "TREE_LEVEL_SOURCE_AND_RADIATIVE_PROVENANCE_GATE",
+  "decision": "RED_MINIMAL_METRIC_ONLY_MAG_BRANCH_PORTAL_FRONTIER_OPEN",
+  "energy_target_j": 10000000.0,
+  "full_metric_affine_gravity_closed": false,
+  "massive_spin3_2026": {
+    "charge_per_joule_bound_derived": false,
+    "complete_nonlinear_device_field_certified": false,
+    "energy_optimization_authorized": false,
+    "finite_payload_repulsion_certified": false,
+    "linear_healthy_propagation_exists": true,
+    "rank3_nonmetricity_field": true,
+    "status": "UNRESOLVED_PORTAL_AND_DEVICE_COUPLING",
+    "universal_neutral_matter_portal_certified": false
+  },
+  "minimal_matter_branch": {
+    "declared_branch_closed": true,
+    "finite_payload_true_standoff": false,
+    "gr_accel_direction": "INWARD",
+    "gr_accel_mps2_at_20cm": 1.8565400672796658e-19,
+    "metric_only": true,
+    "ordinary_q_hypermomentum_source": 0.0,
+    "q_outward_accel_mps2": 0.0,
+    "source_mass_from_10mj_kg": 1.1126500560536184e-10,
+    "symbolic_metric_response": "T/Kh",
+    "symbolic_q_response": "0",
+    "target_over_gr_accel": 5.282218344131618e+19
+  },
+  "new_q_matter_portal_required_for_rescue": true,
+  "next": "032U_UNIVERSAL_HYPERMOMENTUM_PORTAL_OR_GLOBAL_RERANK",
+  "portal_requirements_if_introduced": [
+    "universal_neutral_matter_response",
+    "equivalence_principle_consistency",
+    "radiative_naturalness",
+    "positive_hamiltonian",
+    "reciprocity_and_reaction",
+    "finite_payload_outward_sign",
+    "complete_source_and_control_energy"
+  ],
+  "simple_symmetric_mag_2025": {
+    "b_rq4": 0.0,
+    "b_rq6": 0.0,
+    "linear_ghost_tachyon_free_examples_exist": true,
+    "matter_interactions_classified": false,
+    "q_has_independent_rank3_source": true,
+    "standard_graviton_propagator": true
+  },
+  "symmetry_first_2025": {
+    "only_massless_spin1_spin3_found_for_declared_class": true,
+    "scalar_generated_gauge_viable": false,
+    "tuned_linear_health_is_radiative_certification": false
+  }
+}

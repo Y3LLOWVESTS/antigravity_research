@@ -1,0 +1,124 @@
+{
+  "agminer": {
+    "mechanism_metrics_recorded": false,
+    "partial_oracle_candidate_id": "bafa8586e19938bd04a3c4ff",
+    "partial_oracle_priority": "ORACLE_PROVENANCE_INCOMPLETE",
+    "reporting": {
+      "action_oracle_count": 4,
+      "collective_scaling_count": 2,
+      "database_bytes": 63369216,
+      "mechanism_metric_count": 0,
+      "mechanism_pareto_count": 0,
+      "model_count": 101040,
+      "pareto_count": 0,
+      "rejection_count": 95594,
+      "stop_requested": false,
+      "survivor_count": 0
+    },
+    "trusted_for_reachability": false
+  },
+  "branch": "032V14_OUTWARD_WILSON_SIGN_AND_FINITE_SHIFT_CHARGE_SOURCE_PREFLIGHT",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "ANALYTIC_SOURCE_TOPOLOGY_AND_PARTIAL_DIPOLE_ORACLE",
+  "decision": "GREEN_OUTWARD_J0_WILSON_SIGN_NOT_FORWARD_POSITIVITY_KILLED_RED_REGULAR_STATIC_NET_MONOPOLE_GREEN_ZERO_NET_DERIVATIVE_DIPOLE_PREFIELD",
+  "dipole_counterfactual": {
+    "complete_operating_ledger": false,
+    "exact_10mj_passes": false,
+    "exterior_scalar_energy_j": 130124.04512548992,
+    "far_payload_radius_m": 0.4,
+    "headroom_to_strict_10mj": 76.84974741106558,
+    "microscopic_source_realized": false,
+    "payload_center_m": 0.30000000000000004,
+    "payload_cm_quadrature_relerr_64_96": 4.0351850648181984e-15,
+    "payload_cm_volume_average_m_s2": 112.69553777131466,
+    "payload_mass_kg": 1.0,
+    "payload_radius_m": 0.1,
+    "physical_energy_prediction": false,
+    "scale_at_exact_10mj_ev": 296081.049223618,
+    "scale_at_exact_1mj_ev": 166498.60958415832,
+    "scale_ev": 100000.0,
+    "source_payload_gap_m": 0.1,
+    "source_radius_m": 0.1,
+    "surface_max_outward_m_s2": 1255.2511999999983,
+    "surface_min_outward_m_s2": 9.806649999999996,
+    "surface_nonuniformity_ratio": 127.99999999999989,
+    "y_far_axis": 7.274246448132143e-18,
+    "y_source_axis": 2.979531345154926e-14
+  },
+  "empirical_context": {
+    "collider_number_is_universal_hard_bound": false,
+    "direct_bounds_are_exact_match_to_engineered_static_source": false,
+    "direct_j0_j2_experimental_scale_order_ev": [
+      1000.0,
+      10000.0
+    ],
+    "empirical_closure": false,
+    "environmental_evasion_required_if_indirect_bounds_apply": true,
+    "indirect_model_dependent_scale_range_ev": [
+      100000000.0,
+      100000000000.0
+    ],
+    "specific_prd2022_collider_context_ev": 200000000000.0
+  },
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "next": "032V15_ZERO_NET_SHIFT_DIPOLE_MICROSCOPIC_SOURCE_AND_MORPHOLOGY_GATE",
+  "physical_antigravity_model_found": false,
+  "source_route_ranking": [
+    {
+      "label": "REGULAR_STATIC_NET_MONOPOLE",
+      "rank": 99,
+      "reason": "EXACT_SHIFT_CURRENT_FLUX_PLUS_REGULARITY",
+      "record_type": "SOURCE_ROUTE",
+      "status": "CLOSED_UNDER_V13_V14_ASSUMPTIONS"
+    },
+    {
+      "label": "STATIC_COMPACT_ZERO_NET_DERIVATIVE_MULTIPOLE",
+      "rank": 1,
+      "reason": "EXACT_SHIFT_SYMMETRY_AND_ZERO_NET_CHARGE_ALLOW_DIPOLE",
+      "record_type": "SOURCE_ROUTE",
+      "status": "GREEN_PREFIELD"
+    },
+    {
+      "label": "TIME_LINEAR_SHIFT_BACKGROUND",
+      "rank": 2,
+      "reason": "PUBLISHED_THEOREM_EVASION_BUT_BACKGROUND_ENERGY_REQUIRED",
+      "record_type": "SOURCE_ROUTE",
+      "status": "OPEN_SECONDARY"
+    },
+    {
+      "label": "PHYSICAL_BOUNDARY_FLUX",
+      "rank": 3,
+      "reason": "INNER_BOUNDARY_EVASION_REQUIRES_PHYSICAL_SUPPORT",
+      "record_type": "SOURCE_ROUTE",
+      "status": "OPEN_WITH_SOURCE_SURFACE_LEDGER"
+    },
+    {
+      "label": "TOPOLOGICAL_OR_DEFECT_SECTOR",
+      "rank": 4,
+      "reason": "TAIL_AND_SCAFFOLD_COST_EXPECTED",
+      "record_type": "SOURCE_ROUTE",
+      "status": "LOW_PRIORITY_OPEN"
+    },
+    {
+      "label": "KINETIC_CRITICAL_Z_ZERO",
+      "rank": 98,
+      "reason": "DEGENERACY_STRONG_COUPLING_HYPERBOLICITY_RISK",
+      "record_type": "SOURCE_ROUTE",
+      "status": "RED_UNLESS_INDEPENDENT_HEALTH_PROOF"
+    }
+  ],
+  "static_source_theorem": {
+    "compact_derivative_source_net_monopole": 0.0,
+    "regular_static_net_monopole_closed": true,
+    "regular_static_net_monopole_requires_evasion": true,
+    "zero_net_static_multipoles_allowed_by_charge_accounting": true
+  },
+  "wilson_sign": {
+    "decision": "NO_STANDARD_FORWARD_POSITIVITY_SIGN_KILL_FOUND",
+    "j2_reference_constraints": "C2>=0_AND_C4<=0",
+    "leading_forward_positivity_sign_constraint": false,
+    "literature_reference": "Jiang_et_al_JHEP08_2024_114_arXiv2404.17636",
+    "operator_sector": "J0_SCALAR_TRACE_DERIVATIVE_CONFORMAL",
+    "outward_sign_uv_completion_proved": false
+  }
+}

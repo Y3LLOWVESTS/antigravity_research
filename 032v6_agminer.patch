@@ -1,0 +1,1471 @@
+--- a/src/antigravity_research/agminer/__init__.py
++++ b/src/antigravity_research/agminer/__init__.py
+@@ -1,5 +1,4 @@
+-"""
+-AGMINER core infrastructure.
++"""AGMINER core infrastructure.
+ 
+ AGMINER performs cheap candidate discovery, rejection-memory bookkeeping,
+ multi-fidelity screening, and shortlist preparation.
+@@ -10,11 +9,16 @@
+ from .candidate import Candidate
+ from .config import ENERGY_LIMIT_J
+ from .fingerprint import candidate_fingerprint
++from .mechanism import MechanismMetrics
++from .oracle import ActionOracle, CollectiveScalingAssessment
+ from .storage import Storage
+ 
+ __all__ = [
++    "ActionOracle",
+     "Candidate",
++    "CollectiveScalingAssessment",
+     "ENERGY_LIMIT_J",
++    "MechanismMetrics",
+     "Storage",
+     "candidate_fingerprint",
+ ]
+--- a/src/antigravity_research/agminer/storage.py
++++ b/src/antigravity_research/agminer/storage.py
+@@ -14,6 +14,8 @@
+ from typing import Any
+ 
+ from .candidate import Candidate
++from .mechanism import MechanismMetrics
++from .oracle import ActionOracle, CollectiveScalingAssessment, assess_oracle
+ from .policy import current_energy_policy
+ 
+ 
+@@ -133,6 +135,65 @@
+                 rule_json TEXT NOT NULL,
+                 proof_reference TEXT NOT NULL,
+                 created_at TEXT NOT NULL
++            );
++
++            CREATE TABLE IF NOT EXISTS mechanism_metrics (
++                candidate_id TEXT PRIMARY KEY,
++                net_response REAL NOT NULL,
++                gross_response REAL NOT NULL,
++                productive_charge_abs REAL NOT NULL,
++                productive_energy_j REAL NOT NULL,
++                complete_energy_j REAL NOT NULL,
++                charge_per_productive_joule REAL NOT NULL,
++                productive_participation REAL NOT NULL,
++                scaffolding_fraction REAL NOT NULL,
++                cancellation_ratio REAL NOT NULL,
++                kernel_effective REAL NOT NULL,
++                kernel_geometric_max REAL,
++                kernel_relative REAL,
++                response_per_complete_joule REAL NOT NULL,
++                factorized_response_per_joule REAL NOT NULL,
++                identity_relative_error REAL NOT NULL,
++                organization_headroom REAL,
++                charge_units TEXT NOT NULL,
++                decomposition_version TEXT NOT NULL,
++                updated_at TEXT NOT NULL,
++                FOREIGN KEY(candidate_id)
++                    REFERENCES models(candidate_id)
++            );
++
++            CREATE TABLE IF NOT EXISTS action_oracles (
++                candidate_id TEXT PRIMARY KEY,
++                canonical_invariant_id TEXT NOT NULL,
++                proven_lower_bound_j REAL,
++                relaxed_complete_energy_j REAL,
++                realized_complete_energy_j REAL,
++                ledger_scope TEXT NOT NULL,
++                normalization_invariant INTEGER NOT NULL,
++                naturalness_screened INTEGER NOT NULL,
++                universal_metric_screened INTEGER NOT NULL,
++                trusted_for_reachability INTEGER NOT NULL,
++                priority TEXT NOT NULL,
++                realization_gap REAL,
++                proof_reference TEXT NOT NULL,
++                updated_at TEXT NOT NULL,
++                FOREIGN KEY(candidate_id)
++                    REFERENCES models(candidate_id)
++            );
++
++            CREATE TABLE IF NOT EXISTS collective_scaling (
++                family TEXT NOT NULL,
++                family_version TEXT NOT NULL,
++                probe_id TEXT NOT NULL,
++                sample_count INTEGER NOT NULL,
++                response_exponent REAL NOT NULL,
++                energy_exponent REAL NOT NULL,
++                efficiency_exponent REAL NOT NULL,
++                scaffold_exponent REAL,
++                beneficial_collective_scaling INTEGER NOT NULL,
++                proof_reference TEXT NOT NULL,
++                updated_at TEXT NOT NULL,
++                PRIMARY KEY(family, family_version, probe_id)
+             );
+ 
+             CREATE TABLE IF NOT EXISTS metadata (
+@@ -447,6 +508,293 @@
+                 (candidate_id,),
+             )
+ 
++    def record_mechanism_metrics(
++        self,
++        candidate_id: str,
++        metrics: MechanismMetrics,
++    ) -> None:
++        record = metrics.to_record()
++
++        if record["identity_relative_error"] > 1.0e-10:
++            raise ValueError("mechanism factorization identity failed")
++
++        self.connection.execute(
++            """
++            INSERT INTO mechanism_metrics (
++                candidate_id,
++                net_response,
++                gross_response,
++                productive_charge_abs,
++                productive_energy_j,
++                complete_energy_j,
++                charge_per_productive_joule,
++                productive_participation,
++                scaffolding_fraction,
++                cancellation_ratio,
++                kernel_effective,
++                kernel_geometric_max,
++                kernel_relative,
++                response_per_complete_joule,
++                factorized_response_per_joule,
++                identity_relative_error,
++                organization_headroom,
++                charge_units,
++                decomposition_version,
++                updated_at
++            )
++            VALUES (
++                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
++            )
++            ON CONFLICT(candidate_id) DO UPDATE SET
++                net_response=excluded.net_response,
++                gross_response=excluded.gross_response,
++                productive_charge_abs=excluded.productive_charge_abs,
++                productive_energy_j=excluded.productive_energy_j,
++                complete_energy_j=excluded.complete_energy_j,
++                charge_per_productive_joule=excluded.charge_per_productive_joule,
++                productive_participation=excluded.productive_participation,
++                scaffolding_fraction=excluded.scaffolding_fraction,
++                cancellation_ratio=excluded.cancellation_ratio,
++                kernel_effective=excluded.kernel_effective,
++                kernel_geometric_max=excluded.kernel_geometric_max,
++                kernel_relative=excluded.kernel_relative,
++                response_per_complete_joule=excluded.response_per_complete_joule,
++                factorized_response_per_joule=excluded.factorized_response_per_joule,
++                identity_relative_error=excluded.identity_relative_error,
++                organization_headroom=excluded.organization_headroom,
++                charge_units=excluded.charge_units,
++                decomposition_version=excluded.decomposition_version,
++                updated_at=excluded.updated_at
++            """,
++            (
++                candidate_id,
++                record["net_response"],
++                record["gross_response"],
++                record["productive_charge_abs"],
++                record["productive_energy_j"],
++                record["complete_energy_j"],
++                record["charge_per_productive_joule"],
++                record["productive_participation"],
++                record["scaffolding_fraction"],
++                record["cancellation_ratio"],
++                record["kernel_effective"],
++                record["kernel_geometric_max"],
++                record["kernel_relative"],
++                record["response_per_complete_joule"],
++                record["factorized_response_per_joule"],
++                record["identity_relative_error"],
++                record["organization_headroom"],
++                record["charge_units"],
++                record["decomposition_version"],
++                _utc_now(),
++            ),
++        )
++        self.connection.commit()
++
++    def record_action_oracle(
++        self,
++        candidate_id: str,
++        oracle: ActionOracle,
++    ) -> None:
++        assessment = assess_oracle(oracle)
++
++        self.connection.execute(
++            """
++            INSERT INTO action_oracles (
++                candidate_id,
++                canonical_invariant_id,
++                proven_lower_bound_j,
++                relaxed_complete_energy_j,
++                realized_complete_energy_j,
++                ledger_scope,
++                normalization_invariant,
++                naturalness_screened,
++                universal_metric_screened,
++                trusted_for_reachability,
++                priority,
++                realization_gap,
++                proof_reference,
++                updated_at
++            )
++            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
++            ON CONFLICT(candidate_id) DO UPDATE SET
++                canonical_invariant_id=excluded.canonical_invariant_id,
++                proven_lower_bound_j=excluded.proven_lower_bound_j,
++                relaxed_complete_energy_j=excluded.relaxed_complete_energy_j,
++                realized_complete_energy_j=excluded.realized_complete_energy_j,
++                ledger_scope=excluded.ledger_scope,
++                normalization_invariant=excluded.normalization_invariant,
++                naturalness_screened=excluded.naturalness_screened,
++                universal_metric_screened=excluded.universal_metric_screened,
++                trusted_for_reachability=excluded.trusted_for_reachability,
++                priority=excluded.priority,
++                realization_gap=excluded.realization_gap,
++                proof_reference=excluded.proof_reference,
++                updated_at=excluded.updated_at
++            """,
++            (
++                candidate_id,
++                oracle.canonical_invariant_id,
++                oracle.proven_lower_bound_j,
++                oracle.relaxed_complete_energy_j,
++                oracle.realized_complete_energy_j,
++                oracle.ledger_scope,
++                int(oracle.normalization_invariant),
++                int(oracle.naturalness_screened),
++                int(oracle.universal_metric_screened),
++                int(oracle.trusted_for_reachability),
++                assessment.priority,
++                assessment.realization_gap,
++                oracle.proof_reference,
++                _utc_now(),
++            ),
++        )
++        self.connection.commit()
++
++    def record_collective_scaling(
++        self,
++        *,
++        family: str,
++        family_version: str,
++        probe_id: str,
++        assessment: CollectiveScalingAssessment,
++        proof_reference: str,
++    ) -> None:
++        if not proof_reference:
++            raise ValueError("proof_reference is required")
++
++        self.connection.execute(
++            """
++            INSERT INTO collective_scaling (
++                family,
++                family_version,
++                probe_id,
++                sample_count,
++                response_exponent,
++                energy_exponent,
++                efficiency_exponent,
++                scaffold_exponent,
++                beneficial_collective_scaling,
++                proof_reference,
++                updated_at
++            )
++            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
++            ON CONFLICT(family, family_version, probe_id) DO UPDATE SET
++                sample_count=excluded.sample_count,
++                response_exponent=excluded.response_exponent,
++                energy_exponent=excluded.energy_exponent,
++                efficiency_exponent=excluded.efficiency_exponent,
++                scaffold_exponent=excluded.scaffold_exponent,
++                beneficial_collective_scaling=excluded.beneficial_collective_scaling,
++                proof_reference=excluded.proof_reference,
++                updated_at=excluded.updated_at
++            """,
++            (
++                family,
++                family_version,
++                probe_id,
++                assessment.sample_count,
++                assessment.response_exponent,
++                assessment.energy_exponent,
++                assessment.efficiency_exponent,
++                assessment.scaffold_exponent,
++                int(assessment.beneficial_collective_scaling),
++                proof_reference,
++                _utc_now(),
++            ),
++        )
++        self.connection.commit()
++
++    def mechanism_rows(self) -> list[dict[str, Any]]:
++        rows = self.connection.execute(
++            """
++            SELECT
++                m.candidate_id,
++                m.family,
++                m.family_version,
++                m.energy_j,
++                m.payload_surface_min,
++                m.naturalness_margin,
++                m.stability_margin,
++                m.leakage,
++                m.backreaction,
++                m.state,
++                mm.response_per_complete_joule,
++                mm.productive_participation,
++                mm.scaffolding_fraction,
++                mm.cancellation_ratio,
++                mm.kernel_relative,
++                mm.organization_headroom,
++                ao.relaxed_complete_energy_j AS oracle_energy_j,
++                ao.realization_gap
++            FROM models AS m
++            JOIN mechanism_metrics AS mm
++                ON mm.candidate_id=m.candidate_id
++            LEFT JOIN action_oracles AS ao
++                ON ao.candidate_id=m.candidate_id
++            WHERE m.energy_j IS NOT NULL
++            ORDER BY m.energy_j, m.candidate_id
++            """
++        ).fetchall()
++        return [dict(row) for row in rows]
++
++    def oracle_rows(self) -> list[dict[str, Any]]:
++        rows = self.connection.execute(
++            """
++            SELECT
++                m.candidate_id,
++                m.family,
++                m.family_version,
++                m.energy_j,
++                ao.canonical_invariant_id,
++                ao.proven_lower_bound_j,
++                ao.relaxed_complete_energy_j,
++                ao.realized_complete_energy_j,
++                ao.ledger_scope,
++                ao.normalization_invariant,
++                ao.naturalness_screened,
++                ao.universal_metric_screened,
++                ao.trusted_for_reachability,
++                ao.priority,
++                ao.realization_gap,
++                ao.proof_reference
++            FROM action_oracles AS ao
++            JOIN models AS m
++                ON m.candidate_id=ao.candidate_id
++            ORDER BY
++                COALESCE(
++                    ao.relaxed_complete_energy_j,
++                    ao.realized_complete_energy_j,
++                    m.energy_j
++                ),
++                m.candidate_id
++            """
++        ).fetchall()
++        return [dict(row) for row in rows]
++
++    def collective_scaling_rows(self) -> list[dict[str, Any]]:
++        rows = self.connection.execute(
++            """
++            SELECT
++                family,
++                family_version,
++                probe_id,
++                sample_count,
++                response_exponent,
++                energy_exponent,
++                efficiency_exponent,
++                scaffold_exponent,
++                beneficial_collective_scaling,
++                proof_reference
++            FROM collective_scaling
++            ORDER BY
++                efficiency_exponent DESC,
++                family,
++                probe_id
++            """
++        ).fetchall()
++        return [dict(row) for row in rows]
++
+     def recover_interrupted_candidates(self) -> int:
+         now = _utc_now()
+         cursor = self.connection.execute(
+--- a/src/antigravity_research/agminer/pareto.py
++++ b/src/antigravity_research/agminer/pareto.py
+@@ -1,6 +1,4 @@
+-"""
+-Deterministic Pareto-frontier reconstruction.
+-"""
++"""Deterministic Pareto-frontier reconstruction."""
+ 
+ from __future__ import annotations
+ 
+@@ -9,10 +7,7 @@
+ 
+ 
+ def _dominates(left: dict[str, Any], right: dict[str, Any]) -> bool:
+-    """
+-    Return True when left is no worse than right on all objectives and
+-    strictly better on at least one.
+-    """
++    """Return True when left dominates right on the legacy hard-survivor view."""
+ 
+     left_values = (
+         float(left["energy_j"]),
+@@ -32,16 +27,8 @@
+         float(right["backreaction"]),
+     )
+ 
+-    no_worse = all(
+-        a <= b
+-        for a, b in zip(left_values, right_values)
+-    )
+-
+-    strictly_better = any(
+-        a < b
+-        for a, b in zip(left_values, right_values)
+-    )
+-
++    no_worse = all(a <= b for a, b in zip(left_values, right_values))
++    strictly_better = any(a < b for a, b in zip(left_values, right_values))
+     return no_worse and strictly_better
+ 
+ 
+@@ -72,3 +59,72 @@
+             str(row.get("candidate_id", "")),
+         ),
+     )
++
++
++_MECHANISM_REQUIRED = (
++    "energy_j",
++    "response_per_complete_joule",
++    "productive_participation",
++    "kernel_relative",
++    "cancellation_ratio",
++    "scaffolding_fraction",
++)
++
++
++def _mechanism_vector(row: dict[str, Any]) -> tuple[float, ...]:
++    return (
++        float(row["energy_j"]),
++        -float(row["response_per_complete_joule"]),
++        -float(row["productive_participation"]),
++        -float(row["kernel_relative"]),
++        float(row["cancellation_ratio"]),
++        float(row["scaffolding_fraction"]),
++        float(row.get("realization_gap") or 1.0),
++    )
++
++
++def _mechanism_dominates(
++    left: dict[str, Any],
++    right: dict[str, Any],
++) -> bool:
++    left_values = _mechanism_vector(left)
++    right_values = _mechanism_vector(right)
++    return (
++        all(a <= b for a, b in zip(left_values, right_values))
++        and any(a < b for a, b in zip(left_values, right_values))
++    )
++
++
++def mechanism_pareto_frontier(
++    rows: Iterable[dict[str, Any]],
++) -> list[dict[str, Any]]:
++    """Pareto frontier for fully factorized candidates only.
++
++    Missing mechanism metrics are not guessed or silently replaced. Legacy
++    candidates remain available through ``pareto_frontier``.
++    """
++
++    points = [
++        dict(row)
++        for row in rows
++        if all(row.get(name) is not None for name in _MECHANISM_REQUIRED)
++    ]
++    frontier: list[dict[str, Any]] = []
++
++    for index, point in enumerate(points):
++        if any(
++            _mechanism_dominates(other, point)
++            for other_index, other in enumerate(points)
++            if other_index != index
++        ):
++            continue
++        frontier.append(point)
++
++    return sorted(
++        frontier,
++        key=lambda row: (
++            float(row["energy_j"]),
++            -float(row["response_per_complete_joule"]),
++            str(row.get("candidate_id", "")),
++        ),
++    )
+--- a/src/antigravity_research/agminer/reporting.py
++++ b/src/antigravity_research/agminer/reporting.py
+@@ -11,7 +11,7 @@
+ from pathlib import Path
+ from typing import Any
+ 
+-from .pareto import pareto_frontier
++from .pareto import mechanism_pareto_frontier, pareto_frontier
+ from .storage import Storage
+ 
+ 
+@@ -80,6 +80,10 @@
+     top_rows = storage.top_rows(25)
+     survivor_rows = storage.survivor_rows()
+     pareto_rows = pareto_frontier(survivor_rows)
++    mechanism_rows = storage.mechanism_rows()
++    mechanism_pareto_rows = mechanism_pareto_frontier(mechanism_rows)
++    oracle_rows = storage.oracle_rows()
++    scaling_rows = storage.collective_scaling_rows()
+ 
+     failure_rows = [
+         dict(row)
+@@ -122,6 +126,66 @@
+     )
+ 
+     _write_csv(
++        output / "mechanism_frontier.csv",
++        mechanism_pareto_rows,
++        [
++            "candidate_id",
++            "family",
++            "family_version",
++            "energy_j",
++            "oracle_energy_j",
++            "realization_gap",
++            "response_per_complete_joule",
++            "productive_participation",
++            "kernel_relative",
++            "cancellation_ratio",
++            "scaffolding_fraction",
++            "organization_headroom",
++            "state",
++        ],
++    )
++
++    _write_csv(
++        output / "oracle_learning.csv",
++        oracle_rows,
++        [
++            "candidate_id",
++            "family",
++            "family_version",
++            "energy_j",
++            "canonical_invariant_id",
++            "proven_lower_bound_j",
++            "relaxed_complete_energy_j",
++            "realized_complete_energy_j",
++            "ledger_scope",
++            "normalization_invariant",
++            "naturalness_screened",
++            "universal_metric_screened",
++            "trusted_for_reachability",
++            "priority",
++            "realization_gap",
++            "proof_reference",
++        ],
++    )
++
++    _write_csv(
++        output / "collective_scaling.csv",
++        scaling_rows,
++        [
++            "family",
++            "family_version",
++            "probe_id",
++            "sample_count",
++            "response_exponent",
++            "energy_exponent",
++            "efficiency_exponent",
++            "scaffold_exponent",
++            "beneficial_collective_scaling",
++            "proof_reference",
++        ],
++    )
++
++    _write_csv(
+         output / "failure_counts.csv",
+         failure_rows,
+         [
+@@ -136,6 +200,10 @@
+         "rejection_count": storage.rejection_count(),
+         "survivor_count": len(survivor_rows),
+         "pareto_count": len(pareto_rows),
++        "mechanism_metric_count": len(mechanism_rows),
++        "mechanism_pareto_count": len(mechanism_pareto_rows),
++        "action_oracle_count": len(oracle_rows),
++        "collective_scaling_count": len(scaling_rows),
+         "database_bytes": (
+             storage.path.stat().st_size
+             if storage.path.exists()
+--- a/src/antigravity_research/agminer/families/base.py
++++ b/src/antigravity_research/agminer/families/base.py
+@@ -1,12 +1,16 @@
+-"""
+-Base AGMINER family protocol.
++"""Base AGMINER family protocols.
++
++Legacy families only need ``CandidateFamily``. New discovery families may opt
++into the Introspective-factorized contract without breaking older plugins.
+ """
+ 
+ from __future__ import annotations
+ 
+-from typing import Protocol
++from typing import Any, Protocol
+ 
+ from ..candidate import Candidate
++from ..mechanism import MechanismMetrics
++from ..oracle import ActionOracle, CollectiveScalingAssessment
+ 
+ 
+ class CandidateFamily(Protocol):
+@@ -15,3 +19,43 @@
+ 
+     def candidates(self) -> list[Candidate]:
+         ...
++
++
++class IntrospectiveDiscoveryFamily(Protocol):
++    """Optional high-information contract for new physical families.
++
++    Implementations must derive these quantities from the explicit family
++    action. AGMINER must not fabricate them from generic tuning knobs.
++    """
++
++    family_id: str
++    family_version: str
++
++    def canonical_invariants(
++        self,
++        params: dict[str, Any],
++        config: dict[str, Any],
++    ) -> dict[str, Any]:
++        ...
++
++    def action_oracle(
++        self,
++        params: dict[str, Any],
++        config: dict[str, Any],
++    ) -> ActionOracle:
++        ...
++
++    def mechanism_metrics(
++        self,
++        solution: Any,
++        params: dict[str, Any],
++        config: dict[str, Any],
++    ) -> MechanismMetrics:
++        ...
++
++    def collective_scaling_probe(
++        self,
++        params: dict[str, Any],
++        config: dict[str, Any],
++    ) -> CollectiveScalingAssessment | None:
++        ...
+--- /dev/null
++++ b/src/antigravity_research/agminer/mechanism.py
+@@ -0,0 +1,181 @@
++"""Introspective-factorized mechanism accounting for AGMINER.
++
++This module turns the durable Introspective lessons into explicit,
++unit-tested observables. It does not certify a theory and it does not
++replace the conservative complete-energy objective.
++"""
++
++from __future__ import annotations
++
++from dataclasses import dataclass
++import math
++from typing import Any
++
++
++DECOMPOSITION_VERSION = "INTROSPECTIVE_FACTORIZED_V1"
++
++
++@dataclass(frozen=True)
++class MechanismMetrics:
++    """Factor a useful finite-payload response into physical efficiencies.
++
++    The declared quantities obey
++
++        net_response / complete_energy
++        = charge_per_productive_joule
++          * kernel_effective
++          * productive_participation
++          / cancellation_ratio.
++
++    ``productive_charge_abs`` may use a family-defined conserved/source
++    normalization. Cross-family comparison should therefore use the final
++    response-per-joule and normalized kernel metrics rather than raw charge.
++    """
++
++    net_response: float
++    gross_response: float
++    productive_charge_abs: float
++    productive_energy_j: float
++    complete_energy_j: float
++    kernel_geometric_max: float | None = None
++    charge_units: str = "FAMILY_DEFINED"
++    decomposition_version: str = DECOMPOSITION_VERSION
++
++    def __post_init__(self) -> None:
++        values = {
++            "net_response": self.net_response,
++            "gross_response": self.gross_response,
++            "productive_charge_abs": self.productive_charge_abs,
++            "productive_energy_j": self.productive_energy_j,
++            "complete_energy_j": self.complete_energy_j,
++        }
++
++        for name, value in values.items():
++            numeric = float(value)
++            if not math.isfinite(numeric):
++                raise ValueError(name + " must be finite")
++            if numeric <= 0.0:
++                raise ValueError(name + " must be positive")
++
++        if self.gross_response < self.net_response:
++            raise ValueError("gross_response must be >= net_response")
++
++        if self.complete_energy_j < self.productive_energy_j:
++            raise ValueError(
++                "complete_energy_j must be >= productive_energy_j"
++            )
++
++        if self.kernel_geometric_max is not None:
++            maximum = float(self.kernel_geometric_max)
++            if not math.isfinite(maximum) or maximum <= 0.0:
++                raise ValueError(
++                    "kernel_geometric_max must be finite and positive"
++                )
++            if self.kernel_effective > maximum * (1.0 + 1.0e-12):
++                raise ValueError(
++                    "kernel_effective cannot exceed kernel_geometric_max"
++                )
++
++    @property
++    def charge_per_productive_joule(self) -> float:
++        return self.productive_charge_abs / self.productive_energy_j
++
++    @property
++    def productive_participation(self) -> float:
++        return self.productive_energy_j / self.complete_energy_j
++
++    @property
++    def scaffolding_fraction(self) -> float:
++        return 1.0 - self.productive_participation
++
++    @property
++    def cancellation_ratio(self) -> float:
++        return self.gross_response / self.net_response
++
++    @property
++    def kernel_effective(self) -> float:
++        return self.gross_response / self.productive_charge_abs
++
++    @property
++    def kernel_relative(self) -> float | None:
++        if self.kernel_geometric_max is None:
++            return None
++        return self.kernel_effective / self.kernel_geometric_max
++
++    @property
++    def response_per_complete_joule(self) -> float:
++        return self.net_response / self.complete_energy_j
++
++    @property
++    def factorized_response_per_joule(self) -> float:
++        return (
++            self.charge_per_productive_joule
++            * self.kernel_effective
++            * self.productive_participation
++            / self.cancellation_ratio
++        )
++
++    @property
++    def identity_relative_error(self) -> float:
++        direct = self.response_per_complete_joule
++        reconstructed = self.factorized_response_per_joule
++        return abs(reconstructed - direct) / direct
++
++    @property
++    def organization_headroom(self) -> float | None:
++        """Optimistic gain if placement/participation/cancellation were ideal.
++
++        This does not change intrinsic charge per productive joule and does not
++        claim that the ideal organization is microscopically realizable.
++        """
++
++        relative = self.kernel_relative
++        if relative is None:
++            return None
++        return self.cancellation_ratio / (
++            self.productive_participation * relative
++        )
++
++    def to_record(self) -> dict[str, Any]:
++        return {
++            "net_response": float(self.net_response),
++            "gross_response": float(self.gross_response),
++            "productive_charge_abs": float(self.productive_charge_abs),
++            "productive_energy_j": float(self.productive_energy_j),
++            "complete_energy_j": float(self.complete_energy_j),
++            "charge_per_productive_joule": (
++                self.charge_per_productive_joule
++            ),
++            "productive_participation": self.productive_participation,
++            "scaffolding_fraction": self.scaffolding_fraction,
++            "cancellation_ratio": self.cancellation_ratio,
++            "kernel_effective": self.kernel_effective,
++            "kernel_geometric_max": self.kernel_geometric_max,
++            "kernel_relative": self.kernel_relative,
++            "response_per_complete_joule": (
++                self.response_per_complete_joule
++            ),
++            "factorized_response_per_joule": (
++                self.factorized_response_per_joule
++            ),
++            "identity_relative_error": self.identity_relative_error,
++            "organization_headroom": self.organization_headroom,
++            "charge_units": self.charge_units,
++            "decomposition_version": self.decomposition_version,
++        }
++
++
++def mechanism_loss_factors(metrics: MechanismMetrics) -> dict[str, float | None]:
++    """Return candidate-internal improvement factors without double counting.
++
++    Historical headroom values are deliberately not used here. Every factor is
++    measured from the candidate itself.
++    """
++
++    relative = metrics.kernel_relative
++    return {
++        "participation_headroom": 1.0 / metrics.productive_participation,
++        "cancellation_headroom": metrics.cancellation_ratio,
++        "kernel_headroom": None if relative is None else 1.0 / relative,
++        "organization_headroom": metrics.organization_headroom,
++    }
+--- /dev/null
++++ b/src/antigravity_research/agminer/oracle.py
+@@ -0,0 +1,201 @@
++"""Action-specific relaxed-oracle and collective-scaling contracts.
++
++The oracle layer separates intrinsic action limits from microscopic
++realization costs. It is deliberately explicit about energy semantics so an
++optimistic relaxed source cannot be confused with a complete realized field.
++"""
++
++from __future__ import annotations
++
++from dataclasses import dataclass
++import math
++from typing import Iterable
++
++from .learning import assess_energy
++from .policy import current_energy_policy
++
++
++LEDGER_COMPLETE_RELAXED = "CONSERVATIVE_COMPLETE_RELAXED"
++LEDGER_PARTIAL_OPTIMISTIC = "PARTIAL_OPTIMISTIC"
++
++
++@dataclass(frozen=True)
++class ActionOracle:
++    canonical_invariant_id: str
++    proof_reference: str
++    proven_lower_bound_j: float | None = None
++    relaxed_complete_energy_j: float | None = None
++    realized_complete_energy_j: float | None = None
++    ledger_scope: str = LEDGER_PARTIAL_OPTIMISTIC
++    normalization_invariant: bool = False
++    naturalness_screened: bool = False
++    universal_metric_screened: bool = False
++
++    def __post_init__(self) -> None:
++        if not self.canonical_invariant_id:
++            raise ValueError("canonical_invariant_id is required")
++        if not self.proof_reference:
++            raise ValueError("proof_reference is required")
++
++        values = [
++            self.proven_lower_bound_j,
++            self.relaxed_complete_energy_j,
++            self.realized_complete_energy_j,
++        ]
++
++        for value in values:
++            if value is None:
++                continue
++            numeric = float(value)
++            if not math.isfinite(numeric) or numeric < 0.0:
++                raise ValueError("oracle energies must be finite and nonnegative")
++
++        lower = self.proven_lower_bound_j
++        relaxed = self.relaxed_complete_energy_j
++        realized = self.realized_complete_energy_j
++
++        if lower is not None and relaxed is not None and lower > relaxed:
++            raise ValueError("proven lower bound cannot exceed relaxed energy")
++        if relaxed is not None and realized is not None and relaxed > realized:
++            raise ValueError("relaxed energy cannot exceed realized energy")
++
++    @property
++    def trusted_for_reachability(self) -> bool:
++        return (
++            self.ledger_scope == LEDGER_COMPLETE_RELAXED
++            and self.normalization_invariant
++            and self.naturalness_screened
++            and self.universal_metric_screened
++        )
++
++
++@dataclass(frozen=True)
++class OracleAssessment:
++    target_j: float
++    lower_bound_excludes_target: bool | None
++    relaxed_band: str | None
++    realized_band: str | None
++    realization_gap: float | None
++    trusted_for_reachability: bool
++    priority: str
++
++
++def assess_oracle(
++    oracle: ActionOracle,
++    *,
++    target_j: float | None = None,
++) -> OracleAssessment:
++    if target_j is None:
++        target_j = float(current_energy_policy()["limit_j"])
++
++    target = float(target_j)
++    if target <= 0.0:
++        raise ValueError("target_j must be positive")
++
++    lower = oracle.proven_lower_bound_j
++    relaxed = oracle.relaxed_complete_energy_j
++    realized = oracle.realized_complete_energy_j
++
++    excludes = None if lower is None else lower >= target
++    relaxed_band = None if relaxed is None else assess_energy(relaxed).band
++    realized_band = None if realized is None else assess_energy(realized).band
++
++    gap = None
++    if relaxed is not None and realized is not None:
++        if relaxed == 0.0:
++            gap = math.inf
++        else:
++            gap = realized / relaxed
++
++    if realized is not None and realized < target:
++        priority = "TARGET_ENERGY_CROSSED_NOT_CERTIFIED"
++    elif (
++        oracle.trusted_for_reachability
++        and relaxed is not None
++        and relaxed < target
++    ):
++        priority = "REALIZATION_LIMITED_HIGH_PRIORITY"
++    elif oracle.trusted_for_reachability and relaxed is not None:
++        band = assess_energy(relaxed).band
++        if band == "NEAR_MISS_10_TO_100MJ":
++            priority = "ACTION_ORACLE_NEAR_MISS"
++        elif band == "MECHANISM_100MJ_TO_1GJ":
++            priority = "ACTION_ORACLE_MECHANISM_LEARNING"
++        else:
++            priority = "ACTION_ORACLE_ARCHIVE"
++    elif excludes is True:
++        priority = "PROVEN_INTRINSIC_FLOOR_ABOVE_TARGET"
++    else:
++        priority = "ORACLE_PROVENANCE_INCOMPLETE"
++
++    return OracleAssessment(
++        target_j=target,
++        lower_bound_excludes_target=excludes,
++        relaxed_band=relaxed_band,
++        realized_band=realized_band,
++        realization_gap=gap,
++        trusted_for_reachability=oracle.trusted_for_reachability,
++        priority=priority,
++    )
++
++
++@dataclass(frozen=True)
++class CollectiveScalingAssessment:
++    sample_count: int
++    response_exponent: float
++    energy_exponent: float
++    efficiency_exponent: float
++    scaffold_exponent: float | None
++    beneficial_collective_scaling: bool
++
++
++def _log_slope(x_values: list[float], y_values: list[float]) -> float:
++    lx = [math.log(value) for value in x_values]
++    ly = [math.log(value) for value in y_values]
++    mean_x = sum(lx) / len(lx)
++    mean_y = sum(ly) / len(ly)
++    numerator = sum((x - mean_x) * (y - mean_y) for x, y in zip(lx, ly))
++    denominator = sum((x - mean_x) ** 2 for x in lx)
++    if denominator == 0.0:
++        raise ValueError("collective scale values must not all be identical")
++    return numerator / denominator
++
++
++def assess_collective_scaling(
++    n_values: Iterable[float],
++    useful_response_values: Iterable[float],
++    complete_energy_values: Iterable[float],
++    *,
++    scaffold_energy_values: Iterable[float] | None = None,
++) -> CollectiveScalingAssessment:
++    n = [float(value) for value in n_values]
++    response = [float(value) for value in useful_response_values]
++    energy = [float(value) for value in complete_energy_values]
++
++    if len(n) < 3 or len(n) != len(response) or len(n) != len(energy):
++        raise ValueError("collective scaling requires >=3 matched samples")
++
++    if any(value <= 0.0 or not math.isfinite(value) for value in n + response + energy):
++        raise ValueError("collective scaling inputs must be finite and positive")
++
++    response_exponent = _log_slope(n, response)
++    energy_exponent = _log_slope(n, energy)
++    efficiency_exponent = response_exponent - energy_exponent
++
++    scaffold_exponent = None
++    if scaffold_energy_values is not None:
++        scaffold = [float(value) for value in scaffold_energy_values]
++        if len(scaffold) != len(n):
++            raise ValueError("scaffold_energy_values length mismatch")
++        if any(value <= 0.0 or not math.isfinite(value) for value in scaffold):
++            raise ValueError("scaffold energies must be finite and positive")
++        scaffold_exponent = _log_slope(n, scaffold)
++
++    return CollectiveScalingAssessment(
++        sample_count=len(n),
++        response_exponent=response_exponent,
++        energy_exponent=energy_exponent,
++        efficiency_exponent=efficiency_exponent,
++        scaffold_exponent=scaffold_exponent,
++        beneficial_collective_scaling=efficiency_exponent > 0.0,
++    )
+--- /dev/null
++++ b/src/antigravity_research/agminer/normalization.py
+@@ -0,0 +1,50 @@
++"""Canonical-invariant fingerprints for normalization/provenance audits."""
++
++from __future__ import annotations
++
++import hashlib
++import json
++from typing import Any
++
++
++def canonical_invariant_fingerprint(
++    *,
++    family_id: str,
++    family_version: str,
++    invariants: dict[str, Any],
++) -> str:
++    if not invariants:
++        raise ValueError("canonical invariants must not be empty")
++
++    payload = {
++        "family_id": str(family_id),
++        "family_version": str(family_version),
++        "invariants": invariants,
++    }
++
++    encoded = json.dumps(
++        payload,
++        sort_keys=True,
++        separators=(",", ":"),
++        allow_nan=False,
++    ).encode("utf-8")
++
++    return "CANON_" + hashlib.sha256(encoded).hexdigest()[:24]
++
++
++def normalization_equivalent(
++    *,
++    family_id: str,
++    family_version: str,
++    first_invariants: dict[str, Any],
++    second_invariants: dict[str, Any],
++) -> bool:
++    return canonical_invariant_fingerprint(
++        family_id=family_id,
++        family_version=family_version,
++        invariants=first_invariants,
++    ) == canonical_invariant_fingerprint(
++        family_id=family_id,
++        family_version=family_version,
++        invariants=second_invariants,
++    )
+--- /dev/null
++++ b/src/antigravity_research/agminer/discovery.py
+@@ -0,0 +1,102 @@
++"""Non-opaque AGMINER discovery diagnosis.
++
++This module deliberately returns interpretable bottleneck labels instead of a
++single optimization score. Hard physical gates remain separate.
++"""
++
++from __future__ import annotations
++
++from dataclasses import dataclass
++import math
++
++from .mechanism import MechanismMetrics
++from .oracle import ActionOracle, assess_oracle
++from .policy import current_energy_policy
++
++
++@dataclass(frozen=True)
++class DiscoveryDiagnosis:
++    target_j: float
++    energy_factor_to_target: float
++    organization_headroom: float | None
++    residual_gain_after_ideal_organization: float | None
++    realization_gap: float | None
++    bottleneck: str
++    next_action: str
++
++
++def diagnose_candidate(
++    *,
++    current_complete_energy_j: float,
++    oracle: ActionOracle | None = None,
++    mechanism: MechanismMetrics | None = None,
++    target_j: float | None = None,
++) -> DiscoveryDiagnosis:
++    if target_j is None:
++        target_j = float(current_energy_policy()["limit_j"])
++
++    target = float(target_j)
++    current = float(current_complete_energy_j)
++
++    if not math.isfinite(current) or current <= 0.0:
++        raise ValueError("current_complete_energy_j must be finite and positive")
++    if target <= 0.0:
++        raise ValueError("target_j must be positive")
++
++    factor = current / target
++    organization = None
++    residual = None
++
++    if mechanism is not None:
++        organization = mechanism.organization_headroom
++        if organization is not None:
++            residual = max(1.0, factor / organization)
++
++    oracle_assessment = None if oracle is None else assess_oracle(
++        oracle,
++        target_j=target,
++    )
++
++    realization_gap = None
++    if oracle_assessment is not None:
++        realization_gap = oracle_assessment.realization_gap
++
++    if current < target:
++        bottleneck = "TARGET_ENERGY_CROSSED_NOT_CERTIFIED"
++        next_action = "RUN_PHYSICAL_GATES_NOT_MORE_ENERGY_OPTIMIZATION"
++    elif (
++        oracle_assessment is not None
++        and oracle_assessment.lower_bound_excludes_target is True
++    ):
++        bottleneck = "INTRINSIC_ACTION_FLOOR"
++        next_action = "CHANGE_ACTION_KEEP_TRANSFERABLE_LESSONS"
++    elif (
++        oracle is not None
++        and oracle.trusted_for_reachability
++        and oracle.relaxed_complete_energy_j is not None
++        and oracle.relaxed_complete_energy_j < target
++    ):
++        bottleneck = "MICROSCOPIC_REALIZATION_GAP"
++        next_action = "OPTIMIZE_SOURCE_SCAFFOLD_AND_MORPHOLOGY"
++    elif organization is not None and organization >= factor:
++        bottleneck = "ORGANIZATION_LIMITED_OPTIMISTIC"
++        next_action = "BUILD_ACTION_SPECIFIC_TEACHER_AND_REALIZATION"
++    elif residual is not None and residual > 1.0:
++        bottleneck = "INTRINSIC_CHARGE_PER_JOULE_LIMITED"
++        next_action = "SEARCH_NONREDUNDANT_PROTECTED_CHARGE_MECHANISM"
++    elif oracle is None:
++        bottleneck = "ACTION_ORACLE_MISSING"
++        next_action = "DERIVE_ACTION_SPECIFIC_ORACLE_BEFORE_DEEP_PDE"
++    else:
++        bottleneck = "UNRESOLVED"
++        next_action = "IMPROVE_PROVENANCE_AND_DECOMPOSITION"
++
++    return DiscoveryDiagnosis(
++        target_j=target,
++        energy_factor_to_target=factor,
++        organization_headroom=organization,
++        residual_gain_after_ideal_organization=residual,
++        realization_gap=realization_gap,
++        bottleneck=bottleneck,
++        next_action=next_action,
++    )
+--- /dev/null
++++ b/tests/agminer/test_032v6_introspective_factorized_agminer.py
+@@ -0,0 +1,245 @@
++"""032V6 Introspective-factorized AGMINER infrastructure tests."""
++
++from __future__ import annotations
++
++import math
++
++from antigravity_research.agminer.candidate import Candidate
++from antigravity_research.agminer.discovery import diagnose_candidate
++from antigravity_research.agminer.mechanism import (
++    MechanismMetrics,
++    mechanism_loss_factors,
++)
++from antigravity_research.agminer.normalization import (
++    canonical_invariant_fingerprint,
++    normalization_equivalent,
++)
++from antigravity_research.agminer.oracle import (
++    ActionOracle,
++    LEDGER_COMPLETE_RELAXED,
++    assess_collective_scaling,
++    assess_oracle,
++)
++from antigravity_research.agminer.pareto import mechanism_pareto_frontier
++from antigravity_research.agminer.reporting import rebuild_summaries
++from antigravity_research.agminer.storage import Storage
++
++
++def make_candidate() -> Candidate:
++    return Candidate(
++        family_id="032V6_TEST",
++        family_version="1",
++        params={"x": 1.0},
++        physical_model_version="TEST",
++        energy_ledger_version="CONSERVATIVE_COMPLETE_V1",
++    )
++
++
++def make_metrics(*, energy_j: float = 60.0e6) -> MechanismMetrics:
++    return MechanismMetrics(
++        net_response=10.0,
++        gross_response=12.0,
++        productive_charge_abs=4.0,
++        productive_energy_j=12.0e6,
++        complete_energy_j=energy_j,
++        kernel_geometric_max=4.0,
++        charge_units="TEST_CHARGE",
++    )
++
++
++def test_factorization_identity_is_exact_to_roundoff():
++    metrics = make_metrics()
++    assert metrics.identity_relative_error < 1.0e-15
++    assert math.isclose(metrics.productive_participation, 0.2)
++    assert math.isclose(metrics.cancellation_ratio, 1.2)
++    assert math.isclose(metrics.kernel_effective, 3.0)
++    assert math.isclose(metrics.kernel_relative, 0.75)
++    assert math.isclose(metrics.organization_headroom, 8.0)
++
++
++def test_candidate_internal_headrooms_do_not_use_historical_multipliers():
++    loss = mechanism_loss_factors(make_metrics())
++    assert math.isclose(loss["participation_headroom"], 5.0)
++    assert math.isclose(loss["cancellation_headroom"], 1.2)
++    assert math.isclose(loss["kernel_headroom"], 4.0 / 3.0)
++    assert math.isclose(loss["organization_headroom"], 8.0)
++
++
++def test_normalization_fingerprint_detects_equivalent_parameterizations():
++    first = {"m_physical_gev": 480.3529517838922}
++    second = {"m_physical_gev": 480.3529517838922}
++    third = {"m_physical_gev": 100.0}
++
++    assert normalization_equivalent(
++        family_id="GHOST_TEST",
++        family_version="1",
++        first_invariants=first,
++        second_invariants=second,
++    )
++    assert not normalization_equivalent(
++        family_id="GHOST_TEST",
++        family_version="1",
++        first_invariants=first,
++        second_invariants=third,
++    )
++    assert canonical_invariant_fingerprint(
++        family_id="GHOST_TEST",
++        family_version="1",
++        invariants=first,
++    ).startswith("CANON_")
++
++
++def test_action_oracle_separates_intrinsic_and_realization_gap():
++    oracle = ActionOracle(
++        canonical_invariant_id="CANON_TEST",
++        proof_reference="TEST",
++        proven_lower_bound_j=1.0e6,
++        relaxed_complete_energy_j=2.0e6,
++        realized_complete_energy_j=60.0e6,
++        ledger_scope=LEDGER_COMPLETE_RELAXED,
++        normalization_invariant=True,
++        naturalness_screened=True,
++        universal_metric_screened=True,
++    )
++    assessment = assess_oracle(oracle, target_j=10.0e6)
++    assert assessment.trusted_for_reachability
++    assert assessment.priority == "REALIZATION_LIMITED_HIGH_PRIORITY"
++    assert math.isclose(assessment.realization_gap, 30.0)
++
++
++def test_collective_scaling_promotes_only_response_faster_than_energy():
++    good = assess_collective_scaling(
++        [1.0, 2.0, 4.0, 8.0],
++        [1.0, 4.0, 16.0, 64.0],
++        [1.0, 2.0, 4.0, 8.0],
++        scaffold_energy_values=[1.0, 1.5, 2.25, 3.375],
++    )
++    assert good.beneficial_collective_scaling
++    assert good.response_exponent > good.energy_exponent
++    assert good.efficiency_exponent > 0.9
++
++    bad = assess_collective_scaling(
++        [1.0, 2.0, 4.0, 8.0],
++        [1.0, 2.0, 4.0, 8.0],
++        [1.0, 4.0, 16.0, 64.0],
++    )
++    assert not bad.beneficial_collective_scaling
++
++
++def test_discovery_diagnosis_identifies_realization_limited_case():
++    oracle = ActionOracle(
++        canonical_invariant_id="CANON_TEST",
++        proof_reference="TEST",
++        proven_lower_bound_j=1.0e6,
++        relaxed_complete_energy_j=2.0e6,
++        realized_complete_energy_j=60.0e6,
++        ledger_scope=LEDGER_COMPLETE_RELAXED,
++        normalization_invariant=True,
++        naturalness_screened=True,
++        universal_metric_screened=True,
++    )
++    diagnosis = diagnose_candidate(
++        current_complete_energy_j=60.0e6,
++        oracle=oracle,
++        mechanism=make_metrics(),
++        target_j=10.0e6,
++    )
++    assert diagnosis.bottleneck == "MICROSCOPIC_REALIZATION_GAP"
++    assert diagnosis.next_action == "OPTIMIZE_SOURCE_SCAFFOLD_AND_MORPHOLOGY"
++    assert math.isclose(diagnosis.realization_gap, 30.0)
++
++
++def test_storage_persists_factorized_metrics_oracle_and_scaling(tmp_path):
++    storage = Storage(tmp_path / "miner.sqlite3")
++    candidate = make_candidate()
++    storage.record_candidate(candidate)
++    storage.record_survivor(
++        candidate.candidate_id,
++        state="TIER1_SURVIVOR",
++        tier=1,
++        energy_j=60.0e6,
++        payload_cm=10.0,
++        payload_surface_min=9.9,
++        naturalness_margin=3.0,
++        stability_margin=2.0,
++        leakage=1.0e-5,
++        backreaction=1.0e-4,
++    )
++
++    metrics = make_metrics()
++    storage.record_mechanism_metrics(candidate.candidate_id, metrics)
++
++    oracle = ActionOracle(
++        canonical_invariant_id="CANON_TEST",
++        proof_reference="TEST",
++        proven_lower_bound_j=1.0e6,
++        relaxed_complete_energy_j=2.0e6,
++        realized_complete_energy_j=60.0e6,
++        ledger_scope=LEDGER_COMPLETE_RELAXED,
++        normalization_invariant=True,
++        naturalness_screened=True,
++        universal_metric_screened=True,
++    )
++    storage.record_action_oracle(candidate.candidate_id, oracle)
++
++    scaling = assess_collective_scaling(
++        [1.0, 2.0, 4.0],
++        [1.0, 4.0, 16.0],
++        [1.0, 2.0, 4.0],
++    )
++    storage.record_collective_scaling(
++        family=candidate.family_id,
++        family_version=candidate.family_version,
++        probe_id="TEST",
++        assessment=scaling,
++        proof_reference="TEST",
++    )
++
++    mechanism_rows = storage.mechanism_rows()
++    oracle_rows = storage.oracle_rows()
++    scaling_rows = storage.collective_scaling_rows()
++
++    assert len(mechanism_rows) == 1
++    assert len(oracle_rows) == 1
++    assert len(scaling_rows) == 1
++    assert mechanism_rows[0]["kernel_relative"] == 0.75
++    assert oracle_rows[0]["priority"] == "REALIZATION_LIMITED_HIGH_PRIORITY"
++    assert scaling_rows[0]["beneficial_collective_scaling"] == 1
++
++    output = tmp_path / "summary"
++    summary = rebuild_summaries(storage, output)
++    assert summary["mechanism_metric_count"] == 1
++    assert summary["action_oracle_count"] == 1
++    assert summary["collective_scaling_count"] == 1
++    assert (output / "mechanism_frontier.csv").exists()
++    assert (output / "oracle_learning.csv").exists()
++    assert (output / "collective_scaling.csv").exists()
++
++    storage.close()
++
++
++def test_mechanism_pareto_uses_interpretable_factorized_objectives():
++    rows = [
++        {
++            "candidate_id": "A",
++            "energy_j": 20.0e6,
++            "response_per_complete_joule": 2.0,
++            "productive_participation": 0.8,
++            "kernel_relative": 0.9,
++            "cancellation_ratio": 1.1,
++            "scaffolding_fraction": 0.2,
++            "realization_gap": 2.0,
++        },
++        {
++            "candidate_id": "B",
++            "energy_j": 30.0e6,
++            "response_per_complete_joule": 1.0,
++            "productive_participation": 0.5,
++            "kernel_relative": 0.7,
++            "cancellation_ratio": 1.5,
++            "scaffolding_fraction": 0.5,
++            "realization_gap": 3.0,
++        },
++    ]
++    frontier = mechanism_pareto_frontier(rows)
++    assert [row["candidate_id"] for row in frontier] == ["A"]

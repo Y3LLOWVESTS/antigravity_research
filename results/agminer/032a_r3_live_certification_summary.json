@@ -1,0 +1,19 @@
+{
+  "certification": "GREEN",
+  "cli_stop_rc_ok": true,
+  "concurrent_failures_ok": true,
+  "concurrent_status_ok": true,
+  "database_bytes": 118784,
+  "models": 80,
+  "next_index": 80,
+  "readonly_blocked_write": true,
+  "real_032_physics_search": false,
+  "rejections": 80,
+  "restart_zero_skips": 80,
+  "running_count": 0,
+  "seen_cli_stop": true,
+  "seen_signal_stop": true,
+  "sigterm_send_ok": true,
+  "stop_requested": false,
+  "workers_ok": true
+}

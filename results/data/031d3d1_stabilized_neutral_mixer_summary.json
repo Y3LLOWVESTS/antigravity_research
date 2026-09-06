@@ -1,0 +1,190 @@
+{
+  "best_candidate": {
+    "I_S_primary": 7.452392361290638e-05,
+    "I_barrier": 8.124922385316067e-05,
+    "I_overhead_primary": 0.00015577314746606703,
+    "barrier_energy_J": 86.57514767187838,
+    "compliance_pass": true,
+    "fundamental_S_radiation_kinematically_closed": true,
+    "gate_energy_primary_J": 79.40900092209519,
+    "ghat": 0.0001258925411794166,
+    "lambda": 3.8037436619066653e-10,
+    "perturbative_coupling_pass": true,
+    "quartic_pass": true,
+    "sigma": 10.0,
+    "sigma_energy": 10.364802542418547,
+    "total_overhead_primary_J": 165.98414859397357
+  },
+  "claim_class": "FIXED_THEORY_CONTROL_FIELD_BOUNDEDNESS_AND_TRANSFER_CAPACITY_PREFLIGHT",
+  "claim_limits": [
+    "GREEN is only a stabilized neutral-mixer capacity preflight in an extended flat-space effective theory.",
+    "The U(2)-symmetric Y/R doublet and stabilizing cross quartic are new fixed-theory ingredients, not established particles or interactions.",
+    "The simple D3D0 DC Rabi oracle is not sufficient once the 30.74-GJ endpoint detuning is included.",
+    "A resonant or chirped drive is required; the transfer-dependent resonance path is not solved here.",
+    "Only fundamental linear S radiation is kinematically screened by the selected mass; Y/R/source radiation remains open.",
+    "Reset recoverability is not assumed.",
+    "Einstein backreaction, nonlinear stability, EFT/naturalness and empirical closure remain open.",
+    "No practical antigravity device is established."
+  ],
+  "classification": "GREEN_D3D1_STABILIZED_NEUTRAL_MIXER_CAPACITY_PREFLIGHT",
+  "compliance": [
+    {
+      "bvp_max_rms": 1.9623415439404296e-06,
+      "bvp_nodes": 2511,
+      "compliance": 51276.40767529807,
+      "identity_relerr": 1.282484465898179e-10,
+      "pass": true,
+      "quadratic_twice": 51276.40766872195,
+      "sigma": 3.0,
+      "sigma_energy": 4.053286536050218
+    },
+    {
+      "bvp_max_rms": 1.8432628510406045e-06,
+      "bvp_nodes": 2502,
+      "compliance": 26157.789756373702,
+      "identity_relerr": 1.3987569330776697e-10,
+      "pass": true,
+      "quadratic_twice": 26157.789752714863,
+      "sigma": 5.0,
+      "sigma_energy": 5.694658176161759
+    },
+    {
+      "bvp_max_rms": 1.8206590113177744e-06,
+      "bvp_nodes": 2481,
+      "compliance": 7935.886780348382,
+      "identity_relerr": 1.4848240017051677e-10,
+      "pass": true,
+      "quadratic_twice": 7935.886779170042,
+      "sigma": 10.0,
+      "sigma_energy": 10.364802542418547
+    }
+  ],
+  "d3d0_classification": "GREEN_D3D0_EXACT_ENDPOINT_SPECTATOR_QBALL_RESERVOIR_ARCHITECTURE_SURVIVES",
+  "decision": {
+    "full_D3D_closed": false,
+    "preflight_pass": true
+  },
+  "detuning": {
+    "carrier_Hz": 210687758.6577416,
+    "carrier_rad_s": 1323790229.407585,
+    "endpoint_delta_E_J": 30737879934.947556,
+    "over_mA": 2.7256433631944543,
+    "per_charge_eV": 8.713345574234664e-07
+  },
+  "next": "031D3D2_CHIRPED_ADIABATIC_FULL_RADIAL_TRANSFER_SOURCE_RESPONSE_RADIATION_CLOSEOUT",
+  "profile": {
+    "I2": 23518.972453733928,
+    "I4": 854413.2420577854,
+    "I_Q_rebuilt": 10583.537634344319,
+    "I_Q_reference": 10583.537634344319,
+    "I_Q_relerr": 0.0,
+    "energy_scale_J_per_I": 1065550.457790749,
+    "pass": true
+  },
+  "resonant_999_tolerance_Hz": 0.01581929993151869,
+  "switching_rows": [
+    {
+      "carrier_Hz": 210687758.6577416,
+      "endpoint_average_power_W": 3073787993.4947557,
+      "endpoint_work_J": 30737879934.947556,
+      "fundamental_S_radiation_closed": true,
+      "gate_field_energy_J": 0.7940900092209517,
+      "rabi_energy_eV": 1.0339169241510008e-16,
+      "stabilizer_barrier_J": 86.57514767187838,
+      "switch_s": 10.0,
+      "transient_control_overhead_J": 87.36923768109934,
+      "unrecovered_control_average_power_W": 8.736923768109934
+    },
+    {
+      "carrier_Hz": 210687758.6577416,
+      "endpoint_average_power_W": 30737879934.947556,
+      "endpoint_work_J": 30737879934.947556,
+      "fundamental_S_radiation_closed": true,
+      "gate_field_energy_J": 79.40900092209519,
+      "rabi_energy_eV": 1.0339169241510009e-15,
+      "stabilizer_barrier_J": 86.57514767187838,
+      "switch_s": 1.0,
+      "transient_control_overhead_J": 165.98414859397357,
+      "unrecovered_control_average_power_W": 165.98414859397357
+    },
+    {
+      "carrier_Hz": 210687758.6577416,
+      "endpoint_average_power_W": 307378799349.4755,
+      "endpoint_work_J": 30737879934.947556,
+      "fundamental_S_radiation_closed": true,
+      "gate_field_energy_J": 7940.900092209517,
+      "rabi_energy_eV": 1.0339169241510009e-14,
+      "stabilizer_barrier_J": 86.57514767187838,
+      "switch_s": 0.1,
+      "transient_control_overhead_J": 8027.475239881396,
+      "unrecovered_control_average_power_W": 80274.75239881396
+    },
+    {
+      "carrier_Hz": 210687758.6577416,
+      "endpoint_average_power_W": 3073787993494.7554,
+      "endpoint_work_J": 30737879934.947556,
+      "fundamental_S_radiation_closed": true,
+      "gate_field_energy_J": 794090.0092209517,
+      "rabi_energy_eV": 1.0339169241510009e-13,
+      "stabilizer_barrier_J": 86.57514767187838,
+      "switch_s": 0.01,
+      "transient_control_overhead_J": 794176.5843686236,
+      "unrecovered_control_average_power_W": 79417658.43686235
+    },
+    {
+      "carrier_Hz": 210687758.6577416,
+      "endpoint_average_power_W": 30737879934947.555,
+      "endpoint_work_J": 30737879934.947556,
+      "fundamental_S_radiation_closed": true,
+      "gate_field_energy_J": 79409000.92209518,
+      "rabi_energy_eV": 1.0339169241510008e-12,
+      "stabilizer_barrier_J": 86.57514767187838,
+      "switch_s": 0.001,
+      "transient_control_overhead_J": 79409087.49724285,
+      "unrecovered_control_average_power_W": 79409087497.24286
+    },
+    {
+      "carrier_Hz": 210687758.6577416,
+      "endpoint_average_power_W": 307378799349475.56,
+      "endpoint_work_J": 30737879934.947556,
+      "fundamental_S_radiation_closed": true,
+      "gate_field_energy_J": 7940900092.209518,
+      "rabi_energy_eV": 1.0339169241510009e-11,
+      "stabilizer_barrier_J": 86.57514767187838,
+      "switch_s": 0.0001,
+      "transient_control_overhead_J": 7940900178.784666,
+      "unrecovered_control_average_power_W": 79409001787846.66
+    },
+    {
+      "carrier_Hz": 210687758.6577416,
+      "endpoint_average_power_W": 3073787993494755.5,
+      "endpoint_work_J": 30737879934.947556,
+      "fundamental_S_radiation_closed": true,
+      "gate_field_energy_J": 794090009220.9518,
+      "rabi_energy_eV": 1.0339169241510008e-10,
+      "stabilizer_barrier_J": 86.57514767187838,
+      "switch_s": 1e-05,
+      "transient_control_overhead_J": 794090009307.527,
+      "unrecovered_control_average_power_W": 7.940900093075269e+16
+    },
+    {
+      "carrier_Hz": 210687758.6577416,
+      "endpoint_average_power_W": 3.0737879934947556e+16,
+      "endpoint_work_J": 30737879934.947556,
+      "fundamental_S_radiation_closed": true,
+      "gate_field_energy_J": 79409000922095.22,
+      "rabi_energy_eV": 1.033916924151001e-09,
+      "stabilizer_barrier_J": 86.57514767187838,
+      "switch_s": 1e-06,
+      "transient_control_overhead_J": 79409000922181.8,
+      "unrecovered_control_average_power_W": 7.94090009221818e+19
+    }
+  ],
+  "theory": {
+    "boundedness_condition": "lambda >= 2*g^2/sigma^2",
+    "doublet_potential": "W(sqrt(|Y|^2+|R|^2))",
+    "gate_potential": "0.5*sigma^2*s^2 + lambda*|Y|^2|R|^2 - 2*g*s*Re(conj(Y)R)",
+    "stabilizer_margin": 1.2
+  },
+  "unresonant_static_pmax_1s": 5.63198387518486e-18
+}

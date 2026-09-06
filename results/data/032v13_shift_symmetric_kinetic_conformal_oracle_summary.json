@@ -1,0 +1,78 @@
+{
+  "agminer": {
+    "mechanism_metrics_recorded": false,
+    "p002_wrong_sign_candidate_id": "764a4d3b8a862e2cda57ca1d",
+    "p003_no_source_candidate_id": "c3f67972576b5f4673438c8f",
+    "partial_oracle_candidate_id": "b7f2d6c0eca205a86d02115f",
+    "partial_oracle_priority": "ORACLE_PROVENANCE_INCOMPLETE",
+    "partial_oracle_trusted_for_reachability": false,
+    "reporting": {
+      "action_oracle_count": 3,
+      "collective_scaling_count": 2,
+      "database_bytes": 63369216,
+      "mechanism_metric_count": 0,
+      "mechanism_pareto_count": 0,
+      "model_count": 101039,
+      "pareto_count": 0,
+      "rejection_count": 95594,
+      "stop_requested": false,
+      "survivor_count": 0
+    }
+  },
+  "branch": "032V13_SHIFT_SYMMETRIC_KINETIC_CONFORMAL_FINITE_PAYLOAD_ENERGY_EMPIRICAL_ORACLE",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "ANALYTIC_PREFIELD_FALSIFICATION_AND_PARTIAL_COUNTERFACTUAL_ORACLE",
+  "closures": {
+    "full_kinetic_conformal_operator_class": false,
+    "minimal_bv_linear_static_spacelike_branch": true,
+    "regular_static_positive_shift_current_branch_under_stated_assumptions": true,
+    "time_dependent_or_finite_shift_charge_evasions": false
+  },
+  "decision": "RED_MINIMAL_REGULAR_STATIC_KINETIC_CONFORMAL_SOURCE_GREEN_OUTWARD_SIGN_TARGET_ONLY",
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "finite_payload_counterfactual": {
+    "bare_exterior_100kev_j": 73194.77538308808,
+    "bare_exterior_scale_at_10mj_ev": 341884.94694240537,
+    "bare_exterior_scale_at_1mj_ev": 192256.03412622443,
+    "complete_operating_ledger": false,
+    "jacobian_kinetic_eigenvalue_min": 1.0,
+    "payload_cm_quadrature_relerr_64_96": 2.084897523882391e-15,
+    "payload_cm_volume_average_m_s2": 51.12069497091853,
+    "payload_mass_kg": 1.0,
+    "payload_radius_m": 0.1,
+    "physical_energy_prediction": false,
+    "required_abs_grad_ln_A_per_m": 1.0911369672198217e-16,
+    "required_abs_grad_ln_C_per_m": 2.1822739344396434e-16,
+    "source_payload_gap_m": 0.1,
+    "source_radius_m": 0.1,
+    "surface_max_outward_m_s2": 313.8127999999994,
+    "surface_min_outward_m_s2": 9.80665,
+    "surface_nonuniformity_ratio": 31.999999999999943,
+    "y_source_surface": 2.793310636082744e-15
+  },
+  "next": "032V14_OUTWARD_WILSON_SIGN_AND_FINITE_SHIFT_CHARGE_SOURCE_PREFLIGHT",
+  "physical_antigravity_model_found": false,
+  "published_and_reference_static_signs": {
+    "BV_GOLDSTONE_LINEAR_A": false,
+    "OUTWARD_SIGN_TARGET": true,
+    "ZGB_EXPONENTIAL_TRANSFORMATION_PROBE": false,
+    "ZGB_GAUSSIAN_TRANSFORMATION_PROBE": false
+  },
+  "static_positive_shift_current_no_source_theorem": true,
+  "theorem_assumptions": {
+    "boundary_flux": false,
+    "effective_spatial_current_coefficient_positive": true,
+    "explicit_shift_current_source": false,
+    "isolated_asymptotically_constant": true,
+    "regular": true,
+    "time_dependent_shift_background": false,
+    "topological_or_defect_sector": false
+  },
+  "theorem_evasions_to_test": [
+    "FINITE_LOCAL_SHIFT_CURRENT_SOURCE",
+    "IMPOSED_BOUNDARY_FLUX",
+    "TOPOLOGICAL_OR_DEFECT_SECTOR",
+    "TIME_DEPENDENT_SHIFT_BACKGROUND",
+    "KINETIC_CRITICAL_SURFACE_WITH_SEPARATE_HEALTH_GATE"
+  ]
+}

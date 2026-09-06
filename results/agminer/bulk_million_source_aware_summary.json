@@ -1,0 +1,628 @@
+{
+  "best_overall": [
+    {
+      "candidate_id": "0c1db8db8bfb1e5a004318c2",
+      "energy_j": 1920927824985.0078,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.131211668253,\"log10_cutoff_gev\":2.419982190132,\"log10_dbi_scale_ev\":-4.672843456268,\"log10_n_fields\":0.002113580704,\"range_m\":0.879724669456}",
+      "sample_index": 8345810
+    },
+    {
+      "candidate_id": "5c79c9752a36872a7d286487",
+      "energy_j": 2932960777264.212,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.239896440506,\"log10_cutoff_gev\":2.30679058075,\"log10_dbi_scale_ev\":-4.635288238525,\"log10_n_fields\":0.319604873657,\"range_m\":0.745442390442}",
+      "sample_index": 1005842
+    },
+    {
+      "candidate_id": "e2738a1c35d106d0e4decc8a",
+      "energy_j": 3152469113802.103,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-0.981105403602,\"log10_cutoff_gev\":2.42650685668,\"log10_dbi_scale_ev\":-4.490220427513,\"log10_n_fields\":0.17556220293,\"range_m\":0.238490074873}",
+      "sample_index": 18595962
+    },
+    {
+      "candidate_id": "b479e50921ec2b0855ae8039",
+      "energy_j": 3819677684467.9346,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.371117137372,\"log10_cutoff_gev\":2.338512076139,\"log10_dbi_scale_ev\":-4.643538355827,\"log10_n_fields\":1.064685881138,\"range_m\":0.221336644888}",
+      "sample_index": 21809970
+    },
+    {
+      "candidate_id": "4df88b21c2b67adb8481781f",
+      "energy_j": 3840759043884.4053,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.20235465169,\"log10_cutoff_gev\":2.543754677773,\"log10_dbi_scale_ev\":-4.557961940765,\"log10_n_fields\":0.205804109573,\"range_m\":0.304510569572}",
+      "sample_index": 6407570
+    },
+    {
+      "candidate_id": "f29669f7a4151674def4ec36",
+      "energy_j": 4101467754372.632,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.136357991397,\"log10_cutoff_gev\":2.286357845068,\"log10_dbi_scale_ev\":-4.510702490807,\"log10_n_fields\":0.270784199238,\"range_m\":0.401781195402}",
+      "sample_index": 20037842
+    },
+    {
+      "candidate_id": "35247214563d50fc380d13aa",
+      "energy_j": 4679924485300.627,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.529480832815,\"log10_cutoff_gev\":2.282340292931,\"log10_dbi_scale_ev\":-4.678614139557,\"log10_n_fields\":0.543226003647,\"range_m\":0.287615323067}",
+      "sample_index": 5411826
+    },
+    {
+      "candidate_id": "9861061d21697edd88f7ba4b",
+      "energy_j": 5468637054035.156,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.642077057064,\"log10_cutoff_gev\":2.440005134344,\"log10_dbi_scale_ev\":-4.701092123985,\"log10_n_fields\":0.619843304157,\"range_m\":0.846366137266}",
+      "sample_index": 19306018
+    },
+    {
+      "candidate_id": "7a2f040a954737c6b6ea1cb6",
+      "energy_j": 5746765847768.1,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.142678532004,\"log10_cutoff_gev\":2.344456026554,\"log10_dbi_scale_ev\":-4.440620660782,\"log10_n_fields\":0.804367661476,\"range_m\":0.245993459225}",
+      "sample_index": 9702866
+    },
+    {
+      "candidate_id": "3f7c71ca05627b5197ec0e7d",
+      "energy_j": 6074148148728.298,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.627876512706,\"log10_cutoff_gev\":2.938798507452,\"log10_dbi_scale_ev\":-4.67118871212,\"log10_n_fields\":0.24725228548,\"range_m\":0.511321085691}",
+      "sample_index": 19527458
+    },
+    {
+      "candidate_id": "1afbe5b3fe64ed27b5c6a909",
+      "energy_j": 6691489168173.346,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.528418445587,\"log10_cutoff_gev\":2.894123916626,\"log10_dbi_scale_ev\":-4.600440979004,\"log10_n_fields\":0.443859100342,\"range_m\":0.386153793335}",
+      "sample_index": 408562
+    },
+    {
+      "candidate_id": "49b4f4021216feb603c9c685",
+      "energy_j": 7019712598554.308,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-0.993640103936,\"log10_cutoff_gev\":2.496550023556,\"log10_dbi_scale_ev\":-4.322653532028,\"log10_n_fields\":0.364853739738,\"range_m\":0.387822639942}",
+      "sample_index": 13577978
+    },
+    {
+      "candidate_id": "c98c6c000763f5ef24146805",
+      "energy_j": 7263815193105.4795,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.728976967931,\"log10_cutoff_gev\":2.347214839458,\"log10_dbi_scale_ev\":-4.682899236679,\"log10_n_fields\":0.398306250572,\"range_m\":0.63703161478}",
+      "sample_index": 15948514
+    },
+    {
+      "candidate_id": "4840e93f23adf58448475b24",
+      "energy_j": 7375535267212.081,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.620292195678,\"log10_cutoff_gev\":2.579002172947,\"log10_dbi_scale_ev\":-4.625242471695,\"log10_n_fields\":0.216384530067,\"range_m\":0.987837541103}",
+      "sample_index": 8608546
+    },
+    {
+      "candidate_id": "6fdfc9d6013f1d42c0fcc2ae",
+      "energy_j": 7574999277927.887,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.52453495115,\"log10_cutoff_gev\":2.345662945509,\"log10_dbi_scale_ev\":-4.57156932354,\"log10_n_fields\":0.156246721745,\"range_m\":1.627062743902}",
+      "sample_index": 24756722
+    },
+    {
+      "candidate_id": "f4138a2669df6b8ae222d96c",
+      "energy_j": 7799249517351.967,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.307138870656,\"log10_cutoff_gev\":2.636727083921,\"log10_dbi_scale_ev\":-4.45653617382,\"log10_n_fields\":0.032843649387,\"range_m\":0.32013797164}",
+      "sample_index": 22429362
+    },
+    {
+      "candidate_id": "3b76fdb794a8f360307015d8",
+      "energy_j": 7992877398857.662,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.686271797121,\"log10_cutoff_gev\":2.599210518599,\"log10_dbi_scale_ev\":-4.640777468681,\"log10_n_fields\":0.45595318079,\"range_m\":0.393216747046}",
+      "sample_index": 23896930
+    },
+    {
+      "candidate_id": "5ad392fd50dcb502bd56b16e",
+      "energy_j": 8036019266589.072,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.380898728967,\"log10_cutoff_gev\":2.373960683346,\"log10_dbi_scale_ev\":-4.486922025681,\"log10_n_fields\":0.090481638908,\"range_m\":0.70811034441}",
+      "sample_index": 13223730
+    },
+    {
+      "candidate_id": "f911c4927807664d604577e9",
+      "energy_j": 8046274352064.195,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.591249978542,\"log10_cutoff_gev\":2.464990816116,\"log10_dbi_scale_ev\":-4.591820716858,\"log10_n_fields\":1.080543994904,\"range_m\":0.252386713028}",
+      "sample_index": 2511778
+    },
+    {
+      "candidate_id": "f26482a75dd050ba0ebc7bd1",
+      "energy_j": 8062326234647.53,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.739915955067,\"log10_cutoff_gev\":2.501589422226,\"log10_dbi_scale_ev\":-4.665720939636,\"log10_n_fields\":1.053521633148,\"range_m\":0.894630384445}",
+      "sample_index": 3722978
+    },
+    {
+      "candidate_id": "630f6a20a8872cc7fb3d38ed",
+      "energy_j": 8536328563686.143,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.271675181389,\"log10_cutoff_gev\":2.491652431488,\"log10_dbi_scale_ev\":-4.419195175171,\"log10_n_fields\":0.843071937561,\"range_m\":0.320446681976}",
+      "sample_index": 1107474
+    },
+    {
+      "candidate_id": "f4664a66c9c457698c76b690",
+      "energy_j": 9043605508658.479,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.38724912256,\"log10_cutoff_gev\":2.256863716841,\"log10_dbi_scale_ev\":-4.464446902275,\"log10_n_fields\":0.508596003056,\"range_m\":0.552173656225}",
+      "sample_index": 23857714
+    },
+    {
+      "candidate_id": "2a2f84a7f6bc095189c02d5d",
+      "energy_j": 9335167613548.006,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.781814621389,\"log10_cutoff_gev\":2.283683260679,\"log10_dbi_scale_ev\":-4.654839396477,\"log10_n_fields\":0.932349264622,\"range_m\":0.77846621871}",
+      "sample_index": 22452194
+    },
+    {
+      "candidate_id": "26e55b0f2780caab8877b6bf",
+      "energy_j": 9375679361790.768,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.598264482617,\"log10_cutoff_gev\":2.298487327099,\"log10_dbi_scale_ev\":-4.562124013901,\"log10_n_fields\":0.309028029442,\"range_m\":1.121439898014}",
+      "sample_index": 15583138
+    },
+    {
+      "candidate_id": "761492f3209480f11d7f8c41",
+      "energy_j": 9557560658254.262,
+      "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "params_json_compact": "{\"log10_alpha\":-1.086703708768,\"log10_cutoff_gev\":2.270136535168,\"log10_dbi_scale_ev\":-4.302171468735,\"log10_n_fields\":0.020608305931,\"range_m\":0.225727808475}",
+      "sample_index": 15019602
+    }
+  ],
+  "certified_antigravity_model_found": false,
+  "claim_class": "BULK_TIER0_LOWER_BOUND_SCREENING_ONLY",
+  "comparison": "LT",
+  "db_bytes_end": 63021056,
+  "energy_limit_j": 10000000.0,
+  "families": [
+    {
+      "analytic_fail": 0,
+      "best_candidate_id": "670e07acbb5e8c7100f64c04",
+      "best_energy_j": 9.369541760768323e+25,
+      "eft_fail": 0,
+      "eligible": 0,
+      "energy_fail": 2778517,
+      "family": "032G_SOURCE_AWARE_COLLECTIVE_CANONICAL",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "naturalness_fail": 22721483,
+      "next_index": 25500000,
+      "target_index": 25500000,
+      "tested": 25500000,
+      "top": [
+        {
+          "candidate_id": "670e07acbb5e8c7100f64c04",
+          "energy_j": 9.369541760768323e+25,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-5.596556919813,\"log10_cutoff_gev\":2.258060107231,\"log10_n_fields\":10.438946485519,\"range_m\":0.223627877235}",
+          "sample_index": 5096668
+        },
+        {
+          "candidate_id": "ad56d6bc9bacc7de11b7742a",
+          "energy_j": 9.501793437210654e+25,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-3.020329967141,\"log10_cutoff_gev\":2.25154769659,\"log10_n_fields\":5.280405879021,\"range_m\":0.204724991322}",
+          "sample_index": 12610566
+        },
+        {
+          "candidate_id": "fe708309ab82c6e6bbf4f109",
+          "energy_j": 1.0177505096984117e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-7.185586129129,\"log10_cutoff_gev\":2.24707346797,\"log10_n_fields\":13.581081926823,\"range_m\":0.222469848394}",
+          "sample_index": 24713104
+        },
+        {
+          "candidate_id": "13bfffcc861811c3c9f0cfee",
+          "energy_j": 1.0893797407600091e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-3.607600520551,\"log10_cutoff_gev\":2.26226421237,\"log10_n_fields\":6.395572721958,\"range_m\":0.229785436392}",
+          "sample_index": 21886174
+        },
+        {
+          "candidate_id": "7cf8d38cbc6c6ef2957667fb",
+          "energy_j": 1.1090720583421536e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-3.755146299303,\"log10_cutoff_gev\":2.297311829329,\"log10_n_fields\":6.682883799076,\"range_m\":0.205352634192}",
+          "sample_index": 23197214
+        },
+        {
+          "candidate_id": "22469e7ed57eefae20155ad1",
+          "energy_j": 1.1171305223313428e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-5.539285860956,\"log10_cutoff_gev\":2.246265400648,\"log10_n_fields\":10.248018801212,\"range_m\":0.20225443244}",
+          "sample_index": 24500060
+        },
+        {
+          "candidate_id": "96e54f30010b9afcef3a81ca",
+          "energy_j": 1.173556496011671e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-0.727006497979,\"log10_cutoff_gev\":2.283367650509,\"log10_n_fields\":0.642258524895,\"range_m\":0.24097815752}",
+          "sample_index": 13596570
+        },
+        {
+          "candidate_id": "8200e8edf64b04ec1716a33e",
+          "energy_j": 1.1767125580086326e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-6.06054956615,\"log10_cutoff_gev\":2.269878914356,\"log10_n_fields\":11.267979741096,\"range_m\":0.220967185497}",
+          "sample_index": 12225448
+        },
+        {
+          "candidate_id": "7a2d2bbc45757b906edb9970",
+          "energy_j": 1.2127404330765592e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.950623071194,\"log10_cutoff_gev\":2.348018465042,\"log10_n_fields\":3.034965991974,\"range_m\":0.20490899086}",
+          "sample_index": 2612610
+        },
+        {
+          "candidate_id": "103ef2652d39c99ac9c3774b",
+          "energy_j": 1.22162294532193e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-5.85602580905,\"log10_cutoff_gev\":2.266596140862,\"log10_n_fields\":10.842665433884,\"range_m\":0.255021119118}",
+          "sample_index": 4529980
+        },
+        {
+          "candidate_id": "63df16e1a7712a68b6137dfb",
+          "energy_j": 1.2472117015419493e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-7.669963389635,\"log10_cutoff_gev\":2.241347985268,\"log10_n_fields\":14.461537599564,\"range_m\":0.220116114616}",
+          "sample_index": 6686304
+        },
+        {
+          "candidate_id": "f3259d3211e79e6ec52c6813",
+          "energy_j": 1.2585951831880564e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-3.686227363348,\"log10_cutoff_gev\":2.287538771629,\"log10_n_fields\":6.490119695663,\"range_m\":0.226744771004}",
+          "sample_index": 5891486
+        },
+        {
+          "candidate_id": "720bc7d12fc6f64b4fa2e99e",
+          "energy_j": 1.2872717658959085e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-4.953956225514,\"log10_cutoff_gev\":2.27867651701,\"log10_n_fields\":9.015793204308,\"range_m\":0.232246649265}",
+          "sample_index": 16273284
+        },
+        {
+          "candidate_id": "ca1c4c1e00a74adafa607323",
+          "energy_j": 1.3057394741135653e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.064377228916,\"log10_cutoff_gev\":2.256325114965,\"log10_n_fields\":1.22676640749,\"range_m\":0.233609122038}",
+          "sample_index": 20263762
+        },
+        {
+          "candidate_id": "6288aa7d574a2b290f6e1649",
+          "energy_j": 1.307669385845241e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.468186728656,\"log10_cutoff_gev\":2.353332675695,\"log10_n_fields\":2.038924992085,\"range_m\":0.207187956572}",
+          "sample_index": 20499570
+        },
+        {
+          "candidate_id": "8771133cc7c33537c2c0566d",
+          "energy_j": 1.3305303416644802e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-5.350000157952,\"log10_cutoff_gev\":2.2724705863,\"log10_n_fields\":9.793526530266,\"range_m\":0.200117409229}",
+          "sample_index": 13421772
+        },
+        {
+          "candidate_id": "b03da781aa6d23f52771f951",
+          "energy_j": 1.3327464107320228e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-3.136813476682,\"log10_cutoff_gev\":2.28342884779,\"log10_n_fields\":5.366429686546,\"range_m\":0.212026560307}",
+          "sample_index": 14872110
+        },
+        {
+          "candidate_id": "98ffbe5d7095026d7f85265c",
+          "energy_j": 1.350843776980105e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-4.999578933418,\"log10_cutoff_gev\":2.338335393667,\"log10_n_fields\":9.086103737354,\"range_m\":0.208339852095}",
+          "sample_index": 18853380
+        },
+        {
+          "candidate_id": "31708cc5afe829676543d9fb",
+          "energy_j": 1.3526288756130526e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-5.932725475729,\"log10_cutoff_gev\":2.283793810606,\"log10_n_fields\":10.951823294163,\"range_m\":0.242173570395}",
+          "sample_index": 22089340
+        },
+        {
+          "candidate_id": "caeb96bcd02634cc7a88492f",
+          "energy_j": 1.3536890802423917e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-2.431117074192,\"log10_cutoff_gev\":2.282025340796,\"log10_n_fields\":3.948285877705,\"range_m\":0.231478232145}",
+          "sample_index": 20411254
+        },
+        {
+          "candidate_id": "415b4b2df42ca066ca777b6a",
+          "energy_j": 1.369373196105672e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.110000410676,\"log10_cutoff_gev\":2.359058816433,\"log10_n_fields\":1.296502947807,\"range_m\":0.200094044209}",
+          "sample_index": 13816530
+        },
+        {
+          "candidate_id": "127736494a9a053a9fd3ce3e",
+          "energy_j": 1.3742610090590266e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.871996228397,\"log10_cutoff_gev\":2.374618800879,\"log10_n_fields\":2.823159992695,\"range_m\":0.212730139494}",
+          "sample_index": 20171970
+        },
+        {
+          "candidate_id": "8203f93a134bcaeb3b3b0737",
+          "energy_j": 1.387106365706472e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-5.671300505102,\"log10_cutoff_gev\":2.324426172972,\"log10_n_fields\":10.418042242527,\"range_m\":0.235285562277}",
+          "sample_index": 22664604
+        },
+        {
+          "candidate_id": "983ab3f02d31aa59aa51e5d7",
+          "energy_j": 1.4134297276500507e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-7.501583069563,\"log10_cutoff_gev\":2.264456210136,\"log10_n_fields\":14.070442914963,\"range_m\":0.275161767006}",
+          "sample_index": 4841456
+        },
+        {
+          "candidate_id": "e79530732e306bb7484f7a1d",
+          "energy_j": 1.4186295783215243e+26,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-3.585706198215,\"log10_cutoff_gev\":2.257013502121,\"log10_n_fields\":6.237094402313,\"range_m\":0.25339140892}",
+          "sample_index": 3356766
+        }
+      ],
+      "unresolved": 0
+    },
+    {
+      "analytic_fail": 0,
+      "best_candidate_id": "0c1db8db8bfb1e5a004318c2",
+      "best_energy_j": 1920927824985.0078,
+      "eft_fail": 762707,
+      "eligible": 0,
+      "energy_fail": 2015810,
+      "family": "032H_SOURCE_AWARE_COLLECTIVE_DBI",
+      "family_version": "3_SHARED_SOURCE_VECTOR_CHARGE",
+      "naturalness_fail": 22721483,
+      "next_index": 25500000,
+      "target_index": 25500000,
+      "tested": 25500000,
+      "top": [
+        {
+          "candidate_id": "0c1db8db8bfb1e5a004318c2",
+          "energy_j": 1920927824985.0078,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.131211668253,\"log10_cutoff_gev\":2.419982190132,\"log10_dbi_scale_ev\":-4.672843456268,\"log10_n_fields\":0.002113580704,\"range_m\":0.879724669456}",
+          "sample_index": 8345810
+        },
+        {
+          "candidate_id": "5c79c9752a36872a7d286487",
+          "energy_j": 2932960777264.212,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.239896440506,\"log10_cutoff_gev\":2.30679058075,\"log10_dbi_scale_ev\":-4.635288238525,\"log10_n_fields\":0.319604873657,\"range_m\":0.745442390442}",
+          "sample_index": 1005842
+        },
+        {
+          "candidate_id": "e2738a1c35d106d0e4decc8a",
+          "energy_j": 3152469113802.103,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-0.981105403602,\"log10_cutoff_gev\":2.42650685668,\"log10_dbi_scale_ev\":-4.490220427513,\"log10_n_fields\":0.17556220293,\"range_m\":0.238490074873}",
+          "sample_index": 18595962
+        },
+        {
+          "candidate_id": "b479e50921ec2b0855ae8039",
+          "energy_j": 3819677684467.9346,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.371117137372,\"log10_cutoff_gev\":2.338512076139,\"log10_dbi_scale_ev\":-4.643538355827,\"log10_n_fields\":1.064685881138,\"range_m\":0.221336644888}",
+          "sample_index": 21809970
+        },
+        {
+          "candidate_id": "4df88b21c2b67adb8481781f",
+          "energy_j": 3840759043884.4053,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.20235465169,\"log10_cutoff_gev\":2.543754677773,\"log10_dbi_scale_ev\":-4.557961940765,\"log10_n_fields\":0.205804109573,\"range_m\":0.304510569572}",
+          "sample_index": 6407570
+        },
+        {
+          "candidate_id": "f29669f7a4151674def4ec36",
+          "energy_j": 4101467754372.632,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.136357991397,\"log10_cutoff_gev\":2.286357845068,\"log10_dbi_scale_ev\":-4.510702490807,\"log10_n_fields\":0.270784199238,\"range_m\":0.401781195402}",
+          "sample_index": 20037842
+        },
+        {
+          "candidate_id": "35247214563d50fc380d13aa",
+          "energy_j": 4679924485300.627,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.529480832815,\"log10_cutoff_gev\":2.282340292931,\"log10_dbi_scale_ev\":-4.678614139557,\"log10_n_fields\":0.543226003647,\"range_m\":0.287615323067}",
+          "sample_index": 5411826
+        },
+        {
+          "candidate_id": "9861061d21697edd88f7ba4b",
+          "energy_j": 5468637054035.156,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.642077057064,\"log10_cutoff_gev\":2.440005134344,\"log10_dbi_scale_ev\":-4.701092123985,\"log10_n_fields\":0.619843304157,\"range_m\":0.846366137266}",
+          "sample_index": 19306018
+        },
+        {
+          "candidate_id": "7a2f040a954737c6b6ea1cb6",
+          "energy_j": 5746765847768.1,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.142678532004,\"log10_cutoff_gev\":2.344456026554,\"log10_dbi_scale_ev\":-4.440620660782,\"log10_n_fields\":0.804367661476,\"range_m\":0.245993459225}",
+          "sample_index": 9702866
+        },
+        {
+          "candidate_id": "3f7c71ca05627b5197ec0e7d",
+          "energy_j": 6074148148728.298,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.627876512706,\"log10_cutoff_gev\":2.938798507452,\"log10_dbi_scale_ev\":-4.67118871212,\"log10_n_fields\":0.24725228548,\"range_m\":0.511321085691}",
+          "sample_index": 19527458
+        },
+        {
+          "candidate_id": "1afbe5b3fe64ed27b5c6a909",
+          "energy_j": 6691489168173.346,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.528418445587,\"log10_cutoff_gev\":2.894123916626,\"log10_dbi_scale_ev\":-4.600440979004,\"log10_n_fields\":0.443859100342,\"range_m\":0.386153793335}",
+          "sample_index": 408562
+        },
+        {
+          "candidate_id": "49b4f4021216feb603c9c685",
+          "energy_j": 7019712598554.308,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-0.993640103936,\"log10_cutoff_gev\":2.496550023556,\"log10_dbi_scale_ev\":-4.322653532028,\"log10_n_fields\":0.364853739738,\"range_m\":0.387822639942}",
+          "sample_index": 13577978
+        },
+        {
+          "candidate_id": "c98c6c000763f5ef24146805",
+          "energy_j": 7263815193105.4795,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.728976967931,\"log10_cutoff_gev\":2.347214839458,\"log10_dbi_scale_ev\":-4.682899236679,\"log10_n_fields\":0.398306250572,\"range_m\":0.63703161478}",
+          "sample_index": 15948514
+        },
+        {
+          "candidate_id": "4840e93f23adf58448475b24",
+          "energy_j": 7375535267212.081,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.620292195678,\"log10_cutoff_gev\":2.579002172947,\"log10_dbi_scale_ev\":-4.625242471695,\"log10_n_fields\":0.216384530067,\"range_m\":0.987837541103}",
+          "sample_index": 8608546
+        },
+        {
+          "candidate_id": "6fdfc9d6013f1d42c0fcc2ae",
+          "energy_j": 7574999277927.887,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.52453495115,\"log10_cutoff_gev\":2.345662945509,\"log10_dbi_scale_ev\":-4.57156932354,\"log10_n_fields\":0.156246721745,\"range_m\":1.627062743902}",
+          "sample_index": 24756722
+        },
+        {
+          "candidate_id": "f4138a2669df6b8ae222d96c",
+          "energy_j": 7799249517351.967,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.307138870656,\"log10_cutoff_gev\":2.636727083921,\"log10_dbi_scale_ev\":-4.45653617382,\"log10_n_fields\":0.032843649387,\"range_m\":0.32013797164}",
+          "sample_index": 22429362
+        },
+        {
+          "candidate_id": "3b76fdb794a8f360307015d8",
+          "energy_j": 7992877398857.662,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.686271797121,\"log10_cutoff_gev\":2.599210518599,\"log10_dbi_scale_ev\":-4.640777468681,\"log10_n_fields\":0.45595318079,\"range_m\":0.393216747046}",
+          "sample_index": 23896930
+        },
+        {
+          "candidate_id": "5ad392fd50dcb502bd56b16e",
+          "energy_j": 8036019266589.072,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.380898728967,\"log10_cutoff_gev\":2.373960683346,\"log10_dbi_scale_ev\":-4.486922025681,\"log10_n_fields\":0.090481638908,\"range_m\":0.70811034441}",
+          "sample_index": 13223730
+        },
+        {
+          "candidate_id": "f911c4927807664d604577e9",
+          "energy_j": 8046274352064.195,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.591249978542,\"log10_cutoff_gev\":2.464990816116,\"log10_dbi_scale_ev\":-4.591820716858,\"log10_n_fields\":1.080543994904,\"range_m\":0.252386713028}",
+          "sample_index": 2511778
+        },
+        {
+          "candidate_id": "f26482a75dd050ba0ebc7bd1",
+          "energy_j": 8062326234647.53,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.739915955067,\"log10_cutoff_gev\":2.501589422226,\"log10_dbi_scale_ev\":-4.665720939636,\"log10_n_fields\":1.053521633148,\"range_m\":0.894630384445}",
+          "sample_index": 3722978
+        },
+        {
+          "candidate_id": "630f6a20a8872cc7fb3d38ed",
+          "energy_j": 8536328563686.143,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.271675181389,\"log10_cutoff_gev\":2.491652431488,\"log10_dbi_scale_ev\":-4.419195175171,\"log10_n_fields\":0.843071937561,\"range_m\":0.320446681976}",
+          "sample_index": 1107474
+        },
+        {
+          "candidate_id": "f4664a66c9c457698c76b690",
+          "energy_j": 9043605508658.479,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.38724912256,\"log10_cutoff_gev\":2.256863716841,\"log10_dbi_scale_ev\":-4.464446902275,\"log10_n_fields\":0.508596003056,\"range_m\":0.552173656225}",
+          "sample_index": 23857714
+        },
+        {
+          "candidate_id": "2a2f84a7f6bc095189c02d5d",
+          "energy_j": 9335167613548.006,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.781814621389,\"log10_cutoff_gev\":2.283683260679,\"log10_dbi_scale_ev\":-4.654839396477,\"log10_n_fields\":0.932349264622,\"range_m\":0.77846621871}",
+          "sample_index": 22452194
+        },
+        {
+          "candidate_id": "26e55b0f2780caab8877b6bf",
+          "energy_j": 9375679361790.768,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.598264482617,\"log10_cutoff_gev\":2.298487327099,\"log10_dbi_scale_ev\":-4.562124013901,\"log10_n_fields\":0.309028029442,\"range_m\":1.121439898014}",
+          "sample_index": 15583138
+        },
+        {
+          "candidate_id": "761492f3209480f11d7f8c41",
+          "energy_j": 9557560658254.262,
+          "energy_state": "REJECTED_ENERGY_OBJECTIVE",
+          "params_json_compact": "{\"log10_alpha\":-1.086703708768,\"log10_cutoff_gev\":2.270136535168,\"log10_dbi_scale_ev\":-4.302171468735,\"log10_n_fields\":0.020608305931,\"range_m\":0.225727808475}",
+          "sample_index": 15019602
+        }
+      ],
+      "unresolved": 0
+    }
+  ],
+  "policy_id": "ENERGY_ab8c16e45c837ffc",
+  "stop_requested": false,
+  "stop_source": null,
+  "target_per_family": 25500000,
+  "total_eligible": 0,
+  "total_target": 51000000,
+  "total_tested_reported": 51000000,
+  "total_unresolved": 0
+}

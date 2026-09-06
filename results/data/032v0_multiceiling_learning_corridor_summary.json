@@ -1,0 +1,167 @@
+{
+  "branch": "032V0_FEASIBILITY_FIRST_MULTI_CEILING_LEARNING",
+  "claim_class": "SEARCH_STRATEGY_AND_KNOWLEDGE_RETENTION_INFRASTRUCTURE",
+  "database": {
+    "band_counts": {
+      "ARCHIVE_GT_1GJ": 30524,
+      "MECHANISM_100MJ_TO_1GJ": 1272,
+      "NEAR_MISS_10_TO_100MJ": 1126
+    },
+    "current_energy_objective_state": "REJECTED_ENERGY_OBJECTIVE:ENERGY_ab8c16e45c837ffc",
+    "family_best": [
+      {
+        "band": "NEAR_MISS_10_TO_100MJ",
+        "candidate_id": "e6cd2f43a6634cb11734f48f",
+        "certified_model": false,
+        "energy_j": 10003677.994283097,
+        "energy_mj": 10.003677994283096,
+        "energy_semantics": "AGMINER_STORED_ENERGY_AT_OBJECTIVE_REJECTION",
+        "family": "032C_TWIN_PNGB_DBI_METRIC",
+        "family_version": "1_PRELIMINARY_TIER0",
+        "learning_priority": "HIGH_LEARNING_PRIORITY",
+        "params_json": "{\"log10_alpha\":-2.7294921875,\"log10_cutoff_gev\":2.247075195313,\"log10_dbi_scale_ev\":0.304931640625,\"range_m\":0.756274414062}",
+        "state": "REJECTED_ENERGY_OBJECTIVE:ENERGY_ab8c16e45c837ffc",
+        "target_factor": 1.0003677994283098
+      },
+      {
+        "band": "NEAR_MISS_10_TO_100MJ",
+        "candidate_id": "f957e8a44b68b5f0c11fcd42",
+        "certified_model": false,
+        "energy_j": 10027992.378034426,
+        "energy_mj": 10.027992378034426,
+        "energy_semantics": "AGMINER_STORED_ENERGY_AT_OBJECTIVE_REJECTION",
+        "family": "032E_COLLECTIVE_MULTISCALAR_TWIN_PNGB",
+        "family_version": "1_PRELIMINARY_TIER0",
+        "learning_priority": "HIGH_LEARNING_PRIORITY",
+        "params_json": "{\"log10_alpha\":-2.99609375,\"log10_cutoff_gev\":3.02703125,\"log10_n_fields\":7.0703125,\"range_m\":4.14296875}",
+        "state": "REJECTED_ENERGY_OBJECTIVE:ENERGY_ab8c16e45c837ffc",
+        "target_factor": 1.0027992378034425
+      }
+    ],
+    "family_best_count": 2,
+    "learning_rows_retained_csv": 250,
+    "learning_rows_total": 2398,
+    "path": "results/agminer/agminer.sqlite3"
+  },
+  "historical_controls": [
+    {
+      "assessment": {
+        "band": "NEAR_MISS_10_TO_100MJ",
+        "certification_energy_eligible": false,
+        "energy_j": 53240466.8716,
+        "learning_priority": "HIGH_LEARNING_PRIORITY",
+        "maximum_proven_reduction_factor": 1.0,
+        "proof_backed_floor_j": 53240466.8716,
+        "removable_energy_above_floor_j": 0.0,
+        "same_declared_branch_can_reach_target": false,
+        "strict_energy_success": false,
+        "target_factor": 5.32404668716
+      },
+      "energy_j": 53240466.8716,
+      "lesson": "ONLY_5P324X_FROM_TARGET_BUT_GEOMETRY_ONLY_RESCUE_CLOSED",
+      "name": "032N1_MINIMAL_GHOST_HALFSPACE_FLOOR",
+      "proof_backed_floor_j": 53240466.8716,
+      "status": "DECLARED_MINIMAL_BRANCH_CLOSED"
+    },
+    {
+      "assessment": {
+        "band": "MECHANISM_100MJ_TO_1GJ",
+        "certification_energy_eligible": false,
+        "energy_j": 130695209.0,
+        "learning_priority": "CONDITIONAL_MECHANISM_PRIORITY",
+        "maximum_proven_reduction_factor": null,
+        "proof_backed_floor_j": null,
+        "removable_energy_above_floor_j": null,
+        "same_declared_branch_can_reach_target": null,
+        "strict_energy_success": false,
+        "target_factor": 13.0695209
+      },
+      "energy_j": 130695209.0,
+      "lesson": "RAW_CHARGE_ENERGY_SEPARATION_AND_2P45X_MORPHOLOGY_GAIN",
+      "name": "032N0_UNIFORM_GHOST_CYLINDER_PREFIELD",
+      "proof_backed_floor_j": null,
+      "status": "SUPERSEDED_BY_032N1_MORPHOLOGY_BOUND"
+    },
+    {
+      "assessment": {
+        "band": "ARCHIVE_GT_1GJ",
+        "certification_energy_eligible": false,
+        "energy_j": 82750000000.0,
+        "learning_priority": "ARCHIVE_UNLESS_NOVEL_MECHANISM",
+        "maximum_proven_reduction_factor": null,
+        "proof_backed_floor_j": null,
+        "removable_energy_above_floor_j": null,
+        "same_declared_branch_can_reach_target": null,
+        "strict_energy_success": false,
+        "target_factor": 8275.0
+      },
+      "energy_j": 82750000000.0,
+      "lesson": "SCALAR_METRIC_CHARGE_CAN_BE_LARGE_BUT_MICROSCOPIC_REALIZATION_COST_DOMINATES",
+      "name": "031A_R4S_PRESCRIBED_ORACLE",
+      "proof_backed_floor_j": null,
+      "status": "PRESCRIBED_SOURCE_NOT_MICROSCOPIC"
+    },
+    {
+      "assessment": {
+        "band": "ARCHIVE_GT_1GJ",
+        "certification_energy_eligible": false,
+        "energy_j": 96141000000.0,
+        "learning_priority": "ARCHIVE_UNLESS_NOVEL_MECHANISM",
+        "maximum_proven_reduction_factor": null,
+        "proof_backed_floor_j": null,
+        "removable_energy_above_floor_j": null,
+        "same_declared_branch_can_reach_target": null,
+        "strict_energy_success": false,
+        "target_factor": 9614.1
+      },
+      "energy_j": 96141000000.0,
+      "lesson": "FIELD_AND_STABILITY_DO_NOT_IMPLY_NATURAL_UV_COMPLETION",
+      "name": "031_QBALL_96GJ_HISTORICAL",
+      "proof_backed_floor_j": null,
+      "status": "031_FAMILY_LATER_CLOSED_BY_RADIATIVE_NATURALNESS"
+    }
+  ],
+  "learning_bands": {
+    "ARCHIVE_GT_1GJ": {
+      "certification_energy_eligible": false,
+      "lower_exclusive": true,
+      "lower_j": 1000000000.0
+    },
+    "MECHANISM_100MJ_TO_1GJ": {
+      "certification_energy_eligible": false,
+      "lower_inclusive": true,
+      "lower_j": 100000000.0,
+      "upper_inclusive": true,
+      "upper_j": 1000000000.0
+    },
+    "NEAR_MISS_10_TO_100MJ": {
+      "certification_energy_eligible": false,
+      "lower_inclusive": true,
+      "lower_j": 10000000.0,
+      "upper_inclusive": false,
+      "upper_j": 100000000.0
+    },
+    "TARGET_LT_10MJ": {
+      "certification_energy_eligible": true,
+      "lower_j": 0.0,
+      "upper_inclusive": false,
+      "upper_j": 10000000.0
+    }
+  },
+  "next": "032V1_RECONSTRUCT_AND_DECOMPOSE_CLOSEST_10_TO_100MJ_DB_NEAR_MISSES",
+  "rules": {
+    "closed_or_superseded_model_can_still_supply_transferable_lesson": true,
+    "closed_or_superseded_model_is_not_reopened_by_learning_status": true,
+    "higher_energy_learning_case_is_certification_ready": false,
+    "higher_energy_learning_case_is_success": false,
+    "optimization_alone_does_not_establish_removability": true,
+    "proof_backed_reducibility_required_for_target_reachability_claim": true
+  },
+  "strict_policy": {
+    "changed": false,
+    "comparison": "LT",
+    "exact_10mj_is_success": false,
+    "policy_id": "ENERGY_ab8c16e45c837ffc",
+    "target_j": 10000000.0
+  }
+}

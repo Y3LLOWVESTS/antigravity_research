@@ -1,0 +1,157 @@
+{
+  "branch": "032V5_NONREDUNDANT_PHYSICAL_SUSCEPTIBILITY_RERANK",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "CANONICAL_RESPONSE_BOUND_AND_MECHANISM_RERANK",
+  "claim_discipline": {
+    "large_coupling_is_automatically_empirically_allowed": false,
+    "multi_channel_bound_is_complete_source_ledger": false,
+    "old_closed_multiscalar_families_reopened": false,
+    "one_mj_model_found": false,
+    "physical_model_found": false,
+    "soft_mode_is_automatically_healthy": false,
+    "sub10_model_found": false
+  },
+  "decision": "RED_OLD_O1_TWO_CHANNEL_SUB10_AFTER_CANONICAL_REANCHOR",
+  "headroom_target_j": 100000.0,
+  "lever_routes": [
+    {
+      "eigmin_required_at_old_k_norm": 0.0338088695642182,
+      "g_required_over_old_gmax": 3.4396533052555642,
+      "minimum_coherent_channels_g3_eigmin0p4": 24,
+      "required_amplitude_gain": 23.073895828749826,
+      "required_susceptibility": 532.4046687159987,
+      "soft_mode_condition_number_lower_bound": 14.789018575444407,
+      "target": "STRICT_10MJ",
+      "target_j": 10000000.0,
+      "two_channel_equal_g_required": 10.318959915766692
+    },
+    {
+      "eigmin_required_at_old_k_norm": 0.00338088695642182,
+      "g_required_over_old_gmax": 10.877138805933997,
+      "minimum_coherent_channels_g3_eigmin0p4": 237,
+      "required_amplitude_gain": 72.96606531230793,
+      "required_susceptibility": 5324.0466871599865,
+      "soft_mode_condition_number_lower_bound": 147.89018575444408,
+      "target": "STRETCH_1MJ",
+      "target_j": 1000000.0,
+      "two_channel_equal_g_required": 32.631416417801994
+    },
+    {
+      "eigmin_required_at_old_k_norm": 0.000338088695642182,
+      "g_required_over_old_gmax": 34.39653305255564,
+      "minimum_coherent_channels_g3_eigmin0p4": 2367,
+      "required_amplitude_gain": 230.73895828749826,
+      "required_susceptibility": 53240.46687159986,
+      "soft_mode_condition_number_lower_bound": 1478.9018575444406,
+      "target": "HEADROOM_100KJ",
+      "target_j": 100000.0,
+      "two_channel_equal_g_required": 103.18959915766692
+    }
+  ],
+  "mechanism_rerank": [
+    {
+      "key_test": "DOES_USEFUL_RESPONSE_SCALE_FASTER_THAN_COMPLETE_SOURCE_PLUS_SCAFFOLD_ENERGY",
+      "lever": "SYMMETRY_PROTECTED_COHERENT_MULTI_CHANNEL",
+      "mathematical_status": "CAN_REACH_REQUIRED_LAMBDA_WITHOUT_SOFT_KINETIC_MODE",
+      "physical_status": "NEW_ACTION_AND_COMPLETE_SOURCE_SCALING_REQUIRED",
+      "priority": 1,
+      "project_warning": "DO_NOT_REOPEN_032E_032G_032H_SOURCE_LEDGER_FAILURES"
+    },
+    {
+      "key_test": "CANONICAL_HAMILTONIAN_SCHUR_COMPLEMENT_AND_STATIC_METRIC_RESPONSE",
+      "lever": "EXPLICIT_NONREDUNDANT_HIGHER_DERIVATIVE_OR_KINETIC_OPERATOR",
+      "mathematical_status": "POSSIBLE_NEW_SUSCEPTIBILITY_STRUCTURE",
+      "physical_status": "STATIC_OPPOSITE_SIGN_CHARGE_PER_JOULE_NOT_YET_DERIVED",
+      "priority": 2,
+      "project_warning": "NORMALIZATION_OR_FIELD_REDEFINITION_REDUNDANCY_MUST_BE_TESTED_FIRST"
+    },
+    {
+      "key_test": "CAN_LARGE_COUPLING_BE_SYMMETRY_PROTECTED_AND_METRIC_UNIVERSAL",
+      "lever": "LARGE_CANONICAL_COUPLING_NORM",
+      "mathematical_status": "SUFFICIENT_IF_GENUINELY_INDEPENDENT",
+      "physical_status": "EMPIRICAL_AND_RADIATIVE_RISK",
+      "priority": 3,
+      "project_warning": "UNIVERSAL_FIFTH_FORCE_EP_AND_LOOP_CONSTRAINTS"
+    },
+    {
+      "key_test": "CUTOFF_STAYS_ABOVE_OPERATING_MOMENTA_AND_NONLINEAR_STABILITY_SURVIVES",
+      "lever": "SOFT_NEAR_CRITICAL_KINETIC_MODE",
+      "mathematical_status": "CAN_ENHANCE_SUSCEPTIBILITY",
+      "physical_status": "HIGH_STRONG_COUPLING_AND_STABILITY_RISK",
+      "priority": 4,
+      "project_warning": "BOUNDARY_OPTIMA_AND_SMALL_EIGENVALUES_ARE_HIGH_RISK"
+    },
+    {
+      "key_test": "NONE_UNLESS_THE_ACTION_CHANGES",
+      "lever": "GEOMETRY_OR_MORPHOLOGY_ONLY",
+      "mathematical_status": "INSUFFICIENT_IN_DECLARED_GHOST_BRANCH",
+      "physical_status": "CLOSED_BY_032N1_FOR_DECLARED_LINEAR_BRANCH",
+      "priority": 5,
+      "project_warning": "DO_NOT_REOPEN_WITH_MORE_RANDOM_GEOMETRY"
+    }
+  ],
+  "next": "032V6_EXPLICIT_NONREDUNDANT_ACTION_FAMILY_PREFLIGHT",
+  "old_v2_robust_box": {
+    "100mj_to_1gj_possible": true,
+    "10_to_100mj_possible": false,
+    "canonical_minimum_energy_j": 118312148.60355526,
+    "canonical_minimum_energy_mj": 118.31214860355526,
+    "channels": 2,
+    "condition_number_max": 5.0,
+    "exact_max_susceptibility": 45.0,
+    "gmax": 3.0,
+    "kinetic_eigmin_floor": 0.4,
+    "max_k_norm_squared": 18.0,
+    "minimum_total_tax": 1.0,
+    "sub10_possible": false,
+    "witness_condition_number": 3.0000000000000004,
+    "witness_eigmin": 0.4,
+    "witness_h": [
+      [
+        0.8,
+        -0.4
+      ],
+      [
+        -0.4,
+        0.8
+      ]
+    ],
+    "witness_k": [
+      3.0,
+      3.0
+    ],
+    "witness_susceptibility": 45.0
+  },
+  "provenance": {
+    "canonical_reference_j": 5324046687.1599865,
+    "old_v2_reference_j": 53240466.87159985,
+    "reanchor_factor": 100.00000000000003,
+    "v2_least_old_j": 8859331.480271252,
+    "v2_least_reanchored_j": 885933148.0271255,
+    "v2_old_absolute_sub10_energy_labels_physically_current": false,
+    "v2_response_geometry_still_mathematically_valid": true
+  },
+  "required_nonredundant_leverage": [
+    {
+      "required_amplitude_gain": 23.073895828749826,
+      "required_susceptibility": 532.4046687159987,
+      "target": "STRICT_10MJ",
+      "target_j": 10000000.0
+    },
+    {
+      "required_amplitude_gain": 72.96606531230793,
+      "required_susceptibility": 5324.0466871599865,
+      "target": "STRETCH_1MJ",
+      "target_j": 1000000.0
+    },
+    {
+      "required_amplitude_gain": 230.73895828749826,
+      "required_susceptibility": 53240.46687159986,
+      "target": "HEADROOM_100KJ",
+      "target_j": 100000.0
+    }
+  ],
+  "stretch_target_j": 1000000.0,
+  "strict_policy_changed": false,
+  "strict_target_j": 10000000.0
+}

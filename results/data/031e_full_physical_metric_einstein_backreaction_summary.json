@@ -1,0 +1,97 @@
+{
+  "claim_class": "WEAK_CURVATURE_EINSTEIN_JORDAN_GEODESIC_BACKREACTION_CERTIFICATE",
+  "claim_limits": [
+    "GREEN is a weak-curvature perturbative Einstein-backreaction certificate, not a direct float64 resolution of 1e-32 matter-field shifts.",
+    "The exact Hamiltonian sources the Einstein metric. The approximately 127.8-GJ conservative inventory remains the engineering upper ledger.",
+    "Ordinary matter follows the Jordan metric directly; no fifth-force acceleration is added by hand.",
+    "The primary payload result is an isolated finite test payload released from rest relative to the self-supported soliton.",
+    "A free microscopic source recoils strongly against a 1-kg payload because its inertial mass-equivalent is only of order a microgram.",
+    "A laboratory-fixed support apparatus is not realized and no support stress-energy is hidden in the ledger.",
+    "Carrier-resolved nonlinear switching, fragmentation and higher-harmonic/multiparticle radiation remain open.",
+    "EFT/naturalness and empirical fifth-force/EP/PPN closure remain open.",
+    "No practical antigravity device is established."
+  ],
+  "classification": "GREEN_031E_WEAK_CURVATURE_EINSTEIN_JORDAN_GEODESIC_BACKREACTION_CERTIFICATE",
+  "decision": {
+    "prerequisites": true,
+    "promotion_authorized": true
+  },
+  "einstein": {
+    "ADM_energy_J": 81541851345.5723,
+    "ADM_mass_kg": 9.072754547036685e-07,
+    "ADM_relerr": 8.04651744914205e-15,
+    "R5_gap": 1.299785030156127e-20,
+    "curved_conservation_source_relative": 3.363365395035825e-33,
+    "max_abs_nu": 5.385172499886032e-33,
+    "max_compactness": 3.1226787209081145e-33,
+    "metric_pass": true,
+    "no_horizon": true,
+    "perturbative_backreaction_pass": true,
+    "positive_ADM": true,
+    "self_metric_over_gap": 4.143125497636465e-13
+  },
+  "far_field": {
+    "pass": true,
+    "positive_ADM_asymptotic_attraction": true,
+    "repulsive_to_attractive_zero_m": 14.847132453818539,
+    "scan_end_accel_mps2": -6.728253963698548e-22,
+    "scan_end_m": 300.0
+  },
+  "geometry": {
+    "inherited_X_overlap": 3.803743046901642e-30,
+    "payload_center_from_source_m": 1.4980500914943575,
+    "payload_center_global_m": 2.05,
+    "payload_radius_m": 0.1,
+    "reference_flat_cm_mps2": 12.426881626387777,
+    "reference_surface_min_mps2": 9.80665,
+    "source_shift_m": 0.5519499085056424
+  },
+  "next": "031F_NONLINEAR_RADIATION_EFT_NATURALNESS_EMPIRICAL_FINAL_CLOSEOUT",
+  "payload_backreaction": {
+    "free_source_recoil_diagnostic_mps2": 13696907.827779485,
+    "interaction_force_N": 12.42686883040701,
+    "lab_fixed_support_realized": false,
+    "metric_driver": 4.95721759324537e-28,
+    "metric_driver_over_R5_gap": 3.8138749702709847e-08,
+    "pass": true,
+    "payload_mass_kg": 1.0,
+    "scalar_reaction_ratio": 3.438551375014167e-16
+  },
+  "physical_metric": {
+    "GR_fraction": 2.063547869588845e-18,
+    "M_c_GeV": 68.58201405094178,
+    "M_m_GeV": 1097924452.3469064,
+    "Mc_over_Mm_squared": 3.901894787744707e-15,
+    "center_einstein_mps2": -2.564374613068172e-17,
+    "center_jordan_mps2": 12.39010022187868,
+    "center_scalar_flat_mps2": 12.390100221878681,
+    "cm_reference_relerr": 1.0297016703088305e-06,
+    "pass": true,
+    "payload_cm_einstein_mps2": -2.5643438700646408e-17,
+    "payload_cm_jordan_mps2": 12.42686883040701,
+    "payload_cm_scalar_flat_mps2": 12.426868830407013,
+    "surface_max_mps2": 15.858400145220235,
+    "surface_min_mps2": 9.806639885559635,
+    "surface_reference_relerr": 1.0313858824737906e-06
+  },
+  "provenance": {
+    "d3ar2": "GREEN_D3AR2_CORRECT_SOURCE_AND_PHYSICAL_METRIC_NORMALIZATION_PASS",
+    "d3d2r": "GREEN_D3D2R_DUAL_LEDGER_FIXED_THEORY_DRIVEN_ADIABATIC_SWITCHING_CLOSEOUT",
+    "r5": "GREEN_D3CR5_COUPLED_LINEAR_L1_RELATIVE_TRANSLATION_POSITIVE_BY_CANCELLATION_FREE_SCHUR_BOUND"
+  },
+  "stress_energy": {
+    "DEC_max_ratio": 1.0,
+    "anisotropy_identity_relerr": 1.5613036505590997e-16,
+    "conservative_inventory_J": 127782438518.27162,
+    "energy_scale_J": 22872559.25011281,
+    "flat_conservation_analytic_relerr": 2.7682833788244806e-16,
+    "flat_conservation_numeric_relerr": 1.756019779991994e-07,
+    "pass": true,
+    "source_certified_exact_J": 75313256865.5932,
+    "source_rebuilt_J": 75313253575.90028,
+    "source_relerr": 4.36801308797603e-08,
+    "total_certified_exact_J": 81541854973.71555,
+    "total_rebuilt_J": 81541851345.57295,
+    "total_relerr": 4.4494236665983325e-08
+  }
+}

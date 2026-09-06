@@ -1,0 +1,181 @@
+{
+  "background": {
+    "coarse": {
+      "a0": 9.498546031855017,
+      "max_rms_residual": 1.990059470348408e-05,
+      "nodes": 3448,
+      "omega_x": 0.33999999988602536,
+      "omega_y": 0.4500000012825411,
+      "qx_relerr": 0.0,
+      "qy_relerr": 0.0,
+      "u0": 2.215821435496763,
+      "y0": 5.856062545952437
+    },
+    "fine": {
+      "a0": 9.49854603185502,
+      "max_rms_residual": 5.621505119945727e-06,
+      "nodes": 3460,
+      "omega_x": 0.3399999998875653,
+      "omega_y": 0.4500000012825411,
+      "qx_relerr": 0.0,
+      "qy_relerr": 0.0,
+      "u0": 2.2158214354910792,
+      "y0": 5.856062545941874
+    },
+    "homotopy": [
+      {
+        "max_rms_residual": 1.9900594703484086e-05,
+        "nodes": 3448,
+        "omega_x": 0.33999999988602536,
+        "omega_y": 0.4500000012825411,
+        "t": 0.0
+      },
+      {
+        "max_rms_residual": 1.9900594703484082e-05,
+        "nodes": 3448,
+        "omega_x": 0.33999999988602536,
+        "omega_y": 0.4500000012825411,
+        "t": 0.25
+      },
+      {
+        "max_rms_residual": 1.9900594703484082e-05,
+        "nodes": 3448,
+        "omega_x": 0.33999999988602536,
+        "omega_y": 0.4500000012825411,
+        "t": 0.5
+      },
+      {
+        "max_rms_residual": 1.9900594703484082e-05,
+        "nodes": 3448,
+        "omega_x": 0.33999999988602536,
+        "omega_y": 0.4500000012825411,
+        "t": 0.75
+      },
+      {
+        "max_rms_residual": 1.990059470348408e-05,
+        "nodes": 3448,
+        "omega_x": 0.33999999988602536,
+        "omega_y": 0.4500000012825411,
+        "t": 1.0
+      }
+    ],
+    "pass": true,
+    "tight": {
+      "a0": 9.498546031855016,
+      "max_rms_residual": 1.938215251769512e-06,
+      "nodes": 3537,
+      "omega_x": 0.340000000155594,
+      "omega_y": 0.4500000012825412,
+      "qx_relerr": 0.0,
+      "qy_relerr": 0.0,
+      "u0": 2.215821434859787,
+      "y0": 5.856062551256823
+    }
+  },
+  "claim_class": "COUPLED_LINEAR_L1_CANCELLATION_FREE_SCHUR_GATE",
+  "claim_limits": [
+    "GREEN is only coupled-linear stability in the declared flat-space effective X/phi/Y theory.",
+    "Only exact common translation is a zero mode; relative translation remains physical.",
+    "The R4 ~1e-32 finite-displacement result is rejected as a saturated-subtraction artifact.",
+    "The sign decision does not use the R4 tiny dense eigenvalue because the physical curvature is ~1e-20.",
+    "Explicit QY reservoir/transfer/reset and switching radiation remain open.",
+    "Nonlinear stability, Einstein backreaction, EFT/naturalness and empirical closure remain open.",
+    "No practical antigravity device is established."
+  ],
+  "classification": "GREEN_D3CR5_COUPLED_LINEAR_L1_RELATIVE_TRANSLATION_POSITIVE_BY_CANCELLATION_FREE_SCHUR_BOUND",
+  "corrected_finite_displacement": {
+    "derivative_k": 1.493616128418122e-19,
+    "fit_rms": 4.0837401194469266e-30,
+    "k_extrapolated": 1.493616131059848e-19,
+    "k_extrapolated_first3": 1.4936161311488706e-19,
+    "old_r4_k": 9.295068189161115e-33,
+    "pass": true,
+    "relative_error": 1.7686780881308304e-09,
+    "rows": [
+      {
+        "d": 0.125,
+        "delta_E_interaction": 4.888226944794588e-21,
+        "k_fd": 1.4937321239405801e-19
+      },
+      {
+        "d": 0.25,
+        "delta_E_interaction": 1.9557463716959744e-20,
+        "k_fd": 1.4940801719493774e-19
+      },
+      {
+        "d": 0.375,
+        "delta_E_interaction": 4.4021384966109075e-20,
+        "k_fd": 1.494660484076268e-19
+      },
+      {
+        "d": 0.5,
+        "delta_E_interaction": 7.830280452365349e-20,
+        "k_fd": 1.495473407747745e-19
+      }
+    ],
+    "uncertainty_proxy": 8.902250056065425e-30
+  },
+  "decision": {
+    "l1_coupled_linear_stability": "GREEN",
+    "prerequisites": true,
+    "promotion_authorized": true
+  },
+  "inherited": {
+    "direct_l1_continuum_pass": true,
+    "l3_to_l8_pass": true,
+    "max_non_l1_growth": 1.4184605840098885e-11,
+    "non_l1_pass": true,
+    "r2_l0_pass": true,
+    "r2_l2_pass": true
+  },
+  "model": {
+    "chi": 0.42601826862576553,
+    "epsilon": 0.01,
+    "mu": 0.05346177557001615,
+    "omega_x": 0.340000000155594,
+    "omega_y": 0.4500000012825412,
+    "rho_y": 0.0024905921463702404,
+    "target_I_QX": 6594.219892350219,
+    "target_I_QY": 10583.537786052691
+  },
+  "next": "031D3D_EXPLICIT_QY_RESERVOIR_TRANSFER_RESET_SWITCHING_RADIATION",
+  "saturation_oracle": {
+    "a0": 9.5,
+    "a1": 9.4,
+    "naive_f_difference": 0.0,
+    "pass": true,
+    "stable_f_difference": -3.9731841911451543e-20,
+    "tail0": 2.5261637809256925e-20,
+    "tail1": 6.499347972070847e-20
+  },
+  "schur": {
+    "certified_gap": 1e-05,
+    "gap_pass": true,
+    "margin_factor": 8.0,
+    "numeric_uncertainty": 1.4302731447168055e-27,
+    "observed_gap": 0.0001316185377837829,
+    "positive_lower_bound": true,
+    "relaxed_relative_lower_bound": 1.299785030156127e-20,
+    "tight": {
+      "A_mass": 12.042954996248843,
+      "M_eff": 11.491244927390103,
+      "S": 250.83563509670896,
+      "b_norm": 3.2406930119865103e-18,
+      "common_coupling": 6.487339874942826e-38,
+      "common_norm": 1.0,
+      "common_relative_inner": -1.7198156961051314e-17,
+      "h_relative_norm": 3.240719077974538e-18,
+      "k_from_cross": 1.493616128418122e-19,
+      "lambda_from_cross": 1.2997861744796634e-20,
+      "max_abs_c_ua": 1.0245400219405238e-18,
+      "max_abs_c_xa": 1.6220977828739362e-18,
+      "order": 80,
+      "rayleigh_cross_relerr": 2.3152004515740744e-16,
+      "relative_norm": 1.0000000000000002,
+      "relative_rayleigh": 1.2997861744796637e-20,
+      "rmax": 500.0,
+      "scan": "SCHUR_QUADRATURE",
+      "schur_correction_at_certified_gap": 1.05020911979382e-30
+    }
+  }
+}

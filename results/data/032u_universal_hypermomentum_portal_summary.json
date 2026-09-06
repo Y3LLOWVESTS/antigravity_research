@@ -1,0 +1,95 @@
+{
+  "assumptions": [
+    "local_Lorentz_covariance",
+    "linear_weak_field_source",
+    "ordinary_symmetric_stress_energy_only",
+    "no_independent_hypermomentum",
+    "no_extra_species_current",
+    "no_preferred_vector",
+    "no_Lorentz_breaking_background",
+    "no_nonlinear_fluid_velocity_extraction"
+  ],
+  "branch": "032U_UNIVERSAL_HYPERMOMENTUM_PORTAL_THEOREM",
+  "certified_sub10mj_model": false,
+  "claim_class": "LINEAR_SOURCE_RANK_AND_MONOPOLE_PREFLIGHT",
+  "decision": "RED_LINEAR_STRESS_ONLY_MONOPOLE_PORTAL_MULTIPOLE_FRONTIER_OPEN",
+  "declared_linear_stress_monopole_branch_closed": true,
+  "derivative_multipole_branch_closed": false,
+  "energy_target_j": 10000000.0,
+  "full_hypermomentum_portal_class_closed": false,
+  "full_metric_affine_gravity_closed": false,
+  "gaussian_independent_check": {
+    "derivative_first_moment_kg": -1.1126500560536187e-10,
+    "derivative_monopole_kg": 0.0,
+    "expected_first_moment_kg": -1.1126500560536184e-10,
+    "first_moment_relative_error": 2.3232276852585207e-16,
+    "integration_half_width_m": 0.6000000000000001,
+    "monopole_pass": true,
+    "monopole_relative_to_source_mass": 0.0,
+    "nonzero_dipole_confirmed": true,
+    "sigma_m": 0.05,
+    "source_mass_kg": 1.1126500560536184e-10
+  },
+  "hypermomentum_provenance": {
+    "connection_source": true,
+    "decomposition_spin_dilation_shear": true,
+    "ep_requires_charge_mass_universality": true,
+    "universal_mass_proportional_charge_certified": false
+  },
+  "next": "GLOBAL_RERANK_UNLESS_EXPLICIT_SYMMETRY_PROTECTED_MAG_MATTER_PORTAL_FOUND",
+  "one_derivative_static_compact_source": {
+    "monopole_zero": true,
+    "reason": "STATIC_TIME_DERIVATIVE_ZERO_PLUS_SPATIAL_BOUNDARY_TERMS",
+    "symbolic_monopole": "0"
+  },
+  "portal_classes": {
+    "extra_species_current": {
+      "monopole_possible": true,
+      "status": "NEW_PHYSICS_COMPOSITION_GATE_REQUIRED"
+    },
+    "intrinsic_hypermomentum": {
+      "monopole_possible": true,
+      "status": "OPEN_BUT_UNIVERSALITY_NOT_CERTIFIED"
+    },
+    "linear_T_only_one_derivative": {
+      "dipole_possible": true,
+      "monopole": false,
+      "status": "OPEN_MULTIPOLE_ONLY"
+    },
+    "linear_T_only_zero_derivative_rank3": {
+      "monopole": false,
+      "status": "CLOSED_BY_RANK_THEOREM"
+    },
+    "metric_only": {
+      "monopole": false,
+      "status": "CLOSED_BY_032T"
+    },
+    "nonlinear_matter_composite": {
+      "monopole_possible": true,
+      "status": "NEW_PHYSICS_SEPARATE_BRANCH"
+    },
+    "preferred_vector_or_lorentz_breaking": {
+      "monopole_possible": true,
+      "status": "NEW_PHYSICS_SEPARATE_BRANCH"
+    }
+  },
+  "rank_theorem": {
+    "all_reachable_ranks_even": true,
+    "pass": true,
+    "rank3_source_exists": false,
+    "reachable_zero_derivative_ranks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ]
+  }
+}

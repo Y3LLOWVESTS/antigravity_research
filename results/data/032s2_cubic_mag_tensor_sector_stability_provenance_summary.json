@@ -1,0 +1,55 @@
+{
+  "branch": "032S2_CUBIC_MAG_TENSOR_SECTOR_STABILITY_PROVENANCE",
+  "claim_class": "THEORY_HEALTH_PROVENANCE_GATE",
+  "claim_logic": {
+    "exact_solution_is_not_stability_proof": true,
+    "mass_term_is_not_positive_hamiltonian_proof": true,
+    "vector_axial_health_does_not_imply_tensor_health": true
+  },
+  "decision": "UNRESOLVED_TENSOR_SECTOR_HEALTH_NO_SHEAR_OPTIMIZATION",
+  "energy_target_j": 10000000.0,
+  "full_cubic_mag_family_closed": false,
+  "next": "032T_GLOBAL_RERANK_OR_FULL_TENSOR_HAMILTONIAN_DERIVATION",
+  "paper_2025": {
+    "axial_stability_analyzed": true,
+    "exact_shear_charge_exists": true,
+    "future_tensor_stability_explicitly_required": true,
+    "massive_tensor_modes_exist": true,
+    "published_tensor_quantities": [
+      "m_t_squared",
+      "m_Omega_squared",
+      "m_q_squared",
+      "alpha_tOmega"
+    ],
+    "tensor_stability_analyzed": false,
+    "vector_stability_analyzed": true
+  },
+  "paper_2026_gravitational_wave_followup": {
+    "complete_shear_tensor_hamiltonian_certification": false,
+    "dynamical_torsion_nonmetricity": true,
+    "exact_gravitational_waves": true
+  },
+  "prior_metric_requirement": {
+    "canonical_dilation_reference_j": 1.782748691144421e+27,
+    "canonical_reference_over_target": 1.782748691144421e+20,
+    "required_q_metric_m2": 2.946069723321201e-18
+  },
+  "shear": {
+    "charge_per_joule_bound_derived": false,
+    "energy_optimization_authorized": false,
+    "metric_coefficient_exists": true,
+    "microscopic_source_realized": false,
+    "physically_rejected": false,
+    "repulsive_sign_in_healthy_tensor_domain_certified": false,
+    "source_charge_hamiltonian_derived": false,
+    "unresolved": true
+  },
+  "strict_sub10mj_shear_model": false,
+  "tensor_health": {
+    "ghost_free_certified": false,
+    "gradient_stable_certified": false,
+    "hyperbolic_certified": false,
+    "positive_hamiltonian_certified": false,
+    "tachyon_free_certified": false
+  }
+}

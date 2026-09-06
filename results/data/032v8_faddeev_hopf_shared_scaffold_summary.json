@@ -1,0 +1,70 @@
+{
+  "branch": "032V8_FADDEEV_HOPF_SHARED_SCAFFOLD_ORACLE",
+  "canonical_reference_j": 5324046687.1599865,
+  "certified_sub10mj_model_found": false,
+  "claim_class": "SOURCE_SCALING_ORACLE_NOT_PHYSICAL_ANTIGRAVITY_MODEL",
+  "conditional_design_translation": {
+    "cross_theory_certification_claim": false,
+    "physical_energy_prediction": false,
+    "q_1e12_equivalent_j": 5324046.687159986,
+    "q_1e12_equivalent_mj": 5.324046687159986,
+    "q_1e12_max_tax_to_10mj": 1.8782705313454555,
+    "q_1e15_equivalent_j": 946764.2601862542,
+    "q_1e15_equivalent_mj": 0.9467642601862541,
+    "q_1e15_max_tax_to_10mj": 10.562291396627845,
+    "q_1e15_max_tax_to_1mj": 1.0562291396627845,
+    "q_1e18_equivalent_j": 168361.13900499494,
+    "q_1e18_equivalent_mj": 0.16836113900499494
+  },
+  "decision": "GREEN_HOPF_Q3OVER4_SOURCE_SCALING_STRONG_ENOUGH_CONDITIONALLY",
+  "gain_required_10mj": 532.4046687159987,
+  "gain_required_1mj": 5324.0466871599865,
+  "mechanism_metrics_recorded": false,
+  "next": "032V9_TOPOLOGICAL_CHARGE_TO_UNIVERSAL_METRIC_PORTAL_PREFLIGHT",
+  "physical_antigravity_model_found": false,
+  "portal": {
+    "finite_payload_outward_response_established": false,
+    "hopf_charge_to_gravitational_charge_established": false,
+    "naturalness_established": false,
+    "reciprocity_established": false,
+    "universal_physical_metric_established": false
+  },
+  "reason_mechanism_metrics_absent": "NO_PHYSICAL_METRIC_RESPONSE_EXISTS_YET",
+  "reporting": {
+    "action_oracle_count": 2,
+    "collective_scaling_count": 2,
+    "database_bytes": 63365120,
+    "mechanism_metric_count": 0,
+    "mechanism_pareto_count": 0,
+    "model_count": 101035,
+    "pareto_count": 0,
+    "rejection_count": 95591,
+    "stop_requested": false,
+    "survivor_count": 0
+  },
+  "scaling": {
+    "beneficial_collective_scaling": true,
+    "efficiency_exponent": 0.2499999999999999,
+    "energy_exponent": 0.7500000000000001,
+    "gain_at_q_1e12": 1000.0,
+    "gain_at_q_1e15": 5623.413251903491,
+    "gain_at_q_1e18": 31622.776601683792,
+    "q_required_10mj": 80346584679.6837,
+    "q_required_1mj": 803465846796836.8,
+    "response_exponent": 1.0,
+    "v8_over_v7_gain_at_q_1e12": 10.00000000000001
+  },
+  "source_family": {
+    "conditional_response_exponent": 1.0,
+    "efficiency_exponent": 0.25,
+    "energy_exponent": 0.75,
+    "family_id": "032V8_FADDEEV_HOPF_SHARED_SCAFFOLD",
+    "large_q_realization_certified": false,
+    "naturalness_screened": false,
+    "normalization_invariant_scaling": true,
+    "trusted_for_reachability": false,
+    "universal_metric_screened": false
+  },
+  "stretch_target_j": 1000000.0,
+  "strict_target_j": 10000000.0
+}

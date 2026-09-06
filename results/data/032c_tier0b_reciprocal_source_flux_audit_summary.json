@@ -1,0 +1,34 @@
+{
+  "audited_headroom_points": 4602,
+  "best_sample": {
+    "alpha": 0.03722209226034569,
+    "candidate_id": "d8773e23fab8efa8d2846421",
+    "dbi_scale_ev": 2.392126706455211e-05,
+    "gradient_over_scale_squared": 2461475768370932.0,
+    "partial_total_floor_j": 4838980475807.295,
+    "passes_10mj": false,
+    "payload_field_floor_j": 7.039987307744402e-05,
+    "reciprocal_source_floor_j": 4838980475807.295
+  },
+  "branch": "032C_TIER0B",
+  "claim_class": "SOURCE_AWARE_ANALYTIC_AUDIT",
+  "domain_optimistic_alpha_max": 0.5027963461775534,
+  "domain_optimistic_gradient_ratio": 267793266122809.22,
+  "domain_optimistic_source_floor_j": 243762625538.00806,
+  "domain_optimistic_source_floor_over_target": 24376.262553800807,
+  "domain_optimistic_strong_scale_min_ev": 1.973269804e-05,
+  "full_032c_family_closed": false,
+  "omitted_positive_costs": [
+    "source_internal_structure",
+    "twin_sector_rest_energy_beyond_charge_floor",
+    "potential",
+    "activation",
+    "support",
+    "control",
+    "backreaction"
+  ],
+  "points_below_10mj_after_source_floor": 0,
+  "simple_reciprocal_source_closed_over_declared_domain": true,
+  "source_realization": "RECIPROCAL_TWIN_MATTER_ONE_SIDED_PROJECTED_DISK",
+  "target_j": 10000000.0
+}

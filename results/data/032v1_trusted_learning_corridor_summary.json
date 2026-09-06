@@ -1,0 +1,98 @@
+{
+  "branch": "032V1_TRUSTED_LEARNING_CORRIDOR_PROVENANCE",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "SEARCH_MEMORY_PROVENANCE_AND_STALE_RESULT_SCRUB",
+  "database_corridor": {
+    "raw_band_counts": {
+      "MECHANISM_100MJ_TO_1GJ": 1272,
+      "NEAR_MISS_10_TO_100MJ": 1126
+    },
+    "raw_family_counts": {
+      "032C_TWIN_PNGB_DBI_METRIC": 1268,
+      "032E_COLLECTIVE_MULTISCALAR_TWIN_PNGB": 1130
+    },
+    "raw_rows_10mj_to_1gj": 2398,
+    "superseded_family_counts": {
+      "032C_TWIN_PNGB_DBI_METRIC": 1268,
+      "032E_COLLECTIVE_MULTISCALAR_TWIN_PNGB": 1130
+    },
+    "superseded_rows": 2398,
+    "trusted_active_rows": 0,
+    "trusted_band_counts": {},
+    "trusted_family_counts": {}
+  },
+  "historical_verified_controls": [
+    {
+      "active_candidate": false,
+      "band": "NEAR_MISS_10_TO_100MJ",
+      "certified_model": false,
+      "energy_j": 53240466.87159985,
+      "energy_mj": 53.24046687159985,
+      "lesson": "MORPHOLOGY_GAIN_2P4548X_BUT_GEOMETRY_ONLY_RESCUE_CLOSED",
+      "name": "032N1_GHOST_CONDENSATE_CONTINUUM_FLOOR",
+      "reopen": false,
+      "status": "VERIFIED_NEAR_MISS_DECLARED_BRANCH_CLOSED",
+      "target_factor": 5.324046687159985
+    },
+    {
+      "active_candidate": false,
+      "band": "MECHANISM_100MJ_TO_1GJ",
+      "certified_model": false,
+      "energy_j": 130695209.44851829,
+      "energy_mj": 130.69520944851828,
+      "lesson": "RAW_CHARGE_ENERGY_SEPARATION_PRESENT",
+      "name": "032N0_GHOST_CONDENSATE_UNIFORM_PREFIELD",
+      "reopen": false,
+      "status": "VERIFIED_MECHANISM_CONTROL_SUPERSEDED_BY_032N1_BOUND",
+      "target_factor": 13.06952094485183
+    },
+    {
+      "active_candidate": false,
+      "band": "ARCHIVE_GT_1GJ",
+      "certified_model": false,
+      "energy_j": 1920927824985.0078,
+      "energy_mj": 1920927.8249850078,
+      "lesson": "PRELIMINARY_032C_032E_LOW_ENERGIES_DO_NOT_SURVIVE_SOURCE_AWARE_LEDGER",
+      "name": "032H_SOURCE_AWARE_DBI_50M_BEST",
+      "reopen": false,
+      "status": "CORRECTED_SOURCE_AWARE_QUANTITATIVE_CONTROL",
+      "target_factor": 192092.78249850078
+    },
+    {
+      "active_candidate": false,
+      "band": "ARCHIVE_GT_1GJ",
+      "certified_model": false,
+      "energy_j": 9.369541760768323e+25,
+      "energy_mj": 9.369541760768323e+19,
+      "lesson": "CANONICAL_COLLECTIVE_SOURCE_COST_DOMINATES",
+      "name": "032G_SOURCE_AWARE_CANONICAL_50M_BEST",
+      "reopen": false,
+      "status": "CORRECTED_SOURCE_AWARE_QUANTITATIVE_CONTROL",
+      "target_factor": 9.369541760768324e+18
+    }
+  ],
+  "next": "032V2_FEASIBILITY_FIRST_PHYSICAL_ACTION_TEMPLATE_GENERATOR",
+  "rules": {
+    "closed_models_reopened": false,
+    "corrected_source_aware_controls_override_preliminary_energy_claims": true,
+    "higher_energy_learning_equals_success": false,
+    "sqlite_history_deleted": false,
+    "superseded_rows_retained_as_history": true,
+    "superseded_rows_used_for_active_ranking": false
+  },
+  "strict_policy": {
+    "changed": false,
+    "comparison": "LT",
+    "policy_id": "ENERGY_ab8c16e45c837ffc",
+    "target_j": 10000000.0
+  },
+  "v0_compact_csv": {
+    "current_rows": 0,
+    "family_counts": {
+      "032C_TWIN_PNGB_DBI_METRIC": 150,
+      "032E_COLLECTIVE_MULTISCALAR_TWIN_PNGB": 100
+    },
+    "rows": 250,
+    "superseded_rows": 250
+  }
+}

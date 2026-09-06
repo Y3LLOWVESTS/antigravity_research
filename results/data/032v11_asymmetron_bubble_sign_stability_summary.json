@@ -1,0 +1,74 @@
+{
+  "agminer": {
+    "candidate_id": "56cac30bd177e2f27f3a018f",
+    "failure_code": "P001",
+    "gate": "asymmetron_external_wall_sign",
+    "reporting": {
+      "action_oracle_count": 2,
+      "collective_scaling_count": 2,
+      "database_bytes": 63369216,
+      "mechanism_metric_count": 0,
+      "mechanism_pareto_count": 0,
+      "model_count": 101036,
+      "pareto_count": 0,
+      "rejection_count": 95592,
+      "stop_requested": false,
+      "survivor_count": 0
+    },
+    "state": "REJECTED_PAYLOAD"
+  },
+  "branch": "032V11_ASYMMETRON_BUBBLE_SIGN_STABILITY_PREFLIGHT",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "ANALYTIC_SIGN_AND_FREE_BUBBLE_STABILITY_CLOSEOUT",
+  "decision": "RED_PUBLISHED_ASYMMETRON_BUBBLE_EXTERNAL_FORCE_ATTRACTS_TO_WALL",
+  "force_sign": {
+    "external_finite_payload_uniformly_outward_possible": false,
+    "external_true_repulsion_found": false,
+    "false_inside_external_side": "INWARD_TOWARD_WALL",
+    "false_inside_inner_side": "OUTWARD_TOWARD_WALL",
+    "true_inside_external_side": "INWARD_TOWARD_WALL",
+    "true_inside_inner_side": "OUTWARD_TOWARD_WALL",
+    "wall_force_character": "ATTRACTIVE_TO_ZERO_CROSSING_FROM_BOTH_SIDES"
+  },
+  "free_bubble_stability": {
+    "critical_second_derivative_negative": true,
+    "euclidean_bounce_radius": "3*sigma/epsilon",
+    "free_static_bubble_stable": false,
+    "spatial_energy": "4*pi*sigma*R^2-(4*pi/3)*epsilon*R^3",
+    "static_critical_radius": "2*sigma/epsilon"
+  },
+  "next": "032V12_LOCAL_METRIC_ACTIVE_SOURCE_OPERATOR_ATLAS",
+  "physical_antigravity_model_found": false,
+  "project_scope": {
+    "all_possible_modified_asymmetron_weyl_factors_closed": false,
+    "full_asymmetron_family_closed": false,
+    "published_minimal_asymmetron_bubble_external_repulsion_closed": true,
+    "standard_symmetron_014a_reopened": false
+  },
+  "published_lab_benchmark": {
+    "delta_lnA_true_minus_false": 4.000049999687478e-22,
+    "energy_is_complete_operating_ledger": false,
+    "euclidean_bounce_radius_m": 0.41859373785571485,
+    "kappa_over_lambda": 0.01,
+    "lambda": 1e-10,
+    "leading_outer_side_peak_accel_mps2": -0.9916948056363528,
+    "leading_outer_side_peak_accel_over_g": -0.10112472716333844,
+    "m_gev": 100.0,
+    "mu_gev": 2e-13,
+    "phi0_gev": 2e-08,
+    "scalar_static_barrier_j": 1.012378059536299e-07,
+    "static_critical_radius_m": 0.2790624919038099,
+    "surface_tension_j_m2": 3.103495923226126e-07,
+    "wall_compton_length_m": 0.0006976562297595246,
+    "wall_surface_energy_at_euclidean_radius_j": 6.833551901870018e-07
+  },
+  "published_model_structure": {
+    "explicit_breaking_location": "BARE_POTENTIAL_CUBIC",
+    "physical_force": "a5=-c^2 grad ln A",
+    "vacua_opposite_sign": true,
+    "weyl_factor": "A=1+phi^2/(2M^2)+higher_even_terms",
+    "weyl_minimum_at_phi_zero": true
+  },
+  "strict_policy_changed": false,
+  "strict_target_j": 10000000.0
+}

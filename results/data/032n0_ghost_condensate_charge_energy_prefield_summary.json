@@ -1,0 +1,90 @@
+{
+  "adverse_surface_enforced": true,
+  "branch": "032N0_GHOST_CONDENSATE_GRAVITATIONAL_CHARGE",
+  "certified_antigravity_model": false,
+  "claim_class": "PREFIELD_FINITE_PAYLOAD_OPTIMISTIC_ENERGY_GATE",
+  "complete_operating_ledger": false,
+  "continuous_optimization": {
+    "active_energy_abs_j": 4.705662570284104e+27,
+    "active_mass_abs_kg": 52357557225.96023,
+    "energy_j": 130695209.44851829,
+    "gap_m": 0.00010000000023475542,
+    "kappa": 9.999999999998264,
+    "lever_m": 0.18144985407983172,
+    "message": "Optimization terminated successfully.",
+    "radius_m": 0.49299799307958897,
+    "rho_active_kg_m3": 128877902795.23737,
+    "seconds": 0.6541475359990727,
+    "success": true,
+    "thickness_m": 0.5320601596569241
+  },
+  "decision": "RED_UNIFORM_CYLINDER_MINIMAL_GHOST_CONDENSATE_BULK_FLOOR",
+  "energy_target_j": 10000000.0,
+  "field_solution": false,
+  "full_ghost_condensate_family_closed": false,
+  "geometry": "UNIFORM_FINITE_CYLINDER_AXIS_TO_SPHERICAL_PAYLOAD",
+  "literature_structure": {
+    "minimal_theory_m_cap_gev_used": 100.0,
+    "neutral_matter_can_respond_via_gravity_without_direct_portal": true,
+    "opposite_sign_gravitational_t00_possible": true,
+    "positive_small_fluctuation_particle_energy": true,
+    "shift_symmetry": true
+  },
+  "microscopic_source": false,
+  "next": "032N1_VARIATIONAL_MORPHOLOGY_BEFORE_FAMILY_DEMOTION",
+  "omitted_positive_costs": [
+    "localization_gradient_energy",
+    "source_generator_energy",
+    "activation_control_energy",
+    "reaction_backreaction",
+    "positive_far_field_active_mass_compensation",
+    "support_stabilization",
+    "nonlinear_field_reconstruction"
+  ],
+  "order_unity_kappa_same_geometry_energy_j": 13069520944.847294,
+  "parameter_box": {
+    "gap_m": [
+      0.0001,
+      0.1
+    ],
+    "kappa": [
+      1.0,
+      10.0
+    ],
+    "radius_m": [
+      0.001,
+      100.0
+    ],
+    "thickness_m": [
+      0.001,
+      100.0
+    ]
+  },
+  "payload_radius_m": 0.1,
+  "raw_charge_energy_separation_signal": true,
+  "required_kappa_for_10mj_at_m100gev": 36.15179241040102,
+  "required_m_gev_for_10mj_at_best_kappa": 190.13624696624078,
+  "required_m_gev_for_10mj_at_kappa1": 601.2636061695488,
+  "samples": 10000000,
+  "sobol": {
+    "best": {
+      "active_energy_abs_j": 5.027287308711431e+27,
+      "active_mass_abs_kg": 55936115058.35419,
+      "energy_j": 131507613.39541511,
+      "gap_m": 0.0005761727920602244,
+      "kappa": 9.989101396261368,
+      "lever_m": 0.19307474810313874,
+      "radius_m": 0.5213694936901974,
+      "rho_active_kg_m3": 121118255422.08437,
+      "sample_index": 9356744,
+      "thickness_m": 0.5408061082799266
+    },
+    "independent_reconstruction_relerr": 0.0,
+    "passing_points": 0,
+    "seconds": 1.4750375449948478
+  },
+  "stability_certified": false,
+  "strict_lt_target": true,
+  "strict_sub10mj_bulk_candidate": false,
+  "target_acceleration_mps2": 9.80665
+}

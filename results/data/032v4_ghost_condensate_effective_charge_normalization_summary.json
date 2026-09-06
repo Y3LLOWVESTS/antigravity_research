@@ -1,0 +1,56 @@
+{
+  "branch": "032V4_GHOST_CONDENSATE_EFFECTIVE_CHARGE_NORMALIZATION",
+  "canonical_minimal_branch": {
+    "floor_over_10mj": 532.4046687159987,
+    "kappa10_m100_physical_cap_ratio": 3.1622776601683795,
+    "kappa_max_at_bare_m100_under_cap": 1.0,
+    "minimum_optimistic_floor_gj": 5.324046687159987,
+    "minimum_optimistic_floor_j": 5324046687.1599865,
+    "physical_m_cap_gev": 100.0,
+    "required_10mj_physical_scale_ratio": 4.803529517838922,
+    "strict_sub10mj_closed": true
+  },
+  "certified_sub10mj_model_found": false,
+  "claim_class": "EFT_NORMALIZATION_AND_PARAMETER_PROVENANCE_CLOSEOUT",
+  "decision": "RED_MINIMAL_GHOST_KAPPA_LEVER_NORMALIZATION_REDUNDANT",
+  "full_ghost_condensate_family_closed": false,
+  "literature_structure": {
+    "canonical_sigma_sector": "M_phys^4/2*(pi_dot-h00/2)^2",
+    "condensate_field_rescaled_to_X_equals_1": true,
+    "independent_minimal_kappa_present": false,
+    "physical_scale_m_cap_gev": 100.0
+  },
+  "n1_scaling": {
+    "energy_kappa10_m100_j": 53240466.87159985,
+    "energy_kappa1_m100_j": 5324046687.1599865,
+    "energy_ratio": 100.00000000000003,
+    "equivalent_physical_scale": "M_eff=M*sqrt(kappa)",
+    "expected_kappa_squared_ratio": 100.0,
+    "relative_error": 2.842170943040401e-16
+  },
+  "next": "032V5_NONREDUNDANT_PHYSICAL_SUSCEPTIBILITY_ACTION_RERANK",
+  "nonredundant_charge_operator_frontier_open": true,
+  "physical_scale": {
+    "kappa10_reconstruction_relerr": 4.198261792984879e-16,
+    "m_eff_kappa10_m100_gev": 316.22776601683796,
+    "m_eff_kappa1_m100_gev": 100.0,
+    "m_eff_required_10mj_from_kappa10_m_gev": 480.3529517838922,
+    "m_eff_required_10mj_from_kappa1_m_gev": 480.3529517838922,
+    "m_eff_required_10mj_from_kappa_gev": 480.35295178389214,
+    "required_meff_spread": 1.1833677434417332e-16
+  },
+  "provenance": {
+    "kappa_independent_minimal_eft_parameter_certified": false,
+    "n1_53mj_result_is_trusted_minimal_canonical_eft_near_miss": false,
+    "n1_53mj_result_numerically_valid_under_declared_two_knob_parameterization": true,
+    "v3_amplitude_identity_algebraically_valid": true,
+    "v3_ghost_promotion_as_independent_kappa_physical_match": false
+  },
+  "stretch_targets": {
+    "required_m_eff_100kj_gev": 1519.009408422141,
+    "required_m_eff_10mj_gev": 480.3529517838922,
+    "required_m_eff_1mj_gev": 854.2017637087149
+  },
+  "strict_policy_changed": false,
+  "strict_target_j": 10000000.0
+}

@@ -1,0 +1,115 @@
+{
+  "branch": "032V10_KERNEL_AWARE_COLLECTIVE_PROMOTION",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "MINER_PROMOTION_DISCIPLINE_AND_PORTAL_READY_RERANK",
+  "decision": "GREEN_KERNEL_AWARE_PROMOTION_GATE_HOPF_DEMOTED_TO_GLOBAL_SCALING_LEARNING",
+  "headroom_examples": {
+    "q1e12_max_combined_tax_10mj": 1.8782705313454553,
+    "q1e12_minimum_retention_10mj": 0.5324046687159987,
+    "q1e12_required_kernel_exponent_10mj": -0.022813178733654238,
+    "q1e15_max_combined_tax_10mj": 10.562291396627845,
+    "q1e15_max_combined_tax_1mj": 1.0562291396627845,
+    "q1e15_minimum_retention_10mj": 0.09467642601862543,
+    "q1e15_minimum_retention_1mj": 0.9467642601862543,
+    "q1e15_required_kernel_exponent_1mj": -0.0015838763202567219
+  },
+  "highest_priority_open_structure": "2026_ASYMMETRON_BUBBLE_BRANCH",
+  "hopf": {
+    "collective_promotion_allowed": false,
+    "fixed_productive_segment_kernel_exponent_diagnostic": -0.75,
+    "fixed_productive_segment_net_efficiency_exponent_diagnostic": -0.5,
+    "global_scaling_is_finite_payload_oracle": false,
+    "global_scaling_result_preserved": true,
+    "global_source_efficiency_exponent": 0.25,
+    "promotion_failures": [
+      "NO_LOCAL_COVARIANT_CHARGE",
+      "NO_PHYSICAL_VACUUM_PORTAL",
+      "FINITE_PAYLOAD_RESPONSE_SCALING_NOT_DERIVED",
+      "COMPLETE_PORTAL_ENERGY_SCALING_NOT_DERIVED",
+      "NATURALNESS_NOT_SCREENED"
+    ],
+    "published_string_length_exponent_diagnostic": 0.75,
+    "string_length_exponent_is_continuum_theorem": false
+  },
+  "next": "032V11_ASYMMETRON_BUBBLE_FINITE_PAYLOAD_SIGN_ENERGY_PREFLIGHT",
+  "physical_antigravity_model_found": false,
+  "portal_ready_rerank": [
+    {
+      "complete_operating_energy_established": false,
+      "family": "2026_ASYMMETRON_BUBBLE_BRANCH",
+      "finite_payload_outward_response_established": false,
+      "local_covariant_metric_active_field": true,
+      "naturalness_certified": false,
+      "priority": 1,
+      "reason": "FIELD_ITSELF_IS_UNIVERSAL_METRIC_ACTIVE_AND_BUBBLE_BRANCH_IS_DISTINCT_FROM_STANDARD_SCREENED_BODY",
+      "separate_charge_mediator_required": false,
+      "status": "OPEN_HIGHEST_PRIORITY_PORTAL_READY_STRUCTURE",
+      "universal_physical_metric": true
+    },
+    {
+      "complete_operating_energy_established": false,
+      "family": "LOCAL_NOETHER_CHARGE_PLUS_NONLINEAR_PROTECTED_METRIC_FIELD",
+      "finite_payload_outward_response_established": false,
+      "local_covariant_metric_active_field": "SOURCE_CURRENT_LOCAL_PORTAL_NOT_FOUND",
+      "naturalness_certified": false,
+      "priority": 2,
+      "reason": "QBALL_NOETHER_CURRENT_IS_LOCAL_BUT_STANDOFF_REQUIRES_VACUUM_PROPAGATION",
+      "separate_charge_mediator_required": true,
+      "status": "OPEN_IF_MEDIATOR_SCALING_BEATS_CANONICAL_Q2_TAX",
+      "universal_physical_metric": "REQUIRED"
+    },
+    {
+      "complete_operating_energy_established": false,
+      "family": "SCALARIZED_BOSON_STAR_SCALAR_TENSOR",
+      "finite_payload_outward_response_established": false,
+      "local_covariant_metric_active_field": true,
+      "naturalness_certified": false,
+      "priority": 3,
+      "reason": "PHYSICAL_SCALARIZATION_EXISTS_BUT_KNOWN_REALIZATIONS_ARE_SELF_GRAVITATING_COMPACT_OBJECTS",
+      "separate_charge_mediator_required": false,
+      "status": "OPEN_LOW_PRIORITY_COMPACTNESS_DEPENDENT",
+      "universal_physical_metric": true
+    },
+    {
+      "complete_operating_energy_established": false,
+      "family": "SHIFT_SYMMETRIC_SCALAR_GAUSS_BONNET_STAR",
+      "finite_payload_outward_response_established": false,
+      "local_covariant_metric_active_field": true,
+      "naturalness_certified": "SHIFT_SYMMETRY_PRESENT",
+      "priority": 4,
+      "reason": "REGULAR_STARS_HAVE_ZERO_LONG_RANGE_SCALAR_CHARGE_IN_SHIFT_SYMMETRIC_LINEAR_GB_BRANCH",
+      "separate_charge_mediator_required": false,
+      "status": "RED_STAR_SCALAR_CHARGE_ZERO",
+      "universal_physical_metric": true
+    },
+    {
+      "complete_operating_energy_established": false,
+      "family": "HOPF_GLOBAL_TOPOLOGICAL_CHARGE",
+      "finite_payload_outward_response_established": false,
+      "local_covariant_metric_active_field": false,
+      "naturalness_certified": false,
+      "priority": 5,
+      "reason": "SECONDARY_INVARIANT_AND_NO_LOCAL_PORTAL_PRESERVING_Q1OVER4_FOUND",
+      "separate_charge_mediator_required": true,
+      "status": "DEMOTED_GLOBAL_SOURCE_SCALING_LEARNING_ONLY",
+      "universal_physical_metric": false
+    },
+    {
+      "complete_operating_energy_established": false,
+      "family": "MINIMAL_MAG_OR_ALGEBRAIC_TORSION_HYPERMOMENTUM",
+      "finite_payload_outward_response_established": false,
+      "local_covariant_metric_active_field": true,
+      "naturalness_certified": "NOT_RELEVANT_TO_CLOSED_MINIMAL_BRANCH",
+      "priority": 6,
+      "reason": "ALGEBRAIC_CONNECTION_HAS_NO_EXTERNAL_STANDOFF_OR_ORDINARY_MATTER_PORTAL_IS_ABSENT",
+      "separate_charge_mediator_required": false,
+      "status": "RED_OR_BLOCKED_BY_032Q_032T_032U",
+      "universal_physical_metric": "MINIMAL_PAYLOAD_RESPONSE_INSUFFICIENT"
+    }
+  ],
+  "reference_j": 5324046687.1599865,
+  "required_gain_10mj": 532.4046687159987,
+  "required_gain_1mj": 5324.0466871599865,
+  "stretch_target_j": 1000000.0,
+  "strict_target_j": 10000000.0
+}

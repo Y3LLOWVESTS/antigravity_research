@@ -1,0 +1,115 @@
+{
+  "branch": "032V9_HOPF_METRIC_PORTAL_PREFLIGHT",
+  "canonical_linear_mediator": {
+    "asymptotic_efficiency_exponent": -1.0,
+    "fixed_response_ratio": "Q^(-1/4)+mu*Q",
+    "linear_metric_response_exponent": 1.0,
+    "mediator_energy_exponent": 2.0,
+    "mu_max_10mj": 1.9150524262013403e-15,
+    "mu_max_1mj": 1.91505242620134e-20,
+    "mu_max_at_fixed_q1e12_for_10mj": 8.782705313454555e-16,
+    "mu_max_at_fixed_q1e15_for_1mj": 9.99911213065327e-21,
+    "optimal_q_at_10mj_threshold": 196158654003.1343,
+    "optimal_q_at_1mj_threshold": 1961586540031344.5
+  },
+  "certified_sub10mj_model_found": false,
+  "claim_class": "PORTAL_LOCALITY_AND_SELF_ENERGY_SCALING_PREFLIGHT",
+  "decision": "RED_MINIMAL_LOCAL_HOPF_PORTALS_DO_NOT_PRESERVE_Q1OVER4_ADVANTAGE",
+  "full_topological_portal_class_closed": false,
+  "hopf_locality": {
+    "auxiliary_connection_required_for_cs_density": true,
+    "derivative_scalar_current_static_bulk_source": false,
+    "direct_minimal_einstein_hopf_charge_portal": false,
+    "h3_s2_zero": true,
+    "local_target_space_three_form_density_exists": false,
+    "secondary_invariant": true
+  },
+  "minimal_local_static_portal_preserving_qquarter_found": false,
+  "next": "032V10_LOCAL_COVARIANT_METRIC_ACTIVE_CHARGE_WITH_SUBLINEAR_SCAFFOLD_RERANK",
+  "physical_antigravity_model_found": false,
+  "portal_matrix": [
+    {
+      "asymptotic_efficiency_exponent": "",
+      "canonical_mediator_energy_exponent": "",
+      "local_covariant": true,
+      "metric_response_exponent": "",
+      "portal": "MINIMAL_EINSTEIN_STRESS_ENERGY",
+      "reason": "METRIC_SEES_T_MUNU_NOT_SIGNED_HOPF_CHARGE",
+      "static_hopf_charge_source": false,
+      "status": "RED_NO_INDEPENDENT_HOPF_GRAVITATIONAL_CHARGE",
+      "universal_metric": true
+    },
+    {
+      "asymptotic_efficiency_exponent": -1.0,
+      "canonical_mediator_energy_exponent": 2.0,
+      "local_covariant": true,
+      "metric_response_exponent": 1.0,
+      "portal": "SCALAR_DERIVATIVE_HOPF_CURRENT",
+      "reason": "DERIVATIVE_COUPLING_TO_CONSERVED_CURRENT_REDUCES_TO_BOUNDARY_OR_TOPOLOGY_CHANGE",
+      "static_hopf_charge_source": false,
+      "status": "RED_STATIC_BULK_SOURCE",
+      "universal_metric": "POSSIBLE_AFTER_SCALAR_EXISTS"
+    },
+    {
+      "asymptotic_efficiency_exponent": -1.0,
+      "canonical_mediator_energy_exponent": 2.0,
+      "local_covariant": true,
+      "metric_response_exponent": 1.0,
+      "portal": "PSEUDOSCALAR_LOCAL_F_DUAL_F",
+      "reason": "FOUR_DIMENSIONAL_PSEUDOSCALAR_DENSITY_REQUIRES_TIME_OR_ELECTRIC_COMPONENT",
+      "static_hopf_charge_source": false,
+      "status": "RED_FOR_STATIC_PURELY_SPATIAL_HOPF_SECTOR",
+      "universal_metric": "POSSIBLE_AFTER_SCALAR_EXISTS"
+    },
+    {
+      "asymptotic_efficiency_exponent": -1.0,
+      "canonical_mediator_energy_exponent": 2.0,
+      "local_covariant": "REQUIRES_AUXILIARY_CONNECTION_OR_LIFT",
+      "metric_response_exponent": 1.0,
+      "portal": "AUXILIARY_VECTOR_TIMES_HOPF_CURRENT",
+      "reason": "MEDIATOR_SELF_ENERGY_GROWS_Q_SQUARED",
+      "static_hopf_charge_source": true,
+      "status": "OPEN_STRUCTURALLY_BUT_Q1OVER4_GAIN_LOST_WITH_CANONICAL_LINEAR_RESPONSE",
+      "universal_metric": "NOT_ESTABLISHED"
+    },
+    {
+      "asymptotic_efficiency_exponent": 0.0,
+      "canonical_mediator_energy_exponent": 2.0,
+      "local_covariant": "REQUIRES_AUXILIARY_CONNECTION_OR_LIFT",
+      "metric_response_exponent": 2.0,
+      "portal": "AUXILIARY_VECTOR_QUADRATIC_PHYSICAL_METRIC",
+      "reason": "Q_SQUARED_RESPONSE_AND_Q_SQUARED_MEDIATOR_ENERGY_REMOVE_TOPOLOGICAL_SCALING_GAIN",
+      "static_hopf_charge_source": true,
+      "status": "OPEN_BUT_EFFICIENCY_SATURATES",
+      "universal_metric": "NOT_ESTABLISHED"
+    },
+    {
+      "asymptotic_efficiency_exponent": 0.0,
+      "canonical_mediator_energy_exponent": 0.0,
+      "local_covariant": "THEORY_DEPENDENT",
+      "metric_response_exponent": 0.0,
+      "portal": "PURE_TOPOLOGICAL_BF_OR_CS_SECTOR",
+      "reason": "PURE_TOPOLOGICAL_SECTOR_HAS_NO_LOCAL_PROPAGATING_STATIC_FORCE;KINETIC_COMPLETION_REINTRODUCES_ENERGY",
+      "static_hopf_charge_source": "FORMALLY_POSSIBLE",
+      "status": "RED_AS_STANDALONE_FORCE_PORTAL",
+      "universal_metric": false
+    }
+  ],
+  "quadratic_metric_portal": {
+    "asymptotic_efficiency_exponent": 0.0,
+    "mediator_energy_exponent": 2.0,
+    "metric_response_exponent": 2.0,
+    "topological_scaling_provides_unbounded_gain": false
+  },
+  "reference_j": 5324046687.1599865,
+  "source_result_preserved": {
+    "conditional_source_efficiency_exponent": 0.25,
+    "hopf_source_energy_exponent": 0.75,
+    "source_only_q_required_10mj": 80346584679.6837,
+    "source_only_q_required_1mj": 803465846796836.8,
+    "source_only_result_invalidated": false,
+    "source_only_result_is_physical_antigravity": false
+  },
+  "stretch_target_j": 1000000.0,
+  "strict_target_j": 10000000.0
+}

@@ -1,0 +1,237 @@
+{
+  "architectures": [
+    {
+      "architecture": "REMOTE_SAME_Y_QBALL",
+      "exact_off_Y_zero": false,
+      "reason": "noncompact_Y_tail_at_every_finite_separation",
+      "reservoir_stress_energy": true,
+      "survives": false,
+      "total_charge_conserved": true
+    },
+    {
+      "architecture": "PHASE_OR_FREQUENCY_ONLY",
+      "exact_off_Y_zero": false,
+      "reason": "activation_depends_on_modulus_absY",
+      "reservoir_stress_energy": false,
+      "survives": false,
+      "total_charge_conserved": true
+    },
+    {
+      "architecture": "CREATE_DESTROY_Y_WITHOUT_RESERVOIR",
+      "exact_off_Y_zero": true,
+      "reason": "violates_total_activation_charge_conservation",
+      "reservoir_stress_energy": false,
+      "survives": false,
+      "total_charge_conserved": false
+    },
+    {
+      "architecture": "COLOCATED_SPECTATOR_R_DIAGONAL_U1",
+      "exact_off_Y_zero": true,
+      "reason": "exact_endpoint_reservoir_survivor_dynamic_neutral_mixer_still_required",
+      "reservoir_stress_energy": true,
+      "survives": true,
+      "total_charge_conserved": true
+    }
+  ],
+  "claim_class": "MICROSCOPIC_ENDPOINT_RESERVOIR_PREFLIGHT",
+  "claim_limits": [
+    "GREEN establishes only an exact endpoint reservoir architecture in an extended flat-space effective theory.",
+    "The spectator R field is a new theoretical ingredient and is not established in nature.",
+    "The neutral dynamic mixing field S is not solved here.",
+    "The 30.74-GJ ON-minus-explicit-OFF difference is an endpoint inventory difference, not proven irreversible work.",
+    "Reset recoverability is not assumed.",
+    "Finite-time radiation and local transfer reaction stresses remain open.",
+    "Einstein backreaction, nonlinear stability, EFT/naturalness and empirical closure remain open.",
+    "No practical antigravity device is established."
+  ],
+  "classification": "GREEN_D3D0_EXACT_ENDPOINT_SPECTATOR_QBALL_RESERVOIR_ARCHITECTURE_SURVIVES",
+  "decision": {
+    "full_D3D_closed": false,
+    "prerequisites": true,
+    "spectator_R_survives": true,
+    "survivor_count": 1
+  },
+  "energy_ledger": {
+    "endpoint_energy_per_charge_eV": 8.713345574234664e-07,
+    "endpoint_mass_difference_kg": 3.420050383258879e-07,
+    "explicit_off_total_J": 97044558583.32407,
+    "explicit_reservoir_on_minus_off_J": 30737879934.947556,
+    "full_on_total_J": 127782438518.27162,
+    "ledger_identity_relerr": 0.0,
+    "off_source_J": 90815960813.65141,
+    "old_no_reservoir_on_minus_off_J": 36966477704.62021,
+    "pass": true,
+    "reservoir_rest_J": 6228597769.672653
+  },
+  "model": {
+    "Q_star": 2.2018036001115653e+35,
+    "m_A_eV": 3.1968032545617497e-07,
+    "m_x_eV": 5.979605466666666e-06,
+    "mu": 0.05346177557001615,
+    "omega_y": 0.4500000012825412
+  },
+  "next": "031D3D1_FULL_DYNAMIC_NEUTRAL_MIXER_TRANSFER_STRESS_ENERGY_RADIATION_GATE",
+  "phase_only": {
+    "activation_fraction": 1.0,
+    "classification": "RED_ACTIVATION_DEPENDS_ON_MODULUS",
+    "exact_off": false,
+    "phase_spread": 0.0
+  },
+  "r5_prerequisite": {
+    "classification": "GREEN_D3CR5_COUPLED_LINEAR_L1_RELATIVE_TRANSLATION_POSITIVE_BY_CANCELLATION_FREE_SCHUR_BOUND",
+    "promotion_authorized": true,
+    "relaxed_relative_lower_bound": 1.299785030156127e-20
+  },
+  "remote_same_Y": {
+    "classification": "RED_FOR_EXACT_OFF_REQUIREMENT",
+    "exact_off": false,
+    "samples": [
+      {
+        "activation_fraction": 0.9990858352953053,
+        "amplitude": 3.7409891207196804,
+        "rho": 5.0
+      },
+      {
+        "activation_fraction": 0.0016808165934655422,
+        "amplitude": 0.05800397832086861,
+        "rho": 10.0
+      },
+      {
+        "activation_fraction": 9.9019938551882e-08,
+        "amplitude": 0.00044501672654936566,
+        "rho": 15.0
+      },
+      {
+        "activation_fraction": 7.370071611132334e-12,
+        "amplitude": 3.839289416326801e-06,
+        "rho": 20.0
+      }
+    ]
+  },
+  "reservoir_qball": {
+    "E_over_Qm_model": 0.5523131805289669,
+    "E_over_Qm_physical": 0.5523131786852369,
+    "E_over_Qm_relerr": 3.3381967378544497e-09,
+    "I_E": 5845.42733207273,
+    "I_Q": 10583.537634344319,
+    "a0": 9.498545933641749,
+    "bound_pass": true,
+    "mass_equivalent_kg": 6.930249657561721e-08,
+    "rest_energy_J": 6228597769.672653
+  },
+  "spectator_R": {
+    "charge_total_relerr": 0.0,
+    "diagonal_U1": true,
+    "dynamic_mixer_realized": false,
+    "endpoint_charge_pass": true,
+    "mixer_form": "kappa*S*(conj(Y)*R+conj(R)*Y)",
+    "off": {
+      "QR": 2.2018036001115653e+35,
+      "QY": 0.0,
+      "Qtotal": 2.2018036001115653e+35
+    },
+    "on": {
+      "QR": 0.0,
+      "QY": 2.2018036001115653e+35,
+      "Qtotal": 2.2018036001115653e+35
+    },
+    "rabi_oracle": {
+      "final_R_fraction": 3.749399456654644e-33,
+      "final_Y_fraction": 1.0,
+      "final_norm": 1.0,
+      "initial_norm": 1.0,
+      "pass": true,
+      "unitary_error": 0.0
+    }
+  },
+  "switching_power_rows": [
+    {
+      "charge_conversion_rate_per_s": 2.2018036001115653e+34,
+      "effective_mix_hbar_omega_eV": 1.0339169241510008e-16,
+      "effective_rabi_omega_rad_s": 0.15707963267948966,
+      "endpoint_average_input_power_W": 3073787993.4947557,
+      "endpoint_energy_input_J": 30737879934.947556,
+      "mix_scale_over_mA": 3.234221319925241e-10,
+      "reset_unrecovered_average_power_W": 3073787993.4947557,
+      "reset_unrecovered_release_J": 30737879934.947556,
+      "seconds": 10.0
+    },
+    {
+      "charge_conversion_rate_per_s": 2.2018036001115653e+35,
+      "effective_mix_hbar_omega_eV": 1.0339169241510009e-15,
+      "effective_rabi_omega_rad_s": 1.5707963267948966,
+      "endpoint_average_input_power_W": 30737879934.947556,
+      "endpoint_energy_input_J": 30737879934.947556,
+      "mix_scale_over_mA": 3.234221319925241e-09,
+      "reset_unrecovered_average_power_W": 30737879934.947556,
+      "reset_unrecovered_release_J": 30737879934.947556,
+      "seconds": 1.0
+    },
+    {
+      "charge_conversion_rate_per_s": 2.2018036001115652e+36,
+      "effective_mix_hbar_omega_eV": 1.0339169241510009e-14,
+      "effective_rabi_omega_rad_s": 15.707963267948966,
+      "endpoint_average_input_power_W": 307378799349.4755,
+      "endpoint_energy_input_J": 30737879934.947556,
+      "mix_scale_over_mA": 3.234221319925241e-08,
+      "reset_unrecovered_average_power_W": 307378799349.4755,
+      "reset_unrecovered_release_J": 30737879934.947556,
+      "seconds": 0.1
+    },
+    {
+      "charge_conversion_rate_per_s": 2.201803600111565e+37,
+      "effective_mix_hbar_omega_eV": 1.0339169241510009e-13,
+      "effective_rabi_omega_rad_s": 157.07963267948966,
+      "endpoint_average_input_power_W": 3073787993494.7554,
+      "endpoint_energy_input_J": 30737879934.947556,
+      "mix_scale_over_mA": 3.234221319925241e-07,
+      "reset_unrecovered_average_power_W": 3073787993494.7554,
+      "reset_unrecovered_release_J": 30737879934.947556,
+      "seconds": 0.01
+    },
+    {
+      "charge_conversion_rate_per_s": 2.2018036001115654e+38,
+      "effective_mix_hbar_omega_eV": 1.0339169241510008e-12,
+      "effective_rabi_omega_rad_s": 1570.7963267948965,
+      "endpoint_average_input_power_W": 30737879934947.555,
+      "endpoint_energy_input_J": 30737879934.947556,
+      "mix_scale_over_mA": 3.234221319925241e-06,
+      "reset_unrecovered_average_power_W": 30737879934947.555,
+      "reset_unrecovered_release_J": 30737879934.947556,
+      "seconds": 0.001
+    },
+    {
+      "charge_conversion_rate_per_s": 2.2018036001115654e+39,
+      "effective_mix_hbar_omega_eV": 1.0339169241510007e-11,
+      "effective_rabi_omega_rad_s": 15707.963267948964,
+      "endpoint_average_input_power_W": 307378799349475.56,
+      "endpoint_energy_input_J": 30737879934.947556,
+      "mix_scale_over_mA": 3.2342213199252404e-05,
+      "reset_unrecovered_average_power_W": 307378799349475.56,
+      "reset_unrecovered_release_J": 30737879934.947556,
+      "seconds": 0.0001
+    },
+    {
+      "charge_conversion_rate_per_s": 2.201803600111565e+40,
+      "effective_mix_hbar_omega_eV": 1.0339169241510008e-10,
+      "effective_rabi_omega_rad_s": 157079.63267948964,
+      "endpoint_average_input_power_W": 3073787993494755.5,
+      "endpoint_energy_input_J": 30737879934.947556,
+      "mix_scale_over_mA": 0.0003234221319925241,
+      "reset_unrecovered_average_power_W": 3073787993494755.5,
+      "reset_unrecovered_release_J": 30737879934.947556,
+      "seconds": 1e-05
+    },
+    {
+      "charge_conversion_rate_per_s": 2.2018036001115654e+41,
+      "effective_mix_hbar_omega_eV": 1.033916924151001e-09,
+      "effective_rabi_omega_rad_s": 1570796.3267948967,
+      "endpoint_average_input_power_W": 3.0737879934947556e+16,
+      "endpoint_energy_input_J": 30737879934.947556,
+      "mix_scale_over_mA": 0.0032342213199252415,
+      "reset_unrecovered_average_power_W": 3.0737879934947556e+16,
+      "reset_unrecovered_release_J": 30737879934.947556,
+      "seconds": 1e-06
+    }
+  ]
+}

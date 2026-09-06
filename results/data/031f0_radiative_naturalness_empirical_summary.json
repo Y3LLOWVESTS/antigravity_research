@@ -1,0 +1,144 @@
+{
+  "claim_class": "TECHNICAL_NATURALNESS_AND_EMPIRICAL_PREFLIGHT",
+  "claim_limits": [
+    "The loop calculation is an NDA/threshold technical-naturalness estimate, not an exact scheme-independent one-loop matching result.",
+    "The muon and heavier thresholds exceed the required scalar mass hierarchy by so many orders that ordinary order-unity scheme factors cannot restore naturalness.",
+    "A demonstrated symmetry or UV mechanism could change the conclusion, but none is present in the current declared 031 theory.",
+    "OFF-state fifth-force/PPN constraints are not naively identical to an always-on Yukawa theory because f(0)=0 exactly.",
+    "RED does not revoke the classical field, stability, switching, or Einstein/Jordan certificates.",
+    "RED means the current EFT is not technically natural and therefore cannot receive full 031 certification.",
+    "No practical antigravity device is established."
+  ],
+  "classification": "RED_031F0_CURRENT_031_EFT_RADIATIVE_NATURALNESS_OBSTRUCTION_NO_PROTECTION",
+  "decision": {
+    "empirical_OFF_vacuum_pass": true,
+    "explicit_protection_pass": false,
+    "matter_naturalness_pass": false,
+    "nonlinear_run_authorized": false,
+    "radiative_naturalness_full_pass": false,
+    "source_naturalness_pass": true
+  },
+  "inherited": {
+    "031E": "GREEN_031E_WEAK_CURVATURE_EINSTEIN_JORDAN_GEODESIC_BACKREACTION_CERTIFICATE",
+    "D3D2R": "GREEN_D3D2R_DUAL_LEDGER_FIXED_THEORY_DRIVEN_ADIABATIC_SWITCHING_CLOSEOUT",
+    "R5": "GREEN_D3CR5_COUPLED_LINEAR_L1_RELATIVE_TRANSLATION_POSITIVE_BY_CANCELLATION_FREE_SCHUR_BOUND"
+  },
+  "matter_thresholds": [
+    {
+      "delta_m2_over_mphi2_coeff_1e_minus3": 0.00010017753182497826,
+      "delta_m2_over_mphi2_nominal": 0.10017753182497825,
+      "induced_mass_scale_eV_nominal": 1.8925950240597145e-08,
+      "induced_range_m_nominal": 10.426265412910332,
+      "mass_GeV": 0.00051099895,
+      "particle": "electron",
+      "required_tuning_coeff_1e_minus3": 1.0,
+      "required_tuning_nominal": 1.0
+    },
+    {
+      "delta_m2_over_mphi2_coeff_1e_minus3": 183107.44924913778,
+      "delta_m2_over_mphi2_nominal": 183107449.2491378,
+      "induced_mass_scale_eV_nominal": 0.0008091434756829414,
+      "induced_range_m_nominal": 0.00024387143483230845,
+      "mass_GeV": 0.1056583755,
+      "particle": "muon",
+      "required_tuning_coeff_1e_minus3": 5.461274263284561e-06,
+      "required_tuning_nominal": 5.46127426328456e-09
+    },
+    {
+      "delta_m2_over_mphi2_coeff_1e_minus3": 14645464131.775211,
+      "delta_m2_over_mphi2_nominal": 14645464131775.209,
+      "induced_mass_scale_eV_nominal": 0.2288358694473317,
+      "induced_range_m_nominal": 8.623079103663698e-07,
+      "mass_GeV": 1.77686,
+      "particle": "tau",
+      "required_tuning_coeff_1e_minus3": 6.82805263802034e-11,
+      "required_tuning_nominal": 6.828052638020341e-14
+    },
+    {
+      "delta_m2_over_mphi2_coeff_1e_minus3": 6.129775299215709e+16,
+      "delta_m2_over_mphi2_nominal": 6.12977529921571e+19,
+      "induced_mass_scale_eV_nominal": 468.1605424339644,
+      "induced_range_m_nominal": 4.214942578759371e-10,
+      "mass_GeV": 80.369,
+      "particle": "W",
+      "required_tuning_coeff_1e_minus3": 1.6313811700861985e-17,
+      "required_tuning_nominal": 1.631381170086198e-20
+    },
+    {
+      "delta_m2_over_mphi2_coeff_1e_minus3": 1.0158590134973315e+17,
+      "delta_m2_over_mphi2_nominal": 1.0158590134973317e+20,
+      "induced_mass_scale_eV_nominal": 602.6834274566648,
+      "induced_range_m_nominal": 3.2741398122182234e-10,
+      "mass_GeV": 91.1876,
+      "particle": "Z",
+      "required_tuning_coeff_1e_minus3": 9.843885684070143e-18,
+      "required_tuning_nominal": 9.843885684070142e-21
+    },
+    {
+      "delta_m2_over_mphi2_coeff_1e_minus3": 3.6157736415755725e+17,
+      "delta_m2_over_mphi2_nominal": 3.6157736415755724e+20,
+      "induced_mass_scale_eV_nominal": 1137.0332046075803,
+      "induced_range_m_nominal": 1.735454862710915e-10,
+      "mass_GeV": 125.25,
+      "particle": "Higgs",
+      "required_tuning_coeff_1e_minus3": 2.765659853541745e-18,
+      "required_tuning_nominal": 2.7656598535417452e-21
+    },
+    {
+      "delta_m2_over_mphi2_coeff_1e_minus3": 1.3087692358376054e+18,
+      "delta_m2_over_mphi2_nominal": 1.3087692358376054e+21,
+      "induced_mass_scale_eV_nominal": 2163.236834052597,
+      "induced_range_m_nominal": 9.121838963435577e-11,
+      "mass_GeV": 172.76,
+      "particle": "top",
+      "required_tuning_coeff_1e_minus3": 7.640766398057984e-19,
+      "required_tuning_nominal": 7.640766398057984e-22
+    }
+  ],
+  "next": "STOP_CURRENT_031_FULL_CERTIFICATION_OR_INTRODUCE_GENUINE_RADIATIVE_PROTECTION_AND_RESTART_AFFECTED_GATES",
+  "ordinary_metric": {
+    "OFF_PPN_beta": 1.0,
+    "OFF_PPN_gamma": 1.0,
+    "OFF_alpha0": 0.0,
+    "OFF_structural_empirical_pass": true,
+    "ON_repulsive_zero_m": 14.847132453818539,
+    "alpha_m_certified": 29.194094249756294,
+    "alpha_m_rebuilt": 29.194094249756287,
+    "alpha_relerr": 2.4338577853499657e-16,
+    "local_2alpha2": 1704.5902781273069
+  },
+  "practical": {
+    "activation_release_J": 15502703609.60852,
+    "conservative_ON_inventory_J": 127782438518.27162,
+    "free_source_recoil_mps2": 13696907.827779485,
+    "payload_force_N": 12.42686883040701,
+    "reset_recovery_realized": false,
+    "reset_work_floor_J": 15502703954.626587,
+    "support_hardware_realized": false
+  },
+  "protection": {
+    "other_explicit_protection": false,
+    "pass": false,
+    "phi_Z2": true,
+    "phi_Z2_protects_mass": false,
+    "sequestering": false,
+    "shift_symmetry": false,
+    "supersymmetry": false
+  },
+  "scales": {
+    "M_c_GeV": 68.58201405094178,
+    "M_m_GeV": 1097924452.3469064,
+    "m_X_eV": 5.979605466666666e-06,
+    "m_phi_eV": 5.979605466666666e-08,
+    "matter_naturalness_cutoff_GeV": 0.0009082960508007253,
+    "matter_naturalness_cutoff_coeff_1e_minus3_GeV": 0.005107724048724405,
+    "matter_operator_GeV": 40011.15711911719,
+    "phi_range_m": 3.3,
+    "source_operator_GeV": 10.0
+  },
+  "source_naturalness": {
+    "delta_m2_over_mphi2_at_declared_cutoff": 1.3463556652773683,
+    "naturalness_cutoff_GeV": 8.618270060433225,
+    "pass": true
+  }
+}

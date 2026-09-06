@@ -1,0 +1,27 @@
+{
+  "backreaction_limit": 0.01,
+  "checkpoint_limit": 25,
+  "database_path": "results/agminer/agminer.sqlite3",
+  "disk_budget_mb": 500,
+  "energy_ledger": "CONSERVATIVE_COMPLETE_OPERATING",
+  "energy_ledger_version": "CONSERVATIVE_COMPLETE_V1",
+  "energy_target": {
+    "comparison": "LT",
+    "unit": "MJ",
+    "value": 10.0
+  },
+  "leak_limit": 0.0001,
+  "logging_backup_count": 2,
+  "logging_limit_mb": 2,
+  "naturalness_threshold": 1.0,
+  "payload_mass_kg": 1.0,
+  "payload_radius_m": 0.1,
+  "physical_model_version": "032A_INFRASTRUCTURE_ONLY",
+  "sampler_seed": 3201,
+  "target_cm_accel_mps2": 9.80665,
+  "target_surface_accel_mps2": 9.80665,
+  "tier0_budget": 10000,
+  "tier1_budget": 1000,
+  "tier2_budget": 25,
+  "worker_count": 1
+}

@@ -1,0 +1,55 @@
+{
+  "032P": {
+    "full_dynamic_class_closed": false,
+    "static_branch_closed": true,
+    "static_universal_repulsion": false,
+    "static_yukawa_alpha_nonnegative": true,
+    "theory": "2026_UV_COMPLETE_ON_SCALAR_TENSOR"
+  },
+  "032Q": {
+    "external_torsion_for_zero_external_spin": 0.0,
+    "minimal_external_standoff_branch_closed": true,
+    "minimal_torsion_true_standoff": false,
+    "propagating_torsion_extensions_closed": false,
+    "theory": "MINIMAL_EINSTEIN_CARTAN",
+    "torsion_algebraic_in_spin_density": true
+  },
+  "032R": {
+    "declared_10mj_rge_planck_beta_le100_branch_closed": true,
+    "full_pform_family_closed": false,
+    "max_abs_beta_declared": 100.0,
+    "minimum_source_radius_oracle_m": 1.616255e-35,
+    "p_rank_results": {
+      "1": {
+        "beta_required_0p1m_radius": 9.953953036862708e+35,
+        "beta_required_1fm_radius": 9.953953036862707e+21,
+        "beta_required_planck_radius": 160.88126365594533,
+        "compactness_at_10mj_planck_radius": 0.005112261146723776,
+        "max_trigger_beta100_planck_radius": 0.5112261146723777,
+        "radius_required_beta100_m": 1.0046259976279542e-35,
+        "radius_required_beta100_over_planck": 0.6215764205697456,
+        "threshold_beta_compactness": 0.8224670334241132,
+        "trigger_passes_declared_oracle": false
+      },
+      "2": {
+        "beta_required_0p1m_radius": 1.4930929555294063e+36,
+        "beta_required_1fm_radius": 1.493092955529406e+22,
+        "beta_required_planck_radius": 241.32189548391796,
+        "compactness_at_10mj_planck_radius": 0.005112261146723776,
+        "max_trigger_beta100_planck_radius": 0.5112261146723777,
+        "radius_required_beta100_m": 6.697506650853028e-36,
+        "radius_required_beta100_over_planck": 0.4143842803798304,
+        "threshold_beta_compactness": 1.2337005501361697,
+        "trigger_passes_declared_oracle": false
+      }
+    },
+    "source_energy_oracle_j": 10000000.0,
+    "theory": "MATTER_TRIGGERED_PFORM_TENSORIZATION",
+    "threshold_model": "OPTIMISTIC_SCALAR_LIKE_FIRST_MODE"
+  },
+  "branch": "032P_032R_FRONTIER_RERANK",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "ANALYTIC_FRONTIER_FALSIFICATION_AND_TRIGGER_PREFLIGHT",
+  "energy_target_j": 10000000.0,
+  "next": "GLOBAL_RERANK_AFTER_FRONTIER_PACK_V5"
+}

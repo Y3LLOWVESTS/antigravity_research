@@ -1,0 +1,34 @@
+{
+  "best_tier0_survivors": [],
+  "budget_per_family": 64,
+  "claim": "TIER0_SCREENING_ONLY_NOT_FIELD_SOLUTION_NOT_CERTIFICATION",
+  "comparison": "LT",
+  "energy_target_j": 10000000.0,
+  "evaluated": 64,
+  "family_summaries": [
+    {
+      "analytic_fail": 64,
+      "eft_fail": 0,
+      "energy_fail": 0,
+      "evaluated": 64,
+      "family_id": "032U_UNIVERSAL_RANK3_STRESS_MONOPOLE_PORTAL",
+      "family_version": "1_LINEAR_T_ONLY_NO_MONOPOLE_THEOREM",
+      "headroom_only": 0,
+      "known_skips": 0,
+      "module": "family_032u_universal_rank3_stress_monopole_portal",
+      "naturalness_fail": 0,
+      "next_index": 64,
+      "start_index": 0,
+      "tier0_survivors": 0,
+      "unresolved": 0
+    }
+  ],
+  "frontier_plugins": 1,
+  "known_skips": 0,
+  "policy_id": "ENERGY_ab8c16e45c837ffc",
+  "run_id": "FRONTIER_TIER0_1788630223031456000",
+  "scanner_version": "FRONTIER_TIER0_V1",
+  "stopped": false,
+  "tier0_survivors": 0,
+  "unresolved": 0
+}

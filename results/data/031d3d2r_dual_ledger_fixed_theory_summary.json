@@ -1,0 +1,96 @@
+{
+  "claim_class": "DRIVEN_ADIABATIC_SWITCHING_PROVENANCE_REPAIR",
+  "claim_limits": [
+    "The exact Hamiltonian is used for switching energy conservation; the conservative inventory remains the engineering upper ledger.",
+    "The approximately 127.8-GJ conservative ON inventory is not reduced by this repair.",
+    "The D3D2 heavy-R energy-matching construction is rejected and not carried forward.",
+    "GREEN establishes only a driven adiabatic multiscale switching construction.",
+    "Forward activation releases roughly 15.5 GJ in the exact Hamiltonian; reset requires the same state-function energy difference absent recovery.",
+    "Recovery efficiency is not established.",
+    "The microscopic external power-supply apparatus is not realized here.",
+    "Carrier-resolved nonlinear radial evolution and higher-harmonic/multiparticle radiation remain for later nonlinear closure.",
+    "Einstein backreaction remains open.",
+    "EFT/naturalness and empirical closure remain open.",
+    "No practical antigravity device is established."
+  ],
+  "classification": "GREEN_D3D2R_DUAL_LEDGER_FIXED_THEORY_DRIVEN_ADIABATIC_SWITCHING_CLOSEOUT",
+  "control": {
+    "best": {
+      "barrier_max_J": 85.73353509069929,
+      "chirp_margin": 5.196084933422728,
+      "compliance": 9.15439598480034,
+      "compliance_identity_relerr": 1.5209412060782251e-10,
+      "compliance_pass": true,
+      "coupling_pass": true,
+      "gate_energy_J": 77.23879696051716,
+      "ghat": 0.003758374042884443,
+      "lambda": 3.7667667856606807e-10,
+      "lambda_pass": true,
+      "radiation_threshold_pass": true,
+      "sigma": 300.0,
+      "sigma_energy": 305.50518804729313,
+      "threshold_Hz": 23189507640.95735,
+      "total_control_inventory_J": 162.97233205121645
+    },
+    "chirp_margin": 2.0,
+    "final_max_abs_chirp_Hz": 4462880791.634084,
+    "pass": true,
+    "preliminary_max_abs_chirp_Hz": 4462880791.612103
+  },
+  "decision": {
+    "full_D3D_driven_adiabatic_closeout": true,
+    "prerequisites": true
+  },
+  "dual_ledger": {
+    "Y_rebuild_relerr": 5.4338021432648604e-08,
+    "conservative_ON_J": 127782438518.27162,
+    "conservative_source_ON_J": 121553840748.59897,
+    "exact_ON_J": 81541854973.71555,
+    "exact_identity_relerr": 0.0,
+    "exact_source_ON_J": 75313256865.5932,
+    "negative_interaction_binding_credit_J": 46240583883.00577,
+    "pass": true
+  },
+  "heavy_R_falsification": {
+    "fixed_theory_valid": false,
+    "mass_ratio": 5.934959833368983,
+    "positive_R_exact_energy_match_possible": false,
+    "rejected": true
+  },
+  "next": "031E_FULL_PHYSICAL_METRIC_EINSTEIN_BACKREACTION",
+  "path": {
+    "endpoint_identity_relerr_sum": 4.231177553140828e-09,
+    "forward_release_J": 15502703954.626587,
+    "pass": true,
+    "peak_above_OFF_J": 2.4887847900390625
+  },
+  "rwa": {
+    "forward": {
+      "fidelity": 0.9996270032432929,
+      "norm_error": 3.642974810702526e-12,
+      "steps": 22
+    },
+    "pass": true,
+    "reverse": {
+      "fidelity": 0.9996270032432929,
+      "norm_error": 3.642974810702526e-12,
+      "steps": 22
+    }
+  },
+  "same_mass_endpoints": {
+    "conservative_OFF_J": 97044558583.32407,
+    "conservative_ON_J": 127782438518.27162,
+    "conservative_ON_minus_OFF_J": 30737879934.947556,
+    "exact_OFF_J": 97044558583.32407,
+    "exact_ON_J": 81541854973.71555,
+    "exact_forward_release_J": 15502703609.60852,
+    "minimum_reversible_reset_work_J": 15502703954.626587
+  },
+  "scalarization_merger": {
+    "abs_lambda0": 1.629074428718589e-07,
+    "abs_u0": 7.438555308024617e-80,
+    "pass": true,
+    "qcrit": 0.0073107849271763815,
+    "qcrit_row_q": 0.00731078
+  }
+}

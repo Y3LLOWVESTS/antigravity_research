@@ -1,0 +1,55 @@
+{
+  "branch": "032V7_SHARED_SCAFFOLD_COMPACT_CHARGE_ORACLE",
+  "canonical_reference_j": 5324046687.1599865,
+  "certified_sub10mj_model_found": false,
+  "claim_class": "SOURCE_SIDE_ACTION_SCALING_ORACLE_NOT_ANTIGRAVITY_MODEL",
+  "decision": "GREEN_SHARED_SCAFFOLD_SCALING_REAL_BUT_TOO_WEAK_ALONE_AT_1E12_Q_RANGE",
+  "declared_dynamic_range_probe": {
+    "charge_scale_limit": 1000000000000.0,
+    "cpn_alone_10mj": false,
+    "cpn_alone_1mj": false,
+    "this_is_a_theorem_beyond_declared_range": false
+  },
+  "gain_required_10mj": 532.4046687159987,
+  "gain_required_1mj": 5324.0466871599865,
+  "mechanism_metrics_recorded": false,
+  "next": "032V8_COOPERATIVE_CHARGE_PLUS_SHARED_SCAFFOLD_ACTION_PREFLIGHT",
+  "physical_antigravity_model_found": false,
+  "reason_mechanism_metrics_absent": "NO_PHYSICAL_METRIC_GRAVITATIONAL_RESPONSE_ESTABLISHED",
+  "reporting": {
+    "action_oracle_count": 1,
+    "collective_scaling_count": 1,
+    "database_bytes": 63365120,
+    "mechanism_metric_count": 0,
+    "mechanism_pareto_count": 0,
+    "model_count": 101034,
+    "pareto_count": 0,
+    "rejection_count": 95591,
+    "stop_requested": false,
+    "survivor_count": 0
+  },
+  "scaling": {
+    "beneficial_collective_scaling": true,
+    "efficiency_exponent": 0.16666666666666663,
+    "energy_exponent": 0.8333333333333334,
+    "gain_at_charge_scale_1e12": 99.9999999999999,
+    "required_charge_scale_10mj": 2.277461956888989e+16,
+    "required_charge_scale_1mj": 2.277461956888997e+22,
+    "required_delta_10mj_at_1e12": 0.22718682126634576,
+    "required_delta_1mj_at_1e12": 0.31052015459967913,
+    "response_exponent": 1.0
+  },
+  "source_family": {
+    "canonical_invariant_id": "CANON_5e16a2e16e34696d016e920c",
+    "conditional_response_exponent": 1.0,
+    "efficiency_exponent": 0.16666666666666663,
+    "energy_exponent": 0.8333333333333334,
+    "family_id": "032V7_CPN_SHARED_SCAFFOLD_SOURCE",
+    "naturalness_screened": false,
+    "normalization_invariant": true,
+    "trusted_for_reachability": false,
+    "universal_metric_screened": false
+  },
+  "stretch_target_j": 1000000.0,
+  "strict_target_j": 10000000.0
+}

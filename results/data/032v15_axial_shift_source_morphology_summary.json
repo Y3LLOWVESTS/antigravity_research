@@ -1,0 +1,92 @@
+{
+  "agminer": {
+    "electron_rejection_candidate_id": "401589ce854eb8c561598808",
+    "hidden_oracle_priority": "ORACLE_PROVENANCE_INCOMPLETE",
+    "hidden_oracle_trusted_for_reachability": false,
+    "hidden_partial_oracle_candidate_id": "932ec43b3251427fad52daf5",
+    "mechanism_metrics_recorded": false,
+    "reporting": {
+      "action_oracle_count": 5,
+      "collective_scaling_count": 2,
+      "database_bytes": 63369216,
+      "mechanism_metric_count": 0,
+      "mechanism_pareto_count": 0,
+      "model_count": 101042,
+      "pareto_count": 0,
+      "rejection_count": 95595,
+      "stop_requested": false,
+      "survivor_count": 0
+    }
+  },
+  "branch": "032V15_ZERO_NET_SHIFT_DIPOLE_MICROSCOPIC_SOURCE_AND_MORPHOLOGY_GATE",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "MICROSCOPIC_SOURCE_EFT_INVENTORY_AND_MORPHOLOGY_PREFLIGHT",
+  "decision": "GREEN_MICROSCOPIC_SOURCE_INVENTORY_CORRIDOR_NOT_PHYSICAL_MODEL_SUPPORT_CONFINEMENT_STABILITY_EMPIRICAL_OPEN",
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "metric_scale_scan": {
+    "empirical_closure": false,
+    "empirical_lower_bound_mapped_to_this_exact_operator": false,
+    "exact_10mj_partial_floor_scale_ev": 104604.8958408001
+  },
+  "next": "032V16_HIDDEN_AXIAL_SOURCE_SELF_BINDING_SUPPORT_AND_MULTISOURCE_UNIFORMITY_GATE",
+  "open_costs": [
+    "CONFINEMENT_ABOVE_LAUE_DEC_LOWER_BOUND",
+    "POLARIZATION_OR_ACTIVATION",
+    "FORMATION_AND_RESET",
+    "NONLINEAR_SOURCE_STABILITY",
+    "RADIATION",
+    "OUTWARD_J0_UV_COMPLETION",
+    "FULL_EMPIRICAL_STELLAR_COSMOLOGY",
+    "FULL_METRIC_BACKREACTION"
+  ],
+  "optimized_morphology": {
+    "a_m": 0.25740088555864965,
+    "c_m": 0.09659120999271102,
+    "energy_convergence_relerr": 3.244898857556306e-14,
+    "full_axial_length_m": 0.19318241998542204,
+    "payload_cm_quadrature_relerr": 7.398356416418967e-16,
+    "payload_cm_volume_average_m_s2": 48.020309901751446,
+    "q": 9.117449122814854e-08,
+    "q_convergence_relerr": 1.6112760796417e-14,
+    "source_top_to_payload_near_surface_gap_m": 0.1,
+    "surface_max_m_s2": 192.79545346809093,
+    "surface_min_m_s2": 9.80665,
+    "surface_nonuniformity": 19.65966496898441
+  },
+  "ordinary_electron_control": {
+    "closed_for_10mj": true,
+    "f_e_ev": 203320.02201817068,
+    "optimistic_rest_energy_floor_j": 52950586745481.23,
+    "particle_number": 6.467558645080246e+26
+  },
+  "physical_antigravity_model_found": false,
+  "primary_100kev_inventory": {
+    "axial_efficiency": 0.8661733086868848,
+    "complete_operating_ledger": false,
+    "f_psi_ev": 62.661384197111325,
+    "gp_equivalent": 5.026548245743667,
+    "hard_scale_margin": 5.0,
+    "hidden_fermion_energy_j": 7318801.104829985,
+    "laue_dec_pressure_support_floor_j": 892663.9762636849,
+    "loop_proxy_gp2_over_16pi2": 0.1599999999999999,
+    "m_psi_ev": 157.48523540592993,
+    "mass_over_pf": 1.0,
+    "metric_scale_ev": 100000.0,
+    "nda_cutoff_ev": 787.4261770296499,
+    "p_f_ev": 157.48523540592993,
+    "partial_conservative_floor_j": 8352028.24833814,
+    "particle_number": 2.3012055611693173e+23,
+    "remaining_to_strict_10mj_j": 1647971.7516618604,
+    "scalar_total_energy_j": 140563.1672444695,
+    "source_plus_field_fraction": 0.8931200961345761
+  },
+  "source_action": {
+    "exact_shift_symmetric": true,
+    "interaction": "dphi_mu_J5_mu_over_fpsi",
+    "leading_exterior_multipole": "DIPOLE",
+    "net_scalar_monopole": 0.0,
+    "self_bound_solution": false,
+    "source_field": "HIDDEN_DIRAC_FERMION",
+    "uniform_polarization": true
+  }
+}

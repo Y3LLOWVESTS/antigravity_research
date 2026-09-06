@@ -1,0 +1,18 @@
+{
+  "branch": "032A",
+  "claim": "AGMINER_INFRASTRUCTURE_ONLY",
+  "cli_stop": true,
+  "concurrent_readonly_inspection": true,
+  "configurable_target": true,
+  "crash_recovery": true,
+  "duplicate_replay_skip": true,
+  "energy_objective": "E_CONservative_complete_operating < 10 MJ",
+  "exact_10_mj": "REJECT",
+  "full_regression_tests": 123,
+  "numerical_interruption_is_physics_nogo": false,
+  "pareto_reproducible": true,
+  "real_032_physics_search_performed": false,
+  "resume": true,
+  "sigterm_graceful_stop": true,
+  "status": "FROZEN_GREEN"
+}

@@ -1,0 +1,39 @@
+{
+  "032K": {
+    "external_compact_source_fifth_force": 0.0,
+    "full_nonultralocal_kinetic_conformal_class_closed": false,
+    "local_extended_gradient_repulsion_possible": true,
+    "mechanism": "KINETIC_CONFORMAL_GOLDSTONE_ULTRALOCAL_MATTER_BRANCH",
+    "published_ultralocal_standoff_branch_closed": true,
+    "reason": "FIFTH_FORCE_DEPENDS_ONLY_ON_LOCAL_DENSITY_AND_LOCAL_DENSITY_GRADIENT",
+    "true_standoff_external_source": false
+  },
+  "032L": {
+    "dynamic_branch_closed": false,
+    "leading_potential_power_r": -7,
+    "leading_potential_sign": "NEGATIVE_ATTRACTIVE",
+    "mechanism": "SOFT_DBI_MINIMAL_UNIVERSAL_STATIC_BRANCH",
+    "sign_depends_on_alpha_squared": true,
+    "static_minimal_branch_closed": true
+  },
+  "032M": {
+    "dynamic_branch_closed": false,
+    "leading_potential_power_r": -11,
+    "leading_potential_sign": "NEGATIVE_ATTRACTIVE",
+    "mechanism": "SPECIAL_GALILEON_MINIMAL_UNIVERSAL_STATIC_BRANCH",
+    "sign_depends_on_alpha_squared": true,
+    "static_minimal_branch_closed": true
+  },
+  "branch": "032K_032M_FRONTIER_ANALYTIC_GATES",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "ANALYTIC_FRONTIER_FALSIFICATION",
+  "energy_comparison": "LT",
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "energy_target_j": 10000000.0,
+  "next": "032N_PROPAGATING_PROTECTED_DERIVATIVE_METRIC_PREFIELD",
+  "old_014_disformal_reopened": false,
+  "payload_radius_m": 0.1,
+  "required_delta_lnA_across_payload_diameter": 2.1822739344396436e-17,
+  "required_grad_lnA_per_m_for_1g": 1.0911369672198217e-16,
+  "target_acceleration_mps2": 9.80665
+}
