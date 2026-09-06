@@ -1,0 +1,139 @@
+{
+  "axial_quantum": {
+    "b_over_m": 0.8606974981954254,
+    "f_psi_ev": 22.513005017150324,
+    "fixed_order_rg_control": false,
+    "flavors": 116,
+    "gap_ev": 1.0020836646837745,
+    "leading_log_delta_z_proxy": 4.406316116902939,
+    "nda_cutoff_ev": 282.90676468843844,
+    "renormalized_fermion_determinant_complete": false,
+    "strict_b_below_m": true
+  },
+  "branch": "032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "PHYSICAL_SUPPORT_ACTION_PREFLIGHT_AND_QUANTUM_UV_FALSIFICATION",
+  "decision": "GREEN_FALSE_VACUUM_BAG_SUPPORT_ACTION_PREFLIGHT_GREEN_STATIC_SUB4MJ_CORRIDOR_GREEN_SPACELIKE_AXIAL_GAP_RED_FIXED_ORDER_RG_UV_RENORMALIZED_VACUUM_STABILITY_EMPIRICAL_OPEN",
+  "empirical_uv": {
+    "bbn_cosmology_hidden_thermalization": "OPEN_REQUIRES_UV_MATCHING",
+    "candidate_metric_scale_ev": 23971.29870009097,
+    "direct_tev_contact_bound_transfer_to_candidate": false,
+    "empirical_pass": false,
+    "kinetic_conformal_contact_operator_has_collider_searches": true,
+    "low_energy_ep_fifth_force_clock_atomic": "OPEN",
+    "max_contact_eft_transfer_ev": 301232.2235728494,
+    "max_reference_gstar": 12.566370614359172,
+    "one_tev_transfer_over_contact_validity": 3319697.9663703274,
+    "stellar_supernova": "OPEN_REQUIRES_UV_ABOVE_CUTOFF",
+    "uv_completion_must_be_confronted_with_collider_data": true
+  },
+  "energy": {
+    "certified_sub10mj": false,
+    "complete_operating_ledger": false,
+    "cw_additive_worst_case_scout_j": 4237473.6568968715,
+    "cw_is_not_to_be_double_counted_with_bag_constant": true,
+    "reference_static_preflight_j": 3440044.359260186,
+    "remaining_to_strict_10mj_j": 6559955.640739813
+  },
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "gate_status": {
+    "complete_operating_energy": "NOT_ESTABLISHED",
+    "empirical_closure": "OPEN",
+    "fixed_order_rg": "RED",
+    "l2_shape_stability": "YELLOW_SCOUT",
+    "outward_c1_uv_completion": "OPEN_RED_BLOCKER",
+    "physical_support_action_prefight": "GREEN",
+    "radial_stability": "YELLOW_CONDITIONAL",
+    "renormalized_axial_vacuum": "YELLOW_OPEN",
+    "spacelike_axial_gap": "GREEN",
+    "support_energy_corridor": "GREEN_PARTIAL",
+    "support_trace_loading": "GREEN_SCOUT"
+  },
+  "next": "032V19R1_COUPLED_CHI_PSI_PHI_SPHERICAL_BAG_EQUILIBRIUM_RG_AND_MODE_GATE",
+  "physical_antigravity_model_found": false,
+  "reference_mass_barrier": {
+    "decay_length_m": 1.0899005264018188e-08,
+    "evanescent_kappa_ev": 18.105044966943204,
+    "m0_ev": 33.28588621311313,
+    "macroscopic_confinement_ratio": 9175149.252394482,
+    "outside_mass_ev": 59.378192614647695,
+    "outside_mass_over_mu": 1.05,
+    "yukawa": 0.0006119884473810971
+  },
+  "reference_support": {
+    "anisotropy_reserve_floor_j": 1357.6497058875393,
+    "area_m2": 0.12566370614359174,
+    "bag_energy_density_j_m3": 189482140.74090326,
+    "bag_energy_j": 793700.9351174519,
+    "bag_fraction": 0.95,
+    "equatorial_required_tension_j_m2": 490534.33766308875,
+    "extra_above_v18_floor_j": 20886.86671361723,
+    "full_pressure_split_j": 2036.474558831309,
+    "mean_pressure_inventory_j": 835474.6685446863,
+    "mean_pressure_pa": 199454884.99042448,
+    "polar_required_tension_j_m2": 514842.9621020049,
+    "radius_m": 0.1,
+    "support_over_v18_floor": 1.0249594408080247,
+    "support_preflight_j": 857719.184964191,
+    "tension_anisotropy_ratio": 1.0495553982106995,
+    "volume_m3": 0.004188790204786391,
+    "wall_energy_j": 62660.60014085153,
+    "wall_pressure_pa": 9972744.249521233,
+    "wall_tension_j_m2": 498637.21247606166
+  },
+  "reference_wall": {
+    "degenerate_barrier_ev4": 2272210197893.5986,
+    "lambda": 2.750625802927001e-06,
+    "mediator_below_axial_nda_cutoff": true,
+    "mediator_mass_ev": 100.0,
+    "potential_min_ev4_on_scan": 5.044260812985119e-10,
+    "potential_positive_with_tolerance": true,
+    "surface_tension_ev3": 121184543887.65858,
+    "vev_ev": 42635.29240329986,
+    "wall_thickness_m": 3.946539608e-09
+  },
+  "stability_scout": {
+    "conditional_radial_gamma_threshold": 0.050000000000000044,
+    "exact_fixed_number_gamma_measured": false,
+    "l2_stiffness_to_anisotropy_floor": 36.922985285008124,
+    "l2_wall_stiffness_j": 50128.48011268122,
+    "radial_l0_certified": false,
+    "shape_l2_certified": false,
+    "translation_l1": "WHOLE_BAG_GOLDSTONE_EXPECTED_RELATIVE_MODES_OPEN"
+  },
+  "support_action": {
+    "architecture": "FRIEDBERG_LEE_FALSE_VACUUM_FERMION_BAG",
+    "canonical_positive_energy_scalar": true,
+    "false_vacuum_negative_pressure": true,
+    "false_vacuum_positive_energy": true,
+    "finite_wall": true,
+    "full_coupled_solution_constructed": false,
+    "hidden_fermion_yukawa_mass_barrier": true,
+    "known_action_class_has_soliton_literature": true
+  },
+  "support_quantum_naturalness": {
+    "cw_natural_scale_proxy_j": 797429.2976366858,
+    "cw_proxy_is_automatically_additive_energy": false,
+    "cw_to_bag_energy_ratio": 1.0046974399982056,
+    "delta_lambda_over_lambda": 3.746102397330576e-08,
+    "delta_lambda_proxy": 1.0304125914504179e-13,
+    "delta_m2_ev2_proxy": 0.02201969876551433,
+    "delta_m2_over_m2": 2.201969876551433e-06,
+    "renormalized_vacuum_sign_and_counterterm_matching": "OPEN"
+  },
+  "support_trace_loading": {
+    "bag_epsilon": 2.752016573769207e-11,
+    "small_in_reference_scout": true,
+    "wall_local_epsilon": 1.8350630166385564e-05
+  },
+  "v18_reconstruction": {
+    "complete_operating_ledger": false,
+    "field_energy_j": 2545.59319853775,
+    "metric_scale_ev": 23971.29870009097,
+    "occupied_band_energy_j": 2579779.581097457,
+    "partial_conservative_floor_j": 3419157.4925465686,
+    "support_floor_j": 836832.3182505738,
+    "surface_max_m_s2": 943.8365530529343,
+    "surface_min_m_s2": 9.80665
+  }
+}
