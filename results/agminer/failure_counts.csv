@@ -17,6 +17,11 @@ T_UV_COMPLETE_ON_YUKAWA_ATTRACTIVE,analytic_precheck,64
 E002,historical_energy_control,7
 N003,naturalness,2
 E003,ordinary_electron_microscopic_source_rest_energy_floor,1
+N004,axial_dirac_selfconsistent_source_cutoff_margin,1
+N005,controlled_nr_stoner_loop_conflict,1
+N006,axial_fixed_order_wavefunction_running_control,1
+N007,sphere_geometry_demag_loop_remap,1
+N008,sphere_fixed_order_wavefunction_running_control,1
 P001,asymmetron_external_wall_sign,1
 P002,kinetic_conformal_static_external_sign,1
 P003,regular_static_shift_current_no_source,1

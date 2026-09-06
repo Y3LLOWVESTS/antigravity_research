@@ -98509,3 +98509,2980 @@ We are no longer primarily asking:
 ### THIS NOTE WAS NOT COMPLETED WE RAN OUT OF TOKENS IN THE LAST SESSION SO DO THE BEST THAT YOU CAN TO RECONSTRUCT WHERE WE LEFT OFF
 
 ### END NOTE - SEPTEMBER 5 2026 - 16:40 CST
+
+
+### BEGIN NOTE - SEPTEMBER 5 2026 - 23:50 CST
+
+# ANTIGRAVITY_RESEARCH — Comprehensive Carryover Notes
+
+**Session date:** September 5–6, 2026
+**Current frontier:** 032V18
+**Immediate next run:** `032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE`
+**Current full regression:** **238 passed**
+**Formal practical-energy policy:** `ENERGY_ab8c16e45c837ffc`
+**Required pass condition:** `E_CONSERVATIVE_COMPLETE_OPERATING < 1.0e7 J`
+**Exactly 10 MJ does not pass.**
+
+---
+
+# 1. Executive state at end of session
+
+This session materially changed the character of the AGMINER program.
+
+We are **no longer primarily tuning a generic miner or blindly searching enormous model spaces**. AGMINER is now mature enough that most work is candidate-specific: it is being used as a theorem/oracle/falsification framework around one unusually promising architecture.
+
+The active candidate architecture is now:
+
+```text
+SHIFT-SYMMETRIC KINETIC-CONFORMAL UNIVERSAL PHYSICAL METRIC
++
+ZERO-NET STATIC DERIVATIVE SOURCE
++
+HIDDEN FERMION AXIAL CURRENT
++
+FINITE-PAYLOAD METRIC RESPONSE
+```
+
+Schematically,
+
+```math
+g^{\rm phys}_{\mu\nu}=A^2(X)g_{\mu\nu},
+```
+
+with the desired static branch equivalent at low energy to
+
+```math
+A \simeq 1+\frac{|\nabla\phi|^2}{2M^4}.
+```
+
+The hidden microscopic source uses the exact-shift-symmetric derivative interaction
+
+```math
+\mathcal L_{\rm src}
+=
+\frac{1}{f_\Psi}
+\partial_\mu\phi\,
+\bar\Psi\gamma^\mu\gamma^5\Psi .
+```
+
+A regular isolated strictly static **scalar monopole** is now analytically closed under the declared positive-current assumptions. The surviving static route is a **zero-net derivative source**, whose leading exterior field is dipolar.
+
+The branch has advanced from abstract operator selection to:
+
+* published operator/action provenance;
+* correct outward finite-payload sign;
+* exact zero-net source topology;
+* explicit hidden-fermion microscopic source EFT;
+* exact positive-energy Dirac-band mean-field calculation;
+* finite-payload surface and volume observables;
+* matter-trace payload backreaction;
+* source-reaction diagnostics;
+* support stress lower bounds;
+* canonical-rescaling/RG diagnostics;
+* empirical/UV provenance classification.
+
+However:
+
+```text
+PHYSICAL_ANTIGRAVITY_MODEL_FOUND=NO
+CERTIFIED_SUB10MJ_MODEL_FOUND=NO
+```
+
+There is still **no certified physical model or practical device**.
+
+The strongest current energy corridors are:
+
+```text
+V17 OBLATE HIGH-LEVERAGE FRONTIER:
+    ~59.4197 kJ partial
+
+V18 SPHERICAL SUPPORT-FRIENDLY FRONTIER:
+    ~3.41916 MJ partial
+```
+
+Neither is a complete operating-energy ledger.
+
+The 59.4-kJ number is particularly important but must remain described as:
+
+```text
+EXACT FINITE-PAYLOAD PARTIAL CORRIDOR
+NOT A COMPLETE MODEL ENERGY
+NOT TRUSTED FOR REACHABILITY
+```
+
+The primary blocker has shifted dramatically. Earlier programs were dominated by enormous classical/source energy. The active problem is now principally:
+
+```text
+UV/RG MATCHING
++
+QUANTUM VACUUM/CANONICALIZATION
++
+PHYSICAL SUPPORT/CONFINEMENT
++
+EMPIRICAL CLOSURE
++
+NONLINEAR STABILITY
+```
+
+rather than merely generating enough classical outward response.
+
+---
+
+# 2. Protected historical state that must continue to be preserved
+
+Do not erase or supersede the established conservative anchors.
+
+## 006D
+
+Still the strongest conservative pure-GR true-stand-off architecture:
+
+* finite positive energy;
+* locally conserved source;
+* DEC;
+* outward near gravity;
+* positive far-field active mass;
+* finite thickness;
+* coefficient
+
+```math
+C=23.591586299249.
+```
+
+No pure-GR mechanism tested has removed
+
+```math
+E=C\frac{ac^2h^2}{G}.
+```
+
+At 1g, 1 m, C=1 this remains approximately
+
+```text
+1.32e28 J.
+```
+
+## 018
+
+* 018B established microscopic field existence.
+* 018C found fatal `m=2` instability.
+* Protected-vector realizations through 022A remain closed.
+
+## Older B7/026 microscopic GR field
+
+Preserve the false-core
+
+```text
+B=7, eta=0.4, m=8
+```
+
+Skyrmion result.
+
+026A/026B-R4 established stationarity/topology/DEC/positive active mass/outward finite-payload sign.
+
+Force convergence remained unresolved:
+
+```text
+F65 ~ 0.1893
+F73 ~ 1.9664
+F81 ~ 7.2641
+```
+
+026C N=89 remained mandatory in that branch.
+
+006D remains the stronger conservative stand-off architecture.
+
+## Introspective program
+
+This is mechanism knowledge, not a physical field.
+
+Preserve:
+
+```text
+conserved-DEC headroom     ~12.8–17.9x
+raw teacher headroom       ~17,230x
+RAW_GE1000X_SIGNAL         = PRESENT
+CERTIFIED_GE1000X_CONTINUUM_SOURCE = NO
+```
+
+Durable lessons:
+
+* high payload-kernel leverage;
+* compact productive structure near payload;
+* high response per joule;
+* low cancellation;
+* high productive participation;
+* separate productive structure from scaffolding/support.
+
+Approximately:
+
+```text
+19.7% of teacher energy
+-> ~92.2% of gross outward influence.
+```
+
+026P showed B7 had only ~5.15% negative-active participation versus ~50% relaxed teacher participation, an approximately 9.7× participation gap.
+
+These lessons directly motivated the compact payload-adjacent 032V13–V18 architecture.
+
+## Closed 024–030 classes
+
+Do not reopen without genuinely new physics.
+
+* 027B reduced C≈3.08 but support/virial closure killed architecture.
+* 028 tested local scalar-gain routes closed.
+* 029 no viable massive-spin-2 source.
+* 030 pulsing/GW/memory failed to escape pure-GR 1/G burden.
+
+## 031
+
+Activated scalar-metric branch remains important historical context.
+
+* prescribed-source benchmark ~82.75 GJ;
+* minimal B7 scalar dressing closed at ~575 GJ;
+* global U(1) Q-ball centered ~273 GJ;
+* morphology candidate ~96.141 GJ;
+* coupled-linear stability work completed through translation-mode resolution;
+* 031F0 unprotected ultralight scalar radiative/naturalness result killed the current implementation.
+
+Do not reopen the unprotected ultralight scalar implementation absent genuine protection.
+
+---
+
+# 3. Starting point of this session
+
+At the beginning of the current focused sequence, AGMINER had reached:
+
+```text
+032V12_LOCAL_METRIC_ACTIVE_SOURCE_OPERATOR_ATLAS
+```
+
+The top prefield operator was:
+
+```text
+SHIFT_SYMMETRIC_X_DEPENDENT_CONFORMAL_METRIC
+```
+
+General metric form considered:
+
+```math
+g^{\rm phys}_{\mu\nu}
+=
+C(X)g_{\mu\nu}
++
+D(X)\partial_\mu\phi\partial_\nu\phi.
+```
+
+Critical V12 result:
+
+For a strictly static scalar,
+
+```math
+\partial_0\phi=0,
+```
+
+so a purely static disformal term cannot itself change `g00`.
+
+However, a kinetic conformal factor `C(X)` can change `g00` because spatial scalar gradients alter `X`.
+
+Define a positive static spacelike kinetic variable `Y>=0`, decreasing away from the source:
+
+```math
+\frac{dY}{dr}<0.
+```
+
+Then in the weak field:
+
+```math
+a_r
+=
+-\frac{c^2}{2}
+\frac{d\ln C}{dY}
+\frac{dY}{dr}.
+```
+
+Outward acceleration therefore requires:
+
+```math
+\frac{d\ln C}{dY}>0.
+```
+
+This became the core V13 sign gate.
+
+---
+
+# 4. 032V13 — kinetic-conformal finite-payload / energy / source-existence oracle
+
+Run:
+
+```text
+032V13_SHIFT_SYMMETRIC_KINETIC_CONFORMAL_FINITE_PAYLOAD_ENERGY_EMPIRICAL_ORACLE
+```
+
+## Initial implementation issue
+
+The first V13 run did **not** fail scientifically.
+
+The script writer failed because a Perl literal used `q~...~` while the embedded Python source contained literal `~` characters such as:
+
+```text
+phi ~ q/r
+```
+
+Perl terminated its quoted string early and produced a broken/empty simulation file.
+
+Important interpretation:
+
+```text
+BASELINE = CLEAN
+NEW UNIT TESTS = CLEAN
+SCRIPT SERIALIZATION = FAILED
+PHYSICS = NOT TESTED IN THAT FAILED ATTEMPT
+```
+
+The repair rewrote the simulation safely and V13 then ran correctly.
+
+## Regression state
+
+After V13:
+
+```text
+193 passed
+```
+
+## Published/static sign audit
+
+Tested:
+
+### Brax–Valageas minimal Goldstone coupling
+
+Published minimal:
+
+```math
+A(\chi)=1+\chi.
+```
+
+For static spacelike field:
+
+```math
+\chi=-Y,
+```
+
+therefore
+
+```math
+C=(1-Y)^2
+```
+
+and
+
+```text
+BV_LINEAR_STATIC_OUTWARD=False
+```
+
+for the localized branch.
+
+### Zumalacárregui–García-Bellido exponential transformation
+
+Static derivative-conformal probe:
+
+```math
+C=e^{-Y}
+```
+
+gave inward sign.
+
+### ZGB Gaussian probe
+
+```math
+C=e^{-Y^2/2}
+```
+
+also gave inward sign.
+
+### Outward-sign target
+
+The sign-flipped target
+
+```math
+A=1-\chi
+```
+
+becomes
+
+```math
+A=1+Y
+```
+
+for static spacelike `chi=-Y`, hence
+
+```math
+C=(1+Y)^2.
+```
+
+This produced:
+
+```text
+OUTWARD_SIGN_TARGET_STATIC_OUTWARD=True
+```
+
+but remained **not UV certified**.
+
+## Static exact-shift no-source theorem
+
+For a regular isolated static exact-shift-symmetric branch with
+
+```math
+\nabla\cdot
+\left(
+Z_{\rm eff}\nabla\phi
+\right)=0
+```
+
+and
+
+```text
+Z_eff > 0
+regular field
+phi -> constant at infinity
+zero imposed boundary flux
+no explicit shift-current source
+no defect/topological sector
+no time-dependent shift background
+```
+
+multiplication by `phi-phi_infinity` and integration gives
+
+```math
+\int Z_{\rm eff}|\nabla\phi|^2 dV=0.
+```
+
+Hence
+
+```math
+\nabla\phi=0.
+```
+
+Result:
+
+```text
+STATIC_POSITIVE_SHIFT_CURRENT_NO_SOURCE_THEOREM=True
+```
+
+This closed only the declared **regular static positive-current source branch**, not all kinetic-conformal models.
+
+Explicit remaining theorem evasions:
+
+```text
+FINITE_LOCAL_SHIFT_CURRENT_SOURCE
+IMPOSED_BOUNDARY_FLUX
+TOPOLOGICAL_OR_DEFECT_SECTOR
+TIME_DEPENDENT_SHIFT_BACKGROUND
+KINETIC_CRITICAL_SURFACE_WITH_SEPARATE_HEALTH_GATE
+```
+
+## Counterfactual monopole exterior oracle
+
+Assuming a legitimate source could later generate
+
+```math
+\phi\sim q/r,
+```
+
+the counterfactual bare exterior scalar energy at `M=100 keV` was:
+
+```text
+73.194775 kJ
+```
+
+Formal scale corresponding to exactly 10 MJ bare exterior energy:
+
+```text
+341.884947 keV
+```
+
+Formal 1 MJ scale:
+
+```text
+192.256034 keV
+```
+
+These were deliberately marked incomplete.
+
+Finite payload geometry:
+
+```text
+payload mass       = 1 kg
+payload radius     = 0.10 m
+source radius      = 0.10 m
+gap                = 0.10 m
+```
+
+Payload results:
+
+```text
+surface min       = 9.80665 m/s²
+surface max       = 313.8128 m/s²
+surface ratio     = 32.0
+volume-average    = 51.12069497 m/s²
+```
+
+The field was extremely nonuniform.
+
+## New AGMINER failure memory
+
+Added:
+
+```text
+P002
+gate = kinetic_conformal_static_external_sign
+```
+
+for the published minimal Brax–Valageas static spacelike branch.
+
+Added:
+
+```text
+P003
+gate = regular_static_shift_current_no_source
+```
+
+for the desired regular static sign-flipped branch under the theorem assumptions.
+
+## V13 decision
+
+```text
+RED_MINIMAL_REGULAR_STATIC_KINETIC_CONFORMAL_SOURCE
+GREEN_OUTWARD_SIGN_TARGET_ONLY
+```
+
+The outward operator survived.
+
+The regular static monopole source did not.
+
+---
+
+# 5. 032V14 — zero-net derivative-source / scalar-dipole architecture
+
+Run:
+
+```text
+032V14_OUTWARD_WILSON_SIGN_AND_FINITE_SHIFT_CHARGE_SOURCE_PREFLIGHT
+```
+
+Regression:
+
+```text
+201 passed
+```
+
+## Key conceptual change
+
+Instead of forcing the forbidden static monopole, V14 tested an exact-shift-symmetric compact derivative source:
+
+```math
+\mathcal L_{\rm int}=J^\mu\partial_\mu\phi.
+```
+
+Variation produces a source proportional to
+
+```math
+-\partial_\mu J^\mu.
+```
+
+For a static compact current vanishing at infinity:
+
+```math
+\int d^3x\,\partial_iJ^i=0.
+```
+
+Therefore:
+
+```text
+net scalar monopole charge = 0
+```
+
+but nonzero multipoles are allowed.
+
+The leading useful exterior field is then a **dipole**.
+
+This was the correct static loophole to the V13 theorem.
+
+## Wilson-sign / positivity result
+
+The desired derivative-conformal trace coupling lies in the scalar `j=0` dimension-8 sector.
+
+Jiang et al. 2024 showed their leading forward `s²` positivity constraints act on the `j=2` coefficients but do not constrain the `j=0` scalar operators at that order.
+
+Therefore:
+
+```text
+J0_OUTWARD_SIGN_FORWARD_POSITIVITY_KILL=False
+```
+
+but:
+
+```text
+OUTWARD_SIGN_UV_COMPLETION_PROVED=False
+```
+
+No positivity kill is not the same as a UV completion.
+
+## Dipole exterior field
+
+For dipole aligned along z:
+
+```math
+Y(r,\theta)
+=
+B\frac{1+3\cos^2\theta}{r^6}.
+```
+
+With the target
+
+```math
+A=1+Y,
+```
+
+the 100-keV canonical exterior field cost was:
+
+```text
+130.124045 kJ
+```
+
+This is only ~1.78× the V13 monopole exterior field.
+
+Headroom to strict 10 MJ:
+
+```text
+76.8497x
+```
+
+Exact bare-field 10-MJ scale:
+
+```text
+296.081049 keV
+```
+
+Exact 1-MJ scale:
+
+```text
+166.498610 keV
+```
+
+Finite payload:
+
+```text
+surface min        = 9.80665 m/s²
+surface max        = 1255.2512 m/s²
+surface ratio      = 128
+volume-average     = 112.695538 m/s²
+```
+
+The static dipole source topology survived, but field uniformity became worse.
+
+## V14 source-route ranking
+
+Stored ranking:
+
+```text
+1 STATIC_COMPACT_ZERO_NET_DERIVATIVE_MULTIPOLE
+    GREEN_PREFIELD
+
+2 TIME_LINEAR_SHIFT_BACKGROUND
+    OPEN_SECONDARY
+
+3 PHYSICAL_BOUNDARY_FLUX
+    OPEN_WITH_SOURCE_SURFACE_LEDGER
+
+4 TOPOLOGICAL_OR_DEFECT_SECTOR
+    LOW_PRIORITY_OPEN
+
+98 KINETIC_CRITICAL_Z_ZERO
+    RED_UNLESS_INDEPENDENT_HEALTH_PROOF
+
+99 REGULAR_STATIC_NET_MONOPOLE
+    CLOSED
+```
+
+This ranking should remain unless new evidence changes it.
+
+---
+
+# 6. 032V15 — explicit hidden-fermion axial-current microscopic source
+
+Run:
+
+```text
+032V15_ZERO_NET_SHIFT_DIPOLE_MICROSCOPIC_SOURCE_AND_MORPHOLOGY_GATE
+```
+
+Regression:
+
+```text
+210 passed
+```
+
+## Explicit microscopic source action
+
+Introduced hidden Dirac fermion `Psi` with
+
+```math
+\mathcal L_{\rm src}
+=
+\frac{1}{f_\Psi}
+\partial_\mu\phi
+\bar\Psi\gamma^\mu\gamma^5\Psi .
+```
+
+Important properties:
+
+```text
+exact scalar shift symmetry = YES
+zero-net scalar monopole = YES
+leading exterior field = DIPOLE
+```
+
+This was the first explicit microscopic action in the current 032V13+ architecture.
+
+## Morphology optimization
+
+Uniformly polarized spheroid beneath the payload.
+
+Source top fixed at `z=0`.
+
+Optimized dimensions:
+
+```text
+a = 0.2574008856 m
+c = 0.0965912100 m
+full axial length = 0.1931824200 m
+```
+
+Payload:
+
+```text
+radius = 0.10 m
+near surface begins at z=0.10 m
+center z=0.20 m
+```
+
+Optimized source strength:
+
+```text
+q = 9.1174491228e-8
+```
+
+Finite-payload result:
+
+```text
+surface min        = 9.80665 m/s²
+surface max        = 192.795453 m/s²
+surface ratio      = 19.6597
+volume-average     = 48.020310 m/s²
+```
+
+This dramatically improved the V14 128× nonuniformity.
+
+## V15 100-keV positive-component inventory
+
+At:
+
+```text
+M = 100 keV
+hard-scale margin = 5
+mPsi/pF = 1
+```
+
+V15 obtained:
+
+```text
+scalar field             = 0.140563 MJ
+hidden fermions          = 7.318801 MJ
+Laue/DEC support floor   = 0.892664 MJ
+---------------------------------------
+partial floor            = 8.352028 MJ
+remaining to 10 MJ       = 1.647972 MJ
+```
+
+Microscopic parameters:
+
+```text
+fPsi            = 62.661384 eV
+pF              = 157.485235 eV
+mPsi            = 157.485235 eV
+N hidden        = 2.3012056e23
+NDA cutoff      = 787.426177 eV
+declared margin = 5.0
+g_p equivalent  = 5.026548
+loop proxy      = 0.16
+```
+
+Formal partial 10-MJ metric scale:
+
+```text
+104.604896 keV
+```
+
+## Ordinary-electron implementation closed
+
+Even under an extremely optimistic rest-energy-only estimate:
+
+```text
+ordinary electron floor
+= 5.2950587e13 J
+= 52.9506 TJ
+```
+
+This is far above the formal 10-MJ objective.
+
+Added failure:
+
+```text
+E003
+gate = ordinary_electron_microscopic_source_rest_energy_floor
+```
+
+Do not spend time trying to realize this architecture with ordinary polarized electrons.
+
+## V15 status after later V16 correction
+
+V15's externally prescribed source calculation remains useful as a preflight.
+
+However the **minimal free single-species state was later invalidated by self-consistent fermion response**.
+
+Therefore do not quote 8.352 MJ as the current source-complete candidate.
+
+---
+
+# 7. Action/Hamiltonian correction identified after V15
+
+For the derivative-current source action,
+
+```math
+\mathcal L_{\rm src}
+=
+\frac{1}{f_\Psi}
+\partial_i\phi J_5^i,
+```
+
+the field interaction must be included on shell.
+
+A naive decomposition that independently adds scalar-field energy and source interaction can double count.
+
+The correct subsequent V16 treatment diagonalized the fermion bands in the axial background. Those exact occupied positive-band energies already contain the axial interaction.
+
+Therefore the later ledger rule became:
+
+```text
+occupied exact Dirac-band energy
++
+positive canonical scalar field energy once
++
+support stress-energy
+```
+
+Do not separately add a second axial interaction term to V16+ ledgers.
+
+---
+
+# 8. 032V16 — exact axial Dirac mean-field self-consistency
+
+Run:
+
+```text
+032V16_AXIAL_DIRAC_MEAN_FIELD_SELF_CONSISTENCY_GATE
+```
+
+Regression:
+
+```text
+219 passed
+```
+
+This run repaired the central V15 approximation.
+
+## Exact local positive-energy Dirac branches
+
+For static spacelike axial background `b`:
+
+```math
+E_\pm^2
+=
+p_\perp^2+
+\left(
+\sqrt{p_z^2+m_\Psi^2}\pm b
+\right)^2 .
+```
+
+Current and fermion occupation were solved self-consistently instead of imposing 100% free-gas polarization.
+
+## V15 minimal single-flavor state killed
+
+Using the old V15 parameters produced:
+
+```text
+b              = 8.8030045 eV
+required mu    = 1048.971008 eV
+NDA cutoff     = 787.426177 eV
+actual margin  = 0.750665
+```
+
+The old source therefore operated **above its own declared EFT cutoff**.
+
+Exact V16 partial mean-field cost became approximately:
+
+```text
+22.089191857 GJ
+```
+
+Result:
+
+```text
+OLD_V15_MINIMAL_SINGLE_FLAVOR_MEANFIELD=RED
+```
+
+Added:
+
+```text
+N004
+gate = axial_dirac_selfconsistent_source_cutoff_margin
+```
+
+## Controlled nonrelativistic spontaneous-polarization no-go
+
+In the controlled NR limit:
+
+```math
+S
+=
+4N_z\frac{p_F}{m_\Psi}L,
+```
+
+where
+
+```math
+L
+=
+\frac{N_fm_\Psi^2}{4\pi^2f_\Psi^2}.
+```
+
+Spontaneous polarization requires approximately:
+
+```math
+S>1.
+```
+
+For the V15 morphology with:
+
+```text
+pF/m <= 0.5
+L <= 0.5
+```
+
+the maximum is:
+
+```text
+Smax = 0.605003
+```
+
+and the minimum required loop proxy is:
+
+```text
+Lmin = 0.826442
+```
+
+Therefore:
+
+```text
+CONTROLLED_NR_SPONTANEOUS_POLARIZATION=RED
+```
+
+Flavor multiplicity does not evade this relation.
+
+Added:
+
+```text
+N005
+gate = controlled_nr_stoner_loop_conflict
+```
+
+## Important AGMINER anti-shortcut result
+
+After nondimensionalizing the exact mean-field equations:
+
+```text
+energy at fixed dimensionless state
+    independent of Nf
+
+loop proxy
+    independent of Nf
+
+hard cutoff margin
+    scales as sqrt(Nf)
+```
+
+Therefore AGMINER must **never interpret more hidden flavors as a free energy-saving lever**.
+
+Result:
+
+```text
+FLAVOR_ENERGY_SHORTCUT=CLOSED
+```
+
+## V16 exact tree-level positive-band Pareto
+
+### Loop cap 0.20
+
+```text
+partial floor  = 40.770184 MJ
+Nf             = 33
+hard margin    = 5.008
+```
+
+Fails formal energy target.
+
+### Loop cap 0.25
+
+```text
+partial floor  = 10.101828 MJ
+Nf             = 19
+hard margin    = 5.060
+```
+
+Just above 10 MJ.
+
+Still fails because target is strict `<10 MJ`.
+
+### Loop cap 0.30
+
+This became the selected V16 survivor:
+
+```text
+partial floor       = 4.262918897 MJ
+remaining           = 5.737081103 MJ
+
+Nf                  = 14
+fPsi                = 27.144691 eV
+b                   = 20.321044 eV
+mPsi                = 24.966716 eV
+mu                  = 66.616710 eV
+NDA cutoff          = 341.110243 eV
+hard margin         = 5.120491
+particle number     = 3.99405e23
+
+loop proxy          = 0.300000061
+
+field energy        = 140.563167 kJ
+occupied bands      = 3.263184125 MJ
+support floor       = 859.171605 kJ
+```
+
+Fixed-density susceptibility:
+
+```text
+susceptibility_hat          = +0.127286879
+susceptibility/current      = +0.604214949
+```
+
+so the occupied positive-band local curvature proxy remained positive.
+
+### Loop cap 0.50
+
+Nominal partial energy:
+
+```text
+1.259137496 MJ
+```
+
+but:
+
+```text
+fixed-density susceptibility_hat = -0.095201449
+```
+
+Result:
+
+```text
+LOOP050 = DEMOTED
+```
+
+Do not treat the 1.259-MJ point as the best solution.
+
+## V16 finite-payload matter-trace scout
+
+At 100 keV:
+
+```text
+epsilon_trace_load = 0.0102896787
+transmission scout = 0.996581831
+```
+
+Lowering `M` makes the classical/source energy scale down approximately as `M^4`, but payload matter loading simultaneously rises as `M^-4`.
+
+Therefore:
+
+```text
+NAIVE_M4_SCALING_TO_ZERO_M = INVALID
+```
+
+The simple uniform-sphere transmission scout had a formal optimum near:
+
+```text
+M ~ 24.2003 keV
+partial scout ~58.485 kJ
+```
+
+but was explicitly:
+
+```text
+PAYLOAD_SCOUT_IS_ENERGY_ORACLE=False
+```
+
+This motivated V17.
+
+---
+
+# 9. 032V17 — exact finite payload + C1 matching + quantum-control gate
+
+Run:
+
+```text
+032V17_AXIAL_VACUUM_CANONICALIZATION_AND_PAYLOAD_BACKREACTION_GATE
+```
+
+Regression:
+
+```text
+230 passed
+```
+
+V17 produced one of the strongest partial results in the entire project.
+
+## V16 support-ledger correction
+
+V16 had used an incorrect scalar contribution in the isotropic Laue support estimate.
+
+For a canonical static scalar:
+
+```math
+\int T^i_i dV=-E_\phi.
+```
+
+Therefore its contribution to **mean** integrated pressure is:
+
+```math
+-\frac{E_\phi}{3},
+```
+
+not `-E_phi`.
+
+Corrected:
+
+```text
+old support floor          = 859.171605 kJ
+corrected support floor    = 952.880383 kJ
+
+old V16 partial            = 4.262918897 MJ
+corrected 100-keV partial  = 4.356627675 MJ
+ledger correction          = +93.708778 kJ
+```
+
+This correction did not close the branch.
+
+## Published C1 operator matching
+
+Jiang et al. 2024 provide the shift-symmetric scalar `j=0` operator:
+
+```math
+O_1
+=
+(\partial\phi)^2
+i\bar\psi\gamma^\nu
+\overleftrightarrow D_\nu\psi .
+```
+
+Important provenance results:
+
+```text
+PUBLISHED_C1_J0_OPERATOR=YES
+C1_LEADING_FORWARD_POSITIVITY_KILL=False
+C1_ONELOOP_QED_GENERATES_C3=False
+```
+
+For the linearized conformal metric:
+
+```math
+A
+=
+1-C_1(\partial\phi)^2.
+```
+
+For static spacelike field:
+
+```math
+(\partial\phi)^2=-|\nabla\phi|^2.
+```
+
+Therefore `C1>0` gives:
+
+```math
+A
+=
+1+C_1|\nabla\phi|^2,
+```
+
+which is the required outward branch.
+
+Matching:
+
+```math
+C_1=\frac{1}{2M^4}.
+```
+
+Important:
+
+Jiang's `O1` is a species-level EFT operator.
+
+It does **not by itself prove universal metric coupling**.
+
+That provenance was corrected in V18.
+
+## Exact finite-payload multipole reconstruction
+
+V17 replaced the crude V16 payload transmission scout with a spherical-harmonic multipole solution for the **actual optimized V15 oblate source**.
+
+It included:
+
+* source Legendre decomposition;
+* matter-loaded spherical payload;
+* matching of each multipole across payload boundary;
+* finite payload surface acceleration;
+* payload volume-average acceleration;
+* source-reaction scattered field;
+* multipole convergence.
+
+Vacuum reconstruction reproduced the V15 source strength to:
+
+```text
+~1.14e-10 relative error.
+```
+
+L16/L20 convergence at optimum:
+
+```text
+2.77e-8 relative q² error.
+```
+
+## V17 oblate exact-payload optimum
+
+Result:
+
+```text
+M = 24.2053683 keV
+epsilon_payload = 2.99747131
+
+q = 1.817356389e-7
+q² amplification = 3.973136696
+```
+
+Corrected partial energy:
+
+```text
+59,419.73794 J
+= 59.419738 kJ
+= 0.0594197 MJ
+```
+
+Finite payload:
+
+```text
+surface min            = 9.80665 m/s²
+surface max            = 160.530860 m/s²
+surface nonuniformity  = 16.3696
+volume-average         = 42.530323 m/s²
+```
+
+Source/payload reaction:
+
+```text
+source center feedback       = 0.0068548
+source surface max feedback  = 0.0246665
+```
+
+Thus the payload reaction was not enormous in the linearized source-reaction scout.
+
+## V17 low-energy source parameters
+
+At the exact optimum:
+
+```text
+C1                  = 1.4565427e-18 eV^-4
+Jiang NDA scale     = 102.0409 keV
+
+Nf                  = 14
+fPsi                = 9.27641 eV
+b                   = 6.94450 eV
+mPsi                = 8.53211 eV
+mu                  = 22.76556 eV
+source cutoff       = 116.5708 eV
+hard margin         = 5.12049
+```
+
+The contextual direct `C1` sensitivity used in the literature was approximately:
+
+```text
+1e-10 eV^-4
+```
+
+so candidate `C1` was smaller by approximately:
+
+```text
+6.87e7
+```
+
+but that literature bound assumes a different physical background and is not full empirical closure for an engineered source.
+
+## Fixed-order quantum-control failure
+
+Using V16 loop variable `L`:
+
+```math
+\Delta Z_{\rm LL}
+=
+2L
+\ln\frac{\Lambda^2}{m_\Psi^2}.
+```
+
+For the selected loop-0.30 branch:
+
+```text
+Delta Z_LL = 3.137595
+```
+
+All tested V16 Pareto points gave:
+
+```text
+Delta Z_LL > 1.
+```
+
+Therefore:
+
+```text
+FIXED_ORDER_ONELOOP_CANONICALIZATION_CONTROL=RED
+```
+
+Added:
+
+```text
+N006
+gate = axial_fixed_order_wavefunction_running_control
+```
+
+Critical interpretation:
+
+```text
+Delta Z is NOT an automatic energy multiplier.
+```
+
+It means fixed-order canonicalization across the declared interval is not perturbatively controlled.
+
+The physical low-energy canonical parameters require:
+
+```text
+RG resummation
+or
+explicit UV matching.
+```
+
+The renormalized Dirac sea was still not computed.
+
+## V17 status
+
+```text
+GREEN_PUBLISHED_C1_OUTWARD_EFT_MATCH
+GREEN_EXACT_FINITE_PAYLOAD_LOWM_PARTIAL_CORRIDOR
+RED_FIXED_ORDER_AXIAL_CANONICALIZATION_CONTROL
+UV_MATCHING_REQUIRED
+```
+
+The **59.42-kJ oblate corridor remains alive** as a partial result.
+
+Do not call it a model.
+
+---
+
+# 10. V17 provenance clarification leading into V18
+
+A crucial distinction was made after V17.
+
+Jiang et al.'s `O1` establishes:
+
+* existence of a relevant shift-symmetric `j=0` operator;
+* sign/positivity information;
+* some QED operator-running information.
+
+It does **not** establish:
+
+```text
+ALL MATTER COUPLES THROUGH ONE UNIVERSAL METRIC.
+```
+
+Independent literature provenance from Brax–Valageas does establish a universal kinetic-conformal Jordan metric of the form:
+
+```math
+g^{\rm phys}_{\mu\nu}
+=
+A^2(X)\tilde g_{\mu\nu}
+```
+
+for matter.
+
+Therefore the correct ledger is:
+
+```text
+UNIVERSAL KINETIC-CONFORMAL METRIC:
+    PUBLISHED AT ACTION LEVEL = YES
+
+Jiang C1 OPERATOR ALONE:
+    UNIVERSALITY PROOF = NO
+
+REQUIRED OUTWARD-SIGN UNIVERSAL UV COMPLETION:
+    STILL OPEN
+```
+
+Do not conflate these three statements.
+
+---
+
+# 11. 032V18 — universal metric provenance + RG invariant + support-ready sphere
+
+Run:
+
+```text
+032V18_C1_UV_MATCHING_RG_AND_COMPLETE_SOURCE_SUPPORT_GATE
+```
+
+Current full regression:
+
+```text
+238 passed
+```
+
+V18 targeted tests:
+
+```text
+8 passed
+```
+
+Current decision:
+
+```text
+GREEN_UNIVERSAL_KINETIC_CONFORMAL_METRIC_PROVENANCE
+GREEN_SUPPORT_FRIENDLY_SPHERE_PARTIAL_LT10MJ
+RED_FIXED_ORDER_RG_CONTROL
+UV_EMPIRICAL_AND_BAG_REALIZATION_REQUIRED
+```
+
+Immediate next:
+
+```text
+032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE
+```
+
+## Universal metric provenance
+
+V18 stores:
+
+```text
+PUBLISHED_UNIVERSAL_KINETIC_CONFORMAL_METRIC=YES
+JIANG_C1_ALONE_PROVES_UNIVERSAL_METRIC=False
+PUBLISHED_FRAMEWORK_REPULSIVE_RESPONSE_EXISTS=YES
+OUTWARD_SIGN_UNIVERSAL_UV_COMPLETION_PROVED=False
+```
+
+Action-level universal metric provenance:
+
+```math
+g_{\rm phys}=A^2(X)g_{\rm Einstein}.
+```
+
+The published minimal `A=1+chi` branch does not have our required static sign.
+
+The required `A=1-chi` action-level branch remains allowed as a target, but its universal UV completion is not proved.
+
+## Canonical-rescaling invariant
+
+For
+
+```math
+\mathcal L
+=
+-\frac Z2(\partial\phi)^2
++
+C_1(\partial\phi)^2 O_{\rm matter}
++
+\frac1f\partial\phi J_5,
+```
+
+define:
+
+```math
+\phi_c=\sqrt Z\,\phi.
+```
+
+Then:
+
+```math
+C_{1,c}=\frac{C_1}{Z}
+```
+
+and
+
+```math
+f_c=f\sqrt Z.
+```
+
+Therefore:
+
+```math
+C_{1,c}f_c^2=C_1f^2.
+```
+
+Result:
+
+```text
+C1_F2_CANONICAL_RESCALING_INVARIANT=True
+DELTAZ_IS_AUTOMATIC_ENERGY_MULTIPLIER=False
+RG_MATCHED_LOW_ENERGY_EFT=OPEN
+```
+
+V18 demonstration:
+
+```text
+canonical C1 = 3.5202639e-19 eV^-4
+canonical f  = 18.8692209 eV
+
+invariant before = 1.2533811586e-16 eV^-2
+invariant after  = 1.2533811586e-16 eV^-2
+relative error   = 0
+```
+
+This is important for future RG work.
+
+Do not multiply V17/V18 energy directly by `Delta Z`.
+
+## Why a support-friendly sphere was introduced
+
+The V17 source is highly oblate:
+
+```text
+a ~0.2574 m
+c ~0.09659 m
+```
+
+A minimal constant-pressure interior plus constant isotropic surface tension naturally prefers a constant-mean-curvature closed surface, i.e. a sphere in the simple branch.
+
+Therefore:
+
+```text
+V17_OBLATE_MINIMAL_ISOTROPIC_BAG_COMPATIBLE=False
+SPHERE_MINIMAL_ISOTROPIC_BAG_COMPATIBLE=True
+```
+
+This does **not** close the oblate solution.
+
+It means the oblate solution requires an **anisotropic support architecture**.
+
+No such physical support has yet been constructed.
+
+## Critical no-shortcut result
+
+One cannot simply put the optimized V16 oblate mean-field state into a spherical source.
+
+Changing demagnetization factor:
+
+```text
+oblate Nz ~0.605003
+sphere Nz = 1/3
+```
+
+maps the old loop-0.30 state to:
+
+```text
+loop proxy = 0.544502851
+```
+
+Result:
+
+```text
+NAIVE_SPHERE_REUSE_LOOP030=RED
+```
+
+Added:
+
+```text
+N007
+gate = sphere_geometry_demag_loop_remap
+```
+
+The spherical source required a complete microscopic reoptimization.
+
+## Reoptimized spherical microscopic state
+
+At conservative loop≈0.30:
+
+```text
+r = m/b = 1.161848387
+u = mu/b = 9.133601684
+
+loop proxy = 0.300000134
+Nf = 116
+```
+
+Positive fixed-density susceptibility:
+
+```text
+susceptibility_hat       = 0.273230396
+susceptibility/current   = 0.799079563
+```
+
+so the occupied positive-band local curvature scout remains positive.
+
+The spherical `M=100 keV` partial source is extremely expensive:
+
+```text
+262.1675396 MJ
+```
+
+Therefore payload-load/low-M optimization remains essential.
+
+## Exact finite-payload spherical optimum
+
+V18 reoptimized the metric scale using exact payload multipole loading.
+
+Optimal:
+
+```text
+M = 23.9712987 keV
+epsilon_payload = 3.11627345
+
+q = 7.27724846e-7
+q² factor = 3.94978934
+```
+
+Energy components:
+
+```text
+scalar field             = 2.545593 kJ
+occupied Dirac bands     = 2.579779581 MJ
+DEC support lower bound  = 0.836832318 MJ
+----------------------------------------
+partial total            = 3.419157493 MJ
+```
+
+Remaining nominal room below strict 10 MJ:
+
+```text
+6.580842507 MJ
+```
+
+Again:
+
+```text
+complete operating ledger = FALSE
+trusted energy oracle      = FALSE
+```
+
+## Exact spherical scalar stress ledger
+
+For a uniformly polarized spherical dipole, V18 used:
+
+```text
+Pi_x = Pi_y = -3 E_phi / 5
+Pi_z = +E_phi / 5
+```
+
+so:
+
+```math
+\Pi_x+\Pi_y+\Pi_z=-E_\phi.
+```
+
+The support DEC lower bound used the largest remaining principal integrated stress rather than the old isotropic mean-pressure approximation.
+
+This is better bookkeeping, but it is still only a **lower bound**.
+
+No physical bag/wall was constructed.
+
+## Spherical finite-payload observables
+
+```text
+surface min          = 9.80665 m/s²
+surface max          = 943.836553 m/s²
+surface ratio        = 96.2445
+payload average      = 92.401801 m/s²
+```
+
+The spherical support-friendly architecture is therefore much less field-uniform than the V17 oblate source.
+
+This is a major engineering/scientific tradeoff:
+
+```text
+SPHERE:
+    easier simple support geometry
+    much worse payload nonuniformity
+    higher energy
+
+OBLATE:
+    vastly lower partial energy
+    much better uniformity
+    needs anisotropic support
+```
+
+## Spherical source reaction
+
+At V18 optimum:
+
+```text
+source center feedback       = 0.00374423
+source surface max feedback  = 0.01487361
+```
+
+Payload-induced reaction remains small in the linear scout, but the **full coupled source-payload solution is still open**.
+
+## Spherical microscopic parameters
+
+At the V18 optimum:
+
+```text
+Nf                 = 116
+fPsi               = 22.513005 eV
+b                  = 6.191496 eV
+mPsi               = 7.193580 eV
+mu                 = 56.550660 eV
+source cutoff      = 282.906765 eV
+hard margin        = 5.002714
+loop proxy         = 0.300000134
+```
+
+Fixed-order running diagnostic:
+
+```text
+Delta Z_LL = 4.406316
+```
+
+Therefore:
+
+```text
+SPHERE_FIXED_ORDER_CANONICALIZATION_CONTROL=RED
+```
+
+Added:
+
+```text
+N008
+gate = sphere_fixed_order_wavefunction_running_control
+```
+
+## Exact spherical scale scan
+
+Important V18 scan:
+
+```text
+100 keV   -> 263.854 MJ
+80 keV    -> 109.075 MJ
+50 keV    -> 18.116 MJ
+40 keV    -> 8.508 MJ
+30 keV    -> 4.163 MJ
+23.971keV -> 3.419 MJ   BEST TESTED
+20 keV    -> 3.893 MJ
+15 keV    -> 7.454 MJ
+10 keV    -> 30.206 MJ
+```
+
+This confirms the low-M optimum is finite.
+
+Energy does **not** continue falling toward zero because payload matter loading becomes dominant.
+
+---
+
+# 12. Current two-frontier picture
+
+Preserve both.
+
+## Frontier A — V17 oblate high-leverage source
+
+```text
+partial energy = 59.419738 kJ
+loop proxy     = ~0.300000061
+M              = 24.2054 keV
+```
+
+Advantages:
+
+* lowest partial energy by enormous margin;
+* better payload uniformity than sphere;
+* finite-payload min surface remains 1g;
+* relatively small source reaction;
+* huge nominal energy headroom.
+
+Disadvantages/open gates:
+
+* simple isotropic bag incompatible with oblate morphology;
+* physical anisotropic support not constructed;
+* fixed-order canonicalization uncontrolled;
+* renormalized Dirac vacuum open;
+* universal outward-sign UV completion open;
+* empirical closure open;
+* nonlinear source/support stability open.
+
+Status:
+
+```text
+ALIVE
+PARTIAL
+UNTRUSTED
+DO NOT PROMOTE
+```
+
+## Frontier B — V18 spherical support-friendly source
+
+```text
+partial energy = 3.419157493 MJ
+loop proxy     = ~0.300000134
+M              = 23.9713 keV
+```
+
+Advantages:
+
+* simple spherical support geometry;
+* exact source mean-field reoptimized;
+* exact finite-payload loading;
+* anisotropic scalar stress included in support lower bound;
+* ~6.58 MJ nominal headroom to formal limit;
+* finite-payload min is 1g.
+
+Disadvantages/open gates:
+
+* physical bag not constructed;
+* bag wall energy absent;
+* 96× payload surface nonuniformity;
+* fixed-order canonicalization uncontrolled;
+* UV completion open;
+* empirical closure open;
+* nonlinear stability open;
+* activation/control/reset absent.
+
+Status:
+
+```text
+SUPPORT-READY PREFLIGHT
+PARTIAL
+UNTRUSTED
+NOT A MODEL
+```
+
+The spherical architecture is currently the **best candidate for the next physical support-construction run**, while the oblate architecture remains the **energy leader**.
+
+Do not delete either.
+
+---
+
+# 13. Current quantum/RG interpretation
+
+Do not misinterpret the V17/V18 leading-log diagnostics.
+
+Current measured diagnostics:
+
+```text
+V17 oblate Delta Z_LL ~3.1376
+V18 sphere Delta Z_LL ~4.4063
+```
+
+These say:
+
+```text
+fixed-order one-loop running across the declared interval
+is not a controlled perturbative correction.
+```
+
+They do **not** say:
+
+```text
+multiply energy by 3.14
+or
+multiply energy by 4.41.
+```
+
+Canonical scalar field rescaling preserves the combination:
+
+```math
+C_1f^2.
+```
+
+What must now be obtained is a matched low-energy theory with controlled:
+
+* canonical scalar normalization;
+* `C1`;
+* source coupling `f`;
+* companion Wilson coefficients;
+* vacuum effective action;
+* running/resummation.
+
+The next work should distinguish:
+
+```text
+large logarithm requiring RG improvement
+```
+
+from
+
+```text
+genuine Landau pole / ghost / tachyon / fatal strong coupling.
+```
+
+Do not label the current branch dead merely because `Delta Z_LL>1`.
+
+But do not promote it until the RG/UV problem is actually solved.
+
+---
+
+# 14. Current literature knowledge added this session
+
+## Brax & Valageas — Goldstone / kinetic-conformal models
+
+Important lessons:
+
+* matter may couple universally through a kinetic-conformal Jordan metric;
+* canonical scalar self-energy can remain positive;
+* derivative conformal response is a real field-theory class;
+* attractive or repulsive fifth-force behavior can occur depending on the coupling function;
+* their published minimal `A=1+chi` has the wrong static spacelike sign for our localized branch.
+
+Use this paper for **universal metric action provenance**, not as proof of our exact outward sign.
+
+## Zumalacárregui & García-Bellido
+
+Important for derivative-conformal transformations and invertibility.
+
+For:
+
+```math
+\tilde g=C(X)g,
+```
+
+invertibility requires nonzero `C` and nonzero kinetic Jacobian eigenvalue such as:
+
+```math
+\lambda_K=C-C_XX.
+```
+
+Published derivative-conformal examples tested in V13 had the wrong outward static sign but demonstrated the transformation class.
+
+## Ikeda, Iyonaga & Kobayashi
+
+Shift-symmetric scalar-tensor stars can use a scalar with linear time dependence while maintaining static geometry.
+
+This confirms that:
+
+```text
+TIME_DEPENDENT_SHIFT_BACKGROUND
+```
+
+is a genuine theorem evasion rather than an invented loophole.
+
+It remains secondary to the static zero-net derivative-source route.
+
+## Jiang et al. 2024
+
+Important results carried forward:
+
+* dimension-8 shift-symmetric scalar/matter operator basis;
+* scalar `j=0` and traceless `j=2` sectors;
+* leading forward positivity constrains selected `j=2` coefficients;
+* scalar `O1/O3` are not killed by that leading `s²` constraint;
+* `O1` does not generate `O3` in the quoted one-loop QED running;
+* positive-C1 UV sign example exists.
+
+However their explicit positive-C1 UV example also produces:
+
+```text
+C2 = 12 C1
+C4 = -12 C1
+```
+
+and therefore cannot simply be adopted.
+
+Do not reopen the already closed massive-spin-2 realization just because this sign example exists.
+
+## Brax et al. derivative-conformal collider work
+
+A derivative-conformal model has collider-context limits around ~200 GeV in a particular contact-EFT treatment.
+
+Do **not** directly apply that number to the present ~24-keV metric-scale candidate.
+
+Our EFT ceases to be valid far below collider hard energies, so applying a contact bound above its cutoff is not self-consistent.
+
+This makes a low-scale UV completion mandatory rather than proving safety.
+
+## Axial-background / axion wavefunction literature
+
+Carry forward that fermion derivative/axial couplings generate scalar/axion wavefunction renormalization and nontrivial one-loop vacuum effective actions.
+
+The renormalized Dirac sea must eventually be calculated.
+
+---
+
+# 15. AGMINER architecture changes made this session
+
+The miner itself was extended significantly, but current work is now model-specific rather than generic-miner tuning.
+
+## New/extended scientific modules
+
+### V13
+
+```text
+src/antigravity_research/agminer/kinetic_conformal.py
+```
+
+Contains:
+
+* static kinetic-conformal sign functions;
+* published coupling probes;
+* Jacobian/invertibility checks;
+* static shift-current no-source theorem object;
+* counterfactual spherical exterior energy;
+* metric-gradient requirements.
+
+### V14
+
+```text
+src/antigravity_research/agminer/shift_source.py
+```
+
+Contains:
+
+* static monopole theorem/evasion logic;
+* compact derivative-source net-charge accounting;
+* exact dipole exterior field;
+* dipole acceleration;
+* dipole exterior energy scaling.
+
+### V15
+
+```text
+src/antigravity_research/agminer/axial_shift_source.py
+```
+
+Contains:
+
+* spheroidal source geometry;
+* spheroid demagnetizing factor;
+* axial-current efficiency;
+* zero-temperature Fermi inventory;
+* Fermi pressure;
+* surface field kernels;
+* morphology field response;
+* hidden-fermion source floor;
+* ordinary-electron negative control.
+
+### V16
+
+```text
+src/antigravity_research/agminer/axial_dirac_meanfield.py
+```
+
+Contains:
+
+* exact positive axial Dirac bands;
+* number/current/energy integrals;
+* anisotropic pressure integrals;
+* chemical-potential solution for desired current;
+* dimensionless mean-field reduction;
+* flavor-scaling invariants;
+* physicalization of dimensionless state;
+* Stoner/loop analytic gate;
+* fixed-density susceptibility;
+* payload trace-loading scout.
+
+### V17
+
+```text
+src/antigravity_research/agminer/c1_payload_matching.py
+```
+
+Contains:
+
+* `C1=1/(2M^4)` mapping;
+* Jiang NDA scale conversion;
+* static sign matching;
+* corrected scalar-trace support helper;
+* leading-log wavefunction-running proxy;
+* exact source Legendre decomposition;
+* exact payload multipole transmission;
+* solid-harmonic derivatives;
+* finite payload surface requirement;
+* volume-average acceleration;
+* payload-induced scattered source reaction.
+
+### V18
+
+```text
+src/antigravity_research/agminer/universal_metric_support.py
+```
+
+Contains:
+
+* canonical field-rescaling invariant;
+* minimal isotropic bag shape compatibility;
+* analytic polarized-sphere Legendre coefficients;
+* exact integrated scalar dipole principal stresses;
+* anisotropic DEC support lower bound.
+
+## New tests
+
+Current test progression:
+
+```text
+V12 state          182 passed
+V13                193 passed
+V14                201 passed
+V15                210 passed
+V16                219 passed
+V17                230 passed
+V18                238 passed
+```
+
+Current full test suite:
+
+```text
+238 PASSED
+```
+
+Historical protected 94-test baseline remains conceptually important but is no longer the entire suite.
+
+Tests added:
+
+```text
+tests/agminer/test_032v13_kinetic_conformal.py
+tests/agminer/test_032v14_shift_source.py
+tests/agminer/test_032v15_axial_shift_source.py
+tests/agminer/test_032v16_axial_dirac_meanfield.py
+tests/agminer/test_032v17_c1_payload_matching.py
+tests/agminer/test_032v18_universal_metric_support.py
+```
+
+Do not treat a passing regression suite as independent scientific verification.
+
+Both remain required.
+
+---
+
+# 16. New AGMINER failure memory from this session
+
+Preserve all of these.
+
+```text
+P002
+kinetic_conformal_static_external_sign
+```
+
+Published minimal kinetic-conformal branch has wrong static external sign.
+
+```text
+P003
+regular_static_shift_current_no_source
+```
+
+Regular isolated positive-current static monopole closed.
+
+```text
+E003
+ordinary_electron_microscopic_source_rest_energy_floor
+```
+
+Ordinary-electron implementation catastrophically exceeds 10 MJ.
+
+```text
+N004
+axial_dirac_selfconsistent_source_cutoff_margin
+```
+
+Old V15 single-flavor source fails its own cutoff after exact fermion response.
+
+```text
+N005
+controlled_nr_stoner_loop_conflict
+```
+
+Controlled NR spontaneous polarization incompatible with acceptable loop load.
+
+```text
+N006
+axial_fixed_order_wavefunction_running_control
+```
+
+V17 loop-0.30 oblate source fails small fixed-order wavefunction-running criterion.
+
+```text
+N007
+sphere_geometry_demag_loop_remap
+```
+
+Cannot transplant the V16 oblate microstate directly into spherical geometry.
+
+```text
+N008
+sphere_fixed_order_wavefunction_running_control
+```
+
+V18 spherical source also fails small fixed-order wavefunction-running criterion.
+
+````
+
+Each currently has one recorded rejection in the AGMINER memory.
+
+---
+
+# 17. AGMINER database state after V18
+
+Current reporting:
+
+```text
+action_oracle_count       = 8
+collective_scaling_count  = 2
+model_count               = 101050
+rejection_count           = 95600
+survivor_count            = 0
+
+mechanism_metric_count    = 0
+mechanism_pareto_count    = 0
+pareto_count              = 0
+
+stop_requested            = false
+database_bytes            = 63373312
+````
+
+Important:
+
+```text
+survivor_count = 0
+```
+
+is correct.
+
+We have **partial candidate oracles**, not certified survivors.
+
+Mechanism metrics have intentionally not been recorded because no complete self-consistent physical realization has earned that promotion.
+
+Do not artificially populate `MechanismMetrics` merely because the partial energy is small.
+
+---
+
+# 18. Partial action-oracle history
+
+The miner now remembers the following progressively more physical corridors.
+
+## V13 monopole exterior target
+
+```text
+~73.195 kJ
+PARTIAL_OPTIMISTIC
+untrusted
+source forbidden in minimal static branch
+```
+
+## V14 zero-net dipole exterior
+
+```text
+~130.124 kJ
+PARTIAL_OPTIMISTIC
+untrusted
+no microscopic source yet
+```
+
+## V15 explicit hidden axial source
+
+```text
+~8.352 MJ
+PARTIAL_OPTIMISTIC
+later demoted by exact mean-field response
+```
+
+## V16 exact positive-band mean field
+
+```text
+~4.263 MJ
+PARTIAL_OPTIMISTIC
+loop-0.30
+untrusted
+```
+
+## V17 exact oblate finite-payload corridor
+
+```text
+59.4197 kJ
+PARTIAL_OPTIMISTIC
+untrusted
+fixed-order RG blocked
+anisotropic support open
+```
+
+## V18 support-friendly spherical corridor
+
+```text
+3.419157 MJ
+PARTIAL_OPTIMISTIC
+untrusted
+physical bag absent
+fixed-order RG blocked
+```
+
+Do not compare these as if they were all complete energies.
+
+Each later result changes what is included.
+
+---
+
+# 19. Current claim discipline
+
+The next session must preserve these statements exactly in spirit.
+
+## Allowed
+
+```text
+A published universal kinetic-conformal matter metric exists as a theory class.
+
+A positive-C1 static spacelike branch gives the desired local outward metric sign.
+
+The regular isolated static positive-current scalar monopole is closed.
+
+A zero-net derivative source can support a static dipolar exterior.
+
+An explicit hidden-fermion derivative-current source action has been studied.
+
+The exact positive-energy Dirac-band mean field has a controlled loop-0.30
+tree-level corridor.
+
+Exact finite-payload calculations produce a 59.4-kJ oblate partial corridor.
+
+A reoptimized support-friendly spherical source gives a 3.419-MJ partial corridor.
+
+Neither current frontier has a trusted complete operating ledger.
+```
+
+## Not allowed
+
+Do not say:
+
+```text
+we built antigravity
+we have a 59-kJ antigravity device
+we have a 3.4-MJ antigravity device
+the model is experimentally viable
+UV completion has been proved
+empirical constraints are closed
+the source is stable
+a physical support has been constructed
+```
+
+Also do not say:
+
+```text
+Delta Z~3 or 4 means energy is multiplied by 3 or 4.
+```
+
+That interpretation is explicitly rejected.
+
+---
+
+# 20. Current practical geometry / payload requirement
+
+Continue to use the finite-payload objective, not point-force alone.
+
+Payload:
+
+```text
+mass      = 1 kg
+radius    = 0.10 m
+```
+
+Source-payload separation in the current compact architecture:
+
+```text
+source top to payload near surface gap = 0.10 m
+```
+
+Required adverse-surface criterion:
+
+```text
+minimum outward acceleration over payload surface
+>= 9.80665 m/s²
+```
+
+This is stronger than merely requiring payload CM acceleration ≥1g.
+
+Track both:
+
+```text
+minimum surface acceleration
+payload volume-average acceleration
+maximum surface acceleration
+surface nonuniformity
+```
+
+Current field nonuniformities:
+
+```text
+V17 oblate ~16.37x
+V18 sphere ~96.24x
+```
+
+Uniformity remains a real issue.
+
+---
+
+# 21. Repository / version-control state
+
+A major repository checkpoint was made during this session before V16.
+
+User committed and pushed:
+
+```text
+commit:
+338b2c9
+
+message:
+"updated runs and docs"
+```
+
+That commit contained approximately:
+
+```text
+237 files changed
+94830 insertions
+```
+
+and included AGMINER infrastructure/results through the earlier part of this session, including V13–V15-era files.
+
+Push completed successfully to:
+
+```text
+origin/main
+```
+
+GitHub warned that:
+
+```text
+results/agminer/agminer.sqlite3
+~60.43 MB
+```
+
+exceeded GitHub's recommended 50-MB file size, though the push succeeded.
+
+Do not automatically introduce Git LFS or rewrite history unless the user explicitly asks.
+
+## Current post-V18 worktree
+
+V16–V18 work is currently **not yet committed**.
+
+Modified:
+
+```text
+results/agminer/agminer.sqlite3
+results/agminer/failure_counts.csv
+results/agminer/oracle_learning.csv
+results/agminer/run_summary.json
+```
+
+New key results:
+
+```text
+results/data/032v16_axial_dirac_loop_energy_pareto.csv
+results/data/032v16_axial_dirac_meanfield_self_consistency_summary.json
+results/data/032v16_payload_trace_load_scout.csv
+
+results/data/032v17_axial_leading_log_scan.csv
+results/data/032v17_c1_payload_quantum_control_summary.json
+results/data/032v17_exact_payload_scale_scan.csv
+
+results/data/032v18_oblate_sphere_frontier_comparison.csv
+results/data/032v18_spherical_support_ready_scale_scan.csv
+results/data/032v18_universal_metric_rg_support_ready_summary.json
+```
+
+New simulations:
+
+```text
+simulations/032v16_axial_dirac_mean_field_self_consistency_gate.py
+simulations/032v17_axial_vacuum_canonicalization_and_payload_backreaction_gate.py
+simulations/032v18_c1_uv_matching_rg_complete_source_support_gate.py
+```
+
+New AGMINER modules:
+
+```text
+src/antigravity_research/agminer/axial_dirac_meanfield.py
+src/antigravity_research/agminer/c1_payload_matching.py
+src/antigravity_research/agminer/universal_metric_support.py
+```
+
+New tests:
+
+```text
+tests/agminer/test_032v16_axial_dirac_meanfield.py
+tests/agminer/test_032v17_c1_payload_matching.py
+tests/agminer/test_032v18_universal_metric_support.py
+```
+
+Current logs include:
+
+```text
+results/logs/032v16_axial_dirac_meanfield_20260905-215325.log
+results/logs/032v17_c1_payload_quantum_control_20260905-222233.log
+results/logs/032v18_universal_metric_rg_support_20260905-224752.log
+results/logs/032v18_universal_metric_rg_support_20260905-225201.log
+```
+
+The final successful V18 terminal result is the state to preserve.
+
+---
+
+# 22. Documentation state
+
+The user is intentionally updating documentation **after these carryover notes**.
+
+Therefore, until the remaining docs are updated:
+
+```text
+THESE CARRYOVER NOTES
++
+V16/V17/V18 result JSON/CSV/logs
+```
+
+must supersede any lagging:
+
+```text
+RESEARCH_BUILDPLAN.md
+AGMINER_BUILDPLAN.MD
+README
+older NOTES
+older journal text
+older codebundle
+```
+
+where conflicts exist.
+
+Do not allow an older buildplan or README to reset the frontier to V15/V16.
+
+Current frontier is definitively:
+
+```text
+032V18 complete
+032V19 next
+```
+
+---
+
+# 23. What the miner is doing now
+
+The AGMINER role has evolved.
+
+Earlier:
+
+```text
+broad search
+family generation
+million-candidate exploration
+generic Pareto ranking
+```
+
+Current:
+
+```text
+theorem-first candidate falsification
+canonical normalization
+exact finite-payload observables
+source topology
+microscopic source realization
+quantum control
+stress-energy/support ledgers
+UV/empirical gating
+```
+
+We should **not return to giant blind scans** unless the current candidate is closed.
+
+Cheap analytical falsification remains preferred over large PDE/eigenspectrum runs.
+
+The miner should continue learning from:
+
+* source-existence no-goes;
+* canonical-rescaling invariants;
+* flavor non-shortcuts;
+* support geometry;
+* matter backreaction;
+* loop/UV gates;
+* empirical constraints.
+
+---
+
+# 24. Immediate next run — 032V19
+
+The exact next run should be:
+
+```text
+032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE
+```
+
+Do **not** begin V19 as another generic energy optimizer.
+
+The purpose is to determine whether the support-friendly V18 spherical partial corridor can become a substantially more complete physical source.
+
+## V19-A — construct actual spherical positive-energy support
+
+V18 currently includes only a lower bound:
+
+```text
+support floor ~0.836832 MJ
+```
+
+It does not include a physical wall.
+
+Construct a microscopic/field-theoretic spherical bag or confinement sector with:
+
+* positive Hamiltonian;
+* complete stress tensor;
+* local conservation;
+* wall/surface tension;
+* interior pressure balance;
+* finite thickness;
+* DEC/WEC where claimed;
+* no prescribed spatial coupling;
+* no hand-imposed external stress;
+* explicit source reaction.
+
+Need to verify:
+
+```text
+radial equilibrium
+shape equilibrium
+l=0 stability
+l=2 deformation stability
+```
+
+before promoting support.
+
+Do not count the DEC lower bound as an actual bag.
+
+## V19-B — bag wall energy budget
+
+The V18 spherical partial floor is:
+
+```text
+3.419157493 MJ
+```
+
+so the strict remaining nominal budget is:
+
+```text
+6.580842507 MJ.
+```
+
+The entire following stack together must fit below that if the final target is to pass:
+
+```text
+physical wall
+confinement field
+activation
+control
+reset
+quantum matching corrections
+remaining payload/source reaction
+metric backreaction
+```
+
+Do not spend the whole margin on the wall alone.
+
+## V19-C — RG / UV matching
+
+The fixed-order diagnostic is red:
+
+```text
+Delta Z_LL ~4.4063
+```
+
+Need to distinguish:
+
+1. large log requiring RG improvement;
+2. genuine strong coupling;
+3. Landau pole;
+4. ghost/tachyon;
+5. technically natural matched EFT;
+6. UV completion failure.
+
+At minimum derive/compute a matched low-energy canonical:
+
+```text
+Z_phi(mu)
+C1(mu)
+fPsi(mu)
+```
+
+and verify the physical invariant combination.
+
+Do not use arbitrary canonical rescaling as a fake free parameter.
+
+## V19-D — outward-C1 universal UV completion
+
+Need a genuine completion producing:
+
+```text
+positive C1
+universal physical metric
+```
+
+without fatal companion operators.
+
+Jiang's known positive-C1 sign example cannot simply be used because it also generates:
+
+```text
+C2 = 12 C1
+C4 = -12 C1
+```
+
+and overlaps a previously closed spin-2 realization class.
+
+Search for genuinely different UV protection/matching.
+
+## V19-E — empirical closure early
+
+Because:
+
+```text
+M ~24 keV
+```
+
+is extremely low for a universal derivative-conformal metric, empirical closure is now a first-class gate.
+
+Need laboratory and astrophysical tests appropriate to the **actual localized engineered theory**, not inappropriate contact-EFT extrapolations.
+
+Check:
+
+* equivalence principle;
+* fifth force;
+* precision gravity;
+* atomic physics;
+* stellar cooling;
+* supernova;
+* cosmology/BBN;
+* collider constraints only within their EFT validity;
+* hidden-fermion production;
+* vacuum stability;
+* off-state leakage.
+
+Any bound assumed to require a cosmological scalar background must be labeled as such.
+
+## V19-F — source/payload full coupling
+
+Current source reaction is only a linear scout.
+
+Need eventual simultaneous solution of:
+
+```text
+hidden source
+scalar field
+payload matter loading
+support sector
+physical metric
+```
+
+rather than fixed-source plus scattered payload approximation.
+
+## V19-G — energy objective
+
+Continue to enforce:
+
+```text
+E_COMPLETE < 10 MJ
+```
+
+not `<=`.
+
+If V19 closes the spherical source above 10 MJ, retain the V17 oblate architecture as a separate anisotropic-support frontier.
+
+Do not automatically kill the oblate 59-kJ result because the spherical support route fails.
+
+---
+
+# 25. Parallel future branch — V17 oblate support
+
+If a physically motivated anisotropic support field becomes available, the V17 architecture deserves its own support run because its nominal partial energy is:
+
+```text
+~59.42 kJ
+```
+
+versus:
+
+```text
+~3.419 MJ
+```
+
+for the spherical route.
+
+Its remaining theoretical headroom is enormous.
+
+But do not create arbitrary anisotropic stresses by prescription merely to hold the oblate shape.
+
+Any support must have:
+
+* an action;
+* positive energy;
+* complete stress tensor;
+* conservation;
+* stability;
+* finite wall/core thickness;
+* activation/control energy.
+
+---
+
+# 26. Important numerical reference table
+
+```text
+FORMAL TARGET
+-------------
+complete energy target               < 10.000000 MJ
+
+
+V13
+----
+monopole exterior @100keV             73.1948 kJ
+surface nonuniformity                 32x
+status                                source theorem closed
+
+
+V14
+----
+zero-net dipole exterior @100keV      130.124 kJ
+surface nonuniformity                 128x
+status                                prefield
+
+
+V15
+----
+externally prescribed source floor    8.352028 MJ
+remaining                             1.647972 MJ
+a                                     0.2574009 m
+c                                     0.0965912 m
+status                                later self-consistency killed
+
+
+V16 LOOP 0.30
+--------------
+partial                                4.262919 MJ
+corrected later by V17                4.356628 MJ
+Nf                                     14
+fPsi                                   27.1447 eV
+mPsi                                   24.9667 eV
+mu                                     66.6167 eV
+cutoff                                 341.110 eV
+hard margin                            5.12049
+status                                 tree-level positive-band corridor
+
+
+V17 OBLATE
+-----------
+M                                      24.20537 keV
+partial                                59.41974 kJ
+epsilon payload                        2.99747
+q² amplification                       3.97314
+surface ratio                          16.3696
+payload average                        42.5303 m/s²
+source feedback max                    2.46665%
+DeltaZ_LL                              3.13760
+status                                 alive / partial / RG blocked
+
+
+V18 SPHERE
+-----------
+M                                      23.97130 keV
+partial                                3.419157 MJ
+remaining                              6.580843 MJ
+epsilon payload                        3.11627
+q² amplification                       3.94979
+field                                  2.54559 kJ
+occupied bands                         2.579780 MJ
+support floor                          0.836832 MJ
+surface ratio                          96.2445
+payload average                        92.4018 m/s²
+source feedback max                    1.48736%
+Nf                                     116
+fPsi                                   22.5130 eV
+mPsi                                   7.19358 eV
+mu                                     56.5507 eV
+cutoff                                 282.907 eV
+hard margin                            5.00271
+DeltaZ_LL                              4.40632
+status                                 support-ready preflight / RG blocked
+```
+
+---
+
+# 27. Overall assessment to carry into next session
+
+The project is in a **materially stronger position** than before AGMINER and Introspective.
+
+Earlier, candidate exploration was threatened by effectively impossible brute-force search spaces and by architectures whose classical/source energy alone was many gigajoules or worse.
+
+The current architecture has a well-defined chain:
+
+```text
+operator
+-> sign
+-> static source theorem
+-> zero-net derivative source
+-> dipole
+-> explicit microscopic axial action
+-> exact fermion mean field
+-> finite-payload backreaction
+-> support stress
+-> quantum/RG control
+-> universal metric provenance
+```
+
+The strongest current classical/microscopic finite-payload energy corridors are orders of magnitude below earlier 031 candidates.
+
+This is a genuine scientific improvement.
+
+However the remaining gates are increasingly fundamental and can still invalidate the architecture entirely.
+
+Therefore the correct current characterization is:
+
+```text
+RESEARCH EFFICIENCY:
+    DRAMATICALLY IMPROVED
+
+CANDIDATE QUALITY:
+    DRAMATICALLY IMPROVED RELATIVE TO EARLIER ENERGY FRONTIERS
+
+PHYSICAL ANTIGRAVITY MODEL:
+    NOT YET ESTABLISHED
+
+PRACTICAL DEVICE:
+    NOT ESTABLISHED
+
+CURRENT PRIMARY BOTTLENECK:
+    UV/RG + PHYSICAL SUPPORT + EMPIRICAL CONSISTENCY + STABILITY
+```
+
+Do not assign a literal probability of success from the current data.
+
+The older 70–71% style project heuristic remains a measure of accumulated accomplishment/knowledge, not a probability that practical antigravity exists.
+
+---
+
+# 28. One-paragraph handoff summary for the next session
+
+ANTIGRAVITY_RESEARCH has moved from generic AGMINER discovery into candidate-specific falsification of a shift-symmetric kinetic-conformal universal-metric architecture. V13 closed the regular static positive-current monopole but preserved the outward kinetic-conformal sign target; V14 found the exact-shift-compatible zero-net dipole; V15 built an explicit hidden-fermion axial-current source; V16 killed the naive single-flavor source and controlled NR polarization but found a self-consistent relativistic loop≈0.30 tree-level corridor; V17 corrected the support ledger and solved exact finite-payload matter loading for the optimized oblate source, producing a **59.4197-kJ partial** corridor at `M≈24.205 keV` while failing fixed-order canonicalization; V18 established universal kinetic-conformal metric provenance, proved `C1 f²` is invariant under scalar canonical rescaling, showed the V17 oblate source needs anisotropic support, and reoptimized a spherical support-friendly source to a **3.419157-MJ partial** floor at `M≈23.971 keV` with 6.58 MJ nominal headroom. Current regression is **238 passed**. Neither frontier is a physical or certified sub-10-MJ model because RG/UV matching, the renormalized axial vacuum, outward-C1 universal UV completion, an actual positive-energy support/bag, activation/control, nonlinear stability, full source/payload coupling, empirical closure, and full metric backreaction remain open. **Next = 032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE.**
+
+
+### END NOTE - SEPTEMBER 5 2026 - 23:50 CST

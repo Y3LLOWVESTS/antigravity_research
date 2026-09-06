@@ -1,1376 +1,1645 @@
-# ENERGY OBJECTIVE SUPERSESSION — 2026-09-05
-
-> **This section supersedes older hard-coded 10-GJ AGMINER objective language below.**
-
-```text
-CURRENT_HARD_OBJECTIVE =
-E_CONSERVATIVE_COMPLETE_OPERATING < 10 MJ
-
-EXACT_10_MJ =
-REJECT
-
-CONFIG_SOURCE =
-config/agminer_032a.json
-
-SUPPORTED_UNITS =
-J kJ MJ GJ TJ
-
-PHYSICAL_CANDIDATE_ID_DEPENDS_ON_TARGET =
-NO
-
-OBJECTIVE_REJECTION_MEMORY =
-POLICY_SPECIFIC
-```
-
-Future energy-target changes are configuration changes and do not require rewriting the miner source.
-
----
-
 # AGMINER BUILD PLAN
 
-## Automated Antigravity Model Discovery, Rejection Memory, and Certification Shortlisting
+## Physics-Aware Antigravity Model Discovery, Mechanism Learning, Falsification, Rejection Memory, and Certification Control
 
-**Project:** ANTIGRAVITY_RESEARCH
-**Subsystem:** AGMINER
-**Initial branch:** 032A
-**Purpose:** Automated low-compute discovery and screening of antigravity model candidates before expensive certification
-**Primary hard objective:** Complete conservative operating energy at or below **10 GJ**
+**Project:** `ANTIGRAVITY_RESEARCH`
+
+**Subsystem:** `AGMINER`
+
+**Date:** 2026-09-06
+
+**Initial development branch:** `032A`
+
+**Current active research program:** `032 — AGMINER-GUIDED KINETIC-CONFORMAL ANTIGRAVITY`
+
+**Current completed phase:** `032V18`
+
+**Immediate next phase:** `032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE`
+
+**Current AGMINER mode:** `CANDIDATE_SPECIFIC_FALSIFICATION`
+
+**Current energy leader:** `032V17 OBLATE — ~59.419738 kJ PARTIAL ORACLE`
+
+**Current support-realization leader:** `032V18 SPHERE — ~3.419157493 MJ PARTIAL ORACLE`
+
+**Current hard energy policy:** `E_CONSERVATIVE_COMPLETE_OPERATING < 10 MJ`
+
+**Exactly 10 MJ:** `REJECT`
+
+**Energy policy ID:** `ENERGY_ab8c16e45c837ffc`
+
+**Historical protected regression baseline:** `94 passed`
+
+**Current full regression suite:** `238 passed`
+
+**Current approximate database state:**
+
+```text
+MODEL_COUNT               ~101050
+REJECTION_COUNT           ~95600
+ACTION_ORACLE_COUNT       8
+COLLECTIVE_SCALING_COUNT  2
+MECHANISM_METRIC_COUNT    0
+MECHANISM_PARETO_COUNT    0
+CERTIFIED_SURVIVOR_COUNT  0
+```
+
+**Physical antigravity model found:** `NO`
+
+**Certified sub-10-MJ model found:** `NO`
+
+**Practical device:** `NO`
+
+**New physics discovery:** `NO`
 
 ---
 
-# 1. Mission
+# 0. Purpose
 
-AGMINER is an automated candidate-discovery and screening system for ANTIGRAVITY_RESEARCH.
+AGMINER is the primary physics-aware model-discovery and falsification engine for `ANTIGRAVITY_RESEARCH`.
 
-Its job is **not** to certify models.
+It began as a low-compute candidate miner.
 
-Its job is to:
+It has evolved into a substantially broader scientific system.
 
-1. generate large numbers of candidate parameter points cheaply;
-2. reject impossible or unattractive models as early as possible;
-3. permanently remember rejected candidates so exact failures are not repeatedly evaluated;
-4. preserve only compact numerical metadata for ordinary failures;
-5. retain richer data only for exceptionally promising candidates;
-6. identify the lowest-energy physically credible survivors;
-7. produce a small ranked shortlist for later manual or automated certification.
-
-The intended workflow is:
+Its purpose is now to:
 
 ```text
-CHEAP THEORY FILTERS
+SEARCH
++
+CANONICALIZE
++
+FALSIFY
++
+LEARN MECHANISMS
++
+REMEMBER FAILURES
++
+IDENTIFY PHYSICAL BOTTLENECKS
++
+CONTROL PROMOTION
+```
+
+across large antigravity theory spaces.
+
+AGMINER is not merely:
+
+```text
+A PARAMETER SCANNER
+```
+
+and it is not:
+
+```text
+A BLACK-BOX OPTIMIZER.
+```
+
+Its central philosophy is:
+
+> **Use physical understanding to eliminate impossible mechanisms before spending computation on them, preserve every durable falsification, and promote only candidates whose apparent efficiency survives progressively more complete physics.**
+
+---
+
+# 1. Current role of AGMINER
+
+The original AGMINER workflow was approximately:
+
+```text
+GENERATE MANY PARAMETER POINTS
+
         ↓
-CHEAP MODEL GENERATION
-        ↓
+
 CHEAP FIELD SOLVE
+
         ↓
-HARD 10-GJ ENERGY GATE
+
+ENERGY GATE
+
         ↓
-FINITE-PAYLOAD / CONSERVATION / NATURALNESS FILTERS
+
+PAYLOAD / NATURALNESS / STABILITY FILTERS
+
         ↓
-CHEAP STABILITY PROXIES
+
+SHORTLIST
+
         ↓
-PARETO FRONTIER
-        ↓
-SMALL HIGH-QUALITY SHORTLIST
-        ↓
-EXPENSIVE CERTIFICATION OUTSIDE AGMINER
+
+CERTIFICATION
 ```
 
-AGMINER must optimize for **information gained per unit compute**, not for the number of simulations completed.
+That remains useful for broad parameter families.
+
+However AGMINER now supports a deeper workflow:
+
+```text
+THEORY CLASS
+
+        ↓
+
+LOCAL OPERATOR
+
+        ↓
+
+CANONICAL NORMALIZATION
+
+        ↓
+
+ACTION-SPECIFIC ORACLE
+
+        ↓
+
+SOURCE-EXISTENCE THEOREM
+
+        ↓
+
+SIGN / SIDEDNESS
+
+        ↓
+
+MICROSCOPIC SOURCE
+
+        ↓
+
+FINITE PAYLOAD
+
+        ↓
+
+SOURCE REACTION
+
+        ↓
+
+SUPPORT / CONFINEMENT
+
+        ↓
+
+QUANTUM / RG / UV CONTROL
+
+        ↓
+
+STABILITY
+
+        ↓
+
+EMPIRICAL CLOSURE
+
+        ↓
+
+COMPLETE ENERGY LEDGER
+
+        ↓
+
+CERTIFICATION
+```
+
+This theorem/oracle architecture supersedes the idea that every problem should be attacked by a larger parameter scan.
 
 ---
 
-# 2. Permanent 10 GJ Rule
+# 2. Mission
 
-The central AGMINER rule is:
+AGMINER's mission is:
 
-```text
-ENERGY_LIMIT_J = 1.0e10
-ENERGY_LIMIT_GJ = 10.0
-```
+> **Search parameterized microscopic and effective antigravity theories for physically meaningful efficiency mechanisms, eliminate impossible realizations as cheaply as possible, preserve the reasons they fail, and identify the smallest number of candidates that deserve expensive physical certification.**
 
-The primary energy quantity is:
+The operative phrase is:
 
 ```text
-E_CONSERVATIVE_COMPLETE_OPERATING
+PHYSICALLY MEANINGFUL EFFICIENCY.
 ```
 
-A model survives the energy gate only when:
+An apparent gain is not meaningful until it survives:
+
+```text
+CANONICAL NORMALIZATION
+
+SOURCE COST
+
+SUPPORT COST
+
+FINITE PAYLOAD
+
+REACTION
+
+NATURALNESS
+
+EFT CONTROL
+```
+
+where applicable.
+
+---
+
+# 3. AGMINER success does not require finding antigravity
+
+AGMINER succeeds scientifically if it can show, for example:
+
+```text
+AN ENTIRE THEORY FAMILY FAILS BY A PROVEN ENERGY BOUND
+
+OR
+
+A LARGE APPARENT COUPLING IS A FIELD-REDEFINITION ARTIFACT
+
+OR
+
+A SOURCE CANNOT EXIST UNDER THE DECLARED STATIC ASSUMPTIONS
+
+OR
+
+COLLECTIVE RESPONSE GROWS NO FASTER THAN SCAFFOLD ENERGY
+
+OR
+
+THE LOW-ENERGY SOURCE CANNOT SURVIVE SUPPORT OR RG CONTROL
+```
+
+A high-quality negative result is a successful AGMINER result.
+
+---
+
+# 4. Strict energy policy
+
+Current policy:
+
+```text
+ENERGY_POLICY_ID =
+ENERGY_ab8c16e45c837ffc
+```
+
+Pass condition:
 
 ```math
-E_{\rm conservative,complete}
-\le
-10^{10}\ {\rm J}.
+E_{\rm conservative,\ complete,\ operating}
+<
+1.0\times10^7\ {\rm J}
 ```
 
 Therefore:
 
 ```text
-E <= 10.000000 GJ
-    MAY CONTINUE
+E < 10 MJ
+    ENERGY POLICY MAY PASS
 
-E > 10.000000 GJ
+E = 10 MJ
+    REJECT
+
+E > 10 MJ
     REJECT
 ```
 
-A candidate exceeding 10 GJ is classified:
+The comparison is strictly:
 
 ```text
-REJECTED_ENERGY_GT_10GJ
+LT
 ```
 
-and its exact candidate fingerprint is permanently entered in the rejection database.
-
-AGMINER must never automatically reconsider that exact rejected candidate.
-
-The candidate may only be reconsidered if:
+not:
 
 ```text
-THE THEORY CHANGES
-THE ENERGY LEDGER CHANGES
-THE IMPLEMENTATION VERSION CHANGES IN A PHYSICALLY MATERIAL WAY
-OR THE USER EXPLICITLY REQUESTS REOPENING
+LE.
 ```
 
-Changing only numerical resolution does not create a new physical model.
+Exactly 10 MJ never passes.
 
 ---
 
-# 3. What Counts Toward the 10 GJ Limit
+# 5. Energy target is configuration, not physics identity
 
-The energy limit is deliberately conservative.
+The energy target must remain configurable.
 
-The primary ranking ledger must include all positive energy that must physically exist in the operating configuration.
-
-Where applicable:
+Current source:
 
 ```text
-SOURCE FIELD ENERGY
-MEDIATOR / SCALAR SELF-ENERGY
-ACTIVATION FIELD ENERGY
-RESERVOIR ENERGY
-GATE FIELD ENERGY
-CONTROL FIELD INVENTORY
-MANDATORY SUPPORT ENERGY
-MANDATORY STABILIZATION ENERGY
-GAUGE-FIELD ENERGY
-TOPOLOGICAL SECTOR ENERGY
-SELF-FIELD ENERGY
-REACTION / BACKREACTION CONTRIBUTIONS
-UNAVOIDABLE CONFINEMENT ENERGY
-OTHER PHYSICAL SCAFFOLDING
+config/agminer_032a.json
 ```
 
-The miner must preserve a separate exact Hamiltonian ledger where useful, but:
-
-> **Negative binding or interaction energy must not be used to sneak a candidate under the 10 GJ objective if the conservative complete inventory remains above 10 GJ.**
-
-This follows the lesson from 031D3D2-R.
-
-Store at minimum:
+Supported energy units should include:
 
 ```text
-E_EXACT_HAMILTONIAN_J
-E_CONSERVATIVE_COMPLETE_J
-E_SOURCE_J
-E_MEDIATOR_J
-E_ACTIVATION_J
-E_RESERVOIR_J
-E_CONTROL_J
-E_SUPPORT_J
-E_OTHER_J
+J
+kJ
+MJ
+GJ
+TJ
 ```
 
-The hard AGMINER energy gate uses:
+A future change in project practicality target must not require changing theory source code.
+
+Permanent rule:
 
 ```text
-E_CONSERVATIVE_COMPLETE_J
+PHYSICAL_CANDIDATE_ID_DEPENDS_ON_ENERGY_TARGET =
+NO
 ```
 
-not the most optimistic ledger available.
+The physical candidate represents the theory and physical parameters.
+
+Objective decisions belong to a separate policy layer.
 
 ---
 
-# 4. Lower-Bound Early Rejection
+# 6. Policy-specific objective memory
 
-AGMINER should avoid solving a PDE if algebra already proves the model cannot beat 10 GJ.
+A candidate can fail because:
 
-Every family must expose:
+```text
+THE PHYSICS IS INVALID
+```
+
+or merely because:
+
+```text
+IT MISSES THE CURRENT PRACTICALITY OBJECTIVE.
+```
+
+These must be distinguished.
+
+Example:
+
+```text
+PHYSICS:
+candidate energy = 20 MJ
+otherwise valid
+
+10-MJ policy:
+REJECT
+
+100-MJ policy:
+MAY CONTINUE
+```
+
+Therefore objective rejection memory is:
+
+```text
+POLICY_SPECIFIC.
+```
+
+Scientific no-go memory is normally:
+
+```text
+POLICY_INDEPENDENT.
+```
+
+---
+
+# 7. Scientific object hierarchy
+
+AGMINER must permanently distinguish the following objects.
+
+## 7.1 Candidate
+
+A particular physical parameter point in a declared theory/action.
+
+```text
+CANDIDATE
+```
+
+does not imply a solved field.
+
+---
+
+## 7.2 Analytical bound
+
+A rigorous or conditional bound such as:
+
+```text
+ENERGY LOWER BOUND
+
+SOURCE-EXISTENCE NO-GO
+
+SIGN THEOREM
+
+COLLECTIVE SCALING BOUND
+```
+
+---
+
+## 7.3 Action oracle
+
+An action-specific result that describes what the underlying action can achieve under a declared relaxation.
+
+Examples:
+
+```text
+PROVEN ACTION LOWER BOUND
+
+RELAXED ACTION-SPECIFIC OPTIMUM
+
+PARTIAL FINITE-PAYLOAD ORACLE
+
+SOURCE-SIDE SCALING ORACLE
+```
+
+An action oracle is not automatically a realized field.
+
+---
+
+## 7.4 Microscopic realization
+
+A field/source solution of the declared microscopic action.
+
+This still does not imply:
+
+```text
+STABILITY
+
+SUPPORT
+
+COMPLETE ENERGY
+
+EMPIRICAL VIABILITY.
+```
+
+---
+
+## 7.5 Mechanism metric
+
+A physically meaningful set of efficiency diagnostics measured in a sufficiently complete candidate.
+
+This is more demanding than an action oracle.
+
+---
+
+## 7.6 Survivor
+
+A candidate that has passed the declared AGMINER screening gates.
+
+---
+
+## 7.7 Certified survivor
+
+A candidate that has passed the project's declared physical certification stack.
+
+Current count:
+
+```text
+0.
+```
+
+---
+
+# 8. No oracle-to-model shortcut
+
+Permanent rule:
+
+> **A low action-oracle energy is evidence about the possible efficiency of an action or relaxation, not evidence that the complete microscopic source has that energy.**
+
+For example:
+
+```text
+V17 OBLATE:
+~59.42 kJ
+
+V18 SPHERE:
+~3.419 MJ
+```
+
+are partial action oracles.
+
+They are not:
+
+```text
+59-kJ ANTIGRAVITY DEVICE
+
+3.4-MJ ANTIGRAVITY DEVICE.
+```
+
+---
+
+# 9. Action-oracle contract
+
+Every action oracle should record, where applicable:
+
+```text
+CANONICAL_INVARIANT_ID
+
+THEORY_FAMILY
+
+ACTION_VERSION
+
+ORACLE_TYPE
+
+PROOF_REFERENCE
+
+PROVEN_LOWER_BOUND_J
+
+RELAXED_COMPLETE_ENERGY_J
+
+REALIZED_MICROSCOPIC_ENERGY_J
+
+LEDGER_SCOPE
+
+NORMALIZATION_INVARIANT
+
+NATURALNESS_SCREENED
+
+UNIVERSAL_METRIC_SCREENED
+
+FINITE_PAYLOAD_SCREENED
+
+SUPPORT_INCLUDED
+
+BACKREACTION_INCLUDED
+
+STABILITY_INCLUDED
+
+EMPIRICAL_SCREENED
+
+TRUSTED_FOR_REACHABILITY
+```
+
+---
+
+# 10. Ledger classes
+
+Every energy result must carry an explicit ledger class.
+
+Recommended standard classes:
+
+```text
+FIELD_ONLY
+
+SOURCE_ONLY
+
+SOURCE_PLUS_FIELD
+
+PARTIAL_OPTIMISTIC
+
+PARTIAL_CONSERVATIVE_FLOOR
+
+MICROSCOPIC_PARTIAL
+
+COMPLETE_STATIC
+
+COMPLETE_OPERATING
+```
+
+Current V17/V18 status:
+
+```text
+PARTIAL_OPTIMISTIC
+or
+PARTIAL_CONSERVATIVE_FLOOR
+
+depending on the reported component
+```
+
+but never:
+
+```text
+COMPLETE_OPERATING.
+```
+
+---
+
+# 11. Realization gap
+
+AGMINER must track:
+
+```math
+R_{\rm realization}
+=
+\frac{
+E_{\rm realized}
+}{
+E_{\rm action\ oracle}
+}
+```
+
+This separates two different scientific problems.
+
+Example A:
+
+```text
+ACTION ORACLE = 2 MJ
+REALIZED SOURCE = 200 MJ
+
+R_realization = 100
+```
+
+Interpretation:
+
+```text
+UNDERLYING ACTION MAY BE EFFICIENT
+
+REALIZATION / SCAFFOLDING IS BAD.
+```
+
+Example B:
+
+```text
+ACTION ORACLE = 150 MJ
+REALIZED SOURCE = 200 MJ
+
+R_realization ~ 1.33
+```
+
+Interpretation:
+
+```text
+REALIZATION IS ALREADY NEAR ACTION LIMIT
+
+UNDERLYING PHYSICS MUST CHANGE.
+```
+
+This distinction is permanent.
+
+---
+
+# 12. Introspective factorization
+
+The completed Introspective program established that useful response should not be collapsed into one opaque coupling.
+
+AGMINER should conceptually factor useful response per complete joule as:
+
+```math
+\frac{
+A_{\rm useful}
+}{
+E_{\rm complete}
+}
+\sim
+q_{\rm prod}
+K_{\rm eff}
+\frac{
+f_{\rm prod}
+}{
+C_{\rm cancel}
+}
+```
+
+where:
+
+```text
+q_prod
+=
+productive response or charge per productive joule
+
+K_eff
+=
+finite-payload kernel leverage
+
+f_prod
+=
+productive participation
+
+C_cancel
+=
+destructive cancellation factor
+```
+
+Scaffolding should be tracked independently.
+
+This is a guiding decomposition, not a universal exact equation.
+
+---
+
+# 13. Introspective search lessons
+
+AGMINER should preferentially seek:
+
+```text
+HIGH INTRINSIC CHARGE / RESPONSE PER JOULE
+
+HIGH PRODUCTIVE PARTICIPATION
+
+HIGH PAYLOAD KERNEL LEVERAGE
+
+LOW CANCELLATION
+
+COMPACT PAYLOAD-ADJACENT PRODUCTIVE STRUCTURE
+
+LOW SCAFFOLDING FRACTION
+
+SHARED SCAFFOLDING
+
+PHYSICAL SOURCE-METRIC COLOCATION
+```
+
+Historical Introspective findings include:
+
+```text
+~19.7% TEACHER ENERGY
+produced
+~92.2% GROSS OUTWARD INFLUENCE
+```
+
+and:
+
+```text
+B7 NEGATIVE-ACTIVE PARTICIPATION
+~5.15%
+
+RELAXED TEACHER
+~50%
+
+PARTICIPATION GAP
+~9.7X.
+```
+
+These are mechanism priors.
+
+They are not multiplicative free gains.
+
+---
+
+# 14. Never multiply historical gains blindly
+
+Forbidden reasoning:
+
+```text
+INTROSPECTIVE KERNEL GAIN
+×
+B7 MORPHOLOGY GAIN
+×
+NEW COUPLING GAIN
+×
+COLLECTIVE GAIN
+=
+DEVICE GAIN
+```
+
+unless all factors have been measured in the **same self-consistent physical candidate**.
+
+Cross-model factor multiplication is not a scientific energy prediction.
+
+---
+
+# 15. Canonical normalization is a Tier-0 gate
+
+V3–V5 demonstrated that apparently large leverage can disappear under field normalization.
+
+Permanent rule:
+
+> **A raw coupling is not an efficiency lever until canonical normalization proves that the gain is a physical invariant.**
+
+Before promotion, ask whether the apparent lever can be removed by:
+
+```text
+FIELD RESCALING
+
+WAVEFUNCTION NORMALIZATION
+
+PARAMETER RENAMING
+
+CUTOFF REDEFINITION
+
+CHANGE OF FIELD COORDINATE
+```
+
+If yes:
+
+```text
+NO PHYSICAL GAIN.
+```
+
+---
+
+# 16. Canonical invariant fingerprint
+
+Every new family should expose:
 
 ```python
-energy_lower_bound(params)
+canonical_invariants(params, config)
+```
+
+and preferably:
+
+```python
+canonical_invariant_id(params, config)
+```
+
+The invariant identity should encode the physically meaningful combinations after canonical normalization.
+
+This is separate from the ordinary candidate fingerprint.
+
+---
+
+# 17. Current canonical invariant lesson
+
+For the active V18 kinetic-conformal source:
+
+```math
+\mathcal L
+=
+-\frac{Z}{2}
+(\partial\phi)^2
++
+C_1
+(\partial\phi)^2
+O_{\rm matter}
++
+\frac1f
+\partial_\mu\phi
+J^\mu_5
+```
+
+under:
+
+```math
+\phi_c
+=
+\sqrt Z\,\phi,
+```
+
+one has:
+
+```math
+C_{1,c}
+=
+\frac{C_1}{Z}
+```
+
+and:
+
+```math
+f_c
+=
+f\sqrt Z.
+```
+
+Therefore:
+
+```math
+C_{1,c}f_c^2
+=
+C_1f^2.
+```
+
+Permanent AGMINER rule:
+
+```text
+DELTA_Z
+IS NOT
+AN AUTOMATIC ENERGY MULTIPLIER.
+```
+
+The problem is RG/UV matching of physical invariants.
+
+---
+
+# 18. Collective-scaling gate
+
+For a collective parameter `N`, define:
+
+```math
+r
+=
+\frac{
+d\ln A_{\rm useful}
+}{
+d\ln N
+}
+```
+
+and:
+
+```math
+s
+=
+\frac{
+d\ln E_{\rm complete}
+}{
+d\ln N
+}.
+```
+
+Promotion requires:
+
+```math
+r>s.
 ```
 
 If:
 
 ```text
-ENERGY_LOWER_BOUND_J > 1.0e10
+r = s
 ```
 
-then immediately classify:
+there is no asymptotic efficiency improvement.
+
+If:
 
 ```text
-REJECTED_ANALYTIC_ENERGY_LOWER_BOUND_GT_10GJ
+r < s
 ```
 
-No field solve is performed.
+the architecture becomes less efficient.
 
-This is one of the highest-value efficiency features in the entire miner.
-
-Similarly, if one unavoidable component alone exceeds 10 GJ:
+This is a mandatory screen for:
 
 ```text
-E_SOURCE_LOWER_BOUND > 10 GJ
+MULTIFIELD
 
-or
+MULTIFLAVOR
 
-E_MEDIATOR_LOWER_BOUND > 10 GJ
+TOPOLOGICAL CHARGE
 
-or
+COLLECTIVE SOURCE
 
-E_ACTIVATION_LOWER_BOUND > 10 GJ
+ARRAY
 
-or
-
-E_SUPPORT_LOWER_BOUND > 10 GJ
+COHERENT ENSEMBLE
 ```
 
-then the complete model is automatically impossible under the current objective.
+proposals.
+
+---
+
+# 19. Collective scaling does not prove a portal
+
+V7 and V8 demonstrated source-side shared-scaffold improvements.
+
+Those results were scientifically useful.
+
+They did **not** prove that the corresponding charge was metric-active.
+
+Therefore every collective-scaling record must distinguish:
+
+```text
+SOURCE SCALING =
+ESTABLISHED / CONDITIONAL
+
+PORTAL =
+ESTABLISHED / NOT ESTABLISHED
+
+FINITE PAYLOAD =
+ESTABLISHED / NOT ESTABLISHED.
+```
+
+---
+
+# 20. Current AGMINER scientific pipeline
+
+The default physical pipeline is now:
+
+```text
+0. PROVENANCE
+
+1. CANONICALIZATION
+
+2. THEORY HEALTH
+
+3. OPERATOR SIGN
+
+4. UNIVERSAL METRIC
+
+5. SOURCE-EXISTENCE THEOREM
+
+6. RANGE / SIDEDNESS
+
+7. ACTION ORACLE
+
+8. COLLECTIVE SCALING
+
+9. NATURALNESS / EFT
+
+10. MICROSCOPIC SOURCE
+
+11. FINITE PAYLOAD
+
+12. SOURCE REACTION
+
+13. COMPLETE SOURCE ENERGY
+
+14. SUPPORT / CONFINEMENT
+
+15. STABILITY
+
+16. RG / UV MATCHING
+
+17. RENORMALIZED VACUUM
+
+18. EMPIRICAL CLOSURE
+
+19. ACTIVATION / OFF STATE
+
+20. NONLINEAR METRIC BACKREACTION
+
+21. COMPLETE OPERATING LEDGER
+
+22. CERTIFICATION
+```
+
+Not every theory requires every step in exactly this order.
+
+The governing rule is:
+
+```text
+CHEAPEST DECISIVE PHYSICS FIRST.
+```
+
+---
+
+# 21. Search mode A — broad discovery
+
+Use broad discovery when:
+
+```text
+NO THEORY CLASS HAS CLEAR PRIORITY
+
+OR
+
+THE CURRENT CLASS HAS BEEN CLOSED
+
+OR
+
+A NEW PHYSICS FAMILY HAS BEEN DEFINED
+```
+
+Possible tools:
+
+```text
+SOBOL
+
+LATIN HYPERCUBE
+
+LOW-DIMENSIONAL RANDOM SEARCH
+
+ANALYTICAL REGION EXCLUSION
+
+SURROGATE PRIORITIZATION
+```
+
+Do not use blind rectangular grids unless the parameter space is genuinely small.
+
+---
+
+# 22. Search mode B — mechanism discovery
+
+Use when a theory family is known but the useful efficiency mechanism is unclear.
+
+Focus on:
+
+```text
+ACTION ORACLES
+
+CANONICAL INVARIANTS
+
+PRODUCTIVE PARTICIPATION
+
+KERNEL LEVERAGE
+
+COLLECTIVE SCALING
+
+REALIZATION GAP
+
+SCAFFOLDING TAX.
+```
+
+This was the role of V6–V10.
+
+---
+
+# 23. Search mode C — operator atlas
+
+Use when source-side mechanisms exist but the physical metric portal is uncertain.
+
+Rank candidate operators by:
+
+```text
+LOCALITY
+
+COVARIANCE
+
+STATIC SIGN
+
+UNIVERSALITY
+
+NORMALIZATION INVARIANCE
+
+SOURCE COMPATIBILITY
+
+NATURALNESS
+
+EMPIRICAL PLAUSIBILITY
+
+FINITE-PAYLOAD ACCESS.
+```
+
+This was the role of V12.
+
+---
+
+# 24. Search mode D — candidate-specific falsification
+
+Once one architecture clearly dominates structural criteria, stop broad mining.
+
+Attack that candidate sequentially.
+
+Current AGMINER mode:
+
+```text
+CANDIDATE_SPECIFIC_FALSIFICATION.
+```
+
+Current architecture:
+
+```text
+SHIFT-SYMMETRIC
+KINETIC-CONFORMAL
+UNIVERSAL PHYSICAL METRIC
+
++
+
+ZERO-NET
+HIDDEN-FERMION
+AXIAL DERIVATIVE SOURCE.
+```
+
+---
+
+# 25. Current best search principle
+
+Prefer an action in which:
+
+```text
+1. USEFUL GRAVITATIONAL CHARGE IS LOCAL AND COVARIANT
+
+2. THE PRODUCTIVE DEGREE OF FREEDOM IS ALREADY METRIC-ACTIVE
+
+3. NO SEPARATE EXPENSIVE MEDIATOR MUST BE BOLTED ON
+
+4. THE COUPLING SURVIVES CANONICAL NORMALIZATION
+
+5. A SYMMETRY PROTECTS NECESSARY SMALL / LARGE SCALES
+
+6. PRODUCTIVE PARTICIPATION CAN BE HIGH
+
+7. PRODUCTIVE STRUCTURE CAN SIT NEAR THE PAYLOAD
+
+8. CANCELLATION IS LOW
+
+9. SCAFFOLDING GROWS MORE SLOWLY THAN USEFUL RESPONSE
+
+10. COMPLETE FINITE-PAYLOAD ENERGY CAN PLAUSIBLY ENTER <10 MJ
+```
+
+The current kinetic-conformal class was selected because it matched more of these criteria than competing V12 operators.
+
+---
+
+# 26. Standard finite-payload benchmark
+
+Current benchmark:
+
+```text
+PAYLOAD_MASS_KG =
+1.0
+
+PAYLOAD_RADIUS_M =
+0.10
+
+TARGET_ADVERSE_SURFACE_ACCEL_MPS2 =
+9.80665
+```
+
+The source morphology may vary.
+
+The payload benchmark should not be silently changed to rescue a model.
+
+Primary finite-payload success requires:
+
+```text
+PAYLOAD OUTSIDE SOURCE
+
+NO SOURCE-PAYLOAD INTERSECTION
+
+SURFACE MINIMUM >= 9.80665 m/s^2
+
+CENTER-OF-MASS RESPONSE OUTWARD
+
+SOURCE OVERLAP WITH PAYLOAD BELOW DECLARED LIMIT
+```
+
+---
+
+# 27. Finite payload beats point response
+
+Do not rank a candidate from:
+
+```text
+POINT FORCE
+
+CENTER FORCE
+
+MAXIMUM LOCAL FORCE
+
+SCALAR CHARGE
+
+NEAR-SURFACE FIELD
+```
+
+alone.
+
+Track:
+
+```text
+PAYLOAD_SURFACE_MIN
+
+PAYLOAD_SURFACE_MAX
+
+SURFACE_NONUNIFORMITY
+
+PAYLOAD_VOLUME_AVERAGE
+
+PAYLOAD_CENTER_RESPONSE
+
+SOURCE_REACTION.
+```
+
+---
+
+# 28. Sidedness gate
+
+AGMINER must distinguish:
+
+```text
+LOCAL REPULSION
+
+EMBEDDED / TWO-SIDED RESPONSE
+
+EXTERNAL TRUE STANDOFF.
+```
+
+A candidate that only produces useful sign while the payload intersects or straddles the source does not pass true stand-off.
+
+---
+
+# 29. Complete energy definition
+
+The governing energy quantity is:
+
+```text
+E_CONSERVATIVE_COMPLETE_OPERATING.
+```
+
+Where applicable include:
+
+```text
+SOURCE PARTICLE / FIELD ENERGY
+
+MEDIATOR SELF-ENERGY
+
+PHYSICAL METRIC FIELD ENERGY
+
+SUPPORT
+
+CONFINEMENT
+
+BAG WALL
+
+LOCALIZATION
+
+STABILIZATION
+
+ACTIVATION
+
+CONTROL
+
+RESERVOIR
+
+FORMATION
+
+RESET
+
+REACTION
+
+RADIATION
+
+GR ATTRACTION
+
+PAYLOAD BACKREACTION
+
+SOURCE BACKREACTION
+
+METRIC BACKREACTION
+
+OFF-STATE ENERGY
+
+RANGE CONTROL
+
+RENORMALIZED VACUUM ENERGY
+
+UV-COMPLETION-REQUIRED PHYSICAL SECTORS.
+```
+
+---
+
+# 30. Negative interaction energy cannot hide positive inventory
+
+Preserve both:
+
+```text
+E_EXACT_HAMILTONIAN_J
+```
+
+and:
+
+```text
+E_CONSERVATIVE_COMPLETE_J.
+```
+
+Negative binding energy cannot be used to make an operating configuration appear practical if the required positive inventory is above the policy limit.
+
+---
+
+# 31. Early energy lower-bound rejection
+
+Every theory family should expose the strongest cheap lower bound available.
+
+Suggested:
+
+```python
+energy_lower_bound(params, config)
+```
+
+If:
+
+```text
+E_LOWER_BOUND >= 10 MJ
+```
+
+under a strict lower-bound proof and the policy requires `<10 MJ`:
+
+```text
+REJECT.
+```
+
+No field solve.
+
+Note the strict inequality.
+
+An exact proven lower bound of exactly:
+
+```text
+10 MJ
+```
+
+also eliminates the candidate under the current policy.
+
+---
+
+# 32. Component-level short circuit
+
+If an unavoidable nonnegative component satisfies:
+
+```text
+E_COMPONENT >= 10 MJ
+```
+
+then:
+
+```text
+E_COMPLETE >= 10 MJ.
+```
 
 Reject immediately.
 
----
-
-# 5. Historical Models Under the New Objective
-
-Existing models must not be forgotten, but AGMINER must distinguish:
+Examples:
 
 ```text
-SCIENTIFICALLY FALSIFIED
+SOURCE REST ENERGY
 
-from
+MANDATORY WALL ENERGY
 
-OBJECTIVE-REJECTED
+MEDIATOR SELF-ENERGY
+
+ACTIVATION RESERVOIR
+
+UNAVOIDABLE SUPPORT.
 ```
 
-Historical examples such as:
-
-```text
-~82.75 GJ prescribed-source oracle
-~96.14 GJ microscopic edge source
-~103 GJ morphology source
-~121.55 GJ robust microscopic source
-~127.78 GJ activated conservative ON configuration
-~273.46 GJ centered Q-ball
-~575 GJ minimal B7 scalar dressing
-```
-
-are not all physically falsified.
-
-They are, however, all above the AGMINER objective.
-
-Preload their fingerprints or representative parameter records as:
-
-```text
-REJECTED_ENERGY_GT_10GJ
-HISTORICAL_OBJECTIVE_REJECTION=TRUE
-```
-
-The miner may use them as training/control data.
-
-It must not promote them to the new shortlist.
+Only apply this when nonnegativity and indispensability are established.
 
 ---
 
-# 6. AGMINER Is a Discovery System, Not an Unbounded Theory Generator
+# 33. Provenance is a Tier-0 gate
 
-AGMINER cannot intelligently search arbitrary mathematical laws.
+V1 demonstrated that stale preliminary database rows can mimic a false low-energy frontier.
 
-It searches **parameterized theory families**.
-
-Every theory family must be explicitly defined before AGMINER searches it.
-
-Examples might eventually include:
+Every numerical claim must carry:
 
 ```text
-032_PROTECTED_PNGB_METRIC_SCALAR
+FAMILY_VERSION
 
-032_TWIN_PROTECTED_QUADRATIC_SCALAR
+ACTION_VERSION
 
-032_MULTISCALAR_PROTECTED_CHARGE
+IMPLEMENTATION_VERSION
 
-032_SHIFT_SYMMETRIC_ACTIVATION
+LEDGER_VERSION
 
-OTHER_EXPLICITLY_DEFINED_PROTECTED_FAMILY
+PAYLOAD_BENCHMARK_VERSION
+
+RESULT_STATUS
+
+SUPERSEDES
+
+SUPERSEDED_BY
+
+PROVENANCE_REFERENCE.
 ```
 
-The old 031 family should be included as a control implementation.
-
-That is useful because AGMINER should correctly rediscover that:
+Recommended result status:
 
 ```text
-031 CAN LOOK EXCELLENT CLASSICALLY
-BUT
-031 FAILS THE NEW <=10-GJ OBJECTIVE
-AND
-031 FAILS RADIATIVE NATURALNESS
+ACTIVE
+
+SUPERSEDED
+
+HISTORICAL_CONTROL
+
+INVALID
+
+UNRESOLVED.
 ```
 
-This becomes a powerful regression test for the miner itself.
+Only active trusted results may compete in current ranking.
 
 ---
 
-# 7. Theory-Family Plugin Contract
+# 34. Historical rows never silently compete
 
-All searchable families must implement a common interface.
-
-Suggested package:
+Historical results are useful for:
 
 ```text
-src/antigravity_research/agminer/
+CONTROL
+
+REGRESSION
+
+TRAINING
+
+FAILURE MEMORY
+
+LITERATURE COMPARISON.
 ```
 
-Suggested family interface:
+They should be marked:
+
+```text
+HISTORICAL = TRUE
+```
+
+and:
+
+```text
+ELIGIBLE_FOR_CURRENT_FRONTIER = FALSE
+```
+
+unless explicitly revalidated under the current theory and ledger.
+
+---
+
+# 35. Theory-family contract
+
+Generic AGMINER infrastructure should remain theory-independent.
+
+A family may expose a richer interface than the original plan.
+
+Recommended conceptual contract:
 
 ```python
 class TheoryFamily:
 
     family_id()
     family_version()
+    action_version()
 
     parameter_schema()
-
     sample_bounds()
-
     canonicalize_params(params)
 
-    analytic_precheck(params)
+    canonical_invariants(params, config)
+    canonical_invariant_id(params, config)
 
-    energy_lower_bound(params)
+    analytic_precheck(params, config)
+    dimensional_precheck(params, config)
+    sign_precheck(params, config)
+    universality_precheck(params, config)
+    source_existence_precheck(params, config)
 
-    naturalness_precheck(params)
+    naturalness_precheck(params, config)
+    eft_precheck(params, config)
+    empirical_precheck(params, config)
 
-    eft_precheck(params)
+    energy_lower_bound(params, config)
+    action_oracle(params, config)
+
+    collective_scaling_probe(params, config)
 
     build_initial_guess(params, neighbor=None)
-
     solve_coarse(params, initial_guess=None)
 
-    reconstruct_observables(solution, params)
+    reconstruct_observables(solution, params, config)
 
-    estimate_complete_energy(solution, params)
+    estimate_energy_ledger(solution, params, config)
 
-    finite_payload_response(solution, params)
+    finite_payload_response(solution, params, config)
 
-    conservation_checks(solution, params)
+    conservation_checks(solution, params, config)
+    support_checks(solution, params, config)
+    backreaction_checks(solution, params, config)
+    leakage_checks(solution, params, config)
 
-    cheap_stability_checks(solution, params)
+    cheap_stability_checks(solution, params, config)
 
-    leakage_checks(solution, params)
+    mechanism_metrics(solution, params, config)
 
-    backreaction_checks(solution, params)
-
-    serialize_survivor(solution, params)
-
-    certify_not_implemented()
+    serialize_checkpoint(solution, params, config)
 ```
 
-AGMINER itself should contain no theory-specific equations.
+Not every family needs every method.
 
-Theory physics belongs in family plugins.
-
----
-
-# 8. Mandatory Theory-Level Preflight
-
-Before numerical field solving, every candidate must pass the cheapest theory checks available.
-
-Possible failure codes:
+Unsupported methods should return an explicit:
 
 ```text
-FAIL_UNBOUNDED_HAMILTONIAN
-
-FAIL_GHOST
-
-FAIL_WRONG_KINETIC_SIGN
-
-FAIL_TACHYONIC_OFF_VACUUM
-
-FAIL_NO_CONSERVED_CHARGE
-
-FAIL_NO_UNIVERSAL_PHYSICAL_METRIC
-
-FAIL_PRESCRIBED_SPATIAL_COUPLING
-
-FAIL_PRESCRIBED_SPATIAL_MEDIATOR_MASS
-
-FAIL_NONLOCAL_UNCONTROLLED_SOURCE
-
-FAIL_WRONG_FORCE_SIGN
-
-FAIL_RANGE
-
-FAIL_ANALYTIC_ENERGY_BOUND
-
-FAIL_EFT
-
-FAIL_NATURALNESS
-
-FAIL_EMPIRICAL_STRUCTURE
-```
-
-These should occur before any expensive BVP whenever possible.
-
----
-
-# 9. Naturalness Moves to the Front
-
-031 demonstrated that naturalness cannot remain a final test.
-
-AGMINER must perform radiative-naturalness screening before expensive stability work.
-
-At minimum, each family must state:
-
-```text
-ULTRALIGHT_MODE_MASS
-COUPLING_SCALE
-DECLARED_EFT_CUTOFF
-RELEVANT_HEAVY_THRESHOLDS
-RADIATIVE_PROTECTION_MECHANISM
-PROTECTION_SYMMETRY
-PROTECTION_BREAKING_PARAMETERS
-EXPECTED_LOOP_CORRECTION
-```
-
-A family cannot pass merely because it labels itself:
-
-```text
-PROTECTED
-```
-
-Protection must have an explicit calculable mechanism.
-
-Examples of acceptable evidence:
-
-```text
-SHIFT SYMMETRY
-PNGB STRUCTURE
-TWIN / MIRROR CANCELLATION
-SUPERSYMMETRIC CANCELLATION
-SEQUESTERING
-OTHER EXPLICIT LOOP-CANCELLATION MECHANISM
-```
-
-The miner must calculate a quantitative naturalness margin such as:
-
-```math
-{\cal N}
-=
-\frac{m_{\rm intended}^2}
-{|\delta m^2|}.
-```
-
-or equivalently:
-
-```text
-DELTA_M2_OVER_M2
-```
-
-Suggested initial hard preflight:
-
-```text
-DELTA_M2_OVER_M2 <= 10
-```
-
-unless an explicit protection mechanism calculates the cancellation rather than assuming it.
-
-Unprotected 031 should fail here immediately.
-
----
-
-# 10. Standard Physical Benchmark
-
-Candidates must be compared on the same finite-payload target.
-
-Initial AGMINER benchmark:
-
-```text
-PAYLOAD_MASS_KG = 1.0
-
-PAYLOAD_RADIUS_M = 0.10
-
-TARGET_ADVERSE_SURFACE_ACCEL_MPS2 = 9.80665
-
-TARGET_CM_ACCEL_MPS2 >= 9.80665
-```
-
-The source morphology may vary.
-
-The payload benchmark does not.
-
-Primary finite-payload success requires:
-
-```text
-PAYLOAD_CM_OUTWARD = TRUE
-
-PAYLOAD_SURFACE_MIN >= 9.80665 m/s^2
-
-NO_PAYLOAD_INTERSECTION_WITH_SOURCE
-
-SOURCE_OVERLAP BELOW FAMILY LIMIT
-```
-
-The miner must optimize the actual finite payload.
-
-Do not rank candidates using only:
-
-```text
-POINT FORCE
-CENTER FORCE
-MAXIMUM LOCAL FORCE
-SCALAR CHARGE ALONE
-```
-
----
-
-# 11. Standard Candidate Objective
-
-A candidate must first satisfy all hard gates.
-
-Only then is it ranked.
-
-Primary ranking quantity:
-
-```text
-E_CONSERVATIVE_COMPLETE_J
-```
-
-Primary goal:
-
-```text
-MINIMIZE E_CONSERVATIVE_COMPLETE_J
-```
-
-subject to:
-
-```text
-E <= 10 GJ
-
-FINITE PAYLOAD >= 1g
-
-POSITIVE HAMILTONIAN
-
-CONSERVATION
-
-REQUIRED ENERGY CONDITIONS
-
-BOUND / LOCALIZED SOURCE
-
-LOW LEAKAGE
-
-ACCEPTABLE PAYLOAD BACKREACTION
-
-NATURALNESS
-
-EFT VALIDITY
-
-NO OBVIOUS INSTABILITY
-```
-
-Secondary useful metric:
-
-```math
-\eta_{\rm AG}
-=
-\frac
-{a_{\rm useful,payload}}
-{E_{\rm conservative,complete}}.
-```
-
-Also record:
-
-```text
-SCALAR_CHARGE_PER_JOULE
-PRODUCTIVE_PARTICIPATION
-KERNEL_LEVERAGE
-CANCELLATION
-SOURCE_TAIL_TAX
-MEDIATOR_SELF_ENERGY_TAX
-STABILITY_TAX
-ACTIVATION_TAX
-CONTROL_TAX
-SCAFFOLDING_TAX
-```
-
-These preserve the useful Introspective lessons.
-
----
-
-# 12. Hard Gates Versus Ranking Metrics
-
-Never combine physical validity and desirability into one opaque score.
-
-First:
-
-```text
-PASS / FAIL
-```
-
-Then rank survivors.
-
-Hard gates include:
-
-```text
-THEORY_VALIDITY
-NATURALNESS
-EFT
-ENERGY <= 10 GJ
-FINITE-PAYLOAD SIGN
-SURFACE >= 1g
-POSITIVE ENERGY
-CONSERVATION
-LOCALIZATION
-LEAKAGE LIMIT
-BACKREACTION LIMIT
-CHEAP STABILITY REQUIREMENT
-```
-
-Ranking metrics include:
-
-```text
-LOWER ENERGY
-MORE ENERGY MARGIN
-MORE LEAKAGE MARGIN
-MORE NATURALNESS MARGIN
-MORE STABILITY MARGIN
-MORE PAYLOAD MARGIN
-LESS CANCELLATION
-LESS SCAFFOLDING
-LESS CONTROL ENERGY
-GREATER DISTANCE FROM PARAMETER BOUNDARIES
-```
-
----
-
-# 13. Multi-Fidelity Screening Pipeline
-
-## Tier 0 — Algebraic / Analytical
-
-Target cost:
-
-```text
-MICROSECONDS TO MILLISECONDS
-```
-
-Checks:
-
-```text
-DEDUPE
-
-KNOWN FAILURE LOOKUP
-
-DIMENSIONAL CONSISTENCY
-
-SIGN CHECK
-
-BOUNDED HAMILTONIAN
-
-GHOST / TACHYON PRECHECK
-
-RANGE
-
-NATURALNESS
-
-EFT
-
-ANALYTIC ENERGY LOWER BOUND
-
-COUPLING LIMITS
-
-OFF-STATE STRUCTURE
-
-UNIVERSAL METRIC STRUCTURE
-```
-
-If Tier 0 fails, do not solve a field equation.
-
----
-
-## Tier 1 — Coarse Field Existence
-
-Target:
-
-```text
-CHEAP RADIAL / REDUCED SOLVE
-```
-
-Use modest resolution.
-
-No expensive angular spectrum.
-
-No dense stability matrix.
-
-No Einstein solve.
-
-No nonlinear evolution.
-
-Outputs:
-
-```text
-FIELD_EXISTENCE
-
-COARSE_ENERGY
-
-NOETHER_CHARGE
-
-E_OVER_QM
-
-LOCALIZATION
-
-SOURCE_RADIUS
-
-TAIL_AMPLITUDE
-
-COARSE_CONSERVATION_RESIDUAL
-```
-
-Immediately apply the 10 GJ gate.
-
-If:
-
-```text
-E_COMPLETE_ESTIMATE > 10 GJ
-```
-
-record:
-
-```text
-REJECTED_ENERGY_GT_10GJ
-```
-
-and stop.
-
----
-
-## Tier 1B — Cheap Finite-Payload Physics
-
-For sub-10-GJ field solutions only.
-
-Compute:
-
-```text
-PAYLOAD_CM_ACCEL
-
-PAYLOAD_SURFACE_MIN
-
-PAYLOAD_SURFACE_MAX
-
-SOURCE_OVERLAP
-
-LEAKAGE
-
-BACKREACTION_PROXY
-
-PRODUCTIVE_KERNEL_PARTICIPATION
-
-CANCELLATION_RATIO
-```
-
-Reject immediately if finite-payload true antigravity fails.
-
----
-
-## Tier 1C — Cheap Stability
-
-Only after energy and payload success.
-
-Possible tests:
-
-```text
-dQ/domega
-
-dE/dQ consistency
-
-LOWEST RADIAL HESSIAN EIGENVALUE
-
-SELECTED LOW-l MODES
-
-NO OBVIOUS TACHYON
-
-TRANSLATIONAL ZERO-MODE SANITY CHECK
-```
-
-Do not run the R3-R5 certification stack here.
-
-The purpose is only to remove obviously unstable candidates.
-
----
-
-## Tier 2 — Shortlist Screening
-
-Only a small fraction of Tier-1 survivors should reach Tier 2.
-
-Suggested target:
-
-```text
-TOP 0.1% TO 1%
-```
-
-Tier 2 adds:
-
-```text
-HIGHER GRID
-
-DOMAIN CHECK
-
-ALTERNATE BOUNDARY CONDITION
-
-PARAMETER PERTURBATIONS
-
-LEAKAGE ROBUSTNESS
-
-BACKREACTION ROBUSTNESS
-
-SEVERAL ANGULAR MODES
-
-ENERGY RECONSTRUCTION
-
-INDEPENDENT FORCE RECONSTRUCTION
-
-NATURALNESS RECHECK
-
-EFT RECHECK
-```
-
-A Tier-2 candidate exceeding 10 GJ after better reconstruction is immediately reclassified:
-
-```text
-REJECTED_ENERGY_GT_10GJ
-```
-
-Tier 1 survival does not grandfather it in.
-
----
-
-## Tier 3 — Certification Handoff
-
-AGMINER does not perform full Tier 3.
-
-It exports a certification packet.
-
-Possible later gates:
-
-```text
-FULL COUPLED SPECTRUM
-
-GOLDSTONE PROJECTION
-
-NONLINEAR STABILITY
-
-ACTIVATION
-
-RESERVOIR
-
-SWITCHING
-
-FULL T_MUNU
-
-EINSTEIN / PHYSICAL METRIC
-
-RADIATION
-
-FULL NATURALNESS
-
-EMPIRICAL CLOSURE
-
-SUPPORT / PRACTICALITY
-```
-
----
-
-# 14. Candidate State Machine
-
-Every model has one persistent state.
-
-Suggested states:
-
-```text
-NEW
-
-TIER0_RUNNING
-
-REJECTED_TIER0
-
-TIER1_RUNNING
-
-REJECTED_NUMERICAL
-
-REJECTED_ENERGY_GT_10GJ
-
-REJECTED_PAYLOAD
-
-REJECTED_CONSERVATION
-
-REJECTED_NATURALNESS
-
-REJECTED_EFT
-
-REJECTED_STABILITY
-
-REJECTED_LEAKAGE
-
-REJECTED_BACKREACTION
-
-TIER1_SURVIVOR
-
-TIER2_RUNNING
-
-TIER2_SURVIVOR
-
-CERTIFICATION_READY
-
-CERTIFICATION_IN_PROGRESS
-
-CERTIFIED
-
-INVALIDATED_BY_LATER_GATE
-```
-
-Terminal rejection states must be explicit.
-
----
-
-# 15. Rejection Memory
-
-This is mandatory.
-
-AGMINER must have persistent failure memory.
-
-Each candidate receives a deterministic fingerprint from:
-
-```text
-FAMILY_ID
-FAMILY_VERSION
-CANONICAL_PARAMETER_VECTOR
-PHYSICAL_MODEL_VERSION
-ENERGY_LEDGER_VERSION
-```
-
-Example:
-
-```python
-candidate_id = sha256(canonical_bytes).hexdigest()[:24]
-```
-
-The hash is an identifier only.
-
-Do not use encoded source code.
-
-Before evaluating any candidate:
-
-```text
-LOOK UP candidate_id
-```
-
-If the ID already exists with a terminal state:
-
-```text
-SKIP
-```
-
-Print only:
-
-```text
-SKIP_KNOWN=<candidate_id>
-```
-
-if useful.
-
-Do not recompute it.
-
----
-
-# 16. Exact Failure Memory Versus Region Exclusion
-
-One failed point does not automatically prove its neighbors fail.
-
-Therefore AGMINER must distinguish:
-
-```text
-EXACT_REJECTION
-
-from
-
-PROVEN_REGION_REJECTION
-```
-
-An exact 12-GJ candidate means:
-
-```text
-THAT EXACT MODEL IS DEAD FOR AGMINER
-```
-
-It does not automatically prove a nearby parameter point cannot reach 9 GJ.
-
-Regions may only be banned when there is a mathematical or monotonic justification.
-
-Examples:
-
-```text
-ANALYTIC LOWER BOUND
-
-MONOTONIC ENERGY THEOREM
-
-NO-GO CONDITION
-
-INVALID PARAMETER DOMAIN
-
-GHOST REGION
-
-RANGE IMPOSSIBILITY REGION
-```
-
-Otherwise use the failure only to reduce sampling priority, not to ban the neighborhood.
-
----
-
-# 17. Failure Codes
-
-Use small machine-readable codes.
-
-Suggested core codes:
-
-```text
-E001 ENERGY_LOWER_BOUND_GT_10GJ
-
-E002 ENERGY_COARSE_GT_10GJ
-
-E003 ENERGY_REFINED_GT_10GJ
-
-T001 UNBOUNDED_HAMILTONIAN
-
-T002 GHOST
-
-T003 WRONG_KINETIC_SIGN
-
-T004 OFF_TACHYON
-
-T005 NO_UNIVERSAL_METRIC
-
-T006 HAND_PRESCRIBED_LOCAL_PARAMETER
-
-N001 NATURALNESS
-
-N002 EFT_CUTOFF
-
-N003 PROTECTION_UNSPECIFIED
-
-F001 NO_FIELD_SOLUTION
-
-F002 NONLOCALIZED
-
-F003 E_OVER_QM_FAIL
-
-P001 PAYLOAD_CM_SIGN
-
-P002 PAYLOAD_SURFACE_LT_1G
-
-P003 SOURCE_OVERLAP
-
-P004 WRONG_SIDEDNESS
-
-C001 CONSERVATION
-
-C002 POSITIVE_ENERGY
-
-C003 DEC
-
-S001 RADIAL_INSTABILITY
-
-S002 CHEAP_ANGULAR_INSTABILITY
-
-L001 LEAKAGE
-
-B001 BACKREACTION
-
-R001 RANGE
-
-D001 DUPLICATE
-
-X001 TIMEOUT
-
-X002 NUMERICAL_UNRESOLVED
-```
-
-A human-readable explanation may be generated from the code when reports are produced.
-
-Do not store large repeated error strings for every candidate.
-
----
-
-# 18. Numerical Failure Is Not Physics Failure
-
-Distinguish:
-
-```text
-PHYSICS_REJECTED
-
-from
-
-NUMERICALLY_UNRESOLVED
-```
-
-A failed BVP should not automatically become:
-
-```text
-MODEL_PHYSICALLY_IMPOSSIBLE
-```
-
-Suggested policy:
-
-1. first solve attempt;
-2. one cheap alternate seed / continuation attempt;
-3. if both fail, classify:
-
-```text
-NUMERICAL_UNRESOLVED
-```
-
-AGMINER should not repeatedly retry it during the same mining campaign.
-
-It may be manually revisited later.
-
-Above-10-GJ results, by contrast, are genuine objective rejections and need no retry.
-
----
-
-# 19. Search Strategy
-
-Do not use a giant rectangular grid.
-
-Initial search mix:
-
-```text
-60% GLOBAL EXPLORATION
-
-30% LOCAL EXPLOITATION
-
-10% NOVELTY / BOUNDARY EXPLORATION
-```
-
----
-
-# 20. Global Exploration
-
-Use low-discrepancy sampling.
-
-Preferred:
-
-```python
-scipy.stats.qmc.Sobol
+NOT_APPLICABLE
 ```
 
 or:
 
-```python
-LatinHypercube
-```
-
-Sobol is preferred for reproducible broad coverage.
-
-Benefits:
-
 ```text
-BETTER COVERAGE THAN RANDOM
-
-DETERMINISTIC
-
-RESUMABLE
-
-CHEAP
-
-NO NEW DEPENDENCY
+NOT_IMPLEMENTED
 ```
 
-Store:
-
-```text
-SAMPLER_SEED
-
-SAMPLE_INDEX
-```
-
-so samples can be regenerated.
+rather than silently passing.
 
 ---
 
-# 21. Local Exploitation
+# 36. Generic core versus family physics
 
-Once promising regions appear, seed local samples around Tier-1 or Tier-2 survivors.
-
-Do not immediately run expensive gradient optimization.
-
-Use cheap adaptive perturbations.
-
-Example:
+Generic infrastructure belongs in:
 
 ```text
-PARENT = PROMISING CANDIDATE
-
-PARAM_i_NEW
-=
-PARAM_i_PARENT
-+
-sigma_i * NORMAL(0,1)
+src/antigravity_research/agminer/
 ```
 
-Shrink `sigma` gradually when a cluster improves.
+Theory-specific equations belong in:
 
-Maintain diversity so one basin does not monopolize the run.
+```text
+families/
+
+or
+
+clearly named scientific diagnostic modules.
+```
+
+The generic scheduler, database, policy, provenance, reporting, and Pareto systems should not depend on one candidate theory.
 
 ---
 
-# 22. Continuation
+# 37. Current V6 infrastructure
 
-Continuation is especially important for nonlinear BVP families.
-
-If candidate B is close to solved candidate A:
+Preserve the V6 architecture:
 
 ```text
-USE A'S SOLUTION AS B'S INITIAL GUESS
+agminer/mechanism.py
+
+agminer/oracle.py
+
+agminer/normalization.py
+
+agminer/discovery.py
 ```
 
-This can reduce solve time dramatically.
+plus corresponding integration in:
 
-A small in-memory nearest-neighbor cache may contain only recent successful coarse profiles.
+```text
+storage.py
 
-Do not retain all profiles on disk.
+pareto.py
+
+reporting.py
+
+families/base.py
+
+__init__.py
+```
+
+These modules represent a permanent evolution of AGMINER.
 
 ---
 
-# 23. Adaptive Search Budget
+# 38. Current scientific modules
 
-AGMINER should not have a fixed assumption about candidates per hour.
-
-Measure:
+Current later scientific support includes modules such as:
 
 ```text
-MEDIAN_TIER0_TIME
+axial_dirac_meanfield.py
 
-MEDIAN_TIER1_TIME
+c1_payload_matching.py
 
-MEDIAN_TIER1B_TIME
-
-MEDIAN_TIER1C_TIME
+universal_metric_support.py
 ```
 
-Then adapt.
+along with earlier V-series diagnostic families.
 
-Example target:
-
-```text
->90% OF GENERATED POINTS SHOULD DIE BEFORE EXPENSIVE SCREENING
-
-<10% SHOULD RECEIVE A FIELD SOLVE
-
-<1% SHOULD RECEIVE STABILITY SCREENING
-
-<0.1% SHOULD REACH TIER 2
-```
-
-If too many candidates reach expensive gates, strengthen cheap filters.
+These should remain separate from generic infrastructure.
 
 ---
 
-# 24. Pareto Frontier
-
-Do not retain only one scalar score.
-
-Maintain a Pareto frontier over:
-
-```text
-ENERGY
-
-ENERGY_MARGIN_TO_10GJ
-
-FINITE_PAYLOAD_MARGIN
-
-NATURALNESS_MARGIN
-
-STABILITY_MARGIN
-
-LEAKAGE_MARGIN
-
-BACKREACTION_MARGIN
-
-EFT_MARGIN
-
-CANCELLATION
-
-CONTROL_ENERGY
-```
-
-The primary ordering remains energy.
-
-The Pareto frontier prevents AGMINER from throwing away a slightly higher-energy but dramatically safer model.
-
-Example:
-
-```text
-Candidate A:
-2.1 GJ
-barely stable
-barely natural
-leak near limit
-
-Candidate B:
-2.8 GJ
-large stability margin
-large naturalness margin
-low leakage
-```
-
-Both belong on the frontier.
-
----
-
-# 25. Certification Candidate Ranking
-
-Produce several rankings.
-
-```text
-LOWEST_ENERGY
-
-BEST_ROBUSTNESS
-
-BEST_NATURALNESS
-
-BEST_STABILITY_MARGIN
-
-BEST_PAYLOAD_MARGIN
-
-BEST_OVERALL_PARETO
-```
-
-Do not automatically certify only Rank #1.
-
-Recommended final shortlist:
-
-```text
-3 TO 10 CANDIDATES
-```
-
-if that many genuinely survive.
-
----
-
-# 26. Disk-Light Storage Architecture
-
-Do not create one log file per candidate.
-
-Do not save full field arrays for rejected candidates.
-
-Do not save solver iteration histories unless debugging.
+# 39. Database architecture
 
 Primary persistent database:
 
@@ -1378,999 +1647,1451 @@ Primary persistent database:
 results/agminer/agminer.sqlite3
 ```
 
-SQLite is preferred because it is:
+SQLite remains appropriate because it is:
 
 ```text
-COMPACT
-
 TRANSACTIONAL
-
-CRASH RESISTANT
 
 QUERYABLE
 
-STANDARD LIBRARY
+RESUMABLE
 
-EASY TO RESUME
+COMPACT RELATIVE TO RAW SIMULATION OUTPUT
 
-BETTER THAN THOUSANDS OF JSON FILES
+AVAILABLE WITHOUT EXTERNAL SERVICES.
 ```
 
 ---
 
-# 27. Database Tables
+# 40. Core database tables
 
-Suggested tables:
-
-## runs
+Retain core tables conceptually equivalent to:
 
 ```text
-run_id
-start_time
-end_time
-family_version
-config_hash
-sampler_seed
-candidate_count
-reject_count
-survivor_count
-best_energy_j
+runs
+
+models
+
+rejections
+
+survivors
+
+region_rules
 ```
 
-## models
+and V6 additions:
 
-Store only compact metadata.
+```text
+mechanism_metrics
+
+action_oracles
+
+collective_scaling.
+```
+
+Additional provenance tables may be added if cleaner than overloading model rows.
+
+---
+
+# 41. Models table
+
+Store compact candidate identity and latest screening state.
+
+Suggested important fields:
 
 ```text
 candidate_id
+
 family_id
+
 family_version
-params_json_compact
+
+action_version
+
+canonical_invariant_id
+
+params_json
+
 state
+
 tier
+
+result_status
+
+ledger_class
+
 energy_j
-payload_cm
+
 payload_surface_min
+
+payload_surface_max
+
+payload_cm
+
 naturalness_margin
+
+eft_margin
+
 stability_proxy
+
 leakage
+
 backreaction
+
 runtime_s
+
 created_run_id
 ```
 
-## rejections
+---
+
+# 42. Rejections table
+
+Recommended fields:
 
 ```text
 candidate_id
+
 family_id
-fail_code
+
+failure_code
+
 gate
+
+policy_id
+
+policy_specific
+
 energy_j
+
+proof_reference
+
+result_version
+
 run_id
+
+preserve_detail
 ```
 
-## survivors
+This permits target-dependent energy rejection without conflating it with permanent physical no-goes.
+
+---
+
+# 43. Action-oracle table
+
+Recommended fields:
+
+```text
+oracle_id
+
+canonical_invariant_id
+
+family_id
+
+family_version
+
+oracle_type
+
+proof_reference
+
+ledger_class
+
+proven_lower_bound_j
+
+relaxed_energy_j
+
+realized_energy_j
+
+normalization_invariant
+
+finite_payload_screened
+
+naturalness_screened
+
+universal_metric_screened
+
+support_included
+
+stability_included
+
+trusted_for_reachability
+
+result_status
+```
+
+---
+
+# 44. Mechanism-metrics table
+
+Do not populate this merely because an action oracle is attractive.
+
+Recommended fields:
 
 ```text
 candidate_id
-rank_energy
-pareto
-checkpoint_path
-certification_priority
+
+productive_charge_per_joule
+
+productive_participation
+
+kernel_leverage
+
+cancellation_factor
+
+scaffolding_fraction
+
+realization_gap
+
+finite_payload_margin
+
+support_fraction
+
+control_fraction
+
+naturalness_margin
+
+stability_margin
+
+metric_response_class
+
+ledger_class
 ```
 
-## region_rules
-
-Only mathematically justified exclusions.
+Current count:
 
 ```text
-family_id
-rule_id
-rule_type
-bounds
-reason
-proof_reference
+0
 ```
+
+is scientifically correct because no sufficiently complete physical 032 realization has earned promotion.
 
 ---
 
-# 28. Compact Parameter Storage
+# 45. Collective-scaling table
 
-Use compact canonical JSON:
+Store:
 
-```python
-json.dumps(
-    params,
-    sort_keys=True,
-    separators=(",", ":"),
-)
+```text
+candidate_or_oracle_id
+
+collective_parameter
+
+response_exponent_r
+
+energy_exponent_s
+
+efficiency_exponent_r_minus_s
+
+scaffold_exponent
+
+portal_status
+
+finite_payload_status
+
+proof_reference.
 ```
 
-Do not pretty-print per-candidate JSON.
+Do not infer a physical antigravity gain solely from:
 
-Pretty reports are generated only for finalists.
+```text
+r > s.
+```
+
+The useful charge must also couple to the physical metric.
 
 ---
 
-# 29. Field-Array Retention Policy
+# 46. Candidate identity
 
-Rejected candidate:
-
-```text
-KEEP NO FIELD ARRAYS
-```
-
-Ordinary Tier-1 survivor:
-
-```text
-KEEP NO FIELD ARRAYS AFTER OBSERVABLE EXTRACTION
-```
-
-Current Pareto frontier:
-
-```text
-OPTIONALLY KEEP DOWNSAMPLED CHECKPOINT
-```
-
-Top certification candidates:
-
-```text
-KEEP COMPRESSED NUMERICAL CHECKPOINT
-```
-
-Suggested cap:
-
-```text
-MAX_CHECKPOINTED_CANDIDATES = 25
-```
-
-When a new candidate enters the top set:
-
-```text
-SAVE IT
-```
-
-When one falls out:
-
-```text
-DELETE ITS CHECKPOINT
-```
-
-Database metadata remains.
-
----
-
-# 30. Log Policy
-
-No per-model logs.
-
-Main mining log only:
-
-```text
-results/agminer/agminer_current.log
-```
-
-Use rotating logs.
-
-Suggested:
-
-```text
-MAX LOG SIZE = 2 MB
-
-BACKUP COUNT = 2
-```
-
-Maximum routine text-log footprint:
-
-```text
-~6 MB
-```
-
-Log only:
-
-```text
-RUN START
-
-RUN END
-
-EVERY N CANDIDATES
-
-NEW BEST
-
-NEW PARETO CANDIDATE
-
-NEW FAILURE CLASS
-
-UNEXPECTED EXCEPTION
-
-DATABASE CHECKPOINT
-```
-
-Do not log every solver iteration.
-
-Set numerical solver verbosity to zero during ordinary mining.
-
----
-
-# 31. Progress Reporting
-
-Terminal progress every:
-
-```text
-100 candidates
-```
-
-or every:
-
-```text
-60 seconds
-```
-
-whichever is less noisy.
-
-Example:
-
-```text
-AGMINER
-tested=12400
-tier0_reject=11733
-tier1_reject=641
-tier1_survivor=26
-tier2_survivor=3
-best=2.84_GJ
-db=18.4_MB
-rate=127_candidates_min
-```
-
-That is sufficient.
-
----
-
-# 32. Summary Files
-
-Generate lightweight reports periodically:
-
-```text
-results/agminer/top_candidates.csv
-
-results/agminer/pareto_frontier.csv
-
-results/agminer/failure_counts.csv
-
-results/agminer/run_summary.json
-```
-
-Overwrite these summaries.
-
-Do not create timestamped copies every few minutes.
-
-Only major campaign closeouts need archival snapshots.
-
----
-
-# 33. Disk Budget
-
-Initial target:
-
-```text
-DATABASE:
-< 100 MB PER MAJOR CAMPAIGN
-
-LOGS:
-< 10 MB
-
-CHECKPOINTS:
-< 250 MB TOTAL
-
-SUMMARY FILES:
-< 5 MB
-```
-
-Preferred normal footprint:
-
-```text
-WELL BELOW 250 MB
-```
-
-even after many hours.
-
-If the database exceeds its configured budget:
-
-```text
-STOP GENERATING NEW CANDIDATES
-COMPACT
-REPORT
-```
-
-Do not silently fill the drive.
-
----
-
-# 34. SQLite Maintenance
-
-Suggested operational settings:
-
-```text
-WAL MODE DURING ACTIVE RUN
-
-PERIODIC TRANSACTION COMMITS
-
-PERIODIC WAL CHECKPOINT
-
-WAL TRUNCATE AT CLEAN SHUTDOWN
-```
-
-Do not commit after every tiny calculation if batching can be used.
-
-Suggested database write batch:
-
-```text
-25 TO 100 RESULTS
-```
-
-Crash-loss tolerance should remain small.
-
----
-
-# 35. Parallelism
-
-AGMINER should support multiprocessing.
-
-Do not allow worker processes to write SQLite directly.
-
-Architecture:
-
-```text
-MAIN PROCESS
-    ├── scheduler
-    ├── rejection lookup
-    ├── result writer
-    └── progress reporter
-
-WORKER 1
-WORKER 2
-WORKER 3
-...
-```
-
-Workers return compact result dictionaries.
-
-Only the main process writes the database.
-
-This avoids SQLite lock contention and corrupted mixed logs.
-
----
-
-# 36. CPU Budget
-
-Default:
-
-```text
-WORKERS
-=
-max(1, CPU_COUNT - 1)
-```
-
-but permit a config override.
-
-Do not automatically consume every core.
-
-Leave one core for:
-
-```text
-OS
-VS CODE
-DATABASE WRITER
-USER INTERACTION
-```
-
----
-
-# 37. Memory Budget
-
-Workers must not accumulate solutions indefinitely.
-
-After each candidate:
-
-```text
-EXTRACT OBSERVABLES
-
-OPTIONALLY SERIALIZE IF TOP CANDIDATE
-
-DELETE SOLUTION
-
-RELEASE LARGE ARRAYS
-```
-
-Warm-start caches should be bounded.
-
-Example:
-
-```text
-MAX_WARM_STARTS_PER_WORKER = 8
-```
-
----
-
-# 38. Candidate Timeouts
-
-Tier-1 searches are supposed to be cheap.
-
-Set configurable soft limits.
-
-Example initial values:
-
-```text
-TIER0_TARGET < 0.01 s
-
-TIER1_SOFT_TARGET < 3 s
-
-TIER1_TIMEOUT = 15 s
-
-TIER1C_TIMEOUT = 30 s
-
-TIER2 = SEPARATE QUEUE
-```
-
-A timeout is:
-
-```text
-NUMERICAL_UNRESOLVED
-```
-
-not a physics falsification.
-
----
-
-# 39. Search Queues
-
-Use separate queues:
-
-```text
-DISCOVERY_QUEUE
-
-LOCAL_REFINEMENT_QUEUE
-
-TIER2_QUEUE
-```
-
-The main mining process should prioritize broad cheap discovery.
-
-Tier 2 should never starve Tier 0/1 discovery.
-
-Possible allocation:
-
-```text
-70% WORKER TIME = DISCOVERY
-
-20% = LOCAL REFINEMENT
-
-10% = TIER2
-```
-
-Adjust based on results.
-
----
-
-# 40. Fail-Fast Evaluation Order
-
-Every candidate should be processed in approximately this order:
-
-```text
-1. CANONICALIZE PARAMETERS
-
-2. GENERATE CANDIDATE ID
-
-3. CHECK DATABASE
-
-4. CHECK PROVEN REGION RULES
-
-5. DIMENSIONAL CHECK
-
-6. THEORY HEALTH
-
-7. NATURALNESS
-
-8. EFT
-
-9. RANGE
-
-10. ENERGY LOWER BOUND
-
-11. COARSE FIELD EXISTENCE
-
-12. COARSE COMPLETE ENERGY
-
-13. HARD <=10-GJ GATE
-
-14. FINITE-PAYLOAD RESPONSE
-
-15. SOURCE / PAYLOAD OVERLAP
-
-16. LEAKAGE
-
-17. CONSERVATION
-
-18. POSITIVE ENERGY / DEC IF REQUIRED
-
-19. BACKREACTION PROXY
-
-20. CHEAP STABILITY
-
-21. ROBUSTNESS MARGIN
-
-22. PARETO / RANKING UPDATE
-```
-
-Expensive work must always occur as late as possible.
-
----
-
-# 41. Energy Short-Circuiting Inside Solvers
-
-If energy can be accumulated during integration, allow early termination.
-
-For example:
-
-```text
-PARTIAL POSITIVE ENERGY
->
-10 GJ
-```
-
-implies:
-
-```text
-FULL POSITIVE ENERGY
->
-10 GJ
-```
-
-if the remaining terms are nonnegative.
-
-Then terminate the solve or postprocessing immediately.
-
-Record:
-
-```text
-REJECTED_PARTIAL_ENERGY_GT_10GJ
-```
-
-This can save considerable compute.
-
-Only use this when monotonic positivity is mathematically valid.
-
----
-
-# 42. Candidate Fingerprint Versioning
-
-Candidate identity must include physics-version provenance.
-
-Otherwise an old failure could incorrectly suppress a new theory.
-
-Include:
+A deterministic physical candidate fingerprint should include:
 
 ```text
 FAMILY_ID
+
 FAMILY_VERSION
+
 ACTION_VERSION
-LEDGER_VERSION
+
+CANONICAL_PARAMETER_VECTOR
+
+CANONICAL_INVARIANT_ID
+
+PHYSICAL_MODEL_VERSION
+
 PAYLOAD_BENCHMARK_VERSION
-PARAMETER_VECTOR
 ```
 
-Thus:
+It should not include the current energy target.
+
+---
+
+# 47. Ledger versioning
+
+The candidate's physics identity and its result interpretation must be separate.
+
+If the physical theory stays fixed but the energy ledger becomes more complete:
 
 ```text
-031 v1
+SAME PHYSICAL CANDIDATE
+
+NEW RESULT / LEDGER VERSION.
+```
+
+Do not silently create a fake new theory candidate just because support energy was added.
+
+---
+
+# 48. Failure-memory hierarchy
+
+AGMINER should distinguish:
+
+```text
+EXACT CANDIDATE FAILURE
+
+PROVEN PARAMETER-REGION FAILURE
+
+FAMILY-LEVEL THEOREM FAILURE
+
+OBJECTIVE FAILURE
+
+NUMERICAL UNRESOLVED
+
+SUPERSEDED RESULT.
+```
+
+These have different meanings and different retry policies.
+
+---
+
+# 49. Exact failure memory
+
+An exact parameter point that physically fails should not be recomputed without a material reason.
+
+Material reasons include:
+
+```text
+THE ACTION CHANGED
+
+THE SOURCE MODEL CHANGED
+
+THE PHYSICAL LEDGER CHANGED
+
+A PREVIOUS NUMERICAL BUG WAS FIXED
+
+A DECLARED APPROXIMATION WAS REMOVED.
+```
+
+A higher grid alone is generally not a new physical candidate.
+
+---
+
+# 50. Region exclusion
+
+Do not ban neighborhoods based on one failed point.
+
+A region may be excluded only by:
+
+```text
+ANALYTIC LOWER BOUND
+
+MONOTONICITY RESULT
+
+NO-GO THEOREM
+
+SIGN THEOREM
+
+GHOST DOMAIN
+
+INVALID KINEMATIC DOMAIN
+
+SOURCE-EXISTENCE THEOREM
+
+PROVEN RANGE LIMIT
+
+EMPIRICAL EXCLUSION
+```
+
+with a proof/reference recorded.
+
+---
+
+# 51. Numerical failure is not physics failure
+
+Permanent distinction:
+
+```text
+PHYSICS_REJECTED
+!=
+NUMERICALLY_UNRESOLVED.
+```
+
+For a difficult solve:
+
+```text
+PRIMARY ATTEMPT
+
+CHEAP ALTERNATE SEED / CONTINUATION
+
+IF BOTH FAIL:
+NUMERICALLY_UNRESOLVED
+```
+
+unless a separate physical theorem establishes nonexistence.
+
+Do not let the miner spin forever.
+
+---
+
+# 52. Scientific failure codes
+
+The failure taxonomy should remain extensible.
+
+Existing generic classes:
+
+```text
+E — ENERGY
+
+T — THEORY / OPERATOR
+
+N — NATURALNESS / EFT / NORMALIZATION
+
+F — FIELD EXISTENCE / LOCALIZATION
+
+P — PAYLOAD / SIGN / SIDEDNESS
+
+C — CONSERVATION / ENERGY CONDITIONS
+
+S — STABILITY
+
+L — LEAKAGE
+
+B — BACKREACTION
+
+R — RANGE
+
+D — DUPLICATE / PROVENANCE
+
+X — NUMERICAL / INFRASTRUCTURE
+```
+
+---
+
+# 53. Current durable 032 failure memory
+
+Preserve at minimum:
+
+```text
+P001
+asymmetron_external_wall_sign
+```
+
+Published/tested minimal asymmetron bubble does not provide the required external outward sign in the tested architecture.
+
+```text
+P002
+kinetic_conformal_static_external_sign
+```
+
+The tested minimal published kinetic-conformal static sign is wrong for the desired localized branch.
+
+```text
+P003
+regular_static_shift_current_no_source
+```
+
+Regular isolated positive-current exact-shift static monopole is closed under the stated assumptions.
+
+```text
+E003
+ordinary_electron_microscopic_source_rest_energy_floor
+```
+
+Ordinary-electron implementation catastrophically exceeds the current objective.
+
+```text
+N004
+axial_dirac_selfconsistent_source_cutoff_margin
+```
+
+The old V15 source fails its own EFT cutoff after exact fermion self-response.
+
+```text
+N005
+controlled_nr_stoner_loop_conflict
+```
+
+Controlled nonrelativistic spontaneous polarization conflicts with acceptable loop load.
+
+```text
+N006
+axial_fixed_order_wavefunction_running_control
+```
+
+V17 oblate loop≈0.30 source is not controlled by a small fixed-order wavefunction-running expansion.
+
+```text
+N007
+sphere_geometry_demag_loop_remap
+```
+
+The oblate microscopic state cannot simply be transplanted into the sphere.
+
+```text
+N008
+sphere_fixed_order_wavefunction_running_control
+```
+
+V18 sphere likewise fails small fixed-order canonicalization control.
+
+````
+
+Do not reuse old failure-code names for different physics.
+
+---
+
+# 54. Failure anatomy is itself scientific data
+
+AGMINER should answer:
+
+```text
+WHY ARE WE FAILING?
+````
+
+not merely:
+
+```text
+HOW MANY FAILED?
+```
+
+Useful reports include:
+
+```text
+FAILURE COUNT BY PHYSICAL GATE
+
+LOWEST-ENERGY FAILURE OF EACH TYPE
+
+MOST COMMON FAMILY NO-GO
+
+CLOSEST ENERGY OBJECTIVE MISS
+
+BEST SOURCE THAT FAILS SUPPORT
+
+BEST SOURCE THAT FAILS RG
+
+BEST SOURCE THAT FAILS STABILITY.
+```
+
+This information should guide theory changes.
+
+---
+
+# 55. Hard gates versus ranking metrics
+
+Never merge validity and desirability into one opaque score.
+
+First:
+
+```text
+PASS / FAIL / UNRESOLVED
+```
+
+then rank.
+
+Hard gates may include:
+
+```text
+BOUNDED HAMILTONIAN
+
+NO GHOST
+
+CORRECT PHYSICAL SIGN
+
+UNIVERSAL METRIC
+
+SOURCE EXISTENCE
+
+FINITE-PAYLOAD OUTWARD SIGN
+
+NO SOURCE-PAYLOAD INTERSECTION
+
+LOCALIZATION
+
+CONSERVATION
+
+POSITIVE ENERGY AS CLAIMED
+
+EFT CONTROL
+
+NATURALNESS
+
+LEAKAGE
+
+BACKREACTION
+
+STABILITY AT DECLARED LEVEL
+
+EMPIRICAL NONEXCLUSION
+
+ENERGY POLICY.
+```
+
+---
+
+# 56. Ranking metrics
+
+For candidates that are genuinely comparable, rank using vectors such as:
+
+```text
+COMPLETE ENERGY
+
+ENERGY MARGIN
+
+ACTION-ORACLE ENERGY
+
+REALIZATION GAP
+
+PRODUCTIVE CHARGE PER JOULE
+
+PRODUCTIVE PARTICIPATION
+
+KERNEL LEVERAGE
+
+CANCELLATION
+
+SCAFFOLDING FRACTION
+
+SUPPORT FRACTION
+
+NATURALNESS MARGIN
+
+EFT MARGIN
+
+STABILITY MARGIN
+
+PAYLOAD MARGIN
+
+FIELD UNIFORMITY
+
+LEAKAGE MARGIN
+
+BACKREACTION MARGIN
+
+DISTANCE FROM PARAMETER BOUNDARIES.
+```
+
+---
+
+# 57. No Pareto ranking of incomparable ledger classes
+
+Do not put:
+
+```text
+FIELD-ONLY 59 kJ
 ```
 
 and:
 
 ```text
-032 protected v1
+COMPLETE 8 MJ
 ```
 
-cannot collide even if numerical parameters look similar.
+on the same energy Pareto frontier as though the first were superior.
 
----
-
-# 43. Reproducibility
-
-Every survivor must be reproducible from:
+Pareto comparisons must require compatible:
 
 ```text
-candidate_id
+LEDGER CLASS
 
-family_id
+PHYSICS SCOPE
 
-family_version
+PAYLOAD BENCHMARK
 
-parameter vector
-
-sampler seed / sample index if applicable
-
-solver version
-
-screening thresholds
-
-benchmark version
-```
-
-Central claims must not depend on terminal logs.
-
-This follows the project's existing documentation rule that central results must be reconstructible without chat history.
-
----
-
-# 44. Baseline Regression
-
-Before a major AGMINER campaign:
-
-```text
-94 KNOWN SOLUTIONS MUST PASS
-```
-
-Do not run the full baseline before every candidate.
-
-Run it:
-
-```text
-ON CAMPAIGN START
-
-AFTER CODE CHANGES
-
-BEFORE PROMOTING FINALISTS
-```
-
-This avoids wasting compute.
-
----
-
-# 45. AGMINER-Specific Tests
-
-Add unit/regression tests.
-
-Suggested:
-
-```text
-test_energy_limit_exact_10gj_passes.py
-
-test_energy_limit_above_10gj_rejects.py
-
-test_candidate_hash_deterministic.py
-
-test_duplicate_candidate_skipped.py
-
-test_rejection_persists_restart.py
-
-test_historical_031_rejected_energy.py
-
-test_031_naturalness_rejected.py
-
-test_sqlite_resume.py
-
-test_pareto_frontier.py
-
-test_no_rejected_checkpoint_retained.py
-
-test_log_rotation.py
-
-test_region_rule_requires_proof_flag.py
-
-test_numerical_failure_not_physics_failure.py
+PROVENANCE STATUS.
 ```
 
 ---
 
-# 46. Critical 10 GJ Regression Tests
+# 58. Current empty mechanism frontier is correct
 
-These are mandatory.
-
-Test:
+After V18:
 
 ```text
-E = 9.999999999 GJ
-PASS ENERGY GATE
+MECHANISM_METRIC_COUNT = 0
+
+MECHANISM_PARETO_COUNT = 0
+
+CERTIFIED_SURVIVOR_COUNT = 0.
 ```
 
-Test:
+Do not fill these because the partial energy looks exciting.
 
-```text
-E = 10.000000000 GJ
-PASS ENERGY GATE
-```
-
-Test:
-
-```text
-E = 10.000000001 GJ
-REJECT
-```
-
-Avoid ambiguous floating-point comparisons by comparing joules with a clearly documented tolerance policy.
-
-Recommended:
-
-```text
-NO PHYSICAL TOLERANCE ABOVE THE LIMIT
-```
-
-Numerical uncertainty should be handled separately.
+This restraint is a feature.
 
 ---
 
-# 47. Uncertain Energy Near 10 GJ
+# 59. Multi-fidelity pipeline — Level 0
 
-A coarse estimate can be uncertain.
+## Analytical / theorem level
+
+Target cost:
+
+```text
+MICROSECONDS
+TO
+SECONDS
+```
+
+Possible tests:
+
+```text
+PROVENANCE
+
+DIMENSIONAL CONSISTENCY
+
+CANONICAL NORMALIZATION
+
+SIGN
+
+SOURCE-EXISTENCE THEOREM
+
+MONOPOLE / MULTIPOLE TOPOLOGY
+
+HAMILTONIAN BOUNDEDNESS
+
+GHOST
+
+TACHYON
+
+RANGE
+
+COLLECTIVE SCALING
+
+ANALYTIC ENERGY BOUND
+
+NATURALNESS
+
+EFT
+
+EMPIRICAL STRUCTURAL EXCLUSION.
+```
+
+If Level 0 kills the theory, stop.
+
+---
+
+# 60. Multi-fidelity pipeline — Level 1
+
+## Reduced action / oracle level
+
+Possible calculations:
+
+```text
+ACTION-SPECIFIC RELAXED OPTIMUM
+
+LOW-DIMENSIONAL RESPONSE MATRIX
+
+SOURCE SCALING
+
+FINITE-PAYLOAD APPROXIMATE ORACLE
+
+MEAN-FIELD LOCAL STATE
+
+SUPPORT LOWER BOUND.
+```
+
+Purpose:
+
+```text
+DETERMINE WHETHER THE UNDERLYING ACTION HAS ENOUGH HEADROOM TO JUSTIFY REALIZATION WORK.
+```
+
+---
+
+# 61. Multi-fidelity pipeline — Level 2
+
+## Microscopic source level
+
+Require increasingly explicit:
+
+```text
+ACTION
+
+FIELD EQUATIONS
+
+SOURCE CHARGE
+
+MICROSCOPIC ENERGY
+
+SOURCE REACTION
+
+LOCAL CONSERVATION
+
+FIELD LOCALIZATION
+
+EFT MARGIN.
+```
+
+Examples:
+
+```text
+Q-BALL
+
+DIRAC MEAN FIELD
+
+TOPOLOGICAL SOURCE
+
+BAG / SOLITON.
+```
+
+---
+
+# 62. Multi-fidelity pipeline — Level 3
+
+## Exact finite-payload level
+
+Compute:
+
+```text
+ACTUAL FINITE PAYLOAD
+
+BOUNDARY TRANSMISSION
+
+MULTIPOLES
+
+SURFACE MINIMUM
+
+VOLUME AVERAGE
+
+SOURCE REACTION
+
+CONVERGENCE.
+```
+
+V17 is an example of this level for the active partial architecture.
+
+---
+
+# 63. Multi-fidelity pipeline — Level 4
+
+## Physical support / stability level
+
+Add:
+
+```text
+SUPPORT ACTION
+
+CONFINEMENT
+
+WALL ENERGY
+
+LOCAL CONSERVATION
+
+RADIAL STABILITY
+
+SHAPE STABILITY
+
+SOURCE-SUPPORT COUPLING.
+```
+
+V19 begins this stage for the spherical source.
+
+---
+
+# 64. Multi-fidelity pipeline — Level 5
+
+## Quantum / UV / empirical level
+
+Require:
+
+```text
+RENORMALIZED VACUUM
+
+RG FLOW
+
+CANONICAL LOW-ENERGY MATCH
+
+UV COMPLETION
+
+COMPANION OPERATORS
+
+FIFTH-FORCE / EP / PPN
+
+ASTROPHYSICAL CONSTRAINTS
+
+COSMOLOGICAL CONSTRAINTS.
+```
+
+---
+
+# 65. Multi-fidelity pipeline — Level 6
+
+## Full certification level
+
+Eventually require:
+
+```text
+FULL COUPLED SOURCE + PAYLOAD + SUPPORT
+
+NONLINEAR STABILITY
+
+ACTIVATION
+
+OFF STATE
+
+RESET
+
+RADIATION
+
+FULL METRIC BACKREACTION
+
+COMPLETE OPERATING ENERGY
+
+INDEPENDENT RECONSTRUCTION.
+```
+
+Only then should:
+
+```text
+CERTIFIED_SURVIVOR
+```
+
+be considered.
+
+---
+
+# 66. Naturalness remains early
+
+031 established that naturalness cannot be postponed until after expensive stability work.
+
+Every family must identify:
+
+```text
+LIGHT MODE MASS
+
+COUPLING SCALE
+
+EFT CUTOFF
+
+HEAVY THRESHOLDS
+
+PROTECTION SYMMETRY
+
+PROTECTION BREAKING
+
+EXPECTED LOOP CORRECTIONS
+
+RG BEHAVIOR.
+```
+
+A label such as:
+
+```text
+PROTECTED
+```
+
+is not evidence.
+
+Protection must be calculable.
+
+---
+
+# 67. Fixed-order failure versus full quantum failure
+
+Do not interpret:
+
+```text
+FIXED_ORDER_CONTROL = RED
+```
+
+as automatically:
+
+```text
+THE THEORY IS DEAD.
+```
+
+Instead determine whether the failure indicates:
+
+```text
+LARGE LOG REQUIRING RG RESUMMATION
+
+GENUINE STRONG COUPLING
+
+LANDAU POLE
+
+GHOST
+
+TACHYON
+
+UV COMPLETION FAILURE.
+```
+
+This distinction is central to V17/V18.
+
+---
+
+# 68. Empirical screening moves earlier when scales become low
+
+If AGMINER finds a candidate with an unusually low EFT or metric scale, empirical constraints must move forward in the pipeline.
+
+Current active scale:
+
+```text
+M ~ 24 keV.
+```
+
+This makes:
+
+```text
+FIFTH-FORCE
+
+EQUIVALENCE PRINCIPLE
+
+ATOMIC
+
+STELLAR
+
+COSMOLOGICAL
+
+LOW-ENERGY PRODUCTION
+
+VALID EFT MATCHING
+```
+
+high-information gates.
+
+Do not defer them until after months of numerical stability work.
+
+---
+
+# 69. Current V13–V18 discovery chain
+
+Preserve this as a calibration of the new AGMINER workflow.
+
+```text
+V13
+STATIC KINETIC-CONFORMAL SIGN
++
+REGULAR STATIC MONOPOLE NO-GO
+
+V14
+ZERO-NET DERIVATIVE DIPOLE ESCAPE
+
+V15
+EXPLICIT HIDDEN AXIAL MICROSCOPIC SOURCE
+
+V16
+EXACT DIRAC MEAN FIELD
++
+V15 SOURCE KILLED
++
+NR STONER ROUTE KILLED
++
+FLAVOR SHORTCUT CLOSED
+
+V17
+EXACT FINITE PAYLOAD
++
+C1 MATCH
++
+SUPPORT-TRACE CORRECTION
++
+59.42-kJ PARTIAL CORRIDOR
++
+FIXED-ORDER RG CONTROL RED
+
+V18
+UNIVERSAL-METRIC PROVENANCE
++
+CANONICAL RESCALING INVARIANT
++
+SUPPORT-GEOMETRY AUDIT
++
+REOPTIMIZED SPHERICAL SOURCE
++
+3.419-MJ PARTIAL CORRIDOR
+```
+
+This sequence is the template for future candidate-specific AGMINER work.
+
+---
+
+# 70. Current V17 energy leader
+
+Preserve:
+
+```text
+SOURCE MORPHOLOGY =
+OBLATE
+
+M =
+~24.2054 keV
+
+PARTIAL ENERGY =
+~59.419738 kJ
+
+SURFACE MIN =
+1 g
+
+SURFACE NONUNIFORMITY =
+~16.37X
+
+MAX SOURCE REACTION SCOUT =
+~2.47%
+
+PHYSICAL ANISOTROPIC SUPPORT =
+OPEN
+
+FIXED-ORDER RG =
+RED
+```
+
+Status:
+
+```text
+ACTION ORACLE / PARTIAL REALIZATION
+
+ALIVE
+
+UNTRUSTED FOR COMPLETE REACHABILITY.
+```
+
+---
+
+# 71. Current V18 support-realization leader
+
+Preserve:
+
+```text
+MORPHOLOGY =
+SPHERE
+
+M =
+~23.9713 keV
+
+PARTIAL ENERGY =
+~3.419157493 MJ
+
+FIELD ENERGY =
+~2.5456 kJ
+
+OCCUPIED DIRAC BANDS =
+~2.579780 MJ
+
+DEC SUPPORT LOWER BOUND =
+~0.836832 MJ
+
+NOMINAL REMAINING TO 10 MJ =
+~6.580843 MJ
+
+SURFACE MIN =
+1 g
+
+SURFACE NONUNIFORMITY =
+~96.24X
+
+MAX SOURCE REACTION SCOUT =
+~1.49%
+
+PHYSICAL BAG =
+NOT CONSTRUCTED
+
+FIXED-ORDER RG =
+RED.
+```
+
+Status:
+
+```text
+SUPPORT-FRIENDLY PARTIAL ORACLE
+
+ALIVE
+
+UNTRUSTED FOR COMPLETE REACHABILITY.
+```
+
+---
+
+# 72. Current active task
+
+Immediate next run:
+
+```text
+032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE
+```
+
+Do not start another broad energy-optimization campaign before V19 closes.
+
+---
+
+# 73. V19 objective
+
+V19 should answer:
+
+> **Can the V18 spherical partial source be upgraded into an explicit positive-energy supported microscopic source with controlled low-energy quantum/UV interpretation and no immediate empirical fatality while retaining finite-payload outward response and a complete energy path below 10 MJ?**
+
+This is a falsification gate.
+
+It is not an optimizer.
+
+---
+
+# 74. V19 support requirements
+
+Construct an explicit support sector with:
+
+```text
+ACTION
+
+FINITE WALL THICKNESS
+
+POSITIVE HAMILTONIAN
+
+COMPLETE STRESS TENSOR
+
+LOCAL CONSERVATION
+
+INTERIOR PRESSURE BALANCE
+
+SURFACE TENSION
+
+FINITE TOTAL ENERGY
+
+SOURCE REACTION
+
+NO PRESCRIBED EXTERNAL STRESS.
+```
+
+A stress lower bound is not a bag.
+
+---
+
+# 75. V19 stability requirements
+
+At minimum address:
+
+```text
+RADIAL EQUILIBRIUM
+
+L=0 RADIAL MODE
+
+L=1 TRANSLATION HANDLING
+
+L=2 SHAPE MODE
+
+WALL-SOURCE RELATIVE MOTION
+
+FERMION DENSITY MODES
+
+FERMION POLARIZATION MODES.
+```
+
+Static pressure balance does not prove stability.
+
+---
+
+# 76. V19 RG / UV requirements
+
+At minimum determine:
+
+```text
+Z_PHI(mu)
+
+C1(mu)
+
+F_PSI(mu)
+
+COMPANION OPERATORS
+
+LOWEST VALID CUTOFF
+
+STRONG-COUPLING SCALE
+
+OUTWARD-SIGN PRESERVATION
+
+UNIVERSAL-METRIC PRESERVATION.
+```
+
+Do not use canonical field rescaling as an artificial efficiency lever.
+
+---
+
+# 77. V19 quantum-vacuum requirement
+
+The current ledger includes occupied positive-energy fermion bands.
+
+It does not yet include a complete renormalized negative-energy Dirac sea.
+
+Need calculate or tightly bound effects on:
+
+```text
+VACUUM ENERGY
+
+SCALAR KINETIC NORMALIZATION
+
+PRESSURE
+
+SOURCE EQUILIBRIUM
+
+STABILITY
+
+WILSON COEFFICIENTS.
+```
+
+---
+
+# 78. V19 empirical gate
+
+At the actual low scale, investigate:
+
+```text
+EQUIVALENCE PRINCIPLE
+
+FIFTH FORCE
+
+PRECISION GRAVITY
+
+ATOMIC / MOLECULAR PHYSICS
+
+STELLAR COOLING
+
+SUPERNOVA
+
+BBN
+
+COSMOLOGY
+
+HIDDEN-FERMION PRODUCTION
+
+COLLIDER MATCHING ONLY WHERE EFT IS VALID
+
+OFF-STATE LEAKAGE.
+```
+
+An invalid high-energy contact-EFT extrapolation is not a constraint.
+
+It is also not evidence of safety.
+
+---
+
+# 79. Return-to-broad-search condition
+
+Do not return to giant broad mining merely because V19 is difficult.
+
+Return to broad AGMINER discovery only if:
+
+```text
+CURRENT KINETIC-CONFORMAL CLASS IS CLOSED
+
+OR
+
+ITS COMPLETE ENERGY FLOOR IS CLEARLY ABOVE 10 MJ
+
+OR
+
+ITS UV COMPLETION CANNOT PRESERVE THE REQUIRED SIGN
+
+OR
+
+ITS EMPIRICAL CONSTRAINTS ARE FATAL
+
+OR
+
+ITS SOURCE/SUPPORT IS FUNDAMENTALLY UNSTABLE
+
+OR
+
+A NEW THEORY CLASS HAS A CLEARLY BETTER ANALYTIC ORACLE.
+```
+
+---
+
+# 80. Broad search strategy when reactivated
+
+Do not use an enormous rectangular grid.
+
+Recommended adaptive mix:
+
+```text
+GLOBAL LOW-DISCREPANCY EXPLORATION
+
+LOCAL SURVIVOR REFINEMENT
+
+BOUNDARY / NOVELTY EXPLORATION
+
+THEOREM-GUIDED REGION EXCLUSION.
+```
+
+The old 60/30/10 allocation may be used as a starting point, not a permanent law.
+
+---
+
+# 81. Sobol / low-discrepancy search
+
+Preferred global sampler:
+
+```python
+scipy.stats.qmc.Sobol
+```
+
+Alternative:
+
+```python
+LatinHypercube
+```
 
 Store:
 
 ```text
-E_ESTIMATE
+SAMPLER SEED
 
-E_LOWER
+SAMPLE INDEX
 
-E_UPPER
+FAMILY VERSION
+
+CONFIG HASH.
 ```
 
-Policy:
-
-```text
-IF E_LOWER > 10 GJ:
-    REJECT IMMEDIATELY
-
-IF E_ESTIMATE > 10 GJ:
-    REJECT EXACT CANDIDATE UNDER CURRENT COARSE MODEL
-
-IF E_ESTIMATE <= 10 GJ BUT E_UPPER > 10 GJ:
-    BORDERLINE
-    REQUIRE REFINEMENT BEFORE SHORTLIST
-```
-
-A certification-ready candidate must satisfy:
-
-```text
-REFINED CONSERVATIVE COMPLETE ENERGY <= 10 GJ
-```
-
-with adequate numerical convergence.
+Searches must be exactly resumable.
 
 ---
 
-# 48. Borderline Candidates
+# 82. Local exploitation
 
-Do not let thousands of 9.99-GJ candidates consume Tier 2.
-
-Give preference to genuine margin.
-
-Define:
+Around promising physical basins:
 
 ```text
-ENERGY_MARGIN
-=
-10 GJ - E
+PERTURB PARAMETERS
+
+REUSE CONTINUATION
+
+SHRINK LOCAL STEP SIZE IF IMPROVING
+
+MAINTAIN DIVERSITY.
 ```
 
-Suggested categories:
-
-```text
-< 5 GJ
-    EXCELLENT ENERGY CLASS
-
-5–8 GJ
-    STRONG
-
-8–9.5 GJ
-    MARGINAL BUT INTERESTING
-
-9.5–10 GJ
-    BORDERLINE
-```
-
-All may survive, but lower-energy models receive priority.
+Do not let one fragile boundary basin consume all compute.
 
 ---
 
-# 49. Initial AGMINER Campaign Target
+# 83. Continuation
 
-The first production campaign should not attempt millions of expensive field solves.
-
-Suggested initial campaign:
+For nonlinear BVP families:
 
 ```text
-TIER0 SAMPLES:
-50,000–200,000
-
-ACTUAL FIELD SOLVES:
-1,000–10,000
-
-TIER1C STABILITY:
-<= 500
-
-TIER2:
-<= 50
-
-CERTIFICATION SHORTLIST:
-<= 10
+NEARBY SOLVED MODEL
+→
+INITIAL GUESS FOR NEW MODEL.
 ```
 
-Actual numbers should adapt to measured runtime.
+Keep warm-start caches bounded.
+
+Do not persist every coarse field to disk.
 
 ---
 
-# 50. Validation Campaign Before Real Discovery
+# 84. Surrogate models
 
-Before trusting AGMINER on new physics, run a controlled validation.
-
-Include known historical 031 points.
-
-Expected outcomes:
-
-```text
-031 ~96 GJ
-REJECT_ENERGY_GT_10GJ
-
-031 ~103 GJ
-REJECT_ENERGY_GT_10GJ
-
-031 ~121/128 GJ
-REJECT_ENERGY_GT_10GJ
-
-031 ~273 GJ
-REJECT_ENERGY_GT_10GJ
-```
-
-Also evaluate an unprotected 031-like low-energy synthetic point.
-
-Expected:
-
-```text
-REJECT_NATURALNESS
-```
-
-This verifies that the exact failure which ended 031 is now caught near the beginning.
-
----
-
-# 51. Search Metrics to Record
-
-For every field-solved candidate, retain compact values where available:
-
-```text
-candidate_id
-
-family_id
-
-energy_exact_j
-
-energy_conservative_j
-
-energy_lower_j
-
-payload_cm_mps2
-
-payload_surface_min_mps2
-
-payload_surface_max_mps2
-
-source_charge
-
-scalar_charge
-
-charge_per_joule
-
-E_over_Qm
-
-source_radius
-
-payload_distance
-
-leakage
-
-source_overlap
-
-payload_backreaction
-
-conservation_residual
-
-DEC_margin
-
-radial_stability_proxy
-
-lowest_eigen_proxy
-
-naturalness_ratio
-
-naturalness_margin
-
-EFT_margin
-
-range_m
-
-productive_participation
-
-cancellation_ratio
-
-kernel_leverage
-
-control_energy_j
-
-activation_energy_j
-
-runtime_s
-
-state
-
-fail_code
-```
-
-No field arrays required for rejected candidates.
-
----
-
-# 52. Search Objective Should Not Be Fooled by Geometry
-
-The miner may vary morphology and source placement, but it must prevent trivial cheating.
-
-Reject configurations that obtain low energy by:
-
-```text
-INTERSECTING PAYLOAD
-
-PLACING SOURCE INSIDE PAYLOAD
-
-USING UNPHYSICAL ZERO DISTANCE
-
-USING A POINTLIKE SINGULAR LIMIT
-
-USING A DOMAIN CUT THAT HIDES ENERGY
-
-DROPPING FAR TAIL ENERGY
-
-OMITTING SUPPORT
-
-OMITTING ACTIVATION
-
-OMITTING CONTROL
-
-PRESCRIBING LOCAL COUPLING BY HAND
-```
-
-Geometry is a legitimate optimization variable only inside physical constraints.
-
----
-
-# 53. Useful Introspective Quantities
-
-AGMINER should use mechanism knowledge from Introspective as search features.
-
-Promising candidates tend to seek:
-
-```text
-HIGH KERNEL LEVERAGE
-
-PAYLOAD-ADJACENT PRODUCTIVE STRUCTURE
-
-HIGH USEFUL RESPONSE PER JOULE
-
-LOW CANCELLATION
-
-HIGH PRODUCTIVE PARTICIPATION
-
-LOW SCAFFOLDING FRACTION
-```
-
-These are ranking features.
-
-They are not substitutes for full field realization.
-
----
-
-# 54. Surrogate Models
-
-After enough data exists, AGMINER may train lightweight surrogate regressors for:
+Surrogates may later predict:
 
 ```text
 ENERGY
@@ -2379,321 +3100,429 @@ FAILURE PROBABILITY
 
 PAYLOAD RESPONSE
 
-NATURALNESS MARGIN
+NATURALNESS
 
-STABILITY PROXY
+STABILITY
+
+REALIZATION GAP.
 ```
 
-Initial implementation should use simple models only.
-
-Possible later choices:
-
-```text
-RANDOM FOREST
-
-GRADIENT BOOSTING
-
-GAUSSIAN PROCESS FOR SMALL DATA
-```
-
-But surrogate predictions may only:
+They may:
 
 ```text
 PRIORITIZE
+
 DEPRIORITIZE
-SUGGEST
+
+SUGGEST.
 ```
 
-They must not establish scientific PASS.
+They may not establish:
 
-Hard rejection by surrogate alone is prohibited unless supported by an analytical bound.
+```text
+SCIENTIFIC PASS
+
+SCIENTIFIC NO-GO
+```
+
+without a physical or analytical basis.
 
 ---
 
-# 55. Avoid Optimizer Pathology
+# 85. Automatic family-stop rules
 
-AGMINER must avoid spending the entire run on a constraint boundary.
-
-Use:
+Stop a family when, for example:
 
 ```text
-MINIMUM LEAK MARGIN
+ANALYTIC LOWER BOUND >= 10 MJ THROUGHOUT THE VALID DOMAIN
 
-MINIMUM BACKREACTION MARGIN
+NO PHYSICAL OUTWARD SIGN EXISTS
 
-MINIMUM NATURALNESS MARGIN
+NO UNIVERSAL METRIC EXISTS
 
-MINIMUM STABILITY MARGIN
+NATURALNESS FAILS THE ENTIRE FAMILY
+
+COLLECTIVE SCALING HAS r <= s THROUGHOUT
+
+NO LOCALIZED SOURCE EXISTS
+
+ALL PHYSICAL SOURCES FAIL PAYLOAD SIDEDNESS
+
+ALL PROMISING SOURCES ARE TRULY UNSTABLE
+
+EMPIRICAL CONSTRAINTS EXCLUDE THE REQUIRED REGION
+
+NO IMPROVEMENT AFTER ADEQUATE COVERAGE.
 ```
 
-for the robust-ranking view.
-
-Keep a separate:
-
-```text
-ABSOLUTE_LOWEST_ENERGY_VIEW
-```
-
-so edge candidates are not hidden.
-
-This reproduces the useful distinction between the historical ~96-GJ edge point and the more conservative ~121-GJ interior point.
+Record the family-level reason.
 
 ---
 
-# 56. Search Diversity
+# 86. Search-budget philosophy
 
-Maintain separate top candidates by family and basin.
-
-Do not let 100 nearly identical candidates occupy all shortlist slots.
-
-Suggested clustering:
+AGMINER should optimize:
 
 ```text
-NORMALIZED PARAMETER DISTANCE
+INFORMATION GAIN PER COMPUTE
 ```
 
-Only retain a limited number from each small neighborhood.
+not:
 
-This increases the chance that later certification tests genuinely different solutions.
+```text
+CANDIDATES PER HOUR.
+```
+
+The best run may evaluate:
+
+```text
+ONE ANALYTICAL THEOREM
+```
+
+and eliminate:
+
+```text
+10^12 PARAMETER POINTS.
+```
+
+That is preferable to a giant simulation campaign.
 
 ---
 
-# 57. Robustness Micro-Test
+# 87. Anti-brute-force rule
 
-Before Tier-2 promotion, perturb each candidate slightly.
-
-Example:
+Before launching a huge scan ask:
 
 ```text
-±0.5%
-±1%
+CAN A SIGN THEOREM REMOVE THIS CLASS?
+
+CAN A CANONICAL INVARIANT REMOVE THIS DIMENSION?
+
+CAN AN ENERGY LOWER BOUND REMOVE THIS REGION?
+
+CAN A SOURCE-EXISTENCE THEOREM REMOVE IT?
+
+CAN COLLECTIVE SCALING REMOVE IT?
+
+CAN EMPIRICAL DATA REMOVE IT?
+
+CAN A STABILITY NECESSITY REMOVE IT?
 ```
 
-for a selected subset of sensitive parameters.
-
-If the candidate only works at one numerically razor-thin point, record:
-
-```text
-LOW_ROBUSTNESS
-```
-
-and deprioritize it.
-
-Do not necessarily reject unless the variation reveals physical invalidity.
+Only scan the dimensions that remain physically independent.
 
 ---
 
-# 58. Automatic Failure Statistics
+# 88. Disk-light architecture
 
-AGMINER should report why the search is failing.
+Permanent principle:
 
-Example:
+> **Store knowledge, not simulation clutter.**
+
+Rejected ordinary candidate:
 
 ```text
-TOTAL TESTED = 100000
-
-68.2% ANALYTIC ENERGY >10GJ
-
-14.7% NATURALNESS
-
-7.8% NO FIELD SOLUTION
-
-4.1% PAYLOAD SIGN
-
-2.2% ENERGY AFTER SOLVE
-
-1.6% LEAKAGE
-
-0.8% STABILITY
-
-0.4% BACKREACTION
-
-0.2% SURVIVE
+DATABASE ROW ONLY.
 ```
 
-This becomes scientific information.
+Ordinary partial candidate:
 
-It tells us which physical gate dominates each family.
+```text
+DATABASE ROW
++
+OPTIONAL SMALL SUMMARY.
+```
+
+Important oracle:
+
+```text
+COMPACT JSON / CSV.
+```
+
+Top physical candidate:
+
+```text
+CHECKPOINT IF NEEDED.
+```
 
 ---
 
-# 59. Automatic Family Stop Rule
+# 89. Field-array retention
 
-A family should not run forever.
-
-Possible stop conditions:
+Default rejected candidate:
 
 ```text
-NO SUB-10-GJ CANDIDATES AFTER BROAD COVERAGE
-
-ANALYTIC LOWER BOUND >10 GJ OVER ENTIRE REGION
-
-NATURALNESS FAILS ENTIRE FAMILY
-
-NO FIELD SOLUTIONS
-
-ALL SUB-10-GJ SOLUTIONS FAIL PAYLOAD SIGN
-
-ALL PROMISING SOLUTIONS ARE UNSTABLE
-
-NO IMPROVEMENT AFTER N ADAPTIVE ROUNDS
+NO ARRAY.
 ```
 
-Then classify the family:
+Ordinary coarse survivor:
 
 ```text
-AGMINER_FAMILY_DEMOTED
+NO ARRAY AFTER OBSERVABLE EXTRACTION.
 ```
 
-and move compute elsewhere.
+Current high-value candidate:
+
+```text
+KEEP ONLY NECESSARY REPRODUCIBLE CHECKPOINTS.
+```
+
+Manual pinning overrides automatic deletion.
 
 ---
 
-# 60. Campaign Stop Conditions
+# 90. Log policy
 
-A mining campaign ends when any of the following occurs:
+No per-candidate routine logs.
+
+Main campaign log may rotate.
+
+Log:
 
 ```text
-USER STOPS RUN
+RUN START
 
-TIME BUDGET REACHED
+RUN END
 
-DISK BUDGET REACHED
+PROGRESS SUMMARY
 
-CANDIDATE BUDGET REACHED
+NEW ORACLE
 
-NO IMPROVEMENT WINDOW REACHED
+NEW PHYSICAL FAILURE CLASS
 
-FAMILY EXHAUSTION RULE REACHED
+NEW BEST TRUSTED COMPARABLE RESULT
+
+UNEXPECTED EXCEPTION
+
+DATABASE CHECKPOINT
+
+STOP / RESUME.
 ```
 
-The database must remain valid after interruption.
+Do not log every solver iteration.
 
 ---
 
-# 61. Crash Recovery
+# 91. Scientific result artifacts
 
-Every candidate evaluation should be transaction-safe.
+Major V-series scientific gates may generate dedicated:
+
+```text
+JSON
+
+CSV
+
+LOG
+```
+
+files because they are durable research results.
+
+This is distinct from ordinary high-throughput candidate rows.
+
+---
+
+# 92. Live summary files
+
+Maintain lightweight current views such as:
+
+```text
+results/agminer/top_candidates.csv
+
+results/agminer/pareto_frontier.csv
+
+results/agminer/failure_counts.csv
+
+results/agminer/run_summary.json
+
+results/agminer/mechanism_frontier.csv
+
+results/agminer/oracle_learning.csv
+
+results/agminer/collective_scaling.csv
+```
+
+These are convenience views.
+
+SQLite remains authoritative for miner state.
+
+Scientific result JSON/CSV files remain authoritative for their specific completed run.
+
+---
+
+# 93. Database growth
+
+The current SQLite database is already on the order of tens of megabytes.
+
+Do not allow uncontrolled growth.
+
+Prefer:
+
+```text
+COMPACT ROWS
+
+NO REPEATED BLOBS
+
+NO LARGE FIELD ARRAYS IN SQLITE
+
+BATCH COMMITS
+
+PERIODIC WAL CHECKPOINTING.
+```
+
+If future campaigns push database size substantially upward, archive historical campaigns or normalize storage rather than silently allowing multi-gigabyte growth.
+
+---
+
+# 94. SQLite write architecture
+
+Worker processes should not independently write SQLite.
+
+Recommended:
+
+```text
+MAIN PROCESS
+    SCHEDULER
+    DEDUPE
+    RESULT WRITER
+    REPORTER
+
+WORKERS
+    PHYSICS EVALUATION ONLY
+```
+
+One authoritative writer avoids lock contention.
+
+---
+
+# 95. Crash recovery
 
 On restart:
 
 ```text
 READ DATABASE
 
-FIND RUNNING MODELS
+IDENTIFY ABANDONED RUNNING ITEMS
 
-MARK ABANDONED RUNNING MODELS AS INTERRUPTED
+MARK INTERRUPTED
 
-RESUME SAMPLER INDEX
+RESTORE CONFIG
 
-REBUILD PARETO FRONTIER
+RESTORE SAMPLER POSITION
 
-CONTINUE
+REBUILD CURRENT TRUSTED FRONTIERS
+
+REBUILD FAILURE MEMORY
+
+SKIP TERMINAL PHYSICAL FAILURES
+
+CONTINUE.
 ```
 
-Do not restart the search from zero.
+Do not start from zero.
 
 ---
 
-# 62. Configuration
+# 96. Manual stop
 
-Suggested config file:
+Manual stop is normal operation.
 
-```text
-config/agminer_032a.json
-```
-
-Fields:
+Required flow:
 
 ```text
-energy_limit_j
+USER REQUESTS STOP
 
-payload_mass_kg
+        ↓
 
-payload_radius_m
+STOP SCHEDULING NEW WORK
 
-target_surface_accel
+        ↓
 
-target_cm_accel
+FINISH OR SAFELY CANCEL CURRENT SMALL WORK UNITS
 
-families
+        ↓
 
-parameter_bounds
+COMMIT PENDING RESULTS
 
-sampler_seed
+        ↓
 
-worker_count
+SAVE SAMPLER / QUEUE STATE
 
-tier0_budget
+        ↓
 
-tier1_budget
+UPDATE REPORTS
 
-tier2_budget
+        ↓
 
-timeouts
+CHECKPOINT WAL
 
-disk_budget_mb
+        ↓
 
-checkpoint_limit
-
-logging_limit_mb
-
-naturalness_threshold
-
-leak_limit
-
-backreaction_limit
-
-robustness_settings
+CLEAN STOP.
 ```
-
-The run must copy the effective config hash into the database.
 
 ---
 
-# 63. Recommended Source Tree
+# 97. Interrupt handling
+
+At minimum support:
 
 ```text
-src/antigravity_research/agminer/
-    __init__.py
-    config.py
-    candidate.py
-    fingerprint.py
-    storage.py
-    failure_codes.py
-    gates.py
-    energy.py
-    payload.py
-    naturalness.py
-    pareto.py
-    sampler.py
-    scheduler.py
-    reporting.py
-    checkpoint.py
+CTRL+C
 
-    families/
-        __init__.py
-        base.py
-        family_031_control.py
-        family_032_protected.py
+SIGTERM
 
-simulations/
-    032a_agminer_validation.py
-    032b_agminer_campaign.py
-
-tests/agminer/
-    ...
+CLI STOP COMMAND.
 ```
 
-Keep theory equations in the family modules.
+First interrupt:
 
-Keep generic mining infrastructure independent.
+```text
+GRACEFUL STOP.
+```
+
+A later forced interruption may terminate remaining work while preserving committed transactions.
 
 ---
 
-# 64. Command-Line Interface
+# 98. Anytime result inspection
 
-Eventually:
+The user must be able to inspect AGMINER while:
+
+```text
+RUNNING
+
+STOPPED
+
+INTERRUPTED
+
+COMPLETED.
+```
+
+Read-only commands should support:
+
+```text
+status
+
+top
+
+pareto
+
+oracles
+
+mechanisms
+
+scaling
+
+failures
+
+lookup.
+```
+
+---
+
+# 99. Recommended CLI
+
+Conceptually:
 
 ```text
 python -m antigravity_research.agminer run
@@ -2702,1186 +3531,1538 @@ python -m antigravity_research.agminer status
 
 python -m antigravity_research.agminer top
 
+python -m antigravity_research.agminer pareto
+
+python -m antigravity_research.agminer oracles
+
+python -m antigravity_research.agminer mechanisms
+
+python -m antigravity_research.agminer scaling
+
 python -m antigravity_research.agminer failures
 
-python -m antigravity_research.agminer export
+python -m antigravity_research.agminer lookup
+
+python -m antigravity_research.agminer stop
 
 python -m antigravity_research.agminer resume
-```
 
-Useful optional filters:
-
-```text
---family
-
---max-energy-gj
-
---top
-
---min-naturalness-margin
-
---state
-
---run-id
+python -m antigravity_research.agminer export
 ```
 
 ---
 
-# 65. `status` Output
+# 100. Status output
 
-Keep it compact.
+Current-style status should include more than old candidate counts.
 
-Example:
+Example fields:
 
 ```text
-AGMINER STATUS
+RUN_ID
 
-run_id=032A_0004
-elapsed=05:17:33
-tested=84291
-known_skips=12033
+RUN_MODE
 
-rejected_energy=49102
-rejected_naturalness=8120
-rejected_field=4031
-rejected_payload=920
-rejected_stability=72
+ACTIVE_FAMILY
 
-tier1_survivors=33
-tier2_survivors=5
+ACTIVE_CANDIDATE
 
-best_energy_gj=2.814
-pareto_count=9
+ENERGY_POLICY
 
-database_mb=27.6
-checkpoints_mb=61.4
-logs_mb=2.1
+MODELS
+
+REJECTIONS
+
+ACTION_ORACLES
+
+COLLECTIVE_SCALING_RECORDS
+
+MECHANISM_METRICS
+
+SURVIVORS
+
+TRUSTED_PARETO_COUNT
+
+NUMERICAL_UNRESOLVED
+
+CURRENT_ACTIVE_ORACLE
+
+LOWEST_COMPARABLE_ENERGY
+
+CURRENT_PHYSICAL_BOTTLENECK
+
+DATABASE_SIZE
+
+STOP_REQUESTED
+
+ELAPSED_TIME.
 ```
 
 ---
 
-# 66. `top` Output
+# 101. Top output
 
-Example:
+`top` must not mix incompatible result classes.
+
+Possible separate views:
 
 ```text
-RANK MODEL       ENERGY  SURFACE  NAT_MARGIN  STAB_MARGIN  LEAK
-1    032A-91FE    2.814   10.17g   83.1x       6.2x         0.11x_limit
-2    032A-32B1    3.029   11.42g   240x        3.8x         0.05x_limit
-3    032A-14C8    3.287   10.02g   900x        18x          0.22x_limit
+TOP COMPLETE CANDIDATES
+
+TOP MICROSCOPIC PARTIALS
+
+TOP ACTION ORACLES
+
+TOP ENERGY LEADERS
+
+TOP ROBUSTNESS LEADERS.
 ```
 
-Then we decide which models deserve certification.
+If there are no complete candidates, say:
+
+```text
+NONE.
+```
+
+Do not fill the table with partials under a misleading heading.
 
 ---
 
-# 67. Failure Lookup
+# 102. Failure lookup
 
 The user should be able to ask:
 
 ```text
-Have we already tested this model?
+HAVE WE TESTED THIS?
 ```
-
-AGMINER can query by:
-
-```text
-candidate_id
-```
-
-or canonical parameter vector.
 
 Return:
 
 ```text
+CANDIDATE_ID
+
+CANONICAL_INVARIANT_ID
+
 TESTED
-REJECTED
-FAIL_CODE
+
+RESULT_STATUS
+
+FAILURE_CODE
+
+FAILURE_GATE
+
+POLICY_ID
+
+POLICY_SPECIFIC
+
 ENERGY
-DATE/RUN
-```
 
-This directly satisfies the requirement not to keep going over failed models.
+RUN
+
+SUPERSEDED_STATUS.
+```
 
 ---
 
-# 68. Near-Miss Reporting
+# 103. Manual pinning
 
-Keep compact statistics for useful failures.
+Allow:
+
+```text
+PINNED = TRUE.
+```
+
+Pinned models/oracles should not lose detailed checkpoints automatically.
+
+Pinning does not change scientific status.
+
+---
+
+# 104. Regression philosophy
+
+Two regression concepts now exist.
+
+Historical scientific baseline:
+
+```text
+94 PASSED.
+```
+
+This preserves the original protected known-solution foundation.
+
+Current complete suite:
+
+```text
+238 PASSED.
+```
+
+For new major claims:
+
+```text
+FULL CURRENT SUITE MUST PASS.
+```
+
+Do not say:
+
+```text
+94 IS THE CURRENT FULL SUITE.
+```
+
+---
+
+# 105. Regression versus independent verification
+
+Passing tests means:
+
+```text
+IMPLEMENTATION CONSISTENCY.
+```
+
+It does not automatically mean:
+
+```text
+INDEPENDENT SCIENTIFIC VERIFICATION.
+```
+
+Central scientific results still require independent reconstruction where feasible.
+
+---
+
+# 106. Required independent checks
 
 Examples:
 
 ```text
-LOWEST ENERGY NATURALNESS FAILURE
+ACTION ORACLE
+vs
+INDEPENDENT ANALYTICAL BOUND
 
-LOWEST ENERGY STABILITY FAILURE
+FIELD ENERGY
+vs
+DIRECT NUMERICAL INTEGRAL
 
-LOWEST ENERGY PAYLOAD FAILURE
+FINITE-PAYLOAD MULTIPOLES
+vs
+DIRECT BOUNDARY-VALUE SOLVE
 
-CLOSEST >10-GJ FAILURE
+SOURCE CURRENT
+vs
+ASYMPTOTIC FIELD COEFFICIENT
 
-BEST ENERGY MARGIN BUT LOW STABILITY
+DIRAC BAND INTEGRAL
+vs
+INDEPENDENT QUADRATURE
+
+STABILITY EIGENMODE
+vs
+FINITE-AMPLITUDE CURVATURE
+
+RG RUNNING
+vs
+MATCHED UV CALCULATION.
 ```
-
-These help guide theory changes without keeping huge data files.
 
 ---
 
-# 69. Failure Retention Policy
+# 107. Candidate state machine
 
-All exact failures remain in the SQLite database.
-
-But only a compact record.
-
-For routine failures:
+Recommended expanded states:
 
 ```text
-NO PROFILE
+NEW
 
-NO NPZ
+CANONICALIZATION_RUNNING
 
-NO FULL JSON
+REJECTED_NORMALIZATION
 
-NO INDIVIDUAL LOG
+THEORY_PREFLIGHT_RUNNING
+
+REJECTED_THEORY
+
+ORACLE_RUNNING
+
+ORACLE_ONLY
+
+SOURCE_REALIZATION_RUNNING
+
+REJECTED_SOURCE_EXISTENCE
+
+MICROSCOPIC_PARTIAL
+
+PAYLOAD_RUNNING
+
+REJECTED_PAYLOAD
+
+SUPPORT_RUNNING
+
+REJECTED_SUPPORT
+
+RG_UV_RUNNING
+
+REJECTED_RG_UV
+
+STABILITY_RUNNING
+
+REJECTED_STABILITY
+
+EMPIRICAL_RUNNING
+
+REJECTED_EMPIRICAL
+
+NUMERICALLY_UNRESOLVED
+
+PARTIAL_SURVIVOR
+
+CERTIFICATION_READY
+
+CERTIFICATION_IN_PROGRESS
+
+CERTIFIED
+
+INVALIDATED_BY_LATER_GATE
+
+SUPERSEDED.
 ```
 
-For scientifically interesting failures:
+Do not force every old database row into these immediately if migration risks corrupting history.
+
+Backward-compatible mapping is acceptable.
+
+---
+
+# 108. Scientific promotion ladder
+
+A useful internal promotion ladder:
 
 ```text
-OPTIONALLY MARK preserve_detail=1
+LEVEL 0
+THEORY IDEA
+
+LEVEL 1
+CANONICAL PHYSICAL OPERATOR
+
+LEVEL 2
+ACTION ORACLE
+
+LEVEL 3
+SOURCE EXISTENCE
+
+LEVEL 4
+MICROSCOPIC SOURCE
+
+LEVEL 5
+FINITE-PAYLOAD RESPONSE
+
+LEVEL 6
+SUPPORT + STABILITY
+
+LEVEL 7
+RG / UV + QUANTUM CONTROL
+
+LEVEL 8
+EMPIRICAL CONSISTENCY
+
+LEVEL 9
+COMPLETE OPERATING LEDGER
+
+LEVEL 10
+CERTIFIED PHYSICAL MODEL.
 ```
+
+Current V17/V18 do not reach Level 10.
+
+---
+
+# 109. Promotion to mechanism metrics
+
+Only record full `MechanismMetrics` when the candidate has enough physical structure that the measured quantities refer to the same source.
+
+Suggested minimum:
+
+```text
+DEFINED ACTION
+
+CANONICAL NORMALIZATION
+
+MICROSCOPIC SOURCE
+
+FINITE PAYLOAD
+
+SOURCE ENERGY
+
+MEDIATOR ENERGY
+
+MEANINGFUL SUPPORT ACCOUNTING
+
+PHYSICAL METRIC RESPONSE.
+```
+
+This prevents meaningless cross-model factorization.
+
+---
+
+# 110. Promotion to certification-ready
+
+Under the current project, `CERTIFICATION_READY` should require at minimum:
+
+```text
+PHYSICAL ACTION
+
+CANONICAL NORMALIZATION
+
+CORRECT UNIVERSAL METRIC SIGN
+
+MICROSCOPIC SOURCE
+
+FINITE PAYLOAD SURFACE >= 1 g
+
+COMPLETE STATIC SOURCE / FIELD / SUPPORT LEDGER
+
+ENERGY < 10 MJ UNDER CURRENT POLICY
+
+LOCAL CONSERVATION
+
+POSITIVE HAMILTONIAN
+
+EFT CONTROL
+
+NATURALNESS CONTROL
+
+DECLARED LINEAR STABILITY
+
+NO IMMEDIATE EMPIRICAL FATALITY
+
+ROBUSTNESS CHECK
+
+INDEPENDENT RECONSTRUCTION OF CENTRAL OBSERVABLE.
+```
+
+Certification-ready is still not certified.
+
+---
+
+# 111. Full certification
+
+A final certified physical model eventually needs substantially more:
+
+```text
+FULL COUPLED SOURCE-PAYLOAD-SUPPORT SOLUTION
+
+NONLINEAR STABILITY
+
+ACTIVATION
+
+OFF STATE
+
+RESET
+
+RADIATION
+
+FULL METRIC BACKREACTION
+
+COMPLETE OPERATING ENERGY
+
+EMPIRICAL CLOSURE
+
+EFT / UV COMPLETION
+
+RECIPROCITY
+
+LONG-TIME CONSISTENCY.
+```
+
+---
+
+# 112. Current energy-policy regression tests
+
+Mandatory policy tests should now use MJ and strict `<`.
 
 Examples:
 
 ```text
-NEW NO-GO
+E =
+9,999,999.999 J
 
-UNEXPECTED SIGN REVERSAL
-
-NEW INSTABILITY CLASS
-
-NEW NATURALNESS BOUND
-
-NEAR-RECORD ENERGY
+PASS
 ```
 
-Only these receive richer artifacts.
+```text
+E =
+10,000,000.000 J
+
+REJECT
+```
+
+```text
+E =
+10,000,000.001 J
+
+REJECT
+```
+
+No physical tolerance above the limit.
+
+Numerical uncertainty must be represented separately.
 
 ---
 
-# 70. Candidate Retention Policy
+# 113. Uncertain energy
 
-Keep detailed artifacts only for:
+Store where appropriate:
 
 ```text
-CURRENT GLOBAL TOP 10
+E_ESTIMATE
 
-CURRENT PARETO FRONTIER
+E_LOWER
 
-TIER2 SURVIVORS
-
-MANUALLY PINNED MODELS
+E_UPPER.
 ```
 
-Everything else is database metadata.
+Policy:
+
+```text
+IF PROVEN E_LOWER >= 10 MJ:
+    REJECT
+
+IF E_UPPER < 10 MJ:
+    ENERGY POLICY ROBUSTLY PASSES AT THIS LEDGER LEVEL
+
+IF INTERVAL CROSSES 10 MJ:
+    BORDERLINE
+    REQUIRE REFINEMENT.
+```
+
+Do not hide uncertainty in floating-point tolerance.
 
 ---
 
-# 71. Historical Import
+# 114. Energy-margin categories
 
-Implement a one-time importer for known project results.
-
-Purpose:
+For **comparable complete ledgers**, useful current categories might be:
 
 ```text
-SEED FAILURE MEMORY
+<1 MJ
+EXCEPTIONAL
 
-VALIDATE AGMINER
+1–5 MJ
+STRONG
 
-CREATE HISTORICAL CONTROL SET
+5–8 MJ
+LIMITED BUT USEFUL MARGIN
+
+8–10 MJ
+BORDERLINE
+
+>=10 MJ
+FAIL CURRENT POLICY.
 ```
 
-Examples:
+Do not apply these categories to incomplete action oracles without labeling them as partial.
+
+---
+
+# 115. Robustness before promotion
+
+Before expensive promotion perturb sensitive physical parameters.
+
+Possible:
+
+```text
+±0.5%
+
+±1%
+
+DOMAIN
+
+BOUNDARY CONDITION
+
+GRID
+
+SOURCE GEOMETRY
+
+EFT SCALE.
+```
+
+Record whether the candidate is:
+
+```text
+INTERIOR
+
+EDGE
+
+RAZOR-THIN.
+```
+
+Do not automatically reject edge candidates, but rank them separately.
+
+---
+
+# 116. Constraint-boundary pathology
+
+Maintain separate views:
+
+```text
+ABSOLUTE LOWEST PARTIAL ENERGY
+
+ROBUST LOWEST ENERGY
+
+SUPPORT-FRIENDLY
+
+NATURALNESS-FRIENDLY
+
+STABILITY-FRIENDLY.
+```
+
+This is why V17 and V18 are both preserved.
+
+---
+
+# 117. Search diversity
+
+When broad mining resumes, do not allow near-duplicate candidates to occupy every shortlist slot.
+
+Cluster by:
+
+```text
+CANONICAL PARAMETER DISTANCE
+
+CANONICAL INVARIANT FAMILY
+
+MORPHOLOGY
+
+PHYSICAL MECHANISM.
+```
+
+Retain multiple basins.
+
+---
+
+# 118. Source morphology is physical, not cosmetic
+
+V18 established that changing geometry can alter:
+
+```text
+DEMAGNETIZATION FACTOR
+
+LOOP LOAD
+
+MICROSCOPIC SELF-CONSISTENCY.
+```
+
+Therefore a source cannot simply be reshaped while holding its microscopic state fixed unless that invariance is proved.
+
+Permanent rule:
+
+> **Geometry changes may require microscopic reoptimization.**
+
+---
+
+# 119. Support is part of the source
+
+Never permit:
+
+```text
+SOURCE STRESS
+```
+
+without:
+
+```text
+THE STRESS THAT HOLDS IT.
+```
+
+A lower support bound is useful.
+
+It is not a support realization.
+
+A prescribed external force is not a completed source.
+
+---
+
+# 120. Productive participation versus support tax
+
+Track both:
+
+```math
+f_{\rm prod}
+=
+\frac{
+E_{\rm directly\ productive}
+}{
+E_{\rm total}
+}
+```
+
+and:
+
+```math
+\tau_{\rm scaffold}
+=
+\frac{
+E_{\rm scaffold}
+}{
+E_{\rm total}
+}.
+```
+
+When exact decomposition is ambiguous, report the definition used.
+
+---
+
+# 121. Source reaction is mandatory
+
+Any metric-active source must respond to the same mediator/field it creates.
+
+Track:
+
+```text
+SOURCE SELF-REACTION
+
+PAYLOAD-INDUCED SOURCE REACTION
+
+ENVIRONMENTAL REACTION.
+```
+
+Frozen-source payload oracles are useful only as preflights.
+
+---
+
+# 122. Reciprocity
+
+A universal physical metric implies reciprocal interaction.
+
+Eventually solve:
+
+```text
+SOURCE → PAYLOAD
+
+PAYLOAD → SOURCE
+
+EARTH → SOURCE
+
+SOURCE → EARTH / ENVIRONMENT.
+```
+
+Do not assume strong payload response and zero source response.
+
+---
+
+# 123. Far-field leakage
+
+Track:
+
+```text
+MONOPOLE
+
+DIPOLE
+
+HIGHER MULTIPOLES
+
+FAR-FIELD METRIC RESPONSE
+
+OFF-STATE LEAKAGE.
+```
+
+The current derivative source's zero net scalar monopole is useful.
+
+It does not automatically solve empirical constraints.
+
+---
+
+# 124. Stability is multi-sector
+
+Eventually require as relevant:
+
+```text
+RADIAL
+
+TRANSLATIONAL
+
+NONAXISYMMETRIC
+
+SHAPE
+
+FRAGMENTATION
+
+FERMION DENSITY
+
+FERMION POLARIZATION
+
+SUPPORT WALL
+
+SOURCE-WALL RELATIVE MOTION
+
+PAYLOAD-COUPLED MODES.
+```
+
+018C remains the canonical warning:
+
+```text
+FIELD EXISTS
+BUT
+PHYSICAL REALIZATION DIES BY INSTABILITY.
+```
+
+---
+
+# 125. Translation zero modes
+
+For isolated solitons, translational Goldstone modes must be handled analytically before interpreting small `l=1` eigenvalues as instabilities.
+
+The 031B2 experience should remain encoded as a stability-method rule.
+
+---
+
+# 126. No parameter forcing
+
+Never change:
+
+```text
+PAYLOAD
+
+ENERGY LEDGER
+
+LEAK LIMIT
+
+BACKREACTION LIMIT
+
+NATURALNESS GATE
+
+SUPPORT DEFINITION
+
+STABILITY DEFINITION
+
+GRID-CONVERGENCE REQUIREMENT
+```
+
+because an attractive candidate would otherwise fail.
+
+If the scientific definition changes for an independent reason, version it explicitly.
+
+---
+
+# 127. No target forcing
+
+The formal energy objective is external policy.
+
+A candidate should not be physically redesigned merely to produce a numerically attractive headline.
+
+If the candidate fails:
+
+```text
+RECORD
+
+UNDERSTAND
+
+MOVE ON
+```
+
+unless a physically motivated new mechanism changes the problem.
+
+---
+
+# 128. No stale-oracle promotion
+
+If a later run adds missing physics and increases energy:
+
+```text
+OLD LOWER NUMBER
+=
+SUPERSEDED FOR THAT CLAIM CLASS.
+```
+
+It may remain in the database as a historical oracle.
+
+It must not compete as the current realized energy.
+
+---
+
+# 129. No hidden completeness inflation
+
+Forbidden:
+
+```text
+PARTIAL_OPTIMISTIC
+→
+COMPLETE
+```
+
+without adding every omitted physical sector.
+
+Promotion must be explicit and auditable.
+
+---
+
+# 130. Permanent closed shortcuts
+
+Do not reopen without genuinely new physics:
+
+```text
+PURE-GR PRACTICAL <10-MJ ROUTE
+closed by 1/G burden
+
+PROTECTED VECTOR IMPLEMENTATIONS THROUGH 022A
+closed
+
+MINIMAL 031 B7 SCALAR DRESSING
+closed
+
+031F0 UNPROTECTED ULTRALIGHT FIELD-VALUE SCALAR
+closed
+
+MINIMAL PURE STATIC DISFORMAL g00 ROUTE
+closed
+
+GHOST KAPPA RAW-COUPLING GAIN
+normalization redundancy
+
+032G/H INDEPENDENT COLLECTIVE SOURCE SCALING
+closed in corrected source-aware form
+
+MINIMAL STATIC SCALAR-TENSOR / YUKAWA BRANCHES
+attractive / zero in tested class
+
+MINIMAL EINSTEIN-CARTAN TORSION
+no external stand-off
+
+DECLARED 032R P-FORM DOMAIN
+closed
+
+HOPF GLOBAL SCALING
+mechanism knowledge only without viable portal
+
+MINIMAL TESTED ASYMMETRON BUBBLE
+no required external sign
+
+WEAK GW / MEMORY / PULSING
+does not remove pure-GR 1/G burden
+
+ORDINARY ELECTRON 032 SOURCE
+energy closed
+
+CONTROLLED NR STONER SOURCE
+closed
+
+FLAVOR MULTIPLICITY ENERGY SHORTCUT
+closed
+
+NAIVE OBLATE-TO-SPHERE MICROSTATE REUSE
+closed.
+```
+
+---
+
+# 131. Historical controls
+
+Import and preserve important historical results such as:
 
 ```text
 006D
 
 B7
 
-031 prescribed 82.75
+031 prescribed-source ~82.75 GJ
 
-031 273
+031 Q-ball ~273 GJ
 
-031 103
+031 optimized ~103 GJ
 
-031 96
+031 optimized ~96.141 GJ
 
-031 121
+031 activated higher-energy states
 
-031 D3B 127.78
+031F0 naturalness failure
 
-031F0 naturalness RED
+V13–V18 partial oracles and rejections.
 ```
 
-Use explicit labels:
+Use labels:
 
 ```text
-HISTORICAL
-```
+HISTORICAL_CONTROL
 
-and:
-
-```text
-DO_NOT_TREAT_AS_NEW_DISCOVERY
+NOT_NEW_DISCOVERY.
 ```
 
 ---
 
-# 72. Model Promotion Rules
+# 132. AGMINER report philosophy
 
-AGMINER may mark:
+Reports should answer three different questions.
 
-```text
-CERTIFICATION_READY
-```
-
-only when all of these are true:
+## Discovery report
 
 ```text
-REFINED E_CONSERVATIVE_COMPLETE <= 10 GJ
-
-FINITE PAYLOAD CM >= 1g
-
-FINITE PAYLOAD SURFACE MIN >= 1g
-
-FIELD EXISTS
-
-POSITIVE HAMILTONIAN
-
-CONSERVATION PASS
-
-REQUIRED ENERGY CONDITIONS PASS
-
-BOUND / LOCALIZED
-
-LEAKAGE PASS
-
-BACKREACTION PASS
-
-NATURALNESS PASS
-
-EFT PASS
-
-CHEAP STABILITY PASS
-
-NO OBVIOUS EMPIRICAL STRUCTURAL CONFLICT
-
-ROBUSTNESS MICRO-SCAN PASS OR ACCEPTABLE
+WHAT LOOKS PROMISING?
 ```
 
-Certification readiness is not certification.
+## Failure report
+
+```text
+WHY ARE CANDIDATES DYING?
+```
+
+## Mechanism report
+
+```text
+WHAT PHYSICAL EFFICIENCY LEVER IS WORKING OR FAILING?
+```
+
+Do not merge these into one ranking.
 
 ---
 
-# 73. Full Certification Is Separate
+# 133. Action-oracle report
 
-Once AGMINER produces candidates, create a separate certification queue.
-
-Never run the full certification stack automatically on every miner survivor.
-
-Suggested workflow:
-
-```text
-AGMINER FINDS 100,000 MODELS
-
-~100 SURVIVE CHEAPLY
-
-~10 SURVIVE TIER2
-
-3–5 CHOSEN FOR CERTIFICATION
-
-1 OR FEWER MAY SURVIVE EVERYTHING
-```
-
-This is precisely the computational separation we want.
-
----
-
-# 74. 10 GJ Certification Rule
-
-The 10 GJ ceiling remains active during certification.
-
-If a candidate initially estimated at:
-
-```text
-6.2 GJ
-```
-
-later reconstructs as:
-
-```text
-10.4 GJ
-```
-
-then stop certification immediately.
-
-Record:
-
-```text
-REJECTED_ENERGY_GT_10GJ_AT_CERTIFICATION
-```
-
-Do not continue because time has already been invested.
-
-Sunk compute is irrelevant.
-
----
-
-# 75. No Target Forcing
-
-Do not tune numerical definitions merely to make a model sub-10-GJ.
-
-No:
-
-```text
-CHANGING PAYLOAD AFTER FAILURE
-
-OMITTING TAIL ENERGY
-
-CHANGING ENERGY LEDGER
-
-OMITTING ACTIVATION
-
-DROPPING SUPPORT
-
-USING EXACT NEGATIVE BINDING INSTEAD OF CONSERVATIVE INVENTORY
-
-WEAKENING LEAK LIMIT AFTER FAILURE
-
-WEAKENING NATURALNESS AFTER FAILURE
-```
-
-If a candidate fails:
-
-```text
-RECORD IT
-MOVE ON
-```
-
----
-
-# 76. First Implementation Milestone — AGMINER Core
-
-Success criteria:
-
-```text
-SQLITE DATABASE WORKS
-
-DETERMINISTIC MODEL IDS
-
-10-GJ GATE WORKS
-
-DUPLICATES SKIP
-
-REJECTIONS PERSIST RESTART
-
-PARETO FRONTIER WORKS
-
-ROTATING LOGS WORK
-
-CRASH RESUME WORKS
-
-HISTORICAL IMPORT WORKS
-```
-
-No new physics search yet.
-
----
-
-# 77. Second Milestone — 031 Control Family
-
-Implement enough 031 to verify:
-
-```text
-KNOWN 031 CANDIDATES ARE FOUND
-
-KNOWN ENERGIES RECONSTRUCT REASONABLY
-
-ALL >10-GJ POINTS ARE REJECTED EARLY
-
-031 NATURALNESS FAILS EARLY
-
-NO 031 POINT ENTERS CERTIFICATION SHORTLIST
-```
-
-This is an AGMINER validation test, not reopening 031.
-
----
-
-# 78. Third Milestone — First Protected 032 Family
-
-Only after AGMINER infrastructure passes.
-
-Implement one explicitly radiatively protected candidate family.
-
-Before searching it, derive:
+`oracle_learning.csv` should allow quick inspection of:
 
 ```text
 ACTION
 
-SYMMETRIES
+ORACLE TYPE
 
 ENERGY
 
-CHARGES
+LEDGER CLASS
 
-PHYSICAL METRIC
+NORMALIZATION STATUS
 
-PROTECTION MECHANISM
+PORTAL STATUS
 
-LOOP ESTIMATE
+FINITE PAYLOAD STATUS
 
-PARAMETER DOMAIN
-```
+REALIZATION GAP
 
-Then expose it through the common family API.
-
----
-
-# 79. Fourth Milestone — Long Mining Campaign
-
-Run unattended for hours.
-
-Desired behavior:
-
-```text
-MINIMAL TERMINAL OUTPUT
-
-SMALL ROTATING LOG
-
-CONTINUOUS SQLITE CHECKPOINTING
-
-NO PER-MODEL FILES
-
-AUTOMATIC FAILURE MEMORY
-
-AUTOMATIC PARETO UPDATE
-
-AUTOMATIC TOP-CANDIDATE CHECKPOINT RETENTION
-```
-
-At the end:
-
-```text
-python -m antigravity_research.agminer top
-```
-
-should tell us immediately which models deserve attention.
-
----
-
-# 80. Fifth Milestone — Tier-2 Screener
-
-Build a second process that consumes:
-
-```text
-CERTIFICATION_CANDIDATE
-```
-
-records.
-
-It performs:
-
-```text
-REFINED BVP
-
-GRID CHECK
-
-DOMAIN CHECK
-
-BETTER FORCE RECONSTRUCTION
-
-SELECTED ANGULAR STABILITY
-
-NATURALNESS RECHECK
-
-ENERGY RECONSTRUCTION
-
-PARAMETER ROBUSTNESS
-```
-
-Output:
-
-```text
-CERTIFICATION_READY
-```
-
-or an explicit rejection.
-
----
-
-# 81. Sixth Milestone — Certification Export
-
-For each certification-ready candidate generate one compact packet:
-
-```text
-candidate_<id>_certification.json
-
-candidate_<id>_checkpoint.npz
-```
-
-The JSON contains:
-
-```text
-THEORY
-
-PARAMETERS
-
-ENERGY LEDGER
-
-PAYLOAD OBSERVABLES
-
-GATE RESULTS
-
-MARGINS
-
-PROVENANCE
-
-KNOWN LIMITATIONS
-
-NEXT CERTIFICATION TEST
-```
-
-Only a few such packets should ever exist.
-
----
-
-# 82. Scientific Claim Discipline
-
-AGMINER output classifications:
-
-```text
-GENERATED
-
-SCREENED
-
-CHEAP_SURVIVOR
-
-TIER2_SURVIVOR
-
-CERTIFICATION_READY
-```
-
-Never:
-
-```text
-PROVEN
-
-VALIDATED THEORY
-
-ANTIGRAVITY DEVICE
-
-DISCOVERY
-```
-
-without the later certification program.
-
----
-
-# 83. Key Scientific Lessons Built Into AGMINER
-
-Permanent lessons:
-
-```text
-LOCAL REPULSION != TRUE FINITE-PAYLOAD STANDOFF
-
-FIELD EXISTENCE != STABILITY
-
-STABILITY != NONLINEAR STABILITY
-
-LOW SOURCE ENERGY != LOW COMPLETE ENERGY
-
-LOW EXACT HAMILTONIAN != LOW CONSERVATIVE INVENTORY
-
-ACTIVATION ENERGY CANNOT BE OMITTED
-
-SUPPORT CANNOT BE OMITTED
-
-RADIATIVE NATURALNESS MUST BE EARLY
-
-ONE GRID DOES NOT ESTABLISH MAGNITUDE
-
-BOUNDARY OPTIMA ARE HIGH RISK
-
-PAYLOAD KERNEL MATTERS
-
-PRODUCTIVE PARTICIPATION MATTERS
-
-CANCELLATION MATTERS
-
-SCAFFOLDING TAX MATTERS
+TRUST.
 ```
 
 ---
 
-# 84. AGMINER Success Definition
+# 134. Mechanism-frontier report
 
-AGMINER itself succeeds if it can:
+Only include sufficiently physical candidates.
 
-```text
-SEARCH THOUSANDS OF MODELS
-
-WITHOUT LARGE DISK GROWTH
-
-WITHOUT REPEATING EXACT FAILURES
-
-WITH RESUMABLE STATE
-
-WITH EARLY PHYSICS FALSIFICATION
-
-WITH HARD >10-GJ REJECTION
-
-WITH NATURALNESS BEFORE EXPENSIVE CERTIFICATION
-
-AND
-
-RETURN A SMALL LOW-ENERGY SHORTLIST
-```
-
-It does not need to find a viable antigravity model to be scientifically successful.
-
-A result such as:
+Columns should emphasize:
 
 ```text
-NO SEARCHED MODEL IN FAMILY 032A
-ACHIEVES <=10 GJ
-WHILE PASSING NATURALNESS,
-FINITE-PAYLOAD,
-CONSERVATION,
-AND CHEAP STABILITY
+COMPLETE OR NEAR-COMPLETE ENERGY
+
+CHARGE / RESPONSE PER JOULE
+
+PARTICIPATION
+
+KERNEL LEVERAGE
+
+CANCELLATION
+
+SCAFFOLD TAX
+
+STABILITY MARGIN
+
+NATURALNESS MARGIN
+
+PAYLOAD MARGIN.
 ```
 
-would be a valuable negative result.
+An empty file is preferable to false promotion.
 
 ---
 
-# 85. Hard Stop Rules
+# 135. Automatic near-miss analysis
 
-Permanent AGMINER stop rules:
+Report useful near misses such as:
 
 ```text
-IF E_CONSERVATIVE_COMPLETE > 10 GJ:
-    REJECT
-    RECORD
-    NEVER CERTIFY
+LOWEST-ENERGY SUPPORT FAILURE
 
-IF ANALYTIC ENERGY LOWER BOUND > 10 GJ:
-    REJECT BEFORE FIELD SOLVE
+LOWEST-ENERGY RG FAILURE
 
-IF NATURALNESS FAILS:
-    REJECT BEFORE EXPENSIVE STABILITY
+LOWEST-ENERGY STABILITY FAILURE
 
-IF HAMILTONIAN UNBOUNDED:
-    REJECT
+LOWEST-ENERGY EMPIRICAL FAILURE
 
-IF GHOST:
-    REJECT
+BEST COMPLETE ENERGY ABOVE 10 MJ
 
-IF UNIVERSAL PHYSICAL METRIC FAILS:
-    REJECT
-
-IF FINITE PAYLOAD SURFACE < 1g:
-    REJECT
-
-IF SOURCE INTERSECTS PAYLOAD:
-    REJECT
-
-IF CONSERVATION FAILS:
-    REJECT
-
-IF POSITIVE ENERGY REQUIREMENT FAILS:
-    REJECT
-
-IF CHEAP TRUE INSTABILITY IS ESTABLISHED:
-    REJECT
-
-IF LEAKAGE LIMIT FAILS:
-    REJECT
-
-IF BACKREACTION LIMIT FAILS:
-    REJECT
-
-IF EXACT CANDIDATE ALREADY FAILED:
-    SKIP
-
-IF NUMERICAL SOLVER FAILS TWICE:
-    MARK NUMERICALLY_UNRESOLVED
-    DO NOT SPIN FOREVER
-
-IF FAMILY IS ANALYTICALLY EXCLUDED:
-    STOP FAMILY
-
-IF DISK BUDGET EXCEEDED:
-    STOP SAFELY
-
-IF DATABASE IS DAMAGED:
-    STOP
-    DO NOT CONTINUE BLIND
+BEST ACTION ORACLE WITH LARGE REALIZATION GAP.
 ```
+
+These point directly toward the next theoretical bottleneck.
 
 ---
 
-# 86. Recommended Next-Session Execution Order
+# 136. Current next-session execution order
 
-Begin the next session in this exact order.
+The AGMINER build itself is no longer the task.
+
+Do **not** restart the original infrastructure milestone list.
+
+Current sequence:
 
 ```text
 1.
-RECONSTRUCT CURRENT PROJECT STATE
+VERIFY CURRENT FULL REGRESSION
 
 2.
-PRESERVE 031F0 RED NATURALNESS CLOSEOUT
+PRESERVE CURRENT DATABASE / FAILURE MEMORY
 
 3.
-READ FORMATTING_AND_CODE_STANDARDS
+PRESERVE V17 AND V18 AS PARTIAL ORACLES
 
 4.
-VERIFY 94-TEST BASELINE
+DO NOT PROMOTE THEM TO SURVIVORS
 
 5.
-CREATE AGMINER_BUILDPLAN.md
+EXECUTE V19 SUPPORT / UV / EMPIRICAL KILL GATE
 
 6.
-CREATE src/antigravity_research/agminer/
+CONSTRUCT EXPLICIT SPHERICAL SUPPORT ACTION
 
 7.
-IMPLEMENT CONFIG
+CHARGE FULL WALL ENERGY
 
 8.
-IMPLEMENT FAILURE CODES
+TEST RADIAL / SHAPE STABILITY
 
 9.
-IMPLEMENT CANDIDATE CANONICALIZATION
+COMPUTE OR BOUND RENORMALIZED AXIAL VACUUM
 
 10.
-IMPLEMENT DETERMINISTIC FINGERPRINTING
+RG / UV MATCH C1 AND fPsi
 
 11.
-IMPLEMENT SQLITE STORAGE
+TEST COMPANION OPERATORS
 
 12.
-IMPLEMENT REJECTION MEMORY
+RUN EARLY EMPIRICAL FALSIFICATION
 
 13.
-IMPLEMENT HARD 10-GJ GATE
+RECOMPUTE FINITE PAYLOAD IF SOURCE CHANGES
 
 14.
-IMPLEMENT PARETO FRONTIER
+UPDATE AGMINER FAILURE / ORACLE MEMORY
 
 15.
-IMPLEMENT ROTATING LIGHTWEIGHT LOGGING
+IF V18 SURVIVES:
+    CONTINUE COUPLED CERTIFICATION
 
 16.
-IMPLEMENT CRASH RESUME
+IF V18 FAILS BUT A PHYSICAL ANISOTROPIC SUPPORT EXISTS:
+    RETURN TO V17 OBLATE FRONTIER
 
 17.
-IMPLEMENT SOBOL SAMPLER
+IF KINETIC-CONFORMAL CLASS FAILS FUNDAMENTALLY:
+    GLOBAL AGMINER RERANK
 
 18.
-IMPLEMENT GENERIC FAMILY INTERFACE
-
-19.
-IMPLEMENT HISTORICAL 031 CONTROL FAMILY
-
-20.
-IMPORT KNOWN HISTORICAL FAILURES
-
-21.
-ADD AGMINER UNIT TESTS
-
-22.
-RUN 94 BASELINE
-
-23.
-RUN AGMINER VALIDATION CAMPAIGN
-
-24.
-VERIFY KNOWN >10-GJ MODELS ARE REJECTED
-
-25.
-VERIFY 031 NATURALNESS IS REJECTED EARLY
-
-26.
-VERIFY DUPLICATES SKIP AFTER RESTART
-
-27.
-VERIFY DISK USAGE REMAINS SMALL
-
-28.
-ONLY THEN DEFINE FIRST NEW 032 PROTECTED FAMILY
-
-29.
-RUN SMALL 032 SMOKE SEARCH
-
-30.
-IF CLEAN:
-    START LONG UNATTENDED MINING CAMPAIGN
+ONLY THEN:
+    RESUME BROAD DISCOVERY.
 ```
 
 ---
 
-# 87. Initial Files Expected After Build
-
-Keep the repository clean.
-
-Expected persistent files:
+# 137. Current decision tree
 
 ```text
-AGMINER_BUILDPLAN.md
-
-src/antigravity_research/agminer/...
-
-tests/agminer/...
-
-config/agminer_032a.json
-
-results/agminer/agminer.sqlite3
-
-results/agminer/agminer_current.log
-
-results/agminer/top_candidates.csv
-
-results/agminer/pareto_frontier.csv
-
-results/agminer/failure_counts.csv
-
-results/agminer/run_summary.json
+CURRENT V18 SPHERE
+3.419 MJ PARTIAL
+       |
+       v
+V19
+SUPPORT + RG/UV + EMPIRICAL
+       |
+       +------------------- RED -------------------+
+       |                                           |
+       |                                           v
+       |                                RECORD FAILURE ANATOMY
+       |                                           |
+       |                    +----------------------+----------------+
+       |                    |                                       |
+       |                    v                                       v
+       |           V17 OBLATE FRONTIER                    GLOBAL AGMINER
+       |           if physical anisotropic               RERANK
+       |           support exists
+       |
+      GREEN
+       |
+       v
+FULL COUPLED
+SOURCE + SUPPORT + PAYLOAD
+       |
+       v
+FULL STABILITY
+       |
+       v
+ACTIVATION / OFF STATE
+       |
+       v
+NONLINEAR METRIC
+       |
+       v
+EMPIRICAL CLOSURE
+       |
+       v
+COMPLETE OPERATING LEDGER
+       |
+       +---- >=10 MJ ----> FAIL CURRENT PRACTICAL POLICY
+       |
+       +---- <10 MJ -----> CERTIFICATION / REALIZATION FRONTIER
 ```
-
-Do not generate thousands of candidate-specific files.
 
 ---
 
-# 88. Major Architecture Principle
+# 138. Current checkpoint
 
-The central design rule is:
+```text
+DATE =
+2026-09-06
 
-> **Store knowledge, not simulation clutter.**
+AGMINER_STATUS =
+ACTIVE_AND_OPERATIONAL
 
-A failed candidate should normally cost only one small database row.
+AGMINER_MODE =
+CANDIDATE_SPECIFIC_FALSIFICATION
 
-A successful coarse candidate should cost only a small database row.
+ENERGY_POLICY_ID =
+ENERGY_ab8c16e45c837ffc
 
-Only a tiny number of finalists deserve field checkpoints.
+ENERGY_TARGET =
+E_CONSERVATIVE_COMPLETE_OPERATING < 10 MJ
+
+EXACT_10_MJ =
+REJECT
+
+HISTORICAL_REGRESSION_BASELINE =
+94_PASSED
+
+CURRENT_FULL_REGRESSION =
+238_PASSED
+
+MODEL_COUNT =
+~101050
+
+REJECTION_COUNT =
+~95600
+
+ACTION_ORACLE_COUNT =
+8
+
+COLLECTIVE_SCALING_COUNT =
+2
+
+MECHANISM_METRIC_COUNT =
+0
+
+MECHANISM_PARETO_COUNT =
+0
+
+CERTIFIED_SURVIVOR_COUNT =
+0
+
+CURRENT_ACTIVE_CLASS =
+SHIFT_SYMMETRIC_KINETIC_CONFORMAL_UNIVERSAL_METRIC
+
+CURRENT_SOURCE =
+ZERO_NET_HIDDEN_FERMION_AXIAL_DERIVATIVE_SOURCE
+
+V17_OBLATE_PARTIAL =
+~59.419738_KJ
+
+V17_SUPPORT =
+OPEN_ANISOTROPIC
+
+V17_FIXED_ORDER_RG =
+RED
+
+V18_SPHERE_PARTIAL =
+~3.419157493_MJ
+
+V18_SUPPORT_FLOOR =
+~0.836832_MJ
+
+V18_PHYSICAL_BAG =
+NO
+
+V18_FIXED_ORDER_RG =
+RED
+
+OUTWARD_SIGN_UNIVERSAL_UV_COMPLETION =
+OPEN
+
+RENORMALIZED_AXIAL_VACUUM =
+OPEN
+
+FULL_SOURCE_PAYLOAD_SUPPORT_COUPLING =
+OPEN
+
+NONLINEAR_STABILITY =
+OPEN
+
+ACTIVATION =
+OPEN
+
+EMPIRICAL_CLOSURE =
+OPEN
+
+COMPLETE_SUB10MJ_MODEL =
+NO
+
+PHYSICAL_ANTIGRAVITY_MODEL =
+NO
+
+PRACTICAL_DEVICE =
+NO
+
+NEXT =
+032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE
+```
 
 ---
 
-# 89. New Research Philosophy
+# 139. Primary AGMINER claim
 
-The old workflow was approximately:
+The primary AGMINER claim is now:
+
+> **AGMINER is a reproducible, failure-aware, multi-fidelity physics discovery and falsification system that combines analytical no-go tests, canonical normalization, action-specific efficiency oracles, mechanism learning, finite-payload observables, microscopic source realization, persistent rejection memory, and progressively stronger physical gates to identify antigravity candidates worthy of certification under a strict complete operating-energy objective.**
+
+It does not claim:
 
 ```text
-FIND A PROMISING MODEL
-        ↓
-SPEND MANY RUNS CERTIFYING IT
-        ↓
-DISCOVER A LATE FAILURE
+ANTIGRAVITY DISCOVERED.
 ```
 
-AGMINER changes this to:
+---
+
+# 140. Major architecture principle
+
+Permanent design rule:
+
+> **Store physical knowledge, not merely candidate outcomes.**
+
+The most useful AGMINER database entry may be:
 
 ```text
-SEARCH MANY CHEAPLY
-        ↓
+THIS SOURCE CANNOT EXIST
+```
+
+or:
+
+```text
+THIS APPARENT COUPLING IS A NORMALIZATION ARTIFACT
+```
+
+or:
+
+```text
+THIS COLLECTIVE RESPONSE SCALES NO FASTER THAN ITS SCAFFOLD
+```
+
+rather than a low-energy candidate.
+
+---
+
+# 141. Major scientific principle
+
+Permanent rule:
+
+> **Optimize the missing physical bottleneck, not the prettiest partial coefficient.**
+
+Examples:
+
+```text
+WHEN ENERGY WAS THE BOTTLENECK:
+OPTIMIZE ENERGY
+
+WHEN SOURCE EXISTENCE WAS THE BOTTLENECK:
+PROVE SOURCE EXISTENCE
+
+WHEN SUPPORT IS THE BOTTLENECK:
+BUILD SUPPORT
+
+WHEN RG IS THE BOTTLENECK:
+DO RG
+
+WHEN EMPIRICAL CONSISTENCY IS THE BOTTLENECK:
+TEST EMPIRICAL CONSISTENCY.
+```
+
+This prevents endless optimization of already-solved subproblems.
+
+---
+
+# 142. What AGMINER has learned so far
+
+Permanent high-level lessons:
+
+```text
+1.
+RAW COUPLING SIZE IS NOT PHYSICAL EFFICIENCY
+
+2.
+CANONICAL NORMALIZATION MUST COME EARLY
+
+3.
+RESPONSE SCALING WITHOUT SOURCE SCALING IS MISLEADING
+
+4.
+COLLECTIVE RESPONSE MUST OUTRUN COMPLETE ENERGY
+
+5.
+TOPOLOGICAL CHARGE IS NOT AUTOMATICALLY A METRIC-ACTIVE CHARGE
+
+6.
+A STATIC SOURCE MAY BE FORBIDDEN EVEN WHEN THE FIELD SIGN IS GOOD
+
+7.
+ZERO-NET MULTIPOLES CAN EVADE MONOPOLE NO-GOES
+
+8.
+A MICROSCOPIC SOURCE CAN FAIL ITS OWN EFT AFTER SELF-CONSISTENCY
+
+9.
+MORE FLAVORS DO NOT AUTOMATICALLY SAVE ENERGY
+
+10.
+FINITE PAYLOAD BACKREACTION CREATES REAL OPTIMA
+
+11.
+SUPPORT GEOMETRY CAN CHANGE MICROSCOPIC SELF-CONSISTENCY
+
+12.
+FIXED-ORDER RG FAILURE IS NOT AUTOMATICALLY A DEVICE-ENERGY PENALTY
+
+13.
+A LOW PARTIAL ORACLE IS NOT A COMPLETE MODEL
+
+14.
+FAILURE MEMORY SHOULD STORE THE PHYSICAL REASON
+
+15.
+BROAD SEARCH SHOULD STOP WHEN ONE CLASS BECOMES CLEARLY MORE INFORMATIVE.
+```
+
+---
+
+# 143. Final operating philosophy
+
+The old AGMINER philosophy was:
+
+```text
+SEARCH MANY
+
 FALSIFY EARLY
-        ↓
-REMEMBER EVERY FAILURE
-        ↓
-KEEP ONLY <=10-GJ SURVIVORS
-        ↓
-RANK BY ENERGY + PHYSICAL MARGINS
-        ↓
-CERTIFY ONLY THE VERY BEST
+
+REMEMBER FAILURES
+
+SHORTLIST THE BEST.
 ```
 
-This should become the default ANTIGRAVITY_RESEARCH workflow for future candidate families.
+That remains correct.
 
----
-
-# 90. Primary AGMINER Claim
-
-The goal of 032A is not:
+The mature philosophy is now:
 
 ```text
-FIND ANTIGRAVITY
+UNDERSTAND THE THEORY
+
+        ↓
+
+CANONICALIZE THE PHYSICS
+
+        ↓
+
+DERIVE THE CHEAPEST DECISIVE THEOREM
+
+        ↓
+
+BUILD ACTION-SPECIFIC ORACLES
+
+        ↓
+
+IDENTIFY THE ACTUAL EFFICIENCY MECHANISM
+
+        ↓
+
+SEARCH ONLY PHYSICALLY INDEPENDENT PARAMETERS
+
+        ↓
+
+FALSIFY SOURCE EXISTENCE / SIGN / SCALING
+
+        ↓
+
+REALIZE A MICROSCOPIC SOURCE
+
+        ↓
+
+TEST THE ACTUAL FINITE PAYLOAD
+
+        ↓
+
+CHARGE SUPPORT AND REACTION
+
+        ↓
+
+TEST QUANTUM / RG / UV CONTROL
+
+        ↓
+
+TEST STABILITY AND EMPIRICAL CONSISTENCY
+
+        ↓
+
+ONLY THEN ASK WHETHER THE COMPLETE ENERGY IS <10 MJ
+
+        ↓
+
+CERTIFY ONLY THE SURVIVORS.
 ```
-
-The goal is:
-
-> **Build a reproducible, disk-efficient, failure-aware, multi-fidelity antigravity candidate miner that can search parameterized microscopic theories for complete finite-payload operating configurations at or below 10 GJ, reject known and newly discovered failures cheaply, and return only the strongest candidates for expensive certification.**
 
 ---
 
-# 91. Hard 10 GJ Project Statement
+# 144. Final rule
 
 Carry this into every AGMINER session:
 
-```text
-AGMINER_ENERGY_LIMIT =
-10.0 GJ
+> **The miner does not exist to produce low numbers. It exists to identify physically meaningful routes to antigravity and to destroy false ones as efficiently and permanently as possible.**
 
-ENERGY_LEDGER =
-CONSERVATIVE_COMPLETE_OPERATING_INVENTORY
+And:
 
-IF ENERGY > 10 GJ =
-FAIL
-
-FAILURE CODE =
-REJECTED_ENERGY_GT_10GJ
-
-FAILED EXACT MODEL =
-PERSISTENTLY REMEMBERED
-
-FAILED EXACT MODEL =
-NOT AUTOMATICALLY RETESTED
-
-MODEL <= 10 GJ =
-ONLY ELIGIBLE FOR FURTHER SCREENING
-
-MODEL <= 10 GJ =
-NOT AUTOMATICALLY VALID
-
-FULL CERTIFICATION =
-SEPARATE LATER PROCESS
-```
+> **A candidate becomes more interesting as more complete physics fails to kill it—not merely as its partial energy becomes smaller.**
 
 ---
 
-# 92. Final Next State
+# 145. Final next state
 
 ```text
-CURRENT 031 EFT =
-CLOSED RED ON RADIATIVE NATURALNESS
+AGMINER_INFRASTRUCTURE =
+BUILT_AND_OPERATIONAL
 
-031 CLASSICAL RESULTS =
-PRESERVED
+AGMINER_V6_MECHANISM_REDESIGN =
+COMPLETE
 
-031D =
-DRIVEN ADIABATIC SWITCHING GREEN
+GENERIC_BROAD_MINING =
+NOT_CURRENT_PRIORITY
 
-031E =
-WEAK-CURVATURE EINSTEIN/JORDAN GREEN
+CURRENT_MODE =
+CANDIDATE_SPECIFIC_FALSIFICATION
 
-031F0 =
-RADIATIVE NATURALNESS RED
+CURRENT_ACTIVE_MODEL_CLASS =
+KINETIC_CONFORMAL_UNIVERSAL_METRIC
++
+HIDDEN_AXIAL_DERIVATIVE_SOURCE
 
-CURRENT PRACTICAL DEVICE =
-NO
+CURRENT_ENERGY_LEADER =
+V17_OBLATE_59P419738_KJ_PARTIAL
 
-NEW ACTIVE DEVELOPMENT =
-AGMINER
+CURRENT_SUPPORT_REALIZATION_LEADER =
+V18_SPHERE_3P419157493_MJ_PARTIAL
 
-AGMINER HARD ENERGY CEILING =
-10 GJ
-
-AGMINER FIRST TASK =
-BUILD INFRASTRUCTURE BEFORE NEW HEAVY PHYSICS
+CURRENT_CERTIFIED_SURVIVORS =
+0
 
 NEXT =
-032A_AGMINER_CORE_VALIDATION_AND_PROTECTED_MODEL_MINING
+032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE
 ```
-# 93. Manual Stop, Safe Shutdown, and Anytime Results Access
-
-AGMINER must be designed so the user can **stop a mining campaign whenever desired without losing completed work or corrupting the database**.
-
-Manual interruption is a normal operating condition, not an error.
-
-Required behavior:
-
-```text
-USER REQUESTS STOP
-        ↓
-STOP ISSUING NEW CANDIDATES
-        ↓
-ALLOW CURRENT SHORT WORK UNITS TO FINISH OR CANCEL SAFELY
-        ↓
-WRITE PENDING RESULTS TO SQLITE
-        ↓
-CHECKPOINT SAMPLER / RUN STATE
-        ↓
-REBUILD CURRENT PARETO FRONTIER
-        ↓
-UPDATE TOP-CANDIDATE AND FAILURE SUMMARIES
-        ↓
-CHECKPOINT / TRUNCATE SQLITE WAL
-        ↓
-EXIT CLEANLY
-```
-
-AGMINER must handle at minimum:
-
-```text
-CTRL+C
-SIGTERM
-BUILT-IN STOP COMMAND
-```
-
-A first interrupt should request a **graceful stop**.
-
-If practical, a second interrupt may force termination while preserving all database transactions already committed.
-
-The miner must never require the user to wait for the entire planned campaign to finish before seeing results.
 
 ---
 
-## Results Must Be Viewable at Any Time
-
-The user must be able to inspect current results while AGMINER is:
-
-```text
-RUNNING
-STOPPED
-INTERRUPTED
-COMPLETED
-```
-
-without modifying or invalidating the active campaign.
-
-Provide commands equivalent to:
-
-```text
-python -m antigravity_research.agminer status
-
-python -m antigravity_research.agminer top
-
-python -m antigravity_research.agminer pareto
-
-python -m antigravity_research.agminer failures
-```
-
-These should read the SQLite database in a safe read-only manner.
-
-`status` should show compact campaign state:
-
-```text
-TOTAL CANDIDATES TESTED
-KNOWN CANDIDATES SKIPPED
-TOTAL REJECTIONS
->10-GJ REJECTIONS
-NATURALNESS REJECTIONS
-FIELD-SOLVE FAILURES
-PAYLOAD FAILURES
-STABILITY FAILURES
-TIER-1 SURVIVORS
-TIER-2 SURVIVORS
-CURRENT BEST ENERGY
-PARETO COUNT
-ELAPSED TIME
-DATABASE SIZE
-CHECKPOINT SIZE
-CURRENT RUN STATE
-```
-
-`top` should display the best surviving models, ordered primarily by conservative complete energy.
-
-`pareto` should show the current Pareto frontier.
-
-`failures` should summarize rejection counts and allow lookup of previously tested candidates.
-
----
-
-## Explicit Stop Command
-
-Implement a convenient controlled shutdown command such as:
-
-```text
-python -m antigravity_research.agminer stop
-```
-
-The active miner should periodically check for the stop request and shut down gracefully.
-
-A simple implementation may use a small control file or database flag such as:
-
-```text
-STOP_REQUESTED = TRUE
-```
-
-The stop mechanism must not require network services or additional infrastructure.
-
----
-
-## Resume After Stop
-
-A safely stopped campaign must later support:
-
-```text
-python -m antigravity_research.agminer resume
-```
-
-Resume must:
-
-```text
-LOAD EXISTING DATABASE
-
-RESTORE RUN CONFIGURATION
-
-RESTORE SAMPLER POSITION
-
-REBUILD REJECTION MEMORY
-
-REBUILD PARETO FRONTIER
-
-RESTORE SURVIVOR QUEUES
-
-SKIP ALL COMPLETED / TERMINALLY REJECTED MODELS
-
-CONTINUE FROM THE NEXT UNEVALUATED CANDIDATE
-```
-
-Stopping and resuming must **not cause already rejected models to be tested again**.
-
----
-
-## Periodic Live Summaries
-
-While mining, AGMINER should periodically overwrite lightweight live-result files:
-
-```text
-results/agminer/top_candidates.csv
-
-results/agminer/pareto_frontier.csv
-
-results/agminer/failure_counts.csv
-
-results/agminer/run_summary.json
-```
-
-These files are convenience views only.
-
-The SQLite database remains authoritative.
-
-Because the summaries are overwritten rather than continually timestamped, they should add negligible disk usage.
-
----
-
-## Manual Candidate Pinning
-
-While reviewing results, the user should be able to mark a promising model:
-
-```text
-PINNED = TRUE
-```
-
-A pinned candidate must not have its checkpoint automatically deleted even if it later falls outside the automatic top-candidate retention set.
-
-This permits the user to stop a long campaign, inspect interesting models, preserve selected candidates, and resume searching later.
-
----
-
-## Manual Stop Principle
-
-Permanent AGMINER rule:
-
-> **The miner works for the user; the user never works for the miner.**
-
-At any point the user must be able to stop the search, inspect everything learned so far, preserve promising candidates, and later resume without losing completed work or repeating known failures.
+## END AGMINER BUILD PLAN

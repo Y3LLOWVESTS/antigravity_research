@@ -1,0 +1,162 @@
+{
+  "agminer": {
+    "mechanism_metrics_recorded": false,
+    "naive_sphere_reuse_rejection_candidate_id": "f5ebbc40149a1b989239b911",
+    "reporting": {
+      "action_oracle_count": 8,
+      "collective_scaling_count": 2,
+      "database_bytes": 63373312,
+      "mechanism_metric_count": 0,
+      "mechanism_pareto_count": 0,
+      "model_count": 101050,
+      "pareto_count": 0,
+      "rejection_count": 95600,
+      "stop_requested": false,
+      "survivor_count": 0
+    },
+    "sphere_fixed_order_rejection_candidate_id": "48ea271f578bb6b97dec0bfe",
+    "sphere_oracle_priority": "ORACLE_PROVENANCE_INCOMPLETE",
+    "sphere_oracle_trusted_for_reachability": false,
+    "sphere_partial_oracle_candidate_id": "b6c1723c349a7cc3ca7354f0"
+  },
+  "branch": "032V18_C1_UV_MATCHING_RG_AND_COMPLETE_SOURCE_SUPPORT_GATE",
+  "canonicalization": {
+    "c1_f_squared_rescaling_invariant": true,
+    "fixed_order_v17_control": "RED",
+    "large_delta_z_is_automatic_energy_multiplier": false,
+    "renormalized_physical_c1_f2_matched": false,
+    "rescaling_demo": {
+      "c1_canonical_ev_m4": 3.5202639223853224e-19,
+      "f_canonical_ev": 18.86922089227972,
+      "invariant_after_ev_m2": 1.25338115863211e-16,
+      "invariant_before_ev_m2": 1.25338115863211e-16,
+      "invariant_relative_error": 0.0
+    },
+    "rg_matched_low_energy_eft": "OPEN"
+  },
+  "certified_sub10mj_model_found": false,
+  "claim_class": "UNIVERSAL_METRIC_PROVENANCE_RG_INVARIANT_AND_SUPPORT_READY_PREFLIGHT",
+  "decision": "GREEN_UNIVERSAL_KINETIC_CONFORMAL_METRIC_PROVENANCE_GREEN_SUPPORT_FRIENDLY_SPHERE_PARTIAL_LT10MJ_RED_FIXED_ORDER_RG_CONTROL_UV_EMPIRICAL_AND_BAG_REALIZATION_REQUIRED",
+  "empirical_uv": {
+    "candidate_empirically_closed": false,
+    "candidate_jiang_nda_scale_ev": 101054.11301905285,
+    "candidate_low_energy_metric_scale_ev": 23971.29870009097,
+    "contact_eft_constraint_directly_transferable": false,
+    "explicit_low_scale_uv_completion_required": true,
+    "published_universal_derivative_conformal_collider_context": true,
+    "reason_not_directly_transferable": "CANDIDATE_EFT_BREAKS_DOWN_FAR_BELOW_COLLIDER_HARD_ENERGY",
+    "specific_model_constraint_scale_order_ev": 200000000000.0
+  },
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "frontier_comparison": [
+    {
+      "architecture": "V17_OBLATE",
+      "fixed_order_canonicalization_control": false,
+      "loop_proxy": 0.300000060963704,
+      "minimal_isotropic_bag_shape_compatible": false,
+      "partial_energy_j": 59419.73794114021,
+      "support_realization": "OPEN_ANISOTROPIC"
+    },
+    {
+      "architecture": "V18_SPHERE",
+      "fixed_order_canonicalization_control": false,
+      "loop_proxy": 0.30000013422209776,
+      "minimal_isotropic_bag_shape_compatible": true,
+      "partial_energy_j": 3419157.4925465686,
+      "support_realization": "LOWER_BOUND_ONLY_BAG_NOT_CONSTRUCTED"
+    }
+  ],
+  "next": "032V19_SPHERICAL_BAG_SUPPORT_UV_MATCHING_AND_EMPIRICAL_GATE",
+  "no_shortcut": {
+    "decision": "REOPTIMIZATION_REQUIRED",
+    "same_state_in_sphere_loop_proxy": 0.5445028510496263,
+    "same_state_preserves_loop030": false,
+    "v16_oblate_state_loop_proxy": 0.300000060963704
+  },
+  "open_gates": [
+    "RENORMALIZED_RG_OR_UV_MATCHED_CANONICAL_PARAMETERS",
+    "OUTWARD_C1_UNIVERSAL_UV_COMPLETION",
+    "PHYSICAL_POSITIVE_ENERGY_BAG_OR_ANISOTROPIC_SUPPORT",
+    "BAG_WALL_ENERGY",
+    "FULL_COUPLED_SOURCE_PAYLOAD_REACTION",
+    "ACTIVATION_AND_RESET",
+    "NONLINEAR_STABILITY",
+    "RADIATION",
+    "LABORATORY_COLLIDER_STELLAR_COSMOLOGICAL_EMPIRICAL_CLOSURE",
+    "FULL_METRIC_BACKREACTION"
+  ],
+  "outward_operator": {
+    "c1_ev_m4": 1.5142715050689224e-18,
+    "jiang_nda_scale_ev": 101054.11301905285,
+    "outward_universal_uv_completion": false,
+    "universal_metric_action_level": true
+  },
+  "physical_antigravity_model_found": false,
+  "provenance": {
+    "all_neutral_matter_one_physical_metric_available_at_action_level": true,
+    "brax_valageas_jordan_metric": "g_phys=A(X)^2*g_einstein",
+    "brax_valageas_universal_kinetic_conformal_metric": true,
+    "jiang_o1_alone_proves_universal_metric": false,
+    "jiang_o1_species_level_qed_operator": true,
+    "known_jiang_positive_c1_uv_example_used": false,
+    "published_framework_can_have_repulsive_fifth_force": true,
+    "published_minimal_A_equals_1_plus_chi_has_required_static_sign": false,
+    "reason_known_example_not_promoted": "COMPANION_J2_OPERATORS_AND_CLOSED_SPIN2_REALIZATION",
+    "required_outward_A_equals_1_minus_chi_action_level_allowed": true,
+    "required_outward_sign_universal_uv_completion_proved": false
+  },
+  "sphere_exact_payload_optimum": {
+    "complete_operating_ledger": false,
+    "epsilon_trace_load": 3.1162734453356986,
+    "fermion_pressure_perp_inventory_j": 836323.1996108652,
+    "fermion_pressure_z_inventory_j": 836323.1996108663,
+    "field_energy_j": 2545.59319853775,
+    "limiting_surface_cosine": 1.0,
+    "metric_scale_ev": 23971.29870009097,
+    "multipole_l28_l32_q2_relerr": 9.917607999507755e-10,
+    "occupied_band_energy_j": 2579779.581097457,
+    "partial_conservative_floor_j": 3419157.4925465686,
+    "payload_cm_quadrature_relerr": 1.845529574125022e-15,
+    "payload_cm_volume_average_m_s2": 92.4018010728837,
+    "q": 7.277248457230388e-07,
+    "q2": 5.295834510826206e-13,
+    "q2_factor_from_vacuum": 3.9497893366901904,
+    "remaining_to_strict_10mj_j": 6580842.507453431,
+    "source_center_feedback_ratio": 0.0037442312434994474,
+    "source_surface_max_feedback_ratio": 0.01487360541720503,
+    "support_energy_floor_j": 836832.3182505738,
+    "surface_max_m_s2": 943.8365530529343,
+    "surface_min_m_s2": 9.80665,
+    "surface_nonuniformity": 96.24454355492797,
+    "trusted_energy_oracle": false
+  },
+  "sphere_meanfield": {
+    "fixed_density_susceptibility_hat": 0.2732303956443083,
+    "loop_proxy": 0.30000013422209776,
+    "minimum_flavors_continuous_for_margin5": 115.87418266054773,
+    "r_mass_over_b": 1.1618483870310325,
+    "reference_100kev_partial_floor_j": 262167539.63110346,
+    "selected_flavors": 116,
+    "source_demag_z": 0.3333333333333333,
+    "source_radius_m": 0.1,
+    "susceptibility_to_current_ratio": 0.7990795625818242,
+    "u_mu_over_b": 9.133601683877256
+  },
+  "sphere_physical_source": {
+    "axial_b_ev": 6.19149614689479,
+    "chemical_potential_ev": 56.5506596329978,
+    "f_psi_ev": 22.513005017150324,
+    "fixed_order_canonicalization_control": false,
+    "flavors": 116,
+    "hard_scale_margin": 5.002713788388065,
+    "leading_log_delta_z_proxy": 4.406316116902939,
+    "m_psi_ev": 7.193579811578565,
+    "nda_cutoff_ev": 282.90676468843844
+  },
+  "support_geometry": {
+    "constant_pressure_tension_solution_constructed": false,
+    "physical_bag_constructed": false,
+    "sphere_minimal_isotropic_bag_compatible": true,
+    "v17_oblate_minimal_isotropic_bag_compatible": false
+  }
+}

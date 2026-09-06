@@ -1,12 +1,12 @@
 {
-  "action_oracle_count": 5,
+  "action_oracle_count": 8,
   "collective_scaling_count": 2,
-  "database_bytes": 63369216,
+  "database_bytes": 63373312,
   "mechanism_metric_count": 0,
   "mechanism_pareto_count": 0,
-  "model_count": 101042,
+  "model_count": 101050,
   "pareto_count": 0,
-  "rejection_count": 95595,
+  "rejection_count": 95600,
   "stop_requested": false,
   "survivor_count": 0
 }
