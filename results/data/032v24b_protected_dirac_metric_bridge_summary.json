@@ -1,0 +1,296 @@
+{
+  "bms_dimension5_metric_mixing_scout": {
+    "dimensionless_wilson": 1.0,
+    "dominant_distortion_kinetic_dimension": 4,
+    "length_m": 0.1,
+    "matched_bms_wilson_coefficient_established": false,
+    "metric_distortion_mixing_derivative_order": 3,
+    "metric_distortion_mixing_first_dimension": 5,
+    "mixing_subleading_in_declared_eft": true,
+    "natural_dimension5_mixing_ratio": 8.103777429158111e-34,
+    "naturalness_no_go_established": false,
+    "reference_scale_ev": 2.435e+27,
+    "source_to_metric_response_established": false,
+    "target_rows": [
+      {
+        "effective_suppression_length_m": 9.999999999999998e-05,
+        "effective_suppression_scale_ev": 0.0019732698040000004,
+        "required_dimensionless_wilson": 1.2339924297549326e+30,
+        "target_mixing": 0.001
+      },
+      {
+        "effective_suppression_length_m": 0.01,
+        "effective_suppression_scale_ev": 1.973269804e-05,
+        "required_dimensionless_wilson": 1.2339924297549329e+32,
+        "target_mixing": 0.1
+      }
+    ],
+    "wavenumber_ev": 1.973269804e-06
+  },
+  "branch": "032V24B_PROTECTED_DIRAC_METRIC_BRIDGE_GATE",
+  "closed_now": [
+    "WHEELER_REST_PAIR_TIMES_SINGLE_LOCALIZED_ENVELOPE_DIRECT_TO_STANDARD_FRONSDAL_SPIN3_WITHOUT_COMPENSATING_CURRENT",
+    "BARKER_ZELL_2024_EP_PSEUDOSCALAR_AS_DIRECT_SUB10MJ_UNIVERSAL_METRIC_BRIDGE_WITHOUT_ADDED_PORTAL"
+  ],
+  "database": {
+    "action_oracles_mutated": false,
+    "mechanism_metrics_mutated": false,
+    "models_mutated": false,
+    "region_rules_after": 15,
+    "region_rules_before": 13,
+    "region_rules_inserted": 2,
+    "rejections_mutated": false
+  },
+  "decision": "RED_PARTIAL_032V24B_DIRECT_REST_PAIR_FRONSDAL_SPIN3_REQUIRES_COMPENSATOR__EP_PSEUDOSCALAR_DIRECT_UNIVERSAL_BRIDGE_STRESS_ONLY_FAILS_SUB10MJ__PROTECTED_SPIN1_ONSHELL_DIRAC_AND_BROADER_MAG_REMAIN_OPEN",
+  "einstein_stress_only_reference_bound": {
+    "acceleration_upper_bound_m_s2": 2.9704641076474653e-18,
+    "active_source_factor": 4.0,
+    "complete_device_energy_claim": false,
+    "energy_j": 10000000.0,
+    "energy_required_at_same_bound_j": 3.301386465082261e+25,
+    "nonminimal_metric_portal_closed_by_this_bound": false,
+    "required_energy_over_supplied": 3.301386465082261e+18,
+    "stand_off_gap_m": 0.1,
+    "target_acceleration_m_s2": 9.80665,
+    "target_to_upper_bound_ratio": 3.3013864650822615e+18,
+    "uses_exact_10mj_fail_boundary_as_optimistic_supremum": true
+  },
+  "energy_policy": {
+    "comparison": "LT",
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0,
+    "policy_id": "ENERGY_ab8c16e45c837ffc"
+  },
+  "explicitly_open": [
+    "PROTECTED_TOTALLY_SYMMETRIC_SPIN1_WITH_EXACT_ONSHELL_DIRAC_SOURCE_CONSTRAINT",
+    "FRONSDAL_OR_OTHER_PROTECTED_SPIN3_WITH_COMPENSATING_OR_MORE_GENERAL_WARD_COMPATIBLE_SOURCE",
+    "BROADER_HOOK_OR_MIXED_SYMMETRY_MAG_WITH_PROTECTED_LOWER_SPIN_METRIC_ACTIVE_MODE",
+    "NEW_EP_OR_IW_EXTENSION_ONLY_IF_IT_ADDS_A_GENUINELY_UNIVERSAL_PHYSICAL_METRIC_PORTAL"
+  ],
+  "extended_projective_pseudoscalar_gate": {
+    "all_extended_projective_or_iso_weyl_models_closed": false,
+    "declared_ep_pseudoscalar_direct_antigravity_bridge_closed": true,
+    "dirac_motivated_protecting_symmetry": true,
+    "direct_fermion_vertex_is_universal_unpolarized_payload_metric_force": false,
+    "direct_universal_neutral_matter_metric_portal_identified": false,
+    "new_added_universal_metric_portal_closed": false,
+    "published_four_fermion_vertex": true,
+    "published_reduced_metric_form": "EINSTEIN_HILBERT_PLUS_CANONICAL_PSEUDOSCALAR",
+    "published_scalar_fermion_vertex": true,
+    "published_spectrum": "MASSLESS_GRAVITON_PLUS_ONE_PSEUDOSCALAR",
+    "stress_only_bridge_bound": {
+      "acceleration_upper_bound_m_s2": 2.9704641076474653e-18,
+      "active_source_factor": 4.0,
+      "complete_device_energy_claim": false,
+      "energy_j": 10000000.0,
+      "energy_required_at_same_bound_j": 3.301386465082261e+25,
+      "nonminimal_metric_portal_closed_by_this_bound": false,
+      "required_energy_over_supplied": 3.301386465082261e+18,
+      "stand_off_gap_m": 0.1,
+      "target_acceleration_m_s2": 9.80665,
+      "target_to_upper_bound_ratio": 3.3013864650822615e+18,
+      "uses_exact_10mj_fail_boundary_as_optimistic_supremum": true
+    },
+    "strict_sub10mj_reference_gap_reaches_1g": false,
+    "theory": "BARKER_ZELL_2024_EXTENDED_PROJECTIVE_PSEUDOSCALAR",
+    "universal_bridge_in_declared_reduced_action": "EINSTEIN_STRESS_ENERGY_ONLY"
+  },
+  "generic_dirac_algebraic_witness": {
+    "agminer_exclusion_rule_from_so3_screen": false,
+    "algebraic_spin1_carrier_nonzero": true,
+    "algebraic_spin3_carrier_nonzero": true,
+    "combined_spin1_carrier_norm": 4.712404434633721,
+    "component_norm_is_lorentz_invariant": false,
+    "exact_massless_helicity_projection_established": false,
+    "full_dirac_source_family_closed": false,
+    "localized_source_equations_solved": false,
+    "protecting_gauge_ward_identity_established": false,
+    "source_component_norm": 9.498659554554703,
+    "spin0_zero_ij_trace": 1.8800000000000001,
+    "spin0_zero_zero_zero": 0.0,
+    "spin1_spatial_trace_norm": 2.981811529926062,
+    "spin1_zero_zero_i_norm": 3.649048582241069,
+    "spin2_zero_ij_stf_norm": 2.7202124100069014,
+    "spin3_spatial_stf_norm": 4.382930526485676,
+    "spinor_is_claimed_on_shell_stationary_source": false
+  },
+  "next": "032V24C_ONSHELL_DIRAC_PROTECTED_SPIN1_SOURCE_WARD_AND_UNIVERSAL_METRIC_BRIDGE_GATE",
+  "promotion_status": {
+    "action_oracle_created": false,
+    "blind_parameter_scan_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "complete_operating_energy_established": false,
+    "direct_rest_pair_fronsdal_spin3_source_compatible": false,
+    "exact_protected_spin1_source_constraint_established": false,
+    "finite_payload_response_established": false,
+    "fronsdal_compensating_current_closed": false,
+    "outward_sign_established": false,
+    "physical_antigravity_model_found": false,
+    "rest_so3_screen_is_exact_pole_projection": false,
+    "source_charge_per_joule_established": false,
+    "universal_physical_metric_bridge_established": false
+  },
+  "protected_mode_rerank": [
+    {
+      "branch": "BMS_TOTALLY_SYMMETRIC_PROTECTED_SPIN1_REST_PAIR",
+      "hard_exclusion_from_so3_screen": false,
+      "priority": 1,
+      "reason": "SO3_REST_SCREEN_ZERO_IS_NOT_AN_EXACT_POLE_PROJECTION",
+      "rest_frame_so3_spin1_screen_zero": true,
+      "status": "OPEN_EXACT_SPIN1_SOURCE_CONSTRAINT_REQUIRED",
+      "universal_metric_bridge_established": false
+    },
+    {
+      "all_spin3_dirac_sources_closed": false,
+      "branch": "STANDARD_FRONSDAL_F4_SPIN3_DIRECT_REST_PAIR",
+      "compensating_current_closed": false,
+      "maximum_normalized_ward_residual": 0.5773502691896257,
+      "priority": 0,
+      "reason": "DIRECT_LOCALIZED_FACTORISED_REST_PAIR_FAILS_FRONSDAL_SOURCE_WARD_IDENTITY",
+      "status": "CLOSED_WITHOUT_COMPENSATING_CURRENT"
+    },
+    {
+      "branch": "BMS_PROTECTED_TOTALLY_SYMMETRIC_SPIN1_ONSHELL_DIRAC",
+      "generic_algebraic_spin1_carrier_exists": true,
+      "generic_witness_on_shell": false,
+      "metric_mixing_dimension": 5,
+      "natural_dimension5_mixing_ratio_at_10cm": 8.103777429158111e-34,
+      "priority": 1,
+      "reason": "LOWER_SPIN_PROTECTED_MODE_REQUIRES_EXACT_SOURCE_CONSTRAINT_AND_METRIC_BRIDGE",
+      "status": "HIGHEST_PRIORITY_OPEN_PROTECTED_TS_ROUTE",
+      "universal_metric_bridge_established": false
+    },
+    {
+      "branch": "BMS_OR_CATALOGUE_SPIN3_WITH_COMPENSATED_ONSHELL_DIRAC_SOURCE",
+      "priority": 2,
+      "reason": "REST_PAIR_DIRECT_SOURCE_FAILS_BUT_COMPENSATED_OR_MORE_GENERAL_ONSHELL_SOURCE_NOT_CLOSED",
+      "status": "OPEN_ONLY_WITH_WARD_COMPATIBLE_SOURCE_AND_METRIC_BRIDGE",
+      "universal_metric_bridge_established": false
+    },
+    {
+      "all_ep_extensions_closed": false,
+      "branch": "BARKER_ZELL_EXTENDED_PROJECTIVE_PSEUDOSCALAR",
+      "priority": 0,
+      "reason": "PUBLISHED_REDUCED_ACTION_HAS_EINSTEIN_METRIC_PLUS_CANONICAL_PSEUDOSCALAR_WITH_FERMION_VERTICES_BUT_NO_NEW_UNIVERSAL_PHYSICAL_METRIC_PORTAL",
+      "status": "CLOSED_AS_DECLARED_DIRECT_SUB10MJ_UNIVERSAL_BRIDGE",
+      "stress_only_target_gap": 3.3013864650822615e+18
+    },
+    {
+      "branch": "BARKER_ZELL_ISO_WEYL_VECTOR",
+      "priority": 4,
+      "protected_vector_history_reopened": false,
+      "reason": "HEALTHY_VECTOR_DOES_NOT_BY_ITSELF_SUPPLY_PROJECT_UNIVERSAL_NEUTRAL_MATTER_METRIC_RESPONSE",
+      "status": "LOW_PRIORITY_OPEN_ONLY_WITH_GENUINELY_NEW_UNIVERSAL_METRIC_PORTAL"
+    },
+    {
+      "branch": "PERCACCI_SEZGIN_SPIN3_OR_SPIN3_PLUS_SPIN0",
+      "priority": 3,
+      "radiative_protection_established": false,
+      "reason": "LINEAR_HEALTH_DOES_NOT_ESTABLISH_RADIATIVE_PROTECTION_OR_DIRAC_SOURCE_METRIC_BRIDGE",
+      "status": "TREE_LEVEL_HEALTHY_NOT_PROMOTED_WITHOUT_PROTECTION_AND_SOURCE_MATCH",
+      "universal_metric_bridge_established": false
+    },
+    {
+      "branch": "BROADER_HOOK_OR_MIXED_SYMMETRY_MAG_WITH_PROTECTED_LOWER_SPIN_METRIC_ACTIVE_MODE",
+      "explicit_protecting_action_identified": false,
+      "priority": 2,
+      "reason": "V24A_HOOK_CARRIER_NONZERO_AND_CURRENT_PROTECTED_TS_EP_DIRECT_ROUTES_DO_NOT_COMPLETE_THE_CHAIN",
+      "status": "OPEN_NEW_ACTION_REQUIRED",
+      "universal_metric_bridge_established": false
+    }
+  ],
+  "rest_pair_fronsdal_ward_gate": {
+    "all_massless_spin3_dirac_sources_closed": false,
+    "all_metric_affine_gravity_closed": false,
+    "all_tested_spatial_directions_pass": false,
+    "compensating_current_or_more_general_source_closed": false,
+    "direct_factorized_localized_rest_pair_without_compensator_closed": true,
+    "direction_results": {
+      "x": {
+        "compensating_current_included": false,
+        "divergence_trace": 0.0,
+        "normalized_ward_residual": 0.0,
+        "source_component_norm": 6.531972647421808,
+        "source_envelope_factorization_assumed": true,
+        "spatial_wavevector": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "standard_fronsdal_source_ward_pass": true,
+        "traceless_divergence_norm": 0.0,
+        "wavevector_norm": 1.0
+      },
+      "xyz": {
+        "compensating_current_included": false,
+        "divergence_trace": 0.0,
+        "normalized_ward_residual": 0.4714045207910317,
+        "source_component_norm": 6.531972647421808,
+        "source_envelope_factorization_assumed": true,
+        "spatial_wavevector": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "standard_fronsdal_source_ward_pass": false,
+        "traceless_divergence_norm": 5.333333333333333,
+        "wavevector_norm": 1.7320508075688772
+      },
+      "y": {
+        "compensating_current_included": false,
+        "divergence_trace": 0.0,
+        "normalized_ward_residual": 0.5773502691896257,
+        "source_component_norm": 6.531972647421808,
+        "source_envelope_factorization_assumed": true,
+        "spatial_wavevector": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "standard_fronsdal_source_ward_pass": false,
+        "traceless_divergence_norm": 3.7712361663282534,
+        "wavevector_norm": 1.0
+      },
+      "z": {
+        "compensating_current_included": false,
+        "divergence_trace": 0.0,
+        "normalized_ward_residual": 0.5773502691896257,
+        "source_component_norm": 6.531972647421808,
+        "source_envelope_factorization_assumed": true,
+        "spatial_wavevector": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "standard_fronsdal_source_ward_pass": false,
+        "traceless_divergence_norm": 3.7712361663282534,
+        "wavevector_norm": 1.0
+      }
+    },
+    "maximum_normalized_ward_residual": 0.5773502691896257
+  },
+  "rest_pair_so3_screen": {
+    "agminer_exclusion_rule_from_so3_screen": false,
+    "combined_spin1_carrier_norm": 0.0,
+    "component_norm_is_lorentz_invariant": false,
+    "exact_massless_helicity_projection_established": false,
+    "full_dirac_source_family_closed": false,
+    "rest_frame_so3_screen_closes_protected_spin1_spin3": false,
+    "rest_frame_so3_screen_is_exact_pole_projection": false,
+    "rest_frame_spin1_screen_zero": true,
+    "rest_frame_spin2_carrier_nonzero": true,
+    "rest_frame_spin3_screen_zero": true,
+    "source_component_norm": 6.531972647421808,
+    "spin0_zero_ij_trace": 0.0,
+    "spin0_zero_zero_zero": 0.0,
+    "spin1_spatial_trace_norm": 0.0,
+    "spin1_zero_zero_i_norm": 0.0,
+    "spin2_zero_ij_stf_norm": 3.7712361663282534,
+    "spin3_spatial_stf_norm": 0.0
+  },
+  "v24a_provenance": {
+    "explicit_tracefree_dirac_nonmetricity": true,
+    "torsion_cancelled_rest_pair_witness": true,
+    "universal_metric_bridge_pre_v24b": false
+  }
+}

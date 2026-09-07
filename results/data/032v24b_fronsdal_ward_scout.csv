@@ -1,0 +1,5 @@
+direction,kx,ky,kz,normalized_ward_residual,standard_fronsdal_source_ward_pass
+x,1.0,0.0,0.0,0.0,True
+y,0.0,1.0,0.0,0.5773502691896257,False
+z,0.0,0.0,1.0,0.5773502691896257,False
+xyz,1.0,1.0,1.0,0.4714045207910317,False

@@ -1,0 +1,151 @@
+{
+  "bms_2025_ir_gate": {
+    "background_dependent_metric_torsion_mixing_closed": false,
+    "dirac_hook_source_closed": false,
+    "direct_universal_physical_metric_bridge_in_declared_ir_action": false,
+    "field": "PAIR_ANTISYMMETRIC_RANK_THREE",
+    "full_torsionlike_theory_space_closed": false,
+    "healthy_vector_torsion_modes_exist": true,
+    "metric_perturbation_present_as_dynamical_field": false,
+    "nonlinear_metric_affine_completion_closed": false,
+    "nonlinear_poincare_completion_closed": false,
+    "pseudoscalar_torsion_modes_promoted": false,
+    "published_statement_true_gravity_plays_no_role_in_universal_ir_action": true,
+    "reference": "ARXIV_2507_05349",
+    "scalar_torsion_modes_promoted": false,
+    "universal_ir_flat_space_action": true
+  },
+  "branch": "032V24D_NONREMOVABLE_VECTOR_METRIC_BRIDGE_GATE",
+  "closed_now": [
+    "MARZO_2026_EQ18_AS_NONREMOVABLE_LINEAR_VECTOR_SOURCE_TO_METRIC_PORTAL",
+    "BMS_2025_UNIVERSAL_FLAT_IR_TORSIONLIKE_ACTION_AS_DIRECT_UNIVERSAL_METRIC_BRIDGE"
+  ],
+  "database": {
+    "action_oracles_mutated": false,
+    "mechanism_metrics_mutated": false,
+    "models_mutated": false,
+    "region_rules_after": 18,
+    "region_rules_before": 16,
+    "region_rules_inserted": 2,
+    "rejections_mutated": false
+  },
+  "decision": "RED_PARTIAL_032V24D_MARZO_2026_QUADRATIC_VECTOR_METRIC_PORTAL_IS_STUECKELBERG_REMOVABLE_AND_SOURCE_WARD_DIAGONALIZABLE__BMS_2025_UNIVERSAL_IR_TORSIONLIKE_VECTOR_HAS_NO_DYNAMICAL_METRIC_BRIDGE__DIRAC_HOOK_SOURCE_PRESERVED_BUT_TESTED_PROTECTED_VECTOR_LINEAR_BRIDGES_CLOSED",
+  "energy_policy": {
+    "comparison": "LT",
+    "energy_evaluated_in_v24d": false,
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "explicitly_open": [
+    "DIRAC_HOOK_TORSIONLIKE_MICROSCOPIC_SOURCE_KNOWLEDGE",
+    "MARZO_2026_NONLINEAR_CUBIC_QUARTIC_COMPLETION",
+    "BMS_NONLINEAR_POINCARE_OR_METRIC_AFFINE_COMPLETIONS",
+    "BACKGROUND_DEPENDENT_PROTECTED_METRIC_TORSION_MIXING",
+    "NEW_ACTION_WITH_NONREMOVABLE_INTRINSIC_SOURCE_TO_UNIVERSAL_METRIC_CROSS_PROPAGATOR"
+  ],
+  "frontier_rerank": [
+    {
+      "branch": "MARZO_2026_LINEAR_VECTOR_GRAVITON_CROSS_PORTAL",
+      "nonlinear_completion_closed": false,
+      "nonremovable_cross_source": false,
+      "priority": 0,
+      "reason": "STUECKELBERG_FIELD_REDEFINITION_PLUS_SHARED_GAUGE_SOURCE_WARD_IDENTITY_DIAGONALIZES_VECTOR_AND_CONSERVED_METRIC_SOURCES",
+      "status": "CLOSED_AS_NONREMOVABLE_LINEAR_SOURCE_TO_METRIC_BRIDGE"
+    },
+    {
+      "branch": "BMS_2025_UNIVERSAL_IR_TORSIONLIKE_VECTOR_AS_METRIC_BRIDGE",
+      "healthy_vector_exists": true,
+      "nonlinear_completion_closed": false,
+      "priority": 0,
+      "reason": "METRIC_PERTURBATION_PLAYS_NO_DYNAMICAL_ROLE_IN_DECLARED_IR_ACTION",
+      "status": "CLOSED_WITHIN_DECLARED_UNIVERSAL_IR_ACTION"
+    },
+    {
+      "branch": "NONREMOVABLE_INTRINSIC_SOURCE_TO_UNIVERSAL_METRIC_CROSS_PROPAGATOR",
+      "priority": 1,
+      "reason": "V24_SHOWS_SOURCE_EXISTENCE_AND_MEDIATOR_HEALTH_ARE_INSUFFICIENT_IF_CROSS_PROPAGATOR_IS_FIELD_REDEFINITION_REMOVABLE_OR_METRIC_IS_ABSENT",
+      "status": "HIGHEST_PRIORITY_GLOBAL_AGMINER_TARGET",
+      "tier0_requirements": [
+        "INTRINSIC_SOURCE_CHARGE_NOT_FIXED_BY_ORDINARY_STRESS_ENERGY",
+        "HEALTHY_CANONICALLY_NORMALIZED_MEDIATOR",
+        "NONREMOVABLE_SOURCE_TO_PHYSICAL_METRIC_CROSS_PROPAGATOR",
+        "SOURCE_WARD_IDENTITY_COMPATIBLE",
+        "STATIC_OR_QUASISTATIC_FINITE_PAYLOAD_RESPONSE",
+        "UNIVERSAL_NEUTRAL_MATTER_PHYSICAL_METRIC",
+        "EMPIRICAL_OFFSTATE_CONTROL",
+        "COMPLETE_OPERATING_ENERGY_LT_10MJ"
+      ]
+    },
+    {
+      "branch": "MARZO_2026_NONLINEAR_VECTOR_GRAVITON_COMPLETION_WITH_DIRAC_HOOK",
+      "linear_cross_portal_closed": true,
+      "nonlinear_response_closed": false,
+      "priority": 2,
+      "reason": "CUBIC_QUARTIC_INTERACTIONS_ARE_NONTRIVIAL_BUT_DIRAC_SOURCE_MATCH_AND_NONLINEAR_METRIC_RESPONSE_PER_JOULE_NOT_ESTABLISHED",
+      "status": "OPEN_BUT_LINEAR_BRIDGE_ADVANTAGE_REMOVED"
+    },
+    {
+      "background_energy_included": false,
+      "branch": "BACKGROUND_DEPENDENT_PROTECTED_HOOK_VECTOR_METRIC_MIXING",
+      "empirical_consistency_established": false,
+      "priority": 2,
+      "reason": "NONZERO_BACKGROUND_CAN_CREATE_PHYSICAL_MIXING_BUT_BACKGROUND_ENERGY_OFFSTATE_COSMOLOGY_AND_EMPIRICAL_COSTS_MUST_BE_INCLUDED",
+      "status": "OPEN_HIGH_EMPIRICAL_RISK"
+    },
+    {
+      "branch": "DIRAC_HOOK_TORSIONLIKE_SOURCE",
+      "healthy_vector_source_match_established": false,
+      "priority": 3,
+      "reason": "V24C_EXACT_SOURCE_REPRESENTATION_SURVIVES_BUT_TESTED_PROTECTED_VECTOR_BRIDGES_DO_NOT_COMPLETE_SOURCE_TO_UNIVERSAL_METRIC_CHAIN",
+      "source_closed": false,
+      "status": "PRESERVED_AS_SOURCE_KNOWLEDGE_NOT_ACTIVE_MODEL",
+      "universal_metric_bridge_established": false
+    }
+  ],
+  "marzo_2026_gate": {
+    "background_dependent_mixing_closed": false,
+    "conserved_vector_current_transformed_metric_source_zero": true,
+    "conserved_vector_current_ward_pass": true,
+    "cubic_quartic_interactions_closed": false,
+    "direct_dirac_hook_source_match_closed": false,
+    "full_marzo_model_closed": false,
+    "independent_conserved_metric_source_closed": false,
+    "linear_universal_metric_bridge_from_vector_source_established": false,
+    "massive_vector_closed": false,
+    "maxwell_term_gradient_shift_invariant": true,
+    "mixed_block_is_exact_stueckelberg_square": true,
+    "nonconserved_current_compensator_transforms_to_zero_metric_source": true,
+    "nonconserved_current_minimal_compensator_ward_pass": true,
+    "nonremovable_linear_vector_to_metric_cross_source": false,
+    "published_description": "FIERZ_PAULI_PLUS_MAXWELL_PLUS_STUECKELBERG_COMPLETION",
+    "quadratic_action_health_closed": false,
+    "redefined_vector_gauge_invariant": true,
+    "reference": "ARXIV_2603_24008_EQ18"
+  },
+  "new_agminer_tier0_bridge_rule": {
+    "required": true,
+    "statement": "APPARENT_SOURCE_TO_METRIC_MIXING_MUST_SURVIVE_LOCAL_INVERTIBLE_FIELD_REDEFINITIONS_AND_GAUGE_SOURCE_WARD_DIAGONALIZATION"
+  },
+  "next": "032V25_AGMINER_GLOBAL_RERANK_FOR_NONREMOVABLE_INTRINSIC_SOURCE_TO_UNIVERSAL_METRIC_CROSS_PROPAGATOR",
+  "promotion_status": {
+    "action_oracle_created": false,
+    "blind_parameter_scan_authorized": false,
+    "bms_ir_universal_metric_bridge": false,
+    "bms_nonlinear_completion_closed": false,
+    "certified_sub10mj_model_found": false,
+    "complete_operating_energy_established": false,
+    "dirac_hook_source_closed": false,
+    "finite_payload_outward_response_established": false,
+    "marzo_linear_nonremovable_metric_bridge": false,
+    "marzo_nonlinear_completion_closed": false,
+    "nonremovable_crosspropagator_model_identified": false,
+    "physical_antigravity_model_found": false,
+    "source_charge_per_joule_established": false,
+    "universal_physical_metric_bridge_established": false
+  },
+  "v24c_provenance": {
+    "dirac_hook_torsionlike_source_exists": true,
+    "healthy_action_match_pre_v24d": false,
+    "universal_metric_bridge_pre_v24d": false
+  }
+}

@@ -1,0 +1,9 @@
+requirement,required_before_action_oracle,required_before_energy_optimization,v25_current_model_satisfies
+microscopic_source,True,True,False
+healthy_canonical_mode,True,True,False
+universal_physical_metric,True,True,False
+nonremovable_crosspropagator,True,True,False
+source_ward_compatibility,True,True,False
+protection_or_naturalness,True,True,False
+active_offstate_separation_not_failed,True,True,False
+finite_payload_and_response_per_joule,False,False,False

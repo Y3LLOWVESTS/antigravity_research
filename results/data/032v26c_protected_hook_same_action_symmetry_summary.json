@@ -1,0 +1,175 @@
+{
+  "action_compatibility_atlas": [
+    {
+      "family": "PERCACCI_SEZGIN_MASSLESS_EXTENDED_FRONSDAL_HOOK",
+      "priority": 1,
+      "reason": "ACTUAL_V24_HOOK_SOURCE_AND_ACTIVE_H2_UNIVERSAL_METRIC_BOTH_CONFLICT_WITH_EXACT_HOOK_SHIFT_PROTECTION",
+      "same_action_survivor": false,
+      "status": "RED_CURRENT_H2_SCAFFOLD"
+    },
+    {
+      "family": "PERCACCI_SEZGIN_MASSIVE_SPIN3",
+      "priority": 2,
+      "reason": "HEALTHY_LINEAR_MASSIVE_SPIN3_EXISTS_BUT_CURRENT_DIRAC_HOOK_SOURCE_METRIC_CHAIN_AND_RADIATIVE_PROTECTION_MISSING",
+      "same_action_survivor": false,
+      "status": "OPEN_FREE_LEVEL_UNPROTECTED_FOR_CURRENT_PURPOSE"
+    },
+    {
+      "family": "BMS_TORSIONLIKE_PROTECTED_VECTOR",
+      "priority": 2,
+      "reason": "REPRESENTATION_MAP_SURVIVES_BUT_CLEAN_TRACE_VECTOR_SOURCE_IS_ZERO_AND_OTHER_ACTION_PROJECTOR_MATCHES_UNPROVEN",
+      "same_action_survivor": false,
+      "status": "OPEN_SOURCE_ACTION_MATCH_UNRESOLVED"
+    },
+    {
+      "family": "MARZO_2026_NONLINEAR_VECTOR_GRAVITON",
+      "priority": 2,
+      "reason": "LINEAR_PHYSICAL_CROSS_SOURCE_CLOSED_BY_V24D; NONLINEAR_COMPLETION_OPEN_BUT_NO_DIRAC_HOOK_MATCH",
+      "same_action_survivor": false,
+      "status": "OPEN_NONLINEAR_ONLY"
+    },
+    {
+      "family": "CUSTOM_NONLINEAR_HOOK_H2_METRIC",
+      "priority": 3,
+      "reason": "ALGEBRAIC_NUMERATOR_SURVIVES_BUT_NO_EXPLICIT_SYMMETRY_COMPATIBLE_ACTION_CURRENTLY_ESTABLISHED",
+      "same_action_survivor": false,
+      "status": "NOT_ESTABLISHED_REQUIRES_NEW_GAUGE_DEFORMATION"
+    }
+  ],
+  "bms_torsionlike_gate": {
+    "actual_hook_to_torsionlike_representation_map": true,
+    "clean_pair_source_addition_survives_map": true,
+    "clean_rest_pair_direct_protected_trace_vector_source_closed": true,
+    "current_same_action_survivor": false,
+    "generic_algebraic_trace_carrier_nonzero": true,
+    "generic_source_ward_identity_established": false,
+    "generic_witness_on_shell_localized_stationary": false,
+    "healthy_pair_antisymmetric_vector_models_exist": true,
+    "models_selected_by_gauge_symmetry": true,
+    "other_protected_vector_channels_closed": false,
+    "promotion_status": "OPEN_SOURCE_ACTION_MATCH_UNRESOLVED",
+    "reference": "Barker-Marzo-Santoni arXiv:2507.05349",
+    "universal_physical_metric_bridge_same_action_established": false
+  },
+  "claim_limits": {
+    "all_metric_affine_gravity_closed": false,
+    "complete_sub10mj_model": false,
+    "finite_payload_antigravity": false,
+    "intrinsic_dirac_hypermomentum_closed": false,
+    "new_physics_discovery": false,
+    "physical_antigravity_model": false,
+    "practical_device": false
+  },
+  "energy_policy": {
+    "comparison": "LT",
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "marzo_nonlinear_gate": {
+    "consistent_cubic_deformation_found": true,
+    "consistent_quartic_noether_test": true,
+    "current_same_action_survivor": false,
+    "external_dirac_source_coupling_derived": false,
+    "massive_spin1_propagates": true,
+    "massless_spin2_propagates": true,
+    "nonlinear_completion_globally_closed": false,
+    "promotion_status": "OPEN_NONLINEAR_ONLY_NO_DIRAC_HOOK_ACTION_MATCH",
+    "quadratic_vector_graviton_mixing": true,
+    "reference": "Marzo arXiv:2603.24008",
+    "unitary_open_region_reported": true,
+    "v24d_linear_route_closed": true,
+    "v24d_nonremovable_linear_vector_metric_cross_source": false,
+    "vector_identified_with_v24_hook": false
+  },
+  "massless_hook_shift_source_ward_gate": {
+    "actual_hook_fully_symmetric_relative_norm": 9.343919099904208e-17,
+    "actual_hook_tensor_norm": 9.237604307034013,
+    "actual_v24_source_hook_nonzero": true,
+    "actual_v24_source_pure_hook_within_tolerance": true,
+    "chosen_ward_parameter": "xi=J_hook",
+    "compensator_included": false,
+    "direct_hook_source_respects_published_massless_hook_shift": false,
+    "nonlinear_source_transformation_derived": false,
+    "published_hook_parameter_constraint": "xi_(rmn)=0",
+    "published_massless_hook_shift": "delta_xi Q_rmn = xi_rmn",
+    "source_shift_variation": -85.33333333333334,
+    "source_shift_variation_abs": 85.33333333333334,
+    "source_shift_variation_nonzero": true
+  },
+  "percacci_sezgin_massive_gate": {
+    "actual_v24_dirac_hook_to_propagating_spin3_source_match": false,
+    "current_same_action_survivor": false,
+    "healthy_massive_spin3_region_reported": true,
+    "hook_can_act_as_auxiliary_component": true,
+    "nonlinear_interacting_completion_established": false,
+    "promotion_status": "OPEN_FREE_LEVEL_NOT_CURRENT_SYMMETRY_PROTECTED_SURVIVOR",
+    "radiative_protection_of_required_coefficient_relations_established": false,
+    "reference": "Percacci-Sezgin arXiv:2508.14211",
+    "sector": "MASSIVE_SPIN3_LINEARIZED",
+    "sector_globally_closed": false,
+    "target_models_have_no_gauge_symmetries": true,
+    "universal_h2_metric_same_action_derived": false
+  },
+  "percacci_sezgin_massless_gate": {
+    "actual_v24_direct_hook_source_shift_compatible": false,
+    "all_massless_metric_affine_theories_closed": false,
+    "all_metric_affine_gravity_closed": false,
+    "current_h2_scaffold_closed_for_this_published_massless_sector": true,
+    "current_same_action_hook_source_plus_h2_metric": false,
+    "hook_degrees_pure_gauge_in_published_sector": true,
+    "massless_spin3_propagates": true,
+    "reference": "Percacci-Sezgin arXiv:2508.14211",
+    "reopen_condition": "EXPLICIT_COMPENSATOR_OR_NONLINEAR_GAUGE_DEFORMATION_MAKING_BOTH_SOURCE_AND_UNIVERSAL_METRIC_WARD_COMPATIBLE",
+    "sector": "MASSLESS_EXTENDED_FRONSDAL_WITH_HOOK_SHIFT",
+    "v26b1_quadratic_metric_shift_compatible": false
+  },
+  "phase": "032V26C",
+  "promotion_status": {
+    "action_oracle_authorized": false,
+    "agminer_database_mutation_authorized": false,
+    "all_metric_affine_gravity_closed": false,
+    "bms_other_vector_channels_closed": false,
+    "claim_classification": "SCOPED_SAME_ACTION_HOOK_GAUGE_SYMMETRY_COMPATIBILITY_NO_GO",
+    "current_mag_explicit_same_action_survivor": false,
+    "current_mag_same_action_survivor_count": 0,
+    "current_zero_derivative_h2_massless_protected_route_closed": true,
+    "expensive_mag_noether_completion_authorized": false,
+    "intrinsic_dirac_hypermomentum_closed": false,
+    "mag_energy_optimization_authorized": false,
+    "mag_frontier_status": "PARKED_PENDING_GENUINELY_NEW_SYMMETRY_COMPATIBLE_ACTION",
+    "mag_reopen_condition": "EXPLICIT_SAME_ACTION_NONLINEAR_GAUGE_DEFORMATION_OR_COMPENSATOR_WITH_DIRAC_SOURCE_PLUS_HEALTHY_MODE_PLUS_ONE_UNIVERSAL_METRIC_PLUS_NONREMOVABLE_RESPONSE",
+    "marzo_nonlinear_completion_closed": false,
+    "massive_spin3_closed": false,
+    "massless_extended_fronsdal_direct_v24_source_ward_compatible": false,
+    "massless_extended_fronsdal_h2_metric_ward_compatible": false,
+    "massless_extended_fronsdal_hook_is_pure_gauge": true,
+    "next": "032V26D_PROTECTED_CT1_DHOST_KMM_EXPLICIT_ACTION_AND_ACTIVE_NUMERATOR_GATE",
+    "phase": "032V26C",
+    "protected_ct1_dhost_kmm_explicit_action_gate_authorized": true,
+    "protected_massless_hook_h2_same_action_survives": false,
+    "v24_intrinsic_dirac_hook_source_preserved": true,
+    "v26b1_quadratic_algebraic_numerator_preserved": true,
+    "v26b1r1_quantum_force_preflight_preserved": true
+  },
+  "quadratic_metric_hook_shift_gate": {
+    "active_first_variation_g00": 71.11111111111111,
+    "active_first_variation_nonzero": true,
+    "active_first_variation_norm": 104.51156235874893,
+    "compensating_metric_transformation_derived": false,
+    "degree_two_identity_pass": true,
+    "degree_two_identity_relative_error": 0.0,
+    "nonlinear_hook_shift_deformation_derived": false,
+    "offstate_first_variation_norm": 0.0,
+    "offstate_first_variation_zero": true,
+    "offstate_linear_null_is_full_gauge_invariance": false,
+    "quadratic_metric_g00": 35.55555555555556,
+    "quadratic_metric_g00_nonzero": true,
+    "quadratic_metric_respects_hook_shift_on_all_backgrounds": false,
+    "quadratic_metric_tensor_norm": 52.255781179374466,
+    "selected_quadratic_basis": "B_mn=H_a m b H^a_n{}^b"
+  },
+  "upstream_v26b1r1": {
+    "explicit_action_construction_had_been_authorized": true,
+    "quadratic_portal_survived_inverse_cube_preflight": true
+  }
+}

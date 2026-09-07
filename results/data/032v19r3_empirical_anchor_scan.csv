@@ -1,0 +1,3 @@
+range_nm,mediator_mass_ev,predicted_best_case_g2_gev_m2,published_95cl_limit_g2_gev_m2,predicted_over_limit,payload_mediator_field_j,static_plus_payload_mediator_j,inside_strict_10mj_payload_only
+1.0,197.32698039999997,8.572482217153217e-07,1.3e-16,6594217090.11786,1017997.8704844352,4699916.945835298,True
+0.1,1973.2698039999996,0.8572482217153211,1.4e-14,61232015836808.65,10179978842.274067,10183660761.349419,False

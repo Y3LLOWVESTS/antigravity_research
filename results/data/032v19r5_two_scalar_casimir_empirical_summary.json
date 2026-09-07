@@ -1,0 +1,137 @@
+{
+  "branch": "032V19R5_UNIVERSAL_TWO_SCALAR_QUANTUM_FORCE_AND_MATERIAL_CASIMIR_EMPIRICAL_GATE",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "LOW_ENERGY_OPERATOR_LEVEL_QUANTUM_EMPIRICAL_FALSIFICATION",
+  "current_pure_j0_operator_empirically_viable": false,
+  "decca_200nm_empirical_gate": {
+    "absolute_theory_experiment_mismatch_pa": 0.3977836551153686,
+    "confidence_95_halfwidth_pa": 0.0084,
+    "excluded_at_declared_95pct_interval": true,
+    "extra_over_95pct_halfwidth": 47.26472084706769,
+    "extra_over_measured_pressure": 0.7777152891584106,
+    "measured_pressure_pa": 0.5105,
+    "mismatch_over_95pct_halfwidth": 47.35519703754389,
+    "one_nm_each_pressure_over_95pct_halfwidth": 13.125361564876345,
+    "pfa_d_over_r": 0.0013218770654329147,
+    "predicted_total_pressure_pa": 0.9082836551153686,
+    "separation_nm": 200.0,
+    "standard_theory_pressure_pa": 0.51126
+  },
+  "decision": "RED_CURRENT_PURE_J0_KINETIC_CONFORMAL_OPERATOR_BY_OFFSTATE_TWO_SCALAR_CASIMIR_FORCE_GREEN_DBI_NORMALIZATION_CROSSCHECK_GREEN_NONPERTURBATIVE_MATTER_LOADING_RESUMMATION_RED_DECCA_200NM_BY_GT47X_95PCT_RESIDUAL_COMPANION_OPERATOR_CANCELLATION_OPEN_KINETIC_CONFORMAL_CLASS_NOT_YET_CLOSED",
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "exact_scalar_casimir": {
+    "actual_gold_films_only": {
+      "dimensionless_integral": 6.345841576669505,
+      "epsilon1": 251.93092268688164,
+      "epsilon2": 251.93092268688164,
+      "finite_slab1": true,
+      "finite_slab2": true,
+      "force_sign": "ATTRACTIVE",
+      "integration_error": 6.208100699549043e-10,
+      "interface_r1": 0.9921238422684496,
+      "interface_r2": 0.9921238422684496,
+      "pressure_magnitude_pa": 0.3970236551153686,
+      "substrate_scalar_reflection_included": false,
+      "z1": 252.93092268688164,
+      "z2": 252.93092268688164
+    },
+    "halfspace": {
+      "dimensionless_integral": 6.381089105038308,
+      "epsilon1": 251.93092268688164,
+      "epsilon2": 251.93092268688164,
+      "finite_slab1": false,
+      "finite_slab2": false,
+      "force_sign": "ATTRACTIVE",
+      "integration_error": 3.1381500315692666e-11,
+      "interface_r1": 0.9921238422684496,
+      "interface_r2": 0.9921238422684496,
+      "pressure_magnitude_pa": 0.3992288949370203,
+      "substrate_scalar_reflection_included": false,
+      "z1": 252.93092268688164,
+      "z2": 252.93092268688164
+    },
+    "plate_gold_thickness_nm": 210.0,
+    "sapphire_and_polysilicon_scalar_reflection_included": false,
+    "sphere_gold_thickness_nm": 180.0,
+    "ultraconservative_one_nm_each": {
+      "dimensionless_integral": 1.762233302862713,
+      "epsilon1": 251.93092268688164,
+      "epsilon2": 251.93092268688164,
+      "finite_slab1": true,
+      "finite_slab2": true,
+      "force_sign": "ATTRACTIVE",
+      "integration_error": 1.3878137705833952e-13,
+      "interface_r1": 0.9921238422684496,
+      "interface_r2": 0.9921238422684496,
+      "pressure_magnitude_pa": 0.11025303714496129,
+      "substrate_scalar_reflection_included": false,
+      "z1": 252.93092268688164,
+      "z2": 252.93092268688164
+    }
+  },
+  "gate_status": {
+    "actual_finite_gold_layer_empirical_gate": "RED",
+    "companion_operator_cancellation": "OPEN",
+    "complete_operating_energy": "NOT_ESTABLISHED",
+    "current_pure_j0_operator": "RED_EMPIRICAL",
+    "dbi_normalization_crosscheck": "GREEN",
+    "direct_goldstone_pure_j0_promotion": "BLOCKED_PENDING_COMPANION_TEST",
+    "exact_material_loading_resummation": "GREEN",
+    "kinetic_conformal_class": "NOT_YET_CLOSED",
+    "low_energy_domain": "GREEN",
+    "one_nm_layer_stress_test": "RED",
+    "r1_static_preflight_energy": "PRESERVED",
+    "r1_supported_1g_classical_state": "PRESERVED_MATHEMATICALLY",
+    "soft_mass_device_range_escape": "CLOSED_FOR_0P2M_RANGE",
+    "two_scalar_force_derivation": "GREEN_ANALYTICAL",
+    "weak_born_gold_estimate": "INVALID_FOR_EMPIRICAL_USE_BY_STRONG_MATTER_LOADING",
+    "z2_loop_pure_j0_promotion": "BLOCKED_PENDING_COMPANION_TEST"
+  },
+  "gold_material_loading": {
+    "born_material_limit": false,
+    "density_kg_m3": 19300.0,
+    "epsilon": 251.93092268688164,
+    "interface_reflection": 0.9921238422684496,
+    "reason": "GOLD_EPSILON_MUCH_GREATER_THAN_ONE_REQUIRES_RESUMMATION",
+    "rho_ev4": 8.318551918977534e+19,
+    "weak_pairwise_born_pressure_pa": 5956.3659333803,
+    "weak_pairwise_born_result_used_for_empirical_exclusion": false,
+    "z_factor": 252.93092268688164
+  },
+  "goldstone_pure_j0_promotion_authorized": false,
+  "kinetic_conformal_class_closed": false,
+  "low_energy_validity": {
+    "device_range_reference_m": 0.2,
+    "high_scale_uv_breakdown_required_for_gate": false,
+    "momentum": {
+      "below_metric_scale": true,
+      "below_source_hard_scale": true,
+      "q_ev": 0.986634902,
+      "q_over_metric_scale": 4.115900912770553e-05,
+      "q_over_source_hard": 0.017332214747862
+    },
+    "soft_mass_range": {
+      "m_times_d_over_hbarc": 1e-06,
+      "massless_laboratory_limit": true,
+      "maximum_mass_ev_for_required_range": 9.86634902e-07
+    }
+  },
+  "next": "032V19R6_COMPANION_OPERATOR_TWO_SCALAR_SPECTRAL_POSITIVITY_AND_CANCELLATION_NO_GO_GATE",
+  "physical_antigravity_model_found": false,
+  "r4_input_decision": "RED_NARROW_BAND_LINEAR_SCALAR_TOWER_FOR_CURRENT_SOURCE_BY_CAUCHY_EMPIRICAL_ENERGY_BOUND_RED_DENSITY_ONLY_SAME_VERTEX_SCREENING_AS_DIRECT_RESCUE_YELLOW_Z2_LOOP_J0_MATCHING_SCAFFOLD_YELLOW_HIGHEST_PRIORITY_SHIFT_PROTECTED_GOLDSTONE_KINETIC_METRIC_UV_ORIGIN_KINETIC_CONFORMAL_CLASS_NOT_CLOSED",
+  "target": {
+    "c1_ev_m4": 1.5142715050689224e-18,
+    "metric_scale_ev": 23971.29870009097,
+    "source_hard_scale_ev": 56.92491792612398,
+    "static_preflight_j": 3681919.075350863
+  },
+  "two_scalar_analytic": {
+    "coefficient_ratio": 80.0,
+    "dbi_reference_coefficient_3_over_128pi3": 0.0007558953382781131,
+    "integrated_halfspace_born_coefficient": 0.018997721932938336,
+    "long_range_nonanalytic_force": true,
+    "pair_force_sign": "ATTRACTIVE",
+    "trace_pair_coefficient_15_over_8pi3": 0.06047162706224905
+  },
+  "z2_loop_pure_j0_promotion_authorized": false
+}

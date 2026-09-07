@@ -1,0 +1,180 @@
+{
+  "canonical_cross_mixing": {
+    "gain_1000": {
+      "condition_number_at_threshold": 4000.000250000004,
+      "maximum_minimum_eigenvalue": 0.00049987500000781,
+      "minimum_abs_mu_required": 0.9995001249999922,
+      "transfer": 1000.0
+    },
+    "transfer_margin_rows": [
+      {
+        "condition_number_at_threshold": 4.236067977499791,
+        "maximum_minimum_eigenvalue": 0.3819660112501051,
+        "minimum_abs_mu_required": 0.6180339887498949,
+        "transfer": 1.0
+      },
+      {
+        "condition_number_at_threshold": 40.024984394500876,
+        "maximum_minimum_eigenvalue": 0.0487507802749606,
+        "minimum_abs_mu_required": 0.9512492197250394,
+        "transfer": 10.0
+      },
+      {
+        "condition_number_at_threshold": 400.0024999843693,
+        "maximum_minimum_eigenvalue": 0.004987500078124096,
+        "minimum_abs_mu_required": 0.9950124999218759,
+        "transfer": 100.0
+      },
+      {
+        "condition_number_at_threshold": 4000.000250000004,
+        "maximum_minimum_eigenvalue": 0.00049987500000781,
+        "minimum_abs_mu_required": 0.9995001249999922,
+        "transfer": 1000.0
+      },
+      {
+        "condition_number_at_threshold": 40000.00002508778,
+        "maximum_minimum_eigenvalue": 4.999874999989107e-05,
+        "minimum_abs_mu_required": 0.9999500012500001,
+        "transfer": 10000.0
+      }
+    ]
+  },
+  "claim_limits": {
+    "all_dhost_closed": false,
+    "all_metric_affine_closed": false,
+    "all_vector_portals_closed": false,
+    "complete_sub10mj_model_established": false,
+    "new_antigravity_model_established": false,
+    "practical_device_established": false
+  },
+  "einstein_payload_response_norm": {
+    "benchmark_1g": {
+      "dirichlet_response_norm_j": 240150987.67536178,
+      "dirichlet_response_norm_mj": 240.1509876753618,
+      "is_complete_operating_energy": false,
+      "is_gauge_invariant_local_gr_energy_theorem": false,
+      "norm_below_strict_10mj_target": false,
+      "payload_radius_m": 0.1,
+      "strict_10mj_target_j": 10000000.0,
+      "volume_average_acceleration_mps2": 9.80665,
+      "volume_m3": 0.004188790204786391
+    },
+    "benchmark_norm_over_10mj": 24.015098767536177,
+    "v17_average_norm_over_10mj": 451.6899086756489,
+    "v17_reported_volume_average": {
+      "dirichlet_response_norm_j": 4516899086.756489,
+      "dirichlet_response_norm_mj": 4516.899086756489,
+      "is_complete_operating_energy": false,
+      "is_gauge_invariant_local_gr_energy_theorem": false,
+      "norm_below_strict_10mj_target": false,
+      "payload_radius_m": 0.1,
+      "strict_10mj_target_j": 10000000.0,
+      "volume_average_acceleration_mps2": 42.530323,
+      "volume_m3": 0.004188790204786391
+    }
+  },
+  "energy_policy": {
+    "comparison": "LT",
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "frontier_rerank": [
+    {
+      "family": "riemannian_offstate_exact_nonlinear_mag_dirac_hypermomentum_bridge",
+      "new_numerator_required": true,
+      "rank": 1,
+      "reason": "V24 intrinsic Dirac source preserved; tested linear bridge closed; construct active-background nonremovable metric response without principal-margin collapse",
+      "status": "PRIORITY_OPEN"
+    },
+    {
+      "family": "protected_active_only_ct1_dhost_kmm_portal",
+      "new_numerator_required": true,
+      "rank": 2,
+      "reason": "pure static disformal rest-mass numerator is zero; only a genuinely protected active-state higher/nonlinear operator merits follow-up",
+      "status": "OPEN_CONSTRAINED"
+    },
+    {
+      "family": "leading_u1_field_strength_metric_portal",
+      "new_numerator_required": false,
+      "rank": 3,
+      "reason": "formal two-mediator cancellation loses its advantage under the declared positive-kinetic causal-medium condition",
+      "status": "RED_SCOPED"
+    },
+    {
+      "family": "near_singular_generic_cross_mixing_gain",
+      "new_numerator_required": false,
+      "rank": 4,
+      "reason": "large cross response from canonical two-mode mixing requires a collapsing principal eigenvalue",
+      "status": "RED_AS_GAIN_ENGINE"
+    },
+    {
+      "family": "direct_planck_normalized_einstein_metric_response",
+      "new_numerator_required": false,
+      "rank": 5,
+      "reason": "payload-region Dirichlet response norm is already >10 MJ; this is a preflight norm, not a gauge-invariant GR energy theorem",
+      "status": "RED_PREFLIGHT_FOR_SUB10MJ"
+    }
+  ],
+  "phase": "032V26A",
+  "promotion_status": {
+    "all_dhost_closed": false,
+    "all_metric_affine_closed": false,
+    "all_vector_portals_closed": false,
+    "blind_parameter_scan_authorized": false,
+    "claim_classification": "SCOPED_INVARIANT_BRIDGE_THEOREM_AND_PREFLIGHT_GATE",
+    "direct_einstein_metric_response_norm_below_10mj": false,
+    "einstein_response_norm_is_energy_theorem": false,
+    "generic_energy_optimization_authorized": false,
+    "intrinsic_dirac_hypermomentum_preserved": true,
+    "near_singular_cross_mixing_as_free_gain_engine_closed": true,
+    "next_action_specific_construction_authorized": true,
+    "next_phase": "032V26B_RIEMANNIAN_OFFSTATE_EXACT_NONLINEAR_MAG_DIRAC_HYPERMOMENTUM_BRIDGE",
+    "phase": "032V26A",
+    "riemannian_offstate_exact_nonlinear_mag_target_preserved": true,
+    "static_first_derivative_dhost_class_closed": false,
+    "static_pure_disformal_leading_rest_payload_numerator": false,
+    "tested_linear_metric_affine_bridge_reopened": false,
+    "u1_field_strength_leading_portal_healthy_advantage": false
+  },
+  "static_first_derivative_metric": {
+    "mixed_example": {
+      "conformal_coefficient": 1.0,
+      "delta_g00": -1.0,
+      "delta_g_parallel": 2.0,
+      "disformal_coefficient": 1.0,
+      "gradient_magnitude": 1.0,
+      "higher_derivative_dhost_closed_by_this_theorem": false,
+      "leading_static_rest_mass_response_depends_on_conformal_piece": true,
+      "pure_disformal_delta_g00": 0.0,
+      "pure_static_disformal_has_leading_rest_mass_numerator": false,
+      "rest_interaction_per_density": -0.5,
+      "time_gradient_disformal_closed_by_this_theorem": false
+    },
+    "pure_disformal": {
+      "conformal_coefficient": 0.0,
+      "delta_g00": -0.0,
+      "delta_g_parallel": 1.0,
+      "disformal_coefficient": 1.0,
+      "gradient_magnitude": 1.0,
+      "higher_derivative_dhost_closed_by_this_theorem": false,
+      "leading_static_rest_mass_response_depends_on_conformal_piece": true,
+      "pure_disformal_delta_g00": 0.0,
+      "pure_static_disformal_has_leading_rest_mass_numerator": false,
+      "rest_interaction_per_density": -0.0,
+      "time_gradient_disformal_closed_by_this_theorem": false
+    }
+  },
+  "u1_field_strength_portal": {
+    "all_u1_portals_closed": false,
+    "declared_causal_medium_constraint": "e <= -b for rho>0 and b>0",
+    "formal_quantum_force_reduction_exists_without_medium_health": true,
+    "healthy_exact_ratio": 2.0,
+    "healthy_leading_portal_beats_scalar_reference": false,
+    "healthy_minimum_ratio_to_scalar_reference": 2.0,
+    "healthy_optimal_electric_coefficient": -1.0,
+    "normalized_magnetic_active_coefficient": 1.0,
+    "unconstrained_exact_ratio": 0.6956521739130435,
+    "unconstrained_optimal_electric_coefficient": 0.30434782608695654,
+    "unconstrained_ratio_to_scalar_reference": 0.6956521739130435
+  }
+}

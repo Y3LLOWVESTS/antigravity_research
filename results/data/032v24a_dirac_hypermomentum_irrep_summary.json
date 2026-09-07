@@ -1,0 +1,152 @@
+{
+  "branch": "032V24A_DIRAC_HYPERMOMENTUM_IRREP_PREFLIGHT",
+  "database": {
+    "action_oracles_mutated": false,
+    "mechanism_metrics_mutated": false,
+    "models_mutated": false,
+    "region_rules_after": 13,
+    "region_rules_before": 11,
+    "region_rules_inserted": 2,
+    "rejections_mutated": false
+  },
+  "decision": "GREEN_PARTIAL_032V24A_EXPLICIT_DIRAC_TRACEFREE_NONMETRICITY_CARRIERS_EXIST__WEYL_DILATION_ZERO__TORSION_CANCELLED_PAIR_SOURCE_WITNESS_EXISTS__DIRECT_STRUCTURELESS_CONNECTION_FORCE_NOT_UNIVERSAL__WEAK_MIXING_CROSS_LINEAR_OFFSTATE_QUADRATIC__EXACT_HEALTHY_PROJECTOR_AND_METRIC_BRIDGE_REQUIRED",
+  "energy_policy": {
+    "comparison": "LT",
+    "energy_evaluated_in_v24a": false,
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "next": "032V24B_EXACT_CANONICAL_HEALTHY_PROJECTOR_AND_UNIVERSAL_METRIC_BRIDGE_GATE",
+  "promotion_status": {
+    "action_oracle_created": false,
+    "blind_parameter_scan_authorized": false,
+    "canonical_normalization_established": false,
+    "certified_sub10mj_model_found": false,
+    "complete_operating_energy_established": false,
+    "empirical_consistency_established": false,
+    "finite_payload_response_established": false,
+    "naturalness_established": false,
+    "outward_sign_established": false,
+    "physical_antigravity_model_found": false,
+    "source_charge_per_joule_established": false,
+    "true_standoff_established": false,
+    "universal_physical_metric_bridge_established": false
+  },
+  "quadratic_mixing_reciprocity": {
+    "empirical_bound_mapped": false,
+    "identity": "G_vh^2=(G_vv-G_vv_at_zero_mixing)*G_hh",
+    "interpretation": "FAVORABLE_STRUCTURE_ONLY__LARGE_HIDDEN_CHARGE_PER_JOULE_STILL_REQUIRED",
+    "physical_metric_affine_action_match_established": false,
+    "small_mixing_cross_power": 1.0000072819502228,
+    "small_mixing_visible_offstate_power": 2.000007281950223
+  },
+  "rest_spinup_algebraic_split": {
+    "component_norm_is_field_energy": false,
+    "component_norm_is_lorentz_invariant": false,
+    "hook_symmetric_component_norm_fraction": 0.6666666666666666,
+    "totally_symmetric_component_norm_fraction": 0.3333333333333333
+  },
+  "rest_spinup_pair_witness": {
+    "hidden_vector_charge_cancellation_established": false,
+    "nonmetricity_component_norm_over_single": 2.0,
+    "nonmetricity_response_adds": true,
+    "source_energy_established": false,
+    "support_cost_established": false,
+    "torsion_response_cancels": true,
+    "total_spin_cancellation_established": false
+  },
+  "structureless_payload_gate": {
+    "direct_connection_force_is_project_target": false,
+    "direct_post_riemannian_microstructure_force_available": false,
+    "payload_intrinsic_hypermomentum": false,
+    "scope": "POINT_TEST_BODY_WITH_ZERO_INTRINSIC_HYPERMOMENTUM",
+    "universal_metric_backreaction_closed": false,
+    "universal_physical_metric_bridge_established": false,
+    "usual_riemannian_geodesic_recovered": true
+  },
+  "theory_intersection_atlas": [
+    {
+      "exact_dilation_trace_projection_established": true,
+      "exact_spin_projector_overlap_established": false,
+      "priority": 0,
+      "reason": "EXACT_VANISHING_LORENTZ_TRACE",
+      "sector": "WEYL_DILATION_TRACE",
+      "status": "CLOSED_FOR_EXPLICIT_WHEELER_DIRAC_SOURCE",
+      "universal_metric_bridge_established": false,
+      "wheeler_dirac_algebraic_overlap": false
+    },
+    {
+      "exact_spin_projector_overlap_established": false,
+      "priority": 1,
+      "published_health_context": "SYMMETRY_FIRST_MASSLESS_SPIN1_OR_SPIN3_POSSIBLE_UNDER_BMS_ASSUMPTIONS",
+      "radiative_protection_priority": "HIGHEST",
+      "reason": "NONZERO_ALGEBRAIC_CARRIER_ONLY",
+      "sector": "TOTALLY_SYMMETRIC_TRACEFREE",
+      "status": "OPEN_FOR_EXACT_PROJECTOR_AND_METRIC_BRIDGE_TEST",
+      "universal_metric_bridge_established": false,
+      "wheeler_dirac_algebraic_overlap": true
+    },
+    {
+      "exact_spin_projector_overlap_established": false,
+      "priority": 2,
+      "published_health_context": "TREE_LEVEL_MASSIVE_SPIN3_OR_SPIN3_PLUS_SPIN0_POSSIBLE_IN_PERCACCI_SEZGIN_CLASS",
+      "radiative_protection_established_for_that_class": false,
+      "reason": "NONZERO_ALGEBRAIC_CARRIER_ONLY",
+      "sector": "HOOK_SYMMETRIC_TRACEFREE",
+      "status": "OPEN_FOR_EXACT_PROJECTOR_AND_METRIC_BRIDGE_TEST",
+      "universal_metric_bridge_established": false,
+      "wheeler_dirac_algebraic_overlap": true
+    },
+    {
+      "exact_spin_projector_overlap_established": null,
+      "priority": 0,
+      "reason": "ZERO_PAYLOAD_HYPERMOMENTUM_RECOVERS_GEODESIC",
+      "sector": "DIRECT_STRUCTURELESS_CONNECTION_FORCE",
+      "status": "NOT_A_UNIVERSAL_PAYLOAD_BRIDGE",
+      "universal_metric_bridge_established": false,
+      "wheeler_dirac_algebraic_overlap": null
+    },
+    {
+      "exact_spin_projector_overlap_established": false,
+      "hidden_charge_neutrality_established": false,
+      "priority": 1,
+      "reason": "PUBLISHED_SPECIAL_CASE_TORSION_OPPOSITE_NONMETRICITY_SAME_SIGN",
+      "sector": "TORSION_CANCELLED_PARTICLE_ANTIPARTICLE_PAIR_SOURCE",
+      "status": "OPEN_MICROSCOPIC_SOURCE_WITNESS",
+      "support_cost_established": false,
+      "universal_metric_bridge_established": false,
+      "wheeler_dirac_algebraic_overlap": true
+    },
+    {
+      "empirical_bound_mapped": false,
+      "physical_action_match_established": false,
+      "priority": 1,
+      "reason": "CROSS_RESPONSE_LINEAR_IN_MIXING_VISIBLE_OFFSTATE_CORRECTION_QUADRATIC_IN_MIXING",
+      "sector": "WEAK_UNIVERSAL_METRIC_MIXING_PLUS_LARGE_HIDDEN_CHARGE",
+      "source_charge_per_joule_established": false,
+      "status": "OPEN_STRUCTURAL_PORTAL_STRATEGY",
+      "universal_metric_bridge_established": false,
+      "wheeler_dirac_algebraic_overlap": true
+    }
+  ],
+  "v23_provenance": {
+    "dirac_hypermomentum_closed": false,
+    "full_metric_affine_gravity_closed": false,
+    "intrinsic_hypermomentum_closed": false,
+    "ordinary_stress_derivative_practical_route_closed": true
+  },
+  "v24b_priority": [
+    "1__TORSION_CANCELLED_DIRAC_PAIR_TO_SYMMETRY_PROTECTED_TOTALLY_SYMMETRIC_TRACEFREE_HEALTHY_PROJECTOR",
+    "2__DERIVE_CANONICAL_H_Q_MIXING_AND_UNIVERSAL_METRIC_CROSS_PROPAGATOR__APPLY_RECIPROCITY_OFFSTATE_GATE",
+    "3__ONLY_IF_1_AND_2_SURVIVE__SOURCE_CHARGE_PER_JOULE_AND_POSITIVE_EXTERIOR_FIELD_INVENTORY",
+    "4__HOOK_SPIN3_OR_SPIN3_PLUS0_ONLY_WITH_EXPLICIT_RADIATIVE_PROTECTION"
+  ],
+  "wheeler_dirac_source": {
+    "exact_propagating_spin_projector_overlap_established": false,
+    "explicit_nonmetricity_source_response_exists": true,
+    "hook_symmetric_tracefree_algebraic_carrier": true,
+    "totally_symmetric_tracefree_algebraic_carrier": true,
+    "weyl_dilation_trace_overlap_zero": true,
+    "wheeler_eh_response_itself_is_propagating_mode_realization": false
+  }
+}

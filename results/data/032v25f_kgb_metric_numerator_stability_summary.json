@@ -1,0 +1,77 @@
+{
+  "branch": "032V25F_KGB_METRIC_NUMERATOR_RADIAL_STABILITY_GATE",
+  "claim_class": "FULL_KGB_RADIAL_PRINCIPAL_SYMBOL_AND_METRIC_NUMERATOR_FALSIFICATION",
+  "database": {
+    "counts_after": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 23,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "counts_before": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 22,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "region_rules_inserted": 1,
+    "science_tables_mutated": false
+  },
+  "decision": "RED_PARTIAL_032V25F_SOURCE_ALIGNED_NONMONOTONE_G2_G3_CURRENT_JACOBIAN_TUNING_DOES_NOT_PRODUCE_UNBOUNDED_HEALTHY_METRIC_GAIN__FULL_RADIAL_BRAIDING_BACKREACTION_BOUNDS_CANONICAL_NUMERATOR__SIGN_REVERSED_G4_G5_AND_NEW_SOURCE_REMAIN_OPEN",
+  "energy_policy": {
+    "comparison": "LT",
+    "energy_optimization_run": false,
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "exact_local_relations": {
+    "canonical_bound": "N^2/Z_r<=1/6",
+    "metric_numerator_times_mpl": "N=q/2",
+    "radial_canonical_braiding_max": 0.4082482904638631,
+    "radial_principal": "Z_r=D+3*q^2/2",
+    "regular_source_branch": "D>=0",
+    "source_efficiency_bound": "(abs(N)/F)*(4*Mpl/r)<=1"
+  },
+  "gain1000_requirement": {
+    "necessary_maximum_z_radial": 1.6666666666666668e-07,
+    "required_collapse_factor": 6000000.0
+  },
+  "literature_oracle": {
+    "characteristic_factorization": true,
+    "pure_gravitational_characteristic_factor": true,
+    "reference": "Deffayet_et_al_arXiv_1008_0048_Eqs_12_18",
+    "scalar_effective_metric_after_debraiding": true
+  },
+  "next": "032V26_AGMINER_GLOBAL_RERANK_AFTER_KGB_G2_G3_SOURCE_ALIGNED_CORE_CLOSEOUT",
+  "promotion_status": {
+    "action_oracle_authorized": false,
+    "alternative_hidden_source_closed": false,
+    "blind_parameter_scan_authorized": false,
+    "cancellation_branch_closed": false,
+    "certified_sub10mj_model_found": false,
+    "complete_operating_energy_established": false,
+    "finite_payload_response_established": false,
+    "full_finite_payload_crosspropagator_certified": false,
+    "full_radial_principal_backreaction_analyzed": true,
+    "g4_g5_wbg_closed": false,
+    "global_rerank_recommended": true,
+    "metric_braiding_numerator_analyzed": true,
+    "oblate_nonlinear_source_closed": false,
+    "outward_sign_established": false,
+    "physical_antigravity_model_found": false,
+    "sign_reversed_b_branch_closed": false,
+    "source_aligned_nonmonotone_free_metric_gain_closed": true,
+    "source_charge_per_joule_established": false
+  },
+  "v25e_provenance": {
+    "monotone_current_antiscreen_closed": true,
+    "nonmonotone_g3xx_open_pre_v25f": true,
+    "nonmonotone_kxx_open_pre_v25f": true
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "active_offstate_numerator_gate": {
+    "active_background_hook_nonzero": true,
+    "active_background_numerator_present": true,
+    "active_linear_metric_response_nonzero": true,
+    "active_linear_metric_response_norm": 104.51156235874893,
+    "offstate_background_hook_zero": true,
+    "offstate_linear_metric_response_norm": 0.0,
+    "offstate_linear_metric_response_zero": true,
+    "protected_symmetry_compatibility_established": false,
+    "quadratic_homogeneity_derivative_relative_error": 0.0,
+    "quadratic_homogeneity_identity_pass": true,
+    "radiative_active_only_protection_established": false,
+    "selected_basis": "B",
+    "small_principal_eigenvalue_required_by_this_algebra": false
+  },
+  "claim_limits": {
+    "complete_sub10mj_model": false,
+    "explicit_healthy_v26_action": false,
+    "finite_payload_antigravity": false,
+    "microscopic_v26_field": false,
+    "new_physics_discovery": false,
+    "practical_device": false
+  },
+  "energy_policy": {
+    "comparison": "LT",
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "metric_load_scan": [
+    {
+      "delta_g00": -0.9,
+      "determinant": -4.909599999999998,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 1.0,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    },
+    {
+      "delta_g00": -0.5,
+      "determinant": -2.6999999999999997,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 1.0,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    },
+    {
+      "delta_g00": -0.1,
+      "determinant": -1.2584000000000002,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 1.0,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    },
+    {
+      "delta_g00": -1e-06,
+      "determinant": -1.0000024000017997,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 1.0,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    },
+    {
+      "delta_g00": -2.1822739344396436e-17,
+      "determinant": -1.0,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 1.0,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    },
+    {
+      "delta_g00": 2.1822739344396436e-17,
+      "determinant": -1.0,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 1.0,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    },
+    {
+      "delta_g00": 1e-06,
+      "determinant": -0.9999976000017999,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 0.999999,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    },
+    {
+      "delta_g00": 0.1,
+      "determinant": -0.7776000000000001,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 0.9,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    },
+    {
+      "delta_g00": 0.5,
+      "determinant": -0.2,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 0.5,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    },
+    {
+      "delta_g00": 0.9,
+      "determinant": -0.006400000000000009,
+      "invertible": true,
+      "lorentzian_signature": true,
+      "minimum_absolute_eigenvalue": 0.10000000000000009,
+      "negative_eigenvalue_count": 1,
+      "positive_eigenvalue_count": 3
+    }
+  ],
+  "phase": "032V26B1",
+  "promotion_status": {
+    "action_oracle_authorized": false,
+    "agminer_database_mutation_authorized": false,
+    "algebraic_design_witness": true,
+    "claim_classification": "PROJECT_DERIVED_ALGEBRAIC_NUMERATOR_AND_SAME_ACTION_PREFLIGHT",
+    "energy_optimization_authorized": false,
+    "fallback_if_same_action_cannot_be_constructed": "RERANK_TO_PROTECTED_ACTIVE_ONLY_CT1_DHOST_KMM",
+    "finite_payload_claim_authorized": false,
+    "full_symmetry_protected_action_established": false,
+    "healthy_mode_projection_authorized": false,
+    "hook_derivative_linear_metric_descendants_closed": false,
+    "hook_quadratic_active_background_g00_numerator": true,
+    "hook_quadratic_rank2_metric_descendant_exists": true,
+    "hook_zero_derivative_linear_metric_descendant": false,
+    "intrinsic_dirac_hook_source_preserved": true,
+    "next_primary": "032V26C_EXPLICIT_SYMMETRY_COMPATIBLE_HOOK_METRIC_ACTION_CONSTRUCTION",
+    "numerator_requires_principal_margin_collapse_at_algebraic_level": false,
+    "offstate_linear_hook_metric_response_zero": true,
+    "phase": "032V26B1",
+    "practical_model_claim_authorized": false,
+    "published_same_action_survivor_count": 0,
+    "published_same_action_v26b1_survivor": false
+  },
+  "proposed_same_action_scaffold": {
+    "all_ordinary_matter_uses_one_metric": true,
+    "constraint_health_proven": false,
+    "empirical_viability_proven": false,
+    "hook_definition": "H_a(bc) = protected hook projection of post-Riemannian distortion/nonmetricity",
+    "offstate_condition": "H_a(bc)=0 => g_phys_mn=g_mn",
+    "protected_mag_symmetry_compatible_with_metric_scaffold": false,
+    "radiative_protection_proven": false,
+    "riemannian_offstate_exact": true,
+    "same_action_dirac_source_proven": false,
+    "schematic_action": "S = Integral sqrt(-g) [(Mpl^2/2) R(g,Gamma) + L_protected_MAG(g,Gamma) + L_Dirac(g,Gamma,Psi)] + S_matter[g_phys(g,H(Gamma,g)), chi]",
+    "status": "DESIGN_SCAFFOLD_NOT_ACTION_ORACLE",
+    "universal_metric_scaffold": "g_phys_mn = g_mn + M_H^-2 [cA H_mab H_n^ab + cB H_amb H^a_n^b + cC g_mn H_abc H^abc] + ...",
+    "ward_compatibility_proven": false
+  },
+  "rest_pair_hook_metric_atlas": {
+    "H2_scalar": -85.33333333333334,
+    "all_basis_tensors_symmetric": true,
+    "at_least_one_quadratic_g00_numerator_nonzero": true,
+    "basis": {
+      "A": {
+        "g00_numerator": 14.222222222222221,
+        "g00_numerator_nonzero": true,
+        "maximum_offdiagonal_component": 0.0,
+        "tensor": [
+          [
+            14.222222222222221,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -56.8888888888889,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            -14.222222222222221
+          ]
+        ],
+        "tensor_norm": 60.33977866125206
+      },
+      "B": {
+        "g00_numerator": 35.55555555555556,
+        "g00_numerator_nonzero": true,
+        "maximum_offdiagonal_component": 0.0,
+        "tensor": [
+          [
+            35.55555555555556,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -14.222222222222221,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            -35.55555555555556
+          ]
+        ],
+        "tensor_norm": 52.255781179374466
+      },
+      "C": {
+        "g00_numerator": 85.33333333333334,
+        "g00_numerator_nonzero": true,
+        "maximum_offdiagonal_component": 0.0,
+        "tensor": [
+          [
+            85.33333333333334,
+            -0.0,
+            -0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            -85.33333333333334,
+            -0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            -0.0,
+            -85.33333333333334,
+            -0.0
+          ],
+          [
+            -0.0,
+            -0.0,
+            -0.0,
+            -85.33333333333334
+          ]
+        ],
+        "tensor_norm": 170.66666666666669
+      }
+    },
+    "component_norm_is_energy": false,
+    "hook_last_pair_symmetric": true,
+    "pair_torsionlike_equals_two_single": true,
+    "quadratic_metric_witness_is_action_oracle": false,
+    "representation_map_invertible": true,
+    "rest_pair_hook_component_norm": 9.237604307034013,
+    "rest_pair_hook_nonzero": true
+  },
+  "same_action_compatibility": [
+    {
+      "current_same_action_survivor": false,
+      "explicit_dirac_affine_source": "YES",
+      "family": "WHEELER_2026_GL4_DIRAC_SOURCE",
+      "healthy_propagating_hook_mode_same_action": "NOT_ESTABLISHED",
+      "nonlinear_active_background_bridge_same_action": "NOT_ESTABLISHED",
+      "reason": "SOURCE_SIDE_RESULT_EXISTS_BUT_REQUIRED_HEALTHY_PROPAGATING_AND_UNIVERSAL_METRIC_CHAIN_NOT_ESTABLISHED",
+      "reference": "arXiv:2601.09013",
+      "universal_physical_metric_hook_bridge_same_action": "NOT_ESTABLISHED"
+    },
+    {
+      "current_same_action_survivor": false,
+      "explicit_dirac_affine_source": "DIRAC_MOTIVATED_COUPLING_PRESENT",
+      "family": "BARKER_ZELL_2024_EXTENDED_PROJECTIVE",
+      "healthy_propagating_hook_mode_same_action": "NO_MATCH_ESTABLISHED_TO_V24_HOOK",
+      "nonlinear_active_background_bridge_same_action": "NOT_ESTABLISHED",
+      "reason": "HEALTHY_SYMMETRY_PROTECTED_ACTION_EXISTS_BUT_V24_HOOK_TO_UNIVERSAL_METRIC_CHAIN_NOT_ESTABLISHED",
+      "reference": "arXiv:2402.14917",
+      "universal_physical_metric_hook_bridge_same_action": "NOT_ESTABLISHED"
+    },
+    {
+      "current_same_action_survivor": false,
+      "explicit_dirac_affine_source": "NOT_WHEELER_SOURCE_IN_SAME_ACTION",
+      "family": "BARKER_MARZO_SANTONI_2025_TORSIONLIKE",
+      "healthy_propagating_hook_mode_same_action": "HEALTHY_PAIR_ANTISYMMETRIC_VECTOR_MODES_EXIST",
+      "nonlinear_active_background_bridge_same_action": "OPEN_NOT_ESTABLISHED",
+      "reason": "V24_REPRESENTATION_MAP_IS_NOT_AN_ACTION_MATCH",
+      "reference": "arXiv:2507.05349",
+      "universal_physical_metric_hook_bridge_same_action": "NO_DIRECT_DYNAMICAL_METRIC_BRIDGE_IN_DECLARED_UNIVERSAL_IR"
+    },
+    {
+      "current_same_action_survivor": false,
+      "explicit_dirac_affine_source": "NOT_WHEELER_SOURCE_IN_SAME_ACTION",
+      "family": "PERCACCI_SEZGIN_2025_SYMMETRIC_MAG_SPIN3",
+      "healthy_propagating_hook_mode_same_action": "HEALTHY_SPIN3_SECTOR_EXISTS",
+      "nonlinear_active_background_bridge_same_action": "NOT_ESTABLISHED",
+      "reason": "V24B_CLEAN_DIRECT_SPIN3_SHORTCUT_CLOSED_IN_TESTED_FORM",
+      "reference": "arXiv:2508.14211",
+      "universal_physical_metric_hook_bridge_same_action": "NOT_ESTABLISHED"
+    },
+    {
+      "current_same_action_survivor": false,
+      "explicit_dirac_affine_source": "NO_V24_DIRAC_HOOK_IDENTIFICATION",
+      "family": "MARZO_2026_VECTOR_GRAVITON",
+      "healthy_propagating_hook_mode_same_action": "HEALTHY_MASSIVE_VECTOR_BUT_HOOK_IDENTIFICATION_NOT_ESTABLISHED",
+      "nonlinear_active_background_bridge_same_action": "OPEN_NOT_ESTABLISHED",
+      "reason": "NONLINEAR_COMPLETION_REMAINS_OPEN_BUT_NO_CURRENT_SAME_ACTION_DIRAC_HOOK_TO_METRIC_CHAIN",
+      "reference": "arXiv:2603.24008",
+      "universal_physical_metric_hook_bridge_same_action": "LINEAR_ROUTE_CLOSED_BY_PROJECT_V24D"
+    }
+  ],
+  "weak_field_payload_lapse": {
+    "absolute_delta_g00": 2.1822739344396436e-17,
+    "acceleration_m_s2": 9.80665,
+    "length_m": 0.1
+  },
+  "zero_derivative_linear_metric_gate": {
+    "additional_odd_rank_background_tensor": false,
+    "allowed_background_invariant_tensor_ranks": [
+      2,
+      4
+    ],
+    "allowed_background_invariants": [
+      "g_mu_nu",
+      "epsilon_mu_nu_rho_sigma"
+    ],
+    "derivative_linear_rank2_descendants_closed": false,
+    "example_derivative_linear_operator": "nabla^a H_a(mu nu)",
+    "nonlinear_descendants_closed": false,
+    "reason": "FREE_INDEX_PARITY: A TERM LINEAR_IN_RANK3_HOOK PLUS_ONLY_EVEN_RANK_INVARIANTS RETAINS_ODD_FREE_INDEX_PARITY AFTER_PAIRWISE_CONTRACTIONS",
+    "source_rank": 3,
+    "target_rank": 2,
+    "zero_derivative_linear_rank2_descendant_exists": false
+  }
+}

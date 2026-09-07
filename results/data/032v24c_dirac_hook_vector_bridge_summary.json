@@ -1,0 +1,212 @@
+{
+  "branch": "032V24C_DIRAC_HOOK_VECTOR_BRIDGE_RERANK",
+  "closed_now": [
+    "CLEAN_REST_PARTICLE_ANTIPARTICLE_SOURCE_DIRECT_TO_BMS_HOMOTHETIC_PROTECTED_SPIN1"
+  ],
+  "database": {
+    "action_oracles_mutated": false,
+    "mechanism_metrics_mutated": false,
+    "models_mutated": false,
+    "region_rules_after": 16,
+    "region_rules_before": 15,
+    "region_rules_inserted": 1,
+    "rejections_mutated": false
+  },
+  "decision": "GREEN_PARTIAL_032V24C_CLEAN_REST_PAIR_PROTECTED_TS_SPIN1_ZERO_TRACE_OVERLAP_CLOSED__DIRAC_HOOK_MAPS_EXACTLY_TO_TORSIONLIKE_CARRIER_AND_PAIR_SOURCE_ADDITION_SURVIVES__MARZO_2026_QUADRATIC_VECTOR_GRAVITON_MODEL_RERANKED_AS_BRIDGE_TEMPLATE__ACTION_MATCH_REQUIRED",
+  "energy_policy": {
+    "comparison": "LT",
+    "energy_evaluated_in_v24c": false,
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "explicitly_open": [
+    "DIRAC_HOOK_TO_SYMMETRY_PROTECTED_TORSIONLIKE_VECTOR_ACTION_MATCH",
+    "DIRAC_HOOK_OR_TORSIONLIKE_VECTOR_TO_MARZO_2026_QUADRATIC_VECTOR_GRAVITON_MODE",
+    "GENERIC_ONSHELL_DIRAC_TOTALLY_SYMMETRIC_SPIN1",
+    "COMPENSATED_OR_MORE_GENERAL_WARD_COMPATIBLE_SPIN3"
+  ],
+  "frontier_rerank": [
+    {
+      "branch": "DIRAC_HOOK_TO_TORSIONLIKE_PROTECTED_VECTOR_ACTION_MATCH",
+      "healthy_vector_action_match": false,
+      "pair_source_purity_survives_map": true,
+      "priority": 1,
+      "reason": "EXACT_NONZERO_DIRAC_HOOK_SOURCE_AND_EXACT_PAIR_ANTISYMMETRIC_REPRESENTATION_MAP",
+      "rest_pair_hook_nonzero": true,
+      "status": "HIGHEST_PRIORITY_OPEN_SOURCE_SIDE",
+      "universal_metric_bridge_established": false
+    },
+    {
+      "branch": "MARZO_2026_QUADRATIC_VECTOR_GRAVITON_MIXING",
+      "complete_affine_identification": false,
+      "complete_energy_ledger": false,
+      "dirac_hook_source_match": false,
+      "priority": 1,
+      "quadratic_vector_graviton_mixing": true,
+      "reason": "QUADRATIC_METRIC_VECTOR_MIXING_PLUS_HEALTHY_MASSLESS_SPIN2_MASSIVE_SPIN1_AND_QUARTIC_NOETHER_COMPLETION",
+      "status": "HIGHEST_PRIORITY_OPEN_BRIDGE_SIDE"
+    },
+    {
+      "branch": "SYMMETRY_FIRST_TORSIONLIKE_VECTOR_CATALOGUE",
+      "exact_projector_source_match": false,
+      "metric_bridge_established": false,
+      "priority": 2,
+      "reason": "PAIR_ANTISYMMETRIC_REPRESENTATION_NOW_HAS_EXPLICIT_DIRAC_HOOK_SOURCE_WITNESS",
+      "status": "OPEN_PROTECTED_VECTOR_ACTION_LIBRARY"
+    },
+    {
+      "branch": "BMS_PROTECTED_TS_SPIN1_CLEAN_REST_PAIR_DIRECT",
+      "direct_trace_carrier_overlap_zero": true,
+      "generic_dirac_spin1_closed": false,
+      "priority": 0,
+      "reason": "REST_PAIR_TOTALLY_SYMMETRIC_LORENTZ_TRACE_EXACTLY_ZERO",
+      "status": "CLOSED_ZERO_TRACE_SOURCE_OVERLAP"
+    },
+    {
+      "branch": "BMS_PROTECTED_TS_SPIN3_CLEAN_REST_PAIR_DIRECT_NO_COMPENSATOR",
+      "compensating_current_closed": false,
+      "maximum_normalized_ward_residual": 0.5773502691896257,
+      "priority": 0,
+      "reason": "DIRECT_FACTORIZED_LOCALIZED_REST_PAIR_FAILS_FRONSDAL_WARD_IDENTITY",
+      "status": "CLOSED_BY_V24B_WARD_GATE"
+    },
+    {
+      "branch": "GENERIC_ONSHELL_DIRAC_BMS_TS_SPIN1",
+      "generic_trace_nonzero": true,
+      "on_shell_source": false,
+      "priority": 3,
+      "reason": "GENERIC_ALGEBRAIC_DIRAC_WITNESS_HAS_NONZERO_TOTAL_SYMMETRIC_TRACE",
+      "status": "OPEN_BUT_SOURCE_REALIZATION_NOT_ESTABLISHED",
+      "support_energy": false
+    },
+    {
+      "branch": "COMPENSATED_OR_GENERAL_ONSHELL_DIRAC_SPIN3",
+      "metric_bridge_established": false,
+      "priority": 4,
+      "reason": "V24B_CLOSED_ONLY_UNCOMPENSATED_REST_PAIR",
+      "status": "OPEN_LOWER_PRIORITY"
+    }
+  ],
+  "generic_spin1_witness": {
+    "generic_algebraic_trace_carrier_nonzero": true,
+    "generic_dirac_protected_spin1_closed": false,
+    "source_ward_identity_established": false,
+    "spinor_is_on_shell_localized_stationary_source": false,
+    "support_energy_established": false,
+    "trace_covector": [
+      1.88,
+      -3.333333333333334,
+      1.1333333333333329,
+      -1.6800000000000002
+    ],
+    "trace_covector_norm": 4.330399006506855
+  },
+  "hook_torsionlike_map": {
+    "component_norm_is_lorentz_invariant": false,
+    "component_norm_is_source_energy": false,
+    "electron_positron_hook_same_sign": true,
+    "electron_positron_torsionlike_same_sign": true,
+    "electron_torsionlike_component_norm": 8.0,
+    "generic_hook_roundtrip_relative_error": 1.0285948197347264e-16,
+    "healthy_propagating_vector_match_established": false,
+    "pair_hook_roundtrip_relative_error": 1.3597399555105182e-16,
+    "pair_torsionlike_component_norm": 16.0,
+    "pair_torsionlike_component_norm_over_single": 2.0,
+    "pair_torsionlike_equals_two_single": true,
+    "representation_map_invertible_on_declared_hook_space": true,
+    "representation_map_is_physical_action_match": false,
+    "rest_pair_hook_component_norm": 9.237604307034013,
+    "rest_pair_hook_source_nonzero": true,
+    "torsionlike_first_pair_antisymmetric": true,
+    "universal_metric_bridge_established": false
+  },
+  "marzo_2026_bridge_template": {
+    "affine_geometric_identification_completed": false,
+    "canonical_source_charge_per_joule_established": false,
+    "complete_energy_ledger_established": false,
+    "consistent_cubic_deformation_found": true,
+    "consistent_quartic_order_noether_test_passed": true,
+    "external_dirac_source_coupling_derived": false,
+    "finite_payload_outward_sign_established": false,
+    "gravitational_interaction_universality_recovered_in_bootstrap": true,
+    "massive_spin1_propagates": true,
+    "massless_spin2_propagates": true,
+    "promotion_status": "BRIDGE_TEMPLATE_ONLY",
+    "quadratic_vector_graviton_mixing": true,
+    "radiatively_unstable_fine_tuning_required_for_quadratic_health": false,
+    "reference": "ARXIV_2603_24008",
+    "reported_unitary_sign_conditions": "v1<0 AND hv1>0 AND k1<0",
+    "shared_linear_gauge_transformation": "DELTA_H_ab=PARTIAL_(a_XI_b); DELTA_V_a=M^-1_PARTIAL_a(PARTIAL_DOT_XI)",
+    "unitary_open_region_reported": true,
+    "universal_neutral_payload_metric_response_from_dirac_source_established": false,
+    "vector_identified_with_v24c_hook_torsionlike_mode": false,
+    "vector_transformation_lie_derivative_at_first_deformation": true
+  },
+  "next": "032V24D_DIRAC_HOOK_TORSIONLIKE_VECTOR_TO_QUADRATIC_GRAVITON_MIXING_ACTION_MATCH",
+  "promotion_status": {
+    "action_oracle_created": false,
+    "blind_parameter_scan_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "clean_rest_pair_direct_ts_spin3_no_compensator_closed": true,
+    "clean_rest_pair_protected_ts_spin1_closed": true,
+    "complete_operating_energy_established": false,
+    "finite_payload_outward_response_established": false,
+    "hook_torsionlike_healthy_action_match_established": false,
+    "hook_torsionlike_representation_map_established": true,
+    "marzo_bridge_template_identified": true,
+    "marzo_vector_dirac_source_match_established": false,
+    "physical_antigravity_model_found": false,
+    "source_charge_per_joule_established": false,
+    "universal_physical_metric_bridge_established": false
+  },
+  "rest_pair_protected_spin1_gate": {
+    "basis_trace_carrier_tests": [
+      {
+        "basis_index": 0,
+        "direct_contraction": 0.0,
+        "predicted_contraction": 0.0,
+        "relative_error": 0.0
+      },
+      {
+        "basis_index": 1,
+        "direct_contraction": 0.0,
+        "predicted_contraction": 0.0,
+        "relative_error": 0.0
+      },
+      {
+        "basis_index": 2,
+        "direct_contraction": 0.0,
+        "predicted_contraction": 0.0,
+        "relative_error": 0.0
+      },
+      {
+        "basis_index": 3,
+        "direct_contraction": 0.0,
+        "predicted_contraction": 0.0,
+        "relative_error": 0.0
+      }
+    ],
+    "bms_spin1_nonlinear_completion": "HOMOTHETIC_CURVATURE_SQUARED",
+    "component_norm_is_physical_energy": false,
+    "direct_trace_carrier_overlap_zero": true,
+    "generic_dirac_spin1_source_closed": false,
+    "homothetic_curvature_trace_vector_sector": true,
+    "indirect_metric_mixing_source_closed": false,
+    "lorentz_trace_covector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lorentz_trace_covector_norm": 0.0,
+    "lorentz_trace_zero": true,
+    "maximum_direct_trace_carrier_overlap": 0.0,
+    "rest_pair_direct_bms_protected_spin1_source_closed": true,
+    "rest_pair_total_symmetric_source_component_norm": 6.531972647421808,
+    "rest_pair_total_symmetric_source_nonzero": true
+  },
+  "v24b_fronsdal_scope": {
+    "compensating_or_general_source_closed": false,
+    "direct_rest_pair_without_compensator_closed": true
+  }
+}

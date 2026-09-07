@@ -1,0 +1,101 @@
+{
+  "agminer": {
+    "action_oracles_mutated": false,
+    "mechanism_metrics_mutated": false,
+    "miner_preserved": true,
+    "models_after": 101050,
+    "models_before": 101050,
+    "region_rule_inserted": 1,
+    "region_rules_after": 8,
+    "region_rules_before": 7,
+    "rejections_after": 95600,
+    "rejections_before": 95600
+  },
+  "architecture": {
+    "constant_gamma_reopened": false,
+    "effective_k": "BETA_Q2_OVER_LAMBDA8",
+    "gamma": "BETA_X_OVER_LAMBDA8",
+    "negative_mass_required": false,
+    "old_014_source_scan_reopened": false,
+    "physical_metric": "G_TILDE_EQUALS_G_PLUS_GAMMA_X_DPHI_DPHI",
+    "scalar": "PHI_EQUALS_Q_T_PLUS_PSI_X"
+  },
+  "blind_parameter_scan_authorized": false,
+  "branch": "032V21_TIME_GRADIENT_DISFORMAL_SIGN_RESERVOIR_ENERGY_AND_OFFSTATE_QUANTUM_PREFLIGHT",
+  "canonical_cosmology": {
+    "canonical_invertible_cosmology_overlap": false,
+    "critical_energy_density_j_m3": 7.668947767821908e-10,
+    "deliberately_loose_omega_stiff_ceiling": 0.001,
+    "metric_margin_at_loose_ceiling": -1.7924067723821917,
+    "minimum_background_j_m3_for_invertibility": 2.1414821683911184e-12,
+    "minimum_omega_for_chi_le_0p1": 0.5584813544764385,
+    "minimum_omega_for_chi_le_1": 0.005584813544764382,
+    "minimum_omega_for_invertibility": 0.002792406772382191,
+    "minimum_omega_over_loose_ceiling": 2.792406772382191,
+    "minimum_q2_for_invertibility_ev4": 2.0539670618763077e-13,
+    "published_context_omega_stiff_bound": 5e-23,
+    "q2_at_loose_ceiling_ev4": 7.35554390639182e-14
+  },
+  "canonical_stationary_linear_gamma_subbranch_closed": true,
+  "certified_sub10mj_model_found": false,
+  "claim_class": "THEOREM_FIRST_CANONICAL_TIME_GRADIENT_DISFORMAL_SUBBRANCH_GATE",
+  "decision": "GREEN_TIME_GRADIENT_LINEAR_X_DISFORMAL_OUTWARD_SIGN_GREEN_R5_DISTINCT_ANISOTROPIC_MATERIAL_RESPONSE_RED_CANONICAL_STATIONARY_GLOBAL_Q_BACKGROUND_BY_CASIMIR_PLUS_DISFORMAL_INVERTIBILITY_PLUS_LOOSE_STIFF_COSMOLOGY_A1_FULL_FAMILY_NOT_CLOSED_AGMINER_ADVANCE_TO_A2",
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "full_a1_time_gradient_disformal_family_closed": false,
+  "gate_status": {
+    "anisotropic_offstate_material_response": "GREEN_RECONSTRUCTED",
+    "canonical_global_q_eft_chi_le_1": "RED_STRONGER",
+    "canonical_global_q_metric_invertibility": "RED_WITH_LOOSE_STIFF_COSMOLOGY",
+    "canonical_stationary_linear_gamma_subbranch": "CLOSED",
+    "casimir_k_ceiling": "ESTABLISHED_IN_DECLARED_R5_EMPIRICAL_MODEL",
+    "complete_operating_energy": "NOT_ESTABLISHED",
+    "constant_disformal_branch": "CLOSED_PRESERVED",
+    "finite_payload": "NOT_REACHED_BECAUSE_CHEAP_GATE_RED",
+    "full_a1_time_gradient_disformal_family": "NOT_CLOSED",
+    "new_linear_x_disformal_outward_sign": "GREEN_PREFLIGHT",
+    "noncanonical_time_gradient_background": "YELLOW_EXPLICIT_ACTION_REQUIRED",
+    "old_014_finite_payload_domain": "NOT_REOPENED",
+    "stationary_local_q_reservoir": "CLOSED_BY_MIXED_PARTIAL_INTEGRABILITY"
+  },
+  "local_field_energy_scout": {
+    "complete_operating_ledger": false,
+    "reference_acceleration_m_s2": 9.80665,
+    "reference_derivative_scale_ev": 11.713280708692672,
+    "reference_gradient_energy_j": 12331.475974373647,
+    "reference_k_ev_m4": 2.31859585936314e-21,
+    "reference_lambda_ev": 11.713280708692674,
+    "reference_q2_ev4": 8.215868247505234e-13,
+    "reference_required_s2_ev4": 18824.099298090347,
+    "source_action_constructed": false,
+    "support_constructed": false
+  },
+  "next": "032V21B_PROPAGATING_NONMETRICITY_MATTER_PORTAL_SIGN_AND_SOURCE_EXISTENCE_PREFLIGHT",
+  "noncanonical_background_requires_explicit_action": true,
+  "offstate_material_gate": {
+    "allowed_extra_pressure_pa": 0.007639999999999869,
+    "full_empirical_closure": false,
+    "gold_rho_times_k_at_cap": 0.38574720070477225,
+    "gold_z_s_at_cap": 1.192873600352386,
+    "gold_z_t_at_cap": 2.1572416021143166,
+    "k_cap_ev_m4": 4.63719171872628e-21,
+    "pure_j0_r5_material_response_reused": false,
+    "r5_distinct_anisotropic_response": true,
+    "reference_k_ev_m4": 2.31859585936314e-21,
+    "reference_pressure_pa": 0.002341492648924144
+  },
+  "physical_antigravity_model_found": false,
+  "sign": {
+    "condition": "K_POSITIVE_AND_S2_DECREASES_OUTWARD",
+    "finite_payload_established": false,
+    "outward_sign_exists": true
+  },
+  "stationary_integrability": {
+    "finite_local_stationary_q_reservoir": false,
+    "interpretation": "STATIONARY_Q_IS_GLOBAL_AMBIENT_BACKGROUND_OR_NEW_PHYSICS_REQUIRED",
+    "reason": "D_I_PHI_CONTAINS_T_D_I_Q_IF_Q_VARIES_SPATIALLY",
+    "smooth_stationary_q_must_be_spatially_constant": true,
+    "spatial_q_gradient_nonzero": true,
+    "stationary_time_independent_spatial_gradient_possible": false
+  },
+  "v20_input_decision": "GREEN_AGMINER_PRESERVED_GREEN_R3_R6_FAILURE_MEMORY_INTEGRATED_RED_CURRENT_HIDDEN_AXIAL_PURE_J0_IMPLEMENTATION_PRESERVED_CLOSED_RERANK_A1_TIME_GRADIENT_DISFORMAL_A2_PROPAGATING_NONMETRICITY_NO_PHYSICAL_MODEL_FOUND"
+}

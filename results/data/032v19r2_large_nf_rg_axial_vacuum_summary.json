@@ -1,0 +1,112 @@
+{
+  "branch": "032V19R2_LARGE_NF_AXIAL_DETERMINANT_RG_AND_VACUUM_GATE",
+  "bulk_derivative_expansion": {
+    "boundary_layer_automatically_controlled": false,
+    "bulk_slow_variation_scout": true,
+    "fermion_compton_length_m": 2.7430985068434016e-08,
+    "source_radius_over_compton": 3645512.538121505
+  },
+  "certified_sub10mj_model_found": false,
+  "claim_class": "LARGE_NF_AND_CONSTANT_BACKGROUND_QUANTUM_PREFLIGHT",
+  "decision": "GREEN_LARGE_NF_AXIAL_REORGANIZATION_AVAILABLE_GREEN_NONCATASTROPHIC_BULK_VACUUM_SCOUT_RED_DIRECT_JIANG_SPIN2_TEMPLATE_FOR_PURE_J0_OUTWARD_SIGN_UV_COMPLETION_BOUNDARY_VACUUM_AND_FULL_RGE_OPEN",
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "field_rescaling": {
+    "c1_f2_invariant_preserved": true,
+    "declared_cutoff": {
+      "c1_rescaled_ev_m4": 2.7956266188072965e-19,
+      "collective_loop_rescaled": 0.05538560014301299,
+      "f_rescaled_ev": 52.84547047421553,
+      "full_rge_completed": false,
+      "invariant_original": 7.807189203342719e-16,
+      "invariant_relative_error": 2.526072074964104e-16,
+      "invariant_rescaled": 7.807189203342717e-16,
+      "positive_kinetic_factor": true,
+      "z_factor": 5.416572781507421
+    },
+    "hard_scale": {
+      "c1_rescaled_ev_m4": 4.348538106200744e-19,
+      "collective_loop_rescaled": 0.08615113017468769,
+      "f_rescaled_ev": 42.371682769869004,
+      "full_rge_completed": false,
+      "invariant_original": 7.807189203342719e-16,
+      "invariant_relative_error": 2.526072074964104e-16,
+      "invariant_rescaled": 7.807189203342717e-16,
+      "positive_kinetic_factor": true,
+      "z_factor": 3.482254192298938
+    },
+    "this_is_full_rge": false
+  },
+  "gate_status": {
+    "boundary_axial_vacuum": "OPEN",
+    "bulk_nonlinear_axial_vacuum": "GREEN_NONCATASTROPHIC_SCOUT",
+    "companion_wilson_coefficients": "OPEN",
+    "complete_operating_energy": "NOT_ESTABLISHED",
+    "complete_renormalized_axial_vacuum": "YELLOW_OPEN",
+    "empirical_closure": "OPEN",
+    "exact_constant_b_fermion_determinant": "GREEN_NUMERICAL_SCOUT",
+    "fixed_order_cutoff_tuning_escape": "CLOSED_PRESERVED",
+    "fixed_order_rg": "RED_STRUCTURAL_PRESERVED",
+    "full_c1_f_mass_rge": "OPEN",
+    "full_coupled_chi_psi_phi_modes": "OPEN",
+    "jiang_spin2_direct_adoption": "RED",
+    "large_nf_power_counting": "GREEN_SCOUT",
+    "outward_sign_universal_uv_completion": "OPEN_RED_BLOCKER",
+    "r1_supported_1g_state": "PRESERVED",
+    "universal_log_coefficient": "GREEN_RECONSTRUCTED"
+  },
+  "large_nf": {
+    "collective_loop": 0.3000001342220977,
+    "exact_fermion_determinant_is_leading_nf_object": true,
+    "g_p_equivalent": 0.6336210325482954,
+    "higher_scalar_loop_suppression_fully_proved": false,
+    "induced_four_point_scaling": 0.0007627125468921749,
+    "large_nf_power_counting_scout": true,
+    "one_over_nf": 0.00847457627118644,
+    "single_flavor_loop": 0.0025423740188313367
+  },
+  "next": "032V19R3_OUTWARD_SIGN_UV_COMPLETION_AND_COMPANION_OPERATOR_FALSIFICATION_GATE",
+  "physical_antigravity_model_found": false,
+  "r1_input_decision": "GREEN_LOCAL_TRACTION_AND_NEARBY_SUPPORTED_1G_RETUNE_LT4MJ_RED_STRUCTURAL_FIXED_ORDER_RG_UV_MATCHING_MANDATORY",
+  "source": {
+    "axial_b_ev": 6.123454611098919,
+    "chemical_potential_ev": 56.92491792612398,
+    "declared_cutoff_ev": 285.3351934758513,
+    "f_psi_ev": 22.70625323988203,
+    "flavors": 118,
+    "hard_scale_ev": 56.92491792612398,
+    "m_psi_ev": 7.193579811578565,
+    "metric_scale_ev": 23971.29870009097,
+    "static_preflight_j": 3681919.075350863
+  },
+  "uv_template_audit": {
+    "companion_operator_matching_complete": false,
+    "jiang_positive_c1_spin2": {
+      "c2_over_c1": 12.0,
+      "c4_over_c1": -12.0,
+      "directly_adopted": false,
+      "pure_j0_completion": false,
+      "reason": "NONZERO_J2_COMPANION_OPERATORS"
+    },
+    "jiang_template_directly_usable": false,
+    "outward_sign_pure_j0_uv_completion_proved": false
+  },
+  "vacuum": {
+    "boundary_casimir_included": false,
+    "bulk_nonlinear_not_catastrophic_scout": true,
+    "complete_renormalized_vacuum": false,
+    "declared_full_symmetry_restored_density_ev4": 39670.768612605476,
+    "declared_nonlinear_remainder_ev4": -1399.0603906041506,
+    "declared_nonlinear_remainder_j": -122.2013641147272,
+    "declared_quadratic_wavefunction_density_ev4": 41069.82900320963,
+    "gauge_quantum_numbers_fully_uv_specified": false,
+    "massless_decoupling_condition": "GAUGE_SINGLET_HIDDEN_FERMION_REQUIRED",
+    "natural_b4_loop_density_ev4": 1050.6263565456484,
+    "natural_b4_loop_energy_j": 91.76728524872519,
+    "nonlinear_convergence_fraction": 0.0007588566525894425,
+    "nonlinear_remainder_is_unique_physical_energy": false,
+    "quadratic_log_slope_ratio_to_asymptotic": 0.9992060968344295,
+    "quadratic_term_is_additive_device_energy": false,
+    "regulator": "ROTATIONAL_3MOMENTUM_CUTOFF_WITH_MASSLESS_SUBTRACTION",
+    "remainder_8hard_ev4": -1400.1228831684857
+  }
+}

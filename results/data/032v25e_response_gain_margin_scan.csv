@@ -1,0 +1,7 @@
+distance_to_zero_jacobian,full_dynamic_stability_certified,radial_static_canonical_source_coupling_relative,required_static_radial_jacobian,response_gain
+1.0,False,1.0,1.0,1.0
+0.3333333333333333,False,1.7320508075688774,0.3333333333333333,3.0
+0.1,False,3.162277660168379,0.1,10.0
+0.01,False,10.0,0.01,100.0
+0.001,False,31.622776601683796,0.001,1000.0
+0.0001,False,100.0,0.0001,10000.0

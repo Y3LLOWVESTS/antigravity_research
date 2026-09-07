@@ -1,0 +1,208 @@
+{
+  "claim_limits": {
+    "actual_projector_penalty_established": false,
+    "complete_source_energy_established": false,
+    "complete_sub10mj_model_established": false,
+    "finite_payload_antigravity_established": false,
+    "healthy_hook_propagator_established": false,
+    "practical_device_established": false,
+    "same_action_established": false
+  },
+  "energy_policy": {
+    "comparison": "LT",
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "nominal_projector_corridor": {
+    "active_coupling_max_ev_m2": 9.784321962067051e-25,
+    "capacity_energy_below_strict_10mj": true,
+    "capacity_energy_fraction_of_10mj": 1.7067644219591502e-12,
+    "device_range_capacity_energy_j": 1.7067644219591502e-05,
+    "device_range_factor": 1.5,
+    "empirical_beta3_abs_limit": 0.0028,
+    "equivalent_active_metric_scale_tev": 1.0109615362641529,
+    "massless_capacity_energy_j": 1.1378429479727667e-05,
+    "minimum_background_amplitude_kev": 4.722688107328991,
+    "projector_penalty": 1.0,
+    "reconstructed_beta3": 0.0028,
+    "required_delta_g00": 2.1822739344396436e-17,
+    "this_is_complete_operating_energy": false,
+    "this_is_complete_source_energy": false
+  },
+  "phase": "032V26B1R1",
+  "projector_penalty_energy_threshold": {
+    "energy_target_j": 10000000.0,
+    "projector_penalty_for_target": 3.4328342726612525e+23,
+    "sqrt_projector_penalty_for_target": 585903940306.0243,
+    "unit_projector_capacity_energy_j": 1.7067644219591502e-05
+  },
+  "projector_scan": [
+    {
+      "active_coupling_max_ev_m2": 9.784321962067051e-25,
+      "active_metric_scale_tev": 1.0109615362641529,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 1.7067644219591502e-12,
+      "device_range_capacity_energy_j": 1.7067644219591502e-05,
+      "massless_capacity_energy_j": 1.1378429479727667e-05,
+      "minimum_background_amplitude_kev": 4.722688107328991,
+      "projector_penalty": 1.0,
+      "reconstructed_beta3": 0.0028
+    },
+    {
+      "active_coupling_max_ev_m2": 9.78432196206705e-26,
+      "active_metric_scale_tev": 3.1969410814176364,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 1.7067644219591507e-11,
+      "device_range_capacity_energy_j": 0.00017067644219591506,
+      "massless_capacity_energy_j": 0.0001137842947972767,
+      "minimum_background_amplitude_kev": 14.934451097749355,
+      "projector_penalty": 100.0,
+      "reconstructed_beta3": 0.0027999999999999995
+    },
+    {
+      "active_coupling_max_ev_m2": 9.784321962067051e-27,
+      "active_metric_scale_tev": 10.10961536264153,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 1.7067644219591504e-10,
+      "device_range_capacity_energy_j": 0.0017067644219591505,
+      "massless_capacity_energy_j": 0.001137842947972767,
+      "minimum_background_amplitude_kev": 47.22688107328991,
+      "projector_penalty": 10000.0,
+      "reconstructed_beta3": 0.0027999999999999995
+    },
+    {
+      "active_coupling_max_ev_m2": 9.784321962067051e-28,
+      "active_metric_scale_tev": 31.96941081417636,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 1.70676442195915e-09,
+      "device_range_capacity_energy_j": 0.0170676442195915,
+      "massless_capacity_energy_j": 0.011378429479727668,
+      "minimum_background_amplitude_kev": 149.3445109774935,
+      "projector_penalty": 1000000.0,
+      "reconstructed_beta3": 0.0027999999999999995
+    },
+    {
+      "active_coupling_max_ev_m2": 9.78432196206705e-29,
+      "active_metric_scale_tev": 101.09615362641532,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 1.7067644219591505e-08,
+      "device_range_capacity_energy_j": 0.17067644219591505,
+      "massless_capacity_energy_j": 0.11378429479727671,
+      "minimum_background_amplitude_kev": 472.2688107328991,
+      "projector_penalty": 100000000.0,
+      "reconstructed_beta3": 0.002799999999999999
+    },
+    {
+      "active_coupling_max_ev_m2": 9.784321962067052e-30,
+      "active_metric_scale_tev": 319.69410814176365,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 1.70676442195915e-07,
+      "device_range_capacity_energy_j": 1.7067644219591498,
+      "massless_capacity_energy_j": 1.1378429479727665,
+      "minimum_background_amplitude_kev": 1493.445109774935,
+      "projector_penalty": 10000000000.0,
+      "reconstructed_beta3": 0.0028
+    },
+    {
+      "active_coupling_max_ev_m2": 9.78432196206705e-31,
+      "active_metric_scale_tev": 1010.9615362641531,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 1.7067644219591508e-06,
+      "device_range_capacity_energy_j": 17.067644219591507,
+      "massless_capacity_energy_j": 11.378429479727671,
+      "minimum_background_amplitude_kev": 4722.6881073289915,
+      "projector_penalty": 1000000000000.0,
+      "reconstructed_beta3": 0.002799999999999999
+    },
+    {
+      "active_coupling_max_ev_m2": 9.784321962067051e-33,
+      "active_metric_scale_tev": 10109.61536264153,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 0.00017067644219591503,
+      "device_range_capacity_energy_j": 1706.7644219591502,
+      "massless_capacity_energy_j": 1137.842947972767,
+      "minimum_background_amplitude_kev": 47226.88107328991,
+      "projector_penalty": 1e+16,
+      "reconstructed_beta3": 0.0027999999999999995
+    },
+    {
+      "active_coupling_max_ev_m2": 9.78432196206705e-35,
+      "active_metric_scale_tev": 101096.15362641531,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 0.017067644219591505,
+      "device_range_capacity_energy_j": 170676.44219591503,
+      "massless_capacity_energy_j": 113784.29479727669,
+      "minimum_background_amplitude_kev": 472268.81073289906,
+      "projector_penalty": 1e+20,
+      "reconstructed_beta3": 0.002799999999999999
+    },
+    {
+      "active_coupling_max_ev_m2": 9.78432196206705e-36,
+      "active_metric_scale_tev": 319694.10814176366,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 0.17067644219591502,
+      "device_range_capacity_energy_j": 1706764.4219591501,
+      "massless_capacity_energy_j": 1137842.9479727668,
+      "minimum_background_amplitude_kev": 1493445.1097749353,
+      "projector_penalty": 1e+22,
+      "reconstructed_beta3": 0.0027999999999999995
+    },
+    {
+      "active_coupling_max_ev_m2": 3.094074276053948e-36,
+      "active_metric_scale_tev": 568505.4500192549,
+      "below_strict_10mj": true,
+      "capacity_fraction_of_10mj": 0.5397263002731617,
+      "device_range_capacity_energy_j": 5397263.002731617,
+      "massless_capacity_energy_j": 3598175.335154411,
+      "minimum_background_amplitude_kev": 2655762.688736086,
+      "projector_penalty": 1e+23,
+      "reconstructed_beta3": 0.0028
+    },
+    {
+      "active_coupling_max_ev_m2": 9.78432196206705e-37,
+      "active_metric_scale_tev": 1010961.5362641531,
+      "below_strict_10mj": false,
+      "capacity_fraction_of_10mj": 1.7067644219591507,
+      "device_range_capacity_energy_j": 17067644.219591506,
+      "massless_capacity_energy_j": 11378429.47972767,
+      "minimum_background_amplitude_kev": 4722688.1073289905,
+      "projector_penalty": 1e+24,
+      "reconstructed_beta3": 0.002799999999999999
+    }
+  ],
+  "promotion_status": {
+    "action_oracle_authorized": false,
+    "agminer_database_mutation_authorized": false,
+    "claim_classification": "SCOPED_QUADRATIC_HOOK_QUANTUM_FORCE_AND_CAPACITY_PREFLIGHT",
+    "empirical_inverse_cube_gate_closes_quadratic_hook_portal": false,
+    "energy_optimization_authorized": false,
+    "explicit_action_construction_authorized": true,
+    "inverse_cube_empirical_constraint_applies_in_massless_preflight": true,
+    "next": "032V26C_EXPLICIT_SYMMETRY_COMPATIBLE_SAME_ACTION_HOOK_METRIC_CONSTRUCTION",
+    "nominal_projector_capacity_floor_j": 1.7067644219591502e-05,
+    "offstate_linear_response_zero_implies_zero_quantum_force": false,
+    "phase": "032V26B1R1",
+    "projector_1e12_capacity_floor_j": 17.067644219591507,
+    "projector_penalty_required_to_hit_10mj": 3.4328342726612525e+23,
+    "quadratic_metric_has_offstate_two_mediator_force": true,
+    "same_action_construction_still_required": true
+  },
+  "range_preflight": {
+    "device_range_m": 0.2,
+    "experiment_length_m": 0.001,
+    "m_times_r": 0.005,
+    "massless_preflight_valid": true
+  },
+  "two_mediator_force": {
+    "canonical_form": "|V| = m1*m2*(lambda*q)^2*R_P/(64*pi^3*r^3)",
+    "coefficient": 0.0005039302255187421,
+    "historical_beta3_68_abs_limit": 0.0028,
+    "potential_power": -3,
+    "reference_length_m": 0.001
+  },
+  "v26b1_provenance": {
+    "algebraic_design_witness": true,
+    "offstate_linear_response_zero": true,
+    "quadratic_rank2_metric_descendant": true
+  }
+}

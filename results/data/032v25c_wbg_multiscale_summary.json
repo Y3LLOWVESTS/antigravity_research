@@ -1,0 +1,90 @@
+{
+  "branch": "032V25C_WBG_MULTISCALE_LOCAL_LINEAR_G3_GATE",
+  "claim_class": "WBG_PARENT_SCALE_AND_LOCAL_LINEAR_G3_CANONICAL_INVARIANCE_FALSIFICATION",
+  "database": {
+    "counts_after": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 20,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "counts_before": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 19,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "region_rules_inserted": 1,
+    "science_tables_mutated": false
+  },
+  "decision": "RED_PARTIAL_032V25C_WBG_PARENT_SCALE_RESCALING_WITH_LOCALLY_LINEAR_G3_DOES_NOT_EVADE_V25B_CANONICAL_SOURCE_SCALE_BOUND__GENUINELY_NONLINEAR_G3_KINETIC_ENHANCEMENT_AND_NEW_SOURCE_REMAIN_OPEN",
+  "energy_policy": {
+    "comparison": "LT",
+    "energy_optimization_run": false,
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "historical_wbg_corridor": {
+    "a1_local_scale_over_k": 0.013467541949781303,
+    "a1e3_effective_lambda3_ev": 3.96805573556021e-07,
+    "a1e3_local_scale_over_k": 0.19423543641148616,
+    "a1e3_matches_v25b_ratio_error": 2.7755575615628914e-17,
+    "a1e3_required_abs_g3x": 1.8036259768400656e+16,
+    "alternative_hidden_source_closed": false,
+    "g4_g5_wbg_closed": false,
+    "gradient_ev2": 551.6084480921974,
+    "hessian_proxy_ev3": 0.0011268854529659302,
+    "hessian_z": 1.0,
+    "lambda2_ev": 1287047.823580776,
+    "lambda3_parent_ev": 0.1040622609492028,
+    "lambda3_parent_over_source_k": 50938.29378671595,
+    "large_healthy_kx_closed": false,
+    "length_m": 0.09659120999271102,
+    "locally_linear_g3_parent_scale_rescue_closed": true,
+    "nonlinear_g3_closed": false,
+    "order_one_g3_gain_times_planck": 5.544381223392492e-20,
+    "parent_rescaling_invariant": true,
+    "published_wbg_power_counting_analogy": true,
+    "source_k_ev": 2.042908256505853e-06,
+    "static_wbg_rg_uv_certified": false,
+    "x_le_one": true,
+    "x_wbg": 1.1088762446784983e-19,
+    "z_le_one": true
+  },
+  "next": "032V25D_GENERALIZED_KX_G3_KINETIC_ENHANCEMENT_SOURCE_REACTION_AND_CANONICAL_SCALE_GATE",
+  "parent_rescaling_invariance": {
+    "interpretation": "MATCHING_FIXED_PHYSICAL_GAIN_CANCELS_ARBITRARY_PARENT_LAMBDA3_ADVANTAGE",
+    "invariant": true,
+    "relative_spread": 2.7755575615628914e-17
+  },
+  "promotion_status": {
+    "action_oracle_authorized": false,
+    "alternative_hidden_source_closed": false,
+    "blind_parameter_scan_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "complete_operating_energy_established": false,
+    "finite_payload_response_established": false,
+    "full_source_rg_uv_certified": false,
+    "full_tensor_nonremovable_crosspropagator_certified": false,
+    "full_wbg_g4_g5_closed": false,
+    "generalized_nonlinear_g3_closed": false,
+    "large_healthy_kx_closed": false,
+    "locally_linear_g3_parent_scale_rescue_closed": true,
+    "new_selfconsistent_source_solved": false,
+    "outward_sign_established": false,
+    "physical_antigravity_model_found": false,
+    "source_charge_per_joule_established": false,
+    "wbg_two_scale_parent_corridor_exists": true
+  },
+  "v25b_provenance": {
+    "generalized_kgb_open": true,
+    "minimal_cubic_v16_transplant_closed": true,
+    "wbg_multiscale_open_pre_v25c": true
+  }
+}

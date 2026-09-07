@@ -1,0 +1,95 @@
+{
+  "branch": "032V25B_KGB_STRONG_COUPLING_SOURCE_GATE",
+  "claim_class": "LOCAL_CANONICAL_CUBIC_EFT_AND_HISTORICAL_SOURCE_SCALE_FALSIFICATION",
+  "database": {
+    "counts_after": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 19,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "counts_before": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 18,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "region_rules_inserted": 1,
+    "science_tables_mutated": false
+  },
+  "decision": "RED_PARTIAL_032V25B_UNCHANGED_V16_HIDDEN_AXIAL_SOURCE_TO_MINIMAL_CUBIC_KGB_FAILS_LOCAL_CANONICAL_CUBIC_EFT_CONTROL_ON_SOURCE_VARIATION_SCALE__V25A_ACTION_AND_GENERALIZED_WBG_MULTISCALE_KGB_REMAIN_OPEN",
+  "energy_policy": {
+    "comparison": "LT",
+    "energy_optimization_run": false,
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "historical_v16_source_compatibility": {
+    "a1e3_lambda_eff_over_source_k": 0.19423543641148613,
+    "actual_gradient_max_controlled_gain_times_planck": 7.328013583046044e-06,
+    "axial_b_ev": 20.32104381556904,
+    "chemical_potential_ev": 66.61670965827027,
+    "closure_scope": "UNCHANGED_V16_LOOP030_SOURCE_PLUS_MINIMAL_CUBIC_KGB_LOCAL_CANONICAL_CUBIC_EFT_CONTROL",
+    "f_psi_ev": 27.144690651647558,
+    "generalized_kgb_closed": false,
+    "gradient_ev2": 551.6084480921974,
+    "hard_margin_b_cap_ev": 66.61670965827027,
+    "hard_margin_gradient_cap_ev2": 1808.2899759043685,
+    "hard_margin_proxy_margin5_max_gain_times_planck": 6.300145572707496e-07,
+    "hard_margin_proxy_max_controlled_gain_times_planck": 7.875181868209245e-05,
+    "hard_scale_margin": 5.120490710071961,
+    "historical_source_is_current_physical_model": false,
+    "m_psi_ev": 24.96671585947364,
+    "nda_cutoff_ev": 341.110242940734,
+    "new_hidden_source_closed": false,
+    "relaxed_cutoff_gradient_cap_ev2": 9259.33202273457,
+    "relaxed_cutoff_margin5_max_gain_times_planck": 1.6518619494786622e-05,
+    "relaxed_cutoff_max_controlled_gain_times_planck": 0.002064809831590992,
+    "source_a_m": 0.25740088555864965,
+    "source_c_m": 0.09659120999271102,
+    "source_variation_momentum_ev": 2.042908256505853e-06,
+    "unchanged_v16_to_minimal_cubic_kgb_transplant_closed": true,
+    "wbg_multiscale_kgb_closed": false
+  },
+  "next": "032V25C_GENERALIZED_WBG_KGB_MULTISCALE_ACTION_AND_SOURCE_SCALE_GATE",
+  "promotion_status": {
+    "action_oracle_authorized": false,
+    "blind_parameter_scan_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "complete_operating_energy_established": false,
+    "finite_payload_response_established": false,
+    "full_source_rg_uv_certified": false,
+    "full_tensor_nonremovable_crosspropagator_certified": false,
+    "generalized_kgb_closed": false,
+    "new_selfconsistent_kgb_hidden_source_solved": false,
+    "outward_sign_established": false,
+    "physical_antigravity_model_found": false,
+    "source_charge_per_joule_established": false,
+    "unchanged_v16_minimal_cubic_transplant_closed": true,
+    "wbg_multiscale_kgb_closed": false
+  },
+  "protection_rg_scope": {
+    "bulk_weakly_broken_galileon_protection_context": true,
+    "constant_shift_exact": true,
+    "full_source_coupled_naturalness_certified": false,
+    "full_source_coupled_rg_uv_calculated": false,
+    "hidden_axial_derivative_source_preserves_constant_shift": true,
+    "hidden_axial_source_preserves_full_galileon_shift_phi_to_phi_plus_bx": false,
+    "matter_or_source_loops_can_generate_additional_eft_operators": true,
+    "status": "PARTIAL"
+  },
+  "quadratic_mixing_bound": {
+    "full_kgb_no_go": false,
+    "identity": "ABS_G12_OVER_SQRT_G11_G22_EQUALS_ABS_RHO_LT1_FOR_POSITIVE_2X2_KINETIC_BLOCK"
+  },
+  "v25a_provenance": {
+    "explicit_action_exists": true,
+    "preserved": true
+  }
+}

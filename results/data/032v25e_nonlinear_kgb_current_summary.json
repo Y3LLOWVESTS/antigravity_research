@@ -1,0 +1,86 @@
+{
+  "branch": "032V25E_NONLINEAR_KGB_SOURCE_CURRENT_GATE",
+  "claim_class": "NONLINEAR_SHIFT_CURRENT_JACOBIAN_AND_STATIC_CANONICAL_RESPONSE_FALSIFICATION",
+  "database": {
+    "counts_after": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 22,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "counts_before": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 21,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "region_rules_inserted": 1,
+    "science_tables_mutated": false
+  },
+  "decision": "RED_PARTIAL_032V25E_STATIC_SPHERICAL_SOURCE_ALIGNED_MONOTONE_NONLINEAR_KX_G3X_CANNOT_ANTISCREEN_SHIFT_CURRENT__LARGE_SOURCE_RESPONSE_REQUIRES_SMALL_CURRENT_JACOBIAN__NONMONOTONE_KXX_G3XX_METRIC_NUMERATOR_REMAINS_OPEN",
+  "energy_policy": {
+    "comparison": "LT",
+    "energy_optimization_run": false,
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "exact_current_structure": {
+    "current_jacobian": "D=A+u^2*A_s+4*u*B/r+2*u^3*B_s/r",
+    "s": "u^2/2=-X",
+    "source_aligned_current": "F=u*A(s)+2*u^2*B(s)/r",
+    "source_charge": "Q=4*pi*r^2*F",
+    "static_source_susceptibility": "du/dQ=1/(4*pi*r^2*D)"
+  },
+  "gain1000_margin": {
+    "full_dynamic_stability_certified": false,
+    "radial_static_canonical_source_coupling_relative": 31.622776601683796,
+    "required_static_radial_jacobian": 0.001
+  },
+  "monotone_theorem": {
+    "assumptions": [
+      "A>0",
+      "A_s>=0",
+      "B>=0",
+      "B_s>=0"
+    ],
+    "conclusion": "u*D/F>=1",
+    "identity": "D-F/u=u^2*A_s+2*u*B/r+2*u^3*B_s/r",
+    "source_current_antiscreening": false
+  },
+  "next": "032V25F_NONMONOTONE_KX_G3XX_FULL_TENSOR_METRIC_NUMERATOR_AND_BRANCH_STABILITY_GATE",
+  "nonmonotone_witness": {
+    "alpha_066_jacobian": 0.009999999999999898,
+    "alpha_066_response_gain": 100.00000000000104,
+    "family": "PURE_K_A_EQUALS_1_MINUS_ALPHA_S",
+    "interpretation": "ANTISCREENING_IS_ALGEBRAICALLY_POSSIBLE_BUT_LARGE_RESPONSE_APPROACHES_CURRENT_JACOBIAN_ZERO",
+    "physical_model": false
+  },
+  "promotion_status": {
+    "action_oracle_authorized": false,
+    "blind_parameter_scan_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "complete_operating_energy_established": false,
+    "finite_payload_response_established": false,
+    "full_source_rg_uv_certified": false,
+    "full_tensor_stability_certified": false,
+    "metric_braiding_numerator_analyzed": false,
+    "monotone_source_current_antiscreen_closed": true,
+    "nonmonotone_g3xx_closed": false,
+    "nonmonotone_kxx_closed": false,
+    "oblate_source_solution_solved": false,
+    "outward_sign_established": false,
+    "physical_antigravity_model_found": false,
+    "source_charge_per_joule_established": false
+  },
+  "v25d_provenance": {
+    "large_constant_kx_fixed_source_closed": true,
+    "nonlinear_g3xx_open_pre_v25e": true,
+    "nonlinear_kxx_open_pre_v25e": true
+  }
+}

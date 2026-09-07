@@ -1,0 +1,6 @@
+rank,family,status,new_numerator_required,reason
+1,riemannian_offstate_exact_nonlinear_mag_dirac_hypermomentum_bridge,PRIORITY_OPEN,True,V24 intrinsic Dirac source preserved; tested linear bridge closed; construct active-background nonremovable metric response without principal-margin collapse
+2,protected_active_only_ct1_dhost_kmm_portal,OPEN_CONSTRAINED,True,pure static disformal rest-mass numerator is zero; only a genuinely protected active-state higher/nonlinear operator merits follow-up
+3,leading_u1_field_strength_metric_portal,RED_SCOPED,False,formal two-mediator cancellation loses its advantage under the declared positive-kinetic causal-medium condition
+4,near_singular_generic_cross_mixing_gain,RED_AS_GAIN_ENGINE,False,large cross response from canonical two-mode mixing requires a collapsing principal eigenvalue
+5,direct_planck_normalized_einstein_metric_response,RED_PREFLIGHT_FOR_SUB10MJ,False,"payload-region Dirichlet response norm is already >10 MJ; this is a preflight norm, not a gauge-invariant GR energy theorem"

@@ -1,0 +1,83 @@
+{
+  "agminer": {
+    "action_oracles_added_by_rerank": 0,
+    "candidate_database_deleted": false,
+    "candidate_rows_added_by_rerank": 0,
+    "core_architecture_replaced": false,
+    "family_region_rules_inserted_this_run": 7,
+    "family_region_rules_requested": 7,
+    "mechanism_metrics_added_by_rerank": 0,
+    "preserved": true,
+    "rejection_rows_added_by_rerank": 0,
+    "rerun_is_idempotent": true
+  },
+  "branch": "032V20_AGMINER_GLOBAL_CANDIDATE_FAMILY_RERANK",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "FAMILY_LEVEL_RERANK_AND_PERSISTENT_FAILURE_MEMORY",
+  "database_counts_after": {
+    "action_oracles": 8,
+    "collective_scaling": 2,
+    "mechanism_metrics": 0,
+    "models": 101050,
+    "region_rules": 7,
+    "rejections": 95600,
+    "survivors": 0
+  },
+  "database_counts_before": {
+    "action_oracles": 8,
+    "collective_scaling": 2,
+    "mechanism_metrics": 0,
+    "models": 101050,
+    "region_rules": 0,
+    "rejections": 95600,
+    "survivors": 0
+  },
+  "decision": "GREEN_AGMINER_PRESERVED_GREEN_R3_R6_FAILURE_MEMORY_INTEGRATED_RED_CURRENT_HIDDEN_AXIAL_PURE_J0_IMPLEMENTATION_PRESERVED_CLOSED_RERANK_A1_TIME_GRADIENT_DISFORMAL_A2_PROPAGATING_NONMETRICITY_NO_PHYSICAL_MODEL_FOUND",
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "frontier": {
+    "closed_preserved": [
+      "CURRENT_HIDDEN_AXIAL_PURE_J0_KINETIC_CONFORMAL",
+      "PURE_STATIC_DISFORMAL_DPHI_DPHI",
+      "VECTOR_METRIC_PORTAL_PROTECTED_IMPLEMENTATIONS",
+      "INDEPENDENT_MULTISCALAR_032G_032H",
+      "PURE_GR_PRACTICAL_LT10MJ"
+    ],
+    "ranking_method": "TRANSPARENT_TIER_AND_EXPLICIT_PRIORITY_NO_OPAQUE_SCORE",
+    "second_family": "PROPAGATING_NONMETRICITY_HEALTHY_SINGLE_MODE",
+    "tier_a": [
+      "SHIFT_SYMMETRIC_TIME_GRADIENT_DISFORMAL_METRIC",
+      "PROPAGATING_NONMETRICITY_HEALTHY_SINGLE_MODE"
+    ],
+    "tier_b": [
+      "SHIFT_PROTECTED_GOLDSTONE_KINETIC_METRIC_WITH_R5_EVASION",
+      "ACTIVE_STATE_DEPENDENT_KINETIC_METRIC_DESCREENING",
+      "PROTECTED_FIELD_VALUE_CONFORMAL_SCALAR_METRIC",
+      "MATTER_TRIGGERED_PFORM_BROADER_DOMAIN"
+    ],
+    "tier_c": [
+      "BROAD_SPECTRAL_LINEAR_SCALAR_TOWER",
+      "DERIVATIVE_HYPERMOMENTUM_MULTIPOLE_PORTAL",
+      "SECONDARY_TOPOLOGICAL_SHARED_SCAFFOLD"
+    ],
+    "top_family": "SHIFT_SYMMETRIC_TIME_GRADIENT_DISFORMAL_METRIC"
+  },
+  "next": "032V21_TIME_GRADIENT_DISFORMAL_SIGN_RESERVOIR_ENERGY_AND_OFFSTATE_QUANTUM_PREFLIGHT",
+  "physical_antigravity_model_found": false,
+  "r6_decisive_gap": {
+    "empirical_energy_overlap_exists": false,
+    "empirical_metric_min_ev": 123456.8841240774,
+    "metric_gap_ev": 460.7016796764656,
+    "metric_gap_fraction": 0.0037456583653295147,
+    "strict_partial_energy_metric_max_ev": 122996.18244440094
+  },
+  "r6_input_decision": "RED_CURRENT_032_KINETIC_CONFORMAL_AXIAL_IMPLEMENTATION_PURE_J0_CASIMIR_RED_POSITIVITY_COMPATIBLE_MATTER_J2_CANCELLATION_CLOSED_V17_EXACT_EMPIRICAL_ENERGY_CORRIDOR_EMPTY_AGMINER_MODEL_FAMILY_RERANK_AUTHORIZED",
+  "scope": {
+    "agminer_itself_preserved": true,
+    "all_possible_kinetic_conformal_theories_closed": false,
+    "blind_large_scan_authorized": false,
+    "current_hidden_axial_pure_j0_implementation_closed": true,
+    "mechanism_metrics_population_authorized": false,
+    "negative_mass_required_by_active_frontier": false,
+    "next_theorem_first_prefight_authorized": true
+  }
+}

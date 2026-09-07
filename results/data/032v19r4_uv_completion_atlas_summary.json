@@ -1,0 +1,101 @@
+{
+  "branch": "032V19R4_UV_COMPLETION_ATLAS_SCREENED_LOOP_GENERATED_AND_COLLECTIVE_J0_RERANK",
+  "certified_sub10mj_model_found": false,
+  "claim_class": "THEOREM_FIRST_UV_COMPLETION_FAMILY_RERANK",
+  "decision": "RED_NARROW_BAND_LINEAR_SCALAR_TOWER_FOR_CURRENT_SOURCE_BY_CAUCHY_EMPIRICAL_ENERGY_BOUND_RED_DENSITY_ONLY_SAME_VERTEX_SCREENING_AS_DIRECT_RESCUE_YELLOW_Z2_LOOP_J0_MATCHING_SCAFFOLD_YELLOW_HIGHEST_PRIORITY_SHIFT_PROTECTED_GOLDSTONE_KINETIC_METRIC_UV_ORIGIN_KINETIC_CONFORMAL_CLASS_NOT_CLOSED",
+  "energy_policy_id": "ENERGY_ab8c16e45c837ffc",
+  "gate_status": {
+    "active_x_descreening": "YELLOW_NEW_PHYSICS",
+    "boundary_axial_vacuum": "OPEN",
+    "broad_spectral_linear_scalar_tower": "YELLOW_LIKELIHOOD_REQUIRED",
+    "complete_operating_energy": "NOT_ESTABLISHED",
+    "density_only_same_trace_vertex_screening": "RED_AS_DIRECT_RESCUE",
+    "direct_shift_protected_goldstone_kinetic_metric": "YELLOW_HIGHEST_PRIORITY",
+    "empirical_closure": "OPEN",
+    "full_c1_f_mass_rge": "OPEN",
+    "full_coupled_chi_psi_phi_modes": "OPEN",
+    "minimal_asymmetron": "CLOSED_PRESERVED",
+    "narrow_band_linear_scalar_tower_current_source": "CLOSED_R4",
+    "single_linear_scalar": "CLOSED_R3",
+    "spin2_tree": "CLOSED_PRESERVED",
+    "z2_loop_generated_j0": "YELLOW_SECOND_PRIORITY"
+  },
+  "goldstone_kinetic_metric": {
+    "microscopic_derivative_portal_uv_origin_complete": false,
+    "negative_mass_required": false,
+    "project_required_static_outward_sign_uv_proved": false,
+    "published_global_abelian_goldstone_provenance": true,
+    "published_models_can_have_repulsive_behavior": true,
+    "shift_symmetry_forbids_direct_goldstone_yukawa": true,
+    "status": "YELLOW_HIGHEST_PRIORITY_STRUCTURAL_SURVIVOR",
+    "universal_kinetic_conformal_metric_action_provenance": true
+  },
+  "kinetic_conformal_class_closed": false,
+  "linear_scalar_collective_bound": {
+    "base_plus_x_floor_j": 15809937.268980209,
+    "base_static_energy_j": 3681919.075350863,
+    "broad_spectral_theorem": false,
+    "broad_spectral_tower_closed": false,
+    "cauchy_identity": "C1_SQUARED_LE_4_DX_DT",
+    "d_t_max_ev_m4": 1.542997342519608e-36,
+    "d_x_min_ev_m4": 0.3715201134629564,
+    "minimum_mediator_mass_ev": 56.92491792612398,
+    "narrow_band_current_source_closed": true,
+    "negative_mass_required": false,
+    "passes_strict_energy_limit": false,
+    "reason_broad_not_closed": "FULL_MULTI_YUKAWA_EXPERIMENTAL_LIKELIHOOD_NOT_RECONSTRUCTED",
+    "remaining_before_x_j": 6318080.924649137,
+    "source_reoptimization_included": false,
+    "source_x_inventory_j_per_ev_m4": 32644311.180311393,
+    "species_splitting_strength_ratio": 49408.5661597683,
+    "target_c1_ev_m4": 1.5142715050689224e-18,
+    "total_yukawa_g2_limit_ev_m2": 1e-32,
+    "total_yukawa_g2_limit_gev_m2": 1e-14,
+    "x_companion_energy_min_j": 12128018.193629345,
+    "x_energy_over_remaining_budget": 1.919573101115803
+  },
+  "next": "032V19R5_SHIFT_PROTECTED_GOLDSTONE_UV_ORIGIN_AND_Z2_LOOP_MATCHING_SIGN_NATURALNESS_GATE",
+  "physical_antigravity_model_found": false,
+  "r3_input_decision": "RED_WEAK_SINGLE_CANONICAL_LINEAR_UNIVERSAL_TRACE_SCALAR_UV_TEMPLATE_GREEN_TREE_J0_OUTWARD_MATCH_RED_RANKONE_COMPANIONS_RED_NANOMETER_OFFSTATE_FIFTH_FORCE_KINETIC_CONFORMAL_CLASS_NOT_CLOSED",
+  "screening": {
+    "active_x_dependent_descreening_closed": false,
+    "active_x_dependent_descreening_required_for_rescue": true,
+    "density_only_same_vertex_direct_rescue_closed": true,
+    "minimal_published_asymmetron_reopened": false,
+    "required_matter_amplitude_retention_max": 0.0044988226665448085,
+    "same_vertex_c1_retention_max": 0.0044988226665448085,
+    "same_vertex_target_preserved_without_descreening": false
+  },
+  "target": {
+    "c1_ev_m4": 1.5142715050689224e-18,
+    "hard_scale_ev": 56.92491792612398,
+    "r3_practical_range_max_nm": 3.4664429495723996,
+    "r3_practical_range_min_nm": 0.6335638976775444,
+    "static_preflight_j": 3681919.075350863
+  },
+  "updated_neutron_empirical_scout": {
+    "experiment": "KAMIYA_ET_AL_2020_SLOW_NEUTRON_XENON",
+    "graphical_envelope_g2_gev_m2": 1e-14,
+    "graphical_envelope_is_deliberately_loose": true,
+    "graphical_envelope_is_tabulated_limit": false,
+    "r3_practical_window_inside_scope": true,
+    "reported_improved_range_nm": [
+      0.3,
+      9.0
+    ]
+  },
+  "z2_loop_generated_j0": {
+    "classification": "YELLOW_MATCHING_SCAFFOLD",
+    "complete_uv_origin": false,
+    "equal_portal_scale_ev": 6762.178515351598,
+    "finite_c1_sign_predicted_without_uv_boundary_condition": false,
+    "linear_offstate_single_mediator_yukawa": false,
+    "loop_matching_logarithmically_uv_sensitive": true,
+    "negative_mass_required": false,
+    "nominal_4pi_portal_scale_ev": 84976.04138436526,
+    "portal_scale_over_source_hard": 118.79118603433768,
+    "two_mediator_exchange_empirical_gate": "OPEN",
+    "xt_counterterm_symmetry_allowed": true,
+    "z2_symmetry_available": true
+  }
+}

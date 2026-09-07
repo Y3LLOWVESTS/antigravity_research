@@ -1,0 +1,114 @@
+{
+  "branch": "032V25D_KX_SOURCE_REACTION_CANONICAL_GATE",
+  "claim_class": "LOCAL_CONSTANT_KX_SOURCE_REACTION_AND_CANONICAL_NORMALIZATION_FALSIFICATION",
+  "database": {
+    "counts_after": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 21,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "counts_before": {
+      "action_oracles": 8,
+      "collective_scaling": 2,
+      "mechanism_metrics": 0,
+      "models": 101050,
+      "region_rules": 20,
+      "rejections": 95600,
+      "survivors": 0
+    },
+    "region_rules_inserted": 1,
+    "science_tables_mutated": false
+  },
+  "decision": "RED_PARTIAL_032V25D_LARGE_CONSTANT_KX_DOES_NOT_RESCUE_UNCHANGED_V16_SOURCE_WITH_LOCALLY_LINEAR_G3__FIXED_GRADIENT_CONTROL_IMPROVEMENT_REQUIRES_KAPPA_PROPORTIONAL_SOURCE_REACTION__NONLINEAR_KXX_G3XX_AND_NEW_SOURCE_REMAIN_OPEN",
+  "energy_policy": {
+    "comparison": "LT",
+    "energy_optimization_run": false,
+    "exactly_10mj_passes": false,
+    "limit_j": 10000000.0
+  },
+  "historical_v16_gate": {
+    "alternative_hidden_source_closed": false,
+    "baseline_control_ratio": 0.19423543641148613,
+    "baseline_gain_times_planck": 0.001,
+    "fixed_gradient_large_kx_is_free_rescue": false,
+    "fixed_gradient_margin5_canonical_source_coupling_relative": 0.007656630552839928,
+    "fixed_gradient_margin5_required_kappa": 17057.86275775648,
+    "fixed_gradient_margin5_source_drive_multiplier": 17057.86275775648,
+    "fixed_gradient_unit_control_canonical_source_coupling_relative": 0.08560373197375937,
+    "fixed_gradient_unit_control_required_kappa": 136.46290206205185,
+    "fixed_gradient_unit_control_source_drive_multiplier": 136.46290206205185,
+    "fixed_source_kappa1000_control_ratio": 0.01942354364114862,
+    "fixed_source_kappa1000_required_g3_multiplier": 31622776.60168379,
+    "fixed_source_kappa10_control_ratio": 0.09015610327394591,
+    "full_wbg_g4_g5_closed": false,
+    "historical_gradient_ev2": 551.6084480921974,
+    "historical_source_k_ev": 2.042908256505853e-06,
+    "nonlinear_g3xx_closed": false,
+    "nonlinear_kxx_closed": false,
+    "source_energy_multiplier_established": false,
+    "source_reaction_must_be_included": true,
+    "unchanged_source_large_constant_kx_rescue_closed": true
+  },
+  "local_constant_kx_theorem": {
+    "fixed_gradient_local_scale_exponent": 0.3333333333333333,
+    "fixed_gradient_required_g3_coefficient_exponent": 0.5,
+    "fixed_gradient_source_drive_exponent": 1.0,
+    "fixed_source_canonical_gradient_exponent": -0.5,
+    "fixed_source_gradient_exponent": -1.0,
+    "fixed_source_local_scale_exponent": -0.3333333333333333,
+    "fixed_source_required_g3_coefficient_exponent": 2.5,
+    "full_wbg_g4_g5_closed": false,
+    "local_model": "CONSTANT_POSITIVE_KX_PLUS_LOCALLY_LINEAR_G3",
+    "nonlinear_g3xx_closed": false,
+    "nonlinear_kxx_closed": false,
+    "source_energy_scaling_established": false
+  },
+  "next": "032V25E_NONLINEAR_KX_G3_SOURCE_CURRENT_AND_CANONICAL_RESPONSE_GATE",
+  "promotion_status": {
+    "action_oracle_authorized": false,
+    "alternative_hidden_source_closed": false,
+    "blind_parameter_scan_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "complete_operating_energy_established": false,
+    "finite_payload_response_established": false,
+    "fixed_gradient_control_requires_source_reaction": true,
+    "full_source_rg_uv_certified": false,
+    "full_tensor_nonremovable_crosspropagator_certified": false,
+    "full_wbg_g4_g5_closed": false,
+    "large_constant_kx_fixed_source_rescue_closed": true,
+    "new_selfconsistent_source_solved": false,
+    "nonlinear_g3xx_closed": false,
+    "nonlinear_kxx_closed": false,
+    "outward_sign_established": false,
+    "physical_antigravity_model_found": false,
+    "source_charge_per_joule_established": false,
+    "source_energy_multiplier_established": false
+  },
+  "source_reaction_control_requirements": {
+    "margin5_control": {
+      "baseline_control_ratio": 0.19423543641148613,
+      "canonical_source_coupling_relative": 0.007656630552839928,
+      "reconstructed_control_ratio": 4.999999999999999,
+      "required_kappa": 17057.86275775648,
+      "required_source_drive_multiplier": 17057.86275775648,
+      "target_control_ratio": 5.0
+    },
+    "source_drive_is_energy": false,
+    "unit_control": {
+      "baseline_control_ratio": 0.19423543641148613,
+      "canonical_source_coupling_relative": 0.08560373197375937,
+      "reconstructed_control_ratio": 0.9999999999999999,
+      "required_kappa": 136.46290206205185,
+      "required_source_drive_multiplier": 136.46290206205185,
+      "target_control_ratio": 1.0
+    }
+  },
+  "v25c_provenance": {
+    "large_healthy_kx_open_pre_v25d": true,
+    "locally_linear_parent_rescaling_closed": true
+  }
+}
