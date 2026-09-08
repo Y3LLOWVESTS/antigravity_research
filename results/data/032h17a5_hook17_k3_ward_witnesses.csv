@@ -1,0 +1,5 @@
+witness,q_cov,q2,residual,residual_norm,passes_necessary_ward
+LIGHTLIKE_Z,"[1.0, 0.0, 0.0, 1.0]",0.0,"[0.0, 0.0, -16.0, 0.0]",16.0,False
+LIGHTLIKE_Y,"[1.0, 0.0, 1.0, 0.0]",0.0,"[0.0, 0.0, 0.0, 8.0]",8.0,False
+LIGHTLIKE_X,"[1.0, 1.0, 0.0, 0.0]",0.0,"[0.0, 0.0, 0.0, 0.0]",0.0,True
+STATIC_DIAGONAL,"[0.0, 1.0, 1.0, 1.0]",3.0,"[8.0, 0.0, 0.0, 0.0]",8.0,False

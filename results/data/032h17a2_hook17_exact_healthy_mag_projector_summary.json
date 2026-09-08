@@ -1,0 +1,428 @@
+{
+  "source": {
+    "nonzero_component_count": 6,
+    "components": [
+      {
+        "indices": [
+          0,
+          2,
+          3
+        ],
+        "value": -2.6666666666666665
+      },
+      {
+        "indices": [
+          0,
+          3,
+          2
+        ],
+        "value": -2.6666666666666665
+      },
+      {
+        "indices": [
+          2,
+          0,
+          3
+        ],
+        "value": 5.333333333333334
+      },
+      {
+        "indices": [
+          2,
+          3,
+          0
+        ],
+        "value": 5.333333333333334
+      },
+      {
+        "indices": [
+          3,
+          0,
+          2
+        ],
+        "value": -2.6666666666666665
+      },
+      {
+        "indices": [
+          3,
+          2,
+          0
+        ],
+        "value": -2.6666666666666665
+      }
+    ],
+    "euclidean_component_norm2": 85.33333333333334,
+    "pure_hook_source_inherited_from_v24_v26c": true
+  },
+  "timelike_rest_pole": {
+    "q_cov": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hook_2plus_raw_source_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.0,
+        0.0
+      ]
+    ],
+    "hook_1plus_raw_source_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -8.0
+      ],
+      [
+        0.0,
+        0.0,
+        8.0,
+        0.0
+      ]
+    ],
+    "hook_2plus_spatial_source_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        4.0,
+        0.0
+      ]
+    ],
+    "hook_1plus_spatial_source_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -8.0
+      ],
+      [
+        0.0,
+        8.0,
+        0.0
+      ]
+    ],
+    "hook_2plus_symmetric": true,
+    "hook_2plus_symmetry_residual": 0.0,
+    "hook_2plus_traceless": true,
+    "hook_2plus_trace": 0.0,
+    "hook_1plus_antisymmetric": true,
+    "hook_1plus_antisymmetry_residual": 0.0,
+    "hook_2plus_raw_spatial_norm2": 32.0,
+    "hook_1plus_raw_spatial_norm2": 128.0,
+    "hook_2plus_projected_spatial_norm2": 32.0,
+    "hook_1plus_projected_spatial_norm2": 128.0,
+    "hook_2plus_projector_retention_fraction": 1.0,
+    "hook_1plus_projector_retention_fraction": 1.0,
+    "hook_2plus_exact_pole_source_nonzero": true,
+    "hook_1plus_exact_pole_source_nonzero": true,
+    "expected_hook_2plus_norm2": 32.0,
+    "expected_hook_1plus_norm2": 128.0,
+    "hook_2plus_expected_identity_pass": true,
+    "hook_1plus_expected_identity_pass": true,
+    "common_fourier_i_removed": true,
+    "canonical_normalization_included": false
+  },
+  "healthy_branch_identity_scan": {
+    "hook_2plus_rows": [
+      {
+        "healthy": true,
+        "m1": -1.0,
+        "b6": -0.25,
+        "mass2": 6.0,
+        "q0": 2.449489742783178,
+        "raw_source_norm2_on_pole": 191.99999999999997,
+        "canonical_prefactor_squared": 0.6666666666666666,
+        "canonical_source_norm2": 127.99999999999997,
+        "expected_canonical_source_norm2": 128.0,
+        "canonical_identity_residual": 2.842170943040401e-14,
+        "canonical_identity_pass": true,
+        "positive_residue_source_strength": true
+      },
+      {
+        "healthy": true,
+        "m1": -0.3,
+        "b6": -2.0,
+        "mass2": 0.22499999999999998,
+        "q0": 0.4743416490252569,
+        "raw_source_norm2_on_pole": 7.199999999999999,
+        "canonical_prefactor_squared": 2.2222222222222223,
+        "canonical_source_norm2": 16.0,
+        "expected_canonical_source_norm2": 16.0,
+        "canonical_identity_residual": 0.0,
+        "canonical_identity_pass": true,
+        "positive_residue_source_strength": true
+      },
+      {
+        "healthy": true,
+        "m1": -7.0,
+        "b6": -0.7,
+        "mass2": 15.000000000000002,
+        "q0": 3.872983346207417,
+        "raw_source_norm2_on_pole": 480.00000000000006,
+        "canonical_prefactor_squared": 0.09523809523809523,
+        "canonical_source_norm2": 45.714285714285715,
+        "expected_canonical_source_norm2": 45.714285714285715,
+        "canonical_identity_residual": 0.0,
+        "canonical_identity_pass": true,
+        "positive_residue_source_strength": true
+      },
+      {
+        "healthy": true,
+        "m1": -0.0001,
+        "b6": -300.0,
+        "mass2": 5.000000000000001e-07,
+        "q0": 0.0007071067811865476,
+        "raw_source_norm2_on_pole": 1.6000000000000006e-05,
+        "canonical_prefactor_squared": 6666.666666666666,
+        "canonical_source_norm2": 0.1066666666666667,
+        "expected_canonical_source_norm2": 0.10666666666666667,
+        "canonical_identity_residual": 2.7755575615628914e-17,
+        "canonical_identity_pass": true,
+        "positive_residue_source_strength": true
+      }
+    ],
+    "hook_1plus_rows": [
+      {
+        "healthy": true,
+        "m1": -1.0,
+        "b7": -0.5,
+        "mass2": 4.0,
+        "q0": 2.0,
+        "raw_source_norm2_on_pole": 512.0,
+        "canonical_prefactor_squared": 0.5,
+        "canonical_source_norm2": 256.0,
+        "expected_canonical_source_norm2": 256.0,
+        "canonical_identity_residual": 0.0,
+        "canonical_identity_pass": true,
+        "positive_residue_source_strength": true
+      },
+      {
+        "healthy": true,
+        "m1": -0.2,
+        "b7": -4.0,
+        "mass2": 0.1,
+        "q0": 0.31622776601683794,
+        "raw_source_norm2_on_pole": 12.8,
+        "canonical_prefactor_squared": 2.5,
+        "canonical_source_norm2": 32.0,
+        "expected_canonical_source_norm2": 32.0,
+        "canonical_identity_residual": 0.0,
+        "canonical_identity_pass": true,
+        "positive_residue_source_strength": true
+      },
+      {
+        "healthy": true,
+        "m1": -9.0,
+        "b7": -0.9,
+        "mass2": 20.0,
+        "q0": 4.47213595499958,
+        "raw_source_norm2_on_pole": 2560.0000000000005,
+        "canonical_prefactor_squared": 0.05555555555555555,
+        "canonical_source_norm2": 142.22222222222223,
+        "expected_canonical_source_norm2": 142.22222222222223,
+        "canonical_identity_residual": 0.0,
+        "canonical_identity_pass": true,
+        "positive_residue_source_strength": true
+      },
+      {
+        "healthy": true,
+        "m1": -0.0002,
+        "b7": -500.0,
+        "mass2": 8.000000000000001e-07,
+        "q0": 0.0008944271909999159,
+        "raw_source_norm2_on_pole": 0.00010240000000000001,
+        "canonical_prefactor_squared": 2500.0,
+        "canonical_source_norm2": 0.256,
+        "expected_canonical_source_norm2": 0.256,
+        "canonical_identity_residual": 0.0,
+        "canonical_identity_pass": true,
+        "positive_residue_source_strength": true
+      }
+    ],
+    "hook_2plus_all_healthy": true,
+    "hook_1plus_all_healthy": true,
+    "hook_2plus_identity_all_pass": true,
+    "hook_1plus_identity_all_pass": true,
+    "hook_2plus_positive_source_strength_all": true,
+    "hook_1plus_positive_source_strength_all": true
+  },
+  "static_fourier": {
+    "q0": 0.0,
+    "axis_rows": {
+      "X": {
+        "q_cov": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "hook_2plus_raw_norm2": 0.0,
+        "hook_1plus_raw_norm2": 0.0
+      },
+      "Y": {
+        "q_cov": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "hook_2plus_raw_norm2": 128.0,
+        "hook_1plus_raw_norm2": 0.0
+      },
+      "Z": {
+        "q_cov": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "hook_2plus_raw_norm2": 32.0,
+        "hook_1plus_raw_norm2": 128.0
+      }
+    },
+    "pair_rows": {
+      "XY": {
+        "hook_2plus_raw_norm2": 128.0,
+        "hook_1plus_raw_norm2": 0.0
+      },
+      "XZ": {
+        "hook_2plus_raw_norm2": 32.0,
+        "hook_1plus_raw_norm2": 128.0
+      },
+      "YZ": {
+        "hook_2plus_raw_norm2": 160.0,
+        "hook_1plus_raw_norm2": 128.0
+      }
+    },
+    "hook_2plus_quadratic_coefficients_kx_ky_kz": [
+      0.0,
+      128.0,
+      32.0
+    ],
+    "hook_1plus_quadratic_coefficients_kx_ky_kz": [
+      0.0,
+      0.0,
+      128.0
+    ],
+    "hook_2plus_expected_coefficients": [
+      0.0,
+      128.0,
+      32.0
+    ],
+    "hook_1plus_expected_coefficients": [
+      0.0,
+      0.0,
+      128.0
+    ],
+    "hook_2plus_exact_anisotropy_identity_pass": true,
+    "hook_1plus_exact_anisotropy_identity_pass": true,
+    "hook_2plus_cross_terms": {
+      "XY": 0.0,
+      "XZ": 0.0,
+      "YZ": 0.0
+    },
+    "hook_1plus_cross_terms": {
+      "XY": 0.0,
+      "XZ": 0.0,
+      "YZ": 0.0
+    },
+    "hook_2plus_unit_sphere_angular_average_norm2": 53.333333333333336,
+    "hook_1plus_unit_sphere_angular_average_norm2": 42.666666666666664,
+    "hook_2plus_generic_static_gradient_support_nonzero": true,
+    "hook_1plus_generic_static_gradient_support_nonzero": true,
+    "static_green_function_evaluated": false,
+    "finite_payload_evaluated": false
+  },
+  "same_action_provenance": {
+    "wheeler_explicit_dirac_affine_source_action_exists": true,
+    "mikura_percacci_explicit_healthy_hook_quadratic_actions_exist": true,
+    "mikura_percacci_reference_matter_interactions_included": false,
+    "wheeler_reference_supplies_target_healthy_propagating_hook_kinetic": false,
+    "same_geometric_hook_source_type_can_be_compared_at_linearized_level": true,
+    "published_canonical_source_map_applied_to_actual_v24_source": true,
+    "hook_2plus_exact_source_to_pole_nonzero": true,
+    "hook_1plus_exact_source_to_pole_nonzero": true,
+    "single_reference_contains_dirac_source_plus_healthy_hook_kinetic": false,
+    "hook17_q2_universal_metric_in_same_action": false,
+    "same_action_noether_completion_derived": false,
+    "field_redefinition_survival_derived": false,
+    "same_action_complete": false,
+    "literature_stitching_counts_as_same_action": false,
+    "explicit_same_action_construction_attempt_authorized": true
+  },
+  "summary": {
+    "decision": "GREEN_H17A2_V24_SOURCE_COUPLES_NONTRIVIALLY_TO_HEALTHY_HOOK_2PLUS_AND_1PLUS_POLE_SOURCES__SAME_ACTION_STILL_REQUIRED",
+    "next": "032H17A3_EXPLICIT_SINGLE_ACTION_DIRAC_HOOK_MAG_2PLUS_1PLUS_NOETHER_UNIVERSAL_METRIC_AND_FIELD_REDEFINITION_GATE",
+    "hook_2plus_exact_pole_source_nonzero": true,
+    "hook_1plus_exact_pole_source_nonzero": true,
+    "hook_2plus_raw_rest_norm2": 32.0,
+    "hook_1plus_raw_rest_norm2": 128.0,
+    "hook_2plus_canonical_identity_all_pass": true,
+    "hook_1plus_canonical_identity_all_pass": true,
+    "hook_2plus_static_generic_support_nonzero": true,
+    "hook_1plus_static_generic_support_nonzero": true,
+    "hook_2plus_static_unit_sphere_average_norm2": 53.333333333333336,
+    "hook_1plus_static_unit_sphere_average_norm2": 42.666666666666664,
+    "same_action_complete": false,
+    "explicit_same_action_construction_attempt_authorized": true,
+    "h17b_authorized": false,
+    "energy_optimization_authorized": false,
+    "mass_candidate_campaign_authorized": false,
+    "action_oracle_authorized": false,
+    "agminer_database_mutation_authorized": false,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "hook17_complete_energy_j": null,
+    "strict_complete_operating_target_j": 10000000.0,
+    "exactly_target_passes": false,
+    "physical_antigravity_model_found": false,
+    "certified_sub10mj_model_found": false,
+    "practical_device_found": false,
+    "v26d_fallback_status": "PRESERVED_PAUSED_V26E_NOT_ACTIVATED"
+  }
+}

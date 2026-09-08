@@ -1,0 +1,3 @@
+mode,parameter_count,constraint_count,codimension,tangent_nullity,generic_beta_normal_drift_norm,generic_beta_automatically_tangent,actual_beta_functions_calculated,protecting_symmetry_established
+HOOK_2_PLUS,10,7,7,3,1.887982885594186,False,False,False
+HOOK_1_PLUS,10,7,7,3,1.8351869798442944,False,False,False

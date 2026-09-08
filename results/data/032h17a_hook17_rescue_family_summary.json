@@ -1,0 +1,508 @@
+{
+  "action_oracle_authorized": false,
+  "action_projector_target_count": 3,
+  "atlas": [
+    {
+      "ACTION_EXPLICIT": true,
+      "ACTION_REFERENCE": "CHATZISTAVRAKIDIS_RANJBAR_ZEKO_JHEP_05_2025_218",
+      "ACTIVE_NUMERATOR_STATUS": "V26B1_UNITARY_GAUGE_NUMERATOR_RETAINED",
+      "CANONICALIZATION_STATUS": "FREE_FIELD_KNOWN__HOOK17_SOURCE_METRIC_NOT_DONE",
+      "CAPACITY_FORMULA_STATUS": "V26B1R1_CAPACITY_NOT_TRANSFERABLE_YET",
+      "DIRAC_SOURCE_VERTEX": "J_HOOK_DOT_HHAT_TEMPLATE_ONLY",
+      "FAILURE_CODE": "NO_FATAL_FAMILY_THEOREM__NO_PROMOTION_YET",
+      "FAMILY_ID": "H17-F1",
+      "FAMILY_NAME": "MASSIVE_CURTRIGHT_STUECKELBERG_HOOK",
+      "FIELD_CONTENT": "T_(2,1)+h_(2)+b_(2)+a_(1)+GR_METRIC_TEMPLATE",
+      "FIELD_REDEFINITION_STATUS": "DUAL_MASSIVE_SPIN2_PROVENANCE_REQUIRES_EXACT_DUAL_FRAME_AUDIT",
+      "HEALTHY_MODE": "MASSIVE_CURTRIGHT_5_DOF",
+      "HEALTHY_MODE_PROJECTOR": "STATIC_OFFSHELL_PROJECTOR_NOT_YET_DONE",
+      "IMMEDIATE_EMPIRICAL_KILLER": "NONE_PROVEN_AT_H17A",
+      "IMMEDIATE_NATURALNESS_KILLER": "MASS_AND_COMPENSATOR_SCALES_UNTESTED",
+      "KINETIC_HEALTH_KNOWN": "FREE_LINEARIZED_MASSIVE_THEORY_KNOWN",
+      "LOWEST_OFFSTATE_FORCE": "TWO_MEDIATOR_LIKE__MASSIVE_VERSION_NOT_EVALUATED",
+      "MASS_RANGE": "MASSIVE_RANGE_TUNABLE_IN_FREE_THEORY__NATURALNESS_UNKNOWN",
+      "METRIC_WARD_STATUS": "KINEMATIC_PASS_IF_BUILT_ONLY_FROM_INVARIANT_HHAT",
+      "NEXT_CHEAP_FALSIFIER": "STATIC_OFFSHELL_CURTRIGHT_STUECKELBERG_SATURATED_PROPAGATOR_WITH_V24_SOURCE_PLUS_DUAL_FRAME_SOURCE_METRIC_AUDIT",
+      "OFFSTATE_LIMIT": "FHAT=0_TEMPLATE_RIEMANNIAN_OFFSTATE_POSSIBLE",
+      "OFFSTATE_PORTAL_ORDER": "QUADRATIC_TEMPLATE",
+      "PHYSICAL_METRIC": "g_phys=g+Q(HHAT,HHAT)/M_H^2_TEMPLATE",
+      "SAME_ACTION_COMPLETE": false,
+      "SOURCE_IRREP": "V24_INTRINSIC_HOOK_MAPPED_TO_CURTRIGHT_(2,1)",
+      "SOURCE_PROJECTOR_STATUS": "REST_FRAME_PHYSICAL_POLE_ZERO__STATIC_OFFSHELL_UNKNOWN",
+      "SOURCE_WARD_STATUS": "KINEMATIC_PASS_WITH_INVARIANT_HHAT__SAME_ACTION_NOT_DERIVED",
+      "STATUS": "KINEMATIC_WARD_RESCUE_SURVIVES__POLE_ZERO_AND_DUALITY_WARNING",
+      "SYMMETRY": "MIXED_SYMMETRY_STUECKELBERG_GAUGE",
+      "SYMMETRY_BREAKING_SCALE": "MASS_PARAMETER__NOT_YET_HOOK17_MATCHED",
+      "SYMMETRY_EXACT_OR_SOFT": "EXACT_LINEARIZED_STUECKELBERG"
+    },
+    {
+      "ACTION_EXPLICIT": true,
+      "ACTION_REFERENCE": "MIKURA_PERCACCI_EPJC_85_377_2025",
+      "ACTIVE_NUMERATOR_STATUS": "V26B1_ALGEBRAIC_Q2_WITNESS_RELEVANT_NOT_SAME_ACTION",
+      "CANONICALIZATION_STATUS": "FREE_PROPAGATOR_CANONICAL_POLES_KNOWN",
+      "CAPACITY_FORMULA_STATUS": "NOT_AUTHORIZED",
+      "DIRAC_SOURCE_VERTEX": "V24_DIRAC_HYPERMOMENTUM_MATCH_NOT_IN_REFERENCE_ACTION",
+      "FAILURE_CODE": "SAME_ACTION_DIRAC_AND_METRIC_PORTAL_INCOMPLETE",
+      "FAMILY_ID": "H17-F2",
+      "FAMILY_NAME": "HEALTHY_HOOK_SYMMETRIC_NONMETRICITY_MAG",
+      "FIELD_CONTENT": "GR_METRIC+HOOK_SYMMETRIC_NONMETRICITY_Q",
+      "FIELD_REDEFINITION_STATUS": "NOT_YET_AUDITED_WITH_DIRAC_SOURCE_AND_MATTER_METRIC",
+      "HEALTHY_MODE": "HOOK_2PLUS_2MINUS_1PLUS_1MINUS_0PLUS_FAMILIES",
+      "HEALTHY_MODE_PROJECTOR": "PUBLISHED_O3_PROJECTOR_BASIS",
+      "IMMEDIATE_EMPIRICAL_KILLER": "NONE_PROVEN_AT_H17A",
+      "IMMEDIATE_NATURALNESS_KILLER": "NO_IMMEDIATE_THEOREM__INTERACTIONS_UNTESTED",
+      "KINETIC_HEALTH_KNOWN": "EXPLICIT_GHOST_TACHYON_FREE_SINGLE_STATE_REGIONS",
+      "LOWEST_OFFSTATE_FORCE": "UNKNOWN",
+      "MASS_RANGE": "MASSIVE_POLES__RANGE_PARAMETER_DEPENDENT",
+      "METRIC_WARD_STATUS": "HOOK17_METRIC_PORTAL_NOT_YET_DERIVED",
+      "NEXT_CHEAP_FALSIFIER": "EXACT_CANONICAL_RESIDUES_FOR_HOOK_2PLUS_AND_1PLUS_THEN_SAME_ACTION_DIRAC_VERTEX_AND_Q2_UNIVERSAL_METRIC_MATCH",
+      "OFFSTATE_LIMIT": "Q=0_RIEMANNIAN",
+      "OFFSTATE_PORTAL_ORDER": "UNKNOWN_UNTIL_METRIC_PORTAL_CHOSEN",
+      "PHYSICAL_METRIC": "GR_METRIC_EXISTS__HOOK17_Q2_MATTER_METRIC_NOT_IN_REFERENCE",
+      "SAME_ACTION_COMPLETE": false,
+      "SOURCE_IRREP": "V24_HOOK",
+      "SOURCE_PROJECTOR_STATUS": "SUPPORT_SURVIVORS=HOOK_2_PLUS,HOOK_1_PLUS;EXACT_ZEROS=HOOK_2_MINUS,HOOK_1_MINUS,HOOK_0_PLUS",
+      "SOURCE_WARD_STATUS": "NO_HOOK_SHIFT_OBSTRUCTION__FULL_MATTER_WARD_UNDONE",
+      "STATUS": "HIGHEST_PRIORITY_EXACT_PROJECTOR_ACTION_MATCHING_FAMILY",
+      "SYMMETRY": "DIFFEOMORPHISM__HOOK_KINEMATIC_IRREP",
+      "SYMMETRY_BREAKING_SCALE": "NOT_A_HOOK_SHIFT_FAMILY",
+      "SYMMETRY_EXACT_OR_SOFT": "EXACT_AT_FREE_QUADRATIC_LEVEL"
+    },
+    {
+      "ACTION_EXPLICIT": true,
+      "ACTION_REFERENCE": "PERCACCI_SEZGIN_JHEP_01_2026_042",
+      "ACTIVE_NUMERATOR_STATUS": "UNRESOLVED_FOR_HEALTHY_SPIN3_MODE",
+      "CANONICALIZATION_STATUS": "FREE_LINEARIZED_LEVEL_ONLY",
+      "CAPACITY_FORMULA_STATUS": "NOT_AUTHORIZED",
+      "DIRAC_SOURCE_VERTEX": "NOT_MATCHED_TO_V24_IN_SAME_ACTION",
+      "FAILURE_CODE": "V24B_CLEAN_DIRECT_SPIN3_ZERO_WARNING",
+      "FAMILY_ID": "H17-F3",
+      "FAMILY_NAME": "MASSIVE_SPIN3_SYMMETRIC_NONMETRICITY",
+      "FIELD_CONTENT": "GR_METRIC+SYMMETRIC_NONMETRICITY_WITH_HEALTHY_SPIN3",
+      "FIELD_REDEFINITION_STATUS": "UNRESOLVED",
+      "HEALTHY_MODE": "MASSIVE_SPIN3_OPTIONALLY_PLUS_SPIN0",
+      "HEALTHY_MODE_PROJECTOR": "PUBLISHED_LINEARIZED_PROJECTOR_STRUCTURE",
+      "IMMEDIATE_EMPIRICAL_KILLER": "NONE_PROVEN_AT_H17A",
+      "IMMEDIATE_NATURALNESS_KILLER": "MASS_INTERACTION_COMPLETION_UNTESTED",
+      "KINETIC_HEALTH_KNOWN": "HEALTHY_LINEARIZED_REGIONS_EXIST",
+      "LOWEST_OFFSTATE_FORCE": "UNKNOWN",
+      "MASS_RANGE": "MASSIVE",
+      "METRIC_WARD_STATUS": "UNRESOLVED",
+      "NEXT_CHEAP_FALSIFIER": "EXACT_V24_SOURCE_PROJECTOR_IN_PUBLISHED_SPIN3_ACTION",
+      "OFFSTATE_LIMIT": "Q=0_RIEMANNIAN",
+      "OFFSTATE_PORTAL_ORDER": "UNKNOWN",
+      "PHYSICAL_METRIC": "GR_METRIC__HOOK17_NONLINEAR_PORTAL_NOT_DERIVED",
+      "SAME_ACTION_COMPLETE": false,
+      "SOURCE_IRREP": "V24_CLEAN_DIRECT_SPIN3_SHORTCUT_PREVIOUSLY_ZERO",
+      "SOURCE_PROJECTOR_STATUS": "CLEAN_DIRECT_SHORTCUT_WARNING__GENERAL_MATCH_OPEN",
+      "SOURCE_WARD_STATUS": "UNRESOLVED",
+      "STATUS": "OPEN_LOWER_THAN_H17_F2_PENDING_SOURCE_PROJECTOR",
+      "SYMMETRY": "DIFFEOMORPHISM",
+      "SYMMETRY_BREAKING_SCALE": "MASS_PARAMETER",
+      "SYMMETRY_EXACT_OR_SOFT": "EXACT_LINEARIZED"
+    },
+    {
+      "ACTION_EXPLICIT": false,
+      "ACTION_REFERENCE": "V24D_OPEN_NONLINEAR_COMPLETION_CLASS",
+      "ACTIVE_NUMERATOR_STATUS": "MUST_BE_GENUINELY_NONLINEAR",
+      "CANONICALIZATION_STATUS": "UNKNOWN",
+      "CAPACITY_FORMULA_STATUS": "NOT_AUTHORIZED",
+      "DIRAC_SOURCE_VERTEX": "HOOK_TO_VECTOR_MAP_EXISTS__ACTION_MATCH_MISSING",
+      "FAILURE_CODE": "NO_EXPLICIT_NEW_NONLINEAR_ACTION",
+      "FAMILY_ID": "H17-F4",
+      "FAMILY_NAME": "GENUINELY_NONLINEAR_VECTOR_GRAVITON_COMPLETION",
+      "FIELD_CONTENT": "VECTOR_OR_TORSIONLIKE_MODE+GRAVITON+NONLINEAR_PORTAL",
+      "FIELD_REDEFINITION_STATUS": "LINEAR_RESPONSE_PREVIOUSLY_REMOVABLE",
+      "HEALTHY_MODE": "HEALTHY_TORSIONLIKE_VECTOR_MODES_EXIST_IN_LITERATURE",
+      "HEALTHY_MODE_PROJECTOR": "NOT_SAME_ACTION_MATCHED",
+      "IMMEDIATE_EMPIRICAL_KILLER": "UNKNOWN",
+      "IMMEDIATE_NATURALNESS_KILLER": "UNKNOWN",
+      "KINETIC_HEALTH_KNOWN": "FAMILY_DEPENDENT",
+      "LOWEST_OFFSTATE_FORCE": "UNKNOWN",
+      "MASS_RANGE": "UNKNOWN",
+      "METRIC_WARD_STATUS": "UNKNOWN",
+      "NEXT_CHEAP_FALSIFIER": "WRITE_MINIMAL_EXPLICIT_NONLINEAR_ACTION_OR_DEMOTE",
+      "OFFSTATE_LIMIT": "MUST_BE_EXACTLY_OR_STRONGLY_SUPPRESSED",
+      "OFFSTATE_PORTAL_ORDER": "MUST_START_QUADRATIC_OR_HIGHER",
+      "PHYSICAL_METRIC": "NONLINEAR_ACTIVE_BACKGROUND_PORTAL_REQUIRED",
+      "SAME_ACTION_COMPLETE": false,
+      "SOURCE_IRREP": "V24_HOOK_TO_TORSIONLIKE_VECTORLIKE",
+      "SOURCE_PROJECTOR_STATUS": "UNKNOWN",
+      "SOURCE_WARD_STATUS": "LINEAR_TESTED_ROUTE_CLOSED__NONLINEAR_UNKNOWN",
+      "STATUS": "OPEN_CONSTRUCTION_CLASS__NO_ACTION_YET",
+      "SYMMETRY": "MODEL_DEPENDENT_GAUGE",
+      "SYMMETRY_BREAKING_SCALE": "UNKNOWN",
+      "SYMMETRY_EXACT_OR_SOFT": "UNKNOWN"
+    },
+    {
+      "ACTION_EXPLICIT": false,
+      "ACTION_REFERENCE": "H17_TARGET_CLASS",
+      "ACTIVE_NUMERATOR_STATUS": "UNKNOWN",
+      "CANONICALIZATION_STATUS": "UNKNOWN",
+      "CAPACITY_FORMULA_STATUS": "NOT_AUTHORIZED",
+      "DIRAC_SOURCE_VERTEX": "UNKNOWN",
+      "FAILURE_CODE": "NO_EXPLICIT_ACTION",
+      "FAMILY_ID": "H17-F5",
+      "FAMILY_NAME": "GAUGE_INVARIANT_COMPOSITE_OR_CURVATURE_PORTAL",
+      "FIELD_CONTENT": "HOOK_OR_NONMETRICITY_FIELD_STRENGTH+UNIVERSAL_METRIC",
+      "FIELD_REDEFINITION_STATUS": "UNKNOWN",
+      "HEALTHY_MODE": "UNKNOWN_UNTIL_ACTION_SPECIFIED",
+      "HEALTHY_MODE_PROJECTOR": "UNKNOWN",
+      "IMMEDIATE_EMPIRICAL_KILLER": "UNKNOWN",
+      "IMMEDIATE_NATURALNESS_KILLER": "DERIVATIVE_SCALE_MAY_BE_COSTLY__UNTESTED",
+      "KINETIC_HEALTH_KNOWN": "UNKNOWN",
+      "LOWEST_OFFSTATE_FORCE": "UNKNOWN",
+      "MASS_RANGE": "UNKNOWN",
+      "METRIC_WARD_STATUS": "TARGET_IS_INVARIANT_BY_CONSTRUCTION_BUT_NOT_YET_SHOWN",
+      "NEXT_CHEAP_FALSIFIER": "ENUMERATE_LOWEST_DIMENSION_INVARIANTS_AND_TEST_SOURCE_METRIC_CHAIN",
+      "OFFSTATE_LIMIT": "COMPOSITE_ZERO_OR_HIGH_ORDER",
+      "OFFSTATE_PORTAL_ORDER": "LIKELY_DERIVATIVE_AND_OR_QUADRATIC",
+      "PHYSICAL_METRIC": "CURVATURE_OR_FIELD_STRENGTH_COMPOSITE",
+      "SAME_ACTION_COMPLETE": false,
+      "SOURCE_IRREP": "V24_HOOK",
+      "SOURCE_PROJECTOR_STATUS": "UNKNOWN",
+      "SOURCE_WARD_STATUS": "UNKNOWN",
+      "STATUS": "OPEN_IDEA_CLASS__NO_ACTION_YET",
+      "SYMMETRY": "GAUGE_INVARIANT_COMPOSITE_REQUIRED",
+      "SYMMETRY_BREAKING_SCALE": "UNKNOWN",
+      "SYMMETRY_EXACT_OR_SOFT": "UNKNOWN"
+    },
+    {
+      "ACTION_EXPLICIT": true,
+      "ACTION_REFERENCE": "V24_SOURCE_FAMILY",
+      "ACTIVE_NUMERATOR_STATUS": "STATE_DEPENDENT",
+      "CANONICALIZATION_STATUS": "SOURCE_STATE_ONLY",
+      "CAPACITY_FORMULA_STATUS": "NOT_AUTHORIZED",
+      "DIRAC_SOURCE_VERTEX": "EXPLICIT_AT_SOURCE_LEVEL",
+      "FAILURE_CODE": "NOT_AN_INDEPENDENT_CARRIER_ACTION_FAMILY",
+      "FAMILY_ID": "H17-F6",
+      "FAMILY_NAME": "DIRAC_SOURCE_STATE_ENGINEERING",
+      "FIELD_CONTENT": "DIRAC_SOURCE_STATES_WITH_EXISTING_AFFINE_SOURCE_STRUCTURE",
+      "FIELD_REDEFINITION_STATUS": "CARRIER_DEPENDENT",
+      "HEALTHY_MODE": "NOT_DEFINED_UNTIL_TARGET_ACTION_CHOSEN",
+      "HEALTHY_MODE_PROJECTOR": "NOT_DEFINED",
+      "IMMEDIATE_EMPIRICAL_KILLER": "NONE_AT_SOURCE_ONLY_LEVEL",
+      "IMMEDIATE_NATURALNESS_KILLER": "NONE_AT_SOURCE_ONLY_LEVEL",
+      "KINETIC_HEALTH_KNOWN": "SOURCE_ONLY",
+      "LOWEST_OFFSTATE_FORCE": "CARRIER_DEPENDENT",
+      "MASS_RANGE": "CARRIER_DEPENDENT",
+      "METRIC_WARD_STATUS": "CARRIER_DEPENDENT",
+      "NEXT_CHEAP_FALSIFIER": "USE_ONLY_IF_F2_F3_EXACT_PROJECTORS_ARE_ZERO_OR_TINY",
+      "OFFSTATE_LIMIT": "SOURCE_ABSENT",
+      "OFFSTATE_PORTAL_ORDER": "CARRIER_DEPENDENT",
+      "PHYSICAL_METRIC": "CARRIER_DEPENDENT",
+      "SAME_ACTION_COMPLETE": false,
+      "SOURCE_IRREP": "FULL_HYPERMOMENTUM_DECOMPOSITION_STATE_DEPENDENT",
+      "SOURCE_PROJECTOR_STATUS": "CAN_REPAIR_ZERO_OVERLAP_ONLY_AFTER_ACTION_PROJECTOR_KNOWN",
+      "SOURCE_WARD_STATUS": "DEPENDS_ON_TARGET_CARRIER_ACTION",
+      "STATUS": "DEFER_UNTIL_EXACT_PROJECTOR_IDENTIFIES_SOURCE_BOTTLENECK",
+      "SYMMETRY": "SOURCE_STATE_CHOICE_NOT_NEW_GAUGE_THEORY",
+      "SYMMETRY_BREAKING_SCALE": "N_A",
+      "SYMMETRY_EXACT_OR_SOFT": "N_A"
+    },
+    {
+      "ACTION_EXPLICIT": true,
+      "ACTION_REFERENCE": "032V26C",
+      "ACTIVE_NUMERATOR_STATUS": "ALGEBRAICALLY_NONZERO_BUT_GAUGE_DEPENDENT",
+      "CANONICALIZATION_STATUS": "PARTIAL",
+      "CAPACITY_FORMULA_STATUS": "V26B1R1_REFERENCE_ONLY",
+      "DIRAC_SOURCE_VERTEX": "J_HOOK_DOT_H",
+      "FAILURE_CODE": "SOURCE_WARD_FAIL_AND_METRIC_WARD_FAIL",
+      "FAMILY_ID": "H17-CONTROL-V26C",
+      "FAMILY_NAME": "DIRECT_MASSLESS_PROTECTED_HOOK_PLUS_RAW_H2_METRIC",
+      "FIELD_CONTENT": "MASSLESS_HOOK+DIRECT_V24_SOURCE+RAW_H2_METRIC",
+      "FIELD_REDEFINITION_STATUS": "NOT_PHYSICALIZED",
+      "HEALTHY_MODE": "PROTECTED_MASSLESS_HOOK_TEMPLATE",
+      "HEALTHY_MODE_PROJECTOR": "IRRELEVANT_AFTER_WARD_FAIL",
+      "IMMEDIATE_EMPIRICAL_KILLER": "NOT_PRIMARY_FAILURE",
+      "IMMEDIATE_NATURALNESS_KILLER": "NOT_PRIMARY_FAILURE",
+      "KINETIC_HEALTH_KNOWN": "DECLARED_PROTECTED_TEMPLATE",
+      "LOWEST_OFFSTATE_FORCE": "TWO_MEDIATOR_PRESENT",
+      "MASS_RANGE": "MASSLESS",
+      "METRIC_WARD_STATUS": "FAIL",
+      "NEXT_CHEAP_FALSIFIER": "NONE__DO_NOT_REOPEN_WITHOUT_NEW_GAUGE_COMPLETION",
+      "OFFSTATE_LIMIT": "H=0",
+      "OFFSTATE_PORTAL_ORDER": "QUADRATIC",
+      "PHYSICAL_METRIC": "g+Q(H,H)/M_H^2",
+      "SAME_ACTION_COMPLETE": false,
+      "SOURCE_IRREP": "V24_HOOK",
+      "SOURCE_PROJECTOR_STATUS": "NOT_PROMOTABLE",
+      "SOURCE_WARD_STATUS": "FAIL",
+      "STATUS": "CLOSED",
+      "SYMMETRY": "EXACT_HOOK_SHIFT",
+      "SYMMETRY_BREAKING_SCALE": "NONE",
+      "SYMMETRY_EXACT_OR_SOFT": "EXACT"
+    }
+  ],
+  "baseline_expected_before_patch": 673,
+  "certified_sub10mj_model_found": false,
+  "closed_family_count_including_control": 1,
+  "compensated_ward_rescue": {
+    "compensated_quadratic_metric_ward_pass_by_invariance": true,
+    "compensated_source_ward_pass_by_invariance": true,
+    "complete_energy_established": false,
+    "complete_same_action_established": false,
+    "field_redefinition_survival_established": false,
+    "gauge_invariant_curtright_combination_exists": true,
+    "healthy_mode_projector_established": false,
+    "kinematic_ward_obstruction_repaired": true,
+    "published_compensator_count": 3,
+    "published_massive_curtright_stueckelberg_fields": [
+      "SYMMETRIC_H_MN",
+      "KALB_RAMOND_B_MN",
+      "VECTOR_A_M"
+    ],
+    "raw_v26c_metric_ward_pass": false,
+    "raw_v26c_source_ward_pass": false,
+    "unitary_gauge_recovers_v26b1_hook": true,
+    "v24_hook_curtright_map_pass": true,
+    "v26b1_active_degree_two_identity_pass": true,
+    "v26b1_active_degree_two_identity_residual": 0.0,
+    "v26b1_offstate_first_variation_residual": 0.0,
+    "v26b1_offstate_first_variation_zero": true,
+    "v26b1_quadratic_metric_nonzero": true
+  },
+  "curtright_complete_same_action_model_exists": false,
+  "curtright_kinematic_ward_rescue_is_real": true,
+  "curtright_pole_prefilter": {
+    "029_massive_spin2_route_automatically_recloses_hook17": false,
+    "claim_scope": "TIMELIKE_REST_FRAME_MASSIVE_POLE_SUPPORT_ONLY",
+    "clean_rest_pair_rest_frame_pole_support_nonzero": false,
+    "clean_rest_pair_rest_frame_pole_support_zero": true,
+    "curtright_spatial_pole_source_norm": 0.0,
+    "massive_curtright_dof_4d": 5,
+    "massive_curtright_has_massive_spin2_duality_provenance": true,
+    "reason_029_not_automatic": "029 tested ordinary conserved symmetric-stress Fierz-Pauli source/portal behavior; HOOK17 has intrinsic rank-three source and nonlinear universal-metric descendants",
+    "static_offshell_projector_evaluated": false,
+    "static_offshell_projector_status": "REQUIRED_NEXT_FALSIFIER",
+    "v24_one_longitudinal_only": true
+  },
+  "curtright_rest_frame_pole_overlap_zero": true,
+  "curtright_static_offshell_response_closed": false,
+  "decision": "YELLOW_H17A_WARD_RESCUE_AND_HEALTHY_ACTION_FAMILIES_EXIST_BUT_NO_SAME_ACTION_COMPLETE_HOOK17_SURVIVOR",
+  "energy_optimization_authorized": false,
+  "exactly_target_passes": false,
+  "family_count": 7,
+  "h17a_full_survivor": false,
+  "h17b_authorized": false,
+  "hook17_complete_energy_j": null,
+  "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+  "hook_mag_projector_prefilter": {
+    "exact_canonical_residue_required_for_survivors": true,
+    "matter_interactions_in_free_action_reference": false,
+    "modes": [
+      {
+        "canonical_residue_done": false,
+        "healthy_single_state_family_known": true,
+        "mode": "HOOK_2_PLUS",
+        "published_support": "LTT",
+        "status": "NONZERO_O3_IRREP_SUPPORT__EXACT_RESIDUE_REQUIRED",
+        "v24_o3_irrep_support_nonzero": true
+      },
+      {
+        "canonical_residue_done": true,
+        "healthy_single_state_family_known": true,
+        "mode": "HOOK_2_MINUS",
+        "published_support": "TTT",
+        "status": "ZERO_BY_REST_FRAME_O3_SUPPORT",
+        "v24_o3_irrep_support_nonzero": false
+      },
+      {
+        "canonical_residue_done": false,
+        "healthy_single_state_family_known": true,
+        "mode": "HOOK_1_PLUS",
+        "published_support": "TTL+TLT-0.5LTT",
+        "status": "NONZERO_O3_IRREP_SUPPORT__EXACT_RESIDUE_REQUIRED",
+        "v24_o3_irrep_support_nonzero": true
+      },
+      {
+        "canonical_residue_done": true,
+        "healthy_single_state_family_known": true,
+        "mode": "HOOK_1_MINUS",
+        "published_support": "TTT",
+        "status": "ZERO_BY_REST_FRAME_O3_SUPPORT",
+        "v24_o3_irrep_support_nonzero": false
+      },
+      {
+        "canonical_residue_done": true,
+        "healthy_single_state_family_known": true,
+        "mode": "HOOK_0_PLUS",
+        "published_support": "LTT",
+        "status": "ZERO_BY_TRACE_FREE_CLEAN_SOURCE",
+        "v24_o3_irrep_support_nonzero": false
+      }
+    ],
+    "o3_irrep_exact_zeros": [
+      "HOOK_2_MINUS",
+      "HOOK_1_MINUS",
+      "HOOK_0_PLUS"
+    ],
+    "o3_irrep_gate": {
+      "A_ij": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -2.6666666666666665
+        ],
+        [
+          0.0,
+          -2.6666666666666665,
+          0.0
+        ]
+      ],
+      "A_symmetric": true,
+      "A_symmetry_residual": 0.0,
+      "B_ij": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          5.333333333333334
+        ],
+        [
+          0.0,
+          -2.6666666666666665,
+          0.0
+        ]
+      ],
+      "canonical_residue_evaluated": false,
+      "exact_o3_irrep_support": {
+        "HOOK_0_PLUS": false,
+        "HOOK_1_MINUS": false,
+        "HOOK_1_PLUS": true,
+        "HOOK_2_MINUS": false,
+        "HOOK_2_PLUS": true
+      },
+      "hook_young_relation_pass": true,
+      "hook_young_relation_residual": 8.881784197001252e-16,
+      "saturated_propagator_evaluated": false,
+      "spin0_plus_support_nonzero": false,
+      "spin0_plus_support_norm2": 0.0,
+      "spin0_plus_trace": 0.0,
+      "spin1_plus_support_nonzero": true,
+      "spin1_plus_support_norm2": 32.0,
+      "spin2_plus_support_nonzero": true,
+      "spin2_plus_support_norm2": 14.222222222222221
+    },
+    "o3_irrep_support_survivors": [
+      "HOOK_2_PLUS",
+      "HOOK_1_PLUS"
+    ],
+    "same_action_complete": false,
+    "source_support": {
+      "all_one_longitudinal_placements_present": true,
+      "component_square_norm": 85.33333333333334,
+      "frame": "V24_EQUAL_REST_TIMELIKE_SOURCE_FRAME",
+      "longitudinal_count_fraction": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "nonzero_component_count": 6,
+      "nonzero_components": [
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "longitudinal_count": 1,
+          "value": -2.6666666666666665
+        },
+        {
+          "indices": [
+            0,
+            3,
+            2
+          ],
+          "longitudinal_count": 1,
+          "value": -2.6666666666666665
+        },
+        {
+          "indices": [
+            2,
+            0,
+            3
+          ],
+          "longitudinal_count": 1,
+          "value": 5.333333333333334
+        },
+        {
+          "indices": [
+            2,
+            3,
+            0
+          ],
+          "longitudinal_count": 1,
+          "value": 5.333333333333334
+        },
+        {
+          "indices": [
+            3,
+            0,
+            2
+          ],
+          "longitudinal_count": 1,
+          "value": -2.6666666666666665
+        },
+        {
+          "indices": [
+            3,
+            2,
+            0
+          ],
+          "longitudinal_count": 1,
+          "value": -2.6666666666666665
+        }
+      ],
+      "one_longitudinal_fraction": 1.0,
+      "one_longitudinal_only": true,
+      "one_longitudinal_position_fraction": {
+        "FIRST_L": 0.16666666666666663,
+        "SECOND_L": 0.41666666666666663,
+        "THIRD_L": 0.41666666666666663
+      },
+      "support_statement_is_exact_projector_overlap": false
+    },
+    "universal_metric_portal_in_free_action_reference": false
+  },
+  "mass_candidate_campaign_authorized": false,
+  "most_informative_next_family": "H17-F2",
+  "most_informative_next_modes": [
+    "HOOK_2_PLUS",
+    "HOOK_1_PLUS"
+  ],
+  "next": "032H17A2_EXACT_V24_HEALTHY_MODE_PROJECTORS_AND_SAME_ACTION_MATCH__PRIORITY_F2_HOOK_2PLUS_AND_1PLUS__PARALLEL_F1_STATIC_OFFSHELL_CURTRIGHT_DUALITY_AUDIT",
+  "permanent_clean_rest_pole_zeros": [
+    "HOOK_2_MINUS",
+    "HOOK_1_MINUS",
+    "HOOK_0_PLUS"
+  ],
+  "phase": "032H17A",
+  "physical_antigravity_model_found": false,
+  "practical_device_found": false,
+  "representation": {
+    "curtright_cyclic_identity": true,
+    "curtright_cyclic_residual": 0.0,
+    "curtright_norm": 16.0,
+    "first_pair_antisymmetric": true,
+    "first_pair_antisymmetry_residual": 0.0,
+    "hook_norm": 9.237604307034013,
+    "representation_match_is_action_match": false,
+    "representation_roundtrip_pass": true,
+    "representation_roundtrip_residual": 8.881784197001252e-16
+  },
+  "same_action_complete_survivor_count": 0,
+  "strict_complete_operating_target_j": 10000000.0,
+  "v26d_fallback_status": "PRESERVED_PAUSED_V26E_NOT_ACTIVATED_YET"
+}

@@ -1,0 +1,291 @@
+{
+  "a4_provenance": {
+    "decision": "YELLOW_H17A4_SYMMETRY_FIRST_TORSIONLIKE_VECTOR_FAMILIES_SURVIVE_AND_GAUGE_INVARIANT_STUECKELBERG_METRIC_WITNESS_EXISTS__PROTECTED_EXACT_V24_1PLUS_ACTION_PROJECTOR_STILL_REQUIRED",
+    "next": "032H17A5_EXACT_PROTECTED_TORSIONLIKE_1PLUS_ACTION_PROJECTOR_DIRAC_SOURCE_WARD_AND_VECTOR_GRAVITON_IDENTIFICATION_GATE",
+    "v24_hook_to_torsionlike_map_green": true,
+    "mapped_source_simple_vector_trace_zero": true,
+    "mapped_source_axial_pseudotrace_zero": true,
+    "mapped_source_cyclic_identity_zero": true,
+    "trace_zero_closes_all_vector_modes": false,
+    "h17a2_1plus_spatial_dual_vector_nonzero": true,
+    "h17a2_1plus_spatial_dual_vector_norm2": 64.0,
+    "torsionlike_catalogue_gauge_symmetric_specializations": 206,
+    "torsionlike_catalogue_unitary_specializations": 22,
+    "torsionlike_catalogue_vector_only_unitary_modes": true,
+    "catalogue_directly_rescues_2plus": false,
+    "catalogue_keeps_1plus_target_open": true,
+    "catalogue_closes_all_protected_2plus": false,
+    "stueckelberg_metric_gauge_invariant": true,
+    "stueckelberg_metric_offstate_silent": true,
+    "stueckelberg_metric_active_response_nonzero": true,
+    "protected_exact_same_action_survivors": 0,
+    "same_action_provenance_complete": false,
+    "full_noether_completion": false,
+    "h17b_authorized": false,
+    "energy_optimization_authorized": false,
+    "sub100j_efficiency_tuning_authorized": false,
+    "agminer_database_mutation_authorized": false,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "hook17_complete_energy_j": null,
+    "strict_complete_operating_target_j": 10000000.0,
+    "exactly_target_passes": false,
+    "physical_antigravity_model_found": false,
+    "certified_sub10mj_model_found": false,
+    "practical_device_found": false,
+    "v26d_fallback_status": "PRESERVED_PAUSED_V26E_NOT_ACTIVATED"
+  },
+  "mapped_v24_bms_source": {
+    "last_pair_antisymmetric": true,
+    "component_norm": 16.0,
+    "nonzero_component_count": 4,
+    "components": [
+      {
+        "indices": [
+          0,
+          2,
+          3
+        ],
+        "value": 8.0
+      },
+      {
+        "indices": [
+          0,
+          3,
+          2
+        ],
+        "value": -8.0
+      },
+      {
+        "indices": [
+          3,
+          0,
+          2
+        ],
+        "value": -8.0
+      },
+      {
+        "indices": [
+          3,
+          2,
+          0
+        ],
+        "value": 8.0
+      }
+    ],
+    "expected_sparse_identity_pass": true
+  },
+  "helicity_prefilter": {
+    "spin2_helicity_seed_norm2": 0.0,
+    "spin2_helicity_seed_zero": true,
+    "spin1_helicity_seed_norm2": 128.0,
+    "spin1_helicity_seed_nonzero": true,
+    "spin1_helicity_pairs": {
+      "eps1": [
+        0.0,
+        0.0
+      ],
+      "eps2": [
+        8.0,
+        0.0
+      ],
+      "eps3": [
+        0.0,
+        0.0
+      ],
+      "eps4": [
+        -8.0,
+        0.0
+      ],
+      "eps5": [
+        0.0,
+        0.0
+      ],
+      "eps6": [
+        0.0,
+        0.0
+      ]
+    },
+    "zero_helicity_seed": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "zero_helicity_seed_norm2": 0.0,
+    "zero_helicity_seed_zero": true,
+    "representation_overlap_is_ward_compatibility": false
+  },
+  "k3_published_model": {
+    "family": "BARKER_MARZO_SANTONI_K3",
+    "arxiv": "2507.05349",
+    "pair_antisymmetric_rank3": true,
+    "parity_conserving": true,
+    "gauge_symmetric": true,
+    "ghost_tachyon_free": true,
+    "propagating_sector": "AXIAL_VECTOR_EVEN_PARITY_1PLUS",
+    "massless": true,
+    "physical_polarizations": 2,
+    "free_kinetic_parameters": 1,
+    "unitarity_condition": "kappa3_4 < 0",
+    "published_source_constraint_count": 21,
+    "necessary_source_constraint": "q_chi q_beta J^{beta alpha chi}=0",
+    "source_constraints_are_ward_conditions": true
+  },
+  "k3_ward": {
+    "rows": {
+      "LIGHTLIKE_Z": {
+        "q_cov": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "q2": 0.0,
+        "residual": [
+          0.0,
+          0.0,
+          -16.0,
+          0.0
+        ],
+        "residual_norm": 16.0,
+        "passes_necessary_ward": false
+      },
+      "LIGHTLIKE_Y": {
+        "q_cov": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "q2": 0.0,
+        "residual": [
+          0.0,
+          0.0,
+          0.0,
+          8.0
+        ],
+        "residual_norm": 8.0,
+        "passes_necessary_ward": false
+      },
+      "LIGHTLIKE_X": {
+        "q_cov": [
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "q2": 0.0,
+        "residual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "residual_norm": 0.0,
+        "passes_necessary_ward": true
+      },
+      "STATIC_DIAGONAL": {
+        "q_cov": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "q2": 3.0,
+        "residual": [
+          8.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "residual_norm": 8.0,
+        "passes_necessary_ward": false
+      }
+    },
+    "lightlike_physical_pole_witness_q2_zero": true,
+    "lightlike_physical_pole_witness_residual_norm": 16.0,
+    "lightlike_physical_pole_witness_fails": true,
+    "at_least_one_ward_counterexample": true,
+    "direct_v24_k3_source_ward_compatible": false,
+    "one_counterexample_is_sufficient_to_reject_direct_coupling": true
+  },
+  "localized_scalar_envelope": {
+    "ansatz": "J_abc(q)=F(q) J0_abc with fixed clean-rest-pair tensor J0",
+    "localized_nonzero_source_has_fourier_support_beyond_single_ward_zero_direction": true,
+    "ward_polynomial_identically_zero": false,
+    "explicit_nonzero_polynomial_witness_norm": 16.0,
+    "compact_scalar_envelope_direct_k3_compatible": false,
+    "theorem_scope": "FIXED_TENSOR_CLEAN_REST_PAIR_TIMES_COMMON_SCALAR_ENVELOPE",
+    "q_dependent_spinor_texture_closed": false,
+    "improved_or_compensated_current_closed": false,
+    "other_protected_axial_vector_actions_closed": false
+  },
+  "vector_graviton_identification": {
+    "k3_carrier": "MASSLESS_AXIAL_1PLUS_FROM_PAIR_ANTISYMMETRIC_RANK3",
+    "a4_stueckelberg_witness": "W_mu=V_mu-partial_mu pi/m",
+    "marzo2026_carrier": "GAUGE_INVARIANT_MASSIVE_VECTOR_MIXED_WITH_GRAVITON",
+    "k3_equals_a4_stueckelberg_W_in_same_action": false,
+    "k3_equals_marzo2026_vector_in_same_action": false,
+    "field_redefinition_or_duality_identification_derived": false,
+    "gauge_invariant_hook17_metric_in_k3_same_action": false,
+    "direct_vector_graviton_identification_pass": false
+  },
+  "protected_rescue_rerank": [
+    {
+      "priority": 1,
+      "family": "BMS_J11_LESS_CONSTRAINING_AXIAL_VECTOR",
+      "status": "OPEN_EXACT_SOURCE_WARD_REQUIRED"
+    },
+    {
+      "priority": 2,
+      "family": "COMPENSATED_OR_IMPROVED_V24_CURRENT_IN_K3_LIKE_1PLUS",
+      "status": "OPEN_LOCAL_SAME_ACTION_CONSTRUCTION_REQUIRED"
+    },
+    {
+      "priority": 3,
+      "family": "MARZO2022_ABELIAN_NONMETRICITY_STUECKELBERG",
+      "status": "OPEN_V24_SOURCE_MATCH_REQUIRED"
+    },
+    {
+      "priority": 4,
+      "family": "BARKER_ZELL_ALT_DOUBLE_VECTOR",
+      "status": "OPEN_DIRAC_SOURCE_MATCH_REQUIRED"
+    },
+    {
+      "priority": 5,
+      "family": "MARZO2026_NONLINEAR_VECTOR_GRAVITON",
+      "status": "OPEN_SOURCE_IDENTIFICATION_REQUIRED"
+    }
+  ],
+  "summary": {
+    "decision": "RED_SCOPED_H17A5_K3_DIRECT_PROTECTED_1PLUS_V24_SOURCE_WARD_FAIL__REPRESENTATION_OVERLAP_SURVIVES_BUT_DIRECT_K3_SAME_ACTION_CLOSED",
+    "next": "JOURNAL_H17A2_TO_A5__THEN_032H17A6_J11_AND_COMPENSATED_SOURCE_WARD_GATE",
+    "k3_direct_v24_source_closed": true,
+    "k3_representation_spin1_overlap_preserved": true,
+    "k3_source_ward_compatible": false,
+    "k3_lightlike_ward_witness_norm": 16.0,
+    "clean_scalar_envelope_k3_closed": true,
+    "q_dependent_source_engineering_open": true,
+    "compensated_current_open": true,
+    "j11_open": true,
+    "k3_vector_graviton_same_action_identification": false,
+    "hook17_all_protected_1plus_closed": false,
+    "same_action_provenance_complete": false,
+    "full_noether_completion": false,
+    "journal_now": true,
+    "h17b_authorized": false,
+    "energy_optimization_authorized": false,
+    "sub100j_efficiency_tuning_authorized": false,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "hook17_complete_energy_j": null,
+    "strict_complete_operating_target_j": 10000000.0,
+    "physical_antigravity_model_found": false,
+    "certified_sub10mj_model_found": false,
+    "practical_device_found": false,
+    "v26d_fallback_status": "PRESERVED_PAUSED_V26E_NOT_ACTIVATED"
+  }
+}

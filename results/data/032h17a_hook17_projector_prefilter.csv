@@ -1,0 +1,6 @@
+mode,published_support,healthy_single_state_family_known,v24_o3_irrep_support_nonzero,canonical_residue_done,status
+HOOK_2_PLUS,LTT,True,True,False,NONZERO_O3_IRREP_SUPPORT__EXACT_RESIDUE_REQUIRED
+HOOK_2_MINUS,TTT,True,False,True,ZERO_BY_REST_FRAME_O3_SUPPORT
+HOOK_1_PLUS,TTL+TLT-0.5LTT,True,True,False,NONZERO_O3_IRREP_SUPPORT__EXACT_RESIDUE_REQUIRED
+HOOK_1_MINUS,TTT,True,False,True,ZERO_BY_REST_FRAME_O3_SUPPORT
+HOOK_0_PLUS,LTT,True,False,True,ZERO_BY_TRACE_FREE_CLEAN_SOURCE
