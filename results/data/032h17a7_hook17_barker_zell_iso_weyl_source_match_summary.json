@@ -1,0 +1,194 @@
+{
+  "barker_zell_iso_weyl_family": {
+    "claim_scope": "PUBLISHED_IW_VECTOR_ACTION_PROVENANCE_ONLY",
+    "distinct_from_extended_projective_branch": true,
+    "double_vector_symmetry": true,
+    "family": "BARKER_ZELL_2024_ISO_WEYL_DOUBLE_VECTOR",
+    "finite_b2_vacuum_elimination": "T_HAT=-b3*Q/(2*b2)",
+    "homothetic_curvature": "R_HAT_MN=PARTIAL_[M Q_N]",
+    "iw_inert_vectors": [
+      "Q_MU",
+      "T_HAT_MU"
+    ],
+    "maxwell_surface": "4*b1*b2=b3^2",
+    "propagating_vector": "Q_MU",
+    "pure_tensor_parts_propagate_in_iw_vector_block": false,
+    "q_kinetic_operator": "HOMOTHETIC_CURVATURE_SQUARED",
+    "reduced_vector_theory": "EINSTEIN_PROCA_OR_MAXWELL",
+    "reference": "W. Barker and S. Zell, arXiv:2402.14917",
+    "same_action_hook17_complete": false,
+    "symmetry_name": "ISO_WEYL",
+    "symmetry_protected_vector_family_published": true,
+    "t_hat_is_nondynamical": true,
+    "v24_wheeler_matter_source_derived_in_same_iw_action": false,
+    "v26b1_hook_metric_numerator_derived_in_same_iw_action": false,
+    "vector_mass_mixing": "M_P^2*(b1*Q^2+b2*T_HAT^2+b3*T_HAT.Q)"
+  },
+  "clean_v24_pair_axial_torsion": {
+    "axial_torsion_channel_zero_by_linearity": true,
+    "axial_torsion_is_linear_irreducible_contraction": true,
+    "clean_pair_torsion_cancellation_is_source_state_specific": true,
+    "full_pair_torsion_response_zero": true,
+    "generic_dirac_axial_torsion_forced_zero": false,
+    "identified_iw_t_hat_channel_zero": true,
+    "particle_antiparticle_torsion_opposite_sign": true
+  },
+  "clean_v24_pair_weyl_trace": {
+    "electron_weyl_trace": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "electron_weyl_trace_norm": 0.0,
+    "electron_weyl_trace_zero": true,
+    "identified_iw_q_vector_channel_zero": true,
+    "pair_nonmetricity_adds": true,
+    "pair_nonmetricity_component_norm": 11.313708498984761,
+    "pair_nonmetricity_tensor_nonzero": true,
+    "pair_weyl_trace": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pair_weyl_trace_norm": 0.0,
+    "pair_weyl_trace_zero": true,
+    "positron_weyl_trace": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positron_weyl_trace_norm": 0.0,
+    "positron_weyl_trace_zero": true,
+    "trace_norm_is_physical_energy": false
+  },
+  "iw_clean_source_match": {
+    "claim_scope": "DIRECT CLEAN EQUAL-REST V24 SOURCE INTO IDENTIFIED BARKER-ZELL IW Q_MU/T_HAT_MU VECTOR CHANNELS",
+    "clean_pair_effective_q_source_after_t_hat_elimination_zero": true,
+    "clean_pair_q_channel_zero": true,
+    "clean_pair_t_hat_channel_zero": true,
+    "direct_clean_v24_barker_zell_iw_vector_route_closed": true,
+    "full_barker_zell_iw_family_closed": false,
+    "generic_dirac_iw_source_closed": false,
+    "iw_is_distinct_open_branch_at_start": true,
+    "iw_propagating_vector": "Q_MU",
+    "prior_ep_pseudoscalar_already_closed": true,
+    "prior_ep_pseudoscalar_repeated": false,
+    "same_action_v24_dirac_iw_completion_closed": false,
+    "source_state_engineering_closed": false,
+    "static_offshell_iw_response_closed": false,
+    "universal_hook17_metric_response_derived": false
+  },
+  "iw_nondynamical_mixing_theorem": {
+    "algebraic_mixing_coefficients_scanned": false,
+    "direct_clean_v24_iw_native_vector_block_source_zero": true,
+    "effective_q_source_zero_for_all_finite_b3_over_b2": true,
+    "energy_optimization_performed": false,
+    "finite_b2_effective_source_formula": "J_Q_EFF=J_Q-(b3/(2*b2))*J_T_HAT",
+    "identified_j_q_zero": true,
+    "identified_j_t_hat_zero": true,
+    "mixing_can_create_nonzero_source_from_zero_zero": false,
+    "nondynamical_iw_vector": "T_HAT_MU",
+    "propagating_iw_vector": "Q_MU",
+    "singular_b2_zero_used_as_gain": false
+  },
+  "prior_barker_zell_ep": {
+    "all_ep_or_iw_models_closed_by_v24b": false,
+    "ep_direct_universal_metric_portal_identified": false,
+    "ep_pseudoscalar_direct_bridge_already_closed": true,
+    "iw_was_preserved_by_v24b": true,
+    "prior_theory": "BARKER_ZELL_2024_EXTENDED_PROJECTIVE_PSEUDOSCALAR",
+    "repeat_ep_pseudoscalar_authorized": false
+  },
+  "summary": {
+    "a6r2_provenance_pass": true,
+    "barker_zell_iw_published_vector_family_exists": true,
+    "branch": "032H17A7",
+    "capacity_recalculation_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "claim_scope": "DIRECT CLEAN EQUAL-REST V24 SOURCE INTO THE IDENTIFIED BARKER-ZELL ISO-WEYL Q_MU/T_HAT_MU VECTOR BLOCK ONLY",
+    "clean_pair_iw_effective_q_source_zero": true,
+    "clean_pair_iw_q_channel_zero": true,
+    "clean_pair_iw_t_hat_channel_zero": true,
+    "decision": "RED_SCOPED_A7_DIRECT_CLEAN_V24_IDENTIFIED_Q_AND_T_HAT_CHANNELS_ZERO_FOR_BARKER_ZELL_IW__FULL_SAME_ACTION_IW_AND_NATIVE_1PLUS_2PLUS_REMAIN_OPEN",
+    "direct_clean_v24_barker_zell_iw_vector_route_closed": true,
+    "energy_optimization_authorized": false,
+    "full_barker_zell_iw_family_closed": false,
+    "full_noether_complete_matter_compensator_closed": false,
+    "generic_dirac_iw_route_closed": false,
+    "generic_dirac_source_state_engineering_open": true,
+    "h17b_authorized": false,
+    "hook17_closed": false,
+    "hook17_complete_energy_j": null,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "iw_distinct_branch_preserved_by_v24b": true,
+    "iw_propagating_vector": "Q_MU",
+    "iw_reduced_vector_theory": "EINSTEIN_PROCA_OR_MAXWELL",
+    "marzo2026_nonlinear_vector_graviton_closed": false,
+    "massive_spin3_nonmetricity_closed": false,
+    "next": "032H17A8_NATIVE_PROTECTED_2PLUS_ACTION_SOURCE_WARD_ATLAS",
+    "next_scientific_question": "Which symmetry-protected MAG action with a genuine healthy 2+ carrier has a nonzero exact V24 source projector, a compatible source Ward identity, and a nonremovable path to one universal physical metric?",
+    "other_protected_1plus_closed": false,
+    "physical_antigravity_model_found": false,
+    "practical_device_found": false,
+    "prior_ep_not_repeated": true,
+    "prior_ep_pseudoscalar_already_closed": true,
+    "productive_clean_v24_1plus_norm2": 32.0,
+    "productive_clean_v24_1plus_survives": true,
+    "productive_clean_v24_2plus_norm2": 14.222222222222221,
+    "productive_clean_v24_2plus_survives": true,
+    "protected_2plus_closed": false,
+    "rerank": [
+      {
+        "family": "NATIVE_PROTECTED_MAG_2PLUS",
+        "priority": 1,
+        "reason": "CLEAN V24 HAS EXACT NONZERO 2+ SUPPORT AND THE PROTECTED 2+ ACTION/WARD INTERSECTION HAS NOT BEEN GLOBALLY CLOSED",
+        "status": "OPEN_HIGHEST_PRIORITY"
+      },
+      {
+        "family": "OTHER_NATIVE_PROTECTED_MAG_1PLUS",
+        "priority": 2,
+        "reason": "CLEAN V24 1+ SUPPORT IS NONZERO; K3/J11 DIRECT WARD FAILURES DO NOT CLOSE ALL PROTECTED 1+ ACTIONS",
+        "status": "OPEN_EXCLUDING_CLOSED_K3_J11_DIRECT_ROUTES"
+      },
+      {
+        "family": "FULL_NOETHER_COMPLETE_MATTER_PLUS_COMPENSATOR",
+        "priority": 3,
+        "reason": "R1 CLOSED THE SIMPLE MASSLESS COMPENSATOR CLASS, NOT ADDITIONAL SAME-ACTION MATTER CURRENTS",
+        "status": "OPEN_EXPLICIT_ACTION_REQUIRED"
+      },
+      {
+        "family": "MARZO2026_GENUINELY_NONLINEAR_VECTOR_GRAVITON",
+        "priority": 4,
+        "reason": "THE TESTED LINEAR VECTOR-METRIC BRIDGE IS CLOSED; ONLY A GENUINELY NONLINEAR COMPLETION MAY DIFFER",
+        "status": "OPEN_NONLINEAR_ONLY"
+      },
+      {
+        "family": "DIRAC_SOURCE_STATE_ENGINEERING",
+        "priority": 5,
+        "reason": "GENERIC DIRAC AXIAL/TENSOR STATES ARE NOT CLOSED, BUT SHOULD NOT BE OPTIMIZED BEFORE AN ACTION NEEDS THEM",
+        "status": "OPEN_AFTER_NATIVE_ACTION_MATCH"
+      },
+      {
+        "family": "MASSIVE_SPIN3_OR_NONMETRICITY",
+        "priority": 6,
+        "reason": "REQUIRES EXACT HEALTHY SOURCE PROJECTOR AND STATIC OFFSHELL RESPONSE BEFORE ENERGY WORK",
+        "status": "OPEN_LOWER_PRIORITY"
+      },
+      {
+        "family": "V26D_PROTECTED_CT1_DHOST_KMM",
+        "priority": 7,
+        "reason": "RESUME IF HOOK17 SAME-ACTION MAG RESCUE FAMILIES FAIL THEIR PHYSICAL GATES",
+        "status": "PRESERVED_INDEPENDENT_FALLBACK"
+      }
+    ],
+    "same_action_v24_dirac_iw_completion_closed": false,
+    "strict_complete_operating_target_j": 10000000.0,
+    "sub100j_capacity_tuning_authorized": false,
+    "subgate": "BARKER_ZELL_ISO_WEYL_VECTOR_SOURCE_MATCH",
+    "v26d_fallback_status": "PRESERVED",
+    "v26e_status": "PAUSED_NOT_CLOSED"
+  }
+}

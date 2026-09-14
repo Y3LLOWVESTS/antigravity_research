@@ -1,0 +1,5 @@
+pair_id,historical_clean_pair,full_wheeler_source_component_norm,full_wheeler_source_zero,full_weyl_dilation_trace_norm,full_weyl_dilation_trace_zero,totally_symmetric_source_component_norm,hook_source_component_norm,totally_symmetric_lorentz_trace_covector,totally_symmetric_lorentz_trace_norm,totally_symmetric_trace_nonzero,maximum_direct_trace_carrier_overlap,direct_trace_carrier_overlap_nonzero,so3_combined_spin1_screen_norm,so3_spin2_zero_ij_stf_norm,so3_spin3_spatial_stf_norm
+U1_V1,False,8.0,False,0.0,True,5.656854249492381,5.656854249492381,"[0.0, -2.6666666666666665, 0.0, 0.0]",2.6666666666666665,True,8.0,True,2.6666666666666665,1.8856180831641267,4.131182235954578
+U1_V2,True,11.313708498984761,False,0.0,True,6.531972647421808,9.237604307034013,"[0.0, 0.0, 0.0, 0.0]",0.0,False,0.0,False,0.0,3.7712361663282534,0.0
+U2_V1,False,0.0,True,0.0,True,0.0,0.0,"[0.0, 0.0, 0.0, 0.0]",0.0,False,0.0,False,0.0,0.0,0.0
+U2_V2,False,8.0,False,0.0,True,5.656854249492381,5.656854249492381,"[0.0, 2.6666666666666665, 0.0, 0.0]",2.6666666666666665,True,8.0,True,2.6666666666666665,1.8856180831641267,4.131182235954578

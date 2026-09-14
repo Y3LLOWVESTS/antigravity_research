@@ -1,0 +1,80 @@
+{
+  "a6_provenance_pass": true,
+  "branch": "032H17A6R1",
+  "certified_sub10mj_model_found": false,
+  "decision": "RED_SCOPED_A6R1_EXACT_MASSLESS_SINGLE_COMPENSATOR_CLASS_RETURNS_TO_SAME_WARD_IDENTITY__HIGGSED_OR_FULL_NOETHER_COMPLETION_REMAINS_OPEN",
+  "declared_exact_massless_single_compensator_class_closed": true,
+  "energy_optimization_authorized": false,
+  "escape_atlas": [
+    {
+      "adds_physical_longitudinal_mode": false,
+      "changes_ward_surface": false,
+      "family": "PURE_EXACT_STUECKELBERG_GAUGE_IMAGE",
+      "next_action": "NONE_IN_THIS_SUBCLASS",
+      "same_action_requirement": "DECLARED_EXACT_MASSLESS_PROTECTED_ACTION",
+      "status": "RED_SCOPED"
+    },
+    {
+      "adds_physical_longitudinal_mode": false,
+      "changes_ward_surface": false,
+      "family": "HEALTHY_MASSLESS_TWOFORM_COMPENSATOR",
+      "next_action": "NONE_IN_THIS_SUBCLASS",
+      "same_action_requirement": "ORDINARY_H_EQUALS_DB_GAUGE_ACTION",
+      "status": "RED_SCOPED"
+    },
+    {
+      "adds_physical_longitudinal_mode": "MODEL_DEPENDENT",
+      "changes_ward_surface": "POSSIBLY_TOTAL_CURRENT_ONLY",
+      "family": "FULL_NOETHER_COMPLETE_MATTER_PLUS_COMPENSATOR",
+      "next_action": "DERIVE_TOTAL_NOETHER_CURRENT",
+      "same_action_requirement": "ALL MATTER AND COMPENSATOR CURRENTS MUST COME FROM ONE VARIATIONAL ACTION",
+      "status": "OPEN"
+    },
+    {
+      "adds_physical_longitudinal_mode": true,
+      "changes_ward_surface": true,
+      "family": "HIGGSED_OR_MASSIVE_HOOK_COMPLETION",
+      "next_action": "MASSIVE_PRINCIPAL_SYMBOL_AND_SOURCE_PROJECTOR",
+      "same_action_requirement": "EXPLICIT MASS/HIGGS/STUECKELBERG ACTION WITH FULL SPECTRAL HEALTH",
+      "status": "OPEN"
+    },
+    {
+      "adds_physical_longitudinal_mode": "PUBLISHED_MASS_EXTENSION_EXISTS",
+      "changes_ward_surface": "MUST_BE_DERIVED_FOR_V24_SOURCE",
+      "family": "MARZO_PROTECTED_ABELIAN_MAG_STUECKELBERG",
+      "next_action": "EXACT_V24_SOURCE_MATCH_GATE",
+      "same_action_requirement": "MUST_SOURCE_MATCH_V24_INSIDE_THE_PUBLISHED_ACTION",
+      "status": "OPEN_INDEPENDENT_FAMILY"
+    },
+    {
+      "adds_physical_longitudinal_mode": "ACTION_DEPENDENT",
+      "changes_ward_surface": "ACTION_DEPENDENT",
+      "family": "OTHER_PROTECTED_1PLUS_OR_2PLUS",
+      "next_action": "SOURCE_PROJECTOR_BEFORE_ANY_PDE",
+      "same_action_requirement": "MANDATORY",
+      "status": "OPEN"
+    }
+  ],
+  "full_noether_complete_matter_compensator_closed": false,
+  "h17b_authorized": false,
+  "healthy_massless_twoform_compensator_closed": true,
+  "higgsed_or_massive_hook_closed": false,
+  "hook17_closed": false,
+  "hook17_complete_energy_j": null,
+  "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+  "marzo_protected_stueckelberg_family_closed": false,
+  "next": "032H17A6R2_HIGGSED_HOOK_OR_FULL_NOETHER_COMPLETION_PREFLIGHT",
+  "other_protected_1plus_closed": false,
+  "physical_antigravity_model_found": false,
+  "practical_device_found": false,
+  "productive_1plus_representation_survives": true,
+  "protected_2plus_closed": false,
+  "pure_exact_massless_stueckelberg_closed": true,
+  "source_state_engineering_closed": false,
+  "stop_rule_after_next": "IF NO EXPLICIT HEALTHY HIGGSED/NOETHER COMPLETION SURVIVES, MOVE TO MARZO PROTECTED SOURCE-MATCH GATE RATHER THAN INVENTING MORE FORMAL COMPENSATORS",
+  "strict_complete_operating_target_j": 10000000.0,
+  "sub100j_capacity_tuning_authorized": false,
+  "subgate": "DYNAMICAL_COMPENSATOR_NOETHER_WARD_THEOREM",
+  "v26d_fallback_status": "PRESERVED",
+  "v26e_status": "PAUSED_NOT_CLOSED"
+}

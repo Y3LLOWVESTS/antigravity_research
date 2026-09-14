@@ -1,0 +1,5 @@
+witness,q_cov,ward_norm,twoform_conservation_norm,ward_reconstruction_pass,twoform_noether_identity_pass,massless_twoform_source_compatible
+LIGHTLIKE_Z,"[1.0, 0.0, 0.0, 1.0]",16.0,16.0,True,True,False
+LIGHTLIKE_Y,"[1.0, 0.0, 1.0, 0.0]",8.0,8.0,True,True,False
+LIGHTLIKE_X,"[1.0, 1.0, 0.0, 0.0]",0.0,0.0,True,True,True
+STATIC_DIAGONAL,"[0.0, 1.0, 1.0, 1.0]",8.0,8.0,True,True,False

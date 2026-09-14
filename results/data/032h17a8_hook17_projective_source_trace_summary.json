@@ -1,0 +1,25 @@
+{
+  "both_projective_source_trace_constraints_pass": true,
+  "component_norm_is_physical_energy": false,
+  "exact_projective_1plus_pole_projector_evaluated": false,
+  "projective_1plus_source_nonzero_established": false,
+  "projective_constraint_tau_mu_nu_nu_pass": true,
+  "projective_constraint_tau_nu_nu_mu_pass": true,
+  "same_action_matter_completion_established": false,
+  "source_component_norm": 11.313708498984761,
+  "source_nonzero": true,
+  "trace_first_second": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "trace_first_second_norm": 0.0,
+  "trace_second_third": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "trace_second_third_norm": 0.0
+}

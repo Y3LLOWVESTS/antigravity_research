@@ -1,0 +1,271 @@
+{
+  "case_i_protection": {
+    "actual_case_i_beta_functions_computed": false,
+    "additional_nonaccidental_symmetry_enforcing_case_i_established": false,
+    "case_i_constraint_c_plus_16b_over_25": 0.0,
+    "case_i_constraint_h11_plus_10h7_over_3": 0.0,
+    "case_i_constraint_jacobian_rank": 2,
+    "case_i_coordinates": [
+      "B",
+      "C",
+      "h7",
+      "h11"
+    ],
+    "case_i_health_surface_codimension_in_declared_coordinates": 2,
+    "case_i_mode_removal_established_as_new_gauge_null_direction": false,
+    "case_i_radiative_stability_established": false,
+    "case_i_reduced_unwanted_blocks_remain_nondegenerate": true,
+    "case_i_relations_exact": true,
+    "case_i_removes_unwanted_momentum_dependence": true,
+    "generic_beta_normal_component": [
+      -0.07160000000000002,
+      1.0433333333333334
+    ],
+    "generic_beta_normal_component_norm": 1.0457872653864384,
+    "generic_beta_witness": [
+      0.31,
+      -0.27,
+      0.19,
+      0.41
+    ],
+    "generic_beta_witness_is_actual_beta_function": false,
+    "generic_rg_flow_automatically_tangent": false,
+    "global_no_go_for_any_protected_case_i_completion": false,
+    "naturalness_status": "BLOCKED_PROTECTION_NOT_ESTABLISHED",
+    "one_minus_case_i_constant_determinant_term": -3.84,
+    "one_minus_case_i_q2_determinant_factor": 0.0,
+    "projective_symmetry_alone_enforces_case_i_relations": false,
+    "projective_symmetry_exists_before_case_i_relations": true,
+    "technical_naturalness_gate_pass": false,
+    "two_minus_case_i_constant_operator": 0.5,
+    "two_minus_case_i_q2_coefficient": 0.0
+  },
+  "clean_same_action_diffeomorphism_ward": {
+    "all_clean_same_action_linearized_diffeo_witnesses_pass": true,
+    "full_nonlinear_matter_noether_identity_established": false,
+    "maximum_clean_same_action_diffeo_residual": 0.0,
+    "rows": [
+      {
+        "connection_term": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full_residual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "metric_term": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "name": "MASSIVE_1PLUS_REST",
+        "pass": true,
+        "q": [
+          0.4242640687119285,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "residual_norm": 0.0
+      },
+      {
+        "connection_term": [
+          0.0,
+          0.0,
+          0.0,
+          8.0
+        ],
+        "full_residual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "metric_term": [
+          0.0,
+          0.0,
+          0.0,
+          -8.0
+        ],
+        "name": "GENERIC_MIXED",
+        "pass": true,
+        "q": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "residual_norm": 0.0
+      },
+      {
+        "connection_term": [
+          2.8800000000000003,
+          0.0,
+          0.0,
+          2.2399999999999998
+        ],
+        "full_residual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "metric_term": [
+          -2.8800000000000003,
+          0.0,
+          0.0,
+          -2.2399999999999998
+        ],
+        "name": "FULL_DIRECTION",
+        "pass": true,
+        "q": [
+          0.7,
+          -0.2,
+          0.4,
+          0.9
+        ],
+        "residual_norm": 0.0
+      },
+      {
+        "connection_term": [
+          8.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full_residual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "metric_term": [
+          -8.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "name": "SPATIAL_DIAGONAL",
+        "pass": true,
+        "q": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "residual_norm": 0.0
+      }
+    ],
+    "witness_count": 4
+  },
+  "clean_source": {
+    "a9_numerator_preserved": true,
+    "clean_source_norm": 8.0,
+    "clean_source_unchanged": true,
+    "covariant_projected_minus_clean_norm": 0.0,
+    "exact_1plus_pole_numerator": 1.4399999999999995,
+    "exact_1plus_pole_numerator_nonzero": true
+  },
+  "covariant_projector_geometry": {
+    "covariant_gauge_image_annihilated": true,
+    "covariant_idempotent": true,
+    "covariant_self_adjoint": true,
+    "covariant_tf_symmetry_preserved": true,
+    "covariant_trace_zero": true,
+    "gauge_trace_reconstruction_error": 8.881784197001252e-16,
+    "lorentzian_metric": true,
+    "metric_signature_negative_positive": [
+      1,
+      3
+    ],
+    "projector_covariant_formula": "P_g[X]=X-G_g(tr_g[X])/(d+1)",
+    "projector_gauge_annihilation_error": 7.749769132658127e-16,
+    "projector_idempotence_error": 9.941653172224395e-16,
+    "projector_is_local_algebraic": true,
+    "projector_output_trace_norm": 1.3777505409863063e-15,
+    "projector_self_adjoint_error": 8.881784197001252e-16,
+    "projector_tf_symmetry_error": 0.0
+  },
+  "flat_regression": {
+    "flat_covariant_projector_matches_a9r2": true,
+    "flat_reduction_error": 0.0
+  },
+  "gl4_equivariance": {
+    "basis_change_determinant": 1.00025,
+    "basis_change_invertible": true,
+    "gl4_equivariance_error": 1.0903754786254935e-15,
+    "gl4_equivariance_pass": true
+  },
+  "same_action_clean_metric_stress": {
+    "a9r1_unique_s032": 4.000000000000001,
+    "a9r1_unique_s302": 4.000000000000001,
+    "action_derived_s032": 4.0,
+    "action_derived_s302": 4.0,
+    "action_vs_a9r1_sigma_difference_norm": 8.426787044027352e-15,
+    "action_vs_a9r1_sigma_maximum_difference": 6.160986591069908e-15,
+    "background_distortion_zero": true,
+    "clean_projective_source_unchanged": true,
+    "declared_interaction": "S_INT=INTEGRAL SQRT(-g) H_W^{cab} P_g[A-GAMMA_LC[g]]_cab",
+    "full_curved_world_spinor_metric_stress_derived": false,
+    "full_nonlinear_metric_variation_derived": false,
+    "linear_metric_variation_survives_from_minus_tau_delta_gamma_lc": true,
+    "maximum_other_action_derived_coefficient": 0.0,
+    "same_action_linearized_clean_metric_stress_matches_a9r1": true
+  },
+  "summary": {
+    "a9r2_provenance_pass": true,
+    "additional_case_i_protecting_symmetry_established": false,
+    "branch": "032H17A9R3",
+    "capacity_recalculation_authorized": false,
+    "case_i_actual_beta_functions_computed": false,
+    "case_i_health_surface_codimension": 2,
+    "case_i_mode_removal_is_new_gauge_null": false,
+    "case_i_radiative_stability_established": false,
+    "case_i_technical_naturalness_gate_pass": false,
+    "certified_sub10mj_model_found": false,
+    "claim_scope": "COVARIANT PROJECTIVE GEOMETRIC LIFT AND CLEAN LINEARIZED SAME-ACTION METRIC SOURCE; CURRENT P&S CASE-I HEALTH SURFACE BLOCKED ON UNESTABLISHED TECHNICAL NATURALNESS",
+    "clean_a9_exact_1plus_pole_numerator": 1.4399999999999995,
+    "clean_a9_exact_1plus_pole_preserved": true,
+    "clean_a9_source_survives_covariant_projector": true,
+    "covariant_geometric_projector_established": true,
+    "current_ps_case_i_branch_status": "BLOCKED_TECHNICAL_NATURALNESS",
+    "current_ps_case_i_candidate_promotion_authorized": false,
+    "decision": "YELLOW_BLOCKED_A9R3_COVARIANT_PROJECTOR_AND_SAME_ACTION_CLEAN_LINEARIZED_METRIC_STRESS_PASS__PERCACCI_SEZGIN_CASE_I_TECHNICAL_NATURALNESS_PROTECTION_NOT_ESTABLISHED",
+    "energy_optimization_authorized": false,
+    "finite_payload_antigravity_established": false,
+    "full_curved_world_spinor_metric_stress_derived": false,
+    "full_global_world_spinor_covariance_established": false,
+    "full_nonlinear_matter_noether_identity_established": false,
+    "geometric_and_clean_linearized_noether_partial_green": true,
+    "h17b_authorized": false,
+    "hook17_closed": false,
+    "hook17_complete_energy_j": null,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "next": "032V26D_RESUME_PROTECTED_CT1_DHOST_KMM",
+    "physical_antigravity_model_found": false,
+    "practical_device_found": false,
+    "preserve_for_future": "A9-A9R3 PROJECTIVE 1PLUS SOURCE/PROJECTOR/MATTER GEOMETRIC RESULTS REMAIN DURABLE PARTIAL RESULTS",
+    "projective_symmetry_alone_enforces_case_i_health_relations": false,
+    "projector_flat_limit_matches_a9r2": true,
+    "projector_gl4_equivariance_pass": true,
+    "same_action_clean_linearized_diffeomorphism_ward_pass": true,
+    "same_action_hook17_complete": false,
+    "same_action_linearized_clean_metric_stress_derived": true,
+    "same_action_linearized_s032": 4.0,
+    "same_action_linearized_sigma_matches_unique_a9r1_solution": true,
+    "strict_complete_operating_target_j": 10000000.0,
+    "subgate": "COVARIANT_PROJECTIVE_DISTORTION_SAME_ACTION_METRIC_STRESS_CASE_I_PROTECTION",
+    "universal_physical_metric_established": false,
+    "unknown_protected_case_i_completion_globally_closed": false,
+    "v26b1_metric_numerator_same_action_derived": false,
+    "v26d_fallback_status": "RESUME_AUTHORIZED_IF_A9R3_BLOCKED",
+    "v26d_resume_authorized": true,
+    "v26e_status": "PAUSED_NOT_CLOSED"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "branch": "032H17A10F0",
+  "canonical_source_overlap_planck_suppressed": false,
+  "capacity_10mj_loading_threshold": {
+    "capacity_10mj_crossing_lambda_ev_m2": 2.7763601251322884e-33,
+    "capacity_10mj_crossing_mR": 0.1070857283282871,
+    "capacity_at_crossing_j": 9999999.999999994,
+    "vacuum_mR": 0.1
+  },
+  "certified_sub10mj_model_found": false,
+  "complete_energy_established": false,
+  "current_full_regression_before_a10f0": 960,
+  "decision": "GREEN_A10F0_PHYSICAL_NORMALIZATION_PAYLOAD_LOADING_AND_PARTIAL_CAPACITY_CORRIDOR_OPEN",
+  "empirical_portal_limit_is_finite_payload_safe": false,
+  "empirical_quadratic_metric_gate": {
+    "active_background_coefficient_abs": 2.0,
+    "active_coupling_max_ev_m2": 5.648980918637379e-25,
+    "lambda_empirical_max_ev_m2": 2.8244904593186896e-25,
+    "projector_penalty": 3.0,
+    "quadratic_metric_matrix": "M=-2*I_3",
+    "range_one_m_effectively_massless_at_one_mm": true,
+    "trace_M_squared": 12.0
+  },
+  "exact_finite_payload_transmission_established": false,
+  "exact_finite_vector_source_bvp_established": false,
+  "exactly_10mj_passes": false,
+  "finite_payload_established": false,
+  "finite_source_established": false,
+  "full_quantum_rg_uv_certified": false,
+  "hook17_closed": false,
+  "huge_c7_required_for_one_metre_range": false,
+  "load_controlled_partial_capacity_corridor_open": true,
+  "loading_capacity_scan": [
+    {
+      "capacity_below_strict_10mj": false,
+      "empirical_lambda_over_selected_lambda": 145638137.17198023,
+      "lambda_ev_m2": 1.9393893070626984e-33,
+      "payload_canonical_amplitude_ev": 167722813.3802304,
+      "scalar_yukawa_capacity_energy_j": 14315641.088777699,
+      "source_surface_canonical_amplitude_ev": 683876813.7442617,
+      "target_inside_mR": 0.105
+    },
+    {
+      "capacity_below_strict_10mj": true,
+      "empirical_lambda_over_selected_lambda": 71085281.23870441,
+      "lambda_ev_m2": 3.9733829705674924e-33,
+      "payload_canonical_amplitude_ev": 117177552.86699384,
+      "scalar_yukawa_capacity_energy_j": 6987396.245712902,
+      "source_surface_canonical_amplitude_ev": 477782418.99247265,
+      "target_inside_mR": 0.11
+    },
+    {
+      "capacity_below_strict_10mj": true,
+      "empirical_lambda_over_selected_lambda": 11942327.248102339,
+      "lambda_ev_m2": 2.365108911052079e-32,
+      "payload_canonical_amplitude_ev": 48028504.60414856,
+      "scalar_yukawa_capacity_energy_j": 1173882.5692797678,
+      "source_surface_canonical_amplitude_ev": 195832516.9702779,
+      "target_inside_mR": 0.15
+    },
+    {
+      "capacity_below_strict_10mj": true,
+      "empirical_lambda_over_selected_lambda": 4975969.686709308,
+      "lambda_ev_m2": 5.67626138652499e-32,
+      "payload_canonical_amplitude_ev": 31002266.41251893,
+      "scalar_yukawa_capacity_energy_j": 489117.73719990306,
+      "source_surface_canonical_amplitude_ev": 126409346.14529459,
+      "target_inside_mR": 0.2
+    },
+    {
+      "capacity_below_strict_10mj": true,
+      "empirical_lambda_over_selected_lambda": 2843411.2495481754,
+      "lambda_ev_m2": 9.933457426418735e-32,
+      "payload_canonical_amplitude_ev": 23435510.573398765,
+      "scalar_yukawa_capacity_energy_j": 279495.8498285161,
+      "source_surface_canonical_amplitude_ev": 95556483.79849452,
+      "target_inside_mR": 0.25
+    },
+    {
+      "capacity_below_strict_10mj": true,
+      "empirical_lambda_over_selected_lambda": 621996.2108386635,
+      "lambda_ev_m2": 4.541009109219992e-31,
+      "payload_canonical_amplitude_ev": 10960956.406222038,
+      "scalar_yukawa_capacity_energy_j": 61139.71714998788,
+      "source_surface_canonical_amplitude_ev": 44692452.932347685,
+      "target_inside_mR": 0.5
+    },
+    {
+      "capacity_below_strict_10mj": true,
+      "empirical_lambda_over_selected_lambda": 150786.96020331234,
+      "lambda_ev_m2": 1.873166257553247e-30,
+      "payload_canonical_amplitude_ev": 5396801.866405357,
+      "scalar_yukawa_capacity_energy_j": 14821.749612118272,
+      "source_surface_canonical_amplitude_ev": 22005042.66786531,
+      "target_inside_mR": 1.0
+    }
+  ],
+  "next": "032H17A10F1_EXACT_FINITE_TRANSVERSE_VECTOR_SOURCE_FINITE_PAYLOAD_BVP_SOURCE_ENERGY_EMPIRICAL_UV_AND_COMPLETE_LEDGER_KILL_GATE",
+  "partial_green": true,
+  "payload_loading_at_empirical_portal_limit": {
+    "inside_mR": 386.3665365961178,
+    "inside_mass_ev": 0.0007624054199411801,
+    "lambda_ev_m2": 2.8244904593186896e-25,
+    "matter_added_mass_squared_ev2": 5.8126198541775e-07,
+    "penetration_length_m": 0.00025882158657164825,
+    "vacuum_mR": 0.1,
+    "vacuum_mass_ev": 1.973269804e-07
+  },
+  "payload_loading_is_stronger_than_inverse_cube_empirical_limit": true,
+  "physical_antigravity_model_found": false,
+  "physical_planck_normalized_family": {
+    "a0_ev2": -5.930800351602997e+54,
+    "a4_ev2": 0.0,
+    "a5_ev2": 0.0,
+    "a6_ev2": 0.0,
+    "c7": 1.0,
+    "canonical_source_coupling_magnitude": 3.9999999999999996,
+    "canonical_source_coupling_planck_suppressed": false,
+    "d1_ev": 1.973269804e-07,
+    "d1_over_reduced_planck": 8.102701086516998e-35,
+    "d2_ev": 0.0,
+    "health_A_over_planck_squared": -11.0,
+    "health_B_over_planck_squared": -22.0,
+    "planck_normalization_requires_huge_c7": false,
+    "pole_derivative_norm": 1.5,
+    "published_health_branch_II_pass": true,
+    "range_reproduced": true,
+    "reconstructed_range_m": 1.0,
+    "reduced_planck_energy_ev": 2.435323459338204e+27,
+    "source_saturated_residue": 15.999999999999998,
+    "stueckelberg_f_ev": -1.973269804e-07,
+    "target_range_m": 1.0,
+    "ultralight_mass_quantitative_rg_naturalness_certified": false
+  },
+  "physical_scale_identity": {
+    "independent_of_a0": true,
+    "independent_of_a4": true,
+    "mass_identity_pass": true,
+    "mass_squared_exact": "d1**2/c7",
+    "two_r1_plus_r2_minus_r3": "4*(11*a0 + 20*a4 - 7*d1**2)"
+  },
+  "planck_normalization_kills_one_metre_carrier": false,
+  "reaction_energy_established": false,
+  "selected_capacity_comparator": {
+    "payload_canonical_amplitude_ev": 31002266.41251893,
+    "range_m": 1.0,
+    "scalar_yukawa_capacity_energy_j": 489117.73719990306,
+    "source_radius_m": 2.0,
+    "source_surface_canonical_amplitude_ev": 126409346.14529459,
+    "stand_off_m": 1.0,
+    "this_is_complete_energy": false,
+    "this_is_exact_vector_source_capacity": false
+  },
+  "selected_loading_lambda_ev_m2": 5.67626138652499e-32,
+  "selected_loading_target_mR": 0.2,
+  "selected_partial_capacity_fraction_of_10mj": 0.04891177371999031,
+  "selected_payload_loading": {
+    "inside_mR": 0.2,
+    "inside_mass_ev": 3.946539608e-07,
+    "lambda_ev_m2": 5.67626138652499e-32,
+    "matter_added_mass_squared_ev2": 1.1681381158134594e-13,
+    "penetration_length_m": 0.5,
+    "vacuum_mR": 0.1,
+    "vacuum_mass_ev": 1.973269804e-07
+  },
+  "source_charge_per_joule_established": false,
+  "source_stueckelberg_gradient_control": {
+    "characteristic_q_ev": 9.86634902e-08,
+    "q_over_f": 0.5,
+    "q_over_f_at_most_one": true,
+    "source_radius_m": 2.0,
+    "stueckelberg_f_abs_ev": 1.973269804e-07,
+    "this_is_full_source_eft_control": false
+  },
+  "source_support_energy_established": false,
+  "strict_complete_operating_target_j": 10000000.0,
+  "this_capacity_may_reject_but_never_promote": true,
+  "true_standoff_certified": false,
+  "ultralight_mass_quantitative_naturalness_certified": false
+}

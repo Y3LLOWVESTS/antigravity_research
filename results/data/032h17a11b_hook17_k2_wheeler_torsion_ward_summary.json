@@ -1,0 +1,257 @@
+{
+  "a11a_provenance": true,
+  "all_massless_torsion_vector_families_closed": false,
+  "branch": "032H17A11B",
+  "certified_sub10mj_model_found": false,
+  "current_full_regression_before_a11b": 1006,
+  "decision": "RED_SCOPED_A11B_DIRECT_K2_ZERO_MOMENTUM_REST_DENSITY_WHEELER_TORSION_SOURCE_CLOSED__NONREST_TEXTURED_K2_REMAINS_OPEN",
+  "direct_k2_rest_density_wheeler_route_closed": true,
+  "energy_optimization_authorized": false,
+  "engineered_sample_ward": {
+    "both_engineered_sources_accidentally_pass_lightlike_z": true,
+    "both_engineered_sources_fail_generic_k2_ward": true,
+    "exact_polynomial_ward_test_required": true,
+    "rows": [
+      {
+        "momentum_id": "ACCIDENTAL_LIGHTLIKE_Z",
+        "pair_id": "U1_V1",
+        "source_norm": 1.0,
+        "ward_pass": true,
+        "ward_residual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ward_residual_norm": 0.0
+      },
+      {
+        "momentum_id": "STATIC_Z",
+        "pair_id": "U1_V1",
+        "source_norm": 1.0,
+        "ward_pass": false,
+        "ward_residual": [
+          0.0,
+          0.5,
+          0.0,
+          0.0
+        ],
+        "ward_residual_norm": 0.5
+      },
+      {
+        "momentum_id": "GENERIC",
+        "pair_id": "U1_V1",
+        "source_norm": 1.0,
+        "ward_pass": false,
+        "ward_residual": [
+          0.75,
+          0.6400000000000001,
+          -0.24000000000000005,
+          -0.8700000000000001
+        ],
+        "ward_residual_norm": 1.3366375724181931
+      },
+      {
+        "momentum_id": "ACCIDENTAL_LIGHTLIKE_Z",
+        "pair_id": "U2_V2",
+        "source_norm": 1.0,
+        "ward_pass": true,
+        "ward_residual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ward_residual_norm": 0.0
+      },
+      {
+        "momentum_id": "STATIC_Z",
+        "pair_id": "U2_V2",
+        "source_norm": 1.0,
+        "ward_pass": false,
+        "ward_residual": [
+          0.0,
+          0.5,
+          0.0,
+          0.0
+        ],
+        "ward_residual_norm": 0.5
+      },
+      {
+        "momentum_id": "GENERIC",
+        "pair_id": "U2_V2",
+        "source_norm": 1.0,
+        "ward_pass": false,
+        "ward_residual": [
+          0.08999999999999986,
+          0.6400000000000001,
+          -0.24000000000000005,
+          -0.4500000000000002
+        ],
+        "ward_residual_norm": 0.823286098510111
+      }
+    ],
+    "single_lightlike_direction_is_sufficient_source_test": false
+  },
+  "engineered_torsion_sources": {
+    "U1_V1_nonzero_components": [
+      {
+        "index": [
+          2,
+          0,
+          3
+        ],
+        "value": 0.5
+      },
+      {
+        "index": [
+          2,
+          1,
+          2
+        ],
+        "value": 0.5
+      },
+      {
+        "index": [
+          2,
+          2,
+          1
+        ],
+        "value": -0.5
+      },
+      {
+        "index": [
+          2,
+          3,
+          0
+        ],
+        "value": -0.5
+      }
+    ],
+    "U1_V1_torsion_nonzero": true,
+    "U1_V1_torsion_norm": 1.0,
+    "U2_V2_nonzero_components": [
+      {
+        "index": [
+          2,
+          0,
+          3
+        ],
+        "value": -0.5
+      },
+      {
+        "index": [
+          2,
+          1,
+          2
+        ],
+        "value": 0.5
+      },
+      {
+        "index": [
+          2,
+          2,
+          1
+        ],
+        "value": -0.5
+      },
+      {
+        "index": [
+          2,
+          3,
+          0
+        ],
+        "value": 0.5
+      }
+    ],
+    "U2_V2_torsion_nonzero": true,
+    "U2_V2_torsion_norm": 1.0,
+    "engineered_source_state_reopens_full_wheeler_torsion": true,
+    "historical_clean_U1_V2_torsion_norm": 0.0,
+    "historical_clean_U1_V2_torsion_zero": true
+  },
+  "exact_rest_density_theorem": {
+    "closure_scope": "COMPLETE_16_REAL_DIMENSION_HERMITIAN_ZERO_MOMENTUM_DIRAC_REST_DENSITY_CLASS_WITH_UNMODIFIED_WHEELER_TORSION_SOURCE",
+    "direct_k2_zero_momentum_rest_density_route_closed": true,
+    "k2_exact_polynomial_ward_nullity": 4,
+    "k2_exact_polynomial_ward_rank": 12,
+    "nonzero_ward_compatible_wheeler_torsion_source_exists": false,
+    "rest_density_real_dimension": 16,
+    "symbolic_exact_arithmetic": true,
+    "ward_nullspace_maps_to_exact_zero_torsion_source": true,
+    "ward_nullspace_source_image_rank": 0,
+    "ward_nullspace_vectors": [
+      [
+        {
+          "coefficient": "-1",
+          "direction": "D1"
+        },
+        {
+          "coefficient": "1",
+          "direction": "D2"
+        }
+      ],
+      [
+        {
+          "coefficient": "1",
+          "direction": "D0"
+        },
+        {
+          "coefficient": "1",
+          "direction": "D3"
+        }
+      ],
+      [
+        {
+          "coefficient": "1",
+          "direction": "R03"
+        }
+      ],
+      [
+        {
+          "coefficient": "1",
+          "direction": "R12"
+        }
+      ]
+    ],
+    "wheeler_torsion_source_map_rank": 12
+  },
+  "hook17_closed": false,
+  "hook17_mechanism_knowledge_preserved": true,
+  "k2_carrier": {
+    "a10f2_specific_ultralight_mass_naturalness_obstruction": false,
+    "covariant_source_ward_used": true,
+    "exact_pole_residue_evaluation_needed_after_ward_failure": false,
+    "family": "BARKER_MARZO_SANTONI_K2",
+    "field_symmetry": "K_alpha_beta_gamma=-K_alpha_gamma_beta",
+    "nonlinear_completion_established": false,
+    "physical_polarizations": 2,
+    "propagating_particle": "MASSLESS_VECTOR",
+    "protected_by_symmetry_first_construction": true,
+    "published_1minus_source_copy_constraint": "J_1minus_copy1+2*J_1minus_copy2=0",
+    "published_residue": "-1/kappa1^(4)",
+    "same_action_wheeler_matter_established": false,
+    "ultralight_mass_parameter_required": false,
+    "unitarity_condition": "kappa1^(4)<0"
+  },
+  "k2_massless_family_globally_closed": false,
+  "k2_nonrest_momentum_textured_dirac_source_closed": false,
+  "k3_historical_clean_route_reopened": false,
+  "metric_gate_authorized": false,
+  "new_scientific_fact_engineered_states_source_full_wheeler_torsion": true,
+  "next": "032H17A11C_K2_ONSHELL_NONREST_DIRAC_BILINEAR_EXACT_WARD_AND_MASSLESS_POLE_GATE",
+  "nonzero_k2_ward_compatible_rest_density_source_exists": false,
+  "payload_gate_authorized": false,
+  "physical_antigravity_model_found": false,
+  "single_lightlike_screen_would_have_false_green": true,
+  "stop_rule": "IF_COMPLETE_ONSHELL_TWO_MOMENTUM_DIRAC_BILINEAR_SPACE_HAS_ZERO_K2_WARD_COMPATIBLE_SOURCE_CLOSE_DIRECT_K2_WHEELER_ROUTE;_DO_NOT_RUN_METRIC_PAYLOAD_OR_ENERGY",
+  "wheeler_eq27_validation": {
+    "electron_special_case_exact": true,
+    "existing_special_case_reports_opposite_sign": true,
+    "existing_special_case_reports_pair_cancellation": true,
+    "full_eq27_pair_antisymmetry_pass": true,
+    "full_general_spinor_torsion_reconstruction": true,
+    "maximum_pair_antisymmetry_error": 0.0,
+    "positron_special_case_exact": true
+  }
+}

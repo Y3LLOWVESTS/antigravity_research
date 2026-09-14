@@ -1,0 +1,332 @@
+{
+  "clean_v24_full_1minus_source": {
+    "claim_scope": "CLEAN V24 EQUAL-REST SOURCE REST-FRAME SPIN-PARITY SUPPORT",
+    "full_clean_v24_1minus_support_nonzero": false,
+    "full_clean_v24_1minus_support_zero": true,
+    "hook_1minus_support_zero": true,
+    "hook_1plus_support_nonzero": true,
+    "hook_2plus_support_nonzero": true,
+    "nonmetricity_source_decomposition": "TOTALLY_SYMMETRIC_PLUS_HOOK_SYMMETRIC",
+    "productive_even_parity_support_survives": true,
+    "totally_symmetric_1minus_support_zero": true
+  },
+  "clean_v24_hook_parity": {
+    "canonical_residue_recomputed_here": false,
+    "hook_0plus_norm2": 0.0,
+    "hook_0plus_support_zero": true,
+    "hook_1minus_support_zero": true,
+    "hook_1plus_norm2": 32.0,
+    "hook_1plus_support_nonzero": true,
+    "hook_2minus_support_zero": true,
+    "hook_2plus_norm2": 14.222222222222221,
+    "hook_2plus_support_nonzero": true,
+    "representation_support_is_physical_energy": false
+  },
+  "clean_v24_totally_symmetric_parity": {
+    "all_nonzero_components_have_exactly_one_time_index": true,
+    "component_norm_is_physical_energy": false,
+    "maximum_permutation_error": 0.0,
+    "nonzero_component_count": 6,
+    "nonzero_components": [
+      {
+        "a": 0,
+        "b": 2,
+        "c": 3,
+        "spatial_index_count": 2,
+        "time_index_count": 1,
+        "value": 2.6666666666666665
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "c": 2,
+        "spatial_index_count": 2,
+        "time_index_count": 1,
+        "value": 2.6666666666666665
+      },
+      {
+        "a": 2,
+        "b": 0,
+        "c": 3,
+        "spatial_index_count": 2,
+        "time_index_count": 1,
+        "value": 2.6666666666666665
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "c": 0,
+        "spatial_index_count": 2,
+        "time_index_count": 1,
+        "value": 2.6666666666666665
+      },
+      {
+        "a": 3,
+        "b": 0,
+        "c": 2,
+        "spatial_index_count": 2,
+        "time_index_count": 1,
+        "value": 2.6666666666666665
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "c": 0,
+        "spatial_index_count": 2,
+        "time_index_count": 1,
+        "value": 2.6666666666666665
+      }
+    ],
+    "parity_interpretation": "NONZERO CLEAN TOTAL-SYMMETRIC COMPONENTS HAVE ONE TIME AND TWO SPATIAL INDICES; ODD-PARITY S_00i AND S_ijk SUPPORT VANISH",
+    "s_00i": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s_00i_norm2": 0.0,
+    "s_00i_zero": true,
+    "s_0ij": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.6666666666666665
+      ],
+      [
+        0.0,
+        2.6666666666666665,
+        0.0
+      ]
+    ],
+    "s_0ij_spin0_norm2": 0.0,
+    "s_0ij_spin0_support_nonzero": false,
+    "s_0ij_spin2_norm2": 14.222222222222221,
+    "s_0ij_spin2_support_nonzero": true,
+    "s_0ij_trace": 0.0,
+    "s_ijk_norm2": 0.0,
+    "s_ijk_zero": true,
+    "source_norm": 6.531972647421808,
+    "time_index_count_histogram": {
+      "0": 0,
+      "1": 6,
+      "2": 0,
+      "3": 0
+    },
+    "totally_symmetric": true,
+    "totally_symmetric_1minus_support_zero": true,
+    "totally_symmetric_negative_parity_tensor_support_norm2": 0.0
+  },
+  "generic_dirac_escape": {
+    "generic_algebraic_trace_carrier_nonzero": true,
+    "generic_algebraic_witness_is_physical_source": false,
+    "generic_dirac_protected_spin1_closed": false,
+    "generic_source_ward_identity_established": false,
+    "generic_spinor_on_shell_localized_stationary": false,
+    "generic_support_energy_established": false,
+    "generic_trace_covector_norm": 4.330399006506855,
+    "source_state_engineering_remains_open": true
+  },
+  "marzo2022_clean_source_match": {
+    "clean_rest_pair_direct_trace_carrier_overlap_zero_crosscheck": true,
+    "clean_rest_pair_lorentz_trace_zero_crosscheck": true,
+    "closure_scope": "DIRECT CLEAN V24 EQUAL-REST SOURCE TO THE PUBLISHED HEALTHY MARZO-2022 MASSIVE 1- POLE",
+    "direct_clean_v24_healthy_massive_pole_source_nonzero": false,
+    "direct_clean_v24_healthy_massive_pole_source_zero": true,
+    "direct_clean_v24_marzo2022_massive_1minus_closed": true,
+    "full_clean_v24_1minus_support_zero": true,
+    "generic_dirac_source_states_closed": false,
+    "indirect_metric_mixing_source_closed": false,
+    "interpretation": "THE PUBLISHED MASS TERM CHANGES THE GAUGE/CONSTRAINT STRUCTURE, BUT THE CLEAN V24 SOURCE HAS ZERO SUPPORT IN THE ONLY PUBLISHED HEALTHY MASSIVE PHYSICAL POLE",
+    "published_family_exists": true,
+    "published_family_is_symmetry_protected": true,
+    "published_healthy_massive_pole_count": 1,
+    "published_healthy_massive_pole_sector": "1_MINUS",
+    "same_action_v24_dirac_matter_derived_in_marzo2022": false,
+    "static_offshell_constrained_response_closed": false,
+    "static_offshell_constrained_response_evaluated": false
+  },
+  "published_marzo2022_family": {
+    "claim_scope": "PUBLISHED_FREE_AND_STUECKELBERG_MAG_PROVENANCE_ONLY",
+    "explicit_metric_affine_action_published": true,
+    "family": "MARZO2022_PROTECTED_ABELIAN_MAG_STUECKELBERG",
+    "healthy_region_is_not_declared_single_accidental_point": true,
+    "hook17_quadratic_metric_derived_in_published_action": false,
+    "massive_extension_preserves_abelian_protection": true,
+    "minimal_protected_model_massless": true,
+    "protecting_abelian_symmetry_published": true,
+    "protection_nonaccidental": true,
+    "published_ghost_tachyon_free_massive_regions_exist": true,
+    "published_massive_physical_pole_count": 1,
+    "published_massive_physical_pole_sector": "1_MINUS",
+    "reference": "C. Marzo, Phys. Rev. D 106, 024045 (2022), arXiv:2110.14788",
+    "same_action_hook17_complete": false,
+    "stueckelberg_extension_uses_nonmetricity": true,
+    "stueckelberg_scalar_extension_published": true,
+    "v24_dirac_source_derived_in_published_action": false
+  },
+  "r1_provenance": {
+    "a6_provenance_pass": true,
+    "branch": "032H17A6R1",
+    "certified_sub10mj_model_found": false,
+    "decision": "RED_SCOPED_A6R1_EXACT_MASSLESS_SINGLE_COMPENSATOR_CLASS_RETURNS_TO_SAME_WARD_IDENTITY__HIGGSED_OR_FULL_NOETHER_COMPLETION_REMAINS_OPEN",
+    "declared_exact_massless_single_compensator_class_closed": true,
+    "energy_optimization_authorized": false,
+    "escape_atlas": [
+      {
+        "adds_physical_longitudinal_mode": false,
+        "changes_ward_surface": false,
+        "family": "PURE_EXACT_STUECKELBERG_GAUGE_IMAGE",
+        "next_action": "NONE_IN_THIS_SUBCLASS",
+        "same_action_requirement": "DECLARED_EXACT_MASSLESS_PROTECTED_ACTION",
+        "status": "RED_SCOPED"
+      },
+      {
+        "adds_physical_longitudinal_mode": false,
+        "changes_ward_surface": false,
+        "family": "HEALTHY_MASSLESS_TWOFORM_COMPENSATOR",
+        "next_action": "NONE_IN_THIS_SUBCLASS",
+        "same_action_requirement": "ORDINARY_H_EQUALS_DB_GAUGE_ACTION",
+        "status": "RED_SCOPED"
+      },
+      {
+        "adds_physical_longitudinal_mode": "MODEL_DEPENDENT",
+        "changes_ward_surface": "POSSIBLY_TOTAL_CURRENT_ONLY",
+        "family": "FULL_NOETHER_COMPLETE_MATTER_PLUS_COMPENSATOR",
+        "next_action": "DERIVE_TOTAL_NOETHER_CURRENT",
+        "same_action_requirement": "ALL MATTER AND COMPENSATOR CURRENTS MUST COME FROM ONE VARIATIONAL ACTION",
+        "status": "OPEN"
+      },
+      {
+        "adds_physical_longitudinal_mode": true,
+        "changes_ward_surface": true,
+        "family": "HIGGSED_OR_MASSIVE_HOOK_COMPLETION",
+        "next_action": "MASSIVE_PRINCIPAL_SYMBOL_AND_SOURCE_PROJECTOR",
+        "same_action_requirement": "EXPLICIT MASS/HIGGS/STUECKELBERG ACTION WITH FULL SPECTRAL HEALTH",
+        "status": "OPEN"
+      },
+      {
+        "adds_physical_longitudinal_mode": "PUBLISHED_MASS_EXTENSION_EXISTS",
+        "changes_ward_surface": "MUST_BE_DERIVED_FOR_V24_SOURCE",
+        "family": "MARZO_PROTECTED_ABELIAN_MAG_STUECKELBERG",
+        "next_action": "EXACT_V24_SOURCE_MATCH_GATE",
+        "same_action_requirement": "MUST_SOURCE_MATCH_V24_INSIDE_THE_PUBLISHED_ACTION",
+        "status": "OPEN_INDEPENDENT_FAMILY"
+      },
+      {
+        "adds_physical_longitudinal_mode": "ACTION_DEPENDENT",
+        "changes_ward_surface": "ACTION_DEPENDENT",
+        "family": "OTHER_PROTECTED_1PLUS_OR_2PLUS",
+        "next_action": "SOURCE_PROJECTOR_BEFORE_ANY_PDE",
+        "same_action_requirement": "MANDATORY",
+        "status": "OPEN"
+      }
+    ],
+    "full_noether_complete_matter_compensator_closed": false,
+    "h17b_authorized": false,
+    "healthy_massless_twoform_compensator_closed": true,
+    "higgsed_or_massive_hook_closed": false,
+    "hook17_closed": false,
+    "hook17_complete_energy_j": null,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "marzo_protected_stueckelberg_family_closed": false,
+    "next": "032H17A6R2_HIGGSED_HOOK_OR_FULL_NOETHER_COMPLETION_PREFLIGHT",
+    "other_protected_1plus_closed": false,
+    "physical_antigravity_model_found": false,
+    "practical_device_found": false,
+    "productive_1plus_representation_survives": true,
+    "protected_2plus_closed": false,
+    "pure_exact_massless_stueckelberg_closed": true,
+    "source_state_engineering_closed": false,
+    "stop_rule_after_next": "IF NO EXPLICIT HEALTHY HIGGSED/NOETHER COMPLETION SURVIVES, MOVE TO MARZO PROTECTED SOURCE-MATCH GATE RATHER THAN INVENTING MORE FORMAL COMPENSATORS",
+    "strict_complete_operating_target_j": 10000000.0,
+    "sub100j_capacity_tuning_authorized": false,
+    "subgate": "DYNAMICAL_COMPENSATOR_NOETHER_WARD_THEOREM",
+    "v26d_fallback_status": "PRESERVED",
+    "v26e_status": "PAUSED_NOT_CLOSED"
+  },
+  "summary": {
+    "all_higgsed_or_massive_hook_closed": false,
+    "barker_zell_extended_projective_closed": false,
+    "branch": "032H17A6R2",
+    "capacity_recalculation_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "claim_scope": "DIRECT CLEAN V24 EQUAL-REST SOURCE TO PUBLISHED MARZO2022 HEALTHY MASSIVE 1- POLE ONLY",
+    "clean_v24_full_1minus_support_zero": true,
+    "decision": "RED_SCOPED_A6R2_MARZO2022_PROTECTED_MASSIVE_1MINUS_HAS_ZERO_DIRECT_CLEAN_V24_REST_FRAME_SOURCE_SUPPORT__GENERIC_DIRAC_AND_OTHER_PROTECTED_FAMILIES_REMAIN_OPEN",
+    "direct_clean_v24_marzo2022_massive_1minus_closed": true,
+    "energy_optimization_authorized": false,
+    "full_noether_complete_matter_compensator_closed": false,
+    "generic_dirac_marzo2022_source_closed": false,
+    "generic_dirac_source_state_engineering_open": true,
+    "h17b_authorized": false,
+    "hook17_closed": false,
+    "hook17_complete_energy_j": null,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "marzo2022_massive_physical_pole_sector": "1_MINUS",
+    "marzo2022_published_protected_massive_family_exists": true,
+    "marzo2026_nonlinear_vector_graviton_closed": false,
+    "massive_curtright_static_offshell_closed": false,
+    "next": "032H17A7_BARKER_ZELL_EXTENDED_PROJECTIVE_DIRAC_SOURCE_MATCH_GATE",
+    "next_scientific_question": "Does the actual V24 Dirac hypermomentum source project nontrivially onto the protected physical vector sector selected by the Barker-Zell extended-projective / alternative-double-vector symmetry in one compatible matter-plus-gravity action?",
+    "other_protected_1plus_2plus_closed": false,
+    "physical_antigravity_model_found": false,
+    "practical_device_found": false,
+    "productive_clean_v24_1plus_survives": true,
+    "productive_clean_v24_2plus_survives": true,
+    "r1_provenance_pass": true,
+    "rerank": [
+      {
+        "family": "BARKER_ZELL_EXTENDED_PROJECTIVE_DOUBLE_VECTOR",
+        "priority": 1,
+        "reason": "PUBLISHED DIRAC-MOTIVATED PROTECTED SYMMETRY; EXACT CLEAN/GENERAL SOURCE PROJECTION STILL REQUIRED",
+        "status": "OPEN_EXACT_DIRAC_SOURCE_MATCH_REQUIRED"
+      },
+      {
+        "family": "OTHER_NATIVE_PROTECTED_MAG_1PLUS_2PLUS",
+        "priority": 2,
+        "reason": "CLEAN V24 HAS EXACT NONZERO 1+ AND 2+ SUPPORT",
+        "status": "OPEN_SOURCE_SUPPORTED_REPRESENTATIONS_FIRST"
+      },
+      {
+        "family": "MARZO2026_NONLINEAR_VECTOR_GRAVITON",
+        "priority": 3,
+        "reason": "ONLY GENUINELY NONLINEAR CONTINUATION MAY EVADE THE CLOSED V24D LINEAR VECTOR-METRIC BRIDGE",
+        "status": "OPEN_EXACT_SOURCE_IDENTIFICATION_REQUIRED"
+      },
+      {
+        "family": "FULL_NOETHER_COMPLETE_MATTER_PLUS_COMPENSATOR",
+        "priority": 4,
+        "reason": "R1 DID NOT CLOSE ADDITIONAL MATTER CURRENTS DERIVED FROM ONE VARIATIONAL ACTION",
+        "status": "OPEN_EXPLICIT_ACTION_REQUIRED"
+      },
+      {
+        "family": "DIRAC_SOURCE_STATE_ENGINEERING",
+        "priority": 5,
+        "reason": "GENERIC DIRAC ALGEBRAIC TRACE WITNESS EXISTS BUT IS NOT YET AN ONSHELL LOCALIZED SOURCE",
+        "status": "OPEN_AFTER_NATIVE_ACTION_SOURCE_MATCHES"
+      },
+      {
+        "family": "MASSIVE_CURTRIGHT_HOOK",
+        "priority": 6,
+        "reason": "REST-FRAME PHYSICAL-POLE SUPPORT ALREADY ZERO; MASSIVE-SPIN2 DUALITY RISK PRESERVED",
+        "status": "OPEN_LOWER_PRIORITY_STATIC_OFFSHELL_REQUIRED"
+      },
+      {
+        "family": "V26D_PROTECTED_CT1_DHOST_KMM",
+        "priority": 7,
+        "reason": "RESUME IF HOOK17 CREDIBLE RESCUE FAMILIES EXHAUST",
+        "status": "PRESERVED_INDEPENDENT_FALLBACK"
+      }
+    ],
+    "static_offshell_marzo2022_response_closed": false,
+    "strict_complete_operating_target_j": 10000000.0,
+    "sub100j_capacity_tuning_authorized": false,
+    "subgate": "MARZO2022_PROTECTED_MASSIVE_1MINUS_SOURCE_MATCH",
+    "v26d_fallback_status": "PRESERVED",
+    "v26e_status": "PAUSED_NOT_CLOSED"
+  }
+}

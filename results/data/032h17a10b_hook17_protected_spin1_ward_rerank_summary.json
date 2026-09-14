@@ -1,0 +1,139 @@
+{
+  "a10a_source_state_escape_preserved": true,
+  "agminer_database_mutation_authorized": false,
+  "bms_compact_localized_rest_density_trace_route_closed": true,
+  "bms_fixed_engineered_pair_direct_ward_fails": true,
+  "bms_generic_rest_density_ward_nullity": 2,
+  "bms_generic_rest_density_ward_rank": 6,
+  "bms_generic_ward_compatible_trace_escape_exists": false,
+  "bms_global_family_closed": false,
+  "branch": "032H17A10B",
+  "certified_sub10mj_model_found": false,
+  "complete_energy_established": false,
+  "current_full_regression_before_a10b": 918,
+  "decision": "RED_SCOPED_A10B_DIRECT_BMS_REST_DENSITY_TRACE_ROUTE_CLOSED__GREEN_MARZO2022_ENGINEERED_1MINUS_REPRESENTATION_REOPENED",
+  "energy_optimization_authorized": false,
+  "engineered_1minus_gate": {
+    "both_engineered_pairs_have_nonzero_symmetric_1minus_representation": true,
+    "historical_a6r2_clean_pair_zero_generalizes_to_engineered_states": false,
+    "representation_support_is_exact_pole_overlap": false,
+    "rows": [
+      {
+        "exact_physical_1minus_pole_projector_evaluated": false,
+        "pair_id": "U1_V1",
+        "s00i_norm": 0.0,
+        "sijk_norm": 4.618802153517006,
+        "spatial_spin1_tensor_norm": 2.0655911179772892,
+        "spatial_spin1_trace_norm": 2.6666666666666665,
+        "spatial_spin1_trace_vector": [
+          -2.6666666666666665,
+          0.0,
+          0.0
+        ],
+        "spatial_spin3_stf_norm": 4.131182235954578,
+        "totally_symmetric_1minus_representation_support_nonzero": true
+      },
+      {
+        "exact_physical_1minus_pole_projector_evaluated": false,
+        "pair_id": "U2_V2",
+        "s00i_norm": 0.0,
+        "sijk_norm": 4.618802153517006,
+        "spatial_spin1_tensor_norm": 2.0655911179772892,
+        "spatial_spin1_trace_norm": 2.6666666666666665,
+        "spatial_spin1_trace_vector": [
+          2.6666666666666665,
+          0.0,
+          0.0
+        ],
+        "spatial_spin3_stf_norm": 4.131182235954578,
+        "totally_symmetric_1minus_representation_support_nonzero": true
+      }
+    ]
+  },
+  "engineered_full_torsion_source_reconstructed": false,
+  "exact_bms_tensor_gauge_ward_operator_evaluated": true,
+  "finite_payload_outward_response_established": false,
+  "fixed_pair_ward_gate": {
+    "both_engineered_pairs_fail_direct_bms_ward": true,
+    "failure_is_numerical_roundoff": false,
+    "minimum_engineered_ward_residual_norm": 5.962847939999439,
+    "rows": [
+      {
+        "momentum_id": "NULL_Z",
+        "pair_id": "U1_V1",
+        "source_norm": 5.656854249492381,
+        "trace_norm": 2.6666666666666665,
+        "ward_pass": false,
+        "ward_residual_norm": 8.432740427115679
+      },
+      {
+        "momentum_id": "STATIC_Z",
+        "pair_id": "U1_V1",
+        "source_norm": 5.656854249492381,
+        "trace_norm": 2.6666666666666665,
+        "ward_pass": false,
+        "ward_residual_norm": 5.962847939999439
+      },
+      {
+        "momentum_id": "NULL_Z",
+        "pair_id": "U2_V2",
+        "source_norm": 5.656854249492381,
+        "trace_norm": 2.6666666666666665,
+        "ward_pass": false,
+        "ward_residual_norm": 8.432740427115679
+      },
+      {
+        "momentum_id": "STATIC_Z",
+        "pair_id": "U2_V2",
+        "source_norm": 5.656854249492381,
+        "trace_norm": 2.6666666666666665,
+        "ward_pass": false,
+        "ward_residual_norm": 5.962847939999439
+      }
+    ]
+  },
+  "generic_rest_density_ward_theorem": {
+    "generic_nonzero_trace_escape_exists": false,
+    "generic_symbolic_ward_nullity": 2,
+    "generic_symbolic_ward_rank": 6,
+    "generic_trace_images_of_ward_null_basis": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "rest_density_real_dimension": 8,
+    "symbolic_exact_arithmetic": true,
+    "trace_vanishes_on_entire_generic_ward_nullspace": true
+  },
+  "geometry_optimization_authorized": false,
+  "hook17_closed": false,
+  "localized_bms_closeout": {
+    "bms_family_globally_closed": false,
+    "closure_scope": "DIRECT_IDENTIFICATION_OF_THE_WHEELER_TOTALLY_SYMMETRIC_RESPONSE_WITH_THE_BMS_CURRENT_FOR_BLOCK_DIAGONAL_ZERO_MOMENTUM_DIRAC_REST_DENSITY_SOURCES",
+    "compact_support_fourier_amplitudes_analytic": true,
+    "direct_bms_trace_vector_rest_density_route_closed": true,
+    "exceptional_momentum_strata_can_rescue_compact_trace_source": false,
+    "generic_open_set_trace_zero": true,
+    "massless_and_static_representatives_trace_zero": true,
+    "new_compensated_or_constitutive_source_maps_closed": false,
+    "nonrest_momentum_bearing_dirac_sources_closed": false
+  },
+  "marzo2022_engineered_1minus_representation_reopened": true,
+  "marzo2022_exact_physical_1minus_pole_overlap_established": false,
+  "marzo2022_exact_same_action_source_ward_established": false,
+  "marzo2022_protected_family_published": true,
+  "marzo2022_unique_massive_physical_pole_sector": "1_MINUS",
+  "next": "032H17A10C_MARZO2022_ENGINEERED_1MINUS_SAME_ACTION_SOURCE_WARD_TORSION_AND_EXACT_POLE_PROJECTOR_GATE",
+  "physical_antigravity_model_found": false,
+  "stop_rule_after_next": "IF_ENGINEERED_SOURCE_FAILS_MARZO_SAME_ACTION_WARD_OR_EXACT_1MINUS_POLE_PROJECTOR_CLOSE_THIS_REST_STATE_PROTECTED_SPIN1_RESCUE_AND_RETURN_TO_A9R3_ONLY_WITH_A_GENUINELY_NEW_PROTECTED_FAMILY",
+  "universal_physical_metric_established": false
+}

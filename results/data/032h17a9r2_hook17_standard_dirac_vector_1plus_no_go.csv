@@ -1,0 +1,5 @@
+basis_vector,trace_12_norm,trace_23_norm,antisymmetric_div1_norm,double_transverse_current_norm,pole_numerator,physical_1plus_current_zero
+0,0.0,0.0,0.0,0.0,0.0,True
+1,0.0,0.0,1.8,0.0,0.0,True
+2,0.0,0.0,1.8,0.0,0.0,True
+3,0.0,0.0,1.8,0.0,0.0,True

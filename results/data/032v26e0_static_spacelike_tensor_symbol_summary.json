@@ -1,0 +1,127 @@
+{
+  "background_routes": [
+    {
+      "closed": false,
+      "full_scalar_metric_symbol_required": true,
+      "route": "UNSUPPORTED_FLAT_CONSTANT_GRADIENT",
+      "status": "REQUIRES_P_EQUALS_PX_EQUALS_ZERO",
+      "support_energy_required": false
+    },
+    {
+      "closed": false,
+      "full_scalar_metric_symbol_required": true,
+      "route": "SUPPORT_BALANCED_LOCAL_PATCH",
+      "status": "OPEN_SUPPORT_STRESS_MUST_BE_INCLUDED",
+      "support_energy_required": true
+    },
+    {
+      "closed": false,
+      "full_scalar_metric_symbol_required": true,
+      "route": "CURVED_ONSHELL_STATIC_BACKGROUND",
+      "status": "OPEN_FULL_BACKGROUND_EOM_REQUIRED",
+      "support_energy_required": "MODEL_DEPENDENT"
+    }
+  ],
+  "p_only_scalar_stationary_point": {
+    "P_X": 0.0,
+    "P_XX": 1.0,
+    "X": 1.0,
+    "full_constrained_scalar_metric_symbol_required": true,
+    "full_dhost_mixing_may_supply_scalar_kinetic": true,
+    "full_scalar_instability_established": false,
+    "p_only_longitudinal_gradient_coefficient": 2.0,
+    "p_only_scalar_hyperbolicity_established": false,
+    "p_only_standalone_time_kinetic_nonzero": false,
+    "p_only_time_kinetic_coefficient": 0.0,
+    "p_only_transverse_gradient_coefficient": 0.0,
+    "strong_coupling_closed": false
+  },
+  "representative_tensor": {
+    "all_scanned_tensor_characteristics_luminal": true,
+    "all_scanned_tensor_principal_coefficients_positive": true,
+    "beta_1": 0.047619047619047616,
+    "expected_worst_direction_margin": 0.9931972789115646,
+    "large_response_from_tensor_margin_collapse_assumed": false,
+    "margin_reconstruction_error": 0.0,
+    "representative_anisotropic_tensor_ct1_pass": true,
+    "scan_minimum_relative_margin": 0.9931972789115646,
+    "worst_direction": "PERPENDICULAR_TO_SPACELIKE_SCALAR_GRADIENT",
+    "worst_direction_relative_margin": 0.9931972789115646
+  },
+  "summary": {
+    "a4_beta_tensor_identity_pass": true,
+    "a9_a9r3_partial_results_preserved": true,
+    "a9r3_fallback_trigger_pass": true,
+    "action_oracle_authorized": false,
+    "agminer_database_mutation_authorized": false,
+    "anisotropic_tensor_cone_ct1_established_on_constant_gradient_patch": true,
+    "background_routes": [
+      {
+        "closed": false,
+        "full_scalar_metric_symbol_required": true,
+        "route": "UNSUPPORTED_FLAT_CONSTANT_GRADIENT",
+        "status": "REQUIRES_P_EQUALS_PX_EQUALS_ZERO",
+        "support_energy_required": false
+      },
+      {
+        "closed": false,
+        "full_scalar_metric_symbol_required": true,
+        "route": "SUPPORT_BALANCED_LOCAL_PATCH",
+        "status": "OPEN_SUPPORT_STRESS_MUST_BE_INCLUDED",
+        "support_energy_required": true
+      },
+      {
+        "closed": false,
+        "full_scalar_metric_symbol_required": true,
+        "route": "CURVED_ONSHELL_STATIC_BACKGROUND",
+        "status": "OPEN_FULL_BACKGROUND_EOM_REQUIRED",
+        "support_energy_required": "MODEL_DEPENDENT"
+      }
+    ],
+    "branch": "032V26E0",
+    "canonical_health_on_full_static_spacelike_background_established": false,
+    "claim_scope": "TT TENSOR PRINCIPAL SYMBOL ON CONSTANT STATIC SPACELIKE GRADIENT PLUS UNSUPPORTED FLAT-BACKGROUND CONSISTENCY THEOREM; NOT FULL DHOST CANONICAL HEALTH",
+    "constraint_elimination_completed": false,
+    "cross_response_survives_field_redefinition_audit": false,
+    "current_ps_case_i_remains_blocked": true,
+    "decision": "GREEN_PARTIAL_V26E0_STATIC_SPACELIKE_TENSOR_CT1_AND_HEALTH_PASS__UNSUPPORTED_FLAT_BACKGROUND_FORCES_P_EQUALS_PX_EQUALS_ZERO__FULL_CONSTRAINED_SCALAR_METRIC_SYMBOL_AND_CROSSPROP_REMAIN_REQUIRED",
+    "energy_optimization_authorized": false,
+    "finite_payload_established": false,
+    "full_constrained_scalar_metric_symbol_required": true,
+    "hook17_capacity_reference_transfers_to_v26d": false,
+    "large_response_from_tensor_margin_collapse_assumed": false,
+    "microscopic_source_solution_in_full_dhost_established": false,
+    "next": "032V26E1_STATIC_SPACELIKE_FULL_CONSTRAINED_SCALAR_METRIC_SYMBOL_CROSSPROP_GATE",
+    "nonremovable_active_numerator_established": false,
+    "offstate_quantum_descendants_audited": false,
+    "original_v26e_scope_complete": false,
+    "outward_sign_established": false,
+    "p_only_stationary_background_has_time_kinetic": false,
+    "representative_beta_1": 0.047619047619047616,
+    "representative_tensor_principal_health_pass": true,
+    "representative_worst_tensor_relative_margin": 0.9931972789115646,
+    "static_spacelike_source_to_metric_cross_response_established": false,
+    "strict_complete_operating_target_j": 10000000.0,
+    "subgate": "STATIC_SPACELIKE_TENSOR_PRINCIPAL_SYMBOL_AND_BACKGROUND_THEOREM",
+    "tensor_health_critical_abs_beta_1": 0.5773502691896258,
+    "tensor_sector_partial_green": true,
+    "unsupported_flat_background_theorem_pass": true,
+    "unsupported_flat_requires_P_X_zero": true,
+    "unsupported_flat_requires_P_zero": true,
+    "v26d_complete_energy_j": null,
+    "v26d_field_capacity_established": false,
+    "v26d_provenance_pass": true,
+    "v26e1_full_constrained_symbol_crossprop_authorized": true
+  },
+  "unsupported_flat_background": {
+    "P_zero_and_P_X_zero_suffice_for_P_sector_background_stress": true,
+    "X_positive": true,
+    "curvature_included": false,
+    "declared_gradient_type": "STATIC_SPACELIKE",
+    "hidden_support_included": false,
+    "theorem_scope": "FLAT_CONSTANT_GRADIENT_P_SECTOR_WITHOUT_SUPPORT_STRESS",
+    "unsupported_flat_background_theorem_pass": true,
+    "unsupported_minkowski_requires_P_X_zero": true,
+    "unsupported_minkowski_requires_P_zero": true
+  }
+}

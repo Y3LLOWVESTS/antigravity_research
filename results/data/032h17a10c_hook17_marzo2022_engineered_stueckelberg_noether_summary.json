@@ -1,0 +1,286 @@
+{
+  "agminer_database_mutation_authorized": false,
+  "both_engineered_1minus_representation_preserved": true,
+  "both_engineered_direct_pure_connection_ward_fail_generic": true,
+  "both_engineered_stueckelberg_completed_ward_pass": true,
+  "branch": "032H17A10C",
+  "canonical_1minus_source_charge_per_joule_established": false,
+  "certified_sub10mj_model_found": false,
+  "complete_energy_established": false,
+  "current_full_regression_before_a10c": 927,
+  "decision": "GREEN_A10C_LINEAR_STUECKELBERG_NOETHER_SOURCE_COMPLETION_PRESERVES_ENGINEERED_1MINUS_REPRESENTATION",
+  "energy_optimization_authorized": false,
+  "engineered_pair_rows": [
+    {
+      "all_three_rank3_pair_traces": {
+        "trace_01": [
+          0.0,
+          -2.0,
+          0.0,
+          0.0
+        ],
+        "trace_02": [
+          0.0,
+          -4.0,
+          0.0,
+          0.0
+        ],
+        "trace_12": [
+          0.0,
+          -2.0,
+          0.0,
+          0.0
+        ]
+      },
+      "all_three_rank3_pair_traces_nonzero": true,
+      "direct_pure_connection_ward_is_not_identity": true,
+      "engineered_1minus_representation_nonzero": true,
+      "engineered_1minus_spatial_trace_norm": 2.6666666666666665,
+      "engineered_1minus_spatial_trace_vector": [
+        -2.6666666666666665,
+        0.0,
+        0.0
+      ],
+      "exact_1minus_pole_projector_evaluated": false,
+      "marzo_abelian_trace_covector": [
+        0.0,
+        -4.0,
+        0.0,
+        0.0
+      ],
+      "marzo_abelian_trace_nonzero": true,
+      "marzo_abelian_trace_norm": 4.0,
+      "marzo_source_first_second_symmetric": true,
+      "pair_id": "U1_V1",
+      "ps_tau_first_third_symmetric": true,
+      "ps_tau_norm": 6.324555320336759,
+      "stueckelberg_completed_ward_all_samples_pass": true,
+      "ward_rows": [
+        {
+          "completions": [
+            {
+              "completed_residual": 0.0,
+              "f": 1.0,
+              "pass": true,
+              "scalar_source": 4.0
+            },
+            {
+              "completed_residual": 0.0,
+              "f": -2.5,
+              "pass": true,
+              "scalar_source": -1.6
+            },
+            {
+              "completed_residual": 0.0,
+              "f": 7.0,
+              "pass": true,
+              "scalar_source": 0.5714285714285714
+            }
+          ],
+          "direct_pass": false,
+          "direct_pure_connection_residual": -4.0,
+          "momentum_id": "X"
+        },
+        {
+          "completions": [
+            {
+              "completed_residual": 0.0,
+              "f": 1.0,
+              "pass": true,
+              "scalar_source": 4.0
+            },
+            {
+              "completed_residual": 0.0,
+              "f": -2.5,
+              "pass": true,
+              "scalar_source": -1.6
+            },
+            {
+              "completed_residual": 0.0,
+              "f": 7.0,
+              "pass": true,
+              "scalar_source": 0.5714285714285714
+            }
+          ],
+          "direct_pass": false,
+          "direct_pure_connection_residual": -4.0,
+          "momentum_id": "NULL_X"
+        },
+        {
+          "completions": [
+            {
+              "completed_residual": 0.0,
+              "f": 1.0,
+              "pass": true,
+              "scalar_source": -1.6
+            },
+            {
+              "completed_residual": 0.0,
+              "f": -2.5,
+              "pass": true,
+              "scalar_source": 0.64
+            },
+            {
+              "completed_residual": 0.0,
+              "f": 7.0,
+              "pass": true,
+              "scalar_source": -0.2285714285714286
+            }
+          ],
+          "direct_pass": false,
+          "direct_pure_connection_residual": 1.6,
+          "momentum_id": "GENERIC"
+        }
+      ]
+    },
+    {
+      "all_three_rank3_pair_traces": {
+        "trace_01": [
+          0.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "trace_02": [
+          0.0,
+          4.0,
+          0.0,
+          0.0
+        ],
+        "trace_12": [
+          0.0,
+          2.0,
+          0.0,
+          0.0
+        ]
+      },
+      "all_three_rank3_pair_traces_nonzero": true,
+      "direct_pure_connection_ward_is_not_identity": true,
+      "engineered_1minus_representation_nonzero": true,
+      "engineered_1minus_spatial_trace_norm": 2.6666666666666665,
+      "engineered_1minus_spatial_trace_vector": [
+        2.6666666666666665,
+        0.0,
+        0.0
+      ],
+      "exact_1minus_pole_projector_evaluated": false,
+      "marzo_abelian_trace_covector": [
+        0.0,
+        4.0,
+        0.0,
+        0.0
+      ],
+      "marzo_abelian_trace_nonzero": true,
+      "marzo_abelian_trace_norm": 4.0,
+      "marzo_source_first_second_symmetric": true,
+      "pair_id": "U2_V2",
+      "ps_tau_first_third_symmetric": true,
+      "ps_tau_norm": 6.324555320336759,
+      "stueckelberg_completed_ward_all_samples_pass": true,
+      "ward_rows": [
+        {
+          "completions": [
+            {
+              "completed_residual": 0.0,
+              "f": 1.0,
+              "pass": true,
+              "scalar_source": -4.0
+            },
+            {
+              "completed_residual": 0.0,
+              "f": -2.5,
+              "pass": true,
+              "scalar_source": 1.6
+            },
+            {
+              "completed_residual": 0.0,
+              "f": 7.0,
+              "pass": true,
+              "scalar_source": -0.5714285714285714
+            }
+          ],
+          "direct_pass": false,
+          "direct_pure_connection_residual": 4.0,
+          "momentum_id": "X"
+        },
+        {
+          "completions": [
+            {
+              "completed_residual": 0.0,
+              "f": 1.0,
+              "pass": true,
+              "scalar_source": -4.0
+            },
+            {
+              "completed_residual": 0.0,
+              "f": -2.5,
+              "pass": true,
+              "scalar_source": 1.6
+            },
+            {
+              "completed_residual": 0.0,
+              "f": 7.0,
+              "pass": true,
+              "scalar_source": -0.5714285714285714
+            }
+          ],
+          "direct_pass": false,
+          "direct_pure_connection_residual": 4.0,
+          "momentum_id": "NULL_X"
+        },
+        {
+          "completions": [
+            {
+              "completed_residual": 0.0,
+              "f": 1.0,
+              "pass": true,
+              "scalar_source": 1.6
+            },
+            {
+              "completed_residual": 0.0,
+              "f": -2.5,
+              "pass": true,
+              "scalar_source": -0.64
+            },
+            {
+              "completed_residual": 0.0,
+              "f": 7.0,
+              "pass": true,
+              "scalar_source": 0.2285714285714286
+            }
+          ],
+          "direct_pass": false,
+          "direct_pure_connection_residual": -1.6,
+          "momentum_id": "GENERIC"
+        }
+      ]
+    }
+  ],
+  "exact_marzo_constrained_source_projector_evaluated": false,
+  "exact_physical_1minus_pole_overlap_established": false,
+  "finite_payload_outward_response_established": false,
+  "full_covariant_dirac_matter_action_established": false,
+  "full_engineered_wheeler_torsion_source_reconstructed": false,
+  "geometry_optimization_authorized": false,
+  "hook17_closed": false,
+  "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+  "hook17_reference_capacity_transferred": false,
+  "independent_marzo_variational_index_map_rederived_from_original_action": false,
+  "linearized_local_abelian_invariant_matter_interaction_scaffold_exists": true,
+  "marzo2022_published_protected_stueckelberg_family": true,
+  "next": "032H17A10D_MARZO2022_EXACT_CONSTRAINED_1MINUS_SOURCE_PROJECTOR_RESIDUE_AND_CANONICAL_OVERLAP_GATE",
+  "partial_green": true,
+  "physical_antigravity_model_found": false,
+  "published_abelian_symmetry": "delta_A_munu^rho=g_munu*d^rho_Omega; delta_phi=f*Omega",
+  "published_massive_physical_pole_sector": "1_MINUS",
+  "published_stueckelberg_f_relation": "f=-d1-(5/2)d2",
+  "relative_scalar_connection_source_coefficient_symmetry_fixed": true,
+  "source_completion_is_state_by_state_surgery": false,
+  "source_interaction_scaffold": "J_munu_rho(psi)*B^munu_rho",
+  "strict_complete_operating_target_j": 10000000.0,
+  "stueckelberg_invariant_combination": "B_munu^rho=A_munu^rho-(1/f)g_munu*d^rho_phi",
+  "stueckelberg_invariant_combination_exact_linearized": true,
+  "torsion_reconstruction_deferred_reason": "CURRENT_REPOSITORY_IMPLEMENTATION_HAS_ONLY_THE_PUBLISHED_REST_SPINUP_TORSION_SPECIAL_CASE;_DO_NOT_GUESS_THE_SPIN_ENGINEERED_TORSION_SOURCE",
+  "true_standoff_established": false,
+  "universal_physical_metric_established": false
+}

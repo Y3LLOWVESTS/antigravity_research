@@ -1,0 +1,315 @@
+{
+  "case_i": {
+    "A": 1.0,
+    "B": 1.0,
+    "C": -0.64,
+    "a0": 1.0,
+    "case": "PERCACCI_SEZGIN_CASE_I",
+    "case_i_relations_pass": true,
+    "expected_case_i_m_plus_squared": 0.18,
+    "expected_case_i_r_plus": 0.36,
+    "full_wheeler_matter_same_action": false,
+    "h11": 3.3333333333333335,
+    "h7": -1.0,
+    "m_plus": 0.42426406871192845,
+    "m_plus_squared": 0.17999999999999994,
+    "massive_1plus_residue_positive": true,
+    "massive_1plus_tachyon_free": true,
+    "published_protected_projective_family": true,
+    "r_plus": 0.3599999999999999
+  },
+  "diffeomorphism_ward": {
+    "full_diffeomorphism_matter_ward_established": false,
+    "generic_connection_term_nonzero": true,
+    "generic_mixed_connection_term": [
+      0.0,
+      0.0,
+      0.0,
+      8.0
+    ],
+    "generic_mixed_connection_term_norm": 8.0,
+    "generic_mixed_q": [
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "localized_onshell_matter_source_established": false,
+    "massive_rest_connection_term": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "massive_rest_connection_term_norm": 0.0,
+    "massive_rest_connection_term_zero": true,
+    "metric_source_sigma_required_for_generic_ward": true,
+    "published_full_ward_identity": "2*i*q^a*sigma_ac + q^a*q^b*tau_bca = 0",
+    "sigma_from_same_wheeler_projective_action_derived": false
+  },
+  "exact_1plus_pole": {
+    "current_23_matches": true,
+    "current_32_matches": true,
+    "exact_numerator_matches_8m2": true,
+    "exact_ps_1plus_pole_numerator": 1.4399999999999995,
+    "exact_ps_1plus_pole_numerator_nonzero": true,
+    "expected_current_23": -0.8485281374238569,
+    "expected_current_32": 0.8485281374238569,
+    "expected_exact_numerator": 1.4399999999999995,
+    "full_propagator_pole_coefficient_proxy": 0.3599999999999999,
+    "full_propagator_pole_coefficient_proxy_positive": true,
+    "interpretation": "NONZERO EXACT PERCACCI-SEZGIN CASE-I 1+ SOURCE NUMERATOR AFTER REQUIRED TORSION-FREE SOURCE PROJECTION",
+    "m_plus_squared": 0.17999999999999994,
+    "naive_raw_rest_1plus_current_zero": true,
+    "on_shell_transverse_projector_pass": true,
+    "overall_wheeler_source_normalization_omitted": true,
+    "pole_coefficient_proxy_is_physical_coupling": false,
+    "pole_coefficient_proxy_is_physical_energy": false,
+    "q_squared": -0.17999999999999994,
+    "q_up": [
+      0.42426406871192845,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "raw_antisymmetric_div1": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "raw_antisymmetric_div1_norm2": 0.0,
+    "raw_div1": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "torsion_free_antisymmetric_div1": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.8485281374238569
+      ],
+      [
+        0.0,
+        0.0,
+        0.8485281374238569,
+        0.0
+      ]
+    ],
+    "torsion_free_antisymmetric_div1_norm2": 1.4399999999999995,
+    "torsion_free_div1": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.6970562748477138,
+        0.0
+      ]
+    ],
+    "torsion_free_projected_rest_1plus_current_nonzero": true,
+    "transverse_projector_q_cov_norm": 0.0
+  },
+  "projection_identity": {
+    "contraction_difference": 0.0,
+    "projected_source_contraction": 9.079365079365079,
+    "raw_source_contraction": 9.079365079365079,
+    "test_field_first_third_symmetric": true,
+    "torsion_free_source_projection_identity_pass": true
+  },
+  "projective_trace": {
+    "both_projective_source_trace_constraints_pass": true,
+    "projective_constraint_tau_mu_nu_nu_pass": true,
+    "projective_constraint_tau_nu_nu_mu_pass": true,
+    "source_norm": 8.0,
+    "trace_first_second": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "trace_first_second_norm": 0.0,
+    "trace_second_third": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "trace_second_third_norm": 0.0
+  },
+  "source_map": {
+    "overall_wheeler_source_normalization_fixed_physically": false,
+    "raw_expected_components_pass": true,
+    "raw_nonzero_components": [
+      {
+        "a": 0,
+        "b": 3,
+        "c": 2,
+        "value": 8.0
+      },
+      {
+        "a": 3,
+        "b": 0,
+        "c": 2,
+        "value": 8.0
+      }
+    ],
+    "raw_response_difference_norm": 0.0,
+    "raw_source_matches_clean_response_in_this_state": true,
+    "raw_source_norm": 11.313708498984761,
+    "response_final_pair_symmetric": true,
+    "response_final_pair_symmetry_error": 0.0,
+    "same_action_completion_established": false,
+    "wheeler_to_ps_variational_source_map_convention_matched": true
+  },
+  "summary": {
+    "a8_provenance_pass": true,
+    "branch": "032H17A9",
+    "capacity_recalculation_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "claim_scope": "EXACT CASE-I 1+ POLE SOURCE NUMERATOR FOR THE CONVENTION-MATCHED CLEAN V24 SOURCE; FULL SAME-ACTION MATTER NOETHER CONSISTENCY REMAINS OPEN",
+    "decision": "GREEN_PARTIAL_A9_EXACT_PERCACCI_SEZGIN_1PLUS_POLE_OVERLAP_WITH_PROJECTIVE_TRACE_PASS__FULL_MATTER_NOETHER_AND_SAME_ACTION_REMAIN_OPEN",
+    "energy_optimization_authorized": false,
+    "exact_projective_1plus_pole_overlap_established": true,
+    "exact_ps_1plus_pole_numerator": 1.4399999999999995,
+    "exact_ps_1plus_pole_numerator_nonzero": true,
+    "finite_payload_antigravity_established": false,
+    "full_diffeomorphism_matter_ward_established": false,
+    "full_matter_noether_current_established": false,
+    "h17b_authorized": false,
+    "hook17_closed": false,
+    "hook17_complete_energy_j": null,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "localized_onshell_source_established": false,
+    "metric_source_sigma_required": true,
+    "metric_source_sigma_same_action_derived": false,
+    "naive_raw_rest_1plus_current_zero": true,
+    "next": "032H17A9R1_PERCACCI_SEZGIN_WHEELER_SAME_ACTION_MATTER_NOETHER_GATE",
+    "next_scientific_question": "Does the Wheeler Dirac matter action preserve the Percacci-Sezgin projective symmetry and supply a metric source sigma_ab satisfying the full diffeomorphism Noether identity?",
+    "partial_green": true,
+    "percacci_sezgin_case_i_healthy": true,
+    "physical_antigravity_model_found": false,
+    "pole_overlap_normalization_complete": false,
+    "practical_device_found": false,
+    "projective_source_trace_constraints_pass": true,
+    "projective_symmetry_of_combined_wheeler_matter_action_established": false,
+    "same_action_hook17_complete": false,
+    "source_map_status": "CONVENTION_MATCHED_LINEAR_VARIATIONAL_MAP_NOT_FULL_SAME_ACTION_COMPLETION",
+    "strict_complete_operating_target_j": 10000000.0,
+    "sub100j_capacity_tuning_authorized": false,
+    "subgate": "PERCACCI_SEZGIN_PROJECTIVE_1PLUS_EXACT_SOURCE_PROJECTOR_WARD",
+    "torsion_free_projected_rest_1plus_current_nonzero": true,
+    "torsion_free_source_projection_identity_pass": true,
+    "torsion_free_source_projection_reconstructed": true,
+    "universal_physical_metric_established": false,
+    "v26b1_metric_numerator_same_action_derived": false,
+    "v26d_fallback_status": "PRESERVED",
+    "v26e_status": "PAUSED_NOT_CLOSED",
+    "wheeler_to_ps_source_map_reconstructed": true
+  },
+  "torsion_free_projection": {
+    "component_norm_is_physical_energy": false,
+    "torsion_free_expected_components_pass": true,
+    "torsion_free_first_third_symmetric": true,
+    "torsion_free_first_third_symmetry_error": 0.0,
+    "torsion_free_nonzero_components": [
+      {
+        "a": 3,
+        "b": 2,
+        "c": 0,
+        "value": 4.0
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "c": 2,
+        "value": 4.0
+      },
+      {
+        "a": 3,
+        "b": 0,
+        "c": 2,
+        "value": 4.0
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "c": 3,
+        "value": 4.0
+      }
+    ],
+    "torsion_free_projection_reconstructed": true,
+    "torsion_free_source_norm": 8.0
+  }
+}

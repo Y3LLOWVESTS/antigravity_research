@@ -1,0 +1,250 @@
+{
+  "clean_a9_special_source": {
+    "clean_exact_1plus_pole_numerator": 1.4399999999999995,
+    "clean_exact_1plus_pole_numerator_nonzero": true,
+    "clean_exact_1plus_pole_overlap": true,
+    "clean_projective_trace_pass": true,
+    "clean_source_alone_proves_matter_action_projective_invariance": false,
+    "clean_source_is_special_projective_subspace_witness": true
+  },
+  "local_sigma_completion": {
+    "equation_count": 40,
+    "hand_solved_sigma_is_wheeler_metric_stress": false,
+    "inverse_q_squared_used": false,
+    "inverse_q_used": false,
+    "local_first_derivative_symmetric_sigma_completion_exists": true,
+    "matrix_rank": 40,
+    "maximum_other_s_coefficient": 6.160986591069908e-15,
+    "maximum_polynomial_residual": 6.561328606099563e-15,
+    "nonlocal_repair_used": false,
+    "residual_norm": 1.1421309405318099e-14,
+    "s_032": 4.000000000000001,
+    "s_302": 4.000000000000001,
+    "sigma_coefficient_symmetry_error": 0.0,
+    "unique_solution": true,
+    "unknown_count": 40
+  },
+  "local_sigma_ward_witnesses": {
+    "all_witnesses_pass": true,
+    "maximum_witness_residual_norm": 1.3132254734611134e-14,
+    "rows": [
+      {
+        "connection_term": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full_ward_residual": [
+          0.0,
+          0.0,
+          -5.122466834224306e-17,
+          0.0
+        ],
+        "full_ward_residual_norm": 5.122466834224306e-17,
+        "metric_term": [
+          0.0,
+          0.0,
+          -5.122466834224306e-17,
+          0.0
+        ],
+        "name": "MASSIVE_1PLUS_REST",
+        "pass": true,
+        "q": [
+          0.42426406871192845,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "connection_term": [
+          0.0,
+          0.0,
+          0.0,
+          8.0
+        ],
+        "full_ward_residual": [
+          -1.6539912557551863e-15,
+          -4.9427014511852755e-16,
+          -1.1602751270278714e-15,
+          0.0
+        ],
+        "full_ward_residual_norm": 2.079958754607805e-15,
+        "metric_term": [
+          -1.6539912557551863e-15,
+          -4.9427014511852755e-16,
+          -1.1602751270278714e-15,
+          -8.0
+        ],
+        "name": "GENERIC_MIXED",
+        "pass": true,
+        "q": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "connection_term": [
+          2.8800000000000003,
+          0.0,
+          0.0,
+          2.2399999999999998
+        ],
+        "full_ward_residual": [
+          -7.105427357601002e-15,
+          -1.079128409864457e-15,
+          -2.2402728928930786e-15,
+          3.552713678800501e-15
+        ],
+        "full_ward_residual_norm": 8.324194446148472e-15,
+        "metric_term": [
+          -2.8800000000000074,
+          -1.079128409864457e-15,
+          -2.2402728928930786e-15,
+          -2.239999999999996
+        ],
+        "name": "FULL_DIRECTION",
+        "pass": true,
+        "q": [
+          0.7,
+          -0.2,
+          0.4,
+          0.9
+        ]
+      },
+      {
+        "connection_term": [
+          8.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full_ward_residual": [
+          -1.2434497875801753e-14,
+          3.814523890136763e-15,
+          -5.864578217182624e-16,
+          1.7160570230384542e-15
+        ],
+        "full_ward_residual_norm": 1.3132254734611134e-14,
+        "metric_term": [
+          -8.000000000000012,
+          3.814523890136763e-15,
+          -5.864578217182624e-16,
+          1.7160570230384542e-15
+        ],
+        "name": "SPATIAL_DIAGONAL",
+        "pass": true,
+        "q": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "sigma_is_local_first_derivative": true,
+    "sigma_is_symmetric": true,
+    "sigma_was_derived_from_wheeler_metric_variation": false,
+    "witness_count": 4
+  },
+  "projective_source_identity": {
+    "analytic_trace_formula_reconstruction_pass": true,
+    "clean_state_zero_trace_implies_full_action_identity": false,
+    "complete_hermitian_probe_basis": true,
+    "d1_trace": [
+      0.0,
+      2.0,
+      0.0,
+      0.0
+    ],
+    "d1_trace_norm": 2.0,
+    "expected_hermitian_dimension": 16,
+    "hermitian_probe_count": 16,
+    "i01_trace": [
+      -0.4999999999999999,
+      1.9999999999999996,
+      0.0,
+      0.4999999999999999
+    ],
+    "i01_trace_norm": 2.121320343559642,
+    "interpretation": "PROJECTIVE TRACE IS NOT AN IDENTITY OF THE UNMODIFIED WHEELER DIRAC SOURCE",
+    "maximum_analytic_reconstruction_error": 0.0,
+    "maximum_projective_trace_norm": 2.121320343559642,
+    "projective_compatible_probe_count": 3,
+    "projective_compatible_probe_names": [
+      "D0",
+      "D3",
+      "R03"
+    ],
+    "projective_incompatible_probe_count": 13,
+    "projective_incompatible_probe_names": [
+      "D1",
+      "D2",
+      "R01",
+      "R02",
+      "R12",
+      "R13",
+      "R23",
+      "I01",
+      "I02",
+      "I03",
+      "I12",
+      "I13",
+      "I23"
+    ],
+    "unmodified_wheeler_projective_source_identity": false
+  },
+  "summary": {
+    "a9_exact_1plus_pole_numerator": 1.4399999999999995,
+    "a9_exact_1plus_pole_overlap_preserved": true,
+    "a9_provenance_pass": true,
+    "actual_wheeler_metric_stress_derived": false,
+    "analytic_projective_trace_reconstruction_pass": true,
+    "branch": "032H17A9R1",
+    "capacity_recalculation_authorized": false,
+    "certified_sub10mj_model_found": false,
+    "claim_scope": "UNMODIFIED WHEELER DIRAC MATTER SOURCE VERSUS PERCACCI-SEZGIN PROJECTIVE SYMMETRY, PLUS A LOCAL DIFFEOMORPHISM-WARD COMPLETION EXISTENCE PREFILTER",
+    "clean_a9_projective_special_state_pass": true,
+    "decision": "RED_SCOPED_A9R1_UNMODIFIED_WHEELER_DIRAC_MATTER_FAILS_PERCACCI_SEZGIN_PROJECTIVE_SOURCE_IDENTITY__CLEAN_A9_POLE_SURVIVES_AND_PROJECTIVE_MATTER_COMPLETION_REMAINS_OPEN",
+    "diffeomorphism_local_completion_obstruction": false,
+    "direct_unmodified_wheeler_ps_same_action_closed": true,
+    "energy_optimization_authorized": false,
+    "finite_payload_antigravity_established": false,
+    "full_diffeomorphism_matter_ward_established": false,
+    "full_matter_noether_current_established": false,
+    "h17b_authorized": false,
+    "hook17_closed": false,
+    "hook17_complete_energy_j": null,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "local_sigma_is_same_action_wheeler_metric_stress": false,
+    "local_sigma_linear_system_rank": 40,
+    "local_sigma_max_polynomial_residual": 6.561328606099563e-15,
+    "local_sigma_s032": 4.000000000000001,
+    "local_sigma_unique": true,
+    "local_sigma_ward_witnesses_pass": true,
+    "local_symmetric_sigma_completion_exists": true,
+    "localized_onshell_source_established": false,
+    "maximum_projective_trace_norm": 2.121320343559642,
+    "next": "032H17A9R2_PROJECTIVELY_COMPLETED_DIRAC_MATTER_ACTION_GATE",
+    "next_scientific_question": "Can one construct a local covariant projectively invariant Dirac matter action whose variational hypermomentum satisfies the P&S trace identities identically, preserves the clean A9 healthy 1+ pole source, and supplies sigma_ab from the same variational action?",
+    "physical_antigravity_model_found": false,
+    "practical_device_found": false,
+    "projectively_completed_wheeler_matter_action_closed": false,
+    "same_action_hook17_complete": false,
+    "source_state_restriction_alone_accepted_as_gauge_invariance": false,
+    "strict_complete_operating_target_j": 10000000.0,
+    "sub100j_capacity_tuning_authorized": false,
+    "subgate": "PERCACCI_SEZGIN_WHEELER_SAME_ACTION_MATTER_NOETHER_PREFLIGHT",
+    "universal_physical_metric_established": false,
+    "unmodified_wheeler_projective_source_identity": false,
+    "v26b1_metric_numerator_same_action_derived": false,
+    "v26d_fallback_status": "PRESERVED",
+    "v26e_status": "PAUSED_NOT_CLOSED",
+    "wheeler_hermitian_probe_count": 16,
+    "wheeler_projective_compatible_probe_count": 3,
+    "wheeler_projective_incompatible_probe_count": 13
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "state_atlas": [
+    {
+      "antiparticle_component_index": 2,
+      "component_norm_is_lorentz_invariant": false,
+      "component_norm_is_physical_energy": false,
+      "direct_trace_carrier_overlap_nonzero": true,
+      "full_weyl_dilation_trace": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "full_weyl_dilation_trace_norm": 0.0,
+      "full_weyl_dilation_trace_zero": true,
+      "full_wheeler_source_component_norm": 8.0,
+      "full_wheeler_source_zero": false,
+      "historical_clean_pair": false,
+      "hook_source_component_norm": 5.656854249492381,
+      "maximum_direct_trace_carrier_overlap": 8.0,
+      "pair_id": "U1_V1",
+      "particle_component_index": 0,
+      "rest_frame_so3_screen_is_exact_pole_projector": false,
+      "so3_combined_spin1_screen_norm": 2.6666666666666665,
+      "so3_spin1_spatial_trace_norm": 2.6666666666666665,
+      "so3_spin1_zero_zero_i_norm": 0.0,
+      "so3_spin2_zero_ij_stf_norm": 1.8856180831641267,
+      "so3_spin3_spatial_stf_norm": 4.131182235954578,
+      "totally_symmetric_lorentz_trace_covector": [
+        0.0,
+        -2.6666666666666665,
+        0.0,
+        0.0
+      ],
+      "totally_symmetric_lorentz_trace_norm": 2.6666666666666665,
+      "totally_symmetric_source_component_norm": 5.656854249492381,
+      "totally_symmetric_trace_nonzero": true,
+      "trace_carrier_basis_tests": [
+        {
+          "basis_index": 0,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 1,
+          "direct_contraction": -8.0,
+          "identity_pass": true,
+          "predicted_contraction": -8.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 2,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 3,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        }
+      ],
+      "trace_carrier_identity_all_pass": true
+    },
+    {
+      "antiparticle_component_index": 3,
+      "component_norm_is_lorentz_invariant": false,
+      "component_norm_is_physical_energy": false,
+      "direct_trace_carrier_overlap_nonzero": false,
+      "full_weyl_dilation_trace": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "full_weyl_dilation_trace_norm": 0.0,
+      "full_weyl_dilation_trace_zero": true,
+      "full_wheeler_source_component_norm": 11.313708498984761,
+      "full_wheeler_source_zero": false,
+      "historical_clean_pair": true,
+      "hook_source_component_norm": 9.237604307034013,
+      "maximum_direct_trace_carrier_overlap": 0.0,
+      "pair_id": "U1_V2",
+      "particle_component_index": 0,
+      "rest_frame_so3_screen_is_exact_pole_projector": false,
+      "so3_combined_spin1_screen_norm": 0.0,
+      "so3_spin1_spatial_trace_norm": 0.0,
+      "so3_spin1_zero_zero_i_norm": 0.0,
+      "so3_spin2_zero_ij_stf_norm": 3.7712361663282534,
+      "so3_spin3_spatial_stf_norm": 0.0,
+      "totally_symmetric_lorentz_trace_covector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "totally_symmetric_lorentz_trace_norm": 0.0,
+      "totally_symmetric_source_component_norm": 6.531972647421808,
+      "totally_symmetric_trace_nonzero": false,
+      "trace_carrier_basis_tests": [
+        {
+          "basis_index": 0,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 1,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 2,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 3,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        }
+      ],
+      "trace_carrier_identity_all_pass": true
+    },
+    {
+      "antiparticle_component_index": 2,
+      "component_norm_is_lorentz_invariant": false,
+      "component_norm_is_physical_energy": false,
+      "direct_trace_carrier_overlap_nonzero": false,
+      "full_weyl_dilation_trace": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "full_weyl_dilation_trace_norm": 0.0,
+      "full_weyl_dilation_trace_zero": true,
+      "full_wheeler_source_component_norm": 0.0,
+      "full_wheeler_source_zero": true,
+      "historical_clean_pair": false,
+      "hook_source_component_norm": 0.0,
+      "maximum_direct_trace_carrier_overlap": 0.0,
+      "pair_id": "U2_V1",
+      "particle_component_index": 1,
+      "rest_frame_so3_screen_is_exact_pole_projector": false,
+      "so3_combined_spin1_screen_norm": 0.0,
+      "so3_spin1_spatial_trace_norm": 0.0,
+      "so3_spin1_zero_zero_i_norm": 0.0,
+      "so3_spin2_zero_ij_stf_norm": 0.0,
+      "so3_spin3_spatial_stf_norm": 0.0,
+      "totally_symmetric_lorentz_trace_covector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "totally_symmetric_lorentz_trace_norm": 0.0,
+      "totally_symmetric_source_component_norm": 0.0,
+      "totally_symmetric_trace_nonzero": false,
+      "trace_carrier_basis_tests": [
+        {
+          "basis_index": 0,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 1,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 2,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 3,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        }
+      ],
+      "trace_carrier_identity_all_pass": true
+    },
+    {
+      "antiparticle_component_index": 3,
+      "component_norm_is_lorentz_invariant": false,
+      "component_norm_is_physical_energy": false,
+      "direct_trace_carrier_overlap_nonzero": true,
+      "full_weyl_dilation_trace": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "full_weyl_dilation_trace_norm": 0.0,
+      "full_weyl_dilation_trace_zero": true,
+      "full_wheeler_source_component_norm": 8.0,
+      "full_wheeler_source_zero": false,
+      "historical_clean_pair": false,
+      "hook_source_component_norm": 5.656854249492381,
+      "maximum_direct_trace_carrier_overlap": 8.0,
+      "pair_id": "U2_V2",
+      "particle_component_index": 1,
+      "rest_frame_so3_screen_is_exact_pole_projector": false,
+      "so3_combined_spin1_screen_norm": 2.6666666666666665,
+      "so3_spin1_spatial_trace_norm": 2.6666666666666665,
+      "so3_spin1_zero_zero_i_norm": 0.0,
+      "so3_spin2_zero_ij_stf_norm": 1.8856180831641267,
+      "so3_spin3_spatial_stf_norm": 4.131182235954578,
+      "totally_symmetric_lorentz_trace_covector": [
+        0.0,
+        2.6666666666666665,
+        0.0,
+        0.0
+      ],
+      "totally_symmetric_lorentz_trace_norm": 2.6666666666666665,
+      "totally_symmetric_source_component_norm": 5.656854249492381,
+      "totally_symmetric_trace_nonzero": true,
+      "trace_carrier_basis_tests": [
+        {
+          "basis_index": 0,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 1,
+          "direct_contraction": 8.0,
+          "identity_pass": true,
+          "predicted_contraction": 8.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 2,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        },
+        {
+          "basis_index": 3,
+          "direct_contraction": 0.0,
+          "identity_pass": true,
+          "predicted_contraction": 0.0,
+          "relative_error": 0.0
+        }
+      ],
+      "trace_carrier_identity_all_pass": true
+    }
+  ],
+  "summary": {
+    "agminer_database_mutation_authorized": false,
+    "all_full_weyl_dilation_traces_zero": true,
+    "arbitrary_rank3_source_inserted": false,
+    "bms_totally_symmetric_trace_vector_candidate_reopened_by_state_engineering": true,
+    "branch": "032H17A10A",
+    "canonical_source_charge_per_joule_established": false,
+    "certified_sub10mj_model_found": false,
+    "complete_energy_established": false,
+    "decision": "GREEN_A10A_REST_BASIS_TRACE_VECTOR_ESCAPE_SOURCE_LEVEL_ONLY",
+    "energy_optimization_authorized": false,
+    "engineered_maximum_direct_trace_carrier_overlap": 8.0,
+    "engineered_pair_full_torsion_source_reconstructed": false,
+    "engineered_pair_torsion_cancellation_established": false,
+    "engineered_trace_component_magnitude": 2.6666666666666665,
+    "engineered_trace_equal_and_opposite": true,
+    "engineered_trace_exact_values_reproduced": true,
+    "exact_bms_physical_pole_projector_evaluated_for_engineered_state": false,
+    "exact_bms_tensor_gauge_source_ward_evaluated": false,
+    "exact_massive_1minus_projector_evaluated_for_engineered_state": false,
+    "exactly_target_passes": false,
+    "expected_engineered_pair_set_reproduced": true,
+    "finite_payload_outward_response_established": false,
+    "geometry_optimization_authorized": false,
+    "historical_clean_pair_id": "U1_V2",
+    "historical_clean_pair_trace_zero_reproduced": true,
+    "historical_clean_source_zero_generalized_to_all_rest_states": false,
+    "hook17_closed": false,
+    "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+    "hook17_reference_capacity_transferred_to_new_carrier": false,
+    "localized_stationary_many_body_source_established": false,
+    "microscopic_nonmetricity_source_formula": "WHEELER_V24_DIRAC_SOURCE",
+    "microscopic_nonmetricity_source_provenance_preserved_under_state_change": true,
+    "next": "032H17A10B_BMS_PROTECTED_SPIN1_EXACT_WARD_TORSION_AND_POLE_PROJECTOR_GATE",
+    "next_scientific_question": "Does the exact symmetry operator of the protected BMS totally-symmetric massless spin-one theory admit either spin-engineered Wheeler rest source after the full source Ward identity is imposed, while the complete Dirac torsion and nonmetricity source and physical pole projector remain nonzero and healthy?",
+    "partial_green": true,
+    "particle_antiparticle_pair_count": 4,
+    "physical_antigravity_model_found": false,
+    "rest_component_basis_size": 4,
+    "source_support_energy_established": false,
+    "source_texture_ward_compatible": false,
+    "spin_engineered_nonzero_pair_count": 2,
+    "spin_engineered_nonzero_pair_ids": [
+      "U1_V1",
+      "U2_V2"
+    ],
+    "spin_engineered_rest_pair_trace_escape_exists": true,
+    "strict_complete_operating_target_j": 10000000.0,
+    "subgate": "SPIN_ENGINEERED_INTRINSIC_DIRAC_REST_SOURCE_STATE_PREFILTER",
+    "trace_carrier_identity_all_pairs_pass": true,
+    "true_standoff_established": false,
+    "u2_v1_null_source_reproduced": true,
+    "universal_physical_metric_established": false
+  }
+}

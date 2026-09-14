@@ -1,42 +1,64 @@
 # AGMINER BUILD PLAN
 
-## Physics-Aware Antigravity Model Discovery, Mechanism Learning, Falsification, Rejection Memory, HOOK17 Physicalization, and Certification Control
+## Physics-Aware Antigravity Model Discovery, Mechanism Learning, Falsification, Failure Memory, HOOK17 Physicalization, V26D Active-State Fallback, and Certification Control
 
 **Project:** `ANTIGRAVITY_RESEARCH`
 
 **Subsystem:** `AGMINER`
 
-**Date:** 2026-09-07
+**Date:** 2026-09-08
 
 **Initial development branch:** `032A`
 
-**Current active research program:** `032H17 — HOOK17 PHYSICALIZATION AND RESCUE`
-
 **Parent research program:** `032 — AGMINER-GUIDED ANTIGRAVITY`
 
-**Latest completed scientific phase:** `032V26D`
+**Primary high-value mechanism program:** `032H17 — HOOK17 PHYSICALIZATION AND RESCUE`
 
-**Latest completed HOOK17 physical-consistency phase:** `032V26C`
+**Current immediate executable frontier:** `032V26E1B2_QUADRATIC_ACTIVE_STATE_HEALTHY_SCALAR_PHYSICAL_G00_CROSSPROP_AND_UV_DESCENDANT_GATE`
 
-**Immediate next phase:** `032H17A_HOOK17_RESCUE_FAMILY_THEOREM_AND_ACTION_ATLAS`
+**Latest completed scientific phase:** `032V26E1B1`
 
-**Current AGMINER mode:** `THEOREM_FIRST_ACTION_FAMILY_RESCUE_AND_CANDIDATE_SPECIFIC_FALSIFICATION`
+**Latest completed HOOK17 physical-consistency phase:** `032H17A9R3`
 
-**Primary exploratory frontier:** `HOOK17`
+**Latest completed V26D fallback phase:** `032V26E1B1`
 
-**Preserved fallback frontier:** `032V26D_PROTECTED_CT1_DHOST_KMM`
+**Current AGMINER mode:** `THEOREM_FIRST_CANDIDATE_SPECIFIC_PHYSICALIZATION_AND_FALSIFICATION`
 
-**Paused fallback next gate:** `032V26E_STATIC_SPACELIKE_PRINCIPAL_SYMBOL_CROSSPROP_AND_NUMERATOR_BOUND`
+**Primary high-value mechanism frontier:** `HOOK17`
+
+**Current active executable branch:** `V26D / V26E1B1 QUADRATIC ACTIVE-STATE COMPLETION`
+
+**Current best HOOK17 carrier:** `PERCACCI_SEZGIN_PROJECTIVE_1PLUS`
+
+**Current best HOOK17 carrier status:** `YELLOW_BLOCKED_ON_TECHNICAL_NATURALNESS_PROTECTION`
+
+**HOOK17 globally closed:** `NO`
+
+**Preserved HOOK17 restart condition:** `RESUME WITH GENUINELY NEW PROTECTED CARRIER IF V26D FALLBACK FAILS`
 
 **HOOK17 nominal canonical capacity reference, $R_P=1$:** `~1.706764422e-5 J`
 
 **HOOK17 conservative stress-test capacity reference, $R_P=1e12$:** `~17.0676442196 J`
 
+**HOOK17 reference capacity normalized to >=1 g at >=1 m:** `NO`
+
 **HOOK17 complete operating energy:** `UNKNOWN`
+
+**V26D/E1B1 field capacity:** `UNKNOWN`
+
+**V26D/E1B1 complete operating energy:** `UNKNOWN`
+
+**HOOK17 capacity transfers to V26D:** `NO`
 
 **Current complete physical-model energy leader:** `NONE`
 
 **Current certified survivor count:** `0`
+
+**Internal overall knowledge/accomplishment heuristic:** `~75%`
+
+**Internal HOOK17-specific progress/accomplishment heuristic:** `~68%`
+
+**These heuristics are probabilities of success:** `NO`
 
 **Current hard energy policy:**
 
@@ -48,9 +70,25 @@ E_CONSERVATIVE_COMPLETE_OPERATING < 10 MJ
 
 **Energy policy ID:** `ENERGY_ab8c16e45c837ffc`
 
+**Minimum outward acceleration:**
+
+```text
+MIN_OUTWARD_ACCELERATION_M_S2 = 9.80665
+```
+
+**Minimum true stand-off:**
+
+```text
+MIN_TRUE_STANDOFF_M = 1.0
+```
+
+**Performance above either floor:** `FAVORABLE`
+
+**Finite neutral payload:** `REQUIRED`
+
 **Historical protected regression baseline:** `94 passed`
 
-**Current full regression suite:** `673 passed`
+**Current full regression suite:** `910 passed`
 
 **Last preserved approximate AGMINER database state:**
 
@@ -59,18 +97,18 @@ MODEL_COUNT               ~101050
 REJECTION_COUNT           ~95600
 ACTION_ORACLE_COUNT       8
 COLLECTIVE_SCALING_COUNT  2
-MECHANISM_METRIC_COUNT    0
-MECHANISM_PARETO_COUNT    0
 CERTIFIED_SURVIVOR_COUNT  0
 ```
 
-The model/rejection counts are approximate historical database state and should be queried from the live SQLite database before publishing an exact count.
+The model/rejection counts above are approximate historical database state and must be queried from the live SQLite database before publishing an exact number.
 
 **Physical antigravity model found:** `NO`
 
 **Certified sub-10-MJ model found:** `NO`
 
 **HOOK17 physical model found:** `NO`
+
+**V26D physical antigravity model found:** `NO`
 
 **Practical device:** `NO`
 
@@ -103,17 +141,29 @@ VERIFY SAME-ACTION CHAINS
 +
 TEST MICROSCOPIC SOURCE EXISTENCE
 +
-TEST WARD / GAUGE COMPATIBILITY
+TEST SOURCE WARD / GAUGE COMPATIBILITY
 +
 IDENTIFY HEALTHY PROPAGATING MODES
 +
-RECONSTRUCT PHYSICAL METRIC RESPONSE
+TEST SOURCE PROJECTORS
++
+RECONSTRUCT THE UNIVERSAL PHYSICAL METRIC
++
+ELIMINATE CONSTRAINTS
++
+AUDIT FIELD REDEFINITIONS
++
+TEST PHYSICAL SOURCE->METRIC CROSS RESPONSE
 +
 MEASURE FINITE-PAYLOAD OBSERVABLES
 +
+TEST TRUE EXTERNAL STANDOFF
++
 ACCOUNT FOR COMPLETE ENERGY
 +
-TEST QUANTUM / UV / EMPIRICAL CONSISTENCY
+TEST NATURALNESS / QUANTUM / RG / UV
++
+TEST EMPIRICAL CONSISTENCY
 +
 REMEMBER EVERY DURABLE FAILURE
 +
@@ -124,17 +174,19 @@ The governing philosophy remains:
 
 > **The best AGMINER calculation is the cheapest calculation that permanently answers the most important physical question.**
 
-The new HOOK17 program sharpens this further:
+For HOOK17:
 
-> **Do not optimize the 17-J number. Find a physically consistent same-action theory that preserves the mechanism responsible for the low capacity.**
+> **Do not chase 17 J. Chase a physically consistent same-action theory that preserves why 17 J was possible.**
+
+For the current V26D fallback:
+
+> **Do not optimize the quadratic active-state energy before proving that a healthy scalar and a nonremovable physical $g_{00}$ response actually exist.**
 
 ---
 
 # 1. Current scientific state
 
-The previous AGMINER buildplan centered on the V17/V18 kinetic-conformal candidate.
-
-That frontier has advanced substantially.
+The AGMINER scientific sequence has advanced far beyond the earlier H17A-atlas frontier.
 
 The completed sequence now includes:
 
@@ -171,79 +223,134 @@ NONLINEAR DIRAC-HOOK METRIC NUMERATOR
 032V26B1R1
 TWO-MEDIATOR QUANTUM-FORCE
 +
-CANONICAL CAPACITY PREFLIGHT
+HOOK17 CANONICAL CAPACITY PREFLIGHT
 
 032V26C
 PROTECTED HOOK SAME-ACTION WARD FALSIFICATION
 
 032V26D
-PROTECTED cT=1 DHOST/KMM ACTION SCAFFOLD.
+PROTECTED cT=1 DHOST/KMM ACTION SCAFFOLD
+
+032H17A6
+J11 / MINIMAL COMPENSATOR PREFILTER
+
+032H17A6R1
+EXACT MASSLESS SINGLE-COMPENSATOR CLOSEOUT
+
+032H17A6R2
+PROTECTED MASSIVE 1MINUS SOURCE-PROJECTOR CLOSEOUT
+
+032H17A7
+BARKER-ZELL ISO-WEYL DIRECT CLEAN-SOURCE CLOSEOUT
+
+032H17A8
+PROTECTED 2PLUS ATLAS
++
+PERCACCI-SEZGIN PROJECTIVE 1PLUS PROMOTION
+
+032H17A9
+EXACT HEALTHY P&S 1PLUS POLE OVERLAP
+
+032H17A9R1
+UNMODIFIED WHEELER PROJECTIVE SOURCE FAILURE
++
+UNIQUE LINEARIZED METRIC-STRESS WARD COMPLETION
+
+032H17A9R2
+ACTION-LEVEL PROJECTIVE DIRAC COMPLETION
+
+032H17A9R3
+COVARIANT PROJECTOR
++
+SAME-ACTION CLEAN LINEARIZED METRIC STRESS
++
+TECHNICAL-NATURALNESS BLOCK
+
+032V26E0
+STATIC-SPACELIKE TENSOR PRINCIPAL-SYMBOL GATE
+
+032V26E1A
+EXACT CLASS-Ia EINSTEIN-FRAME MAP
+
+032V26E1B0
+PURE-j0 PROVENANCE COLLISION
++
+V17/V19 FAILURE-MEMORY TRANSFER
+
+032V26E1B1
+QUADRATIC ACTIVE-STATE CONFORMAL ESCAPE
++
+RADIATIVE-HEADROOM PREFLIGHT.
 ```
 
 Current full regression:
 
 ```text
-673 PASSED.
+910 PASSED.
 ```
 
 ---
 
-# 2. Strategic frontier change
+# 2. Strategic frontier state
 
-The primary frontier is now:
+The project now has two distinct high-value frontiers.
 
-```text
-HOOK17.
-```
-
-HOOK17 is not the name of a completed model.
-
-It is the internal name for the low-capacity nonlinear intrinsic-hook architecture uncovered by V26B1/B1R1.
-
-The defining partial result is:
+## 2.1 Primary mechanism program
 
 ```text
-CANONICAL FIELD CAPACITY
-AT
-R_P = 1e12
-
-≈ 17.0676442196 J.
+032H17
+HOOK17 PHYSICALIZATION AND RESCUE
 ```
 
-The nominal $R_P=1$ capacity is even smaller:
+HOOK17 remains the project's most striking low-capacity mechanism.
+
+It has now survived much deeper physicalization than its original algebraic numerator.
+
+However, the best currently tested P&S carrier is blocked at:
 
 ```text
-≈ 1.706764422e-5 J.
+TECHNICAL NATURALNESS / PROTECTION.
 ```
 
-The field-capacity term alone would not reach the strict $10,\mathrm{MJ}$ project target until an enormous projector penalty of approximately:
+HOOK17 itself is not closed.
+
+---
+
+## 2.2 Immediate executable branch
+
+The immediate executable frontier is:
 
 ```text
-R_P
-≈
-3.432834272661e23.
+032V26E1B2
 ```
 
-This is scientifically important because:
+built on the independent protected:
 
 ```text
-ENERGY
-DID NOT KILL
-THE TESTED HOOK17 REALIZATION.
+cT=1 DHOST / KMM
 ```
 
-The easiest tested implementation was instead killed by:
+fallback.
+
+V26E1B1 produced a specific:
 
 ```text
-SAME-ACTION
-GAUGE / WARD COMPATIBILITY.
+PROMISING_CONDITIONAL_ACTIVE_STATE_COMPLETION
 ```
 
-Therefore the active problem is now:
+which is sufficiently different from the closed linear V17/V19 class to justify one more serious physical gate.
+
+Therefore:
 
 ```text
-PHYSICALIZE THE LOW-CAPACITY MECHANISM.
+PRIMARY_HIGH_VALUE_MECHANISM=
+HOOK17
+
+IMMEDIATE_EXECUTABLE_CANDIDATE=
+V26D_E1B1_QUADRATIC_ACTIVE_STATE
 ```
+
+These must not be conflated.
 
 ---
 
@@ -274,17 +381,10 @@ CERTIFIED ANTIGRAVITY ENERGY.
 The correct label is:
 
 ```text
-HOOK17_REFERENCE_CANONICAL_CAPACITY_J
+HOOK17_REFERENCE_CANONICAL_CAPACITY_J.
 ```
 
-with:
-
-```text
-REFERENCE_PROJECTOR_PENALTY =
-1e12.
-```
-
-Define permanently:
+Permanent notation:
 
 ```math
 E_{\rm HOOK17,capacity}
@@ -308,18 +408,94 @@ E_HOOK17_COMPLETE
 UNKNOWN.
 ```
 
-No extrapolation such as:
+---
+
+# 4. HOOK17 17-J normalization caveat
+
+The historical HOOK17 capacity reference was not calculated at the finalized macroscopic benchmark:
 
 ```text
-17 J FIELD
-=> 34 J MODEL
+OUTWARD ACCELERATION >= 1 g
+
+TRUE EXTERNAL STANDOFF >= 1 m.
 ```
 
-is permitted.
+The earlier capacity calculation used a smaller characteristic scale.
+
+Therefore:
+
+```text
+HOOK17_17J_AT_1G_1M=
+NOT_ESTABLISHED.
+```
+
+If a HOOK17 physical realization survives, the capacity must be reconstructed explicitly at:
+
+```text
+MIN_OUTWARD_ACCELERATION_M_S2=9.80665
+
+MIN_TRUE_STANDOFF_M=1.0.
+```
+
+Do not simply extrapolate the 17-J number by an informal scaling argument.
 
 ---
 
-# 4. Energy policy remains unchanged
+# 5. Permanent macroscopic performance floor
+
+AGMINER now carries an explicit output floor:
+
+```text
+MIN_OUTWARD_ACCELERATION_M_S2=
+9.80665
+
+MIN_TRUE_STANDOFF_M=
+1.0
+
+FINITE_NEUTRAL_PAYLOAD=
+REQUIRED
+
+TRUE_EXTERNAL_STANDOFF=
+REQUIRED.
+```
+
+The requirements are floors.
+
+Therefore:
+
+```text
+2 g AT 1 m
+=
+FAVORABLE
+
+1 g AT 3 m
+=
+FAVORABLE
+
+3 g AT 5 m
+=
+FAVORABLE.
+```
+
+A candidate fails if either minimum is missed.
+
+Examples:
+
+```text
+2 g AT 0.5 m
+=
+FAIL STANDOFF
+
+0.5 g AT 5 m
+=
+FAIL ACCELERATION.
+```
+
+The finite payload must be universally coupled through one physical metric.
+
+---
+
+# 6. Energy policy remains unchanged
 
 Current practicality requirement:
 
@@ -354,17 +530,13 @@ rather than:
 LE.
 ```
 
-HOOK17 does not change this policy.
-
-The low partial capacity gives the architecture headroom.
-
-It does not relax certification.
+No partial low-energy result changes this policy.
 
 ---
 
-# 5. Complete energy remains the governing quantity
+# 7. Complete energy remains the governing quantity
 
-For every HOOK17 realization eventually require:
+For every eventual candidate require:
 
 ```math
 E_{\rm complete}
@@ -376,6 +548,8 @@ E_{\rm mediator}
 E_{\rm active\ field}
 +
 E_{\rm compensator}
++
+E_{\rm symmetry\ breaking}
 +
 E_{\rm support}
 +
@@ -403,6 +577,8 @@ E_{\rm offstate}
 +
 E_{\rm required\ UV\ sectors}
 +
+E_{\rm leakage}
++
 \cdots.
 ```
 
@@ -414,105 +590,52 @@ E_CONSERVATIVE_COMPLETE_OPERATING.
 
 ---
 
-# 6. HOOK17-specific energy bookkeeping
+# 8. Sub-100-J optimization rule
 
-Add permanent fields:
+Permanent AGMINER scheduling rule:
 
-```text
-E_HOOK17_CAPACITY_NOMINAL_J
+> **If a relevant modeled field/capacity term is already below approximately 100 J, do not spend research runs lowering that term solely to improve the number.**
 
-E_HOOK17_CAPACITY_RP1E12_J
-
-E_HOOK17_SOURCE_LOWER_BOUND_J
-
-E_HOOK17_SOURCE_REALIZED_J
-
-E_HOOK17_MEDIATOR_J
-
-E_HOOK17_COMPENSATOR_J
-
-E_HOOK17_SUPPORT_J
-
-E_HOOK17_CONFINEMENT_J
-
-E_HOOK17_CONTROL_J
-
-E_HOOK17_ACTIVATION_J
-
-E_HOOK17_REACTION_J
-
-E_HOOK17_RADIATION_J
-
-E_HOOK17_QUANTUM_J
-
-E_HOOK17_BACKREACTION_J
-
-E_HOOK17_OFFSTATE_J
-
-E_HOOK17_COMPLETE_LOWER_BOUND_J
-
-E_HOOK17_COMPLETE_OPERATING_J.
-```
-
-Never silently copy:
+The correct next question is:
 
 ```text
-E_HOOK17_CAPACITY
+WHAT PHYSICAL SECTOR IS STILL UNKNOWN?
 ```
 
-into:
+Examples include:
 
 ```text
-energy_j
+SOURCE
+
+HEALTH
+
+WARD
+
+METRIC RESPONSE
+
+NATURALNESS
+
+SUPPORT
+
+QUANTUM
+
+FINITE PAYLOAD
+
+OR
+COMPLETE ENERGY.
 ```
 
-for a `COMPLETE_*` ledger class.
+This rule exists specifically to prevent wasting compute chasing:
+
+```text
+17 J -> 10 J -> 1 J
+```
+
+while the actual model remains physically incomplete.
 
 ---
 
-# 7. HOOK17 capacity-retention diagnostic
-
-For comparable canonical assumptions define:
-
-```math
-R_{\rm capacity}
-=
-\frac{
-E_{\rm capacity,new}
-}{
-17.0676442196\ {\rm J}
-}.
-```
-
-Interpret only as a mechanism-retention diagnostic.
-
-Possible internal ranking bins:
-
-```text
-E_CAPACITY < 100 J
-HOOK17_ELITE_CAPACITY
-
-100 J – 1 kJ
-HOOK17_EXCEPTIONAL_CAPACITY
-
-1 kJ – 100 kJ
-HOOK17_VERY_STRONG_CAPACITY
-
-100 kJ – 1 MJ
-HOOK17_STRONG_HEADROOM
-
-1 MJ – 10 MJ
-HOOK17_POLICY_HEADROOM_ONLY
-
->=10 MJ
-HOOK17_CAPACITY_RED_UNDER_CURRENT_POLICY.
-```
-
-These bins do **not** certify complete energy.
-
----
-
-# 8. Scientific object hierarchy
+# 9. Scientific object hierarchy
 
 AGMINER must distinguish:
 
@@ -529,11 +652,17 @@ ALGEBRAIC NUMERATOR WITNESS
 
 ACTION SCAFFOLD
 
+SAME-ACTION LINEARIZED PARTIAL
+
 ACTION ORACLE
+
+HEALTHY-MODE PARTIAL
 
 MICROSCOPIC FIELD SOLUTION
 
 FINITE-PAYLOAD PARTIAL
+
+QUANTUM / EMPIRICAL SURVIVOR
 
 COMPLETE STATIC MODEL
 
@@ -542,25 +671,35 @@ COMPLETE OPERATING MODEL
 CERTIFIED SURVIVOR.
 ```
 
-HOOK17 currently occupies only:
+The current HOOK17 program contains multiple partials that have not yet been unified into one physical model.
+
+Specifically:
 
 ```text
-ALGEBRAIC NUMERATOR WITNESS
+V26B1/B1R1
+=
+QUADRATIC METRIC NUMERATOR
 +
-PARTIAL CANONICAL CAPACITY PREFLIGHT.
+ACTIVE/OFFSTATE STRUCTURE
++
+LOW CAPACITY
+
+A9-A9R3
+=
+HEALTHY POLE
++
+PROJECTIVE SOURCE COMPLETION
++
+SAME-ACTION LINEARIZED METRIC-STRESS PARTIAL.
 ```
 
-It is not yet:
+These accomplishments may be compatible.
 
-```text
-HOOK17 ACTION SCAFFOLD
-```
-
-because the tested protected massless same-action realization failed.
+They have not yet been shown to arise simultaneously in one technically natural complete action.
 
 ---
 
-# 9. HOOK17 promotion ladder
+# 10. HOOK17 promotion ladder
 
 Use explicit classes:
 
@@ -575,7 +714,11 @@ HOOK17_SAME_ACTION_SOURCE
 
 HOOK17_HEALTHY_MODE
 
-HOOK17_WARD_COMPLETE
+HOOK17_WARD_COMPLETE_PARTIAL
+
+HOOK17_SAME_ACTION_LINEARIZED_PARTIAL
+
+HOOK17_NATURALNESS_SURVIVOR
 
 HOOK17_NONREMOVABLE_METRIC_BRIDGE
 
@@ -596,17 +739,85 @@ HOOK17_CERTIFICATION_READY
 HOOK17_CERTIFIED.
 ```
 
-Promotion is monotonic only while earlier gates remain valid.
+Current best P&S carrier:
 
-Later invalidation must demote or invalidate the result explicitly.
+```text
+HOOK17_SAME_ACTION_LINEARIZED_PARTIAL
+```
+
+with:
+
+```text
+NATURALNESS_SURVIVOR=
+NO.
+```
+
+The original low-capacity V26B1/B1R1 chain remains a separate partial.
 
 ---
 
-# 10. No oracle-to-model shortcut
+# 11. V26D/E1B1 promotion ladder
 
-Permanent AGMINER rule:
+Use:
 
-> **An algebraic numerator, an action oracle, a capacity floor, a microscopic source, or a finite-payload partial is not a complete model.**
+```text
+V26D_ACTION_SCAFFOLD
+
+V26D_TENSOR_HEALTH_PARTIAL
+
+V26D_FRAME_EQUIVALENCE_PARTIAL
+
+V26D_PROVENANCE_AUDITED
+
+V26D_ACTIVE_OFFSTATE_PARTIAL
+
+V26D_SCALAR_HEALTH_PARTIAL
+
+V26D_PHYSICAL_G00_PARTIAL
+
+V26D_SIGN_PARTIAL
+
+V26D_FINITE_PAYLOAD_PARTIAL
+
+V26D_QUANTUM_EMPIRICAL_SURVIVOR
+
+V26D_COMPLETE_STATIC
+
+V26D_COMPLETE_OPERATING
+
+V26D_CERTIFICATION_READY
+
+V26D_CERTIFIED.
+```
+
+Current state:
+
+```text
+V26D_ACTIVE_OFFSTATE_PARTIAL
++
+TENSOR_HEALTH_PARTIAL
++
+FRAME_EQUIVALENCE_PARTIAL
+
+BUT
+
+SCALAR_HEALTH=
+OPEN
+
+PHYSICAL_G00=
+OPEN
+
+TECHNICAL_NATURALNESS=
+OPEN.
+```
+
+---
+
+# 12. No oracle-to-model shortcut
+
+Permanent rule:
+
+> **An algebraic numerator, an action oracle, a field capacity, a healthy pole, a microscopic source, or a finite-payload partial is not a complete model.**
 
 This applies especially to:
 
@@ -618,16 +829,22 @@ V18
 ~3.419157 MJ PARTIAL
 
 HOOK17
-~17.0676 J CAPACITY REFERENCE.
+~17.0676 J CAPACITY REFERENCE
+
+A9
+1.44 EXACT POLE NUMERATOR
+
+E1B1
+PROMISING CONDITIONAL ACTIVE-STATE COMPLETION.
 ```
 
-None is a complete operating-energy result.
+None is a complete operating-energy model.
 
 ---
 
-# 11. Introspective mechanism factorization
+# 13. Introspective mechanism factorization
 
-Continue using the mechanism decomposition:
+Continue using:
 
 ```math
 A_{\rm net}
@@ -712,14 +929,14 @@ C_{\rm cancel}
 }
 ```
 
-when these quantities are defined consistently for one physical candidate.
+when defined consistently within one physical candidate.
 
-HOOK17 search should explicitly seek:
+Search should favor:
 
 ```text
 HIGH HEALTHY-MODE SOURCE CHARGE PER JOULE
 
-HIGH METRIC NUMERATOR PER CANONICAL SOURCE CHARGE
+HIGH PHYSICAL METRIC NUMERATOR
 
 HIGH PAYLOAD KERNEL LEVERAGE
 
@@ -732,7 +949,7 @@ LOW SCAFFOLDING TAX.
 
 ---
 
-# 12. Never multiply gains across unrelated models
+# 14. Never multiply gains across unrelated models
 
 Forbidden:
 
@@ -743,16 +960,16 @@ INTROSPECTIVE KERNEL GAIN
 ×
 B7 PARTICIPATION GAIN
 ×
-COLLECTIVE GAIN
+V26D ACTIVE/OFFSTATE GAIN
 =
 PREDICTED DEVICE ENERGY.
 ```
 
-Every factor used in a quantitative total prediction must be reconstructed in the same self-consistent physical model.
+Every factor used in a quantitative prediction must be reconstructed within one self-consistent physical model.
 
 ---
 
-# 13. Canonical normalization remains Tier 0
+# 15. Canonical normalization remains Tier 0
 
 Permanent rule:
 
@@ -780,52 +997,26 @@ CONDITION NUMBER
 CANONICAL INVARIANT ID.
 ```
 
-HOOK17 is not allowed to obtain a low capacity merely by hiding normalization factors in:
-
-```text
-H
-
-M_H
-
-lambda
-
-compensator normalization
-
-or
-kinetic coefficients.
-```
-
 ---
 
-# 14. The V25F denominator-collapse lesson becomes permanent
+# 16. Principal-margin-collapse rule
 
-The tested KGB core established:
+V25F remains permanent failure memory.
 
-```math
-Z_r
-=
-D+\frac32q^2,
+Large response must not come primarily from:
+
+```text
+lambda_min(K) -> 0
+
+det(K) -> 0
+
+STRONG COUPLING
+
+OR
+A NEAR-SINGULAR FIELD MAP.
 ```
 
-```math
-N
-=
-\frac q2,
-```
-
-and:
-
-```math
-\frac{N^2}{Z_r}
-\le
-\frac16.
-```
-
-The permanent AGMINER rule is:
-
-> **Large response must come from a productive physical numerator, not from making the propagator nearly singular.**
-
-For every surviving HOOK17 action reconstruct the physical response schematically as:
+For every candidate reconstruct:
 
 ```math
 \mathcal R_{\rm phys}
@@ -835,13 +1026,13 @@ K_{\rm phys}^{-1}
 M_{\rm payload}.
 ```
 
-In the canonical eigenbasis record mode-by-mode:
+In the canonical eigenbasis record:
 
 ```math
 \mathcal R_i
 =
 \frac{
-J_i M_i
+J_iM_i
 }{
 \lambda_i
 }.
@@ -850,77 +1041,76 @@ J_i M_i
 Store:
 
 ```text
-SOURCE_PROJECTION_i = J_i
+SOURCE_PROJECTION_i
 
-METRIC_PROJECTION_i = M_i
+METRIC_PROJECTION_i
 
-PRINCIPAL_EIGENVALUE_i = lambda_i
+PRINCIPAL_EIGENVALUE_i
 
 MODE_RESPONSE_i
 
 TOTAL_RESPONSE.
 ```
 
-If useful response becomes large only because:
+Current healthy-margin references:
 
 ```text
-lambda_i -> 0,
+HOOK17 P&S:
+HEALTHY POLE EXISTS
+BUT NATURALNESS BLOCKED
+
+V26D E1B1:
+TENSOR_MARGIN ~0.993197
+
+FRAME_MAP_MARGIN ~0.975610.
 ```
 
-record:
-
-```text
-HOOK17_REJECT_PRINCIPAL_MARGIN
-```
-
-or demote the candidate accordingly.
+These are not near-singular.
 
 ---
 
-# 15. Same-action completeness becomes a Tier-0 HOOK17 gate
+# 17. Same-action completeness remains Tier 0
 
-V26B1 demonstrated the danger of combining independently interesting ingredients from different theories.
-
-A HOOK17 candidate must contain in **one declared action**:
+A candidate must contain in one declared theory:
 
 ```text
 MICROSCOPIC SOURCE
         |
         v
-PHYSICAL GEOMETRIC MODE
+HEALTHY PHYSICAL MODE
         |
         v
 UNIVERSAL PHYSICAL METRIC
         |
         v
-NEUTRAL PAYLOAD RESPONSE.
+FINITE NEUTRAL PAYLOAD.
 ```
 
-Each arrow must correspond to an explicit operator or derived constrained response.
+Each arrow must be an explicit same-action operator or derived constrained response.
 
 Forbidden:
 
 ```text
-DIRAC SOURCE FROM PAPER A
+SOURCE FROM PAPER A
 +
-HEALTHY PROPAGATOR FROM PAPER B
+PROPAGATOR FROM PAPER B
 +
 METRIC PORTAL FROM PAPER C
 =
 MODEL.
 ```
 
-Literature ingredients may motivate a construction.
+Literature may motivate the construction.
 
-They do not establish a same-action model.
+It does not complete the graph.
 
 ---
 
-# 16. Same-action graph object
+# 18. SameActionGraph
 
-AGMINER should add a conceptual `SameActionGraph`.
+Maintain the conceptual `SameActionGraph`.
 
-Recommended nodes:
+Nodes:
 
 ```text
 MICRO_SOURCE
@@ -930,6 +1120,8 @@ SOURCE_CURRENT
 GEOMETRIC_FIELD
 
 HEALTHY_EIGENMODE
+
+SCALAR_MODE_IF_RELEVANT
 
 COMPENSATOR_IF_ANY
 
@@ -942,7 +1134,7 @@ SUPPORT
 CONTROL.
 ```
 
-Recommended edge types:
+Edges:
 
 ```text
 SOURCE_VERTEX
@@ -975,7 +1167,7 @@ WARD_STATUS
 
 FIELD_REDEFINITION_STATUS
 
-PROOF / SOURCE REFERENCE.
+PROOF_REFERENCE.
 ```
 
 Define:
@@ -984,17 +1176,13 @@ Define:
 SAME_ACTION_COMPLETE=True
 ```
 
-only when the full source-to-payload graph is connected inside the same action.
+only when the source-to-payload chain is connected in one action.
 
 ---
 
-# 17. Action family becomes the top-level HOOK17 search object
+# 19. Family identity
 
-The old broad miner centered candidate parameter points.
-
-HOOK17 must begin one level higher.
-
-Top-level object:
+Top-level AGMINER identity remains:
 
 ```text
 ACTION FAMILY.
@@ -1026,13 +1214,13 @@ COMPENSATOR_ID
 MATTER_FRAME_ID.
 ```
 
-Only after family-level theorem gates pass should AGMINER generate continuous parameter candidates.
+Only after family-level theorem gates pass should continuous parameter optimization begin.
 
 ---
 
-# 18. HOOK17 family-first candidate fingerprint
+# 20. Candidate fingerprint
 
-Recommended candidate identity:
+Recommended identity:
 
 ```text
 ACTION_FAMILY_ID
@@ -1051,6 +1239,8 @@ METRIC_PORTAL_ID
 
 CANONICAL_BRANCH_ID
 
+BACKGROUND_BRANCH_ID
+
 PARAMETER_VECTOR_CANONICAL
 
 PAYLOAD_BENCHMARK_VERSION
@@ -1058,15 +1248,13 @@ PAYLOAD_BENCHMARK_VERSION
 PHYSICAL_MODEL_VERSION.
 ```
 
-The current energy policy must not be included in physical candidate identity.
+The current energy policy must not be included in physical identity.
 
 ---
 
-# 19. Ward compatibility moves ahead of numerical optimization
+# 21. Ward compatibility precedes optimization
 
-The V26C failure establishes a permanent ordering rule.
-
-For every action family:
+For every candidate family:
 
 ```text
 1.
@@ -1085,16 +1273,19 @@ DERIVE SOURCE VARIATION
 DERIVE PHYSICAL-METRIC VARIATION
 
 6.
-DERIVE COMPENSATOR VARIATION
+DERIVE COMPENSATOR VARIATION IF PRESENT
 
 7.
-CHECK TOTAL ACTION VARIATION
+DERIVE TOTAL ACTION VARIATION
 
 8.
+CHECK NOETHER / WARD IDENTITIES
+
+9.
 ONLY THEN CONTINUE.
 ```
 
-Immediate rejection if:
+Immediate rejection for:
 
 ```text
 SOURCE_WARD_FAIL
@@ -1108,35 +1299,29 @@ UNCONTROLLED_EXPLICIT_BREAKING.
 
 ---
 
-# 20. Automated Ward counterexample strategy
+# 22. Automated Ward-counterexample strategy
 
-Where possible AGMINER should generate simple high-information gauge witnesses automatically.
+AGMINER should actively search for high-information counterexamples.
 
-Examples from V26C:
-
-```text
-choose xi = J_hook
-```
-
-for direct source coupling.
-
-For quadratic metric descendants:
+Examples already learned:
 
 ```text
-choose xi = H
+DIRECT HOOK SOURCE:
+choose xi proportional to source / hook direction
+
+QUADRATIC ACTIVE METRIC:
+choose gauge variation aligned with active background.
 ```
 
-on the active background.
+The goal is not to sample random gauge functions.
 
-This is not universally sufficient for every theory, but it is an excellent theorem-first falsification pattern.
-
-The miner should actively seek a counterexample to gauge invariance rather than merely numerically checking random transformations.
+The goal is to falsify efficiently.
 
 ---
 
-# 21. HOOK17 scientific starting point
+# 23. HOOK17 durable starting point
 
-Preserve exactly:
+Preserve:
 
 ```text
 V24:
@@ -1168,30 +1353,59 @@ OFFSTATE TWO-MEDIATOR FORCE
 PRESENT
 
 V26B1R1:
-FIRST EMPIRICAL / CAPACITY PREFLIGHT
-SURVIVES
+CANONICAL CAPACITY PREFLIGHT
+EXCEPTIONALLY LOW
 
 V26C:
-TESTED PROTECTED MASSLESS HOOK DIRECT SOURCE
+DIRECT MASSLESS PROTECTED HOOK SOURCE
 WARD FAIL
 
 V26C:
-TESTED ACTIVE H^2 METRIC
-HOOK-SHIFT FAIL
+DIRECT ACTIVE H2 METRIC
+WARD FAIL
 
 V26C:
-CURRENT DIRECT PROTECTED MASSLESS H2 REALIZATION
+TESTED DIRECT MASSLESS REALIZATION
 CLOSED
 
-ALL MAG
-NOT CLOSED.
+A9:
+EXACT HEALTHY PROJECTIVE 1PLUS POLE
+PRESENT
+
+A9:
+EXACT CLEAN POLE NUMERATOR
+1.44
+
+A9R2:
+ACTION-LEVEL PROJECTIVE DIRAC COMPLETION
+PRESENT
+
+A9R3:
+COVARIANT PROJECTOR
+PASS
+
+A9R3:
+SAME-ACTION CLEAN LINEARIZED METRIC STRESS
+PASS
+
+A9R3:
+LINEARIZED DIFFEO WARD
+PASS
+
+A9R3:
+CURRENT P&S CASE-I TECHNICAL NATURALNESS
+FAIL / BLOCKED
+
+HOOK17:
+GLOBALLY CLOSED
+NO.
 ```
 
 ---
 
-# 22. HOOK17 quadratic tensor basis currently preserved
+# 24. HOOK17 algebraic tensor basis
 
-The initial useful witnesses were:
+Preserve algebraic witnesses:
 
 ```math
 A_{\mu\nu}
@@ -1224,789 +1438,1191 @@ B_00 ~35.5555555556
 C_00 ~85.3333333333.
 ```
 
-These values remain algebraic witnesses only.
+These remain algebraic witnesses.
 
-They must not be interpreted as final physical-metric coefficients before action/symmetry/canonical completion.
+Do not interpret them as final physical metric coefficients without the same-action completion.
 
 ---
 
-# 23. HOOK17 rescue family priority ranking
+# 25. Completed HOOK17 rescue-family sequence
 
-The highest-priority physically distinct families are:
+The earlier family atlas is now historical/completed work.
+
+## A6
+
+Closed:
 
 ```text
-H17-F1
-COMPENSATOR / STUECKELBERG / HIGGSED HOOK
+DIRECT J11 CLEAN SOURCE
 
-H17-F2
-OTHER PROTECTED METRIC-AFFINE HEALTHY-MODE PROJECTORS
+MINIMAL VECTOR AXIAL REPAIR
 
-H17-F3
-MASSIVE SPIN-3 / NONMETRICITY
-
-H17-F4
-GENUINELY NONLINEAR VECTOR-GRAVITON COMPLETION
-
-H17-F5
-GAUGE-INVARIANT COMPOSITE / CURVATURE METRIC PORTALS
-
-H17-F6
-MICROSCOPIC DIRAC SOURCE-STATE ENGINEERING.
+PURE STUECKELBERG GAUGE-IMAGE REPAIR.
 ```
 
-This ordering is based on information value and structural proximity to the successful V24/V26B1 ingredients.
+## A6R1
 
-It is not a statistical probability assignment.
+Closed:
+
+```text
+EXACT MASSLESS SINGLE-COMPENSATOR CLASS.
+```
+
+## A6R2
+
+Closed for the clean V24 rest source:
+
+```text
+TESTED PROTECTED MASSIVE 1MINUS
+BECAUSE SOURCE PROJECTOR = 0.
+```
+
+## A7
+
+Closed:
+
+```text
+TESTED DIRECT CLEAN BARKER-ZELL ISO-WEYL CHANNEL.
+```
+
+## A8
+
+No acceptable tested protected `2+` atlas survivor.
+
+Promoted:
+
+```text
+PERCACCI-SEZGIN PROJECTIVE 1PLUS.
+```
+
+Do not rerun these completed screens unless genuinely new physics changes the relevant assumption.
 
 ---
 
-# 24. H17-F1 — compensator / Stückelberg / Higgsed hook
+# 26. A9 exact healthy-pole result
 
-This is the most direct strict-HOOK17 rescue family.
+Preserve permanently:
 
-Target schematic structure:
+```text
+P&S CASE-I HEALTHY POLE=
+YES
 
-```math
-\widehat H
-=
-H-\mathcal D C
+PROJECTIVE TRACE PASS ON CLEAN SOURCE=
+YES
+
+EXACT CLEAN 1PLUS POLE OVERLAP=
+NONZERO
+
+EXACT POLE NUMERATOR=
+1.44.
 ```
 
-or another same-action combination satisfying:
+This establishes real healthy-mode overlap.
 
-```math
-\delta\widehat H
-=
-0.
+It does not establish a complete model.
+
+---
+
+# 27. A9R1 failure / partial
+
+Preserve:
+
+```text
+UNMODIFIED WHEELER PROJECTIVE SOURCE IDENTITY=
+FAIL GENERICALLY
+
+16 PROBES
+
+3 COMPATIBLE
+
+13 INCOMPATIBLE.
 ```
 
-Then test physical metric descendants such as:
+But:
+
+```text
+CLEAN A9 SPECIAL STATE=
+SURVIVES
+
+POLE NUMERATOR=
+1.44.
+```
+
+The linearized metric Ward system gave a unique solution:
+
+```text
+40x40
+
+RANK=40
+
+S032=4
+
+S302=4.
+```
+
+---
+
+# 28. A9R2 projective matter completion
+
+Preserve the local projector:
 
 ```math
-g^{\rm phys}_{\mu\nu}
+P[X]
 =
-g_{\mu\nu}
-+
+X
+-
+\frac15
+G({\rm tr}X)
+```
+
+for the four-dimensional torsion-free realization.
+
+Properties:
+
+```text
+LOCAL
+
+ALGEBRAIC
+
+IDEMPOTENT
+
+SELF-ADJOINT
+
+PROJECTIVE GAUGE IMAGE ANNIHILATED
+
+TORSION-FREE SYMMETRY PRESERVED.
+```
+
+All 16 projected probes became projectively compatible.
+
+The clean source remained unchanged.
+
+The exact pole numerator remained 1.44.
+
+---
+
+# 29. A9R3 covariant same-action partial
+
+Preserve the covariant projector:
+
+```math
+P_g[X]
+=
+X
+-
 \frac{
-1
+G_g({\rm tr}_gX)
 }{
-M_H^2
-}
-Q_{\mu\nu}
-(
-\widehat H,
-\widehat H
-).
-```
-
-Required questions:
-
-```text
-IS THE COMBINATION EXACTLY GAUGE INVARIANT?
-
-IS THE DIRAC SOURCE WARD COMPATIBLE?
-
-DOES A HEALTHY PHYSICAL MODE REMAIN?
-
-IS THE COMPENSATOR DYNAMICAL OR AUXILIARY?
-
-DOES IT INTRODUCE A GHOST?
-
-DOES IT INTRODUCE STRONG COUPLING?
-
-DOES IT CREATE A NEW OFFSTATE FORCE?
-
-IS ITS MASS TECHNICALLY NATURAL?
-
-DOES ITS ENERGY ERASE HOOK17?
-
-DOES THE ACTIVE METRIC NUMERATOR SURVIVE?
-```
-
-Do not promote merely because a formal Stückelberg field can be written.
-
----
-
-# 25. H17-F2 — alternative protected MAG source projectors
-
-Healthy symmetry-first metric-affine actions may contain physical modes other than the exact hook component killed by V26C.
-
-For every protected mode derive the exact projector:
-
-```math
-J_i
-=
-P_i
-J_{\rm Dirac}.
-```
-
-Calculate:
-
-```text
-PROJECTOR_NORM
-
-CANONICAL SOURCE COUPLING
-
-IRREP PURITY
-
-SOURCE ENERGY
-
-SOURCE CHARGE PER JOULE.
-```
-
-If:
-
-```math
-P_iJ_{\rm Dirac}
-=
-0
-```
-
-analytically:
-
-```text
-REJECT FAMILY / SOURCE CHANNEL.
-```
-
-Do not run a PDE.
-
----
-
-# 26. H17-F3 — massive spin-3 / nonmetricity
-
-A massive mode can evade the exact pure-gauge obstruction of the tested massless hook sector.
-
-But a free healthy massive mode is insufficient.
-
-Required chain:
-
-```text
-DIRAC SOURCE
-->
-NONZERO HEALTHY MASSIVE MODE PROJECTOR
-->
-CANONICAL PROPAGATOR
-->
-UNIVERSAL METRIC DESCENDANT
-->
-FINITE PAYLOAD.
-```
-
-Early gates:
-
-```text
-SOURCE PROJECTOR
-
-GHOST
-
-GRADIENT HEALTH
-
-MASS RANGE
-
-TECHNICAL NATURALNESS
-
-VDVZ / STRONG-COUPLING ANALOGUES WHERE RELEVANT
-
-OFFSTATE FORCE
-
-SOURCE ENERGY.
-```
-
-A laboratory-range small mass must have a protection mechanism.
-
----
-
-# 27. H17-F4 — nonlinear vector-graviton completion
-
-V24D permanently closes the tested **linear** physical vector-metric cross source.
-
-Do not reopen it.
-
-The only legitimate continuation is a genuinely nonlinear active-background mechanism.
-
-Required evidence:
-
-```text
-NONZERO INTRINSIC SOURCE PROJECTION
-
-EXPLICIT NONLINEAR SAME-ACTION COUPLING
-
-ACTIVE NUMERATOR
-
-OFFSTATE SUPPRESSION
-
-FIELD-REDEFINITION-INVARIANT RESPONSE
-
-HEALTHY PRINCIPAL SYMBOL.
-```
-
-If the nonlinear result reduces to the already-closed linear bridge in the relevant limit without a new physical numerator:
-
-```text
-REJECT AS REOPENED CLOSED ROUTE.
-```
-
----
-
-# 28. H17-F5 — gauge-invariant composite / curvature portals
-
-V26C shows that:
-
-```text
-H^2
-```
-
-is not automatically gauge invariant.
-
-Likewise:
-
-```text
-dH
-```
-
-is not automatically gauge invariant under an algebraic hook shift.
-
-Every proposed operator must have its transformation derived.
-
-Possible candidates:
-
-```text
-COMPENSATED QUADRATIC TENSORS
-
-CONNECTION CURVATURE COMPOSITES
-
-COVARIANT FIELD STRENGTHS
-
-PARITY-ODD INVARIANTS
-
-MIXED IRREP COMPOSITES
-
-TOPOLOGICAL DENSITIES
-
-NONLINEAR GAUGE-INVARIANT DESCENDANTS.
-```
-
-The miner should enumerate an independent operator basis and quotient by:
-
-```text
-INDEX SYMMETRIES
-
-Bianchi IDENTITIES
-
-INTEGRATION BY PARTS
-
-ALGEBRAIC IDENTITIES
-
-EQUATIONS OF MOTION WHERE LEGITIMATE
-
-FIELD REDEFINITIONS
-
-GAUGE REDUNDANCIES.
-```
-
-Rank only the remaining independent operators.
-
----
-
-# 29. H17-F6 — microscopic Dirac source engineering
-
-The V24 equal-amplitude rest-pair source is a clean witness.
-
-It need not be optimal.
-
-Enumerate physically meaningful spinor configurations:
-
-```text
-PARTICLE / ANTIPARTICLE RATIO
-
-SPIN ALIGNMENT
-
-RELATIVE SPIN ORIENTATION
-
-RELATIVE PHASE
-
-MOMENTUM
-
-ORBITAL ANGULAR MOMENTUM
-
-LOCALIZED WAVEPACKET SHAPE
-
-MULTIPOLE ARRANGEMENT
-
-ANISOTROPIC GEOMETRY
-
-FLAVOR CONTENT
-
-COHERENT / INCOHERENT ENSEMBLES.
-```
-
-For each state reconstruct the complete hypermomentum irreducible decomposition.
-
-Do not optimize:
-
-```text
-RAW HOOK MAGNITUDE.
-```
-
-Optimize:
-
-```math
-q_{\rm healthy}
-=
-\frac{
-Q_{\rm projected,\ canonical,\ healthy}
-}{
-E_{\rm microscopic\ source}
+d+1
 }.
 ```
 
+Verified:
+
+```text
+COVARIANT TRACE ZERO
+
+IDEMPOTENT
+
+GAUGE IMAGE ANNIHILATED
+
+TORSION-FREE SYMMETRY
+
+SELF-ADJOINT
+
+GL(4) EQUIVARIANT
+
+FLAT LIMIT CONSISTENT.
+```
+
+Same declared interaction generated:
+
+```text
+S032=4
+
+S302=4
+```
+
+and reproduced the independently reconstructed metric-stress Ward completion.
+
+Therefore:
+
+```text
+GEOMETRIC_AND_CLEAN_LINEARIZED_NOETHER_PARTIAL=
+GREEN.
+```
+
 ---
 
-# 30. Flavor multiplicity remains constrained
+# 30. Current HOOK17 naturalness block
 
-V16 already closed the naive flavor-energy shortcut.
-
-For any multiplicity parameter $N$ define:
+The current P&S Case-I healthy relations include:
 
 ```math
-r
-=
-\frac{
-d\ln A_{\rm useful}
-}{
-d\ln N
-},
+C+\frac{16}{25}B=0
 ```
 
 and:
 
 ```math
-s
+h_{11}+\frac{10}{3}h_7=0.
+```
+
+These define a codimension-two health surface in the tested coordinate set.
+
+The projective symmetry is already present before imposing them.
+
+Therefore it does not enforce them.
+
+The unwanted modes disappear through coefficient cancellation rather than an established new gauge-null identity.
+
+Current status:
+
+```text
+ADDITIONAL_PROTECTING_SYMMETRY=
+NOT_ESTABLISHED
+
+CASE_I_BETA_FUNCTIONS=
+NOT_COMPUTED
+
+CASE_I_RADIATIVE_STABILITY=
+NOT_ESTABLISHED
+
+TECHNICAL_NATURALNESS=
+FAIL_CURRENT_PROMOTION_GATE.
+```
+
+The current P&S carrier is blocked.
+
+HOOK17 globally remains open.
+
+---
+
+# 31. Remaining genuine HOOK17 families
+
+If the V26D fallback fails, resume HOOK17 only through genuinely new physics.
+
+Current open family priority:
+
+```text
+H17-F1
+PROJECTIVE / MAG COMPLETION
+WITH ACTUAL SYMMETRY-ENFORCED HEALTH
+
+H17-F2
+FULL HIGGSED / NOETHER-COMPENSATED HOOK
+
+H17-F3
+MASSIVE HOOK / NONMETRICITY
+
+H17-F4
+MASSIVE SPIN-3
+BEYOND TESTED CLEAN 1MINUS ROUTE
+
+H17-F5
+GENUINELY NONLINEAR VECTOR-GRAVITON COMPLETION
+
+H17-F6
+GAUGE-INVARIANT COMPOSITE / CURVATURE METRIC PORTALS
+
+H17-F7
+DIRAC SOURCE-STATE ENGINEERING.
+```
+
+Do not reopen:
+
+```text
+DIRECT K3
+
+MINIMAL J11 VECTOR REPAIR
+
+PURE MASSLESS STUECKELBERG GAUGE IMAGE
+
+EXACT MASSLESS SINGLE-COMPENSATOR CLASS
+
+TESTED MASSIVE 1MINUS CLEAN SOURCE
+
+TESTED DIRECT BARKER-ZELL CLEAN CHANNEL
+
+UNPROTECTED P&S CASE-I TUNING.
+```
+
+---
+
+# 32. V26D fallback durable action structure
+
+Preserve the protected V26D branch:
+
+```text
+A1=A2=A3=A5=0
+
+A4=6 F_X^2/F.
+```
+
+Kinetic-matter-mixing quantities:
+
+```math
+\alpha_H
 =
-\frac{
-d\ln E_{\rm complete}
-}{
-d\ln N
-}.
+-2X\frac{F_X}{F}
+```
+
+and:
+
+```math
+\beta_1
+=
+X\frac{F_X}{F}
+```
+
+satisfy:
+
+```math
+\alpha_H+2\beta_1=0.
+```
+
+Representative point:
+
+```text
+x=0.1
+
+eta=0.5
+
+beta1=1/21
+
+alpha_H=-2/21.
+```
+
+The hidden-source operator class is:
+
+```math
+\frac{1}{f_\Psi}
+\nabla_\mu\phi
+\,
+\bar\Psi
+\gamma^\mu
+\gamma_5
+\Psi.
+```
+
+---
+
+# 33. V26E0 tensor-health result
+
+For the static spacelike background:
+
+```math
+\bar\phi=vz,
+```
+
+the affected tensor principal coefficient is:
+
+```math
+M_T(\theta)
+=
+1
+-
+3\beta_1^2
+\sin^4\theta.
+```
+
+Tensor characteristics remain luminal while this coefficient is nonzero.
+
+The health bound is:
+
+```math
+|\beta_1|
+<
+1/\sqrt3.
+```
+
+Representative:
+
+```text
+beta1=1/21
+
+WORST THETA=90 DEGREES
+
+M_T_MIN=
+146/147
+≈0.9931972789.
+```
+
+Therefore:
+
+```text
+STATIC_SPACELIKE_TENSOR_CT1=
+PASS
+
+TENSOR_MARGIN_COLLAPSE_USED=
+NO.
+```
+
+---
+
+# 34. V26E0 background theorem
+
+Unsupported flat constant-gradient Minkowski requires:
+
+```text
+P(X0)=0
+
+P_X(X0)=0.
+```
+
+At this point the P-only scalar quadratic sector has no standalone time kinetic.
+
+Therefore:
+
+```text
+P_ONLY_STATIONARY_BACKGROUND_HAS_TIME_KINETIC=
+FALSE
+
+FULL_DHOST_SCALAR_METRIC_MIXING_MAY_SUPPLY_KINETIC=
+TRUE
+
+FULL_SCALAR_INSTABILITY_ESTABLISHED=
+FALSE.
+```
+
+Current legitimate background branches include:
+
+```text
+UNSUPPORTED FLAT STATIONARY
+ONLY IF FULL CONSTRAINT SYSTEM HEALTHY
+
+SUPPORT-BALANCED LOCAL PATCH
+
+CURVED ONSHELL STATIC BACKGROUND.
+```
+
+Support cannot be hidden later.
+
+---
+
+# 35. V26E1A exact frame map
+
+The V26D quadratic sector is Class Ia and maps to Einstein-Hilbert by:
+
+```math
+\tilde g_{\mu\nu}
+=
+A(X)
+g^{\rm phys}_{\mu\nu}
+```
+
+with:
+
+```math
+A
+=
+F/F_0.
+```
+
+For the original linear scaffold:
+
+```math
+A=1+\eta x,
+```
+
+the map Jacobian is:
+
+```math
+D_{\rm map}
+=
+A-xA_x
+=
+1
+```
+
+identically.
+
+Therefore:
+
+```text
+FRAME MAP NEAR SINGULAR=
+NO
+
+FIELD-REDEFINITION MARGIN COLLAPSE=
+NO.
+```
+
+The higher-derivative quadratic gravity sector alone supplies no independent scalar mode.
+
+A lower-derivative scalar completion remains necessary.
+
+---
+
+# 36. Frame-invariant observable rule
+
+Ordinary matter is minimal to:
+
+```text
+g_phys
+```
+
+rather than to the transformed Einstein-frame metric alone.
+
+Therefore every physical V26D response must be reconstructed in the physical matter frame.
+
+Permanent requirement:
+
+```text
+SOURCE->g00_PHYSICAL
+```
+
+must agree under the exact invertible frame transformation.
+
+If the apparent response disappears after proper reconstruction:
+
+```text
+REJECT_FIELD_REDEFINITION_ARTIFACT.
+```
+
+---
+
+# 37. V26E1B0 pure-j0 provenance collision
+
+For the linear physical metric:
+
+```math
+A(X)
+=
+1+\kappa X+\cdots,
+```
+
+ordinary matter receives:
+
+```math
+\mathcal L_{\rm int}
+=
+-\frac{\kappa}{2}XT
++
+O(X^2).
+```
+
+This is the historical universal kinetic-conformal:
+
+```text
+PURE-j0
+```
+
+operator.
+
+Therefore:
+
+```text
+EXACT_V17_EQUIVALENT_COMPLETION=
+CLOSED.
+```
+
+---
+
+# 38. Historical V19R6 failure memory
+
+Preserve:
+
+```text
+EMPIRICAL_METRIC_MIN_EV=
+123456.8841240774
+
+STRICT_ENERGY_METRIC_MAX_EV=
+122996.18244440094
+
+GAP_EV=
+460.7016796764656
+
+EMPIRICAL_BOUNDARY_PARTIAL_ENERGY_J=
+10150225.4393259.
+```
+
+The tested old implementation had no empirical/energy overlap.
+
+Do not transfer this exact energy boundary automatically to arbitrary V26D source states.
+
+Permanent:
+
+```text
+EXACT_V19R6_BOUND_TRANSFERS_TO_ARBITRARY_V26D_SOURCE=
+FALSE.
+```
+
+---
+
+# 39. Pure-j0 off-state force failure memory
+
+The canonical unscreened pure-j0 completion contains a two-scalar material force with coefficient:
+
+```math
+K
+=
+\frac{15}{8\pi^3}
+\approx
+0.06047162706224905.
+```
+
+The potential scales schematically as:
+
+```math
+V(r)
+\sim
+-K
+C_1^2
+\frac{m_1m_2}{r^7}.
+```
+
+Therefore:
+
+```text
+SIGN FLIP=
+NO ESCAPE
+
+WAVEFUNCTION RESCALING=
+NO ESCAPE.
+```
+
+Canonical normalization preserves:
+
+```math
+C_1f^2.
+```
+
+---
+
+# 40. V26E1B1 quadratic active-state completion
+
+The new completion is:
+
+```math
+A(x)
+=
+1
++
+\eta_2x^2
+```
+
+with:
+
+```math
+x=X/\Lambda^4.
+```
+
+Match:
+
+```text
+x_star=0.1
+
+beta_star=1/21.
+```
+
+This gives exactly:
+
+```math
+\eta_2
+=
+100/41
+\approx
+2.43902439024.
+```
+
+At the active point:
+
+```math
+A_\star
+=
+42/41
+```
+
+and:
+
+```math
+D_{\rm map}
+=
+40/41
+\approx
+0.9756097561.
+```
+
+Thus the frame map remains comfortably invertible.
+
+---
+
+# 41. V26E1B1 active/off-state separation
+
+For the quadratic completion:
+
+```math
+A_x(0)=0.
+```
+
+Therefore:
+
+```text
+ACTIVE_BETA1=
+1/21
+
+OFFSTATE_BETA1=
+0.
+```
+
+The leading universal matter operator becomes:
+
+```text
+x^2 T
+```
+
+rather than:
+
+```text
+x T.
+```
+
+Therefore:
+
+```text
+TREE_R5_TWO_SCALAR_VERTEX=
+ABSENT.
+```
+
+This is a real structural difference from the closed linear pure-j0 completion.
+
+---
+
+# 42. V26E1B1 health margins
+
+At the active point:
+
+```text
+FRAME_MAP_MARGIN=
+40/41
+≈0.9756097561
+
+TENSOR_MARGIN=
+146/147
+≈0.9931972789.
+```
+
+Therefore:
+
+```text
+NEAR-SINGULAR_FRAME_GAIN=
+NO
+
+NEAR-SINGULAR_TENSOR_GAIN=
+NO.
+```
+
+This is one reason E1B1 is worthy of promotion.
+
+---
+
+# 43. V26E1B1 radiative-headroom diagnostic
+
+Historical overlap reopening threshold:
+
+```text
+MAX_RELATIVE_OFFSTATE_C1
+~0.985156611647.
+```
+
+Simple one-loop Wilsonian NDA descendant for the quadratic candidate:
+
+```text
+NDA_RELATIVE_OFFSTATE_TO_ACTIVE
+~0.0324351350.
+```
+
+Diagnostic uncertainty headroom:
+
+```text
+~30.373X.
+```
+
+This means the naive low-energy descendant estimate is far below the amount that would recreate the old narrow historical collision under the declared comparison.
+
+It does not certify quantum safety.
+
+---
+
+# 44. V26E1B1 naturalness status
+
+Current declared symmetries all allow:
+
+```text
+xT
+```
+
+and:
+
+```text
+x^2T.
+```
+
+Specifically:
+
+```text
+DIFFEOMORPHISM INVARIANCE
+ALLOWS xT
+
+SHIFT SYMMETRY
+ALLOWS xT
+
+phi -> -phi
+ALLOWS xT.
+```
+
+Therefore:
+
+```text
+SETTING xT TO ZERO
+DOES NOT
+CURRENTLY INCREASE THE DECLARED SYMMETRY.
+```
+
+Thus:
+
+```text
+TECHNICAL_NATURALNESS_CERTIFIED=
+NO
+
+ACTUAL_BETA_FUNCTION_COMPUTED=
+NO
+
+UV_MATCHING_COMPUTED=
+NO.
+```
+
+Current classification:
+
+```text
+PROMISING_CONDITIONAL_ACTIVE_STATE_COMPLETION.
+```
+
+---
+
+# 45. Current immediate gate — 032V26E1B2
+
+The immediate AGMINER target is:
+
+```text
+032V26E1B2
+QUADRATIC ACTIVE-STATE
+HEALTHY SCALAR
++
+PHYSICAL G00 CROSSPROP
++
+UV DESCENDANT
+GATE.
+```
+
+This should not be treated as one monolithic expensive calculation.
+
+Internally split it into:
+
+```text
+E1B2A
+PROTECTION / NATURALNESS PREFILTER
+
+E1B2B
+HEALTHY SCALAR / FULL CONSTRAINT SYMBOL
+
+E1B2C
+PHYSICAL SOURCE->G00 CROSS RESPONSE
++
+FRAME INVARIANCE
++
+SIGN.
+```
+
+---
+
+# 46. E1B2A — protection / naturalness prefilter
+
+Primary question:
+
+> **Is there an explicit same-action reason that the dangerous linear $xT$ operator is absent or quantitatively suppressed enough to survive?**
+
+Acceptable evidence:
+
+```text
+EXPLICIT SELECTION RULE
+
+GENUINE SYMMETRY
+
+SPURION STRUCTURE
+
+COLLECTIVE PROTECTION
+
+NONRENORMALIZATION STRUCTURE
+
+CONTROLLED LOOP BOUND
+
+CONTROLLED RG BOUND
+
+CONTROLLED UV MATCHING.
+```
+
+Do not accept:
+
+```text
+WE SET IT TO ZERO
+
+Z2 PROTECTS IT
+WHEN Z2 ALLOWS IT
+
+SHIFT SYMMETRY PROTECTS IT
+WHEN SHIFT SYMMETRY ALLOWS IT
+
+ARBITRARY COUNTERTERM TUNING.
+```
+
+---
+
+# 47. E1B2A quantitative naturalness rule
+
+Naturalness should not become an aesthetic rejection.
+
+If no exact symmetry protects `xT`, determine:
+
+```text
+MAX_ALLOWED_GENERATED_XT
+
+EXPECTED_LOOP_GENERATED_XT
+
+EXPECTED_THRESHOLD_XT
+
+EMPIRICAL_MARGIN
+
+ENERGY_MARGIN.
+```
+
+If an unavoidable quantitative bound remains safely inside the physical window, the candidate may survive without an exact zero.
+
+If the necessary suppression is unstable by orders of magnitude:
+
+```text
+REJECT_NATURALNESS.
+```
+
+---
+
+# 48. E1B2B — healthy scalar / constraint gate
+
+Construct an explicit lower-derivative completion such as:
+
+```text
+P(X)
+
+Q(X) BOX(phi)
+
+OR
+ANOTHER HEALTHY PROTECTED SCALAR SECTOR.
 ```
 
 Require:
 
 ```text
-r > s
+BACKGROUND SOLVES FIELD EQUATIONS
+OR
+SUPPORT IS EXPLICIT
+
+NO GHOST
+
+NO GRADIENT INSTABILITY
+
+HYPERBOLICITY
+
+NO ZERO-KINETIC STRONG COUPLING
+
+HEALTHY PRINCIPAL MARGINS
+
+NO DENOMINATOR-COLLAPSE GAIN.
 ```
 
-for genuine asymptotic efficiency improvement.
-
-Do not treat:
-
-```text
-MORE SPECIES
-```
-
-as free source charge.
+Use the exact E1A frame map whenever it simplifies the calculation.
 
 ---
 
-# 31. 032H17A — rescue-family theorem and action atlas
+# 49. E1B2B background branches
 
-Immediate next scientific phase:
+Test cheapest legitimate branch first.
+
+Possible backgrounds:
 
 ```text
-032H17A_HOOK17_RESCUE_FAMILY_THEOREM_AND_ACTION_ATLAS.
+1.
+UNSUPPORTED FLAT STATIONARY
+
+2.
+SUPPORT-BALANCED LOCAL PATCH
+
+3.
+CURVED ONSHELL STATIC BACKGROUND.
 ```
 
-Purpose:
+Do not silently add support.
 
-> **Enumerate the physically distinct same-action mechanisms capable of repairing the exact V26C obstruction while preserving as many successful HOOK17 ingredients as possible, and eliminate bad families analytically before continuous optimization.**
-
-This is not an energy scan.
-
-This is not a field solver.
-
-This is not an action oracle.
-
----
-
-# 32. H17A minimum atlas columns
-
-Every family should record:
+If support is needed:
 
 ```text
-FAMILY_ID
+SUPPORT_STRESS_EXPLICIT=True
 
-FAMILY_NAME
-
-ACTION_REFERENCE
-
-ACTION_EXPLICIT
-
-FIELD_CONTENT
-
-SYMMETRY
-
-SYMMETRY_EXACT_OR_SOFT
-
-SYMMETRY_BREAKING_SCALE
-
-OFFSTATE_LIMIT
-
-DIRAC_SOURCE_VERTEX
-
-SOURCE_IRREP
-
-SOURCE_WARD_STATUS
-
-HEALTHY_MODE
-
-HEALTHY_MODE_PROJECTOR
-
-SOURCE_PROJECTOR_STATUS
-
-KINETIC_HEALTH_KNOWN
-
-MASS / RANGE
-
-PHYSICAL_METRIC
-
-METRIC_WARD_STATUS
-
-ACTIVE_NUMERATOR_STATUS
-
-FIELD_REDEFINITION_STATUS
-
-OFFSTATE_PORTAL_ORDER
-
-LOWEST_OFFSTATE_FORCE
-
-CANONICALIZATION_STATUS
-
-CAPACITY_FORMULA_STATUS
-
-IMMEDIATE_EMPIRICAL_KILLER
-
-IMMEDIATE_NATURALNESS_KILLER
-
-SAME_ACTION_COMPLETE
-
-STATUS
-
-FAILURE_CODE
-
-NEXT_CHEAP_FALSIFIER.
+SUPPORT_ENERGY_LATER_REQUIRED=True.
 ```
 
 ---
 
-# 33. H17A lexicographic gates
+# 50. E1B2C — physical source-to-$g_{00}$ response
 
-Do not assign one opaque score.
-
-Use the following ordering:
+After health passes:
 
 ```text
-GATE 1
-EXPLICIT / DEFINABLE ACTION
+ELIMINATE NONDYNAMICAL CONSTRAINTS
 
-GATE 2
-DECLARED SYMMETRY
+CONSTRUCT REDUCED PROPAGATOR
 
-GATE 3
-SOURCE WARD COMPATIBILITY
+INSERT ACTUAL HIDDEN SOURCE
 
-GATE 4
-HEALTHY PHYSICAL MODE EXISTS
+RECONSTRUCT UNIVERSAL PHYSICAL METRIC
 
-GATE 5
-SOURCE PROJECTOR NONZERO
+COMPUTE SOURCE->g00
 
-GATE 6
-UNIVERSAL PHYSICAL METRIC EXISTS
-
-GATE 7
-METRIC WARD COMPATIBILITY
-
-GATE 8
-NONREMOVABLE RESPONSE POSSIBLE
-
-GATE 9
-OFFSTATE STRUCTURE NOT IMMEDIATELY FATAL
-
-GATE 10
-NO OBVIOUS NATURALNESS / RANGE NO-GO.
+REPEAT / VERIFY IN BOTH FRAMES.
 ```
-
-Only survivors proceed to H17B/C/D.
-
----
-
-# 34. H17A stop rule
-
-If a family fails an exact theorem-level gate:
-
-```text
-STOP THAT FAMILY.
-```
-
-Do not scan coefficients.
-
-Do not change the payload.
-
-Do not invent an external support.
-
-Do not relabel the field.
-
-Store the reason permanently.
-
----
-
-# 35. 032H17B — source-to-healthy-mode projector gate
-
-For every H17A survivor derive the physical canonical eigenmodes.
-
-Construct:
-
-```math
-J_{\rm physical}
-=
-P_{\rm healthy}
-J_{\rm microscopic}.
-```
-
-Required outputs:
-
-```text
-PROJECTOR EXACT FORM
-
-PROJECTED SOURCE NORM
-
-SOURCE ENERGY
-
-SOURCE CHARGE PER JOULE
-
-GAUGE / CONSTRAINT ORTHOGONALITY
-
-MODE MASS
-
-MODE RANGE.
-```
-
-Strong negative result:
-
-```text
-P_HEALTHY J = 0
-```
-
-means the source cannot excite the desired mode.
-
-Close that source/action channel.
-
----
-
-# 36. 032H17C — same-action universal-metric invariant gate
-
-For H17B survivors derive the physical metric from the same action.
 
 Require:
 
 ```text
-ONE UNIVERSAL NEUTRAL-MATTER METRIC
+RESPONSE NONZERO
 
-NO COMPOSITION-SPECIFIC PAYLOAD CHARGE
+RESPONSE NONREMOVABLE
 
-GAUGE-INVARIANT METRIC OBSERVABLE
+FRAME MAP REGULAR
 
-NONZERO ACTIVE RESPONSE
+ONE UNIVERSAL PHYSICAL METRIC
 
-DECLARED OFFSTATE ORDER.
+NO PRINCIPAL-MARGIN COLLAPSE.
 ```
-
-Enumerate independent allowed metric descendants.
-
-Do not rank them by raw tensor coefficient.
-
-Rank by canonical source-to-payload response.
 
 ---
 
-# 37. 032H17D — constrained cross-propagator and Ward gate
+# 51. E1B2C sign gate
 
-This is the central HOOK17 physicalization gate.
-
-After eliminating constraints and pure-gauge directions compute:
-
-```math
-\mathcal G_{\rm source\rightarrow metric}
-```
-
-or an equivalent invariant Green function.
+If the physical response is nonzero, determine its actual sign.
 
 Required:
 
 ```text
-SOURCE
-->
-CANONICAL HEALTHY MODE
-->
-PHYSICAL METRIC
+NEUTRAL PAYLOAD RESPONSE=
+OUTWARD
 ```
 
-must remain nonzero after:
+not merely:
 
 ```text
-CONSTRAINT ELIMINATION
-
-WARD PROJECTION
-
-FIELD REDEFINITION
-
-STUECKELBERG RECONSTRUCTION
-
-GAUGE FIXING
-
-AUXILIARY FIELD ELIMINATION.
+NONZERO.
 ```
 
-If the response disappears:
+If the physical metric response is:
 
 ```text
-HOOK17_REJECT_FIELD_REDEFINITION_ARTIFACT.
+ZERO
+
+REMOVABLE
+
+OR
+INWARD ONLY
+```
+
+close the current implementation.
+
+---
+
+# 52. E1B2 stop rule
+
+Close the current V26D quadratic active-state implementation if any of the following is established:
+
+```text
+NO HEALTHY SCALAR COMPLETION
+
+UNAVOIDABLE GHOST
+
+UNAVOIDABLE GRADIENT INSTABILITY
+
+HYPERBOLICITY FAILURE
+
+STRONG-COUPLING ZERO KINETIC
+
+PHYSICAL SOURCE->g00 RESPONSE=ZERO
+
+RESPONSE REMOVABLE BY INVERTIBLE FIELD REDEFINITION
+
+ONLY RESPONSE GAIN COMES FROM PRINCIPAL-MARGIN COLLAPSE
+
+UNAVOIDABLE UV xT DESCENDANT RECREATES EMPIRICAL FAILURE
+
+PHYSICAL RESPONSE SIGN CANNOT BE OUTWARD
+
+OR
+ANY UNAVOIDABLE COMPLETE-ENERGY LOWER BOUND >=10 MJ.
+```
+
+Record the exact failure.
+
+Do not weaken the criterion.
+
+---
+
+# 53. E1B2 promotion condition
+
+Promote the branch beyond E1B2 only if:
+
+```text
+SCALAR HEALTH=
+PASS
+
+PHYSICAL g00 RESPONSE=
+NONZERO
+
+FIELD-REDEFINITION SURVIVAL=
+PASS
+
+OUTWARD SIGN=
+POSSIBLE / PASS
+
+UV DESCENDANT=
+NOT IMMEDIATELY FATAL.
+```
+
+Then authorize:
+
+```text
+032V26E2
+FINITE-PAYLOAD
+SIGN / RANGE / STANDOFF
++
+SOURCE-JOULE / CAPACITY
+PREFLIGHT.
 ```
 
 ---
 
-# 38. Field-redefinition invariance
+# 54. V26E2 finite-payload gate
 
-Permanent rule from V24D:
-
-> **A mixed-looking Lagrangian coefficient is not a physical portal if a regular field redefinition removes the source-to-payload response.**
-
-Every H17D candidate should be evaluated in at least:
+Required physical benchmark:
 
 ```text
-ORIGINAL FIELD BASIS
-
-CANONICAL / DIAGONAL BASIS
-
-PHYSICAL MATTER FRAME.
-```
-
-The neutral-payload observable must agree.
-
----
-
-# 39. 032H17E — canonical capacity retention and source-joule gate
-
-Only after H17D survives should the 17-J result become a ranking target.
-
-Reconstruct the actual theory's:
-
-```text
-CANONICAL PROJECTOR PENALTY
-
-ACTUAL HEALTHY-MODE FIELD AMPLITUDE
-
-ACTUAL RANGE
-
-ACTUAL EXTERIOR CAPACITY
-
-INTERIOR CAPACITY
-
-SOURCE ENERGY LOWER BOUND
-
-COMPENSATOR ENERGY LOWER BOUND.
-```
-
-Compute:
-
-```text
-E_CAPACITY_ACTUAL
-
-R_CAPACITY
-
-E_SOURCE_LOWER_BOUND
-
-E_SCAFFOLD_LOWER_BOUND.
-```
-
-If an unavoidable lower bound already satisfies:
-
-```text
-E >= 10 MJ
-```
-
-reject before geometry optimization.
-
----
-
-# 40. Source energy becomes an early HOOK17 gate
-
-Once same-action physicalization exists, the dominant unknown may be microscopic source energy.
-
-Define:
-
-```math
-q_{\rm healthy}
-=
-\frac{
-Q_{\rm healthy}
-}{
-E_{\rm source}
-}.
-```
-
-Calculate the minimum source amplitude necessary for the desired physical metric response.
-
-If:
-
-```text
-PROVEN E_SOURCE_LOWER_BOUND >= 10 MJ
-```
-
-under current policy:
-
-```text
-REJECT.
-```
-
-Useful internal classifications:
-
-```text
-E_SOURCE < 1 kJ
-EXCEPTIONAL
-
-1 kJ – 100 kJ
-VERY STRONG
-
-100 kJ – 1 MJ
-STRONG
-
-1 – 10 MJ
-LIMITED HEADROOM
-
->=10 MJ
-RED UNDER CURRENT POLICY.
-```
-
-These are ranking aids, not certification.
-
----
-
-# 41. 032H17F — outward sign, sidedness, finite payload
-
-Only after a physical cross-response exists should geometry optimization begin.
-
-Required benchmark remains:
-
-```text
-PAYLOAD_MASS_KG =
+M_PAYLOAD_KG=
 1.0
 
-PAYLOAD_RADIUS_M =
+R_PAYLOAD_M=
 0.10
 
-TARGET_ADVERSE_SURFACE_ACCEL_MPS2 =
-9.80665.
+MIN_OUTWARD_ACCELERATION_M_S2=
+9.80665
+
+MIN_TRUE_STANDOFF_M=
+1.0.
 ```
 
 Required observables:
@@ -2022,22 +2638,20 @@ PAYLOAD SURFACE MAXIMUM
 
 NONUNIFORMITY
 
-SOURCE-PAYLOAD OVERLAP
+SOURCE-PAYLOAD SEPARATION
 
-SIDEDNESS
+TRUE STANDOFF
 
 SOURCE REACTION
 
-FAR-FIELD MULTIPOLES.
+FAR-FIELD RESPONSE.
 ```
-
-A pointwise `g00` coefficient is insufficient.
 
 ---
 
-# 42. True stand-off remains a separate accomplishment
+# 55. True stand-off remains separate
 
-Classify separately:
+Classify:
 
 ```text
 LOCAL REPULSION
@@ -2049,125 +2663,308 @@ EMBEDDED / TWO-SIDED REPULSION
 TRUE EXTERNAL STANDOFF.
 ```
 
-HOOK17 must eventually demonstrate:
+A candidate does not pass by showing only:
 
 ```text
-PAYLOAD PHYSICALLY OUTSIDE SOURCE
+LOCAL OUTWARD g00 GRADIENT.
+```
 
-OUTWARD ACCELERATION THROUGH FINITE PAYLOAD
+Required:
+
+```text
+PAYLOAD PHYSICALLY OUTSIDE PRODUCTIVE SOURCE
 
 NO SOURCE/PAYLOAD INTERSECTION
 
-CORRECT FAR-FIELD BEHAVIOR.
+OUTWARD THROUGH FINITE PAYLOAD
+
+STANDOFF >=1m.
 ```
 
-006D remains the conservative comparison standard.
+006D remains the conservative standard.
 
 ---
 
-# 43. Geometry optimization follows physics, not vice versa
+# 56. Energy work after E1B2/E2
 
-Do not begin HOOK17 by optimizing:
-
-```text
-OBLATE
-
-SPHERICAL
-
-RING
-
-SHELL
-
-MULTIPOLE
-
-PAYLOAD DISTANCE.
-```
-
-First establish the action/source/portal.
-
-Once H17F is authorized, apply Introspective lessons:
+If physical response survives, compute in this order:
 
 ```text
-COMPACT PAYLOAD-ADJACENT PRODUCTIVE STRUCTURE
+1.
+CANONICAL ACTIVE-FIELD CAPACITY
 
-HIGH KERNEL LEVERAGE
+2.
+MICROSCOPIC SOURCE LOWER BOUND
 
-LOW CANCELLATION
+3.
+SOURCE REALIZATION ENERGY
 
-ONE-SIDED ASYMMETRY WHERE PHYSICALLY AVAILABLE.
+4.
+PROTECTION / ACTIVATION ENERGY
+
+5.
+SUPPORT / BACKGROUND MAINTENANCE
+
+6.
+CONFINEMENT / BOUNDARIES
+
+7.
+REACTION / RADIATION
+
+8.
+QUANTUM / OFFSTATE
+
+9.
+BACKREACTION
+
+10.
+COMPLETE OPERATING LEDGER.
 ```
 
-Geometry changes may require microscopic source reoptimization.
+If any unavoidable lower bound alone is:
+
+```text
+>=10 MJ
+```
+
+reject.
 
 ---
 
-# 44. 032H17G — quantum, RG, UV, and empirical gate
+# 57. Source energy becomes an early post-response gate
 
-For every surviving candidate identify:
+Define:
 
-```text
-LIGHT MASSES
-
-HEAVY MASSES
-
-COUPLING SCALES
-
-STRONG-COUPLING SCALE
-
-EFT CUTOFF
-
-SYMMETRY-BREAKING SCALE
-
-LOOP-GENERATED OPERATORS
-
-RUNNING COEFFICIENTS
-
-OFFSTATE DESCENDANTS
-
-LOW-ENERGY MATERIAL FORCES.
+```math
+q_{\rm healthy}
+=
+\frac{
+Q_{\rm healthy}
+}{
+E_{\rm source}
+}.
 ```
 
-Do not postpone obvious low-energy empirical constraints while studying speculative UV completions.
+Calculate the minimum source amplitude required for the physical metric response.
+
+If:
+
+```text
+PROVEN E_SOURCE_LOWER_BOUND >=10 MJ
+```
+
+reject under current policy.
+
+Ranking aids:
+
+```text
+E_SOURCE <1 kJ
+EXCEPTIONAL
+
+1 kJ–100 kJ
+VERY STRONG
+
+100 kJ–1 MJ
+STRONG
+
+1–10 MJ
+LIMITED HEADROOM
+
+>=10 MJ
+RED UNDER CURRENT POLICY.
+```
 
 ---
 
-# 45. HOOK17 off-state hierarchy
+# 58. HOOK17 capacity bookkeeping
 
-Track:
+Retain permanent fields:
 
 ```text
-OFFSTATE_LINEAR_PORTAL_ORDER
+E_HOOK17_CAPACITY_NOMINAL_J
 
-LOWEST_NONZERO_MATTER_VERTEX_ORDER
+E_HOOK17_CAPACITY_RP1E12_J
 
-LOWEST_MEDIATOR_EXCHANGE_ORDER
+E_HOOK17_SOURCE_LOWER_BOUND_J
 
-LOWEST_FORCE_POWER_IN_R
+E_HOOK17_SOURCE_REALIZED_J
 
-LOOP-INDUCED_LOWER-DIMENSIONAL_PORTAL
+E_HOOK17_MEDIATOR_J
+
+E_HOOK17_COMPENSATOR_J
+
+E_HOOK17_SUPPORT_J
+
+E_HOOK17_CONFINEMENT_J
+
+E_HOOK17_CONTROL_J
+
+E_HOOK17_ACTIVATION_J
+
+E_HOOK17_REACTION_J
+
+E_HOOK17_RADIATION_J
+
+E_HOOK17_QUANTUM_J
+
+E_HOOK17_BACKREACTION_J
+
+E_HOOK17_OFFSTATE_J
+
+E_HOOK17_COMPLETE_LOWER_BOUND_J
+
+E_HOOK17_COMPLETE_OPERATING_J.
+```
+
+Never copy a capacity field into a complete-energy field.
+
+---
+
+# 59. V26D energy bookkeeping
+
+Add parallel fields:
+
+```text
+E_V26D_FIELD_CAPACITY_J
+
+E_V26D_SCALAR_BACKGROUND_J
+
+E_V26D_SOURCE_LOWER_BOUND_J
+
+E_V26D_SOURCE_REALIZED_J
+
+E_V26D_PROTECTION_J
+
+E_V26D_SUPPORT_J
+
+E_V26D_CONFINEMENT_J
+
+E_V26D_CONTROL_J
+
+E_V26D_ACTIVATION_J
+
+E_V26D_REACTION_J
+
+E_V26D_RADIATION_J
+
+E_V26D_QUANTUM_J
+
+E_V26D_BACKREACTION_J
+
+E_V26D_OFFSTATE_J
+
+E_V26D_COMPLETE_LOWER_BOUND_J
+
+E_V26D_COMPLETE_OPERATING_J.
+```
+
+Current:
+
+```text
+ALL COMPLETE V26D ENERGY FIELDS=
+UNKNOWN.
+```
+
+---
+
+# 60. Hook17-to-V26D capacity transfer forbidden
+
+Permanent:
+
+```text
+HOOK17_CAPACITY_REFERENCE_TRANSFERS_TO_V26D=
+FALSE.
+```
+
+The approximately 17-J HOOK17 value came from a different mediator/source/metric construction.
+
+Do not use it as:
+
+```text
+V26D CAPACITY
+
+V26D SOURCE ENERGY
+
+V26D COMPLETE ENERGY.
+```
+
+---
+
+# 61. Naturalness becomes an early first-class gate
+
+Both current frontiers independently demonstrate why naturalness must move earlier.
+
+HOOK17 P&S:
+
+```text
+HEALTHY CASE-I RELATIONS
+NOT KNOWN TO BE SYMMETRY-PROTECTED.
+```
+
+V26D E1B1:
+
+```text
+TREE xT ABSENCE
+NOT KNOWN TO BE SYMMETRY-PROTECTED.
+```
+
+Therefore every promising low-energy branch should record:
+
+```text
+DANGEROUS_OPERATOR
+
+SYMMETRY_ALLOWANCE
+
+SYMMETRY_FORBIDDANCE
+
+LOOP_ORDER
+
+BETA_FUNCTION_STATUS
+
+UV_THRESHOLD_STATUS
+
+MAX_ALLOWED_COEFFICIENT
+
+EXPECTED_COEFFICIENT
+
+NATURALNESS_MARGIN.
+```
+
+---
+
+# 62. Quantum/off-state rule
+
+Permanent:
+
+```text
+CLASSICAL OFFSTATE SILENCE
+!=
+QUANTUM OFFSTATE SILENCE.
+```
+
+For every universal metric portal test:
+
+```text
+ONE-MEDIATOR EXCHANGE
+
+TWO-MEDIATOR EXCHANGE
+
+LOOP-GENERATED LOWER-DIMENSION OPERATORS
 
 VACUUM POLARIZATION
 
-BACKGROUND-FIELD RESPONSE.
-```
+LONG-RANGE MATERIAL FORCE
 
-V26B1R1 permanently establishes:
+RG RUNNING
 
-```text
-OFFSTATE_LINEAR_RESPONSE_ZERO
-```
-
-does not imply:
-
-```text
-OFFSTATE_FORCE_ZERO.
+UV MATCHING.
 ```
 
 ---
 
-# 46. Two-mediator HOOK17 reference
+# 63. HOOK17 two-mediator reference
 
-Preserve the canonical preflight:
+Preserve:
 
 ```math
 |V_2(r)|
@@ -2189,296 +2986,136 @@ And:
 5.039302255187e-4.
 ```
 
-The historical inverse-cube bound used in V26B1R1 remains a **preflight reference**, not final empirical closure.
+This remains a preflight reference.
 
-Any physically realized HOOK17 theory must revisit the constraint using the actual mode content, masses, material coupling, and current experimental data.
-
----
-
-# 47. Naturalness policy
-
-No low mass or long range is accepted merely because it helps HOOK17.
-
-Every small scale must identify protection.
-
-Potential protection mechanisms must be explicit and theory-specific:
-
-```text
-EXACT GAUGE SYMMETRY
-
-APPROXIMATE GAUGE SYMMETRY
-
-TECHNICALLY NATURAL SOFT BREAKING
-
-SPONTANEOUS SYMMETRY BREAKING
-
-SHIFT SYMMETRY
-
-TOPOLOGICAL PROTECTION
-
-OTHER EXPLICITLY DERIVED STRUCTURE.
-```
-
-Forbidden:
-
-```text
-THE MASS IS SMALL
-BECAUSE WE CHOOSE IT SMALL.
-```
-
-031F0 remains the canonical naturalness warning.
+A physical HOOK17 theory must redo the analysis with its actual mode content.
 
 ---
 
-# 48. 032H17H — support, stability, reaction, and realization
+# 64. V26D lower-order descendant reference
 
-Once finite-payload sign survives, add all physical source sectors.
-
-Required:
+For E1B1 track:
 
 ```text
-SOURCE SUPPORT
+TREE xT=
+ABSENT
 
-COMPENSATOR SUPPORT
+TREE x2T=
+PRESENT
 
-CONFINEMENT
+LOOP-GENERATED xT=
+ALLOWED
 
-LOCALIZATION
+NDA n=2 DESCENDANT=
+~3.24% OF ACTIVE LOG-SLOPE
 
-ACTIVATION
-
-CONTROL
-
-SOURCE REACTION
-
-PAYLOAD REACTION
-
-ENVIRONMENTAL REACTION
-
-RADIATION.
+TECHNICAL-NATURALNESS CERTIFICATE=
+NO.
 ```
 
-Stability must include relevant sectors:
+The NDA number may rank.
+
+It may not certify.
+
+---
+
+# 65. Source-state engineering rule
+
+For HOOK17 and future geometric-source families, optimize:
+
+```math
+q_{\rm healthy}
+=
+\frac{
+Q_{\rm projected,\ canonical,\ healthy}
+}{
+E_{\rm microscopic\ source}
+}.
+```
+
+Do not optimize raw hook norm alone.
+
+Possible source-state dimensions include:
 
 ```text
-RADIAL
+PARTICLE / ANTIPARTICLE RATIO
 
-TRANSLATIONAL
+SPIN ALIGNMENT
 
-NONAXISYMMETRIC
+RELATIVE SPIN ORIENTATION
 
-SHAPE
+RELATIVE PHASE
 
-FRAGMENTATION
+MOMENTUM
 
-FERMION DENSITY
+ORBITAL ANGULAR MOMENTUM
 
-FERMION SPIN / POLARIZATION
+WAVEPACKET SHAPE
 
-COMPENSATOR
+MULTIPOLE ARRANGEMENT
 
-GEOMETRIC FIELD
+ANISOTROPY
 
-SUPPORT
+FLAVOR CONTENT
 
-SOURCE-SUPPORT RELATIVE MOTION
-
-PAYLOAD-COUPLED MODES.
+COHERENT / INCOHERENT ENSEMBLES.
 ```
 
 ---
 
-# 49. 018C stability lesson remains permanent
+# 66. Flavor multiplicity remains constrained
 
-The existence of a microscopic field is not enough.
+For multiplicity $N$ define:
 
-Preserve:
-
-```text
-018B
-FIELD EXISTENCE
-
-018C
-FATAL m=2 INSTABILITY.
+```math
+r
+=
+\frac{d\ln A_{\rm useful}}{d\ln N},
 ```
 
-Therefore:
-
-```text
-FIELD_EXISTS
-!=
-PHYSICAL_MODEL.
+```math
+s
+=
+\frac{d\ln E_{\rm complete}}{d\ln N}.
 ```
 
-HOOK17 must not repeat this mistake.
+Require:
+
+```text
+r>s
+```
+
+for genuine asymptotic efficiency gain.
+
+More species are not free source charge.
 
 ---
 
-# 50. Translation zero modes
+# 67. Support is part of the source
 
-For isolated configurations, translational Goldstone modes must be projected and interpreted correctly.
+Permanent:
 
-Do not label a small translational eigenvalue as an instability without:
+> **A source configuration is not complete until the physical sector maintaining it is included.**
 
-```text
-ZERO-MODE IDENTIFICATION
-
-GRID-CONVERGENCE
-
-PROJECTION
-
-OVERLAP TESTS.
-```
-
-The 031 stability program remains the methodological reference.
-
----
-
-# 51. 032H17I — complete operating ledger
-
-A candidate reaches H17I only after:
+Never promote:
 
 ```text
-SAME ACTION
+PRESCRIBED STRESS
 
-HEALTHY MODE
-
-WARD COMPATIBILITY
-
-NONREMOVABLE METRIC RESPONSE
-
-FINITE PAYLOAD
-
-SOURCE REACTION
-
-SUPPORT
-
-STABILITY
-
-QUANTUM / UV / EMPIRICAL SURVIVAL.
-```
-
-Then compute:
-
-```text
-E_CONSERVATIVE_COMPLETE_OPERATING.
-```
-
-The complete ledger must include every physically required sector.
-
-Only this number may be compared directly with:
-
-```text
-10 MJ.
-```
-
----
-
-# 52. 032H17J — nonlinear certification
-
-The final HOOK17 stage requires:
-
-```text
-FULL COUPLED SOURCE
-
-FULL PHYSICAL METRIC
-
-PAYLOAD
-
-SUPPORT
-
-COMPENSATOR
-
-CONSTRAINTS
-
-NONLINEAR BACKREACTION
-
-ACTIVATION
-
-OFFSTATE
-
-RESET
-
-RADIATION
-
-LONG-TIME EVOLUTION
-
-EMPIRICAL CONSISTENCY
-
-COMPLETE OPERATING ENERGY
-
-INDEPENDENT RECONSTRUCTION.
-```
-
-Only after this stage should:
-
-```text
-HOOK17_CERTIFIED
-```
-
-be considered.
-
----
-
-# 53. Same-action microscopic source rule
-
-A source vertex in the action is not the same as a source solution.
-
-Distinguish:
-
-```text
-SOURCE_VERTEX_EXPLICIT
-
-SOURCE_EQUATIONS_SOLVED
-
-SOURCE_LOCALIZED
-
-SOURCE_STABLE
-
-SOURCE_ENERGY_KNOWN
-
-SOURCE_PROJECTS_TO_HEALTHY_MODE.
-```
-
-V26D currently has:
-
-```text
-MICROSCOPIC_SOURCE_VERTEX_EXPLICIT=True
-
-MICROSCOPIC_SOURCE_SOLUTION_FULL_DHOST=False.
-```
-
-Apply the same discipline to every HOOK17 family.
-
----
-
-# 54. Support is part of the source
-
-Permanent rule:
-
-> **A stress or field configuration is not completed until the physical sector maintaining it is included.**
-
-Never accept:
-
-```text
-PRESCRIBED EXTERNAL STRESS
-
-PRESCRIBED EXTERNAL CURRENT
+PRESCRIBED CURRENT
 
 PRESCRIBED BACKGROUND CONDENSATE
 
-PRESCRIBED COMPENSATOR PROFILE
+PRESCRIBED COMPENSATOR
+
+PRESCRIBED STATIC SPACELIKE GRADIENT
 ```
 
-as a completed model.
-
-Lower bounds are valuable.
-
-They are not realizations.
+as a complete physical model.
 
 ---
 
-# 55. Scaffolding tax
+# 68. Scaffolding tax
 
 Track:
 
@@ -2508,18 +3145,15 @@ E_{\rm complete}
 }.
 ```
 
-HOOK17's low capacity is useful only if:
+Introspective favors low scaffolding tax.
 
-```text
-SCAFFOLDING
-DOES NOT DOMINATE CATASTROPHICALLY.
-```
+Low field capacity is useful only if scaffolding does not consume the headroom.
 
 ---
 
-# 56. Realization gap
+# 69. Realization gap
 
-Continue using:
+Maintain:
 
 ```math
 R_{\rm realization}
@@ -2531,7 +3165,7 @@ E_{\rm relaxed\ oracle}
 }.
 ```
 
-For HOOK17 also track:
+For capacity-based models also:
 
 ```math
 R_{\rm capacity\rightarrow complete}
@@ -2543,17 +3177,19 @@ E_{\rm capacity}
 }.
 ```
 
-This ratio may be enormous.
+This ratio can be large.
 
-That is not automatically a failure if the complete energy remains under policy.
+The physical question is whether:
 
-It is scientifically useful for identifying which physical sector consumed the original headroom.
+```text
+E_COMPLETE <10 MJ.
+```
 
 ---
 
-# 57. HOOK17 failure-memory taxonomy
+# 70. Failure-memory taxonomy
 
-Add permanent failure codes:
+Generic HOOK17 codes:
 
 ```text
 HOOK17_REJECT_ACTION_UNDEFINED
@@ -2619,403 +3255,395 @@ HOOK17_REJECT_COMPLETE_ENERGY.
 
 ---
 
-# 58. HOOK17 parking states
+# 71. New durable HOOK17 failure records
+
+Add explicit records for:
+
+```text
+HOOK17_FAIL_A6_DIRECT_J11_SOURCE_WARD
+
+HOOK17_FAIL_A6_MINIMAL_VECTOR_REPAIR
+
+HOOK17_FAIL_A6_PURE_STUECKELBERG_GAUGE_IMAGE
+
+HOOK17_FAIL_A6R1_EXACT_MASSLESS_SINGLE_COMPENSATOR
+
+HOOK17_FAIL_A6R2_CLEAN_SOURCE_PROJECTOR_1MINUS_ZERO
+
+HOOK17_FAIL_A7_DIRECT_CLEAN_ISOWEYL_CHANNEL_ZERO
+
+HOOK17_FAIL_A8_PROTECTED_2PLUS_ATLAS_NO_SURVIVOR
+
+HOOK17_FAIL_A9R1_UNMODIFIED_WHEELER_PROJECTIVE_IDENTITY
+
+HOOK17_FAIL_A9R2_STANDARD_PROJECTIVE_LORENTZ_DIRAC_VECTOR_NO_USEFUL_1PLUS
+
+HOOK17_BLOCK_A9R3_PS_CASE_I_TECHNICAL_NATURALNESS.
+```
+
+These should be family-level failure memory, not just logs.
+
+---
+
+# 72. V26D failure-memory taxonomy
+
+Add:
+
+```text
+V26D_REJECT_LINEAR_PURE_J0_PROVENANCE_COLLISION
+
+V26D_REJECT_SCALAR_GHOST
+
+V26D_REJECT_SCALAR_GRADIENT
+
+V26D_REJECT_HYPERBOLICITY
+
+V26D_REJECT_STRONG_COUPLING
+
+V26D_REJECT_PHYSICAL_G00_ZERO
+
+V26D_REJECT_FIELD_REDEFINITION_ARTIFACT
+
+V26D_REJECT_WRONG_SIGN
+
+V26D_REJECT_NATURALNESS
+
+V26D_REJECT_UV_DESCENDANT
+
+V26D_REJECT_EMPIRICAL
+
+V26D_REJECT_FINITE_PAYLOAD
+
+V26D_REJECT_STANDOFF
+
+V26D_REJECT_SOURCE_ENERGY
+
+V26D_REJECT_SUPPORT
+
+V26D_REJECT_COMPLETE_ENERGY.
+```
+
+---
+
+# 73. V26D conditional survivor record
+
+Add a durable conditional-survivor fingerprint:
+
+```text
+SURVIVOR_ID=
+V26D_E1B1_QUADRATIC_ACTIVE_STATE
+
+A_OF_X=
+1+(100/41)x^2
+
+X_STAR=
+0.1
+
+ACTIVE_BETA1=
+1/21
+
+OFFSTATE_BETA1=
+0
+
+ACTIVE_A=
+42/41
+
+ACTIVE_MAP_MARGIN=
+40/41
+
+TENSOR_MARGIN=
+146/147
+
+TREE_R5_TWO_SCALAR_VERTEX=
+ABSENT
+
+NDA_RELATIVE_OFFSTATE_TO_ACTIVE=
+~0.032435135
+
+NDA_HISTORICAL_HEADROOM=
+~30.373X
+
+TECHNICAL_NATURALNESS=
+NOT_CERTIFIED
+
+FULL_SCALAR_HEALTH=
+NOT_ESTABLISHED
+
+PHYSICAL_G00=
+NOT_ESTABLISHED
+
+STATUS=
+PROMISING_CONDITIONAL.
+```
+
+---
+
+# 74. Parking states
 
 Unknown is not falsified.
 
 Use:
 
 ```text
-HOOK17_PARK_ACTION_INCOMPLETE
+HOOK17_PARK_PROTECTED_CARRIER_UNKNOWN
 
-HOOK17_PARK_NONLINEAR_COMPLETION_REQUIRED
-
-HOOK17_PARK_SOURCE_PROJECTOR_UNKNOWN
-
-HOOK17_PARK_METRIC_INVARIANT_UNKNOWN
+HOOK17_PARK_NONLINEAR_METRIC_COMPLETION_REQUIRED
 
 HOOK17_PARK_UV_PROTECTION_UNKNOWN
 
-HOOK17_PARK_NUMERICALLY_UNRESOLVED.
-```
+HOOK17_PARK_SOURCE_STATE_ENGINEERING
 
-This distinction is essential.
+V26D_PARK_SCALAR_HEALTH_UNKNOWN
+
+V26D_PARK_PHYSICAL_G00_UNKNOWN
+
+V26D_PARK_UV_DESCENDANT_UNKNOWN
+
+V26D_PARK_FINITE_PAYLOAD_UNKNOWN
+
+NUMERICALLY_UNRESOLVED.
+```
 
 ---
 
-# 59. V26C becomes permanent failure memory
+# 75. Search mode A — theorem / symmetry mode
 
-Preserve a family-level rule approximately:
+Current first-choice mode whenever a branch has a structural uncertainty.
 
-```text
-FAILURE_ID:
-HOOK17_MASSLESS_SHIFT_DIRECT_H2
-
-SCOPE:
-TESTED MASSLESS HOOK-SHIFT-PROTECTED
-DIRECT DIRAC SOURCE
-+
-ZERO-DERIVATIVE H2 UNIVERSAL METRIC
-
-RESULT:
-CLOSED
-
-REASON:
-SOURCE WARD FAIL
-+
-ACTIVE METRIC SHIFT FAIL
-
-REOPEN CONDITION:
-NEW COMPENSATOR
-OR
-NEW GAUGE DEFORMATION
-OR
-DIFFERENT PHYSICAL PROTECTED MODE.
-```
-
-Do not rediscover this failure by changing coefficients.
-
----
-
-# 60. V24D becomes permanent failure memory
-
-Preserve:
+Use for:
 
 ```text
-TESTED LINEAR VECTOR-METRIC CROSS-SOURCE
-=
-CLOSED AFTER
-STUECKELBERG / WARD / FIELD-REDEFINITION AUDIT.
-```
+NATURALNESS
 
-Reopen only with a genuinely nonlinear physical numerator.
-
----
-
-# 61. V25F becomes permanent failure memory
-
-Preserve:
-
-```text
-SOURCE-ALIGNED G2+G3 KGB
-LARGE GAIN BY DENOMINATOR COLLAPSE
-=
-CLOSED.
-```
-
-Do not create:
-
-```text
-V25G
-```
-
-or an equivalent renamed scan.
-
----
-
-# 62. V21/V22 remain closed in their tested scopes
-
-Do not let HOOK17 rescue accidentally reopen:
-
-```text
-V21
-STATIONARY SPATIALLY VARYING TIME-GRADIENT RESERVOIR
-
-V22
-UNPROTECTED SINGLE-SCALE EXPLICIT DISFORMAL MATTER METRIC.
-```
-
-If a new theory resembles one of these, the family record must explicitly state the physical invariant that differs.
-
----
-
-# 63. Historical protected-vector routes remain closed
-
-Protected-vector implementations through:
-
-```text
-022A
-```
-
-remain closed.
-
-A new vector route must identify genuinely new:
-
-```text
-ACTION
+WARD
 
 SOURCE PROJECTOR
 
-SYMMETRY
+FRAME INVARIANCE
 
-OR
-NONLINEAR RESPONSE.
+PRINCIPAL HEALTH
+
+EMPIRICAL LOWER BOUND
+
+ENERGY LOWER BOUND.
 ```
 
-Similarity of representation is insufficient.
+This should dominate E1B2A.
 
 ---
 
-# 64. Family-level failure versus parameter failure
+# 76. Search mode B — constrained symbol mode
 
-Distinguish:
+Use when the action is defined but scalar/metric health is unknown.
+
+Compute:
 
 ```text
-EXACT PARAMETER FAILURE
+QUADRATIC ACTION
 
-PARAMETER-REGION FAILURE
+CONSTRAINTS
 
-SOURCE-STATE FAILURE
+SCHUR COMPLEMENT
 
-OPERATOR FAILURE
+KINETIC EIGENVALUES
 
-SYMMETRY-REALIZATION FAILURE
+GRADIENT EIGENVALUES
 
-ACTION-FAMILY FAILURE
+CHARACTERISTICS
 
-POLICY FAILURE
+HYPERBOLICITY
 
-NUMERICAL UNRESOLVED.
+STRONG-COUPLING MARGINS.
 ```
 
-The HOOK17 search will depend heavily on family-level theorem memory.
+This is E1B2B.
 
 ---
 
-# 65. Search mode A — action-family theorem atlas
+# 77. Search mode C — physical cross-response mode
 
-This becomes the current primary mode.
+Use after health passes.
 
-Use when:
-
-```text
-THE BOTTLENECK IS SAME-ACTION PHYSICALIZATION.
-```
-
-The output is not millions of points.
-
-The output is:
+Compute:
 
 ```text
-A SMALL NUMBER OF PHYSICALLY DISTINCT FAMILIES
-+
-THEIR EXACT SURVIVAL / FAILURE REASONS.
+SOURCE VECTOR
+
+REDUCED PROPAGATOR
+
+PHYSICAL METRIC PROJECTOR
+
+SOURCE->g00 RESPONSE
+
+FRAME-INVARIANT OBSERVABLE
+
+SIGN.
 ```
 
-This is H17A.
+This is E1B2C.
 
 ---
 
-# 66. Search mode B — source projector enumeration
+# 78. Search mode D — finite-payload mode
 
-Use when:
+Use only after a real physical response exists.
+
+Compute:
 
 ```text
-HEALTHY MODES ARE KNOWN
-BUT SOURCE OVERLAP IS UNKNOWN.
+FINITE SOURCE
+
+FINITE PAYLOAD
+
+TRUE STANDOFF
+
+SURFACE MINIMUM
+
+VOLUME AVERAGE
+
+SIDEDNESS
+
+REACTION
+
+MULTIPOLES
+
+CONVERGENCE.
 ```
-
-Enumerate source irreps and exact projectors before field solves.
-
-This should be heavily used in H17B.
 
 ---
 
-# 67. Search mode C — invariant operator atlas
+# 79. Search mode E — energy optimization
 
-Use when:
-
-```text
-SOURCE + HEALTHY MODE EXIST
-BUT PHYSICAL METRIC PORTAL IS UNKNOWN.
-```
-
-Generate an independent operator basis.
-
-Filter using:
+Continuous energy optimization is authorized only after:
 
 ```text
-COVARIANCE
+HEALTHY MODE
 
-GAUGE INVARIANCE
+PHYSICAL NONREMOVABLE RESPONSE
 
-PARITY
+OUTWARD SIGN
 
-DIMENSION
+FINITE PAYLOAD
 
-UNIVERSALITY
-
-CANONICAL NORMALIZATION
-
-FIELD-REDEFINITION INVARIANCE
-
-OFFSTATE ORDER.
+DECLARED RANGE.
 ```
 
-This is H17C.
+Before that:
+
+```text
+ENERGY_OPTIMIZATION_AUTHORIZED=
+FALSE.
+```
 
 ---
 
-# 68. Search mode D — constrained physical-response oracle
+# 80. Search mode F — HOOK17 protected-carrier return
 
-Use when:
+If E1B2 closes V26D, return immediately to the remaining genuinely new HOOK17 families.
+
+Do not restart the entire family atlas.
+
+Use A9R3 as the starting state.
+
+Search for:
 
 ```text
-A SAME-ACTION SOURCE AND PORTAL EXIST
-BUT THE TRUE RESPONSE AFTER CONSTRAINTS IS UNKNOWN.
+A PROTECTED CARRIER
+THAT PRESERVES:
+
+V24 SOURCE
+
+A9-LIKE HEALTHY POLE OVERLAP
+
+PROJECTIVE / WARD CONSISTENCY
+
+SAME-ACTION METRIC STRESS
+
+AND
+V26B1-LIKE ACTIVE METRIC NUMERATOR.
 ```
-
-Calculate:
-
-```text
-CONSTRAINT-REDUCED KINETIC OPERATOR
-
-HEALTHY EIGENMODES
-
-SOURCE PROJECTOR
-
-METRIC PROJECTOR
-
-CROSS GREEN FUNCTION.
-```
-
-This is H17D.
 
 ---
 
-# 69. Search mode E — parameter optimization
-
-Continuous numerical search becomes appropriate only after H17D survives.
-
-Then optimize:
-
-```text
-SOURCE STATE
-
-MASS / RANGE
-
-COUPLINGS
-
-BACKGROUND AMPLITUDE
-
-GEOMETRY
-
-PAYLOAD POSITION
-
-SUPPORT PARAMETERS.
-```
-
-Do not start here.
-
----
-
-# 70. Search mode F — global family rerank
+# 81. Search mode G — broad global rerank
 
 Use only if:
 
 ```text
-HOOK17 DECLARED FAMILIES EXHAUSTED
+V26D QUADRATIC ACTIVE-STATE BRANCH CLOSES
 
 AND
 
-V26D / DHOST FAILS
+CREDIBLE REMAINING HOOK17 FAMILIES CLOSE
+
+AND
+
+NO CURRENT HIGH-PRIORITY ACTION FAMILY SURVIVES
 
 OR
 
-A GENUINELY NEW FAMILY IS IDENTIFIED.
+GENUINELY NEW PHYSICS ENTERS THE RANKING.
 ```
 
-Do not return prematurely to indiscriminate mining.
+Do not return prematurely to generic mining.
 
 ---
 
-# 71. Information gain per compute remains the scheduler objective
+# 82. Information gain per compute
 
-AGMINER should maximize:
+AGMINER scheduler objective:
 
 ```text
 EXPECTED PHYSICAL INFORMATION GAIN
 PER
-COMPUTE / HUMAN ATTENTION.
+COMPUTE + HUMAN ATTENTION.
 ```
 
-A symbolic Ward identity that eliminates a complete action family is more valuable than:
+A symbolic theorem eliminating a whole family is more valuable than:
 
 ```text
-10^8 RANDOM PARAMETER POINTS.
+10^8 PARAMETER POINTS.
 ```
 
 ---
 
-# 72. H17A compute budget philosophy
+# 83. Current compute philosophy
 
-During H17A devote nearly all effort to:
+Immediate compute should favor:
 
 ```text
-ACTION RECONSTRUCTION
-
 SYMMETRY
 
-WARD IDENTITIES
+NATURALNESS
 
-SOURCE PROJECTORS
+PRINCIPAL SYMBOL
 
-HEALTHY MODE CONTENT
+CONSTRAINT ELIMINATION
 
-INVARIANT OPERATOR BASIS
+FRAME-INVARIANT CROSS RESPONSE
 
-IMMEDIATE NATURALNESS / EMPIRICAL NO-GOS.
+EMPIRICAL BOUNDS.
 ```
 
-Do not spend substantial compute on:
+Do not spend major compute on:
 
 ```text
 3D FIELD SOLVES
 
 GEOMETRY OPTIMIZATION
 
+MASS STOCHASTIC SCANS
+
 ENERGY MINIMIZATION
-
-LARGE STOCHASTIC SCANS.
 ```
+
+until E1B2 passes.
 
 ---
 
-# 73. Surrogate models remain advisory only
+# 84. TheoryFamily interface
 
-Surrogates may eventually prioritize:
-
-```text
-SOURCE EFFICIENCY
-
-CAPACITY
-
-EMPIRICAL FAILURE PROBABILITY
-
-STABILITY
-
-COMPLETE ENERGY.
-```
-
-They may not establish:
-
-```text
-WARD PASS
-
-GAUGE INVARIANCE
-
-GHOST ABSENCE
-
-NO-GO
-
-CERTIFICATION.
-```
-
----
-
-# 74. Theory-family interface update
-
-Extend the conceptual family contract.
+Conceptual contract:
 
 ```python
 class TheoryFamily:
@@ -3045,6 +3673,12 @@ class TheoryFamily:
     metric_ward_check(params)
     total_action_ward_check(params)
 
+    technical_naturalness_check(
+        params,
+        background,
+        config,
+    )
+
     principal_symbol(params, background)
     kinetic_eigensystem(params, background)
     constraint_structure(params, background)
@@ -3058,8 +3692,15 @@ class TheoryFamily:
         background,
     )
 
+    physical_response_sign(
+        params,
+        source_state,
+        background,
+    )
+
     offstate_portal_order(params)
     offstate_force_precheck(params)
+    quantum_descendant_precheck(params)
 
     energy_lower_bound(params, config)
     capacity_oracle(params, config)
@@ -3079,6 +3720,12 @@ class TheoryFamily:
     )
 
     finite_payload_response(
+        solution,
+        params,
+        config,
+    )
+
+    true_standoff_check(
         solution,
         params,
         config,
@@ -3133,7 +3780,7 @@ class TheoryFamily:
     )
 ```
 
-Unsupported methods must return explicitly:
+Unsupported methods must explicitly return:
 
 ```text
 NOT_IMPLEMENTED
@@ -3149,9 +3796,9 @@ Never silently pass.
 
 ---
 
-# 75. Add family theorem records
+# 85. Family theorem records
 
-Recommended new table/object:
+Recommended table:
 
 ```text
 family_theorems
@@ -3198,14 +3845,20 @@ INDEX_PARITY_NO_GO
 
 PRINCIPAL_MARGIN_BOUND
 
+FRAME_EQUIVALENCE_THEOREM
+
 ENERGY_LOWER_BOUND
 
-OFFSTATE_FORCE_THEOREM.
+NATURALNESS_NO_GO
+
+OFFSTATE_FORCE_THEOREM
+
+PHYSICAL_RESPONSE_ZERO.
 ```
 
 ---
 
-# 76. Add same-action graph records
+# 86. Same-action graph records
 
 Recommended table:
 
@@ -3251,12 +3904,62 @@ result_status.
 
 ---
 
-# 77. Add HOOK17 capacity records
+# 87. Active-state completion records
 
 Recommended table:
 
 ```text
-hook17_capacity
+active_state_completions
+```
+
+Fields:
+
+```text
+candidate_id
+
+family_id
+
+completion_version
+
+background_state
+
+offstate_state
+
+physical_metric_function
+
+active_beta
+
+offstate_beta
+
+active_map_margin
+
+principal_margin
+
+lowest_tree_matter_vertex_order
+
+lowest_loop_descendant_order
+
+naturalness_status
+
+physical_response_status
+
+finite_payload_status
+
+energy_status
+
+result_status.
+```
+
+E1B1 belongs here.
+
+---
+
+# 88. Capacity records
+
+Recommended generic capacity table:
+
+```text
+capacity_records
 ```
 
 Fields:
@@ -3276,6 +3979,8 @@ range_m
 
 source_radius_m
 
+payload_benchmark_version
+
 capacity_exterior_j
 
 capacity_interior_j
@@ -3286,8 +3991,6 @@ capacity_reference_ratio
 
 ledger_class
 
-empirical_bound_version
-
 trusted_for_ranking
 
 result_status.
@@ -3295,7 +3998,7 @@ result_status.
 
 ---
 
-# 78. Add source-projector records
+# 89. Source-projector records
 
 Recommended table:
 
@@ -3331,11 +4034,53 @@ proof_reference
 result_status.
 ```
 
-This will be central to H17B.
+---
+
+# 90. Naturalness records
+
+Add:
+
+```text
+naturalness_records
+```
+
+Fields:
+
+```text
+candidate_id
+
+dangerous_operator
+
+operator_allowed_by_symmetry
+
+operator_forbidden_by_symmetry
+
+tree_coefficient
+
+required_max_coefficient
+
+loop_order
+
+nda_estimate
+
+beta_function_status
+
+uv_matching_status
+
+threshold_estimate
+
+empirical_margin
+
+energy_margin
+
+technical_naturalness_status
+
+proof_reference.
+```
 
 ---
 
-# 79. Database architecture remains SQLite
+# 91. Database architecture remains SQLite
 
 Primary database:
 
@@ -3359,13 +4104,13 @@ COMPACT
 DEPENDENCY-LIGHT.
 ```
 
-Do not put large field arrays in SQLite.
+Do not store large field arrays in SQLite.
 
 ---
 
-# 80. Preserve core database tables
+# 92. Preserve core tables
 
-Retain conceptually:
+Retain:
 
 ```text
 runs
@@ -3385,13 +4130,13 @@ action_oracles
 collective_scaling.
 ```
 
-Add HOOK17 tables only where they represent genuinely distinct scientific objects rather than duplicating generic rows.
+Add only scientifically distinct tables.
 
 ---
 
-# 81. Candidate state machine update
+# 93. Candidate state machine
 
-Recommended expanded states:
+Recommended states:
 
 ```text
 NEW
@@ -3412,6 +4157,14 @@ REJECTED_SOURCE_PROJECTOR
 
 HEALTHY_MODE_PARTIAL
 
+NATURALNESS_RUNNING
+
+REJECTED_NATURALNESS
+
+PRINCIPAL_SYMBOL_RUNNING
+
+REJECTED_PRINCIPAL_HEALTH
+
 METRIC_INVARIANT_RUNNING
 
 REJECTED_METRIC_WARD
@@ -3419,6 +4172,10 @@ REJECTED_METRIC_WARD
 CROSS_RESPONSE_RUNNING
 
 REJECTED_FIELD_REDEFINITION
+
+REJECTED_ZERO_PHYSICAL_RESPONSE
+
+REJECTED_SIGN
 
 CANONICAL_PARTIAL
 
@@ -3433,6 +4190,8 @@ REJECTED_SOURCE_ENERGY
 PAYLOAD_RUNNING
 
 REJECTED_PAYLOAD
+
+REJECTED_STANDOFF
 
 MICROSCOPIC_PARTIAL
 
@@ -3471,11 +4230,9 @@ INVALIDATED_BY_LATER_GATE
 SUPERSEDED.
 ```
 
-Backward-compatible mapping is acceptable.
-
 ---
 
-# 82. Ledger classes update
+# 94. Ledger classes
 
 Preserve:
 
@@ -3497,7 +4254,7 @@ COMPLETE_STATIC
 COMPLETE_OPERATING.
 ```
 
-Add:
+Add/retain:
 
 ```text
 HOOK17_CAPACITY_PREFLIGHT
@@ -3506,14 +4263,20 @@ HOOK17_CAPACITY_CANONICAL
 
 HOOK17_SOURCE_FLOOR
 
-HOOK17_SAME_ACTION_PARTIAL.
+HOOK17_SAME_ACTION_PARTIAL
+
+V26D_ACTIVE_STATE_PREFLIGHT
+
+V26D_SCALAR_HEALTH_PARTIAL
+
+V26D_PHYSICAL_RESPONSE_PARTIAL.
 ```
 
-These classes must never rank directly against `COMPLETE_OPERATING`.
+Never rank these directly against `COMPLETE_OPERATING`.
 
 ---
 
-# 83. Pareto comparability rule
+# 95. Pareto comparability
 
 Do not compare:
 
@@ -3527,7 +4290,7 @@ against:
 COMPLETE 5-MJ MODEL
 ```
 
-on one energy axis.
+on one unlabeled energy axis.
 
 Require compatible:
 
@@ -3536,6 +4299,8 @@ LEDGER CLASS
 
 PAYLOAD BENCHMARK
 
+PERFORMANCE NORMALIZATION
+
 PHYSICS SCOPE
 
 PROVENANCE
@@ -3543,10 +4308,12 @@ PROVENANCE
 CANONICALIZATION STATUS.
 ```
 
-Separate views:
+Separate frontiers:
 
 ```text
 HOOK17 CAPACITY FRONTIER
+
+ACTIVE-STATE COMPLETION FRONTIER
 
 SOURCE-EFFICIENCY FRONTIER
 
@@ -3557,12 +4324,41 @@ COMPLETE OPERATING FRONTIER.
 
 ---
 
-# 84. HOOK17 Pareto vector
+# 96. Performance-normalization comparability
 
-For sufficiently developed HOOK17 candidates rank with:
+No two candidate energy numbers should be ranked directly unless their reported output includes:
 
 ```text
-E_CAPACITY
+TARGET_ACCELERATION_M_S2
+
+TARGET_TRUE_STANDOFF_M
+
+PAYLOAD_MASS
+
+PAYLOAD_RADIUS
+
+FINITE_PAYLOAD_GEOMETRY
+
+SURFACE_MINIMUM_RESPONSE.
+```
+
+The old HOOK17 capacity reference should be marked:
+
+```text
+PERFORMANCE_NORMALIZATION=
+HISTORICAL_SMALLER_SCALE
+```
+
+until recomputed at the permanent benchmark.
+
+---
+
+# 97. Candidate Pareto vector
+
+For sufficiently mature candidates rank:
+
+```text
+E_FIELD_OR_CAPACITY
 
 E_SOURCE_LOWER_BOUND
 
@@ -3579,6 +4375,8 @@ METRIC_NUMERATOR
 PHYSICAL_CROSS_RESPONSE
 
 PRINCIPAL_MARGIN
+
+FIELD_MAP_MARGIN
 
 CONDITION_NUMBER
 
@@ -3600,31 +4398,27 @@ RANGE_MARGIN
 
 STABILITY_MARGIN
 
-FINITE_PAYLOAD_MARGIN.
+FINITE_PAYLOAD_MARGIN
+
+STANDOFF_MARGIN.
 ```
 
-Validity gates occur before Pareto ranking.
+Validity gates occur first.
 
 ---
 
-# 85. Mechanism metrics still require physical completeness
+# 98. Mechanism metrics require physical completeness
 
-Do not populate full `mechanism_metrics` from HOOK17 merely because:
+Do not populate full mechanism metrics merely because a partial looks efficient.
 
-```text
-17 J
-```
-
-looks attractive.
-
-Suggested minimum remains:
+Suggested minimum:
 
 ```text
 DEFINED ACTION
 
 CANONICAL NORMALIZATION
 
-MICROSCOPIC SOURCE
+MICROSCOPIC SOURCE OR VALID SOURCE LOWER BOUND
 
 PHYSICAL METRIC
 
@@ -3637,11 +4431,11 @@ SOURCE ENERGY
 MEANINGFUL SUPPORT ACCOUNTING.
 ```
 
-Until then the empty physical mechanism frontier is scientifically correct.
+Until then an empty physical mechanism frontier is acceptable.
 
 ---
 
-# 86. Multi-fidelity Level 0 — symbolic / theorem
+# 99. Multi-fidelity Level 0 — symbolic / theorem
 
 Target cost:
 
@@ -3651,14 +4445,12 @@ TO
 SECONDS / MINUTES.
 ```
 
-HOOK17 Level 0 tests:
+Tests:
 
 ```text
 ACTION PROVENANCE
 
 INDEX SYMMETRY
-
-REPRESENTATION CONTENT
 
 WARD IDENTITY
 
@@ -3666,24 +4458,22 @@ SOURCE PROJECTOR ZERO/NONZERO
 
 GAUGE REDUNDANCY
 
-CANONICAL NORMALIZATION
+FIELD-REDEFINITION IDENTITIES
 
-GHOST NECESSITY
-
-MASS / RANGE NECESSITY
-
-ENERGY LOWER BOUND
+PRINCIPAL-MARGIN BOUNDS
 
 NATURALNESS NECESSITY
+
+ENERGY LOWER BOUNDS
 
 EMPIRICAL STRUCTURAL EXCLUSION.
 ```
 
-This is the dominant H17A/H17B regime.
+This dominates E1B2A.
 
 ---
 
-# 87. Multi-fidelity Level 1 — constrained action oracle
+# 100. Multi-fidelity Level 1 — constrained action oracle
 
 Compute:
 
@@ -3700,16 +4490,16 @@ METRIC-MODE PROJECTOR
 
 CROSS RESPONSE
 
-OFFSTATE ORDER
+FRAME-INVARIANT RESPONSE
 
-CAPACITY LOWER BOUND.
+OFFSTATE ORDER.
 ```
 
-This is H17C/H17D.
+This is E1B2B/C.
 
 ---
 
-# 88. Multi-fidelity Level 2 — microscopic source
+# 101. Multi-fidelity Level 2 — microscopic source
 
 Require:
 
@@ -3729,11 +4519,9 @@ REACTION
 EFT MARGIN.
 ```
 
-This is part of H17E.
-
 ---
 
-# 89. Multi-fidelity Level 3 — finite payload
+# 102. Multi-fidelity Level 3 — finite payload
 
 Compute:
 
@@ -3741,6 +4529,8 @@ Compute:
 FINITE SOURCE
 
 FINITE PAYLOAD
+
+TRUE EXTERNAL STANDOFF
 
 MULTIPOLES
 
@@ -3755,11 +4545,9 @@ REACTION
 CONVERGENCE.
 ```
 
-This is H17F.
-
 ---
 
-# 90. Multi-fidelity Level 4 — support and stability
+# 103. Multi-fidelity Level 4 — support / stability
 
 Add:
 
@@ -3781,20 +4569,18 @@ SHAPE STABILITY
 SOURCE-SUPPORT COUPLING.
 ```
 
-This is H17H.
-
 ---
 
-# 91. Multi-fidelity Level 5 — quantum / empirical
+# 104. Multi-fidelity Level 5 — quantum / empirical
 
 Require:
 
 ```text
-RENORMALIZED VACUUM
-
 RG
 
 UV MATCH
+
+LOOP DESCENDANTS
 
 COMPANION OPERATORS
 
@@ -3813,11 +4599,9 @@ COSMOLOGICAL
 OFFSTATE MATERIAL RESPONSE.
 ```
 
-This is H17G/H17H as ordering dictates.
-
 ---
 
-# 92. Multi-fidelity Level 6 — certification
+# 105. Multi-fidelity Level 6 — certification
 
 Require:
 
@@ -3841,31 +4625,30 @@ INDEPENDENT RECONSTRUCTION.
 
 ---
 
-# 93. Cheapest decisive physics first
+# 106. Cheapest decisive physics first
 
-Not every family must execute gates in numerical order.
-
-For example:
+Examples:
 
 ```text
-IF SOURCE WARD FAILS:
-STOP BEFORE PRINCIPAL SYMBOL
+IF NATURALNESS THEOREM FATAL:
+STOP BEFORE CROSSPROP
 
-IF PROJECTOR IS EXACTLY ZERO:
+IF SCALAR PRINCIPAL SYMBOL UNHEALTHY:
+STOP BEFORE PAYLOAD
+
+IF PHYSICAL g00 RESPONSE ZERO:
 STOP BEFORE ENERGY
 
-IF SOURCE REST ENERGY LOWER BOUND >10 MJ:
-STOP BEFORE FIELD SOLVE
+IF SOURCE LOWER BOUND >=10 MJ:
+STOP BEFORE GEOMETRY
 
-IF LOW-ENERGY FIFTH-FORCE CONSTRAINT IS FATAL:
-STOP BEFORE UV COMPLETION.
+IF FIFTH-FORCE CONSTRAINT FATAL:
+STOP BEFORE NONLINEAR PDE.
 ```
-
-AGMINER should dynamically choose the cheapest decisive gate.
 
 ---
 
-# 94. Policy-specific versus physical rejection
+# 107. Policy-specific versus physical failure
 
 Continue to separate:
 
@@ -3879,26 +4662,23 @@ from:
 CURRENT_POLICY_FAIL.
 ```
 
-Example:
+A theoretically valid:
 
 ```text
-VALID HOOK17 COMPLETE MODEL
-20 MJ
+20 MJ COMPLETE MODEL
 ```
 
-would be scientifically important but fail the current strict practicality policy.
+would be important science but fail the current practicality policy.
 
 Store:
 
 ```text
-POLICY_SPECIFIC=True
+POLICY_SPECIFIC=True.
 ```
-
-for the energy objective failure.
 
 ---
 
-# 95. Numerical unresolved remains distinct
+# 108. Numerical unresolved remains distinct
 
 Permanent:
 
@@ -3917,14 +4697,15 @@ CONTINUATION
 
 IMPROVED DISCRETIZATION
 
-KNOWN BUG FIX.
-```
+KNOWN BUG FIX
 
-Do not burn unlimited compute on a difficult candidate.
+OR
+HIGH-INFORMATION REFORMULATION.
+```
 
 ---
 
-# 96. Provenance remains Tier 0
+# 109. Provenance remains Tier 0
 
 Every result should store:
 
@@ -3939,6 +4720,8 @@ LEDGER_VERSION
 
 PAYLOAD_VERSION
 
+PERFORMANCE_NORMALIZATION_VERSION
+
 RESULT_STATUS
 
 SUPERSEDES
@@ -3948,19 +4731,23 @@ SUPERSEDED_BY
 PROOF_REFERENCE.
 ```
 
-Only:
-
-```text
-ACTIVE
-```
-
-trusted results compete in the current frontier.
+Only trusted active results compete in the current frontier.
 
 ---
 
-# 97. Historical rows never silently compete
+# 110. Historical rows never silently compete
 
-Historical objects remain valuable for:
+Mark historical objects:
+
+```text
+HISTORICAL=True
+
+ELIGIBLE_FOR_CURRENT_FRONTIER=False
+```
+
+unless formally revalidated.
+
+Historical objects remain useful for:
 
 ```text
 REGRESSION
@@ -3974,19 +4761,9 @@ MECHANISM LEARNING
 LITERATURE COMPARISON.
 ```
 
-Mark:
-
-```text
-HISTORICAL=True
-
-ELIGIBLE_FOR_CURRENT_FRONTIER=False
-```
-
-unless formally revalidated.
-
 ---
 
-# 98. Current historical energy references
+# 111. Historical energy references
 
 Preserve separately:
 
@@ -4019,117 +4796,134 @@ HOOK17 RP1E12 CAPACITY
 ~17.0676 J.
 ```
 
-These belong to different ledger classes.
+These belong to different ledger classes and performance normalizations.
 
-Never place them in one unlabeled ranking.
+Never rank them in one unlabeled list.
 
 ---
 
-# 99. Current preserved fallback — V26D
+# 112. Current V26D state
 
-V26D established:
+Preserve:
 
 ```text
-ONE_UNIVERSAL_PHYSICAL_METRIC=True
+ONE_UNIVERSAL_PHYSICAL_METRIC=
+YES
 
-SECOND_PHYSICAL_METRIC_REQUIRED=False
+SECOND_PHYSICAL_METRIC_REQUIRED=
+NO
 
-ORDINARY_MATTER_SPECIAL_CHARGE_REQUIRED=False
+ORDINARY_MATTER_SPECIAL_CHARGE_REQUIRED=
+NO
 
-DHOST_DEGENERACY_RELATION_EXPLICIT=True
+DHOST_DEGENERACY=
+EXPLICIT
 
-A3_ZERO_NO_DECAY_IDENTITY=True
+NO-GRAVITON-DECAY IDENTITY=
+PASS
 
-PUBLISHED_FRAME_INDEPENDENT_KMM_STRUCTURE=True
+STATIC-SPACELIKE TENSOR CT1=
+PASS
 
-OFFSTATE_CLASSICAL_KMM_ZERO=True
+REPRESENTATIVE TENSOR MARGIN=
+146/147
 
-ACTIVE_KMM_WITNESS_NONZERO=True
+EXACT EINSTEIN-FRAME MAP=
+PASS
 
-MICROSCOPIC_SOURCE_VERTEX_EXPLICIT=True.
+LINEAR V17-EQUIVALENT COMPLETION=
+CLOSED
+
+QUADRATIC ACTIVE-STATE COMPLETION=
+PROMISING_CONDITIONAL.
 ```
 
-It did not establish:
+Still not established:
 
 ```text
-MICROSCOPIC SOURCE SOLUTION IN FULL DHOST
+FULL SCALAR HEALTH
 
-STATIC-SPACELIKE CANONICAL HEALTH
-
-ANISOTROPIC cT=1
-
-NONREMOVABLE SOURCE-METRIC CROSS RESPONSE
+PHYSICAL g00 CROSS RESPONSE
 
 OUTWARD SIGN
 
 FINITE PAYLOAD
 
+1g AT 1m
+
+SOURCE ENERGY
+
 COMPLETE ENERGY.
 ```
 
-Preserve:
+---
+
+# 113. V26D is active, not paused
+
+Previous documents stated:
 
 ```text
-V26D=
-OPEN FALLBACK.
+V26E=
+PAUSED.
+```
+
+That is superseded.
+
+Current:
+
+```text
+V26D / V26E=
+RESUMED_AND_ACTIVE.
+```
+
+Immediate next:
+
+```text
+032V26E1B2.
 ```
 
 ---
 
-# 100. V26E is paused, not closed
+# 114. Hook17 is primary mechanism, not immediate run
 
-Previously authorized:
-
-```text
-032V26E_STATIC_SPACELIKE_PRINCIPAL_SYMBOL_CROSSPROP_AND_NUMERATOR_BOUND.
-```
-
-Current decision:
+Current scheduling distinction:
 
 ```text
-PAUSE V26E
+PRIMARY_MECHANISM_PROGRAM=
+HOOK17
 
-PURSUE HOOK17 FIRST.
+IMMEDIATE_RUN_BRANCH=
+V26D_E1B1.
 ```
 
-Reopen V26E immediately if:
+If V26D fails:
 
 ```text
-HOOK17 H17A/H17B EXHAUSTS ALL CREDIBLE SAME-ACTION FAMILIES
-
-OR
-
-HOOK17 OBTAINS A FAMILY-LEVEL NO-GO
-
-OR
-
-HOOK17 COMPLETE LOWER BOUNDS BECOME CLEARLY NONPRACTICAL.
+RETURN_TO_REMAINING_HOOK17_PROTECTED_FAMILIES.
 ```
 
-Do not discard V26D work.
+Do not interpret active fallback work as abandonment of HOOK17.
 
 ---
 
-# 101. HOOK17 stop rule
+# 115. HOOK17 stop rule
 
-HOOK17 should not become an unfalsifiable obsession.
-
-Close the declared HOOK17 program if exhaustive credible family analysis establishes that every route necessarily:
+HOOK17 should close only if the credible remaining family space establishes that every route necessarily:
 
 ```text
-MAKES THE SOURCE PURE GAUGE
+MAKES SOURCE PURE GAUGE
 
 OR
 
-GIVES ZERO HEALTHY-MODE PROJECTOR
+GIVES ZERO HEALTHY PROJECTOR
 
 OR
 
-REMOVES THE PHYSICAL METRIC NUMERATOR
+LOSES THE PHYSICAL METRIC NUMERATOR
 
 OR
 
-REQUIRES PRINCIPAL-MARGIN COLLAPSE
+REQUIRES UNPROTECTED PRINCIPAL COLLAPSE
 
 OR
 
@@ -4141,34 +4935,58 @@ REQUIRES UNPROTECTED PATHOLOGICAL SCALES
 
 OR
 
-HAS A PROVEN COMPLETE ENERGY FLOOR >=10 MJ
+HAS COMPLETE ENERGY FLOOR >=10 MJ
 
 OR
 
 IS EMPIRICALLY EXCLUDED.
 ```
 
-Then record:
-
-```text
-HOOK17=
-CLOSED_UNDER_EXHAUSTED_DECLARED_FAMILIES
-```
-
-and resume V26D/V26E.
+Current P&S failure alone does not meet this global criterion.
 
 ---
 
-# 102. HOOK17 success condition
+# 116. V26D stop rule
 
-HOOK17 becomes a physical candidate only after one explicit theory has:
+Close the current E1B1 branch if it fails:
+
+```text
+SCALAR HEALTH
+
+PHYSICAL g00
+
+FIELD-REDEFINITION SURVIVAL
+
+OUTWARD SIGN
+
+UV DESCENDANT
+
+FINITE PAYLOAD
+
+STANDOFF
+
+SOURCE ENERGY
+
+EMPIRICAL
+
+OR
+COMPLETE ENERGY.
+```
+
+Do not endlessly invent P/Q sectors after a decisive invariant no-go.
+
+---
+
+# 117. Physical candidate success condition
+
+A candidate becomes a serious physical antigravity candidate only after:
 
 ```text
 1.
 EXPLICIT SAME ACTION
 
 2.
-MICROSCOPIC INTRINSIC SOURCE
+MICROSCOPIC SOURCE
 
 3.
 SOURCE WARD CONSISTENCY
@@ -4192,53 +5010,54 @@ METRIC WARD CONSISTENCY
 NONREMOVABLE SOURCE->METRIC RESPONSE
 
 10.
-ACTIVE/OFFSTATE SEPARATION
+OUTWARD SIGN
 
 11.
-FINITE-PAYLOAD OUTWARD SIGN
+FINITE NEUTRAL PAYLOAD
 
 12.
-TRUE SIDEDNESS CLASSIFICATION
+TRUE EXTERNAL STANDOFF
 
 13.
-SOURCE REACTION
+>=1 g
 
 14.
-STABILITY
+>=1 m
 
 15.
-RANGE
+SOURCE REACTION
 
 16.
-QUANTUM / RG / UV CONTROL
+STABILITY
 
 17.
-EMPIRICAL CONSISTENCY
+RANGE
 
 18.
-SUPPORT / CONFINEMENT
+QUANTUM / RG / UV CONTROL
 
 19.
+EMPIRICAL CONSISTENCY
+
+20.
+SUPPORT / CONFINEMENT
+
+21.
 COMPLETE ENERGY LEDGER.
-```
-
-Until then:
-
-```text
-HOOK17_PHYSICAL_MODEL=
-NO.
 ```
 
 ---
 
-# 103. No target forcing
+# 118. No target forcing
 
 Do not change:
 
 ```text
 PAYLOAD
 
-1g REQUIREMENT
+1g FLOOR
+
+1m STANDOFF FLOOR
 
 ENERGY POLICY
 
@@ -4257,39 +5076,34 @@ CANONICALIZATION RULE
 SUPPORT ACCOUNTING
 ```
 
-to preserve HOOK17.
-
-If HOOK17 fails, record why.
+to preserve an attractive candidate.
 
 ---
 
-# 104. No 17-J forcing
+# 119. No 17-J forcing
 
-Especially forbidden:
+Forbidden:
 
 ```text
-ALTER THEORY UNTIL E_CAPACITY = 17 J
+ALTER THEORY UNTIL E_CAPACITY=17 J
 
-DROP SOURCE ENERGY TO KEEP TOTAL NEAR 17 J
+DROP SOURCE ENERGY
 
-IGNORE COMPENSATOR ENERGY
+IGNORE COMPENSATOR
 
 IGNORE SUPPORT
 
 IGNORE LOOPS
 
-IGNORE REACTION.
+IGNORE REACTION
+
+OR
+TRANSFER 17 J TO V26D.
 ```
-
-The 17-J result is a clue about a potentially excellent mechanism.
-
-It is not a target that overrides physics.
 
 ---
 
-# 105. Source reaction remains mandatory
-
-A universal metric interaction is reciprocal.
+# 120. Source reaction remains mandatory
 
 Eventually solve:
 
@@ -4311,13 +5125,13 @@ STRONG PAYLOAD RESPONSE
 ZERO SOURCE RESPONSE
 ```
 
-without an explicit physical reason.
+without explicit physical structure.
 
 ---
 
-# 106. Conservation remains mandatory
+# 121. Conservation remains mandatory
 
-For every completed source require:
+Require:
 
 ```text
 LOCAL FIELD EQUATIONS
@@ -4331,11 +5145,11 @@ SUPPORT CONSERVATION
 REACTION ACCOUNTING.
 ```
 
-A locally outward field does not imply reactionless propulsion.
+Outward field does not imply reactionless propulsion.
 
 ---
 
-# 107. Far-field leakage
+# 122. Far-field leakage
 
 Track:
 
@@ -4355,34 +5169,69 @@ OFFSTATE RESPONSE
 MATERIAL DEPENDENCE.
 ```
 
-A zero linear offstate portal does not remove higher-order leakage.
-
 ---
 
-# 108. Finite-payload benchmark remains immutable by candidate convenience
+# 123. Stability remains mandatory
 
-Current benchmark:
+Preserve 018C lesson:
 
 ```text
-M_PAYLOAD=
-1 kg
-
-R_PAYLOAD=
-0.10 m
-
-MIN_SURFACE_ACCEL=
-9.80665 m/s^2.
+FIELD EXISTS
+!=
+PHYSICAL MODEL.
 ```
 
-If another benchmark is scientifically useful, version it separately.
+Eventually test relevant:
 
-Do not silently replace the primary benchmark.
+```text
+RADIAL
+
+TRANSLATIONAL
+
+NONAXISYMMETRIC
+
+SHAPE
+
+FRAGMENTATION
+
+SOURCE DENSITY
+
+SOURCE SPIN / POLARIZATION
+
+SCALAR
+
+COMPENSATOR
+
+GEOMETRIC FIELD
+
+SUPPORT
+
+PAYLOAD-COUPLED MODES.
+```
 
 ---
 
-# 109. Robustness before promotion
+# 124. Translation zero modes
 
-For physically surviving parameter candidates perturb:
+For isolated configurations identify and project translational Goldstone modes before labeling small eigenvalues unstable.
+
+Require:
+
+```text
+ZERO-MODE IDENTIFICATION
+
+GRID CONVERGENCE
+
+PROJECTION
+
+OVERLAP.
+```
+
+---
+
+# 125. Robustness before promotion
+
+Perturb:
 
 ```text
 COUPLINGS
@@ -4404,7 +5253,7 @@ BOUNDARY CONDITIONS
 UV SCALE.
 ```
 
-Record:
+Classify:
 
 ```text
 INTERIOR ROBUST
@@ -4416,11 +5265,9 @@ RAZOR-THIN
 CRITICAL-BRANCH.
 ```
 
-A low-capacity candidate living on a singular boundary should not dominate the robust frontier.
-
 ---
 
-# 110. Parameter-boundary pathology
+# 126. Parameter-boundary pathology
 
 Maintain separate leaderboards:
 
@@ -4429,7 +5276,9 @@ LOWEST CAPACITY
 
 BEST SOURCE EFFICIENCY
 
-BEST ROBUST CAPACITY
+BEST ROBUST RESPONSE
+
+BEST NATURALNESS MARGIN
 
 BEST EMPIRICAL MARGIN
 
@@ -4438,35 +5287,33 @@ BEST STABILITY MARGIN
 BEST COMPLETE ENERGY.
 ```
 
-Do not let one fragile energy minimum obscure structurally healthier candidates.
-
 ---
 
-# 111. Search diversity
+# 127. Search diversity
 
-Among surviving HOOK17 families retain diversity across:
+Retain diversity across:
 
 ```text
 SYMMETRY CLASS
 
 HEALTHY MODE
 
-MASS GENERATION
-
 SOURCE IRREP
 
 METRIC PORTAL
+
+BACKGROUND BRANCH
 
 COMPENSATOR STRUCTURE
 
 MORPHOLOGY.
 ```
 
-Near-duplicate coefficient variants should not occupy every shortlist position.
+Do not fill the shortlist with near-duplicate coefficient variants.
 
 ---
 
-# 112. Automatic family-stop rules
+# 128. Automatic family stop rules
 
 Stop a family when:
 
@@ -4483,28 +5330,32 @@ CANONICAL HAMILTONIAN UNBOUNDED
 
 PRINCIPAL SYMBOL INVALID
 
+PHYSICAL RESPONSE IDENTICALLY ZERO
+
+RESPONSE FIELD-REDEFINITION REMOVABLE
+
+OUTWARD SIGN IMPOSSIBLE
+
 UNAVOIDABLE SOURCE ENERGY >=10 MJ
 
 UNAVOIDABLE SCAFFOLD ENERGY >=10 MJ
 
 OFFSTATE FORCE EXCLUDES REQUIRED COUPLING
 
-NATURALNESS FAILS THE ENTIRE RANGE
+NATURALNESS EXCLUDES ENTIRE DOMAIN
 
-EMPIRICAL CONSTRAINTS EXCLUDE THE ENTIRE VALID DOMAIN
+EMPIRICAL CONSTRAINTS EXCLUDE ENTIRE DOMAIN
 
 NO UNIVERSAL METRIC EXISTS
 
-FINITE-PAYLOAD OUTWARD SIGN IMPOSSIBLE.
+FINITE-PAYLOAD STANDOFF IMPOSSIBLE.
 ```
-
-Record the exact scope.
 
 ---
 
-# 113. Broad search remains theorem-guided
+# 129. Broad search remains theorem-guided
 
-If broad search resumes, use:
+If broad search resumes:
 
 ```text
 LOW-DISCREPANCY GLOBAL EXPLORATION
@@ -4520,9 +5371,9 @@ Avoid giant rectangular grids.
 
 ---
 
-# 114. Sobol / low-discrepancy search
+# 130. Sobol / low-discrepancy search
 
-Preferred global sampler remains:
+Preferred:
 
 ```python
 scipy.stats.qmc.Sobol
@@ -4548,11 +5399,9 @@ CONFIG HASH
 ACTION VERSION.
 ```
 
-Search must be exactly resumable.
-
 ---
 
-# 115. Continuation
+# 131. Continuation
 
 For nonlinear surviving families:
 
@@ -4562,11 +5411,11 @@ NEARBY PHYSICAL SOLUTION
 INITIAL GUESS.
 ```
 
-Warm starts should not cross incompatible action branches without explicit conversion.
+Do not cross incompatible action branches without explicit conversion.
 
 ---
 
-# 116. Disk-light architecture remains permanent
+# 132. Disk-light architecture
 
 Store:
 
@@ -4592,21 +5441,21 @@ Ordinary failed parameter point:
 DATABASE ROW ONLY.
 ```
 
-Major HOOK17 scientific gate:
+Major scientific gate:
 
 ```text
 JSON / CSV / LOG.
 ```
 
-Top reproducible field candidate:
+Pinned reproducible candidate:
 
 ```text
-CHECKPOINT IF NECESSARY.
+MINIMAL CHECKPOINT IF REQUIRED.
 ```
 
 ---
 
-# 117. Field-array retention
+# 133. Field-array retention
 
 Default rejection:
 
@@ -4621,7 +5470,7 @@ EXTRACT OBSERVABLES
 THEN DISCARD.
 ```
 
-Pinned high-value candidate:
+Pinned candidate:
 
 ```text
 KEEP MINIMUM REPRODUCIBLE CHECKPOINT.
@@ -4629,9 +5478,7 @@ KEEP MINIMUM REPRODUCIBLE CHECKPOINT.
 
 ---
 
-# 118. Log policy
-
-Do not create massive per-candidate logs.
+# 134. Log policy
 
 Log:
 
@@ -4646,6 +5493,10 @@ NEW FAILURE CLASS
 
 NEW SAME-ACTION SURVIVOR
 
+NEW HEALTHY-MODE SURVIVOR
+
+NEW PHYSICAL g00 SURVIVOR
+
 NEW LOWEST TRUSTED CAPACITY
 
 NEW SOURCE-EFFICIENCY LEADER
@@ -4659,9 +5510,11 @@ DATABASE CHECKPOINT
 STOP / RESUME.
 ```
 
+Do not produce massive per-point logs.
+
 ---
 
-# 119. SQLite write architecture
+# 135. SQLite write architecture
 
 Preserve:
 
@@ -4680,7 +5533,7 @@ Workers should not independently write SQLite.
 
 ---
 
-# 120. Crash recovery
+# 136. Crash recovery
 
 On restart:
 
@@ -4691,46 +5544,24 @@ LOAD FAMILY THEOREMS
 
 LOAD HOOK17 FAILURE MEMORY
 
+LOAD V26D FAILURE MEMORY
+
 IDENTIFY INTERRUPTED WORK
 
 RESTORE CONFIG
 
-RESTORE SAMPLER / FAMILY QUEUE
+RESTORE QUEUE
 
 REBUILD TRUSTED FRONTIERS
 
-SKIP TERMINAL PHYSICAL FAILURES
+SKIP TERMINAL FAILURES
 
 CONTINUE.
 ```
 
 ---
 
-# 121. Manual stop
-
-Preserve graceful-stop behavior:
-
-```text
-STOP SCHEDULING
-
-FINISH / CANCEL SMALL ACTIVE WORK
-
-COMMIT RESULTS
-
-SAVE QUEUE STATE
-
-SAVE SAMPLER STATE
-
-UPDATE REPORTS
-
-CHECKPOINT DATABASE
-
-STOP CLEANLY.
-```
-
----
-
-# 122. Anytime inspection
+# 137. Anytime inspection
 
 Read-only inspection should expose:
 
@@ -4741,7 +5572,11 @@ families
 
 hook17
 
+v26d
+
 ward
+
+naturalness
 
 projectors
 
@@ -4764,7 +5599,7 @@ lookup.
 
 ---
 
-# 123. Recommended CLI extension
+# 138. Recommended CLI
 
 Conceptually:
 
@@ -4775,7 +5610,11 @@ python -m antigravity_research.agminer families
 
 python -m antigravity_research.agminer hook17
 
+python -m antigravity_research.agminer v26d
+
 python -m antigravity_research.agminer ward
+
+python -m antigravity_research.agminer naturalness
 
 python -m antigravity_research.agminer projectors
 
@@ -4802,11 +5641,11 @@ python -m antigravity_research.agminer resume
 python -m antigravity_research.agminer export.
 ```
 
-Do not implement CLI work before H17A if it delays the science.
+Do not prioritize CLI development over the science.
 
 ---
 
-# 124. Status output update
+# 139. Status output
 
 Recommended fields:
 
@@ -4817,11 +5656,15 @@ RUN_MODE
 
 ACTIVE_PROGRAM
 
-ACTIVE_FAMILY
+PRIMARY_MECHANISM_PROGRAM
+
+IMMEDIATE_EXECUTABLE_BRANCH
 
 ACTIVE_PHASE
 
 ENERGY_POLICY
+
+PERFORMANCE_FLOOR
 
 FULL_REGRESSION
 
@@ -4833,11 +5676,15 @@ FAMILY_THEOREMS
 
 SAME_ACTION_SURVIVORS
 
+NATURALNESS_SURVIVORS
+
 SOURCE_PROJECTORS
 
 ACTION_ORACLES
 
 HOOK17_CAPACITY_RECORDS
+
+V26D_ACTIVE_STATE_RECORDS
 
 MECHANISM_METRICS
 
@@ -4847,11 +5694,11 @@ CURRENT_PHYSICAL_BOTTLENECK
 
 BEST_HOOK17_CAPACITY
 
-BEST_HOOK17_SOURCE_FLOOR
+BEST_V26D_ACTIVE_STATE_STATUS
+
+BEST_SOURCE_FLOOR
 
 BEST_COMPLETE_ENERGY
-
-PRESERVED_FALLBACK
 
 DATABASE_SIZE
 
@@ -4860,9 +5707,9 @@ STOP_REQUESTED.
 
 ---
 
-# 125. `top` output must separate classes
+# 140. `top` output must separate classes
 
-Recommended sections:
+Recommended:
 
 ```text
 TOP COMPLETE MODELS
@@ -4870,6 +5717,8 @@ TOP COMPLETE MODELS
 TOP HOOK17 SAME-ACTION PARTIALS
 
 TOP HOOK17 CAPACITY REFERENCES
+
+TOP V26D ACTIVE-STATE PARTIALS
 
 TOP SOURCE-EFFICIENCY CANDIDATES
 
@@ -4886,33 +5735,35 @@ NONE.
 
 ---
 
-# 126. Near-miss reporting
+# 141. Near-miss reporting
 
 Automatically report:
 
 ```text
-BEST WARD-COMPATIBLE FAMILY THAT FAILS SOURCE PROJECTOR
+BEST HEALTHY FAMILY FAILING NATURALNESS
 
-BEST SOURCE PROJECTOR THAT FAILS METRIC WARD
+BEST WARD-COMPATIBLE FAMILY FAILING SOURCE PROJECTOR
 
-BEST SAME-ACTION CHAIN THAT FAILS PRINCIPAL HEALTH
+BEST SOURCE PROJECTOR FAILING METRIC WARD
 
-BEST PHYSICAL PORTAL THAT FAILS OFFSTATE FORCE
+BEST SAME-ACTION CHAIN FAILING PRINCIPAL HEALTH
+
+BEST PHYSICAL PORTAL FAILING OFFSTATE FORCE
+
+BEST ACTIVE-STATE COMPLETION FAILING PHYSICAL g00
 
 LOWEST SOURCE-ENERGY FAILURE
 
 LOWEST SUPPORT-ENERGY FAILURE
 
-BEST CAPACITY THAT FAILS EMPIRICAL
+BEST CAPACITY FAILING EMPIRICAL
 
 BEST COMPLETE ENERGY ABOVE 10 MJ.
 ```
 
-These reports should tell us what to fix next.
-
 ---
 
-# 127. Regression philosophy
+# 142. Regression philosophy
 
 Historical protected baseline:
 
@@ -4923,26 +5774,24 @@ Historical protected baseline:
 Current full suite:
 
 ```text
-673 PASSED.
+910 PASSED.
 ```
 
-For every new major HOOK17 scientific gate:
+Every new major gate requires:
 
 ```text
 TARGETED TESTS PASS
 
-SIMULATION / DERIVATION RUN PASS
+SIMULATION / DERIVATION PASS
 
-FULL 673+ SUITE PASS.
+FULL 910+ SUITE PASS.
 ```
 
-The full number will increase as H17 tests are added.
-
-Do not keep calling 673 current after additional tests are committed.
+Do not continue calling 910 current once more tests are committed.
 
 ---
 
-# 128. Regression is not independent verification
+# 143. Regression is not independent verification
 
 Passing tests means:
 
@@ -4956,7 +5805,7 @@ It does not prove:
 SCIENTIFIC TRUTH.
 ```
 
-Central HOOK17 results should eventually have:
+Central results need:
 
 ```text
 INDEPENDENT SYMBOLIC RECONSTRUCTION
@@ -4974,7 +5823,7 @@ ASSUMPTION AUDIT.
 
 ---
 
-# 129. Required independent HOOK17 checks
+# 144. Required independent checks
 
 Examples:
 
@@ -4989,7 +5838,11 @@ INDEPENDENT IRREP DECOMPOSITION
 
 PRINCIPAL SYMBOL
 vs
-INDEPENDENT QUADRATIC ACTION EXPANSION
+INDEPENDENT QUADRATIC EXPANSION
+
+FRAME MAP
+vs
+INDEPENDENT FORWARD RECONSTRUCTION
 
 CROSS PROPAGATOR
 vs
@@ -5001,7 +5854,7 @@ DIRECT FIELD-ENERGY INTEGRAL
 
 FINITE PAYLOAD
 vs
-INDEPENDENT BOUNDARY INTEGRATION
+INDEPENDENT BOUNDARY / VOLUME INTEGRATION
 
 SOURCE ENERGY
 vs
@@ -5014,9 +5867,9 @@ FINITE-AMPLITUDE CURVATURE.
 
 ---
 
-# 130. Scientific failure codes remain extensible
+# 145. Scientific failure categories
 
-Generic categories remain:
+Preserve:
 
 ```text
 E — ENERGY
@@ -5029,7 +5882,7 @@ N — NATURALNESS / EFT / NORMALIZATION
 
 F — FIELD / SOURCE EXISTENCE
 
-P — PAYLOAD / SIGN / SIDEDNESS
+P — PAYLOAD / SIGN / SIDEDNESS / STANDOFF
 
 C — CONSERVATION
 
@@ -5046,17 +5899,15 @@ D — DUPLICATE / PROVENANCE
 X — NUMERICAL / INFRASTRUCTURE.
 ```
 
-Adding `W` as a first-class category is recommended because Ward/same-action failures are now central.
-
 ---
 
-# 131. Important durable failures to preserve
+# 146. Durable failures to preserve
 
-At minimum preserve:
+At minimum:
 
 ```text
-006D PURE-GR PRACTICAL ENERGY
-1/G BURDEN
+006D
+PURE-GR 1/G PRACTICAL ENERGY BURDEN
 
 018C
 m=2 INSTABILITY
@@ -5069,7 +5920,7 @@ UNPROTECTED ULTRALIGHT SCALAR
 CLOSED
 
 V19
-PURE-j0 KINETIC-CONFORMAL PHYSICAL IMPLEMENTATION
+PURE-j0 PHYSICAL IMPLEMENTATION
 CLOSED
 
 V21
@@ -5089,7 +5940,7 @@ TESTED DIRECT SPIN3 SHORTCUT
 CLOSED
 
 V24C
-TESTED CLEAN TRACE-VECTOR SOURCE
+CLEAN TRACE-VECTOR SOURCE
 CLOSED
 
 V24D
@@ -5105,48 +5956,82 @@ GENERIC NEAR-SINGULAR CROSS-MIXING FREE GAIN
 CLOSED
 
 V26C
-TESTED DIRECT MASSLESS HOOK-SHIFT + H2 METRIC
+DIRECT MASSLESS HOOK-SHIFT + H2 METRIC
+CLOSED
+
+H17A6
+DIRECT J11 / MINIMAL VECTOR / PURE STUECKELBERG
+CLOSED
+
+H17A6R1
+EXACT MASSLESS SINGLE-COMPENSATOR
+CLOSED
+
+H17A6R2
+TESTED CLEAN MASSIVE 1MINUS
+ZERO SOURCE OVERLAP
+
+H17A7
+TESTED DIRECT CLEAN ISO-WEYL
+CLOSED
+
+H17A8
+TESTED PROTECTED 2PLUS ATLAS
+NO ACCEPTABLE SURVIVOR
+
+H17A9R1
+UNMODIFIED WHEELER + P&S GENERIC SAME-ACTION
+CLOSED
+
+H17A9R3
+CURRENT P&S CASE-I PROMOTION
+BLOCKED ON NATURALNESS
+
+V26E1B0
+LINEAR V26D PURE-j0 / V17-EQUIVALENT COMPLETION
 CLOSED.
 ```
 
 ---
 
-# 132. Important open knowledge to preserve
+# 147. Open knowledge to preserve
 
-Do not accidentally mark closed:
+Do not accidentally close:
 
 ```text
 INTRINSIC DIRAC HYPERMOMENTUM
 
-NONLINEAR METRIC-AFFINE GRAVITY
+BROADER HOOK17
 
-COMPENSATED HOOK
+PROJECTIVE / MAG COMPLETION WITH ACTUAL PROTECTION
 
-HIGGSED / MASSIVE HOOK
+FULL HIGGSED / NOETHER-COMPENSATED HOOK
 
-OTHER PROTECTED MAG PROJECTORS
+MASSIVE HOOK / NONMETRICITY
 
-MASSIVE SPIN3
+MASSIVE SPIN3 BEYOND TESTED CLEAN 1MINUS
 
-OTHER BMS VECTOR CHANNELS
+GENUINELY NONLINEAR VECTOR-GRAVITON COMPLETION
 
-MARZO NONLINEAR COMPLETION
+GAUGE-INVARIANT COMPOSITE / CURVATURE PORTALS
 
-GAUGE-INVARIANT COMPOSITE PORTALS
+DIRAC SOURCE-STATE ENGINEERING
 
-cT=1 DHOST / KMM.
+V26D QUADRATIC ACTIVE-STATE COMPLETION
+
+OTHER GENUINELY NEW PROTECTED DHOST / KMM COMPLETIONS.
 ```
 
 ---
 
-# 133. AGMINER scientific-report philosophy
+# 148. AGMINER report philosophy
 
-Three distinct reports remain useful.
+Maintain:
 
 ## Discovery report
 
 ```text
-WHAT PHYSICAL FAMILY CURRENTLY LOOKS MOST PROMISING?
+WHAT PHYSICAL FAMILY LOOKS MOST PROMISING?
 ```
 
 ## Failure report
@@ -5158,22 +6043,25 @@ WHAT EXACTLY IS KILLING THEORIES?
 ## Mechanism report
 
 ```text
-WHICH PHYSICAL EFFICIENCY FACTOR IS RESPONSIBLE FOR HEADROOM?
+WHICH PHYSICAL EFFICIENCY FACTOR CREATES HEADROOM?
 ```
-
-Add:
 
 ## HOOK17 report
 
 ```text
-WHICH SAME-ACTION REPAIR PRESERVES THE LOW-CAPACITY MECHANISM?
+WHICH PROTECTED CARRIER CAN PRESERVE THE LOW-CAPACITY MECHANISM?
+```
+
+## V26D active-state report
+
+```text
+DOES THE QUADRATIC ACTIVE-STATE COMPLETION SURVIVE
+NATURALNESS + SCALAR HEALTH + PHYSICAL g00?
 ```
 
 ---
 
-# 134. HOOK17 report fields
-
-Recommended:
+# 149. HOOK17 report fields
 
 ```text
 FAMILY
@@ -5190,6 +6078,10 @@ SOURCE PROJECTOR
 
 METRIC WARD
 
+SAME-ACTION STATUS
+
+NATURALNESS
+
 NONREMOVABLE CROSS RESPONSE
 
 PRINCIPAL MARGIN
@@ -5200,7 +6092,7 @@ SOURCE CHARGE/JOULE
 
 CAPACITY
 
-CAPACITY RETENTION
+PERFORMANCE NORMALIZATION
 
 SOURCE FLOOR
 
@@ -5213,84 +6105,155 @@ NEXT GATE.
 
 ---
 
-# 135. Current physical bottleneck
-
-At session close:
+# 150. V26D active-state report fields
 
 ```text
-PRIMARY BOTTLENECK=
-SAME_ACTION_PHYSICALIZATION.
+COMPLETION
+
+P/Q SCALAR SECTOR
+
+BACKGROUND
+
+SCALAR HEALTH
+
+TENSOR HEALTH
+
+FRAME MAP MARGIN
+
+ACTIVE BETA
+
+OFFSTATE BETA
+
+TREE MATTER VERTEX ORDER
+
+LOOP DESCENDANT
+
+NATURALNESS STATUS
+
+SOURCE->PHYSICAL_g00
+
+FIELD-REDEFINITION SURVIVAL
+
+SIGN
+
+FINITE PAYLOAD
+
+STANDOFF
+
+SOURCE FLOOR
+
+COMPLETE ENERGY
+
+NEXT GATE.
+```
+
+---
+
+# 151. Current primary physical bottleneck
+
+For the immediate executable branch:
+
+```text
+PRIMARY_IMMEDIATE_BOTTLENECK=
+HEALTHY_SCALAR
++
+PHYSICAL_SOURCE_TO_G00
++
+UV_DESCENDANT_CONTROL.
 ```
 
 More specifically:
 
-> **Can a symmetry protect a healthy physical geometric carrier while simultaneously allowing the intrinsic Dirac source and an active universal-metric descendant?**
-
-Do not optimize field geometry while this remains unanswered.
+> **Can the E1B1 quadratic active-state completion acquire a healthy scalar sector and generate a real frame-invariant outward physical metric response without regenerating a fatal off-state operator?**
 
 ---
 
-# 136. Likely second bottleneck
+# 152. Current HOOK17 bottleneck
 
-If an action survives:
-
-```text
-SOURCE
-->
-HEALTHY MODE
-```
-
-overlap is likely the next decisive issue.
-
-A microscopic hook source may project mainly onto:
+For HOOK17 proper:
 
 ```text
-AUXILIARY
-
-PURE-GAUGE
-
-CONSTRAINED
-
-OR
-
-UNHEALTHY
+HOOK17_PRIMARY_BOTTLENECK=
+TECHNICALLY_NATURAL_PROTECTED_CARRIER.
 ```
 
-components.
+More specifically:
 
-Exact projector analysis should precede source-amplitude optimization.
+> **Can a protected same-action carrier preserve the V24 intrinsic source, A9-like healthy-mode overlap, projective/Ward consistency, and a V26B1-like nonlinear universal-metric numerator?**
 
 ---
 
-# 137. Likely third bottleneck
+# 153. Likely next bottleneck if E1B2 survives
 
-If source projection survives:
+If E1B2 goes green:
 
 ```text
-NONREMOVABLE UNIVERSAL METRIC RESPONSE.
+FINITE PAYLOAD
++
+TRUE STANDOFF
++
+SOURCE JOULES.
 ```
 
-V24D demonstrates how apparent mixing can disappear after proper constraint and basis reconstruction.
-
-This gate must remain severe.
+This should immediately supersede generic parameter optimization.
 
 ---
 
-# 138. Likely fourth bottleneck
+# 154. Current conceptual V26D target
 
-Only after the previous gates:
+The preferred target looks schematically like:
 
 ```text
-SOURCE + SCAFFOLD ENERGY.
+PROTECTED cT=1
+DHOST / KMM ACTION
+
+        +
+
+HEALTHY STATIC-SPACELIKE
+SCALAR BACKGROUND
+
+        +
+
+MICROSCOPIC HIDDEN
+AXIAL SOURCE
+
+        +
+
+QUADRATIC ACTIVE-STATE
+UNIVERSAL PHYSICAL METRIC
+
+        +
+
+A_x(0)=0
+CLASSICAL OFFSTATE SUPPRESSION
+
+        +
+
+HEALTHY NONREMOVABLE
+PHYSICAL g00 RESPONSE
+
+        +
+
+OUTWARD FINITE-PAYLOAD RESPONSE
+
+        +
+
+CONTROLLED LOOP-GENERATED xT
+
+        +
+
+LOW SOURCE / SUPPORT / COMPLETE ENERGY.
 ```
 
-This is where the huge HOOK17 capacity headroom may become practically meaningful.
+This is a design target.
+
+Not an established theory.
 
 ---
 
-# 139. Current desired conceptual architecture
+# 155. Current conceptual HOOK17 target
 
-The ideal target presently looks schematically like:
+Ideal HOOK17 architecture:
 
 ```text
 SYMMETRY-PROTECTED
@@ -5303,8 +6266,13 @@ HYPERMOMENTUM SOURCE
 
         +
 
-COMPENSATED / HIGGSED
-HEALTHY PHYSICAL HOOK MODE
+HEALTHY PROJECTIVE /
+HOOK-LIKE PHYSICAL MODE
+
+        +
+
+SAME-ACTION
+SOURCE + METRIC STRESS
 
         +
 
@@ -5335,155 +6303,241 @@ LOW CANONICAL CAPACITY
 LOW SOURCE / SCAFFOLD ENERGY.
 ```
 
-This is a design target.
+---
 
-It is not an established theory.
+# 156. Why V26D is worth one more decisive gate
+
+E1B1 is not merely another low-energy parameter point.
+
+It has already eliminated several major known failure mechanisms:
+
+```text
+NOT THE OLD LINEAR PURE-j0 CLASS
+
+NO TREE R5 TWO-SCALAR VERTEX
+
+NO TENSOR-MARGIN COLLAPSE
+
+NO FRAME-MAP SINGULARITY
+
+ACTIVE/OFFSTATE SEPARATION PRESENT
+
+LOW-ENERGY NDA HEADROOM PRESENT.
+```
+
+Therefore the correct next action is not another broad rerank.
+
+It is to test:
+
+```text
+HEALTHY SCALAR
+
+PHYSICAL g00
+
+UV DESCENDANT.
+```
 
 ---
 
-# 140. Why compensator/Higgs rescue is first-ranked
+# 157. Why E1B1 may still fail
 
-V26C told us exactly why the direct implementation fails:
-
-```text
-THE USEFUL HOOK TRANSFORMS.
-```
-
-A compensator/Higgs/Stückelberg structure attacks that precise obstruction while potentially preserving:
+Possible fatal outcomes include:
 
 ```text
-V24 SOURCE
+NO HEALTHY SCALAR MODE
 
-V26B1 QUADRATIC NUMERATOR
+UNSUPPORTED BACKGROUND
 
-V26B1 ACTIVE/OFFSTATE STRUCTURE
+HIDDEN STRONG COUPLING
 
-V26B1R1 LOW CAPACITY.
+PHYSICAL g00 RESPONSE ZERO
+
+PHYSICAL RESPONSE REMOVABLE BY FRAME MAP
+
+WRONG SIGN
+
+UV xT DESCENDANT TOO LARGE
+
+SOURCE ENERGY HUGE
+
+SUPPORT ENERGY HUGE
+
+FINITE-PAYLOAD FAILURE
+
+STANDOFF FAILURE
+
+EMPIRICAL FAILURE.
 ```
 
-This is a more information-efficient first move than abandoning those accomplishments and starting from unrelated physics.
+AGMINER should seek these failures early.
 
 ---
 
-# 141. Why HOOK17 may still fail
+# 158. Why HOOK17 may still fail
 
-The rescue may fail because:
+Possible fatal outcomes:
 
 ```text
-COMPENSATOR ENERGY HUGE
+NO PROTECTED HEALTHY CARRIER
 
-COMPENSATOR GHOST
-
-LONGITUDINAL STRONG COUPLING
+PROTECTION REQUIRES UNNATURAL TUNING
 
 SOURCE BECOMES PURE GAUGE
 
-METRIC NUMERATOR CANCELS
+SOURCE PROJECTOR ZERO
 
-MASS UNNATURAL
+NONLINEAR METRIC NUMERATOR LOST
 
-OFFSTATE FIFTH FORCE FATAL
+OFFSTATE FORCE FATAL
 
-HEALTHY MODE PROJECTOR ZERO
+COMPENSATOR ENERGY HUGE
 
-SUPPORT COST HUGE
+STRONG COUPLING
+
+SOURCE ENERGY HUGE
 
 FINITE-PAYLOAD SIGN WRONG
 
-STABILITY FAILS.
+STABILITY FAILURE.
 ```
-
-AGMINER must try to prove these failures early.
 
 ---
 
-# 142. Current active decision tree
+# 159. Current active decision tree
 
 ```text
-                HOOK17
-                   |
-                   v
-        032H17A FAMILY ATLAS
-                   |
-          +--------+---------+
-          |                  |
-       NO FAMILY          SURVIVOR
-          |                  |
-          v                  v
-   RESUME V26D/V26E      H17B PROJECTOR
-                             |
-                    +--------+--------+
-                    |                 |
-                  ZERO             NONZERO
-                    |                 |
-                    v                 v
-                  CLOSE            H17C METRIC
-                                      |
-                             +--------+--------+
-                             |                 |
-                           WARD FAIL         PASS
-                             |                 |
-                             v                 v
-                           CLOSE        H17D CROSSPROP
-                                               |
-                                    +----------+----------+
-                                    |                     |
-                             REMOVABLE / SINGULAR      PHYSICAL
-                                    |                     |
-                                    v                     v
-                                  CLOSE                 H17E
-                                                        |
-                                              CAPACITY + SOURCE
-                                                        |
-                                           +------------+-----------+
-                                           |                        |
-                                   LOWER BOUND >=10MJ             HEADROOM
-                                           |                        |
-                                           v                        v
-                                         CLOSE                    H17F
-                                                                   |
-                                                           OUTWARD PAYLOAD?
-                                                                   |
-                                                        +----------+---------+
-                                                        |                    |
-                                                       NO                   YES
-                                                        |                    |
-                                                        v                    v
-                                                      CLOSE                H17G/H
-                                                                            |
-                                                                  QUANTUM/STABILITY?
-                                                                            |
-                                                                 +----------+---------+
-                                                                 |                    |
-                                                                FAIL                PASS
-                                                                 |                    |
-                                                                 v                    v
-                                                               CLOSE                H17I
-                                                                                      |
-                                                                           COMPLETE <10MJ?
-                                                                                      |
-                                                                            +---------+--------+
-                                                                            |                  |
-                                                                           NO                 YES
-                                                                            |                  |
-                                                                            v                  v
-                                                                      POLICY FAIL       H17J CERTIFICATION
+                     CURRENT
+                        |
+                        v
+                 V26D / E1B1
+                        |
+                        v
+                    E1B2A
+              NATURALNESS / UV
+                        |
+             +----------+----------+
+             |                     |
+          FATAL                 SURVIVES
+             |                     |
+             v                     v
+    CLOSE CURRENT V26D          E1B2B
+    IMPLEMENTATION          SCALAR HEALTH
+             |                     |
+             |          +----------+----------+
+             |          |                     |
+             |        FAIL                  PASS
+             |          |                     |
+             |          v                     v
+             |        CLOSE                 E1B2C
+             |                         PHYSICAL g00
+             |                              |
+             |                   +----------+----------+
+             |                   |                     |
+             |            ZERO / REMOVABLE /       NONZERO
+             |               WRONG SIGN             OUTWARD
+             |                   |                     |
+             |                   v                     v
+             |                 CLOSE                   E2
+             |                                   FINITE PAYLOAD
+             |                                   >=1g >=1m
+             |                                        |
+             |                             +----------+----------+
+             |                             |                     |
+             |                           FAIL                 SURVIVES
+             |                             |                     |
+             |                             v                     v
+             |                           CLOSE             SOURCE / ENERGY
+             |                                                   |
+             |                                        +----------+----------+
+             |                                        |                     |
+             |                                LOWER BOUND >=10MJ         HEADROOM
+             |                                        |                     |
+             |                                        v                     v
+             |                                      CLOSE              QUANTUM /
+             |                                                        EMPIRICAL /
+             |                                                        STABILITY
+             |                                                              |
+             |                                                   +----------+----------+
+             |                                                   |                     |
+             |                                                 FAIL                  PASS
+             |                                                   |                     |
+             |                                                   v                     v
+             |                                                 CLOSE             COMPLETE
+             |                                                                      LEDGER
+             |
+             v
+     RETURN TO HOOK17
+     REMAINING GENUINELY
+     NEW PROTECTED CARRIER
+     FAMILIES
 ```
 
 ---
 
-# 143. Return-to-broad-search condition
+# 160. HOOK17 restart decision tree
 
-Do not return to generic million-model scanning merely because HOOK17 is difficult.
+If V26D closes:
+
+```text
+                  HOOK17 A9R3 STATE
+                         |
+                         v
+              NEW PROTECTED CARRIER
+                         |
+                +--------+--------+
+                |                 |
+             NO ACTION         EXPLICIT ACTION
+                |                 |
+                v                 v
+              CLOSE           SYMMETRY
+                                  |
+                         +--------+--------+
+                         |                 |
+                       FAIL              PASS
+                         |                 |
+                         v                 v
+                       CLOSE         SOURCE WARD /
+                                     PROJECTOR
+                                          |
+                                 +--------+--------+
+                                 |                 |
+                               ZERO             NONZERO
+                                 |                 |
+                                 v                 v
+                               CLOSE          HEALTHY POLE
+                                                   |
+                                          +--------+--------+
+                                          |                 |
+                                        FAIL              PASS
+                                          |                 |
+                                          v                 v
+                                        CLOSE        SAME-ACTION
+                                                     METRIC RESPONSE
+                                                          |
+                                                 +--------+--------+
+                                                 |                 |
+                                               FAIL              PASS
+                                                 |                 |
+                                                 v                 v
+                                               CLOSE          NATURALNESS /
+                                                              CAPACITY /
+                                                              PAYLOAD
+```
+
+---
+
+# 161. Return-to-broad-search condition
+
+Do not resume generic million-model scanning merely because both branches are difficult.
 
 Return only if:
 
 ```text
-HOOK17 DECLARED FAMILIES CLOSED
+CURRENT V26D IMPLEMENTATION CLOSED
 
-AND / OR
+AND
 
-V26D CLASS CLOSED
+CREDIBLE REMAINING HOOK17 FAMILIES CLOSED
 
 AND
 
@@ -5491,147 +6545,143 @@ NO CURRENT CANDIDATE HAS STRONG STRUCTURAL PRIORITY
 
 OR
 
-A GENUINELY NEW ACTION FAMILY ENTERS THE RANKING.
+A GENUINELY NEW ACTION FAMILY ENTERS.
 ```
 
 ---
 
-# 144. Current next-session execution order
+# 162. Current next-session execution order
 
-The next session should perform:
+The next research session should perform:
 
 ```text
 1.
-RECONSTRUCT CURRENT REPO STATE
+RECONSTRUCT LIVE REPO STATE
 
 2.
-VERIFY FULL REGRESSION
-EXPECTED CURRENT BASELINE:
-673 PASSED
+RUN:
+git status --short
 
 3.
-VERIFY V26B1R1 HOOK17 REFERENCE ARTIFACTS
+VERIFY FULL REGRESSION
+EXPECTED BASELINE:
+910 PASSED
 
 4.
-VERIFY V26C WARD CLOSEOUT ARTIFACT
+VERIFY LATEST RESULT ARTIFACTS:
+A9R3
+E0
+E1A
+E1B0
+E1B1
 
 5.
-VERIFY V26D FALLBACK ARTIFACT
+DO NOT RESTART H17A FAMILY ATLAS
 
 6.
-DO NOT START V26E
+DO NOT RESTART V26E0/E1A/E1B0/E1B1
 
 7.
-CREATE 032H17A FAMILY / ACTION / SYMMETRY ATLAS
+BEGIN 032V26E1B2A
 
 8.
-ENUMERATE:
-   COMPENSATOR / HIGGSED
-   OTHER PROTECTED MAG PROJECTORS
-   MASSIVE SPIN3
-   NONLINEAR VECTOR-GRAVITON
-   GAUGE-INVARIANT COMPOSITES
+TEST PROTECTION / NATURALNESS
+BEFORE HEAVY SCALAR CALCULATION
 
 9.
-FOR EACH:
-   SAME-ACTION CHECK
-   SOURCE WARD
-   METRIC WARD
-   HEALTHY MODE
-   SOURCE PROJECTOR
+IF NOT FATAL:
+BUILD HEALTHY SCALAR / CONSTRAINT GATE
 
 10.
-STORE FAILURE MEMORY
+IF HEALTHY:
+COMPUTE FRAME-INVARIANT PHYSICAL g00
 
 11.
-PROMOTE ONLY TRUE FAMILY SURVIVORS
+TEST SIGN
 
 12.
-ONLY THEN DESIGN H17B / H17C.
+ONLY THEN AUTHORIZE FINITE PAYLOAD
 
 13.
 NO ENERGY OPTIMIZATION YET
 
 14.
-NO AGMINER MASS DATABASE MUTATION YET
+NO BROAD AGMINER MASS INSERTION YET
 
 15.
-NO 3D FIELD SOLVER YET.
+NO 3D FIELD SOLVER UNTIL CHEAP GATES PASS.
 ```
 
 ---
 
-# 145. Recommended 032H17A artifacts
+# 163. Recommended E1B2 artifacts
 
 Suggested files:
 
 ```text
 src/antigravity_research/agminer/
-    hook17_family_atlas.py
-    hook17_same_action_graph.py
-    hook17_ward_gate.py
-    hook17_source_projector.py
+    v26e1b2_protection_naturalness_gate.py
+    v26e1b2_scalar_constraint_symbol.py
+    v26e1b2_physical_g00_cross_response.py
 
 tests/agminer/
-    test_032h17a_hook17_family_atlas.py
-    test_032h17a_hook17_same_action_graph.py
-    test_032h17a_hook17_ward_gate.py
+    test_032v26e1b2_protection_naturalness.py
+    test_032v26e1b2_scalar_constraint_symbol.py
+    test_032v26e1b2_physical_g00_cross_response.py
 
 simulations/
-    032h17a_hook17_rescue_family_theorem_and_action_atlas.py
+    032v26e1b2_quadratic_active_state_physicalization_gate.py
 
 results/data/
-    032h17a_hook17_family_atlas.csv
-    032h17a_hook17_same_action_summary.json
-    032h17a_hook17_ward_atlas.csv
-
-results/agminer/
-    032h17a_hook17_failure_memory.csv
-    032h17a_hook17_family_rerank.csv.
+    032v26e1b2_protection_naturalness_summary.json
+    032v26e1b2_scalar_symbol_summary.json
+    032v26e1b2_physical_g00_cross_response_summary.json
+    032v26e1b2_principal_margin_scan.csv
+    032v26e1b2_frame_invariance_check.csv.
 ```
 
 Exact names may be adjusted to repository conventions.
 
 ---
 
-# 146. H17A database policy
+# 164. E1B2 database policy
 
-H17A should initially be:
+Initially:
 
 ```text
 READ / ANALYZE EXISTING AGMINER MEMORY
 
 NO MASS MODEL INSERTION
 
-NO PARAMETER CANDIDATE CAMPAIGN
-
-NO ACTION ORACLE PROMOTION.
+NO BROAD PARAMETER CAMPAIGN.
 ```
 
-Only durable:
+Add only:
 
 ```text
 FAMILY THEOREMS
 
-FAILURE RECORDS
+NATURALNESS RECORDS
 
-PROVENANCE
+PRINCIPAL-SYMBOL RESULTS
 
-SURVIVOR FAMILY STATUS
+PHYSICAL RESPONSE RESULTS
+
+FAILURE MEMORY
+
+CONDITIONAL SURVIVOR STATUS.
 ```
-
-should be added.
 
 ---
 
-# 147. Action-oracle authorization for HOOK17
+# 165. Action-oracle authorization
 
-A HOOK17 action oracle requires at minimum:
+A new action oracle requires at minimum:
 
 ```text
 EXPLICIT ACTION
 
-SAME-ACTION MICROSCOPIC SOURCE
+SAME-ACTION SOURCE
 
 HEALTHY PHYSICAL MODE
 
@@ -5648,16 +6698,30 @@ CANONICAL NORMALIZATION
 DECLARED ENERGY LEDGER.
 ```
 
-The 17-J capacity witness alone does not authorize an action oracle.
+Neither:
+
+```text
+17-J CAPACITY
+```
+
+nor:
+
+```text
+E1B1 CLASSICAL ESCAPE
+```
+
+alone authorizes an oracle.
 
 ---
 
-# 148. Energy-optimization authorization
+# 166. Energy-optimization authorization
 
-Continuous HOOK17 energy optimization requires at minimum:
+Require:
 
 ```text
-H17D NONREMOVABLE RESPONSE PASS
+PHYSICAL RESPONSE PASS
+
+OUTWARD SIGN PASS
 
 CANONICAL PRINCIPAL HEALTH PASS
 
@@ -5665,7 +6729,7 @@ SOURCE PROJECTOR NONZERO
 
 DECLARED RANGE
 
-DECLARED OFFSTATE PORTAL.
+FINITE PAYLOAD PATH IDENTIFIED.
 ```
 
 Before then:
@@ -5676,77 +6740,74 @@ ENERGY_OPTIMIZATION_AUTHORIZED=False.
 
 ---
 
-# 149. AGMINER database mutation authorization
+# 167. AGMINER database mutation authorization
 
-High-throughput candidate insertion should not begin until:
-
-```text
-AT LEAST ONE HOOK17 FAMILY
-PASSES
-SAME-ACTION + WARD + PROJECTOR + CROSSPROP.
-```
-
-Until then:
+High-throughput insertion begins only when at least one family has:
 
 ```text
-FAMILY-LEVEL SCIENTIFIC ARTIFACTS
-ARE MORE VALUABLE
-THAN CANDIDATE COUNT.
+SAME-ACTION
+
+WARD
+
+HEALTH
+
+NONREMOVABLE RESPONSE
+
+AND
+A REAL PARAMETER DOMAIN.
 ```
+
+Family-level scientific artifacts remain more valuable than candidate count until then.
 
 ---
 
-# 150. AGMINER success criteria under HOOK17
+# 168. AGMINER scientific success criteria
 
-The HOOK17 campaign is scientifically successful even if it closes.
-
-Success outcomes include:
+The current campaign is scientifically successful if it produces any of:
 
 ```text
-A PHYSICAL SAME-ACTION HOOK17 SURVIVOR
+A PHYSICAL V26D ACTIVE-STATE SURVIVOR
 
-OR
+A CLEAN NO-GO FOR THE E1B1 CLASS
 
-A SCOPED NO-GO FOR ALL DECLARED COMPENSATOR REALIZATIONS
+A TECHNICALLY NATURAL PROTECTED HOOK17 CARRIER
 
-OR
+A SCOPED NO-GO FOR REMAINING HOOK17 CARRIERS
 
-A PROOF THAT DIRAC HYPERMOMENTUM CANNOT PROJECT ONTO HEALTHY PROTECTED MODES
+A PROOF THAT THE PHYSICAL METRIC RESPONSE VANISHES
 
-OR
+A PROOF THAT SOURCE / SCAFFOLD ENERGY EXCEEDS 10 MJ
 
-A PROOF THAT GAUGE-INVARIANT HOOK METRIC PORTALS NECESSARILY LOSE LOW CAPACITY
-
-OR
-
-A PROVEN SOURCE / SCAFFOLD ENERGY FLOOR ABOVE 10 MJ.
+A PROOF THAT QUANTUM DESCENDANTS ARE FATAL.
 ```
 
 A clean negative answer is valuable.
 
 ---
 
-# 151. Current primary AGMINER claim
+# 169. Current primary AGMINER claim
 
-The current defensible AGMINER claim is:
+The defensible current claim is:
 
-> **AGMINER is a reproducible, failure-aware, multi-fidelity scientific discovery and falsification framework that now operates primarily at the action-family and theorem level for the HOOK17 frontier, using same-action provenance, Ward identities, canonical normalization, healthy-mode projectors, physical source-to-metric response, finite-payload observables, complete-energy accounting, persistent failure memory, and progressively stronger physical gates to determine whether the low-capacity intrinsic-hook mechanism can be promoted into a real antigravity model.**
+> **AGMINER is a reproducible, failure-aware, multi-fidelity scientific discovery and falsification framework that now operates primarily at the action-family, theorem, canonical-mode, and candidate-specific physical-response levels. It uses same-action provenance, Ward identities, naturalness tests, canonical normalization, healthy-mode projectors, field-redefinition-invariant source-to-metric response, finite-payload observables, complete-energy accounting, and permanent failure memory to determine whether HOOK17 or the protected V26D quadratic active-state fallback can be promoted into a real antigravity model.**
 
-It does not claim:
+AGMINER does not claim:
 
 ```text
 HOOK17 MODEL DISCOVERED
 
 17-J ANTIGRAVITY DISCOVERED
 
+V26D MODEL DISCOVERED
+
 PRACTICAL ANTIGRAVITY DISCOVERED.
 ```
 
 ---
 
-# 152. What AGMINER has learned so far
+# 170. What AGMINER has learned
 
-Permanent high-level lessons now include:
+Permanent lessons now include:
 
 ```text
 1.
@@ -5762,7 +6823,7 @@ SOURCE SCALING MUST INCLUDE SOURCE ENERGY
 COLLECTIVE RESPONSE MUST OUTRUN COMPLETE ENERGY
 
 5.
-TOPOLOGICAL / GEOMETRIC CHARGE IS NOT AUTOMATICALLY METRIC ACTIVE
+GEOMETRIC CHARGE IS NOT AUTOMATICALLY METRIC ACTIVE
 
 6.
 SOURCE EXISTENCE DOES NOT IMPLY HEALTHY MODE OVERLAP
@@ -5774,83 +6835,104 @@ HEALTHY MODE EXISTENCE DOES NOT IMPLY SOURCE COUPLING
 REPRESENTATION MATCH DOES NOT IMPLY ACTION MATCH
 
 9.
-ACTION INGREDIENTS FROM DIFFERENT PAPERS CANNOT BE SILENTLY STITCHED
+ACTION INGREDIENTS CANNOT BE SILENTLY STITCHED
 
 10.
-WARD IDENTITIES CAN KILL AN ATTRACTIVE MECHANISM BEFORE NUMERICS
+WARD IDENTITIES CAN KILL ATTRACTIVE MECHANISMS BEFORE NUMERICS
 
 11.
 OFFSTATE LINEAR SILENCE DOES NOT IMPLY QUANTUM SILENCE
 
 12.
-A LOW FIELD-CAPACITY TERM DOES NOT IMPLY A LOW COMPLETE DEVICE ENERGY
+LOW FIELD CAPACITY DOES NOT IMPLY LOW COMPLETE ENERGY
 
 13.
-LARGE RESPONSE FROM SMALL PRINCIPAL EIGENVALUES IS NOT FREE GAIN
+PRINCIPAL-MARGIN COLLAPSE IS NOT FREE GAIN
 
 14.
-AN INDEPENDENT MICROSCOPIC SOURCE IS A HIGH-VALUE LEVER
+INDEPENDENT MICROSCOPIC SOURCE IS A HIGH-VALUE LEVER
 
 15.
-ACTIVE-ONLY NONLINEAR METRIC NUMERATORS ARE WORTH SEARCHING
+ACTIVE-ONLY NONLINEAR METRIC NUMERATORS ARE HIGH VALUE
 
 16.
-FINITE PAYLOAD REMAINS THE REAL OPERATIONAL OBSERVABLE
+FINITE PAYLOAD IS THE OPERATIONAL OBSERVABLE
 
 17.
-SUPPORT / COMPENSATORS CAN ERASE APPARENT HEADROOM
+TRUE STANDOFF IS SEPARATE FROM LOCAL REPULSION
 
 18.
-FIELD EXISTENCE DOES NOT IMPLY STABILITY
+SUPPORT / COMPENSATORS CAN ERASE HEADROOM
 
 19.
-NATURALNESS MUST BE TESTED BEFORE EXPENSIVE CERTIFICATION
+FIELD EXISTENCE DOES NOT IMPLY STABILITY
 
 20.
-THE MINER SHOULD OPTIMIZE THE CURRENT PHYSICAL BOTTLENECK
+NATURALNESS MUST BE TESTED EARLY
 
 21.
-THE MOST VALUABLE RESULT MAY BE A FAMILY-LEVEL NO-GO
+FIELD-REDEFINITION INVARIANCE IS A PHYSICAL GATE
 
 22.
-STORE PHYSICAL FAILURE REASONS, NOT JUST failed=True
+THE MOST VALUABLE RESULT MAY BE A FAMILY-LEVEL NO-GO
 
 23.
-BROAD SEARCH SHOULD STOP WHEN A HIGH-INFORMATION FRONTIER EMERGES
+STORE FAILURE REASONS, NOT failed=True
 
 24.
-HOOK17 CURRENTLY HAS ENORMOUS FIELD-CAPACITY HEADROOM
-BUT NO COMPLETE SAME-ACTION MODEL.
+BROAD SEARCH SHOULD STOP WHEN A HIGH-INFORMATION FRONTIER EMERGES
+
+25.
+HOOK17 HAS EXCEPTIONAL FIELD-CAPACITY HEADROOM
+BUT NO COMPLETE MODEL
+
+26.
+THE CURRENT P&S HOOK17 CARRIER SURVIVED SOURCE / POLE / PROJECTOR / SAME-ACTION LINEARIZED TESTS
+BEFORE FAILING NATURALNESS
+
+27.
+THE ORIGINAL LINEAR V26D COMPLETION WAS NOT NEW PHYSICS
+BUT A REFORMULATION OF CLOSED PURE-j0 PHYSICS
+
+28.
+A QUADRATIC ACTIVE-STATE METRIC CAN REMOVE THE OLD TREE TWO-SCALAR VERTEX
+WITHOUT COLLAPSING PRINCIPAL OR FRAME MARGINS
+
+29.
+TREE OFFSTATE PROTECTION MUST BE DISTINGUISHED FROM TECHNICAL NATURALNESS
+
+30.
+THE FINAL PERFORMANCE FLOOR IS >=1 g AT >=1 m TRUE STANDOFF
+
+31.
+OUTPUT ABOVE THE FLOOR IS FAVORABLE
+
+32.
+A PARTIAL ENERGY BELOW 100 J SHOULD NOT BE POLISHED WHILE PHYSICAL GATES REMAIN OPEN.
 ```
 
 ---
 
-# 153. Mature AGMINER operating philosophy
-
-The mature workflow is now:
+# 171. Mature AGMINER operating philosophy
 
 ```text
 IDENTIFY THE ACTUAL BOTTLENECK
 
         ↓
 
-ENUMERATE PHYSICALLY DISTINCT ACTION FAMILIES
+SELECT THE HIGHEST-VALUE ACTION FAMILY / CANDIDATE
 
         ↓
 
-DECLARE SYMMETRIES AND MATTER FRAME
+DECLARE SYMMETRY AND MATTER FRAME
 
         ↓
 
-DERIVE CHEAPEST DECISIVE THEOREMS
+DERIVE THE CHEAPEST DECISIVE THEOREMS
 
         ↓
 
-TEST SOURCE WARD IDENTITY
-
-        ↓
-
-PROJECT MICROSCOPIC SOURCE ONTO HEALTHY MODES
+TEST NATURALNESS / WARD / SOURCE PROJECTOR
 
         ↓
 
@@ -5858,19 +6940,35 @@ CANONICALIZE
 
         ↓
 
+TEST FULL PRINCIPAL HEALTH
+
+        ↓
+
 BUILD UNIVERSAL PHYSICAL METRIC
 
         ↓
 
-TEST METRIC WARD IDENTITY
+ELIMINATE CONSTRAINTS
 
         ↓
 
-ELIMINATE CONSTRAINTS / FIELD-REDEFINITION ARTIFACTS
+AUDIT FIELD REDEFINITIONS
 
         ↓
 
-DERIVE NONREMOVABLE PHYSICAL CROSS RESPONSE
+DERIVE NONREMOVABLE PHYSICAL RESPONSE
+
+        ↓
+
+TEST OUTWARD SIGN
+
+        ↓
+
+TEST FINITE PAYLOAD
+
+        ↓
+
+TEST >=1 g AT >=1 m TRUE STANDOFF
 
         ↓
 
@@ -5882,11 +6980,7 @@ SOLVE ACTUAL MICROSCOPIC SOURCE
 
         ↓
 
-TEST FINITE PAYLOAD / SIDEDNESS
-
-        ↓
-
-CHARGE SUPPORT / COMPENSATOR / REACTION
+ADD SUPPORT / REACTION / STABILITY
 
         ↓
 
@@ -5894,15 +6988,15 @@ TEST QUANTUM / RG / UV / EMPIRICAL CONSISTENCY
 
         ↓
 
-TEST STABILITY
-
-        ↓
-
 BUILD COMPLETE OPERATING LEDGER
 
         ↓
 
-COMPARE COMPLETE ENERGY WITH STRICT <10 MJ POLICY
+COMPARE COMPLETE ENERGY WITH STRICT <10 MJ
+
+        ↓
+
+NONLINEAR CERTIFICATION
 
         ↓
 
@@ -5911,45 +7005,66 @@ CERTIFY ONLY SURVIVORS.
 
 ---
 
-# 154. Permanent anti-hype rule
+# 172. Permanent anti-hype rule
 
-The HOOK17 result is exciting because:
+Current positive facts are sufficient motivation.
+
+HOOK17:
 
 ```text
-THE FIELD-CAPACITY NUMBER IS EXTREMELY SMALL
+REFERENCE CAPACITY
+~17.07 J AT R_P=1e12
 
-AND
+COMPLETE ENERGY
+UNKNOWN
 
-ENERGY WAS NOT THE REASON THE TESTED IMPLEMENTATION FAILED.
+A9R3 SAME-ACTION LINEARIZED PARTIAL
+GREEN
+
+CURRENT P&S CARRIER
+BLOCKED ON NATURALNESS
+
+HOOK17 GLOBALLY CLOSED
+NO.
 ```
 
-That is sufficient scientific motivation.
+V26D E1B1:
+
+```text
+QUADRATIC ACTIVE/OFFSTATE COMPLETION
+PROMISING CONDITIONAL
+
+TREE R5 TWO-SCALAR VERTEX
+ABSENT
+
+TENSOR MARGIN
+~0.993
+
+FRAME MARGIN
+~0.976
+
+NDA HISTORICAL HEADROOM
+~30X
+
+FULL SCALAR HEALTH
+UNKNOWN
+
+PHYSICAL g00
+UNKNOWN
+
+COMPLETE ENERGY
+UNKNOWN.
+```
 
 No stronger claim is required.
 
-Permanent reporting language:
-
-```text
-HOOK17 REFERENCE CAPACITY
-~17.07 J AT R_P=1e12
-
-COMPLETE MODEL ENERGY
-UNKNOWN
-
-SAME-ACTION PHYSICALIZATION
-OPEN
-
-TESTED MASSLESS PROTECTED REALIZATION
-CLOSED.
-```
-
 ---
 
-# 155. Current checkpoint
+# 173. Current checkpoint
 
 ```text
 DATE =
-2026-09-07
+2026-09-08
 
 AGMINER_STATUS =
 ACTIVE_AND_OPERATIONAL
@@ -5958,24 +7073,38 @@ AGMINER_INFRASTRUCTURE =
 BUILT
 
 CURRENT_MODE =
-THEOREM_FIRST_ACTION_FAMILY_RESCUE
+THEOREM_FIRST
 +
-CANDIDATE_SPECIFIC_FALSIFICATION
+CANDIDATE_SPECIFIC_PHYSICALIZATION
++
+FAILURE_MEMORY
 
 ENERGY_POLICY_ID =
 ENERGY_ab8c16e45c837ffc
 
 ENERGY_TARGET =
-E_CONSERVATIVE_COMPLETE_OPERATING < 10 MJ
+E_CONSERVATIVE_COMPLETE_OPERATING <10 MJ
 
 EXACT_10_MJ =
 REJECT
+
+MIN_OUTWARD_ACCELERATION_M_S2 =
+9.80665
+
+MIN_TRUE_STANDOFF_M =
+1.0
+
+PERFORMANCE_ABOVE_FLOOR =
+FAVORABLE
+
+FINITE_NEUTRAL_PAYLOAD =
+REQUIRED
 
 HISTORICAL_PROTECTED_REGRESSION =
 94_PASSED
 
 CURRENT_FULL_REGRESSION =
-673_PASSED
+910_PASSED
 
 LAST_KNOWN_APPROX_MODEL_COUNT =
 ~101050
@@ -5989,15 +7118,20 @@ ACTION_ORACLE_COUNT =
 CERTIFIED_SURVIVOR_COUNT =
 0
 
-PRIMARY_FRONTIER =
+OVERALL_KNOWLEDGE_HEURISTIC =
+~75_PERCENT
+
+OVERALL_HEURISTIC_IS_SUCCESS_PROBABILITY =
+NO
+
+PRIMARY_HIGH_VALUE_MECHANISM =
 HOOK17
 
-HOOK17_STATUS =
-ALGEBRAIC_NUMERATOR
-+
-CAPACITY_PREFLIGHT
-+
-TESTED_EASIEST_IMPLEMENTATION_CLOSED
+HOOK17_SPECIFIC_PROGRESS_HEURISTIC =
+~68_PERCENT
+
+HOOK17_HEURISTIC_IS_SUCCESS_PROBABILITY =
+NO
 
 HOOK17_NOMINAL_CAPACITY_RP1_J =
 ~1.706764422e-5
@@ -6008,68 +7142,125 @@ HOOK17_REFERENCE_RP =
 HOOK17_REFERENCE_CAPACITY_J =
 ~17.0676442196
 
+HOOK17_REFERENCE_CAPACITY_AT_1G_1M =
+NOT_ESTABLISHED
+
 HOOK17_COMPLETE_ENERGY =
 UNKNOWN
 
 HOOK17_COMPLETE_MODEL =
 NO
 
-HOOK17_FINITE_PAYLOAD =
+HOOK17_A9_EXACT_POLE_NUMERATOR =
+1.44
+
+HOOK17_A9R3_COVARIANT_PROJECTOR =
+PASS
+
+HOOK17_A9R3_SAME_ACTION_LINEARIZED_METRIC_STRESS =
+PASS
+
+HOOK17_A9R3_LINEARIZED_DIFFEO_WARD =
+PASS
+
+HOOK17_CURRENT_PS_CASE_I_NATURALNESS =
+BLOCKED
+
+HOOK17_GLOBALLY_CLOSED =
 NO
 
-HOOK17_OUTWARD_SIGN =
-NOT_ESTABLISHED
+V26D_PROTECTED_CT1_DHOST_KMM =
+RESUMED_ACTIVE_FALLBACK
 
-HOOK17_STABILITY =
-NOT_ESTABLISHED
+V26E0_STATIC_SPACELIKE_TENSOR_CT1 =
+PASS
 
-HOOK17_SAME_ACTION_SURVIVOR =
-NONE_CURRENTLY
+V26E0_TENSOR_MARGIN =
+146/147
 
-V26C_MASSLESS_PROTECTED_DIRECT_HOOK_H2 =
+V26E1A_EXACT_EINSTEIN_FRAME_MAP =
+PASS
+
+V26E1A_MAP_MARGIN_COLLAPSE =
+NO
+
+V26E1B0_LINEAR_PURE_J0_COMPLETION =
 CLOSED
 
-ALL_MAG_CLOSED =
+V26E1B1_QUADRATIC_ACTIVE_STATE =
+PROMISING_CONDITIONAL
+
+V26E1B1_A_OF_X =
+1+(100/41)x^2
+
+V26E1B1_ACTIVE_BETA1 =
+1/21
+
+V26E1B1_OFFSTATE_BETA1 =
+0
+
+V26E1B1_ACTIVE_MAP_MARGIN =
+40/41
+
+V26E1B1_TENSOR_MARGIN =
+146/147
+
+V26E1B1_TREE_R5_TWO_SCALAR_VERTEX =
+ABSENT
+
+V26E1B1_NDA_HISTORICAL_HEADROOM =
+~30.37X
+
+V26E1B1_TECHNICAL_NATURALNESS =
+NOT_CERTIFIED
+
+V26E1B1_FULL_SCALAR_HEALTH =
+NOT_ESTABLISHED
+
+V26E1B1_PHYSICAL_G00 =
+NOT_ESTABLISHED
+
+V26D_COMPLETE_ENERGY =
+UNKNOWN
+
+HOOK17_CAPACITY_TRANSFERS_TO_V26D =
 NO
 
-INTRINSIC_DIRAC_HYPERMOMENTUM =
-PRESERVED
-
-PRESERVED_FALLBACK =
-032V26D_PROTECTED_CT1_DHOST_KMM
-
-V26E =
-PAUSED_NOT_CLOSED
-
 PHYSICAL_ANTIGRAVITY_MODEL =
+NO
+
+CERTIFIED_SUB10MJ_MODEL =
 NO
 
 PRACTICAL_DEVICE =
 NO
 
-NEXT =
-032H17A_HOOK17_RESCUE_FAMILY_THEOREM_AND_ACTION_ATLAS.
+NEW_PHYSICS_DISCOVERY =
+NO
+
+IMMEDIATE_NEXT =
+032V26E1B2_QUADRATIC_ACTIVE_STATE_HEALTHY_SCALAR_PHYSICAL_G00_CROSSPROP_AND_UV_DESCENDANT_GATE.
 ```
 
 ---
 
-# 156. Final rule
+# 174. Final rule
 
-Carry this into every HOOK17 AGMINER session:
+Carry these instructions into every AGMINER session:
 
-> **The miner does not exist to find a way to call something a 17-J model. It exists to determine whether the physical mechanism responsible for the 17-J capacity result can survive a complete action, symmetry, source, metric, payload, stability, quantum, empirical, and energy audit.**
+> **The miner does not exist to find a way to call something a 17-J model. It exists to determine whether the physical mechanism responsible for the HOOK17 low-capacity result can survive a complete action, symmetry, source, metric, payload, stability, quantum, empirical, and energy audit.**
 
-And:
+> **The low HOOK17 capacity is a reason to investigate the mechanism aggressively. It is not permission to weaken any physical gate.**
 
-> **The low capacity is the reason to investigate HOOK17 aggressively. It is not permission to weaken any gate.**
+> **The current V26D quadratic active-state completion deserves a decisive physicalization run because it removes the exact historical tree-level failure while preserving healthy tensor and frame margins. It does not deserve energy optimization until a healthy scalar and nonremovable physical $g_{00}$ response are demonstrated.**
 
-And:
+> **Do not chase 17 J. Chase a physically consistent same-action theory that preserves why 17 J was possible.**
 
-> **The most probable path to a genuine HOOK17 model is to repair the exact V26C same-action symmetry obstruction first, then derive source-to-healthy-mode overlap and nonremovable universal-metric response before spending meaningful compute on energy or geometry.**
+> **Do not force metric-affine gravity indefinitely. If the active V26D fallback survives, follow the physics. If it fails, preserve the exact failure and return to the strongest genuinely new HOOK17 protected-carrier family.**
 
-And finally:
+> **Always prefer theorem-first falsification, same-action provenance, canonical normalization, Ward identities, physical finite-payload observables, and absolute complete energy over attractive partial numbers.**
 
-> **If HOOK17 survives those gates, preserve its exceptional capacity headroom as long as the physics permits. If it fails, close each declared family cleanly and return to the preserved V26D/DHOST frontier rather than forcing the result.**
+> **A viable result must ultimately produce at least 9.80665 m/s² outward acceleration at at least 1.0 m true external stand-off for finite neutral matter, with complete conservative operating energy strictly below 10 MJ. Exceeding the acceleration or stand-off floor is favorable.**
 
 ---
 

@@ -1,0 +1,216 @@
+{
+  "a10d_exact_healthy_pole_provenance": true,
+  "agminer_database_mutation_authorized": false,
+  "branch": "032H17A10E",
+  "certified_sub10mj_model_found": false,
+  "complete_energy_established": false,
+  "current_full_regression_before_a10e": 948,
+  "decision": "GREEN_A10E_PROTECTED_QUADRATIC_UNIVERSAL_METRIC_STATIC_OUTWARD_RESPONSE_PREFLIGHT",
+  "energy_optimization_authorized": false,
+  "factorization": {
+    "factor_coefficient_exact": "-sqrt(6)/2",
+    "factorization_pass": true,
+    "maximum_factorization_residual_exact": "0",
+    "nonzero_pole_tensor_components": [
+      {
+        "index": [
+          0,
+          1,
+          0
+        ],
+        "value": "-sqrt(6)/2"
+      },
+      {
+        "index": [
+          1,
+          1,
+          1
+        ],
+        "value": "sqrt(6)/2"
+      },
+      {
+        "index": [
+          2,
+          1,
+          2
+        ],
+        "value": "sqrt(6)/2"
+      },
+      {
+        "index": [
+          3,
+          1,
+          3
+        ],
+        "value": "sqrt(6)/2"
+      }
+    ],
+    "normalized_vector_exact": [
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    "trace_vector_exact": [
+      "0",
+      "-2*sqrt(6)",
+      "0",
+      "0"
+    ],
+    "vector_squared_mostly_minus_exact": "-1"
+  },
+  "field_redefinition_invariant_tidal_response_nonzero": true,
+  "finite_payload_established": false,
+  "finite_source_established": false,
+  "full_loop_beta_functions_computed": false,
+  "full_quantum_rg_uv_certified": false,
+  "geometry_optimization_authorized": false,
+  "healthy_pole_exact_vector_factorization": true,
+  "hook17_closed": false,
+  "hook17_reference_capacity_rp1e12_j": 17.0676442196,
+  "hook17_reference_capacity_transferred": false,
+  "linear_operator_protection": {
+    "claim_scope": "LOCAL_ANALYTIC_FLAT_BACKGROUND_SOURCEFREE_TRANSVERSE_1MINUS_SECTOR",
+    "epsilon_zero_derivative_linear_rank2_exists": false,
+    "linear_external_operator_protection_pass": true,
+    "local_linear_symmetric_tensor_basis": "A(q2)*q_(mu V_nu)+B(q2)*eta_mn*(q.V)+C(q2)*q_m*q_n*(q.V)",
+    "nonredundant_sourcefree_linear_physical_metric_response": false,
+    "pure_gauge_linear_metric_riemann_norm": 0.0,
+    "remaining_linear_term_has_zero_linearized_riemann": true,
+    "remaining_linear_term_is_field_redefinition": true,
+    "transverse_constraint_removes_q_dot_v_terms": true,
+    "transverse_test_q_dot_v": 0.0,
+    "zero_derivative_linear_rank2_from_one_rank3_exists": false
+  },
+  "next": "032H17A10F_FINITE_SOURCE_FINITE_PAYLOAD_1G_1M_SOURCE_ENERGY_EMPIRICAL_UV_COMPLETE_LEDGER_PREFLIGHT",
+  "one_universal_payload_metric": true,
+  "partial_green": true,
+  "physical_antigravity_model_found": false,
+  "physical_g00_outward_sign": true,
+  "physical_g00_response_nonzero": true,
+  "quadratic_active_state_response_nonzero": true,
+  "quadratic_metric": {
+    "conformal_identity_exact": true,
+    "quadratic_conformal_tensor_exact": [
+      [
+        "-3/2",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "3/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "3/2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "3/2"
+      ]
+    ],
+    "quadratic_g00_numerator_nonzero": true,
+    "quadratic_metric_requires_principal_margin_collapse": false,
+    "quadratic_vector_tensor_exact": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "6",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "vector_identity_exact": true
+  },
+  "quadratic_offstate_first_variation_zero": true,
+  "same_action_scaffold": {
+    "abelian_symmetry_preserved_by_quadratic_metric": true,
+    "abelian_symmetry_preserved_by_source_connection": true,
+    "action_level_scaffold_established": true,
+    "diffeomorphism_covariant_tensor_construction": true,
+    "distortion_definition": "N=Gamma-LC(g)",
+    "full_nonlinear_variational_metric_stress_rederived": false,
+    "invariance_rows": [
+      {
+        "f": 1.0,
+        "residual_norm": 0.0
+      },
+      {
+        "f": -1.25,
+        "residual_norm": 0.0
+      },
+      {
+        "f": 3.0,
+        "residual_norm": 0.0
+      }
+    ],
+    "invariant_distortion_definition": "B=N-g*grad(phi)/f",
+    "marzo_protected_family": true,
+    "one_action_scaffold": "S_Marzo[g,Gamma,phi]+S_Wheeler_TF[g,psi_source,Gamma_src]+S_payload[chi,g_phys]",
+    "ordinary_payload_direct_independent_connection_charge": false,
+    "ordinary_payload_one_universal_metric": true,
+    "payload_action": "S_payload[chi,g_phys]",
+    "source_action": "S_Wheeler_TF[g,psi_source,Gamma_src]",
+    "source_connection_definition": "Gamma_src=LC(g)+B",
+    "special_source_sector_may_carry_connection_charge": true,
+    "stueckelberg_invariant_distortion_exact": true
+  },
+  "source_energy_established": false,
+  "sourcefree_nonredundant_linear_metric_response": false,
+  "static_external_response": {
+    "finite_payload_established": false,
+    "finite_source_established": false,
+    "invariant_tidal_response_nonzero": true,
+    "inverse_range_m": 1.0,
+    "linearized_R0z0z_per_m2": 2.1822739344396434e-16,
+    "mass_eV": 1.973269804e-07,
+    "metric_exactly_invertible_for_finite_sigma": true,
+    "metric_form": "g_phys=exp(2*sigma)*g",
+    "outward_sign": true,
+    "profile": "V_x(z)=V0*exp(-m*z)",
+    "quadratic_metric_response_is_pure_coordinate_effect": false,
+    "range_m": 1.0,
+    "reconstructed_acceleration_m_s2": 9.80665,
+    "required_metric_perturbation_order": 1.0911369672198217e-16,
+    "sigma_at_payload": 5.4556848360991086e-17,
+    "source_free_static_proca_pass": true,
+    "source_free_static_proca_residual": 0.0,
+    "stand_off_probe_m": 1.0,
+    "target_acceleration_m_s2": 9.80665,
+    "target_acceleration_reproduced": true,
+    "transverse_constraint_pass": true,
+    "transverse_divergence": 0.0,
+    "true_standoff_certified": false,
+    "weak_field": true
+  },
+  "strict_complete_operating_target_j": 10000000.0,
+  "technical_naturalness_external_operator_preflight": true,
+  "true_standoff_certified": false,
+  "ultralight_mass_quantitative_naturalness_certified": false,
+  "zero_derivative_linear_metric_response": false
+}
