@@ -1,0 +1,546 @@
+{
+  "006d_replaced": false,
+  "a12b_exact_massless_carrier_closed": false,
+  "a12c_2p656859j_ruled_out_in_tested_space": true,
+  "a12c_f2_metric_mechanism_closed": false,
+  "all_possible_1kev_source_shapes_closed": false,
+  "basis_upper_bound_stable_52_to_76": false,
+  "branch": "032H17A12D1R2B",
+  "certified_sub10mj_model_found": false,
+  "claim_policy": {
+    "006d_replaced": false,
+    "all_possible_source_shapes_closed": false,
+    "carrier_modified": false,
+    "certified_sub10mj_model_found": false,
+    "complete_energy_established": false,
+    "continuous_source_space_exhausted": false,
+    "dual_certificate_is_discrete_payload_sample": true,
+    "dual_certificate_is_finite_basis": true,
+    "exact_1kev_primary": true,
+    "few_joule_branch_priority": true,
+    "metric_modified": false,
+    "microscopic_source_completed": false,
+    "payload_modified": false,
+    "physical_antigravity_model_found": false,
+    "practical_device_found": false
+  },
+  "complete_energy_established": false,
+  "continuous_source_space_exhausted": false,
+  "decision": "YELLOW_A12D1R2B_DUAL_UPPER_BOUND_STILL_LEAVES_FEW_JOULE_MATHEMATICAL_HEADROOM_IN_EXPANDED_SOURCE_SPACE__DO_NOT_PIVOT__IMPROVE_CONSTRUCTIVE_SOLVER_AND_SOURCE_BASIS",
+  "direct_finest_capacity_j": null,
+  "direct_validation_pass": false,
+  "direct_validations": [],
+  "full_basis_certificate_valid": true,
+  "full_basis_certified_capacity_lower_bound_j": 1735114507.8698447,
+  "grid_spacing_m": 0.1,
+  "hook17_closed": false,
+  "mixed_eb_topological_portal_closed": false,
+  "nested_analyses": {
+    "16": {
+      "basis_count": 16,
+      "capacity_targets": {
+        "10.0": {
+          "capacity_target_j": 10.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.9806649999999999,
+          "ruled_out_by_upper_bound": true
+        },
+        "100.0": {
+          "capacity_target_j": 100.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.0980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "1000.0": {
+          "capacity_target_j": 1000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.00980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "10000.0": {
+          "capacity_target_j": 10000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.000980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "100000.0": {
+          "capacity_target_j": 100000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.80665e-05,
+          "ruled_out_by_upper_bound": true
+        },
+        "1000000.0": {
+          "capacity_target_j": 1000000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.806649999999999e-06,
+          "ruled_out_by_upper_bound": true
+        },
+        "2.6568591420597114": {
+          "capacity_target_j": 2.6568591420597114,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 3.69106884318958,
+          "ruled_out_by_upper_bound": true
+        }
+      },
+      "certificate_valid": true,
+      "certified_capacity_lower_bound_j": 1267733206823.8137,
+      "dual": {
+        "best_valid_upper_bound_m_s2_per_j": 7.735578706319162e-12,
+        "bottleneck_payload_point_index": 92,
+        "bottleneck_payload_rho_m": 1.0277012541318356,
+        "bottleneck_payload_z_m": 3.018480910817912,
+        "certificate_point_count": 157,
+        "certificate_valid_even_if_optimizer_not_global": true,
+        "dual_active_point_count": 28,
+        "dual_optimizer_message": "Optimization terminated successfully",
+        "dual_optimizer_success": true,
+        "pointwise_upper_bound_m_s2_per_j": 5.146974509623588e-07,
+        "weighted_dual_upper_bound_m_s2_per_j": 7.735578706319162e-12
+      },
+      "energy_condition_number": 145818.42200155125,
+      "maximum_energy_eigenvalue": 8.150395625218256e-14,
+      "minimum_energy_eigenvalue": 5.589414227189724e-19,
+      "primal": {
+        "active_constraint_count": 102,
+        "constructive_lower_bound_m_s2_per_j": -4.624111568418646e-12,
+        "constructive_predicted_capacity_j": null,
+        "optimizer_message": "Optimization terminated successfully",
+        "optimizer_success": true,
+        "source_coefficients": [
+          -0.07148721924586753,
+          0.06807908653391082,
+          -1.0,
+          0.09233050622444253,
+          -0.0005051326321999631,
+          0.08555375621354173,
+          -0.023848594707383295,
+          0.10132561252320012,
+          0.025987779149275133,
+          0.15592639489163743,
+          0.08209338738308818,
+          0.12717376674736083,
+          0.0677782950125535,
+          0.04488464368176322,
+          0.08551051012095989,
+          0.045845691343046904
+        ]
+      }
+    },
+    "32": {
+      "basis_count": 32,
+      "capacity_targets": {
+        "10.0": {
+          "capacity_target_j": 10.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.9806649999999999,
+          "ruled_out_by_upper_bound": true
+        },
+        "100.0": {
+          "capacity_target_j": 100.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.0980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "1000.0": {
+          "capacity_target_j": 1000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.00980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "10000.0": {
+          "capacity_target_j": 10000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.000980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "100000.0": {
+          "capacity_target_j": 100000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.80665e-05,
+          "ruled_out_by_upper_bound": true
+        },
+        "1000000.0": {
+          "capacity_target_j": 1000000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.806649999999999e-06,
+          "ruled_out_by_upper_bound": true
+        },
+        "2.6568591420597114": {
+          "capacity_target_j": 2.6568591420597114,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 3.69106884318958,
+          "ruled_out_by_upper_bound": true
+        }
+      },
+      "certificate_valid": true,
+      "certified_capacity_lower_bound_j": 51938991445.57812,
+      "dual": {
+        "best_valid_upper_bound_m_s2_per_j": 1.8881094389896743e-10,
+        "bottleneck_payload_point_index": 92,
+        "bottleneck_payload_rho_m": 1.0277012541318356,
+        "bottleneck_payload_z_m": 3.018480910817912,
+        "certificate_point_count": 157,
+        "certificate_valid_even_if_optimizer_not_global": true,
+        "dual_active_point_count": 28,
+        "dual_optimizer_message": "Optimization terminated successfully",
+        "dual_optimizer_success": true,
+        "pointwise_upper_bound_m_s2_per_j": 8.794926378083836e-07,
+        "weighted_dual_upper_bound_m_s2_per_j": 1.8881094389896743e-10
+      },
+      "energy_condition_number": 1497417.2257703282,
+      "maximum_energy_eigenvalue": 8.792314557578724e-14,
+      "minimum_energy_eigenvalue": 5.871653141331818e-20,
+      "primal": {
+        "active_constraint_count": 118,
+        "constructive_lower_bound_m_s2_per_j": 9.811135551750334e-15,
+        "constructive_predicted_capacity_j": 999542810133783.6,
+        "optimizer_message": "Optimization terminated successfully",
+        "optimizer_success": true,
+        "source_coefficients": [
+          0.043924344990985145,
+          -0.03897835821167354,
+          -1.0,
+          -0.012189087426229107,
+          0.07412712413996017,
+          0.27171195226228284,
+          -0.10046408311400969,
+          0.20454355423071996,
+          -0.008018405740269553,
+          -0.2185632739247367,
+          0.3283144865660949,
+          -0.054846380252048556,
+          -0.045852567199817874,
+          0.029908385126478167,
+          -0.012811080848342782,
+          0.009599772221137191,
+          0.020709845464825082,
+          -0.3530035412487581,
+          0.09715354190619503,
+          0.8120471957897651,
+          -0.030541400216331702,
+          -0.12268251083209802,
+          0.01800669255079658,
+          -0.0924326445702033,
+          -0.3953971305209407,
+          0.07794377161564017,
+          -0.23201339885485367,
+          -0.015341546364885498,
+          -0.1081437715157327,
+          -0.10136685087062697,
+          -0.1370044728721089,
+          -0.018560862988723083
+        ]
+      }
+    },
+    "52": {
+      "basis_count": 52,
+      "capacity_targets": {
+        "10.0": {
+          "capacity_target_j": 10.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.9806649999999999,
+          "ruled_out_by_upper_bound": true
+        },
+        "100.0": {
+          "capacity_target_j": 100.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.0980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "1000.0": {
+          "capacity_target_j": 1000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.00980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "10000.0": {
+          "capacity_target_j": 10000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.000980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "100000.0": {
+          "capacity_target_j": 100000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.80665e-05,
+          "ruled_out_by_upper_bound": true
+        },
+        "1000000.0": {
+          "capacity_target_j": 1000000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.806649999999999e-06,
+          "ruled_out_by_upper_bound": true
+        },
+        "2.6568591420597114": {
+          "capacity_target_j": 2.6568591420597114,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 3.69106884318958,
+          "ruled_out_by_upper_bound": true
+        }
+      },
+      "certificate_valid": true,
+      "certified_capacity_lower_bound_j": 69953826073.30247,
+      "dual": {
+        "best_valid_upper_bound_m_s2_per_j": 1.4018747151476618e-10,
+        "bottleneck_payload_point_index": 92,
+        "bottleneck_payload_rho_m": 1.0277012541318356,
+        "bottleneck_payload_z_m": 3.018480910817912,
+        "certificate_point_count": 157,
+        "certificate_valid_even_if_optimizer_not_global": true,
+        "dual_active_point_count": 28,
+        "dual_optimizer_message": "Optimization terminated successfully",
+        "dual_optimizer_success": true,
+        "pointwise_upper_bound_m_s2_per_j": 1.0030838165178767e-06,
+        "weighted_dual_upper_bound_m_s2_per_j": 1.4018747151476618e-10
+      },
+      "energy_condition_number": 224548429.43411812,
+      "maximum_energy_eigenvalue": 1.0321013601570925e-13,
+      "minimum_energy_eigenvalue": 4.5963419239140485e-22,
+      "primal": {
+        "active_constraint_count": 91,
+        "constructive_lower_bound_m_s2_per_j": -1.0189221953981121e-11,
+        "constructive_predicted_capacity_j": null,
+        "optimizer_message": "Optimization terminated successfully",
+        "optimizer_success": true,
+        "source_coefficients": [
+          0.02070202089631617,
+          -0.005130802826728168,
+          -0.33734438755081414,
+          0.21359470361198385,
+          -0.012219711546189553,
+          0.008382507878638461,
+          -0.02988716682078597,
+          -0.0426595033070831,
+          -0.035634830945896936,
+          0.049499460757097685,
+          0.5626866539897147,
+          -0.01993165105266383,
+          -0.022179911876733956,
+          -0.012110741829965643,
+          -0.005099946263841149,
+          -0.03045492444835066,
+          0.0011230261566160982,
+          -0.14935991366918538,
+          1.0,
+          -0.2554820880067152,
+          -0.094616509677365,
+          -0.04585137864956547,
+          0.009815349324167931,
+          0.01550305328911244,
+          -0.14711604268918652,
+          -0.05488366052287864,
+          -0.010964217786827579,
+          -0.051994721002478025,
+          0.024292674080195743,
+          -0.026234147447124503,
+          -0.019743988113946908,
+          0.0021899102369672446,
+          -0.04537249761747342,
+          -0.04050585166452843,
+          -0.017625780232221038,
+          -0.0014417265387161788,
+          0.005798486969836952,
+          0.0029035543127648193,
+          0.04386015673163891,
+          0.02527512528857071,
+          0.01365260563551421,
+          0.021869692082231447,
+          0.016714595828624244,
+          -0.03099112309878663,
+          0.01859348759892981,
+          -0.9764506824119445,
+          0.07388894162423557,
+          0.042307725167150596,
+          -0.00493041769925827,
+          -0.6140829731061301,
+          0.44305263871209527,
+          0.06497270815809209
+        ]
+      }
+    },
+    "76": {
+      "basis_count": 76,
+      "capacity_targets": {
+        "10.0": {
+          "capacity_target_j": 10.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.9806649999999999,
+          "ruled_out_by_upper_bound": true
+        },
+        "100.0": {
+          "capacity_target_j": 100.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.0980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "1000.0": {
+          "capacity_target_j": 1000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.00980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "10000.0": {
+          "capacity_target_j": 10000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.000980665,
+          "ruled_out_by_upper_bound": true
+        },
+        "100000.0": {
+          "capacity_target_j": 100000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.80665e-05,
+          "ruled_out_by_upper_bound": true
+        },
+        "1000000.0": {
+          "capacity_target_j": 1000000.0,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.806649999999999e-06,
+          "ruled_out_by_upper_bound": true
+        },
+        "2.6568591420597114": {
+          "capacity_target_j": 2.6568591420597114,
+          "mathematically_allowed_by_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 3.69106884318958,
+          "ruled_out_by_upper_bound": true
+        }
+      },
+      "certificate_valid": true,
+      "certified_capacity_lower_bound_j": 1735114507.8698447,
+      "dual": {
+        "best_valid_upper_bound_m_s2_per_j": 5.651874821817593e-09,
+        "bottleneck_payload_point_index": 92,
+        "bottleneck_payload_rho_m": 1.0277012541318356,
+        "bottleneck_payload_z_m": 3.018480910817912,
+        "certificate_point_count": 157,
+        "certificate_valid_even_if_optimizer_not_global": true,
+        "dual_active_point_count": 28,
+        "dual_optimizer_message": "Optimization terminated successfully",
+        "dual_optimizer_success": true,
+        "pointwise_upper_bound_m_s2_per_j": 1.095810306038148e-06,
+        "weighted_dual_upper_bound_m_s2_per_j": 5.651874821817593e-09
+      },
+      "energy_condition_number": 17068038679.425549,
+      "maximum_energy_eigenvalue": 1.3467730612272894e-13,
+      "minimum_energy_eigenvalue": 7.890614068333112e-24,
+      "primal": {
+        "active_constraint_count": 90,
+        "constructive_lower_bound_m_s2_per_j": -1.4058528413650845e-10,
+        "constructive_predicted_capacity_j": null,
+        "optimizer_message": "Optimization terminated successfully",
+        "optimizer_success": true,
+        "source_coefficients": [
+          0.03032567530476216,
+          -0.4658164859052667,
+          0.09752194396935407,
+          -0.07544024742322045,
+          -0.02777165258714107,
+          -0.03256115707205879,
+          -0.36532464752237914,
+          -0.1283296793113478,
+          -0.08360700293165989,
+          0.731521402670508,
+          0.26272126152903463,
+          -0.2844237842326935,
+          0.45913235007821085,
+          -0.033571357664763754,
+          -0.0059008623217475485,
+          0.25551221902745913,
+          -0.5827627458023678,
+          -0.07437626953951865,
+          0.41071684788111484,
+          -0.005713558474492096,
+          0.987682613819133,
+          0.07139236943506849,
+          0.03135748860239234,
+          -0.12815248884017996,
+          0.01672365804814866,
+          0.8637992218139205,
+          0.19259444216419308,
+          -0.4117612045639307,
+          -0.32201132875975264,
+          -0.04210250006450617,
+          -0.05847823971613335,
+          0.2836115246557325,
+          0.018331131888714505,
+          0.5307057306804353,
+          0.21839326402025572,
+          0.3742819456461355,
+          -0.24770570953789725,
+          -0.021836231933278962,
+          0.07370077916368756,
+          0.1756350514650003,
+          -1.0,
+          -0.6269666712833951,
+          0.4424618532754939,
+          0.37961561193705584,
+          -0.05450785362704283,
+          -0.38527115542592766,
+          -0.6011107994334427,
+          0.22079933106252334,
+          0.17791699338417827,
+          -0.27711518035070754,
+          -0.08384855167496369,
+          -0.8921540364383733,
+          0.6054946760859694,
+          0.49195497825523143,
+          0.11671854899120453,
+          -0.24889285798648028,
+          0.09563080134166557,
+          -0.05294788558670846,
+          -0.08692346843169818,
+          0.3414340067307469,
+          -0.33132402864788946,
+          0.024767282175393264,
+          0.03981840136361777,
+          0.09654156879194473,
+          0.02438769859036268,
+          0.14971254618948532,
+          -0.1762342098703845,
+          -0.6201685872751659,
+          -0.37305379956271517,
+          0.5491465597693673,
+          -0.40791121097039157,
+          -0.11749589461508134,
+          -0.3671207167291179,
+          -0.23356325066200234,
+          0.0916218849658408,
+          -0.1278562208198586
+        ]
+      }
+    }
+  },
+  "next": "032H17A12D1R2C_FEW_JOULE_PRIMAL_GAP_CLOSURE",
+  "physical_antigravity_model_found": false,
+  "portal_scale_ev": 1000.0,
+  "practical_device_found": false,
+  "provenance": {
+    "a12b_carrier_preserved": true,
+    "a12c_f2_mechanism_preserved": true,
+    "continuous_source_space_exhausted": false,
+    "pass": true,
+    "r2_branch": "032H17A12D1R2",
+    "r2_exact_1kev_rescued": false
+  },
+  "required_efficiency_for_a12c_reference_m_s2_per_j": 3.69106884318958,
+  "source_space": {
+    "all_sources_axisymmetric": true,
+    "all_sources_compact_in_original_support": true,
+    "all_sources_divergence_free": true,
+    "all_sources_pure_azimuthal": true,
+    "basis_zero_exact_original_a12c": true,
+    "candidate_patch_count": 75,
+    "continuous_source_space_exhausted": false,
+    "full_basis_count": 76,
+    "nested_basis_counts": [
+      16,
+      32,
+      52,
+      76
+    ],
+    "ordered_patch_count": 75
+  },
+  "sub100j_ruled_out_in_tested_space": true,
+  "sub10j_ruled_out_in_tested_space": true,
+  "sub10kj_ruled_out_in_tested_space": true,
+  "sub1kj_ruled_out_in_tested_space": true
+}

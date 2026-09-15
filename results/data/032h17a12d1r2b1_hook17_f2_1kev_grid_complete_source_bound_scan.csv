@@ -1,0 +1,3 @@
+grid_spacing_m,certificate_valid,source_dof_count,payload_certificate_point_count,energy_condition_number,whole_payload_pointwise_upper_bound_m_s2_per_j,certified_loaded_capacity_floor_j,bottleneck_payload_rho_m,bottleneck_payload_z_m,prior_r2b_bottleneck_local_upper_bound_m_s2_per_j,grid_complete_upper_bound_over_r2b_76d_bound
+0.125,True,381,157,303.2480784351422,3.1301355978246105e-06,3132979.2890811022,1.0,3.039736830714133,0.0021621869546293066,2.856457527892279
+0.1,True,605,157,490.2471837261906,5.08732926179784e-06,1927661.7445701503,1.0277012541318356,3.018480910817912,5.08732926179784e-06,4.642527300359901

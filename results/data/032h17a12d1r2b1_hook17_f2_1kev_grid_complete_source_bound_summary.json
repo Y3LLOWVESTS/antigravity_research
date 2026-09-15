@@ -1,0 +1,217 @@
+{
+  "006d_replaced": false,
+  "a12b_exact_massless_carrier_closed": false,
+  "a12c_2p656859j_ruled_out_on_both_grids": true,
+  "a12c_f2_metric_mechanism_closed": false,
+  "a12c_reference_response_gap_factor_on_fine_grid": 725541.5667522908,
+  "all_grid_certificates_valid": true,
+  "all_source_supports_exhausted": false,
+  "branch": "032H17A12D1R2B1",
+  "certified_sub10mj_model_found": false,
+  "claim_policy": {
+    "006d_replaced": false,
+    "all_possible_source_shapes_closed": false,
+    "carrier_modified": false,
+    "certified_sub10mj_model_found": false,
+    "complete_energy_established": false,
+    "continuous_source_space_exhausted": false,
+    "every_axisymmetric_source_grid_cell_free": true,
+    "exact_1kev_primary": true,
+    "few_joule_branch_priority": true,
+    "grid_source_space_more_permissive_than_smooth_physical_current": true,
+    "grid_source_space_smoother_than_physical_requirement": false,
+    "local_current_conservation_preserved": true,
+    "metric_modified": false,
+    "microscopic_source_completed": false,
+    "nonaxisymmetric_source_space_exhausted": false,
+    "physical_antigravity_model_found": false,
+    "portal_modified": false,
+    "practical_device_found": false
+  },
+  "complete_energy_established": false,
+  "continuous_source_space_exhausted": false,
+  "decision": "RED_SCOPED_A12D1R2B1_GRID_COMPLETE_AXISYMMETRIC_SOURCE_CELL_POINTWISE_CERTIFICATE_RULES_OUT_THE_FEW_JOULE_AND_SUB100J_1KEV_SOURCE_SHAPING_ROUTE_ON_BOTH_TESTED_GRIDS__THIS_IS_NOT_A_CONTINUUM_OR_PORTAL_NO_GO__PIVOT_LOW_CAPACITY_RESCUE_TO_BACKREACTION_STRUCTURE",
+  "fine_grid_certified_loaded_capacity_floor_j": 1927661.7445701503,
+  "grid_bound_preflight_stable": true,
+  "grid_bound_relative_difference": 0.38471928260479177,
+  "grid_results": [
+    {
+      "bottleneck_payload_point_index": 0,
+      "bottleneck_payload_rho_m": 1.0,
+      "bottleneck_payload_z_m": 3.039736830714133,
+      "capacity_targets": {
+        "10.0": {
+          "capacity_target_j": 10.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.9806649999999999,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "100.0": {
+          "capacity_target_j": 100.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.0980665,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "1000.0": {
+          "capacity_target_j": 1000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.00980665,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "10000.0": {
+          "capacity_target_j": 10000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.000980665,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "100000.0": {
+          "capacity_target_j": 100000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.80665e-05,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "1000000.0": {
+          "capacity_target_j": 1000000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.806649999999999e-06,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "10000000.0": {
+          "capacity_target_j": 10000000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": true,
+          "required_efficiency_m_s2_per_j": 9.806649999999999e-07,
+          "ruled_out_by_pointwise_upper_bound": false
+        },
+        "2.6568591420597114": {
+          "capacity_target_j": 2.6568591420597114,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 3.69106884318958,
+          "ruled_out_by_pointwise_upper_bound": true
+        }
+      },
+      "certificate_valid": true,
+      "certified_loaded_capacity_floor_j": 3132979.2890811022,
+      "complete_energy_established": false,
+      "continuous_source_space_exhausted": false,
+      "energy_condition_number": 303.2480784351422,
+      "grid_complete_upper_bound_over_r2b_76d_bound": 2.856457527892279,
+      "grid_spacing_m": 0.125,
+      "maximum_energy_eigenvalue": 5.961518086938769e-11,
+      "minimum_energy_eigenvalue": 1.9658881657889222e-13,
+      "nonaxisymmetric_source_space_exhausted": false,
+      "operator_unknown_count": 17385,
+      "payload_certificate_point_count": 157,
+      "prior_r2b_bottleneck_local_upper_bound_m_s2_per_j": 0.0021621869546293066,
+      "prior_r2b_bottleneck_rho_m": 1.0277012541318356,
+      "prior_r2b_bottleneck_z_m": 3.018480910817912,
+      "r2b_76d_pointwise_upper_bound_m_s2_per_j": 1.095810306038148e-06,
+      "source_dof_count": 381,
+      "source_space_is_every_grid_cell_in_original_2m_support": true,
+      "source_space_is_optimistic_superset_of_smooth_currents_on_grid": true,
+      "whole_payload_pointwise_upper_bound_m_s2_per_j": 3.1301355978246105e-06,
+      "z_max": 18988.283771593688
+    },
+    {
+      "bottleneck_payload_point_index": 23,
+      "bottleneck_payload_rho_m": 1.0277012541318356,
+      "bottleneck_payload_z_m": 3.018480910817912,
+      "capacity_targets": {
+        "10.0": {
+          "capacity_target_j": 10.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.9806649999999999,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "100.0": {
+          "capacity_target_j": 100.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.0980665,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "1000.0": {
+          "capacity_target_j": 1000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.00980665,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "10000.0": {
+          "capacity_target_j": 10000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 0.000980665,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "100000.0": {
+          "capacity_target_j": 100000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.80665e-05,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "1000000.0": {
+          "capacity_target_j": 1000000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 9.806649999999999e-06,
+          "ruled_out_by_pointwise_upper_bound": true
+        },
+        "10000000.0": {
+          "capacity_target_j": 10000000.0,
+          "mathematically_allowed_by_pointwise_upper_bound": true,
+          "required_efficiency_m_s2_per_j": 9.806649999999999e-07,
+          "ruled_out_by_pointwise_upper_bound": false
+        },
+        "2.6568591420597114": {
+          "capacity_target_j": 2.6568591420597114,
+          "mathematically_allowed_by_pointwise_upper_bound": false,
+          "required_efficiency_m_s2_per_j": 3.69106884318958,
+          "ruled_out_by_pointwise_upper_bound": true
+        }
+      },
+      "certificate_valid": true,
+      "certified_loaded_capacity_floor_j": 1927661.7445701503,
+      "complete_energy_established": false,
+      "continuous_source_space_exhausted": false,
+      "energy_condition_number": 490.2471837261906,
+      "grid_complete_upper_bound_over_r2b_76d_bound": 4.642527300359901,
+      "grid_spacing_m": 0.1,
+      "maximum_energy_eigenvalue": 9.336746317912707e-11,
+      "minimum_energy_eigenvalue": 1.9044976958250923e-13,
+      "nonaxisymmetric_source_space_exhausted": false,
+      "operator_unknown_count": 27251,
+      "payload_certificate_point_count": 157,
+      "prior_r2b_bottleneck_local_upper_bound_m_s2_per_j": 5.08732926179784e-06,
+      "prior_r2b_bottleneck_rho_m": 1.0277012541318356,
+      "prior_r2b_bottleneck_z_m": 3.018480910817912,
+      "r2b_76d_pointwise_upper_bound_m_s2_per_j": 1.095810306038148e-06,
+      "source_dof_count": 605,
+      "source_space_is_every_grid_cell_in_original_2m_support": true,
+      "source_space_is_optimistic_superset_of_smooth_currents_on_grid": true,
+      "whole_payload_pointwise_upper_bound_m_s2_per_j": 5.08732926179784e-06,
+      "z_max": 18988.283771593688
+    }
+  ],
+  "hook17_closed": false,
+  "mixed_eb_topological_portal_closed": false,
+  "next": "032H17A12D1R3_MIXED_EB_F_DUAL_F_LOW_CAPACITY_RESCUE",
+  "nonaxisymmetric_source_space_exhausted": false,
+  "physical_antigravity_model_found": false,
+  "portal_scale_ev": 1000.0,
+  "practical_device_found": false,
+  "provenance": {
+    "a12b_carrier_preserved": true,
+    "a12c_f2_mechanism_preserved": true,
+    "pass": true,
+    "r2b_76d_pointwise_upper_bound_m_s2_per_j": 1.095810306038148e-06,
+    "r2b_76d_weighted_upper_bound_m_s2_per_j": 5.651874821817593e-09,
+    "r2b_branch": "032H17A12D1R2B",
+    "r2b_decision_string_claimed_few_joule_headroom": true,
+    "r2b_decision_string_logic_inconsistent": true,
+    "r2b_full_basis_certificate_valid": true,
+    "r2b_numeric_a12c_target_ruled_out": true
+  },
+  "sub100j_ruled_out_on_both_grids": true,
+  "sub100kj_ruled_out_on_both_grids": true,
+  "sub10j_ruled_out_on_both_grids": true,
+  "sub10kj_ruled_out_on_both_grids": true,
+  "sub10mj_ruled_out_on_both_grids": false,
+  "sub1kj_ruled_out_on_both_grids": true,
+  "sub1mj_ruled_out_on_both_grids": true
+}

@@ -1,0 +1,468 @@
+{
+  "006d_replaced": false,
+  "a12b_exact_massless_carrier_closed": false,
+  "a12c_low_capacity_clue_discarded": false,
+  "branch": "032H17A12D1R3B",
+  "certified_sub10mj_model_found": false,
+  "claim_policy": {
+    "006d_replaced": false,
+    "certified_sub10mj_model_found": false,
+    "complete_energy_established": false,
+    "field_efficiency_optimization_for_headline_only": false,
+    "full_loaded_BVP_completed": false,
+    "global_mirror_is_source_completion_prefight": true,
+    "parity_cp_completed": false,
+    "physical_antigravity_model_found": false,
+    "practical_device_found": false,
+    "primary_goal_preserve_2p656859j_mechanism": true,
+    "surface_charge_physicalized": false
+  },
+  "decision": "GREEN_SCOPED_R3B_GLOBAL_NEUTRAL_ELECTROSTATIC_MIRROR_COMPLETION_PRESERVES_THE_A12C_LOW_JOULE_CLASS_AND_WHOLE_PAYLOAD_OUTWARD_RESPONSE__INTERFACE_POLARIZATION_NODE_CORRIDOR_IDENTIFIED__AUTHORIZE_LIMITED_LOADED_R3C",
+  "full_loaded_topological_bvp_completed": false,
+  "grid_results": {
+    "0.05": {
+      "global_energy": {
+        "electric_source_support_radius_m": 2.0,
+        "mixed_global_energy_over_a12c": 0.5853021120974132,
+        "mixed_global_field_energy_before_1g_renormalization_j": 1.5550652673928709,
+        "new_electric_exterior_energy_j": 0.1510904597621669,
+        "new_electric_interior_energy_j": 0.07554523660084791,
+        "new_electric_minimum_global_energy_j": 0.2266356963630148,
+        "new_magnetic_half_energy_j": 1.3284295710298561,
+        "original_a12c_magnetic_energy_j": 2.6568591420597123,
+        "surface_charge_net_zero_by_no_l0": true,
+        "surface_charge_physicalization_completed": false,
+        "true_external_standoff_preserved": true
+      },
+      "interface_orientation": {
+        "amplitude_repartition_can_reduce_interface_driver": true,
+        "beta_peak": 18987.283771593695,
+        "density_gradient_layer_cell_count": 70,
+        "density_model": "OPTIMISTIC_FLAT_C1",
+        "equal_split_interface_driver_reference": 15657845799.15897,
+        "field_energy_ratio_at_driver_optimum": 1.000014646522368,
+        "gradient_weighted_Bnormal2_fraction": 0.5027061227423528,
+        "gradient_weighted_Btangent2_fraction": 0.49729387725764723,
+        "optimal_driver_ratio_vs_equal_split": 0.9999853536921496,
+        "optimal_global_E_over_B_ratio_for_driver": 1.005426971277648,
+        "pareto": [
+          {
+            "actual_field_energy_ratio": 1.000023858636369,
+            "field_energy_ratio_cap": 1.1,
+            "interface_driver_ratio_vs_equal_split": 0.9999864718717213,
+            "selected_E_over_B": 1.0069316688518044
+          },
+          {
+            "actual_field_energy_ratio": 1.000023858636369,
+            "field_energy_ratio_cap": 1.25,
+            "interface_driver_ratio_vs_equal_split": 0.9999864718717213,
+            "selected_E_over_B": 1.0069316688518044
+          },
+          {
+            "actual_field_energy_ratio": 1.000023858636369,
+            "field_energy_ratio_cap": 1.5,
+            "interface_driver_ratio_vs_equal_split": 0.9999864718717213,
+            "selected_E_over_B": 1.0069316688518044
+          },
+          {
+            "actual_field_energy_ratio": 1.000023858636369,
+            "field_energy_ratio_cap": 2.0,
+            "interface_driver_ratio_vs_equal_split": 0.9999864718717213,
+            "selected_E_over_B": 1.0069316688518044
+          },
+          {
+            "actual_field_energy_ratio": 1.000023858636369,
+            "field_energy_ratio_cap": 5.0,
+            "interface_driver_ratio_vs_equal_split": 0.9999864718717213,
+            "selected_E_over_B": 1.0069316688518044
+          },
+          {
+            "actual_field_energy_ratio": 1.000023858636369,
+            "field_energy_ratio_cap": 10.0,
+            "interface_driver_ratio_vs_equal_split": 0.9999864718717213,
+            "selected_E_over_B": 1.0069316688518044
+          }
+        ],
+        "simple_parallel_mirror_eliminates_interface_problem": false
+      },
+      "multipole_modes": [
+        {
+          "boundary_scalar_amplitude": 210771.6630475181,
+          "electric_exterior_energy_j": 0.15109043702735364,
+          "electric_interior_energy_j": 0.07554521851367682,
+          "electric_total_energy_j": 0.22663565554103046,
+          "ell": 1,
+          "magnetic_exterior_energy_j": 0.3021808740547073
+        },
+        {
+          "boundary_scalar_amplitude": -0.0008870221786012007,
+          "electric_exterior_energy_j": 2.4083743877398207e-18,
+          "electric_interior_energy_j": 1.6055829251598804e-18,
+          "electric_total_energy_j": 4.013957312899701e-18,
+          "ell": 2,
+          "magnetic_exterior_energy_j": 4.8167487754796414e-18
+        },
+        {
+          "boundary_scalar_amplitude": 62.12127166474272,
+          "electric_exterior_energy_j": 1.1249841875477214e-08,
+          "electric_interior_energy_j": 8.437381406607911e-09,
+          "electric_total_energy_j": 1.9687223282085124e-08,
+          "ell": 3,
+          "magnetic_exterior_energy_j": 2.2499683750954428e-08
+        },
+        {
+          "boundary_scalar_amplitude": -0.0010608982730897797,
+          "electric_exterior_energy_j": 3.1899125100952186e-18,
+          "electric_interior_energy_j": 2.551930008076175e-18,
+          "electric_total_energy_j": 5.741842518171394e-18,
+          "ell": 4,
+          "magnetic_exterior_energy_j": 6.379825020190437e-18
+        },
+        {
+          "boundary_scalar_amplitude": 60.50736308564899,
+          "electric_exterior_energy_j": 1.0187762469520052e-08,
+          "electric_interior_energy_j": 8.489802057933376e-09,
+          "electric_total_energy_j": 1.867756452745343e-08,
+          "ell": 5,
+          "magnetic_exterior_energy_j": 2.0375524939040105e-08
+        },
+        {
+          "boundary_scalar_amplitude": -0.0013089957468499938,
+          "electric_exterior_energy_j": 4.7068997716881426e-18,
+          "electric_interior_energy_j": 4.0344855185898375e-18,
+          "electric_total_energy_j": 8.741385290277981e-18,
+          "ell": 6,
+          "magnetic_exterior_energy_j": 9.413799543376285e-18
+        },
+        {
+          "boundary_scalar_amplitude": 14.57362726030104,
+          "electric_exterior_energy_j": 5.778802277126084e-10,
+          "electric_interior_energy_j": 5.056451992485323e-10,
+          "electric_total_energy_j": 1.0835254269611407e-09,
+          "ell": 7,
+          "magnetic_exterior_energy_j": 1.1557604554252168e-09
+        },
+        {
+          "boundary_scalar_amplitude": -0.0018621304285687606,
+          "electric_exterior_energy_j": 9.36521115441751e-18,
+          "electric_interior_energy_j": 8.32463213726001e-18,
+          "electric_total_energy_j": 1.768984329167752e-17,
+          "ell": 8,
+          "magnetic_exterior_energy_j": 1.873042230883502e-17
+        },
+        {
+          "boundary_scalar_amplitude": -10.614777457336944,
+          "electric_exterior_energy_j": 3.025324593846911e-10,
+          "electric_interior_energy_j": 2.72279213446222e-10,
+          "electric_total_energy_j": 5.748116728309131e-10,
+          "ell": 9,
+          "magnetic_exterior_energy_j": 6.050649187693822e-10
+        },
+        {
+          "boundary_scalar_amplitude": -0.0031796511461030332,
+          "electric_exterior_energy_j": 2.7016938287039012e-17,
+          "electric_interior_energy_j": 2.4560852988217287e-17,
+          "electric_total_energy_j": 5.15777912752563e-17,
+          "ell": 10,
+          "magnetic_exterior_energy_j": 5.4033876574078024e-17
+        },
+        {
+          "boundary_scalar_amplitude": 12.513628083483203,
+          "electric_exterior_energy_j": 4.1679614013008074e-10,
+          "electric_interior_energy_j": 3.820631284525739e-10,
+          "electric_total_energy_j": 7.988592685826547e-10,
+          "ell": 11,
+          "magnetic_exterior_energy_j": 8.335922802601615e-10
+        },
+        {
+          "boundary_scalar_amplitude": -0.004856296828107275,
+          "electric_exterior_energy_j": 6.256300256741656e-17,
+          "electric_interior_energy_j": 5.775046390838451e-17,
+          "electric_total_energy_j": 1.2031346647580107e-16,
+          "ell": 12,
+          "magnetic_exterior_energy_j": 1.2512600513483312e-16
+        }
+      ],
+      "payload_reconstruction": {
+        "amplitude_squared_normalization_to_1g": 0.9921874303274629,
+        "normalized_mixed_global_field_energy_j": 1.5429162116460216,
+        "normalized_payload_acceleration_max_m_s2": 22.83777627178232,
+        "normalized_payload_acceleration_min_m_s2": 9.80665,
+        "payload_acceleration_max_before_renormalization_m_s2": 23.017602898118664,
+        "payload_acceleration_min_before_renormalization_m_s2": 9.883868410591937,
+        "payload_sigma_ratio_max": 1.0166038234686654,
+        "payload_sigma_ratio_min": 1.0117771882759918,
+        "payload_sigma_relative_rms_error": 0.013766950765130556,
+        "sub100j_after_1g_normalization": true,
+        "sub10kj_after_1g_normalization": true,
+        "whole_payload_outward_before_renormalization": true
+      },
+      "primary_fit": {
+        "direct_numerical_magnetic_exterior_energy_j": 0.30319183408597206,
+        "electric_exterior_energy_j": 0.1510904597621669,
+        "electric_interior_minimum_energy_j": 0.07554523660084791,
+        "electric_total_minimum_energy_j": 0.2266356963630148,
+        "exterior_energy_relative_error": 0.00333424072810488,
+        "fit_radius_m": 2.4,
+        "lmax": 12,
+        "multipole_magnetic_exterior_energy_j": 0.3021809195243338,
+        "relative_rms_field_residual": 0.009731703069783692
+      },
+      "reconstruction": {
+        "exterior_energy_j": 0.30319183408597206,
+        "field_energy_j": 2.6568591420597123,
+        "field_energy_relative_error_vs_a12c": 3.3429638991383306e-16,
+        "grid_spacing_m": 0.05,
+        "payload_acceleration_max_m_s2": 22.889174637504706,
+        "payload_acceleration_min_m_s2": 9.80665,
+        "payload_sigma_max": 1.3615723178022103e-16
+      },
+      "surface_charge": {
+        "absolute_surface_charge_flux_proxy": 5618091.6918754,
+        "l0_mode_present": false,
+        "net_charge_zero_analytic": true,
+        "net_over_absolute": 0.0,
+        "net_surface_charge_flux_proxy": 0.0
+      }
+    },
+    "0.075": {
+      "global_energy": {
+        "electric_source_support_radius_m": 2.0,
+        "mixed_global_energy_over_a12c": 0.5853752398245674,
+        "mixed_global_field_energy_before_1g_renormalization_j": 1.478278638832287,
+        "new_electric_exterior_energy_j": 0.14373501039403744,
+        "new_electric_interior_energy_j": 0.07186753773503149,
+        "new_electric_minimum_global_energy_j": 0.21560254812906893,
+        "new_magnetic_half_energy_j": 1.2626760907032182,
+        "original_a12c_magnetic_energy_j": 2.5253521814064364,
+        "surface_charge_net_zero_by_no_l0": true,
+        "surface_charge_physicalization_completed": false,
+        "true_external_standoff_preserved": true
+      },
+      "interface_orientation": {
+        "amplitude_repartition_can_reduce_interface_driver": true,
+        "beta_peak": 18987.283771593695,
+        "density_gradient_layer_cell_count": 39,
+        "density_model": "OPTIMISTIC_FLAT_C1",
+        "equal_split_interface_driver_reference": 14709279369.613068,
+        "field_energy_ratio_at_driver_optimum": 1.0000060950213414,
+        "gradient_weighted_Bnormal2_fraction": 0.5017457041011996,
+        "gradient_weighted_Btangent2_fraction": 0.4982542958988004,
+        "optimal_driver_ratio_vs_equal_split": 0.9999939050158078,
+        "optimal_global_E_over_B_ratio_for_driver": 1.003497524503948,
+        "pareto": [
+          {
+            "actual_field_energy_ratio": 1.0000059646413038,
+            "field_energy_ratio_cap": 1.1,
+            "interface_driver_ratio_vs_equal_split": 0.9999939057206074,
+            "selected_E_over_B": 1.0034598491478393
+          },
+          {
+            "actual_field_energy_ratio": 1.0000059646413038,
+            "field_energy_ratio_cap": 1.25,
+            "interface_driver_ratio_vs_equal_split": 0.9999939057206074,
+            "selected_E_over_B": 1.0034598491478393
+          },
+          {
+            "actual_field_energy_ratio": 1.0000059646413038,
+            "field_energy_ratio_cap": 1.5,
+            "interface_driver_ratio_vs_equal_split": 0.9999939057206074,
+            "selected_E_over_B": 1.0034598491478393
+          },
+          {
+            "actual_field_energy_ratio": 1.0000059646413038,
+            "field_energy_ratio_cap": 2.0,
+            "interface_driver_ratio_vs_equal_split": 0.9999939057206074,
+            "selected_E_over_B": 1.0034598491478393
+          },
+          {
+            "actual_field_energy_ratio": 1.0000059646413038,
+            "field_energy_ratio_cap": 5.0,
+            "interface_driver_ratio_vs_equal_split": 0.9999939057206074,
+            "selected_E_over_B": 1.0034598491478393
+          },
+          {
+            "actual_field_energy_ratio": 1.0000059646413038,
+            "field_energy_ratio_cap": 10.0,
+            "interface_driver_ratio_vs_equal_split": 0.9999939057206074,
+            "selected_E_over_B": 1.0034598491478393
+          }
+        ],
+        "simple_parallel_mirror_eliminates_interface_problem": false
+      },
+      "multipole_modes": [
+        {
+          "boundary_scalar_amplitude": 205577.1607098202,
+          "electric_exterior_energy_j": 0.14373490956976986,
+          "electric_interior_energy_j": 0.07186745478488493,
+          "electric_total_energy_j": 0.2156023643546548,
+          "ell": 1,
+          "magnetic_exterior_energy_j": 0.28746981913953973
+        },
+        {
+          "boundary_scalar_amplitude": 0.8660965872733007,
+          "electric_exterior_energy_j": 2.296083602116632e-12,
+          "electric_interior_energy_j": 1.530722401411088e-12,
+          "electric_total_energy_j": 3.82680600352772e-12,
+          "ell": 2,
+          "magnetic_exterior_energy_j": 4.592167204233264e-12
+        },
+        {
+          "boundary_scalar_amplitude": 122.10773242318668,
+          "electric_exterior_energy_j": 4.3466240230907406e-08,
+          "electric_interior_energy_j": 3.2599680173180556e-08,
+          "electric_total_energy_j": 7.606592040408796e-08,
+          "ell": 3,
+          "magnetic_exterior_energy_j": 8.693248046181481e-08
+        },
+        {
+          "boundary_scalar_amplitude": -1.0859428543250655,
+          "electric_exterior_energy_j": 3.342298474445246e-12,
+          "electric_interior_energy_j": 2.6738387795561968e-12,
+          "electric_total_energy_j": 6.016137254001443e-12,
+          "ell": 4,
+          "magnetic_exterior_energy_j": 6.684596948890492e-12
+        },
+        {
+          "boundary_scalar_amplitude": 89.04457060998175,
+          "electric_exterior_energy_j": 2.206364418789565e-08,
+          "electric_interior_energy_j": 1.8386370156579707e-08,
+          "electric_total_energy_j": 4.0450014344475355e-08,
+          "ell": 5,
+          "magnetic_exterior_energy_j": 4.41272883757913e-08
+        },
+        {
+          "boundary_scalar_amplitude": -4.634620665150372,
+          "electric_exterior_energy_j": 5.900473540353518e-11,
+          "electric_interior_energy_j": 5.0575487488744435e-11,
+          "electric_total_energy_j": 1.0958022289227961e-10,
+          "ell": 6,
+          "magnetic_exterior_energy_j": 1.1800947080707036e-10
+        },
+        {
+          "boundary_scalar_amplitude": -34.75292968683777,
+          "electric_exterior_energy_j": 3.286134714231515e-09,
+          "electric_interior_energy_j": 2.875367874952576e-09,
+          "electric_total_energy_j": 6.161502589184091e-09,
+          "ell": 7,
+          "magnetic_exterior_energy_j": 6.57226942846303e-09
+        },
+        {
+          "boundary_scalar_amplitude": -5.768262114955159,
+          "electric_exterior_energy_j": 8.986433270964132e-11,
+          "electric_interior_energy_j": 7.98794068530145e-11,
+          "electric_total_energy_j": 1.6974373956265582e-10,
+          "ell": 8,
+          "magnetic_exterior_energy_j": 1.7972866541928263e-10
+        },
+        {
+          "boundary_scalar_amplitude": -73.95448009970045,
+          "electric_exterior_energy_j": 1.468517639869735e-08,
+          "electric_interior_energy_j": 1.3216658758827615e-08,
+          "electric_total_energy_j": 2.7901835157524965e-08,
+          "ell": 9,
+          "magnetic_exterior_energy_j": 2.93703527973947e-08
+        },
+        {
+          "boundary_scalar_amplitude": -4.690058163966026,
+          "electric_exterior_energy_j": 5.878054923451526e-11,
+          "electric_interior_energy_j": 5.343686294046842e-11,
+          "electric_total_energy_j": 1.1221741217498368e-10,
+          "ell": 10,
+          "magnetic_exterior_energy_j": 1.1756109846903052e-10
+        },
+        {
+          "boundary_scalar_amplitude": -80.1741881883198,
+          "electric_exterior_energy_j": 1.710906767839285e-08,
+          "electric_interior_energy_j": 1.5683312038526777e-08,
+          "electric_total_energy_j": 3.2792379716919626e-08,
+          "ell": 11,
+          "magnetic_exterior_energy_j": 3.42181353567857e-08
+        },
+        {
+          "boundary_scalar_amplitude": -0.5196445452610854,
+          "electric_exterior_energy_j": 7.163411194273799e-13,
+          "electric_interior_energy_j": 6.612379563945045e-13,
+          "electric_total_energy_j": 1.3775790758218845e-12,
+          "ell": 12,
+          "magnetic_exterior_energy_j": 1.4326822388547599e-12
+        }
+      ],
+      "payload_reconstruction": {
+        "amplitude_squared_normalization_to_1g": 0.9921985997121926,
+        "normalized_mixed_global_field_energy_j": 1.4667459954338413,
+        "normalized_payload_acceleration_max_m_s2": 20.634531987928327,
+        "normalized_payload_acceleration_min_m_s2": 9.80665,
+        "payload_acceleration_max_before_renormalization_m_s2": 20.796775961902984,
+        "payload_acceleration_min_before_renormalization_m_s2": 9.883757145842191,
+        "payload_sigma_ratio_max": 1.016462476816979,
+        "payload_sigma_ratio_min": 1.0122220403168123,
+        "payload_sigma_relative_rms_error": 0.013825157285443304,
+        "sub100j_after_1g_normalization": true,
+        "sub10kj_after_1g_normalization": true,
+        "whole_payload_outward_before_renormalization": true
+      },
+      "primary_fit": {
+        "direct_numerical_magnetic_exterior_energy_j": 0.28841442732086237,
+        "electric_exterior_energy_j": 0.14373501039403744,
+        "electric_interior_minimum_energy_j": 0.07186753773503149,
+        "electric_total_minimum_energy_j": 0.21560254812906893,
+        "exterior_energy_relative_error": 0.00327447743013505,
+        "fit_radius_m": 2.4,
+        "lmax": 12,
+        "multipole_magnetic_exterior_energy_j": 0.2874700207880749,
+        "relative_rms_field_residual": 0.011286964873207505
+      },
+      "reconstruction": {
+        "exterior_energy_j": 0.28841442732086237,
+        "field_energy_j": 2.5253521814064364,
+        "field_energy_relative_error_vs_a12c": 0.04949715194585935,
+        "grid_spacing_m": 0.075,
+        "payload_acceleration_max_m_s2": 20.674259325760698,
+        "payload_acceleration_min_m_s2": 9.80665,
+        "payload_sigma_max": 1.226385591609027e-16
+      },
+      "surface_charge": {
+        "absolute_surface_charge_flux_proxy": 5479740.707866796,
+        "l0_mode_present": false,
+        "net_charge_zero_analytic": true,
+        "net_over_absolute": 6.674212144595515e-17,
+        "net_surface_charge_flux_proxy": 3.657295198167899e-10
+      }
+    }
+  },
+  "hook17_closed": false,
+  "low_joule_class_preserved": true,
+  "mixed_eb_topological_portal_closed": false,
+  "mixed_field_grid_energy_relative_difference": 0.04936769452368379,
+  "next": "032H17A12D1R3C_FINITE_PAYLOAD_LOADED_TOPOLOGICAL_EB_POLARIZATION_NODE_BVP",
+  "parity_cp_completed": false,
+  "physical_antigravity_model_found": false,
+  "polarization_node_corridor": {
+    "a12c_sigma_amplitude": 1.3615723178022103e-16,
+    "beta_peak_times_rotation_angle": 1521.6031465534288,
+    "finite_width_taper_still_requires_loaded_solution": true,
+    "node_geometry_can_zero_leading_interface_mix_at_one_surface": true,
+    "payload_c1_taper_thickness_m": 0.1,
+    "required_sigma_gradient_per_m": 1.0911369672198217e-16,
+    "rotation_angle_across_taper_deg": 4.591569781127255,
+    "rotation_angle_across_taper_rad": 0.080138010515746,
+    "rotation_rate_at_equal_field_P_node_rad_per_m": 0.8013801051574599,
+    "sigma_change_over_a12c_sigma_max": 0.080138010515746,
+    "sigma_change_required_across_taper": 1.0911369672198218e-17
+  },
+  "practical_device_found": false,
+  "provenance": {
+    "a12c_field_energy_j": 2.6568591420597114,
+    "a12c_payload_sigma_max": 1.3615723178022103e-16,
+    "a12c_standoff_m": 1.0,
+    "pass": true,
+    "r3a_dominant_remaining_gate": "FINITE_DENSITY_GRADIENT_INTERFACE_MIXING_PLUS_GLOBAL_EB_REALIZATION",
+    "r3a_r3b_authorized": true,
+    "r3a_structural_rescue_survives": true
+  },
+  "r3c_authorized": true,
+  "sub10kj_preserved": true,
+  "surface_charge_physicalized": false,
+  "whole_payload_outward_on_both_grids": true
+}

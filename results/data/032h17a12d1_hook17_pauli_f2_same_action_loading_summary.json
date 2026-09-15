@@ -1,0 +1,130 @@
+{
+  "a12b_exact_massless_carrier_closed": false,
+  "a12c_2p656859j_probe_limit_capacity_reference_preserved": true,
+  "a12c_2p656859j_same_action_loaded_payload_solution": false,
+  "a12c_gauge_invariant_f2_metric_mechanism_closed": false,
+  "all_electron_pauli_realizations_closed": false,
+  "branch": "032H17A12D1",
+  "certified_sub10mj_model_found": false,
+  "complete_energy_established": false,
+  "controlled_portal_window": {
+    "field_only_strict_10mj_upper_portal_scale_ev": 44046.14127845582,
+    "intervals_are_loaded_solutions": false,
+    "loaded_bvp_required_for_promotion": true,
+    "maximum_local_loading_lower_bound_at_field_upper": 0.002900675962107841,
+    "one_percent_candidate_interval_nonempty": true,
+    "order_one_candidate_interval_nonempty": true,
+    "ten_percent_candidate_interval_nonempty": true,
+    "thresholds": {
+      "ONE_PERCENT": {
+        "maximum_requested_loading": 0.01,
+        "necessary_minimum_portal_scale_ev": 32324.563680711366,
+        "necessary_not_sufficient": true,
+        "optimistic_candidate_interval_nonempty": true,
+        "unloaded_reference_field_energy_j_at_lower_bound": 2900675.9621078386,
+        "unloaded_reference_field_headroom_j": 7099324.037892161,
+        "unloaded_reference_required_source_ev_m": 21382377420.590755
+      },
+      "ORDER_ONE": {
+        "maximum_requested_loading": 1.0,
+        "necessary_minimum_portal_scale_ev": 10221.924560220372,
+        "necessary_not_sufficient": true,
+        "optimistic_candidate_interval_nonempty": true,
+        "unloaded_reference_field_energy_j_at_lower_bound": 29006.759621078385,
+        "unloaded_reference_field_headroom_j": 9970993.240378922,
+        "unloaded_reference_required_source_ev_m": 2138237742.0590758
+      },
+      "TEN_PERCENT": {
+        "maximum_requested_loading": 0.1,
+        "necessary_minimum_portal_scale_ev": 18177.437976411056,
+        "necessary_not_sufficient": true,
+        "optimistic_candidate_interval_nonempty": true,
+        "unloaded_reference_field_energy_j_at_lower_bound": 290067.5962107838,
+        "unloaded_reference_field_headroom_j": 9709932.403789217,
+        "unloaded_reference_required_source_ev_m": 6761701443.842293
+      }
+    }
+  },
+  "decision": "RED_SCOPED_A12D1_MINIMAL_ELECTRON_PAULI_SUB10MJ_CORRIDOR_HAS_NO_OVERLAP_WITH_EVEN_THE_NECESSARY_ORDER_ONE_FINITE_PAYLOAD_LOADING_BOUND__UNLOADED_A12C_KERNEL_REUSE_CLOSED_FOR_THIS_REALIZATION__A12B_AND_F2_MECHANISM_PRESERVED",
+  "field_efficiency_optimization_authorized": false,
+  "hook17_closed": false,
+  "minimal_electron_pauli_perturbative_kernel_reuse_closed": true,
+  "new_bvp_authorized_for_minimal_electron_pauli": false,
+  "next": "A12D0_RANKED_QUEUE_COMPOSITE_MAGNETIZATION_USING_LOADING_CONTROLLED_PORTAL_REQUIREMENTS",
+  "pauli_loading_overlap": {
+    "characteristic_q_ev": 9.86634902e-08,
+    "loaded_nonlinear_bvp_performed": false,
+    "maximum_local_loading_lower_bound_at_pauli_10mj_boundary": 4.30331921524114e+43,
+    "maximum_local_loading_lower_bound_at_q": 1.152138761626813e+44,
+    "minimal_electron_pauli_perturbative_kernel_reuse_closed": true,
+    "necessary_one_percent_loading_scale_ev": 32324.563680711366,
+    "necessary_order_one_loading_scale_ev": 10221.924560220372,
+    "necessary_ten_percent_loading_scale_ev": 18177.437976411056,
+    "optimistic_pauli_partial_10mj_upper_portal_scale_ev": 1.2620651681478093e-07,
+    "order_one_loading_scale_over_pauli_10mj_boundary": 80993635021.41444,
+    "pauli_partial_energy_at_one_percent_loading_scale": {
+      "field_energy_j": 2900675.9621078386,
+      "optimistic_electron_rest_floor_j": 6.559968913982092e+29,
+      "optimistic_fully_polarized_electron_count": 8.012561572738994e+42,
+      "partial_total_j": 6.559968913982092e+29,
+      "portal_scale_ev": 32324.563680711366
+    },
+    "pauli_partial_energy_at_order_one_loading_scale": {
+      "field_energy_j": 29006.759621078385,
+      "optimistic_electron_rest_floor_j": 6.559968913982093e+28,
+      "optimistic_fully_polarized_electron_count": 8.012561572738996e+41,
+      "partial_total_j": 6.559968913982093e+28,
+      "portal_scale_ev": 10221.924560220372
+    },
+    "pauli_partial_energy_at_ten_percent_loading_scale": {
+      "field_energy_j": 290067.5962107838,
+      "optimistic_electron_rest_floor_j": 2.0744443148084597e+29,
+      "optimistic_fully_polarized_electron_count": 2.5337944462196138e+42,
+      "partial_total_j": 2.0744443148084597e+29,
+      "portal_scale_ev": 18177.437976411056
+    },
+    "pauli_sub10mj_and_global_order_one_loading_overlap_exists": false,
+    "strongly_loaded_pauli_solution_closed": false
+  },
+  "payload_average_density": {
+    "average_payload_mass_density_kg_m3": 1.266514795529222,
+    "average_payload_rest_energy_density_ev4": 5458844084333186.0,
+    "average_payload_rest_energy_density_j_m3": 1.13828673142869e+17,
+    "bound_interpretation": "AVERAGE_DENSITY_GIVES_A_RIGOROUS_LOWER_BOUND_ON_MAXIMUM_LOCAL_MATTER_LOADING",
+    "nonnegative_density_implies_max_ge_average": true,
+    "one_ev4_j_m3": 20.852156864043042,
+    "payload_geometric_volume_m3": 0.7895683520871488,
+    "payload_major_radius_m": 1.0,
+    "payload_mass_kg": 1.0,
+    "payload_minor_radius_m": 0.2,
+    "weak_loading_if_bound_passes_is_sufficient": false
+  },
+  "physical_antigravity_model_found": false,
+  "practical_device_found": false,
+  "provenance": {
+    "a12c_branch": "032H17A12C",
+    "a12c_loaded_matter_backreaction_included": false,
+    "a12c_payload_sigma_max": 1.3615723178022103e-16,
+    "pass": true,
+    "same_action_loaded_kernel_reuse_established": false,
+    "source_shape_reuse_preserved": true,
+    "upstream_pauli_provenance_pass": true
+  },
+  "same_action_variation": {
+    "delta_sigma": "2*F_X^(mu_nu)*nabla_mu(deltaX_nu)/M_X^4",
+    "factor_two_independently_reconstructed": true,
+    "finite_matter_quadratic_loading_present": true,
+    "independent_nr_matter_expansion": "L_m~-rho_E-rho_E*F_X^2/(2*M_X^4)",
+    "independent_total_quadratic_lagrangian": "L_quad=-(1/4)*(1+2*rho_E/M_X^4)*F_X^2",
+    "loading_parameter": "epsilon_load=2*rho_E/M_X^4",
+    "matter_variation": "deltaS_m=int[sqrt(-g_phys)*T_phys*delta_sigma]",
+    "metric_portal_has_linear_off_state_source": false,
+    "mostly_plus_nonrelativistic_trace": "T_phys~-rho_E",
+    "off_state_quadratic_kinetic_factor": "Z_matter=1+2*rho_E/M_X^4",
+    "physical_metric": "g_phys=exp(2*sigma)*g",
+    "same_action_vector_equation": "nabla_mu[(1-2*exp(4*sigma)*T_phys/M_X^4)*F_X^(mu_nu)]=J_X^nu",
+    "sigma": "F_X^2/(2*M_X^4)"
+  },
+  "source_independent_loading_controlled_candidate_window_exists": true,
+  "strongly_loaded_pauli_rescue_closed": false
+}

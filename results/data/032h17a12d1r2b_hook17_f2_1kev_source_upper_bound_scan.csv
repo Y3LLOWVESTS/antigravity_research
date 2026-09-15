@@ -1,0 +1,5 @@
+basis_count,certificate_valid,energy_condition_number,constructive_lower_bound_m_s2_per_j,constructive_predicted_capacity_j,pointwise_upper_bound_m_s2_per_j,dual_upper_bound_m_s2_per_j,certified_capacity_lower_bound_j,a12c_2p656859j_ruled_out,sub10j_ruled_out,sub100j_ruled_out,sub1kj_ruled_out,sub10kj_ruled_out
+16,True,145818.42200155125,-4.624111568418646e-12,,5.146974509623588e-07,7.735578706319162e-12,1267733206823.8137,True,True,True,True,True
+32,True,1497417.2257703282,9.811135551750334e-15,999542810133783.6,8.794926378083836e-07,1.8881094389896743e-10,51938991445.57812,True,True,True,True,True
+52,True,224548429.43411812,-1.0189221953981121e-11,,1.0030838165178767e-06,1.4018747151476618e-10,69953826073.30247,True,True,True,True,True
+76,True,17068038679.425549,-1.4058528413650845e-10,,1.095810306038148e-06,5.651874821817593e-09,1735114507.8698447,True,True,True,True,True

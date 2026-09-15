@@ -1,0 +1,27 @@
+...F......                                                               [100%]
+=================================== FAILURES ===================================
+___________ test_grid_source_support_contains_many_independent_cells ___________
+
+    def test_grid_source_support_contains_many_independent_cells():
+        rhos, zs, _, _ = _grid(
+            0.5,
+            4.0,
+            -4.0,
+            5.0,
+        )
+    
+        indices = source_support_unknown_indices(
+            rhos,
+            zs,
+        )
+    
+>       assert len(
+            indices
+        ) > 20
+E       assert 19 > 20
+E        +  where 19 = len(array([28, 29, 35, 36, 37, 42, 43, 44, 49, 50, 51, 56, 57, 58, 63, 64, 65,\n       70, 71]))
+
+tests/agminer/test_032h17a12d1r2b1_hook17_f2_1kev_grid_complete_source_bound.py:85: AssertionError
+=========================== short test summary info ============================
+FAILED tests/agminer/test_032h17a12d1r2b1_hook17_f2_1kev_grid_complete_source_bound.py::test_grid_source_support_contains_many_independent_cells
+1 failed, 9 passed in 3.34s
