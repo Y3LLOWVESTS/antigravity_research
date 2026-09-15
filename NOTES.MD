@@ -128448,3 +128448,3331 @@ A10F2_REQUIRED_LOOP_SUPPRESSION=
 
 
 ### END NOTE - SEPTEMBER 14 2026 - 12:50 CST
+
+
+### BEGIN NOTE - SEPTEMBER 14 2026 - 20:10 CST
+
+# ANTIGRAVITY_RESEARCH — COMPREHENSIVE CARRY-OVER NOTES
+
+**Session close:** 2026-09-14
+**Primary program:** `032H17 — HOOK17 physicalization and rescue`
+**New primary mechanism asset:** `A12B protected massless carrier + A12C gauge-invariant F² physical-metric response`
+**Latest completed consolidation:** `032H17A12D0_LOW_CAPACITY_F2_MECHANISM_PRESERVING_COMPLETION_ATLAS`
+**Current full regression:** `1080 passed`
+**Strongest conservative established antigravity anchor:** `006D`
+**Lowest current normalized finite-payload field-capacity reference:** `A12C = 2.6568591420597114 J` at the declared `1000 eV` portal normalization
+**Certified complete operating energy below 10 MJ:** `NO`
+**Physical antigravity model found:** `NO`
+**Practical device:** `NO`
+**New-physics discovery claim:** `NO`
+**HOOK17 closed:** `NO`
+
+---
+
+# 0. PURPOSE AND AUTHORITY OF THESE NOTES
+
+These notes are intended to allow a fresh session to reconstruct the actual scientific, mathematical, implementation, testing, and claims state without depending on conversational memory.
+
+This session produced a substantial frontier change after the existing codebundle and older documentation were generated.
+
+Until all major documentation is reconciled later in this session, use the following authority order:
+
+```text
+1. NEWEST COMPLETED LOCAL SOURCE CODE
+2. NEWEST RESULT JSON / CSV ARTIFACTS
+3. SUCCESSFULLY REPRODUCED TERMINAL OUTPUT
+4. THESE CARRY-OVER NOTES
+5. NEW JOURNAL ENTRY ONCE WRITTEN
+6. CURRENT CODEBUNDLE
+7. RESEARCH_BUILDPLAN.md
+8. AGMINER_BUILDPLAN.MD
+9. README.md
+10. OLDER NOTES / JOURNALS / DOCUMENTATION
+```
+
+The currently attached/generated codebundle predates the final A11C–A12D0 files and therefore does not contain the complete live state.
+
+The final documentation reconciliation for this session should eventually advance:
+
+```text
+CARRY-OVER NOTES
+JOURNAL
+RESEARCH_BUILDPLAN.md
+AGMINER_BUILDPLAN.MD
+NOTES.md
+README.md
+CODEBUNDLE
+JOURNAL BUNDLE
+SESSION INTRO / PROJECT INSTRUCTIONS IF NEEDED
+```
+
+Do not begin another physics research branch until this documentation closeout is complete.
+
+---
+
+# 1. PERMANENT PROJECT OBJECTIVE
+
+The permanent device-level target remains:
+
+```text
+TRUE GRAVITATIONAL / UNIVERSAL-METRIC REPULSION
+ON FINITE NEUTRAL MATTER
+
+OUTWARD ACCELERATION >= 9.80665 m/s^2
+
+TRUE EXTERNAL STANDOFF >= 1.0 m
+
+ONE UNIVERSAL PHYSICAL METRIC
+
+FINITE PAYLOAD
+
+NO NEGATIVE MASS OR EXOTIC MATTER RELIANCE
+```
+
+The acceleration and stand-off criteria are floors rather than exact targets.
+
+Performance exceeding either floor is favorable provided all other physical-consistency gates remain satisfied.
+
+The practical energy rule remains:
+
+```text
+E_COMPLETE_CONSERVATIVE_OPERATING < 10,000,000 J
+```
+
+Strict inequality.
+
+Exactly `10 MJ` fails.
+
+A field-capacity number, source rest-energy estimate, partial lower bound, or reduced-EFT inventory does not certify the energy requirement.
+
+The complete conservative ledger must eventually include at minimum:
+
+```text
+SOURCE
+MEDIATOR / FIELD
+COMPENSATOR / SYMMETRY-BREAKING SECTOR
+SUPPORT
+CONFINEMENT
+FORMATION
+ACTIVATION
+CONTROL
+RESET
+COOLING IF REQUIRED
+REACTION
+RADIATION
+BACKREACTION
+QUANTUM / RG / UV COST
+LEAKAGE
+OFF-STATE COST
+OTHER UNAVOIDABLE OPERATING INVENTORY
+```
+
+Permanent optimization rule:
+
+> If a relevant field/capacity term is already below approximately 100 J, do not optimize it downward merely to obtain a smaller headline number.
+
+That rule is now directly relevant because A12C is at only `2.656859 J`.
+
+---
+
+# 2. PERMANENT CLAIM DISCIPLINE
+
+The following distinctions remain mandatory:
+
+```text
+LOCAL REPULSION
+!=
+TRUE STANDOFF
+
+ALGEBRAIC NUMERATOR
+!=
+ACTION
+
+ACTION
+!=
+MICROSCOPIC SOURCE
+
+SOURCE EXISTENCE
+!=
+HEALTHY MODE OVERLAP
+
+HEALTHY FREE MODE
+!=
+HEALTHY INTERACTING THEORY
+
+FIELD EXISTENCE
+!=
+STABILITY
+
+OFF-STATE LINEAR SILENCE
+!=
+QUANTUM SILENCE
+
+LOW FIELD CAPACITY
+!=
+LOW COMPLETE ENERGY
+
+REDUCED-EFT WITNESS
+!=
+PHYSICAL MODEL
+
+THEORETICAL POSSIBILITY
+!=
+DEVICE
+```
+
+Do not call the current A12 backbone a physical antigravity model.
+
+Do not say it has replaced or succeeded 006D yet.
+
+Do not describe the `2.656859 J` value as complete operating energy.
+
+Do not describe A12D0 as a discovery of new physics.
+
+A12D0 itself explicitly records:
+
+```text
+NEW_PHYSICS_DISCOVERY_CLAIM=False
+PROJECT_LEVEL_MECHANISM_RESULT=True
+COMPLETE_ENERGY_ESTABLISHED=False
+PHYSICAL_ANTIGRAVITY_MODEL_FOUND=False
+CERTIFIED_SUB10MJ_MODEL_FOUND=False
+PRACTICAL_DEVICE_FOUND=False
+```
+
+---
+
+# 3. WORKFLOW / REPOSITORY RULES
+
+Repository:
+
+```text
+/Users/mymac/Desktop/antigravity_research
+```
+
+Python:
+
+```text
+.venv/bin/python
+```
+
+Terminal delivery preference:
+
+* complete paste-ready Bash blocks directly in chat;
+* readable source code only;
+* no base64/zlib/obfuscated payloads;
+* do not use `set -e`;
+* do not use `set -u`;
+* do not put `exit` at the end;
+* explicitly preserve and print return codes;
+* only Git command allowed unless explicitly changed by user:
+
+```text
+git status --short
+```
+
+Scientific workflow:
+
+1. analytical theorem/bound first;
+2. cheap falsifier second;
+3. same-action provenance before expensive simulation;
+4. source Ward identity before payload geometry;
+5. canonical normalization before energy promotion;
+6. empirical/naturalness rejection before large PDE campaigns;
+7. finite-payload solve only after source/carrier survives;
+8. complete energy last;
+9. retain every scoped negative result.
+
+AGMINER remains:
+
+> a theorem-first action-family/candidate-specific falsification engine, not a blind optimizer.
+
+Do not resume generic million-model scanning merely because the current physicalization problem is difficult.
+
+---
+
+# 4. PERMANENT CONSERVATIVE ANCHOR — 006D
+
+`006D` remains the strongest conservative established true-stand-off project anchor.
+
+Preserve:
+
+```text
+C_006D = 23.591586299249
+```
+
+Properties:
+
+* finite source radius;
+* finite source thickness;
+* nonsingular source;
+* finite positive source energy;
+* local conservation at linearized order;
+* NEC/WEC/DEC pass;
+* outward near-field gravity;
+* positive far-field active mass;
+* finite true external stand-off.
+
+At the permanent `1 g / 1 m` scale, direct GR still carries catastrophic energy scaling of approximately the `10^29 J` class.
+
+The project has not found a pure-GR mechanism that removes the basic `1/G` cost.
+
+Therefore:
+
+```text
+006D =
+STRONGEST CONSERVATIVE ESTABLISHED ANTIGRAVITY SOURCE
+
+006D =
+NOT PRACTICAL
+```
+
+The goal of HOOK17/A12 is to **succeed 006D scientifically**, meaning obtain a result with comparable or stronger physical consistency plus radically improved complete energy.
+
+A reduced-EFT low-energy witness alone does not accomplish that.
+
+---
+
+# 5. OTHER PERMANENT HISTORICAL ANCHORS
+
+## 5.1 006B
+
+Thin DEC source:
+
+```text
+C_006B = 23.426710175391
+```
+
+Preserve as thin-source transfer/reference result.
+
+## 5.2 018
+
+Preserve:
+
+```text
+018B =
+MICROSCOPIC FIELD EXISTENCE ESTABLISHED
+
+018C =
+FATAL m=2 INSTABILITY
+```
+
+Protected-vector routes through `022A` remain closed.
+
+## 5.3 B7 / 026
+
+False-core B7 remains the strongest older microscopic pure-GR field architecture.
+
+Important limitations:
+
+* principally embedded/two-sided;
+* not a replacement for 006D;
+* `026C N=89` force convergence remains required if B7 is ever resumed.
+
+Do not divert the active A12 program back to B7 merely because physicalization becomes difficult.
+
+## 5.4 Introspective
+
+Introspective is mechanism knowledge, not a candidate field.
+
+Preserve exactly:
+
+```text
+RAW_GE1000X_SIGNAL=PRESENT
+CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO
+```
+
+Mechanism lessons:
+
+* high kernel leverage;
+* compact productive structure adjacent to payload;
+* high response per joule;
+* low cancellation;
+* high productive participation;
+* low scaffolding tax.
+
+Do not misrepresent the raw teacher as a physical continuum source.
+
+## 5.5 024–031
+
+The major 024–031 closures remain intact.
+
+No tested pure-GR branch removed catastrophic gravitational energy scaling.
+
+`031F0` closed the unprotected ultralight-scalar implementation on radiative naturalness.
+
+Do not reopen those routes without genuinely new physics or a new theorem.
+
+---
+
+# 6. STRICT ENERGY POLICY / AGMINER MEMORY
+
+The previous strict policy change from 10 GJ to `<10 MJ` remains permanent.
+
+Historical AGMINER lessons remain valid:
+
+* incomplete ledgers can reject, never promote;
+* partial lower bounds may falsify but do not certify;
+* candidate gain generated by collapse of a kinetic/principal margin is unacceptable;
+* source-floor accounting destroyed previous false sub-10-MJ survivors;
+* a low field term is useful only if source/support/UV costs remain compatible.
+
+The A12 program must obey the same ledger discipline.
+
+---
+
+# 7. PRE-A12 HOOK17 FOUNDATION
+
+The primary historical HOOK17 concept combines:
+
+```text
+V24 intrinsic Dirac hypermomentum source
++
+V26B1 nonlinear quadratic hook -> metric response
++
+V26B1 active/off-state separation
++
+V26B1R1 low canonical field capacity
+```
+
+Historical reference:
+
+```text
+~17.0676442196 J
+```
+
+This was a **field-capacity reference only** under the historical projector-penalty convention.
+
+It was never a complete-energy result and was not originally normalized to the final strict `1 g / 1 m finite-payload` benchmark.
+
+The new A12C `2.656859 J` number is scientifically more meaningful as a normalized field-capacity reference because it is tied to a finite payload and final performance floor.
+
+Permanent HOOK17 instruction:
+
+> Do not chase 17 J. Chase a physically consistent same-action theory that preserves why low capacity was possible.
+
+That instruction now generalizes:
+
+> Do not chase 2.66 J downward. Physicalize the mechanism that made 2.66 J possible.
+
+---
+
+# 8. EARLIER HOOK17 RESCUE CHAIN — PRESERVE ALL CLOSURES
+
+## A6 / A6R1
+
+Closed tested shortcuts involving:
+
+* J11;
+* minimal-vector rescue;
+* massless Stückelberg shortcut;
+* single compensator;
+* simple two-form completion.
+
+Do not repeat them.
+
+## A6R2
+
+Tested massive `1-` source support and found zero clean V24 support in that tested branch.
+
+## A7
+
+Tested direct iso-Weyl source realization.
+
+Historical clean source failed.
+
+Important later correction:
+
+A7 itself left generic Dirac source-state engineering open, which eventually became relevant in A12A.
+
+## A8
+
+No acceptable tested protected `2+` survivor.
+
+Promoted Percacci–Sezgin/projective `1+`.
+
+## A9
+
+Established exact healthy `1+` pole overlap.
+
+Historical numerator:
+
+```text
+1.44
+```
+
+## A9R2
+
+Constructed action-level projective Dirac completion.
+
+## A9R3
+
+Established:
+
+* covariant projector;
+* same-action clean linearized metric stress;
+* linearized diffeomorphism Ward consistency.
+
+P&S carrier became blocked on technical naturalness/protection, not source overlap.
+
+Do not describe P&S as having failed because of zero source coupling.
+
+---
+
+# 9. V26 FALLBACK MEMORY
+
+Preserve:
+
+```text
+V26A =
+NEAR-SINGULAR CROSS-MIXING REJECTED
+
+V26B1 =
+QUADRATIC NUMERATOR / ACTIVE-OFF-STATE STRUCTURE
+
+V26B1R1 =
+FIRST TWO-MEDIATOR OFF-STATE FORCE DOES NOT ALONE KILL LOW-CAPACITY CORRIDOR
+
+V26C =
+DIRECT MASSLESS HOOK-SHIFT + QUADRATIC METRIC
+CLOSED ON WARD CONSISTENCY
+
+V26D =
+PROTECTED cT=1 DHOST/KMM FALLBACK
+```
+
+V26D subresults:
+
+```text
+V26E0:
+healthy static-spacelike tensor propagation
+margin = 146/147
+
+V26E1A:
+exact nonsingular Class-Ia Einstein-frame map
+
+V26E1B0:
+linear completion collapses to closed pure-j0 V17/V19 class
+
+V26E1B1:
+conditional quadratic completion
+A(x)=1+(100/41)x^2
+active beta1=1/21
+off-state beta1=0
+map margin=40/41
+tensor margin=146/147
+no tree-level R5 two-scalar matter vertex
+```
+
+E1B2 later showed healthy local scalar propagation and physical `g00` response/outward sign but failed technical naturalness/UV in the tested unprotected single-scalar implementation.
+
+V26D remains fallback knowledge.
+
+It is **not the active frontier now** because A12 produced a stronger protected low-capacity route.
+
+---
+
+# 10. A10 — FIRST MACROSCOPIC HOOK17 PHYSICALIZATION
+
+A10 was the first major leap from abstract HOOK17 algebra toward a finite-payload physical witness.
+
+## 10.1 A10A — spin-engineered Dirac source
+
+Engineered rest-state pairs escaped historical source cancellations.
+
+Important pair IDs:
+
+```text
+U1_V1
+U1_V2
+U2_V1
+U2_V2
+```
+
+Historical clean pair:
+
+```text
+U1_V2
+```
+
+Later A11/A12 work showed that different pair choices activate different torsion/source channels.
+
+## 10.2 A10B
+
+Closed direct BMS rest-density trace route.
+
+Reopened the protected Marzo massive `1-` representation for engineered states.
+
+## 10.3 A10C
+
+Constructed a fixed Stückelberg/Noether source completion.
+
+## 10.4 A10D
+
+Reconstructed the healthy protected `1-` pole and nonzero source overlap.
+
+## 10.5 A10F1 normalization repair
+
+Corrected:
+
+```text
+source saturated residue = 4
+canonical pair pole coupling = 2
+```
+
+Preserve this normalization repair.
+
+## 10.6 A10E
+
+Constructed protected quadratic universal-metric scaffold with:
+
+* active-state response;
+* off-state first variation zero;
+* outward static physical `g00`;
+* field-redefinition-invariant tidal response.
+
+## 10.7 A10F0 / A10F1
+
+Physical normalization and finite transverse-source BVP.
+
+Finite payload:
+
+```text
+mass = 1 kg
+neutral = YES
+geometry = toroidal
+true external gap = 1 m
+```
+
+## 10.8 A10F2
+
+Strict whole-payload performance result:
+
+```text
+minimum payload acceleration =
+9.80665 m/s^2
+
+true external stand-off =
+1.0 m
+
+field/loading energy =
+~562,964.83 J
+~0.563 MJ
+
+field + modeled electron/positron rest-energy partial =
+~567,680.65 J
+~0.568 MJ
+
+proton/antiproton mass comparator partial =
+~9.222 MJ
+```
+
+This was the strongest properly normalized HOOK17 energy result before A12C.
+
+However:
+
+```text
+COMPLETE ENERGY = UNKNOWN
+```
+
+The ordinary-Dirac Wheeler/Marzo microscopic realization required an unexplained loop suppression of approximately:
+
+```text
+2.35e-23
+```
+
+for the meter-range ultralight vector mass.
+
+Therefore:
+
+```text
+A10F2 MACROSCOPIC REDUCED-EFT MECHANISM =
+VALUABLE
+
+A10F2 ORDINARY-DIRAC MICROSCOPIC REALIZATION =
+CLOSED / BLOCKED ON NATURALNESS
+```
+
+Do not reopen that exact implementation by retuning the mass.
+
+---
+
+# 11. A11A — EXACT CURRENT / SOURCE-PROTECTION ATLAS
+
+A11A attacked simple source-protection repairs.
+
+Three important scoped closures:
+
+## 11.1 Heavy-radial Abelian-Higgs
+
+Maximum safe Higgs coupling:
+
+```text
+g_Higgs_max ≈ 1.9359154785668237e-12
+```
+
+Energy requirement:
+
+```text
+g_required >= 4.997141348633284e-4
+```
+
+Gap:
+
+```text
+~2.58e8
+```
+
+Closed:
+
+```text
+PERTURBATIVE HEAVY-RADIAL MINIMAL ABELIAN-HIGGS REPAIR
+```
+
+Not closed:
+
+* light radial;
+* strong coupling;
+* composite Higgs;
+* full Noether completion.
+
+## 11.2 Simple dimension-5 Pauli / derivative current under old A10 requirement
+
+Historical maximum effective coupling:
+
+```text
+g_eff_max ≈ 3.861592678419398e-13
+```
+
+Historical gap:
+
+```text
+~1.29e9
+```
+
+This **old energy closeout must not automatically be transferred to A12C**, because A12C reduced the field requirement enormously.
+
+This is why Pauli/magnetization returned to the top of A12D0.
+
+## 11.3 Renormalizable ordinary stable-matter exact current
+
+For arbitrary neutral atoms, exact direct force silence requires:
+
+```text
+q_n = 0
+q_p = -q_e
+```
+
+Therefore the only one-dimensional stable ordinary e/p/n vector-current direction that is exactly silent for all neutral atomic compositions is EM-like up to overall normalization.
+
+This theorem became decisive in A12C.
+
+Minimal EM-like repair was closed under the older independent-vector phenomenology.
+
+A12C later provided the correct exactly-massless reinterpretation and independently closed the minimal EM-aligned F² realization using existing magnetic-field environments.
+
+---
+
+# 12. A11B — K2 WHEELER TORSION / WARD THEOREM
+
+A11B reconstructed Wheeler's full general-spinor torsion response.
+
+Key findings:
+
+* historical clean `U1_V2` pair torsion cancels;
+* engineered `U1_V1` and `U2_V2` reopen full Wheeler torsion;
+* K2 has a healthy massless vector with two physical polarizations;
+* K2 itself avoids the specific ultralight-mass naturalness failure of A10F2.
+
+However:
+
+* the engineered source failed generic exact K2 Ward;
+* a single special lightlike-z test could falsely appear green;
+* full exact zero-momentum rest-density theorem eliminated the source.
+
+Exact source-space result:
+
+```text
+rest-density real dimension = 16
+Wheeler source-map rank = 12
+K2 exact polynomial Ward rank = 12
+Ward nullity = 4
+Ward-nullspace source-image rank = 0
+```
+
+Therefore:
+
+```text
+NO NONZERO K2-WARD-COMPATIBLE
+WHEELER REST-DENSITY SOURCE
+```
+
+A11B decision:
+
+```text
+DIRECT K2 ZERO-MOMENTUM
+REST-DENSITY WHEELER SOURCE =
+CLOSED
+```
+
+K2 globally remained open at that point through nonrest / textured sources.
+
+That motivated A11C.
+
+---
+
+# 13. A11C — EXACT NONZERO-MOMENTUM K2 CLOSEOUT
+
+A11C completed the ordinary-Dirac K2 question at finite spacelike transfer.
+
+Breit parameter:
+
+```text
+z = tanh(eta/2)
+```
+
+Physical finite-transfer range:
+
+```text
+0 < z < 1
+```
+
+Relations:
+
+```text
+E/m = (1+z^2)/(1-z^2)
+
+Q/m = 4z/(1-z^2)
+```
+
+Complete stationary free equal-mass on-shell transition class:
+
+* 4 positive-energy spin transitions;
+* 4 negative-energy spin transitions;
+* total 8 complex transition directions;
+* positive/negative-frequency cross terms excluded as nonstationary.
+
+Full K2 source constraints:
+
+```text
+24 pair-antisymmetric source components
+20 pure-trace constraints
++1 current-conservation constraint
+=
+21 independent K2 source constraints
+```
+
+Important subtlety:
+
+The weaker necessary Ward test had nonzero survivors.
+
+Full K2 constraints eliminated all of them.
+
+Exact witness determinant:
+
+```text
+z^2
+*
+(z-1)^4
+*
+(z+1)^4
+*
+(z^2+1)^2
+/
+2592
+```
+
+Roots in physical domain:
+
+```text
+NONE
+```
+
+Therefore full constraint matrix rank is 8 for every finite nonzero transfer.
+
+Boundary behavior:
+
+```text
+z=0:
+rank 6
+nullity 2
+ZERO_MOMENTUM_TRANSFER_NO_STANDOFF_GRADIENT
+
+z=1:
+rank 4
+nullity 4
+INFINITE_RAPIDITY / INFINITE_Q_OVER_M BOUNDARY
+```
+
+Neither boundary is a usable finite-transfer loophole.
+
+Official A11C result:
+
+```text
+RED_SCOPED_A11C_DIRECT_K2_ORDINARY_DIRAC_ONSHELL_WHEELER_ROUTE_CLOSED
+```
+
+Do not rerun direct ordinary-Dirac Wheeler -> K2 with different free on-shell momenta.
+
+A11C did NOT close:
+
+* other microscopic K2 sources;
+* derivative/composite sources;
+* Noether-completed sources;
+* interacting/bound-state Dirac sources;
+* other massless torsion-vector families;
+* HOOK17.
+
+Verified full regression after A11C:
+
+```text
+1027 passed
+```
+
+---
+
+# 14. A12A — BARKER-ZELL ISO-WEYL SOURCE REOPENING
+
+A12A revisited A7 after A10/A11 supplied source states A7 did not have.
+
+This produced an important source-level reopening.
+
+Historical clean pair:
+
+```text
+U1_V2
+```
+
+gave:
+
+```text
+J_T_hat = 0
+J_Q = 0
+```
+
+Engineered pairs:
+
+```text
+U1_V1:
+J_T_hat = [0,+1,0,0]
+
+U2_V2:
+J_T_hat = [0,-1,0,0]
+```
+
+with equal and opposite nonzero axial torsion source.
+
+All tested direct Weyl `Q` traces remained zero.
+
+Barker-Zell IW mixing:
+
+```text
+J_Q_eff =
+J_Q - (b3/(2*b2)) J_T_hat
+```
+
+therefore allows finite nonzero mixing to convert the engineered axial torsion source into an effective propagating `Q` source.
+
+Thus:
+
+```text
+ENGINEERED_IW_T_HAT_SOURCE_REOPENED=True
+FINITE_IW_MIXING_REOPENS_EFFECTIVE_Q_SOURCE=True
+```
+
+This was a genuine reopening of A7.
+
+However the direct unmodified massive-Dirac Maxwell source remained invalid because:
+
+```text
+partial_mu j5^mu
+=
+2 i m psi_bar gamma5 psi
++
+quantum anomaly terms
+```
+
+so the massive-Dirac axial current is not an exact Maxwell current.
+
+Generic IW Proca also failed to protect a meter-range ultralight mass.
+
+A12A therefore concluded:
+
+```text
+SOURCE OVERLAP =
+GREEN
+
+DIRECT UNMODIFIED AXIAL MAXWELL CURRENT =
+CLOSED
+
+GENERIC ULTRALIGHT PROCA PROTECTION =
+NOT ESTABLISHED
+
+FULL IW FAMILY =
+NOT CLOSED
+```
+
+Verified full regression:
+
+```text
+1037 passed
+```
+
+---
+
+# 15. A12B — MAJOR PROTECTED SAME-ACTION CARRIER RESULT
+
+A12B found the strongest carrier/protection result in the current HOOK17 rescue.
+
+Instead of repairing the axial current, it used the broader concurrent-symmetry vector sector and rotated onto an ordinary conserved vector Noether current.
+
+Vector block:
+
+```text
+Q_mu
+T_hat_mu
+Zc_mu
+```
+
+Exact algebraic corridor:
+
+```text
+2*b3*b4 - b5*b6 = 0
+
+4*b1*b4 - b5^2 = 0
+```
+
+Define:
+
+```text
+c = b5/(2*b4)
+```
+
+Then:
+
+```text
+J_eff =
+J_N * (2*b4-b5)/(2*b4)
+
+=
+(1-c) J_N
+```
+
+and exact null direction:
+
+```text
+(delta Q, delta T_hat, delta Zc)
+proportional to
+(1, 0, -c)
+```
+
+With:
+
+```text
+beta_nm = 0
+```
+
+the source becomes proportional to the ordinary massive-Dirac vector current:
+
+```text
+J_N =
+(alpha_nm/4) psi_bar gamma^mu psi
+```
+
+which is classically conserved even for a massive Dirac field.
+
+Enhanced exact gauge transformation reconstructed:
+
+```text
+delta Q = +partial lambda
+
+delta Zc = -c partial lambda
+
+delta Zep = (1-c) partial lambda
+
+delta T_hat = 0
+```
+
+with compensating Dirac phase transformation cancelling the matter-coupling variation.
+
+The generic `c != 1` symmetry also forbids the Holst-squared term rather than merely requiring its coefficient to be tuned small.
+
+Exact rational witness:
+
+```text
+b1 = 1/4
+b2 = 1
+b3 = 0
+b4 = 1
+b5 = 1
+b6 = 0
+
+c = 1/2
+```
+
+Nondynamical Hessian:
+
+```text
+determinant = 4
+
+eigenvalues = 2, 2
+```
+
+Full vector mass Hessian:
+
+```text
+eigenvalues = 0, 2, 5/2
+```
+
+Gauge null vector:
+
+```text
+(1, 0, -1/2)
+```
+
+Effective `J_N` fraction:
+
+```text
+1/2
+```
+
+Therefore:
+
+```text
+GAIN_FROM_NEAR_SINGULAR_MIXING=False
+
+MASSLESSNESS_IS_EXACT_SYMMETRY_NULL=True
+
+ULTRALIGHT_PROCA_MASS_REQUIRED=False
+```
+
+This is a major improvement over A10F2.
+
+A12B decision:
+
+```text
+GREEN_SCOPED_A12B_CONCURRENT_IW_ENHANCED_U1_
+CLASSICAL_SAME_ACTION_MASSLESS_VECTOR_AND_
+EXACT_DIRAC_VECTOR_CURRENT_CORRIDOR
+```
+
+Open after A12B:
+
+* canonical source normalization;
+* physically allowed charge assignment;
+* full Standard Model/anomaly completion;
+* direct neutral-payload force silence;
+* empirical consistency;
+* physical metric appropriate to exact gauge symmetry;
+* finite payload for that metric;
+* complete energy.
+
+Verified full regression:
+
+```text
+1048 passed
+```
+
+---
+
+# 16. WHY A12C REQUIRED A NEW METRIC
+
+The old A10 quadratic vector-potential metric cannot simply be copied onto an exact massless gauge field because a term schematically containing:
+
+```text
+Q_mu Q_nu
+```
+
+is gauge variant under:
+
+```text
+Q_mu -> Q_mu + partial_mu lambda
+```
+
+Therefore A12B forced the project to use a gauge-invariant physical-metric portal.
+
+The simplest magnetostatic quadratic invariant is:
+
+```text
+F_X^{mu nu} F^X_{mu nu}
+```
+
+A12C used a conformal physical metric of the form:
+
+```math
+g^{phys}_{\mu\nu}
+=
+e^{2\sigma}
+g_{\mu\nu}
+```
+
+with:
+
+```math
+\sigma
+=
+\frac{F_X^{\mu\nu}F^X_{\mu\nu}}
+{2 M_X^4}
+```
+
+For static magnetic configurations:
+
+```math
+F_X^2 = 2 B_X^2
+```
+
+so:
+
+```math
+\sigma =
+\frac{B_X^2}{M_X^4}
+```
+
+Properties established at reduced-EFT level:
+
+* gauge invariant;
+* zero first variation in off state;
+* active-state nonlinear response;
+* outward sign when `B^2` decreases toward payload;
+* nonzero invariant tidal response.
+
+---
+
+# 17. A12C — THE 2.656859 J RESULT
+
+This is the major new mechanism-level result from the session.
+
+## 17.1 Geometry
+
+Canonical massless axisymmetric Maxwell-like BVP.
+
+Source radius:
+
+```text
+2.0 m
+```
+
+Compact azimuthal source morphology:
+
+```text
+J_phi =
+J0 * (rho/Rs) * (1-r^2/Rs^2)^2
+```
+
+inside source support.
+
+Source properties:
+
+```text
+compact support = YES
+axisymmetric divergence-free current = YES
+```
+
+Payload:
+
+```text
+mass = 1 kg
+neutral = YES
+geometry = torus
+
+major radius = 1.0 m
+minor radius = 0.2 m
+
+true external source-to-payload surface gap =
+1.0 m
+```
+
+## 17.2 Performance
+
+At declared reference portal scale:
+
+```text
+M_X = 1000 eV
+```
+
+production BVP:
+
+```text
+minimum local payload acceleration =
+9.80665 m/s^2
+
+maximum local payload acceleration =
+22.889174637504706 m/s^2
+
+payload COM acceleration =
+15.042170908175194 m/s^2
+
+true geometric stand-off =
+1.0 m
+```
+
+Thus the permanent performance floor is satisfied throughout the sampled finite payload.
+
+## 17.3 Field-capacity result
+
+Canonical field energy:
+
+```text
+2.6568591420597114 J
+```
+
+Canonical source work:
+
+```text
+2.6577816871671844 J
+```
+
+Relative field/source-work mismatch:
+
+```text
+0.000347231470750019
+```
+
+approximately:
+
+```text
+0.0347 %
+```
+
+Integrated canonical source:
+
+```text
+20,464,005.700253956 eV*m
+```
+
+Invariant tidal response:
+
+```text
+NONZERO
+```
+
+Loaded matter backreaction:
+
+```text
+NOT INCLUDED
+```
+
+Complete energy:
+
+```text
+NOT ESTABLISHED
+```
+
+## 17.4 Numerical convergence state
+
+A12C was deliberately a high-margin falsification/preflight BVP rather than final promotion-quality precision.
+
+Grid-energy relative difference:
+
+```text
+~0.04949715
+~4.95 %
+```
+
+Grid-source difference:
+
+```text
+~0.02526566
+~2.53 %
+```
+
+Larger-domain energy difference:
+
+```text
+~0.00523440
+~0.523 %
+```
+
+Source-work mismatch:
+
+```text
+~3.47e-4
+```
+
+Therefore:
+
+```text
+BVP_PREFLIGHT_CONVERGENCE_PASS=True
+
+PROMOTION_QUALITY_PRECISION_BVP=False
+```
+
+This distinction must remain explicit.
+
+The 2.656859-J result is robust enough to freeze as a mechanism reference, but if a microscopic completion eventually survives, a higher-quality loaded BVP and convergence campaign will still be required.
+
+---
+
+# 18. A12C VERSUS A10F2
+
+A10F2 field/loading reference:
+
+```text
+562,964.8297553215 J
+```
+
+A12C field reference:
+
+```text
+2.6568591420597114 J
+```
+
+Improvement:
+
+```text
+211,891.10888238018 x
+```
+
+This is why A12C is more important than merely obtaining a number smaller than the historical ~17 J HOOK17 capacity estimate.
+
+A12C is tied to:
+
+* final 1 g floor;
+* final 1 m true stand-off;
+* finite 1 kg neutral payload;
+* physical `g00` response through one declared universal metric;
+* converged finite BVP;
+* exact massless protected carrier inherited from A12B.
+
+Again:
+
+```text
+FIELD CAPACITY =
+EXCELLENT
+
+COMPLETE ENERGY =
+UNKNOWN
+```
+
+Do not optimize `2.656859 J` downward.
+
+---
+
+# 19. A12C ORDINARY EM-LIKE SOURCE CLOSEOUT
+
+A11A had already proven that exact direct silence on arbitrary neutral stable e/p/n matter forces the ordinary renormalizable vector current onto the EM-like direction:
+
+```text
+q_n = 0
+
+q_p = -q_e
+```
+
+A12C corrected an important interpretation:
+
+The older A11A independent massive-vector electron `g-2` constraint must not simply be reused for two exactly massless vectors coupling proportionally to the same current.
+
+Two canonical massless U(1) fields coupled to one identical current can be orthogonally rotated into:
+
+```text
+one coupled photon-like field
++
+one sterile field
+```
+
+The universal metric portal makes the field orientation physically observable.
+
+For the EM-like source case, this turns the new geometric field into an effective physical-electromagnetic `F^2` metric portal.
+
+A12C therefore used a direct ambient-field sanity comparison rather than incorrectly transferring the massive-vector formula.
+
+At the maximally favorable field-only 10-MJ portal ceiling:
+
+```text
+effective portal scale =
+44,046.14127845582 eV
+
+candidate payload magnetic field =
+~0.0805 to 0.1159 T
+
+required minimum grad(B^2) for 1g =
+0.010761469691625843 T^2/m
+```
+
+FDA nonclinical MR reference used in the gate:
+
+```text
+B = 1.7 T
+
+spatial gradient =
+4.7 T/m
+
+grad(B^2) =
+15.98 T^2/m
+
+reported deflection <
+2 degrees
+```
+
+Ratio:
+
+```text
+15.98
+/
+0.010761469691625843
+=
+1484.927287620855
+```
+
+The candidate universal metric would therefore predict approximately:
+
+```text
+1484.93 g
+```
+
+under a field-gradient environment already realized without anything remotely resembling that universal acceleration.
+
+This is a high-margin empirical sanity failure.
+
+It is not described as a dedicated gravity experiment.
+
+A12C scoped decision:
+
+```text
+ORDINARY_EM_LIKE_MINIMAL_F2_ROUTE_CLOSED=True
+```
+
+But:
+
+```text
+A12B_EXACT_MASSLESS_CARRIER_CLOSED=False
+
+ALL_FIELD_STRENGTH_METRIC_PORTALS_CLOSED=False
+
+NONORDINARY_SOURCE_COMPLETION_CLOSED=False
+
+HOOK17_CLOSED=False
+```
+
+Verified full regression:
+
+```text
+1058 passed
+```
+
+---
+
+# 20. IMPORTANT INTERPRETATION OF A12C
+
+Do NOT summarize A12C as:
+
+> the 2.66-J model failed.
+
+The correct statement is:
+
+```text
+A12B PROTECTED MASSLESS CARRIER =
+GREEN SCOPED
+
+A12C GAUGE-INVARIANT F2 LOW-CAPACITY METRIC MECHANISM =
+GREEN SCOPED
+
+A12C ORDINARY EM-LIKE MICROSCOPIC SOURCE REALIZATION =
+RED
+
+PHYSICAL MODEL =
+NOT YET
+```
+
+The source failed.
+
+The low-capacity mechanism did not.
+
+This distinction drives the entire next phase.
+
+---
+
+# 21. A12D0 — FINAL SESSION CONSOLIDATION
+
+Branch:
+
+```text
+032H17A12D0
+```
+
+Decision:
+
+```text
+GREEN_SCOPED_A12D0_LOW_CAPACITY_F2_MECHANISM_FROZEN
+```
+
+Primary accomplishments:
+
+1. froze A12C as a durable low-capacity reference;
+2. proved the declared low-order field-strength metric basis;
+3. showed the A12C conformal F² portal is unique for the pure-magnetostatic static-`g00` problem in that declared basis;
+4. constructed source-completion atlas;
+5. constructed source/portal combination atlas;
+6. preserved all permanent closures;
+7. ranked open completion families;
+8. explicitly forbade further field-efficiency optimization.
+
+Full regression:
+
+```text
+1080 passed
+```
+
+---
+
+# 22. A12D0 FROZEN LOW-CAPACITY REFERENCE
+
+Reference ID:
+
+```text
+A12C_MASSLESS_F2_1G_1M
+```
+
+Frozen values:
+
+```text
+REFERENCE_PORTAL_SCALE_EV =
+1000.0
+
+REFERENCE_FIELD_ENERGY_J =
+2.6568591420597114
+
+REFERENCE_SOURCE_WORK_J =
+2.6577816871671844
+
+REFERENCE_SOURCE_WORK_RELATIVE_ERROR =
+0.000347231470750019
+
+REFERENCE_PAYLOAD_MASS_KG =
+1.0
+
+REFERENCE_STANDOFF_M =
+1.0
+
+REFERENCE_PAYLOAD_MIN_ACCEL_M_S2 =
+9.80665
+
+REFERENCE_PAYLOAD_MAX_ACCEL_M_S2 =
+22.889174637504706
+
+REFERENCE_PAYLOAD_COM_ACCEL_M_S2 =
+15.042170908175194
+
+FIELD_ENERGY_IMPROVEMENT_VS_A10F2 =
+211891.10888238018
+
+FIELD_TERM_BELOW_100J =
+True
+
+FIELD_EFFICIENCY_OPTIMIZATION_AUTHORIZED =
+False
+```
+
+Project-level claim stored by A12D0:
+
+```text
+LOWEST_CURRENT_PROJECT_NORMALIZED_FINITE_PAYLOAD_
+FIELD_CAPACITY_REFERENCE_AT_DECLARED_PORTAL_NORMALIZATION
+```
+
+This is an appropriate internal statement.
+
+Do not silently shorten it to:
+
+```text
+2.66-J antigravity device
+```
+
+or:
+
+```text
+2.66-J complete model
+```
+
+Those claims are unsupported.
+
+---
+
+# 23. A12D0 QUADRATIC METRIC-BASIS THEOREM
+
+Declared theorem scope:
+
+```text
+4 dimensions
+
+one Abelian field strength F
+
+local
+
+algebraic
+
+symmetric rank-two physical-metric tensor structures
+
+quadratic in F
+
+no derivatives
+
+no curvature
+
+no additional fields
+```
+
+Within this scope, the parity-even basis is two-dimensional:
+
+```math
+g_{\mu\nu}
+F_{\alpha\beta}F^{\alpha\beta}
+```
+
+and:
+
+```math
+F_{\mu\alpha}
+F_\nu{}^\alpha
+```
+
+Parity-odd rank-two structure reduces to:
+
+```math
+g_{\mu\nu}
+F_{\alpha\beta}
+\widetilde F^{\alpha\beta}
+```
+
+Exact tensor identity checked:
+
+```math
+F_{\mu\alpha}
+\widetilde F_\nu{}^\alpha
+=
+\frac{1}{4}
+g_{\mu\nu}
+F_{\alpha\beta}
+\widetilde F^{\alpha\beta}
+```
+
+Dual-dual identity checked:
+
+```math
+\widetilde F_{\mu\alpha}
+\widetilde F_\nu{}^\alpha
+=
+F_{\mu\alpha}
+F_\nu{}^\alpha
+-
+\frac{1}{2}
+g_{\mu\nu}
+F_{\alpha\beta}F^{\alpha\beta}
+```
+
+Both symbolic identities passed.
+
+For pure magnetostatics:
+
+```text
+F_0i = 0
+```
+
+therefore:
+
+```text
+[F_mu_alpha F_nu^alpha]_00 = 0
+```
+
+and:
+
+```text
+F * dualF = 0
+```
+
+Thus within the declared basis:
+
+```text
+PURE_MAGNETOSTATIC_USEFUL_QUADRATIC_G00_DIMENSION =
+1
+```
+
+Unique useful leading static `g00` structure:
+
+```text
+g_mn * F_ab * F^ab
+```
+
+This is important.
+
+A12C was not merely one arbitrary selection among many equivalent local quadratic magnetostatic metric tensors.
+
+Within this narrowly declared algebraic class, it exhausted the useful pure-magnetostatic static-`g00` direction up to normalization.
+
+Do NOT overextend this theorem.
+
+It does not close:
+
+* derivative metric portals;
+* curvature portals;
+* `F^4`, `F^6`, etc.;
+* multiple field strengths;
+* compensator-dependent portals;
+* nonlocal structures;
+* electrostatic configurations;
+* mixed electric/magnetic configurations.
+
+---
+
+# 24. FIELD-SECTOR PORTAL ATLAS
+
+A12D0 generated 9 low-order field-sector/metric combinations.
+
+Total:
+
+```text
+FIELD_SECTOR_PORTAL_COUNT = 9
+```
+
+Structurally open:
+
+```text
+STRUCTURALLY_OPEN_PORTAL_COUNT = 6
+```
+
+## 24.1 Magnetostatic
+
+### Conformal F²
+
+```text
+MAGNETOSTATIC_CONFORMAL_F2
+```
+
+Status:
+
+```text
+ESTABLISHED_A12C_REFERENCE
+```
+
+This is the frozen 2.656859-J kernel.
+
+### Disformal FF
+
+```text
+MAGNETOSTATIC_DISFORMAL_FF
+```
+
+Closed for static rest-payload `g00`:
+
+```text
+g00 contribution = 0
+```
+
+### Parity odd
+
+```text
+MAGNETOSTATIC_PARITY_ODD
+```
+
+Closed in pure B because:
+
+```text
+F dualF = 0
+```
+
+## 24.2 Electrostatic
+
+Still open:
+
+```text
+ELECTROSTATIC_CONFORMAL_F2
+
+ELECTROSTATIC_DISFORMAL_FF
+```
+
+Pure-electric parity-odd term remains zero.
+
+These require new BVPs only after a source family survives cheap gates.
+
+## 24.3 Mixed E/B
+
+Still open:
+
+```text
+MIXED_EB_CONFORMAL_F2
+
+MIXED_EB_DISFORMAL_FF
+
+MIXED_EB_PARITY_ODD
+```
+
+The parity-odd branch becomes nontrivial when:
+
+```text
+E dot B != 0
+```
+
+These are not immediate next tasks because the magnetostatic reference already has an exact reusable kernel and should be physicalized first.
+
+---
+
+# 25. A12D0 SOURCE-COMPLETION ATLAS
+
+Total source families represented:
+
+```text
+SOURCE_FAMILY_COUNT = 12
+```
+
+Open or researchable:
+
+```text
+OPEN_OR_RESEARCHABLE_SOURCE_FAMILY_COUNT = 8
+```
+
+Total source/portal combinations:
+
+```text
+COMPLETION_COMBINATION_COUNT = 78
+```
+
+Still open:
+
+```text
+OPEN_COMPLETION_COMBINATION_COUNT = 35
+```
+
+The ranking score is a deterministic research-management heuristic.
+
+It is NOT a probability.
+
+Do not reinterpret:
+
+```text
+TOP_PRIORITY_SCORE_NOT_PROBABILITY = 150
+```
+
+as a 150%, 15%, or other success probability.
+
+---
+
+# 26. SOURCE FAMILIES — PERMANENT STATUS
+
+## 26.1 Ordinary EM-like vector current
+
+```text
+CLOSED
+```
+
+Reason:
+
+A12C empirical photon-alignment / magnetic-environment failure.
+
+Do not reopen the minimal route.
+
+## 26.2 Direct ordinary-Dirac Wheeler -> K2
+
+```text
+CLOSED
+```
+
+Reason:
+
+A11C continuum finite-transfer determinant theorem.
+
+Do not retune free on-shell momentum.
+
+## 26.3 Unmodified IW axial Dirac current
+
+```text
+CLOSED
+```
+
+Reason:
+
+A12A exact Maxwell Ward failure for massive Dirac axial current.
+
+Do not reopen without a new conserved source completion.
+
+## 26.4 Electron Pauli / magnetization
+
+```text
+OPEN
+TOP PRIORITY
+```
+
+Operator class:
+
+```text
+IDENTICALLY CONSERVED DERIVATIVE TENSOR CURRENT
+```
+
+Advantages:
+
+* exact conservation;
+* exact compatibility with frozen compact source shape inherited from A11A;
+* spin/derivative source selectivity rather than ordinary renormalizable charge;
+* exact A12C magnetostatic kernel can be reused;
+* old A11A energy closeout does not automatically transfer because A12C reduced the field capacity by >2e5.
+
+Required next tests:
+
+* canonical source energy;
+* UV completion;
+* radiative photon kinetic mixing;
+* stellar constraints;
+* polarized-spin laboratory constraints;
+* source support;
+* polarization cost;
+* reaction/control;
+* complete ledger.
+
+Formal next branch:
+
+```text
+032H17A12D1_PAULI_MAGNETIZATION_SOURCE_ENERGY_
+UV_RADIATIVE_MIXING_AND_EMPIRICAL_GATE
+```
+
+## 26.5 Composite atomic / nuclear magnetization
+
+```text
+OPEN
+SECOND PRIORITY
+```
+
+Potential strengths:
+
+* identically conserved effective magnetization curl;
+* source-selective spin/composite structure;
+* likely partial reuse of the A12C kernel.
+
+Required first test:
+
+```text
+CANONICAL CURRENT PER JOULE LOWER BOUND
+```
+
+Do not run new BVP first.
+
+## 26.6 Full source-selective Noether vector completion
+
+```text
+OPEN
+HIGH PRIORITY
+```
+
+Potentially strongest theory-level alternative if Pauli fails.
+
+Needs:
+
+* explicit same-action construction;
+* exact Noether identity;
+* anomaly analysis;
+* payload direct-force silence;
+* canonical source strength;
+* empirical bounds.
+
+Can support magnetostatic, electrostatic, or mixed sectors.
+
+## 26.7 Interacting / bound-state Dirac source
+
+```text
+OPEN OUTSIDE A11C SCOPE
+```
+
+A11C closed the free equal-mass on-shell class.
+
+It did not close interacting or bound-state source engineering.
+
+First test:
+
+```text
+BOUND-STATE WARD
++
+CHARGE PER JOULE
+```
+
+## 26.8 Known-particle flavor-selective vector current
+
+```text
+OPEN
+```
+
+Potential advantage:
+
+ordinary neutral payload can be largely source-silent depending on flavor assignment.
+
+Must test immediately:
+
+* anomaly cancellation;
+* particle lifetime;
+* source availability;
+* storage/confinement power;
+* induced kinetic mixing;
+* existing flavor-force bounds.
+
+Do not assume muon sources are practical.
+
+Short-lived particle rest-energy replacement power can dominate catastrophically even if instantaneous stored energy is low.
+
+## 26.9 Neutrino current
+
+```text
+OPEN BUT LOW PRIORITY
+```
+
+Potentially strong payload selectivity.
+
+Likely difficult because of source confinement and useful current density.
+
+First gate:
+
+```text
+SOURCE CONFINEMENT / POWER LOWER BOUND
+```
+
+## 26.10 Pseudotensor derivative current
+
+```text
+OPEN
+```
+
+Potentially useful in electrostatic/mixed sectors.
+
+Requires:
+
+* operator normalization;
+* CP/EDM constraints;
+* stellar bounds;
+* exact source morphology;
+* same-action provenance.
+
+## 26.11 Curvature / composite source current
+
+```text
+OPEN
+```
+
+Requires exact Ward/conservation derivation before any numerical campaign.
+
+Expect derivative/scaffolding tax.
+
+## 26.12 Unobserved hidden / exotic matter
+
+```text
+NOT AUTHORIZED
+```
+
+Current project policy forbids solving the source problem by introducing arbitrary unobserved exotic matter.
+
+Do not promote such a route merely because it makes charge assignment easy.
+
+---
+
+# 27. TOP A12D0 COMPLETIONS
+
+Top-ranked completion:
+
+```text
+SOURCE:
+ELECTRON_PAULI_MAGNETIZATION
+
+FIELD:
+MAGNETOSTATIC
+
+METRIC:
+g_mn * F^2
+
+PORTAL:
+MAGNETOSTATIC_CONFORMAL_F2
+
+EXACT A12C KERNEL REUSE:
+YES
+
+PRIORITY SCORE:
+150
+NOT A PROBABILITY
+```
+
+Second:
+
+```text
+COMPOSITE_ATOMIC_NUCLEAR_MAGNETIZATION
++
+MAGNETOSTATIC_CONFORMAL_F2
+
+score = 110
+```
+
+Third:
+
+```text
+FULL_NOETHER_SOURCE_SELECTIVE_VECTOR
++
+MAGNETOSTATIC_CONFORMAL_F2
+
+score = 105
+```
+
+Other open high-ranked Noether combinations:
+
+```text
+ELECTROSTATIC_CONFORMAL_F2
+ELECTROSTATIC_DISFORMAL_FF
+MIXED_EB_CONFORMAL_F2
+MIXED_EB_DISFORMAL_FF
+MIXED_EB_PARITY_ODD
+```
+
+Known-particle flavor-selective magnetostatic route:
+
+```text
+score = 75
+```
+
+Interacting/bound-state Dirac magnetostatic route:
+
+```text
+score = 70
+```
+
+Again:
+
+Scores are prioritization heuristics only.
+
+---
+
+# 28. IMPORTANT A12D / A12D0 FILE-NAMING NOTE
+
+The final `git status --short` shows exploratory files named:
+
+```text
+032h17a12d_hook17_pauli_f2_source_reopen_...
+```
+
+as well as the final consolidation:
+
+```text
+032h17a12d0_hook17_...
+```
+
+The dedicated A12D terminal output was not included in the final pasted session transcript used for this closeout.
+
+Therefore:
+
+* the A12D implementation/tests/artifacts are present locally;
+* the full `1080 passed` suite necessarily exercised its tests;
+* do not promote any detailed A12D numerical claim solely from filename presence;
+* inspect the A12D JSON before citing it in documentation;
+* the formal session-close authority is A12D0;
+* the formal next named gate is A12D1.
+
+If the A12D JSON contains useful preflight source-energy information, preserve it as preliminary/provenance input to A12D1 rather than treating it as a separate certified completion.
+
+---
+
+# 29. CURRENT LIVE REGRESSION STATE
+
+Important recent progression:
+
+```text
+A11A-era baseline =
+1006 passed
+
+A11C =
+1027 passed
+
+A12A =
+1037 passed
+
+A12B =
+1048 passed
+
+A12C =
+1058 passed
+
+A12D0 final session close =
+1080 passed
+```
+
+The final run:
+
+```text
+COMPILE_RC=0
+TARGET_RC=0
+SIM_RC=0
+FULL_RC=0
+FINAL_RUN_RC=0
+```
+
+A12D0 targeted tests:
+
+```text
+12 passed
+```
+
+Full suite:
+
+```text
+1080 passed in 67.46 s
+```
+
+If the next session cannot reproduce `1080 passed`, investigate repository state before interpreting any new physics.
+
+---
+
+# 30. FINAL WORKTREE STATE
+
+Final `git status --short` showed the following untracked frontier files.
+
+## A11C
+
+```text
+results/data/032h17a11c_hook17_k2_breit_rank_checks.csv
+results/data/032h17a11c_hook17_k2_onshell_dirac_bilinear_summary.json
+
+simulations/032h17a11c_hook17_k2_onshell_dirac_bilinear_gate.py
+
+src/antigravity_research/agminer/
+    hook17_k2_onshell_dirac_bilinear.py
+
+tests/agminer/
+    test_032h17a11c_hook17_k2_onshell_dirac_bilinear.py
+```
+
+## A12A
+
+```text
+results/data/032h17a12a_hook17_iw_engineered_axial_source_summary.json
+results/data/032h17a12a_hook17_iw_engineered_source_atlas.csv
+results/data/032h17a12a_hook17_protected_source_rerank.csv
+
+simulations/032h17a12a_hook17_iw_engineered_axial_source_gate.py
+
+src/antigravity_research/agminer/
+    hook17_iw_engineered_axial_source.py
+
+tests/agminer/
+    test_032h17a12a_hook17_iw_engineered_axial_source.py
+```
+
+## A12B
+
+```text
+results/data/032h17a12b_hook17_concurrent_iw_corridor_witness.csv
+results/data/032h17a12b_hook17_concurrent_iw_exact_source_summary.json
+
+simulations/032h17a12b_hook17_concurrent_iw_exact_source_gate.py
+
+src/antigravity_research/agminer/
+    hook17_concurrent_iw_exact_source.py
+
+tests/agminer/
+    test_032h17a12b_hook17_concurrent_iw_exact_source.py
+```
+
+## A12C
+
+```text
+results/data/032h17a12c_hook17_concurrent_u1_fieldstrength_metric_summary.json
+results/data/032h17a12c_hook17_f2_portal_scale_scan.csv
+
+simulations/032h17a12c_hook17_concurrent_u1_fieldstrength_metric_gate.py
+
+src/antigravity_research/agminer/
+    hook17_concurrent_u1_fieldstrength_metric.py
+
+tests/agminer/
+    test_032h17a12c_hook17_concurrent_u1_fieldstrength_metric.py
+```
+
+## Exploratory A12D Pauli source
+
+```text
+results/data/032h17a12d_hook17_pauli_f2_source_reopen_summary.json
+results/data/032h17a12d_hook17_pauli_portal_scale_scan.csv
+
+simulations/032h17a12d_hook17_pauli_f2_source_reopen_gate.py
+
+src/antigravity_research/agminer/
+    hook17_pauli_f2_source_reopen.py
+
+tests/agminer/
+    test_032h17a12d_hook17_pauli_f2_source_reopen.py
+```
+
+## A12D0 final consolidation
+
+```text
+results/data/032h17a12d0_hook17_completion_combination_atlas.csv
+results/data/032h17a12d0_hook17_low_capacity_f2_completion_atlas_summary.json
+results/data/032h17a12d0_hook17_low_capacity_reference.csv
+results/data/032h17a12d0_hook17_quadratic_metric_sector_atlas.csv
+results/data/032h17a12d0_hook17_source_completion_atlas.csv
+
+simulations/032h17a12d0_hook17_low_capacity_f2_completion_atlas.py
+
+src/antigravity_research/agminer/
+    hook17_low_capacity_f2_completion_atlas.py
+
+tests/agminer/
+    test_032h17a12d0_hook17_low_capacity_f2_completion_atlas.py
+```
+
+Do not lose or discard these files during documentation work.
+
+The next generated codebundle should include them.
+
+---
+
+# 31. WHAT HAS ACTUALLY BEEN ACCOMPLISHED
+
+The project now has three very different levels of antigravity result.
+
+## Level 1 — conservative established source
+
+```text
+006D
+```
+
+Strengths:
+
+* conservative;
+* finite;
+* positive energy;
+* energy conditions;
+* conservation;
+* true stand-off;
+* established GR mechanism.
+
+Fatal practicality problem:
+
+```text
+~1/G energy scaling
+~10^29 J at 1g / 1m
+```
+
+## Level 2 — A10 macroscopic HOOK17 reduced-EFT physicalization
+
+```text
+A10F2
+```
+
+Strengths:
+
+* finite 1 kg neutral payload;
+* 1 m true gap;
+* whole payload ≥1g;
+* field/loading ~0.563 MJ;
+* partial modeled source + field ~0.568 MJ.
+
+Fatal tested microscopic issue:
+
+```text
+ultralight source naturalness
+```
+
+## Level 3 — A12 protected low-capacity mechanism
+
+```text
+A12B + A12C + A12D0
+```
+
+Strengths:
+
+* exact massless symmetry-protected carrier;
+* same-action classical vector-current corridor;
+* no unprotected ultralight Proca mass;
+* gauge-invariant physical metric;
+* finite 1 kg neutral payload;
+* exact 1 m geometric gap;
+* whole sampled payload ≥1g;
+* invariant tidal response;
+* field energy only `2.656859 J`;
+* > 211,000× improvement relative to A10F2 field term;
+* pure-magnetostatic local quadratic metric direction exhausted in declared basis;
+* 35 open source/portal completion combinations remain.
+
+Current blocker:
+
+```text
+MICROSCOPIC SOURCE PHYSICALIZATION
++
+UV / QUANTUM / EMPIRICAL / SUPPORT / COMPLETE ENERGY
+```
+
+The ordinary EM-like source failed.
+
+That does not kill the protected carrier or low-capacity metric mechanism.
+
+---
+
+# 32. HAS A12 SUCCEEDED 006D?
+
+No.
+
+Current answer:
+
+```text
+006D =
+STILL STRONGEST CONSERVATIVE ESTABLISHED MODEL
+
+A12 =
+STRONGEST CURRENT LOW-CAPACITY MECHANISM CANDIDATE
+```
+
+For A12 to succeed 006D, at minimum it must still demonstrate:
+
+```text
+1. EXPLICIT MICROSCOPIC SOURCE
+
+2. SAME-ACTION PROVENANCE THROUGH THE ENTIRE SOURCE/CARRIER/METRIC CHAIN
+
+3. EXACT SOURCE WARD / GAUGE IDENTITIES
+
+4. CANONICAL NORMALIZATION
+
+5. HEALTHY PHYSICAL MODE WITH SOURCE OVERLAP
+
+6. FIELD-REDEFINITION-INVARIANT PHYSICAL RESPONSE
+
+7. ONE UNIVERSAL PHYSICAL METRIC
+
+8. OUTWARD SIGN
+
+9. FINITE PAYLOAD
+
+10. TRUE >=1 m STANDOFF
+
+11. >=1g ACROSS PAYLOAD
+
+12. SOURCE SUPPORT / CONFINEMENT
+
+13. CONSERVATION / REACTION
+
+14. STABILITY
+
+15. NONLINEAR BACKREACTION
+
+16. QUANTUM / RG / UV CONTROL
+
+17. TECHNICAL NATURALNESS
+
+18. EMPIRICAL CONSISTENCY
+
+19. OFF-STATE / ACTIVATION CONSISTENCY
+
+20. COMPLETE OPERATING ENERGY STRICTLY <10 MJ
+```
+
+A12 already has meaningful progress on several of these, especially carrier health/protection and reduced-EFT finite-payload metric response.
+
+It has not closed the complete list.
+
+---
+
+# 33. NEW PRIMARY STRATEGY
+
+The project should now treat the A12 backbone as the primary mechanism to physicalize.
+
+Freeze:
+
+```text
+A12B EXACT MASSLESS PROTECTED CARRIER
++
+A12C GAUGE-INVARIANT F2 METRIC
++
+A12C FINITE 1KG / 1M / WHOLE-PAYLOAD >=1G BVP
++
+A12D0 2.656859 J FIELD-CAPACITY REFERENCE
+```
+
+Do not alter this backbone casually.
+
+Do not search for a lower field-energy geometry.
+
+Do not resume broad AGMINER.
+
+Do not begin engineering.
+
+The high-value search variable is now:
+
+```text
+MICROSCOPIC SOURCE / COMPLETION
+```
+
+rather than:
+
+```text
+FIELD EFFICIENCY
+```
+
+---
+
+# 34. IMMEDIATE NEXT BRANCH
+
+Formal next branch:
+
+```text
+032H17A12D1
+PAULI MAGNETIZATION SOURCE
+ENERGY + UV + RADIATIVE MIXING + EMPIRICAL GATE
+```
+
+Why Pauli first:
+
+* exact derivative-current conservation;
+* A11A proved exact compatibility with the frozen compact source morphology;
+* it reuses the A12C BVP exactly;
+* it avoids ordinary EM-like renormalizable source charge;
+* historical A11A source-energy rejection may no longer apply after the >211,000× capacity reduction;
+* it is the highest-ranked A12D0 completion.
+
+But A12D1 must remain a falsification gate.
+
+It is not permission to assume Pauli works.
+
+---
+
+# 35. A12D1 REQUIRED QUESTIONS
+
+A12D1 should answer, preferably analytically before any new BVP:
+
+## 35.1 Source normalization
+
+Given the exact required integrated canonical source of the frozen kernel:
+
+```text
+20,464,005.700253956 eV*m
+```
+
+what microscopic Pauli/magnetization inventory is required after canonical normalization?
+
+## 35.2 Source energy floor
+
+Include at minimum:
+
+* constituent rest energy;
+* required polarization fraction;
+* number density;
+* polarization energy;
+* host/support matter if unavoidable.
+
+Reject immediately if even optimistic lower bound reaches `10 MJ`.
+
+## 35.3 UV completion
+
+The Pauli operator is higher-dimensional.
+
+Determine:
+
+* cutoff;
+* Wilson coefficient;
+* whether the required coefficient is technically natural;
+* whether an explicit known-field UV completion can generate it;
+* whether the completion introduces additional light modes.
+
+## 35.4 Radiative kinetic mixing
+
+Determine whether charged matter sourcing the massless vector inevitably regenerates ordinary photon mixing.
+
+A tiny tree-level mixing parameter cannot be accepted if loop effects regenerate an empirically fatal value.
+
+## 35.5 Empirical bounds
+
+Use the strongest appropriate constraints for a truly massless source-selective spin/derivative vector.
+
+Possible constraint classes:
+
+* stellar cooling;
+* polarized-electron experiments;
+* spin-spin long-range forces;
+* magnetometry;
+* equivalence tests;
+* atomic spectroscopy;
+* radiative processes.
+
+Do not reuse irrelevant massive-vector bounds.
+
+## 35.6 Source support
+
+Can the required spin/magnetization configuration be maintained in a finite source?
+
+Include:
+
+* reaction;
+* torque;
+* depolarization;
+* ordinary magnetic fields;
+* material support;
+* reset/activation costs.
+
+## 35.7 Decision
+
+Only if the source survives these gates should the existing A12C BVP be promoted to a loaded same-action calculation.
+
+---
+
+# 36. IF PAULI FAILS
+
+Do not return to broad search.
+
+Next sequence:
+
+```text
+1.
+COMPOSITE ATOMIC / NUCLEAR MAGNETIZATION
+
+2.
+FULL SOURCE-SELECTIVE NOETHER CURRENT
+
+3.
+INTERACTING / BOUND-STATE DIRAC
+
+4.
+KNOWN-PARTICLE FLAVOR-SELECTIVE CURRENT
+
+5.
+PSEUDOTENSOR DERIVATIVE CURRENT
+
+6.
+CURVATURE / COMPOSITE SOURCE CURRENT
+
+7.
+NEUTRINO SOURCE ONLY IF POWER BOUND IS NOT IMMEDIATELY FATAL
+```
+
+Use the A12D0 source/portal atlas.
+
+Do not reopen:
+
+```text
+ORDINARY EM-LIKE MINIMAL F2
+
+DIRECT ORDINARY-DIRAC K2
+
+UNMODIFIED AXIAL IW MAXWELL
+```
+
+without genuinely new physics.
+
+---
+
+# 37. WHEN TO EXPLORE ELECTRIC / MIXED PORTALS
+
+Do not immediately launch new electrostatic/mixed BVPs.
+
+First exhaust cheap source physicalization for the frozen magnetostatic kernel.
+
+Move to electric/mixed sectors if:
+
+```text
+MAGNETOSTATIC SOURCE FAMILIES ARE DECISIVELY CLOSED
+
+OR
+
+A SOURCE FAMILY NATURALLY GENERATES ELECTRIC / MIXED STRUCTURE
+WITH STRONGER SAME-ACTION PROVENANCE
+```
+
+Then prioritize:
+
+```text
+ELECTROSTATIC_DISFORMAL_FF
+MIXED_EB_PARITY_ODD
+```
+
+only after source Ward and energy preflight.
+
+---
+
+# 38. STOP RULES FOR NEXT SESSION
+
+## Stop rule A — no field-energy optimization
+
+```text
+IF FIELD TERM <100 J:
+DO NOT SPEND RUNS REDUCING IT
+```
+
+The current field term is `2.656859 J`.
+
+## Stop rule B — source lower bound
+
+```text
+IF OPTIMISTIC SOURCE / SUPPORT LOWER BOUND >=10 MJ:
+CLOSE THE REALIZATION
+```
+
+Do not compensate by shrinking the field term further.
+
+## Stop rule C — Ward
+
+```text
+IF SOURCE FAILS EXACT GAUGE / NOETHER IDENTITY:
+CLOSE BEFORE BVP
+```
+
+## Stop rule D — naturalness
+
+```text
+IF METER-SCALE OR LOW-SCALE RESPONSE REQUIRES
+EXTREME UNPROTECTED LOOP TUNING:
+CLOSE
+```
+
+## Stop rule E — radiative mixing
+
+```text
+IF PHOTON / ORDINARY-MATTER MIXING IS
+UNAVOIDABLY REGENERATED ABOVE EMPIRICAL LIMIT:
+CLOSE
+```
+
+## Stop rule F — empirical environment
+
+```text
+IF CANDIDATE PREDICTS LARGE UNIVERSAL ACCELERATION
+IN ALREADY-REALIZED LAB / ASTROPHYSICAL FIELDS:
+CLOSE
+```
+
+A12C is the template for this style of falsification.
+
+## Stop rule G — near-singular gain
+
+Never promote gain obtained mainly from a collapsing kinetic/principal margin.
+
+A12B explicitly avoided this:
+
+```text
+GAIN_FROM_NEAR_SINGULAR_MIXING=False
+```
+
+## Stop rule H — no exotic matter shortcut
+
+Do not solve source selectivity by postulating arbitrary unobserved hidden matter under current project policy.
+
+## Stop rule I — no engineering yet
+
+Do not design a practical device until a same-action physical model survives the complete theory stack.
+
+---
+
+# 39. CURRENT ENERGY LEDGER STATE
+
+## 39.1 006D
+
+Approximately:
+
+```text
+~3e29 J class at 1g / 1m
+```
+
+Conservative but impractical.
+
+## 39.2 A10F2
+
+```text
+field/loading:
+~0.563 MJ
+
+field + modeled e+/e- rest:
+~0.568 MJ
+
+complete:
+UNKNOWN
+```
+
+Microscopic naturalness failed.
+
+## 39.3 A12C/A12D0
+
+```text
+field:
+2.6568591420597114 J
+
+source work:
+2.6577816871671844 J
+
+complete source inventory:
+UNKNOWN
+
+support:
+UNKNOWN
+
+control:
+UNKNOWN
+
+UV:
+UNKNOWN
+
+complete energy:
+UNKNOWN
+```
+
+The 2.66-J field term leaves enormous nominal headroom under 10 MJ.
+
+The project must now determine whether source/support/UV costs consume that headroom.
+
+This is exactly why the next phase is source physicalization.
+
+---
+
+# 40. CURRENT SCIENTIFIC ASSESSMENT
+
+Strongest conservative model:
+
+```text
+006D
+```
+
+Strongest low-capacity mechanism:
+
+```text
+A12B + A12C + A12D0
+```
+
+Current central scientific question:
+
+> Can an exact, source-selective, technically natural, empirically allowed microscopic current source the protected A12B massless carrier strongly enough to retain the A12C finite-payload F² response while keeping the complete conservative operating ledger strictly below 10 MJ?
+
+That is the question the next session should answer.
+
+Do not drift away from it.
+
+---
+
+# 41. INTERNAL HEURISTICS / PROBABILITY LANGUAGE
+
+Previous internal accomplishment heuristics were approximately in the mid/high-80% range for HOOK17 construction.
+
+These are:
+
+```text
+KNOWLEDGE / ACCOMPLISHMENT HEURISTICS
+```
+
+not probabilities of nature cooperating.
+
+This session produced substantial additional progress, but no formal heuristic recalibration was encoded in the final artifacts.
+
+Therefore do not silently update the official percentage in documentation unless a dedicated recalibration is performed.
+
+Likewise, conversational subjective estimates of the chance HOOK17 might eventually replace 006D should not be written into durable scientific documentation as though they are quantitative probabilities.
+
+---
+
+# 42. DOCUMENTATION LANGUAGE TO USE
+
+Recommended conservative headline:
+
+> `032H17A12D0` freezes a new low-capacity HOOK17 mechanism reference built from the A12B exact massless protected vector corridor and the A12C gauge-invariant quadratic field-strength physical metric. At the declared 1-keV portal normalization, the reduced-EFT finite-source BVP produces at least 1 g outward acceleration across a finite 1 kg neutral toroidal payload at a true 1 m external stand-off with approximately 2.656859 J of canonical field energy. This is the project's lowest currently normalized finite-payload field-capacity reference and is approximately 2.12e5 times below the A10F2 field/loading reference. It is not complete operating energy and is not yet a physical antigravity model.
+
+Recommended source-status sentence:
+
+> The tested stable ordinary EM-like source realization is closed by a high-margin ambient magnetic-field empirical sanity test, but the protected A12B carrier and A12C F² response mechanism remain open to source-selective derivative, composite, Noether, bound-state, flavor, and other allowed completions.
+
+Recommended metric-basis sentence:
+
+> Within the explicitly declared class of local algebraic symmetric rank-two tensors quadratic in one Abelian field strength in four dimensions, the A12D0 tensor identities show that the conformal `g F²` structure is the unique leading static `g00` portal for a purely magnetostatic background; derivative, curvature, higher-power, multiple-field, electrostatic, and mixed-field portals remain open.
+
+Do not use:
+
+```text
+WE DISCOVERED ANTIGRAVITY
+
+2.66 J ANTIGRAVITY DEVICE
+
+2.66 J COMPLETE ENERGY
+
+006D HAS BEEN REPLACED
+
+PRACTICAL MODEL FOUND
+```
+
+None are currently justified.
+
+---
+
+# 43. DOCUMENTATION UPDATE PLAN FOR THE REST OF THIS SESSION
+
+The user intends to update all documentation before the next research session.
+
+Recommended sequence:
+
+```text
+1.
+THIS CARRY-OVER NOTE
+
+2.
+NEW DURABLE JOURNAL ENTRY
+covering:
+A11C
+A12A
+A12B
+A12C
+A12D0
+
+3.
+RESEARCH_BUILDPLAN.md
+replace outdated immediate frontier
+with A12 low-capacity physicalization
+
+4.
+AGMINER_BUILDPLAN.MD
+encode A12D0 atlas and A12D1 theorem-first execution
+
+5.
+NOTES.md
+append this complete carry-over note
+
+6.
+notes/chronology/
+add matching standalone chronology note
+
+7.
+README.md
+update public state conservatively
+
+8.
+INTROSPECTIVE_BUILDPLAN.md
+probably preserve mechanism knowledge;
+only update cross-reference if needed,
+do not rewrite Introspective as a field program
+
+9.
+PROJECT / SESSION INTRO
+update current frontier and new 2.656859-J reference
+
+10.
+REGENERATE CODEBUNDLE
+
+11.
+REGENERATE JOURNAL BUNDLE
+
+12.
+VERIFY git status --short
+
+13.
+NEXT SESSION:
+reconstruct from new codebundle + journal + notes
+and begin A12D1
+```
+
+---
+
+# 44. REQUIRED JOURNAL THEMES
+
+The next dedicated journal entry should preserve at minimum:
+
+1. A11C exact finite-transfer K2 determinant closeout;
+2. why necessary Ward survivors did not survive full K2 constraints;
+3. A12A reopening of A7 through engineered axial torsion source;
+4. direct massive-Dirac axial Maxwell Ward failure;
+5. A12B exact concurrent-IW massless gauge corridor;
+6. exact rational nonsingular witness;
+7. elimination of unprotected ultralight Proca mass;
+8. exact conserved vector Noether current;
+9. why exact gauge invariance invalidated the old `Q_mu Q_nu` metric;
+10. construction of gauge-invariant `F²` physical metric;
+11. A12C finite 1 kg / 1 m / ≥1 g BVP;
+12. `2.6568591420597114 J` field reference;
+13. numerical convergence/claim limitations;
+14. EM-like neutral-current theorem;
+15. exact massless-U(1) basis-rotation correction;
+16. MRI empirical closeout of ordinary EM-like source;
+17. preservation of A12B carrier despite source failure;
+18. A12D0 metric-basis theorem;
+19. uniqueness of pure-magnetostatic quadratic algebraic `g00` portal;
+20. 78 completion combinations / 35 open;
+21. Pauli/magnetization promoted to first source-completion test;
+22. explicit statement that no physical model or complete <10-MJ device exists yet.
+
+---
+
+# 45. FINAL SESSION-CLOSE STATUS BLOCK
+
+```text
+SESSION_CLOSE_DATE=
+2026-09-14
+
+PRIMARY_PROGRAM=
+032H17_HOOK17
+
+LATEST_BRANCH=
+032H17A12D0
+
+LATEST_DECISION=
+GREEN_SCOPED_LOW_CAPACITY_F2_MECHANISM_FROZEN
+
+FULL_REGRESSION=
+1080_PASSED
+
+STRICT_COMPLETE_OPERATING_ENERGY_POLICY=
+LESS_THAN_10_MJ
+
+EXACTLY_10_MJ_PASSES=
+NO
+
+STRONGEST_CONSERVATIVE_ESTABLISHED_MODEL=
+006D
+
+C_006D=
+23.591586299249
+
+006D_SUCCEEDED_BY_A12=
+NO
+
+A12B_EXACT_MASSLESS_PROTECTED_CARRIER=
+PRESERVED_GREEN_SCOPED
+
+A12B_NEAR_SINGULAR_GAIN_USED=
+NO
+
+A12C_GAUGE_INVARIANT_F2_METRIC=
+PRESERVED_GREEN_SCOPED
+
+A12C_FINITE_PAYLOAD_MASS_KG=
+1.0
+
+A12C_TRUE_EXTERNAL_STANDOFF_M=
+1.0
+
+A12C_MIN_PAYLOAD_ACCELERATION_M_S2=
+9.80665
+
+A12C_MAX_PAYLOAD_ACCELERATION_M_S2=
+22.889174637504706
+
+A12C_PAYLOAD_COM_ACCELERATION_M_S2=
+15.042170908175194
+
+A12C_REFERENCE_PORTAL_SCALE_EV=
+1000.0
+
+A12C_FIELD_ENERGY_J=
+2.6568591420597114
+
+A12C_SOURCE_WORK_J=
+2.6577816871671844
+
+A12C_SOURCE_WORK_RELATIVE_ERROR=
+0.000347231470750019
+
+A12C_FIELD_ENERGY_IMPROVEMENT_VS_A10F2=
+211891.10888238018
+
+A12C_BVP_PREFLIGHT_CONVERGENCE=
+PASS
+
+A12C_PROMOTION_QUALITY_PRECISION_BVP=
+NO
+
+A12C_LOADED_MATTER_BACKREACTION_INCLUDED=
+NO
+
+A12C_COMPLETE_ENERGY=
+UNKNOWN
+
+A12C_ORDINARY_EM_LIKE_SOURCE=
+CLOSED_EMPIRICALLY
+
+A12C_ORDINARY_EM_LIKE_MRI_SANITY_RATIO=
+1484.927287620855
+
+A12B_CARRIER_CLOSED_BY_A12C=
+NO
+
+ALL_F2_PORTALS_CLOSED=
+NO
+
+A12D0_QUADRATIC_METRIC_BASIS_EXHAUSTIVE_WITHIN_DECLARED_SCOPE=
+YES
+
+PURE_MAGNETOSTATIC_USEFUL_QUADRATIC_G00_DIMENSION=
+1
+
+PURE_MAGNETOSTATIC_UNIQUE_QUADRATIC_G00_PORTAL=
+g_mn_F2
+
+FIELD_SECTOR_PORTAL_COUNT=
+9
+
+STRUCTURALLY_OPEN_PORTAL_COUNT=
+6
+
+SOURCE_FAMILY_COUNT=
+12
+
+OPEN_OR_RESEARCHABLE_SOURCE_FAMILY_COUNT=
+8
+
+COMPLETION_COMBINATION_COUNT=
+78
+
+OPEN_COMPLETION_COMBINATION_COUNT=
+35
+
+TOP_SOURCE_COMPLETION=
+ELECTRON_PAULI_MAGNETIZATION
+
+TOP_PORTAL=
+MAGNETOSTATIC_CONFORMAL_F2
+
+TOP_EXACT_A12C_KERNEL_REUSE=
+YES
+
+TOP_PRIORITY_SCORE=
+150_NOT_A_PROBABILITY
+
+FIELD_EFFICIENCY_OPTIMIZATION_AUTHORIZED=
+NO
+
+NEW_BVP_AUTHORIZED_IMMEDIATELY=
+NO
+
+COMPLETE_ENERGY_ESTABLISHED=
+NO
+
+PHYSICAL_ANTIGRAVITY_MODEL_FOUND=
+NO
+
+CERTIFIED_SUB10MJ_MODEL_FOUND=
+NO
+
+PRACTICAL_DEVICE_FOUND=
+NO
+
+NEW_PHYSICS_DISCOVERY_CLAIM=
+NO
+
+PROJECT_LEVEL_MECHANISM_RESULT=
+YES
+
+HOOK17_CLOSED=
+NO
+
+NEXT=
+032H17A12D1_PAULI_MAGNETIZATION_SOURCE_ENERGY_UV_RADIATIVE_MIXING_AND_EMPIRICAL_GATE
+```
+
+---
+
+# 46. FINAL INSTRUCTION TO THE NEXT RESEARCH SESSION
+
+Do not begin by asking whether the A12 field mechanism can be made still more energy efficient.
+
+That question is no longer high value.
+
+Begin with:
+
+> **Can an allowed microscopic source physicalize the exact A12B protected massless carrier strongly enough to preserve the A12C 2.656859-J finite-payload F² response while surviving Ward identities, canonical normalization, UV/naturalness, radiative mixing, empirical bounds, source support, reaction, backreaction, and a complete conservative energy ledger strictly below 10 MJ?**
+
+The first candidate is:
+
+```text
+ELECTRON PAULI / MAGNETIZATION CURRENT
+```
+
+because it has:
+
+* identically conserved derivative-current structure;
+* exact source-shape compatibility with the frozen A12C kernel;
+* no need to reuse the empirically closed ordinary EM-like renormalizable charge;
+* the highest A12D0 mechanism-preserving priority.
+
+If Pauli fails:
+
+```text
+COMPOSITE MAGNETIZATION
+->
+FULL SOURCE-SELECTIVE NOETHER CURRENT
+->
+INTERACTING / BOUND-STATE DIRAC
+->
+KNOWN-PARTICLE FLAVOR CURRENT
+->
+OTHER DERIVATIVE / COMPOSITE SOURCES
+```
+
+Do not return to broad scanning unless the ranked A12D0 source-completion space is substantially exhausted.
+
+Do not reopen known closed routes.
+
+Do not chase a number lower than 2.656859 J.
+
+The central task is now:
+
+```text
+PRESERVE THE LOW-CAPACITY A12 MECHANISM
+AND MAKE ITS MICROSCOPIC SOURCE PHYSICALLY REAL.
+```
+
+Only after that succeeds should the project return to:
+
+```text
+HIGH-PRECISION LOADED BVP
+NONLINEAR BACKREACTION
+FULL STABILITY
+COMPLETE OPERATING ENERGY
+AND 006D SUCCESSION
+```
+
+---
+
+# 47. FINAL SCIENTIFIC PERSPECTIVE
+
+The session began with HOOK17 still searching for a protected microscopic realization of a low-capacity quadratic metric response.
+
+It ends with a substantially stronger state:
+
+```text
+A HEALTHY EXACT MASSLESS CARRIER EXISTS IN A SCOPED SAME-ACTION CORRIDOR.
+
+ITS MASSLESSNESS IS SYMMETRY PROTECTED.
+
+ITS SOURCE CAN BE AN EXACT MASSIVE-DIRAC VECTOR NOETHER CURRENT CLASSICALLY.
+
+A GAUGE-INVARIANT PHYSICAL-METRIC PORTAL EXISTS.
+
+THAT PORTAL PRODUCES TRUE FINITE-PAYLOAD
+1G / 1M OUTWARD RESPONSE
+AT A 2.656859-J FIELD-CAPACITY REFERENCE.
+
+THE PURE-MAGNETOSTATIC LOCAL QUADRATIC
+ONE-F METRIC DIRECTION HAS BEEN EXHAUSTED
+AND THAT F2 PORTAL IS UNIQUE IN THE DECLARED SCOPE.
+
+THE FIRST ORDINARY EM-LIKE MICROSCOPIC SOURCE
+HAS BEEN FALSIFIED EMPIRICALLY.
+
+THE CARRIER AND FIELD MECHANISM SURVIVE.
+
+35 SOURCE/PORTAL COMPLETIONS REMAIN OPEN.
+
+THE NEXT PROBLEM IS MICROSCOPIC SOURCE PHYSICALIZATION,
+NOT FIELD EFFICIENCY.
+```
+
+This is a meaningful project-level mechanism result.
+
+It is not yet a physical antigravity model.
+
+The path to succeeding 006D is now unusually clear:
+
+```text
+SOURCE PHYSICALIZATION
+        ->
+UV / QUANTUM / EMPIRICAL SURVIVAL
+        ->
+SUPPORT / REACTION / COMPLETE ENERGY
+        ->
+LOADED HIGH-PRECISION FINITE-PAYLOAD BVP
+        ->
+NONLINEAR / STABILITY CERTIFICATION
+        ->
+IF ALL GREEN:
+A12 CAN SUCCEED 006D
+```
+
+Until those arrows are completed:
+
+```text
+006D REMAINS THE CONSERVATIVE ANCHOR.
+
+A12B/A12C/A12D0 REMAINS THE PRIMARY LOW-CAPACITY SUCCESSOR PROGRAM.
+```
+
+### END NOTE - SEPTEMBER 14 2026 - 20:10 CST

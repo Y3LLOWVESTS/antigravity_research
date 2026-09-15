@@ -1,0 +1,118 @@
+{
+  "a12b_exact_massless_carrier_closed": false,
+  "a12c_gauge_invariant_f2_metric_mechanism_closed": false,
+  "all_derivative_composite_currents_closed": false,
+  "branch": "032H17A12D",
+  "certified_sub10mj_model_found": false,
+  "complete_energy_optimization_authorized": false,
+  "controlled_local_f2_eft_completion_promoted": false,
+  "decision": "YELLOW_SCOPED_A12D_ELECTRON_PAULI_MAGNETIZATION_SOURCE_REOPENS_A12B_F2_SUB10MJ_PARTIAL_ONLY_IN_A_NARROW_PORTAL_SCALE_EDGE_CORRIDOR__NO_PARAMETRIC_Q_OVER_M_SEPARATION__PROMOTE_UV_RADIATIVE_MIXING_AND_SPIN_EMPIRICAL_GATE",
+  "explicit_low_scale_uv_completion_closed": false,
+  "hook17_closed": false,
+  "metric_bvp_rerun_authorized": false,
+  "minimal_electron_pauli_source_partial_corridor_reopened": true,
+  "next": "032H17A12E_PAULI_UV_RADIATIVE_KINETIC_MIXING_SPIN_SOURCE_EMPIRICAL_AND_SUPPORT_GATE",
+  "ordinary_em_like_route_remains_closed": true,
+  "pauli_geometry": {
+    "derivative_current_identically_conserved": true,
+    "magnetization_profile": "M_z=(R/6)*(1-r^2/R^2)^3",
+    "q_from_a11a_ev": 9.86634902e-08,
+    "q_from_source_radius_ev": 9.86634902e-08,
+    "q_identity_pass": true,
+    "source_radius_m": 2.0,
+    "source_shape_identity_pass": true,
+    "target_source_shape": "rho*(-R**2 + rho**2 + z**2)**2/R**5"
+  },
+  "physical_antigravity_model_found": false,
+  "provenance": {
+    "a11a_explicit_lower_scale_uv_completion_was_not_closed": true,
+    "a11a_simple_pauli_was_closed_under_old_energy_requirement": true,
+    "a12b_carrier_preserved": true,
+    "a12c_branch": "032H17A12C",
+    "a12c_reduced_f2_1g_1m": true,
+    "pass": true
+  },
+  "reference_source_floor": {
+    "complete_energy_established": false,
+    "fully_useful_spin_tensor_per_electron_assumed": true,
+    "host_ion_rest_energy_included": false,
+    "maximum_effective_pauli_coupling": 1.3523781363504773e-26,
+    "optimistic_electron_rest_floor_j": 6.27821867553161e+26,
+    "optimistic_fully_polarized_electron_count": 7.66842257401499e+39,
+    "ordinary_magnetic_energy_included": false,
+    "polarization_energy_included": false,
+    "reference_field_energy_j": 2.6568591420597114,
+    "reference_integrated_canonical_source_ev_m": 20464005.700253956,
+    "reference_portal_scale_ev": 1000.0,
+    "support_control_reset_included": false
+  },
+  "source_selectivity_and_empirical_scope": {
+    "a12c_em_like_photon_alignment_applies": false,
+    "a12c_mri_photon_field_kill_directly_reused": false,
+    "exact_payload_direct_force_silence_established": false,
+    "full_standard_model_uv_completion_established": false,
+    "leading_direct_force_on_unpolarized_payload_expected_spin_averaged": true,
+    "massless_vector_stellar_electron_dipole_bound_applied": true,
+    "radiative_kinetic_mixing_certified_zero": false,
+    "source_is_derivative_current": true,
+    "source_is_identically_conserved": true,
+    "source_is_renormalizable_vector_charge": false,
+    "source_is_spin_dependent": true,
+    "source_operator": "F_X_mn*bar(e)*sigma^mn*e/M_eff",
+    "spin_source_laboratory_empirical_consistency_established": false
+  },
+  "stellar_electron_dipole_bound": {
+    "astrophysical_bound_has_order_of_magnitude_systematics": true,
+    "characteristic_device_q_ev": 9.86634902e-08,
+    "external_bound": "Lambda^2/(sqrt(alpha_D)*d_M_e)>=4.5e6_TeV^2",
+    "external_bound_equation": "EQ_2_9",
+    "external_reference": "FABBRICHESI_GABRIELLI_LANFRANCHI_DARK_PHOTON_ARXIV_2005_01515",
+    "higgs_vev_ev": 174000000000.0,
+    "low_energy_project_operator": "(1/M_eff)*F_X_mn*bar(e)*sigma^mn*e",
+    "maximum_effective_constituent_coupling": 1.3523781363504773e-26,
+    "minimum_effective_pauli_scale_ev": 1.4591109919338527e+19,
+    "stellar_bound_saturated_for_optimistic_source": true,
+    "stellar_bound_tev2": 4500000.0
+  },
+  "stop_rule": "DO_NOT_RERUN_THE_A12C_BVP_OR_OPTIMIZE_ITS_ALREADY_SUB100J_FIELD_TERM;_IF_A12D_REOPENS_ONLY_AN_EFT_EDGE_CORRIDOR_TEST_UV_COMPLETION_RADIATIVE_MIXING_SPIN_EMPIRICAL_CONSTRAINTS_AND_SOURCE_SUPPORT_BEFORE_ANY_FURTHER_PAYLOAD_OR_COMPLETE_ENERGY_WORK",
+  "strict_partial_energy_boundary": {
+    "exactly_10mj_passes": false,
+    "minimum_q_over_portal_scale_inside_sub10mj_corridor": 0.7817622472284634,
+    "narrow_eft_edge_overlap_only": true,
+    "parametric_q_over_M_small": false,
+    "partial_at_10q": {
+      "field_energy_j": 2.5176446264268572e-36,
+      "optimistic_electron_rest_floor_j": 611152211.1916972,
+      "optimistic_fully_polarized_electron_count": 7.464813914059391e+21,
+      "partial_total_j": 611152211.1916972,
+      "portal_scale_ev": 9.86634902e-07
+    },
+    "partial_at_2q": {
+      "field_energy_j": 4.028231402282971e-39,
+      "optimistic_electron_rest_floor_j": 24446088.44766789,
+      "optimistic_fully_polarized_electron_count": 2.9859255656237564e+20,
+      "partial_total_j": 24446088.44766789,
+      "portal_scale_ev": 1.973269804e-07
+    },
+    "partial_at_exact_boundary": {
+      "field_energy_j": 6.740554946131965e-40,
+      "optimistic_electron_rest_floor_j": 10000000.0,
+      "optimistic_fully_polarized_electron_count": 1.2214328570461372e+20,
+      "partial_total_j": 10000000.0,
+      "portal_scale_ev": 1.2620651681478093e-07
+    },
+    "partial_at_q": {
+      "field_energy_j": 2.517644626426857e-40,
+      "optimistic_electron_rest_floor_j": 6111522.111916972,
+      "optimistic_fully_polarized_electron_count": 7.464813914059391e+19,
+      "partial_total_j": 6111522.111916972,
+      "portal_scale_ev": 9.86634902e-08
+    },
+    "partial_overlap_exists_at_portal_scale_equal_q": true,
+    "portal_boundary_over_characteristic_q": 1.2791612840671729,
+    "strict_sub10mj_requires_portal_scale_ev_less_than": 1.2620651681478093e-07,
+    "strict_target_j": 10000000.0,
+    "ten_q_scale_margin_sub10mj": false,
+    "two_q_scale_margin_sub10mj": false
+  }
+}

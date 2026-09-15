@@ -1,0 +1,2 @@
+b1,b2,b3,b4,b5,b6,c,nondynamical_hessian_determinant,nondynamical_hessian_eigenvalues,full_vector_mass_hessian_eigenvalues,gauge_null_vector,gauge_null_residual,effective_j_n_fraction,distance_from_projective_source_cancellation_c1,nondynamical_sector_nonsingular,positive_nondynamical_margins,one_exact_gauge_null_and_other_mass_eigenvalues_positive,gain_from_near_singular_mixing,masslessness_is_exact_symmetry_null_not_small_eigenvalue
+1/4,1,0,1,1,0,1/2,4,2|2,0|2|5/2,1|0|-1/2,0|0|0,1/2,1/2,True,True,True,False,True

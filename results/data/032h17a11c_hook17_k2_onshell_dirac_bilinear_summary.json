@@ -1,0 +1,116 @@
+{
+  "a11b_provenance": true,
+  "all_massless_torsion_vector_families_closed": false,
+  "branch": "032H17A11C",
+  "certified_sub10mj_model_found": false,
+  "decision": "RED_SCOPED_A11C_DIRECT_K2_ORDINARY_DIRAC_ONSHELL_WHEELER_ROUTE_CLOSED__PROMOTE_GENUINELY_NEW_PROTECTED_SOURCE_FAMILY",
+  "derivative_or_composite_source_completions_closed": false,
+  "direct_k2_ordinary_dirac_onshell_wheeler_route_closed": true,
+  "energy_optimization_authorized": false,
+  "exact_breit_k2_theorem": {
+    "antiparticle_only_necessary_ward_determinant": "z*(z - 1)*(z + 1)*(3*z**2 + 1)/4",
+    "breit_parameter": "z=tanh(eta/2)",
+    "closure_scope": "COMPLETE_STATIONARY_FREE_EQUAL_MASS_ONSHELL_BLOCK_DIAGONAL_PARTICLE_PLUS_ANTIPARTICLE_DIRAC_BILINEAR_CLASS_WITH_UNMODIFIED_WHEELER_TORSION_SOURCE",
+    "combined_necessary_ward_nullity": 4,
+    "combined_necessary_ward_rank": 4,
+    "combined_necessary_ward_source_image_rank": 4,
+    "energy_over_mass": "(1+z^2)/(1-z^2)",
+    "finite_nonzero_spacelike_transfer_domain": "0<z<1",
+    "full_k2_constraint_row_count": 65,
+    "full_k2_independent_constraint_count": 21,
+    "full_k2_rank_is_eight_for_every_finite_nonzero_transfer": true,
+    "full_k2_source_subspace_enforced": true,
+    "full_k2_witness_determinant": "z**2*(z - 1)**4*(z + 1)**4*(z**2 + 1)**2/2592",
+    "full_k2_witness_identity_pass": true,
+    "full_k2_witness_real_roots_inside_0_1": [],
+    "full_k2_witness_rows": [
+      1,
+      2,
+      3,
+      6,
+      17,
+      27,
+      35,
+      39
+    ],
+    "k2_constraint_count_validation": {
+      "current_conservation_additional_rank": 1,
+      "exact_linear_algebra": true,
+      "full_k2_independent_constraint_rank": 21,
+      "k2_admissible_source_dimension_at_nonzero_breit_q": 3,
+      "pair_antisymmetric_source_dimension": 24,
+      "published_constraint_count_match": true,
+      "published_k2_total_source_constraint_count": 21,
+      "pure_trace_constraint_rank": 20,
+      "trace_vector_subspace_dimension": 4
+    },
+    "lorentz_covariant_breit_reduction": true,
+    "necessary_ward_nonzero_survivors_exist": true,
+    "nonzero_full_k2_admissible_onshell_dirac_source_exists": false,
+    "operator_reconstruction": {
+      "maximum_operator_reconstruction_error": 0.0,
+      "operator_reconstruction_pass": true,
+      "transition_matrix_element_extension": true
+    },
+    "particle_only_necessary_ward_determinant": "-z**3*(z - 1)*(z + 1)*(z**2 + 3)/4",
+    "positive_negative_frequency_cross_terms_stationary": false,
+    "sample_rank_checks": [
+      {
+        "full_k2_constraint_rank": 8,
+        "full_k2_nullity": 0,
+        "q_over_m": "40/99",
+        "witness_minor": "12097580121/3200000000000000",
+        "z": "1/10"
+      },
+      {
+        "full_k2_constraint_rank": 8,
+        "full_k2_nullity": 0,
+        "q_over_m": "16/15",
+        "witness_minor": "180625/8589934592",
+        "z": "1/4"
+      },
+      {
+        "full_k2_constraint_rank": 8,
+        "full_k2_nullity": 0,
+        "q_over_m": "8/3",
+        "witness_minor": "25/524288",
+        "z": "1/2"
+      },
+      {
+        "full_k2_constraint_rank": 8,
+        "full_k2_nullity": 0,
+        "q_over_m": "48/7",
+        "witness_minor": "1500625/77309411328",
+        "z": "3/4"
+      },
+      {
+        "full_k2_constraint_rank": 8,
+        "full_k2_nullity": 0,
+        "q_over_m": "360/19",
+        "witness_minor": "4269446281/3200000000000000",
+        "z": "9/10"
+      }
+    ],
+    "symbolic_exact_arithmetic": true,
+    "transfer_over_mass": "4*z/(1-z^2)",
+    "transition_complex_dimension": 8,
+    "z0_full_constraint_nullity": 2,
+    "z0_full_constraint_rank": 6,
+    "z0_interpretation": "ZERO_MOMENTUM_TRANSFER_NO_STANDOFF_GRADIENT",
+    "z1_full_constraint_nullity": 4,
+    "z1_full_constraint_rank": 4,
+    "z1_interpretation": "INFINITE_RAPIDITY_INFINITE_Q_OVER_M_BOUNDARY"
+  },
+  "healthy_pole_evaluation_authorized": false,
+  "hook17_closed": false,
+  "important_final_fact_full_k2_constraints_remove_all_finite_nonzero_survivors": true,
+  "important_intermediate_fact_a11b_necessary_ward_can_be_cancelled_nonrest": true,
+  "interacting_bound_state_dirac_sources_closed": false,
+  "k2_with_other_microscopic_sources_closed": false,
+  "metric_gate_authorized": false,
+  "next": "032H17A12_PROTECTED_SOURCE_FAMILY_RERANK_AFTER_DIRECT_K2_ORDINARY_DIRAC_CLOSEOUT",
+  "noether_compensated_source_completions_closed": false,
+  "payload_gate_authorized": false,
+  "physical_antigravity_model_found": false,
+  "stop_rule": "DO_NOT_RUN_K2_METRIC_PAYLOAD_GEOMETRY_OR_ENERGY_FOR_THE_CLOSED_DIRECT_ORDINARY_DIRAC_WHEELER_SOURCE;_ONLY_REOPEN_K2_WITH_A_GENUINELY_NEW_MICROSCOPIC_SOURCE_OR_NOETHER_COMPLETION"
+}

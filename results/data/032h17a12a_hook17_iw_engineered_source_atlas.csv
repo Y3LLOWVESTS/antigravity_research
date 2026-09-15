@@ -1,0 +1,5 @@
+pair_id,historical_clean_pair,full_torsion_norm,j_t_hat_axial,j_t_hat_norm,j_t_hat_nonzero,j_q_weyl_trace,j_q_norm,j_q_zero,finite_nonzero_b3_over_2b2_induces_q_source,source_norm_is_physical_energy
+U1_V1,False,1.0,"[0.0, 1.0, 0.0, 0.0]",1.0,True,"[0.0, 0.0, 0.0, 0.0]",0.0,True,True,False
+U1_V2,True,0.0,"[0.0, 0.0, 0.0, 0.0]",0.0,False,"[0.0, 0.0, 0.0, 0.0]",0.0,True,False,False
+U2_V1,False,1.4142135623730951,"[0.0, 0.0, 0.0, 0.0]",0.0,False,"[0.0, 0.0, 0.0, 0.0]",0.0,True,False,False
+U2_V2,False,1.0,"[0.0, -1.0, 0.0, 0.0]",1.0,True,"[0.0, 0.0, 0.0, 0.0]",0.0,True,True,False

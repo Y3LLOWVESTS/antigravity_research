@@ -1,0 +1,110 @@
+{
+  "a12a_provenance": {
+    "a12a_next": "032H17A12B_FULL_SAME_ACTION_IW_EXACT_SOURCE_PROTECTION_GATE",
+    "decision": "YELLOW_A12A_ENGINEERED_DIRAC_REOPENS_BARKER_ZELL_IW_AXIAL_SOURCE__DIRECT_UNMODIFIED_MAXWELL_BRANCH_CLOSED_ON_AXIAL_CURRENT_WARD__METER_RANGE_PROCA_NOT_PROTECTED_BY_IW_ALONE__PROMOTE_ONLY_NEW_SAME_ACTION_SOURCE_PROTECTION",
+    "pass": true
+  },
+  "branch": "032H17A12B",
+  "canonical_source_empirical_gate_authorized": true,
+  "canonical_source_normalization_established": false,
+  "certified_sub10mj_model_found": false,
+  "classical_protected_same_action_massless_source_corridor_exists": true,
+  "complete_energy_optimization_authorized": false,
+  "decision": "GREEN_SCOPED_A12B_CONCURRENT_IW_ENHANCED_U1_CLASSICAL_SAME_ACTION_MASSLESS_VECTOR_AND_EXACT_DIRAC_VECTOR_CURRENT_CORRIDOR__CANONICAL_SOURCE_QUANTUM_SM_PAYLOAD_SILENCE_AND_EMPIRICAL_GATES_OPEN",
+  "empirical_consistency_established": false,
+  "enhanced_u1_symmetry": {
+    "beta_nm": 0,
+    "classical_same_action_gauge_completion_in_declared_subfamily": true,
+    "concurrent_b_choice": "B_mu=0",
+    "delta_q_coefficient": "1",
+    "delta_t_hat_coefficient": "0",
+    "delta_zc_coefficient": "-c",
+    "delta_zep_coefficient": "1 - c",
+    "enhanced_u1_forbids_holst_square_for_generic_c_not_1": true,
+    "fermion_mass_term_phase_invariant": true,
+    "full_standard_model_quantum_anomaly_completion_certified": false,
+    "holst_shift_coefficient": "-(c - 1)/3",
+    "holst_square_allowed_by_generic_c_not_1_enhanced_u1": false,
+    "homothetic_maxwell_term_gradient_invariant": true,
+    "iso_weyl_gradient_choice": "C_mu=(c-1)*partial_mu(lambda)",
+    "isolated_vectorlike_dirac_current_has_axial_mass_divergence_problem": false,
+    "j_n_current": "(alpha_nm/4)*psi_bar*gamma^mu*psi",
+    "massive_dirac_vector_current_classically_conserved": true,
+    "matter_variation_cancels_exactly": true,
+    "projective_gradient_choice": "A_mu=(1/8)*partial_mu(lambda)",
+    "required_dirac_phase_charge": "alpha_nm*(c - 1)/4"
+  },
+  "exact_concurrent_reduction": {
+    "axial_decoupling_condition": "2*b3*b4-b5*b6 = 0",
+    "corridor_c": "b5/(2*b4)",
+    "corridor_effective_source": "J_N*(2*b4 - b5)/(2*b4)",
+    "corridor_mass_coefficient": "0",
+    "corridor_w_t_hat": "0",
+    "corridor_w_zc": "b5/(2*b4)",
+    "exact_symbolic_arithmetic": true,
+    "general_effective_source": "(-2*J_M*b3*b4 + J_M*b5*b6 + 4*J_N*b2*b4 - 2*J_N*b2*b5 + J_N*b3*b6 - J_N*b6**2)/(4*b2*b4 - b6**2)",
+    "general_elimination_w_t_hat": "(2*b3*b4 - b5*b6)/(4*b2*b4 - b6**2)",
+    "general_elimination_w_zc": "(2*b2*b5 - b3*b6)/(4*b2*b4 - b6**2)",
+    "generic_c_not_1_source_can_be_nonzero": true,
+    "massless_condition_after_axial_decoupling": "4*b1*b4-b5**2 = 0",
+    "massless_null_vector": [
+      "1",
+      "0",
+      "-b5/(2*b4)"
+    ],
+    "nondynamical_hessian_determinant": "4*b2*b4 - b6**2",
+    "nondynamical_nonsingularity_condition": "4*b2*b4-b6**2 != 0",
+    "null_vector_identity_pass": true,
+    "projective_aligned_c1_source_cancels": true
+  },
+  "exact_massive_dirac_vector_noether_current_available_classically": true,
+  "full_standard_model_anomaly_free_embedding_established": false,
+  "hook17_closed": false,
+  "masslessness_protected_by_declared_exact_gauge_symmetry_classically": true,
+  "metric_gate_authorized": false,
+  "near_singular_gain_used": false,
+  "neutral_payload_direct_force_silence_established": false,
+  "next": "032H17A12C_CONCURRENT_U1_CANONICAL_SOURCE_CHARGE_ANOMALY_PAYLOAD_SILENCE_EMPIRICAL_GATE",
+  "payload_gate_authorized": false,
+  "physical_antigravity_model_found": false,
+  "rational_nonsingular_witness": {
+    "b1": "1/4",
+    "b2": "1",
+    "b3": "0",
+    "b4": "1",
+    "b5": "1",
+    "b6": "0",
+    "c": "1/2",
+    "distance_from_projective_source_cancellation_c1": "1/2",
+    "effective_j_n_fraction": "1/2",
+    "full_vector_mass_hessian_eigenvalues": [
+      "0",
+      "2",
+      "5/2"
+    ],
+    "gain_from_near_singular_mixing": false,
+    "gauge_null_residual": [
+      "0",
+      "0",
+      "0"
+    ],
+    "gauge_null_vector": [
+      "1",
+      "0",
+      "-1/2"
+    ],
+    "masslessness_is_exact_symmetry_null_not_small_eigenvalue": true,
+    "nondynamical_hessian_determinant": "4",
+    "nondynamical_hessian_eigenvalues": [
+      "2",
+      "2"
+    ],
+    "nondynamical_sector_nonsingular": true,
+    "one_exact_gauge_null_and_other_mass_eigenvalues_positive": true,
+    "positive_nondynamical_margins": true
+  },
+  "source_energy_per_required_charge_established": false,
+  "stop_rule": "DO_NOT_BUILD_METRIC_PAYLOAD_OR_COMPLETE_ENERGY_LEDGER_UNTIL_A12C_ESTABLISHES_CANONICAL_SOURCE_STRENGTH_A_PHYSICALLY_ALLOWED_SOURCE_CHARGE_ASSIGNMENT_AND_NO_IMMEDIATE_QUANTUM_OR_EMPIRICAL_KILL",
+  "ultralight_proca_mass_required": false,
+  "universal_metric_response_established_for_this_carrier": false
+}
