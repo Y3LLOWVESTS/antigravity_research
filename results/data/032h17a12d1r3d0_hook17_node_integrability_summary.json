@@ -1,0 +1,339 @@
+{
+  "006d_replaced": false,
+  "atlas": [
+    {
+      "baseline_driver_norm": 126593.16188534547,
+      "best": {
+        "b_id": "m0mm2",
+        "driver_norm": 71341.2379246718,
+        "driver_ratio_vs_r3b": 0.563547326428935,
+        "e_id": "m2",
+        "electric_amplitude": 71149.92563639236,
+        "electric_tangent_amplitude_fraction": 0.709008130227079,
+        "exterior_canonical_energy_j": 52595.6078463365,
+        "interface_suppression_factor_vs_r3b": 1.7744738606724682,
+        "magnetic_amplitude": 71782.0207707659,
+        "magnetic_normal_amplitude_fraction": 0.7027653050468444,
+        "maximum_acceleration_m_s2": 21.683491348745143,
+        "minimum_acceleration_m_s2": 9.80665,
+        "optimized_E_over_B_amplitude": 0.9911942415721046,
+        "sub100j_exterior_capacity": false,
+        "whole_payload_sign": true
+      },
+      "electric_exact_trace_floor_amplitude": 0.6947460594662842,
+      "electric_first_four_trace_fractions_squared": [
+        0.48267208714392973,
+        0.4933535241376244,
+        0.5026924763844124,
+        0.518888187124239
+      ],
+      "electric_shape_count": 20,
+      "grid_spacing_m": 0.025,
+      "interface_cells_across_taper": 4.0,
+      "lmax": 4,
+      "magnetic_exact_trace_floor_amplitude": 0.6936213000878609,
+      "magnetic_first_four_trace_fractions_squared": [
+        0.48111050793557447,
+        0.497307419492253,
+        0.5066460497860567,
+        0.517327328849139
+      ],
+      "magnetic_shape_count": 20,
+      "whole_payload_positive_pair_count": 90
+    },
+    {
+      "baseline_driver_norm": 126593.16188534547,
+      "best": {
+        "b_id": "m3mm5",
+        "driver_norm": 185344.51665974053,
+        "driver_ratio_vs_r3b": 1.464095800273997,
+        "e_id": "m0mm3",
+        "electric_amplitude": 264852.07395294664,
+        "electric_tangent_amplitude_fraction": 0.6996119160637667,
+        "exterior_canonical_energy_j": 195650523326.98227,
+        "interface_suppression_factor_vs_r3b": 0.6830154145738658,
+        "magnetic_amplitude": 186199.11135952233,
+        "magnetic_normal_amplitude_fraction": 0.7041681334909329,
+        "maximum_acceleration_m_s2": 1080.4343049596243,
+        "minimum_acceleration_m_s2": 9.80665,
+        "optimized_E_over_B_amplitude": 1.4224132006814862,
+        "sub100j_exterior_capacity": false,
+        "whole_payload_sign": true
+      },
+      "electric_exact_trace_floor_amplitude": 0.016633414122298136,
+      "electric_first_four_trace_fractions_squared": [
+        0.00027667046536386704,
+        0.13318927670437664,
+        0.4766147783911688,
+        0.48944948019183504
+      ],
+      "electric_shape_count": 40,
+      "grid_spacing_m": 0.025,
+      "interface_cells_across_taper": 4.0,
+      "lmax": 8,
+      "magnetic_exact_trace_floor_amplitude": 0.01698730225489321,
+      "magnetic_first_four_trace_fractions_squared": [
+        0.0002885684378990999,
+        0.13267079564635523,
+        0.47879187704014275,
+        0.4894123983381352
+      ],
+      "magnetic_shape_count": 40,
+      "whole_payload_positive_pair_count": 6
+    },
+    {
+      "baseline_driver_norm": 126593.16188534547,
+      "best": null,
+      "electric_exact_trace_floor_amplitude": 0.0,
+      "electric_first_four_trace_fractions_squared": [
+        0.0,
+        2.2364778007698496e-07,
+        4.1981858818538285e-06,
+        0.00023690859373362103
+      ],
+      "electric_shape_count": 40,
+      "grid_spacing_m": 0.025,
+      "interface_cells_across_taper": 4.0,
+      "lmax": 12,
+      "magnetic_exact_trace_floor_amplitude": 0.0,
+      "magnetic_first_four_trace_fractions_squared": [
+        0.0,
+        8.288761690293579e-08,
+        1.062353577855592e-05,
+        0.00026041329625617945
+      ],
+      "magnetic_shape_count": 40,
+      "whole_payload_positive_pair_count": 0
+    },
+    {
+      "baseline_driver_norm": 126593.16188534547,
+      "best": null,
+      "electric_exact_trace_floor_amplitude": 0.0,
+      "electric_first_four_trace_fractions_squared": [
+        0.0,
+        0.0,
+        1.6847331848124077e-09,
+        5.15066874709837e-08
+      ],
+      "electric_shape_count": 40,
+      "grid_spacing_m": 0.025,
+      "interface_cells_across_taper": 4.0,
+      "lmax": 16,
+      "magnetic_exact_trace_floor_amplitude": 0.0,
+      "magnetic_first_four_trace_fractions_squared": [
+        0.0,
+        0.0,
+        0.0,
+        1.399903888970545e-08
+      ],
+      "magnetic_shape_count": 40,
+      "whole_payload_positive_pair_count": 0
+    },
+    {
+      "baseline_driver_norm": 126593.16188534547,
+      "best": null,
+      "electric_exact_trace_floor_amplitude": 0.0,
+      "electric_first_four_trace_fractions_squared": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "electric_shape_count": 40,
+      "grid_spacing_m": 0.025,
+      "interface_cells_across_taper": 4.0,
+      "lmax": 20,
+      "magnetic_exact_trace_floor_amplitude": 0.0,
+      "magnetic_first_four_trace_fractions_squared": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "magnetic_shape_count": 40,
+      "whole_payload_positive_pair_count": 0
+    },
+    {
+      "baseline_driver_norm": 126943.72110881099,
+      "best": {
+        "b_id": "m1",
+        "driver_norm": 69643.44998234352,
+        "driver_ratio_vs_r3b": 0.5486167364091051,
+        "e_id": "m1",
+        "electric_amplitude": 70150.78055759799,
+        "electric_tangent_amplitude_fraction": 0.701993169792035,
+        "exterior_canonical_energy_j": 17833.99962527799,
+        "interface_suppression_factor_vs_r3b": 1.8227661200155165,
+        "magnetic_amplitude": 69946.57962311324,
+        "magnetic_normal_amplitude_fraction": 0.7040423976986673,
+        "maximum_acceleration_m_s2": 16.172119812412408,
+        "minimum_acceleration_m_s2": 9.80665,
+        "optimized_E_over_B_amplitude": 1.0029193841297892,
+        "sub100j_exterior_capacity": false,
+        "whole_payload_sign": true
+      },
+      "electric_exact_trace_floor_amplitude": 0.696567179819809,
+      "electric_first_four_trace_fractions_squared": [
+        0.485205836002122,
+        0.4927941490879122,
+        0.5043242637124279,
+        0.515710875437526
+      ],
+      "electric_shape_count": 20,
+      "grid_spacing_m": 0.02,
+      "interface_cells_across_taper": 5.0,
+      "lmax": 4,
+      "magnetic_exact_trace_floor_amplitude": 0.6959079508108288,
+      "magnetic_first_four_trace_fractions_squared": [
+        0.48428787600172685,
+        0.4956756598932164,
+        0.5072053205646264,
+        0.5147935839365192
+      ],
+      "magnetic_shape_count": 20,
+      "whole_payload_positive_pair_count": 93
+    },
+    {
+      "baseline_driver_norm": 126943.72110881099,
+      "best": {
+        "b_id": "m3mm4",
+        "driver_norm": 57248.81375718822,
+        "driver_ratio_vs_r3b": 0.4509779078251288,
+        "e_id": "m0mm3",
+        "electric_amplitude": 81605.06698553305,
+        "electric_tangent_amplitude_fraction": 0.7013672244303334,
+        "exterior_canonical_energy_j": 18552812596.490265,
+        "interface_suppression_factor_vs_r3b": 2.217403519437498,
+        "magnetic_amplitude": 57564.00924426908,
+        "magnetic_normal_amplitude_fraction": 0.7032353690602272,
+        "maximum_acceleration_m_s2": 25.386716446336433,
+        "minimum_acceleration_m_s2": 9.80665,
+        "optimized_E_over_B_amplitude": 1.4176404329178554,
+        "sub100j_exterior_capacity": false,
+        "whole_payload_sign": true
+      },
+      "electric_exact_trace_floor_amplitude": 0.01662201399045046,
+      "electric_first_four_trace_fractions_squared": [
+        0.00027629134909873084,
+        0.12928453425574035,
+        0.4799204239214903,
+        0.49187637491847525
+      ],
+      "electric_shape_count": 40,
+      "grid_spacing_m": 0.02,
+      "interface_cells_across_taper": 5.0,
+      "lmax": 8,
+      "magnetic_exact_trace_floor_amplitude": 0.01617902163530558,
+      "magnetic_first_four_trace_fractions_squared": [
+        0.0002617607410756861,
+        0.1289066088784901,
+        0.48223655642447055,
+        0.49262608505879174
+      ],
+      "magnetic_shape_count": 40,
+      "whole_payload_positive_pair_count": 9
+    },
+    {
+      "baseline_driver_norm": 126943.72110881099,
+      "best": null,
+      "electric_exact_trace_floor_amplitude": 0.0,
+      "electric_first_four_trace_fractions_squared": [
+        0.0,
+        0.0,
+        7.80859481217432e-06,
+        0.00023868004739030846
+      ],
+      "electric_shape_count": 40,
+      "grid_spacing_m": 0.02,
+      "interface_cells_across_taper": 5.0,
+      "lmax": 12,
+      "magnetic_exact_trace_floor_amplitude": 0.0003559523717042084,
+      "magnetic_first_four_trace_fractions_squared": [
+        1.2670209092185094e-07,
+        3.249747491344765e-06,
+        3.403160856982663e-05,
+        0.00025325585326781066
+      ],
+      "magnetic_shape_count": 40,
+      "whole_payload_positive_pair_count": 0
+    },
+    {
+      "baseline_driver_norm": 126943.72110881099,
+      "best": null,
+      "electric_exact_trace_floor_amplitude": 0.0,
+      "electric_first_four_trace_fractions_squared": [
+        0.0,
+        0.0,
+        0.0,
+        5.192940066176121e-08
+      ],
+      "electric_shape_count": 40,
+      "grid_spacing_m": 0.02,
+      "interface_cells_across_taper": 5.0,
+      "lmax": 16,
+      "magnetic_exact_trace_floor_amplitude": 0.0,
+      "magnetic_first_four_trace_fractions_squared": [
+        0.0,
+        8.692137928227463e-09,
+        4.377877515910829e-08,
+        4.753020149451598e-07
+      ],
+      "magnetic_shape_count": 40,
+      "whole_payload_positive_pair_count": 0
+    },
+    {
+      "baseline_driver_norm": 126943.72110881099,
+      "best": null,
+      "electric_exact_trace_floor_amplitude": 0.0,
+      "electric_first_four_trace_fractions_squared": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "electric_shape_count": 40,
+      "grid_spacing_m": 0.02,
+      "interface_cells_across_taper": 5.0,
+      "lmax": 20,
+      "magnetic_exact_trace_floor_amplitude": 0.0,
+      "magnetic_first_four_trace_fractions_squared": [
+        0.0,
+        0.0,
+        8.774005187320999e-10,
+        2.028808545195548e-09
+      ],
+      "magnetic_shape_count": 40,
+      "whole_payload_positive_pair_count": 0
+    }
+  ],
+  "authorize_cross_topological_r3x0": true,
+  "authorize_single_field_loaded_r3d1": false,
+  "branch": "032H17A12D1R3D0",
+  "certified_sub10mj_model_found": false,
+  "closed_surface_integrability_gate": {
+    "approximate_node_still_open": true,
+    "cross_topological_fallback_preserved": true,
+    "electric_statement": "Et=0 on the entire closed payload interface makes electrostatic phi constant on that boundary; Laplace uniqueness then makes E=0 in the source-free payload interior.",
+    "exact_nontrivial_single_field_closed_node": false,
+    "poloidal_magnetic_statement": "Bn=0 on the entire closed interface gives homogeneous Neumann data for the single-valued harmonic magnetic scalar potential in the axisymmetric poloidal sector; the poloidal B field is then trivial inside the payload.",
+    "scope": "STATIC_SOURCE_FREE_PAYLOAD_INTERIOR_AXISYMMETRIC_POLARIZATION_NODE",
+    "toroidal_loophole": "A nontrivial toroidal harmonic B field is topologically allowed in a solid-torus region, but an axisymmetric electrostatic E is poloidal, so that purely toroidal loophole has E dot B = 0 identically."
+  },
+  "companion_best": null,
+  "complete_energy_established": false,
+  "decision": "RED_SCOPED_R3D0_STATIC_AXISYMMETRIC_SINGLE_FIELD_NODE_NOT_PROMOTED__EXACT_CLOSED_NODE_OBSTRUCTED_AND_APPROXIMATE_MULTIPOLE_NODE_MISSES_PREFLIGHT_TARGET__PIVOT_CROSS_TOPOLOGICAL",
+  "exact_closed_node_nontrivial": false,
+  "finest_best": null,
+  "next": "032H17A12D1R3X0_CROSS_TOPOLOGICAL_FX_FDUALY_NODE_PREFLIGHT",
+  "physical_antigravity_model_found": false,
+  "provenance": {
+    "006d_replaced": false,
+    "pass": true,
+    "physical_antigravity_model_found": false,
+    "r3c1_decision": "GREEN_SCOPED_R3C1_SIMPLE_PARALLEL_MIRROR_FRAGILITY_VALIDATED__FULL_VARIATIONAL_CERTIFICATE_PASS__ULTRASMALL_SIGN_LOSS_DIRECTLY_BRACKETED__WOODBURY_MATCHES_DIRECT_SOLVE__AUTHORIZE_R3D0_NODE_INTEGRABILITY_PREFLIGHT",
+    "r3c1_finest_direct_threshold": 1.0396081544458862e-05
+  },
+  "provisional_r3c1_interface_ratio_target": 1.0396081544458862e-05,
+  "r3d0_bvp_authorization_driver_ratio": 0.0001,
+  "threshold_is_continuum_certified": false
+}

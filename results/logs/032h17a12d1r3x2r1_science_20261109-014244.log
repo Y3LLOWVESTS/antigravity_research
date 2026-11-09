@@ -1,0 +1,51 @@
+BRANCH=032H17A12D1R3X2R1
+OBJECTIVE=INDEPENDENT_BOUNDED_PRIMAL_DUAL_SOURCE_CONE_CERTIFICATE
+R3X2_PRIOR_SOLVER={'grid_h_m': 0.075, 'catalogs': {'baseline_augmented_diagnostic': {'status': 'SOLVER_EXCEPTION', 'error': "Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information."}, 'shell_only': {'status': 'SOLVER_EXCEPTION', 'error': "Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information."}}}
+R3X2_PRIOR_SOLVER={'grid_h_m': 0.05, 'catalogs': {'baseline_augmented_diagnostic': {'status': 'infeasible', 'error': None}, 'shell_only': {'status': 'infeasible', 'error': None}}}
+R3X2R1_GRID_BEGIN=0.075
+/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_fdual_f_r3x2r1_dual_certificate.py:412: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(
+R3X2R1_SOURCE_RESIDUAL H=0.075 RESID=1.690614822571465e-15
+R3X2R1_CATALOG H=0.075 NAME=shell_only ENERGY_RANK=6/6 ENERGY_COND=1.1216720315781887 CERTIFIED_OUTWARD_IMPOSSIBLE=False
+R3X2R1_PRIMAL H=0.075 NAME=shell_only SOLVER=CLARABEL STATUS=optimal MARGIN=1.330399217338242e-09 ERROR=None
+R3X2R1_PRIMAL H=0.075 NAME=shell_only SOLVER=SCS STATUS=optimal MARGIN=-2.539917456987129e-09 ERROR=None
+R3X2R1_DUAL H=0.075 NAME=shell_only SOLVER=CLARABEL STATUS=optimal_inaccurate BOUND=1.3702081689925133e-09 ERROR=None
+R3X2R1_DUAL H=0.075 NAME=shell_only SOLVER=SCS STATUS=optimal BOUND=-7.94901564150045e-09 ERROR=None
+R3X2R1_VERIFIED_WITNESS H=0.075 NAME=shell_only SIMPLEX=True MAX_EIGEN=1.4489356588409283e-09 STRICT_NEGATIVE=False PAYLOAD_POINTS=[{'payload_index': 6, 'weight': 0.4023969455889712, 'rho_m': 0.975, 'z_m': 2.974999999999877}, {'payload_index': 16, 'weight': 0.34328128015382464, 'rho_m': 0.975, 'z_m': 3.1249999999998757}, {'payload_index': 17, 'weight': 0.16596800806004663, 'rho_m': 1.05, 'z_m': 3.1249999999998757}, {'payload_index': 12, 'weight': 0.03943269226228353, 'rho_m': 1.05, 'z_m': 3.0499999999998764}, {'payload_index': 15, 'weight': 0.017556532715651336, 'rho_m': 0.8999999999999999, 'z_m': 3.1249999999998757}, {'payload_index': 10, 'weight': 0.008787324443915875, 'rho_m': 0.8999999999999999, 'z_m': 3.0499999999998764}, {'payload_index': 20, 'weight': 0.007589661492726592, 'rho_m': 0.975, 'z_m': 3.199999999999875}, {'payload_index': 1, 'weight': 0.006999769640199418, 'rho_m': 0.975, 'z_m': 2.899999999999878}, {'payload_index': 9, 'weight': 0.005581445283491735, 'rho_m': 0.825, 'z_m': 3.0499999999998764}, {'payload_index': 7, 'weight': 0.0011440750626966238, 'rho_m': 1.05, 'z_m': 2.974999999999877}, {'payload_index': 13, 'weight': 0.00035509406299722834, 'rho_m': 1.125, 'z_m': 3.0499999999998764}, {'payload_index': 8, 'weight': 0.00027595383007049287, 'rho_m': 1.125, 'z_m': 2.974999999999877}]
+R3X2R1_CATALOG H=0.075 NAME=baseline_augmented_diagnostic ENERGY_RANK=8/8 ENERGY_COND=8701532.264420606 CERTIFIED_OUTWARD_IMPOSSIBLE=False
+R3X2R1_PRIMAL H=0.075 NAME=baseline_augmented_diagnostic SOLVER=CLARABEL STATUS=optimal MARGIN=9.016878833593965e-09 ERROR=None
+R3X2R1_PRIMAL H=0.075 NAME=baseline_augmented_diagnostic SOLVER=SCS STATUS=optimal MARGIN=1.5757946399690734e-08 ERROR=None
+R3X2R1_DUAL H=0.075 NAME=baseline_augmented_diagnostic SOLVER=CLARABEL STATUS=optimal BOUND=9.053991842159067e-09 ERROR=None
+R3X2R1_DUAL H=0.075 NAME=baseline_augmented_diagnostic SOLVER=SCS STATUS=optimal BOUND=1.0349131140353754e-08 ERROR=None
+R3X2R1_VERIFIED_WITNESS H=0.075 NAME=baseline_augmented_diagnostic SIMPLEX=True MAX_EIGEN=9.060176868043571e-09 STRICT_NEGATIVE=False PAYLOAD_POINTS=[{'payload_index': 6, 'weight': 0.4134732270761938, 'rho_m': 0.975, 'z_m': 2.974999999999877}, {'payload_index': 16, 'weight': 0.3590141999884016, 'rho_m': 0.975, 'z_m': 3.1249999999998757}, {'payload_index': 17, 'weight': 0.18668971400800408, 'rho_m': 1.05, 'z_m': 3.1249999999998757}, {'payload_index': 8, 'weight': 0.03661437620926248, 'rho_m': 1.125, 'z_m': 2.974999999999877}, {'payload_index': 1, 'weight': 0.002162098011207339, 'rho_m': 0.975, 'z_m': 2.899999999999878}, {'payload_index': 20, 'weight': 0.0014229157652890444, 'rho_m': 0.975, 'z_m': 3.199999999999875}, {'payload_index': 15, 'weight': 0.00023052254075055792, 'rho_m': 0.8999999999999999, 'z_m': 3.1249999999998757}, {'payload_index': 18, 'weight': 0.0001633847184145598, 'rho_m': 1.125, 'z_m': 3.1249999999998757}, {'payload_index': 9, 'weight': 0.000132730825252824, 'rho_m': 0.825, 'z_m': 3.0499999999998764}, {'payload_index': 14, 'weight': 3.7325376661149325e-05, 'rho_m': 0.825, 'z_m': 3.1249999999998757}, {'payload_index': 21, 'weight': 3.322397612391181e-05, 'rho_m': 1.05, 'z_m': 3.199999999999875}, {'payload_index': 19, 'weight': 1.212350099875954e-05, 'rho_m': 0.8999999999999999, 'z_m': 3.199999999999875}]
+R3X2R1_GRID_BEGIN=0.05
+/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_fdual_f_r3x2r1_dual_certificate.py:314: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(
+R3X2R1_SOURCE_RESIDUAL H=0.05 RESID=3.03738284209797e-15
+R3X2R1_CATALOG H=0.05 NAME=shell_only ENERGY_RANK=6/6 ENERGY_COND=1.1146500678577869 CERTIFIED_OUTWARD_IMPOSSIBLE=False
+R3X2R1_PRIMAL H=0.05 NAME=shell_only SOLVER=CLARABEL STATUS=optimal MARGIN=-1.4927855481490932e-08 ERROR=None
+R3X2R1_PRIMAL H=0.05 NAME=shell_only SOLVER=SCS STATUS=optimal_inaccurate MARGIN=-3.1318805300394203e-07 ERROR=None
+R3X2R1_DUAL H=0.05 NAME=shell_only SOLVER=CLARABEL STATUS=optimal BOUND=-1.4926035086312917e-08 ERROR=None
+R3X2R1_DUAL H=0.05 NAME=shell_only SOLVER=SCS STATUS=optimal BOUND=-1.1794209746195723e-07 ERROR=None
+R3X2R1_VERIFIED_WITNESS H=0.05 NAME=shell_only SIMPLEX=True MAX_EIGEN=-1.4926089153127036e-08 STRICT_NEGATIVE=False PAYLOAD_POINTS=[{'payload_index': 41, 'weight': 0.34138471856124575, 'rho_m': 1.1, 'z_m': 3.150000000000187}, {'payload_index': 33, 'weight': 0.2725032686888815, 'rho_m': 1.05, 'z_m': 3.100000000000186}, {'payload_index': 12, 'weight': 0.18591558483785375, 'rho_m': 1.05, 'z_m': 2.950000000000184}, {'payload_index': 6, 'weight': 0.13805909471527938, 'rho_m': 1.05, 'z_m': 2.9000000000001833}, {'payload_index': 44, 'weight': 0.050645024161302975, 'rho_m': 0.9500000000000001, 'z_m': 3.2000000000001876}, {'payload_index': 14, 'weight': 0.008305354773783375, 'rho_m': 1.1500000000000001, 'z_m': 2.950000000000184}, {'payload_index': 1, 'weight': 0.0025981325591331148, 'rho_m': 1.0, 'z_m': 2.8500000000001826}, {'payload_index': 8, 'weight': 0.0004678409056177758, 'rho_m': 0.8500000000000001, 'z_m': 2.950000000000184}, {'payload_index': 29, 'weight': 2.179906504303199e-05, 'rho_m': 0.8500000000000001, 'z_m': 3.100000000000186}, {'payload_index': 40, 'weight': 1.5375074918640323e-05, 'rho_m': 1.05, 'z_m': 3.150000000000187}, {'payload_index': 13, 'weight': 6.9532533706464395e-06, 'rho_m': 1.1, 'z_m': 2.950000000000184}, {'payload_index': 24, 'weight': 6.622025559060148e-06, 'rho_m': 0.9500000000000001, 'z_m': 3.0500000000001855}]
+R3X2R1_CATALOG H=0.05 NAME=baseline_augmented_diagnostic ENERGY_RANK=8/8 ENERGY_COND=42699006.79380275 CERTIFIED_OUTWARD_IMPOSSIBLE=False
+R3X2R1_PRIMAL H=0.05 NAME=baseline_augmented_diagnostic SOLVER=CLARABEL STATUS=optimal MARGIN=-7.621927897865811e-10 ERROR=None
+R3X2R1_PRIMAL H=0.05 NAME=baseline_augmented_diagnostic SOLVER=SCS STATUS=optimal MARGIN=2.450095906729463e-09 ERROR=None
+R3X2R1_DUAL H=0.05 NAME=baseline_augmented_diagnostic SOLVER=CLARABEL STATUS=optimal_inaccurate BOUND=2.6197216863450113e-10 ERROR=None
+R3X2R1_DUAL H=0.05 NAME=baseline_augmented_diagnostic SOLVER=SCS STATUS=optimal BOUND=-4.423341667628415e-09 ERROR=None
+R3X2R1_VERIFIED_WITNESS H=0.05 NAME=baseline_augmented_diagnostic SIMPLEX=True MAX_EIGEN=1.305627995998924e-10 STRICT_NEGATIVE=False PAYLOAD_POINTS=[{'payload_index': 12, 'weight': 0.46923509187365525, 'rho_m': 1.05, 'z_m': 2.950000000000184}, {'payload_index': 6, 'weight': 0.07338123374884668, 'rho_m': 1.05, 'z_m': 2.9000000000001833}, {'payload_index': 27, 'weight': 0.06486038373510758, 'rho_m': 1.1, 'z_m': 3.0500000000001855}, {'payload_index': 33, 'weight': 0.04859321248785309, 'rho_m': 1.05, 'z_m': 3.100000000000186}, {'payload_index': 41, 'weight': 0.04164098601058821, 'rho_m': 1.1, 'z_m': 3.150000000000187}, {'payload_index': 11, 'weight': 0.027088510342618544, 'rho_m': 1.0, 'z_m': 2.950000000000184}, {'payload_index': 14, 'weight': 0.02172443538915921, 'rho_m': 1.1500000000000001, 'z_m': 2.950000000000184}, {'payload_index': 29, 'weight': 0.01836257591132722, 'rho_m': 0.8500000000000001, 'z_m': 3.100000000000186}, {'payload_index': 35, 'weight': 0.016341233723546063, 'rho_m': 1.1500000000000001, 'z_m': 3.100000000000186}, {'payload_index': 9, 'weight': 0.015589090120265105, 'rho_m': 0.9, 'z_m': 2.950000000000184}, {'payload_index': 32, 'weight': 0.014387225492418318, 'rho_m': 1.0, 'z_m': 3.100000000000186}, {'payload_index': 8, 'weight': 0.013883010639128961, 'rho_m': 0.8500000000000001, 'z_m': 2.950000000000184}]
+
+================ R3X2R1 FINAL DECISION ================
+DECISION=YELLOW_R3X2R1_NO_STRICT_DUAL_CERTIFICATE__DO_NOT_CLOSE_SOURCE_CONE
+NEXT=AUDIT_R3X2R1_CONDITIONING_OR_FIND_CONSTRUCTIVE_SOURCE
+DECLARED_SHELL_CONE_DUAL_EXCLUDED_BOTH_GRIDS=False
+GENUINELY_INDEPENDENT_SOURCE_FAMILIES_ALL_CLOSED=False
+PARITY_ANOMALY_COMPLETED=False
+MICROSCOPIC_SOURCE_REALIZED=False
+CONTINUUM_CERTIFIED=False
+FULL_METRIC_NOETHER_COMPLETED=False
+COMPLETE_ENERGY_ESTABLISHED=False
+PHYSICAL_ANTIGRAVITY_MODEL_FOUND=False
+CERTIFIED_SUB10MJ_MODEL_FOUND=False
+006D_REPLACED=False
+SUMMARY=/Users/mymac/Desktop/antigravity_research/results/data/032h17a12d1r3x2r1_dual_certificate_summary.json

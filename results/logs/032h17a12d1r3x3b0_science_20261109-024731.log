@@ -1,0 +1,33 @@
+BRANCH=032H17A12D1R3X3B0
+OBJECTIVE=EXACT_INVERSE_LOADING_AND_SOURCE_SUPPORT
+FULL_ACTION_COMPLETED=False
+GRID_BEGIN=0.075
+SIGN_CONJUGACY H=0.075 PASS=True RELATIVE=0.0
+FIELD H=0.075 PRELOAD_J=1.4597081610973566 PRELOAD_MIN_A=9.806650000000014 FULL_LOAD_J=1.4433196404756485 FULL_LOAD_MIN_A=-46.40607408464625
+INVERSE_SOURCE H=0.075 CHANNEL=electric_static_charge L2_OUTSIDE_2M=1.0 L2_OUTSIDE_BUFFER=1.0 L2_INSIDE_PAYLOAD=0.9358183458645922 L2_NEAR_PAYLOAD=1.0 BASELINE_OUTSIDE_BUFFER=0.5477409167463158 PEAK_RHO=0.8999999999999999 PEAK_Z=2.899999999999878 NEEDS_OUT_OF_SUPPORT_SOURCE=True
+INVERSE_SOURCE H=0.075 CHANNEL=azimuthal_magnetic_source_current L2_OUTSIDE_2M=1.0 L2_OUTSIDE_BUFFER=1.0 L2_INSIDE_PAYLOAD=0.8874746712086443 L2_NEAR_PAYLOAD=1.0 BASELINE_OUTSIDE_BUFFER=0.012331792983847512 PEAK_RHO=0.8999999999999999 PEAK_Z=3.1249999999998757 NEEDS_OUT_OF_SUPPORT_SOURCE=True
+EXACT_GLOBAL_MIRROR_EXTERNAL_ONLY_RULED_OUT H=0.075 VALUE=True
+LOADING_FIRST_ONE_G_LOSS H=0.075 BRACKET={'last_passing_lambda': 1.115806579589844e-05, 'first_failing_lambda': 1.1158142089843752e-05, 'max_uniform_loading_allowed_in_initial_pass_interval': 1.115806579589844e-05, 'necessary_suppression_fraction_in_uniform_beta_rescaling_toy': 0.9999888418579101, 'no_global_monotonicity_claim': True, 'no_independent_action_parameter': True}
+GRID_BEGIN=0.05
+SIGN_CONJUGACY H=0.05 PASS=True RELATIVE=0.0
+FIELD H=0.05 PRELOAD_J=1.537764066028296 PRELOAD_MIN_A=9.80664999999999 FULL_LOAD_J=1.5211390382733165 FULL_LOAD_MIN_A=-129.67185782242464
+INVERSE_SOURCE H=0.05 CHANNEL=electric_static_charge L2_OUTSIDE_2M=1.0 L2_OUTSIDE_BUFFER=1.0 L2_INSIDE_PAYLOAD=0.9827667736967488 L2_NEAR_PAYLOAD=1.0 BASELINE_OUTSIDE_BUFFER=0.7089164053611221 PEAK_RHO=0.9500000000000001 PEAK_Z=2.9000000000001833 NEEDS_OUT_OF_SUPPORT_SOURCE=True
+INVERSE_SOURCE H=0.05 CHANNEL=azimuthal_magnetic_source_current L2_OUTSIDE_2M=1.0 L2_OUTSIDE_BUFFER=1.0 L2_INSIDE_PAYLOAD=0.937839302335469 L2_NEAR_PAYLOAD=1.0000000000000002 BASELINE_OUTSIDE_BUFFER=0.01615692185520063 PEAK_RHO=1.1 PEAK_Z=2.950000000000184 NEEDS_OUT_OF_SUPPORT_SOURCE=True
+EXACT_GLOBAL_MIRROR_EXTERNAL_ONLY_RULED_OUT H=0.05 VALUE=True
+LOADING_FIRST_ONE_G_LOSS H=0.05 BRACKET={'last_passing_lambda': 8.60076904296875e-06, 'first_failing_lambda': 8.60079574584961e-06, 'max_uniform_loading_allowed_in_initial_pass_interval': 8.60076904296875e-06, 'necessary_suppression_fraction_in_uniform_beta_rescaling_toy': 0.9999913992042542, 'no_global_monotonicity_claim': True, 'no_independent_action_parameter': True}
+
+================ R3X3B0 FINAL DECISION ================
+DECISION=GREEN_SCOPED_EXACT_MIRROR_EXTERNAL_ONLY_COUNTERSOURCE_OBSTRUCTION
+NEXT=R3X3B1_ACTION_DERIVED_INTERFACE_COMPENSATOR_PREFLIGHT
+EXTERNAL_ONLY_EXACT_GLOBAL_MIRROR_EXCLUDED_BOTH_GRIDS=True
+DIFFERENT_PROFILE_SAME_METRIC_ACCELERATION_EXCLUDED=False
+FULL_ACTION_AND_MICROSCOPIC_CURRENTS_CERTIFIED=False
+PARITY_CP_ANOMALY_COMPLETED=False
+CONTINUUM_CERTIFIED=False
+COMPLETE_ENERGY_ESTABLISHED=False
+FIELD_ENERGY_UNDER_100J_REQUIRES_NO_FURTHER_DOWNWARD_OPTIMIZATION=True
+PHYSICAL_ANTIGRAVITY_MODEL_FOUND=False
+CERTIFIED_SUB10MJ_MODEL_FOUND=False
+006D_REPLACED=False
+ACTION_AUGMENTATION_PREFLIGHT_ONLY=[{"mechanism": "additional conserved material 4-current", "new_action_term": "-J_aux^mu A_mu with partial_mu J_aux^mu=0", "key_gate": "source location and neutral-payload preservation", "status": "HOLD_IF_ONLY_EXTERNAL_ALLOWED", "complete_energy_j": null}, {"mechanism": "dynamical pseudoscalar compensator", "new_action_term": "-1/2(da)^2 - V(a) + a F_X tilde(F_Y)", "key_gate": "coupled axion equation, gradient energy, stability", "status": "OPEN_NEW_PHYSICS_NOT_YET_ACTION_COMPLETED", "complete_energy_j": null}, {"mechanism": "cross-kinetic or polarizable medium", "new_action_term": "f(psi,n) F_X^{mu nu} F_Y_mu nu", "key_gate": "new bulk loading, stress tensor, field redefinitions", "status": "OPEN_NEW_PHYSICS_WITH_NEW_BULK_COST", "complete_energy_j": null}, {"mechanism": "independent node-forming topological response", "new_action_term": "g(psi,n) F_X tilde(F_Y), dynamical psi", "key_gate": "independent interface response in a single action", "status": "OPEN_CONSTRAINED_ACTION_CONSTRUCTION", "complete_energy_j": null}, {"mechanism": "additional metric or geometric mediator", "new_action_term": "gauge-invariant geometric coupling", "key_gate": "healthy modes, Ward identities, empirical bounds", "status": "OPEN_ONLY_WITH_GENUINELY_NEW_CARRIER", "complete_energy_j": null}]
+SUMMARY=/Users/mymac/Desktop/antigravity_research/results/data/032h17a12d1r3x3b0_inverse_loading_summary.json

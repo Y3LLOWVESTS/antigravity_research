@@ -1,0 +1,1599 @@
+{
+  "006d_replaced": false,
+  "branch": "032H17A12D1R3X2R1",
+  "certified_sub10mj_model_found": false,
+  "complete_energy_established": false,
+  "continuum_certified": false,
+  "decision": "YELLOW_R3X2R1_NO_STRICT_DUAL_CERTIFICATE__DO_NOT_CLOSE_SOURCE_CONE",
+  "declared_shell_cone_dual_excluded_both_grids": false,
+  "full_metric_noether_completed": false,
+  "genuinely_independent_source_families_all_closed": false,
+  "grids": [
+    {
+      "catalogs": {
+        "baseline_augmented_diagnostic": {
+          "acceleration_per_joule_scale": 122.73060436297192,
+          "best_verified_dual": {
+            "largest_weights": [
+              {
+                "payload_index": 6,
+                "rho_m": 0.975,
+                "weight": 0.4134732270761938,
+                "z_m": 2.974999999999877
+              },
+              {
+                "payload_index": 16,
+                "rho_m": 0.975,
+                "weight": 0.3590141999884016,
+                "z_m": 3.1249999999998757
+              },
+              {
+                "payload_index": 17,
+                "rho_m": 1.05,
+                "weight": 0.18668971400800408,
+                "z_m": 3.1249999999998757
+              },
+              {
+                "payload_index": 8,
+                "rho_m": 1.125,
+                "weight": 0.03661437620926248,
+                "z_m": 2.974999999999877
+              },
+              {
+                "payload_index": 1,
+                "rho_m": 0.975,
+                "weight": 0.002162098011207339,
+                "z_m": 2.899999999999878
+              },
+              {
+                "payload_index": 20,
+                "rho_m": 0.975,
+                "weight": 0.0014229157652890444,
+                "z_m": 3.199999999999875
+              },
+              {
+                "payload_index": 15,
+                "rho_m": 0.8999999999999999,
+                "weight": 0.00023052254075055792,
+                "z_m": 3.1249999999998757
+              },
+              {
+                "payload_index": 18,
+                "rho_m": 1.125,
+                "weight": 0.0001633847184145598,
+                "z_m": 3.1249999999998757
+              },
+              {
+                "payload_index": 9,
+                "rho_m": 0.825,
+                "weight": 0.000132730825252824,
+                "z_m": 3.0499999999998764
+              },
+              {
+                "payload_index": 14,
+                "rho_m": 0.825,
+                "weight": 3.7325376661149325e-05,
+                "z_m": 3.1249999999998757
+              },
+              {
+                "payload_index": 21,
+                "rho_m": 1.05,
+                "weight": 3.322397612391181e-05,
+                "z_m": 3.199999999999875
+              },
+              {
+                "payload_index": 19,
+                "rho_m": 0.8999999999999999,
+                "weight": 1.212350099875954e-05,
+                "z_m": 3.199999999999875
+              }
+            ],
+            "minimum_raw_weight": 5.6549147841954427e-11,
+            "raw_weight_sum": 1.0,
+            "strict_negative_dual_witness": false,
+            "valid_simplex": true,
+            "verified_dual_upper_scaled_per_j": 9.060176868043571e-09
+          },
+          "energy_rank": 8,
+          "finite_grid_declared_cone_outward_impossibility_certificate": false,
+          "full_energy_rank_retained": true,
+          "independent_dual_solves": [
+            {
+              "independently_verified_dual": {
+                "largest_weights": [
+                  {
+                    "payload_index": 6,
+                    "rho_m": 0.975,
+                    "weight": 0.4134732270761938,
+                    "z_m": 2.974999999999877
+                  },
+                  {
+                    "payload_index": 16,
+                    "rho_m": 0.975,
+                    "weight": 0.3590141999884016,
+                    "z_m": 3.1249999999998757
+                  },
+                  {
+                    "payload_index": 17,
+                    "rho_m": 1.05,
+                    "weight": 0.18668971400800408,
+                    "z_m": 3.1249999999998757
+                  },
+                  {
+                    "payload_index": 8,
+                    "rho_m": 1.125,
+                    "weight": 0.03661437620926248,
+                    "z_m": 2.974999999999877
+                  },
+                  {
+                    "payload_index": 1,
+                    "rho_m": 0.975,
+                    "weight": 0.002162098011207339,
+                    "z_m": 2.899999999999878
+                  },
+                  {
+                    "payload_index": 20,
+                    "rho_m": 0.975,
+                    "weight": 0.0014229157652890444,
+                    "z_m": 3.199999999999875
+                  },
+                  {
+                    "payload_index": 15,
+                    "rho_m": 0.8999999999999999,
+                    "weight": 0.00023052254075055792,
+                    "z_m": 3.1249999999998757
+                  },
+                  {
+                    "payload_index": 18,
+                    "rho_m": 1.125,
+                    "weight": 0.0001633847184145598,
+                    "z_m": 3.1249999999998757
+                  },
+                  {
+                    "payload_index": 9,
+                    "rho_m": 0.825,
+                    "weight": 0.000132730825252824,
+                    "z_m": 3.0499999999998764
+                  },
+                  {
+                    "payload_index": 14,
+                    "rho_m": 0.825,
+                    "weight": 3.7325376661149325e-05,
+                    "z_m": 3.1249999999998757
+                  },
+                  {
+                    "payload_index": 21,
+                    "rho_m": 1.05,
+                    "weight": 3.322397612391181e-05,
+                    "z_m": 3.199999999999875
+                  },
+                  {
+                    "payload_index": 19,
+                    "rho_m": 0.8999999999999999,
+                    "weight": 1.212350099875954e-05,
+                    "z_m": 3.199999999999875
+                  }
+                ],
+                "minimum_raw_weight": 5.6549147841954427e-11,
+                "raw_weight_sum": 1.0,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 9.060176868043571e-09
+              },
+              "reported_dual_upper_scaled_per_j": 9.053991842159067e-09,
+              "solver": "CLARABEL",
+              "status": "optimal"
+            },
+            {
+              "independently_verified_dual": {
+                "largest_weights": [
+                  {
+                    "payload_index": 6,
+                    "weight": 0.4207618117708012
+                  },
+                  {
+                    "payload_index": 16,
+                    "weight": 0.3852006573610153
+                  },
+                  {
+                    "payload_index": 17,
+                    "weight": 0.17971547142540376
+                  },
+                  {
+                    "payload_index": 8,
+                    "weight": 0.011119626646541113
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.001784222344985583
+                  },
+                  {
+                    "payload_index": 20,
+                    "weight": 0.0007532626330853688
+                  },
+                  {
+                    "payload_index": 9,
+                    "weight": 0.0004871570113150734
+                  },
+                  {
+                    "payload_index": 18,
+                    "weight": 0.00012226488536862623
+                  },
+                  {
+                    "payload_index": 14,
+                    "weight": 3.4294030521221435e-05
+                  },
+                  {
+                    "payload_index": 21,
+                    "weight": 1.9195460115811284e-05
+                  },
+                  {
+                    "payload_index": 0,
+                    "weight": 1.9060650324560407e-06
+                  },
+                  {
+                    "payload_index": 3,
+                    "weight": 1.2880568355220215e-07
+                  }
+                ],
+                "minimum_raw_weight": 0.0,
+                "raw_weight_sum": 1.0000000212227236,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 9.991150708776051e-08
+              },
+              "reported_dual_upper_scaled_per_j": 1.0349131140353754e-08,
+              "solver": "SCS",
+              "status": "optimal"
+            }
+          ],
+          "maximum_energy_eigenvalue": 1.8595269319602903,
+          "minimum_energy_eigenvalue": 2.1370109027391023e-07,
+          "numerical_tolerance_not_formal_interval_proof": true,
+          "original_source_rank": 8,
+          "primal_solves": [
+            {
+              "dual_from_primal": {
+                "largest_weights": [
+                  {
+                    "payload_index": 6,
+                    "weight": 0.41301721021085824
+                  },
+                  {
+                    "payload_index": 16,
+                    "weight": 0.3587869995989482
+                  },
+                  {
+                    "payload_index": 17,
+                    "weight": 0.18639763979472587
+                  },
+                  {
+                    "payload_index": 8,
+                    "weight": 0.03670624342477934
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.002141538359537107
+                  },
+                  {
+                    "payload_index": 20,
+                    "weight": 0.0014549471723111936
+                  },
+                  {
+                    "payload_index": 15,
+                    "weight": 0.00043466947514286033
+                  },
+                  {
+                    "payload_index": 10,
+                    "weight": 0.0002171739741582174
+                  },
+                  {
+                    "payload_index": 18,
+                    "weight": 0.00016461068623722965
+                  },
+                  {
+                    "payload_index": 12,
+                    "weight": 0.00014671829946937134
+                  },
+                  {
+                    "payload_index": 9,
+                    "weight": 0.0001417338184424942
+                  },
+                  {
+                    "payload_index": 7,
+                    "weight": 0.00010907103093821961
+                  }
+                ],
+                "minimum_raw_weight": 3.523130063594277e-09,
+                "raw_weight_sum": 1.0000000010482581,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 9.151186490088568e-09
+              },
+              "primal": {
+                "minimum_acceleration_scaled_per_j": 8.97831451997467e-09,
+                "minimum_z_eigenvalue": 6.32661558145699e-08,
+                "primal_psd_trace_check": true,
+                "trace_z": 1.0
+              },
+              "reported_maximin_margin_scaled_per_j": 9.016878833593965e-09,
+              "solver": "CLARABEL",
+              "status": "optimal"
+            },
+            {
+              "dual_from_primal": {
+                "largest_weights": [
+                  {
+                    "payload_index": 6,
+                    "weight": 0.4115434190023927
+                  },
+                  {
+                    "payload_index": 16,
+                    "weight": 0.34539777038018993
+                  },
+                  {
+                    "payload_index": 17,
+                    "weight": 0.14164342453071152
+                  },
+                  {
+                    "payload_index": 8,
+                    "weight": 0.06443076297211556
+                  },
+                  {
+                    "payload_index": 10,
+                    "weight": 0.026248021245632216
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.0050859083021237905
+                  },
+                  {
+                    "payload_index": 20,
+                    "weight": 0.002462088412076755
+                  },
+                  {
+                    "payload_index": 15,
+                    "weight": 0.001810320884180207
+                  },
+                  {
+                    "payload_index": 12,
+                    "weight": 0.001021620801166387
+                  },
+                  {
+                    "payload_index": 18,
+                    "weight": 0.0002814118097222337
+                  },
+                  {
+                    "payload_index": 14,
+                    "weight": 6.363160083841391e-05
+                  },
+                  {
+                    "payload_index": 21,
+                    "weight": 1.0768006561743164e-05
+                  }
+                ],
+                "minimum_raw_weight": -1.1545305693962626e-22,
+                "raw_weight_sum": 0.9999999936747178,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 2.1503854401348617e-08
+              },
+              "primal": {
+                "minimum_acceleration_scaled_per_j": -1.0094626066407494e-09,
+                "minimum_z_eigenvalue": -1.9011517610083804e-07,
+                "primal_psd_trace_check": true,
+                "trace_z": 0.9999999999678898
+              },
+              "reported_maximin_margin_scaled_per_j": 1.5757946399690734e-08,
+              "solver": "SCS",
+              "status": "optimal"
+            }
+          ],
+          "projected_cone_only_certificate": false,
+          "retained_condition_number": 8701532.264420606,
+          "source_names": [
+            "control_R3B_e",
+            "control_R3B_b",
+            "shell_l1_e",
+            "shell_l1_b",
+            "shell_l2_e",
+            "shell_l2_b",
+            "shell_l3_e",
+            "shell_l3_b"
+          ]
+        },
+        "shell_only": {
+          "acceleration_per_joule_scale": 142.47230589328183,
+          "best_verified_dual": {
+            "largest_weights": [
+              {
+                "payload_index": 6,
+                "rho_m": 0.975,
+                "weight": 0.4023969455889712,
+                "z_m": 2.974999999999877
+              },
+              {
+                "payload_index": 16,
+                "rho_m": 0.975,
+                "weight": 0.34328128015382464,
+                "z_m": 3.1249999999998757
+              },
+              {
+                "payload_index": 17,
+                "rho_m": 1.05,
+                "weight": 0.16596800806004663,
+                "z_m": 3.1249999999998757
+              },
+              {
+                "payload_index": 12,
+                "rho_m": 1.05,
+                "weight": 0.03943269226228353,
+                "z_m": 3.0499999999998764
+              },
+              {
+                "payload_index": 15,
+                "rho_m": 0.8999999999999999,
+                "weight": 0.017556532715651336,
+                "z_m": 3.1249999999998757
+              },
+              {
+                "payload_index": 10,
+                "rho_m": 0.8999999999999999,
+                "weight": 0.008787324443915875,
+                "z_m": 3.0499999999998764
+              },
+              {
+                "payload_index": 20,
+                "rho_m": 0.975,
+                "weight": 0.007589661492726592,
+                "z_m": 3.199999999999875
+              },
+              {
+                "payload_index": 1,
+                "rho_m": 0.975,
+                "weight": 0.006999769640199418,
+                "z_m": 2.899999999999878
+              },
+              {
+                "payload_index": 9,
+                "rho_m": 0.825,
+                "weight": 0.005581445283491735,
+                "z_m": 3.0499999999998764
+              },
+              {
+                "payload_index": 7,
+                "rho_m": 1.05,
+                "weight": 0.0011440750626966238,
+                "z_m": 2.974999999999877
+              },
+              {
+                "payload_index": 13,
+                "rho_m": 1.125,
+                "weight": 0.00035509406299722834,
+                "z_m": 3.0499999999998764
+              },
+              {
+                "payload_index": 8,
+                "rho_m": 1.125,
+                "weight": 0.00027595383007049287,
+                "z_m": 2.974999999999877
+              }
+            ],
+            "minimum_raw_weight": 1.7968411268320474e-08,
+            "raw_weight_sum": 1.0000000009156258,
+            "strict_negative_dual_witness": false,
+            "valid_simplex": true,
+            "verified_dual_upper_scaled_per_j": 1.4489356588409283e-09
+          },
+          "energy_rank": 6,
+          "finite_grid_declared_cone_outward_impossibility_certificate": false,
+          "full_energy_rank_retained": true,
+          "independent_dual_solves": [
+            {
+              "independently_verified_dual": {
+                "largest_weights": [
+                  {
+                    "payload_index": 6,
+                    "weight": 0.4010962306550119
+                  },
+                  {
+                    "payload_index": 16,
+                    "weight": 0.34468122392268
+                  },
+                  {
+                    "payload_index": 17,
+                    "weight": 0.1624358549338745
+                  },
+                  {
+                    "payload_index": 12,
+                    "weight": 0.03879051681155211
+                  },
+                  {
+                    "payload_index": 15,
+                    "weight": 0.017775511425563325
+                  },
+                  {
+                    "payload_index": 10,
+                    "weight": 0.011938367453074241
+                  },
+                  {
+                    "payload_index": 20,
+                    "weight": 0.007778893720084518
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.007013486272842264
+                  },
+                  {
+                    "payload_index": 9,
+                    "weight": 0.005732763804888133
+                  },
+                  {
+                    "payload_index": 7,
+                    "weight": 0.0015527619212404057
+                  },
+                  {
+                    "payload_index": 13,
+                    "weight": 0.0004180930358447701
+                  },
+                  {
+                    "payload_index": 8,
+                    "weight": 0.0002610071473644366
+                  }
+                ],
+                "minimum_raw_weight": 1.209176400904754e-08,
+                "raw_weight_sum": 1.0000000000000333,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 1.484143857563375e-09
+              },
+              "reported_dual_upper_scaled_per_j": 1.3702081689925133e-09,
+              "solver": "CLARABEL",
+              "status": "optimal_inaccurate"
+            },
+            {
+              "independently_verified_dual": {
+                "largest_weights": [
+                  {
+                    "payload_index": 6,
+                    "weight": 0.28428333875134476
+                  },
+                  {
+                    "payload_index": 17,
+                    "weight": 0.2805598680220644
+                  },
+                  {
+                    "payload_index": 12,
+                    "weight": 0.1782606578175326
+                  },
+                  {
+                    "payload_index": 15,
+                    "weight": 0.14592870885367998
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.042654228011158084
+                  },
+                  {
+                    "payload_index": 20,
+                    "weight": 0.03790261884480805
+                  },
+                  {
+                    "payload_index": 9,
+                    "weight": 0.029810021455668963
+                  },
+                  {
+                    "payload_index": 21,
+                    "weight": 0.0004554057492601819
+                  },
+                  {
+                    "payload_index": 14,
+                    "weight": 0.00011083411720343931
+                  },
+                  {
+                    "payload_index": 0,
+                    "weight": 3.429484084707876e-05
+                  },
+                  {
+                    "payload_index": 3,
+                    "weight": 1.453687893333766e-08
+                  }
+                ],
+                "minimum_raw_weight": 0.0,
+                "raw_weight_sum": 1.0000000026498292,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 4.810989188332602e-08
+              },
+              "reported_dual_upper_scaled_per_j": -7.94901564150045e-09,
+              "solver": "SCS",
+              "status": "optimal"
+            }
+          ],
+          "maximum_energy_eigenvalue": 1.0026016360950123,
+          "minimum_energy_eigenvalue": 0.893845623202671,
+          "numerical_tolerance_not_formal_interval_proof": true,
+          "original_source_rank": 6,
+          "primal_solves": [
+            {
+              "dual_from_primal": {
+                "largest_weights": [
+                  {
+                    "payload_index": 6,
+                    "rho_m": 0.975,
+                    "weight": 0.4023969455889712,
+                    "z_m": 2.974999999999877
+                  },
+                  {
+                    "payload_index": 16,
+                    "rho_m": 0.975,
+                    "weight": 0.34328128015382464,
+                    "z_m": 3.1249999999998757
+                  },
+                  {
+                    "payload_index": 17,
+                    "rho_m": 1.05,
+                    "weight": 0.16596800806004663,
+                    "z_m": 3.1249999999998757
+                  },
+                  {
+                    "payload_index": 12,
+                    "rho_m": 1.05,
+                    "weight": 0.03943269226228353,
+                    "z_m": 3.0499999999998764
+                  },
+                  {
+                    "payload_index": 15,
+                    "rho_m": 0.8999999999999999,
+                    "weight": 0.017556532715651336,
+                    "z_m": 3.1249999999998757
+                  },
+                  {
+                    "payload_index": 10,
+                    "rho_m": 0.8999999999999999,
+                    "weight": 0.008787324443915875,
+                    "z_m": 3.0499999999998764
+                  },
+                  {
+                    "payload_index": 20,
+                    "rho_m": 0.975,
+                    "weight": 0.007589661492726592,
+                    "z_m": 3.199999999999875
+                  },
+                  {
+                    "payload_index": 1,
+                    "rho_m": 0.975,
+                    "weight": 0.006999769640199418,
+                    "z_m": 2.899999999999878
+                  },
+                  {
+                    "payload_index": 9,
+                    "rho_m": 0.825,
+                    "weight": 0.005581445283491735,
+                    "z_m": 3.0499999999998764
+                  },
+                  {
+                    "payload_index": 7,
+                    "rho_m": 1.05,
+                    "weight": 0.0011440750626966238,
+                    "z_m": 2.974999999999877
+                  },
+                  {
+                    "payload_index": 13,
+                    "rho_m": 1.125,
+                    "weight": 0.00035509406299722834,
+                    "z_m": 3.0499999999998764
+                  },
+                  {
+                    "payload_index": 8,
+                    "rho_m": 1.125,
+                    "weight": 0.00027595383007049287,
+                    "z_m": 2.974999999999877
+                  }
+                ],
+                "minimum_raw_weight": 1.7968411268320474e-08,
+                "raw_weight_sum": 1.0000000009156258,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 1.4489356588409283e-09
+              },
+              "primal": {
+                "minimum_acceleration_scaled_per_j": 1.2761863535363096e-09,
+                "minimum_z_eigenvalue": 2.1550191697011738e-08,
+                "primal_psd_trace_check": true,
+                "trace_z": 1.0
+              },
+              "reported_maximin_margin_scaled_per_j": 1.330399217338242e-09,
+              "solver": "CLARABEL",
+              "status": "optimal"
+            },
+            {
+              "dual_from_primal": {
+                "largest_weights": [
+                  {
+                    "payload_index": 11,
+                    "weight": 0.3327596676753312
+                  },
+                  {
+                    "payload_index": 15,
+                    "weight": 0.26920758009235957
+                  },
+                  {
+                    "payload_index": 20,
+                    "weight": 0.07874836564722419
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.07400787104638892
+                  },
+                  {
+                    "payload_index": 9,
+                    "weight": 0.062276051704583106
+                  },
+                  {
+                    "payload_index": 17,
+                    "weight": 0.056095912953044454
+                  },
+                  {
+                    "payload_index": 10,
+                    "weight": 0.04751372833748066
+                  },
+                  {
+                    "payload_index": 6,
+                    "weight": 0.04462736593959232
+                  },
+                  {
+                    "payload_index": 12,
+                    "weight": 0.032654438717367826
+                  },
+                  {
+                    "payload_index": 18,
+                    "weight": 0.0009125247756160136
+                  },
+                  {
+                    "payload_index": 21,
+                    "weight": 0.0008077885558645386
+                  },
+                  {
+                    "payload_index": 14,
+                    "weight": 0.00025644875177995355
+                  }
+                ],
+                "minimum_raw_weight": 0.0,
+                "raw_weight_sum": 1.0000000000016402,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 9.711785500007401e-08
+              },
+              "primal": {
+                "minimum_acceleration_scaled_per_j": -3.168255503941793e-08,
+                "minimum_z_eigenvalue": -2.713215075570037e-08,
+                "primal_psd_trace_check": true,
+                "trace_z": 1.0000000023769613
+              },
+              "reported_maximin_margin_scaled_per_j": -2.539917456987129e-09,
+              "solver": "SCS",
+              "status": "optimal"
+            }
+          ],
+          "projected_cone_only_certificate": false,
+          "retained_condition_number": 1.1216720315781887,
+          "source_names": [
+            "shell_l1_e",
+            "shell_l1_b",
+            "shell_l2_e",
+            "shell_l2_b",
+            "shell_l3_e",
+            "shell_l3_b"
+          ]
+        }
+      },
+      "h_m": 0.075,
+      "loaded_source_residual": 1.690614822571465e-15,
+      "payload_points": 22
+    },
+    {
+      "catalogs": {
+        "baseline_augmented_diagnostic": {
+          "acceleration_per_joule_scale": 325.41160055947717,
+          "best_verified_dual": {
+            "largest_weights": [
+              {
+                "payload_index": 12,
+                "rho_m": 1.05,
+                "weight": 0.46923509187365525,
+                "z_m": 2.950000000000184
+              },
+              {
+                "payload_index": 6,
+                "rho_m": 1.05,
+                "weight": 0.07338123374884668,
+                "z_m": 2.9000000000001833
+              },
+              {
+                "payload_index": 27,
+                "rho_m": 1.1,
+                "weight": 0.06486038373510758,
+                "z_m": 3.0500000000001855
+              },
+              {
+                "payload_index": 33,
+                "rho_m": 1.05,
+                "weight": 0.04859321248785309,
+                "z_m": 3.100000000000186
+              },
+              {
+                "payload_index": 41,
+                "rho_m": 1.1,
+                "weight": 0.04164098601058821,
+                "z_m": 3.150000000000187
+              },
+              {
+                "payload_index": 11,
+                "rho_m": 1.0,
+                "weight": 0.027088510342618544,
+                "z_m": 2.950000000000184
+              },
+              {
+                "payload_index": 14,
+                "rho_m": 1.1500000000000001,
+                "weight": 0.02172443538915921,
+                "z_m": 2.950000000000184
+              },
+              {
+                "payload_index": 29,
+                "rho_m": 0.8500000000000001,
+                "weight": 0.01836257591132722,
+                "z_m": 3.100000000000186
+              },
+              {
+                "payload_index": 35,
+                "rho_m": 1.1500000000000001,
+                "weight": 0.016341233723546063,
+                "z_m": 3.100000000000186
+              },
+              {
+                "payload_index": 9,
+                "rho_m": 0.9,
+                "weight": 0.015589090120265105,
+                "z_m": 2.950000000000184
+              },
+              {
+                "payload_index": 32,
+                "rho_m": 1.0,
+                "weight": 0.014387225492418318,
+                "z_m": 3.100000000000186
+              },
+              {
+                "payload_index": 8,
+                "rho_m": 0.8500000000000001,
+                "weight": 0.013883010639128961,
+                "z_m": 2.950000000000184
+              }
+            ],
+            "minimum_raw_weight": 2.206480406393071e-06,
+            "raw_weight_sum": 1.0000000002013014,
+            "strict_negative_dual_witness": false,
+            "valid_simplex": true,
+            "verified_dual_upper_scaled_per_j": 1.305627995998924e-10
+          },
+          "energy_rank": 8,
+          "finite_grid_declared_cone_outward_impossibility_certificate": false,
+          "full_energy_rank_retained": true,
+          "independent_dual_solves": [
+            {
+              "independently_verified_dual": {
+                "largest_weights": [
+                  {
+                    "payload_index": 12,
+                    "weight": 0.18845948665456796
+                  },
+                  {
+                    "payload_index": 6,
+                    "weight": 0.06368054415252358
+                  },
+                  {
+                    "payload_index": 29,
+                    "weight": 0.06138766555707994
+                  },
+                  {
+                    "payload_index": 33,
+                    "weight": 0.05546310310257335
+                  },
+                  {
+                    "payload_index": 27,
+                    "weight": 0.03732930435063901
+                  },
+                  {
+                    "payload_index": 11,
+                    "weight": 0.03334575109204946
+                  },
+                  {
+                    "payload_index": 17,
+                    "weight": 0.032031916958341615
+                  },
+                  {
+                    "payload_index": 41,
+                    "weight": 0.02696220692272973
+                  },
+                  {
+                    "payload_index": 9,
+                    "weight": 0.026596620310944456
+                  },
+                  {
+                    "payload_index": 38,
+                    "weight": 0.023791843550966033
+                  },
+                  {
+                    "payload_index": 40,
+                    "weight": 0.023026481118179776
+                  },
+                  {
+                    "payload_index": 37,
+                    "weight": 0.022680856957310053
+                  }
+                ],
+                "minimum_raw_weight": 9.62764393482101e-06,
+                "raw_weight_sum": 0.99999999999996,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 1.8337203215323052e-10
+              },
+              "reported_dual_upper_scaled_per_j": 2.6197216863450113e-10,
+              "solver": "CLARABEL",
+              "status": "optimal_inaccurate"
+            },
+            {
+              "independently_verified_dual": {
+                "largest_weights": [
+                  {
+                    "payload_index": 41,
+                    "weight": 0.32371316625210267
+                  },
+                  {
+                    "payload_index": 12,
+                    "weight": 0.2553307325713309
+                  },
+                  {
+                    "payload_index": 33,
+                    "weight": 0.13201987107970622
+                  },
+                  {
+                    "payload_index": 6,
+                    "weight": 0.11822206719167841
+                  },
+                  {
+                    "payload_index": 29,
+                    "weight": 0.09720922742377401
+                  },
+                  {
+                    "payload_index": 44,
+                    "weight": 0.031979338591266684
+                  },
+                  {
+                    "payload_index": 40,
+                    "weight": 0.026068265122543385
+                  },
+                  {
+                    "payload_index": 14,
+                    "weight": 0.01132801481998306
+                  },
+                  {
+                    "payload_index": 8,
+                    "weight": 0.002503731125537592
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.0015753135743684684
+                  },
+                  {
+                    "payload_index": 2,
+                    "weight": 5.0258953410377284e-05
+                  }
+                ],
+                "minimum_raw_weight": 0.0,
+                "raw_weight_sum": 1.0000000040207588,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 3.087808007482821e-08
+              },
+              "reported_dual_upper_scaled_per_j": -4.423341667628415e-09,
+              "solver": "SCS",
+              "status": "optimal"
+            }
+          ],
+          "maximum_energy_eigenvalue": 1.8637811544045504,
+          "minimum_energy_eigenvalue": 4.3649285881634505e-08,
+          "numerical_tolerance_not_formal_interval_proof": true,
+          "original_source_rank": 8,
+          "primal_solves": [
+            {
+              "dual_from_primal": {
+                "largest_weights": [
+                  {
+                    "payload_index": 12,
+                    "rho_m": 1.05,
+                    "weight": 0.46923509187365525,
+                    "z_m": 2.950000000000184
+                  },
+                  {
+                    "payload_index": 6,
+                    "rho_m": 1.05,
+                    "weight": 0.07338123374884668,
+                    "z_m": 2.9000000000001833
+                  },
+                  {
+                    "payload_index": 27,
+                    "rho_m": 1.1,
+                    "weight": 0.06486038373510758,
+                    "z_m": 3.0500000000001855
+                  },
+                  {
+                    "payload_index": 33,
+                    "rho_m": 1.05,
+                    "weight": 0.04859321248785309,
+                    "z_m": 3.100000000000186
+                  },
+                  {
+                    "payload_index": 41,
+                    "rho_m": 1.1,
+                    "weight": 0.04164098601058821,
+                    "z_m": 3.150000000000187
+                  },
+                  {
+                    "payload_index": 11,
+                    "rho_m": 1.0,
+                    "weight": 0.027088510342618544,
+                    "z_m": 2.950000000000184
+                  },
+                  {
+                    "payload_index": 14,
+                    "rho_m": 1.1500000000000001,
+                    "weight": 0.02172443538915921,
+                    "z_m": 2.950000000000184
+                  },
+                  {
+                    "payload_index": 29,
+                    "rho_m": 0.8500000000000001,
+                    "weight": 0.01836257591132722,
+                    "z_m": 3.100000000000186
+                  },
+                  {
+                    "payload_index": 35,
+                    "rho_m": 1.1500000000000001,
+                    "weight": 0.016341233723546063,
+                    "z_m": 3.100000000000186
+                  },
+                  {
+                    "payload_index": 9,
+                    "rho_m": 0.9,
+                    "weight": 0.015589090120265105,
+                    "z_m": 2.950000000000184
+                  },
+                  {
+                    "payload_index": 32,
+                    "rho_m": 1.0,
+                    "weight": 0.014387225492418318,
+                    "z_m": 3.100000000000186
+                  },
+                  {
+                    "payload_index": 8,
+                    "rho_m": 0.8500000000000001,
+                    "weight": 0.013883010639128961,
+                    "z_m": 2.950000000000184
+                  }
+                ],
+                "minimum_raw_weight": 2.206480406393071e-06,
+                "raw_weight_sum": 1.0000000002013014,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 1.305627995998924e-10
+              },
+              "primal": {
+                "minimum_acceleration_scaled_per_j": -8.998793084423552e-10,
+                "minimum_z_eigenvalue": 2.8672730345669773e-09,
+                "primal_psd_trace_check": true,
+                "trace_z": 0.9999999999999998
+              },
+              "reported_maximin_margin_scaled_per_j": -7.621927897865811e-10,
+              "solver": "CLARABEL",
+              "status": "optimal"
+            },
+            {
+              "dual_from_primal": {
+                "largest_weights": [
+                  {
+                    "payload_index": 35,
+                    "weight": 0.2836150206717361
+                  },
+                  {
+                    "payload_index": 33,
+                    "weight": 0.1814818017254437
+                  },
+                  {
+                    "payload_index": 6,
+                    "weight": 0.15308953642852988
+                  },
+                  {
+                    "payload_index": 27,
+                    "weight": 0.06730276270828393
+                  },
+                  {
+                    "payload_index": 12,
+                    "weight": 0.05035293742866335
+                  },
+                  {
+                    "payload_index": 8,
+                    "weight": 0.04468010609962943
+                  },
+                  {
+                    "payload_index": 29,
+                    "weight": 0.043340069334377465
+                  },
+                  {
+                    "payload_index": 14,
+                    "weight": 0.041428580484422335
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.021079900299530614
+                  },
+                  {
+                    "payload_index": 32,
+                    "weight": 0.017806880660190736
+                  },
+                  {
+                    "payload_index": 17,
+                    "weight": 0.0172331788929303
+                  },
+                  {
+                    "payload_index": 37,
+                    "weight": 0.013576916589224332
+                  }
+                ],
+                "minimum_raw_weight": 0.0,
+                "raw_weight_sum": 0.9999999999999998,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 9.902609415430454e-09
+              },
+              "primal": {
+                "minimum_acceleration_scaled_per_j": -8.311975341928731e-08,
+                "minimum_z_eigenvalue": -5.5466795836117486e-08,
+                "primal_psd_trace_check": true,
+                "trace_z": 1.0000000115156276
+              },
+              "reported_maximin_margin_scaled_per_j": 2.450095906729463e-09,
+              "solver": "SCS",
+              "status": "optimal"
+            }
+          ],
+          "projected_cone_only_certificate": false,
+          "retained_condition_number": 42699006.79380275,
+          "source_names": [
+            "control_R3B_e",
+            "control_R3B_b",
+            "shell_l1_e",
+            "shell_l1_b",
+            "shell_l2_e",
+            "shell_l2_b",
+            "shell_l3_e",
+            "shell_l3_b"
+          ]
+        },
+        "shell_only": {
+          "acceleration_per_joule_scale": 453.5392021130303,
+          "best_verified_dual": {
+            "largest_weights": [
+              {
+                "payload_index": 41,
+                "rho_m": 1.1,
+                "weight": 0.34138471856124575,
+                "z_m": 3.150000000000187
+              },
+              {
+                "payload_index": 33,
+                "rho_m": 1.05,
+                "weight": 0.2725032686888815,
+                "z_m": 3.100000000000186
+              },
+              {
+                "payload_index": 12,
+                "rho_m": 1.05,
+                "weight": 0.18591558483785375,
+                "z_m": 2.950000000000184
+              },
+              {
+                "payload_index": 6,
+                "rho_m": 1.05,
+                "weight": 0.13805909471527938,
+                "z_m": 2.9000000000001833
+              },
+              {
+                "payload_index": 44,
+                "rho_m": 0.9500000000000001,
+                "weight": 0.050645024161302975,
+                "z_m": 3.2000000000001876
+              },
+              {
+                "payload_index": 14,
+                "rho_m": 1.1500000000000001,
+                "weight": 0.008305354773783375,
+                "z_m": 2.950000000000184
+              },
+              {
+                "payload_index": 1,
+                "rho_m": 1.0,
+                "weight": 0.0025981325591331148,
+                "z_m": 2.8500000000001826
+              },
+              {
+                "payload_index": 8,
+                "rho_m": 0.8500000000000001,
+                "weight": 0.0004678409056177758,
+                "z_m": 2.950000000000184
+              },
+              {
+                "payload_index": 29,
+                "rho_m": 0.8500000000000001,
+                "weight": 2.179906504303199e-05,
+                "z_m": 3.100000000000186
+              },
+              {
+                "payload_index": 40,
+                "rho_m": 1.05,
+                "weight": 1.5375074918640323e-05,
+                "z_m": 3.150000000000187
+              },
+              {
+                "payload_index": 13,
+                "rho_m": 1.1,
+                "weight": 6.9532533706464395e-06,
+                "z_m": 2.950000000000184
+              },
+              {
+                "payload_index": 24,
+                "rho_m": 0.9500000000000001,
+                "weight": 6.622025559060148e-06,
+                "z_m": 3.0500000000001855
+              }
+            ],
+            "minimum_raw_weight": 1.868935445416678e-09,
+            "raw_weight_sum": 0.9999999999999996,
+            "strict_negative_dual_witness": false,
+            "valid_simplex": true,
+            "verified_dual_upper_scaled_per_j": -1.4926089153127036e-08
+          },
+          "energy_rank": 6,
+          "finite_grid_declared_cone_outward_impossibility_certificate": false,
+          "full_energy_rank_retained": true,
+          "independent_dual_solves": [
+            {
+              "independently_verified_dual": {
+                "largest_weights": [
+                  {
+                    "payload_index": 41,
+                    "rho_m": 1.1,
+                    "weight": 0.34138471856124575,
+                    "z_m": 3.150000000000187
+                  },
+                  {
+                    "payload_index": 33,
+                    "rho_m": 1.05,
+                    "weight": 0.2725032686888815,
+                    "z_m": 3.100000000000186
+                  },
+                  {
+                    "payload_index": 12,
+                    "rho_m": 1.05,
+                    "weight": 0.18591558483785375,
+                    "z_m": 2.950000000000184
+                  },
+                  {
+                    "payload_index": 6,
+                    "rho_m": 1.05,
+                    "weight": 0.13805909471527938,
+                    "z_m": 2.9000000000001833
+                  },
+                  {
+                    "payload_index": 44,
+                    "rho_m": 0.9500000000000001,
+                    "weight": 0.050645024161302975,
+                    "z_m": 3.2000000000001876
+                  },
+                  {
+                    "payload_index": 14,
+                    "rho_m": 1.1500000000000001,
+                    "weight": 0.008305354773783375,
+                    "z_m": 2.950000000000184
+                  },
+                  {
+                    "payload_index": 1,
+                    "rho_m": 1.0,
+                    "weight": 0.0025981325591331148,
+                    "z_m": 2.8500000000001826
+                  },
+                  {
+                    "payload_index": 8,
+                    "rho_m": 0.8500000000000001,
+                    "weight": 0.0004678409056177758,
+                    "z_m": 2.950000000000184
+                  },
+                  {
+                    "payload_index": 29,
+                    "rho_m": 0.8500000000000001,
+                    "weight": 2.179906504303199e-05,
+                    "z_m": 3.100000000000186
+                  },
+                  {
+                    "payload_index": 40,
+                    "rho_m": 1.05,
+                    "weight": 1.5375074918640323e-05,
+                    "z_m": 3.150000000000187
+                  },
+                  {
+                    "payload_index": 13,
+                    "rho_m": 1.1,
+                    "weight": 6.9532533706464395e-06,
+                    "z_m": 2.950000000000184
+                  },
+                  {
+                    "payload_index": 24,
+                    "rho_m": 0.9500000000000001,
+                    "weight": 6.622025559060148e-06,
+                    "z_m": 3.0500000000001855
+                  }
+                ],
+                "minimum_raw_weight": 1.868935445416678e-09,
+                "raw_weight_sum": 0.9999999999999996,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": -1.4926089153127036e-08
+              },
+              "reported_dual_upper_scaled_per_j": -1.4926035086312917e-08,
+              "solver": "CLARABEL",
+              "status": "optimal"
+            },
+            {
+              "independently_verified_dual": {
+                "largest_weights": [
+                  {
+                    "payload_index": 33,
+                    "weight": 0.4575476366487656
+                  },
+                  {
+                    "payload_index": 12,
+                    "weight": 0.19832153625803267
+                  },
+                  {
+                    "payload_index": 6,
+                    "weight": 0.15739881614001294
+                  },
+                  {
+                    "payload_index": 8,
+                    "weight": 0.14968817629078032
+                  },
+                  {
+                    "payload_index": 44,
+                    "weight": 0.029588930050241904
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.004438279992106354
+                  },
+                  {
+                    "payload_index": 42,
+                    "weight": 0.002122121984837158
+                  },
+                  {
+                    "payload_index": 47,
+                    "weight": 0.00048239634834071105
+                  },
+                  {
+                    "payload_index": 2,
+                    "weight": 0.00041210467039111046
+                  }
+                ],
+                "minimum_raw_weight": 0.0,
+                "raw_weight_sum": 1.0000000000859526,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 7.832034972474038e-09
+              },
+              "reported_dual_upper_scaled_per_j": -1.1794209746195723e-07,
+              "solver": "SCS",
+              "status": "optimal"
+            }
+          ],
+          "maximum_energy_eigenvalue": 1.0009690110877045,
+          "minimum_energy_eigenvalue": 0.8980118872745751,
+          "numerical_tolerance_not_formal_interval_proof": true,
+          "original_source_rank": 6,
+          "primal_solves": [
+            {
+              "dual_from_primal": {
+                "largest_weights": [
+                  {
+                    "payload_index": 41,
+                    "weight": 0.33797334523504646
+                  },
+                  {
+                    "payload_index": 33,
+                    "weight": 0.2752029649155266
+                  },
+                  {
+                    "payload_index": 12,
+                    "weight": 0.18359079928181676
+                  },
+                  {
+                    "payload_index": 6,
+                    "weight": 0.13852439314320864
+                  },
+                  {
+                    "payload_index": 44,
+                    "weight": 0.050445325786602165
+                  },
+                  {
+                    "payload_index": 14,
+                    "weight": 0.008294392717614141
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.0026271200380050064
+                  },
+                  {
+                    "payload_index": 40,
+                    "weight": 0.0012081739993334603
+                  },
+                  {
+                    "payload_index": 8,
+                    "weight": 0.0006966508879309412
+                  },
+                  {
+                    "payload_index": 24,
+                    "weight": 0.00011642373246868569
+                  },
+                  {
+                    "payload_index": 13,
+                    "weight": 0.00010974434435566026
+                  },
+                  {
+                    "payload_index": 9,
+                    "weight": 7.003475258292752e-05
+                  }
+                ],
+                "minimum_raw_weight": 3.008305103507715e-08,
+                "raw_weight_sum": 1.000000000749612,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": -1.4899358250834401e-08
+              },
+              "primal": {
+                "minimum_acceleration_scaled_per_j": -1.4941295675716847e-08,
+                "minimum_z_eigenvalue": 1.1472026592019543e-09,
+                "primal_psd_trace_check": true,
+                "trace_z": 1.0
+              },
+              "reported_maximin_margin_scaled_per_j": -1.4927855481490932e-08,
+              "solver": "CLARABEL",
+              "status": "optimal"
+            },
+            {
+              "dual_from_primal": {
+                "largest_weights": [
+                  {
+                    "payload_index": 14,
+                    "weight": 0.2691754322891636
+                  },
+                  {
+                    "payload_index": 35,
+                    "weight": 0.2345244812061784
+                  },
+                  {
+                    "payload_index": 33,
+                    "weight": 0.19699541564885337
+                  },
+                  {
+                    "payload_index": 8,
+                    "weight": 0.13734907908165345
+                  },
+                  {
+                    "payload_index": 1,
+                    "weight": 0.07903324427562465
+                  },
+                  {
+                    "payload_index": 42,
+                    "weight": 0.03113101998750262
+                  },
+                  {
+                    "payload_index": 36,
+                    "weight": 0.027436688105674567
+                  },
+                  {
+                    "payload_index": 17,
+                    "weight": 0.010395805401208961
+                  },
+                  {
+                    "payload_index": 6,
+                    "weight": 0.01032375764889503
+                  },
+                  {
+                    "payload_index": 43,
+                    "weight": 0.003372109028663372
+                  },
+                  {
+                    "payload_index": 0,
+                    "weight": 0.00026296732658205493
+                  }
+                ],
+                "minimum_raw_weight": -3.5806571958737973e-28,
+                "raw_weight_sum": 0.9999999999998844,
+                "strict_negative_dual_witness": false,
+                "valid_simplex": true,
+                "verified_dual_upper_scaled_per_j": 2.7714501907818606e-07
+              },
+              "primal": {
+                "minimum_acceleration_scaled_per_j": -3.8565460181736157e-07,
+                "minimum_z_eigenvalue": -2.24461300286769e-08,
+                "primal_psd_trace_check": true,
+                "trace_z": 1.000000000049193
+              },
+              "reported_maximin_margin_scaled_per_j": -3.1318805300394203e-07,
+              "solver": "SCS",
+              "status": "optimal_inaccurate"
+            }
+          ],
+          "projected_cone_only_certificate": false,
+          "retained_condition_number": 1.1146500678577869,
+          "source_names": [
+            "shell_l1_e",
+            "shell_l1_b",
+            "shell_l2_e",
+            "shell_l2_b",
+            "shell_l3_e",
+            "shell_l3_b"
+          ]
+        }
+      },
+      "h_m": 0.05,
+      "loaded_source_residual": 3.03738284209797e-15,
+      "payload_points": 48
+    }
+  ],
+  "microscopic_source_realized": false,
+  "next": "AUDIT_R3X2R1_CONDITIONING_OR_FIND_CONSTRUCTIVE_SOURCE",
+  "parity_anomaly_completed": false,
+  "physical_antigravity_model_found": false,
+  "prior": {
+    "branch": "032H17A12D1R3X2",
+    "prior_solver_diagnostics": [
+      {
+        "catalogs": {
+          "baseline_augmented_diagnostic": {
+            "error": "Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.",
+            "status": "SOLVER_EXCEPTION"
+          },
+          "shell_only": {
+            "error": "Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.",
+            "status": "SOLVER_EXCEPTION"
+          }
+        },
+        "grid_h_m": 0.075
+      },
+      {
+        "catalogs": {
+          "baseline_augmented_diagnostic": {
+            "error": null,
+            "status": "infeasible"
+          },
+          "shell_only": {
+            "error": null,
+            "status": "infeasible"
+          }
+        },
+        "grid_h_m": 0.05
+      }
+    ],
+    "source_support_ward_pass": true
+  }
+}

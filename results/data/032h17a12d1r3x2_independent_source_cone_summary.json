@@ -1,0 +1,236 @@
+{
+  "006d_replaced": false,
+  "branch": "032H17A12D1R3X2",
+  "certified_sub10mj_model_found": false,
+  "complete_energy_established": false,
+  "constitutive_action": {
+    "anomaly_cancellation_proven": false,
+    "canonical_kinetic_eigenvalues": [
+      1.0,
+      1.0
+    ],
+    "constitutive_D_X": "E_X + theta B_Y",
+    "constitutive_H_Y": "B_Y - theta E_X",
+    "field_redefinition_invariant": true,
+    "independent_u1_gauge_bianchi_pass": true,
+    "nonlinear_metric_action_rederived": false,
+    "physicalized_parity_odd_source_current": false,
+    "polar_x_axial_y_parity_algebra_pass": true,
+    "positive_K_ampere_offdiagonal_sign": -1,
+    "positive_K_gauss_offdiagonal_sign": 1,
+    "static_lorentzian_hessian_diagonal_signs": [
+      1,
+      -1
+    ],
+    "static_lorentzian_lagrangian": "0.5*(E_X2+E_Y2-B_X2-B_Y2)+theta*(E_X.B_Y+E_Y.B_X)"
+  },
+  "continuum_convergence_certified": false,
+  "cross_grid_common_physical_source": {
+    "pass": false,
+    "reason": "no_two_lane_fine_grid_source"
+  },
+  "cross_u1_parity_anomaly_completed": false,
+  "decision": "YELLOW_SCOPED_R3X2_NO_VERIFIED_LOW_FIELD_TWO_LANE_SHELL_SOURCE_SURVIVOR_IN_DECLARED_CONE",
+  "grids": [
+    {
+      "baseline_control_energy_j": 1.4433196404756452,
+      "baseline_control_min_a_m_s2": -46.40607408466014,
+      "baseline_matches_r3x1": true,
+      "catalogs": {
+        "baseline_augmented_diagnostic": {
+          "error": "Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.",
+          "source_names": [
+            "control_R3B_e",
+            "control_R3B_b",
+            "shell_l1_e",
+            "shell_l1_b",
+            "shell_l2_e",
+            "shell_l2_b",
+            "shell_l3_e",
+            "shell_l3_b"
+          ],
+          "source_realization_complete": false,
+          "status": "SOLVER_EXCEPTION",
+          "two_lane_constructive_pass": false,
+          "verified_relaxed_feasible": false
+        },
+        "shell_only": {
+          "error": "Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.",
+          "source_names": [
+            "shell_l1_e",
+            "shell_l1_b",
+            "shell_l2_e",
+            "shell_l2_b",
+            "shell_l3_e",
+            "shell_l3_b"
+          ],
+          "source_realization_complete": false,
+          "status": "SOLVER_EXCEPTION",
+          "two_lane_constructive_pass": false,
+          "verified_relaxed_feasible": false
+        }
+      },
+      "grid_h_m": 0.075,
+      "payload_grid_points": 22,
+      "physical_sign_loaded_residual": 1.690614822571465e-15,
+      "source_modes": [
+        {
+          "name": "control_R3B_e",
+          "shell_source": false,
+          "unscaled_source_vacuum_j": 0.20714544408458657
+        },
+        {
+          "name": "control_R3B_b",
+          "shell_source": false,
+          "unscaled_source_vacuum_j": 1.2525627170127702
+        },
+        {
+          "name": "shell_l1_e",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 9.882130322543243e-12
+        },
+        {
+          "name": "shell_l1_b",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 1.9729689225777395e-11
+        },
+        {
+          "name": "shell_l2_e",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 9.637157406301656e-12
+        },
+        {
+          "name": "shell_l2_b",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 1.4596133014039524e-11
+        },
+        {
+          "name": "shell_l3_e",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 9.450467909643348e-12
+        },
+        {
+          "name": "shell_l3_b",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 1.2636158744882037e-11
+        }
+      ]
+    },
+    {
+      "baseline_control_energy_j": 1.5211390382733037,
+      "baseline_control_min_a_m_s2": -129.67185782256354,
+      "baseline_matches_r3x1": true,
+      "catalogs": {
+        "baseline_augmented_diagnostic": {
+          "reported_optimal_field_j": null,
+          "source_names": [
+            "control_R3B_e",
+            "control_R3B_b",
+            "shell_l1_e",
+            "shell_l1_b",
+            "shell_l2_e",
+            "shell_l2_b",
+            "shell_l3_e",
+            "shell_l3_b"
+          ],
+          "source_realization_complete": false,
+          "status": "infeasible",
+          "two_lane_constructive_pass": false,
+          "verified_relaxed_feasible": false
+        },
+        "shell_only": {
+          "reported_optimal_field_j": null,
+          "source_names": [
+            "shell_l1_e",
+            "shell_l1_b",
+            "shell_l2_e",
+            "shell_l2_b",
+            "shell_l3_e",
+            "shell_l3_b"
+          ],
+          "source_realization_complete": false,
+          "status": "infeasible",
+          "two_lane_constructive_pass": false,
+          "verified_relaxed_feasible": false
+        }
+      },
+      "grid_h_m": 0.05,
+      "payload_grid_points": 48,
+      "physical_sign_loaded_residual": 3.03738284209797e-15,
+      "source_modes": [
+        {
+          "name": "control_R3B_e",
+          "shell_source": false,
+          "unscaled_source_vacuum_j": 0.2197938413815757
+        },
+        {
+          "name": "control_R3B_b",
+          "shell_source": false,
+          "unscaled_source_vacuum_j": 1.3179702246467206
+        },
+        {
+          "name": "shell_l1_e",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 9.973664089459473e-12
+        },
+        {
+          "name": "shell_l1_b",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 1.9955657746102174e-11
+        },
+        {
+          "name": "shell_l2_e",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 9.832995002268074e-12
+        },
+        {
+          "name": "shell_l2_b",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 1.480941299009029e-11
+        },
+        {
+          "name": "shell_l3_e",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 9.692727930214078e-12
+        },
+        {
+          "name": "shell_l3_b",
+          "shell_source": true,
+          "unscaled_source_vacuum_j": 1.2961202224629362e-11
+        }
+      ]
+    }
+  ],
+  "interacting_stability_certified": false,
+  "next": "032H17A12D1R3X3_SOURCE_CONE_DUAL_AND_PARITY_GATE",
+  "nonlinear_full_metric_noether_completed": false,
+  "physical_antigravity_model_found": false,
+  "provenance": {
+    "pass": true,
+    "r3x1_full_load_one_g": false,
+    "r3x1_lorentzian_direct_verification_pass": true
+  },
+  "psd_relaxation_not_physical_two_lane_certificate": true,
+  "shell_two_lane_low_field_candidate_both_grids": false,
+  "source_shell_microphysicalized": false,
+  "source_support_ward_pass": true,
+  "source_ward": {
+    "azimuthal_surface_current_divergence_zero_by_axisymmetry": true,
+    "full_matter_metric_noether_ward_proven": false,
+    "independent_axial_gauge_source_and_anomaly_canceled": false,
+    "net_charge_zero_pass": true,
+    "net_electric_charge_multipole_flux_residuals": {
+      "1": 1.0408340855860843e-17,
+      "2": 6.700369425960417e-17,
+      "3": 2.2551405187698492e-17
+    },
+    "shell_orders": [
+      1,
+      2,
+      3
+    ],
+    "shell_support_radius_m": 2.0,
+    "shell_surface_source_microphysicalized": false,
+    "zero_electric_and_magnetic_monopole_source": true
+  }
+}
