@@ -2,287 +2,197 @@
 
 > **For the benefit of humanity**
 
-![Historical False-Core Topological Skyrmion Antigravity Model](assets/img.png)
+**Research status: November 9, 2026 · Primary program: 032H17 — HOOK17 · Latest completed branch: R3X3B0 · Full regression: 1,283 passed**
 
-# **We have a mathematical construction for true gravitational repulsion — and a new low-capacity successor mechanism under active physicalization.**
+![HOOK17 R3B — Conceptual schematic of the 1.542916 J preloaded mixed-electric/magnetic field-capacity model, showing the 1 kg neutral toroidal payload at 1 m true external stand-off. Not a demonstrated physical antigravity device.](assets/hook17_r3b_1p542916j_preloaded_mixed_eb_schematic.png)
 
-The strongest conservative and fully established project result remains:
+# Flagship theoretical result: ~1.54 J mixed-electric/magnetic field capacity
 
-> **Within static linearized general relativity, there exists an explicit finite-radius, finite-thickness, nonsingular, positive-energy, locally conserved type-I stress-energy configuration satisfying NEC, WEC, and DEC whose calculated gravitational field points outward over a true external stand-off region while its far-field active mass remains positive.**
+The most striking **low-field-energy result currently preserved by this project** is **032H17A12D1R3B**, a numerical construction within a proposed universal-metric, topological mixed-electric/magnetic reduced model. After normalizing the preloaded field to the finite-payload benchmark, it reported **1.5429162116460216 J of canonical field energy** while calculating at least **1 g outward acceleration across the sampled 1 kg neutral toroidal payload at 1 m true external stand-off**.
 
-That construction is:
+This is a **preloaded, reduced-model field-capacity result**, **not** the complete energy needed to produce gravitational repulsion in the laboratory. The source and payload were **not** shown to coexist as a viable, stable, self-consistent physical system. In the later corrected **frozen-β finite-matter loading** calculations, the original field morphology fails the everywhere-outward criterion; a complete microscopic same-action model remains unconstructed. **No working antigravity device or complete sub-10-MJ physical model has been demonstrated.**
 
-# **006D**
+| R3B flagship quantity | Recorded result | What is actually established |
+|---|---:|---|
+| Canonical **preloaded** mixed-field energy | **1.5429162116460216 J** | Numerical reduced-model field inventory, not total operating energy |
+| Reference neutral payload | 1 kg torus | Finite matter distribution used as a *preloaded-response probe* |
+| Minimum calculated preloaded outward acceleration | **9.80665 m/s² (1 g)** | Across sampled payload; before full matter feedback |
+| True external source-to-payload stand-off | **1.0 m** | Geometric benchmark in the declared idealized configuration |
+| Electric monopole charge | **Zero** | Field-level net-neutral harmonic electric completion |
+| Fully supported microscopic source | **Not demonstrated** | Later inverse-source audit found source-support concerns |
+| Corrected loaded original mirror at 1 g | **Fails in tested configuration** | Matter-interface loading reverses acceleration at some points |
+| Certified complete conservative energy <10 MJ | **No** | Source, support, reaction, compensator, stability and UV costs remain open |
 
-006D remains the project's foundational result and the strongest construction currently treated as **established within its precisely stated mathematical scope**.
+**Reproduce and audit the flagship result:** [**November 9 R3B–R3X3B0 research journal — provenance, equations, source hashes, numerical checks, and rerun commands**](journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md). See also the [chronological carry-forward notes](notes/chronology/0035_november_9_2026_hook17_r3b_r3x3b0_vacuum_interface_carry_forward.md).
 
-It is a constructive linearized-GR stress-energy result.
 
-It is **not**:
+## What the 1.54 J result represents
 
-* an experimental observation;
-* an exact nonlinear Einstein-matter solution;
-* a known antigravity material;
-* a dynamically demonstrated physical apparatus;
-* reactionless propulsion;
-* or a practical antigravity device.
+R3B built on the **A12B** massless symmetry-protected concurrent-\(U(1)\) carrier corridor and the earlier **A12C** gauge-invariant universal-metric response. In its mixed-field variant, a pseudoscalar topological invariant enters a proposed conformal physical metric:
 
-The project has now advanced substantially beyond the original question of whether true outward gravitational response is mathematically possible.
+\[
+P=F_{\mu\nu}\widetilde F^{\mu\nu}=-4\mathbf E\cdot\mathbf B,
+\qquad
+\widetilde g_{\mu\nu}=e^{2\sigma(P)}g_{\mu\nu}.
+\]
 
-A much newer result provides a dramatically lower field-capacity reference:
+A locally aligned electric/magnetic construction can match the earlier \(F^2\) model's invariant-per-canonical-field-energy efficiency. R3B extended that idea with a globally continued, net-electrically-neutral **field-level** mirror, predominantly dipolar, and obtained the quoted approximately 1.54 J canonical inventory after normalization to 1 g. The physics of the hypothesized metric coupling is **not experimentally validated**; this is a calculated response of the declared theoretical model.
 
-# **A12B + A12C + A12D0**
+An important qualification is that **global field continuation and vanishing net charge are not proofs of a physically supportable source**. In particular, the later R3X3B0 calculation found significant baseline electric-source residual outside the originally allowed 2-m source region. The original numerical precision also must not be confused with a 16-digit continuum error bound.
 
-At the declared reference normalization, the current reduced-EFT mechanism produces:
+### Why the flagship is not yet a physical antigravity model
 
-```text
-FINITE NEUTRAL PAYLOAD=
-1 kg torus
+The same matter coupling that produces the proposed metric response also changes the carrier equations when the **finite neutral payload** is included. The spatial density gradient at the payload's interface distorts the electric/magnetic fields and reverses the calculated acceleration at some points. The latest corrected Lorentzian-sign test, **R3X3B0**, reproduced:
 
-TRUE EXTERNAL STANDOFF=
-1.0 m
+| Grid spacing | Preloaded field energy | Preloaded minimum acceleration | Fully loaded field energy | **Fully loaded worst acceleration** |
+|---|---:|---:|---:|---:|
+| 0.075 m | 1.459708 J | +9.80665 m/s² | 1.443320 J | **−46.4061 m/s²** |
+| 0.050 m | 1.537764 J | +9.80665 m/s² | 1.521139 J | **−129.6719 m/s²** |
 
-MINIMUM SAMPLED OUTWARD ACCELERATION=
-9.80665 m/s²
+These grid-specific inventories are not identical to the earlier R3B global 1.542916 J result; they come from different numerical reconstruction/normalization stages. The table is **not** evidence of continuum convergence or measured laboratory acceleration.
 
-MAXIMUM SAMPLED OUTWARD ACCELERATION=
-22.889174637504706 m/s²
+**The failure is primarily one of loaded field morphology, not rising Maxwell field energy.** Adding more of the same field does not fix inward acceleration where the direction is wrong.
 
-PAYLOAD COM ACCELERATION=
-15.042170908175194 m/s²
+The R3X3B0 inverse-loading audit also found that preserving the *exact original global potentials* under full loading requires correction terms
 
-CANONICAL FIELD ENERGY=
-2.6568591420597114 J
+\[
+\Delta J_\phi=C A_0,\qquad \Delta J_A=-D\phi_0,
+\]
 
-CANONICAL SOURCE WORK=
-2.6577816871671844 J
+concentrated at or near the payload, **outside the originally permitted external source support** in both tested finite grids. These are *discrete Euler–Lagrange residuals*, **not** physical charge/current measurements or joules. This is a scoped obstruction to preserving the **exact old mirror with only old external source currents**. It does **not** exclude all altered loaded configurations or new action-derived compensators.
+
+A vacuum can support electromagnetic fields and remove the *ambient material* loading of an empty region; it does **not** remove the finite neutral payload's own matter interfaces. A dilute test-body limit is worth studying separately but is not a substitute for the 1 kg benchmark.
+
+## Current scientific hierarchy
+
+**Two different kinds of achievement must be kept distinct:**
+
+1. **006D — conservative GR anchor.** The strongest established true external stand-off construction in this project, within *static linearized general relativity*: finite nonsingular positive-energy locally conserved source, NEC/WEC/DEC pass, outward near field, positive far-field active mass, and \(C_{006D}=23.591586299249\). It retains catastrophic approximately \(1/G\) energy scaling; **it is not a device or a full nonlinear solution**.
+2. **R3B — flagship low-capacity successor clue.** The lowest recorded normalized globally completed **preloaded** mixed-electric/magnetic canonical field-energy result: **1.542916 J**, for the sampled finite neutral 1-g/1-m benchmark. This is **not** yet a physically realized loaded model.
+3. **A12B/A12C — protected-carrier and earlier low-capacity backbone.** A12B provides the scoped massless concurrent-\(U(1)\) carrier structure. A12C reported **2.6568591420597114 J** of canonical \(F^2\) field energy, with **15.04217 m/s²** center-of-mass acceleration in the reduced 1-kg/1-m model; ordinary same-action material loading defeated naive reuse of that field. **Do not attribute A12C's COM value to R3B**.
+4. **R3X3B0 — latest tested obstruction.** Corrected Lorentzian field equations and exact signed-sector conjugacy; the exact R3B-like preloaded field cannot be maintained by old external-only source changes when finite matter is loaded, on the two tested grids. **This is not a universal no-go theorem.**
+
+| Result / family | Durable contribution | Physical limitation / current classification |
+|---|---|---|
+| **006D** | Positive-energy conserved GR true stand-off; \(C=23.591586299249\) | Established *linearized construction*, prohibitive energy |
+| **018B / 018C** | Microscopic field existence | Fatal nonaxisymmetric \(m=2\) instability in tested realization |
+| **B7 / 026** | False-core topological Skyrmion morphology, DEC and outward finite-payload sign | Not a certified clean external stand-off successor; continuum convergence open |
+| **Introspective** | Productive participation, source-to-kernel leverage, low cancellation | `RAW_GE1000X_SIGNAL=PRESENT`; `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO` |
+| **031** | Scalar-metric and Q-ball source/geometry analyses | Tested scalar naturalness/protection and high-energy obstructions |
+| **AGMINER V17/V18** | Historical partial low-energy kinetic-conformal corridors | Incomplete source/empirical/UV/support accounting |
+| **V24 / early HOOK17** | Intrinsic hypermomentum and quadratic hook-metric mechanism clues | Early ~17 J figure was a stress-test *capacity*, not a device |
+| **A10F2** | First strict modeled 1-kg/1-g/1-m HOOK17 finite payload | ~0.563 MJ partial field/loading; tested microscopic carrier failed naturalness |
+| **A12B** | Exact protected massless concurrent-\(U(1)\) carrier corridor in declared action | Complete physical matter/source/meter-scale realization open |
+| **A12C** | 2.656859 J \(F^2\) reduced-EFT field capacity | Same-action ordinary-matter loading/source failures |
+| **R3A / R3B** | Topological bulk-loading suppression and **1.542916 J** globally completed net-neutral preloaded field | Interface backreaction and microscopic support unresolved |
+| **R3C / R3C1 / R3D0** | Interface failure, variational repair, static-node integrability preflight | Original mirror fails; tested exact single-field node obstructed |
+| **R3X1 / R3X2 / R3X2R1 / R3X2R2** | Correct Lorentzian signs; source-cone primal–dual numerical exclusions | Declared finite-dimensional spaces only; no general no-go theorem |
+| **R3X3A / R3X3B0** | Opposite-sector source-cone exclusion; exact sign-conjugacy; inverse-source localization | Does not exclude new action-derived interface response or altered field profiles |
+
+**Historical failures remain part of the scientific record.** The detailed older model descriptions, supporting equations, prior numerical figures, and source/failure atlas are preserved in the historical research appendix below. A model remains a *partial* or *scoped* result unless the stated physical gates pass.
+
+## Performance and certification requirements
+
+The target is **at least** \(9.80665\,\mathrm{m\,s^{-2}}\) outward acceleration **everywhere** across a **finite neutral payload**, at **at least 1.0 m true external stand-off**, through **one universal physical metric**. More acceleration or stand-off is favorable, but neither relaxes the other constraints.
+
+The conservative complete operating energy must be **strictly below 10 MJ**, with **exactly 10 MJ failing**. The ledger must include the microscopic source and its preparation, canonical field, metric/mediator, compensator, symmetry breaking, polarization, support and confinement, activation/control/reset, reaction/radiation, finite-matter and metric backreaction, quantum/RG/UV, leakage, and off-state costs. A 1.54 J Maxwell inventory is not the ledger.
+
+Scientific promotion additionally requires exact same-action provenance, gauge/Ward/Noether identities, conservation, canonical normalization, field-redefinition-invariant observables, healthy modes and interacting stability, source support outside the payload, finite-payload convergence, physical reaction, empirical constraints, naturalness, and independent reconstruction. **No candidate currently passes all these gates.**
+
+## Reproducing the central result
+
+The [**November 9 research journal**](journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md) is the dedicated reproducibility record. It contains the historical R3B source/simulation/test SHA-256 fingerprints; the analytical preloaded identity; output values, source-support limitations, and later R3X3B0 falsification; plus artifact-level and regression checks.
+
+**R3B original implementation:**
+
+- `src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py`
+- `simulations/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py`
+- `tests/agminer/test_032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py`
+- `results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json`
+
+The historical spelling `prefight` is intentional in these paths; do not silently rename it to `preflight`.
+
+**Most recent inverse-loading validation:**
+
+- `src/antigravity_research/agminer/hook17_fdual_f_r3x3b0_inverse_loading.py`
+- `simulations/032h17a12d1r3x3b0_inverse_loading_gate.py`
+- `tests/agminer/test_032h17a12d1r3x3b0_inverse_loading.py`
+- `results/data/032h17a12d1r3x3b0_inverse_loading_summary.json`
+
+Run from the project root, using its recorded environment:
+
+```bash
+ROOT="$(pwd)"
+PY="$ROOT/.venv/bin/python"
+
+PYTHONPATH="$ROOT/src" "$PY" -m pytest -q \
+  "$ROOT/tests/agminer/test_032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py"
+
+PYTHONPATH="$ROOT/src" "$PY" -u \
+  "$ROOT/simulations/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py"
+
+PYTHONPATH="$ROOT/src" "$PY" -m pytest -q \
+  "$ROOT/tests/agminer/test_032h17a12d1r3x3b0_inverse_loading.py"
+
+PYTHONPATH="$ROOT/src" "$PY" -u \
+  "$ROOT/simulations/032h17a12d1r3x3b0_inverse_loading_gate.py"
+
+PYTHONPATH="$ROOT/src" "$PY" -m pytest -q
 ```
 
-This is the project's lowest current **normalized finite-payload field-capacity reference**.
+The **last recorded complete regression is 1,283 passed**; this count should be updated after any confirmed change to the test suite. Regenerating a matching JSON and passing tests are necessary reproducibility checks, **not** proof of experimental repulsion, continuum convergence, source physicality, or independent reimplementation. The September historical codebundle includes R3B; a **new complete codebundle is still needed** for the later R3X-series additions and dependency lock.
 
-However:
+[See the full R3B/R3X3B0 reproduction journal](journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md).
 
-> **The 2.656859 J result is not the complete energy of an antigravity model or device.**
+## Latest tests and what they ruled out
 
-It is a field-only reduced-EFT reference.
+- **R3A:** The linear topological portal suppresses the destructive *uniform* bulk-loading contribution relative to the ordinary \(F^2\) corridor by approximately \(1.84\times10^{15}\) in the declared calculation; it does **not** remove density-gradient interface loading.
+- **R3C1:** Weighted discrete variational reciprocity and direct-solver agreement were repaired and verified. The simple mirror loses the required acceleration under very small but nonzero finite-matter loading.
+- **R3D0:** No nontrivial exact static single-field node survived the tested integrable harmonic source basis.
+- **R3X1:** Corrected Lorentzian constitutive signs; the loaded original mirror has strongly negative worst-point acceleration on the sampled grids.
+- **R3X2R2:** Independent spectral dual witnesses exclude the tested low-order shell-source cone under the 10-MJ canonical field budget on both grids. The shell-only coarse-grid conditional lower bound is ~27.71 MJ under the declared \(10^{-9}\) matrix perturbation; the finer-grid shell-only dual is negative. These are finite-grid numerical results, not continuum theorems.
+- **R3X3A:** Independent positive/negative canonical sector splitting did not rescue the tested shell-source family. The coarse-grid conditional lower bound is ~20.19 MJ under its declared sensitivity assumption; the fine-grid dual is negative.
+- **R3X3B0:** Exact signed-sector matrix conjugacy passed. The inverse-source correction needed to hold the *exact* original potentials is located outside permitted old external support in both tested grids. The first connected loss of the strict 1-g criterion occurs near uniform-loading fractions \(1.12\times10^{-5}\) (coarse) and \(8.60\times10^{-6}\) (fine); this loading fraction is an **artificial diagnostic**, not a free physical control parameter.
 
-The microscopic source, support, UV completion, radiative effects, activation, reaction, backreaction, stability, and complete operating-energy ledger are not yet established.
+The strong exclusions apply to **specified numerical source families and exact-profile preservation**. They do not close the entire topological mechanism, all possible microscopic source sectors, or all action-derived compensation terms.
 
-Therefore:
+## Current next branch: R3X3B1
 
-```text
-2.656859 J FIELD REFERENCE=
-ESTABLISHED WITHIN DECLARED REDUCED-EFT PREFLIGHT
+**032H17A12D1R3X3B1 — action-derived interface-compensator preflight.** The next valuable question is whether a **genuinely new, conserved, gauge-invariant and stable interaction**, obtained by varying a *single* action, can change the loaded interface response without suppressing the useful physical-metric acceleration.
 
-2.656859 J COMPLETE MODEL=
-NO
+The priority sequence is:
 
-PHYSICAL ANTIGRAVITY MODEL=
-NO
+1. **Freeze and independently reproduce** the R3B original field result; audit its baseline electric-source support and capture the newer codebundle, tests, artifact hashes and dependency versions.
+2. **Derive and falsify a minimal interface compensator** using exact Ward/Noether identities, field-redefinition tests, parity/CP and source/energy constraints **before** authorizing another expensive loaded BVP.
+3. **Separate vacuum-field existence, dilute test-body response and fully loaded finite matter.** An empty evacuated region may avoid ambient material gradients, but a 1 kg payload brings its own matter interface; success in vacuum alone does **not** meet the project benchmark.
+4. **Only for a surviving action** construct a different truly loaded, finite-payload field profile, check identical physical sources across grids and independent coupled solves, and then calculate the full conservative energy/stability/empirical ledger.
 
-PRACTICAL DEVICE=
-NO
-```
+Do **not** repeat ordinary 1-keV \(F^2\) current sculpting, the minimal electron-Pauli source, low-order shell-cone searches, global electric/magnetic amplitude tuning, or sign-sector relabeling without genuinely new physics. Do **not** chase 1.54 J downward when field energy is already below 100 J.
 
-The present research problem is now:
+## Research records and disclosure
 
-> **Can a physically realizable microscopic source preserve this low-capacity protected mechanism while surviving exact Ward identities, canonical normalization, UV/naturalness, radiative mixing, empirical limits, support/reaction, stability, nonlinear backreaction, and a complete conservative operating-energy requirement strictly below 10 MJ?**
+- [R3B flagship and R3X3B0 falsification journal (November 9, 2026)](journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md)
+- [Current chronological carry-forward notes 0035](notes/chronology/0035_november_9_2026_hook17_r3b_r3x3b0_vacuum_interface_carry_forward.md)
+- [006D conservative GR reconstruction](journal/2026-08-28_006d_constructive_linearized_gr_repulsion.md)
+- [A12B/A12C early protected-carrier and 2.656859 J journal](journal/2026-09-14_032h17a11c_032h17a12d0_k2_closeout_protected_massless_u1_f2_1g1m_low_capacity_and_completion_atlas.md)
+- [RESEARCH_BUILDPLAN.md](RESEARCH_BUILDPLAN.md) · [AGMINER_BUILDPLAN.MD](AGMINER_BUILDPLAN.MD) · [INTROSPECTIVE_BUILDPLAN.md](INTROSPECTIVE_BUILDPLAN.md)
+- [FORMATTING_AND_CODE_STANDARDS.md](FORMATTING_AND_CODE_STANDARDS.md) · [AI_ASSISTANCE.md](AI_ASSISTANCE.md)
+
+The newest code, journals, notes, and simulation results supersede outdated *frontier* language in older planning documents. The detailed older scientific history is preserved below as an **archival snapshot**, not as November-current guidance.
+
+Antigravity Research is **human-directed, AI-assisted theoretical research**. ChatGPT has helped with derivations, code, numerical analysis, falsification, and documentation. AI-assisted results remain subject to independent validation; use of ChatGPT does not imply OpenAI endorsement. Novelty relative to the full literature has **not** been established. No experimental antigravity, reactionless propulsion, or working device is claimed.
+
+## Licensing
+
+Software is offered under **MIT OR Apache-2.0**, at the user's option. Original research materials, original figures, and generated data are designated **CC0 1.0 Universal**, as described in [LICENSE.md](LICENSE.md) and `LICENSES/`. Third-party content retains its own license.
 
 ---
 
-# Current Research State
+# Historical research appendix — preserved September 15, 2026 narrative
 
-The current hierarchy is:
+> **ARCHIVAL NOTICE:** The following original detailed model descriptions, equations, numeric comparisons, literature notes, and program closures are retained to preserve the research record. References below to the *"current"* or *"immediate next"* branch, the **2.656859 J result as the lowest field-capacity reference**, 1,080 passing tests, or electron-Pauli source priority are statements of the **September 15, 2026 snapshot** and have been superseded by the November 9 status **above**. They must not be used as current claims. New R3B–R3X3B0 results are documented above and in the linked journal.
 
-```text
-006D
-=
-STRONGEST ESTABLISHED CONSERVATIVE TRUE-STANDOFF CONSTRUCTION
-
-
-A12B + A12C + A12D0
-=
-STRONGEST CURRENT LOW-CAPACITY SUCCESSOR MECHANISM
-
-
-A12D1
-=
-IMMEDIATE MICROSCOPIC SOURCE-PHYSICALIZATION GATE
-```
-
-Current high-level state:
-
-```text
-STRONGEST_ESTABLISHED_CONSERVATIVE_RESULT=
-006D
-
-006D_SCOPE=
-STATIC_LINEARIZED_GR
-
-006D_COEFFICIENT=
-23.591586299249
-
-006D_NEC_WEC_DEC=
-PASS
-
-006D_LOCAL_CONSERVATION_LINEARIZED_ORDER=
-PASS
-
-006D_OUTWARD_NEAR_FIELD=
-YES
-
-006D_TRUE_EXTERNAL_STANDOFF=
-YES
-
-006D_POSITIVE_FAR_FIELD_ACTIVE_MASS=
-YES
-
-006D_SUCCEEDED_BY_A12=
-NO
-
-
-MIN_OUTWARD_ACCELERATION_M_S2=
-9.80665
-
-MIN_TRUE_STANDOFF_M=
-1.0
-
-PERFORMANCE_ABOVE_FLOOR=
-FAVORABLE
-
-
-PRIMARY_HIGH_VALUE_PROGRAM=
-032H17_HOOK17
-
-
-CURRENT_PRIMARY_BACKBONE=
-A12B_PLUS_A12C
-
-
-A12B_EXACT_MASSLESS_PROTECTED_CARRIER=
-GREEN_SCOPED
-
-A12B_GAIN_FROM_NEAR_SINGULAR_MIXING=
-NO
-
-
-A12C_GAUGE_INVARIANT_F2_METRIC=
-GREEN_SCOPED
-
-A12C_REFERENCE_PORTAL_SCALE_EV=
-1000
-
-A12C_PAYLOAD_MASS_KG=
-1.0
-
-A12C_TRUE_EXTERNAL_STANDOFF_M=
-1.0
-
-A12C_MIN_ACCELERATION_M_S2=
-9.80665
-
-A12C_MAX_ACCELERATION_M_S2=
-22.889174637504706
-
-A12C_COM_ACCELERATION_M_S2=
-15.042170908175194
-
-A12C_FIELD_ENERGY_J=
-2.6568591420597114
-
-A12C_SOURCE_WORK_J=
-2.6577816871671844
-
-A12C_FIELD_IMPROVEMENT_VS_A10F2=
-211891.10888238018X
-
-A12C_COMPLETE_ENERGY=
-UNKNOWN
-
-A12C_ORDINARY_EM_LIKE_SOURCE=
-CLOSED
-
-A12B_CARRIER_CLOSED=
-NO
-
-A12C_F2_MECHANISM_CLOSED=
-NO
-
-
-A12D0_SOURCE_FAMILIES=
-12
-
-A12D0_OPEN_OR_RESEARCHABLE_SOURCE_FAMILIES=
-8
-
-A12D0_TOTAL_SOURCE_PORTAL_COMBINATIONS=
-78
-
-A12D0_OPEN_SOURCE_PORTAL_COMBINATIONS=
-35
-
-A12D0_TOP_SOURCE_COMPLETION=
-ELECTRON_PAULI_MAGNETIZATION
-
-A12D0_TOP_METRIC_PORTAL=
-MAGNETOSTATIC_CONFORMAL_F2
-
-A12D0_TOP_EXACT_A12C_KERNEL_REUSE=
-YES
-
-
-FIELD_EFFICIENCY_OPTIMIZATION_AUTHORIZED=
-NO
-
-NEW_BVP_AUTHORIZED_IMMEDIATELY=
-NO
-
-
-STRICT_COMPLETE_OPERATING_ENERGY_TARGET=
-LESS_THAN_10_MJ
-
-EXACTLY_10_MJ=
-FAIL
-
-
-CURRENT_FULL_REGRESSION=
-1080_PASSED
-
-AGMINER_CERTIFIED_SURVIVORS=
-0
-
-
-PHYSICAL_ANTIGRAVITY_MODEL=
-NO
-
-CERTIFIED_SUB10MJ_MODEL=
-NO
-
-EXPERIMENTAL_ANTIGRAVITY=
-NO
-
-PRACTICAL_ANTIGRAVITY_DEVICE=
-NO
-
-REACTIONLESS_PROPULSION=
-NO_CLAIM
-
-NEW_PHYSICS_DISCOVERY=
-NO
-
-NOVELTY=
-NOT_ESTABLISHED
-
-
-IMMEDIATE_NEXT=
-032H17A12D1_PAULI_MAGNETIZATION_SOURCE_ENERGY_UV_RADIATIVE_MIXING_AND_EMPIRICAL_GATE
-```
-
-Internal research-management heuristics are not scientific probabilities and are deliberately not used here as headline evidence.
-
-No post-A12D0 percentage should be interpreted as a probability that practical antigravity exists.
-
----
+![Historical false-core topological Skyrmion antigravity model — **not** a depiction of the R3B 1.54 J mixed-field configuration](assets/img.png)
 
 # 1. Strongest Established Result — 006D
 
@@ -2841,256 +2751,8 @@ Third-party materials retain their original copyright and licensing terms.
 
 ---
 
-# Bottom Line
+---
 
-# **The project has an established mathematical construction for true gravitational repulsion within linearized GR, and it now has a much lower-energy successor mechanism that has reached the finite-payload \(1g/1m\) stage but is not yet a complete physical model.**
+## Current closing statement (November 9, 2026)
 
-The established foundation remains:
-
-# **006D**
-
-```text
-FINITE=
-YES
-
-POSITIVE ENERGY=
-YES
-
-LOCAL CONSERVATION AT LINEARIZED ORDER=
-YES
-
-NEC / WEC / DEC=
-PASS
-
-LOCAL GRAVITATIONAL FIELD=
-OUTWARD
-
-TRUE EXTERNAL STANDOFF=
-YES
-
-FAR-FIELD ACTIVE MASS=
-POSITIVE
-
-C_006D=
-23.591586299249
-```
-
-006D remains the strongest fully established project construction in its declared scope.
-
-Its fatal practical limitation is ordinary-GR energy:
-
-```text
-~3.1e29 J
-```
-
-at the approximate \(1g/1m\) benchmark.
-
-The new primary successor mechanism is:
-
-# **A12B + A12C + A12D0**
-
-It currently establishes, within its declared reduced-EFT scope:
-
-```text
-EXACT MASSLESS SYMMETRY-PROTECTED CARRIER=
-YES
-
-NEAR-SINGULAR MIXING USED=
-NO
-
-GAUGE-INVARIANT UNIVERSAL F² METRIC=
-YES
-
-FINITE SOURCE=
-YES
-
-FINITE NEUTRAL PAYLOAD=
-YES
-
-PAYLOAD MASS=
-1 kg
-
-TRUE EXTERNAL STANDOFF=
-1.0 m
-
-MINIMUM SAMPLED OUTWARD ACCELERATION=
-9.80665 m/s²
-
-MAXIMUM SAMPLED OUTWARD ACCELERATION=
-22.889174637504706 m/s²
-
-CANONICAL FIELD ENERGY=
-2.6568591420597114 J
-
-FIELD-ENERGY IMPROVEMENT VS A10F2=
-211891.10888238018X
-```
-
-But:
-
-```text
-MICROSCOPIC PHYSICAL SOURCE=
-NOT YET
-
-COMPLETE ENERGY=
-UNKNOWN
-
-FULL UV CERTIFICATION=
-NO
-
-FULL EMPIRICAL CERTIFICATION=
-NO
-
-FULL STABILITY CERTIFICATION=
-NO
-
-LOADED NONLINEAR BACKREACTION=
-NO
-
-PHYSICAL ANTIGRAVITY MODEL=
-NO
-
-006D REPLACED=
-NO
-```
-
-The first minimal ordinary EM-like source realization was decisively falsified.
-
-That did **not** close the carrier or the \(F^2\) metric mechanism.
-
-A12D0 instead produced:
-
-```text
-12 SOURCE FAMILIES
-
-8 OPEN / RESEARCHABLE SOURCE FAMILIES
-
-78 SOURCE / PORTAL COMBINATIONS
-
-35 OPEN COMPLETION COMBINATIONS
-```
-
-with the current first target:
-
-```text
-ELECTRON PAULI / MAGNETIZATION
-+
-MAGNETOSTATIC CONFORMAL F².
-```
-
-The present research question is therefore no longer:
-
-> **Can gravity mathematically point outward?**
-
-006D answered that within its stated scope.
-
-It is no longer:
-
-> **Can HOOK17 achieve a very low field-capacity number?**
-
-A12C has now demonstrated a normalized finite-payload field reference below three joules.
-
-The current question is:
-
-> **Can an exact, source-selective, technically natural, empirically allowed microscopic source preserve the A12B protected massless carrier and the A12C \(2.656859\)-J finite-payload \(F^2\) response while surviving support, reaction, stability, quantum/UV, backreaction, and a complete conservative operating-energy ledger strictly below 10 MJ?**
-
-That is now the shortest credible route toward replacing 006D with a much more practical theoretical antigravity model.
-
-Current final state:
-
-```text
-006D_CONSERVATIVE_TRUE_STANDOFF=
-PRESERVED
-
-006D_C=
-23.591586299249
-
-A12_SUCCEEDS_006D=
-NO
-
-PRIMARY_PROGRAM=
-032H17_HOOK17
-
-CURRENT_PRIMARY_BACKBONE=
-A12B_PLUS_A12C
-
-A12B_EXACT_MASSLESS_PROTECTED_CARRIER=
-GREEN_SCOPED
-
-A12C_GAUGE_INVARIANT_F2_METRIC=
-GREEN_SCOPED
-
-A12C_FIELD_ENERGY_J=
-2.6568591420597114
-
-A12C_REFERENCE_LEDGER_CLASS=
-FIELD_ONLY_CAPACITY_REFERENCE
-
-A12C_PAYLOAD=
-1KG_NEUTRAL_TORUS
-
-A12C_TRUE_STANDOFF_M=
-1.0
-
-A12C_MIN_ACCEL_M_S2=
-9.80665
-
-A12C_COMPLETE_ENERGY=
-UNKNOWN
-
-A12C_ORDINARY_EM_LIKE_SOURCE=
-CLOSED
-
-A12B_CARRIER_CLOSED=
-NO
-
-A12C_F2_MECHANISM_CLOSED=
-NO
-
-A12D0_OPEN_COMPLETIONS=
-35
-
-A12D0_TOP_COMPLETION=
-ELECTRON_PAULI_MAGNETIZATION_PLUS_MAGNETOSTATIC_CONFORMAL_F2
-
-FIELD_EFFICIENCY_OPTIMIZATION_AUTHORIZED=
-NO
-
-NEW_BVP_AUTHORIZED_IMMEDIATELY=
-NO
-
-CURRENT_FULL_REGRESSION=
-1080_PASSED
-
-STRICT_COMPLETE_OPERATING_TARGET=
-LESS_THAN_10_MJ
-
-EXACTLY_10_MJ=
-FAIL
-
-CERTIFIED_SUB10MJ_MODEL=
-NO
-
-PHYSICAL_ANTIGRAVITY_MODEL=
-NO
-
-PRACTICAL_ANTIGRAVITY_DEVICE=
-NO
-
-EXPERIMENTAL_ANTIGRAVITY=
-NO
-
-REACTIONLESS_PROPULSION=
-NO_CLAIM
-
-NEW_PHYSICS_DISCOVERY=
-NO
-
-NOVELTY=
-NOT_ESTABLISHED
-
-IMMEDIATE_NEXT=
-032H17A12D1_PAULI_MAGNETIZATION_SOURCE_ENERGY_UV_RADIATIVE_MIXING_AND_EMPIRICAL_GATE
-```
-
-> **006D remains the proof that the required gravitational sign and true external stand-off can exist under strong conservative conditions within linearized GR. A12B/A12C/A12D0 now provides the strongest evidence in the project that the same operational goal may admit radically lower field capacity through a protected universal-metric mechanism. The next task is not to make 2.656859 J smaller. It is to determine whether the microscopic source and the rest of the physical theory can be made real.**
+**R3B is the flagship low-field-capacity mathematical clue (~1.542916 J preloaded canonical mixed-field inventory at the reduced-model 1-g/1-m finite-neutral-payload benchmark). 006D remains the strongest conservative GR true-stand-off anchor. R3X3B0 demonstrated that the original preloaded mirror fails under full finite-matter loading and cannot be held exactly unchanged using only the old external source support on the two tested grids. The next task is a complete-action interface-compensator feasibility test, not another field-energy optimization. No physical antigravity model or device is established.**

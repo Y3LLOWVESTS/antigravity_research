@@ -210,6 +210,21 @@ is_included_file() {
 is_excluded_path() {
     local path="$1"
 
+    # CODEBUNDLE_SOURCE_ONLY_FILTER_V1
+    # Exclude separate research records and generated output.
+    case "$path" in
+        notes|notes/*|journal|journal/*|journals|journals/*|\
+        */notes/*|*/journal/*|*/journals/*|\
+        results|results/*)
+            return 0 ;;
+    esac
+
+    # Exclude root documents, retain code-adjacent Markdown.
+    case "$path" in
+        */*) ;;
+        *.md|*.MD|*.rst|*.RST|*.bib|*.BIB) return 0 ;;
+    esac
+
     case "$path" in
         .git/*|\
         .venv/*|\
@@ -279,6 +294,11 @@ done < <(
 
 while IFS= read -r path; do
     relative="${path#./}"
+
+    # Keep excluded documents out of the tree too.
+    if is_excluded_path "$relative"; then
+        continue
+    fi
 
     case "$relative" in
         .git|.git/*|\
