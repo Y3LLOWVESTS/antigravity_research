@@ -1,0 +1,144 @@
+{
+  "branch": "032H17A12D1R3X3B7",
+  "scope": "FINITE_WIDTH_NET_NEUTRAL_ELECTRIC_SOURCE_GEOMETRY",
+  "grids": [
+    {
+      "h_m": 0.075,
+      "original_preloaded_field_energy_j": 1.4667459954338413,
+      "source_radius_m": 2.0,
+      "shells": [
+        {
+          "layer_width_m": 0.05,
+          "extra_electric_field_energy_j_before_1g_normalization": 0.0021294661497959244,
+          "dirichlet_identity_relative_error": 3.889850326375499e-14,
+          "exterior_field_unchanged_analytically": true,
+          "charge_supported_inside_source": true,
+          "net_electric_monopole": 0,
+          "microscopic_source_realized": false,
+          "extra_electric_field_energy_j_normalized": 0.0021128533319620304,
+          "mixed_field_energy_j_normalized": 1.4688588487658034
+        },
+        {
+          "layer_width_m": 0.1,
+          "extra_electric_field_energy_j_before_1g_normalization": 0.004207341690950678,
+          "dirichlet_identity_relative_error": 3.071699625401002e-14,
+          "exterior_field_unchanged_analytically": true,
+          "charge_supported_inside_source": true,
+          "net_electric_monopole": 0,
+          "microscopic_source_realized": false,
+          "extra_electric_field_energy_j_normalized": 0.004174518534271991,
+          "mixed_field_energy_j_normalized": 1.4709205139681134
+        },
+        {
+          "layer_width_m": 0.2,
+          "extra_electric_field_energy_j_before_1g_normalization": 0.008217561634469498,
+          "dirichlet_identity_relative_error": 2.4065347490895056e-14,
+          "exterior_field_unchanged_analytically": true,
+          "charge_supported_inside_source": true,
+          "net_electric_monopole": 0,
+          "microscopic_source_realized": false,
+          "extra_electric_field_energy_j_normalized": 0.008153453146769272,
+          "mixed_field_energy_j_normalized": 1.4748994485806106
+        }
+      ],
+      "original_exterior_1g_response_preserved": true,
+      "fully_loaded_payload_certified": false,
+      "complete_energy_certified": false
+    },
+    {
+      "h_m": 0.05,
+      "original_preloaded_field_energy_j": 1.5429162116460216,
+      "source_radius_m": 2.0,
+      "shells": [
+        {
+          "layer_width_m": 0.05,
+          "extra_electric_field_energy_j_before_1g_normalization": 0.0022384330867448402,
+          "dirichlet_identity_relative_error": 4.0492298901637965e-14,
+          "exterior_field_unchanged_analytically": true,
+          "charge_supported_inside_source": true,
+          "net_electric_monopole": 0,
+          "microscopic_source_realized": false,
+          "extra_electric_field_energy_j_normalized": 0.0022209451722973337,
+          "mixed_field_energy_j_normalized": 1.545137156818319
+        },
+        {
+          "layer_width_m": 0.1,
+          "extra_electric_field_energy_j_before_1g_normalization": 0.0044226354777518895,
+          "dirichlet_identity_relative_error": 2.5103199895404995e-14,
+          "exterior_field_unchanged_analytically": true,
+          "charge_supported_inside_source": true,
+          "net_electric_monopole": 0,
+          "microscopic_source_realized": false,
+          "extra_electric_field_energy_j_normalized": 0.004388083329945718,
+          "mixed_field_energy_j_normalized": 1.5473042949759672
+        },
+        {
+          "layer_width_m": 0.2,
+          "extra_electric_field_energy_j_before_1g_normalization": 0.008638061173757691,
+          "dirichlet_identity_relative_error": 2.3295496427443375e-14,
+          "exterior_field_unchanged_analytically": true,
+          "charge_supported_inside_source": true,
+          "net_electric_monopole": 0,
+          "microscopic_source_realized": false,
+          "extra_electric_field_energy_j_normalized": 0.008570575719002072,
+          "mixed_field_energy_j_normalized": 1.5514867873650235
+        }
+      ],
+      "original_exterior_1g_response_preserved": true,
+      "fully_loaded_payload_certified": false,
+      "complete_energy_certified": false
+    },
+    {
+      "h_m": 0.04,
+      "original_preloaded_field_energy_j": 1.5151217834342905,
+      "source_radius_m": 2.0,
+      "shells": [
+        {
+          "layer_width_m": 0.05,
+          "extra_electric_field_energy_j_before_1g_normalization": 0.002197683350813602,
+          "dirichlet_identity_relative_error": 3.55203839488782e-14,
+          "exterior_field_unchanged_analytically": true,
+          "charge_supported_inside_source": true,
+          "net_electric_monopole": 0,
+          "microscopic_source_realized": false,
+          "extra_electric_field_energy_j_normalized": 0.0021804189330359245,
+          "mixed_field_energy_j_normalized": 1.5173022023673264
+        },
+        {
+          "layer_width_m": 0.1,
+          "extra_electric_field_energy_j_before_1g_normalization": 0.00434212330690451,
+          "dirichlet_identity_relative_error": 2.7366463295839447e-14,
+          "exterior_field_unchanged_analytically": true,
+          "charge_supported_inside_source": true,
+          "net_electric_monopole": 0,
+          "microscopic_source_realized": false,
+          "extra_electric_field_energy_j_normalized": 0.004308012737342777,
+          "mixed_field_energy_j_normalized": 1.5194297961716332
+        },
+        {
+          "layer_width_m": 0.2,
+          "extra_electric_field_energy_j_before_1g_normalization": 0.008480809416645875,
+          "dirichlet_identity_relative_error": 2.495472468155896e-14,
+          "exterior_field_unchanged_analytically": true,
+          "charge_supported_inside_source": true,
+          "net_electric_monopole": 0,
+          "microscopic_source_realized": false,
+          "extra_electric_field_energy_j_normalized": 0.008414186426210227,
+          "mixed_field_energy_j_normalized": 1.5235359698605007
+        }
+      ],
+      "original_exterior_1g_response_preserved": true,
+      "fully_loaded_payload_certified": false,
+      "complete_energy_certified": false
+    }
+  ],
+  "external_preloaded_metric_response_unchanged": true,
+  "mathematical_electric_source_within_2m": true,
+  "original_r3b_1p542916j_preserved": true,
+  "microscopic_source_realized": false,
+  "reciprocal_payload_loading_solved": false,
+  "continuum_certified": false,
+  "complete_energy_certified": false,
+  "physical_antigravity_model_found": false,
+  "006d_replaced": false
+}

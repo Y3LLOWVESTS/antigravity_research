@@ -1,1436 +1,689 @@
 # Antigravity Research — Research Buildplan
 
-**Updated:** November 9, 2026  
-**Role:** Authoritative forward-looking scientific strategy, frontier control, falsification gates, promotion criteria, and strict practicality roadmap  
+**Updated:** November 10, 2026  
+**Role:** Authoritative forward-looking scientific strategy, falsification and promotion gates, and physical-practicality roadmap  
 **Primary program:** `032H17 — HOOK17`  
-**Flagship low-field-capacity result:** `032H17A12D1R3B — 1.5429162116460216 J`  
-**Latest completed branch:** `032H17A12D1R3X3B0`  
-**Next branch:** `032H17A12D1R3X3B1 — ACTION-DERIVED INTERFACE COMPENSATOR PREFLIGHT`  
-**Latest recorded full regression:** `1,283 passed`  
+**Primary modeled field-capacity anchor:** `032H17A12D1R3B — 1.5429162116460216 J` (preloaded only)  
+**Physical-source geometry control:** `032H17A12D1R3X3B7 — 1.5473042949759672 J` (10-cm charge layer, preloaded only)  
+**Latest completed research branch:** `032H17A12D1R3X3B10 — POSITIVE COMMON KINETIC-STIFFNESS SPHERICAL GATE`  
+**Immediate next branch:** `032H17A12D1R3X3B11 — DRIVEN TOPOLOGICAL FIELD AND FINITE-PAYLOAD IMPULSE PREFLIGHT`  
+**Last recorded complete regression:** `1,283 passed` (historical R3X3B0 baseline; **not** a freshly rerun suite after B1–B10)  
+**Latest independently reported focused branch run:** `R3X3B10 — 21 passed`  
 **Strongest conservative true-stand-off GR anchor:** `006D`, `C=23.591586299249`  
 **Complete physical antigravity model:** **Not established**  
 **Complete conservative operating energy <10 MJ:** **Not certified**  
+**Pulsed antigravity demonstrated:** **No**  
 **006D replaced:** **No**
 
-> **Strategic objective:** Preserve R3B's exceptional low-inventory **preloaded** field configuration. Find out whether a physically sourced, stable **same-action** universal-metric model can retain its everywhere-outward response after finite neutral matter backreaction. Do not chase a lower joule headline or promote an unloaded calculation into a working device.
+> **Authoritative strategic pivot:** Freeze the extraordinary **R3B reduced-model preloaded field-capacity** result, preserve the R3X3B7 finite-width electric charge source construction, and devote the next bounded research session primarily to a **physically sourced, constraint-satisfying, time-dependent test** of the same-action finite-matter interface response. The decision variable is **net impulse and stable cycle-averaged lift of fully coupled finite neutral matter**, not how small an unloaded field-energy number can become. The pulse idea is a falsifiable hypothesis, **not** a proven workaround for static backreaction.
 
 ---
 
-## PART I — CURRENT AUTHORITATIVE STRATEGY (November 9, 2026)
+# PART I — CURRENT AUTHORITATIVE STRATEGY (November 10, 2026)
 
-## 0. Document authority, supersession, and reproduction
+## 0. Document authority, supersession, and preservation
 
-This file controls **what research to do next**, not the chronology of how each result was discovered. This exhaustive revision preserves all original 52 historical sections in the explicitly archived Part II while making the November strategy authoritative in Part I. Nothing in the archived September instructions overrides current decisions.
+This file governs the next research decisions; it is not a replacement for detailed source code, results, journal proofs, or failure memory. **Part I is authoritative. Part II preserves the complete historical September 14 buildplan, and Part III preserves the former November 9 Part I, both as explicitly superseded archives.** Historical present-tense instructions to reopen minimal electron Pauli sourcing, perform a broad A12D0 atlas scan, verify an outdated 1,080-test baseline, or start R3X3B1 are superseded.
 
-| Evidence / document | Purpose |
+| Record | Authority and purpose |
 |---|---|
-| Latest result artifacts and recorded run output | What a completed run actually reported |
-| Current code plus latest complete codebundle | Source equations, numerical implementation, reproducibility |
-| `journal/` | Durable derivations, results, falsifications, qualifications |
-| `NOTES.md` and `notes/chronology/` | Carry-forward details and context |
-| **`RESEARCH_BUILDPLAN.md`** | Current strategy and go/no-go decisions |
-| `AGMINER_BUILDPLAN.MD` | Theorem-first candidate engine and failure memory |
-| `INTROSPECTIVE_BUILDPLAN.md` | Source-efficiency knowledge, not a certified field |
-| `README.md` | Conservative public-facing state |
-| `FORMATTING_AND_CODE_STANDARDS.md` | Mathematical Markdown, code, validation conventions |
+| Latest execution logs and result artifacts | Actual observations and verification status; distinguish the producing checkout |
+| Current implementation/codebundle | Equations as implemented, solver signs, test provenance, source hashes |
+| `journal/` | Durable calculations, failures, uncertainties, reproduction recipes |
+| `NOTES.md`, `notes/chronology/` | Carry-forward details and current session handoff |
+| **`RESEARCH_BUILDPLAN.md`** | Strategy, next run, hard stops, promotion levels |
+| `AGMINER_BUILDPLAN.MD` | Theorem-first failure memory, scoped exclusions, independent falsifiers |
+| `INTROSPECTIVE_BUILDPLAN.md` | Mechanism insight only; not a certified physical source |
+| `FORMATTING_AND_CODE_STANDARDS.md` | Markdown math, source style and validation rules |
+| `README.md` | Only conservative public claims |
 
-The prior buildplan (September 14, 2026) is **historical**. In particular, it incorrectly describes A12D0, the minimal electron-Pauli source, `1,080 passed`, and the $2.656859$ J $F^2$ model as the active frontier. Do not treat its historical queue or instructions to restart Pauli as current. Preserve the complete original snapshot in Part II below. Its older instructions are evidence of historical decision-making, **not current execution orders**.
+**Newest essential records:**
 
-**Primary R3B–R3X3B0 reproducibility journal:** [2026-11-09 field-capacity and inverse-loading journal](journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md).  
-**Latest carry-forward notes:** [Chronology 0035](notes/chronology/0035_november_9_2026_hook17_r3b_r3x3b0_vacuum_interface_carry_forward.md).
+- November 9 R3B–R3X3B0 reproducibility/falsification journal: `journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md`.
+- November 10 R3X3B1–R3X3B10 closeout journal: `journal/2026-11-10_032h17a12d1r3x3b1_r3x3b10_hook17_field_source_interface_gates_and_pulsed_frontier.md` (newly drafted for repository saving; confirm actual existence).
+- Chronology 0035 (November 9) and proposed chronology 0036: `notes/chronology/0036_november_10_2026_hook17_r3b_r3x3b10_pulsed_field_research_handoff.md` (confirm actually saved).
 
-The linked documents and source artifacts must actually exist in the repository. Links and regression counts do not substitute for independent equation or numerical verification.
+**Specific corrections superseding November 9 Part I:** R3X3B6 established that the extreme *baseline* electric-source leakage reported by R3X3B0 largely came from a missing nonzero-Dirichlet-boundary contribution; it must **not** remain an unresolved 55–78% source-leakage claim. The physically distinct *additional inverse-loading interface compensation* still lies near/inside the payload and is **not repaired** by that diagnostic correction. R3X3B7 replaces the mathematical electric delta-sheet with a finite 5–20-cm layer while preserving the exterior preloaded field; it does not realize microscopic source matter. R3X3B8–B10 establish scoped spherical-interface and algebraic-action constraints, not a toroidal continuum no-go. R3X3B11 is **proposed**, not already performed.
 
----
+Never overwrite a historical numerical result or artifact to make the progression appear smoother. When source and documentation disagree, record the discrepancy, exact checkout, input artifact, code version, and whether independent reproduction actually occurred.
 
-## 1. Permanent requirements and claim separations
+## 1. Permanent objective, and the new pulsed-operation classification
 
-The project seeks true outward gravitational/universal-metric response **everywhere across finite neutral matter**, through one physical metric, with:
+The scientific objective remains **true gravitational or universal-physical-metric repulsion on finite neutral matter** with a genuine external stand-off. The fixed reference benchmark is:
 
 ```text
-MINIMUM_LOCAL_OUTWARD_ACCELERATION = 9.80665 m/s^2
-MINIMUM_TRUE_EXTERNAL_STANDOFF = 1.0 m
-REFERENCE_PAYLOAD = finite neutral 1 kg torus
-SOURCE = finite, supported, conserved, physically realizable
-COMPLETE_CONSERVATIVE_OPERATING_ENERGY = STRICTLY LESS THAN 10,000,000 J
-EXACTLY 10,000,000 J = FAIL
-GREATER ACCELERATION OR STANDOFF = FAVORABLE
+FINITE_NEUTRAL_PAYLOAD = 1 kg torus
+MINIMUM_TRUE_EXTERNAL_SOURCE_TO_PAYLOAD_GAP = 1.0 m
+MINIMUM_OUTWARD_ACCELERATION_EVERYWHERE_IN_PAYLOAD = 9.80665 m/s^2
+ONE_UNIVERSAL_PHYSICAL_METRIC = REQUIRED
+FINITE_CONSERVED_MICROSCOPIC_SOURCE = REQUIRED_FOR_PHYSICAL_COMPLETION
+COMPLETE_CONSERVATIVE_OPERATING_ENERGY = STRICTLY < 10,000,000 J
+EXACTLY_10_MJ = FAIL
+HIGHER_ACCELERATION_OR_STANDOFF = FAVORABLE
 ```
 
-Always distinguish: algebraic invariant; globally constructed preloaded fields; microscopic source; loaded test-body response; loaded finite **1 kg** payload response; stability; nonlinear and quantum consistency; complete-energy certification; and a practical experimental device. Each is a separate accomplishment.
+Pulsing warrants a separate **engineering-oriented cycle-average force** classification; **it does not silently replace the original everywhere-1g floor**. Track (1) material-point or finite-element local instantaneous force, (2) time-averaged local force on each material element, (3) finite-payload center-of-mass impulse, and (4) **net external impulse on the complete source-plus-payload spacecraft**. These are different observables.
 
-A field inventory of 1.54 J is not the source energy, source work, compensator energy, or device operating energy. A center-of-mass acceleration or local sign at one point does not establish the everywhere-outward floor. A test-body limit does not automatically satisfy the reference payload requirement.
+For a periodically operated 1-kg payload with period $T$:
 
-**Permanent anti-optimization rule:** If the relevant canonical field term is already below about 100 J, do not spend work merely reducing its number. Spend effort on physically realizable same-action response, support, conservation and complete energy.
+```math
+\Delta p_{z,\mathrm{payload}}=\int_{t_0}^{t_0+T}F_{z,\mathrm{payload}}(t)\,dt
+```
 
----
+```math
+\overline{a}_{z,\mathrm{payload}}=\frac{\Delta p_{z,\mathrm{payload}}}{M T}
+```
 
-## 2. Scientific hierarchy and numerical anchors
+A proposed **Earth-hovering device contribution** would need $\overline{a}_{z,\mathrm{payload}}\ge9.80665\,\mathrm{m\,s^{-2}}$ for the payload-only test; that does **not** imply whole-craft hovering when the field source is aboard the craft. Keep the full source support outside the payload and the minimum true gap $\ge1$ m. If the cycle-average criterion passes but instantaneous or material-point criteria fail, label it `PULSED_AVERAGE_FINITE_PAYLOAD` and **do not** claim the original strict `FINITE_PAYLOAD_STANDOFF` criterion was passed.
 
-### 2.1 Strongest conservative physical-gravity anchor — 006D
+**User's spacecraft use case:** Offset Earth's downward gravitational pull so that comparatively little additional force is needed for upward travel, eventually without rocket exhaust. Weight cancellation is not inertia cancellation; arriving above the atmosphere is not establishing orbit. Momentum must be transferred to Earth or another external reservoir, or be expelled as radiation/matter. A field that only pushes one spacecraft component against another does not propel the isolated spacecraft.
 
-006D remains the strongest established project-specific true-external-stand-off construction within **static linearized general relativity**: finite thickness and radius, positive energy, local conservation at linearized order, NEC/WEC/DEC, outward near gravity, and positive far-field active mass.
+## 2. Scientific anchors that must never drift
+
+### 2.1 006D — conservative GR stand-off anchor
+
+Within its declared static **linearized-GR** scope, 006D has a finite positive-energy conserved type-I source, finite radius/thickness, passing NEC/WEC/DEC, an outward near field, positive far-field active mass, and
 
 ```math
 C_{006D}=23.591586299249
 ```
 
-Its approximate $1/G$ cost is of order $3.1\times10^{29}$ J at the reference 1g/1m scale. It is not an exact nonlinear Einstein-matter model, a demonstrated stable device, or practical. No R3 result supersedes it.
+Its approximately $1/G$ scaling is catastrophically expensive at meter scale (historical reference near $3.1\times10^{29}$ J for 1g/1m), and it is not an exact nonlinear complete device. **R3B and R3X3B10 do not replace 006D**.
 
-### 2.2 A12B and A12C — protected carrier and originating low-capacity clue
+### 2.2 018B/018C, B7/026, 024–031, AGMINER and Introspective
 
-**A12B** established the scoped symmetry-protected massless concurrent-$U(1)$ carrier corridor with a classically conserved Dirac vector Noether current and nonsingular auxiliary sector; no near-singular kinetic gain or ultralight Proca tuning was required.
-
-**A12C** established a gauge-invariant conformal $F^2$ *reduced-EFT preloaded* field response for a finite 1 kg neutral torus at 1 m true external stand-off:
+Keep 018B field existence and the 018C fatal tested $m=2$ instability as separate facts. Preserve protected-vector closures through 022A, B7/026 microscopic GR morphology, and all 024–031 and V-series scoped failures. The Introspective program remains mechanism knowledge only:
 
 ```text
-MINIMUM SAMPLED PAYLOAD ACCELERATION = 9.80665 m/s^2
-A12C CENTER-OF-MASS ACCELERATION = 15.042170908175194 m/s^2
-A12C CANONICAL FIELD ENERGY = 2.6568591420597114 J
-A12C CANONICAL SOURCE WORK = 2.6577816871671844 J
-REFERENCE PORTAL SCALE = 1000 eV
+RAW_GE1000X_SIGNAL=PRESENT
+CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO
 ```
 
-The A12C COM figure must **not** be assigned to R3B. Ordinary 1-keV $F^2$ reuse failed same-action finite-matter loading, and the minimal ordinary EM-like/Pauli source realizations were closed in their tested practical forms. A12B carrier existence and A12C reduced-model field-capacity knowledge remain preserved without being called complete models.
+Preserve high kernel leverage, high useful response per joule, compact payload-adjacent field structure, high productive participation, low cancellation, and low scaffolding tax. **AGMINER is a theorem-first falsifier, not a blind parameter optimizer or success-probability calculator.**
 
-### 2.3 R3B — flagship 1.5429162116460216 J mixed-field result
+### 2.3 A12B, A12C and R3A
 
-**R3B is the main low-capacity *research target* of the current program.** It constructed a globally continued, net-neutral mixed-electric/magnetic field, dominated by dipolar structure, within the reduced universal-metric model. After normalizing sampled whole-payload minimum acceleration to 1g:
+A12B established a **scoped protected massless concurrent-$U(1)$ carrier corridor**, not a complete microscopic source and universal metric theory. A12C's $F^2$ preloaded field has $2.6568591420597114$ J canonical energy, with $1$ kg torus, 1 m true stand-off, 1g minimum sampled acceleration and $15.042170908175194\,\mathrm{m\,s^{-2}}$ COM acceleration. Those COM numbers **do not belong to R3B**. Ordinary 1-keV $F^2$ same-action finite-matter loading, tested current sculpting and minimal electron Pauli practical sourcing were closed. R3A's linear topological $F\widetilde F$ portal suppressed constant-trace bulk matter loading by approximately $1.84\times10^{15}$ compared with ordinary $F^2$ in its declared comparison, but **not** finite density-gradient/interface loading.
+
+## 3. Freeze the flagship R3B baseline and physical-source geometry control
+
+### 3.1 Preloaded field capacity (no device claim)
 
 ```text
 BRANCH = 032H17A12D1R3B
-GLOBAL_MIXED_CANONICAL_FIELD_ENERGY_AT_1G = 1.5429162116460216 J
-PAYLOAD = finite neutral 1 kg torus
-MINIMUM SAMPLED PRELOADED OUTWARD ACCELERATION = 9.80665 m/s^2
-TRUE EXTERNAL STANDOFF = 1.0 m
-NET ELECTRIC MONOPOLE = ZERO
-RESULT CLASS = FIELD_ONLY / PRELOADED_REDUCED_MODEL_CAPACITY
-MICROSCOPIC PHYSICAL SOURCE = NOT CERTIFIED
-FULL SAME-ACTION LOADED PHYSICAL MODEL = NO
-COMPLETE OPERATING ENERGY = UNKNOWN
+FIELD_CLASS = GLOBALLY_CONTINUED_NET_NEUTRAL_MIXED_ELECTRIC_MAGNETIC
+MODEL = UNIVERSAL_CONFORMAL_METRIC_REDUCED_EFT
+PORTAL_NORMALIZATION = 1000 eV
+REFERENCE_PAYLOAD = 1 kg finite neutral torus
+PAYLOAD_MAJOR_RADIUS = 1.0 m
+PAYLOAD_MINOR_RADIUS = 0.2 m
+ORIGINAL_SOURCE_RADIUS = 2.0 m
+TRUE_EXTERNAL_GAP = 1.0 m
+MINIMUM_SAMPLED_PRELOADED_OUTWARD_ACCELERATION = 9.80665 m/s^2
+CANONICAL_PRELOADED_FIELD_ENERGY = 1.5429162116460216 J
+ELECTRIC_MONOPOLE = ZERO
+MICROSCOPIC_PHYSICAL_SOURCE = UNCERTIFIED
+FULLY_LOADED_PHYSICAL_MODEL = NO
+COMPLETE_OPERATING_ENERGY = UNKNOWN
 ```
 
-The recorded numerical digits are **not** a formal 16-digit continuum error certificate. A net-neutral global harmonic field is not necessarily a strictly support-localized physical current configuration. The later R3X3B0 source-support warning is relevant to the original preloaded target.
+The canonical inventory is calculated from normalized electric/magnetic fields in the reduced model. It does **not** include source material, pulsing, reaction, support, compensators, mechanical work, field reset, radiation, or regulatory/UV costs. The printed 16 digits are not a formal continuum-error certificate. Do not spend scarce research time driving a sub-100-J field term lower purely for a headline.
 
-**Preserve the 1.542916 J result even though the later loaded mirror fails.** Failure of a particular source configuration is not a general theorem against every genuinely different action-derived interaction. Conversely, the successful unloaded calculation does not justify a physical antigravity claim.
-
----
-
-## 3. R3-series completed findings and permanent closures
-
-### R3A / R3C / R3C1 — topological bulk rescue, interface loading
-
-The reduced conformal metric is schematically
+Schematic physical metric/portal:
 
 ```math
-g^{\mathrm{phys}}_{\mu\nu}=e^{2\sigma}g_{\mu\nu}
+\widetilde g_{\mu\nu}=e^{2\sigma(P)}g_{\mu\nu},\qquad P=F_{\mu\nu}\widetilde F^{\mu\nu}=-4\mathbf E\cdot\mathbf B
 ```
-
-with the proposed parity-odd carrier invariant
 
 ```math
-P=F_{\mu\nu}\widetilde F^{\mu\nu}=-4\mathbf E\cdot\mathbf B
+\sigma(P)=\frac{P}{2M_X^4}
 ```
 
-R3A's **linear** topological portal strongly suppresses constant-trace bulk matter loading (approximately $1.84\times10^{15}$ relative to ordinary $F^2$ loading in its stated comparison), because constant-coefficient Abelian $F\widetilde F$ is topological. But a **matter-dependent** coefficient contributes through gradients, especially at a finite payload's material interface. Parity/CP completion remains open.
+The above is a **candidate model convention** with unresolved parity/CP/UV questions, not an experimentally established gravity law. In the weak static slow-motion test-body limit the modeled acceleration is $\mathbf a\simeq-c^2\nabla\sigma$. This approximate static expression is **not** a complete time-dependent matter-force equation.
 
-R3C showed that the original parallel mirror loses outward sign after loading without a Maxwell-energy explosion. R3C1 repaired the weighted discrete reciprocity/Ward certificate, sampled the ultra-small-loading interval directly, and checked Woodbury against direct full coupled solves. Later **R3X1 Lorentzian-sign-corrected** values supersede earlier sign-sensitive full-loading results.
+One-versus-two Abelian sector invariants and sign/redefinition choices must be reconstructed from the actual same-action code; do not conflate $F_X\widetilde F_Y$ with the single-sector invariant without proof of equivalence including physical sources.
 
-### R3D0 — exact static node obstruction
+### 3.2 R3X3B7 finite-width electric source control
 
-The exact static single-field node failed the declared integrability/source-basis test; this is not a universal no-go for all new action-derived interface structures. Do **not** confuse approximately $45.15^\circ$ gross field reorientation with approximately $4.59^\circ$ additional node-centered taper variation.
+R3X3B7 replaces the idealized electrostatic delta-sheet at the source radius with a radial cubic-Hermite **finite-width charge-density layer** confined inside 2 m, matching the exterior electric potential and its first radial derivative exactly in the declared multipole model. The electric monopole remains absent. It increases the $h=0.05$ m grid preloaded canonical inventory as follows:
 
-### R3X0 / R3X1 — basis invariance and corrected constitutive signs
+| Electric charge layer | Preloaded field inventory |
+|---|---:|
+| Ideal original R3B | **1.5429162116460216 J** |
+| 5 cm | 1.545137156818319 J |
+| **10 cm** | **1.5473042949759672 J** |
+| 20 cm | 1.5514867873650235 J |
 
-Field-sign splitting and two-$U(1)$ notation alone can be a mere nonsingular field redefinition. The corrected Lorentzian static block operator is
+For the 10-cm control, the extra field energy is $0.004388083329945718$ J, about 0.284% of the original. A positive Dirichlet-energy difference was cross-checked. **16 focused tests passed**. This is an exact mathematical exterior-field-matching construction **for the static potentials**, not microscopic source matter, dynamic current capability, a fully loaded solution or complete energy. A time-varying charge distribution requires physical transport currents satisfying charge conservation and generally changes the dynamic exterior field.
+
+**Next-session source decision:** Use *R3B* to freeze the original field-response and energy reference, and *R3X3B7* as the source-geometry control. Do **not** call B7 a fully physical electric source or assume dynamic Maxwell fields preserve their static exterior matching.
+
+## 4. Why the original static loaded mirror fails
+
+The useful topological response depends on field geometry across the finite neutral torus; the matter action induces reciprocal carrier loading, particularly across gradients of the material trace/density. R3C1 repaired the weighted discrete reciprocity test and verified independent full/Woodbury solves; R3X1 corrected Lorentzian cross-operator signs. Do not revert to a symmetric positive-sign approximation.
+
+For a static conformal metric, the integrated force identity in the declared weak-field model is
 
 ```math
-L_+=\begin{pmatrix}K_\phi&C\\-D&K_A\end{pmatrix}
+F_z=-c^2\int \rho\,\partial_z\sigma\,d^3x
 ```
 
-Do not reuse the old incorrect Ampere off-diagonal sign.
-
-### R3X2 / R3X2R1 / R3X2R2 — low-order shell source cones
-
-R3X2 tested net-neutral idealized $\ell=1,2,3$ shell sources. Initial infeasibility or solver exceptions were **not** mathematical theorems. R3X2R1 introduced a weighted primal–dual semidefinite energy-normalized certificate. R3X2R2 independently reconstructed numerical eigenvalue upper bounds using multiple spectral methods. In the declared PSD relaxation:
+and, with vanishing boundary contribution,
 
 ```math
-\min_p a_p\le\sum_p\mu_p a_p\le\gamma U_{\mathrm{field}},
-\qquad\mu_p\ge0,
-\qquad\sum_p\mu_p=1
+F_z=c^2\int\sigma\,\partial_z\rho\,d^3x
 ```
 
-| Declared source family | 0.075-m grid | 0.050-m grid |
-|---|---|---|
-| Shell-only $\ell=1,2,3$ | Conditional $\ge27.708418$ MJ canonical field-energy floor | Negative numerical dual witness; no everywhere-outward source in tested finite-grid PSD cone |
-| R3B-baseline-augmented diagnostic | Not excluded by 10-MJ test | Conditional $\ge25.466114$ MJ field-energy floor |
+Eliminating the interface metric gradient that transmits the **same** local force also eliminates the corresponding useful payload force. Cancelling only carrier backreaction while keeping an independently imposed force is nonvariational.
 
-Those reported energy floors include a **declared normalized $10^{-9}$ spectral sensitivity**; it is **not** a physical discretization-error bound or a continuum theorem. Do not expand the same shell-source catalog without a new action/source mechanism.
+Original mirror loaded results:
 
-### R3X3A — opposite-sign cross-topological shell family
-
-The correctly signed independent two-sector source family was numerically excluded in its declared finite-grid shell cone: coarse-grid conditional field-energy floor approximately **20.186352 MJ** under the stated perturbation, fine-grid negative numerical dual upper witness. A true physical two-field theory outside that symmetric low-order source space was not universally excluded.
-
-### R3X3B0 — exact inverse-loading and source-support obstruction (latest)
-
-The signed-sector conjugacy passed exactly in the tested discrete source domain:
-
-```math
-L_-=S L_+ S,
-\qquad S=\begin{pmatrix}I&0\\0&-I\end{pmatrix}
-```
-
-The opposite sign is not a new physical response by itself when the source domain is closed under the corresponding magnetic source reversal.
-
-Preserving the **exact original preloaded** potentials $\phi_0,A_0$ under full corrected Lorentzian matter loading would require discrete Euler–Lagrange source terms
-
-```math
-\Delta J_\phi=C A_0,
-\qquad \Delta J_A=-D\phi_0
-```
-
-These quantities are unnormalized numerical equation residuals, **not** physical currents or source energy.
-
-| R3X3B0 observable | 0.075-m grid | 0.050-m grid |
+| Grid $h$ | Worst sampled fully loaded acceleration | Mass-weighted fully loaded COM acceleration |
 |---|---:|---:|
-| Preloaded field energy | 1.4597081610973566 J | 1.537764066028296 J |
-| Preloaded minimum sampled acceleration | +9.80665 m/s² | +9.80665 m/s² |
-| Fully loaded field energy | 1.4433196404756485 J | 1.5211390382733165 J |
-| **Fully loaded worst sampled acceleration** | **−46.40607408464625 m/s²** | **−129.67185782242464 m/s²** |
-| Electric required counter-residual $L^2$ fraction inside payload | 93.5818% | 98.2767% |
-| Magnetic required counter-residual $L^2$ fraction inside payload | 88.7475% | 93.7839% |
-| Required counter-residual outside buffered original 2-m source | 100% in both channels | 100% in both channels |
+| 0.075 m | $-46.40607408\,\mathrm{m/s^2}$ | $+0.07970760\,\mathrm{m/s^2}$ |
+| 0.050 m | $-129.67185782\,\mathrm{m/s^2}$ | $+0.15454190\,\mathrm{m/s^2}$ |
+| 0.040 m | $-145.63825747\,\mathrm{m/s^2}$ | $-0.09174236\,\mathrm{m/s^2}$ |
 
-**Scoped conclusion:** The old externally supported current family cannot hold the original *exact global field profile* unchanged under full matter loading on either tested grid. This says **nothing universal** about different loaded profiles or a new gauge-invariant, action-derived interface interaction.
+The strict 1g floor was first lost along the sampled uniform-loading homotopy near $1.11581\times10^{-5}$ (0.075 m) and $8.60078\times10^{-6}$ (0.050 m). This is a **toy parameter sensitivity**, not a tunable physical coupling or a continuum no-go. The COM-only relaxation **also fails** for the original static mirror. Loaded field energy can stay around 1.5 J even as the useful force fails: it is the *response morphology*, not a field-inventory shortfall.
 
-**Independent baseline warning:** Even the *preloaded* electric source diagnostic has substantial $L^2$ source residual outside the buffered support: **54.7741%** at 0.075 m and **70.8916%** at 0.050 m; the magnetic diagnostic is approximately **1.233%** and **1.616%**, respectively. This is a source-realization problem to audit, not an admissible hidden material current. R3B net-neutral harmonic completion must not be equated with rigorous source localization.
+R3X3B0's exact inverse-loading compensation residuals for holding the **unchanged original fields** are predominantly on/inside the payload, outside permitted 2 m external free-source support; these are **discrete source residuals, not physically supplied currents**. Signed-sector conjugacy is a field redefinition in source families closed under sign reversal.
 
-The first connected loss of the **1g floor** under an *artificial uniform matter-loading multiplier* was bracketed:
+### 4.1 Permanent correction to the old baseline-leakage claim
 
-```text
-0.075 m: last pass 1.115806579589844e-05
-         first fail 1.1158142089843752e-05
-0.050 m: last pass 8.60076904296875e-06
-         first fail 8.60079574584961e-06
-```
+R3X3B6 showed the former baseline-electric-source leakage diagnostic incorrectly applied a homogeneous-Dirichlet operator to a potential with nonzero outer boundary values. Restoring the boundary contributions reduces its **outside-support discrete L2 residual fractions**, compared with the previously reported fractions:
 
-Thus simply and uniformly weakening this modeled loading would demand approximately **99.9989–99.9991%** suppression in the first passing interval. This is a **toy sensitivity number**, not a freely tunable physical coupling or a proof of monotonicity. The 1g-floor crossing occurs earlier than the later sign-zero crossing.
+| $h$ | Old uncorrected fraction | Boundary-corrected fraction |
+|---|---:|---:|
+| 0.075 m | 0.547740916746 | 0.000274999702 |
+| 0.050 m | 0.708916405361 | 0.000117661749 |
+| 0.040 m | 0.782031399221 | 0.000070912739 |
 
-**R3X3B0 decision:** `GREEN_SCOPED_EXACT_MIRROR_EXTERNAL_ONLY_COUNTERSOURCE_OBSTRUCTION`.  
-**Full regression:** `1,283 passed`.  
-**Physical model:** no. **Complete sub-10-MJ result:** no. **006D replaced:** no.
+**7 focused tests passed**, with independent stencil agreement around $10^{-14}$. These are *norm fractions*, not total charge or energy fractions. The old 55–78% baseline leakage alarm is **superseded as a numerical boundary artifact**; residual convergence/source-microscopic interpretation remain to check. The physically separate added loaded-interface compensation obstruction remains intact. Do not silently conflate the two.
 
-### Why the R3B field result survives as an important clue
+## 5. Completed R3X3B1–R3X3B10: authoritative scoped results
 
-The loaded canonical field still costs approximately 1.5 J; the **field morphology, sign and sourcing** fail. This sharply narrows the task. Do not spend runs reducing the field term to 1 J or moving old multipoles around. Identify the missing **physically permitted reciprocal material response** without violating its own metric-driving interaction.
+These runs have already been executed and reported by the user. Their focused test counts must **not** be added to 1,283 and presented as a freshly executed full regression. Preserve their detailed November 10 journal and JSON, including exact assumptions.
 
----
+| Branch | Recorded outcome | User-reported focused tests | Status and limitation |
+|---|---|---:|---|
+| **B1** | Physical portal-scaling loaded field at $M_X\simeq21.147$ keV: approximately 0.275–0.301 MJ **canonical field only** across three tested grids | 11 passed | Conditional loaded numerical candidate; not microscopic-source/complete action/energy certification |
+| **B2** | Exact unbroken-$U(1)$ massive-Dirac mass condition forces vectorlike surviving generator; simple axial charge also fails anomaly screen | 15 passed | Close *minimal* massive-Dirac axial-gauge source, not all currents |
+| **B3** | Electron-sized static magnetic dipole source for B1 higher-scale field requires $\sim5.35$–$5.51\times10^{14}$ J **source rest-energy lower bound** | 10 passed | Closes declared static electron-dipole realization; not an energy estimate for original R3B |
+| **B4** | Fully loaded original R3B COM force nearly zero, fails 1g on three grids; integrated force identity checked | Three-grid runner completed | Directional/COM reinterpretation alone is not a rescue |
+| **B5** | Source-free minimal dynamical axion cannot preserve *identical* original fields under declared nondegenerate region conditions | 12 passed | Exact-field-preservation restriction, not all dynamical axions |
+| **B6** | Baseline electric leakage mostly nonzero-Dirichlet-boundary artifact; corrected residual declines under refinement | 7 passed | Positive numerical audit/repair; loading inverse-support obstruction remains |
+| **B7** | Finite-width net-neutral electric layer, static exterior-field preservation, small positive field-energy penalty | 16 passed | Field-level mathematical source construction only |
+| **B8** | Exact homogeneous **spherical** strong-topological-interface transmission screening, uniform all-multipole bound | 29 passed | Not a toroidal/source-family continuum theorem |
+| **B9** | Exact Schur-complement equality of mixed matter–field derivatives after eliminating smooth local algebraic auxiliaries | 16 passed | Exact cancellation of identical mixed kernel removes same-channel force; dynamical auxiliaries open |
+| **B10** | Exact homogeneous **spherical** bound excludes order-one transmission for any common positive Maxwell kinetic stiffness at very large $\theta$ | **21 passed** | Common-stiffness spherical route closed; anisotropic/dynamical/torus not excluded |
 
-## 4. Central scientific bottleneck — one action, not two hand-imposed responses
+### 5.1 B1 does not supersede R3B
 
-The same matter action that makes neutral matter respond to a universal physical metric also backreacts on the field(s) defining that metric. In a conformal portal $\widetilde g=e^{2\sigma}g$, the variation of the matter action with respect to $\sigma$ is related to the matter stress-energy trace. The $F\widetilde F$ dependence of $\sigma$ therefore induces spatial-gradient coupling terms where the trace changes, particularly at the payload boundary.
+B1's approximately $0.3$ MJ conditional loaded field is useful but does not restore the few-joule fully loaded result, and B3 closes one contemplated cheap microscopic source class for that higher-scale realization. Its field-only inventory is not complete energy. Preserve B1 as a separate potential mechanism/portal-scale comparator, not next-session priority.
 
-**Do not** preserve a gravitational acceleration formula while independently deleting the reciprocal field-equation term. Such an intervention is not automatically variationally integrable and may violate the matter or field Noether identities.
+### 5.2 B8 exact spherical reference
 
-The immediate task is to find, or falsify, a new physical degree of freedom/operator that simultaneously:
-
-1. Derives both acceleration and loaded field equations from **one common local action** (or an explicitly controlled EFT matching).
-2. Preserves exact gauge, Bianchi, source-current, diffeomorphism and stress-energy identities.
-3. Provides a **genuinely independent** response to the finite-payload interface that survives field-redefinition analysis.
-4. Realizes physically supported external sources, allowing internal **induced bound** material currents only when they genuinely follow from the neutral matter action.
-5. Preserves a sufficient spatial gradient of the physical metric invariant to give $\ge1g$ at **every payload point**.
-6. Retains healthy canonically normalized modes, acceptable empirical/naturalness behavior and a realistic path to complete energy $<10$ MJ.
-
-A numerical source term matching $\Delta J$ from R3X3B0 is **not** enough. It must be the actual functional derivative of admissible action terms. Conversely, a no-go for preserving the **exact** old global field does not rule out a nearby or qualitatively different *loaded* field with the same required metric output.
-
----
-
-## 5. Immediate next branch — R3X3B1 action-derived interface compensator preflight
-
-**Branch:** `032H17A12D1R3X3B1`  
-**Type:** theorem-first physical-action/source preflight, **not** a new broad field optimizer or expensive loaded BVP.
-
-**Single scientific question:**
-
-> Does there exist a minimal, physically consistent new interaction that cancels or reorganizes the destructive R3X3B0 material-interface response while retaining the low-capacity, everywhere-outward universal-metric acceleration?
-
-### 5.1 Minimal starting point: explicitly state the candidate action
-
-For illustration only, a **schematic bookkeeping action, not a viable model**, might have the structure
+For spherical multipole $\ell\ge1$, with interior $\mathbf D=\mathbf E+\theta\mathbf B$ and $\mathbf H=\mathbf B-\theta\mathbf E$ and no free boundary sources,
 
 ```math
-S=\int d^4x\sqrt{-g}\left[
-\frac{M_{\mathrm{Pl}}^2}{2}R
--\frac14 F_X^{\mu\nu}F^X_{\mu\nu}
--\frac14 F_Y^{\mu\nu}F^Y_{\mu\nu}
-+\mathcal L_{\mathrm{aux}}(\chi,\nabla\chi,F_X,F_Y,g)
-+\mathcal L_{\mathrm{source}}
-\right]
-+S_{\mathrm{matter}}[\psi,\widetilde g]
+A_\ell=\begin{pmatrix}2\ell+1&\ell\theta\\-(\ell+1)\theta&2\ell+1\end{pmatrix},\qquad T_\ell=(2\ell+1)A_\ell^{-1}
 ```
-
-with exactly one physical metric
 
 ```math
-\widetilde g_{\mu\nu}=e^{2\sigma(F_X,F_Y,\chi,\ldots)}g_{\mu\nu}
+\det A_\ell=(2\ell+1)^2+\ell(\ell+1)\theta^2>0
 ```
 
-The original one-sector $F\widetilde F$ portal and the cross-sector $F_X\widetilde F_Y$ portal must be treated as **different physical model proposals unless exact equivalence (including sources) is established**. Parity/CP of the pseudoscalar invariant, anomaly cancellation, dynamics, field normalization and physical-current support must all be evaluated. Merely calling a sector “axial” does not establish a viable axial gauge current.
+```math
+\|T_\ell\|_2\le\frac{3}{|\theta|-3}\qquad(|\theta|>3)
+```
 
-### 5.2 P0 — baseline source and reproducibility gate (first)
+The result is a **source-free spherical material-interface** benchmark, not a solution to the real smooth finite torus. It supplies an independent strong-screening control.
 
-Before new compensator physics, independently reproduce the R3B baseline using pinned historical source. Audit the large preloaded electric-source residual outside the permitted source support. Test whether it is caused by numerical boundary treatment, finite-grid continuation, source-mask definition or a genuine exact-source limitation.
+### 5.3 B9 local algebraic reciprocity
 
-If the exact original R3B target cannot be sourced with the permitted physical currents, **do not discard its field-capacity clue**—demote it to an *inverse-response design target* and require the new candidate to solve baseline sourcing and interface loading together. Do not hide baseline residuals inside a supposed compensator.
+For a smooth local effective density after eliminating algebraic auxiliaries $\chi$ with invertible auxiliary Hessian $H$,
 
-**Pass:** source-support map, Maxwell/Noether continuity, physical normalization and independently reconstructed energy/action response all documented.  
-**Hold:** essential source localization or its physical meaning remains unresolved.  
-**Fail for exact-old-field realization:** unavoidable out-of-support source under the original restricted action.
+```math
+\mathcal L^{\mathrm{eff}}_{TP}=\mathcal L_{TP}-\mathcal L_{T\chi}H^{-1}\mathcal L_{\chi P}
+```
 
-### 5.3 A — same-action Euler–Lagrange and reciprocity gate
+Exact removal of this local mixed interaction also removes the force kernel from the *same local channel*. This does **not** exclude a distinct dynamical interaction, altered loaded field profile, source physics, derivative coupling or nonlocal EFT. Do not rebuild a pseudo-compensator that exactly cancels loading but leaves the original force imposed by hand.
 
-Derive the source, carrier, metric, matter and compensator equations **by varying the same action**. Recover the corrected R3X1 Lorentzian signs and matter-gradient terms in the appropriate limit.
+### 5.4 B10 common kinetic stiffness bound
 
-Check the second-variation/Helmholtz reciprocity condition using the **correct weighted discretization** (lesson of R3C1); derive the exact Noether identity for energy–momentum exchange, the source-current Ward identities and each gauge Bianchi identity. No by-hand cancellation of $\nabla T$ is permitted.
+For the homogeneous spherical reference with common $Z\ge0$ (positive $Z$ is the physical kinetic domain) and $|\theta|>0$,
 
-**Immediate RED:** field equations cannot arise from one common action, fail Ward/Noether, or cancel the reciprocal matter loading while independently retaining a force law.
+```math
+\|T_\ell\|_2\le\frac{9}{2}\left(\frac{1}{\theta^2}+\frac{\sqrt 2}{|\theta|}\right)
+```
 
-### 5.4 B — physically different interface mechanism
+At the recorded R3B *loading comparator magnitude* $|\theta|=18987.283771593688$, the upper bound is $0.00033518212020005624$; dipole examples $Z=1:0.0001580004813$, $Z=10^4:0.0001397911205$, $Z=10^6:0.00000299945337$. The large coefficient is **not automatically a homogeneous torus constitutive coefficient**. No exhaustive asymmetric-kinetic no-go has been demonstrated; a large single transmitted field may still leave the $E\cdot B$ invariant suppressed.
 
-Use the R3X3B0 $\Delta J_\phi,\Delta J_A$ residual as an **inverse diagnostic**. Separate free external charge/current, induced bound material polarization and compensator-gradient source terms. Verify real source support and reaction, and determine whether new terms preserve $\nabla\sigma$ across the whole finite payload.
+## 6. New primary branch — R3X3B11 pulsed topological field and finite-payload impulse
 
-**Immediate RED:** source term is inserted arbitrarily, demands independently controlled currents inside the nominally neutral payload, or is only a signed-sector field relabeling of R3X3B0.
+**Branch ID:** `032H17A12D1R3X3B11`  
+**Type:** time-dependent same-action **falsification preflight first**, not an unsourced animation, blind frequency sweep or immediate full numerical Maxwell–gravity solve.
 
-**Allowed in principle but not proven:** material-bound polarization currents **derived from the complete neutral matter action**. They must include source reaction, stress-energy, conservation, stability and energy costs. Their presence is not a license for composition-dependent nonmetric forces.
+**Single physical question:**
 
-### 5.5 C — parity/CP, protected gauge mode and health
+> **Can one conserved, externally driven source family physically generate a finite-duration R3B-like topological field in the presence of the full finite neutral payload such that the payload receives net outward impulse, and can repeated constraint-satisfying cycles sustain an average device force meeting the engineering objective without violating conservation, healthy-mode, source-support, reaction, empirical or energy requirements?**
 
-For every candidate derive:
+The suggested mechanism is field generation, transient interaction with matter, possible screening/collapse, and restoration or recycling. **It has not been established that the static interface response takes a finite time to develop.** The field can fail its instantaneous Gauss/constitutive constraints before any mechanical motion or wavefront arrival; arbitrary resetting to the unloaded R3B field is not physical.
+
+**Key investigation:** Is there an actual time-scale/frequency window allowing useful *sourced* impulse before/despite destructive reciprocal loading? This is not the same as claiming such a window exists.
+
+### 6.1 Physical variants, one at a time
+
+1. **Causal single smooth pulse:** best first experiment. Begin with legal initial data, drive permitted source currents, record field and payload impulse.
+2. **Repeat driven pulse:** only if single pulse survives. The field must evolve continuously between pulses, including energy and radiation; no numerical reset.
+3. **Resonantly sustained source:** only if a healthy source-cavity mode and reasonable energy recovery are supported. Check periodic steady state and Floquet stability.
+4. **Different physical loaded solution:** allowed; exact preservation of original unloaded potentials is **not** required. It must meet the same physical force target.
+
+A continuously operated periodic state is not necessarily more practical than single pulses; distinguish initial start-up impulse from long-term averaged impulse. No arbitrary tunable response-delay factor is permitted unless it is derived from matter dynamics in one action.
+
+### 6.2 Algebraic phase observation is not a Maxwell solution
+
+For the purely illustrative fields $\mathbf E=\mathbf E_0\cos\omega t$ and $\mathbf B=\mathbf B_0\cos(\omega t+\delta)$,
+
+```math
+\left\langle\mathbf E\cdot\mathbf B\right\rangle=\frac12(\mathbf E_0\cdot\mathbf B_0)\cos\delta
+```
+
+The average pseudoscalar can be nonzero, **but** a time-varying magnetic field must obey Faraday's law; the two-$U(1)$ realization may induce complementary $\mathbf E_Y$ and $\mathbf B_X$ components. The field cannot be generated by simply multiplying two frozen electro-/magnetostatic solutions by arbitrary waveforms. A nonzero average $E\cdot B$ is not a proof of a net upward force, because the finite-payload force depends on its *spatial gradient and complete matter equations*.
+
+## 7. R3X3B11 preflight — required time-dependent action
+
+Begin with the **actual R3B carrier-plus-matter physical action**, the R3X1 corrected Lorentzian signs, and A12B's scoped carrier protection. Where the code uses a reduced matter metric, explicitly reconstruct the terms omitted in a dynamical model.
+
+A schematic *bookkeeping only* candidate (not claimed viable) is
+
+```math
+S=S_{\rm gravity}[g]+S_{\rm gauge}[g,A_X,A_Y]+S_{\rm source}[g,A_I,\Psi_s]+S_{\rm matter}[\Psi_m,\widetilde g_{\mu\nu}(g,F_I)]
+```
+
+The gauge and source terms cannot be specified independently of the current, support stresses or source work. If a dynamical compensator is later introduced, it must be **new justified physics**, with its own propagating modes and terms in every variation; do not add it to the initial B11 run merely to force success.
+
+**Derive and independently check:**
+
+- All Lorentzian Euler–Lagrange Maxwell equations for **each** protected carrier; preserve induced electric and magnetic components, not just the original static $\mathbf E_X,\mathbf B_Y$ subset.
+- Both Bianchi identities, Gauss constraints, evolution equations, hyperbolicity and source-current Ward identities.
+- Physical metric variation and the finite-payload matter equation, including time-dependent, velocity-dependent and stress-dependent terms when relevant; a prescribed static $-c^2\partial_z\sigma$ is only an independently checkable weak-field limit.
+- Diffeomorphism/Noether energy–momentum exchange between field, payload, microscopic source, support, emitted flux and metric sector.
+- Canonical field-energy and physical source-work normalizations including all dynamic field components.
+- Exact same-action Hessian/reciprocity identities, boundary terms and field-redefinition invariance.
+- Parity/CP transformation of the pseudoscalar physical-metric coupling, and a technically natural UV/EFT interpretation.
+
+**Hard validation:** For a true static/zero-frequency limit with the identical original sources and payload, recover the corrected R3X1/R3C1 *failed* loaded solution and R3X3B4 COM force; any apparent static success from this very same model is a sign/omitted-loading/source error until proven otherwise.
+
+**RED:** A required field/current term is inserted by hand; the driven field violates Gauss/Bianchi; the matter acceleration and field loading come from different actions; wrong-sign modes are used as the source of gain; energy or momentum balance has unexplained residuals.
+
+## 8. Physically legal source and initial-value protocol
+
+Do **not** initialize the fully loaded problem by repeatedly writing the unloaded R3B potentials into a field array. This usually violates loaded constraints and is equivalent to an unaccounted actuator/current at the payload.
+
+Permitted controlled experiments (in order):
+
+1. **Source off:** fully legal, finite-matter initial state; choose compatible boundary conditions and no hidden preloaded charge/current.
+2. **External smooth turn-on:** use a finite-support current/charge history derived from a conserved microscopic or explicitly modeled effective source, not a prescribed electric/magnetic field history.
+3. **Single pulse through the payload region:** track retarded fields, induced constitutive changes, source work and outward/inward payload force.
+4. **Continuous repeated waveform:** return to the next cycle *from the actual final state* of the previous cycle; record nonperiodic accumulated field/material energy.
+
+Gauge-current continuity is mandatory:
+
+```math
+\nabla_\mu J_I^\mu=0
+```
+
+A static R3X3B7 charge sheet or charge layer is **not automatically a dynamically modulatable physical source**. Changing its dipole charge pattern requires charge transport, carrier inertia, source mechanical stress, finite voltages, and real drivers. Magnetic source currents need independent microscopic identification. If exact external physical source support cannot be supplied, classify the run `MATHEMATICAL_DRIVEN_BOUNDARY_CONTROL_ONLY`, not a buildable source.
+
+The 1-meter light propagation time, approximately 3.34 ns, is a **causality reference**, not a measured interface-collapse time or guaranteed operating window. Avoid interpreting instantaneous elliptic constraints as a freely delayed dynamical relaxation mode.
+
+## 9. First computational question — causal response and cheap exact falsifier
+
+Before a full toroidal time-domain PDE, formulate a linearized causal response about a **constraint-satisfying loaded physical background**, or a legal source-off state if no steady loaded operating point exists. Do not linearize about an illegal preloaded-with-payload state.
+
+For physically driven perturbations $\delta\Phi$:
+
+```math
+\mathcal D(\omega,\mathbf k;\rho)\,\delta\Phi=\delta J
+```
+
+Derive the actual frequency dependence from the same action, not an invented $\theta(\omega)$ or relaxation time. Calculate physically meaningful finite-payload transfer/force susceptibility, source admittance, phase, poles, instability and radiation channels.
+
+**Critical yes/no tests:**
+
+- Does the frequency response possess a legitimate causal window in which the **loaded** useful physical metric gradient and momentum transfer improve over the static solution?
+- Is the effect a transient of a valid initial-value problem, or merely an artifact of imposing the unloaded field?
+- Are poles stable/healthy, and is response bounded in canonical normalization without a near-singular denominator trick?
+- Does a mode improve force-to-source-work rather than merely one field's transmission or $\langle E\cdot B\rangle$?
+- Is the necessary frequency/current attainable by a finite external source within the energy/support budget?
+
+A negative result scoped to the *minimal physically driven R3B action* closes **that** pulse family. It does not establish a universal no-go for all possible dynamical gravitational repulsion mechanisms. No broad waveform/geometry scan is authorized merely because one simple gate fails.
+
+## 10. Single-pulse acceptance — actual fully loaded finite neutral matter
+
+If analytic dynamics survives, perform **one** source-supported smooth pulse with identical physical coefficients and geometry across numerical grids. Compute the complete time-dependent matter force, not just $\nabla P$ evaluated on frozen fields. Report:
 
 ```text
-COMPLETE GAUGE TRANSFORMATIONS AND EXACT CURRENT WARD
-PARITY / CP ASSIGNMENTS AND PHYSICAL COMPLETION
-ANOMALIES AND MASS GENERATION WHERE APPLICABLE
-CANONICAL KINETIC MATRIX AND SOURCE/METRIC COUPLINGS
-HAMILTONIAN POSITIVITY / GHOST / GRADIENT / TACHYON GATES
-FIELD-REDEFINITION-INVARIANT OBSERVABLES
-FINITE-MATTER SECOND VARIATION AND RECIPROCITY
-EFT CUTOFF / UNAVOIDABLE QUANTUM OPERATORS
+SOURCE_ON/OFF_TIMING_AND_CURRENT_HISTORY
+PAYLOAD_MASS_AND_LAGRANGIAN_MATERIAL_LABELS
+SOURCE_TO_NEAREST_PAYLOAD_GAP
+ALL_GAUGE_CONSTRAINT/Bianchi/CONTINUITY_RESIDUALS
+FULL_E/B_COMPONENTS_AND_TOPOLOGICAL_INVARIANT
+PHYSICAL_METRIC_AND_MATTER_FORCE_DENSITY
+MIN/MAX_LOCAL_OUTWARD_ACCELERATION_OVER_PAYLOAD_VS_TIME
+PAYLOAD_COM_FORCE_AND_TOTAL_IMPULSE
+NEGATIVE_FORCE_PHASES_AND_PEAK_STRESSES
+FIELD_MOMENTUM_CHANGE
+SOURCE_AND_SUPPORT_REACTION_IMPULSE
+RADIATED_MOMENTUM_FLUX
+CYCLE_SOURCE_WORK_AND_MECHANICAL_WORK
+ENERGY_AND_MOMENTUM_CLOSURE_RESIDUALS
+TEMPORAL_AND_SPATIAL_REFINEMENT
 ```
 
-The A12B exact massless protected corridor remains an anchor but does **not** automatically protect a new pseudoscalar, axial current, polarization medium or extra field from loops and anomalies.
+The core finite-payload observable is
 
-### 5.6 D — cheap empirical and energy falsifiers
+```math
+\Delta p_{z,\rm payload}=\int_{t_0}^{t_0+T}dt\int_{\rm payload}d^3x\,f_z(t,\mathbf x)
+```
 
-Match the **actual canonical operator** against laboratory and astrophysical limits, including ambient electric/magnetic fields, fifth-force/equivalence-principle tests, stellar limits, photon mixing and spin-dependent interactions where applicable. Do not import bounds from superficially similar but inequivalent fields.
+with force density and measure derived from the **matter action**, including motion and appropriate stress/metric contributions. In a moving payload, integrate material/world-tube dynamics consistently rather than assuming an Eulerian static grid impulse equals covariant momentum transfer.
 
-Estimate the **optimistic unavoidable** source, material, compensator-gradient, support and confinement energy *before* the next BVP. If any necessary nonnegative component alone is $\ge10$ MJ, close that **practical implementation**; exactly 10 MJ also fails. Otherwise label its ledger incomplete, not successful.
+**RED:** no net positive loaded impulse; positive spikes only from violating constraints; a favorable average arises from neglected negative phase, wrong source reaction, or nonconvergent timestep effects. **YELLOW:** positive impulse in a controlled approximate effective model but microscopic sources, reaction or full energy missing. **GREEN_SINGLE_PULSE_SCOPED:** valid finite-loaded sourced initial-value calculation, positive convergent impulse, all exact modeled conservation identities passing; **not** yet sustained lift or complete physical model.
 
-### 5.7 E — minimal constructive response; authorize a BVP only afterward
+## 11. Repeat-cycle, duty-cycle, and instability gates
 
-If the action, symmetry, source support, health, empirical and energy gates survive, test whether the new action creates a nonredefinable direction in the loaded interface response matrix, rather than a rescaling of the old shell-source space. Check the worst payload points and inverse-residual eigenmodes, not just COM force.
+A physically viable pulse system need not maintain a static field indefinitely. It **does** need a lawful, controlled waveform for each pulse and a repeatable bounded complete-system operating regime. A field can be useful for a finite time even if a static equilibrium does not exist **if** it can be established before the problematic mode grows, and if repeated cycling does not accumulate an instability or hidden energy.
 
-**RED:** fatal exact theorem, nonintegrable cancellation, gauge/Noether failure, compulsory $\ge10$ MJ physical cost, fatal instability/empirical conflict, or mere reparametrization of closed sources.  
-**YELLOW:** consistent action ingredients exist but source/normalization/health/energy or finite-payload effectiveness is unresolved.  
-**GREEN PRE-FLIGHT ONLY:** explicit same action, conserved and supported source, nonredefinable useful interface response, healthy canonical modes, and no known fatal cost or empirical contradiction. **Then** authorize one focused fully loaded BVP. This is not yet a physical antigravity success.
+**What can be relaxed, subject to proof:** indefinite static equilibrium; permanent static confinement; absence of all *static-background* instabilities when a finite-time valid trajectory exists; continuous instantaneous 1g (only under the separately labelled cycle-average engineering metric). A genuinely unstable transient can be usable only if start/stop/reset avoids damage and repeated-cycle instability. **Do not relax:** healthy propagating mode kinetic signs, hyperbolic evolution, gauge/Ward/Noether identities, microscopic conserved driving, universal metric, finite matter loading, momentum reaction, empirical limits and total energy.
 
-### 5.8 Ranked mechanisms to falsify (not a commitment to simulate all)
+The simplest duty-cycle bound is illustrative: if useful acceleration is $a_{\rm on}$ for fraction $D$ and zero otherwise, $\overline a=D a_{\rm on}$. At $D=0.5,0.1,0.01$, ideal peak values of 2g, 10g, and 100g respectively are needed for an average 1g. This ignores negative-force phases, material stress, and source energy, so it is **not** a prediction.
 
-| Priority | Candidate | Discriminator | Main risk |
+**Repeat-cycle requirements:**
+
+- Consecutive pulses evolve from previous final fields and matter states; no forced reinitialization to unloaded R3B.
+- After startup, cycle-average force is stable and reproducible, not merely a transient first-pulse effect.
+- Track peak stress, cumulative heating, material/interface modes, nonaxisymmetric perturbations, radiation, field leakage and active control.
+- Evaluate Floquet/parametric growth or equivalent bounded-periodic stability, including the historical 018C warning for $m=2$ modes.
+- Refine temporal and spatial discretization, simulation domain and source boundaries independently; repeat sufficient cycles to distinguish saturation from delayed divergence.
+
+**Promotion metric:** stable average $\overline F_{\rm payload}\ge M g$ is a new `PULSED_AVERAGE_FINITE_PAYLOAD` milestone, not the same as the original static/local everywhere-1g milestone. Whole-craft lift requires its own external reaction proof.
+
+## 12. Whole-craft reaction, gravity cancellation and spacecraft feasibility
+
+**Payload force is not total vehicle thrust.** If the source and payload are bolted to one isolated vehicle, their mutual interaction contributes zero net center-of-mass impulse except for momentum exported by field flux or transferred to an external object. For full GR/coupled metric theories, use the appropriate covariant total stress-energy/flux statement rather than interpreting a coordinate or local force as a global device thrust.
+
+The spacecraft-oriented decisive ledger is:
+
+```text
+PAYLOAD_UPWARD_IMPULSE
+SOURCE_DOWNWARD_OR_OTHER_REACTION_IMPULSE
+SUPPORT_LOADS_AND_TRANSFER
+FIELD_MOMENTUM_CHANGE
+EXPORTED_RADIATION_MOMENTUM
+EXTERNAL_EARTH_COUPLING_AND_EXCHANGED_IMPULSE
+TOTAL_SOURCE_PLUS_PAYLOAD_PLUS_SUPPORTS_CENTER_OF_MASS_IMPULSE
+```
+
+A physically allowed external Earth interaction **could** provide the reaction partner if independently derived. It has not yet been shown to exist in the proposed R3B model. A rotating or pulsed internal source cannot simply cancel Earth's gravity on itself by re-labeling an internal force.
+
+Keep these claim levels separate:
+
+```text
+EXTERNAL_PAYLOAD_PULSE_FORCE
+FULLY_LOADED_FINITE_NEUTRAL_PAYLOAD_IMPULSE
+SUSTAINED_CYCLE_AVERAGED_FINITE_PAYLOAD_LIFT
+WHOLE_CRAFT_NET_EXTERNAL_EARTH_REFERENCED_LIFT
+FULL_SOURCED_SAME_ACTION_MODEL
+INDEPENDENT_EXPERIMENTAL_GRAVITATIONAL_REPULSION
+```
+
+Only the last classes could plausibly support a spacecraft engineering decision. The earlier classes remain valuable scientific advances if reproduced.
+
+## 13. Pulse energy, source power, recycling, and strict practicality
+
+**Never equate the 1.542916 J preloaded canonical inventory with source work or propulsion energy.** The field can be continuously replenished without consuming its whole inventory per cycle, but it still must supply useful mechanical work, losses and reaction in a balanced energy budget.
+
+For the hypothetical **full field inventory irreversibly lost** each cycle,
+
+```math
+P_{\rm rebuild}=f E_{\rm lost}\quad\text{with}\quad E_{\rm lost}=1.5429162116460216\ {\rm J}
+```
+
+Conditional examples: 1 kHz $\approx1.54$ kW, 1 MHz $\approx1.54$ MW, 300 MHz $\approx463$ MW. **These are illustrative full-loss costs, not measured required pulse frequencies or power.** A resonator with verified energy-recovery fraction could have smaller dissipative loss; its actual $Q$, instability, driver and material costs are unknown.
+
+A 1-kg body lifted 1 m against approximately constant 1g gravitational weight gains $\sim9.80665$ J gravitational potential energy; this mechanical work need not equal the instantaneous carrier field inventory. General motion requires $W_{\rm mech}=\int\mathbf F\cdot d\mathbf x$ and a mission-specific energy ledger.
+
+**Separate** initial build/activation/field inventory, per-cycle energy input, recovered energy, irreversible loss, peak power, average power, off-state load, material source rest/internal energy, and mechanical work. The strict $<10$ MJ complete operating-energy requirement needs an explicitly defined **operating interval/motion protocol**, as dissipative continuous operation over unlimited time cannot have a finite cumulative energy budget. Preserve the strict threshold; do not change it to a field-only or arbitrarily short-time budget.
+
+Include all unavoidable physical components without double counting:
+
+```text
+SOURCE_REST_AND_INTERNAL_ENERGY
+SOURCE_CONFINEMENT/SUPPORT/STRUCTURAL_STRESSES
+DRIVING_CIRCUITRY_AND_CHARGE_TRANSPORT
+CANONICAL_ELECTRIC/MAGNETIC_AND_DYNAMIC_FIELD_ENERGY
+METRIC_AND_COMPENSATOR_ENERGY
+STARTUP/ACTIVATION/SHUTDOWN/RESET
+RECOVERED_ENERGY_AND_IRREVERSIBLE_LOSS
+RADIATION/LEAKAGE/HEATING
+PAYLOAD_AND_SOURCE_REACTION
+MECHANICAL_WORK
+BACKREACTION_AND_OFF_STATE
+QUANTUM/RADIATIVE/UV_COSTS
+```
+
+If one rigorously unavoidable nonnegative component is $\ge10$ MJ for the declared protocol, close **that practical realization**. If only a small partial energy is known, report `COMPLETE_OPERATING_ENERGY=UNKNOWN`, not PASS.
+
+## 14. Microscopic sources, healthy modes, parity/CP, empirical and UV gates
+
+A time-dependent **effective** source at the 2-m boundary is not yet a microscopic source. Required before a physical-model claim: actual charges and currents; continuity; finite numbers/densities/materials; voltages and source work; support and reaction forces; electromagnetic/hidden-sector couplings; source selectivity and neutral payload universality; source energy and cooling. The R3X3B2 minimal massive axial Dirac theorem and R3X3B3 electron-dipole floor remain closed in scope.
+
+The $F\widetilde F$ portal is pseudoscalar under conventional parity. A universal conformal physical metric with a pseudoscalar coefficient is not automatically parity/CP-consistent. Derive a specific symmetry transformation or explicitly parity-breaking model and match its phenomenology. An axion $aF\widetilde F$ term by itself does **not** cure R3X3B5's exact-field-preservation obstruction and introduces a physical scalar with its own source and stability requirements.
+
+A temporary pulse may **relax the requirement of permanent static equilibrium**, but it cannot make a ghost kinetic mode, uncontrolled superluminal/ill-posed equation, anomaly or broken conservation physically healthy merely by switching it off quickly. Check the full gauge-fixed physical fluctuation spectrum, canonical Hamiltonian, constraints, hyperbolicity and nonlinear material stability. Identify fixed-background instabilities that can be outrun versus nonphysical degrees of freedom that cannot be excused.
+
+Empirical/UV review must match the **actual physical operator**, not generic “axion” or “fifth-force” bounds by name. Include: electromagnetic environmental fields, equivalence principle, inverse-square-law tests, laboratory force balances, photon mixing, spin-dependent effects, stellar losses, radiative generation of lower-dimension operators, cutoff and technical naturalness at the very low portal normalization. A pulse waveform does not automatically evade static or time-averaged constraints. A successful PDE does not certify experimentally allowable couplings.
+
+## 15. B11 staged execution: hard stop / go decisions
+
+**Research-time discipline:** One action and one concrete conserved source-driving family. State exact mathematical falsifier before writing a new optimizer. Promote only one level at a time.
+
+| Stage | Cheapest decisive task | Authorize next stage only if | Hard stop / disposition |
 |---|---|---|---|
-| 1 | **New action-derived interface/node operator** | Must change the actual coupled loading response and retain $\nabla\sigma$ | Noether/Helmholtz obstruction, static node integrability |
-| 2 | **Genuinely constrained cross-topological source sectors** | Source/action space not closed under old sign-conjugacy | Rebranding R3X0/R3X3A, parity/anomaly burden |
-| 3 | **Dynamical pseudoscalar compensator** | Independent equation generates the needed boundary response | Gradient/support energy, instability, naturalness |
-| 4 | **Polarizable or cross-kinetic material response** | Bound currents and material stress from one action | New bulk loading, empirical electromagnetic constraints |
-| 5 | **New protected geometric mode** | Nonredefinable healthy carrier, sourced and universal | Large extra theoretical/empirical scaffolding |
+| **P0** | Freeze original R3B output, R3X1 signs, B4 loaded failure, B6 boundary fix, B7 source | Provenance and input geometry reproduced | Mismatches quarantined; fix only actual reproduction blockers |
+| **P1** | Derive full dynamic Euler–Lagrange/Bianchi/Gauss/current/Noether equations | Consistent single action, healthy hyperbolic initial-value formulation | RED for wrong sign, failed gauge identity, ghost or unsourced constraint violation |
+| **P2** | Cheapest causal linearized interface/source response | At least one physically defined candidate forcing/window improves **useful finite-matter force**, not just field component | RED scoped minimal driven family if unavoidable destructive instantaneous response |
+| **P3** | One externally supported smooth pulse with full loaded payload | Convergent positive net payload impulse and constraint/energy closure | RED if fake reset, nonconservation or negative impulse |
+| **P4** | Repetition/resonant phase with no state reset | Positive reproducible cycle average with bounded energy/stress/mode behavior | RED if first-pulse only, accumulating instability or power catastrophe |
+| **P5** | Independent solver, multiple grids, full material/source reaction | Convergent finite 1kg/1m average and claimed local observables | YELLOW if numerics, source support or whole-craft reaction unknown |
+| **P6** | Full microscopic/UV/empirical and complete operating ledger | Real source, full Noether/reaction, no fatal empirical conflict, $E_{\rm complete}<10$ MJ | RED scoped realization if any fatal gate; otherwise UNCERTIFIED until all pass |
+| **P7** | Independent physical-model reproduction and engineering feasibility | All physical requirements and externally referenced whole-craft interaction verified | Only now consider prototype-design work; experiment required for physical proof |
 
-The optimal next computation is **one candidate family plus its cheapest decisive invariants**, not a broad AGMINER scan. Do not perform expensive PDE work to rediscover a cheap theorem.
+Do not perform expensive time-domain toroidal solves before P1 and P2. A cheap causal *single pulse* can be run after the exact constraints are satisfied, even if infinite-duration static equilibrium is nonexistent. Existing static BVP restrictions are not automatically restrictions on valid transient initial-value problems, but physical source and conservation gates still apply.
 
----
+## 16. R3X3B11 numerical implementation and required artifacts
 
-## 6. Vacuum and dilute-payload idea — controlled test, not a loophole
-
-**Question:** Can an evacuated source/field volume eliminate unwanted *environmental* matter loading, and what is the true finite-payload test-body limit of the R3B universal-metric response?
-
-Electric and magnetic fields can occupy vacuum. The ideal matter-free region has no ordinary material trace or trace gradient. This can remove **that specific local material contribution** to the topological field-equation loading. It does not remove field sources, chamber walls, support costs or the contribution of the **neutral payload itself**.
-
-A 1-kg neutral torus inside a perfect vacuum still possesses material stress-energy and density interfaces. The very backreaction diagnosed by R3C/R3X3B0 therefore reappears. A no-payload vacuum field does not establish 1g on a finite object.
-
-### Authorized diagnostic after P0/action audit
-
-Use the same physical metric, source support and corrected Lorentzian equations. Compare:
+Planned filenames are suggestions, **not proof they exist**:
 
 ```text
-A. EMPTY_EVACUATED_ACTIVE_REGION — field only; no payload-force claim
-B. DILUTE_NEUTRAL_TEST_BODY — controlled eta -> 0 physical matter limit
-C. FINITE_LOWER_MASS_PAYLOADS — record actual masses and material properties
-D. FULL_REFERENCE_1KG_TORUS — unchanged required benchmark
-E. SMOOTH_DENSITY_OR_HOLLOW_PAYLOAD — only if fixed-mass EOS and source/support valid
+src/antigravity_research/agminer/hook17_fdual_f_r3x3b11_dynamic_action.py
+src/antigravity_research/agminer/hook17_fdual_f_r3x3b11_pulse_response.py
+simulations/032h17a12d1r3x3b11_pulsed_field_impulse_preflight.py
+tests/agminer/test_032h17a12d1r3x3b11_dynamic_action.py
+tests/agminer/test_032h17a12d1r3x3b11_pulse_response.py
+results/data/032h17a12d1r3x3b11_pulsed_field_impulse_summary.json
 ```
 
-Scaling $T_{\mu\nu}^{(\eta)}=\eta T_{\mu\nu}^{(1)}$ is a diagnostic of changing **physical matter stress-energy and typically payload mass**, not a free reduction of the fundamental metric coupling. If the model predicts a good test-body limit but fails at 1 kg, preserve the former as a separate milestone, not a practical success.
+Each completed branch needs an identifiable action/source specification, implemented equations, separate simulation entrypoint, focused tests, source hashes, immutable result JSON, and explicit `RED/YELLOW/GREEN` claim scope. Preserve old filenames (`prefight`) and old output files. Never overwrite an R3B–B10 JSON with a pulse run.
 
-Record minimum sampled acceleration, COM acceleration, worst-point migration, canonical field energy, source/support residuals, matter gradients, source-to-payload gap and independent full solver agreement. Treat chamber walls, interfaces, source materials, time-dependent insertion, radiation and reaction explicitly if the architecture becomes serious. Do not misidentify ordinary electromagnetic acceleration of charged test particles as gravitational response.
+Numerical verification must include:
 
-**Vacuum branch status:** worthwhile *bounded diagnostic*, but not the next replacement for the R3X3B1 common-action preflight. No vacuum rescue has been demonstrated.
+- Original correct R3B preloaded fields and separate R3X3B0/B4 full-loading failure controls.
+- Static zero-frequency reduction to corrected R3X1 signs and weighted reciprocity.
+- Gauss constraint, Bianchi, continuity and full source-work identity with actual finite-box boundary contributions (B6 lesson).
+- Full Maxwell field components for **both** gauge sectors when required by the action.
+- Independent direct/reduced solver or separately differentiated action check; no fake independence through common routines.
+- Spatial and **temporal** resolution, CFL/causality, source placement, outer-domain radiation boundaries, material density profile, and pulse-cycle convergence.
+- Finite payload minimum/COM local force *versus time*, material-point impulse, energy and total momentum flux, source-support reaction.
+- Explicit uncertainty and no spurious exactly-1g finite-grid threshold promotion.
+- Same physical field/source parameters across grids; no grid-by-grid retuning of coefficients to conceal nonconvergence.
 
----
+The last recorded full suite is **1,283 passed**, from the earlier source composition. The individually reported new focused runs include B1 (11), B2 (15), B3 (10), B5 (12), B6 (7), B7 (16), B8 (29), B9 (16), B10 (21); B4's three-grid runner completed but no separate user-reported focused pytest number. A fresh complete regression **has not** been reported. Record a newly run total after integrating these files; never arithmetically add the focused counts to 1,283 as if the combined suite had been executed.
 
-## 7. Next loaded BVP: authorization and numerical acceptance
+## 17. Scoped failure memory: do not repeat closed work
 
-**No new expensive BVP until a source/compensator passes R3X3B1 preflight.** A promising algebraic field pattern without physical-source support is insufficient.
-
-Once authorized, run the same physical source parameters on the existing 0.075-m and 0.050-m grids, then investigate finer-grid / larger-domain convergence where justified. Preserve the original R3B and corrected R3X3B0 controls; do not retune separate source amplitudes per grid. The same source support, mass, field normalization, interaction coefficients and material action must carry through.
-
-Required outputs:
+The following are closed **within their stated original assumptions** unless a new physics ingredient directly changes the obstruction:
 
 ```text
-SOURCE AND COMPENSATOR ACTION / SYMMETRY / WARD CERTIFICATE
-LOADED CORRECTED LORENTZIAN OPERATOR / RECIPROCITY CERTIFICATE
-CANONICAL FIELD INVENTORY J, SOURCE/COMPENSATOR/SUPPORT LEDGER J
-MICROSCOPIC SOURCE SUPPORT, LOCAL CONTINUITY, NET PAYLOAD CHARGE
-MINIMUM ACCELERATION EVERYWHERE IN PAYLOAD (NOT JUST COM)
-COM ACCELERATION, SURFACE/VOLUME EXTREMA, WORST-POINT MIGRATION
-TRUE EXTERNAL SOURCE-TO-PAYLOAD GAP AND MATERIAL DENSITY PROFILE
-INDEPENDENT FULL SPARSE VS FAST/WOODBURY SOLVE COMPARISON
-GRID, DOMAIN, DISCRETIZATION, ROUNDING, AND BASIS CONVERGENCE
-HEALTH, PARITY/CP, ANOMALY, EMPIRICAL, NATURALNESS STATUS
-PHYSICAL REACTION/STRESS AND TOTAL ENERGY ACCOUNTING STATUS
-```
-
-A model with any negative worst-point acceleration, or $0<a_{\min}<9.80665\,\mathrm{m/s^2}$, fails the fixed 1g benchmark. A stable ~1.5-J field energy is not sufficient if the acceleration sign is wrong. A passing finite-grid BVP is not a continuum theorem or a fully healthy physical source.
-
-**R3B precision caution:** The historical R3B reported field capacity $1.5429162116460216$ J and later corrected R3X3B0 per-grid preloaded inventories $1.4597081610973566$ J and $1.537764066028296$ J are **related but not identical reconstruction/normalization outputs**. Preserve them separately; do not claim the historical value has been proven to converge to a particular continuum figure.
-
----
-
-## 8. Mandatory post-BVP gates and strict complete-energy policy
-
-Even a candidate reaching 1g / 1m in a loaded calculation must establish:
-
-- **One full action:** source, matter, carrier, compensator, metric and gravitational sectors with exact energy–momentum exchange and diffeomorphism/Noether identities.
-- **Physical source:** net-neutral finite payload, actual conserved source currents, finite source support, real material constituents and reaction forces; no fictitious internal free current.
-- **Healthy modes and interacting stability:** no ghosts, gradient or nonaxisymmetric instabilities, bounded static and dynamic material/interface modes. Remember the fatal 018C $m=2$ warning.
-- **Canonical and representation invariance:** no near-singular denominator gain, no fake field-basis escape, no gauge-symmetry violations.
-- **Naturalness/UV/empirics:** genuine anomaly/CP completion, cutoff, radiative mixing and generated lower-dimensional operators; match the *actual* canonical coupling to environmental EM, precision gravity, fifth-force, equivalence-principle, spin, stellar and other relevant tests.
-- **Nonlinear consistency:** field/source/payload gravitational backreaction, physical-metric response, reaction/radiation and conservation, not just linearized or prescribed acceleration.
-- **Complete operating energy:** source and material inventory, field/mediator/metric, compensator and symmetry breaking, support/confinement, polarization, activation/reset/control, cooling, off-state, leakage, reaction/radiation, source/payload backreaction, quantum/RG/UV and unavoidable standby costs.
-
-```math
-E_{\mathrm{complete,conservative,operating}}<10^7\,\mathrm J
-```
-
-Exactly $10^7$ J fails. Any verified necessary nonnegative energy component $\ge10$ MJ closes that practical realization. A bound below 10 MJ on one component proves only headroom, not complete certification. Do not perform field-only optimization below 100 J solely for a smaller number.
-
----
-
-## 9. Historical program knowledge and permanent anti-drift
-
-The earlier program remains part of the scientific record, not disposable because R3B is now the flagship.
-
-| Historical program | Preserve / do not repeat without genuinely new physics |
-|---|---|
-| **006D** | True stand-off conservative linearized-GR anchor, $C=23.591586299249$; catastrophic approximately $1/G$ energy scaling |
-| **018B / 018C** | Microscopic field existence; subsequent fatal tested nonaxisymmetric $m=2$ mode |
-| **022A and earlier protected vectors** | Closed implementations in tested form |
-| **B7 / 026** | Strong historical microscopic false-core GR field morphology; $026C$ $N=89$ convergence remains historical, not current priority |
-| **Introspective** | `RAW_GE1000X_SIGNAL=PRESENT`, `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`; high leverage/response per joule, low cancellation/scaffolding |
-| **024–031, V13–V26** | All scoped closures and failure memory; 031 Q-ball / Einstein–Jordan knowledge retained; V26D fallback only on genuinely new protection |
-| **V17/V18** | Historical partials ~59.4197 kJ and ~3.419157 MJ, not complete models |
-| **Original HOOK17 (~17 J)** | Historical capacity under special stress test, not final 1g/1m normalization or device energy |
-| **A10F2** | 562,964.8297553215 J reduced field/loading reference; tested microscopic source failed ultralight-mass naturalness |
-| **A11C** | Direct free equal-mass on-shell Wheeler $\to K2$ route closed by exact source identity |
-| **A12A** | Engineered axial overlap does not make unmodified massive Dirac axial current exactly conserved |
-| **A12B** | Protected massless concurrent-$U(1)$ carrier corridor preserved; not a complete source-plus-metric model |
-| **A12C/A12D0** | 2.656859-J reduced-$F^2$ capacity and scoped quadratic metric-basis theorem preserved; original 12-source / 78-combination / 35-open atlas is **historical** |
-| **A12D1/R1/R2/R2B/R2B1** | Ordinary 1-keV $F^2$ finite-matter reuse and increasingly broad original-support current sculpting failed; minimal electron Pauli practical source closed |
-| **R3D0** | Exact static single-field polarization node obstructed in tested harmonic/source basis |
-| **R3X0/R3X3B0** | Simple opposite-sign cross-$U(1)$ splitting is a relabeling in source families invariant under magnetic-source reversal |
-| **R3X2R2/R3X3A** | Low-order $\ell=1,2,3$ source-cone numerical field-budget/sign exclusions; not global continuum no-gos |
-
-**Do not restart:** ordinary 1-keV $F^2$ current sculpting; minimal electron Pauli sourcing; parallel mirror reoptimization; global E/B ratio tuning; old exact static-node optimization; mere sign reversal; old low-order shell cones; broad AGMINER parameter sweeps; or lowering 1.54 J merely for publicity.
-
-**AGMINER:** one action/source family plus its cheapest exact falsifier, physical source and energy gates, with precise failure memory. Not a blind optimizer and not a source of fabricated viability probabilities.
-
----
-
-## 10. Code, artifact, and reproduction pins
-
-### Historical R3B code source (from September codebundle)
-
-```text
-src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py
-SHA256 aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263
-
-simulations/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py
-SHA256 fd602c43aab742545d5ed828acfa2661f64fa78cae9cc24b29a3cf9c34db7c9c
-
-tests/agminer/test_032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py
-SHA256 eec5563e7d8fec33a8d181f031e7505bb1957934ac3a1f813f36ba328a355b05
-```
-
-The historical spelling `prefight` is part of the source filename and must remain literal in reproduction paths. Do not update old hashes to match a changed file.
-
-**Original R3B JSON to archive and regenerate:**
-
-`results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json`
-
-**November source modules to capture in a new complete codebundle:**
-
-```text
-src/antigravity_research/agminer/hook17_fdual_f_r3x2_source_cone.py
-src/antigravity_research/agminer/hook17_fdual_f_r3x2r1_dual_certificate.py
-src/antigravity_research/agminer/hook17_fdual_f_r3x2r2_budget_dual.py
-src/antigravity_research/agminer/hook17_fdual_f_r3x3a_cross_sign_interface.py
-src/antigravity_research/agminer/hook17_fdual_f_r3x3b0_inverse_loading.py
-```
-
-**Latest archived JSON evidence:**
-
-```text
-results/data/032h17a12d1r3x2r1_dual_certificate_summary.json
-results/data/032h17a12d1r3x2r2_energy_budget_dual_summary.json
-results/data/032h17a12d1r3x3a_cross_sign_interface_summary.json
-results/data/032h17a12d1r3x3b0_inverse_loading_summary.json
-```
-
-The September 15 codebundle predates the November R3X-series source files. Regenerate the repository codebundle, capture current source hashes and dependency versions, and regenerate the journal bundle before new substantive research. The recorded 1,283 passes occurred in the user's repository; creating this document is **not** a new simulation or independent reproduction.
-
-### Repository verification (run only when beginning the next science session)
-
-```bash
-ROOT="$(pwd)"
-PY="$ROOT/.venv/bin/python"
-
-PYTHONPATH="$ROOT/src" \
-"$PY" -m pytest -q \
-"$ROOT/tests/agminer/test_032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py"
-
-PYTHONPATH="$ROOT/src" \
-"$PY" -u \
-"$ROOT/simulations/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py"
-
-PYTHONPATH="$ROOT/src" \
-"$PY" -m pytest -q \
-"$ROOT/tests/agminer/test_032h17a12d1r3x3b0_inverse_loading.py"
-
-PYTHONPATH="$ROOT/src" \
-"$PY" -u \
-"$ROOT/simulations/032h17a12d1r3x3b0_inverse_loading_gate.py"
-
-PYTHONPATH="$ROOT/src" "$PY" -m pytest -q
-```
-
-The suite should report 1,283 passes only if its source and test composition remain unchanged. Verify the R3B result through the **exact JSON keys in the reproducibility journal**, not only printed terminal output, and compare physical equations independently of the code sharing the same source routines.
-
-The primary journal is [R3B–R3X3B0: reproducibility and falsification](journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md).
-
----
-
-## 11. Next-session sequence — prioritize decisive physics over extra runs
-
-1. Read the newest codebundle/results, this plan, the Nov 9 journal, chronology 0035, AGMINER failure memory, and standards. Record any mismatches; do not assume prior docs are synchronized.
-2. Verify source hashes and the R3B/R3X3B0 controls; check the 1,283-test full baseline before promotion of new code.
-3. **P0:** independently characterize the original preloaded electric-source leakage and whether the 1.542916-J target can have physically allowed source support. If not, retain it as an inverse target rather than an actual supported field solution.
-4. **R3X3B1:** in one theorem-first run derive the most promising genuinely new interface operator from one common action; test Ward/Noether, Hessian reciprocity, canonical health, parity, physical current location, lower-bound energy and known empirical consistency.
-5. If the exact-action gate is fatal, record the precise failure and advance only to a genuinely distinct source or compensator. **No further source sculpting or sign-only field splitting.**
-6. If preflight survives, authorize one fully loaded finite 1-kg BVP with identical physical coefficients across grids, direct full-solver checks, source support and worst-payload-point tracking.
-7. Investigate a vacuum/dilute-payload comparison only as a **separate test-body diagnostic**, not a new definition of success.
-8. Only after a loaded survivor: interacting stability, quantum/RG/UV, empirical constraints, reaction, complete energy and independent nonlinear/continuum reconstruction.
-9. Close out with source/result hashes, new tests, one journal entry, carry-forward notes and public claim updates only where substantiated.
-
-**Session principle:** State one physical action family and the exact falsifier before coding. Prefer an exact identity to a broad simulation. Do not force a favorite field into a passing result by dropping reciprocal backreaction.
-
----
----
-
-## 12. Historical-to-current supersession crosswalk — do not erase old science
-
-The original September buildplan is preserved in full in **Part II**. The source's technical historical claims remain available for reconstruction. The following historical present-tense instructions have been explicitly superseded:
-
-| Original September sections | Historical content preserved | November authoritative replacement |
-|---|---|---|
-| Header, §§0–4 | Purpose, source hierarchy, A12B/A12C backbone, efficiency strategy | R3B is now flagship *preloaded field-capacity* result; A12B remains the massless carrier corridor; R3X3B0 is latest completed branch. Do not freeze a failing loaded mirror as a physical solution. |
-| §§5–8 | Cheapest-falsifier, strict energy and sub-100-J policies | All retained. Add interface-source provenance and reciprocal action gates. |
-| §§9–12 | 006D, 018/B7/Introspective, 17 J history | All retained. 006D never replaced. |
-| §§13–22 | A10–A12C origins, A12D0 structural theorem and source/portal atlas | Retained as historical data; A12C remains 2.656859 J preloaded. A12D0's 35 open combinations were a **snapshot**, not today's frontier count. |
-| §§23–29 | A12D1 Pauli priority, UV, source succession, full Noether source | **Do not execute** the old Pauli priority. Minimal electron Pauli practical source was subsequently closed. Action-derived new compensator is next. |
-| §30 | Mixed-E/B held as later option | R3A/R3B have already realized the topological mixed-E/B field-capacity branch. |
-| §§31–37 | BVP authorization, health, energy, empirical and support gates | Retained and sharpened: source-support audit and complete matter-action Hessian come first. |
-| §§38–45 | V26D fallback, closure memory, AGMINER, normalization and universal metric | Retained with updated R3 closures and stricter field-redefinition checks. |
-| §§46–51 | 1,080-test baseline, electron-Pauli queue and old decision tree | Superseded. Last recorded suite **1,283 passes**, next `R3X3B1`. |
-| §52 and final checkpoint | Project principles and 2.656859-J target | Updated by Part I and current checkpoint; historical contents preserved only for provenance. |
-
-Do not count a historical unexecuted candidate ranking as a completed research branch or as a surviving present-day option. Similarly, a scoped numerical failure does not close every action or source realization outside its declared family.
-
----
-
-## 13. Detailed physics backbone: what the R3B calculation actually calculates
-
-### 13.1 Metric response and the canonical field inventory
-
-A12C established a reduced gauge-invariant physical-metric route. The R3 series replaces the quadratic even-parity field-strength scalar with a **linear topological pseudoscalar response** and a mixed-electric/magnetic configuration. Schematically,
-
-\[
-\tilde g_{\mu\nu}=e^{2\sigma}g_{\mu\nu},\qquad
-\sigma=\frac{F_{\alpha\beta}\tilde F^{\alpha\beta}}{2M_X^4},
-\qquad F_{\alpha\beta}\tilde F^{\alpha\beta}=-4\mathbf E\cdot\mathbf B.
-\]
-
-The normalizations are the project's conventions, not a verified UV theory. In the weak, static, slow-motion limit of a universal conformal physical metric, a model acceleration has the approximate form
-
-\[
-\mathbf a\simeq -c^2\nabla\sigma,
-\]
-
-with the sign and frame conventions to be reconstructed from the full physical metric. A directly applied \(-c^2\nabla\sigma\) with the matter action omitted is **not** a completed gravitational solution.
-
-The modeled canonical electromagnetic inventory is
-
-\[
-U_{\rm EM}=\int_{\rm domain}\frac{\lvert\mathbf E\rvert^2+\lvert\mathbf B\rvert^2}{2}\,d^3x
-\]
-
-in the adopted converted natural-unit normalization. It excludes the energy of realizing fields, compensator dynamics, support structures and other sectors. The R3B number is not a joule-to-force conversion rule or an experimentally established field effect.
-
-### 13.2 Local topological capacity identity
-
-At an ideal local level, use the original A12C magnetic profile \(\mathbf B_A\) and assign
-
-\[
-\mathbf E=-\frac{\mathbf B_A}{\sqrt2},\qquad
-\mathbf B=+\frac{\mathbf B_A}{\sqrt2}.
-\]
-
-Then \(-4\mathbf E\cdot\mathbf B=2B_A^2\), so the proposed topological conformal factor reproduces the old quadratic-invariant metric source in the stated conventions. The sum of canonical \(E^2\) and \(B^2\) equals the original field's squared amplitude. This is a **field-level invariant identity**; static Maxwell integrability, source support, full stress-energy and finite-matter response still have to be established.
-
-### 13.3 Global R3B completion
-
-R3B used an external scalar magnetic potential \(\mathbf B=-\nabla\Psi\) with an exterior electrostatic mirror potential \(\Phi_{\mathrm{out}}=-\Psi/\sqrt2\), followed by regular harmonic continuation into the source sphere to avoid unnecessary electric energy. A monopole-free multipole expansion gives zero total electric charge in the declared sense. The field-level construction is predominantly dipolar.
-
-The reported original R3B fine-grid capacity is
-
-```text
-BRANCH = 032H17A12D1R3B
-R3B_NORMALIZED_PRELOADED_FIELD_ENERGY_J = 1.5429162116460216
-R3B_WHOLE_PAYLOAD_MIN_ACCEL_M_S2 = 9.80665
-R3B_REFERENCE_PAYLOAD_KG = 1.0
-R3B_TRUE_EXTERNAL_STANDOFF_M = 1.0
-R3B_NET_ELECTRIC_MONOPOLE = ZERO
-R3B_LEDGER_CLASS = PRELOADED_FIELD_ONLY_CAPACITY
-R3B_MICROSCOPIC_SOURCE_PHYSICALIZED = FALSE
-```
-
-The precise numerical output must remain frozen. However, a source-free exterior solution and monopole cancellation do **not** constitute a finite support-localized physical charge/current construction. Global field matching, energy integration, boundary distributions, source work and current conservation require their own independent tests.
-
-### 13.4 Field response versus acceleration feasibility
-
-No physical gravitational acceleration was experimentally measured. The numerical acceleration derives from the assumed nonstandard universal physical metric. Even a positive, inward/outward acceleration in the reduced model is not a complete solution if the same matter density backreacts on the carrier field and changes its configuration.
-
-R3B reproduces a **preloaded** metric-gradient capacity; R3X3B0 shows the **loaded** same mirror is not viable at its 1g floor. These statements are simultaneously true and must always be reported together.
-
-### 13.5 Why the topological interaction changes the loading problem
-
-A constant coefficient of an Abelian \(F\tilde F\) density is locally a total derivative, subject to appropriate boundary assumptions. A coefficient depending on matter through the physical-metric variation can have nonzero gradients, especially near the edge of a finite payload. The R3A comparison suppressed the constant-trace bulk loading by about \(1.836\times10^{15}\), but did not remove the interface-gradient terms.
-
-A crucial consistency rule: the same functional dependence that drives the metric response also fixes the reciprocal backreaction via the matter action. Cancelling only the latter by hand while retaining the former is not a valid model.
-
----
-
-## 14. R3 results ledger — positive facts, negatives and scope
-
-| ID | Actual contribution | Decision and restriction |
-|---|---|---|
-| `R3A` | Topological mixed-E/B ratio retained ideal field capacity; suppressed uniform-bulk loading. | Parity/CP and full matter loading open. |
-| `R3B` | Globally continued, net-neutral preloaded E/B mirror; **1.5429162116460216 J** at finite-payload 1g/1m in the reduced model. | Flagship capacity; source physicalization and loaded solution absent. |
-| `R3C` | Simple mirror loses whole-payload sign; first reciprocity implementation flagged and small-loading interpolation incomplete. | Later repair supersedes initial uncertified diagnostic. |
-| `R3C1` | Discrete weighted reciprocity repaired; ultra-small-loading interval directly sampled; Woodbury/direct agreement. | Scoped sign-loss evidence, not continuum theorem. |
-| `R3D0` | Exact static node obstructed in tested harmonic source class; approximate multipoles insufficient in preflight. | Do not reopen same static node without new action/degree of freedom. |
-| `R3X0` | Cross-topological relabeling by itself did not introduce new physics. | Require field-redefinition-invariant new source constraints. |
-| `R3X1` | Corrected Lorentzian off-diagonal sign in static field equations. | All later loaded results use corrected signs. |
-| `R3X2` | Independently sourced \(\ell=1,2,3\) shell source cone; solver exceptions/coarse, infeasible/fine. | Initial solver verdict alone did not certify a no-go. |
-| `R3X2R1` | PSD primal-dual framework and independently reconstructed weighted eigenvalue witness. | Held YELLOW because fixed acceptance tolerance was too large. |
-| `R3X2R2` | Independently checked dual bounds and energy-budget exclusions for specified finite-grid cones. | GREEN scoped only; augmented coarse-grid cone remained unexcluded. |
-| `R3X3A` | Tested opposite-sign two-sector canonical decomposition and rank-one extraction. | No physical survivor; numerical dual exclusion in same low-order cone. |
-| `R3X3B0` | Exact signed-operator conjugacy and inverse source residual; full loading/ultra-small scan. | GREEN scoped exact-field external-only obstruction, no general no-go. |
-
-### 14.1 R3C1 quantified sign loss
-
-Directly sampled *outward-to-inward* sign-loss brackets in the historical R3C1 setup occurred at approximately \(1.76418\times10^{-5}\) (0.075 m), \(1.18491\times10^{-5}\) (0.050 m) and \(1.03961\times10^{-5}\) (0.040 m). Their original sign convention and discretization must not be mixed with the later corrected R3X1 values. These brackets are for zero-sign loss, not the **earlier** loss of the 1g requirement.
-
-R3C1's discrete variational certificates were at approximately machine precision within the declared weighting. The direct full solve and Woodbury solve agreed at small residuals. Independent derivation and continuum error bounds still open.
-
-### 14.2 R3D0 node-angle distinction
-
-The old mirror's interface-weighted magnetic normal/tangent square fractions were approximately 0.5027061/0.4972939. Rotating \(\mathbf E\) near normal and \(\mathbf B\) near tangent is not free. Establishing the desired node requires approximately **45.15 degrees** gross reorientation in the diagnostic, whereas the additional node-centered angular variation was approximately **4.59 degrees**. These are separate requirements. Exact orthogonality can suppress \(E\cdot B\) itself, so an acceptable structure must retain sufficient \(\nabla(E\cdot B)\).
-
-### 14.3 R3X2R2 scoped spectral limits
-
-For a PSD source covariance \(Z\succeq0\), an acceleration form \(A_p\) at each sampled payload point, and positive canonical energy form \(H\), any payload-point probability weights \(\mu_p\) give
-
-\[
-\min_p a_p\ \le\ \sum_p\mu_p a_p
-\ \le\ \lambda_{\max}\!\left[H^{-1/2}\left(\sum_p\mu_p A_p\right)H^{-1/2}\right]U_{\mathrm{field}}.
-\]
-
-The dual is an **upper bound** on the best achievable worst-point acceleration per unit canonical field energy. A negative upper eigenvalue excludes positive everywhere-outward acceleration within the PSD cone. A sufficiently small *positive* upper eigenvalue can exclude 1g at any source with canonical field energy below 10 MJ.
-
-Key reproduced artifact entries at a declared normalized spectral perturbation of \(10^{-9}\):
-
-| Family | Grid | Verified numerical inference |
-|---|---|---|
-| Shell-only \(\ell=1,2,3\) | 0.075 m | Conditional canonical-energy lower bound **27,708,418.061363768 J**. |
-| Shell-only \(\ell=1,2,3\) | 0.050 m | Negative dual witness; no everywhere-outward configuration in that sampled PSD cone. |
-| Shell + original baseline diagnostic | 0.075 m | **Not excluded** by the 10-MJ budget; conditional lower bound ~7.944 MJ. |
-| Shell + original baseline diagnostic | 0.050 m | Conditional canonical-energy lower bound **25,466,113.6865739 J**. |
-
-These are discrete, numerically reconstructed, conditional bounds. They do not include a certified input interval or continuum discretization error; the prescribed perturbation is a sensitivity test, not a proof that all physical model errors lie below it.
-
-### 14.4 R3X3A opposite-sign cone
-
-The signed two-sector relaxation reported a conditional canonical-energy lower bound **20,186,352.366549164 J** on the 0.075 m grid and a negative dual witness on the 0.050 m grid at the same declared \(10^{-9}\) perturbation. The resulting GREEN label is scoped to the ideal shell-source family. No rank-one constructive source surviving both grids was demonstrated.
-
-### 14.5 R3X3B0 latest corrected loaded numbers
-
-| Quantity | 0.075 m | 0.050 m |
-|---|---:|---:|
-| Original preloaded field inventory | 1.4597081610973566 J | 1.537764066028296 J |
-| Preloaded minimum payload acceleration | +9.80665 m/s² | +9.80665 m/s² |
-| Fully loaded canonical field inventory | 1.4433196404756485 J | 1.5211390382733165 J |
-| Fully loaded worst-point acceleration | −46.40607408464625 m/s² | −129.67185782242464 m/s² |
-| Direct full sparse/Woodbury comparison | PASS | PASS |
-| Signed sector matrix conjugacy | Exact zero recorded discrepancy | Exact zero recorded discrepancy |
-
-**Do not replace the historical 1.5429162116460216 J R3B global energy with 1.537764066028296 J, or claim equality between the two.** They reflect different discretization/reconstruction stages. Neither is a continuum-limit energy certification.
-
-### 14.6 Ultra-small-loading homotopy
-
-The strict 1g floor was first lost along the sampled *connected initial passing interval* between:
-
-```text
-0.075m: last pass 1.115806579589844e-05; first fail 1.1158142089843752e-05
-0.050m: last pass 8.60076904296875e-06; first fail 8.60079574584961e-06
-```
-
-Uniformly rescaling the full matter loading by a nonphysical parameter \(\lambda\) suggests roughly **99.9989%–99.9991%** suppression to retain that simple mirror's initial passing interval. This is a *diagnostic of fragility*, not a free knob in a complete action. Do not assume global monotonicity or conclude that another branch cannot satisfy the target.
-
----
-
-## 15. Inverse-source audit — exact obligations of R3X3B0
-
-### 15.1 Conjugacy identity
-
-Let \(K_\phi,K_A\) be the static diagonal operators and \(C,D\) their corrected matter-induced coupling matrices. Under magnetic-source reversal,
-
-\[
-L_+=\begin{pmatrix}K_\phi&C\\-D&K_A\end{pmatrix},\quad
-L_-=\begin{pmatrix}K_\phi&-C\\D&K_A\end{pmatrix},\quad
-S=\operatorname{diag}(I,-I),\quad L_-=SL_+S.
-\]
-
-This identity is exact at the tested discrete operator level. It means changing the topological sign does not generate a genuinely new reachable response **if the allowed source domain is invariant under the corresponding magnetic-source reversal**. The microscopic realization of that source-domain symmetry is not certified; the identity must not be treated as a theorem about all physical two-field theories.
-
-### 15.2 Exact preloaded field residual
-
-For a fixed unloaded potential pair \((\phi_0,A_0)\), the extra right-hand-side needed to maintain *exactly the same potentials* under unit loaded coupling is
-
-\[
-\Delta j_\phi=C A_0,\qquad
-\Delta j_A=-D\phi_0.
-\]
-
-This follows from subtracting unloaded from loaded discrete field equations; it does not require an optimizer and it is not evidence for a physically supplied current. A legitimate compensator must generate these Euler–Lagrange variations from **one gauge-invariant source/metric/matter action** with conserved total current, reciprocal matter forces, positive energy and acceptable support.
-
-### 15.3 Source-support localization and decisive caveat
-
-| Residual channel | Coarse fraction of residual L2 norm *inside payload* | Fine fraction |
-|---|---:|---:|
-| Static electric potential source | 93.58183458645922% | 98.27667736967488% |
-| Azimuthal magnetic current | 88.74746712086443% | 93.78393023354690% |
-
-Both channels had computed residual L2 fraction **1.0 outside the 2.0 m physical source support and the buffered 2.15/2.10 m supports**. The numerical sample says the *unchanged preloaded global fields* cannot be maintained by adjusting only the old external source currents in this model.
-
-This is not a prohibition against a **changed** loaded field with the same everywhere-outward metric response, nor against new independent matter-polarization currents generated by a full action. One must also distinguish actual charge/current support from a discretization of a distributional boundary current.
-
-### 15.4 Baseline source warning is separate and prior
-
-R3X3B0 recorded L2 fractions for the **baseline electric-source operator residual** outside buffered support of **0.5477409167463158** (coarse) and **0.7089164053611221** (fine). Corresponding azimuthal magnetic baseline fractions were ~0.01233 and ~0.01616.
-
-Before building an expensive compensator, determine whether this means:
-
-1. the historical R3B target fields are only a global harmonic *inverse-design* construction without a source-confined physical realization;
-2. boundary/interface distributions were spread or misclassified by the current finite-difference operators/masks;
-3. the baseline-source operator used for the diagnostic is not identical to the variationally normalized Maxwell operator used by R3B;
-4. outer boundary/truncation or source-work normalization introduced an artifact; or
-5. there is a genuine uncompensated charge distribution outside the permitted support.
-
-Do not declare the baseline globally unphysical without separating these alternatives. But **do not** claim a physically supported source until they are tested and resolved.
-
-### 15.5 Quantitative source audit requirements
-
-Independently reconstruct \(j_\phi^{(0)}=K_\phi\phi_0\), \(j_A^{(0)}=K_A A_0\), \(\Delta j_\phi=C A_0\), and \(\Delta j_A=-D\phi_0\) with the exact DOF masks and coordinate Jacobian. Report **weighted physical norms**, grid-volume norms, integrated net charge, current divergence, interface distributions, normal/tangential continuity, source-work identity and source-support leakage in cells/m²/m³ rather than just unweighted coefficient-vector L2 norms.
-
-Do both grids with an independent differentiation implementation and verify that the physical support classification is stable against the chosen interface tolerance. A norm-fraction value alone does not establish total amount of charge or energy and must never be used as a source-energy estimate.
-
----
-
-## 16. New physical-action construction — minimal common-action specification
-
-### 16.1 Required field content and physical-metric map
-
-The most economical serious candidate will contain two protected massless gauge sectors if needed by the cross-topological construction, universal physical matter metric, explicit microscopic source matter, and **at most one genuinely new interface degree of freedom/operator family at a time**. Reject a model that relies on independently set geometry, matter acceleration and carrier loading equations.
-
-A schematic *candidate template*, **not an established viable Lagrangian**, is
-
-\[
-S=\int d^4x\sqrt{-g}\left[\frac{M_{\rm Pl}^2}{2}R-
-\frac14 K_{IJ}(\chi,\varphi)F^I_{\mu\nu}F^{J\mu\nu}
--\frac12 Z_\chi(\partial\chi)^2-V(\chi)
-+\mathcal L_{\rm src}(\Psi_s,A_I,g,\chi)
-+\mathcal L_{\rm comp}(\chi,F_I,g)\right]
-+S_m[\Psi_m,\tilde g_{\mu\nu}(g,F_I,\chi)] .
-\]
-
-Here \(I,J\) label independent U(1) fields; an action with fewer fields is preferred if it passes. Every function/operator is hypothetical until exact gauge, stability and empirical gates are satisfied. The chosen physical metric must be universal for neutral matter and must not secretly introduce species-dependent nonmetric forces.
-
-### 16.2 Gauge and Noether ledger
-
-For each gauge field, require the Euler–Lagrange equation, gauge identity, Bianchi identity, canonical current, and the corresponding matter-source Ward identity. A source current is allowed only if identically conserved or a Noether current of the **same action**. If there are chiral or axial source fields, require anomaly cancellation and a mass-generation mechanism compatible with the gauge symmetry.
-
-For the combined system, derive the diffeomorphism Noether identity linking Einstein-frame stress-energy, physical-metric matter stress-energy, gauge dynamics and compensator equations. A local exchange of energy between matter and gauge fields is allowed; a violation of total conservation is not.
-
-### 16.3 Matter action reciprocity is not optional
-
-Under a universal conformal physical metric, the matter variation gives a term proportional to the physical trace of matter stress-energy times \(\delta\sigma\) (up to conventions and volume density factors). Derive the precise coefficient and sign directly from
-
-\[
-\delta S_m=\frac12\int d^4x\sqrt{-\tilde g}\,\tilde T^{\mu\nu}\delta\tilde g_{\mu\nu}.
-\]
-
-The mixed second variation of the same discrete/continuum action must satisfy reciprocal Hessian identities for physical source and matter variables. A compensating term cannot selectively cancel the gauge-sector response while leaving the metric force prescribed by hand; its contribution to **both** variations must be retained.
-
-### 16.4 Topological, parity and CP gates
-
-A single \(F\tilde F\) is a pseudoscalar; a conformal metric must transform appropriately under parity if parity is intended as a symmetry. Candidate choices include a parity-odd field or explicitly parity-violating action, but these choices impose distinct phenomenological constraints. An algebraic polar–axial assignment is **not** an anomaly-free microscopic UV theory. Record the exact transformation rules and whether parity/CP is preserved, broken explicitly, or broken spontaneously.
-
-### 16.5 Field redefinition and genuinely independent source domains
-
-Compute the full canonical kinetic matrix, its eigenvectors and all source couplings under any proposed \(F_X\tilde F_Y\) rewriting. Demonstrate with physical source restrictions and observables that the new completion is not related to R3X0/R3X3B0 by an invertible basis change. If it is, reject it as already tested. If the physical source constraints are different, **explicitly prove the difference** rather than infer it from new notation.
-
----
-
-## 17. R3X3B1 — integrated theorem-first gate package
-
-**Branch:** `032H17A12D1R3X3B1_ACTION_DERIVED_INTERFACE_COMPENSATOR_PREFLIGHT`
-
-**Objective:** Determine whether a physically permitted new action term can change or compensate the original payload-interface response while retaining high metric leverage and strict source support. A pass is permission for a limited loaded BVP, **not** an antigravity physical-model certificate.
-
-### Gate 0: frozen evidence and reproduction (mandatory)
-
-- Verify historical R3B source implementation, original summary JSON and the field-globalization/multipole-fit artifacts.
-- Record exact code and result file hashes, dependency versions, numerical precision, source-boundary convention, unit conversions and source-work normalization.
-- Run historical control and corrected R3X3B0 control before any new science.
-- Resolve or precisely classify the baseline electric source-support anomaly (§15.4); if not resolved, preserve it as a blocking physicalization warning.
-- Reconstruct R3B's exact field-capacity number from a separate implementation or analytic multipole energy integration to independent tolerance.
-
-**STOP:** If the source or invariant normalization cannot reproduce the benchmark, no compensator or numerical solver is authorized to promote the 1.54 J number. Do not change the historical claimed number silently; document a discrepancy.
-
-### Gate 1: original action and field equations
-
-- Write a single unambiguous Lorentzian action with physical/source/matter fields.
-- Derive all Euler–Lagrange equations and conjugate source equations symbolically.
-- Reproduce R3X1 constitutive signs and R3X3B0 exact inverse-source identities in the relevant limit.
-- Verify the physical metric is universal and source and payload are not subject to hidden direct forces.
-
-**STOP:** Wrong sign, action missing, different force/loading normalizations, or imposed counterterms with no action.
-
-### Gate 2: conserved microscopic sources and geometric support
-
-- Identify electric/magnetic source matter and its exact current(s), boundary surface terms and material interface stress.
-- Determine whether the baseline fields can be sourced inside the original 2 m region and how the compensator changes source support.
-- Quantify source inventory, confinement, charge neutrality, source work, current divergence and reaction force.
-
-**STOP:** Required independent free charge/current only within the neutral payload when source confinement is mandatory, or unavoidable source/support lower bound already above 10 MJ.
-
-### Gate 3: direct inverse-response matching
-
-- Independently compute R3X3B0 \((\Delta j_\phi,\Delta j_A)\) with physically normalized source units.
-- Compute the candidate operator's predicted variations for the same preloaded fields.
-- Project the candidate response onto *both* interface residual channels, including normal and tangential components.
-- Report remaining residual, net charge/current and full interface profile without using a freely chosen cancellation source.
-- Determine whether exact original fields are necessary; allow a distinct loaded profile if the same-action metric response survives.
-
-**STOP:** New operator only renames the old signed-sector source domain; or cancels portal gradient/metric acceleration at the same time as it cancels loading.
-
-### Gate 4: gauge, Ward, Noether and Hessian reciprocity
-
-- Check independent U(1) gauges and any compensator symmetry.
-- Check source-current conservation and Bianchi identities exactly.
-- Check diffeomorphism Noether energy-momentum exchange.
-- Check equality of mixed action second derivatives after canonical weighting.
-- Independently reconstruct the discrete variational operator, including boundary contributions.
-
-**STOP:** Uncancelled anomaly, nonconserved source, nonreciprocal Hessian not explained by integration-by-parts/boundary terms, or wrong metric-variation force.
-
-### Gate 5: spectrum, stability and canonical normalization
-
-- Derive full quadratic fluctuation operator about the candidate background.
-- Diagonalize kinetic and gradient matrices after removing gauge redundancies.
-- Check ghost/gradient/tachyon health and the sign of energy in both field lanes and any compensator.
-- Identify strong coupling/cutoff relative to the inverse-meter gradient and field amplitudes.
-- Check nonaxisymmetric modes, source/cavity/interface motion and matter-gradient modes.
-
-**STOP:** Unhealthy propagating modes, unprotected near-singular amplification, or fatal coupled instabilities.
-
-### Gate 6: naturalness, parity/CP, anomaly and empirical exposure
-
-- Determine parity/CP assignments and whether a pseudoscalar is required.
-- If axial/chiral U(1) matter is present, calculate relevant gauge and mixed anomalies and their cancellation, plus mass compatibility.
-- Analyze loop-generated operators, photon mixing, ordinary-matter coupling and technical naturalness at the 1-keV reference portal normalization.
-- Match exact physical operator to existing inverse-square-law, equivalence-principle, electromagnetic-environment, spin/axion and astrophysical constraints. Do not import mismatched bounds as conclusions.
-
-**STOP:** Quantitative excluded prediction, fatal radiative term, or inconsistent UV/mass-generation hypothesis.
-
-### Gate 7: minimal complete-energy feasibility bound
-
-- Lower-bound material/source, field, compensator, confinement, support, polarization, activation, control, reset, reaction/radiation and vacuum/off-state contributions.
-- Distinguish field-only inventory from physically conservative complete operating energy.
-- Propagate uncertainties and use strict \(<10\,000\,000\ \mathrm J\) rule.
-
-**STOP:** Any unavoidable nonnegative component \(\ge10\) MJ, even if Maxwell field energy is 1.54 J. If only loose lower bounds are available, label feasibility unknown rather than green.
-
-### Gate 8: conditional BVP authorization
-
-A loaded finite-payload BVP is justified only if Gates 1–7 contain no fatal failure and the new physical response is genuinely different from the closed families. Require identical physical source coefficients on all grids, direct full sparse solves against the independent reduction, gauge and source residual checks, full 1 kg payload, true 1 m gap, and worst-point tracking. A favorable relaxation without a constructive rank-one source is **not** sufficient.
-
-### Single-run decision labels
-
-```text
-RED_ACTION_OR_WARD_NO_GO = DO_NOT_RUN_BVP
-RED_SOURCE_SUPPORT_NO_GO = STOP_THIS_SOURCE_FAMILY
-RED_HEALTH_OR_EMPIRICAL_NO_GO = STOP_THIS_REALIZATION
-RED_FIELD_ENERGY_LOWER_BOUND_GE_10MJ = STOP_BUDGET_REALIZATION
-YELLOW_NUMERICAL_OR_SOURCE_PROVENANCE_UNRESOLVED = REPAIR_CERTIFICATE
-YELLOW_ACTION_SURVIVES_SOURCE_UNPHYSICALIZED = ADVANCE_ONLY_PHYSICAL_SOURCE
-GREEN_PREFLIGHT_SAME_ACTION_CONSTRUCTIVE_POTENTIAL = AUTHORIZE_ONE_LOADED_BVP
-```
-
-A `GREEN_PREFLIGHT` is *not* proof of an antigravity model. The final program success gate remains far downstream.
-
----
-
-## 18. Candidate ordering for a genuinely new interface mechanism
-
-Do not launch an indiscriminate operator scan. Prioritize distinct candidate **actions** by how directly they address the measured interface residual and how little unverified supporting physics they require.
-
-### 18.1 First: geometric-node / independent source-domain operator
-
-Investigate whether a local gauge-invariant coupling depending on the **actual dynamical matter or compensator field** modifies the constitutive response such that destructive \(\nabla T\)-dependent terms are reduced while useful \(\nabla(E\cdot B)\) remains. The operator must transform as a scalar and produce all backreaction terms from the same action. The original single-field exact node and sign-only two-field relabelings remain closed.
-
-An interface-localized coupling explicitly depending on \(T\) must be derived in a correct EFT/matter action; ordinary local dependence on an external prescribed density field is insufficient. If the proposed density is itself a dynamical fluid, include its stress-energy and conservation constraints.
-
-### 18.2 Second: dynamical pseudoscalar compensation
-
-A term schematically \(\chi F_X\tilde F_Y\) changes the effective topological coefficient only if \(\chi\) has a physical spatial profile and solves its **own** field equation. Include \(\frac12(\partial\chi)^2\), the potential \(V(\chi)\), its source, all mixed variations and the complete energy cost. Avoid assuming free cancellation, a massless chiral source, or protected low mass without a symmetry argument.
-
-### 18.3 Third: cross-kinetic/polarizable response
-
-A dynamical mixing or material polarization \(f(\chi,\Psi_m)F_X^{\mu\nu}F_{Y\mu\nu}\) can change the constitutive matrix but generally adds new bulk loading and stress-energy. It must be tested with the **physical** matter sector and basis-invariant kinetic eigenvalues. Reject if it merely recreates the old quadratic \(F^2\) catastrophe or creates new nonmetric forces.
-
-### 18.4 Fourth: new protected geometric mediator
-
-A genuinely distinct gauge/metric/torsion or curvature-mediated coupling may alter the matter-gradient interface physics but introduces healthy-mode, Ward, naturalness and empirical obligations. Prefer theoretical no-go/yes-go preflight, not another blind BVP. V26D and other historical geometric models remain knowledge, not an excuse to reopen closed forms.
-
-### 18.5 Structural gate across all families
-
-Only a candidate that changes an observable invariant **and** the constrained physical source manifold is worth a new expensive solve. A cheaper field-capacity term by itself is not a reason to prioritize it.
-
----
-
-## 19. Vacuum, dilute payload and smooth-interface branch — diagnostic, not device shortcut
-
-### 19.1 What empty vacuum does and does not mean
-
-An electric/magnetic field can exist in an evacuated active region with physical sources on or outside its boundaries. In an ideal matter-free region, the matter-trace source of the specific R3 topological loading may vanish locally. A preexisting field gradient may therefore be consistent with the reduced *vacuum* equations.
-
-**But the program requires repulsion on finite neutral matter.** The moment a 1 kg payload enters, its own trace/density gradients, spatial interfaces and stress-energy variation reappear. Evacuating air does not remove the payload's self-backreaction. Chamber walls, electrodes, magnet supports and motion systems also constitute material source structures and must ultimately be accounted for.
-
-### 19.2 Clean test-body-limit experiment
-
-In the same action, define a sequence of physically meaningful stress-energy profiles \(T_{\mu\nu}^{(\eta)}\), approaching zero as \(\eta\to0^+\), and solve the **same fully coupled field equations**. Keep portal coefficients and sources fixed; never rescale only the matter loading while prescribing the old metric force as an independent law.
-
-Record the vector/source response, worst-point acceleration, COM acceleration, field inventory, total stress-energy normalization, source leakage and solver residual. A successful infinitesimal test-body limit is a separate result and does not fulfill the 1 kg reference target.
-
-### 19.3 Fixed-mass smooth-interface control
-
-A physically consistent comparison at fixed 1 kg may redistribute density gradients but cannot simply delete them. Normalize total mass, preserve finite material support and stand-off, include material equation of state and stress, and integrate gradient-layer energy/support. Do not infer success from a lower peak \(\lvert\nabla T\rvert\) alone; integrated interface effects can remain large.
-
-### 19.4 Hollow payload / double-boundary control
-
-A vacuum cavity can displace material interfaces from the highest-leverage field region, but it also introduces an inner interface. Check both boundaries, source stand-off measured to the **nearest** source material and any hidden internal support. A hollow payload still needs real mass and realistic stress-energy.
-
-### 19.5 Time-dependent preload and insertion
-
-If the fields are preloaded in vacuum before a neutral object enters, the transient response must be determined by the causal time-dependent same-action field equations. Initial apparent force is not conservative stand-off. Include radiation, reaction, field switching, control power and reset. Do not claim that delaying equilibration avoids reciprocal matter loading.
-
-### 19.6 Vacuum gate outcomes
-
-```text
-EMPTY_VACUUM_FIELD_CAPACITY_ONLY = DOES_NOT_MEET_FINITE_PAYLOAD_FLOOR
-DILUTE_TEST_BODY_ACCELERATION = RESEARCH_RESULT_ONLY
-FIXED_1KG_SMOOTH_INTERFACE = REQUIRES_FULL_LOADED_BVP
-VACUUM_CHAMBER_SOLVES_1KG_BACKREACTION = UNPROVEN
-VACUUM_ENERGY_OR_ZERO_POINT_HARVESTING = NOT_THE_R3B_MODEL
-```
-
-Vacuum/dilute tests should follow or accompany the action provenance preflight only if their cost is small and they answer a distinct causal question. They are not a replacement for R3X3B1.
-
----
-
-## 20. Full numerical verification and continuum promotion standard
-
-### 20.1 Codes and artifacts
-
-A science branch must have separate numerical implementation, simulation entry point, targeted tests, immutable JSON summary, logs and previous-state comparison. Use the source/codebundle **as implemented**, not a manually reconstructed formula inconsistent with its operator weighting.
-
-### 20.2 Initial regression integrity
-
-Last **recorded** successful full suite: **1,283 passed** from R3X3B0. This is not a fresh run for the present document and does not certify newer source edits. Record source revision/hash, Python/library versions and test discovery count. Do not use an old 1,080-test baseline as current.
-
-### 20.3 Convergence
-
-For every survivor, compare both original grids and a new demonstrably refined independent grid, with outer-domain and source-support sensitivity. In particular, worst-point acceleration is strongly grid-sensitive and **not converged** merely because one field-energy quantity remains near 1.5 J. Track spatial movement of the worst payload point, interface eigenvectors, local metric gradient and conserved source flux.
-
-### 20.4 Direct independent solve
-
-Use at least two independent numerical reconstruction paths where possible: full coupled sparse solve versus Woodbury reduction, analytic multipole energy versus discrete field integral, and analytic action/Hessian differentiation versus finite differences or automatic differentiation. A shared-code numerical check is only partially independent.
-
-### 20.5 Source-support weighting
-
-Use physical cylindrical-axisymmetric measures \(2\pi\rho\,d\rho\,dz\), correct grid Jacobians and boundary measure. Verify masks align with actual DOFs. An ordinary L2 norm of a coefficient vector is **not** a conserved charge, current magnitude, mechanical reaction, or energy.
-
-### 20.6 Symmetry and spectrum
-
-Check Lorentzian-sign-correct constitutive blocks, gauge Bianchi, exact Ward, massless gauge-null directions, source current divergence and action-based weighted reciprocity. A positive Maxwell Gram matrix is necessary but not sufficient for stability of coupled matter/compensator and gravity modes.
-
-### 20.7 Numerical certificate discipline
-
-A declared spectral perturbation such as \(10^{-9}\) is not a formal bound on continuum discretization or uncertain physical inputs. To claim an actual **certified** no-go, establish operator interval bounds, mesh error controls and physical source-family exhaustion. A solver status alone is never a theorem.
-
-### 20.8 No false success by rank relaxation
-
-A PSD covariance cone contains configurations that need not factor into a single physical field/vector per sector. Positive SDP margin is only an upper-level necessary/relaxed feasibility test; extract rank-one realizations, check signed source amplitudes, support, same coefficients across grids and full independent loaded BVP before promotion.
-
----
-
-## 21. Full physical certification stack and stop conditions
-
-| Gate | Required evidence | Stop / hold condition |
-|---|---|---|
-| Genuine source | Explicit finite microscopic charge/current and support | Reconstructed current located only inside nominally neutral payload or outside permitted source domain |
-| Same action | Unified Einstein/metric/matter/gauge/compensator equations | Hand-imposed force and independent loading rules |
-| Ward/Noether | Exact conserved current, gauge identities and total stress-energy exchange | Uncancelled source divergence, wrong reciprocity, anomaly |
-| Canonical health | Positive physical spectrum after removing gauge modes | Ghost/gradient/tachyon/strong-coupling collapse |
-| Universal physical metric | One composition-independent metric for ordinary neutral matter | Special direct payload charge, fifth-force relabeling |
-| True finite payload | Acceleration \(\ge9.80665\) m/s² everywhere in finite 1 kg neutral torus | Local or COM only, wrong sign anywhere |
-| Stand-off | Nearest source-to-payload separation \(\ge1\) m, no embedded source | Hidden electrodes/support in the payload or gap |
-| Source reaction | Explicit conservation of momentum and support loads | Reactionless claim, unbalanced force |
-| Numerical convergence | Independent source/current, field-energy and worst-point convergence | Sign flip or unstable interface error under refinement |
-| Nonlinear consistency | Full metric/matter/source backreaction | Linear preloaded response only |
-| Empirical consistency | Correct operator-to-experiment matching | Strong existing bounds exclude necessary coupling |
-| UV/naturalness | Radiative correction, mixing, cutoff and symmetry analysis | Fine-tuning beyond stated allowed tolerance / invalid EFT |
-| Complete energy | Every unavoidable positive operating energy component, strict <10 MJ | Any mandatory term \(\ge10\) MJ or unknown large scaffolding |
-| Device claim | All prior gates + experimental demonstration | No physical apparatus or measurement |
-
-The first gate that fails for a **specific realization** closes that realization, not the entire universe of untested theories. The energy ceiling excludes any candidate for which one unavoidable nonnegative component itself costs \(\ge10\) MJ. An upper bound on a partial cost or a conditional field-capacity number never certifies a complete budget.
-
----
-
-## 22. Complete operating ledger — mandatory classification
-
-Every reported energy quantity must have one of these explicit ledger types:
-
-```text
-FIELD_ONLY
-PRELOADED_REDUCED_MODEL_CAPACITY
-SOURCE_ONLY
-SOURCE_PLUS_FIELD
-MICROSCOPIC_PARTIAL
-PARTIAL_OPTIMISTIC_LOWER_BOUND
-PARTIAL_CONSERVATIVE_LOWER_BOUND
-COMPLETE_STATIC
-COMPLETE_OPERATING
-```
-
-Eventual conservative complete-energy ledger includes:
-
-\[
-E_{\mathrm{complete}}=E_{\mathrm{source}}+E_{\mathrm{field}}+E_{\mathrm{metric}}+E_{\mathrm{comp}}+E_{\mathrm{support}}+E_{\mathrm{confinement}}+E_{\mathrm{polarization}}+E_{\mathrm{activation}}+E_{\mathrm{control}}+E_{\mathrm{reset}}+E_{\mathrm{reaction}}+E_{\mathrm{radiation}}+E_{\mathrm{backreaction}}+E_{\mathrm{quantum/UV}}+E_{\mathrm{leakage}}+E_{\mathrm{offstate}}.
-\]
-
-Avoid double counting energy components that overlap; define a single system boundary and thermodynamic protocol. But also avoid ignoring field preparation, structural rest mass, compensator gradients or off-state power by treating them as someone else's cost.
-
-Until the full ledger is derived from a physical model, `COMPLETE_OPERATING_ENERGY = UNKNOWN`, no matter how small the field-only quantity is. **Exactly 10 MJ fails.** A mandatory conservative lower bound at or above that threshold closes practical certification for the corresponding realization.
-
----
-
-## 23. Historical source and operator atlas: current interpretation
-
-The September A12D0 atlas represented **12 source families, 9 field-sector portals, 78 combinations and 35 historically open combinations**. Those numbers are historical structural bookkeeping, **not** the count of presently viable physical sources. The minimal electron Pauli/magnetization path and the original ordinary \(F^2\) reuse have since been tested and closed in their practical proposed forms.
-
-Keep distinct surviving *classes*, subject to new physics and their own exact gate: composite atomic/nuclear sources, source-selective full Noether vector completions, interacting/bound-state Dirac, flavor-selective currents, pseudotensor derivative currents, composite geometric/curvature source currents, neutrino currents only after power preflight, other electrostatic/disformal/parity-odd/derivative or multiple-field portals. Do not treat a named class as physically feasible merely because a prior source atlas did not falsify it.
-
-Preserve A12D0's proven **local algebraic one-Abelian-field quadratic metric basis** within its stated assumptions: parity-even rank-two metric structures built from \(g_{\mu\nu}F^2\) and \(F_{\mu\alpha}F_\nu{}^\alpha\), parity-odd mixed structures reduce to conformal forms. This does **not** exhaust multiple-field, derivative, curvature, higher-order or dynamical compensator-dependent portals.
-
-Pauli/minimal electronic magnetization is **not** the R3X3B1 next step. Preserve its exact failure evidence in the latest journal and AGMINER memory. No broad source atlas reset.
-
----
-
-## 24. Permanent historical GR, geometric-source and HOOK17 anchors
-
-### 24.1 006D versus B7/026
-
-006D: strongest project conservative true-external-stand-off linearized-GR result, \(C=23.591586299249\), finite positive energy, local conservation, NEC/WEC/DEC and positive far-field active mass, but catastrophic approximate \(1/G\) practicality scaling. B7/026: strongest historical microscopic false-core GR morphology, principally embedded/two-sided and requiring separate convergence duties; not a successor to 006D. 026C N=89 remains a historical credibility issue, not today's highest-value task.
-
-### 24.2 018B and 018C
-
-018B field existence survives its original scoped proof. 018C fatal \(m=2\) instability remains a permanent warning that static source existence does not imply interacting stability. Protected-vector closures through 022A remain closed absent genuinely new symmetry.
-
-### 24.3 Introspective
-
-Preserve exactly `RAW_GE1000X_SIGNAL=PRESENT` and `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`. The strong positive lesson is compact productive, low-cancellation, payload-adjacent high-leverage fields with high canonical response per joule and low scaffolding. The negative lesson is that a raw numerical signal is not a continuum physical source.
-
-### 24.4 Other historical branches
-
-All 024–031, V13–V26, 027 support-shuttle, 028 gain, 029 massive spin-2, 030 GW/memory, 031 scalar dressing and previous HOOK17 A6/A11 closeouts remain documented in the historical sections. V26D is preserved as protected-geometry fallback *knowledge* but may only be reopened with a new protection mechanism changing the previous naturalness obstruction. Historical ~17 J HOOK17 values are not complete energy or normalized 1g/1m replacements.
-
-### 24.5 A12B exact carrier witness
-
-Preserve the exact A12B symmetry conditions, rational witness, gauge direction and auxiliary-matrix spectra in the original source record. Their result is a protected massless gauge direction in its declared corridor, **not** proof of anomaly-free microscopic two-field R3B source matter.
-
----
-
-## 25. Durable failure-memory and no-repeat register
-
-**Do not restart without genuine new physics and a written explanation of how the exact previous obstruction is escaped:**
-
-```text
-PURE_GR_PRACTICAL_1_OVER_G_OPTIMIZATION
-PROTECTED_VECTOR_REALIZATIONS_THROUGH_022A
+006D_PRACTICAL_1_OVER_G_SCALING_OPTIMIZATION
+018C_FATAL_M2_MODE_IN_TESTED_REALIZATION
+PROTECTED_VECTOR_IMPLEMENTATIONS_THROUGH_022A
 027_SUPPORT_SHUTTLE
-028_PLANCK_GAIN_OR_CRITICAL_BRAIDING
+028_NEAR_CRITICAL_DENOMINATOR_GAIN
 029_TESTED_MASSIVE_SPIN2
 030_WEAK_GW_MEMORY_PULSE_PRACTICALITY
-031_MINIMAL_B7_SCALAR_DRESSING_OR_UNPROTECTED_SCALAR
-V13_STATIC_SHIFT_MONOPOLE
-V15_FREE_POLARIZED_SOURCE
-V19_PURE_J0_TESTED_REALIZATION
-V21_TIME_GRADIENT_RESERVOIR
-V22_UNPROTECTED_DISFORMAL
-V23_TESTED_DERIVATIVE_YUKAWA
-V24_LINEAR_VECTOR_METRIC_BRIDGE
-V25_SOURCE_ALIGNED_KGB_GAIN
-V26A_NEAR_SINGULAR_CROSS_MIXING
-V26C_DIRECT_MASSLESS_HOOK_SHIFT
+031_UNPROTECTED_LIGHT_SCALAR_DRESSING
+V13_TO_V26_TESTED_CLOSED_FAMILIES
 A11C_DIRECT_FREE_DIRAC_WHEELER_K2
-A12A_UNMODIFIED_MASSIVE_DIRAC_AXIAL_MAXWELL
-A12C_ORDINARY_EM_LIKE_F2_SOURCE
-A12D1_ORDINARY_1KEV_F2_CURRENT_SCULPTING
+A12A_UNMODIFIED_MASSIVE_DIRAC_AXIAL_CURRENT
+A12C_ORDINARY_1KEV_F2_CURRENT_SCULPTING
 A12D1_MINIMAL_ELECTRON_PAULI_PRACTICAL_SOURCE
-R3B_SIMPLE_PARALLEL_MIRROR_AS_FULLY_LOADED_SOLUTION
-R3D0_EXACT_STATIC_SINGLE_FIELD_NODE_IN_TESTED_CLASS
-R3X0_CROSS_TOPOLOGICAL_SIGN_ONLY_RELABELING
-R3X2_LOW_ORDER_SHELL_CONE_NO_NEW_SOURCE_PHYSICS
+R3B_ORIGINAL_STATIC_FULLY_LOADED_PARALLEL_MIRROR
+R3D0_EXACT_STATIC_NODE_TESTED_CLASS
+R3X0_SIGN_ONLY_FIELD_RELABELLING
+R3X2_LOWORDER_SHELL_SOURCE_CONES
 R3X3A_SAME_SOURCE_DOMAIN_OPPOSITE_SIGN_SPLIT
-FIELD_ONLY_ENERGY_BELOW_100J_MICRO_OPTIMIZATION
-BROAD_AGMINER_PARAMETER_BLIND_SWEEPS
+R3X3B2_MINIMAL_MASSIVE_DIRAC_AXIAL_U1_SOURCE
+R3X3B3_ELECTRON_STATIC_SPIN_DIPOLE_SOURCE_FOR_B1
+R3X3B4_STATIC_COM_ONLY_RELAXATION
+R3X3B5_MINIMAL_SOURCE_FREE_AXION_EXACT_MIRROR
+R3X3B8_STRONG_COUPLING_HOMOGENEOUS_SPHERICAL_TRANSMISSION
+R3X3B9_LOCAL_ALGEBRAIC_IDENTICAL_MIXED_KERNEL_CANCELLATION
+R3X3B10_COMMON_POSITIVE_SPHERICAL_KINETIC_STIFFNESS_RESCUE
+FIELD_ONLY_SUB100J_MICRO_OPTIMIZATION
+BROAD_AGMINER_BLIND_FREQUENCY_OR_SOURCE_SWEEPS
 ```
 
-Scoped closure never converts into a universal no-go. Proposing a genuinely independent material source, dynamical compensator, physical boundary condition, or symmetry protection may legitimately reopen a higher-level family **only after** directly addressing the prior no-go.
+**Important historical distinction:** 030 weak gravitational-wave/memory pulsing and V21 time-gradient reservoir closures are different mechanisms. Their previous failure does **not** by itself close an R3B-sourced topological Maxwell-field transient; B11 is justified by genuinely different action/matter geometry, but must confront its own exact constraints.
 
----
+Retain B1 conditional higher-scale loaded field, B6 numerical source-leak repair and B7 finite-width charge construction as **positive scoped results**, not failed or closed physical theorems. Preserve all earlier negative evidence in AGMINER failure memory, including source masks, test grids, normalization and what an exclusion did **not** rule out.
 
-## 26. AGMINER next-role specification
-
-AGMINER is a **theorem-first action/source-family falsification engine**, not a parameter sweeper. For R3X3B1 it should consume one candidate action at a time with a structured ledger containing:
+## 18. R3X3B11 exact stop labels and promotion vocabulary
 
 ```text
-CANDIDATE_ACTION
-PHYSICAL_METRIC_MAP
-FIELD_CONTENT_AND_GAUGE_GROUP
-PARITY_CP_ASSIGNMENT
-SOURCE_OPERATOR_AND_CHARGE_CONTENT
-ACTION_DERIVED_CURRENT
-EXACT_WARD_NOETHER_IDENTITIES
-DISCRETE_HESSIAN_RECIPROCITY
-KINETIC_MATRIX_AND_PHYSICAL_MODES
-SOURCE_SUPPORT_AND_DISTRIBUTIONAL_BOUNDARIES
-COMPENSATOR_RESPONSE_MATCH_TO_R3X3B0
-FUNDAMENTAL_FIELD_REDEFINITION_TEST
-CANONICAL_SOURCE_STRENGTH_PER_JOULE
-INTERFACE_LOADING_BASIS
-EMPIRICAL_EXPOSURE
-UV_CUTOFF_AND_RADIATIVE_MIXING
-LOWER_BOUND_COMPLETE_SOURCE_SUPPORT_ENERGY
-EVERYWHERE_FINITE_PAYLOAD_ACCELERATION
-TRUE_EXTERNAL_STANDOFF
-DIRECT_FULL_SOLVER
-CROSS_GRID_AND_DOMAIN_CONVERGENCE
-SCOPED_FAILURE_THEOREM_OR_NUMERIC_BOUND
-NEXT_AUTHORIZED_GATE
+RED_WRONG_ACTION_OR_GAUGE_NOETHER = STOP_UNPHYSICAL_FORMULATION
+RED_INVALID_GAUSS_OR_SOURCE_RESET = STOP_ARTIFICIAL_FIELD_REBUILD
+RED_NO_CAUSAL_ADVANTAGE_IN_TESTED_SOURCE_FAMILY = CLOSE_THAT_MINIMAL_PULSE_FAMILY
+RED_NO_NET_LOADED_PAYLOAD_IMPULSE = CLOSE_TESTED_WAVEFORM_AND_SOURCE
+RED_CYCLE_AVERAGE_BELOW_BENCHMARK = FAIL_CYCLE_LIFT
+RED_NONCONVERGENT_SPIKE_OR_GROWING_MODE = FAIL_NUMERICAL_OR_STABILITY_GATE
+RED_INTERNAL_FORCE_ONLY = FAIL_WHOLE_CRAFT_PROPULSION_INTERPRETATION
+RED_COMPLETE_ENERGY_GE_10MJ = FAIL_PRACTICAL_REALIZATION
+YELLOW_CONSTRAINT_VALID_POSITIVE_SINGLE_PULSE = NOT_SUSTAINED_OPERATION
+YELLOW_STABLE_AVERAGE_PAYLOAD_LIFT = NOT_PHYSICAL_SOURCE_OR_CRAFT_CERTIFIED
+YELLOW_SOURCE_REACTION_OR_ENERGY_UNKNOWN = DO_NOT_ENGINEER_DEVICE
+GREEN_DYNAMIC_FULLY_LOADED_SCOPED = REPRODUCIBLE_TIME_DEPENDENT_MODEL_RESULT
+GREEN_COMPLETE_PHYSICAL_MODEL = ALL_ACTION_SOURCE_METRIC_MATTER_STABILITY_ENERGY_EXTERNAL_REACTION_GATES_PASS
+PHYSICAL_DEVICE_DEMONSTRATED = ONLY_AFTER_INDEPENDENT_EXPERIMENT
 ```
 
-A candidate should exit at its first exact fatal falsifier and be recorded in AGMINER failure memory. Do not assign an arbitrary probability of success or inflate completion heuristics because a preloaded field number is small.
+Each result summary must state whether the claim applies to (i) original local everywhere-1g benchmark, (ii) time-averaged local payload benchmark, (iii) payload COM-only benchmark, or (iv) **whole-craft** Earth-referenced external lift. No use of one observable as a substitute for another.
 
----
+## 19. Research-session protocol, optimized for limited time
 
-## 27. New-run protocol — fast but source-faithful
+1. Read newest source code/codebundle and executable results; the Nov 9 journal, Nov 10 B1–B10 journal, chronology 0035/0036, this updated Part I, AGMINER failure memory and formatting standards. The Nov 9 Part I is superseded.
+2. Confirm source/result provenance and B6 boundary correction first; explicitly distinguish corrected baseline leakage from still-unsolved inverse-loading residuals.
+3. Reproduce R3B's **1.5429162116460216 J field-only** baseline and R3X3B7's **1.5473042949759672 J** 10-cm control. Verify the B4 static loaded failure and corrected R3X1 signs.
+4. Verify latest targeted tests; run a *fresh* full pytest suite before claiming an updated suite total. Don't assume 1,283 is still the total.
+5. State one precise dynamic candidate action/source and its cheapest exact falsifier, without writing a long field time-stepper first.
+6. Derive gauge/Bianchi/continuity/Noether constraints and healthy dynamical mode content. Check static limit against the failed original mirror.
+7. Find out whether a **causal frequency or startup window** can preserve a useful force gradient under full matter loading. Do not infer the answer from $\langle E\cdot B\rangle$ alone.
+8. If it survives, run one conservative source-supported **single pulse**, with full finite-torus force, source reaction and energy ledger; no resetting fields by fiat.
+9. Only if a pulse yields convergent positive net impulse, run repeat-cycle and stability/energy tests, then source physicalization, empirical/UV, whole-craft external momentum accounting and independent reproduction.
+10. Stop on the first fundamental failure. Close the *tested* family in AGMINER with a precise theorem or numerical scope; do not start a general frequency search.
+11. Record one new scientific journal, new chronology notes, hashes/versions, JSON and fresh test counts. Regenerate codebundle and journal bundle using their designated scripts. Update README only for independently supported physical claim levels.
 
-1. Read the current codebundle, latest artifacts and signed November journal; confirm the historical record still agrees with actual source code.
-2. Verify the suite against **1,283 last recorded passes**, unless a newer source snapshot legitimately changes count; explain any mismatch.
-3. State one precise physical action and one exact *reason it could differ* from the closed R3 field-basis families.
-4. State the cheapest decisive falsifier before coding.
-5. Check gauge identities, microscopic source support, field-redefinition invariance and reciprocal matter action **before** expensive BVP.
-6. Check energy lower bounds and empirical contradictions before parameter scans.
-7. If the candidate survives, solve one finite-payload BVP with identical source parameters and independent sparse/direct validation across grids.
-8. Only if finite-payload \(\ge1g\) and \(\ge1m\) survive: test interacting stability, nonlinear/quantum naturalness and full energy.
-9. Stop at the first fatal failure; record what was falsified and what remains untested.
-10. On closeout, update one journal entry and chronology note; regenerate code/result bundles; update `RESEARCH_BUILDPLAN.md` and README only for material state changes.
+**Preferred delivery for code/run work:** complete paste-ready Bash blocks directly in chat, distinct **apply** and **verify** commands, no git commands in run instructions and no download-only script deliverables unless requested. Preserve original artifacts and filenames.
 
-The user prefers complete, paste-ready shell blocks in the chat for science runs; do not create downloadable script files unless requested. Do not use version-control shell commands in run instructions. Preserve old artifact files and old code; use new run IDs for all new outputs.
+## 20. Historical-to-current supersession crosswalk
 
----
+This November 10 Part I replaces the old November 9 *active instructions*, not the historical science in Part II. The complete September 14 52-section source remains archived unchanged in Part II; the displaced November 9 Part I is preserved verbatim in Part III.
 
-## 28. Scientific promotion and reporting vocabulary
-
-Every branch should select exactly one **claim class** with explicit scope:
-
-| Label | Meaning |
+| Earlier instruction or interpretation | November 10 authoritative replacement |
 |---|---|
-| `ALGEBRAIC_IDENTITY` | Symbolic relation; no sourced field or payload proof. |
-| `PRELOADED_REDUCED_MODEL_CAPACITY` | Specified field/metric response without complete reciprocal matter solution. |
-| `GLOBAL_FIELD_LEVEL_COMPLETION` | Boundary-completed field with specified mathematical neutrality; physical source may be open. |
-| `SAME_ACTION_LOADED_FINITE_GRID` | Coupled source and matter field equations checked on sampled meshes. |
-| `SCOPED_DUAL_NUMERICAL_EXCLUSION` | Valid witness for a stated discrete source cone and tolerance only. |
-| `ACTION_DERIVED_SOURCE_PREFLIGHT` | Candidate exact source/action identities passed; full BVP not yet passed. |
-| `HEALTHY_MODE_REALIZATION` | Proper gauge-fixed fluctuation spectrum healthy; other physical gates may fail. |
-| `FINITE_PAYLOAD_STANDOFF` | Everywhere-outward on finite neutral matter with true gap in actual loaded solution. |
-| `FULL_NONLINEAR_CONSISTENT_MODEL` | Full coupled action, conservation, source and stability checks. |
-| `COMPLETE_SUB10MJ_CERTIFIED` | Complete conservative operating ledger strictly below 10 MJ, all prior gates passed. |
-| `PHYSICAL_DEVICE_DEMONSTRATED` | Reproducible experiment with measured gravitational response and full system. |
+| `R3X3B0` latest / `R3X3B1` next | **R3X3B10 latest verified, R3X3B11 next** |
+| B0's >50% baseline electric-source leakage listed as unresolved | **B6 repaired nonzero-Dirichlet boundary omission**; only small residual remains, separate loaded inverse-source obstruction still fails |
+| Surface-sheet electric source not finite-thickness | **B7** constructs a finite 5–20 cm layer; microscopic charge material still open |
+| Static action-derived interface compensation as immediate work | **Bounded time-dependent same-action pulse hypothesis**; B2/B5/B8/B9/B10 closures retained |
+| Static equilibrium and permanent static stability always required | **Finite-duration valid transient plus bounded repeated-cycle operation** may suffice; ghosts, constraints, conservation and physical source remain mandatory |
+| Static local everywhere-1g and COM treated interchangeably | **Separate** strict spatial benchmark, local time-average, COM impulse and whole-craft lift |
+| Sub-10-MJ viewed as static source ledger only | **Explicit pulse protocol, cumulative energy, frequency, startup, driver, losses, reaction and mechanical work** in complete ledger |
+| `1,283 passed` presented as current suite | **Last recorded historical full suite**; B1–B10 focused tests are not a newly executed combined full regression |
+| Static source BVP immediately after compensator | **First dynamic action and causal response; one sourced pulse only if constraints pass** |
+| September A12D0 Pauli queue is current | Historical only; tested practical minimal electron-Pauli route already closed |
 
-R3B presently belongs to `PRELOADED_REDUCED_MODEL_CAPACITY` with a field-level global completion; R3X3B0 is a `SAME_ACTION_LOADED_FINITE_GRID` *falsification* and exact inverse-support obstruction, not a successful physical model. 006D remains `CONSERVATIVE_LINEARIZED_GR_TRUE_STANDOFF_ANCHOR` only within its declared linearized approximation.
+The amended plan must be read before any old Part II step. The original archive contains historical assertions such as “A12D0 latest” and “1080 tests” that were true only in their earlier session and are **not** operative instructions.
 
-No project section may label these as equivalent achievements.
-
----
-
-## 29. Strict reproducibility and publication readiness protocol
-
-### 29.1 Source identity and hashes
-
-Preserve historical file spellings (including `prefight`) and store cryptographic hashes for each implementation, simulation, test, input artifact and output artifact. A historically reported checksum is not verified against an unpinned later extract; report any mismatch instead of silently changing the expected source. The September codebundle may not contain November modules.
-
-### 29.2 Fresh clean-environment reproduction
-
-For full independent confidence, a second researcher/process should reconstruct the R3B field equation, multipoles, 1g normalization and canonical field integral without importing the source routines that produced the initial number. Recompute energy on finer meshes and an independent exterior integral; establish error bars instead of advertising all printed digits as significant.
-
-### 29.3 Variational consistency
-
-Independently vary source, matter and any compensator from the same action. Compare symbolic derivative, automatic derivative and finite differences with normalization and boundary terms. Check full Ward identities and source-work consistency, not just an isolated Maxwell residual.
-
-### 29.4 Artifact checks
-
-Compare the historical R3B summary and newest R3X3B0 JSON against expected keys and numerical fields; verify both stand-off geometry and payload masks. Do not fabricate a missing JSON field by inference or accept a printed number that is absent from the structured artifact.
-
-### 29.5 Precision acceptance
-
-Distinguish approximate reproducibility (`1e-8` J regression tolerance, for example) from mathematically certified continuum accuracy. Establish minimum-payload acceleration margins **above** exactly 1g when possible so discretization error cannot silently invalidate the everywhere-outward claim.
-
-### 29.6 Trust boundaries
-
-Research artifacts, narrative interpretations and software tests are not experimentally established physical phenomena. README/tweet language must identify reduced-model status and the loaded sign failure. No collaborator should infer a working 1.54 J apparatus.
-
----
-
-## 30. Historical source code and result references
-
-### 30.1 Pinned historical R3B paths (as reported in the journal)
+## 21. Current authoritative checkpoint (November 10, 2026)
 
 ```text
-src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py
-recorded source SHA256: aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263
-
-simulations/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py
-recorded source SHA256: fd602c43aab742545d5ed828acfa2661f64fa78cae9cc24b29a3cf9c34db7c9c
-
-tests/agminer/test_032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py
-recorded source SHA256: eec5563e7d8fec33a8d181f031e7505bb1957934ac3a1f813f36ba328a355b05
-```
-
-These are **historical journal-recorded hashes**, which still require confirmation against the exact user checkout. A separately extracted source file in the working evidence set may hash differently; if so, resolve source-snapshot provenance rather than claiming hashes match. The spelling `prefight` is historical and intentional in filenames.
-
-### 30.2 Result artifacts to retain
-
-```text
-results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json
-results/data/032h17a12d1r3b_hook17_fdual_f_multipole_fit_scan.csv
-results/data/032h17a12d1r3b_hook17_fdual_f_interface_pareto.csv
-results/data/032h17a12d1r3c1_hook17_fdual_f_exact_reciprocity_ultrasmall_summary.json
-results/data/032h17a12d1r3d0_hook17_node_integrability_summary.json
-results/data/032h17a12d1r3x2r1_dual_certificate_summary.json
-results/data/032h17a12d1r3x2r2_energy_budget_dual_summary.json
-results/data/032h17a12d1r3x3a_cross_sign_interface_summary.json
-results/data/032h17a12d1r3x3b0_inverse_loading_summary.json
-```
-
-### 30.3 Current scientific modules to include in next codebundle
-
-```text
-src/antigravity_research/agminer/hook17_fdual_f_r3x2_source_cone.py
-src/antigravity_research/agminer/hook17_fdual_f_r3x2r1_dual_certificate.py
-src/antigravity_research/agminer/hook17_fdual_f_r3x2r2_budget_dual.py
-src/antigravity_research/agminer/hook17_fdual_f_r3x3a_cross_sign_interface.py
-src/antigravity_research/agminer/hook17_fdual_f_r3x3b0_inverse_loading.py
-```
-
-### 30.4 Recent result artifact SHA256 (from supplied files)
-
-```text
-R3C1  b7ebfa350733903b9e21410392209b02323756bb17f619f1c33dc2045d12a51d
-R3D0  0b07ea57d31a0f61d59265e828f6789f3ef098343fd4fecad25289f390decc39
-R3X2R1  a6ab1dc171c5a1898881f9d3b408282733a771a017b8703420e5fedbf76213af
-R3X2R2  642f6faee80158c820ee1942c9e4097f97b1d746bad030724a62b2a927b12690
-R3X3A  90b99d0477bb294f0152ec7b33bf440ef329fb6cb1af8af88744f3276f24205a
-R3X3B0  0b37ba0acbf31da4aaa546fad5edbca448474fcf8a94f058d09bf0836161884a
-```
-
-The fingerprints verify specific JSON bytes, not the physics or existence of a full action. Preserve exact source/result provenance along with logs.
-
----
-
-## 31. Governance of unresolved status, regression and heuristics
-
-- Latest known full-suite count: **1,283 passed**. The project has not provided a newly captured complete November codebundle in this document.
-- No completed fully sourced sub-10-MJ physical model; AGMINER complete survivors remain zero.
-- No justified current "chance of success" or project-completion percentage follows from test count or low-field inventory. Do not manufacture one.
-- Latest completed branch `R3X3B0`; immediate next conditional gate `R3X3B1`.
-- Reproduction, source mask and exact action are blockers prior to further optimization.
-- No quantum/UV/emprical closure or experimental gravitational force observation.
-- Preserve source support and reaction whenever electric/magnetic mirror boundary conditions are revised.
-
----
-
-## 32. Detailed next-session decision tree
-
-```text
-LOAD LATEST CODE + JOURNAL + RESULTS + CHRONOLOGY 0035
-   |
-   v
-VERIFY HISTORICAL R3B SOURCE / JSON / 1.54J INDEPENDENTLY
-   |
-   +-- MISMATCH --> QUARANTINE EXACT NUMERICAL CLAIM, REPAIR PROVENANCE
-   |
-   v
-AUDIT BASELINE ELECTRIC SOURCE SUPPORT WITH PHYSICAL WEIGHTS
-   |
-   +-- GENUINE SOURCE LEAKAGE --> R3B REMAINS INVERSE FIELD TARGET
-   |                              SOURCE-REALIZATION BRANCH REQUIRED
-   |
-   v
-R3X3B1: WRITE ONE GENUINELY NEW ACTION-DERIVED INTERFACE OPERATOR
-   |
-   +-- SIGN / WARD / NOETHER / PARITY FAIL --> CLOSE THAT OPERATOR
-   |
-   v
-SPECTRUM + MICROSCOPIC CURRENT + SOURCE SUPPORT
-   |
-   +-- GHOST / ANOMALY / OUT-OF-SUPPORT --> CLOSE THAT REALIZATION
-   |
-   v
-INVERSE-SOURCE RESIDUAL MATCHED WITHOUT KILLING METRIC GRADIENT?
-   |
-   +-- NO --> CLOSE OPERATOR OR RERANK GENUINELY NEW FAMILY
-   |
-   v
-EARLY EMPIRICAL / UV / NATURALNESS / SOURCE-ENERGY LOWER BOUNDS
-   |
-   +-- FATAL OR >=10MJ --> CLOSE PRACTICAL REALIZATION
-   |
-   v
-AUTHORIZE ONE FINITE 1KG LOADED BVP WITH INDEPENDENT FULL SOLVER
-   |
-   +-- WORST POINT <1G / TRUE GAP <1M / NONCONVERGENT --> NO PROMOTION
-   |
-   v
-CONTINUUM + FULL NONLINEAR + INTERACTING STABILITY + REACTION
-   |
-   +-- FAIL --> NO PHYSICAL MODEL
-   |
-   v
-COMPLETE CONSERVATIVE OPERATING ENERGY STRICTLY BELOW 10MJ
-   |
-   +-- UNKNOWN --> UNCERTIFIED
-   +-- >=10MJ --> FAIL PRACTICALITY
-   |
-   v
-INDEPENDENTLY VERIFIED PHYSICAL-MODEL SUCCESSOR CANDIDATE
-```
-
-At any branch, vacuum/dilute-test-body analysis may run as an explicitly separate diagnostic; it is not a shortcut around finite 1 kg loaded response or source support.
-
----
-
-## 33. Current authoritative checkpoint
-
-```text
-DATE = 2026-11-09
-PROGRAM = 032H17_HOOK17
-FLAGSHIP_RESULT = 032H17A12D1R3B
-R3B_PRELOADED_CANONICAL_FIELD_J = 1.5429162116460216
-R3B_REFERENCE_PAYLOAD = FINITE_1KG_NEUTRAL_TORUS
-R3B_PRELOADED_MINIMUM_ACCEL_M_S2 = 9.80665
-R3B_TRUE_EXTERNAL_GAP_M = 1.0
-R3B_ENERGY_CLASS = PRELOADED_FIELD_ONLY_CAPACITY
-R3B_GLOBAL_ELECTRIC_MONOPOLE = ZERO
-R3B_STRICT_EXTERNAL_PHYSICAL_SOURCE = NOT_CERTIFIED
-R3B_UNLOADED_TO_LOADED_PROMOTION = FAILS_SIMPLE_MIRROR
-A12B_EXACT_MASSLESS_CARRIER = PRESERVED_SCOPED
-A12C_F2_HISTORICAL_PRELOADED_ENERGY_J = 2.6568591420597114
-R3C1_DISCRETE_RECIPROCITY = REPAIRED_IN_TESTED_NORMALIZATION
-R3D0_EXACT_SINGLE_FIELD_NODE = OBSTRUCTED_IN_TESTED_STATIC_SCOPE
-R3X1_LORENTZIAN_OFFDIAGONAL_SIGNS = CORRECTED
-R3X2R2_LOW_ORDER_SOURCE_CONE = GREEN_SCOPED_NUMERICAL_EXCLUSION
-R3X3A_OPPOSITE_SIGN_SOURCE_CONE = GREEN_SCOPED_NUMERICAL_EXCLUSION
-R3X3B0_SIGNED_FIELD_OPERATOR_CONJUGACY = EXACT_DISCRETE_PASS
-R3X3B0_BASELINE_ELECTRIC_SOURCE_SUPPORT = OPEN_WARNING
-R3X3B0_UNCHANGED_MIRROR_EXTERNAL_ONLY_PRESERVATION = EXCLUDED_BOTH_GRIDS
-R3X3B0_LOADED_WORST_A_H075 = -46.40607408464625_M_S2
-R3X3B0_LOADED_WORST_A_H050 = -129.67185782242464_M_S2
-R3X3B0_UNIFORM_1G_THRESHOLD_H075 = ~1.11581E-5
-R3X3B0_UNIFORM_1G_THRESHOLD_H050 = ~8.60078E-6
-R3X3B0_LOADED_FIELD_ENERGY_RANGE = ~1.44_TO_1.52_J
-LATEST_COMPLETED_SCIENCE_BRANCH = 032H17A12D1R3X3B0
-LATEST_RECORDED_FULL_REGRESSION = 1283_PASSED
-NEXT = 032H17A12D1R3X3B1_ACTION_DERIVED_INTERFACE_COMPENSATOR_PREFLIGHT
-VACUUM_FIELD_ONLY = POSSIBLE_IN_PRINCIPLE_NOT_PAYLOAD_SUCCESS
-DILUTE_TEST_BODY = SEPARATE_DIAGNOSTIC_OPEN
-FIXED_1KG_VACUUM_CHAMBER_RESCUE = NOT_DEMONSTRATED
-COMPLETE_SAME_ACTION_MICROSCOPIC_MODEL = NO
-PHYSICAL_ANTIGRAVITY_MODEL_FOUND = NO
-CERTIFIED_COMPLETE_SUB10MJ_MODEL_FOUND = NO
-EXPERIMENTAL_REPULSION_OBSERVED = NO
-STRONGEST_CONSERVATIVE_TRUE_STANDOFF_GR = 006D
-006D_COEFFICIENT = 23.591586299249
+DATE = 2026-11-10
+PRIMARY_PROGRAM = 032H17_HOOK17
+LATEST_COMPLETED_SCIENCE_BRANCH = 032H17A12D1R3X3B10
+NEXT = 032H17A12D1R3X3B11_PULSED_TOPOLOGICAL_FIELD_FINITE_PAYLOAD_IMPULSE_PREFLIGHT
+FLAGSHIP = 032H17A12D1R3B
+R3B_CANONICAL_PRELOADED_FIELD_ENERGY_J = 1.5429162116460216
+R3B_PAYLOAD_MASS_KG = 1.0
+R3B_TORUS_MAJOR_RADIUS_M = 1.0
+R3B_TORUS_MINOR_RADIUS_M = 0.2
+R3B_ORIGINAL_SOURCE_RADIUS_M = 2.0
+R3B_TRUE_EXTERNAL_STANDOFF_M = 1.0
+R3B_PRELOADED_MINIMUM_SAMPLED_ACCEL_M_S2 = 9.80665
+R3B_RESULT_CLASS = PRELOADED_REDUCED_MODEL_FIELD_CAPACITY
+R3B_MICROSCOPIC_SOURCE = UNCERTIFIED
+R3B_FULLY_LOADED_ORIGINAL_STATIC_MIRROR = FAILS
+R3B_LOADED_COM_1G = FAILS_ON_THREE_TESTED_GRIDS
+R3X3B6_OLD_BASELINE_ELECTRIC_LEAKAGE = SUPERSEDED_BOUNDARY_ARTIFACT
+R3X3B6_PAYLOAD_LOCAL_INVERSE_LOADING_OBSTRUCTION = PRESERVED
+R3X3B7_FINITE_WIDTH_SOURCE_CONTROL = YES_FIELD_LEVEL_ONLY
+R3X3B7_10CM_PRELOADED_FIELD_ENERGY_J = 1.5473042949759672
+R3X3B1_HIGHER_SCALE_LOADED_FIELD = CONDITIONAL_FIELD_ONLY_0P275_TO_0P301MJ
+R3X3B2_MINIMAL_MASSIVE_AXIAL_DIRAC = CLOSED_SCOPED
+R3X3B3_ELECTRON_STATIC_DIPOLE_SOURCE = CLOSED_SCOPED
+R3X3B5_MINIMAL_SOURCE_FREE_AXION_EXACT_PRESERVATION = CLOSED_SCOPED
+R3X3B8_HOMOGENEOUS_SPHERICAL_SCREENING = VERIFIED_SCOPED
+R3X3B9_ALGEBRAIC_SCHUR_COMPLEMENT_RECIPROCITY = VERIFIED_SCOPED
+R3X3B10_COMMON_POSITIVE_KINETIC_SPHERICAL_TRANSMISSION = CLOSED_SCOPED
+R3X3B10_FOCUSED_TESTS = 21_PASSED
+LAST_RECORDED_FULL_SUITE = 1283_PASSED
+LATEST_FULL_SUITE_AFTER_R3X3B10 = NOT_REPORTED
+R3X3B11_DYNAMIC_ACTION = NOT_YET_DERIVED_AND_VERIFIED
+R3X3B11_SOURCED_SINGLE_PULSE = NOT_YET_EXECUTED
+R3X3B11_FAVORABLE_CAUSAL_FREQUENCY_WINDOW = NOT_ESTABLISHED
+R3X3B11_FINITE_PAYLOAD_AVERAGE_1G = NOT_DEMONSTRATED
+R3X3B11_WHOLE_CRAFT_EXTERNAL_LIFT = NOT_DEMONSTRATED
+PULSED_FINITE_TIME_STABILITY_RELAXATION = CONDITIONAL_ALLOWED
+EXACT_GAUGE_WARD_NOETHER = MANDATORY
+MICROSCOPIC_SOURCE_AND_REACTION = MANDATORY
+COMPLETE_CONSERVATIVE_OPERATING_ENERGY_TARGET = STRICTLY_LT_10MJ
+EXACTLY_10MJ = FAIL
+COMPLETE_SOURCED_SAME_ACTION_PHYSICAL_MODEL = NO
+PHYSICAL_ANTIGRAVITY_MODEL = NO
+EXPERIMENTAL_GRAVITATIONAL_REPULSION_OBSERVED = NO
+006D_CONSERVATIVE_GR_ANCHOR = PRESERVED
+006D_C = 23.591586299249
 006D_REPLACED = FALSE
 HOOK17_CLOSED = FALSE
 ```
 
-**Final current strategy:** The historical R3B 1.54 J result is an extraordinary **mathematical preloaded field-capacity clue**, not complete energy or a physical antigravity device. Do not chase lower joules. Make source-provenance, same-action matter coupling and physical interface compensation the only reasons to authorize more costly work. Every new calculation must be tied to a falsifiable action and an independently checkable finite-neutral-payload observable.
+### Single next-session mandate
+
+**Do not reoptimize the 1.54 J field or continue arbitrary static compensator variations.** Freeze the actual R3B baseline, carry forward B6's corrected source support and B7's finite-width electric construction, derive a **constraint-satisfying time-dependent same-action** R3B source drive, and ask the most decisive question available: **Does a causal, fully loaded, finite neutral payload receive sufficient positive outward impulse from one physically sourced pulse?** If yes, test repeatability, stable average lift, conservation, whole-craft external reaction, microscopic source and full energy. If no, document the specific dynamical no-go/failure and preserve the unique preloaded-capacity result without implying a working antigravity apparatus.
 
 ---
-
-
+---
 # PART II — FULL HISTORICAL SEPTEMBER 14, 2026 BUILDPLAN (ARCHIVED; NOT CURRENT INSTRUCTIONS)
 
 > **CRITICAL HISTORICAL-ONLY WARNING.** The following is the entire original 52-section September 14 research buildplan, preserved for detailed equations, source-atlas bookkeeping, failure memory, proofs, numerical anchors and the original logic of the project. **Its present-tense claims and imperative instructions are superseded by Part I.** In particular, its `A12D0` latest result, electron-Pauli/A12D1 next step, `1080 passed`, and "freeze A12C F² as frontier" instructions are NOT CURRENT. Do not execute its original §48–§51 protocol or source-family queue. Do not use its §40 open status for the minimal electron-Pauli source without the later closeout. Historical text is archival evidence, not active policy.
@@ -4860,3 +4113,1444 @@ NO
 NEXT=
 032H17A12D1_PAULI_MAGNETIZATION_SOURCE_ENERGY_UV_RADIATIVE_MIXING_AND_EMPIRICAL_GATE
 ```
+
+
+---
+
+# PART III — ARCHIVED NOVEMBER 9, 2026 PART I (SUPERSEDED; NOT CURRENT INSTRUCTIONS)
+
+> **ARCHIVAL WARNING:** The following text reproduces the original November 9, 2026 authoritative Part I *verbatim*, including its then-current instruction to start R3X3B1 and the subsequently corrected R3X3B0 baseline electric-source leakage warning. It is preserved for complete scientific provenance only. **All active research priorities and corrections are governed by November 10 Part I above.**
+
+# Antigravity Research — Research Buildplan
+
+**Updated:** November 9, 2026  
+**Role:** Authoritative forward-looking scientific strategy, frontier control, falsification gates, promotion criteria, and strict practicality roadmap  
+**Primary program:** `032H17 — HOOK17`  
+**Flagship low-field-capacity result:** `032H17A12D1R3B — 1.5429162116460216 J`  
+**Latest completed branch:** `032H17A12D1R3X3B0`  
+**Next branch:** `032H17A12D1R3X3B1 — ACTION-DERIVED INTERFACE COMPENSATOR PREFLIGHT`  
+**Latest recorded full regression:** `1,283 passed`  
+**Strongest conservative true-stand-off GR anchor:** `006D`, `C=23.591586299249`  
+**Complete physical antigravity model:** **Not established**  
+**Complete conservative operating energy <10 MJ:** **Not certified**  
+**006D replaced:** **No**
+
+> **Strategic objective:** Preserve R3B's exceptional low-inventory **preloaded** field configuration. Find out whether a physically sourced, stable **same-action** universal-metric model can retain its everywhere-outward response after finite neutral matter backreaction. Do not chase a lower joule headline or promote an unloaded calculation into a working device.
+
+---
+
+## PART I — CURRENT AUTHORITATIVE STRATEGY (November 9, 2026)
+
+## 0. Document authority, supersession, and reproduction
+
+This file controls **what research to do next**, not the chronology of how each result was discovered. This exhaustive revision preserves all original 52 historical sections in the explicitly archived Part II while making the November strategy authoritative in Part I. Nothing in the archived September instructions overrides current decisions.
+
+| Evidence / document | Purpose |
+|---|---|
+| Latest result artifacts and recorded run output | What a completed run actually reported |
+| Current code plus latest complete codebundle | Source equations, numerical implementation, reproducibility |
+| `journal/` | Durable derivations, results, falsifications, qualifications |
+| `NOTES.md` and `notes/chronology/` | Carry-forward details and context |
+| **`RESEARCH_BUILDPLAN.md`** | Current strategy and go/no-go decisions |
+| `AGMINER_BUILDPLAN.MD` | Theorem-first candidate engine and failure memory |
+| `INTROSPECTIVE_BUILDPLAN.md` | Source-efficiency knowledge, not a certified field |
+| `README.md` | Conservative public-facing state |
+| `FORMATTING_AND_CODE_STANDARDS.md` | Mathematical Markdown, code, validation conventions |
+
+The prior buildplan (September 14, 2026) is **historical**. In particular, it incorrectly describes A12D0, the minimal electron-Pauli source, `1,080 passed`, and the $2.656859$ J $F^2$ model as the active frontier. Do not treat its historical queue or instructions to restart Pauli as current. Preserve the complete original snapshot in Part II below. Its older instructions are evidence of historical decision-making, **not current execution orders**.
+
+**Primary R3B–R3X3B0 reproducibility journal:** [2026-11-09 field-capacity and inverse-loading journal](journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md).  
+**Latest carry-forward notes:** [Chronology 0035](notes/chronology/0035_november_9_2026_hook17_r3b_r3x3b0_vacuum_interface_carry_forward.md).
+
+The linked documents and source artifacts must actually exist in the repository. Links and regression counts do not substitute for independent equation or numerical verification.
+
+---
+
+## 1. Permanent requirements and claim separations
+
+The project seeks true outward gravitational/universal-metric response **everywhere across finite neutral matter**, through one physical metric, with:
+
+```text
+MINIMUM_LOCAL_OUTWARD_ACCELERATION = 9.80665 m/s^2
+MINIMUM_TRUE_EXTERNAL_STANDOFF = 1.0 m
+REFERENCE_PAYLOAD = finite neutral 1 kg torus
+SOURCE = finite, supported, conserved, physically realizable
+COMPLETE_CONSERVATIVE_OPERATING_ENERGY = STRICTLY LESS THAN 10,000,000 J
+EXACTLY 10,000,000 J = FAIL
+GREATER ACCELERATION OR STANDOFF = FAVORABLE
+```
+
+Always distinguish: algebraic invariant; globally constructed preloaded fields; microscopic source; loaded test-body response; loaded finite **1 kg** payload response; stability; nonlinear and quantum consistency; complete-energy certification; and a practical experimental device. Each is a separate accomplishment.
+
+A field inventory of 1.54 J is not the source energy, source work, compensator energy, or device operating energy. A center-of-mass acceleration or local sign at one point does not establish the everywhere-outward floor. A test-body limit does not automatically satisfy the reference payload requirement.
+
+**Permanent anti-optimization rule:** If the relevant canonical field term is already below about 100 J, do not spend work merely reducing its number. Spend effort on physically realizable same-action response, support, conservation and complete energy.
+
+---
+
+## 2. Scientific hierarchy and numerical anchors
+
+### 2.1 Strongest conservative physical-gravity anchor — 006D
+
+006D remains the strongest established project-specific true-external-stand-off construction within **static linearized general relativity**: finite thickness and radius, positive energy, local conservation at linearized order, NEC/WEC/DEC, outward near gravity, and positive far-field active mass.
+
+```math
+C_{006D}=23.591586299249
+```
+
+Its approximate $1/G$ cost is of order $3.1\times10^{29}$ J at the reference 1g/1m scale. It is not an exact nonlinear Einstein-matter model, a demonstrated stable device, or practical. No R3 result supersedes it.
+
+### 2.2 A12B and A12C — protected carrier and originating low-capacity clue
+
+**A12B** established the scoped symmetry-protected massless concurrent-$U(1)$ carrier corridor with a classically conserved Dirac vector Noether current and nonsingular auxiliary sector; no near-singular kinetic gain or ultralight Proca tuning was required.
+
+**A12C** established a gauge-invariant conformal $F^2$ *reduced-EFT preloaded* field response for a finite 1 kg neutral torus at 1 m true external stand-off:
+
+```text
+MINIMUM SAMPLED PAYLOAD ACCELERATION = 9.80665 m/s^2
+A12C CENTER-OF-MASS ACCELERATION = 15.042170908175194 m/s^2
+A12C CANONICAL FIELD ENERGY = 2.6568591420597114 J
+A12C CANONICAL SOURCE WORK = 2.6577816871671844 J
+REFERENCE PORTAL SCALE = 1000 eV
+```
+
+The A12C COM figure must **not** be assigned to R3B. Ordinary 1-keV $F^2$ reuse failed same-action finite-matter loading, and the minimal ordinary EM-like/Pauli source realizations were closed in their tested practical forms. A12B carrier existence and A12C reduced-model field-capacity knowledge remain preserved without being called complete models.
+
+### 2.3 R3B — flagship 1.5429162116460216 J mixed-field result
+
+**R3B is the main low-capacity *research target* of the current program.** It constructed a globally continued, net-neutral mixed-electric/magnetic field, dominated by dipolar structure, within the reduced universal-metric model. After normalizing sampled whole-payload minimum acceleration to 1g:
+
+```text
+BRANCH = 032H17A12D1R3B
+GLOBAL_MIXED_CANONICAL_FIELD_ENERGY_AT_1G = 1.5429162116460216 J
+PAYLOAD = finite neutral 1 kg torus
+MINIMUM SAMPLED PRELOADED OUTWARD ACCELERATION = 9.80665 m/s^2
+TRUE EXTERNAL STANDOFF = 1.0 m
+NET ELECTRIC MONOPOLE = ZERO
+RESULT CLASS = FIELD_ONLY / PRELOADED_REDUCED_MODEL_CAPACITY
+MICROSCOPIC PHYSICAL SOURCE = NOT CERTIFIED
+FULL SAME-ACTION LOADED PHYSICAL MODEL = NO
+COMPLETE OPERATING ENERGY = UNKNOWN
+```
+
+The recorded numerical digits are **not** a formal 16-digit continuum error certificate. A net-neutral global harmonic field is not necessarily a strictly support-localized physical current configuration. The later R3X3B0 source-support warning is relevant to the original preloaded target.
+
+**Preserve the 1.542916 J result even though the later loaded mirror fails.** Failure of a particular source configuration is not a general theorem against every genuinely different action-derived interaction. Conversely, the successful unloaded calculation does not justify a physical antigravity claim.
+
+---
+
+## 3. R3-series completed findings and permanent closures
+
+### R3A / R3C / R3C1 — topological bulk rescue, interface loading
+
+The reduced conformal metric is schematically
+
+```math
+g^{\mathrm{phys}}_{\mu\nu}=e^{2\sigma}g_{\mu\nu}
+```
+
+with the proposed parity-odd carrier invariant
+
+```math
+P=F_{\mu\nu}\widetilde F^{\mu\nu}=-4\mathbf E\cdot\mathbf B
+```
+
+R3A's **linear** topological portal strongly suppresses constant-trace bulk matter loading (approximately $1.84\times10^{15}$ relative to ordinary $F^2$ loading in its stated comparison), because constant-coefficient Abelian $F\widetilde F$ is topological. But a **matter-dependent** coefficient contributes through gradients, especially at a finite payload's material interface. Parity/CP completion remains open.
+
+R3C showed that the original parallel mirror loses outward sign after loading without a Maxwell-energy explosion. R3C1 repaired the weighted discrete reciprocity/Ward certificate, sampled the ultra-small-loading interval directly, and checked Woodbury against direct full coupled solves. Later **R3X1 Lorentzian-sign-corrected** values supersede earlier sign-sensitive full-loading results.
+
+### R3D0 — exact static node obstruction
+
+The exact static single-field node failed the declared integrability/source-basis test; this is not a universal no-go for all new action-derived interface structures. Do **not** confuse approximately $45.15^\circ$ gross field reorientation with approximately $4.59^\circ$ additional node-centered taper variation.
+
+### R3X0 / R3X1 — basis invariance and corrected constitutive signs
+
+Field-sign splitting and two-$U(1)$ notation alone can be a mere nonsingular field redefinition. The corrected Lorentzian static block operator is
+
+```math
+L_+=\begin{pmatrix}K_\phi&C\\-D&K_A\end{pmatrix}
+```
+
+Do not reuse the old incorrect Ampere off-diagonal sign.
+
+### R3X2 / R3X2R1 / R3X2R2 — low-order shell source cones
+
+R3X2 tested net-neutral idealized $\ell=1,2,3$ shell sources. Initial infeasibility or solver exceptions were **not** mathematical theorems. R3X2R1 introduced a weighted primal–dual semidefinite energy-normalized certificate. R3X2R2 independently reconstructed numerical eigenvalue upper bounds using multiple spectral methods. In the declared PSD relaxation:
+
+```math
+\min_p a_p\le\sum_p\mu_p a_p\le\gamma U_{\mathrm{field}},
+\qquad\mu_p\ge0,
+\qquad\sum_p\mu_p=1
+```
+
+| Declared source family | 0.075-m grid | 0.050-m grid |
+|---|---|---|
+| Shell-only $\ell=1,2,3$ | Conditional $\ge27.708418$ MJ canonical field-energy floor | Negative numerical dual witness; no everywhere-outward source in tested finite-grid PSD cone |
+| R3B-baseline-augmented diagnostic | Not excluded by 10-MJ test | Conditional $\ge25.466114$ MJ field-energy floor |
+
+Those reported energy floors include a **declared normalized $10^{-9}$ spectral sensitivity**; it is **not** a physical discretization-error bound or a continuum theorem. Do not expand the same shell-source catalog without a new action/source mechanism.
+
+### R3X3A — opposite-sign cross-topological shell family
+
+The correctly signed independent two-sector source family was numerically excluded in its declared finite-grid shell cone: coarse-grid conditional field-energy floor approximately **20.186352 MJ** under the stated perturbation, fine-grid negative numerical dual upper witness. A true physical two-field theory outside that symmetric low-order source space was not universally excluded.
+
+### R3X3B0 — exact inverse-loading and source-support obstruction (latest)
+
+The signed-sector conjugacy passed exactly in the tested discrete source domain:
+
+```math
+L_-=S L_+ S,
+\qquad S=\begin{pmatrix}I&0\\0&-I\end{pmatrix}
+```
+
+The opposite sign is not a new physical response by itself when the source domain is closed under the corresponding magnetic source reversal.
+
+Preserving the **exact original preloaded** potentials $\phi_0,A_0$ under full corrected Lorentzian matter loading would require discrete Euler–Lagrange source terms
+
+```math
+\Delta J_\phi=C A_0,
+\qquad \Delta J_A=-D\phi_0
+```
+
+These quantities are unnormalized numerical equation residuals, **not** physical currents or source energy.
+
+| R3X3B0 observable | 0.075-m grid | 0.050-m grid |
+|---|---:|---:|
+| Preloaded field energy | 1.4597081610973566 J | 1.537764066028296 J |
+| Preloaded minimum sampled acceleration | +9.80665 m/s² | +9.80665 m/s² |
+| Fully loaded field energy | 1.4433196404756485 J | 1.5211390382733165 J |
+| **Fully loaded worst sampled acceleration** | **−46.40607408464625 m/s²** | **−129.67185782242464 m/s²** |
+| Electric required counter-residual $L^2$ fraction inside payload | 93.5818% | 98.2767% |
+| Magnetic required counter-residual $L^2$ fraction inside payload | 88.7475% | 93.7839% |
+| Required counter-residual outside buffered original 2-m source | 100% in both channels | 100% in both channels |
+
+**Scoped conclusion:** The old externally supported current family cannot hold the original *exact global field profile* unchanged under full matter loading on either tested grid. This says **nothing universal** about different loaded profiles or a new gauge-invariant, action-derived interface interaction.
+
+**Independent baseline warning:** Even the *preloaded* electric source diagnostic has substantial $L^2$ source residual outside the buffered support: **54.7741%** at 0.075 m and **70.8916%** at 0.050 m; the magnetic diagnostic is approximately **1.233%** and **1.616%**, respectively. This is a source-realization problem to audit, not an admissible hidden material current. R3B net-neutral harmonic completion must not be equated with rigorous source localization.
+
+The first connected loss of the **1g floor** under an *artificial uniform matter-loading multiplier* was bracketed:
+
+```text
+0.075 m: last pass 1.115806579589844e-05
+         first fail 1.1158142089843752e-05
+0.050 m: last pass 8.60076904296875e-06
+         first fail 8.60079574584961e-06
+```
+
+Thus simply and uniformly weakening this modeled loading would demand approximately **99.9989–99.9991%** suppression in the first passing interval. This is a **toy sensitivity number**, not a freely tunable physical coupling or a proof of monotonicity. The 1g-floor crossing occurs earlier than the later sign-zero crossing.
+
+**R3X3B0 decision:** `GREEN_SCOPED_EXACT_MIRROR_EXTERNAL_ONLY_COUNTERSOURCE_OBSTRUCTION`.  
+**Full regression:** `1,283 passed`.  
+**Physical model:** no. **Complete sub-10-MJ result:** no. **006D replaced:** no.
+
+### Why the R3B field result survives as an important clue
+
+The loaded canonical field still costs approximately 1.5 J; the **field morphology, sign and sourcing** fail. This sharply narrows the task. Do not spend runs reducing the field term to 1 J or moving old multipoles around. Identify the missing **physically permitted reciprocal material response** without violating its own metric-driving interaction.
+
+---
+
+## 4. Central scientific bottleneck — one action, not two hand-imposed responses
+
+The same matter action that makes neutral matter respond to a universal physical metric also backreacts on the field(s) defining that metric. In a conformal portal $\widetilde g=e^{2\sigma}g$, the variation of the matter action with respect to $\sigma$ is related to the matter stress-energy trace. The $F\widetilde F$ dependence of $\sigma$ therefore induces spatial-gradient coupling terms where the trace changes, particularly at the payload boundary.
+
+**Do not** preserve a gravitational acceleration formula while independently deleting the reciprocal field-equation term. Such an intervention is not automatically variationally integrable and may violate the matter or field Noether identities.
+
+The immediate task is to find, or falsify, a new physical degree of freedom/operator that simultaneously:
+
+1. Derives both acceleration and loaded field equations from **one common local action** (or an explicitly controlled EFT matching).
+2. Preserves exact gauge, Bianchi, source-current, diffeomorphism and stress-energy identities.
+3. Provides a **genuinely independent** response to the finite-payload interface that survives field-redefinition analysis.
+4. Realizes physically supported external sources, allowing internal **induced bound** material currents only when they genuinely follow from the neutral matter action.
+5. Preserves a sufficient spatial gradient of the physical metric invariant to give $\ge1g$ at **every payload point**.
+6. Retains healthy canonically normalized modes, acceptable empirical/naturalness behavior and a realistic path to complete energy $<10$ MJ.
+
+A numerical source term matching $\Delta J$ from R3X3B0 is **not** enough. It must be the actual functional derivative of admissible action terms. Conversely, a no-go for preserving the **exact** old global field does not rule out a nearby or qualitatively different *loaded* field with the same required metric output.
+
+---
+
+## 5. Immediate next branch — R3X3B1 action-derived interface compensator preflight
+
+**Branch:** `032H17A12D1R3X3B1`  
+**Type:** theorem-first physical-action/source preflight, **not** a new broad field optimizer or expensive loaded BVP.
+
+**Single scientific question:**
+
+> Does there exist a minimal, physically consistent new interaction that cancels or reorganizes the destructive R3X3B0 material-interface response while retaining the low-capacity, everywhere-outward universal-metric acceleration?
+
+### 5.1 Minimal starting point: explicitly state the candidate action
+
+For illustration only, a **schematic bookkeeping action, not a viable model**, might have the structure
+
+```math
+S=\int d^4x\sqrt{-g}\left[
+\frac{M_{\mathrm{Pl}}^2}{2}R
+-\frac14 F_X^{\mu\nu}F^X_{\mu\nu}
+-\frac14 F_Y^{\mu\nu}F^Y_{\mu\nu}
++\mathcal L_{\mathrm{aux}}(\chi,\nabla\chi,F_X,F_Y,g)
++\mathcal L_{\mathrm{source}}
+\right]
++S_{\mathrm{matter}}[\psi,\widetilde g]
+```
+
+with exactly one physical metric
+
+```math
+\widetilde g_{\mu\nu}=e^{2\sigma(F_X,F_Y,\chi,\ldots)}g_{\mu\nu}
+```
+
+The original one-sector $F\widetilde F$ portal and the cross-sector $F_X\widetilde F_Y$ portal must be treated as **different physical model proposals unless exact equivalence (including sources) is established**. Parity/CP of the pseudoscalar invariant, anomaly cancellation, dynamics, field normalization and physical-current support must all be evaluated. Merely calling a sector “axial” does not establish a viable axial gauge current.
+
+### 5.2 P0 — baseline source and reproducibility gate (first)
+
+Before new compensator physics, independently reproduce the R3B baseline using pinned historical source. Audit the large preloaded electric-source residual outside the permitted source support. Test whether it is caused by numerical boundary treatment, finite-grid continuation, source-mask definition or a genuine exact-source limitation.
+
+If the exact original R3B target cannot be sourced with the permitted physical currents, **do not discard its field-capacity clue**—demote it to an *inverse-response design target* and require the new candidate to solve baseline sourcing and interface loading together. Do not hide baseline residuals inside a supposed compensator.
+
+**Pass:** source-support map, Maxwell/Noether continuity, physical normalization and independently reconstructed energy/action response all documented.  
+**Hold:** essential source localization or its physical meaning remains unresolved.  
+**Fail for exact-old-field realization:** unavoidable out-of-support source under the original restricted action.
+
+### 5.3 A — same-action Euler–Lagrange and reciprocity gate
+
+Derive the source, carrier, metric, matter and compensator equations **by varying the same action**. Recover the corrected R3X1 Lorentzian signs and matter-gradient terms in the appropriate limit.
+
+Check the second-variation/Helmholtz reciprocity condition using the **correct weighted discretization** (lesson of R3C1); derive the exact Noether identity for energy–momentum exchange, the source-current Ward identities and each gauge Bianchi identity. No by-hand cancellation of $\nabla T$ is permitted.
+
+**Immediate RED:** field equations cannot arise from one common action, fail Ward/Noether, or cancel the reciprocal matter loading while independently retaining a force law.
+
+### 5.4 B — physically different interface mechanism
+
+Use the R3X3B0 $\Delta J_\phi,\Delta J_A$ residual as an **inverse diagnostic**. Separate free external charge/current, induced bound material polarization and compensator-gradient source terms. Verify real source support and reaction, and determine whether new terms preserve $\nabla\sigma$ across the whole finite payload.
+
+**Immediate RED:** source term is inserted arbitrarily, demands independently controlled currents inside the nominally neutral payload, or is only a signed-sector field relabeling of R3X3B0.
+
+**Allowed in principle but not proven:** material-bound polarization currents **derived from the complete neutral matter action**. They must include source reaction, stress-energy, conservation, stability and energy costs. Their presence is not a license for composition-dependent nonmetric forces.
+
+### 5.5 C — parity/CP, protected gauge mode and health
+
+For every candidate derive:
+
+```text
+COMPLETE GAUGE TRANSFORMATIONS AND EXACT CURRENT WARD
+PARITY / CP ASSIGNMENTS AND PHYSICAL COMPLETION
+ANOMALIES AND MASS GENERATION WHERE APPLICABLE
+CANONICAL KINETIC MATRIX AND SOURCE/METRIC COUPLINGS
+HAMILTONIAN POSITIVITY / GHOST / GRADIENT / TACHYON GATES
+FIELD-REDEFINITION-INVARIANT OBSERVABLES
+FINITE-MATTER SECOND VARIATION AND RECIPROCITY
+EFT CUTOFF / UNAVOIDABLE QUANTUM OPERATORS
+```
+
+The A12B exact massless protected corridor remains an anchor but does **not** automatically protect a new pseudoscalar, axial current, polarization medium or extra field from loops and anomalies.
+
+### 5.6 D — cheap empirical and energy falsifiers
+
+Match the **actual canonical operator** against laboratory and astrophysical limits, including ambient electric/magnetic fields, fifth-force/equivalence-principle tests, stellar limits, photon mixing and spin-dependent interactions where applicable. Do not import bounds from superficially similar but inequivalent fields.
+
+Estimate the **optimistic unavoidable** source, material, compensator-gradient, support and confinement energy *before* the next BVP. If any necessary nonnegative component alone is $\ge10$ MJ, close that **practical implementation**; exactly 10 MJ also fails. Otherwise label its ledger incomplete, not successful.
+
+### 5.7 E — minimal constructive response; authorize a BVP only afterward
+
+If the action, symmetry, source support, health, empirical and energy gates survive, test whether the new action creates a nonredefinable direction in the loaded interface response matrix, rather than a rescaling of the old shell-source space. Check the worst payload points and inverse-residual eigenmodes, not just COM force.
+
+**RED:** fatal exact theorem, nonintegrable cancellation, gauge/Noether failure, compulsory $\ge10$ MJ physical cost, fatal instability/empirical conflict, or mere reparametrization of closed sources.  
+**YELLOW:** consistent action ingredients exist but source/normalization/health/energy or finite-payload effectiveness is unresolved.  
+**GREEN PRE-FLIGHT ONLY:** explicit same action, conserved and supported source, nonredefinable useful interface response, healthy canonical modes, and no known fatal cost or empirical contradiction. **Then** authorize one focused fully loaded BVP. This is not yet a physical antigravity success.
+
+### 5.8 Ranked mechanisms to falsify (not a commitment to simulate all)
+
+| Priority | Candidate | Discriminator | Main risk |
+|---|---|---|---|
+| 1 | **New action-derived interface/node operator** | Must change the actual coupled loading response and retain $\nabla\sigma$ | Noether/Helmholtz obstruction, static node integrability |
+| 2 | **Genuinely constrained cross-topological source sectors** | Source/action space not closed under old sign-conjugacy | Rebranding R3X0/R3X3A, parity/anomaly burden |
+| 3 | **Dynamical pseudoscalar compensator** | Independent equation generates the needed boundary response | Gradient/support energy, instability, naturalness |
+| 4 | **Polarizable or cross-kinetic material response** | Bound currents and material stress from one action | New bulk loading, empirical electromagnetic constraints |
+| 5 | **New protected geometric mode** | Nonredefinable healthy carrier, sourced and universal | Large extra theoretical/empirical scaffolding |
+
+The optimal next computation is **one candidate family plus its cheapest decisive invariants**, not a broad AGMINER scan. Do not perform expensive PDE work to rediscover a cheap theorem.
+
+---
+
+## 6. Vacuum and dilute-payload idea — controlled test, not a loophole
+
+**Question:** Can an evacuated source/field volume eliminate unwanted *environmental* matter loading, and what is the true finite-payload test-body limit of the R3B universal-metric response?
+
+Electric and magnetic fields can occupy vacuum. The ideal matter-free region has no ordinary material trace or trace gradient. This can remove **that specific local material contribution** to the topological field-equation loading. It does not remove field sources, chamber walls, support costs or the contribution of the **neutral payload itself**.
+
+A 1-kg neutral torus inside a perfect vacuum still possesses material stress-energy and density interfaces. The very backreaction diagnosed by R3C/R3X3B0 therefore reappears. A no-payload vacuum field does not establish 1g on a finite object.
+
+### Authorized diagnostic after P0/action audit
+
+Use the same physical metric, source support and corrected Lorentzian equations. Compare:
+
+```text
+A. EMPTY_EVACUATED_ACTIVE_REGION — field only; no payload-force claim
+B. DILUTE_NEUTRAL_TEST_BODY — controlled eta -> 0 physical matter limit
+C. FINITE_LOWER_MASS_PAYLOADS — record actual masses and material properties
+D. FULL_REFERENCE_1KG_TORUS — unchanged required benchmark
+E. SMOOTH_DENSITY_OR_HOLLOW_PAYLOAD — only if fixed-mass EOS and source/support valid
+```
+
+Scaling $T_{\mu\nu}^{(\eta)}=\eta T_{\mu\nu}^{(1)}$ is a diagnostic of changing **physical matter stress-energy and typically payload mass**, not a free reduction of the fundamental metric coupling. If the model predicts a good test-body limit but fails at 1 kg, preserve the former as a separate milestone, not a practical success.
+
+Record minimum sampled acceleration, COM acceleration, worst-point migration, canonical field energy, source/support residuals, matter gradients, source-to-payload gap and independent full solver agreement. Treat chamber walls, interfaces, source materials, time-dependent insertion, radiation and reaction explicitly if the architecture becomes serious. Do not misidentify ordinary electromagnetic acceleration of charged test particles as gravitational response.
+
+**Vacuum branch status:** worthwhile *bounded diagnostic*, but not the next replacement for the R3X3B1 common-action preflight. No vacuum rescue has been demonstrated.
+
+---
+
+## 7. Next loaded BVP: authorization and numerical acceptance
+
+**No new expensive BVP until a source/compensator passes R3X3B1 preflight.** A promising algebraic field pattern without physical-source support is insufficient.
+
+Once authorized, run the same physical source parameters on the existing 0.075-m and 0.050-m grids, then investigate finer-grid / larger-domain convergence where justified. Preserve the original R3B and corrected R3X3B0 controls; do not retune separate source amplitudes per grid. The same source support, mass, field normalization, interaction coefficients and material action must carry through.
+
+Required outputs:
+
+```text
+SOURCE AND COMPENSATOR ACTION / SYMMETRY / WARD CERTIFICATE
+LOADED CORRECTED LORENTZIAN OPERATOR / RECIPROCITY CERTIFICATE
+CANONICAL FIELD INVENTORY J, SOURCE/COMPENSATOR/SUPPORT LEDGER J
+MICROSCOPIC SOURCE SUPPORT, LOCAL CONTINUITY, NET PAYLOAD CHARGE
+MINIMUM ACCELERATION EVERYWHERE IN PAYLOAD (NOT JUST COM)
+COM ACCELERATION, SURFACE/VOLUME EXTREMA, WORST-POINT MIGRATION
+TRUE EXTERNAL SOURCE-TO-PAYLOAD GAP AND MATERIAL DENSITY PROFILE
+INDEPENDENT FULL SPARSE VS FAST/WOODBURY SOLVE COMPARISON
+GRID, DOMAIN, DISCRETIZATION, ROUNDING, AND BASIS CONVERGENCE
+HEALTH, PARITY/CP, ANOMALY, EMPIRICAL, NATURALNESS STATUS
+PHYSICAL REACTION/STRESS AND TOTAL ENERGY ACCOUNTING STATUS
+```
+
+A model with any negative worst-point acceleration, or $0<a_{\min}<9.80665\,\mathrm{m/s^2}$, fails the fixed 1g benchmark. A stable ~1.5-J field energy is not sufficient if the acceleration sign is wrong. A passing finite-grid BVP is not a continuum theorem or a fully healthy physical source.
+
+**R3B precision caution:** The historical R3B reported field capacity $1.5429162116460216$ J and later corrected R3X3B0 per-grid preloaded inventories $1.4597081610973566$ J and $1.537764066028296$ J are **related but not identical reconstruction/normalization outputs**. Preserve them separately; do not claim the historical value has been proven to converge to a particular continuum figure.
+
+---
+
+## 8. Mandatory post-BVP gates and strict complete-energy policy
+
+Even a candidate reaching 1g / 1m in a loaded calculation must establish:
+
+- **One full action:** source, matter, carrier, compensator, metric and gravitational sectors with exact energy–momentum exchange and diffeomorphism/Noether identities.
+- **Physical source:** net-neutral finite payload, actual conserved source currents, finite source support, real material constituents and reaction forces; no fictitious internal free current.
+- **Healthy modes and interacting stability:** no ghosts, gradient or nonaxisymmetric instabilities, bounded static and dynamic material/interface modes. Remember the fatal 018C $m=2$ warning.
+- **Canonical and representation invariance:** no near-singular denominator gain, no fake field-basis escape, no gauge-symmetry violations.
+- **Naturalness/UV/empirics:** genuine anomaly/CP completion, cutoff, radiative mixing and generated lower-dimensional operators; match the *actual* canonical coupling to environmental EM, precision gravity, fifth-force, equivalence-principle, spin, stellar and other relevant tests.
+- **Nonlinear consistency:** field/source/payload gravitational backreaction, physical-metric response, reaction/radiation and conservation, not just linearized or prescribed acceleration.
+- **Complete operating energy:** source and material inventory, field/mediator/metric, compensator and symmetry breaking, support/confinement, polarization, activation/reset/control, cooling, off-state, leakage, reaction/radiation, source/payload backreaction, quantum/RG/UV and unavoidable standby costs.
+
+```math
+E_{\mathrm{complete,conservative,operating}}<10^7\,\mathrm J
+```
+
+Exactly $10^7$ J fails. Any verified necessary nonnegative energy component $\ge10$ MJ closes that practical realization. A bound below 10 MJ on one component proves only headroom, not complete certification. Do not perform field-only optimization below 100 J solely for a smaller number.
+
+---
+
+## 9. Historical program knowledge and permanent anti-drift
+
+The earlier program remains part of the scientific record, not disposable because R3B is now the flagship.
+
+| Historical program | Preserve / do not repeat without genuinely new physics |
+|---|---|
+| **006D** | True stand-off conservative linearized-GR anchor, $C=23.591586299249$; catastrophic approximately $1/G$ energy scaling |
+| **018B / 018C** | Microscopic field existence; subsequent fatal tested nonaxisymmetric $m=2$ mode |
+| **022A and earlier protected vectors** | Closed implementations in tested form |
+| **B7 / 026** | Strong historical microscopic false-core GR field morphology; $026C$ $N=89$ convergence remains historical, not current priority |
+| **Introspective** | `RAW_GE1000X_SIGNAL=PRESENT`, `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`; high leverage/response per joule, low cancellation/scaffolding |
+| **024–031, V13–V26** | All scoped closures and failure memory; 031 Q-ball / Einstein–Jordan knowledge retained; V26D fallback only on genuinely new protection |
+| **V17/V18** | Historical partials ~59.4197 kJ and ~3.419157 MJ, not complete models |
+| **Original HOOK17 (~17 J)** | Historical capacity under special stress test, not final 1g/1m normalization or device energy |
+| **A10F2** | 562,964.8297553215 J reduced field/loading reference; tested microscopic source failed ultralight-mass naturalness |
+| **A11C** | Direct free equal-mass on-shell Wheeler $\to K2$ route closed by exact source identity |
+| **A12A** | Engineered axial overlap does not make unmodified massive Dirac axial current exactly conserved |
+| **A12B** | Protected massless concurrent-$U(1)$ carrier corridor preserved; not a complete source-plus-metric model |
+| **A12C/A12D0** | 2.656859-J reduced-$F^2$ capacity and scoped quadratic metric-basis theorem preserved; original 12-source / 78-combination / 35-open atlas is **historical** |
+| **A12D1/R1/R2/R2B/R2B1** | Ordinary 1-keV $F^2$ finite-matter reuse and increasingly broad original-support current sculpting failed; minimal electron Pauli practical source closed |
+| **R3D0** | Exact static single-field polarization node obstructed in tested harmonic/source basis |
+| **R3X0/R3X3B0** | Simple opposite-sign cross-$U(1)$ splitting is a relabeling in source families invariant under magnetic-source reversal |
+| **R3X2R2/R3X3A** | Low-order $\ell=1,2,3$ source-cone numerical field-budget/sign exclusions; not global continuum no-gos |
+
+**Do not restart:** ordinary 1-keV $F^2$ current sculpting; minimal electron Pauli sourcing; parallel mirror reoptimization; global E/B ratio tuning; old exact static-node optimization; mere sign reversal; old low-order shell cones; broad AGMINER parameter sweeps; or lowering 1.54 J merely for publicity.
+
+**AGMINER:** one action/source family plus its cheapest exact falsifier, physical source and energy gates, with precise failure memory. Not a blind optimizer and not a source of fabricated viability probabilities.
+
+---
+
+## 10. Code, artifact, and reproduction pins
+
+### Historical R3B code source (from September codebundle)
+
+```text
+src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py
+SHA256 aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263
+
+simulations/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py
+SHA256 fd602c43aab742545d5ed828acfa2661f64fa78cae9cc24b29a3cf9c34db7c9c
+
+tests/agminer/test_032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py
+SHA256 eec5563e7d8fec33a8d181f031e7505bb1957934ac3a1f813f36ba328a355b05
+```
+
+The historical spelling `prefight` is part of the source filename and must remain literal in reproduction paths. Do not update old hashes to match a changed file.
+
+**Original R3B JSON to archive and regenerate:**
+
+`results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json`
+
+**November source modules to capture in a new complete codebundle:**
+
+```text
+src/antigravity_research/agminer/hook17_fdual_f_r3x2_source_cone.py
+src/antigravity_research/agminer/hook17_fdual_f_r3x2r1_dual_certificate.py
+src/antigravity_research/agminer/hook17_fdual_f_r3x2r2_budget_dual.py
+src/antigravity_research/agminer/hook17_fdual_f_r3x3a_cross_sign_interface.py
+src/antigravity_research/agminer/hook17_fdual_f_r3x3b0_inverse_loading.py
+```
+
+**Latest archived JSON evidence:**
+
+```text
+results/data/032h17a12d1r3x2r1_dual_certificate_summary.json
+results/data/032h17a12d1r3x2r2_energy_budget_dual_summary.json
+results/data/032h17a12d1r3x3a_cross_sign_interface_summary.json
+results/data/032h17a12d1r3x3b0_inverse_loading_summary.json
+```
+
+The September 15 codebundle predates the November R3X-series source files. Regenerate the repository codebundle, capture current source hashes and dependency versions, and regenerate the journal bundle before new substantive research. The recorded 1,283 passes occurred in the user's repository; creating this document is **not** a new simulation or independent reproduction.
+
+### Repository verification (run only when beginning the next science session)
+
+```bash
+ROOT="$(pwd)"
+PY="$ROOT/.venv/bin/python"
+
+PYTHONPATH="$ROOT/src" \
+"$PY" -m pytest -q \
+"$ROOT/tests/agminer/test_032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py"
+
+PYTHONPATH="$ROOT/src" \
+"$PY" -u \
+"$ROOT/simulations/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py"
+
+PYTHONPATH="$ROOT/src" \
+"$PY" -m pytest -q \
+"$ROOT/tests/agminer/test_032h17a12d1r3x3b0_inverse_loading.py"
+
+PYTHONPATH="$ROOT/src" \
+"$PY" -u \
+"$ROOT/simulations/032h17a12d1r3x3b0_inverse_loading_gate.py"
+
+PYTHONPATH="$ROOT/src" "$PY" -m pytest -q
+```
+
+The suite should report 1,283 passes only if its source and test composition remain unchanged. Verify the R3B result through the **exact JSON keys in the reproducibility journal**, not only printed terminal output, and compare physical equations independently of the code sharing the same source routines.
+
+The primary journal is [R3B–R3X3B0: reproducibility and falsification](journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md).
+
+---
+
+## 11. Next-session sequence — prioritize decisive physics over extra runs
+
+1. Read the newest codebundle/results, this plan, the Nov 9 journal, chronology 0035, AGMINER failure memory, and standards. Record any mismatches; do not assume prior docs are synchronized.
+2. Verify source hashes and the R3B/R3X3B0 controls; check the 1,283-test full baseline before promotion of new code.
+3. **P0:** independently characterize the original preloaded electric-source leakage and whether the 1.542916-J target can have physically allowed source support. If not, retain it as an inverse target rather than an actual supported field solution.
+4. **R3X3B1:** in one theorem-first run derive the most promising genuinely new interface operator from one common action; test Ward/Noether, Hessian reciprocity, canonical health, parity, physical current location, lower-bound energy and known empirical consistency.
+5. If the exact-action gate is fatal, record the precise failure and advance only to a genuinely distinct source or compensator. **No further source sculpting or sign-only field splitting.**
+6. If preflight survives, authorize one fully loaded finite 1-kg BVP with identical physical coefficients across grids, direct full-solver checks, source support and worst-payload-point tracking.
+7. Investigate a vacuum/dilute-payload comparison only as a **separate test-body diagnostic**, not a new definition of success.
+8. Only after a loaded survivor: interacting stability, quantum/RG/UV, empirical constraints, reaction, complete energy and independent nonlinear/continuum reconstruction.
+9. Close out with source/result hashes, new tests, one journal entry, carry-forward notes and public claim updates only where substantiated.
+
+**Session principle:** State one physical action family and the exact falsifier before coding. Prefer an exact identity to a broad simulation. Do not force a favorite field into a passing result by dropping reciprocal backreaction.
+
+---
+---
+
+## 12. Historical-to-current supersession crosswalk — do not erase old science
+
+The original September buildplan is preserved in full in **Part II**. The source's technical historical claims remain available for reconstruction. The following historical present-tense instructions have been explicitly superseded:
+
+| Original September sections | Historical content preserved | November authoritative replacement |
+|---|---|---|
+| Header, §§0–4 | Purpose, source hierarchy, A12B/A12C backbone, efficiency strategy | R3B is now flagship *preloaded field-capacity* result; A12B remains the massless carrier corridor; R3X3B0 is latest completed branch. Do not freeze a failing loaded mirror as a physical solution. |
+| §§5–8 | Cheapest-falsifier, strict energy and sub-100-J policies | All retained. Add interface-source provenance and reciprocal action gates. |
+| §§9–12 | 006D, 018/B7/Introspective, 17 J history | All retained. 006D never replaced. |
+| §§13–22 | A10–A12C origins, A12D0 structural theorem and source/portal atlas | Retained as historical data; A12C remains 2.656859 J preloaded. A12D0's 35 open combinations were a **snapshot**, not today's frontier count. |
+| §§23–29 | A12D1 Pauli priority, UV, source succession, full Noether source | **Do not execute** the old Pauli priority. Minimal electron Pauli practical source was subsequently closed. Action-derived new compensator is next. |
+| §30 | Mixed-E/B held as later option | R3A/R3B have already realized the topological mixed-E/B field-capacity branch. |
+| §§31–37 | BVP authorization, health, energy, empirical and support gates | Retained and sharpened: source-support audit and complete matter-action Hessian come first. |
+| §§38–45 | V26D fallback, closure memory, AGMINER, normalization and universal metric | Retained with updated R3 closures and stricter field-redefinition checks. |
+| §§46–51 | 1,080-test baseline, electron-Pauli queue and old decision tree | Superseded. Last recorded suite **1,283 passes**, next `R3X3B1`. |
+| §52 and final checkpoint | Project principles and 2.656859-J target | Updated by Part I and current checkpoint; historical contents preserved only for provenance. |
+
+Do not count a historical unexecuted candidate ranking as a completed research branch or as a surviving present-day option. Similarly, a scoped numerical failure does not close every action or source realization outside its declared family.
+
+---
+
+## 13. Detailed physics backbone: what the R3B calculation actually calculates
+
+### 13.1 Metric response and the canonical field inventory
+
+A12C established a reduced gauge-invariant physical-metric route. The R3 series replaces the quadratic even-parity field-strength scalar with a **linear topological pseudoscalar response** and a mixed-electric/magnetic configuration. Schematically,
+
+\[
+\tilde g_{\mu\nu}=e^{2\sigma}g_{\mu\nu},\qquad
+\sigma=\frac{F_{\alpha\beta}\tilde F^{\alpha\beta}}{2M_X^4},
+\qquad F_{\alpha\beta}\tilde F^{\alpha\beta}=-4\mathbf E\cdot\mathbf B.
+\]
+
+The normalizations are the project's conventions, not a verified UV theory. In the weak, static, slow-motion limit of a universal conformal physical metric, a model acceleration has the approximate form
+
+\[
+\mathbf a\simeq -c^2\nabla\sigma,
+\]
+
+with the sign and frame conventions to be reconstructed from the full physical metric. A directly applied \(-c^2\nabla\sigma\) with the matter action omitted is **not** a completed gravitational solution.
+
+The modeled canonical electromagnetic inventory is
+
+\[
+U_{\rm EM}=\int_{\rm domain}\frac{\lvert\mathbf E\rvert^2+\lvert\mathbf B\rvert^2}{2}\,d^3x
+\]
+
+in the adopted converted natural-unit normalization. It excludes the energy of realizing fields, compensator dynamics, support structures and other sectors. The R3B number is not a joule-to-force conversion rule or an experimentally established field effect.
+
+### 13.2 Local topological capacity identity
+
+At an ideal local level, use the original A12C magnetic profile \(\mathbf B_A\) and assign
+
+\[
+\mathbf E=-\frac{\mathbf B_A}{\sqrt2},\qquad
+\mathbf B=+\frac{\mathbf B_A}{\sqrt2}.
+\]
+
+Then \(-4\mathbf E\cdot\mathbf B=2B_A^2\), so the proposed topological conformal factor reproduces the old quadratic-invariant metric source in the stated conventions. The sum of canonical \(E^2\) and \(B^2\) equals the original field's squared amplitude. This is a **field-level invariant identity**; static Maxwell integrability, source support, full stress-energy and finite-matter response still have to be established.
+
+### 13.3 Global R3B completion
+
+R3B used an external scalar magnetic potential \(\mathbf B=-\nabla\Psi\) with an exterior electrostatic mirror potential \(\Phi_{\mathrm{out}}=-\Psi/\sqrt2\), followed by regular harmonic continuation into the source sphere to avoid unnecessary electric energy. A monopole-free multipole expansion gives zero total electric charge in the declared sense. The field-level construction is predominantly dipolar.
+
+The reported original R3B fine-grid capacity is
+
+```text
+BRANCH = 032H17A12D1R3B
+R3B_NORMALIZED_PRELOADED_FIELD_ENERGY_J = 1.5429162116460216
+R3B_WHOLE_PAYLOAD_MIN_ACCEL_M_S2 = 9.80665
+R3B_REFERENCE_PAYLOAD_KG = 1.0
+R3B_TRUE_EXTERNAL_STANDOFF_M = 1.0
+R3B_NET_ELECTRIC_MONOPOLE = ZERO
+R3B_LEDGER_CLASS = PRELOADED_FIELD_ONLY_CAPACITY
+R3B_MICROSCOPIC_SOURCE_PHYSICALIZED = FALSE
+```
+
+The precise numerical output must remain frozen. However, a source-free exterior solution and monopole cancellation do **not** constitute a finite support-localized physical charge/current construction. Global field matching, energy integration, boundary distributions, source work and current conservation require their own independent tests.
+
+### 13.4 Field response versus acceleration feasibility
+
+No physical gravitational acceleration was experimentally measured. The numerical acceleration derives from the assumed nonstandard universal physical metric. Even a positive, inward/outward acceleration in the reduced model is not a complete solution if the same matter density backreacts on the carrier field and changes its configuration.
+
+R3B reproduces a **preloaded** metric-gradient capacity; R3X3B0 shows the **loaded** same mirror is not viable at its 1g floor. These statements are simultaneously true and must always be reported together.
+
+### 13.5 Why the topological interaction changes the loading problem
+
+A constant coefficient of an Abelian \(F\tilde F\) density is locally a total derivative, subject to appropriate boundary assumptions. A coefficient depending on matter through the physical-metric variation can have nonzero gradients, especially near the edge of a finite payload. The R3A comparison suppressed the constant-trace bulk loading by about \(1.836\times10^{15}\), but did not remove the interface-gradient terms.
+
+A crucial consistency rule: the same functional dependence that drives the metric response also fixes the reciprocal backreaction via the matter action. Cancelling only the latter by hand while retaining the former is not a valid model.
+
+---
+
+## 14. R3 results ledger — positive facts, negatives and scope
+
+| ID | Actual contribution | Decision and restriction |
+|---|---|---|
+| `R3A` | Topological mixed-E/B ratio retained ideal field capacity; suppressed uniform-bulk loading. | Parity/CP and full matter loading open. |
+| `R3B` | Globally continued, net-neutral preloaded E/B mirror; **1.5429162116460216 J** at finite-payload 1g/1m in the reduced model. | Flagship capacity; source physicalization and loaded solution absent. |
+| `R3C` | Simple mirror loses whole-payload sign; first reciprocity implementation flagged and small-loading interpolation incomplete. | Later repair supersedes initial uncertified diagnostic. |
+| `R3C1` | Discrete weighted reciprocity repaired; ultra-small-loading interval directly sampled; Woodbury/direct agreement. | Scoped sign-loss evidence, not continuum theorem. |
+| `R3D0` | Exact static node obstructed in tested harmonic source class; approximate multipoles insufficient in preflight. | Do not reopen same static node without new action/degree of freedom. |
+| `R3X0` | Cross-topological relabeling by itself did not introduce new physics. | Require field-redefinition-invariant new source constraints. |
+| `R3X1` | Corrected Lorentzian off-diagonal sign in static field equations. | All later loaded results use corrected signs. |
+| `R3X2` | Independently sourced \(\ell=1,2,3\) shell source cone; solver exceptions/coarse, infeasible/fine. | Initial solver verdict alone did not certify a no-go. |
+| `R3X2R1` | PSD primal-dual framework and independently reconstructed weighted eigenvalue witness. | Held YELLOW because fixed acceptance tolerance was too large. |
+| `R3X2R2` | Independently checked dual bounds and energy-budget exclusions for specified finite-grid cones. | GREEN scoped only; augmented coarse-grid cone remained unexcluded. |
+| `R3X3A` | Tested opposite-sign two-sector canonical decomposition and rank-one extraction. | No physical survivor; numerical dual exclusion in same low-order cone. |
+| `R3X3B0` | Exact signed-operator conjugacy and inverse source residual; full loading/ultra-small scan. | GREEN scoped exact-field external-only obstruction, no general no-go. |
+
+### 14.1 R3C1 quantified sign loss
+
+Directly sampled *outward-to-inward* sign-loss brackets in the historical R3C1 setup occurred at approximately \(1.76418\times10^{-5}\) (0.075 m), \(1.18491\times10^{-5}\) (0.050 m) and \(1.03961\times10^{-5}\) (0.040 m). Their original sign convention and discretization must not be mixed with the later corrected R3X1 values. These brackets are for zero-sign loss, not the **earlier** loss of the 1g requirement.
+
+R3C1's discrete variational certificates were at approximately machine precision within the declared weighting. The direct full solve and Woodbury solve agreed at small residuals. Independent derivation and continuum error bounds still open.
+
+### 14.2 R3D0 node-angle distinction
+
+The old mirror's interface-weighted magnetic normal/tangent square fractions were approximately 0.5027061/0.4972939. Rotating \(\mathbf E\) near normal and \(\mathbf B\) near tangent is not free. Establishing the desired node requires approximately **45.15 degrees** gross reorientation in the diagnostic, whereas the additional node-centered angular variation was approximately **4.59 degrees**. These are separate requirements. Exact orthogonality can suppress \(E\cdot B\) itself, so an acceptable structure must retain sufficient \(\nabla(E\cdot B)\).
+
+### 14.3 R3X2R2 scoped spectral limits
+
+For a PSD source covariance \(Z\succeq0\), an acceleration form \(A_p\) at each sampled payload point, and positive canonical energy form \(H\), any payload-point probability weights \(\mu_p\) give
+
+\[
+\min_p a_p\ \le\ \sum_p\mu_p a_p
+\ \le\ \lambda_{\max}\!\left[H^{-1/2}\left(\sum_p\mu_p A_p\right)H^{-1/2}\right]U_{\mathrm{field}}.
+\]
+
+The dual is an **upper bound** on the best achievable worst-point acceleration per unit canonical field energy. A negative upper eigenvalue excludes positive everywhere-outward acceleration within the PSD cone. A sufficiently small *positive* upper eigenvalue can exclude 1g at any source with canonical field energy below 10 MJ.
+
+Key reproduced artifact entries at a declared normalized spectral perturbation of \(10^{-9}\):
+
+| Family | Grid | Verified numerical inference |
+|---|---|---|
+| Shell-only \(\ell=1,2,3\) | 0.075 m | Conditional canonical-energy lower bound **27,708,418.061363768 J**. |
+| Shell-only \(\ell=1,2,3\) | 0.050 m | Negative dual witness; no everywhere-outward configuration in that sampled PSD cone. |
+| Shell + original baseline diagnostic | 0.075 m | **Not excluded** by the 10-MJ budget; conditional lower bound ~7.944 MJ. |
+| Shell + original baseline diagnostic | 0.050 m | Conditional canonical-energy lower bound **25,466,113.6865739 J**. |
+
+These are discrete, numerically reconstructed, conditional bounds. They do not include a certified input interval or continuum discretization error; the prescribed perturbation is a sensitivity test, not a proof that all physical model errors lie below it.
+
+### 14.4 R3X3A opposite-sign cone
+
+The signed two-sector relaxation reported a conditional canonical-energy lower bound **20,186,352.366549164 J** on the 0.075 m grid and a negative dual witness on the 0.050 m grid at the same declared \(10^{-9}\) perturbation. The resulting GREEN label is scoped to the ideal shell-source family. No rank-one constructive source surviving both grids was demonstrated.
+
+### 14.5 R3X3B0 latest corrected loaded numbers
+
+| Quantity | 0.075 m | 0.050 m |
+|---|---:|---:|
+| Original preloaded field inventory | 1.4597081610973566 J | 1.537764066028296 J |
+| Preloaded minimum payload acceleration | +9.80665 m/s² | +9.80665 m/s² |
+| Fully loaded canonical field inventory | 1.4433196404756485 J | 1.5211390382733165 J |
+| Fully loaded worst-point acceleration | −46.40607408464625 m/s² | −129.67185782242464 m/s² |
+| Direct full sparse/Woodbury comparison | PASS | PASS |
+| Signed sector matrix conjugacy | Exact zero recorded discrepancy | Exact zero recorded discrepancy |
+
+**Do not replace the historical 1.5429162116460216 J R3B global energy with 1.537764066028296 J, or claim equality between the two.** They reflect different discretization/reconstruction stages. Neither is a continuum-limit energy certification.
+
+### 14.6 Ultra-small-loading homotopy
+
+The strict 1g floor was first lost along the sampled *connected initial passing interval* between:
+
+```text
+0.075m: last pass 1.115806579589844e-05; first fail 1.1158142089843752e-05
+0.050m: last pass 8.60076904296875e-06; first fail 8.60079574584961e-06
+```
+
+Uniformly rescaling the full matter loading by a nonphysical parameter \(\lambda\) suggests roughly **99.9989%–99.9991%** suppression to retain that simple mirror's initial passing interval. This is a *diagnostic of fragility*, not a free knob in a complete action. Do not assume global monotonicity or conclude that another branch cannot satisfy the target.
+
+---
+
+## 15. Inverse-source audit — exact obligations of R3X3B0
+
+### 15.1 Conjugacy identity
+
+Let \(K_\phi,K_A\) be the static diagonal operators and \(C,D\) their corrected matter-induced coupling matrices. Under magnetic-source reversal,
+
+\[
+L_+=\begin{pmatrix}K_\phi&C\\-D&K_A\end{pmatrix},\quad
+L_-=\begin{pmatrix}K_\phi&-C\\D&K_A\end{pmatrix},\quad
+S=\operatorname{diag}(I,-I),\quad L_-=SL_+S.
+\]
+
+This identity is exact at the tested discrete operator level. It means changing the topological sign does not generate a genuinely new reachable response **if the allowed source domain is invariant under the corresponding magnetic-source reversal**. The microscopic realization of that source-domain symmetry is not certified; the identity must not be treated as a theorem about all physical two-field theories.
+
+### 15.2 Exact preloaded field residual
+
+For a fixed unloaded potential pair \((\phi_0,A_0)\), the extra right-hand-side needed to maintain *exactly the same potentials* under unit loaded coupling is
+
+\[
+\Delta j_\phi=C A_0,\qquad
+\Delta j_A=-D\phi_0.
+\]
+
+This follows from subtracting unloaded from loaded discrete field equations; it does not require an optimizer and it is not evidence for a physically supplied current. A legitimate compensator must generate these Euler–Lagrange variations from **one gauge-invariant source/metric/matter action** with conserved total current, reciprocal matter forces, positive energy and acceptable support.
+
+### 15.3 Source-support localization and decisive caveat
+
+| Residual channel | Coarse fraction of residual L2 norm *inside payload* | Fine fraction |
+|---|---:|---:|
+| Static electric potential source | 93.58183458645922% | 98.27667736967488% |
+| Azimuthal magnetic current | 88.74746712086443% | 93.78393023354690% |
+
+Both channels had computed residual L2 fraction **1.0 outside the 2.0 m physical source support and the buffered 2.15/2.10 m supports**. The numerical sample says the *unchanged preloaded global fields* cannot be maintained by adjusting only the old external source currents in this model.
+
+This is not a prohibition against a **changed** loaded field with the same everywhere-outward metric response, nor against new independent matter-polarization currents generated by a full action. One must also distinguish actual charge/current support from a discretization of a distributional boundary current.
+
+### 15.4 Baseline source warning is separate and prior
+
+R3X3B0 recorded L2 fractions for the **baseline electric-source operator residual** outside buffered support of **0.5477409167463158** (coarse) and **0.7089164053611221** (fine). Corresponding azimuthal magnetic baseline fractions were ~0.01233 and ~0.01616.
+
+Before building an expensive compensator, determine whether this means:
+
+1. the historical R3B target fields are only a global harmonic *inverse-design* construction without a source-confined physical realization;
+2. boundary/interface distributions were spread or misclassified by the current finite-difference operators/masks;
+3. the baseline-source operator used for the diagnostic is not identical to the variationally normalized Maxwell operator used by R3B;
+4. outer boundary/truncation or source-work normalization introduced an artifact; or
+5. there is a genuine uncompensated charge distribution outside the permitted support.
+
+Do not declare the baseline globally unphysical without separating these alternatives. But **do not** claim a physically supported source until they are tested and resolved.
+
+### 15.5 Quantitative source audit requirements
+
+Independently reconstruct \(j_\phi^{(0)}=K_\phi\phi_0\), \(j_A^{(0)}=K_A A_0\), \(\Delta j_\phi=C A_0\), and \(\Delta j_A=-D\phi_0\) with the exact DOF masks and coordinate Jacobian. Report **weighted physical norms**, grid-volume norms, integrated net charge, current divergence, interface distributions, normal/tangential continuity, source-work identity and source-support leakage in cells/m²/m³ rather than just unweighted coefficient-vector L2 norms.
+
+Do both grids with an independent differentiation implementation and verify that the physical support classification is stable against the chosen interface tolerance. A norm-fraction value alone does not establish total amount of charge or energy and must never be used as a source-energy estimate.
+
+---
+
+## 16. New physical-action construction — minimal common-action specification
+
+### 16.1 Required field content and physical-metric map
+
+The most economical serious candidate will contain two protected massless gauge sectors if needed by the cross-topological construction, universal physical matter metric, explicit microscopic source matter, and **at most one genuinely new interface degree of freedom/operator family at a time**. Reject a model that relies on independently set geometry, matter acceleration and carrier loading equations.
+
+A schematic *candidate template*, **not an established viable Lagrangian**, is
+
+\[
+S=\int d^4x\sqrt{-g}\left[\frac{M_{\rm Pl}^2}{2}R-
+\frac14 K_{IJ}(\chi,\varphi)F^I_{\mu\nu}F^{J\mu\nu}
+-\frac12 Z_\chi(\partial\chi)^2-V(\chi)
++\mathcal L_{\rm src}(\Psi_s,A_I,g,\chi)
++\mathcal L_{\rm comp}(\chi,F_I,g)\right]
++S_m[\Psi_m,\tilde g_{\mu\nu}(g,F_I,\chi)] .
+\]
+
+Here \(I,J\) label independent U(1) fields; an action with fewer fields is preferred if it passes. Every function/operator is hypothetical until exact gauge, stability and empirical gates are satisfied. The chosen physical metric must be universal for neutral matter and must not secretly introduce species-dependent nonmetric forces.
+
+### 16.2 Gauge and Noether ledger
+
+For each gauge field, require the Euler–Lagrange equation, gauge identity, Bianchi identity, canonical current, and the corresponding matter-source Ward identity. A source current is allowed only if identically conserved or a Noether current of the **same action**. If there are chiral or axial source fields, require anomaly cancellation and a mass-generation mechanism compatible with the gauge symmetry.
+
+For the combined system, derive the diffeomorphism Noether identity linking Einstein-frame stress-energy, physical-metric matter stress-energy, gauge dynamics and compensator equations. A local exchange of energy between matter and gauge fields is allowed; a violation of total conservation is not.
+
+### 16.3 Matter action reciprocity is not optional
+
+Under a universal conformal physical metric, the matter variation gives a term proportional to the physical trace of matter stress-energy times \(\delta\sigma\) (up to conventions and volume density factors). Derive the precise coefficient and sign directly from
+
+\[
+\delta S_m=\frac12\int d^4x\sqrt{-\tilde g}\,\tilde T^{\mu\nu}\delta\tilde g_{\mu\nu}.
+\]
+
+The mixed second variation of the same discrete/continuum action must satisfy reciprocal Hessian identities for physical source and matter variables. A compensating term cannot selectively cancel the gauge-sector response while leaving the metric force prescribed by hand; its contribution to **both** variations must be retained.
+
+### 16.4 Topological, parity and CP gates
+
+A single \(F\tilde F\) is a pseudoscalar; a conformal metric must transform appropriately under parity if parity is intended as a symmetry. Candidate choices include a parity-odd field or explicitly parity-violating action, but these choices impose distinct phenomenological constraints. An algebraic polar–axial assignment is **not** an anomaly-free microscopic UV theory. Record the exact transformation rules and whether parity/CP is preserved, broken explicitly, or broken spontaneously.
+
+### 16.5 Field redefinition and genuinely independent source domains
+
+Compute the full canonical kinetic matrix, its eigenvectors and all source couplings under any proposed \(F_X\tilde F_Y\) rewriting. Demonstrate with physical source restrictions and observables that the new completion is not related to R3X0/R3X3B0 by an invertible basis change. If it is, reject it as already tested. If the physical source constraints are different, **explicitly prove the difference** rather than infer it from new notation.
+
+---
+
+## 17. R3X3B1 — integrated theorem-first gate package
+
+**Branch:** `032H17A12D1R3X3B1_ACTION_DERIVED_INTERFACE_COMPENSATOR_PREFLIGHT`
+
+**Objective:** Determine whether a physically permitted new action term can change or compensate the original payload-interface response while retaining high metric leverage and strict source support. A pass is permission for a limited loaded BVP, **not** an antigravity physical-model certificate.
+
+### Gate 0: frozen evidence and reproduction (mandatory)
+
+- Verify historical R3B source implementation, original summary JSON and the field-globalization/multipole-fit artifacts.
+- Record exact code and result file hashes, dependency versions, numerical precision, source-boundary convention, unit conversions and source-work normalization.
+- Run historical control and corrected R3X3B0 control before any new science.
+- Resolve or precisely classify the baseline electric source-support anomaly (§15.4); if not resolved, preserve it as a blocking physicalization warning.
+- Reconstruct R3B's exact field-capacity number from a separate implementation or analytic multipole energy integration to independent tolerance.
+
+**STOP:** If the source or invariant normalization cannot reproduce the benchmark, no compensator or numerical solver is authorized to promote the 1.54 J number. Do not change the historical claimed number silently; document a discrepancy.
+
+### Gate 1: original action and field equations
+
+- Write a single unambiguous Lorentzian action with physical/source/matter fields.
+- Derive all Euler–Lagrange equations and conjugate source equations symbolically.
+- Reproduce R3X1 constitutive signs and R3X3B0 exact inverse-source identities in the relevant limit.
+- Verify the physical metric is universal and source and payload are not subject to hidden direct forces.
+
+**STOP:** Wrong sign, action missing, different force/loading normalizations, or imposed counterterms with no action.
+
+### Gate 2: conserved microscopic sources and geometric support
+
+- Identify electric/magnetic source matter and its exact current(s), boundary surface terms and material interface stress.
+- Determine whether the baseline fields can be sourced inside the original 2 m region and how the compensator changes source support.
+- Quantify source inventory, confinement, charge neutrality, source work, current divergence and reaction force.
+
+**STOP:** Required independent free charge/current only within the neutral payload when source confinement is mandatory, or unavoidable source/support lower bound already above 10 MJ.
+
+### Gate 3: direct inverse-response matching
+
+- Independently compute R3X3B0 \((\Delta j_\phi,\Delta j_A)\) with physically normalized source units.
+- Compute the candidate operator's predicted variations for the same preloaded fields.
+- Project the candidate response onto *both* interface residual channels, including normal and tangential components.
+- Report remaining residual, net charge/current and full interface profile without using a freely chosen cancellation source.
+- Determine whether exact original fields are necessary; allow a distinct loaded profile if the same-action metric response survives.
+
+**STOP:** New operator only renames the old signed-sector source domain; or cancels portal gradient/metric acceleration at the same time as it cancels loading.
+
+### Gate 4: gauge, Ward, Noether and Hessian reciprocity
+
+- Check independent U(1) gauges and any compensator symmetry.
+- Check source-current conservation and Bianchi identities exactly.
+- Check diffeomorphism Noether energy-momentum exchange.
+- Check equality of mixed action second derivatives after canonical weighting.
+- Independently reconstruct the discrete variational operator, including boundary contributions.
+
+**STOP:** Uncancelled anomaly, nonconserved source, nonreciprocal Hessian not explained by integration-by-parts/boundary terms, or wrong metric-variation force.
+
+### Gate 5: spectrum, stability and canonical normalization
+
+- Derive full quadratic fluctuation operator about the candidate background.
+- Diagonalize kinetic and gradient matrices after removing gauge redundancies.
+- Check ghost/gradient/tachyon health and the sign of energy in both field lanes and any compensator.
+- Identify strong coupling/cutoff relative to the inverse-meter gradient and field amplitudes.
+- Check nonaxisymmetric modes, source/cavity/interface motion and matter-gradient modes.
+
+**STOP:** Unhealthy propagating modes, unprotected near-singular amplification, or fatal coupled instabilities.
+
+### Gate 6: naturalness, parity/CP, anomaly and empirical exposure
+
+- Determine parity/CP assignments and whether a pseudoscalar is required.
+- If axial/chiral U(1) matter is present, calculate relevant gauge and mixed anomalies and their cancellation, plus mass compatibility.
+- Analyze loop-generated operators, photon mixing, ordinary-matter coupling and technical naturalness at the 1-keV reference portal normalization.
+- Match exact physical operator to existing inverse-square-law, equivalence-principle, electromagnetic-environment, spin/axion and astrophysical constraints. Do not import mismatched bounds as conclusions.
+
+**STOP:** Quantitative excluded prediction, fatal radiative term, or inconsistent UV/mass-generation hypothesis.
+
+### Gate 7: minimal complete-energy feasibility bound
+
+- Lower-bound material/source, field, compensator, confinement, support, polarization, activation, control, reset, reaction/radiation and vacuum/off-state contributions.
+- Distinguish field-only inventory from physically conservative complete operating energy.
+- Propagate uncertainties and use strict \(<10\,000\,000\ \mathrm J\) rule.
+
+**STOP:** Any unavoidable nonnegative component \(\ge10\) MJ, even if Maxwell field energy is 1.54 J. If only loose lower bounds are available, label feasibility unknown rather than green.
+
+### Gate 8: conditional BVP authorization
+
+A loaded finite-payload BVP is justified only if Gates 1–7 contain no fatal failure and the new physical response is genuinely different from the closed families. Require identical physical source coefficients on all grids, direct full sparse solves against the independent reduction, gauge and source residual checks, full 1 kg payload, true 1 m gap, and worst-point tracking. A favorable relaxation without a constructive rank-one source is **not** sufficient.
+
+### Single-run decision labels
+
+```text
+RED_ACTION_OR_WARD_NO_GO = DO_NOT_RUN_BVP
+RED_SOURCE_SUPPORT_NO_GO = STOP_THIS_SOURCE_FAMILY
+RED_HEALTH_OR_EMPIRICAL_NO_GO = STOP_THIS_REALIZATION
+RED_FIELD_ENERGY_LOWER_BOUND_GE_10MJ = STOP_BUDGET_REALIZATION
+YELLOW_NUMERICAL_OR_SOURCE_PROVENANCE_UNRESOLVED = REPAIR_CERTIFICATE
+YELLOW_ACTION_SURVIVES_SOURCE_UNPHYSICALIZED = ADVANCE_ONLY_PHYSICAL_SOURCE
+GREEN_PREFLIGHT_SAME_ACTION_CONSTRUCTIVE_POTENTIAL = AUTHORIZE_ONE_LOADED_BVP
+```
+
+A `GREEN_PREFLIGHT` is *not* proof of an antigravity model. The final program success gate remains far downstream.
+
+---
+
+## 18. Candidate ordering for a genuinely new interface mechanism
+
+Do not launch an indiscriminate operator scan. Prioritize distinct candidate **actions** by how directly they address the measured interface residual and how little unverified supporting physics they require.
+
+### 18.1 First: geometric-node / independent source-domain operator
+
+Investigate whether a local gauge-invariant coupling depending on the **actual dynamical matter or compensator field** modifies the constitutive response such that destructive \(\nabla T\)-dependent terms are reduced while useful \(\nabla(E\cdot B)\) remains. The operator must transform as a scalar and produce all backreaction terms from the same action. The original single-field exact node and sign-only two-field relabelings remain closed.
+
+An interface-localized coupling explicitly depending on \(T\) must be derived in a correct EFT/matter action; ordinary local dependence on an external prescribed density field is insufficient. If the proposed density is itself a dynamical fluid, include its stress-energy and conservation constraints.
+
+### 18.2 Second: dynamical pseudoscalar compensation
+
+A term schematically \(\chi F_X\tilde F_Y\) changes the effective topological coefficient only if \(\chi\) has a physical spatial profile and solves its **own** field equation. Include \(\frac12(\partial\chi)^2\), the potential \(V(\chi)\), its source, all mixed variations and the complete energy cost. Avoid assuming free cancellation, a massless chiral source, or protected low mass without a symmetry argument.
+
+### 18.3 Third: cross-kinetic/polarizable response
+
+A dynamical mixing or material polarization \(f(\chi,\Psi_m)F_X^{\mu\nu}F_{Y\mu\nu}\) can change the constitutive matrix but generally adds new bulk loading and stress-energy. It must be tested with the **physical** matter sector and basis-invariant kinetic eigenvalues. Reject if it merely recreates the old quadratic \(F^2\) catastrophe or creates new nonmetric forces.
+
+### 18.4 Fourth: new protected geometric mediator
+
+A genuinely distinct gauge/metric/torsion or curvature-mediated coupling may alter the matter-gradient interface physics but introduces healthy-mode, Ward, naturalness and empirical obligations. Prefer theoretical no-go/yes-go preflight, not another blind BVP. V26D and other historical geometric models remain knowledge, not an excuse to reopen closed forms.
+
+### 18.5 Structural gate across all families
+
+Only a candidate that changes an observable invariant **and** the constrained physical source manifold is worth a new expensive solve. A cheaper field-capacity term by itself is not a reason to prioritize it.
+
+---
+
+## 19. Vacuum, dilute payload and smooth-interface branch — diagnostic, not device shortcut
+
+### 19.1 What empty vacuum does and does not mean
+
+An electric/magnetic field can exist in an evacuated active region with physical sources on or outside its boundaries. In an ideal matter-free region, the matter-trace source of the specific R3 topological loading may vanish locally. A preexisting field gradient may therefore be consistent with the reduced *vacuum* equations.
+
+**But the program requires repulsion on finite neutral matter.** The moment a 1 kg payload enters, its own trace/density gradients, spatial interfaces and stress-energy variation reappear. Evacuating air does not remove the payload's self-backreaction. Chamber walls, electrodes, magnet supports and motion systems also constitute material source structures and must ultimately be accounted for.
+
+### 19.2 Clean test-body-limit experiment
+
+In the same action, define a sequence of physically meaningful stress-energy profiles \(T_{\mu\nu}^{(\eta)}\), approaching zero as \(\eta\to0^+\), and solve the **same fully coupled field equations**. Keep portal coefficients and sources fixed; never rescale only the matter loading while prescribing the old metric force as an independent law.
+
+Record the vector/source response, worst-point acceleration, COM acceleration, field inventory, total stress-energy normalization, source leakage and solver residual. A successful infinitesimal test-body limit is a separate result and does not fulfill the 1 kg reference target.
+
+### 19.3 Fixed-mass smooth-interface control
+
+A physically consistent comparison at fixed 1 kg may redistribute density gradients but cannot simply delete them. Normalize total mass, preserve finite material support and stand-off, include material equation of state and stress, and integrate gradient-layer energy/support. Do not infer success from a lower peak \(\lvert\nabla T\rvert\) alone; integrated interface effects can remain large.
+
+### 19.4 Hollow payload / double-boundary control
+
+A vacuum cavity can displace material interfaces from the highest-leverage field region, but it also introduces an inner interface. Check both boundaries, source stand-off measured to the **nearest** source material and any hidden internal support. A hollow payload still needs real mass and realistic stress-energy.
+
+### 19.5 Time-dependent preload and insertion
+
+If the fields are preloaded in vacuum before a neutral object enters, the transient response must be determined by the causal time-dependent same-action field equations. Initial apparent force is not conservative stand-off. Include radiation, reaction, field switching, control power and reset. Do not claim that delaying equilibration avoids reciprocal matter loading.
+
+### 19.6 Vacuum gate outcomes
+
+```text
+EMPTY_VACUUM_FIELD_CAPACITY_ONLY = DOES_NOT_MEET_FINITE_PAYLOAD_FLOOR
+DILUTE_TEST_BODY_ACCELERATION = RESEARCH_RESULT_ONLY
+FIXED_1KG_SMOOTH_INTERFACE = REQUIRES_FULL_LOADED_BVP
+VACUUM_CHAMBER_SOLVES_1KG_BACKREACTION = UNPROVEN
+VACUUM_ENERGY_OR_ZERO_POINT_HARVESTING = NOT_THE_R3B_MODEL
+```
+
+Vacuum/dilute tests should follow or accompany the action provenance preflight only if their cost is small and they answer a distinct causal question. They are not a replacement for R3X3B1.
+
+---
+
+## 20. Full numerical verification and continuum promotion standard
+
+### 20.1 Codes and artifacts
+
+A science branch must have separate numerical implementation, simulation entry point, targeted tests, immutable JSON summary, logs and previous-state comparison. Use the source/codebundle **as implemented**, not a manually reconstructed formula inconsistent with its operator weighting.
+
+### 20.2 Initial regression integrity
+
+Last **recorded** successful full suite: **1,283 passed** from R3X3B0. This is not a fresh run for the present document and does not certify newer source edits. Record source revision/hash, Python/library versions and test discovery count. Do not use an old 1,080-test baseline as current.
+
+### 20.3 Convergence
+
+For every survivor, compare both original grids and a new demonstrably refined independent grid, with outer-domain and source-support sensitivity. In particular, worst-point acceleration is strongly grid-sensitive and **not converged** merely because one field-energy quantity remains near 1.5 J. Track spatial movement of the worst payload point, interface eigenvectors, local metric gradient and conserved source flux.
+
+### 20.4 Direct independent solve
+
+Use at least two independent numerical reconstruction paths where possible: full coupled sparse solve versus Woodbury reduction, analytic multipole energy versus discrete field integral, and analytic action/Hessian differentiation versus finite differences or automatic differentiation. A shared-code numerical check is only partially independent.
+
+### 20.5 Source-support weighting
+
+Use physical cylindrical-axisymmetric measures \(2\pi\rho\,d\rho\,dz\), correct grid Jacobians and boundary measure. Verify masks align with actual DOFs. An ordinary L2 norm of a coefficient vector is **not** a conserved charge, current magnitude, mechanical reaction, or energy.
+
+### 20.6 Symmetry and spectrum
+
+Check Lorentzian-sign-correct constitutive blocks, gauge Bianchi, exact Ward, massless gauge-null directions, source current divergence and action-based weighted reciprocity. A positive Maxwell Gram matrix is necessary but not sufficient for stability of coupled matter/compensator and gravity modes.
+
+### 20.7 Numerical certificate discipline
+
+A declared spectral perturbation such as \(10^{-9}\) is not a formal bound on continuum discretization or uncertain physical inputs. To claim an actual **certified** no-go, establish operator interval bounds, mesh error controls and physical source-family exhaustion. A solver status alone is never a theorem.
+
+### 20.8 No false success by rank relaxation
+
+A PSD covariance cone contains configurations that need not factor into a single physical field/vector per sector. Positive SDP margin is only an upper-level necessary/relaxed feasibility test; extract rank-one realizations, check signed source amplitudes, support, same coefficients across grids and full independent loaded BVP before promotion.
+
+---
+
+## 21. Full physical certification stack and stop conditions
+
+| Gate | Required evidence | Stop / hold condition |
+|---|---|---|
+| Genuine source | Explicit finite microscopic charge/current and support | Reconstructed current located only inside nominally neutral payload or outside permitted source domain |
+| Same action | Unified Einstein/metric/matter/gauge/compensator equations | Hand-imposed force and independent loading rules |
+| Ward/Noether | Exact conserved current, gauge identities and total stress-energy exchange | Uncancelled source divergence, wrong reciprocity, anomaly |
+| Canonical health | Positive physical spectrum after removing gauge modes | Ghost/gradient/tachyon/strong-coupling collapse |
+| Universal physical metric | One composition-independent metric for ordinary neutral matter | Special direct payload charge, fifth-force relabeling |
+| True finite payload | Acceleration \(\ge9.80665\) m/s² everywhere in finite 1 kg neutral torus | Local or COM only, wrong sign anywhere |
+| Stand-off | Nearest source-to-payload separation \(\ge1\) m, no embedded source | Hidden electrodes/support in the payload or gap |
+| Source reaction | Explicit conservation of momentum and support loads | Reactionless claim, unbalanced force |
+| Numerical convergence | Independent source/current, field-energy and worst-point convergence | Sign flip or unstable interface error under refinement |
+| Nonlinear consistency | Full metric/matter/source backreaction | Linear preloaded response only |
+| Empirical consistency | Correct operator-to-experiment matching | Strong existing bounds exclude necessary coupling |
+| UV/naturalness | Radiative correction, mixing, cutoff and symmetry analysis | Fine-tuning beyond stated allowed tolerance / invalid EFT |
+| Complete energy | Every unavoidable positive operating energy component, strict <10 MJ | Any mandatory term \(\ge10\) MJ or unknown large scaffolding |
+| Device claim | All prior gates + experimental demonstration | No physical apparatus or measurement |
+
+The first gate that fails for a **specific realization** closes that realization, not the entire universe of untested theories. The energy ceiling excludes any candidate for which one unavoidable nonnegative component itself costs \(\ge10\) MJ. An upper bound on a partial cost or a conditional field-capacity number never certifies a complete budget.
+
+---
+
+## 22. Complete operating ledger — mandatory classification
+
+Every reported energy quantity must have one of these explicit ledger types:
+
+```text
+FIELD_ONLY
+PRELOADED_REDUCED_MODEL_CAPACITY
+SOURCE_ONLY
+SOURCE_PLUS_FIELD
+MICROSCOPIC_PARTIAL
+PARTIAL_OPTIMISTIC_LOWER_BOUND
+PARTIAL_CONSERVATIVE_LOWER_BOUND
+COMPLETE_STATIC
+COMPLETE_OPERATING
+```
+
+Eventual conservative complete-energy ledger includes:
+
+\[
+E_{\mathrm{complete}}=E_{\mathrm{source}}+E_{\mathrm{field}}+E_{\mathrm{metric}}+E_{\mathrm{comp}}+E_{\mathrm{support}}+E_{\mathrm{confinement}}+E_{\mathrm{polarization}}+E_{\mathrm{activation}}+E_{\mathrm{control}}+E_{\mathrm{reset}}+E_{\mathrm{reaction}}+E_{\mathrm{radiation}}+E_{\mathrm{backreaction}}+E_{\mathrm{quantum/UV}}+E_{\mathrm{leakage}}+E_{\mathrm{offstate}}.
+\]
+
+Avoid double counting energy components that overlap; define a single system boundary and thermodynamic protocol. But also avoid ignoring field preparation, structural rest mass, compensator gradients or off-state power by treating them as someone else's cost.
+
+Until the full ledger is derived from a physical model, `COMPLETE_OPERATING_ENERGY = UNKNOWN`, no matter how small the field-only quantity is. **Exactly 10 MJ fails.** A mandatory conservative lower bound at or above that threshold closes practical certification for the corresponding realization.
+
+---
+
+## 23. Historical source and operator atlas: current interpretation
+
+The September A12D0 atlas represented **12 source families, 9 field-sector portals, 78 combinations and 35 historically open combinations**. Those numbers are historical structural bookkeeping, **not** the count of presently viable physical sources. The minimal electron Pauli/magnetization path and the original ordinary \(F^2\) reuse have since been tested and closed in their practical proposed forms.
+
+Keep distinct surviving *classes*, subject to new physics and their own exact gate: composite atomic/nuclear sources, source-selective full Noether vector completions, interacting/bound-state Dirac, flavor-selective currents, pseudotensor derivative currents, composite geometric/curvature source currents, neutrino currents only after power preflight, other electrostatic/disformal/parity-odd/derivative or multiple-field portals. Do not treat a named class as physically feasible merely because a prior source atlas did not falsify it.
+
+Preserve A12D0's proven **local algebraic one-Abelian-field quadratic metric basis** within its stated assumptions: parity-even rank-two metric structures built from \(g_{\mu\nu}F^2\) and \(F_{\mu\alpha}F_\nu{}^\alpha\), parity-odd mixed structures reduce to conformal forms. This does **not** exhaust multiple-field, derivative, curvature, higher-order or dynamical compensator-dependent portals.
+
+Pauli/minimal electronic magnetization is **not** the R3X3B1 next step. Preserve its exact failure evidence in the latest journal and AGMINER memory. No broad source atlas reset.
+
+---
+
+## 24. Permanent historical GR, geometric-source and HOOK17 anchors
+
+### 24.1 006D versus B7/026
+
+006D: strongest project conservative true-external-stand-off linearized-GR result, \(C=23.591586299249\), finite positive energy, local conservation, NEC/WEC/DEC and positive far-field active mass, but catastrophic approximate \(1/G\) practicality scaling. B7/026: strongest historical microscopic false-core GR morphology, principally embedded/two-sided and requiring separate convergence duties; not a successor to 006D. 026C N=89 remains a historical credibility issue, not today's highest-value task.
+
+### 24.2 018B and 018C
+
+018B field existence survives its original scoped proof. 018C fatal \(m=2\) instability remains a permanent warning that static source existence does not imply interacting stability. Protected-vector closures through 022A remain closed absent genuinely new symmetry.
+
+### 24.3 Introspective
+
+Preserve exactly `RAW_GE1000X_SIGNAL=PRESENT` and `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`. The strong positive lesson is compact productive, low-cancellation, payload-adjacent high-leverage fields with high canonical response per joule and low scaffolding. The negative lesson is that a raw numerical signal is not a continuum physical source.
+
+### 24.4 Other historical branches
+
+All 024–031, V13–V26, 027 support-shuttle, 028 gain, 029 massive spin-2, 030 GW/memory, 031 scalar dressing and previous HOOK17 A6/A11 closeouts remain documented in the historical sections. V26D is preserved as protected-geometry fallback *knowledge* but may only be reopened with a new protection mechanism changing the previous naturalness obstruction. Historical ~17 J HOOK17 values are not complete energy or normalized 1g/1m replacements.
+
+### 24.5 A12B exact carrier witness
+
+Preserve the exact A12B symmetry conditions, rational witness, gauge direction and auxiliary-matrix spectra in the original source record. Their result is a protected massless gauge direction in its declared corridor, **not** proof of anomaly-free microscopic two-field R3B source matter.
+
+---
+
+## 25. Durable failure-memory and no-repeat register
+
+**Do not restart without genuine new physics and a written explanation of how the exact previous obstruction is escaped:**
+
+```text
+PURE_GR_PRACTICAL_1_OVER_G_OPTIMIZATION
+PROTECTED_VECTOR_REALIZATIONS_THROUGH_022A
+027_SUPPORT_SHUTTLE
+028_PLANCK_GAIN_OR_CRITICAL_BRAIDING
+029_TESTED_MASSIVE_SPIN2
+030_WEAK_GW_MEMORY_PULSE_PRACTICALITY
+031_MINIMAL_B7_SCALAR_DRESSING_OR_UNPROTECTED_SCALAR
+V13_STATIC_SHIFT_MONOPOLE
+V15_FREE_POLARIZED_SOURCE
+V19_PURE_J0_TESTED_REALIZATION
+V21_TIME_GRADIENT_RESERVOIR
+V22_UNPROTECTED_DISFORMAL
+V23_TESTED_DERIVATIVE_YUKAWA
+V24_LINEAR_VECTOR_METRIC_BRIDGE
+V25_SOURCE_ALIGNED_KGB_GAIN
+V26A_NEAR_SINGULAR_CROSS_MIXING
+V26C_DIRECT_MASSLESS_HOOK_SHIFT
+A11C_DIRECT_FREE_DIRAC_WHEELER_K2
+A12A_UNMODIFIED_MASSIVE_DIRAC_AXIAL_MAXWELL
+A12C_ORDINARY_EM_LIKE_F2_SOURCE
+A12D1_ORDINARY_1KEV_F2_CURRENT_SCULPTING
+A12D1_MINIMAL_ELECTRON_PAULI_PRACTICAL_SOURCE
+R3B_SIMPLE_PARALLEL_MIRROR_AS_FULLY_LOADED_SOLUTION
+R3D0_EXACT_STATIC_SINGLE_FIELD_NODE_IN_TESTED_CLASS
+R3X0_CROSS_TOPOLOGICAL_SIGN_ONLY_RELABELING
+R3X2_LOW_ORDER_SHELL_CONE_NO_NEW_SOURCE_PHYSICS
+R3X3A_SAME_SOURCE_DOMAIN_OPPOSITE_SIGN_SPLIT
+FIELD_ONLY_ENERGY_BELOW_100J_MICRO_OPTIMIZATION
+BROAD_AGMINER_PARAMETER_BLIND_SWEEPS
+```
+
+Scoped closure never converts into a universal no-go. Proposing a genuinely independent material source, dynamical compensator, physical boundary condition, or symmetry protection may legitimately reopen a higher-level family **only after** directly addressing the prior no-go.
+
+---
+
+## 26. AGMINER next-role specification
+
+AGMINER is a **theorem-first action/source-family falsification engine**, not a parameter sweeper. For R3X3B1 it should consume one candidate action at a time with a structured ledger containing:
+
+```text
+CANDIDATE_ACTION
+PHYSICAL_METRIC_MAP
+FIELD_CONTENT_AND_GAUGE_GROUP
+PARITY_CP_ASSIGNMENT
+SOURCE_OPERATOR_AND_CHARGE_CONTENT
+ACTION_DERIVED_CURRENT
+EXACT_WARD_NOETHER_IDENTITIES
+DISCRETE_HESSIAN_RECIPROCITY
+KINETIC_MATRIX_AND_PHYSICAL_MODES
+SOURCE_SUPPORT_AND_DISTRIBUTIONAL_BOUNDARIES
+COMPENSATOR_RESPONSE_MATCH_TO_R3X3B0
+FUNDAMENTAL_FIELD_REDEFINITION_TEST
+CANONICAL_SOURCE_STRENGTH_PER_JOULE
+INTERFACE_LOADING_BASIS
+EMPIRICAL_EXPOSURE
+UV_CUTOFF_AND_RADIATIVE_MIXING
+LOWER_BOUND_COMPLETE_SOURCE_SUPPORT_ENERGY
+EVERYWHERE_FINITE_PAYLOAD_ACCELERATION
+TRUE_EXTERNAL_STANDOFF
+DIRECT_FULL_SOLVER
+CROSS_GRID_AND_DOMAIN_CONVERGENCE
+SCOPED_FAILURE_THEOREM_OR_NUMERIC_BOUND
+NEXT_AUTHORIZED_GATE
+```
+
+A candidate should exit at its first exact fatal falsifier and be recorded in AGMINER failure memory. Do not assign an arbitrary probability of success or inflate completion heuristics because a preloaded field number is small.
+
+---
+
+## 27. New-run protocol — fast but source-faithful
+
+1. Read the current codebundle, latest artifacts and signed November journal; confirm the historical record still agrees with actual source code.
+2. Verify the suite against **1,283 last recorded passes**, unless a newer source snapshot legitimately changes count; explain any mismatch.
+3. State one precise physical action and one exact *reason it could differ* from the closed R3 field-basis families.
+4. State the cheapest decisive falsifier before coding.
+5. Check gauge identities, microscopic source support, field-redefinition invariance and reciprocal matter action **before** expensive BVP.
+6. Check energy lower bounds and empirical contradictions before parameter scans.
+7. If the candidate survives, solve one finite-payload BVP with identical source parameters and independent sparse/direct validation across grids.
+8. Only if finite-payload \(\ge1g\) and \(\ge1m\) survive: test interacting stability, nonlinear/quantum naturalness and full energy.
+9. Stop at the first fatal failure; record what was falsified and what remains untested.
+10. On closeout, update one journal entry and chronology note; regenerate code/result bundles; update `RESEARCH_BUILDPLAN.md` and README only for material state changes.
+
+The user prefers complete, paste-ready shell blocks in the chat for science runs; do not create downloadable script files unless requested. Do not use version-control shell commands in run instructions. Preserve old artifact files and old code; use new run IDs for all new outputs.
+
+---
+
+## 28. Scientific promotion and reporting vocabulary
+
+Every branch should select exactly one **claim class** with explicit scope:
+
+| Label | Meaning |
+|---|---|
+| `ALGEBRAIC_IDENTITY` | Symbolic relation; no sourced field or payload proof. |
+| `PRELOADED_REDUCED_MODEL_CAPACITY` | Specified field/metric response without complete reciprocal matter solution. |
+| `GLOBAL_FIELD_LEVEL_COMPLETION` | Boundary-completed field with specified mathematical neutrality; physical source may be open. |
+| `SAME_ACTION_LOADED_FINITE_GRID` | Coupled source and matter field equations checked on sampled meshes. |
+| `SCOPED_DUAL_NUMERICAL_EXCLUSION` | Valid witness for a stated discrete source cone and tolerance only. |
+| `ACTION_DERIVED_SOURCE_PREFLIGHT` | Candidate exact source/action identities passed; full BVP not yet passed. |
+| `HEALTHY_MODE_REALIZATION` | Proper gauge-fixed fluctuation spectrum healthy; other physical gates may fail. |
+| `FINITE_PAYLOAD_STANDOFF` | Everywhere-outward on finite neutral matter with true gap in actual loaded solution. |
+| `FULL_NONLINEAR_CONSISTENT_MODEL` | Full coupled action, conservation, source and stability checks. |
+| `COMPLETE_SUB10MJ_CERTIFIED` | Complete conservative operating ledger strictly below 10 MJ, all prior gates passed. |
+| `PHYSICAL_DEVICE_DEMONSTRATED` | Reproducible experiment with measured gravitational response and full system. |
+
+R3B presently belongs to `PRELOADED_REDUCED_MODEL_CAPACITY` with a field-level global completion; R3X3B0 is a `SAME_ACTION_LOADED_FINITE_GRID` *falsification* and exact inverse-support obstruction, not a successful physical model. 006D remains `CONSERVATIVE_LINEARIZED_GR_TRUE_STANDOFF_ANCHOR` only within its declared linearized approximation.
+
+No project section may label these as equivalent achievements.
+
+---
+
+## 29. Strict reproducibility and publication readiness protocol
+
+### 29.1 Source identity and hashes
+
+Preserve historical file spellings (including `prefight`) and store cryptographic hashes for each implementation, simulation, test, input artifact and output artifact. A historically reported checksum is not verified against an unpinned later extract; report any mismatch instead of silently changing the expected source. The September codebundle may not contain November modules.
+
+### 29.2 Fresh clean-environment reproduction
+
+For full independent confidence, a second researcher/process should reconstruct the R3B field equation, multipoles, 1g normalization and canonical field integral without importing the source routines that produced the initial number. Recompute energy on finer meshes and an independent exterior integral; establish error bars instead of advertising all printed digits as significant.
+
+### 29.3 Variational consistency
+
+Independently vary source, matter and any compensator from the same action. Compare symbolic derivative, automatic derivative and finite differences with normalization and boundary terms. Check full Ward identities and source-work consistency, not just an isolated Maxwell residual.
+
+### 29.4 Artifact checks
+
+Compare the historical R3B summary and newest R3X3B0 JSON against expected keys and numerical fields; verify both stand-off geometry and payload masks. Do not fabricate a missing JSON field by inference or accept a printed number that is absent from the structured artifact.
+
+### 29.5 Precision acceptance
+
+Distinguish approximate reproducibility (`1e-8` J regression tolerance, for example) from mathematically certified continuum accuracy. Establish minimum-payload acceleration margins **above** exactly 1g when possible so discretization error cannot silently invalidate the everywhere-outward claim.
+
+### 29.6 Trust boundaries
+
+Research artifacts, narrative interpretations and software tests are not experimentally established physical phenomena. README/tweet language must identify reduced-model status and the loaded sign failure. No collaborator should infer a working 1.54 J apparatus.
+
+---
+
+## 30. Historical source code and result references
+
+### 30.1 Pinned historical R3B paths (as reported in the journal)
+
+```text
+src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py
+recorded source SHA256: aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263
+
+simulations/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py
+recorded source SHA256: fd602c43aab742545d5ed828acfa2661f64fa78cae9cc24b29a3cf9c34db7c9c
+
+tests/agminer/test_032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight.py
+recorded source SHA256: eec5563e7d8fec33a8d181f031e7505bb1957934ac3a1f813f36ba328a355b05
+```
+
+These are **historical journal-recorded hashes**, which still require confirmation against the exact user checkout. A separately extracted source file in the working evidence set may hash differently; if so, resolve source-snapshot provenance rather than claiming hashes match. The spelling `prefight` is historical and intentional in filenames.
+
+### 30.2 Result artifacts to retain
+
+```text
+results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json
+results/data/032h17a12d1r3b_hook17_fdual_f_multipole_fit_scan.csv
+results/data/032h17a12d1r3b_hook17_fdual_f_interface_pareto.csv
+results/data/032h17a12d1r3c1_hook17_fdual_f_exact_reciprocity_ultrasmall_summary.json
+results/data/032h17a12d1r3d0_hook17_node_integrability_summary.json
+results/data/032h17a12d1r3x2r1_dual_certificate_summary.json
+results/data/032h17a12d1r3x2r2_energy_budget_dual_summary.json
+results/data/032h17a12d1r3x3a_cross_sign_interface_summary.json
+results/data/032h17a12d1r3x3b0_inverse_loading_summary.json
+```
+
+### 30.3 Current scientific modules to include in next codebundle
+
+```text
+src/antigravity_research/agminer/hook17_fdual_f_r3x2_source_cone.py
+src/antigravity_research/agminer/hook17_fdual_f_r3x2r1_dual_certificate.py
+src/antigravity_research/agminer/hook17_fdual_f_r3x2r2_budget_dual.py
+src/antigravity_research/agminer/hook17_fdual_f_r3x3a_cross_sign_interface.py
+src/antigravity_research/agminer/hook17_fdual_f_r3x3b0_inverse_loading.py
+```
+
+### 30.4 Recent result artifact SHA256 (from supplied files)
+
+```text
+R3C1  b7ebfa350733903b9e21410392209b02323756bb17f619f1c33dc2045d12a51d
+R3D0  0b07ea57d31a0f61d59265e828f6789f3ef098343fd4fecad25289f390decc39
+R3X2R1  a6ab1dc171c5a1898881f9d3b408282733a771a017b8703420e5fedbf76213af
+R3X2R2  642f6faee80158c820ee1942c9e4097f97b1d746bad030724a62b2a927b12690
+R3X3A  90b99d0477bb294f0152ec7b33bf440ef329fb6cb1af8af88744f3276f24205a
+R3X3B0  0b37ba0acbf31da4aaa546fad5edbca448474fcf8a94f058d09bf0836161884a
+```
+
+The fingerprints verify specific JSON bytes, not the physics or existence of a full action. Preserve exact source/result provenance along with logs.
+
+---
+
+## 31. Governance of unresolved status, regression and heuristics
+
+- Latest known full-suite count: **1,283 passed**. The project has not provided a newly captured complete November codebundle in this document.
+- No completed fully sourced sub-10-MJ physical model; AGMINER complete survivors remain zero.
+- No justified current "chance of success" or project-completion percentage follows from test count or low-field inventory. Do not manufacture one.
+- Latest completed branch `R3X3B0`; immediate next conditional gate `R3X3B1`.
+- Reproduction, source mask and exact action are blockers prior to further optimization.
+- No quantum/UV/emprical closure or experimental gravitational force observation.
+- Preserve source support and reaction whenever electric/magnetic mirror boundary conditions are revised.
+
+---
+
+## 32. Detailed next-session decision tree
+
+```text
+LOAD LATEST CODE + JOURNAL + RESULTS + CHRONOLOGY 0035
+   |
+   v
+VERIFY HISTORICAL R3B SOURCE / JSON / 1.54J INDEPENDENTLY
+   |
+   +-- MISMATCH --> QUARANTINE EXACT NUMERICAL CLAIM, REPAIR PROVENANCE
+   |
+   v
+AUDIT BASELINE ELECTRIC SOURCE SUPPORT WITH PHYSICAL WEIGHTS
+   |
+   +-- GENUINE SOURCE LEAKAGE --> R3B REMAINS INVERSE FIELD TARGET
+   |                              SOURCE-REALIZATION BRANCH REQUIRED
+   |
+   v
+R3X3B1: WRITE ONE GENUINELY NEW ACTION-DERIVED INTERFACE OPERATOR
+   |
+   +-- SIGN / WARD / NOETHER / PARITY FAIL --> CLOSE THAT OPERATOR
+   |
+   v
+SPECTRUM + MICROSCOPIC CURRENT + SOURCE SUPPORT
+   |
+   +-- GHOST / ANOMALY / OUT-OF-SUPPORT --> CLOSE THAT REALIZATION
+   |
+   v
+INVERSE-SOURCE RESIDUAL MATCHED WITHOUT KILLING METRIC GRADIENT?
+   |
+   +-- NO --> CLOSE OPERATOR OR RERANK GENUINELY NEW FAMILY
+   |
+   v
+EARLY EMPIRICAL / UV / NATURALNESS / SOURCE-ENERGY LOWER BOUNDS
+   |
+   +-- FATAL OR >=10MJ --> CLOSE PRACTICAL REALIZATION
+   |
+   v
+AUTHORIZE ONE FINITE 1KG LOADED BVP WITH INDEPENDENT FULL SOLVER
+   |
+   +-- WORST POINT <1G / TRUE GAP <1M / NONCONVERGENT --> NO PROMOTION
+   |
+   v
+CONTINUUM + FULL NONLINEAR + INTERACTING STABILITY + REACTION
+   |
+   +-- FAIL --> NO PHYSICAL MODEL
+   |
+   v
+COMPLETE CONSERVATIVE OPERATING ENERGY STRICTLY BELOW 10MJ
+   |
+   +-- UNKNOWN --> UNCERTIFIED
+   +-- >=10MJ --> FAIL PRACTICALITY
+   |
+   v
+INDEPENDENTLY VERIFIED PHYSICAL-MODEL SUCCESSOR CANDIDATE
+```
+
+At any branch, vacuum/dilute-test-body analysis may run as an explicitly separate diagnostic; it is not a shortcut around finite 1 kg loaded response or source support.
+
+---
+
+## 33. Current authoritative checkpoint
+
+```text
+DATE = 2026-11-09
+PROGRAM = 032H17_HOOK17
+FLAGSHIP_RESULT = 032H17A12D1R3B
+R3B_PRELOADED_CANONICAL_FIELD_J = 1.5429162116460216
+R3B_REFERENCE_PAYLOAD = FINITE_1KG_NEUTRAL_TORUS
+R3B_PRELOADED_MINIMUM_ACCEL_M_S2 = 9.80665
+R3B_TRUE_EXTERNAL_GAP_M = 1.0
+R3B_ENERGY_CLASS = PRELOADED_FIELD_ONLY_CAPACITY
+R3B_GLOBAL_ELECTRIC_MONOPOLE = ZERO
+R3B_STRICT_EXTERNAL_PHYSICAL_SOURCE = NOT_CERTIFIED
+R3B_UNLOADED_TO_LOADED_PROMOTION = FAILS_SIMPLE_MIRROR
+A12B_EXACT_MASSLESS_CARRIER = PRESERVED_SCOPED
+A12C_F2_HISTORICAL_PRELOADED_ENERGY_J = 2.6568591420597114
+R3C1_DISCRETE_RECIPROCITY = REPAIRED_IN_TESTED_NORMALIZATION
+R3D0_EXACT_SINGLE_FIELD_NODE = OBSTRUCTED_IN_TESTED_STATIC_SCOPE
+R3X1_LORENTZIAN_OFFDIAGONAL_SIGNS = CORRECTED
+R3X2R2_LOW_ORDER_SOURCE_CONE = GREEN_SCOPED_NUMERICAL_EXCLUSION
+R3X3A_OPPOSITE_SIGN_SOURCE_CONE = GREEN_SCOPED_NUMERICAL_EXCLUSION
+R3X3B0_SIGNED_FIELD_OPERATOR_CONJUGACY = EXACT_DISCRETE_PASS
+R3X3B0_BASELINE_ELECTRIC_SOURCE_SUPPORT = OPEN_WARNING
+R3X3B0_UNCHANGED_MIRROR_EXTERNAL_ONLY_PRESERVATION = EXCLUDED_BOTH_GRIDS
+R3X3B0_LOADED_WORST_A_H075 = -46.40607408464625_M_S2
+R3X3B0_LOADED_WORST_A_H050 = -129.67185782242464_M_S2
+R3X3B0_UNIFORM_1G_THRESHOLD_H075 = ~1.11581E-5
+R3X3B0_UNIFORM_1G_THRESHOLD_H050 = ~8.60078E-6
+R3X3B0_LOADED_FIELD_ENERGY_RANGE = ~1.44_TO_1.52_J
+LATEST_COMPLETED_SCIENCE_BRANCH = 032H17A12D1R3X3B0
+LATEST_RECORDED_FULL_REGRESSION = 1283_PASSED
+NEXT = 032H17A12D1R3X3B1_ACTION_DERIVED_INTERFACE_COMPENSATOR_PREFLIGHT
+VACUUM_FIELD_ONLY = POSSIBLE_IN_PRINCIPLE_NOT_PAYLOAD_SUCCESS
+DILUTE_TEST_BODY = SEPARATE_DIAGNOSTIC_OPEN
+FIXED_1KG_VACUUM_CHAMBER_RESCUE = NOT_DEMONSTRATED
+COMPLETE_SAME_ACTION_MICROSCOPIC_MODEL = NO
+PHYSICAL_ANTIGRAVITY_MODEL_FOUND = NO
+CERTIFIED_COMPLETE_SUB10MJ_MODEL_FOUND = NO
+EXPERIMENTAL_REPULSION_OBSERVED = NO
+STRONGEST_CONSERVATIVE_TRUE_STANDOFF_GR = 006D
+006D_COEFFICIENT = 23.591586299249
+006D_REPLACED = FALSE
+HOOK17_CLOSED = FALSE
+```
+
+**Final current strategy:** The historical R3B 1.54 J result is an extraordinary **mathematical preloaded field-capacity clue**, not complete energy or a physical antigravity device. Do not chase lower joules. Make source-provenance, same-action matter coupling and physical interface compensation the only reasons to authorize more costly work. Every new calculation must be tied to a falsifiable action and an independently checkable finite-neutral-payload observable.
+
+---
+
+

@@ -1,0 +1,62 @@
+{
+  "006d_replaced": false,
+  "branch": "032H17A12D1R3X3B3",
+  "complete_energy_certified": false,
+  "continuum_certified": false,
+  "fully_loaded_nonlin_action_certified": false,
+  "grids": [
+    {
+      "b_payload_max_si_equivalent_t": 0.016721476021250653,
+      "b_payload_min_si_equivalent_t": 0.012163677915213271,
+      "canonical_field_energy_for_1g_j": 274699.8739066454,
+      "electron_sized_dipole_rest_energy_floor_j": 536905379497549.75,
+      "electron_sized_dipole_source_passes_10mj": false,
+      "h_m": 0.075,
+      "other_microscopic_source_families_excluded": false,
+      "outward_everywhere_sampled": true,
+      "portal_scale_keV": 21.147425268811283,
+      "relative_loading": 5e-06,
+      "required_moment_per_mass_energy_enhancement": 53690537.949754976,
+      "required_source_amplitude_multiplier": 433.8068441704615,
+      "required_total_dipole_moment_a_m2": 60818.389584096374,
+      "source_payload_gap_m": 1.0
+    },
+    {
+      "b_payload_max_si_equivalent_t": 0.018119038437987026,
+      "b_payload_min_si_equivalent_t": 0.01247969965241853,
+      "canonical_field_energy_for_1g_j": 300607.908104649,
+      "electron_sized_dipole_rest_energy_floor_j": 550854595509875.3,
+      "electron_sized_dipole_source_passes_10mj": false,
+      "h_m": 0.05,
+      "other_microscopic_source_families_excluded": false,
+      "outward_everywhere_sampled": true,
+      "portal_scale_keV": 21.147425268811283,
+      "relative_loading": 5e-06,
+      "required_moment_per_mass_energy_enhancement": 55085459.550987534,
+      "required_source_amplitude_multiplier": 442.1356559185673,
+      "required_total_dipole_moment_a_m2": 62398.49827033129,
+      "source_payload_gap_m": 1.0
+    },
+    {
+      "b_payload_max_si_equivalent_t": 0.01751305665279988,
+      "b_payload_min_si_equivalent_t": 0.012125070774759317,
+      "canonical_field_energy_for_1g_j": 281054.1323570124,
+      "electron_sized_dipole_rest_energy_floor_j": 535201258298252.0,
+      "electron_sized_dipole_source_passes_10mj": false,
+      "h_m": 0.04,
+      "other_microscopic_source_families_excluded": false,
+      "outward_everywhere_sampled": true,
+      "portal_scale_keV": 21.147425268811283,
+      "relative_loading": 5e-06,
+      "required_moment_per_mass_energy_enhancement": 53520125.8298252,
+      "required_source_amplitude_multiplier": 431.2861588179597,
+      "required_total_dipole_moment_a_m2": 60625.35388180112,
+      "source_payload_gap_m": 1.0
+    }
+  ],
+  "microscopic_hidden_source_excluded": false,
+  "model_scope": "CORRECTED_LORENTZIAN_FROZEN_DENSITY",
+  "physical_antigravity_model_found": false,
+  "r3b_preloaded_1p542916_j_preserved": true,
+  "source_scope": "ELECTRON_SIZED_STATIC_POLAR_MAGNETIC_DIPOLES"
+}

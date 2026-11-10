@@ -1,0 +1,59 @@
+{
+  "006d_replaced": false,
+  "alternative_loaded_field_profiles_excluded": false,
+  "branch": "032H17A12D1R3X3B4",
+  "complete_energy_certified": false,
+  "continuum_certified": false,
+  "exact_interface_force_identity_verified": true,
+  "grids": [
+    {
+      "fully_loaded": {
+        "com_acceleration_m_s2": 0.07970759737289632,
+        "force_identity_relative_error": 1.5691769344024143e-15,
+        "minimum_payload_acceleration_m_s2": -46.40607408464625,
+        "positive_acceleration_mass_fraction": 0.5149880483809731
+      },
+      "h_m": 0.075,
+      "preloaded": {
+        "com_acceleration_m_s2": 14.171161706022593,
+        "force_identity_relative_error": 3.7657795725741484e-16,
+        "minimum_payload_acceleration_m_s2": 9.806650000000014,
+        "positive_acceleration_mass_fraction": 1.0
+      }
+    },
+    {
+      "fully_loaded": {
+        "com_acceleration_m_s2": 0.154541900931651,
+        "force_identity_relative_error": 1.7910378377396796e-16,
+        "minimum_payload_acceleration_m_s2": -129.67185782242464,
+        "positive_acceleration_mass_fraction": 0.5441084975664456
+      },
+      "h_m": 0.05,
+      "preloaded": {
+        "com_acceleration_m_s2": 14.826157309620625,
+        "force_identity_relative_error": 1.1948197178464134e-16,
+        "minimum_payload_acceleration_m_s2": 9.80664999999999,
+        "positive_acceleration_mass_fraction": 1.0
+      }
+    },
+    {
+      "fully_loaded": {
+        "com_acceleration_m_s2": -0.09174236370560274,
+        "force_identity_relative_error": 4.53741021001892e-16,
+        "minimum_payload_acceleration_m_s2": -145.63825746988095,
+        "positive_acceleration_mass_fraction": 0.4808244360075634
+      },
+      "h_m": 0.04,
+      "preloaded": {
+        "com_acceleration_m_s2": 14.553022892372747,
+        "force_identity_relative_error": 1.2204316777459506e-16,
+        "minimum_payload_acceleration_m_s2": 9.806649999999813,
+        "positive_acceleration_mass_fraction": 1.0
+      }
+    }
+  ],
+  "loaded_original_mirror_fails_com_1g": true,
+  "new_compensator_certified": false,
+  "original_benchmark_is_directional": true,
+  "physical_antigravity_model_found": false
+}

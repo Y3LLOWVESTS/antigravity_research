@@ -1,0 +1,51 @@
+{
+  "006d_replaced": false,
+  "branch": "032H17A12D1R3X3B5",
+  "exact_mirror": {
+    "additional_axion_sources_excluded": false,
+    "bare_gamma_nonzero_varying_P_exact_mirror": "INCOMPATIBLE",
+    "different_loaded_field_profiles_excluded": false,
+    "no_bare_gamma_strict_interface_silence": "NO_NONZERO_SIGMA_IN_MATERIAL_ON_CONNECTED_NONDEGENERATE_REGION",
+    "other_compensating_actions_excluded": false,
+    "two_point_axion_eom_difference": "gamma*(P1 - P2)/4",
+    "vacuum_theta_with_bare_term": "a*gamma"
+  },
+  "new_compensator_certified": false,
+  "original_r3b_preloaded_capacity_preserved": true,
+  "physical_antigravity_model_found": false,
+  "r3x3b4_grid_check": [
+    {
+      "force_identity_relative_error": 1.5691769344024143e-15,
+      "fully_loaded_com_m_s2": 0.07970759737289632,
+      "h_m": 0.075,
+      "preloaded_com_m_s2": 14.171161706022593
+    },
+    {
+      "force_identity_relative_error": 1.7910378377396796e-16,
+      "fully_loaded_com_m_s2": 0.154541900931651,
+      "h_m": 0.05,
+      "preloaded_com_m_s2": 14.826157309620625
+    },
+    {
+      "force_identity_relative_error": 4.53741021001892e-16,
+      "fully_loaded_com_m_s2": -0.09174236370560274,
+      "h_m": 0.04,
+      "preloaded_com_m_s2": 14.553022892372747
+    }
+  ],
+  "r3x3b4_provenance_available": true,
+  "scope": "MINIMAL_DYNAMIC_AXION_EXACT_OLD_MIRROR_PRESERVATION",
+  "tensor": {
+    "P_nonzero_implies_Fdual_nondegenerate": true,
+    "det_F_covariant": "(Bx*Ex + By*Ey + Bz*Ez)**2",
+    "det_equals_E_dot_B_squared": true
+  },
+  "variation": {
+    "axion_eom_source": "P*(gamma/4 + kappa*tau)",
+    "full_metric_noether_identity_certified": false,
+    "gauge_ward_identity": "DIV_J_ZERO_REQUIRED",
+    "maxwell_axion_derivative_of_theta_by_a": "gamma + 4*kappa*tau",
+    "maxwell_matter_interface_derivative_of_theta_by_tau": "4*a*kappa",
+    "theta": "a*(gamma + 4*kappa*tau)"
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "branch": "032H17A12D1R3X3B8",
+  "scope": "STATIC_CANONICAL_U1_SPHERICAL_HOMOGENEOUS_THETA_INTERFACE",
+  "symbolic": {
+    "determinant": "ell**2*theta**2 + 4*ell**2 + ell*theta**2 + 4*ell + 1",
+    "det_positive_for_real_theta_ell_gt0": true,
+    "uniform_large_theta_bound": "norm(T_ell) <= 3/(abs(theta)-3), abs(theta)>3",
+    "other_payload_geometries_excluded": false
+  },
+  "modes": [
+    {
+      "ell": 1,
+      "theta": 0.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        1.0,
+        1.0
+      ],
+      "transfer_norm_max": 1.0,
+      "universal_bound": null,
+      "max_boundary_residual": 0.0,
+      "interior_EB_to_incident_EB": 1.0,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 2,
+      "theta": 0.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        1.0,
+        1.0
+      ],
+      "transfer_norm_max": 1.0,
+      "universal_bound": null,
+      "max_boundary_residual": 0.0,
+      "interior_EB_to_incident_EB": 1.0,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 3,
+      "theta": 0.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        1.0,
+        1.0
+      ],
+      "transfer_norm_max": 1.0,
+      "universal_bound": null,
+      "max_boundary_residual": 0.0,
+      "interior_EB_to_incident_EB": 1.0,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 10,
+      "theta": 0.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        1.0,
+        1.0
+      ],
+      "transfer_norm_max": 1.0,
+      "universal_bound": null,
+      "max_boundary_residual": 0.0,
+      "interior_EB_to_incident_EB": 1.0,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 50,
+      "theta": 0.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        1.0,
+        1.0
+      ],
+      "transfer_norm_max": 1.0,
+      "universal_bound": null,
+      "max_boundary_residual": 0.0,
+      "interior_EB_to_incident_EB": 1.0,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 1,
+      "theta": 1.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        0.5454545454545454,
+        1.3636363636363635
+      ],
+      "transfer_norm_max": 1.0511187180680959,
+      "universal_bound": null,
+      "max_boundary_residual": 2.220446049250313e-16,
+      "interior_EB_to_incident_EB": 0.7438016528925618,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 2,
+      "theta": 1.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        0.48387096774193544,
+        1.2903225806451613
+      ],
+      "transfer_norm_max": 0.9822854747983023,
+      "universal_bound": null,
+      "max_boundary_residual": 1.1102230246251565e-16,
+      "interior_EB_to_incident_EB": 0.6243496357960457,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 3,
+      "theta": 1.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        0.45901639344262296,
+        1.2622950819672132
+      ],
+      "transfer_norm_max": 0.9554699253892598,
+      "universal_bound": null,
+      "max_boundary_residual": 8.881784197001252e-16,
+      "interior_EB_to_incident_EB": 0.5794141359849503,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 10,
+      "theta": 1.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        0.41923774954627946,
+        1.219600725952813
+      ],
+      "transfer_norm_max": 0.9138892723025472,
+      "universal_bound": null,
+      "max_boundary_residual": 3.552713678800501e-15,
+      "interior_EB_to_incident_EB": 0.511302663693466,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 50,
+      "theta": 1.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        0.4039683162104933,
+        1.2039840012548035
+      ],
+      "transfer_norm_max": 0.8984052011009078,
+      "universal_bound": null,
+      "max_boundary_residual": 5.551115123125783e-17,
+      "interior_EB_to_incident_EB": 0.4863713897312754,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 1,
+      "theta": 10.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.10047846889952153,
+        0.33014354066985646
+      ],
+      "transfer_norm_max": 0.2913453379059094,
+      "universal_bound": 0.42857142857142855,
+      "max_boundary_residual": 5.551115123125783e-17,
+      "interior_EB_to_incident_EB": -0.03317231748357409,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 2,
+      "theta": 10.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.12,
+        0.27999999999999997
+      ],
+      "transfer_norm_max": 0.24396078054371137,
+      "universal_bound": 0.42857142857142855,
+      "max_boundary_residual": 8.881784197001252e-16,
+      "interior_EB_to_incident_EB": -0.0336,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 3,
+      "theta": 10.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.1289031224979984,
+        0.2634107285828663
+      ],
+      "transfer_norm_max": 0.22806401614575372,
+      "universal_bound": 0.42857142857142855,
+      "max_boundary_residual": 1.1102230246251565e-16,
+      "interior_EB_to_incident_EB": -0.03395446541380422,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 10,
+      "theta": 10.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.14500480727209158,
+        0.24045100952713924
+      ],
+      "transfer_norm_max": 0.2057221925963131,
+      "universal_bound": 0.42857142857142855,
+      "max_boundary_residual": 4.440892098500626e-16,
+      "interior_EB_to_incident_EB": -0.034866552294862685,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 50,
+      "theta": 10.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.15195644058657398,
+        0.23269520099848795
+      ],
+      "transfer_norm_max": 0.19803883868522365,
+      "universal_bound": 0.42857142857142855,
+      "max_boundary_residual": 5.329070518200751e-15,
+      "interior_EB_to_incident_EB": -0.035359534485307625,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 1,
+      "theta": 100.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.014543455445049728,
+        0.030436303663351493
+      ],
+      "transfer_norm_max": 0.029991003598470664,
+      "universal_bound": 0.030927835051546393,
+      "max_boundary_residual": 8.153200337090993e-17,
+      "interior_EB_to_incident_EB": -0.00044264902623995626,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 2,
+      "theta": 100.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.01624323198667222,
+        0.025406080799666806
+      ],
+      "transfer_norm_max": 0.024993752186672203,
+      "universal_bound": 0.030927835051546393,
+      "max_boundary_residual": 1.5959455978986625e-16,
+      "interior_EB_to_incident_EB": -0.0004126768643011268,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 3,
+      "theta": 100.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.017084690418079286,
+        0.023731976109755182
+      ],
+      "transfer_norm_max": 0.02332789070304457,
+      "universal_bound": 0.030927835051546393,
+      "max_boundary_residual": 2.220446049250313e-16,
+      "interior_EB_to_incident_EB": -0.0004054534648444209,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 10,
+      "theta": 100.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.018682510011895234,
+        0.021392332710249803
+      ],
+      "transfer_norm_max": 0.020995591366632264,
+      "universal_bound": 0.030927835051546393,
+      "max_boundary_residual": 3.552713678800501e-15,
+      "interior_EB_to_incident_EB": -0.0003996624700370359,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 50,
+      "theta": 100.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.019396123143051676,
+        0.020591801687489645
+      ],
+      "transfer_norm_max": 0.020195920831867997,
+      "universal_bound": 0.030927835051546393,
+      "max_boundary_residual": 8.881784197001252e-16,
+      "interior_EB_to_incident_EB": -0.00039940112126784843,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 1,
+      "theta": 10000.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.0001499549932520253,
+        0.0003000449864979756
+      ],
+      "transfer_norm_max": 0.00029999999100000044,
+      "universal_bound": 0.00030009002700810244,
+      "max_boundary_residual": 3.74049749507499e-17,
+      "interior_EB_to_incident_EB": -4.499324392560796e-08,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 2,
+      "theta": 10000.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.00016662499305729195,
+        0.00025004165624826434
+      ],
+      "transfer_norm_max": 0.00024999999375000025,
+      "universal_bound": 0.00030009002700810244,
+      "max_boundary_residual": 8.881784197001252e-16,
+      "interior_EB_to_incident_EB": -4.1663189236400825e-08,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 3,
+      "theta": 10000.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.000174959159522501,
+        0.00023337415713722191
+      ],
+      "transfer_norm_max": 0.0002333333278888891,
+      "universal_bound": 0.00030009002700810244,
+      "max_boundary_residual": 2.220446049250313e-16,
+      "interior_EB_to_incident_EB": -4.0830946387000426e-08,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 10,
+      "theta": 10000.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.00019086899234788856,
+        0.00021004008248839306
+      ],
+      "transfer_norm_max": 0.0002099999955900001,
+      "universal_bound": 0.00030009002700810244,
+      "max_boundary_residual": 3.552713678800501e-15,
+      "interior_EB_to_incident_EB": -4.0090138897226976e-08,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    },
+    {
+      "ell": 50,
+      "theta": 10000.0,
+      "incident_potentials": [
+        1.0,
+        1.0
+      ],
+      "inside_potentials": [
+        -0.00019799920384396127,
+        0.00020203999583917647
+      ],
+      "transfer_norm_max": 0.00020199999591960014,
+      "universal_bound": 0.00030009002700810244,
+      "max_boundary_residual": 4.754877047652428e-15,
+      "interior_EB_to_incident_EB": -4.000375832079419e-08,
+      "zero_free_interface_sources": true,
+      "torus_no_go_proved": false
+    }
+  ],
+  "r3b_torus_no_go_proved": false,
+  "full_action_noether_certified": false,
+  "microscopic_source_realized": false,
+  "complete_energy_certified": false,
+  "physical_antigravity_model_found": false,
+  "006d_replaced": false
+}

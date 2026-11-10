@@ -1,0 +1,54 @@
+{
+  "branch": "032H17A12D1R3X3B6",
+  "scope": "BOUNDARY_CORRECTED_BASELINE_SOURCE_AUDIT",
+  "original_r3b_1p542916_j_preserved": true,
+  "old_baseline_boundary_artifact_identified": true,
+  "interface_compensation_obstruction_unchanged": true,
+  "grids": [
+    {
+      "h_m": 0.075,
+      "old_baseline_outside_l2_fraction": 0.5477409167463166,
+      "boundary_corrected_outside_l2_fraction": 0.00027499970160461604,
+      "corrected_cylindrical_weighted_outside_l2_fraction": 0.0002441080923542534,
+      "independent_stencil_relative_error": 1.2281150135557683e-14,
+      "required_electric_interface_rhs_outside_fraction": 1.0,
+      "required_magnetic_interface_rhs_outside_fraction": 1.0,
+      "electric_interface_rhs_payload_fraction": 0.9358183458645922,
+      "magnetic_interface_rhs_payload_fraction": 0.8874746712086443,
+      "microscopic_source_certified": false,
+      "continuum_certified": false
+    },
+    {
+      "h_m": 0.05,
+      "old_baseline_outside_l2_fraction": 0.7089164053611233,
+      "boundary_corrected_outside_l2_fraction": 0.00011766174948160804,
+      "corrected_cylindrical_weighted_outside_l2_fraction": 0.00010259129540538744,
+      "independent_stencil_relative_error": 2.019406823315865e-14,
+      "required_electric_interface_rhs_outside_fraction": 1.0,
+      "required_magnetic_interface_rhs_outside_fraction": 1.0,
+      "electric_interface_rhs_payload_fraction": 0.9827667736967488,
+      "magnetic_interface_rhs_payload_fraction": 0.937839302335469,
+      "microscopic_source_certified": false,
+      "continuum_certified": false
+    },
+    {
+      "h_m": 0.04,
+      "old_baseline_outside_l2_fraction": 0.7820313992208194,
+      "boundary_corrected_outside_l2_fraction": 7.09127390080476e-05,
+      "corrected_cylindrical_weighted_outside_l2_fraction": 6.096958098996304e-05,
+      "independent_stencil_relative_error": 2.806051653458164e-14,
+      "required_electric_interface_rhs_outside_fraction": 1.0,
+      "required_magnetic_interface_rhs_outside_fraction": 1.0,
+      "electric_interface_rhs_payload_fraction": 0.9824021229678406,
+      "magnetic_interface_rhs_payload_fraction": 0.9646148318479096,
+      "microscopic_source_certified": false,
+      "continuum_certified": false
+    }
+  ],
+  "microscopic_source_certified": false,
+  "continuum_certified": false,
+  "new_compensator_certified": false,
+  "complete_energy_certified": false,
+  "physical_antigravity_model_found": false,
+  "006d_replaced": false
+}

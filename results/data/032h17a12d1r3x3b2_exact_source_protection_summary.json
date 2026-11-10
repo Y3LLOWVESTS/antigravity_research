@@ -1,0 +1,123 @@
+{
+  "006d_replaced": false,
+  "branch": "032H17A12D1R3X3B2",
+  "complete_energy_certified": false,
+  "decision": "CLOSE_MINIMAL_MASSIVE_DIRAC_AXIAL_U1_SOURCE_ONLY",
+  "further_physical_source_action_required": true,
+  "new_loaded_bvp_authorized": false,
+  "physical_antigravity_model_found": false,
+  "portal_scale_evidence": {
+    "available": true,
+    "by_loading_ratio": {
+      "1e-06": {
+        "complete_operating_energy_certified": false,
+        "continuum_certified": false,
+        "energy_spread_fraction_of_mean": 0.06048477855166123,
+        "field_energy_max_J": 1527329.9807478874,
+        "field_energy_min_J": 1437640.471224035,
+        "field_only_under_10MJ_on_listed_grids": true,
+        "grid_count": 3,
+        "largest_field_only_budget_remainder_J": 8472670.019252112,
+        "microscopic_source_cost_known": false,
+        "portal_keV": 31.622776601683793,
+        "source_amplitude_max_vs_reference": 996.6016122994151,
+        "source_amplitude_min_vs_reference": 990.8850123387932
+      },
+      "5e-06": {
+        "complete_operating_energy_certified": false,
+        "continuum_certified": false,
+        "energy_spread_fraction_of_mean": 0.09076081185995243,
+        "field_energy_max_J": 300607.90810464893,
+        "field_energy_min_J": 274699.8739066454,
+        "field_only_under_10MJ_on_listed_grids": true,
+        "grid_count": 3,
+        "largest_field_only_budget_remainder_J": 9699392.091895351,
+        "microscopic_source_cost_known": false,
+        "portal_keV": 21.147425268811283,
+        "source_amplitude_max_vs_reference": 442.1356559185673,
+        "source_amplitude_min_vs_reference": 431.2861588179597
+      }
+    }
+  },
+  "proof_scope": "UNBROKEN_ABELIAN_GAUGE_SYMMETRY_AND_LOCAL_DIRAC_MASS",
+  "theorem": {
+    "006d_replaced": false,
+    "cross_topological_micro_source": "NOT_CERTIFIED",
+    "new_action_derived_interface_compensator": "OPEN_UNTESTED",
+    "new_composite_pseudovector_source": "OPEN_UNTESTED",
+    "original_r3b_1p542916_j_preloaded_preserved": true,
+    "paired_opposite_axial_anomaly": {
+      "abelian_cubic_numerators": {
+        "0,0,0": "0"
+      },
+      "full_microscopic_anomaly_completion_certified": false,
+      "mixed_gravitational_numerators": [
+        "0"
+      ],
+      "these_abelian_anomalies_cancel": true
+    },
+    "parity_even_cross_topological_algebra": "R3X0_ALREADY_CHECKED",
+    "physical_antigravity_model_found": false,
+    "single_axial_dirac_anomaly": {
+      "abelian_cubic_numerators": {
+        "0,0,0": "2"
+      },
+      "full_microscopic_anomaly_completion_certified": false,
+      "mixed_gravitational_numerators": [
+        "2"
+      ],
+      "these_abelian_anomalies_cancel": false
+    },
+    "single_u1_hard_mass_pure_axial": {
+      "axial_charges_on_unbroken_basis": [
+        "-1"
+      ],
+      "mass_term_gauge_invariant_and_vev_realized": false,
+      "massive_dirac_axial_source_on_unbroken_u1_allowed": false,
+      "number_of_unbroken_u1": 1,
+      "unbroken_basis": [
+        [
+          "1"
+        ]
+      ],
+      "unbroken_massive_dirac_vectorlike": false
+    },
+    "single_u1_higgs_generated_pure_axial": {
+      "axial_charges_on_unbroken_basis": [],
+      "mass_term_gauge_invariant_and_vev_realized": true,
+      "massive_dirac_axial_source_on_unbroken_u1_allowed": false,
+      "number_of_unbroken_u1": 0,
+      "unbroken_basis": [],
+      "unbroken_massive_dirac_vectorlike": true
+    },
+    "two_u1_chiral_higgs_mass_unbroken_vectorlike": {
+      "axial_charges_on_unbroken_basis": [
+        "0"
+      ],
+      "mass_term_gauge_invariant_and_vev_realized": true,
+      "massive_dirac_axial_source_on_unbroken_u1_allowed": false,
+      "number_of_unbroken_u1": 1,
+      "unbroken_basis": [
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "unbroken_massive_dirac_vectorlike": true
+    },
+    "vectorlike_massless_source": {
+      "axial_charges_on_unbroken_basis": [
+        "0"
+      ],
+      "mass_term_gauge_invariant_and_vev_realized": true,
+      "massive_dirac_axial_source_on_unbroken_u1_allowed": false,
+      "number_of_unbroken_u1": 1,
+      "unbroken_basis": [
+        [
+          "1"
+        ]
+      ],
+      "unbroken_massive_dirac_vectorlike": true
+    }
+  }
+}

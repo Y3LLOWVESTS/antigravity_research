@@ -1,0 +1,42 @@
+{
+  "006d_replaced": false,
+  "branch": "032H17A12D1R3X3B9",
+  "comparison_to_r3b": {
+    "one_keV_peak_dimensionless_beta_magnitude": 18987.283771593688,
+    "sphere_uniform_amplitude_bound_at_matched_theta": 0.00015802545074093975,
+    "spherical_bound_applies_to_r3b_torus": false
+  },
+  "conclusion": "EXACT_LOCAL_MIXED_KERNEL_CANCELLATION_REMOVES_SAME_CHANNEL_FIELD_DEPENDENT_MATTER_FORCE",
+  "different_loaded_field_profiles_excluded": false,
+  "dynamical_derivative_compensators_excluded": false,
+  "independent_source_channels_excluded": false,
+  "nonlinear_full_action_certified": false,
+  "original_r3b_1p542916_j_preloaded_preserved": true,
+  "physical_antigravity_model_found": false,
+  "r3x3b8_prior": {
+    "available": true,
+    "reference_transmission_norms": {
+      "1": 0.00029999999100000044,
+      "10": 0.0002099999955900001
+    },
+    "theta_reference": 10000.0,
+    "torus_no_go_proved": false
+  },
+  "scope": "LOCAL_SMOOTH_ALGEBRAIC_AUXILIARIES_EXACT_MIXED_RESPONSE_CANCELLATION",
+  "single_auxiliary": {
+    "cancelled_example_effective_density": "(P**2*g**4 + T**2*a**2*m2**2)/(2*g**2*m2)",
+    "exact_algebraic_cancellation_removes_force_kernel": true,
+    "matter_and_carrier_mixed_derivatives_equal": true,
+    "on_shell_mixed_coefficient": "(a*m2 + g*h)/m2",
+    "remaining_nonlinear_field_stability_certified": false,
+    "remaining_p_squared_term": true,
+    "schur_complement_verified": true
+  },
+  "two_auxiliary": {
+    "hessian_determinant": "-k**2 + m1*m2",
+    "mixed_kernel": "-(-d*k**2 + d*m1*m2 + k*r*u + k*s*v - m1*r*v - m2*s*u)/(k**2 - m1*m2)",
+    "rank_two_rational_witness": "10/29",
+    "singular_auxiliary_hessian_excluded_by_scope": true,
+    "two_auxiliary_schur_complement_verified": true
+  }
+}

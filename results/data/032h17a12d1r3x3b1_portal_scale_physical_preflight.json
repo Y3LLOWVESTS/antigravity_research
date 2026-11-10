@@ -1,0 +1,112 @@
+{
+  "006d_replaced": false,
+  "branch": "032H17A12D1R3X3B1_LINKED_PORTAL_SCALE_PREFLIGHT",
+  "complete_operating_energy_certified": false,
+  "continuum_certified": false,
+  "grids": [
+    {
+      "h_m": 0.075,
+      "payload_grid_points": 22,
+      "rows": [
+        {
+          "M_X_keV": 31.622776601683793,
+          "canonical_field_energy_1g_j": 1437640.471224035,
+          "field_only_under_10MJ": true,
+          "loaded_min_acceleration_before_adjustment": 9.957181443089022,
+          "outward_everywhere_sampled": true,
+          "required_source_amplitude_vs_1keV": 992.4122747749338,
+          "static_condition_number": 1.0055062285191492,
+          "static_relative_residual": 8.290548126129236e-15,
+          "t": 1e-06
+        },
+        {
+          "M_X_keV": 21.147425268811283,
+          "canonical_field_energy_1g_j": 274699.8739066454,
+          "field_only_under_10MJ": true,
+          "loaded_min_acceleration_before_adjustment": 10.422163261792425,
+          "outward_everywhere_sampled": true,
+          "required_source_amplitude_vs_1keV": 433.8068441704615,
+          "static_condition_number": 1.0278469698412014,
+          "static_relative_residual": 8.224317949322626e-15,
+          "t": 5e-06
+        }
+      ]
+    },
+    {
+      "h_m": 0.05,
+      "payload_grid_points": 48,
+      "rows": [
+        {
+          "M_X_keV": 31.622776601683793,
+          "canonical_field_energy_1g_j": 1527329.9807478874,
+          "field_only_under_10MJ": true,
+          "loaded_min_acceleration_before_adjustment": 9.873644915773571,
+          "outward_everywhere_sampled": true,
+          "required_source_amplitude_vs_1keV": 996.6016122994151,
+          "static_condition_number": 1.0059437712973671,
+          "static_relative_residual": 2.333802072346572e-14,
+          "t": 1e-06
+        },
+        {
+          "M_X_keV": 21.147425268811283,
+          "canonical_field_energy_1g_j": 300607.90810464893,
+          "direct_solver_validation": {
+            "direct_relative_residual": 5.7017021847175025e-15,
+            "field_energy_relative_difference": 0.0,
+            "lambda": 5e-06,
+            "minimum_acceleration_absolute_difference_m_s2": 5.5067062021407764e-14,
+            "pass": true,
+            "theta_sign": 1.0,
+            "vector_relative_difference": 1.16764409383365e-14
+          },
+          "field_only_under_10MJ": true,
+          "loaded_min_acceleration_before_adjustment": 10.033202818160923,
+          "outward_everywhere_sampled": true,
+          "required_source_amplitude_vs_1keV": 442.1356559185673,
+          "static_condition_number": 1.0300711399497973,
+          "static_relative_residual": 2.3294653621235283e-14,
+          "t": 5e-06
+        }
+      ]
+    },
+    {
+      "h_m": 0.04,
+      "payload_grid_points": 74,
+      "rows": [
+        {
+          "M_X_keV": 31.622776601683793,
+          "canonical_field_energy_1g_j": 1483562.4684510368,
+          "field_only_under_10MJ": true,
+          "loaded_min_acceleration_before_adjustment": 9.98789933373577,
+          "outward_everywhere_sampled": true,
+          "required_source_amplitude_vs_1keV": 990.8850123387932,
+          "static_condition_number": 1.0061197273916085,
+          "static_relative_residual": 3.435612811904931e-14,
+          "t": 1e-06
+        },
+        {
+          "M_X_keV": 21.147425268811283,
+          "canonical_field_energy_1g_j": 281054.1323570124,
+          "field_only_under_10MJ": true,
+          "loaded_min_acceleration_before_adjustment": 10.544345553836221,
+          "outward_everywhere_sampled": true,
+          "required_source_amplitude_vs_1keV": 431.2861588179597,
+          "static_condition_number": 1.0309719553758663,
+          "static_relative_residual": 3.3071395539645286e-14,
+          "t": 5e-06
+        }
+      ]
+    }
+  ],
+  "microscopic_source_realized": false,
+  "parity_CP_completed": false,
+  "parity_bulk_gate": {
+    "affine_sigma_generic_bulk_silent": true,
+    "new_compensator_certified": false,
+    "nonconstant_affine_single_P_is_parity_odd": true,
+    "nonlinear_even_sigma_restores_bulk_loading": true,
+    "scope": "ONE_P_NO_INDEPENDENT_ODD_SPURION"
+  },
+  "physical_antigravity_model_found": false,
+  "theory_scope": "CORRECTED_LORENTZIAN_FROZEN_BETA_ONLY"
+}

@@ -1,0 +1,170 @@
+{
+  "006d_replaced": false,
+  "all_positive_Z_all_ell_bound": 0.00033518212020005624,
+  "anisotropic_kinetic_operators_excluded": false,
+  "branch": "032H17A12D1R3X3B10",
+  "complete_energy_certified": false,
+  "conclusion": "COMMON_POSITIVE_KINETIC_STIFFNESS_DOES_NOT_RESTORE_ORDER_ONE_TRANSMISSION_AT_LARGE_THETA",
+  "dynamical_compensators_excluded": false,
+  "full_same_action_certified": false,
+  "modes": [
+    {
+      "boundary_relative_error": 2.3388769831019816e-20,
+      "ell": 1,
+      "interior_Z": 1e-06,
+      "transmission_norm": 0.00015800048242432135
+    },
+    {
+      "boundary_relative_error": 1.1694384915509908e-20,
+      "ell": 1,
+      "interior_Z": 1.0,
+      "transmission_norm": 0.00015800048132866997
+    },
+    {
+      "boundary_relative_error": 2.3388769831019816e-20,
+      "ell": 1,
+      "interior_Z": 100.0,
+      "transmission_norm": 0.0001579982035169122
+    },
+    {
+      "boundary_relative_error": 2.3388769831019816e-20,
+      "ell": 1,
+      "interior_Z": 10000.0,
+      "transmission_norm": 0.00013979112053193117
+    },
+    {
+      "boundary_relative_error": 1.1694384915509908e-20,
+      "ell": 1,
+      "interior_Z": 18987.283771593688,
+      "transmission_norm": 0.00011171732887190596
+    },
+    {
+      "boundary_relative_error": 4.440892098500626e-22,
+      "ell": 1,
+      "interior_Z": 1000000.0,
+      "transmission_norm": 2.999453374012756e-06
+    },
+    {
+      "boundary_relative_error": 2.3388769831019816e-20,
+      "ell": 2,
+      "interior_Z": 1e-06,
+      "transmission_norm": 0.00013166706868693466
+    },
+    {
+      "boundary_relative_error": 1.1694384915509908e-20,
+      "ell": 2,
+      "interior_Z": 1.0,
+      "transmission_norm": 0.0001316670679565004
+    },
+    {
+      "boundary_relative_error": 6.772236577048219e-21,
+      "ell": 2,
+      "interior_Z": 100.0,
+      "transmission_norm": 0.0001316651878575203
+    },
+    {
+      "boundary_relative_error": 9.355507932407927e-20,
+      "ell": 2,
+      "interior_Z": 10000.0,
+      "transmission_norm": 0.0001164938652046189
+    },
+    {
+      "boundary_relative_error": 2.5245995755712004e-21,
+      "ell": 2,
+      "interior_Z": 18987.283771593688,
+      "transmission_norm": 9.309899980260667e-05
+    },
+    {
+      "boundary_relative_error": 4.440892098500626e-22,
+      "ell": 2,
+      "interior_Z": 1000000.0,
+      "transmission_norm": 2.4995457276639276e-06
+    },
+    {
+      "boundary_relative_error": 2.2714972262645712e-20,
+      "ell": 10,
+      "interior_Z": 1e-06,
+      "transmission_norm": 0.00011060033769702524
+    },
+    {
+      "boundary_relative_error": 1.8711015864815853e-19,
+      "ell": 10,
+      "interior_Z": 1.0,
+      "transmission_norm": 0.00011060033720617339
+    },
+    {
+      "boundary_relative_error": 3.7422031729631706e-19,
+      "ell": 10,
+      "interior_Z": 100.0,
+      "transmission_norm": 0.00011059877007110295
+    },
+    {
+      "boundary_relative_error": 3.7422031729631706e-19,
+      "ell": 10,
+      "interior_Z": 10000.0,
+      "transmission_norm": 9.78556967081121e-05
+    },
+    {
+      "boundary_relative_error": 1.8711015864815853e-19,
+      "ell": 10,
+      "interior_Z": 18987.283771593688,
+      "transmission_norm": 7.820398355279507e-05
+    },
+    {
+      "boundary_relative_error": 3.552713678800501e-21,
+      "ell": 10,
+      "interior_Z": 1000000.0,
+      "transmission_norm": 2.0996192507814704e-06
+    },
+    {
+      "boundary_relative_error": 7.484406345926341e-19,
+      "ell": 50,
+      "interior_Z": 1e-06,
+      "transmission_norm": 0.00010638699149904337
+    },
+    {
+      "boundary_relative_error": 3.2799095192719196e-19,
+      "ell": 50,
+      "interior_Z": 1.0,
+      "transmission_norm": 0.00010638699105049824
+    },
+    {
+      "boundary_relative_error": 7.484406345926341e-19,
+      "ell": 50,
+      "interior_Z": 100.0,
+      "transmission_norm": 0.00010638548595286962
+    },
+    {
+      "boundary_relative_error": 1.2324785352361616e-19,
+      "ell": 50,
+      "interior_Z": 10000.0,
+      "transmission_norm": 9.412802415628723e-05
+    },
+    {
+      "boundary_relative_error": 7.484406345926341e-19,
+      "ell": 50,
+      "interior_Z": 18987.283771593688,
+      "transmission_norm": 7.52249426491281e-05
+    },
+    {
+      "boundary_relative_error": 2.8421709430404006e-20,
+      "ell": 50,
+      "interior_Z": 1000000.0,
+      "transmission_norm": 2.019633917025913e-06
+    }
+  ],
+  "physical_antigravity_model_found": false,
+  "r3b_1p542916j_preloaded_preserved": true,
+  "r3x3b9_prior_verified": true,
+  "scope": "POSITIVE_COMMON_KINETIC_STIFFNESS_SPHERICAL_INTERFACE",
+  "symbolic": {
+    "determinant": "Z**2*ell**2 + Z**2*ell + 2*Z*ell**2 + 2*Z*ell + Z + ell**2*theta**2 + ell**2 + ell*theta**2 + ell",
+    "physical_dynamic_stability_certified": false,
+    "positive_remainder": "2*Z*ell**2 + 2*Z*ell + Z + ell**2 + ell",
+    "proof": "norm2(adjA)<=sum_abs(adjA)=(2ell+1)*(1+Z+abs(theta)); detA>=ell*(ell+1)*(Z**2+theta**2); (2ell+1)**2/(ell*(ell+1))<=9/2; Z+abs(theta)<=sqrt(2)*sqrt(Z**2+theta**2)",
+    "uniform_bound_proved": true
+  },
+  "theta_reference": 18987.283771593688,
+  "theta_used_as_spherical_comparator_only": true,
+  "toroidal_payload_force_excluded": false
+}
