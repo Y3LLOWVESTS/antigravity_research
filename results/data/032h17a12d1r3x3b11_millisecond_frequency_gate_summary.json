@@ -1,0 +1,386 @@
+{
+  "B7_preloaded_field_energy_reference_j": 1.5473042949759672,
+  "branch": "032H17A12D1R3X3B11_M1",
+  "classification": "MILLISECOND_PERIODIC_TWO_U1_FIXED_MATTER_PLANAR_FREQUENCY_GATE",
+  "closed_whole_craft_lift": false,
+  "complete_operating_energy_certified": false,
+  "full_loaded_motion_simulated": false,
+  "harmonic_power_weights": [
+    0.16666666666666666,
+    0.6666666666666666,
+    0.16666666666666666
+  ],
+  "large_theta_is_historical_spherical_comparator_not_toroid": true,
+  "microscopic_millisecond_source_realized": false,
+  "one_actual_R3B_toroidal_pulse_simulated": false,
+  "one_pass_energy_bound_does_not_apply_to_recirculating_or_near_fields": true,
+  "periods_ms": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "planar_theta20_is_illustrative": true,
+  "pulse_shape": "periodic sin^2(pi t/T) sin(6 pi t/T)",
+  "radiative_budget_energy_is_hypothetical_not_B7_source": true,
+  "refinement": [
+    {
+      "R128": 1.2853528238353352e-05,
+      "R256": 1.285352585847686e-05,
+      "absolute_diff": 2.379876491324451e-12,
+      "relative_diff": 1.8515359268172554e-07,
+      "theta": 20.0
+    },
+    {
+      "R128": 0.9999998859107002,
+      "R256": 0.9999998859107331,
+      "absolute_diff": 3.2862601528904634e-14,
+      "relative_diff": 3.286260527817518e-14,
+      "theta": 18987.283771593688
+    }
+  ],
+  "results": [
+    {
+      "carrier_hz": 30000.0,
+      "coupling_theta_control": 0.0,
+      "harmonic_results": [
+        {
+          "conservation_residual": 1.3766765505351941e-14,
+          "polarization_spread": 0.0,
+          "reflectance": 7.346839692639199e-40,
+          "transmittance": 1.0000000000000138
+        },
+        {
+          "conservation_residual": 4.6629367034256575e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 0.0,
+          "transmittance": 0.9999999999999953
+        },
+        {
+          "conservation_residual": 2.6645352591003757e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 2.938735877055725e-39,
+          "transmittance": 0.9999999999999973
+        }
+      ],
+      "harmonics_hz": [
+        20000.0,
+        30000.0,
+        40000.0
+      ],
+      "mean_power_reflectance": 6.122366410532741e-40,
+      "mean_power_transmittance": 0.9999999999999987,
+      "one_pass_1g_with_strictly_less_than_10mj_even_ideal_mirror_possible": true,
+      "one_pass_ideal_perfect_mirror_energy_required_for_1g_j": 146997.985412285,
+      "one_pass_ideal_perfect_mirror_power_required_for_1g_w": 1469979854.12285,
+      "one_pass_radiation_acceleration_if_incident_energy_eq_b7_capacity_m_s2": 6.31981465153063e-44,
+      "one_pass_radiation_impulse_if_incident_energy_eq_b7_capacity_kg_m_s": 6.31981465153063e-48,
+      "period_ms": 0.1,
+      "power_balance_residual": 1.3766765505351941e-14
+    },
+    {
+      "carrier_hz": 30000.0,
+      "coupling_theta_control": 20.0,
+      "harmonic_results": [
+        {
+          "conservation_residual": 1.5543122344752192e-15,
+          "polarization_spread": 3.2526065174565133e-19,
+          "reflectance": 0.0005505702700708753,
+          "transmittance": 0.9994494297299306
+        },
+        {
+          "conservation_residual": 1.6542323066914832e-14,
+          "polarization_spread": 0.0,
+          "reflectance": 0.001237931132080444,
+          "transmittance": 0.998762068867903
+        },
+        {
+          "conservation_residual": 3.1086244689504383e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 0.002198649481175122,
+          "transmittance": 0.997801350518822
+        }
+      ],
+      "harmonics_hz": [
+        20000.0,
+        30000.0,
+        40000.0
+      ],
+      "mean_power_reflectance": 0.0012834907132612955,
+      "mean_power_transmittance": 0.9987165092867274,
+      "one_pass_1g_with_strictly_less_than_10mj_even_ideal_mirror_possible": true,
+      "one_pass_ideal_perfect_mirror_energy_required_for_1g_j": 146997.985412285,
+      "one_pass_ideal_perfect_mirror_power_required_for_1g_w": 1469979854.12285,
+      "one_pass_radiation_acceleration_if_incident_energy_eq_b7_capacity_m_s2": 1.3248836921647775e-07,
+      "one_pass_radiation_impulse_if_incident_energy_eq_b7_capacity_kg_m_s": 1.3248836921647776e-11,
+      "period_ms": 0.1,
+      "power_balance_residual": 1.6542323066914832e-14
+    },
+    {
+      "carrier_hz": 30000.0,
+      "coupling_theta_control": 18987.283771593688,
+      "harmonic_results": [
+        {
+          "conservation_residual": 0.0,
+          "polarization_spread": 0.0,
+          "reflectance": 0.9999999977288142,
+          "transmittance": 2.2711858665418543e-09
+        },
+        {
+          "conservation_residual": 3.3306690738754696e-16,
+          "polarization_spread": 0.0,
+          "reflectance": 0.9999999989846842,
+          "transmittance": 1.0153154646358128e-09
+        },
+        {
+          "conservation_residual": 4.440892098500626e-16,
+          "polarization_spread": 4.440892098500626e-16,
+          "reflectance": 0.9999999994241937,
+          "transmittance": 5.758065639860036e-10
+        }
+      ],
+      "harmonics_hz": [
+        20000.0,
+        30000.0,
+        40000.0
+      ],
+      "mean_power_reflectance": 0.9999999988486241,
+      "mean_power_transmittance": 1.1513757148451847e-09,
+      "one_pass_1g_with_strictly_less_than_10mj_even_ideal_mirror_possible": true,
+      "one_pass_ideal_perfect_mirror_energy_required_for_1g_j": 146997.985412285,
+      "one_pass_ideal_perfect_mirror_power_required_for_1g_w": 1469979854.12285,
+      "one_pass_radiation_acceleration_if_incident_energy_eq_b7_capacity_m_s2": 0.0001032250313111238,
+      "one_pass_radiation_impulse_if_incident_energy_eq_b7_capacity_kg_m_s": 1.032250313111238e-08,
+      "period_ms": 0.1,
+      "power_balance_residual": 4.440892098500626e-16
+    },
+    {
+      "carrier_hz": 3000.0,
+      "coupling_theta_control": 0.0,
+      "harmonic_results": [
+        {
+          "conservation_residual": 7.549516567451064e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 0.0,
+          "transmittance": 1.0000000000000075
+        },
+        {
+          "conservation_residual": 3.774758283725532e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 0.0,
+          "transmittance": 0.9999999999999962
+        },
+        {
+          "conservation_residual": 2.6645352591003757e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 0.0,
+          "transmittance": 1.0000000000000027
+        }
+      ],
+      "harmonics_hz": [
+        2000.0,
+        3000.0,
+        4000.0
+      ],
+      "mean_power_reflectance": 0.0,
+      "mean_power_transmittance": 0.9999999999999991,
+      "one_pass_1g_with_strictly_less_than_10mj_even_ideal_mirror_possible": true,
+      "one_pass_ideal_perfect_mirror_energy_required_for_1g_j": 1469979.85412285,
+      "one_pass_ideal_perfect_mirror_power_required_for_1g_w": 1469979854.1228502,
+      "one_pass_radiation_acceleration_if_incident_energy_eq_b7_capacity_m_s2": 0.0,
+      "one_pass_radiation_impulse_if_incident_energy_eq_b7_capacity_kg_m_s": 0.0,
+      "period_ms": 1.0,
+      "power_balance_residual": 7.549516567451064e-15
+    },
+    {
+      "carrier_hz": 3000.0,
+      "coupling_theta_control": 20.0,
+      "harmonic_results": [
+        {
+          "conservation_residual": 3.6637359812630166e-15,
+          "polarization_spread": 8.470329472543003e-21,
+          "reflectance": 5.50870535537348e-06,
+          "transmittance": 0.9999944912946411
+        },
+        {
+          "conservation_residual": 3.552713678800501e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 1.239450170096705e-05,
+          "transmittance": 0.9999876054982955
+        },
+        {
+          "conservation_residual": 8.326672684688674e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 2.2034457270878436e-05,
+          "transmittance": 0.9999779655427208
+        }
+      ],
+      "harmonics_hz": [
+        2000.0,
+        3000.0,
+        4000.0
+      ],
+      "mean_power_reflectance": 1.2853528238353352e-05,
+      "mean_power_transmittance": 0.9999871464717572,
+      "one_pass_1g_with_strictly_less_than_10mj_even_ideal_mirror_possible": true,
+      "one_pass_ideal_perfect_mirror_energy_required_for_1g_j": 1469979.85412285,
+      "one_pass_ideal_perfect_mirror_power_required_for_1g_w": 1469979854.1228502,
+      "one_pass_radiation_acceleration_if_incident_energy_eq_b7_capacity_m_s2": 1.3268058563900907e-10,
+      "one_pass_radiation_impulse_if_incident_energy_eq_b7_capacity_kg_m_s": 1.3268058563900908e-13,
+      "period_ms": 1.0,
+      "power_balance_residual": 8.326672684688674e-15
+    },
+    {
+      "carrier_hz": 3000.0,
+      "coupling_theta_control": 18987.283771593688,
+      "harmonic_results": [
+        {
+          "conservation_residual": 4.440892098500626e-16,
+          "polarization_spread": 6.661338147750939e-16,
+          "reflectance": 0.9999997739251174,
+          "transmittance": 2.260748826182516e-07
+        },
+        {
+          "conservation_residual": 2.220446049250313e-16,
+          "polarization_spread": 0.0,
+          "reflectance": 0.999999899516424,
+          "transmittance": 1.0048357627241307e-07
+        },
+        {
+          "conservation_residual": 2.220446049250313e-16,
+          "polarization_spread": 0.0,
+          "reflectance": 0.9999999434733882,
+          "transmittance": 5.6526612046751463e-08
+        }
+      ],
+      "harmonics_hz": [
+        2000.0,
+        3000.0,
+        4000.0
+      ],
+      "mean_power_reflectance": 0.9999998859107002,
+      "mean_power_transmittance": 1.1408929995910922e-07,
+      "one_pass_1g_with_strictly_less_than_10mj_even_ideal_mirror_possible": true,
+      "one_pass_ideal_perfect_mirror_energy_required_for_1g_j": 1469979.85412285,
+      "one_pass_ideal_perfect_mirror_power_required_for_1g_w": 1469979854.1228502,
+      "one_pass_radiation_acceleration_if_incident_energy_eq_b7_capacity_m_s2": 1.0322501965310306e-05,
+      "one_pass_radiation_impulse_if_incident_energy_eq_b7_capacity_kg_m_s": 1.0322501965310306e-08,
+      "period_ms": 1.0,
+      "power_balance_residual": 4.440892098500626e-16
+    },
+    {
+      "carrier_hz": 300.0,
+      "coupling_theta_control": 0.0,
+      "harmonic_results": [
+        {
+          "conservation_residual": 6.661338147750939e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 0.0,
+          "transmittance": 0.9999999999999933
+        },
+        {
+          "conservation_residual": 7.549516567451064e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 0.0,
+          "transmittance": 0.9999999999999925
+        },
+        {
+          "conservation_residual": 2.6645352591003757e-15,
+          "polarization_spread": 0.0,
+          "reflectance": 0.0,
+          "transmittance": 1.0000000000000027
+        }
+      ],
+      "harmonics_hz": [
+        200.0,
+        300.0,
+        400.0
+      ],
+      "mean_power_reflectance": 0.0,
+      "mean_power_transmittance": 0.9999999999999942,
+      "one_pass_1g_with_strictly_less_than_10mj_even_ideal_mirror_possible": false,
+      "one_pass_ideal_perfect_mirror_energy_required_for_1g_j": 14699798.5412285,
+      "one_pass_ideal_perfect_mirror_power_required_for_1g_w": 1469979854.12285,
+      "one_pass_radiation_acceleration_if_incident_energy_eq_b7_capacity_m_s2": 0.0,
+      "one_pass_radiation_impulse_if_incident_energy_eq_b7_capacity_kg_m_s": 0.0,
+      "period_ms": 10.0,
+      "power_balance_residual": 7.549516567451064e-15
+    },
+    {
+      "carrier_hz": 300.0,
+      "coupling_theta_control": 20.0,
+      "harmonic_results": [
+        {
+          "conservation_residual": 1.8318679906315083e-14,
+          "polarization_spread": 0.0,
+          "reflectance": 5.5087353984595974e-08,
+          "transmittance": 0.9999999449126279
+        },
+        {
+          "conservation_residual": 7.882583474838611e-15,
+          "polarization_spread": 5.293955920339377e-23,
+          "reflectance": 1.2394653793032843e-07,
+          "transmittance": 0.9999998760534545
+        },
+        {
+          "conservation_residual": 8.659739592076221e-15,
+          "polarization_spread": 7.940933880509066e-23,
+          "reflectance": 2.2034937952232986e-07,
+          "transmittance": 0.9999997796506119
+        }
+      ],
+      "harmonics_hz": [
+        200.0,
+        300.0,
+        400.0
+      ],
+      "mean_power_reflectance": 1.2853714753803992e-07,
+      "mean_power_transmittance": 0.9999998714628429,
+      "one_pass_1g_with_strictly_less_than_10mj_even_ideal_mirror_possible": false,
+      "one_pass_ideal_perfect_mirror_energy_required_for_1g_j": 14699798.5412285,
+      "one_pass_ideal_perfect_mirror_power_required_for_1g_w": 1469979854.12285,
+      "one_pass_radiation_acceleration_if_incident_energy_eq_b7_capacity_m_s2": 1.3268251094533454e-13,
+      "one_pass_radiation_impulse_if_incident_energy_eq_b7_capacity_kg_m_s": 1.3268251094533454e-15,
+      "period_ms": 10.0,
+      "power_balance_residual": 1.8318679906315083e-14
+    },
+    {
+      "carrier_hz": 300.0,
+      "coupling_theta_control": 18987.283771593688,
+      "harmonic_results": [
+        {
+          "conservation_residual": 1.1102230246251565e-16,
+          "polarization_spread": 0.0,
+          "reflectance": 0.9999773940579313,
+          "transmittance": 2.2605942068609284e-05
+        },
+        {
+          "conservation_residual": 2.220446049250313e-16,
+          "polarization_spread": 0.0,
+          "reflectance": 0.9999899527826172,
+          "transmittance": 1.0047217382634563e-05
+        },
+        {
+          "conservation_residual": 2.220446049250313e-16,
+          "polarization_spread": 0.0,
+          "reflectance": 0.999994348410783,
+          "transmittance": 5.651589217095762e-06
+        }
+      ],
+      "harmonics_hz": [
+        200.0,
+        300.0,
+        400.0
+      ],
+      "mean_power_reflectance": 0.9999885922665304,
+      "mean_power_transmittance": 1.1407733469373883e-05,
+      "one_pass_1g_with_strictly_less_than_10mj_even_ideal_mirror_possible": false,
+      "one_pass_ideal_perfect_mirror_energy_required_for_1g_j": 14699798.5412285,
+      "one_pass_ideal_perfect_mirror_power_required_for_1g_w": 1469979854.12285,
+      "one_pass_radiation_acceleration_if_incident_energy_eq_b7_capacity_m_s2": 1.0322385386632868e-06,
+      "one_pass_radiation_impulse_if_incident_energy_eq_b7_capacity_kg_m_s": 1.0322385386632867e-08,
+      "period_ms": 10.0,
+      "power_balance_residual": 2.220446049250313e-16
+    }
+  ],
+  "source_payload_light_travel_time_ns": 3.3356409519815204
+}

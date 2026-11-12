@@ -1,0 +1,436 @@
+{
+  "006d_replaced": false,
+  "branch": "032H17A12D1R3X3B15-M0",
+  "certified_sub10mj_device": false,
+  "decision": "3D_M_NONZERO_POSSIBLE_BUT_LOADED_3D_ACTION_BVP_REQUIRED",
+  "entries": {
+    "aligned_original": {
+      "central_difference_step_relative_delta": 1.0171053616831111e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": false,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 22.17958346262526,
+      "preloaded_mean_sample_az_m_s2": 14.377561289576398,
+      "preloaded_min_az_m_s2": 9.169824133885166,
+      "sigma_azimuthal_modulation_fraction": 2.5171176225144924e-16,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 1.0,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 1.0,
+          "electric_axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "relative_tilt_135deg": {
+      "central_difference_step_relative_delta": 1.1446620862672272e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": true,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 21.600984981009383,
+      "preloaded_mean_sample_az_m_s2": 9.560382235929714,
+      "preloaded_min_az_m_s2": 3.6956147140548388,
+      "sigma_azimuthal_modulation_fraction": 0.2527775658766463,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 1.0,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 1.0,
+          "electric_axis": [
+            0.7071067811865476,
+            0.0,
+            -0.7071067811865475
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            0.7071067811865476,
+            0.0,
+            -0.7071067811865475
+          ]
+        }
+      ]
+    },
+    "relative_tilt_180deg": {
+      "central_difference_step_relative_delta": 1.0169484382341073e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": false,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 22.179428755715065,
+      "preloaded_mean_sample_az_m_s2": 14.377410329510026,
+      "preloaded_min_az_m_s2": 9.16970958516795,
+      "sigma_azimuthal_modulation_fraction": 2.61525346169988e-16,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 1.0,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 1.0,
+          "electric_axis": [
+            1.2246467991473532e-16,
+            0.0,
+            -1.0
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            1.2246467991473532e-16,
+            0.0,
+            -1.0
+          ]
+        }
+      ]
+    },
+    "relative_tilt_30deg": {
+      "central_difference_step_relative_delta": 1.099314953372197e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": true,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 24.12799937216838,
+      "preloaded_mean_sample_az_m_s2": 11.965915756340324,
+      "preloaded_min_az_m_s2": 5.438604118050532,
+      "sigma_azimuthal_modulation_fraction": 0.17609100810094075,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 1.0,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 1.0,
+          "electric_axis": [
+            0.49999999999999994,
+            0.0,
+            0.8660254037844387
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            0.49999999999999994,
+            0.0,
+            0.8660254037844387
+          ]
+        }
+      ]
+    },
+    "relative_tilt_60deg": {
+      "central_difference_step_relative_delta": 1.1945844570361211e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": true,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 17.365567236944234,
+      "preloaded_mean_sample_az_m_s2": 7.157978830084362,
+      "preloaded_min_az_m_s2": 2.6760466669536447,
+      "sigma_azimuthal_modulation_fraction": 0.29523944217418935,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 1.0,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 1.0,
+          "electric_axis": [
+            0.8660254037844386,
+            0.0,
+            0.5000000000000001
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            0.8660254037844386,
+            0.0,
+            0.5000000000000001
+          ]
+        }
+      ]
+    },
+    "relative_tilt_90deg": {
+      "central_difference_step_relative_delta": 1.2564004636040231e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": true,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 8.540377649385768,
+      "preloaded_mean_sample_az_m_s2": 4.7596207483069115,
+      "preloaded_min_az_m_s2": 2.550924205329774,
+      "sigma_azimuthal_modulation_fraction": 0.09197343598620311,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 1.0,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 1.0,
+          "electric_axis": [
+            1.0,
+            0.0,
+            1.1102230246251565e-16
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            1.0,
+            0.0,
+            1.1102230246251565e-16
+          ]
+        }
+      ]
+    },
+    "sector_only_electric_90deg": {
+      "central_difference_step_relative_delta": 1.3088636496882011e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": true,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 6.381018866463358,
+      "preloaded_mean_sample_az_m_s2": -3.303796888151428e-05,
+      "preloaded_min_az_m_s2": -6.381151657803557,
+      "sigma_azimuthal_modulation_fraction": 0.999999999930584,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 1.0,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 1.0,
+          "electric_axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "two_sources_oblique": {
+      "central_difference_step_relative_delta": 1.0400916840104492e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": true,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 5.099504947550974,
+      "preloaded_mean_sample_az_m_s2": 2.7638304146148167,
+      "preloaded_min_az_m_s2": 0.3543351655970102,
+      "sigma_azimuthal_modulation_fraction": 0.27542776843510725,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 0.5,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 0.5,
+          "electric_axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "b_gain": 0.5,
+          "center_m": [
+            0.0,
+            0.0,
+            6.5
+          ],
+          "e_gain": 0.5,
+          "electric_axis": [
+            0.5773502691896258,
+            0.5773502691896258,
+            0.5773502691896258
+          ],
+          "exact_support_gap_m": 1.4018635733070557,
+          "magnetic_axis": [
+            0.5773502691896258,
+            0.5773502691896258,
+            0.5773502691896258
+          ]
+        }
+      ]
+    },
+    "two_sources_opposed": {
+      "central_difference_step_relative_delta": 1.1464131334109514e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": false,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 4.148680655699782,
+      "preloaded_mean_sample_az_m_s2": 1.901005079288848,
+      "preloaded_min_az_m_s2": 0.0871622283730575,
+      "sigma_azimuthal_modulation_fraction": 3.0470880414901555e-16,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 0.5,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 0.5,
+          "electric_axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "b_gain": 0.5,
+          "center_m": [
+            0.0,
+            0.0,
+            6.5
+          ],
+          "e_gain": 0.5,
+          "electric_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "exact_support_gap_m": 1.4018635733070557,
+          "magnetic_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        }
+      ]
+    },
+    "two_sources_perpendicular": {
+      "central_difference_step_relative_delta": 1.0197676874767916e-05,
+      "full_field_energy_j": null,
+      "fully_loaded_3d_solved": false,
+      "nonaxisymmetric_source_relative_to_torus": true,
+      "preloaded_every_sample_1g": false,
+      "preloaded_max_az_m_s2": 5.303171555740138,
+      "preloaded_mean_sample_az_m_s2": 3.0890810677260854,
+      "preloaded_min_az_m_s2": 1.3405417161445219,
+      "sigma_azimuthal_modulation_fraction": 0.41980003237024727,
+      "source_reaction_certified": false,
+      "source_support": [
+        {
+          "b_gain": 0.5,
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "e_gain": 0.5,
+          "electric_axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "exact_support_gap_m": 1.0,
+          "magnetic_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "b_gain": 0.5,
+          "center_m": [
+            0.0,
+            0.0,
+            6.5
+          ],
+          "e_gain": 0.5,
+          "electric_axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "exact_support_gap_m": 1.4018635733070557,
+          "magnetic_axis": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  },
+  "full_microscopic_action_established": false,
+  "global_rigid_rotation_control": "EXACT_SYMMETRY_NO_GAIN",
+  "joint_sign_flip_control": "E_DOT_B_UNCHANGED_EXACT",
+  "loaded_1g_established": false,
+  "model": "vacuum_exterior_3d_preloaded_orientation_ONLY",
+  "proper_rotation_covariance": {
+    "pass": true,
+    "scalar_relative_error": 1.9153220391211397e-15,
+    "vector_relative_error": 6.79379698422696e-16
+  },
+  "sample_shape": [
+    6,
+    24,
+    48,
+    3
+  ],
+  "single_sector_sign_flip_control": "E_DOT_B_SIGN_REVERSES_EXACT",
+  "source_data_provenance": {
+    "R3B_original_axisymmetric_canonical_preloaded_energy_j": 1.4667459954338413,
+    "R3B_original_axisymmetric_preloaded_min_az_m_s2": 9.80665,
+    "R3B_original_unscaled_min_az_m_s2": 9.883757145842191,
+    "fit_rms_error": 0.011286964873207505,
+    "fitted_exterior_magnetic_energy_relative_error": 0.00327447743013505,
+    "h_m": 0.075,
+    "kind": "actual_original_R3B_reconstruction",
+    "note": "3D exterior uses the fitted multipoles for both sectors; original 2D R3B retains an independently solved magnetic field and its complete preloaded interior/exterior energy"
+  },
+  "toroidal_payload_center_z_m": 3.039736830714133
+}

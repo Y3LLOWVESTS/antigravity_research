@@ -1,0 +1,1278 @@
+{
+  "006D_replaced": false,
+  "B7_exact_exterior_solution_preserved_numerically": false,
+  "all_tested_discrete_local_independent_upper_bounds_exclude_1g": true,
+  "all_tested_rank_one_witnesses_fail_1g": true,
+  "anchor": {
+    "magnetic_current_amplitude": 4404746.47154563,
+    "magnetic_current_fit_relative_error": 0.17779740398435295,
+    "original_exterior_relative_error": 1.9121882766279705e-16
+  },
+  "arbitrary_3d_angles_tested": false,
+  "branch": "032H17A12D1R3X3B13",
+  "direct_sparse_verification_every_grid_requested": false,
+  "electric_shell_width_m": 0.2,
+  "electric_source_from_B7_inspired_finite_layer_discrete_Poisson": true,
+  "family": "FIXED_MORPHOLOGY_COMPACT_EXTERNAL_SOURCE_BASIS",
+  "field_energy_not_complete_operating_energy": true,
+  "field_redefinition_invariance_certified": false,
+  "finite_box_boundary_audit_completed": false,
+  "finite_electric_source_layer_used": true,
+  "fixed_azimuthal_magnetic_source_amplitude": 4404746.47154563,
+  "fixed_mass_material_stability_EOS_certified": false,
+  "fixed_multipole_amplitudes_from_0p05_grid": [
+    209940.27146374714,
+    -0.0008835233080070974,
+    61.87623349552938,
+    -0.001056713545965028,
+    60.26869099995102,
+    -0.0013038323959925415,
+    14.51614139681237,
+    -0.0018547852307190533,
+    -10.572907328715138,
+    -0.0031671089705374226,
+    12.4642679137117,
+    -0.004837141101702669
+  ],
+  "full_action_noether_energy_momentum_certified": false,
+  "full_regression_1283_rerun": false,
+  "grids": [
+    {
+      "basis_residuals": [
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+0.0_E_multipole_l1",
+          "relative_loaded_residual": 1.4904056377107583e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+0.0_E_multipole_l2",
+          "relative_loaded_residual": 1.6200511449461123e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+0.0_E_multipole_l3",
+          "relative_loaded_residual": 1.5473842881272189e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+0.0_E_multipole_l4",
+          "relative_loaded_residual": 9.051536335367747e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+0.0_E_multipole_l5",
+          "relative_loaded_residual": 6.667628855233454e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+0.0_B_original",
+          "relative_loaded_residual": 8.564959568665343e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+0.0_B_annular",
+          "relative_loaded_residual": 6.909318195096738e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+0.0_B_odd_z",
+          "relative_loaded_residual": 9.146077419330262e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z-4.2_E_multipole_l1",
+          "relative_loaded_residual": 2.6600951183001586e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z-4.2_E_multipole_l2",
+          "relative_loaded_residual": 2.132805638078226e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z-4.2_E_multipole_l3",
+          "relative_loaded_residual": 2.7509316848301914e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z-4.2_E_multipole_l4",
+          "relative_loaded_residual": 1.5742877703257546e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z-4.2_E_multipole_l5",
+          "relative_loaded_residual": 2.29235591991972e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z-4.2_B_original",
+          "relative_loaded_residual": 7.530690345628805e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z-4.2_B_annular",
+          "relative_loaded_residual": 6.6767947021708765e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z-4.2_B_odd_z",
+          "relative_loaded_residual": 7.218512766619909e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+6.5_E_multipole_l1",
+          "relative_loaded_residual": 1.8256329948862667e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+6.5_E_multipole_l2",
+          "relative_loaded_residual": 1.4854985730491886e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+6.5_E_multipole_l3",
+          "relative_loaded_residual": 1.256357502149679e-15
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+6.5_E_multipole_l4",
+          "relative_loaded_residual": 9.169724034046435e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+6.5_E_multipole_l5",
+          "relative_loaded_residual": 5.583261908852536e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+6.5_B_original",
+          "relative_loaded_residual": 9.421408465869767e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+6.5_B_annular",
+          "relative_loaded_residual": 9.07798492418468e-16
+        },
+        {
+          "condition_number": 15144.269562592075,
+          "name": "z+6.5_B_odd_z",
+          "relative_loaded_residual": 8.509531737328351e-16
+        }
+      ],
+      "budgets": [
+        {
+          "best_rank_one_witness": {
+            "coefficients": [
+              -0.310137023570712,
+              0.5017972230752223,
+              0.3723560767459146,
+              0.2591100351588897,
+              -0.04947981193194192,
+              0.6155499988068306,
+              -1.6908418114187593,
+              1.678052628509391,
+              -0.3616544049571181,
+              -0.14312589403251536,
+              -0.0795211640118813,
+              -0.0538075533291226,
+              -0.03489066950701955,
+              0.02313728674454657,
+              -0.1210506664602365,
+              -0.010633836880538376,
+              0.1272829452728445,
+              0.3577761321050129,
+              -0.37245152439723683,
+              0.2362764164751996,
+              -0.0942234677625691,
+              0.4334617841118992,
+              -0.38007244717789235,
+              -2.459532656722031
+            ],
+            "com_loaded_m_s2": 0.16192564650724484,
+            "com_preloaded_m_s2": 13.194544041839098,
+            "energy_eigenvalues": [
+              0.00915013060073338,
+              0.009231271862636845,
+              0.009315671634093203,
+              0.04577354912913318,
+              0.046920014669218996,
+              0.04799375635428261,
+              0.5195888718227574,
+              0.8302157077623967,
+              0.9389760895411267,
+              0.9518970327680342,
+              0.9604237223490871,
+              0.9986466909878453,
+              1.0164089564656589,
+              1.0267713696605962,
+              1.0542003719874529,
+              1.05717298714625,
+              1.0646860103105773,
+              1.0790896280719355,
+              1.1041376682399848,
+              1.1290103011595345,
+              1.4000376561558616,
+              1.4526117795617766,
+              1.5082339731796621,
+              1.5206059001606425
+            ],
+            "energy_j": 1.547304296069096,
+            "loaded_1g_everywhere": false,
+            "local_starts_attempted": 6,
+            "min_loaded_m_s2": -0.11795412279162074,
+            "min_preloaded_m_s2": 9.80665000000662,
+            "optimizer": "rank_one_multistart_SLSQP_nonconvex",
+            "preloaded_1g": true,
+            "successful_feasible_local_starts": 6
+          },
+          "cap_j": 1.5473042949759672,
+          "upper_bound": {
+            "bottleneck_payload_index": 10,
+            "bottleneck_rho_m": 0.8999999999999999,
+            "bottleneck_z_m": 3.0499999999998764,
+            "single_point_energy_eigen_min": 0.00915013060073338,
+            "status": "valid_local_independent_upper_bound",
+            "upper_bound_everywhere_m_s2": 0.019575252728591046
+          }
+        },
+        {
+          "best_rank_one_witness": {
+            "coefficients": [
+              -0.09574768278483374,
+              -0.33647743501118993,
+              0.31456622530062983,
+              -0.5259887066336937,
+              -0.6003728940164876,
+              0.026146657547422337,
+              3.4907765408164937,
+              -8.029147930475007,
+              -0.13238692102067146,
+              0.002847272081233842,
+              0.10434211789775745,
+              0.13224595268033915,
+              0.07101905360564939,
+              0.2449255864213046,
+              0.6229529021987289,
+              1.716419578332471,
+              -1.2624990705500592,
+              -0.09794789396735129,
+              1.235636869223179,
+              -1.9207000217792285,
+              1.9899488856954932,
+              -0.04379113167815404,
+              2.2260587573134205,
+              5.580827028719784
+            ],
+            "com_loaded_m_s2": 0.3337457017787182,
+            "com_preloaded_m_s2": 12.569552587069303,
+            "energy_eigenvalues": [
+              0.00915013060073338,
+              0.009231271862636845,
+              0.009315671634093203,
+              0.04577354912913318,
+              0.046920014669218996,
+              0.04799375635428261,
+              0.5195888718227574,
+              0.8302157077623967,
+              0.9389760895411267,
+              0.9518970327680342,
+              0.9604237223490871,
+              0.9986466909878453,
+              1.0164089564656589,
+              1.0267713696605962,
+              1.0542003719874529,
+              1.05717298714625,
+              1.0646860103105773,
+              1.0790896280719355,
+              1.1041376682399848,
+              1.1290103011595345,
+              1.4000376561558616,
+              1.4526117795617766,
+              1.5082339731796621,
+              1.5206059001606425
+            ],
+            "energy_j": 20.000000001884715,
+            "loaded_1g_everywhere": false,
+            "local_starts_attempted": 6,
+            "min_loaded_m_s2": -0.00043322397199855537,
+            "min_preloaded_m_s2": 9.80664999784321,
+            "optimizer": "rank_one_multistart_SLSQP_nonconvex",
+            "preloaded_1g": true,
+            "successful_feasible_local_starts": 3
+          },
+          "cap_j": 20.0,
+          "upper_bound": {
+            "bottleneck_payload_index": 10,
+            "bottleneck_rho_m": 0.8999999999999999,
+            "bottleneck_z_m": 3.0499999999998764,
+            "single_point_energy_eigen_min": 0.00915013060073338,
+            "status": "valid_local_independent_upper_bound",
+            "upper_bound_everywhere_m_s2": 0.2530239564661079
+          }
+        }
+      ],
+      "chosen_unit_pair_loaded_COM_m_s2": 0.09724640493856512,
+      "chosen_unit_pair_loaded_energy_j": 2.2462487921227066,
+      "chosen_unit_pair_preloaded_energy_j": 2.317418686250431,
+      "chosen_unit_pair_preloaded_min_m_s2": 21.872983393890358,
+      "elapsed_s": 3.812,
+      "grid_m": 0.075,
+      "independent_full_sparse_witness_comparison": {
+        "status": "skipped_default_only_h0p05_verified"
+      },
+      "mass_kg": 0.9985989800446797,
+      "r3b_original_preloaded_min": 9.806650000000014,
+      "source_labels": [
+        "z+0.0_E_multipole_l1",
+        "z+0.0_E_multipole_l2",
+        "z+0.0_E_multipole_l3",
+        "z+0.0_E_multipole_l4",
+        "z+0.0_E_multipole_l5",
+        "z+0.0_B_original",
+        "z+0.0_B_annular",
+        "z+0.0_B_odd_z",
+        "z-4.2_E_multipole_l1",
+        "z-4.2_E_multipole_l2",
+        "z-4.2_E_multipole_l3",
+        "z-4.2_E_multipole_l4",
+        "z-4.2_E_multipole_l5",
+        "z-4.2_B_original",
+        "z-4.2_B_annular",
+        "z-4.2_B_odd_z",
+        "z+6.5_E_multipole_l1",
+        "z+6.5_E_multipole_l2",
+        "z+6.5_E_multipole_l3",
+        "z+6.5_E_multipole_l4",
+        "z+6.5_E_multipole_l5",
+        "z+6.5_B_original",
+        "z+6.5_B_annular",
+        "z+6.5_B_odd_z"
+      ],
+      "source_support": [
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.013127932093702508,
+          "name": "multipole_l1",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 2.5891280425475785e-17,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.002246892800253383,
+          "name": "multipole_l2",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 1.9888969558312485e-17,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.0034899843130317986,
+          "name": "multipole_l3",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 1.6961174088358624e-17,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.007610835462497139,
+          "name": "multipole_l4",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 2.2107805133299316e-17,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.011291002686576717,
+          "name": "multipole_l5",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 1.351287806320422e-17,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 0.0,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.0,
+          "morphology": "original",
+          "name": "original",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 0.0,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.0,
+          "morphology": "annular",
+          "name": "annular",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 0.0,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.0,
+          "morphology": "odd_z",
+          "name": "odd_z",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.013127932094211193,
+          "name": "multipole_l1",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 1.0356512170190355e-16,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.0022468928002562076,
+          "name": "multipole_l2",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 3.9777939116624977e-17,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.0034899843130330563,
+          "name": "multipole_l3",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 1.6961174088358556e-17,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.0076108354624970075,
+          "name": "multipole_l4",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 7.369268377766482e-18,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.011291002686575898,
+          "name": "multipole_l5",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 0.0,
+          "resolved_layer_grid_cells": 294,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": -4.2,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 5.108473806342793,
+          "morphology": "original",
+          "name": "original",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": -4.2,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 5.108473806342793,
+          "morphology": "annular",
+          "name": "annular",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": -4.2,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 5.108473806342793,
+          "morphology": "odd_z",
+          "name": "odd_z",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 1.9727219099241418e-12,
+          "name": "multipole_l1",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 5.0931296566858805e-17,
+          "resolved_layer_grid_cells": 290,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 0.007266835901034879,
+          "name": "multipole_l2",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 0.0,
+          "resolved_layer_grid_cells": 290,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 2.488615607737786e-15,
+          "name": "multipole_l3",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 8.407485161276305e-18,
+          "resolved_layer_grid_cells": 290,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 0.016398418916383297,
+          "name": "multipole_l4",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 7.298173556373227e-17,
+          "resolved_layer_grid_cells": 290,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 1.727993184661706e-14,
+          "name": "multipole_l5",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 3.338472149655537e-17,
+          "resolved_layer_grid_cells": 290,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 6.5,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.4018635733070557,
+          "morphology": "original",
+          "name": "original",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 6.5,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.4018635733070557,
+          "morphology": "annular",
+          "name": "annular",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 6.5,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.4018635733070557,
+          "morphology": "odd_z",
+          "name": "odd_z",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        }
+      ]
+    },
+    {
+      "basis_residuals": [
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+0.0_E_multipole_l1",
+          "relative_loaded_residual": 3.589922602695032e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+0.0_E_multipole_l2",
+          "relative_loaded_residual": 3.087484268382369e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+0.0_E_multipole_l3",
+          "relative_loaded_residual": 2.6912177720553566e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+0.0_E_multipole_l4",
+          "relative_loaded_residual": 1.7341619313898465e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+0.0_E_multipole_l5",
+          "relative_loaded_residual": 1.3353891474814538e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+0.0_B_original",
+          "relative_loaded_residual": 9.379620269827056e-16
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+0.0_B_annular",
+          "relative_loaded_residual": 1.1452227615959005e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+0.0_B_odd_z",
+          "relative_loaded_residual": 1.1113322496096715e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z-4.2_E_multipole_l1",
+          "relative_loaded_residual": 6.051774641303225e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z-4.2_E_multipole_l2",
+          "relative_loaded_residual": 4.576343038822269e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z-4.2_E_multipole_l3",
+          "relative_loaded_residual": 3.929806309580437e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z-4.2_E_multipole_l4",
+          "relative_loaded_residual": 3.7171168950914855e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z-4.2_E_multipole_l5",
+          "relative_loaded_residual": 6.147857230075485e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z-4.2_B_original",
+          "relative_loaded_residual": 9.946277480844347e-16
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z-4.2_B_annular",
+          "relative_loaded_residual": 1.084072730586e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z-4.2_B_odd_z",
+          "relative_loaded_residual": 8.126395548318165e-16
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+6.5_E_multipole_l1",
+          "relative_loaded_residual": 3.3433794650421023e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+6.5_E_multipole_l2",
+          "relative_loaded_residual": 2.5403157173575714e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+6.5_E_multipole_l3",
+          "relative_loaded_residual": 1.732199231502336e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+6.5_E_multipole_l4",
+          "relative_loaded_residual": 1.5312404628504173e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+6.5_E_multipole_l5",
+          "relative_loaded_residual": 1.2984643965062157e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+6.5_B_original",
+          "relative_loaded_residual": 1.3251176725624318e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+6.5_B_annular",
+          "relative_loaded_residual": 1.2928965552683926e-15
+        },
+        {
+          "condition_number": 21334.72452315784,
+          "name": "z+6.5_B_odd_z",
+          "relative_loaded_residual": 1.116302138600418e-15
+        }
+      ],
+      "budgets": [
+        {
+          "best_rank_one_witness": {
+            "coefficients": [
+              0.29764418356518857,
+              -0.47102970752239126,
+              -0.31993698238216994,
+              -0.2060381331223445,
+              0.08182269837225661,
+              -0.316126059897218,
+              0.4655811053396985,
+              -1.486843182159764,
+              0.35106770139983445,
+              0.14003842842958458,
+              0.07723944505446444,
+              0.04597375702584704,
+              0.032822929459958745,
+              -0.00639456073217267,
+              0.024121256364024554,
+              -0.01115661082643686,
+              -0.127249257464663,
+              -0.3586508516403579,
+              0.36487938132052544,
+              -0.2264218647955391,
+              0.08859252033393337,
+              -0.19426190136861213,
+              -0.7419576657663071,
+              2.515829954219746
+            ],
+            "com_loaded_m_s2": 0.04785511803805949,
+            "com_preloaded_m_s2": 13.872321775514527,
+            "energy_eigenvalues": [
+              0.009181351802700428,
+              0.009262560160444156,
+              0.009347131508858702,
+              0.04584429760367142,
+              0.046989589720510545,
+              0.04806586705851796,
+              0.5327476330726227,
+              0.8855194024775855,
+              0.9282805876446907,
+              0.9534744014379865,
+              0.97143414900414,
+              0.9855323380631381,
+              1.0223600548036165,
+              1.0410688039034597,
+              1.0458088628046607,
+              1.0575074256920607,
+              1.069606500837882,
+              1.083743390311752,
+              1.0844413447281591,
+              1.174686985080371,
+              1.4011909204692226,
+              1.453729554159122,
+              1.500716414647973,
+              1.5094483209194933
+            ],
+            "energy_j": 1.547304297933676,
+            "loaded_1g_everywhere": false,
+            "local_starts_attempted": 6,
+            "min_loaded_m_s2": -0.11689479977199238,
+            "min_preloaded_m_s2": 9.806649999062136,
+            "optimizer": "rank_one_multistart_SLSQP_nonconvex",
+            "preloaded_1g": true,
+            "successful_feasible_local_starts": 6
+          },
+          "cap_j": 1.5473042949759672,
+          "upper_bound": {
+            "bottleneck_payload_index": 28,
+            "bottleneck_rho_m": 1.1500000000000001,
+            "bottleneck_z_m": 3.0500000000001855,
+            "single_point_energy_eigen_min": 0.009181351802700428,
+            "status": "valid_local_independent_upper_bound",
+            "upper_bound_everywhere_m_s2": 0.0009385850080846726
+          }
+        },
+        {
+          "best_rank_one_witness": {
+            "coefficients": [
+              -1.3590706042866754,
+              1.3936737762796825,
+              1.019577469922882,
+              0.46907834363563855,
+              -0.9324610968099635,
+              -3.0537423709400944,
+              11.949714646574147,
+              -2.276789151264523,
+              -1.1206734023768614,
+              -0.5347334783907707,
+              -0.31452281459400294,
+              -0.19129504380796167,
+              -0.14058323783054863,
+              -0.009140863947739717,
+              0.31776354965521014,
+              0.08802026187361268,
+              -1.3859089481830107,
+              -0.343446983079181,
+              1.5108891529161206,
+              -1.79208641955059,
+              1.4290101934097286,
+              3.036508261660583,
+              -11.476039436577436,
+              -1.5113808212592592
+            ],
+            "com_loaded_m_s2": 0.15514519087776946,
+            "com_preloaded_m_s2": 12.00155830623546,
+            "energy_eigenvalues": [
+              0.009181351802700428,
+              0.009262560160444156,
+              0.009347131508858702,
+              0.04584429760367142,
+              0.046989589720510545,
+              0.04806586705851796,
+              0.5327476330726227,
+              0.8855194024775855,
+              0.9282805876446907,
+              0.9534744014379865,
+              0.97143414900414,
+              0.9855323380631381,
+              1.0223600548036165,
+              1.0410688039034597,
+              1.0458088628046607,
+              1.0575074256920607,
+              1.069606500837882,
+              1.083743390311752,
+              1.0844413447281591,
+              1.174686985080371,
+              1.4011909204692226,
+              1.453729554159122,
+              1.500716414647973,
+              1.5094483209194933
+            ],
+            "energy_j": 20.000000000020307,
+            "loaded_1g_everywhere": false,
+            "local_starts_attempted": 6,
+            "min_loaded_m_s2": -0.014934087818976656,
+            "min_preloaded_m_s2": 9.806649999999928,
+            "optimizer": "rank_one_multistart_SLSQP_nonconvex",
+            "preloaded_1g": true,
+            "successful_feasible_local_starts": 3
+          },
+          "cap_j": 20.0,
+          "upper_bound": {
+            "bottleneck_payload_index": 28,
+            "bottleneck_rho_m": 1.1500000000000001,
+            "bottleneck_z_m": 3.0500000000001855,
+            "single_point_energy_eigen_min": 0.009181351802700428,
+            "status": "valid_local_independent_upper_bound",
+            "upper_bound_everywhere_m_s2": 0.012131873622172693
+          }
+        }
+      ],
+      "chosen_unit_pair_loaded_COM_m_s2": 0.6746439584955214,
+      "chosen_unit_pair_loaded_energy_j": 2.28651448949876,
+      "chosen_unit_pair_preloaded_energy_j": 2.3565549197183957,
+      "chosen_unit_pair_preloaded_min_m_s2": 20.822203194926654,
+      "elapsed_s": 12.51,
+      "grid_m": 0.05,
+      "independent_full_sparse_witness_comparison": {
+        "direct_relative_residual": 2.627425320022662e-15,
+        "field_energy_relative_difference": 3.1570915397018314e-15,
+        "lambda": 1.0,
+        "minimum_acceleration_absolute_difference_m_s2": 7.080915020996059e-11,
+        "pass": true,
+        "theta_sign": 1.0,
+        "vector_relative_difference": 4.799377961620666e-13
+      },
+      "mass_kg": 1.0027651395907218,
+      "r3b_original_preloaded_min": 9.80664999999999,
+      "source_labels": [
+        "z+0.0_E_multipole_l1",
+        "z+0.0_E_multipole_l2",
+        "z+0.0_E_multipole_l3",
+        "z+0.0_E_multipole_l4",
+        "z+0.0_E_multipole_l5",
+        "z+0.0_B_original",
+        "z+0.0_B_annular",
+        "z+0.0_B_odd_z",
+        "z-4.2_E_multipole_l1",
+        "z-4.2_E_multipole_l2",
+        "z-4.2_E_multipole_l3",
+        "z-4.2_E_multipole_l4",
+        "z-4.2_E_multipole_l5",
+        "z-4.2_B_original",
+        "z-4.2_B_annular",
+        "z-4.2_B_odd_z",
+        "z+6.5_E_multipole_l1",
+        "z+6.5_E_multipole_l2",
+        "z+6.5_E_multipole_l3",
+        "z+6.5_E_multipole_l4",
+        "z+6.5_E_multipole_l5",
+        "z+6.5_B_original",
+        "z+6.5_B_annular",
+        "z+6.5_B_odd_z"
+      ],
+      "source_support": [
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.0031838116800066625,
+          "name": "multipole_l1",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 2.5235840672704044e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.015672757146127057,
+          "name": "multipole_l2",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 1.9840278092740512e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.0012251864106799534,
+          "name": "multipole_l3",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 4.9943277214610745e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.019420218867620763,
+          "name": "multipole_l4",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 0.0,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 0.0,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.0,
+          "monopole_correction_fraction": 0.0023113252811834575,
+          "name": "multipole_l5",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 1.3253899495986403e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 0.0,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.0,
+          "morphology": "original",
+          "name": "original",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 0.0,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.0,
+          "morphology": "annular",
+          "name": "annular",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 0.0,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.0,
+          "morphology": "odd_z",
+          "name": "odd_z",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.0031838116807464,
+          "name": "multipole_l1",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 5.0471681345408076e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.015672757146127807,
+          "name": "multipole_l2",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 3.9680556185481005e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.001225186410679639,
+          "name": "multipole_l3",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 0.0,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.01942021886762159,
+          "name": "multipole_l4",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 2.2059129857504672e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": -4.2,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 5.108473806342793,
+          "monopole_correction_fraction": 0.002311325281189116,
+          "name": "multipole_l5",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 1.3253899495986437e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": -4.2,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 5.108473806342793,
+          "morphology": "original",
+          "name": "original",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": -4.2,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 5.108473806342793,
+          "morphology": "annular",
+          "name": "annular",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": -4.2,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 5.108473806342793,
+          "morphology": "odd_z",
+          "name": "odd_z",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 0.003183811678858357,
+          "name": "multipole_l1",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 0.0,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 0.015672757146126027,
+          "name": "multipole_l2",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 1.984027809274054e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 0.0012251864106805669,
+          "name": "multipole_l3",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 0.0,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 0.019420218867619497,
+          "name": "multipole_l4",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 2.941217314333962e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "center_z_m": 6.5,
+          "electric_shell_width_m": 0.2,
+          "gap_m": 1.4018635733070557,
+          "monopole_correction_fraction": 0.0023113252811746234,
+          "name": "multipole_l5",
+          "net_charge_zero_discrete": true,
+          "relative_monopole_residual": 2.650779899197273e-17,
+          "resolved_layer_grid_cells": 597,
+          "sector": "electric",
+          "source_subcell_gauss_order": 3,
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 6.5,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.4018635733070557,
+          "morphology": "original",
+          "name": "original",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 6.5,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.4018635733070557,
+          "morphology": "annular",
+          "name": "annular",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        },
+        {
+          "axisymmetric_azimuthal_current_divergence_exact": true,
+          "center_z_m": 6.5,
+          "current_support_within_radius_m": 2.0,
+          "gap_m": 1.4018635733070557,
+          "morphology": "odd_z",
+          "name": "odd_z",
+          "sector": "magnetic",
+          "support_radius_m": 2.0
+        }
+      ]
+    }
+  ],
+  "material_morphology_cross_grid_checked": false,
+  "matter_cross_grid": [],
+  "microscopic_sources_realized": false,
+  "multistart_local_optimizations": 12,
+  "net_electric_source_monopole_zero_discretely": true,
+  "numpy_version": "2.5.4",
+  "optimization_theorem_first_stopped_when_upper_bound_below_1g": true,
+  "physical_magnetic_current_microscopic_cost_certified": false,
+  "platform": "macOS-15.7.7-x86_64-i386-64bit-Mach-O",
+  "python_version": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "random_initializations": 160,
+  "random_seed": 17,
+  "requested_caps_j": [
+    1.5473042949759672,
+    20.0
+  ],
+  "scipy_version": "1.18.1",
+  "source_centers_m": [
+    0.0,
+    -4.2,
+    6.5
+  ],
+  "source_family": "expanded",
+  "source_snapshot_sha256": {
+    "hook17_fdual_f_r3c1_validation.py": "a26bb91bcfe8d9b7af036bc46aa3554b8d0fe2b621e34f32676059677d23f4e2",
+    "hook17_fdual_f_r3x1_lorentzian_sign_audit.py": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+    "hook17_fdual_f_r3x3b7_finite_charge_shell.py": "64feca0de76a7eb3e63d0ae4056bbb6fbecf807d22dd127058975d298afbcff8"
+  },
+  "stability_uv_empirical_certified": false,
+  "this_simulation_source_sha256": "4c76ec3c215d74fc6e91d0b36ba37315ace2cc9eb98ad46425d0fdaa4a7747f1",
+  "whole_craft_lift_certified": false
+}

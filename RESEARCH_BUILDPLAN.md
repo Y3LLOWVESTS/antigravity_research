@@ -1,3 +1,1009 @@
+# ANTIGRAVITY_RESEARCH — Research Buildplan
+
+**Updated:** November 11, 2026 — craft-mounted, Earth-directed scientific-strategy revision  
+**Document role:** Authoritative *forward-looking* scientific research strategy, mechanism falsification, executable priorities, numerical validation, promotion requirements, and engineering-physics roadmap  
+**Primary program:** `032H17 — HOOK17` within `032 — AGMINER`  
+**Primary flagship:** `032H17A12D1R3B` — **1.5429162116460216 J** canonical *preloaded* field energy; **not device energy**  
+**Preferred finite-width electric-source control:** `032H17A12D1R3X3B7` — **1.5473042949759672 J** preloaded 10-cm-layer result  
+**Latest completed scientific branch:** `032H17A12D1R3X3B16` — frozen-density weak-loading physical-mass scan (three grids)  
+**New next branch:** **`032H17A12D1R3X3B17` — Onboard Craft, Exterior Transmission, Earth/Atmosphere Loading and Ground-Coupled Reaction Preflight** — **PROPOSED; NOT RUN**  
+**Co-primary next fundamental-physics branch:** `032H17A12D1R3X3B11-M6` — truly source-driven two-carrier dynamics and complete finite-impulse accounting — **OPEN; NOT RUN**  
+**Conservative GR comparator:** `006D`, `C = 23.591586299249` (not replaced)  
+**Last recorded full regression:** **1,283 passed** (historical; must be rerun after B15–B16 integration)  
+**Physical antigravity model:** **NOT ESTABLISHED**  
+**Complete conservative operating-energy certification strictly below 10 MJ:** **NOT ESTABLISHED**
+
+> **PRIMARY USER-DIRECTED MISSION CHANGE:** The candidate antigravity generator and its entire source apparatus must be **inside a spacecraft**, not a stationary ground unit. The spacecraft directs a physically generated influence **down toward Earth or its near-surface matter**. The desired outcome is to reduce Earth's downward gravitational effect on the craft, impart downward force/momentum to Earth and receive an upward reaction, or otherwise create demonstrable **net upward force on the whole craft** within one complete action; auxiliary propulsion is permitted and must be accounted for. Simulate **ground-contact launch, auxiliary-assisted release, already suspended operation, hover and climb** as distinct regimes. The classical 1 kg torus above a source is retained only as an independent **physics control**, not the final source/payload layout.
+
+> **STATUS LIMIT:** The 1.5429162116460216-J R3B figure is reduced-model **preloaded field capacity**, not a complete physically sourced field, an Earth-directed interaction, gravitational screening, whole-craft lift, or an operational energy figure. No B17 or M6 experiment is presently completed. The historic negative loaded-response results and all prior closures still apply to their stated models. **006D is not replaced; HOOK17 remains open.**
+
+> **ARCHIVE AND AUTHORITY RULE:** Everything above the explicit **ARCHIVED 2026-11-10 FULL BUILDPLAN** divider in this file is the new authoritative strategy. The entire prior 5,556-line buildplan is preserved beneath that divider, including its nested September 14 and November 9 archives, **for historical provenance only**. Its old statements such as “B10 latest” and “B11 next” are no longer current instructions. No historical numerical results, source hashes or signed corrections have been silently changed.
+
+---
+
+# PART I — CURRENT AUTHORITATIVE STRATEGY: CRAFT → EARTH → WHOLE-CRAFT LIFT
+
+## 0. One-screen directive: how the next research session must behave
+
+1. **Preserve R3B**: 1.5429162116460216 J remains the frozen global preloaded canonical field-capacity anchor. Reproduce it and retain its caveats rather than optimizing it lower.
+2. **Preserve B7**: 1.5473042949759672 J is the finite 10-cm *mathematical electric* source control, not proof of a complete charge/current apparatus.
+3. **Preserve failed loaded controls**: 1 kg and 100 g original mirror solutions show severe destructive density-interface response. A source confined aboard a craft does not magically erase that response.
+4. **Adopt complete craft geometry**: generator, both carrier sectors, microscopic or effective sources, support, shielding, vacuum housing, onboard matter, auxiliary drive and power are on the same craft. Earth is an external body below it.
+5. **Derive the actual exterior channel first**: check whether carrier confinement, vacuum chamber and chosen physical metric permit a nonzero interaction outside the hull. Do not invent an emitted metric field unsupported by the action.
+6. **Compute force on the entire craft**: include field momentum and all internal reactions. A positive force on one onboard part is not vehicle thrust.
+7. **Prove the Earth sign**: if the craft repels Earth, Earth receives a downward response and the craft must receive the appropriate upward reaction. Strong *attraction* of Earth toward the craft has the wrong reaction sign for launch.
+8. **Study ground and suspension separately**: first the physically fit ground-contact geometry, then air/ground height scans, hover and climb, including auxiliary-force reductions.
+9. **Run B17's cheap analytical/counterfactual tests before expensive BVP**; keep the B11-M6 causal dynamic action/response work in the main physics queue.
+10. **Use common baseline controls** from B6/R3B/B7/R3X1/B4/B14/B15/B16 for cross-branch comparison; do not re-run closed work without a new mechanism.
+11. **Preserve exact same-action Ward/gauge/Bianchi/Noether identities**, canonical modes, boundary conditions, support, material backreaction, radiation, and physical metric.
+12. **Conserve momentum and energy** including Earth, atmosphere, field, radiation, structural support, ground contact and auxiliary propulsion. Do not hide a missing reaction in a boundary condition.
+13. **Require numerical convergence** of integrated whole-craft force and Earth-reaction observables. A local 42g spike is not propulsion.
+14. **Use theorem-first, multi-hypothesis preflights**: one shared calculation may distinguish several hypotheses, but no uncontrolled optimizer that blurs causes or source validity.
+15. **Maintain complete-energy policy**: strictly `<10,000,000 J` for a precisely defined, conservative operation; exactly 10 MJ fails. A small carrier-field term is not a certification.
+16. **Separate scientific levels**: R3B prescribed capacity, loaded torus response, Earth-interaction existence, complete-craft recoil, launch, sustained hover, physical source, UV/empirics, experiment. Never promote one into another.
+17. **After this plan update**, synchronize `NOTES.md`, `AGMINER_BUILDPLAN.MD`, `INTROSPECTIVE_BUILDPLAN.md`, individual journals, `README.md` and project-level instructions in later steps. Do **not** claim they were edited by creation of this plan.
+
+## 1. Evidence authority, versions and non-repetition policy
+
+| Artifact / record | Scientific job | Primary caution |
+|---|---|---|
+| Original run JSON, CSV, terminal logs, signed source version | What an executed calculation actually said | Results must be matched to producing code and grid |
+| Newest current source and codebundle | Actual implemented equations and solver behavior | Source files and generated bundles may differ in recency |
+| Dated `journal/` entries | Proofs, falsifications, precision and reproduction | Preserve old journal text; never retroactively repair it |
+| `NOTES.md` and chronological 0037/0038 | Exhaustive carry-forward, completion and failure memory | “Proposed” in an old note may be “completed” in newer evidence |
+| **This Part I** | What to research and simulate **now** | Overrides the archived strategies following it |
+| `AGMINER_BUILDPLAN.MD` | Theorem-first candidate/failure memory | Not a blind global parameter search |
+| `INTROSPECTIVE_BUILDPLAN.md` | Transferable geometric knowledge | No certified physical continuum source |
+| `FORMATTING_AND_CODE_STANDARDS.md` | GitHub math and code documentation style | Fenced `math` blocks and scientific provenance |
+| `README.md` | Supported conservative public claims | Never market unverified lift or complete energy |
+
+The original current file had a November 10 active Part I, a complete September 14 historical 52-section archive, and a November 9 archived Part I. **All three are retained verbatim below the new authoritative Part I.** Their old priorities are not to be executed. Read the latest code/results and newest notes when an archived status differs.
+
+Do not assume focused tests mean full-suite passes. Source provenance, mathematical identity checks, discretization convergence and physical validity are different certifications.
+
+## 2. Mission goal, two separate benchmark families and what changed
+
+### 2.1 New primary mission: engine onboard, Earth below
+
+The new primary **engineering-physics configuration** is a finite spacecraft with its complete candidate field generator, support and internal matter **on board**. It is positioned above the Earth; the hypothesized field or physical metric influence is aimed downward toward nearby neutral Earth matter. The craft should experience an independently derived **upward whole-vehicle response** that reduces required auxiliary thrust or can eventually exceed its weight.
+
+**Not the desired final architecture:** a terrestrial generator anchored to Earth, with a separate hovering torus or object above it. That prior geometry remains an indispensable *scientific control* for carrier/matter coupling and sign conventions, not the craft hardware placement.
+
+**Do not assume the Earth-directed idea has been demonstrated:** the original R3B source/torus configuration does not prove a source on the *opposite side* of the target produces a favorable force. The Earth is not the historical torus, and a generator aboard a craft has its own reciprocal loading.
+
+### 2.2 Permanent independent laboratory/scientific benchmark
+
+```text
+REFERENCE_MODEL           = R3B original 1 kg neutral torus
+PAYLOAD_MAJOR_RADIUS_M   = 1.0
+PAYLOAD_MINOR_RADIUS_M   = 0.2
+REFERENCE_SOURCE_RADIUS_M= 2.0
+TRUE_EXTERNAL_GAP_M      = 1.0
+MIN_SAMPLED_OUTWARD_A    = +9.80665 m/s^2 everywhere
+GOAL_TYPE                = finite neutral matter / source-free stand-off
+BENCHMARK_ROLE           = independent science control; NOT vehicle layout
+```
+
+This original benchmark remains a **minimum floor** for its declared experiment. Exceeding its acceleration or separation is favorable if all gates pass. A successful *craft-specific* configuration need not resemble a spherical source below a torus, and it must not be judged solely by a torus above the source. A reduced criterion may be used for intermediate mechanism tests but does not count as passing the historical benchmark.
+
+### 2.3 New primary whole-craft engineering observables
+
+- A physically generated *additional upward acceleration or force on the entire craft*, after all internal components are included.
+- The *reduction in required auxiliary thrust* for matched mass, altitude, environment and flight trajectory, measured against a source-off control.
+- Earth/air/field/radiation momentum accounting that closes without fictitious sources or boundary sinks.
+- Ground-contact release, altitude-dependent assistance, sustained hover and finite ascent as separately classified achievements.
+- A complete, source-realistic, empirically allowable field/metric theory and a conservative energy ledger **strictly below 10 MJ** for a defined mission protocol.
+
+The craft-specific initial target is **any reproducible positive net Earth-referenced contribution** on a realistically finite craft, provided it is genuine and conserves momentum. This is an intermediate milestone, not an excuse to lose the 1g science reference. Full field-only hover requires upward field contribution at least craft weight; with auxiliary propulsion, a smaller positive contribution can still be relevant.
+
+### 2.4 Inertia versus gravity and orbit versus altitude
+
+Reducing a local gravitational acceleration does not erase inertial mass. Flying to high altitude does not imply orbital velocity. A model producing net hover may still require propulsion and steering for orbit. All mass, gravitational potential and trajectory equations must use the same matter/physical metric and stated observer frame.
+
+## 3. Coordinates, reaction signs, momentum exchange and lift arithmetic
+
+### 3.1 Fixed signs and observers
+
+Use a locally Earth-fixed near-surface frame for early weak-field diagnostics:
+
+```text
+z positive          = upward away from Earth surface
+Earth's usual g     = -g_earth z-hat (approximately -9.80665 m/s^2 near reference surface)
+craft field target  = upward whole-craft response (+z)
+Earth reaction goal = downward material impulse (-z) for an Earth-repulsive channel
+positive aux thrust = +z
+physical craft z    = declared reference point (COM and source center recorded separately)
+```
+
+Earth also experiences its pre-existing gravitational attraction toward the craft. The *novel, on-minus-off* interaction must be isolated from the ordinary gravitational background. A static coordinate acceleration in a non-inertial chart is not a physical force certificate. In a fully dynamical metric theory, replace the Newtonian momentum ledger with a covariant stress-energy/flux law using a declared asymptotic or approximately stationary reference frame, and compare invariant observables/trajectories.
+
+### 3.2 Two physically distinct mechanism hypotheses
+
+**G1 — True Earth-target repulsive interaction:** The craft apparatus sources fields whose complete action produces a downward force or impulse on Earth matter and an upward response on the entire craft after field momentum is included. Earth is the external reaction partner. No need for the Earth bulk to accelerate by 1g: it is massive, so a small downward impulse can support a large craft impulse with negligible Earth COM velocity.
+
+**G2 — Alteration of the craft's effective gravitational response:** The physical metric or gravitational environment at the whole craft modifies its free-fall tendency in Earth's background, potentially decreasing the weight requiring support. This is **not** established by relabeling internal stresses as “gravity cancellation.” Derive the modified physical metric, motion of all craft constituents, Earth/field backreaction and complete energy. An effective reduction in downward acceleration is not itself proof of a localized Earth-down pressure footprint; conservation remains mandatory in the complete gravitational system.
+
+**G3 — Ordinary momentum exchange with Earth/air/radiation:** A physically valid device could push Earth, air or exhaust via nongravitational forces. Such thrust may help launch but is not evidence of gravitational repulsion. It must remain a separate comparator/auxiliary channel.
+
+**G1 and G2 may coexist in one action.** They must not be double-counted as independent thrust or energy supplies. Do not accept physical-metric force calculations that omit reaction from their own source sector.
+
+### 3.3 Near-surface whole-craft force budget
+
+For an explicitly declared weak-field Newtonian engineering approximation, after separating usual gravity from new and auxiliary forces:
+
+```math
+M_{\rm craft}a_z
+=F_{\rm novel,Earth}^{\rm craft}
++F_{\rm novel,air}^{\rm craft}
++T_{\rm aux}
++N_{\rm ground}
++F_{\rm other,external}
+-M_{\rm craft}g_{\rm Earth}
+```
+
+Here `F_novel,Earth` can include a physically supported metric-related **net** contribution (G1/G2) counted once. An exact GR statement requires a correctly defined total energy-momentum and observer comparison; this equation is a mission-screening approximation, not a complete covariant force law.
+
+At hover after takeoff with negligible other forces:
+
+```math
+T_{\rm aux,required}
+\approx M_{\rm craft}g_{\rm Earth}-F_{\rm novel,up}
+```
+
+`F_novel,up > 0` reduces auxiliary thrust. `F_novel,up >= M_c g` would in principle permit field-only hover, **if** its source and reaction are real and stable. Exceeding weight gives upward acceleration if throttle/control conditions permit. Do not claim it for current R3B.
+
+For illustration only, a hypothetical 100 kg craft requires approximately 981 N upward support near the surface; a 1000 kg craft requires approximately 9.81 kN. The craft mass has **not** yet been specified, so these are parametric test scales, not predicted R3B thrust.
+
+### 3.4 Contact/release boundary
+
+While standing on the ground, the support normal `N_ground` balances the remaining weight and applied forces; it is not extra propulsion. The physical unilateral contact constraint is `N_ground >= 0` with nonpenetration and proper complementarity. Decreasing `N_ground` with field on can indicate support assistance **only after controlling for forces on the pad and measurement system**. Liftoff is possible once the ground normal reaches zero and the net vertical force is nonnegative; an actual upward trajectory requires a positive net acceleration or specified lift dynamics. Never simulate the craft as penetrating the ground or allow an unphysical negative contact force to tether it.
+
+### 3.5 Whole-system momentum ledger
+
+Track in the same orientation and reference frame:
+
+```text
+DELTA_P_CRAFT_ALL_ONBOARD_MATTER
+DELTA_P_EARTH_SOLID_AND_INTERNAL_MODES
+DELTA_P_ATMOSPHERE
+DELTA_P_CARRIER_FIELDS
+DELTA_P_PHYSICAL_METRIC_OR_GRAVITY_SECTOR
+DELTA_P_RADIATION_TO_OUTER_BOUNDARY
+DELTA_P_AUXILIARY_EXHAUST_OR_JET
+DELTA_P_GROUND_CONTACT_SUPPORT
+BOUNDARY_AND_INITIAL_MOMENTUM_RESIDUAL
+```
+
+For isolated full system with radiation/boundary flux counted, changes must obey the appropriate total conservation law. A field can temporarily store momentum; this is not steady thrust until the complete cycle and outgoing flux are included. A near-field momentum transfer to Earth must be **derived**, not asserted. This is the decisive distinction between a craft-directed external effect and an onboard generator pushing its own hull.
+
+## 4. Definitive architecture and geometric controls
+
+### 4.1 Minimum onboard craft model
+
+Use at least a finite rigid/deformable hull, a source region, mounting/supports, internal field volume/vacuum enclosure if selected, power/driver/thermal hardware, neutral craft matter and a declared mass distribution. Even if an effective point-rigid-body motion approximation is used early, the total mass and origin of every stress/force must be accounted. Do not treat hull and source as separate free payload and stationary generator.
+
+The generator cannot be attached to the Earth except via an explicitly modeled transient contact/umbilical connection; a launch pad can be present in the source-off/ground-contact initial state and removed/decoupled at release.
+
+**Treat geometry as an input**: craft size/shape/mass, apparatus support radius, source center, bottom clearance, direction axis, field footprint, optional vacuum vessel and source-port aperture. No dimensions beyond historical reference controls are certified for a buildable craft.
+
+### 4.2 True separation is between physical source support and Earth matter
+
+Record independently:
+
+```text
+H_HULL_BOTTOM_ABOVE_GROUND
+H_SOURCE_CENTER_ABOVE_GROUND
+D_SOURCE_SUPPORT_TO_GROUND_MIN
+D_HULL_TO_GROUND_MIN
+D_NEAREST_ONBOARD_MATTER_TO_FIELD_ACTIVE_REGION
+ALTITUDE_ABOVE_SEA_LEVEL_IF_USED
+```
+
+At ground contact the *hull bottom altitude* may be zero while the enclosed generator support remains physically separated from Earth by a positive gap; these are not interchangeable. For a 2-m source sphere entirely above a flat ground plane and with a 1-m source-to-Earth gap, its center would have to be at least 3 m above ground. This is a **geometric example**, not an independently sourced apparatus proposal. The original spherical source radius and torus separation cannot be cut and pasted into a small craft without redesigning packaging and all fields.
+
+The prior observation that the original source sat about 4.84 m below the separate torus's lower surface is a **historical torus-source layout**. It is not a requirement to place any part of an onboard craft or its source underground. Do not let an altitude sweep merely translate the whole old laboratory configuration across the ground plane.
+
+### 4.3 Field orientation and target side
+
+Original R3B modeled outward acceleration on a payload *above* a source. Earth-directed operation puts the important Earth matter *below* an onboard source. This changes relative orientation and geometry. **The sign of the Earth-matter response cannot be copied from the old torus-above-source configuration.** An attractive Earth-up response generally gives a downward craft recoil, opposite to the intended launch. The B14/B16 local ~42g inward spike is not a route to lift by simply pointing the generator down.
+
+For directional tests, compare true source rotation relative to Earth, not a rigid global coordinate rotation. Keep parity/pseudoscalar sign and each carrier-source current explicitly defined. Reversing a field label or one sector is not automatically a physically distinct device.
+
+### 4.4 Two distinct vacuum hypotheses
+
+- **Vacuum-interior with exterior carrier fields:** Sources sit in a low-density sealed housing, but physically generated carrier fields traverse the hull or apertures and remain nonzero toward Earth. This may reduce source-region ordinary-matter loading. It does **not** eliminate loading in the hull, air, Earth or other field-exposed material.
+- **Truly confined carrier fields with exterior gravity/metric influence:** All carrier field strengths vanish beyond the container, while the useful novel metric response supposedly persists outside. In the *local algebraic* R3B metric where the response depends on `P(x)=F_X tilde F_Y` at each point, that exterior topological contribution vanishes when the relevant exterior fields vanish. A separate propagating metric/mediator or gravitational backreaction field could change that conclusion, but requires a new explicit action and sourced solution. **Do not assume shielding can pass the gravitational effect while blocking the same carriers producing it.**
+
+A vacuum chamber is not automatically a perfect gauge-field shield, and a hollow volume does not have zero apparatus support or wall stress. Walls and source material are strongly matter loaded unless the same-action response is explicitly solved.
+
+## 5. Field theory: exact R3B backbone and what is still only proposed
+
+### 5.1 Freeze the reduced model, not a physical claim
+
+The scoped A12B corridor has protected concurrent massless `U(1)` carriers. R3B's mixed topological response in the physical metric is schematically
+
+```math
+\widetilde g_{\mu\nu}=e^{2\sigma(P)}g_{\mu\nu}
+```
+
+```math
+P\ \propto\ F_X{}_{\mu\nu}\widetilde F_Y{}^{\mu\nu}
+\quad\text{with the actual two-sector action and coefficients to be verified}
+```
+
+The static slow-motion diagnostic is
+
+```math
+\mathbf a_{\rm modeled}\simeq-c^2\nabla\sigma
+```
+
+This is a reduced field/matter model and a declared metric convention, not an experimentally established gravitational law. A fully dynamic gravitational theory must derive the matter equation and total stress-energy from the same action; time-dependent acceleration cannot be inferred by applying the static formula alone.
+
+The mixed Abelian topological term is a bulk total derivative for constant coefficient in the appropriate smooth conditions; a coefficient driven by ordinary matter introduces **interface and material-gradient** terms. The Lorentzian constitutive signs found in R3X1 are mandatory:
+
+```math
+\mathbf D_X=\mathbf E_X+\theta\mathbf B_Y
+```
+
+```math
+\mathbf D_Y=\mathbf E_Y+\theta\mathbf B_X
+```
+
+```math
+\mathbf H_X=\mathbf B_X-\theta\mathbf E_Y
+```
+
+```math
+\mathbf H_Y=\mathbf B_Y-\theta\mathbf E_X
+```
+
+A modern source-driven B11-M6 or B17 simulator must include the complementary electric/magnetic components generated under dynamics, valid gauge constraints and physical source support. Do not treat `E_X x B_Y` as the canonical same-sector Poynting vector or a directly steerable radiation beam.
+
+### 5.2 Source/matter/metric action completeness
+
+Before claiming a complete physical interpretation, define one common action at the approximation order used:
+
+```math
+S=S_{\rm grav}[g]
++S_{X,Y}[g,A_X,A_Y]
++S_{\rm microscopic\,source}[g,A_I,\Psi_s]
++S_{\rm craft\,matter}[\Psi_c,\widetilde g]
++S_{\rm Earth/air}[\Psi_e,\widetilde g]
++S_{\rm aux}[\Psi_{\rm aux},g,\ldots]
+```
+
+This is an **accounting scaffold**, not a fully specified or certified action. Vary the **same** action to get both carrier field equations, source constraints, matter forces, metric/gravity response, source reaction, supports and energy–momentum identities. Ensure proper treatment of parity/CP, anomalies, quantum loops, and source-selective versus universally coupled matter. An effective boundary driver is not automatically a microscopic current implementation.
+
+**Crucial conceptual gate:** Source selectivity (only the apparatus directly produces a carrier) is compatible in principle with universal *metric* matter coupling, but ordinary matter also affects the carriers reciprocally. The apparatus being inside a vacuum does not exempt the Earth, air and craft wall from this matter coupling when the fields reach them.
+
+## 6. Permanent exact numerical and scientific anchors
+
+| Anchor | Preserved result | Claim boundary |
+|---|---|---|
+| **006D** | Conserved positive-energy finite linearized GR source; `C=23.591586299249`, NEC/WEC/DEC pass, outward near region, positive far active mass | Catastrophic ~`1/G` energy scaling; no exact nonlinear operational device |
+| **018B / 018C** | Field existence and distinct fatal tested `m=2` instability | Field existence is not stability; retain nonaxisymmetric health gate |
+| **Protected vectors through 022A** | Scoped closure memory | No restart without genuinely new protected structure |
+| **B7/026; 024–031; V13–V26** | Source morphology, intrinsic-charge, geometry, stability and scoped failures | Retain original journals/AGMINER no-go record |
+| **Introspective** | `RAW_GE1000X_SIGNAL=PRESENT`, `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO` | Mechanism information only; not physical source |
+| **A12B** | Exact massless concurrent-`U(1)` protected corridor in declared action | Not full gravity/physical source completion |
+| **A12C** | `2.6568591420597114 J` preloaded ordinary `F^2` finite 1 kg/1m benchmark | No physical loaded source; original ordinary 1-keV/Pauli routes scoped closed |
+| **R3B** | **`1.5429162116460216 J`** globally continued net-neutral preloaded topological field capacity | **Current flagship; no physically completed source, loaded 1kg response, craft lift or energy certification** |
+| **B1** | Approx 0.275–0.301 MJ field-only at ~21.147 keV with conditional fully loaded 1 kg response | Source/rest-energy/UV/total cost not certified; B2/B3 failures constrain source options |
+| **B6** | Previous >50% baseline electric leakage mostly finite-box boundary artifact | Corrected baseline source diagnostic only; payload-interface inverse-source obstruction remains |
+| **B7** | **`1.5473042949759672 J`** 10-cm finite-width mathematical net-neutral electric source | Source-only field construction, not microscopic magnetic plus electric realization |
+| **B14/B16** | `-410.388913090782 m/s^2` (~41.85g) local inward numerical sample at 100 g, finest grid | Nonconverged local peak, COM only ~`-0.208472 m/s^2`; not tractor beam |
+| **B15-M0/M1/M2A/M2C** | 3D preloaded orientations, synthetic identities, inverse loading, exact local angle identity | Full 3D loaded BVP B15-M2B not done |
+| **B16** | Nominal 5 mg distributed-matter loaded 1g sampled on 3 grids | Equivalent to B0 homotopy; extremely dilute noncompact profile; no continuum threshold |
+
+Original 1 kg loaded control (static corrected Lorentzian):
+
+| Grid | Worst loaded acceleration [m/s²] | Loaded COM [m/s²] |
+|---|---:|---:|
+| 0.075 m | -46.40607408464625 | +0.07970759737289632 |
+| 0.050 m | -129.67185782242464 | +0.15454190 |
+| 0.040 m | -145.63825747 | -0.09174236 |
+
+These results are bad and grid-dependent. They occurred *without Earth ground proximity*; simply hovering away from the surface cannot be asserted to cure the same internal/payload reciprocal interface failure. Later Earth-directed equations may differ geometrically, but their own loaded backreaction must be derived.
+
+## 7. Completed B1–B16 knowledge: what is open, narrowed or closed
+
+### 7.1 R3B through B10 and the most important failure corrections
+
+| Test / branch | Verified scope | Why it changes next steps |
+|---|---|---|
+| R3B | Prescribed preloaded topological field, globally continued | Permanent low-inventory reference; not physical source |
+| R3C/R3C1 | Fully reciprocal payload changes static field; weighted discrete reciprocity repaired | Use failing loaded control, not an imposed preloaded field |
+| R3D0 | Tested one-field static node integrability excluded | No rebranding of single-field node |
+| R3X0 | Sign splitting/field relabeling cannot change observables | Check field-redefinition invariance |
+| R3X1 | Corrected Lorentzian constitutive signs | Mandatory source of dynamical signs |
+| R3X2/R2, R3X3A | Scoped low-order source cones and signed source families excluded | Do not broaden same basis blindly |
+| R3X3B0 | Exact original static field preservation needs compensating residual near/in payload | An inverse residual is not an actual allowed source |
+| **B1** | Conditional loaded higher portal-scale ~0.3 MJ field-only | A live comparator, not certified complete source |
+| B2 | Minimal massive-Dirac axial source closed by exact vector-current/gauge constraints | Do not reopen minimal axial form |
+| B3 | Tested electron static spin-dipole realization has ~`5.35e14 J` minimum source rest energy | Source class far outside <10MJ budget |
+| B4 | Original loaded COM ~zero/sign-changing | COM-only reinterpretation did not rescue original mirror |
+| B5 | Minimal source-free axion exact-mirror preservation obstructed | Dynamical independent modes possible, exact minimal compensator closed |
+| **B6** | Missing nonzero-Dirichlet boundary term caused inflated baseline source leakage | Permanent repair; don't resurrect old 55–78% claim |
+| **B7** | Finite-width net-neutral electric layer preserves exterior potential at 1.547304 J | Retain as static source geometry control |
+| B8 | Spherical homogeneous strong-interface transmission screened | Scoped sphere reference only |
+| B9 | Local algebraic Schur-complement reciprocity obstruction | No one-way local compensator from identical kernel |
+| B10 | Positive common kinetic stiffness did not restore spherical transmission | No repeated `Z` tuning as static rescue |
+
+Precise B6 corrected outside-support electric residual fractions: **0.000274999702 (h=.075), 0.000117661749 (h=.050), 0.000070912739 (h=.040)**. These are discrete norm fractions, not net physical leaked charge. B0's additional loaded-interface source compensation remains outside permitted free-source support.
+
+### 7.2 B11 completed preflights (NOT the missing M6)
+
+- Initial 1D slab pulse is **not** a full physical R3B torus or craft; counterfactual reduced average acceleration approximately **0.178–0.209 m/s²**; below the 1g reference.
+- B11-M1 simplified frequency/cycle test included 0.1, 1 and 10 ms, not a complete causal source-driven Earth-target solve; light travel over 1m is approximately **3.34 ns**.
+- B11-M2 quasistatic envelope scaling did not solve loaded sign; no new dynamic mode was produced.
+- B11-M4 constrained phase/covariance energy bound failed to deliver 1g COM or everywhere in the tested basis.
+- B11-M5 constructed a biased induction field satisfying some Faraday/gauge identities, but required additional source support inside the payload. It was not a valid external-drive toroidal pulse.
+- **B11-M6 remains open:** full two-carrier source-current driven dynamics, gauge/Noether constraints, full matter and source reaction, causal frequency response, a real pulse and repeat cycles without resets. Now **Earth-directed craft motion** should be added as a later stage, while the original external-torus dynamic control remains indispensable for validating loaded-field equations.
+
+### 7.3 B12 intensity and arrays
+
+- Scaling the same static field amplitude increases favorable and unfavorable accelerations together under the fixed-density linear carrier equations; it does **not** repair the sign pattern. Double/triple field-energy/amplitude variants were completed.
+- Two displaced sources with polarity combinations altered worst acceleration but failed everywhere 1g; apparent COM improvement was not stable on the finest grid.
+- Best reported normalized adverse-peak reduction was about 8–9-fold for a restricted displaced dual source; this weakened the useful preloaded response and had source-support limitations.
+- Physically independent source arrays are worth revisiting **only** when they excite different healthy modes, genuinely distinct 3D geometry, or an action-derived dynamic response—not merely additional copies of the old static fields.
+
+### 7.4 B13 source-basis and material distribution
+
+- 24-component axisymmetric source family across three nominal 2m support spheres, 10-cm electric layers and tested magnetic-current shapes; source positions and gaps must be read from its original results.
+- At **20 J** field cap, relaxed finite-grid everywhere-acceleration upper bounds were **+0.259684124**, **+0.012378635**, **+0.018994087 m/s²** at h=.075/.050/.040. A scoped source-family exclusion, not a universal no-go.
+- B13's magnetic source fit had **0.17779740398435295** relative error and its B7-inspired implementation did not exactly preserve the B7 exterior; don't overstate generality.
+- Tested seven material profiles (original, inner/outer/top/bottom/core/edge heavy), none established converged 1g everywhere. A high +9.668489 m/s² *COM* at fine grid in one inner-heavy control coexisted with ~-160.586 m/s² local inward and poor convergence; not useful lift.
+- One 20-J-labeled transferred-profile run exceeded 20 J when recomputed on other grids; preserve caps exactly.
+- Do not repeat the same optimized source basis/weights with bigger random searches. New valid field modes justify revisiting methods, not the same closed parameter space.
+
+### 7.5 B14, B15 and B16 recent frontier
+
+**B14**: a 100 g payload at one tenth original density still developed worst-point accelerations of **-56.6693, -174.2685, -410.388913 m/s²** at h=.075/.050/.040; COM **-0.647708, +0.216144, -0.208472 m/s²**. The 41.85g local inward hotspot is unverified and in the wrong Earth-recoil sign if Earth below is *attracted upward*. Smaller-physical-radius 100 g torus remained underresolved.
+
+**B15-M0**: true 3D relative orientations of fitted exterior fields; original aligned fitted preloaded minimum **+9.63360833966617 m/s²** (not exactly original +9.80665), 30° **+5.7182**, 60° **+2.8137**, 90° **+2.6821**, perpendicular two-source **+1.4072**, sector-only electric 90° **-6.7078**. No loaded 3D force solved.
+
+**B15-M1**: synthetic `n=5,7,9` 3D discrete gauge/Bianchi/reciprocity/constant-θ identities passed; five focused tests; not a full continuum action.
+
+**B15-M2A**: fitted-field 3D frozen inverse-loading demand at equal *sampled preloaded 1g* normalization. Relative demand 30° approximately **1.18076**, 60° **1.28603**, 90° **1.05685**, perpendicular sources **1.40190**. Does not solve fields after matter loads; five focused tests.
+
+**B15-M2C**: exact local identity for R3B equal-sector `E=B`:
+
+```math
+j_{\phi}^2+|\mathbf j_A|^2=|\nabla\theta|^2|\mathbf E|^2
+```
+
+Rigid/common orientation cannot remove combined leading interface demand at fixed local strength. Electric-sector-only 90° decreases one demand norm (~0.838 of aligned at 0.04m) but produces negative preloaded acceleration; it does not pass the useful-force criterion. Actual dynamic guided wave, carrier momentum and independently polarized physical source not tested. Seven focused tests.
+
+**B16**: fixed full-size torus density scaled by fraction `f`; exactly B0 frozen-density homotopy, not a new independent mechanism. Nominal 5 mg case, on all three grids:
+
+| h [m] | Min accel [m/s²] | COM accel [m/s²] | Net force [N] |
+|---|---:|---:|---:|
+| .075 | +10.4221632618 | +14.1012992512 | `7.04077152478514e-5` |
+| .050 | +10.03320 | +14.78 | `7.41e-5` |
+| .040 | +10.54435 | +14.52 | `7.26e-5` |
+
+The `1g-everywhere` mass threshold drops as grid refines: approximately **11.14246, 8.62457, 7.94068 mg**. The distributed matter is extremely dilute, not a compact solid payload. The threshold is **not converged**. Original 1 kg mirror still fails. The independent density-scaled operator matches the B0 homotopy to ~`1e-15` relative precision; six focused tests. Do not repeat ultra-dilute payload optimization as a primary line.
+
+### 7.6 B1/B16 underlying coupling correspondence
+
+For the declared frozen-density portal:
+
+```math
+\theta\propto\frac{\rho_{\rm matter}}{M_X^4}
+```
+
+```math
+\sigma\propto\frac{\mathbf E_X\cdot\mathbf B_Y}{M_X^4}
+```
+
+Lower density at fixed 1-keV scale and raising the portal scale while rescaling fields can reach comparable dimensionless loading coefficients. For `f=5e-6`, the corresponding fourth-root portal multiplier is **approximately 21.147**. If the desired field invariant is maintained by scaled carrier amplitudes, the *field-only* energy costs approximately `1/f` times the flagship, ~**0.309 MJ**, close to B1's 0.275–0.301 MJ conditional range. These are not identical constructions; do not claim two independent mechanism discoveries or a complete energy prediction.
+
+**Strategic significance**: the problem is preserving productive loaded field gradients at realistic Earth/craft material density, not another reduction of the already ~1.5-J preloaded field inventory.
+
+## 8. Specific scientific hypotheses ranked for the craft/Earth geometry
+
+| Family | Main discriminating question | First cheap falsifier | Status |
+|---|---|---|---|
+| **B17-T** enclosure transmission | Does a local `P(x)` metric gradient exist outside physically confined carriers? | Derive exterior field support and `σ(P)`; static/theory boundary limit | **UNTESTED** |
+| **B17-E** Earth solid response | Is target Earth matter pushed **downward** by source-above geometry? | 1D/axisymmetric Earth half-space linear/coupled sign calculation | **UNTESTED** |
+| **B17-R** whole-craft reaction | Does that Earth response imply/produce upward *total* craft momentum after fields included? | Same-action momentum flux / source-reaction identity | **UNTESTED** |
+| **B17-A** air and housing | Does atmosphere/hull change the field support or introduce destructive interfaces? | Uniform-θ bulk identity, interface matching, vacuum/solid boundary | **UNTESTED** |
+| **B17-H** altitude/launch | Is support possible at ground release, 5/10/30/100m or higher? | Geometric clearance, off/on source response, converged force | **UNTESTED** |
+| **B11-M6** actual pulses | Is there a lawful causal mode improving net Earth-referenced impulse versus failed static response? | Exact dynamic action, constraints, static limit, causal spectrum | **OPEN, NOT TESTED** |
+| **B1/B16** high-scale loading tradeoff | Is any physical source affordable at the higher loaded-survivor scale? | Canonical micro-source + empirical/UV + energy lower bound | **Conditional loaded field only** |
+| **B15-M2B** genuine loaded 3D | Do truly 3D source modes survive the *full* material response? | Reproduce aligned 2D failure, then one independently sourced 3D perturbation | **OPEN** |
+| Auxiliary dynamic polarization | Can an independent healthy source mode improve force coherence without one-way cancellation? | Exact Ward/Hessian reciprocity, canonical modes, support and causality | **Open; scoped static families closed** |
+| 42g inward diagnostic | Does a 100g local inward spike have a convergent integrated physical counterpart? | Stress/force identity + adaptive resolution | **Unverified, low priority** |
+
+The ranking reflects **expected falsification/information value**, not probability that antigravity is real. Only one controlled candidate action/source family should enter any expensive solve. Cheap tests can be batched when they share the same actual operators.
+
+## 9. B17 — Onboard Craft / Earth-Directed / Suspended and Ground-Launch program
+
+**Branch:** `032H17A12D1R3X3B17`  
+**Current status:** **PROPOSED — ZERO B17 SIMULATIONS EXECUTED**  
+**First goal:** determine whether the old R3B carrier+metric model supplies any **actual exterior interaction** from a vacuum-housed source and whether the Earth's material response has the **correct force sign and reciprocal craft reaction**.  
+**Not the first goal:** build a vehicle CAD model or run a huge CFD/finite-Earth optimizer without a field-action proof.
+
+### 9.1 Mandatory hypothesis registration before coding
+
+Every B17 result must declare:
+
+```text
+ACTION_AND_FIELD_CONTENT
+MODEL_APPROXIMATION_ORDER
+CRAFT_HULL_GEOMETRY_AND_MASS
+ONBOARD_SOURCE_LOCATION_AND_SUPPORT
+CARRIER_OUTSIDE_HULL_ALLOWED_OR_ZERO
+PHYSICAL_METRIC_RESPONSE_OUTSIDE_HULL
+EARTH_MATERIAL_MODEL_AND_GRAVITATIONAL_BACKGROUND
+AIR_DENSITY_AND_CONSTITUTIVE_MODEL
+GROUND_CONTACT_AND_ALTITUDE
+AUXILIARY_THRUST_PROTOCOL
+TARGET_EARTH_DOWN_AND_CRAFT_UP_SIGN
+COMPLETE_ENERGY_LEDGER_CLASS
+MEASURED_OBSERVABLE_AND_GRID_FAMILY
+```
+
+The source-free original R3B field may be a **control**, but cannot be inserted with arbitrary exterior amplitude after declaring it perfectly confined in the same region. Keep source-off, no Earth, and old torus controls separate.
+
+### 9.2 Stage T0 — exact exterior-transmission theorem/geometry gate
+
+1. Derive exterior `F_X, F_Y, P` and `σ(P)` from the actual two-sector source and hull boundary conditions.
+2. Define whether the enclosure excludes ordinary matter, confines carrier field strengths, both, or neither. These are physically distinct assertions.
+3. If `F_X=F_Y=0` outside the hull and the local algebraic portal has no other carrier, show the resulting local `P` and `∇σ` there. No unexplained external field is allowed.
+4. If a new propagating metric/mediator is proposed, write its exact action and a source/Green-function/constraint gate first; compare with ordinary GR energy cost and empirical limits.
+5. Verify gauge/source continuity at the hull, surface currents and field boundary conditions; do not substitute unphysical perfect shielding for material response.
+6. If there is no physical exterior effect, record **`RED_B17_CARRIER_CONFINED_NO_LOCAL_EXTERIOR_PORTAL`** for that *architecture*; retain R3B preloaded existence and do not invest in a ground simulation of a nonexistent effect.
+
+**GO:** A physical exterior field or independently propagating metric mode exists in the **same action**, with actual source support and nonzero appropriately signed exterior gradient. Not yet lift.
+
+### 9.3 Stage T1 — cheapest Earth-target sign and reciprocity test
+
+1. Position the actual source **above** neutral Earth matter, with correct lower-facing geometry.
+2. Keep Earth field-off baseline and the ordinary Earth gravitational field separate; do not replace conventional gravity by arbitrary negative matter acceleration.
+3. Model one controlled finite patch/slab or justified half-space near surface; include correct solid-state stress trace and finite-box boundaries. Match full-Earth far field only where the asymptotic model is valid.
+4. Calculate the *loaded* Earth target force/metric response and direction. Use field/matter action, not just reverse a preloaded torus sign or invoke the 41.85g inward hotspot.
+5. Independently calculate craft/source reaction using field stress or total Noether momentum flux, including source/hull currents and field momentum accumulation. Do not assert action/reaction from a single target gradient without the completed system.
+6. Compare response for reversed physical source, source off, a vacuum target, and a constant-density interior/boundary control.
+7. If Earth is attracted **upward** to the source, the direct mechanical recoil is **downward** on craft; close that orientation for G1 repulsive lift even if local metric gradients are numerically large.
+8. If the Earth target receives a downward response but the full craft has zero or negative upward *net external* impulse after accounting, close that source/field realization for G1.
+
+**GO:** Convergent correct Earth matter sign plus self-consistent full-craft external contribution and stress/field momentum balance in a declared model approximation. Not yet a physical antigravity device.
+
+### 9.4 Stage T2 — environment and material-interface atlas
+
+Common controls are essential. The matrix is a set of **bounded tests**, not a command to run all combinations at full 3D fidelity:
+
+| Test ID | Physical setting | Isolated question | Early stop |
+|---|---|---|---|
+| C0 | Original source below finite 1 kg torus in vacuum | Historical R3B and failed loaded response control | Fail source reproduction => stop |
+| C1 | Onboard source in homogeneous vacuum, no Earth/air | Source constraints/field energy; **zero whole-craft isolated thrust** | Spurious COM impulse => fix solver |
+| C2 | Vacuum chamber with hull, real field transmission | Does exterior metric/field survive? | Exterior portal identically zero => stop confined case |
+| C3 | Onboard source above no-matter planar target | Empty-target/Bianchi/off-state control | Force on nonexistent Earth matter => stop |
+| C4 | Source above finite solid patch in vacuum | Earth-target sign/recoil without air | Incompatible target/reaction => stop |
+| C5 | Uniform air background, no solid ground | Does constant `θ` change bulk sourced equations? | Spurious bulk force without gradient/source => audit |
+| C6 | Air plus finite Earth ground surface | Ground/air interface gradient and boundary reaction | Wrong sign or no transmission => stop |
+| C7 | Hull with realistic dense walls and support | Is novel response screened by its own craft? | Disallowed in-hull currents/source energy => stop |
+| C8 | Ground-contact full craft, auxiliary off/on | Contact-normal reduction and actual release threshold | No whole-craft external effect => classify accordingly |
+| C9 | Suspended craft, air/ground altitude scan | How does externally referenced force vary with clearance? | Pure boundary-image artifact => stop |
+| C10 | Same environment, real source-driven pulse | Distinct causal impulse vs static response | No net cycle impulse => close waveform |
+| C11 | Repeat cycles with source/craft/ground dynamics | Hover/climb and stability | Reset/energy/momentum failure => stop |
+
+For any new physical source/geometry, proceed C0→C1→C2→C4 with exact cheap tests before C6–C11. Uniform air should not be misrepresented as the ultra-dilute 5mg torus limit. Normal sea-level air density is of order 1.2 kg/m³, close to the original 1kg torus's **mean density ~1.267 kg/m³**. Its near-uniform *gradient structure* is different, but interfaces remain at hull, ground, and pressure/density discontinuities.
+
+### 9.5 Stage T3 — physical clearance and altitude protocol
+
+Declare craft hull-bottom height, generator support minimum clearance to Earth, source center height, terrain geometry and any vacuum/air boundary locations. Start with **ground contact** without source overlap; if viable, separate trial altitudes such as **1, 3, 5, 10, 30 and 100 m** hull-bottom clearance, plus an outer-vacuum control. These are illustrative screening samples, not promises about operational altitude.
+
+A 2m historical spherical source requires a physically sized craft to house it. For any source sphere radius `R_s`, the lowest actual source support must obey `z_center - R_s > z_ground`; if retaining a 1m design stand-off to Earth, require `z_center - R_s >=1 m`. The source support can remain above terrain with hull ground contact if the craft is tall enough. An engine modeled partly embedded in ground is invalid unless a declared physical contact structure actually places its source matter there—which violates the normal onboard-only source objective.
+
+A point-source approximation cannot automatically replace the original harmonic source: it may alter multipolar response, net neutrality, field overlap, support and energy. Declare any geometric rescaling as a new physically sourced configuration.
+
+### 9.6 Stage T4 — whole-craft ground launch, hover, climb
+
+The model must deliver at least these **separate** runs when earlier gates survive:
+
+**Launch/contact:** craft begins at rest on terrain with the generator aboard. Track `N_ground(t)`, auxiliary thrust, field activation, external craft force and first time contact is released. Assert no penetration, negative ground normal or source support below terrain. If auxiliary thrust alone causes release, classify only the *incremental field contribution*, not field-only launch.
+
+**Already suspended:** craft begins above ground under permitted auxiliary support. Compare field-on vs off with matched trajectories/altitudes, source energy, air and Earth matter. An effect that works only above some clearance may be recorded as `AIRBORNE_ONLY_ASSISTANCE` if it is real and fully conserved.
+
+**Hover:** in steady or periodic operation, the net *external* supporting force plus auxiliary thrust must balance weight without unbounded energy/momentum storage or support stress. Record negative impulse phases and flight control margin.
+
+**Climb:** integrate actual craft trajectory under physical external and auxiliary forces, and mechanical energy transfer. A short positive force sample alone is not an ascent trajectory.
+
+**Auxiliary efficiency:** define `ΔT_aux` and energy saving at matched total mass, position, acceleration and operating window, after adding apparatus power and structural costs. An engine that reduces required jet thrust but costs more energy than it saves can still be a scientific effect but is not practical optimization success.
+
+### 9.7 B17 exact halt/promotion labels
+
+```text
+RED_NO_EXTERIOR_PORTAL_FOR_CONFIRMED_CARRIER_CONFINEMENT
+RED_MISSING_PHYSMETRIC_SOURCE_OR_ACTION
+RED_WRONG_EARTH_FORCE_SIGN_FOR_REPULSIVE_CHANNEL
+RED_UNPHYSICAL_INTERNAL_CURRENT_OR_HIDDEN_BOUNDARY_REACTION
+RED_WHOLE_CRAFT_ONLY_INTERNAL_FORCE
+RED_NO_ADDITIONAL_EXTERNAL_FORCE_AFTER_SOURCE_OFF_SUBTRACTION
+RED_CAUSALITY_OR_CONSTRAINT_FAILURE
+RED_UNCONVERGED_GROUND_INTERFACE_SPIKE
+RED_COMPONENT_ENERGY_FLOOR_GE_10MJ
+YELLOW_EXTERIOR_FIELD_BUT_EARTH_RESPONSE_UNKNOWN
+YELLOW_EARTH_DOWN_WITHOUT_COMPLETE_CRAFT_REACTION
+YELLOW_EARTH_AND_CRAFT_REACTION_IN_REDUCED_MODEL_ONLY
+YELLOW_GROUND_ASSISTED_CONTACT_FORCE_NOT_LAUNCH
+GREEN_SCOPED_CONVERGENT_WHOLE_CRAFT_EARTH_REACTION_MODEL
+GREEN_SCOPED_AUXILIARY_THRUST_REDUCTION_WITH_FULL_LEDGER
+GREEN_COMPLETE_PHYSICAL_MODEL_ONLY_AFTER_ALL_GATES
+PHYSICAL_DEVICE_VERIFIED_ONLY_AFTER_INDEPENDENT_EXPERIMENT
+```
+
+No B17 result has achieved any of these positive labels as of this revision. A `RED` is scoped to a precise action/geometry/source family, not all gravitational-repulsion theories.
+
+## 10. B11-M6 — genuine source-driven dynamical completion, now craft aware
+
+**Scientific question:** Does the original R3B two-carrier/matter action have a physically admissible causal mode that preserves useful *loaded* metric gradients or net impulse in the presence of finite matter—**and can such a mode couple to Earth externally to move a complete craft**?
+
+1. **Action:** derive full Lorentzian two-sector carrier, physical-metric, neutral matter, current source, source support, field momentum and source work equations from one action. Include real Earth/air/craft matter if progressing to the craft model.
+2. **Static limit:** same source and original torus must recover R3X1/R3C1/B4 **failed** loaded static result, B6 boundary correction and B7 static source where applicable. A sudden successful original-static limit is an error flag until explained.
+3. **Legal source-off state:** solve Gauss/Bianchi constraints and material initial conditions. Do not initialize payload-loaded space by overwriting fields with the unloaded R3B mirror.
+4. **Driven currents:** use externally supported, finite continuous charge/current histories with `∇_μ J_I^μ=0`. B7's static 10cm layer is not automatically dynamically drivable without transport, voltage and work.
+5. **Healthy causal response:** derive linearized frequency/wavenumber operator, dispersion poles, source–payload coupling, genuine phase delays, damping and radiation channels. Do not invent frequency dependence or a millisecond interface-collapse lag.
+6. **One smooth pulse:** after analytic survival, solve all field components, physical matter force, impulse, source recoil, Earth recoil if present, radiation, losses, energy/work and numerical convergence. Positive peak alone fails.
+7. **Repeated cycles:** evolve actual final state into next cycle, without resets. Track net useful impulse and all negative phases, growing instabilities, source heating, off-state and power.
+8. **Earth-down/craft-up:** dynamic field momentum may temporarily accommodate imbalance, but after a complete cycle a self-contained craft requires Earth/air/exhaust/radiation or genuine spacetime exchange. Internal source/hull force cannot propel it.
+9. **Promotion:** only after physical-source and complete metric/Noether gates, spatial/temporal convergence, stable cycles and complete energy. The original torus dynamical result and the new craft result receive **distinct claim labels**.
+
+Dynamic storage of 1.5 J is not its cost of generation. An ideal radiation-pressure comparator is different physics and cannot be used to infer the actual R3B source energy. A 1m causal light transit is ~3.34ns; no favorable timescale should be asserted absent mode dispersion from the action.
+
+## 11. Highest information-per-run research plan
+
+**Strategy:** Build shared static/dynamic source, material, metric and momentum operators with fixed reference cases. Use analytical/symbolic bounds to identify admissible response directions *before* expensive 3D and time-domain runs. A run may screen **several independently testable hypotheses** under one common action, but should not jointly optimize unrelated new physics and erase falsification attribution.
+
+### 11.1 Phase A — reconstruct original controls and actions
+
+- R3B original canonical energy and preloaded acceleration + separate later finite-grid energy reconstructions.
+- B6 finite-box nonzero-Dirichlet boundary repair.
+- B7 10-cm finite-width electric layer and its **only electric** source scope.
+- Correct R3X1 Lorentzian signs, B4 loaded 1kg/COM failure and B14 local inward anomaly classification.
+- B15 3D rotation/gauge/inverse RHS/angle identity; B16 density-homotopy equivalence.
+- Source hashes, numerical source/field normalization, precision and current tests. No new performance claim from reproduction alone.
+
+### 11.2 Phase B — inexpensive B17 theorem and source-geometry map
+
+In **one bounded analytical branch** derive: exterior local metric transmission, source–hull boundary conditions, Earth-below source support, target force sign, Earth/craft recoil, constant-θ bulk vs surface interface, zero-matter/field-off controls. Reject invalid enclosures, source intersections, missing current support and wrong-sign Earth reaction **before any large spatial solve**.
+
+### 11.3 Phase C — loaded Earth-target reduced BVP if authorized
+
+Solve a physically justified finite patch or half-space target in the actual local metric action, with atmosphere and hull separated. Verify the original torus failed loaded limit in its own geometry. Progress from analytic planar to axisymmetric then 3D only when each scale reveals genuine new mode content. No arbitrary matched exterior field at Earth surface.
+
+### 11.4 Phase D — dynamic response from B11-M6 if physics survives
+
+Begin with cheap causal source response. If healthy modes actually modify the interface coupling, perform a single driven source pulse, then repeated cycles, then full craft motion. Track force and energy in the *same action* throughout. If original R3B has no such advantage, close only its minimal driven family and investigate one genuinely distinct healthy mediator or source mode.
+
+### 11.5 Phase E — higher-scale loaded comparator, not source energy obsession
+
+Use the B1/B16 linked loading parameter to test source/energy feasibility of B1's **0.275–0.301 MJ field-only** conditional candidate. Do not duplicate the test as two independent discoveries; B3's electron dipole energy exclusion remains. A sub-10MJ field figure is not complete energy. Do not spend effort reducing the already sub-100J R3B preloaded field term.
+
+### 11.6 Phase F — justified 3D polarization and auxiliary modes
+
+B15-M2B can test fully loaded 3D *only after aligned 2D failure reproduction*, then a small number of distinct new geometries. B15-M2C's common equal-field rotation identity excludes static angle-only rescue. Independent healthy polarization and actually guided dynamic modes are open; a new auxiliary field must have independent canonical energy, Ward/Noether, sources and physical-reaction pathways. No hidden one-way buffer.
+
+## 12. Important new measurement: force coherence and useful participation
+
+For a target matter region, define the signed decomposition in the declared frame:
+
+```math
+F_+=\int\max(\rho a_z,0)\,dV
+```
+
+```math
+F_-=\int\min(\rho a_z,0)\,dV
+```
+
+```math
+\mathcal C_F=\frac{F_++F_-}{F_++|F_-|}
+```
+
+where defined when the denominator is nonzero. For the original torus model, this tracks how much net signed response survives opposing contributions. It is **not** by itself a full Earth/craft conservation certificate. Report the measure separately for Earth, air, craft components, and the complete craft, with actual field/source momentum bookkeeping.
+
+At the B16 ~100g fine-grid case, opposing forces ~+0.95328 N and -0.97413 N produce net ~-0.02085 N (coherence around **-0.0108**), even though a local acceleration reaches -410.388913 m/s². This shows why a 42g peak is a poor lift metric. The 5mg control has coherence +1 with only ~`7e-5 N` net force. Optimize **useful whole-craft force, coherence, field/source energy, and source participation**, not pointwise hotspots or raw field magnitude.
+
+The force identity in the original static torus weak-field model, under valid boundary conditions, is:
+
+```math
+F_z=-c^2\int\rho_m\,\partial_z\sigma\,d^3x
+```
+
+```math
+F_z=c^2\int\sigma\,\partial_z\rho_m\,d^3x
+```
+
+It is an independent diagnostic (with correctly vanishing/retained surface terms), not permission to calculate a whole craft reaction from a held-fixed test matter density. For Earth with ground and material discontinuities, interface stress, gravity background and finite-box terms must be derived; the original torus integration by parts cannot be copied without checking boundaries.
+
+## 13. Required observables: every B17/B11 craft-directed result
+
+| Category | Required recorded quantity |
+|---|---|
+| Provenance | branch, model action, declared approximation, source hashes, solver, versions, stage/claim label |
+| Geometry | craft hull, source volume and centroid, support boundaries, radius/width, terrain, source-to-ground gap, clearance, orientation and footprint |
+| Matter | Earth density/stress/EOS, atmosphere density/temperature/gradients, craft material/neutrality, support stress, target volume and cutoffs |
+| Normal gravity | gravitational background and physical observer/coordinate definition, field-off reference trajectory |
+| Carrier fields | all `E_X,B_X,E_Y,B_Y` components, canonical energy, physical source current, actual exterior invariant `P`, topological metric `σ` |
+| Constraints | Gauss, Bianchi, current continuity, boundary, Ward and Noether/energy–momentum residuals, canonical mode health |
+| Target force | Earth matter downward/upward force integral, local stress map, positive/negative parts, contact and interface terms, force coherence |
+| Whole craft | full external force, COM acceleration, internal force cancellation, support loading, torque, attitude and structural stress |
+| Altitude/launch | hull and source clearance, ground normal, release time, hover duration, climb trajectory, auxiliary required thrust and energy |
+| Atmosphere | air momentum, wake/pressure/drag, surface response; distinguish gravitational from ordinary pressure/thrust |
+| Radiation | emitted carrier/gravity radiation, momentum flux, boundary losses; positive impulse vs negative phase |
+| Time evolution | source drive, impulse integrals, periodic cycle average, negative impulse, stability, heating, no artificial resets |
+| Energy | canonical fields; source matter; power/control; hull/support; activation, mechanical work, dissipation, off-state; complete balance |
+| Error budgets | spatial/temporal/domain/ground-interface convergence, independent solver, uncertainty in source profile and material response |
+| Promotion | which **lab** and which **craft** milestones are met; what remains unestablished |
+
+Any claim of whole-craft launch, hover or novel gravity must refer to its complete external force and response, not the positive acceleration of a free test particle at the wrong side of the source.
+
+## 14. Scientific acceptance levels: keep laboratory and vehicle ladders separate
+
+### 14.1 Laboratory/scientific ladder
+
+```text
+S0 MATHEMATICAL_FIELD_EXISTENCE
+S1 PRELOADED_FINITE_PAYLOAD_METRIC_RESPONSE (R3B AT PRESENT)
+S2 FULLY_LOADED_FINITE_NEUTRAL_MATTER_CONVERGED_RESPONSE
+S3 SAME_ACTION_REAL_PHYSICAL_SOURCE_AND_NOETHER_REACTION
+S4 CONSTRAINT_VALID_DYNAMIC_IMPULSE_AND_STABLE_REPETITION
+S5 INDEPENDENT_REPRODUCTION_WITH_UV_EMPIRICAL_HEALTH
+S6 EXPERIMENTALLY_VERIFIED_TRUE_GRAVITATIONAL_REPULSION
+```
+
+### 14.2 Craft/Earth ladder
+
+```text
+C0 FINITE_ONBOARD_SOURCE_HULL_AND_MASS_MODEL_DEFINED
+C1 LAWFUL_EXTERIOR_CARRIER_OR_SEPARATE_METRIC_TRANSMISSION
+C2 EARTH_TARGET_ADDITIONAL_RESPONSE_CORRECT_SIGN_AND_CONVERGENCE
+C3 POSITIVE_NET_EXTERNAL_FORCE_OR_IMPULSE_ON_FULL_CRAFT_WITH_REACTION
+C4 GROUNDED_RELEASE_OR_AUXILIARY_THRUST_REDUCTION_IN_CONTROLLED_SIMULATION
+C5 SUSTAINED_HOVER_OR_ASCENT_WITH_LAWFUL_FIELD/AUXILIARY_ENERGY
+C6 COMPLETE_MICROSCOPIC_ACTION_SOURCE_STABILITY_AND_STRICT_LT_10MJ
+C7 INDEPENDENT_PHYSICAL_EXPERIMENT_AND_VALIDATED_TRAJECTORY
+```
+
+C0–C5 modeled stages must always be labeled as such; a numerical stage is not a physical demonstration. There is no current `C1`+ result, and no current physical `S6`.
+
+The original finite-payload local ≥1g everywhere benchmark remains distinct from the craft COM/cycle-averaged condition. The new craft needs a **net external** force, not merely internal torque or a separately pushed torus. If auxiliary thrust contributes, report `FIELD_ASSISTED` rather than `FIELD_ONLY`.
+
+## 15. Strict complete operating energy and mission protocol
+
+### 15.1 Permanent energy condition
+
+```math
+E_{\rm complete,conservative,operating}<10^7\ \mathrm J
+```
+
+Exactly 10 MJ is **FAIL**. Never replace this with “field-only below 10 MJ” or ignore the energy of physically supporting/sourcing the field. For a finite dissipative flight, specify the **duration, path and duty cycle** over which the 10MJ condition is being evaluated; unlimited-duration operation cannot have a finite cumulative dissipation limit.
+
+### 15.2 Distinct ledgers with no double counting
+
+Record **separately** (i) carrier-field stored energy, (ii) necessary novel source constituents, source rest/internal energy under the stated research policy, (iii) required onboard hull, supports, confinement and vacuum-vessel inventory and creation/maintenance costs, (iv) driver/charge transport and cooling, (v) metric/mediator/compensator contribution, (vi) activation, deactivation, pulsing, reset/recycling and irrecoverable losses, (vii) Earth/air/ground work and recoil, (viii) mechanical climb potential energy and auxiliary propulsion work, (ix) radiation and heat, (x) quantum/UV/off-state costs.
+
+A conventional craft's mass is a **declared inertial/gravitational load**, not permission to hide exotic required source rest energy. If a budget convention counts required source rest energy but not the pre-existing hull's entire ordinary rest-mass equivalent, state that convention explicitly and retain all necessary support mass, energetic preparation and operational costs. Do not quietly change the original strict-source-energy policy to make a candidate pass.
+
+Keep distinct:
+
+```text
+FIELD_ONLY
+SOURCE_ONLY
+SOURCE_PLUS_FIELD
+PRELOADED_CAPACITY
+LOADED_FIELD_INVENTORY
+OPTIMISTIC_PARTIAL_LOWER_BOUND
+COMPLETE_NOVEL_APPARATUS
+AUXILIARY_PROPULSION_MISSION_COST
+COMPLETE_CRAFT_MISSION_COST
+COMPLETE_CONSERVATIVE_OPERATING_POLICY_CERTIFIED
+```
+
+**No** current branch has the final certification. B1's 0.3MJ, B7's 1.547J, and R3B's 1.5429J are *different restricted inventories*. A necessary energy component ≥10MJ closes that specific practical realization at the given mission benchmark. A smaller partial component only indicates headroom.
+
+### 15.3 Energy–momentum work check
+
+For an actual craft rising `Δh` near Earth in the ordinary weak-field approximation, the gravitational potential energy change is of order:
+
+```math
+\Delta U_{\rm Earth}\approx M_{\rm craft}g_{\rm Earth}\,\Delta h
+```
+
+The precise energy exchange in a hypothetical new gravity theory comes from its total stress-energy and source/field work. Do not infer from a 1.5J stored field that a craft can receive arbitrarily large impulse or mechanical work without energy supplied elsewhere. If a proposed force is ordinary emitted radiation alone, photon-rocket momentum-per-energy limits apply; *that is a comparator, not a substitute for deriving this R3B action*.
+
+A source cycling at high frequency may have cheap instantaneous field inventory but overwhelming replenishment power or instability. Measure net recovered, not nominally recyclable, energy. Include off-state and safety costs and the full measured protocol.
+
+## 16. Healthy modes, microscopic source and empirical/UV consistency
+
+No candidate can be promoted without one action producing exact gauge/Ward identities, anomaly control, conserved source currents, a universal physical metric and correct Noether energy–momentum exchange. Check positive canonical kinetic energy, absence of ghosts, hyperbolicity and physically meaningful causal characteristics; test gradient/tachyonic and nonaxisymmetric instabilities (historic 018C m=2 warning). A temporary pulse may relax static equilibrium but not actual mode health.
+
+Physical sources require actual constituents/currents/voltages/densities/charge transport, material support, cooling, mechanical stress, and reactions, including whatever generates the **magnetic** R3B sector. B7's finite static electric charge layer does not complete those requirements. B2 minimal massive axial Dirac and B3 electron-sized spin-dipole source classes remain **closed within their scopes**.
+
+The parity-odd `F tilde F` source and conformal physical metric require explicit parity/CP consistency or an allowed parity-violating completion. Loop-generated photon mixing, lower-dimensional operators, radiative stability and EFT cutoff must be checked. Compare actual canonically normalized operators to laboratory gravity/equivalence-principle/inverse-square-law, ambient magnetic/electric, spectroscopy, stellar, cosmological and quantum precision constraints. Historical A12C ordinary EM-like gravitational response had an empirical sanity failure; don't resurrect it as a generic dark-field workaround.
+
+Earth-directed field geometries may produce high ground surface stress, heat, acoustic/seismic effects, environmental electromagnetic exposure and atmospheric forces. These must be evaluated even if Earth's global COM recoil velocity is negligibly small. A simulated lift mechanism that endangers or damages the ground is not a viable craft technology.
+
+## 17. Numerical/reproducibility requirements and status tracking
+
+### 17.1 Resolution and independent controls
+
+- Carry identical **physical** source currents, source shape, craft mass, source position, atmospheric/ground profile and action parameters between grids. Grid-specific reoptimization is not physical convergence.
+- Test at least the historical `.075/.05/.04 m` for old torus verification; choose new Earth/craft grids appropriate to their **different physical scales**, adaptively resolving interfaces and source layers. Do not claim the same uniform h is sufficient everywhere.
+- Compare independent direct solvers, physically differentiated discrete action and analytic conservation identities, not only two wrappers calling the same operator.
+- Vary finite-box distance, outer boundary conditions, ground-domain depth/size and time step separately. Include B6's nonzero-Dirichlet boundary contributions and source masks.
+- Use physical surface stress and integrated force as well as local gradients. Local peaks can diverge under interface refinement while force integrals approach a limit; diagnose both.
+- Use source-off/zero-payload, uniform-coupling, pure rotation/covariance, null-field and auxiliary-only controls to detect spurious acceleration.
+- Confirm full momentum conservation and work identity under physical-metric/Earth background conventions; no hidden impulse at computational boundaries.
+- Track positive and negative force/impulse parts and force coherence; keep dense-matter loading and the 5mg test-body limit distinct.
+
+### 17.2 Test status (not arithmetic)
+
+```text
+LAST_RECORDED_FULL_SUITE                         = 1283 passed
+B15_M0_FOCUSED_TESTS                             = 6 passed (recorded)
+B15_M1_FOCUSED_TESTS                             = 5 passed (recorded)
+B15_M2A_FOCUSED_TESTS                            = 5 passed (recorded)
+B15_M2C_FOCUSED_TESTS                            = 7 passed (user Mac)
+B16_FOCUSED_TESTS                                = 6 passed (user Mac)
+NEW_FULL_SUITE_AFTER_B15_B16                     = REQUIRED, NOT REPORTED
+B17_SCIENTIFIC_SIMULATION                        = NOT RUN
+B11_M6_TRULY_SOURCE_DRIVEN_PULSE                 = NOT RUN
+```
+
+Do **not** add focused counts to claim a new combined regression number. Regression checks code consistency, not physical truth. Recalculate the precise modern pass count only by actually executing the complete current suite.
+
+### 17.3 Result file and journal discipline
+
+Record branch ID, date, producing source hash and version, input data, source masks, geometry, physical units, grid/domain/time, solver settings, full result arrays/CSV and summary JSON; preserve originals. Use scoped `RED/YELLOW/GREEN` classifications and explicitly distinguish tested, proposed, inferred and externally validated facts. A future B17 run needs new independent simulation/test files, never replacement of R3B/B7/old B15/B16 artifacts.
+
+The original source filename spelling `prefight` is historical and must be preserved where used. Do not rename it to `preflight` in paths without corresponding files.
+
+## 18. Complete closure memory and reopen conditions
+
+Closed or failed **under declared assumptions**, not universal theorems:
+
+```text
+018C_FATAL_M2_MODE_TESTED_REALIZATION
+PROTECTED_VECTOR_CLOSURES_THROUGH_022A
+027_SUPPORT_SHUTTLE
+028_NEAR_CRITICAL_DENOMINATOR_GAIN
+029_TESTED_MASSIVE_SPIN2
+030_WEAK_GRAVITATIONAL_WAVE_MEMORY_PULSE_PRACTICALITY
+031_UNPROTECTED_LIGHT_SCALAR
+A11C_FREE_DIRAC_K2_WHEELER_DIRECT
+A12A_UNMODIFIED_MASSIVE_DIRAC_AXIAL_CURRENT
+A12C_1KEV_ORDINARY_F2_MATTER_LOADING_AND_CURRENT_SCULPTING
+A12D1_MINIMAL_ELECTRON_PAULI_PRACTICAL_SOURCE
+R3D0_STATIC_SINGLE_FIELD_NODE_INTEGRABILITY
+R3X0_SIGN_ONLY_FIELD_REDEFINITION
+R3X2_LOW_ORDER_SHELL_CONES
+R3X3A_RESTRICTED_OPPOSITE_SIGN_SOURCES
+R3X3B0_EXACT_ORIGINAL_FIELD_EXTERNAL_ONLY_PRESERVATION
+R3X3B2_MINIMAL_MASSIVE_AXIAL_DIRAC_SOURCE
+R3X3B3_ELECTRON_STATIC_DIPOLES_FOR_B1
+R3X3B4_ORIGINAL_STATIC_COM_ONLY_RELAXATION
+R3X3B5_MINIMAL_SOURCE_FREE_AXION_EXACT_MIRROR
+R3X3B8_HOMOGENEOUS_SPHERICAL_STRONG_LOADING_TRANSMISSION
+R3X3B9_SMOOTH_LOCAL_ALGEBRAIC_IDENTICAL_KERNEL_CANCELLATION
+R3X3B10_POSITIVE_COMMON_KINETIC_STIFFNESS_SPHERE
+R3X3B11_M2_M4_M5_QUASISTATIC_ENVELOPES_AND_SOURCE_HISTORIES
+R3X3B12_AMPLITUDE_ONLY_SCALING_AND_TESTED_AXIAL_ARRAYS
+R3X3B13_24_COMPONENT_STATIC_SOURCE_FAMILY_THROUGH_20J
+R3X3B13_TESTED_MATERIAL_REWEIGHTINGS
+R3X3B14_SAME_GEOMETRY_100G_FAIL_AND_COMPACT_UNDERRESOLVED
+R3X3B15_M0_TESTED_RIGID_ORIENTATIONS
+R3X3B15_M2C_STATIC_EQUAL_FIELD_ANGLE_ONLY_IDENTITY
+R3X3B16_WEAK_DENSITY_EQUALS_B0_HOMOTOPY_NO_NEW_PHYSICS
+FIELD_CAPACITY_BELOW_100J_HEADLINE_MINIMIZATION
+ANY_UNACCOUNTED_ONE_WAY_REACTION_SHIELD
+```
+
+**Reopen only** when an amended one-action model, new healthy independently sourced dynamical mode, corrected numerical flaw, genuinely different Earth geometry that changes the relevant physics, or independently supported microscopic source breaks the *specific* old assumptions. Merely adding massless vector labels, tilting equal static fields, scaling power, moving the same optimizer to 3D, or rephrasing B16 as a new interaction does not suffice.
+
+**Keep open and independent:** R3B prescribed preloaded capacity, B7 electric finite-width source field, B1 high-scale loaded conditional candidate, B15-M2B full 3D *with new modes*, B11-M6 truly driven dynamics, new healthy dynamical polarization, B17 source-inside-craft Earth coupling and G1/G2 distinction, B14 inward local *diagnostic only*. Do not mark a low-dimensional no-go as a universal no-go for gravitational repulsion.
+
+## 19. Next decision tree, exact gate order and compute budget
+
+```text
+RECONSTRUCT NEWEST CODE/RESULTS + R3B/B6/B7/R3X1/B4 CONTROLS
+   |
+   v
+FIX ONBOARD CRAFT GEOMETRY + REAL SOURCE SUPPORT (NOT OLD TORUS LAYOUT)
+   |
+   v
+B17-T0: SAME-ACTION EXTERIOR METRIC TRANSMISSION / VACUUM-HULL BOUNDARY
+   |-- NO EXTERIOR CHANNEL --> CLOSE SEALED-CARRIER-ONLY CONCEPT
+   |-- SOURCE/GAUGE VIOLATION --> REPAIR OR CLOSE SOURCE FAMILY
+   v
+B17-T1: EARTH BELOW SOURCE, LOADED TARGET SIGN + EARTH/CRAFT REACTION
+   |-- ATTRACTIVE EARTH-UP / CRAFT-DOWN --> CLOSE THIS REPULSIVE ORIENTATION
+   |-- ONLY INTERNAL FORCE / FIELD STORAGE --> NO WHOLE-CRAFT LIFT
+   v
+B17-T2: AIR/GROUND/HULL INTERFACE CONTROLS, DOMAIN CONVERGENCE
+   |-- DESTRUCTIVE LOADED RESPONSE --> CLOSE TESTED ENVIRONMENT/STATIC CASE
+   v
+B17-T3/T4: GROUND CONTACT RELEASE VS SUSPENDED HOVER AND CLIMB
+   |-- ONLY AUX THRUST --> CLASSIFY AS AUX ONLY
+   |-- POSITIVE EXTERNAL FIELD CONTRIBUTION --> SCOPED MODEL MILESTONE
+   v
+B11-M6: SOURCE-DRIVEN TIME-DEPENDENT MODE/IMPULSE IF STATIC IS INSUFFICIENT
+   |-- UNHEALTHY/UNSOURCED --> CLOSE MINIMAL DYNAMIC SOURCE FAMILY
+   |-- HEALTHY POSITIVE NET EXTERNAL CRAFT IMPULSE --> TEST REPEATED CYCLES
+   v
+FULL MICROSCOPIC SOURCE + UV/EMPIRICAL + NOETHER/CONSERVATION
+   |
+   v
+INDEPENDENT REPRODUCTION + STRICT COMPLETE <10MJ ENERGY
+   |
+   v
+PHYSICAL MODEL CANDIDATE, THEN EXTERNAL EXPERIMENT BEFORE DEVICE CLAIM
+```
+
+This sequence is a **falsification and authorization ladder**, not a promise that any field can lift a craft. B11-M6 causal action derivation can proceed in parallel with cheap B17 analytical work; do not wait for an expensive unsuccessful atmospheric sweep before deriving a dynamical equation.
+
+**One high-information combined run:** may share the frozen R3B/B7 kernels, validated Lorentzian loading operator, common source/hull geometry and a set of controlled Earth/air/vacuum cases, outputting physical source validity, transmission status, sign, source-vs-ground force, cancellation, and coarse convergence. It must *not* claim full 3D dynamical Earth simulation until that actually exists. Stop early on an exact no-go.
+
+## 20. Mandatory project instructions and documentation follow-up
+
+**This is the buildplan update stage.** No other repository Markdown or project-level instruction is changed merely by writing this replacement buildplan. After it is accepted, perform the following separately with explicit change logs:
+
+| Priority | Next document | Required update and scope |
+|---|---|---|
+| **1** | **Project-level instructions** | Make onboard Earth-directed craft/whole-craft reaction the primary mission. Preserve old 1kg/1m/1g as independent science control; add launch, suspended hover, auxiliary thrust, atmospheric/hull/ground and exact-conservation gates |
+| **2** | `NOTES.md` | Append Chronological Notes 0038; preserve 0037 and all historical journals/failed parameters, don't duplicate chronology |
+| **3** | `AGMINER_BUILDPLAN.MD` | Add B15 equal-field angle identity, B16 B0 homotopy equivalence, 42g local unverified, Earth reaction/whole-craft zero-internal-force constraints, source-onboard support mask, B17 multi-hypothesis filters |
+| **4** | `INTROSPECTIVE_BUILDPLAN.md` | Mechanism-only updates: productive participation, interface force coherence, exterior transmission, Earth sign, no certified continuum `>=1000x` |
+| **5** | Dated individual journals | B15 M0/M1/M2A/M2C, B16 and the new **design decision** (clearly not a simulation). Preserve actual executed tests/results; never retroactively change old entries |
+| **6** | `README.md` | Conservative public status; describe new craft mission as *research objective only*, not a demonstrated 1.5J Earth-lift system |
+| **7** | `FORMATTING_AND_CODE_STANDARDS.md` | Retain current conventions; modify only if clear new code-documentation requirement arises |
+| **8** | Code/journal bundles | Regenerate with designated scripts only after code/journals exist; codebundle must not dump complete doc/journal contents |
+
+### 20.1 Draft project-level instruction to integrate when that separate step is requested
+
+> **Current primary engineering research goal:** Develop and falsify physically consistent universal-metric/gravitational-repulsion mechanisms for a finite spacecraft that carries the entire antigravity source apparatus within its hull and directs a lawful field or metric influence toward Earth. Investigate both externally balanced Earth-down/craft-up repulsion and genuinely action-derived reduction of Earth's downward gravitational effect on the full craft. Model ground-contact takeoff/release, auxiliary-assisted launch, suspended operation, hover and climb separately, including internal apparatus/vacuum, exterior air/solid interfaces, source-to-Earth separation, field momentum, external reaction and all craft mass/supports. Keep the historic 1kg neutral torus, ≥1g everywhere, ≥1m stand-off as an **independent scientific field-response benchmark**—never confuse it with the final craft layout. Preserve the R3B 1.5429162116460216 J **preloaded field-only** result, B7 control, B1 comparator, completed B15/B16 and all failures; prioritize theorem-first B17 exterior-transmission/Earth-reaction preflight and B11-M6 source-driven dynamics. No physical antigravity device, whole-craft lift or complete <10MJ certification has been established. The 006D linearized-GR anchor remains unreplaced.
+
+The above is **draft text for a later project-instructions edit**, not an assertion that project-level instructions were already changed.
+
+## 21. Reproducible artifact and implementation map
+
+Preserve the existing historical source names and source hashes in the old buildplan and journal. Do not silently rename past `prefight` paths, existing scientific outputs or original journal dates. Current key artifacts include:
+
+```text
+ANTIGRAVITY_RESEARCH_CODEBUNDLE_20261110-185139.md
+ANTIGRAVITY_RESEARCH_JOURNAL_BUNDLE_20261110-015507.md
+CHRONOLOGICAL_NOTES_0038_CRAFT_EARTH_DIRECTED_20261111.md
+simulations/032h17a12d1r3x3b15_m2c_angular_routing_gate.py
+simulations/032h17a12d1r3x3b16_weak_loading_mass_response.py
+results/data/032h17a12d1r3x3b15_m2c_angular_h075_r3b_summary.json
+results/data/032h17a12d1r3x3b15_m2c_angular_h050_r3b_summary.json
+results/data/032h17a12d1r3x3b15_m2c_angular_h040_r3b_summary.json
+results/data/032h17a12d1r3x3b16_weakload_h075_summary.json
+results/data/032h17a12d1r3x3b16_weakload_h050_summary.json
+results/data/032h17a12d1r3x3b16_weakload_h040_summary.json
+```
+
+These are references to historical/local files, **not an assertion all are present or freshly verified in the target repository**. Later source/result generations can supersede these. The B17 source modules, simulation and JSON **do not exist by virtue of being named here**; assign new explicit filenames only when a new branch is actually implemented, with source/test/journal and complete provenance.
+
+Suggested future division (not existing paths):
+
+```text
+src/antigravity_research/agminer/hook17_r3b_craft_earth_action.py
+src/antigravity_research/agminer/hook17_r3b_exterior_transmission.py
+src/antigravity_research/agminer/hook17_r3b_earth_target_response.py
+src/antigravity_research/agminer/hook17_r3b_craft_total_momentum.py
+simulations/032h17a12d1r3x3b17_craft_earth_transmission_preflight.py
+tests/agminer/test_032h17a12d1r3x3b17_craft_earth_transmission_preflight.py
+results/data/032h17a12d1r3x3b17_craft_earth_transmission_summary.json
+```
+
+No scripts or simulations are created by the buildplan revision itself.
+
+## 22. Practical handoff: first newly authorized branch
+
+**Immediately next scientific test** (when requested, not automatically in this documentation-only operation):
+
+```text
+BRANCH        = 032H17A12D1R3X3B17
+NAME          = CRAFT_MOUNTED_EARTH_DIRECTED_EXTERIOR_TRANSMISSION_PREFLIGHT
+LEVEL         = ANALYTIC_THEOREM_AND_SMALL_CONTROLLED_NUMERICAL_GATES
+SOURCE        = R3B FROZEN + B7 FINITE_WIDTH ELECTRIC CONTROL
+REFERENCE     = CORRECTED R3X1 + B6 FINITE_BOX + FAILED ORIGINAL LOADED B4
+NEW_GEOMETRY  = ALL_SOURCE_SUPPORT_ABOARD_CRAFT; EARTH_BELOW_SOURCE
+FIRST_FALSIFIER= DOES_LOCAL_P_METRIC_REACH_EARTH_WITH_REAL_HULL/BOUNDARY?
+SECOND        = IF REACHES_EARTH, IS_TARGET_FORCE_DOWN AND CRAFT_REACTION_UP?
+THIRD         = CAN_A_REAL FULL_CRAFT_MODEL_SURVIVE_ITS_OWN_INTERNAL_LOADING?
+ENVIRONMENT   = VACUUM_VS_UNIFORM_AIR_VS_GROUND_VS_HULL
+LAUNCH_MODES  = CONTACT_RELEASE, AUX_ASSISTED, SUSPENDED, HOVER, CLIMB (SEPARATE)
+DYNAMIC_NEXT  = B11-M6 CAUSALLY_DRIVEN_TWO_U1_FREQUENCY_AND_IMPULSE
+OUTPUT        = ACTION_PROOF, BOUNDARY_PROVENANCE, PHYSICAL_FORCE_SIGN, FAILURE_SCOPE
+RED_STOP      = INVALID_EXTERIOR_METRIC, WRONG_SIGN_OR_NO_EXTERNAL_REACTION
+ENERGY        = STRICT_LT_10MJ_COMPLETE_CONSERVATIVE_WHEN_DEFINED
+RUN_STATUS    = NOT_YET_EXECUTED
+```
+
+**Not authorized:** a big 3D craft launch animation with prescribed “antigravity force,” a field beam bent 90° by fiat, internal free currents at Earth/hull without physical cause, or arbitrary removal of matter backreaction. **Authorized now:** derivation and cheap source/symmetry/interface falsifiers. A full response/trajectory simulation requires those prerequisites to pass.
+
+## 23. New-current to archived-plan crosswalk
+
+| Earlier active guidance | Updated operative policy |
+|---|---|
+| B10 latest, B11 next as of November 10 | **B16 latest completed; B17 Earth-directed craft preflight next; B11-M6 open co-primary dynamics** |
+| Original source below separate torus is design geometry | **Historical benchmark only; source and full apparatus inside spacecraft** |
+| “Payload acceleration” suffices for next engineering step | **Whole-craft external COM force/reaction and Earth/air/field momentum are primary** |
+| A vacuum apparatus transmits gravitational field automatically | **First prove exterior local `P` or new metric mediator from the actual action** |
+| Moving farther from solid Earth necessarily improves loading | **Test actual air/hull/ground interfaces; altitude alone does not cure known original loaded failure** |
+| Inward ~42g local can be a tractor beam/lift tool | **Unconverged local hotspot, negligible COM, wrong Earth reaction sign for direct repulsion** |
+| B15 rotation untested | **B15 M0/M1/M2A/M2C completed; simple static common-angle rescue closed** |
+| B16 weak-density rescue is new source physics | **Exactly B0 homotopy in physical mass units; favorable ~5mg grid control only** |
+| 1.5J indicates low vehicle energy | **Preloaded carrier inventory only; complete source and operating energy unknown** |
+| 1,283 current test suite | **Last recorded historical full regression; newer focused tests separate** |
+| Permanent static equilibrium necessary | **Valid finite-time transients and stable repeat cycles permitted; exact conservation still mandatory** |
+| All approaches should preserve exact old source profile | **Keep R3B control but a different actual loaded field permitted if sourced and physical** |
+| Just one model of lift | **Separate G1 Earth recoil, G2 weight-response modification and G3 ordinary propulsion** |
+
+## 24. Current authoritative checkpoint and future-documentation status
+
+```text
+DATE                             = 2026-11-11
+PROGRAM                          = 032_AGMINER / 032H17_HOOK17
+FLAGSHIP                         = 032H17A12D1R3B
+FLAGSHIP_CANONICAL_PRELOADED_J   = 1.5429162116460216
+FIN_WIDTH_ELECTRIC_B7_10CM_J     = 1.5473042949759672
+HISTORICAL_A12C_F2_PRELOADED_J  = 2.6568591420597114
+LAST_COMPLETED_SCIENCE           = 032H17A12D1R3X3B16
+B15_M0_M1_M2A_M2C               = COMPLETED_SCOPED
+B15_M2B_FULLY_LOADED_3D          = NOT_COMPLETED
+B16_5MG_STRICT_1G_3_GRIDS       = REDUCED_FROZEN_DENSITY_ONLY
+B16_ORIGINAL_1KG_LOADED         = FAILED_UNCHANGED
+B1_HIGH_PORTAL_0P3MJ            = CONDITIONAL_FIELD_ONLY
+B17_CRAFT_ONBOARD_EARTH_DIRECTED = PROPOSED_NOT_EXECUTED
+B11_M6_CAUSAL_SOURCE_PULSE       = OPEN_NOT_EXECUTED
+WHOLE_CRAFT_EARTH_EXTERNAL_FORCE = NOT_ESTABLISHED
+G1_EARTH_DOWN_CRAFT_UP           = NOT_ESTABLISHED
+G2_GRAVITY_WEIGHT_REDUCTION      = NOT_ESTABLISHED
+G3_ORDINARY_AIR_EXHAUST_THRUST   = COMPARATOR_NOT_ANTIGRAVITY
+SURFACE_LAUNCH                    = NOT_DEMONSTRATED
+SUSPENDED_OPERATION               = NOT_DEMONSTRATED
+FIELD_ONLY_HOVER                  = NOT_DEMONSTRATED
+AUX_ASSISTED_FIELD_BENEFIT        = NOT_DEMONSTRATED
+TRUE_EXTERIOR_METRIC_CHANNEL      = NOT_ESTABLISHED
+PHYSICAL_SOURCE_NOETHER           = NOT_CERTIFIED
+COMPLETE_ENERGY_LT_10MJ           = NOT_CERTIFIED
+TEST_LAST_FULL_SUITE              = 1283_PASSED_HISTORICAL
+TEST_NEW_FULL_SUITE               = NOT_REPORTED
+GR_REFERENCE                      = 006D
+GR_REFERENCE_C                   = 23.591586299249
+006D_REPLACED                     = NO
+HOOK17_STATUS                    = OPEN
+THIS_DOCUMENT                    = RESEARCH_BUILDPLAN_UPDATE_COMPLETE_AS_ARTIFACT
+OTHER_REPOSITORY_DOCUMENTS        = NOT_MODIFIED_BY_THIS_ARTIFACT
+PROJECT_LEVEL_INSTRUCTIONS        = PENDING_SEPARATE_EDIT
+JOURNALS_AND_BUNDLES              = PENDING_SEPARATE_EDIT
+CODE_AND_SIMULATIONS              = NOT_MODIFIED_BY_THIS_ARTIFACT
+```
+
+### Final scientific decision
+
+**Our next decisive question is not whether the original R3B fields can accelerate a separate torus placed above a stationary generator. It is whether a full, physically sourced, craft-mounted R3B-derived apparatus can produce an externally transmitted and reciprocal interaction with Earth that gives the entire spacecraft a real upward benefit, while keeping healthy dynamics, exact conservation, all environmental and onboard matter loading, and strict complete energy.**
+
+The 1.5429162116460216 J preloaded result remains the protected reference. B17 is the first new **geometry and exterior-transmission** falsification gate. B11-M6 remains the key potential **dynamic escape** from static interface screening. No usable antigravity or certified sub-10-MJ device has been demonstrated. 006D remains unreplaced.
+
+---
+
+# END CURRENT AUTHORITATIVE PART I — CRAFT-MOUNTED EARTH-DIRECTED BUILDPLAN
+
+
+---
+
+# PART II — ARCHIVED FULL NOVEMBER 10, 2026 BUILDPLAN (HISTORICAL SNAPSHOT; NOT ACTIVE)
+
+> **ARCHIVAL/SUPERSESSION WARNING:** Below is the **complete, otherwise unmodified text** of the user's previous 5,556-line buildplan, including its then-current November 10 Part I and nested September 14 and November 9 archives. The old document's self-description as “CURRENT AUTHORITATIVE STRATEGY” was true for its own date, **not today**. No command, current-branch claim, test count, laboratory source layout, or documentation status in the archived material overrides the new Part I above. This complete retention preserves 006D/A12/R3 derivations, old hashes, support and source-family failure memory for independent reconstruction.
+
+---
+
 # Antigravity Research — Research Buildplan
 
 **Updated:** November 10, 2026  

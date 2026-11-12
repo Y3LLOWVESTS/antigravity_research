@@ -1,0 +1,203 @@
+{
+  "actual_time_domain_current_and_field_evolution": false,
+  "b7_finite_width_source_inserted": false,
+  "branch": "032H17A12D1R3X3B11_M3",
+  "complete_operating_energy_certified": false,
+  "grids": [
+    {
+      "alternating_two_cycle_avg_m_s2": -0.002121064571298935,
+      "any_1g_com": false,
+      "any_1g_everywhere": false,
+      "best_polarity_100us_cycle_avg_m_s2": 0.002989034901483613,
+      "common_inward_payload_samples": 6,
+      "grid_m": 0.075,
+      "sampled_payload_cells": 22,
+      "states": {
+        "++": {
+          "loaded_min_local_m_s2": -46.40607408464625,
+          "loaded_peak_com_m_s2": 0.07970759737289633,
+          "loaded_peak_energy_j": 1.4433196404756485,
+          "negative_peak_force_n": -0.33068454687210114,
+          "positive_peak_force_n": 0.4102804723104874,
+          "pulse_100us_cycle_avg_m_s2": 0.002989034901483613,
+          "pulse_100us_net_impulse_kg_m_s": 2.9848472039394858e-06,
+          "signs": [
+            1,
+            1
+          ]
+        },
+        "+-": {
+          "loaded_min_local_m_s2": -25.73244070765876,
+          "loaded_peak_com_m_s2": -0.19283104117550617,
+          "loaded_peak_energy_j": 1.4433481432736437,
+          "negative_peak_force_n": -0.39383048033740625,
+          "positive_peak_force_n": 0.20126959929859212,
+          "pulse_100us_cycle_avg_m_s2": -0.007231164044081482,
+          "pulse_100us_net_impulse_kg_m_s": -7.221033038955531e-06,
+          "signs": [
+            1,
+            -1
+          ]
+        },
+        "-+": {
+          "loaded_min_local_m_s2": -25.73244070765876,
+          "loaded_peak_com_m_s2": -0.19283104117550617,
+          "loaded_peak_energy_j": 1.4433481432736437,
+          "negative_peak_force_n": -0.39383048033740625,
+          "positive_peak_force_n": 0.20126959929859212,
+          "pulse_100us_cycle_avg_m_s2": -0.007231164044081482,
+          "pulse_100us_net_impulse_kg_m_s": -7.221033038955531e-06,
+          "signs": [
+            -1,
+            1
+          ]
+        },
+        "--": {
+          "loaded_min_local_m_s2": -46.40607408464625,
+          "loaded_peak_com_m_s2": 0.07970759737289633,
+          "loaded_peak_energy_j": 1.4433196404756485,
+          "negative_peak_force_n": -0.33068454687210114,
+          "positive_peak_force_n": 0.4102804723104874,
+          "pulse_100us_cycle_avg_m_s2": 0.002989034901483613,
+          "pulse_100us_net_impulse_kg_m_s": 2.9848472039394858e-06,
+          "signs": [
+            -1,
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "alternating_two_cycle_avg_m_s2": 0.005779333037789285,
+      "any_1g_com": false,
+      "any_1g_everywhere": false,
+      "best_polarity_100us_cycle_avg_m_s2": 0.005795321284936914,
+      "common_inward_payload_samples": 9,
+      "grid_m": 0.05,
+      "sampled_payload_cells": 48,
+      "states": {
+        "++": {
+          "loaded_min_local_m_s2": -129.67185782242464,
+          "loaded_peak_com_m_s2": 0.15454190093165102,
+          "loaded_peak_energy_j": 1.5211390382733165,
+          "negative_peak_force_n": -0.2311656349659924,
+          "positive_peak_force_n": 0.38613486582633494,
+          "pulse_100us_cycle_avg_m_s2": 0.005795321284936914,
+          "pulse_100us_net_impulse_kg_m_s": 5.8113461572628455e-06,
+          "signs": [
+            1,
+            1
+          ]
+        },
+        "+-": {
+          "loaded_min_local_m_s2": -117.26975046173365,
+          "loaded_peak_com_m_s2": 0.15368919441711076,
+          "loaded_peak_energy_j": 1.5211376733376945,
+          "negative_peak_force_n": -0.26506362080759865,
+          "positive_peak_force_n": 0.4191777873008583,
+          "pulse_100us_cycle_avg_m_s2": 0.005763344790641655,
+          "pulse_100us_net_impulse_kg_m_s": 5.779281243497238e-06,
+          "signs": [
+            1,
+            -1
+          ]
+        },
+        "-+": {
+          "loaded_min_local_m_s2": -117.26975046173365,
+          "loaded_peak_com_m_s2": 0.15368919441711076,
+          "loaded_peak_energy_j": 1.5211376733376945,
+          "negative_peak_force_n": -0.26506362080759865,
+          "positive_peak_force_n": 0.4191777873008583,
+          "pulse_100us_cycle_avg_m_s2": 0.005763344790641655,
+          "pulse_100us_net_impulse_kg_m_s": 5.779281243497238e-06,
+          "signs": [
+            -1,
+            1
+          ]
+        },
+        "--": {
+          "loaded_min_local_m_s2": -129.67185782242464,
+          "loaded_peak_com_m_s2": 0.15454190093165102,
+          "loaded_peak_energy_j": 1.5211390382733165,
+          "negative_peak_force_n": -0.2311656349659924,
+          "positive_peak_force_n": 0.38613486582633494,
+          "pulse_100us_cycle_avg_m_s2": 0.005795321284936914,
+          "pulse_100us_net_impulse_kg_m_s": 5.8113461572628455e-06,
+          "signs": [
+            -1,
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "alternating_two_cycle_avg_m_s2": 0.0010474970058489117,
+      "any_1g_com": false,
+      "any_1g_everywhere": false,
+      "best_polarity_100us_cycle_avg_m_s2": 0.005535332650657925,
+      "common_inward_payload_samples": 16,
+      "grid_m": 0.04,
+      "sampled_payload_cells": 74,
+      "states": {
+        "++": {
+          "loaded_min_local_m_s2": -145.63825746988095,
+          "loaded_peak_com_m_s2": -0.09174236370560268,
+          "loaded_peak_energy_j": 1.4954830545828257,
+          "negative_peak_force_n": -1.0720576417440437,
+          "positive_peak_force_n": 0.9803018570642412,
+          "pulse_100us_cycle_avg_m_s2": -0.0034403386389601012,
+          "pulse_100us_net_impulse_kg_m_s": -3.4408419254925942e-06,
+          "signs": [
+            1,
+            1
+          ]
+        },
+        "+-": {
+          "loaded_min_local_m_s2": -137.57668881249168,
+          "loaded_peak_com_m_s2": 0.1476088706842113,
+          "loaded_peak_energy_j": 1.4954252051014116,
+          "negative_peak_force_n": -0.857348540042823,
+          "positive_peak_force_n": 1.0049790044026832,
+          "pulse_100us_cycle_avg_m_s2": 0.005535332650657925,
+          "pulse_100us_net_impulse_kg_m_s": 5.536142413494756e-06,
+          "signs": [
+            1,
+            -1
+          ]
+        },
+        "-+": {
+          "loaded_min_local_m_s2": -137.57668881249168,
+          "loaded_peak_com_m_s2": 0.1476088706842113,
+          "loaded_peak_energy_j": 1.4954252051014116,
+          "negative_peak_force_n": -0.857348540042823,
+          "positive_peak_force_n": 1.0049790044026832,
+          "pulse_100us_cycle_avg_m_s2": 0.005535332650657925,
+          "pulse_100us_net_impulse_kg_m_s": 5.536142413494756e-06,
+          "signs": [
+            -1,
+            1
+          ]
+        },
+        "--": {
+          "loaded_min_local_m_s2": -145.63825746988095,
+          "loaded_peak_com_m_s2": -0.09174236370560268,
+          "loaded_peak_energy_j": 1.4954830545828257,
+          "negative_peak_force_n": -1.0720576417440437,
+          "positive_peak_force_n": 0.9803018570642412,
+          "pulse_100us_cycle_avg_m_s2": -0.0034403386389601012,
+          "pulse_100us_net_impulse_kg_m_s": -3.4408419254925942e-06,
+          "signs": [
+            -1,
+            -1
+          ]
+        }
+      }
+    }
+  ],
+  "period_ms": 1.0,
+  "polarity_switching_work_and_radiation_included": false,
+  "pulse_width_us": 100.0,
+  "replaced_006d": false,
+  "scope": "QUASISTATIC_FIXED_DENSITY_LOADED_TORUS_SOURCE_POLARITY",
+  "whole_craft_lift": false
+}

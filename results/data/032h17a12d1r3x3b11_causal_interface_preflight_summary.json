@@ -1,0 +1,22 @@
+{
+  "006d_replaced": false,
+  "actual_toroidal_causal_response_tested": false,
+  "b7_10cm_preloaded_reproduced_j": 1.5473042949759672,
+  "branch": "032H17A12D1R3X3B11",
+  "carrier_action_energy_identity_pass": true,
+  "classification": "RED_SCOPED_IDEAL_PLANAR_FREQUENCY_BYPASS_ONLY",
+  "co_propagating_mixed_invariant_zero": true,
+  "code_sha256": "526d53a9afb941c1611da563bdb75bf7d0c7dd9796738a95c1c64d207425bfcf",
+  "complete_matter_source_action_verified": false,
+  "complete_operating_energy_certified": false,
+  "exact_planar_reflection_power": 0.999999988904821,
+  "exact_planar_transmission_power": 1.1095178772703234e-08,
+  "finite_width_source_continuity_max_relative": 7.082221192582549e-17,
+  "fully_loaded_finite_payload_impulse_tested": false,
+  "ideal_planar_frequency_advantage": false,
+  "physical_antigravity_model_found": false,
+  "r3b_preloaded_reproduced_j": 1.5429162116460216,
+  "scope": "SHARP_PLANAR_FIXED_MATTER_P1_P2_CONTROL",
+  "theta_comparator_not_actual_toroidal_theta": 18987.283771593688,
+  "whole_craft_lift_tested": false
+}

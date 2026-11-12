@@ -1,0 +1,53 @@
+{
+  "006D_replaced": false,
+  "B7_shell_inserted": false,
+  "actual_polarity_switching_currents": false,
+  "actual_time_dependent_maxwell_evolution": false,
+  "b7_preloaded_energy_reference_j": 1.5473042949759672,
+  "branch": "032H17A12D1R3X3B11_M4",
+  "complete_energy_certified": false,
+  "cycle_period_ms": 1.0,
+  "mean_field_energy_cap_not_device_energy": true,
+  "microscopic_source_realized": false,
+  "r3b_preloaded_energy_reference_j": 1.5429162116460216,
+  "results": [
+    {
+      "canonical_energy_matrix_min_eigen_j": 0.19203855805876205,
+      "com_1g_excluded": true,
+      "com_acceleration_upper_bound_m_s2": 0.0895626680701087,
+      "covariance_candidate_min_eigenvalue": -2.4347061450074696e-05,
+      "everywhere_1g_excluded": true,
+      "everywhere_acceleration_outer_upper_bound_m_s2": -0.2687870275699301,
+      "grid_m": 0.075,
+      "mean_field_energy_cap_j": 1.5473042949759672,
+      "original_loaded_energy_j": 1.4433196404756483,
+      "payload_samples": 22
+    },
+    {
+      "canonical_energy_matrix_min_eigen_j": 0.20428252586780393,
+      "com_1g_excluded": true,
+      "com_acceleration_upper_bound_m_s2": 1.1464309369318564,
+      "covariance_candidate_min_eigenvalue": 0.010031419945077542,
+      "everywhere_1g_excluded": true,
+      "everywhere_acceleration_outer_upper_bound_m_s2": -0.3064945327801193,
+      "grid_m": 0.05,
+      "mean_field_energy_cap_j": 1.5473042949759672,
+      "original_loaded_energy_j": 1.521139038273316,
+      "payload_samples": 48
+    },
+    {
+      "canonical_energy_matrix_min_eigen_j": 0.20209650753286354,
+      "com_1g_excluded": true,
+      "com_acceleration_upper_bound_m_s2": 0.2721003108074272,
+      "covariance_candidate_min_eigenvalue": -8.057667133275422e-05,
+      "everywhere_1g_excluded": true,
+      "everywhere_acceleration_outer_upper_bound_m_s2": -0.8213295251176302,
+      "grid_m": 0.04,
+      "mean_field_energy_cap_j": 1.5473042949759672,
+      "original_loaded_energy_j": 1.4954830545828255,
+      "payload_samples": 74
+    }
+  ],
+  "scope": "QUASISTATIC_LOADED_R3B_TWO_SOURCE_COVARIANCE",
+  "whole_craft_lift": false
+}
