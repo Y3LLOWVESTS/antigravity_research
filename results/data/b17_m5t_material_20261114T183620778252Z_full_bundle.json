@@ -1,0 +1,1126 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+  "errors": {},
+  "manifest": [
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c1",
+      "step": 0.0001,
+      "width": 0.25
+    },
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c2",
+      "step": 0.0001,
+      "width": 0.5
+    },
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c2",
+      "step": 0.0001,
+      "width": 0.5,
+      "zero_source": true
+    },
+    {
+      "h": 0.25,
+      "order": 4,
+      "profile": "c1",
+      "step": 0.0001,
+      "width": 0.25
+    },
+    {
+      "h": 0.25,
+      "order": 12,
+      "profile": "c1",
+      "step": 0.0001,
+      "width": 0.25
+    },
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c1",
+      "step": 0.001,
+      "width": 0.25
+    },
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c1",
+      "step": 1e-05,
+      "width": 0.25
+    },
+    {
+      "h": 0.25,
+      "order": 4,
+      "profile": "c2",
+      "step": 0.0001,
+      "width": 0.5
+    },
+    {
+      "h": 0.25,
+      "order": 12,
+      "profile": "c2",
+      "step": 0.0001,
+      "width": 0.5
+    },
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c2",
+      "step": 0.001,
+      "width": 0.5
+    },
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c2",
+      "step": 1e-05,
+      "width": 0.5
+    },
+    {
+      "h": 0.2,
+      "order": 4,
+      "profile": "c1",
+      "step": 0.0001,
+      "width": 0.25
+    },
+    {
+      "h": 0.2,
+      "order": 12,
+      "profile": "c1",
+      "step": 0.0001,
+      "width": 0.25
+    },
+    {
+      "h": 0.2,
+      "order": 8,
+      "profile": "c1",
+      "step": 0.001,
+      "width": 0.25
+    },
+    {
+      "h": 0.2,
+      "order": 8,
+      "profile": "c1",
+      "step": 1e-05,
+      "width": 0.25
+    },
+    {
+      "h": 0.2,
+      "order": 4,
+      "profile": "c2",
+      "step": 0.0001,
+      "width": 0.5
+    },
+    {
+      "h": 0.2,
+      "order": 12,
+      "profile": "c2",
+      "step": 0.0001,
+      "width": 0.5
+    },
+    {
+      "h": 0.2,
+      "order": 8,
+      "profile": "c2",
+      "step": 0.001,
+      "width": 0.5
+    },
+    {
+      "h": 0.2,
+      "order": 8,
+      "profile": "c2",
+      "step": 1e-05,
+      "width": 0.5
+    },
+    {
+      "h": 0.2,
+      "order": 8,
+      "profile": "c1",
+      "step": 0.0001,
+      "width": 0.25
+    },
+    {
+      "h": 0.2,
+      "order": 8,
+      "profile": "c2",
+      "step": 0.0001,
+      "width": 0.5
+    }
+  ],
+  "mode": "full",
+  "module_sha256": "7b613fc98d3d7247483ea1f0dcb89e492131e46d3f7f549097d73a98cc41ffa5",
+  "parent_source_sha256": {
+    "hook17_f2_strong_payload_loading_rescue": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+    "hook17_fdual_f_loaded_payload_homotopy": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+    "hook17_r3b_m4b1_source_recovery": "59be7700953a715562d7676d48959953837145310191398eb5ce167a8a010599",
+    "hook17_r3b_m4b_sparse_earth_loading": "446963973cad865bb2a8460ee0e44f0e260c9953c1c0ae2a26b2031fa33a643c",
+    "hook17_r3b_m5i_continuum_source": "ee3ff31e2068e2f6fc5c8bf46ee951e5b11098d24ba36d73e8f0e1f568f44a54",
+    "hook17_r3b_m5l_variational_audit": "aa5571303309c80762d7f8d9fc058d56c458e2b3793e773d37c3bf77573c256b",
+    "hook17_r3b_m5m_translation_consistency": "f95a33f65c815b129007beea44a75f19feb0efe859817843b69922d9ac84a7ec"
+  },
+  "results": {
+    "01_c1_0.25_8_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4284646128253,
+      "center_action_on_j": 2074.4558049695365,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 2.0772413495251385,
+        "craft": 11.596837225624768,
+        "earth": -9.519597415419412
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -2.815890994156689e-06,
+        "craft": 3.92026837658932e-08,
+        "earth": -4.394413460673263e-06
+      },
+      "h": 0.25,
+      "interaction_action_j": -7.972659643288807,
+      "maximum_abs_disagreement_j_m": 4.394413460673263e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 4.611063219872242e-16,
+        "solver": 1.887818125930064e-15,
+        "stationarity": 2.6471558221944976e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": 2.0772441654161327,
+        "craft": 11.596837186422084,
+        "craft_operator": -0.014569918602620352,
+        "craft_source": 11.611407105024703,
+        "earth": -9.519593021005951
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "02_c2_0.25_8_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4562136113373,
+      "center_action_on_j": 2072.7311773088286,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -1.8663197215573746,
+        "craft": 14.402971082745353,
+        "earth": -16.26929035410285
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 1.8720582275477682e-06,
+        "craft": 5.8035521277588487e-08,
+        "earth": 2.264222583647779e-06
+      },
+      "h": 0.25,
+      "interaction_action_j": -9.72503630250867,
+      "maximum_abs_disagreement_j_m": 2.264222583647779e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 3.8457478505031427e-16,
+        "solver": 2.299351761325274e-15,
+        "stationarity": 2.7977612164291084e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": -1.8663215936156021,
+        "craft": 14.402971024709831,
+        "craft_operator": -0.033687621360745885,
+        "craft_source": 14.436658646070578,
+        "earth": -16.269292618325434
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "03_c2_0.25_8_0.0001_True": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 0.0,
+      "center_action_on_j": 0.0,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 0.0,
+        "craft": 0.0,
+        "earth": 0.0
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 0.0,
+        "craft": 0.0,
+        "earth": 0.0
+      },
+      "h": 0.25,
+      "interaction_action_j": 0.0,
+      "maximum_abs_disagreement_j_m": 0.0,
+      "numerical_residuals": {
+        "on_shell_identity": 0.0,
+        "solver": 0.0,
+        "stationarity": 0.0,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": 0.0,
+        "craft": 0.0,
+        "craft_operator": 0.0,
+        "craft_source": 0.0,
+        "earth": 0.0
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": true
+    },
+    "04_c1_0.25_4_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4284836469687,
+      "center_action_on_j": 2074.4553280402583,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 1.7708674135974434,
+        "craft": 11.597680688737455,
+        "earth": -9.826814871303213
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -2.554473596205753e-06,
+        "craft": 3.329707709553986e-08,
+        "earth": -4.183933874912782e-06
+      },
+      "h": 0.25,
+      "interaction_action_j": -7.973155606710407,
+      "maximum_abs_disagreement_j_m": 4.183933874912782e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 3.8425499831561475e-16,
+        "solver": 2.0811115738589345e-15,
+        "stationarity": 2.6568061226646047e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 4,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": 1.7708699680710396,
+        "craft": 11.597680655440378,
+        "craft_operator": -0.014550008623033461,
+        "craft_source": 11.61223066406341,
+        "earth": -9.826810687369338
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "05_c1_0.25_12_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4284634865644,
+      "center_action_on_j": 2074.455831156573,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 2.138046031632257,
+        "craft": 11.596791794090677,
+        "earth": -9.45874729723073
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -2.858179657394544e-06,
+        "craft": 3.6759594479462976e-08,
+        "earth": -4.429711561115823e-06
+      },
+      "h": 0.25,
+      "interaction_action_j": -7.972632329991484,
+      "maximum_abs_disagreement_j_m": 4.429711561115823e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 2.305531848459947e-16,
+        "solver": 1.889076237693318e-15,
+        "stationarity": 2.7277034082001723e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 12,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": 2.1380488898119143,
+        "craft": 11.596791757331083,
+        "craft_operator": -0.01457001652417929,
+        "craft_source": 11.611361773855261,
+        "earth": -9.458742867519168
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "06_c1_0.25_8_0.001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4284646128253,
+      "center_action_on_j": 2074.4558049695365,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 2.076959040550719,
+        "craft": 11.596837309525654,
+        "earth": -9.520032729597006
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -0.0002813786099284954,
+        "craft": 3.869359055386212e-06,
+        "earth": -0.0004397085910543552
+      },
+      "h": 0.25,
+      "interaction_action_j": -7.972659643288807,
+      "maximum_abs_disagreement_j_m": 0.0004397085910543552,
+      "numerical_residuals": {
+        "on_shell_identity": 3.074054990194493e-16,
+        "solver": 1.887818125930064e-15,
+        "stationarity": 2.6471558221944976e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": 2.0772404191606473,
+        "craft": 11.596833440166598,
+        "craft_operator": -0.014569918602620352,
+        "craft_source": 11.611403358769218,
+        "earth": -9.519593021005951
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "07_c1_0.25_8_1e-05_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4284646128253,
+      "center_action_on_j": 2074.4558049695365,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 2.0772441075678216,
+        "craft": 11.596837134675296,
+        "earth": -9.519593095319578
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -9.531933820028371e-08,
+        "craft": -8.921781535775608e-08,
+        "earth": -7.431362725185409e-08
+      },
+      "h": 0.25,
+      "interaction_action_j": -7.972659643288807,
+      "maximum_abs_disagreement_j_m": 9.531933820028371e-08,
+      "numerical_residuals": {
+        "on_shell_identity": 3.062271647980485e-16,
+        "solver": 1.887818125930064e-15,
+        "stationarity": 2.6471558221944976e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": 2.07724420288716,
+        "craft": 11.596837223893111,
+        "craft_operator": -0.014569918602620352,
+        "craft_source": 11.61140714249573,
+        "earth": -9.519593021005951
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 1e-05,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "08_c2_0.25_4_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.456211377837,
+      "center_action_on_j": 2072.731478495081,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -1.8691476725507528,
+        "craft": 14.402336535113136,
+        "earth": -16.27148376428522
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 2.0163405878292906e-06,
+        "craft": 1.7294104992515713e-07,
+        "earth": 2.286778205018436e-06
+      },
+      "h": 0.25,
+      "interaction_action_j": -9.724732882756143,
+      "maximum_abs_disagreement_j_m": 2.286778205018436e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 4.614900713021351e-16,
+        "solver": 1.9920655876127267e-15,
+        "stationarity": 2.81581011794121e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 4,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": -1.8691496888913406,
+        "craft": 14.402336362172086,
+        "craft_operator": -0.03364954711175511,
+        "craft_source": 14.435985909283842,
+        "earth": -16.271486051063427
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "09_c2_0.25_12_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.456213661244,
+      "center_action_on_j": 2072.731160542637,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -1.8661632088878832,
+        "craft": 14.403006241536787,
+        "earth": -16.26916899567732
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 1.8766634344302702e-06,
+        "craft": 5.884276355061502e-08,
+        "earth": 2.2725680217661193e-06
+      },
+      "h": 0.25,
+      "interaction_action_j": -9.725053118606866,
+      "maximum_abs_disagreement_j_m": 2.2725680217661193e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 3.0765961172061314e-16,
+        "solver": 1.9296007307840204e-15,
+        "stationarity": 2.7732278056794778e-15,
+        "weighted_asymmetry": 7.558109897187894e-17
+      },
+      "order": 12,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": -1.8661650855513177,
+        "craft": 14.403006182694023,
+        "craft_operator": -0.03368973848570829,
+        "craft_source": 14.436695921179732,
+        "earth": -16.26917126824534
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "10_c2_0.25_8_0.001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4562136113373,
+      "center_action_on_j": 2072.7311773088286,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -1.8661387916836247,
+        "craft": 14.402971489516858,
+        "earth": -16.26906548108309
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 0.00018743178118008075,
+        "craft": 5.0946562293319175e-06,
+        "earth": 0.00022713724234435517
+      },
+      "h": 0.25,
+      "interaction_action_j": -9.72503630250867,
+      "maximum_abs_disagreement_j_m": 0.00022713724234435517,
+      "numerical_residuals": {
+        "on_shell_identity": 5.384089618784276e-16,
+        "solver": 2.176168608924661e-15,
+        "stationarity": 2.900519389697421e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": -1.8663262234648048,
+        "craft": 14.402966394860629,
+        "craft_operator": -0.033687621360745885,
+        "craft_source": 14.436654016221375,
+        "earth": -16.269292618325434
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "11_c2_0.25_8_1e-05_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4562136113373,
+      "center_action_on_j": 2072.7311773088286,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -1.8663214632397283,
+        "craft": 14.402971123672613,
+        "earth": -16.269292655124445
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 8.406095752810927e-08,
+        "craft": 5.2647864734467476e-08,
+        "earth": -3.679901183772927e-08
+      },
+      "h": 0.25,
+      "interaction_action_j": -9.72503630250867,
+      "maximum_abs_disagreement_j_m": 8.406095752810927e-08,
+      "numerical_residuals": {
+        "on_shell_identity": 5.384046965261257e-16,
+        "solver": 2.0534113317499204e-15,
+        "stationarity": 2.9674358658257665e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": -1.8663215473006858,
+        "craft": 14.402971071024748,
+        "craft_operator": -0.033687621360745885,
+        "craft_source": 14.436658692385494,
+        "earth": -16.269292618325434
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 1e-05,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "12_c1_0.2_4_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.4679909126608,
+      "center_action_on_j": 2104.017661252553,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -2.028725666605169,
+        "craft": 10.792340997340943,
+        "earth": -12.821067882669013
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 5.436263524671858e-06,
+        "craft": 4.8771779503908874e-08,
+        "earth": 4.1687688447922255e-06
+      },
+      "h": 0.2,
+      "interaction_action_j": -7.450329660107855,
+      "maximum_abs_disagreement_j_m": 5.436263524671858e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 8.728843128317523e-16,
+        "solver": 2.6350060187309604e-15,
+        "stationarity": 4.161089626849968e-15,
+        "weighted_asymmetry": 9.633785889515756e-17
+      },
+      "order": 4,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": -2.0287311028686936,
+        "craft": 10.792340948569164,
+        "craft_operator": -0.012410328481793206,
+        "craft_source": 10.804751277050958,
+        "earth": -12.821072051437858
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "13_c1_0.2_12_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.467982477409,
+      "center_action_on_j": 2104.0146393224104,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -2.0392031456140103,
+        "craft": 10.797076154176466,
+        "earth": -12.836280332066963
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 5.5858996859114995e-06,
+        "craft": 4.3440092412083686e-08,
+        "earth": 4.510183106987142e-06
+      },
+      "h": 0.2,
+      "interaction_action_j": -7.4533431549984925,
+      "maximum_abs_disagreement_j_m": 5.5858996859114995e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 8.698047839916583e-16,
+        "solver": 3.1277365620273185e-15,
+        "stationarity": 4.37915127499472e-15,
+        "weighted_asymmetry": 9.633785889515756e-17
+      },
+      "order": 12,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": -2.039208731513696,
+        "craft": 10.797076110736374,
+        "craft_operator": -0.012437026485470539,
+        "craft_source": 10.809513137221844,
+        "earth": -12.83628484225007
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "14_c1_0.2_8_0.001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.467982934411,
+      "center_action_on_j": 2104.014342502943,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -1.9542742188605189,
+        "craft": 10.797553922202496,
+        "earth": -12.751918744925206
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 0.0005530475932093992,
+        "craft": 3.69589214344046e-06,
+        "earth": 0.00045874783887533965
+      },
+      "h": 0.2,
+      "interaction_action_j": -7.453640431468102,
+      "maximum_abs_disagreement_j_m": 0.0005530475932093992,
+      "numerical_residuals": {
+        "on_shell_identity": 6.765148682585121e-16,
+        "solver": 2.905288526202457e-15,
+        "stationarity": 4.311346587883611e-15,
+        "weighted_asymmetry": 1.9267571779031513e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": -1.9548272664537283,
+        "craft": 10.797550226310353,
+        "craft_operator": -0.01243701177047642,
+        "craft_source": 10.80998723808083,
+        "earth": -12.752377492764081
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "15_c1_0.2_8_1e-05_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.467982934411,
+      "center_action_on_j": 2104.014342502943,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -1.9548311911421477,
+        "craft": 10.797546246976708,
+        "earth": -12.752377392644119
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -1.8215793096132415e-08,
+        "craft": -7.286101855186189e-08,
+        "earth": 1.0011996209868812e-07
+      },
+      "h": 0.2,
+      "interaction_action_j": -7.453640431468102,
+      "maximum_abs_disagreement_j_m": 1.0011996209868812e-07,
+      "numerical_residuals": {
+        "on_shell_identity": 6.765148323742307e-16,
+        "solver": 2.905288526202457e-15,
+        "stationarity": 4.311346587883611e-15,
+        "weighted_asymmetry": 1.9267571779031513e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": -1.9548311729263546,
+        "craft": 10.797546319837727,
+        "craft_operator": -0.01243701177047642,
+        "craft_source": 10.809983331608203,
+        "earth": -12.752377492764081
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 1e-05,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "16_c2_0.2_4_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.495001594228,
+      "center_action_on_j": 2102.5092666763567,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 0.46756372512390953,
+        "craft": 13.174329983485222,
+        "earth": -12.706766087831056
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -4.96320758713864e-07,
+        "craft": 3.8614239450396326e-07,
+        "earth": -7.119328966354033e-07
+      },
+      "h": 0.2,
+      "interaction_action_j": -8.985734917871468,
+      "maximum_abs_disagreement_j_m": 7.119328966354033e-07,
+      "numerical_residuals": {
+        "on_shell_identity": 1.1646820545292637e-15,
+        "solver": 3.5519710503262616e-15,
+        "stationarity": 4.481263744318797e-15,
+        "weighted_asymmetry": 9.633785889515756e-17
+      },
+      "order": 4,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": 0.46756422144466825,
+        "craft": 13.174329597342828,
+        "craft_operator": -0.027199692698283647,
+        "craft_source": 13.201529290041112,
+        "earth": -12.70676537589816
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "17_c2_0.2_12_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.4950016455055,
+      "center_action_on_j": 2102.5092667440804,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 0.4675633931583434,
+        "craft": 13.17432966288834,
+        "earth": -12.706766083283583
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -8.732847334158578e-07,
+        "craft": 2.566986800900395e-08,
+        "earth": -7.125081875614114e-07
+      },
+      "h": 0.2,
+      "interaction_action_j": -8.985734901425076,
+      "maximum_abs_disagreement_j_m": 8.732847334158578e-07,
+      "numerical_residuals": {
+        "on_shell_identity": 5.823406474366281e-16,
+        "solver": 3.256020467133053e-15,
+        "stationarity": 4.350630841690395e-15,
+        "weighted_asymmetry": 9.633785889515756e-17
+      },
+      "order": 12,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": 0.4675642664430768,
+        "craft": 13.174329637218472,
+        "craft_operator": -0.027199641518584325,
+        "craft_source": 13.201529278737056,
+        "earth": -12.706765370775395
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "18_c2_0.2_8_0.001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.495001674416,
+      "center_action_on_j": 2102.509266772857,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 0.4674847389196657,
+        "craft": 13.174338937005814,
+        "earth": -12.706836112784003
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -8.425012661028575e-05,
+        "craft": 4.5767982168598564e-06,
+        "earth": -7.074162268239093e-05
+      },
+      "h": 0.2,
+      "interaction_action_j": -8.985734901559226,
+      "maximum_abs_disagreement_j_m": 8.425012661028575e-05,
+      "numerical_residuals": {
+        "on_shell_identity": 3.865749780314527e-16,
+        "solver": 3.186504425483025e-15,
+        "stationarity": 4.413037953197486e-15,
+        "weighted_asymmetry": 9.633785889515756e-17
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": 0.467568989046276,
+        "craft": 13.174334360207597,
+        "craft_operator": -0.027199659525160753,
+        "craft_source": 13.201534019732758,
+        "earth": -12.706765371161321
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "19_c2_0.2_8_1e-05_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.495001674416,
+      "center_action_on_j": 2102.509266772857,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 0.4675641321227885,
+        "craft": 13.174329524190396,
+        "earth": -12.706765437542343
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -6.887498932295344e-08,
+        "craft": -4.7968702787670736e-08,
+        "earth": -6.638102156841796e-08
+      },
+      "h": 0.2,
+      "interaction_action_j": -8.985734901559226,
+      "maximum_abs_disagreement_j_m": 6.887498932295344e-08,
+      "numerical_residuals": {
+        "on_shell_identity": 3.882271316973167e-16,
+        "solver": 3.1362376158103604e-15,
+        "stationarity": 4.420451582071582e-15,
+        "weighted_asymmetry": 9.633785889515756e-17
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": 0.46756420099777785,
+        "craft": 13.174329572159099,
+        "craft_operator": -0.027199659525160753,
+        "craft_source": 13.20152923168426,
+        "earth": -12.706765371161321
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 1e-05,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "20_c1_0.2_8_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.467982934411,
+      "center_action_on_j": 2104.014342502943,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -1.9548255954759952,
+        "craft": 10.79754639931707,
+        "earth": -12.752372897466557
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 5.5387967901054935e-06,
+        "craft": 4.0825774760833156e-08,
+        "earth": 4.595297523835029e-06
+      },
+      "h": 0.2,
+      "interaction_action_j": -7.453640431468102,
+      "maximum_abs_disagreement_j_m": 5.5387967901054935e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 8.698047838033959e-16,
+        "solver": 3.1269360081493313e-15,
+        "stationarity": 4.544918892037733e-15,
+        "weighted_asymmetry": 1.9267571779031513e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": -1.9548311342727853,
+        "craft": 10.797546358491296,
+        "craft_operator": -0.01243701177047642,
+        "craft_source": 10.809983370261772,
+        "earth": -12.752377492764081
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "21_c2_0.2_8_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2111.495001674416,
+      "center_action_on_j": 2102.509266772857,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 0.46756337042097584,
+        "craft": 13.174329635603499,
+        "earth": -12.706766074188636
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -8.779550775273037e-07,
+        "craft": 1.606612443083577e-08,
+        "earth": -7.030273145858246e-07
+      },
+      "h": 0.2,
+      "interaction_action_j": -8.985734901559226,
+      "maximum_abs_disagreement_j_m": 8.779550775273037e-07,
+      "numerical_residuals": {
+        "on_shell_identity": 4.852841774152161e-16,
+        "solver": 3.353348991806343e-15,
+        "stationarity": 4.375758300521477e-15,
+        "weighted_asymmetry": 9.633785889515756e-17
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": 0.46756424837605337,
+        "craft": 13.174329619537374,
+        "craft_operator": -0.027199659525160753,
+        "craft_source": 13.201529279062536,
+        "earth": -12.706765371161321
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    }
+  },
+  "status": "COMPLETE_NUMERICAL_DIAGNOSTIC_ONLY",
+  "summary": {
+    "case_count": 21,
+    "complete_artificial_model": false,
+    "error_count": 0,
+    "gates": {
+      "T0_all_predeclared_cases": "PASS",
+      "T1_stationary_weighted_variation": "PASS",
+      "T2_separately_resolved_Earth_craft_common": "PASS_SCREEN_ONLY",
+      "T3_zero_source_negative_control": "PASS",
+      "T4_C1_quadrature_screen": "BLOCKED_OR_PARTIAL",
+      "T5_C2_quadrature_screen": "PASS_SCREEN_ONLY",
+      "T6_C1_C2_mesh_domain_phase_limit": "NOT_CERTIFIED",
+      "T7_M5P_exterior_closure_port": "NOT_IMPLEMENTED",
+      "T8_independent_artificial_hull_assembly_action": "NOT_DERIVED",
+      "T9_physical_Noether_metric_energy_lift": "NOT_ESTABLISHED"
+    },
+    "quadrature_spreads": {
+      "c1_h0.2": {
+        "earth_derivative_spread_j_m": 0.08390734948598855,
+        "orders": [
+          4,
+          8,
+          12
+        ],
+        "relative_spread": 0.006579741662572256
+      },
+      "c1_h0.25": {
+        "earth_derivative_spread_j_m": 0.3680678198501699,
+        "orders": [
+          4,
+          8,
+          12
+        ],
+        "relative_spread": 0.0386642390108475
+      },
+      "c2_h0.2": {
+        "earth_derivative_spread_j_m": 5.122764434872806e-09,
+        "orders": [
+          4,
+          8,
+          12
+        ],
+        "relative_spread": 4.031525164145387e-10
+      },
+      "c2_h0.25": {
+        "earth_derivative_spread_j_m": 0.0023147828180860586,
+        "orders": [
+          4,
+          8,
+          12
+        ],
+        "relative_spread": 0.00014227925407640215
+      }
+    }
+  }
+}

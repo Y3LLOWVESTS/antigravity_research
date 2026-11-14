@@ -1,0 +1,1523 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R14-M5S-INTERFACE",
+  "claims": {
+    "complete_energy": false,
+    "physical_antigravity": false,
+    "whole_spacecraft_lift": false
+  },
+  "errors": {},
+  "manifest": [
+    {
+      "name": "c1_compact_h125_step0.001",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_compact_h125_step0.0001",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_h125_step0.001",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_h125_step0.0001",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_compact_h125_step0.002",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.002,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_compact_h125_step0.0005",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.0005,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_compact_h125_step1e-05",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 1e-05,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_h125_step0.002",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.002,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_h125_step0.0005",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.0005,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_h125_step1e-05",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 1e-05,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_original_h0.0625_step0.001",
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_original_h0.0625_step0.0001",
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_original_h0.0625_step1e-05",
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_original_h0.05_step0.001",
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_original_h0.05_step0.0001",
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_original_h0.05_step1e-05",
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_original_h0.0625_step0.001",
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.5
+      }
+    },
+    {
+      "name": "c2_original_h0.0625_step0.0001",
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.5
+      }
+    },
+    {
+      "name": "c2_original_h0.0625_step1e-05",
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.5
+      }
+    },
+    {
+      "name": "c2_original_h0.05_step0.001",
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.5
+      }
+    },
+    {
+      "name": "c2_original_h0.05_step0.0001",
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.5
+      }
+    },
+    {
+      "name": "c2_original_h0.05_step1e-05",
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.5
+      }
+    },
+    {
+      "name": "c1_compact_h0625_phase-0.25_step0.0001",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c1",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_compact_h0625_phase-0.25_step1e-05",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c1",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_compact_h0625_phase0.25_step0.0001",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c1",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c1_compact_h0625_phase0.25_step1e-05",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c1",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_h0625_phase-0.25_step0.0001",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_h0625_phase-0.25_step1e-05",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_h0625_phase0.25_step0.0001",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_h0625_phase0.25_step1e-05",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_extended_h0.0625_phase-0.25",
+      "parameters": {
+        "domain": "extended",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.5
+      }
+    },
+    {
+      "name": "c2_extended_h0.0625_phase0.25",
+      "parameters": {
+        "domain": "extended",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.5
+      }
+    },
+    {
+      "name": "c2_extended_h0.05_phase-0.25",
+      "parameters": {
+        "domain": "extended",
+        "h": 0.05,
+        "phase": -0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.5
+      }
+    },
+    {
+      "name": "c2_extended_h0.05_phase0.25",
+      "parameters": {
+        "domain": "extended",
+        "h": 0.05,
+        "phase": 0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.5
+      }
+    }
+  ],
+  "mode": "full",
+  "parent_bundle_path": "/Users/mymac/Desktop/antigravity_research/results/data/b17_m5r_interaction_20261114T172722745493Z_full_bundle.json",
+  "parent_bundle_sha256": "a29932c70a126d3cd1d72b420a127e7ed38070e854eed1782a0c8dad4387ec34",
+  "processed": 34,
+  "registered": 34,
+  "results": {
+    "c1_compact_h0625_phase-0.25_step0.0001": {
+      "common_j_m": -0.028707469857969917,
+      "craft_inferred_j_m": 9.25317248018316,
+      "earth_analytic_j_m": -9.28187995004113,
+      "earth_difference_fd_minus_analytic_j_m": 9.783899184157008e-07,
+      "matched_self_translation_j_m": -0.001004669903789543,
+      "max_source_fd_relative_defect": 1.5626533030625872e-07,
+      "max_stationarity_residual": 3.3628491023408404e-14,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c1",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c1_compact_h0625_phase-0.25_step1e-05": {
+      "common_j_m": -0.02870843905816422,
+      "craft_inferred_j_m": 9.253171510982966,
+      "earth_analytic_j_m": -9.28187995004113,
+      "earth_difference_fd_minus_analytic_j_m": 9.748410079168934e-09,
+      "matched_self_translation_j_m": -0.001004688292906905,
+      "max_source_fd_relative_defect": 1.562228168871872e-09,
+      "max_stationarity_residual": 3.3628491023408404e-14,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c1",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c1_compact_h0625_phase0.25_step0.0001": {
+      "common_j_m": 0.03533318166575853,
+      "craft_inferred_j_m": 9.24342383362718,
+      "earth_analytic_j_m": -9.20809065196142,
+      "earth_difference_fd_minus_analytic_j_m": 1.1753922599666566e-06,
+      "matched_self_translation_j_m": 0.002128805831023116,
+      "max_source_fd_relative_defect": 1.562653359219762e-07,
+      "max_stationarity_residual": 3.4728857644703345e-14,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c1",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c1_compact_h0625_phase0.25_step1e-05": {
+      "common_j_m": 0.035332018292095375,
+      "craft_inferred_j_m": 9.243422670253516,
+      "earth_analytic_j_m": -9.20809065196142,
+      "earth_difference_fd_minus_analytic_j_m": 1.1729399673754415e-08,
+      "matched_self_translation_j_m": 0.0021288242199445856,
+      "max_source_fd_relative_defect": 1.5623197978307354e-09,
+      "max_stationarity_residual": 3.4728857644703345e-14,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c1",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c1_compact_h125_step0.0001": {
+      "common_j_m": 0.7849530132928502,
+      "craft_inferred_j_m": 9.930075596171363,
+      "earth_analytic_j_m": -9.145122582878512,
+      "earth_difference_fd_minus_analytic_j_m": -0.002338057122596382,
+      "matched_self_translation_j_m": 0.0006147153742146337,
+      "max_source_fd_relative_defect": 1.5074744635529313e-07,
+      "max_stationarity_residual": 9.240340377274813e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 3.36933835765052e-06,
+        "craft_j_m": 0.0023380947049105316,
+        "earth_j_m": -0.0023345730261912223
+      }
+    },
+    "c1_compact_h125_step0.0005": {
+      "common_j_m": 0.7756196130510673,
+      "craft_inferred_j_m": 9.920742195929579,
+      "earth_analytic_j_m": -9.145122582878512,
+      "earth_difference_fd_minus_analytic_j_m": -0.01167110903293711,
+      "matched_self_translation_j_m": 0.0006147153244484392,
+      "max_source_fd_relative_defect": 3.7686781489576325e-06,
+      "max_stationarity_residual": 9.240340377274813e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.0005,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 8.354729218784662e-05,
+        "craft_j_m": 0.011672228454171929,
+        "earth_j_m": -0.011584793981628039
+      }
+    },
+    "c1_compact_h125_step0.001": {
+      "common_j_m": 0.7639960129233586,
+      "craft_inferred_j_m": 9.909118595801871,
+      "earth_analytic_j_m": -9.145122582878512,
+      "earth_difference_fd_minus_analytic_j_m": -0.023294276800937652,
+      "matched_self_translation_j_m": 0.0006147152564877987,
+      "max_source_fd_relative_defect": 1.5074621666386582e-05,
+      "max_stationarity_residual": 9.240340377274813e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 0.00032991166905416147,
+        "craft_j_m": 0.023298751925224792,
+        "earth_j_m": -0.022953041423706466
+      }
+    },
+    "c1_compact_h125_step0.002": {
+      "common_j_m": 0.7408926466152719,
+      "craft_inferred_j_m": 9.886015229493784,
+      "earth_analytic_j_m": -9.145122582878512,
+      "earth_difference_fd_minus_analytic_j_m": -0.04639678857044771,
+      "matched_self_translation_j_m": 0.0006147151013904314,
+      "max_source_fd_relative_defect": 6.029703095071677e-05,
+      "max_stationarity_residual": 9.240340377274813e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.002,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 0.001286142594630002,
+        "craft_j_m": 0.046414695749229296,
+        "earth_j_m": -0.045063452205967636
+      }
+    },
+    "c1_compact_h125_step1e-05": {
+      "common_j_m": 0.7870572570330788,
+      "craft_inferred_j_m": 9.93217983991159,
+      "earth_analytic_j_m": -9.145122582878512,
+      "earth_difference_fd_minus_analytic_j_m": -0.0002338920562845459,
+      "matched_self_translation_j_m": 0.0006147153848482702,
+      "max_source_fd_relative_defect": 1.5068196511576031e-09,
+      "max_stationarity_residual": 9.240340377274813e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 1e-05,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 1.743196276215997e-08,
+        "craft_j_m": 0.0002337645626866447,
+        "earth_j_m": -0.00023388355492848234
+      }
+    },
+    "c1_original_h0.05_step0.0001": {
+      "common_j_m": 0.21886170445707004,
+      "craft_inferred_j_m": 9.122792782112425,
+      "earth_analytic_j_m": -8.903931077655354,
+      "earth_difference_fd_minus_analytic_j_m": -0.0013005902371379108,
+      "matched_self_translation_j_m": 3.190686520587174e-05,
+      "max_source_fd_relative_defect": 1.5708167052341678e-07,
+      "max_stationarity_residual": 6.289707890032153e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 7.831427656923573e-07,
+        "craft_j_m": 0.0013006349731075062,
+        "earth_j_m": -0.0012998063556075579
+      }
+    },
+    "c1_original_h0.05_step0.001": {
+      "common_j_m": 0.2072531423017743,
+      "craft_inferred_j_m": 9.111184219957128,
+      "earth_analytic_j_m": -8.903931077655354,
+      "earth_difference_fd_minus_analytic_j_m": -0.012909027892451519,
+      "matched_self_translation_j_m": 3.1906865795887724e-05,
+      "max_source_fd_relative_defect": 1.5708034415175275e-05,
+      "max_stationarity_residual": 6.289707890032153e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 7.987377656279437e-05,
+        "craft_j_m": 0.012913406724631926,
+        "earth_j_m": -0.012830747620544258
+      }
+    },
+    "c1_original_h0.05_step1e-05": {
+      "common_j_m": 0.2200321541822653,
+      "craft_inferred_j_m": 9.12396323183762,
+      "earth_analytic_j_m": -8.903931077655354,
+      "earth_difference_fd_minus_analytic_j_m": -0.00013015591619414124,
+      "matched_self_translation_j_m": 3.190686655295799e-05,
+      "max_source_fd_relative_defect": 1.5710572082722068e-09,
+      "max_stationarity_residual": 6.289707890032153e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c1_original_h0.0625_step0.0001": {
+      "common_j_m": 0.3523657378040654,
+      "craft_inferred_j_m": 9.207307550300774,
+      "earth_analytic_j_m": -8.854941812496708,
+      "earth_difference_fd_minus_analytic_j_m": -0.0016623840343683582,
+      "matched_self_translation_j_m": 3.220486516960208e-05,
+      "max_source_fd_relative_defect": 1.5626814173666544e-07,
+      "max_stationarity_residual": 3.8365115324496287e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 8.836237255782642e-07,
+        "craft_j_m": 0.0016624089171646261,
+        "earth_j_m": -0.0016615184722290621
+      }
+    },
+    "c1_original_h0.0625_step0.001": {
+      "common_j_m": 0.33749999644263756,
+      "craft_inferred_j_m": 9.192441808939346,
+      "earth_analytic_j_m": -8.854941812496708,
+      "earth_difference_fd_minus_analytic_j_m": -0.01652792294140859,
+      "matched_self_translation_j_m": 3.2204863681082936e-05,
+      "max_source_fd_relative_defect": 1.5626682997031394e-05,
+      "max_stationarity_residual": 3.8365115324496287e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 8.764371792618908e-05,
+        "craft_j_m": 0.016532332817352113,
+        "earth_j_m": -0.016442316227749387
+      }
+    },
+    "c1_original_h0.0625_step1e-05": {
+      "common_j_m": 0.35386180806237816,
+      "craft_inferred_j_m": 9.208803620559086,
+      "earth_analytic_j_m": -8.854941812496708,
+      "earth_difference_fd_minus_analytic_j_m": -0.0001663343628788283,
+      "matched_self_translation_j_m": 3.2204865268733384e-05,
+      "max_source_fd_relative_defect": 1.5623540496220983e-09,
+      "max_stationarity_residual": 3.8365115324496287e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c1",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_compact_h0625_phase-0.25_step0.0001": {
+      "common_j_m": 0.00836355643989221,
+      "craft_inferred_j_m": 8.827844600628614,
+      "earth_analytic_j_m": -8.819481044188722,
+      "earth_difference_fd_minus_analytic_j_m": -8.961137361040983e-07,
+      "matched_self_translation_j_m": -0.0011686032991115416,
+      "max_source_fd_relative_defect": 1.5626533030625872e-07,
+      "max_stationarity_residual": 3.3952625854983476e-14,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_compact_h0625_phase-0.25_step1e-05": {
+      "common_j_m": 0.008364443304124652,
+      "craft_inferred_j_m": 8.827845487492846,
+      "earth_analytic_j_m": -8.819481044188722,
+      "earth_difference_fd_minus_analytic_j_m": -9.286015512088852e-09,
+      "matched_self_translation_j_m": -0.001168602853006778,
+      "max_source_fd_relative_defect": 1.562228168871872e-09,
+      "max_stationarity_residual": 3.3952625854983476e-14,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_compact_h0625_phase0.25_step0.0001": {
+      "common_j_m": 0.08024635451370254,
+      "craft_inferred_j_m": 8.826373754664552,
+      "earth_analytic_j_m": -8.746127400150849,
+      "earth_difference_fd_minus_analytic_j_m": -1.809616257730795e-06,
+      "matched_self_translation_j_m": 0.0022927218365468363,
+      "max_source_fd_relative_defect": 1.562653359219762e-07,
+      "max_stationarity_residual": 3.43664405467303e-14,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_compact_h0625_phase0.25_step1e-05": {
+      "common_j_m": 0.08024814610051674,
+      "craft_inferred_j_m": 8.826375546251366,
+      "earth_analytic_j_m": -8.746127400150849,
+      "earth_difference_fd_minus_analytic_j_m": -1.8120845268754238e-08,
+      "matched_self_translation_j_m": 0.002292721390447497,
+      "max_source_fd_relative_defect": 1.5623197978307354e-09,
+      "max_stationarity_residual": 3.43664405467303e-14,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_compact_h125_step0.0001": {
+      "common_j_m": -1.0035935432892316,
+      "craft_inferred_j_m": 9.48089695134422,
+      "earth_analytic_j_m": -10.484490494633452,
+      "earth_difference_fd_minus_analytic_j_m": -1.27749547118583e-06,
+      "matched_self_translation_j_m": 0.0006147048533378628,
+      "max_source_fd_relative_defect": 1.5074744635529313e-07,
+      "max_stationarity_residual": 9.040487014566133e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 5.2208701404321545e-06,
+        "craft_j_m": 1.3167218639864586e-06,
+        "earth_j_m": 3.926885643323885e-06
+      }
+    },
+    "c2_compact_h125_step0.0005": {
+      "common_j_m": -1.0036241503559615,
+      "craft_inferred_j_m": 9.48086634427749,
+      "earth_analytic_j_m": -10.484490494633452,
+      "earth_difference_fd_minus_analytic_j_m": -3.188184126123872e-05,
+      "matched_self_translation_j_m": 0.0006147048532490996,
+      "max_source_fd_relative_defect": 3.7686781489576325e-06,
+      "max_stationarity_residual": 9.040487014566133e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.0005,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 0.00013093197884539443,
+        "craft_j_m": 3.294606063874994e-05,
+        "earth_j_m": 9.830060337279178e-05
+      }
+    },
+    "c2_compact_h125_step0.001": {
+      "common_j_m": -1.0037195344051955,
+      "craft_inferred_j_m": 9.480770960228256,
+      "earth_analytic_j_m": -10.484490494633452,
+      "earth_difference_fd_minus_analytic_j_m": -0.00012725739127361635,
+      "matched_self_translation_j_m": 0.0006147048529726254,
+      "max_source_fd_relative_defect": 1.5074621666386582e-05,
+      "max_stationarity_residual": 9.040487014566133e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 0.0005242883202529747,
+        "craft_j_m": 0.00013152561950846575,
+        "earth_j_m": 0.00039385750499221217
+      }
+    },
+    "c2_compact_h125_step0.002": {
+      "common_j_m": -1.0040991893084732,
+      "craft_inferred_j_m": 9.480391305324979,
+      "earth_analytic_j_m": -10.484490494633452,
+      "earth_difference_fd_minus_analytic_j_m": -0.00050687832589702,
+      "matched_self_translation_j_m": 0.0006147048518736514,
+      "max_source_fd_relative_defect": 6.029703095071677e-05,
+      "max_stationarity_residual": 9.040487014566133e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.002,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 0.0021012353591880473,
+        "craft_j_m": 0.0005239565359218545,
+        "earth_j_m": 0.0015803197188013485
+      }
+    },
+    "c2_compact_h125_step1e-05": {
+      "common_j_m": -1.0035922785655087,
+      "craft_inferred_j_m": 9.480898216067944,
+      "earth_analytic_j_m": -10.484490494633452,
+      "earth_difference_fd_minus_analytic_j_m": -1.2883985434086753e-08,
+      "matched_self_translation_j_m": 0.0006147048533415263,
+      "max_source_fd_relative_defect": 1.5068196511576031e-09,
+      "max_stationarity_residual": 9.040487014566133e-15,
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 1e-05,
+        "width": 0.25
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 2.712930591286522e-08,
+        "craft_j_m": 1.0884155976498278e-07,
+        "earth_j_m": -1.3500152107326358e-08
+      }
+    },
+    "c2_extended_h0.05_phase-0.25": {
+      "common_j_m": -0.001169565821430124,
+      "craft_inferred_j_m": 11.427182856177877,
+      "earth_analytic_j_m": -11.428352421999307,
+      "earth_difference_fd_minus_analytic_j_m": -6.217727293034159e-07,
+      "matched_self_translation_j_m": 0.000284580759841274,
+      "max_source_fd_relative_defect": 1.570830689842368e-07,
+      "max_stationarity_residual": 6.747055640174806e-14,
+      "parameters": {
+        "domain": "extended",
+        "h": 0.05,
+        "phase": -0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_extended_h0.05_phase0.25": {
+      "common_j_m": 0.004222308518864163,
+      "craft_inferred_j_m": 11.427161689760682,
+      "earth_analytic_j_m": -11.422939381241818,
+      "earth_difference_fd_minus_analytic_j_m": -7.421941816687649e-07,
+      "matched_self_translation_j_m": -0.0002614698548022242,
+      "max_source_fd_relative_defect": 1.570829935287606e-07,
+      "max_stationarity_residual": 6.537956818908638e-14,
+      "parameters": {
+        "domain": "extended",
+        "h": 0.05,
+        "phase": 0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_extended_h0.0625_phase-0.25": {
+      "common_j_m": -0.0038499913894323714,
+      "craft_inferred_j_m": 11.493502477950996,
+      "earth_analytic_j_m": -11.497352469340427,
+      "earth_difference_fd_minus_analytic_j_m": -6.113526609397013e-07,
+      "matched_self_translation_j_m": 0.0012687598070158506,
+      "max_source_fd_relative_defect": 1.5626532804312965e-07,
+      "max_stationarity_residual": 4.1923752045963213e-14,
+      "parameters": {
+        "domain": "extended",
+        "h": 0.0625,
+        "phase": -0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_extended_h0.0625_phase0.25": {
+      "common_j_m": 0.007017331608262828,
+      "craft_inferred_j_m": 11.493507240817994,
+      "earth_analytic_j_m": -11.486489909209732,
+      "earth_difference_fd_minus_analytic_j_m": -7.695489507852926e-07,
+      "matched_self_translation_j_m": -0.0012454866478845252,
+      "max_source_fd_relative_defect": 1.5626533571800773e-07,
+      "max_stationarity_residual": 3.98868168383537e-14,
+      "parameters": {
+        "domain": "extended",
+        "h": 0.0625,
+        "phase": 0.25,
+        "profile": "c2",
+        "resolve": false,
+        "step": 0.0001,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_original_h0.05_step0.0001": {
+      "common_j_m": 0.003853536165134878,
+      "craft_inferred_j_m": 11.429785863097347,
+      "earth_analytic_j_m": -11.425932326932212,
+      "earth_difference_fd_minus_analytic_j_m": -6.81340724284496e-07,
+      "matched_self_translation_j_m": 3.1908996325176936e-05,
+      "max_source_fd_relative_defect": 1.5708167052341678e-07,
+      "max_stationarity_residual": 6.280391875543717e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 6.886497238753862e-07,
+        "craft_j_m": 7.667356136664694e-07,
+        "earth_j_m": -2.8063681156709208e-08
+      }
+    },
+    "c2_original_h0.05_step0.001": {
+      "common_j_m": 0.003786090060987136,
+      "craft_inferred_j_m": 11.4297184169932,
+      "earth_analytic_j_m": -11.425932326932212,
+      "earth_difference_fd_minus_analytic_j_m": -6.811005681406357e-05,
+      "matched_self_translation_j_m": 3.190899631881785e-05,
+      "max_source_fd_relative_defect": 1.5708034415175275e-05,
+      "max_stationarity_residual": 6.280391875543717e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 7.023182128023005e-05,
+        "craft_j_m": 7.378394955637191e-05,
+        "earth_j_m": -2.956409247190095e-06
+      }
+    },
+    "c2_original_h0.05_step1e-05": {
+      "common_j_m": 0.0038542099106700827,
+      "craft_inferred_j_m": 11.429786536842883,
+      "earth_analytic_j_m": -11.425932326932212,
+      "earth_difference_fd_minus_analytic_j_m": -7.767892995502734e-09,
+      "matched_self_translation_j_m": 3.190899567740829e-05,
+      "max_source_fd_relative_defect": 1.5710572082722068e-09,
+      "max_stationarity_residual": 6.280391875543717e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.05,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": null
+    },
+    "c2_original_h0.0625_step0.0001": {
+      "common_j_m": 0.0029444463541721,
+      "craft_inferred_j_m": 11.496220544063197,
+      "earth_analytic_j_m": -11.493276097709025,
+      "earth_difference_fd_minus_analytic_j_m": -6.891999735358922e-07,
+      "matched_self_translation_j_m": 3.2206980340035885e-05,
+      "max_source_fd_relative_defect": 1.5626814173666544e-07,
+      "max_stationarity_residual": 3.996104647386823e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.0001,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 7.089476868039034e-07,
+        "craft_j_m": 7.219797968360808e-07,
+        "earth_j_m": -1.0758373747421501e-08
+      }
+    },
+    "c2_original_h0.0625_step0.001": {
+      "common_j_m": 0.0028762239047384996,
+      "craft_inferred_j_m": 11.496152321613764,
+      "earth_analytic_j_m": -11.493276097709025,
+      "earth_difference_fd_minus_analytic_j_m": -6.889242445495825e-05,
+      "matched_self_translation_j_m": 3.220698034169368e-05,
+      "max_source_fd_relative_defect": 1.5626682997031394e-05,
+      "max_stationarity_residual": 3.996104647386823e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": true,
+        "step": 0.001,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": {
+        "common_j_m": 7.258210885332074e-05,
+        "craft_j_m": 7.459125446018788e-05,
+        "earth_j_m": -1.0382600130753872e-06
+      }
+    },
+    "c2_original_h0.0625_step1e-05": {
+      "common_j_m": 0.0029451289606021707,
+      "craft_inferred_j_m": 11.496221226669627,
+      "earth_analytic_j_m": -11.493276097709025,
+      "earth_difference_fd_minus_analytic_j_m": -6.787438167066284e-09,
+      "matched_self_translation_j_m": 3.220698034001228e-05,
+      "max_source_fd_relative_defect": 1.5623540496220983e-09,
+      "max_stationarity_residual": 3.996104647386823e-14,
+      "parameters": {
+        "domain": "original",
+        "h": 0.0625,
+        "phase": 0.0,
+        "profile": "c2",
+        "resolve": false,
+        "step": 1e-05,
+        "width": 0.5
+      },
+      "resolved_minus_envelope": null
+    }
+  },
+  "scope": "C1_C2_EXACT_CELL_REFERENCE_AND_ORIGINAL_CARRIER_STEP_AUDIT",
+  "source_sha256": {
+    "m5o": "e75e0b11b05b04a1561d4e1e628e6c6b62c2a7f2c36912b85041bec95b8969d3",
+    "m5p": "e49f7eb2ac7f700d0f2608bd556e3729cf0941932704761f9b9118d9607c2243",
+    "m5q": "93ed171e95cd4344efd3ca6f36661b977d18383a70c9a319e73c1d79ea12abf0",
+    "m5r": "fb6604fbbf054843bce1354b61b8c29285092e766fb6fc2c553a62490af7a66a",
+    "m5s": "f3fd58b84f23b0f83f8c2180b3e62b2076f70bd6db0201776a6ae1b90efc6ab7"
+  },
+  "status": "COMPLETE_NUMERICAL_DIAGNOSTIC_ONLY",
+  "summary": {
+    "006d_replaced": false,
+    "artificial_model_100_percent_complete": false,
+    "completed": 34,
+    "extended_c2_fine_phase_screen": {
+      "common_spread_j_m": 0.005391874340294287,
+      "count_including_parent_center": 3,
+      "earth_spread_j_m": 0.0054130407574888295,
+      "max_abs_common_j_m": 0.004222308518864163
+    },
+    "gates": {
+      "S0_exact_cell_integral_identity": "PASS",
+      "S1_original_reduced_action_stationarity": "PASS",
+      "S2_re_solved_action_derivative_self_consistency": "PASS",
+      "S3_C1_non_smooth_step_limit": "DIAGNOSTIC_ONLY_NOT_SPATIAL_CERTIFICATE",
+      "S4_C1_discrete_operator_subcell_reassembly": "NOT_IMPLEMENTED",
+      "S5B_C2_continuum_phase_domain_uniqueness": "NOT_CERTIFIED",
+      "S5_C2_extended_fine_phase_screen": "PASS_SCREEN_ONLY",
+      "S6_explicit_artificial_assembly_action": "NOT_DERIVED",
+      "S7_physical_Noether_metric_energy_lift": "NOT_ESTABLISHED"
+    },
+    "interface_cell_audit": {
+      "max_derivative_defect": 1.8754063191295245e-08,
+      "max_flux_defect": 2.886579864025407e-15,
+      "point_sampling_differs_from_integrated_profile": true,
+      "scope": "EXACT_ONE_DIMENSIONAL_CELL_REFERENCE_NOT_COUPLED_TO_CARRIER"
+    },
+    "prior_c1_original_h005_common_j_m": 0.21886170445707004,
+    "prior_c2_extended_h005_common_j_m": 0.0009602449740730194,
+    "registered": 34,
+    "step_families": {
+      "('c1', 'compact', 0.0625, 0.25, -0.25)": {
+        "coarse_to_fine_step_disagreement_ratio": 100.36405018561857,
+        "common_derivative_range_j_m": 9.692001943020778e-07,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": -0.028707469857969917,
+            "earth_fd_disagreement_j_m": 9.783899184157008e-07,
+            "earth_j_m": -9.28187995004113,
+            "name": "c1_compact_h0625_phase-0.25_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": -0.02870843905816422,
+            "earth_fd_disagreement_j_m": 9.748410079168934e-09,
+            "earth_j_m": -9.28187995004113,
+            "name": "c1_compact_h0625_phase-0.25_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      },
+      "('c1', 'compact', 0.0625, 0.25, 0.25)": {
+        "coarse_to_fine_step_disagreement_ratio": 100.20907230202944,
+        "common_derivative_range_j_m": 1.1633736631544433e-06,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.03533318166575853,
+            "earth_fd_disagreement_j_m": 1.1753922599666566e-06,
+            "earth_j_m": -9.20809065196142,
+            "name": "c1_compact_h0625_phase0.25_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": 0.035332018292095375,
+            "earth_fd_disagreement_j_m": 1.1729399673754415e-08,
+            "earth_j_m": -9.20809065196142,
+            "name": "c1_compact_h0625_phase0.25_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      },
+      "('c1', 'compact', 0.125, 0.25, 0.0)": {
+        "coarse_to_fine_step_disagreement_ratio": 198.36838115614668,
+        "common_derivative_range_j_m": 0.04616461041780695,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.7408926466152719,
+            "earth_fd_disagreement_j_m": 0.04639678857044771,
+            "earth_j_m": -9.145122582878512,
+            "name": "c1_compact_h125_step0.002",
+            "step_m": 0.002
+          },
+          {
+            "common_j_m": 0.7639960129233586,
+            "earth_fd_disagreement_j_m": 0.023294276800937652,
+            "earth_j_m": -9.145122582878512,
+            "name": "c1_compact_h125_step0.001",
+            "step_m": 0.001
+          },
+          {
+            "common_j_m": 0.7756196130510673,
+            "earth_fd_disagreement_j_m": 0.01167110903293711,
+            "earth_j_m": -9.145122582878512,
+            "name": "c1_compact_h125_step0.0005",
+            "step_m": 0.0005
+          },
+          {
+            "common_j_m": 0.7849530132928502,
+            "earth_fd_disagreement_j_m": 0.002338057122596382,
+            "earth_j_m": -9.145122582878512,
+            "name": "c1_compact_h125_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": 0.7870572570330788,
+            "earth_fd_disagreement_j_m": 0.0002338920562845459,
+            "earth_j_m": -9.145122582878512,
+            "name": "c1_compact_h125_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      },
+      "('c1', 'original', 0.05, 0.25, 0.0)": {
+        "coarse_to_fine_step_disagreement_ratio": 99.18126098237705,
+        "common_derivative_range_j_m": 0.012779011880490992,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.2072531423017743,
+            "earth_fd_disagreement_j_m": 0.012909027892451519,
+            "earth_j_m": -8.903931077655354,
+            "name": "c1_original_h0.05_step0.001",
+            "step_m": 0.001
+          },
+          {
+            "common_j_m": 0.21886170445707004,
+            "earth_fd_disagreement_j_m": 0.0013005902371379108,
+            "earth_j_m": -8.903931077655354,
+            "name": "c1_original_h0.05_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": 0.2200321541822653,
+            "earth_fd_disagreement_j_m": 0.00013015591619414124,
+            "earth_j_m": -8.903931077655354,
+            "name": "c1_original_h0.05_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      },
+      "('c1', 'original', 0.0625, 0.25, 0.0)": {
+        "coarse_to_fine_step_disagreement_ratio": 99.36565514997581,
+        "common_derivative_range_j_m": 0.016361811619740596,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.33749999644263756,
+            "earth_fd_disagreement_j_m": 0.01652792294140859,
+            "earth_j_m": -8.854941812496708,
+            "name": "c1_original_h0.0625_step0.001",
+            "step_m": 0.001
+          },
+          {
+            "common_j_m": 0.3523657378040654,
+            "earth_fd_disagreement_j_m": 0.0016623840343683582,
+            "earth_j_m": -8.854941812496708,
+            "name": "c1_original_h0.0625_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": 0.35386180806237816,
+            "earth_fd_disagreement_j_m": 0.0001663343628788283,
+            "earth_j_m": -8.854941812496708,
+            "name": "c1_original_h0.0625_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      },
+      "('c2', 'compact', 0.0625, 0.25, -0.25)": {
+        "coarse_to_fine_step_disagreement_ratio": 96.50142571240666,
+        "common_derivative_range_j_m": 8.868642324411091e-07,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.00836355643989221,
+            "earth_fd_disagreement_j_m": 8.961137361040983e-07,
+            "earth_j_m": -8.819481044188722,
+            "name": "c2_compact_h0625_phase-0.25_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": 0.008364443304124652,
+            "earth_fd_disagreement_j_m": 9.286015512088852e-09,
+            "earth_j_m": -8.819481044188722,
+            "name": "c2_compact_h0625_phase-0.25_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      },
+      "('c2', 'compact', 0.0625, 0.25, 0.25)": {
+        "coarse_to_fine_step_disagreement_ratio": 99.86378841008677,
+        "common_derivative_range_j_m": 1.791586814195445e-06,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.08024635451370254,
+            "earth_fd_disagreement_j_m": 1.809616257730795e-06,
+            "earth_j_m": -8.746127400150849,
+            "name": "c2_compact_h0625_phase0.25_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": 0.08024814610051674,
+            "earth_fd_disagreement_j_m": 1.8120845268754238e-08,
+            "earth_j_m": -8.746127400150849,
+            "name": "c2_compact_h0625_phase0.25_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      },
+      "('c2', 'compact', 0.125, 0.25, 0.0)": {
+        "coarse_to_fine_step_disagreement_ratio": 39341.73385169996,
+        "common_derivative_range_j_m": 0.0005069107429644948,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": -1.0040991893084732,
+            "earth_fd_disagreement_j_m": 0.00050687832589702,
+            "earth_j_m": -10.484490494633452,
+            "name": "c2_compact_h125_step0.002",
+            "step_m": 0.002
+          },
+          {
+            "common_j_m": -1.0037195344051955,
+            "earth_fd_disagreement_j_m": 0.00012725739127361635,
+            "earth_j_m": -10.484490494633452,
+            "name": "c2_compact_h125_step0.001",
+            "step_m": 0.001
+          },
+          {
+            "common_j_m": -1.0036241503559615,
+            "earth_fd_disagreement_j_m": 3.188184126123872e-05,
+            "earth_j_m": -10.484490494633452,
+            "name": "c2_compact_h125_step0.0005",
+            "step_m": 0.0005
+          },
+          {
+            "common_j_m": -1.0035935432892316,
+            "earth_fd_disagreement_j_m": 1.27749547118583e-06,
+            "earth_j_m": -10.484490494633452,
+            "name": "c2_compact_h125_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": -1.0035922785655087,
+            "earth_fd_disagreement_j_m": 1.2883985434086753e-08,
+            "earth_j_m": -10.484490494633452,
+            "name": "c2_compact_h125_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      },
+      "('c2', 'extended', 0.05, 0.5, -0.25)": {
+        "coarse_to_fine_step_disagreement_ratio": 1.0,
+        "common_derivative_range_j_m": 0.0,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": -0.001169565821430124,
+            "earth_fd_disagreement_j_m": 6.217727293034159e-07,
+            "earth_j_m": -11.428352421999307,
+            "name": "c2_extended_h0.05_phase-0.25",
+            "step_m": 0.0001
+          }
+        ]
+      },
+      "('c2', 'extended', 0.05, 0.5, 0.25)": {
+        "coarse_to_fine_step_disagreement_ratio": 1.0,
+        "common_derivative_range_j_m": 0.0,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.004222308518864163,
+            "earth_fd_disagreement_j_m": 7.421941816687649e-07,
+            "earth_j_m": -11.422939381241818,
+            "name": "c2_extended_h0.05_phase0.25",
+            "step_m": 0.0001
+          }
+        ]
+      },
+      "('c2', 'extended', 0.0625, 0.5, -0.25)": {
+        "coarse_to_fine_step_disagreement_ratio": 1.0,
+        "common_derivative_range_j_m": 0.0,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": -0.0038499913894323714,
+            "earth_fd_disagreement_j_m": 6.113526609397013e-07,
+            "earth_j_m": -11.497352469340427,
+            "name": "c2_extended_h0.0625_phase-0.25",
+            "step_m": 0.0001
+          }
+        ]
+      },
+      "('c2', 'extended', 0.0625, 0.5, 0.25)": {
+        "coarse_to_fine_step_disagreement_ratio": 1.0,
+        "common_derivative_range_j_m": 0.0,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.007017331608262828,
+            "earth_fd_disagreement_j_m": 7.695489507852926e-07,
+            "earth_j_m": -11.486489909209732,
+            "name": "c2_extended_h0.0625_phase0.25",
+            "step_m": 0.0001
+          }
+        ]
+      },
+      "('c2', 'original', 0.05, 0.5, 0.0)": {
+        "coarse_to_fine_step_disagreement_ratio": 8768.15075252662,
+        "common_derivative_range_j_m": 6.811984968294656e-05,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.003786090060987136,
+            "earth_fd_disagreement_j_m": 6.811005681406357e-05,
+            "earth_j_m": -11.425932326932212,
+            "name": "c2_original_h0.05_step0.001",
+            "step_m": 0.001
+          },
+          {
+            "common_j_m": 0.003853536165134878,
+            "earth_fd_disagreement_j_m": 6.81340724284496e-07,
+            "earth_j_m": -11.425932326932212,
+            "name": "c2_original_h0.05_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": 0.0038542099106700827,
+            "earth_fd_disagreement_j_m": 7.767892995502734e-09,
+            "earth_j_m": -11.425932326932212,
+            "name": "c2_original_h0.05_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      },
+      "('c2', 'original', 0.0625, 0.5, 0.0)": {
+        "coarse_to_fine_step_disagreement_ratio": 10149.989253564785,
+        "common_derivative_range_j_m": 6.890505586367108e-05,
+        "earth_derivative_range_j_m": 0.0,
+        "series": [
+          {
+            "common_j_m": 0.0028762239047384996,
+            "earth_fd_disagreement_j_m": 6.889242445495825e-05,
+            "earth_j_m": -11.493276097709025,
+            "name": "c2_original_h0.0625_step0.001",
+            "step_m": 0.001
+          },
+          {
+            "common_j_m": 0.0029444463541721,
+            "earth_fd_disagreement_j_m": 6.891999735358922e-07,
+            "earth_j_m": -11.493276097709025,
+            "name": "c2_original_h0.0625_step0.0001",
+            "step_m": 0.0001
+          },
+          {
+            "common_j_m": 0.0029451289606021707,
+            "earth_fd_disagreement_j_m": 6.787438167066284e-09,
+            "earth_j_m": -11.493276097709025,
+            "name": "c2_original_h0.0625_step1e-05",
+            "step_m": 1e-05
+          }
+        ]
+      }
+    },
+    "whole_spacecraft_lift_certified": false
+  }
+}

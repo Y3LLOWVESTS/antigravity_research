@@ -1,0 +1,189 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+  "errors": {},
+  "manifest": [
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c1",
+      "step": 0.0001,
+      "width": 0.25
+    },
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c2",
+      "step": 0.0001,
+      "width": 0.5
+    },
+    {
+      "h": 0.25,
+      "order": 8,
+      "profile": "c2",
+      "step": 0.0001,
+      "width": 0.5,
+      "zero_source": true
+    }
+  ],
+  "mode": "quick",
+  "module_sha256": "7b613fc98d3d7247483ea1f0dcb89e492131e46d3f7f549097d73a98cc41ffa5",
+  "parent_source_sha256": {
+    "hook17_f2_strong_payload_loading_rescue": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+    "hook17_fdual_f_loaded_payload_homotopy": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+    "hook17_r3b_m4b1_source_recovery": "59be7700953a715562d7676d48959953837145310191398eb5ce167a8a010599",
+    "hook17_r3b_m4b_sparse_earth_loading": "446963973cad865bb2a8460ee0e44f0e260c9953c1c0ae2a26b2031fa33a643c",
+    "hook17_r3b_m5i_continuum_source": "ee3ff31e2068e2f6fc5c8bf46ee951e5b11098d24ba36d73e8f0e1f568f44a54",
+    "hook17_r3b_m5l_variational_audit": "aa5571303309c80762d7f8d9fc058d56c458e2b3793e773d37c3bf77573c256b",
+    "hook17_r3b_m5m_translation_consistency": "f95a33f65c815b129007beea44a75f19feb0efe859817843b69922d9ac84a7ec"
+  },
+  "results": {
+    "01_c1_0.25_8_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4284646128253,
+      "center_action_on_j": 2074.4558049695365,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 2.0772413495251385,
+        "craft": 11.596837225624768,
+        "earth": -9.519597415419412
+      },
+      "finite_minus_analytic_j_m": {
+        "common": -2.815890994156689e-06,
+        "craft": 3.92026837658932e-08,
+        "earth": -4.394413460673263e-06
+      },
+      "h": 0.25,
+      "interaction_action_j": -7.972659643288807,
+      "maximum_abs_disagreement_j_m": 4.394413460673263e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 4.611063219872242e-16,
+        "solver": 1.887818125930064e-15,
+        "stationarity": 2.6471558221944976e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c1",
+      "same_functional_analytic_j_m": {
+        "common": 2.0772441654161327,
+        "craft": 11.596837186422084,
+        "craft_operator": -0.014569918602620352,
+        "craft_source": 11.611407105024703,
+        "earth": -9.519593021005951
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.25,
+      "zero_source": false
+    },
+    "02_c2_0.25_8_0.0001_False": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 2082.4562136113373,
+      "center_action_on_j": 2072.7311773088286,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": -1.8663197215573746,
+        "craft": 14.402971082745353,
+        "earth": -16.26929035410285
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 1.8720582275477682e-06,
+        "craft": 5.8035521277588487e-08,
+        "earth": 2.264222583647779e-06
+      },
+      "h": 0.25,
+      "interaction_action_j": -9.72503630250867,
+      "maximum_abs_disagreement_j_m": 2.264222583647779e-06,
+      "numerical_residuals": {
+        "on_shell_identity": 3.8457478505031427e-16,
+        "solver": 2.299351761325274e-15,
+        "stationarity": 2.7977612164291084e-15,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": -1.8663215936156021,
+        "craft": 14.402971024709831,
+        "craft_operator": -0.033687621360745885,
+        "craft_source": 14.436658646070578,
+        "earth": -16.269292618325434
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": false
+    },
+    "03_c2_0.25_8_0.0001_True": {
+      "006d_replaced": false,
+      "M5P_exterior_boundary_reproduced": false,
+      "all_sources_onboard_physically_realized": false,
+      "branch": "032H17A12D1R3X3B17-ALPHA1R15-M5T-VARIATIONAL-CELL",
+      "center_action_off_j": 0.0,
+      "center_action_on_j": 0.0,
+      "complete_operating_energy_derived": false,
+      "finite_difference_j_m": {
+        "common": 0.0,
+        "craft": 0.0,
+        "earth": 0.0
+      },
+      "finite_minus_analytic_j_m": {
+        "common": 0.0,
+        "craft": 0.0,
+        "earth": 0.0
+      },
+      "h": 0.25,
+      "interaction_action_j": 0.0,
+      "maximum_abs_disagreement_j_m": 0.0,
+      "numerical_residuals": {
+        "on_shell_identity": 0.0,
+        "solver": 0.0,
+        "stationarity": 0.0,
+        "weighted_asymmetry": 1.5116219794375787e-16
+      },
+      "order": 8,
+      "physical_noether_identity_derived": false,
+      "profile": "c2",
+      "same_functional_analytic_j_m": {
+        "common": 0.0,
+        "craft": 0.0,
+        "craft_operator": 0.0,
+        "craft_source": 0.0,
+        "earth": 0.0
+      },
+      "scope": "M5M_NATIVE_DIRICHLET_BVP_NEW_CYLINDRICAL_CELL_MATERIAL",
+      "step": 0.0001,
+      "whole_spacecraft_force_derived": false,
+      "width": 0.5,
+      "zero_source": true
+    }
+  },
+  "status": "COMPLETE_NUMERICAL_DIAGNOSTIC_ONLY",
+  "summary": {
+    "case_count": 3,
+    "complete_artificial_model": false,
+    "error_count": 0,
+    "gates": {
+      "T0_all_predeclared_cases": "PASS",
+      "T1_stationary_weighted_variation": "PASS",
+      "T2_separately_resolved_Earth_craft_common": "PASS_SCREEN_ONLY",
+      "T3_zero_source_negative_control": "PASS",
+      "T4_C1_quadrature_screen": "BLOCKED_OR_PARTIAL",
+      "T5_C2_quadrature_screen": "BLOCKED_OR_PARTIAL",
+      "T6_C1_C2_mesh_domain_phase_limit": "NOT_CERTIFIED",
+      "T7_M5P_exterior_closure_port": "NOT_IMPLEMENTED",
+      "T8_independent_artificial_hull_assembly_action": "NOT_DERIVED",
+      "T9_physical_Noether_metric_energy_lift": "NOT_ESTABLISHED"
+    },
+    "quadrature_spreads": {}
+  }
+}

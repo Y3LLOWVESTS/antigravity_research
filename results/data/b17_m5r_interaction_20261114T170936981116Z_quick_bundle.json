@@ -1,0 +1,564 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R13-M5R-INTERACTION",
+  "claims": {
+    "complete_device_energy": false,
+    "physical_antigravity": false,
+    "whole_spacecraft_lift": false
+  },
+  "errors": {},
+  "manifest": [
+    {
+      "name": "c2_compact_h0p2",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.2,
+        "resolve": true
+      }
+    },
+    {
+      "name": "c2_compact_h0p125",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "resolve": true
+      }
+    },
+    {
+      "name": "c2_original_h0p1",
+      "parameters": {
+        "domain": "original",
+        "h": 0.1,
+        "resolve": true
+      }
+    },
+    {
+      "name": "c1_compact_h0p125",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.125,
+        "profile": "c1",
+        "resolve": true,
+        "width": 0.25
+      }
+    },
+    {
+      "name": "c2_compact_phase_negative",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.2,
+        "phase": -0.25
+      }
+    },
+    {
+      "name": "c2_compact_phase_positive",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.2,
+        "phase": 0.25
+      }
+    },
+    {
+      "name": "zero_source_control",
+      "parameters": {
+        "domain": "compact",
+        "h": 0.25,
+        "resolve": true,
+        "zero_source": true
+      }
+    }
+  ],
+  "mode": "quick",
+  "processed": 7,
+  "registered": 7,
+  "results": {
+    "c1_compact_h0p125": {
+      "006d_replaced": false,
+      "bounds_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "branch": "032H17A12D1R3X3B17-ALPHA1R13-M5R-INTERACTION",
+      "closure": "dipole_trace",
+      "derivative_step_m": 0.0001,
+      "domain": "compact",
+      "earth_off": {
+        "common_j_m": 0.0006147153742146337,
+        "craft_j_m": 0.0006147153742146337,
+        "earth_j_m": 0.0
+      },
+      "earth_on": {
+        "common_j_m": 0.7855677286670648,
+        "craft_j_m": 9.930690311545577,
+        "earth_j_m": -9.145122582878512
+      },
+      "independent_craft_check": {
+        "craft_direct_j_m": 9.93241365329396,
+        "craft_direct_minus_inferred_j_m": 0.002338057122596382,
+        "craft_inferred_j_m": 9.930075596171363
+      },
+      "interaction_action_difference_j": -6.994611398446068,
+      "interaction_only": {
+        "common_derivative_j_m": 0.7849530132928502,
+        "common_relative_to_earth": 0.08583296792133091,
+        "craft_derivative_j_m": 9.930075596171363,
+        "earth_derivative_j_m": -9.145122582878512,
+        "enclosure_operator_difference_j_m": -0.009163366822898361,
+        "matched_self_translation_j_m": 0.0006147153742146337,
+        "material_derivative_fd_minus_analytic_j_m": -0.002338057122596382,
+        "noearth_earth_derivative_j_m": 0.0,
+        "scalar_source_difference_j_m": -0.05751215845798145,
+        "source_explicit_difference_j_m": 9.939238962994262,
+        "translation_partition_error_j_m": 0.0,
+        "vector_source_difference_j_m": 9.996751121451798
+      },
+      "maximum_analytic_source_fd_relative_defect": 1.5074744635529313e-07,
+      "maximum_operator_asymmetry": 2.3991245736842854e-16,
+      "maximum_operator_residual": 5.855066260959981e-15,
+      "maximum_stationarity_residual": 9.240340377274813e-15,
+      "mesh_h_m": 0.125,
+      "modeled_energy_not_complete_device_energy": true,
+      "on_shell_action_disabled_j": 2129.3742687286713,
+      "on_shell_action_enabled_j": 2122.379657330225,
+      "phase_cells": 0.0,
+      "physical_reciprocity_certified": false,
+      "profile": "c1",
+      "quadrature_order": 6,
+      "resolved_interaction_derivative": {
+        "common_j_m": 0.7849563826312078,
+        "common_minus_analytic_j_m": 3.36933835765052e-06,
+        "craft_j_m": 9.932413690876274,
+        "craft_minus_inferred_j_m": 0.0023380947049105316,
+        "earth_j_m": -9.147457155904704,
+        "earth_minus_analytic_j_m": -0.0023345730261912223
+      },
+      "scope": "PRESCRIBED_ON_OFF_REDUCED_ACTION_ONLY",
+      "whole_spacecraft_lift_certified": false,
+      "width_m": 0.25,
+      "zero_source": false
+    },
+    "c2_compact_h0p125": {
+      "006d_replaced": false,
+      "bounds_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "branch": "032H17A12D1R3X3B17-ALPHA1R13-M5R-INTERACTION",
+      "closure": "dipole_trace",
+      "derivative_step_m": 0.0001,
+      "domain": "compact",
+      "earth_off": {
+        "common_j_m": 0.0006147504400332595,
+        "craft_j_m": 0.0006147504400332595,
+        "earth_j_m": 0.0
+      },
+      "earth_on": {
+        "common_j_m": 0.020015142127640217,
+        "craft_j_m": 12.097003849477657,
+        "earth_j_m": -12.076988707350017
+      },
+      "independent_craft_check": {
+        "craft_direct_j_m": 12.096389795474687,
+        "craft_direct_minus_inferred_j_m": 6.964370626860727e-07,
+        "craft_inferred_j_m": 12.096389099037625
+      },
+      "interaction_action_difference_j": -8.403256514022814,
+      "interaction_only": {
+        "common_derivative_j_m": 0.019400391687606957,
+        "common_relative_to_earth": 0.001606393129754269,
+        "craft_derivative_j_m": 12.096389099037625,
+        "earth_derivative_j_m": -12.076988707350017,
+        "enclosure_operator_difference_j_m": -0.01851402849487523,
+        "matched_self_translation_j_m": 0.0006147504400332595,
+        "material_derivative_fd_minus_analytic_j_m": -6.964357588401526e-07,
+        "noearth_earth_derivative_j_m": 0.0,
+        "scalar_source_difference_j_m": -0.11276576482290615,
+        "source_explicit_difference_j_m": 12.114903127532498,
+        "translation_partition_error_j_m": 0.0,
+        "vector_source_difference_j_m": 12.227668892354371
+      },
+      "maximum_analytic_source_fd_relative_defect": 1.5074744635529313e-07,
+      "maximum_operator_asymmetry": 6.578535401808043e-17,
+      "maximum_operator_residual": 5.8183744225733565e-15,
+      "maximum_stationarity_residual": 8.995293234186033e-15,
+      "mesh_h_m": 0.125,
+      "modeled_energy_not_complete_device_energy": true,
+      "on_shell_action_disabled_j": 2129.400840573053,
+      "on_shell_action_enabled_j": 2120.99758405903,
+      "phase_cells": 0.0,
+      "physical_reciprocity_certified": false,
+      "profile": "c2",
+      "quadrature_order": 6,
+      "resolved_interaction_derivative": {
+        "common_j_m": 0.019401284134801244,
+        "common_minus_analytic_j_m": 8.924471942874102e-07,
+        "craft_j_m": 12.096389859834744,
+        "craft_minus_inferred_j_m": 7.607971195255914e-07,
+        "earth_j_m": -12.076988534772681,
+        "earth_minus_analytic_j_m": 1.725773355332194e-07
+      },
+      "scope": "PRESCRIBED_ON_OFF_REDUCED_ACTION_ONLY",
+      "whole_spacecraft_lift_certified": false,
+      "width_m": 0.5,
+      "zero_source": false
+    },
+    "c2_compact_h0p2": {
+      "006d_replaced": false,
+      "bounds_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "branch": "032H17A12D1R3X3B17-ALPHA1R13-M5R-INTERACTION",
+      "closure": "dipole_trace",
+      "derivative_step_m": 0.0001,
+      "domain": "compact",
+      "earth_off": {
+        "common_j_m": 0.0007098531498054311,
+        "craft_j_m": 0.0007098531498054311,
+        "earth_j_m": 0.0
+      },
+      "earth_on": {
+        "common_j_m": 0.41078212848375095,
+        "craft_j_m": 13.19907347344605,
+        "earth_j_m": -12.7882913449623
+      },
+      "independent_craft_check": {
+        "craft_direct_j_m": 13.198363989200963,
+        "craft_direct_minus_inferred_j_m": 3.6890471832862204e-07,
+        "craft_inferred_j_m": 13.198363620296245
+      },
+      "interaction_action_difference_j": -9.170934644635508,
+      "interaction_only": {
+        "common_derivative_j_m": 0.4100722753339455,
+        "common_relative_to_earth": 0.032066228730039496,
+        "craft_derivative_j_m": 13.198363620296245,
+        "earth_derivative_j_m": -12.7882913449623,
+        "enclosure_operator_difference_j_m": -0.023309864749496104,
+        "matched_self_translation_j_m": 0.0007098531498054311,
+        "material_derivative_fd_minus_analytic_j_m": -3.689031249365371e-07,
+        "noearth_earth_derivative_j_m": 0.0,
+        "scalar_source_difference_j_m": -0.12325484443508097,
+        "source_explicit_difference_j_m": 13.221673485045741,
+        "translation_partition_error_j_m": 0.0,
+        "vector_source_difference_j_m": 13.34492832948166
+      },
+      "maximum_analytic_source_fd_relative_defect": 1.417392068243821e-07,
+      "maximum_operator_asymmetry": 1.5800915524966324e-16,
+      "maximum_operator_residual": 3.1785216700597064e-15,
+      "maximum_stationarity_residual": 4.616799652118423e-15,
+      "mesh_h_m": 0.2,
+      "modeled_energy_not_complete_device_energy": true,
+      "on_shell_action_disabled_j": 2112.8322679407565,
+      "on_shell_action_enabled_j": 2103.661333296121,
+      "phase_cells": 0.0,
+      "physical_reciprocity_certified": false,
+      "profile": "c2",
+      "quadrature_order": 6,
+      "resolved_interaction_derivative": {
+        "common_j_m": 0.410072007070994,
+        "common_minus_analytic_j_m": -2.682629515193824e-07,
+        "craft_j_m": 13.198364072195545,
+        "craft_minus_inferred_j_m": 4.518993002022853e-07,
+        "earth_j_m": -12.78829184911956,
+        "earth_minus_analytic_j_m": -5.041572599395749e-07
+      },
+      "scope": "PRESCRIBED_ON_OFF_REDUCED_ACTION_ONLY",
+      "whole_spacecraft_lift_certified": false,
+      "width_m": 0.5,
+      "zero_source": false
+    },
+    "c2_compact_phase_negative": {
+      "006d_replaced": false,
+      "bounds_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "branch": "032H17A12D1R3X3B17-ALPHA1R13-M5R-INTERACTION",
+      "closure": "dipole_trace",
+      "derivative_step_m": 0.0001,
+      "domain": "compact",
+      "earth_off": {
+        "common_j_m": 9.379227086613946,
+        "craft_j_m": 9.379227086613946,
+        "earth_j_m": 0.0
+      },
+      "earth_on": {
+        "common_j_m": 8.536397090572834,
+        "craft_j_m": 22.57692171397438,
+        "earth_j_m": -14.040524623401543
+      },
+      "independent_craft_check": null,
+      "interaction_action_difference_j": -9.155994046388969,
+      "interaction_only": {
+        "common_derivative_j_m": -0.8428299960411128,
+        "common_relative_to_earth": 0.06002838345772037,
+        "craft_derivative_j_m": 13.197694627360432,
+        "earth_derivative_j_m": -14.040524623401543,
+        "enclosure_operator_difference_j_m": -0.022864258075254832,
+        "matched_self_translation_j_m": 9.379227086613946,
+        "material_derivative_fd_minus_analytic_j_m": -6.971598338623153e-07,
+        "noearth_earth_derivative_j_m": 0.0,
+        "scalar_source_difference_j_m": -0.1312651832981473,
+        "source_explicit_difference_j_m": 13.220558885435686,
+        "translation_partition_error_j_m": -1.7763568394002505e-15,
+        "vector_source_difference_j_m": 13.351824068734151
+      },
+      "maximum_analytic_source_fd_relative_defect": 1.3737783966344065e-07,
+      "maximum_operator_asymmetry": 1.5683823516182308e-16,
+      "maximum_operator_residual": 2.480386411090505e-15,
+      "maximum_stationarity_residual": 3.848105569971375e-15,
+      "mesh_h_m": 0.2,
+      "modeled_energy_not_complete_device_energy": true,
+      "on_shell_action_disabled_j": 2112.5347407090617,
+      "on_shell_action_enabled_j": 2103.3787466626727,
+      "phase_cells": -0.25,
+      "physical_reciprocity_certified": false,
+      "profile": "c2",
+      "quadrature_order": 6,
+      "resolved_interaction_derivative": null,
+      "scope": "PRESCRIBED_ON_OFF_REDUCED_ACTION_ONLY",
+      "whole_spacecraft_lift_certified": false,
+      "width_m": 0.5,
+      "zero_source": false
+    },
+    "c2_compact_phase_positive": {
+      "006d_replaced": false,
+      "bounds_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "branch": "032H17A12D1R3X3B17-ALPHA1R13-M5R-INTERACTION",
+      "closure": "dipole_trace",
+      "derivative_step_m": 0.0001,
+      "domain": "compact",
+      "earth_off": {
+        "common_j_m": -9.377828746186202,
+        "craft_j_m": -9.377828746186202,
+        "earth_j_m": 0.0
+      },
+      "earth_on": {
+        "common_j_m": -8.448587113118908,
+        "craft_j_m": 3.77283682496725,
+        "earth_j_m": -12.221423938086158
+      },
+      "independent_craft_check": null,
+      "interaction_action_difference_j": -9.128550257667484,
+      "interaction_only": {
+        "common_derivative_j_m": 0.9292416330672939,
+        "common_relative_to_earth": 0.07603382697260486,
+        "craft_derivative_j_m": 13.150665571153452,
+        "earth_derivative_j_m": -12.221423938086158,
+        "enclosure_operator_difference_j_m": -0.023810308503292132,
+        "matched_self_translation_j_m": -9.377828746186202,
+        "material_derivative_fd_minus_analytic_j_m": -2.1058668764339927e-07,
+        "noearth_earth_derivative_j_m": 0.0,
+        "scalar_source_difference_j_m": -0.12177087288957544,
+        "source_explicit_difference_j_m": 13.174475879656743,
+        "translation_partition_error_j_m": 0.0,
+        "vector_source_difference_j_m": 13.296246752547347
+      },
+      "maximum_analytic_source_fd_relative_defect": 1.3737805833787247e-07,
+      "maximum_operator_asymmetry": 1.568382351618229e-16,
+      "maximum_operator_residual": 2.6049428785014534e-15,
+      "maximum_stationarity_residual": 3.94738698710952e-15,
+      "mesh_h_m": 0.2,
+      "modeled_energy_not_complete_device_energy": true,
+      "on_shell_action_disabled_j": 2112.534811340793,
+      "on_shell_action_enabled_j": 2103.4062610831256,
+      "phase_cells": 0.25,
+      "physical_reciprocity_certified": false,
+      "profile": "c2",
+      "quadrature_order": 6,
+      "resolved_interaction_derivative": null,
+      "scope": "PRESCRIBED_ON_OFF_REDUCED_ACTION_ONLY",
+      "whole_spacecraft_lift_certified": false,
+      "width_m": 0.5,
+      "zero_source": false
+    },
+    "c2_original_h0p1": {
+      "006d_replaced": false,
+      "bounds_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "branch": "032H17A12D1R3X3B17-ALPHA1R13-M5R-INTERACTION",
+      "closure": "dipole_trace",
+      "derivative_step_m": 0.0001,
+      "domain": "original",
+      "earth_off": {
+        "common_j_m": 3.333886871476032e-05,
+        "craft_j_m": 3.333886871476032e-05,
+        "earth_j_m": 0.0
+      },
+      "earth_on": {
+        "common_j_m": -0.007886958674649946,
+        "craft_j_m": 11.784601603132902,
+        "earth_j_m": -11.792488561807552
+      },
+      "independent_craft_check": {
+        "craft_direct_j_m": 11.784568964649804,
+        "craft_direct_minus_inferred_j_m": 7.003856161702515e-07,
+        "craft_inferred_j_m": 11.784568264264188
+      },
+      "interaction_action_difference_j": -8.244910072833136,
+      "interaction_only": {
+        "common_derivative_j_m": -0.007920297543364707,
+        "common_relative_to_earth": 0.000671639196582836,
+        "craft_derivative_j_m": 11.784568264264188,
+        "earth_derivative_j_m": -11.792488561807552,
+        "enclosure_operator_difference_j_m": -0.017183663550563087,
+        "matched_self_translation_j_m": 3.333886871476032e-05,
+        "material_derivative_fd_minus_analytic_j_m": -7.003843425223977e-07,
+        "noearth_earth_derivative_j_m": 0.0,
+        "scalar_source_difference_j_m": -0.1085126764268247,
+        "source_explicit_difference_j_m": 11.80175192781475,
+        "translation_partition_error_j_m": 0.0,
+        "vector_source_difference_j_m": 11.910264604242762
+      },
+      "maximum_analytic_source_fd_relative_defect": 1.530790290103305e-07,
+      "maximum_operator_asymmetry": 9.634304792825964e-17,
+      "maximum_operator_residual": 8.980247758858153e-15,
+      "maximum_stationarity_residual": 1.6094756568622805e-14,
+      "mesh_h_m": 0.1,
+      "modeled_energy_not_complete_device_energy": true,
+      "on_shell_action_disabled_j": 2133.5187968256437,
+      "on_shell_action_enabled_j": 2125.2738867528105,
+      "phase_cells": 0.0,
+      "physical_reciprocity_certified": false,
+      "profile": "c2",
+      "quadrature_order": 6,
+      "resolved_interaction_derivative": {
+        "common_j_m": -0.007919488780316897,
+        "common_minus_analytic_j_m": 8.087630478104124e-07,
+        "craft_j_m": 11.78456903744518,
+        "craft_minus_inferred_j_m": 7.731809930078271e-07,
+        "earth_j_m": -11.792488473929552,
+        "earth_minus_analytic_j_m": 8.787799998799528e-08
+      },
+      "scope": "PRESCRIBED_ON_OFF_REDUCED_ACTION_ONLY",
+      "whole_spacecraft_lift_certified": false,
+      "width_m": 0.5,
+      "zero_source": false
+    },
+    "zero_source_control": {
+      "006d_replaced": false,
+      "bounds_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "branch": "032H17A12D1R3X3B17-ALPHA1R13-M5R-INTERACTION",
+      "closure": "dipole_trace",
+      "derivative_step_m": 0.0001,
+      "domain": "compact",
+      "earth_off": {
+        "common_j_m": 0.0,
+        "craft_j_m": 0.0,
+        "earth_j_m": 0.0
+      },
+      "earth_on": {
+        "common_j_m": 0.0,
+        "craft_j_m": 0.0,
+        "earth_j_m": 0.0
+      },
+      "independent_craft_check": {
+        "craft_direct_j_m": 0.0,
+        "craft_direct_minus_inferred_j_m": 0.0,
+        "craft_inferred_j_m": 0.0
+      },
+      "interaction_action_difference_j": 0.0,
+      "interaction_only": {
+        "common_derivative_j_m": 0.0,
+        "common_relative_to_earth": 0.0,
+        "craft_derivative_j_m": 0.0,
+        "earth_derivative_j_m": 0.0,
+        "enclosure_operator_difference_j_m": 0.0,
+        "matched_self_translation_j_m": 0.0,
+        "material_derivative_fd_minus_analytic_j_m": 0.0,
+        "noearth_earth_derivative_j_m": 0.0,
+        "scalar_source_difference_j_m": 0.0,
+        "source_explicit_difference_j_m": 0.0,
+        "translation_partition_error_j_m": 0.0,
+        "vector_source_difference_j_m": 0.0
+      },
+      "maximum_analytic_source_fd_relative_defect": 0.0,
+      "maximum_operator_asymmetry": 1.0400145935183107e-16,
+      "maximum_operator_residual": 0.0,
+      "maximum_stationarity_residual": 0.0,
+      "mesh_h_m": 0.25,
+      "modeled_energy_not_complete_device_energy": true,
+      "on_shell_action_disabled_j": -0.0,
+      "on_shell_action_enabled_j": -0.0,
+      "phase_cells": 0.0,
+      "physical_reciprocity_certified": false,
+      "profile": "c2",
+      "quadrature_order": 6,
+      "resolved_interaction_derivative": {
+        "common_j_m": 0.0,
+        "common_minus_analytic_j_m": 0.0,
+        "craft_j_m": 0.0,
+        "craft_minus_inferred_j_m": 0.0,
+        "earth_j_m": 0.0,
+        "earth_minus_analytic_j_m": 0.0
+      },
+      "scope": "PRESCRIBED_ON_OFF_REDUCED_ACTION_ONLY",
+      "whole_spacecraft_lift_certified": false,
+      "width_m": 0.5,
+      "zero_source": true
+    }
+  },
+  "schema": "antigravity.single_run.v1",
+  "source_sha256": {
+    "m5o": "e75e0b11b05b04a1561d4e1e628e6c6b62c2a7f2c36912b85041bec95b8969d3",
+    "m5p": "e49f7eb2ac7f700d0f2608bd556e3729cf0941932704761f9b9118d9607c2243",
+    "m5q": "93ed171e95cd4344efd3ca6f36661b977d18383a70c9a319e73c1d79ea12abf0",
+    "m5r": "fb6604fbbf054843bce1354b61b8c29285092e766fb6fc2c553a62490af7a66a"
+  },
+  "status": "COMPLETE_NUMERICAL_DIAGNOSTIC_ONLY",
+  "summary": {
+    "006d_replaced": false,
+    "branch": "032H17A12D1R3X3B17-ALPHA1R13-M5R-INTERACTION",
+    "complete_energy_certified": false,
+    "completed": 7,
+    "fine_c1_interaction": {},
+    "fine_c2_interaction": {},
+    "gates": {
+      "R0_M5Q_reference_preserved": "PASS",
+      "R1_matched_background_and_stationary_checks": "PASS",
+      "R2_independently_resolved_interaction_derivatives": "PASS",
+      "R3_c2_fine_domain_screen": "YELLOW_OR_INCOMPLETE",
+      "R4_c1_interface_screen": "BLOCKED_OR_INCOMPLETE",
+      "R5_phase_mesh_continuum_uniqueness": "NOT_CERTIFIED",
+      "R6_independent_enclosure_support_action": "NOT_DERIVED",
+      "R7_physical_Noether_momentum_and_metric": "NOT_DERIVED",
+      "R8_complete_operating_energy_and_lift": "NOT_ESTABLISHED"
+    },
+    "interaction_phase_spreads": {
+      "c2_width0.5_h0.2": {
+        "certified": false,
+        "count": 3,
+        "max_abs_j_m": 0.9292416330672939,
+        "spread_j_m": 1.7720716291084067
+      }
+    },
+    "parent_reproduction": {
+      "c2_compact_h0p2": {
+        "common_difference_j_m": 0.0,
+        "earth_difference_j_m": 0.0
+      },
+      "c2_original_h0p1": {
+        "common_difference_j_m": 0.0,
+        "earth_difference_j_m": 0.0
+      }
+    },
+    "physical_antigravity_certified": false,
+    "registered": 7,
+    "stationary_artificial_model_complete": false,
+    "whole_craft_lift_certified": false
+  }
+}

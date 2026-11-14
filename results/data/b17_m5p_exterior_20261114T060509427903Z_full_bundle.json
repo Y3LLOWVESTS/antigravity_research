@@ -1,0 +1,4105 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+  "errors": {},
+  "m5o_source_sha256": "e75e0b11b05b04a1561d4e1e628e6c6b62c2a7f2c36912b85041bec95b8969d3",
+  "manifest": [
+    {
+      "name": "dirichlet_reference_compact_0.2",
+      "parameters": {
+        "closure": "dirichlet",
+        "do_resolve": true,
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "dirichlet_reference_original_0.1",
+      "parameters": {
+        "closure": "dirichlet",
+        "do_resolve": true,
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "compact_0.2_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "compact_0.2_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "compact_0.2_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "compact_0.1_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "compact_0.1_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "compact_0.1_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "compact_0.0625_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.0625
+      }
+    },
+    {
+      "name": "compact_0.0625_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.0625
+      }
+    },
+    {
+      "name": "compact_0.0625_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.0625
+      }
+    },
+    {
+      "name": "original_0.2_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "original_0.2_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "original_0.2_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "original_0.1_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "original_0.1_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "original_0.1_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "original_0.0625_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.0625
+      }
+    },
+    {
+      "name": "original_0.0625_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.0625
+      }
+    },
+    {
+      "name": "original_0.0625_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.0625
+      }
+    },
+    {
+      "name": "extended_0.2_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "extended_0.2_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "extended_0.2_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "extended_0.1_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "extended_0.1_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "extended_0.1_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "extended_0.0625_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.0625
+      }
+    },
+    {
+      "name": "extended_0.0625_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.0625
+      }
+    },
+    {
+      "name": "extended_0.0625_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.0625
+      }
+    },
+    {
+      "name": "outer21_0.2_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          21.0,
+          -16.0,
+          19.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "outer21_0.2_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          21.0,
+          -16.0,
+          19.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "outer21_0.2_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          21.0,
+          -16.0,
+          19.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "outer21_0.1_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          21.0,
+          -16.0,
+          19.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "outer21_0.1_dipole_robin",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          21.0,
+          -16.0,
+          19.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "outer21_0.1_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          21.0,
+          -16.0,
+          19.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "outer24_0.2_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          24.0,
+          -18.0,
+          21.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "outer24_0.1_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          24.0,
+          -18.0,
+          21.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "outer30_0.2_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          30.0,
+          -22.0,
+          25.0
+        ],
+        "h": 0.2
+      }
+    },
+    {
+      "name": "outer30_0.1_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          30.0,
+          -22.0,
+          25.0
+        ],
+        "h": 0.1
+      }
+    },
+    {
+      "name": "outer30_0.2_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          30.0,
+          -22.0,
+          25.0
+        ],
+        "h": 0.2,
+        "trace_targets": [
+          "compact",
+          "original"
+        ]
+      }
+    },
+    {
+      "name": "outer30_0.1_dirichlet",
+      "parameters": {
+        "closure": "dirichlet",
+        "domain": [
+          30.0,
+          -22.0,
+          25.0
+        ],
+        "h": 0.1,
+        "trace_targets": [
+          "compact",
+          "original"
+        ]
+      }
+    },
+    {
+      "name": "compact_0.05_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.05
+      }
+    },
+    {
+      "name": "original_0.05_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          12.0,
+          -10.0,
+          13.0
+        ],
+        "h": 0.05
+      }
+    },
+    {
+      "name": "extended_0.05_dipole_trace",
+      "parameters": {
+        "closure": "dipole_trace",
+        "domain": [
+          15.0,
+          -12.0,
+          15.0
+        ],
+        "h": 0.05
+      }
+    },
+    {
+      "name": "model_c1_0.25",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.125,
+        "profile": "c1",
+        "width": 0.25
+      }
+    },
+    {
+      "name": "model_c2_0.5",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.125,
+        "profile": "c2",
+        "width": 0.5
+      }
+    },
+    {
+      "name": "no_earth",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "earth_present": false,
+        "h": 0.25
+      }
+    },
+    {
+      "name": "zero_source",
+      "parameters": {
+        "closure": "dipole_robin",
+        "domain": [
+          7.0,
+          -6.0,
+          8.0
+        ],
+        "h": 0.25,
+        "zero_source": true
+      }
+    }
+  ],
+  "mode": "full",
+  "physical_claims": {
+    "complete_energy": false,
+    "force": false,
+    "lift": false
+  },
+  "processed": 48,
+  "registered": 48,
+  "results": {
+    "compact_0.05_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.4999652801888758,
+        "alpha_min": 0.04430446227643259,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0022152231138217,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.814780419972521e-07,
+      "derivative_H_finite_difference_j_m": -11.423905665327947,
+      "derivative_analytic_j_m": -11.423904983849905,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.05,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2131.0484585491727,
+      "operator_residual": 3.558780228782144e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 0.0,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112659534435,
+        "magnetic_dipole_moment": 0.46119180926133957,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 0.0,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 5.539709184255317e-14,
+      "weighted_operator_asymmetry": 4.1190342506486246e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "compact_0.0625_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.49994575241401756,
+        "alpha_min": 0.04463631788990141,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0027897698681187,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.895340103341141e-07,
+      "derivative_H_finite_difference_j_m": -11.497822619157706,
+      "derivative_analytic_j_m": -11.497821929623695,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.0625,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2130.0013914168803,
+      "operator_residual": 2.121006018626559e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 0.0,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112685460776,
+        "magnetic_dipole_moment": 0.4611918092486471,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 0.0,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.401291624536896e-14,
+      "weighted_operator_asymmetry": 6.459345958439786e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "compact_0.0625_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.49994575241401756,
+        "alpha_min": 0.04463631788990141,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0027897698681187,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.893667183760499e-07,
+      "derivative_H_finite_difference_j_m": -11.491244609456588,
+      "derivative_analytic_j_m": -11.49124392008987,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.0625,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2129.9682271213806,
+      "operator_residual": 2.1466779430474522e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 0.0,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112685460776,
+        "magnetic_dipole_moment": 0.4611918092486471,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 0.0,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.3164818469957003e-14,
+      "weighted_operator_asymmetry": 6.459345958439786e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "compact_0.0625_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.625311304020443e-07,
+      "derivative_H_finite_difference_j_m": -10.488847289820066,
+      "derivative_analytic_j_m": -10.488846627288936,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.0625,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2124.7759307821343,
+      "operator_residual": 2.2004167225539014e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 0.0,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112685460776,
+        "magnetic_dipole_moment": 0.4611918092486471,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 0.0,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.082112359947808e-14,
+      "weighted_operator_asymmetry": 6.401156024702942e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "compact_0.1_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.49986114968064427,
+        "alpha_min": 0.04563581109672127,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.004563581109672,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.007626070532069e-07,
+      "derivative_H_finite_difference_j_m": -11.801166453738425,
+      "derivative_analytic_j_m": -11.801165752975818,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.352401028671,
+      "operator_residual": 8.458728897577554e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 2.2707429185367894e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918715,
+        "magnetic_dipole_moment": 0.46119181021841094,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 1.0446735452664571e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.3435011373389257e-14,
+      "weighted_operator_asymmetry": 1.6717748748596833e-16,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "compact_0.1_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.49986114968064427,
+        "alpha_min": 0.04563581109672127,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.004563581109672,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.005004949434124e-07,
+      "derivative_H_finite_difference_j_m": -11.790389102411318,
+      "derivative_analytic_j_m": -11.790388401910823,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.2992682516724,
+      "operator_residual": 8.950104605421053e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 2.2707429185367894e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918715,
+        "magnetic_dipole_moment": 0.46119181021841094,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 1.0446735452664571e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.3536135923354593e-14,
+      "weighted_operator_asymmetry": 1.6717748748596833e-16,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "compact_0.1_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.742609013343781e-07,
+      "derivative_H_finite_difference_j_m": -10.770681313028001,
+      "derivative_analytic_j_m": -10.7706806387671,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2120.134000117501,
+      "operator_residual": 8.700639474648702e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 2.2707429185367894e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918715,
+        "magnetic_dipole_moment": 0.46119181021841094,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 1.0446735452664571e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.2105860286989406e-14,
+      "weighted_operator_asymmetry": 1.6475488165484918e-16,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "compact_0.2_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.49944506104328523,
+        "alpha_min": 0.04833003849755488,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.009666007699511,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.689607570578346e-07,
+      "derivative_H_finite_difference_j_m": -12.811456617168725,
+      "derivative_analytic_j_m": -12.811456248207968,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.890272,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.766897345836,
+      "operator_residual": 2.8842189750186163e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.0174692185716867e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887848,
+        "magnetic_dipole_moment": 0.4611916567532613,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 1.841046552449382e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.9951626882632694e-15,
+      "weighted_operator_asymmetry": 1.5800915524966324e-16,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "compact_0.2_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.49944506104328523,
+        "alpha_min": 0.04833003849755488,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.009666007699511,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.689031249365371e-07,
+      "derivative_H_finite_difference_j_m": -12.788291713865425,
+      "derivative_analytic_j_m": -12.7882913449623,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.890272,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.661333296121,
+      "operator_residual": 2.6456633381768946e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.0174692185716867e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887848,
+        "magnetic_dipole_moment": 0.4611916567532613,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 1.841046552449382e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.613085799358989e-15,
+      "weighted_operator_asymmetry": 1.5800915524966324e-16,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "compact_0.2_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.650225579576727e-07,
+      "derivative_H_finite_difference_j_m": -11.712738713812655,
+      "derivative_analytic_j_m": -11.712738348790097,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.890272,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2098.6156142194527,
+      "operator_residual": 2.9110680951890376e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.0174692185716867e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887848,
+        "magnetic_dipole_moment": 0.4611916567532613,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 1.841046552449382e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.5914134065426056e-15,
+      "weighted_operator_asymmetry": 1.5800915524966324e-16,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "dirichlet_reference_compact_0.2": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.650225579576727e-07,
+      "derivative_H_finite_difference_j_m": -11.712738713812655,
+      "derivative_analytic_j_m": -11.712738348790097,
+      "derivative_resolve_difference_error_j_m": -4.910429396431937e-07,
+      "derivative_resolved_j_m": -11.712738839833037,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.890272,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2098.6156142194527,
+      "operator_residual": 2.9110680951890376e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.0174692185716867e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887848,
+        "magnetic_dipole_moment": 0.4611916567532613,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 1.841046552449382e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.5914134065426056e-15,
+      "weighted_operator_asymmetry": 1.5800915524966324e-16,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "dirichlet_reference_original_0.1": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.95415918627873e-07,
+      "derivative_H_finite_difference_j_m": -11.586962462958523,
+      "derivative_analytic_j_m": -11.586961767542604,
+      "derivative_resolve_difference_error_j_m": 8.095325654267072e-08,
+      "derivative_resolved_j_m": -11.586961686589348,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2124.2791044534306,
+      "operator_residual": 8.986866452156694e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.716158369268724e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918724,
+        "magnetic_dipole_moment": 0.4611918102184103,
+        "net_charge_after_projection_rel": 8.035950348203508e-17,
+        "net_charge_before_projection_rel": 2.1697065940149475e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.4112202809067967e-14,
+      "weighted_operator_asymmetry": 9.553347118984773e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.05_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.24999565979757296,
+        "alpha_min": 0.014625183955664686,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0007312591977833,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.813010848816248e-07,
+      "derivative_H_finite_difference_j_m": -11.426268090413334,
+      "derivative_analytic_j_m": -11.42626740911225,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.05,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2131.023099134693,
+      "operator_residual": 3.872544002716673e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 3.49345065095339e-17,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112659534435,
+        "magnetic_dipole_moment": 0.4611918092613395,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 1.608753122523771e-16,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 6.255087384869213e-14,
+      "weighted_operator_asymmetry": 3.8149838145180645e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.0625_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.2499932184999322,
+        "alpha_min": 0.014724867443386358,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0009203042152117,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.892000001812448e-07,
+      "derivative_H_finite_difference_j_m": -11.493957511705858,
+      "derivative_analytic_j_m": -11.493956822505858,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.0625,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2129.9443153848606,
+      "operator_residual": 2.357279241402148e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 8.73362662731238e-18,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112685460776,
+        "magnetic_dipole_moment": 0.4611918092486471,
+        "net_charge_after_projection_rel": 4.021150657937098e-17,
+        "net_charge_before_projection_rel": 4.021150657937098e-17,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.007005827682958e-14,
+      "weighted_operator_asymmetry": 2.98546050324444e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.0625_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.2499932184999322,
+        "alpha_min": 0.014724867443386358,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0009203042152117,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.891918591378499e-07,
+      "derivative_H_finite_difference_j_m": -11.49361506490042,
+      "derivative_analytic_j_m": -11.49361437570856,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.0625,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2129.9426554806896,
+      "operator_residual": 2.2759133488403998e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 8.73362662731238e-18,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112685460776,
+        "magnetic_dipole_moment": 0.4611918092486471,
+        "net_charge_after_projection_rel": 4.021150657937098e-17,
+        "net_charge_before_projection_rel": 4.021150657937098e-17,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.899862454955838e-14,
+      "weighted_operator_asymmetry": 2.98546050324444e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.0625_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.865488018092947e-07,
+      "derivative_H_finite_difference_j_m": -11.388036587878483,
+      "derivative_analytic_j_m": -11.388035901329681,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.0625,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2129.4239685590796,
+      "operator_residual": 2.1433660637851074e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 8.73362662731238e-18,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112685460776,
+        "magnetic_dipole_moment": 0.4611918092486471,
+        "net_charge_after_projection_rel": 4.021150657937098e-17,
+        "net_charge_before_projection_rel": 4.021150657937098e-17,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.5161207750849727e-14,
+      "weighted_operator_asymmetry": 2.9729691462750546e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.1_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.2499826400944379,
+        "alpha_min": 0.01502463502818685,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0015024635028187,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.003701174568278e-07,
+      "derivative_H_finite_difference_j_m": -11.793405719177375,
+      "derivative_analytic_j_m": -11.793405018807258,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.275590138923,
+      "operator_residual": 8.454560277241158e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.716158369268723e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918724,
+        "magnetic_dipole_moment": 0.4611918102184104,
+        "net_charge_after_projection_rel": 4.017975174101754e-17,
+        "net_charge_before_projection_rel": 2.1697065940149475e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.57741295122777e-14,
+      "weighted_operator_asymmetry": 3.840727708732135e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.1_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.2499826400944379,
+        "alpha_min": 0.01502463502818685,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0015024635028187,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.003572140007464e-07,
+      "derivative_H_finite_difference_j_m": -11.792846921825943,
+      "derivative_analytic_j_m": -11.792846221468729,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.272942303314,
+      "operator_residual": 9.138390255042287e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.716158369268723e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918724,
+        "magnetic_dipole_moment": 0.4611918102184104,
+        "net_charge_after_projection_rel": 4.017975174101754e-17,
+        "net_charge_before_projection_rel": 2.1697065940149475e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.5460460216070738e-14,
+      "weighted_operator_asymmetry": 3.840727708732135e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.1_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.977406812325171e-07,
+      "derivative_H_finite_difference_j_m": -11.685499600729576,
+      "derivative_analytic_j_m": -11.685498902988895,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2124.7575051651506,
+      "operator_residual": 8.894301429113687e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.716158369268723e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918724,
+        "magnetic_dipole_moment": 0.4611918102184104,
+        "net_charge_after_projection_rel": 4.017975174101754e-17,
+        "net_charge_before_projection_rel": 2.1697065940149475e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.4231369792698123e-14,
+      "weighted_operator_asymmetry": 3.8149515951851336e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.2_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.24993057484032213,
+        "alpha_min": 0.015829293374467465,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0031658586748935,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.6874914854934104e-07,
+      "derivative_H_finite_difference_j_m": -12.792824454419943,
+      "derivative_analytic_j_m": -12.792824085670794,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.890272,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.637400470141,
+      "operator_residual": 2.7207016336523963e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 7.685593287702367e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887886,
+        "magnetic_dipole_moment": 0.4611916567532607,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 3.5220021003379504e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.756845034975875e-15,
+      "weighted_operator_asymmetry": 7.786404422459043e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.2_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.24993057484032213,
+        "alpha_min": 0.015829293374467465,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0031658586748935,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.687452565515059e-07,
+      "derivative_H_finite_difference_j_m": -12.7916364111965,
+      "derivative_analytic_j_m": -12.791636042451243,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.890272,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.6322078219223,
+      "operator_residual": 2.539178895672564e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 7.685593287702367e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887886,
+        "magnetic_dipole_moment": 0.4611916567532607,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 3.5220021003379504e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.308209285661122e-15,
+      "weighted_operator_asymmetry": 7.786404422459043e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "extended_0.2_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.682963551909779e-07,
+      "derivative_H_finite_difference_j_m": -12.678548244565409,
+      "derivative_analytic_j_m": -12.678547876269054,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        15.0,
+        -12.0,
+        15.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.890272,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.1309752153766,
+      "operator_residual": 2.884083598868498e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 7.685593287702367e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887886,
+        "magnetic_dipole_moment": 0.4611916567532607,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 3.5220021003379504e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.0337142064403045e-15,
+      "weighted_operator_asymmetry": 7.681192413969037e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "model_c1_0.25": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.4997830802603037,
+        "alpha_min": 0.046305418719211844,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0057881773399016,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -0.002339053401650304,
+      "derivative_H_finite_difference_j_m": -9.159892541115758,
+      "derivative_analytic_j_m": -9.157553487714107,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.125,
+      "interface_profile": "c1",
+      "interface_width_m": 0.25,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.25,
+        "max_beta_derivative": 258.4734576678517
+      },
+      "on_shell_q_j": 2122.4486042601293,
+      "operator_residual": 5.432677489385472e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 0.0,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375115704345782,
+        "magnetic_dipole_moment": 0.4611918105861395,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 0.0,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 8.243286120520129e-15,
+      "weighted_operator_asymmetry": 2.3991245736842854e-16,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "model_c2_0.5": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.4997830802603037,
+        "alpha_min": 0.046305418719211844,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0057881773399016,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.967384429401591e-07,
+      "derivative_H_finite_difference_j_m": -12.090735433789249,
+      "derivative_analytic_j_m": -12.090734737050806,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.125,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2121.0639727822268,
+      "operator_residual": 5.518189816282722e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 0.0,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375115704345782,
+        "magnetic_dipole_moment": 0.4611918105861395,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 0.0,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 7.987218306429634e-15,
+      "weighted_operator_asymmetry": 6.578535401808043e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "no_earth": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.49913344887348354,
+        "alpha_min": 0.049693000409332805,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0124232501023331,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": 0.0,
+      "derivative_H_finite_difference_j_m": 0.0,
+      "derivative_analytic_j_m": 0.0,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": false,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.25,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1.2,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 0.0
+      },
+      "on_shell_q_j": 2083.975716151454,
+      "operator_residual": 2.2007222391423753e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 1.7467226409206096e-17,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837542767875202,
+        "magnetic_dipole_moment": 0.46119262895733365,
+        "net_charge_after_projection_rel": 3.9904074522762447e-17,
+        "net_charge_before_projection_rel": 7.980814904552489e-17,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 2.8943670283373063e-15,
+      "weighted_operator_asymmetry": 3.414807972229686e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.05_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.2999925001874953,
+        "alpha_min": 0.023557212137436778,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0011778606068718,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.813407225081392e-07,
+      "derivative_H_finite_difference_j_m": -11.425933008272938,
+      "derivative_analytic_j_m": -11.425932326932216,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.05,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2131.0240076961795,
+      "operator_residual": 3.743218305711962e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 1.7467253254766952e-17,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112659534435,
+        "magnetic_dipole_moment": 0.46119180926133957,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 8.043765612618855e-17,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 6.18317340698042e-14,
+      "weighted_operator_asymmetry": 4.776736805191104e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.0625_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.2999882817077458,
+        "alpha_min": 0.023709347465408093,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.001481834216588,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.892190036467127e-07,
+      "derivative_H_finite_difference_j_m": -11.494074599139903,
+      "derivative_analytic_j_m": -11.4940739099209,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.0625,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2129.947445437427,
+      "operator_residual": 2.2360166149819826e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 3.493450650924952e-17,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112685460776,
+        "magnetic_dipole_moment": 0.46119180924864717,
+        "net_charge_after_projection_rel": 2.412690394762259e-16,
+        "net_charge_before_projection_rel": 1.608460263174839e-16,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.8085662454544964e-14,
+      "weighted_operator_asymmetry": 3.73967271125322e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.0625_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.2999882817077458,
+        "alpha_min": 0.023709347465408093,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.001481834216588,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.891999788649628e-07,
+      "derivative_H_finite_difference_j_m": -11.493276786909002,
+      "derivative_analytic_j_m": -11.493276097709023,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.0625,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2129.943570594991,
+      "operator_residual": 2.183553681921376e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 3.493450650924952e-17,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112685460776,
+        "magnetic_dipole_moment": 0.46119180924864717,
+        "net_charge_after_projection_rel": 2.412690394762259e-16,
+        "net_charge_before_projection_rel": 1.608460263174839e-16,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.7884781646985145e-14,
+      "weighted_operator_asymmetry": 3.73967271125322e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.0625_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.841523489953261e-07,
+      "derivative_H_finite_difference_j_m": -11.291100070440104,
+      "derivative_analytic_j_m": -11.291099386287755,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.0625,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2128.942727765123,
+      "operator_residual": 2.2462175919142668e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 3.493450650924952e-17,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375112685460776,
+        "magnetic_dipole_moment": 0.46119180924864717,
+        "net_charge_after_projection_rel": 2.412690394762259e-16,
+        "net_charge_before_projection_rel": 1.608460263174839e-16,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.4785113218234954e-14,
+      "weighted_operator_asymmetry": 3.720093542029923e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.1_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.2999700029997,
+        "alpha_min": 0.02416704606597407,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0024167046065975,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.004143416367015e-07,
+      "derivative_H_finite_difference_j_m": -11.793791792961178,
+      "derivative_analytic_j_m": -11.793791092546837,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.2800731579455,
+      "operator_residual": 8.769673615085773e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.716158369268724e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918724,
+        "magnetic_dipole_moment": 0.4611918102184103,
+        "net_charge_after_projection_rel": 8.035950348203508e-17,
+        "net_charge_before_projection_rel": 2.1697065940149475e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.483490863460105e-14,
+      "weighted_operator_asymmetry": 9.634304792825964e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.1_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.2999700029997,
+        "alpha_min": 0.02416704606597407,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0024167046065975,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.003843371933272e-07,
+      "derivative_H_finite_difference_j_m": -11.792489262191893,
+      "derivative_analytic_j_m": -11.792488561807556,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.27388675281,
+      "operator_residual": 8.980247758858153e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.716158369268724e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918724,
+        "magnetic_dipole_moment": 0.4611918102184103,
+        "net_charge_after_projection_rel": 8.035950348203508e-17,
+        "net_charge_before_projection_rel": 2.1697065940149475e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.4882622930003712e-14,
+      "weighted_operator_asymmetry": 9.634304792825964e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.1_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.95415918627873e-07,
+      "derivative_H_finite_difference_j_m": -11.586962462958523,
+      "derivative_analytic_j_m": -11.586961767542604,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2124.2791044534306,
+      "operator_residual": 8.986866452156694e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 4.716158369268724e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918724,
+        "magnetic_dipole_moment": 0.4611918102184103,
+        "net_charge_after_projection_rel": 8.035950348203508e-17,
+        "net_charge_before_projection_rel": 2.1697065940149475e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.4112202809067967e-14,
+      "weighted_operator_asymmetry": 9.553347118984773e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.2_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.29988004798080764,
+        "alpha_min": 0.02539709078749372,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0050794181574987,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.6879225540076277e-07,
+      "derivative_H_finite_difference_j_m": -12.793966915676313,
+      "derivative_analytic_j_m": -12.793966546884057,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.8902719999999,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.6454544159756,
+      "operator_residual": 2.6813183266413275e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 7.685593287702367e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887886,
+        "magnetic_dipole_moment": 0.4611916567532606,
+        "net_charge_after_projection_rel": 8.004550228040796e-17,
+        "net_charge_before_projection_rel": 3.5220021003379504e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.099740723486953e-15,
+      "weighted_operator_asymmetry": 9.799861169434092e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.2_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.29988004798080764,
+        "alpha_min": 0.02539709078749372,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0050794181574987,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.687854981393457e-07,
+      "derivative_H_finite_difference_j_m": -12.791193166145272,
+      "derivative_analytic_j_m": -12.791192797359773,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.8902719999999,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.6332911154786,
+      "operator_residual": 2.344604119685718e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 7.685593287702367e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887886,
+        "magnetic_dipole_moment": 0.4611916567532606,
+        "net_charge_after_projection_rel": 8.004550228040796e-17,
+        "net_charge_before_projection_rel": 3.5220021003379504e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.1461872636159105e-15,
+      "weighted_operator_asymmetry": 9.799861169434092e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "original_0.2_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.681032509916804e-07,
+      "derivative_H_finite_difference_j_m": -12.574698488979493,
+      "derivative_analytic_j_m": -12.574698120876242,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        12.0,
+        -10.0,
+        13.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.8902719999999,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2102.665044432909,
+      "operator_residual": 3.0601546263170453e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 7.685593287702367e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887886,
+        "magnetic_dipole_moment": 0.4611916567532606,
+        "net_charge_after_projection_rel": 8.004550228040796e-17,
+        "net_charge_before_projection_rel": 3.5220021003379504e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.4637476017678085e-15,
+      "weighted_operator_asymmetry": 9.633785889515756e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer21_0.1_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.18749267606734113,
+        "alpha_min": 0.006783064620891718,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0006783064620892,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.003628379464999e-07,
+      "derivative_H_finite_difference_j_m": -11.793167486121563,
+      "derivative_analytic_j_m": -11.793166785758725,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        21.0,
+        -16.0,
+        19.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.2733106596356,
+      "operator_residual": 1.02115392845131e-14,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 1.747226396720246e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375113319187226,
+        "magnetic_dipole_moment": 0.4611918102184114,
+        "net_charge_after_projection_rel": 2.280711005807267e-19,
+        "net_charge_before_projection_rel": 8.03825558298356e-16,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.7318468946866763e-14,
+      "weighted_operator_asymmetry": 5.465681768688036e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer21_0.1_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.18749267606734113,
+        "alpha_min": 0.006783064620891718,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0006783064620892,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.00359153782415e-07,
+      "derivative_H_finite_difference_j_m": -11.793011289845456,
+      "derivative_analytic_j_m": -11.793010589486302,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        21.0,
+        -16.0,
+        19.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.2725695006484,
+      "operator_residual": 8.929943368530737e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 1.747226396720246e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375113319187226,
+        "magnetic_dipole_moment": 0.4611918102184114,
+        "net_charge_after_projection_rel": 2.280711005807267e-19,
+        "net_charge_before_projection_rel": 8.03825558298356e-16,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.6302114763932628e-14,
+      "weighted_operator_asymmetry": 5.465681768688036e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer21_0.1_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -6.993434009672228e-07,
+      "derivative_H_finite_difference_j_m": -11.752475221229622,
+      "derivative_analytic_j_m": -11.75247452188622,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        21.0,
+        -16.0,
+        19.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.0789512576794,
+      "operator_residual": 9.502120341940818e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 1.747226396720246e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375113319187226,
+        "magnetic_dipole_moment": 0.4611918102184114,
+        "net_charge_after_projection_rel": 2.280711005807267e-19,
+        "net_charge_before_projection_rel": 8.03825558298356e-16,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.5815668896319036e-14,
+      "weighted_operator_asymmetry": 5.4395304813433115e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer21_0.2_dipole_robin": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.18747070770192156,
+        "alpha_min": 0.00720260223048326,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0014405204460965,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.687921985573439e-07,
+      "derivative_H_finite_difference_j_m": -12.792193071952697,
+      "derivative_analytic_j_m": -12.792192703160499,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        21.0,
+        -16.0,
+        19.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.8902719999999,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.633185627703,
+      "operator_residual": 2.4442236499451945e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 5.240177241615234e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887827,
+        "magnetic_dipole_moment": 0.46119165675326196,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 2.4013650684122363e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.369262886016713e-15,
+      "weighted_operator_asymmetry": 5.518648483788416e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer21_0.2_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.18747070770192156,
+        "alpha_min": 0.00720260223048326,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0014405204460965,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.687903458171604e-07,
+      "derivative_H_finite_difference_j_m": -12.791861224689878,
+      "derivative_analytic_j_m": -12.791860855899532,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        21.0,
+        -16.0,
+        19.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.8902719999999,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.631736479644,
+      "operator_residual": 2.3885819040270603e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 5.240177241615234e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887827,
+        "magnetic_dipole_moment": 0.46119165675326196,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 2.4013650684122363e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.40904669792426e-15,
+      "weighted_operator_asymmetry": 5.518648483788416e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer21_0.2_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.6853242590950686e-07,
+      "derivative_H_finite_difference_j_m": -12.749111989830892,
+      "derivative_analytic_j_m": -12.749111621298466,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        21.0,
+        -16.0,
+        19.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.8902719999999,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.4436405074616,
+      "operator_residual": 2.0310052534253235e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 5.240177241615234e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887827,
+        "magnetic_dipole_moment": 0.46119165675326196,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 2.4013650684122363e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 3.9980681851740805e-15,
+      "weighted_operator_asymmetry": 5.465587020939821e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer24_0.1_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.1666615227925064,
+        "alpha_min": 0.004765486434592001,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0004765486434593,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.003608182287735e-07,
+      "derivative_H_finite_difference_j_m": -11.793034678279565,
+      "derivative_analytic_j_m": -11.793033977918746,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        24.0,
+        -18.0,
+        21.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.2725260239963,
+      "operator_residual": 9.473071769373522e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 6.6975999063573e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918706,
+        "magnetic_dipole_moment": 0.46119181021841155,
+        "net_charge_after_projection_rel": 2.1345493112415615e-17,
+        "net_charge_before_projection_rel": 3.0812847116392894e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.7221712778573745e-14,
+      "weighted_operator_asymmetry": 4.776736805191104e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer24_0.2_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.166646093074929,
+        "alpha_min": 0.0050886203574762034,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0010177240714953,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.6880679843420694e-07,
+      "derivative_H_finite_difference_j_m": -12.791899424642239,
+      "derivative_analytic_j_m": -12.79189905583544,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        24.0,
+        -18.0,
+        21.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.8902719999999,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.6316672825187,
+      "operator_residual": 2.8226223218027563e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 5.240177241615234e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.028375106594887827,
+        "magnetic_dipole_moment": 0.461191656753262,
+        "net_charge_after_projection_rel": 3.5019907247678444e-17,
+        "net_charge_before_projection_rel": 2.4013650684122363e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.905884615441214e-15,
+      "weighted_operator_asymmetry": 4.817152396412982e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer30_0.1_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.13636081899134317,
+        "alpha_min": 0.002440607701092015,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0002440607701093,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.004368285379314e-07,
+      "derivative_H_finite_difference_j_m": -11.79305615189147,
+      "derivative_analytic_j_m": -11.793055451454642,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        30.0,
+        -22.0,
+        25.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.272492181486,
+      "operator_residual": 9.3853697947836e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 9.257644206342302e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918721,
+        "magnetic_dipole_moment": 0.4611918102184106,
+        "net_charge_after_projection_rel": 1.6071900696407042e-16,
+        "net_charge_before_projection_rel": 4.259053684547866e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.7155125272931746e-14,
+      "weighted_operator_asymmetry": 3.8149838145180645e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer30_0.1_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -7.000590187544731e-07,
+      "derivative_H_finite_difference_j_m": -11.778579218042923,
+      "derivative_analytic_j_m": -11.778578517983904,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        30.0,
+        -22.0,
+        25.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": {
+        "compact": {
+          "a_dipole_robin_weighted_relative_l2": 0.002236614337421273,
+          "a_dipole_trace_weighted_relative_l2": 0.0020300501658460607,
+          "phi_dipole_robin_weighted_relative_l2": 0.003920655201509738,
+          "phi_dipole_trace_weighted_relative_l2": 0.00366098414796262
+        },
+        "original": {
+          "a_dipole_robin_weighted_relative_l2": 0.0019410858671203898,
+          "a_dipole_trace_weighted_relative_l2": 0.0018085963234027885,
+          "phi_dipole_robin_weighted_relative_l2": 0.0029209775253405588,
+          "phi_dipole_trace_weighted_relative_l2": 0.0027993734049884945
+        }
+      },
+      "h_m": 0.1,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2125.2034581411526,
+      "operator_residual": 9.948561373325713e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 9.257644206342302e-16,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837511331918721,
+        "magnetic_dipole_moment": 0.4611918102184106,
+        "net_charge_after_projection_rel": 1.6071900696407042e-16,
+        "net_charge_before_projection_rel": 4.259053684547866e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 1.5914780942166e-14,
+      "weighted_operator_asymmetry": 3.802224742804289e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer30_0.2_dipole_trace": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "EXACT_LOCAL_DIPOLE_TRACE",
+        "alpha_max": 0.13635236757292785,
+        "alpha_min": 0.0026490083777043344,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0005298016755408,
+        "outer_closure": "dipole_trace"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_trace",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.6894353172556293e-07,
+      "derivative_H_finite_difference_j_m": -12.791940015238726,
+      "derivative_analytic_j_m": -12.791939646295194,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        30.0,
+        -22.0,
+        25.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.8902719999999,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.6315987852713,
+      "operator_residual": 2.9551452956492037e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 1.5895204299566325e-15,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837510659488782,
+        "magnetic_dipole_moment": 0.4611916567532588,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 7.28414070751715e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.869600401829425e-15,
+      "weighted_operator_asymmetry": 3.840727708732135e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "outer30_0.2_dirichlet": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "ZERO_DIRICHLET",
+        "alpha_max": null,
+        "alpha_min": null,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": null,
+        "outer_closure": "dirichlet"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dirichlet",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": -3.6879393583433284e-07,
+      "derivative_H_finite_difference_j_m": -12.776636896215022,
+      "derivative_analytic_j_m": -12.776636527421086,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        30.0,
+        -22.0,
+        25.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": {
+        "compact": {
+          "a_dipole_robin_weighted_relative_l2": 0.005210226689614712,
+          "a_dipole_trace_weighted_relative_l2": 0.004282127014900423,
+          "phi_dipole_robin_weighted_relative_l2": 0.01066406347286949,
+          "phi_dipole_trace_weighted_relative_l2": 0.010117431244442527
+        },
+        "original": {
+          "a_dipole_robin_weighted_relative_l2": 0.004147725022265554,
+          "a_dipole_trace_weighted_relative_l2": 0.0036152069940445716,
+          "phi_dipole_robin_weighted_relative_l2": 0.007235225955162714,
+          "phi_dipole_trace_weighted_relative_l2": 0.0070710600481614025
+        }
+      },
+      "h_m": 0.2,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 1982.8902719999999,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 2103.564609930452,
+      "operator_residual": 2.6676510427560702e-15,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 1.5895204299566325e-15,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837510659488782,
+        "magnetic_dipole_moment": 0.4611916567532588,
+        "net_charge_after_projection_rel": 0.0,
+        "net_charge_before_projection_rel": 7.28414070751715e-15,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 4.571845836614039e-15,
+      "weighted_operator_asymmetry": 3.8149515951851336e-17,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": false
+    },
+    "zero_source": {
+      "006d_replaced": false,
+      "artificial_source_amplitude": 1000000.0,
+      "boundary": {
+        "accuracy": "FIRST_ORDER_LOCAL_ROBIN",
+        "alpha_max": 0.49913344887348354,
+        "alpha_min": 0.049693000409332805,
+        "changes_only_diagonal": true,
+        "elimination_min_denominator": 1.0124232501023331,
+        "outer_closure": "dipole_robin"
+      },
+      "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+      "closure": "dipole_robin",
+      "complete_operating_energy_certified": false,
+      "derivative_H_difference_error_j_m": 0.0,
+      "derivative_H_finite_difference_j_m": 0.0,
+      "derivative_analytic_j_m": 0.0,
+      "derivative_resolve_difference_error_j_m": null,
+      "derivative_resolved_j_m": null,
+      "domain_m": [
+        7.0,
+        -6.0,
+        8.0
+      ],
+      "earth_present": true,
+      "earth_step_m": 0.0001,
+      "external_trace_probe": null,
+      "h_m": 0.25,
+      "interface_profile": "c2",
+      "interface_width_m": 0.5,
+      "material": {
+        "density_max_kg_m3": 2000.0,
+        "earth_bottom_m": -4.0,
+        "earth_top_m": -3.0,
+        "ground_radius_m": 2.0,
+        "interface_width_m": 0.5,
+        "max_beta_derivative": 161.5459110424073
+      },
+      "on_shell_q_j": 0.0,
+      "operator_residual": 0.0,
+      "physical_force_certified": false,
+      "source": {
+        "artificial_amplitude": 1000000.0,
+        "charge_projection_fraction": 1.7467226409206096e-17,
+        "continuum_source": {
+          "axial_halfwidth_m": 0.5,
+          "azimuthal_current_amplitude": 1.0,
+          "density_amplitude": 1.0,
+          "radial_center_m": 1.15,
+          "radial_halfwidth_m": 0.42
+        },
+        "electric_dipole_moment": 0.02837542767875202,
+        "magnetic_dipole_moment": 0.46119262895733365,
+        "net_charge_after_projection_rel": 3.9904074522762447e-17,
+        "net_charge_before_projection_rel": 7.980814904552489e-17,
+        "order": 6,
+        "portal_scale_ev": 21147.0,
+        "reference_moments": {
+          "electric_dipole_z_integral": 0.028375112653215705,
+          "magnetic_dipole_z_integral": 0.46119180925609793,
+          "net_charge_integral": 2.406103999772971e-19
+        },
+        "shift_m": 0.0
+      },
+      "stationarity_residual": 0.0,
+      "weighted_operator_asymmetry": 1.0400145935183107e-16,
+      "whole_spacecraft_lift_certified": false,
+      "zero_source": true
+    }
+  },
+  "schema": "antigravity.single_run.v1",
+  "source_code_sha256": "e49f7eb2ac7f700d0f2608bd556e3729cf0941932704761f9b9118d9607c2243",
+  "status": "COMPLETE_NUMERICAL_ONLY",
+  "summary": {
+    "006d_replaced": false,
+    "branch": "032H17A12D1R3X3B17-ALPHA1R11-M5P-EXTERIOR",
+    "comparison": {
+      "0.05": {
+        "compact:dipole_trace": -11.423904983849905,
+        "extended:dipole_trace": -11.42626740911225,
+        "original:dipole_trace": -11.425932326932216
+      },
+      "0.0625": {
+        "compact:dipole_robin": -11.497821929623695,
+        "compact:dipole_trace": -11.49124392008987,
+        "compact:dirichlet": -10.488846627288936,
+        "extended:dipole_robin": -11.493956822505858,
+        "extended:dipole_trace": -11.49361437570856,
+        "extended:dirichlet": -11.388035901329681,
+        "original:dipole_robin": -11.4940739099209,
+        "original:dipole_trace": -11.493276097709023,
+        "original:dirichlet": -11.291099386287755
+      },
+      "0.1": {
+        "compact:dipole_robin": -11.801165752975818,
+        "compact:dipole_trace": -11.790388401910823,
+        "compact:dirichlet": -10.7706806387671,
+        "extended:dipole_robin": -11.793405018807258,
+        "extended:dipole_trace": -11.792846221468729,
+        "extended:dirichlet": -11.685498902988895,
+        "original:dipole_robin": -11.793791092546837,
+        "original:dipole_trace": -11.792488561807556,
+        "original:dirichlet": -11.586961767542604,
+        "outer21:dipole_robin": -11.793166785758725,
+        "outer21:dipole_trace": -11.793010589486302,
+        "outer21:dirichlet": -11.75247452188622,
+        "outer24:dipole_trace": -11.793033977918746,
+        "outer30:dipole_trace": -11.793055451454642,
+        "outer30:dirichlet": -11.778578517983904
+      },
+      "0.2": {
+        "compact:dipole_robin": -12.811456248207968,
+        "compact:dipole_trace": -12.7882913449623,
+        "compact:dirichlet": -11.712738348790097,
+        "extended:dipole_robin": -12.792824085670794,
+        "extended:dipole_trace": -12.791636042451243,
+        "extended:dirichlet": -12.678547876269054,
+        "original:dipole_robin": -12.793966546884057,
+        "original:dipole_trace": -12.791192797359773,
+        "original:dirichlet": -12.574698120876242,
+        "outer21:dipole_robin": -12.792192703160499,
+        "outer21:dipole_trace": -12.791860855899532,
+        "outer21:dirichlet": -12.749111621298466,
+        "outer24:dipole_trace": -12.79189905583544,
+        "outer30:dipole_trace": -12.791939646295194,
+        "outer30:dirichlet": -12.776636527421086
+      }
+    },
+    "complete_device_energy_j": null,
+    "completed": 48,
+    "conditional_cross_box_extrapolation_spread_j_m": 0.002324692323524502,
+    "conditional_h_squared_extrapolations": {
+      "compact": {
+        "assumed_order": 2,
+        "candidate_extrapolation_j_m": -11.300914861053235,
+        "certified": false,
+        "max_fit_residual_j_m": 0.000812065413574814,
+        "physical_force": false
+      },
+      "extended": {
+        "assumed_order": 2,
+        "candidate_extrapolation_j_m": -11.30323955337676,
+        "certified": false,
+        "max_fit_residual_j_m": 0.00081787913468645,
+        "physical_force": false
+      },
+      "original": {
+        "assumed_order": 2,
+        "candidate_extrapolation_j_m": -11.302912621729787,
+        "certified": false,
+        "max_fit_residual_j_m": 0.0008172671777693097,
+        "physical_force": false
+      }
+    },
+    "continuum_force_certified": false,
+    "cross_box_spreads_j_m": {
+      "0.05_dipole_trace": 0.0023624252623442032,
+      "0.0625_dipole_robin": 0.0038651071178374963,
+      "0.0625_dipole_trace": 0.0023704556186903147,
+      "0.0625_dirichlet": 0.8991892740407454,
+      "0.1_dipole_robin": 0.007760734168559935,
+      "0.1_dipole_trace": 0.002457819557905694,
+      "0.1_dirichlet": 0.914818264221795,
+      "0.2_dipole_robin": 0.018632162537173258,
+      "0.2_dipole_trace": 0.0033446974889432823,
+      "0.2_dirichlet": 0.9658095274789567
+    },
+    "dirichlet_to_trace_spread_reduction": {
+      "0.0625": 379.3318326447094,
+      "0.1": 372.20725226928823,
+      "0.2": 288.75840959359607
+    },
+    "gates": {
+      "P0_m5o_dirichlet_reproduction": "PASS",
+      "P1_stationarity_and_derivative": "PASS",
+      "P1a_source_moments": "PASS",
+      "P2_negative_controls": "PASS",
+      "P3_domain_sensitivity_reduced": "PASS_NUMERICAL_DIAGNOSTIC_ONLY",
+      "P3_mesh_domain_joint": "YELLOW_NOT_PROVEN",
+      "P4_exterior_boundary": "YELLOW_LOCAL_ASYMPTOTIC_ONLY",
+      "P4a_exterior_trace_reference": "PASS_NUMERICAL_DIAGNOSTIC_ONLY",
+      "P5_material_profile": "YELLOW_PRESCRIBED_MODEL",
+      "P6_physical_action": "NOT_ESTABLISHED"
+    },
+    "physical_lift_certified": false,
+    "reference_trace_max_relative_l2": 0.010117431244442527,
+    "reference_trace_probes": {
+      "outer30_0.1_dirichlet": {
+        "compact": {
+          "a_dipole_robin_weighted_relative_l2": 0.002236614337421273,
+          "a_dipole_trace_weighted_relative_l2": 0.0020300501658460607,
+          "phi_dipole_robin_weighted_relative_l2": 0.003920655201509738,
+          "phi_dipole_trace_weighted_relative_l2": 0.00366098414796262
+        },
+        "original": {
+          "a_dipole_robin_weighted_relative_l2": 0.0019410858671203898,
+          "a_dipole_trace_weighted_relative_l2": 0.0018085963234027885,
+          "phi_dipole_robin_weighted_relative_l2": 0.0029209775253405588,
+          "phi_dipole_trace_weighted_relative_l2": 0.0027993734049884945
+        }
+      },
+      "outer30_0.2_dirichlet": {
+        "compact": {
+          "a_dipole_robin_weighted_relative_l2": 0.005210226689614712,
+          "a_dipole_trace_weighted_relative_l2": 0.004282127014900423,
+          "phi_dipole_robin_weighted_relative_l2": 0.01066406347286949,
+          "phi_dipole_trace_weighted_relative_l2": 0.010117431244442527
+        },
+        "original": {
+          "a_dipole_robin_weighted_relative_l2": 0.004147725022265554,
+          "a_dipole_trace_weighted_relative_l2": 0.0036152069940445716,
+          "phi_dipole_robin_weighted_relative_l2": 0.007235225955162714,
+          "phi_dipole_trace_weighted_relative_l2": 0.0070710600481614025
+        }
+      }
+    },
+    "registered": 48,
+    "reproducibility": {
+      "dirichlet_reference_compact_0.2": {
+        "difference_j_m": 0.0,
+        "measured": -11.712738348790097
+      },
+      "dirichlet_reference_original_0.1": {
+        "difference_j_m": 0.0,
+        "measured": -11.586961767542604
+      }
+    }
+  }
+}
