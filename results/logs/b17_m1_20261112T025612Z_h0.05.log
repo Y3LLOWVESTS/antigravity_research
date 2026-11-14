@@ -1,0 +1,13 @@
+{
+  "branch": "032H17A12D1R3X3B17-M1",
+  "grid_m": 0.05,
+  "theta_air": -10344.313267122321,
+  "theta_ground": -17240522.111870535,
+  "axis_contact_air_field_density_ratio": 53512753.79744856,
+  "axis_contact_ground_field_density_ratio": 148617818585471.5,
+  "max_composition_relative_error": 2.1378283506724943e-16,
+  "gravity_cancellation": null,
+  "pure_field_lift": null,
+  "whole_craft_force_derived": false,
+  "claim_limit": "Local planar Maxwell matching, not Earth force or craft lift"
+}

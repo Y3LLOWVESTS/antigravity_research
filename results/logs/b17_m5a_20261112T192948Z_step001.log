@@ -1,0 +1,19 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5A",
+  "grid_m": 0.25,
+  "portal_ev": 21147.0,
+  "shape": "original",
+  "calculation_class": "REDUCED_ACTION_PROXY_NOT_PHYSICAL_LIFT",
+  "original_earth_action_slope_j_per_m": 548.2487594563281,
+  "original_craft_action_slope_j_per_m": 784.6067957107152,
+  "magnetic_flip_earth_action_slope_j_per_m": -402.94563736824784,
+  "magnetic_flip_craft_action_slope_j_per_m": 432.809615664155,
+  "original_reciprocity_defect_j_per_m": 1332.8555551670433,
+  "quadratic_norm_positive": true,
+  "exact_reciprocal_null_directions": 2,
+  "oracle_goal_guaranteed_algebraically": true,
+  "oracle_physical_success": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "field_retention_oracle": null
+}

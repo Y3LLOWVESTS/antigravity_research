@@ -1,0 +1,12 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B3C",
+  "grid_m": 0.2,
+  "axis_aligned": false,
+  "grid_shift_m": 0.0,
+  "max_normalized_mixed_multipole_error": 0.03732209882904638,
+  "odd_to_even_leakage": 1.1806419768509005e-14,
+  "multipole_linear_superposition_error": 2.9532963152224214e-16,
+  "original_run_reproduction_error": 0.0,
+  "whole_craft_force_n": null,
+  "warning": "Source-deposition transfer only; not propulsion or lift"
+}

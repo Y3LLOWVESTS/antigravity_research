@@ -1,0 +1,26 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5B",
+  "bias": 0.0,
+  "step_m": 0.0002,
+  "source_max_radius_m": {
+    "0.25": 1.8027756377319946,
+    "0.2": 1.8110770276275123
+  },
+  "original_sign_earth_slope_j_per_m": {
+    "0.25": 168.20698599076422,
+    "0.2": -5142.441266798414
+  },
+  "reversed_magnetic_earth_slope_j_per_m": {
+    "0.25": -416.8814855711389,
+    "0.2": 1563.1902559834998
+  },
+  "cross_grid_reciprocity_errors": [
+    1.275288,
+    1.034481,
+    0.712546,
+    0.844735
+  ],
+  "all_modes_stable_under_5pct": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

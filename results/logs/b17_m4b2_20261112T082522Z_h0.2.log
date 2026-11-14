@@ -1,0 +1,20 @@
+{
+  "grid_m": 0.2,
+  "scale_ev": 1000,
+  "legacy_ground_tracer_n": -0.0012318990294871953,
+  "carrier_action_slope_j_per_m": 2.609024107869118e-08,
+  "envelope_slope_j_per_m": 2.593476685587848e-08,
+  "derivative_identity_error": 0.005959094909999852,
+  "source_b7_layer_cells": 0.5,
+  "whole_craft_force_n": null
+}
+{
+  "grid_m": 0.2,
+  "scale_ev": 21147,
+  "legacy_ground_tracer_n": -89.92803449961707,
+  "carrier_action_slope_j_per_m": -6270.222656894475,
+  "envelope_slope_j_per_m": -6270.223207330521,
+  "derivative_identity_error": 8.778571796703591e-08,
+  "source_b7_layer_cells": 0.5,
+  "whole_craft_force_n": null
+}

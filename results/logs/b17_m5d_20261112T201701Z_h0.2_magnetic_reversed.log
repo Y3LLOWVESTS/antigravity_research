@@ -1,0 +1,22 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5D",
+  "h_m": 0.2,
+  "bias": 0.0,
+  "magnetic_reversed": true,
+  "subcell_paired_slope_j_per_m": 3006.947613248485,
+  "subcell_common_slope_j_per_m": 3007.02259875834,
+  "one_cell_paired_slope_j_per_m": -7.395475559242186,
+  "one_cell_common_slope_j_per_m": -7.35155093287176,
+  "phase_diagnostics": {
+    "common_interaction_center_j": -958.278523856221,
+    "one_cell_end_to_end_action_change_j": -2.940620373148704,
+    "one_cell_mean_slope_j_per_m": -7.35155093287176,
+    "maximum_abs_deviation_from_endpoint_line_j": 124.32445032566102,
+    "phase_span_interaction_action_j": 165.8659377482254,
+    "min_adjacent_secant_j_per_m": -2168.4637925581765,
+    "max_adjacent_secant_j_per_m": 3412.4681826415317,
+    "subcell_to_one_cell_slope_ratio": 409.0324104690243
+  },
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

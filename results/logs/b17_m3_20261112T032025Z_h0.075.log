@@ -1,0 +1,13 @@
+{
+  "branch": "032H17A12D1R3X3B17-M3",
+  "grid_m": 0.075,
+  "preloaded_r3b_j": 1.4667459954338413,
+  "conditional_frozen_earth_down_n": -130738.53806387342,
+  "conditional_frozen_source_anchor_up_n": 130738.53806387051,
+  "reduced_action_force_residual": 2.2261095226959615e-14,
+  "independent_force_residual": 1.090793666121021e-14,
+  "whole_craft_force_n": null,
+  "gravity_cancellation": null,
+  "field_only_lift": null,
+  "warning": "Frozen reduced interaction potential only; no actual lift"
+}

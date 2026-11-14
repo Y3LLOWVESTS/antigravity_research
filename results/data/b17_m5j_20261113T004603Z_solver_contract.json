@@ -1,0 +1,445 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R5-M5J",
+  "scope": "SOLVER_INTERFACE_AND_HISTORICAL_ACTION_REPRODUCTION",
+  "M5I_continuum_source_preflight_passed": true,
+  "M5I_deposition_return_keys": [
+    "absolute_charge_integral",
+    "azimuthal_current_is_divergence_free_by_symmetry",
+    "coarse_cell_shape",
+    "dynamical_source_sector_Ward_certified",
+    "electric_dipole_z_integral",
+    "grid_m",
+    "magnetic_dipole_z_integral",
+    "net_charge_integral",
+    "nonzero_subcell_samples",
+    "relative_net_charge",
+    "source_continuity_exact_analytically",
+    "source_definition",
+    "subcells_per_axis"
+  ],
+  "M5I_deposition_exposes_nodal_rhs_arrays": false,
+  "solver_function_contracts": {
+    "hook17_r3b_m4b1_source_recovery.assemble_original_aligned_source": {
+      "name": "hook17_r3b_m4b1_source_recovery.assemble_original_aligned_source",
+      "signature": "(h)",
+      "file": "/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_r3b_m4b1_source_recovery.py",
+      "source_line_count": 170
+    },
+    "hook17_r3b_m5b_compact_transfer.compact_shaped_source": {
+      "name": "hook17_r3b_m5b_compact_transfer.compact_shaped_source",
+      "signature": "(base, bias)",
+      "file": "/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_r3b_m5b_compact_transfer.py",
+      "source_line_count": 120
+    },
+    "hook17_r3b_m4b4_paired_translation.pair_action": {
+      "name": "hook17_r3b_m4b4_paired_translation.pair_action",
+      "signature": "(source, scale_ev, earth_z_m, craft_z_m)",
+      "file": "/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_r3b_m4b4_paired_translation.py",
+      "source_line_count": 20
+    },
+    "hook17_r3b_m4b4_paired_translation.source_support_check": {
+      "name": "hook17_r3b_m4b4_paired_translation.source_support_check",
+      "signature": "(source, shift_m)",
+      "file": "/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_r3b_m4b4_paired_translation.py",
+      "source_line_count": 47
+    },
+    "hook17_r3b_m5i_continuum_source.continuum_current": {
+      "name": "hook17_r3b_m5i_continuum_source.continuum_current",
+      "signature": "(r, z, spec)",
+      "file": "/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_r3b_m5i_continuum_source.py",
+      "source_line_count": 25
+    },
+    "hook17_r3b_m5i_continuum_source.deposit": {
+      "name": "hook17_r3b_m5i_continuum_source.deposit",
+      "signature": "(spec, h, subcells=1)",
+      "file": "/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_r3b_m5i_continuum_source.py",
+      "source_line_count": 91
+    },
+    "hook17_r3b_m4b_sparse_earth_loading._solve_fixed_sources": {
+      "name": "hook17_r3b_m4b_sparse_earth_loading._solve_fixed_sources",
+      "signature": "(base, beta, fraction=1.0)",
+      "file": "/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_r3b_m4b_sparse_earth_loading.py",
+      "source_line_count": 113
+    },
+    "hook17_r3b_m4b4_paired_translation.shifted_source": {
+      "name": "hook17_r3b_m4b4_paired_translation.shifted_source",
+      "signature": "(source, scale_ev, craft_shift_m)",
+      "file": "/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_r3b_m4b4_paired_translation.py",
+      "source_line_count": 22
+    },
+    "hook17_r3b_m4b4_paired_translation.shifted_material": {
+      "name": "hook17_r3b_m4b4_paired_translation.shifted_material",
+      "signature": "(source, earth_z_m, craft_z_m, scale_ev, *, earth_present)",
+      "file": "/Users/mymac/Desktop/antigravity_research/src/antigravity_research/agminer/hook17_r3b_m4b4_paired_translation.py",
+      "source_line_count": 69
+    }
+  },
+  "optional_interfaces_unavailable": [
+    {
+      "module": "hook17_r3b_m4b_sparse_earth_loading",
+      "symbol": "_on_shell_action",
+      "error": "module 'antigravity_research.agminer.hook17_r3b_m4b_sparse_earth_loading' has no attribute '_on_shell_action'"
+    },
+    {
+      "module": "hook17_r3b_m4b_sparse_earth_loading",
+      "symbol": "_weights",
+      "error": "module 'antigravity_research.agminer.hook17_r3b_m4b_sparse_earth_loading' has no attribute '_weights'"
+    }
+  ],
+  "historical_reproduction": {
+    "h0.25": {
+      "grid_m": 0.25,
+      "M5D_reproduction_max_error_j": 0.0,
+      "earth_present_action_j": 120795.68938230202,
+      "earth_absent_action_j": 121666.64470693425,
+      "interaction_action_j": -870.9553246322321,
+      "source_layout": {
+        "a0": {
+          "type": "ndarray",
+          "shape": [
+            93,
+            49
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 4277
+        },
+        "electric_outside_source_count": {
+          "type": "int",
+          "value": 0
+        },
+        "electric_relative_net_charge": {
+          "type": "float",
+          "value": 1.429234413183772e-17
+        },
+        "exterior_electric_relative_l2_error": {
+          "type": "float",
+          "value": 0.02607660964551617
+        },
+        "exterior_magnetic_relative_l2_error": {
+          "type": "float",
+          "value": 0.01580969475761223
+        },
+        "field": {
+          "type": "dict",
+          "keys": [
+            "a_phi",
+            "b_rho",
+            "b_squared",
+            "b_z",
+            "exterior_energy_j",
+            "field_energy_j",
+            "h",
+            "payload",
+            "rho_grid",
+            "rhos",
+            "z_grid",
+            "zs"
+          ]
+        },
+        "fit_rms": {
+          "type": "float",
+          "value": 0.028533131987005075
+        },
+        "j_a": {
+          "type": "ndarray",
+          "shape": [
+            4277
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 77
+        },
+        "j_phi": {
+          "type": "ndarray",
+          "shape": [
+            4368
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 92
+        },
+        "magnetic_outside_source_count": {
+          "type": "int",
+          "value": 0
+        },
+        "operators": {
+          "type": "dict",
+          "keys": [
+            "k_a",
+            "k_phi",
+            "nr_a",
+            "nr_phi",
+            "nz_inner"
+          ]
+        },
+        "original_mirror_target_energy_j": {
+          "type": "float",
+          "value": 0.8670457253973223
+        },
+        "phi0": {
+          "type": "ndarray",
+          "shape": [
+            93,
+            49
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 4368
+        },
+        "recovered_em": {
+          "type": "dict",
+          "keys": [
+            "b_rho",
+            "b_z",
+            "e_rho",
+            "e_z"
+          ]
+        },
+        "recovered_unloaded_energy_j": {
+          "type": "float",
+          "value": 0.9447398919289661
+        },
+        "source_electric_npoints": {
+          "type": "int",
+          "value": 72
+        },
+        "source_is_onboard": {
+          "type": "bool",
+          "value": true
+        },
+        "source_magnetic_npoints": {
+          "type": "int",
+          "value": 90
+        },
+        "synthesized_source_exact_b7_shell": {
+          "type": "bool",
+          "value": false
+        },
+        "synthesized_source_exact_original_r3b": {
+          "type": "bool",
+          "value": false
+        },
+        "target_a": {
+          "type": "ndarray",
+          "shape": [
+            93,
+            49
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 4277
+        },
+        "target_em": {
+          "type": "dict",
+          "keys": [
+            "b_rho",
+            "b_z",
+            "e_rho",
+            "e_z"
+          ]
+        },
+        "target_phi": {
+          "type": "ndarray",
+          "shape": [
+            93,
+            49
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 4556
+        }
+      },
+      "source_audit_keys": [
+        "compensation_charge_before",
+        "compensation_source_max_radius_m",
+        "compensation_uses_spherical_radius",
+        "max_nonzero_source_radius_m",
+        "net_electric_charge_relative_residual",
+        "source_tapered_relative_to_original_m4b1"
+      ],
+      "M5I_source_was_used": false
+    },
+    "h0.2": {
+      "grid_m": 0.2,
+      "M5D_reproduction_max_error_j": 0.0,
+      "earth_present_action_j": 185232.13911930376,
+      "earth_absent_action_j": 186623.526315441,
+      "interaction_action_j": -1391.3871961372497,
+      "source_layout": {
+        "a0": {
+          "type": "ndarray",
+          "shape": [
+            116,
+            61
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 6726
+        },
+        "electric_outside_source_count": {
+          "type": "int",
+          "value": 0
+        },
+        "electric_relative_net_charge": {
+          "type": "float",
+          "value": 9.185759693672247e-18
+        },
+        "exterior_electric_relative_l2_error": {
+          "type": "float",
+          "value": 0.02432137644919802
+        },
+        "exterior_magnetic_relative_l2_error": {
+          "type": "float",
+          "value": 0.013426318402545321
+        },
+        "field": {
+          "type": "dict",
+          "keys": [
+            "a_phi",
+            "b_rho",
+            "b_squared",
+            "b_z",
+            "exterior_energy_j",
+            "field_energy_j",
+            "h",
+            "payload",
+            "rho_grid",
+            "rhos",
+            "z_grid",
+            "zs"
+          ]
+        },
+        "fit_rms": {
+          "type": "float",
+          "value": 0.02151168170923943
+        },
+        "j_a": {
+          "type": "ndarray",
+          "shape": [
+            6726
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 121
+        },
+        "j_phi": {
+          "type": "ndarray",
+          "shape": [
+            6840
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 140
+        },
+        "magnetic_outside_source_count": {
+          "type": "int",
+          "value": 0
+        },
+        "operators": {
+          "type": "dict",
+          "keys": [
+            "k_a",
+            "k_phi",
+            "nr_a",
+            "nr_phi",
+            "nz_inner"
+          ]
+        },
+        "original_mirror_target_energy_j": {
+          "type": "float",
+          "value": 1.3294951131708415
+        },
+        "phi0": {
+          "type": "ndarray",
+          "shape": [
+            116,
+            61
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 6840
+        },
+        "recovered_em": {
+          "type": "dict",
+          "keys": [
+            "b_rho",
+            "b_z",
+            "e_rho",
+            "e_z"
+          ]
+        },
+        "recovered_unloaded_energy_j": {
+          "type": "float",
+          "value": 1.4411017868146412
+        },
+        "source_electric_npoints": {
+          "type": "int",
+          "value": 112
+        },
+        "source_is_onboard": {
+          "type": "bool",
+          "value": true
+        },
+        "source_magnetic_npoints": {
+          "type": "int",
+          "value": 146
+        },
+        "synthesized_source_exact_b7_shell": {
+          "type": "bool",
+          "value": false
+        },
+        "synthesized_source_exact_original_r3b": {
+          "type": "bool",
+          "value": false
+        },
+        "target_a": {
+          "type": "ndarray",
+          "shape": [
+            116,
+            61
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 6726
+        },
+        "target_em": {
+          "type": "dict",
+          "keys": [
+            "b_rho",
+            "b_z",
+            "e_rho",
+            "e_z"
+          ]
+        },
+        "target_phi": {
+          "type": "ndarray",
+          "shape": [
+            116,
+            61
+          ],
+          "dtype": "float64",
+          "finite": true,
+          "nonzero_count": 7076
+        }
+      },
+      "source_audit_keys": [
+        "compensation_charge_before",
+        "compensation_source_max_radius_m",
+        "compensation_uses_spherical_radius",
+        "max_nonzero_source_radius_m",
+        "net_electric_charge_relative_residual",
+        "source_tapered_relative_to_original_m4b1"
+      ],
+      "M5I_source_was_used": false
+    }
+  },
+  "M5I_continuum_source_coupled_to_R3B": false,
+  "dual_mesh_source_normalization_certified": false,
+  "same_action_source_Ward_identity_certified": false,
+  "physical_source_energy_certified": false,
+  "exterior_metric_transmission_derived": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false
+}

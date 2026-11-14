@@ -1,0 +1,12 @@
+B17-M4B3A: B7 finite source resolution
+h=0.300 m; shell_cells=0.33; midpoint_max_error=8.73177; split_cell_error=3.33e-15
+h=0.250 m; shell_cells=0.40; midpoint_max_error=9.25; split_cell_error=3.33e-15
+h=0.200 m; shell_cells=0.50; midpoint_max_error=7.2; split_cell_error=1.35e-14
+h=0.100 m; shell_cells=1.00; midpoint_max_error=2.24392; split_cell_error=1.35e-14
+h=0.050 m; shell_cells=2.00; midpoint_max_error=1.10647; split_cell_error=9.33e-15
+h=0.025 m; shell_cells=4.00; midpoint_max_error=0.549228; split_cell_error=6.88e-15
+h=0.020 m; shell_cells=5.00; midpoint_max_error=0.438733; split_cell_error=8.22e-15
+h=0.010 m; shell_cells=10.00; midpoint_max_error=0.218713; split_cell_error=7.99e-15
+SOURCE_LOCAL_PROFILE_CONVERGED=False
+WHOLE_CRAFT_FORCE=None
+B17_M4B3A_PREFLIGHT=COMPLETE

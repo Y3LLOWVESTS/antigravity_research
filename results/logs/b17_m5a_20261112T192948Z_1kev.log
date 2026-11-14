@@ -1,0 +1,28 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5A",
+  "grid_m": 0.25,
+  "portal_ev": 1000.0,
+  "shape": "original",
+  "calculation_class": "REDUCED_ACTION_PROXY_NOT_PHYSICAL_LIFT",
+  "original_earth_action_slope_j_per_m": 0.0013592789066020627,
+  "original_craft_action_slope_j_per_m": -3.443272892506011e-05,
+  "magnetic_flip_earth_action_slope_j_per_m": 0.002736230996173289,
+  "magnetic_flip_craft_action_slope_j_per_m": -0.00035040057053820073,
+  "original_reciprocity_defect_j_per_m": 0.0013248461776770026,
+  "quadratic_norm_positive": true,
+  "exact_reciprocal_null_directions": 2,
+  "oracle_goal_guaranteed_algebraically": true,
+  "oracle_physical_success": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "field_retention_oracle": {
+    "frozen_earth_tracer_n": -83764.13414564004,
+    "loaded_earth_tracer_n": -3.211658909238667,
+    "hypothetical_uniform_amplitude_retention_needed": 0.3421616140961618,
+    "hypothetical_uniform_amplitude_retention_current": 0.006192067127305043,
+    "additional_amplitude_gain_needed": 55.25805955612756,
+    "frozen_model_can_meet_magnitude_goal": true,
+    "real_loaded_spatial_fields_rescaled_uniformly": false,
+    "source_reaction_and_spacecraft_lift_certified": false
+  }
+}

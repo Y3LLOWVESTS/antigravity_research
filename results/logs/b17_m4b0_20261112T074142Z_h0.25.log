@@ -1,0 +1,13 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B0",
+  "grid": 0.25,
+  "reference_r3b_unloaded_j": 1.5429162116460216,
+  "source_is_original_r3b": false,
+  "control_1kev_air_ground_force_ratio": 7.717442569450179e-05,
+  "control_1kev_air_ground_loaded_force_n": -43.19914428657328,
+  "control_21kev_air_ground_force_ratio": 0.008400061867592703,
+  "control_21kev_air_ground_loaded_carrier_j": 2361774.9531483403,
+  "maximum_weighted_reciprocity_residual": 1.649398144407946e-16,
+  "whole_craft_force_n": null,
+  "claim_limit": "Finite-box, fixed-source carrier BVP; not spacecraft lift"
+}

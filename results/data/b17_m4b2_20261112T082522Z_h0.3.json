@@ -1,0 +1,121 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B2",
+  "grid_m": 0.3,
+  "cases": {
+    "1000": {
+      "branch": "032H17A12D1R3X3B17-M4B2",
+      "classification": "SOURCE_FIXED_REDUCED_ACTION_EARTH_TRANSLATION_AUDIT",
+      "h_m": 0.3,
+      "scale_ev": 1000.0,
+      "include_air": true,
+      "interface_width_m": 0.25,
+      "ground_translation_displaces_air": true,
+      "source_unloaded_energy_j": 1.22299250030619,
+      "original_r3b_unloaded_j": 1.5429162116460216,
+      "approximate_source_is_exact_r3b": false,
+      "original_b7_10cm_layer_cells": 0.33333333333333337,
+      "b7_layer_resolved": false,
+      "central_on_shell_action_j": 0.5316188571182818,
+      "central_full_quadratic_action_j": 0.5316188571182816,
+      "stationary_action_identity_error_j": 2.220446049250313e-16,
+      "central_canonical_carrier_j": 0.5368694958743353,
+      "central_legacy_ground_tracer_n": -0.05586836851514853,
+      "central_solver_residual": 3.6783095138998433e-13,
+      "weighted_symmetry": {
+        "phi_weighted_antisymmetry_max": 2.842170943040401e-14,
+        "a_weighted_antisymmetry_max": 2.842170943040401e-14,
+        "relative_weighted_cross_antisymmetry": 1.5252719896514196e-16
+      },
+      "translation_scan": [
+        {
+          "step_m": 1e-05,
+          "on_shell_action_slope_j_per_m": -1.1801670751765412e-08,
+          "frozen_field_envelope_slope_j_per_m": -1.1814814487174775e-08,
+          "relative_derivative_identity_error": 0.0011124792034297962,
+          "max_shifted_solver_residual": 4.677621508753589e-13
+        },
+        {
+          "step_m": 1e-06,
+          "on_shell_action_slope_j_per_m": -1.1712852909795402e-08,
+          "frozen_field_envelope_slope_j_per_m": -1.1814814538306427e-08,
+          "relative_derivative_identity_error": 0.008629981298516526,
+          "max_shifted_solver_residual": 5.797229943697797e-13
+        },
+        {
+          "step_m": 1e-07,
+          "on_shell_action_slope_j_per_m": -1.1657341758564144e-08,
+          "frozen_field_envelope_slope_j_per_m": -1.1814814422542108e-08,
+          "relative_derivative_identity_error": 0.013328407738467244,
+          "max_shifted_solver_residual": 5.180460401650081e-13
+        }
+      ],
+      "sign_as_physical_force_certified": false,
+      "whole_craft_force_n": null,
+      "source_hardware_reaction_n": null,
+      "earth_gravity_metric_momentum_ledger_closed": false,
+      "interface_and_box_convergence_certified": false,
+      "complete_operating_energy_j": null,
+      "006d_replaced": false,
+      "warning": "Carrier-action derivative only, not actual Earth/craft thrust"
+    },
+    "21147": {
+      "branch": "032H17A12D1R3X3B17-M4B2",
+      "classification": "SOURCE_FIXED_REDUCED_ACTION_EARTH_TRANSLATION_AUDIT",
+      "h_m": 0.3,
+      "scale_ev": 21147.0,
+      "include_air": true,
+      "interface_width_m": 0.25,
+      "ground_translation_displaces_air": true,
+      "source_unloaded_energy_j": 1.22299250030619,
+      "original_r3b_unloaded_j": 1.5429162116460216,
+      "approximate_source_is_exact_r3b": false,
+      "original_b7_10cm_layer_cells": 0.33333333333333337,
+      "b7_layer_resolved": false,
+      "central_on_shell_action_j": 149102.1509327344,
+      "central_full_quadratic_action_j": 149102.15093273437,
+      "stationary_action_identity_error_j": 2.9103830456733704e-11,
+      "central_canonical_carrier_j": 240227.21191858232,
+      "central_legacy_ground_tracer_n": -226.87075308824672,
+      "central_solver_residual": 3.721902049899842e-15,
+      "weighted_symmetry": {
+        "phi_weighted_antisymmetry_max": 2.842170943040401e-14,
+        "a_weighted_antisymmetry_max": 2.842170943040401e-14,
+        "relative_weighted_cross_antisymmetry": 1.1635965745382328e-16
+      },
+      "translation_scan": [
+        {
+          "step_m": 1e-05,
+          "on_shell_action_slope_j_per_m": -14050.640264758838,
+          "frozen_field_envelope_slope_j_per_m": -14050.640559083413,
+          "relative_derivative_identity_error": 2.0947413269854203e-08,
+          "max_shifted_solver_residual": 3.5834497285485736e-15
+        },
+        {
+          "step_m": 1e-06,
+          "on_shell_action_slope_j_per_m": -14050.640558707528,
+          "frozen_field_envelope_slope_j_per_m": -14050.640578900642,
+          "relative_derivative_identity_error": 1.43716681174648e-09,
+          "max_shifted_solver_residual": 3.814237733453129e-15
+        },
+        {
+          "step_m": 1e-07,
+          "on_shell_action_slope_j_per_m": -14050.640165805817,
+          "frozen_field_envelope_slope_j_per_m": -14050.640527233478,
+          "relative_derivative_identity_error": 2.5723215992770115e-08,
+          "max_shifted_solver_residual": 3.921723001798305e-15
+        }
+      ],
+      "sign_as_physical_force_certified": false,
+      "whole_craft_force_n": null,
+      "source_hardware_reaction_n": null,
+      "earth_gravity_metric_momentum_ledger_closed": false,
+      "interface_and_box_convergence_certified": false,
+      "complete_operating_energy_j": null,
+      "006d_replaced": false,
+      "warning": "Carrier-action derivative only, not actual Earth/craft thrust"
+    }
+  },
+  "interface_width_controls": {},
+  "complete_spacecraft_force_n": null,
+  "006d_replaced": false
+}

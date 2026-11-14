@@ -1,0 +1,12 @@
+{
+  "branch": "032H17A12D1R3X3B17-M2",
+  "grid_m": 0.075,
+  "preloaded_r3b_j": 1.4667459954338413,
+  "b_on_axis": 60712.24360478414,
+  "air_ground_fixed_j_per_m2": 4442485930.85982,
+  "air_ground_optimized_j_per_m2": 2221242707.5982466,
+  "vacuum_ground_optimized_j_per_m2": 2223910599.7100825,
+  "higher_portal_optimized_j_per_m2": 11113.09205621506,
+  "lift": null,
+  "warning": "CONDITIONAL LOCAL PER-AREA ENERGY, NOT CRAFT FORCE"
+}

@@ -1,0 +1,44 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5E",
+  "grid_m": 0.25,
+  "bias": 0.0,
+  "reversed_magnetic": true,
+  "decomposition": {
+    "full": {
+      "small_symmetric_slope_j_per_m": 759.1722184224636,
+      "one_cell_symmetric_slope_j_per_m": -4.322893741657026,
+      "positive_halfcell_deviation_from_endpoint_chord_j": 91.4168291464739,
+      "positive_halfcell_interaction_change_from_center_j": 90.92346065040329
+    },
+    "source_only": {
+      "small_symmetric_slope_j_per_m": 1186.169083302957,
+      "one_cell_symmetric_slope_j_per_m": 1214.4580696760968,
+      "positive_halfcell_deviation_from_endpoint_chord_j": 5.778212419427291,
+      "positive_halfcell_interaction_change_from_center_j": 125.75345751871646
+    },
+    "material_only": {
+      "small_symmetric_slope_j_per_m": -426.9664416278829,
+      "one_cell_symmetric_slope_j_per_m": -1218.8124248773092,
+      "positive_halfcell_deviation_from_endpoint_chord_j": 140.9325761774744,
+      "positive_halfcell_interaction_change_from_center_j": -43.33045472377853
+    },
+    "mixed_difference": {
+      "small_symmetric_slope_j_per_m": -0.030423252610489726,
+      "one_cell_symmetric_slope_j_per_m": 0.03146145955543034,
+      "positive_halfcell_deviation_from_endpoint_chord_j": -55.29395945042779,
+      "positive_halfcell_interaction_change_from_center_j": 8.500457855465356
+    }
+  },
+  "source_quadratic_midpoint": {
+    "source_halfcell_is_linear_interpolant_relative_error_phi": 6.629441163080668e-17,
+    "source_halfcell_is_linear_interpolant_relative_error_a": 7.86202233548451e-17,
+    "source_only_chord_curvature_j": 5.778212419427291,
+    "independently_solved_increment_current_interaction_action_j": -23.11284967749907,
+    "predicted_chord_curvature_j": 5.778212419374768,
+    "absolute_identity_error_j": 5.2523319027386606e-11
+  },
+  "m5d_reproduction_max_abs_error_j": 0.0,
+  "max_solver_residual": 4.850421747720521e-15,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

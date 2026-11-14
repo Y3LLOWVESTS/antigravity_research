@@ -1,0 +1,232 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5A",
+  "classification": "ORACLE_RELAXATION_AND_EXACT_TWO_CURRENT_INVERSE_DIAGNOSTIC",
+  "grid_m": 0.2,
+  "portal_scale_ev": 21147.0,
+  "translation_step_m": 0.0002,
+  "pre_registered_source_shape_bias": 0.5,
+  "net_electric_charge_fraction": 1.334888685968358e-16,
+  "source_geometry_is_microscopically_realized": false,
+  "source_basis": [
+    "M4B1 approximate electric source",
+    "M4B1 approximate magnetic source"
+  ],
+  "source_is_original_B7_or_R3B_exact": false,
+  "original_R3B_field_capacity_reference_j": 1.5429162116460216,
+  "action_slope_source_matrices": {
+    "earth_j_per_m": [
+      [
+        5343.9946591242915,
+        -4271.517929773836
+      ],
+      [
+        -4271.517929773836,
+        -4075.238077712129
+      ]
+    ],
+    "craft_j_per_m": [
+      [
+        -5111.451950688206,
+        603.9013272311422
+      ],
+      [
+        603.9013272311422,
+        3727.964677673299
+      ]
+    ],
+    "reciprocity_defect_j_per_m": [
+      [
+        232.54270843608538,
+        -3667.6166025426937
+      ],
+      [
+        -3667.6166025426937,
+        -347.27340003883
+      ]
+    ],
+    "carrier_gradient_norm_j": [
+      [
+        64501.56644200164,
+        4.3655745685100555e-11
+      ],
+      [
+        4.3655745685100555e-11,
+        232288.30981454183
+      ]
+    ]
+  },
+  "basis_norm_positive_eigenvalues": [
+    64501.56644200164,
+    232288.30981454183
+  ],
+  "max_coupled_solver_residual": 1.803273068645213e-14,
+  "polarity_controls": {
+    "both_positive": {
+      "amplitude_vector": [
+        1.0,
+        1.0
+      ],
+      "earth_action_slope_j_per_m": -7274.279278135509,
+      "craft_action_slope_j_per_m": -175.68461855262285,
+      "reciprocity_defect_j_per_m": -7449.963896688132,
+      "gradient_norm_j_not_device_energy": 296789.87625654356
+    },
+    "magnetic_reversed": {
+      "amplitude_vector": [
+        1.0,
+        -1.0
+      ],
+      "earth_action_slope_j_per_m": 9811.792440959834,
+      "craft_action_slope_j_per_m": -2591.2899274771917,
+      "reciprocity_defect_j_per_m": 7220.502513482643,
+      "gradient_norm_j_not_device_energy": 296789.8762565434
+    },
+    "both_reversed": {
+      "amplitude_vector": [
+        -1.0,
+        -1.0
+      ],
+      "earth_action_slope_j_per_m": -7274.279278135509,
+      "craft_action_slope_j_per_m": -175.68461855262285,
+      "reciprocity_defect_j_per_m": -7449.963896688132,
+      "gradient_norm_j_not_device_energy": 296789.87625654356
+    },
+    "electric_only": {
+      "amplitude_vector": [
+        1.0,
+        0.0
+      ],
+      "earth_action_slope_j_per_m": 5343.9946591242915,
+      "craft_action_slope_j_per_m": -5111.451950688206,
+      "reciprocity_defect_j_per_m": 232.54270843608538,
+      "gradient_norm_j_not_device_energy": 64501.56644200164
+    },
+    "magnetic_only": {
+      "amplitude_vector": [
+        0.0,
+        1.0
+      ],
+      "earth_action_slope_j_per_m": -4075.238077712129,
+      "craft_action_slope_j_per_m": 3727.964677673299,
+      "reciprocity_defect_j_per_m": -347.27340003883,
+      "gradient_norm_j_not_device_energy": 232288.30981454183
+    }
+  },
+  "inverse_source_space": {
+    "eigenvalues_per_norm": [
+      -0.02848203941586248,
+      0.0937887783537934
+    ],
+    "optimal_signs": {
+      "earth_slope_negative": {
+        "exists": true,
+        "unit_norm_optimal_source_ratio": [
+          0.0011776753862161762,
+          0.0019798678472880593
+        ],
+        "response_per_quadratic_norm": -0.02848203941586248,
+        "quadratic_norm_needed_for_target_j": 344309.96519646654,
+        "required_electric_magnetic_current_multipliers": [
+          0.6910355571032871,
+          1.161745500377171
+        ],
+        "craft_slope_at_target_j_per_m": 3560.2178447871584,
+        "reciprocity_defect_at_target_j_per_m": -6246.432155212839,
+        "norm_under_10mj_not_complete_energy": true
+      },
+      "earth_slope_positive": {
+        "exists": true,
+        "unit_norm_optimal_source_ratio": [
+          0.003757203765688861,
+          -0.0006205789669979383
+        ],
+        "response_per_quadratic_norm": 0.0937887783537934,
+        "quadratic_norm_needed_for_target_j": 104561.01648970201,
+        "required_electric_magnetic_current_multipliers": [
+          1.21492549914523,
+          -0.20066976886486962
+        ],
+        "craft_slope_at_target_j_per_m": -7689.0696735158945,
+        "reciprocity_defect_at_target_j_per_m": 2117.5803264841043,
+        "norm_under_10mj_not_complete_energy": true
+      }
+    },
+    "exact_reciprocal_null_directions": [
+      {
+        "source_amplitude_direction": [
+          -0.0039303632523409035,
+          -0.0001244145374872983
+        ],
+        "earth_slope_per_quadratic_norm": 0.07831214521296438,
+        "craft_slope_per_quadratic_norm": -0.07831214521296438,
+        "reciprocity_defect_per_norm": 0.0
+      },
+      {
+        "source_amplitude_direction": [
+          9.805254073551469e-05,
+          -0.0020742047291386046
+        ],
+        "earth_slope_per_quadratic_norm": -0.015744129394364547,
+        "craft_slope_per_quadratic_norm": 0.015744129394364547,
+        "reciprocity_defect_per_norm": 0.0
+      }
+    ]
+  },
+  "artificial_success_oracle": {
+    "construction": "S_oracle = -F_target * (z_E-z_C); freely injected",
+    "target_craft_mass_kg": 1000.0,
+    "signed_earth_action_slope_j_per_m": -9806.65,
+    "signed_craft_action_slope_j_per_m": 9806.65,
+    "reciprocity_defect_j_per_m": 0.0,
+    "guaranteed_by_algebra": true,
+    "physical_action_derived": false,
+    "requires_unmodeled_external_coupling": true,
+    "energy_cost_j": null,
+    "source_off_limit_derived": false,
+    "genuine_lift": false
+  },
+  "oracle_correction_for_original_source": {
+    "additional_earth_slope_j_per_m": -2532.3707218644904,
+    "additional_craft_slope_j_per_m": 9982.334618552622,
+    "minimum_equal_opposite_projection_pair_j_per_m": [
+      -3549.297329791443,
+      3549.297329791443
+    ],
+    "this_is_a_new_physical_coupling": false
+  },
+  "exterior_transmission_theorem": {
+    "if_both_carrier_field_strengths_vanish_outside_enclosure": "local algebraic F_X dual_F_Y portal vanishes outside",
+    "outside_enclosure_carriers_solved_and_transmitted": false,
+    "new_independently_propagating_metric_mode_derived": false,
+    "whole_craft_lift_deducible": false
+  },
+  "source_support_plus": {
+    "max_nodal_source_radius_m": 12.899612397277599,
+    "inside_nominal_2m_region": false,
+    "inside_enclosure_radius": false,
+    "translated_source_is_exact_physical_current": false
+  },
+  "source_support_minus": {
+    "max_nodal_source_radius_m": 12.701181047445862,
+    "inside_nominal_2m_region": false,
+    "inside_enclosure_radius": false,
+    "translated_source_is_exact_physical_current": false
+  },
+  "same_action_full_Ward_Noether_certified": false,
+  "source_translation_continuity_certified": false,
+  "finite_box_artifact_excluded": false,
+  "physical_metric_exterior_transmission_derived": false,
+  "Earth_craft_reaction_physically_closed": false,
+  "loaded_force_grid_convergence_certified": false,
+  "whole_craft_force_n": null,
+  "full_operating_energy_j": null,
+  "strict_sub_10mj_device_certified": false,
+  "006d_replaced": false,
+  "warnings": [
+    "Artificial oracle injects the desired interaction",
+    "Action derivatives are NOT certified thrust",
+    "Carrier norm is NOT complete operating energy",
+    "Source scaling requires new physical sourcing checks",
+    "No full Noether/momentum or enclosure transmission proof"
+  ]
+}

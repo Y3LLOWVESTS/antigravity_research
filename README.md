@@ -2,9 +2,9 @@
 
 > **For the benefit of humanity**
 
-**Research status: November 11, 2026** · **Program:** `032H17 — HOOK17` · **Latest completed branch:** `R3X3B16` · **Next proposed branch:** `R3X3B17` (onboard spacecraft, Earth-directed interaction) · **Co-primary open investigation:** `R3X3B11-M6` (sourced dynamics) · **Last recorded complete regression:** 1,283 passed (historical; not rerun after the recent focused branches).
+**Research status: November 13, 2026** · **Program:** `032H17 — HOOK17` · **Latest completed numerical branch:** `R3X3B17 / ALPHA-1R9 / M5N` (artificial reduced-model interface audit) · **Next planned numerical gate:** `B17-M5O` (controlled Earth-interface/grid/domain convergence) · **Co-primary open investigation:** `R3X3B11-M6` (physically sourced dynamics and finite impulse) · **Last recorded complete regression:** **1,455 passed** on November 12, 2026 (before the newest ALPHA-1 additions; a fresh full regression is required).
 
-**Scientific status:** No experimentally demonstrated antigravity, no complete physically sourced spacecraft-lift model, and no certified complete operating-energy budget below 10 MJ. The numerical results below arise from particular reduced or linearized theoretical models and are not experimental observations.
+**Scientific status:** No experimentally demonstrated antigravity, no complete physically sourced spacecraft-lift model, and no certified complete operating-energy budget below 10 MJ. The numerical results below arise from particular reduced or linearized theoretical models and are not experimental observations. **ALPHA-1 additionally uses deliberately artificial source amplitudes, prescribed matter-loading functions, and hypothetical reduced carrier interactions: its action derivatives are not demonstrated gravitational forces.**
 
 ![Historical R3B laboratory geometry: conceptual depiction of a finite neutral torus above a source, not the proposed onboard spacecraft configuration.](assets/hook17_r3b_1p542916j_preloaded_mixed_eb_schematic.png)
 
@@ -43,6 +43,35 @@ T_{\mathrm{aux,hover}}
 A force insufficient for field-only hover could still reduce auxiliary fuel expenditure. No present R3B calculation establishes a positive value for this whole-craft Earth-directed term.
 
 **Distinct operational scenarios to be modeled:** (i) ground-contact source-off and activation, (ii) launch-pad release/auxiliary-assisted takeoff, (iii) already suspended operation at several clearances, (iv) stable hover, and (v) powered climb. A suspended-operation result does not automatically establish ground liftoff. The Earth is an **external reaction partner**, not a stationary generator carrying the source under a separate payload.
+
+## Research strategy: constraint-first inverse design (ALPHA-1)
+
+Alongside theorem-first searches for a complete physical theory, B17 now uses **ALPHA-1 as a deliberately artificial inverse-design reference model**. Instead of claiming to know a working antigravity source, we **specify a desired, testable Earth–craft interaction and trial source/field/material variables**, solve the reduced mathematical system, then work backward to ask which *real* source matter, gauge symmetries, action terms, stress-energy, geometry, and momentum channels would be necessary to realize it. **The specified inputs are hypotheses and computational controls, not physical discoveries or experimental measurements.**
+
+The workflow is deliberately falsification-first:
+
+1. **Specify the performance and conservation target.** The eventual output is whole-craft, Earth-referenced upward force or reduced effective weight, together with Earth/environment reaction, exterior transmission, neutral-matter response, and a complete energy budget. No desired force is inserted as a physical result.
+2. **Construct an explicit artificial reference system.** Use clearly labeled trial current profiles, amplitudes, coupling coefficients, boundary conditions and material-loading functions. Solve and check the reduced carrier equations, source neutrality, variational identities, response and grid limits. Keep all artificially assigned parameters visible in results and journals.
+3. **Find the obstruction, not merely a favorable number.** Audit grid phase, continuum-source equivalence, material interfaces, enclosure and finite-box artifacts, step-size sensitivity, and full-system conservation. A force-like derivative in J/m is not automatically mechanical thrust.
+4. **Attempt physical completion or close the route.** Derive the same behavior from one healthy source–carrier–matter–metric–gravity action, including exact gauge/Ward/Noether identities, physical current maintenance, canonical normalization, exterior field propagation, Earth–craft reaction, empirical/UV consistency and complete operating energy. If the necessary coupling or source cannot be realized, record the failure; do not relabel artificial input as known physics.
+
+This is **inverse design under physical constraints**, not reverse-engineering a successful device from fabricated data. Its purpose is to identify what a real theory would have to supply and to eliminate numerical mirages before investing in full physical modeling. **It does not raise the evidentiary status of the R3B preloaded field-capacity result or replace 006D.**
+
+### Mathematical status of the artificial reference calculation
+
+For fixed prescribed material loading, ALPHA-1 uses the coupled reduced carrier system $Au=j$, a signed numerical source-pairing matrix $W=\mathrm{diag}(W_\phi,-W_a)$, and $H=WA$. The tested stationary functional is:
+
+```math
+Q(u;j)=\frac12u^THu-u^TWj,\qquad H\simeq H^T.
+```
+
+At a stationary solution, $Q_*=-\tfrac12u_*^TWj$. With the existing reduced-action conversion factor $\kappa(h)$, the artificial Earth-present minus Earth-free diagnostic is $I=\kappa(h)(Q_{*,\mathrm{Earth}}-Q_{*,\mathrm{air}})$. Holding the source and pairing weights fixed while displacing the **prescribed** Earth material coefficient gives the envelope identity:
+
+```math
+\frac{dI}{dz_E}=\frac{\kappa(h)}2 u_*^T\frac{\partial H}{\partial z_E}u_*
+```
+
+for the Earth-dependent contribution under the tested assumptions. This is a derivative of the **reduced on-shell carrier action**, not a certified force on a complete physical craft. Its sign and dimensional equivalence $1\,\mathrm{J/m}=1\,\mathrm N$ do not remove the missing dynamical source, material, stress-energy and metric sectors.
 
 ## Flagship mathematical field-capacity result: 1.5429162116460216 J
 
@@ -157,9 +186,9 @@ The identity restricts an **angle-only** cancellation at fixed local field stren
 
 **Sources:** [B15-M2A numerical results (0.050 m)](results/data/032h17a12d1r3x3b15_m2a_torus_rhs_h050_r3b_summary.json), [B15-M2C angular result (0.040 m)](results/data/032h17a12d1r3x3b15_m2c_angular_h040_r3b_summary.json), [B15-M2C simulation](simulations/032h17a12d1r3x3b15_m2c_angular_routing_gate.py).
 
-## Next proposed research: B17 onboard craft / atmosphere / Earth
+## Active B17 research: onboard craft / atmosphere / Earth
 
-**`032H17A12D1R3X3B17` — proposed; not run.** This replaces the old practice of treating the generator as a fixed ground source and the payload above it. Its first purpose is to **falsify the new architecture cheaply before attempting expensive 3D Earth-loaded numerical simulations**.
+**`032H17A12D1R3X3B17` — underway; ALPHA-1R9 / M5N is the latest completed *artificial numerical* gate.** The experimental-physics objective is unchanged: a source apparatus carried aboard the spacecraft, with a physically derived exterior Earth interaction and whole-craft reaction. **No physically complete onboard antigravity model has passed.** The following are the remaining architecture gates; previous ALPHA-1 numerical results do not certify them.
 
 1. **Exterior-transmission gate:** Can a physically generated influence leave an onboard, possibly evacuated enclosure and act on matter outside? Distinguish carrier fields extending through the hull from fully confined carrier fields. In the *local algebraic* R3B portal, if both relevant exterior carrier field strengths vanish, the local topological contribution vanishes there; an independently propagating metric/mediator would require a new explicit action.
 2. **Whole-craft force/reaction gate:** Derive the net force on all onboard matter plus field momentum, and compare with Earth, atmosphere, radiation and auxiliary-exhaust momentum. Do not count generator-to-hull internal forces as thrust.
@@ -169,6 +198,35 @@ The identity restricts an **angle-only** cancellation at fixed local field stren
 6. **Numerical standards:** Preserve R3B/B7 and known failed loaded controls; check exact action, local/gauge constraints, exterior boundary terms, convergence of *integrated whole-craft forces* and the complete Earth-reaction ledger before promoting results.
 
 **Crucial point:** An enclosure might keep some internal carrier-field regions in vacuum, but it **cannot be assumed** to transmit the proposed metric field while fully blocking the very carrier fields that create it. Earth-directed repulsion itself has not been established; the 1.5 J laboratory field cannot simply be rotated and relabeled as spacecraft lift.
+
+
+### B17 / ALPHA-1 results through M5N (November 13, 2026)
+
+The artificial reference sequence made the following progress **without demonstrating gravitational lift**:
+
+| Stage | Scoped numerical result | What remains unresolved |
+|---|---|---|
+| M5A–M5E | Identified large grid-phase, source-translation and material-interface artifacts in apparent Earth–craft action gradients | Those gradients were not physical forces |
+| M5F–M5G | Phase-quadrature error was diagnosed by an exact one-cell endpoint identity; extrapolation reduced the error | Phase averages did not prove reciprocity |
+| M5H | Historical source arrays on different grids were not certified as the same continuum source | A new common source was required |
+| M5I–M5J | Defined a compact stationary, axisymmetric, net-neutral *trial* charge/current and verified deposition/interface mapping | Source amplitudes were arbitrary; no dynamical source action |
+| M5K | Coupled the prescribed source to unchanged R3B reduced carrier equations; residuals around $10^{-15}$ | Reported field energy is model-only; no calibrated physical source |
+| M5L | Verified signed weighted stationary variational consistency and reduced-action conversion | No healthy complete dynamical theory or physical force theorem |
+| M5M | Recomputed continuously displaced trial sources and reduced-action derivatives | Source neutrality projection is numerical; cross-grid derivatives disagree |
+| **M5N** | **Independent fixed-source envelope derivative reproduced M5M and localized the discrepancy to the ground-top material interface** | **Continuum Earth-response and whole-craft lift not certified** |
+
+For the original current orientation, the independent M5N Earth-only derivative was:
+
+| Grid | Reduced Earth-only action derivative |
+|---|---:|
+| 0.25 m | **−1.833560347103 J/m** |
+| 0.20 m | **−9.888729681527 J/m** |
+
+Their absolute difference is **8.055169334424 J/m**, or **81.4581%** relative to the larger magnitude. Approximately **97.96% of the signed cross-grid difference** was attributed numerically to the modeled ground-top interface band. The independently re-solved M5M derivatives agree closely with M5N's fixed-center variational derivatives, so repeated field solving is not the principal explanation of this discrepancy. That row-band attribution is **not** a unique local stress tensor or a derived Earth force.
+
+The matched test current uses an artificial compact toroidal profile $B=[1-((r-1.15)/0.42)^2-(z/0.50)^2]_+^5$, with $\rho_e\propto(z/0.50)B$ and $J_\varphi\propto B$; the amplitudes and portal-scale control are *not* calibrated physical currents or a practical source. Its analytical net neutrality and stationary continuity are source-prescription checks, not a source-sector physicalization certificate. The M5K coupled-carrier field inventories of approximately **1.85–1.95 kJ** belong to this artificial normalization; they do **not** replace the **1.542916 J R3B preloaded field-capacity anchor** or certify apparatus energy.
+
+**Next numerical gate — B17-M5O:** hold the continuum current and physical material geometry fixed while independently refining grid spacing (including a finer grid), mesh/interface phase, physical interface width, quadrature, outer-domain size and boundary conditions. Recheck the stationary-envelope and re-solved derivatives, center actions, local cancellation, source continuity, and positive/negative controls. A converged **reduced** derivative would still require a full source–matter–metric–gravity action, exterior transmission, Earth/environment reaction and whole-craft force balance before promotion. **B11-M6 physically sourced dynamics and net impulse remain co-primary and open.**
 
 ## Co-primary open research: B11-M6 sourced dynamics and finite impulse
 
@@ -214,7 +272,8 @@ A propulsion result using ordinary air/exhaust momentum must be reported as such
 | **B1** | Conditional higher-scale, finite-grid loaded result around 0.3 MJ field-only | Minimal electron dipole sourcing energetically excluded; complete energy unknown |
 | **B14 / B16** | Local inward ~41.85g anomaly; favorable 5 mg weak-loaded control | Inward peak nonconverged, severe cancellation; weak-loading mass impractical |
 | **B15** | 3D geometric/reciprocity machinery, exact angle-only constraint | No fully loaded 3D rescue |
-| **B17 / B11-M6** | New research questions on onboard Earth coupling and sourced pulse dynamics | **Not run**, not evidence of propulsion |
+| **B17 / ALPHA-1R9–M5N** | Artificial matched-source deposition, reduced coupled-carrier solve, fixed-loading variational action and independently reproduced Earth-interface derivative | **81.46% cross-grid interface discrepancy**; no continuum force, exterior metric transmission or whole-craft lift |
+| **B11-M6** | Physically sourced dynamics, cycles and finite impulse remain co-primary | Not completed; static pulse control did not rescue practical loading |
 
 AGMINER remains a **theorem-first, candidate-specific falsification program**, not a blind optimizer. Historical source-family closures (ordinary 1-keV `F²` loading/current sculpting, minimal electron Pauli practical sourcing, certain shell-source families, tested static compensation routes and generic past pulse mechanisms) retain their declared scope.
 
@@ -232,9 +291,12 @@ AGMINER remains a **theorem-first, candidate-specific falsification program**, n
 - [B16 weak-loading finite-mass response](simulations/032h17a12d1r3x3b16_weak_loading_mass_response.py) and [three-grid JSON sample](results/data/032h17a12d1r3x3b16_weakload_h050_summary.json).
 - [006D original linearized-GR journal](journal/2026-08-28_006d_constructive_linearized_gr_repulsion.md), [November 9 R3B journal](journal/2026-11-09_032h17a12d1r3b_r3x3b0_hook17_1p542916j_preloaded_capacity_and_interface_obstruction.md), and [November 10 B1–B10 journal](journal/2026-11-10_032h17a12d1r3x3b1_r3x3b10_hook17_field_source_interface_gates_and_pulsed_frontier.md).
 
+- [M5I common artificial continuum-source module](src/antigravity_research/agminer/hook17_r3b_m5i_continuum_source.py), [M5K matched-source coupled-carrier module](src/antigravity_research/agminer/hook17_r3b_m5k_matched_coupling.py), [M5L variational audit](src/antigravity_research/agminer/hook17_r3b_m5l_variational_audit.py), [M5M continuous-source translation](src/antigravity_research/agminer/hook17_r3b_m5m_translation_consistency.py), and [M5N independent Earth-interface derivative](src/antigravity_research/agminer/hook17_r3b_m5n_earth_interface_audit.py). These implement **artificial reduced-model controls**, not a physical propulsion device.
+- M5N primary live artifacts: `results/data/b17_m5n_20261113T192542Z_h0.25_original.json`, `results/data/b17_m5n_20261113T192542Z_h0.2_original.json` and `results/data/b17_m5n_20261113T192542Z_h0.25_magnetic_reversed.json`. Preserve the M5F–M5M intermediate controls and focused logs as well. The proposed November 13 journal entry should be added to `journal/` before the journal bundle is regenerated.
+
 ### Test-suite integrity
 
-The **last recorded full project regression was 1,283 passed**. Later B15-M0 (6 focused), B15-M1 (5 focused), B15-M2A (5 focused), B15-M2C (7 focused) and B16 (6 focused) tests were run separately. **Do not add these counts and claim a new full regression.** Independent physical reproducibility and continuum checks remain outstanding.
+The **last recorded complete project regression was 1,455 passed in 77.37 seconds**, in `b17_full_regression_20261112T024113Z.log`. This **predates** the M5F–M5N additions; the newest recorded **M5N focused suite passed 18 tests**. Focused suites overlap and must **not** be added to invent a new complete-project count. Run a fresh complete regression and independently check physical consistency and continuum convergence before promoting any new claim.
 
 ```bash
 ROOT="$(pwd)"
@@ -255,7 +317,7 @@ export OMP_NUM_THREADS=1
 - [Formatting and code standards](FORMATTING_AND_CODE_STANDARDS.md) — inline math uses `$...$`, display math uses fenced `math` blocks. The historical appendix below has also been converted to this standard.
 - [AI assistance disclosure](AI_ASSISTANCE.md), [licenses](LICENSE.md), and [GitHub mathematical-formatting reference](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions).
 
-*Documentation synchronization is still in progress:* the new craft research buildplan is prepared; updates to `AGMINER_BUILDPLAN.MD`, `INTROSPECTIVE_BUILDPLAN.md`, individual journals, project instructions and a final `NOTES.md` merge must not be represented as already completed.
+*Documentation synchronization is still in progress:* this README records the November 13 ALPHA-1/M5N frontier. The comprehensive carry-over notes and the new November 13 journal entry were drafted for inclusion, but their insertion into the live repository has not been verified here. Updates to `RESEARCH_BUILDPLAN.md`, `AGMINER_BUILDPLAN.MD`, `INTROSPECTIVE_BUILDPLAN.md`, project instructions, and any subsequent codebundle/journal-bundle regeneration must not be represented as completed until they are actually applied.
 
 ## Disclosure and licensing
 

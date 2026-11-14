@@ -1,0 +1,55 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R7-M5L",
+  "grid_m": 0.2,
+  "reverse_magnetic": false,
+  "fixed_beta_variational_audit": {
+    "unloaded": {
+      "native_quadratic_functional": 1.0345018203202474e+16,
+      "native_source_conjugacy": -2.069003640640493e+16,
+      "native_on_shell_half_source_conjugacy": 1.0345018203202464e+16,
+      "relative_action_variation_residual": 3.7530404597736765e-15,
+      "relative_on_shell_identity_defect": 4.833244274478097e-16,
+      "relative_weighted_matrix_asymmetry": 4.816892944757878e-17,
+      "relative_source_equation_residual": 2.411691971474571e-15,
+      "carrier_field_energy_j": 1954.4178804315059,
+      "carrier_energy_reference_difference_j": 0.0,
+      "matrix_dimension": 13566,
+      "full_coupling_fraction": 0.0
+    },
+    "earth_loaded": {
+      "native_quadratic_functional": 1.0312219931091786e+16,
+      "native_source_conjugacy": -2.0624439862183544e+16,
+      "native_on_shell_half_source_conjugacy": 1.0312219931091772e+16,
+      "relative_action_variation_residual": 3.761589002276216e-15,
+      "relative_on_shell_identity_defect": 6.788063139435873e-16,
+      "relative_weighted_matrix_asymmetry": 9.633785889515756e-17,
+      "relative_source_equation_residual": 2.217752236703168e-15,
+      "carrier_field_energy_j": 1946.6046837138426,
+      "carrier_energy_reference_difference_j": 0.0,
+      "matrix_dimension": 13566,
+      "full_coupling_fraction": 1.0
+    },
+    "earth_free_air_loaded": {
+      "native_quadratic_functional": 1.0347120548861432e+16,
+      "native_source_conjugacy": -2.069424109772287e+16,
+      "native_on_shell_half_source_conjugacy": 1.0347120548861436e+16,
+      "relative_action_variation_residual": 4.198834584561506e-15,
+      "relative_on_shell_identity_defect": 1.9329048990543302e-16,
+      "relative_weighted_matrix_asymmetry": 4.816892944757878e-17,
+      "relative_source_equation_residual": 3.0691632594266407e-15,
+      "carrier_field_energy_j": 1954.2835999042018,
+      "carrier_energy_reference_difference_j": 0.0,
+      "matrix_dimension": 13566,
+      "full_coupling_fraction": 1.0
+    }
+  },
+  "diagnostic_gates": {
+    "full_weighted_matrix_symmetry_below_1e_minus_9": true,
+    "on_shell_variation_below_1e_minus_8": true,
+    "native_half_conjugacy_below_1e_minus_9": true,
+    "M5K_carrier_energies_reproduced_within_1e_minus_6_j": true
+  },
+  "physical_source_action_certified": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

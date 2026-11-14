@@ -1,0 +1,95 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R7-M5L",
+  "h_m": 0.2,
+  "reverse_magnetic": false,
+  "fixed_beta_variational_audit": {
+    "unloaded": {
+      "native_quadratic_functional": 1.0345018203202474e+16,
+      "native_source_conjugacy": -2.069003640640493e+16,
+      "native_on_shell_half_source_conjugacy": 1.0345018203202464e+16,
+      "relative_action_variation_residual": 3.7530404597736765e-15,
+      "relative_on_shell_identity_defect": 4.833244274478097e-16,
+      "relative_weighted_matrix_asymmetry": 4.816892944757878e-17,
+      "relative_source_equation_residual": 2.411691971474571e-15,
+      "carrier_field_energy_j": 1954.4178804315059,
+      "carrier_energy_reference_difference_j": 0.0,
+      "matrix_dimension": 13566,
+      "full_coupling_fraction": 0.0
+    },
+    "earth_loaded": {
+      "native_quadratic_functional": 1.0312219931091786e+16,
+      "native_source_conjugacy": -2.0624439862183544e+16,
+      "native_on_shell_half_source_conjugacy": 1.0312219931091772e+16,
+      "relative_action_variation_residual": 3.761589002276216e-15,
+      "relative_on_shell_identity_defect": 6.788063139435873e-16,
+      "relative_weighted_matrix_asymmetry": 9.633785889515756e-17,
+      "relative_source_equation_residual": 2.217752236703168e-15,
+      "carrier_field_energy_j": 1946.6046837138426,
+      "carrier_energy_reference_difference_j": 0.0,
+      "matrix_dimension": 13566,
+      "full_coupling_fraction": 1.0
+    },
+    "earth_free_air_loaded": {
+      "native_quadratic_functional": 1.0347120548861432e+16,
+      "native_source_conjugacy": -2.069424109772287e+16,
+      "native_on_shell_half_source_conjugacy": 1.0347120548861436e+16,
+      "relative_action_variation_residual": 4.198834584561506e-15,
+      "relative_on_shell_identity_defect": 1.9329048990543302e-16,
+      "relative_weighted_matrix_asymmetry": 4.816892944757878e-17,
+      "relative_source_equation_residual": 3.0691632594266407e-15,
+      "carrier_field_energy_j": 1954.2835999042018,
+      "carrier_energy_reference_difference_j": 0.0,
+      "matrix_dimension": 13566,
+      "full_coupling_fraction": 1.0
+    }
+  },
+  "earth_minus_air_native_functional": -34900617769646.0,
+  "M5K_reduced_interaction_action_j": -7.121916830326882,
+  "source_audit": {
+    "grid_m": 0.2,
+    "source_spec": {
+      "radial_center_m": 1.15,
+      "radial_halfwidth_m": 0.42,
+      "axial_halfwidth_m": 0.5,
+      "density_amplitude": 1.0,
+      "azimuthal_current_amplitude": 1.0
+    },
+    "dual_quadrature_order": 6,
+    "native_rhs_amplitude": 1000000.0,
+    "rhs_normalization": "dual_cylindrical_cell_over_2pi_h2_operator_weight",
+    "scalar_rhs_shape": [
+      114,
+      60
+    ],
+    "azimuthal_rhs_shape": [
+      114,
+      59
+    ],
+    "relative_net_charge_residual": 1.0491482794994121e-16,
+    "electric_dipole_integral": 0.02837510659488794,
+    "magnetic_dipole_integral": 0.4611916567532625,
+    "electric_dipole_reference_relative_error": 2.1350558514765903e-07,
+    "magnetic_dipole_reference_relative_error": 3.3067160879869033e-07,
+    "electric_rhs_nonzero_nodes": 23,
+    "magnetic_rhs_nonzero_nodes": 23,
+    "rhs_not_fitted_to_inverse_R3B_target": true,
+    "stationary_current_continuity_analytic": true,
+    "discrete_dynamical_Ward_certified": false,
+    "physical_source_unit_conversion_certified": false
+  },
+  "diagnostic_gates": {
+    "full_weighted_matrix_symmetry_below_1e_minus_9": true,
+    "on_shell_variation_below_1e_minus_8": true,
+    "native_half_conjugacy_below_1e_minus_9": true,
+    "M5K_carrier_energies_reproduced_within_1e_minus_6_j": true
+  },
+  "native_functional_is_SI_action": false,
+  "native_functional_is_complete_action": false,
+  "native_functional_derivative_is_mechanical_force": false,
+  "physical_source_action_certified": false,
+  "complete_source_matter_metric_gravity_action": false,
+  "source_energy_j": null,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false
+}

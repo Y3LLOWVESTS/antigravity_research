@@ -1,0 +1,1480 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B3A",
+  "classification": "B7_ANALYTIC_RADIAL_SOURCE_MOMENT_AND_SAMPLING_PREFLIGHT",
+  "source_radius_m": 2.0,
+  "finite_charge_shell_width_m": 0.1,
+  "rows": [
+    {
+      "ell": 1,
+      "grid_m": 0.3,
+      "shell_width_in_grid_cells": 0.33333333333333337,
+      "expected_analytic_exterior_moment": -8.48528137423857,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000038,
+      "midpoint_max_phase_relative_error": 8.731772399902315,
+      "split_cell_max_phase_relative_error": 3.3306690738754696e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 2.711109375000007,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 9.731772399902315,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 3.890360221180515e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": -4.0687869886473193e-17,
+          "split_cell_exterior_moment_ratio": 0.9999999999999981,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": -3.098626532601764e-17,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": -1.2843420518695087e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 7.762297921959616e-19,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": -3.334557678222662,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 1,
+      "grid_m": 0.25,
+      "shell_width_in_grid_cells": 0.4,
+      "expected_analytic_exterior_moment": -8.48528137423857,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000038,
+      "midpoint_max_phase_relative_error": 9.250000000000023,
+      "split_cell_max_phase_relative_error": 3.3306690738754696e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 2.547503124593731e-18,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": -3.5432555675506525,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 0.49229812622071284,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 5.079573869705219,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 10.250000000000023,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": -3.6894074248622505e-17,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 2.4462219071089036e-17,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 2.4970446942683386e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 1,
+      "grid_m": 0.2,
+      "shell_width_in_grid_cells": 0.5,
+      "expected_analytic_exterior_moment": -8.48528137423857,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000038,
+      "midpoint_max_phase_relative_error": 7.200000000000021,
+      "split_cell_max_phase_relative_error": 1.354472090042691e-14,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": -3.429499999999986,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": -0.9491152343749883,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.8074062500000303,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 4.852791015625024,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 8.20000000000002,
+          "split_cell_exterior_moment_ratio": 1.0000000000000135,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": -1.6024377944065177e-17,
+          "split_cell_exterior_moment_ratio": 0.9999999999999993,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 4.365756567278685e-18,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": -6.205166903624836e-18,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 1,
+      "grid_m": 0.1,
+      "shell_width_in_grid_cells": 1.0,
+      "expected_analytic_exterior_moment": -8.48528137423857,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000038,
+      "midpoint_max_phase_relative_error": 2.2439241333007933,
+      "split_cell_max_phase_relative_error": 1.354472090042691e-14,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9037031250000152,
+          "split_cell_exterior_moment_ratio": 1.0000000000000135,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.6465930786132947,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 2.4263955078125115,
+          "split_cell_exterior_moment_ratio": 0.9999999999999993,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 3.2439241333007933,
+          "split_cell_exterior_moment_ratio": 1.000000000000001,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 2.3852500000000165,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": -1.1115192260742135,
+          "split_cell_exterior_moment_ratio": 1.0000000000000022,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": -0.4745576171874942,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.1969192504882851,
+          "split_cell_exterior_moment_ratio": 1.000000000000008,
+          "intersected_radial_cells": 2
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 1,
+      "grid_m": 0.05,
+      "shell_width_in_grid_cells": 2.0,
+      "expected_analytic_exterior_moment": -8.48528137423857,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000038,
+      "midpoint_max_phase_relative_error": 1.1064700508117804,
+      "split_cell_max_phase_relative_error": 9.325873406851315e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.975918945312509,
+          "split_cell_exterior_moment_ratio": 1.0000000000000093,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.3436049995422512,
+          "split_cell_exterior_moment_ratio": 1.0000000000000067,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.7204216918945394,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 2.1064700508117804,
+          "split_cell_exterior_moment_ratio": 0.9999999999999981,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.644476562500016,
+          "split_cell_exterior_moment_ratio": 1.0000000000000078,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": -0.07335880661010234,
+          "split_cell_exterior_moment_ratio": 1.0000000000000053,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.26753692626954056,
+          "split_cell_exterior_moment_ratio": 1.000000000000009,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.6172629585266216,
+          "split_cell_exterior_moment_ratio": 1.0000000000000004,
+          "intersected_radial_cells": 3
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 1,
+      "grid_m": 0.025,
+      "shell_width_in_grid_cells": 4.0,
+      "expected_analytic_exterior_moment": -8.48528137423857,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000038,
+      "midpoint_max_phase_relative_error": 0.5492281315326799,
+      "split_cell_max_phase_relative_error": 6.8833827526759706e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9939793090820401,
+          "split_cell_exterior_moment_ratio": 1.0000000000000056,
+          "intersected_radial_cells": 4
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.1767877590656386,
+          "split_cell_exterior_moment_ratio": 1.0000000000000069,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.3618665046692011,
+          "split_cell_exterior_moment_ratio": 1.000000000000002,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.54922813153268,
+          "split_cell_exterior_moment_ratio": 1.0000000000000022,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.3101977539062624,
+          "split_cell_exterior_moment_ratio": 1.0000000000000042,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.4590503056049444,
+          "split_cell_exterior_moment_ratio": 1.0000000000000009,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.6351230964660745,
+          "split_cell_exterior_moment_ratio": 1.0000000000000058,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.8134285976886834,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 5
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 1,
+      "grid_m": 0.02,
+      "shell_width_in_grid_cells": 5.0,
+      "expected_analytic_exterior_moment": -8.48528137423857,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000038,
+      "midpoint_max_phase_relative_error": 0.4387328973632889,
+      "split_cell_max_phase_relative_error": 8.215650382226158e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9961467250000052,
+          "split_cell_exterior_moment_ratio": 1.0000000000000082,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.1422219051757903,
+          "split_cell_exterior_moment_ratio": 1.0000000000000049,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.2897484828125088,
+          "split_cell_exterior_moment_ratio": 1.0000000000000047,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.438732897363289,
+          "split_cell_exterior_moment_ratio": 1.0000000000000016,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.246231600000005,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.5665653504882927,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.708324857812508,
+          "split_cell_exterior_moment_ratio": 1.0000000000000024,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.8515165145507858,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 6
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 1,
+      "grid_m": 0.01,
+      "shell_width_in_grid_cells": 10.0,
+      "expected_analytic_exterior_moment": -8.48528137423857,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000038,
+      "midpoint_max_phase_relative_error": 0.21871260442505447,
+      "split_cell_max_phase_relative_error": 7.993605777301127e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9990366703125082,
+          "split_cell_exterior_moment_ratio": 1.000000000000008,
+          "intersected_radial_cells": 10
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.0718996625305253,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.145124705957037,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.2187126044250545,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.1211891625000052,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.7826119735656812,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.8543936278320412,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.9265349262024033,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 11
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 3,
+      "grid_m": 0.3,
+      "shell_width_in_grid_cells": 0.33333333333333337,
+      "expected_analytic_exterior_moment": -79.19595949289331,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.000000000000004,
+      "midpoint_max_phase_relative_error": 8.617549383506757,
+      "split_cell_max_phase_relative_error": 3.552713678800501e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 2.5859376562500067,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 9.617549383506757,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": -4.473542848731854e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": -3.050507189887903e-17,
+          "split_cell_exterior_moment_ratio": 0.9999999999999982,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": -7.303859977743747e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 8.515199702042137e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": -6.776730149150874e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": -3.0482698229599086,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 3,
+      "grid_m": 0.25,
+      "shell_width_in_grid_cells": 0.4,
+      "expected_analytic_exterior_moment": -79.19595949289331,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.000000000000004,
+      "midpoint_max_phase_relative_error": 9.250000000000014,
+      "split_cell_max_phase_relative_error": 3.3306690738754696e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 3.8492226390387287e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": -3.2186626512557237,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 0.46700435876847374,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 4.93088288046421,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 10.250000000000014,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 5.640828651087481e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 4.2477471399195237e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 3.513378766071749e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 3,
+      "grid_m": 0.2,
+      "shell_width_in_grid_cells": 0.5,
+      "expected_analytic_exterior_moment": -79.19595949289331,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.000000000000004,
+      "midpoint_max_phase_relative_error": 7.200000000000012,
+      "split_cell_max_phase_relative_error": 1.2878587085651816e-14,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": -3.095123749999982,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": -0.8771764428710822,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.7239584375000294,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 4.739000349121117,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 8.200000000000012,
+          "split_cell_exterior_moment_ratio": 1.0000000000000129,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": -1.6036697103317433e-17,
+          "split_cell_exterior_moment_ratio": 0.9999999999999993,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": -8.448558262069349e-18,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 6.819480902348639e-18,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 3,
+      "grid_m": 0.1,
+      "shell_width_in_grid_cells": 1.0,
+      "expected_analytic_exterior_moment": -79.19595949289331,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.000000000000004,
+      "midpoint_max_phase_relative_error": 2.2058497945022695,
+      "split_cell_max_phase_relative_error": 1.2878587085651816e-14,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.8619792187500147,
+          "split_cell_exterior_moment_ratio": 1.0000000000000129,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.5888846725082535,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 2.3695001745605584,
+          "split_cell_exterior_moment_ratio": 0.9999999999999993,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 3.2058497945022695,
+          "split_cell_exterior_moment_ratio": 1.000000000000001,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 2.5524381250000148,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": -1.016089940986627,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": -0.4385882214355411,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.18680174350738948,
+          "split_cell_exterior_moment_ratio": 1.0000000000000075,
+          "intersected_radial_cells": 2
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 3,
+      "grid_m": 0.05,
+      "shell_width_in_grid_cells": 2.0,
+      "expected_analytic_exterior_moment": -79.19595949289331,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.000000000000004,
+      "midpoint_max_phase_relative_error": 1.0818078681051868,
+      "split_cell_max_phase_relative_error": 9.325873406851315e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9654559765625085,
+          "split_cell_exterior_moment_ratio": 1.0000000000000093,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.32429152563931,
+          "split_cell_exterior_moment_ratio": 1.0000000000000067,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.6963257690048295,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 2.081807868105187,
+          "split_cell_exterior_moment_ratio": 0.9999999999999979,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.7072086718750148,
+          "split_cell_exterior_moment_ratio": 1.0000000000000078,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": -0.03431100592255151,
+          "split_cell_exterior_moment_ratio": 1.000000000000005,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.2863973657608132,
+          "split_cell_exterior_moment_ratio": 1.0000000000000087,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.619572572871455,
+          "split_cell_exterior_moment_ratio": 1.0000000000000004,
+          "intersected_radial_cells": 3
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 3,
+      "grid_m": 0.025,
+      "shell_width_in_grid_cells": 4.0,
+      "expected_analytic_exterior_moment": -79.19595949289331,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.000000000000004,
+      "midpoint_max_phase_relative_error": 0.535290504037935,
+      "split_cell_max_phase_relative_error": 6.8833827526759706e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9913615673828214,
+          "split_cell_exterior_moment_ratio": 1.0000000000000056,
+          "intersected_radial_cells": 4
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.1693908759614564,
+          "split_cell_exterior_moment_ratio": 1.0000000000000069,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.350690220488321,
+          "split_cell_exterior_moment_ratio": 1.0000000000000022,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.535290504037935,
+          "split_cell_exterior_moment_ratio": 1.0000000000000024,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.3363323242187617,
+          "split_cell_exterior_moment_ratio": 1.000000000000004,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.47658726768297116,
+          "split_cell_exterior_moment_ratio": 1.0000000000000009,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.6449902598583792,
+          "split_cell_exterior_moment_ratio": 1.0000000000000056,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.8165715545729264,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 5
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 3,
+      "grid_m": 0.02,
+      "shell_width_in_grid_cells": 5.0,
+      "expected_analytic_exterior_moment": -79.19595949289331,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.000000000000004,
+      "midpoint_max_phase_relative_error": 0.4273132222842473,
+      "split_cell_max_phase_relative_error": 7.993605777301127e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.994471216750004,
+          "split_cell_exterior_moment_ratio": 1.000000000000008,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.1366576425827115,
+          "split_cell_exterior_moment_ratio": 1.0000000000000047,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.280933045255869,
+          "split_cell_exterior_moment_ratio": 1.0000000000000042,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.4273132222842473,
+          "split_cell_exterior_moment_ratio": 1.0000000000000013,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.2663016630000052,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.5802888247313953,
+          "split_cell_exterior_moment_ratio": 1.0000000000000016,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.7163024388691485,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.8543580369329278,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 6
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 3,
+      "grid_m": 0.01,
+      "shell_width_in_grid_cells": 10.0,
+      "expected_analytic_exterior_moment": -79.19595949289331,
+      "boundary_to_exact_moment_ratio": 1.0000000000000036,
+      "quadrature_to_exact_moment_ratio": 1.000000000000004,
+      "midpoint_max_phase_relative_error": 0.21272700391818877,
+      "split_cell_max_phase_relative_error": 7.549516567451064e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9986177420625086,
+          "split_cell_exterior_moment_ratio": 1.0000000000000075,
+          "intersected_radial_cells": 10
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.0694665318120402,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.1408356296085875,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.2127270039181888,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.1303864398750045,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.7891735988738151,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.8584732336570535,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.9282872960580952,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 11
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 12,
+      "grid_m": 0.3,
+      "shell_width_in_grid_cells": 0.33333333333333337,
+      "expected_analytic_exterior_moment": -144815.4687870049,
+      "boundary_to_exact_moment_ratio": 1.000000000000003,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000042,
+      "midpoint_max_phase_relative_error": 8.189430784834103,
+      "split_cell_max_phase_relative_error": 3.1086244689504383e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 2.15427621711394,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 9.189430784834103,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.215816127065825e-25,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 9.468153781035728e-20,
+          "split_cell_exterior_moment_ratio": 0.9999999999999978,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": -2.1613420114899956e-16,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 1.8907135845986286e-17,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 1.9203160490538715e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": -2.027042694996908,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 12,
+      "grid_m": 0.25,
+      "shell_width_in_grid_cells": 0.4,
+      "expected_analytic_exterior_moment": -144815.4687870049,
+      "boundary_to_exact_moment_ratio": 1.000000000000003,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000042,
+      "midpoint_max_phase_relative_error": 9.260558726584868,
+      "split_cell_max_phase_relative_error": 2.886579864025407e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": -9.704821931448882e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": -2.084258249903835,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 0.4023942453107918,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 4.3866793584457415,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 10.260558726584868,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 2.1403123268047994e-16,
+          "split_cell_exterior_moment_ratio": 1.0000000000000024,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": -1.9676390431070885e-16,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": -9.15609646743806e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 2
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 12,
+      "grid_m": 0.2,
+      "shell_width_in_grid_cells": 0.5,
+      "expected_analytic_exterior_moment": -144815.4687870049,
+      "boundary_to_exact_moment_ratio": 1.000000000000003,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000042,
+      "midpoint_max_phase_relative_error": 7.208446981267896,
+      "split_cell_max_phase_relative_error": 1.021405182655144e-14,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": -1.9469046835595385,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": -0.6010250433440427,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.4361841447426482,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 4.317733739731467,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 8.208446981267896,
+          "split_cell_exterior_moment_ratio": 1.0000000000000102,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 7.457952087106884e-17,
+          "split_cell_exterior_moment_ratio": 0.9999999999999986,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 1.3440339880487015e-17,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": -1.165616132183411e-16,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 12,
+      "grid_m": 0.1,
+      "shell_width_in_grid_cells": 1.0,
+      "expected_analytic_exterior_moment": -144815.4687870049,
+      "boundary_to_exact_moment_ratio": 1.000000000000003,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000042,
+      "midpoint_max_phase_relative_error": 2.130771148854179,
+      "split_cell_max_phase_relative_error": 1.021405182655144e-14,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.7180920723713241,
+          "split_cell_exterior_moment_ratio": 1.0000000000000102,
+          "intersected_radial_cells": 1
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.380675097208024,
+          "split_cell_exterior_moment_ratio": 1.0000000000000029,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 2.158866869865733,
+          "split_cell_exterior_moment_ratio": 0.9999999999999986,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 3.063143594944718,
+          "split_cell_exterior_moment_ratio": 0.9999999999999998,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 3.130771148854179,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": -0.675680898332297,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": -0.30051252167202136,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.16095769812431665,
+          "split_cell_exterior_moment_ratio": 1.000000000000006,
+          "intersected_radial_cells": 2
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 12,
+      "grid_m": 0.05,
+      "shell_width_in_grid_cells": 2.0,
+      "expected_analytic_exterior_moment": -144815.4687870049,
+      "boundary_to_exact_moment_ratio": 1.000000000000003,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000042,
+      "midpoint_max_phase_relative_error": 0.9964354509850641,
+      "split_cell_max_phase_relative_error": 7.327471962526033e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9291771740968561,
+          "split_cell_exterior_moment_ratio": 1.0000000000000069,
+          "intersected_radial_cells": 2
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.2567197469404707,
+          "split_cell_exterior_moment_ratio": 1.0000000000000053,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.6120506465345177,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.9964354509850641,
+          "split_cell_exterior_moment_ratio": 0.9999999999999978,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.9244316106127515,
+          "split_cell_exterior_moment_ratio": 1.0000000000000062,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.100936185193144,
+          "split_cell_exterior_moment_ratio": 1.0000000000000047,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.3524970994378633,
+          "split_cell_exterior_moment_ratio": 1.0000000000000073,
+          "intersected_radial_cells": 3
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.6281774607730807,
+          "split_cell_exterior_moment_ratio": 0.9999999999999998,
+          "intersected_radial_cells": 3
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 12,
+      "grid_m": 0.025,
+      "shell_width_in_grid_cells": 4.0,
+      "expected_analytic_exterior_moment": -144815.4687870049,
+      "boundary_to_exact_moment_ratio": 1.000000000000003,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000042,
+      "midpoint_max_phase_relative_error": 0.48768000986175686,
+      "split_cell_max_phase_relative_error": 5.995204332975845e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9822738729861903,
+          "split_cell_exterior_moment_ratio": 1.000000000000004,
+          "intersected_radial_cells": 4
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.143889703837901,
+          "split_cell_exterior_moment_ratio": 1.000000000000006,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.3123064558790725,
+          "split_cell_exterior_moment_ratio": 1.000000000000002,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.4876800098617569,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.426804392354804,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.5366928101064922,
+          "split_cell_exterior_moment_ratio": 1.000000000000001,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.6788279660668073,
+          "split_cell_exterior_moment_ratio": 1.000000000000005,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.8273043740419271,
+          "split_cell_exterior_moment_ratio": 1.0000000000000022,
+          "intersected_radial_cells": 5
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 12,
+      "grid_m": 0.02,
+      "shell_width_in_grid_cells": 5.0,
+      "expected_analytic_exterior_moment": -144815.4687870049,
+      "boundary_to_exact_moment_ratio": 1.000000000000003,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000042,
+      "midpoint_max_phase_relative_error": 0.38835045707653926,
+      "split_cell_max_phase_relative_error": 5.551115123125783e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9886537313345535,
+          "split_cell_exterior_moment_ratio": 1.0000000000000056,
+          "intersected_radial_cells": 5
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.1175259324548994,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.250731645026629,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.3883504570765393,
+          "split_cell_exterior_moment_ratio": 1.000000000000001,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.335772001379848,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.6272504148932116,
+          "split_cell_exterior_moment_ratio": 1.0000000000000013,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.7435941925584698,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 6
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.8640359861706872,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 6
+        }
+      ],
+      "source_local_profile_converged": false
+    },
+    {
+      "ell": 12,
+      "grid_m": 0.01,
+      "shell_width_in_grid_cells": 10.0,
+      "expected_analytic_exterior_moment": -144815.4687870049,
+      "boundary_to_exact_moment_ratio": 1.000000000000003,
+      "quadrature_to_exact_moment_ratio": 1.0000000000000042,
+      "midpoint_max_phase_relative_error": 0.1923288794633622,
+      "split_cell_max_phase_relative_error": 5.551115123125783e-15,
+      "phases": [
+        {
+          "phase": 0.0,
+          "midpoint_exterior_moment_ratio": 0.9971629187925495,
+          "split_cell_exterior_moment_ratio": 1.0000000000000056,
+          "intersected_radial_cells": 10
+        },
+        {
+          "phase": 0.125,
+          "midpoint_exterior_moment_ratio": 1.0611411995086484,
+          "split_cell_exterior_moment_ratio": 1.0000000000000033,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.25,
+          "midpoint_exterior_moment_ratio": 1.1261932216236132,
+          "split_cell_exterior_moment_ratio": 1.0000000000000018,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.375,
+          "midpoint_exterior_moment_ratio": 1.1923288794633622,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.5,
+          "midpoint_exterior_moment_ratio": 1.1622128663572007,
+          "split_cell_exterior_moment_ratio": 1.000000000000003,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.625,
+          "midpoint_exterior_moment_ratio": 0.8115720917507488,
+          "split_cell_exterior_moment_ratio": 1.0000000000000027,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.75,
+          "midpoint_exterior_moment_ratio": 0.8723881736740555,
+          "split_cell_exterior_moment_ratio": 1.0000000000000036,
+          "intersected_radial_cells": 11
+        },
+        {
+          "phase": 0.875,
+          "midpoint_exterior_moment_ratio": 0.9342485189186607,
+          "split_cell_exterior_moment_ratio": 1.0000000000000024,
+          "intersected_radial_cells": 11
+        }
+      ],
+      "source_local_profile_converged": false
+    }
+  ],
+  "full_3d_loaded_earth_solver": false,
+  "b7_microscopic_source_realized": false,
+  "exact_R3B_global_fields_loaded": false,
+  "source_local_profile_convergence_certified": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false,
+  "warning": "Moment preservation is necessary, not local resolution or spacecraft lift"
+}

@@ -1,0 +1,11 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4A",
+  "grid": 0.04,
+  "r3b_j": 1.5151217834342905,
+  "conditional_1kev_2m_footprint_carrier_j": 10637456766.364933,
+  "conditional_21p147kev_2m_footprint_carrier_j": 53220.224824707766,
+  "optimized_air_sigma_ratio": -8615088.899301706,
+  "optimized_ground_sigma_ratio": 8615088.899301706,
+  "real_lift": null,
+  "warning": "Not a full Earth-loaded BVP. Energy applies only to fixed normal-flux column class."
+}

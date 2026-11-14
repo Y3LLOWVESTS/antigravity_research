@@ -1,0 +1,390 @@
+{
+  "branch": "032H17A12D1R3X3B17-M1",
+  "classification": "EXACT_LOCAL_PLANAR_FROZEN_THETA_JUMP_NECESSITY_ONLY",
+  "r3b_grid_m": 0.075,
+  "r3b_preloaded_energy_j": 1.4667459954338413,
+  "r3b_fit_relative_rms": 0.011286964873207505,
+  "theta_vacuum": 0.0,
+  "theta_air_1p2_kg_m3": -10344.313267122321,
+  "theta_ground_2000_kg_m3": -17240522.111870535,
+  "rows": [
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_ground_gap_m": 1.0,
+      "radial_m": 0.0,
+      "preloaded_field_norm": 60950.458579619575,
+      "vacuum_to_air_field_only_density_ratio": 53512753.79744856,
+      "vacuum_to_ground_field_only_density_ratio": 148617818585471.53,
+      "relative_composition_error": 1.1616696413256323e-16,
+      "max_scaled_jump_residual": 7.95244549384051e-17,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -1050817728870.5804,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_ground_gap_m": 1.0,
+      "radial_m": 0.5,
+      "preloaded_field_norm": 57899.4765723941,
+      "vacuum_to_air_field_only_density_ratio": 53511503.46087991,
+      "vacuum_to_ground_field_only_density_ratio": 148617816501577.22,
+      "relative_composition_error": 1.2616002939645969e-16,
+      "max_scaled_jump_residual": 8.624220759523611e-17,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -967583045149.4474,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -245398943187.517,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_ground_gap_m": 1.0,
+      "radial_m": 1.0,
+      "preloaded_field_norm": 50043.72452143261,
+      "vacuum_to_air_field_only_density_ratio": 53508221.0394641,
+      "vacuum_to_ground_field_only_density_ratio": 148617811030874.88,
+      "relative_composition_error": 0.0,
+      "max_scaled_jump_residual": 1.512730920743737e-17,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -762428924860.7063,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -403845710604.4196,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_ground_gap_m": 1.0,
+      "radial_m": 2.0,
+      "preloaded_field_norm": 30777.042245958528,
+      "vacuum_to_air_field_only_density_ratio": 53499858.52818272,
+      "vacuum_to_ground_field_only_density_ratio": 148617797093356.06,
+      "relative_composition_error": 1.45697940803928e-16,
+      "max_scaled_jump_residual": 1.807707361244048e-16,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -325667003011.88885,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -418915733835.6135,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_ground_gap_m": 1.0,
+      "radial_m": 3.0,
+      "preloaded_field_norm": 17024.825890780834,
+      "vacuum_to_air_field_only_density_ratio": 53494132.19611771,
+      "vacuum_to_ground_field_only_density_ratio": 148617787549469.3,
+      "relative_composition_error": 5.4795427455092517e-17,
+      "max_scaled_jump_residual": 1.0263440415905024e-16,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -92776962372.18304,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -278468307598.4603,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_ground_gap_m": 2.0,
+      "radial_m": 0.0,
+      "preloaded_field_norm": 25706.409462298845,
+      "vacuum_to_air_field_only_density_ratio": 53512753.79744855,
+      "vacuum_to_ground_field_only_density_ratio": 148617818585471.53,
+      "relative_composition_error": 0.0,
+      "max_scaled_jump_residual": 5.090425994377771e-17,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -443191920751.56116,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_ground_gap_m": 2.0,
+      "radial_m": 0.5,
+      "preloaded_field_norm": 24969.69543411809,
+      "vacuum_to_air_field_only_density_ratio": 53512040.07063627,
+      "vacuum_to_ground_field_only_density_ratio": 148617817395926.84,
+      "relative_composition_error": 0.0,
+      "max_scaled_jump_residual": 4.974101594683993e-17,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -422999771612.8976,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -79958352113.44234,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_ground_gap_m": 2.0,
+      "radial_m": 1.0,
+      "preloaded_field_norm": 22946.679253569448,
+      "vacuum_to_air_field_only_density_ratio": 53510056.470048554,
+      "vacuum_to_ground_field_only_density_ratio": 148617814089925.88,
+      "relative_composition_error": 1.6544145626453074e-16,
+      "max_scaled_jump_residual": 1.2601985926399803e-16,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -368922965790.34985,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -142847045098.2128,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_ground_gap_m": 2.0,
+      "radial_m": 2.0,
+      "preloaded_field_norm": 16954.803415503007,
+      "vacuum_to_air_field_only_density_ratio": 53503989.03383471,
+      "vacuum_to_ground_field_only_density_ratio": 148617803977532.2,
+      "relative_composition_error": 1.3751947634921704e-16,
+      "max_scaled_jump_residual": 1.021995327165568e-16,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -221914576502.57635,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -190259979839.19803,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_ground_gap_m": 2.0,
+      "radial_m": 3.0,
+      "preloaded_field_norm": 11241.753771911432,
+      "vacuum_to_air_field_only_density_ratio": 53498060.02569725,
+      "vacuum_to_ground_field_only_density_ratio": 148617794095851.94,
+      "relative_composition_error": 1.8683782068068137e-16,
+      "max_scaled_jump_residual": 1.0947528555508674e-16,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -104329706663.041,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -163337271778.95245,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_ground_gap_m": 6.0,
+      "radial_m": 0.0,
+      "preloaded_field_norm": 3212.3931685297784,
+      "vacuum_to_air_field_only_density_ratio": 53512753.79744856,
+      "vacuum_to_ground_field_only_density_ratio": 148617818585471.5,
+      "relative_composition_error": 0.0,
+      "max_scaled_jump_residual": 5.313835183373592e-17,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -55383335454.059494,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_ground_gap_m": 6.0,
+      "radial_m": 0.5,
+      "preloaded_field_norm": 3188.9954072724145,
+      "vacuum_to_air_field_only_density_ratio": 53512572.82811055,
+      "vacuum_to_ground_field_only_density_ratio": 148617818283855.9,
+      "relative_composition_error": 0.0,
+      "max_scaled_jump_residual": 3.920000093230953e-17,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -54738955010.707504,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -5142105426.381787,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_ground_gap_m": 6.0,
+      "radial_m": 1.0,
+      "preloaded_field_norm": 3120.375022630586,
+      "vacuum_to_air_field_only_density_ratio": 53512040.36307178,
+      "vacuum_to_ground_field_only_density_ratio": 148617817396414.25,
+      "relative_composition_error": 0.0,
+      "max_scaled_jump_residual": 2.1987600145644836e-17,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -52861180756.65185,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -9990066812.854235,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_ground_gap_m": 6.0,
+      "radial_m": 2.0,
+      "preloaded_field_norm": 2867.6834606743128,
+      "vacuum_to_air_field_only_density_ratio": 53510057.468446374,
+      "vacuum_to_ground_field_only_density_ratio": 148617814091589.8,
+      "relative_composition_error": 1.6547444797168776e-16,
+      "max_scaled_jump_residual": 1.546475065516652e-16,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -46106176405.123955,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -17848521100.139656,
+          0.0
+        ]
+      }
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_ground_gap_m": 6.0,
+      "radial_m": 3.0,
+      "preloaded_field_norm": 2512.0799886213777,
+      "vacuum_to_air_field_only_density_ratio": 53507209.30658615,
+      "vacuum_to_ground_field_only_density_ratio": 148617809344653.4,
+      "relative_composition_error": 2.058968748560132e-16,
+      "max_scaled_jump_residual": 1.845833311697462e-16,
+      "canonical_sheet_required_if_ground_field_unchanged": {
+        "electric_x_sheet_canonical": -37054443366.65378,
+        "electric_y_sheet_canonical": -0.0,
+        "current_x_tangent_canonical": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current_y_tangent_canonical": [
+          0.0,
+          -22420685349.26743,
+          0.0
+        ]
+      }
+    }
+  ],
+  "craft_lift_gate": {
+    "gravity_n": 980.665,
+    "field_force_n": null,
+    "net_upward_force_n": null,
+    "gravity_cancellation": null,
+    "pure_field_lift": null,
+    "auxiliary_hover_thrust_n": null,
+    "status": "NOT_DETERMINED"
+  },
+  "whole_craft_force_derived": false,
+  "earth_3d_loading_solved": false,
+  "hull_interface_solved": false,
+  "physical_source_realized": false,
+  "earth_reaction_derived": false,
+  "full_energy_balance_derived": false,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false,
+  "claim_limit": "Local planar Maxwell matching, not Earth force or craft lift"
+}

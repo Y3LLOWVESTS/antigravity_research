@@ -1,0 +1,15 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B4",
+  "grid_m": 0.25,
+  "portal_ev": 21147.0,
+  "step_m": 0.001,
+  "earth_action_slope_j_m": 548.1924429656128,
+  "craft_action_slope_j_m": 784.5446849714211,
+  "reciprocity_defect_fraction": 1.6987396045970053,
+  "earth_envelope_error": 0.00010272070300048856,
+  "craft_envelope_error": 7.916160807675176e-05,
+  "common_shift_slope_j_m": 1333.108852719306,
+  "source_inside_enclosure_both_shifts": true,
+  "whole_craft_force_n": null,
+  "warning": "Action-gradient/translation audit only; not physical spacecraft lift"
+}

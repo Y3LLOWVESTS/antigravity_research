@@ -1,0 +1,94 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R6-M5K",
+  "grid_m": 0.2,
+  "reversed_magnetic": false,
+  "source_audit": {
+    "grid_m": 0.2,
+    "source_spec": {
+      "radial_center_m": 1.15,
+      "radial_halfwidth_m": 0.42,
+      "axial_halfwidth_m": 0.5,
+      "density_amplitude": 1.0,
+      "azimuthal_current_amplitude": 1.0
+    },
+    "dual_quadrature_order": 6,
+    "native_rhs_amplitude": 1000000.0,
+    "rhs_normalization": "dual_cylindrical_cell_over_2pi_h2_operator_weight",
+    "scalar_rhs_shape": [
+      114,
+      60
+    ],
+    "azimuthal_rhs_shape": [
+      114,
+      59
+    ],
+    "relative_net_charge_residual": 1.0491482794994121e-16,
+    "electric_dipole_integral": 0.02837510659488794,
+    "magnetic_dipole_integral": 0.4611916567532625,
+    "electric_dipole_reference_relative_error": 2.1350558514765903e-07,
+    "magnetic_dipole_reference_relative_error": 3.3067160879869033e-07,
+    "electric_rhs_nonzero_nodes": 23,
+    "magnetic_rhs_nonzero_nodes": 23,
+    "rhs_not_fitted_to_inverse_R3B_target": true,
+    "stationary_current_continuity_analytic": true,
+    "discrete_dynamical_Ward_certified": false,
+    "physical_source_unit_conversion_certified": false
+  },
+  "coupled_response": {
+    "portal_scale_ev": 21147.0,
+    "historical_current_amplifier": 447.19560899999993,
+    "solves": {
+      "unloaded": {
+        "carrier_field_energy_j": 1954.4178804315059,
+        "relative_solver_residual": 2.411691971474571e-15,
+        "weighted_operator_reciprocity_defect": 2.220446049250313e-16,
+        "max_scalar_potential": 1061768.073094455,
+        "max_azimuthal_potential": 17368682.603322
+      },
+      "earth_loaded": {
+        "carrier_field_energy_j": 1946.6046837138426,
+        "relative_solver_residual": 2.217752236703168e-15,
+        "weighted_operator_reciprocity_defect": 1.118236030107082e-16,
+        "max_scalar_potential": 1068731.7957484983,
+        "max_azimuthal_potential": 17318922.75895559
+      },
+      "earth_free_air_loaded": {
+        "carrier_field_energy_j": 1954.2835999042018,
+        "relative_solver_residual": 3.0691632594266407e-15,
+        "weighted_operator_reciprocity_defect": 2.220446049250313e-16,
+        "max_scalar_potential": 1050424.9148801626,
+        "max_azimuthal_potential": 17369757.2505133
+      },
+      "zero_source": {
+        "carrier_field_energy_j": 0.0,
+        "relative_solver_residual": 0.0,
+        "weighted_operator_reciprocity_defect": 1.118236030107082e-16,
+        "max_scalar_potential": 0.0,
+        "max_azimuthal_potential": 0.0
+      }
+    },
+    "double_RHS_unloaded_energy_ratio": 4.0,
+    "paired_earth_present_action_j": 2104.3401916258504,
+    "paired_earth_absent_action_j": 2111.4621084561772,
+    "paired_reduced_interaction_action_j": -7.121916830326882,
+    "on_shell_action_is_whole_craft_force": false,
+    "dynamical_source_action_certified": false,
+    "carrier_energy_is_complete_device_energy": false,
+    "whole_craft_force_n": null,
+    "complete_operating_energy_j": null
+  },
+  "diagnostic_gates": {
+    "M5I_reference_passed": true,
+    "M5J_historical_actions_preserved": true,
+    "same_continuum_source_spec_on_both_grids": true,
+    "electric_RHS_weighted_net_neutral": true,
+    "electric_moment_within_1e_minus_4": true,
+    "magnetic_moment_within_1e_minus_4": true,
+    "all_coupled_solver_residuals_below_1e_minus_8": true,
+    "weighted_operator_reciprocity_below_1e_minus_8": true,
+    "zero_RHS_gives_zero_field_energy": true,
+    "doubling_RHS_quadruples_unloaded_energy": true
+  },
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

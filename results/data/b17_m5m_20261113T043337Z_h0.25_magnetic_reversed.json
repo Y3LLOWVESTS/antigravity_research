@@ -1,0 +1,64 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R8-M5M",
+  "grid_m": 0.25,
+  "reverse_magnetic": true,
+  "action_conversion_j_per_native": 3.1884808231269773e-13,
+  "fixed_native_source_amplitude": 1000000.0,
+  "center_reduced_carrier_interaction_action_j": -7.8025223456415915,
+  "M5K_reference_reduced_interaction_action_j": -7.802522345642956,
+  "center_M5K_action_reproduction_abs_error_j": 1.3642420526593924e-12,
+  "archival_action_unit_conversion_error_j": 1.0276224315930449e-12,
+  "zero_shift_RHS_relative_error_vs_M5K": 1.0845489617291113e-16,
+  "translation_derivatives": {
+    "0.002": {
+      "earth_only_reduced_action_derivative_j_per_m": -1.6861133836982845,
+      "craft_only_reduced_action_derivative_j_per_m": 11.288046520235184,
+      "common_shift_reduced_action_derivative_j_per_m": 9.602112408742869,
+      "common_minus_sum_reduced_j_per_m": 0.0001792722059690277
+    },
+    "0.001": {
+      "earth_only_reduced_action_derivative_j_per_m": -1.651549235702987,
+      "craft_only_reduced_action_derivative_j_per_m": 11.288046601066526,
+      "common_shift_reduced_action_derivative_j_per_m": 9.636542469479537,
+      "common_minus_sum_reduced_j_per_m": 4.5104115997673944e-05
+    }
+  },
+  "difference_between_two_step_sizes_j_per_m": {
+    "earth_only_reduced_action_derivative_j_per_m": 0.03456414799529739,
+    "craft_only_reduced_action_derivative_j_per_m": 8.0831341620069e-08,
+    "common_shift_reduced_action_derivative_j_per_m": 0.034430060736667656
+  },
+  "max_raw_mesh_charge_residual": 1.2957339867151603e-07,
+  "max_projected_mesh_charge_residual": 7.981655894156224e-17,
+  "max_mesh_projection_coefficient_relative": 2.835611992433418e-08,
+  "max_fixed_loading_variational_residual": 2.9160612362086758e-15,
+  "max_fixed_loading_matrix_asymmetry": 1.5116219794375787e-16,
+  "source_translations_evaluated_m": [
+    -0.002,
+    -0.001,
+    0.0,
+    0.001,
+    0.002
+  ],
+  "evaluation_count": 13,
+  "diagnostic_gates": {
+    "action_unit_conversion_matches_M5K_below_1e_minus_8_j": true,
+    "zero_shift_source_matches_M5K_below_1e_minus_10": true,
+    "center_action_matches_M5K_within_1e_minus_5_j": true,
+    "projected_charge_below_1e_minus_12": true,
+    "mesh_correction_coefficient_below_1e_minus_4": true,
+    "variational_residual_below_1e_minus_8": true,
+    "matrix_asymmetry_below_1e_minus_9": true
+  },
+  "mesh_charge_projection_used": true,
+  "projection_sensitivity_in_derivatives_excluded": false,
+  "physical_reciprocity_certified": false,
+  "source_dynamical_Ward_certified": false,
+  "interface_and_box_convergence_certified": false,
+  "derivatives_are_complete_mechanical_forces": false,
+  "exterior_metric_transmission_derived": false,
+  "Earth_environment_reaction_derived": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false
+}

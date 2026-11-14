@@ -1,0 +1,75 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R2-M5G",
+  "grid_m": 0.2,
+  "reverse_magnetic": false,
+  "source_compensation_charge_before": 164587.65429166373,
+  "source_relative_net_charge_residual": 9.833559213465648e-18,
+  "source_physical_equivalence_between_grids_proven": false,
+  "endpoint_common_shift_action_j": {
+    "minus_half_cell_j": -1491.9468010173005,
+    "plus_half_cell_j": -1493.0441533387639
+  },
+  "exact_one_cell_mean_common_derivative_j_per_m": -5.486761607317021,
+  "m5d_archived_endpoint_identity_j_per_m": -5.486761607317021,
+  "m5d_archived_endpoint_reproduction_error_j": 0.0,
+  "m5f_eight_phase_reproduction_error_j_per_m": 0.0,
+  "quadratures": {
+    "8": {
+      "phase_count": 8,
+      "earth_only_j_per_m": -2310.3925125360547,
+      "craft_only_j_per_m": 2284.501646672652,
+      "paired_sum_j_per_m": -25.890865863402723,
+      "common_shift_j_per_m": -25.890650576911867,
+      "common_minus_paired_j_per_m": 0.00021528649085666984,
+      "phase_action_mean_j": -1446.223155668853,
+      "phase_action_span_j": 189.0759024543513
+    },
+    "16": {
+      "phase_count": 16,
+      "earth_only_j_per_m": -2295.262283205375,
+      "craft_only_j_per_m": 2284.635884452655,
+      "paired_sum_j_per_m": -10.626398752719979,
+      "common_shift_j_per_m": -10.626178882375825,
+      "common_minus_paired_j_per_m": 0.0002198703441536054,
+      "phase_action_mean_j": -1446.1775674638102,
+      "phase_action_span_j": 190.73100471502403
+    },
+    "32": {
+      "phase_count": 32,
+      "earth_only_j_per_m": -2291.4444417256163,
+      "craft_only_j_per_m": 2284.675493567647,
+      "paired_sum_j_per_m": -6.768948157969135,
+      "common_shift_j_per_m": -6.768727241706074,
+      "common_minus_paired_j_per_m": 0.00022091626306064427,
+      "phase_action_mean_j": -1446.167165050515,
+      "phase_action_span_j": 191.48656374789425
+    }
+  },
+  "quadrature_errors_against_exact_identity": {
+    "8": {
+      "absolute_common_drift_error_j_per_m": 20.403888969594846,
+      "normalized_common_drift_error": 3.7187489506350486
+    },
+    "16": {
+      "absolute_common_drift_error_j_per_m": 5.139417275058804,
+      "normalized_common_drift_error": 0.9366941089995587
+    },
+    "32": {
+      "absolute_common_drift_error_j_per_m": 1.2819656343890529,
+      "normalized_common_drift_error": 0.23364704467557923
+    }
+  },
+  "relative_32phase_reciprocity_defect": 0.002954009285458236,
+  "diagnostic_gates": {
+    "exact_endpoint_action_reproduced": true,
+    "m5f_eight_phase_reproduced": true,
+    "32phase_common_integral_absolute_error_below_0p5_j_per_m": false,
+    "32phase_apparent_reciprocity_below_5pct": true
+  },
+  "phase_averaging_is_noether_identity": false,
+  "source_ward_identity_certified": false,
+  "exterior_metric_transmission_derived": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false
+}

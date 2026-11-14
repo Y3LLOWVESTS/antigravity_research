@@ -1,0 +1,159 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5C",
+  "scope": "EXACT_ONE_CELL_COMMON_TRANSLATION_NOT_CRAFT_FORCE",
+  "h_m": 0.2,
+  "shape_bias": 0.5,
+  "portal_ev": 21147.0,
+  "common_shift_distance_m": 0.2,
+  "source_audit": {
+    "net_electric_charge_relative_residual": 2.753667874837606e-18,
+    "max_nonzero_source_radius_m": 1.8110770276275123,
+    "compensation_source_max_radius_m": 1.456021977856133,
+    "compensation_charge_before": 4552188.669616576,
+    "source_tapered_relative_to_original_m4b1": true,
+    "compensation_uses_spherical_radius": true
+  },
+  "current_transport": {
+    "minus": {
+      "current_shift_relative_l2_errors": [
+        2.628014140663486e-15,
+        7.102120170068163e-16
+      ],
+      "translated_electric_neutrality": 1.3079922405478634e-17,
+      "support": {
+        "max_nodal_source_radius_m": 2.2090722034374797,
+        "inside_nominal_2m_region": false,
+        "inside_enclosure_radius": true,
+        "translated_source_is_exact_physical_current": false
+      }
+    },
+    "plus": {
+      "current_shift_relative_l2_errors": [
+        2.621448981628212e-15,
+        7.214374973449919e-16
+      ],
+      "translated_electric_neutrality": 3.7174516310307685e-17,
+      "support": {
+        "max_nodal_source_radius_m": 2.209072203437409,
+        "inside_nominal_2m_region": false,
+        "inside_enclosure_radius": true,
+        "translated_source_is_exact_physical_current": false
+      }
+    }
+  },
+  "earth_present_material_transport": {
+    "plus_inner_relative_linf": 2.637453608834082e-15,
+    "minus_inner_relative_linf": 2.7198740341101474e-15
+  },
+  "earth_absent_material_transport": {
+    "plus_inner_relative_linf": 2.220446049250313e-16,
+    "minus_inner_relative_linf": 2.220446049250313e-16
+  },
+  "common_mode_action_matrices_j_per_m": {
+    "earth_present": [
+      [
+        -9.670286817108718,
+        0.1584848824859364
+      ],
+      [
+        0.1584848824859364,
+        2.4622827454732032
+      ]
+    ],
+    "earth_absent": [
+      [
+        -7.959422705152974,
+        -0.48106092432135483
+      ],
+      [
+        -0.48106092432135483,
+        7.50119428463222
+      ]
+    ],
+    "difference": [
+      [
+        -1.7108641119557433,
+        0.6395458068072912
+      ],
+      [
+        0.6395458068072912,
+        -5.038911539159017
+      ]
+    ]
+  },
+  "common_mode_controls": {
+    "both_positive": {
+      "common_shift_earth_present_slope_j_per_m": -6.8910343066636415,
+      "common_shift_earth_free_slope_j_per_m": -1.420350269163464,
+      "common_shift_interaction_slope_j_per_m": -5.4706840375001775,
+      "center_interaction_action_j": -1553.7753733524805,
+      "plus_interaction_action_j": -1554.7861696296022,
+      "minus_interaction_action_j": -1552.5978960146022
+    },
+    "magnetic_reversed": {
+      "common_shift_earth_present_slope_j_per_m": -7.524973836607387,
+      "common_shift_earth_free_slope_j_per_m": 0.5038934281219554,
+      "common_shift_interaction_slope_j_per_m": -8.028867264729342,
+      "center_interaction_action_j": -1039.1284162530428,
+      "plus_interaction_action_j": -1040.6288409705157,
+      "minus_interaction_action_j": -1037.417294064624
+    },
+    "electric_only": {
+      "common_shift_earth_present_slope_j_per_m": -9.670286817108718,
+      "common_shift_earth_free_slope_j_per_m": -7.959422705152974,
+      "common_shift_interaction_slope_j_per_m": -1.7108641119557433,
+      "center_interaction_action_j": 718.0741537240756,
+      "plus_interaction_action_j": 717.7564459717833,
+      "minus_interaction_action_j": 718.4407916165655
+    },
+    "magnetic_only": {
+      "common_shift_earth_present_slope_j_per_m": 2.4622827454732032,
+      "common_shift_earth_free_slope_j_per_m": 7.50119428463222,
+      "common_shift_interaction_slope_j_per_m": -5.038911539159017,
+      "center_interaction_action_j": -2014.5260485268373,
+      "plus_interaction_action_j": -2015.4639512718422,
+      "minus_interaction_action_j": -2013.4483866561786
+    }
+  },
+  "reference_comparison": {
+    "m5b_subcell_paired_defect_matrix_j_per_m": [
+      [
+        342.5765852080076,
+        -1796.0704470897326
+      ],
+      [
+        -1796.0704470897326,
+        -291.8870624853298
+      ]
+    ],
+    "full_cell_common_slope_matrix_j_per_m": [
+      [
+        -1.7108641119557433,
+        0.6395458068072912
+      ],
+      [
+        0.6395458068072912,
+        -5.038911539159017
+      ]
+    ],
+    "relative_frobenius_difference": 1.0002144573407854,
+    "m5b_whitened_defect_eigenvalues_per_norm": [
+      -0.017316541262131866,
+      0.026051858320792244
+    ],
+    "m5b_defect_matrix_zero_operator": false,
+    "source_ratio_cancellation_is_noether_proof": false,
+    "comparison_uses_different_displacement_steps": true
+  },
+  "max_coupled_solver_residual": 1.019965436698148e-14,
+  "exact_one_cell_nodal_shift": true,
+  "fixed_outer_boundary_present": true,
+  "finite_box_artifact_excluded": false,
+  "moving_current_ward_identity_certified": false,
+  "complete_gravity_metric_matter_action": false,
+  "exterior_metric_transmission_derived": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false,
+  "warning": "Finite-domain action drift, not physical spacecraft force"
+}

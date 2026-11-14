@@ -1,5 +1,321 @@
 # ANTIGRAVITY_RESEARCH — Research Buildplan
 
+**Current authoritative revision:** November 13, 2026 — **ALPHA-1 constraint-first inverse design and B17-M5N closeout**  
+**Document role:** Forward-looking scientific strategy, cheapest-falsifier decision tree, numerical/physical promotion gates, and onboard spacecraft engineering-physics roadmap  
+**Primary program:** `032 — AGMINER / 032H17 — HOOK17`  
+**Flagship reduced-model preloaded capacity:** `R3B = 1.5429162116460216 J` — **not complete sourced device energy**  
+**Current completed artificial-reference stage:** `032H17A12D1R3X3B17 / ALPHA-1R9-M5N`  
+**Immediate next experiment:** **`B17-M5O` — controlled interface, phase, resolution, source deposition and boundary convergence**  
+**Co-primary physics:** **`B11-M6` — dynamically sourced, causal two-carrier response and finite-impulse accounting**  
+**Conservative true-stand-off GR anchor:** **006D**, `C=23.591586299249` — **unreplaced**  
+**Latest recorded complete regression:** **1,455 passed** (November 12; predates recent focused additions; rerun required)  
+**Whole-craft lift / full physical action / complete <10-MJ certification:** **NOT ESTABLISHED**
+
+> **ARCHIVAL AUTHORITY:** This **new November 13 authoritative section** is the only active forward-looking buildplan. After the `END NOVEMBER 13 AUTHORITATIVE SECTION` divider, the complete November 11 buildplan is retained as an **unchanged historical snapshot**, including its then-current Part I and earlier nested November 10, September 14, and November 9 archives. Those older sections use historically accurate but now superseded status labels (`B17 proposed/not run`, `B16 latest`, `1,283 passed`). **Never execute an archived “next step” merely because it says “current.”** Preserve all old numerical results, closures and journal provenance without rewriting them. The source/results/journals establish what actually ran; this section specifies what to do next.
+
+> **CRITICAL SCIENTIFIC BOUNDARY:** ALPHA-1 begins with **artificially assigned sources, source strengths, material loading, geometry and desired responses**. It is a constraint-first *inverse-design/falsification tool*, not an existing physically realized antigravity model. A converged carrier-action derivative is not automatically a mechanical force; a target force imposed as an input is not an output. No external metric channel, Earth-reaction ledger, whole-craft lift, or sub-10-MJ physical device has been demonstrated.
+
+---
+
+# PART I — CURRENT AUTHORITATIVE NOVEMBER 13 STRATEGY
+
+## 0. One-screen research mandate
+
+1. **First fix B17-M5N's unresolved continuum problem.** The two Earth-only reduced-action derivatives differ by **8.05516933442391 J/m (81.458%)**; approximately **97.96%** of this signed difference is in the **ground-top interface band**. Numerical identities passed; convergence did not. Run **M5O**, not a new headline-force optimizer.
+2. **Keep one artificial source and one physical geometry across grids.** Hold continuum source shape, source strength, portal input, Earth/air/hull geometry, and physical interface width constant while changing mesh resolution or phase. Never re-fit a source on each grid and call agreement convergence.
+3. **Reconstruct the original theory and falsifiers first.** Preserve 006D, A12B/A12C, flagship R3B, B6 boundary repair, B7 source control, R3X1 signs, B4 loaded failure, B11-B16 negative results and AGMINER scoped closures.
+4. **Do not over-promote ALPHA-1.** M5I source preflight, M5K coupled-carrier solve, M5L fixed-loading variational identity and M5N envelope derivative are *scoped mathematical/numerical results*. Their prescribed fields and coefficients are not certified physical sources, stresses, metric gravity, or thrust.
+5. **After convergence, pursue a genuine one-action completion:** microscopic currents and supports; two carriers; neutral matter; physical metric; Einstein/gravitational sector; Earth, atmosphere, enclosure, hull and power; full variation, exact Ward/gauge/Noether identities, and conserved energy/momentum exchange.
+6. **Force must be on the whole spacecraft**, not on a separate ground-generator payload or one onboard component. Derive exterior transmission and the Earth-down/craft-up reaction with field/radiation flux and boundary contributions.
+7. **Keep B11-M6 open concurrently:** physically driven healthy causal dynamics, original failed static limit, one sourced pulse, negative impulse, source recoil, radiation and stable repeated cycles; no arbitrary field resets.
+8. **Separate independent milestones:** original finite-neutral 1 kg torus, ≥1g throughout sampled matter and ≥1 m true exterior stand-off; artificial continuum interaction; complete whole-craft lift; experimentally established gravitational repulsion.
+9. **Apply the strict <10 MJ complete conservative operating-energy requirement** to a defined protocol including source, supports, enclosure, field, activation, reactions, losses, backreaction, UV and off-state costs. Exactly 10 MJ fails. Do not micro-optimize a field term already below 100 J.
+10. **Require new independent tests and a full regression.** The last recorded complete suite is **1,455 passed**, before newer focused runs. Focused counts must not be summed or described as a fresh full suite.
+
+## 1. Strategy: inverse design from explicit artificial variables to actual physics
+
+**Intended architecture:** All generators, current carriers, supports, vacuum/enclosure systems, source matter, field controls, power and auxiliary propulsion travel **onboard the spacecraft**. Earth is an exterior interaction partner. The intended physical outcome is a downward Earth interaction and an upward whole-craft benefit, or an action-derived change in effective gravitational response, with ordinary propulsion kept separate. No route is known to work.
+
+**Inverse-design rule:** Specify the behavior sought as a mathematical target; expose every artificial variable that is needed to obtain it; derive what identities, sources, modes and coupling equations that target requires; then attempt to replace each artificial object with an actual dynamical solution **of the same complete physical action**. Failures are recorded and assumptions are never smuggled across layers.
+
+| Layer | What may be done now | What it **does not** establish | Promotion gate |
+|---|---|---|---|
+| **A0: desired behavior** | Choose artificial target Earth-down/craft-up influence, material shape, response scale | Existence of gravity control or force | Target and sign explicitly labeled as **inputs** |
+| **A1: artificial continuum trial source** | Specify finite `rho_e`, `J_phi`, neutrality, stationary continuity, common geometry | Real source matter, physical current calibration, transport/work | Matched physical-coordinate deposition and source constraints |
+| **A2: reduced carrier response** | Solve prescribed source RHS with R3B static carrier operators | Complete source–matter–metric–gravity action | Residual, weighted reciprocity, zero-source and scale controls |
+| **A3: fixed-loading reduced action** | Verify `Q(u,x)`, `H=WA`, on-shell and envelope identities | Positive dynamical Hamiltonian, Earth force, Noether reaction | Exact tested numerical variational identity |
+| **A4: continuum artificial response** | Mesh/phase/interface/domain and source-quadrature convergence | Physical material law or propulsion | Stable continuum derivative and controlled uncertainty **not yet achieved** |
+| **P1: dynamical physical source/material action** | Derive sources, matter response, supports and full Euler–Lagrange equations | Physical transmission until exterior solved | Exact gauge/Ward/Noether, healthy modes, currents, energy |
+| **P2: physical exterior metric and reaction** | Solve exterior carrier/metric and full craft/Earth/environment momentum ledger | Mission success until finite craft trajectory/energy | Source-on/off external force, Earth sign, field flux and full response |
+| **P3: engineering/experiment** | Launch/contact, suspended, hover, ascent, auxiliary savings, operating budget | Experimental gravitational repulsion until independently measured | Stability, convergence, empirical/UV, strict complete `<10 MJ`, external reproduction |
+
+**Hard distinction:** A numerical assignment `F_target` or `a_target` is not evidence that the reduced carrier produces that force. Even if a reduced energy gradient has units J/m (= N), its mechanical interpretation requires the fully varied matter/source/support/metric system and appropriate complete energy or force functional.
+
+## 2. Evidence chain — completed artificial-reference stages
+
+**M5A–M5E:** Original source/material translations revealed large grid-phase and interface sensitivity; apparent small-shift common action slopes differed dramatically from full-cell slopes. These were not physical forces.
+
+**M5F:** Phase-averaged source/material translation exposed residual quadrature sensitivity. Apparent near-canceling Earth/craft gradients were not certified reciprocity.
+
+**M5G:** Exact one-cell mean derivative equals the endpoint action difference:
+
+```math
+\frac{1}{h}\int_{-h/2}^{h/2}\!\frac{dI(s,s)}{ds}\,ds
+=\frac{I(h/2,h/2)-I(-h/2,-h/2)}{h}.
+```
+
+The measured 8/16/32-phase errors decreased approximately fourfold on refinement; second-order extrapolation reproduced the endpoint identity to about `0.0024–0.0151 J/m`, depending on control. This is a **quadrature check**, not Noether momentum conservation.
+
+**M5H:** Historical independently fitted coarse-grid RHS arrays were **not** shown to be the same continuum source. Small post-compensation charge residuals alone did not establish source equivalence.
+
+**M5I:** Established one compact stationary axisymmetric trial source with `R=1.15 m`, radial halfwidth `a=0.42 m`, axial halfwidth `b=0.50 m` and arbitrary unit test amplitudes. With
+
+```math
+v(r,z)=\left(\frac{r-R}{a}\right)^2+\left(\frac{z}{b}\right)^2,
+\qquad B(r,z)=[\max(1-v,0)]^5,
+```
+
+```math
+\rho_e(r,z)=\rho_0\frac{z}{b}B(r,z),\qquad
+J_\varphi(r,z)=J_0 B(r,z),\quad J_r=J_z=0,
+```
+
+stationary continuity and zero net charge follow analytically from azimuthal/odd-axial parity. Numerically, cross-grid electric and magnetic moment differences were `6.5699485e-6` and `2.3461085e-6`. This is a **prescribed normalized mathematical source**; it is not an actual microscopic current apparatus. The fifth-power truncated polynomial has finite smoothness at its support boundary, not unlimited `C-infinity` regularity.
+
+**M5J:** Reproduced historical solver reduced actions exactly at reported precision, identified the separate scalar and azimuthal source-pairing meshes, and confirmed how the new common source must enter the existing RHS. Historical source arrays remained separate controls.
+
+**M5K:** Coupled the M5I deposited source to the unchanged corrected R3B reduced carrier equations with artificial source normalization `1e6` and fixed reduced portal input `21147 eV`. Representative unloaded reduced carrier-field inventories were `1850.847634 J` at `h=0.25 m` and `1954.417880 J` at `h=0.20 m`; the Earth-minus-air on-shell reduced interaction actions were `-7.743566757 J` and `-7.121916830 J`. All 10 stated numerical gates passed in three source configurations. **These are not R3B's original preloaded 1.542916 J field, nor a physical source or complete energy.**
+
+**M5L:** For fixed prescribed material coefficient and source, reconstructed the signed weighted quadratic stationary functional
+
+```math
+H=WA,\qquad Q(u;j)=\frac12u^THu-u^TWj,
+```
+
+```math
+Hu_*=Wj,\qquad Q_*=-\frac12u_*^TWj.
+```
+
+`H` was symmetric under the tested signed weights to approximately `1e-16`, and stationary residuals were approximately `1e-15`. Existing reduced-model cylindrical normalization converted native `Q` differences to the M5K action convention in joules. Neither fixed-loading Hessian symmetry nor a signed static functional proves healthy dynamic modes or a physical gravitational stress tensor.
+
+**M5M:** Translated the artificial continuum source by reevaluating it at shifted **physical coordinates**, with a small explicitly disclosed numerical net-charge projection; computed Earth-only, craft-only and common-translation action derivatives. At a 1 mm displacement, original `h=.25` gave about `(-1.833535, +11.195639, +9.362097) J/m` respectively; original `h=.20` gave about `(-9.889690, +10.264558, +0.375111) J/m`. The common-minus-sum check is the multivariable chain rule, **not** mechanical reciprocity. The neutrality projection was not a physical current transport law.
+
+**M5N:** Independently verified the **Earth-only, source-held-fixed** derivative using stationary envelope differentiation, without re-solving at shifted Earth positions:
+
+```math
+\frac{dQ_*}{dx}=\frac12u_*^T\frac{\partial H}{\partial x}u_*.
+```
+
+This assumes the source vector and weights are fixed in the Earth-only perturbation; its output remains the **prescribed reduced-action gradient**. The 1 mm M5N derivatives were:
+
+| Configuration | Envelope derivative [J/m] | M5M re-solved derivative [J/m] | Difference [J/m] |
+|---|---:|---:|---:|
+| `h=.25`, original | `-1.8335603471034372` | `-1.8335354418468341` | `-0.000024905` |
+| `h=.20`, original | `-9.888729681527348` | `-9.889689559031467` | `+0.000959878` |
+| `h=.25`, magnetic reversed | `-1.6516011645370043` | `-1.651549235702987` | `-0.000051929` |
+
+All 4 M5N numerical gates passed for all three cases; **18 focused tests passed**. But the same source's original-orientation gradients differ by
+
+```math
+\Delta D_E=8.05516933442391\ \mathrm{J/m},\qquad
+\frac{\Delta D_E}{\max(|D_E^{(.25)}|,|D_E^{(.20)}|,1)}
+=0.814580799945556.
+```
+
+The ground-top numerical row band contributes `-1.911890756` versus `-9.802625261 J/m`, explaining about **97.9586% of the signed cross-grid difference**; the ground-bottom band contributes `+0.078330409` versus `-0.086104421 J/m`. The modeled ground top is `z=-3.0 m`, bottom `z=-4.0 m`, radial radius `2.0 m`. Row attribution is a **nonunique diagnostic**, not a local physical stress decomposition. **M5N establishes independent derivative reproduction, not continuum convergence or mechanical lift.**
+
+### Current evidence and failure boundary
+
+```text
+COMMON_CONTINUUM_ARTIFICIAL_SOURCE                = PASS_SCOPED
+UNCHANGED_R3B_REDUCED_CARRIER_WITH_MATCHED_RHS    = PASS_SCOPED
+FIXED_LOADING_WEIGHTED_STATIONARY_FUNCTIONAL      = PASS_SCOPED
+EARTH_ONLY_ENVELOPE_VS_RE_SOLVED_DERIVATIVE       = PASS_SCOPED
+EARTH_INTERFACE_CONTINUUM_DERIVATIVE              = NOT_CONVERGED
+DYNAMIC_PHYSICAL_SOURCE_ACTION                    = NOT_DERIVED
+EXTERIOR_UNIVERSAL_METRIC_TRANSMISSION            = NOT_DERIVED
+COMPLETE_EARTH_ENVIRONMENT_MOMENTUM_EXCHANGE      = NOT_DERIVED
+WHOLE_CRAFT_EXTERNAL_FORCE                        = NOT_ESTABLISHED
+COMPLETE_ENERGY_STRICTLY_BELOW_10MJ               = NOT_CERTIFIED
+006D_REPLACED                                     = NO
+```
+
+## 3. Immediate executable scientific priority — B17-M5O
+
+**Precise falsifier:** Is the large M5N Earth-only reduced-action derivative discrepancy a controllable interface/phase/domain discretization effect, and does the chosen **same prescribed continuum model** possess a demonstrable stable continuum limit? A result converging to zero or changing sign is a valid negative outcome; no target derivative may be fitted or optimized into existence.
+
+### 3.1 Freeze the test problem before changing the solver
+
+- Retain the M5I continuum source profile, compact support, moment normalization, stationarity and current polarity as immutable reference specifications.
+- Retain R3X1-corrected R3B static carrier equations, M5L signed weights, the fixed loading convention, action conversion, and M5K center controls.
+- Record physical Earth/air/enclosure geometry in **meters** independently of mesh indices; retain the original Earth-top `-3 m`, bottom `-4 m` and radial `2 m` control before changing geometry as a separate hypothesis.
+- Maintain identical artificial amplitudes and portal scale across runs; do not renormalize field strength or source vectors individually to make results agree.
+- Write out precisely which variables remain artificial and which numerical operations implement them.
+
+### 3.2 Controlled experiment matrix — vary one axis at a time
+
+| Axis | Required control | Question answered |
+|---|---|---|
+| **Mesh spacing** | `h=.25 m`, `.20 m` plus one or more finer feasible levels, with consistent domain/geometry | Is there a credible convergence trend? |
+| **Grid phase** | Shift mesh origin relative to *unchanged physical* ground and source (e.g. fractions of a cell) | Is the M5N interface result grid-pinned? |
+| **Physical interface width** | Hold `w` fixed in meters across grids; separately compare `w/h` fixed | Is apparent convergence achieved by changing the underlying interface? |
+| **Material interface law** | Compare identical smooth transition functions, one-sided sharp limit only if justified | Does the derivative depend on a hidden discontinuity convention? |
+| **Source deposition** | Repeat common dual-cell quadrature with higher subcell orders; preserve neutrality, moments and support | Can source deposition or projection contaminate the gradient? |
+| **Finite-domain boundary** | Extend radial/axial outer domain without moving source/Earth; audit actual boundary terms and B6 correction | Is the gradient an outer-box artifact? |
+| **Derivative step** | Compare at least `d=0.002, 0.001 m`, then smaller admissible d with roundoff/conditioning checks | Does the material derivative itself converge? |
+| **Magnetic reversal** | Repeat signed-source control without retuning normalization | Is the response sign/size orientation-sensitive? |
+
+**Important:** Treat width and grid phase as different independent variables. Do not assume a smoother-looking plot means physical validity. Ground-top localization does not prove that only ground-top physics matters; spatial row partition is discretization dependent. At least three meaningful mesh levels and finite-domain controls are needed before a continuum claim.
+
+### 3.3 Mandatory observables in every M5O output
+
+- Immutable continuum source parameters, current amplitude, charge parity and original moment integrals; grid-dependent deposition errors and source projection sizes.
+- Prescribed material `beta` and derivative, ground-top/bottom coordinate masks, physical transition width, grid phase, and domain bounds.
+- R3B/M5K centered field/action references, solver stationarity residual, `H-WA` check, weighted `H-H^T` defect, source work/field-energy convention.
+- Re-solved Earth-only and stationary-envelope derivatives on the same exact parameter path, with step-size sensitivity and explicit comparison.
+- Ground-top/bottom/radial/other signed and absolute per-row derivative terms, cancellation ratio, and any boundary contribution; record that this is not physical stress.
+- Cross-grid differences at **matched continuum input**, inferred convergence order only when supported, phase spreads, domain-size dependence, and a combined uncertainty statement.
+- Explicit negative physical-certification fields: source physics, Ward/Noether matter reaction, exterior metric, whole-craft force, and complete energy remain unverified.
+
+### 3.4 Numerical acceptance / stop decisions
+
+| Gate | PASS required | Failure disposition |
+|---|---|---|
+| **N0 source equivalence** | Common continuum source moments/neutrality within pre-registered error tolerances on each grid; no grid refit | `RED_DIFFERENT_DISCRETE_SOURCES` |
+| **N1 same reduced action** | Reproduce M5K/M5L centered controls, variational residuals and weighted symmetry under changed grid/domain | `RED_INCONSISTENT_CARRIER_OPERATOR` |
+| **N2 derivative identity** | Independent envelope and re-solved differences agree to a *predeclared, grid-appropriate numerical budget*, including truncation/roundoff | `RED_DERIVATIVE_OR_LOADING_BUG` |
+| **N3 mesh/phase convergence** | Stable sign/magnitude or defensible zero limit with ≥3 refinements and bounded phase dependence; no hidden source/interface retuning | `YELLOW_OR_RED_NONCONVERGENT_INTERFACE` |
+| **N4 interface-width stability** | Fixed physical-width refinement; if taking sharp-interface limit, separate controlled width-to-zero extrapolation | `YELLOW_INTERFACE_MODEL_DEPENDENT` |
+| **N5 finite-domain isolation** | Outer boundary enlargement changes result below registered error budget and B6-type boundary terms correct | `RED_FINITE_BOX_ARTIFACT` |
+| **N6 negative controls** | No artificial Earth response when material perturbation absent; no spurious field under zero RHS; reversals documented | `RED_FALSE_POSITIVE_NUMERICAL_RESPONSE` |
+| **N7 reporting** | Complete branch/result provenance and no physical-thrust promotion | `RED_CLAIM_SCOPE_VIOLATION` |
+
+**Possible outcomes:** (1) confirmed artifact with derivative approaching zero; (2) converged nonzero **artificial reduced-action** derivative; (3) persistent phase/interface/domain dependence; (4) an action/discretization defect requiring source/operator repair. Only outcome (2) advances this artificial numerical observable, **not** the physical spacecraft-lift claim. Do not repeat derivative calculators with the same discrete material law expecting a new independent physical result.
+
+### 3.5 M5O implementation discipline
+
+Use new B17-M5O source/simulation/test modules; do not overwrite M5I–M5N or historical R3B/B6/B7 artifacts. Preserve the recorded M5N original/reversed controls and compare all new results against them. Pre-register run matrices and tolerances; batch cheap negative controls but avoid uncontrolled multidimensional scans. Run focused tests and, when feasible, full `pytest -q`; retain a clear baseline when computationally expensive cases are deferred. No fabricated `GREEN` if only a numerical unit test passed.
+
+## 4. From M5O to a genuinely physical spacecraft model
+
+After numerical interface convergence (or a documented scoped failure), return explicitly to the **inverse-design unknowns**. A smooth source array is not a microscopic source and a prescribed material coefficient is not an Earth matter action.
+
+### 4.1 Physical action architecture
+
+A potential complete-action bookkeeping template is
+
+```math
+S_{\mathrm{total}}
+=S_{\mathrm{gravity}}[g]
++S_{X,Y}[g,A_X,A_Y]
++S_{\mathrm{source}}[g,A_X,A_Y,\Psi_s]
++S_{\mathrm{matter}}[\widetilde g,\Psi_{\mathrm{craft}},\Psi_E,\Psi_{\mathrm{air}}]
++S_{\mathrm{support/aux}}[\ldots].
+```
+
+This is **not an achieved or uniquely specified action**. Derive real source currents from matter variations, carrier equations and their Bianchi/Gauss/Ward constraints, an actually universal physical metric, gravitational field equations, physical stress-energy, support/hull/Earth/atmosphere forces and the full energy/momentum ledger. Check canonical mode health, parity/CP, UV/naturalness and empirical limits. Prohibit a one-way matter coefficient that modifies the test Earth without reciprocally loading the carriers when the action requires it.
+
+### 4.2 Exterior and whole-craft promotion ladder
+
+1. **Exterior support:** Show the lawful carrier strengths or independently dynamical metric influence leave the enclosure with correct source/boundary conditions. If the local `F_X \widetilde F_Y` portal vanishes outside confined carriers, do not assume useful exterior `\nabla\sigma`.
+2. **Earth sign and load:** Place real Earth material **below** the source and derive its target response with backreaction, not a rotated upper torus or assigned body force.
+3. **Earth and craft reaction:** Vary complete dynamical source and matter positions; compute full craft external force, Earth/air momentum, support stress, field momentum, gravity-sector and radiation flux; internal craft forces must cancel.
+4. **Geometry and operation:** Distinguish ground contact/normal-force change, suspended operation, varying clearance, hover, climb and auxiliary thrust requirements, using source-on minus source-off comparisons.
+5. **Source/energy feasibility:** Count current-carrying materials, drivers, structure, enclosure, control, activation, repeated operation, losses, radiation, backreaction, UV/off-state costs, and a defined mission protocol; apply strict `<10 MJ` complete conservative requirement.
+6. **Reproduction/experiment:** Distinguish an internally consistent *simulation* from an independently reproduced physical demonstration.
+
+With upward `z`, the approximate near-surface **engineering screening** equation is
+
+```math
+M_c a_z=F_{\mathrm{novel,external},z}
++T_{\mathrm{aux},z}+N_{\mathrm{ground}}
++F_{\mathrm{aero/other},z}-M_cg_E.
+```
+
+**The novel term remains unknown.** Never insert an M5N action gradient into that term without deriving the complete mechanical variation and reaction. In the full gravity theory use a covariant stress-energy/field-flux account and appropriate frame/observer definitions.
+
+### 4.3 B11-M6 — co-primary causal finite impulse
+
+Keep B11's failed static/quasistatic results as controls. Derive physically conserved time-dependent sources, all necessary gauge components, healthy hyperbolic evolution and the loaded static limit before pulses. If the exact theory survives, test **one supported pulse**, measuring positive and negative impulse, source recoil, field/radiation momentum, heat, work and convergence; then stable cycles continuing from their actual prior final state. A favorable local peak or initial pulse without full-cycle accounting is not hover. B11-M6 is co-primary, not blocked by waiting for a large M5O sweep; however, physically meaningful craft predictions require its own full action and Earth/environment coupling.
+
+## 5. Permanent anchors, scope and failure memory
+
+| Anchor | Immutable result | Practical/theoretical boundary |
+|---|---|---|
+| **006D** | Conserved finite positive-energy static linearized-GR true stand-off, NEC/WEC/DEC, outward near region, positive far active mass; `C=23.591586299249` | Catastrophic roughly `1/G` scaling; unreplaced |
+| **018B/018C; protected vectors through 022A** | Microscopic field existence and fatal tested nonaxisymmetric `m=2` instability; scoped vector closures | Existence ≠ stability; no indiscriminate reopening |
+| **B7/026; 024–031; V13–V26; Introspective** | Historical mechanisms/closures, `RAW_GE1000X_SIGNAL=PRESENT` | `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO` |
+| **A12B/A12C** | Scoped massless concurrent-`U(1)` corridor, A12C `2.6568591420597114 J` preloaded `F²` with original 1 kg/1 m ≥1g sample | Not a sourced loaded physical device; A12C COM ~`15.04217 m/s²` belongs only to A12C |
+| **R3B flagship** | `1.5429162116460216 J` canonical net-neutral preloaded mixed-field capacity, ≥1g original finite torus at 1m sampled stand-off | Not physical source, complete energy or whole-craft lift |
+| **R3A/R3C/R3X1/B0** | `1.84e15` bulk suppression; destructive interface response; corrected Lorentzian signs; inverse source compensation obstruction | Loaded original static 1kg mirror fails |
+| **B6/B7** | Boundary-artifact correction; `1.5473042949759672 J` 10cm finite-width net-neutral electric control | No complete electric+magnetic microscopic source |
+| **B1; B2–B10** | Conditional `0.275–0.301 MJ` loaded field-only; scoped source/interface/reciprocity no-go memory | No complete energy or general no-go |
+| **B11–B13** | No tested quasistatic pulse, intensity-only, dual-source or static 24-component source-basis rescue | Different healthy dynamics not excluded |
+| **B14/B16; B15** | Nonconverged `-410.388913 m/s²` local inward signal; angle-only failure; extremely dilute nominal 5mg loading result | Not useful integrated tractor force or practical loaded payload |
+| **B17-M5I–M5N** | Matched artificial source, fixed-loading carrier action, independently reproducible Earth-only reduced derivative | Strong **81.458% cross-grid failure**, no physical reciprocity or lift |
+
+AGMINER remains **theorem-first, candidate-specific and failure-aware**, not a blind optimizer. Reopen a closed route only when its actual assumptions change due to new physical degrees of freedom, corrected mathematics, different sourced geometry, or independently established source realization. Do not conflate a failed discretization with a universal physical no-go.
+
+## 6. Reproducibility, source precedence and next-session execution
+
+**Evidence precedence:** exact executed JSON/logs + producing source/tests; newer journals and `NOTES.md`; this active section for strategic direction; `AGMINER_BUILDPLAN.MD` for scoped closures; `INTROSPECTIVE_BUILDPLAN.md` for mechanisms; README only for public claims. Current code may be newer than the November 11 **codebundle**; regenerate a code-only bundle that excludes full docs/journals before implementation reconstruction. Preserve historical filenames, corrections and immutable archives.
+
+**Recorded local artifacts** (confirm on the next checkout; do not assume all are in a newly regenerated bundle):
+
+```text
+results/data/b17_m5i_20261113T003127Z_continuum_source.json
+results/data/b17_m5j_20261113T004603Z_solver_contract.json
+results/data/b17_m5k_20261113T040641Z_h0.25_original.json
+results/data/b17_m5k_20261113T040641Z_h0.2_original.json
+results/data/b17_m5l_20261113T041835Z_h0.25_original.json
+results/data/b17_m5m_20261113T043337Z_h0.25_original.json
+results/data/b17_m5m_20261113T043337Z_h0.2_original.json
+results/data/b17_m5n_20261113T192542Z_h0.25_original.json
+results/data/b17_m5n_20261113T192542Z_h0.2_original.json
+results/data/b17_m5n_20261113T192542Z_h0.25_magnetic_reversed.json
+results/logs/b17_m5n_focused_20261113T192542Z.log
+results/logs/b17_full_regression_20261112T024113Z.log
+```
+
+The previous **full regression** is **1,455 passed in 77.37 s**, prior to newer focused additions; M5N focused: **18 passed**. Neither suite validates physical antigravity. Run a fresh complete suite on the actual current code and record its new result separately.
+
+**Research order:** (A) reconstruct M5I–M5N source/operator/results and original R3B/B6/B7/failure controls; (B) pre-register M5O physical geometry, fixed source, mesh/phase/interface/domain matrix and uncertainty tolerances; (C) run small exact/negative controls, then targeted convergence calculations; (D) classify observed numerical continuum limit **even if zero/negative**; (E) decide whether a physical same-action source/matter derivation is warranted or the artificial coupling requires replacement; (F) continue B11-M6 analytic sourced-dynamics in parallel; (G) journal findings and update failure memory without retroactively rewriting historical results.
+
+**No-promotion checklist:**
+
+```text
+LATEST_COMPLETED_B17_ARTIFICIAL_STAGE = ALPHA1R9_M5N
+NEXT_B17_STAGE                      = ALPHA1_B17_M5O
+B17_M5O_EXECUTED                    = NO
+ALPHA1_CONTINUUM_EARTH_RESPONSE     = NOT_ESTABLISHED
+ALPHA1_WHOLE_CRAFT_LIFT             = NOT_ESTABLISHED
+EXTERIOR_METRIC_TRANSMISSION        = NOT_DERIVED
+SOURCE_DYNAMICAL_WARD_NOETHER       = NOT_CERTIFIED
+B11_M6_CAUSAL_SOURCED_IMPULSE       = OPEN_NOT_COMPLETED
+LAST_RECORDED_FULL_TEST_SUITE       = 1455_PASSED_PRE_NEW_FOCUSED
+NEW_FULL_REGRESSION_REQUIRED       = YES
+PHYSICAL_ANTIGRAVITY               = NOT_DEMONSTRATED
+COMPLETE_ENERGY_LT_10MJ             = NOT_CERTIFIED
+006D_REPLACED                       = NO
+HOOK17_STATUS                      = OPEN
+```
+
+**Final current decision:** Complete the controlled M5O continuum material-interface investigation before interpreting artificial action derivatives as real forces. Work backward from the artificial response toward a full sourced, healthy, conserved, empirical/UV-consistent source–carrier–matter–metric–gravity action and an externally balanced **whole-spacecraft** Earth interaction. Preserve the original independent finite-neutral-matter benchmark and co-primary B11-M6 dynamics. Failure is informative; neither numerical bookkeeping PASS nor a chosen target force is physical antigravity.
+
+---
+
+# END NOVEMBER 13 AUTHORITATIVE SECTION
+
+---
+
+# ARCHIVED SNAPSHOT — NOVEMBER 11 BUILDPLAN (COMPLETE, VERBATIM; NOT ACTIVE)
+
+> The following complete document is retained **byte-for-byte** from the supplied November 11 `RESEARCH_BUILDPLAN.md`. Its historical Part I explicitly called B17 *proposed*, B16 *latest*, and the suite *1,283 passed*. Those statements describe the earlier session, not the current frontier. The now-current instructions are exclusively above. Do not delete or silently alter the historical archives nested inside this snapshot.
+
+---
+
+# ANTIGRAVITY_RESEARCH — Research Buildplan
+
 **Updated:** November 11, 2026 — craft-mounted, Earth-directed scientific-strategy revision  
 **Document role:** Authoritative *forward-looking* scientific research strategy, mechanism falsification, executable priorities, numerical validation, promotion requirements, and engineering-physics roadmap  
 **Primary program:** `032H17 — HOOK17` within `032 — AGMINER`  

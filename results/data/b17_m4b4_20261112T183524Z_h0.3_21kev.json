@@ -1,0 +1,43 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B4",
+  "scope": "APPROX_R3B_SOURCE_FIXED_REDUCED_ACTION_EARTH_CRAFT_TRANSLATION_GATE",
+  "h_m": 0.3,
+  "scale_ev": 21147.0,
+  "translation_step_m": 0.0002,
+  "earth_action_slope_j_m": -14050.632501021608,
+  "craft_action_slope_j_m": 1603.3601040479443,
+  "earth_resolved_finite_difference_j_m": -14050.51462854317,
+  "craft_resolved_finite_difference_j_m": 1603.4075074276188,
+  "earth_envelope_relative_error": 8.389122584340211e-06,
+  "craft_envelope_relative_error": 2.9564149759131664e-05,
+  "paired_translation_defect_j_m": -12447.272396973663,
+  "paired_translation_defect_fraction": 0.885886980252927,
+  "common_shift_finite_difference_j_m": -12447.990371729247,
+  "common_shift_minus_sum_j_m": -0.7179747555837821,
+  "source_support_plus": {
+    "max_nodal_source_radius_m": 2.193171219946157,
+    "inside_nominal_2m_region": false,
+    "inside_enclosure_radius": true,
+    "translated_source_is_exact_physical_current": false
+  },
+  "source_support_minus": {
+    "max_nodal_source_radius_m": 2.280350850198258,
+    "inside_nominal_2m_region": false,
+    "inside_enclosure_radius": false,
+    "translated_source_is_exact_physical_current": false
+  },
+  "unloaded_r3b_field_capacity_reference_j": 1.5429162116460216,
+  "source_is_exact_b7_or_r3b": false,
+  "source_translation_is_physically_sourced_motion": false,
+  "convergence_certified": false,
+  "finite_box_artifact_excluded": false,
+  "same_action_full_noether_identity_certified": false,
+  "source_current_transport_ward_identity_certified": false,
+  "atmosphere_field_momentum_reaction_derived": false,
+  "complete_craft_earth_matter_metric_action": false,
+  "force_as_physical_thrust_certified": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false,
+  "warning": "Action-gradient/translation audit only; not physical spacecraft lift"
+}

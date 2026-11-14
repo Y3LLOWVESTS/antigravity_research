@@ -1,0 +1,174 @@
+{
+  "branch": "032H17A12D1R3X3B17-M2",
+  "classification": "ONE_DIMENSIONAL_FROZEN_THETA_CONDITIONAL_ENERGY_FLOOR",
+  "preloaded_fit": {
+    "grid_m": 0.04,
+    "clearance_m": 0.0,
+    "fitted_normal_b_r3b_units": 61667.226643314636,
+    "r3b_preloaded_energy_j": 1.5151217834342905,
+    "r3b_fit_rms": 0.009685419994369907
+  },
+  "air_ground_1cm_each_1kev": {
+    "layers": [
+      {
+        "name": "air",
+        "thickness_m": 0.01,
+        "density_kg_m3": 1.2,
+        "theta": -10344.313267122321
+      },
+      {
+        "name": "ground",
+        "thickness_m": 0.01,
+        "density_kg_m3": 2000.0,
+        "theta": -17240522.111870535
+      }
+    ],
+    "b_normal": 61667.226643314636,
+    "optimal": {
+      "source_displacement": -531906544816.25543,
+      "e_normal_per_layer": [
+        -531268639705.54236,
+        531268639705.5423
+      ],
+      "carrier_energy_j_per_m2": 2291671084.099162,
+      "carrier_energy_by_layer_j_per_m2": [
+        1145835542.049581,
+        1145835542.0495808
+      ],
+      "absolute_d_continuity_residual": 0.0
+    },
+    "analytic_optimum_j_per_m2": 2291671084.099162,
+    "nonzero_B_held_through_layers": true,
+    "free_bulk_or_interface_sheet_sources": false,
+    "whole_craft_force_n": null,
+    "fixed_source": {
+      "source_displacement": -637843443.4864353,
+      "e_normal_per_layer": [
+        61667.2266433239,
+        1062537341078.3113
+      ],
+      "carrier_energy_j_per_m2": 4583342700.211658,
+      "carrier_energy_by_layer_j_per_m2": [
+        3.0876833671643384e-05,
+        4583342700.211627
+      ],
+      "absolute_d_continuity_residual": 1.4901161193847656e-05
+    }
+  },
+  "vacuum_ground_1cm_each_1kev": {
+    "layers": [
+      {
+        "name": "vacuum",
+        "thickness_m": 0.01,
+        "density_kg_m3": 0.0,
+        "theta": 0.0
+      },
+      {
+        "name": "ground",
+        "thickness_m": 0.01,
+        "density_kg_m3": 2000.0,
+        "theta": -17240522.111870535
+      }
+    ],
+    "b_normal": 61667.226643314636,
+    "optimal": {
+      "source_displacement": -531587592260.89886,
+      "e_normal_per_layer": [
+        -531587592260.89886,
+        531587592260.89886
+      ],
+      "carrier_energy_j_per_m2": 2294423566.3863416,
+      "carrier_energy_by_layer_j_per_m2": [
+        1147211783.1931708,
+        1147211783.1931708
+      ],
+      "absolute_d_continuity_residual": 0.0
+    },
+    "analytic_optimum_j_per_m2": 2294423566.3863416,
+    "nonzero_B_held_through_layers": true,
+    "free_bulk_or_interface_sheet_sources": false,
+    "whole_craft_force_n": null,
+    "fixed_source": {
+      "source_displacement": 61667.226643314636,
+      "e_normal_per_layer": [
+        61667.226643314636,
+        1063175246189.0244
+      ],
+      "carrier_energy_j_per_m2": 4588847665.105416,
+      "carrier_energy_by_layer_j_per_m2": [
+        3.087683367163875e-05,
+        4588847665.105386
+      ],
+      "absolute_d_continuity_residual": 4.125567647861317e-05
+    }
+  },
+  "air_ground_1cm_each_21p147kev_matched_sigma": {
+    "layers": [
+      {
+        "name": "air",
+        "thickness_m": 0.01,
+        "density_kg_m3": 1.2,
+        "theta": -0.051725726969752195
+      },
+      {
+        "name": "ground",
+        "thickness_m": 0.01,
+        "density_kg_m3": 2000.0,
+        "theta": -86.20954494958693
+      }
+    ],
+    "b_normal": 27577312.97409811,
+    "optimal": {
+      "source_displacement": -1189427029.4953976,
+      "e_normal_per_layer": [
+        -1188000572.93394,
+        1188000572.93394
+      ],
+      "carrier_energy_j_per_m2": 11465.452034144135,
+      "carrier_energy_by_layer_j_per_m2": [
+        5732.726017072067,
+        5732.726017072067
+      ],
+      "absolute_d_continuity_residual": 0.0
+    },
+    "analytic_optimum_j_per_m2": 11465.45203414414,
+    "nonzero_B_held_through_layers": true,
+    "free_bulk_or_interface_sheet_sources": false,
+    "whole_craft_force_n": null,
+    "fixed_source": {
+      "source_displacement": 26150856.412640505,
+      "e_normal_per_layer": [
+        27577312.97409811,
+        2403578458.841978
+      ],
+      "carrier_energy_j_per_m2": 23462.917402308514,
+      "carrier_energy_by_layer_j_per_m2": [
+        6.174870009715635,
+        23456.7425322988
+      ],
+      "absolute_d_continuity_residual": 6.705522537231445e-08
+    }
+  },
+  "planar_source_free_zero_theorem": {
+    "source_free_planar_fullline_field_zero_proven": true,
+    "finite_3d_onboard_source_ruled_out": false,
+    "physical_3d_earth_response_derived": false
+  },
+  "assumptions": [
+    "Local 1D fixed axial B, not full 3D geometry",
+    "No free interface or bulk sheets",
+    "Two 1cm test layers, not full Earth",
+    "Source D may adjust; source cost excluded",
+    "Theta follows idealized frozen-density law",
+    "Carrier Hamiltonian only; not total matter energy",
+    "Higher-scale comparator uses prescribed sigma"
+  ],
+  "whole_craft_force_n": null,
+  "earth_down_force_n": null,
+  "source_support_and_hull_solved": false,
+  "recoil_and_total_stress_derived": false,
+  "gravity_cancellation": null,
+  "pure_field_lift": null,
+  "complete_energy_under_10mj_certified": false,
+  "006d_replaced": false
+}

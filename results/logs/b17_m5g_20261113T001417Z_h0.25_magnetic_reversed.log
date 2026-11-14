@@ -1,0 +1,61 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R2-M5G",
+  "grid_m": 0.25,
+  "reverse_magnetic": true,
+  "exact_integral_j_per_m": -4.695539079664741,
+  "phase_quadrature": {
+    "8": {
+      "phase_count": 8,
+      "earth_only_j_per_m": -1047.863388080259,
+      "craft_only_j_per_m": 1064.229324997541,
+      "paired_sum_j_per_m": 16.365936917281942,
+      "common_shift_j_per_m": 16.365962674171897,
+      "common_minus_paired_j_per_m": 2.5756889954209328e-05,
+      "phase_action_mean_j": -696.5427296611615,
+      "phase_action_span_j": 210.87623576338228
+    },
+    "16": {
+      "phase_count": 16,
+      "earth_only_j_per_m": -1063.7653198341468,
+      "craft_only_j_per_m": 1064.2073959888876,
+      "paired_sum_j_per_m": 0.4420761547407892,
+      "common_shift_j_per_m": 0.4420992536324775,
+      "common_minus_paired_j_per_m": 2.3098891688277945e-05,
+      "phase_action_mean_j": -696.5152117182388,
+      "phase_action_span_j": 208.52733090921538
+    },
+    "32": {
+      "phase_count": 32,
+      "earth_only_j_per_m": -1067.6246853768134,
+      "craft_only_j_per_m": 1064.2022290289788,
+      "paired_sum_j_per_m": -3.422456347834668,
+      "common_shift_j_per_m": -3.4224342209654424,
+      "common_minus_paired_j_per_m": 2.2126869225758128e-05,
+      "phase_action_mean_j": -696.507303397032,
+      "phase_action_span_j": 210.98363069312472
+    }
+  },
+  "errors_against_exact_integral": {
+    "8": {
+      "absolute_common_drift_error_j_per_m": 21.061501753836637,
+      "normalized_common_drift_error": 4.485427848966048
+    },
+    "16": {
+      "absolute_common_drift_error_j_per_m": 5.137638333297218,
+      "normalized_common_drift_error": 1.0941530346424129
+    },
+    "32": {
+      "absolute_common_drift_error_j_per_m": 1.2731048586992983,
+      "normalized_common_drift_error": 0.27113071302351877
+    }
+  },
+  "relative_32phase_reciprocity_defect": 0.0032056736741964027,
+  "diagnostic_gates": {
+    "exact_endpoint_action_reproduced": true,
+    "m5f_eight_phase_reproduced": true,
+    "32phase_common_integral_absolute_error_below_0p5_j_per_m": false,
+    "32phase_apparent_reciprocity_below_5pct": true
+  },
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

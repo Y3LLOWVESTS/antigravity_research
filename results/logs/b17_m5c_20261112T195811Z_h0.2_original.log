@@ -1,0 +1,90 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5C",
+  "grid_m": 0.2,
+  "shape_bias": 0.0,
+  "source_max_radius_m": 1.8110770276275123,
+  "source_transport": {
+    "minus": [
+      2.9467917503066685e-15,
+      6.951806290977856e-16
+    ],
+    "plus": [
+      2.961173644278925e-15,
+      7.018313670624586e-16
+    ]
+  },
+  "earth_present_material_transport": {
+    "plus_inner_relative_linf": 2.637453608834082e-15,
+    "minus_inner_relative_linf": 2.7198740341101474e-15
+  },
+  "earth_absent_material_transport": {
+    "plus_inner_relative_linf": 2.220446049250313e-16,
+    "minus_inner_relative_linf": 2.220446049250313e-16
+  },
+  "common_mode_controls": {
+    "both_positive": {
+      "common_shift_earth_present_slope_j_per_m": -6.165063719572572,
+      "common_shift_earth_free_slope_j_per_m": -1.1479575796511199,
+      "common_shift_interaction_slope_j_per_m": -5.017106139921452,
+      "center_interaction_action_j": -1391.3871961372606,
+      "plus_interaction_action_j": -1392.313644358841,
+      "minus_interaction_action_j": -1390.3068019028724
+    },
+    "magnetic_reversed": {
+      "common_shift_earth_present_slope_j_per_m": -6.7231962386449595,
+      "common_shift_earth_free_slope_j_per_m": 0.6283546936356288,
+      "common_shift_interaction_slope_j_per_m": -7.351550932280588,
+      "center_interaction_action_j": -958.2785238560573,
+      "plus_interaction_action_j": -959.6518955516622,
+      "minus_interaction_action_j": -956.7112751787499
+    },
+    "electric_only": {
+      "common_shift_earth_present_slope_j_per_m": -8.758146888621923,
+      "common_shift_earth_free_slope_j_per_m": -7.234605754038057,
+      "common_shift_interaction_slope_j_per_m": -1.5235411345838656,
+      "center_interaction_action_j": 599.0778081889039,
+      "plus_interaction_action_j": 598.7953302786809,
+      "minus_interaction_action_j": 599.4047467325145
+    },
+    "magnetic_only": {
+      "common_shift_earth_present_slope_j_per_m": 2.314016909513157,
+      "common_shift_earth_free_slope_j_per_m": 6.9748043110303115,
+      "common_shift_interaction_slope_j_per_m": -4.660787401517155,
+      "center_interaction_action_j": -1773.9106681855628,
+      "plus_interaction_action_j": -1774.7781002339325,
+      "minus_interaction_action_j": -1772.9137852733256
+    }
+  },
+  "m5b_reference_comparison": {
+    "m5b_subcell_paired_defect_matrix_j_per_m": [
+      [
+        263.12864143619663,
+        -1482.2755938439514
+      ],
+      [
+        -1482.2755938439514,
+        -220.73221582104452
+      ]
+    ],
+    "full_cell_common_slope_matrix_j_per_m": [
+      [
+        -1.5235411345838656,
+        0.583611198089784
+      ],
+      [
+        0.583611198089784,
+        -4.660787401517155
+      ]
+    ],
+    "relative_frobenius_difference": 1.0002469884948126,
+    "m5b_whitened_defect_eigenvalues_per_norm": [
+      -0.015455697436233302,
+      0.023589489632697358
+    ],
+    "m5b_defect_matrix_zero_operator": false,
+    "source_ratio_cancellation_is_noether_proof": false,
+    "comparison_uses_different_displacement_steps": true
+  },
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

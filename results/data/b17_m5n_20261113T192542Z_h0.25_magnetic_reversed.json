@@ -1,0 +1,130 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R9-M5N",
+  "grid_m": 0.25,
+  "reverse_magnetic": true,
+  "scope": "PRESCRIBED_MATERIAL_ENVELOPE_DERIVATIVE",
+  "center_action_j": -7.802522345642956,
+  "M5M_center_action_reproduction_error_j": 1.3642420526593924e-12,
+  "source_audit_at_zero_translation": {
+    "source_shift_m": 0.0,
+    "raw_relative_net_charge": 7.980814904552489e-17,
+    "projected_relative_net_charge": 3.9904074522762447e-17,
+    "quadrature_correction_relative_to_density_amplitude": 1.7467226409206096e-17,
+    "electric_dipole_before_projection": 0.02837542767875202,
+    "magnetic_dipole": -0.46119262895733365,
+    "stationary_current_continuity_analytic": true,
+    "dynamical_source_Ward_certified": false
+  },
+  "source_is_redeposited_during_Earth_only_shift": false,
+  "envelope_variation": {
+    "0.002": {
+      "envelope_derivative_j_per_m": -1.6862417071575762,
+      "M5M_resolved_Earth_derivative_j_per_m": -1.6861133836982845,
+      "envelope_minus_resolved_j_per_m": -0.00012832345929170152,
+      "envelope_absolute_disagreement_j_per_m": 0.00012832345929170152,
+      "material_beta_derivative_max_abs": 258.46794356739264,
+      "material_beta_derivative_rms": 15.553067512815957,
+      "Earth_free_beta_change_max_abs": 0.0,
+      "max_shifted_weighted_asymmetry": 1.5116219794375787e-16,
+      "spatial_attribution": {
+        "bands_m": 0.5,
+        "ground_top_relative_z_m": -3.0,
+        "ground_bottom_relative_z_m": -4.0,
+        "ground_radius_m": 2.0,
+        "total_signed_j_per_m": -1.6862417071575762,
+        "total_absolute_j_per_m": 5.58832677735844,
+        "signed_to_absolute_cancellation_ratio": 0.30174357626857495,
+        "regions": {
+          "ground_top_band": {
+            "signed_derivative_j_per_m": -1.6176784981460894,
+            "absolute_derivative_sum_j_per_m": 4.272001233914124,
+            "row_count": 475,
+            "fraction_of_absolute_contributions": 0.7644508641159791
+          },
+          "ground_bottom_band": {
+            "signed_derivative_j_per_m": -0.06856320901148671,
+            "absolute_derivative_sum_j_per_m": 1.3163255434443162,
+            "row_count": 380,
+            "fraction_of_absolute_contributions": 0.23554913588402096
+          },
+          "ground_radial_edge_band": {
+            "signed_derivative_j_per_m": 0.0,
+            "absolute_derivative_sum_j_per_m": 0.0,
+            "row_count": 820,
+            "fraction_of_absolute_contributions": 0.0
+          },
+          "other_rows": {
+            "signed_derivative_j_per_m": 0.0,
+            "absolute_derivative_sum_j_per_m": 0.0,
+            "row_count": 6970,
+            "fraction_of_absolute_contributions": 0.0
+          }
+        },
+        "attribution_is_unique_physical_stress": false
+      }
+    },
+    "0.001": {
+      "envelope_derivative_j_per_m": -1.6516011645370043,
+      "M5M_resolved_Earth_derivative_j_per_m": -1.651549235702987,
+      "envelope_minus_resolved_j_per_m": -5.192883401727855e-05,
+      "envelope_absolute_disagreement_j_per_m": 5.192883401727855e-05,
+      "material_beta_derivative_max_abs": 258.4720791427131,
+      "material_beta_derivative_rms": 15.55313088196052,
+      "Earth_free_beta_change_max_abs": 0.0,
+      "max_shifted_weighted_asymmetry": 1.5116219794375787e-16,
+      "spatial_attribution": {
+        "bands_m": 0.5,
+        "ground_top_relative_z_m": -3.0,
+        "ground_bottom_relative_z_m": -4.0,
+        "ground_radius_m": 2.0,
+        "total_signed_j_per_m": -1.6516011645370043,
+        "total_absolute_j_per_m": 5.498723553939476,
+        "signed_to_absolute_cancellation_ratio": 0.30036082889705196,
+        "regions": {
+          "ground_top_band": {
+            "signed_derivative_j_per_m": -1.583410178888701,
+            "absolute_derivative_sum_j_per_m": 4.184188242798825,
+            "row_count": 475,
+            "fraction_of_absolute_contributions": 0.7609380980429773
+          },
+          "ground_bottom_band": {
+            "signed_derivative_j_per_m": -0.06819098564830303,
+            "absolute_derivative_sum_j_per_m": 1.31453531114065,
+            "row_count": 380,
+            "fraction_of_absolute_contributions": 0.23906190195702262
+          },
+          "ground_radial_edge_band": {
+            "signed_derivative_j_per_m": 0.0,
+            "absolute_derivative_sum_j_per_m": 0.0,
+            "row_count": 820,
+            "fraction_of_absolute_contributions": 0.0
+          },
+          "other_rows": {
+            "signed_derivative_j_per_m": 0.0,
+            "absolute_derivative_sum_j_per_m": 0.0,
+            "row_count": 6970,
+            "fraction_of_absolute_contributions": 0.0
+          }
+        },
+        "attribution_is_unique_physical_stress": false
+      }
+    }
+  },
+  "envelope_step_difference_j_per_m": 0.03464054262057181,
+  "maximum_envelope_vs_M5M_disagreement_j_per_m": 0.00012832345929170152,
+  "diagnostic_gates": {
+    "center_action_reproduced_below_1e_minus_5_j": true,
+    "Earth_free_material_independent_of_Earth_shift": true,
+    "all_weighted_matrices_symmetric_below_1e_minus_9": true,
+    "envelope_matches_M5M_within_0p1_j_per_m": true
+  },
+  "crossgrid_continuum_force_converged": false,
+  "prescribed_Earth_matter_action_is_dynamical": false,
+  "local_attribution_is_physical_stress": false,
+  "source_dynamical_Ward_certified": false,
+  "exterior_metric_transmission_derived": false,
+  "Earth_environment_reaction_derived": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false
+}

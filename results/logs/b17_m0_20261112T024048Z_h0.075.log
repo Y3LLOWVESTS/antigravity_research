@@ -1,0 +1,12 @@
+{
+  "branch": "032H17A12D1R3X3B17-M0",
+  "preloaded_energy_j": 1.4667459954338413,
+  "confined_portal_transmits": false,
+  "surface_axis_at_contact_m_s2": -25.806438464506055,
+  "earth_surface_points_down": 35,
+  "earth_surface_points_total": 35,
+  "max_derivative_relative_change": 4.859531396175583e-06,
+  "whole_craft_force_n": null,
+  "claim_limit": "Preloaded tracer sign, NOT a sourced/loaded craft-Earth force or device"
+}
+RESULT_JSON=results/data/b17_m0_20261112T024048Z_h0.075.json

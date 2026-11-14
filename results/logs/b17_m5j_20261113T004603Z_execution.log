@@ -1,0 +1,25 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R5-M5J",
+  "M5I_source_preflight": "PASS",
+  "M5I_exposes_solver_RHS": false,
+  "historical_reproduction_errors_j": {
+    "h0.25": 0.0,
+    "h0.2": 0.0
+  },
+  "required_solver_contracts": 6,
+  "optional_interfaces_unavailable": [
+    {
+      "module": "hook17_r3b_m4b_sparse_earth_loading",
+      "symbol": "_on_shell_action",
+      "error": "module 'antigravity_research.agminer.hook17_r3b_m4b_sparse_earth_loading' has no attribute '_on_shell_action'"
+    },
+    {
+      "module": "hook17_r3b_m4b_sparse_earth_loading",
+      "symbol": "_weights",
+      "error": "module 'antigravity_research.agminer.hook17_r3b_m4b_sparse_earth_loading' has no attribute '_weights'"
+    }
+  ],
+  "M5I_source_coupled": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

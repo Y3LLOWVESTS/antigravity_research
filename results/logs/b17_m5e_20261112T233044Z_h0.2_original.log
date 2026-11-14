@@ -1,0 +1,44 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5E",
+  "grid_m": 0.2,
+  "bias": 0.0,
+  "reversed_magnetic": false,
+  "decomposition": {
+    "full": {
+      "small_symmetric_slope_j_per_m": -2922.3739873123122,
+      "one_cell_symmetric_slope_j_per_m": -5.017106139930547,
+      "positive_halfcell_deviation_from_endpoint_chord_j": -101.19373309072398,
+      "positive_halfcell_interaction_change_from_center_j": -101.65695720151416
+    },
+    "source_only": {
+      "small_symmetric_slope_j_per_m": 2206.181646542973,
+      "one_cell_symmetric_slope_j_per_m": 2242.8765789006866,
+      "positive_halfcell_deviation_from_endpoint_chord_j": 7.41114171652589,
+      "positive_halfcell_interaction_change_from_center_j": 192.56761468097102
+    },
+    "material_only": {
+      "small_symmetric_slope_j_per_m": -5128.336884445162,
+      "one_cell_symmetric_slope_j_per_m": -2247.910155122372,
+      "positive_halfcell_deviation_from_endpoint_chord_j": -81.22472712697345,
+      "positive_halfcell_interaction_change_from_center_j": -345.20115539451945
+    },
+    "mixed_difference": {
+      "small_symmetric_slope_j_per_m": -0.2187494101235643,
+      "one_cell_symmetric_slope_j_per_m": 0.01647008175496012,
+      "positive_halfcell_deviation_from_endpoint_chord_j": -27.380147680276423,
+      "positive_halfcell_interaction_change_from_center_j": 50.97658351203427
+    }
+  },
+  "source_quadratic_midpoint": {
+    "source_halfcell_is_linear_interpolant_relative_error_phi": 2.4399210994110844e-15,
+    "source_halfcell_is_linear_interpolant_relative_error_a": 2.2142258248117328e-16,
+    "source_only_chord_curvature_j": 7.41114171652589,
+    "independently_solved_increment_current_interaction_action_j": -29.644566866140394,
+    "predicted_chord_curvature_j": 7.411141716535099,
+    "absolute_identity_error_j": 9.208633855450898e-12
+  },
+  "m5d_reproduction_max_abs_error_j": 0.0,
+  "max_solver_residual": 7.882687907909109e-15,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

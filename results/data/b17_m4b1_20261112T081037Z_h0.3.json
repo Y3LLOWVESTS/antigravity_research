@@ -1,0 +1,292 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B1",
+  "classification": "R3B_ALIGNED_COMPACT_SOURCE_BVP_CONTROL_NOT_EXACT_R3B",
+  "h_m": 0.3,
+  "original_r3b_1p542916j_unloaded_anchor_preserved": true,
+  "source": {
+    "fit_rms": 0.03347831170583072,
+    "original_mirror_target_energy_j": 1.1332019461644385,
+    "recovered_unloaded_energy_j": 1.22299250030619,
+    "exterior_electric_relative_l2_error": 0.03106057153219304,
+    "exterior_magnetic_relative_l2_error": 0.016614984085959315,
+    "electric_relative_net_charge": 2.6635625614224874e-17,
+    "magnetic_outside_source_count": 0,
+    "electric_outside_source_count": 0,
+    "source_electric_npoints": 53,
+    "source_magnetic_npoints": 64,
+    "source_is_onboard": true
+  },
+  "r3b_target_ground_tracer_n": -111498.03817911643,
+  "recovered_unloaded_target_tracer_ratio": 0.990867162243432,
+  "comparisons": {
+    "1000eV_ground_vacuum": {
+      "loaded_to_unloaded_tracer_ratio": 5.9822721905906856e-05,
+      "loaded_ground_tracer_n": -6.609199042601195,
+      "loaded_carrier_j": 1.1822090631588213,
+      "loaded_solver_residual": 4.610667589530292e-12,
+      "weighted_reciprocity_residual": 1.5243568264576286e-16
+    },
+    "1000eV_ground_air": {
+      "loaded_to_unloaded_tracer_ratio": 5.056887909526576e-07,
+      "loaded_ground_tracer_n": -0.05586836851514853,
+      "loaded_carrier_j": 0.5368694958743353,
+      "loaded_solver_residual": 3.6783095138998433e-13,
+      "weighted_reciprocity_residual": 1.5252719896514196e-16
+    },
+    "21147eV_ground_vacuum": {
+      "loaded_to_unloaded_tracer_ratio": 0.0032145711301155033,
+      "loaded_ground_tracer_n": -355.14499773095486,
+      "loaded_carrier_j": 240331.31719950627,
+      "loaded_solver_residual": 3.965870919988008e-15,
+      "weighted_reciprocity_residual": 1.16289841659351e-16
+    },
+    "21147eV_ground_air": {
+      "loaded_to_unloaded_tracer_ratio": 0.002053505407100027,
+      "loaded_ground_tracer_n": -226.87075308824672,
+      "loaded_carrier_j": 240227.21191858232,
+      "loaded_solver_residual": 3.721902049899842e-15,
+      "weighted_reciprocity_residual": 1.1635965745382328e-16
+    }
+  },
+  "cases": {
+    "1000eV_ground_vacuum": {
+      "branch": "032H17A12D1R3X3B17-M4B1",
+      "classification": "APPROX_R3B_COMPACT_SOURCE_FIXED_EARTH_BVP_CONTROL",
+      "h_m": 0.3,
+      "portal_scale_ev": 1000.0,
+      "include_air": false,
+      "source_is_exact_r3b": false,
+      "source_is_original_b7": false,
+      "source": {
+        "fit_rms": 0.03347831170583072,
+        "original_mirror_target_energy_j": 1.1332019461644385,
+        "recovered_unloaded_energy_j": 1.22299250030619,
+        "exterior_electric_relative_l2_error": 0.03106057153219304,
+        "exterior_magnetic_relative_l2_error": 0.016614984085959315,
+        "electric_relative_net_charge": 2.6635625614224874e-17,
+        "magnetic_outside_source_count": 0,
+        "electric_outside_source_count": 0,
+        "source_electric_npoints": 53,
+        "source_magnetic_npoints": 64,
+        "source_is_onboard": true
+      },
+      "r3b_unloaded_target_ground_tracer_n": -111498.03817911643,
+      "recovered_vs_r3b_frozen_tracer_ratio": 0.9908671622434342,
+      "states": {
+        "0.0": {
+          "earth_ground_tracer_force_n": -110479.74468625117,
+          "atmospheric_tracer_force_n": 0.0,
+          "canonical_carrier_energy_j": 1.2229925003061897,
+          "coupled_solver_relative_residual": 2.9735821525022468e-15,
+          "weighted_reciprocity_residual": 1.5243568264576286e-16,
+          "max_abs_sigma_ground": 9.247261404050711e-17
+        },
+        "1.0": {
+          "earth_ground_tracer_force_n": -6.609199042601195,
+          "atmospheric_tracer_force_n": 0.0,
+          "canonical_carrier_energy_j": 1.1822090631588213,
+          "coupled_solver_relative_residual": 4.610667589530292e-12,
+          "weighted_reciprocity_residual": 1.5243568264576286e-16,
+          "max_abs_sigma_ground": 1.1215083243836867e-19
+        }
+      },
+      "loaded_to_unloaded_tracer_force_ratio": 5.9822721905906856e-05,
+      "dense_earth_coupled": true,
+      "atmosphere_coupled": false,
+      "source_current_held_fixed": true,
+      "complete_source_hardware_realized": false,
+      "whole_craft_force_n": null,
+      "earth_reaction_stress_derived": false,
+      "field_momentum_ledger_closed": false,
+      "full_halfspace_solved": false,
+      "finite_box_convergence_certified": false,
+      "interface_convergence_certified": false,
+      "total_operating_energy_j": null,
+      "gravity_cancellation": null,
+      "pure_field_lift": null,
+      "006d_replaced": false
+    },
+    "1000eV_ground_air": {
+      "branch": "032H17A12D1R3X3B17-M4B1",
+      "classification": "APPROX_R3B_COMPACT_SOURCE_FIXED_EARTH_BVP_CONTROL",
+      "h_m": 0.3,
+      "portal_scale_ev": 1000.0,
+      "include_air": true,
+      "source_is_exact_r3b": false,
+      "source_is_original_b7": false,
+      "source": {
+        "fit_rms": 0.03347831170583072,
+        "original_mirror_target_energy_j": 1.1332019461644385,
+        "recovered_unloaded_energy_j": 1.22299250030619,
+        "exterior_electric_relative_l2_error": 0.03106057153219304,
+        "exterior_magnetic_relative_l2_error": 0.016614984085959315,
+        "electric_relative_net_charge": 2.6635625614224874e-17,
+        "magnetic_outside_source_count": 0,
+        "electric_outside_source_count": 0,
+        "source_electric_npoints": 53,
+        "source_magnetic_npoints": 64,
+        "source_is_onboard": true
+      },
+      "r3b_unloaded_target_ground_tracer_n": -111498.03817911643,
+      "recovered_vs_r3b_frozen_tracer_ratio": 0.990867162243432,
+      "states": {
+        "0.0": {
+          "earth_ground_tracer_force_n": -110479.74468625092,
+          "atmospheric_tracer_force_n": 56.63629432311984,
+          "canonical_carrier_energy_j": 1.2229925003061886,
+          "coupled_solver_relative_residual": 2.962070995605591e-15,
+          "weighted_reciprocity_residual": 1.5252719896514196e-16,
+          "max_abs_sigma_ground": 9.247261404050694e-17
+        },
+        "1.0": {
+          "earth_ground_tracer_force_n": -0.05586836851514853,
+          "atmospheric_tracer_force_n": 0.17447713288716038,
+          "canonical_carrier_energy_j": 0.5368694958743353,
+          "coupled_solver_relative_residual": 3.6783095138998433e-13,
+          "weighted_reciprocity_residual": 1.5252719896514196e-16,
+          "max_abs_sigma_ground": 7.156738243253304e-22
+        }
+      },
+      "loaded_to_unloaded_tracer_force_ratio": 5.056887909526576e-07,
+      "dense_earth_coupled": true,
+      "atmosphere_coupled": true,
+      "source_current_held_fixed": true,
+      "complete_source_hardware_realized": false,
+      "whole_craft_force_n": null,
+      "earth_reaction_stress_derived": false,
+      "field_momentum_ledger_closed": false,
+      "full_halfspace_solved": false,
+      "finite_box_convergence_certified": false,
+      "interface_convergence_certified": false,
+      "total_operating_energy_j": null,
+      "gravity_cancellation": null,
+      "pure_field_lift": null,
+      "006d_replaced": false
+    },
+    "21147eV_ground_vacuum": {
+      "branch": "032H17A12D1R3X3B17-M4B1",
+      "classification": "APPROX_R3B_COMPACT_SOURCE_FIXED_EARTH_BVP_CONTROL",
+      "h_m": 0.3,
+      "portal_scale_ev": 21147.0,
+      "include_air": false,
+      "source_is_exact_r3b": false,
+      "source_is_original_b7": false,
+      "source": {
+        "fit_rms": 0.03347831170583072,
+        "original_mirror_target_energy_j": 1.1332019461644385,
+        "recovered_unloaded_energy_j": 1.22299250030619,
+        "exterior_electric_relative_l2_error": 0.03106057153219304,
+        "exterior_magnetic_relative_l2_error": 0.016614984085959315,
+        "electric_relative_net_charge": 2.6635625614224874e-17,
+        "magnetic_outside_source_count": 0,
+        "electric_outside_source_count": 0,
+        "source_electric_npoints": 53,
+        "source_magnetic_npoints": 64,
+        "source_is_onboard": true
+      },
+      "r3b_unloaded_target_ground_tracer_n": -111498.03817911643,
+      "recovered_vs_r3b_frozen_tracer_ratio": 0.9908671622434345,
+      "states": {
+        "0.0": {
+          "earth_ground_tracer_force_n": -110479.74468625122,
+          "atmospheric_tracer_force_n": 0.0,
+          "canonical_carrier_energy_j": 244578.82542484903,
+          "coupled_solver_relative_residual": 3.4060850553637124e-15,
+          "weighted_reciprocity_residual": 1.16289841659351e-16,
+          "max_abs_sigma_ground": 9.247261404050721e-17
+        },
+        "1.0": {
+          "earth_ground_tracer_force_n": -355.14499773095486,
+          "atmospheric_tracer_force_n": 0.0,
+          "canonical_carrier_energy_j": 240331.31719950627,
+          "coupled_solver_relative_residual": 3.965870919988008e-15,
+          "weighted_reciprocity_residual": 1.16289841659351e-16,
+          "max_abs_sigma_ground": 1.7869620965291853e-18
+        }
+      },
+      "loaded_to_unloaded_tracer_force_ratio": 0.0032145711301155033,
+      "dense_earth_coupled": true,
+      "atmosphere_coupled": false,
+      "source_current_held_fixed": true,
+      "complete_source_hardware_realized": false,
+      "whole_craft_force_n": null,
+      "earth_reaction_stress_derived": false,
+      "field_momentum_ledger_closed": false,
+      "full_halfspace_solved": false,
+      "finite_box_convergence_certified": false,
+      "interface_convergence_certified": false,
+      "total_operating_energy_j": null,
+      "gravity_cancellation": null,
+      "pure_field_lift": null,
+      "006d_replaced": false
+    },
+    "21147eV_ground_air": {
+      "branch": "032H17A12D1R3X3B17-M4B1",
+      "classification": "APPROX_R3B_COMPACT_SOURCE_FIXED_EARTH_BVP_CONTROL",
+      "h_m": 0.3,
+      "portal_scale_ev": 21147.0,
+      "include_air": true,
+      "source_is_exact_r3b": false,
+      "source_is_original_b7": false,
+      "source": {
+        "fit_rms": 0.03347831170583072,
+        "original_mirror_target_energy_j": 1.1332019461644385,
+        "recovered_unloaded_energy_j": 1.22299250030619,
+        "exterior_electric_relative_l2_error": 0.03106057153219304,
+        "exterior_magnetic_relative_l2_error": 0.016614984085959315,
+        "electric_relative_net_charge": 2.6635625614224874e-17,
+        "magnetic_outside_source_count": 0,
+        "electric_outside_source_count": 0,
+        "source_electric_npoints": 53,
+        "source_magnetic_npoints": 64,
+        "source_is_onboard": true
+      },
+      "r3b_unloaded_target_ground_tracer_n": -111498.03817911643,
+      "recovered_vs_r3b_frozen_tracer_ratio": 0.9908671622434319,
+      "states": {
+        "0.0": {
+          "earth_ground_tracer_force_n": -110479.74468625091,
+          "atmospheric_tracer_force_n": 56.636294323119955,
+          "canonical_carrier_energy_j": 244578.8254248488,
+          "coupled_solver_relative_residual": 3.0903545997380104e-15,
+          "weighted_reciprocity_residual": 1.1635965745382328e-16,
+          "max_abs_sigma_ground": 9.247261404050689e-17
+        },
+        "1.0": {
+          "earth_ground_tracer_force_n": -226.87075308824672,
+          "atmospheric_tracer_force_n": 14.20552939198501,
+          "canonical_carrier_energy_j": 240227.21191858232,
+          "coupled_solver_relative_residual": 3.721902049899842e-15,
+          "weighted_reciprocity_residual": 1.1635965745382328e-16,
+          "max_abs_sigma_ground": 1.895357739362828e-18
+        }
+      },
+      "loaded_to_unloaded_tracer_force_ratio": 0.002053505407100027,
+      "dense_earth_coupled": true,
+      "atmosphere_coupled": true,
+      "source_current_held_fixed": true,
+      "complete_source_hardware_realized": false,
+      "whole_craft_force_n": null,
+      "earth_reaction_stress_derived": false,
+      "field_momentum_ledger_closed": false,
+      "full_halfspace_solved": false,
+      "finite_box_convergence_certified": false,
+      "interface_convergence_certified": false,
+      "total_operating_energy_j": null,
+      "gravity_cancellation": null,
+      "pure_field_lift": null,
+      "006d_replaced": false
+    }
+  },
+  "exact_r3b_source_recovered": false,
+  "10cm_b7_shell_resolved": false,
+  "full_earth_halfspace_solved": false,
+  "field_momentum_source_stress_ledger_derived": false,
+  "loaded_force_grid_convergence_certified": false,
+  "complete_operating_energy_below_10mj_certified": false,
+  "whole_craft_force_n": null,
+  "gravity_cancellation": null,
+  "propellantless_lift": null,
+  "006d_replaced": false,
+  "warning": "Approximate R3B-aligned compact source only; no physically certified thrust"
+}

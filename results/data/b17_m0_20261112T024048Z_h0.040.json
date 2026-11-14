@@ -1,0 +1,350 @@
+{
+  "branch": "032H17A12D1R3X3B17-M0",
+  "classification": "CONDITIONAL_PRELOADED_EARTH_SIDE_AND_LOCAL_PORTAL_NO_GO",
+  "r3b_grid_m": 0.04,
+  "r3b_reconstructed_preloaded_energy_j": 1.5151217834342905,
+  "r3b_fitted_exterior_rms": 0.009685419994369907,
+  "fully_confined_local_portal": {
+    "exterior_both_carriers_zero": true,
+    "direct_local_P_and_gradient_zero_proven": true,
+    "direct_local_portal_transmits": false,
+    "independent_gravity_or_mediator_channel_evaluated": false,
+    "actual_exterior_carrier_source_realized": false
+  },
+  "exterior_carriers_allowed": {
+    "exterior_both_carriers_zero": false,
+    "direct_local_P_and_gradient_zero_proven": false,
+    "direct_local_portal_transmits": null,
+    "independent_gravity_or_mediator_channel_evaluated": false,
+    "actual_exterior_carrier_source_realized": false
+  },
+  "tracer_rows": [
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_earth_gap_m": 1.0,
+      "source_center_to_earth_m": 3.0,
+      "earth_radial_m": 0.0,
+      "earth_surface_preloaded_az_m_s2": -26.633320245048147,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.8737431456308224e-06
+    },
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_earth_gap_m": 1.0,
+      "source_center_to_earth_m": 3.0,
+      "earth_radial_m": 0.5,
+      "earth_surface_preloaded_az_m_s2": -23.213359825148007,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.475059899355485e-06
+    },
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_earth_gap_m": 1.0,
+      "source_center_to_earth_m": 3.0,
+      "earth_radial_m": 1.0,
+      "earth_surface_preloaded_az_m_s2": -15.709502232941485,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 3.488651170580891e-06
+    },
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_earth_gap_m": 1.0,
+      "source_center_to_earth_m": 3.0,
+      "earth_radial_m": 2.0,
+      "earth_surface_preloaded_az_m_s2": -4.228705504114549,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 1.3059425807186659e-06
+    },
+    {
+      "hull_bottom_clearance_m": 0.0,
+      "source_to_earth_gap_m": 1.0,
+      "source_center_to_earth_m": 3.0,
+      "earth_radial_m": 3.0,
+      "earth_surface_preloaded_az_m_s2": -0.8308031293546873,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 8.652048147517317e-08
+    },
+    {
+      "hull_bottom_clearance_m": 0.1,
+      "source_to_earth_gap_m": 1.1,
+      "source_center_to_earth_m": 3.1,
+      "earth_radial_m": 0.0,
+      "earth_surface_preloaded_az_m_s2": -21.166633689076246,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.562225910649991e-06
+    },
+    {
+      "hull_bottom_clearance_m": 0.1,
+      "source_to_earth_gap_m": 1.1,
+      "source_center_to_earth_m": 3.1,
+      "earth_radial_m": 0.5,
+      "earth_surface_preloaded_az_m_s2": -18.609580938585555,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.212865530656156e-06
+    },
+    {
+      "hull_bottom_clearance_m": 0.1,
+      "source_to_earth_gap_m": 1.1,
+      "source_center_to_earth_m": 3.1,
+      "earth_radial_m": 1.0,
+      "earth_surface_preloaded_az_m_s2": -12.891607041272787,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 3.3361999305290355e-06
+    },
+    {
+      "hull_bottom_clearance_m": 0.1,
+      "source_to_earth_gap_m": 1.1,
+      "source_center_to_earth_m": 3.1,
+      "earth_radial_m": 2.0,
+      "earth_surface_preloaded_az_m_s2": -3.709930358930871,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 1.3327191621040567e-06
+    },
+    {
+      "hull_bottom_clearance_m": 0.1,
+      "source_to_earth_gap_m": 1.1,
+      "source_center_to_earth_m": 3.1,
+      "earth_radial_m": 3.0,
+      "earth_surface_preloaded_az_m_s2": -0.7759941120675463,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 1.5024808147689168e-07
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_earth_gap_m": 2.0,
+      "source_center_to_earth_m": 4.0,
+      "earth_radial_m": 0.0,
+      "earth_surface_preloaded_az_m_s2": -3.5514204288679436,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 2.7360058124812007e-06
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_earth_gap_m": 2.0,
+      "source_center_to_earth_m": 4.0,
+      "earth_radial_m": 0.5,
+      "earth_surface_preloaded_az_m_s2": -3.2863224015723764,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 2.6092823411887553e-06
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_earth_gap_m": 2.0,
+      "source_center_to_earth_m": 4.0,
+      "earth_radial_m": 1.0,
+      "earth_surface_preloaded_az_m_s2": -2.6222487504757988,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 2.266849619159392e-06
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_earth_gap_m": 2.0,
+      "source_center_to_earth_m": 4.0,
+      "earth_radial_m": 2.0,
+      "earth_surface_preloaded_az_m_s2": -1.1631966536270835,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 1.3083940362532938e-06
+    },
+    {
+      "hull_bottom_clearance_m": 1.0,
+      "source_to_earth_gap_m": 2.0,
+      "source_center_to_earth_m": 4.0,
+      "earth_radial_m": 3.0,
+      "earth_surface_preloaded_az_m_s2": -0.38110060723408695,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 5.052751814163273e-07
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_earth_gap_m": 6.0,
+      "source_center_to_earth_m": 8.0,
+      "earth_radial_m": 0.0,
+      "earth_surface_preloaded_az_m_s2": -0.02773200180956986,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 6.836431662907807e-07
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_earth_gap_m": 6.0,
+      "source_center_to_earth_m": 8.0,
+      "earth_radial_m": 0.5,
+      "earth_surface_preloaded_az_m_s2": -0.027196606169979327,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 6.755886580021107e-07
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_earth_gap_m": 6.0,
+      "source_center_to_earth_m": 8.0,
+      "earth_radial_m": 1.0,
+      "earth_surface_preloaded_az_m_s2": -0.025663241349648126,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 6.520563791957256e-07
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_earth_gap_m": 6.0,
+      "source_center_to_earth_m": 8.0,
+      "earth_radial_m": 2.0,
+      "earth_surface_preloaded_az_m_s2": -0.020479830549347645,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 5.666152707275612e-07
+    },
+    {
+      "hull_bottom_clearance_m": 5.0,
+      "source_to_earth_gap_m": 6.0,
+      "source_center_to_earth_m": 8.0,
+      "earth_radial_m": 3.0,
+      "earth_surface_preloaded_az_m_s2": -0.014363061472290887,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.500188466320525e-07
+    },
+    {
+      "hull_bottom_clearance_m": 10.0,
+      "source_to_earth_gap_m": 11.0,
+      "source_center_to_earth_m": 13.0,
+      "earth_radial_m": 0.0,
+      "earth_surface_preloaded_az_m_s2": -0.0009267833111176001,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 2.5888136868281807e-07
+    },
+    {
+      "hull_bottom_clearance_m": 10.0,
+      "source_to_earth_gap_m": 11.0,
+      "source_center_to_earth_m": 13.0,
+      "earth_radial_m": 0.5,
+      "earth_surface_preloaded_az_m_s2": -0.0009199585362301131,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 2.5772346198021036e-07
+    },
+    {
+      "hull_bottom_clearance_m": 10.0,
+      "source_to_earth_gap_m": 11.0,
+      "source_center_to_earth_m": 13.0,
+      "earth_radial_m": 1.0,
+      "earth_surface_preloaded_az_m_s2": -0.0008998430651320068,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 2.542763799351962e-07
+    },
+    {
+      "hull_bottom_clearance_m": 10.0,
+      "source_to_earth_gap_m": 11.0,
+      "source_center_to_earth_m": 13.0,
+      "earth_radial_m": 2.0,
+      "earth_surface_preloaded_az_m_s2": -0.0008244795141104146,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 2.4100605298447843e-07
+    },
+    {
+      "hull_bottom_clearance_m": 10.0,
+      "source_to_earth_gap_m": 11.0,
+      "source_center_to_earth_m": 13.0,
+      "earth_radial_m": 3.0,
+      "earth_surface_preloaded_az_m_s2": -0.0007150046230254859,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 2.2056354111580607e-07
+    },
+    {
+      "hull_bottom_clearance_m": 30.0,
+      "source_to_earth_gap_m": 31.0,
+      "source_center_to_earth_m": 33.0,
+      "earth_radial_m": 0.0,
+      "earth_surface_preloaded_az_m_s2": -1.3644900316142801e-06,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.017353987264825e-08
+    },
+    {
+      "hull_bottom_clearance_m": 30.0,
+      "source_to_earth_gap_m": 31.0,
+      "source_center_to_earth_m": 33.0,
+      "earth_radial_m": 0.5,
+      "earth_surface_preloaded_az_m_s2": -1.3629248845999843e-06,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.0146654351296033e-08
+    },
+    {
+      "hull_bottom_clearance_m": 30.0,
+      "source_to_earth_gap_m": 31.0,
+      "source_center_to_earth_m": 33.0,
+      "earth_radial_m": 1.0,
+      "earth_surface_preloaded_az_m_s2": -1.3582423530451193e-06,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.0063222479580794e-08
+    },
+    {
+      "hull_bottom_clearance_m": 30.0,
+      "source_to_earth_gap_m": 31.0,
+      "source_center_to_earth_m": 33.0,
+      "earth_radial_m": 2.0,
+      "earth_surface_preloaded_az_m_s2": -1.3397042207071282e-06,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 3.9728694350328115e-08
+    },
+    {
+      "hull_bottom_clearance_m": 30.0,
+      "source_to_earth_gap_m": 31.0,
+      "source_center_to_earth_m": 33.0,
+      "earth_radial_m": 3.0,
+      "earth_surface_preloaded_az_m_s2": -1.3094773685221147e-06,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 3.918351963981572e-08
+    },
+    {
+      "hull_bottom_clearance_m": 100.0,
+      "source_to_earth_gap_m": 101.0,
+      "source_center_to_earth_m": 103.0,
+      "earth_radial_m": 0.0,
+      "earth_surface_preloaded_az_m_s2": -4.728301934161746e-10,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.123999381636377e-09
+    },
+    {
+      "hull_bottom_clearance_m": 100.0,
+      "source_to_earth_gap_m": 101.0,
+      "source_center_to_earth_m": 103.0,
+      "earth_radial_m": 0.5,
+      "earth_surface_preloaded_az_m_s2": -4.727744863553204e-10,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.1257946925085394e-09
+    },
+    {
+      "hull_bottom_clearance_m": 100.0,
+      "source_to_earth_gap_m": 101.0,
+      "source_center_to_earth_m": 103.0,
+      "earth_radial_m": 1.0,
+      "earth_surface_preloaded_az_m_s2": -4.726074124272004e-10,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.130746064353941e-09
+    },
+    {
+      "hull_bottom_clearance_m": 100.0,
+      "source_to_earth_gap_m": 101.0,
+      "source_center_to_earth_m": 103.0,
+      "earth_radial_m": 2.0,
+      "earth_surface_preloaded_az_m_s2": -4.719398248190607e-10,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.116039653823683e-09
+    },
+    {
+      "hull_bottom_clearance_m": 100.0,
+      "source_to_earth_gap_m": 101.0,
+      "source_center_to_earth_m": 103.0,
+      "earth_radial_m": 3.0,
+      "earth_surface_preloaded_az_m_s2": -4.708296916824178e-10,
+      "direction": "EARTH_DOWN",
+      "finite_difference_relative_change": 4.108652521205727e-09
+    }
+  ],
+  "source_location": "ALL_ONBOARD_CRAFT",
+  "earth_location": "EXTERNAL_GROUND_BELOW_SOURCE",
+  "matter_backreaction_solved": false,
+  "hull_interface_solved": false,
+  "physical_microscopic_source_solved": false,
+  "whole_craft_force_n": null,
+  "earth_reaction_impulse_ns": null,
+  "auxiliary_thrust_reduction_n": null,
+  "field_only_hover_established": false,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false,
+  "claim_limit": "Preloaded tracer sign, NOT a sourced/loaded craft-Earth force or device"
+}

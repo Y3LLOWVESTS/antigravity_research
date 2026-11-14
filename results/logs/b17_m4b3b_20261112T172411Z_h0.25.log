@@ -1,0 +1,72 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B3B",
+  "grid_m": 0.25,
+  "source_charge_neutrality": 1.643725670309181e-16,
+  "source_outside_support_count": 0,
+  "unloaded_exterior_electric_l2_error": 0.06724571107758452,
+  "multipole_moments": [
+    {
+      "ell": 1,
+      "ratio": 0.9456066353386351,
+      "relative_error": 0.05439336466136491
+    },
+    {
+      "ell": 2,
+      "ratio": 0.3740521413698193,
+      "relative_error": 0.6259478586301808
+    },
+    {
+      "ell": 3,
+      "ratio": -1.0229161184577764,
+      "relative_error": 2.0229161184577764
+    },
+    {
+      "ell": 4,
+      "ratio": 1.1277913540741726,
+      "relative_error": 0.12779135407417264
+    },
+    {
+      "ell": 5,
+      "ratio": -6.119141968037022,
+      "relative_error": 7.119141968037022
+    },
+    {
+      "ell": 6,
+      "ratio": 0.6984579932514456,
+      "relative_error": 0.30154200674855436
+    },
+    {
+      "ell": 7,
+      "ratio": -3.965428461106272,
+      "relative_error": 4.9654284611062725
+    },
+    {
+      "ell": 8,
+      "ratio": 0.8975949202875503,
+      "relative_error": 0.10240507971244972
+    },
+    {
+      "ell": 9,
+      "ratio": -5.251450935525707,
+      "relative_error": 6.251450935525707
+    },
+    {
+      "ell": 10,
+      "ratio": 0.7915441300579767,
+      "relative_error": 0.20845586994202325
+    },
+    {
+      "ell": 11,
+      "ratio": 1.741902121542946,
+      "relative_error": 0.741902121542946
+    },
+    {
+      "ell": 12,
+      "ratio": 0.5516358148203288,
+      "relative_error": 0.44836418517967125
+    }
+  ],
+  "loaded_earth_solver_executed": false,
+  "whole_craft_force_n": null,
+  "006d_replaced": false
+}

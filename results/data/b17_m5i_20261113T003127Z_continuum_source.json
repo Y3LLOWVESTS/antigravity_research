@@ -1,0 +1,380 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R4-M5I",
+  "status": "ANALYTIC_STATIONARY_SOURCE_PREFLIGHT_ONLY",
+  "continuum_spec": {
+    "radial_center_m": 1.15,
+    "radial_halfwidth_m": 0.42,
+    "axial_halfwidth_m": 0.5,
+    "density_amplitude": 1.0,
+    "azimuthal_current_amplitude": 1.0
+  },
+  "source_radial_max_m": 1.5699999999999998,
+  "conservative_bounding_spherical_radius_m": 1.6476953601925326,
+  "reference_high_order_cylindrical_integrals": {
+    "net_charge_integral": -2.3653396344546044e-19,
+    "electric_dipole_z_integral": 0.028375112653132972,
+    "magnetic_dipole_z_integral": 0.46119180925630004
+  },
+  "crossgrid_matching": {
+    "electric_dipole_z_integral": {
+      "relative_crossgrid_difference": 6.569948504329032e-06,
+      "reference_value": 0.028375112653132972,
+      "h0.25_sub4": 0.028375345395991274,
+      "h0.2_sub4": 0.02837515897143323
+    },
+    "magnetic_dipole_z_integral": {
+      "relative_crossgrid_difference": 2.346108453761548e-06,
+      "reference_value": 0.46119180925630004,
+      "h0.25_sub4": 0.4611928022419783,
+      "h0.2_sub4": 0.46119172023364613
+    }
+  },
+  "deposits": {
+    "h0.25_sub1": {
+      "grid_m": 0.25,
+      "subcells_per_axis": 1,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        12,
+        24
+      ],
+      "net_charge_integral": 0.0,
+      "absolute_charge_integral": 0.20453735728748756,
+      "relative_net_charge": 0.0,
+      "electric_dipole_z_integral": 0.0281324367656299,
+      "magnetic_dipole_z_integral": 0.4576234602755663,
+      "nonzero_subcell_samples": 12,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 0.008552420230700925,
+      "magnetic_dipole_relative_error": 0.007737234072929334
+    },
+    "h0.25_sub2": {
+      "grid_m": 0.25,
+      "subcells_per_axis": 2,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        12,
+        24
+      ],
+      "net_charge_integral": 0.0,
+      "absolute_charge_integral": 0.17872945323088305,
+      "relative_net_charge": 0.0,
+      "electric_dipole_z_integral": 0.028396225526868282,
+      "magnetic_dipole_z_integral": 0.4611711733225792,
+      "nonzero_subcell_samples": 42,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 0.0007440630806792192,
+      "magnetic_dipole_relative_error": 4.474479664794172e-05
+    },
+    "h0.25_sub4": {
+      "grid_m": 0.25,
+      "subcells_per_axis": 4,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        12,
+        24
+      ],
+      "net_charge_integral": -1.0587911840678754e-22,
+      "absolute_charge_integral": 0.17395538434536867,
+      "relative_net_charge": 6.08656747275937e-22,
+      "electric_dipole_z_integral": 0.028375345395991274,
+      "magnetic_dipole_z_integral": 0.4611928022419783,
+      "nonzero_subcell_samples": 168,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 8.2023589173757e-06,
+      "magnetic_dipole_relative_error": 2.153086109313041e-06
+    },
+    "h0.2_sub1": {
+      "grid_m": 0.2,
+      "subcells_per_axis": 1,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        15,
+        30
+      ],
+      "net_charge_integral": 2.74574200181954e-17,
+      "absolute_charge_integral": 0.18974375697746199,
+      "relative_net_charge": 1.4470789687935202e-16,
+      "electric_dipole_z_integral": 0.02821844503473594,
+      "magnetic_dipole_z_integral": 0.46191417018376274,
+      "nonzero_subcell_samples": 14,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 0.005521303838056574,
+      "magnetic_dipole_relative_error": 0.0015662917531591603
+    },
+    "h0.2_sub2": {
+      "grid_m": 0.2,
+      "subcells_per_axis": 2,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        15,
+        30
+      ],
+      "net_charge_integral": 1.108732246637989e-16,
+      "absolute_charge_integral": 0.1763638562466448,
+      "relative_net_charge": 6.286618302830866e-16,
+      "electric_dipole_z_integral": 0.028378619941034855,
+      "magnetic_dipole_z_integral": 0.4611878265706872,
+      "nonzero_subcell_samples": 66,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 0.00012360436924980652,
+      "magnetic_dipole_relative_error": 8.635638215865269e-06
+    },
+    "h0.2_sub4": {
+      "grid_m": 0.2,
+      "subcells_per_axis": 4,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        15,
+        30
+      ],
+      "net_charge_integral": -4.7027269231558755e-18,
+      "absolute_charge_integral": 0.17341611454382383,
+      "relative_net_charge": 2.711816566486071e-17,
+      "electric_dipole_z_integral": 0.02837515897143323,
+      "magnetic_dipole_z_integral": 0.46119172023364613,
+      "nonzero_subcell_samples": 264,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 1.632356523970967e-06,
+      "magnetic_dipole_relative_error": 1.9302739582202986e-07
+    },
+    "h0.125_sub1": {
+      "grid_m": 0.125,
+      "subcells_per_axis": 1,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        24,
+        48
+      ],
+      "net_charge_integral": 5.204170427930421e-18,
+      "absolute_charge_integral": 0.17872945323088305,
+      "relative_net_charge": 2.91175871343805e-17,
+      "electric_dipole_z_integral": 0.02839622552686829,
+      "magnetic_dipole_z_integral": 0.4611711733225792,
+      "nonzero_subcell_samples": 42,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 0.0007440630806794638,
+      "magnetic_dipole_relative_error": 4.474479664794172e-05
+    },
+    "h0.125_sub2": {
+      "grid_m": 0.125,
+      "subcells_per_axis": 2,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        24,
+        48
+      ],
+      "net_charge_integral": 2.6020852139652106e-18,
+      "absolute_charge_integral": 0.17395538434536867,
+      "relative_net_charge": 1.495834822105343e-17,
+      "electric_dipole_z_integral": 0.02837534539599127,
+      "magnetic_dipole_z_integral": 0.4611928022419781,
+      "nonzero_subcell_samples": 168,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 8.202358917253428e-06,
+      "magnetic_dipole_relative_error": 2.1530861089519475e-06
+    },
+    "h0.125_sub4": {
+      "grid_m": 0.125,
+      "subcells_per_axis": 4,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        24,
+        48
+      ],
+      "net_charge_integral": -8.669382215147764e-19,
+      "absolute_charge_integral": 0.17283902080905314,
+      "relative_net_charge": 5.015870938499132e-18,
+      "electric_dipole_z_integral": 0.028375115227218105,
+      "magnetic_dipole_z_integral": 0.4611918155897411,
+      "nonzero_subcell_samples": 676,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 9.071629649586177e-08,
+      "magnetic_dipole_relative_error": 1.3732770015152201e-08
+    },
+    "h0.1_sub1": {
+      "grid_m": 0.1,
+      "subcells_per_axis": 1,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        30,
+        60
+      ],
+      "net_charge_integral": 1.0364965489772032e-16,
+      "absolute_charge_integral": 0.1763638562466448,
+      "relative_net_charge": 5.877034960766922e-16,
+      "electric_dipole_z_integral": 0.028378619941034855,
+      "magnetic_dipole_z_integral": 0.4611878265706872,
+      "nonzero_subcell_samples": 66,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 0.00012360436924980652,
+      "magnetic_dipole_relative_error": 8.635638215865269e-06
+    },
+    "h0.1_sub2": {
+      "grid_m": 0.1,
+      "subcells_per_axis": 2,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        30,
+        60
+      ],
+      "net_charge_integral": -1.1489039706163673e-18,
+      "absolute_charge_integral": 0.17341611454382383,
+      "relative_net_charge": 6.625128083618947e-18,
+      "electric_dipole_z_integral": 0.028375158971433227,
+      "magnetic_dipole_z_integral": 0.4611917202336462,
+      "nonzero_subcell_samples": 264,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 1.6323565238486963e-06,
+      "magnetic_dipole_relative_error": 1.9302739570166531e-07
+    },
+    "h0.1_sub4": {
+      "grid_m": 0.1,
+      "subcells_per_axis": 4,
+      "source_definition": {
+        "radial_center_m": 1.15,
+        "radial_halfwidth_m": 0.42,
+        "axial_halfwidth_m": 0.5,
+        "density_amplitude": 1.0,
+        "azimuthal_current_amplitude": 1.0
+      },
+      "coarse_cell_shape": [
+        30,
+        60
+      ],
+      "net_charge_integral": 2.5398448359542706e-18,
+      "absolute_charge_integral": 0.17270682530007755,
+      "relative_net_charge": 1.4706105746204868e-17,
+      "electric_dipole_z_integral": 0.028375113062956904,
+      "magnetic_dipole_z_integral": 0.461191808861973,
+      "nonzero_subcell_samples": 1060,
+      "azimuthal_current_is_divergence_free_by_symmetry": true,
+      "source_continuity_exact_analytically": true,
+      "dynamical_source_sector_Ward_certified": false,
+      "electric_dipole_relative_error": 1.4443076816821557e-08,
+      "magnetic_dipole_relative_error": 8.550175069933407e-10
+    }
+  },
+  "m5h_provenance_context": {
+    "historical_original_source_reused": false,
+    "historical_raw_precompensation_by_grid": {
+      "original_h025": 2.405613486189395e-10,
+      "original_h020": 164587.65429166373
+    },
+    "historical_current_weighted_norm_comparison_not_physical": {
+      "j_phi": {
+        "h0.25_h3weighted_l1": 185137.1276100875,
+        "h0.2_h3weighted_l1": 188147.0597215929
+      },
+      "j_a": {
+        "h0.25_h3weighted_l1": 504473.8391461502,
+        "h0.2_h3weighted_l1": 502308.1603627675
+      }
+    }
+  },
+  "diagnostic_gates": {
+    "analytical_net_charge_zero": true,
+    "all_deposits_net_neutral_within_1e_minus_12": true,
+    "common_source_moments_both_coarse_grids_within_1e_minus_4": true,
+    "coarse_mesh_source_moments_crossgrid_within_1e_minus_4": true,
+    "compact_support_inside_nominal_2m_sphere": true,
+    "stationary_axisymmetric_source_continuity_analytic": true
+  },
+  "same_action_field_solver_replaced_with_matched_source": false,
+  "same_action_electromagnetic_matter_energy_certified": false,
+  "loaded_payload_response_tested": false,
+  "gravity_metric_and_exterior_transmission_derived": false,
+  "Earth_craft_reaction_derived": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "original_1g_at_1m_benchmark_reproduced_by_new_source": false,
+  "006d_replaced": false
+}

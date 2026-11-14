@@ -1,0 +1,17 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B1",
+  "grid_m": 0.2,
+  "original_r3b_1p542916j_preserved": true,
+  "approximate_source_energy_unloaded_j": 1.4411017868146412,
+  "r3b_frozen_earth_tracer_recovery_ratio": 0.9979625744233332,
+  "electric_exterior_l2_error": 0.02432137644919802,
+  "magnetic_exterior_l2_error": 0.013426318402545321,
+  "electric_net_charge_residual": 9.185759693672247e-18,
+  "loaded_1kev_air_ground_tracer_n": -0.0012318990294871953,
+  "loaded_1kev_to_unloaded_ratio": 9.837073339144307e-09,
+  "loaded_21kev_air_ground_tracer_n": -89.92803449961707,
+  "loaded_21kev_to_unloaded_ratio": 0.0007181016052801657,
+  "loaded_21kev_carrier_energy_j": 284198.35277178074,
+  "whole_craft_force_n": null,
+  "warning": "Approximate R3B-aligned compact source only; no physically certified thrust"
+}

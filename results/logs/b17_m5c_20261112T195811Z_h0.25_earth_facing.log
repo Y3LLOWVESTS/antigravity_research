@@ -1,0 +1,90 @@
+{
+  "branch": "032H17A12D1R3X3B17-M5C",
+  "grid_m": 0.25,
+  "shape_bias": 0.5,
+  "source_max_radius_m": 1.8027756377319946,
+  "source_transport": {
+    "minus": [
+      0.0,
+      0.0
+    ],
+    "plus": [
+      0.0,
+      0.0
+    ]
+  },
+  "earth_present_material_transport": {
+    "plus_inner_relative_linf": 0.0,
+    "minus_inner_relative_linf": 0.0
+  },
+  "earth_absent_material_transport": {
+    "plus_inner_relative_linf": 0.0,
+    "minus_inner_relative_linf": 0.0
+  },
+  "common_mode_controls": {
+    "both_positive": {
+      "common_shift_earth_present_slope_j_per_m": -4.322948048778926,
+      "common_shift_earth_free_slope_j_per_m": -0.7714372916598222,
+      "common_shift_interaction_slope_j_per_m": -3.551510757119104,
+      "center_interaction_action_j": -968.6523808681559,
+      "plus_interaction_action_j": -969.4542486961836,
+      "minus_interaction_action_j": -967.6784933176241
+    },
+    "magnetic_reversed": {
+      "common_shift_earth_present_slope_j_per_m": -4.263312256967765,
+      "common_shift_earth_free_slope_j_per_m": 0.44319656070001656,
+      "common_shift_interaction_slope_j_per_m": -4.706508817667782,
+      "center_interaction_action_j": -838.6153890848545,
+      "plus_interaction_action_j": -839.6902262200274,
+      "minus_interaction_action_j": -837.3369718111935
+    },
+    "electric_only": {
+      "common_shift_earth_present_slope_j_per_m": -5.746925472471048,
+      "common_shift_earth_free_slope_j_per_m": -4.971988576486183,
+      "common_shift_interaction_slope_j_per_m": -0.7749368959848653,
+      "center_interaction_action_j": 488.48695450820014,
+      "plus_interaction_action_j": 488.3144273699181,
+      "minus_interaction_action_j": 488.70189581791055
+    },
+    "magnetic_only": {
+      "common_shift_earth_present_slope_j_per_m": 1.4537953195977025,
+      "common_shift_earth_free_slope_j_per_m": 4.80786821100628,
+      "common_shift_interaction_slope_j_per_m": -3.3540728914085776,
+      "center_interaction_action_j": -1392.1208394847054,
+      "plus_interaction_action_j": -1392.8866648280236,
+      "minus_interaction_action_j": -1391.2096283823194
+    }
+  },
+  "m5b_reference_comparison": {
+    "m5b_subcell_paired_defect_matrix_j_per_m": [
+      [
+        -592.6008666938287,
+        240.55605103058042
+      ],
+      [
+        240.55605103058042,
+        1874.1526333178626
+      ]
+    ],
+    "full_cell_common_slope_matrix_j_per_m": [
+      [
+        -0.7749368959848653,
+        0.2887495151371695
+      ],
+      [
+        0.2887495151371695,
+        -3.3540728914085776
+      ]
+    ],
+    "relative_frobenius_difference": 1.0014298376047455,
+    "m5b_whitened_defect_eigenvalues_per_norm": [
+      -0.027928958146076918,
+      0.013736384681988819
+    ],
+    "m5b_defect_matrix_zero_operator": false,
+    "source_ratio_cancellation_is_noether_proof": false,
+    "comparison_uses_different_displacement_steps": true
+  },
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

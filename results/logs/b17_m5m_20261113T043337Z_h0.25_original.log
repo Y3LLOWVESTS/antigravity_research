@@ -1,0 +1,37 @@
+{
+  "grid_m": 0.25,
+  "reverse_magnetic": false,
+  "center_action_j": -7.74356675721765,
+  "center_reproduction_error_j": 9.094947017729282e-13,
+  "translation_derivatives": {
+    "0.002": {
+      "earth_only_reduced_action_derivative_j_per_m": -1.8407128909530002,
+      "craft_only_reduced_action_derivative_j_per_m": 11.195637276273374,
+      "common_shift_reduced_action_derivative_j_per_m": 9.35489939774925,
+      "common_minus_sum_reduced_j_per_m": -2.4987571123347152e-05
+    },
+    "0.001": {
+      "earth_only_reduced_action_derivative_j_per_m": -1.8335354418468341,
+      "craft_only_reduced_action_derivative_j_per_m": 11.195638674280417,
+      "common_shift_reduced_action_derivative_j_per_m": 9.362097214307141,
+      "common_minus_sum_reduced_j_per_m": -6.018126441631466e-06
+    }
+  },
+  "step_size_disagreements": {
+    "earth_only_reduced_action_derivative_j_per_m": 0.007177449106166023,
+    "craft_only_reduced_action_derivative_j_per_m": 1.3980070434627123e-06,
+    "common_shift_reduced_action_derivative_j_per_m": 0.007197816557891201
+  },
+  "max_raw_charge_residual": 1.2957339867151603e-07,
+  "max_projected_charge_residual": 7.981655894156224e-17,
+  "max_projection_coefficient": 2.835611992433418e-08,
+  "diagnostic_gates": {
+    "action_unit_conversion_matches_M5K_below_1e_minus_8_j": true,
+    "zero_shift_source_matches_M5K_below_1e_minus_10": true,
+    "center_action_matches_M5K_within_1e_minus_5_j": true,
+    "projected_charge_below_1e_minus_12": true,
+    "mesh_correction_coefficient_below_1e_minus_4": true,
+    "variational_residual_below_1e_minus_8": true,
+    "matrix_asymmetry_below_1e_minus_9": true
+  }
+}

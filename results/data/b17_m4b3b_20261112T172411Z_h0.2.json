@@ -1,0 +1,116 @@
+{
+  "branch": "032H17A12D1R3X3B17-M4B3B",
+  "h_m": 0.2,
+  "original_r3b_unloaded_field_energy_j": 1.5429162116460216,
+  "original_b7_unloaded_field_energy_j": 1.5473042949759672,
+  "normalization_provenance_relative_error": 1.3572012593596117e-16,
+  "source": {
+    "net_charge_relative_residual": 3.5336534319399374e-16,
+    "input_quadrature_neutrality": 2.0570081108381877e-17,
+    "source_outside_support_count": 0,
+    "radial_order": 48,
+    "angular_order": 96,
+    "max_transfer_stencil_spread_m": 0.281912578998615,
+    "truncated_stencil_sample_count": 3926,
+    "moment_rows": [
+      {
+        "ell": 1,
+        "analytic_volume_multipole": -7005320.047557105,
+        "deposited_volume_multipole": -6796876.8031118,
+        "moment_ratio": 0.9702450076470106,
+        "relative_moment_error": 0.029754992352989396
+      },
+      {
+        "ell": 2,
+        "analytic_volume_multipole": 3.111254435521932,
+        "deposited_volume_multipole": 1.6642791624180973,
+        "moment_ratio": 0.5349222305371834,
+        "relative_moment_error": 0.46507776946281665
+      },
+      {
+        "ell": 3,
+        "analytic_volume_multipole": -101064.175823515,
+        "deposited_volume_multipole": 289589.17894676933,
+        "moment_ratio": -2.865398907051587,
+        "relative_moment_error": 3.865398907051587
+      },
+      {
+        "ell": 4,
+        "analytic_volume_multipole": 17.180728158735384,
+        "deposited_volume_multipole": 15.659173927269876,
+        "moment_ratio": 0.9114383152211225,
+        "relative_moment_error": 0.08856168477887749
+      },
+      {
+        "ell": 5,
+        "analytic_volume_multipole": -284402.5121379439,
+        "deposited_volume_multipole": 3898849.4421664746,
+        "moment_ratio": -13.708913514362397,
+        "relative_moment_error": 14.708913514362397
+      },
+      {
+        "ell": 6,
+        "analytic_volume_multipole": 97.65812871027616,
+        "deposited_volume_multipole": 56.02185545861721,
+        "moment_ratio": 0.5736527639682518,
+        "relative_moment_error": 0.4263472360317482
+      },
+      {
+        "ell": 7,
+        "analytic_volume_multipole": 525236.0666582799,
+        "deposited_volume_multipole": 863077.8756819293,
+        "moment_ratio": 1.643218983747836,
+        "relative_moment_error": 0.6432189837478359
+      },
+      {
+        "ell": 8,
+        "analytic_volume_multipole": 585.3217535505943,
+        "deposited_volume_multipole": 461.512227229774,
+        "moment_ratio": 0.7884761234828797,
+        "relative_moment_error": 0.21152387651712035
+      },
+      {
+        "ell": 9,
+        "analytic_volume_multipole": 6763785.483607109,
+        "deposited_volume_multipole": 15983435.493510813,
+        "moment_ratio": 2.3630902446934035,
+        "relative_moment_error": 1.3630902446934035
+      },
+      {
+        "ell": 10,
+        "analytic_volume_multipole": 3394.316500676068,
+        "deposited_volume_multipole": 2722.3385166339576,
+        "moment_ratio": 0.8020284838175026,
+        "relative_moment_error": 0.19797151618249742
+      },
+      {
+        "ell": 11,
+        "analytic_volume_multipole": 23213324.56422513,
+        "deposited_volume_multipole": 15221043.546261102,
+        "moment_ratio": 0.6557028703126302,
+        "relative_moment_error": 0.3442971296873698
+      },
+      {
+        "ell": 12,
+        "analytic_volume_multipole": 20168.679030234827,
+        "deposited_volume_multipole": 13171.468100190163,
+        "moment_ratio": 0.65306548239698,
+        "relative_moment_error": 0.34693451760301997
+      }
+    ],
+    "higher_multipole_fidelity_certified": false,
+    "local_source_density_convergence_certified": false,
+    "loaded_earth_reaction_certified": false,
+    "whole_craft_force_n": null,
+    "complete_operating_energy_j": null
+  },
+  "unloaded_electric_exterior_relative_l2_error": 0.05492211393160739,
+  "source_is_analytic_b7_radial_profile": true,
+  "deposition_reconstructs_exact_B7_continuum_source": false,
+  "loaded_earth_solver_executed": false,
+  "outer_boundary_artifact_excluded": false,
+  "grid_convergence_certified": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false
+}

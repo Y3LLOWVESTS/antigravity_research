@@ -1,0 +1,40 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1R4-M5I",
+  "continuum_spec": {
+    "radial_center_m": 1.15,
+    "radial_halfwidth_m": 0.42,
+    "axial_halfwidth_m": 0.5,
+    "density_amplitude": 1.0,
+    "azimuthal_current_amplitude": 1.0
+  },
+  "reference": {
+    "net_charge_integral": -2.3653396344546044e-19,
+    "electric_dipole_z_integral": 0.028375112653132972,
+    "magnetic_dipole_z_integral": 0.46119180925630004
+  },
+  "crossgrid_matching": {
+    "electric_dipole_z_integral": {
+      "relative_crossgrid_difference": 6.569948504329032e-06,
+      "reference_value": 0.028375112653132972,
+      "h0.25_sub4": 0.028375345395991274,
+      "h0.2_sub4": 0.02837515897143323
+    },
+    "magnetic_dipole_z_integral": {
+      "relative_crossgrid_difference": 2.346108453761548e-06,
+      "reference_value": 0.46119180925630004,
+      "h0.25_sub4": 0.4611928022419783,
+      "h0.2_sub4": 0.46119172023364613
+    }
+  },
+  "diagnostic_gates": {
+    "analytical_net_charge_zero": true,
+    "all_deposits_net_neutral_within_1e_minus_12": true,
+    "common_source_moments_both_coarse_grids_within_1e_minus_4": true,
+    "coarse_mesh_source_moments_crossgrid_within_1e_minus_4": true,
+    "compact_support_inside_nominal_2m_sphere": true,
+    "stationary_axisymmetric_source_continuity_analytic": true
+  },
+  "same_action_field_solver_replaced_with_matched_source": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null
+}

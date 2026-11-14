@@ -1,0 +1,726 @@
+ALPHA-1R5/M5J SOURCE-TO-SOLVER CONTRACT
+Read-only extraction from the live research implementation.
+These functions are evidence for constructing a compatible
+source adapter, not a physical certification.
+
+==============================================================================
+hook17_r3b_m4b1_source_recovery.assemble_original_aligned_source
+==============================================================================
+def assemble_original_aligned_source(h):
+    """Recover a compact source approximating the original R3B mirror.
+
+    The electric source uses one fixed dipolar radial profile,
+    not a source-basis optimization or exact B7 synthesis.
+    """
+
+    if not isinstance(h, (int, float)) or not 0.15 <= h <= 0.3:
+        raise ValueError("M4B1 uses 0.15m through 0.30m grids")
+
+    field = _a12c_potential_field(float(h))
+    h = field["h"]
+    rho = field["rho_grid"]
+    z = field["z_grid"]
+    radius = np.hypot(rho, z)
+
+    fit = fit_exterior_multipoles(
+        field, PRIMARY_FIT_RADIUS_M, PRIMARY_LMAX
+    )
+
+    phi_reference = _construct_global_mirror_phi(field, fit)
+    a_reference = field["a_phi"] / math.sqrt(2.0)
+
+    target_gate = _state_diagnostics(
+        phi_reference,
+        a_reference,
+        field,
+        np.zeros_like(rho),
+    )
+
+    minimum = float(
+        target_gate["minimum_payload_acceleration_m_s2"]
+    )
+    if minimum <= 0:
+        raise ArithmeticError("R3B target outward sign failed")
+
+    factor = math.sqrt(TARGET_ACCELERATION_M_S2 / minimum)
+    phi_reference *= factor
+    a_reference *= factor
+
+    target_fields = _fields_from_potentials(
+        phi_reference, a_reference, rho, h
+    )
+
+    operators = _build_elliptic_operators(
+        field["rhos"], field["zs"], h
+    )
+
+    # Original A12C magnetic shape, with onboard current support.
+    magnetic_mask = (
+        radius[1:-1, 1:-1] <= SOURCE_RADIUS_M
+    ).ravel()
+
+    j_a = (
+        operators["k_a"]
+        @ a_reference[1:-1, 1:-1].ravel()
+    ) * magnetic_mask
+
+    a_recovered = np.zeros_like(rho)
+    a_recovered[1:-1, 1:-1] = spsolve(
+        operators["k_a"], j_a
+    ).reshape(a_recovered[1:-1, 1:-1].shape)
+
+    # Finite-width net-neutral electric dipolar charge.
+    rr = radius[1:-1, :-1]
+    zz = z[1:-1, :-1]
+
+    shell = (rr >= 1.1) & (rr <= SOURCE_RADIUS_M)
+    radial = np.exp(-((rr - 1.62) / 0.28)**2) * shell
+
+    j_phi = (
+        zz / np.maximum(rr, 1e-9) * radial
+    ).ravel()
+
+    nz = operators["nz_inner"]
+    weights = np.tile(
+        np.r_[h / 8.0, field["rhos"][1:-1]],
+        nz,
+    )
+
+    monopole = float(weights @ j_phi)
+    correction = radial.ravel()
+
+    j_phi -= (
+        monopole / float(weights @ correction)
+    ) * correction
+
+    phi_unit = np.zeros_like(rho)
+    phi_unit[1:-1, :-1] = spsolve(
+        operators["k_phi"], j_phi
+    ).reshape(phi_unit[1:-1, :-1].shape)
+
+    electric_unit = _fields_from_potentials(
+        phi_unit, np.zeros_like(rho), rho, h
+    )
+
+    axis_row = int(
+        np.argmin(abs(field["zs"] + 3.0))
+    )
+
+    unit_e = float(electric_unit["e_z"][axis_row, 0])
+    target_e = float(target_fields["e_z"][axis_row, 0])
+
+    if abs(unit_e) <= 1e-20:
+        raise ArithmeticError("Zero axial electric response")
+
+    electric_scale = target_e / unit_e
+
+    j_phi *= electric_scale
+    phi_recovered = phi_unit * electric_scale
+
+    recovered_fields = _fields_from_potentials(
+        phi_recovered, a_recovered, rho, h
+    )
+
+    outer = (
+        (radius > 2.4)
+        & (radius < 8.5)
+        & (rho < 7.0)
+    )
+
+    electric_error, magnetic_error = _relative_fields(
+        recovered_fields,
+        target_fields,
+        outer,
+    )
+
+    neutrality = (
+        abs(float(weights @ j_phi))
+        / max(float(weights @ abs(j_phi)), 1e-300)
+    )
+
+    if neutrality > 1e-10:
+        raise ArithmeticError("Source charge neutrality failed")
+
+    if np.any(j_phi[~shell.ravel()] != 0):
+        raise ArithmeticError("Electric source escaped onboard region")
+
+    if np.any(j_a[~magnetic_mask] != 0):
+        raise ArithmeticError("Magnetic source escaped onboard region")
+
+    return {
+        "field": field,
+        "operators": operators,
+        "j_phi": j_phi,
+        "j_a": j_a,
+        "phi0": phi_recovered,
+        "a0": a_recovered,
+        "target_phi": phi_reference,
+        "target_a": a_reference,
+        "target_em": target_fields,
+        "recovered_em": recovered_fields,
+        "fit_rms": float(fit["relative_rms_field_residual"]),
+        "original_mirror_target_energy_j":
+            _field_energy(target_fields, field),
+        "recovered_unloaded_energy_j":
+            _field_energy(recovered_fields, field),
+        "exterior_electric_relative_l2_error": electric_error,
+        "exterior_magnetic_relative_l2_error": magnetic_error,
+        "electric_relative_net_charge": neutrality,
+        "magnetic_outside_source_count":
+            int(np.count_nonzero(j_a[~magnetic_mask])),
+        "electric_outside_source_count":
+            int(np.count_nonzero(j_phi[~shell.ravel()])),
+        "source_electric_npoints": int(np.count_nonzero(j_phi)),
+        "source_magnetic_npoints": int(np.count_nonzero(j_a)),
+        "synthesized_source_exact_original_r3b": False,
+        "synthesized_source_exact_b7_shell": False,
+        "source_is_onboard": True,
+    }
+
+
+==============================================================================
+hook17_r3b_m5b_compact_transfer.compact_shaped_source
+==============================================================================
+def compact_shaped_source(base, bias):
+    """Apply fore/aft shaping and compact electric charge compensation.
+
+    Positive bias favors negative z (Earth-facing).
+    This intentionally changes the M4B1 source geometry: none of
+    these compact variants inherits R3B/B7's field-energy result.
+    """
+    if bias not in (-0.5, 0.0, 0.5):
+        raise ValueError("Unregistered source-shaping bias")
+
+    field = base["field"]
+    z = field["z_grid"]
+    rho = field["rho_grid"]
+
+    re = np.hypot(
+        z[1:-1, :-1],
+        rho[1:-1, :-1],
+    ).reshape(-1)
+
+    ra = np.hypot(
+        z[1:-1, 1:-1],
+        rho[1:-1, 1:-1],
+    ).reshape(-1)
+
+    ze = z[1:-1, :-1].reshape(-1)
+    za = z[1:-1, 1:-1].reshape(-1)
+
+    wp, _, _ = _weights(base)
+
+    electric = (
+        np.asarray(base["j_phi"], dtype=float)
+        * (1.0 - bias * ze/2.0)
+        * _spherical_support(re)
+    )
+
+    magnetic = (
+        np.asarray(base["j_a"], dtype=float)
+        * (1.0 - bias * za/2.0)
+        * _spherical_support(ra)
+    )
+
+    # Charge compensation is LOCAL to the spacecraft.
+    compensation = np.zeros_like(re)
+    mask = re < COMPENSATION_LIMIT_M
+
+    compensation[mask] = (
+        1.0 - (re[mask]/COMPENSATION_LIMIT_M)**2
+    )**3
+
+    norm = float(wp @ compensation)
+
+    if norm <= 0:
+        raise ArithmeticError(
+            "Missing compact electric compensator"
+        )
+
+    charge_before = float(wp @ electric)
+
+    electric -= (
+        compensation * (charge_before/norm)
+    )
+
+    neutrality = (
+        abs(float(wp @ electric))
+        / max(
+            float(wp @ np.abs(electric)),
+            1e-200,
+        )
+    )
+
+    if (
+        not np.isfinite(electric).all()
+        or not np.isfinite(magnetic).all()
+    ):
+        raise ArithmeticError(
+            "Nonfinite compact source current"
+        )
+
+    if neutrality > 1e-10:
+        raise ArithmeticError(
+            "Electric charge compensation failed"
+        )
+
+    max_r = max(
+        (
+            float(np.max(re[np.abs(electric) > 0]))
+            if np.any(electric) else 0.0
+        ),
+        (
+            float(np.max(ra[np.abs(magnetic) > 0]))
+            if np.any(magnetic) else 0.0
+        ),
+    )
+
+    if max_r > COMPACT_SUPPORT_LIMIT_M + 1e-12:
+        raise ArithmeticError(
+            "Source current escaped onboard support"
+        )
+
+    return {
+        **base,
+        "j_phi": electric,
+        "j_a": magnetic,
+    }, {
+        "net_electric_charge_relative_residual":
+            neutrality,
+        "max_nonzero_source_radius_m": max_r,
+        "compensation_source_max_radius_m":
+            float(
+                np.max(
+                    re[np.abs(compensation) > 0]
+                )
+            ),
+        "compensation_charge_before":
+            charge_before,
+        "source_tapered_relative_to_original_m4b1":
+            True,
+        "compensation_uses_spherical_radius":
+            True,
+    }
+
+
+==============================================================================
+hook17_r3b_m4b4_paired_translation.pair_action
+==============================================================================
+def pair_action(source, scale_ev, earth_z_m, craft_z_m):
+    """Subtract the matching Earth-free atmospheric background."""
+    loaded = solve_action(
+        source, scale_ev,
+        earth_z_m, craft_z_m,
+        True,
+    )
+
+    air_only = solve_action(
+        source, scale_ev,
+        earth_z_m, craft_z_m,
+        False,
+    )
+
+    return {
+        "interaction_action_j":
+            loaded["action_j"] - air_only["action_j"],
+        "loaded": loaded,
+        "air_only": air_only,
+    }
+
+
+==============================================================================
+hook17_r3b_m4b4_paired_translation.source_support_check
+==============================================================================
+def source_support_check(source, shift_m):
+    """Check support including the interpolation-induced skirt."""
+    field = source["field"]
+
+    moved = shifted_source(
+        source,
+        1000.0,
+        shift_m,
+    )
+
+    z = np.asarray(field["zs"])[1:-1, None]
+    phi_r = np.asarray(field["rhos"])[None, :-1]
+    a_r = np.asarray(field["rhos"])[None, 1:-1]
+
+    jp = moved["j_phi"].reshape(
+        len(z),
+        len(phi_r[0]),
+    )
+    ja = moved["j_a"].reshape(
+        len(z),
+        len(a_r[0]),
+    )
+
+    radius_phi = np.hypot(z, phi_r)
+    radius_a = np.hypot(z, a_r)
+
+    max_radius = max(
+        (
+            float(np.max(radius_phi[np.abs(jp) > 0]))
+            if np.any(jp) else 0.0
+        ),
+        (
+            float(np.max(radius_a[np.abs(ja) > 0]))
+            if np.any(ja) else 0.0
+        ),
+    )
+
+    enclosure_radius = MaterialGeometry().enclosure_radius_m
+
+    return {
+        "max_nodal_source_radius_m": max_radius,
+        "inside_nominal_2m_region":
+            max_radius <= 2.0 + 1e-12,
+        "inside_enclosure_radius":
+            max_radius <= enclosure_radius + 1e-12,
+        "translated_source_is_exact_physical_current": False,
+    }
+
+
+==============================================================================
+hook17_r3b_m5i_continuum_source.continuum_current
+==============================================================================
+def continuum_current(r, z, spec):
+    """Evaluate one continuum current at physical coordinates."""
+    _check_spec(spec)
+
+    r = np.asarray(r, dtype=float)
+    z = np.asarray(z, dtype=float)
+
+    u = (
+        (r - spec.radial_center_m)
+        / spec.radial_halfwidth_m
+    ) ** 2
+
+    v = (z / spec.axial_halfwidth_m) ** 2
+
+    bump = np.maximum(1.0 - u - v, 0.0) ** 5
+
+    rho_e = (
+        spec.density_amplitude
+        * z / spec.axial_halfwidth_m
+        * bump
+    )
+
+    j_phi = spec.azimuthal_current_amplitude * bump
+
+    return rho_e, j_phi
+
+
+==============================================================================
+hook17_r3b_m5i_continuum_source.deposit
+==============================================================================
+def deposit(spec, h, subcells=1):
+    """Integrate a common source into cylindrical grid cells.
+
+    The cylindrical volume element is 2*pi*r*dr*dz.
+    Subcells provide numerical quadrature, not new sources.
+    All grids use the same physical domain:
+        0 <= r <= 3 m, -3 m <= z <= 3 m.
+    """
+    _check_spec(spec)
+
+    if h not in (0.25, 0.2, 0.125, 0.1):
+        raise ValueError("Unregistered grid spacing")
+
+    if type(subcells) is not int or subcells not in (1, 2, 4):
+        raise ValueError("Unregistered cell quadrature")
+
+    nr = int(round(3.0 / h))
+    nz = int(round(6.0 / h))
+
+    if (
+        abs(nr * h - 3.0) > 1e-12
+        or abs(nz * h - 6.0) > 1e-12
+    ):
+        raise ArithmeticError("Inconsistent physical domain")
+
+    charge_cells = np.zeros((nr, nz), dtype=float)
+    current_cells = np.zeros_like(charge_cells)
+
+    absolute_charge = 0.0
+    electric_dipole = 0.0
+    magnetic_dipole = 0.0
+    support_count = 0
+
+    ds = h / subcells
+
+    for i in range(subcells):
+        r = (
+            np.arange(nr, dtype=float)
+            + (i + 0.5) / subcells
+        ) * h
+
+        for j in range(subcells):
+            z = -3.0 + (
+                np.arange(nz, dtype=float)
+                + (j + 0.5) / subcells
+            ) * h
+
+            rr = r[:, None]
+            zz = z[None, :]
+
+            rho_e, j_phi = continuum_current(rr, zz, spec)
+
+            dV = 2.0 * math.pi * rr * ds * ds
+
+            dq = rho_e * dV
+            dj = j_phi * dV
+
+            charge_cells += dq
+            current_cells += dj
+
+            absolute_charge += float(np.abs(dq).sum())
+
+            electric_dipole += float((zz * dq).sum())
+
+            magnetic_dipole += float(
+                (0.5 * rr * dj).sum()
+            )
+
+            support_count += int(
+                np.count_nonzero(j_phi)
+            )
+
+    net_charge = float(charge_cells.sum())
+
+    return {
+        "grid_m": h,
+        "subcells_per_axis": subcells,
+        "source_definition": asdict(spec),
+        "coarse_cell_shape": [nr, nz],
+        "net_charge_integral": net_charge,
+        "absolute_charge_integral": absolute_charge,
+        "relative_net_charge": (
+            abs(net_charge) / max(absolute_charge, 1e-30)
+        ),
+        "electric_dipole_z_integral": electric_dipole,
+        "magnetic_dipole_z_integral": magnetic_dipole,
+        "nonzero_subcell_samples": support_count,
+        "azimuthal_current_is_divergence_free_by_symmetry": True,
+        "source_continuity_exact_analytically": True,
+        "dynamical_source_sector_Ward_certified": False,
+    }
+
+
+==============================================================================
+hook17_r3b_m4b_sparse_earth_loading._solve_fixed_sources
+==============================================================================
+def _solve_fixed_sources(base, beta, fraction=1.0):
+    """Direct sparse solve of the corrected Lorentzian carrier equations."""
+    if not math.isfinite(fraction) or not 0 <= fraction <= 1:
+        raise ValueError("Loading fraction must lie in [0,1]")
+
+    ops = base["operators"]
+    field = base["field"]
+
+    coupling = _build_same_action_coupling(
+        field["rhos"],
+        field["zs"],
+        field["h"],
+        beta,
+        ops,
+    )
+
+    matrix = bmat(
+        [
+            [ops["k_phi"], fraction * coupling["c"]],
+            [-fraction * coupling["d"], ops["k_a"]],
+        ],
+        format="csr",
+    )
+
+    rhs = np.r_[base["j_phi"], base["j_a"]]
+
+    solution = spsolve(matrix, rhs)
+
+    if not np.isfinite(solution).all():
+        raise ArithmeticError("Nonfinite coupled carrier solution")
+
+    residual = float(
+        np.linalg.norm(matrix @ solution - rhs)
+        / max(np.linalg.norm(rhs), 1.0)
+    )
+
+    n_phi = ops["k_phi"].shape[0]
+
+    phi = np.zeros_like(field["rho_grid"])
+    a = np.zeros_like(phi)
+
+    phi[1:-1, :-1] = solution[:n_phi].reshape(
+        phi[1:-1, :-1].shape
+    )
+
+    a[1:-1, 1:-1] = solution[n_phi:].reshape(
+        a[1:-1, 1:-1].shape
+    )
+
+    em = _fields_from_potentials(
+        phi,
+        a,
+        field["rho_grid"],
+        field["h"],
+    )
+
+    dot_eb = (
+        em["e_rho"] * em["b_rho"]
+        + em["e_z"] * em["b_z"]
+    )
+
+    # Exact weighted reciprocity audit with corrected scalar axis weight.
+    nz = ops["nz_inner"]
+
+    w_r = np.asarray(field["rhos"][:-1], dtype=float).copy()
+    w_r[0] = field["h"] / 8.0
+
+    w_phi = diags(np.tile(w_r, nz), format="csr")
+    w_a = diags(
+        np.tile(field["rhos"][1:-1], nz),
+        format="csr",
+    )
+
+    lhs = w_a @ coupling["d"]
+    rhs_cross = coupling["c"].T @ w_phi
+
+    difference = (lhs - rhs_cross).tocsr()
+
+    scale = max(
+        float(np.max(np.abs(lhs.data))) if lhs.nnz else 0.0,
+        1.0,
+    )
+
+    reciprocity = (
+        float(np.max(np.abs(difference.data))) / scale
+        if difference.nnz
+        else 0.0
+    )
+
+    carrier_energy = 0.5 * float(
+        np.sum(
+            2 * math.pi
+            * field["rho_grid"]
+            * field["h"]**2
+            * (
+                em["e_rho"]**2
+                + em["e_z"]**2
+                + em["b_rho"]**2
+                + em["b_z"]**2
+            )
+        )
+    ) * EV_J / HBAR_C_EV_M
+
+    return {
+        "phi": phi,
+        "a": a,
+        "em": em,
+        "dot": dot_eb,
+        "residual": residual,
+        "coupling": coupling,
+        "relative_weighted_reciprocity": reciprocity,
+        "carrier_energy_j": carrier_energy,
+    }
+
+
+==============================================================================
+hook17_r3b_m4b4_paired_translation.shifted_source
+==============================================================================
+def shifted_source(source, scale_ev, craft_shift_m):
+    """Translate the two fixed current controls together."""
+    amplifier = (scale_ev / 1000.0)**2
+
+    jp = translate_current_z(
+        source["j_phi"],
+        source,
+        craft_shift_m,
+        False,
+    )
+    ja = translate_current_z(
+        source["j_a"],
+        source,
+        craft_shift_m,
+        True,
+    )
+
+    return {
+        **source,
+        "j_phi": amplifier * jp,
+        "j_a": amplifier * ja,
+    }
+
+
+==============================================================================
+hook17_r3b_m4b4_paired_translation.shifted_material
+==============================================================================
+def shifted_material(
+    source,
+    earth_z_m,
+    craft_z_m,
+    scale_ev,
+    *,
+    earth_present,
+):
+    """Finite Earth, atmosphere, and moving vacuum enclosure.
+
+    Air is prescribed outside the craft-centered vacuum enclosure.
+    Where the finite Earth target occupies space, it displaces air.
+
+    Moving the craft also moves its vacuum enclosure.
+    The background matter itself is not dynamically evolved.
+    """
+    geometry = MaterialGeometry()
+    field = source["field"]
+
+    r = field["rho_grid"]
+    z = field["z_grid"]
+    width = geometry.interface_width_m
+
+    outside_enclosure = 1.0 - _smooth_below(
+        np.hypot(r, z - craft_z_m),
+        geometry.enclosure_radius_m,
+        width,
+    )
+
+    disk = _smooth_below(
+        r,
+        geometry.ground_radius_m,
+        width,
+    )
+
+    below_top = _smooth_below(
+        z,
+        earth_z_m + geometry.ground_top_relative_z_m,
+        width,
+    )
+
+    above_bottom = 1.0 - _smooth_below(
+        z,
+        (
+            earth_z_m
+            + geometry.ground_top_relative_z_m
+            - geometry.ground_depth_m
+        ),
+        width,
+    )
+
+    if earth_present:
+        ground_fraction = disk * below_top * above_bottom
+    else:
+        ground_fraction = np.zeros_like(z)
+
+    density = (
+        geometry.air_density_kg_m3
+        * outside_enclosure
+        * (1.0 - ground_fraction)
+        + geometry.ground_density_kg_m3 * ground_fraction
+    )
+
+    beta = 1.0 - loading_coefficient_z(
+        density,
+        scale_ev,
+    )
+
+    return beta, density, ground_fraction
+

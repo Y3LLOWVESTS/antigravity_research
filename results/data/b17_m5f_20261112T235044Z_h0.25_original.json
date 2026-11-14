@@ -1,0 +1,627 @@
+{
+  "branch": "032H17A12D1R3X3B17-ALPHA1-M5F",
+  "h_m": 0.25,
+  "bias": 0.0,
+  "reverse_magnetic": false,
+  "displacement_m": 0.0002,
+  "source_audit": {
+    "net_electric_charge_relative_residual": 2.8082141922043425e-17,
+    "max_source_radius_m": 1.8027756377319946,
+    "compensation_charge_before": 2.405613486189395e-10,
+    "support_extremes": [
+      {
+        "max_nodal_source_radius_m": 2.0155644370746373,
+        "inside_nominal_2m_region": false,
+        "inside_enclosure_radius": true,
+        "translated_source_is_exact_physical_current": false
+      },
+      {
+        "max_nodal_source_radius_m": 2.0155644370746373,
+        "inside_nominal_2m_region": false,
+        "inside_enclosure_radius": true,
+        "translated_source_is_exact_physical_current": false
+      }
+    ],
+    "same_physical_source_across_grids_certified": false
+  },
+  "quadratures": {
+    "midpoint4": {
+      "bins": 4,
+      "phase_offset_bins": 0.5,
+      "mean_interaction_action_j": -985.3717040918855,
+      "interaction_phase_span_j": 197.16627935784345,
+      "average_slopes": {
+        "earth_present_action_j": {
+          "earth_only_j_per_m": -1633.5656358569395,
+          "craft_only_j_per_m": 1580.1380988068559,
+          "paired_sum_j_per_m": -53.42753705008363,
+          "common_shift_j_per_m": -53.42754434423114,
+          "nonlinear_path_difference_j_per_m": -7.2941475082188845e-06,
+          "relative_reciprocity_defect": 0.03270608531260912,
+          "relative_common_drift": 0.032706089777778655
+        },
+        "earth_absent_action_j": {
+          "earth_only_j_per_m": 0.0,
+          "craft_only_j_per_m": -0.6396004118869314,
+          "paired_sum_j_per_m": -0.6396004118869314,
+          "common_shift_j_per_m": -0.6396004118869314,
+          "nonlinear_path_difference_j_per_m": 0.0,
+          "relative_reciprocity_defect": 0.6396004118869314,
+          "relative_common_drift": 0.6396004118869314
+        },
+        "interaction_action_j": {
+          "earth_only_j_per_m": -1633.5656358569395,
+          "craft_only_j_per_m": 1580.7776992187428,
+          "paired_sum_j_per_m": -52.7879366381967,
+          "common_shift_j_per_m": -52.787943932344206,
+          "nonlinear_path_difference_j_per_m": -7.2941475082188845e-06,
+          "relative_reciprocity_defect": 0.03231454891036875,
+          "relative_common_drift": 0.032314553375538284
+        }
+      },
+      "phase_rows": [
+        {
+          "phase_m": -0.09375,
+          "center_interaction_action_j": -1041.1831716156012,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": 50.39913688960951,
+              "craft_only_j_per_m": 4453.066625683277,
+              "paired_sum_j_per_m": 4503.465762572887,
+              "common_shift_j_per_m": 4503.465353191132,
+              "nonlinear_path_difference_j_per_m": -0.00040938175516203046
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": 2729.7793252728297,
+              "paired_sum_j_per_m": 2729.7793252728297,
+              "common_shift_j_per_m": 2729.7793252728297,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": 50.39913688960951,
+              "craft_only_j_per_m": 1723.2873004104476,
+              "paired_sum_j_per_m": 1773.6864373000572,
+              "common_shift_j_per_m": 1773.686027918302,
+              "nonlinear_path_difference_j_per_m": -0.00040938175516203046
+            }
+          }
+        },
+        {
+          "phase_m": -0.03125,
+          "center_interaction_action_j": -925.6416321184079,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": 219.846694599255,
+              "craft_only_j_per_m": 9793.542797597183,
+              "paired_sum_j_per_m": 10013.389492196438,
+              "common_shift_j_per_m": 10013.389601408562,
+              "nonlinear_path_difference_j_per_m": 0.00010921212378889322
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": 8205.505967816862,
+              "paired_sum_j_per_m": 8205.505967816862,
+              "common_shift_j_per_m": 8205.505967816862,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": 219.846694599255,
+              "craft_only_j_per_m": 1588.0368297803216,
+              "paired_sum_j_per_m": 1807.8835243795766,
+              "common_shift_j_per_m": 1807.8836335917003,
+              "nonlinear_path_difference_j_per_m": 0.00010921212378889322
+            }
+          }
+        },
+        {
+          "phase_m": 0.03125,
+          "center_interaction_action_j": -888.7478666378447,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": -3648.1049756184802,
+              "craft_only_j_per_m": -6918.2093134804745,
+              "paired_sum_j_per_m": -10566.314289098955,
+              "common_shift_j_per_m": -10566.310499343672,
+              "nonlinear_path_difference_j_per_m": 0.003789755282923579
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": -8206.780190921563,
+              "paired_sum_j_per_m": -8206.780190921563,
+              "common_shift_j_per_m": -8206.780190921563,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": -3648.1049756184802,
+              "craft_only_j_per_m": 1288.5708774410887,
+              "paired_sum_j_per_m": -2359.5340981773916,
+              "common_shift_j_per_m": -2359.5303084221086,
+              "nonlinear_path_difference_j_per_m": 0.003789755282923579
+            }
+          }
+        },
+        {
+          "phase_m": 0.09375,
+          "center_interaction_action_j": -1085.9141459956882,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": -3156.403399298142,
+              "craft_only_j_per_m": -1007.8477145725628,
+              "paired_sum_j_per_m": -4164.251113870705,
+              "common_shift_j_per_m": -4164.254632632947,
+              "nonlinear_path_difference_j_per_m": -0.0035187622415833175
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": -2731.063503815676,
+              "paired_sum_j_per_m": -2731.063503815676,
+              "common_shift_j_per_m": -2731.063503815676,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": -3156.403399298142,
+              "craft_only_j_per_m": 1723.2157892431132,
+              "paired_sum_j_per_m": -1433.187610055029,
+              "common_shift_j_per_m": -1433.1911288172705,
+              "nonlinear_path_difference_j_per_m": -0.0035187622415833175
+            }
+          }
+        }
+      ]
+    },
+    "midpoint8": {
+      "bins": 8,
+      "phase_offset_bins": 0.5,
+      "mean_interaction_action_j": -985.1865023318205,
+      "interaction_phase_span_j": 231.4066239244421,
+      "average_slopes": {
+        "earth_present_action_j": {
+          "earth_only_j_per_m": -1604.6932616245613,
+          "craft_only_j_per_m": 1579.7624481092498,
+          "paired_sum_j_per_m": -24.930813515311456,
+          "common_shift_j_per_m": -24.930829108598118,
+          "nonlinear_path_difference_j_per_m": -1.5593286661896855e-05,
+          "relative_reciprocity_defect": 0.015536186330135125,
+          "relative_common_drift": 0.015536196047435643
+        },
+        "earth_absent_action_j": {
+          "earth_only_j_per_m": 0.0,
+          "craft_only_j_per_m": -0.6394191996150766,
+          "paired_sum_j_per_m": -0.6394191996150766,
+          "common_shift_j_per_m": -0.6394191996150766,
+          "nonlinear_path_difference_j_per_m": 0.0,
+          "relative_reciprocity_defect": 0.6394191996150766,
+          "relative_common_drift": 0.6394191996150766
+        },
+        "interaction_action_j": {
+          "earth_only_j_per_m": -1604.6932616245613,
+          "craft_only_j_per_m": 1580.401867308865,
+          "paired_sum_j_per_m": -24.29139431569638,
+          "common_shift_j_per_m": -24.29140990898304,
+          "nonlinear_path_difference_j_per_m": -1.5593286661896855e-05,
+          "relative_reciprocity_defect": 0.015137718152504878,
+          "relative_common_drift": 0.015137727869805395
+        }
+      },
+      "phase_rows": [
+        {
+          "phase_m": -0.109375,
+          "center_interaction_action_j": -1067.2879884370777,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": -220.27663748303894,
+              "craft_only_j_per_m": 3114.697300370608,
+              "paired_sum_j_per_m": 2894.420662887569,
+              "common_shift_j_per_m": 2894.41973061912,
+              "nonlinear_path_difference_j_per_m": -0.0009322684491053224
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": 1363.261520928063,
+              "paired_sum_j_per_m": 1363.261520928063,
+              "common_shift_j_per_m": 1363.261520928063,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": -220.27663748303894,
+              "craft_only_j_per_m": 1751.435779442545,
+              "paired_sum_j_per_m": 1531.159141959506,
+              "common_shift_j_per_m": 1531.158209691057,
+              "nonlinear_path_difference_j_per_m": -0.0009322684491053224
+            }
+          }
+        },
+        {
+          "phase_m": -0.078125,
+          "center_interaction_action_j": -1012.6703685843822,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": 168.79952210729243,
+              "craft_only_j_per_m": 5787.795197065861,
+              "paired_sum_j_per_m": 5956.594719173154,
+              "common_shift_j_per_m": 5956.594589697488,
+              "nonlinear_path_difference_j_per_m": -0.00012947566574439406
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": 4097.7898465280305,
+              "paired_sum_j_per_m": 4097.7898465280305,
+              "common_shift_j_per_m": 4097.7898465280305,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": 168.79952210729243,
+              "craft_only_j_per_m": 1690.005350537831,
+              "paired_sum_j_per_m": 1858.8048726451234,
+              "common_shift_j_per_m": 1858.8047431694577,
+              "nonlinear_path_difference_j_per_m": -0.00012947566574439406
+            }
+          }
+        },
+        {
+          "phase_m": -0.046875,
+          "center_interaction_action_j": -954.2844252604555,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": 233.4661551140016,
+              "craft_only_j_per_m": 8456.29802239273,
+              "paired_sum_j_per_m": 8689.764177506731,
+              "common_shift_j_per_m": 8689.764254741021,
+              "nonlinear_path_difference_j_per_m": 7.723429007455707e-05
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": 6835.340506731882,
+              "paired_sum_j_per_m": 6835.340506731882,
+              "common_shift_j_per_m": 6835.340506731882,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": 233.4661551140016,
+              "craft_only_j_per_m": 1620.957515660848,
+              "paired_sum_j_per_m": 1854.4236707748496,
+              "common_shift_j_per_m": 1854.4237480091397,
+              "nonlinear_path_difference_j_per_m": 7.723429007455707e-05
+            }
+          }
+        },
+        {
+          "phase_m": -0.015625,
+          "center_interaction_action_j": -897.8633374148485,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": 191.06320702121593,
+              "craft_only_j_per_m": 11131.063825596357,
+              "paired_sum_j_per_m": 11322.127032617573,
+              "common_shift_j_per_m": 11322.12712582259,
+              "nonlinear_path_difference_j_per_m": 9.320501703768969e-05
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": 9574.612847573007,
+              "paired_sum_j_per_m": 9574.612847573007,
+              "common_shift_j_per_m": 9574.612847573007,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": 191.06320702121593,
+              "craft_only_j_per_m": 1556.4509780233493,
+              "paired_sum_j_per_m": 1747.5141850445652,
+              "common_shift_j_per_m": 1747.5142782495823,
+              "nonlinear_path_difference_j_per_m": 9.320501703768969e-05
+            }
+          }
+        },
+        {
+          "phase_m": 0.015625,
+          "center_interaction_action_j": -865.1792637389444,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": -1835.5921437978395,
+              "craft_only_j_per_m": -8349.009612284135,
+              "paired_sum_j_per_m": -10184.601756081975,
+              "common_shift_j_per_m": -10184.597370280244,
+              "nonlinear_path_difference_j_per_m": 0.0043858017306774855
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": -9575.883154648182,
+              "paired_sum_j_per_m": -9575.883154648182,
+              "common_shift_j_per_m": -9575.883154648182,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": -1835.5921437978395,
+              "craft_only_j_per_m": 1226.8735423640464,
+              "paired_sum_j_per_m": -608.7186014337931,
+              "common_shift_j_per_m": -608.7142156320624,
+              "nonlinear_path_difference_j_per_m": 0.0043858017306774855
+            }
+          }
+        },
+        {
+          "phase_m": 0.046875,
+          "center_interaction_action_j": -936.3986774708173,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": -5009.6856622622,
+              "craft_only_j_per_m": -5442.732105511823,
+              "paired_sum_j_per_m": -10452.417767774023,
+              "common_shift_j_per_m": -10452.415668150934,
+              "nonlinear_path_difference_j_per_m": 0.002099623088724911
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": -6836.6183723992435,
+              "paired_sum_j_per_m": -6836.6183723992435,
+              "common_shift_j_per_m": -6836.6183723992435,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": -5009.6856622622,
+              "craft_only_j_per_m": 1393.8862668874208,
+              "paired_sum_j_per_m": -3615.799395374779,
+              "common_shift_j_per_m": -3615.7972957516904,
+              "nonlinear_path_difference_j_per_m": 0.002099623088724911
+            }
+          }
+        },
+        {
+          "phase_m": 0.078125,
+          "center_interaction_action_j": -1051.222070084652,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": -4608.836900697497,
+              "craft_only_j_per_m": -2458.779703702021,
+              "paired_sum_j_per_m": -7067.616604399518,
+              "common_shift_j_per_m": -7067.619501285662,
+              "nonlinear_path_difference_j_per_m": -0.00289688614429906
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": -4099.072783756128,
+              "paired_sum_j_per_m": -4099.072783756128,
+              "common_shift_j_per_m": -4099.072783756128,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": -4608.836900697497,
+              "craft_only_j_per_m": 1640.2930800541071,
+              "paired_sum_j_per_m": -2968.54382064339,
+              "common_shift_j_per_m": -2968.5467175295344,
+              "nonlinear_path_difference_j_per_m": -0.00289688614429906
+            }
+          }
+        },
+        {
+          "phase_m": 0.109375,
+          "center_interaction_action_j": -1096.5858876633865,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": -1756.4836329984246,
+              "craft_only_j_per_m": 398.7666609464213,
+              "paired_sum_j_per_m": -1357.7169720520033,
+              "common_shift_j_per_m": -1357.719794032164,
+              "nonlinear_path_difference_j_per_m": -0.0028219801606610417
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": -1364.5457645543502,
+              "paired_sum_j_per_m": -1364.5457645543502,
+              "common_shift_j_per_m": -1364.5457645543502,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": -1756.4836329984246,
+              "craft_only_j_per_m": 1763.3124255007715,
+              "paired_sum_j_per_m": 6.828792502346914,
+              "common_shift_j_per_m": 6.825970522186253,
+              "nonlinear_path_difference_j_per_m": -0.0028219801606610417
+            }
+          }
+        }
+      ]
+    },
+    "node4": {
+      "bins": 4,
+      "phase_offset_bins": 0.0,
+      "mean_interaction_action_j": -984.5912891646258,
+      "interaction_phase_span_j": 216.5336261586781,
+      "average_slopes": {
+        "earth_present_action_j": {
+          "earth_only_j_per_m": -1445.9041003283346,
+          "craft_only_j_per_m": 1578.6789923367905,
+          "paired_sum_j_per_m": 132.77489200845594,
+          "common_shift_j_per_m": 132.77818853566714,
+          "nonlinear_path_difference_j_per_m": 0.0032965272112051025,
+          "relative_reciprocity_defect": 0.084105060403648,
+          "relative_common_drift": 0.08410714855914207
+        },
+        "earth_absent_action_j": {
+          "earth_only_j_per_m": 0.0,
+          "craft_only_j_per_m": -0.6406172451534076,
+          "paired_sum_j_per_m": -0.6406172451534076,
+          "common_shift_j_per_m": -0.6406172451534076,
+          "nonlinear_path_difference_j_per_m": 0.0,
+          "relative_reciprocity_defect": 0.6406172451534076,
+          "relative_common_drift": 0.6406172451534076
+        },
+        "interaction_action_j": {
+          "earth_only_j_per_m": -1445.9041003283346,
+          "craft_only_j_per_m": 1579.319609581944,
+          "paired_sum_j_per_m": 133.41550925360934,
+          "common_shift_j_per_m": 133.41880578082055,
+          "nonlinear_path_difference_j_per_m": 0.0032965272112051025,
+          "relative_reciprocity_defect": 0.08447657361066091,
+          "relative_common_drift": 0.08447866091913933
+        }
+      },
+      "phase_rows": [
+        {
+          "phase_m": -0.125,
+          "center_interaction_action_j": -1087.4889507909102,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": -776.4405290436116,
+              "craft_only_j_per_m": 1767.4579035883653,
+              "paired_sum_j_per_m": 991.0173745447537,
+              "common_shift_j_per_m": 991.0156001205905,
+              "nonlinear_path_difference_j_per_m": -0.001774424163158983
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": -0.6488024155260064,
+              "paired_sum_j_per_m": -0.6488024155260064,
+              "common_shift_j_per_m": -0.6488024155260064,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": -776.4405290436116,
+              "craft_only_j_per_m": 1768.1067060038913,
+              "paired_sum_j_per_m": 991.6661769602797,
+              "common_shift_j_per_m": 991.6644025361165,
+              "nonlinear_path_difference_j_per_m": -0.001774424163158983
+            }
+          }
+        },
+        {
+          "phase_m": -0.0625,
+          "center_interaction_action_j": -983.4503965155745,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": 218.73042489460204,
+              "craft_only_j_per_m": 7121.506668154325,
+              "paired_sum_j_per_m": 7340.237093048927,
+              "common_shift_j_per_m": 7340.237099560909,
+              "nonlinear_path_difference_j_per_m": 6.511982064694166e-06
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": 5466.270262550097,
+              "paired_sum_j_per_m": 5466.270262550097,
+              "common_shift_j_per_m": 5466.270262550097,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": 218.73042489460204,
+              "craft_only_j_per_m": 1655.236405604228,
+              "paired_sum_j_per_m": 1873.96683049883,
+              "common_shift_j_per_m": 1873.966837010812,
+              "nonlinear_path_difference_j_per_m": 6.511982064694166e-06
+            }
+          }
+        },
+        {
+          "phase_m": 0.0,
+          "center_interaction_action_j": -870.9553246322321,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": 168.20698601804907,
+              "craft_only_j_per_m": 1371.508479496697,
+              "paired_sum_j_per_m": 1539.715465514746,
+              "common_shift_j_per_m": 1539.731042321364,
+              "nonlinear_path_difference_j_per_m": 0.01557680661790073
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": -0.6325490539893508,
+              "paired_sum_j_per_m": -0.6325490539893508,
+              "common_shift_j_per_m": -0.6325490539893508,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": 168.20698601804907,
+              "craft_only_j_per_m": 1372.1410285506863,
+              "paired_sum_j_per_m": 1540.3480145687354,
+              "common_shift_j_per_m": 1540.3635913753533,
+              "nonlinear_path_difference_j_per_m": 0.01557680661790073
+            }
+          }
+        },
+        {
+          "phase_m": 0.0625,
+          "center_interaction_action_j": -996.4704847197863,
+          "slopes": {
+            "earth_present_action_j": {
+              "earth_only_j_per_m": -5394.113283182378,
+              "craft_only_j_per_m": -3945.757081892225,
+              "paired_sum_j_per_m": -9339.870365074603,
+              "common_shift_j_per_m": -9339.870987860195,
+              "nonlinear_path_difference_j_per_m": -0.0006227855919860303
+            },
+            "earth_absent_action_j": {
+              "earth_only_j_per_m": 0.0,
+              "craft_only_j_per_m": -5467.551380061195,
+              "paired_sum_j_per_m": -5467.551380061195,
+              "common_shift_j_per_m": -5467.551380061195,
+              "nonlinear_path_difference_j_per_m": 0.0
+            },
+            "interaction_action_j": {
+              "earth_only_j_per_m": -5394.113283182378,
+              "craft_only_j_per_m": 1521.7942981689703,
+              "paired_sum_j_per_m": -3872.3189850134077,
+              "common_shift_j_per_m": -3872.3196077989996,
+              "nonlinear_path_difference_j_per_m": -0.0006227855919860303
+            }
+          }
+        }
+      ]
+    }
+  },
+  "quadrature_relative_differences_4_to_8": {
+    "earth_present_action_j": {
+      "earth_only_j_per_m": 0.01767445004879297,
+      "craft_only_j_per_m": 0.00023773282720648478,
+      "common_shift_j_per_m": 0.5333712336099529,
+      "paired_sum_j_per_m": 0.5333714617624802
+    },
+    "earth_absent_action_j": {
+      "earth_only_j_per_m": 0.0,
+      "craft_only_j_per_m": 0.0001812122718547471,
+      "common_shift_j_per_m": 0.0001812122718547471,
+      "paired_sum_j_per_m": 0.0001812122718547471
+    },
+    "interaction_action_j": {
+      "earth_only_j_per_m": 0.01767445004879297,
+      "craft_only_j_per_m": 0.00023775127272078375,
+      "common_shift_j_per_m": 0.5398303457297715,
+      "paired_sum_j_per_m": 0.539830577539198
+    }
+  },
+  "node4_vs_midpoint4_mean_interaction_difference_j": 0.7804149272596987,
+  "central_historical_reference_abs_errors_j_per_m": {
+    "earth_present_action_j": {
+      "earth_only_j_per_m": 0.0,
+      "craft_only_j_per_m": 0.0,
+      "paired_sum_j_per_m": 0.0,
+      "common_shift_j_per_m": 0.0
+    },
+    "earth_absent_action_j": {
+      "earth_only_j_per_m": 0.0,
+      "craft_only_j_per_m": 0.0,
+      "paired_sum_j_per_m": 0.0,
+      "common_shift_j_per_m": 0.0
+    },
+    "interaction_action_j": {
+      "earth_only_j_per_m": 0.0,
+      "craft_only_j_per_m": 0.0,
+      "paired_sum_j_per_m": 0.0,
+      "common_shift_j_per_m": 0.0
+    }
+  },
+  "diagnostic_gates": {
+    "quadrature_4_to_8_earth_craft_within_5pct": true,
+    "phase_averaged_reciprocity_defect_within_5pct": true,
+    "phase_averaged_common_drift_within_5pct": true,
+    "reference_reproduced_within_0p1_j_per_m": true
+  },
+  "phase_averaged_gradient_is_physical_force": false,
+  "interface_action_discretization_certified": false,
+  "finite_box_artifact_excluded": false,
+  "full_Earth_craft_Noether_identity_certified": false,
+  "exterior_metric_transmission_derived": false,
+  "whole_craft_force_n": null,
+  "complete_operating_energy_j": null,
+  "006d_replaced": false
+}
