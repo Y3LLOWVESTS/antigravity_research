@@ -1,0 +1,216 @@
+{
+  "asymmetric_control": {
+    "m_minus": 1.05,
+    "max_abs_E": 0.0003750767715854745
+  },
+  "branch": "032H17A12D1R3X3B17-PH14",
+  "exact_action": {
+    "canonical_two_scalar_current": "PASS_EXACT",
+    "local_gauge_covariance": "PASS_EXACT",
+    "positive_phi6_potential": "PASS_EXACT",
+    "spherical_trace_induced_Y": "ZERO_BY_ROTATIONAL_SYMMETRY",
+    "two_radial_Euler_Lagrange": "PASS_EXACT",
+    "universal_metric_all_matter": "NOT_SOLVED"
+  },
+  "execution": {
+    "module_sha256": "9a9cf92314ac1c1bdd23197082f08b47559342f3f607b8d5f81bc4bd85eb0e7d",
+    "platform": "macOS-15.7.7-x86_64-i386-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "runner_sha256": "956619554cdbcc0dbd44eefc57de8b87dd30da2ca2f640da4519739d726b3dd0",
+    "utc": "2026-11-15T09:27:26.920597+00:00"
+  },
+  "frozen_translation_only": {
+    "classification": "FROZEN_CHARGE_TRANSLATION_ONLY_NOT_FULL_SPECTRAL_STABILITY",
+    "frozen_pair_Coulomb_interaction": {
+      "0.0": -0.2689077688439116,
+      "0.25": -0.2682781387706965,
+      "0.5": -0.26640172438236975,
+      "1.0": -0.25907915958969424,
+      "2.0": -0.23248194880176343
+    },
+    "n": 64,
+    "periodic_box_length": 32.0,
+    "small_relative_translation_curvature": 0.02014816234288297
+  },
+  "gates": {
+    "006D_REPLACED": "NO",
+    "B11_M6_COMPLETE_CAUSAL_IMPULSE": "NOT_RUN",
+    "P0_PROVENANCE": "PASS",
+    "P1_BINDING_VS_FREE_PARTICLES": "PASS_SAME_INDIVIDUAL_NOETHER_NUMBERS",
+    "P1_BINDING_VS_SEPARATED_QBALLS": "PASS_SAME_INDIVIDUAL_NOETHER_NUMBERS",
+    "P1_ELECTRIC_NEUTRALITY": "PASS_INTEGRAL_AND_GAUSS_BOUNDARY",
+    "P1_FINITE_TRAP_FREE_SOURCE": "PASS_HYPOTHETICAL_PHI6_TWO_SCALAR_SECTOR",
+    "P1_FULL_RADIAL_AND_NONRADIAL_STABILITY": "NOT_CERTIFIED",
+    "P1_POSITIVE_SOURCE_ENERGY": "PASS_CANONICAL_FLAT_CLASSICAL",
+    "P1_RADIAL_STRESS_BALANCE": "PASS_SCOPED_STATIC",
+    "P1_REAL_PARTICLES_AND_QUANTUM_UV": "NOT_CERTIFIED",
+    "P1_RESTRICTED_FIXED_TWO_CHARGE_HESSIAN": "NONNEGATIVE_SAMPLED_SUBSPACE_ONLY",
+    "P1_TWO_SPECIES_NEUTRAL_ONSHELL": "PASS_SPHERICALLY_SYMMETRIC_BVP",
+    "P2_NONSYMMETRIC_FULL_ONSHELL_Y": "NOT_DERIVED",
+    "P2_ONSHELL_SPHERICAL_TRACE_INDUCED_Y": "EXACT_ZERO_BY_SYMMETRY",
+    "P2_UNIVERSAL_METRIC_FULL_CONSTITUTIVE": "NOT_SOLVED",
+    "P3_EARTH_DOWN_CRAFT_UP": "NOT_DERIVED",
+    "P3_NEUTRAL_1G_1M": "NOT_CERTIFIED",
+    "STRICT_COMPLETE_LT10MJ": "NOT_CERTIFIED"
+  },
+  "high_resolution": {
+    "charge_err": 5.830963397287699e-14,
+    "energy": 161.51589052123114,
+    "n": 880,
+    "stress_err": 1.4584874651422682e-12
+  },
+  "larger_radius": {
+    "R": 48.0,
+    "charge_err": 2.1984554181777993e-12,
+    "energy": 161.51589053397402
+  },
+  "on_shell_neutral_source": {
+    "BVP_collocation_rms": 9.928904850364852e-09,
+    "BVP_nodes": 850,
+    "BVP_status": "SOLVED",
+    "Noether_minus": 77.98837343734536,
+    "Noether_plus": 77.98837343718844,
+    "SI_mass_energy": "NOT_CALIBRATED",
+    "absolute_charge_vs_flux_error": 7.84581288826302e-12,
+    "binding_below_free_quanta": 0.6999262161974684,
+    "boundary_Gauss_flux": -7.15432693475219e-27,
+    "canonical_energy_terms": {
+      "electric_inside": 9.352588766498052e-06,
+      "electric_outside_Coulomb": 5.0914058104049915e-56,
+      "matter_gradient": 18.217791290626007,
+      "matter_time": 74.68534193364871,
+      "positive_scalar_potential": 68.61274795646047
+    },
+    "center_A0": -0.00034149458829569766,
+    "electric_field_energy": 9.352588766498052e-06,
+    "energy_over_free_mass": 0.9956852159658498,
+    "f_minus_center": 0.68244607822384,
+    "f_plus_center": 0.7,
+    "free_particle_mass_threshold": 162.21581674952142,
+    "full_linearized_stability": "NOT_CALCULATED",
+    "induced_Y_on_shell": "ZERO_BY_ROTATIONAL_SYMMETRY",
+    "integrated_net_gauge_charge": -7.845812888263027e-12,
+    "integrated_spatial_stress_trace": -6.472510109377659e-09,
+    "local_radial_stress_divergence_max": 3.7626152193936946e-15,
+    "material_UV": "NOT_VERIFIED",
+    "max_abs_radial_E": 0.0005383584446341459,
+    "neutral_composite_is_spherical": true,
+    "omega_minus": 1.0054015240822434,
+    "omega_plus": 0.909892974175498,
+    "relative_charge_neutrality": 2.0120468070985282e-12,
+    "source_support": "NONLINEAR_SCALAR_NO_PRESCRIBED_WELL",
+    "spec": {
+      "e": 0.05,
+      "m_minus": 1.08,
+      "m_plus": 1.0,
+      "n": 440,
+      "plus_center": 0.7,
+      "quartic": 2.0,
+      "radius": 40.0,
+      "sextic": 2.0,
+      "tolerance": 1e-08
+    },
+    "stress_virial_relative_residual": 4.009320452612122e-11,
+    "surface_stress_term": 3.179523993503906e-12,
+    "tail_minus_relative": 1.813074379906391e-08,
+    "tail_plus_relative": 8.949047295051873e-09,
+    "total_field_plus_matter_energy": 161.51589053332395
+  },
+  "provenance": {
+    "m5v_module": {
+      "actual_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "ph12_module": {
+      "actual_sha256": "24afca0234910831c357f354db8eb6dcea08bba8814be5a21e091eb03e81b363",
+      "expected_sha256": "24afca0234910831c357f354db8eb6dcea08bba8814be5a21e091eb03e81b363",
+      "status": "MATCH"
+    },
+    "ph13_module": {
+      "actual_sha256": "29b5575cc997a959eafc6ee808f65a1e45f2d00a0156830e013f8ee4b250d167",
+      "expected_sha256": "29b5575cc997a959eafc6ee808f65a1e45f2d00a0156830e013f8ee4b250d167",
+      "status": "MATCH"
+    },
+    "ph13_result": {
+      "actual_sha256": "d3ff81588bf5a2de259aa6601d3568129cc6e4713304dc35777b3dbe46e8dc1c",
+      "expected_sha256": "d3ff81588bf5a2de259aa6601d3568129cc6e4713304dc35777b3dbe46e8dc1c",
+      "status": "MATCH"
+    }
+  },
+  "restricted_fixed_two_charge_radial": {
+    "background_fv": {
+      "Gauss_relative_residual": 1.1367040653293441e-10,
+      "Noether_minus": 77.98837343734539,
+      "Noether_plus": 77.98837343718843,
+      "components": {
+        "electric_inside": 9.363942678259385e-06,
+        "electric_last_to_boundary": 6.961860828974309e-29,
+        "matter_gradient": 18.216513734004305,
+        "matter_time": 74.66868717820955,
+        "scalar_potential": 68.6248464942785
+      },
+      "energy": 161.51005677043503,
+      "exterior_flux": -7.847908487814227e-12,
+      "neutrality_charge": -7.847944516470307e-12,
+      "omega_minus": 1.005175422349563,
+      "omega_plus": 0.9096919675239097
+    },
+    "classification": "RESTRICTED_STATIC_RADIAL_FIXED_TWO_NOETHER_NUMBERS_NOT_DYNAMICAL_STABILITY",
+    "eigenvalues": [
+      0.20883838665688392,
+      0.22177474031990987,
+      1.0624673062470198,
+      1.1248576571041429,
+      2.5026596010365787,
+      2.7672069686700547,
+      7.519649008025422,
+      8.48903159519444,
+      16.200066878020372,
+      20.298498525358273,
+      535.3040260657751,
+      586.8260475743134
+    ],
+    "lowest_eigenvalue": 0.20883838665688392,
+    "max_gradient": 0.02651045818424791,
+    "modes": 12,
+    "n": 440,
+    "negative_eigenvalues": 0,
+    "step": 0.002
+  },
+  "restricted_radial_resolution": {
+    "lowest_eigenvalue": 0.21023890179305507,
+    "n": 660,
+    "negative_eigenvalues": 0
+  },
+  "separated_lumps_same_N_comparison": {
+    "binding_vs_two_isolated": 0.37314513367903146,
+    "isolated_by_species": {
+      "minus": {
+        "E": 84.33140422878994,
+        "N": 77.9883734374419,
+        "center_amplitude": 0.6787113092113848,
+        "omega": 1.0104841842480978,
+        "rms": 9.954848091707088e-09,
+        "tail": 1.8416067088458128e-08
+      },
+      "plus": {
+        "E": 77.55763143821304,
+        "N": 77.98837343718854,
+        "center_amplitude": 0.6974246244796839,
+        "omega": 0.9147488696162014,
+        "rms": 9.901545640730275e-09,
+        "tail": 8.645295196736591e-09
+      }
+    },
+    "joint_composite_energy": 161.51589053332395,
+    "joint_lower_than_separated": true,
+    "scope": "CLASSICAL_FIXED_INDIVIDUAL_NOETHER_NUMBERS_NOT_FULL_STABILITY",
+    "separated_energy": 161.889035667003
+  },
+  "symmetric_mass_null": {
+    "m_minus": 1.0,
+    "max_abs_E": 1.6490603035498398e-19
+  },
+  "verdict": "YELLOW_ONSHELL_ELECTRIC_NEUTRAL_COMPOSITE_BUT_NO_MAGNETIC_Y_OR_METRIC_LIFT"
+}

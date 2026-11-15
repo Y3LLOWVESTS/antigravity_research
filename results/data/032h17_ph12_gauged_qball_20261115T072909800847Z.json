@@ -1,0 +1,183 @@
+{
+  "archival_provenance": {
+    "m5v_source": {
+      "actual_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "ph10_source": {
+      "actual_sha256": "1d2f8624fab28cf82301a582fb7b6289e9ce936e2a423d0bddae3ff10e1f4228",
+      "expected_sha256": "1d2f8624fab28cf82301a582fb7b6289e9ce936e2a423d0bddae3ff10e1f4228",
+      "status": "MATCH"
+    },
+    "ph11_result": {
+      "actual_sha256": "9593ec23fee787db536e2d1bba111c610ef5d3f0a7c8f91e7e5e2fb8bf53da41",
+      "expected_sha256": "9593ec23fee787db536e2d1bba111c610ef5d3f0a7c8f91e7e5e2fb8bf53da41",
+      "status": "MATCH"
+    },
+    "ph11_source": {
+      "actual_sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "expected_sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "status": "MATCH"
+    }
+  },
+  "branch": "032H17A12D1R3X3B17-PH12",
+  "charge_conjugation": {
+    "coupled_two_lump_equilibrium": "NOT_SOLVED",
+    "isolated_negative_lump_can_be_mirrored": "YES_EXACT_CHARGE_CONJUGATION",
+    "leading_order_Coulomb_pair_at_separation_50": {
+      "attractive_interaction_energy": -0.024959255492428525,
+      "attractive_radial_force": -0.0004991851098485705,
+      "exact_composite_self_consistency": "NOT_SOLVED",
+      "separation_arbitrary_units": 50.0
+    },
+    "negative_A0_at_center": -0.1405111779111571,
+    "negative_gauge_charge": -3.9600963042351482,
+    "same_matter_energy_isolated": 78.66686527273323
+  },
+  "exact_action_variations": {
+    "UV_completion_of_phi6": "NOT_DERIVED",
+    "canonical_gauged_scalar_current": "PASS_EXACT",
+    "canonical_kinetic_principal_blocks": "PASS_BEFORE_GAUSS_CONSTRAINT",
+    "charged_scalar_Euler_Lagrange_equation": "PASS_EXACT",
+    "electrostatic_Gauss_action_derivative": "PASS_EXACT",
+    "full_gravitational_coupling": "NOT_DERIVED",
+    "gauge_phase_Ward_identity": "PASS_EXACT_OFF_SHELL",
+    "nonradial_mixed_portal_Y_variation": "UNPROTECTED_BY_SYMMETRY",
+    "potential_energy_positive_all_amplitudes": "PASS_m1_b2_c2",
+    "radial_mixed_portal_Y_variation": "PASS_ONLY_SPHERICAL_ELECTROSTATIC_SUBSECTOR",
+    "stationary_gauge_covariance": "PASS_EXACT"
+  },
+  "execution": {
+    "module_sha256": "24afca0234910831c357f354db8eb6dcea08bba8814be5a21e091eb03e81b363",
+    "platform": "macOS-15.7.7-x86_64-i386-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "simulation_sha256": "83459037638a86110a5026a6ad08f6a3c7444ff40fbd1b411822057d51ec73ce",
+    "utc": "2026-11-15T07:29:09.800847+00:00"
+  },
+  "gates": {
+    "006D_REPLACED": "NO",
+    "B11_M6_FULL_SIGNED_CYCLE": "NOT_RUN",
+    "P0_PROVENANCE": "PASS",
+    "P1_GAUSS_NOETHER_CHARGE": "PASS_NUMERICAL_WITH_ANALYTIC_WARD",
+    "P1_INTEGRATED_STRESS_VIRIAL": "PASS_WITH_EXTERNAL_COULOMB_TAIL",
+    "P1_NO_EXTERNAL_TRAP": "PASS_FOR_ISOLATED_GAUGED_LUMP",
+    "P1_PHI6_UV_COMPLETION": "NOT_DERIVED",
+    "P1_POSITIVE_ENERGY_WITH_COULOMB_TAIL": "PASS_CLASSICAL_SCOPED",
+    "P1_QUANTUM_UV_AND_NATURALNESS": "NOT_CERTIFIED",
+    "P1_RADIAL_DYNAMIC_STABILITY": "NOT_CERTIFIED",
+    "P1_SHARED_SCALAR_MAXWELL_ACTION_EOM": "PASS_SPHERICALLY_SYMMETRIC_NUMERICAL_BVP",
+    "P1_Y_PORTAL_VARIATION_AT_FY_ZERO": "PASS_ONLY_STATIC_RADIAL_SYMMETRIC_SUBSECTOR",
+    "P2_FULL_UNIVERSAL_METRIC_CONSTITUTIVE": "NOT_SOLVED",
+    "P2_ISOLATED_SOURCE_GRAVITATIONAL_REPULSION": "NOT_DERIVED_POSITIVE_ENERGY_GR_FAR_FIELD_EXPECTED_ATTRACTIVE",
+    "P2_SPINNING_MAGNETIC_Y_SOURCE": "NOT_SOLVED",
+    "P2_TWO_CENTER_ELECTRIC_NEUTRAL_COMPOSITE": "NOT_SOLVED",
+    "P3_1G_AT_1M_NEUTRAL_MATTER": "NOT_CERTIFIED",
+    "P3_EARTH_DOWN_CRAFT_UP": "NOT_DERIVED",
+    "STRICT_COMPLETE_LT10MJ": "NOT_CERTIFIED"
+  },
+  "global_U1_no_gauge_control": {
+    "E_over_Q": 0.9920734681345693,
+    "energy": 77.37235510969006,
+    "number": 77.99054968698641
+  },
+  "high_precision_mesh_control": {
+    "n220": {
+      "E_over_Q": 0.9932443506347929,
+      "omega": 0.913336302147945,
+      "rms_max": 9.572851360266978e-09,
+      "virial_rel": 5.712641436936782e-11
+    },
+    "n440": {
+      "E_over_Q": 0.9932443506296743,
+      "omega": 0.9133363021370118,
+      "rms_max": 9.974124916732261e-09,
+      "virial_rel": 8.342990051431836e-11
+    },
+    "n880": {
+      "E_over_Q": 0.9932443506509094,
+      "omega": 0.9133363021785212,
+      "rms_max": 9.985258340937643e-09,
+      "virial_rel": 1.211887099523594e-11
+    }
+  },
+  "larger_domain_control": {
+    "E_over_Q": 0.9932443454325443,
+    "gauss_relative_error": 6.861892030012486e-09,
+    "omega": 0.9133362906505736,
+    "radius": 48.0,
+    "tail_relative": 3.542303163403537e-10
+  },
+  "local_branch_stability_slope_control": {
+    "center_amplitude_high": 0.72,
+    "center_amplitude_low": 0.68,
+    "dQ_domega_finite_difference": -916.9567065942007,
+    "not_a_proof_of_full_spectral_stability": true,
+    "number_high": 92.48163400767632,
+    "number_low": 71.48473869910778,
+    "omega_high": 0.9003865087008497,
+    "omega_low": 0.9232849674367655
+  },
+  "primary_gauged_equilibrium": {
+    "A0_at_boundary": 0.007878361216281028,
+    "A0_at_center": 0.14051117791115697,
+    "BVP_max_collocation_rms": 9.922661235719148e-07,
+    "BVP_mesh_nodes": 456,
+    "BVP_status": "SOLVED",
+    "Noether_number": 79.20192608470283,
+    "SI_energy_and_1g_1m": "NOT_CERTIFIED",
+    "canonical_energy": {
+      "electric_Coulomb_outside": 0.01559953468276783,
+      "electric_inside": 0.1770206279699021,
+      "energy_per_Noether_number": 0.9932443459594988,
+      "free_quantum_rest_mass_comparison": 1.0,
+      "matter_gradient": 9.685927470569352,
+      "matter_time": 35.97637664625102,
+      "positive_scalar_potential": 32.811940993260194,
+      "scalar_plus_electromagnetic_total_including_Coulomb_tail": 78.66686527273323
+    },
+    "center_f": 0.7,
+    "charge_sign": 1,
+    "complete_microscopic_source_UV": "NOT_CERTIFIED",
+    "exact_radial_stress_balance_max_residual": 4.935001507375136e-07,
+    "full_radial_spectral_stability": "NOT_CERTIFIED",
+    "gauge_charge_integrated": 3.960096304235142,
+    "gauss_flux_at_boundary": 3.9600962751032354,
+    "integrated_spatial_trace_inside": -0.015599883626936852,
+    "integrated_spatial_trace_plus_Coulomb_tail": -3.489441690214534e-07,
+    "no_external_square_well": true,
+    "omega": 0.9133362936323492,
+    "one_electric_U1_sector_only": true,
+    "positive_radial_mode": true,
+    "relative_gauss_flux_error": 7.356363185815355e-09,
+    "relative_integrated_stress_defect": 4.435719763482188e-09,
+    "spec": {
+      "center_amplitude": 0.7,
+      "gauge_coupling": 0.05,
+      "grid_nodes": 440,
+      "quartic": 2.0,
+      "radius": 40.0,
+      "scalar_mass": 1.0,
+      "sextic": 2.0,
+      "tolerance": 1e-06
+    },
+    "spinning_magnetic_Y_source_on_shell": "NOT_SOLVED",
+    "tail_f_at_radius": 7.782855538118218e-09,
+    "tail_f_relative": 1.1118365054454598e-08,
+    "two_center_gauge_neutral_on_shell": "NOT_SOLVED",
+    "universal_metric_portal_and_Earth": "NOT_SOLVED",
+    "virial_boundary_relative_error": 4.438649827502455e-09,
+    "virial_boundary_surface_term": -0.015599534452268879
+  },
+  "stronger_gauge_negative_control": {
+    "E_over_Q": 1.0148040704084473,
+    "classification": "ON_SHELL_BUT_FREE_QUANTUM_ENERGETICALLY_UNBOUND",
+    "gauge_coupling": 0.2
+  },
+  "unbound_branch_negative_control": {
+    "E_over_Q": 1.0178306737888083,
+    "center_amplitude": 0.55,
+    "classification": "POSITIVE_ENERGY_BUT_NOT_FREE_QUANTUM_BOUND"
+  },
+  "verdict": "YELLOW_ISOLATED_GAUGED_SCALAR_SOLITON_ON_SHELL_WITHOUT_COMPOSITE_OR_METRIC_ENGINE"
+}

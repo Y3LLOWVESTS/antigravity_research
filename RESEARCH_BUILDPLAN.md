@@ -1,5 +1,616 @@
 # ANTIGRAVITY_RESEARCH — Research Buildplan
 
+**CURRENT AUTHORITATIVE REVISION:** 2026-11-15 — HOOK17-PH14 on-shell neutral source closeout; PH15–PH17 physical induction, reciprocal coupling, and external-force decision tree  
+**Purpose:** Operative scientific strategy, exact-theorem falsifiers, finite source/carrier/neutral-matter/metric/gravity completion, B11-M6 causal dynamics, engineering acceptance, reproducibility, and immutable historical archives  
+**Primary:** `032 — AGMINER / 032H17 — HOOK17`, physically sourced `032H17A12D1R3X3B17`  
+**NEWEST COMPLETED:** **PH14**, executed 2026-11-15; **2,220 passed** full repository regression, **47 focused tests passed**, `P0_PROVENANCE=PASS`  
+**PH14 verdict:** `YELLOW_ONSHELL_ELECTRIC_NEUTRAL_COMPOSITE_BUT_NO_MAGNETIC_Y_OR_METRIC_LIFT`  
+**IMMEDIATE NEXT:** **PH15** — exact trace-induction theorem + *on-shell nonspherical* neutral charged-scalar source existence  
+**CONDITIONAL NEXT:** **PH16** — fully reciprocal two-U(1) + universal-metric matter loading, constraints, and full-mode health; **PH17** — genuine exterior Earth/craft force, only if preceding gates authorize  
+**CO-PRIMARY:** `B11-M6` — genuine source-driven causal dynamics, signed impulse, radiation, recoil, stable cycles  
+**ARTIFICIAL REFERENCE:** ALPHA-1/B17-M5V **FROZEN** as numerical mathematics, not a propulsion result  
+**GR ANCHOR:** 006D finite conserved DEC/WEC/NEC-compatible static linearized-GR outward near field, `C=23.591586299249`, unreplaced and prohibitive ~`1/G` energy scaling  
+**HISTORICAL LOW-CAPACITY REFERENCES:** R3B `1.5429162116460216 J` and A12C `2.6568591420597114 J`, **prescribed preloaded field only**, not physical operating energy  
+**PH14 ENERGY:** `161.51589053332395` canonical units (not joules); advantage over matched separated solitons `0.37314513367903146` canonical units (not complete source/device energy)  
+**HEURISTIC PROJECT SCORE:** approximately **35%**, **subjective/non-calibrated**, neither an engineering completion percentage nor a success probability  
+**PHYSICAL DEVICE/WHOLE-CRAFT LIFT/STRICT <10 MJ:** **NONE ESTABLISHED**.
+
+> **SINGLE SOURCE OF FORWARD STRATEGY:** Only this November 15 section, ending at `END NOVEMBER 15 AUTHORITATIVE SECTION`, governs future runs. The entire November 14 source buildplan follows afterward **byte-for-byte**, including its own November 13/11/10/September nested archives. Historical labels such as `PH1=NOT_RUN`, `M5O_NEXT`, and `1803_PASSED_LATEST` are *accurate at their historical dates* but no longer operative. If evidence conflicts, newest executed *exact* code and original JSON/logs outrank older summaries. A dated plan is not evidence that a proposed simulation executed.
+
+> **CREDIBILITY BOUNDARY:** A quantum-field-theory ansatz, numerical soliton, or reduced test-metric acceleration is not a known material, a healthy UV-complete theory, terrestrial gravitational repulsion, net spacecraft lift, or free energy. PH14 establishes only a classical spherical scalar–X-electrostatic equilibrium in a hypothetical model. Its induced Y vanishes by exact symmetry. The successful PH13 nonspherical Y response used an *off-shell* source superposition. Both properties must coexist *on-shell* before a physical candidate can advance. An on-shell source of a reduced sector is not necessarily on-shell under the eventual full universal-metric action.
+
+---
+
+# PART I — ACTIVE 2026-11-15 PHYSICAL-SOURCE AND ENGINEERING STRATEGY
+
+## 0. One-screen mandate and scientific decision
+
+1. **Preserve evidence:** Do not edit PH1–PH14 producing modules, original JSONs, M5V raw artifacts, 006D or the archived buildplans to make a new result look cleaner. Register every new method, approximation, test and negative result.
+2. **Focus precisely on the missing joint property:** PH14 gives *on-shell spherical neutral X source, zero Y*; PH13 gives *off-shell nonspherical trace-induced Y*. PH15 must determine whether **on-shell nonsphericity plus nonzero Y induction are possible within one action**. This is not the same as a broad source-shape search.
+3. **PH15 starts as a mathematical falsifier:** derive the exact covariant field variations and the necessary condition for induced Y, including possible `lambda=F(A_0)` or other integrability/Noether obstructions. **No 3D optimization** before this test.
+4. **If a rigorous source survives**, solve one controlled stationary **axisymmetric** charged-scalar–Maxwell family with genuine winding/magnetic currents and correct axis/outer boundary conditions. Do not translate precomputed PH12 spheres and call it on-shell.
+5. **Full source–carrier reciprocity is PH16, not a shortcut:** include the generated Y response in the X Maxwell and all charged scalar equations, the universal conformal factor, and metric/source stress. Verify full constrained kinetic health *on the actual solution*, not an arbitrary magnetic background.
+6. **Earn external force separately:** PH17 may consider Earth below a finite onboard source and actual exterior transmission **only** after source, coupled fields and canonical healthy-mode gates. All source/hull/support/field/air/Earth momentum must close. A positive acceleration of one finite neutral test body is not whole-craft lift.
+7. **Keep B11-M6 co-primary:** analytic hyperbolic/retarded source-driven equations and the old failed loaded static limit can be derived in parallel. Run pulse/cycles only after a supported healthy dynamical background and complete sign, recoil, radiation, loss and work definitions.
+8. **Retain real benchmarks unchanged:** 1 kg finite neutral torus with `>=1g` sampled throughout at `>=1 m` true stand-off, and *separate* Earth-down/craft-up whole-spacecraft goals. Do not transfer dimensionless PH14 radii or energies to SI without a justified physical scale.
+9. **Strictly `<10,000,000 J` complete conservative operating-energy target:** exactly 10MJ fails; one cost >=10MJ closes that realization. Sub-100-J prescribed field tuning is not a priority.
+10. **AGMINER remains theorem-first, not an optimizer:** negative no-go results are assumption-scoped; reopen only if the candidate's genuine additional physics changes the closed theorem's assumptions. Use source fidelity, gauge Ward/Noether, canonical and quantum/UV/experimental screens before costly numerics.
+11. **Do not mistake regression for physics:** 2,220 passing tests establishes the current checkout's recorded software/regression outcome, not complete action, stability or a physical engine. A newly installed PH15 requires its own focused and fresh full suite.
+12. **Success is the fastest decisive *answer*, including a negative answer:** a correct, reproducible theorem ruling out the minimal induction family is better than an apparently promising but off-shell huge 3D sweep. A conditional distinct family requires a registered physics change and new preflight.
+
+**Current decision:** `PH14_NEUTRAL_CLASSICAL_ONSHELL=PASS_SCOPED`; `PH14_TRACE_INDUCED_Y=ZERO_BY_SYMMETRY`; `PH13_NONSYMMETRIC_INDUCED_Y=OFFSHELL_FIRST_ORDER_ONLY`; `PH15=NEXT_UNEXECUTED`; `PH16/PH17=CONDITIONAL_NOT_EXECUTED`; `B11_M6=CO_PRIMARY_OPEN`; `006D_REPLACED=NO`.
+
+## 1. Evidence precedence, documentation roles and source control
+
+### 1.1 Evidence in descending order of physical/numerical authority
+
+| Evidence | Controls | Cannot establish on its own |
+|---|---|---|
+| Exact executed source, tests, original result JSON, full terminal output, independently checked SHA-256 | Equations actually solved, numerical results, run date, recorded validation gates | Physical or experimental correctness beyond declared model |
+| Independently reconstructed analytic identities, separate numerical algorithms, convergence and limiting-case tests | Source action consistency, constraints, error control | Real matter, UV or engineering existence |
+| Newest dated scientific journal and `NOTES.md` | Actual chronology, measured values, negative claims, reasoning and handoff | An execution absent exact runnable evidence |
+| **This active Part I** | Priority, candidate-scoped halt rules, when expensive solves are authorized | A new experiment's actual result |
+| `AGMINER_BUILDPLAN.MD` | Closed source and mechanism assumptions, exact falsifiers | Universal no-go from finite scope |
+| `INTROSPECTIVE_BUILDPLAN.md` | Geometry mechanisms, failure transfer | `CERTIFIED_GE1000X_CONTINUUM_SOURCE`; remains NO |
+| `FORMATTING_AND_CODE_STANDARDS.md` | GitHub fenced `math`, tests, explanation, local paste-ready Bash | Theory confirmation |
+| README / public claims | Conservative verified statements | An authorization to upgrade speculation |
+| **Archived November 14 and older buildplans** | Original hypotheses, numerical values, decision history | Current run order |
+
+Do not rewrite a historical `PASS_SCOPED`, `RED`, `YELLOW`, `NOT_RUN`, error case, or source SHA to match a new interpretation. Use dated errata. An exact mathematical implication and an independent physical assumption must remain distinguishable.
+
+### 1.2 Reproducibility of this update
+
+The uploaded **unchanged November 14 buildplan** is `Pasted text(20261115-192839).txt`, SHA-256 `47b49c44c28208649f43fef11fd4c47a18485cadd68ce58cbd5ec7fefd13cfec`, 7,712 text lines. This update appends its original byte stream after an explicit archival divider, with no alteration to that older document. The archive includes *nested full older plans*; read historic identities there without treating stale `NEXT` entries as active.
+
+The documented PH14 execution used macOS 15.7.7 x86_64, Python 3.13.15. PH14 source fingerprint: `9a9cf92314ac1c1bdd23197082f08b47559342f3f607b8d5f81bc4bd85eb0e7d`; runner fingerprint `956619554cdbcc0dbd44eefc57de8b87dd30da2ca2f640da4519739d726b3dd0`. Its archived PH12/PH13/M5V exact-source provenance checks report `MATCH`. A separate earlier **M5V installer-extracted** SHA mismatch remains historical archival hygiene; a later match to the recorded M5V module does not retrospectively prove the older installer byte-identical.
+
+This document is a proposed replacement of `RESEARCH_BUILDPLAN.md`; no actual change to the user's repository, journal, notes, AGMINER, Introspective, README, code or test files is implied by its generation.
+
+## 2. What PH1–PH14 established and falsified
+
+### 2.1 Condensed executed chronology
+
+| Executed stage | Strongest supported result | Decisive limitation / falsifier | Full regression at stage |
+|---|---|---|---:|
+| PH1 | Physical-action algebra and source-shape preflight | Artificial source kinematics, no full action/Earth force | See original result |
+| PH2 | Cheap charged-dust/free-winding/static Maxwell falsifiers; reduced causal recoil | No supported microscopic static source or full B11 | See original result |
+| PH3 | Conditional kinetic/causal obstruction for a simple linear portal | Not general across all nonlinear portals | See original result |
+| PH4 | Full characteristic/sign controls and healthy/repulsive tension | Pure sign-flipped quadratic choices not a complete physical escape | See original result |
+| PH5 | Local mixed odd/even `sigma(P)=alpha P-beta P^2` compatibility | Global mode health, CP/UV, source support absent | See original result |
+| PH6 | Reduced same-action finite-neutral impulse and recoil | 1D reduced, no 3D Earth/craft or signed stable cycle | See original result |
+| PH7 | Spectral negative-signal correction, joint kinetic requirement; scoped total momentum residual `6.83e-9` | Full physical causal driver, metric/gravity and cycle not solved | **2,000** |
+| PH8 | Finite 3D charged-scalar kinematic current and first Maxwell field | Charged scalar KG EOM off-shell; support missing | **2,032** |
+| PH9 | Periodic static Maxwell gauge self-loading | Fixed scalar amplitudes still off-shell; `E_KG` large | **2,048** |
+| PH10 | Exact zero-gauge radial bounded-well modes | Loaded KG residual; prescribed well traction and tails | **2,064** |
+| PH11 | Exact scoped universal-metric/matter-trace source variation; nonzero trap traction | Full support stress/Einstein/carrier backreaction absent | **2,087** |
+| PH12 | Self-interacting **isolated** gauged scalar and electrostatic field solved on-shell without prescribed well | Not neutral composite, Y, full stability, gravity or SI | **2,125** |
+| PH13 | Independent PH12 check, 8-mode fixed-charge Hessian, full coupled kinetic counterexample; trace-induced Y from nonspherical **off-shell** two-sphere superposition | Y not source-on-shell; positive sampled Hessian not spectral stability | **2,173** |
+| **PH14** | **Jointly on-shell, electrically neutral, no-prescribed-well, two-scalar X-electrostatic spherical equilibrium**; favorable matched isolated energy | **Spherical trace-induced Y exactly zero**, 12-mode static Hessian restricted, UV and GR missing | **2,220** |
+
+These counts refer to newly completed full-suite runs and cannot be constructed by summing focused tests. The individual earlier run JSONs remain primary evidence for detailed PH1–PH11 numbers and assumption scopes.
+
+### 2.2 PH12–PH14 quantitative anchors for direct reconstruction
+
+**PH12:** One-species gauged scalar with `U(s)=m^2 s-b s^2+c s^3` and declared `m=1,b=2,c=2,e=.05`; `omega=0.9133362936323492`, `N=79.20192608470283`, `Q_X=3.960096304235142`, `E=78.66686527273323` canonical, `E/N=0.9932443459594988`; Gauss discrepancy `7.36e-9`, integrated stress defect `4.44e-9`; full stability/UV not certified. Its scalar has an exponential tail; finite numerical domain does not imply exact compact support.
+
+**PH13:** Independent PH12 energy `78.66686200449178` and N `79.20192241891465`; lowest 8-mode fixed-charge static Hessian eigenvalue `+0.06639366672080847` with nonzero discrete gradient, NOT a spectral stability certificate. Off-shell, two-center induced Y, periodic `n=129`: `integral(B_Y^2)=2.1460834478521506e-6`, `integral(|P|)=0.0007287259859881403`, `max|P|=2.001373353287262e-6`, signed volume P approximately zero; microscopic Y current not prescribed. Conditional B=2 scalar-center frozen kinetic `+0.729161430945924`, full joint Schur `-0.42999704656934545`, so a frozen-carrier check can miss a negative coupled mode. This is a *hypothetical* magnetic background, NOT instability proved for PH14.
+
+**PH14:** Two species `m_plus=1`, `m_minus=1.08`, opposite X charges `+0.05/-0.05`, `b=c=2`, `f_plus(0)=.7`, domain radius 40 canonical, `omega_plus=.909892974175498`, `omega_minus=1.0054015240822434`, `f_minus(0)=.68244607822384`. `N_plus=77.98837343718844`, `N_minus=77.98837343734536`, residual gauge charge `-7.845812888263027e-12`, relative neutrality `2.0120468070985282e-12`, `max|E_r|=.0005383584446341459`. Energy components: matter-time `74.68534193364871`, matter-gradient `18.217791290626007`, scalar potential `68.61274795646047`, electric inside `9.352588766498052e-6`, exterior Coulomb effectively zero; total **`161.51589053332395` canonical units**. Free-quantum reference `162.21581674952142` and separated isolated Q-balls *at the same two Noether numbers* `161.889035667003`; selected binding advantages `0.6999262161974684` and **`0.37314513367903146`**, respectively. The latter is only ~0.23% of the separated reference and may be changed by new fields, angular momentum, or full relaxation. Local radial stress divergence `3.7626152193936946e-15`, virial relative residual `4.009320452612122e-11`; 12-mode radial fixed-charge Hessian minimum `+0.20883838665688392` versus `+0.21023890179305507` alternate grid, **but the discrete energy gradient is not zero (`0.02651045818424791`) and full dynamical/nonradial stability is unknown**. Spherical Y induction EXACT ZERO. PH14 focused **47 passed**, full **2,220 passed**, provenance PASS.
+
+**Interpretation:** The PH14 binding is against two separately solved solitons with matched individual conserved N, not against every allowed two-body state, and not at fixed spin for future winding states. Comparing a spinning state to two nonspinning reference states without matching total angular momentum and other conserved quantities is prohibited.
+
+### 2.3 Narrowest honest mechanism gap
+
+| What is demonstrated | What is not | Required next mathematical operation |
+|---|---|---|
+| PH14: source matter and X field satisfy coupled radial EOM, neutrality, stationary stress | Nonradial on-shell solution, supported magnetic Y, full total action | PH15 on-shell axisymmetric existence + exact induction test |
+| PH13: a nonradial **off-shell** trace distribution drives Y at first order | Valid complete source, reciprocal two-carrier feedback | PH15 physical shape then PH16 reciprocal solve |
+| PH13: some backgrounds have negative joint Schur while frozen carriers look healthy | Actual PH14/PH15 spectrum and constrained GR modes | PH16 Dirac constraints, characteristic and mode tests on actual fields |
+| PH7: reduced impulse carries recoil and field momentum | Full driven 3D pulse, cycles, radiation/whole craft | B11-M6 sourced hyperbolic evolution |
+| M5V: an artificial reduced action has nonzero Earth-coordinate derivative | Real neutral Earth response or force on onboard craft | PH17 physical matter and complete Earth/craft variation |
+
+**Do not count progress twice:** finding nonzero `P` on an off-shell source and finding an on-shell neutral source separately do not constitute a physically complete two-carrier source.
+
+## 3. Exact source, universal-metric and induction mathematics
+
+### 3.1 PH14 source-sector action and restriction
+
+For background signature `(-,+,+,+)` and a consistent `D_mu=partial_mu-iq_i A_{X mu}`, a schematic source-sector action actually addressed by PH14 is
+
+```math
+S_X=\int d^4x\sqrt{-g}\left[-\frac14F_{X\mu\nu}F_X^{\mu\nu}-\sum_{i=+,-}\left(g^{\mu\nu}(D_\mu\psi_i)^*D_\nu\psi_i+U_i(|\psi_i|^2)\right)\right]
+```
+
+```math
+q_+=+e,\qquad q_-=-e,\qquad U_i(s)=m_i^2s-bs^2+cs^3
+```
+
+At the specified canonical flat-space normalization, the one-species radial stationary EOM and electrostatic Gauss equation follow from this *restricted* action. The PH14 spherical ansatz is `psi_i=f_i(r) exp(i omega_i t)`, `A_X=A_0(r)dt`, Y=0. It is **not the entire universal-metric gravity source action**. Positivity of this special polynomial potential does not establish renormalizability or UV health; an effective `|psi|^6` term in 3+1 dimensions requires a dimensionful EFT coefficient and cutoff.
+
+### 3.2 Matter and the proposed physical metric
+
+Carry forward the candidate matter-metric relation only with a **single fixed Lorentzian pseudoscalar convention**:
+
+```math
+\widetilde g_{\mu\nu}=e^{2\sigma(P)}g_{\mu\nu},\qquad \sigma(P)=\alpha P-\beta P^2
+```
+
+```math
+P=\frac12 F_{X\mu\nu}({}^\star F_Y)^{\mu\nu}
+```
+
+If ordinary neutral matter, source matter, hull, Earth and atmosphere are claimed universal, vary all relevant matter actions under the same physical metric, including the source sector. At `P=0`, `sigma=0`, but first variations with respect to Y need not vanish even if Y itself is initially zero.
+
+In a stated scalar-matter sign convention, the matter trace coefficient is
+
+```math
+\lambda:=\frac{\partial\mathcal L_m}{\partial P}=-\left[2e^{2\sigma}K+4e^{4\sigma}U\right]\sigma'(P)
+```
+
+and at `P=0`,
+
+```math
+\lambda_0=-2\alpha(K+2U)
+```
+
+with `K` evaluated covariantly on the **same** source. Verify every minus sign and normalization directly from the actual action; keep R3X1 corrected Lorentzian constitutive controls. The linear P term is pseudoscalar, so parity/CP transformation properties, allowed symmetry breaking and radiative generation of other operators must be explicit.
+
+### 3.3 Same-action induced-Y necessary condition
+
+With no microscopic Y-charged scalar matter, the leading static induced Y equation for an X-electrostatic source has the local-structure test
+
+```math
+\nabla\times\mathbf B_Y\ \propto\ \nabla\lambda_0\times\mathbf E_X
+```
+
+(up to the exact sign and coefficient fixed by the full covariant gauge variation). This is a *first-order sourced response*, not the complete coupled constitutive equation. Since `E_X=-grad A_0`, the necessary condition for a nonzero curl source is
+
+```math
+\boxed{\nabla\lambda_0\times\nabla A_0\ne0\quad\text{somewhere}}
+```
+
+Spherical PH14 has `grad lambda || grad A_0` and gives ZERO. Crucially, **nonsphericity alone is insufficient**: if the on-shell equations force `lambda_0=F(A_0)` then gradients are parallel and this source vanishes even on a nonspherical field. Also inspect more general integrability identities, boundary/surface induced currents and the divergence constraints. A vanishing curl source closes *this linear static mechanism in that source class*, not all different metric or dynamical mechanisms.
+
+The identity `F_X wedge F_Y = d(A_X wedge F_Y)` for smooth Abelian fields implies a constant-coefficient mixed topological term is a local bulk total derivative under relevant boundary assumptions. A spacetime-dependent matter coefficient can yield bulk gradients and boundary stresses. The PH13 periodic integral `int P ~= 0` is compatible with nonzero local P and is not a no-go for local response; neither is it a source of net craft thrust.
+
+### 3.4 PH15 axially stationary source candidate and exact source currents
+
+A distinct sector worth a **cheap preflight** is
+
+```math
+\psi_i(t,\varrho,z,\varphi)=f_i(\varrho,z)\exp\!\big[i(\omega_i t+n_i\varphi)\big],\qquad n_i\in\mathbb Z
+```
+
+with **both** `A_{X0}(varrho,z)` and the necessary coordinate azimuthal potential `A_{Xvarphi}(varrho,z)` varied. The angular covariant derivative contains `n_i-q_i A_{Xvarphi}`. The source current, angular momentum, Poynting/angular momentum field content and support stress must be obtained by action variation. A rotating `psi` with `A_varphi=0` and a nonzero current is **not** a complete stationary Maxwell solution.
+
+- In a regular axis gauge, nonzero winding requires `f_i ~ varrho^{|n_i|}` near the axis; use a gauge-covariant formulation and proper parity/regularity at the origin and equator.
+- A finite-energy source with zero total X charge can have nonzero electric multipoles and/or magnetic fields. Zero net charge is not zero field.
+- For opposite X charges, opposite winding numbers can *add* rather than cancel azimuthal electric currents; check the exact current sign, angular momentum and self-generated X magnetism before solving.
+- `n_i=0` nonspinning deformed branches must be treated separately, potentially using an `ell=2` bifurcation diagnostic. Integer winding is a different topological sector, not an infinitesimal deformation of `n=0`.
+- The source geometry and all nonzero X magnetic components must enter P, Y induction and the full action. Do not assume the old pure-electrostatic `grad lambda x E_X` form is the entire Y source once X magnetism or time dependence exists.
+- Require regular origin/axis, finite scalar tails, true far-field Maxwell multipole matching, finite total charges and energy, asymptotic or sufficiently controlled domain, and no hidden wall current or imposed surface source.
+- Charge neutrality `Q_X ~ 0` must follow from the Noether numbers and EOM, not a numerical monopole subtraction that alters the source without corresponding matter transport.
+
+The full Euler–Lagrange source/electromagnetic PDEs, boundary conditions and conserved charges are **PH15 deliverables to derive**, not already obtained in PH14.
+
+## 4. PH15 — highest-information physically sourced run: exact falsifier before PDE
+
+**Identifier:** `032H17A12D1R3X3B17-PH15`  
+**Name:** `ONSHELL_AXISYMMETRIC_NEUTRAL_SOURCE_AND_TRACE_Y_EXISTENCE`  
+**State:** `DESIGNED_NOT_EXECUTED`  
+**Primary question:** Does the proposed field theory admit a finite-energy, asymptotically controlled, electrically neutral, stationary source which is simultaneously on-shell and creates a nonzero Y source/field through the actual matter-trace variation?
+
+### 4.1 Stage 15-P0 — lock evidence and exact model contract (cheap)
+
+- Confirm the original PH14 module/runner/JSON hashes and analytic source equations, as well as PH13 off-shell Y controls and the restricted joint Schur counterexample. Verify M5V source provenance only as an archival check.
+- Register `(-,+,+,+)` convention, Hodge star, `F_X,F_Y,P`, electric/magnetic signs, charge/current normalization, source mass/charge/potential coefficients, all dynamical fields and boundary conditions.
+- State which matter fields couple to `g` versus `tilde g`, whether gravity is frozen Minkowski or dynamical, and which exact variations are being tested in this stage. Do not call a partial action fully universal.
+- Freeze comparison rules: separate conserved `N_plus,N_minus`, total X gauge charge, angular momentum, asymptotic flux; do not call a different-charge or different-spin reference an energy-lowering solution.
+
+**Pass:** exact action and assumptions can be independently reproduced. **Stop:** unresolved source/gauge normalization, historical failing baseline not reproduced, or contradictory use of universal metric.
+
+### 4.2 Stage 15-P1 — analytically derive induced Y and no-go conditions (highest priority)
+
+Before spatial PDE work, derive complete first variation `delta S_total/delta A_Y` and identify whether it is nonzero for each proposed X source, including all magnetic and electric components, support surfaces and Bianchi identities. Derive sufficient/necessary local conditions for `d lambda wedge F_X` to create an exterior Y mode and when `lambda=F(A_0)` or other integrability relations force zero. Inspect off-shell Ward identity and the on-shell current/stress exchange.
+
+Run symbolic/finite-difference variation cross-checks with sign reversal, parity transformation and constant-`lambda` null controls. Include spherical PH14 zero-Y as an exact required regression. An algebraic counterexample using arbitrary `lambda` does not count unless `lambda` is the on-shell trace of actual scalar matter.
+
+**Pass:** a nonzero Y source is mathematically permitted by one explicitly derived *on-shell-compatible* source family; specify minimal symmetry-breaking structure. **RED:** a theorem forbids Y for the selected family; record exact assumptions and stop its numerical search. **YELLOW:** integrability unresolved; no promotion to big solves.
+
+### 4.3 Stage 15-P2 — discriminating physical source families (minimum viable pair of hypotheses)
+
+Register at most two nonredundant source families:
+
+- **Family A: stationary winding/axisymmetric source** with `n_i` chosen through symmetry/charge/regularity analysis, not by maximizing induced Y. Include self-consistent X azimuthal gauge field and nonzero angular momentum, and solve the appropriate constrained stationary equations.
+- **Family B: nonspinning symmetry-breaking or relative-position branch** only if PH14's full constrained nonradial Hessian/bifurcation analysis allows it. A frozen two-center PH12 superposition is only a negative/reference control, never an on-shell solution. If no bifurcation or physical confinement, close the family.
+
+The cheap discriminators are axis regularity, current sign and return, Gauss/Bianchi consistency, a necessary induction-source integral or local misalignment, and a constrained energy/Stability preflight. No blind 3D source-position or portal-parameter sweep.
+
+**Pass:** at least one family has no exact EOM/geometry/health obstruction and a well-posed PDE with realistic asymptotic conditions. **RED:** wrong current/regularity, no angular support, exact forced alignment, no finite-energy or no conserved charges. Different family reopening requires explicitly new physics.
+
+### 4.4 Stage 15-P3 — minimum finite axisymmetric BVP (expensive only if authorized)
+
+Use a finite-element/spectral/finite-volume solver on `(varrho,z)` with analytically enforced axis regularity, well-controlled outer multipoles and at least three meaningful resolution/domain controls. Unknowns include both scalar amplitudes, independent frequencies, `A_{X0}`, `A_{Xvarphi}` and any extra source-sector field required by the chosen action. Gauge fix completely without removing a physical mode. Enforce `Q_X=0` by solving for the appropriate free parameter, not by altering the computed current afterward.
+
+Initialize only from consistent approximate states; do not prescribe an off-shell source and solve Maxwell alone. Check individual scalar EOM, both Maxwell constraints, charge flux, total angular momentum, stress divergence, stationary virial including field boundary terms, energy and source support. Verify the residual against **independent physical derivatives**, not only the same collocation operator.
+
+**Numerical pass:** convergent nontrivial on-shell axisymmetric source in declared truncated theory. No claim of full gravitational/UV existence. If source fails to exist, preserve the scoped existence/negative result and do not extend to Earth or dynamics.
+
+### 4.5 Stage 15-P4 — Y induction from that source, NOT an imposed second field
+
+Derive `J_Y,eff` from full action at `F_Y=0` using the **actual computed** on-shell X source. Solve Y's linearized constitutive field equation with correct free-space outer boundary (or justified radiation/static conditions), and compute exterior Y field multipoles, P, local metric diagnostic, required energy, source-work difference and conservation.
+
+Controls: alpha=0, constant lambda, spherical PH14, source orientation reversal, charge conjugation, winding reversal, source-off, no fictitious Y current. Check if induced Y is a pure gauge or vanishes outside source, and whether `int P` is zero while `int |P|` is nonzero. Report the actual source-to-neutral-test distance, including scalar tails and any containing hull.
+
+**Pass:** finite, regular, nonzero sourced Y field on an on-shell X/background source with robust convergence. **Not yet:** full two-carrier on-shell equilibrium, universal metric, SI or external force. **RED:** Y vanishes by exact integrability or exterior closure; source fails its EOM after physical corrections; field is boundary artifact.
+
+### 4.6 Stage 15-P5 — independent falsification and output
+
+Deliver two independently implemented derivations for the key variation/sign/induction condition, an exact null control and at least two real PDE discretizations or cross-method derivative checks. One fine grid with machine-precision discretized residual is not enough if the continuum source changes or is off-shell.
+
+**Mandatory PH15 outcomes:**
+
+```text
+PH15_EXACT_Y_VARIATION = PASS_SCOPED / RED / UNRESOLVED
+PH15_SOURCE_FIELD_CONTENT = SPECIFIED / INCOMPLETE
+PH15_ONSHELL_NONSPHERICAL_NEUTRAL_X = PASS_SCOPED / RED / NOT_SOLVED
+PH15_REAL_JPHI_AND_AXIAL_GAUGE = PASS_SCOPED / RED / NOT_APPLICABLE
+PH15_TRACE_ELECTRIC_OR_GENERAL_F_MISALIGNMENT = NONZERO_DERIVED / EXACT_ZERO / UNRESOLVED
+PH15_INDUCED_Y = PASS_FIRST_ORDER_ONSHELL_X / EXACT_ZERO / NOT_SOLVED
+PH15_EXTERIOR_Y = FINITE_CONVERGENT / NONE / NOT_CERTIFIED
+PH15_SOURCE_ENERGY = CANONICAL_VALUE_WITH_LIMITS / NOT_COMPUTED
+PH15_FULL_RECIPROCAL_ONSHELL = NOT_SOLVED_UNTIL_PH16
+PH15_FULL_STABILITY_AND_UV = NOT_CERTIFIED
+PH15_EARTH_DOWN_FULL_CRAFT_UP = NOT_DERIVED
+PH15_FULL_STRICT_LT10MJ = NOT_CERTIFIED
+PH15_006D_REPLACED = NO
+```
+
+**Success can be a clean scoped RED.** Prefer fewer complete falsifiers to many incomplete solver jobs. Save exact original JSON, hashes, solver diagnostics and all failing negative cases.
+
+## 5. PH16 — conditional reciprocal two-carrier and universal-metric completion
+
+**State:** `CONDITIONAL_NOT_EXECUTED`. **Authorization:** PH15 must have identified a well-posed on-shell charged source and nonzero first-order induced Y, or an explicitly distinct viable same-action mode. One must not infer PH16 PASS from an off-shell PH13 geometry.
+
+1. **Write and vary a single complete candidate effective action** including source scalars, X and Y carriers, universal metric for neutral/source/hull/Earth matter as claimed, correct gravitation/compensators, and source-support boundaries to the claimed perturbative order. A partially coupled flat-space action may be an intermediate labelled `SOURCE_PLUS_TWO_U1_ONLY`, not a full antigravity action.
+2. **Solve mutual loading:** source scalars, `F_X`, `F_Y`, `sigma(P)`, matter trace and any physical metric variable must be self-consistent. Include all induced currents, polarization, transport and stress. Freeze no field that the action says varies. Continue from weak portal coupling carefully; the loop or fixed-point convergence is not a physical constraint proof.
+3. **Derive and verify identities:** exact `U(1)_X x U(1)_Y` source Ward, scalar EOM, Gauss, Bianchi, Einstein/diffeomorphism/Noether, stress exchange, boundary/surface charge, total angular momentum and energy. Source local stress and full energy must close as a composite, not just individually.
+4. **Constrained health:** canonical signs, primary/secondary constraints, gauge fixing, ghost/gradient/tachyonic modes, complete scalar–carrier kinetic Schur, hyperbolic characteristics, longitudinal and nonaxisymmetric perturbations, angular `m=2`, radial breakup, charge-conserving separation, scalar phase modes. The PH13 frozen-positive / joint-negative counterexample is an explicit required unit test.
+5. **Stability of PH14 binding under the actual interaction:** compare total relaxed energies at matched *individual Noether numbers, angular momentum and gauge flux*, including separated sources, radiation and magnetic/gauge energy. A `0.373145...` canonical-unit advantage from spherical X-only conditions is a baseline, not automatically retained when new Y/rotation costs enter.
+6. **Exterior and energy:** verify fields and physical metric outside the true source and hull; reject a perfectly confined local `P` channel with no independently sourced exterior metric. Record a canonical full-field/source inventory (not SI) and then an explicit SI matching hypothesis with EFT cutoff/empirical tests.
+7. **Stop when healthy physical modes absent:** never rescue a negative coupled eigenvalue by checking only the X or Y subblock, or by assigning nonreciprocal material coefficients.
+
+**Promotion:** `PH16_SCOPED_2U1_SOURCED_FULLY_RECIPROCAL_CLASSICAL_SOLUTION` only if all coupled EOM and constraints pass in a declared approximation; `PH16_FULL_GRAVITY` requires Einstein variation and actual dynamical gravitational solution; `PH16_STABLE` requires appropriately complete mode/nonlinear stability. These labels are distinct and must not be merged.
+
+## 6. PH17 — conditional exterior neutral matter, Earth and whole spacecraft
+
+**State:** `CONDITIONAL_NOT_EXECUTED`. **Preconditions:** source and full reciprocal carriers are on-shell and healthy with a real exterior influence and an explicitly physical universal metric. PH15's first-order local Y signal is **insufficient**.
+
+### 6.1 Separation of observables
+
+- **Finite neutral benchmark:** >=9.80665 m/s² outward throughout the sampled **1 kg torus** at >=1m true source-free stand-off. Check whether neutral body and source matter load the fields and whether the source remains on-shell. Use realistic neutral constituent stress and support, not a fictional prescribed density coefficient.
+- **Earth material:** physically modeled neutral matter **below** the onboard source, with actual composition, stresses, gravity, atmosphere and boundary conditions. Earth-down direction must come from the physical metric and matter equations, not a flipped coordinate label.
+- **Entire spacecraft:** integrate all onboard source, fields, supports, walls, hull, power and auxiliary systems. The novel net external force after subtraction must be independent of purely internal source–hull exchanges.
+- **Operation:** separate contact normal reduction, liftoff, suspended operation, auxiliary-assisted hover, ascent and altitude. Show on/off matched controls; radiation/air/ground thrust are distinguishable from new metric gravity.
+
+### 6.2 Exact force and momentum gate
+
+Use total stress–energy and correctly defined gravitational/boundary flux, not the M5V `-11.395... J/m` artificial gradient. In a weak, declared Earth-fixed frame, with +z upward,
+
+```math
+M_c a_z = F_{\mathrm{novel,external},z}+T_{\mathrm{aux},z}+N_{\mathrm{ground}}+F_{\mathrm{air/other},z}-M_c g_E
+```
+
+`F_novel` is **unknown** until derived. Require source-on/off external transfer, Earth-down/craft-up sign, field momentum accumulation, Earth internal modes, atmosphere, ground contact and radiation/exhaust balance. A closed self-contained craft with no external interaction cannot acquire sustained thrust by internal rearrangement. Distinguish genuine gravitational/metric weight change from ordinary reaction on matter via electromagnetic, pressure or radiation forces.
+
+### 6.3 Specific controls and numerical standards
+
+Start with no-Earth/no-air hull in vacuum: **zero** isolated persistent COM thrust after field/momentum terms. Then exterior empty-field boundary, neutral finite test body, Earth solid patch, air, hull, full contact, altitude, hover and trajectory only as earlier gates survive. Verify force by at least two genuinely independent evaluations: complete action displacement and stress/Noether/boundary flux in the *same physical theory*. Require spatial, source quadrature, material-interface, domain, finite exterior DtN/outer multipole and time convergence. Preserve B6 corrected boundary terms. Do not explain a mismatch by inventing unmodeled boundary impulse.
+
+**Stop:** wrong Earth sign, no exterior response, pure internal force, nonconvergent finite-box interface, missing support/exhaust accounting, nonphysical current in Earth, or energy lower bound >=10MJ for the stated protocol.
+
+## 7. B11-M6 — co-primary actually sourced causal dynamics
+
+**State:** `OPEN_NOT_EXECUTED`. Formal derivation begins independently of the expensive PH15 axisymmetric BVP, using the **same** chosen two-carrier and source/neutral-metric action or an explicitly labelled reduced action. A PH14 radial X-only solution does not supply a healthy two-carrier background by itself.
+
+| M6 gate | High-information question | Required pass | Stop condition |
+|---|---|---|---|
+| M6-0 action | Are both time-dependent `E_X,B_X,E_Y,B_Y` and source currents lawful? | Exactly derived hyperbolic principal part, Gauss/Bianchi, source continuity and stress | Ghost, unsupported current, ill-posed gauge modes |
+| M6-1 static limit | Does `omega -> 0` reproduce R3X1 corrected R3C/B4 *failed loaded 1kg* control? | Exact declared limit or genuinely new physics explaining difference | Unexplained restored R3B preloaded benefit |
+| M6-2 retarded kernel | Is there a healthy *sourced* phase response beyond quasistatic? | Causal poles, stable dispersion, physical field/source work | Arbitrary lag or unchecked unstable pole |
+| M6-3 one finite pulse | What is the **complete signed** impulse? | `I_+`, `I_-`, net, source recoil, field/radiation momentum, work, heat | Peak-only acceleration, reset, missing negative phase |
+| M6-4 cycles | Does operation from the actual prior end state remain bounded? | Repeated source-supported cycles, no artificial reinitialization | Startup-only response, secular runaway or cost divergence |
+| M6-5 craft/Earth | Does that impulse act externally on whole craft with valid Earth/air/radiation reaction? | Whole external signed impulse and <10MJ complete ledger | Internal impulse only or undefined physical budget |
+
+Use conservation-integral definitions
+
+```math
+I_+=\int\max(F_z(t),0)dt,\qquad I_-=\int\min(F_z(t),0)dt,\qquad I=I_++I_-
+```
+
+and record the actual field/source momentum and initial/final energy change. A source-driven pulse cannot be implemented by multiplying frozen R3B field arrays by independent arbitrary waveforms. At 1m, light travel is ~3.34ns, only a kinematic scale; real response times must follow dispersion and matter dynamics. A full 3D M6 pulse and a positive stable cycle do **not** exist as of PH14.
+
+## 8. Fastest reliable path through next session (one shared proof, then gated runs)
+
+**Recommended critical path; operations ordered to maximize information per compute:**
+
+1. **Run 0 (analysis-only, PH15-P0/P1):** Independently derive full Y variation; test on-shell `d lambda wedge F_X`/integrability no-go; exact PH14 spherical null, charge-conjugation and parity. Record a mathematical theorem with precise assumptions if source identically zero. **This may conclusively close the selected branch without any large numerical run.** In parallel derive M6 Gauss/Bianchi/constrained principal system and static limit; do not yet pulse.
+2. **Run 1 (PH15-P2/P3 if authorized):** Solve **one** genuinely physical axisymmetric source family, with proper winding, X azimuthal Maxwell field and gauge constraints. Seek genuine nonzero trace/electric or complete differential-form misalignment; compare at fixed conserved charges/spin. If no regular on-shell family, stop; do not extend to 3D.
+3. **Run 2 (PH15-P4 and independently checked Y):** Evaluate the *actual* on-shell source's trace and solve **first-order** sourced Y, with exterior multipoles, parity/spherical/slope-off controls and convergence. If zero, close this induction. If nonzero, move to reciprocal PH16 rather than optimizing the amplitude.
+4. **Run 3 (PH16 if promoted):** Full simultaneous source+X+Y matter metric loading and canonical constrained mode health; compare binding and source energy and the historical loaded-static failures. This may be computationally expensive. A coupled health failure is a legitimate RED, not a reason to maximize fields.
+5. **Run 4 (conditional PH17/M6):** If the full physical source survives, derive exterior Earth reaction/whole-craft force first; only then finite neutral torus, loaded Earth patch, and one causal pulse with signed ledger. Do not claim complete mission energy before physical units/source/hardware are fixed.
+
+**Parallelism:** use a PH15 theorem lane and an M6 causal-action lane; share exact source/constitutive identities, test fixtures, action normalization and R3X1 sign tests. Avoid parallel unrelated parameter optimizers. Reuse PH14 source only as a control; never overwrite it.
+
+### 8.1 What would *actually* support a jump toward 50–60% heuristic?
+
+The ~35% figure is an internal qualitative planning estimate. No number of runs guarantees reaching 40%, 50%, 60% or a realizable engine. **Use this evidence checklist, not an automatic percentage reward:**
+
+- An on-shell non-spherical neutral source and induced exterior Y, with independent continuum source and Ward checks, would close a major missing *existence* gap but still be a partial theory.
+- Full reciprocal two-carrier and universal-metric source coupling, positive constrained modes and a nonpathological physical source energy would close an additional decisive gap, *if* no new instability appears.
+- A derived exterior neutral finite-body response and **Earth-down/whole-craft-up** stress/Noether force, with convergence, would make a significant model-level advance; no amount of local P alone can substitute.
+- Full B11 signed repeatable impulse, SI matching/empirical/quantum checks and strict complete <10MJ are independent non-negotiable milestones, even if the internal model becomes mathematically mature.
+
+Only after actual executions and independent cross-checks should a revised subjective percentage be considered. “60% physical source and interaction theory” must **not** be presented as 60% spacecraft hardware or experimental gravitational repulsion. Honest scoped negative theorems are valuable narrowing progress without a compelled increase in percent.
+
+### 8.2 Conditional targeted BETA-1, not a revival of ALPHA-1
+
+If PH15 proves a narrow *physical* obstruction, permit one narrowly framed artificial **BETA-1** mathematical experiment only if it separates competing microscopic mechanisms and identifies an exact necessary source symmetry, response tensor or current shape. Register (i) new physics assumption, (ii) exact failed theorem hypothesis changed, (iii) 1–2 discriminating observables, (iv) pre-registered stop, (v) independence from arbitrary source scale and (vi) reason a purely analytic proof is insufficient. Return immediately to physical source realization after the diagnostic. No general M5W source-shape, C2-interface or few-joule optimization campaign.
+
+## 9. Mandatory model-health and falsification matrix
+
+| Gate | Required concrete evidence | Do not mistake for passage |
+|---|---|---|
+| Exact gauge/Ward | Correct `U(1)_X x U(1)_Y` variations and conserved Noether charges for actual source matter, anomaly accounting | Globally zero integrated charge or imposed projection |
+| Full scalar/source EOM | All source scalar, gauge, trace and material EOM vanish after coupled loading | Spherical X-only EOM or PH13 shifted on-shell separate lumps |
+| Regular source and exterior | Axis/origin regularity, finite stress/energy, correct multipole and boundary flux, no current through fictitious surfaces | A periodic box or truncated tail described as compact support |
+| Causality and spectrum | Constrained propagator modes, positive kinetic/gradient, characteristic bounds, radial/angular m>=1 and m=2, nonlinear survival | Static energy virial or 12 positive sampled Hessian eigenvalues |
+| Universal physical metric | Same explicit physical metric for all claimed matter species, full chain-rule metric/carrier variation and Noether stress | Hand-assigned interface coefficient, source unaffected by its own metric |
+| Matter/neutral test | Truly neutral finite material response with reciprocal carrier loading | Test-particle `-c^2 grad sigma` on preloaded fields alone |
+| Whole craft | Source+support+hull+field momentum, Earth/air/exhaust/gravity flux | Force on an onboard part or equal-looking M5V coordinate derivative |
+| Empirical/UV | Operator normalizations, cutoff, radiative naturalness and valid bound comparisons | Calling a carrier dark or setting e small in arbitrary units |
+| Complete energy | SI and defined protocol, all necessary hardware/source/work/field/loss/off-state/mission terms with no double counting, strict `<10MJ` | `161.515` natural units or `1.5429 J` preloaded capacity |
+| Independent physics | Independent derivation/code, meaningful convergence, observables reproducible, experimental comparison | Automated pytest PASS or optimistic heuristic score |
+
+All no-go claims are model/assumption scoped. If an experiment cannot satisfy an essential upstream gate, stop before running high-resolution downstream physics under contradictory assumptions.
+
+## 10. Complete energy, physical calibration and empirical/quantum hurdles
+
+### 10.1 Never convert natural-unit soliton results into joules by label
+
+PH12–PH14 masses, couplings and radii are chosen canonical parameters. `E_PH14=161.51589053332395` and `Delta E_binding=.37314513367903146` are **not** joules and do not certify the R3B few-joule field nor energy below 10MJ. A physically sourced realization needs measured or justified mass parameters, field normalization, gauge coupling, scalar quartic/sextic Wilson coefficients and cutoff, particle content/charges, physical geometry, macroscopic field strength and source support. The sextic scalar is an EFT interaction; quantum/naturalness/renormalization must be analyzed. The soliton's classical charge/energy can be large in one unit and extremely different in SI depending on normalization; assigning a convenient unit is not a discovery.
+
+### 10.2 Exactly defined energy policy and mission
+
+For each physical candidate define a mission: whole craft mass, start/contact or suspended state, altitude, run duration, target force/impulse, drive pulses, shutdown state, auxiliary assistance, stored-energy recovery and thermal protocol. Define counts for required source constituent rest mass under an explicit, conservative and non-double-counting research convention, while separating the ordinary preexisting hull's rest-mass equivalent from necessary exotic source energy. Do **not** change conventions after observing a threshold result. Calculate both novel-apparatus and full mission budgets.
+
+| Cost component | Mandatory entry |
+|---|---|
+| X and Y | All four E/B vectors, full on-shell storage, radiation, energy-momentum flux |
+| Source scalars and material | Rest/internal, gradient, potential, charge/current work, angular winding, decay, fabrication and support |
+| Metric/gravity/compensator | Actual dynamical degrees, propagation and backreaction energy, not imposed static sigma |
+| Support/hull/containment | Mass, stresses, vacuum, walls, fields and heat, reaction on all onboard matter |
+| Drivers and switching | Voltage, charge transport, activation/off-state, peak power, losses, cooling and control |
+| Environment and mission | Ground/Earth work, atmosphere, source-on/off lift, potential/kinetic energy, auxiliary propulsion/exhaust |
+| Repeatability | End-of-cycle stored state, recovery efficiency, residual radiation, entropy/heat |
+| Empirical/UV | Required physical source states, fine tuning and quantum corrections; constraints not evaded by ignoring them |
+
+If an unavoidable necessary **nonnegative** component is >=10,000,000 J, reject the specific design at that benchmark; a smaller partial term cannot pass. The energy sum must not double-count source rest/internal energy or field contributions through inconsistent Hamiltonian definitions. Avoid optimizing already <100J field-only capacities without improving physical feasibility.
+
+### 10.3 Experimental and phenomenological constraints
+
+Evaluate actual physical operator and coupling on standard matter, including equivalence principle, short/long-range fifth-force, precision EM, charge neutrality, spectroscopy, strong fields, astrophysical/stellar/cosmology where relevant, parity/CP violation, radiative generation of lower-dimensional terms, gauge anomaly and scattering-unitarity/EFT cutoff. No universal experimental compatibility claim can be made using a bare label such as 'massless hidden U1' or 'positive phi6'. The source must remain known or explicitly hypothetical.
+
+## 11. Earth/craft mission acceptance and independent historical controls
+
+### 11.1 Two *separate* physics baselines
+
+**Benchmark L (laboratory/finite neutral matter):** neutral 1 kg torus with major radius 1m and minor 0.2m, modeled source radius 2m, true external source-free gap >=1m, >=`9.80665 m/s^2` outward **everywhere sampled**; re-solve full matter loading. A12C and R3B original *preloaded* PASSES do not imply a loaded-source PASS.
+
+**Benchmark C (craft Earth-directed):** all apparatus aboard finite spacecraft, Earth below, source/support gap and hull altitude physically meaningful, added upward **whole-craft external** force or reduced gravitational response independently derived and conserved, launch/contact/suspended/hover/altitude/auxiliary phases distinguished. Auxiliary propulsion allowed but counted and labelled. Do not claim reactionless propulsion or call ordinary electromagnetic air/ground force gravitational repulsion.
+
+### 11.2 Permanent ALPHA-1 artificial constraints
+
+M5V `50/50`, `1803 passed` at freeze; finest extended h=.04m Earth derivative `-11.39567591875062 J/m`, craft `+11.397230072689275 J/m`, common translation `+0.0015541539386560999 J/m`, on-off interaction action `-7.975232332157248 J`. These are **numerical derivatives of the prescribed reduced stationary action**, not full mechanical force. Its second-order extended `h^2` extrapolate approximately `-11.307519773453 J/m`, with material-interface-width dependence, approximate finite-box exterior, V7–V10 unresolved. M5U original 40/42 incomplete with independent X1 erratum. Historical original M5V installer SHA caveat preserved.
+
+### 11.3 Mandatory frozen physical failures and protected anchors
+
+- **006D:** `C=23.591586299249`, original unreplaced conservative finite positive-energy static linearized GR stand-off; catastrophic equivalent energy ~`3.12e29 J` for illustrative 1g/1m configuration.
+- **018B/018C:** field existence separate from tested fatal nonaxisymmetric `m=2` stability; test full angular modes.
+- **020–022A, 024–031, V13–V26, B7/026:** protected pole/charge/realizability and scoped closure history. Do not restart a closed mode without a changed physical assumption.
+- **Introspective:** `RAW_GE1000X_SIGNAL=PRESENT`, `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`.
+- **A12B:** scoped protected concurrent massless U1 carriers only, not source+gravity.
+- **A12C:** `2.6568591420597114 J` prescribed preloaded F² capacity, original 1 kg/1m sampled floor; ordinary matter realization still absent.
+- **R3B:** `1.5429162116460216 J` prescribed preloaded mixed-field capacity. R3A bulk suppression ~`1.84e15`; R3C/C1 and B4 original loaded 1kg torus failure; R3X1 corrected Lorentzian signs; never substitute source preloading for a solution.
+- **B6:** nonzero-Dirichlet boundary-artifact repair (false 55–78% baseline leak alarm), retained physical interface obstruction. B7 `1.5473042949759672 J` finite-width static electric source **only**.
+- **B1:** conditional loaded *field-only* ~0.275–0.301 MJ at higher scale. B2 minimal axial Dirac excluded; B3 tested electron-sized dipole family lower bound ~`5.35e14 J` source rest energy.
+- **B5/B8–B10:** minimal exact axion, spherical strong loading, local reciprocal Schur, common stiffness negative static results; reopen only new physics.
+- **B11–B13:** tested static/quasistatic intensity-only, phase-only, 24-source-basis and material/array failures; B11-M6 true sourced dynamics unrun.
+- **B14/B16:** nonconverged local `-410.388913 m/s²` inward signal; B16 ultra-dilute nominal 5mg 1g is B0 homotopy and not 1kg; B15 static orientation-only failure.
+- **M5A–M5V:** mesh, boundary, phase and interface artifacts; M5N original `81.458%` cross-grid discrepancy was numerical, not physical force; M5V artificial reference frozen.
+- **PH1–PH11:** current/source/static/support and causal failure memory; all original result JSON scopes preserved.
+- **PH12:** isolated spherical X gauged Q-ball, no Y/full stability.
+- **PH13:** restricted Hessian and conditional joint kinetic obstruction; nonzero first-order Y on off-shell nonspherical pair.
+- **PH14:** joint neutral spherical X-only source with limited matched energetic binding, exact Y-zero symmetry, not full stability/metric/gravity.
+
+## 12. Required test controls and branch result schema
+
+### 12.1 Cheapest required negative controls
+
+| Control | Expected meaning / failure indicator |
+|---|---|
+| PH14 exact spherical and symmetric-mass nulls | No generated Y in pure spherical trace-induced static channel; no spurious internal X E for symmetric masses |
+| `alpha=0`, constant lambda, no source | No induced Y; nonzero means wrong variation/BC/source |
+| Gauge/phase, charge conjugation, winding/orientation reversal | Predictive sign and gauge-invariant observables; not source-adaptive tuning |
+| Genuine source-on vs frozen translated spheres | Off-shell PH13 signal must not count until full source EOM pass |
+| Full static gauge R3X1/R3C/B4 | Must reproduce failed original loaded torus limit or justify new physical action difference |
+| Flat source+full craft, no Earth/air/exhaust | Zero sustained whole-craft acceleration; hidden internal reaction is an error |
+| Earth source-off, no Earth, no air, bare hull, no metric coupling | Isolate genuine physical external effect and support/atmospheric forces |
+| Ground/contact and boundary flux | No hidden boundary propulsive impulse; B6 repair retained |
+| Positive/negative pulse phases, multiple cycles | No field reset, no lost source recoil or negative impulse |
+| Finite source physical SI/UV | No invented joule conversion or arbitrarily chosen material response |
+
+### 12.2 Every new JSON must record and never omit open physical gates
+
+- `branch`, `utc`, `execution.platform/python`, full module/test/runner SHA-256, registered spec, root/units, action equation version and hashes of parent source/result files.
+- Numeric solver family, tolerances, independent check implementation, spatial and temporal mesh/domain, boundary and gauge-fixing, convergence and error budget.
+- All dynamical fields actually solved; distinction between **same-action complete**, **flat restricted**, **on-shell X only**, **linear Y about on-shell X**, **full reciprocal**, and **prescribed/off-shell**.
+- Ward/Noether current identities, actual individual N, net gauge Q, angular momentum, Gauss/Bianchi/source EOM/stress/energy residuals, provenance pass and negative controls.
+- Every energy component with units, reference state and matched conserved charges; separate X-only, plus-Y, complete source and mission costs; never silently use canonical numbers as SI.
+- Source support/tails, source/hull/Earth/neutral distances, exterior multipoles and boundary flux; distinguish periodic from physical free-space.
+- Kinetic health: frozen blocks, **full joint** principal matrix, gradient/tachyonic/Dirac constraints, radial/angular modes, status of nonlinear stability.
+- Signed on/off body force and momentum: neutral target, Earth, complete craft, air/hull/support, fields, radiation, auxiliary and boundary, plus error/uncertainty and static/dynamic scope.
+- Every `NOT_SOLVED`, `NOT_RUN`, `RED` gate as literal status; verdict must not auto-upgrade due unrelated numerical passes.
+
+### 12.3 Suggested versioned implementation (filenames are **proposals**, not claims of existing files)
+
+```text
+src/antigravity_research/agminer/hook17_ph15_induction_existence.py
+simulations/032h17a12d1r3x3b17_ph15_induction_existence.py
+tests/agminer/test_032h17_ph15_induction_existence.py
+results/data/032h17_ph15_induction_existence_<UTC>.json
+
+src/antigravity_research/agminer/hook17_ph16_full_reciprocal.py
+simulations/032h17a12d1r3x3b17_ph16_full_reciprocal.py
+tests/agminer/test_032h17_ph16_full_reciprocal.py
+results/data/032h17_ph16_full_reciprocal_<UTC>.json
+
+src/antigravity_research/agminer/hook17_ph17_earth_craft_reaction.py
+simulations/032h17a12d1r3x3b17_ph17_earth_craft_reaction.py
+tests/agminer/test_032h17_ph17_earth_craft_reaction.py
+results/data/032h17_ph17_earth_craft_reaction_<UTC>.json
+
+src/antigravity_research/agminer/hook17_b11_m6_sourced_dynamics.py
+simulations/032h17_b11_m6_signed_causal_cycle.py
+tests/agminer/test_032h17_b11_m6_signed_causal_cycle.py
+results/data/032h17_b11_m6_signed_causal_cycle_<UTC>.json
+```
+
+Use complete paste-ready zsh-safe Bash apply blocks followed by separately copyable verification blocks, with explicit relative root and Python executable; no git commands. Keep code/comments/tests in a **code-only bundle**, full journal and buildplans in their own documentation bundles. Existing original source/results and journal entries must never be overwritten by a new runner with a colliding output name. Validate syntax, focused tests, scientific runner, provenance, then full repository regression **once** per substantive run; never fake a test count or call partial success a complete run.
+
+## 13. Promotion ladder and independent milestones
+
+| Level | Evidence | Current verified state |
+|---|---|---|
+| H0 historical artificial capacity | R3B/A12C preloaded finite neutral torus | Pass in stated prescribed models only |
+| H1 artificial stationary reference | M5V 50/50 discrete action screens | PASS_SCREEN / FROZEN, not craft |
+| S1 one physical source-sector stationary solution | PH12 single gauged X scalar | PASS_CLASSICAL_SPHERICAL_ONLY |
+| S2 joined net-neutral source-sector equilibrium | PH14 two species X and positive binding reference | PASS_CLASSICAL_SPHERICAL_ONLY |
+| S3 on-shell source with useful induced second carrier | PH15 theorem, source, Y solution | NOT ESTABLISHED |
+| S4 fully loaded reciprocal X+Y+universal metric, healthy modes | PH16 full constraints/EOM/spectrum | NOT ESTABLISHED |
+| S5 finite neutral mass >=1g at true >=1m | Fully coupled non-test-body and source with exterior | NOT ESTABLISHED |
+| C1 Earth external interaction with correct sign | Onboard source above Earth, real material and field | NOT ESTABLISHED |
+| C2 full craft external upward force/reaction | All onboard apparatus plus environment/metric Noether | NOT ESTABLISHED |
+| C3 repeatable sourced dynamics/hover/aux savings | B11-M6 physical signed impulse/cycles and mission | NOT ESTABLISHED |
+| C4 full physical feasibility | Real material, empirical/quantum/UV, complete strict <10MJ | NOT CERTIFIED |
+| C5 independent experiment | Reproducible actual gravitational effect and controlled apparatus | NOT DEMONSTRATED |
+
+No automatic weighted average of these levels yields “35%, 50%, 60%” or a probability. A fundamental failure at S3/S4 or C1 can block the entire proposed action despite detailed source math.
+
+## 14. Decision tree, exact stop rules and desired next-session handoff
+
+```text
+VERIFY PH14 EXACT CODE/JSON + PH13 OFFSHELL Y + HISTORICAL STATIC FAILURES
+          |
+          v
+PH15-P1: EXACT Y VARIATION + ONSHELL INTEGRABILITY / WARD / PARITY
+          |-- EXACT ZERO FOR PROPOSED FAMILY --> RED_SCOPED; STOP FAMILY
+          |-- WRONG SIGNS / GAUGE / MISSING SOURCE --> REPAIR OR CLOSE
+          v
+PH15-P2: ONE REGULAR AXISYMMETRIC OR PROVEN BIFURCATING NEUTRAL FAMILY
+          |-- NO FINITE ONSHELL SOLUTION / BAD CHARGE / SUPPORT --> RED
+          v
+PH15-P3: SOURCE+X BVP, REAL ANGULAR CURRENT, STRESS, NEUTRALITY
+          |-- OFFSHELL / NONCONVERGENT / UNBOUND WHEN MATCHED --> RED/YELLOW
+          v
+PH15-P4: ACTUAL TRACE SOURCES Y, EXTERIOR FIELD, P, NEGATIVE CONTROLS
+          |-- ZERO BY INTEGRABILITY / PURE BOUNDARY ARTIFACT --> RED
+          v
+PH16: FULL MUTUAL SOURCE+X+Y+UNIVERSAL METRIC EOM / HEALTH / ENERGY
+          |-- GHOST / GRADIENT / SOURCE DISRUPTION / NO EXTERIOR --> RED
+          v
+PH17: FULL PHYSICAL NEUTRAL MATTER, EARTH BELOW, HULL AND WHOLE CRAFT
+          |-- NO EXTERNAL FORCE / WRONG EARTH SIGN --> RED_SCOPED
+          v
+B11-M6: SAME-ACTION CAUSAL SIGNED PULSE, RECOIL, RADIATION, CYCLES
+          |-- NEGATIVE TOTAL / RESET / LOSSES TOO LARGE --> RED_SCOPED
+          v
+SI + UV/EMPIRICAL + FINITE 1G/1M + STRICT COMPLETE <10 MJ
+          |-- ANY HARD FAIL --> NO DEVICE
+          v
+INDEPENDENT REPRODUCTION / EXPERIMENTAL GRAVITY VERIFICATION
+```
+
+### 14.1 End-of-session documentation update sequence
+
+1. Run and archive PH15/M6 **as actually executed**; preserve no-run branches with literal `NOT_RUN` statuses.
+2. Append a new original `journal/2026-11-15_...` or later dated entry only for completed runs. The PH1–PH14 journal belongs to the November 15 closeout and must not be presented as proof the new run was already executed.
+3. Append `NOTES.md` state/carryover including hardest false positives, exact hashes and next gates, not only the headline.
+4. Update AGMINER theorem/failure memory with source-coupled versus source-off-shell induction, PH13 Schur and PH14 spherical no-Y. Do not generalize restricted no-gos.
+5. Update Introspective only for newly validated mechanism insight. Keep `RAW_GE1000X_SIGNAL=PRESENT` and `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`.
+6. Update README/CLAIMS conservatively, if separately requested. Never say an antigravity engine, lift or <10MJ device exists.
+7. Regenerate a code-only codebundle and separate journal bundle; preserve older dated journal and M5V raw results unchanged.
+
+### 14.2 Latest exact checkpoint (November 15)
+
+```text
+DATE                                   = 2026-11-15
+PRIMARY_PROGRAM                        = 032_AGMINER / 032H17_HOOK17
+CURRENT_PHYSICAL_RUN                   = PH14_COMPLETED
+PH14_PROVENANCE                        = PASS
+PH14_FOCUSED_TESTS                     = 47_PASSED
+LATEST_FULL_SOFTWARE_REGRESSION        = 2220_PASSED
+PH14_CANONICAL_SOURCE_ENERGY           = 161.51589053332395_NOT_JOULES
+PH14_MATCHED_SEPARATED_BINDING         = 0.37314513367903146_CANONICAL_NOT_JOULES
+PH14_ELECTRIC_NET_CHARGE               = -7.845812888263027E-12
+PH14_ONSHELL_SOURCE                    = PASS_SPHERICAL_X_TWO_SPECIES_BVP
+PH14_FULL_ANGULAR_DYNAMIC_STABILITY    = NOT_CERTIFIED
+PH14_REAL_MATERIAL_UV                  = NOT_CERTIFIED
+PH14_ONSHELL_INDUCED_Y                 = EXACT_ZERO_BY_SPHERICAL_SYMMETRY
+PH13_NONSYMMETRIC_Y                    = FIRST_ORDER_OFFSHELL_SUPERPOSITION_ONLY
+PH13_JOINT_KINETIC_HEALTH              = CONDITIONAL_NEGATIVE_SCHUR_COUNTEREXAMPLE
+PH15_NEXT                               = ONSHELL_NONSYMMETRIC_SOURCE_TRACE_INDUCTION
+PH15_EXECUTED                          = NO
+PH16_NEXT                               = CONDITIONAL_FULL_RECIPROCAL_SOURCE_TWO_U1
+PH16_EXECUTED                          = NO
+PH17_NEXT                               = CONDITIONAL_EXTERIOR_EARTH_CRAFT_FORCE
+PH17_EXECUTED                          = NO
+B11_M6_FULL_SIGNED_CAUSAL_CYCLE       = NOT_RUN
+ALPHA1_B17_M5V                          = FROZEN_ARTIFICIAL_REFERENCE
+ALPHA1_M5V_EXTERIOR_CONTINUUM          = NOT_CERTIFIED
+M5V_OLD_INSTALLER_SHA_CAVEAT            = PRESERVED
+006D_ANCHOR_C                          = 23.591586299249
+006D_REPLACED                          = NO
+A12C_PRELOADED_J                       = 2.6568591420597114_FIELD_ONLY
+R3B_PRELOADED_J                        = 1.5429162116460216_FIELD_ONLY
+LAB_FINITE_NEUTRAL_BENCHMARK           = GE1G_EVERYWHERE_SAMPLED_GE1M_TRUE_STANDOFF
+ONSHELL_NONSPHERICAL_TWO_CARRIER       = NOT_ESTABLISHED
+FULL_UNIVERSAL_METRIC_GRAVITY          = NOT_DERIVED
+EARTH_DOWN_FULL_CRAFT_UP               = NOT_DERIVED
+PHYSICAL_CRAFT_LIFT                    = NOT_DEMONSTRATED
+COMPLETE_OPERATING_LT_10MJ             = NOT_CERTIFIED
+INDEPENDENT_EXPERIMENT                 = NO
+HEURISTIC_PROGRESS                     = APPROXIMATELY_35_PERCENT_NONCALIBRATED
+THIS_DOCUMENT                          = NOV15_ACTIVE_STRATEGY_PLUS_ORIGINAL_NOV14_ARCHIVE
+OTHER_REPOSITORY_FILES                 = NOT_MODIFIED_BY_THIS_DOCUMENT
+```
+
+**Most important next scientific decision:** prove or falsify the *on-shell* induced-Y mechanism before spending time on a large 3D or spacecraft simulation. The desired outcome is a physically valid source and a decisive action-derived theorem—not merely a higher subjective completion percentage.
+
+---
+
+# END NOVEMBER 15 AUTHORITATIVE SECTION
+
+---
+
+# ARCHIVED SNAPSHOT — COMPLETE NOVEMBER 14, 2026 BUILDPLAN (EXACT ORIGINAL BYTES; NOT ACTIVE)
+
+> The following content is an exact byte-preserving append of the user's uploaded November 14 `RESEARCH_BUILDPLAN.md`, SHA-256 `47b49c44c28208649f43fef11fd4c47a18485cadd68ce58cbd5ec7fefd13cfec`. It includes the complete November 14 active plan as it was written and its nested November 13/11/10/September source archives. All prior equations, values, failure memory, history, and then-current NEXT labels are retained for provenance. **Only the November 15 Part I above is operative.**
+
+---
+
+# ANTIGRAVITY_RESEARCH — Research Buildplan
+
 **Current authoritative revision:** **2026-11-14 — ALPHA-1/M5V numerical-reference FREEZE and PHYSICALLY SOURCED HOOK17 RETURN**  
 **Document purpose:** Complete scientific strategy, independent theorem-first falsification gates, physical action/source/metric completion plan, B11-M6 dynamic impulse, onboard Earth–craft reaction engineering, acceptance and halt criteria, and source-preserving historical archive.  
 **Primary program:** `032 — AGMINER / 032H17 — HOOK17`  

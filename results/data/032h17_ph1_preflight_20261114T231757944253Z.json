@@ -1,0 +1,187 @@
+{
+  "analytic_check_count": 23,
+  "archival": {
+    "frozen_m5v_result": {
+      "actual_sha256": "53f63f93fe9f525302f516b6376fa227d4b46027e6a0f75ae4dd35404da8c52b",
+      "expected_sha256": "53f63f93fe9f525302f516b6376fa227d4b46027e6a0f75ae4dd35404da8c52b",
+      "status": "MATCH"
+    },
+    "frozen_m5v_source": {
+      "actual_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    }
+  },
+  "branch": "032H17A12D1R3X3B17-PH1",
+  "exact_checks": {
+    "b11_time_dependent_theta_energy_exchange": {
+      "meaning": "Prescribed theta(t) transfers carrier energy via material work",
+      "status": "PASS_SCOPED"
+    },
+    "b11_two_carrier_vacuum_characteristic": {
+      "meaning": "Free vacuum carriers have +/-c characteristics",
+      "status": "PASS_SCOPED"
+    },
+    "complete_signed_cycle_control": {
+      "meaning": "Synthetic positive and negative impulse cancel",
+      "status": "PASS_SCOPED"
+    },
+    "conformal_trace_jacobian": {
+      "meaning": "Conformal trace Jacobian factor 1-4*kappa*P",
+      "status": "PASS_SCOPED"
+    },
+    "constant_theta_canonical_energy": {
+      "meaning": "Fixed theta cancels from carrier Legendre energy",
+      "status": "PASS_SCOPED"
+    },
+    "derived_matter_theta": {
+      "meaning": "Reciprocal theta=f'(P) from fixed dust, not artificial C2",
+      "status": "PASS_SCOPED"
+    },
+    "even_portal_no_linear_term": {
+      "meaning": "Parity-even P\u00b2 portal lacks zero-background linear term",
+      "status": "PASS_SCOPED"
+    },
+    "finite_dipole_mixed_exterior_falloff": {
+      "meaning": "Mixed aligned dipoles P~r^-6, gradient~r^-7",
+      "status": "PASS_SCOPED"
+    },
+    "linear_pseudoscalar_parity": {
+      "meaning": "Linear P portal is parity odd and needs justification",
+      "status": "PASS_SCOPED"
+    },
+    "loaded_electric_hessian_detects_negative_mode": {
+      "meaning": "Dimensionless synthetic negative kinetic eigenvalue",
+      "status": "PASS_SCOPED"
+    },
+    "loaded_electric_hessian_determinant": {
+      "meaning": "Necessary frozen-dust electric kinetic condition",
+      "status": "PASS_SCOPED"
+    },
+    "loaded_electric_hessian_positive_control": {
+      "meaning": "Dimensionless weak-loading positive control",
+      "status": "PASS_SCOPED"
+    },
+    "loaded_electric_hessian_rank_one": {
+      "meaning": "Restricted Hessian I-rho*kappa\u00b2*exp(kappa*P)*bbT",
+      "status": "PASS_SCOPED"
+    },
+    "off_shell_antisymmetric_ward": {
+      "meaning": "Divergence of antisymmetric field equation vanishes",
+      "status": "PASS_SCOPED"
+    },
+    "off_state_healthy_reduced_hessian": {
+      "meaning": "Restricted electric Hessian identity in magnetic off-state",
+      "status": "PASS_SCOPED"
+    },
+    "r3x1_constitutive_signs": {
+      "meaning": "Corrected fixed-theta Lorentzian D/H signs",
+      "status": "PASS_SCOPED"
+    },
+    "r3x1_poynting_cross_cancel": {
+      "meaning": "Fixed-theta mixed terms cancel from total Poynting flux",
+      "status": "PASS_SCOPED"
+    },
+    "single_species_rank_one": {
+      "meaning": "Single charged species produces proportional currents",
+      "status": "PASS_SCOPED"
+    },
+    "translation_action_reaction_prerequisite": {
+      "meaning": "Relative-coordinate potential has opposite derivatives",
+      "status": "PASS_SCOPED"
+    },
+    "two_species_rank_two": {
+      "meaning": "Two species remove the algebraic rank restriction only",
+      "status": "PASS_SCOPED"
+    },
+    "two_u1_scalar_covariant_gauge_transformation": {
+      "meaning": "Exact two-U(1) charged-scalar gauge covariance",
+      "status": "PASS_SCOPED"
+    },
+    "uniform_theta_no_bulk_kinetic_shift": {
+      "meaning": "Uniform linear topological mixing preserves kinetic Hessian",
+      "status": "PASS_SCOPED"
+    },
+    "winding_scalar_noether_current": {
+      "meaning": "Complex scalar winding yields azimuthal Noether current",
+      "status": "PASS_SCOPED"
+    }
+  },
+  "execution": {
+    "execution_repo": "/Users/mymac/Desktop/antigravity_research",
+    "physical_module_sha256": "47281ea38e40351944bc194375b4732b28c58960d7acf644f6d040b82fd0aa52",
+    "platform": "macOS-15.7.7-x86_64-i386-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "timestamp_utc": "2026-11-14T23:17:57.877510+00:00"
+  },
+  "experiment": "FIRST_ACTUAL_PH1_ALGEBRA_AND_KINEMATIC_SOURCE_PREFLIGHT",
+  "gates": {
+    "B11_M6_CAUSAL_PRINCIPAL_EQUATIONS": "OPEN_NO_DYNAMIC_MATTER_SOURCE",
+    "B11_M6_COMPLETE_SIGNED_IMPULSE": "NOT_RUN",
+    "B11_M6_REPRODUCE_ORIGINAL_LOADED_STATIC_FAILURE": "NOT_RUN",
+    "PH1_COMPLETE_STRICT_LT10MJ": "NOT_CERTIFIED",
+    "PH1_P0_HISTORICAL_REFERENCE_PROVENANCE": "PASS_SCOPED",
+    "PH1_P1_COMPLETE_ACTION_SPECIFIED": "NOT_DERIVED_SUPPORT_HULL_EARTH_EOS_MISSING",
+    "PH1_P1_EXACT_GAUGE_WARD": "PASS_SCOPED_ABELIAN_IDENTITIES_ONLY",
+    "PH1_P1_HEALTHY_CANONICAL_MODES": "OPEN_LOADED_HESSIAN_NECESSARY_CONDITION_DERIVED",
+    "PH1_P2_DERIVED_MATTER_RESPONSE": "PASS_SCOPED_FIXED_DUST_NOT_EARTH_C2",
+    "PH1_P2_MICROSCOPIC_CONSERVED_SOURCE": "KINEMATIC_WITNESS_ONLY_EOM_NOT_SOLVED",
+    "PH1_P2_SOURCE_ENERGY_LOWER_BOUND": "OPEN_NO_CANONICAL_SOURCE_CALIBRATION",
+    "PH1_P3_COMPLETE_MOMENTUM_EXCHANGE": "NOT_DERIVED",
+    "PH1_P3_EARTH_DOWN_FULL_CRAFT_UP": "NOT_DERIVED",
+    "PH1_P3_LAWFUL_EXTERIOR_CHANNEL": "CONDITIONAL_DIPOLE_FIELDS_NOT_FULL_EARTH_BVP",
+    "PH1_P4_CONTINUUM_FORCE_CONVERGENCE": "NOT_RUN",
+    "PH1_REAL_ANTIGRAVITY_DEVICE": "NO"
+  },
+  "historic_full_regression": "1803_PASSED_RECORDED_NOT_REEXECUTED_BY_THIS_SCRIPT",
+  "m5v_campaign": "FROZEN_NO_ARTIFICIAL_OPTIMIZATION",
+  "next_required": "Finish microscopic EOM/confinement and full-gravity action; test loaded characteristic matrix and original failed static limit before allowing a time-domain pulse",
+  "physical_source_shape_witness": {
+    "absolute_errors": {
+      "electric_dipole_z": 3.8163916471489756e-17,
+      "magnetic_dipole_z": 1.4988010832439613e-15,
+      "monopole": 1.2874900798265365e-18,
+      "unit_charge_unit_winding_angular_cost_natural_units": 1.1102230246251565e-15
+    },
+    "exact_moments": {
+      "electric_dipole_z": 0.028375112653131897,
+      "magnetic_dipole_z": 0.46119180925630393,
+      "monopole": 0.0,
+      "unit_charge_unit_winding_angular_cost_natural_units": 0.34543615403812755
+    },
+    "independent_quadrature_moments": {
+      "electric_dipole_z": 0.02837511265313186,
+      "magnetic_dipole_z": 0.46119180925630543,
+      "monopole": 1.2874900798265365e-18,
+      "unit_charge_unit_winding_angular_cost_natural_units": 0.34543615403812866
+    },
+    "meaning": "Only kinematic shape matching; source EOM, physical calibration and support energy NOT derived",
+    "opposite_charge_dust_witness_at_one_sample": {
+      "negative_density": 0.2391397471581428,
+      "positive_density": 0.10996937278075178,
+      "signed_charge": -0.129170374377391,
+      "total_constituent_density": 0.3491091199388946
+    },
+    "reference": {
+      "ar": 0.42,
+      "az": 0.5,
+      "j_amplitude": 1.0,
+      "power": 5,
+      "r0": 1.15,
+      "rho_amplitude": 1.0
+    },
+    "scalar_winding_witness_at_one_sample": {
+      "amplitude_squared": 0.21759971445791296,
+      "angular_gradient_cost": 0.14002451465542057,
+      "j_phi": 0.34910911993889454,
+      "j_time": 0.0
+    }
+  },
+  "reference": {
+    "006d_coefficient": 23.591586299249,
+    "a12c_preloaded_f2_j": 2.6568591420597114,
+    "m5v_artificial_earth_derivative_j_per_m": -11.39567591875062,
+    "r3b_preloaded_mixed_j": 1.5429162116460216
+  },
+  "verdict": "YELLOW_ALGEBRAIC_SOURCE_SHAPE_PREFLIGHT_ONLY_NO_PHYSICAL_LIFT"
+}

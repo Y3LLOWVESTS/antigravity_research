@@ -1,0 +1,121 @@
+{
+  "archival_provenance": {
+    "m5v_source": {
+      "actual_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "ph10_result": {
+      "actual_sha256": "56639e14886cc4169867691ef6c0f5c4f86bb37bea8da00fa7ac3bfb7f2b5de9",
+      "expected_sha256": "56639e14886cc4169867691ef6c0f5c4f86bb37bea8da00fa7ac3bfb7f2b5de9",
+      "status": "MATCH"
+    },
+    "ph10_sim": {
+      "actual_sha256": "d7dc82028bbdd51b151579e92e93931ec12d038885a72b2af8f2007a1e844af1",
+      "expected_sha256": "d7dc82028bbdd51b151579e92e93931ec12d038885a72b2af8f2007a1e844af1",
+      "status": "MATCH"
+    },
+    "ph10_source": {
+      "actual_sha256": "1d2f8624fab28cf82301a582fb7b6289e9ce936e2a423d0bddae3ff10e1f4228",
+      "expected_sha256": "1d2f8624fab28cf82301a582fb7b6289e9ce936e2a423d0bddae3ff10e1f4228",
+      "status": "MATCH"
+    },
+    "ph10_test": {
+      "actual_sha256": "3f45db4adb90d5ef990fc242b447efcf9a9a86c5ffe07693d14dbc15af2ed612",
+      "expected_sha256": "3f45db4adb90d5ef990fc242b447efcf9a9a86c5ffe07693d14dbc15af2ed612",
+      "status": "MATCH"
+    },
+    "ph9_source": {
+      "actual_sha256": "6778d91755c6669625e363ae568f7887b1a28327817f005dc0ba858774982858",
+      "expected_sha256": "6778d91755c6669625e363ae568f7887b1a28327817f005dc0ba858774982858",
+      "status": "MATCH"
+    }
+  },
+  "branch": "032H17A12D1R3X3B17-PH11",
+  "exact_variations": {
+    "Maxwell_four_dimensional_Weyl_invariance": "PASS_EXACT",
+    "all_species_universal_metric_EOM": "NOT_DERIVED",
+    "constant_cross_term_bulk": "PURE_BIANCHI_BOUNDARY_TERM",
+    "einstein_source_on_shell": "NOT_DERIVED",
+    "full_U1_constraints_and_mode_health": "NOT_CERTIFIED",
+    "matter_trace_portal_loading": "PASS_EXACT",
+    "metric_variation_Weyl_cross_check": "PASS_EXACT",
+    "metric_variation_anisotropic_zz_cross_check": "PASS_EXACT",
+    "mixed_FX_FY_antisymmetric_variation": "PASS_EXACT",
+    "nonconstant_trace_constitutive_coupling": "REQUIRED_BY_SAME_ACTION",
+    "source_phase_gauge_Noether_identity": "PASS_EXACT_OFF_SHELL_IDENTITY",
+    "universal_scalar_metric_chain_rule": "PASS_EXACT"
+  },
+  "execution": {
+    "module_sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+    "platform": "macOS-15.7.7-x86_64-i386-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "simulation_sha256": "caea3f82b2eb075f01c8af6ff6e47f8b39bff98a93622080523ba7423c4a2dba",
+    "utc": "2026-11-15T06:47:02.093364+00:00"
+  },
+  "gates": {
+    "006D_REPLACED": "NO",
+    "B11_M6_FULL_SIGNED_CYCLE": "NOT_RUN",
+    "P0_PROVENANCE": "PASS",
+    "P1_GAUGE_WARD_SOURCE_IDENTITY": "PASS_EXACT_OFF_SHELL_IDENTITY_ONLY",
+    "P1_LOADED_DISCRETE_CURRENT_CONSERVATION": "NONZERO_RESIDUAL_NOT_CERTIFIED",
+    "P1_LOADED_SOURCE_MATTER_EOM": "RED_PH10_OFF_SHELL",
+    "P1_METRIC_AND_GAUGE_CHAIN_RULE": "PASS_EXACT_PROPOSED_ACTION_SCOPED",
+    "P1_SQUARE_WELL_BOUNDARY_TRACTION": "NONZERO_SUPPORT_MATTER_NOT_DERIVED",
+    "P2_EXTERIOR_VACUUM_CLOSURE": "NOT_DERIVED",
+    "P2_FULL_TRACE_LOADED_CARRIER_FIELDS": "MISSING_FROM_PH10",
+    "P2_FULL_UNIVERSAL_METRIC_ALL_MATTER": "NOT_SOLVED",
+    "P3_EARTH_DOWN_CRAFT_UP": "NOT_DERIVED",
+    "P3_NEUTRAL_GE1G_AT_GE1M": "NOT_CERTIFIED",
+    "STRICT_FULL_ENERGY_LT10MJ": "NOT_CERTIFIED"
+  },
+  "ph10_matter_and_reaction_audit": {
+    "earth_body_integral_and_GR_stress": "NOT_DERIVED",
+    "earthward_point_probe_force_shape": -3.271622383677427e-06,
+    "equal_opposite_reaction_for_finite_pair_POTENTIAL_ONLY": 3.271622383677427e-06,
+    "full_source_support_stress": "NOT_DERIVED",
+    "loaded_scalar_EOM_X": 0.37393205613959013,
+    "loaded_scalar_EOM_Y": 0.04277101575708814,
+    "loaded_stress_trace_integral_at_Omega_1": -7.626236863823186,
+    "metric_portal_canonical_mode_health": "NOT_CERTIFIED",
+    "neutral_probe_force_shape": 3.2716223836773914e-06,
+    "probe_P": 4.982738998623715e-06,
+    "probe_dP_dz": -1.0905552850987285e-05,
+    "probe_sigma_prime": 0.2999960138088011,
+    "source_current_relative_divergence": 0.0343612622974216,
+    "trace_includes_prescribed_trap_but_not_its_hardware": true
+  },
+  "previous_case": "PH10_OFFSHELL_BOUNDED_WELL",
+  "verdict": "YELLOW_EXACT_ACTION_COMPLETION_REQUIREMENTS_REVEAL_UNSOURCED_SUPPORT_AND_METRIC_LOADING",
+  "well_support_debt": {
+    "SI_calibration": "NONE",
+    "finite_onboard_trap_hardware_energy": "NOT_IN_PH10_LEDGER",
+    "modes": [
+      {
+        "charge_magnitude_per_species": 1.0,
+        "independent_energy_radius_derivative_single_species": -1.1306600216118305,
+        "integrated_radial_traction_pair": 2.2613200429867364,
+        "integrated_radial_traction_single_species": 1.1306600214933682,
+        "l": 0,
+        "radial_net_vector_force_for_isolated_spherical_well": 0.0,
+        "relative_derivative_disagreement": 1.0477274228133971e-10,
+        "species_count": 2,
+        "well_depth": 15.03018678129737
+      },
+      {
+        "charge_magnitude_per_species": 0.5,
+        "independent_energy_radius_derivative_single_species": -1.2539884403054735,
+        "integrated_radial_traction_pair": 2.5079768806593985,
+        "integrated_radial_traction_single_species": 1.2539884403296992,
+        "l": 1,
+        "radial_net_vector_force_for_isolated_spherical_well": 0.0,
+        "relative_derivative_disagreement": 1.9318944060414343e-11,
+        "species_count": 2,
+        "well_depth": 22.16687862346125
+      }
+    ],
+    "net_external_propulsive_force": "NOT_DERIVED",
+    "scope": "FIXED_STATES_SQUARE_WELL_INTERFACE_ONLY",
+    "total_integrated_radial_traction_magnitude": 4.7692969236461344
+  }
+}

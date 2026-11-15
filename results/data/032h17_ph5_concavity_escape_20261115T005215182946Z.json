@@ -1,0 +1,261 @@
+{
+  "branch": "032H17A12D1R3X3B17-PH5",
+  "eight_pre_registered_cases": {
+    "even_concave_inward": {
+      "Dmin": 0.9688438350045087,
+      "F": 0.9691266246841977,
+      "F_double_prime": -0.7266744022272039,
+      "F_prime": -0.21708436392926028,
+      "K": 1.1627750660988938,
+      "P": 0.27999999999999997,
+      "a_radial_over_c_squared_shape_units": -0.3763199999999999,
+      "chi": -0.2543360407795214,
+      "cone_gate": "PASS_SUBLUMINAL_SCOPED",
+      "conformal_trace_jacobian": 1.25088,
+      "law": "negative_even",
+      "name": "even_concave_inward",
+      "outward_test_matter": false,
+      "sigma": -0.03135999999999999,
+      "sigma_prime": -0.22399999999999998,
+      "source_and_matter_self_consistent": false
+    },
+    "even_convex_outward": {
+      "Dmin": 0.8034937652630716,
+      "F": 1.0318569055162041,
+      "F_double_prime": 0.8772599765041444,
+      "F_prime": 0.2311359468356297,
+      "K": 0.8034937652630716,
+      "P": 0.27999999999999997,
+      "a_radial_over_c_squared_shape_units": 0.3763199999999999,
+      "chi": 0.30704099177645056,
+      "cone_gate": "RED_SUPERLUMINAL_SCOPED",
+      "conformal_trace_jacobian": 0.74912,
+      "law": "positive_even",
+      "name": "even_convex_outward",
+      "outward_test_matter": true,
+      "sigma": 0.03135999999999999,
+      "sigma_prime": 0.22399999999999998,
+      "source_and_matter_self_consistent": false
+    },
+    "linear_outward_unsafe": {
+      "Dmin": 0.978073401500814,
+      "F": 1.087628893808826,
+      "F_double_prime": 0.09788660044279435,
+      "F_prime": 0.32628866814264784,
+      "K": 0.978073401500814,
+      "P": 0.27999999999999997,
+      "a_radial_over_c_squared_shape_units": 0.5039999999999999,
+      "chi": 0.03426031015497802,
+      "cone_gate": "RED_SUPERLUMINAL_SCOPED",
+      "conformal_trace_jacobian": 0.664,
+      "law": "linear",
+      "name": "linear_outward_unsafe",
+      "outward_test_matter": true,
+      "sigma": 0.08399999999999999,
+      "sigma_prime": 0.3,
+      "source_and_matter_self_consistent": false
+    },
+    "odd_background_matter_off": {
+      "Dmin": 1.0,
+      "F": 1.0540501187659554,
+      "F_double_prime": -0.8371519015267722,
+      "F_prime": 0.08010780902621263,
+      "K": 1.0,
+      "P": 0.27999999999999997,
+      "a_radial_over_c_squared_shape_units": 0.12768,
+      "chi": -0.0,
+      "cone_gate": "LUMINAL_SCOPED",
+      "conformal_trace_jacobian": 0.91488,
+      "law": "mixed_odd",
+      "name": "odd_background_matter_off",
+      "outward_test_matter": true,
+      "sigma": 0.05264,
+      "sigma_prime": 0.07600000000000001,
+      "source_and_matter_self_consistent": false
+    },
+    "odd_concave_outward": {
+      "Dmin": 0.9641071122220396,
+      "F": 1.0540501187659554,
+      "F_double_prime": -0.8371519015267722,
+      "F_prime": 0.08010780902621263,
+      "K": 1.187522025941997,
+      "P": 0.27999999999999997,
+      "a_radial_over_c_squared_shape_units": 0.12768,
+      "chi": -0.2930031655343703,
+      "cone_gate": "PASS_SUBLUMINAL_SCOPED",
+      "conformal_trace_jacobian": 0.91488,
+      "law": "mixed_odd",
+      "name": "odd_concave_outward",
+      "outward_test_matter": true,
+      "sigma": 0.05264,
+      "sigma_prime": 0.07600000000000001,
+      "source_and_matter_self_consistent": false
+    },
+    "odd_convex_at_high_P": {
+      "Dmin": 0.8935343329866807,
+      "F": 0.5352828394043458,
+      "F_double_prime": 0.1551977653255384,
+      "F_prime": -0.5588352843381371,
+      "K": 0.8935343329866807,
+      "P": 1.68,
+      "a_radial_over_c_squared_shape_units": -10.523520000000001,
+      "chi": 0.05431921786393844,
+      "cone_gate": "RED_SUPERLUMINAL_SCOPED",
+      "conformal_trace_jacobian": 8.01568,
+      "law": "mixed_odd",
+      "name": "odd_convex_at_high_P",
+      "outward_test_matter": false,
+      "sigma": -0.62496,
+      "sigma_prime": -1.044,
+      "source_and_matter_self_consistent": false
+    },
+    "odd_high_density_gradient_failure": {
+      "Dmin": -2.032079282772963,
+      "F": 0.9297867687850541,
+      "F_double_prime": -3.0939584518091463,
+      "F_prime": -0.7624251504037441,
+      "K": 16.84106727326283,
+      "P": 0.27999999999999997,
+      "a_radial_over_c_squared_shape_units": -1.3775999999999995,
+      "chi": -24.75166761447317,
+      "cone_gate": "RED_GRADIENT",
+      "conformal_trace_jacobian": 1.9183999999999997,
+      "law": "mixed_odd",
+      "name": "odd_high_density_gradient_failure",
+      "outward_test_matter": false,
+      "sigma": -0.07279999999999998,
+      "sigma_prime": -0.8199999999999998,
+      "source_and_matter_self_consistent": false
+    },
+    "odd_no_carrier_fields": {
+      "Dmin": 1.0,
+      "F": 1.0,
+      "F_double_prime": -0.7100000000000001,
+      "F_prime": 0.3,
+      "K": 1.0,
+      "P": 0.0,
+      "a_radial_over_c_squared_shape_units": 0.0,
+      "chi": -0.2485,
+      "cone_gate": "LUMINAL_SCOPED",
+      "conformal_trace_jacobian": 1.0,
+      "law": "mixed_odd",
+      "name": "odd_no_carrier_fields",
+      "outward_test_matter": false,
+      "sigma": 0.0,
+      "sigma_prime": 0.3,
+      "source_and_matter_self_consistent": false
+    }
+  },
+  "execution": {
+    "platform": "macOS-15.7.7-x86_64-i386-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "sim_sha256": "5b861bc9d14b91d55ed7ba21c2c9407d76addb97248b6faa86bcc660c4e63d77",
+    "source_sha256": "05e234290e894b7a0c444c26b09fc169546bc5fbb49852f8d610b0fc94197876",
+    "utc": "2026-11-15T00:52:15.182946+00:00"
+  },
+  "frozen_alpha1": "M5V_UNTOUCHED",
+  "gates": {
+    "PH5_006D_REPLACED": "NO",
+    "PH5_B11_M6_COMPLETE_CAUSAL_IMPULSE": "NOT_RUN",
+    "PH5_COMPLETE_LT10MJ": "NOT_CERTIFIED",
+    "PH5_P0_HISTORY": "PASS_SCOPED",
+    "PH5_P1_EVEN_CONCAVITY_REPULSION_THEOREM": "PASS_SCOPED_WITH_MATERIAL_COVERAGE_ASSUMPTION",
+    "PH5_P1_GLOBAL_CAUSAL_UV_COMPLETION": "NOT_ESTABLISHED",
+    "PH5_P1_MIXED_ODD_LOCAL_CAUSAL_REPULSION": "PASS_SCOPED_KINEMATIC_COUNTEREXAMPLE_ONLY",
+    "PH5_P2_FULL_CONSTRAINED_MODES": "NOT_DERIVED",
+    "PH5_P2_MICROSCOPIC_SOURCE_EOM": "NOT_SOLVED",
+    "PH5_P2_PARITY_CP_EMPIRICAL_PROTECTION": "NOT_ESTABLISHED",
+    "PH5_P3_EARTH_DOWN_CRAFT_UP": "NOT_DERIVED",
+    "PH5_P3_NEUTRAL_1G_AT_1M": "NOT_CERTIFIED"
+  },
+  "independent_full_6x6_determinant_residuals": {
+    "even_concave_inward": [
+      1.734723475976807e-18,
+      1.0408340855860843e-17,
+      1.1102230246251565e-16,
+      5.204170427930421e-18,
+      1.734723475976807e-18,
+      0.0,
+      8.673617379884035e-18,
+      3.469446951953614e-18,
+      5.551115123125783e-17
+    ],
+    "odd_concave_outward": [
+      1.734723475976807e-18,
+      1.734723475976807e-18,
+      5.551115123125783e-17,
+      8.673617379884035e-18,
+      8.673617379884035e-18,
+      1.1102230246251565e-16,
+      8.673617379884035e-18,
+      3.469446951953614e-18,
+      1.1102230246251565e-16
+    ],
+    "odd_convex_at_high_P": [
+      3.469446951953614e-18,
+      1.734723475976807e-18,
+      0.0,
+      6.938893903907228e-18,
+      1.0408340855860843e-17,
+      5.551115123125783e-17,
+      3.469446951953614e-18,
+      5.204170427930421e-18,
+      1.6653345369377348e-16
+    ]
+  },
+  "independent_radial_derivative_controls": {
+    "even_concave_inward": {
+      "P": 0.28,
+      "absolute_error": 5.712232631349679e-10,
+      "exact_a_over_c2": -0.18816000000000005,
+      "finite_difference_a_over_c2": -0.1881600005712233,
+      "r": 2.0
+    },
+    "even_convex_outward": {
+      "P": 0.28,
+      "absolute_error": 5.712232631349679e-10,
+      "exact_a_over_c2": 0.18816000000000005,
+      "finite_difference_a_over_c2": 0.1881600005712233,
+      "r": 2.0
+    },
+    "odd_concave_outward": {
+      "P": 0.28,
+      "absolute_error": 3.354097138918988e-10,
+      "exact_a_over_c2": 0.06383999999999997,
+      "finite_difference_a_over_c2": 0.06383999966459025,
+      "r": 2.0
+    }
+  },
+  "source_provenance": {
+    "m5v_result": {
+      "sha256": "53f63f93fe9f525302f516b6376fa227d4b46027e6a0f75ae4dd35404da8c52b",
+      "sha_fingerprint_recorded": true,
+      "status": "MATCH"
+    },
+    "m5v_source": {
+      "sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "sha_fingerprint_recorded": true,
+      "status": "MATCH"
+    },
+    "ph4_result": {
+      "sha256": "4411f476fa4d21b1261f105a4ba2c955efd5cc8d61573facdbb7a7c86c0c14f8",
+      "sha_fingerprint_recorded": true,
+      "status": "MATCH"
+    },
+    "ph4_source": {
+      "sha256": "24328b6f6f67207d9fd868be7e6b1c78118812d3c68de83cea7bead0b423a810",
+      "sha_fingerprint_recorded": true,
+      "status": "MATCH"
+    }
+  },
+  "symbolic_theorems": {
+    "even_concavity_theorem": "F even, F>0, F_double_prime<=0 on [0,P] => P*F_prime(P)<=0 => a_r<=0",
+    "exact_symbolic_identities": 10,
+    "farfield_decay": "mixed odd a_r~+m*c^2*a*A/r^(m+1), even a_r~r^(-2m-1)",
+    "global_positive_concavity": "Positive, globally concave F:R->(0,infinity) must be constant",
+    "parity_odd_escaper": "sigma=a*P-b*P^2; a>0,b>0, 0<P<a/(2b), (a-2bP)^2<2b",
+    "physical_Earth_coverage": "NOT_ESTABLISHED",
+    "repulsion_mvt": "P*F_prime(P)>0 with F_prime(0)=0 => exists q between 0,P with F_double_prime(q)>0"
+  },
+  "verdict": "YELLOW_PARITY_ODD_LOCAL_COMPATIBILITY_NOT_PHYSICAL_MODEL"
+}

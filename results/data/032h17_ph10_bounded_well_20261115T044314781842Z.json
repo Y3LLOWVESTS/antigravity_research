@@ -1,0 +1,302 @@
+{
+  "branch": "032H17A12D1R3X3B17-PH10",
+  "chirality_reversal": {
+    "upper_probe": {
+      "P": -4.982738998623715e-06,
+      "P_prime": 1.0905552850987285e-05,
+      "acceleration_shape": -3.271709326914979e-06
+    }
+  },
+  "domain_P_relative_difference": 0.001635493482638592,
+  "execution": {
+    "module_sha256": "1d2f8624fab28cf82301a582fb7b6289e9ce936e2a423d0bddae3ff10e1f4228",
+    "platform": "macOS-15.7.7-x86_64-i386-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "simulation_sha256": "d7dc82028bbdd51b151579e92e93931ec12d038885a72b2af8f2007a1e844af1",
+    "utc": "2026-11-15T04:43:14.781842+00:00"
+  },
+  "finer_resolution": {
+    "max_gauss_residual": 0.00011130641391554619,
+    "n": 96,
+    "relative_current_divergence": 0.016740874001414666,
+    "upper_probe": {
+      "P": 4.98020327185564e-06,
+      "P_prime": -1.050344078447573e-05,
+      "acceleration_shape": 3.1509903879265905e-06
+    }
+  },
+  "gates": {
+    "006D_REPLACED": "NO",
+    "B11_M6_COMPLETE_SIGNED_PULSE": "NOT_RUN",
+    "P0_PROVENANCE": "PASS",
+    "P1_BOUNDED_KG_ZERO_GAUGE_EIGENMODES": "PASS_EXACT_RADIAL_AND_WEAK_INTERFACE",
+    "P1_BOUNDED_TRAP_STRESS_ENERGY": "NOT_DERIVED",
+    "P1_GAUGE_LOADED_CHARGED_SCALAR_EOM": "RED_RESIDUAL_NONZERO",
+    "P1_SOURCE_WELL_SELF_CONSISTENT": "NO_TRAP_MATTER_ON_SHELL",
+    "P2_FIXED_MODE_GAUGE_LOADED_MAXWELL": "PASS_SCOPED_PERIODIC_RESIDUAL_REFINEMENT",
+    "P2_PORTAL_LOADED_EOM": "NOT_DERIVED",
+    "P2_REAL_3D_SOURCE_COMPACT": "NO_EXPONENTIAL_TAILS",
+    "P3_EARTH_DOWN_CRAFT_UP": "NOT_DERIVED",
+    "P3_NEUTRAL_GE1G_GE1M": "NOT_CERTIFIED",
+    "P3_UNIVERSAL_METRIC_AND_GRAVITY": "NOT_DERIVED",
+    "STRICT_FULL_ENERGY_LT10MJ": "NOT_CERTIFIED"
+  },
+  "larger_domain": {
+    "CG_phi": {
+      "iterations": 4,
+      "relative_equation_residual": 9.34625762053825e-12
+    },
+    "CG_vector": [
+      {
+        "iterations": 4,
+        "relative_equation_residual": 3.88012481673843e-13
+      },
+      {
+        "iterations": 4,
+        "relative_equation_residual": 3.878895481458008e-13
+      }
+    ],
+    "charge_y_exact_cancel": 0.0,
+    "complete_SI_energy": "NOT_CERTIFIED",
+    "complete_portal_backreaction": "NOT_SOLVED",
+    "eigenstates": [
+      {
+        "R": 1.0,
+        "boundary_slope_jump": 3.375077994860476e-14,
+        "boundary_value": 0.257939474779514,
+        "depth": 15.03018678129737,
+        "k": 2.4556438628794224,
+        "kappa": 3.0,
+        "l": 0,
+        "m": 5.0,
+        "match_residual": 1.3100631690576847e-13,
+        "minimum_quadratic_mass_squared": 9.96981321870263,
+        "omega": 4.0
+      },
+      {
+        "R": 1.0,
+        "boundary_slope_jump": -2.220446049250313e-16,
+        "boundary_value": 0.20800017647145325,
+        "depth": 22.16687862346125,
+        "k": 3.628619382556023,
+        "kappa": 3.0,
+        "l": 1,
+        "m": 5.0,
+        "match_residual": -1.7763568394002505e-15,
+        "minimum_quadratic_mass_squared": 2.833121376538749,
+        "omega": 4.0
+      }
+    ],
+    "full_charged_scalar_on_shell": "NO_AFTER_GAUGE_LOADING",
+    "independent_continuum_radial_virial": [
+      {
+        "fraction_beyond_probe_from_its_center": 6.162722493879892e-07,
+        "fraction_outside_well": 0.10030126153851915,
+        "l": 0,
+        "normalization": 0.11055489503812771,
+        "relative_variational_residual": 5.72409863731581e-14,
+        "rest_plus_trap": 1.2688783206101404,
+        "spatial": 0.5000000000000042,
+        "time": 1.7688783206100434
+      },
+      {
+        "fraction_beyond_probe_from_its_center": 6.37230627376081e-07,
+        "fraction_outside_well": 0.14142591539727253,
+        "l": 1,
+        "normalization": 0.04779895856892946,
+        "relative_variational_residual": 4.529251186293247e-14,
+        "rest_plus_trap": 0.2852686050610196,
+        "spatial": 0.4795147320418864,
+        "time": 0.7647833371028714
+      }
+    ],
+    "lower_probe": {
+      "P": 4.990901585639534e-06,
+      "P_prime": 1.0935754458969328e-05,
+      "acceleration_shape": -3.280682674271383e-06
+    },
+    "max_divergence_A": 5.856108511904012e-05,
+    "max_gauss_residual": 0.000275988237699365,
+    "net_charge_loaded": -1.3916066007640163e-16,
+    "net_charge_unloaded": 1.5830094384812457e-17,
+    "nonperiodic_exterior": "NOT_SOLVED",
+    "orientation": 1,
+    "partial_energy": {
+      "field": 0.04037976399608207,
+      "matter_gradient": 2.3802148980516935,
+      "matter_rest_plus_prescribed_trap": 3.6782161581351627,
+      "matter_time": 5.923484423509745,
+      "sum_excluding_trap_hardware": 12.022295243692684
+    },
+    "probe_geometric_clearance": 1.45,
+    "relative_current_divergence": 0.03471796737673988,
+    "scalar_KG_residual_from_loaded_X": 0.3741399320605045,
+    "scalar_KG_residual_from_loaded_Y_exact_gauge_correction": 0.042779838526227014,
+    "spec": {
+      "alpha": 0.3,
+      "beta": 0.4,
+      "electric_radius": 1.0,
+      "length": 20.0,
+      "magnetic_radius": 1.0,
+      "mass": 5.0,
+      "n": 80,
+      "offset": 0.55,
+      "omega": 4.0,
+      "positive_charge": 1.0,
+      "probe_z": 3.0,
+      "vortex_charge": 0.5
+    },
+    "trap_boundary_pressure": "UNRESOLVED_EXTERNAL_TRAP_ACTION",
+    "universal_metric_all_matter": "NOT_DERIVED",
+    "upper_probe": {
+      "P": 4.990901585639519e-06,
+      "P_prime": -1.0935754458969326e-05,
+      "acceleration_shape": 3.2806826742713824e-06
+    },
+    "whole_spacecraft_reaction": "NOT_DERIVED"
+  },
+  "portal_off": {
+    "upper_probe": {
+      "P": 4.982738998623715e-06,
+      "P_prime": -1.0905552850987285e-05,
+      "acceleration_shape": 0.0
+    }
+  },
+  "primary": {
+    "CG_phi": {
+      "iterations": 4,
+      "relative_equation_residual": 1.0530621547999567e-11
+    },
+    "CG_vector": [
+      {
+        "iterations": 4,
+        "relative_equation_residual": 3.7811713265237615e-13
+      },
+      {
+        "iterations": 4,
+        "relative_equation_residual": 3.782262510182153e-13
+      }
+    ],
+    "charge_y_exact_cancel": 0.0,
+    "complete_SI_energy": "NOT_CERTIFIED",
+    "complete_portal_backreaction": "NOT_SOLVED",
+    "eigenstates": [
+      {
+        "R": 1.0,
+        "boundary_slope_jump": 3.375077994860476e-14,
+        "boundary_value": 0.257939474779514,
+        "depth": 15.03018678129737,
+        "k": 2.4556438628794224,
+        "kappa": 3.0,
+        "l": 0,
+        "m": 5.0,
+        "match_residual": 1.3100631690576847e-13,
+        "minimum_quadratic_mass_squared": 9.96981321870263,
+        "omega": 4.0
+      },
+      {
+        "R": 1.0,
+        "boundary_slope_jump": -2.220446049250313e-16,
+        "boundary_value": 0.20800017647145325,
+        "depth": 22.16687862346125,
+        "k": 3.628619382556023,
+        "kappa": 3.0,
+        "l": 1,
+        "m": 5.0,
+        "match_residual": -1.7763568394002505e-15,
+        "minimum_quadratic_mass_squared": 2.833121376538749,
+        "omega": 4.0
+      }
+    ],
+    "full_charged_scalar_on_shell": "NO_AFTER_GAUGE_LOADING",
+    "independent_continuum_radial_virial": [
+      {
+        "fraction_beyond_probe_from_its_center": 6.162722493879892e-07,
+        "fraction_outside_well": 0.10030126153851915,
+        "l": 0,
+        "normalization": 0.11055489503812771,
+        "relative_variational_residual": 5.72409863731581e-14,
+        "rest_plus_trap": 1.2688783206101404,
+        "spatial": 0.5000000000000042,
+        "time": 1.7688783206100434
+      },
+      {
+        "fraction_beyond_probe_from_its_center": 6.37230627376081e-07,
+        "fraction_outside_well": 0.14142591539727253,
+        "l": 1,
+        "normalization": 0.04779895856892946,
+        "relative_variational_residual": 4.529251186293247e-14,
+        "rest_plus_trap": 0.2852686050610196,
+        "spatial": 0.4795147320418864,
+        "time": 0.7647833371028714
+      }
+    ],
+    "lower_probe": {
+      "P": 4.982738998623705e-06,
+      "P_prime": 1.0905552850987403e-05,
+      "acceleration_shape": -3.271622383677427e-06
+    },
+    "max_divergence_A": 5.8573875514462865e-05,
+    "max_gauss_residual": 0.0003449857241103471,
+    "net_charge_loaded": -1.5236462789880499e-16,
+    "net_charge_unloaded": -2.3660009951784668e-17,
+    "nonperiodic_exterior": "NOT_SOLVED",
+    "orientation": 1,
+    "partial_energy": {
+      "field": 0.040356164140081606,
+      "matter_gradient": 2.3802171525737466,
+      "matter_rest_plus_prescribed_trap": 3.678216158135162,
+      "matter_time": 5.923531036932477,
+      "sum_excluding_trap_hardware": 12.022320511781466
+    },
+    "probe_geometric_clearance": 1.45,
+    "relative_current_divergence": 0.0343612622974216,
+    "scalar_KG_residual_from_loaded_X": 0.37393205613959013,
+    "scalar_KG_residual_from_loaded_Y_exact_gauge_correction": 0.04277101575708814,
+    "spec": {
+      "alpha": 0.3,
+      "beta": 0.4,
+      "electric_radius": 1.0,
+      "length": 16.0,
+      "magnetic_radius": 1.0,
+      "mass": 5.0,
+      "n": 64,
+      "offset": 0.55,
+      "omega": 4.0,
+      "positive_charge": 1.0,
+      "probe_z": 3.0,
+      "vortex_charge": 0.5
+    },
+    "trap_boundary_pressure": "UNRESOLVED_EXTERNAL_TRAP_ACTION",
+    "universal_metric_all_matter": "NOT_DERIVED",
+    "upper_probe": {
+      "P": 4.982738998623715e-06,
+      "P_prime": -1.0905552850987285e-05,
+      "acceleration_shape": 3.2716223836773914e-06
+    },
+    "whole_spacecraft_reaction": "NOT_DERIVED"
+  },
+  "provenance": {
+    "m5v_source": {
+      "actual": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "ph8_source": {
+      "actual": "e73f28a376a071602c38e95c3188a70d3b8dc553889fa8efa193c97f1368dc98",
+      "expected": "e73f28a376a071602c38e95c3188a70d3b8dc553889fa8efa193c97f1368dc98",
+      "status": "MATCH"
+    },
+    "ph9_result": {
+      "actual": "cc71fed5e758a3d78b93783a8446ccc79a02336ce81e998b79628958679f55ff",
+      "expected": "cc71fed5e758a3d78b93783a8446ccc79a02336ce81e998b79628958679f55ff",
+      "status": "MATCH"
+    },
+    "ph9_source": {
+      "actual": "6778d91755c6669625e363ae568f7887b1a28327817f005dc0ba858774982858",
+      "expected": "6778d91755c6669625e363ae568f7887b1a28327817f005dc0ba858774982858",
+      "status": "MATCH"
+    }
+  },
+  "verdict": "YELLOW_BOUNDED_WELL_ZERO_GAUGE_ON_SHELL_BUT_LOADED_SOURCE_NOT_CLOSED"
+}

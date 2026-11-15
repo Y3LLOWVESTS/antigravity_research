@@ -1,0 +1,769 @@
+{
+  "branch": "032H17A12D1R3X3B17-PH4",
+  "exact_analytic_controls": {
+    "analytic_identities": 8,
+    "dipole_at_r_over_r0_2_even_accel_ratio": 0.0001220703125,
+    "dipole_at_r_over_r0_2_linear_accel_ratio": 0.0078125,
+    "linear_farfield_signed_coefficient": "+6*c^2*kappa*A/r^7",
+    "negative_even_chi_flip_at_abs_P": "1/sqrt(2*lambda)",
+    "negative_even_conformal_jacobian": "1+8*lambda*P^2 > 0 for finite P",
+    "negative_even_farfield_signed_coefficient": "-12*c^2*lambda*A^2/r^13",
+    "positive_even_farfield_signed_coefficient": "+12*c^2*lambda*A^2/r^13",
+    "source_shape_and_1m_standoff": "NOT_MODELED",
+    "zero_P_even_metric_force": "ZERO_TO_FIRST_ORDER"
+  },
+  "execution": {
+    "date_utc": "2026-11-15T00:36:56.120100+00:00",
+    "module_sha256": "24328b6f6f67207d9fd868be7e6b1c78118812d3c68de83cea7bead0b423a810",
+    "platform": "macOS-15.7.7-x86_64-i386-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "simulation_sha256": "4fe6e5e1b230016b8b9365beec5e9698a4d8eae78e3cb1e0c1ab32bd92f5280d"
+  },
+  "frozen_reference": "ALPHA1_B17_M5V_NOT_REOPTIMIZED",
+  "gates": {
+    "PH4_006D_REPLACED": "NO",
+    "PH4_B11_M6_FULL_CAUSAL_LOADED_IMPULSE": "NOT_RUN",
+    "PH4_P0_PROVENANCE": "PASS",
+    "PH4_P1_ALL_3D_FROZEN_DUST_CHARACTERISTICS": "PASS_SCOPED_EXACT_CONE_THEOREM",
+    "PH4_P1_NEGATIVE_QUADRATIC_CAUSAL_WINDOW": "CONDITIONAL_STRONG_FIELD_SIGN_FLIP",
+    "PH4_P2_EVEN_DIPOLE_FARFIELD_DECAY": "R_MINUS_13_CONDITIONAL",
+    "PH4_P2_MICROSCOPIC_SOURCE_AND_CONFINEMENT": "NOT_DERIVED",
+    "PH4_P2_NEGATIVE_QUADRATIC_DIPOLE_REPULSION": "RED_WRONG_FARFIELD_SIGN_SCOPED",
+    "PH4_P2_POSITIVE_QUADRATIC_DIPOLE_REPULSION": "OUTWARD_SIGN_BUT_RED_RESTRICTED_CAUSALITY",
+    "PH4_P3_EARTH_DOWN_FULL_CRAFT_UP": "NOT_DERIVED",
+    "PH4_P3_FINITE_NEUTRAL_GE1G_GE1M": "NOT_CERTIFIED",
+    "PH4_P3_FULL_MATERIAL_AND_GRAVITY_MODES": "NOT_DERIVED",
+    "PH4_STRICT_COMPLETE_LT10MJ": "NOT_CERTIFIED"
+  },
+  "historical_provenance": {
+    "m5v_result": {
+      "actual": "53f63f93fe9f525302f516b6376fa227d4b46027e6a0f75ae4dd35404da8c52b",
+      "expected": "53f63f93fe9f525302f516b6376fa227d4b46027e6a0f75ae4dd35404da8c52b",
+      "status": "MATCH"
+    },
+    "m5v_source": {
+      "actual": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "ph2_source": {
+      "actual": "b3747d1f2d5f094721e068fce06c2331eb5400a4485777604cfdb53a8de723d5",
+      "expected": "b3747d1f2d5f094721e068fce06c2331eb5400a4485777604cfdb53a8de723d5",
+      "status": "MATCH"
+    },
+    "ph3_result": {
+      "actual": "d9c76418fd8babb8d4d2788d10fb91367544982aa7846ffc002cf6cd742b4eda",
+      "expected": "d9c76418fd8babb8d4d2788d10fb91367544982aa7846ffc002cf6cd742b4eda",
+      "status": "MATCH"
+    },
+    "ph3_source": {
+      "actual": "7cb085be26aa69de6d8ca3e277fb8752c09ee50fb8d0f420d2f7eb539bb63285",
+      "expected": "7cb085be26aa69de6d8ca3e277fb8752c09ee50fb8d0f420d2f7eb539bb63285",
+      "status": "MATCH"
+    }
+  },
+  "independent_six_by_six_and_action_checks": {
+    "linear_noncollinear": {
+      "determinants": [
+        {
+          "factored_determinant": 0.012126204726641327,
+          "numeric_determinant": 0.012126204726641361,
+          "relative_scaled_error": 3.469446951953614e-17
+        },
+        {
+          "factored_determinant": 0.014114850457110023,
+          "numeric_determinant": 0.014114850457110036,
+          "relative_scaled_error": 1.214306433183765e-17
+        },
+        {
+          "factored_determinant": 0.34195249053643534,
+          "numeric_determinant": 0.34195249053643545,
+          "relative_scaled_error": 1.1102230246251565e-16
+        },
+        {
+          "factored_determinant": 0.7477340688392042,
+          "numeric_determinant": 0.7477340688392049,
+          "relative_scaled_error": 6.661338147750939e-16
+        }
+      ],
+      "full_action_second_variation": {
+        "abs_error": 2.531574949671267e-11,
+        "analytical_symbol_quadratic": 0.3152224018346902,
+        "full_L_second_difference": 0.31522240186000594
+      }
+    },
+    "negative_even_mixed": {
+      "determinants": [
+        {
+          "factored_determinant": 0.012790074815807706,
+          "numeric_determinant": 0.012790074815807746,
+          "relative_scaled_error": 3.9898639947466563e-17
+        },
+        {
+          "factored_determinant": 0.013433482122566502,
+          "numeric_determinant": 0.013433482122566518,
+          "relative_scaled_error": 1.5612511283791264e-17
+        },
+        {
+          "factored_determinant": 0.4741436739478622,
+          "numeric_determinant": 0.47414367394786217,
+          "relative_scaled_error": 5.551115123125783e-17
+        },
+        {
+          "factored_determinant": 0.9858877946152931,
+          "numeric_determinant": 0.9858877946152932,
+          "relative_scaled_error": 1.1102230246251565e-16
+        }
+      ],
+      "full_action_second_variation": {
+        "abs_error": 6.449938361186014e-10,
+        "analytical_symbol_quadratic": 0.3374066820048235,
+        "full_L_second_difference": 0.33740668135982965
+      }
+    },
+    "negative_even_noncollinear": {
+      "determinants": [
+        {
+          "factored_determinant": 0.011175901096608475,
+          "numeric_determinant": 0.011175901096608501,
+          "relative_scaled_error": 2.6020852139652106e-17
+        },
+        {
+          "factored_determinant": 0.010757939456910807,
+          "numeric_determinant": 0.010757939456910798,
+          "relative_scaled_error": 8.673617379884035e-18
+        },
+        {
+          "factored_determinant": 0.4834754588197308,
+          "numeric_determinant": 0.4834754588197309,
+          "relative_scaled_error": 1.1102230246251565e-16
+        },
+        {
+          "factored_determinant": 0.8980037580191388,
+          "numeric_determinant": 0.8980037580191395,
+          "relative_scaled_error": 6.661338147750939e-16
+        }
+      ],
+      "full_action_second_variation": {
+        "abs_error": 1.0329376243234378e-10,
+        "analytical_symbol_quadratic": 0.32530360479878395,
+        "full_L_second_difference": 0.3253036046954902
+      }
+    }
+  },
+  "pre_registered_12_cases": {
+    "linear_kinetic_failure": {
+      "A_kinetic": -1.3236684854565661,
+      "D_max_all_normals": 1.0522825409227727,
+      "D_min_all_normals": -1.3236684854565661,
+      "P": 0.15,
+      "background_R_eigenvalues": [
+        0.0,
+        0.0,
+        1.0225
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "coupling": 1.0,
+        "ex": [
+          0.0,
+          0.0,
+          0.15
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "linear_kinetic_failure",
+        "law": "linear",
+        "rho": 2.0
+      },
+      "chi": 2.323668485456566,
+      "conformal_trace_jacobian": 0.4,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": -1.3236684854565661,
+        "max_abs_phase_speed_sampled": null,
+        "smallest_sampled_D": -1.3236684854565661
+      },
+      "exact_all_normals_verdict": "RED_KINETIC_SCOPED",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": 0.15,
+      "sigma_prime": 1.0,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "linear_mixed": {
+      "A_kinetic": 0.8970979216933639,
+      "D_max_all_normals": 1.0196961009258796,
+      "D_min_all_normals": 0.8970979216933639,
+      "P": 0.27999999999999997,
+      "background_R_eigenvalues": [
+        0.0,
+        0.0,
+        0.7625000000000001
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.0,
+          0.0,
+          0.8
+        ],
+        "coupling": 0.45,
+        "ex": [
+          0.0,
+          0.0,
+          0.35
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "linear_mixed",
+        "law": "linear",
+        "rho": 0.7
+      },
+      "chi": 0.16078449735411882,
+      "conformal_trace_jacobian": 0.496,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 0.8970979216933639,
+        "max_abs_phase_speed_sampled": 1.0661429859119314,
+        "smallest_sampled_D": 0.8970979216933639
+      },
+      "exact_all_normals_verdict": "RED_SUPERLUMINAL_EXISTS_EXACT_ALL_NORMALS_THEOREM",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": 0.126,
+      "sigma_prime": 0.45,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "linear_no_coupling": {
+      "A_kinetic": 1.0,
+      "D_max_all_normals": 1.0,
+      "D_min_all_normals": 1.0,
+      "P": 0.27999999999999997,
+      "background_R_eigenvalues": [
+        0.0,
+        0.0,
+        0.7625000000000001
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.0,
+          0.0,
+          0.8
+        ],
+        "coupling": 0.0,
+        "ex": [
+          0.0,
+          0.0,
+          0.35
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "linear_no_coupling",
+        "law": "linear",
+        "rho": 0.7
+      },
+      "chi": 0.0,
+      "conformal_trace_jacobian": 1.0,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 1.0,
+        "max_abs_phase_speed_sampled": 1.0,
+        "smallest_sampled_D": 1.0
+      },
+      "exact_all_normals_verdict": "PASS_SCOPED_LUMINAL_NO_COMPLETION",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": 0.0,
+      "sigma_prime": 0.0,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "linear_no_matter": {
+      "A_kinetic": 1.0,
+      "D_max_all_normals": 1.0,
+      "D_min_all_normals": 1.0,
+      "P": 0.27999999999999997,
+      "background_R_eigenvalues": [
+        0.0,
+        0.0,
+        0.7625000000000001
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.0,
+          0.0,
+          0.8
+        ],
+        "coupling": 0.45,
+        "ex": [
+          0.0,
+          0.0,
+          0.35
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "linear_no_matter",
+        "law": "linear",
+        "rho": 0.0
+      },
+      "chi": 0.0,
+      "conformal_trace_jacobian": 0.496,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 1.0,
+        "max_abs_phase_speed_sampled": 1.0,
+        "smallest_sampled_D": 1.0
+      },
+      "exact_all_normals_verdict": "PASS_SCOPED_LUMINAL_NO_COMPLETION",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": 0.126,
+      "sigma_prime": 0.45,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "linear_noncollinear": {
+      "A_kinetic": 0.9838874617923283,
+      "D_max_all_normals": 1.015397014018018,
+      "D_min_all_normals": 0.9934668476768546,
+      "P": 0.13629999999999998,
+      "background_R_eigenvalues": [
+        0.033986846381052455,
+        0.10774908407487786,
+        0.3584640695440698
+      ],
+      "case": {
+        "bx": [
+          0.15,
+          0.04,
+          -0.11
+        ],
+        "by": [
+          0.13,
+          0.37,
+          0.22
+        ],
+        "coupling": 0.4,
+        "ex": [
+          0.24,
+          0.11,
+          0.35
+        ],
+        "ey": [
+          0.1,
+          -0.14,
+          0.2
+        ],
+        "label": "linear_noncollinear",
+        "law": "linear",
+        "rho": 0.4
+      },
+      "chi": 0.06758615019996526,
+      "conformal_trace_jacobian": 0.7819200000000001,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 0.9934668476768546,
+        "max_abs_phase_speed_sampled": 1.026632799499328,
+        "smallest_sampled_D": 0.9936509487252639
+      },
+      "exact_all_normals_verdict": "RED_SUPERLUMINAL_EXISTS_EXACT_ALL_NORMALS_THEOREM",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": 0.05451999999999999,
+      "sigma_prime": 0.4,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "negative_even_P_zero_nontrivial_fields": {
+      "A_kinetic": 1.1792,
+      "D_max_all_normals": 1.1449,
+      "D_min_all_normals": 0.9657,
+      "P": 0.0,
+      "background_R_eigenvalues": [
+        0.0,
+        0.12249999999999998,
+        0.6400000000000001
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.8,
+          0.0,
+          0.0
+        ],
+        "coupling": 0.4,
+        "ex": [
+          0.0,
+          0.0,
+          0.35
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "negative_even_P_zero_nontrivial_fields",
+        "law": "even_negative",
+        "rho": 0.35
+      },
+      "chi": -0.27999999999999997,
+      "conformal_trace_jacobian": 1.0,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 0.9657,
+        "max_abs_phase_speed_sampled": 0.9853489143645254,
+        "smallest_sampled_D": 0.9657
+      },
+      "exact_all_normals_verdict": "PASS_SCOPED_ALL_NORMALS_SUBLUMINAL_FROZEN_DUST",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": -0.0,
+      "sigma_prime": -0.0,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "negative_even_gradient_failure": {
+      "A_kinetic": 1.0176785256804028,
+      "D_max_all_normals": 1.0176785256804024,
+      "D_min_all_normals": -6.071410272161098,
+      "P": 0.2,
+      "background_R_eigenvalues": [
+        0.0,
+        0.0,
+        4.01
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.0,
+          0.0,
+          0.1
+        ],
+        "coupling": 1.0,
+        "ex": [
+          0.0,
+          0.0,
+          2.0
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "negative_even_gradient_failure",
+        "law": "even_negative",
+        "rho": 1.0
+      },
+      "chi": -1.7678525680402746,
+      "conformal_trace_jacobian": 1.32,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": -6.071410272161098,
+        "max_abs_phase_speed_sampled": 1.0,
+        "smallest_sampled_D": -6.071410272161098
+      },
+      "exact_all_normals_verdict": "RED_GRADIENT_OR_HYPERBOLICITY_SCOPED",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": -0.04000000000000001,
+      "sigma_prime": -0.4,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "negative_even_large_P": {
+      "A_kinetic": 0.7767630776228426,
+      "D_max_all_normals": 1.16401080011383,
+      "D_min_all_normals": 0.7767630776228426,
+      "P": 1.68,
+      "background_R_eigenvalues": [
+        0.0,
+        0.0,
+        3.3999999999999995
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.0,
+          0.0,
+          1.4
+        ],
+        "coupling": 0.4,
+        "ex": [
+          0.0,
+          0.0,
+          1.2
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "negative_even_large_P",
+        "law": "even_negative",
+        "rho": 0.35
+      },
+      "chi": 0.11389638896793747,
+      "conformal_trace_jacobian": 10.03168,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 0.7767630776228426,
+        "max_abs_phase_speed_sampled": 1.2241488193251822,
+        "smallest_sampled_D": 0.7767630776228426
+      },
+      "exact_all_normals_verdict": "RED_SUPERLUMINAL_EXISTS_EXACT_ALL_NORMALS_THEOREM",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": -1.12896,
+      "sigma_prime": -1.344,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "negative_even_mixed": {
+      "A_kinetic": 1.1627750660988938,
+      "D_max_all_normals": 1.1627750660988938,
+      "D_min_all_normals": 0.9688438350045087,
+      "P": 0.27999999999999997,
+      "background_R_eigenvalues": [
+        0.0,
+        0.0,
+        0.7625000000000001
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.0,
+          0.0,
+          0.8
+        ],
+        "coupling": 0.4,
+        "ex": [
+          0.0,
+          0.0,
+          0.35
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "negative_even_mixed",
+        "law": "even_negative",
+        "rho": 0.35
+      },
+      "chi": -0.2543360407795214,
+      "conformal_trace_jacobian": 1.25088,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 0.9688438350045087,
+        "max_abs_phase_speed_sampled": 1.0,
+        "smallest_sampled_D": 0.9688438350045087
+      },
+      "exact_all_normals_verdict": "PASS_SCOPED_ALL_NORMALS_SUBLUMINAL_FROZEN_DUST",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": -0.03135999999999999,
+      "sigma_prime": -0.22399999999999998,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "negative_even_noncollinear": {
+      "A_kinetic": 1.0745977895153522,
+      "D_max_all_normals": 1.0302471724561488,
+      "D_min_all_normals": 0.9287149426069846,
+      "P": 0.13629999999999998,
+      "background_R_eigenvalues": [
+        0.033986846381052455,
+        0.10774908407487786,
+        0.3584640695440698
+      ],
+      "case": {
+        "bx": [
+          0.15,
+          0.04,
+          -0.11
+        ],
+        "by": [
+          0.13,
+          0.37,
+          0.22
+        ],
+        "coupling": 0.4,
+        "ex": [
+          0.24,
+          0.11,
+          0.35
+        ],
+        "ey": [
+          0.1,
+          -0.14,
+          0.2
+        ],
+        "label": "negative_even_noncollinear",
+        "law": "even_negative",
+        "rho": 0.4
+      },
+      "chi": -0.312910190920102,
+      "conformal_trace_jacobian": 1.059448608,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 0.9287149426069846,
+        "max_abs_phase_speed_sampled": 0.9953560781059996,
+        "smallest_sampled_D": 0.9290568671823106
+      },
+      "exact_all_normals_verdict": "PASS_SCOPED_ALL_NORMALS_SUBLUMINAL_FROZEN_DUST",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": -0.007431075999999997,
+      "sigma_prime": -0.10903999999999998,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "positive_even_mixed": {
+      "A_kinetic": 0.8034937652630716,
+      "D_max_all_normals": 1.0376125214926153,
+      "D_min_all_normals": 0.8034937652630716,
+      "P": 0.27999999999999997,
+      "background_R_eigenvalues": [
+        0.0,
+        0.0,
+        0.7625000000000001
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.0,
+          0.0,
+          0.8
+        ],
+        "coupling": 0.4,
+        "ex": [
+          0.0,
+          0.0,
+          0.35
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "positive_even_mixed",
+        "law": "even_positive",
+        "rho": 0.35
+      },
+      "chi": 0.30704099177645056,
+      "conformal_trace_jacobian": 0.74912,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 0.8034937652630716,
+        "max_abs_phase_speed_sampled": 1.136387234325153,
+        "smallest_sampled_D": 0.8034937652630716
+      },
+      "exact_all_normals_verdict": "RED_SUPERLUMINAL_EXISTS_EXACT_ALL_NORMALS_THEOREM",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": 0.03135999999999999,
+      "sigma_prime": 0.22399999999999998,
+      "source_equilibrium": "NOT_DERIVED"
+    },
+    "zero_fields": {
+      "A_kinetic": 1.0,
+      "D_max_all_normals": 1.0,
+      "D_min_all_normals": 1.0,
+      "P": 0.0,
+      "background_R_eigenvalues": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "case": {
+        "bx": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coupling": 0.4,
+        "ex": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ey": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "zero_fields",
+        "law": "even_negative",
+        "rho": 0.4
+      },
+      "chi": -0.32000000000000006,
+      "conformal_trace_jacobian": 1.0,
+      "directions": {
+        "directional_sampling_is_proof": "NO_EXACT_MATRIX_EIGENVALUE_BOUND_IS_PROOF",
+        "directions_tested": 150,
+        "exact_min_D": 1.0,
+        "max_abs_phase_speed_sampled": 1.0,
+        "smallest_sampled_D": 1.0
+      },
+      "exact_all_normals_verdict": "PASS_SCOPED_LUMINAL_NO_COMPLETION",
+      "full_matter_and_gravity_characteristics": "NOT_TESTED",
+      "sigma": -0.0,
+      "sigma_prime": -0.0,
+      "source_equilibrium": "NOT_DERIVED"
+    }
+  },
+  "verdict": "YELLOW_WITH_SCOPED_CAUSALITY_REPULSION_TENSION_NO_PHYSICAL_ENGINE"
+}

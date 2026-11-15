@@ -1,0 +1,402 @@
+{
+  "branch": "032H17A12D1R3X3B17-PH2",
+  "complete_energy_ledger": {
+    "complete_physical_action_proven": false,
+    "known_nonnegative_sum_j": 0,
+    "missing_components": [
+      "physical_source_rest_internal",
+      "all_loaded_carrier_fields",
+      "hull_support_enclosure",
+      "driver_activation",
+      "losses_radiation",
+      "metric_gravity",
+      "environment_exchange",
+      "cyclic_off_state",
+      "auxiliary_work",
+      "quantum_uv_required"
+    ],
+    "status": "NOT_CERTIFIED"
+  },
+  "environment": {
+    "executed_root": "/Users/mymac/Desktop/antigravity_research",
+    "platform": "macOS-15.7.7-x86_64-i386-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "sim_sha256": "fe9af3bee694f839146254cbd08a2d41db92698d3387e4fa14605da8eddcc0fb",
+    "source_sha256": "b3747d1f2d5f094721e068fce06c2331eb5400a4485777604cfdb53a8de723d5"
+  },
+  "exact_algebra": {
+    "identities_passed": 10,
+    "invertibility_factor": "1-4*kappa*P",
+    "legendre_hamiltonian": "bx**2/2 + by**2/2 - ex**2/2 - ex*(by*kappa*rho*exp(kappa*(bx*ey + by*ex)) - ex) - ey**2/2 - ey*(bx*kappa*rho*exp(kappa*(bx*ey + by*ex)) - ey) + rho*exp(kappa*(bx*ey + by*ex))",
+    "loaded_hessian": "I-rho*kappa^2*exp(kappa*P)*b*b^T",
+    "restricted_kinetic_eigenvalue": "1-rho*kappa^2*exp(kappa*P)*(B_X^2+B_Y^2)"
+  },
+  "executed_at_utc": "2026-11-14T23:52:14.577321+00:00",
+  "gates": {
+    "PH2_B11_M6_FULL_CAUSAL_MIXED_MATTER": "NOT_RUN",
+    "PH2_B11_M6_FULL_LOADED_STATIC_REPRODUCTION": "NOT_RUN",
+    "PH2_CAUSAL_SOURCE_RECOIL_1D": "PASS_REDUCED_DYNAMICAL_CONTROL_ONLY",
+    "PH2_COLD_DUST_CHARGE_EQUILIBRIUM": "RED_SCOPED_WITHOUT_PRESSURE_OR_SUPPORT",
+    "PH2_COMPLETE_LT10MJ": "NOT_CERTIFIED",
+    "PH2_COMPLETE_MICROSCOPIC_SOURCE": "OPEN_REQUIRES_NEW_SOURCE_EOM_AND_SUPPORT",
+    "PH2_DERIVED_UNIVERSAL_METRIC_MATERIAL": "FIXED_DUST_RESPONSE_ONLY_NO_EARTH_EOS",
+    "PH2_EARTH_DOWN_CRAFT_UP": "NOT_DERIVED",
+    "PH2_ENGINE_OR_LIFT": "NOT_ESTABLISHED",
+    "PH2_EXTERIOR_EARTH_TRANSMISSION": "NOT_DERIVED",
+    "PH2_FINITE_NEUTRAL_1G_1M": "NOT_CERTIFIED",
+    "PH2_FREE_POSITIVE_MASS_WINDING_EOM": "RED_SCOPED_NO_GO_FOR_PH1_A0_APHI_ZERO_FREE_SOURCE",
+    "PH2_FULL_3D_NONAXISYMMETRIC_STABILITY": "NOT_TESTED",
+    "PH2_GAUGE_WARD_NOETHER": "PASS_SCOPED_REDUCED_1D_SOURCE_AND_ABELIAN_ONLY",
+    "PH2_MATTER_KINETIC_HEALTH": "CONDITIONAL_NECESSARY_ONLY_FULL_SPECTRUM_OPEN",
+    "PH2_PERFECTLY_CONFINED_LOCAL_P_PORTAL": "RED_SCOPED_NO_EXTERIOR_PORTAL_GRADIENT",
+    "PH2_PROVENANCE": "PASS_SCOPED",
+    "PH2_QUANTUM_NATURALNESS_EMPIRICAL": "NOT_TESTED",
+    "PH2_STATIC_MAXWELL_CURRENT": "RED_SCOPED_ZERO_A_NONZERO_J_INCONSISTENT"
+  },
+  "provenance": {
+    "m5v_code": {
+      "actual": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "m5v_result": {
+      "actual": "53f63f93fe9f525302f516b6376fa227d4b46027e6a0f75ae4dd35404da8c52b",
+      "expected": "53f63f93fe9f525302f516b6376fa227d4b46027e6a0f75ae4dd35404da8c52b",
+      "status": "MATCH"
+    },
+    "ph1_code": {
+      "actual": "47281ea38e40351944bc194375b4732b28c58960d7acf644f6d040b82fd0aa52",
+      "expected": "47281ea38e40351944bc194375b4732b28c58960d7acf644f6d040b82fd0aa52",
+      "status": "MATCH"
+    },
+    "ph1_result_present": true
+  },
+  "reference": "ALPHA1_M5V_FROZEN",
+  "restricted_material_controls": {
+    "negative": {
+      "conformal_jacobian": 1,
+      "full_characteristic_health": "NOT_TESTED",
+      "invertible_necessary": true,
+      "loaded_eigenvalue": -3.0,
+      "positive_necessary": false
+    },
+    "singular": {
+      "conformal_jacobian": 0.0,
+      "full_characteristic_health": "NOT_TESTED",
+      "invertible_necessary": false,
+      "loaded_eigenvalue": 1.0,
+      "positive_necessary": true
+    },
+    "weak": {
+      "conformal_jacobian": 1,
+      "full_characteristic_health": "NOT_TESTED",
+      "invertible_necessary": true,
+      "loaded_eigenvalue": 0.9375,
+      "positive_necessary": true
+    }
+  },
+  "source_driven_dynamics": {
+    "convergence_class": "REDUCED_1D_IMPULSE_ONLY_NOT_GRAVITATIONAL",
+    "h_squared_extrapolated_impulse": 0.0005908355618611642,
+    "incoming_recoil": {
+      "Earth_or_neutral_matter": "NOT_INCLUDED",
+      "case": "incoming_recoil",
+      "craft_upward_impulse": "NOT_DERIVED",
+      "final_carrier_energy": 0.009827314412574386,
+      "final_energy": 0.010388028288536775,
+      "final_source_energy": 0.0005605334800708232,
+      "final_state_continues_without_reset": true,
+      "final_total_momentum": 0.010226501250853203,
+      "impulse_integral_residual": 4.7053600273939955e-11,
+      "initial_energy": 0.0103880282885368,
+      "initial_source_energy": 0.0,
+      "initial_total_momentum": 0.010220070673387753,
+      "max_energy_absolute_drift": 1.5612511283791264e-16,
+      "max_total_momentum_drift": 9.209865525869332e-06,
+      "physical_energy_j": "NOT_CALIBRATED",
+      "radiation_flux_to_infinity": "NOT_MODELED_PERIODIC_BOX",
+      "source_center_momentum_change": [
+        0.0006006594568708792,
+        0.0
+      ],
+      "source_center_negative_impulse": [
+        -3.7374586047966086e-06,
+        0.0
+      ],
+      "source_center_positive_impulse": [
+        0.0006043968684220755,
+        0.0
+      ],
+      "source_center_signed_impulse": [
+        0.0006006594098172789,
+        0.0
+      ],
+      "spec": {
+        "anchor_mass": 1.0,
+        "coupling": 0.5,
+        "length": 8.0,
+        "mass": 1.0,
+        "n": 128,
+        "omega_x": 4.0,
+        "omega_y": 5.0,
+        "tmax": 2.1,
+        "width": 0.34
+      },
+      "time_unit": "arbitrary_natural_units_c=1"
+    },
+    "incoming_recoil_finer": {
+      "Earth_or_neutral_matter": "NOT_INCLUDED",
+      "case": "incoming_recoil",
+      "craft_upward_impulse": "NOT_DERIVED",
+      "final_carrier_energy": 0.009862862945558652,
+      "final_energy": 0.010419181307540687,
+      "final_source_energy": 0.0005561412283865393,
+      "final_state_continues_without_reset": true,
+      "final_total_momentum": 0.010346897541030905,
+      "impulse_integral_residual": 3.574811588240301e-10,
+      "initial_energy": 0.010419181307540704,
+      "initial_source_energy": 0.0,
+      "initial_total_momentum": 0.010344032952383682,
+      "max_energy_absolute_drift": 1.6653345369377348e-16,
+      "max_total_momentum_drift": 3.965044522716982e-06,
+      "physical_energy_j": "NOT_CALIBRATED",
+      "radiation_flux_to_infinity": "NOT_MODELED_PERIODIC_BOX",
+      "source_center_momentum_change": [
+        0.000595203487047558,
+        0.0
+      ],
+      "source_center_negative_impulse": [
+        -4.283639074697854e-06,
+        0.0
+      ],
+      "source_center_positive_impulse": [
+        0.0005994874836034147,
+        0.0
+      ],
+      "source_center_signed_impulse": [
+        0.0005952038445287168,
+        0.0
+      ],
+      "spec": {
+        "anchor_mass": 1.0,
+        "coupling": 0.5,
+        "length": 8.0,
+        "mass": 1.0,
+        "n": 192,
+        "omega_x": 4.0,
+        "omega_y": 5.0,
+        "tmax": 2.1,
+        "width": 0.34
+      },
+      "time_unit": "arbitrary_natural_units_c=1"
+    },
+    "incoming_recoil_h256": {
+      "Earth_or_neutral_matter": "NOT_INCLUDED",
+      "case": "incoming_recoil",
+      "craft_upward_impulse": "NOT_DERIVED",
+      "final_carrier_energy": 0.009875337118672028,
+      "final_energy": 0.010430144093905613,
+      "final_source_energy": 0.0005546309863919902,
+      "final_state_continues_without_reset": true,
+      "final_total_momentum": 0.010389360276253444,
+      "impulse_integral_residual": 5.14924079070278e-10,
+      "initial_energy": 0.010430144093905627,
+      "initial_source_energy": 0.0,
+      "initial_total_momentum": 0.010387774040833478,
+      "max_energy_absolute_drift": 1.6479873021779667e-16,
+      "max_total_momentum_drift": 2.192301018274362e-06,
+      "physical_energy_j": "NOT_CALIBRATED",
+      "radiation_flux_to_infinity": "NOT_MODELED_PERIODIC_BOX",
+      "source_center_momentum_change": [
+        0.0005932770711822201,
+        0.0
+      ],
+      "source_center_negative_impulse": [
+        -4.455542281456401e-06,
+        0.0
+      ],
+      "source_center_positive_impulse": [
+        0.0005977331283877555,
+        0.0
+      ],
+      "source_center_signed_impulse": [
+        0.0005932775861062991,
+        0.0
+      ],
+      "spec": {
+        "anchor_mass": 1.0,
+        "coupling": 0.5,
+        "length": 8.0,
+        "mass": 1.0,
+        "n": 256,
+        "omega_x": 4.0,
+        "omega_y": 5.0,
+        "tmax": 2.1,
+        "width": 0.34
+      },
+      "time_unit": "arbitrary_natural_units_c=1"
+    },
+    "incoming_recoil_h384": {
+      "Earth_or_neutral_matter": "NOT_INCLUDED",
+      "case": "incoming_recoil",
+      "craft_upward_impulse": "NOT_DERIVED",
+      "final_carrier_energy": 0.009884258403027204,
+      "final_energy": 0.01043799354947993,
+      "final_source_energy": 0.0005535599522118191,
+      "final_state_continues_without_reset": true,
+      "final_total_momentum": 0.010419835845036966,
+      "impulse_integral_residual": 6.297621887949717e-10,
+      "initial_energy": 0.010437993549479909,
+      "initial_source_energy": 0.0,
+      "initial_total_momentum": 0.01041913087370042,
+      "max_energy_absolute_drift": 1.5439038936193583e-16,
+      "max_total_momentum_drift": 9.673628198411666e-07,
+      "physical_energy_j": "NOT_CALIBRATED",
+      "radiation_flux_to_infinity": "NOT_MODELED_PERIODIC_BOX",
+      "source_center_momentum_change": [
+        0.000591936214313743,
+        0.0
+      ],
+      "source_center_negative_impulse": [
+        -4.570888279791015e-06,
+        0.0
+      ],
+      "source_center_positive_impulse": [
+        0.0005965077323557229,
+        0.0
+      ],
+      "source_center_signed_impulse": [
+        0.0005919368440759318,
+        0.0
+      ],
+      "spec": {
+        "anchor_mass": 1.0,
+        "coupling": 0.5,
+        "length": 8.0,
+        "mass": 1.0,
+        "n": 384,
+        "omega_x": 4.0,
+        "omega_y": 5.0,
+        "tmax": 2.1,
+        "width": 0.34
+      },
+      "time_unit": "arbitrary_natural_units_c=1"
+    },
+    "self_sourced": {
+      "Earth_or_neutral_matter": "NOT_INCLUDED",
+      "case": "self_sourced",
+      "craft_upward_impulse": "NOT_DERIVED",
+      "final_carrier_energy": 0.17877113752834417,
+      "final_energy": 0.9049999999999999,
+      "final_source_energy": 0.7262288624716557,
+      "final_state_continues_without_reset": true,
+      "final_total_momentum": 3.0738355673134587e-17,
+      "impulse_integral_residual": 1.1082521823831143e-17,
+      "initial_energy": 0.905,
+      "initial_source_energy": 0.905,
+      "initial_total_momentum": 0.0,
+      "max_energy_absolute_drift": 6.661338147750939e-16,
+      "max_total_momentum_drift": 4.1069639948161606e-17,
+      "physical_energy_j": "NOT_CALIBRATED",
+      "radiation_flux_to_infinity": "NOT_MODELED_PERIODIC_BOX",
+      "source_center_momentum_change": [
+        -2.462011332889024e-19,
+        3.2719280282400296e-17
+      ],
+      "source_center_negative_impulse": [
+        -1.9654669227652998e-17,
+        -7.183870791905042e-18
+      ],
+      "source_center_positive_impulse": [
+        3.049098991819524e-17,
+        3.285022966287681e-17
+      ],
+      "source_center_signed_impulse": [
+        1.0836320690542241e-17,
+        2.566635887097177e-17
+      ],
+      "spec": {
+        "anchor_mass": 1.0,
+        "coupling": 0.5,
+        "length": 8.0,
+        "mass": 1.0,
+        "n": 128,
+        "omega_x": 4.0,
+        "omega_y": 5.0,
+        "tmax": 2.1,
+        "width": 0.34
+      },
+      "time_unit": "arbitrary_natural_units_c=1"
+    },
+    "source_off": {
+      "Earth_or_neutral_matter": "NOT_INCLUDED",
+      "case": "source_off",
+      "craft_upward_impulse": "NOT_DERIVED",
+      "final_carrier_energy": 0.0,
+      "final_energy": 0.0,
+      "final_source_energy": 0.0,
+      "final_state_continues_without_reset": true,
+      "final_total_momentum": 0.0,
+      "impulse_integral_residual": 0.0,
+      "initial_energy": 0.0,
+      "initial_source_energy": 0.0,
+      "initial_total_momentum": 0.0,
+      "max_energy_absolute_drift": 0.0,
+      "max_total_momentum_drift": 0.0,
+      "physical_energy_j": "NOT_CALIBRATED",
+      "radiation_flux_to_infinity": "NOT_MODELED_PERIODIC_BOX",
+      "source_center_momentum_change": [
+        0.0,
+        0.0
+      ],
+      "source_center_negative_impulse": [
+        0.0,
+        0.0
+      ],
+      "source_center_positive_impulse": [
+        0.0,
+        0.0
+      ],
+      "source_center_signed_impulse": [
+        0.0,
+        0.0
+      ],
+      "spec": {
+        "anchor_mass": 1.0,
+        "coupling": 0.5,
+        "length": 8.0,
+        "mass": 1.0,
+        "n": 96,
+        "omega_x": 4.0,
+        "omega_y": 5.0,
+        "tmax": 1.6,
+        "width": 0.34
+      },
+      "time_unit": "arbitrary_natural_units_c=1"
+    }
+  },
+  "static_falsifiers": {
+    "Aphi_zero_nonzero_current": "SCOPED_MAXWELL_AMPERE_INCONSISTENCY",
+    "M5I_free_scalar_Aphi_zero": "SCOPED_NO_GO",
+    "cold_opposite_charge_dust": "SCOPED_EULER_GAUSS_INCONSISTENCY_WITHOUT_PRESSURE_OR_SUPPORT",
+    "independent_order90_total": 17.22340199213067,
+    "mass0_positive_integral_unscaled": {
+      "axial_gradient": 6.92875837769672,
+      "azimuthal_gradient": 0.3454361540381315,
+      "free_static_no_go_integral": 17.223401992130558,
+      "radial_gradient": 9.949207460395705,
+      "rest_mass": 0.0
+    },
+    "mass1_positive_integral_unscaled": {
+      "axial_gradient": 6.92875837769672,
+      "azimuthal_gradient": 0.3454361540381315,
+      "free_static_no_go_integral": 17.684593801386868,
+      "radial_gradient": 9.949207460395705,
+      "rest_mass": 0.46119180925630926
+    },
+    "physical_source_energy_j": null,
+    "proof": "Free static EOM demands integral[|grad f|^2+(n^2/r^2+m^2)f^2]dV=0, but the nonzero profile has positive integral",
+    "reopening_conditions": "nontrivial self interactions, A0/Aphi, pressure, transported matter, supports or another fully specified source action"
+  },
+  "verdict": "YELLOW_WITH_SCOPED_STATIC_SOURCE_CLOSURES_NO_GRAVITY_CERTIFICATION"
+}

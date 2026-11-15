@@ -1,0 +1,400 @@
+{
+  "branch": "032H17A12D1R3X3B17-PH3",
+  "exact_algebra": {
+    "chi": "rho*exp(sigma)*(sigma_second+sigma_first^2)",
+    "dispersion": "(s^2-1)*((1-chi*B^2)*s^2-(1+chi*E^2))=0",
+    "fixed_theta_bulk_cancellation": "VERIFIED",
+    "full_gravitational_noether": "NOT_DERIVED",
+    "hamiltonian": "positive_in_selected_modes_only_if_K>0_and_G>0",
+    "scoped_exact_identity_checks": 13
+  },
+  "execution": {
+    "module_sha256": "7cb085be26aa69de6d8ca3e277fb8752c09ee50fb8d0f420d2f7eb539bb63285",
+    "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "sim_sha256": "67fa61c2956b310afa0611fe3fef49add64fd15a0517ce32f784b351c4260e6e",
+    "utc": "2026-11-15T00:17:50.156882+00:00"
+  },
+  "frozen_branch": "ALPHA1_M5V_NO_REOPTIMIZATION",
+  "gates": {
+    "B11_M6_FULL_CAUSAL_LOADED_IMPULSE": "NOT_RUN",
+    "B11_M6_ORIGINAL_STATIC_FAIL_REPRODUCTION": "NOT_RUN",
+    "COMPLETE_LT10MJ": "NOT_CERTIFIED",
+    "FIN_NEUTRAL_1G_1M": "NOT_CERTIFIED",
+    "P0_PRIOR_SOURCE_RESULTS": "PASS_ARCHIVAL_SHA",
+    "P1_CONFORMAL_INVERTIBILITY": "SCREENED_NOT_FULL_METRIC_SOLVER",
+    "P1_EVEN_P_SQUARED_COMPARISON": "CONDITIONAL_SUBLUMINAL_NO_SOURCE_OR_FORCE",
+    "P1_GAUSS_WARD_FULL_MATTER": "NOT_DERIVED",
+    "P1_LINEAR_P_PORTAL_GLOBALLY_CLOSED": "NO_FULL_MATTER_DYNAMICS_UNTESTED",
+    "P1_LINEAR_P_POSITIVE_DUST_CAUSALITY": "RED_SCOPED_SUPERLUMINAL_OR_KINETIC_FAILURE",
+    "P2_EARTH_ELASTIC_EOS_INTERFACE": "NOT_DERIVED",
+    "P2_FINITE_MICROSCOPIC_SOURCE_EOM": "OPEN_PH2_FREE_SOURCE_CLOSED_ONLY",
+    "P3_COMPLETE_FIELD_BOUNDARY_MOMENTUM": "NOT_DERIVED",
+    "P3_EARTH_DOWN_CRAFT_UP": "NOT_DERIVED",
+    "WHOLE_CRAFT_LIFT": "NOT_ESTABLISHED"
+  },
+  "historic_provenance": {
+    "m5v_module": {
+      "actual_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "m5v_result": {
+      "actual_sha256": "53f63f93fe9f525302f516b6376fa227d4b46027e6a0f75ae4dd35404da8c52b",
+      "expected_sha256": "53f63f93fe9f525302f516b6376fa227d4b46027e6a0f75ae4dd35404da8c52b",
+      "status": "MATCH"
+    },
+    "ph1_module": {
+      "actual_sha256": "47281ea38e40351944bc194375b4732b28c58960d7acf644f6d040b82fd0aa52",
+      "expected_sha256": "47281ea38e40351944bc194375b4732b28c58960d7acf644f6d040b82fd0aa52",
+      "status": "MATCH"
+    },
+    "ph2_latest_uploaded_result": {
+      "actual_sha256": "d35ec4f834517a31f334aa5a3e0e11bd3f2f1e19eef50fa392d1f95d7db104ce",
+      "expected_sha256": "d35ec4f834517a31f334aa5a3e0e11bd3f2f1e19eef50fa392d1f95d7db104ce",
+      "status": "MATCH"
+    },
+    "ph2_module": {
+      "actual_sha256": "b3747d1f2d5f094721e068fce06c2331eb5400a4485777604cfdb53a8de723d5",
+      "expected_sha256": "b3747d1f2d5f094721e068fce06c2331eb5400a4485777604cfdb53a8de723d5",
+      "status": "MATCH"
+    }
+  },
+  "independent_fourier_evolution": {
+    "even_negative_mixed": {
+      "case": "even_negative_mixed",
+      "independent_analytic_speeds_over_c": [
+        0.9128071533285446,
+        1.0
+      ],
+      "initial_quadratic_energy_shape_units": 0.05060644700346997,
+      "max_quadratic_energy_drift_shape_units": 4.161546107717129e-12,
+      "numeric_speeds_over_c": [
+        0.9128071533285443,
+        0.9999999999999999
+      ],
+      "static_background_supported_by_full_source": "NO",
+      "time_window_dimensionless": 5.0
+    },
+    "linear_mixed_weak": {
+      "case": "linear_mixed_weak",
+      "independent_analytic_speeds_over_c": [
+        1.0,
+        1.0661429859119314
+      ],
+      "initial_quadratic_energy_shape_units": 0.05100111143928574,
+      "max_quadratic_energy_drift_shape_units": 5.702806282759099e-12,
+      "numeric_speeds_over_c": [
+        0.9999999999999996,
+        1.0661429859119311
+      ],
+      "static_background_supported_by_full_source": "NO",
+      "time_window_dimensionless": 5.0
+    },
+    "linear_zero_coupling": {
+      "case": "linear_zero_coupling",
+      "independent_analytic_speeds_over_c": [
+        1.0,
+        1.0
+      ],
+      "initial_quadratic_energy_shape_units": 0.05084824999999999,
+      "max_quadratic_energy_drift_shape_units": 4.649752805008234e-12,
+      "numeric_speeds_over_c": [
+        1.0,
+        1.0
+      ],
+      "static_background_supported_by_full_source": "NO",
+      "time_window_dimensionless": 5.0
+    }
+  },
+  "pre_registered_12_case_characteristic_atlas": {
+    "even_negative_gradient_failure": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 1.32,
+      "electric_kinetic_coefficient": 1.0176785256804028,
+      "extraordinary_speed_over_physical_c": null,
+      "extraordinary_speed_squared_over_physical_c_squared": null,
+      "gradient_coefficient": -6.071410272161098,
+      "input": {
+        "coupling": 1,
+        "electric": 2,
+        "label": "even_negative_gradient_failure",
+        "law": "even_negative",
+        "magnetic": 0.1,
+        "rho": 1
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": -1.7678525680402746,
+      "p_background": 0.2,
+      "sigma": -0.04000000000000001,
+      "sigma_double_prime": -2,
+      "sigma_prime": -0.4,
+      "theta_matter": 0.3843157756609293,
+      "verdict": "RED_GRADIENT_DEGENERATE_OR_NEGATIVE"
+    },
+    "even_negative_mixed": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 1.25088,
+      "electric_kinetic_coefficient": 1.1627750660988938,
+      "extraordinary_speed_over_physical_c": 0.9128071533285446,
+      "extraordinary_speed_squared_over_physical_c_squared": 0.833216899167761,
+      "gradient_coefficient": 0.9688438350045087,
+      "input": {
+        "coupling": 0.4,
+        "electric": 0.35,
+        "label": "even_negative_mixed",
+        "law": "even_negative",
+        "magnetic": 0.8,
+        "rho": 0.35
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": -0.2543360407795214,
+      "p_background": 0.27999999999999997,
+      "sigma": -0.03135999999999999,
+      "sigma_double_prime": -0.8,
+      "sigma_prime": -0.22399999999999998,
+      "theta_matter": 0.0759795273752411,
+      "verdict": "PASS_SCOPED_SUBLUMINAL_NOT_FULL_MODEL"
+    },
+    "even_negative_zero_linear_response": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 1.0,
+      "electric_kinetic_coefficient": 1.1792,
+      "extraordinary_speed_over_physical_c": 0.9208868358546966,
+      "extraordinary_speed_squared_over_physical_c_squared": 0.8480325644504749,
+      "gradient_coefficient": 1.0,
+      "input": {
+        "coupling": 0.4,
+        "electric": 0,
+        "label": "even_negative_zero_linear_response",
+        "law": "even_negative",
+        "magnetic": 0.8,
+        "rho": 0.35
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": -0.27999999999999997,
+      "p_background": 0.0,
+      "sigma": -0.0,
+      "sigma_double_prime": -0.8,
+      "sigma_prime": -0.0,
+      "theta_matter": 0.0,
+      "verdict": "PASS_SCOPED_SUBLUMINAL_NOT_FULL_MODEL"
+    },
+    "even_positive_mixed": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 0.74912,
+      "electric_kinetic_coefficient": 0.8034937652630716,
+      "extraordinary_speed_over_physical_c": 1.136387234325153,
+      "extraordinary_speed_squared_over_physical_c_squared": 1.2913759463371703,
+      "gradient_coefficient": 1.0376125214926153,
+      "input": {
+        "coupling": 0.4,
+        "electric": 0.35,
+        "label": "even_positive_mixed",
+        "law": "even_positive",
+        "magnetic": 0.8,
+        "rho": 0.35
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": 0.30704099177645056,
+      "p_background": 0.27999999999999997,
+      "sigma": 0.03135999999999999,
+      "sigma_double_prime": 0.8,
+      "sigma_prime": 0.22399999999999998,
+      "theta_matter": -0.0808975813924704,
+      "verdict": "RED_SUPERLUMINAL_RESTRICTED_DUST"
+    },
+    "linear_conformal_singular": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 0.0,
+      "electric_kinetic_coefficient": 0.9967899364582806,
+      "extraordinary_speed_over_physical_c": 1.0032152323746997,
+      "extraordinary_speed_squared_over_physical_c_squared": 1.0064408024686227,
+      "gradient_coefficient": 1.0032100635417194,
+      "input": {
+        "coupling": 1,
+        "electric": 0.5,
+        "label": "linear_conformal_singular",
+        "law": "linear",
+        "magnetic": 0.5,
+        "rho": 0.01
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": 0.012840254166877414,
+      "p_background": 0.25,
+      "sigma": 0.25,
+      "sigma_double_prime": 0.0,
+      "sigma_prime": 1,
+      "theta_matter": -0.012840254166877414,
+      "verdict": "RED_NONINVERTIBLE_CONFORMAL_MAP"
+    },
+    "linear_critical_kinetic": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 1,
+      "electric_kinetic_coefficient": 0.0,
+      "extraordinary_speed_over_physical_c": null,
+      "extraordinary_speed_squared_over_physical_c_squared": null,
+      "gradient_coefficient": 1.0,
+      "input": {
+        "coupling": 1,
+        "electric": 0,
+        "label": "linear_critical_kinetic",
+        "law": "linear",
+        "magnetic": 1,
+        "rho": 1
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": 1.0,
+      "p_background": 0,
+      "sigma": 0,
+      "sigma_double_prime": 0.0,
+      "sigma_prime": 1,
+      "theta_matter": -1.0,
+      "verdict": "RED_KINETIC_DEGENERATE_OR_NEGATIVE"
+    },
+    "linear_electric_only": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 1.0,
+      "electric_kinetic_coefficient": 1.0,
+      "extraordinary_speed_over_physical_c": 1.0086448210346395,
+      "extraordinary_speed_squared_over_physical_c_squared": 1.017364375,
+      "gradient_coefficient": 1.017364375,
+      "input": {
+        "coupling": 0.45,
+        "electric": 0.35,
+        "label": "linear_electric_only",
+        "law": "linear",
+        "magnetic": 0,
+        "rho": 0.7
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": 0.14175,
+      "p_background": 0.0,
+      "sigma": 0.0,
+      "sigma_double_prime": 0.0,
+      "sigma_prime": 0.45,
+      "theta_matter": -0.315,
+      "verdict": "RED_SUPERLUMINAL_RESTRICTED_DUST"
+    },
+    "linear_kinetic_failure": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 0.4,
+      "electric_kinetic_coefficient": -1.3236684854565661,
+      "extraordinary_speed_over_physical_c": null,
+      "extraordinary_speed_squared_over_physical_c_squared": null,
+      "gradient_coefficient": 1.0522825409227727,
+      "input": {
+        "coupling": 1,
+        "electric": 0.15,
+        "label": "linear_kinetic_failure",
+        "law": "linear",
+        "magnetic": 1,
+        "rho": 2
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": 2.323668485456566,
+      "p_background": 0.15,
+      "sigma": 0.15,
+      "sigma_double_prime": 0.0,
+      "sigma_prime": 1,
+      "theta_matter": -2.323668485456566,
+      "verdict": "RED_KINETIC_DEGENERATE_OR_NEGATIVE"
+    },
+    "linear_magnetic_only": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 1.0,
+      "electric_kinetic_coefficient": 0.90928,
+      "extraordinary_speed_over_physical_c": 1.0486997890628678,
+      "extraordinary_speed_squared_over_physical_c_squared": 1.0997712475805033,
+      "gradient_coefficient": 1.0,
+      "input": {
+        "coupling": 0.45,
+        "electric": 0,
+        "label": "linear_magnetic_only",
+        "law": "linear",
+        "magnetic": 0.8,
+        "rho": 0.7
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": 0.14175,
+      "p_background": 0.0,
+      "sigma": 0.0,
+      "sigma_double_prime": 0.0,
+      "sigma_prime": 0.45,
+      "theta_matter": -0.315,
+      "verdict": "RED_SUPERLUMINAL_RESTRICTED_DUST"
+    },
+    "linear_mixed_weak": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 0.496,
+      "electric_kinetic_coefficient": 0.8970979216933639,
+      "extraordinary_speed_over_physical_c": 1.0661429859119314,
+      "extraordinary_speed_squared_over_physical_c_squared": 1.1366608664092088,
+      "gradient_coefficient": 1.0196961009258796,
+      "input": {
+        "coupling": 0.45,
+        "electric": 0.35,
+        "label": "linear_mixed_weak",
+        "law": "linear",
+        "magnetic": 0.8,
+        "rho": 0.7
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": 0.16078449735411882,
+      "p_background": 0.27999999999999997,
+      "sigma": 0.126,
+      "sigma_double_prime": 0.0,
+      "sigma_prime": 0.45,
+      "theta_matter": -0.3572988830091529,
+      "verdict": "RED_SUPERLUMINAL_RESTRICTED_DUST"
+    },
+    "linear_no_matter": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 0.496,
+      "electric_kinetic_coefficient": 1.0,
+      "extraordinary_speed_over_physical_c": 1.0,
+      "extraordinary_speed_squared_over_physical_c_squared": 1.0,
+      "gradient_coefficient": 1.0,
+      "input": {
+        "coupling": 0.45,
+        "electric": 0.35,
+        "label": "linear_no_matter",
+        "law": "linear",
+        "magnetic": 0.8,
+        "rho": 0
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": 0.0,
+      "p_background": 0.27999999999999997,
+      "sigma": 0.126,
+      "sigma_double_prime": 0.0,
+      "sigma_prime": 0.45,
+      "theta_matter": 0.0,
+      "verdict": "PASS_SCOPED_LUMINAL_NO_NONTRIVIAL_RESPONSE_CERTIFIED"
+    },
+    "linear_zero_coupling": {
+      "all_constraint_and_material_modes": "NOT_TESTED",
+      "conformal_trace_jacobian": 1.0,
+      "electric_kinetic_coefficient": 1.0,
+      "extraordinary_speed_over_physical_c": 1.0,
+      "extraordinary_speed_squared_over_physical_c_squared": 1.0,
+      "gradient_coefficient": 1.0,
+      "input": {
+        "coupling": 0,
+        "electric": 0.35,
+        "label": "linear_zero_coupling",
+        "law": "linear",
+        "magnetic": 0.8,
+        "rho": 0.7
+      },
+      "lawful_source_eom_and_support": "NOT_DERIVED",
+      "material_curvature_chi": 0.0,
+      "p_background": 0.27999999999999997,
+      "sigma": 0.0,
+      "sigma_double_prime": 0.0,
+      "sigma_prime": 0,
+      "theta_matter": -0.0,
+      "verdict": "PASS_SCOPED_LUMINAL_NO_NONTRIVIAL_RESPONSE_CERTIFIED"
+    }
+  },
+  "verdict": "YELLOW_WITH_NEW_SCOPED_LINEAR_PORTAL_CAUSAL_OBSTRUCTION"
+}

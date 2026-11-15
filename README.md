@@ -2,6 +2,168 @@
 
 > **For the benefit of humanity**
 
+**README last updated:** **November 15, 2026**  
+**Current research program:** `032 — AGMINER / 032H17 — HOOK17`  
+**Newest completed experiment:** **`032H17A12D1R3X3B17-PH14`**  
+**Most recent full repository verification:** **2,220 tests passed**; PH14 focused suite **47 passed**; historical provenance checks **PASS**  
+**Next scientific experiment:** **PH15 — on-shell nonspherical neutral source and trace-induced Y-carrier existence**  
+**Conditional successors:** **PH16** (reciprocal two-carrier/metric loading and stability), **PH17** (exterior Earth–craft force), with **B11-M6** causal dynamics co-primary  
+**ALPHA-1 artificial campaign:** **FROZEN** at **B17-M5V** (November 14, 2026)  
+**Conservative true-stand-off GR anchor:** **006D**, `C=23.591586299249`, **unreplaced**.
+
+> **Current scientific status:** No experimentally demonstrated antigravity, no complete physically sourced universal-metric/gravity action, no verified gravitational lift of a spacecraft, and no certified operating-energy budget strictly below 10 MJ. PH14 is a **classical stationary source-sector solution in a hypothetical field theory**, not a realized material or device. The newest research results are mathematical and computational, not independent experimental evidence.
+
+## Research progress and estimated completion — November 15, 2026
+
+**Estimated theoretical research progress: approximately 35%.** This is an **informal, uncalibrated research-planning estimate**, not the measured percentage of a working spacecraft engine, not a probability of success, and not a linear sum of passed tests. A single unresolved source, stability, conservation, gravitational or empirical obstruction could require substantial new physics or close the present candidate.
+
+| Current milestone | Verified scope | What is still missing |
+|---|---|---|
+| **35% — current planning estimate** | PH14: jointly solved, net-neutral, localized two-scalar/X-Maxwell **spherical stationary equilibrium** in a hypothetical classical action; PH13: a possible first-order Y induction on an **off-shell** nonspherical pair | Bring nonspherical source equilibrium and induced Y together **on-shell**, then solve full reciprocal action |
+| **~40% — provisional next research milestone** | Would require a genuine stationary nonspherical neutral source plus nonzero sourced Y response with meaningful initial health and convergence checks | Not reached; PH15 has not executed |
+| **~50% — provisional integrated-field milestone** | Would require full reciprocal scalar/X/Y/matter loading and substantive constrained mode-health/stability evidence | Not reached; PH16 conditional |
+| **~60% or higher — ambitious next-session research goal** | Would additionally require a credible, quantitatively derived external Earth–spacecraft reaction and meaningful progress on sourced causal dynamics, physical scales and complete energy | Not reached; not a promised outcome or device-completion certificate |
+
+The percentages are **subjective planning labels** only. Later calculations may move the estimate **downward** if a promising branch fails. Even a theoretical 60% assessment would not establish a buildable or independently verified engine.
+
+### Latest achievement: PH14, an electrically neutral jointly solved source
+
+Within a proposed canonical classical field theory containing **two oppositely X-charged complex scalar species**, their nonlinear scalar self-interactions and a shared massless electromagnetic-like X carrier, PH14 solved the two scalar profiles, electrostatic potential and stationary frequencies **together**. No externally prescribed square-well trap was used. The solution is spherically symmetric, and its scalar profiles have exponentially decaying—not exactly compact—tails.
+
+| PH14 observable | Executed result | Scientific meaning |
+|---|---:|---|
+| Full repository regression | **2,220 passed** | Software/research checks, not experimental certification |
+| PH14 focused tests | **47 passed** | Scoped solver and regression checks |
+| Individual conserved Noether numbers | 77.98837343718844 / 77.98837343734536 | Nearly equal within numerical tolerance |
+| Total X gauge charge | **−7.845812888263027 × 10⁻¹²** | Near-zero net charge in model units |
+| Maximum internal radial electric field | **0.0005383584446341459** | Nonzero internal field despite total neutrality |
+| Total source-sector energy | **161.51589053332395** | **Canonical natural units, NOT joules** |
+| Two separated equal-Noether-number source energy | **161.889035667003** | Selected classical reference state |
+| Energy advantage of joint source | **0.37314513367903146** | Canonical units; not proof of global binding or dynamical stability |
+| Relative integrated stress-virial residual | **4.009320452612122 × 10⁻¹¹** | Stationary spherical consistency diagnostic |
+| Lowest sampled two-charge-fixed radial Hessian eigenvalue | **+0.20883838665688392** | Only a restricted 12-direction static curvature screen |
+| On-shell spherical trace-induced Y magnetism | **Exactly zero by symmetry** | **Decisive missing second-carrier requirement** |
+
+The restricted PH14 Hessian had a **nonzero discrete energy gradient** (about `0.02651045818424791`). No full radial, nonradial, time-dependent, gauge/metric or quantum stability certificate exists. The model's constituent particles and effective interactions have **not** been experimentally realized or matched to physical SI scales. An energy comparison with two selected separated Q-balls does not establish the global minimum over all allowed configurations.
+
+**Primary result:** We now have a more self-consistent *source subsystem* than the earlier prescribed-current or externally trapped source constructions. **Primary negative result:** PH14's symmetry eliminates the proposed Y-induction channel on this source. PH14 neither demonstrates gravitational repulsion nor supersedes 006D.
+
+**Executed result:** [`PH14 JSON`](results/data/032h17_ph14_neutral_composite_20261115T092726920597Z.json) · [`PH14 source equations and solver`](src/antigravity_research/agminer/hook17_ph14_neutral_composite.py) · [`PH14 simulation`](simulations/032h17a12d1r3x3b17_ph14_neutral_composite.py) · [`PH14 tests`](tests/agminer/test_032h17_ph14_neutral_composite.py).
+
+### The exact PH13 → PH14 discovery and obstruction
+
+**PH13** showed a *first-order mathematical* mechanism: two separated charged scalar profiles, superposed **off-shell**, produced a nonzero induced Y magnetic field under the proposed universal-metric matter-trace coupling. Its finest reported control gave an integrated Y magnetic-field-squared value of about `2.1460834478521506e-6` in normalized units. But the two-center source was **not** a jointly solved equilibrium.
+
+**PH14** supplied a jointly on-shell **electrically neutral** source within the restricted scalar–X action, but only in **spherical** symmetry. Both its electric field and matter-trace coefficient are radial. Accordingly, the proposed induced magnetic source vanishes:
+
+```math
+\nabla\lambda\times\mathbf E_X=0
+```
+
+The key proposed static first-order induction criterion is:
+
+```math
+\nabla\lambda\times\mathbf E_X\ne 0
+```
+
+where `lambda` is the matter-trace-dependent portal coefficient derived from the chosen action. **Nonspherical shape is necessary for this particular induction mechanism but is not automatically sufficient**: if `lambda` is only a function of the electrostatic potential `A_0`, the gradients remain aligned and the induction still vanishes. The precise carrier constitutive coefficients and signs must be derived from the same Lorentzian action; the displayed criterion is not a complete field-equation solution.
+
+The portal under investigation has a schematic **universal conformal metric**:
+
+```math
+\widetilde g_{\mu\nu}=e^{2\sigma(P)}g_{\mu\nu},\qquad
+\sigma(P)=\alpha P-\beta P^2
+```
+
+with mixed Abelian pseudoscalar `P` formed from the X and Y field strengths. This remains a **candidate interaction**. PH14 has not solved its fully coupled matter–two-carrier–Einstein equations or demonstrated that this coupling is compatible with quantum/UV and empirical constraints. The earlier **PH13 joint kinetic-health control** found that a frozen-carrier positive mode may become negative when coupled scalar perturbations are allowed; actual sourced backgrounds must pass the stronger tests.
+
+**Research record:** [`PH12 isolated gauged scalar JSON`](results/data/032h17_ph12_gauged_qball_20261115T072909800847Z.json) · [`PH13 joint-kinetic and induction JSON`](results/data/032h17_ph13_integrated_go_no_go_20261115T084131765629Z.json).
+
+## What's next — PH15 → PH16 → PH17, with B11-M6 co-primary
+
+The project will **not** repeat a broad artificial inverse-design scan or optimize an already few-joule prescribed field merely for a lower energy headline. The next experiments are **theorem-first, conditional, and falsifiable**:
+
+1. **PH15 — On-shell nonspherical neutral source and Y-induction existence.** First derive exact symmetry, integrability, Ward, Noether and constitutive conditions, particularly whether the candidate source can satisfy the nonzero trace/electric-gradient misalignment above. If this survives, solve a **genuinely stationary axisymmetric** charged-scalar–Maxwell configuration with physically justified winding, necessary magnetic/electric X components, neutrality, stress and boundary conditions. Then test whether Y is actually sourced without prescribing an off-shell current. A nonspherical field plot alone is not a pass.
+2. **PH16 — Same-action reciprocal completion and stability.** Only for a surviving PH15 source: solve the coupled X/Y/scalar response with the universal physical metric, source/current and matter backreaction, correct R3X1 Lorentzian signs, full gauge constraints, canonical Hessians, characteristic cones and nonradial modes. Stop if the actual loaded background is unhealthy or cannot satisfy the common field equations.
+3. **PH17 — Real exterior Earth interaction and whole-spacecraft reaction.** Only for a healthy sourced configuration: derive exterior transmission, realistic neutral matter coupling, Earth **below the onboard source**, corresponding Earth/down and craft/up momentum exchange, support/hull/enclosure reaction, ordinary gravity and atmosphere. An internal payload push does not constitute propulsion; both the true 1g/1m finite-neutral-payload benchmark and the separate whole-craft force requirement remain open.
+4. **B11-M6 — Causal two-carrier driven impulse.** Work on source-driven hyperbolic equations and correct failed static limit in parallel; later test one fully signed pulse, unfavorable phases, source/field recoil, radiation, work, losses and consecutive cycles **without arbitrary resets**. Do not convert a positive transient peak into a claim of hover.
+
+**Progress objective:** reach or exceed a *subjective* **60% research-planning milestone** only if several independent physical gates genuinely close. A negative analytic theorem or an instability is a valuable scientific result but cannot be counted as an earned propulsion or complete-source certificate.
+
+### Updated milestone and claims ledger
+
+| Evidence level | Current conclusion |
+|---|---|
+| **006D** conservative GR true stand-off | **Unreplaced**; finite positive-energy conserved source in linearized GR, NEC/WEC/DEC passes, `C=23.591586299249`, catastrophic approximately inverse-`G` energy scaling |
+| A12C `2.6568591420597114 J` and flagship R3B `1.5429162116460216 J` | **Prescribed preloaded field capacities only**; not sourced, loaded operating energy or lift |
+| B17-M5V artificial research | **50/50 completed, zero errors; 1,803 full regression tests**; artificial reduced stationary action and translation derivatives, not physical craft force |
+| PH12–PH14 physical-source mathematics | Isolated then jointly solved neutral classical source sector; **not** complete universal-metric gravity |
+| PH13 induced Y / PH14 neutral source | **Induced Y: off-shell** / **on-shell neutral source: spherical Y zero**; joint condition remains unsolved |
+| Full dynamical mode stability | **Not certified** |
+| Physical neutral payload ≥1g at ≥1m true external stand-off | **Not certified in a complete sourced model** |
+| Earth-down / full-spacecraft-up external reaction | **Not derived** |
+| B11-M6 sourced stable signed operating cycle | **Not run / not certified** |
+| Complete conservative operating energy strictly `<10,000,000 J` | **Not certified**; canonical PH14 energies cannot be converted to joules without independent physical normalization |
+| Independently demonstrated antigravity or spacecraft lift | **No** |
+
+### Frozen ALPHA-1 reference (completed November 14, 2026)
+
+The deliberate artificial ALPHA-1 campaign has **ended at M5V**. It established a precisely registered stationary reduced-action calculation, **not** a physical force. The numerically supported extended-domain model at `h=0.04 m` reported:
+
+```text
+Earth translation derivative      -11.395675919 J/m
+Craft translation derivative      +11.397230073 J/m
+Common-translation residual       +0.001554154 J/m
+Reduced interaction action        -7.975232332 J
+Registered numerical cases        50/50 completed, zero errors
+Full regression at the freeze     1,803 passed
+```
+
+Its source currents and Earth material response were **artificial inputs**. Numerical convergence screens did not prove exact infinite-exterior closure, physical reciprocity, gravitational thrust or complete apparatus energy. Material width and boundary conditions materially affected results. A historical M5V installer-versus-executed-source SHA discrepancy must be preserved as an archival qualification; newer checks of the recorded executed module do not automatically resolve that historical difference.
+
+**No broader M5-series artificial optimization is planned.** M5V is available as a frozen mathematical comparator when a new physical action demands a narrow diagnostic.
+
+### Permanent benchmark and energy policy
+
+The standard independent science benchmark is **at least 1g outward acceleration on finite neutral matter at at least 1m of genuine external stand-off**, traditionally tested on a **1 kg neutral torus**. The physical engine goal is distinct: **an onboard spacecraft with a derived net upward external Earth/environment interaction**, auxiliary propulsion allowed, all source/power/support equipment onboard.
+
+```math
+ a_{\mathrm{outward}}\ge 9.80665\ \mathrm{m\,s^{-2}},\qquad
+ d_{\mathrm{true\ stand\!\!-\!off}}\ge 1\ \mathrm m
+```
+
+The energy acceptance rule remains **strict**:
+
+```math
+ E_{\mathrm{complete,conservative,operating}}<10^7\ \mathrm J
+```
+
+Exactly 10 MJ fails. This complete ledger must include the necessary physical source, support, fields, enclosures, power/activation, off-state behavior, backreaction, cycling, radiation/losses and a **defined operating protocol**. A small canonical field term is not a complete source or device budget.
+
+### Reproducibility, updated planning records and reading order
+
+**Authoritative active research strategy:** [`RESEARCH_BUILDPLAN.md`](RESEARCH_BUILDPLAN.md) (November 15 PH14→PH17 plan, after the updated file is installed in the repository).  
+**Detailed current research handoff:** [`NOTES.md`](NOTES.md) and the November 15 PH1–PH14 research journal, **once copied into the repository**.  
+**Scoped failures and mechanism memory:** [`AGMINER_BUILDPLAN.MD`](AGMINER_BUILDPLAN.MD), [`INTROSPECTIVE_BUILDPLAN.md`](INTROSPECTIVE_BUILDPLAN.md).  
+**Reproducibility and GitHub math:** [`FORMATTING_AND_CODE_STANDARDS.md`](FORMATTING_AND_CODE_STANDARDS.md) and [GitHub's mathematical expression guidance](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions).  
+**Public claims, legal/disclosure records:** [`AI_ASSISTANCE.md`](AI_ASSISTANCE.md), [`LICENSE.md`](LICENSE.md).
+
+**Evidence precedence:** the newest actually executed result JSON, exact producing code, terminal logs and tests control run status; dated journals and notes provide the interpretation; research plans govern future priority; older historical plans and this README's archive do **not** supersede a newer executed result. Passing 2,220 tests is not proof of a physical antigravity model.
+
+**Documentation update scope:** This November 15 README update **only drafts a new README file** for the user to place into the repository. It does not itself modify local source code, journals, `NOTES.md`, the buildplan, AGMINER/Introspective, or regenerate bundles. The previous README is retained verbatim below for history and original detailed source links.
+
+---
+
+# Historical README snapshot — November 13, 2026 (preserved verbatim)
+
+> **ARCHIVAL AUTHORITY NOTICE — NOT THE CURRENT FRONTIER.** Everything below is the exact original README text as provided on November 15, 2026. It begins with its own November 13 status and contains a September 15 historical appendix. Statements such as “M5N latest,” “M5O next,” “1,455 tests latest,” “B11 proposed,” and earlier Pauli/A12D0 next-step queues were correct *at their historical dates* but are not current research instructions. **The active November 15 status and PH15–PH17 plan are above.** Original links, historical mathematics, research descriptions and licensing disclosures are preserved without retroactive rewriting.
+
+---
+
+# Antigravity Research
+
+> **For the benefit of humanity**
+
 **Research status: November 13, 2026** · **Program:** `032H17 — HOOK17` · **Latest completed numerical branch:** `R3X3B17 / ALPHA-1R9 / M5N` (artificial reduced-model interface audit) · **Next planned numerical gate:** `B17-M5O` (controlled Earth-interface/grid/domain convergence) · **Co-primary open investigation:** `R3X3B11-M6` (physically sourced dynamics and finite impulse) · **Last recorded complete regression:** **1,455 passed** on November 12, 2026 (before the newest ALPHA-1 additions; a fresh full regression is required).
 
 **Scientific status:** No experimentally demonstrated antigravity, no complete physically sourced spacecraft-lift model, and no certified complete operating-energy budget below 10 MJ. The numerical results below arise from particular reduced or linearized theoretical models and are not experimental observations. **ALPHA-1 additionally uses deliberately artificial source amplitudes, prescribed matter-loading functions, and hypothetical reduced carrier interactions: its action derivatives are not demonstrated gravitational forces.**
