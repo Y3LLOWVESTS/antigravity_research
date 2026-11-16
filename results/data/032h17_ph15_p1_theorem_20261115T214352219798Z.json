@@ -1,0 +1,53 @@
+{
+  "006D_replaced": false,
+  "M5V_status": "FROZEN",
+  "PDE_mesh_convergence": "NOT_APPLICABLE",
+  "assumptions": {
+    "Y_response": "FIRST_ORDER_ABOUT_FY_ZERO",
+    "epsilon_0123": "+1",
+    "gravity": "FIXED_MINKOWSKI",
+    "physical_metric": "PROPOSED_CONFORMAL_PORTAL",
+    "signature": "-+++",
+    "source_sector": "TWO_CHARGED_SCALARS_X_MAXWELL"
+  },
+  "branch": "032H17A12D1R3X3B17-PH15-P1",
+  "checks": {
+    "FD_absolute_errors": [
+      4.306344947302421e-09,
+      4.319955504428208e-11,
+      7.117334499540107e-12
+    ],
+    "Lorentzian_epsilon_contraction": "PASS_EXACT",
+    "PH14_spherical_Y": "EXACT_ZERO_BY_SYMMETRY",
+    "aligned_electrostatic_induction": "EXACT_ZERO",
+    "aligned_gradients_magnetic_X": "NONZERO_ELECTRIC_Y_OFFSHELL_CONTROL",
+    "alpha_zero_first_order_Y": "EXACT_ZERO",
+    "axisymmetric_scalar_X_variations": "PASS_EXACT",
+    "four_constitutive_signs": "PASS_EXACT",
+    "independent_FD_variation": "PASS_CONVERGENCE",
+    "independent_potential_gradient_theorem": "CONSTANT_LAMBDA_REQUIRED_IF_DETERMINANT_NONZERO",
+    "matter_trace_variation": "PASS_EXACT",
+    "misaligned_electrostatic_induction": "NONZERO_OFFSHELL_CONTROL",
+    "neutral_counterwinding_current": "PASS_EXACT_ALGEBRA_NOT_ONSHELL",
+    "off_shell_Y_electric_dipole": "sqrt(2)*pi**(3/2)/4",
+    "off_shell_Y_total_charge": "ZERO_BY_PARITY"
+  },
+  "classification": "YELLOW_ANALYTIC_CHANNEL_OPEN",
+  "complete_SI_energy": "NOT_AVAILABLE",
+  "constrained_kinetic_health": "NOT_CERTIFIED",
+  "dynamical_stability": "NOT_CERTIFIED",
+  "exterior_Y": "NOT_CERTIFIED",
+  "full_reciprocal_coupling": "NOT_SOLVED",
+  "on_shell_Y_response": "NOT_SOLVED",
+  "on_shell_axisymmetric_existence": "NOT_SOLVED",
+  "provenance": {
+    "ph14_json_sha256": "5131658b04ab1a3c072db7a40da0f2423c90f65709060deb6f162b401ddebeb2",
+    "ph14_json_status": "PRESENT_HASH_RECORDED_ONLY",
+    "ph14_source_sha256": "9a9cf92314ac1c1bdd23197082f08b47559342f3f607b8d5f81bc4bd85eb0e7d",
+    "ph14_source_status": "MATCH"
+  },
+  "repository_full_regression": "NOT_RUN_BY_THIS_MODULE",
+  "source_sha256": "9ce430fa8a0e155ef330de27f1a8461c93a970385db4eeb53507c87253c07ca5",
+  "verification_scope": "EXACT_SYMBOLIC_PLUS_INDEPENDENT_FD",
+  "whole_spacecraft_force": "NOT_DERIVED"
+}

@@ -1,0 +1,11 @@
+CASE base18_seed0p5 E 712.218428 separation 3.622485 Y_jphi 0.331493 P_outer 0.000356075 tail 0.00273 mode_relative 1.582321
+CASE base18_seed3 E 712.218428 separation 3.622494 Y_jphi 0.331494 P_outer 0.000356077 tail 0.00273 mode_relative 1.582325
+CASE base18_seed6 E 712.218428 separation 3.622486 Y_jphi 0.331493 P_outer 0.000356076 tail 0.00273 mode_relative 1.582321
+CASE refine27_L12 E 712.526588 separation 3.636156 Y_jphi 0.341285 P_outer 0.000375011 tail 0.002797 mode_relative 1.500302
+CASE large24_L16 E 712.407982 separation 3.151499 Y_jphi 0.314164 P_outer 6.6515e-05 tail 7.7e-05 mode_relative 1.317005
+CASE large30_L20 E 712.476179 separation 2.987367 Y_jphi 0.306653 P_outer 1.7554e-05 tail 3e-06 mode_relative 1.306197
+CASE control_g0 E 697.062268 separation 0.0 Y_jphi 0.0 P_outer 0.0 tail 0.001024 mode_relative 3.828082
+CASE control_e0p14 E 712.931365 separation -4e-06 Y_jphi 1e-06 P_outer 0.0 tail 0.001507 mode_relative 0.293056
+RESULT_PATH=/Users/mymac/Desktop/antigravity_research/results/data/032h17_ph15_p8_20261116T010620230224Z.json
+RESULT_SHA256=8b0f67e983ae1de1eae573f3142be3e1b3bbee245f7d31f02fc9bdaa4d5234f5
+PH15_P8_EXECUTION=PASS_SCOPED

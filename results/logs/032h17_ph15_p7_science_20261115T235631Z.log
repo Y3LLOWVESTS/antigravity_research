@@ -1,0 +1,15 @@
+CASE old_asym24 E 1514.584205 J 0.0 density_k1 -0.00425662 mixed_k1 -0.00853024 mixed_k2 -0.00212368 mixed_k3 0.0087962 Y_rho 0.134482 Y_jphi 0.01423
+CASE old_asym36 E 1515.480456 J 0.0 density_k1 -0.00463949 mixed_k1 -0.00884779 mixed_k2 -0.00246475 mixed_k3 0.00848482 Y_rho 0.138203 Y_jphi 0.014904
+CASE old_asym48 E 1515.788617 J 0.0 density_k1 -0.00475816 mixed_k1 -0.00894557 mixed_k2 -0.00256947 mixed_k3 0.00839084 Y_rho 0.139801 Y_jphi 0.01523
+CASE spin_asym24 E 1557.184011 J 800.0 density_k1 0.005307 mixed_k1 -0.00429629 mixed_k2 -0.00018644 mixed_k3 0.01079146 Y_rho 0.108336 Y_jphi 0.222984
+CASE spin_asym36 E 1558.19534 J 800.0 density_k1 0.00480089 mixed_k1 -0.00469351 mixed_k2 -0.00065655 mixed_k3 0.0102971 Y_rho 0.110658 Y_jphi 0.229163
+CASE spin_asym48 E 1558.543756 J 800.0 density_k1 0.00463379 mixed_k1 -0.00482525 mixed_k2 -0.00081153 mixed_k3 0.01013447 Y_rho 0.111709 Y_jphi 0.231796
+CASE spin_asym36_L24 E 1557.535929 J 800.0 density_k1 0.00509708 mixed_k1 -0.00444978 mixed_k2 -0.00036477 mixed_k3 0.01060474 Y_rho 0.116267 Y_jphi 0.225973
+CASE spin_asym48_L32 E 1557.524251 J 800.0 density_k1 0.00509618 mixed_k1 -0.00444736 mixed_k2 -0.00035989 mixed_k3 0.01061121 Y_rho 0.119263 Y_jphi 0.226147
+CASE mirror_asym24 E 1554.079779 J -800.0 density_k1 0.0008964 mixed_k1 -0.00598981 mixed_k2 -0.00246315 mixed_k3 0.00706019 Y_rho 0.087206 Y_jphi 0.195629
+CASE mirror_asym36 E 1555.089795 J -800.0 density_k1 0.00039396 mixed_k1 -0.0064223 mixed_k2 -0.00295446 mixed_k3 0.0065536 Y_rho 0.089561 Y_jphi 0.200921
+CASE old_sym24 E 1438.327846 J 0.0 density_k1 -0.00446898 mixed_k1 -0.00836197 mixed_k2 -0.00223242 mixed_k3 0.00825008 Y_rho 0.126282 Y_jphi 0.0
+CASE null_nonwind24 E 1336.585085 J 0.0 density_k1 0.00366659 mixed_k1 0.00366659 mixed_k2 0.01432069 mixed_k3 0.03081867 Y_rho 0.0 Y_jphi 0.0
+RESULT_PATH=/Users/mymac/Desktop/antigravity_research/results/data/032h17_ph15_p7_20261115T235808772715Z.json
+RESULT_SHA256=14b6de9905ab69761c2cd1343c8cfe0d2e35f296bf2c9131b786580c7603ed2c
+PH15_P7=PASS_SCOPED_FALSIFICATION

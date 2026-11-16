@@ -1,0 +1,4 @@
+CASE base18_L12 separation 3.62249445 exterior_E_correction 0.4685334 angular_eigenvalues [0.0032906, 0.01551718, 0.03982364] matched_FD_rel 5.426e-05
+RESULT_PATH=/Users/mymac/Desktop/antigravity_research/results/data/032h17_ph15_p9_20261116T022814955761Z.json
+RESULT_SHA256=c515f6a2926733505b97fdaf95e08bfab5a9992e8e2252ab8af9a8da75ba7679
+PH15_P9_EXECUTION=PASS_SCOPED

@@ -1,0 +1,7 @@
+CASE base18_L12 separation 3.62249445 exterior_E_correction 0.4685334 angular_eigenvalues [0.0032906, 0.01551718, 0.03982364] matched_FD_rel 5.426e-05
+CASE refine27_L12 separation 3.63615567 exterior_E_correction 0.4721114 angular_eigenvalues [] matched_FD_rel 5.564e-05
+CASE larger24_L16 separation 3.15149915 exterior_E_correction 0.148265 angular_eigenvalues [0.00322679, 0.01507798, 0.03932536] matched_FD_rel 4.405e-05
+CASE larger30_L20 separation 2.98736742 exterior_E_correction 0.0679995 angular_eigenvalues [0.0032164, 0.01493384, 0.03919823] matched_FD_rel 4.11e-05
+RESULT_PATH=/Users/mymac/Desktop/antigravity_research/results/data/032h17_ph15_p9_20261116T022833456062Z.json
+RESULT_SHA256=3e7046decc5e673fc88e8ab73e87268ea0aedab5232471c0c3385ddfd06290ad
+PH15_P9_EXECUTION=PASS_SCOPED

@@ -1,0 +1,151 @@
+{
+  "006D_replaced": false,
+  "ALPHA1_M5V_frozen": true,
+  "action_definition": "SEH[g]-1/4 int sqrt(-g)(FX^2+FY^2)+Ssource[psi,AX,e^(2sigma(P))g]+Sneutral[e^(2sigma(P))g]+Ssupport; sigma=alpha*P-beta*P^2, P=FX*dual(FY)/2",
+  "branch": "BETA1-00",
+  "complete_energy_SI": "NOT_AVAILABLE",
+  "constraint_status": "FULL_PROJECTED_PRINCIPAL_SYMBOL_NOT_CERTIFIED",
+  "earth_craft_force": "NOT_DERIVED",
+  "exact_atlas": {
+    "X_equation": "d_mu(FX^mu_nu - lambda *FY^mu_nu) = JX^nu",
+    "Y_equation": "d_mu(FY^mu_nu - lambda *FX^mu_nu) = 0 (no microscopic Y charge)",
+    "conditional_exterior": "if EX,BY = O(r^-3), P=O(r^-6), grad(sigma)=O(r^-7)",
+    "constant_lambda_null": "constant mixed Pontryagin coefficient has no local bulk source (smooth Abelian fields)",
+    "full_constrained_kinetic": "NOT_DERIVED",
+    "integrability_null": "lambda=F(A0) implies grad(lambda) cross grad(A0)=0",
+    "lambda_P_at_P0": "-4*K*alpha**2 + 4*K*beta - 16*U*alpha**2 + 8*U*beta",
+    "lambda_at_P0": "2*alpha*(-K - 2*U)",
+    "lambda_exact": "-K*(-4*P*beta + 2*alpha)*exp(-2*P**2*beta + 2*P*alpha) - U*(-8*P*beta + 4*alpha)*exp(-4*P**2*beta + 4*P*alpha)",
+    "leading_P_order": "O(alpha)",
+    "leading_X_source_reciprocal_correction": "O(alpha^2) source-only; Earth/support traces may enter Y at O(alpha)",
+    "leading_Y_order": "O(alpha), conditional regular source-only branch",
+    "leading_sigma_order": "O(alpha^2) for finite fixed beta",
+    "local_negative_example": "-1",
+    "local_reduced_kinetic": {
+      "h_EE": "-16*B**2*U*alpha**2 + 8*B**2*U*beta + 2*B**2*alpha**2*v**2 - 2*B**2*beta*v**2 + 1",
+      "h_Ev": "2*B*alpha*v",
+      "h_vv": "1",
+      "schur": "-16*B**2*U*alpha**2 + 8*B**2*U*beta - 2*B**2*alpha**2*v**2 - 2*B**2*beta*v**2 + 1"
+    },
+    "metric_trace_full": "-2*(K + 2*U*exp(2*P*alpha)*exp(-2*P**2*beta))*(8*P**2*beta - 4*P*alpha + 1)*exp(2*P*alpha)*exp(-2*P**2*beta)",
+    "parity_null": "alpha=0 has no linear Y seed at FY=0",
+    "physical_earth_craft_force": "NOT_DERIVED",
+    "source_X_current": "JX^nu=-2 sum_i q_i exp(2sigma) Im(conj(psi_i) D^nu psi_i)",
+    "source_scalar_equation": "D_mu[exp(2sigma) D^mu psi]-exp(4sigma) U'(abs(psi)^2) psi=0",
+    "symbolic_checks": {
+      "Weyl_P_metric_chain": "PASS_EXACT",
+      "charged_phase_Ward": "PASS_EXACT",
+      "four_reciprocal_variations": "PASS_EXACT",
+      "lambda_P_identity": "PASS_EXACT",
+      "lambda_identity": "PASS_EXACT",
+      "mixed_epsilon_sign": "PASS_EXACT",
+      "parity_and_integrability_nulls": "PASS_EXACT",
+      "reduced_schur": "PASS_EXACT"
+    },
+    "universal_neutral_trace": "lambda_total(P=0)=alpha*(T_source+T_neutral+T_support) for universally coupled sectors"
+  },
+  "experiment": "EXACT_SOURCE_TO_METRIC_OBSTRUCTION_ATLAS",
+  "exterior_status": "PH15_P10_FIRST_ORDER_Y_NOT_FULL_METRIC",
+  "independent_verifier_sha256": "af20ac88e452998e4052e24cbdd13078914361f6c6c2cee0922f9f5c4fa1ef28",
+  "limitations": [
+    "No full nonlinear reciprocal source-X-Y-neutral-metric-gravity solution",
+    "No constrained kinetic spectrum, continuum certificate or real source/UV",
+    "No SI payload, Earth reaction, complete energy or craft lift",
+    "Historical 2,286 regressions are not reexecuted by this scientific runner"
+  ],
+  "missing_physics_atlas": [
+    {
+      "destination": "PH15/PH16",
+      "falsifier": "nonzero loaded source EOM, unstable mode, or incompatible UV",
+      "id": "G1_SOURCE_REALIZATION",
+      "necessary_condition": "full scalar Euler-Lagrange, conserved charges, finite support and real source stress"
+    },
+    {
+      "destination": "PH16",
+      "falsifier": "no healthy reciprocal continuation or wrong constitutive sign",
+      "id": "G2_CARRIER_RECIPROCITY",
+      "necessary_condition": "both H_X=FX-lambda*FY and H_Y=FY-lambda*FX from one action"
+    },
+    {
+      "destination": "PH16",
+      "falsifier": "negative physical eigenmode or ill-posed characteristics",
+      "id": "G3_CONSTRAINED_HEALTH",
+      "necessary_condition": "full gauge-projected positive kinetic and healthy characteristics"
+    },
+    {
+      "destination": "BETA1-02/PH16",
+      "falsifier": "arbitrarily imposed interface or nonpassive susceptibility",
+      "id": "G4_PASSIVE_NEUTRAL_MATTER",
+      "necessary_condition": "neutral/support trace enters portal; passive, causal material response"
+    },
+    {
+      "destination": "PH17",
+      "falsifier": "all onboard novel forces cancel or exterior flux absent",
+      "id": "G5_EARTH_CRAFT_EXTERNAL",
+      "necessary_condition": "on-shell exterior and whole craft/Earth/field momentum ledger"
+    },
+    {
+      "destination": "B11-M6",
+      "falsifier": "negative phases/losses erase net external cycle impulse",
+      "id": "G6_CAUSAL_CYCLES",
+      "necessary_condition": "retarded signed impulse including all phases and recoil without resets"
+    },
+    {
+      "destination": "PH16/PH17",
+      "falsifier": "unavoidable complete operating cost >= 10,000,000 J",
+      "id": "G7_ENERGY_UV",
+      "necessary_condition": "SI-matched source, support, field, drive, losses, EFT and empirical checks"
+    }
+  ],
+  "model_class": "NECESSARY_CONDITION_DERIVED",
+  "parent_source_sha256": {
+    "m5v_frozen_source": {
+      "bundle_expected_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5v_unified_exterior_action.py",
+      "sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "ph11_source": {
+      "bundle_expected_sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "path": "src/antigravity_research/agminer/hook17_ph11_universal_metric_support_gate.py",
+      "sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "status": "MATCH"
+    },
+    "ph15_p10_reference_json": {
+      "path": "results/data/032h17_ph15_p10_20261116T182301044331Z.json",
+      "sha256": "af59b072dba9a0424c569419af1f673172c3123a371eec8443e52cd81efc73c1",
+      "status": "PRESENT_NOT_EXTERNALLY_AUTHENTICATED"
+    },
+    "ph15_p10_source": {
+      "bundle_expected_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    },
+    "ph15_p1_source": {
+      "bundle_expected_sha256": "9ce430fa8a0e155ef330de27f1a8461c93a970385db4eeb53507c87253c07ca5",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p1_theorem.py",
+      "sha256": "9ce430fa8a0e155ef330de27f1a8461c93a970385db4eeb53507c87253c07ca5",
+      "status": "MATCH"
+    },
+    "ph15_p8_source": {
+      "bundle_expected_sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py",
+      "sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "status": "MATCH"
+    }
+  },
+  "physical_transfer": "NOT_AUTHORIZED",
+  "primary_verdict": "YELLOW_EXACT_OBSTRUCTIONS_FULL_KINETIC_AND_EARTH_OPEN",
+  "program": "BETA-1",
+  "reciprocity_status": "EXACT_CONSTITUTIVE_VARIATIONS_NOT_FULL_SOLUTION",
+  "research_completion_heuristic": "UNCHANGED_APPROX_35_PERCENT",
+  "runner_sha256": "ea1ec5eb8dc4f8803f0f55d8454492a30a42ea771fa1487741dde4b59e7d7158",
+  "sign_conventions": "(-,+,+,+); epsilon^(0123)=+1/sqrt(-g); FX_01=E, FY_23=B gives P=E*B",
+  "source_sha256": "7088b754464d57da26b97ea9a42f486770c7eb0c6e6afcf78ab6d156acc119f6",
+  "source_status": "PH15_P10_X_SOURCE_DISCRETE_ONLY",
+  "stability_status": "NOT_CERTIFIED",
+  "timestamp_utc": "2026-11-16T20:07:42.656266+00:00",
+  "units": "canonical dimensionless except symbolic c",
+  "whole_craft_reaction": "NOT_DERIVED"
+}

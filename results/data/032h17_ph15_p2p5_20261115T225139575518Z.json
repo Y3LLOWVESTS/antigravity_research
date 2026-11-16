@@ -1,0 +1,587 @@
+{
+  "006D_replaced": false,
+  "Earth_craft_force": "NOT_DERIVED",
+  "M5V_status": "FROZEN",
+  "SI_energy": "NOT_AVAILABLE",
+  "branch": "PH15-P2P5-FINITE_BOX_X_SOURCE_LINEAR_Y_NEGATIVE_ENERGY_MODE",
+  "cases": {
+    "asym28": {
+      "Ampere_L2": 8.859291649242089e-16,
+      "Gauss_L2": 1.275866570512754e-16,
+      "Jz": 3.637978807091713e-12,
+      "Noether": [
+        800.0000000000018,
+        799.9999999999982
+      ],
+      "axis_u_ratio_f0_over_rho": 0.9719649953414237,
+      "electric_charge": 1.7763568394002505e-13,
+      "electric_field_energy": 0.008755176378442031,
+      "energy": 1515.015383951904,
+      "free_quanta_energy": 1664.0,
+      "linearY": {
+        "P_abs_integral": 0.2379618407865228,
+        "P_max_abs": 0.0011950575500401916,
+        "Y_electric_energy": 0.0382341168982337,
+        "Y_jphi_L2": 0.014507710609958887,
+        "Y_magnetic_energy": 0.00021922769341516427,
+        "Y_response": "O(alpha)_FIXED_X_NOT_FULL_RECIPROCAL",
+        "Y_rho_L2": 0.13609463305941613,
+        "constitutive_identity_rel_error": 0.02926758168366916,
+        "dipole_axis_sigma_alphaP_coefficient": -17.474453666206756,
+        "dipole_identity_rel_error": 0.01596277324814638,
+        "dipole_product_p_mu": -689.8637792425051,
+        "exterior_boundary": "FINITE_BOX_DIRICHLET_NOT_FREE_SPACE_CERTIFIED",
+        "mu_X": 45.07904274507325,
+        "p_Y": -15.303425654882638,
+        "p_Y_by_volume": -15.05914054123388,
+        "positive_beta_leading_farfield_can_reverse_sign": false
+      },
+      "magnetic_field_energy": 0.6951913591418061,
+      "max_abs_A0": 0.015684450798688097,
+      "max_abs_v": 0.10029140399648442,
+      "omega": [
+        0.8227138567086807,
+        0.9233445143190729
+      ],
+      "optimizer": {
+        "iterations": 102,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "scaled_gradient_inf": 4.6271750129419073e-07,
+        "success": true
+      },
+      "scalar_EOM_weighted_L2": [
+        7.054274656906886e-07,
+        5.505732355137718e-07
+      ],
+      "scope": "STATIONARY_FINITE_BOX_DISCRETE_X_ONLY",
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 28,
+        "wind": 1
+      }
+    },
+    "asym40": {
+      "Ampere_L2": 3.0041337232088155e-15,
+      "Gauss_L2": 4.092379574737354e-16,
+      "Jz": 3.183231456205249e-12,
+      "Noether": [
+        800.0000000000016,
+        799.9999999999984
+      ],
+      "axis_u_ratio_f0_over_rho": 0.985687139687292,
+      "electric_charge": 1.6342482922482304e-13,
+      "electric_field_energy": 0.008658646003859441,
+      "energy": 1515.6146128265214,
+      "free_quanta_energy": 1664.0,
+      "linearY": {
+        "P_abs_integral": 0.23832472248417425,
+        "P_max_abs": 0.0012163183406993555,
+        "Y_electric_energy": 0.03873208259670885,
+        "Y_jphi_L2": 0.015039450754652841,
+        "Y_magnetic_energy": 0.00022125079353990223,
+        "Y_response": "O(alpha)_FIXED_X_NOT_FULL_RECIPROCAL",
+        "Y_rho_L2": 0.138879146810736,
+        "constitutive_identity_rel_error": 0.012464723561803531,
+        "dipole_axis_sigma_alphaP_coefficient": -17.41620523529249,
+        "dipole_identity_rel_error": 0.007996019180340808,
+        "dipole_product_p_mu": -687.5642233620731,
+        "exterior_boundary": "FINITE_BOX_DIRICHLET_NOT_FREE_SPACE_CERTIFIED",
+        "mu_X": 45.07250675838125,
+        "p_Y": -15.25462577548386,
+        "p_Y_by_volume": -15.132649495194169,
+        "positive_beta_leading_farfield_can_reverse_sign": false
+      },
+      "magnetic_field_energy": 0.6935222996927525,
+      "max_abs_A0": 0.01569330923444179,
+      "max_abs_v": 0.10022967244671337,
+      "omega": [
+        0.8228908355070728,
+        0.923509920394071
+      ],
+      "optimizer": {
+        "iterations": 142,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "scaled_gradient_inf": 4.513524900421523e-07,
+        "success": true
+      },
+      "scalar_EOM_weighted_L2": [
+        8.133758572643234e-07,
+        8.735612136198032e-07
+      ],
+      "scope": "STATIONARY_FINITE_BOX_DISCRETE_X_ONLY",
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 40,
+        "wind": 1
+      }
+    },
+    "nonwind36": {
+      "Ampere_L2": 0.0,
+      "Gauss_L2": 0.0,
+      "Jz": 0.0,
+      "Noether": [
+        800.0000000000001,
+        800.0000000000001
+      ],
+      "axis_u_ratio_f0_over_rho": null,
+      "electric_charge": 0.0,
+      "electric_field_energy": 0.0,
+      "energy": 1337.2598534651452,
+      "free_quanta_energy": 1600.0,
+      "linearY": {
+        "P_abs_integral": 0.0,
+        "P_max_abs": 0.0,
+        "Y_electric_energy": 0.0,
+        "Y_jphi_L2": 0.0,
+        "Y_magnetic_energy": 0.0,
+        "Y_response": "O(alpha)_FIXED_X_NOT_FULL_RECIPROCAL",
+        "Y_rho_L2": 0.0,
+        "constitutive_identity_rel_error": 0.0,
+        "dipole_axis_sigma_alphaP_coefficient": 0.0,
+        "dipole_identity_rel_error": 0.0,
+        "dipole_product_p_mu": 0.0,
+        "exterior_boundary": "FINITE_BOX_DIRICHLET_NOT_FREE_SPACE_CERTIFIED",
+        "mu_X": 0.0,
+        "p_Y": 0.0,
+        "p_Y_by_volume": 0.0,
+        "positive_beta_leading_farfield_can_reverse_sign": null
+      },
+      "magnetic_field_energy": 0.0,
+      "max_abs_A0": 0.0,
+      "max_abs_v": 0.0,
+      "omega": [
+        0.7900079711503165,
+        0.7900079711503165
+      ],
+      "optimizer": {
+        "iterations": 89,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "scaled_gradient_inf": 4.142445480871753e-07,
+        "success": true
+      },
+      "scalar_EOM_weighted_L2": [
+        2.1266618532546383e-06,
+        2.1266618532546383e-06
+      ],
+      "scope": "STATIONARY_FINITE_BOX_DISCRETE_X_ONLY",
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 36,
+        "wind": 0
+      }
+    },
+    "reverse36": {
+      "Ampere_L2": 2.19608843931859e-15,
+      "Gauss_L2": 0.0,
+      "Jz": 0.0,
+      "Noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "axis_u_ratio_f0_over_rho": 0.9824437331938919,
+      "electric_charge": 0.0,
+      "electric_field_energy": 0.0,
+      "energy": 1439.2466475558122,
+      "free_quanta_energy": 1600.0,
+      "linearY": {
+        "P_abs_integral": 0.22404111923870834,
+        "P_max_abs": 0.0011596179284982934,
+        "Y_electric_energy": 0.032873594457478804,
+        "Y_jphi_L2": 0.0,
+        "Y_magnetic_energy": 0.0,
+        "Y_response": "O(alpha)_FIXED_X_NOT_FULL_RECIPROCAL",
+        "Y_rho_L2": 0.13062573175539194,
+        "constitutive_identity_rel_error": 0.01520149034185526,
+        "dipole_axis_sigma_alphaP_coefficient": -17.45948166595665,
+        "dipole_identity_rel_error": 0.00968626344666902,
+        "dipole_product_p_mu": -689.2727083642587,
+        "exterior_boundary": "FINITE_BOX_DIRICHLET_NOT_FREE_SPACE_CERTIFIED",
+        "mu_X": -47.62979732387598,
+        "p_Y": 14.471460033249784,
+        "p_Y_by_volume": 14.331285658909785,
+        "positive_beta_leading_farfield_can_reverse_sign": false
+      },
+      "magnetic_field_energy": 0.7448914660431383,
+      "max_abs_A0": 0.0,
+      "max_abs_v": 0.10298222697848,
+      "omega": [
+        0.8229229086209028,
+        0.8229229086209028
+      ],
+      "optimizer": {
+        "iterations": 113,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "scaled_gradient_inf": 6.551725459502633e-07,
+        "success": true
+      },
+      "scalar_EOM_weighted_L2": [
+        1.228146938132779e-06,
+        1.228146938132779e-06
+      ],
+      "scope": "STATIONARY_FINITE_BOX_DISCRETE_X_ONLY",
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 36,
+        "wind": -1
+      }
+    },
+    "sym24": {
+      "Ampere_L2": 6.015201063136112e-16,
+      "Gauss_L2": 0.0,
+      "Jz": 0.0,
+      "Noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "axis_u_ratio_f0_over_rho": 0.962779893337394,
+      "electric_charge": 0.0,
+      "electric_field_energy": 0.0,
+      "energy": 1438.3278456815801,
+      "free_quanta_energy": 1600.0,
+      "linearY": {
+        "P_abs_integral": 0.22347422537847567,
+        "P_max_abs": 0.0011253026317262127,
+        "Y_electric_energy": 0.03219591707678801,
+        "Y_jphi_L2": 0.0,
+        "Y_magnetic_energy": 0.0,
+        "Y_response": "O(alpha)_FIXED_X_NOT_FULL_RECIPROCAL",
+        "Y_rho_L2": 0.12628202214697215,
+        "constitutive_identity_rel_error": 0.03841843448411172,
+        "dipole_axis_sigma_alphaP_coefficient": -17.532559554253453,
+        "dipole_identity_rel_error": 0.020916445243853717,
+        "dipole_product_p_mu": -692.1577077560846,
+        "exterior_boundary": "FINITE_BOX_DIRICHLET_NOT_FREE_SPACE_CERTIFIED",
+        "mu_X": 47.64110544066064,
+        "p_Y": -14.52858201659912,
+        "p_Y_by_volume": -14.224695726378087,
+        "positive_beta_leading_farfield_can_reverse_sign": false
+      },
+      "m0Saddle": {
+        "Noether_each_fixed": 800.0,
+        "classification": "NEGATIVE_STATIC_ENERGY_DIRECTION_NOT_DYNAMICAL_SPECTRUM",
+        "energy_delta_at_eps": -0.001840732029222636,
+        "eps": 0.01,
+        "lowest_frozen_m0_eigenvalue": -0.018937045407238787,
+        "pointwise_electric_charge_zero": true,
+        "quadratic_coefficient": -18.40732029222636,
+        "total_Jz": 0.0
+      },
+      "magnetic_field_energy": 0.7474927081824014,
+      "max_abs_A0": 0.0,
+      "max_abs_v": 0.10294983622095077,
+      "omega": [
+        0.822661488314313,
+        0.822661488314313
+      ],
+      "optimizer": {
+        "iterations": 68,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "scaled_gradient_inf": 4.6124705103544714e-07,
+        "success": true
+      },
+      "scalar_EOM_weighted_L2": [
+        6.234715198773205e-07,
+        6.234715198773205e-07
+      ],
+      "scope": "STATIONARY_FINITE_BOX_DISCRETE_X_ONLY",
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 24,
+        "wind": 1
+      }
+    },
+    "sym36": {
+      "Ampere_L2": 2.19608843931859e-15,
+      "Gauss_L2": 0.0,
+      "Jz": 0.0,
+      "Noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "axis_u_ratio_f0_over_rho": 0.9824437331938919,
+      "electric_charge": 0.0,
+      "electric_field_energy": 0.0,
+      "energy": 1439.2466475558122,
+      "free_quanta_energy": 1600.0,
+      "linearY": {
+        "P_abs_integral": 0.22404111923870834,
+        "P_max_abs": 0.0011596179284982934,
+        "Y_electric_energy": 0.032873594457478804,
+        "Y_jphi_L2": 0.0,
+        "Y_magnetic_energy": 0.0,
+        "Y_response": "O(alpha)_FIXED_X_NOT_FULL_RECIPROCAL",
+        "Y_rho_L2": 0.13062573175539194,
+        "constitutive_identity_rel_error": 0.01520149034185526,
+        "dipole_axis_sigma_alphaP_coefficient": -17.45948166595665,
+        "dipole_identity_rel_error": 0.00968626344666902,
+        "dipole_product_p_mu": -689.2727083642587,
+        "exterior_boundary": "FINITE_BOX_DIRICHLET_NOT_FREE_SPACE_CERTIFIED",
+        "mu_X": 47.62979732387598,
+        "p_Y": -14.471460033249784,
+        "p_Y_by_volume": -14.331285658909785,
+        "positive_beta_leading_farfield_can_reverse_sign": false
+      },
+      "m0Saddle": {
+        "Noether_each_fixed": 800.0,
+        "classification": "NEGATIVE_STATIC_ENERGY_DIRECTION_NOT_DYNAMICAL_SPECTRUM",
+        "energy_delta_at_eps": -0.002021000281047236,
+        "eps": 0.01,
+        "lowest_frozen_m0_eigenvalue": -0.020796887793706517,
+        "pointwise_electric_charge_zero": true,
+        "quadratic_coefficient": -20.21000281047236,
+        "total_Jz": 0.0
+      },
+      "magnetic_field_energy": 0.7448914660431383,
+      "max_abs_A0": 0.0,
+      "max_abs_v": 0.10298222697848,
+      "omega": [
+        0.8229229086209028,
+        0.8229229086209028
+      ],
+      "optimizer": {
+        "iterations": 113,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "scaled_gradient_inf": 6.551725459502633e-07,
+        "success": true
+      },
+      "scalar_EOM_weighted_L2": [
+        1.228146938132779e-06,
+        1.228146938132779e-06
+      ],
+      "scope": "STATIONARY_FINITE_BOX_DISCRETE_X_ONLY",
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 36,
+        "wind": 1
+      }
+    },
+    "sym36_L24": {
+      "Ampere_L2": 9.94201046982282e-16,
+      "Gauss_L2": 0.0,
+      "Jz": 0.0,
+      "Noether": [
+        800.0000000000002,
+        800.0000000000002
+      ],
+      "axis_u_ratio_f0_over_rho": 0.9699337301046739,
+      "electric_charge": 0.0,
+      "electric_field_energy": 0.0,
+      "energy": 1438.662348583518,
+      "free_quanta_energy": 1600.0,
+      "linearY": {
+        "P_abs_integral": 0.24085091954211735,
+        "P_max_abs": 0.0011804237331093398,
+        "Y_electric_energy": 0.03594922159360053,
+        "Y_jphi_L2": 0.0,
+        "Y_magnetic_energy": 0.0,
+        "Y_response": "O(alpha)_FIXED_X_NOT_FULL_RECIPROCAL",
+        "Y_rho_L2": 0.1320601967249669,
+        "constitutive_identity_rel_error": 0.02799901134416451,
+        "dipole_axis_sigma_alphaP_coefficient": -18.593836154415413,
+        "dipole_identity_rel_error": 0.01587021604000093,
+        "dipole_product_p_mu": -734.0552285710112,
+        "exterior_boundary": "FINITE_BOX_DIRICHLET_NOT_FREE_SPACE_CERTIFIED",
+        "mu_X": 47.61248588420712,
+        "p_Y": -15.417284246746178,
+        "p_Y_by_volume": -15.172608615000213,
+        "positive_beta_leading_farfield_can_reverse_sign": false
+      },
+      "m0Saddle": {
+        "Noether_each_fixed": 800.0,
+        "classification": "NEGATIVE_STATIC_ENERGY_DIRECTION_NOT_DYNAMICAL_SPECTRUM",
+        "energy_delta_at_eps": -0.0019110133325739298,
+        "eps": 0.01,
+        "lowest_frozen_m0_eigenvalue": -0.019661429947675075,
+        "pointwise_electric_charge_zero": true,
+        "quadratic_coefficient": -19.110133325739298,
+        "total_Jz": 0.0
+      },
+      "magnetic_field_energy": 0.7608671884987104,
+      "max_abs_A0": 0.0,
+      "max_abs_v": 0.10427561947081748,
+      "omega": [
+        0.8227378286297768,
+        0.8227378286297768
+      ],
+      "optimizer": {
+        "iterations": 85,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "scaled_gradient_inf": 8.859996987019482e-07,
+        "success": true
+      },
+      "scalar_EOM_weighted_L2": [
+        1.3256702648977823e-06,
+        1.3256702648977823e-06
+      ],
+      "scope": "STATIONARY_FINITE_BOX_DISCRETE_X_ONLY",
+      "spec": {
+        "L": 24,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 36,
+        "wind": 1
+      }
+    },
+    "sym48": {
+      "Ampere_L2": 4.811679871351539e-15,
+      "Gauss_L2": 0.0,
+      "Jz": 0.0,
+      "Noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "axis_u_ratio_f0_over_rho": 0.9899092660866985,
+      "electric_charge": 0.0,
+      "electric_field_energy": 0.0,
+      "energy": 1439.5625274823092,
+      "free_quanta_energy": 1600.0,
+      "linearY": {
+        "P_abs_integral": 0.22466282882047423,
+        "P_max_abs": 0.0011689274553515706,
+        "Y_electric_energy": 0.033133297458614513,
+        "Y_jphi_L2": 0.0,
+        "Y_magnetic_energy": 0.0,
+        "Y_response": "O(alpha)_FIXED_X_NOT_FULL_RECIPROCAL",
+        "Y_rho_L2": 0.13248999673702672,
+        "constitutive_identity_rel_error": 0.007494239814455686,
+        "dipole_axis_sigma_alphaP_coefficient": -17.433607010085645,
+        "dipole_identity_rel_error": 0.005500713582923655,
+        "dipole_product_p_mu": -688.2512178944143,
+        "exterior_boundary": "FINITE_BOX_DIRICHLET_NOT_FREE_SPACE_CERTIFIED",
+        "mu_X": 47.62584005874215,
+        "p_Y": -14.451214236757165,
+        "p_Y_by_volume": -14.371722246315295,
+        "positive_beta_leading_farfield_can_reverse_sign": false
+      },
+      "m0Saddle": {
+        "Noether_each_fixed": 800.0,
+        "classification": "NEGATIVE_STATIC_ENERGY_DIRECTION_NOT_DYNAMICAL_SPECTRUM",
+        "energy_delta_at_eps": -0.002079622722703789,
+        "eps": 0.01,
+        "lowest_frozen_m0_eigenvalue": -0.02140209457442537,
+        "pointwise_electric_charge_zero": true,
+        "quadratic_coefficient": -20.79622722703789,
+        "total_Jz": 0.0
+      },
+      "magnetic_field_energy": 0.7439986833109322,
+      "max_abs_A0": 0.0,
+      "max_abs_v": 0.10294201898744779,
+      "omega": [
+        0.8230140209371939,
+        0.8230140209371939
+      ],
+      "optimizer": {
+        "iterations": 149,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "scaled_gradient_inf": 7.895294744341803e-07,
+        "success": true
+      },
+      "scalar_EOM_weighted_L2": [
+        1.3637946661834376e-06,
+        1.3637946661834376e-06
+      ],
+      "scope": "STATIONARY_FINITE_BOX_DISCRETE_X_ONLY",
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 48,
+        "wind": 1
+      }
+    },
+    "sym48_L32": {
+      "Ampere_L2": 9.750661718935965e-16,
+      "Gauss_L2": 0.0,
+      "Jz": 0.0,
+      "Noether": [
+        800.0,
+        800.0
+      ],
+      "axis_u_ratio_f0_over_rho": 0.9699336329962404,
+      "electric_charge": 0.0,
+      "electric_field_energy": 0.0,
+      "energy": 1438.6560972943723,
+      "free_quanta_energy": 1600.0,
+      "linearY": {
+        "P_abs_integral": 0.24822664055238086,
+        "P_max_abs": 0.001198130305325318,
+        "Y_electric_energy": 0.037509022997532684,
+        "Y_jphi_L2": 0.0,
+        "Y_magnetic_energy": 0.0,
+        "Y_response": "O(alpha)_FIXED_X_NOT_FULL_RECIPROCAL",
+        "Y_rho_L2": 0.13389508226760685,
+        "constitutive_identity_rel_error": 0.02733149789363635,
+        "dipole_axis_sigma_alphaP_coefficient": -19.043549324005532,
+        "dipole_identity_rel_error": 0.015498001436324127,
+        "dipole_product_p_mu": -751.809192882269,
+        "exterior_boundary": "FINITE_BOX_DIRICHLET_NOT_FREE_SPACE_CERTIFIED",
+        "mu_X": 47.60227815235143,
+        "p_Y": -15.793554889875194,
+        "p_Y_by_volume": -15.548786353507245,
+        "positive_beta_leading_farfield_can_reverse_sign": false
+      },
+      "m0Saddle": {
+        "Noether_each_fixed": 800.0,
+        "classification": "NEGATIVE_STATIC_ENERGY_DIRECTION_NOT_DYNAMICAL_SPECTRUM",
+        "energy_delta_at_eps": -0.0019096883956990496,
+        "eps": 0.01,
+        "lowest_frozen_m0_eigenvalue": -0.019647611300371785,
+        "pointwise_electric_charge_zero": true,
+        "quadratic_coefficient": -19.096883956990496,
+        "total_Jz": 0.0
+      },
+      "magnetic_field_energy": 0.7668659244238364,
+      "max_abs_A0": 0.0,
+      "max_abs_v": 0.10482874730726995,
+      "omega": [
+        0.8227296667472166,
+        0.8227296667472166
+      ],
+      "optimizer": {
+        "iterations": 79,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "scaled_gradient_inf": 5.640286781140609e-07,
+        "success": true
+      },
+      "scalar_EOM_weighted_L2": [
+        1.0331523972378303e-06,
+        1.0331523972378303e-06
+      ],
+      "scope": "STATIONARY_FINITE_BOX_DISCRETE_X_ONLY",
+      "spec": {
+        "L": 32,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 48,
+        "wind": 1
+      }
+    }
+  },
+  "full_reciprocal": "NOT_SOLVED",
+  "full_spectral_stability": "NOT_CERTIFIED",
+  "model_scope": "HYPOTHETICAL_FIXED_MINKOWSKI_SCALAR_X_PLUS_FIRST_ORDER_Y",
+  "source_SHA256": "804ecd6057e9b814dd102b4f18f50c5ff731977b3d49083d4781b96e9a3ae632",
+  "source_realization": "NOT_IDENTIFIED",
+  "utc": "2026-11-15T22:51:39.575136+00:00"
+}

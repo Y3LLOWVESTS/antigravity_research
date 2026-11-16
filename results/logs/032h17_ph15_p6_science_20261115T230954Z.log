@@ -1,0 +1,10 @@
+CASE sym24 energy 1438.327846 angular_eigenvalues [-0.1019006, -0.0416376, -0.1019006, -0.0416376] Y_source 0.126282 axis_coeff -17.53256
+CASE sym36 energy 1439.246648 angular_eigenvalues [-0.1031189, -0.0426433, -0.1031189, -0.0426433] Y_source 0.130626 axis_coeff -17.459482
+CASE sym48 energy 1439.562527 angular_eigenvalues [-0.1035003, -0.0429503, -0.1035003, -0.0429503] Y_source 0.13249 axis_coeff -17.433607
+CASE sym36_L24 energy 1438.662349 angular_eigenvalues [-0.1024154, -0.0420591, -0.1024154, -0.0420591] Y_source 0.13206 axis_coeff -18.593836
+CASE sym48_L32 energy 1438.656097 angular_eigenvalues [-0.1024051, -0.0420404, -0.1024051, -0.0420404] Y_source 0.133895 axis_coeff -19.043549
+CASE asym28 energy 1515.015384 angular_eigenvalues [-0.1023236, -0.041771, -0.1134234, -0.0498477] Y_source 0.136095 axis_coeff -17.474454
+CASE asym40 energy 1515.614613 angular_eigenvalues [-0.1030751, -0.0423809, -0.1142312, -0.0505038] Y_source 0.138879 axis_coeff -17.416205
+CASE reversed36 energy 1439.246648 angular_eigenvalues [-0.1031189, -0.0426433, -0.1031189, -0.0426433] Y_source 0.130626 axis_coeff -17.459482
+RESULT_PATH=/Users/mymac/Desktop/antigravity_research/results/data/032h17_ph15_p6_20261115T231025326948Z.json
+RESULT_SHA256=43c99f5dd1219b9b8cdb28d7d482a0644a226299b3f2591ec9346d16dbc3650a

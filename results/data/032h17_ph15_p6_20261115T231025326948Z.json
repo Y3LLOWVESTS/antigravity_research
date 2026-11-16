@@ -1,0 +1,856 @@
+{
+  "006D_replaced": false,
+  "Earth_down_craft_up": "NOT_DERIVED",
+  "M5V_status": "FROZEN",
+  "Y_full_reciprocity": "NOT_SOLVED",
+  "branch": "032H17-PH15-P6-NONAXIAL_ENERGY_AND_EXTERIOR_PREFLIGHT",
+  "cases": {
+    "asym28": {
+      "X_source_Ampere_L2": 8.859291649242089e-16,
+      "X_source_Gauss_L2": 1.275866570512754e-16,
+      "Y_dipole_cross_methods": {
+        "relative_error": 0.01596277324814638,
+        "source_integral": -15.303425654882638,
+        "volume_integral": -15.05914054123388
+      },
+      "Y_electric_source_norm": 0.13609463305941613,
+      "Y_magnetic_source_norm": 0.014507710609958887,
+      "angular_modes": [
+        {
+          "eigenpair_residual": 1.6071268852740404e-11,
+          "eigenvalue": -0.10232357229189674,
+          "harmonics": [
+            2,
+            0
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 1.224000894135173e-11,
+          "eigenvalue": -0.041771029022420914,
+          "harmonics": [
+            3,
+            -1
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 2.998959581817795e-11,
+          "eigenvalue": -0.11342337303167194,
+          "harmonics": [
+            0,
+            -2
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 1.069851996469674e-11,
+          "eigenvalue": -0.04984771319667353,
+          "harmonics": [
+            1,
+            -3
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        }
+      ],
+      "asymmetric_negative_mode_certification": "FROZEN_X_SCALAR_BLOCK_ONLY; NO_FULL_GAUSS_AMPERE_DIRAC_COUPLING",
+      "exterior_certification": "NO_FINITE_BOX_DIRICHLET",
+      "leading_alpha_squared_dipole_coefficient_beta0": -17.474453666206756,
+      "source_energy_canonical_not_J": 1515.015383951904,
+      "source_individual_noether": [
+        800.0000000000018,
+        799.9999999999982
+      ],
+      "source_net_X_charge": 1.7763568394002505e-13,
+      "source_optimizer_gradient": 4.6271750129419073e-07,
+      "source_total_Jz": 3.637978807091713e-12,
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 28,
+        "wind": 1
+      }
+    },
+    "asym40": {
+      "X_source_Ampere_L2": 3.0041337232088155e-15,
+      "X_source_Gauss_L2": 4.092379574737354e-16,
+      "Y_dipole_cross_methods": {
+        "relative_error": 0.007996019180340808,
+        "source_integral": -15.25462577548386,
+        "volume_integral": -15.132649495194169
+      },
+      "Y_electric_source_norm": 0.138879146810736,
+      "Y_magnetic_source_norm": 0.015039450754652841,
+      "angular_modes": [
+        {
+          "eigenpair_residual": 3.754905216418083e-11,
+          "eigenvalue": -0.10307509814006054,
+          "harmonics": [
+            2,
+            0
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 2.0727973694928125e-11,
+          "eigenvalue": -0.042380884277092495,
+          "harmonics": [
+            3,
+            -1
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 4.04735425868213e-11,
+          "eigenvalue": -0.11423122734759465,
+          "harmonics": [
+            0,
+            -2
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 1.966218410958115e-11,
+          "eigenvalue": -0.050503794254175144,
+          "harmonics": [
+            1,
+            -3
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        }
+      ],
+      "asymmetric_negative_mode_certification": "FROZEN_X_SCALAR_BLOCK_ONLY; NO_FULL_GAUSS_AMPERE_DIRAC_COUPLING",
+      "exterior_certification": "NO_FINITE_BOX_DIRICHLET",
+      "leading_alpha_squared_dipole_coefficient_beta0": -17.41620523529249,
+      "source_energy_canonical_not_J": 1515.6146128265214,
+      "source_individual_noether": [
+        800.0000000000016,
+        799.9999999999984
+      ],
+      "source_net_X_charge": 1.6342482922482304e-13,
+      "source_optimizer_gradient": 4.513524900421523e-07,
+      "source_total_Jz": 3.183231456205249e-12,
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 40,
+        "wind": 1
+      }
+    },
+    "reversed36": {
+      "X_source_Ampere_L2": 2.19608843931859e-15,
+      "X_source_Gauss_L2": 0.0,
+      "Y_dipole_cross_methods": {
+        "relative_error": 0.00968626344666902,
+        "source_integral": 14.471460033249784,
+        "volume_integral": 14.331285658909785
+      },
+      "Y_electric_source_norm": 0.13062573175539194,
+      "Y_magnetic_source_norm": 0.0,
+      "angular_modes": [
+        {
+          "eigenpair_residual": 2.3302212802818913e-11,
+          "eigenvalue": -0.10311887834943453,
+          "harmonics": [
+            0,
+            -2
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 1.812665372772698e-11,
+          "eigenvalue": -0.042643323374882046,
+          "harmonics": [
+            1,
+            -3
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 3.19911827599426e-11,
+          "eigenvalue": -0.10311887834944664,
+          "harmonics": [
+            2,
+            0
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 1.2573401650945572e-11,
+          "eigenvalue": -0.04264332337488819,
+          "harmonics": [
+            3,
+            -1
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        }
+      ],
+      "asymmetric_negative_mode_certification": "NOT_APPLICABLE",
+      "exterior_certification": "NO_FINITE_BOX_DIRICHLET",
+      "leading_alpha_squared_dipole_coefficient_beta0": -17.45948166595665,
+      "source_energy_canonical_not_J": 1439.2466475558122,
+      "source_individual_noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "source_net_X_charge": 0.0,
+      "source_optimizer_gradient": 6.551725459502633e-07,
+      "source_total_Jz": 0.0,
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 36,
+        "wind": -1
+      }
+    },
+    "sym24": {
+      "X_source_Ampere_L2": 6.015201063136112e-16,
+      "X_source_Gauss_L2": 0.0,
+      "Y_dipole_cross_methods": {
+        "relative_error": 0.020916445243853717,
+        "source_integral": -14.52858201659912,
+        "volume_integral": -14.224695726378087
+      },
+      "Y_electric_source_norm": 0.12628202214697215,
+      "Y_magnetic_source_norm": 0.0,
+      "angular_modes": [
+        {
+          "direct_energy": {
+            "angular_energy_quadrature": [
+              {
+                "delta_energy": -0.00018341933741794492,
+                "eps": 0.03,
+                "predicted_coefficient": -0.20380110863676384,
+                "quadratic_coefficient": -0.20379926379771657,
+                "relative_coefficient_error": 1.8448390472769471e-06
+              },
+              {
+                "delta_energy": -0.0007336574005876173,
+                "eps": 0.06,
+                "predicted_coefficient": -0.20380110863676384,
+                "quadratic_coefficient": -0.20379372238544927,
+                "relative_coefficient_error": 7.386251314578374e-06
+              },
+              {
+                "delta_energy": -0.002037805879353982,
+                "eps": 0.1,
+                "predicted_coefficient": -0.20380110863676384,
+                "quadratic_coefficient": -0.2037805879353982,
+                "relative_coefficient_error": 2.052070136565609e-05
+              }
+            ],
+            "charges_at_eps_0p06": {
+              "A0_gauss": "EXACT_ZERO_IF_SYMMETRIC_STATIC_E0",
+              "N_each": 800.0000000000002,
+              "max_pointwise_rhoX": 0.0,
+              "total_Jz": 0.0
+            },
+            "finite_energy_decrease": true,
+            "independent_integral_scope": "FULL_AZIMUTH_INTEGRAL_FROZEN_X_SYMMETRIC_CHARGE_AND_J_FIXED"
+          },
+          "eigenpair_residual": 1.6910543915762305e-11,
+          "eigenvalue": -0.10190055431838439,
+          "harmonics": [
+            2,
+            0
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 8.881784197001252e-16
+        },
+        {
+          "direct_energy": {
+            "angular_energy_quadrature": [
+              {
+                "delta_energy": -7.494544502151257e-05,
+                "eps": 0.03,
+                "predicted_coefficient": -0.08327517720210646,
+                "quadratic_coefficient": -0.08327271669056953,
+                "relative_coefficient_error": 2.4605115369336072e-06
+              },
+              {
+                "delta_energy": -0.0002997551830503653,
+                "eps": 0.06,
+                "predicted_coefficient": -0.08327517720210646,
+                "quadratic_coefficient": -0.08326532862510147,
+                "relative_coefficient_error": 9.848577004992198e-06
+              },
+              {
+                "delta_energy": -0.0008324781736064324,
+                "eps": 0.1,
+                "predicted_coefficient": -0.08327517720210646,
+                "quadratic_coefficient": -0.08324781736064323,
+                "relative_coefficient_error": 2.7359841463237e-05
+              }
+            ],
+            "charges_at_eps_0p06": {
+              "A0_gauss": "EXACT_ZERO_IF_SYMMETRIC_STATIC_E0",
+              "N_each": 800.0000000000002,
+              "max_pointwise_rhoX": 0.0,
+              "total_Jz": 0.0
+            },
+            "finite_energy_decrease": true,
+            "independent_integral_scope": "FULL_AZIMUTH_INTEGRAL_FROZEN_X_SYMMETRIC_CHARGE_AND_J_FIXED"
+          },
+          "eigenpair_residual": 7.710789105780931e-12,
+          "eigenvalue": -0.04163758860105455,
+          "harmonics": [
+            3,
+            -1
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 8.881784197001252e-16
+        },
+        {
+          "eigenpair_residual": 1.8317463617149423e-11,
+          "eigenvalue": -0.10190055431838287,
+          "harmonics": [
+            0,
+            -2
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 8.881784197001252e-16
+        },
+        {
+          "eigenpair_residual": 1.0122877013914918e-11,
+          "eigenvalue": -0.04163758860104982,
+          "harmonics": [
+            1,
+            -3
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 8.881784197001252e-16
+        }
+      ],
+      "asymmetric_negative_mode_certification": "NOT_APPLICABLE",
+      "exterior_certification": "NO_FINITE_BOX_DIRICHLET",
+      "leading_alpha_squared_dipole_coefficient_beta0": -17.532559554253453,
+      "source_energy_canonical_not_J": 1438.3278456815801,
+      "source_individual_noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "source_net_X_charge": 0.0,
+      "source_optimizer_gradient": 4.6124705103544714e-07,
+      "source_total_Jz": 0.0,
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 24,
+        "wind": 1
+      }
+    },
+    "sym36": {
+      "X_source_Ampere_L2": 2.19608843931859e-15,
+      "X_source_Gauss_L2": 0.0,
+      "Y_dipole_cross_methods": {
+        "relative_error": 0.00968626344666902,
+        "source_integral": -14.471460033249784,
+        "volume_integral": -14.331285658909785
+      },
+      "Y_electric_source_norm": 0.13062573175539194,
+      "Y_magnetic_source_norm": 0.0,
+      "angular_modes": [
+        {
+          "direct_energy": {
+            "angular_energy_quadrature": [
+              {
+                "delta_energy": -0.00018561236493042088,
+                "eps": 0.03,
+                "predicted_coefficient": -0.20623775669887906,
+                "quadratic_coefficient": -0.20623596103380099,
+                "relative_coefficient_error": 1.7956650780748262e-06
+              },
+              {
+                "delta_energy": -0.0007424300451930321,
+                "eps": 0.06,
+                "predicted_coefficient": -0.20623775669887906,
+                "quadratic_coefficient": -0.2062305681091756,
+                "relative_coefficient_error": 7.188589703471804e-06
+              },
+              {
+                "delta_energy": -0.0020621778496661136,
+                "eps": 0.1,
+                "predicted_coefficient": -0.20623775669887906,
+                "quadratic_coefficient": -0.20621778496661133,
+                "relative_coefficient_error": 1.9971732267726194e-05
+              }
+            ],
+            "charges_at_eps_0p06": {
+              "A0_gauss": "EXACT_ZERO_IF_SYMMETRIC_STATIC_E0",
+              "N_each": 799.9999999999999,
+              "max_pointwise_rhoX": 0.0,
+              "total_Jz": 0.0
+            },
+            "finite_energy_decrease": true,
+            "independent_integral_scope": "FULL_AZIMUTH_INTEGRAL_FROZEN_X_SYMMETRIC_CHARGE_AND_J_FIXED"
+          },
+          "eigenpair_residual": 1.3287120953092845e-11,
+          "eigenvalue": -0.10311887834943882,
+          "harmonics": [
+            2,
+            0
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "direct_energy": {
+            "angular_energy_quadrature": [
+              {
+                "delta_energy": -7.675582787669555e-05,
+                "eps": 0.03,
+                "predicted_coefficient": -0.08528664674979132,
+                "quadratic_coefficient": -0.08528425319632839,
+                "relative_coefficient_error": 2.3935534629315747e-06
+              },
+              {
+                "delta_energy": -0.00030699744274897967,
+                "eps": 0.06,
+                "predicted_coefficient": -0.08528664674979132,
+                "quadratic_coefficient": -0.08527706743027214,
+                "relative_coefficient_error": 9.57931951918456e-06
+              },
+              {
+                "delta_energy": -0.0008526003437054896,
+                "eps": 0.1,
+                "predicted_coefficient": -0.08528664674979132,
+                "quadratic_coefficient": -0.08526003437054895,
+                "relative_coefficient_error": 2.6612379242368922e-05
+              }
+            ],
+            "charges_at_eps_0p06": {
+              "A0_gauss": "EXACT_ZERO_IF_SYMMETRIC_STATIC_E0",
+              "N_each": 799.9999999999999,
+              "max_pointwise_rhoX": 0.0,
+              "total_Jz": 0.0
+            },
+            "finite_energy_decrease": true,
+            "independent_integral_scope": "FULL_AZIMUTH_INTEGRAL_FROZEN_X_SYMMETRIC_CHARGE_AND_J_FIXED"
+          },
+          "eigenpair_residual": 7.869971901706361e-12,
+          "eigenvalue": -0.0426433233748971,
+          "harmonics": [
+            3,
+            -1
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 2.4083429974863925e-11,
+          "eigenvalue": -0.10311887834943763,
+          "harmonics": [
+            0,
+            -2
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 1.8723470234035708e-11,
+          "eigenvalue": -0.04264332337489094,
+          "harmonics": [
+            1,
+            -3
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        }
+      ],
+      "asymmetric_negative_mode_certification": "NOT_APPLICABLE",
+      "exterior_certification": "NO_FINITE_BOX_DIRICHLET",
+      "leading_alpha_squared_dipole_coefficient_beta0": -17.45948166595665,
+      "source_energy_canonical_not_J": 1439.2466475558122,
+      "source_individual_noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "source_net_X_charge": 0.0,
+      "source_optimizer_gradient": 6.551725459502633e-07,
+      "source_total_Jz": 0.0,
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 36,
+        "wind": 1
+      }
+    },
+    "sym36_L24": {
+      "X_source_Ampere_L2": 9.94201046982282e-16,
+      "X_source_Gauss_L2": 0.0,
+      "Y_dipole_cross_methods": {
+        "relative_error": 0.01587021604000093,
+        "source_integral": -15.417284246746178,
+        "volume_integral": -15.172608615000213
+      },
+      "Y_electric_source_norm": 0.1320601967249669,
+      "Y_magnetic_source_norm": 0.0,
+      "angular_modes": [
+        {
+          "eigenpair_residual": 1.4176673383710163e-11,
+          "eigenvalue": -0.10241537827090888,
+          "harmonics": [
+            2,
+            0
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 9.564787157989992e-12,
+          "eigenvalue": -0.04205910117456727,
+          "harmonics": [
+            3,
+            -1
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 1.3116977983800328e-11,
+          "eigenvalue": -0.10241537827091075,
+          "harmonics": [
+            0,
+            -2
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 5.585049578705039e-12,
+          "eigenvalue": -0.04205910117457068,
+          "harmonics": [
+            1,
+            -3
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        }
+      ],
+      "asymmetric_negative_mode_certification": "NOT_APPLICABLE",
+      "exterior_certification": "NO_FINITE_BOX_DIRICHLET",
+      "leading_alpha_squared_dipole_coefficient_beta0": -18.593836154415413,
+      "source_energy_canonical_not_J": 1438.662348583518,
+      "source_individual_noether": [
+        800.0000000000002,
+        800.0000000000002
+      ],
+      "source_net_X_charge": 0.0,
+      "source_optimizer_gradient": 8.859996987019482e-07,
+      "source_total_Jz": 0.0,
+      "spec": {
+        "L": 24.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 36,
+        "wind": 1
+      }
+    },
+    "sym48": {
+      "X_source_Ampere_L2": 4.811679871351539e-15,
+      "X_source_Gauss_L2": 0.0,
+      "Y_dipole_cross_methods": {
+        "relative_error": 0.005500713582923655,
+        "source_integral": -14.451214236757165,
+        "volume_integral": -14.371722246315295
+      },
+      "Y_electric_source_norm": 0.13248999673702672,
+      "Y_magnetic_source_norm": 0.0,
+      "angular_modes": [
+        {
+          "direct_energy": {
+            "angular_energy_quadrature": [
+              {
+                "delta_energy": -0.00018629885380505584,
+                "eps": 0.03,
+                "predicted_coefficient": -0.20700050696509023,
+                "quadratic_coefficient": -0.20699872645006206,
+                "relative_coefficient_error": 1.7805150281657856e-06
+              },
+              {
+                "delta_energy": -0.0007451761930497014,
+                "eps": 0.06,
+                "predicted_coefficient": -0.20700050696509023,
+                "quadratic_coefficient": -0.2069933869582504,
+                "relative_coefficient_error": 7.120006839833604e-06
+              },
+              {
+                "delta_energy": -0.0020698073130915873,
+                "eps": 0.1,
+                "predicted_coefficient": -0.20700050696509023,
+                "quadratic_coefficient": -0.2069807313091587,
+                "relative_coefficient_error": 1.9775655931530967e-05
+              }
+            ],
+            "charges_at_eps_0p06": {
+              "A0_gauss": "EXACT_ZERO_IF_SYMMETRIC_STATIC_E0",
+              "N_each": 800.0000000000003,
+              "max_pointwise_rhoX": 0.0,
+              "total_Jz": 0.0
+            },
+            "finite_energy_decrease": true,
+            "independent_integral_scope": "FULL_AZIMUTH_INTEGRAL_FROZEN_X_SYMMETRIC_CHARGE_AND_J_FIXED"
+          },
+          "eigenpair_residual": 3.6234906546802796e-11,
+          "eigenvalue": -0.10350025348255319,
+          "harmonics": [
+            2,
+            0
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 3.552713678800501e-15
+        },
+        {
+          "direct_energy": {
+            "angular_energy_quadrature": [
+              {
+                "delta_energy": -7.730833090136002e-05,
+                "eps": 0.03,
+                "predicted_coefficient": -0.08590051792021985,
+                "quadratic_coefficient": -0.08589814544595559,
+                "relative_coefficient_error": 2.3724742642672325e-06
+              },
+              {
+                "delta_energy": -0.0003092077135988802,
+                "eps": 0.06,
+                "predicted_coefficient": -0.08590051792021985,
+                "quadratic_coefficient": -0.08589103155524451,
+                "relative_coefficient_error": 9.486364975344608e-06
+              },
+              {
+                "delta_energy": -0.0008587416907630541,
+                "eps": 0.1,
+                "predicted_coefficient": -0.08590051792021985,
+                "quadratic_coefficient": -0.08587416907630539,
+                "relative_coefficient_error": 2.6348843914461573e-05
+              }
+            ],
+            "charges_at_eps_0p06": {
+              "A0_gauss": "EXACT_ZERO_IF_SYMMETRIC_STATIC_E0",
+              "N_each": 800.0,
+              "max_pointwise_rhoX": 0.0,
+              "total_Jz": 0.0
+            },
+            "finite_energy_decrease": true,
+            "independent_integral_scope": "FULL_AZIMUTH_INTEGRAL_FROZEN_X_SYMMETRIC_CHARGE_AND_J_FIXED"
+          },
+          "eigenpair_residual": 7.722028016472234e-12,
+          "eigenvalue": -0.04295025896013621,
+          "harmonics": [
+            3,
+            -1
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 3.552713678800501e-15
+        },
+        {
+          "eigenpair_residual": 1.6188503417485648e-11,
+          "eigenvalue": -0.10350025348254069,
+          "harmonics": [
+            0,
+            -2
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 3.552713678800501e-15
+        },
+        {
+          "eigenpair_residual": 1.2077548305491198e-11,
+          "eigenvalue": -0.04295025896013572,
+          "harmonics": [
+            1,
+            -3
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 3.552713678800501e-15
+        }
+      ],
+      "asymmetric_negative_mode_certification": "NOT_APPLICABLE",
+      "exterior_certification": "NO_FINITE_BOX_DIRICHLET",
+      "leading_alpha_squared_dipole_coefficient_beta0": -17.433607010085645,
+      "source_energy_canonical_not_J": 1439.5625274823092,
+      "source_individual_noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "source_net_X_charge": 0.0,
+      "source_optimizer_gradient": 7.895294744341803e-07,
+      "source_total_Jz": 0.0,
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 48,
+        "wind": 1
+      }
+    },
+    "sym48_L32": {
+      "X_source_Ampere_L2": 9.750661718935965e-16,
+      "X_source_Gauss_L2": 0.0,
+      "Y_dipole_cross_methods": {
+        "relative_error": 0.015498001436324127,
+        "source_integral": -15.793554889875194,
+        "volume_integral": -15.548786353507245
+      },
+      "Y_electric_source_norm": 0.13389508226760685,
+      "Y_magnetic_source_norm": 0.0,
+      "angular_modes": [
+        {
+          "eigenpair_residual": 3.591529054323284e-11,
+          "eigenvalue": -0.1024051187068796,
+          "harmonics": [
+            2,
+            0
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 5.094533746385766e-12,
+          "eigenvalue": -0.042040364789816924,
+          "harmonics": [
+            3,
+            -1
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 0,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 1.4985605414970503e-11,
+          "eigenvalue": -0.10240511870688238,
+          "harmonics": [
+            0,
+            -2
+          ],
+          "relative_angular_k": 1,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        },
+        {
+          "eigenpair_residual": 1.578131497865965e-11,
+          "eigenvalue": -0.04204036478981821,
+          "harmonics": [
+            1,
+            -3
+          ],
+          "relative_angular_k": 2,
+          "scoped_status": "NEGATIVE_FIXED_X_SCALAR_QUADRATIC_DIRECTION",
+          "species": 1,
+          "symmetry_error": 1.7763568394002505e-15
+        }
+      ],
+      "asymmetric_negative_mode_certification": "NOT_APPLICABLE",
+      "exterior_certification": "NO_FINITE_BOX_DIRICHLET",
+      "leading_alpha_squared_dipole_coefficient_beta0": -19.043549324005532,
+      "source_energy_canonical_not_J": 1438.6560972943723,
+      "source_individual_noether": [
+        800.0,
+        800.0
+      ],
+      "source_net_X_charge": 0.0,
+      "source_optimizer_gradient": 5.640286781140609e-07,
+      "source_total_Jz": 0.0,
+      "spec": {
+        "L": 32.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 48,
+        "wind": 1
+      }
+    }
+  },
+  "complete_operating_energy_SI": "NOT_AVAILABLE",
+  "free_space_exterior": "NOT_CERTIFIED",
+  "full_gauge_constrained_angular_stability": "NOT_CERTIFIED",
+  "outcome": "SCOPED_STABILITY_FALSIFIER_NOT_A_VIABLE_DEVICE",
+  "parent_json_sha256": "234653df9387552eb39fb5f1a41a08914adee2e991fa8e983687fada400a92ec",
+  "parent_source_sha256": "804ecd6057e9b814dd102b4f18f50c5ff731977b3d49083d4781b96e9a3ae632",
+  "scope": "FIXED_MINKOWSKI_X_SOURCE; FROZEN_X_ANGULAR_SCALAR_HESSIAN; LEADING_Y_FIRST_ORDER",
+  "source_sha256": "840d228f1f95ae04abdb6ac15f363955e7e3c5351a9909cf95fea032c6a6de9e",
+  "utc": "2026-11-15T23:10:25.324602+00:00"
+}

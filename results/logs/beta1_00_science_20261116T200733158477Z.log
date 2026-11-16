@@ -1,0 +1,5 @@
+BETA1-00: YELLOW_EXACT_OBSTRUCTIONS_FULL_KINETIC_AND_EARTH_OPEN
+EXACT_CHECKS: 8/8
+REFERENCE_HASHES: {'ph15_p10_source': 'MATCH', 'ph15_p1_source': 'MATCH', 'ph15_p8_source': 'MATCH', 'ph11_source': 'MATCH', 'm5v_frozen_source': 'MATCH', 'ph15_p10_reference_json': 'PRESENT_NOT_EXTERNALLY_AUTHENTICATED'}
+RESULT_JSON: /Users/mymac/Desktop/antigravity_research/results/data/beta1_00_20261116T200742656266Z.json
+SHA256: 866a305e4d7618d174ff63e864a3d7054ffc9133284e0e5c3637dec89145f708

@@ -1,0 +1,198 @@
+{
+  "006D_replaced": false,
+  "50_percent_theory_gate": "NOT_MET",
+  "Earth_down_craft_up": "NOT_DERIVED",
+  "M5V_status": "FROZEN",
+  "P8_source_on_shell": "FINITE_BOX_DISCRETE_X_ONLY",
+  "action_scope": "FIXED_MINKOWSKI_TWO_CHARGED_SCALARS_X_MAXWELL",
+  "branch": "032H17-PH15-P8-DISTINCT_NONWINDING_TWO_CENTER_X_SOURCE",
+  "cases": {
+    "base18_seed3": {
+      "Y_first_order": {
+        "P_absolute_integral": 1.6544999581520332,
+        "P_max_abs": 0.004006661584486712,
+        "P_outer_shell_max_abs": 0.0003560766445705135,
+        "P_signed_integral": -0.005362741928007397,
+        "Y_B_outer_shell_max_abs": 0.006180634272043928,
+        "Y_boundary": "FINITE_DIRICHLET_NOT_FREESPACE_CERTIFIED",
+        "Y_current_L2": 0.3314937433261655,
+        "Y_electric_field_first_order": "EXACT_ZERO_BX_ZERO_STATIONARY",
+        "Y_magnetic_dipole": 27.07780282325941,
+        "Y_magnetic_energy_CANONICAL": 0.23238259326354715,
+        "Y_reciprocal_loading": "NOT_SOLVED",
+        "alpha": 1.0,
+        "leading_axis_dipole_product_XY": 4583.237587185501,
+        "portal_sigma_max_abs_beta0": 0.004006661584486712
+      },
+      "centers": [
+        1.8112472248634492,
+        -1.811247224863575
+      ],
+      "charge_density_L2": 1.522473631648475,
+      "conditional_two_monomer_energy_advantage": 11.616816375732014,
+      "domain": "FINITE_CYLINDRICAL_DIRICHLET",
+      "electric_dipole_X": 169.26179783126906,
+      "electrostatic_energy": 5.231647828397969,
+      "energy_CANONICAL_NOT_J": 712.2184278085014,
+      "gauss_L2": 4.790251739498483e-15,
+      "gauss_matched_angular_screen": {
+        "k1": {
+          "basis_dimension": 6,
+          "full_stability": "NOT_CERTIFIED",
+          "gram_condition": 27097.422034706127,
+          "maximum_generalized_energy_eigen": 0.23371554034208333,
+          "minimum_generalized_energy_eigen": 0.020418729058568785,
+          "quadrature_angles": 24,
+          "scope": "GAUSS_MATCHED_DENSITY_ONLY_FROZEN_GAUGE"
+        },
+        "k2": {
+          "basis_dimension": 6,
+          "full_stability": "NOT_CERTIFIED",
+          "gram_condition": 28266.59680171833,
+          "maximum_generalized_energy_eigen": 0.2094299604181621,
+          "minimum_generalized_energy_eigen": 0.03701408001959948,
+          "quadrature_angles": 24,
+          "scope": "GAUSS_MATCHED_DENSITY_ONLY_FROZEN_GAUGE"
+        }
+      },
+      "individual_Noether": [
+        399.9999999999982,
+        399.9999999999981
+      ],
+      "net_X_charge": 7.105427357601002e-15,
+      "omega": [
+        0.8393627502759956,
+        0.8393627502759945
+      ],
+      "optimizer": {
+        "gradient_inf": 2.760462462615466e-07,
+        "iterations": 122,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "success": true
+      },
+      "outer_80percent_spherical_tail_fraction": 0.002729968743919613,
+      "restricted_axial_trial": {
+        "common": {
+          "delta_energy_minus": 0.004556987917453625,
+          "delta_energy_plus": 0.004556987916430444,
+          "symmetric_curvature_proxy": 0.28129555042852067
+        },
+        "relative": {
+          "delta_energy_minus": 0.029022083121390096,
+          "delta_energy_plus": 0.02224523947495527,
+          "symmetric_curvature_proxy": 1.582324771492141
+        }
+      },
+      "scalar_EOM_weighted_L2": [
+        9.943458028372096e-07,
+        1.0760952374304087e-06
+      ],
+      "separated_reference": {
+        "gradient_inf": 3.25102720310646e-07,
+        "not_global_binding_proof": true,
+        "scope": "MATCHED_N_CHARGED_MONOPOLE_IN_SAME_FINITE_DIRICHLET_BOX",
+        "single_energy_CANONICAL_NOT_J": 361.9176220921167,
+        "two_separate_reference_energy_CANONICAL_NOT_J": 723.8352441842334
+      },
+      "source_separation": 3.622494449727024,
+      "spec": {
+        "L": 12.0,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 3.0
+      },
+      "symmetric_parity_max": 2.82434975407142e-09
+    },
+    "control_g0": {
+      "Y_first_order": {
+        "P_absolute_integral": 2.7955331772298928e-14,
+        "P_max_abs": 4.2547804310120785e-17,
+        "P_outer_shell_max_abs": 3.805729724712076e-18,
+        "P_signed_integral": -4.590805638568343e-17,
+        "Y_B_outer_shell_max_abs": 8.980826665780708e-10,
+        "Y_boundary": "FINITE_DIRICHLET_NOT_FREESPACE_CERTIFIED",
+        "Y_current_L2": 5.12661102369098e-08,
+        "Y_electric_field_first_order": "EXACT_ZERO_BX_ZERO_STATIONARY",
+        "Y_magnetic_dipole": 3.6735909685603272e-06,
+        "Y_magnetic_energy_CANONICAL": 3.9669182809994305e-15,
+        "Y_reciprocal_loading": "NOT_SOLVED",
+        "alpha": 1.0,
+        "leading_axis_dipole_product_XY": 7.15395751225753e-11,
+        "portal_sigma_max_abs_beta0": 4.2547804310120785e-17
+      },
+      "centers": [
+        2.1063390111877005e-07,
+        -2.1063390288973905e-07
+      ],
+      "charge_density_L2": 2.1343474218514546e-07,
+      "domain": "FINITE_CYLINDRICAL_DIRICHLET",
+      "electric_dipole_X": 1.9474017585199888e-05,
+      "electrostatic_energy": 8.076944275406084e-14,
+      "energy_CANONICAL_NOT_J": 697.0622681758009,
+      "gauss_L2": 9.386364287285526e-17,
+      "gauss_matched_angular_screen": "NOT_RUN_FOR_THIS_CASE",
+      "individual_Noether": [
+        400.0,
+        400.0
+      ],
+      "net_X_charge": 0.0,
+      "omega": [
+        0.8134355562917738,
+        0.8134355562917734
+      ],
+      "optimizer": {
+        "gradient_inf": 1.530671369296885e-07,
+        "iterations": 93,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "success": true
+      },
+      "outer_80percent_spherical_tail_fraction": 0.0010235470380948247,
+      "restricted_axial_trial": {
+        "common": {
+          "delta_energy_minus": 0.0009730282580449057,
+          "delta_energy_plus": 0.0009730282580449057,
+          "symmetric_curvature_proxy": 0.06006347271882134
+        },
+        "relative": {
+          "delta_energy_minus": 0.06201478632897306,
+          "delta_energy_plus": 0.06201506551667535,
+          "symmetric_curvature_proxy": 3.828081847087914
+        }
+      },
+      "scalar_EOM_weighted_L2": [
+        6.810495953012241e-07,
+        6.810488856422248e-07
+      ],
+      "source_separation": 4.2126780400850907e-07,
+      "spec": {
+        "L": 12.0,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.0,
+        "nr": 18,
+        "seed_separation": 3.0
+      },
+      "symmetric_parity_max": 9.267031586546182e-13
+    }
+  },
+  "complete_SI_energy": "NOT_AVAILABLE",
+  "exact_action_theorems": {
+    "contact_portal_derivative": "d(lambda0)/dg=-4*alpha*fplus^2*fminus^2",
+    "full_metric_stress": "NOT_DERIVED",
+    "gauge_Ward": "STATIONARY_X_SOURCE_CURRENT_CONTINUITY_ONLY",
+    "lambda_prime_0": "4*beta*(K+2*U_total)-4*alpha^2*(K+4*U_total)",
+    "portal_lambda_0": "-2*alpha*(K+2*U_total)",
+    "source_contact_variation": "PASS_EXACT_BOTH_SPECIES"
+  },
+  "first_order_Y": "LINEAR_RESPONSE_FIXED_X_NOT_RECIPROCAL",
+  "free_space_exterior": "NOT_CERTIFIED",
+  "full_2U1_reciprocal": "NOT_SOLVED",
+  "full_stability": "NOT_CERTIFIED",
+  "new_physics": "POSITIVE_INTERSPECIES_CONTACT_QUARTIC_g|psi+|^2|psi-|^2",
+  "physical_metric": "PROPOSED_CONFORMAL_NOT_ONSHELL_GRAVITY",
+  "source_sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+  "stable_source": "NOT_CERTIFIED",
+  "utc": "2026-11-16T01:05:47.783172+00:00"
+}

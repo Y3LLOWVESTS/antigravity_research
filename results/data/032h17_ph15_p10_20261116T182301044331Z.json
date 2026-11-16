@@ -1,0 +1,1327 @@
+{
+  "006D_replaced": false,
+  "M5V_status": "FROZEN",
+  "Y_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART; X_Y_BACKREACTION_OPEN",
+  "branch": "032H17_PH15_P10_SELFCONSISTENT_DISCRETE_FREE_COULOMB_AND_FREE_Y",
+  "candidate_status": "YELLOW_NEW_PARTIAL_EXTERIOR_CLOSURE",
+  "cases": {
+    "base18_L12": {
+      "canonical_energy_NOT_J": 712.5557086168102,
+      "centers": [
+        1.4253704693557714,
+        -1.4253704693557925
+      ],
+      "electric_dipole": 132.40932893157478,
+      "free_coulomb_field_energy": 3.6472051792382043,
+      "free_coulomb_residual_inf": 2.098321516541546e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.29935858557012884,
+        "Y_field_outer_shell_max_abs": 0.004557354615450555,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.08615465703624,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.22222370388984758,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.3893325798443128,
+        "portal_alpha_P_max_abs_beta0": 0.0030582212857025908
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 1.0865670654891524e-09,
+          "analytic": -0.013274744838151378,
+          "finite_difference": -0.013274745924718443,
+          "index": 7
+        },
+        {
+          "abs_error": 2.2294335675117524e-09,
+          "analytic": -2.787556957747104e-06,
+          "finite_difference": -2.7853275241795923e-06,
+          "index": 324
+        },
+        {
+          "abs_error": 2.66451696262493e-08,
+          "analytic": 11.040007810336942,
+          "finite_difference": 11.040007836982111,
+          "index": 660
+        },
+        {
+          "abs_error": 1.0603876517091201e-09,
+          "analytic": 7.260503852325837e-05,
+          "finite_difference": 7.260609891091008e-05,
+          "index": 1281
+        }
+      ],
+      "individual_Noether": [
+        399.99999999999994,
+        400.0
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 37527.87034395712,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0015630398636518592,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.003627551161765032
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": -1.3480536131815768e-14,
+      "omega": [
+        0.8393943168144706,
+        0.8393943168144701
+      ],
+      "optimizer": {
+        "gradient_inf": 3.717708911815261e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 107,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.00215235674821362,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.8074385216551203,
+        "rotation_normalized_curvature": 0.00930836741510561,
+        "rotation_tangent_norm": 86.74330155305321
+      },
+      "scalar_equation_weighted_L2": [
+        1.5825934867529038e-06,
+        1.5876352500598679e-06
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 2.8507409387115636,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.22067593523098344,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 4.483386145111917e-06,
+        "translation_tangent_rayleigh": 0.0064916572104521215
+      }
+    },
+    "coarse12_L12": {
+      "canonical_energy_NOT_J": 711.8045370708116,
+      "centers": [
+        1.4548045451332285,
+        -1.4548045451333071
+      ],
+      "electric_dipole": 135.17892749189684,
+      "free_coulomb_field_energy": 3.803512415747587,
+      "free_coulomb_residual_inf": 1.9040324872321435e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.2891193084997893,
+        "Y_field_outer_shell_max_abs": 0.0044438931253388825,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 25.958466043334894,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.21855646004160678,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.3725983800941413,
+        "portal_alpha_P_max_abs_beta0": 0.0031186653937787818
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 3.548793588853405e-09,
+          "analytic": -0.022602237233458992,
+          "finite_difference": -0.022602233684665404,
+          "index": 7
+        },
+        {
+          "abs_error": 1.5822300946985294e-09,
+          "analytic": -1.21970154574347e-05,
+          "finite_difference": -1.2198597687529398e-05,
+          "index": 144
+        },
+        {
+          "abs_error": 1.3044456181887654e-08,
+          "analytic": 26.791570614393518,
+          "finite_difference": 26.791570627437974,
+          "index": 300
+        },
+        {
+          "abs_error": 5.868367293840326e-11,
+          "analytic": -0.0019528670823305042,
+          "finite_difference": -0.0019528670236468313,
+          "index": 561
+        }
+      ],
+      "individual_Noether": [
+        399.9999999999999,
+        400.00000000000006
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 35399.89283018265,
+        "included_rigid_rotation": true,
+        "min_mode": 0.00234543604857935,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.004260714911177338
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": -1.454392162258955e-14,
+      "omega": [
+        0.8388479405498513,
+        0.8388479405497508
+      ],
+      "optimizer": {
+        "gradient_inf": 3.6550144657300115e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 61,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.002416433477961382,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 1.2576070069107401,
+        "rotation_normalized_curvature": 0.014210034743553349,
+        "rotation_tangent_norm": 88.5013323054173
+      },
+      "scalar_equation_weighted_L2": [
+        7.93854764061098e-07,
+        7.981337238737213e-07
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 2.9096090902665357,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 12,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.2945417443563605,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 2.251419843216307e-06,
+        "translation_tangent_rayleigh": 0.016625766476677187
+      }
+    },
+    "control_e0p14": {
+      "canonical_energy_NOT_J": 712.9313647296935,
+      "centers": [
+        6.3977444872584e-06,
+        -6.397744497003985e-06
+      ],
+      "electric_dipole": 0.0006791977823479001,
+      "free_coulomb_field_energy": 1.0149838913017618e-10,
+      "free_coulomb_residual_inf": 4.03884915945997e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 1.7948710811688342e-06,
+        "Y_field_outer_shell_max_abs": 2.693777125446152e-08,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 0.00014865455157910318,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 7.1041137294078975e-12,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 4.2378067931399885e-11,
+        "portal_alpha_P_max_abs_beta0": 7.843425471770749e-14
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 7,
+      "gradient_audit": [
+        {
+          "abs_error": 6.76124480361584e-09,
+          "analytic": -0.013722250347139123,
+          "finite_difference": -0.013722257108383927,
+          "index": 7
+        },
+        {
+          "abs_error": 9.158569479003704e-10,
+          "analytic": -2.8203494324439775e-06,
+          "finite_difference": -2.819433575496077e-06,
+          "index": 324
+        },
+        {
+          "abs_error": 2.745566973771929e-08,
+          "analytic": 11.087800477127685,
+          "finite_difference": 11.087800504583354,
+          "index": 660
+        },
+        {
+          "abs_error": 4.644018820743729e-09,
+          "analytic": 6.87681278147402e-05,
+          "finite_difference": 6.876348379591946e-05,
+          "index": 1281
+        }
+      ],
+      "individual_Noether": [
+        400.00000000000006,
+        400.0
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 21391.170522412853,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0032800837093546445,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.0042046779934812786
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": 7.287627135640497e-15,
+      "omega": [
+        0.8379593821503207,
+        0.8379593821503205
+      ],
+      "optimizer": {
+        "gradient_inf": 3.328201026830342e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 98,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.0015066799700570645,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.5103632499759659,
+        "rotation_normalized_curvature": 1.2486400230486818,
+        "rotation_tangent_norm": 0.40873529644665885
+      },
+      "scalar_equation_weighted_L2": [
+        1.1712347032898406e-06,
+        1.1720089860255939e-06
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 1.2795488984262385e-05,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.14,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.17480563442226896,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 3.3138471862867683e-06,
+        "translation_tangent_rayleigh": 0.004216002670080854
+      }
+    },
+    "control_g0": {
+      "canonical_energy_NOT_J": 697.0622681758002,
+      "centers": [
+        -2.573005413796587e-07,
+        2.5730053978389003e-07
+      ],
+      "electric_dipole": -2.371351516748874e-05,
+      "free_coulomb_field_energy": 1.287634091001692e-13,
+      "free_coulomb_residual_inf": 5.835867981915527e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 6.763143025380482e-08,
+        "Y_field_outer_shell_max_abs": 9.155678365471753e-10,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": -5.078773122293051e-06,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 8.090893189127746e-15,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 5.1486366926713384e-14,
+        "portal_alpha_P_max_abs_beta0": 8.146585069974762e-17
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 5,
+      "gradient_audit": [
+        {
+          "abs_error": 5.044863207737116e-10,
+          "analytic": -0.013357708390059472,
+          "finite_difference": -0.013357708894545793,
+          "index": 7
+        },
+        {
+          "abs_error": 2.2294341411605808e-09,
+          "analytic": -2.787556958320753e-06,
+          "finite_difference": -2.7853275241795923e-06,
+          "index": 324
+        },
+        {
+          "abs_error": 2.3261286230535916e-08,
+          "analytic": 11.019241571306287,
+          "finite_difference": 11.019241594567573,
+          "index": 660
+        },
+        {
+          "abs_error": 1.060602733350853e-09,
+          "analytic": 7.260503830817673e-05,
+          "finite_difference": 7.260609891091008e-05,
+          "index": 1281
+        }
+      ],
+      "individual_Noether": [
+        400.0,
+        400.0000000000001
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 23231.176765320895,
+        "included_rigid_rotation": true,
+        "min_mode": 0.004214656150773179,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.015012403728611916
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": -1.7921025482693587e-14,
+      "omega": [
+        0.8134355600518525,
+        0.8134355600518529
+      ],
+      "optimizer": {
+        "gradient_inf": 2.6673177673866894e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 81,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.001023548688233529,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.3796768359886387,
+        "rotation_normalized_curvature": 1.1913206935543117,
+        "rotation_tangent_norm": 0.3187024602551567
+      },
+      "scalar_equation_weighted_L2": [
+        6.697069770027884e-07,
+        6.747233831165466e-07
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": -5.146010811635487e-07,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0,
+        "nr": 18,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.1787452967526054,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 1.9013248841483684e-06,
+        "translation_tangent_rayleigh": 0.004322535066118712
+      }
+    },
+    "fine36_L16": {
+      "canonical_energy_NOT_J": 712.8399382601614,
+      "centers": [
+        1.427341779664147,
+        -1.4273417796641166
+      ],
+      "electric_dipole": 132.60293436509056,
+      "free_coulomb_field_energy": 3.6424088012564884,
+      "free_coulomb_residual_inf": 2.1094237467877974e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.3086253922344549,
+        "Y_field_outer_shell_max_abs": 0.0018965841738675898,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.33691493756533,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.22745027961768527,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.4650490080672527,
+        "portal_alpha_P_max_abs_beta0": 0.0030807734503949884
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 1.5295583911494116e-09,
+          "analytic": -2.332109731684278e-06,
+          "finite_difference": -2.3305801732931286e-06,
+          "index": 7
+        },
+        {
+          "abs_error": 2.17400441369268e-11,
+          "analytic": -2.17400441369268e-11,
+          "finite_difference": 0.0,
+          "index": 1296
+        },
+        {
+          "abs_error": 2.7334079444329973e-10,
+          "analytic": -0.004483331121681311,
+          "finite_difference": -0.004483331395022105,
+          "index": 2604
+        },
+        {
+          "abs_error": 1.5374568555551144e-11,
+          "analytic": -1.5374568555551144e-11,
+          "finite_difference": 0.0,
+          "index": 5169
+        }
+      ],
+      "individual_Noether": [
+        400.00000000000006,
+        400.0
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 43437.11421784469,
+        "included_rigid_rotation": true,
+        "min_mode": 0.00014397938282850894,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.003259251376888299
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": 7.424616477180734e-16,
+      "omega": [
+        0.8395082824331283,
+        0.8395082824331259
+      ],
+      "optimizer": {
+        "gradient_inf": 2.578084273733197e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 169,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 7.267383919532513e-05,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.05394281669364531,
+        "rotation_normalized_curvature": 0.000618164822441352,
+        "rotation_tangent_norm": 87.26283789589644
+      },
+      "scalar_equation_weighted_L2": [
+        1.8390825955141932e-06,
+        1.841902735604017e-06
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 2.8546835593282633,
+      "spec": {
+        "L": 16,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 36,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.07032058027516463,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 5.205700905948702e-06,
+        "translation_tangent_rayleigh": 0.0005912652722805992
+      }
+    },
+    "large24_L16": {
+      "canonical_energy_NOT_J": 712.5143171888592,
+      "centers": [
+        1.4394309423195102,
+        -1.4394309423195266
+      ],
+      "electric_dipole": 133.73861994125548,
+      "free_coulomb_field_energy": 3.705207943029766,
+      "free_coulomb_residual_inf": 2.020605904817785e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.30133094903122515,
+        "Y_field_outer_shell_max_abs": 0.0018928536171719248,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.2598158976866,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.2252045324857987,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.4519299812380524,
+        "portal_alpha_P_max_abs_beta0": 0.0031111981580453163
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 2.860267592666812e-09,
+          "analytic": -8.803057871543995e-05,
+          "finite_difference": -8.802771844784728e-05,
+          "index": 7
+        },
+        {
+          "abs_error": 1.859935975707864e-10,
+          "analytic": -1.859935975707864e-10,
+          "finite_difference": 0.0,
+          "index": 576
+        },
+        {
+          "abs_error": 9.063666723402308e-09,
+          "analytic": -0.01391728457347831,
+          "finite_difference": -0.013917275509811587,
+          "index": 1164
+        },
+        {
+          "abs_error": 5.006996149831015e-09,
+          "analytic": -1.204602950841139e-08,
+          "finite_difference": -1.7053025658242404e-08,
+          "index": 2289
+        }
+      ],
+      "individual_Noether": [
+        400.0,
+        400.0
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 40715.44040746858,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0004972877043757048,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.0035671635377319154
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": -6.772360450213455e-15,
+      "omega": [
+        0.8393217634610601,
+        0.8393217634610598
+      ],
+      "optimizer": {
+        "gradient_inf": 3.0902644346204824e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 98,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 7.063883291292671e-05,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.19317163879417798,
+        "rotation_normalized_curvature": 0.0022003605255251934,
+        "rotation_tangent_norm": 87.79090360570379
+      },
+      "scalar_equation_weighted_L2": [
+        1.4617507268271903e-06,
+        1.467648799111059e-06
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 2.878861884639037,
+      "spec": {
+        "L": 16,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 24,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.13786452648570757,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 4.142804936229535e-06,
+        "translation_tangent_rayleigh": 0.002790058266358868
+      }
+    },
+    "large30_L20": {
+      "canonical_energy_NOT_J": 712.5138727498801,
+      "centers": [
+        1.4395891089535482,
+        -1.4395891089535175
+      ],
+      "electric_dipole": 133.7536591958791,
+      "free_coulomb_field_energy": 3.7057808835716863,
+      "free_coulomb_residual_inf": 2.0261570199409107e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.30135009996473044,
+        "Y_field_outer_shell_max_abs": 0.0009558323663488965,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.261410530468293,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.22523294284378353,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.4674751839852709,
+        "portal_alpha_P_max_abs_beta0": 0.0031117485732934085
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 1.0547871129876043e-09,
+          "analytic": -3.516083842947241e-08,
+          "finite_difference": -3.410605131648481e-08,
+          "index": 7
+        },
+        {
+          "abs_error": 3.263517497098682e-16,
+          "analytic": -3.263517497098682e-16,
+          "finite_difference": 0.0,
+          "index": 900
+        },
+        {
+          "abs_error": 5.338110773724092e-09,
+          "analytic": -0.0023495377997143204,
+          "finite_difference": -0.002349543137825094,
+          "index": 1812
+        },
+        {
+          "abs_error": 3.0945801884354926e-15,
+          "analytic": -3.0945801884354926e-15,
+          "finite_difference": 0.0,
+          "index": 3585
+        }
+      ],
+      "individual_Noether": [
+        400.0,
+        399.99999999999994
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 40795.94947902002,
+        "included_rigid_rotation": true,
+        "min_mode": 0.000472017268755385,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.0035664327146186234
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": 6.440160904563896e-15,
+      "omega": [
+        0.8393211922428594,
+        0.8393211922428611
+      ],
+      "optimizer": {
+        "gradient_inf": 3.8339439628504374e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 100,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 2.405958887705765e-06,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.18413247113753517,
+        "rotation_normalized_curvature": 0.0020972190919998396,
+        "rotation_tangent_norm": 87.79839542751466
+      },
+      "scalar_equation_weighted_L2": [
+        1.5013035304328942e-06,
+        1.563164470499674e-06
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 2.8791782179070657,
+      "spec": {
+        "L": 20,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 30,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.1368624443501288,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 4.3346951229920645e-06,
+        "translation_tangent_rayleigh": 0.002756219393877351
+      }
+    },
+    "refine27_L12": {
+      "canonical_energy_NOT_J": 712.8806712747298,
+      "centers": [
+        1.413359591243255,
+        -1.4133595912432515
+      ],
+      "electric_dipole": 131.28138426296235,
+      "free_coulomb_field_energy": 3.585047152782881,
+      "free_coulomb_residual_inf": 2.1871393585115584e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.30661448240930383,
+        "Y_field_outer_shell_max_abs": 0.00450117500997352,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.16230262558275,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.2244117850307208,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.4026352528283323,
+        "portal_alpha_P_max_abs_beta0": 0.0030276983495579218
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 1.5333369554528659e-09,
+          "analytic": -0.0012664615368719859,
+          "finite_difference": -0.0012664600035350304,
+          "index": 7
+        },
+        {
+          "abs_error": 7.014797145932228e-10,
+          "analytic": -0.050097940382979586,
+          "finite_difference": -0.0500979410844593,
+          "index": 729
+        },
+        {
+          "abs_error": 4.127580586349433e-10,
+          "analytic": 0.009795496267695594,
+          "finite_difference": 0.009795496680453653,
+          "index": 1470
+        },
+        {
+          "abs_error": 4.06554386557761e-10,
+          "analytic": 4.338330382895523e-05,
+          "finite_difference": 4.338289727456867e-05,
+          "index": 2901
+        }
+      ],
+      "individual_Noether": [
+        399.99999999999994,
+        400.00000000000006
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 38664.21714341625,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0016411332444145462,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.0033191766022296894
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": -9.629016334278262e-15,
+      "omega": [
+        0.8395793904181292,
+        0.8395793904181298
+      ],
+      "optimizer": {
+        "gradient_inf": 3.825075219222533e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 165,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.0021650596888988286,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 1.1142447527688848,
+        "rotation_normalized_curvature": 0.012922521896407352,
+        "rotation_tangent_norm": 86.22502338948723
+      },
+      "scalar_equation_weighted_L2": [
+        1.588072066515335e-06,
+        1.6003329959823057e-06
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 2.8267191824865066,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 27,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.3402276123960763,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 4.509119021039914e-06,
+        "translation_tangent_rayleigh": 0.006300210846890314
+      }
+    },
+    "seed0_overlap18": {
+      "canonical_energy_NOT_J": 712.9313647296837,
+      "centers": [
+        -1.775984302212145e-15,
+        -1.775984302212145e-15
+      ],
+      "electric_dipole": 0.0,
+      "free_coulomb_field_energy": 0.0,
+      "free_coulomb_residual_inf": 0.0,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.0,
+        "Y_field_outer_shell_max_abs": 0.0,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 0.0,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.0,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 0.0,
+        "portal_alpha_P_max_abs_beta0": 0.0
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 1,
+      "gradient_audit": [
+        {
+          "abs_error": 2.9673586088296844e-09,
+          "analytic": -0.02394301942571955,
+          "finite_difference": -0.02394301645836094,
+          "index": 7
+        },
+        {
+          "abs_error": 1.6231727164262927e-09,
+          "analytic": -1.0224507880342936e-05,
+          "finite_difference": -1.0226131053059362e-05,
+          "index": 324
+        },
+        {
+          "abs_error": 5.509335931908055e-09,
+          "analytic": -0.10579961991204882,
+          "finite_difference": -0.10579961440271289,
+          "index": 660
+        },
+        {
+          "abs_error": 1.92188147194643e-09,
+          "analytic": 0.00026875376249242835,
+          "finite_difference": 0.0002687556843739003,
+          "index": 1281
+        }
+      ],
+      "individual_Noether": [
+        400.0000000000001,
+        400.0000000000001
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 21391.174153590193,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0002701439127545108,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.0032800836918015935
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": 0.0,
+      "omega": [
+        0.8379593757630661,
+        0.8379593757630661
+      ],
+      "optimizer": {
+        "gradient_inf": 3.8005652977721487e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 64,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.0015066806269416683,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.5103629719134694,
+        "rotation_normalized_curvature": 1.2486410267817003,
+        "rotation_tangent_norm": 0.4087347451884552
+      },
+      "scalar_equation_weighted_L2": [
+        1.505711425820162e-06,
+        1.505711425820162e-06
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 0.0,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.17480558076252917,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 4.258795038830007e-06,
+        "translation_tangent_rayleigh": 0.004216055946108662
+      }
+    },
+    "seed0p5_18": {
+      "canonical_energy_NOT_J": 712.5557086168054,
+      "centers": [
+        1.4253716422353557,
+        -1.4253716422343685
+      ],
+      "electric_dipole": 132.40943921549456,
+      "free_coulomb_field_energy": 3.647211253278765,
+      "free_coulomb_residual_inf": 2.120525977034049e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.29935879893883144,
+        "Y_field_outer_shell_max_abs": 0.0045573574050321265,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.08617301413451,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.22222402249385692,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.3893346852620132,
+        "portal_alpha_P_max_abs_beta0": 0.0030582266623469133
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 1.8230735705782042e-09,
+          "analytic": -0.023836910709641786,
+          "finite_difference": -0.023836912532715356,
+          "index": 7
+        },
+        {
+          "abs_error": 5.8742603876010396e-09,
+          "analytic": -9.919366509712519e-06,
+          "finite_difference": -9.913492249324918e-06,
+          "index": 324
+        },
+        {
+          "abs_error": 7.495407496060924e-09,
+          "analytic": 0.023990785856505954,
+          "finite_difference": 0.02399079335191345,
+          "index": 660
+        },
+        {
+          "abs_error": 8.275175399790908e-10,
+          "analytic": 0.0002321777718545103,
+          "finite_difference": 0.0002321769443369703,
+          "index": 1281
+        }
+      ],
+      "individual_Noether": [
+        399.99999999999983,
+        400.00000000000006
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 37527.93195065897,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0015630395013396974,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.0036275495759343006
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": -1.70384539810442e-14,
+      "omega": [
+        0.83939430893732,
+        0.8393943089373241
+      ],
+      "optimizer": {
+        "gradient_inf": 2.6731184981156526e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 123,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.002152358519793101,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.8074374197896739,
+        "rotation_normalized_curvature": 0.009308338625830113,
+        "rotation_tangent_norm": 86.7434514628723
+      },
+      "scalar_equation_weighted_L2": [
+        1.0587978155299522e-06,
+        1.0178401979775485e-06
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 2.8507432844697242,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 0.5
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.2206752461708932,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 2.937380794374454e-06,
+        "translation_tangent_rayleigh": 0.006491709755133525
+      }
+    },
+    "seed6_18": {
+      "canonical_energy_NOT_J": 712.5557086168048,
+      "centers": [
+        1.4253704919589347,
+        -1.4253704919589412
+      ],
+      "electric_dipole": 132.40933115315838,
+      "free_coulomb_field_energy": 3.6472056665859833,
+      "free_coulomb_residual_inf": 2.1149748619109232e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.29935860957812305,
+        "Y_field_outer_shell_max_abs": 0.004557354613295971,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.086156815133453,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.22222374040914422,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.389332800733699,
+        "portal_alpha_P_max_abs_beta0": 0.003058221838543841
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 5.463176932108543e-09,
+          "analytic": -0.003138819471884345,
+          "finite_difference": -0.003138814008707413,
+          "index": 7
+        },
+        {
+          "abs_error": 3.1337085706474264e-09,
+          "analytic": -2.418760677860411e-07,
+          "finite_difference": -2.3874235921539366e-07,
+          "index": 324
+        },
+        {
+          "abs_error": 5.3035421387903625e-08,
+          "analytic": 71.90999352059129,
+          "finite_difference": 71.9099935736267,
+          "index": 660
+        },
+        {
+          "abs_error": 4.913066885969689e-10,
+          "analytic": -8.736342172217595e-06,
+          "finite_difference": -8.736833478906192e-06,
+          "index": 1281
+        }
+      ],
+      "individual_Noether": [
+        399.99999999999994,
+        399.99999999999994
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 37527.91225669108,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0015630372666674344,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.003627550822501951
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": 6.696899979008464e-15,
+      "omega": [
+        0.8393943102255242,
+        0.8393943102255255
+      ],
+      "optimizer": {
+        "gradient_inf": 1.8878660833160187e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 110,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.002152356704660302,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.8074353552637481,
+        "rotation_normalized_curvature": 0.00930833013887381,
+        "rotation_tangent_norm": 86.74330875864675
+      },
+      "scalar_equation_weighted_L2": [
+        7.740062569603747e-07,
+        7.607996641175061e-07
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 2.850740983917876,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 6
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.22067538526828398,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 2.1706237027500826e-06,
+        "translation_tangent_rayleigh": 0.00649170903356438
+      }
+    },
+    "selfquad12": {
+      "canonical_energy_NOT_J": 712.5560734805724,
+      "centers": [
+        1.42498165832487,
+        -1.424981658324879
+      ],
+      "electric_dipole": 132.37234242953414,
+      "free_coulomb_field_energy": 3.6456339061968177,
+      "free_coulomb_residual_inf": 2.120525977034049e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.2993180270949294,
+        "Y_field_outer_shell_max_abs": 0.004556681947766582,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.08220728906703,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.22218041625326052,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.38910475768947,
+        "portal_alpha_P_max_abs_beta0": 0.0030569763557278277
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 2.4819787874247323e-09,
+          "analytic": -0.013274851445235492,
+          "finite_difference": -0.013274853927214279,
+          "index": 7
+        },
+        {
+          "abs_error": 2.242161468371212e-09,
+          "analytic": -2.7875696856479635e-06,
+          "finite_difference": -2.7853275241795923e-06,
+          "index": 324
+        },
+        {
+          "abs_error": 1.2564433049533363e-08,
+          "analytic": 11.040031340540061,
+          "finite_difference": 11.040031353104494,
+          "index": 660
+        },
+        {
+          "abs_error": 2.8418777276914813e-09,
+          "analytic": 7.260325703318239e-05,
+          "finite_difference": 7.260609891091008e-05,
+          "index": 1281
+        }
+      ],
+      "individual_Noether": [
+        400.0,
+        400.00000000000006
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 37520.53152261295,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0015632919021850496,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.0036273273051515382
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": 5.700301342059788e-15,
+      "omega": [
+        0.8393936740732412,
+        0.8393936740732412
+      ],
+      "optimizer": {
+        "gradient_inf": 3.544595398131842e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 108,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.0021519692700407572,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.8072667403678317,
+        "rotation_normalized_curvature": 0.00931149507057863,
+        "rotation_tangent_norm": 86.69571687993893
+      },
+      "scalar_equation_weighted_L2": [
+        1.3040499523657764e-06,
+        1.3289007500528757e-06
+      ],
+      "self_quadrature_order": 12,
+      "source_separation": 2.849963316649749,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.22065367150746837,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 3.723720441577901e-06,
+        "translation_tangent_rayleigh": 0.006490436670131292
+      }
+    },
+    "selfquad4": {
+      "canonical_energy_NOT_J": 712.5538490008552,
+      "centers": [
+        1.4273430459609,
+        -1.4273430459608223
+      ],
+      "electric_dipole": 132.59698671570064,
+      "free_coulomb_field_energy": 3.6551736640569947,
+      "free_coulomb_residual_inf": 2.0650148258027912e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.2995636436456611,
+        "Y_field_outer_shell_max_abs": 0.004560754819986605,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.106123423036216,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.22244193316296423,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.39047897758725,
+        "portal_alpha_P_max_abs_beta0": 0.0030645282398017457
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 4.46731486525298e-09,
+          "analytic": -0.0132742014449244,
+          "finite_difference": -0.013274205912239266,
+          "index": 7
+        },
+        {
+          "abs_error": 2.1645886701699607e-09,
+          "analytic": -2.7874921128497623e-06,
+          "finite_difference": -2.7853275241795923e-06,
+          "index": 324
+        },
+        {
+          "abs_error": 2.141525534682387e-08,
+          "analytic": 11.03988652307969,
+          "finite_difference": 11.039886544494946,
+          "index": 660
+        },
+        {
+          "abs_error": 2.331438841925203e-09,
+          "analytic": 7.261411469163808e-05,
+          "finite_difference": 7.261178325279616e-05,
+          "index": 1281
+        }
+      ],
+      "individual_Noether": [
+        400.0,
+        399.99999999999994
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 37565.30746802657,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0015617557155864256,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.0036286925696099887
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": -1.641308616795456e-14,
+      "omega": [
+        0.8393975733416876,
+        0.8393975733416854
+      ],
+      "optimizer": {
+        "gradient_inf": 3.2032190140033955e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 98,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.0021543203259079867,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.8083032816399278,
+        "rotation_normalized_curvature": 0.009292452520547525,
+        "rotation_tangent_norm": 86.98492457751094
+      },
+      "scalar_equation_weighted_L2": [
+        1.2339959375479324e-06,
+        1.233816661910147e-06
+      ],
+      "self_quadrature_order": 4,
+      "source_separation": 2.8546860919217223,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.22078705690871225,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 3.49001405675788e-06,
+        "translation_tangent_rayleigh": 0.0064978845268162735
+      }
+    }
+  },
+  "complete_energy_SI": "NOT_AVAILABLE",
+  "fifty_percent_theory_gate": "NOT_MET",
+  "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_KERNEL; NOT_CONTINUUM_CERTIFIED",
+  "full_gauge_and_dynamic_spectral_stability": "NOT_CERTIFIED",
+  "parent_source_sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+  "physical_gates": {
+    "finer_mesh_rotation_softens": true,
+    "finer_mesh_translation_softens": true,
+    "fixed_h_Y_current_delta_below_0p005": true,
+    "fixed_h_separation_rel_below_0p2pct": true,
+    "g0_null_channel": true,
+    "selfquad8_to12_separation_delta_below_0p002": true,
+    "separation_lowers_same_action_energy": true,
+    "source_gradient_FD_below_3e_minus7": true
+  },
+  "physical_metric_and_earth_response": "NOT_DERIVED",
+  "source_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+  "timestamp_utc": "2026-11-16T18:23:01.043645+00:00"
+}

@@ -1,0 +1,368 @@
+{
+  "006D_replaced": false,
+  "50_percent_theory_gate": "NOT_MET",
+  "Earth_down_craft_up": "NOT_DERIVED",
+  "M5V_status": "FROZEN",
+  "SI_operating_energy": "NOT_AVAILABLE",
+  "branch": "PH15-P9-EXTERIOR_GAUSS_RESPONSE_DENSITY_HESSIAN",
+  "cases": {
+    "base18_L12": {
+      "X_Gauss_L2": 4.790251739498483e-15,
+      "X_dipole": 169.26179783126906,
+      "X_scalar_residuals": [
+        9.943458028372096e-07,
+        1.0760952374304087e-06
+      ],
+      "X_source_energy_CANONICAL_NOT_J": 712.2184278085014,
+      "angular_gauss_response_modes": [
+        {
+          "angular_basis_scope": "12_ENVELOPES_TWO_SPECIES_k_HARMONIC",
+          "basis_dimension": 12,
+          "dynamic_constraint_stability": "NOT_CERTIFIED",
+          "eigenpair_residual": 1.0716660566727707e-15,
+          "gram_condition": 22945.389571839816,
+          "highest_density_mode": 0.27787847011626915,
+          "k": 1,
+          "lowest_density_mode": 0.003290604898013721,
+          "lowest_mode_Q": 0.0032906048980136885,
+          "lowest_mode_Q_electric": 0.009699715833032625,
+          "lowest_mode_gauss_L2": 1.7996288465410574e-16,
+          "lowest_mode_norm": 0.9999999999999986,
+          "lowest_mode_source_L2": 0.09882661437545576,
+          "phase_amplitude_cross": "EXACT_ZERO_AT_QUADRATIC_ORDER_NO_BACKGROUND_SPATIAL_CURRENT",
+          "phase_sector": "NONNEGATIVE_STATIC_SPATIAL_GRADIENT_ENERGY"
+        },
+        {
+          "angular_basis_scope": "12_ENVELOPES_TWO_SPECIES_k_HARMONIC",
+          "basis_dimension": 12,
+          "dynamic_constraint_stability": "NOT_CERTIFIED",
+          "eigenpair_residual": 1.0931786361305639e-15,
+          "gram_condition": 26273.55006461317,
+          "highest_density_mode": 0.23849410344481234,
+          "k": 2,
+          "lowest_density_mode": 0.015517184630451954,
+          "lowest_mode_Q": 0.015517184630451977,
+          "lowest_mode_Q_electric": 0.004494684996302371,
+          "lowest_mode_gauss_L2": 9.512633222513115e-17,
+          "lowest_mode_norm": 1.0000000000000004,
+          "lowest_mode_source_L2": 0.08913854647514494,
+          "phase_amplitude_cross": "EXACT_ZERO_AT_QUADRATIC_ORDER_NO_BACKGROUND_SPATIAL_CURRENT",
+          "phase_sector": "NONNEGATIVE_STATIC_SPATIAL_GRADIENT_ENERGY"
+        },
+        {
+          "angular_basis_scope": "12_ENVELOPES_TWO_SPECIES_k_HARMONIC",
+          "basis_dimension": 12,
+          "dynamic_constraint_stability": "NOT_CERTIFIED",
+          "eigenpair_residual": 1.8098678541301877e-15,
+          "gram_condition": 28571.198623883032,
+          "highest_density_mode": 0.2147274776801533,
+          "k": 3,
+          "lowest_density_mode": 0.03982363759822838,
+          "lowest_mode_Q": 0.03982363759822813,
+          "lowest_mode_Q_electric": 0.0023447905644158494,
+          "lowest_mode_gauss_L2": 6.626154068067002e-17,
+          "lowest_mode_norm": 1.0000000000000004,
+          "lowest_mode_source_L2": 0.0805653363305862,
+          "phase_amplitude_cross": "EXACT_ZERO_AT_QUADRATIC_ORDER_NO_BACKGROUND_SPATIAL_CURRENT",
+          "phase_sector": "NONNEGATIVE_STATIC_SPATIAL_GRADIENT_ENERGY"
+        }
+      ],
+      "electrostatic_exterior": {
+        "E_dirichlet_electric_CANONICAL": 5.231647828397966,
+        "E_one_shot_corrected_electric_CANONICAL": 5.700181212784282,
+        "E_one_shot_free_space_ring_boundary_correction_CANONICAL": 0.4685333843863162,
+        "boundary_dipole_only_approx_rel_L2": 0.008146428046058779,
+        "boundary_free_ring_potential_L2": 0.4522450942366909,
+        "boundary_harmonic_solver_residual_L2": 1.3280245787310733e-15,
+        "dipole_X_canonical": 169.26179783126906,
+        "free_space_source_stationarity": "NOT_CERTIFIED",
+        "full_exterior_Y": "NOT_CERTIFIED",
+        "net_X_charge": 1.0581813203458523e-15,
+        "relative_electrostatic_correction": 0.08955751605508783,
+        "scope": "FROZEN_DENSITIES_FIXED_OMEGA_ONE_SHOT_RING_QUADRATURE"
+      },
+      "free_space_source_onshell": "NOT_SOLVED",
+      "full_mode_stability": "NOT_CERTIFIED",
+      "full_reciprocal_X_Y_matter": "NOT_SOLVED",
+      "independent_3D_Gauss_variation": {
+        "Gauss_up_L2": 6.578938467969194e-13,
+        "Noether_up": [
+          399.9999999999864,
+          400.00000000001387
+        ],
+        "Q_electric_from_linearized_Gauss": 0.1556993995593314,
+        "analytic_Q": 1.4184754188348985,
+        "direct_energy_delta_minus": 0.0017376544896023915,
+        "direct_energy_delta_plus": 0.0017376544896023915,
+        "independent_3D_Q": 1.4184934608999114,
+        "rel_error": 1.2719335684857462e-05,
+        "scope": "INDEPENDENT_3D_NONLINEAR_GAUSS_FIXED_N_FINITE_BOX"
+      },
+      "matched_independent_fd": {
+        "Gauss_source_L2": 8.54573691517229e-17,
+        "abs_error": 0.00016380697053097748,
+        "analytic_Q": 3.018652557125856,
+        "finite_angle_Q": 3.018816364096387,
+        "relative_error": 5.4264930273042986e-05
+      },
+      "net_charge": 7.105427357601002e-15,
+      "source_separation": 3.622494449727024,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 3.0
+      }
+    },
+    "larger24_L16": {
+      "X_Gauss_L2": 4.743385673162223e-15,
+      "X_dipole": 146.71315770471455,
+      "X_scalar_residuals": [
+        8.826297501652191e-07,
+        8.177283323623161e-07
+      ],
+      "X_source_energy_CANONICAL_NOT_J": 712.4079818866452,
+      "angular_gauss_response_modes": [
+        {
+          "angular_basis_scope": "12_ENVELOPES_TWO_SPECIES_k_HARMONIC",
+          "basis_dimension": 12,
+          "dynamic_constraint_stability": "NOT_CERTIFIED",
+          "eigenpair_residual": 8.845678026140575e-16,
+          "gram_condition": 22670.395396693708,
+          "highest_density_mode": 0.27405587220726363,
+          "k": 1,
+          "lowest_density_mode": 0.0032267947247584554,
+          "lowest_mode_Q": 0.003226794724758308,
+          "lowest_mode_Q_electric": 0.010508559476642497,
+          "lowest_mode_gauss_L2": 2.2013536255957602e-16,
+          "lowest_mode_norm": 1.0,
+          "lowest_mode_source_L2": 0.10082730663955718,
+          "phase_amplitude_cross": "EXACT_ZERO_AT_QUADRATIC_ORDER_NO_BACKGROUND_SPATIAL_CURRENT",
+          "phase_sector": "NONNEGATIVE_STATIC_SPATIAL_GRADIENT_ENERGY"
+        },
+        {
+          "angular_basis_scope": "12_ENVELOPES_TWO_SPECIES_k_HARMONIC",
+          "basis_dimension": 12,
+          "dynamic_constraint_stability": "NOT_CERTIFIED",
+          "eigenpair_residual": 2.3477673438473985e-15,
+          "gram_condition": 25795.44583721329,
+          "highest_density_mode": 0.23364788586179908,
+          "k": 2,
+          "lowest_density_mode": 0.015077977196828674,
+          "lowest_mode_Q": 0.01507797719682875,
+          "lowest_mode_Q_electric": 0.004757871278765609,
+          "lowest_mode_gauss_L2": 1.1821875950962037e-16,
+          "lowest_mode_norm": 0.9999999999999978,
+          "lowest_mode_source_L2": 0.09142622582667935,
+          "phase_amplitude_cross": "EXACT_ZERO_AT_QUADRATIC_ORDER_NO_BACKGROUND_SPATIAL_CURRENT",
+          "phase_sector": "NONNEGATIVE_STATIC_SPATIAL_GRADIENT_ENERGY"
+        },
+        {
+          "angular_basis_scope": "12_ENVELOPES_TWO_SPECIES_k_HARMONIC",
+          "basis_dimension": 12,
+          "dynamic_constraint_stability": "NOT_CERTIFIED",
+          "eigenpair_residual": 1.791901337485521e-15,
+          "gram_condition": 27782.409903530253,
+          "highest_density_mode": 0.2101750620351208,
+          "k": 3,
+          "lowest_density_mode": 0.03932536360511546,
+          "lowest_mode_Q": 0.039325363605115356,
+          "lowest_mode_Q_electric": 0.002473006186432953,
+          "lowest_mode_gauss_L2": 5.876465461845627e-17,
+          "lowest_mode_norm": 1.0000000000000004,
+          "lowest_mode_source_L2": 0.08295353060904784,
+          "phase_amplitude_cross": "EXACT_ZERO_AT_QUADRATIC_ORDER_NO_BACKGROUND_SPATIAL_CURRENT",
+          "phase_sector": "NONNEGATIVE_STATIC_SPATIAL_GRADIENT_ENERGY"
+        }
+      ],
+      "electrostatic_exterior": {
+        "E_dirichlet_electric_CANONICAL": 4.263662386632176,
+        "E_one_shot_corrected_electric_CANONICAL": 4.4119273538900154,
+        "E_one_shot_free_space_ring_boundary_correction_CANONICAL": 0.14826496725783958,
+        "boundary_dipole_only_approx_rel_L2": 0.0030002496078888673,
+        "boundary_free_ring_potential_L2": 0.25378899569683,
+        "boundary_harmonic_solver_residual_L2": 8.907732997439309e-16,
+        "dipole_X_canonical": 146.71315770471455,
+        "free_space_source_stationarity": "NOT_CERTIFIED",
+        "full_exterior_Y": "NOT_CERTIFIED",
+        "net_X_charge": -2.7755575615628914e-15,
+        "relative_electrostatic_correction": 0.03477408711409549,
+        "scope": "FROZEN_DENSITIES_FIXED_OMEGA_ONE_SHOT_RING_QUADRATURE"
+      },
+      "free_space_source_onshell": "NOT_SOLVED",
+      "full_mode_stability": "NOT_CERTIFIED",
+      "full_reciprocal_X_Y_matter": "NOT_SOLVED",
+      "independent_3D_Gauss_variation": "NOT_RUN_THIS_CONFIGURATION",
+      "matched_independent_fd": {
+        "Gauss_source_L2": 8.680313645337479e-17,
+        "abs_error": 0.0001556246435896469,
+        "analytic_Q": 3.5333017514356513,
+        "finite_angle_Q": 3.533457376079241,
+        "relative_error": 4.404510413706202e-05
+      },
+      "net_charge": 0.0,
+      "source_separation": 3.151499153472773,
+      "spec": {
+        "L": 16,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 24,
+        "seed_separation": 3.0
+      }
+    },
+    "larger30_L20": {
+      "X_Gauss_L2": 5.481122848478482e-15,
+      "X_dipole": 138.89400164453866,
+      "X_scalar_residuals": [
+        8.784607194541554e-07,
+        8.902138452011815e-07
+      ],
+      "X_source_energy_CANONICAL_NOT_J": 712.4761789316278,
+      "angular_gauss_response_modes": [
+        {
+          "angular_basis_scope": "12_ENVELOPES_TWO_SPECIES_k_HARMONIC",
+          "basis_dimension": 12,
+          "dynamic_constraint_stability": "NOT_CERTIFIED",
+          "eigenpair_residual": 1.425377006100685e-15,
+          "gram_condition": 22597.965074625066,
+          "highest_density_mode": 0.27372590518336365,
+          "k": 1,
+          "lowest_density_mode": 0.003216395462510887,
+          "lowest_mode_Q": 0.0032163954625108477,
+          "lowest_mode_Q_electric": 0.010788863410114603,
+          "lowest_mode_gauss_L2": 2.2720228303303036e-16,
+          "lowest_mode_norm": 0.9999999999999997,
+          "lowest_mode_source_L2": 0.10151361055781044,
+          "phase_amplitude_cross": "EXACT_ZERO_AT_QUADRATIC_ORDER_NO_BACKGROUND_SPATIAL_CURRENT",
+          "phase_sector": "NONNEGATIVE_STATIC_SPATIAL_GRADIENT_ENERGY"
+        },
+        {
+          "angular_basis_scope": "12_ENVELOPES_TWO_SPECIES_k_HARMONIC",
+          "basis_dimension": 12,
+          "dynamic_constraint_stability": "NOT_CERTIFIED",
+          "eigenpair_residual": 1.8001047556827143e-15,
+          "gram_condition": 25701.396401637772,
+          "highest_density_mode": 0.23265070651152184,
+          "k": 2,
+          "lowest_density_mode": 0.014933835705098413,
+          "lowest_mode_Q": 0.014933835705098215,
+          "lowest_mode_Q_electric": 0.004835392389441748,
+          "lowest_mode_gauss_L2": 1.034045434287745e-16,
+          "lowest_mode_norm": 0.9999999999999986,
+          "lowest_mode_source_L2": 0.09221179563338255,
+          "phase_amplitude_cross": "EXACT_ZERO_AT_QUADRATIC_ORDER_NO_BACKGROUND_SPATIAL_CURRENT",
+          "phase_sector": "NONNEGATIVE_STATIC_SPATIAL_GRADIENT_ENERGY"
+        },
+        {
+          "angular_basis_scope": "12_ENVELOPES_TWO_SPECIES_k_HARMONIC",
+          "basis_dimension": 12,
+          "dynamic_constraint_stability": "NOT_CERTIFIED",
+          "eigenpair_residual": 1.8734499541357647e-15,
+          "gram_condition": 27675.65120903571,
+          "highest_density_mode": 0.20909836051301967,
+          "k": 3,
+          "lowest_density_mode": 0.03919822719909451,
+          "lowest_mode_Q": 0.039198227199094555,
+          "lowest_mode_Q_electric": 0.0025150690161497456,
+          "lowest_mode_gauss_L2": 6.371320668477088e-17,
+          "lowest_mode_norm": 0.9999999999999999,
+          "lowest_mode_source_L2": 0.08382609561144366,
+          "phase_amplitude_cross": "EXACT_ZERO_AT_QUADRATIC_ORDER_NO_BACKGROUND_SPATIAL_CURRENT",
+          "phase_sector": "NONNEGATIVE_STATIC_SPATIAL_GRADIENT_ENERGY"
+        }
+      ],
+      "electrostatic_exterior": {
+        "E_dirichlet_electric_CANONICAL": 3.926692090813329,
+        "E_one_shot_corrected_electric_CANONICAL": 3.9946916169137783,
+        "E_one_shot_free_space_ring_boundary_correction_CANONICAL": 0.06799952610044943,
+        "boundary_dipole_only_approx_rel_L2": 0.0015859450714354889,
+        "boundary_free_ring_potential_L2": 0.17176405958867175,
+        "boundary_harmonic_solver_residual_L2": 6.793283865890054e-16,
+        "dipole_X_canonical": 138.89400164453866,
+        "free_space_source_stationarity": "NOT_CERTIFIED",
+        "full_exterior_Y": "NOT_CERTIFIED",
+        "net_X_charge": 1.842276331487369e-14,
+        "relative_electrostatic_correction": 0.017317254454337624,
+        "scope": "FROZEN_DENSITIES_FIXED_OMEGA_ONE_SHOT_RING_QUADRATURE"
+      },
+      "free_space_source_onshell": "NOT_SOLVED",
+      "full_mode_stability": "NOT_CERTIFIED",
+      "full_reciprocal_X_Y_matter": "NOT_SOLVED",
+      "independent_3D_Gauss_variation": "NOT_RUN_THIS_CONFIGURATION",
+      "matched_independent_fd": {
+        "Gauss_source_L2": 7.669859786990872e-17,
+        "abs_error": 0.00015242433947371126,
+        "analytic_Q": 3.7083543270705412,
+        "finite_angle_Q": 3.708506751410015,
+        "relative_error": 4.110295997365513e-05
+      },
+      "net_charge": 7.105427357601002e-15,
+      "source_separation": 2.9873674197658886,
+      "spec": {
+        "L": 20,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 30,
+        "seed_separation": 3.0
+      }
+    },
+    "refine27_L12": {
+      "X_Gauss_L2": 1.626153326669828e-14,
+      "X_dipole": 169.9308659633956,
+      "X_scalar_residuals": [
+        1.312174868136465e-06,
+        1.2979654584261465e-06
+      ],
+      "X_source_energy_CANONICAL_NOT_J": 712.5265876695139,
+      "angular_gauss_response_modes": [],
+      "electrostatic_exterior": {
+        "E_dirichlet_electric_CANONICAL": 5.241809905033251,
+        "E_one_shot_corrected_electric_CANONICAL": 5.713921307546009,
+        "E_one_shot_free_space_ring_boundary_correction_CANONICAL": 0.4721114025127578,
+        "boundary_dipole_only_approx_rel_L2": 0.00794295936285591,
+        "boundary_free_ring_potential_L2": 0.5559846454169595,
+        "boundary_harmonic_solver_residual_L2": 4.894453426793021e-15,
+        "dipole_X_canonical": 169.9308659633956,
+        "free_space_source_stationarity": "NOT_CERTIFIED",
+        "full_exterior_Y": "NOT_CERTIFIED",
+        "net_X_charge": -5.908061583362323e-15,
+        "relative_electrostatic_correction": 0.09006648677958172,
+        "scope": "FROZEN_DENSITIES_FIXED_OMEGA_ONE_SHOT_RING_QUADRATURE"
+      },
+      "free_space_source_onshell": "NOT_SOLVED",
+      "full_mode_stability": "NOT_CERTIFIED",
+      "full_reciprocal_X_Y_matter": "NOT_SOLVED",
+      "independent_3D_Gauss_variation": "NOT_RUN_THIS_CONFIGURATION",
+      "matched_independent_fd": {
+        "Gauss_source_L2": 8.673588206279975e-17,
+        "abs_error": 0.0001656785623413981,
+        "analytic_Q": 2.977941940035543,
+        "finite_angle_Q": 2.9781076185978845,
+        "relative_error": 5.563525605184252e-05
+      },
+      "net_charge": -7.105427357601002e-15,
+      "source_separation": 3.6361556728551463,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 27,
+        "seed_separation": 3.0
+      }
+    }
+  },
+  "full_physical_metric": "NOT_SOLVED",
+  "fully_reciprocal_X_Y_matter": "NOT_SOLVED",
+  "kinetic_and_dynamic_mode_health": "NOT_CERTIFIED",
+  "on_shell_free_space_X": "NOT_SOLVED",
+  "parent_source_sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+  "phase_amplitude_cross_theorem": "ZERO_STATIC_QUADRATIC_UNDER_ZERO_BACKGROUND_SPATIAL_CURRENT",
+  "physics_scope": "X_ONLY_STATIONARY_FINITE_BOX_P8; ONE_SHOT_FREE_SPACE_FIELD; GAUSS_RELAXED_STATIC_DENSITY_MODES",
+  "source_sha256": "eedc18d8710413b5d06f6fdd90b968902fa3048c1e81c8da75cd3f4ad3fd8e74",
+  "utc": "2026-11-16T02:28:33.455285+00:00"
+}

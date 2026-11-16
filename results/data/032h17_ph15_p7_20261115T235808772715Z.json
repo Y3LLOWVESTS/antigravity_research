@@ -1,0 +1,1401 @@
+{
+  "006D_replaced": false,
+  "Earth_down_craft_up": "NOT_DERIVED",
+  "M5V_status": "FROZEN",
+  "branch": "PH15-P7-EXACT_GAUSS_NOETHER_J_AMPLITUDE_PHASE",
+  "cases": {
+    "mirror_asym24": {
+      "Ampere_L2": 7.132467912922308e-16,
+      "Gauss_L2": 9.096448816198906e-16,
+      "Jz": -800.0000000000066,
+      "Noether": [
+        799.9999999999975,
+        800.000000000002
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -20.928671649311468,
+        "dipole_method_rel_err": 0.014774770017291834,
+        "electric_source_norm": 0.08720561956602853,
+        "magnetic_source_norm": 0.1956290316394256
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.3648318333299216,
+          "Q_density": 0.1373834568825817,
+          "Q_phase": 0.5179805535390033,
+          "Q_total": -0.7094678229083367,
+          "coupled_eigen": -0.0059898079501822495,
+          "density_eigen": 0.0008963955076163402,
+          "eigen_residual": 3.5875211803828446e-15,
+          "gram_condition": 118563.58302755408,
+          "independent_3D_angles": [
+            {
+              "N": [
+                799.9999999999977,
+                800.0000000000019
+              ],
+              "Q_difference": 0.0006399239185976846,
+              "Q_independent": -0.708827898989739,
+              "Q_predicted": -0.7094678229083367,
+              "delta_E": -0.0011341246383835824,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": -2.1316282072803006e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": -800.0000000000064
+            },
+            {
+              "N": [
+                799.9999999999974,
+                800.0000000000019
+              ],
+              "Q_difference": 0.002563465315872815,
+              "Q_independent": -0.7069043575924638,
+              "Q_predicted": -0.7094678229083367,
+              "delta_E": -0.004524187888591769,
+              "max_pointwise_Gauss_delta": 1.734723475976807e-17,
+              "net_charge": -2.2737367544323206e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": -800.0000000000061
+            },
+            {
+              "N": [
+                799.9999999999975,
+                800.0000000000019
+              ],
+              "Q_difference": 0.005781999657631154,
+              "Q_independent": -0.7036858232507055,
+              "Q_predicted": -0.7094678229083367,
+              "delta_E": -0.010133075854810158,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": -2.2026824808563106e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": -800.0000000000064
+            }
+          ],
+          "k": 1,
+          "phase_eigen": 0.018583124576589526,
+          "schur_eigen": -0.008437839546006576
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.8212926598621975,
+          "Q_density": 0.7124591287133892,
+          "Q_phase": 0.8739020481625643,
+          "Q_total": -0.2349314829862439,
+          "coupled_eigen": -0.0024631480387770693,
+          "density_eigen": 0.007874841343417783,
+          "eigen_residual": 1.4477575530170487e-14,
+          "gram_condition": 336415.6560365675,
+          "independent_3D_angles": [
+            {
+              "N": [
+                799.9999999999976,
+                800.0000000000022
+              ],
+              "Q_difference": 0.0005698205361883701,
+              "Q_independent": -0.23436166245005552,
+              "Q_predicted": -0.2349314829862439,
+              "delta_E": -0.00037497865992008883,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": -2.2737367544323206e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": -800.000000000006
+            },
+            {
+              "N": [
+                799.999999999998,
+                800.0000000000025
+              ],
+              "Q_difference": 0.002282393197649224,
+              "Q_independent": -0.23264908978859467,
+              "Q_predicted": -0.2349314829862439,
+              "delta_E": -0.0014889541746470059,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": -2.2737367544323206e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": -800.0000000000065
+            },
+            {
+              "N": [
+                799.9999999999975,
+                800.000000000002
+              ],
+              "Q_difference": 0.005147099639095265,
+              "Q_independent": -0.22978438334714862,
+              "Q_predicted": -0.2349314829862439,
+              "delta_E": -0.0033088951201989403,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": -2.2737367544323206e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": -800.0000000000065
+            }
+          ],
+          "k": 2,
+          "phase_eigen": 0.056553498822868725,
+          "schur_eigen": -0.0029410559591694944
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.7054210868183257,
+          "Q_density": 1.327526105617325,
+          "Q_phase": 0.9089633178354204,
+          "Q_total": 0.5310683366344198,
+          "coupled_eigen": 0.0070601919699712756,
+          "density_eigen": 0.018750611360058518,
+          "eigen_residual": 1.2994630678647065e-14,
+          "gram_condition": 1120156.18623274,
+          "k": 3,
+          "phase_eigen": 0.1081519073558095,
+          "schur_eigen": 0.00783999243073531
+        }
+      ],
+      "energy_canonical_NOT_J": 1554.0797793530583,
+      "gradient_inf": 1.890594178788404e-06,
+      "net_charge": -2.2737367544323206e-13,
+      "scalar_EOM_L2": [
+        6.637954302839612e-07,
+        2.1120945997509867e-06
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 24,
+        "wind": 1
+      },
+      "winding": [
+        1,
+        -2
+      ]
+    },
+    "mirror_asym36": {
+      "Ampere_L2": 2.394287268298919e-15,
+      "Gauss_L2": 2.9638068424391592e-15,
+      "Jz": -800.0000000000059,
+      "Noether": [
+        799.9999999999975,
+        800.0000000000017
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -20.890252771733945,
+        "dipole_method_rel_err": 0.007023019307783662,
+        "electric_source_norm": 0.08956079523747848,
+        "magnetic_source_norm": 0.20092100118964062
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.3687613777147525,
+          "Q_density": 0.09113469445670086,
+          "Q_phase": 0.5115618229603237,
+          "Q_total": -0.7660648602977279,
+          "coupled_eigen": -0.006422301831673295,
+          "density_eigen": 0.0003939565850599894,
+          "eigen_residual": 4.6266924959327505e-15,
+          "gram_condition": 115334.68924633677,
+          "k": 1,
+          "phase_eigen": 0.018724159223107155,
+          "schur_eigen": -0.008998714972391329
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.825138486273313,
+          "Q_density": 0.6738140854720442,
+          "Q_phase": 0.8689210553249713,
+          "Q_total": -0.28240334547629753,
+          "coupled_eigen": -0.0029544613068956177,
+          "density_eigen": 0.0073724334715230475,
+          "eigen_residual": 8.35290385307701e-15,
+          "gram_condition": 326878.5272222345,
+          "k": 2,
+          "phase_eigen": 0.056804096438368396,
+          "schur_eigen": -0.0035245652077039915
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.685393747346557,
+          "Q_density": 1.2779366284314941,
+          "Q_phase": 0.8939090722667626,
+          "Q_total": 0.4864519533517,
+          "coupled_eigen": 0.006553596969356307,
+          "density_eigen": 0.01826196608519735,
+          "eigen_residual": 1.5547220247582278e-14,
+          "gram_condition": 1089703.0042541684,
+          "k": 3,
+          "phase_eigen": 0.10853130995415687,
+          "schur_eigen": 0.007276421439801799
+        }
+      ],
+      "energy_canonical_NOT_J": 1555.089794597763,
+      "gradient_inf": 2.8011046413006187e-06,
+      "net_charge": -2.0605739337042905e-13,
+      "scalar_EOM_L2": [
+        1.6466146978658266e-06,
+        4.095678806176389e-06
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 36,
+        "wind": 1
+      },
+      "winding": [
+        1,
+        -2
+      ]
+    },
+    "null_nonwind24": {
+      "Ampere_L2": 0.0,
+      "Gauss_L2": 0.0,
+      "Jz": 0.0,
+      "Noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": 0.0,
+        "dipole_method_rel_err": 0.0,
+        "electric_source_norm": 0.0,
+        "magnetic_source_norm": 0.0
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": 0.0,
+          "Q_density": 0.36156685745615347,
+          "Q_phase": 0.0,
+          "Q_total": 0.36156685745615347,
+          "coupled_eigen": 0.0036665904507403777,
+          "density_eigen": 0.0036665904507401756,
+          "eigen_residual": 1.2021561721060084e-15,
+          "gram_condition": 41078.63018632001,
+          "k": 1,
+          "phase_eigen": 0.05526471406192871,
+          "schur_eigen": 0.0036665904507401756
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": 0.0,
+          "Q_density": 1.1881944531913629,
+          "Q_phase": 0.0,
+          "Q_total": 1.1881944531913629,
+          "coupled_eigen": 0.014320694999294822,
+          "density_eigen": 0.014320694999294857,
+          "eigen_residual": 3.1381238779641565e-16,
+          "gram_condition": 23667.131869123325,
+          "k": 2,
+          "phase_eigen": 0.13133858636625007,
+          "schur_eigen": 0.014320694999294857
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": 0.0,
+          "Q_density": 2.074101168559072,
+          "Q_phase": 0.0,
+          "Q_total": 2.074101168559072,
+          "coupled_eigen": 0.030818674324087532,
+          "density_eigen": 0.030818674324087525,
+          "eigen_residual": 2.8662335771926897e-16,
+          "gram_condition": 25118.936360732456,
+          "k": 3,
+          "phase_eigen": 0.22262583637615505,
+          "schur_eigen": 0.030818674324087525
+        }
+      ],
+      "energy_canonical_NOT_J": 1336.5850854301832,
+      "gradient_inf": 2.6372766749945933e-07,
+      "net_charge": 0.0,
+      "scalar_EOM_L2": [
+        6.19444473239104e-07,
+        6.19444473239104e-07
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 24,
+        "wind": 1
+      },
+      "winding": [
+        0,
+        0
+      ]
+    },
+    "old_asym24": {
+      "Ampere_L2": 5.494424333750556e-16,
+      "Gauss_L2": 8.573971169529698e-17,
+      "Jz": 3.183231456205249e-12,
+      "Noether": [
+        800.0000000000018,
+        799.9999999999986
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -17.51540775290369,
+        "dipole_method_rel_err": 0.02132461326996386,
+        "electric_source_norm": 0.13448157779084555,
+        "magnetic_source_norm": 0.01423008588695035
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.3883073154217185,
+          "Q_density": -0.47936977582858775,
+          "Q_phase": 0.5262640364026738,
+          "Q_total": -1.3414130548476324,
+          "coupled_eigen": -0.008530239563168321,
+          "density_eigen": -0.004256618154060963,
+          "eigen_residual": 6.168623811770842e-15,
+          "gram_condition": 33539.18144321443,
+          "independent_3D_angles": [
+            {
+              "N": [
+                800.0000000000019,
+                799.9999999999984
+              ],
+              "Q_difference": 0.0008179360570439442,
+              "Q_independent": -1.3405951187905885,
+              "Q_predicted": -1.3414130548476324,
+              "delta_E": -0.0021449521900649415,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 1.7763568394002505e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": 3.1938895972416503e-12
+            },
+            {
+              "N": [
+                800.0000000000018,
+                799.9999999999985
+              ],
+              "Q_difference": 0.0032761127947624757,
+              "Q_independent": -1.33813694205287,
+              "Q_predicted": -1.3414130548476324,
+              "delta_E": -0.008564076429138368,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 1.6342482922482304e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": 3.183231456205249e-12
+            },
+            {
+              "N": [
+                800.0000000000018,
+                799.9999999999985
+              ],
+              "Q_difference": 0.007387710778324452,
+              "Q_independent": -1.334025344069308,
+              "Q_predicted": -1.3414130548476324,
+              "delta_E": -0.019209964954598036,
+              "max_pointwise_Gauss_delta": 1.734723475976807e-17,
+              "net_charge": 1.6342482922482304e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": 3.2081004519568523e-12
+            }
+          ],
+          "k": 1,
+          "phase_eigen": 0.025280245200259486,
+          "schur_eigen": -0.010241839297570152
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.4068446400752352,
+          "Q_density": 0.4528062040989598,
+          "Q_phase": 0.6853777303847712,
+          "Q_total": -0.26866070559150423,
+          "coupled_eigen": -0.002123683317235508,
+          "density_eigen": 0.003224497288217156,
+          "eigen_residual": 1.7750590662505155e-14,
+          "gram_condition": 51107.533023983204,
+          "independent_3D_angles": [
+            {
+              "N": [
+                800.0000000000016,
+                799.9999999999987
+              ],
+              "Q_difference": 0.0008134587738946042,
+              "Q_independent": -0.26784724681760963,
+              "Q_predicted": -0.26866070559150423,
+              "delta_E": -0.0004285555949081754,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 1.4210854715202004e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": 3.1796787425264483e-12
+            },
+            {
+              "N": [
+                800.000000000002,
+                799.9999999999985
+              ],
+              "Q_difference": 0.0032579582744924895,
+              "Q_independent": -0.26540274731701174,
+              "Q_predicted": -0.26866070559150423,
+              "delta_E": -0.0016985775828288752,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 1.7763568394002505e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": 3.204547738278052e-12
+            },
+            {
+              "N": [
+                800.0000000000023,
+                799.9999999999983
+              ],
+              "Q_difference": 0.0073459397912475355,
+              "Q_independent": -0.2613147658002567,
+              "Q_predicted": -0.26866070559150423,
+              "delta_E": -0.0037629326275236963,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 1.9895196601282805e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": 3.197442310920451e-12
+            }
+          ],
+          "k": 2,
+          "phase_eigen": 0.07719874514882905,
+          "schur_eigen": -0.0022811601986867775
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.242650705716437,
+          "Q_density": 1.5103160677943381,
+          "Q_phase": 0.6601211967140853,
+          "Q_total": 0.9277865587919862,
+          "coupled_eigen": 0.008796204660406098,
+          "density_eigen": 0.014570915874291438,
+          "eigen_residual": 1.6278146743833328e-14,
+          "gram_condition": 129639.082674129,
+          "k": 3,
+          "phase_eigen": 0.14494928334467921,
+          "schur_eigen": 0.009155826772840424
+        }
+      ],
+      "energy_canonical_NOT_J": 1514.584205102688,
+      "gradient_inf": 5.582145300606644e-07,
+      "net_charge": 1.5631940186722204e-13,
+      "scalar_EOM_L2": [
+        6.211891765004321e-07,
+        7.524246638295633e-07
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 24,
+        "wind": 1
+      },
+      "winding": [
+        1,
+        -1
+      ]
+    },
+    "old_asym36": {
+      "Ampere_L2": 1.8712443543058198e-15,
+      "Gauss_L2": 2.4325142119272066e-16,
+      "Jz": 3.183231456205249e-12,
+      "Noether": [
+        800.0000000000016,
+        799.9999999999984
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -17.429353155761753,
+        "dipole_method_rel_err": 0.009830250818025138,
+        "electric_source_norm": 0.13820264639972163,
+        "magnetic_source_norm": 0.01490371165285889
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.3247777213396008,
+          "Q_density": -0.5234782306347308,
+          "Q_phase": 0.4983043898858496,
+          "Q_total": -1.3499515620884819,
+          "coupled_eigen": -0.008847790709908251,
+          "density_eigen": -0.004639489547864113,
+          "eigen_residual": 5.152482957193416e-15,
+          "gram_condition": 33160.46237631398,
+          "independent_3D_angles": [
+            {
+              "N": [
+                800.0000000000016,
+                799.9999999999986
+              ],
+              "Q_difference": 0.0007699670567586914,
+              "Q_independent": -1.3491815950317232,
+              "Q_predicted": -1.3499515620884819,
+              "delta_E": -0.002158690552050757,
+              "max_pointwise_Gauss_delta": 2.0816681711721685e-17,
+              "net_charge": 1.4921397450962104e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": 3.2365221613872563e-12
+            },
+            {
+              "N": [
+                800.0000000000018,
+                799.9999999999983
+              ],
+              "Q_difference": 0.0030838345543640067,
+              "Q_independent": -1.3468677275341179,
+              "Q_predicted": -1.3499515620884819,
+              "delta_E": -0.008619953456218354,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 1.7763568394002505e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": 3.1938895972416503e-12
+            },
+            {
+              "N": [
+                800.0000000000016,
+                799.9999999999983
+              ],
+              "Q_difference": 0.006953564753853225,
+              "Q_independent": -1.3429979973346287,
+              "Q_predicted": -1.3499515620884819,
+              "delta_E": -0.01933917116161865,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 1.7053025658242404e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": 3.218758592993254e-12
+            }
+          ],
+          "k": 1,
+          "phase_eigen": 0.025452874869910498,
+          "schur_eigen": -0.010578038315707208
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.3914022325659134,
+          "Q_density": 0.4063363437911933,
+          "Q_phase": 0.6751092394982898,
+          "Q_total": -0.3099566492764303,
+          "coupled_eigen": -0.002464750158177215,
+          "density_eigen": 0.002865832330014518,
+          "eigen_residual": 8.628940155775016e-15,
+          "gram_condition": 50711.96080261625,
+          "independent_3D_angles": [
+            {
+              "N": [
+                800.0000000000018,
+                799.9999999999984
+              ],
+              "Q_difference": 0.0007974015986043081,
+              "Q_independent": -0.309159247677826,
+              "Q_predicted": -0.3099566492764303,
+              "delta_E": -0.0004946547962845216,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 1.7053025658242404e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": 3.147704319417244e-12
+            },
+            {
+              "N": [
+                800.0000000000015,
+                799.9999999999987
+              ],
+              "Q_difference": 0.003193585969527346,
+              "Q_independent": -0.30676306330690295,
+              "Q_predicted": -0.3099566492764303,
+              "delta_E": -0.001963283605164179,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 1.3500311979441904e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": 3.1512570330960443e-12
+            },
+            {
+              "N": [
+                800.0000000000017,
+                799.9999999999983
+              ],
+              "Q_difference": 0.007200554679942517,
+              "Q_independent": -0.3027560945964878,
+              "Q_predicted": -0.3099566492764303,
+              "delta_E": -0.004359687762189424,
+              "max_pointwise_Gauss_delta": 2.0816681711721685e-17,
+              "net_charge": 1.7053025658242404e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": 3.2578384434600594e-12
+            }
+          ],
+          "k": 2,
+          "phase_eigen": 0.07744151661402009,
+          "schur_eigen": -0.0026462052216729842
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.2499676935935544,
+          "Q_density": 1.4873210794933942,
+          "Q_phase": 0.6624928474534529,
+          "Q_total": 0.8998462333532928,
+          "coupled_eigen": 0.00848481593517912,
+          "density_eigen": 0.014265613749579444,
+          "eigen_residual": 1.6957163023772955e-14,
+          "gram_condition": 129083.87576122118,
+          "k": 3,
+          "phase_eigen": 0.1452288561435584,
+          "schur_eigen": 0.008831442717532337
+        }
+      ],
+      "energy_canonical_NOT_J": 1515.480455883137,
+      "gradient_inf": 3.236683829520794e-07,
+      "net_charge": 1.6342482922482304e-13,
+      "scalar_EOM_L2": [
+        7.376961068302704e-07,
+        6.338251392170807e-07
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 36,
+        "wind": 1
+      },
+      "winding": [
+        1,
+        -1
+      ]
+    },
+    "old_asym48": {
+      "Ampere_L2": 4.701847431712051e-15,
+      "Gauss_L2": 6.109570390928441e-16,
+      "Jz": 2.9558577807620168e-12,
+      "Noether": [
+        800.0000000000016,
+        799.9999999999986
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -17.398914718234252,
+        "dipole_method_rel_err": 0.005578625608604227,
+        "electric_source_norm": 0.1398005912394888,
+        "magnetic_source_norm": 0.015230062064489605
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.3276341561222762,
+          "Q_density": -0.5458988550591377,
+          "Q_phase": 0.49822984251138874,
+          "Q_total": -1.3753031686700252,
+          "coupled_eigen": -0.008945571483175702,
+          "density_eigen": -0.004758161383565026,
+          "eigen_residual": 8.86929336689164e-15,
+          "gram_condition": 33031.44248482628,
+          "k": 1,
+          "phase_eigen": 0.025514216897871304,
+          "schur_eigen": -0.010679931379802336
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.3855799304980034,
+          "Q_density": 0.39182897825433916,
+          "Q_phase": 0.6714533732817913,
+          "Q_total": -0.32229757896187294,
+          "coupled_eigen": -0.002569468713437657,
+          "density_eigen": 0.002755793883200233,
+          "eigen_residual": 1.2566454211142348e-14,
+          "gram_condition": 50577.357801617,
+          "k": 2,
+          "phase_eigen": 0.0775279631645475,
+          "schur_eigen": -0.002758179435968483
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.239474186215217,
+          "Q_density": 1.4652172345629957,
+          "Q_phase": 0.6564764772447371,
+          "Q_total": 0.8822195255925158,
+          "coupled_eigen": 0.008390837795071436,
+          "density_eigen": 0.014174233116545715,
+          "eigen_residual": 1.121786221121319e-14,
+          "gram_condition": 128895.54286413694,
+          "k": 3,
+          "phase_eigen": 0.1453290602477661,
+          "schur_eigen": 0.008733549361933698
+        }
+      ],
+      "energy_canonical_NOT_J": 1515.7886166538492,
+      "gradient_inf": 5.972272874633491e-07,
+      "net_charge": 1.4921397450962104e-13,
+      "scalar_EOM_L2": [
+        1.1161411416431877e-06,
+        1.0397448563723316e-06
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 48,
+        "wind": 1
+      },
+      "winding": [
+        1,
+        -1
+      ]
+    },
+    "old_sym24": {
+      "Ampere_L2": 6.015201063136112e-16,
+      "Gauss_L2": 0.0,
+      "Jz": 0.0,
+      "Noether": [
+        799.9999999999999,
+        799.9999999999999
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -17.532559554253453,
+        "dipole_method_rel_err": 0.020916445243853717,
+        "electric_source_norm": 0.12628202214697215,
+        "magnetic_source_norm": 0.0
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.5025633770464595,
+          "Q_density": -0.6148734592878338,
+          "Q_phase": 0.5688784947699513,
+          "Q_total": -1.548558341564342,
+          "coupled_eigen": -0.008361965967141649,
+          "density_eigen": -0.0044689822933936425,
+          "eigen_residual": 4.154658741255187e-15,
+          "gram_condition": 32148.593276110783,
+          "k": 1,
+          "phase_eigen": 0.02473200301780864,
+          "schur_eigen": -0.009930930886671772
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.5594687920166737,
+          "Q_density": 0.4664181513789174,
+          "Q_phase": 0.7582180097843859,
+          "Q_total": -0.33483263085337023,
+          "coupled_eigen": -0.002232415796536719,
+          "density_eigen": 0.002763170736657061,
+          "eigen_residual": 9.691617541643907e-15,
+          "gram_condition": 51660.81345446745,
+          "k": 2,
+          "phase_eigen": 0.07542026306418757,
+          "schur_eigen": -0.002390657015391541
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -1.4231937124502323,
+          "Q_density": 1.7193682398651173,
+          "Q_phase": 0.7541544523802006,
+          "Q_total": 1.0503289797950857,
+          "coupled_eigen": 0.00825007805656182,
+          "density_eigen": 0.01373353309763672,
+          "eigen_residual": 3.0254139786626577e-14,
+          "gram_condition": 135254.99775933658,
+          "k": 3,
+          "phase_eigen": 0.14173357994799088,
+          "schur_eigen": 0.008577362943063388
+        }
+      ],
+      "energy_canonical_NOT_J": 1438.3278456815801,
+      "gradient_inf": 4.6124705103544714e-07,
+      "net_charge": 0.0,
+      "scalar_EOM_L2": [
+        6.234715198773205e-07,
+        6.234715198773205e-07
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.0,
+        "n": 24,
+        "wind": 1
+      },
+      "winding": [
+        1,
+        -1
+      ]
+    },
+    "spin_asym24": {
+      "Ampere_L2": 7.305719419827569e-16,
+      "Gauss_L2": 9.486604378034086e-16,
+      "Jz": 800.0000000000067,
+      "Noether": [
+        800.0000000000022,
+        799.9999999999976
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -25.486051382240692,
+        "dipole_method_rel_err": 0.01599367976235538,
+        "electric_source_norm": 0.10833640805816794,
+        "magnetic_source_norm": 0.22298427239791574
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.0191105912578635,
+          "Q_density": 0.5895863205222562,
+          "Q_phase": 0.8233765713662913,
+          "Q_total": -0.606147699369316,
+          "coupled_eigen": -0.00429629026622624,
+          "density_eigen": 0.005307003987538822,
+          "eigen_residual": 4.400251810537339e-15,
+          "gram_condition": 120794.82021538434,
+          "independent_3D_angles": [
+            {
+              "N": [
+                800.0000000000023,
+                799.9999999999973
+              ],
+              "Q_difference": 0.0007692739359155265,
+              "Q_independent": -0.6053784254334005,
+              "Q_predicted": -0.606147699369316,
+              "delta_E": -0.0009686054806934408,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.4868995751603507e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": 800.0000000000065
+            },
+            {
+              "N": [
+                800.0000000000024,
+                799.9999999999975
+              ],
+              "Q_difference": 0.0030816556886603674,
+              "Q_independent": -0.6030660436806556,
+              "Q_predicted": -0.606147699369316,
+              "delta_E": -0.003859622679556196,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.4158453015843406e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": 800.0000000000068
+            },
+            {
+              "N": [
+                800.0000000000024,
+                799.9999999999975
+              ],
+              "Q_difference": 0.006950908845546722,
+              "Q_independent": -0.5991967905237693,
+              "Q_predicted": -0.606147699369316,
+              "delta_E": -0.008628433783542278,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.4158453015843406e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": 800.0000000000066
+            }
+          ],
+          "k": 1,
+          "phase_eigen": 0.018414666975731988,
+          "schur_eigen": -0.006674996852824551
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.550056454548436,
+          "Q_density": 1.2588511828267464,
+          "Q_phase": 1.271017818812488,
+          "Q_total": -0.020187452909201653,
+          "coupled_eigen": -0.00018643751695471796,
+          "density_eigen": 0.013339703655745222,
+          "eigen_residual": 4.463441720511607e-15,
+          "gram_condition": 349407.5675587438,
+          "independent_3D_angles": [
+            {
+              "N": [
+                800.0000000000022,
+                799.9999999999976
+              ],
+              "Q_difference": 0.0006887891766815812,
+              "Q_independent": -0.019498663732520072,
+              "Q_predicted": -0.020187452909201653,
+              "delta_E": -3.1197861972032115e-05,
+              "max_pointwise_Gauss_delta": 1.0408340855860843e-17,
+              "net_charge": 2.2737367544323206e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": 800.000000000007
+            },
+            {
+              "N": [
+                800.0000000000022,
+                799.9999999999977
+              ],
+              "Q_difference": 0.0027588809369127887,
+              "Q_independent": -0.017428571972288864,
+              "Q_predicted": -0.020187452909201653,
+              "delta_E": -0.00011154286062264873,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.2737367544323206e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": 800.0000000000066
+            },
+            {
+              "N": [
+                800.0000000000023,
+                799.9999999999974
+              ],
+              "Q_difference": 0.006221510511586419,
+              "Q_independent": -0.013965942397615234,
+              "Q_predicted": -0.020187452909201653,
+              "delta_E": -0.00020110957052565936,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.4158453015843406e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": 800.0000000000069
+            }
+          ],
+          "k": 2,
+          "phase_eigen": 0.05520149139005225,
+          "schur_eigen": -0.00023281880869329116
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.06852572588495,
+          "Q_density": 1.7318209244969869,
+          "Q_phase": 1.1408220073287143,
+          "Q_total": 0.8041172059407509,
+          "coupled_eigen": 0.010791457780004596,
+          "density_eigen": 0.02549627613120629,
+          "eigen_residual": 1.2333826951514821e-14,
+          "gram_condition": 1198190.5005682705,
+          "k": 3,
+          "phase_eigen": 0.10485135100540179,
+          "schur_eigen": 0.012268519202053666
+        }
+      ],
+      "energy_canonical_NOT_J": 1557.1840113877229,
+      "gradient_inf": 1.3939636165968201e-06,
+      "net_charge": 2.2737367544323206e-13,
+      "scalar_EOM_L2": [
+        1.6871307887727562e-06,
+        5.54441253829875e-07
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 24,
+        "wind": 1
+      },
+      "winding": [
+        2,
+        -1
+      ]
+    },
+    "spin_asym36": {
+      "Ampere_L2": 2.276471189826504e-15,
+      "Gauss_L2": 3.2468320995654824e-15,
+      "Jz": 800.0000000000067,
+      "Noether": [
+        800.0000000000022,
+        799.9999999999976
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -25.455778242634285,
+        "dipole_method_rel_err": 0.007478758922360528,
+        "electric_source_norm": 0.11065770649536558,
+        "magnetic_source_norm": 0.2291626672299473
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.019892451608405,
+          "Q_density": 0.5449969281001306,
+          "Q_phase": 0.8111820623632277,
+          "Q_total": -0.6637134611450466,
+          "coupled_eigen": -0.004693511820883684,
+          "density_eigen": 0.004800886093173628,
+          "eigen_residual": 5.898822477338742e-15,
+          "gram_condition": 117535.25806175116,
+          "independent_3D_angles": [
+            {
+              "N": [
+                800.0000000000025,
+                799.9999999999975
+              ],
+              "Q_difference": 0.000772050080225295,
+              "Q_independent": -0.6629414110648213,
+              "Q_predicted": -0.6637134611450466,
+              "delta_E": -0.001060706257703714,
+              "max_pointwise_Gauss_delta": 1.734723475976807e-17,
+              "net_charge": 2.4868995751603507e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": 800.0000000000065
+            },
+            {
+              "N": [
+                800.0000000000024,
+                799.9999999999975
+              ],
+              "Q_difference": 0.0030927689506330402,
+              "Q_independent": -0.6606206921944136,
+              "Q_predicted": -0.6637134611450466,
+              "delta_E": -0.004227972430044247,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.4158453015843406e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": 800.0000000000063
+            },
+            {
+              "N": [
+                800.0000000000022,
+                799.9999999999978
+              ],
+              "Q_difference": 0.006975957220336171,
+              "Q_independent": -0.6567375039247104,
+              "Q_predicted": -0.6637134611450466,
+              "delta_E": -0.00945702005651583,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.2026824808563106e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": 800.0000000000064
+            }
+          ],
+          "k": 1,
+          "phase_eigen": 0.01856156446744394,
+          "schur_eigen": -0.00724103867023349
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.5187224494547165,
+          "Q_density": 1.2029091116810349,
+          "Q_phase": 1.2455778917845604,
+          "Q_total": -0.07023544598912146,
+          "coupled_eigen": -0.000656546713059344,
+          "density_eigen": 0.0128385958919498,
+          "eigen_residual": 5.435051375994877e-15,
+          "gram_condition": 339467.8365980578,
+          "independent_3D_angles": [
+            {
+              "N": [
+                800.0000000000019,
+                799.9999999999975
+              ],
+              "Q_difference": 0.0006627597459303303,
+              "Q_independent": -0.06957268624319113,
+              "Q_predicted": -0.07023544598912146,
+              "delta_E": -0.0001113162979891058,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.2026824808563106e-13,
+              "t": 0.04,
+              "total_Jz_matter_canonical": 800.0000000000066
+            },
+            {
+              "N": [
+                800.0000000000024,
+                799.9999999999978
+              ],
+              "Q_difference": 0.0026545522546346234,
+              "Q_independent": -0.06758089373448684,
+              "Q_predicted": -0.07023544598912146,
+              "delta_E": -0.00043251771990071575,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.2737367544323206e-13,
+              "t": 0.08,
+              "total_Jz_matter_canonical": 800.0000000000067
+            },
+            {
+              "N": [
+                800.0000000000024,
+                799.9999999999976
+              ],
+              "Q_difference": 0.0059859866185636434,
+              "Q_independent": -0.06424945937055782,
+              "Q_predicted": -0.07023544598912146,
+              "delta_E": -0.0009251922149360325,
+              "max_pointwise_Gauss_delta": 1.3877787807814457e-17,
+              "net_charge": 2.3447910280083306e-13,
+              "t": 0.12,
+              "total_Jz_matter_canonical": 800.000000000007
+            }
+          ],
+          "k": 2,
+          "phase_eigen": 0.055467510735588685,
+          "schur_eigen": -0.0008188187721777968
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.0698404462923445,
+          "Q_density": 1.7013423196174606,
+          "Q_phase": 1.1359090916733434,
+          "Q_total": 0.7674109649984597,
+          "coupled_eigen": 0.010297102227645339,
+          "density_eigen": 0.025005391857595288,
+          "eigen_residual": 1.3845693745892193e-14,
+          "gram_condition": 1165010.1343188812,
+          "k": 3,
+          "phase_eigen": 0.10526423079391974,
+          "schur_eigen": 0.01170320513044549
+        }
+      ],
+      "energy_canonical_NOT_J": 1558.1953402409222,
+      "gradient_inf": 7.803767317128255e-07,
+      "net_charge": 2.2737367544323206e-13,
+      "scalar_EOM_L2": [
+        1.2539512872590474e-06,
+        1.1160496943776044e-06
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 36,
+        "wind": 1
+      },
+      "winding": [
+        2,
+        -1
+      ]
+    },
+    "spin_asym36_L24": {
+      "Ampere_L2": 1.121956744912323e-15,
+      "Gauss_L2": 1.5574379900392913e-15,
+      "Jz": 800.0000000000007,
+      "Noether": [
+        800.0000000000002,
+        799.9999999999998
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -27.906499386117723,
+        "dipole_method_rel_err": 0.011822905448980793,
+        "electric_source_norm": 0.11626706760623487,
+        "magnetic_source_norm": 0.22597291605993713
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.0403274824832245,
+          "Q_density": 0.577759422446759,
+          "Q_phase": 0.8270583293852362,
+          "Q_total": -0.6355097306512292,
+          "coupled_eigen": -0.004449784841716269,
+          "density_eigen": 0.005097077459024409,
+          "eigen_residual": 7.694364584401713e-15,
+          "gram_condition": 119581.15354817217,
+          "k": 1,
+          "phase_eigen": 0.018469371456053197,
+          "schur_eigen": -0.0068912622800686215
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.5137098499368973,
+          "Q_density": 1.2255720086621502,
+          "Q_phase": 1.2491549163139641,
+          "Q_total": -0.03898292496078293,
+          "coupled_eigen": -0.0003647709301815781,
+          "density_eigen": 0.013130283901078281,
+          "eigen_residual": 8.513605056793584e-15,
+          "gram_condition": 345743.62559573044,
+          "k": 2,
+          "phase_eigen": 0.055298275654100615,
+          "schur_eigen": -0.0004551708819244026
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.0725964350131845,
+          "Q_density": 1.7243183965617677,
+          "Q_phase": 1.1409323830130154,
+          "Q_total": 0.7926543445615986,
+          "coupled_eigen": 0.010604744173396118,
+          "density_eigen": 0.025288786526346196,
+          "eigen_residual": 1.1526575218132246e-14,
+          "gram_condition": 1186101.2965163228,
+          "k": 3,
+          "phase_eigen": 0.10500013151115534,
+          "schur_eigen": 0.012052892698267731
+        }
+      ],
+      "energy_canonical_NOT_J": 1557.5359293708298,
+      "gradient_inf": 1.0358604367979624e-06,
+      "net_charge": 2.1316282072803006e-14,
+      "scalar_EOM_L2": [
+        1.7047433527801013e-06,
+        1.0741070973396196e-06
+      ],
+      "spec": {
+        "L": 24.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 36,
+        "wind": 1
+      },
+      "winding": [
+        2,
+        -1
+      ]
+    },
+    "spin_asym48": {
+      "Ampere_L2": 5.247331878074394e-15,
+      "Gauss_L2": 8.302932767771978e-15,
+      "Jz": 800.0000000000061,
+      "Noether": [
+        800.000000000002,
+        799.999999999998
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -25.44414954259462,
+        "dipole_method_rel_err": 0.00427227377391027,
+        "electric_source_norm": 0.11170897623975543,
+        "magnetic_source_norm": 0.23179553384678253
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.0197435188795363,
+          "Q_density": 0.529872168642946,
+          "Q_phase": 0.8071282830221302,
+          "Q_total": -0.6827430672144601,
+          "coupled_eigen": -0.004825247129190465,
+          "density_eigen": 0.004633789829754204,
+          "eigen_residual": 2.1300880895570584e-15,
+          "gram_condition": 116443.80093477461,
+          "k": 1,
+          "phase_eigen": 0.018613851320059157,
+          "schur_eigen": -0.007426691039395951
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.5268802835683193,
+          "Q_density": 1.1933581008550571,
+          "Q_phase": 1.2464160587509738,
+          "Q_total": -0.08710612396228834,
+          "coupled_eigen": -0.0008115319632345079,
+          "density_eigen": 0.01267325992338341,
+          "eigen_residual": 8.142291624568609e-15,
+          "gram_condition": 336154.77455366997,
+          "k": 2,
+          "phase_eigen": 0.055561207869150704,
+          "schur_eigen": -0.0010116555701919162
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.072246031286658,
+          "Q_density": 1.6929450189877309,
+          "Q_phase": 1.1353853684878108,
+          "Q_total": 0.7560843561888837,
+          "coupled_eigen": 0.01013447010210601,
+          "density_eigen": 0.02484350499505536,
+          "eigen_residual": 7.887525794292603e-15,
+          "gram_condition": 1153974.9241810874,
+          "k": 3,
+          "phase_eigen": 0.10540856427060986,
+          "schur_eigen": 0.011517161287569562
+        }
+      ],
+      "energy_canonical_NOT_J": 1558.5437558578396,
+      "gradient_inf": 3.003627862375577e-06,
+      "net_charge": 2.0605739337042905e-13,
+      "scalar_EOM_L2": [
+        3.855473629955251e-06,
+        2.132663816332075e-06
+      ],
+      "spec": {
+        "L": 18.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 48,
+        "wind": 1
+      },
+      "winding": [
+        2,
+        -1
+      ]
+    },
+    "spin_asym48_L32": {
+      "Ampere_L2": 1.1724713372601603e-15,
+      "Gauss_L2": 1.5741486376138918e-15,
+      "Jz": 800.0000000000014,
+      "Noether": [
+        800.0000000000005,
+        799.9999999999995
+      ],
+      "Y_first_order": {
+        "axial_dipole_coefficient_NOT_FORCE": -28.894092716281772,
+        "dipole_method_rel_err": 0.011424271470661622,
+        "electric_source_norm": 0.11926268795955276,
+        "magnetic_source_norm": 0.2261473987394842
+      },
+      "angular_modes": [
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.0396785277086593,
+          "Q_density": 0.5776737530809783,
+          "Q_phase": 0.8268784262162877,
+          "Q_total": -0.6351263484113931,
+          "coupled_eigen": -0.004447361601392398,
+          "density_eigen": 0.0050961840208023,
+          "eigen_residual": 3.4578496788620666e-15,
+          "gram_condition": 119563.51303809232,
+          "k": 1,
+          "phase_eigen": 0.01846900292197275,
+          "schur_eigen": -0.006886746906274365
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.5126086391560825,
+          "Q_density": 1.2254411121395652,
+          "Q_phase": 1.2487102228603146,
+          "Q_total": -0.03845730415620263,
+          "coupled_eigen": -0.0003598852636524856,
+          "density_eigen": 0.01312919479447459,
+          "eigen_residual": 1.0834889464493765e-14,
+          "gram_condition": 345685.7081003717,
+          "k": 2,
+          "phase_eigen": 0.055298347276114754,
+          "schur_eigen": -0.00044903572676160806
+        },
+        {
+          "H_symmetry": 0.0,
+          "Q_cross": -2.0713833833646533,
+          "Q_density": 1.7240845860887228,
+          "Q_phase": 1.140332758579214,
+          "Q_total": 0.7930339613032835,
+          "coupled_eigen": 0.010611206232831566,
+          "density_eigen": 0.0252873006717601,
+          "eigen_residual": 1.6200889445425578e-14,
+          "gram_condition": 1185883.328638556,
+          "k": 3,
+          "phase_eigen": 0.10500134621151995,
+          "schur_eigen": 0.01205944750016418
+        }
+      ],
+      "energy_canonical_NOT_J": 1557.5242513435796,
+      "gradient_inf": 1.0194690324149064e-06,
+      "net_charge": 4.973799150320701e-14,
+      "scalar_EOM_L2": [
+        1.6867293562411461e-06,
+        9.135630518029165e-07
+      ],
+      "spec": {
+        "L": 32.0,
+        "N": 800.0,
+        "e": 0.05,
+        "mminus": 1.08,
+        "n": 48,
+        "wind": 1
+      },
+      "winding": [
+        2,
+        -1
+      ]
+    }
+  },
+  "complete_SI_energy": "NOT_AVAILABLE",
+  "date_utc": "2026-11-15T23:58:07.730625+00:00",
+  "free_space_exterior": "NOT_CERTIFIED",
+  "full_constrained_dynamic_spectrum": "NOT_DERIVED",
+  "mode_basis": "EIGHT_AXIS_REGULAR_ENVELOPES_BY_TWO_CHANNELS; k=1,2,3",
+  "parent_SHA256": "804ecd6057e9b814dd102b4f18f50c5ff731977b3d49083d4781b96e9a3ae632",
+  "physical_source": "NOT_IDENTIFIED",
+  "portal": {
+    "Earth_craft_force": "NOT_DERIVED",
+    "beta_P_squared": "subleading in far dipole field",
+    "dlambda_dP_0": "-4*K*alpha**2 + 4*K*beta - 16*U*alpha**2 + 8*U*beta",
+    "lambda0": "-2*K*alpha - 4*U*alpha",
+    "leading_sigma": "alpha*P with P=O(alpha) => O(alpha^2)"
+  },
+  "reciprocal_X_Y_matter": "NOT_SOLVED",
+  "scope": "FINITE_BOX_X_SECTOR_FROZEN_X_ADMISSIBLE_INITIAL_DATA",
+  "source_SHA256": "af2aa57c77232ce1cfd4832bdd859e0fc10a6a75a01fb7d784e221c0ee77da4c"
+}

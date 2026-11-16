@@ -1,0 +1,118 @@
+{
+  "006D_replaced": false,
+  "M5V_status": "FROZEN",
+  "Y_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART; X_Y_BACKREACTION_OPEN",
+  "branch": "032H17_PH15_P10_SELFCONSISTENT_DISCRETE_FREE_COULOMB_AND_FREE_Y",
+  "candidate_status": "RED_OR_INCOMPLETE",
+  "cases": {
+    "base18_L12": {
+      "canonical_energy_NOT_J": 712.5557086168102,
+      "centers": [
+        1.4253704693557714,
+        -1.4253704693557925
+      ],
+      "electric_dipole": 132.40932893157478,
+      "free_coulomb_field_energy": 3.6472051792382043,
+      "free_coulomb_residual_inf": 2.098321516541546e-14,
+      "free_space_Y_first_order": {
+        "Y_current_L2": 0.29935858557012884,
+        "Y_field_outer_shell_max_abs": 0.004557354615450555,
+        "Y_kernel_symmetry_inf": 0.0,
+        "Y_magnetic_dipole": 26.08615465703624,
+        "Y_magnetic_energy_CANONICAL_NOT_J": 0.22222370388984758,
+        "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+        "portal_P_abs_integral": 1.3893325798443128,
+        "portal_alpha_P_max_abs_beta0": 0.0030582212857025908
+      },
+      "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_BUT_SCALAR_TRUNCATED_AND_SELF_QUADRATURE_APPROXIMATE",
+      "gauss_iterations": 10,
+      "gradient_audit": [
+        {
+          "abs_error": 1.0865670654891524e-09,
+          "analytic": -0.013274744838151378,
+          "finite_difference": -0.013274745924718443,
+          "index": 7
+        },
+        {
+          "abs_error": 2.2294335675117524e-09,
+          "analytic": -2.787556957747104e-06,
+          "finite_difference": -2.7853275241795923e-06,
+          "index": 324
+        },
+        {
+          "abs_error": 2.66451696262493e-08,
+          "analytic": 11.040007810336942,
+          "finite_difference": 11.040007836982111,
+          "index": 660
+        },
+        {
+          "abs_error": 1.0603876517091201e-09,
+          "analytic": 7.260503852325837e-05,
+          "finite_difference": 7.260609891091008e-05,
+          "index": 1281
+        }
+      ],
+      "individual_Noether": [
+        399.99999999999994,
+        400.0
+      ],
+      "k1_density_screen": {
+        "basis": 13,
+        "gram_condition": 37527.87034395712,
+        "included_rigid_rotation": true,
+        "min_mode": 0.0015630398636518592,
+        "scope": "FREE_SPACE_GAUSS_K1_12_ENVELOPES_PLUS_ROTATION_STATIC_DENSITY_ONLY",
+        "second_mode": 0.003627551161765032
+      },
+      "kernel_symmetry_inf": 0.0,
+      "net_X_charge": -1.3480536131815768e-14,
+      "omega": [
+        0.8393943168144706,
+        0.8393943168144701
+      ],
+      "optimizer": {
+        "gradient_inf": 3.717708911815261e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "steps": 107,
+        "success": true
+      },
+      "outer_80pct_scalar_tail": 0.00215235674821362,
+      "rotation_ward": {
+        "classification": "FINITE_GRID_K1_ROTATION_WARD_NOT_CONTINUUM_CERTIFIED",
+        "rotation_Q": 0.8074385216551203,
+        "rotation_normalized_curvature": 0.00930836741510561,
+        "rotation_tangent_norm": 86.74330155305321
+      },
+      "scalar_equation_weighted_L2": [
+        1.5825934867529038e-06,
+        1.5876352500598679e-06
+      ],
+      "self_quadrature_order": 8,
+      "source_separation": 2.8507409387115636,
+      "spec": {
+        "L": 12,
+        "N": 400.0,
+        "e": 0.12,
+        "g": 0.2,
+        "nr": 18,
+        "seed_separation": 3.0
+      },
+      "translation_ward": {
+        "H_tangent_norm_ratio": 0.22067593523098344,
+        "epsilon": 0.003,
+        "scope": "DISCRETE_TRANSLATION_TANGENT_ZERO_MODE_APPROXIMATION",
+        "stationary_gradient_norm": 4.483386145111917e-06,
+        "translation_tangent_rayleigh": 0.0064916572104521215
+      }
+    }
+  },
+  "complete_energy_SI": "NOT_AVAILABLE",
+  "fifty_percent_theory_gate": "NOT_MET",
+  "free_space_status": "SELF_CONSISTENT_DISCRETE_COULOMB_KERNEL; NOT_CONTINUUM_CERTIFIED",
+  "full_gauge_and_dynamic_spectral_stability": "NOT_CERTIFIED",
+  "parent_source_sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+  "physical_gates": {},
+  "physical_metric_and_earth_response": "NOT_DERIVED",
+  "source_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+  "timestamp_utc": "2026-11-16T18:22:25.703859+00:00"
+}
