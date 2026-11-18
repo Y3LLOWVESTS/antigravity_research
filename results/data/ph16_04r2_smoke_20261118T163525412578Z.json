@@ -1,0 +1,252 @@
+{
+  "06D_replaced": false,
+  "Earth_down_craft_up": "NOT_DERIVED",
+  "L": 12.0,
+  "accepted": true,
+  "actual_joint_residual_L2": 6.53298485747981e-08,
+  "beta": 40.0,
+  "branch": "PH16-04R2",
+  "case": {
+    "P10": {
+      "N": [
+        399.99999999999994,
+        400.0
+      ],
+      "source_energy_NOT_J": 712.5557086168102,
+      "source_eom_max": 1.5876352500598679e-06
+    },
+    "Y_only_seed": {
+      "Y_only_gradient_L2": 2.8187620302064447e-05,
+      "iterations": 150,
+      "success": true
+    },
+    "Y_preconditioned_joint": {
+      "F_grad_norm": 1.209295869687242e-08,
+      "N": [
+        400.0000000000001,
+        399.99999999999994
+      ],
+      "Pmax": 0.014444675149913593,
+      "Routhian_NOT_J": 2402.2237825331354,
+      "X_Noether_charge": 2.1316282072803006e-14,
+      "X_grad_norm": 6.213258336344968e-08,
+      "Y_grad_norm": 1.6164515128693624e-08,
+      "Y_norm": 0.16115247481609551,
+      "Y_source_norm": 1.1114600649486475,
+      "bare_X_Green_shift_due_to_portal_inf": 0.023163085535076622,
+      "discrete_curlE_inf": 1.734723475976807e-17,
+      "discrete_mimetic_divB_inf": 3.469446951953614e-17,
+      "edge_decomposition_error": 7.275957614183426e-12,
+      "final_residual_L2": 6.53298485747981e-08,
+      "frozen_magnetic_margin_min": 0.26059737608654576,
+      "frozen_negative_cells": 0,
+      "initial_residual_L2": 0.4992046559329834,
+      "min_F": 9.451380621335214e-06,
+      "min_n": 0.14996700140771235,
+      "neutralN": 1628.6016316209484,
+      "neutral_mu_res": 4.440892098500626e-16,
+      "omega": [
+        0.8395458712784691,
+        0.8395458687787339
+      ],
+      "ph16_04r2_bounded_continuation": [
+        {
+          "actual_gradient_L2": 2.093028110157171e-06,
+          "maxiter": 450,
+          "native_success": false,
+          "reported_iterations": 450,
+          "stage": 0
+        },
+        {
+          "actual_gradient_L2": 3.8399668205633243e-07,
+          "maxiter": 100,
+          "native_success": false,
+          "reported_iterations": 100,
+          "stage": 1
+        },
+        {
+          "actual_gradient_L2": 6.53298485747981e-08,
+          "maxiter": 100,
+          "native_success": true,
+          "reported_iterations": 89,
+          "stage": 2
+        }
+      ],
+      "ph16_04r2_native_success_unmodified": true,
+      "portal_X_variation_L2": 0.1546227470998211,
+      "root_message": "A solution was found at the specified tolerance.",
+      "root_nit": 89,
+      "root_success": true,
+      "sigma_max": 0.009068179364956932
+    },
+    "direct_weak_seed": {
+      "F_grad_norm": 0.0022448946529540843,
+      "N": [
+        399.99999999999994,
+        400.0
+      ],
+      "Pmax": 0.005824458749412348,
+      "Routhian_NOT_J": 2402.2301565706466,
+      "X_Noether_charge": -7.105427357601002e-15,
+      "X_grad_norm": 0.0076013495906086595,
+      "Y_grad_norm": 0.017018827653402947,
+      "Y_norm": 0.041261052246121664,
+      "Y_source_norm": 0.38938641977667265,
+      "bare_X_Green_shift_due_to_portal_inf": 0.003254633815684055,
+      "discrete_curlE_inf": 2.7755575615628914e-17,
+      "discrete_mimetic_divB_inf": 6.938893903907228e-18,
+      "edge_decomposition_error": 7.275957614183426e-12,
+      "final_residual_L2": 0.018773933053511754,
+      "frozen_magnetic_margin_min": 0.2500265384366792,
+      "frozen_negative_cells": 0,
+      "initial_residual_L2": 0.04929667516100438,
+      "min_F": 9.683600111770747e-06,
+      "min_n": 0.14996615455902873,
+      "neutralN": 1628.6016316209534,
+      "neutral_mu_res": 4.440892098500626e-16,
+      "omega": [
+        0.83940505939868,
+        0.8394050601914097
+      ],
+      "ph16_04r2_bounded_continuation": [
+        {
+          "actual_gradient_L2": 0.018773933053511754,
+          "maxiter": 80,
+          "native_success": false,
+          "reported_iterations": 80,
+          "stage": 0
+        }
+      ],
+      "ph16_04r2_native_success_unmodified": false,
+      "portal_X_variation_L2": 0.025277729220203216,
+      "root_message": "The maximum number of iterations allowed has been reached.",
+      "root_nit": 80,
+      "root_success": false,
+      "sigma_max": 0.0010657498514736248
+    },
+    "discrete_exterior": "RECIPROCAL_RING_GREENS_PLUS_MIMETIC_P_NOT_CONTINUUM_PROOF",
+    "finite_difference": [
+      {
+        "error": 5.441996026988444e-10,
+        "fd": -1.5916157281026244e-08,
+        "gradient": -1.646035688372509e-08,
+        "index": 0
+      },
+      {
+        "error": 8.744140377048293e-10,
+        "fd": -2.2737367544323206e-07,
+        "gradient": -2.2649926140552723e-07,
+        "index": 324
+      },
+      {
+        "error": 2.020157972382284e-09,
+        "fd": -1.864464138634503e-07,
+        "gradient": -1.8846657183583257e-07,
+        "index": 1295
+      },
+      {
+        "error": 4.611497877818631e-08,
+        "fd": 2.1636878955177963e-05,
+        "gradient": 2.168299393395615e-05,
+        "index": 1620
+      },
+      {
+        "error": 8.302351453739947e-08,
+        "fd": -1.7466845747549087e-05,
+        "gradient": -1.7549869262086486e-05,
+        "index": 1943
+      },
+      {
+        "error": 3.213431424328294e-08,
+        "fd": 1.7757884052116424e-06,
+        "gradient": 1.7436540909683594e-06,
+        "index": 2160
+      },
+      {
+        "error": 9.038741322249522e-09,
+        "fd": 2.5011104298755527e-07,
+        "gradient": 2.591497843098048e-07,
+        "index": 2591
+      }
+    ],
+    "initial": {
+      "F_grad_norm": 0.0015195349478698173,
+      "N": [
+        400.0,
+        400.0
+      ],
+      "Pmax": 0.0006055108576591914,
+      "Routhian_NOT_J": 2402.2290033310665,
+      "X_Noether_charge": 0.0,
+      "X_grad_norm": 0.0008231596484016561,
+      "Y_grad_norm": 0.04926637396505889,
+      "Y_norm": 0.02960333800360215,
+      "Y_source_norm": 0.11003808780938858,
+      "bare_X_Green_shift_due_to_portal_inf": 2.0924125651577974e-06,
+      "discrete_curlE_inf": 1.734723475976807e-17,
+      "discrete_mimetic_divB_inf": 6.2341624917916505e-19,
+      "edge_decomposition_error": 7.275957614183426e-12,
+      "frozen_magnetic_margin_min": 0.22995356323230098,
+      "frozen_negative_cells": 0,
+      "min_F": 9.724194781625769e-06,
+      "min_n": 0.14999497074529788,
+      "neutralN": 1628.6016316209489,
+      "neutral_mu_res": 4.440892098500626e-16,
+      "omega": [
+        0.8394000953622366,
+        0.8394000953622359
+      ],
+      "portal_X_variation_L2": 0.0008369408457252387,
+      "sigma_max": 4.4941278832686346e-05
+    },
+    "initialization_sensitivity": {
+      "Routhian_difference_NOT_energy": 0.006374037511250208,
+      "Y_solution_distance_L2": 0.19322083645401605,
+      "both_reached_stationarity": false,
+      "same_lattice_action": true
+    },
+    "mesh": {
+      "L": 12.0,
+      "h": 0.6666666666666666,
+      "nr": 18
+    },
+    "physical_earth_metric": "NOT_SOLVED"
+  },
+  "classification": "YELLOW_RESTRICTED_LATTICE_STATIONARITY",
+  "complete_SI_energy": "NOT_CERTIFIED",
+  "continuation_history": [
+    {
+      "actual_gradient_L2": 2.093028110157171e-06,
+      "maxiter": 450,
+      "native_success": false,
+      "reported_iterations": 450,
+      "stage": 0
+    },
+    {
+      "actual_gradient_L2": 3.8399668205633243e-07,
+      "maxiter": 100,
+      "native_success": false,
+      "reported_iterations": 100,
+      "stage": 1
+    },
+    {
+      "actual_gradient_L2": 6.53298485747981e-08,
+      "maxiter": 100,
+      "native_success": true,
+      "reported_iterations": 89,
+      "stage": 2
+    }
+  ],
+  "experiment": "ISOLATED_18_L12_CONTINUATION_SMOKE",
+  "individual_gradients": {
+    "F_grad_norm": 1.209295869687242e-08,
+    "X_grad_norm": 6.213258336344968e-08,
+    "Y_grad_norm": 1.6164515128693624e-08
+  },
+  "maximum_noether_error": 1.1368683772161603e-13,
+  "native_solver_success": true,
+  "nr": 18,
+  "process_returncode": 0,
+  "source_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+  "timestamp_utc": "2026-11-18T16:35:25.412578+00:00"
+}

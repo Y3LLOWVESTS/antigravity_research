@@ -1,0 +1,1027 @@
+{
+  "006D_replaced": false,
+  "1kg_1g_1m": "NOT_CERTIFIED",
+  "ALPHA1_M5V_frozen": true,
+  "BETA1_heuristic": "FROZEN_APPROX_70_PERCENT",
+  "PH17_approved": "NO",
+  "branch": "PH16-02",
+  "classification": "ACTION_LEVEL_FROZEN_X_SOURCE_FLUID_Y_VARIATION_PLUS_2U1_TRANSVERSE_CONSTRAINED_PRINCIPAL",
+  "complete_energy_SI_lt10MJ": "NOT_CERTIFIED",
+  "experiment": "FINITE_GRID_FROZEN_Y_VARIATION_AND_GAUSS_ADMISSIBLE_TWO_U1_LOCAL_PRINCIPAL",
+  "full_constrained_dynamical_health": "NOT_CERTIFIED",
+  "next": "PH16-03 fixed-Noether coupled source/X/Y/fluid at beta<=40; exterior and GR remain open",
+  "parent_sha256": {
+    "BETA1_00_JSON": {
+      "path": "results/data/beta1_00_20261116T200742656266Z.json",
+      "sha256": "866a305e4d7618d174ff63e864a3d7054ffc9133284e0e5c3637dec89145f708",
+      "status": "MATCH"
+    },
+    "BETA1_02_JSON": {
+      "path": "results/data/beta1_02_20261117T164856020351Z.json",
+      "sha256": "723e21b16c003fdc6962455617ca56e9c390db10e43c1c55bfaec6e10efc3881",
+      "status": "MATCH"
+    },
+    "BETA1_03_JSON": {
+      "path": "results/data/beta1_03_20261117T180317015064Z.json",
+      "sha256": "86b7b2601e7181ba59b6f5c95932246f2c97b98046b83b3d817601e806dc44f0",
+      "status": "MATCH"
+    },
+    "BETA1_04_JSON": {
+      "path": "results/data/beta1_04_20261117T184058123842Z.json",
+      "sha256": "2ff63f1e2cbad2dc09d192569701b5503da06ca384ca60546d6e83c8c61ae632",
+      "status": "MATCH"
+    },
+    "BETA1_1B1_JSON": {
+      "path": "results/data/beta1_1b1_20261117T001913743770Z.json",
+      "sha256": "1468220d56a8555207f3f7e7960880636bc0ccb88bc344ad0d748e5e61a91b11",
+      "status": "MATCH"
+    },
+    "FROZEN_M5V": {
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5v_unified_exterior_action.py",
+      "sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "PH11_SUPPORT": {
+      "path": "src/antigravity_research/agminer/hook17_ph11_universal_metric_support_gate.py",
+      "sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "status": "MATCH"
+    },
+    "PH15_P1": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p1_theorem.py",
+      "sha256": "9ce430fa8a0e155ef330de27f1a8461c93a970385db4eeb53507c87253c07ca5",
+      "status": "MATCH"
+    },
+    "PH15_P10": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    },
+    "PH15_P8": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py",
+      "sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "status": "MATCH"
+    },
+    "PH16_00_JSON": {
+      "path": "results/data/ph16_00_20261117T193302236321Z.json",
+      "sha256": "0f6025bbdaa1fe6da12bbd6d1044c192cbb40a1006d3103b76f8e9c0b3f8576e",
+      "status": "MATCH"
+    },
+    "PH16_01_JSON": {
+      "path": "results/data/ph16_01_20261118T001752187817Z.json",
+      "sha256": "06f4aa6960645823e81e5d577288dadda8d579567456e8af05dd21369a4173ad",
+      "status": "MATCH"
+    },
+    "PH16_01_SOURCE": {
+      "path": "src/antigravity_research/ph16/ph16_01_neutral_fluid_health.py",
+      "sha256": "7466a5c1a4613940ff6c57301375513629d0a940fb48e1d8ebe81bdbdf60ddbb",
+      "status": "MATCH"
+    }
+  },
+  "physical_Earth_down_craft_up": "NOT_DERIVED",
+  "physical_full_source_X_Y_fluid_solid_metric_on_shell": "NOT_SOLVED",
+  "physical_heuristic": "APPROX_35_PERCENT_REASSESS_AFTER_VERIFIED_SCIENTIFIC_REVIEW",
+  "primary_verdict": "YELLOW_PH16_02_RESTRICTED_FULLCELL_Y_BETA40_STATIONARY_GAUGE_BETA60_PRINCIPAL_WARNING_FULL_SYSTEM_OPEN",
+  "program": "ANTIGRAVITY_RESEARCH",
+  "runner_sha256": "ce8d7f72d36f709b909b50f28482ba16faf1570df43deb134cc63ed78d4db35d",
+  "scoped_results": {
+    "1kg_1g_1m_and_lt10MJ": "NOT_CERTIFIED",
+    "3D_Earth_and_whole_craft": "NOT_DERIVED",
+    "EFT_cutoff_and_nonlocal_completion": "NOT_CERTIFIED",
+    "cases": {
+      "12_L12": {
+        "P10_background": {
+          "L": 12.0,
+          "P10_gauss_kernel_residual_inf": 1.8818280267396403e-14,
+          "P10_scalar_EOM_weighted_L2_max": 8.187069959793669e-07,
+          "Y_current_canonical_L2": 0.01445596541511602,
+          "h_canonical": 1.0,
+          "neutral_X_charge": -1.7763568394002505e-15,
+          "nr": 12,
+          "source_energy_canonical_NOT_J": 711.8045370708118
+        },
+        "beta_sweep": {
+          "0": {
+            "X_Gauss_increment_flux_form_L2": 0.000172516145296581,
+            "X_Gauss_increment_form_difference_L2": 1.7273411004557667e-05,
+            "X_Gauss_portal_increment_L2": 0.00017112175501154595,
+            "Y_magnetic_Bianchi_inf": 1.8973538018496328e-19,
+            "actual_first_order_P_margin_min": 1.0000000067622168,
+            "actual_first_order_P_negative_cells": 0,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 6.508516363859306e-07,
+            "fluid_number_error": 1.8189894035458565e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": 1.0000000067622192,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.014455620286371916,
+            "local_4mode_magnetic_eigenvalues": [
+              1.0,
+              1.0,
+              1.0,
+              1.0000000067622168
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 0.9999999999993852,
+              "magnetic_active": 1.0000000067622168,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                1.0,
+                1.0,
+                1.0,
+                1.0000000067628316
+              ],
+              "tachyonic_if_EFT_supports_mode": false
+            },
+            "local_magnetic_second_variation_FD_error": 6.58921495144682e-09,
+            "min_cell_indices": [
+              11,
+              0
+            ],
+            "portal_P_max_abs": 0.00015593326953258633,
+            "portal_sigma_max_abs": 7.796663476629317e-06,
+            "relative_Y_current_defect": 4.502304880346222e-05,
+            "source_only_Y_current_L2": 0.01445596541511602,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "20": {
+            "X_Gauss_increment_flux_form_L2": 0.00019358996104630496,
+            "X_Gauss_increment_form_difference_L2": 1.81051268925408e-05,
+            "X_Gauss_portal_increment_L2": 0.00019287517448385823,
+            "Y_magnetic_Bianchi_inf": 1.8973538018496328e-19,
+            "actual_first_order_P_margin_min": 0.6039101180812804,
+            "actual_first_order_P_negative_cells": 0,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.0022768764438093276,
+            "fluid_number_error": 3.410605131648481e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": 0.6038511669781947,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.01614144588404174,
+            "local_4mode_magnetic_eigenvalues": [
+              0.6039101180812805,
+              0.9999999999999999,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0000958626283372,
+              "magnetic_active": 0.6039101180812804,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                0.6038522312192685,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": false
+            },
+            "local_magnetic_second_variation_FD_error": 1.5134210595846298e-07,
+            "min_cell_indices": [
+              0,
+              12
+            ],
+            "portal_P_max_abs": 0.00015593326953258633,
+            "portal_sigma_max_abs": 8.282967167571762e-06,
+            "relative_Y_current_defect": 0.15750428134176978,
+            "source_only_Y_current_L2": 0.01445596541511602,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "40": {
+            "X_Gauss_increment_flux_form_L2": 0.00021705098760119613,
+            "X_Gauss_increment_form_difference_L2": 1.9120104311521873e-05,
+            "X_Gauss_portal_increment_L2": 0.00021703055409360656,
+            "Y_magnetic_Bianchi_inf": 1.8973538018496328e-19,
+            "actual_first_order_P_margin_min": 0.20766365039267287,
+            "actual_first_order_P_negative_cells": 0,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.0045543721626715985,
+            "fluid_number_error": 2.2737367544323206e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": 0.20753881400209617,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.01795832655115487,
+            "local_4mode_magnetic_eigenvalues": [
+              0.20766365039267295,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.00019176315394,
+              "magnetic_active": 0.20766365039267287,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                0.20762383579108842,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": false
+            },
+            "local_magnetic_second_variation_FD_error": 2.877360929243178e-07,
+            "min_cell_indices": [
+              0,
+              12
+            ],
+            "portal_P_max_abs": 0.00015593326953258633,
+            "portal_sigma_max_abs": 8.769270858514207e-06,
+            "relative_Y_current_defect": 0.31505140140341475,
+            "source_only_Y_current_L2": 0.01445596541511602,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "60": {
+            "X_Gauss_increment_flux_form_L2": 0.00024220648426657825,
+            "X_Gauss_increment_form_difference_L2": 2.0290860336963276e-05,
+            "X_Gauss_portal_increment_L2": 0.0002428722420113304,
+            "Y_magnetic_Bianchi_inf": 1.8973538018496328e-19,
+            "actual_first_order_P_margin_min": -0.18857588874532216,
+            "actual_first_order_P_negative_cells": 8,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.006831861330076342,
+            "fluid_number_error": 1.3642420526593924e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": -0.1887735389740024,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.019870342729250562,
+            "local_4mode_magnetic_eigenvalues": [
+              -0.1885758887453222,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0002876620026784,
+              "magnetic_active": -0.18857588874532216,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                -0.18852165822756817,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": true
+            },
+            "local_magnetic_second_variation_FD_error": 7.479996051718008e-07,
+            "min_cell_indices": [
+              0,
+              12
+            ],
+            "portal_P_max_abs": 0.00015593326953258633,
+            "portal_sigma_max_abs": 9.25557454945665e-06,
+            "relative_Y_current_defect": 0.4725980682640912,
+            "source_only_Y_current_L2": 0.01445596541511602,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "80": {
+            "X_Gauss_increment_flux_form_L2": 0.00026858072986522,
+            "X_Gauss_increment_form_difference_L2": 2.159206963224023e-05,
+            "X_Gauss_portal_increment_L2": 0.0002699163055244527,
+            "Y_magnetic_Bianchi_inf": 1.8973538018496328e-19,
+            "actual_first_order_P_margin_min": -0.5848084993719165,
+            "actual_first_order_P_negative_cells": 14,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.009109343944298798,
+            "fluid_number_error": 2.7284841053187847e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": -0.585085891950101,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.021852534604728302,
+            "local_4mode_magnetic_eigenvalues": [
+              -0.5848084993719165,
+              0.9999999999999999,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0003835591745616,
+              "magnetic_active": -0.5848084993719165,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                -0.5845842767092801,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": true
+            },
+            "local_magnetic_second_variation_FD_error": 2.2768007756912567e-07,
+            "min_cell_indices": [
+              0,
+              12
+            ],
+            "portal_P_max_abs": 0.00015593326953258633,
+            "portal_sigma_max_abs": 9.741878240399095e-06,
+            "relative_Y_current_defect": 0.6301442818044877,
+            "source_only_Y_current_L2": 0.01445596541511602,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          }
+        },
+        "finite_box_discrete_variational_Y_beta40": {
+          "Y_discrete_Hessian_min_eigenvalue": 1.566421272952642,
+          "Y_discrete_negative_stationary_action_NOT_energy": -0.0009628490451384711,
+          "Y_finite_box_reduced_stationary": true,
+          "Y_newton_residual_trace": [
+            0.03412045949268565,
+            7.5869960343081076e-06,
+            1.0076471534981529e-12
+          ],
+          "Y_newton_steps": 2,
+          "Y_stationary_fullcell_residual_L2": 1.0076471534981529e-12,
+          "Y_stationary_initial_residual_L2": 0.03412045949268565,
+          "action_Hessian_directional_FD_error": 5.726679167077815e-12,
+          "action_gradient_directional_FD_error": 1.6732420257632146e-11,
+          "beta60_initial_fullcell_Hessian_min_eigenvalue": -0.014056078712336557,
+          "joint_source_X_residual": "NOT_SOLVED_NOT_CLAIMED",
+          "source_Noether_reaction_unresolved_abs_shift": [
+            0.004360600967913797,
+            0.00436060096797064
+          ],
+          "source_X_fluid_not_readjusted": true
+        }
+      },
+      "12_L16": {
+        "P10_background": {
+          "L": 16.0,
+          "P10_gauss_kernel_residual_inf": 1.482147737874584e-14,
+          "P10_scalar_EOM_weighted_L2_max": 5.535517640135491e-07,
+          "Y_current_canonical_L2": 0.014000377050005416,
+          "h_canonical": 1.3333333333333333,
+          "neutral_X_charge": 6.439293542825908e-15,
+          "nr": 12,
+          "source_energy_canonical_NOT_J": 710.7525649376865
+        },
+        "beta_sweep": {
+          "0": {
+            "X_Gauss_increment_flux_form_L2": 0.00016247373533296737,
+            "X_Gauss_increment_form_difference_L2": 2.801872466437288e-05,
+            "X_Gauss_portal_increment_L2": 0.00016145376394826195,
+            "Y_magnetic_Bianchi_inf": 8.131516293641283e-20,
+            "actual_first_order_P_margin_min": 1.0000000012551022,
+            "actual_first_order_P_negative_cells": 0,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 6.363983763329032e-07,
+            "fluid_number_error": 5.9117155615240335e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": 1.0000000012551022,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.014000015378469642,
+            "local_4mode_magnetic_eigenvalues": [
+              1.0,
+              1.0,
+              1.0,
+              1.0000000012551022
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 0.9999999999998915,
+              "magnetic_active": 1.0000000012551022,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                1.0,
+                1.0,
+                1.0,
+                1.0000000012552108
+              ],
+              "tachyonic_if_EFT_supports_mode": false
+            },
+            "local_magnetic_second_variation_FD_error": 1.2096329493616054e-08,
+            "min_cell_indices": [
+              11,
+              0
+            ],
+            "portal_P_max_abs": 0.0001581195413592572,
+            "portal_sigma_max_abs": 7.90597706796286e-06,
+            "relative_Y_current_defect": 4.5455802658733184e-05,
+            "source_only_Y_current_L2": 0.014000377050005416,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "20": {
+            "X_Gauss_increment_flux_form_L2": 0.00018236100130059613,
+            "X_Gauss_increment_form_difference_L2": 2.889887314324682e-05,
+            "X_Gauss_portal_increment_L2": 0.00018266475402040086,
+            "Y_magnetic_Bianchi_inf": 8.131516293641283e-20,
+            "actual_first_order_P_margin_min": 0.5921433782088894,
+            "actual_first_order_P_negative_cells": 0,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.002219204323730757,
+            "fluid_number_error": 1.0913936421275139e-11,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": 0.5920820548414563,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.015665985637910745,
+            "local_4mode_magnetic_eigenvalues": [
+              0.5921433782088894,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0000940982095128,
+              "magnetic_active": 0.5921433782088894,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                0.5920876638198493,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": false
+            },
+            "local_magnetic_second_variation_FD_error": 1.8687519054427781e-07,
+            "min_cell_indices": [
+              0,
+              12
+            ],
+            "portal_P_max_abs": 0.0001581195413592572,
+            "portal_sigma_max_abs": 8.406012855156097e-06,
+            "relative_Y_current_defect": 0.1585103255294041,
+            "source_only_Y_current_L2": 0.014000377050005416,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "40": {
+            "X_Gauss_increment_flux_form_L2": 0.00020435147497338974,
+            "X_Gauss_increment_form_difference_L2": 3.011183864819768e-05,
+            "X_Gauss_portal_increment_L2": 0.00020598863635373825,
+            "Y_magnetic_Bianchi_inf": 8.131516293641283e-20,
+            "actual_first_order_P_margin_min": 0.18412621580957012,
+            "actual_first_order_P_negative_cells": 0,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.004439020665757411,
+            "fluid_number_error": 4.547473508864641e-13,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": 0.18399626430542593,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.017455682939368417,
+            "local_4mode_magnetic_eigenvalues": [
+              0.18412621580957012,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0001882334579821,
+              "magnetic_active": 0.18412621580957012,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                0.18409156361796497,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": false
+            },
+            "local_magnetic_second_variation_FD_error": 1.6156237339637336e-07,
+            "min_cell_indices": [
+              0,
+              12
+            ],
+            "portal_P_max_abs": 0.0001581195413592572,
+            "portal_sigma_max_abs": 8.906048642349333e-06,
+            "relative_Y_current_defect": 0.3170643654740494,
+            "source_only_Y_current_L2": 0.014000377050005416,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "60": {
+            "X_Gauss_increment_flux_form_L2": 0.00022783694298761373,
+            "X_Gauss_increment_form_difference_L2": 3.161934164305087e-05,
+            "X_Gauss_portal_increment_L2": 0.00023078566008344692,
+            "Y_magnetic_Bianchi_inf": 8.131516293641283e-20,
+            "actual_first_order_P_margin_min": -0.22388364767371205,
+            "actual_first_order_P_negative_cells": 4,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.006658829552425141,
+            "fluid_number_error": 6.821210263296962e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": -0.22408952623060419,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.019334777316968674,
+            "local_4mode_magnetic_eigenvalues": [
+              -0.22388364767371197,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0002823670224898,
+              "magnetic_active": -0.22388364767371205,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                -0.22382044816019273,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": true
+            },
+            "local_magnetic_second_variation_FD_error": 4.7222021895554356e-07,
+            "min_cell_indices": [
+              0,
+              12
+            ],
+            "portal_P_max_abs": 0.0001581195413592572,
+            "portal_sigma_max_abs": 9.40608442954257e-06,
+            "relative_Y_current_defect": 0.47561787290739893,
+            "source_only_Y_current_L2": 0.014000377050005416,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "80": {
+            "X_Gauss_increment_flux_form_L2": 0.00025240040199146725,
+            "X_Gauss_increment_form_difference_L2": 3.338150157032297e-05,
+            "X_Gauss_portal_increment_L2": 0.0002566291201554627,
+            "Y_magnetic_Bianchi_inf": 8.131516293641283e-20,
+            "actual_first_order_P_margin_min": -0.6318862122833493,
+            "actual_first_order_P_negative_cells": 8,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.008878630982572674,
+            "fluid_number_error": 8.640199666842818e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": -0.6321753167666346,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.021279596982579446,
+            "local_4mode_magnetic_eigenvalues": [
+              -0.6318862122833493,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0003764989030457,
+              "magnetic_active": -0.6318862122833493,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                -0.6316483973546347,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": true
+            },
+            "local_magnetic_second_variation_FD_error": 1.3102401941189612e-08,
+            "min_cell_indices": [
+              0,
+              12
+            ],
+            "portal_P_max_abs": 0.0001581195413592572,
+            "portal_sigma_max_abs": 9.906120216735807e-06,
+            "relative_Y_current_defect": 0.6341708477465069,
+            "source_only_Y_current_L2": 0.014000377050005416,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          }
+        },
+        "finite_box_discrete_variational_Y_beta40": {
+          "Y_discrete_Hessian_min_eigenvalue": 2.247649286987355,
+          "Y_discrete_negative_stationary_action_NOT_energy": -0.0009667049263188351,
+          "Y_finite_box_reduced_stationary": true,
+          "Y_newton_residual_trace": [
+            0.043231796494638236,
+            6.050732814266803e-06,
+            2.34972740701827e-13
+          ],
+          "Y_newton_steps": 2,
+          "Y_stationary_fullcell_residual_L2": 2.34972740701827e-13,
+          "Y_stationary_initial_residual_L2": 0.043231796494638236,
+          "action_Hessian_directional_FD_error": 2.9626956752581545e-12,
+          "action_gradient_directional_FD_error": 6.972419248702324e-11,
+          "beta60_initial_fullcell_Hessian_min_eigenvalue": 0.19119690871175798,
+          "joint_source_X_residual": "NOT_SOLVED_NOT_CLAIMED",
+          "source_Noether_reaction_unresolved_abs_shift": [
+            0.004489167182953224,
+            0.004489167183066911
+          ],
+          "source_X_fluid_not_readjusted": true
+        }
+      },
+      "18_L12": {
+        "P10_background": {
+          "L": 12.0,
+          "P10_gauss_kernel_residual_inf": 2.098321516541546e-14,
+          "P10_scalar_EOM_weighted_L2_max": 1.5876352500598679e-06,
+          "Y_current_canonical_L2": 0.014967929278506445,
+          "h_canonical": 0.6666666666666666,
+          "neutral_X_charge": -1.3480536131815768e-14,
+          "nr": 18,
+          "source_energy_canonical_NOT_J": 712.5557086168102
+        },
+        "beta_sweep": {
+          "0": {
+            "X_Gauss_increment_flux_form_L2": 0.00018324840669142333,
+            "X_Gauss_increment_form_difference_L2": 9.14960329995392e-06,
+            "X_Gauss_portal_increment_L2": 0.00018236063271723332,
+            "Y_magnetic_Bianchi_inf": 3.6761229910836635e-19,
+            "actual_first_order_P_margin_min": 1.000000005939816,
+            "actual_first_order_P_negative_cells": 0,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 6.579877963086507e-07,
+            "fluid_number_error": 5.002220859751105e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": 1.000000005939818,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.014967604642622171,
+            "local_4mode_magnetic_eigenvalues": [
+              1.0,
+              1.0,
+              1.0,
+              1.000000005939816
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 0.9999999999994272,
+              "magnetic_active": 1.000000005939816,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                1.0,
+                1.0,
+                1.0,
+                1.0000000059403888
+              ],
+              "tachyonic_if_EFT_supports_mode": false
+            },
+            "local_magnetic_second_variation_FD_error": 7.680055480463466e-08,
+            "min_cell_indices": [
+              17,
+              0
+            ],
+            "portal_P_max_abs": 0.0001529110642851296,
+            "portal_sigma_max_abs": 7.645553214256479e-06,
+            "relative_Y_current_defect": 4.395984134248309e-05,
+            "source_only_Y_current_L2": 0.014967929278506445,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "20": {
+            "X_Gauss_increment_flux_form_L2": 0.0002053725925745951,
+            "X_Gauss_increment_form_difference_L2": 9.664087243040357e-06,
+            "X_Gauss_portal_increment_L2": 0.0002047587145701914,
+            "Y_magnetic_Bianchi_inf": 3.6761229910836635e-19,
+            "actual_first_order_P_margin_min": 0.6148534345412487,
+            "actual_first_order_P_negative_cells": 0,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.0023289784291887806,
+            "fluid_number_error": 1.1368683772161603e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": 0.6147971654780557,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.016673658894201294,
+            "local_4mode_magnetic_eigenvalues": [
+              0.6148534345412486,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0000960153560219,
+              "magnetic_active": 0.6148534345412487,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                0.614794404837588,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": false
+            },
+            "local_magnetic_second_variation_FD_error": 8.191051866779375e-07,
+            "min_cell_indices": [
+              0,
+              17
+            ],
+            "portal_P_max_abs": 0.0001529110642851296,
+            "portal_sigma_max_abs": 8.1131890858727e-06,
+            "relative_Y_current_defect": 0.15559790441642002,
+            "source_only_Y_current_L2": 0.014967929278506445,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "40": {
+            "X_Gauss_increment_flux_form_L2": 0.00023012449761835468,
+            "X_Gauss_increment_form_difference_L2": 1.0256196182903835e-05,
+            "X_Gauss_portal_increment_L2": 0.00022978719495929604,
+            "Y_magnetic_Bianchi_inf": 3.6761229910836635e-19,
+            "actual_first_order_P_margin_min": 0.22955414500209836,
+            "actual_first_order_P_negative_cells": 0,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.0046585730544932875,
+            "fluid_number_error": 2.5011104298755527e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": 0.22943510857394234,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.01851611647565675,
+            "local_4mode_magnetic_eigenvalues": [
+              0.2295541450020983,
+              0.9999999999999999,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0001920687854897,
+              "magnetic_active": 0.22955414500209836,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                0.22951006328298593,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": false
+            },
+            "local_magnetic_second_variation_FD_error": 3.619114055941619e-07,
+            "min_cell_indices": [
+              0,
+              17
+            ],
+            "portal_P_max_abs": 0.0001529110642851296,
+            "portal_sigma_max_abs": 8.58082495748892e-06,
+            "relative_Y_current_defect": 0.31123697659253885,
+            "source_only_Y_current_L2": 0.014967929278506445,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "60": {
+            "X_Gauss_increment_flux_form_L2": 0.00025674522910039275,
+            "X_Gauss_increment_form_difference_L2": 1.0913302339355254e-05,
+            "X_Gauss_portal_increment_L2": 0.0002566777313249712,
+            "Y_magnetic_Bianchi_inf": 3.6761229910836635e-19,
+            "actual_first_order_P_margin_min": -0.155738651618331,
+            "actual_first_order_P_negative_cells": 14,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.006988161820830797,
+            "fluid_number_error": 1.8189894035458565e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": -0.15592694833017107,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.020458155147950442,
+            "local_4mode_magnetic_eigenvalues": [
+              -0.15573865161833106,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0002881205963015,
+              "magnetic_active": -0.155738651618331,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                -0.15569379302984282,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": true
+            },
+            "local_magnetic_second_variation_FD_error": 5.251810078488184e-08,
+            "min_cell_indices": [
+              0,
+              17
+            ],
+            "portal_P_max_abs": 0.0001529110642851296,
+            "portal_sigma_max_abs": 9.048460829105141e-06,
+            "relative_Y_current_defect": 0.46687565733395164,
+            "source_only_Y_current_L2": 0.014967929278506445,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          },
+          "80": {
+            "X_Gauss_increment_flux_form_L2": 0.0002847110338695213,
+            "X_Gauss_increment_form_difference_L2": 1.162438812864321e-05,
+            "X_Gauss_portal_increment_L2": 0.00028490353741887766,
+            "Y_magnetic_Bianchi_inf": 3.6761229910836635e-19,
+            "actual_first_order_P_margin_min": -0.5410249553553987,
+            "actual_first_order_P_negative_cells": 32,
+            "first_order_Y": "NO_BACKREACTION",
+            "first_order_Y_current_reciprocity_defect_L2": 0.009317744725758768,
+            "fluid_number_error": 3.183231456205249e-12,
+            "fluid_redshifted_mu_error": 2.220446049250313e-16,
+            "frozen_P0_margin_min": -0.5412890052342847,
+            "full_X_Y_source_fluid_EOM": "NOT_SOLVED",
+            "full_constitutive_current_L2": 0.02247397266024571,
+            "local_4mode_magnetic_eigenvalues": [
+              -0.5410249553553987,
+              0.9999999999999999,
+              1.0,
+              1.0
+            ],
+            "local_finite_B_dispersion": {
+              "cutoff_and_wavelength_certified": false,
+              "ghost_if_full_active_kinetic_negative": false,
+              "kinetic_active": 1.0003841707884655,
+              "magnetic_active": -0.5410249553553987,
+              "physical_khat": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "squared_phase_speeds": [
+                -0.5408171891894121,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tachyonic_if_EFT_supports_mode": true
+            },
+            "local_magnetic_second_variation_FD_error": 1.847985292569021e-07,
+            "min_cell_indices": [
+              0,
+              17
+            ],
+            "portal_P_max_abs": 0.0001529110642851296,
+            "portal_sigma_max_abs": 9.516096700721361e-06,
+            "relative_Y_current_defect": 0.6225139464774734,
+            "source_only_Y_current_L2": 0.014967929278506445,
+            "stability_under_cutoff": "NOT_CERTIFIED"
+          }
+        },
+        "finite_box_discrete_variational_Y_beta40": {
+          "Y_discrete_Hessian_min_eigenvalue": 0.7348388899296977,
+          "Y_discrete_negative_stationary_action_NOT_energy": -0.000899615119768478,
+          "Y_finite_box_reduced_stationary": true,
+          "Y_newton_residual_trace": [
+            0.022864586959814658,
+            5.96743065391792e-06,
+            1.892025722767845e-12
+          ],
+          "Y_newton_steps": 2,
+          "Y_stationary_fullcell_residual_L2": 1.892025722767845e-12,
+          "Y_stationary_initial_residual_L2": 0.022864586959814658,
+          "action_Hessian_directional_FD_error": 2.101545785900097e-10,
+          "action_gradient_directional_FD_error": 4.9239468582535774e-11,
+          "beta60_initial_fullcell_Hessian_min_eigenvalue": -0.16453302471153702,
+          "joint_source_X_residual": "NOT_SOLVED_NOT_CLAIMED",
+          "source_Noether_reaction_unresolved_abs_shift": [
+            0.003990265957384054,
+            0.003990265957270367
+          ],
+          "source_X_fluid_not_readjusted": true
+        }
+      }
+    },
+    "classification": "ACTION_LEVEL_FROZEN_X_SOURCE_FLUID_Y_VARIATION_PLUS_2U1_TRANSVERSE_CONSTRAINED_PRINCIPAL",
+    "constrained_full_dynamical_spectrum": "NOT_SOLVED",
+    "exact": {
+      "Ward": "U1xU1 Bianchi and Gauss required; full on-shell stress and Einstein not solved",
+      "checks": {
+        "P_zero_neutral_trace_not_forced_zero": true,
+        "Y_cross_E_eigenvector": true,
+        "Y_parallel_E_eigenvector": true,
+        "Y_principal_determinant": true,
+        "Y_principal_trace": true,
+        "beta_stiffness_slope": true,
+        "both_U1_electric_kinetic_positive_at_B0": true,
+        "constant_P_zero_lambda_gradient": true,
+        "constant_lambda_abelian_topological": true,
+        "finite_B_dispersion_factorization": true,
+        "finite_B_three_luminal_modes": true,
+        "full_chi_source_plus_fluid_at_P0": true,
+        "full_lambda_source_plus_fluid_at_P0": true,
+        "gradient_condition_beta_zero_recovery": true,
+        "matter_density_changes_beta_stiffness": true,
+        "mixed_U1_Hessian_symmetry": true,
+        "portal_sigma_derivative": true,
+        "single_action_source_off_limit": true,
+        "transverse_X_Y_block_decouples_at_P0": true,
+        "transverse_X_block_canonical": true,
+        "transverse_vector_divergence_B_X": true,
+        "transverse_vector_divergence_B_Y": true
+      },
+      "chi_P0": "a**2*(-4*K - 16*U - 2*k*n**2 - m*n) + b*(4*K + 8*U - 2*k*n**2 + 2*m*n)",
+      "constant_lambda_topology": "F_X wedge F_Y is locally exact; constant lambda has no bulk principal effect",
+      "lambda_P0": "-a*(2*K + 4*U - k*n**2 + m*n)",
+      "physical_transverse_eigenvalues": [
+        "1",
+        "1",
+        "1",
+        "1-chi*|E_X cross k_hat|^2"
+      ],
+      "same_action": "EH[g]+Maxwell(X,Y)+charged_source[gtilde,X]+pullback_fluid[gtilde]+solid[gtilde]",
+      "spectrum_scope": "Frozen matter, fixed-g high-frequency local gauge subspace; full dynamic spectrum NOT certified"
+    },
+    "full_source_X_Y_fluid_solid_metric_on_shell": "NOT_SOLVED",
+    "gates": {
+      "P10_X_Gauss_kernel_residual_small": true,
+      "P10_net_charge_neutral": true,
+      "P10_scalar_EOM_small": true,
+      "P10_three_source_reconstructions": true,
+      "X_Gauss_increment_nonzero": true,
+      "Y_Bianchi_all_cases": true,
+      "Y_first_order_nonzero": true,
+      "Y_full_lambda_current_defect_nonzero": true,
+      "beta40_Y_Hessian_FD": true,
+      "beta40_Y_Hessian_positive_restricted": true,
+      "beta40_Y_gradient_FD": true,
+      "beta40_stationary_Y_fullcell_projected": true,
+      "exact_one_action_consistency": true,
+      "finite_B_active_kinetic_positive_in_test": true,
+      "finite_B_beta40_positive_speed2": true,
+      "finite_B_beta60_negative_speed2": true,
+      "fluid_mu_hydrostatic_all_cases": true,
+      "fluid_number_preserved_all_cases": true,
+      "local_finite_P_fd_Hessian": true,
+      "negative_beta60_finite_P": true,
+      "negative_beta60_frozen_P0": true,
+      "negative_beta80_finite_P": true,
+      "negative_cells_nonzero_at_beta60": true,
+      "not_complete_stability_certificate": true,
+      "not_full_on_shell": true,
+      "positive_beta40_finite_P": true,
+      "positive_beta40_frozen_P0": true,
+      "small_oneway_portal": true,
+      "source_Noether_constraint_not_reclosed": true,
+      "three_unmodified_modes_canonical": true,
+      "two_gauge_transverse_negative_eigen_at_beta60": true,
+      "two_gauge_transverse_positive_all_beta40": true
+    },
+    "limits": [
+      "Beta40 Y equation solved on entire discrete grid only at frozen X, scalar, neutral density and flat background.",
+      "Finite-box natural boundaries are not P10 free-space exterior; continuum and exterior transmission unproven.",
+      "Local transverse two-U1 spectrum does not include dynamic charged source, fluid, solid or metric modes.",
+      "Beta60 negative local speed squared is conditional on a physical wave number below an unknown UV cutoff.",
+      "The source N=400 constraints shift when the common metric changes; full fixed-Noether solve required.",
+      "X Gauss increments and Y current mismatches are not full absolute coupled field-equation residuals.",
+      "No real Earth, material interfaces, external reaction, whole-craft force or complete SI energy."
+    ],
+    "next": "PH16-03: reoptimize fixed-Noether scalar/X/Y and neutral fluid jointly at healthy beta<=40; then verify continuum and metric before PH17.",
+    "physical_promotion": "DENIED",
+    "verdict": "YELLOW_PH16_02_RESTRICTED_FULLCELL_Y_BETA40_STATIONARY_GAUGE_BETA60_PRINCIPAL_WARNING_FULL_SYSTEM_OPEN"
+  },
+  "source_sha256": "b16fa3141270cc446d761bc8459e5504325b994ac31a889c0ea88520161b0b48",
+  "tests_sha256": "3ace146405cb11042c919844d8d73957b32a2ac9f762dddbc59606964f2a7ef0",
+  "timestamp_utc": "2026-11-18T03:33:43.237505+00:00",
+  "true_exterior": "NOT_CERTIFIED"
+}

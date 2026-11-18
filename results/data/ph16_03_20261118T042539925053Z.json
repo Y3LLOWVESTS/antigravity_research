@@ -1,0 +1,285 @@
+{
+  "006D_replaced": false,
+  "1kg_torus_1g_at_1m": "NOT_CERTIFIED",
+  "ALPHA1_M5V_frozen": true,
+  "BETA1_heuristic": "FROZEN_APPROX_70_PERCENT",
+  "PH17_approved": "NO",
+  "branch": "PH16-03",
+  "classification": "ONE_ACTION_REDUCED_ROUTHIAN_Y_OMEGA_HYDROSTATIC_FLUID_FIXED_SOURCE_X",
+  "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+  "experiment": "FIXED_NOETHER_COUPLED_Y_FREQUENCY_HYDROSTATIC_NUMBER_REACTION_FROZEN_SOURCE_X",
+  "full_coupled_constrained_modes": "NOT_CERTIFIED",
+  "gravity_Einstein_EOM": "NOT_SOLVED",
+  "limits": [
+    "No fully coupled PH16 stationary solution: the source profiles F and X remain frozen",
+    "Y/omega/neutral fluid are jointly self-consistent only in the reduced finite-cell Routhian",
+    "X and scalar EOM defect diagnostics mix quadrature/finite-difference operators; not exact action gradients",
+    "No material supports, Einstein metric, full gauge-constrained hyperbolicity, source UV realization or Earth reaction",
+    "Routhian is not Hamiltonian, not joules; complete system energy cannot be certified"
+  ],
+  "neutral_fluid_dynamical_support": "NOT_SOLVED",
+  "next": "PH16-04: independently covary F and X in same discrete action and derive exact source/X gradients; test 3D exterior and metric later",
+  "parent_sha256": {
+    "PH15_P10_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    },
+    "PH15_P8_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py",
+      "sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "status": "MATCH"
+    },
+    "PH16_00_JSON": {
+      "path": "results/data/ph16_00_20261117T193302236321Z.json",
+      "sha256": "0f6025bbdaa1fe6da12bbd6d1044c192cbb40a1006d3103b76f8e9c0b3f8576e",
+      "status": "MATCH"
+    },
+    "PH16_01_JSON": {
+      "path": "results/data/ph16_01_20261118T001752187817Z.json",
+      "sha256": "06f4aa6960645823e81e5d577288dadda8d579567456e8af05dd21369a4173ad",
+      "status": "MATCH"
+    },
+    "PH16_01_SOURCE": {
+      "path": "src/antigravity_research/ph16/ph16_01_neutral_fluid_health.py",
+      "sha256": "7466a5c1a4613940ff6c57301375513629d0a940fb48e1d8ebe81bdbdf60ddbb",
+      "status": "MATCH"
+    },
+    "PH16_02_JSON": {
+      "path": "results/data/ph16_02_20261118T033343237505Z.json",
+      "sha256": "95b549c75346e81fc62b20e919160954c48bf4abe6230beb5bbf40ddf34a68ee",
+      "status": "MATCH"
+    },
+    "PH16_02_SOURCE": {
+      "path": "src/antigravity_research/ph16/ph16_02_reciprocal_principal.py",
+      "sha256": "b16fa3141270cc446d761bc8459e5504325b994ac31a889c0ea88520161b0b48",
+      "status": "MATCH"
+    }
+  },
+  "physical_Earth_down_craft_up": "NOT_DERIVED",
+  "physical_heuristic": "APPROX_35_PERCENT_REASSESS_AFTER_HUMAN_REVIEW",
+  "primary_verdict": "YELLOW_PH16_03_FIXED_NOETHER_Y_FLUID_REDUCED_STATIONARY_FULL_SOURCE_X_METRIC_OPEN",
+  "program": "ANTIGRAVITY_RESEARCH",
+  "runner_sha256": "f0a11909c8266439650c43a72a919b4c76b29f4056c5a507a82306258c6dbd43",
+  "scoped_gates_pass": true,
+  "scoped_results": {
+    "Earth_down_craft_up": "NOT_DERIVED",
+    "cases": {
+      "12_L12": {
+        "L": 12.0,
+        "P10": {
+          "EOM_initial_max": 8.187069959793669e-07,
+          "N": [
+            400.0,
+            400.0
+          ],
+          "source_energy_canonical": 711.8045370708118
+        },
+        "Routhian_Hessian_vector_fd_L2": 5.683915182220572e-12,
+        "Routhian_directional_gradient_fd_abs": 1.4372438120280666e-14,
+        "SI_complete_energy": "NOT_CERTIFIED",
+        "X_mixed_discretization_kernel_defect_L2": 0.0022389276984783103,
+        "X_mixed_discretization_kernel_defect_inf": 6.743308493745159e-05,
+        "beta": 40.0,
+        "frequency": [
+          0.8388569774027458,
+          0.8388569774028415
+        ],
+        "frozen_P10_omega_Noether_defect_abs": 0.004360525551931005,
+        "full_source_X_EOM": "NOT_SOLVED",
+        "h": 1.0,
+        "inner": {
+          "Hessian_min": 1.5664764678758034,
+          "Noether": [
+            400.0,
+            399.9999999999999
+          ],
+          "Routhian_NOT_energy": 2402.0292076809683,
+          "history": [
+            3.630416477974053e-13
+          ],
+          "residual_L2": 3.630416477974053e-13,
+          "steps": 0
+        },
+        "magnetic_margin_beta40_min": 0.20770061254195848,
+        "magnetic_negative_cell_count": 0,
+        "metric_Einstein_EOM": "NOT_SOLVED",
+        "neutral_labels_positive": true,
+        "neutral_mu_redshift_range": 4.440892098500626e-16,
+        "neutral_number_residual": 0.0,
+        "neutral_outer_updates": [
+          6.189675099310676e-05,
+          1.4137499781963214e-08,
+          3.35606542556377e-12
+        ],
+        "nr": 12,
+        "portal_P_max_abs": 0.0005168900938351755,
+        "portal_sigma_max_abs": 3.653151945595624e-05,
+        "real_Earth_and_full_craft": "NOT_DERIVED",
+        "source_N_residual_max": 1.1368683772161603e-13,
+        "source_frozen_EOM_diagnostic_weighted_L2": [
+          0.0003498746741604903,
+          0.0003498746552803569
+        ],
+        "source_sigma_gradient_mixed_discretization": true
+      },
+      "12_L16": {
+        "L": 16.0,
+        "P10": {
+          "EOM_initial_max": 5.535517640135491e-07,
+          "N": [
+            400.00000000000017,
+            400.0000000000001
+          ],
+          "source_energy_canonical": 710.7525649376865
+        },
+        "Routhian_Hessian_vector_fd_L2": 2.3546087138987857e-12,
+        "Routhian_directional_gradient_fd_abs": 6.284017829524059e-15,
+        "SI_complete_energy": "NOT_CERTIFIED",
+        "X_mixed_discretization_kernel_defect_L2": 0.0021639796966742833,
+        "X_mixed_discretization_kernel_defect_inf": 6.096845659858685e-05,
+        "beta": 40.0,
+        "frequency": [
+          0.8379510494929947,
+          0.8379510494909238
+        ],
+        "frozen_P10_omega_Noether_defect_abs": 0.004489043005321491,
+        "full_source_X_EOM": "NOT_SOLVED",
+        "h": 1.3333333333333333,
+        "inner": {
+          "Hessian_min": 2.247704692559433,
+          "Noether": [
+            399.9999999999999,
+            399.99999999999994
+          ],
+          "Routhian_NOT_energy": 4714.28590864824,
+          "history": [
+            1.8361108978524203e-13
+          ],
+          "residual_L2": 1.8361108978524203e-13,
+          "steps": 0
+        },
+        "magnetic_margin_beta40_min": 0.1842116514930049,
+        "magnetic_negative_cell_count": 0,
+        "metric_Einstein_EOM": "NOT_SOLVED",
+        "neutral_labels_positive": true,
+        "neutral_mu_redshift_range": 4.440892098500626e-16,
+        "neutral_number_residual": 4.092726157978177e-12,
+        "neutral_outer_updates": [
+          4.660236260070616e-05,
+          7.008661623286727e-09,
+          1.1269041255701495e-12
+        ],
+        "nr": 12,
+        "portal_P_max_abs": 0.0004128504437283932,
+        "portal_sigma_max_abs": 2.746034174188891e-05,
+        "real_Earth_and_full_craft": "NOT_DERIVED",
+        "source_N_residual_max": 1.1368683772161603e-13,
+        "source_frozen_EOM_diagnostic_weighted_L2": [
+          0.0003529296308651403,
+          0.00035292608502292743
+        ],
+        "source_sigma_gradient_mixed_discretization": true
+      },
+      "18_L12": {
+        "L": 12.0,
+        "P10": {
+          "EOM_initial_max": 1.5876352500598679e-06,
+          "N": [
+            399.99999999999994,
+            400.0
+          ],
+          "source_energy_canonical": 712.5557086168102
+        },
+        "Routhian_Hessian_vector_fd_L2": 3.5737628819892524e-10,
+        "Routhian_directional_gradient_fd_abs": 7.114686899329686e-14,
+        "SI_complete_energy": "NOT_CERTIFIED",
+        "X_mixed_discretization_kernel_defect_L2": 0.002345523496750888,
+        "X_mixed_discretization_kernel_defect_inf": 7.615009419537078e-05,
+        "beta": 40.0,
+        "frequency": [
+          0.8394025955916857,
+          0.839402595591685
+        ],
+        "frozen_P10_omega_Noether_defect_abs": 0.003990197007510687,
+        "full_source_X_EOM": "NOT_SOLVED",
+        "h": 0.6666666666666666,
+        "inner": {
+          "Hessian_min": 0.734861190120297,
+          "Noether": [
+            400.0,
+            400.00000000000006
+          ],
+          "Routhian_NOT_energy": 2404.435170120443,
+          "history": [
+            4.389231888495042e-13
+          ],
+          "residual_L2": 4.389231888495042e-13,
+          "steps": 0
+        },
+        "magnetic_margin_beta40_min": 0.22953375376325813,
+        "magnetic_negative_cell_count": 0,
+        "metric_Einstein_EOM": "NOT_SOLVED",
+        "neutral_labels_positive": true,
+        "neutral_mu_redshift_range": 4.440892098500626e-16,
+        "neutral_number_residual": 3.410605131648481e-12,
+        "neutral_outer_updates": [
+          7.285183721719712e-05,
+          2.2846407266019497e-08,
+          7.379458155654106e-12
+        ],
+        "nr": 18,
+        "portal_P_max_abs": 0.0005852570179647245,
+        "portal_sigma_max_abs": 4.29638819813147e-05,
+        "real_Earth_and_full_craft": "NOT_DERIVED",
+        "source_N_residual_max": 5.684341886080802e-14,
+        "source_frozen_EOM_diagnostic_weighted_L2": [
+          0.00031866744279210145,
+          0.0003186674295700782
+        ],
+        "source_sigma_gradient_mixed_discretization": true
+      }
+    },
+    "complete_SI_lt10MJ": "NOT_CERTIFIED",
+    "exact": {
+      "fluid_trace": true,
+      "hydrostatic_mu": true,
+      "matter_portal_chi": true,
+      "matter_portal_lambda": true,
+      "neutral_pullback_number_weight": true,
+      "no_portal_alpha_beta_zero": true,
+      "schur_frequency_stiffening": true,
+      "sigma_prime": true,
+      "source_Noether_stationarity": true,
+      "source_X_current_conjugate": true
+    },
+    "full_joint_on_shell": "NOT_SOLVED",
+    "gates": {
+      "P10_source_initial_on_shell": true,
+      "Routhian_Hessian_independent_FD": true,
+      "Routhian_gradient_independent_FD": true,
+      "X_mixed_grid_defect_reported": true,
+      "Y_omega_reduced_Hessian_positive": true,
+      "Y_omega_stationary": true,
+      "fluid_positive": true,
+      "frozen_gauge_beta40_positive": true,
+      "frozen_source_EOM_defect_reported": true,
+      "neutral_chemical_hydrostatic": true,
+      "neutral_material_number_preserved": true,
+      "no_false_earth_force": true,
+      "no_false_full_source_solve": true,
+      "no_false_metric_solve": true,
+      "old_P10_omega_fails_Noether": true,
+      "outer_neutral_converged": true,
+      "source_individual_Noether_reclosed": true,
+      "three_P10_sources": true
+    },
+    "scope": "Y+omega_i+hydrostatic n, fixed F/X. Mixed finite differences for source/X defect DIAGNOSTIC ONLY",
+    "verdict": "YELLOW_PH16_03_FIXED_NOETHER_Y_FLUID_REDUCED_STATIONARY_FULL_SOURCE_X_METRIC_OPEN"
+  },
+  "source_F_and_X_profiles": "FROZEN_NOT_VARIATIONALLY_CLOSED",
+  "source_X_gauss_full_absolute": "NOT_SOLVED",
+  "source_sha256": "c8c9724d80dff5c6b0832559ae645c8f515b1101a9a11612b629ec819ff8ae4b",
+  "tests_sha256": "f6ac17311e626edc89188fd05cb72a470dd8bb7b245c72468716e74758b4e185",
+  "timestamp_utc": "2026-11-18T04:25:39.925053+00:00"
+}

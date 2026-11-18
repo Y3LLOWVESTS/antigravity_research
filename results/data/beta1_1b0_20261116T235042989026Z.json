@@ -1,0 +1,689 @@
+{
+  "006D_replaced": false,
+  "ALPHA1_M5V_frozen": true,
+  "branch": "BETA1-1B0",
+  "classification": "NECESSARY_CONDITION_DERIVED",
+  "complete_energy_SI": "NOT_AVAILABLE",
+  "constrained_dynamic_stability": "NOT_CERTIFIED",
+  "earth_craft_force": "NOT_DERIVED",
+  "experiment": "P10_ACTUAL_SOURCE_MAGNETIC_Y_RITZ_AND_LOCAL_PHASE_SCHUR",
+  "gauge_constraint_scope": "B_Y=curl(A_Y_phi) divergence-free; alpha=0 implies lambda0=0, so X Gauss has no first-order magnetic-Y perturbation; full constraints not solved",
+  "independent_verifier_sha256": "09a1612adb00590d46f703943a6e772617b240b51aacbd3e33be47b58e6e33c2",
+  "neutral_matter_earth_metric": "NOT_SOLVED",
+  "next": "BETA1-1B1 complete dynamic gauge/phase constrained operator, then BETA1-02 passive neutral matter versus M5V C2",
+  "parent_source_sha256": {
+    "BETA1_00_JSON": {
+      "path": "results/data/beta1_00_20261116T200742656266Z.json",
+      "sha256": "866a305e4d7618d174ff63e864a3d7054ffc9133284e0e5c3637dec89145f708",
+      "status": "MATCH"
+    },
+    "BETA1_01_JSON": {
+      "path": "results/data/beta1_01_20261116T215749728579Z.json",
+      "sha256": "706856dd6e469911f1845415c48ab30485f9027f238620c69af895b97fbf1579",
+      "status": "MATCH"
+    },
+    "P10_JSON": {
+      "path": "results/data/032h17_ph15_p10_20261116T182301044331Z.json",
+      "sha256": "af59b072dba9a0424c569419af1f673172c3123a371eec8443e52cd81efc73c1",
+      "status": "MATCH"
+    },
+    "P10_source": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    },
+    "P8_source": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py",
+      "sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "status": "MATCH"
+    }
+  },
+  "physical_transfer": "NOT_AUTHORIZED",
+  "program": "BETA-1",
+  "research_completion_heuristic": "UNCHANGED_APPROX_35_PERCENT",
+  "runner_sha256": "155b58ea6f03002fc1b6c1ad6104a1f530952ccefcac59c0fc101471994b63e5",
+  "scoped_results": {
+    "cases": {
+      "base18_L12": {
+        "K_plus_2U_min": 1.7555896562002832e-08,
+        "L_canonical": 12.0,
+        "Y_current_first_order_alpha0": 0.0,
+        "Y_current_first_order_alpha1": 0.29935858557012884,
+        "Y_current_first_order_alpha_half": 0.14967929278506442,
+        "alpha0_Ritz_beta_critical_fixed_basis": 69.03472393751144,
+        "alpha0_beta100_Bianchi_divergence_inf": 1.1102230246251565e-16,
+        "alpha0_beta100_full_exponential_H_fd": {
+          "absolute_error": 0.00010925380491755288,
+          "central_fd": -0.44843716068498907,
+          "derived_quadratic": -0.4485464144899066,
+          "epsilon": 0.01,
+          "odd_energy_error": 0.0
+        },
+        "alpha1_beta0_local_min": 1.0000000000011393,
+        "alpha1_beta100_local_min": -0.5383153794683389,
+        "beta_thresholds_local": {
+          "0.0": {
+            "cell_indices": [
+              0,
+              17
+            ],
+            "intercept_at_cell": 1.0,
+            "positive_slope_cell_fraction": 1.0,
+            "slope_at_cell": 0.016580623609499696,
+            "value": 60.31136244037651
+          },
+          "1.0": {
+            "cell_indices": [
+              0,
+              17
+            ],
+            "intercept_at_cell": 1.1197469814816308,
+            "positive_slope_cell_fraction": 1.0,
+            "slope_at_cell": 0.016580623609499696,
+            "value": 67.5334660416562
+          }
+        },
+        "h_canonical": 0.6666666666666666,
+        "max_E2": 0.009684609859657425,
+        "min_G": 1.6361564944307407e-08,
+        "min_T": 6.434085538159279e-10,
+        "min_U": 9.188700857548473e-10,
+        "nr": 18,
+        "phase_hamiltonian_FD": {
+          "analytic": 1.1197469814816308,
+          "fd_steps": [
+            0.01,
+            0.003,
+            0.001
+          ],
+          "last_error": 7.660738710058013e-10,
+          "site": [
+            0,
+            17
+          ],
+          "values": [
+            1.1197471081469956,
+            1.119746992807159,
+            1.1197469822477046
+          ]
+        },
+        "rayleigh_alpha0_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.6365881703598,
+          "maximum": 1.00000000000001,
+          "minimum": 0.9999999999999967,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.6365881703598,
+          "maximum": 0.7574710690488047,
+          "minimum": -0.44854641448990634,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta75": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.6365881703598,
+          "maximum": 0.8181033017865992,
+          "minimum": -0.0864098108674283,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.6365881703598,
+          "maximum": 1.1043572053437707,
+          "minimum": 1.0117224104918439,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.6365881703598,
+          "maximum": 0.7694682232156989,
+          "minimum": -0.34421870398168725,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta300": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.6365881703598,
+          "maximum": 0.28439244907811395,
+          "minimum": -3.2413099576761404,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "source_energy_CANONICAL_NOT_J": 712.5557086168102,
+        "source_eom_L2": [
+          1.5825934867529038e-06,
+          1.5876352500598679e-06
+        ],
+        "source_net_X_charge": -1.3480536131815768e-14,
+        "source_sep": 2.8507409387115636,
+        "source_status": "RECOMPUTED_P10_DISCRETE_X_SOURCE;Y_NOT_BACKREACTED"
+      },
+      "coarse12_L12": {
+        "K_plus_2U_min": 4.0938221122592203e-08,
+        "L_canonical": 12.0,
+        "Y_current_first_order_alpha0": 0.0,
+        "Y_current_first_order_alpha1": 0.2891193084997893,
+        "Y_current_first_order_alpha_half": 0.14455965424989464,
+        "alpha0_Ritz_beta_critical_fixed_basis": 70.60446590185165,
+        "alpha0_beta100_Bianchi_divergence_inf": 2.7755575615628914e-17,
+        "alpha0_beta100_full_exponential_H_fd": {
+          "absolute_error": 6.7835802156746e-05,
+          "central_fd": -0.41627315113146324,
+          "derived_quadratic": -0.41634098693362,
+          "epsilon": 0.01,
+          "odd_energy_error": 0.0
+        },
+        "alpha1_beta0_local_min": 1.0000000000035478,
+        "alpha1_beta100_local_min": -0.580478110630838,
+        "beta_thresholds_local": {
+          "0.0": {
+            "cell_indices": [
+              0,
+              11
+            ],
+            "intercept_at_cell": 1.0,
+            "positive_slope_cell_fraction": 1.0,
+            "slope_at_cell": 0.017034145574329314,
+            "value": 58.70561547313611
+          },
+          "1.0": {
+            "cell_indices": [
+              0,
+              11
+            ],
+            "intercept_at_cell": 1.1229364468020937,
+            "positive_slope_cell_fraction": 1.0,
+            "slope_at_cell": 0.017034145574329314,
+            "value": 65.92267524673348
+          }
+        },
+        "h_canonical": 1.0,
+        "max_E2": 0.010023322880455923,
+        "min_G": 3.495623803656736e-08,
+        "min_T": 3.214271499008842e-09,
+        "min_U": 4.598127292514076e-09,
+        "nr": 12,
+        "phase_hamiltonian_FD": {
+          "analytic": 1.1229364468020937,
+          "fd_steps": [
+            0.01,
+            0.003,
+            0.001
+          ],
+          "last_error": 1.026144058613454e-09,
+          "site": [
+            0,
+            11
+          ],
+          "values": [
+            1.1229365813836267,
+            1.1229364588811248,
+            1.1229364478282378
+          ]
+        },
+        "rayleigh_alpha0_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 893.0962466001779,
+          "maximum": 1.0000000000000284,
+          "minimum": 0.999999999999978,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 893.0962466001779,
+          "maximum": 0.7853846242487493,
+          "minimum": -0.4163409869336202,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta75": {
+          "basis_size": 8,
+          "gram_condition_kept": 893.0962466001779,
+          "maximum": 0.8390384681865645,
+          "minimum": -0.062255740200213024,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 893.0962466001779,
+          "maximum": 1.1016587693985382,
+          "minimum": 1.0098562690524988,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 893.0962466001779,
+          "maximum": 0.7953593783865262,
+          "minimum": -0.31471759449731534,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta300": {
+          "basis_size": 8,
+          "gram_condition_kept": 893.0962466001779,
+          "maximum": 0.3661215761243613,
+          "minimum": -3.147397696937951,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "source_energy_CANONICAL_NOT_J": 711.8045370708116,
+        "source_eom_L2": [
+          7.93854764061098e-07,
+          7.981337238737213e-07
+        ],
+        "source_net_X_charge": -1.454392162258955e-14,
+        "source_sep": 2.9096090902665357,
+        "source_status": "RECOMPUTED_P10_DISCRETE_X_SOURCE;Y_NOT_BACKREACTED"
+      },
+      "fixed_h24_L16": {
+        "K_plus_2U_min": 1.798729186208954e-11,
+        "L_canonical": 16.0,
+        "Y_current_first_order_alpha0": 0.0,
+        "Y_current_first_order_alpha1": 0.30133094903122515,
+        "Y_current_first_order_alpha_half": 0.15066547451561257,
+        "alpha0_Ritz_beta_critical_fixed_basis": 67.84743517637253,
+        "alpha0_beta100_Bianchi_divergence_inf": 1.6653345369377348e-16,
+        "alpha0_beta100_full_exponential_H_fd": {
+          "absolute_error": 0.0001134186323556996,
+          "central_fd": -0.47378165618283674,
+          "derived_quadratic": -0.47389507481519244,
+          "epsilon": 0.01,
+          "odd_energy_error": 0.0
+        },
+        "alpha1_beta0_local_min": 1.0000000000000002,
+        "alpha1_beta100_local_min": -0.5663028126404431,
+        "beta_thresholds_local": {
+          "0.0": {
+            "cell_indices": [
+              0,
+              24
+            ],
+            "intercept_at_cell": 1.0,
+            "positive_slope_cell_fraction": 0.9878472222222222,
+            "slope_at_cell": 0.01688206834203077,
+            "value": 59.234448039185494
+          },
+          "1.0": {
+            "cell_indices": [
+              0,
+              24
+            ],
+            "intercept_at_cell": 1.1219040215626335,
+            "positive_slope_cell_fraction": 0.9878472222222222,
+            "slope_at_cell": 0.01688206834203077,
+            "value": 66.45536547020505
+          }
+        },
+        "h_canonical": 0.6666666666666666,
+        "max_E2": 0.009865201051938468,
+        "min_G": 1.6756316646586614e-11,
+        "min_T": 6.659299034346569e-13,
+        "min_U": 9.484525594687917e-13,
+        "nr": 24,
+        "phase_hamiltonian_FD": {
+          "analytic": 1.1219040215626335,
+          "fd_steps": [
+            0.01,
+            0.003,
+            0.001
+          ],
+          "last_error": 5.65117508344315e-10,
+          "site": [
+            0,
+            24
+          ],
+          "values": [
+            1.1219041529120233,
+            1.1219040333286676,
+            1.121904022127751
+          ]
+        },
+        "rayleigh_alpha0_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029224983645,
+          "maximum": 1.0000000000000218,
+          "minimum": 0.9999999999999853,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029224983645,
+          "maximum": 0.7546398143583583,
+          "minimum": -0.4738950748151915,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta75": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029224983645,
+          "maximum": 0.8159798607687667,
+          "minimum": -0.10542130611139242,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029224983645,
+          "maximum": 1.1061479532409515,
+          "minimum": 1.0118473553580365,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029224983645,
+          "maximum": 0.7667624787324551,
+          "minimum": -0.3677782578477456,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta300": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029224983645,
+          "maximum": 0.27602421144790307,
+          "minimum": -3.315566743165692,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "source_energy_CANONICAL_NOT_J": 712.5143171888592,
+        "source_eom_L2": [
+          1.4617507268271903e-06,
+          1.467648799111059e-06
+        ],
+        "source_net_X_charge": -6.772360450213455e-15,
+        "source_sep": 2.878861884639037,
+        "source_status": "RECOMPUTED_P10_DISCRETE_X_SOURCE;Y_NOT_BACKREACTED"
+      },
+      "fixed_h30_L20": {
+        "K_plus_2U_min": 2.1873471606585277e-14,
+        "L_canonical": 20.0,
+        "Y_current_first_order_alpha0": 0.0,
+        "Y_current_first_order_alpha1": 0.30135009996473044,
+        "Y_current_first_order_alpha_half": 0.15067504998236522,
+        "alpha0_Ritz_beta_critical_fixed_basis": 67.83521920442581,
+        "alpha0_beta100_Bianchi_divergence_inf": 1.1102230246251565e-16,
+        "alpha0_beta100_full_exponential_H_fd": {
+          "absolute_error": 0.00011346537061024398,
+          "central_fd": -0.4740470217257098,
+          "derived_quadratic": -0.47416048709632,
+          "epsilon": 0.01,
+          "odd_energy_error": 0.0
+        },
+        "alpha1_beta0_local_min": 1.0,
+        "alpha1_beta100_local_min": -0.5665979807597742,
+        "beta_thresholds_local": {
+          "0.0": {
+            "cell_indices": [
+              0,
+              29
+            ],
+            "intercept_at_cell": 1.0,
+            "positive_slope_cell_fraction": 0.8588888888888889,
+            "slope_at_cell": 0.01688524876974994,
+            "value": 59.223290911266176
+          },
+          "1.0": {
+            "cell_indices": [
+              0,
+              29
+            ],
+            "intercept_at_cell": 1.1219268962152196,
+            "positive_slope_cell_fraction": 0.8588888888888889,
+            "slope_at_cell": 0.01688524876974994,
+            "value": 66.44420295572789
+          }
+        },
+        "h_canonical": 0.6666666666666666,
+        "max_E2": 0.009867119004881474,
+        "min_G": 2.0346431297289293e-14,
+        "min_T": 8.278548878781347e-16,
+        "min_U": 1.1774475985866246e-15,
+        "nr": 30,
+        "phase_hamiltonian_FD": {
+          "analytic": 1.1219268962152196,
+          "fd_steps": [
+            0.01,
+            0.003,
+            0.001
+          ],
+          "last_error": 1.3918199925910812e-09,
+          "site": [
+            0,
+            29
+          ],
+          "values": [
+            1.1219270276230375,
+            1.1219269080184644,
+            1.1219268976070396
+          ]
+        },
+        "rayleigh_alpha0_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029699179212,
+          "maximum": 1.000000000000016,
+          "minimum": 0.999999999999976,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029699179212,
+          "maximum": 0.7546071338000284,
+          "minimum": -0.4741604870963208,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta75": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029699179212,
+          "maximum": 0.8159553503500219,
+          "minimum": -0.10562036532223845,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029699179212,
+          "maximum": 1.106166787787866,
+          "minimum": 1.0118488021546845,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029699179212,
+          "maximum": 0.7667312792064528,
+          "minimum": -0.3680248533268941,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta300": {
+          "basis_size": 8,
+          "gram_condition_kept": 528.7029699179212,
+          "maximum": 0.27592764873998327,
+          "minimum": -3.3163441622424714,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "source_energy_CANONICAL_NOT_J": 712.5138727498801,
+        "source_eom_L2": [
+          1.5013035304328942e-06,
+          1.563164470499674e-06
+        ],
+        "source_net_X_charge": 6.440160904563896e-15,
+        "source_sep": 2.8791782179070657,
+        "source_status": "RECOMPUTED_P10_DISCRETE_X_SOURCE;Y_NOT_BACKREACTED"
+      },
+      "refine36_L16": {
+        "K_plus_2U_min": 7.791293611584716e-12,
+        "L_canonical": 16.0,
+        "Y_current_first_order_alpha0": 0.0,
+        "Y_current_first_order_alpha1": 0.3086253922344549,
+        "Y_current_first_order_alpha_half": 0.15431269611722745,
+        "alpha0_Ritz_beta_critical_fixed_basis": 68.71173232793808,
+        "alpha0_beta100_Bianchi_divergence_inf": 1.3877787807814457e-16,
+        "alpha0_beta100_full_exponential_H_fd": {
+          "absolute_error": 0.00011748899758151632,
+          "central_fd": -0.4552380528366484,
+          "derived_quadratic": -0.45535554183422994,
+          "epsilon": 0.01,
+          "odd_energy_error": 0.0
+        },
+        "alpha1_beta0_local_min": 1.0,
+        "alpha1_beta100_local_min": -0.5472714979668567,
+        "beta_thresholds_local": {
+          "0.0": {
+            "cell_indices": [
+              0,
+              36
+            ],
+            "intercept_at_cell": 1.0,
+            "positive_slope_cell_fraction": 0.9868827160493827,
+            "slope_at_cell": 0.01667688549818443,
+            "value": 59.963234748410756
+          },
+          "1.0": {
+            "cell_indices": [
+              0,
+              36
+            ],
+            "intercept_at_cell": 1.1204170518515864,
+            "positive_slope_cell_fraction": 0.9868827160493827,
+            "slope_at_cell": 0.01667688549818443,
+            "value": 67.18383069629897
+          }
+        },
+        "h_canonical": 0.4444444444444444,
+        "max_E2": 0.009712023029620064,
+        "min_G": 7.54794330367424e-12,
+        "min_T": 1.3175521580084656e-13,
+        "min_U": 1.8755276184949805e-13,
+        "nr": 36,
+        "phase_hamiltonian_FD": {
+          "analytic": 1.1204170518515864,
+          "fd_steps": [
+            0.01,
+            0.003,
+            0.001
+          ],
+          "last_error": 1.5058279068114189e-09,
+          "site": [
+            0,
+            36
+          ],
+          "values": [
+            1.1204171795897722,
+            1.120417063374093,
+            1.1204170533574143
+          ]
+        },
+        "rayleigh_alpha0_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 451.20270743550225,
+          "maximum": 1.0000000000000058,
+          "minimum": 0.9999999999999819,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 451.20270743550225,
+          "maximum": 0.7408886097724294,
+          "minimum": -0.4553555418342291,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha0_beta75": {
+          "basis_size": 8,
+          "gram_condition_kept": 451.20270743550225,
+          "maximum": 0.8056664573293217,
+          "minimum": -0.09151665637567401,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta0": {
+          "basis_size": 8,
+          "gram_condition_kept": 451.20270743550225,
+          "maximum": 1.1048158291705248,
+          "minimum": 1.0127344642221323,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta100": {
+          "basis_size": 8,
+          "gram_condition_kept": 451.20270743550225,
+          "maximum": 0.7539804214513757,
+          "minimum": -0.35057597613058483,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "rayleigh_alpha1_beta300": {
+          "basis_size": 8,
+          "gram_condition_kept": 451.20270743550225,
+          "maximum": 0.23573368691868968,
+          "minimum": -3.261285125784114,
+          "retained_basis": 8,
+          "scope": "AXISYMMETRIC_GAUSSIAN_Y_MAGNETIC_RITZ_FIXED_X_AND_LOCAL_PHASE_MOMENTA"
+        },
+        "source_energy_CANONICAL_NOT_J": 712.8399382601614,
+        "source_eom_L2": [
+          1.8390825955141932e-06,
+          1.841902735604017e-06
+        ],
+        "source_net_X_charge": 7.424616477180734e-16,
+        "source_sep": 2.8546835593282633,
+        "source_status": "RECOMPUTED_P10_DISCRETE_X_SOURCE;Y_NOT_BACKREACTED"
+      }
+    },
+    "classification": "NECESSARY_CONDITION_DERIVED",
+    "gates": {
+      "PH15_first_order_Y_alpha_scaling": true,
+      "alpha0_beta0_free_maxwell": true,
+      "alpha0_beta100_Bianchi": true,
+      "alpha0_beta100_finite_amplitude_H_matches": true,
+      "alpha0_beta100_negative_ritz_all_grids": true,
+      "alpha0_beta75_negative_ritz_refined": true,
+      "alpha0_critical_Ritz_beta_L16_grid_agreement": true,
+      "alpha0_critical_Ritz_beta_fixed_h_domain_agreement": true,
+      "beta100_local_sign_change_all_grids": true,
+      "fixed_h_domain_beta_threshold_rel_below_2pct": true,
+      "phase_fd_cross_check": true,
+      "positive_beta0_all_grids": true,
+      "source_eom_neutrality": true
+    },
+    "limitations": [
+      "Alpha=0,Y=0 is stationary within the restricted two-carrier flat action; alpha-nonzero Y=0 is not generally stationary",
+      "Local phase Legendre transformation; global Noether/longitudinal constraints not fully solved",
+      "Ritz Gaussian basis incompletely spans Maxwell/phase/source modes",
+      "B coefficient at finite coupling is not the full dynamical characteristic",
+      "Finite-difference E,G are not continuum certified",
+      "No real neutral matter, support, Earth, SI or UV"
+    ],
+    "physical_claim": "NO_FULL_PH16_STABILITY_OR_EARTH_FORCE",
+    "scope": "P10_DISCRETE_FREE_X_SOURCE; FY_ZERO; BX_ZERO; FROZEN_X_AND_SCALAR_AMPLITUDES; LOCAL_PHASE_MOMENTUM_ELIMINATION; NO_GRAVITY",
+    "symbolic": {
+      "U_polynomial_nonnegative_for_s>=0_gcontact>=0": true,
+      "beta0_alpha_any_nonnegative_source_curvature": true,
+      "canonical_2phase_Schur_equals_H_BB": true,
+      "electric_velocity_block": "Maxwell unit coefficients at BX=BY=0; not the complete principal symbol",
+      "phase_fixed_local_H_BB": "4*G*alpha**2*e**2 - 4*G*beta*e**2 + 4*T*alpha**2*e**2 + 4*T*beta*e**2 + 16*U*alpha**2*e**2 - 8*U*beta*e**2 + 1"
+    },
+    "verdict": "YELLOW_ALPHA0_BETA100_DISCRETE_NEGATIVE_MAGNETIC_MODE_FULL_PH16_OPEN"
+  },
+  "source_energy_SI": "NOT_AVAILABLE",
+  "source_full_reciprocity": "NOT_SOLVED",
+  "source_sha256": "a137d99b297891c7c1c901c0ebaafa96aa52df94fcd5b44dfb69d683f82a37c5",
+  "timestamp_utc": "2026-11-16T23:50:42.989026+00:00",
+  "verdict": "YELLOW_ALPHA0_BETA100_DISCRETE_NEGATIVE_MAGNETIC_MODE_FULL_PH16_OPEN",
+  "whole_craft_reaction": "NOT_DERIVED"
+}

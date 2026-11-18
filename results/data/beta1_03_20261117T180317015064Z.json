@@ -1,0 +1,1485 @@
+{
+  "006D_replaced": false,
+  "ALPHA1_M5V_frozen": true,
+  "branch": "BETA1-03",
+  "classification": "ACTION_DERIVED_FINITE_DIMENSIONAL_RECIPROCAL_SOURCE_X_Y_WITNESS",
+  "complete_energy_SI": "NOT_AVAILABLE",
+  "completion_heuristic": "UNCHANGED_APPROX_35_PERCENT",
+  "constrained_dynamic_health": "NOT_CERTIFIED",
+  "continuum_exterior": "NOT_CERTIFIED",
+  "earth_down_craft_up": "NOT_DERIVED",
+  "experiment": "NONZERO_ALPHA_RECIPROCAL_SOURCE_X_Y_FIXED_NOETHER_REDUCED_ACTION",
+  "full_source_X_Y_on_shell": "NOT_CERTIFIED",
+  "independent_verifier_sha256": "4c5c106daefe0bfc89a4f058a0081a6cd51d9939dc40d907d6b349be638cbd2e",
+  "neutral_metric_matter": "NOT_SOLVED",
+  "neutral_torus_1kg_1g_1m": "NOT_CERTIFIED",
+  "next": "BETA1-04 exact exterior force/support Ward and whole-craft interaction atlas, then PH16 pivot decision",
+  "on_shell_scope": "STATIONARY_ONLY_IN_20_DIMENSIONAL_GALERKIN_SPACE",
+  "parent_source_sha256": {
+    "BETA1_00_JSON": {
+      "path": "results/data/beta1_00_20261116T200742656266Z.json",
+      "sha256": "866a305e4d7618d174ff63e864a3d7054ffc9133284e0e5c3637dec89145f708",
+      "status": "MATCH"
+    },
+    "BETA1_01_JSON": {
+      "path": "results/data/beta1_01_20261116T215749728579Z.json",
+      "sha256": "706856dd6e469911f1845415c48ab30485f9027f238620c69af895b97fbf1579",
+      "status": "MATCH"
+    },
+    "BETA1_02_JSON": {
+      "path": "results/data/beta1_02_20261117T164856020351Z.json",
+      "sha256": "723e21b16c003fdc6962455617ca56e9c390db10e43c1c55bfaec6e10efc3881",
+      "status": "MATCH"
+    },
+    "BETA1_1B0_JSON": {
+      "path": "results/data/beta1_1b0_20261116T235042989026Z.json",
+      "sha256": "e60c13e66bacc77f38a3c97c390073151540132843ff1e22241936884a17fc0b",
+      "status": "MATCH"
+    },
+    "BETA1_1B1_JSON": {
+      "path": "results/data/beta1_1b1_20261117T001913743770Z.json",
+      "sha256": "1468220d56a8555207f3f7e7960880636bc0ccb88bc344ad0d748e5e61a91b11",
+      "status": "MATCH"
+    },
+    "FROZEN_M5V_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5v_unified_exterior_action.py",
+      "sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "PH15_P10_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    },
+    "PH15_P1_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p1_theorem.py",
+      "sha256": "9ce430fa8a0e155ef330de27f1a8461c93a970385db4eeb53507c87253c07ca5",
+      "status": "MATCH"
+    },
+    "PH15_P8_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py",
+      "sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "status": "MATCH"
+    }
+  },
+  "physical_transfer": "NOT_AUTHORIZED",
+  "primary_verdict": "YELLOW_NONZERO_ALPHA_REDUCED_RECIPROCITY_PASSES_FULL_ONSHELL_AND_METRIC_OPEN",
+  "program": "BETA-1",
+  "runner_sha256": "a06edfe02bc1bab5745c8bc62ac3c0ee09843fe7c6d1d0fca3e4bd3c8ee359da",
+  "scoped_results": {
+    "cases": {
+      "12_L12": {
+        "L_canonical": 12.0,
+        "P10_energy_CANONICAL_NOT_J": 711.8045370708118,
+        "base_X_kernel_Gauss_residual": 1.8818280267396403e-14,
+        "base_reduced_EOM_inf": 1.438440346958164e-07,
+        "basis": {
+          "X_Gauss_response_modes": 6,
+          "Y_axisymmetric_modes": 8,
+          "full_Y_PDE": "NOT_SOLVED",
+          "full_field_electrostatic_components": 288,
+          "full_field_scalar_components": 576,
+          "scalar_modes": 6
+        },
+        "beta80_negative_control": {
+          "Noether_species": [
+            400.0,
+            399.99999999999994
+          ],
+          "P_abs_integral": 0.10109799334288092,
+          "X_core_norm": 0.00043312975372054494,
+          "Y_H_min_full_stationary": -5.022657076950162,
+          "Y_Schur_static_min": -5.030444032488809,
+          "Y_norm": 0.03570319285423498,
+          "Y_static_instability_if_negative": true,
+          "alpha": 0.025,
+          "beta": 80.0,
+          "energy_change_canonical_NOT_J": -0.00031649391314658715,
+          "fixed_N_error_inf": 5.684341886080802e-14,
+          "frozen_source_Y": {
+            "Y_H_min": -5.057698148151851,
+            "Y_drive": 0.34267739515916595,
+            "Y_response_norm": 0.0,
+            "Y_stationarity_residual": 0.34267739515916595,
+            "frozen_core_residual": 2.717204475404405e-07
+          },
+          "net_X_charge": 7.105427357601002e-15,
+          "reduced_stationarity": 2.7550648847397363e-14,
+          "root_status": true,
+          "scalar_core_norm": 0.008118564715728404,
+          "sigma_max_abs": 7.313320900929375e-05,
+          "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+        },
+        "fixedN_action_zero_coupling_energy_error": 0.0,
+        "fixed_beta_scans": {
+          "0": [
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.031157908067239386,
+              "X_core_norm": 1.2342098144842459e-05,
+              "Y_H_min_full_stationary": 0.7742664726052727,
+              "Y_Schur_static_min": 0.7742677138579886,
+              "Y_norm": 0.0027584772136928187,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 0.0,
+              "energy_change_canonical_NOT_J": -0.00012125345733693393,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 0.7742664721962709,
+                "Y_drive": 0.34267739515916595,
+                "Y_response_norm": 0.0027584596821514412,
+                "Y_stationarity_residual": 2.7100322849794225e-11,
+                "frozen_core_residual": 0.0009020193796532011
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.000398641838875731,
+              "sigma_max_abs": 2.151065656064848e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.00000000000006,
+                400.0
+              ],
+              "P_abs_integral": 0.062320456459705464,
+              "X_core_norm": 4.9242509051369004e-05,
+              "Y_H_min_full_stationary": 0.7742980543637926,
+              "Y_Schur_static_min": 0.7743030177808764,
+              "Y_norm": 0.005516869791942078,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 0.0,
+              "energy_change_canonical_NOT_J": -0.0004850190931620091,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.7742980479184357,
+                "Y_drive": 0.6853547903183319,
+                "Y_response_norm": 0.005516733508327479,
+                "Y_stationarity_residual": 8.670539116542871e-10,
+                "frozen_core_residual": 0.003607821579131908
+              },
+              "net_X_charge": 7.105427357601002e-15,
+              "reduced_stationarity": 3.7882142165171374e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0015854145953458584,
+              "sigma_max_abs": 8.604813273496764e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                400.00000000000006
+              ],
+              "P_abs_integral": 0.12467790443943653,
+              "X_core_norm": 0.0001968094455050865,
+              "Y_H_min_full_stationary": 0.7744244432837848,
+              "Y_Schur_static_min": 0.7744442715077642,
+              "Y_norm": 0.011033057743416922,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 0.0,
+              "energy_change_canonical_NOT_J": -0.0019401598683543853,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.7744243407724092,
+                "Y_drive": 1.3707095806366638,
+                "Y_response_norm": 0.011031980900848812,
+                "Y_stationarity_residual": 2.7727675798520092e-08,
+                "frozen_core_residual": 0.014426284456471311
+              },
+              "net_X_charge": -7.105427357601002e-15,
+              "reduced_stationarity": 1.4693679385278592e-14,
+              "root_status": true,
+              "scalar_core_norm": 0.006328247995310725,
+              "sigma_max_abs": 3.442801391772652e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ],
+          "20": [
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.03427139309949023,
+              "X_core_norm": 1.4311702363965346e-05,
+              "Y_H_min_full_stationary": 0.6736478256110808,
+              "Y_Schur_static_min": 0.6736497229225891,
+              "Y_norm": 0.0030655029364424686,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 20.0,
+              "energy_change_canonical_NOT_J": -0.00013506983657407545,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 0.6736488583688082,
+                "Y_drive": 0.34267739515916595,
+                "Y_response_norm": 0.003065455726430783,
+                "Y_stationarity_residual": 1.644056924310799e-06,
+                "frozen_core_residual": 0.0011355233449173757
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0005094882076835777,
+              "sigma_max_abs": 2.9261701678508488e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.06855100791042584,
+              "X_core_norm": 5.708373577698495e-05,
+              "Y_H_min_full_stationary": 0.6736803820299936,
+              "Y_Schur_static_min": 0.6736879682155575,
+              "Y_norm": 0.006130954288681238,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 20.0,
+              "energy_change_canonical_NOT_J": -0.0005402941377496973,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 0.6736845521790145,
+                "Y_drive": 0.6853547903183319,
+                "Y_response_norm": 0.006130586443452964,
+                "Y_stationarity_residual": 1.3709318667115308e-05,
+                "frozen_core_residual": 0.0045415804741022504
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 3.673419846319648e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.002028698575353913,
+              "sigma_max_abs": 1.1705783709680345e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.1371675464095613,
+              "X_core_norm": 0.0002281142782309408,
+              "Y_H_min_full_stationary": 0.6738109301811956,
+              "Y_Schur_static_min": 0.6738412259733658,
+              "Y_norm": 0.01226148376572205,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 20.0,
+              "energy_change_canonical_NOT_J": -0.0021614117561057355,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 0.6738273058452541,
+                "Y_drive": 1.3707095806366638,
+                "Y_response_norm": 0.012258574449387112,
+                "Y_stationarity_residual": 0.00011066505172422421,
+                "frozen_core_residual": 0.018157249886398923
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 8.494783394614187e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.008099745531243449,
+              "sigma_max_abs": 4.6840642596413484e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ],
+          "40": [
+            {
+              "Noether_species": [
+                400.0,
+                399.9999999999999
+              ],
+              "P_abs_integral": 0.038789913868576005,
+              "X_core_norm": 1.979455510493826e-05,
+              "Y_H_min_full_stationary": 0.5539619179062826,
+              "Y_Schur_static_min": 0.5539650178860939,
+              "Y_norm": 0.0036560099449799077,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 40.0,
+              "energy_change_canonical_NOT_J": -0.00015547637485724408,
+              "fixed_N_error_inf": 1.1368683772161603e-13,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5539570717325634,
+                "Y_drive": 0.34267739515916595,
+                "Y_response_norm": 0.003655883872633478,
+                "Y_stationarity_residual": 6.256432558194029e-06,
+                "frozen_core_residual": 0.0015854128990477677
+              },
+              "net_X_charge": 1.4210854715202004e-14,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0007197153253646291,
+              "sigma_max_abs": 4.770551058227543e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.07759621407897808,
+              "X_core_norm": 7.897499433654472e-05,
+              "Y_H_min_full_stationary": 0.5540225196215083,
+              "Y_Schur_static_min": 0.5540349187386421,
+              "Y_norm": 0.007312078248022606,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 40.0,
+              "energy_change_canonical_NOT_J": -0.0006219411517349727,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5540038466556485,
+                "Y_drive": 0.6853547903183319,
+                "Y_response_norm": 0.007311104955822026,
+                "Y_stationarity_residual": 5.29187463575797e-05,
+                "frozen_core_residual": 0.006340340665552778
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 4.821363548294539e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0028693727075555626,
+              "sigma_max_abs": 1.9083311509059253e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                399.99999999999994,
+                400.0
+              ],
+              "P_abs_integral": 0.15532291712152935,
+              "X_core_norm": 0.00031555667865723554,
+              "Y_H_min_full_stationary": 0.5542660428438924,
+              "Y_Schur_static_min": 0.5543156258379839,
+              "Y_norm": 0.014624576258968548,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 40.0,
+              "energy_change_canonical_NOT_J": -0.002488331213271522,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5541908761016371,
+                "Y_drive": 1.3707095806366638,
+                "Y_response_norm": 0.0146169115630759,
+                "Y_stationarity_residual": 0.00042846537178852596,
+                "frozen_core_residual": 0.025339597600579345
+              },
+              "net_X_charge": -7.105427357601002e-15,
+              "reduced_stationarity": 4.316268319425587e-14,
+              "root_status": true,
+              "scalar_core_norm": 0.01145859869759361,
+              "sigma_max_abs": 7.635014370435503e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ],
+          "60": [
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.04684618048929814,
+              "X_core_norm": 5.337233749977531e-05,
+              "Y_H_min_full_stationary": 0.3580444589141603,
+              "Y_Schur_static_min": 0.35804650312520975,
+              "Y_norm": 0.004680591162424654,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 60.0,
+              "energy_change_canonical_NOT_J": -0.00019535637045464682,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 0.35781446363742797,
+                "Y_drive": 0.34267739515916595,
+                "Y_response_norm": 0.004679112324161292,
+                "Y_stationarity_residual": 3.905184733323622e-05,
+                "frozen_core_residual": 0.0032079008220376533
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 3.673419846319648e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0014457673064086653,
+              "sigma_max_abs": 1.7656113133734496e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                399.99999999999994,
+                400.00000000000006
+              ],
+              "P_abs_integral": 0.09372839870501659,
+              "X_core_norm": 0.0002128881997038812,
+              "Y_H_min_full_stationary": 0.35883548008458543,
+              "Y_Schur_static_min": 0.3588431442927462,
+              "Y_norm": 0.009369540045485797,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 60.0,
+              "energy_change_canonical_NOT_J": -0.0007814641377308362,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.357923450621792,
+                "Y_drive": 0.6853547903183319,
+                "Y_response_norm": 0.009357833031416424,
+                "Y_stationarity_residual": 0.00032241867754077087,
+                "frozen_core_residual": 0.012822586640378874
+              },
+              "net_X_charge": -1.4210854715202004e-14,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.005766576087382298,
+              "sigma_max_abs": 7.039683515147468e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                399.9999999999999,
+                400.0
+              ],
+              "P_abs_integral": 0.1877415176773289,
+              "X_core_norm": 0.0008448320015447988,
+              "Y_H_min_full_stationary": 0.361915644633657,
+              "Y_Schur_static_min": 0.3619390368066305,
+              "Y_norm": 0.018803871784172234,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 60.0,
+              "energy_change_canonical_NOT_J": -0.003126464280626351,
+              "fixed_N_error_inf": 1.1368683772161603e-13,
+              "frozen_source_Y": {
+                "Y_H_min": 0.358358785036949,
+                "Y_drive": 1.3707095806366638,
+                "Y_response_norm": 0.018712500716914833,
+                "Y_stationarity_residual": 0.0025888322728201602,
+                "frozen_core_residual": 0.05114603087507115
+              },
+              "net_X_charge": -1.4210854715202004e-14,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.022936772952726194,
+              "sigma_max_abs": 0.00027803767825191705,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ]
+        },
+        "h_canonical": 1.0,
+        "independent_Ward_mixed_variation": {
+          "X_global_potential_gauge_status": "COULOMB_BOUNDARY_GAUGE_FIXED;NOT_GLOBAL_MAXWELL_WARD_CERTIFICATE",
+          "Y_magnetic_Bianchi_inf": 7.860465750519907e-19,
+          "Y_static_Gauss_phi_only": 0.0,
+          "cross_derivative_fourpoint_error": 6.1373572327896e-08,
+          "cross_derivative_reciprocity_error": 1.7847080734925344e-09,
+          "mixed_scalar_Y_CS_dY_dscalar": -0.0007965440830511091,
+          "mixed_scalar_Y_CS_dscalar_dY": -0.0007965422983430356,
+          "mixed_scalar_Y_energy_fourpoint": -0.0007966036719153635,
+          "neutral_source_local_gauge_Ward_error": 0.0
+        },
+        "nr": 12,
+        "omitted_equation_probe": {
+          "model_scope": "NONZERO_REMAINDER_OUTSIDE_20_DIMENSIONAL_GALERKIN_SPACE",
+          "unprojected_X_Gauss_residual_inf": 0.0001611591555374936,
+          "unprojected_joint_L2": 0.0033932042458005088,
+          "unprojected_scalar_residual_inf": 0.0007383661345531206
+        },
+        "scaling": {
+          "0": {
+            "Y_ratio_0p05_over_0p025": 1.9999693180559406,
+            "response_per_alpha_0p025": 0.11033908854771274,
+            "response_per_alpha_0p05": 0.11033739583884154,
+            "source_ratio_0p05_over_0p025": 3.977423342254367
+          },
+          "20": {
+            "Y_ratio_0p05_over_0p025": 1.9999831726784254,
+            "response_per_alpha_0p025": 0.12262011745769874,
+            "response_per_alpha_0p05": 0.12261908577362475,
+            "source_ratio_0p05_over_0p025": 3.982021132729062
+          },
+          "40": {
+            "Y_ratio_0p05_over_0p025": 2.000015962227584,
+            "response_per_alpha_0p025": 0.1462403977991963,
+            "response_per_alpha_0p05": 0.14624156496045213,
+            "source_ratio_0p05_over_0p025": 3.986894265726364
+          },
+          "60": {
+            "Y_ratio_0p05_over_0p025": 2.0017856121900977,
+            "response_per_alpha_0p025": 0.18722364649698614,
+            "response_per_alpha_0p05": 0.1873908009097159,
+            "source_ratio_0p05_over_0p025": 3.9885972673612873
+          }
+        },
+        "source_Gauss_relaxed_Schur_min": 0.016615751503455546,
+        "source_frozen_X_min_curvature": -0.07024039790156685
+      },
+      "12_L16": {
+        "L_canonical": 16.0,
+        "P10_energy_CANONICAL_NOT_J": 710.7525649376865,
+        "base_X_kernel_Gauss_residual": 1.482147737874584e-14,
+        "base_reduced_EOM_inf": 2.8132319819040706e-07,
+        "basis": {
+          "X_Gauss_response_modes": 6,
+          "Y_axisymmetric_modes": 8,
+          "full_Y_PDE": "NOT_SOLVED",
+          "full_field_electrostatic_components": 288,
+          "full_field_scalar_components": 576,
+          "scalar_modes": 6
+        },
+        "beta80_negative_control": {
+          "Noether_species": [
+            400.0,
+            399.99999999999994
+          ],
+          "P_abs_integral": 0.19856886917144,
+          "X_core_norm": 0.0027865750339013777,
+          "Y_H_min_full_stationary": -3.68059192582463,
+          "Y_Schur_static_min": -3.681922259396539,
+          "Y_norm": 0.13135412431971966,
+          "Y_static_instability_if_negative": true,
+          "alpha": 0.025,
+          "beta": 80.0,
+          "energy_change_canonical_NOT_J": -0.0010439322337560952,
+          "fixed_N_error_inf": 5.684341886080802e-14,
+          "frozen_source_Y": {
+            "Y_H_min": -4.246918676495836,
+            "Y_drive": 0.3693466104024966,
+            "Y_response_norm": 0.0,
+            "Y_stationarity_residual": 0.3693466104024966,
+            "frozen_core_residual": 4.19645054739939e-07
+          },
+          "net_X_charge": 7.105427357601002e-15,
+          "reduced_stationarity": 9.757521466786566e-14,
+          "root_status": true,
+          "scalar_core_norm": 0.03561515136013254,
+          "sigma_max_abs": 0.00037473296271479657,
+          "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+        },
+        "fixedN_action_zero_coupling_energy_error": -1.1368683772161603e-13,
+        "fixed_beta_scans": {
+          "0": [
+            {
+              "Noether_species": [
+                400.0,
+                400.00000000000006
+              ],
+              "P_abs_integral": 0.03346119108600003,
+              "X_core_norm": 8.062014084583909e-06,
+              "Y_H_min_full_stationary": 0.5926375119495052,
+              "Y_Schur_static_min": 0.5926428571272845,
+              "Y_norm": 0.006900742409601209,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 0.0,
+              "energy_change_canonical_NOT_J": -0.00014987700114943436,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5926375120432292,
+                "Y_drive": 0.3693466104024966,
+                "Y_response_norm": 0.006900740165430497,
+                "Y_stationarity_residual": 4.644556416779627e-11,
+                "frozen_core_residual": 0.0011450325203578684
+              },
+              "net_X_charge": -7.105427357601002e-15,
+              "reduced_stationarity": 1.4693679385278592e-14,
+              "root_status": true,
+              "scalar_core_norm": 0.00029984336149104976,
+              "sigma_max_abs": 3.074080297166851e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.06692012773865512,
+              "X_core_norm": 3.227509020451805e-05,
+              "Y_H_min_full_stationary": 0.5926613803689715,
+              "Y_Schur_static_min": 0.592682755066318,
+              "Y_norm": 0.013800429269618414,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 0.0,
+              "energy_change_canonical_NOT_J": -0.0005994793625632155,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5926613818478381,
+                "Y_drive": 0.7386932208049932,
+                "Y_response_norm": 0.013800408083409129,
+                "Y_stationarity_residual": 1.4859706200498642e-09,
+                "frozen_core_residual": 0.0045795056218249554
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0012016152446663545,
+              "sigma_max_abs": 1.2295329402665335e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0000000000001,
+                400.00000000000006
+              ],
+              "P_abs_integral": 0.13382216048022616,
+              "X_core_norm": 0.00012909877929453224,
+              "Y_H_min_full_stationary": 0.5927568316941156,
+              "Y_Schur_static_min": 0.5928422343642695,
+              "Y_norm": 0.027592413122764312,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 0.0,
+              "energy_change_canonical_NOT_J": -0.0023974589507815836,
+              "fixed_N_error_inf": 1.1368683772161603e-13,
+              "frozen_source_Y": {
+                "Y_H_min": 0.592756855321125,
+                "Y_drive": 1.4773864416099864,
+                "Y_response_norm": 0.027592242490370296,
+                "Y_stationarity_residual": 4.7514704739552894e-08,
+                "frozen_core_residual": 0.01830918543645846
+              },
+              "net_X_charge": 7.105427357601002e-15,
+              "reduced_stationarity": 3.673419846319648e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0048050441309459456,
+              "sigma_max_abs": 4.916543229236634e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ],
+          "20": [
+            {
+              "Noether_species": [
+                399.99999999999994,
+                400.0
+              ],
+              "P_abs_integral": 0.037515396406817114,
+              "X_core_norm": 1.2093646352935893e-05,
+              "Y_H_min_full_stationary": 0.5176347294235625,
+              "Y_Schur_static_min": 0.5176464243923952,
+              "Y_norm": 0.008749552957794818,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 20.0,
+              "energy_change_canonical_NOT_J": -0.00017470284569753858,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5176282235233811,
+                "Y_drive": 0.3693466104024966,
+                "Y_response_norm": 0.008749731965588096,
+                "Y_stationarity_residual": 3.1877464485089714e-06,
+                "frozen_core_residual": 0.0016000576187280297
+              },
+              "net_X_charge": -7.105427357601002e-15,
+              "reduced_stationarity": 1.4693679385278592e-14,
+              "root_status": true,
+              "scalar_core_norm": 0.00042722738360071756,
+              "sigma_max_abs": 4.553118611890289e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                399.99999999999994
+              ],
+              "P_abs_integral": 0.07502739604018599,
+              "X_core_norm": 4.838946576776386e-05,
+              "Y_H_min_full_stationary": 0.5176802368899815,
+              "Y_Schur_static_min": 0.5177269883136624,
+              "Y_norm": 0.017496107561343476,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 20.0,
+              "energy_change_canonical_NOT_J": -0.0006987595584178052,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5176543318970959,
+                "Y_drive": 0.7386932208049932,
+                "Y_response_norm": 0.017497532847857024,
+                "Y_stationarity_residual": 2.6117185345553285e-05,
+                "frozen_core_residual": 0.006398919633638453
+              },
+              "net_X_charge": 7.105427357601002e-15,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0017108260373083078,
+              "sigma_max_abs": 1.8208690804486116e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                399.99999999999994
+              ],
+              "P_abs_integral": 0.15002747367879107,
+              "X_core_norm": 0.0001933483489767393,
+              "Y_H_min_full_stationary": 0.5178621123291083,
+              "Y_Schur_static_min": 0.5180486637790082,
+              "Y_norm": 0.03496824675665016,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 20.0,
+              "energy_change_canonical_NOT_J": -0.002794208719933522,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5177587524130667,
+                "Y_drive": 1.4773864416099864,
+                "Y_response_norm": 0.03497962711970293,
+                "Y_stationarity_residual": 0.00020989424246206181,
+                "frozen_core_residual": 0.02557579428428448
+              },
+              "net_X_charge": 7.105427357601002e-15,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.006836592143638224,
+              "sigma_max_abs": 7.277423284301084e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ],
+          "40": [
+            {
+              "Noether_species": [
+                399.99999999999994,
+                400.00000000000006
+              ],
+              "P_abs_integral": 0.04396703017127217,
+              "X_core_norm": 2.821827136182221e-05,
+              "Y_H_min_full_stationary": 0.4328516741904953,
+              "Y_Schur_static_min": 0.43288769169892166,
+              "Y_norm": 0.01248800613237915,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 40.0,
+              "energy_change_canonical_NOT_J": -0.00021760231675216346,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.4328153022375718,
+                "Y_drive": 0.3693466104024966,
+                "Y_response_norm": 0.012489611605736818,
+                "Y_stationarity_residual": 1.4317618407111637e-05,
+                "frozen_core_residual": 0.002701853977722771
+              },
+              "net_X_charge": -1.4210854715202004e-14,
+              "reduced_stationarity": 3.673419846319648e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0007306375541636148,
+              "sigma_max_abs": 8.074095072025767e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                399.99999999999994,
+                399.99999999999994
+              ],
+              "P_abs_integral": 0.08792285257465894,
+              "X_core_norm": 0.00011276413094248229,
+              "Y_H_min_full_stationary": 0.43299243810031496,
+              "Y_Schur_static_min": 0.43313621692028936,
+              "Y_norm": 0.024962101867582073,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 40.0,
+              "energy_change_canonical_NOT_J": -0.000870249782906285,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.43284755923506135,
+                "Y_drive": 0.7386932208049932,
+                "Y_response_norm": 0.02497491692649325,
+                "Y_stationarity_residual": 0.00011791025127487878,
+                "frozen_core_residual": 0.010803348949609808
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.002922477260744343,
+              "sigma_max_abs": 3.2272121776265245e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.17575587751955588,
+              "X_core_norm": 0.00044894845669788373,
+              "Y_H_min_full_stationary": 0.43355206956944553,
+              "Y_Schur_static_min": 0.4341225644533988,
+              "Y_norm": 0.0498135101653566,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 40.0,
+              "energy_change_canonical_NOT_J": -0.003478452406739052,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 0.4329765463733427,
+                "Y_drive": 1.4773864416099864,
+                "Y_response_norm": 0.0499154151901402,
+                "Y_stationarity_residual": 0.0009483525967647476,
+                "frozen_core_residual": 0.04314939058962388
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 2.92725644003597e-14,
+              "root_status": true,
+              "scalar_core_norm": 0.011651439256979979,
+              "sigma_max_abs": 0.00012870236600930548,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ],
+          "60": [
+            {
+              "Noether_species": [
+                400.00000000000006,
+                399.99999999999994
+              ],
+              "P_abs_integral": 0.05989916732173099,
+              "X_core_norm": 0.00011671917740885088,
+              "Y_H_min_full_stationary": 0.31418273179912,
+              "Y_Schur_static_min": 0.3143971423846074,
+              "Y_norm": 0.022944083389456332,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 60.0,
+              "energy_change_canonical_NOT_J": -0.0003224537528012661,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.3138352462099884,
+                "Y_drive": 0.3693466104024966,
+                "Y_response_norm": 0.022970110978665404,
+                "Y_stationarity_residual": 9.607529002671135e-05,
+                "frozen_core_residual": 0.007528464894962124
+              },
+              "net_X_charge": 1.4210854715202004e-14,
+              "reduced_stationarity": 3.673419846319648e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0020266621856130504,
+              "sigma_max_abs": 2.185856099629196e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                399.99999999999994,
+                400.0
+              ],
+              "P_abs_integral": 0.11945559273384503,
+              "X_core_norm": 0.0004632557967976718,
+              "Y_H_min_full_stationary": 0.31526661094301534,
+              "Y_Schur_static_min": 0.3161144927251174,
+              "Y_norm": 0.04571948255422947,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 60.0,
+              "energy_change_canonical_NOT_J": -0.0012882011012607109,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.3138918458698533,
+                "Y_drive": 0.7386932208049932,
+                "Y_response_norm": 0.04592557927756564,
+                "Y_stationarity_residual": 0.0007815491794572168,
+                "frozen_core_residual": 0.030083289790541316
+              },
+              "net_X_charge": -7.105427357601002e-15,
+              "reduced_stationarity": 1.827526373544025e-13,
+              "root_status": true,
+              "scalar_core_norm": 0.008058211930206245,
+              "sigma_max_abs": 8.693737175503927e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.00000000000006,
+                400.0
+              ],
+              "P_abs_integral": 0.23629364866048572,
+              "X_core_norm": 0.001797905768167495,
+              "Y_H_min_full_stationary": 0.31940366635431106,
+              "Y_Schur_static_min": 0.3226476088570382,
+              "Y_norm": 0.0901487481427718,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 60.0,
+              "energy_change_canonical_NOT_J": -0.005127730256162977,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.3141180703991612,
+                "Y_drive": 1.4773864416099864,
+                "Y_response_norm": 0.09173419316520878,
+                "Y_stationarity_residual": 0.00625502090854845,
+                "frozen_core_residual": 0.11984684519685009
+              },
+              "net_X_charge": 7.105427357601002e-15,
+              "reduced_stationarity": 5.197889082542303e-13,
+              "root_status": true,
+              "scalar_core_norm": 0.03146207180710244,
+              "sigma_max_abs": 0.0003401926469618423,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ]
+        },
+        "h_canonical": 1.3333333333333333,
+        "independent_Ward_mixed_variation": {
+          "X_global_potential_gauge_status": "COULOMB_BOUNDARY_GAUGE_FIXED;NOT_GLOBAL_MAXWELL_WARD_CERTIFICATE",
+          "Y_magnetic_Bianchi_inf": 1.2468324983583301e-18,
+          "Y_static_Gauss_phi_only": 0.0,
+          "cross_derivative_fourpoint_error": 9.34705304226225e-08,
+          "cross_derivative_reciprocity_error": 1.631228000549198e-09,
+          "mixed_scalar_Y_CS_dY_dscalar": -0.0011761121837654174,
+          "mixed_scalar_Y_CS_dscalar_dY": -0.0011761105525374168,
+          "mixed_scalar_Y_energy_fourpoint": -0.0011762040230678394,
+          "neutral_source_local_gauge_Ward_error": 0.0
+        },
+        "nr": 12,
+        "omitted_equation_probe": {
+          "model_scope": "NONZERO_REMAINDER_OUTSIDE_20_DIMENSIONAL_GALERKIN_SPACE",
+          "unprojected_X_Gauss_residual_inf": 0.0006327884698440478,
+          "unprojected_joint_L2": 0.00692247505265978,
+          "unprojected_scalar_residual_inf": 0.0020547922322623757
+        },
+        "scaling": {
+          "0": {
+            "Y_ratio_0p05_over_0p025": 1.9998470382574292,
+            "response_per_alpha_0p025": 0.27602969638404834,
+            "response_per_alpha_0p05": 0.2760085853923683,
+            "source_ratio_0p05_over_0p025": 4.0073686033057925
+          },
+          "20": {
+            "Y_ratio_0p05_over_0p025": 1.999657313435255,
+            "response_per_alpha_0p025": 0.3499821183117927,
+            "response_per_alpha_0p05": 0.3499221512268695,
+            "source_ratio_0p05_over_0p025": 4.00439629139006
+          },
+          "40": {
+            "Y_ratio_0p05_over_0p025": 1.9988860994278213,
+            "response_per_alpha_0p025": 0.499520245295166,
+            "response_per_alpha_0p05": 0.4992420373516414,
+            "source_ratio_0p05_over_0p025": 3.999760283299141
+          },
+          "60": {
+            "Y_ratio_0p05_over_0p025": 1.9926480294801965,
+            "response_per_alpha_0p025": 0.9177633355782533,
+            "response_per_alpha_0p05": 0.9143896510845893,
+            "source_ratio_0p05_over_0p025": 3.9757123365996363
+          }
+        },
+        "source_Gauss_relaxed_Schur_min": 0.05362679961018012,
+        "source_frozen_X_min_curvature": -0.03002099230594148
+      },
+      "18_L12": {
+        "L_canonical": 12.0,
+        "P10_energy_CANONICAL_NOT_J": 712.5557086168102,
+        "base_X_kernel_Gauss_residual": 2.098321516541546e-14,
+        "base_reduced_EOM_inf": 3.3652262394955653e-07,
+        "basis": {
+          "X_Gauss_response_modes": 6,
+          "Y_axisymmetric_modes": 8,
+          "full_Y_PDE": "NOT_SOLVED",
+          "full_field_electrostatic_components": 648,
+          "full_field_scalar_components": 1296,
+          "scalar_modes": 6
+        },
+        "beta80_negative_control": {
+          "Noether_species": [
+            400.00000000000006,
+            400.0000000000001
+          ],
+          "P_abs_integral": 0.06098694256547605,
+          "X_core_norm": 0.00016990824300146633,
+          "Y_H_min_full_stationary": -4.272592118862152,
+          "Y_Schur_static_min": -4.274762500044899,
+          "Y_norm": 0.012644717751846852,
+          "Y_static_instability_if_negative": true,
+          "alpha": 0.025,
+          "beta": 80.0,
+          "energy_change_canonical_NOT_J": -0.0002039891363665447,
+          "fixed_N_error_inf": 1.1368683772161603e-13,
+          "frozen_source_Y": {
+            "Y_H_min": -4.271610161317828,
+            "Y_drive": 0.3222277209987096,
+            "Y_response_norm": 0.0,
+            "Y_stationarity_residual": 0.3222277209987096,
+            "frozen_core_residual": 5.997262736281933e-07
+          },
+          "net_X_charge": -7.105427357601002e-15,
+          "reduced_stationarity": 1.1249848279353923e-14,
+          "root_status": true,
+          "scalar_core_norm": 0.0037961965750829695,
+          "sigma_max_abs": 3.6205555353463286e-05,
+          "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+        },
+        "fixedN_action_zero_coupling_energy_error": -1.1368683772161603e-13,
+        "fixed_beta_scans": {
+          "0": [
+            {
+              "Noether_species": [
+                400.0,
+                399.99999999999994
+              ],
+              "P_abs_integral": 0.030017356365408823,
+              "X_core_norm": 1.5061647459218926e-05,
+              "Y_H_min_full_stationary": 1.2986620268102291,
+              "Y_Schur_static_min": 1.2986625517199164,
+              "Y_norm": 0.0017974503732940575,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 0.0,
+              "energy_change_canonical_NOT_J": -0.00011191662940746028,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 1.2986620257172166,
+                "Y_drive": 0.3222277209987096,
+                "Y_response_norm": 0.0017974453089581505,
+                "Y_stationarity_residual": 2.0046394611784743e-11,
+                "frozen_core_residual": 0.0008437283338207375
+              },
+              "net_X_charge": 7.105427357601002e-15,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.00045784966694758703,
+              "sigma_max_abs": 2.3962945654159587e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                400.00000000000006
+              ],
+              "P_abs_integral": 0.060042601124831604,
+              "X_core_norm": 6.01037553459282e-05,
+              "Y_H_min_full_stationary": 1.298715501629708,
+              "Y_Schur_static_min": 1.2987176007971668,
+              "Y_norm": 0.0035949050039064284,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 0.0,
+              "energy_change_canonical_NOT_J": -0.00044768443024167937,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 1.298715484325753,
+                "Y_drive": 0.6444554419974192,
+                "Y_response_norm": 0.0035948674757723042,
+                "Y_stationarity_residual": 6.413805253193459e-10,
+                "frozen_core_residual": 0.003374494781723936
+              },
+              "net_X_charge": -7.105427357601002e-15,
+              "reduced_stationarity": 1.4693679385278592e-14,
+              "root_status": true,
+              "scalar_core_norm": 0.0018211966358246774,
+              "sigma_max_abs": 9.586654785314596e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.00000000000006,
+                400.0000000000001
+              ],
+              "P_abs_integral": 0.12014815444289138,
+              "X_core_norm": 0.00024023841267718112,
+              "Y_H_min_full_stationary": 1.2989295755222494,
+              "Y_Schur_static_min": 1.2989379649159274,
+              "Y_norm": 0.007189841447710107,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 0.0,
+              "energy_change_canonical_NOT_J": -0.0017910234837472672,
+              "fixed_N_error_inf": 1.1368683772161603e-13,
+              "frozen_source_Y": {
+                "Y_H_min": 1.2989292998524467,
+                "Y_drive": 1.2889108839948384,
+                "Y_response_norm": 0.007189549938217,
+                "Y_stationarity_residual": 2.0511746083756498e-08,
+                "frozen_core_residual": 0.013493538747966598
+              },
+              "net_X_charge": -7.105427357601002e-15,
+              "reduced_stationarity": 1.4693679385278592e-14,
+              "root_status": true,
+              "scalar_core_norm": 0.007270084865065782,
+              "sigma_max_abs": 3.837015737853392e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ],
+          "20": [
+            {
+              "Noether_species": [
+                400.0,
+                400.00000000000006
+              ],
+              "P_abs_integral": 0.032878802963297024,
+              "X_core_norm": 1.7593587684910165e-05,
+              "Y_H_min_full_stationary": 1.128893267010819,
+              "Y_Schur_static_min": 1.1288929607045222,
+              "Y_norm": 0.0018478692630865261,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 20.0,
+              "energy_change_canonical_NOT_J": -0.0001233176809591896,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 1.1289003657630903,
+                "Y_drive": 0.3222277209987096,
+                "Y_response_norm": 0.00184783502625467,
+                "Y_stationarity_residual": 1.173980826983531e-06,
+                "frozen_core_residual": 0.0010350905110726996
+              },
+              "net_X_charge": -7.105427357601002e-15,
+              "reduced_stationarity": 3.673419846319648e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0005693300006715263,
+              "sigma_max_abs": 3.629038095032821e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.06577036434954084,
+              "X_core_norm": 7.020061510329255e-05,
+              "Y_H_min_full_stationary": 1.128933450803056,
+              "Y_Schur_static_min": 1.1289322257867618,
+              "Y_norm": 0.003695883537006297,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 20.0,
+              "energy_change_canonical_NOT_J": -0.0004933039490424562,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 1.1289614842797053,
+                "Y_drive": 0.6444554419974192,
+                "Y_response_norm": 0.0036956142310273408,
+                "Y_stationarity_residual": 9.852167510624214e-06,
+                "frozen_core_residual": 0.004139770223394181
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 4.7065691780970494e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0022670895954960855,
+              "sigma_max_abs": 1.4519389014182425e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.00000000000006,
+                400.0
+              ],
+              "P_abs_integral": 0.13164255211907663,
+              "X_core_norm": 0.00028060283131594113,
+              "Y_H_min_full_stationary": 1.1290949595725883,
+              "Y_Schur_static_min": 1.1290900638047874,
+              "Y_norm": 0.007392923191488383,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 20.0,
+              "energy_change_canonical_NOT_J": -0.001973745962004614,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 1.1292059184892185,
+                "Y_drive": 1.2889108839948384,
+                "Y_response_norm": 0.007390782341461502,
+                "Y_stationarity_residual": 7.965393822389632e-05,
+                "frozen_core_residual": 0.016551799188521173
+              },
+              "net_X_charge": 7.105427357601002e-15,
+              "reduced_stationarity": 1.6415594938240927e-14,
+              "root_status": true,
+              "scalar_core_norm": 0.00905313484735346,
+              "sigma_max_abs": 5.812907076059123e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ],
+          "40": [
+            {
+              "Noether_species": [
+                399.99999999999994,
+                399.99999999999994
+              ],
+              "P_abs_integral": 0.03682791086739649,
+              "X_core_norm": 2.275674436661537e-05,
+              "Y_H_min_full_stationary": 0.9238163154922656,
+              "Y_Schur_static_min": 0.923813865361106,
+              "Y_norm": 0.0020072200307504344,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 40.0,
+              "energy_change_canonical_NOT_J": -0.0001391859325394762,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.9238221859030885,
+                "Y_drive": 0.3222277209987096,
+                "Y_response_norm": 0.0020070931729858376,
+                "Y_stationarity_residual": 4.366608025537952e-06,
+                "frozen_core_residual": 0.0013711514804220738
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0007623979858436468,
+              "sigma_max_abs": 7.040766033573263e-06,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                399.99999999999994
+              ],
+              "P_abs_integral": 0.073679137307393,
+              "X_core_norm": 9.082016493094908e-05,
+              "Y_H_min_full_stationary": 0.9238815755496598,
+              "Y_Schur_static_min": 0.9238717863040606,
+              "Y_norm": 0.004014964629361152,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 40.0,
+              "energy_change_canonical_NOT_J": -0.0005568091423810984,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.923904184535782,
+                "Y_drive": 0.6444554419974192,
+                "Y_response_norm": 0.004013961135751045,
+                "Y_stationarity_residual": 3.720673171045558e-05,
+                "frozen_core_residual": 0.005483504046212104
+              },
+              "net_X_charge": 7.105427357601002e-15,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.003039396450460902,
+              "sigma_max_abs": 2.817074754407989e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                399.99999999999994,
+                400.00000000000006
+              ],
+              "P_abs_integral": 0.1475443576145413,
+              "X_core_norm": 0.00036309943581172446,
+              "Y_H_min_full_stationary": 0.9241454204981459,
+              "Y_Schur_static_min": 0.9241064484660454,
+              "Y_norm": 0.008034108516851813,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 40.0,
+              "energy_change_canonical_NOT_J": -0.0022282802527797685,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.924232040662622,
+                "Y_drive": 1.2889108839948384,
+                "Y_response_norm": 0.008026123557697972,
+                "Y_stationarity_residual": 0.00030176542447125156,
+                "frozen_core_residual": 0.02191848556530054
+              },
+              "net_X_charge": -1.4210854715202004e-14,
+              "reduced_stationarity": 7.346839692639296e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.012142747030466496,
+              "sigma_max_abs": 0.00011280420926491845,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ],
+          "60": [
+            {
+              "Noether_species": [
+                400.00000000000006,
+                400.00000000000006
+              ],
+              "P_abs_integral": 0.04353574961839274,
+              "X_core_norm": 5.697513939298484e-05,
+              "Y_H_min_full_stationary": 0.553829481198551,
+              "Y_Schur_static_min": 0.5539128267391404,
+              "Y_norm": 0.003785748801873489,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.025,
+              "beta": 60.0,
+              "energy_change_canonical_NOT_J": -0.0001687144600737156,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5529878451952471,
+                "Y_drive": 0.3222277209987096,
+                "Y_response_norm": 0.003789667770475553,
+                "Y_stationarity_residual": 4.033176341835683e-05,
+                "frozen_core_residual": 0.002718330847806623
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 3.673419846319648e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.0014850233423054455,
+              "sigma_max_abs": 3.7921148847211254e-05,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.00000000000006,
+                400.0
+              ],
+              "P_abs_integral": 0.08711932521952792,
+              "X_core_norm": 0.0002267935857407396,
+              "Y_H_min_full_stationary": 0.5565529031913822,
+              "Y_Schur_static_min": 0.5568779085325264,
+              "Y_norm": 0.007542553119450319,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.05,
+              "beta": 60.0,
+              "energy_change_canonical_NOT_J": -0.0006749271580019922,
+              "fixed_N_error_inf": 5.684341886080802e-14,
+              "frozen_source_Y": {
+                "Y_H_min": 0.55322245958213,
+                "Y_drive": 0.6444554419974192,
+                "Y_response_norm": 0.007573897863754323,
+                "Y_stationarity_residual": 0.0003299946329119054,
+                "frozen_core_residual": 0.010863025519240538
+              },
+              "net_X_charge": 7.105427357601002e-15,
+              "reduced_stationarity": 4.59177480789956e-15,
+              "root_status": true,
+              "scalar_core_norm": 0.005916130818941232,
+              "sigma_max_abs": 0.0001508438289961971,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            },
+            {
+              "Noether_species": [
+                400.0,
+                400.0
+              ],
+              "P_abs_integral": 0.17461971993134567,
+              "X_core_norm": 0.0008934228681900929,
+              "Y_H_min_full_stationary": 0.5668382840979649,
+              "Y_Schur_static_min": 0.5680159271658074,
+              "Y_norm": 0.014865525683589934,
+              "Y_static_instability_if_negative": false,
+              "alpha": 0.1,
+              "beta": 60.0,
+              "energy_change_canonical_NOT_J": -0.002700843470847758,
+              "fixed_N_error_inf": 0.0,
+              "frozen_source_Y": {
+                "Y_H_min": 0.5541592598594397,
+                "Y_drive": 1.2889108839948384,
+                "Y_response_norm": 0.015104506602190149,
+                "Y_stationarity_residual": 0.002638151243606001,
+                "frozen_core_residual": 0.0432902592196205
+              },
+              "net_X_charge": 0.0,
+              "reduced_stationarity": 3.9030085867146265e-14,
+              "root_status": true,
+              "scalar_core_norm": 0.02344017641443972,
+              "sigma_max_abs": 0.0005906198098169912,
+              "status": "PROJECTED_STATIONARY_ONLY;NOT_FULL_FIELD_EOM"
+            }
+          ]
+        },
+        "h_canonical": 0.6666666666666666,
+        "independent_Ward_mixed_variation": {
+          "X_global_potential_gauge_status": "COULOMB_BOUNDARY_GAUGE_FIXED;NOT_GLOBAL_MAXWELL_WARD_CERTIFICATE",
+          "Y_magnetic_Bianchi_inf": 3.577867169202165e-18,
+          "Y_static_Gauss_phi_only": 0.0,
+          "cross_derivative_fourpoint_error": 2.0928266005425505e-07,
+          "cross_derivative_reciprocity_error": 1.4376846923245049e-09,
+          "mixed_scalar_Y_CS_dY_dscalar": -0.0003796973846595009,
+          "mixed_scalar_Y_CS_dscalar_dY": -0.00037969594697480856,
+          "mixed_scalar_Y_energy_fourpoint": -0.0003794866643147543,
+          "neutral_source_local_gauge_Ward_error": 1.1368683772161603e-13
+        },
+        "nr": 18,
+        "omitted_equation_probe": {
+          "model_scope": "NONZERO_REMAINDER_OUTSIDE_20_DIMENSIONAL_GALERKIN_SPACE",
+          "unprojected_X_Gauss_residual_inf": 8.636919581506142e-05,
+          "unprojected_joint_L2": 0.0021579978774533795,
+          "unprojected_scalar_residual_inf": 0.0004165880947338946
+        },
+        "scaling": {
+          "0": {
+            "Y_ratio_0p05_over_0p025": 2.0000023685317694,
+            "response_per_alpha_0p025": 0.07189801493176229,
+            "response_per_alpha_0p05": 0.07189810007812857,
+            "source_ratio_0p05_over_0p025": 3.978125144944789
+          },
+          "20": {
+            "Y_ratio_0p05_over_0p025": 2.000078474617302,
+            "response_per_alpha_0p025": 0.07391477052346104,
+            "response_per_alpha_0p05": 0.07391767074012594,
+            "source_ratio_0p05_over_0p025": 3.9822734287175225
+          },
+          "40": {
+            "Y_ratio_0p05_over_0p025": 2.0002613404869654,
+            "response_per_alpha_0p025": 0.08028880123001737,
+            "response_per_alpha_0p05": 0.08029929258722303,
+            "source_ratio_0p05_over_0p025": 3.9867512669172713
+          },
+          "60": {
+            "Y_ratio_0p05_over_0p025": 1.9923543568758881,
+            "response_per_alpha_0p025": 0.15142995207493953,
+            "response_per_alpha_0p05": 0.15085106238900636,
+            "source_ratio_0p05_over_0p025": 3.983742187551224
+          }
+        },
+        "source_Gauss_relaxed_Schur_min": 0.006488514818730716,
+        "source_frozen_X_min_curvature": -0.0822885811932481
+      }
+    },
+    "classification": "ACTION_DERIVED_FINITE_DIMENSIONAL_RECIPROCAL_SOURCE_X_Y_WITNESS",
+    "gates": {
+      "Gauss_relaxed_scalar_modes_positive_baseline": true,
+      "Gauss_source_exact_baseline": true,
+      "P10_source_reused_all": true,
+      "Y_magnetic_Bianchi": true,
+      "Y_static_Gauss": true,
+      "alpha_linear_Y_scaling_small": true,
+      "baseline_reduced_stationarity": true,
+      "beta60_amplification_over_beta0": true,
+      "beta80_Y_stiffness_negative_control": true,
+      "beta80_not_claimed_healthy": true,
+      "beta_changes_leading_alpha_response": true,
+      "domain_sensitivity_not_falsely_converged": true,
+      "fixedN_neutral_local_gauge_Ward": true,
+      "fixed_individual_Noether": true,
+      "grid_sensitivity_not_falsely_converged": true,
+      "independent_cross_variation_reciprocal": true,
+      "independent_fourpoint_variation": true,
+      "neutral_net_X_charge": true,
+      "no_full_PDE_or_Earth_promotion": true,
+      "nonzero_alpha_induces_Y": true,
+      "nonzero_unprojected_equation_remainder": true,
+      "positive_reduced_schur_beta_le60": true,
+      "positive_y_fixed_source_at_beta0": true,
+      "reduced_stationarity_for_beta_upto60": true,
+      "same_action_baseline_energy": true,
+      "small_beta40_portal_sigma": true,
+      "source_alpha_squared_scaling": true,
+      "symbolic_10": true
+    },
+    "limits": [
+      "20-dimensional source/X/Y Galerkin stationary points not full PDE solutions",
+      "P10 scalar finite boundaries and Coulomb ring discretization are not continuum certified",
+      "Electric X Green and local portal EX gradient mix two discrete approximations in one functional",
+      "Nonzero source and X residual outside Galerkin space reported quantitatively",
+      "Static restricted Schur not full Lorentzian kinetic or hyperbolic health",
+      "No real neutral matter or backreacted universal metric gravity",
+      "No Earth-down craft-up external stress flux or signed causal impulse",
+      "All units canonical, not joules; no 1kg/1g/1m and no complete <10MJ"
+    ],
+    "next": "BETA1-04 exterior force and Noether/Ward support; then decide PH16 pivot",
+    "obstruction": "BETA_ENTERING_LEADING_ALPHA_Y_RESPONSE_AND_OMITTED_FULL_CELL_EOMS",
+    "physical_transfer": "NOT_AUTHORIZED",
+    "symbolic": {
+      "checks": {
+        "Y0_not_stationary_alpha_nonzero_generic": true,
+        "Y0_stationary_alpha0": true,
+        "Y_source_sign_matches_PH15": true,
+        "beta_critical_coefficient": true,
+        "beta_enters_linear_Y_response": true,
+        "independent_alpha0_beta0_maxwell": true,
+        "induced_P_order_alpha": true,
+        "linear_drive_independent_beta": true,
+        "same_action_Y_curvature_fixed_phase": true,
+        "same_action_Y_drive": true
+      },
+      "fixed_phase_linear": "2*K*alpha + 4*U*alpha",
+      "fixed_phase_quadratic": "4*K*alpha**2 - 4*K*beta + 16*U*alpha**2 - 8*U*beta",
+      "warning": "Charge-fixed phase elimination and reciprocal X/source modify alpha^2 Hessian; beta curvature persists at O(alpha)."
+    },
+    "verdict": "YELLOW_NONZERO_ALPHA_REDUCED_RECIPROCITY_PASSES_FULL_ONSHELL_AND_METRIC_OPEN"
+  },
+  "source_sha256": "aa61fb8f3b8d5d8aef67d583c708ba089533656b741b29f8c52ac582f3142119",
+  "timestamp_utc": "2026-11-17T18:03:17.015064+00:00",
+  "whole_craft_force": "NOT_DERIVED"
+}

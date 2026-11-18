@@ -1,0 +1,328 @@
+{
+  "006D_replaced": false,
+  "1kg_neutral_torus_1g_1m": "NOT_CERTIFIED",
+  "ALPHA1_M5V_frozen": true,
+  "BETA1_heuristic": "FROZEN_APPROX_70_PERCENT_PIVOT_READINESS",
+  "PH16_full_source_X_Y_neutral_metric_on_shell": "NOT_SOLVED",
+  "PH16_stable_modes": "NOT_CERTIFIED",
+  "PH17_approved": "NO",
+  "branch": "PH16-00",
+  "classification": "THEOREM_LEVEL_ACTION_VARIATION_PLUS_PRESCRIBED_TRACE_SENSITIVITY_NOT_FULL_PHYSICAL_CLOSURE",
+  "complete_energy_SI_lt10MJ": "NOT_CERTIFIED",
+  "experiment": "UNIVERSAL_TRACE_LOADING_SINGLE_ACTION_OBLIGATION_PREFLIGHT",
+  "neutral_Earth_support_action": "DECLARED_NOT_DERIVED_OR_SOLVED",
+  "next": "PH16-01: explicitly covariant charged source, conserved neutral fluid, support action, metric P variation and fully reciprocal constraints; test full-cell EOM before 3D Earth force",
+  "parent_source_sha256": {
+    "ALPHA1_FROZEN_M5V": {
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5v_unified_exterior_action.py",
+      "sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "BETA1_00_JSON": {
+      "path": "results/data/beta1_00_20261116T200742656266Z.json",
+      "sha256": "866a305e4d7618d174ff63e864a3d7054ffc9133284e0e5c3637dec89145f708",
+      "status": "MATCH"
+    },
+    "BETA1_02_JSON": {
+      "path": "results/data/beta1_02_20261117T164856020351Z.json",
+      "sha256": "723e21b16c003fdc6962455617ca56e9c390db10e43c1c55bfaec6e10efc3881",
+      "status": "MATCH"
+    },
+    "BETA1_03_JSON": {
+      "path": "results/data/beta1_03_20261117T180317015064Z.json",
+      "sha256": "86b7b2601e7181ba59b6f5c95932246f2c97b98046b83b3d817601e806dc44f0",
+      "status": "MATCH"
+    },
+    "BETA1_04_JSON": {
+      "path": "results/data/beta1_04_20261117T184058123842Z.json",
+      "sha256": "2ff63f1e2cbad2dc09d192569701b5503da06ca384ca60546d6e83c8c61ae632",
+      "status": "MATCH"
+    },
+    "BETA1_1B1_JSON": {
+      "path": "results/data/beta1_1b1_20261117T001913743770Z.json",
+      "sha256": "1468220d56a8555207f3f7e7960880636bc0ccb88bc344ad0d748e5e61a91b11",
+      "status": "MATCH"
+    },
+    "PH11_SUPPORT": {
+      "path": "src/antigravity_research/agminer/hook17_ph11_universal_metric_support_gate.py",
+      "sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "status": "MATCH"
+    },
+    "PH15_P10_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    },
+    "PH15_P1_THEOREM": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p1_theorem.py",
+      "sha256": "9ce430fa8a0e155ef330de27f1a8461c93a970385db4eeb53507c87253c07ca5",
+      "status": "MATCH"
+    },
+    "PH15_P8_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py",
+      "sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "status": "MATCH"
+    }
+  },
+  "physical_heuristic": "APPROX_35_PERCENT_UNCHANGED_PENDING_PHYSICAL_CLOSURE",
+  "physical_transfer": "REQUIREMENTS_ONLY",
+  "primary_verdict": "YELLOW_PH16_00_UNIVERSAL_TRACE_LOADING_PREFLIGHT_PH15_SOURCE_ONLY_Y_INCOMPLETE",
+  "project": "ANTIGRAVITY_RESEARCH",
+  "runner_sha256": "fc143e341a5d1ed058ec53b5ff5af5324e6cfd87f161b3762e257ba78de55898",
+  "scoped_results": {
+    "action": {
+      "P": "epsilon FX FY / 4 with metric Levi-Civita tensor",
+      "candidate": "EH[g]+Maxwell_X+Maxwell_Y+S_source[psi,AX,g_tilde]+S_neutral[chi,g_tilde]+S_support[g_tilde]",
+      "g_tilde": "exp(2sigma(P))*g",
+      "no_real_material_or_Einstein_equations_solved": true,
+      "not_yet_one_physical_solution": true,
+      "sigma": "alpha P-beta P^2"
+    },
+    "cases": {
+      "12_L12": {
+        "prescribed_neutral_diagnostic": {
+          "A0_aligned_trace_null_error": 3.701394384359256e-18,
+          "PH15_P10_first_order_current_reproduction_error": 0.0,
+          "X_electrostatic_Bianchi_inf": 4.85722573273506e-17,
+          "Y_magnetic_Bianchi_inf": 1.7618285302889447e-19,
+          "alpha_sign_reversal_error": 0.0,
+          "amplitude_arbitrary_canonical": 0.15,
+          "constant_neutral_trace_null_error": 3.079496364907594e-18,
+          "density_amplitude_double_error": 1.0205289076080477e-17,
+          "first_order_P_abs_integral_canonical": 0.07426133098582519,
+          "fixed_g_test_accel_z_max_abs_CANONICAL_NOT_SI": 3.3514543391746896e-06,
+          "neutral_increment_Biot_Savart_energy_canonical_not_J": 5.198099710674845e-06,
+          "neutral_increment_Y_current_weighted_L2": 0.0022163768195939057,
+          "neutral_increment_relative_to_source": 0.15331918387659738,
+          "physical_Earth_density_EOM": "NOT_SOLVED",
+          "physical_force_and_1kg_benchmark": "NOT_DERIVED",
+          "physical_metric_Einstein_EOM": "NOT_SOLVED",
+          "prescribed_sigma_max_abs": 8.475455826954474e-06,
+          "source_X_Y_reciprocal_EOM": "NOT_SOLVED",
+          "source_Y_current_weighted_L2": 0.01445596541511602,
+          "source_off_A0_zero_current": 0.0,
+          "trace_density_integral_arbitrary": 65.86460187935467,
+          "with_prescribed_neutral_Y_current_weighted_L2": 0.01579671760402401
+        },
+        "source": {
+          "L": 12,
+          "Noether": [
+            400.0,
+            400.0
+          ],
+          "P10_energy_canonical_not_J": 711.8045370708118,
+          "first_order_existing_Y": {
+            "Y_current_L2": 0.01445596541511602,
+            "Y_field_outer_shell_max_abs": 0.00022219465580770046,
+            "Y_kernel_symmetry_inf": 0.0,
+            "Y_magnetic_dipole": 1.2979233011734497,
+            "Y_magnetic_energy_CANONICAL_NOT_J": 0.0005463911493470373,
+            "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+            "portal_P_abs_integral": 0.06862991886274034,
+            "portal_alpha_P_max_abs_beta0": 7.796663476629317e-06
+          },
+          "free_X_Gauss_residual": 1.8818280267396403e-14,
+          "h": 1.0,
+          "net_X_charge": -1.7763568394002505e-15,
+          "nr": 12,
+          "scalar_EOM_weighted_L2": [
+            8.187069959793669e-07,
+            8.150978079924051e-07
+          ]
+        }
+      },
+      "12_L16": {
+        "prescribed_neutral_diagnostic": {
+          "A0_aligned_trace_null_error": 4.997043017376891e-18,
+          "PH15_P10_first_order_current_reproduction_error": 0.0,
+          "X_electrostatic_Bianchi_inf": 3.252606517456513e-17,
+          "Y_magnetic_Bianchi_inf": 2.270048298641525e-19,
+          "alpha_sign_reversal_error": 0.0,
+          "amplitude_arbitrary_canonical": 0.15,
+          "constant_neutral_trace_null_error": 4.049992932359557e-18,
+          "density_amplitude_double_error": 8.19172537446921e-18,
+          "first_order_P_abs_integral_canonical": 0.07531509802441522,
+          "fixed_g_test_accel_z_max_abs_CANONICAL_NOT_SI": 3.0718089315916164e-06,
+          "neutral_increment_Biot_Savart_energy_canonical_not_J": 4.835496393851437e-06,
+          "neutral_increment_Y_current_weighted_L2": 0.0022372695188117085,
+          "neutral_increment_relative_to_source": 0.15980066185509217,
+          "physical_Earth_density_EOM": "NOT_SOLVED",
+          "physical_force_and_1kg_benchmark": "NOT_DERIVED",
+          "physical_metric_Einstein_EOM": "NOT_SOLVED",
+          "prescribed_sigma_max_abs": 8.832524727958776e-06,
+          "source_X_Y_reciprocal_EOM": "NOT_SOLVED",
+          "source_Y_current_weighted_L2": 0.014000377050005416,
+          "source_off_A0_zero_current": 0.0,
+          "trace_density_integral_arbitrary": 65.88939398387868,
+          "with_prescribed_neutral_Y_current_weighted_L2": 0.015314504516652054
+        },
+        "source": {
+          "L": 16,
+          "Noether": [
+            400.00000000000017,
+            400.0000000000001
+          ],
+          "P10_energy_canonical_not_J": 710.7525649376865,
+          "first_order_existing_Y": {
+            "Y_current_L2": 0.014000377050005416,
+            "Y_field_outer_shell_max_abs": 9.344514065245859e-05,
+            "Y_kernel_symmetry_inf": 0.0,
+            "Y_magnetic_dipole": 1.2918139003556788,
+            "Y_magnetic_energy_CANONICAL_NOT_J": 0.0005322752797955896,
+            "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+            "portal_P_abs_integral": 0.06969312532624689,
+            "portal_alpha_P_max_abs_beta0": 7.90597706796286e-06
+          },
+          "free_X_Gauss_residual": 1.482147737874584e-14,
+          "h": 1.3333333333333333,
+          "net_X_charge": 6.439293542825908e-15,
+          "nr": 12,
+          "scalar_EOM_weighted_L2": [
+            5.535517640135491e-07,
+            5.3093489345574e-07
+          ]
+        }
+      },
+      "18_L12": {
+        "prescribed_neutral_diagnostic": {
+          "A0_aligned_trace_null_error": 5.447025413918935e-18,
+          "PH15_P10_first_order_current_reproduction_error": 0.0,
+          "X_electrostatic_Bianchi_inf": 1.249000902703301e-16,
+          "Y_magnetic_Bianchi_inf": 3.6083603553033194e-19,
+          "alpha_sign_reversal_error": 0.0,
+          "amplitude_arbitrary_canonical": 0.15,
+          "constant_neutral_trace_null_error": 4.260280704283617e-18,
+          "density_amplitude_double_error": 1.0147543906297474e-17,
+          "first_order_P_abs_integral_canonical": 0.07529867564733518,
+          "fixed_g_test_accel_z_max_abs_CANONICAL_NOT_SI": 3.6597681735295677e-06,
+          "neutral_increment_Biot_Savart_energy_canonical_not_J": 5.493981384598264e-06,
+          "neutral_increment_Y_current_weighted_L2": 0.002288773341439527,
+          "neutral_increment_relative_to_source": 0.15291182226028724,
+          "physical_Earth_density_EOM": "NOT_SOLVED",
+          "physical_force_and_1kg_benchmark": "NOT_DERIVED",
+          "physical_metric_Einstein_EOM": "NOT_SOLVED",
+          "prescribed_sigma_max_abs": 8.178244719071385e-06,
+          "source_X_Y_reciprocal_EOM": "NOT_SOLVED",
+          "source_Y_current_weighted_L2": 0.014967929278506445,
+          "source_off_A0_zero_current": 0.0,
+          "trace_density_integral_arbitrary": 65.84467140705308,
+          "with_prescribed_neutral_Y_current_weighted_L2": 0.016293651182253368
+        },
+        "source": {
+          "L": 12,
+          "Noether": [
+            399.99999999999994,
+            400.0
+          ],
+          "P10_energy_canonical_not_J": 712.5557086168102,
+          "first_order_existing_Y": {
+            "Y_current_L2": 0.014967929278506445,
+            "Y_field_outer_shell_max_abs": 0.00022786773077252776,
+            "Y_kernel_symmetry_inf": 0.0,
+            "Y_magnetic_dipole": 1.304307732851812,
+            "Y_magnetic_energy_CANONICAL_NOT_J": 0.000555559259724619,
+            "Y_response_status": "FIRST_ORDER_FREE_SPACE_BIOT_SAVART_RING_QUADRATURE_NO_RECIPROCITY",
+            "portal_P_abs_integral": 0.06946662899221563,
+            "portal_alpha_P_max_abs_beta0": 7.645553214256479e-06
+          },
+          "free_X_Gauss_residual": 2.098321516541546e-14,
+          "h": 0.6666666666666666,
+          "net_X_charge": -1.3480536131815768e-14,
+          "nr": 18,
+          "scalar_EOM_weighted_L2": [
+            1.5825934867529038e-06,
+            1.5876352500598679e-06
+          ]
+        }
+      }
+    },
+    "complete_healthy_modes": "NOT_SOLVED",
+    "coupled_X_Y_source_status": "NOT_SOLVED",
+    "exact": {
+      "Bianchi": "dF_X=dF_Y=0; nabla_mu dual(F_X)^mu_nu=nabla_mu dual(F_Y)^mu_nu=0",
+      "checks": {
+        "LeviCivita_P_is_metric_density_sensitive": true,
+        "P_is_even_under_simultaneous_F_reversal": true,
+        "P_is_odd_under_single_F_reversal": true,
+        "Pontryagin_density_metric_independent": true,
+        "Y0_induction_if_alpha0": true,
+        "Y0_induction_if_no_matter": true,
+        "beta_changes_local_linear_Y_stiffness": true,
+        "conformal_Weyl_trace_source": true,
+        "lambda_at_P0_with_neutral": true,
+        "mixed_lambda_at_FY0": true,
+        "mixed_variation_reciprocal": true,
+        "neutral_particle_lambda_chain": true,
+        "neutral_test_mass_must_not_be_negative": true,
+        "neutral_trace_changes_Y_drive_at_alpha": true,
+        "no_portal_alpha0_first_order": true,
+        "positive_rest_mass_conformal_particle": true,
+        "sigma_prime": true,
+        "source_lambda_chain": true,
+        "test_particle_conformal_accel": true,
+        "total_lambda_is_sum": true
+      },
+      "diffeomorphism_and_Einstein": "FULL_VARIATION_AND_SOLVE_NOT_PERFORMED",
+      "gauge_constitutive": "H_X=F_X-lambda*dual(F_Y); H_Y=F_Y-lambda*dual(F_X)",
+      "lambda_P_at_P0": "-4*K*alpha**2 + 4*K*beta - 16*U*alpha**2 + 8*U*beta - alpha**2*n + 2*beta*n",
+      "lambda_neutral_rest_particle": "-n*(-2*P*beta + alpha)*exp(-P**2*beta + P*alpha)",
+      "lambda_source": "-K*(-4*P*beta + 2*alpha)*exp(-2*P**2*beta + 2*P*alpha) - U*(-8*P*beta + 4*alpha)*exp(-4*P**2*beta + 4*P*alpha)",
+      "lambda_total_at_P0": "-2*K*alpha - 4*U*alpha - alpha*n",
+      "local_weyl_trace": "delta S_m / delta sigma = sqrt(-g_tilde) T_tilde; lambda_total=e^(4sigma) T_tilde sigma_prime",
+      "metric_P_variation": "P=(epsilon density contraction)/(4 sqrt(-g)): delta P=(P/2)g_mu_nu delta g^mu_nu (holding FX,FY fixed)",
+      "neutral_Earth_material": "PRESCRIBED_TRACE_SENSITIVITY_ONLY_NOT_COVARIANT_DUST_SOLVE",
+      "neutral_test_acceleration_fixed_g": "a^mu=-(g^mu_nu+u^mu u_nu)grad^nu sigma; gravity metric perturbation NOT included",
+      "total_stress_Ward": "total stress conservation is an on-shell obligation; NOT evaluated numerically"
+    },
+    "exterior_metric_status": "NOT_SOLVED",
+    "gates": {
+      "Einstein_metric_not_derived": true,
+      "P10_X_Gauss_small": true,
+      "P10_first_order_Y_current_exact_reproduction": true,
+      "P10_individual_Noether_conserved": true,
+      "P10_neutral_X_source_in_all_cases": true,
+      "P10_scalar_EOM_small": true,
+      "actual_P10_Y_first_order_nonzero": true,
+      "aligned_trace_integrability_null": true,
+      "conformal_particle_effect_not_claimed_SI": true,
+      "constant_trace_bulk_null": true,
+      "exact_20_action_relations": true,
+      "finite_source_energy_canonical": true,
+      "full_reciprocal_EOM_not_derived": true,
+      "linear_neutral_amplitude_at_fixed_background": true,
+      "mesh_energy_not_converged_certified": true,
+      "neutral_load_changes_first_order_Y_current": true,
+      "neutral_variable_trace_distinguishable": true,
+      "no_X_no_induced_Y": true,
+      "no_neutral_payload_force_claim": true,
+      "not_near_zero_relative_neutral_effect": true,
+      "portal_sigma_reduced_small": true,
+      "positive_first_order_Y_kernel_increment_energy": true,
+      "positive_sensitivity_P_abs": true,
+      "reversal_alpha_antisymmetry": true,
+      "source_only_Y_not_universal_loaded": true,
+      "static_X_electrostatic_Bianchi": true,
+      "static_Y_magnetic_Bianchi": true
+    },
+    "limits": [
+      "P10 discrete self-consistent electrostatics, first-order Y, not coupled X/Y",
+      "Prescribed positive neutral trace is a sensitivity toy, NOT sourced Earth material",
+      "The covariant neutral matter and hull/support action are declared but not implemented/varied in dynamical geometry",
+      "Conformal test-particle acceleration is in canonical fixed-g background, NOT antigravity force",
+      "Fully dynamical GR Einstein equations and stress Ward are formal obligations, not executed solutions",
+      "No full-modes hyperbolicity, nonaxisymmetric spectrum, ghost/gradient/UV or SI scaling",
+      "No 1kg neutral torus 1g at 1m, no Earth-down craft-up and no 10MJ certification"
+    ],
+    "physical_Earth_down_craft_up": "NOT_DERIVED",
+    "physical_neutral_Earth_and_hull": "NOT_SOLVED",
+    "physical_units_and_UV": "NOT_CERTIFIED",
+    "recommendation": "PH16-01: one-action universal neutral fluid/support and both U1 variations with fixed-charge reciprocal PDE residual and principal kinetic symbol before any Earth-force claim",
+    "transfer_classification": "REQUIREMENTS_TRANSFER_ONLY_NOT_PHYSICAL_MECHANISM",
+    "verdict": "YELLOW_PH16_00_UNIVERSAL_TRACE_LOADING_PREFLIGHT_PH15_SOURCE_ONLY_Y_INCOMPLETE"
+  },
+  "source_sha256": "ab00f235145496f38d976e18ce3967006f147523d0c4c74f327bc025020336d4",
+  "timestamp_utc": "2026-11-17T19:33:02.236321+00:00",
+  "true_external_metric_force": "NOT_DERIVED",
+  "verifier_sha256": "e96796fbabafdabb169d5ecf63c9ff81e352176bdf33e7ba838327b6eae540bd",
+  "whole_craft_force": "NOT_DERIVED"
+}

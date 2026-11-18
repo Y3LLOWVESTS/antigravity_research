@@ -1,0 +1,199 @@
+{
+  "006D_replaced": false,
+  "ALPHA1_M5V_frozen": true,
+  "Y_induction_matching": "CONDITIONAL_NUMERICAL_GEOMETRIC_OBSTRUCTION_FOR_M5I_PAIR_ONLY",
+  "action_scope": "PH15 nonwinding X Maxwell scalar source and linear Y induction; no Earth/matter/gravity closure",
+  "branch": "BETA1-01",
+  "complete_energy_SI": "NOT_AVAILABLE",
+  "earth_craft_force": "NOT_DERIVED",
+  "experiment": "TWO_CHANNEL_SOURCE_CURRENT_REALIZABILITY_AND_INDUCTION_OBSTRUCTIONS",
+  "full_constraint_kinetics": "NOT_CERTIFIED",
+  "independent_verifier_sha256": "d9a7d2a8d4bf066f2516620255a8171633823be56c6a10ecdb0f962f39e95a3a",
+  "model_class": "NECESSARY_CONDITION_DERIVED",
+  "next_physical_experiments": [
+    "PH16: actual P10 source X/Y/scalar fully reciprocal perturbation and constrained kinetic characteristic matrix",
+    "BETA-1A: evaluate source-current mismatches on conserved-charge and fixed-spin states, not arbitrary amplitude fits",
+    "BETA1-02: derive passive causal neutral material response instead of M5V C2"
+  ],
+  "parent_source_sha256": {
+    "BETA1-00": {
+      "actual_sha256": "7088b754464d57da26b97ea9a42f486770c7eb0c6e6afcf78ab6d156acc119f6",
+      "expected_sha256": "7088b754464d57da26b97ea9a42f486770c7eb0c6e6afcf78ab6d156acc119f6",
+      "path": "src/antigravity_research/beta_artificial/beta1_00_obstruction_atlas.py",
+      "status": "MATCH"
+    },
+    "M5I": {
+      "actual_sha256": "ee3ff31e2068e2f6fc5c8bf46ee951e5b11098d24ba36d73e8f0e1f568f44a54",
+      "expected_sha256": "ee3ff31e2068e2f6fc5c8bf46ee951e5b11098d24ba36d73e8f0e1f568f44a54",
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5i_continuum_source.py",
+      "status": "MATCH"
+    },
+    "M5V": {
+      "actual_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5v_unified_exterior_action.py",
+      "status": "MATCH"
+    },
+    "P1": {
+      "actual_sha256": "9ce430fa8a0e155ef330de27f1a8461c93a970385db4eeb53507c87253c07ca5",
+      "expected_sha256": "9ce430fa8a0e155ef330de27f1a8461c93a970385db4eeb53507c87253c07ca5",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p1_theorem.py",
+      "status": "MATCH"
+    },
+    "P10": {
+      "actual_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "expected_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "status": "MATCH"
+    },
+    "P10_JSON": {
+      "actual_sha256": "af59b072dba9a0424c569419af1f673172c3123a371eec8443e52cd81efc73c1",
+      "expected_sha256": "af59b072dba9a0424c569419af1f673172c3123a371eec8443e52cd81efc73c1",
+      "path": "results/data/032h17_ph15_p10_20261116T182301044331Z.json",
+      "status": "MATCH"
+    },
+    "P7": {
+      "actual_sha256": "af2aa57c77232ce1cfd4832bdd859e0fc10a6a75a01fb7d784e221c0ee77da4c",
+      "expected_sha256": "af2aa57c77232ce1cfd4832bdd859e0fc10a6a75a01fb7d784e221c0ee77da4c",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p7_gauss_phase.py",
+      "status": "MATCH"
+    }
+  },
+  "physical_P10_Y_channel": "PRESERVED",
+  "physical_transfer": "NOT_AUTHORIZED",
+  "previous_BETA1_00": {
+    "path": "results/data/beta1_00_20261116T200742656266Z.json",
+    "sha256": "866a305e4d7618d174ff63e864a3d7054ffc9133284e0e5c3637dec89145f708"
+  },
+  "program": "BETA-1",
+  "reciprocity_status": "NOT_FULLY_SOLVED",
+  "research_completion_heuristic": "UNCHANGED_APPROX_35_PERCENT",
+  "runner_sha256": "11765fe5070d3663ea2d83c0e6af2ac9d701ead6b332beea4fe7061d273ccaaa",
+  "scientific_results": {
+    "exact_symbolic_checks": {
+      "azimuthal_X_energy_positive_coefficient": true,
+      "beta0_alpha0_free_positive": true,
+      "frozen_magnetic_Y_parallel_eigenvalue": true,
+      "frozen_magnetic_Y_transverse_positive": true,
+      "induced_Y_critical_A0_null": true,
+      "nonwinding_Aphi0_X_current_exact_null": true,
+      "portal_lambda_P0_identity": true
+    },
+    "exact_theorems": {
+      "X_ampere": "NO_SOURCE_FREE_NONWINDING_A_PHI_WITH_STANDARD_POSITIVE_STATIC_ENERGY_AND_VANISHING_BOUNDARY_FLUX_AT_ZERO_PORTAL",
+      "X_class": "NO_NONZERO_PRESCRIBED_AZIMUTHAL_MICROSCOPIC_X_CURRENT_IN_P10_NONWINDING_AZIMUTHAL_A0_CLASS",
+      "Y_M5I_screen": "TWO_NUMERICAL_QUADRATURES_INDICATE_SUCH_INTERIOR_EXTREMUM_FOR_FROZEN_M5I_RHO;_NOT_RIGOROUS_INTERVAL_CERTIFICATE",
+      "Y_critical_point": "IF_A0_HAS_INTERIOR_EXTREMUM_IN_REGION_JTARGET_PHI_NONZERO_THEN_NO_SMOOTH_LAMBDA_CAN_REPRODUCE_TARGET_EVERYWHERE"
+    },
+    "independent_quadrature_moments": {
+      "112": {
+        "relative_or_absolute_errors": {
+          "azimuthal_current_L2_squared": 2.0539125955565396e-15,
+          "charge_density_L2_squared": 7.979727989493313e-17,
+          "electric_dipole_z": 1.1209783101762127e-14,
+          "magnetic_dipole_z": 9.992007221626409e-15,
+          "net_charge": 4.768532863197225e-19
+        },
+        "values": {
+          "azimuthal_current_L2_squared": 0.4333653568841983,
+          "charge_density_L2_squared": 0.018056889870174925,
+          "electric_dipole_z": 0.02837511265314311,
+          "magnetic_dipole_z": 0.46119180925629394,
+          "net_charge": 4.768532863197225e-19
+        }
+      },
+      "64": {
+        "relative_or_absolute_errors": {
+          "azimuthal_current_L2_squared": 2.7755575615628914e-16,
+          "charge_density_L2_squared": 3.469446951953614e-17,
+          "electric_dipole_z": 3.215899768704844e-13,
+          "magnetic_dipole_z": 1.149302875091962e-12,
+          "net_charge": 3.296976485513858e-20
+        },
+        "values": {
+          "azimuthal_current_L2_squared": 0.433365356884196,
+          "charge_density_L2_squared": 0.01805688987017481,
+          "electric_dipole_z": 0.02837511265345349,
+          "magnetic_dipole_z": 0.46119180925515463,
+          "net_charge": -3.296976485513858e-20
+        }
+      }
+    },
+    "magnetic_ellipticity_warning": "frozen Y magnetic eigenvalue=1-lambda_P0*|EX|^2; local positive needed for restricted screening; not full canonical health",
+    "mechanism_status": {
+      "M5I_as_Y_from_M5I_RHO": "NUMERICALLY_DISFAVORED_UNDER_MATCHED_POISSON_AND_SMOOTH_LAMBDA",
+      "M5I_direct_X_current_in_P10": "CLOSED_RESTRICTED_ANSATZ",
+      "P10_original_induced_Y": "PRESERVED_NOT_DISPROVEN",
+      "beta_and_kinetic": "FULL_CONSTRAINED_HEALTH_OPEN",
+      "earth_force": "NOT_DERIVED",
+      "physical_transfer": "NOT_AUTHORIZED",
+      "winding_or_new_Y_source": "REQUIRES_NEW_SECTOR_AND_P7_HEALTH_RETEST"
+    },
+    "potential_interior_extremum_screens": [
+      {
+        "boundary_samples": 81,
+        "interior_coordinate": [
+          1.15,
+          0.23
+        ],
+        "interior_jphi_target": 0.3046022296811402,
+        "interior_minus_boundary": 0.0010195194546878158,
+        "interior_potential_canonical": 0.002368812030161281,
+        "quadrature_order": 64,
+        "screen_pass": true,
+        "upper_ellipse_boundary_max_canonical": 0.0013492925754734653,
+        "z0_potential_parity_check": 3.572076077733681e-21
+      },
+      {
+        "boundary_samples": 81,
+        "interior_coordinate": [
+          1.15,
+          0.23
+        ],
+        "interior_jphi_target": 0.3046022296811402,
+        "interior_minus_boundary": 0.0010211914835540894,
+        "interior_potential_canonical": 0.0023704840593706594,
+        "quadrature_order": 112,
+        "screen_pass": true,
+        "upper_ellipse_boundary_max_canonical": 0.00134929257581657,
+        "z0_potential_parity_check": 1.8733963894881096e-20
+      }
+    ],
+    "potential_margin_cross_resolution_abs": 1.6720288662736092e-06,
+    "source_channels": {
+      "M5I_prescribed": "INDEPENDENT_RHO_AND_JPHI_NOT_ONSHELL_MATTER",
+      "M5V_source": "M5I_CURRENT_USED_AS_PRESCRIBED_CARRIER_INPUT",
+      "X_microscopic_P10": "ZERO_AZIMUTHAL_FOR_NONWINDING_ELECTROSTATIC_RESTRICTION",
+      "Y_effective_P10": "NONZERO_FIRST_ORDER_FROM_ONSHELL_X_SOURCE_NO_BACKREACTION"
+    },
+    "symbolic_formulas": {
+      "X_azimuthal_current_formula": "2*f1**2*q1*(-Aphi*q1 + n1/r) + 2*f2**2*q2*(-Aphi*q2 + n2/r)",
+      "X_charge_density_formula": "2*f1**2*q1*(-A0*q1 + omega1) + 2*f2**2*q2*(-A0*q2 + omega2)",
+      "Y_induced_azimuthal_formula": "-Ar*lz + Az*lr",
+      "frozen_magnetic_Y_parallel_eigenvalue": "-Ex**2*(-4*K*alpha**2 + 4*K*beta - 16*U*alpha**2 + 8*U*beta) + 1",
+      "frozen_magnetic_Y_scope": "fixed-X electric and frozen matter; NOT full constrained modes",
+      "lambda_P0": "-4*K*alpha**2 + 4*K*beta - 16*U*alpha**2 + 8*U*beta"
+    },
+    "target_exact_moments": {
+      "azimuthal_current_L2_squared": 0.43336535688419625,
+      "charge_density_L2_squared": 0.018056889870174845,
+      "electric_dipole_z": 0.0283751126531319,
+      "magnetic_dipole_z": 0.46119180925630393,
+      "net_charge": 0.0
+    },
+    "target_parameters": {
+      "axial_halfwidth_m": 0.5,
+      "azimuthal_current_amplitude": 1.0,
+      "density_amplitude": 1.0,
+      "radial_center_m": 1.15,
+      "radial_halfwidth_m": 0.42
+    },
+    "verdict": "YELLOW_RESTRICTED_M5I_TO_P10_CURRENT_MAPPINGS_OBSTRUCTED_FULL_PHYSICAL_MODEL_OPEN"
+  },
+  "source_energy_SI": "NOT_AVAILABLE",
+  "source_sha256": "dce9ce0e08f72664b506543873bb0e396cb629f806b0101d15cd7740dbeab099",
+  "source_status": "M5I_ARTIFICIAL_NOT_MICROSCOPIC; PH15_P10_ONSHELL_X_DISCRETE",
+  "timestamp_utc": "2026-11-16T21:57:49.728579+00:00",
+  "verdict": "YELLOW_RESTRICTED_M5I_TO_P10_CURRENT_MAPPINGS_OBSTRUCTED_FULL_PHYSICAL_MODEL_OPEN",
+  "whole_craft_reaction": "NOT_DERIVED"
+}

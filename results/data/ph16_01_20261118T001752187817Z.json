@@ -1,0 +1,551 @@
+{
+  "006D_replaced": false,
+  "ALPHA1_M5V_frozen": true,
+  "BETA1_heuristic": "FROZEN_APPROX_70_PERCENT",
+  "PH17_approved": "NO",
+  "SI_lt10MJ_complete_energy": "NOT_CERTIFIED",
+  "branch": "PH16-01",
+  "classification": "COVARIANT_FLUID_AND_SOLID_ACTION_IDENTITIES_ONE_WAY_HYDROSTATIC_PLUS_FROZEN_PRINCIPAL_TEST",
+  "complete_constrained_modes": "NOT_CERTIFIED",
+  "dynamical_Einstein_equations": "NOT_SOLVED",
+  "experiment": "COVARIANT_NEUTRAL_FLUID_ACTION_HYDROSTATIC_RECIPROCITY_AND_FROZEN_PRINCIPAL_HEALTH",
+  "full_X_Y_source_on_shell": "NOT_SOLVED",
+  "full_conserved_real_Earth_material": "NOT_SOLVED",
+  "next": "PH16-02: full-cell reciprocal X/Y/source/neutral constrained EOM and principal health; no PH17 promotion",
+  "parent_source_sha256": {
+    "ALPHA_M5V": {
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5v_unified_exterior_action.py",
+      "sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "BETA1_00_JSON": {
+      "path": "results/data/beta1_00_20261116T200742656266Z.json",
+      "sha256": "866a305e4d7618d174ff63e864a3d7054ffc9133284e0e5c3637dec89145f708",
+      "status": "MATCH"
+    },
+    "BETA1_02_JSON": {
+      "path": "results/data/beta1_02_20261117T164856020351Z.json",
+      "sha256": "723e21b16c003fdc6962455617ca56e9c390db10e43c1c55bfaec6e10efc3881",
+      "status": "MATCH"
+    },
+    "BETA1_03_JSON": {
+      "path": "results/data/beta1_03_20261117T180317015064Z.json",
+      "sha256": "86b7b2601e7181ba59b6f5c95932246f2c97b98046b83b3d817601e806dc44f0",
+      "status": "MATCH"
+    },
+    "BETA1_04_JSON": {
+      "path": "results/data/beta1_04_20261117T184058123842Z.json",
+      "sha256": "2ff63f1e2cbad2dc09d192569701b5503da06ca384ca60546d6e83c8c61ae632",
+      "status": "MATCH"
+    },
+    "BETA1_1B1_JSON": {
+      "path": "results/data/beta1_1b1_20261117T001913743770Z.json",
+      "sha256": "1468220d56a8555207f3f7e7960880636bc0ccb88bc344ad0d748e5e61a91b11",
+      "status": "MATCH"
+    },
+    "PH11_SUPPORT": {
+      "path": "src/antigravity_research/agminer/hook17_ph11_universal_metric_support_gate.py",
+      "sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "status": "MATCH"
+    },
+    "PH15_P10_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    },
+    "PH15_P1_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p1_theorem.py",
+      "sha256": "9ce430fa8a0e155ef330de27f1a8461c93a970385db4eeb53507c87253c07ca5",
+      "status": "MATCH"
+    },
+    "PH15_P8_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py",
+      "sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "status": "MATCH"
+    },
+    "PH16_00_JSON": {
+      "path": "results/data/ph16_00_20261117T193302236321Z.json",
+      "sha256": "0f6025bbdaa1fe6da12bbd6d1044c192cbb40a1006d3103b76f8e9c0b3f8576e",
+      "status": "MATCH"
+    }
+  },
+  "physical_heuristic": "APPROX_35_PERCENT_REASSESS_AFTER_REVIEW",
+  "physical_transfer": "RESTRICTED_NECESSARY_CONDITIONS_ONLY",
+  "primary_verdict": "YELLOW_PH16_01_COVARIANT_FLUID_EQUILIBRIUM_AND_FROZEN_PRINCIPAL_OBSTRUCTION_FULL_RECIPROCITY_OPEN",
+  "program": "ANTIGRAVITY_RESEARCH",
+  "real_neutral_torus_1kg_1g_1m": "NOT_CERTIFIED",
+  "runner_sha256": "1fe2066df1030fedaaa9a4b95387afe9ada9b614e86c57e7814f6c61126f1502",
+  "scoped_results": {
+    "cases": {
+      "12_L12": {
+        "missing": {
+          "Einstein_EOM": "NOT_SOLVED",
+          "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+          "full_X_Y_source_EOM": "NOT_SOLVED",
+          "material_support_boundaries": "NOT_SOLVED",
+          "neutral_torus_1kg_1g_1m": "NOT_CERTIFIED",
+          "onboard_whole_craft": "NOT_DERIVED",
+          "physical_Earth_down_craft_up": "NOT_DERIVED"
+        },
+        "neutral_hydrostatic_ONE_WAY": {
+          "arbitrary_Gaussian_redshifted_mu_range": 0.07153586591796857,
+          "arbitrary_same_number_gaussian_Y_current_L2": 0.0017483180945151535,
+          "constant_fluid_trace_Y_driving_current_L2": 0.0,
+          "constant_fluid_trace_changes_Y_stiffness": true,
+          "density_response_Y_current_L2": 3.0836631663273994e-07,
+          "gaussian_number_error": 2.2737367544323206e-13,
+          "integrated_number_actual": 1628.601631620951,
+          "integrated_number_reference": 1628.6016316209486,
+          "kappa": 0.5,
+          "max_density_readjustment": 1.8797926973596057e-05,
+          "maximum_sound_speed_squared": 0.06977557501898132,
+          "minimum_density_energy": 0.15562083435980076,
+          "minimum_energy_minus_abs_pressure": 0.14999612498236914,
+          "minimum_sound_speed_squared": 0.06976576526787888,
+          "number_preservation_abs_error": 2.2737367544323206e-12,
+          "portal_sigma_max": 8.769270858514205e-06,
+          "positive_min_density": 0.14999612498236914,
+          "ratio_hydro_over_arbitrary": 0.00017637883952591397,
+          "redshifted_mu_const": 1.0749999719562258,
+          "redshifted_mu_max_residual": 9.992007221626409e-16,
+          "reference_density": 0.15,
+          "rest_mass": 1.0,
+          "static_Euler_finite_difference_inf": 5.3927508735037265e-12,
+          "status": "ONE_WAY_HYDROSTATIC_FLUID_NOT_EARTH_OR_COUPLED_SOURCE"
+        },
+        "principal_Y_frozen_background": {
+          "beta40_FD_difference_abs": 2.2615729178276922e-08,
+          "beta40_local_second_B_derivative_FD": -0.20753883661782535,
+          "beta40_local_second_B_derivative_exact": -0.20753881400209617,
+          "beta_first_local_zero_stiffness": 50.473497101141966,
+          "complete_X_Y_fluid_solid_kinetic_matrix": "NOT_SOLVED",
+          "continuum_and_UV_validity": "NOT_CERTIFIED",
+          "pointwise_negative_mode_trial": "local short-wavelength divergence-free BY parallel EX, k perpendicular EX, not full PDE eigenmode",
+          "scans": {
+            "0": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.01002332286244986,
+              "minimum_at_rz_indices": [
+                11,
+                0
+              ],
+              "minimum_frozen_magnetic_margin": 1.0000000067622192,
+              "negative_cells": 0,
+              "total_cells": 288
+            },
+            "20": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.01002332286244986,
+              "minimum_at_rz_indices": [
+                0,
+                12
+              ],
+              "minimum_frozen_magnetic_margin": 0.6038511669781947,
+              "negative_cells": 0,
+              "total_cells": 288
+            },
+            "40": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.01002332286244986,
+              "minimum_at_rz_indices": [
+                0,
+                12
+              ],
+              "minimum_frozen_magnetic_margin": 0.20753881400209617,
+              "negative_cells": 0,
+              "total_cells": 288
+            },
+            "60": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.01002332286244986,
+              "minimum_at_rz_indices": [
+                0,
+                12
+              ],
+              "minimum_frozen_magnetic_margin": -0.1887735389740024,
+              "negative_cells": 8,
+              "total_cells": 288
+            },
+            "80": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.01002332286244986,
+              "minimum_at_rz_indices": [
+                0,
+                12
+              ],
+              "minimum_frozen_magnetic_margin": -0.585085891950101,
+              "negative_cells": 14,
+              "total_cells": 288
+            }
+          }
+        },
+        "source": {
+          "L": 12.0,
+          "Noether": [
+            400.0,
+            400.0
+          ],
+          "Y_approximation": "SOURCE_ONLY_FIRST_ORDER_NO_BETA_OR_NEUTRAL_Y_BACKREACTION",
+          "base_P10_EOM_max": 8.187069959793669e-07,
+          "base_free_X_Gauss_residual": 1.8818280267396403e-14,
+          "canonical_source_energy_NOT_J": 711.8045370708118,
+          "h_canonical": 1.0,
+          "net_X_charge": -1.7763568394002505e-15,
+          "nr": 12
+        }
+      },
+      "12_L16": {
+        "missing": {
+          "Einstein_EOM": "NOT_SOLVED",
+          "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+          "full_X_Y_source_EOM": "NOT_SOLVED",
+          "material_support_boundaries": "NOT_SOLVED",
+          "neutral_torus_1kg_1g_1m": "NOT_CERTIFIED",
+          "onboard_whole_craft": "NOT_DERIVED",
+          "physical_Earth_down_craft_up": "NOT_DERIVED"
+        },
+        "neutral_hydrostatic_ONE_WAY": {
+          "arbitrary_Gaussian_redshifted_mu_range": 0.07166613714890357,
+          "arbitrary_same_number_gaussian_Y_current_L2": 0.0017570053819548762,
+          "constant_fluid_trace_Y_driving_current_L2": 0.0,
+          "constant_fluid_trace_changes_Y_stiffness": true,
+          "density_response_Y_current_L2": 2.997578167782756e-07,
+          "gaussian_number_error": 4.547473508864641e-13,
+          "integrated_number_actual": 3860.389052731137,
+          "integrated_number_reference": 3860.3890527311364,
+          "kappa": 0.5,
+          "max_density_readjustment": 1.9130124356531164e-05,
+          "maximum_sound_speed_squared": 0.06977571874706039,
+          "minimum_density_energy": 0.15562099546756994,
+          "minimum_energy_minus_abs_pressure": 0.1499962748503263,
+          "minimum_sound_speed_squared": 0.06976583011092352,
+          "number_preservation_abs_error": 4.547473508864641e-13,
+          "portal_sigma_max": 8.906048642349333e-06,
+          "positive_min_density": 0.1499962748503263,
+          "ratio_hydro_over_arbitrary": 0.00017060722742053274,
+          "redshifted_mu_const": 1.0749999910173345,
+          "redshifted_mu_max_residual": 4.996003610813204e-16,
+          "reference_density": 0.15,
+          "rest_mass": 1.0,
+          "static_Euler_finite_difference_inf": 7.086121181909064e-12,
+          "status": "ONE_WAY_HYDROSTATIC_FLUID_NOT_EARTH_OR_COUPLED_SOURCE"
+        },
+        "principal_Y_frozen_background": {
+          "beta40_FD_difference_abs": 1.6682590342487202e-07,
+          "beta40_local_second_B_derivative_FD": -0.18399643113132924,
+          "beta40_local_second_B_derivative_exact": -0.18399626430542582,
+          "beta_first_local_zero_stiffness": 49.01752859680523,
+          "complete_X_Y_fluid_solid_kinetic_matrix": "NOT_SOLVED",
+          "continuum_and_UV_validity": "NOT_CERTIFIED",
+          "pointwise_negative_mode_trial": "local short-wavelength divergence-free BY parallel EX, k perpendicular EX, not full PDE eigenmode",
+          "scans": {
+            "0": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.010410193042060723,
+              "minimum_at_rz_indices": [
+                11,
+                0
+              ],
+              "minimum_frozen_magnetic_margin": 1.0000000012551022,
+              "negative_cells": 0,
+              "total_cells": 288
+            },
+            "20": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.010410193042060723,
+              "minimum_at_rz_indices": [
+                0,
+                12
+              ],
+              "minimum_frozen_magnetic_margin": 0.5920820548414563,
+              "negative_cells": 0,
+              "total_cells": 288
+            },
+            "40": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.010410193042060723,
+              "minimum_at_rz_indices": [
+                0,
+                12
+              ],
+              "minimum_frozen_magnetic_margin": 0.18399626430542593,
+              "negative_cells": 0,
+              "total_cells": 288
+            },
+            "60": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.010410193042060723,
+              "minimum_at_rz_indices": [
+                0,
+                12
+              ],
+              "minimum_frozen_magnetic_margin": -0.22408952623060419,
+              "negative_cells": 4,
+              "total_cells": 288
+            },
+            "80": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.010410193042060723,
+              "minimum_at_rz_indices": [
+                0,
+                12
+              ],
+              "minimum_frozen_magnetic_margin": -0.6321753167666346,
+              "negative_cells": 8,
+              "total_cells": 288
+            }
+          }
+        },
+        "source": {
+          "L": 16.0,
+          "Noether": [
+            400.00000000000017,
+            400.0000000000001
+          ],
+          "Y_approximation": "SOURCE_ONLY_FIRST_ORDER_NO_BETA_OR_NEUTRAL_Y_BACKREACTION",
+          "base_P10_EOM_max": 5.535517640135491e-07,
+          "base_free_X_Gauss_residual": 1.482147737874584e-14,
+          "canonical_source_energy_NOT_J": 710.7525649376865,
+          "h_canonical": 1.3333333333333333,
+          "net_X_charge": 6.439293542825908e-15,
+          "nr": 12
+        }
+      },
+      "18_L12": {
+        "missing": {
+          "Einstein_EOM": "NOT_SOLVED",
+          "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+          "full_X_Y_source_EOM": "NOT_SOLVED",
+          "material_support_boundaries": "NOT_SOLVED",
+          "neutral_torus_1kg_1g_1m": "NOT_CERTIFIED",
+          "onboard_whole_craft": "NOT_DERIVED",
+          "physical_Earth_down_craft_up": "NOT_DERIVED"
+        },
+        "neutral_hydrostatic_ONE_WAY": {
+          "arbitrary_Gaussian_redshifted_mu_range": 0.07479297902421256,
+          "arbitrary_same_number_gaussian_Y_current_L2": 0.0017972754627673454,
+          "constant_fluid_trace_Y_driving_current_L2": 0.0,
+          "constant_fluid_trace_changes_Y_stiffness": true,
+          "density_response_Y_current_L2": 3.150260809370386e-07,
+          "gaussian_number_error": 2.2737367544323206e-13,
+          "integrated_number_actual": 1628.6016316209511,
+          "integrated_number_reference": 1628.6016316209486,
+          "kappa": 0.5,
+          "max_density_readjustment": 1.839571354658731e-05,
+          "maximum_sound_speed_squared": 0.06977540099779406,
+          "minimum_density_energy": 0.15562063690564157,
+          "minimum_energy_minus_abs_pressure": 0.1499959413037426,
+          "minimum_sound_speed_squared": 0.06976568579603276,
+          "number_preservation_abs_error": 2.5011104298755527e-12,
+          "portal_sigma_max": 8.58082495748892e-06,
+          "positive_min_density": 0.1499959413037426,
+          "ratio_hydro_over_arbitrary": 0.00017527979848563606,
+          "redshifted_mu_const": 1.0749999734305955,
+          "redshifted_mu_max_residual": 1.3322676295501878e-15,
+          "reference_density": 0.15,
+          "rest_mass": 1.0,
+          "static_Euler_finite_difference_inf": 3.100862470144762e-12,
+          "status": "ONE_WAY_HYDROSTATIC_FLUID_NOT_EARTH_OR_COUPLED_SOURCE"
+        },
+        "principal_Y_frozen_background": {
+          "beta40_FD_difference_abs": 1.267582050157312e-07,
+          "beta40_local_second_B_derivative_FD": -0.22943498181573732,
+          "beta40_local_second_B_derivative_exact": -0.22943510857394234,
+          "beta_first_local_zero_stiffness": 51.90750902759639,
+          "complete_X_Y_fluid_solid_kinetic_matrix": "NOT_SOLVED",
+          "continuum_and_UV_validity": "NOT_CERTIFIED",
+          "pointwise_negative_mode_trial": "local short-wavelength divergence-free BY parallel EX, k perpendicular EX, not full PDE eigenmode",
+          "scans": {
+            "0": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.009684609859657425,
+              "minimum_at_rz_indices": [
+                17,
+                0
+              ],
+              "minimum_frozen_magnetic_margin": 1.000000005939818,
+              "negative_cells": 0,
+              "total_cells": 648
+            },
+            "20": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.009684609859657425,
+              "minimum_at_rz_indices": [
+                0,
+                17
+              ],
+              "minimum_frozen_magnetic_margin": 0.6147971654780557,
+              "negative_cells": 0,
+              "total_cells": 648
+            },
+            "40": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.009684609859657425,
+              "minimum_at_rz_indices": [
+                0,
+                17
+              ],
+              "minimum_frozen_magnetic_margin": 0.22943510857394234,
+              "negative_cells": 0,
+              "total_cells": 648
+            },
+            "60": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.009684609859657425,
+              "minimum_at_rz_indices": [
+                0,
+                17
+              ],
+              "minimum_frozen_magnetic_margin": -0.15592694833017107,
+              "negative_cells": 14,
+              "total_cells": 648
+            },
+            "80": {
+              "full_coupled_health": "NOT_CERTIFIED",
+              "kinetic_Y_electric_frozen": 1.0,
+              "maximum_electric_field_squared": 0.009684609859657425,
+              "minimum_at_rz_indices": [
+                0,
+                17
+              ],
+              "minimum_frozen_magnetic_margin": -0.5412890052342847,
+              "negative_cells": 32,
+              "total_cells": 648
+            }
+          }
+        },
+        "source": {
+          "L": 12.0,
+          "Noether": [
+            399.99999999999994,
+            400.0
+          ],
+          "Y_approximation": "SOURCE_ONLY_FIRST_ORDER_NO_BETA_OR_NEUTRAL_Y_BACKREACTION",
+          "base_P10_EOM_max": 1.5876352500598679e-06,
+          "base_free_X_Gauss_residual": 2.098321516541546e-14,
+          "canonical_source_energy_NOT_J": 712.5557086168102,
+          "h_canonical": 0.6666666666666666,
+          "net_X_charge": -1.3480536131815768e-14,
+          "nr": 18
+        }
+      }
+    },
+    "classification": "COVARIANT_FLUID_AND_SOLID_ACTION_IDENTITIES_ONE_WAY_HYDROSTATIC_PLUS_FROZEN_PRINCIPAL_TEST",
+    "gates": {
+      "Y_electric_frozen_kinetic_positive": true,
+      "arbitrary_Gaussian_is_not_hydrostatic": true,
+      "arbitrary_Gaussian_same_number": true,
+      "beta0_frozen_magnetic_positive": true,
+      "beta40_frozen_magnetic_positive": true,
+      "beta40_second_variation_independent_FD": true,
+      "beta60_frozen_magnetic_negative": true,
+      "beta80_frozen_magnetic_negative": true,
+      "constant_trace_no_local_Y_drive": true,
+      "constant_trace_still_modifies_Y_stiffness": true,
+      "critical_beta_between_40_and60": true,
+      "fluid_DEC_positive": true,
+      "fluid_WEC_positive": true,
+      "fluid_density_positive": true,
+      "fluid_density_readjusts": true,
+      "fluid_hydrostatic_Euler_local": true,
+      "fluid_hydrostatic_mu_first_integral": true,
+      "fluid_not_claimed_real_Earth": true,
+      "fluid_number_preservation": true,
+      "fluid_sigma_weak_oneway": true,
+      "fluid_sound_speed_sub_luminal": true,
+      "full_coupled_modes_not_claimed_healthy": true,
+      "hydrostatic_density_induction_nonzero": true,
+      "hydrostatic_source_smaller_than_imposed_profile": true,
+      "missing_Einstein_recognition": true,
+      "missing_SI_and_complete_energy": true,
+      "missing_full_craft_reaction": true,
+      "missing_source_recognition": true,
+      "missing_support_boundaries": true,
+      "real_P10_3_reconstructions": true,
+      "some_negative_cells_at_beta60": true,
+      "source_P10_charge_neutral": true,
+      "source_base_EOM_converged": true,
+      "source_base_X_gauss_converged": true,
+      "source_fixed_noether_each_species": true,
+      "symbolic_all_exact": true
+    },
+    "limits": [
+      "Covariant pullback perfect-fluid and elastic solid actions are explicitly defined, but Earth/solid dynamical equations and support boundaries are not solved.",
+      "Hydrostatic density responds to a prescribed sigma computed from source-only PH15-P10 first-order Y; not jointly on-shell.",
+      "Homogeneous neutral fluid gives zero bulk first-order Y *drive*, NOT zero beta-dependent constitutive stiffness or zero gravity.",
+      "Frozen magnetic principal margin negative at beta60 and beta80 in this EFT; a full dynamical constrained X/Y/fluid/metric spectrum remains uncomputed.",
+      "This diagnostic fluid occupies a finite numerical box with no physical Earth, surface tension or torus; its density number is canonical, not 1kg.",
+      "No general 3D Einstein solution, no whole-craft Earth interaction, no SI matching, UV cutoff or strict 10MJ energy certificate."
+    ],
+    "next": "PH16-02: coupled full-cell X/Y/source/fluid residual and complete constrained magnetic/kinetic/UV audit before any PH17 transfer",
+    "physical_transfer": "SCOPED_FLUID_IDENTITY_AND_NECESSARY_PRINCIPAL_HEALTH_ONLY",
+    "symbolic": {
+      "baryon_current": "identically conserved Hodge dual of dPhi1 wedge dPhi2 wedge dPhi3",
+      "charged_source": "two opposite-charge complex scalars D_X=partial+i q X; scalar and current EOM NOT resolved in this run",
+      "checks": {
+        "P_metric_conformal_weight_minus4": true,
+        "Pontryagin_4form_metric_invariant": true,
+        "Y_kinetic_sign_at_electrostatic_X": true,
+        "Y_magnetic_principal_Hessian": true,
+        "barotropic_rho": true,
+        "constant_lambda_topological_bulk_null": true,
+        "fluid_conformal_action_reduction": true,
+        "fluid_conformal_trace_variation": true,
+        "fluid_lambda_chain": true,
+        "fluid_positive_enthalpy_formula": true,
+        "fluid_pressure": true,
+        "fluid_rho_minus_pressure": true,
+        "fluid_second_P_variation": true,
+        "fluid_sound_speed_formula": true,
+        "fluid_trace": true,
+        "full_second_P_variation": true,
+        "hydrostatic_Euler_pressure_balance": true,
+        "hydrostatic_mu_redshift_constant": true,
+        "lambda_P0_total": true,
+        "mixed_U1_variations_symmetric": true,
+        "neutral_density_changes_Y_constitutive_beta": true,
+        "one_plus_one_baryon_current_identically_conserved": true,
+        "pullback_density_conformal_weight_minus3": true,
+        "solid_bulk_curvature": true,
+        "solid_shear_no_linear_stress": true,
+        "solid_shear_quadratic_positive_coefficient": true,
+        "solid_stress_free_reference": true,
+        "source_lambda_chain": true,
+        "source_second_P_variation": true,
+        "total_lambda_additive": true,
+        "uniform_unconfined_fluid_requires_zero_gradient": true
+      },
+      "chi_total_at_zero": "-4*K*alpha**2 + 4*K*beta - 16*U*alpha**2 + 8*U*beta - 2*alpha**2*kappa*n**2 - alpha**2*m*n - 2*beta*kappa*n**2 + 2*beta*m*n",
+      "covariant_fluid_action": "S_n=-int sqrt(-gtilde) rho(n), n=sqrt(det(Btilde^IJ)), Btilde^IJ=gtilde^munu partial_mu Phi^I partial_nu Phi^J",
+      "covariant_solid_action": "S_s=-int sqrt(-gtilde)[ms*n+ks/2*(n-nref)^2+mus/4*(tr(C^2)-(tr C)^2/3)], C=B/(det B)^(1/3)",
+      "diffeomorphism_and_Bianchi": "total on-shell stress divergence zero required; full metric field equation NOT solved",
+      "gauge_equations": "nabla_mu(FX^munu-lambda *FY^munu)=J_X^nu, nabla_mu(FY^munu-lambda *FX^munu)=0; metric Hodge dual",
+      "lambda_total_at_zero": "-2*K*alpha - 4*U*alpha + alpha*kappa*n**2 - alpha*m*n",
+      "matter_metric_tensor": "T_eff_munu=e^(2sigma) Ttilde_munu - lambda P g_munu; requires simultaneous metric/matter variations",
+      "metric_P_variation": "at fixed F, delta P = (P/2) g_munu delta g^munu; Pontryagin density sqrt(-g) P metric independent",
+      "neutral_hydrostatic_first_integral": "(m+kappa*n) exp(sigma)=constant; only conditional on fixed static geometry and absence of body/traction forces",
+      "physical_state": "NO full source/X/Y/neutral/solid/metric joint stationary solution",
+      "principal_caveat": "frozen matter/X electrostatic background; magnetic alignment trial not a full gauge/constrained/dynamical spectrum",
+      "solid_stability_scope": "positive restricted bulk/shear strain curvature; NO full solid dynamic modes or interface solution"
+    },
+    "verdict": "YELLOW_PH16_01_COVARIANT_FLUID_EQUILIBRIUM_AND_FROZEN_PRINCIPAL_OBSTRUCTION_FULL_RECIPROCITY_OPEN"
+  },
+  "source_sha256": "7466a5c1a4613940ff6c57301375513629d0a940fb48e1d8ebe81bdbdf60ddbb",
+  "timestamp_utc": "2026-11-18T00:17:52.187817+00:00",
+  "verifier_sha256": "709fba69adea9f070706806cd37bc76812262c08c5e5fdf4c367d3c89ea8dcc1",
+  "whole_craft_Earth_force": "NOT_DERIVED"
+}

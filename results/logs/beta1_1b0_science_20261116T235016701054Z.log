@@ -1,0 +1,13 @@
+BETA1-1B0: YELLOW_ALPHA0_BETA100_DISCRETE_NEGATIVE_MAGNETIC_MODE_FULL_PH16_OPEN
+PARENT_SHA256: 5 / 5 MATCH
+SCIENTIFIC_GATES: 13 / 13
+CASE coarse12_L12 beta_local_alpha0= 58.705615 beta_Ritz_alpha0= 70.604466 Ritz_alpha0_beta100= -0.416341 Y_first_order= 0.2891193
+CASE base18_L12 beta_local_alpha0= 60.311362 beta_Ritz_alpha0= 69.034724 Ritz_alpha0_beta100= -0.4485464 Y_first_order= 0.2993586
+CASE fixed_h24_L16 beta_local_alpha0= 59.234448 beta_Ritz_alpha0= 67.847435 Ritz_alpha0_beta100= -0.4738951 Y_first_order= 0.3013309
+CASE fixed_h30_L20 beta_local_alpha0= 59.223291 beta_Ritz_alpha0= 67.835219 Ritz_alpha0_beta100= -0.4741605 Y_first_order= 0.3013501
+CASE refine36_L16 beta_local_alpha0= 59.963235 beta_Ritz_alpha0= 68.711732 Ritz_alpha0_beta100= -0.4553555 Y_first_order= 0.3086254
+PH15_P10_SOURCE_PRESERVED: YES; RE-SOLVED
+FULL_CONSTRAINED_PH16: OPEN
+EARTH_FORCE: NOT_DERIVED
+RESULT_JSON: /Users/mymac/Desktop/antigravity_research/results/data/beta1_1b0_20261116T235042989026Z.json
+SHA256: e60c13e66bacc77f38a3c97c390073151540132843ff1e22241936884a17fc0b

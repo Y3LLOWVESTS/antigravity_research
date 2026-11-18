@@ -1,0 +1,31 @@
+{
+  "006D_replaced": false,
+  "PH17_approved": "NO",
+  "acceptance_residual_L2": 1e-06,
+  "after_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+  "backup": "results/provenance/ph16_04_pre_R2_34d8e0f4f62088167aef709e03d9c4e5aeda076db898212c17cbe9d8487ee80b.py",
+  "before_sha256": "34d8e0f4f62088167aef709e03d9c4e5aeda076db898212c17cbe9d8487ee80b",
+  "branch": "PH16-04R2",
+  "continuation_maxiter_each": 100,
+  "continuation_uses_last_iterate": true,
+  "maximum_continuations": 2,
+  "native_solver_success_required": true,
+  "original_krylov_maxiter": 450,
+  "patch": "BOUNDED_ITERATE_CONTINUATION",
+  "physical_action_modified": false,
+  "physical_parameters_modified": false,
+  "prior_failed_logs": {
+    "PH16_04R1": {
+      "path": "results/logs/ph16_04r1_focused_20261118T060844966321Z.log",
+      "sha256": "43f8ced54cd6dd6a5db18ce64f9d0c67cc71be9ab55b3f63f52af31b7f5a117f"
+    },
+    "PH16_04_ORIGINAL": {
+      "path": "results/logs/ph16_04_focused_20261118T055106277209Z.log",
+      "sha256": "c40d960e32467708f36f04472bc2e7ae9a81100bb9e4a4b35afd8d899d166627"
+    }
+  },
+  "program": "ANTIGRAVITY_RESEARCH",
+  "scientific_gates_modified": false,
+  "scientific_tests_modified": false,
+  "timestamp_utc": "2026-11-18T16:35:08.990007+00:00"
+}

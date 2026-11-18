@@ -1,0 +1,569 @@
+{
+  "006D_replaced": false,
+  "ALPHA1_M5V_frozen": true,
+  "Earth_down_craft_up_physical": "NOT_DERIVED",
+  "branch": "BETA1-04",
+  "causal_finite_source_cycle": "NOT_CERTIFIED",
+  "classification": "ACTION_DERIVED_1D_PERIODIC_SCALAR_FIELD_EARTH_HULL_SOURCE_TOY",
+  "complete_energy_SI": "NOT_AVAILABLE",
+  "completion_heuristic_BETA1": "BASELINE_APPROX_55_PERCENT_PENDING_POSTMORTEM",
+  "completion_heuristic_physical": "UNCHANGED_APPROX_35_PERCENT",
+  "experiment": "EXACT_REACTION_STRESS_EXTERIOR_TRANSLATION_AND_CAUSAL_TOY_FIELD_LEDGER",
+  "independent_verifier_sha256": "89d08ad4ac8ccb37ef9fce26e6941c51328624ec8a746433916091924b3f8073",
+  "neutral_torus_1kg_1g_1m": "NOT_CERTIFIED",
+  "next": "BETA1-04 postmortem: decide PH16 pivot; B11-M6 remains separate",
+  "parent_source_sha256": {
+    "BETA1_00_JSON": {
+      "path": "results/data/beta1_00_20261116T200742656266Z.json",
+      "sha256": "866a305e4d7618d174ff63e864a3d7054ffc9133284e0e5c3637dec89145f708",
+      "status": "MATCH"
+    },
+    "BETA1_02_JSON": {
+      "path": "results/data/beta1_02_20261117T164856020351Z.json",
+      "sha256": "723e21b16c003fdc6962455617ca56e9c390db10e43c1c55bfaec6e10efc3881",
+      "status": "MATCH"
+    },
+    "BETA1_03_JSON": {
+      "path": "results/data/beta1_03_20261117T180317015064Z.json",
+      "sha256": "86b7b2601e7181ba59b6f5c95932246f2c97b98046b83b3d817601e806dc44f0",
+      "status": "MATCH"
+    },
+    "BETA1_1B1_JSON": {
+      "path": "results/data/beta1_1b1_20261117T001913743770Z.json",
+      "sha256": "1468220d56a8555207f3f7e7960880636bc0ccb88bc344ad0d748e5e61a91b11",
+      "status": "MATCH"
+    },
+    "M5P_EXTERIOR_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5p_exterior_boundary.py",
+      "sha256": "e49f7eb2ac7f700d0f2608bd556e3729cf0941932704761f9b9118d9607c2243",
+      "status": "MATCH"
+    },
+    "M5T_C2_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5t_variational_cell_material.py",
+      "sha256": "7b613fc98d3d7247483ea1f0dcb89e492131e46d3f7f549097d73a98cc41ffa5",
+      "status": "MATCH"
+    },
+    "M5V_FROZEN_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5v_unified_exterior_action.py",
+      "sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "PH11_SUPPORT_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph11_universal_metric_support_gate.py",
+      "sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "status": "MATCH"
+    },
+    "PH15_P10_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    }
+  },
+  "physical_neutral_Earth_metric_response": "NOT_DERIVED",
+  "physical_transfer": "NOT_AUTHORIZED",
+  "primary_verdict": "YELLOW_EXACT_TOY_EXTERNAL_FORCE_LEDGER_REAL_GRAVITY_AND_M5V_SOURCE_MISSING",
+  "program": "BETA-1",
+  "runner_sha256": "d080c71a5defdfdf7a6c2d2ac12f65d0c2fd80e230cea3ac83477f68be1ca1b5",
+  "scoped_results": {
+    "classification": "ACTION_DERIVED_1D_PERIODIC_SCALAR_FIELD_EARTH_HULL_SOURCE_TOY",
+    "dynamics": {
+      "earth_absent": {
+        "X_final": [
+          -4.0,
+          4.0,
+          4.0
+        ],
+        "X_initial": [
+          -4.0,
+          4.0,
+          4.0
+        ],
+        "combined_impulse_flux_error": -6.213554360190524e-18,
+        "craft_momentum_change": -1.6254485499487008e-15,
+        "dt": 0.0062499999999999995,
+        "duration": 2.4,
+        "dynamic_left_region_Ward_max": 4.3946380654613377e-14,
+        "earth_momentum_change": 0.0,
+        "energy_max_error": 1.3322676295501878e-15,
+        "field_momentum_change": 1.6192349955885103e-15,
+        "final": {
+          "body_energy": 1.321041494265167e-30,
+          "craft_momentum": -1.6254485499487008e-15,
+          "earth_momentum": 0.0,
+          "energy": -2.3288344413960758,
+          "field_energy": -2.3288344413960758,
+          "field_momentum": 1.6192349955885103e-15,
+          "support_energy": 0.0,
+          "whole_momentum": -6.213554360190524e-18
+        },
+        "impulse_C_negative": -1.6254485499487008e-15,
+        "impulse_C_positive": 0.0,
+        "impulse_craft_integral_error": 0.0,
+        "impulse_earth_integral_error": 0.0,
+        "initial": {
+          "body_energy": 0.0,
+          "craft_momentum": 0.0,
+          "earth_momentum": 0.0,
+          "energy": -2.3288344413960753,
+          "field_energy": -2.3288344413960753,
+          "field_momentum": -0.0,
+          "support_energy": 0.0,
+          "whole_momentum": 0.0
+        },
+        "integral_C": -1.6254485499487008e-15,
+        "integral_E": 0.0,
+        "momentum_max_error": 1.808663712459685e-17,
+        "spring_internal_force_max_residual": 0.0,
+        "steps": 384,
+        "time_history_not_reset": true,
+        "whole_momentum_status": "CONSERVATIVE_PERIODIC_TOY_WITHOUT_EXTERNAL_SUPPORT"
+      },
+      "earth_absent_internal_spring_excitation": {
+        "X_final": [
+          -4.0,
+          3.7476583014548552,
+          3.8106504837285398
+        ],
+        "X_initial": [
+          -4.0,
+          4.0,
+          4.0
+        ],
+        "combined_impulse_flux_error": -5.551115123125783e-17,
+        "craft_momentum_change": 0.1305106977707018,
+        "dt": 0.0046875,
+        "duration": 3.6,
+        "dynamic_left_region_Ward_max": 0.0004272323137210463,
+        "earth_momentum_change": 0.0,
+        "energy_max_error": 9.7824141320757e-07,
+        "field_momentum_change": -0.13051069777070207,
+        "final": {
+          "body_energy": 0.001427924488710552,
+          "craft_momentum": 0.1305106977707018,
+          "earth_momentum": 0.0,
+          "energy": -2.208835022996643,
+          "field_energy": -2.213238958756054,
+          "field_momentum": -0.13051069777070207,
+          "support_energy": 0.0029760112707008213,
+          "whole_momentum": -2.7755575615628914e-16
+        },
+        "impulse_C_negative": -0.28223208276240863,
+        "impulse_C_positive": 0.41274278053311064,
+        "impulse_craft_integral_error": 2.220446049250313e-16,
+        "impulse_earth_integral_error": 0.0,
+        "initial": {
+          "body_energy": 0.0,
+          "craft_momentum": 0.0,
+          "earth_momentum": 0.0,
+          "energy": -2.208834441396075,
+          "field_energy": -2.3288344413960753,
+          "field_momentum": -0.0,
+          "support_energy": 0.11999999999999994,
+          "whole_momentum": 0.0
+        },
+        "integral_C": 0.130510697770702,
+        "integral_E": 0.0,
+        "momentum_max_error": 8.881784197001252e-16,
+        "spring_internal_force_max_residual": 0.0,
+        "steps": 768,
+        "time_history_not_reset": true,
+        "whole_momentum_status": "CONSERVATIVE_PERIODIC_TOY_WITHOUT_EXTERNAL_SUPPORT"
+      },
+      "earth_present": {
+        "X_final": [
+          -4.008968493981274,
+          4.107625959279781,
+          4.029668357888679
+        ],
+        "X_initial": [
+          -4.0,
+          4.0,
+          4.0
+        ],
+        "combined_impulse_flux_error": -2.7755575615628914e-17,
+        "craft_momentum_change": 0.19574366508450583,
+        "dt": 0.0062499999999999995,
+        "duration": 2.4,
+        "dynamic_left_region_Ward_max": 1.6707490014672421e-06,
+        "earth_momentum_change": -0.2960566655930819,
+        "energy_max_error": 5.967762550795896e-08,
+        "field_momentum_change": 0.10031300050857592,
+        "final": {
+          "body_energy": 0.0045899725806719,
+          "craft_momentum": 0.19574366508450583,
+          "earth_momentum": -0.2960566655930819,
+          "energy": -4.29705981842549,
+          "field_energy": -4.306207831717153,
+          "field_momentum": 0.10031300050857592,
+          "support_energy": 0.004558040710990445,
+          "whole_momentum": -1.942890293094024e-16
+        },
+        "impulse_C_negative": 0.0,
+        "impulse_C_positive": 0.19574366508450608,
+        "impulse_craft_integral_error": 2.498001805406602e-16,
+        "impulse_earth_integral_error": -1.1102230246251565e-16,
+        "initial": {
+          "body_energy": 0.0,
+          "craft_momentum": 0.0,
+          "earth_momentum": 0.0,
+          "energy": -4.297059778270256,
+          "field_energy": -4.297059778270256,
+          "field_momentum": -0.0,
+          "support_energy": 0.0,
+          "whole_momentum": 0.0
+        },
+        "integral_C": 0.19574366508450608,
+        "integral_E": -0.296056665593082,
+        "momentum_max_error": 2.7755575615628914e-16,
+        "spring_internal_force_max_residual": 0.0,
+        "steps": 384,
+        "time_history_not_reset": true,
+        "whole_momentum_status": "CONSERVATIVE_PERIODIC_TOY_WITHOUT_EXTERNAL_SUPPORT"
+      },
+      "earth_present_dt_halved": {
+        "X_final": [
+          -4.008968493800125,
+          4.107626304173305,
+          4.029668334328408
+        ],
+        "X_initial": [
+          -4.0,
+          4.0,
+          4.0
+        ],
+        "combined_impulse_flux_error": -8.326672684688674e-17,
+        "craft_momentum_change": 0.19574320375148432,
+        "dt": 0.0031249999999999997,
+        "duration": 2.4,
+        "dynamic_left_region_Ward_max": 1.6847841378397899e-06,
+        "earth_momentum_change": -0.2960566782827907,
+        "energy_max_error": 1.4919434576654567e-08,
+        "field_momentum_change": 0.10031347453130621,
+        "final": {
+          "body_energy": 0.0045899682007958745,
+          "craft_momentum": 0.19574320375148432,
+          "earth_momentum": -0.2960566782827907,
+          "energy": -4.297059788309091,
+          "field_energy": -4.306207840306641,
+          "field_momentum": 0.10031347453130621,
+          "support_energy": 0.004558083796753442,
+          "whole_momentum": -1.6653345369377348e-16
+        },
+        "impulse_C_negative": 0.0,
+        "impulse_C_positive": 0.1957432037514844,
+        "impulse_craft_integral_error": 8.326672684688674e-17,
+        "impulse_earth_integral_error": 0.0,
+        "initial": {
+          "body_energy": 0.0,
+          "craft_momentum": 0.0,
+          "earth_momentum": 0.0,
+          "energy": -4.297059778270256,
+          "field_energy": -4.297059778270256,
+          "field_momentum": -0.0,
+          "support_energy": 0.0,
+          "whole_momentum": 0.0
+        },
+        "integral_C": 0.1957432037514844,
+        "integral_E": -0.2960566782827907,
+        "momentum_max_error": 4.718447854656915e-16,
+        "spring_internal_force_max_residual": 0.0,
+        "steps": 768,
+        "time_history_not_reset": true,
+        "whole_momentum_status": "CONSERVATIVE_PERIODIC_TOY_WITHOUT_EXTERNAL_SUPPORT"
+      },
+      "source_off": {
+        "X_final": [
+          -4.0,
+          4.0,
+          4.0
+        ],
+        "X_initial": [
+          -4.0,
+          4.0,
+          4.0
+        ],
+        "combined_impulse_flux_error": -2.1117557264218825e-17,
+        "craft_momentum_change": 0.0,
+        "dt": 0.0062499999999999995,
+        "duration": 2.4,
+        "dynamic_left_region_Ward_max": 4.413684395628864e-14,
+        "earth_momentum_change": 5.191405062398159e-16,
+        "energy_max_error": 1.3322676295501878e-15,
+        "field_momentum_change": -5.402580635040351e-16,
+        "final": {
+          "body_energy": 3.368835815236654e-33,
+          "craft_momentum": 0.0,
+          "earth_momentum": 5.191405062398159e-16,
+          "energy": -2.328834441396075,
+          "field_energy": -2.328834441396075,
+          "field_momentum": -5.402580635040351e-16,
+          "support_energy": 0.0,
+          "whole_momentum": -2.111755726421922e-17
+        },
+        "impulse_C_negative": 0.0,
+        "impulse_C_positive": 0.0,
+        "impulse_craft_integral_error": 0.0,
+        "impulse_earth_integral_error": 3.944304526105059e-31,
+        "initial": {
+          "body_energy": 0.0,
+          "craft_momentum": 0.0,
+          "earth_momentum": 0.0,
+          "energy": -2.328834441396074,
+          "field_energy": -2.328834441396074,
+          "field_momentum": -0.0,
+          "support_energy": 0.0,
+          "whole_momentum": 0.0
+        },
+        "integral_C": 0.0,
+        "integral_E": 5.191405062398163e-16,
+        "momentum_max_error": 2.4672050014585733e-17,
+        "spring_internal_force_max_residual": 0.0,
+        "steps": 384,
+        "time_history_not_reset": true,
+        "whole_momentum_status": "CONSERVATIVE_PERIODIC_TOY_WITHOUT_EXTERNAL_SUPPORT"
+      }
+    },
+    "gates": {
+      "Earth_absent_zero_interaction": true,
+      "M5V_residual_not_called_reaction_certification": true,
+      "action_earth_craft_force_pair": true,
+      "analytic_kernel_matches_density_force": true,
+      "box64_stress_Ward_resolved": true,
+      "closed_static_body_reaction": true,
+      "common_translation_invariant": true,
+      "double_q_scaling_fourfold": true,
+      "dynamic_craft_impulse_equals_deltaP": true,
+      "dynamic_earth_absent_no_unforced_craft_force": true,
+      "dynamic_earth_impulse_equals_deltaP": true,
+      "dynamic_energy_law": true,
+      "dynamic_field_carries_difference": true,
+      "dynamic_left_region_stress_flux_Ward": true,
+      "dynamic_momentum_law": true,
+      "dynamic_signed_impulse_accounted": true,
+      "dynamic_source_off_no_craft_force": true,
+      "dynamic_spring_internal_cancellation": true,
+      "dynamic_temporal_refinement_energy": true,
+      "dynamic_temporal_refinement_impulse": true,
+      "exact_Noether_stress_theorems": true,
+      "field_kinetic_and_mass_positive": true,
+      "finite_box_not_called_true_exterior": true,
+      "full_P10_PDE_and_Earth_force_not_certified": true,
+      "grid_static_convergence": true,
+      "grid_traction_all": true,
+      "internal_excitation_no_energy_reset": true,
+      "internal_excitation_no_ex_nihilo_momentum": true,
+      "local_stress_Ward_refines": true,
+      "local_stress_divergence_Ward": true,
+      "no_SI_energy_certification": true,
+      "offset_source_hull_support_reaction": true,
+      "offset_whole_craft_force_exterior_only": true,
+      "periodic_box_sensitivity_control": true,
+      "repulsive_opposite_scalar_charge_toy": true,
+      "same_action_coordinate_derivative": true,
+      "same_sign_attractive_control": true,
+      "source_off_zero_interaction": true,
+      "source_only_translates_not_whole_craft_offset": true,
+      "static_common_force_zero": true,
+      "stress_flux_matches_Earth_body_force": true,
+      "stress_flux_matches_region_force": true,
+      "toy_scalar_charges_not_called_neutral_metric_matter": true
+    },
+    "historical_BETA1_03": {
+      "closed_stress_and_Earth_metric": false,
+      "full_cell_source_X_residual_nonzero": true,
+      "reciprocal_alpha_nonzero_reduced_20_modes": true
+    },
+    "historical_M5V": {
+      "common_translation_residual_J_per_m": 0.001554154,
+      "craft_prescribed_action_derivative_J_per_m": 11.397230073,
+      "earth_prescribed_action_derivative_J_per_m": -11.395675919,
+      "interpretation": "HISTORICAL_FROZEN_PRESCRIBED_REDUCED_DERIVATIVES_NOT_THRUST",
+      "physical_Noether_reaction_derived": false,
+      "source_and_support_derived": false
+    },
+    "limits": [
+      "Toy Earth/source have prescribed opposite scalar charge; ordinary neutral universal-metric gravity not established",
+      "Finite one-dimensional PERIODIC domain, not 3D asymptotically flat exterior",
+      "Periodic Fourier cutoff has nonlocal discrete kernel; exact continuum light-cone causality not certified",
+      "Fixed prescribed scalar source charge distribution, source stability/production not derived",
+      "Frozen ALPHA-1 M5V Q derivatives not obtained from this toy action",
+      "No coupled PH15 X/Y/source neutral-matter/metric backreaction or realistic source supports",
+      "No sourced Earth-down craft-up neutral metric response or whole-craft antigravity",
+      "Transient impulse is not an operating cycle; negative phases and losses/cycles remain for B11-M6",
+      "All toy quantities canonical and not SI force/energy; strict <10MJ not certified"
+    ],
+    "next": "BETA1-04 postmortem pivot decision: transfer only exact stress/translation ledger to PH16/PH17, B11-M6 remains open",
+    "promotion": "NOT_AUTHORIZED",
+    "static": {
+      "Earth_force_from_stress_flux": -0.12620973490178905,
+      "Earth_region_force": -0.12620973490162013,
+      "action_gradient": {
+        "action_gradient": [
+          -0.12620973554611226,
+          0.12620973554611226,
+          -0.0
+        ],
+        "analytic_total_forces": [
+          -0.1262097349021427,
+          0.12620973490214274,
+          0.0
+        ],
+        "earth_craft_force_sum": 0.0,
+        "gradient_error_inf": 6.439695443560822e-10,
+        "hull_force": -0.0,
+        "source_force": 0.12620973554611226,
+        "whole_craft_force": 0.12620973554611226
+      },
+      "analytic_force_earth_craft": [
+        -0.12620973490214313,
+        0.12620973490214313
+      ],
+      "common_translation": [
+        {
+          "energy_deviation": 8.881784197001252e-16,
+          "force_sum": 2.220446049250313e-16,
+          "shift": -4.0
+        },
+        {
+          "energy_deviation": 8.881784197001252e-16,
+          "force_sum": 3.0531133177191805e-16,
+          "shift": -1.0
+        },
+        {
+          "energy_deviation": 0.0,
+          "force_sum": 2.7755575615628914e-17,
+          "shift": 0.0
+        },
+        {
+          "energy_deviation": 1.7763568394002505e-15,
+          "force_sum": 5.551115123125783e-17,
+          "shift": 1.0
+        },
+        {
+          "energy_deviation": 1.7763568394002505e-15,
+          "force_sum": -3.0531133177191805e-16,
+          "shift": 5.0
+        }
+      ],
+      "controls": {
+        "double_source_amplitudes": {
+          "analytic_force_error_inf": 1.6653345369377348e-15,
+          "body_force_sum": 1.1102230246251565e-16,
+          "cross_interaction_energy": 1.4424364180875784,
+          "force_craft_source": 0.504838939608571,
+          "force_earth": -0.5048389396085708
+        },
+        "earth_absent": {
+          "analytic_force_error_inf": 2.252256858545461e-16,
+          "body_force_sum": -2.252256858545461e-16,
+          "cross_interaction_energy": -0.0,
+          "force_craft_source": -2.252256858545461e-16,
+          "force_earth": 0.0
+        },
+        "opposite_sign": {
+          "analytic_force_error_inf": 4.163336342344337e-16,
+          "body_force_sum": 2.7755575615628914e-17,
+          "cross_interaction_energy": 0.3606091045218946,
+          "force_craft_source": 0.12620973490214274,
+          "force_earth": -0.1262097349021427
+        },
+        "same_sign": {
+          "analytic_force_error_inf": 4.718447854656915e-16,
+          "body_force_sum": 2.7755575615628914e-16,
+          "cross_interaction_energy": -0.3606091045218946,
+          "force_craft_source": -0.12620973490214266,
+          "force_earth": 0.12620973490214293
+        },
+        "source_off": {
+          "analytic_force_error_inf": 1.2526266683161068e-16,
+          "body_force_sum": 1.2526266683161068e-16,
+          "cross_interaction_energy": -0.0,
+          "force_craft_source": 0.0,
+          "force_earth": 1.2526266683161068e-16
+        }
+      },
+      "cross_energy_canonical": 0.3606091045218946,
+      "force_craft_source": 0.12620973490214274,
+      "force_earth": -0.1262097349021427,
+      "grid_domain_scan": [
+        {
+          "box": 48.0,
+          "craft_force": 0.12620973491599663,
+          "earth_force": -0.12620973491599696,
+          "gradient_analytic_error_inf": 5.177108741705183e-12,
+          "n": 128,
+          "stress_left": -0.12620958795738296,
+          "ward_inf": 0.001054560953921535
+        },
+        {
+          "box": 48.0,
+          "craft_force": 0.12620973490214274,
+          "earth_force": -0.1262097349021427,
+          "gradient_analytic_error_inf": 4.163336342344337e-16,
+          "n": 256,
+          "stress_left": -0.12620973490178905,
+          "ward_inf": 2.4124313657836183e-11
+        },
+        {
+          "box": 48.0,
+          "craft_force": 0.1262097349021428,
+          "earth_force": -0.12620973490214255,
+          "gradient_analytic_error_inf": 5.828670879282072e-16,
+          "n": 512,
+          "stress_left": -0.12620973490179138,
+          "ward_inf": 2.0813906154160122e-13
+        },
+        {
+          "box": 64.0,
+          "craft_force": 0.1262114480021586,
+          "earth_force": -0.12621144800215878,
+          "gradient_analytic_error_inf": 1.1102230246251565e-16,
+          "n": 256,
+          "stress_left": -0.12621144800153689,
+          "ward_inf": 4.5723154602100337e-07
+        }
+      ],
+      "local_Ward_residual_inf": 2.4124313657836183e-11,
+      "offset_support_gradient": {
+        "action_gradient": [
+          -0.12620973554611226,
+          -0.47379026445426575,
+          0.600000000000378
+        ],
+        "analytic_total_forces": [
+          -0.1262097349021427,
+          -0.47379026509785716,
+          0.5999999999999999
+        ],
+        "earth_craft_force_sum": 0.0,
+        "gradient_error_inf": 6.439695443560822e-10,
+        "hull_force": 0.600000000000378,
+        "source_force": -0.47379026445426575,
+        "whole_craft_force": 0.12620973554611226
+      },
+      "stress_midplane": 0.12621125722713947,
+      "stress_outer": 1.522325350405715e-06
+    },
+    "status": "YELLOW_EXACT_TOY_EXTERNAL_FORCE_LEDGER_REAL_GRAVITY_AND_M5V_SOURCE_MISSING",
+    "symbolic": {
+      "Noether_momentum_partition": true,
+      "double_charge_quadratic_force": true,
+      "earth_absent_interaction": true,
+      "earth_craft_action_reciprocity": true,
+      "equal_opposite_charge_repulsion_condition": true,
+      "internal_support_force_pair": true,
+      "on_shell_Hellmann_Feynman": true,
+      "source_off_interaction": true,
+      "source_shape_singlebody_translation_invariant": true,
+      "static_field_off_complete": true,
+      "static_stress_matter_exchange": true,
+      "translation_invariance_U": true
+    }
+  },
+  "source_X_Y_material_metric_on_shell": "NOT_CERTIFIED",
+  "source_sha256": "3fda96c3df4ddf6bd1893395dae5155ace5c6860a4d5b46a5f56763651f2e0b2",
+  "timestamp_utc": "2026-11-17T18:40:58.123842+00:00",
+  "toy_external_force": "DERIVED_ONLY_FOR_OPPOSITE_CHARGED_1D_SCALAR_ANALOG",
+  "true_3D_exterior": "NOT_DERIVED",
+  "whole_craft_gravitational_force": "NOT_DERIVED"
+}

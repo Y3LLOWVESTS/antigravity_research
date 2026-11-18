@@ -1,0 +1,15 @@
+BETA1-1B1: YELLOW_ALPHA0_CONSTRAINED_Y_GRADIENT_INSTABILITY_BETA100_NONZERO_ALPHA_OPEN
+PROVENANCE: 6 / 6 MATCH
+EXACT CHECKS: 10 / 10
+SCIENTIFIC GATES: 21 / 21
+CASE coarse12_L12 local_beta= 58.705616 legacy_beta= 70.604467 dirichlet_beta= 70.621345 omega2_taper_beta100= -0.832522 gamma_taper= 0.912427
+CASE base18_L12 local_beta= 60.311362 legacy_beta= 69.034723 dirichlet_beta= 68.799592 omega2_taper_beta100= -1.906187 gamma_taper= 1.380647
+CASE fixed_h24_L16 local_beta= 59.234448 legacy_beta= 67.847435 dirichlet_beta= 67.718964 omega2_taper_beta100= -1.970974 gamma_taper= 1.403914
+CASE fixed_h30_L20 local_beta= 59.223291 legacy_beta= 67.835219 dirichlet_beta= 67.753636 omega2_taper_beta100= -1.952387 gamma_taper= 1.397279
+CASE refine36_L16 local_beta= 59.963235 legacy_beta= 68.711732 dirichlet_beta= 68.537078 omega2_taper_beta100= -2.134359 gamma_taper= 1.460944
+GHOST_IN_TESTED_Y_CHANNEL: NO
+RESTRICTED_GRADIENT_INSTABILITY_ALPHA0_BETA100: YES
+ALPHA_NONZERO_ONSHELL_HEALTH: OPEN
+EARTH_FORCE: NOT_DERIVED
+RESULT_JSON: /Users/mymac/Desktop/antigravity_research/results/data/beta1_1b1_20261117T001913743770Z.json
+SHA256: 1468220d56a8555207f3f7e7960880636bc0ccb88bc344ad0d748e5e61a91b11

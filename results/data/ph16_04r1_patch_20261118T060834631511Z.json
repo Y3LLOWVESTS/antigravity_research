@@ -1,0 +1,18 @@
+{
+  "absolute_gradient_threshold": 1e-06,
+  "action_modified": false,
+  "branch": "PH16-04R1",
+  "original_source_backup": "results/provenance/ph16_04_pre_R1_e429d147e2e87cf4dc069830cf497d415698ec64260ba256fbddd31fdf09cb57.py",
+  "original_source_sha256": "e429d147e2e87cf4dc069830cf497d415698ec64260ba256fbddd31fdf09cb57",
+  "patched_source_sha256": "34d8e0f4f62088167aef709e03d9c4e5aeda076db898212c17cbe9d8487ee80b",
+  "physical_promotion": "NOT_AUTHORIZED",
+  "prior_focused_log": {
+    "path": "results/logs/ph16_04_focused_20261118T055106277209Z.log",
+    "sha256": "c40d960e32467708f36f04472bc2e7ae9a81100bb9e4a4b35afd8d899d166627"
+  },
+  "repair": "ISOLATED_PER_MESH_PROCESS",
+  "scientific_gates_modified": false,
+  "scipy_solver_method": "UNCHANGED_KRYLOV",
+  "solver_maxiter": "UNCHANGED",
+  "timestamp_utc": "2026-11-18T06:08:34.631511+00:00"
+}

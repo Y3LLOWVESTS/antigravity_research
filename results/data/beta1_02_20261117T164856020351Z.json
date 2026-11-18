@@ -1,0 +1,294 @@
+{
+  "006D_replaced": false,
+  "ALPHA1_M5V_frozen": true,
+  "Earth_material_number_density": "NOT_DERIVED",
+  "M5V_C2_as_coarse_grained_response": "NOT_EXCLUDED",
+  "M5V_C2_as_exact_stationary_interface": "OBSTRUCTED_ONLY_IN_TESTED_PHI4_ACTION_CLASS",
+  "branch": "BETA1-02",
+  "classification": "EXACT_CONDITIONAL_INTERFACE_THEOREM_AND_FINITE_PASSIVE_TOY_WITNESS",
+  "complete_energy_SI": "NOT_AVAILABLE",
+  "complete_source_X_Y_metric_reciprocity": "NOT_SOLVED",
+  "experiment": "PASSIVE_CAUSAL_ACTION_DERIVED_NEUTRAL_INTERFACE_VS_M5V_C2",
+  "full_universal_metric_matter": "NOT_SOLVED",
+  "independent_verifier_sha256": "b9c8932ad739a2017ef4a566c1afbeed7fe9d7a30e4c5eddca33673aa8fe1c78",
+  "neutral_material_action": "TOY_ORDER_PARAMETER_WITH_EXPLICIT_PINNING_AND_FINITE_BATH",
+  "neutral_torus_1kg_1g_1m": "NOT_CERTIFIED",
+  "parent_source_sha256": {
+    "BETA1_01_JSON": {
+      "actual_sha256": "706856dd6e469911f1845415c48ab30485f9027f238620c69af895b97fbf1579",
+      "expected_sha256": "706856dd6e469911f1845415c48ab30485f9027f238620c69af895b97fbf1579",
+      "path": "results/data/beta1_01_20261116T215749728579Z.json",
+      "status": "MATCH"
+    },
+    "BETA1_1B0_JSON": {
+      "actual_sha256": "e60c13e66bacc77f38a3c97c390073151540132843ff1e22241936884a17fc0b",
+      "expected_sha256": "e60c13e66bacc77f38a3c97c390073151540132843ff1e22241936884a17fc0b",
+      "path": "results/data/beta1_1b0_20261116T235042989026Z.json",
+      "status": "MATCH"
+    },
+    "BETA1_1B1_JSON": {
+      "actual_sha256": "1468220d56a8555207f3f7e7960880636bc0ccb88bc344ad0d748e5e61a91b11",
+      "expected_sha256": "1468220d56a8555207f3f7e7960880636bc0ccb88bc344ad0d748e5e61a91b11",
+      "path": "results/data/beta1_1b1_20261117T001913743770Z.json",
+      "status": "MATCH"
+    },
+    "M5T_MATERIAL_C2": {
+      "actual_sha256": "7b613fc98d3d7247483ea1f0dcb89e492131e46d3f7f549097d73a98cc41ffa5",
+      "expected_sha256": "7b613fc98d3d7247483ea1f0dcb89e492131e46d3f7f549097d73a98cc41ffa5",
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5t_variational_cell_material.py",
+      "status": "MATCH"
+    },
+    "M5V_FROZEN_ACTION": {
+      "actual_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "expected_sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5v_unified_exterior_action.py",
+      "status": "MATCH"
+    },
+    "PH11_UNIVERSAL_METRIC": {
+      "actual_sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "expected_sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "path": "src/antigravity_research/agminer/hook17_ph11_universal_metric_support_gate.py",
+      "status": "MATCH"
+    },
+    "PH15_P10_SOURCE": {
+      "actual_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "expected_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "status": "MATCH"
+    }
+  },
+  "physical_transfer": "NOT_AUTHORIZED",
+  "primary_verdict": "YELLOW_ACTION_SOURCED_PASSIVE_INTERFACE_TOY_C2_NOT_EXACT_PHYSICAL_MATERIAL_OPEN",
+  "program": "BETA-1",
+  "recommended_next": "BETA1-03 on-shell nonzero-alpha reciprocal source/X/Y; BETA1-04 exterior force and support Ward preflight",
+  "research_completion_heuristic": "UNCHANGED_APPROX_35_PERCENT",
+  "runner_sha256": "c58e405c4d7d216ecd91432213ee6ff6cbf3007aa70eb371726669cc69ca61d5",
+  "scoped_results": {
+    "gates": {
+      "C2_profile_not_exact_on_shell": true,
+      "boundary_traction_symmetric": true,
+      "cross_variation_same_action": true,
+      "discrete_kink_stationarity": true,
+      "dynamic_reciprocity": true,
+      "exact_12_theorems": true,
+      "explicit_support_required": true,
+      "high_frequency_response_decays": true,
+      "homogeneous_scalar_control_zero_energy": true,
+      "interface_energy_approaches_tension": true,
+      "interface_energy_convergence": true,
+      "kinetic_positive": true,
+      "mesh_refined_kink_stationarity": true,
+      "noncompact_analytic_kink": true,
+      "post_pulse_no_reset": true,
+      "refined_supported_material_positive_modes": true,
+      "retarded_kernel_reciprocity": true,
+      "retarded_kernel_zero_before_drive": true,
+      "retarded_spectral_passivity": true,
+      "source_off_zero": true,
+      "static_passivity": true,
+      "static_reciprocity": true,
+      "supported_material_positive_modes": true,
+      "surface_tension_positive": true,
+      "time_cycle_drive_energy_passive": true,
+      "time_cycle_full_bath_work_ledger": true,
+      "time_step_convergence": true,
+      "width_responds_to_physical_kappa": true
+    },
+    "homogeneous_order_parameter": {
+      "dust_trace": "NOT_INCLUDED",
+      "interface_energy": 0.0
+    },
+    "kink_profiles": {
+      "0.5": {
+        "C2_Euler_Lagrange_residual_L2": 0.5359839340419317,
+        "C2_as_exact_phi4_stationary_profile": "OBSTRUCTED_FOR_SMOOTH_FINITE_STIFFNESS",
+        "C2_as_generic_physical_coarse_graining": "OPEN_NOT_EXCLUDED",
+        "C2_exactly_compact": true,
+        "ell_action": 0.7071067811865476,
+        "kink_exactly_compact": false,
+        "kink_surface_tension": 0.9428090415820634,
+        "kink_tail_fraction_at_C2_edge": 0.022977369910025636,
+        "matched_profile_max_abs_difference": 0.040985349861442866,
+        "slope_matched_C2_halfwidth": 1.3258252147247767,
+        "surface_energy_is_a_cost": true,
+        "width_is_material_parameter_dependent": true
+      },
+      "1.0": {
+        "C2_Euler_Lagrange_residual_L2": 0.6373959078898144,
+        "C2_as_exact_phi4_stationary_profile": "OBSTRUCTED_FOR_SMOOTH_FINITE_STIFFNESS",
+        "C2_as_generic_physical_coarse_graining": "OPEN_NOT_EXCLUDED",
+        "C2_exactly_compact": true,
+        "ell_action": 1.0,
+        "kink_exactly_compact": false,
+        "kink_surface_tension": 1.3333333333333333,
+        "kink_tail_fraction_at_C2_edge": 0.022977369910025636,
+        "matched_profile_max_abs_difference": 0.040985349861441533,
+        "slope_matched_C2_halfwidth": 1.875,
+        "surface_energy_is_a_cost": true,
+        "width_is_material_parameter_dependent": true
+      },
+      "2.0": {
+        "C2_Euler_Lagrange_residual_L2": 0.7579957487361862,
+        "C2_as_exact_phi4_stationary_profile": "OBSTRUCTED_FOR_SMOOTH_FINITE_STIFFNESS",
+        "C2_as_generic_physical_coarse_graining": "OPEN_NOT_EXCLUDED",
+        "C2_exactly_compact": true,
+        "ell_action": 1.4142135623730951,
+        "kink_exactly_compact": false,
+        "kink_surface_tension": 1.8856180831641267,
+        "kink_tail_fraction_at_C2_edge": 0.022977369910025636,
+        "matched_profile_max_abs_difference": 0.040985349861442866,
+        "slope_matched_C2_halfwidth": 2.6516504294495533,
+        "surface_energy_is_a_cost": true,
+        "width_is_material_parameter_dependent": true
+      }
+    },
+    "limits": [
+      "Order parameter toy scalar, not a conserved dust number-density or full real Earth matter action",
+      "sigma is prescribed external metric drive, not PH15 sourced P",
+      "Boundary pinning and bath anchors are explicit support, not free spacecraft momentum",
+      "Finite Hamiltonian bath; no true irreversible loss; causal retarded modal response",
+      "Continuum nonlocal/finite grid and UV/quantum/empirical checks are open",
+      "Surface energy canonical units are not joules",
+      "No whole-craft force, Earth reaction, neutral 1kg >=1g at >=1m, or complete energy <10MJ"
+    ],
+    "material_obstructions": {
+      "C2_0p25_to_0p75m_material_width": "NOT_DERIVED_FROM_M5V",
+      "C2_as_general_coarse_grained_profile": "NOT_EXCLUDED",
+      "C2_compact_smoothstep_as_exact_analytic_phi4_interface": "CLOSED_IN_TESTED_LOCAL_ACTION_CLASS",
+      "Earth_hull_external_reaction": "NOT_DERIVED",
+      "R3A_suppression": "HISTORICAL_CONTROL_NOT_RETESTED",
+      "R3C_B0_B16_failures": "PROTECTED_NOT_REOPENED",
+      "finite_inertia_frequency_independent_chi": "NO_EXCEPT_CONTACT_TERMS",
+      "full_neutral_dust_mass_trace": "MISSING",
+      "passive_reciprocal_family": "FOUND_TOY_ACTION_ONLY",
+      "real_equation_of_state_and_SI": "MISSING",
+      "scalar_interface_tails": "NECESSARY_IN_TESTED_CLASS",
+      "source_X_Y_reciprocity": "NOT_SOLVED",
+      "surface_energy_and_support": "REQUIRED"
+    },
+    "passive_reciprocal_susceptibility": {
+      "causal_retarded_green": "theta(t)*sum G_a G_a^T*sin(sqrt(lam_a)*t)/sqrt(lam_a)",
+      "frequencies": {
+        "0.25": {
+          "loss_trace": 123.99640185108075,
+          "minimum_spectral_loss_eigenvalue": 4.068514272359472e-05,
+          "real_static_not_assumed": true,
+          "reciprocity_error": 7.105427357601002e-15
+        },
+        "0.6": {
+          "loss_trace": 2.3507788276183588,
+          "minimum_spectral_loss_eigenvalue": 0.00012543040197611214,
+          "real_static_not_assumed": true,
+          "reciprocity_error": 9.155133597044475e-16
+        },
+        "1.2": {
+          "loss_trace": 2.443001573119027,
+          "minimum_spectral_loss_eigenvalue": 0.0010931324714373324,
+          "real_static_not_assumed": true,
+          "reciprocity_error": 2.2247786310271853e-16
+        },
+        "2.5": {
+          "loss_trace": 0.05952211243289057,
+          "minimum_spectral_loss_eigenvalue": 0.0021752831293634237,
+          "real_static_not_assumed": true,
+          "reciprocity_error": 5.553824967135427e-17
+        }
+      },
+      "high_frequency_120_norm": 0.0003641647385804492,
+      "high_frequency_60_norm": 0.0014567239426645081,
+      "imag_part_is_retarded_positive_spectral_measure": true,
+      "negative_time_retarded_kernel_norm": 0.0,
+      "not_a_frequency_independent_susceptibility": true,
+      "positive_time_retarded_reciprocity": 0.0,
+      "static_eigenvalues": [
+        0.007257266294857302,
+        0.5745396663425006,
+        62.459948788315145
+      ],
+      "static_reciprocity_error": 3.552713678800501e-15
+    },
+    "physical_transfer": "NOT_AUTHORIZED",
+    "primary_verdict": "YELLOW_ACTION_SOURCED_PASSIVE_INTERFACE_TOY_C2_NOT_EXACT_PHYSICAL_MATERIAL_OPEN",
+    "same_action_cross_variation": {
+      "abs_error": 1.1150546874727496e-08,
+      "exact_mixed_d2E": -0.4419113574588354,
+      "fd_mixed_d2E": -0.4419113686093823
+    },
+    "source_off": {
+      "drive_norm": 0.0,
+      "zero_displacement": true,
+      "zero_incremental_energy": true
+    },
+    "stationary": {
+      "boundary_normal_traction_left_right": [
+        4.379461741935702e-13,
+        4.3794617502480863e-13
+      ],
+      "boundary_support_status": "FIXED_ENDPOINTS_PLUS_DISTRIBUTED_PINNING_PLUS_BATH_ANCHORS",
+      "coarse_EOM_residual": 1.419697692739419e-13,
+      "coarse_surface_energy_canonical": 1.3326374599767936,
+      "continuum_tension_canonical": 1.3333333333333333,
+      "fine_EOM_residual": 2.9650761013133575e-15,
+      "fine_positive_normal_mode_gap": 0.08091803436045594,
+      "fine_surface_energy_canonical": 1.3331596332906899,
+      "material_wave_speed_canonical": 0.7071067811865476,
+      "positive_normal_mode_gap": 0.0813333295742449,
+      "supported_bath_modes": 12
+    },
+    "theorems": {
+      "C2_third_derivative": "Jumps across compact endpoints for quintic C2",
+      "C2_unique_continuation": "Smooth autonomous second-order ODE with Lipschitz potential: reaching a vacuum with zero derivative at finite x implies the constant solution",
+      "action": "L=e^(2sigma)*(rho phi_t^2/2-kappa phi_x^2/2)-e^(4sigma)V",
+      "analytic_kink_length": "sqrt(2*kappa/(a*v^2))",
+      "analytic_kink_tension": "(2/3)*sqrt(2*kappa*a)*v^3",
+      "checks": {
+        "C2_endpoints_exact": true,
+        "C2_first_second_derivatives_endpoints_zero": true,
+        "C2_midpoint_derivative": true,
+        "C2_third_derivative_endpoint_nonzero": true,
+        "conformal_metric_trace_variation": true,
+        "interface_tension_positive_formula": true,
+        "linear_material_trace_not_freely_assignable": true,
+        "material_stress_Ward_offshell": true,
+        "phi4_kink_Euler_Lagrange": true,
+        "phi4_kink_zero_normal_traction": true,
+        "source_and_material_both_couple_to_same_sigma": true,
+        "stationary_kink_has_exponential_tails": true
+      },
+      "metric_trace_at_sigma0": "-2*K - 4*V",
+      "stress_Ward": "dTxx/dx-(dL/dsigma)*sigma_x=E_phi*phi_x (off shell)"
+    },
+    "time_cycle": {
+      "bath_energy_included": true,
+      "drive_is_prescribed_not_generated_by_PH15": true,
+      "end_time": 7.0,
+      "external_work": 1.6822601256135652,
+      "external_work_minus_energy": -1.8637509344721082e-06,
+      "final_energy": 1.6822619893644997,
+      "full_source_field_support_ledger": "NOT_CLOSED",
+      "initial_energy": 0.0,
+      "material_dissipated_heat": 0.0,
+      "max_internal_energy": 1.6822631114240063,
+      "no_artificial_cycle_reset": true,
+      "pulse_end": 3.0
+    },
+    "time_cycle_fine": {
+      "bath_energy_included": true,
+      "drive_is_prescribed_not_generated_by_PH15": true,
+      "end_time": 7.0,
+      "external_work": 1.6822607139644221,
+      "external_work_minus_energy": -4.65932496362953e-07,
+      "final_energy": 1.6822611798969185,
+      "full_source_field_support_ledger": "NOT_CLOSED",
+      "initial_energy": 0.0,
+      "material_dissipated_heat": 0.0,
+      "max_internal_energy": 1.6822614604144484,
+      "no_artificial_cycle_reset": true,
+      "pulse_end": 3.0
+    }
+  },
+  "source_sha256": "05b0ffc686e8750ff338387460756e7d4201218de0938a63392b5d21da7ff2cd",
+  "source_support_hull_earth_reaction": "NOT_DERIVED",
+  "timestamp_utc": "2026-11-17T16:48:56.020351+00:00",
+  "whole_craft_force": "NOT_DERIVED"
+}

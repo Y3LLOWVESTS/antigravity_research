@@ -1,0 +1,1112 @@
+{
+  "006D_replaced": false,
+  "ALPHA1_M5V_frozen": true,
+  "branch": "BETA1-1B1",
+  "classification": "ACTION_DERIVED_RESTRICTED_LINEAR_DYNAMIC_OBSTRUCTION",
+  "complete_energy_SI": "NOT_AVAILABLE",
+  "earth_craft_force": "NOT_DERIVED",
+  "experiment": "ACTUAL_P10_ALPHA0_CONSTRAINED_Y_DYNAMIC_GRADIENT_OBSTRUCTION",
+  "independent_verifier_sha256": "bd869782319f2bb0d2cc02319e5c4648b2c4f43b19beb7a8f34dbe29f7d017dc",
+  "neutral_payload_1kg_1g_1m": "NOT_CERTIFIED",
+  "parent_source_sha256": {
+    "BETA1_01_JSON": {
+      "path": "results/data/beta1_01_20261116T215749728579Z.json",
+      "sha256": "706856dd6e469911f1845415c48ab30485f9027f238620c69af895b97fbf1579",
+      "status": "MATCH"
+    },
+    "BETA1_1B0_JSON": {
+      "path": "results/data/beta1_1b0_20261116T235042989026Z.json",
+      "sha256": "e60c13e66bacc77f38a3c97c390073151540132843ff1e22241936884a17fc0b",
+      "status": "MATCH"
+    },
+    "BETA1_1B0_SOURCE": {
+      "path": "src/antigravity_research/beta_artificial/beta1_1b0_p10_local_response.py",
+      "sha256": "a137d99b297891c7c1c901c0ebaafa96aa52df94fcd5b44dfb69d683f82a37c5",
+      "status": "MATCH"
+    },
+    "PH15_P10_JSON": {
+      "path": "results/data/032h17_ph15_p10_20261116T182301044331Z.json",
+      "sha256": "af59b072dba9a0424c569419af1f673172c3123a371eec8443e52cd81efc73c1",
+      "status": "MATCH"
+    },
+    "PH15_P10_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    },
+    "PH15_P8_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py",
+      "sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "status": "MATCH"
+    }
+  },
+  "physical_alpha_nonzero_reciprocal_stability": "NOT_DERIVED",
+  "physical_metric_neutral_Earth": "NOT_SOLVED",
+  "physical_transfer": "NOT_AUTHORIZED",
+  "program": "BETA-1",
+  "research_completion_heuristic": "UNCHANGED_APPROX_35_PERCENT",
+  "runner_sha256": "2bbf857dd49c0f922047294a22906af1e8a1d912cb597d2965572a1d7becf753",
+  "scoped_results": {
+    "cases": {
+      "base18_L12": {
+        "Kappa_min": 1.7555896562002832e-08,
+        "L_canonical": 12.0,
+        "Y_current_alpha0": 0.0,
+        "Y_current_alpha1_OFF_SHELL_ZERO_Y_REFERENCE": 0.29935858557012884,
+        "basis": {
+          "dirichlet": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 3.885780586188048e-16,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 68.79959185607731,
+            "kinetic_matrix_condition_number": 3845.09418195156,
+            "kinetic_matrix_min_eigenvalue": 0.3419023735166512,
+            "previous_static_Ritz_critical_beta": null,
+            "previous_static_Ritz_min_beta100": null,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 9.895754669443479e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 4.740129535763731,
+                "omega_squared_min": 0.24344953813708117
+              },
+              "100": {
+                "eigen_residual": 4.165130097818414e-15,
+                "max_growth_rate_canonical_inverse_time": 1.3806471884431095,
+                "negative_mode_count": 3,
+                "omega_squared_max": 0.9592684684883465,
+                "omega_squared_min": -1.9061866589558631
+              },
+              "40": {
+                "eigen_residual": 8.406024546391442e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.9909061114301614,
+                "omega_squared_min": 0.19317426827541748
+              },
+              "50": {
+                "eigen_residual": 5.774308723006136e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.5886241027351553,
+                "omega_squared_min": 0.17711043180331906
+              },
+              "60": {
+                "eigen_residual": 1.3792941659507182e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.1907012715509557,
+                "omega_squared_min": 0.15667117183978782
+              },
+              "75": {
+                "eigen_residual": 1.4622730345815348e-15,
+                "max_growth_rate_canonical_inverse_time": 0.6049631454739357,
+                "negative_mode_count": 1,
+                "omega_squared_max": 1.599166627423253,
+                "omega_squared_min": -0.3659804073817183
+              }
+            },
+            "support": "GAUSSIAN_AXIS_REGULAR;SMOOTH_BOUNDARY_TAPER",
+            "time_evolution": {
+              "amplitude_relative_error": 3.216216252124003e-06,
+              "computed_mode_amplification": 2.8975368237832915,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 8.39771849937554e-05,
+              "final_projected_energy": -0.9530093522929359,
+              "initial_projected_energy": -0.9530933294779297,
+              "predicted_mode_amplification": 2.8975461429182876,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          },
+          "legacy": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 2.7755575615628914e-16,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 69.03472268022597,
+            "kinetic_matrix_condition_number": 5249.58506333302,
+            "kinetic_matrix_min_eigenvalue": 0.4714883326288352,
+            "previous_static_Ritz_critical_beta": 69.03472393751144,
+            "previous_static_Ritz_min_beta100": -0.44854641448990634,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 2.351594002240481e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 4.577240516787941,
+                "omega_squared_min": 0.18827227846425
+              },
+              "100": {
+                "eigen_residual": 1.5792826574744713e-15,
+                "max_growth_rate_canonical_inverse_time": 1.3465973855503386,
+                "negative_mode_count": 2,
+                "omega_squared_max": 0.9367079955452289,
+                "omega_squared_min": -1.8133245187710072
+              },
+              "40": {
+                "eigen_residual": 4.673785686948988e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.941098783823551,
+                "omega_squared_min": 0.1564200893021382
+              },
+              "50": {
+                "eigen_residual": 3.8001021379480177e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.5628679985475915,
+                "omega_squared_min": 0.14602914149481022
+              },
+              "60": {
+                "eigen_residual": 2.919506570075672e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.188423839295726,
+                "omega_squared_min": 0.13276381871764545
+              },
+              "75": {
+                "eigen_residual": 1.2558641227076488e-15,
+                "max_growth_rate_canonical_inverse_time": 0.5806645872550887,
+                "negative_mode_count": 1,
+                "omega_squared_max": 1.6314029056397983,
+                "omega_squared_min": -0.3371713628921226
+              }
+            },
+            "support": "FROZEN_LEGACY_GAUSSIAN",
+            "time_evolution": {
+              "amplitude_relative_error": 2.9673025675810587e-06,
+              "computed_mode_amplification": 2.784379065138837,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 6.93877556003919e-05,
+              "final_projected_energy": -0.9065928716299032,
+              "initial_projected_energy": -0.9066622593855036,
+              "predicted_mode_amplification": 2.7843873272585022,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          }
+        },
+        "h_canonical": 0.6666666666666666,
+        "local_principal": {
+          "0": {
+            "interior_min_c_squared": 1.0,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 1.0,
+            "negative_cell_fraction": 0.0
+          },
+          "100": {
+            "interior_min_c_squared": -0.5761724801693517,
+            "interior_negative_cell_fraction": 0.04285714285714286,
+            "max_gamma_over_k_parallel_E_perp_k": 0.8112104295125708,
+            "min_c_squared": -0.6580623609499696,
+            "negative_cell_fraction": 0.05246913580246913
+          },
+          "40": {
+            "interior_min_c_squared": 0.36953100793225924,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.3367750556200122,
+            "negative_cell_fraction": 0.0
+          },
+          "50": {
+            "interior_min_c_squared": 0.21191375991532413,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.1709688195250152,
+            "negative_cell_fraction": 0.0
+          },
+          "60": {
+            "interior_min_c_squared": 0.05429651189838891,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.005162583430018186,
+            "negative_cell_fraction": 0.0
+          },
+          "75": {
+            "interior_min_c_squared": -0.18212936012701397,
+            "interior_negative_cell_fraction": 0.01904761904761905,
+            "max_gamma_over_k_parallel_E_perp_k": 0.4935045802345478,
+            "min_c_squared": -0.2435467707124772,
+            "negative_cell_fraction": 0.030864197530864196
+          }
+        },
+        "local_threshold_beta_alpha0": 60.31136244037651,
+        "nr": 18,
+        "source_charge": -1.3480536131815768e-14,
+        "source_energy_CANONICAL_NOT_J": 712.5557086168102,
+        "source_eom_L2": [
+          1.5825934867529038e-06,
+          1.5876352500598679e-06
+        ]
+      },
+      "coarse12_L12": {
+        "Kappa_min": 4.0938085403614385e-08,
+        "L_canonical": 12.0,
+        "Y_current_alpha0": 0.0,
+        "Y_current_alpha1_OFF_SHELL_ZERO_Y_REFERENCE": 0.28911930830232035,
+        "basis": {
+          "dirichlet": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 2.7755575615628914e-17,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 70.62134477309883,
+            "kinetic_matrix_condition_number": 4169.38782175601,
+            "kinetic_matrix_min_eigenvalue": 0.3152155403250642,
+            "previous_static_Ritz_critical_beta": null,
+            "previous_static_Ritz_min_beta100": null,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 2.5090025517772084e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.5880164826907635,
+                "omega_squared_min": 0.23717875272473143
+              },
+              "100": {
+                "eigen_residual": 1.3344323624593546e-15,
+                "max_growth_rate_canonical_inverse_time": 0.9124266921922185,
+                "negative_mode_count": 2,
+                "omega_squared_max": 0.7941784720160536,
+                "omega_squared_min": -0.8325224686248334
+              },
+              "40": {
+                "eigen_residual": 1.2961323300878335e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 1.7014916593591378,
+                "omega_squared_min": 0.1901644065931951
+              },
+              "50": {
+                "eigen_residual": 9.471730374261216e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 1.4928706370993678,
+                "omega_squared_min": 0.17464730943685208
+              },
+              "60": {
+                "eigen_residual": 1.2933739838651347e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 1.2876354032078206,
+                "omega_squared_min": 0.15269176046596775
+              },
+              "75": {
+                "eigen_residual": 2.1674641795098913e-15,
+                "max_growth_rate_canonical_inverse_time": 0.3461967626148792,
+                "negative_mode_count": 1,
+                "omega_squared_max": 0.9851307579623381,
+                "omega_squared_min": -0.11985219844502303
+              }
+            },
+            "support": "GAUSSIAN_AXIS_REGULAR;SMOOTH_BOUNDARY_TAPER",
+            "time_evolution": {
+              "amplitude_relative_error": 8.056982985016474e-07,
+              "computed_mode_amplification": 1.7240411142040812,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 4.2718779339478985e-06,
+              "final_projected_energy": -0.41625696243448296,
+              "initial_projected_energy": -0.4162612343124169,
+              "predicted_mode_amplification": 1.7240425032621927,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          },
+          "legacy": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 5.551115123125783e-17,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 70.6044667866081,
+            "kinetic_matrix_condition_number": 5665.16272755514,
+            "kinetic_matrix_min_eigenvalue": 0.4368409589317421,
+            "previous_static_Ritz_critical_beta": 70.60446590185165,
+            "previous_static_Ritz_min_beta100": -0.4163409869336202,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 7.921887639806634e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.591627948270669,
+                "omega_squared_min": 0.1838594618503095
+              },
+              "100": {
+                "eigen_residual": 6.363468311643635e-16,
+                "max_growth_rate_canonical_inverse_time": 0.9163712709429648,
+                "negative_mode_count": 2,
+                "omega_squared_max": 0.7935459607546065,
+                "omega_squared_min": -0.8397363062096246
+              },
+              "40": {
+                "eigen_residual": 2.4498793324914566e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 1.718986774664859,
+                "omega_squared_min": 0.15386648657346408
+              },
+              "50": {
+                "eigen_residual": 2.1219711119908875e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 1.5151351433558493,
+                "omega_squared_min": 0.14379104463824682
+              },
+              "60": {
+                "eigen_residual": 1.7573067133630801e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 1.3148271558477578,
+                "omega_squared_min": 0.12985326541030298
+              },
+              "75": {
+                "eigen_residual": 5.0100862793216285e-15,
+                "max_growth_rate_canonical_inverse_time": 0.3484075850423747,
+                "negative_mode_count": 1,
+                "omega_squared_max": 1.0195470226930698,
+                "omega_squared_min": -0.12138784531505954
+              }
+            },
+            "support": "FROZEN_LEGACY_GAUSSIAN",
+            "time_evolution": {
+              "amplitude_relative_error": 8.178485115235457e-07,
+              "computed_mode_amplification": 1.7309867516601103,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 4.399111624420193e-06,
+              "final_projected_energy": -0.41986375399318754,
+              "initial_projected_energy": -0.41986815310481196,
+              "predicted_mode_amplification": 1.7309881673462064,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          }
+        },
+        "h_canonical": 1.0,
+        "local_principal": {
+          "0": {
+            "interior_min_c_squared": 1.0,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 1.0,
+            "negative_cell_fraction": 0.0
+          },
+          "100": {
+            "interior_min_c_squared": -0.4265169432038849,
+            "interior_negative_cell_fraction": 0.041666666666666664,
+            "max_gamma_over_k_parallel_E_perp_k": 0.8386981313523485,
+            "min_c_squared": -0.7034145555339213,
+            "negative_cell_fraction": 0.04861111111111111
+          },
+          "40": {
+            "interior_min_c_squared": 0.42939322271844604,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.31863417778643144,
+            "negative_cell_fraction": 0.0
+          },
+          "50": {
+            "interior_min_c_squared": 0.28674152839805755,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.14829272223303935,
+            "negative_cell_fraction": 0.0
+          },
+          "60": {
+            "interior_min_c_squared": 0.14408983407766907,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.14848815885569033,
+            "min_c_squared": -0.02204873332035273,
+            "negative_cell_fraction": 0.006944444444444444
+          },
+          "75": {
+            "interior_min_c_squared": -0.06988770740291361,
+            "interior_negative_cell_fraction": 0.013888888888888888,
+            "max_gamma_over_k_parallel_E_perp_k": 0.5268405039956978,
+            "min_c_squared": -0.2775609166504409,
+            "negative_cell_fraction": 0.034722222222222224
+          }
+        },
+        "local_threshold_beta_alpha0": 58.705615538582634,
+        "nr": 12,
+        "source_charge": -1.7763568394002505e-15,
+        "source_energy_CANONICAL_NOT_J": 711.8045370708118,
+        "source_eom_L2": [
+          8.187069959793669e-07,
+          8.150978079924051e-07
+        ]
+      },
+      "fixed_h24_L16": {
+        "Kappa_min": 1.798729186208954e-11,
+        "L_canonical": 16.0,
+        "Y_current_alpha0": 0.0,
+        "Y_current_alpha1_OFF_SHELL_ZERO_Y_REFERENCE": 0.30133094903122515,
+        "basis": {
+          "dirichlet": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 1.6653345369377348e-16,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 67.71896448917687,
+            "kinetic_matrix_condition_number": 4313.159104139598,
+            "kinetic_matrix_min_eigenvalue": 0.3964040619963195,
+            "previous_static_Ritz_critical_beta": null,
+            "previous_static_Ritz_min_beta100": null,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 2.011748769136615e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 4.665711413368198,
+                "omega_squared_min": 0.2157668046363869
+              },
+              "100": {
+                "eigen_residual": 2.0092555952866735e-15,
+                "max_growth_rate_canonical_inverse_time": 1.40391374888793,
+                "negative_mode_count": 3,
+                "omega_squared_max": 0.9408618972700726,
+                "omega_squared_min": -1.9709738143165618
+              },
+              "40": {
+                "eigen_residual": 2.6447401087178648e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.9440800464835757,
+                "omega_squared_min": 0.17412726452124166
+              },
+              "50": {
+                "eigen_residual": 5.713574373953029e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.547148549047643,
+                "omega_squared_min": 0.16057653730643606
+              },
+              "60": {
+                "eigen_residual": 1.51185054542589e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.1542693424277353,
+                "omega_squared_min": 0.14296407146617163
+              },
+              "75": {
+                "eigen_residual": 1.4370220737123341e-15,
+                "max_growth_rate_canonical_inverse_time": 0.6564853161773697,
+                "negative_mode_count": 1,
+                "omega_squared_max": 1.5699332442326388,
+                "omega_squared_min": -0.4309729703565011
+              }
+            },
+            "support": "GAUSSIAN_AXIS_REGULAR;SMOOTH_BOUNDARY_TAPER",
+            "time_evolution": {
+              "amplitude_relative_error": 3.393714839849108e-06,
+              "computed_mode_amplification": 2.9778649562754103,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 9.551210167813018e-05,
+              "final_projected_energy": -0.9853913950566024,
+              "initial_projected_energy": -0.9854869071582806,
+              "predicted_mode_amplification": 2.9778750623342005,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          },
+          "legacy": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 2.220446049250313e-16,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 67.84743485040963,
+            "kinetic_matrix_condition_number": 5249.7830887547425,
+            "kinetic_matrix_min_eigenvalue": 0.4715020767241716,
+            "previous_static_Ritz_critical_beta": 67.84743517637253,
+            "previous_static_Ritz_min_beta100": -0.4738950748151915,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 5.387161747405995e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 4.577222177503126,
+                "omega_squared_min": 0.1885762694857344
+              },
+              "100": {
+                "eigen_residual": 2.069852257464636e-15,
+                "max_growth_rate_canonical_inverse_time": 1.3848011371358748,
+                "negative_mode_count": 2,
+                "omega_squared_max": 0.9291932965428892,
+                "omega_squared_min": -1.917674189412812
+              },
+              "40": {
+                "eigen_residual": 6.241153308386595e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.9177518266440883,
+                "omega_squared_min": 0.15606682806703256
+              },
+              "50": {
+                "eigen_residual": 9.30820950096984e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.5342672043625796,
+                "omega_squared_min": 0.1453373340604199
+              },
+              "60": {
+                "eigen_residual": 2.461846356537248e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.154566301183441,
+                "omega_squared_min": 0.13136009100386953
+              },
+              "75": {
+                "eigen_residual": 3.1749317505630757e-15,
+                "max_growth_rate_canonical_inverse_time": 0.642967735670254,
+                "negative_mode_count": 1,
+                "omega_squared_max": 1.5896665348697643,
+                "omega_squared_min": -0.4134075091129336
+              }
+            },
+            "support": "FROZEN_LEGACY_GAUSSIAN",
+            "time_evolution": {
+              "amplitude_relative_error": 3.2474614938164667e-06,
+              "computed_mode_amplification": 2.9116967302452488,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 8.593772289677837e-05,
+              "final_projected_energy": -0.9587511569835074,
+              "initial_projected_energy": -0.9588370947064042,
+              "predicted_mode_amplification": 2.911706185898969,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          }
+        },
+        "h_canonical": 0.6666666666666666,
+        "local_principal": {
+          "0": {
+            "interior_min_c_squared": 1.0,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 1.0,
+            "negative_cell_fraction": 0.0
+          },
+          "100": {
+            "interior_min_c_squared": -0.6037888296203142,
+            "interior_negative_cell_fraction": 0.02142857142857143,
+            "max_gamma_over_k_parallel_E_perp_k": 0.8295823251510829,
+            "min_c_squared": -0.6882068342030769,
+            "negative_cell_fraction": 0.029513888888888888
+          },
+          "40": {
+            "interior_min_c_squared": 0.3584844681518743,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.3247172663187693,
+            "negative_cell_fraction": 0.0
+          },
+          "50": {
+            "interior_min_c_squared": 0.1981055851898429,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.15589658289846153,
+            "negative_cell_fraction": 0.0
+          },
+          "60": {
+            "interior_min_c_squared": 0.03772670222781149,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.11368421403979585,
+            "min_c_squared": -0.012924100521846116,
+            "negative_cell_fraction": 0.001736111111111111
+          },
+          "75": {
+            "interior_min_c_squared": -0.2028416222152356,
+            "interior_negative_cell_fraction": 0.009523809523809525,
+            "max_gamma_over_k_parallel_E_perp_k": 0.5159022442791925,
+            "min_c_squared": -0.2661551256523076,
+            "negative_cell_fraction": 0.017361111111111112
+          }
+        },
+        "local_threshold_beta_alpha0": 59.234448039185494,
+        "nr": 24,
+        "source_charge": -6.772360450213455e-15,
+        "source_energy_CANONICAL_NOT_J": 712.5143171888592,
+        "source_eom_L2": [
+          1.4617507268271903e-06,
+          1.467648799111059e-06
+        ]
+      },
+      "fixed_h30_L20": {
+        "Kappa_min": 2.1873471613445644e-14,
+        "L_canonical": 20.0,
+        "Y_current_alpha0": 0.0,
+        "Y_current_alpha1_OFF_SHELL_ZERO_Y_REFERENCE": 0.301350099964731,
+        "basis": {
+          "dirichlet": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 1.6653345369377348e-16,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 67.75363623164594,
+            "kinetic_matrix_condition_number": 4602.548103884082,
+            "kinetic_matrix_min_eigenvalue": 0.4227386230315969,
+            "previous_static_Ritz_critical_beta": null,
+            "previous_static_Ritz_min_beta100": null,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 5.2285904668976025e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 4.632984967559384,
+                "omega_squared_min": 0.2049148760714509
+              },
+              "100": {
+                "eigen_residual": 2.838386580539033e-15,
+                "max_growth_rate_canonical_inverse_time": 1.3972785887667645,
+                "negative_mode_count": 3,
+                "omega_squared_max": 0.9364842742082853,
+                "omega_squared_min": -1.952387454626041
+              },
+              "40": {
+                "eigen_residual": 2.469845670962457e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.9341804487234864,
+                "omega_squared_min": 0.1669491783560457
+              },
+              "50": {
+                "eigen_residual": 9.331143452468692e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.5421117623832115,
+                "omega_squared_min": 0.15453619553191197
+              },
+              "60": {
+                "eigen_residual": 8.197418889146831e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.153985502961366,
+                "omega_squared_min": 0.13839059759881717
+              },
+              "75": {
+                "eigen_residual": 2.032851060171099e-15,
+                "max_growth_rate_canonical_inverse_time": 0.6521431952220309,
+                "negative_mode_count": 1,
+                "omega_squared_max": 1.576643443971074,
+                "omega_squared_min": -0.42529074707439984
+              }
+            },
+            "support": "GAUSSIAN_AXIS_REGULAR;SMOOTH_BOUNDARY_TAPER",
+            "time_evolution": {
+              "amplitude_relative_error": 3.342475813710642e-06,
+              "computed_mode_amplification": 2.95470323491923,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 9.208242952396528e-05,
+              "final_projected_energy": -0.9761016448834976,
+              "initial_projected_energy": -0.9761937273130216,
+              "predicted_mode_amplification": 2.95471311097634,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          },
+          "legacy": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 3.0531133177191805e-16,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 67.8352193441242,
+            "kinetic_matrix_condition_number": 5249.783122829621,
+            "kinetic_matrix_min_eigenvalue": 0.47150207914540204,
+            "previous_static_Ritz_critical_beta": 67.83521920442581,
+            "previous_static_Ritz_min_beta100": -0.4741604870963208,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 4.455895430522852e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 4.577222178759693,
+                "omega_squared_min": 0.18857656198879624
+              },
+              "100": {
+                "eigen_residual": 1.81563019113421e-15,
+                "max_growth_rate_canonical_inverse_time": 1.38519602280847,
+                "negative_mode_count": 2,
+                "omega_squared_max": 0.9291194517941757,
+                "omega_squared_min": -1.9187680216044034
+              },
+              "40": {
+                "eigen_residual": 2.1996585529245233e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.9175173714818534,
+                "omega_squared_min": 0.15606087610481595
+              },
+              "50": {
+                "eigen_residual": 3.787408121045161e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.533980637227672,
+                "omega_squared_min": 0.14532803609479375
+              },
+              "60": {
+                "eigen_residual": 3.1762956767654e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.1542275915954714,
+                "omega_squared_min": 0.1313432872375524
+              },
+              "75": {
+                "eigen_residual": 6.988585875818015e-15,
+                "max_growth_rate_canonical_inverse_time": 0.6435898272987434,
+                "negative_mode_count": 1,
+                "omega_squared_max": 1.5892496681252832,
+                "omega_squared_min": -0.4142078658024263
+              }
+            },
+            "support": "FROZEN_LEGACY_GAUSSIAN",
+            "time_evolution": {
+              "amplitude_relative_error": 3.2504417712804245e-06,
+              "computed_mode_amplification": 2.913046889516405,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 8.612626865567297e-05,
+              "final_projected_energy": -0.9592978845335463,
+              "initial_projected_energy": -0.9593840108022019,
+              "predicted_mode_amplification": 2.913056358236474,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          }
+        },
+        "h_canonical": 0.6666666666666666,
+        "local_principal": {
+          "0": {
+            "interior_min_c_squared": 1.0,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 1.0,
+            "negative_cell_fraction": 0.0
+          },
+          "100": {
+            "interior_min_c_squared": -0.6040782727454048,
+            "interior_negative_cell_fraction": 0.01282051282051282,
+            "max_gamma_over_k_parallel_E_perp_k": 0.8297739915031054,
+            "min_c_squared": -0.6885248769749956,
+            "negative_cell_fraction": 0.01888888888888889
+          },
+          "40": {
+            "interior_min_c_squared": 0.3583686909018381,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.3245900492100018,
+            "negative_cell_fraction": 0.0
+          },
+          "50": {
+            "interior_min_c_squared": 0.1979608636272976,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.15573756151250218,
+            "negative_cell_fraction": 0.0
+          },
+          "60": {
+            "interior_min_c_squared": 0.037553036352757085,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.11452041820128597,
+            "min_c_squared": -0.013114926184997433,
+            "negative_cell_fraction": 0.0011111111111111111
+          },
+          "75": {
+            "interior_min_c_squared": -0.20305870455905373,
+            "interior_negative_cell_fraction": 0.005698005698005698,
+            "max_gamma_over_k_parallel_E_perp_k": 0.5161333720379323,
+            "min_c_squared": -0.2663936577312467,
+            "negative_cell_fraction": 0.011111111111111112
+          }
+        },
+        "local_threshold_beta_alpha0": 59.22329091126612,
+        "nr": 30,
+        "source_charge": -9.23046361567259e-15,
+        "source_energy_CANONICAL_NOT_J": 712.5138727498801,
+        "source_eom_L2": [
+          1.5013035336757503e-06,
+          1.563164464046415e-06
+        ]
+      },
+      "refine36_L16": {
+        "Kappa_min": 7.791293611584716e-12,
+        "L_canonical": 16.0,
+        "Y_current_alpha0": 0.0,
+        "Y_current_alpha1_OFF_SHELL_ZERO_Y_REFERENCE": 0.3086253922344549,
+        "basis": {
+          "dirichlet": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 4.440892098500626e-16,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 68.53707763366401,
+            "kinetic_matrix_condition_number": 4285.385997377775,
+            "kinetic_matrix_min_eigenvalue": 0.39898923476852594,
+            "previous_static_Ritz_critical_beta": null,
+            "previous_static_Ritz_min_beta100": null,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 2.1302302351519057e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 5.16492393526796,
+                "omega_squared_min": 0.21962592364604341
+              },
+              "100": {
+                "eigen_residual": 3.0465224099884282e-15,
+                "max_growth_rate_canonical_inverse_time": 1.460944428143456,
+                "negative_mode_count": 3,
+                "omega_squared_max": 1.0334498851124228,
+                "omega_squared_min": -2.13435862212341
+              },
+              "40": {
+                "eigen_residual": 1.7708452174318624e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 3.2901540689199953,
+                "omega_squared_min": 0.17660643316585298
+              },
+              "50": {
+                "eigen_residual": 3.6943990826267916e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.86421145181406,
+                "omega_squared_min": 0.1627666500152027
+              },
+              "60": {
+                "eigen_residual": 2.4915563327119236e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.442130713496203,
+                "omega_squared_min": 0.14497557865461258
+              },
+              "75": {
+                "eigen_residual": 8.7779709688897e-16,
+                "max_growth_rate_canonical_inverse_time": 0.6470934076696382,
+                "negative_mode_count": 1,
+                "omega_squared_max": 1.8134618345730162,
+                "omega_squared_min": -0.4187298782495046
+              }
+            },
+            "support": "GAUSSIAN_AXIS_REGULAR;SMOOTH_BOUNDARY_TAPER",
+            "time_evolution": {
+              "amplitude_relative_error": 3.854862716203387e-06,
+              "computed_mode_amplification": 3.185562417130393,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 0.00013022724232847338,
+              "final_projected_energy": -1.0670490838193771,
+              "initial_projected_energy": -1.0671793110617056,
+              "predicted_mode_amplification": 3.1855746970835224,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          },
+          "legacy": {
+            "constraints": {
+              "Bianchi_magnetic_divergence_inf": 4.996003610813204e-16,
+              "Y_Gauss_Ephi_divergence": 0.0,
+              "Y_Gauss_kind": "ANALYTIC_AXISYMMETRIC_PHI_ONLY",
+              "Y_gauge_kind": "PHI_COMPONENT_IS_NOT_SINGLE_VALUED_AXISYMMETRIC_GRADIENT"
+            },
+            "critical_beta": 68.71173200197518,
+            "kinetic_matrix_condition_number": 5217.098114944293,
+            "kinetic_matrix_min_eigenvalue": 0.47446869862564867,
+            "previous_static_Ritz_critical_beta": 68.71173232793808,
+            "previous_static_Ritz_min_beta100": -0.4553555418342291,
+            "spectrum": {
+              "0": {
+                "eigen_residual": 6.744366773019658e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 5.020335797891296,
+                "omega_squared_min": 0.1915665753733265
+              },
+              "100": {
+                "eigen_residual": 6.656944946860736e-15,
+                "max_growth_rate_canonical_inverse_time": 1.4295038271931566,
+                "negative_mode_count": 2,
+                "omega_squared_max": 1.015979560167013,
+                "omega_squared_min": -2.043481191959882
+              },
+              "40": {
+                "eigen_residual": 1.3665932481361666e-15,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 3.2389251546701336,
+                "omega_squared_min": 0.15806753208488114
+              },
+              "50": {
+                "eigen_residual": 8.047312465640108e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.830188426166666,
+                "omega_squared_min": 0.14713826251777964
+              },
+              "60": {
+                "eigen_residual": 3.515635971296817e-16,
+                "max_growth_rate_canonical_inverse_time": 0.0,
+                "negative_mode_count": 0,
+                "omega_squared_max": 2.424991045122119,
+                "omega_squared_min": 0.133046742676625
+              },
+              "75": {
+                "eigen_residual": 6.690407232695775e-15,
+                "max_growth_rate_canonical_inverse_time": 0.6264429607788317,
+                "negative_mode_count": 1,
+                "omega_squared_max": 1.8213435688055655,
+                "omega_squared_min": -0.39243078310934887
+              }
+            },
+            "support": "FROZEN_LEGACY_GAUSSIAN",
+            "time_evolution": {
+              "amplitude_relative_error": 3.5960100092014123e-06,
+              "computed_mode_amplification": 3.0691265341318013,
+              "criterion": "DISCRETE_LINEARIZED_RESTRICTED_Y_GALERKIN_ONLY",
+              "energy_ledger_absolute_error": 0.00010987010925367358,
+              "final_projected_energy": -1.021630725870688,
+              "initial_projected_energy": -1.0217405959799417,
+              "predicted_mode_amplification": 3.0691375707812254,
+              "steps": 250,
+              "time_canonical": 1.25
+            }
+          }
+        },
+        "h_canonical": 0.4444444444444444,
+        "local_principal": {
+          "0": {
+            "interior_min_c_squared": 1.0,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 1.0,
+            "negative_cell_fraction": 0.0
+          },
+          "100": {
+            "interior_min_c_squared": -0.6409411648060095,
+            "interior_negative_cell_fraction": 0.026515151515151516,
+            "max_gamma_over_k_parallel_E_perp_k": 0.817122114385875,
+            "min_c_squared": -0.6676885498184431,
+            "negative_cell_fraction": 0.030864197530864196
+          },
+          "40": {
+            "interior_min_c_squared": 0.34362353407759627,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.3329245800726228,
+            "negative_cell_fraction": 0.0
+          },
+          "50": {
+            "interior_min_c_squared": 0.17952941759699526,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.0,
+            "min_c_squared": 0.16615572509077847,
+            "negative_cell_fraction": 0.0
+          },
+          "60": {
+            "interior_min_c_squared": 0.015435301116394351,
+            "interior_negative_cell_fraction": 0.0,
+            "max_gamma_over_k_parallel_E_perp_k": 0.024761459792707653,
+            "min_c_squared": -0.0006131298910658778,
+            "negative_cell_fraction": 0.0007716049382716049
+          },
+          "75": {
+            "interior_min_c_squared": -0.23070587360450712,
+            "interior_negative_cell_fraction": 0.01231060606060606,
+            "max_gamma_over_k_parallel_E_perp_k": 0.5007658258745621,
+            "min_c_squared": -0.25076641236383224,
+            "negative_cell_fraction": 0.016203703703703703
+          }
+        },
+        "local_threshold_beta_alpha0": 59.963234748410756,
+        "nr": 36,
+        "source_charge": 7.424616477180734e-16,
+        "source_energy_CANONICAL_NOT_J": 712.8399382601614,
+        "source_eom_L2": [
+          1.8390825955141932e-06,
+          1.841902735604017e-06
+        ]
+      }
+    },
+    "classification": "ACTION_DERIVED_RESTRICTED_LINEAR_DYNAMIC_OBSTRUCTION",
+    "gates": {
+      "Kappa_nonnegative_sampled": true,
+      "alpha0_electric_kinetic_positive": true,
+      "beta0_dynamic_positive": true,
+      "beta0_local_positive": true,
+      "beta100_dynamic_negative": true,
+      "beta100_interior_negative": true,
+      "beta100_local_negative": true,
+      "beta50_dynamic_positive": true,
+      "beta50_local_positive": true,
+      "beta75_dynamic_negative": true,
+      "both_bases_negative": true,
+      "constraints_and_Bianchi": true,
+      "eigen_residual_small": true,
+      "fixed_h_domain_growth_convergence": true,
+      "mesh_refinement_growth_consistency": true,
+      "parent_static_Ritz_threshold_consistent": true,
+      "source_gauss_eom_all": true,
+      "symbolic_action_gauge_checks": true,
+      "time_domain_energy_ledger": true,
+      "time_domain_growth_reproduced": true,
+      "zero_alpha_Y_null": true
+    },
+    "gauge_conclusion": "POSITIVE_MAXWELL_Y_TIME_KINETIC_NO_Y_GHOST_IN_TESTED_ALPHA0_CHANNEL;NEGATIVE_OMEGA_SQUARED_GRADIENT_MODE",
+    "limitations": [
+      "Flat space, alpha=0, Y=0; beta=100 is hypothetical canonical, not a physical operating point",
+      "P10 finite-grid stationary source; no rigorous continuum convergence or exact UV completion",
+      "Eight-function Gaussian/Dirichlet azimuthal Galerkin space is not the entire constrained spectrum",
+      "Pointwise plane-wave principal symbol is a frozen-coefficient local approximation",
+      "Neutral Earth/support trace can modify portal curvature; complete universal metric/stress absent",
+      "No full nonzero-alpha reciprocal stationary source/X/Y or coupled gauge/phase spectrum",
+      "No sourced neutral 1kg payload acceleration, Earth-down/craft-up, SI energy, or whole craft lift"
+    ],
+    "next": "BETA1-02 passive material reciprocity/C2;then nonzero-alpha on-shell reciprocal source/Y",
+    "physical_transfer": "NOT_AUTHORIZED",
+    "stationarity": "ALPHA0_Y0_IS_STATIONARY_IN_FLAT_SOURCE_ONLY_ACTION;ALPHA_NONZERO_Y0_IS_NOT_THE_INDUCED_SOLUTION",
+    "symbolic": {
+      "Gauss_Ward_linearization": "Y Gauss: div(E_Y)=0 for BX=0; X Gauss and scalar/Noether decouple at first order because lambda0=sigma_prime0=0; axisymmetric Y_phi is divergence-free",
+      "action_definition": "L_Y2=|E_Y|^2/2-|B_Y|^2/2+2*beta*(G-T+2U)*(E_X.B_Y)^2",
+      "branch_is_on_shell_only_for_alpha0": true,
+      "checks": {
+        "beta0_maxwell_characteristic": true,
+        "electric_magnetic_velocity_cross_null": true,
+        "lambda_P0_zero": true,
+        "lambda_linear_response": true,
+        "magnetic_quadratic_action_sign": true,
+        "positive_beta_nonnegative_kappa_decreases_stiffness": true,
+        "positive_electric_Y_kinetic": true,
+        "wave_parallel_E_characteristic": true,
+        "wave_perp_E_characteristic": true,
+        "zero_Y_stationary_alpha0": true
+      },
+      "electric_kinetic_hessian": "1",
+      "lambda_linear_coefficient": "-2*beta*(-2*G + 2*T - 4*U)",
+      "local_omega_squared": "q**2*(-4*E_X**2*beta*(G - T + 2*U)*sin(theta)**2 + 1)",
+      "magnetic_hessian_parallel": "-8*E_X**2*U*beta - 4*E_X**2*beta*(G - T) + 1"
+    },
+    "verdict": "YELLOW_ALPHA0_CONSTRAINED_Y_GRADIENT_INSTABILITY_BETA100_NONZERO_ALPHA_OPEN"
+  },
+  "source_full_reciprocity": "NOT_SOLVED",
+  "source_sha256": "2e987cd1a89f518d8aa18258433e9c7c0bba3d49756435c481dc04903d2b1faa",
+  "timestamp_utc": "2026-11-17T00:19:13.743770+00:00",
+  "verdict": "YELLOW_ALPHA0_CONSTRAINED_Y_GRADIENT_INSTABILITY_BETA100_NONZERO_ALPHA_OPEN",
+  "whole_craft_reaction": "NOT_DERIVED"
+}

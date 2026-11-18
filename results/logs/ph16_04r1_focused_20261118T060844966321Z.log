@@ -1,0 +1,50 @@
+......................FFF................F..................             [100%]
+=================================== FAILURES ===================================
+_______________ test_02_scoped_gate[joint_F_X_Y_residual_small] ________________
+
+name = 'joint_F_X_Y_residual_small'
+
+    @pytest.mark.parametrize('name',GATES)
+    def test_02_scoped_gate(name):
+>       assert R()['gates'][name]
+E       assert False
+
+tests/ph16/test_ph16_04_joint_stationary.py:62: AssertionError
+__________ test_02_scoped_gate[joint_F_X_Y_individual_residual_small] __________
+
+name = 'joint_F_X_Y_individual_residual_small'
+
+    @pytest.mark.parametrize('name',GATES)
+    def test_02_scoped_gate(name):
+>       assert R()['gates'][name]
+E       assert False
+
+tests/ph16/test_ph16_04_joint_stationary.py:62: AssertionError
+____________ test_02_scoped_gate[joint_solver_reported_convergence] ____________
+
+name = 'joint_solver_reported_convergence'
+
+    @pytest.mark.parametrize('name',GATES)
+    def test_02_scoped_gate(name):
+>       assert R()['gates'][name]
+E       assert False
+
+tests/ph16/test_ph16_04_joint_stationary.py:62: AssertionError
+___________________ test_06_joint_saddle_convergence[18_L12] ___________________
+
+key = '18_L12'
+
+    @pytest.mark.parametrize('key',CASES)
+    def test_06_joint_saddle_convergence(key):
+        a=R()['cases'][key]['Y_preconditioned_joint']
+    
+>       assert a['final_residual_L2']<1e-6
+E       assert 2.093028110157171e-06 < 1e-06
+
+tests/ph16/test_ph16_04_joint_stationary.py:129: AssertionError
+=========================== short test summary info ============================
+FAILED tests/ph16/test_ph16_04_joint_stationary.py::test_02_scoped_gate[joint_F_X_Y_residual_small]
+FAILED tests/ph16/test_ph16_04_joint_stationary.py::test_02_scoped_gate[joint_F_X_Y_individual_residual_small]
+FAILED tests/ph16/test_ph16_04_joint_stationary.py::test_02_scoped_gate[joint_solver_reported_convergence]
+FAILED tests/ph16/test_ph16_04_joint_stationary.py::test_06_joint_saddle_convergence[18_L12]
+4 failed, 56 passed in 187.84s (0:03:07)
