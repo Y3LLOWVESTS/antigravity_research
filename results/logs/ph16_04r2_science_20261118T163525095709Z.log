@@ -1,3 +1,18 @@
 PH16-04R1 isolated mesh START 12_L12
 PH16-04R1 mesh DONE 12_L12 residual=6.805759614e-08 native_success=True
 PH16-04R1 isolated mesh START 18_L12
+PH16-04R1 mesh DONE 18_L12 residual=6.532984857e-08 native_success=True
+PH16-04R1 isolated mesh START 12_L16
+PH16-04R1 mesh DONE 12_L16 residual=9.284802743e-08 native_success=True
+PH16-04: YELLOW_PH16_04_JOINT_DISCRETE_SOURCE_X_Y_FLUID_SADDLE_TWO_SEEDS_METRIC_OPEN
+PARENTS: 11 / 11 MATCH
+EXACT: 12 / 12
+SCOPED: 19 / 19
+CASE 12_L12 joint_residual 6.80575961e-08 N_err 1.13686838e-13 mag_margin 0.250350137 Bianchi 6.9388939e-18 weak_start_residual 3.79937092e-08 weak_start_converged True
+CASE 18_L12 joint_residual 6.53298486e-08 N_err 1.13686838e-13 mag_margin 0.260597376 Bianchi 3.46944695e-17 weak_start_residual 0.0187739331 weak_start_converged False
+CASE 12_L16 joint_residual 9.28480274e-08 N_err 5.68434189e-14 mag_margin 0.25814519 Bianchi 6.9388939e-18 weak_start_residual 7.45894535e-08 weak_start_converged True
+METRIC_AND_EARTH_REACTION: NOT_DERIVED
+COMPLETE_SI_ENERGY: NOT_CERTIFIED
+006D_REPLACED: NO
+RESULT_JSON: /Users/mymac/Desktop/antigravity_research/results/data/ph16_04_20261118T164454314313Z.json
+SHA256: ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0

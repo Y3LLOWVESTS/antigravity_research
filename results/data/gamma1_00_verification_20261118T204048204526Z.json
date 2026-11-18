@@ -1,0 +1,18 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "GAMMA1_01_authorized": false,
+  "PH16_R2_baseline_tests": 2943,
+  "atlas_result": "results/data/gamma1_00_20261118T202714278070Z.json",
+  "atlas_result_sha256": "480b9228b994f2634fe57ed23b7332e721d9060f43848bdc19e3ace0fb2cc16b",
+  "branch": "GAMMA1-00",
+  "classification": "SCOPED_ATLAS_AND_FULL_SUITE_VERIFIED",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "focused_log_sha256": "e049a7128afe2f6737d0c8bedb2b2b0fec47f249c5db8879d8eb49b6998cc910",
+  "full_suite_log_sha256": "07d9ce5dd76a640a569596d2333e898d24f467515dba67ef16709aef9bfc246e",
+  "full_suite_passed": 2959,
+  "independent_log_sha256": "0921ef8daffafc2c5e6786c9ea22bba2733e98035d02c78a2f7266bd30b8bfbd",
+  "runner_log_sha256": "4ead0eaede84b6327a573663bc6083297a7049438c0e8dbf0aa8bb5097f2bdcb",
+  "timestamp_utc": "2026-11-18T20:40:48.204526+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

@@ -1,0 +1,728 @@
+{
+  "006D_replaced": false,
+  "ALPHA1_M5V_frozen": true,
+  "BETA1_heuristic": "FROZEN_APPROX_70_PERCENT",
+  "PH17_approved": "NO",
+  "branch": "PH16-04",
+  "classification": "FINITE_LATTICE_SINGLE_ROUTHIAN_F_X_Y_OMEGA_NEUTRAL_HYDROSTATIC",
+  "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+  "complete_constrained_dynamic_modes": "NOT_CERTIFIED",
+  "continuum_and_exterior": "NOT_CERTIFIED",
+  "experiment": "JOINT_SAME_LATTICE_F_X_Y_NOETHER_NEUTRAL_MIMETIC_WARD_TWO_INITIALIZATIONS",
+  "full_GR_Einstein_equations": "NOT_SOLVED",
+  "next": "PH16-05 continuum/exterior convergence and constrained Hessian; no PH17 transfer",
+  "parent_sha256": {
+    "ALPHA1_M5V_FROZEN": {
+      "path": "src/antigravity_research/agminer/hook17_r3b_m5v_unified_exterior_action.py",
+      "sha256": "ea193cd163b2fc87e6973878c77e27c761f0625f6c5de3f38594587ef6cdb80f",
+      "status": "MATCH"
+    },
+    "BETA1_04_JSON": {
+      "path": "results/data/beta1_04_20261117T184058123842Z.json",
+      "sha256": "2ff63f1e2cbad2dc09d192569701b5503da06ca384ca60546d6e83c8c61ae632",
+      "status": "MATCH"
+    },
+    "PH11_SUPPORT": {
+      "path": "src/antigravity_research/agminer/hook17_ph11_universal_metric_support_gate.py",
+      "sha256": "03e2f18b9d382f7503a41735cf3a709930952a37b60d0bb2b13f7aef281280ba",
+      "status": "MATCH"
+    },
+    "PH15_P10": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py",
+      "sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "status": "MATCH"
+    },
+    "PH15_P8": {
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py",
+      "sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "status": "MATCH"
+    },
+    "PH16_01_JSON": {
+      "path": "results/data/ph16_01_20261118T001752187817Z.json",
+      "sha256": "06f4aa6960645823e81e5d577288dadda8d579567456e8af05dd21369a4173ad",
+      "status": "MATCH"
+    },
+    "PH16_01_SOURCE": {
+      "path": "src/antigravity_research/ph16/ph16_01_neutral_fluid_health.py",
+      "sha256": "7466a5c1a4613940ff6c57301375513629d0a940fb48e1d8ebe81bdbdf60ddbb",
+      "status": "MATCH"
+    },
+    "PH16_02_JSON": {
+      "path": "results/data/ph16_02_20261118T033343237505Z.json",
+      "sha256": "95b549c75346e81fc62b20e919160954c48bf4abe6230beb5bbf40ddf34a68ee",
+      "status": "MATCH"
+    },
+    "PH16_02_SOURCE": {
+      "path": "src/antigravity_research/ph16/ph16_02_reciprocal_principal.py",
+      "sha256": "b16fa3141270cc446d761bc8459e5504325b994ac31a889c0ea88520161b0b48",
+      "status": "MATCH"
+    },
+    "PH16_03_JSON": {
+      "path": "results/data/ph16_03_20261118T042539925053Z.json",
+      "sha256": "5db45e842666dd942300bd5497797c94e65d236e1646822556dadc7504a55167",
+      "status": "MATCH"
+    },
+    "PH16_03_SOURCE": {
+      "path": "src/antigravity_research/ph16/ph16_03_number_closed_reaction.py",
+      "sha256": "c8c9724d80dff5c6b0832559ae645c8f515b1101a9a11612b629ec819ff8ae4b",
+      "status": "MATCH"
+    }
+  },
+  "physical_heuristic": "APPROX_35_PERCENT_PENDING_EXECUTED_REVIEW",
+  "primary_verdict": "YELLOW_PH16_04_JOINT_DISCRETE_SOURCE_X_Y_FLUID_SADDLE_TWO_SEEDS_METRIC_OPEN",
+  "program": "ANTIGRAVITY_RESEARCH",
+  "real_1kg_torus_1g_at_1m": "NOT_CERTIFIED",
+  "real_material_support_and_Earth": "NOT_SOLVED",
+  "runner_sha256": "b1ceb7d39cc040ca86dd7866f1db6a06dfea6139c31368d4df7d68c33ef41a1b",
+  "scoped_gates_pass": true,
+  "scoped_results": {
+    "1kg_1g_1m": "NOT_CERTIFIED",
+    "Earth_down_craft_up": "NOT_DERIVED",
+    "cases": {
+      "12_L12": {
+        "P10": {
+          "N": [
+            400.0,
+            400.0
+          ],
+          "source_energy_NOT_J": 711.8045370708118,
+          "source_eom_max": 8.187069959793669e-07
+        },
+        "Y_only_seed": {
+          "Y_only_gradient_L2": 2.6187185074354864e-05,
+          "iterations": 100,
+          "success": true
+        },
+        "Y_preconditioned_joint": {
+          "F_grad_norm": 1.56134782828786e-08,
+          "N": [
+            400.0,
+            400.0000000000001
+          ],
+          "Pmax": 0.010708175853059648,
+          "Routhian_NOT_J": 2401.472107471401,
+          "X_Noether_charge": -1.4210854715202004e-14,
+          "X_grad_norm": 4.064316711292656e-08,
+          "Y_grad_norm": 5.230859064496349e-08,
+          "Y_norm": 0.12852111429890895,
+          "Y_source_norm": 1.5849386983856595,
+          "bare_X_Green_shift_due_to_portal_inf": 0.018878968998975648,
+          "discrete_curlE_inf": 3.469446951953614e-18,
+          "discrete_mimetic_divB_inf": 6.938893903907228e-18,
+          "edge_decomposition_error": 3.637978807091713e-12,
+          "final_residual_L2": 6.80575961397518e-08,
+          "frozen_magnetic_margin_min": 0.2503501372063712,
+          "frozen_negative_cells": 0,
+          "initial_residual_L2": 0.6152885812744919,
+          "min_F": 2.0704561408919614e-05,
+          "min_n": 0.14996271260397087,
+          "neutralN": 1628.601631620949,
+          "neutral_mu_res": 4.440892098500626e-16,
+          "omega": [
+            0.8390028148449397,
+            0.8390028158429375
+          ],
+          "ph16_04r2_bounded_continuation": [
+            {
+              "actual_gradient_L2": 6.80575961397518e-08,
+              "maxiter": 450,
+              "native_success": true,
+              "reported_iterations": 219,
+              "stage": 0
+            }
+          ],
+          "ph16_04r2_native_success_unmodified": true,
+          "portal_X_variation_L2": 0.22015277743080522,
+          "root_message": "A solution was found at the specified tolerance.",
+          "root_nit": 219,
+          "root_success": true,
+          "sigma_max": 0.0051220099966549715
+        },
+        "direct_weak_seed": {
+          "F_grad_norm": 2.223742874539993e-08,
+          "N": [
+            400.0000000000001,
+            400.0000000000001
+          ],
+          "Pmax": 0.010708180129093563,
+          "Routhian_NOT_J": 2401.4721074713957,
+          "X_Noether_charge": 0.0,
+          "X_grad_norm": 2.267650536332714e-08,
+          "Y_grad_norm": 2.0851733961072055e-08,
+          "Y_norm": 0.12852118053307135,
+          "Y_source_norm": 1.5849393387956108,
+          "bare_X_Green_shift_due_to_portal_inf": 0.01887898116814976,
+          "discrete_curlE_inf": 6.938893903907228e-18,
+          "discrete_mimetic_divB_inf": 1.214306433183765e-17,
+          "edge_decomposition_error": 3.637978807091713e-12,
+          "final_residual_L2": 3.7993709240913414e-08,
+          "frozen_magnetic_margin_min": 0.2503501029840135,
+          "frozen_negative_cells": 0,
+          "initial_residual_L2": 0.08958264955967557,
+          "min_F": 2.070456053284772e-05,
+          "min_n": 0.14996271258462324,
+          "neutralN": 1628.6016316209443,
+          "neutral_mu_res": 4.440892098500626e-16,
+          "omega": [
+            0.8390028155767811,
+            0.839002815541676
+          ],
+          "ph16_04r2_bounded_continuation": [
+            {
+              "actual_gradient_L2": 3.7993709240913414e-08,
+              "maxiter": 450,
+              "native_success": true,
+              "reported_iterations": 167,
+              "stage": 0
+            }
+          ],
+          "ph16_04r2_native_success_unmodified": true,
+          "portal_X_variation_L2": 0.22015294489786136,
+          "root_message": "A solution was found at the specified tolerance.",
+          "root_nit": 167,
+          "root_success": true,
+          "sigma_max": 0.005122013873539249
+        },
+        "discrete_exterior": "RECIPROCAL_RING_GREENS_PLUS_MIMETIC_P_NOT_CONTINUUM_PROOF",
+        "finite_difference": [
+          {
+            "error": 1.0808161327729993e-09,
+            "fd": -8.86757334228605e-08,
+            "gradient": -8.97565495556335e-08,
+            "index": 0
+          },
+          {
+            "error": 3.137847877365818e-09,
+            "fd": -7.366907084360719e-07,
+            "gradient": -7.335528605587061e-07,
+            "index": 144
+          },
+          {
+            "error": 4.797178891104148e-10,
+            "fd": -1.9554136088117957e-07,
+            "gradient": -1.9506164299206916e-07,
+            "index": 575
+          },
+          {
+            "error": 2.7729868906216934e-08,
+            "fd": 3.346258381498046e-05,
+            "gradient": 3.349031368388668e-05,
+            "index": 720
+          },
+          {
+            "error": 1.4458315771087246e-08,
+            "fd": -3.2759999157860875e-05,
+            "gradient": -3.277445747363196e-05,
+            "index": 863
+          },
+          {
+            "error": 8.519972710414186e-09,
+            "fd": 2.928572939708829e-06,
+            "gradient": 2.937092912419243e-06,
+            "index": 960
+          },
+          {
+            "error": 2.3516300615578772e-08,
+            "fd": 5.866240826435387e-07,
+            "gradient": 5.631077820279599e-07,
+            "index": 1151
+          }
+        ],
+        "initial": {
+          "F_grad_norm": 0.00273198124775016,
+          "N": [
+            399.99999999999994,
+            400.0
+          ],
+          "Pmax": 0.0005945039965152037,
+          "Routhian_NOT_J": 2401.477623052798,
+          "X_Noether_charge": -7.105427357601002e-15,
+          "X_grad_norm": 0.0014602621139217454,
+          "Y_grad_norm": 0.0895290735747457,
+          "Y_norm": 0.020704154697736437,
+          "Y_source_norm": 0.18929626969297908,
+          "bare_X_Green_shift_due_to_portal_inf": 2.4569297190635275e-06,
+          "discrete_curlE_inf": 1.0408340855860843e-17,
+          "discrete_mimetic_divB_inf": 4.336808689942018e-19,
+          "edge_decomposition_error": 3.637978807091713e-12,
+          "frozen_magnetic_margin_min": 0.20768125809876803,
+          "frozen_negative_cells": 0,
+          "min_F": 2.1351278218969306e-05,
+          "min_n": 0.149994480304247,
+          "neutralN": 1628.6016316209516,
+          "neutral_mu_res": 4.440892098500626e-16,
+          "omega": [
+            0.8388548796323152,
+            0.8388548796324111
+          ],
+          "portal_X_variation_L2": 0.0014811837845203233,
+          "sigma_max": 4.386259990066216e-05
+        },
+        "initialization_sensitivity": {
+          "Routhian_difference_NOT_energy": -5.4569682106375694e-12,
+          "Y_solution_distance_L2": 6.79769409843197e-08,
+          "both_reached_stationarity": true,
+          "same_lattice_action": true
+        },
+        "mesh": {
+          "L": 12.0,
+          "h": 1.0,
+          "nr": 12
+        },
+        "physical_earth_metric": "NOT_SOLVED"
+      },
+      "12_L16": {
+        "P10": {
+          "N": [
+            400.00000000000017,
+            400.0000000000001
+          ],
+          "source_energy_NOT_J": 710.7525649376865,
+          "source_eom_max": 5.535517640135491e-07
+        },
+        "Y_only_seed": {
+          "Y_only_gradient_L2": 3.19474108497862e-05,
+          "iterations": 78,
+          "success": true
+        },
+        "Y_preconditioned_joint": {
+          "F_grad_norm": 2.31728669633771e-08,
+          "N": [
+            400.0,
+            400.00000000000006
+          ],
+          "Pmax": 0.0072267063951054105,
+          "Routhian_NOT_J": 4715.900210279012,
+          "X_Noether_charge": -7.105427357601002e-15,
+          "X_grad_norm": 7.594171768835788e-08,
+          "Y_grad_norm": 4.813138215986712e-08,
+          "Y_norm": 0.09221297289089136,
+          "Y_source_norm": 1.7308844792977474,
+          "bare_X_Green_shift_due_to_portal_inf": 0.011369849202438803,
+          "discrete_curlE_inf": 1.6479873021779667e-17,
+          "discrete_mimetic_divB_inf": 6.938893903907228e-18,
+          "edge_decomposition_error": 0.0,
+          "final_residual_L2": 9.284802742858782e-08,
+          "frozen_magnetic_margin_min": 0.2581451900658178,
+          "frozen_negative_cells": 0,
+          "initial_residual_L2": 0.3743526823938359,
+          "min_F": 1.2700949300350976e-06,
+          "min_n": 0.1499729456630967,
+          "neutralN": 3860.389052731127,
+          "neutral_mu_res": 4.440892098500626e-16,
+          "omega": [
+            0.8379537382438199,
+            0.8379537385208544
+          ],
+          "ph16_04r2_bounded_continuation": [
+            {
+              "actual_gradient_L2": 9.284802742858782e-08,
+              "maxiter": 450,
+              "native_success": true,
+              "reported_iterations": 192,
+              "stage": 0
+            }
+          ],
+          "ph16_04r2_native_success_unmodified": true,
+          "portal_X_variation_L2": 0.19554046825406868,
+          "root_message": "A solution was found at the specified tolerance.",
+          "root_nit": 192,
+          "root_success": true,
+          "sigma_max": 0.0024503467325975676
+        },
+        "direct_weak_seed": {
+          "F_grad_norm": 2.3513994391983448e-08,
+          "N": [
+            399.99999999999994,
+            399.99999999999994
+          ],
+          "Pmax": 0.007226706909938741,
+          "Routhian_NOT_J": 4715.900210279029,
+          "X_Noether_charge": 0.0,
+          "X_grad_norm": 5.981861028611125e-08,
+          "Y_grad_norm": 3.784722583531021e-08,
+          "Y_norm": 0.09221298572061537,
+          "Y_source_norm": 1.7308845929889898,
+          "bare_X_Green_shift_due_to_portal_inf": 0.01136984972309557,
+          "discrete_curlE_inf": 9.540979117872439e-18,
+          "discrete_mimetic_divB_inf": 3.469446951953614e-18,
+          "edge_decomposition_error": 0.0,
+          "final_residual_L2": 7.458945349214497e-08,
+          "frozen_magnetic_margin_min": 0.2581451901140911,
+          "frozen_negative_cells": 0,
+          "initial_residual_L2": 0.13761283958474171,
+          "min_F": 1.2700949268791814e-06,
+          "min_n": 0.149972945659667,
+          "neutralN": 3860.389052731144,
+          "neutral_mu_res": 4.440892098500626e-16,
+          "omega": [
+            0.8379537383896009,
+            0.8379537384022919
+          ],
+          "ph16_04r2_bounded_continuation": [
+            {
+              "actual_gradient_L2": 7.458945349214497e-08,
+              "maxiter": 450,
+              "native_success": true,
+              "reported_iterations": 171,
+              "stage": 0
+            }
+          ],
+          "ph16_04r2_native_success_unmodified": true,
+          "portal_X_variation_L2": 0.19554049530886736,
+          "root_message": "A solution was found at the specified tolerance.",
+          "root_nit": 171,
+          "root_success": true,
+          "sigma_max": 0.0024503470559831906
+        },
+        "discrete_exterior": "RECIPROCAL_RING_GREENS_PLUS_MIMETIC_P_NOT_CONTINUUM_PROOF",
+        "finite_difference": [
+          {
+            "error": 1.901663230097911e-09,
+            "fd": 4.547473508864641e-09,
+            "gradient": 2.6458102787667304e-09,
+            "index": 0
+          },
+          {
+            "error": 2.088196526285613e-09,
+            "fd": -1.9099388737231493e-07,
+            "gradient": -1.9308208389860054e-07,
+            "index": 144
+          },
+          {
+            "error": 3.9803016377098176e-09,
+            "fd": -9.549694368615746e-08,
+            "gradient": -9.151664204844765e-08,
+            "index": 575
+          },
+          {
+            "error": 1.247524775196195e-08,
+            "fd": 2.6284396881237626e-05,
+            "gradient": 2.6271921633485664e-05,
+            "index": 720
+          },
+          {
+            "error": 5.523948021804066e-08,
+            "fd": -2.6202542358078063e-05,
+            "gradient": -2.6147302877860022e-05,
+            "index": 863
+          },
+          {
+            "error": 1.0476600665340965e-08,
+            "fd": 4.1382008930668235e-07,
+            "gradient": 4.242966899720233e-07,
+            "index": 960
+          },
+          {
+            "error": 2.6103818497394404e-08,
+            "fd": 1.0913936421275139e-07,
+            "gradient": 8.303554571535698e-08,
+            "index": 1151
+          }
+        ],
+        "initial": {
+          "F_grad_norm": 0.0043647480270433804,
+          "N": [
+            400.00000000000006,
+            399.99999999999994
+          ],
+          "Pmax": 0.0005803476970275638,
+          "Routhian_NOT_J": 4715.9048603411065,
+          "X_Noether_charge": 1.4210854715202004e-14,
+          "X_grad_norm": 0.0023615403328779375,
+          "Y_grad_norm": 0.1375233279138215,
+          "Y_norm": 0.016602018164123503,
+          "Y_source_norm": 0.2825735542392523,
+          "bare_X_Green_shift_due_to_portal_inf": 2.8750504279528855e-06,
+          "discrete_curlE_inf": 8.673617379884035e-18,
+          "discrete_mimetic_divB_inf": 5.421010862427522e-19,
+          "edge_decomposition_error": 0.0,
+          "frozen_magnetic_margin_min": 0.18310672672418715,
+          "frozen_negative_cells": 0,
+          "min_F": 1.294783605846504e-06,
+          "min_n": 0.14999497781128124,
+          "neutralN": 3860.389052731144,
+          "neutral_mu_res": 4.440892098500626e-16,
+          "omega": [
+            0.8379500367851916,
+            0.8379500367831213
+          ],
+          "portal_X_variation_L2": 0.0023890249503256736,
+          "sigma_max": 4.2489522829186065e-05
+        },
+        "initialization_sensitivity": {
+          "Routhian_difference_NOT_energy": 1.7280399333685637e-11,
+          "Y_solution_distance_L2": 1.8259419015582163e-08,
+          "both_reached_stationarity": true,
+          "same_lattice_action": true
+        },
+        "mesh": {
+          "L": 16.0,
+          "h": 1.3333333333333333,
+          "nr": 12
+        },
+        "physical_earth_metric": "NOT_SOLVED"
+      },
+      "18_L12": {
+        "P10": {
+          "N": [
+            399.99999999999994,
+            400.0
+          ],
+          "source_energy_NOT_J": 712.5557086168102,
+          "source_eom_max": 1.5876352500598679e-06
+        },
+        "Y_only_seed": {
+          "Y_only_gradient_L2": 2.8187620302064447e-05,
+          "iterations": 150,
+          "success": true
+        },
+        "Y_preconditioned_joint": {
+          "F_grad_norm": 1.209295869687242e-08,
+          "N": [
+            400.0000000000001,
+            399.99999999999994
+          ],
+          "Pmax": 0.014444675149913593,
+          "Routhian_NOT_J": 2402.2237825331354,
+          "X_Noether_charge": 2.1316282072803006e-14,
+          "X_grad_norm": 6.213258336344968e-08,
+          "Y_grad_norm": 1.6164515128693624e-08,
+          "Y_norm": 0.16115247481609551,
+          "Y_source_norm": 1.1114600649486475,
+          "bare_X_Green_shift_due_to_portal_inf": 0.023163085535076622,
+          "discrete_curlE_inf": 1.734723475976807e-17,
+          "discrete_mimetic_divB_inf": 3.469446951953614e-17,
+          "edge_decomposition_error": 7.275957614183426e-12,
+          "final_residual_L2": 6.53298485747981e-08,
+          "frozen_magnetic_margin_min": 0.26059737608654576,
+          "frozen_negative_cells": 0,
+          "initial_residual_L2": 0.4992046559329834,
+          "min_F": 9.451380621335214e-06,
+          "min_n": 0.14996700140771235,
+          "neutralN": 1628.6016316209484,
+          "neutral_mu_res": 4.440892098500626e-16,
+          "omega": [
+            0.8395458712784691,
+            0.8395458687787339
+          ],
+          "ph16_04r2_bounded_continuation": [
+            {
+              "actual_gradient_L2": 2.093028110157171e-06,
+              "maxiter": 450,
+              "native_success": false,
+              "reported_iterations": 450,
+              "stage": 0
+            },
+            {
+              "actual_gradient_L2": 3.8399668205633243e-07,
+              "maxiter": 100,
+              "native_success": false,
+              "reported_iterations": 100,
+              "stage": 1
+            },
+            {
+              "actual_gradient_L2": 6.53298485747981e-08,
+              "maxiter": 100,
+              "native_success": true,
+              "reported_iterations": 89,
+              "stage": 2
+            }
+          ],
+          "ph16_04r2_native_success_unmodified": true,
+          "portal_X_variation_L2": 0.1546227470998211,
+          "root_message": "A solution was found at the specified tolerance.",
+          "root_nit": 89,
+          "root_success": true,
+          "sigma_max": 0.009068179364956932
+        },
+        "direct_weak_seed": {
+          "F_grad_norm": 0.0022448946529540843,
+          "N": [
+            399.99999999999994,
+            400.0
+          ],
+          "Pmax": 0.005824458749412348,
+          "Routhian_NOT_J": 2402.2301565706466,
+          "X_Noether_charge": -7.105427357601002e-15,
+          "X_grad_norm": 0.0076013495906086595,
+          "Y_grad_norm": 0.017018827653402947,
+          "Y_norm": 0.041261052246121664,
+          "Y_source_norm": 0.38938641977667265,
+          "bare_X_Green_shift_due_to_portal_inf": 0.003254633815684055,
+          "discrete_curlE_inf": 2.7755575615628914e-17,
+          "discrete_mimetic_divB_inf": 6.938893903907228e-18,
+          "edge_decomposition_error": 7.275957614183426e-12,
+          "final_residual_L2": 0.018773933053511754,
+          "frozen_magnetic_margin_min": 0.2500265384366792,
+          "frozen_negative_cells": 0,
+          "initial_residual_L2": 0.04929667516100438,
+          "min_F": 9.683600111770747e-06,
+          "min_n": 0.14996615455902873,
+          "neutralN": 1628.6016316209534,
+          "neutral_mu_res": 4.440892098500626e-16,
+          "omega": [
+            0.83940505939868,
+            0.8394050601914097
+          ],
+          "ph16_04r2_bounded_continuation": [
+            {
+              "actual_gradient_L2": 0.018773933053511754,
+              "maxiter": 80,
+              "native_success": false,
+              "reported_iterations": 80,
+              "stage": 0
+            }
+          ],
+          "ph16_04r2_native_success_unmodified": false,
+          "portal_X_variation_L2": 0.025277729220203216,
+          "root_message": "The maximum number of iterations allowed has been reached.",
+          "root_nit": 80,
+          "root_success": false,
+          "sigma_max": 0.0010657498514736248
+        },
+        "discrete_exterior": "RECIPROCAL_RING_GREENS_PLUS_MIMETIC_P_NOT_CONTINUUM_PROOF",
+        "finite_difference": [
+          {
+            "error": 5.441996026988444e-10,
+            "fd": -1.5916157281026244e-08,
+            "gradient": -1.646035688372509e-08,
+            "index": 0
+          },
+          {
+            "error": 8.744140377048293e-10,
+            "fd": -2.2737367544323206e-07,
+            "gradient": -2.2649926140552723e-07,
+            "index": 324
+          },
+          {
+            "error": 2.020157972382284e-09,
+            "fd": -1.864464138634503e-07,
+            "gradient": -1.8846657183583257e-07,
+            "index": 1295
+          },
+          {
+            "error": 4.611497877818631e-08,
+            "fd": 2.1636878955177963e-05,
+            "gradient": 2.168299393395615e-05,
+            "index": 1620
+          },
+          {
+            "error": 8.302351453739947e-08,
+            "fd": -1.7466845747549087e-05,
+            "gradient": -1.7549869262086486e-05,
+            "index": 1943
+          },
+          {
+            "error": 3.213431424328294e-08,
+            "fd": 1.7757884052116424e-06,
+            "gradient": 1.7436540909683594e-06,
+            "index": 2160
+          },
+          {
+            "error": 9.038741322249522e-09,
+            "fd": 2.5011104298755527e-07,
+            "gradient": 2.591497843098048e-07,
+            "index": 2591
+          }
+        ],
+        "initial": {
+          "F_grad_norm": 0.0015195349478698173,
+          "N": [
+            400.0,
+            400.0
+          ],
+          "Pmax": 0.0006055108576591914,
+          "Routhian_NOT_J": 2402.2290033310665,
+          "X_Noether_charge": 0.0,
+          "X_grad_norm": 0.0008231596484016561,
+          "Y_grad_norm": 0.04926637396505889,
+          "Y_norm": 0.02960333800360215,
+          "Y_source_norm": 0.11003808780938858,
+          "bare_X_Green_shift_due_to_portal_inf": 2.0924125651577974e-06,
+          "discrete_curlE_inf": 1.734723475976807e-17,
+          "discrete_mimetic_divB_inf": 6.2341624917916505e-19,
+          "edge_decomposition_error": 7.275957614183426e-12,
+          "frozen_magnetic_margin_min": 0.22995356323230098,
+          "frozen_negative_cells": 0,
+          "min_F": 9.724194781625769e-06,
+          "min_n": 0.14999497074529788,
+          "neutralN": 1628.6016316209489,
+          "neutral_mu_res": 4.440892098500626e-16,
+          "omega": [
+            0.8394000953622366,
+            0.8394000953622359
+          ],
+          "portal_X_variation_L2": 0.0008369408457252387,
+          "sigma_max": 4.4941278832686346e-05
+        },
+        "initialization_sensitivity": {
+          "Routhian_difference_NOT_energy": 0.006374037511250208,
+          "Y_solution_distance_L2": 0.19322083645401605,
+          "both_reached_stationarity": false,
+          "same_lattice_action": true
+        },
+        "mesh": {
+          "L": 12.0,
+          "h": 0.6666666666666666,
+          "nr": 18
+        },
+        "physical_earth_metric": "NOT_SOLVED"
+      }
+    },
+    "classification": "FINITE_LATTICE_SINGLE_ROUTHIAN_F_X_Y_OMEGA_NEUTRAL_HYDROSTATIC",
+    "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+    "continuum_and_true_exterior": "NOT_CERTIFIED",
+    "exact": {
+      "fixed_X_Y_P_zero_if_E_zero": true,
+      "local_U1_P_bilinearity": true,
+      "local_mixed_A_P_reciprocal": true,
+      "local_mixed_F_P_reciprocal": true,
+      "neutral_hydrostatic_mu": true,
+      "neutral_label_conformal_weight": true,
+      "omega_fixed_N": true,
+      "portal_beta_zero_no_quadratic": true,
+      "portal_lambda_same_action": true,
+      "portal_off_zero_derivative": true,
+      "sigma_prime": true,
+      "source_X_current": true
+    },
+    "full_constrained_modes": "NOT_CERTIFIED",
+    "gates": {
+      "both_initializations_reported_without_uniqueness_claim": true,
+      "exact_action_identities": true,
+      "finite_Y_nonzero": true,
+      "frozen_beta40_magnetic_margin_positive": true,
+      "frozen_beta40_no_negative_cells": true,
+      "independent_F_X_Y_finite_difference": true,
+      "initial_individual_Noether_fixed": true,
+      "joint_F_X_Y_individual_residual_small": true,
+      "joint_F_X_Y_residual_small": true,
+      "joint_solver_reported_convergence": true,
+      "metric_force_not_claimed": true,
+      "mimetic_electric_curl_zero": true,
+      "mimetic_magnetic_Bianchi": true,
+      "neutral_hydrostatic_chemical_balance": true,
+      "neutral_integrated_number_conserved": true,
+      "postsolve_individual_Noether_fixed": true,
+      "protected_P10_seed_EOM": true,
+      "symmetric_positive_reciprocal_ring_operators": true,
+      "three_independent_mesh_domain_reconstructions": true
+    },
+    "limits": [
+      "Joint scalar F/X/Y stationary gradients tested in one defined finite lattice action, NOT Einstein dynamics",
+      "Finite ring Greens and mimetic portal require independent continuum consistency and exterior verification",
+      "Same-action F/X/Y/neutral hydrostatic Routhian excludes solid supports and full neutral dynamics",
+      "Different initializers expose numerical basin sensitivity; uniqueness is not established",
+      "Frozen magnetic principal coefficient positive is not a full dynamical stability certificate",
+      "Canonical stationary Routhian is neither complete Hamiltonian nor joules nor derived external force"
+    ],
+    "next": "PH16-05: continuum/exterior operator consistency, basin and constrained Hessian; then source UV/material and Einstein Earth force",
+    "physical_promotion": "NO",
+    "verdict": "YELLOW_PH16_04_JOINT_DISCRETE_SOURCE_X_Y_FLUID_SADDLE_TWO_SEEDS_METRIC_OPEN"
+  },
+  "source_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+  "tests_sha256": "59c4842d93882af40791aadf34483f7b64df4f07f3d20fcd9f95f348262f2260",
+  "timestamp_utc": "2026-11-18T16:44:54.314313+00:00",
+  "whole_craft_Earth_down_craft_up": "NOT_DERIVED"
+}

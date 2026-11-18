@@ -1,1211 +1,478 @@
-# ANTIGRAVITY_RESEARCH — BETA-1 Artificial Research Buildplan
+# ANTIGRAVITY_RESEARCH — Artificial Discovery Buildplan
 
-**Proposed repository filename:** `BETA_ARTIFICIAL_BUILDPLAN.md`  
-**Revision:** November 16, 2026  
-**Program:** BETA-1 — Physics-Gap Discovery and Constrained Inverse Research  
-**Status:** NEW SECONDARY RESEARCH PLAN — AUTHORIZED FOR SCOPED RESEARCH  
-**Primary physical research:** HOOK17 / PH15 → PH16 → PH17, with B11-M6 co-primary  
-**Historical artificial reference:** ALPHA-1 / B17-M5V — FROZEN  
-**Latest physical checkpoint:** PH15-P10 — `YELLOW_NEW_PARTIAL_EXTERIOR_CLOSURE`  
-**Latest full regression:** 2,286 passed  
-**006D:** Unreplaced conservative general-relativistic true-stand-off anchor  
-**Physical spacecraft lift:** NOT DERIVED  
-**Complete operating energy below 10 MJ:** NOT CERTIFIED
+**Active branch:** GAMMA-1 — Physical Gravity-Bridge Discovery  
+**Revision:** November 18, 2026  
+**Recommended repository filename:** `ARTIFICIAL_BUILDPLAN.MD`  
+**Status:** **NEXT SESSION: GAMMA1-00 FIRST; NO GAMMA RUN EXECUTED**  
+**Previous artificial branches:** ALPHA-1 / B17-M5V **FROZEN**; BETA-1 / BETA1-04 **FROZEN AS EVIDENCE**  
+**Physical baseline:** PH16-04R2 — joint finite-lattice charged scalar/X/Y/neutral-fluid stationary Routhian, **not a continuum gravitational theory**  
+**Latest authoritative complete regression:** **2,943 passed** (PH16-04R2, November 18, 2026)  
+**Permanent conservative true-stand-off anchor:** 006D, `C=23.591586299249`, **unreplaced**  
+**Real gravitational Earth-down / whole-craft-up force:** **NOT DERIVED**  
+**1 kg neutral torus ≥1 g throughout at ≥1 m genuine stand-off:** **NOT CERTIFIED**  
+**Complete conservative operating energy:** **STRICTLY <10 MJ NOT CERTIFIED**  
+**Near-term decision deadline:** U.S. Thanksgiving, **Thursday, November 26, 2026** — an aggressive **research prioritization deadline**, **not a prediction or guarantee of an engine**  
+**Physical-model maturity:** approximately **35% heuristic**, not probability of feasibility  
+**BETA-1 maturity:** approximately **70% historical artificial-branch heuristic**, now frozen; GAMMA earns no physical completion automatically.
 
----
-
-# PART I — MISSION, SCIENTIFIC BOUNDARIES AND CURRENT FRONTIER
-
-## 1. Mission
-
-BETA-1 exists to identify the missing physical principles that prevent ANTIGRAVITY_RESEARCH from progressing from promising mathematical models to a coherent theory of onboard gravitational or metric repulsion.
-
-Its central question is:
-
-> What changes to our mathematical model are necessary to derive a physically sourced, stable, conserved, reciprocal Earth–spacecraft interaction, and which of those changes are actually realizable by healthy fields and matter?
-
-BETA-1 is a **discovery and falsification instrument**.
-
-It is not a candidate propulsion engine. Its outputs cannot independently establish gravitational repulsion, spacecraft lift, physical energy requirements, or engineering feasibility.
-
-The artificial program may study idealized source currents, constitutive responses, field geometries and interaction operators, but must identify every property that is prescribed rather than physically derived.
-
-**BETA-1's success is measured by how many important uncertainties it resolves and how many independently testable physical mechanisms it discovers—not by the magnitude of an artificial acceleration or interaction-energy gradient.**
-
-## 2. Relationship to the physical research path
-
-Maintain two separate lines of evidence.
-
-| Physical research | Artificial research |
-|---|---|
-| PH15 source existence, localization and induction | Discover necessary source and exterior-field conditions |
-| PH16 complete reciprocal field equations | Identify missing operators and coupled-response obstructions |
-| PH16 constrained health and stability | Find or reject admissible kinetic and constraint structures |
-| PH17 physical Earth and neutral-matter response | Identify necessary material response and exterior force structure |
-| B11-M6 sourced causal dynamics | Derive bounds and counterexamples for signed impulses and cycles |
-| Physical energy and engineering feasibility | Identify unavoidable energy and support lower bounds |
-
-A BETA-1 result may become a **hypothesis for the physical path**, never a physical result merely by changing its label.
-
-Promotion requires a separately derived physical action, source equations, conserved quantities, full reciprocal response, healthy modes, and independent numerical verification.
-
-The primary physical buildplan remains authoritative for physical certification and mission requirements.
-
-## 3. Current scientific checkpoint
-
-### 3.1 The permanent conservative anchor
-
-Preserve **006D** as the strongest conservative linearized-general-relativistic true-stand-off construction.
-
-Its source is finite, locally conserved, positive-energy, and passes the documented NEC/WEC/DEC checks, with outward near-field gravitational behavior and positive far-field active mass.
-
-Its coefficient remains:
-
-`C = 23.591586299249`
-
-Its prohibitive approximately `1/G` energy scaling remains unresolved.
-
-BETA-1 must not portray an artificial modified-gravity response as replacing this conservative result.
-
-### 3.2 The frozen ALPHA-1 reference
-
-ALPHA-1 ended at B17-M5V on November 14, 2026.
-
-The final unified reduced stationary calculation registered 50/50 cases without errors, with the associated regression of 1,803 passing tests.
-
-At `h = 0.04 m`:
-
-| Quantity | Frozen numerical value |
-|---|---:|
-| Artificial Earth-coordinate derivative | −11.395675919 J/m |
-| Artificial craft-coordinate derivative | +11.397230073 J/m |
-| Common-translation residual | +0.001554154 J/m |
-| Reduced interaction action | −7.975232332 J |
-| Conditional extrapolated Earth derivative | Approximately −11.30752 J/m |
-
-These are derivatives of a prescribed reduced action, not verified physical forces.
-
-The material interface, source current, physical reciprocal matter response, source supports, actual spacecraft reaction and infinite-exterior closure were not independently established.
-
-The C2 interface halfwidth was an artificial constitutive choice. At the extended `h=0.05 m` screen, changing it from 0.25 to 0.75 m shifted the artificial Earth derivative from approximately −8.724 to −15.175 J/m.
-
-This dependence is a **missing-material-physics problem**, not something to fix by optimizing the interface width.
-
-Preserve the M5F–M5N artifact findings, including M5N's 81.458% cross-grid mismatch, M5U's original incomplete manifest, X1 erratum, and the historical M5V source-SHA discrepancy.
-
-**ALPHA-1 is frozen. BETA-1 is a new question-driven research program, not M5W.**
-
-### 3.3 Current physical-source progress
-
-PH12–PH14 established a hypothetical charged-scalar–Maxwell source family, including an on-shell neutral spherical composite. Spherical symmetry forced the investigated first-order induced Y channel to vanish.
-
-PH15-P2 through P7 investigated nonspherical, winding-supported charged-scalar sources. P7 discovered negative constrained amplitude–phase energy directions and rejected those tested configurations as stable-source candidates.
-
-PH15-P8 introduced a distinct nonwinding source with a positive interspecies contact interaction:
-
-```math
-U_{\mathrm{total}}=U(s_+)+U(s_-)+g_{\mathrm{int}}s_+s_-
-```
-
-Here `g_int > 0` produces a repulsive interspecies interaction within the hypothetical model.
-
-PH15-P9 audited electrostatic exterior corrections and Gauss-responsive density perturbations.
-
-PH15-P10 replaced the finite-box electrostatic boundary with a self-consistent discrete free-space Coulomb Green operator and independently calculated first-order free-space Y response.
-
-Key PH15-P10 results:
-
-| Observable | Current status |
-|---|---|
-| Net electric X charge | Approximately zero |
-| Self-consistent discrete X Coulomb response | PASS_SCOPED |
-| Individual Noether charges | 400 / 400 canonical |
-| Source separation at L=16, h=2/3 | 2.878861885 |
-| Source separation at L=20, h=2/3 | 2.879178218 |
-| First-order Y-current norm | Approximately 0.30135 |
-| Separated versus overlapping source energy advantage, base case | Approximately 0.375656 canonical units |
-| Sampled static density-mode screens | Positive |
-| Translation/rotation curvature under refinement | Softening, not certified exact zero modes |
-| Fully reciprocal X/Y/source solution | NOT SOLVED |
-| Full dynamic and nonaxisymmetric stability | NOT CERTIFIED |
-| Continuum free-space source | NOT CERTIFIED |
-| Physical metric, Earth reaction and spacecraft force | NOT DERIVED |
-
-The two larger boxes agree encouragingly at fixed spacing, but joint grid/domain convergence remains incomplete.
-
-PH15-P10 is **not a completed physical model**.
-
-### 3.4 Historical low-capacity references
-
-Preserve:
-
-- A12C: `2.6568591420597114 J` prescribed preloaded field capacity.
-- R3B: `1.5429162116460216 J` prescribed preloaded mixed-field capacity.
-- B7: `1.5473042949759672 J` conditional field result.
-- B1: `0.275–0.301 MJ` conditional field-only result.
-
-Neither A12C nor R3B established physical source energy or a complete operating device.
-
-R3A's approximately `1.84 × 10^15` bulk-loading suppression and the R3C/B0–B16 reciprocal-loading failures remain active.
-
-BETA-1 must not spend time reducing already-small prescribed field terms while source, matter and reaction physics are unresolved.
+> **Authority and preservation.** This is the live artificial discovery buildplan. `RESEARCH_BUILDPLAN.md` remains the authoritative physical certification strategy; `AGMINER_BUILDPLAN.MD` retains failed mechanism families; `INTROSPECTIVE_BUILDPLAN.md` retains influence diagnostics; `FORMATTING_AND_CODE_STANDARDS.md` governs coding and documentation; executed JSON/SHA/logs outrank stale notes or plans. The previous November 16 BETA-1 buildplan must be retained separately, unchanged, as `BETA_ARTIFICIAL_BUILDPLAN_ARCHIVE_20261116.MD`. GAMMA does not rewrite ALPHA, BETA, PH15, PH16, or 006D provenance.
 
 ---
 
-# PART II — THE MISSING PHYSICS
+# PART I — MISSION, EVIDENCE AND HARD SCIENTIFIC BOUNDARIES
 
-## 4. The seven critical physical gaps
+## 1. Why GAMMA-1 exists
 
-BETA-1 will address the following gaps in priority order.
+ALPHA-1 showed that prescribed finite field and material profiles could generate favorable *reduced action derivatives* but did **not** prove gravitational spacecraft force. BETA-1 systematically mapped source, material, gauge, stability, exterior and momentum-ledger obstructions, and built scoped artificial witnesses. The ensuing physical PH16 branch then achieved a substantial numerical advance: source scalar amplitudes, X, Y, two stationary frequencies and hydrostatic neutral matter are mutually constrained within **one defined finite-lattice Routhian**. Nevertheless, its Einstein metric, physical source/support implementation, continuum/exterior, full dynamical modes and Earth–craft force remain open.
 
-| ID | Missing physical capability | Why it matters | BETA-1 investigation |
-|---|---|---|---|
-| G1 | Fully realizable and stable source | A hypothetical classical soliton is not known hardware or a healthy quantum theory | Source-current representability and constrained source optimization |
-| G2 | Fully reciprocal X/Y/source dynamics | First-order induction can be destroyed or altered by its own backreaction | Same-action reciprocal-response and perturbative-continuation tests |
-| G3 | Complete Lorentzian mode health | Static positive energy directions do not exclude ghosts, unstable modes or acausal characteristics | Constraint, principal-symbol and Schur-complement atlas |
-| G4 | Universal-metric response of real neutral matter | Artificial density-dependent interfaces need not arise from real materials | Passive, causal material-susceptibility derivation |
-| G5 | Genuine Earth-down/craft-up external interaction | An internal field force or coordinate derivative is not whole-craft lift | Whole-action force and stress-flux reciprocity |
-| G6 | Positive sourced impulse and repeatable cycles | A static favorable gradient need not produce useful propulsion over time | Retarded finite-source impulse and full-cycle theorem |
-| G7 | Complete physical energy and empirical consistency | Small field energy can hide enormous source, support or conversion costs | Source-work, dimensional scaling, EFT, empirical and complete-energy bounds |
+**GAMMA-1's sole primary question:**
 
-**G1–G3 determine whether the field mechanism can exist as a healthy physical source. G4–G5 determine whether it can produce the required external gravitational or metric interaction. G6–G7 determine whether it can operate.**
+> Is there an independently derivable, healthy, conserved, finite-source-to-universal-metric interaction that generates an **external outward gravitational acceleration of neutral matter**, forces the **Earth downward** and **the entire onboard spacecraft upward**, and has any credible path to **strictly less than 10 MJ complete operating energy**?
 
-No single isolated success establishes the entire mechanism.
+The branch is a **theorem-first artificial discovery and falsification instrument**. It is not a propulsion engine, a license to prescribe exotic forces, or a substitute for independent physical-model derivations. Its success is measured by **reduction of decisive uncertainty per expensive numerical run**, not by maximizing a chosen artificial field, acceleration, force gradient or low-energy number.
 
-## 5. The principal strategic change
+We do **not** know whether an antigravity spacecraft of the requested kind is physically possible. A compelling mathematical result on a hypothetical action does not establish a fabricable engine. The Thanksgiving deadline is exceptionally ambitious; the plan prioritizes decisive answers, including negative answers, rather than promising construction or completion by that date.
 
-ALPHA-1 mainly answered:
+## 2. What actually happened: freeze these checkpoints
 
-> Can a prescribed artificial source and material response generate a favorable reduced interaction derivative?
-
-BETA-1 must answer:
-
-> What is the smallest physically admissible modification that makes the required interaction possible, and can we prove or disprove it before solving another expensive field problem?
-
-Each investigation must begin with one of:
-
-1. An analytically identified obstruction.
-2. A missing action variation or conservation identity.
-3. A physical source property not supplied by the existing model.
-4. A falsifiable necessary condition for a desired external effect.
-5. A documented discrepancy between an artificial result and an actual source-sector calculation.
-
-Unrestricted geometric, field-amplitude, interface-width or low-energy optimization is prohibited.
-
----
-
-# PART III — THE MATHEMATICAL FRAMEWORK
-
-## 6. One-action compatibility
-
-All physical hypotheses proposed by BETA-1 must admit a single candidate variational description.
-
-A useful organizing action is:
-
-```math
-S=S_{\mathrm{gravity}}+S_{XY}+S_{\mathrm{source}}+S_{\mathrm{neutral}}+S_{\mathrm{support}}
-```
-
-The candidate physical metric remains:
-
-```math
-\widetilde g_{\mu\nu}=e^{2\sigma(P)}g_{\mu\nu}
-```
-
-```math
-\sigma(P)=\alpha P-\beta P^2
-```
-
-```math
-P=\frac12F_{X\mu\nu}({}^{\star}F_Y)^{\mu\nu}
-```
-
-The Hodge dual, metric signature, Levi-Civita normalization and Lorentzian signs must be fixed before varying.
-
-For a universal-metric hypothesis, each relevant matter action must use the claimed physical metric consistently. The source matter must not be counted twice or selectively omitted from the metric variation merely to protect a desired result.
-
-Every new artificial interaction must be classified as:
-
-- An exact consequence of the currently proposed action.
-- An effective operator with a specified new coupling and symmetry.
-- A hypothetical auxiliary or constitutive response not yet physically sourced.
-- A deliberately impossible counterexample used to establish a bound.
-
-Only the first two categories may be advanced as physical-model hypotheses, and even those require full independent verification.
-
-## 7. Exact induction and perturbative scaling
-
-The PH15 first-order static channel requires:
-
-```math
-\nabla\lambda_0\times\mathbf E_X\neq0
-```
-
-with:
-
-```math
-\lambda_0=-2\alpha(K+2U_{\mathrm{total}})
-```
-
-BETA-1 must determine which on-shell source variations can sustain this misalignment and which additional physical interactions alter it.
-
-An important analytic preflight concerns the weak-coupling hierarchy.
-
-If the source is regular and the portal coupling is perturbatively small, with other parameters fixed, then the studied induction mechanism generically has the scaling:
-
-```math
-F_Y=O(\alpha)
-```
-
-```math
-P=O(\alpha)
-```
-
-```math
-\sigma(P)=O(\alpha^2)
-```
-
-The induced Y field may therefore appear at first order while the neutral physical-metric response only appears at second order.
-
-This scaling is conditional on a regular perturbative expansion and fixed finite `beta`; it is not a universal upper bound.
-
-**BETA-1 must test whether achieving a useful metric effect requires couplings large enough to invalidate the perturbation expansion or destabilize the source.**
-
-This question takes priority over further field-energy optimization.
-
-## 8. Artificial inverse modeling as a constrained problem
-
-For a proposed target source current `J_target`, define its distance from actual physically allowable currents:
-
-```math
-\mathcal R_J=
-\inf_{\Psi\in\mathcal A}
-\frac{\|J[\Psi]-J_{\mathrm{target}}\|_W}
-{\max(\|J_{\mathrm{target}}\|_W,J_{\mathrm{ref}})}
-```
-
-Here:
-
-- `Psi` represents the complete candidate source matter and gauge configuration.
-- `A` is the space of fields satisfying the required constraints and declared physical assumptions.
-- `W` is a positive, explicitly documented norm or weighting operator.
-- `J_ref` is a fixed normalization preventing singular comparisons.
-
-This is a **realizability diagnostic**, not a source optimization objective.
-
-If an exact current identity proves the target impossible, stop without numerical minimization.
-
-If an admissible lower bound for the mismatch is positive, report the impossibility certificate.
-
-If the mismatch becomes small numerically, the current is only *approximately representable*. Full source equations, energy, supports, and independent convergence must still be established.
-
-## 9. Reciprocity as a hard constraint
-
-Artificial modeling may prescribe fields for a diagnostic, but must never promote those fields as physical without allowing the action-required reciprocal response.
-
-Required calculations include:
-
-```math
-\frac{\delta S}{\delta A_X}=0
-```
-
-```math
-\frac{\delta S}{\delta A_Y}=0
-```
-
-```math
-\frac{\delta S}{\delta\psi_i}=0
-```
-
-```math
-\frac{\delta S}{\delta g_{\mu\nu}}=0
-```
-
-and the corresponding matter/support equations appropriate to the chosen hypothesis.
-
-The response must satisfy the full off-shell identities implied by gauge and diffeomorphism invariance.
-
-An artificial source-response map may be useful even before a physical completion exists, but its reciprocity and conservation failures must be preserved explicitly rather than hidden by external source constraints.
-
----
-
-# PART IV — BETA-1 EXPERIMENTAL LANES
-
-## 10. BETA-0 — Provenance, theorem and gap-registration gate
-
-**Priority: IMMEDIATE**
-
-### Question
-
-What exactly is missing between PH15-P10 and a complete sourced gravitational interaction?
-
-### Tasks
-
-1. Freeze the existing PH15-P10 result as the current source baseline.
-2. Preserve P7's negative coupled amplitude–phase result.
-3. Preserve M5V as the frozen artificial reference.
-4. Identify the action assumptions required to compare PH15-P10 with M5V.
-5. Register all existing field, source, material, support, exterior, kinetic, and energy constraints.
-6. Derive the exact required variations before any new optimization.
-7. Identify the smallest set of unknown physical operators or response functions.
-
-### Required artifact
-
-`BETA0_MISSING_PHYSICS_ATLAS`
-
-Every missing property must have:
-
-- An exact mathematical definition.
-- The current supporting or contradictory evidence.
-- The first theorem or numerical experiment capable of resolving it.
-- A named physical research gate it could unlock.
-- A falsifier and termination condition.
-
-### Promotion
-
-`BETA0_PASS` means the gaps are defined and the tests are well posed.
-
-It does not mean the proposed physical model is complete.
-
-## 11. BETA-1A — Source-realizability inverse theorem
-
-**Priority: CRITICAL**
-
-### Scientific question
-
-Can a finite, neutral, conserved, stable physical source produce the field structure actually needed by the proposed universal-metric mechanism?
-
-### Approach
-
-Use the self-consistent PH15-P10 source and selected M5V field profiles as **separate mathematical references**.
-
-Derive the current map from candidate matter fields:
-
-```math
-J_X^\mu=-\frac{1}{\sqrt{-g}}\frac{\delta S_{\mathrm{source}}}{\delta A_{X\mu}}
-```
-
-with the normalization and sign checked against the selected action.
-
-Investigate whether the required currents can be generated by:
-
-- Oppositely charged scalar fields.
-- Finite counterflowing condensates.
-- Gauge-invariant interacting scalar composites.
-- Finite supported current structures with physical return paths.
-- Genuinely new source operators that survive the relevant protection theorems.
-
-Do not reopen previously falsified minimal Dirac, Pauli, ordinary electromagnetic, or unsupported magnetic-source models without identifying a new assumption that invalidates the original failure.
-
-### Required calculations
-
-- Local current conservation and global neutrality.
-- Individual Noether charge preservation.
-- Source-support stress and finite tails.
-- Electric and magnetic multipole realizability.
-- Real source and field energy.
-- Lorentzian field and matter kinetic health.
-- Radial, separation, phase, and nonaxisymmetric modes.
-- Admissible parameter and EFT ranges.
-- Exact target-current mismatch or a dual impossibility certificate.
-
-### Key falsifier
-
-If the required target current cannot be generated by any source in the tested healthy matter class, classify that family as `STRUCTURALLY_CLOSED`.
-
-Do not retain the desired field by reintroducing it as a prescribed external current.
-
-### Physical transfer
-
-A survivor proposes a concrete extension to PH15/PH16 source equations, not a claim of physical source existence.
-
-## 12. BETA-1B — Fully reciprocal two-carrier mechanism discovery
-
-**Priority: CRITICAL — CO-PRIMARY WITH 1A**
-
-### Scientific question
-
-Can the X/Y/physical-metric interaction remain useful when every field and source required by the action is allowed to respond?
-
-### Approach
-
-Construct a hierarchy of increasingly complete models:
-
-1. Frozen physical-source background with first-order Y induction.
-2. Source + X/Y fields with reciprocal electromagnetic loading.
-3. Source + X/Y + neutral physical-metric matter.
-4. Source + X/Y + physical metric + material stress.
-5. Full gravitational dynamics and source/support reaction, if the preceding gates survive.
-
-At each level, explicitly identify which equations are solved and which are frozen.
-
-### Required mathematical tests
-
-- Perturbative continuation in `alpha` and `beta`.
-- Exact Lorentzian constitutive signs.
-- Corrected R3X1 static limits.
-- Both U(1) Gauss and Bianchi identities.
-- Source-current Ward identities.
-- Full canonical kinetic matrix and its Schur complements.
-- Gradient and tachyonic modes.
-- Hyperbolic principal characteristics.
-- Exterior boundary flux.
-- Source-shape changes under backreaction.
-- Complete reciprocal energy and stress exchange.
-
-### Highest-value experiment
-
-Determine the lowest coupling strength at which the desired neutral-metric response becomes significant, and test whether the healthy perturbative branch survives that coupling.
-
-This is a **viability threshold**, not an invitation to maximize the acceleration.
-
-### Falsifiers
-
-- Joint kinetic ghost or negative physical eigenmode.
-- Loss of the stationary source.
-- Perturbative branch termination or singularity.
-- Required coupling outside the EFT's validity.
-- Destruction of the induced Y channel.
-- Reciprocal response cancelling the desired effect.
-- Failure to reproduce the corrected historical static limits without genuinely changed physics.
-
-### Physical transfer
-
-Surviving operators and constraints are PH16 hypotheses.
-
-## 13. BETA-1C — Universal-metric neutral-matter response
-
-**Priority: CRITICAL**
-
-### Scientific question
-
-Can ordinary neutral matter generate a physical response resembling the favorable ALPHA-1 C2 interface, without imposing an arbitrary density-dependent coefficient or transition width?
-
-### Approach
-
-Begin with a fully specified toy matter action, not an independently chosen constitutive profile.
-
-Investigate a hierarchy of neutral-matter systems:
-
-1. Conserved relativistic fluid.
-2. Compressible neutral elastic medium.
-3. Stable causal scalar/elastic lattice analogue.
-4. Finite neutral target with a resolved material surface.
-5. Supported Earth-like layered medium with independent interface physics.
-
-Each model is artificial until its physical properties and parameters are justified.
-
-Derive its linearized response from the action and equations of motion.
-
-### Required tests
-
-- Passive matter response: nonnegative net absorbed energy for admissible drives.
-- Causality and retarded response.
-- Stable material eigenmodes.
-- Reciprocity of the derived susceptibility.
-- Real interface width and traction.
-- Bulk and surface terms from one action.
-- Source-off and homogeneous-matter controls.
-- The historical R3A loading-suppression limit.
-- R3C and B0–B16 destructive-loading controls.
-- Material parameter sensitivity without tuning to the desired force.
-
-### Critical test
-
-Ask whether the favorable M5V C2-type response lies inside the class of causal, passive, stable, universally coupled matter responses.
-
-If not, **identify the precise property that is impossible**, rather than inventing a more favorable artificial interface.
-
-### Physical transfer
-
-A survivor supplies a concrete candidate matter action or constitutive theorem for PH16/PH17.
-
-## 14. BETA-1D — Exterior interaction and whole-craft reaction
-
-**Priority: CRITICAL**
-
-### Scientific question
-
-Can a fully conserved, universally coupled system produce an Earth-down/craft-up interaction that acts externally on the entire onboard apparatus?
-
-### Approach
-
-Start with simple analytical geometries, then progress to finite-source numerical models.
-
-Compare:
-
-- Earth-present versus Earth-absent.
-- Source-on versus source-off.
-- Complete craft translation versus source-only translation.
-- Earth translation versus craft translation.
-- Complete action derivative versus integrated stress and momentum flux.
-- Vacuum versus atmosphere/contact boundaries.
-
-The force observable must be the variation of the physical action or corresponding conserved momentum flux, not merely an energy gradient of a prescribed reduced action.
-
-### Required theorem
-
-Establish how global translation symmetry, boundary conditions, gravity, source currents, Earth matter, and momentum flux constrain the measured Earth and craft forces.
-
-A common-coordinate residual approaching zero in a prescribed model is **not automatically a proof of action–reaction or external craft force**.
-
-### Hard negative controls
-
-- Isolated closed craft in vacuum: no sustained net center-of-mass thrust from internal rearrangement.
-- Source switched off: no novel source-dependent force.
-- No Earth or other external participant: no invented Earth reaction.
-- No atmosphere: eliminate aerodynamic and pressure thrust.
-- No radiation/exhaust: eliminate hidden propulsive momentum transfer.
-- Complete hull/source/support inclusion: internal forces must cancel appropriately.
-
-### Physical transfer
-
-Only a derived external force with an independently closed momentum ledger can be offered to PH17.
-
-## 15. BETA-1E — Causal finite impulse and B11-M6 bridge
-
-**Priority: HIGH — PARALLEL THEOREM TRACK**
-
-### Scientific question
-
-Can a source-driven, healthy and causal operating cycle produce useful net external impulse after recoil, negative phases, radiation, losses and restoration are included?
-
-### Required observables
-
-```math
-I_+=\int\max(F_z(t),0)\,dt
-```
-
-```math
-I_-=\int\min(F_z(t),0)\,dt
-```
-
-```math
-I_{\mathrm{net}}=I_++I_-
-```
-
-Do not use peak force or peak acceleration as a substitute for signed net impulse.
-
-### Required experiments
-
-- Causal retarded propagator and physical source-current evolution.
-- Finite source turn-on and turn-off.
-- Exact static limit and historical loading controls.
-- Field momentum and source recoil.
-- Radiative and dissipative energy.
-- A complete positive/negative impulse ledger.
-- Repeated cycles using the actual previous end state.
-- No artificial field reset.
-- No unsupported imposed phase lag.
-- Earth reaction and whole-craft momentum transfer.
-
-An artificial dynamic model may establish bounds or a no-go theorem before a physical pulse is attempted.
-
-It cannot certify spacecraft propulsion without a physically sourced external interaction.
-
-### Physical transfer
-
-The results become necessary conditions or candidate mechanisms for B11-M6, not replacements for its full physical execution.
-
-## 16. BETA-1F — Source energetics, SI scaling and UV viability
-
-**Priority: HIGH**
-
-### Scientific question
-
-Could any discovered mechanism satisfy the actual spacecraft mission without violating complete-energy, source-realizability or empirical constraints?
-
-### Required energy accounting
-
-At minimum:
-
-```math
-E_{\mathrm{complete}}=
-E_{\mathrm{source}}+
-E_X+
-E_Y+
-E_{\mathrm{support}}+
-E_{\mathrm{loading}}+
-E_{\mathrm{drive}}+
-E_{\mathrm{losses}}+
-E_{\mathrm{backreaction}}+
-E_{\mathrm{restoration}}+
-E_{\mathrm{other\ required}}
-```
-
-Use consistent reference states and count energy terms according to their actual definitions. Do not double-count shared energies, and do not omit mandatory rest, fabrication, confinement or off-state terms where they are part of the stated protocol.
-
-Distinguish stored energy, source rest energy, supplied work, recoverable work, dissipation, and external gravitational potential-energy changes.
-
-The full engineering acceptance target remains:
-
-**Strictly less than 10,000,000 J of complete conservative operating energy.**
-
-Exactly 10 MJ fails.
-
-### Required scale checks
-
-- Physical mass and length parameters.
-- Canonical field normalization.
-- Source particle masses and charges.
-- Finite source size and density.
-- Real source support.
-- EFT cutoff and loop corrections.
-- Gauge anomaly and naturalness constraints.
-- Observational fifth-force and equivalence-principle constraints.
-- Other appropriate laboratory, astrophysical and cosmological limits.
-
-### Physical benchmarks
-
-Retain independently:
-
-- A finite 1 kg neutral torus.
-- At least 9.80665 m/s² outward acceleration throughout its sampled volume.
-- At least 1 m of true source-free stand-off.
-- Earth-directed interaction and whole-spacecraft lift, separately derived.
-
-If an unavoidable complete energy lower bound already exceeds the strict limit, terminate that physical realization rather than optimizing a small field term.
-
-## 17. BETA-1G — Introspective mechanism discovery
-
-**Priority: CONDITIONAL**
-
-### Purpose
-
-Determine which field and stress geometries are essential to a mechanism surviving BETA-1A through BETA-1F.
-
-Do not revive large geometric optimization before source, reciprocity and health restrictions are understood.
-
-Use the Introspective framework to identify:
-
-- Spatial regions responsible for outward versus opposing influence.
-- Cancellation effects.
-- Required electric/magnetic/source-current correlations.
-- Geometric regions that cause instability.
-- Stress/support penalties.
-- Whether a favorable pattern can be represented by a smaller number of physical source degrees of freedom.
-- Whether topology is essential for stability or merely an expensive scaffold.
-
-Retain the historical findings:
-
-`RAW_GE1000X_SIGNAL=PRESENT`
-
-`CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`
-
-No artificial influence-concentration result becomes a physical source merely through convergence of its prescribed fields.
-
-### Promotion
-
-A successful reduced mechanism must be connected to a concrete action-derived source and response.
-
----
-
-# PART V — EXECUTION STRATEGY
-
-## 18. The aggressive theorem-first schedule
-
-BETA-1 will use parallel **mathematical investigations**, but expensive simulations remain individually gated.
-
-### Wave 0 — Establish the missing-physics map
-
-**BETA-0**
-
-Derive exact portal and source variations, compare P10 and M5V, and register every physical gap.
-
-No broad parameter search.
-
-### Wave 1 — Attack the two foundational obstacles
-
-**BETA-1A + BETA-1B**
-
-In parallel, test source-current realizability and fully reciprocal two-carrier response.
-
-The highest-value early result is either:
-
-- A healthy source/operator combination that the physical program can test; or
-- A theorem proving a desired artificial configuration cannot be generated by the tested physical source class.
-
-### Wave 2 — Attack Earth interaction
-
-**BETA-1C + BETA-1D**
-
-Derive real material response and independently test the external Earth–craft force structure.
-
-Do not prescribe an Earth susceptibility merely because it produces a favorable coordinate derivative.
-
-### Wave 3 — Close dynamics and costs
-
-**BETA-1E + BETA-1F**
-
-Derive impulse/cycle requirements and complete-energy bounds.
-
-### Wave 4 — Mechanism reduction
-
-**BETA-1G**
-
-Only after a physically admissible survivor exists, use Introspective methods to simplify the required geometry, source and materials.
-
-## 19. The first three BETA-1 experiments
-
-### BETA1-00 — Exact source-to-metric obstruction atlas
-
-**First recommended experiment.**
-
-Calculate, from the candidate action and PH15-P10 background:
-
-1. The exact leading Y-source variation.
-2. The reciprocal correction order to X and source matter.
-3. The leading neutral-metric response order.
-4. The full constrained kinetic principal structure.
-5. Necessary conditions for nonzero source-free exterior influence.
-6. The charge, parity and boundary conditions that could suppress the mechanism.
-7. The minimal genuinely new interaction required if the existing action fails.
-
-Use P10 as an input reference only.
-
-**Pass:** a reproducible theorem/obstruction atlas with no unexamined field variation.
-
-**Fail:** inconsistent signs, gauge identities or unaccounted stress terms.
-
-### BETA1-01 — Source-current representability versus ALPHA-1
-
-Compare the physical PH15 source-current map to selected frozen ALPHA-1 target currents.
-
-Do not search for an improved M5V force.
-
-Instead determine:
-
-- Which target-current components are physically representable.
-- Which components require new microscopic source physics.
-- Which source-energy or stress requirements become prohibitive.
-- Whether the represented portions retain an exterior field.
-- Which ALPHA-1 constitutive assumptions have no physical counterpart.
-
-**Pass:** a constrained representability witness or an exact impossibility certificate.
-
-**Fail:** an optimized artificial current with no on-shell source.
-
-### BETA1-02 — Passive reciprocal matter versus C2
-
-Ask whether the M5V C2 material response can arise as the low-energy limit of a healthy neutral-matter action.
-
-Start with a simple finite elastic or scalar material analogue.
-
-Derive the response, boundary conditions and stress, then compare to C2.
-
-**Pass:** a physically interpretable response family satisfying causality, passivity and reciprocity, with an independently derived interface.
-
-**Fail:** any response that requires an arbitrary sign, interface width, uncompensated work, ghost, or externally imposed material source.
-
-## 20. Numerical authorization policy
-
-Use four fidelity levels.
-
-| Level | Permitted work | Requirement before advancing |
+| Branch / result | Established scoped result | What remains explicitly unestablished |
 |---|---|---|
-| L0 | Symbolic action variation and theorem falsification | Exact identities and assumptions |
-| L1 | Finite-dimensional source/response inverse problem | Constrained realizability, reciprocity and signs |
-| L2 | Reduced continuum PDE, stability and exterior solve | Healthy source and correct boundary conditions |
-| L3 | Fully reciprocal finite physical system | Complete field/source/material/metric action and reaction ledger |
+| **006D** | Conservative finite, locally conserved, positive-energy linearized-GR source; documented NEC/WEC/DEC pass; outward near-field behavior; positive far active mass; `C=23.591586299249` | Prohibitive ~`1/G` total source-energy scaling; no practical <10 MJ craft |
+| **ALPHA-1 / M5V**, frozen November 14 | Reduced prescribed-action derivative ledger, 50/50 cases, 1,803 regression tests; at `h=.04 m`, Earth `−11.395675919 J/m`, craft `+11.397230073 J/m`, translation residual `+0.001554154 J/m`, action `−7.975232332 J` | Real currents, genuine exterior C2 response, source support, whole-craft force and independent gravity not proved; preserve M5N 81.458% artifact and M5V SHA discrepancy |
+| **BETA1-00** | Exact source-to-metric obstruction atlas | Full Lorentzian kinetics and Earth force open |
+| **BETA1-01** | Restricted physical-current versus ALPHA-current representability tests | ALPHA target not shown to be a fully sourced physical current |
+| **BETA1-1B0 / 1B1** | Scoped negative magnetic/gradient modes in tested beta=100, alpha=0 settings | Not a universal no-go for all nonzero-alpha or new-physics models |
+| **BETA1-02** | Action-sourced passive material-interface toy witness | Not the exact real M5V C2 material or physical Earth |
+| **BETA1-03** | Nonzero-alpha finite-dimensional reciprocal source/X/Y action witness | Full on-shell spacetime source, gravity, metric and material open |
+| **BETA1-04**, last artificial checkpoint | Exact external-force and momentum ledger within a 1D periodic scalar toy model | Prescribed opposing scalar charges; not physical universal gravity, source realization or 3D spacecraft |
+| **PH15-P10** | Discrete free-space neutral charged-scalar/X source; first-order induced Y without backreaction; 2,286 regression tests | Joint Y/source/metric and continuum physical exterior not solved |
+| **PH16-01 to -03** | Hydrostatic matter, Y response, conserved Noether-number reclosure in reduced sectors | Source F and X initially frozen; beta=60 principal warning; full gravity missing |
+| **PH16-04R2** | Joint **discrete Routhian** F/X/Y stationary closure at beta=40 with both Noether numbers and neutral-fluid number, three meshes, 60/60 focused, 19/19 scoped gates, 12/12 symbolic checks, **2,943/2,943** full regression | Full constrained Hessian/dynamics, continuum/exterior consistency, metric/Earth reaction, realistic source and complete SI energy missing |
 
-Do not promote a Level 1 artificial inverse solution to Level 3 because it numerically resembles a physical answer.
+**PH16-04R2 numerical baseline (Y-preconditioned solutions):**
 
-Expensive simulations require a pre-registered scientific question and a result that would distinguish at least two competing hypotheses.
+| Case | Joint action gradient L2 | Frozen magnetic margin | Source Noether error maximum |
+|---|---:|---:|---:|
+| `12_L12` | `6.80575961397518e−08` | `+0.2503501372063712` | ~`1.14e−13` |
+| `18_L12` | `6.53298485747981e−08` | `+0.26059737608654576` | ~`1.14e−13` |
+| `12_L16` | `9.284802742858782e−08` | `+0.2581451900658178` | ~`5.68e−14` |
 
-## 21. Mandatory cross-model comparisons
+**Critical caveats:** (a) 18/L12's direct weak seed **did not** converge (`0.018773933...` gradient residual, 80 iterations); Y-preconditioning plus R2 bounded continuation did; uniqueness and basin independence are not certified. (b) The `12_L12→18_L12` refinement and `12_L12→12_L16` box change are **not** a continuum/exterior convergence proof. (c) The frozen magnetic margins are not a full constrained Lorentzian health certificate. (d) The canonical Routhian values are **not joules**.
 
-Every major BETA-1 candidate must be compared against the relevant protected controls:
+**Authoritative PH16-04R2 result:** `results/data/ph16_04_20261118T164454314313Z.json` with SHA-256 `ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`. R2 source SHA-256: `b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0`. Historical R1 numerical failures and R2 continuation stages are **not to be erased**.
 
-| Reference | Required comparison |
-|---|---|
-| 006D | Conservative finite stress-energy and true stand-off |
-| PH14 | Spherical source, exact zero induced Y |
-| PH15-P7 | Failed mixed amplitude–phase source directions |
-| PH15-P8/P9/P10 | Neutral nonwinding dipole, exterior and mode constraints |
-| A12C/R3B | Prescribed field capacity, clearly separated from source energy |
-| R3A | Severe ordinary-matter bulk loading |
-| R3C/R3X1/B0–B16 | Reciprocal loading, signs and interface failures |
-| B11-M6 | Missing causal signed impulse and repeated cycles |
-| M5V | Frozen artificial exterior derivative, translation and boundary dependence |
-| Introspective | Influence decomposition and non-certified high-leverage teachers |
+**Protected prescribed capacities, not sources:** A12C `2.6568591420597114 J`; R3B `1.5429162116460216 J`; B7 `1.5473042949759672 J`; B1 `0.275–0.301 MJ` field-only. Preserve R3A's `1.84e15` ordinary-material suppression, R3C/R3X1 sign and loading corrections, B0–B16 failures, PH15-P7 winding instability, PH14 spherical zero-Y channel, and the AGMINER obstruction catalog. Do **not** spend time reducing field capacities already below 100 J.
 
-An improvement over one reference cannot erase failure against another.
+## 3. Non-negotiable observable: whole-craft **gravitational** repulsion
+
+The benchmark is **not** a point-force plot or one favorable grid cell. A promoted result must ultimately have:
+
+1. A **finite onboard** source, supports, hull, fields and power system; real Earth is an **external participant**.
+2. A **1 kg finite neutral torus** receiving at least `9.80665 m/s²` **outward gravitational/metric acceleration throughout its volume** at **at least 1 m true source-free stand-off**. Measure the minimum separation from all source/support matter and bound surfaces, not merely between centers.
+3. An explicitly derived **Earth-down / total-craft-up** interaction, separately establishing whole-craft upward acceleration or weight reduction, while distinguishing Earth gravity, any fifth force, field recoil, gravitational radiation, air and exhaust.
+4. One independently varied action, exact conserved source currents and stress-energy, gauge/Ward/Noether/Bianchi identities, healthy physical modes, physical boundaries and source/neutral/support equations.
+5. Complete conservative operating energy **strictly less than `10,000,000 J`**, including required source, fields, supports, confinement, power, switching, backreaction, restoration, dissipation, quantum/UV and off-state costs, with non-double-counted reference states.
+6. A realizable SI-normalized mechanism consistent with laboratory/astrophysical gravity, equivalence-principle and fifth-force bounds and quantum/effective-theory validity.
+
+A source-induced **universal physical metric** must be varied and shown to affect neutral matter. A force caused by contact, ordinary electromagnetism, radiation, expelled mass, a driven external anchor or a manually supplied Earth susceptibility does not count as independently demonstrated gravitational lift. A hypothetical fifth force should be identified as such rather than relabeled GR repulsion.
 
 ---
 
-# PART VI — SCIENTIFIC VALIDATION AND SOURCE CONTROL
+# PART II — MAXIMUM INFORMATION PER RUN: THE GAMMA STRATEGY
 
-## 22. Model classifications
+## 4. One central hypothesis, multiple cheap falsifiers
 
-Every experiment receives exactly one primary classification:
+The biggest uncertainty is **not** the precision of the existing lattice Y field. It is the missing **source → stress-energy/geometry → neutral matter → Earth/craft force** bridge. GAMMA focuses on this uncertain link before any large PDE, geometry scan or low-field-energy tuning.
 
-`ARTIFICIAL_PRESCRIBED_ONLY`
+Every prospective numerical run must have a **pre-registered decision question**, a finite hypothesis set, a low-cost theorem gate, independent verification, and an explicit result that **changes which physics will be investigated next**.
 
-`ARTIFICIAL_SAME_ACTION_CONSISTENT`
+**A run is authorized only if it can discriminate at least two meaningful possibilities** (for example, a genuine metric response versus a mere coordinate derivative; a healthy scalar-mediated sign versus a ghost; a finite-source exterior field versus a boundary artifact). Repeating the same result at more parameters without resolving a new obligation is not an acceptable GAMMA run.
 
-`NECESSARY_CONDITION_DERIVED`
+**Efficiency rules, in priority order:**
 
-`IMPOSSIBILITY_CERTIFICATE`
+- **Prove or disprove first.** Exact tensor identities, sign theorems, multipole restrictions, stress-energy and dimensional lower bounds should eliminate a candidate before nonlinear PDEs.
+- **Reuse immutable evidence.** Treat M5V/BETA and PH16-04R2 as data/negative controls, not as new development branches. Never repeat their completed experiments merely for a new branch number.
+- **Discriminate, do not maximize.** Test one minimal new coupling/operator at a time against the unchanged physical baseline and explicit alternatives. No broad hyperparameter or artificial-acceleration optimization.
+- **Use a cascade.** Exact algebra → reduced analytic Green function/source stress → only then constrained finite numerics → only then 3D, retarded cycles and engineering.
+- **Bound cost.** A stalled numerical run must write a **RED numerical obstruction**, not receive silently increased iterations, reset fields or relaxed acceptance criteria. Bounded continuation may be studied separately with immutable stages, as PH16-04R2 demonstrated.
+- **Bundle cheap tests.** A single theorem atlas may examine several physically different *mechanism classes* without several heavy simulations. One costly PDE at most per well-motivated survivor.
+- **Avoid false certificates.** A test count, a frozen principal margin, an action derivative, a toy force ledger, a parameter fitted to the desired sign or a small canonical field cost does not demonstrate real antigravity.
+- **Reserve independent time.** One separate derivation of the sign, source/response and force observable is more valuable than another near-identical solver refinement.
 
-`PHYSICAL_HYPOTHESIS_TRANSFERABLE`
+**Run-budget target until Thanksgiving:** **one mandatory high-information GAMMA1-00 theorem run; at most two additional main research runs (GAMMA1-01 and GAMMA1-02) if their predecessor produces a genuinely viable survivor; at most one separately scoped independent verification / physical transfer pass.** This is an *authorization ceiling*, not a requirement to use all the runs. The optimum may be **one run** proving the present mechanism cannot meet a hard gate. No further runs should be authorized merely because calendar time remains.
 
-`PHYSICAL_MODEL_INDEPENDENTLY_VERIFIED`
+## 5. Explicit decision graph
 
-`FAILED_OR_INCOMPLETE`
+```text
+START: freeze PH16-04R2 + BETA1-04 + 006D + failed-family atlas
+    |
+    v
+GAMMA1-00: same-action stress/metric/sign + obstruction + SI bound atlas
+    |
+    +-- no viable physical source-to-metric family --> RED_SCOPED_OBSTRUCTION
+    |                                               stop expensive calculations
+    |
+    +-- viable derivable bridge candidate --> GAMMA1-01
+                                              source/metric reciprocal preflight
+                                                    |
+                                                    +-- ghost/no-go/source-off
+                                                    |   failure --> close class
+                                                    |
+                                                    +-- physical candidate --> GAMMA1-02
+                                                                               external force + energy
+                                                                                    |
+                                                                                    +-- no true exterior,
+                                                                                    |   whole-craft reaction,
+                                                                                    |   or source/cost --> stop
+                                                                                    |
+                                                                                    +-- survives --> GAMMA1-03
+                                                                                                     independent
+                                                                                                     derivation / PH16
+                                                                                                     transfer candidate
+```
 
-The last two categories require independent evidence outside the artificial result.
+If an intermediate result is *numerically unresolved*, label it **NUMERICAL_INCONCLUSIVE**, not physics impossible. If it is *only an idealized counterexample*, retain it as an artificial theorem, not evidence of a source.
 
-A technically successful numerical experiment with unsatisfied physical requirements remains `ARTIFICIAL_SAME_ACTION_CONSISTENT` or narrower.
+## 6. Ranking candidates by expected scientific leverage, not speculative probability
 
-## 23. Falsification rules
+Each candidate must have a one-page **Mechanism Record**:
 
-Immediately stop a tested source/operator family when any of the following applies:
+`action operator | sector | physical degree of freedom | predicted sign | weak-field limit | on-shell source | source/support | Ward/Bianchi | kinetic constraints | physical exterior | neutral metric | Earth/whole-craft observable | minimum SI scale | falsifier | cheapest decisive test | historical counterexamples | remaining risk | transfer destination`.
 
-1. An exact symmetry or integrability identity removes the required interaction.
-2. The desired field needs a nonconserved prescribed current.
-3. A full physical kinetic constraint produces a ghost or unacceptable instability.
-4. The required matter response is noncausal, active without accounted power, or incompatible with its action.
-5. The apparent external force disappears when all onboard components are included.
-6. A favorable signal depends on an unphysical boundary or chosen interface width.
-7. A purported impulse relies on arbitrary reset, hidden reaction, or neglected negative phases.
-8. The EFT cannot support the coupling at the required field strength.
-9. A conservative energy lower bound rules out the declared operating-energy target.
+Qualitatively prioritize:
 
-These are scoped falsifiers, not universal no-go theorems for every possible theory.
+1. **Discriminating power:** would the result separate a genuine physical bridge from a known artifact/no-go?
+2. **Physical leverage:** could this resolve the Einstein/neutral/Earth-reaction obligation, not just change an already verified Y current?
+3. **Cost of falsification:** can a sign, stress, linear exchange or energy bound kill it without a PDE?
+4. **Independent verifiability:** can the key statement be checked via a second derivation/observable?
+5. **Novelty against failure memory:** does it change an assumption behind AGMINER, BETA, PH14/P7 or R3 failures?
 
-Reopen only with explicitly new physics that changes the failed assumptions.
+Do not assign invented probabilities or aggregate meaningless numerical scores. The result should produce a **ranked, reasoned decision table**, with at most **two** live candidates after GAMMA1-00 and at most **one** expensive GAMMA1-01 physics-family solve at a time.
 
-## 24. Independent validation
+---
 
-Important experiments require independent checks appropriate to the claimed result:
+# PART III — ONE ACTION, PHYSICAL FORCE AND OPERATOR FAMILIES
 
-- Symbolic Euler–Lagrange derivation.
-- Separate implementation of the same physical observable.
-- Dimensional and Lorentzian sign analysis.
-- Exact gauge and Noether Ward tests.
-- Stress-energy exchange and conservation.
-- Source-free and coupling-off controls.
-- Direct finite differences versus analytic variation.
-- Independent constrained eigenvalue calculation.
-- Mesh and domain convergence.
-- Physical exterior matching.
-- Energy decomposition and closure.
-- Matched conserved charges and states.
-- Retarded causality and radiation where dynamics are claimed.
+## 7. Shared action conventions and mandatory variations
 
-Passing regression tests is necessary for software reliability but insufficient for physical certification.
+A reference, *hypothetical* model is
 
-## 25. Provenance and immutable results
+```math
+S=\int d^4x\sqrt{-g}\Big[\frac{M_{\rm Pl}^2}{2}R
+-\frac14F_X^{\mu\nu}F^X_{\mu\nu}
+-\frac14F_Y^{\mu\nu}F^Y_{\mu\nu}
++\mathcal L_{\rm new}\Big]
++S_{\rm source}[\psi,A_X,\widetilde g]
++S_{\rm neutral}[\chi,\widetilde g]
++S_{\rm support}[\Xi,\widetilde g]
++S_{\rm Earth}[\Psi_E,\widetilde g]
+```
 
-Each experiment must write a new immutable JSON artifact containing at least:
+where the **physical neutral-matter metric** is proposed as
+
+```math
+\widetilde g_{\mu\nu}=e^{2\sigma(P)}g_{\mu\nu},\qquad
+\sigma(P)=\alpha P-\beta P^2,\qquad
+P=\tfrac12 F_{X\mu\nu}({}^{\star}F_Y)^{\mu\nu}
+```
+
+This is an organizing hypothesis, **not a verified complete theory**. Lock signature, epsilon/Hodge normalization, scalar dimensions, metric dependence of `P`, gauge-fixing and boundary terms *before* variation. The total action must not double-count matter or omit supports/Earth when their stress affects a claim. New couplings in `L_new` must be explicit, finite in number and dimensionally normalized.
+
+From **the same action** derive, with all terms:
+
+- The source matter EOM and conserved Noether charges; the full two-U(1) source currents and both Gauss/Bianchi/Ward identities.
+- The metric variation, including implicit `P`/Hodge dependence; Einstein or modified-gravity equations and correct gravitational boundary terms.
+- Neutral Earth and payload equations with **universal** `\tilde g` coupling where claimed; passive material response, surfaces, interface traction and supports.
+- The **off-shell** diffeomorphism/Noether identity; its **on-shell** stress-energy exchange and finite-boundary flux identity. An off-shell residual cannot be silently equated to a physical force.
+- The *constrained* Lorentzian principal symbol and Hamiltonian, separating physical propagating modes from gauge constraints and nonphysical coordinate modes; causal hyperbolicity, positive-energy tests and characteristic cone.
+- A retarded/exterior solution with correct asymptotics and a well-defined momentum/force observable in the gravitational setting used.
+
+**Do not assume** that the flat-space global force-pair formula holds unchanged in arbitrary curved spacetime. Specify the asymptotic/stationary symmetries or quasilocal momentum definition and include gravitational stress/boundary contributions appropriately.
+
+**Crucial distinction:** a favorable derivative of an *artificial reduced interaction* is **not** the force on the entire craft. A conformal metric force on neutral matter, an ordinary nonuniversal fifth force, a laboratory frame coordinate effect and Einstein-geometric repulsion must be explicitly differentiated. Only a physical, universally coupled and independently verified interaction may be described as a potential gravitational bridge.
+
+## 8. The four mechanism families to test in one compact atlas
+
+### M0 — Existing PH16 conformal portal (mandatory baseline; no new operator)
+
+Vary the full Einstein + X/Y + charged-source + universal neutral/solid/Earth action, not the frozen finite-lattice Routhian alone. Derive whether its nonzero on-shell `P` produces a genuine outward neutral physical-metric response, its sign under Earth presence, and what source/support energy or stress must accompany it.
+
+**Cheapest decisive tests:** exact static weak-field source-to-metric and neutral test-body response; conformal stress terms; coupling-off and source-off; 006D-style active-stress decomposition; SI dimensional normalization; comparison with frozen `beta=40` local modes and `beta=60` warning.
+
+**Terminate this family** if a robust source-to-metric sign theorem, impossibility of physical source, or conservative energy bound rules out the mission under its precise assumptions. If algebra leaves a viable path, transfer the exact missing equations—not the artificial desired force—to GAMMA1-01.
+
+### M1 — Finite positive-energy anisotropic gravitational stress (006D-aware)
+
+Use the strongest conservative 006D lesson: finite positive local energy does **not** by itself exclude a repulsive near-field component in a structured GR stress distribution. Identify which anisotropy, pressure and support configuration produces the sign, and whether any physically sourced form can avoid 006D's catastrophic approximately `1/G` energy scaling.
+
+**Cheapest decisive test:** weak-field tensor Green function / stress multipole identity plus a source/support/energy lower bound with explicitly stated hypotheses. Compare true exterior 1 m behavior, positive far active mass, NEC/WEC/DEC and required stresses. Do not claim a universal GR no-go without proving its assumptions; do not revisit 006D's already-prohibitive configuration as a new optimization.
+
+### M2 — Minimal healthy new universal-metric operator (at most one new operator per comparison)
+
+If M0/M1 cannot bridge the gap, test a **small, symmetry-allowed** scalar/tensor/disformal or curvature-dependent interaction that changes the failed assumption without inserting a prescribed matter current or Earth susceptibility. State the new degree of freedom, coupling dimension, gauge/diffeomorphism symmetry, canonical normalization, characteristic cone and source representation.
+
+**Cheapest decisive test:** linear exchange-sign/kinetic residue analysis, exact Ward/Bianchi, constrained-mode Schur complement, finite-source test and fifth-force/equivalence-principle implications. A scalar that appears repulsive only through a ghost, wrong-sign kinetic term, opposite arbitrary Earth charge or superluminal/strong-coupling loophole fails. A vector-mediated force must not masquerade as universal metric gravity. An explicit nonminimal metric coupling must be varied with the metric, not treated as a free material coefficient.
+
+### M3 — Quantum/semiclassical stress and other genuinely new physics (reserve only)
+
+Only activate if M0–M2 are decisively obstructed and a **precise new assumption** is proposed. Require regulated finite stress tensor, physical source/support, quantum energy inequalities where relevant, backreaction, stability, measurable cutoff, and complete energy. No unexplained macroscopic negative energy, vacuum-energy subtraction tricks or miracle quantum-device claims. Do not authorize an expensive semiclassical simulation based on a speculative favorable sign alone.
+
+**Family coverage rule:** GAMMA1-00 may screen all M0–M3 analytically in one run. GAMMA1-01 must pursue **no more than the best one or two** concrete action-level survivors, and should select **one** for any costly coupled solve.
+
+## 9. A high-value initial theorem: sign, reaction, source cost
+
+For each family, compute—without postulated force—the relationship among:
+
+```math
+\delta S/\delta g_{\mu\nu},\quad
+T^{\mu\nu}_{\rm total},\quad
+\delta S/\delta\widetilde g_{\mu\nu},\quad
+\delta S/\delta\psi_i,\quad
+\delta S/\delta A_X,\quad
+\delta S/\delta A_Y
+```
+
+Constrain the actual neutral test-body effect to the **physical metric**; then derive the Earth/craft stresses and external momentum channel. Calculate the weak-field long-distance limit and its finite-source multipole structure. Report separately the signs of (i) the incremental neutral-matter force, (ii) the force on Earth, (iii) total-craft force including supports/hull, and (iv) changes in gravitational field momentum and radiative flux.
+
+A purported **Newton's-third-law** check between two coordinate derivatives in an artificial action is only a diagnostic. For physical promotion require a justified conserved or quasilocal momentum ledger that includes the relevant gravitational contribution.
+
+**First energy prefilter:** restore SI dimensions before any engineering promise. Obtain a conservative lower bound, if possible, on the gravitational/metric stress or source mass required for `≥9.80665 m/s²` throughout a finite torus at true `≥1 m` stand-off, with real source/support and the chosen gravity theory. Distinguish conditional lower bounds from universal no-go results. If the bound is demonstrably `≥10 MJ`, the proposed realization fails immediately—**exactly 10 MJ fails**. If SI scale is unknown, label it **ENERGY_UNDETERMINED**, not "sub-10-MJ feasible".
+
+---
+
+# PART IV — MINIMUM-RUN EXECUTION PLAN AND STOP CONDITIONS
+
+## 10. GAMMA1-00 — Unified gravity-bridge theorem and obstruction atlas
+
+**NEXT SESSION FIRST TASK. No GAMMA work has yet been executed.**
+
+**Name:** `GAMMA1-00_EXACT_SOURCE_TO_GRAVITY_BRIDGE_FORK`  
+**Fidelity:** L0 exact symbolic/theorem + minimal L1 consistency witnesses only where algebra does not decide.  
+**Central decision:** Does the existing PH16 action, 006D-style stress, or **one explicit minimal new operator** admit a physically meaningful outward metric effect and Earth/craft reaction without contradicting source conservation, mode health or an immediate complete-energy bound?
+
+**One run must answer all of the following:**
+
+1. **Canonicalize the baseline:** exact PH16-04R2 source/Y/X/neutral definitions, action normalization, finite-lattice scope, 18/L12 seed caveat and relevant SHA dependencies.
+2. **Derive** the complete metric-dependent `P`, conformal variation, full stress-energy, Einstein equation and source/neutral/support equations from one candidate action; log every frozen/prescribed term.
+3. **Prove the relevant gauge/diffeomorphism identities** off-shell and derive conservation on-shell; explicitly identify the missing physical Earth/support contributions.
+4. **Compute the leading weak-field sign and spatial exterior falloff** of a finite onboard source interacting with the Earth and a neutral torus. State which sign is guaranteed, which depends on a source stress coefficient and which is not decidable without PDEs.
+5. **Separate physical force from artifact:** source off; Earth off; alpha/beta off; complete craft translation; source-only translation; fictitious chosen Earth susceptibility; homogeneous/planar and finite multipole controls.
+6. **Audit constrained health** for each new physical mode and known PH16 beta=60 warning; never use a positive frozen magnetic margin as proof of full stability.
+7. **Make an SI/UV feasibility prefilter:** dimensional normalization, source/support lower bound, coupling naturalness, empirical fifth-force/EP constraints; mark unknowns explicitly.
+8. **Compare M0/M1/M2 and reserve M3** in one ranked hypothesis matrix, including exact falsifier and cheapest next necessary physical test.
+9. **Return a scientific branching decision:** `STOP_SCOPED_NO_GO`, `ONE_BRIDGE_HYPOTHESIS_SURVIVES`, `TWO_INDEPENDENT_HYPOTHESES_SURVIVE`, or `INSUFFICIENT_THEORY_NEEDS_DERIVATION`. A conditionally attractive toy profile **cannot** count as survival without an action-level route to real source, health and Earth response.
+
+**Required files/artifacts:** an immutable timestamped `gamma1_00_<UTC>.json` + `.sha256`, focused test log, exact theorem/counterexample ledger, source SHA manifest, complete regression when new repository code is committed, a concise next-decision table. Register both positive and negative hypotheses, explicit assumptions and classification. Do not overwrite PH16 or BETA artifacts.
+
+**Hard pass is an atlas, not antigravity:** `GAMMA1_00_ATLAS_COMPLETE` means every listed question is resolved, formally conditional or marked unknown with a discriminating next experiment. **No physical promotion.**
+
+**Stop rule:** if all proposed families are eliminated under their stated assumptions, do **not** spend the remaining deadline running larger PDEs. Preserve the precise no-go and propose *genuinely different* physics for a later research decision, without automatic branch proliferation.
+
+## 11. GAMMA1-01 — One minimal gravity-bridge action, reciprocal source/metric variation
+
+**Authorized only if GAMMA1-00 returns a concrete survivor.**
+
+**Question:** Can the candidate provide a nonzero **source-on minus source-off physical-metric effect** when the onboard source, X/Y fields, neutral target, Earth material and essential support terms arise from **one varied action**?
+
+**Cheapest useful sequence:**
+
+1. Independently derive the sign and dimensions of the leading metric response on a finite neutral test volume. Use the known PH16-04R2 configuration **as trial data only**, not as a gravitationally on-shell source.
+2. Include the action-required variation of F, X, Y, source frequencies, metric, neutral and support degrees of freedom. If a field is frozen for an approximation, report its nonzero Euler–Lagrange defect and a controlled error estimate.
+3. Check that metric backreaction does not invalidate source localization, neutrality, Noether charges or the Y channel.
+4. Perform a constrained physical-mode preflight, not merely the static Y Hessian, before numerical continuation into high coupling.
+5. Match proper source-free exterior solutions and identify whether exterior response is physical, a finite-box image or a chosen interface.
+6. Quantify the sign and magnitude of the neutral **physical-metric** response and its dependence on the **derived** microscopic couplings. Avoid tuning a target force at this stage.
+7. Perform independent variation/finite-difference and source-off/geometry controls. Fail closed if residuals are too large or if metric/source backreaction is not actually solved.
+
+**Output classifications:** `ACTION_BRIDGE_CONDITIONALLY_VALID`, `ACTION_BRIDGE_FALSIFIED`, `NUMERICAL_INCONCLUSIVE`, `ARTIFICIAL_ONLY`. Even a conditionally valid action is **not** a complete device.
+
+**Kill tests:** ghost/gradient/tachyon or acausality within the applicable EFT regime; violation of Ward/Bianchi; no physical source; required coupling outside its cutoff; no exterior metric response; sign wrong when neutral and Earth source terms are included; conservatively demonstrated impossible energy lower bound.
+
+**Do not escalate** unless the candidate has a precise, independently verified physical reason to expect real Earth/craft force.
+
+## 12. GAMMA1-02 — Real external-force, stand-off and complete-cost discriminant
+
+**Authorized only for a survivor of GAMMA1-01.**
+
+**Question:** Does the interaction act on the **entire onboard apparatus** through the Earth, and is the strict mission benchmark remotely feasible with credible SI source and supports?
+
+**Must compute, not assume:**
+
+- Physical test acceleration across **all sampled regions of a finite 1 kg neutral torus** with `≥1 m` minimum true clearance; ordinary Earth gravity separately stated.
+- Whole-craft translated on-shell action derivative, including hull, sources, batteries, mounts/supports, field stresses and material reaction, under fixed consistent states and boundary conditions.
+- Independently defined Earth response, external stress/worldtube flux and the physical momentum ledger; distinguish static balance, gravitational field momentum and causal impulse.
+- Controls: Earth-present/absent, source on/off, atmosphere on/off, radiation/exhaust and electromagnetism excluded or explicitly accounted, complete craft vs internal source translation, finite boundaries vs true exterior.
+- Signed local force/traction maps and net whole-craft acceleration. Do not confuse an outward local field with net craft lift.
+- Complete energy and support ledger with SI normalization and **strict `<10,000,000 J`**, including meaningful uncertainty bounds. Unknown or omitted items prohibit certification; a rigorous lower bound already over budget rejects that realization.
+- Independently tested 006D reference to avoid an attractive but catastrophically energetic near-field GR construction.
+
+**Outcome:** a rigorously qualified physical transfer candidate, a scoped physical no-go, or an incomplete hypothesis with the missing equations explicitly named. The **real whole-craft Earth reaction** cannot be inferred from favorable signs or a reduced translation residual alone.
+
+**Dynamics:** If static lift cannot be derived, do not optimize cycles or impulse. If it can, B11-M6 handles causal signed impulse, negative phases, recoil, losses, turn-off and repeated cycles **without resetting the state**. An external reaction mediated by Earth must be separated from ordinary thrust.
+
+## 13. GAMMA1-03 — Conditional independent physical transfer review
+
+**Only if GAMMA1-02 survives its decisive gates.** This is **not another free-form search**. Independently rederive the leading effect with different methods and verify the proposed mechanism in the actual physical action. Prepare a **Physical Transfer Record** specifying the exact new operator, why previous failures no longer apply, source construction, Ward/Noether/Bianchi, kinetic/UV, stress/support, exterior, full energy, force sign and independent test.
+
+**Destination:** PH16 for exact source–X/Y–neutral–metric/gravity closure; PH17 only **after** independently derived Earth-down/whole-craft-up reaction; B11-M6 for causal signed impulse and unreset cycles. Do not copy an artificial solver's desired fields into the physical program as prescribed source data.
+
+**The 50% physical research milestone:** a GAMMA theorem or attractive toy cannot by itself raise the physical completion heuristic to 50%. A significant increase becomes defensible only after independent, physically sourced source-to-metric and conserved external Earth/whole-craft force derivations, with necessary stability and exterior checks. The estimate is a maturity heuristic, never a success probability.
+
+---
+
+# PART V — SAFETY, EMPIRICAL TESTS, ENERGY AND SOURCE REALISM
+
+## 14. Forbidden shortcuts and stop rules
+
+A tested **family** closes under its **specified assumptions** if:
+
+1. An exact source/current parity, integrability or symmetry identity eliminates the required on-shell effect.
+2. The required source current or Earth response is prescribed, nonconserved or cannot be generated by the specified healthy matter sector.
+3. The physical Lorentzian constraints reveal a ghost, wrong-sign kinetic residue, relevant instability or loss of a well-posed causal initial-value problem.
+4. The apparent force arises from internal hull/source rearrangement, boundary-image forces, fixed supports, atmosphere, radiation or ordinary electromagnetic momentum—not the derived gravitational interaction.
+5. The benefit depends on arbitrary C2 width, off-shell current, discontinuous switch, unspecified scalar charge, artificial reset or selective omission of reciprocal material loading.
+6. The necessary field regime exceeds the EFT cutoff or faces an unaddressed, robust empirical gravity/EP/fifth-force conflict.
+7. Source/support/complete energy is rigorously bounded **at or above 10 MJ** for the stated physical benchmark, or the required source cannot be a finite stable object.
+
+Do not generalize a conditional failure into a universal no-go for all gravity theories. Reopen a closed branch only when **explicitly new physics invalidates a named failed premise**. For numerical nonconvergence, distinguish `NONCONVERGED` from `PHYSICALLY_FALSIFIED`.
+
+## 15. Complete physical energy ledger and off-state consistency
+
+Define the energy reference state before calculating costs. The ledger must separately track source rest and formation energy, onboard supply, kinetic/gradient gauge-field energy, gravitating/neutral-matter work, support and hull strain, trapping and stabilization, on/off transitions, cycle restoration, emitted field/radiation energy, Earth interaction and losses. Distinguish stored, recoverable, dissipated and transferred energy. Count shared terms once and preserve physical conservation.
+
+**Exactly `10 MJ` fails.** A few-joule prescribed field capacity is neither a complete energy nor an SI-normalized physical source witness. Do not make further sub-100-J tuning a GAMMA work item.
+
+## 16. Empirical, quantum and ultraviolet compatibility
+
+Before physical promotion, specify the complete propagating spectrum and EFT scale, ghosts/strong-coupling constraints, cutoff relative to source gradient and chosen wave numbers, loop stability and naturalness; test equivalence principle, fifth-force, PPN/gravity-wave and laboratory bounds appropriate to each new operator. Claims about currently viable parameter windows must cite independently checked evidence, not arbitrary example values. No quantum energy-inequality evasion, hidden negative energy or unsupported materials.
+
+A mathematically admissible, observationally ruled-out model is a useful **negative discovery**, not a device candidate.
+
+---
+
+# PART VI — EVIDENCE, ARTIFACTS AND EXECUTION DISCIPLINE
+
+## 17. Claim taxonomy
+
+Each GAMMA result must state **exactly one primary classification** plus qualified subclaims:
+
+- `EXACT_IDENTITY_OR_THEOREM`
+- `SCOPED_IMPOSSIBILITY_CERTIFICATE`
+- `NECESSARY_CONDITION_DERIVED`
+- `ARTIFICIAL_ACTION_CONSISTENT`
+- `PHYSICAL_HYPOTHESIS_TRANSFERABLE`
+- `INDEPENDENT_PHYSICAL_BRIDGE_VERIFIED`
+- `NUMERICAL_INCONCLUSIVE`
+- `FAILED_OR_INCOMPLETE`
+
+Use `INDEPENDENT_PHYSICAL_BRIDGE_VERIFIED` **only** after a separate physical model has passed its actual source/metric/exterior/health/reaction gates. It cannot be assigned solely by GAMMA's own artificial result. Every output reports `006D_replaced=false`, `whole_craft_gravity=NOT_DERIVED` and `complete_energy_SI=NOT_CERTIFIED` until independently falsifiable evidence changes those facts.
+
+## 18. Required immutable result schema
+
+Each **attempt**, including failure/timeout, writes new timestamped JSON and `.sha256`, preserving source/code/parent hashes, action and units, prior checkpoint references, hypotheses tested, assumptions, sign conventions, gauge fixes, physical coupling norms, field/source equations solved versus frozen, exact identities, stress and force ledgers, uncertainty, convergence, source/health/cost flags, negative controls, falsifier, and next decision. Suggested minimum:
 
 ```json
 {
-  "program": "BETA-1",
-  "branch": "BETA1-XX",
-  "model_class": "ARTIFICIAL_PRESCRIBED_ONLY",
+  "program": "ANTIGRAVITY_RESEARCH",
+  "branch": "GAMMA1-00",
+  "classification": "FAILED_OR_INCOMPLETE",
   "timestamp_utc": null,
-  "parent_source_sha256": null,
+  "parent_manifest_sha256": null,
   "source_sha256": null,
   "independent_verifier_sha256": null,
-  "action_definition": null,
+  "action_and_sign_conventions": null,
+  "hypothesis_matrix": [],
+  "exact_identity_results": {},
   "source_status": "NOT_DERIVED",
-  "reciprocity_status": "NOT_DERIVED",
-  "constraint_status": "NOT_CERTIFIED",
-  "stability_status": "NOT_CERTIFIED",
-  "exterior_status": "NOT_CERTIFIED",
-  "earth_craft_force": "NOT_DERIVED",
-  "whole_craft_reaction": "NOT_DERIVED",
-  "complete_energy_SI": "NOT_AVAILABLE",
+  "physical_metric_status": "NOT_SOLVED",
+  "constrained_health": "NOT_CERTIFIED",
+  "true_exterior": "NOT_CERTIFIED",
+  "earth_down": "NOT_DERIVED",
+  "whole_craft_up": "NOT_DERIVED",
+  "torus_1kg_ge1g_ge1m": "NOT_CERTIFIED",
+  "complete_energy_SI_lt10MJ": "NOT_CERTIFIED",
+  "006D_replaced": false,
   "physical_transfer": "NOT_AUTHORIZED",
-  "006D_replaced": false
+  "gates": {},
+  "failure_and_termination_reasons": [],
+  "next_decision": "NO_AUTOMATIC_NEXT_RUN"
 }
 ```
 
-This is a minimum schema, not a substitute for the experiment-specific numerical data, equations, failures and uncertainty.
+**Evidence hierarchy:** executed code and raw JSON/SHA/logs → peer-reviewed sources and independently verified analytic derivations → chronological journal → notes → stale buildplans/README. New scientific claims require independent checks, not regression-count inflation.
 
-Use immutable timestamped filenames and SHA-256 checks. Preserve failed and interrupted results.
+## 19. Numerical authorization and coding rules
 
-The output manifest must identify all numerical reference states, units, tolerances, boundary treatments and exact source dependencies.
+| Level | Authorized work | Stop condition before next level |
+|---|---|---|
+| **L0** | Exact action/stress/charge/weak-field sign, conservation and lower-bound theorem | No candidate with defined physical source/metric sign |
+| **L1** | Minimal finite source, dimensional and reduced Green/exchange witness | Ghost, conservation, source-realizability or wrong-sign failure |
+| **L2** | Joint finite constrained PDE/exterior/mode calculation | No reciprocal closure, no convergence or no real-source route |
+| **L3** | Full finite Earth/craft source/metric and signed force | No healthy physical survivor or complete energy |
 
-## 26. Repository separation
+One scientific run should bundle all permitted low-cost L0/L1 tests before escalating. Use **focused tests before a costly scientific solve**, and one fresh **complete regression** when a completed new code/run is accepted; don't rerun the full regression for every exploratory symbolic identity. Record the test baseline (PH16-04R2: **2,943 tests**) and any new tests without claiming that they are physical progress.
 
-Create a dedicated namespace for the new artificial research.
+**Source control and terminal workflow:** new `src/antigravity_research/gamma1/`, `simulations/gamma1/`, `tests/gamma1/`, immutable `results/data/gamma1_*_<UTC>.json` and `results/logs/gamma1_*_<UTC>.log`; no overwriting ALPHA/BETA/PH16 or negative results, no git commands, complete standalone paste-ready **Bash APPLY** and separate **VERIFY** blocks (all heredocs closed), zsh-compatible invocation, stop on failure, explicit runtime budgets and fail-closed SHA checks.
 
-Suggested structure:
+**Never silently** lower error thresholds, change branch parameters to produce the desired sign, reset matter/fields between cycles, omit recalcitrant configurations, change the tested source version, or convert `NO` into `PASS` because a solver returned success. Separate mathematical, numerical, physical and empirical gates.
 
-```text
-src/antigravity_research/beta_artificial/
-    beta1_b0_gap_atlas.py
-    beta1_b1a_source_realizability.py
-    beta1_b1b_reciprocal_response.py
-    beta1_b1c_material_susceptibility.py
-    beta1_b1d_earth_craft_force.py
-    beta1_b1e_causal_impulse.py
-    beta1_b1f_complete_energy.py
-    beta1_b1g_mechanism_reduction.py
+## 20. What the first GAMMA1-00 code/run must actually deliver
 
-simulations/beta_artificial/
-    ...
+Rather than starting with a giant coupled GR simulation, require:
 
-tests/beta_artificial/
-    ...
+**Inputs:** frozen PH16-04R2 action/results/field normalization; BETA1-00/01/1B0/1B1/02/03/04 exact findings; M5V control; 006D source, PH14/P7 source failures, AGMINER failures; `RESEARCH_BUILDPLAN.md`, `INTROSPECTIVE_BUILDPLAN.md`, formatting standards.
 
-results/data/
-    beta1_<experiment>_<UTC>.json
+**Analytic work package (single experiment):**
 
-results/logs/
-    beta1_<experiment>_<UTC>.log
-```
+- Action schema with the full metric/Hodge/stress contributions and one explicitly parameterized candidate new operator, or a proof that the baseline is already sufficient/insufficient under stated assumptions.
+- Conditional weak-field Einstein/geodesic response; source-to-neutral/Earth interaction signs; finite multipoles; frame-invariant diagnostic.
+- Off-shell Noether/Ward/Bianchi, on-shell stress conservation and worldtube momentum budget.
+- In-principle finite source/support, Lorentzian positive-mode and source-off/Earth-off controls; historical counterexample matrix.
+- Dimensional SI lower-bound screen, maximum transparent assumptions, EFT/empirical conflict list.
+- At least **three genuinely discriminating tests** for the top remaining hypothesis, each with a signed expected outcome and stop criterion.
+- Ranked decision: at most **two hypotheses** survive, with **one preferred next physical action** and an explicit `NO_NEXT_RUN_IF_KILLED` branch.
 
-These are proposed paths, not claims that the files already exist.
-
-Physical research continues in its existing AGMINER/HOOK17 paths.
-
-Do not rename old ALPHA-1 or physical modules to make them appear to belong to BETA-1.
-
-For future code deliveries:
-
-- Provide complete paste-ready Bash apply blocks.
-- Keep apply and verification commands separate.
-- Avoid git commands.
-- Never overwrite original source or result artifacts.
-- Preserve scientific code, tests, comments and relevant source documentation in the codebundle.
-- Keep buildplans and full research journals out of the code-only bundle.
-- Run focused tests, scientific experiments, and fresh full regression with recorded hashes.
-
-## 27. Transfer protocol: artificial discovery to physical model
-
-A BETA-1 discovery cannot directly modify the physical model's claims.
-
-It must first generate a **Physical Transfer Record** containing:
-
-| Field | Required content |
-|---|---|
-| Discovery | Exact newly observed mathematical behavior |
-| Physical gap | Which G1–G7 obstruction it addresses |
-| Existing assumption | Which prior model assumption failed |
-| New physics | Action operator, matter sector, boundary theorem or constitutive law |
-| Derivation | Exact variation, identities and physical signs |
-| Source realization | How real source fields or material produce it |
-| Health | Constraints, modes, stability, conservation |
-| Falsifier | Cheapest independent test capable of rejecting it |
-| Cost | Source, energy, support, empirical and EFT obligations |
-| Destination | PH15, PH16, PH17 or B11-M6 |
-| Status | Proposed, accepted for testing, rejected or independently verified |
-
-The physical program must rederive the mechanism without depending on the artificial optimizer's chosen target fields.
-
-A transferred hypothesis does not become a successful physical result until its own tests pass.
+**PASS** means the theorem atlas is complete, not that the gravity bridge or device works. Even an exact no-go is a valuable completed GAMMA1-00 if the precise assumptions are documented and independent verifier reproduces it.
 
 ---
 
-# PART VII — PRIORITIES, MILESTONES AND DECISION RULES
+# PART VII — THANKSGIVING RESEARCH PRIORITIZATION AND HANDOFF
 
-## 28. Research priority matrix
+## 21. Short-deadline plan: November 18–26, 2026
 
-| Rank | Experiment | Expected scientific value | Computational policy |
-|---|---|---|---|
-| 1 | BETA1-00 exact obstruction atlas | Very high | Symbolic first |
-| 2 | BETA-1B reciprocal source/carrier mechanism | Very high | Cheap analytical gates before PDE |
-| 3 | BETA-1A source-current realizability | Very high | Constrained inverse theorem |
-| 4 | BETA-1D Earth–craft external-force theorem | Very high | Analytic stress/translation controls |
-| 5 | BETA-1C physical neutral-material response | Very high | Minimal causal matter model first |
-| 6 | BETA-1E signed finite impulse | High | Hyperbolic theorem before pulse |
-| 7 | BETA-1F complete energy and UV feasibility | High | Bounds before engineering simulation |
-| 8 | BETA-1G geometry/introspective reduction | Conditional | Only after an admissible mechanism survives |
+This calendar is a **priority order**, not a prediction of completed discoveries and not permission to perform autonomous/background tasks:
 
-BETA-1A and BETA-1B should proceed as coordinated investigations because a healthy source and a healthy carrier must ultimately coexist on the same coupled solution.
+| Target window | Work only if the prior gate passes | Valuable deliverable even on failure |
+|---|---|---|
+| **Nov 18–19** | `GAMMA1-00` unified theorem/no-go/sign/energy atlas | Named source-to-metric obstruction and precise allowed mechanism classes |
+| **Nov 20–22** | `GAMMA1-01` one physically motivated action-level bridge | Verified source/metric reciprocity **or** a decisive no-go |
+| **Nov 23–24** | `GAMMA1-02` external Earth/craft force and SI cost *only with a viable survivor* | Honest force/reaction/energy ledger, or a proof of why it cannot pass |
+| **Nov 25–26** | `GAMMA1-03` independent review and PH16 transfer *only with survival*; otherwise freeze negative atlas | Independent result and realistic project status before Thanksgiving |
 
-## 29. Milestone B1 — Exact physical obstruction map
+**Deadline rule:** Practical antigravity before Thanksgiving is an aspiration, **not a credible forecast based on the evidence so far**. The day-of deadline must not override conservation, source health, true external force, continuum or `<10 MJ` verification. If only an impossibility theorem or carefully scoped bridge is delivered, report exactly that. Do not claim an operational engine or a 50% physical milestone from artificial gates.
 
-**Requirements:**
+## 22. Next-session introduction / exact first instruction
 
-- Missing operators and constraints identified.
-- No unaccounted gauge or diffeomorphism variation.
-- Correct Lorentzian signs and source dependencies.
-- First precise physicalization question established.
+> We are continuing ANTIGRAVITY_RESEARCH with **GAMMA-1** as the next artificial-theorem discovery branch under the updated `ARTIFICIAL_BUILDPLAN.MD`. **No GAMMA run has yet executed.** Before work, reconstruct the current evidence from the new codebundle, immutable JSON/SHA/logs, buildplans, notes and journal; **PH16-04R2** (2,943 regression passes; SHA `ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`) is the physical finite-lattice checkpoint, **BETA1-04** and **M5V** remain frozen artificial controls, and **006D** is unreplaced. Start with **`GAMMA1-00_EXACT_SOURCE_TO_GRAVITY_BRIDGE_FORK`**: one high-information, theorem-first action/stress/metric/Earth-force/sign/energy atlas that discriminates the PH16 conformal portal, 006D-style stress anisotropy and one minimal healthy new operator **before** authorizing expensive simulations. Do not fabricate a gravity bridge, relax constraints or pursue force/field optimization. Our fixed goal is true source-free exterior gravitational/metric response to neutral matter, Earth-down/whole-craft-up force, ≥1 g throughout a 1 kg torus at ≥1 m stand-off, and complete **strictly <10 MJ** energy. Separate physically demonstrated results from artificial witnesses and preserve all negative results; output complete independently paste-ready APPLY and VERIFY Bash blocks, immutable data/SHA, scoped tests and full regression. **Thanksgiving is a decision deadline, not a promise of an engine.**
 
-**Status:** NOT YET EXECUTED.
+## 23. Next-session success and stop conditions
 
-## 30. Milestone B2 — Source and carrier feasibility
+A great next session will produce **one sharply resolved answer**, not many attractive plots:
 
-**Requirements:**
+- **High-value positive:** a new, action-level and independently falsifiable bridge equation whose physical source, neutral metric coupling, signs, health and Earth-reaction obligations are explicit, with one minimal next test.
+- **High-value negative:** a rigorous conditional no-go or energy/health obstruction eliminating a previously promising family so it will not be simulated again without genuinely new physics.
+- **Unresolved:** exact reason why the bridge cannot be evaluated (missing variation, unknown SI normalization, missing physical source, unclosed metric, stalled solver), with a bounded and discriminating follow-up only if justified.
 
-- At least one source/carrier hypothesis survives exact source-current representability.
-- Required field and source stresses are finite.
-- Full coupled kinetic preflight passes.
-- No hidden prescribed sources.
-
-**Status:** NOT YET EXECUTED.
-
-## 31. Milestone B3 — Reciprocal material and exterior mechanism
-
-**Requirements:**
-
-- The material response follows from an action.
-- The full source/carrier/material response is reciprocal.
-- The exterior effect is not boundary-induced.
-- A candidate Earth–craft external-force mechanism is derived, with a closed conservation identity.
-
-**Status:** NOT YET EXECUTED.
-
-## 32. Milestone B4 — Physically transferable mechanism
-
-**Requirements:**
-
-- A distinct new operator or constitutive mechanism is precisely specified.
-- The mechanism survives B1–B3.
-- Its physical source and constraints are identifiable.
-- It is independently rederived for PH15/PH16/PH17 or B11-M6.
-- Its outstanding energy and empirical checks are explicitly registered.
-
-**Status:** NOT YET EXECUTED.
-
-B4 is the principal success milestone of the **artificial branch**.
-
-It does not independently certify an antigravity device.
-
-## 33. Relationship to the 50% physical-completion heuristic
-
-The approximate 35% project-completion figure is a subjective research heuristic.
-
-It is neither an engineering-completion percentage nor a probability of success.
-
-BETA-1 does not earn points toward it through independent artificial milestones.
-
-A substantial increase toward 50% would become more defensible if physical research independently establishes:
-
-1. A localized source with adequately controlled continuum and exterior behavior.
-2. Fully reciprocal, healthy X/Y/source dynamics from one action.
-3. A defensible physical universal-metric response of neutral matter, including stress and backreaction.
-4. A credible action-derived exterior interaction with no hidden support or momentum source.
-
-Further whole-craft, causal, energy and experimental gates remain necessary beyond that milestone.
-
-The heuristic must follow actual physical accomplishments rather than BETA-1's software or discovery count.
-
----
-
-# PART VIII — TERMINATION AND SUCCESS
-
-## 34. What would count as an exceptional BETA-1 discovery?
-
-Examples include:
-
-**Discovery A:** Proving that a specific source-current feature previously treated as artificial can be generated by a finite, charge-neutral, stable matter configuration.
-
-**Discovery B:** Finding a gauge-invariant source–carrier operator whose reciprocal loading preserves the desired effect and whose full kinetic constraints remain healthy.
-
-**Discovery C:** Deriving a stable universal-metric neutral-matter response with a finite interface and traction structure that reproduces an essential part of the artificial reference without chosen material coefficients.
-
-**Discovery D:** Deriving a real exterior Earth–craft interaction whose sign, magnitude, source recoil and momentum balance follow from one action.
-
-**Discovery E:** Proving that a previously attractive artificial force mechanism is impossible under healthy local dynamics, thereby permanently eliminating a false research path.
-
-A strong impossibility theorem may save more effort than a large artificial numerical success.
-
-## 35. What would count as failure?
-
-BETA-1 fails its intended mission if it becomes another unrestricted search for favorable fields, another optimization of already-small prescribed energy terms, or another numerical campaign that cannot identify what physical interaction produces its result.
-
-It also fails if artificial assumptions are repeatedly transferred to physical claims without independent derivation.
-
-**A scientifically correct negative result is not a program failure. A favorable but unsupported artificial model is not a program success.**
-
-## 36. Permanent non-negotiable requirements
-
-Retain throughout both research programs:
-
-- One physically consistent action for any promoted theory.
-- Exact gauge/Ward/Noether/Bianchi identities.
-- Correct source and material variations.
-- Positive-energy and healthy propagating modes.
-- Causal and stable source dynamics.
-- Local conservation and complete boundary stresses.
-- Finite conserved onboard source matter.
-- Real exterior propagation to neutral Earth matter.
-- Derived Earth-down and whole-craft-up interaction.
-- Explicit field, source, support, hull, Earth, air, radiation and exhaust momentum.
-- Signed impulse and stable cycles without resets.
-- At least 1 g throughout the finite neutral 1 kg torus at at least 1 m true stand-off.
-- Complete conservative operating energy strictly below 10 MJ.
-- Consistent SI normalization, empirical constraints and quantum/UV checks.
-- Independent verification and permanent preservation of negative results.
-
-No candidate may bypass a failed hard gate by achieving greater artificial field strength.
-
----
-
-# PART IX — IMMEDIATE NEXT-SESSION HANDOFF
-
-## 37. First authorized research task
-
-**BETA1-00 — `EXACT_SOURCE_TO_METRIC_OBSTRUCTION_ATLAS`**
-
-The first run should derive the smallest complete action and its exact X/Y/source/matter variations, using PH15-P10 as a source reference.
-
-It must determine:
-
-1. Which reciprocal terms are absent from P10.
-2. Which source terms are physically required by universal metric coupling.
-3. Whether the first-order Y signal persists under the leading reciprocal corrections.
-4. Which kinetic or source constraints are likely to become restrictive.
-5. What field/matter response must exist for an actual neutral gravitational effect.
-6. Which missing operators could satisfy those conditions without violating conservation or mode health.
-7. Which hypotheses can be falsified analytically before another PDE solve.
-
-Its output is a reproducible mathematical atlas and prioritized physical experiments.
-
-It must not attempt a new ALPHA-1 force optimization.
-
-## 38. Required subsequent decision
-
-After BETA1-00:
-
-- Launch BETA-1B if a viable reciprocal operator survives.
-- Launch BETA-1A for its source-current realization.
-- Reject the existing portal family if an exact obstruction eliminates it under its stated assumptions.
-- Preserve P10 as a completed X-source/first-order-Y reference regardless of whether a new full-action candidate fails.
-- Proceed to BETA-1C/D only when the prerequisite source and coupling tests justify expensive material and Earth calculations.
-- Continue B11-M6's independent theorem work in parallel.
-
-## 39. Documentation policy
-
-This file governs **artificial physics-gap discovery only**.
-
-`RESEARCH_BUILDPLAN.md` remains the primary physical strategy and certification authority.
-
-`AGMINER_BUILDPLAN.MD` retains source-failure memory and theorem-first controls.
-
-`INTROSPECTIVE_BUILDPLAN.md` retains geometric influence and stress diagnostics.
-
-`FORMATTING_AND_CODE_STANDARDS.md` governs Markdown, code, tests and result presentation.
-
-`NOTES.md` and the research journal preserve exact chronological evidence.
-
-`README.md` contains conservative public claims.
-
-At the next documentation reconciliation, all documents should cross-reference BETA-1 without presenting its artificial findings as physical results. Historical ALPHA-1 and earlier physical records must remain intact.
+**GAMMA-1 success cannot be measured by its own completion percentage or test count.** Only independently transferred physical derivations can increase the physical research maturity heuristic toward 50%; a complete working antigravity device remains unestablished.
 
 ---
 
 # FINAL SCIENTIFIC DIRECTIVE
 
-**BETA-1 must aggressively search for missing physical principles, not favorable artificial outputs.**
+**Discover the missing physical gravity bridge or prove where the present mechanism fails—before spending another large run on mathematically favorable fields.**
 
-The highest-value question is no longer whether a chosen field arrangement produces a desirable mathematical force.
+Maintain the permanent distinction between **artificial interaction**, **one-action finite-lattice stationarity**, **healthy continuum physical field theory**, **genuine neutral-matter gravitational response**, **external whole-craft force**, and **operational energy-feasible spacecraft**. No step may be inferred merely from the previous one.
 
-It is whether a healthy, finite, conserved physical source and a universally coupled metric can generate an external Earth–spacecraft interaction under full reciprocal dynamics—and whether the required structure can survive complete energy, causal, and empirical constraints.
+**Authorized immediate work in the next session: GAMMA1-00 only. No automatic follow-on runs.**
 
-Every artificial result must either:
-
-1. Expose a precise physical obstruction.
-2. Prove a necessary condition.
-3. Discover a physically testable interaction or source mechanism.
-4. Eliminate an unsupported assumption.
-5. Supply independently transferable mathematics to the real-model program.
-
-**BETA-1's mission is to help complete the physical theory—not to substitute artificial mathematics for the missing physics.**
-
-**End of BETA-1 Artificial Research Buildplan — November 16, 2026.**
+**End of active GAMMA-1 Artificial Discovery Buildplan — November 18, 2026.**

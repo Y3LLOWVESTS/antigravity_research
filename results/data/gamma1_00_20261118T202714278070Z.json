@@ -1,0 +1,154 @@
+{
+  "006D_replaced": false,
+  "GAMMA1_01_authorized": false,
+  "M0_formal_variations": {
+    "Bianchi": "dF_X=dF_Y=0; total stress conserved on shell",
+    "Ward": "nabla J=0 only with matter Euler-Lagrange equations",
+    "X": "nabla(F_X-lambda *F_Y)=J_X",
+    "Y": "nabla(F_Y-lambda *F_X)=J_Y (zero in baseline)",
+    "gravitational_boundary_stress": "OPEN",
+    "lambda": "exp(4sigma) trace(T_tilde) sigma_prime",
+    "metric": "T_E = exp(2sigma) T_tilde - lambda P g",
+    "neutral": "geodesic in g_tilde; sources/support/Earth E-L OPEN",
+    "off_shell_diffeomorphism_identity": "NOT_FULLY_DERIVED",
+    "weak_field": "a=-grad(Phi_E)-c^2 grad(sigma)"
+  },
+  "M3_run_authorized": false,
+  "P": "0.5 FX_munu (*FY)^munu",
+  "PH16_05_transfer_authorized": false,
+  "PH17_transfer_authorized": false,
+  "SI_conditional_bounds": {
+    "006D_reference_J": 3.11539774792643e+29,
+    "DEC_general_min_J": 3.301386465082261e+27,
+    "DEC_sources_below_min_J": 6.602772930164521e+27,
+    "a_m_s2": 9.80665,
+    "all_stress_min_distance_m": 1.0,
+    "budget_J": 10000000.0,
+    "conditional_budget_obstruction": true,
+    "not_covered": "a 1m gap free of material can contain field stress; modified gravity and quantum matter are not bounded",
+    "premise": "static type-I DEC in linearized GR; every source, support AND field stress element >= h from the target",
+    "ratio_to_budget": 3.301386465082261e+20
+  },
+  "branch": "GAMMA1-00",
+  "claim_classification": "SCOPED_THEOREM_ATLAS_NOT_GRAVITY_LIFT",
+  "classification": "ATLAS_COMPLETE_SCOPED",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "convergence": {
+    "continuum_exterior": "NOT_CERTIFIED",
+    "new_PDE": "NOT_RUN",
+    "symbolic": "EXACT"
+  },
+  "decision": "INSUFFICIENT_THEORY_NEEDS_DERIVATION",
+  "energy_ledger": {
+    "UV": "UNKNOWN",
+    "activation": "UNKNOWN",
+    "complete_J": "NOT_CERTIFIED",
+    "fields": "NOT_SI_NORMALIZED",
+    "off_state": "UNKNOWN",
+    "source": "UNKNOWN",
+    "supports": "UNKNOWN"
+  },
+  "exact_checked_algebra": {
+    "P_weyl_weight_minus_four": true,
+    "antisymmetric_commuting_derivatives": true,
+    "conformal_trace_chain": true,
+    "constant_P_no_portal_gradient": true,
+    "coupling_off_lambda": true,
+    "coupling_off_sigma": true,
+    "craft_only_false_Earth_force": true,
+    "hodge_density_invariance": true,
+    "lambda_trace_derivative": true,
+    "linear_mixed_const_trace_bulk_null": true,
+    "mixed_variations_commute": true,
+    "sigma_derivative": true,
+    "sigma_second_derivative": true,
+    "source_off_sigma": true,
+    "two_coordinate_translation": true
+  },
+  "experiment": "GAMMA1-00_EXACT_SOURCE_TO_GRAVITY_BRIDGE_FORK",
+  "families": [
+    {
+      "SI_energy": "UNKNOWN",
+      "cheap_falsifier": "same-action full metric/source stress and exterior SI",
+      "health": "OPEN",
+      "id": "M0",
+      "operator": "sigma(P)=alpha P-beta P^2",
+      "physical_response": "a=-grad(Phi_E+c^2 sigma) at leading static order",
+      "sign": "NOT_DERIVED_ON_PH16_SOURCE",
+      "source": "PH16_FINITE_LATTICE_ONLY"
+    },
+    {
+      "SI_energy": "CONDITIONAL_BOUND_FAILS_10MJ",
+      "cheap_falsifier": "test all-stress distance premise or derive field-aware bound",
+      "health": "MATERIAL_OPEN",
+      "id": "M1",
+      "operator": "Einstein GR + finite type-I DEC stress",
+      "physical_response": "006D: outward locally, positive far active mass",
+      "sign": "LOCAL_REFERENCE_ONLY",
+      "source": "006D_CONSERVED_LINEARIZED_STRESS"
+    },
+    {
+      "SI_energy": "UNKNOWN",
+      "cheap_falsifier": "metric/boundary variation, constraint and cutoff",
+      "health": "OPEN",
+      "id": "M2",
+      "operator": "vector-Horndeski double-dual Riemann L^{munurhosigma} F_Xmunu F_Xrhosigma",
+      "physical_response": "UNKNOWN",
+      "sign": "UNKNOWN",
+      "source": "UNKNOWN"
+    },
+    {
+      "SI_energy": "UNKNOWN",
+      "cheap_falsifier": "define physical quantum state and backreaction",
+      "health": "OPEN",
+      "id": "M3",
+      "operator": "renormalized semiclassical stress (reserve)",
+      "physical_response": "NOT_SPECIFIED",
+      "sign": "UNKNOWN",
+      "source": "NOT_SPECIFIED"
+    }
+  ],
+  "force_ledger": {
+    "Earth_down": "NOT_DERIVED",
+    "field_boundary_momentum": "NOT_DERIVED",
+    "supports_recoil": "NOT_DERIVED",
+    "whole_craft_up": "NOT_DERIVED"
+  },
+  "full_mode_health": "NOT_CERTIFIED",
+  "gamma_source_shas": {
+    "simulations/gamma1/gamma1_00_exact_bridge.py": "825d5b9d3a11458b237079c01ed93d38178569580fe5e79f0e5458c9303b8180",
+    "src/antigravity_research/gamma1/gamma1_00_atlas.py": "f8048d96db945850be8f8788c906ff94a4481cf80d8733272ff99d9c4c3de0ca",
+    "tests/gamma1/test_gamma1_00_atlas.py": "ab262d6c0477a06b025571305bed4f2dcdeae8bd43ca334c7a4f059e43d5eaf5",
+    "tests/gamma1/verify_gamma1_00.py": "ddcf5da28b19a5abfe3b95d42dfed91678c81f1537aa4211a8cb459b435d07b7",
+    "theory/gamma1/GAMMA1_00_THEOREM_LEDGER.md": "ef942808e44afa63f9eff0fa3c499a4d96a61d298e427a5d167b4b9640fc92f3"
+  },
+  "negative_controls": {
+    "Earth_off": "no Earth E-L and no Earth force observable",
+    "M2_flat_curvature": "operator zero on exactly Minkowski",
+    "constant_P": "no local portal gradient",
+    "coupling_off": "sigma=lambda=0",
+    "craft_only": "no genuine Earth action/reaction",
+    "fake_Earth_charge": "reject nonuniversal prescribed susceptibility",
+    "field_capacity_only": "not complete operating energy",
+    "source_off": "sigma(0)=0; Y variation can still be nonzero"
+  },
+  "parent_provenance": "PASS_EXACT_RAW_SHA",
+  "provenance": {
+    "PH16_R2_result": {
+      "actual_sha256": "ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0",
+      "expected_sha256": "ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0",
+      "path": "results/data/ph16_04_20261118T164454314313Z.json"
+    },
+    "PH16_R2_source": {
+      "actual_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    }
+  },
+  "qualified_survivors": [],
+  "same_action": "Einstein-Hilbert+GHY+Maxwell X/Y+source+neutral+Earth+supports; all matter uses g_tilde",
+  "scope": "L0_SYMBOLIC_AND_CONDITIONAL_SI_NO_PDE",
+  "signature": "-+++",
+  "timestamp_utc": "2026-11-18T20:27:14.278070+00:00",
+  "torus_1kg_1g_1m": "NOT_CERTIFIED"
+}

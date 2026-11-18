@@ -2,6 +2,60 @@
 
 > **For the benefit of humanity**
 
+**Current README summary:** November 18, 2026  
+**Research program:** `032 — AGMINER / 032H17 — HOOK17`  
+**Latest verified physical-model experiment:** **PH16-04R2** (scoped finite-lattice source/X/Y/neutral-fluid stationary closure)  
+**Latest full repository regression:** **2,943 passed**; **60/60** PH16-04 focused tests, **12/12** exact identities, **19/19** scoped gates, **11/11** parent/provenance checks  
+**Next-session research priority:** **GAMMA-1**, beginning with `GAMMA1-00_EXACT_SOURCE_TO_GRAVITY_BRIDGE_FORK` (**not yet executed**)  
+**Frozen artificial references:** **ALPHA-1/M5V** and **BETA-1/BETA1-04**  
+**Conservative GR true-stand-off anchor:** **006D**, `C=23.591586299249`, **unreplaced**  
+**Estimated physical-research maturity:** **~35% heuristic** (not a probability of success or device-completion percentage)
+
+> **Scientific status:** No experimentally demonstrated antigravity or verified whole-spacecraft gravitational lift; no fully sourced, stable continuum Einstein/metric realization; no derived Earth-down/whole-craft-up external reaction; and no certified **strictly below 10 MJ** complete operating-energy budget. All PH16-04R2 results concern a hypothetical, specified **discrete** action, not experimental evidence or a demonstrated engine.
+
+## Current research snapshot — November 18, 2026
+
+| Research stage | Verified outcome | Limit / next obligation |
+|---|---|---|
+| **006D** | Finite, positive-energy, conserved source with outward near field in static linearized GR; NEC/WEC/DEC compatible and positive far active mass | Catastrophic approximately `1/G` energy scale; no practical stable material realization |
+| **ALPHA-1/M5V** | Frozen artificial inverse-design action and translation-derivative audit; 50/50 cases, 1,803 regression passes | Prescribed currents and material response; **not spacecraft thrust** |
+| **BETA-1/BETA1-04** | Frozen artificial obstruction and action–reaction toy-model results | Prescribed material charges; no real gravitational interaction or physical Earth–craft model |
+| **PH15-P10** | Discrete neutral two-center charged-source/X solution and first-order induced Y without Y backreaction | Continuum, constrained stability and full reciprocal response unproved |
+| **PH16-00 through PH16-03** | Source-to-metric obstruction atlas; hydrostatic neutral fluid; stationary Y and fixed-Noether reduced-sector checks | Charged scalar/X backreaction initially frozen, and metric equations unsolved |
+| **PH16-04R2** | Joint **finite-lattice** F/X/Y stationary gradients with conserved charged-source numbers and hydrostatic neutral matter; three numerical cases passed | Continuum and exterior consistency, full Lorentzian-mode health, realistic materials/supports, Einstein response and Earth reaction **open** |
+| **GAMMA-1 (planned)** | Theorem-first physical-gravity-bridge discovery and falsification | **No GAMMA simulation executed**; begin with GAMMA1-00 only |
+
+### PH16-04R2 verification checkpoint
+
+The Y-preconditioned joint solution gave absolute action-gradient L2 residuals `6.80575961e-08` (`12_L12`), `6.53298486e-08` (`18_L12`) and `9.28480274e-08` (`12_L16`), all below the unchanged `1e-6` acceptance threshold. Both charged-source Noether numbers remained fixed to approximately machine precision. The tested discrete gauge/Bianchi checks passed. The positive **frozen** magnetic-principal diagnostic does **not** certify full dynamical stability.
+
+The original PH16-04 and PH16-04R1 runs failed the `18_L12` convergence criterion (`2.093028110157171e-06`). The PH16-04R2 bounded continuation achieved `6.53298485747981e-08` with native solver success **without changing the action or acceptance threshold**. Its independent weak-field initialization **still failed** on that mesh (`0.018773933` residual), so numerical-basin independence and uniqueness are unresolved.
+
+**Primary immutable result:** [`results/data/ph16_04_20261118T164454314313Z.json`](results/data/ph16_04_20261118T164454314313Z.json)  
+**Result SHA-256:** `ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`  
+**PH16-04R2 scientific-source SHA-256:** `b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0`  
+**Provenance caution:** The November 18 early codebundle predates the final R2 patch. Consult the verified result, final source hash and the subsequent November 18 journal before reconstructing this run.
+
+### Next session: GAMMA-1, not another broad optimization campaign
+
+The active [`ARTIFICIAL_BUILDPLAN.MD`](ARTIFICIAL_BUILDPLAN.MD) makes **GAMMA1-00** the **only immediately authorized** new research run. It compares the existing PH16 conformal-portal mechanism, finite positive-energy anisotropic GR stress, and minimal genuinely new healthy metric couplings in **one high-information theorem-first atlas**. Derive common-action variations, gauge/Ward/Noether/Bianchi identities, neutral-matter physical response, the gravitational-force sign, real exterior transmission, Earth reaction and SI energy obstructions **before** authorizing additional expensive simulations. A favorable artificial force derivative is not a physical force certificate.
+
+The fixed independent benchmark remains a **finite 1 kg neutral torus with at least `9.80665 m/s²` outward acceleration everywhere at at least `1 m` genuine exterior stand-off**. The distinct spacecraft objective requires a **net whole-craft external upward gravitational interaction** and a corresponding Earth/environment momentum ledger; auxiliary thrust is allowed but must be distinguished. Complete operating energy must be **strictly below `10,000,000 J`**, including source, fields, supports, backreaction, losses, cycles and off-state. Few-joule A12C/R3B numbers remain **prescribed field capacities**, not sourced-device energy. Thursday **November 26, 2026** is an aggressive research decision deadline, **not a promise of a working engine**.
+
+**Reading order:** verified JSON/SHA and producing code/test logs → [November 18 research journal](journal/2026-11-18_032h17a12d1r3x3b17_beta1_ph16_04r2_gamma1_gravity_bridge_handoff.md) (after it is copied into `journal/`) → comprehensive GAMMA carry-over notes → [`ARTIFICIAL_BUILDPLAN.MD`](ARTIFICIAL_BUILDPLAN.MD) for artificial priorities and [`RESEARCH_BUILDPLAN.md`](RESEARCH_BUILDPLAN.md) for physical certification requirements → [`AGMINER_BUILDPLAN.MD`](AGMINER_BUILDPLAN.MD) and [`INTROSPECTIVE_BUILDPLAN.md`](INTROSPECTIVE_BUILDPLAN.md) for preserved failure history. Older descriptions below remain archival and are **not** the current experiment queue.
+
+---
+
+## Historical README — November 15, 2026 and earlier (preserved verbatim)
+
+> **ARCHIVAL NOTICE:** Everything from the next `# Antigravity Research` heading onward is the original supplied README, retained **byte-for-byte** to preserve its historical links, derivations, figures, licensing and dated decisions. Its November 15 **PH14 latest / PH15 next** statement, November 13 M5N queue, and older appendices are historical—not the November 18 research frontier. The active research summary is above.
+
+---
+
+# Antigravity Research
+
+> **For the benefit of humanity**
+
 **README last updated:** **November 15, 2026**  
 **Current research program:** `032 — AGMINER / 032H17 — HOOK17`  
 **Newest completed experiment:** **`032H17A12D1R3X3B17-PH14`**  
