@@ -1,0 +1,365 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "Lorentzian_mode_health": "NOT_CERTIFIED",
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "branch": "GAMMA1-00R7",
+  "classification": "PASS_WEIGHTED_FV_SMOOTH_PROBE_TREND_NATIVE_MISMATCH_OPEN",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "continuum_Maxwell_bridge": "NOT_CERTIFIED",
+  "decision": "CONDITIONAL_SMOOTH_PROBE_CORRESPONDENCE_ONLY_REQUIRE_BOUNDARY_DTN_AND_NATIVE_OPERATOR_CONVERGENCE",
+  "full_covariant_action": "NOT_CLOSED",
+  "original_PH16_source_replay": "NOT_RUN",
+  "parent_hashes": {
+    "P10_ring_source": {
+      "actual": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "expected": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py"
+    },
+    "P8_FV_source": {
+      "actual": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "expected": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py"
+    },
+    "PH16_source": {
+      "actual": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R3_native": {
+      "actual": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R6_result": {
+      "actual": "6b25e72395e69875ab64c1ca53c773b42ccf5a296b1487847cd313eb697df2be",
+      "expected": "6b25e72395e69875ab64c1ca53c773b42ccf5a296b1487847cd313eb697df2be",
+      "path": "results/data/gamma1_00r6_20261119T032110913285Z.json"
+    },
+    "R6_verification": {
+      "actual": "8dae2a70cf8ce00526640ab69c7fb3ec65a970fcb77e86f064a1da5a8a7c6129",
+      "expected": "8dae2a70cf8ce00526640ab69c7fb3ec65a970fcb77e86f064a1da5a8a7c6129",
+      "path": "results/data/gamma1_00r6_verification_20261119T034852957987Z.json"
+    }
+  },
+  "provenance": "SIX_PARENTS_R6_PRODUCER_CHAIN_VERIFIED",
+  "qualified_physical_survivors": [],
+  "science": {
+    "four_mesh_smooth_probe_trends": {
+      "X_compact_center": {
+        "abs_energy_ratio_minus_one": [
+          0.09320377823755388,
+          0.058680513216679,
+          0.03944713699962943,
+          0.027321407353953164
+        ],
+        "improves_on_all_four_meshes": true
+      },
+      "X_compact_shifted": {
+        "abs_energy_ratio_minus_one": [
+          0.1718671770326421,
+          0.0919610614692703,
+          0.05327941733691266,
+          0.03701246293828797
+        ],
+        "improves_on_all_four_meshes": true
+      },
+      "X_compact_wide": {
+        "abs_energy_ratio_minus_one": [
+          0.08360028471006142,
+          0.040496559228441864,
+          0.026709643727327537,
+          0.018100811949611773
+        ],
+        "improves_on_all_four_meshes": true
+      },
+      "Y_compact_center": {
+        "abs_energy_ratio_minus_one": [
+          0.14233815242886005,
+          0.08913200953966749,
+          0.05968794935082844,
+          0.04112286049551228
+        ],
+        "improves_on_all_four_meshes": true
+      },
+      "Y_compact_shifted": {
+        "abs_energy_ratio_minus_one": [
+          0.226443647578215,
+          0.1276880003038663,
+          0.07180308438639704,
+          0.05035067320578701
+        ],
+        "improves_on_all_four_meshes": true
+      },
+      "Y_compact_wide": {
+        "abs_energy_ratio_minus_one": [
+          0.12407531331277943,
+          0.05734342131156245,
+          0.038171740456355296,
+          0.026031019400245548
+        ],
+        "improves_on_all_four_meshes": true
+      }
+    },
+    "mesh_sweep": [
+      {
+        "Green_vs_weighted_FV": {
+          "X": {
+            "green_dense_nonzeros": 16384,
+            "interior_fit": {
+              "relative_frobenius_mismatch": 0.0812985873894298,
+              "scale": 1.6973634979592542
+            },
+            "inverse_green_weight_identity_relative": 6.837524288583595e-15,
+            "reciprocity_inf": 8.526512829121202e-14,
+            "weighted_fv_nonzeros": 592,
+            "whole_fit": {
+              "relative_frobenius_mismatch": 0.24113896590228465,
+              "scale": 1.440942187918146
+            }
+          },
+          "Y": {
+            "green_dense_nonzeros": 16384,
+            "interior_fit": {
+              "relative_frobenius_mismatch": 0.08031978666159006,
+              "scale": 1.6726666710162803
+            },
+            "inverse_green_weight_identity_relative": 1.80469756864907e-15,
+            "reciprocity_inf": 9.947598300641403e-14,
+            "weighted_fv_nonzeros": 592,
+            "whole_fit": {
+              "relative_frobenius_mismatch": 0.23462371058093662,
+              "scale": 1.4281039060552787
+            }
+          }
+        },
+        "Y_wrong_missing_azimuthal_term_K_over_L0": {
+          "compact_center": 1.590497522590394,
+          "compact_shifted": 1.645736563807783,
+          "compact_wide": 1.4904968426905196
+        },
+        "actual_exterior": "NOT_DERIVED",
+        "compact_smooth_energy_K_over_FV": {
+          "X": {
+            "compact_center": 1.0932037782375539,
+            "compact_shifted": 1.171867177032642,
+            "compact_wide": 1.0836002847100614
+          },
+          "Y": {
+            "compact_center": 1.14233815242886,
+            "compact_shifted": 1.226443647578215,
+            "compact_wide": 1.1240753133127794
+          }
+        },
+        "h": 1.5,
+        "nr": 8,
+        "nz": 16,
+        "probe_type": "PRESCRIBED_SMOOTH_OFF_SHELL_NOT_PH16_SOLUTIONS",
+        "source_solve": "NOT_RUN"
+      },
+      {
+        "Green_vs_weighted_FV": {
+          "X": {
+            "green_dense_nonzeros": 82944,
+            "interior_fit": {
+              "relative_frobenius_mismatch": 0.08438488445143245,
+              "scale": 1.6972380318796663
+            },
+            "inverse_green_weight_identity_relative": 1.274462216311124e-14,
+            "reciprocity_inf": 1.2789769243681803e-13,
+            "weighted_fv_nonzeros": 1368,
+            "whole_fit": {
+              "relative_frobenius_mismatch": 0.20917219000322523,
+              "scale": 1.5171616540335955
+            }
+          },
+          "Y": {
+            "green_dense_nonzeros": 82944,
+            "interior_fit": {
+              "relative_frobenius_mismatch": 0.08381580272316372,
+              "scale": 1.6857356066088174
+            },
+            "inverse_green_weight_identity_relative": 3.864404254953413e-15,
+            "reciprocity_inf": 1.7053025658242404e-13,
+            "weighted_fv_nonzeros": 1368,
+            "whole_fit": {
+              "relative_frobenius_mismatch": 0.20651134397683454,
+              "scale": 1.5096572986461376
+            }
+          }
+        },
+        "Y_wrong_missing_azimuthal_term_K_over_L0": {
+          "compact_center": 1.461778532436092,
+          "compact_shifted": 1.481487305016846,
+          "compact_wide": 1.3943965668901281
+        },
+        "actual_exterior": "NOT_DERIVED",
+        "compact_smooth_energy_K_over_FV": {
+          "X": {
+            "compact_center": 1.058680513216679,
+            "compact_shifted": 1.0919610614692703,
+            "compact_wide": 1.0404965592284419
+          },
+          "Y": {
+            "compact_center": 1.0891320095396675,
+            "compact_shifted": 1.1276880003038663,
+            "compact_wide": 1.0573434213115624
+          }
+        },
+        "h": 1.0,
+        "native_R3_background": {
+          "X": {
+            "K_minus_FV_gradient_relative": 4.763036428852612,
+            "K_over_FV_energy": 0.5512973107589622,
+            "on_field_best_scale": 0.0406135701054044,
+            "on_field_best_scaled_gradient_mismatch": 0.9803399683852743
+          },
+          "Y": {
+            "K_minus_FV_gradient_relative": 0.9715493527133897,
+            "K_over_FV_energy": 1.0121505968074225,
+            "on_field_best_scale": 0.5192029997679752,
+            "on_field_best_scaled_gradient_mismatch": 0.7786470339404251
+          }
+        },
+        "nr": 12,
+        "nz": 24,
+        "probe_type": "PRESCRIBED_SMOOTH_OFF_SHELL_NOT_PH16_SOLUTIONS",
+        "source_solve": "NOT_RUN"
+      },
+      {
+        "Green_vs_weighted_FV": {
+          "X": {
+            "green_dense_nonzeros": 262144,
+            "interior_fit": {
+              "relative_frobenius_mismatch": 0.08579721573164531,
+              "scale": 1.6973480528416258
+            },
+            "inverse_green_weight_identity_relative": 2.0134824447424548e-14,
+            "reciprocity_inf": 2.1316282072803006e-13,
+            "weighted_fv_nonzeros": 2464,
+            "whole_fit": {
+              "relative_frobenius_mismatch": 0.18915805298404695,
+              "scale": 1.5585041512403799
+            }
+          },
+          "Y": {
+            "green_dense_nonzeros": 262144,
+            "interior_fit": {
+              "relative_frobenius_mismatch": 0.08542511165685307,
+              "scale": 1.690644667049353
+            },
+            "inverse_green_weight_identity_relative": 6.462509736760984e-15,
+            "reciprocity_inf": 1.9895196601282805e-13,
+            "weighted_fv_nonzeros": 2464,
+            "whole_fit": {
+              "relative_frobenius_mismatch": 0.18775845441887434,
+              "scale": 1.5536218062963425
+            }
+          }
+        },
+        "Y_wrong_missing_azimuthal_term_K_over_L0": {
+          "compact_center": 1.4059633706751815,
+          "compact_shifted": 1.40659266437063,
+          "compact_wide": 1.3573009656035324
+        },
+        "actual_exterior": "NOT_DERIVED",
+        "compact_smooth_energy_K_over_FV": {
+          "X": {
+            "compact_center": 1.0394471369996294,
+            "compact_shifted": 1.0532794173369127,
+            "compact_wide": 1.0267096437273275
+          },
+          "Y": {
+            "compact_center": 1.0596879493508284,
+            "compact_shifted": 1.071803084386397,
+            "compact_wide": 1.0381717404563553
+          }
+        },
+        "h": 0.75,
+        "nr": 16,
+        "nz": 32,
+        "probe_type": "PRESCRIBED_SMOOTH_OFF_SHELL_NOT_PH16_SOLUTIONS",
+        "source_solve": "NOT_RUN"
+      },
+      {
+        "Green_vs_weighted_FV": {
+          "X": {
+            "green_dense_nonzeros": 640000,
+            "interior_fit": {
+              "relative_frobenius_mismatch": 0.08661244764387943,
+              "scale": 1.697485614061896
+            },
+            "inverse_green_weight_identity_relative": 2.8334085173614187e-14,
+            "reciprocity_inf": 1.865174681370263e-13,
+            "weighted_fv_nonzeros": 3880,
+            "whole_fit": {
+              "relative_frobenius_mismatch": 0.17526749192961422,
+              "scale": 1.5844854228863778
+            }
+          },
+          "Y": {
+            "green_dense_nonzeros": 640000,
+            "interior_fit": {
+              "relative_frobenius_mismatch": 0.08634978313019666,
+              "scale": 1.6930700298645172
+            },
+            "inverse_green_weight_identity_relative": 8.637223065887983e-15,
+            "reciprocity_inf": 1.9895196601282805e-13,
+            "weighted_fv_nonzeros": 3880,
+            "whole_fit": {
+              "relative_frobenius_mismatch": 0.17441845441097034,
+              "scale": 1.581053128114955
+            }
+          }
+        },
+        "Y_wrong_missing_azimuthal_term_K_over_L0": {
+          "compact_center": 1.3758957963934582,
+          "compact_shifted": 1.3701504540592226,
+          "compact_wide": 1.3368192338019265
+        },
+        "actual_exterior": "NOT_DERIVED",
+        "compact_smooth_energy_K_over_FV": {
+          "X": {
+            "compact_center": 1.0273214073539532,
+            "compact_shifted": 1.037012462938288,
+            "compact_wide": 1.0181008119496118
+          },
+          "Y": {
+            "compact_center": 1.0411228604955123,
+            "compact_shifted": 1.050350673205787,
+            "compact_wide": 1.0260310194002455
+          }
+        },
+        "h": 0.6,
+        "nr": 20,
+        "nz": 40,
+        "probe_type": "PRESCRIBED_SMOOTH_OFF_SHELL_NOT_PH16_SOLUTIONS",
+        "source_solve": "NOT_RUN"
+      }
+    ],
+    "scope": {
+      "Earth_down_whole_craft_up": "NOT_DERIVED",
+      "Einstein_metric": "NOT_SOLVED",
+      "Green_operator": "inverse of original reciprocal ring Green with original self quadrature",
+      "Schur_boundary_DtN": "NOT_CONSTRUCTED",
+      "complete_energy_lt10MJ": "NOT_CERTIFIED",
+      "continuum_exterior": "NOT_CERTIFIED",
+      "coupled_Lorentzian_health": "NOT_CERTIFIED",
+      "finite_mesh_energy_trend": "MEASURED_ON_OFF_SHELL_COMPACT_PROBES_ONLY",
+      "native_actual_field_operator_compatibility": "NOT_CERTIFIED",
+      "weighted_FV_operator": "W L_m0 for X; W (L_m0+diag(rho^-2)) for Y"
+    }
+  },
+  "source_hashes": {
+    "simulations/gamma1/gamma1_00r7_run.py": "48ced7f29fc390d6a02fb53c3d68e12b2672ba769da8ebdea5f585900ce04bb4",
+    "src/antigravity_research/gamma1/gamma1_00r7_green_fv.py": "5905f7db8156cced54d0934316b4e6150b725eaf896f485b139b60757bb12592",
+    "tests/gamma1/test_gamma1_00r7.py": "f04d926db9bc5e89ebbc13d93ede6f3cd99e9ea5e0334ca55ef4822baeabfddd",
+    "tests/gamma1/verify_gamma1_00r7.py": "11e2c9d0309dfd82dcddb1402dc73167badb4574b0d9bf129032fdffe9acc760",
+    "theory/gamma1/GAMMA1_00R7_GREEN_TO_MAXWELL_WEAK_FORM_LEDGER.md": "331bc32e3c5f92bf82f4ae934831e9757319a795000d0db1052342a9d5fbd6e2"
+  },
+  "timestamp_utc": "2026-11-19T04:03:12.289588+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

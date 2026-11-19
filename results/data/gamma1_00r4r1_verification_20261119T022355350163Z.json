@@ -1,0 +1,55 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_and_exterior": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "R4R1_new_tests_passed": 8,
+  "R4R1_producing_source_hashes": {
+    "tests/gamma1/test_gamma1_00r4r1.py": "e429318bd57bb0c653f9917994e5fb709651e8dbdde9d448b49b925e8c48db29",
+    "tests/gamma1/verify_gamma1_00r4r1.py": "35a5c1c0368a3848622a3801a0b1664bea51ad840ca555afcd327e09cf4b994b",
+    "theory/gamma1/GAMMA1_00R4R1_INDEPENDENT_SIGN_ERRATUM.md": "d4b261e1acd962cdd3bfe57767c8bf003f9558c33f336534e9b3fffad6950a3f"
+  },
+  "R4_new_tests_passed": 31,
+  "actual_Lorentzian_mode_health": "NOT_CERTIFIED",
+  "branch": "GAMMA1-00R4R1",
+  "classification": "R4_SCOPED_SIGN_AUDIT_CORRECTED_VERIFIER_AND_FULL_REGRESSION_VERIFIED",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "erratum": "INDEPENDENT_FOURTH_ORDER_DOUBLE_NEGATION_REMOVED_IN_NEW_VERIFIER_ONLY",
+  "focused_log_sha256": "67117a41d6a08be123a6fbbc3328b764ba711d6632dc7464debd801b96c8143b",
+  "focused_tests_passed": 39,
+  "fourth_order_deep_outer_outward_inward": [
+    128,
+    0
+  ],
+  "full_regression_log_sha256": "b7d3b836b57173d85317625d6bfe5d990861dc6263c6e8af501f5f916a93c531",
+  "full_regression_passed": 3072,
+  "new_independent_log_sha256": "20f12df6f56870ada2044f69edc083dfc5d8f0a04831a543b2ff79229f5aefc3",
+  "original_R4_failed_independent_logs": [
+    {
+      "outcome": "ORIGINAL_INDEPENDENT_VERIFIER_FAILED",
+      "path": "results/logs/gamma1_00r4_independent_20261119T011503Z.log",
+      "sha256": "8f3cdae4c0c80a3a04be63332ddd8abadfc299e8926c7222e83eef4574dada12"
+    }
+  ],
+  "original_R4_producing_source_hashes": {
+    "simulations/gamma1/gamma1_00r4_background_audit.py": "6224fdaf7b2b28df471741b532b1a60afeabfa6d12a8edbed4e05210c86d7be7",
+    "src/antigravity_research/gamma1/gamma1_00r4_background_sign.py": "b6e04c8784dfc68309916b1911b2f6f5f70bd8d3f9e762d6d4318c9205a72cac",
+    "tests/gamma1/test_gamma1_00r4.py": "e1e80a21682457af63cba47692d4ecad5a3c7080627e990390e0d4cfd76100c9",
+    "tests/gamma1/verify_gamma1_00r4.py": "77a5c5902781e9c25367bc6658a1bf006137e26a310cc8e38baea6eacfb9922d",
+    "theory/gamma1/GAMMA1_00R4_ON_BACKGROUND_PORTAL_SIGN_LEDGER.md": "92678d08c0adf772a6eb15bac7c2050f379f3fb2913af9d44ae74514bba86ddc"
+  },
+  "original_R4_result": "results/data/gamma1_00r4_20261119T011504749138Z.json",
+  "original_R4_result_sha256": "fc33edeec61f3e0e5c4b260b5aa5151328213356d9187eb7fab615f180ee278d",
+  "original_verifier_outcome": "FAILED_PRESERVED",
+  "previous_baseline_passed": 3033,
+  "second_order_full_mesh_outward_inward": [
+    248,
+    40
+  ],
+  "second_order_outer_outward_inward": [
+    232,
+    0
+  ],
+  "timestamp_utc": "2026-11-19T02:23:55.350163+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

@@ -1,0 +1,144 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "Lorentzian_constraint_health": "NOT_CERTIFIED",
+  "PH16_05_authorized": false,
+  "PH16_replay": "NOT_RUN",
+  "PH17_authorized": false,
+  "branch": "GAMMA1-00R6",
+  "classification": "PASS_RESTRICTED_STATIC_TRACE_AND_FAIL_NODAL_MAXWELL_MATCH",
+  "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+  "complete_covariant_action": "NOT_CLOSED",
+  "controls": {
+    "local_scaled_seven_frobenius": {
+      "X": {
+        "best_scale": 7.000000000000001,
+        "relative_frobenius_mismatch": 1.2855610197546023e-16
+      },
+      "Y": {
+        "best_scale": 6.999999999999998,
+        "relative_frobenius_mismatch": 2.5756781432001877e-16
+      }
+    },
+    "local_self_frobenius": {
+      "X": {
+        "best_scale": 1.0,
+        "relative_frobenius_mismatch": 0.0
+      },
+      "Y": {
+        "best_scale": 1.0,
+        "relative_frobenius_mismatch": 0.0
+      }
+    },
+    "nonlocal_vs_local": "NOT_A_CONTINUUM_NO_GO",
+    "source_off_coupling_off": "FORMAL_OPERATOR_NULL_ONLY_NOT_SELF_CONSISTENT"
+  },
+  "decision": "NO_EXACT_SAME_NODAL_MAXWELL_REDUCTION; REQUIRE_CONTINUUM_GALERKIN_AND_FULL_LORENTZIAN_ACTION",
+  "interpretation": {
+    "Earth_down_whole_craft_up": "NOT_DERIVED",
+    "Einstein_stress_and_metric": "NOT_DERIVED",
+    "SI_complete_energy_lt10MJ": "NOT_CERTIFIED",
+    "exact_full_covariant_reduction": "NOT_ESTABLISHED",
+    "full_Lorentzian_constraints": "NOT_DERIVED",
+    "nonlocal_Green_Galerkin_continuum": "NOT_TESTED",
+    "restricted_static_trace_match": "PASS_CONDITIONAL_ON_CANDIDATE_MATTER_QUADRATURE",
+    "same_nodal_stencil_local_Maxwell_operator_match": "FAIL_BOTH_CARRIERS_EVEN_OPTIMAL_CONSTANT_SCALING"
+  },
+  "kernel_comparison": {
+    "X_electric": {
+      "interior_220x220": {
+        "best_scale": 4.104350662967797,
+        "relative_frobenius_mismatch": 0.6387951442099358
+      },
+      "local_definition": "Dr.T W Dr + Dz.T W Dz",
+      "local_nodal_matrix_nonzero_entries": 1440,
+      "on_archived_field_best_scale": 0.7680907165746034,
+      "on_archived_field_relative_gradient_mismatch": 0.5617461089374881,
+      "original_green_kernel_nonzero_entries": 82944,
+      "whole_grid": {
+        "best_scale": 3.1589277421499613,
+        "relative_frobenius_mismatch": 0.6478038128257362
+      }
+    },
+    "Y_magnetic": {
+      "interior_220x220": {
+        "best_scale": 4.156990446573838,
+        "relative_frobenius_mismatch": 0.6347973795017361
+      },
+      "local_definition": "BR.T W BR + BZ.T W BZ",
+      "local_nodal_matrix_nonzero_entries": 1440,
+      "on_archived_field_best_scale": 0.641100670614217,
+      "on_archived_field_relative_gradient_mismatch": 0.14988952537669095,
+      "original_green_kernel_nonzero_entries": 82944,
+      "whole_grid": {
+        "best_scale": 3.208891102501299,
+        "relative_frobenius_mismatch": 0.6417059757558583
+      }
+    }
+  },
+  "numbers": {
+    "Routhian_NOT_J": 2401.472107471401,
+    "full_source_canonical_action_and_fixed_N": "YES_WITHIN_PH16_LATTICE",
+    "restricted_matter_trace_lambda_max_abs_error": 2.220446049250313e-16,
+    "stationary_gradient_L2": 6.80575961397518e-08,
+    "trace_portal_multiplier_negative_cells": 288,
+    "trace_portal_multiplier_positive_cells": 0
+  },
+  "parents": {
+    "PH16_source": {
+      "actual": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R3_native": {
+      "actual": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R4R1_verification": {
+      "actual": "292c5fe396d2d448467346e5d1d7e06f76497dc3da5b504777232c9dd4b251b8",
+      "expected": "292c5fe396d2d448467346e5d1d7e06f76497dc3da5b504777232c9dd4b251b8",
+      "path": "results/data/gamma1_00r4r1_verification_20261119T022355350163Z.json"
+    },
+    "R5_multiplier": {
+      "actual": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883",
+      "expected": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883",
+      "path": "results/data/gamma1_00r5_20261119T024922295970Z_lattice_multiplier_12_L12.npz"
+    },
+    "R5_result": {
+      "actual": "7afa65cb80e66808a7fb88d0370906b63c090efed50c9d1aba74d50769bc05fd",
+      "expected": "7afa65cb80e66808a7fb88d0370906b63c090efed50c9d1aba74d50769bc05fd",
+      "path": "results/data/gamma1_00r5_20261119T024922295970Z.json"
+    },
+    "R5_verification": {
+      "actual": "5140149466fadd1230206653177b4423dd39301ea9a7105c6eec81467da67150",
+      "expected": "5140149466fadd1230206653177b4423dd39301ea9a7105c6eec81467da67150",
+      "path": "results/data/gamma1_00r5_verification_20261119T030257621565Z.json"
+    }
+  },
+  "producing_sources": {
+    "simulations/gamma1/gamma1_00r6_run.py": "a3c98d21efe781df32f3d2bcbf88af0929ec2990139ad1963614d2119d3f0b82",
+    "src/antigravity_research/gamma1/gamma1_00r6_trace_kernel.py": "150ba3a0e2b4e2c464b5634dbeaa6e8d2a2e8b77696732e60354ea37d783699c",
+    "tests/gamma1/test_gamma1_00r6.py": "a0bf6ce829b6d6de4feb84dfc972814400a73b00c3631801568fa01755769090",
+    "tests/gamma1/verify_gamma1_00r6.py": "49df4e1c2e6f680d0baf1bf2e4382e78a459c8c4d47162a9b80bad91d60806cf",
+    "theory/gamma1/GAMMA1_00R6_RESTRICTED_TRACE_AND_KERNEL_FORK.md": "8275b009e0847eac83de74ce3f87c4203c50703e8f9601339f46d623c04dd1c8"
+  },
+  "qualified_physical_survivors": [],
+  "restricted_trace_archive": {
+    "keys": [
+      "candidate_matter_trace_undressed",
+      "candidate_restricted_lambda",
+      "charged_source_trace_density",
+      "neutral_fluid_trace_density",
+      "trace_minus_R5_lambda"
+    ],
+    "path": "results/data/gamma1_00r6_20261119T032110913285Z_restricted_trace_12_L12.npz",
+    "sha256": "938ddd9a748e42a87295e07cf534229018cd6dc8137ac0c3a84c95df610b1307"
+  },
+  "source_free_exterior": "NOT_CERTIFIED",
+  "timestamp_utc": "2026-11-19T03:21:10.913285+00:00",
+  "verified_parent_chain": "PASS_SIX_IMMUTABLE_PARENTS_AND_R5_SOURCE_FILES",
+  "whole_craft_up": "NOT_DERIVED"
+}

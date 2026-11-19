@@ -1,0 +1,135 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_stress_metric": "NOT_DERIVED",
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "actual_PH16_source_replay": "NOT_RUN",
+  "ancestry": {
+    "R9_producer_SHA_verified": 5,
+    "parent_SHA_verified": 6,
+    "previous_regression": 3176
+  },
+  "branch": "GAMMA1-00R10",
+  "classification": "PASS_RESTRICTED_LORENTZIAN_MATTER_REDUCTION_AND_FROZEN_MODE_PREFLIGHT",
+  "complete_Lorentzian_action": "NOT_CLOSED",
+  "complete_offshell_Ward_Noether_Bianchi": "NOT_CLOSED",
+  "complete_operating_energy_lt10MJ": "NOT_CERTIFIED",
+  "decision": "CONDITIONAL_STATIC_MATTER_PARENT_EXISTS; FINITE_RING_MAXWELL_AND_COMPLETE_LORENTZIAN_EARTH_SUPPORT_EINSTEIN_ACTION_UNPROVEN",
+  "evidence": {
+    "beta40": {
+      "charge_numbers": [
+        400.0,
+        400.0000000000001
+      ],
+      "chi_finite_difference_max_abs": 0.0009060817107382491,
+      "chi_range": [
+        11.098839937543328,
+        76.58578913132943
+      ],
+      "electric_rank_one_min": 1.0000001761858768,
+      "lambda_finite_difference_max_abs": 2.0488602873292017e-05,
+      "lambda_range": [
+        -0.8739409123238797,
+        -0.0067843422262434585
+      ],
+      "magnetic_rank_one_min": 0.25035013720637156,
+      "negative_electric_cells": 0,
+      "negative_magnetic_cells": 0,
+      "net_X_gauge_charge": -1.4210854715202004e-14,
+      "omega": [
+        0.8390028148449397,
+        0.8390028158429375
+      ],
+      "redshifted_fluid_mu_spread": 4.440892098500626e-16
+    },
+    "beta60_OFFSHELL_FROZEN_PROFILE_CONTROL": {
+      "electric_rank_one_min": 1.0000002642822379,
+      "fixed_charge_frequency_recomputed": "YES",
+      "magnetic_rank_one_min": -0.12150133781471784,
+      "negative_magnetic_cells": 4,
+      "neutral_material_label_frozen_from_beta40": "YES",
+      "original_PH16_stationarity_beta60": "NOT_CLAIMED"
+    },
+    "obstructions": {
+      "Earth_down_whole_craft_up": "NOT_DERIVED",
+      "Routhian_matter_static_ansatz": "CONDITIONAL_CHARGED_SCALARS_PLUS_ISENTROPIC_FLUID",
+      "SI_normalization_for_portal": "UNKNOWN",
+      "UV_empirical_consistency": "NOT_TESTED",
+      "X_Y_spatial_quadratic": "FINITE_RING_GREEN_NOT_PROVEN_TO_EQUAL_LORENTZIAN_MAXWELL_REDUCTION",
+      "actual_source_off_and_Earth_present": "NOT_SOLVED",
+      "complete_energy_lt10MJ": "NOT_CERTIFIED",
+      "full_constrained_Lorentzian_symbol": "NOT_COMPUTED",
+      "full_offshell_fluid_current_Earth_hull_support": "UNSPECIFIED",
+      "metric_P_Hodge_variation": "FORMAL_ALGEBRA_ONLY_NO_EINSTEIN_EOM"
+    },
+    "single_monopole_SI_CONTROL_ONLY": {
+      "G_m3_kg_s2": 6.6743e-11,
+      "c_m_s": 299792458.0,
+      "equivalent_magnitude_mass_kg": 146931513417.1374,
+      "rest_energy_J": 1.3205545860329043e+28,
+      "scope": "POINT_MONOPOLE_1M_ONLY_NOT_006D_OR_UNIVERSAL_NO_GO",
+      "sign": "POSITIVE_MASS_ATTRACTIVE_NEGATIVE_MONOPOLE_REPULSIVE_UNDER_NEWTONIAN_ASSUMPTIONS"
+    }
+  },
+  "exact_restricted_identities": {
+    "Hodge_Weyl_weight_minus_four": true,
+    "Noether_time_derivative": true,
+    "Routhian_fixed_charge_stationarity": true,
+    "constant_portal_does_not_change_quadratic_blocks": true,
+    "electric_Hessian_determinant": true,
+    "electric_rank_one_Hessian": true,
+    "fluid_energy_label_reduction": true,
+    "fluid_redshifted_chemical_potential": true,
+    "magnetic_Hessian_determinant": true,
+    "magnetic_rank_one_Hessian": true,
+    "metric_trace_portal_algebra": true,
+    "portal_coupling_off_zero": true,
+    "time_gauge_shift_scalar_L": true
+  },
+  "full_constrained_mode_health": "NOT_CERTIFIED",
+  "parents": {
+    "PH16_original": {
+      "actual_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R3_native": {
+      "actual_sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected_sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R5_multiplier": {
+      "actual_sha256": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883",
+      "expected_sha256": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883",
+      "path": "results/data/gamma1_00r5_20261119T024922295970Z_lattice_multiplier_12_L12.npz"
+    },
+    "R9_axis_archive": {
+      "actual_sha256": "5fb9a4966074e749cf697b50421cc7047c28cbae35a80f0d77942aac8721f8bd",
+      "expected_sha256": "5fb9a4966074e749cf697b50421cc7047c28cbae35a80f0d77942aac8721f8bd",
+      "path": "results/data/gamma1_00r9_20261119T050922694396Z_Y_axis_regular_12_L12.npz"
+    },
+    "R9_result": {
+      "actual_sha256": "eec38658fccbc6f7f7f5de392aa76d08052f2be91937c8e06da553d224b43a9a",
+      "expected_sha256": "eec38658fccbc6f7f7f5de392aa76d08052f2be91937c8e06da553d224b43a9a",
+      "path": "results/data/gamma1_00r9_20261119T050922694396Z.json"
+    },
+    "R9_verify": {
+      "actual_sha256": "7d56fca3931369ea68dc2e973f4e8b8ebbce72a8dd5d85e50532374d6cc2811a",
+      "expected_sha256": "7d56fca3931369ea68dc2e973f4e8b8ebbce72a8dd5d85e50532374d6cc2811a",
+      "path": "results/data/gamma1_00r9_verification_20261119T052236433890Z.json"
+    }
+  },
+  "producing_sources": {
+    "simulations/gamma1/gamma1_00r10_run.py": "aacb93fe078bf5f835ae7858216d8607762df1ed83f163353d0eb03263f03958",
+    "src/antigravity_research/gamma1/gamma1_00r10_lorentzian_preflight.py": "1f0ebed5ee2f066ad7266abb6786e1d56de77e51c77c0a3831510b2389ccb9d8",
+    "tests/gamma1/test_gamma1_00r10.py": "2476c7bcebb963114faec079757f09887ac9f2f2116385540da27bf05ad373be",
+    "tests/gamma1/verify_gamma1_00r10.py": "ac7887830d4c98bc808622fb62c4c0d26ba5e6055af03a2b25907beb06e2e65c",
+    "theory/gamma1/GAMMA1_00R10_LORENTZIAN_COMPLETION_OBSTRUCTION_LEDGER.md": "57adaa2174be06f69e13a27771cbd5783c7cd701f870b998d260d13e47fe6c7e"
+  },
+  "qualified_full_gravity_bridge_survivors": [],
+  "scientific_scope": "STATIC_CHARGED_SCALAR_FLUID_REDUCTION_AND_INSTANTANEOUS_U1_BLOCKS_ONLY",
+  "timestamp_utc": "2026-11-19T06:50:42.059747+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

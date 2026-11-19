@@ -1,0 +1,67 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "Lorentzian_mode_health": "NOT_CERTIFIED",
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "branch": "GAMMA1-00R7",
+  "classification": "WEIGHTED_FV_SMOOTH_PROBE_BRIDGE_SCOPED_AND_FULL_REGRESSION_VERIFIED",
+  "complete_covariant_action": "NOT_CLOSED",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "continuum_Maxwell_bridge": "NOT_CERTIFIED",
+  "focused_log_sha256": "5cc7625a712cedd076950a817f25ebef95d0b982d5331655c3139a3b457a98b6",
+  "focused_tests_passed": 17,
+  "full_log_sha256": "d2019ac32d501b7f51ab3582685ab077480645001f0f09e91ac62cc14b7baa8a",
+  "full_regression_passed": 3124,
+  "independent_log_sha256": "88836467ee661db5f2b6abd20c0e80f393203d6f654af65cda84188f649f4f24",
+  "manufactured_smooth_probe_energy": "FOUR_MESH_DECREASING_DISCREPANCY_ONLY",
+  "native_ph16_gradient_correspondence": "NOT_CERTIFIED",
+  "parent_hashes": {
+    "P10_ring_source": {
+      "actual": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "expected": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py"
+    },
+    "P8_FV_source": {
+      "actual": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "expected": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py"
+    },
+    "PH16_source": {
+      "actual": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R3_native": {
+      "actual": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R6_result": {
+      "actual": "6b25e72395e69875ab64c1ca53c773b42ccf5a296b1487847cd313eb697df2be",
+      "expected": "6b25e72395e69875ab64c1ca53c773b42ccf5a296b1487847cd313eb697df2be",
+      "path": "results/data/gamma1_00r6_20261119T032110913285Z.json"
+    },
+    "R6_verification": {
+      "actual": "8dae2a70cf8ce00526640ab69c7fb3ec65a970fcb77e86f064a1da5a8a7c6129",
+      "expected": "8dae2a70cf8ce00526640ab69c7fb3ec65a970fcb77e86f064a1da5a8a7c6129",
+      "path": "results/data/gamma1_00r6_verification_20261119T034852957987Z.json"
+    }
+  },
+  "physical_exterior": "NOT_CERTIFIED",
+  "previous_regression_baseline": 3107,
+  "producing_sources": {
+    "simulations/gamma1/gamma1_00r7_run.py": "48ced7f29fc390d6a02fb53c3d68e12b2672ba769da8ebdea5f585900ce04bb4",
+    "src/antigravity_research/gamma1/gamma1_00r7_green_fv.py": "5905f7db8156cced54d0934316b4e6150b725eaf896f485b139b60757bb12592",
+    "tests/gamma1/test_gamma1_00r7.py": "f04d926db9bc5e89ebbc13d93ede6f3cd99e9ea5e0334ca55ef4822baeabfddd",
+    "tests/gamma1/verify_gamma1_00r7.py": "11e2c9d0309dfd82dcddb1402dc73167badb4574b0d9bf129032fdffe9acc760",
+    "theory/gamma1/GAMMA1_00R7_GREEN_TO_MAXWELL_WEAK_FORM_LEDGER.md": "331bc32e3c5f92bf82f4ae934831e9757319a795000d0db1052342a9d5fbd6e2"
+  },
+  "run_log_sha256": "50c044393d5a2a3ce9c049cdb549c2d2a7bdc03eab9dc21b4b4845d5669257f0",
+  "scientific_result_path": "results/data/gamma1_00r7_20261119T040312289588Z.json",
+  "scientific_result_sha256": "87037cbc138ad86bdb4a57e87b7d12228cd0054878b2bc79509b51f9f22cb1bc",
+  "timestamp_utc": "2026-11-19T04:16:23.492189+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

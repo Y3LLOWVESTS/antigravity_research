@@ -1,0 +1,190 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "M0_actual_stationary_background_ghost": "NOT_ESTABLISHED",
+  "M0_full_modes_from_archived_R2": "NOT_DETERMINABLE",
+  "M0_same_covariant_action": "NOT_SPECIFIED_BY_R2_ROUTHIAN",
+  "PH16_05_authorized": false,
+  "PH16_R2_saved_data": {
+    "all_three_complete_saved_profiles": false,
+    "can_evaluate_actual_background_local_kinetic_matrix": false,
+    "can_evaluate_full_Lorentzian_constrained_spectrum": false,
+    "cases": {
+      "12_L12": {
+        "Noether_N": [
+          400.0,
+          400.0000000000001
+        ],
+        "frozen_magnetic_margin_min": 0.2503501372063712,
+        "frozen_negative_cells": 0,
+        "joint_residual_L2": 6.80575961397518e-08,
+        "saved_final_field_arrays": false,
+        "stationary_root_success": true,
+        "weak_seed_residual_L2": 3.7993709240913414e-08
+      },
+      "12_L16": {
+        "Noether_N": [
+          400.0,
+          400.00000000000006
+        ],
+        "frozen_magnetic_margin_min": 0.2581451900658178,
+        "frozen_negative_cells": 0,
+        "joint_residual_L2": 9.284802742858782e-08,
+        "saved_final_field_arrays": false,
+        "stationary_root_success": true,
+        "weak_seed_residual_L2": 7.458945349214497e-08
+      },
+      "18_L12": {
+        "Noether_N": [
+          400.0000000000001,
+          399.99999999999994
+        ],
+        "frozen_magnetic_margin_min": 0.26059737608654576,
+        "frozen_negative_cells": 0,
+        "joint_residual_L2": 6.53298485747981e-08,
+        "saved_final_field_arrays": false,
+        "stationary_root_success": true,
+        "weak_seed_residual_L2": 0.018773933053511754
+      }
+    },
+    "limitation": "Verified R2 scalar summaries omit final F[2,N], A[N], Y[N] arrays. A spatial stationary Routhian also lacks a full unique Lorentzian kinetic/constraint action.",
+    "missing_final_arrays_per_mesh": {
+      "12_L12": [
+        "A",
+        "F",
+        "Y"
+      ],
+      "12_L16": [
+        "A",
+        "F",
+        "Y"
+      ],
+      "18_L12": [
+        "A",
+        "F",
+        "Y"
+      ]
+    },
+    "rerun_of_PH16_performed": false
+  },
+  "PH16_source_structure": {
+    "PH16_source_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+    "case_return_keys": [
+      "P10",
+      "Y_only_seed",
+      "Y_preconditioned_joint",
+      "direct_weak_seed",
+      "discrete_exterior",
+      "finite_difference",
+      "initial",
+      "initialization_sensitivity",
+      "mesh",
+      "physical_earth_metric"
+    ],
+    "final_state_arrays_returned": false,
+    "final_summary_variable": "pre_solved",
+    "recomputation_performed": false,
+    "stationary_state_local_only": true
+  },
+  "PH17_authorized": false,
+  "branch": "GAMMA1-00R2",
+  "classification": "PASS_SCOPED_NONUNIQUENESS_AND_EVIDENCE_SUFFICIENCY",
+  "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+  "covariant_completion_nonuniqueness": {
+    "eta_values_and_transverse_electric_coeff": {
+      "eta_minus2": -1,
+      "eta_plus2": 3,
+      "eta_zero": 1
+    },
+    "exact_checks": {
+      "Maxwell_eta0_positive": true,
+      "Y_transverse_electric_hessian_shift_eta": true,
+      "gauge_dd_commutator_null": true,
+      "mode_dispersion_frozen_fluid": true,
+      "negative_eta_minus2_negative": true,
+      "positive_eta2_positive": true,
+      "stationary_B_first_variation_zero": true,
+      "stationary_E_first_variation_zero": true,
+      "stationary_magnetostatic_delta_zero": true,
+      "stationary_metric_and_u_first_variations_zero": true
+    },
+    "hypothesis": "u is a normalized dynamical fluid velocity in a covariant completion; u=(1,0,0,0) in its local rest frame and Y electric components vanish in PH16 magnetostatics",
+    "not_established": "No on-shell PH16 ghost, no real fluid completion, no actual full constraint spectrum, no Einstein or SI prediction",
+    "operator": "(eta/2)*(u^mu F^Y_mu nu)*(u^rho F^Y_rho{}^nu)",
+    "result": "Same stationary fields and first variations, different Lorentzian electric principal symbols",
+    "role": "NONUNIQUENESS_COUNTEREXAMPLE_NOT_PROPOSED_NEW_PHYSICS",
+    "static_delta_L": "0",
+    "static_first_EL_variations": "0 within static magnetostatic subspace",
+    "transverse_dispersion_frozen_u": "(1+eta)*omega^2=k^2; eta=-2 has nonpositive kinetic/unstable dispersion in this witness"
+  },
+  "decision": "STOP_REPEATING_OFFSHELL_TESTS_SPECIFY_COVARIANT_ACTION_AND_SAVE_PROFILES_FIRST",
+  "experiment": "GAMMA1-00R2_STATIONARY_TO_LORENTZIAN_COMPLETION_GATE",
+  "independent_fraction_electric_hessian": {
+    "-2": -1,
+    "0": 1,
+    "2": 3
+  },
+  "negative_controls": {
+    "E_Y_zero": "all completion terms vanish on static PH16 Y-magnetic ansatz",
+    "eta_0": "canonical Maxwell electric kinetic coefficient +1",
+    "eta_minus2": "alternative negative electric coefficient -1, NOT PH16 instability",
+    "eta_plus2": "alternative healthy-looking local electric coefficient +3, not full health",
+    "gauge": "depends on F_Y, not A_Y directly; dd(gauge)=0",
+    "spatial_data_inadequacy": "scalar maxima/minima cannot be inverted to full final fields"
+  },
+  "next_physics_contract": [
+    "Define unique covariant time-derivative and boundary terms and full dynamical fluid/charged-scalar source plus universal Earth/hull/support actions",
+    "Export immutable native Fplus/Fminus, A_X, A_Y arrays from an original stationary physical solve without changing its equations; record profiles per mesh, hashes, units, boundary conditions and gauge",
+    "Then perform gauge-reduced Lorentzian principal symbol and constrained Schur/characteristic spectrum on that archived source, not prescribed trials",
+    "Derive Einstein/exterior and complete Earth-down/whole-craft-up force ledger independently before further promotion"
+  ],
+  "parent_provenance": "PASS_EXACT_SIX_PARENTS_AND_SOURCES",
+  "producing_sources_sha256": {
+    "simulations/gamma1/gamma1_00r2_completion_gate.py": "0c78ef0b6b5c33ea45234d6ffebf015c1dcac6b071b3794295df4af3240cca6a",
+    "src/antigravity_research/gamma1/gamma1_00r2_completion_gate.py": "dc6d6fbe559d5d0870c21d7dc03946b4fc283fd618c04226e3d003f22762c18b",
+    "tests/gamma1/test_gamma1_00r2.py": "5e4564031743e116f374879df0183e5205bcadca879acdf299eb75453b90eae6",
+    "tests/gamma1/verify_gamma1_00r2.py": "92eca39380437fe06ca3f064ebe9cb97c5f0285bff51eb16d7c61e6a29af0684",
+    "theory/gamma1/GAMMA1_00R2_STATIONARY_COMPLETION_LEDGER.md": "3ca22714e1e8554acf5f0100a4ecc6b843d2727916dbe31c1002ec2d7fc756df"
+  },
+  "provenance": {
+    "GAMMA1_00R1_result": {
+      "actual_sha256": "b543157cddb1e1e97c5260bf1de0ef39b329e7b0ea3b96fb12ed33df20d81e08",
+      "expected_sha256": "b543157cddb1e1e97c5260bf1de0ef39b329e7b0ea3b96fb12ed33df20d81e08",
+      "path": "results/data/gamma1_00r1_20261118T211802035544Z.json"
+    },
+    "GAMMA1_00R1_verification": {
+      "actual_sha256": "e92a73b0a6101e0a980fcab208c9140d55cb25382fb9fe83035763749fd05b63",
+      "expected_sha256": "e92a73b0a6101e0a980fcab208c9140d55cb25382fb9fe83035763749fd05b63",
+      "path": "results/data/gamma1_00r1_verification_20261118T213059468632Z.json"
+    },
+    "GAMMA1_00_result": {
+      "actual_sha256": "480b9228b994f2634fe57ed23b7332e721d9060f43848bdc19e3ace0fb2cc16b",
+      "expected_sha256": "480b9228b994f2634fe57ed23b7332e721d9060f43848bdc19e3ace0fb2cc16b",
+      "path": "results/data/gamma1_00_20261118T202714278070Z.json"
+    },
+    "GAMMA1_00_verification": {
+      "actual_sha256": "5b34d63219e0bf41af376b9f55064883134c1e75f381166c0c87293d21ccf39d",
+      "expected_sha256": "5b34d63219e0bf41af376b9f55064883134c1e75f381166c0c87293d21ccf39d",
+      "path": "results/data/gamma1_00_verification_20261118T204048204526Z.json"
+    },
+    "PH16_R2_result": {
+      "actual_sha256": "ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0",
+      "expected_sha256": "ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0",
+      "path": "results/data/ph16_04_20261118T164454314313Z.json"
+    },
+    "PH16_R2_source": {
+      "actual_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    }
+  },
+  "qualified_physical_survivors": [],
+  "scientific_classification": "PASS_SCOPED_NONUNIQUENESS_AND_EVIDENCE_SUFFICIENCY",
+  "scope": "EXACT_LOCAL_COUNTEREXAMPLE_PLUS_ORIGINAL_SAVED_RESULT_AUDIT_NO_PDE",
+  "timestamp_utc": "2026-11-18T21:49:17.926733+00:00",
+  "torus_1kg_1g_1m": "NOT_CERTIFIED",
+  "true_exterior": "NOT_CERTIFIED",
+  "whole_craft_up": "NOT_DERIVED"
+}

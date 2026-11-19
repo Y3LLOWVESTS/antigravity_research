@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/antigravity_research/tests/gamma1/verify_gamma1_00r4.py", line 285, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mymac/Desktop/antigravity_research/tests/gamma1/verify_gamma1_00r4.py", line 212, in main
+    assert np.all(
+           ~~~~~~^
+        projected4[tail] > 0
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+AssertionError

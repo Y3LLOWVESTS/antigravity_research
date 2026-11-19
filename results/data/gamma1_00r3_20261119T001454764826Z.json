@@ -1,0 +1,128 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "action_checks": {
+    "P_hodge_weight": true,
+    "coupling_off": true,
+    "mixed_variations_reciprocal": true,
+    "neutral_hydrostatic_constant_mu": true,
+    "off_shell_metric_trace_scaling": true,
+    "portal_lambda": true,
+    "sigma_prime": true,
+    "source_X_current": true,
+    "source_off_P_zero": true
+  },
+  "branch": "GAMMA1-00R3",
+  "claim": "NEW_STATIONARY_REPLAY_MATCHES_ARCHIVED_SCALAR_DIAGNOSTICS_NOT_ORIGINAL_EXACT_ARRAYS",
+  "classification": "PASS_SINGLE_MESH_REPLAY_MATCHED_SCOPED_ACTION_CONTRACT",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "covariant_action_status": "OPERATOR_DEFINED_BUT_EARTH_SUPPORT_CONSTITUTIVE_AND_ONSHELL_MATCH_OPEN",
+  "decision": "USE_NATIVE_PROFILE_FOR_INDEPENDENT_COVARIANT_CONSTRAINT_AND_EINSTEIN_GATE",
+  "full_Lorentzian_mode_health": "NOT_CERTIFIED",
+  "native_profile_archive": {
+    "array_keys": [
+      "A_X",
+      "A_Y",
+      "B_Y_r",
+      "B_Y_z",
+      "E_X_r",
+      "E_X_z",
+      "F_minus",
+      "F_plus",
+      "P",
+      "joint_gradient",
+      "neutral_n",
+      "rho",
+      "sigma",
+      "weights",
+      "z"
+    ],
+    "dimensionless_canonical": true,
+    "not_historical_exact_state": true,
+    "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz",
+    "sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54"
+  },
+  "parents": {
+    "GAMMA_00_JSON": {
+      "actual": "480b9228b994f2634fe57ed23b7332e721d9060f43848bdc19e3ace0fb2cc16b",
+      "expected": "480b9228b994f2634fe57ed23b7332e721d9060f43848bdc19e3ace0fb2cc16b",
+      "path": "results/data/gamma1_00_20261118T202714278070Z.json"
+    },
+    "GAMMA_00_VERIFY": {
+      "actual": "5b34d63219e0bf41af376b9f55064883134c1e75f381166c0c87293d21ccf39d",
+      "expected": "5b34d63219e0bf41af376b9f55064883134c1e75f381166c0c87293d21ccf39d",
+      "path": "results/data/gamma1_00_verification_20261118T204048204526Z.json"
+    },
+    "GAMMA_R1_JSON": {
+      "actual": "b543157cddb1e1e97c5260bf1de0ef39b329e7b0ea3b96fb12ed33df20d81e08",
+      "expected": "b543157cddb1e1e97c5260bf1de0ef39b329e7b0ea3b96fb12ed33df20d81e08",
+      "path": "results/data/gamma1_00r1_20261118T211802035544Z.json"
+    },
+    "GAMMA_R1_VERIFY": {
+      "actual": "e92a73b0a6101e0a980fcab208c9140d55cb25382fb9fe83035763749fd05b63",
+      "expected": "e92a73b0a6101e0a980fcab208c9140d55cb25382fb9fe83035763749fd05b63",
+      "path": "results/data/gamma1_00r1_verification_20261118T213059468632Z.json"
+    },
+    "GAMMA_R2_JSON": {
+      "actual": "62a0fce503016a97d30e8330a9ca600080c17a06ae38f320373ccc2c912fb10f",
+      "expected": "62a0fce503016a97d30e8330a9ca600080c17a06ae38f320373ccc2c912fb10f",
+      "path": "results/data/gamma1_00r2_20261118T214917926733Z.json"
+    },
+    "GAMMA_R2_VERIFY": {
+      "actual": "024b16ee47c9452d3b74838a81948dbf3341087819dbaa619e9bafe0488d1eab",
+      "expected": "024b16ee47c9452d3b74838a81948dbf3341087819dbaa619e9bafe0488d1eab",
+      "path": "results/data/gamma1_00r2_verification_20261118T220330544123Z.json"
+    },
+    "PH16_R2_JSON": {
+      "actual": "ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0",
+      "expected": "ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0",
+      "path": "results/data/ph16_04_20261118T164454314313Z.json"
+    },
+    "PH16_SOURCE": {
+      "actual": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    }
+  },
+  "precondition_Y_metadata": {
+    "Y_only_gradient_L2": 2.6187185074354864e-05,
+    "iterations": 100,
+    "success": true
+  },
+  "producer_shas": {
+    "simulations/gamma1/gamma1_00r3_recovery.py": "c87c299da0a703965a3c8d776b13d92628f01810bd2d84d57295b1828f455e0f",
+    "src/antigravity_research/gamma1/gamma1_00r3_action_recovery.py": "e9001433b285d3a9c42abc7d7da47d8bbad09a09bd943c92186ddcaeca851cb1",
+    "tests/gamma1/test_gamma1_00r3.py": "6aedeec8f5e12ab66d6b077936a4960439f97240ae8542a99a4ac4be499676f2",
+    "tests/gamma1/verify_gamma1_00r3.py": "4285ad093b1d1afee214023c6d97907c092ca307dc7f04d9d090d735a234d7a2",
+    "theory/gamma1/GAMMA1_00R3_ACTION_AND_NATIVE_PROFILE_LEDGER.md": "67bed9767c9046752c4b53b143a650c6ceb9f71eab890212a93292fe06932cd8"
+  },
+  "qualified_survivors": [],
+  "replay_method": "Original CoulombSource.solve(350), initialize, precondition_Y, JointAction.solve(pre_seed,maxiter=450); no modified equation or threshold",
+  "replayed_mesh": {
+    "Noether_N": [
+      400.0,
+      400.0000000000001
+    ],
+    "Pmax": 0.010708175853059648,
+    "Routhian_NOT_J": 2401.472107471401,
+    "Y_norm": 0.12852111429890895,
+    "frozen_magnetic_margin_min": 0.2503501372063712,
+    "frozen_negative_cells": 0,
+    "joint_residual_L2": 6.80575961397518e-08,
+    "mesh": {
+      "L": 12.0,
+      "cells": 288,
+      "h": 1.0,
+      "nr": 12,
+      "nz": 24
+    },
+    "neutral_mu_constant": 1.0749945974352306,
+    "recorded_joint_residual_L2": 6.80575961397518e-08,
+    "root_success": true
+  },
+  "timestamp_utc": "2026-11-19T00:14:54.764826+00:00",
+  "true_exterior": "NOT_CERTIFIED",
+  "whole_craft_up": "NOT_DERIVED"
+}

@@ -1,0 +1,23 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "GAMMA1_01_authorized": false,
+  "branch": "GAMMA1-00R3",
+  "classification": "SINGLE_NATIVE_REPLAY_AND_FULL_REGRESSION_VERIFIED",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "covariant_action_status": "INCOMPLETE_EARTH_SUPPORT_AND_LORENTZIAN_CONSTRAINTS",
+  "focused_log_sha256": "ae488db0ca2af2439f1143d4a7964043ad7b452a517c7073c5faa3f446476c54",
+  "focused_tests_passed": 20,
+  "full_Lorentzian_mode_health": "NOT_CERTIFIED",
+  "full_log_sha256": "820189d9f2aa7cbff0625e8eade78c712f9a9554a554d9f4b7c6249255d483ec",
+  "full_regression_passed": 3033,
+  "historical_baseline": 3013,
+  "independent_log_sha256": "41bc9709b44e8f57185eca30f8181a881d4b4e67100d7b522d9588885301f1a1",
+  "native_profile_path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz",
+  "native_profile_sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+  "result_path": "results/data/gamma1_00r3_20261119T001454764826Z.json",
+  "result_sha256": "192fb12a39294dfea3035605375aab6cd5591d1fb51ddbce8924ca78aa041287",
+  "runner_log_sha256": "15396b0a1e2c367b53685bf146d525a7dbf1fba633f367ddb9fa1b5711585fb5",
+  "timestamp_utc": "2026-11-19T00:29:02.463013+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

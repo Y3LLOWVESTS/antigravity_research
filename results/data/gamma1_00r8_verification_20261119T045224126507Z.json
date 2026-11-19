@@ -1,0 +1,70 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "X60_native_fitted_gradient_rel": 0.04509184823940407,
+  "X60_native_unfitted_gradient_rel": 0.05961375146559404,
+  "Y60_native_fitted_gradient_rel": 0.1975658246850769,
+  "Y60_native_unfitted_gradient_rel": 0.29183102349308093,
+  "branch": "GAMMA1-00R8",
+  "classification": "FINITE_EXTERIOR_SCHUR_NATIVE_DISCRIMINANT_INDEPENDENT_AND_REGRESSION_VERIFIED",
+  "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+  "focused_log_sha256": "2c3dd016c2575754bf569f18444ee9547104e050968ff409e769a2f968e2290b",
+  "focused_tests_passed": 24,
+  "full_Lorentzian_mode_health": "NOT_CERTIFIED",
+  "full_regression_log_sha256": "7aa912acbada893ba7a00a34a6ce160540d54072665d9cbfa68a5d50c6952c04",
+  "full_regression_passed": 3148,
+  "independent_log_sha256": "6bb79f33033e3456848e23f08b53d4513011f26659a8c6db6274958c846c0c4b",
+  "infinite_domain_DtN": "NOT_PROVEN",
+  "interface_archive_path": "results/data/gamma1_00r8_20261119T043910994414Z_interface_Schur_12_L12.npz",
+  "interface_archive_sha256": "9878534c2f6308c2b70693699eb056c00d71125209457bb2008701f78f5263b4",
+  "previous_regression_baseline": 3124,
+  "producer_source_shas": {
+    "simulations/gamma1/gamma1_00r8_run.py": "c4c1685a3b45040fb01383eb03353ab998eaacc191fc5fc318ac211db4dbf8b1",
+    "src/antigravity_research/gamma1/gamma1_00r8_boundary_schur.py": "d000d329b61d25e7098b8b9d3558c3ea6cbb4c466818b99807a597f9d225dc20",
+    "tests/gamma1/test_gamma1_00r8.py": "fe322f363cc78d3d5258b842faf7765f9ff69a1d19a10515352547bd62bc2d83",
+    "tests/gamma1/verify_gamma1_00r8.py": "9dc842a244c72b9f2ecb92d0cbe3a295cf3d7f445c80d59430f8cf2d0fee6df4",
+    "theory/gamma1/GAMMA1_00R8_EXTERIOR_SCHUR_AND_NATIVE_DISCRIMINANT.md": "0c22ee6411d9bc86493e4692d40eb3a75f6bdb6ba8263e11f55f6f7bdedc2bd8"
+  },
+  "provenance_parents": {
+    "P10_ring_green_source": {
+      "actual": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "expected": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py"
+    },
+    "P8_finite_volume_source": {
+      "actual": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "expected": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py"
+    },
+    "PH16_source": {
+      "actual": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R3_native": {
+      "actual": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R7_result": {
+      "actual": "87037cbc138ad86bdb4a57e87b7d12228cd0054878b2bc79509b51f9f22cb1bc",
+      "expected": "87037cbc138ad86bdb4a57e87b7d12228cd0054878b2bc79509b51f9f22cb1bc",
+      "path": "results/data/gamma1_00r7_20261119T040312289588Z.json"
+    },
+    "R7_verification": {
+      "actual": "febe1980b4a9208fb5b47b167ee9ff42d4cab4b4f1956130dd01917ad04c17c3",
+      "expected": "febe1980b4a9208fb5b47b167ee9ff42d4cab4b4f1956130dd01917ad04c17c3",
+      "path": "results/data/gamma1_00r7_verification_20261119T041623492189Z.json"
+    }
+  },
+  "runner_log_sha256": "8abc48b84be3f6234928d22083d9bbe0f0006d2f03a1c2ae49c8e9bce5f4ad99",
+  "same_action_Maxwell_reduction": "NOT_PROVEN",
+  "scientific_result_path": "results/data/gamma1_00r8_20261119T043910994414Z.json",
+  "scientific_result_sha256": "e6fbf0216ff0b80ca142c97fee73157f5dd694b4542584e60dce4fde7f130d82",
+  "timestamp_utc": "2026-11-19T04:52:24.126507+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

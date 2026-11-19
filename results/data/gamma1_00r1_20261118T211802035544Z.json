@@ -1,0 +1,156 @@
+{
+  "006D_replaced": false,
+  "GAMMA1_01_authorized": false,
+  "M0_go": "NOT_QUALIFIED",
+  "M1_go": "CONDITIONAL_STATIC_DEC_BUDGET_OBSTRUCTION_RETAINED",
+  "M2_go": "UNQUALIFIED_PENDING_INDEPENDENT_OPERATOR_THEORY",
+  "M3_go": "RESERVED",
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "branch": "GAMMA1-00R1",
+  "classification": "SCOPED_LOCAL_VARIATION_AND_SIGN_ATLAS",
+  "decision": "STOP_NUMERICAL_ESCALATION_REQUIRES_PHYSICAL_DERIVATION",
+  "dipole_exterior_trials": {
+    "aligned": {
+      "P": 6.25e-05,
+      "outward_portal_a_over_c2": 8.4375e-06,
+      "scale": "arbitrary dipole units, not m/s^2",
+      "sigma": 2.96875e-06,
+      "sign": "OUTWARD"
+    },
+    "antialigned": {
+      "P": -6.25e-05,
+      "outward_portal_a_over_c2": -1.0312500000000002e-05,
+      "scale": "arbitrary dipole units, not m/s^2",
+      "sigma": -3.28125e-06,
+      "sign": "INWARD"
+    }
+  },
+  "exact_algebra": {
+    "P_conformal_weight_negative_four": true,
+    "P_metric_inverse_trace_variation": true,
+    "constant_lambda_induction_zero": true,
+    "coupling_off_zero_sigma": true,
+    "four_dim_trace_stress_chain": true,
+    "lambda_chain": true,
+    "mixed_sigma_second_derivative": true,
+    "off_shell_scalar_translation": true,
+    "opposite_dipole_orientation_flips_P": true,
+    "rank_one_electric_determinant": true,
+    "source_off_zero_sigma": true,
+    "sqrtg_P_metric_independent": true
+  },
+  "experiment": "GAMMA1-00R1_OFFSHELL_LOCAL_METRIC_BRIDGE_PREFLIGHT",
+  "fidelity": "L0_EXACT_IDENTITIES_L1_LOCAL_FD_NO_PDE",
+  "local_one_action_metric_field_variations": {
+    "both_carriers_off": {
+      "P": 0.0,
+      "T_matter_diag": [
+        0.5743,
+        -0.45380000000000004,
+        -0.4521,
+        -0.4762
+      ],
+      "electric_kinetic_min_eigen": 1.0,
+      "local_active_matter_S": -0.8078000000000001,
+      "max_relative_error": 4.70057326396045e-12
+    },
+    "coupling_off": {
+      "P": -0.002872134789517763,
+      "T_matter_diag": [
+        0.6800530303030302,
+        -0.4135647727272727,
+        -0.5091902777777778,
+        -0.3873020202020202
+      ],
+      "electric_kinetic_min_eigen": 0.90267093384844,
+      "local_active_matter_S": -0.6300040404040406,
+      "max_relative_error": 1.526723192313284e-11
+    },
+    "negative_kinetic_offshell": {
+      "P": 0.0,
+      "T_matter_diag": [
+        2.2,
+        1.8,
+        1.8,
+        1.8
+      ],
+      "electric_kinetic_min_eigen": -9.23952,
+      "local_active_matter_S": 7.6000000000000005,
+      "max_relative_error": 6.912733012272425e-11
+    },
+    "nontrivial_anisotropic": {
+      "P": -0.002872134789517763,
+      "T_matter_diag": [
+        0.6800064022281913,
+        -0.41358599897544585,
+        -0.5092140527517474,
+        -0.38730941907451755
+      ],
+      "electric_kinetic_min_eigen": 0.9026709338484401,
+      "local_active_matter_S": -0.6301030685735194,
+      "max_relative_error": 1.6275314429492482e-11
+    },
+    "nontrivial_isotropic": {
+      "P": 0.0032000000000000015,
+      "T_matter_diag": [
+        0.5750523254042903,
+        -0.4546124639924498,
+        -0.4529133124206645,
+        -0.4770012847030326
+      ],
+      "electric_kinetic_min_eigen": 0.9999999999999996,
+      "local_active_matter_S": -0.8094747357118566,
+      "max_relative_error": 5.1051905758381366e-11
+    }
+  },
+  "parent_provenance": "PASS_EXACT_FOUR_PARENTS",
+  "producing_sources_sha256": {
+    "simulations/gamma1/gamma1_00r1_local_bridge.py": "448ca8c5c214cb869a6399c3076415a2a1a7c6142522a18c960c0ae3d8d5861e",
+    "src/antigravity_research/gamma1/gamma1_00r1_local_bridge.py": "770ef91e1fa8fd4738cbdb2560f922f3ca8d585a81cd8277e4dce5354fcdb881",
+    "tests/gamma1/test_gamma1_00r1.py": "9174a14ce6c0ab93d81aa4abb43a1ff91c349a5f4c349e26b7a0c5d7fb313eb7",
+    "tests/gamma1/verify_gamma1_00r1.py": "6f4babc084db56502d09a250d4fcd3e094a0b152bc5d6d7ee35225cd6d95d0ce",
+    "theory/gamma1/GAMMA1_00R1_LOCAL_METRIC_VARIATION_LEDGER.md": "9f5d8ca27c45878aab4352335c1aee490cc14c70fd03c5d6429ed8dc25ce1895"
+  },
+  "provenance": {
+    "GAMMA1_00_result": {
+      "actual_sha256": "480b9228b994f2634fe57ed23b7332e721d9060f43848bdc19e3ace0fb2cc16b",
+      "expected_sha256": "480b9228b994f2634fe57ed23b7332e721d9060f43848bdc19e3ace0fb2cc16b",
+      "path": "results/data/gamma1_00_20261118T202714278070Z.json"
+    },
+    "GAMMA1_00_verification": {
+      "actual_sha256": "5b34d63219e0bf41af376b9f55064883134c1e75f381166c0c87293d21ccf39d",
+      "expected_sha256": "5b34d63219e0bf41af376b9f55064883134c1e75f381166c0c87293d21ccf39d",
+      "path": "results/data/gamma1_00_verification_20261118T204048204526Z.json"
+    },
+    "PH16_R2_result": {
+      "actual_sha256": "ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0",
+      "expected_sha256": "ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0",
+      "path": "results/data/ph16_04_20261118T164454314313Z.json"
+    },
+    "PH16_R2_source": {
+      "actual_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    }
+  },
+  "qualified_survivors": [],
+  "theorems": {
+    "Earth_down_and_whole_craft_up": "NOT_DERIVED",
+    "Einstein_metric_solution": "NOT_SOLVED",
+    "M2_full_health": "NOT_TESTED",
+    "beta40_PH16_actual_mode_health": "NOT_DETERMINED",
+    "beta40_health": "NOT_UNIFORMLY_POSITIVE_ON_OFFSHELL_TRIALS",
+    "complete_SI_energy": "NOT_CERTIFIED",
+    "constitutive": "DERIVED_FOR_SAME_TRIAL_ACTION",
+    "dipole_multipole_assumption": "P~r^-6, a_sigma~r^-7 only if both fields dipolar",
+    "dipole_sign": "NOT_SOURCE_INDEPENDENT",
+    "full_gravitational_boundary": "OPEN",
+    "full_offshell_Ward_Noether": "OPEN_REQUIRES_REAL_SOURCE_EOM",
+    "local_electric_rank_one_hessian": "DERIVED_AT_FIXED_SCALARS_MAGNETIC_METRIC",
+    "metric_hodge_density": "METRIC_INDEPENDENT_AT_FIXED_F",
+    "physical_1kg_1g_1m": "NOT_CERTIFIED",
+    "universal_participant_stress": "DERIVED_FOR_LOCAL_CANONICAL_SCALAR_TRIALS"
+  },
+  "timestamp_utc": "2026-11-18T21:18:02.035544+00:00"
+}

@@ -1,0 +1,75 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "Y60_fitted_axis_regular_DIAGNOSTIC": 0.1402668902331822,
+  "Y60_unfitted_axis_regular": 0.2089869835363717,
+  "Y60_unfitted_original_R8": 0.29183102349308093,
+  "archive_path": "results/data/gamma1_00r9_20261119T050922694396Z_Y_axis_regular_12_L12.npz",
+  "archive_sha256": "5fb9a4966074e749cf697b50421cc7047c28cbae35a80f0d77942aac8721f8bd",
+  "branch": "GAMMA1-00R9",
+  "classification": "AXIS_REGULAR_Y_COMPARATOR_AND_RESIDUAL_INDEPENDENTLY_VERIFIED",
+  "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+  "focused_log_sha256": "129f31516b3a8a39c2e35293b5fa30e59918a4eed03273c734669e446a4820b7",
+  "focused_tests_passed": 28,
+  "full_covariant_Lorentzian_action": "NOT_CLOSED",
+  "full_regression_log_sha256": "1d9fce30fc6282efe50c2e8800e184b73c76a281f53ccb59829b10627700bd55",
+  "full_regression_passed": 3176,
+  "green_self_orders_not_resolved": "4_8_12_FIXED_PROFILE_ONLY",
+  "independent_log_sha256": "3b3c4fb64ff555de8d7ce77c587ca52f6e0edd44fb501112227b95904ed7d4cf",
+  "infinite_exterior": "NOT_CERTIFIED",
+  "native_source_refinement": "NOT_TESTED",
+  "parents": {
+    "P10_source": {
+      "actual_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "expected_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py"
+    },
+    "P8_source": {
+      "actual_sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "expected_sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py"
+    },
+    "PH16_source": {
+      "actual_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R3_native": {
+      "actual_sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected_sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R8_interface": {
+      "actual_sha256": "9878534c2f6308c2b70693699eb056c00d71125209457bb2008701f78f5263b4",
+      "expected_sha256": "9878534c2f6308c2b70693699eb056c00d71125209457bb2008701f78f5263b4",
+      "path": "results/data/gamma1_00r8_20261119T043910994414Z_interface_Schur_12_L12.npz"
+    },
+    "R8_science": {
+      "actual_sha256": "e6fbf0216ff0b80ca142c97fee73157f5dd694b4542584e60dce4fde7f130d82",
+      "expected_sha256": "e6fbf0216ff0b80ca142c97fee73157f5dd694b4542584e60dce4fde7f130d82",
+      "path": "results/data/gamma1_00r8_20261119T043910994414Z.json"
+    },
+    "R8_verification": {
+      "actual_sha256": "2eb7f4cf257b58f160acab7076e09b28ac7a9c9c1208ab05f9ed8ae24128efe8",
+      "expected_sha256": "2eb7f4cf257b58f160acab7076e09b28ac7a9c9c1208ab05f9ed8ae24128efe8",
+      "path": "results/data/gamma1_00r8_verification_20261119T045224126507Z.json"
+    }
+  },
+  "previous_full_regression_baseline": 3148,
+  "producing_source_hashes": {
+    "simulations/gamma1/gamma1_00r9_run.py": "57157078a5a05d678a893986acaac551aa590ca25cac820ec8a33bbac7c45b3f",
+    "src/antigravity_research/gamma1/gamma1_00r9_axis_regular.py": "1fbc344031c919658671a28a0baf734ef4f24b5fe065267b7fbe6caba9b14995",
+    "tests/gamma1/test_gamma1_00r9.py": "684af67f3d976ff4e1e0861a7d39cbeeb60131dbe41fb0d9114105e26df3933f",
+    "tests/gamma1/verify_gamma1_00r9.py": "49acb029fa4af7b8897e737e40fafcd802ece592f8f1ce56a10482c2ce06ae46",
+    "theory/gamma1/GAMMA1_00R9_AXIS_REGULAR_Y_FORK.md": "2c672a09bea24a75d73f3b05843e9d24e02b7e2387d19b7b9d0e38f2e5f9d204"
+  },
+  "runner_log_sha256": "a0776863ec26fb3af0ed336cead4383609c4939ce53c3ec50b284348c6010e7b",
+  "scientific_result_path": "results/data/gamma1_00r9_20261119T050922694396Z.json",
+  "scientific_result_sha256": "eec38658fccbc6f7f7f5de392aa76d08052f2be91937c8e06da553d224b43a9a",
+  "timestamp_utc": "2026-11-19T05:22:36.433890+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

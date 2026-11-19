@@ -1,0 +1,251 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "Lorentzian_mode_health": "NOT_CERTIFIED",
+  "PH16_05_authorized": false,
+  "PH16_source_replay": "NOT_RUN",
+  "PH17_authorized": false,
+  "ancestry": {
+    "R8_producing_files_checked": 5,
+    "parent_hash_count": 7,
+    "prior_full_regression": 3148
+  },
+  "archive": {
+    "keys": [
+      "Y_old_outer_60_native_gradient",
+      "Y_regular_outer_60_interface_correction",
+      "Y_regular_outer_60_native_gradient",
+      "original_Y_order8_green_gradient",
+      "rim_indices"
+    ],
+    "path": "results/data/gamma1_00r9_20261119T050922694396Z_Y_axis_regular_12_L12.npz",
+    "sha256": "5fb9a4966074e749cf697b50421cc7047c28cbae35a80f0d77942aac8721f8bd"
+  },
+  "branch": "GAMMA1-00R9",
+  "classification": "PASS_AXIS_REGULAR_Y_IMPROVEMENT_QUADRATURE_RESIDUAL_OPEN",
+  "complete_Lorentzian_action": "NOT_CLOSED",
+  "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+  "continuum_azimuthal_Maxwell": "NOT_CERTIFIED",
+  "decision": "Y_AXIS_REGULAR_COMPARATOR_IMPROVES_BUT_20_PERCENT_RESIDUAL; NEED_ON_SHELL_MESH_REDUCTION_AND_COVARIANT_ACTION",
+  "parents": {
+    "P10_source": {
+      "actual_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "expected_sha256": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py"
+    },
+    "P8_source": {
+      "actual_sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "expected_sha256": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py"
+    },
+    "PH16_source": {
+      "actual_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected_sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R3_native": {
+      "actual_sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected_sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R8_interface": {
+      "actual_sha256": "9878534c2f6308c2b70693699eb056c00d71125209457bb2008701f78f5263b4",
+      "expected_sha256": "9878534c2f6308c2b70693699eb056c00d71125209457bb2008701f78f5263b4",
+      "path": "results/data/gamma1_00r8_20261119T043910994414Z_interface_Schur_12_L12.npz"
+    },
+    "R8_science": {
+      "actual_sha256": "e6fbf0216ff0b80ca142c97fee73157f5dd694b4542584e60dce4fde7f130d82",
+      "expected_sha256": "e6fbf0216ff0b80ca142c97fee73157f5dd694b4542584e60dce4fde7f130d82",
+      "path": "results/data/gamma1_00r8_20261119T043910994414Z.json"
+    },
+    "R8_verification": {
+      "actual_sha256": "2eb7f4cf257b58f160acab7076e09b28ac7a9c9c1208ab05f9ed8ae24128efe8",
+      "expected_sha256": "2eb7f4cf257b58f160acab7076e09b28ac7a9c9c1208ab05f9ed8ae24128efe8",
+      "path": "results/data/gamma1_00r8_verification_20261119T045224126507Z.json"
+    }
+  },
+  "producing_sources": {
+    "simulations/gamma1/gamma1_00r9_run.py": "57157078a5a05d678a893986acaac551aa590ca25cac820ec8a33bbac7c45b3f",
+    "src/antigravity_research/gamma1/gamma1_00r9_axis_regular.py": "1fbc344031c919658671a28a0baf734ef4f24b5fe065267b7fbe6caba9b14995",
+    "tests/gamma1/test_gamma1_00r9.py": "684af67f3d976ff4e1e0861a7d39cbeeb60131dbe41fb0d9114105e26df3933f",
+    "tests/gamma1/verify_gamma1_00r9.py": "49acb029fa4af7b8897e737e40fafcd802ece592f8f1ce56a10482c2ce06ae46",
+    "theory/gamma1/GAMMA1_00R9_AXIS_REGULAR_Y_FORK.md": "2c672a09bea24a75d73f3b05843e9d24e02b7e2387d19b7b9d0e38f2e5f9d204"
+  },
+  "qualified_physical_survivors": [],
+  "science": {
+    "analytic_continuum_identity": {
+      "bulk_identity": true,
+      "regularity": "A_phi=rho*u with finite u at rho=0",
+      "surface_term": "d_dr(rho^2*u^2); zero only with appropriate regularity/outer boundary",
+      "u_energy_weight": "2*pi*rho^3"
+    },
+    "finite_exterior_sweep": [
+      {
+        "R8_azimuthal_mass_FV": {
+          "axis_two_rows_error_fraction_of_global_green_norm": 0.27835883838339887,
+          "axis_two_rows_original_gradient_fraction": 0.9815898831953479,
+          "best_scale_DIAGNOSTIC": 1.228639996503896,
+          "bulk_interior_error_fraction_of_global_green_norm": 0.2918238717843818,
+          "energy_ratio_original_over_fv": 1.1211089936463352,
+          "fitted_relative_gradient_error_DIAGNOSTIC": 0.276575524744661,
+          "rim_error_fraction_of_global_green_norm": 0.15268940283879148,
+          "rim_original_gradient_fraction": 0.010494154363983434,
+          "unfitted_relative_gradient_error": 0.3293557740233106
+        },
+        "axis_regular_Aphi_over_rho_FV": {
+          "axis_two_rows_error_fraction_of_global_green_norm": 0.19293305884005468,
+          "axis_two_rows_original_gradient_fraction": 0.9815898831953479,
+          "best_scale_DIAGNOSTIC": 1.1442641894863186,
+          "bulk_interior_error_fraction_of_global_green_norm": 0.2089767715568588,
+          "energy_ratio_original_over_fv": 1.0720910513744184,
+          "fitted_relative_gradient_error_DIAGNOSTIC": 0.22878706351754358,
+          "rim_error_fraction_of_global_green_norm": 0.15406286248781442,
+          "rim_original_gradient_fraction": 0.010494154363983434,
+          "unfitted_relative_gradient_error": 0.25962791962396253
+        },
+        "both_operators_positive_reciprocal": true,
+        "interface_cells": 46,
+        "outer_extent": 14
+      },
+      {
+        "R8_azimuthal_mass_FV": {
+          "axis_two_rows_error_fraction_of_global_green_norm": 0.2783577766273607,
+          "axis_two_rows_original_gradient_fraction": 0.9815898831953479,
+          "best_scale_DIAGNOSTIC": 1.2798379307939214,
+          "bulk_interior_error_fraction_of_global_green_norm": 0.2918238717843818,
+          "energy_ratio_original_over_fv": 1.1427365089120793,
+          "fitted_relative_gradient_error_DIAGNOSTIC": 0.19864440873032999,
+          "rim_error_fraction_of_global_green_norm": 0.014839898805649909,
+          "rim_original_gradient_fraction": 0.010494154363983434,
+          "unfitted_relative_gradient_error": 0.2922009492451885
+        },
+        "axis_regular_Aphi_over_rho_FV": {
+          "axis_two_rows_error_fraction_of_global_green_norm": 0.19293157687134596,
+          "axis_two_rows_original_gradient_fraction": 0.9815898831953479,
+          "best_scale_DIAGNOSTIC": 1.184926003684902,
+          "bulk_interior_error_fraction_of_global_green_norm": 0.2089767715568588,
+          "energy_ratio_original_over_fv": 1.092057579135489,
+          "fitted_relative_gradient_error_DIAGNOSTIC": 0.14149850671711178,
+          "rim_error_fraction_of_global_green_norm": 0.014808756864423865,
+          "rim_original_gradient_fraction": 0.010494154363983434,
+          "unfitted_relative_gradient_error": 0.2095008122423328
+        },
+        "both_operators_positive_reciprocal": true,
+        "interface_cells": 46,
+        "outer_extent": 24
+      },
+      {
+        "R8_azimuthal_mass_FV": {
+          "axis_two_rows_error_fraction_of_global_green_norm": 0.2783577673915106,
+          "axis_two_rows_original_gradient_fraction": 0.9815898831953479,
+          "best_scale_DIAGNOSTIC": 1.2804981662910842,
+          "bulk_interior_error_fraction_of_global_green_norm": 0.2918238717843818,
+          "energy_ratio_original_over_fv": 1.1444033375699645,
+          "fitted_relative_gradient_error_DIAGNOSTIC": 0.19765032027607463,
+          "rim_error_fraction_of_global_green_norm": 0.0038149973111186357,
+          "rim_original_gradient_fraction": 0.010494154363983434,
+          "unfitted_relative_gradient_error": 0.29184880734330776
+        },
+        "axis_regular_Aphi_over_rho_FV": {
+          "axis_two_rows_error_fraction_of_global_green_norm": 0.19293156473927425,
+          "axis_two_rows_original_gradient_fraction": 0.9815898831953479,
+          "best_scale_DIAGNOSTIC": 1.18543069821881,
+          "bulk_interior_error_fraction_of_global_green_norm": 0.2089767715568588,
+          "energy_ratio_original_over_fv": 1.0935851239004797,
+          "fitted_relative_gradient_error_DIAGNOSTIC": 0.1403522967499941,
+          "rim_error_fraction_of_global_green_norm": 0.003764926786119751,
+          "rim_original_gradient_fraction": 0.010494154363983434,
+          "unfitted_relative_gradient_error": 0.20901068327727265
+        },
+        "both_operators_positive_reciprocal": true,
+        "interface_cells": 46,
+        "outer_extent": 36
+      },
+      {
+        "R8_azimuthal_mass_FV": {
+          "axis_two_rows_error_fraction_of_global_green_norm": 0.2783577650037166,
+          "axis_two_rows_original_gradient_fraction": 0.9815898831953479,
+          "best_scale_DIAGNOSTIC": 1.2805815524515665,
+          "bulk_interior_error_fraction_of_global_green_norm": 0.2918238717843818,
+          "energy_ratio_original_over_fv": 1.1448867676405137,
+          "fitted_relative_gradient_error_DIAGNOSTIC": 0.1975658246850769,
+          "rim_error_fraction_of_global_green_norm": 0.002043068719309711,
+          "rim_original_gradient_fraction": 0.010494154363983434,
+          "unfitted_relative_gradient_error": 0.29183102349308093
+        },
+        "axis_regular_Aphi_over_rho_FV": {
+          "axis_two_rows_error_fraction_of_global_green_norm": 0.19293156162901454,
+          "axis_two_rows_original_gradient_fraction": 0.9815898831953479,
+          "best_scale_DIAGNOSTIC": 1.1854924286959543,
+          "bulk_interior_error_fraction_of_global_green_norm": 0.2089767715568588,
+          "energy_ratio_original_over_fv": 1.0940276959679318,
+          "fitted_relative_gradient_error_DIAGNOSTIC": 0.1402668902331822,
+          "rim_error_fraction_of_global_green_norm": 0.0020659712737945567,
+          "rim_original_gradient_fraction": 0.010494154363983434,
+          "unfitted_relative_gradient_error": 0.2089869835363717
+        },
+        "both_operators_positive_reciprocal": true,
+        "interface_cells": 46,
+        "outer_extent": 60
+      }
+    ],
+    "green_self_cell_order_sensitivity_FIXED_R3_PROFILE": {
+      "12": {
+        "axis_two_rows_error_fraction_of_global_green_norm": 0.18768087758253227,
+        "axis_two_rows_original_gradient_fraction": 0.9810035134494279,
+        "best_scale_DIAGNOSTIC": 1.1794529574345876,
+        "bulk_interior_error_fraction_of_global_green_norm": 0.2035276777365462,
+        "energy_ratio_original_over_fv": 1.0912180532216909,
+        "fitted_relative_gradient_error_DIAGNOSTIC": 0.13678988341366946,
+        "rim_error_fraction_of_global_green_norm": 0.002051950698569203,
+        "rim_original_gradient_fraction": 0.010526512129286378,
+        "unfitted_relative_gradient_error": 0.20353802127981094
+      },
+      "4": {
+        "axis_two_rows_error_fraction_of_global_green_norm": 0.22020715824021803,
+        "axis_two_rows_original_gradient_fraction": 0.9844944552077753,
+        "best_scale_DIAGNOSTIC": 1.2177119026365866,
+        "bulk_interior_error_fraction_of_global_green_norm": 0.2373695680597734,
+        "energy_ratio_original_over_fv": 1.1089074482581533,
+        "fitted_relative_gradient_error_DIAGNOSTIC": 0.15871043900768048,
+        "rim_error_fraction_of_global_green_norm": 0.0021362424518876783,
+        "rim_original_gradient_fraction": 0.010321863025754536,
+        "unfitted_relative_gradient_error": 0.23737918057971436
+      },
+      "8": {
+        "axis_two_rows_error_fraction_of_global_green_norm": 0.19293156162901454,
+        "axis_two_rows_original_gradient_fraction": 0.9815898831953479,
+        "best_scale_DIAGNOSTIC": 1.1854924286959543,
+        "bulk_interior_error_fraction_of_global_green_norm": 0.2089767715568588,
+        "energy_ratio_original_over_fv": 1.0940276959679318,
+        "fitted_relative_gradient_error_DIAGNOSTIC": 0.1402668902331822,
+        "rim_error_fraction_of_global_green_norm": 0.0020659712737945567,
+        "rim_original_gradient_fraction": 0.010494154363983434,
+        "unfitted_relative_gradient_error": 0.2089869835363717
+      }
+    },
+    "negative_controls": {
+      "R8_standard_m1_mass_discretization": "REPRODUCED_UNMODIFIED",
+      "outer_extent_not_mesh_refinement": "TRUE",
+      "quadrature_orders_not_stationary_replays": "TRUE",
+      "self_quadrature_order_12_residual_nonzero": "TRUE",
+      "zero_field_linear_operator_action": "EXACT_ZERO"
+    },
+    "physics_status": {
+      "Earth_down_whole_craft_up": "NOT_DERIVED",
+      "Einstein_metric_and_force": "NOT_DERIVED",
+      "complete_Lorentzian_action": "NOT_CLOSED",
+      "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+      "continuum_Y_operator_equivalence": "NOT_PROVEN",
+      "covariant_Ward_Noether_Bianchi": "NOT_CLOSED",
+      "healthy_constrained_spectrum": "NOT_CERTIFIED",
+      "new_PH16_stationary_solve": "NOT_RUN",
+      "source_free_exterior": "NOT_CERTIFIED"
+    }
+  },
+  "scientific_scope": "FINITE_STATIC_AZIMUTHAL_MAXWELL_COMPARATOR_ON_FROZEN_R3",
+  "timestamp_utc": "2026-11-19T05:09:22.694396+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

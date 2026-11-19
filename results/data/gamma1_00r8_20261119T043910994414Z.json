@@ -1,0 +1,360 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH16_source_replay": "NOT_RUN",
+  "PH17_authorized": false,
+  "SI_energy_lt10MJ": "NOT_CERTIFIED",
+  "ancestry": {
+    "R7_full_regression": 3124,
+    "R7_producing_files_checked": 5,
+    "six_parent_raw_hashes": "PASS"
+  },
+  "branch": "GAMMA1-00R8",
+  "classification": "PASS_FINITE_EXTERIOR_SCHUR_X_IMPROVES_Y_RESIDUAL_OPEN",
+  "continuum_Maxwell_equivalence": "NOT_CERTIFIED",
+  "decision": "BOUNDARY_MATTERS_BUT_Y_AND_OPERATOR_EQUIVALENCE_OPEN; DO_NOT_PROMOTE_TO_GRAVITY",
+  "finite_DtN_is_infinite": "NO",
+  "full_Lorentzian_action": "NOT_CLOSED",
+  "full_Lorentzian_mode_health": "NOT_CERTIFIED",
+  "interface_archive": {
+    "keys": [
+      "X_green_native_gradient",
+      "X_outer_24_native_gradient",
+      "X_outer_24_rim_correction",
+      "X_outer_60_native_gradient",
+      "X_outer_60_rim_correction",
+      "Y_green_native_gradient",
+      "Y_outer_24_native_gradient",
+      "Y_outer_24_rim_correction",
+      "Y_outer_60_native_gradient",
+      "Y_outer_60_rim_correction",
+      "rim_indices"
+    ],
+    "path": "results/data/gamma1_00r8_20261119T043910994414Z_interface_Schur_12_L12.npz",
+    "sha256": "9878534c2f6308c2b70693699eb056c00d71125209457bb2008701f78f5263b4"
+  },
+  "parents": {
+    "P10_ring_green_source": {
+      "actual": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "expected": "25e564a6dbbd4658f6154781db610738b8ed1114aa0f8fe71bf4ab91092fdddb",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p10_free_space.py"
+    },
+    "P8_finite_volume_source": {
+      "actual": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "expected": "406aa58db3092d2392adbb78429257538fd51a202f472fd49b3a08862a934fed",
+      "path": "src/antigravity_research/agminer/hook17_ph15_p8_electric_dipole.py"
+    },
+    "PH16_source": {
+      "actual": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R3_native": {
+      "actual": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R7_result": {
+      "actual": "87037cbc138ad86bdb4a57e87b7d12228cd0054878b2bc79509b51f9f22cb1bc",
+      "expected": "87037cbc138ad86bdb4a57e87b7d12228cd0054878b2bc79509b51f9f22cb1bc",
+      "path": "results/data/gamma1_00r7_20261119T040312289588Z.json"
+    },
+    "R7_verification": {
+      "actual": "febe1980b4a9208fb5b47b167ee9ff42d4cab4b4f1956130dd01917ad04c17c3",
+      "expected": "febe1980b4a9208fb5b47b167ee9ff42d4cab4b4f1956130dd01917ad04c17c3",
+      "path": "results/data/gamma1_00r7_verification_20261119T041623492189Z.json"
+    }
+  },
+  "producing_sources": {
+    "simulations/gamma1/gamma1_00r8_run.py": "c4c1685a3b45040fb01383eb03353ab998eaacc191fc5fc318ac211db4dbf8b1",
+    "src/antigravity_research/gamma1/gamma1_00r8_boundary_schur.py": "d000d329b61d25e7098b8b9d3558c3ea6cbb4c466818b99807a597f9d225dc20",
+    "tests/gamma1/test_gamma1_00r8.py": "fe322f363cc78d3d5258b842faf7765f9ff69a1d19a10515352547bd62bc2d83",
+    "tests/gamma1/verify_gamma1_00r8.py": "9dc842a244c72b9f2ecb92d0cbe3a295cf3d7f445c80d59430f8cf2d0fee6df4",
+    "theory/gamma1/GAMMA1_00R8_EXTERIOR_SCHUR_AND_NATIVE_DISCRIMINANT.md": "0c22ee6411d9bc86493e4692d40eb3a75f6bdb6ba8263e11f55f6f7bdedc2bd8"
+  },
+  "qualified_physical_survivors": [],
+  "science": {
+    "finite_exterior_schur_sweep": [
+      {
+        "boundary": "FINITE_OUTER_DIRICHLET_NOT_EXACT_INFINITY",
+        "carriers": {
+          "X": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 392,
+            "ext_eliminated_cells": 104,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6847836677141486,
+            "matrix_relative_frobenius_best_scalar": 0.094004398195733,
+            "native_energy_K_over_schur": 0.8958989830195695,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 0.6106252189970239,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.6437703500006934,
+            "native_gradient_relative_unscaled": 0.8077989567289279,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 0.8837136494245179
+          },
+          "Y": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 392,
+            "ext_eliminated_cells": 104,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6746664556024708,
+            "matrix_relative_frobenius_best_scalar": 0.09311526964397417,
+            "native_energy_K_over_schur": 1.1211089936463352,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.228639996503896,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.276575524744661,
+            "native_gradient_relative_unscaled": 0.3293557740233106,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 3.425047815145347
+          }
+        },
+        "outer_extent": 14
+      },
+      {
+        "boundary": "FINITE_OUTER_DIRICHLET_NOT_EXACT_INFINITY",
+        "carriers": {
+          "X": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 648,
+            "ext_eliminated_cells": 360,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6875352364295197,
+            "matrix_relative_frobenius_best_scalar": 0.09057463724670746,
+            "native_energy_K_over_schur": 0.981452666009197,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 0.9773520354738193,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.25044696777557657,
+            "native_gradient_relative_unscaled": 0.2514497568424869,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 0.7247856704303219
+          },
+          "Y": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 648,
+            "ext_eliminated_cells": 360,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6772816719823807,
+            "matrix_relative_frobenius_best_scalar": 0.08997067048122483,
+            "native_energy_K_over_schur": 1.1383635132287175,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.275666568307237,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.2057037601987883,
+            "native_gradient_relative_unscaled": 0.2950179655036476,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 2.9309438815318654
+          }
+        },
+        "outer_extent": 18
+      },
+      {
+        "boundary": "FINITE_OUTER_DIRICHLET_NOT_EXACT_INFINITY",
+        "carriers": {
+          "X": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 1152,
+            "ext_eliminated_cells": 864,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6878505242838786,
+            "matrix_relative_frobenius_best_scalar": 0.09019048898462291,
+            "native_energy_K_over_schur": 1.0045737374909427,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.0317882564530545,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.1025084328230678,
+            "native_gradient_relative_unscaled": 0.10699155474601187,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 0.617114117938627
+          },
+          "Y": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 1152,
+            "ext_eliminated_cells": 864,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6775429474139911,
+            "matrix_relative_frobenius_best_scalar": 0.08967350270949709,
+            "native_energy_K_over_schur": 1.1427365089120793,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.2798379307939214,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.19864440873032999,
+            "native_gradient_relative_unscaled": 0.2922009492451885,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 2.6913651785200643
+          }
+        },
+        "outer_extent": 24
+      },
+      {
+        "boundary": "FINITE_OUTER_DIRICHLET_NOT_EXACT_INFINITY",
+        "carriers": {
+          "X": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 1800,
+            "ext_eliminated_cells": 1512,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6879264802528797,
+            "matrix_relative_frobenius_best_scalar": 0.0901023983253671,
+            "native_energy_K_over_schur": 1.0108463144843287,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.0385342998542535,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.06352374972499256,
+            "native_gradient_relative_unscaled": 0.07352860293601435,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 0.5641117881376586
+          },
+          "Y": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 1800,
+            "ext_eliminated_cells": 1512,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6775923131185522,
+            "matrix_relative_frobenius_best_scalar": 0.08962044038575936,
+            "native_energy_K_over_schur": 1.143926152342392,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.2803665009384746,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.19782717481182432,
+            "native_gradient_relative_unscaled": 0.2919049704950067,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 2.609135237098413
+          }
+        },
+        "outer_extent": 30
+      },
+      {
+        "boundary": "FINITE_OUTER_DIRICHLET_NOT_EXACT_INFINITY",
+        "carriers": {
+          "X": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 2592,
+            "ext_eliminated_cells": 2304,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6879587639482192,
+            "matrix_relative_frobenius_best_scalar": 0.09006589545915748,
+            "native_energy_K_over_schur": 1.0133499401890869,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.0399734780032688,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.05151485743826255,
+            "native_gradient_relative_unscaled": 0.06424378637329932,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 0.5328204623399259
+          },
+          "Y": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 2592,
+            "ext_eliminated_cells": 2304,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6776088302304877,
+            "matrix_relative_frobenius_best_scalar": 0.08960306939353202,
+            "native_energy_K_over_schur": 1.1444033375699645,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.2804981662910842,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.19765032027607463,
+            "native_gradient_relative_unscaled": 0.29184880734330776,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 2.573221867749907
+          }
+        },
+        "outer_extent": 36
+      },
+      {
+        "boundary": "FINITE_OUTER_DIRICHLET_NOT_EXACT_INFINITY",
+        "carriers": {
+          "X": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 4608,
+            "ext_eliminated_cells": 4320,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.687986771329798,
+            "matrix_relative_frobenius_best_scalar": 0.090034834501235,
+            "native_energy_K_over_schur": 1.0152298100521633,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.0405341328278421,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.04599042835232826,
+            "native_gradient_relative_unscaled": 0.06024459509966776,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 0.4976649836092199
+          },
+          "Y": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 4608,
+            "ext_eliminated_cells": 4320,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6776196891823891,
+            "matrix_relative_frobenius_best_scalar": 0.08959179460232365,
+            "native_energy_K_over_schur": 1.1447627721586073,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.2805651188558032,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.19757808289931114,
+            "native_gradient_relative_unscaled": 0.29183169395550995,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 2.544826480098258
+          }
+        },
+        "outer_extent": 48
+      },
+      {
+        "boundary": "FINITE_OUTER_DIRICHLET_NOT_EXACT_INFINITY",
+        "carriers": {
+          "X": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 7200,
+            "ext_eliminated_cells": 6912,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6879989956537742,
+            "matrix_relative_frobenius_best_scalar": 0.09002149924510777,
+            "native_energy_K_over_schur": 1.0158770250139186,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.0406191184248983,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.04509184823940407,
+            "native_gradient_relative_unscaled": 0.05961375146559404,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 0.47845825340959874
+          },
+          "Y": {
+            "boundary_energy_delta_negative_semidefinite": true,
+            "correction_only_on_box_rim": true,
+            "ext_cells": 7200,
+            "ext_eliminated_cells": 6912,
+            "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.6776230446464326,
+            "matrix_relative_frobenius_best_scalar": 0.08958834121793172,
+            "native_energy_K_over_schur": 1.1448867676405137,
+            "native_gradient_best_scale_DIAGNOSTIC_ONLY": 1.2805815524515665,
+            "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.1975658246850769,
+            "native_gradient_relative_unscaled": 0.29183102349308093,
+            "rim_cells": 46,
+            "schur_min_eigenvalue": 2.534722376030387
+          }
+        },
+        "outer_extent": 60
+      }
+    ],
+    "negative_controls": {
+      "boundary_coupling_removed": "RECOVERS_FIXED_BOX_DIRICHLET_BASELINE_ONLY_NOT_SCHUR",
+      "finite_outer_dirichlet": "NOT_THE_INFINITE_EXTERIOR",
+      "wrong_Y_without_rho_minus2": "REJECTED_BY_PRIOR_R7",
+      "zero_field_exact_zero_action": "LINEAR_QUADRATIC_IDENTITY"
+    },
+    "reference_local_dirichlet_native": {
+      "X": {
+        "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.5171616540335955,
+        "matrix_relative_frobenius_best_scalar": 0.20917219000322523,
+        "native_energy_K_over_schur": 0.5512973107589638,
+        "native_gradient_best_scale_DIAGNOSTIC_ONLY": 0.0406135701054044,
+        "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.9803399683852743,
+        "native_gradient_relative_unscaled": 4.763036428852612
+      },
+      "Y": {
+        "matrix_best_scalar_DIAGNOSTIC_ONLY": 1.5096572986461376,
+        "matrix_relative_frobenius_best_scalar": 0.20651134397683454,
+        "native_energy_K_over_schur": 1.012150596807423,
+        "native_gradient_best_scale_DIAGNOSTIC_ONLY": 0.5192029997679752,
+        "native_gradient_relative_best_scaled_DIAGNOSTIC_ONLY": 0.7786470339404251,
+        "native_gradient_relative_unscaled": 0.9715493527133897
+      }
+    },
+    "scope": {
+      "Earth_down_whole_craft_up": "NOT_DERIVED",
+      "Einstein_metric": "NOT_SOLVED",
+      "Lorentzian_modes": "NOT_CERTIFIED",
+      "asymptotic_infinite_DtN": "NOT_CERTIFIED",
+      "complete_energy_lt10MJ": "NOT_CERTIFIED",
+      "full_operator_equivalence": "NOT_ESTABLISHED",
+      "on_shell_convergence_across_meshes": "NOT_TESTED",
+      "outer_sweep": "FIXED_H_1; CHANGES_OUTER_BOX_NOT_GRID_REFINEMENT",
+      "physical_source_replay": "NOT_RUN",
+      "rank_of_added_boundary_interaction": "AT_MOST_46_OF_288; NO_CHANGE_TO_BULK_ROWS"
+    }
+  },
+  "scientific_scope": "WEIGHTED_FV_FINITE_OUTER_DIRICHLET_SCHUR_TO_ORIGINAL_12_L12",
+  "timestamp_utc": "2026-11-19T04:39:10.994414+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

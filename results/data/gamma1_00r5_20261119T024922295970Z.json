@@ -1,0 +1,125 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Earth_support_EOS": "UNSPECIFIED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH16_replay": "NOT_RUN",
+  "PH17_authorized": false,
+  "SI_normalization": "NOT_SUPPLIED",
+  "branch": "GAMMA1-00R5",
+  "canonical_lattice_results": {
+    "Routhian_NOT_J": 2401.472107471401,
+    "X_bare_norm": 0.22015277623194457,
+    "X_portal_norm": 0.22015277743080522,
+    "X_total_norm": 4.064316711292656e-08,
+    "Y_bare_norm": 1.584938696018785,
+    "Y_portal_norm": 1.5849386983856595,
+    "Y_total_norm": 5.230859064496349e-08,
+    "lambda_canonical_not_covariant_stress": true,
+    "lattice_multiplier_max": -0.0067843422262434585,
+    "lattice_multiplier_min": -0.8739409123238795,
+    "lattice_multiplier_negative_cells": 288,
+    "lattice_multiplier_positive_cells": 0,
+    "no_source_replay": true,
+    "sigma_prime_max": 0.9066540682447719,
+    "sigma_prime_min": 0.023004448217601666,
+    "sigma_prime_positive_cells": 288,
+    "stationary_grad_L2": 6.80575961397518e-08
+  },
+  "classification": "PASS_ACTUAL_LATTICE_MULTIPLIER_AND_SCOPED_COVARIANT_IDENTITIES",
+  "complete_covariant_action": "NOT_CLOSED",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "derived_multiplier_archive": {
+    "keys": [
+      "bare_X_gradient",
+      "bare_Y_gradient",
+      "lambda_Routhian",
+      "local_dR_dsigma",
+      "portal_X_gradient",
+      "portal_Y_gradient",
+      "sigma_prime",
+      "total_X_gradient",
+      "total_Y_gradient"
+    ],
+    "path": "results/data/gamma1_00r5_20261119T024922295970Z_lattice_multiplier_12_L12.npz",
+    "sha256": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883"
+  },
+  "exact_covariant_necessary_identities": {
+    "Hodge_P_Weyl_weight_minus4": true,
+    "P_zero_lambda_can_survive": true,
+    "X_E_induced_constitutive": true,
+    "Y_E_induced_constitutive": true,
+    "coupling_off_null": true,
+    "matter_trace_from_same_action": true,
+    "mixed_ward_reciprocity": true,
+    "physical_lambda_matches_P_variation": true,
+    "trace_free_matter_null": true
+  },
+  "exact_offshell_two_U1_Bianchi_and_topological_controls": {
+    "constant_lambda_bulk_null_X_0": true,
+    "constant_lambda_bulk_null_X_1": true,
+    "constant_lambda_bulk_null_X_2": true,
+    "constant_lambda_bulk_null_X_3": true,
+    "constant_lambda_bulk_null_Y_0": true,
+    "constant_lambda_bulk_null_Y_1": true,
+    "constant_lambda_bulk_null_Y_2": true,
+    "constant_lambda_bulk_null_Y_3": true,
+    "off_shell_dF_X_zero_0": true,
+    "off_shell_dF_X_zero_1": true,
+    "off_shell_dF_X_zero_2": true,
+    "off_shell_dF_X_zero_3": true,
+    "off_shell_dF_Y_zero_0": true,
+    "off_shell_dF_Y_zero_1": true,
+    "off_shell_dF_Y_zero_2": true,
+    "off_shell_dF_Y_zero_3": true
+  },
+  "full_Lorentzian_health": "NOT_CERTIFIED",
+  "lattice_lambda_vs_covariant_lambda": "NOT_IDENTIFIED_DIFFERENT_ACTION_LEVELS",
+  "next_decision": "REQUIRE_COMPLETE_LORENTZIAN_ACTION_BEFORE_EINSTEIN_RESPONSE_OR_NEW_PDE",
+  "parent_chain": {
+    "R3_producing_sources": "PASS",
+    "R4R1_regression": 3072,
+    "five_raw_parent_hashes": "PASS"
+  },
+  "parents": {
+    "PH16_source": {
+      "actual": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R3_profile": {
+      "actual": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R3_result": {
+      "actual": "192fb12a39294dfea3035605375aab6cd5591d1fb51ddbce8924ca78aa041287",
+      "expected": "192fb12a39294dfea3035605375aab6cd5591d1fb51ddbce8924ca78aa041287",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z.json"
+    },
+    "R3_verification": {
+      "actual": "a7014cfc54de6a4d0048239a897cb73b7f5db4e25d897e70c9a2c259e0f98a8c",
+      "expected": "a7014cfc54de6a4d0048239a897cb73b7f5db4e25d897e70c9a2c259e0f98a8c",
+      "path": "results/data/gamma1_00r3_verification_20261119T002902463013Z.json"
+    },
+    "R4R1_verification": {
+      "actual": "292c5fe396d2d448467346e5d1d7e06f76497dc3da5b504777232c9dd4b251b8",
+      "expected": "292c5fe396d2d448467346e5d1d7e06f76497dc3da5b504777232c9dd4b251b8",
+      "path": "results/data/gamma1_00r4r1_verification_20261119T022355350163Z.json"
+    }
+  },
+  "physical_survivors": [],
+  "scientific_scope": "PH16_NATIVE_ROUTHIAN_PLUS_FORMAL_UNIVERSAL_METRIC_IDENTITIES",
+  "source_shas": {
+    "simulations/gamma1/gamma1_00r5_run.py": "c14c01ab2c2716df106338dd0e2941795126fdfa1679382e1c889a574c7bfc6c",
+    "src/antigravity_research/gamma1/gamma1_00r5_multiplier.py": "a6442e70ded54aa8e47215561e3b0cf7a63ff5d3d163d23328da187bab3fe8d5",
+    "tests/gamma1/test_gamma1_00r5.py": "c0e74e4a35b4d2ae07d3714268831d8c6f5c6338ccf241a4220bacbba828a282",
+    "tests/gamma1/verify_gamma1_00r5.py": "f62dfe14b014b058f0245cae8d0707277afebffc16edb230480a028023fbc4cb",
+    "theory/gamma1/GAMMA1_00R5_SAME_ACTION_PORTAL_MULTIPLIER_LEDGER.md": "593793916c1db0395a46c43fb6d5b2bf705735e0b388acc38c6010b7f7c958dd"
+  },
+  "timestamp_utc": "2026-11-19T02:49:22.295970+00:00",
+  "true_exterior": "NOT_CERTIFIED",
+  "whole_craft_up": "NOT_DERIVED"
+}

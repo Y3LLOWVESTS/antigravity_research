@@ -1,0 +1,20 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "GAMMA1_01_authorized": false,
+  "PH16_actual_Lorentzian_modes": "NOT_DETERMINED",
+  "branch": "GAMMA1-00R2",
+  "classification": "SCOPED_NONUNIQUENESS_AND_REGRESSION_VERIFIED",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "focused_log_sha256": "2203fe485324588f0802ecbc93760227475b374217122b8ecb307c6556e05e7a",
+  "focused_tests_passed": 27,
+  "full_regression_log_sha256": "14b36c4942911d44174ddac0042dc59f0efb33c3e7aaa67bfb580a5fd281cc01",
+  "full_regression_passed": 3013,
+  "independent_log_sha256": "1c345f38187c01d815efd252965bc4b41cb864e214b1f97a71503f7aa6ef7897",
+  "previous_baseline_passed": 2986,
+  "result_path": "results/data/gamma1_00r2_20261118T214917926733Z.json",
+  "result_sha256": "62a0fce503016a97d30e8330a9ca600080c17a06ae38f320373ccc2c912fb10f",
+  "runner_log_sha256": "48d1d48419311a463e37ac1b6269d0288c1a5081f020d6f347af98b86781a5a8",
+  "timestamp_utc": "2026-11-18T22:03:30.544123+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}
