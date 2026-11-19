@@ -1,21 +1,21 @@
 # ANTIGRAVITY_RESEARCH — Artificial Discovery Buildplan
 
 **Active branch:** GAMMA-1 — Physical Gravity-Bridge Discovery  
-**Revision:** November 18, 2026  
+**Revision:** November 19, 2026 — post-GAMMA1-00R11 evidence synchronization  
 **Recommended repository filename:** `ARTIFICIAL_BUILDPLAN.MD`  
-**Status:** **NEXT SESSION: GAMMA1-00 FIRST; NO GAMMA RUN EXECUTED**  
+**Status:** **GAMMA1-00 THROUGH R11 EXECUTED; R11 VERIFIED; NEXT CONDITIONAL THEOREM RUN: GAMMA1-00R12 (NOT EXECUTED)**  
 **Previous artificial branches:** ALPHA-1 / B17-M5V **FROZEN**; BETA-1 / BETA1-04 **FROZEN AS EVIDENCE**  
 **Physical baseline:** PH16-04R2 — joint finite-lattice charged scalar/X/Y/neutral-fluid stationary Routhian, **not a continuum gravitational theory**  
-**Latest authoritative complete regression:** **2,943 passed** (PH16-04R2, November 18, 2026)  
+**Latest GAMMA complete regression:** **3,225 passed** (GAMMA1-00R11, November 19, 2026; independently checked run manifest). **Underlying physical PH16-04R2 regression:** **2,943 passed**, preserved  
 **Permanent conservative true-stand-off anchor:** 006D, `C=23.591586299249`, **unreplaced**  
 **Real gravitational Earth-down / whole-craft-up force:** **NOT DERIVED**  
 **1 kg neutral torus ≥1 g throughout at ≥1 m genuine stand-off:** **NOT CERTIFIED**  
 **Complete conservative operating energy:** **STRICTLY <10 MJ NOT CERTIFIED**  
 **Near-term decision deadline:** U.S. Thanksgiving, **Thursday, November 26, 2026** — an aggressive **research prioritization deadline**, **not a prediction or guarantee of an engine**  
-**Physical-model maturity:** approximately **35% heuristic**, not probability of feasibility  
-**BETA-1 maturity:** approximately **70% historical artificial-branch heuristic**, now frozen; GAMMA earns no physical completion automatically.
+**GAMMA discovery maturity:** approximately **34% heuristic**. **Physical-model maturity:** approximately **37% heuristic** (post-R11 assessment); neither is a probability of device feasibility  
+**BETA-1 maturity:** approximately **70% historical artificial-branch heuristic**, frozen; GAMMA earns no physical completion automatically. **Qualified complete gravity-bridge survivors:** zero. **GAMMA1-01/02/03, PH16-05 and PH17:** NOT AUTHORIZED.
 
-> **Authority and preservation.** This is the live artificial discovery buildplan. `RESEARCH_BUILDPLAN.md` remains the authoritative physical certification strategy; `AGMINER_BUILDPLAN.MD` retains failed mechanism families; `INTROSPECTIVE_BUILDPLAN.md` retains influence diagnostics; `FORMATTING_AND_CODE_STANDARDS.md` governs coding and documentation; executed JSON/SHA/logs outrank stale notes or plans. The previous November 16 BETA-1 buildplan must be retained separately, unchanged, as `BETA_ARTIFICIAL_BUILDPLAN_ARCHIVE_20261116.MD`. GAMMA does not rewrite ALPHA, BETA, PH15, PH16, or 006D provenance.
+> **Authority and preservation.** This is the live artificial discovery buildplan. `RESEARCH_BUILDPLAN.md` remains the authoritative physical certification strategy; `AGMINER_BUILDPLAN.MD` retains failed mechanism families; `INTROSPECTIVE_BUILDPLAN.md` retains influence diagnostics; `FORMATTING_AND_CODE_STANDARDS.md` governs coding and documentation; executed JSON/SHA/logs outrank stale notes or plans. The previous November 16 BETA-1 buildplan must be retained separately, unchanged, as `BETA_ARTIFICIAL_BUILDPLAN_ARCHIVE_20261116.MD`. Preserve the November 18 GAMMA plan as a historical version before replacing the live file. GAMMA does not rewrite ALPHA, BETA, PH15, PH16, or 006D provenance. The November 18 README, NOTES, journal bundle and especially the 00:14 CST codebundle predate the verified R11 frontier and may still say GAMMA has not run; they are not authoritative against R0–R11 immutable outputs.
 
 ---
 
@@ -63,6 +63,48 @@ We do **not** know whether an antigravity spacecraft of the requested kind is ph
 
 **Protected prescribed capacities, not sources:** A12C `2.6568591420597114 J`; R3B `1.5429162116460216 J`; B7 `1.5473042949759672 J`; B1 `0.275–0.301 MJ` field-only. Preserve R3A's `1.84e15` ordinary-material suppression, R3C/R3X1 sign and loading corrections, B0–B16 failures, PH15-P7 winding instability, PH14 spherical zero-Y channel, and the AGMINER obstruction catalog. Do **not** spend time reducing field capacities already below 100 J.
 
+## 2A. Executed GAMMA1-00 through R11: immutable scientific frontier (November 18–19)
+
+The original GAMMA1-00 work and R1–R11 continuations **have executed**; R4's independent verifier initially failed and required a separately preserved R4R1 erratum. These are continuing **GAMMA1-00 theorem/discriminant stages**, not authorization of GAMMA1-01. Keep each original failure and result immutable. The latest complete user-executed regression reported **3,225 passing tests** and the independent R11 verifier passed. The older 2,943-test total remains the separate PH16 physical stationary baseline.
+
+| Stage | Complete regression | What was learned; what is NOT established |
+|---|---:|---|
+| **GAMMA1-00** | 2,959 | M0–M3 source-to-gravity sign/stress/energy atlas; classification `ATLAS_COMPLETE_SCOPED`; no physical bridge selected |
+| **R1** | 2,986 | Restricted conformal/Hodge/constitutive and adverse off-shell kinetic controls; not beta=40 on-shell ghost proof |
+| **R2** | 3,013 | Static data admit different time-dependent Lorentzian kinetic completions; static stationarity does not specify healthy dynamics |
+| **R3** | 3,033 | Original 12/L12 PH16 state matched/replayed; 288-cell native field archive, not independent complete three-mesh/basin certification |
+| **R4 / R4R1** | 3,072 | Scoped exterior portal-gradient signs; original R4 independent fourth-derivative sign check **FAILED**, R4R1 corrected only verifier logic and preserved original failure |
+| **R5** | 3,091 | Exact lattice Routhian first derivative `lambda_R=-(1/w) dR/dP`, negative in all 288 cells; not automatically covariant constitutive coefficient |
+| **R6** | 3,107 | Restricted static trace matched R5 to ~2.22e-16; simplistic nodal Maxwell operator mismatched Green inverse ~64% |
+| **R7** | 3,124 | Weighted cylindrical FV weak-form smooth-probe improvement; native gradients and general operator convergence remained open |
+| **R8** | 3,148 | Finite-exterior Schur reduction on 46-cell rim improved **unfitted X native gradient error to 5.9614%** at extent 60; Y remained 29.1831% |
+| **R9** | 3,176 | Axis-regular `A_phi=rho*u` Y action improved **unfitted Y error to 20.8987%**; order-12 Green self-quadrature left 20.3538% residual |
+| **R10** | 3,195 | Hypothetical Lorentzian charged-scalar/fluid static-reduction identities, positive **restricted** beta=40 margins; beta=60 frozen control had 4 negative magnetic cells |
+| **R11** | **3,225** | **Exact nonlocal rank-two fixed-Noether Routhian Hessian correction**, independent mixed finite differences; conditional frozen two-U(1) photon symbol, **not** full constrained health |
+
+**Decisive R11 theorem within the original PH16 stationary reduction.** Both stationary scalar frequencies are eliminated while holding `N_+=N_-=400`. Consequently:
+
+```math
+H_{PP}|_N=H_{PP}|_\omega-H_{P\omega}H_{\omega\omega}^{-1}H_{\omega P}
+=H_{PP}|_\omega+C^T\operatorname{diag}((2I_+)^{-1},(2I_-)^{-1})C
+```
+
+The correction is positive semidefinite, rank two and nonlocal across portal cells; its nonzero singular values were `0.7066790396959028` and `0.021912054731632862`; maximum off-diagonal entry approximately `0.102317674`; independent selected mixed-Hessian FD error `1.0888439876968747e-05`, and Noether reclosure residual `5.684341886080802e-14`. The R5 first derivative remains correct by the frequency stationarity/envelope theorem. **R10's frozen-frequency local `chi` is not the entire fixed-Noether Hessian and may not be declared the actual Lorentzian kinetic coefficient.** This is not a no-go theorem against all local Lorentzian parents: eliminating constraints in a local theory can generate a nonlocal reduced action.
+
+R11's separately *hypothetical* frozen two-U(1) local photon model had minimum conditional `v²/c² ≈ 0.18938458335665867` and independently checked transverse-symbol null residual `5.3487894368711036e-12`. Its required identification of local `ell''(P)` with the original PH16 constitutive response is **unproven**. Full scalar, fluid, gauge/gravity and support modes were omitted; no physical source–Einstein bridge was established.
+
+**Exact R11 immutable checkpoints:**
+
+- Scientific JSON: `results/data/gamma1_00r11_20261119T074039011670Z.json`; SHA-256 `ac7050c648959ee0daa21bed994d8cdc34abb261d08433f302d4362af163acef`.
+- Noether/Hessian NPZ: `results/data/gamma1_00r11_20261119T074039011670Z_Noether_Schur_12_L12.npz`; SHA-256 `d5d0de1f5614be104d28c4fe51b157cb1f26815b905a14495791e7a049fa46fd`.
+- Verification JSON: `results/data/gamma1_00r11_verification_20261119T075421177672Z.json`; SHA-256 `c9ff19031424c27a9da541f4aa0e0d064b158b2b16610d0f147e62eb5769d6ca`.
+- R3 native NPZ SHA `94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54`; R5 multiplier NPZ SHA `2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883`.
+- PH16-04R2 corrected source SHA `b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0`.
+
+The full individual GAMMA result/verification SHA index is retained in the November 19 journal/carry-over record. Do not infer success from this prose if a source file or hash has drifted: recheck raw artifacts in the next session. No R12 source or run yet exists.
+
+**Live scientific decision:** M0 is a **conditional static source/portal hypothesis with unresolved Lorentzian and Einstein action**; no M1 low-energy replacement of 006D; no M2 operator promoted; M3 remains reserved. Qualified gravity bridge survivors **zero**. GAMMA1-01, PH16-05 and PH17 are not authorized. The next *permitted targeted theorem run* is **GAMMA1-00R12**, not a new main physics branch.
+
 ## 3. Non-negotiable observable: whole-craft **gravitational** repulsion
 
 The benchmark is **not** a point-force plot or one favorable grid cell. A promoted result must ultimately have:
@@ -99,39 +141,46 @@ Every prospective numerical run must have a **pre-registered decision question**
 - **Avoid false certificates.** A test count, a frozen principal margin, an action derivative, a toy force ledger, a parameter fitted to the desired sign or a small canonical field cost does not demonstrate real antigravity.
 - **Reserve independent time.** One separate derivation of the sign, source/response and force observable is more valuable than another near-identical solver refinement.
 
-**Run-budget target until Thanksgiving:** **one mandatory high-information GAMMA1-00 theorem run; at most two additional main research runs (GAMMA1-01 and GAMMA1-02) if their predecessor produces a genuinely viable survivor; at most one separately scoped independent verification / physical transfer pass.** This is an *authorization ceiling*, not a requirement to use all the runs. The optimum may be **one run** proving the present mechanism cannot meet a hard gate. No further runs should be authorized merely because calendar time remains.
+**Updated run-budget discipline (post-R11):** GAMMA1-00 and R1–R11 have already executed as scoped theorem/replay/comparator/constraint subruns. Do not retroactively claim that this creates eleven qualified physical survivors or automatically consumes/authorizes GAMMA1-01. **One narrowly specified L0 GAMMA1-00R12 off-shell covariant action/constraint fork** is the next permitted research decision; it must pre-register at least one substantive falsifier and stop when the action is underdetermined. **GAMMA1-01 and GAMMA1-02 remain strictly conditional** on an independently defensible action-level survivor; GAMMA1-03 is independent review, not another search. No discretionary additional R-series just to improve progress percentages, frozen-field residuals or test counts. Reassess the scientific decision after R12 before authorizing any follow-up.
 
-## 5. Explicit decision graph
+## 5. Explicit decision graph — revised after R11
 
 ```text
-START: freeze PH16-04R2 + BETA1-04 + 006D + failed-family atlas
-    |
-    v
-GAMMA1-00: same-action stress/metric/sign + obstruction + SI bound atlas
-    |
-    +-- no viable physical source-to-metric family --> RED_SCOPED_OBSTRUCTION
-    |                                               stop expensive calculations
-    |
-    +-- viable derivable bridge candidate --> GAMMA1-01
-                                              source/metric reciprocal preflight
-                                                    |
-                                                    +-- ghost/no-go/source-off
-                                                    |   failure --> close class
-                                                    |
-                                                    +-- physical candidate --> GAMMA1-02
-                                                                               external force + energy
-                                                                                    |
-                                                                                    +-- no true exterior,
-                                                                                    |   whole-craft reaction,
-                                                                                    |   or source/cost --> stop
-                                                                                    |
-                                                                                    +-- survives --> GAMMA1-03
-                                                                                                     independent
-                                                                                                     derivation / PH16
-                                                                                                     transfer candidate
+FROZEN: 006D, ALPHA M5V, BETA1-04, PH16-04R2
+     |
+     v
+EXECUTED: GAMMA1-00 through R11 (3225 full regression PASSED)
+     |    R4 initial verifier failure preserved; R4R1 corrected
+     |    R6–R9 Green/FV exterior/axis correspondence INCOMPLETE
+     |    R10 static matter parent CONDITIONAL
+     |    R11 rank-2 nonlocal fixed-Noether Hessian VERIFIED
+     |    Full Lorentzian/Earth/Einstein action NOT CLOSED
+     v
+NEXT PERMITTED: GAMMA1-00R12 L0 covariant action/constraint fork
+     |
+     +-- cannot specify one closed action/current/metric --> UNDERDETERMINED
+     |       preserve missing terms; no expensive PDE or false pass
+     |
+     +-- exact Ward/Noether/Bianchi/health/energy obstruction --> SCOPED RED
+     |       preserve scope; consider at most one genuinely new M2 premise
+     |
+     +-- conditional, explicitly sourced healthy parent --> INDEPENDENT REVIEW
+                 |
+                 +-- fails independent physical test --> STOP / ARCHIVE
+                 |
+                 +-- justified source/metric bridge --> AUTHORIZE GAMMA1-01
+                          |
+                          +-- no exterior/modes/source --> STOP
+                          +-- survives --> CONDITIONAL GAMMA1-02
+                                   |
+                                   +-- fail Earth/craft/energy --> STOP
+                                   +-- survive --> GAMMA1-03 independent transfer
+                                                   |
+                                                   +-- PH16-05 physical transfer
+                                                   +-- PH17 after force derivation
 ```
 
-If an intermediate result is *numerically unresolved*, label it **NUMERICAL_INCONCLUSIVE**, not physics impossible. If it is *only an idealized counterexample*, retain it as an artificial theorem, not evidence of a source.
+A scoped theorem pass means only the stated hypothesis/identity passed. `NUMERICAL_INCONCLUSIVE` never becomes `PHYSICALLY_FALSIFIED`; a mathematical counterexample never becomes a real source. No more than two substantive mechanism families may survive the discovery atlas; only one at a time may receive an expensive physics solve. **No physical promotion from GAMMA's test count alone.**
 
 ## 6. Ranking candidates by expected scientific leverage, not speculative probability
 
@@ -176,7 +225,7 @@ where the **physical neutral-matter metric** is proposed as
 P=\tfrac12 F_{X\mu\nu}({}^{\star}F_Y)^{\mu\nu}
 ```
 
-This is an organizing hypothesis, **not a verified complete theory**. Lock signature, epsilon/Hodge normalization, scalar dimensions, metric dependence of `P`, gauge-fixing and boundary terms *before* variation. The total action must not double-count matter or omit supports/Earth when their stress affects a claim. New couplings in `L_new` must be explicit, finite in number and dimensionally normalized.
+This is an organizing hypothesis, **not a verified complete theory**. Lock signature, epsilon/Hodge normalization, scalar dimensions, metric dependence of `P`, gauge-fixing and boundary terms *before* variation. In particular, for fixed fundamental field-strength components, `sqrt(-g)*P` is proportional to the mixed `F_X wedge F_Y` density; the metric dependence of `P` through the Hodge star and the determinant must be varied consistently. Do not treat `P` as metric-independent or double-count its volume-element contribution. The mathematical coefficient depends on the declared P/star convention, which R12 must lock and verify independently. The total action must not double-count matter or omit supports/Earth when their stress affects a claim. New couplings in `L_new` must be explicit, finite in number and dimensionally normalized.
 
 From **the same action** derive, with all terms:
 
@@ -186,6 +235,8 @@ From **the same action** derive, with all terms:
 - The **off-shell** diffeomorphism/Noether identity; its **on-shell** stress-energy exchange and finite-boundary flux identity. An off-shell residual cannot be silently equated to a physical force.
 - The *constrained* Lorentzian principal symbol and Hamiltonian, separating physical propagating modes from gauge constraints and nonphysical coordinate modes; causal hyperbolicity, positive-energy tests and characteristic cone.
 - A retarded/exterior solution with correct asymptotics and a well-defined momentum/force observable in the gravitational setting used.
+- **R11 mandatory reduction control:** recover the rank-two nonlocal fixed-Noether Hessian after eliminating the two source frequencies; do not identify it with an unreduced local propagation kinetic matrix, and do not treat R10 local `chi` as `ell''(P)` of a unique physical Lorentzian theory without derivation.
+- **R2 completion nonuniqueness control:** explicitly state any additional time-derivative operator that vanishes on the static ansatz; off-shell data are mandatory to choose a healthy completion.
 
 **Do not assume** that the flat-space global force-pair formula holds unchanged in arbitrary curved spacetime. Specify the asymptotic/stationary symmetries or quasilocal momentum definition and include gravitational stress/boundary contributions appropriately.
 
@@ -197,7 +248,7 @@ From **the same action** derive, with all terms:
 
 Vary the full Einstein + X/Y + charged-source + universal neutral/solid/Earth action, not the frozen finite-lattice Routhian alone. Derive whether its nonzero on-shell `P` produces a genuine outward neutral physical-metric response, its sign under Earth presence, and what source/support energy or stress must accompany it.
 
-**Cheapest decisive tests:** exact static weak-field source-to-metric and neutral test-body response; conformal stress terms; coupling-off and source-off; 006D-style active-stress decomposition; SI dimensional normalization; comparison with frozen `beta=40` local modes and `beta=60` warning.
+**Cheapest decisive tests (R12):** exact `sqrt(-g)P`/Hodge density identity and metric variation; separate background and physical-metric stress; true charged-scalar and fluid-current off-shell Ward identities; rederivation of the R11 fixed-Noether rank-two Schur term; a real local Lorentzian constitutive coefficient independent of R10's frozen `chi`; source/Earth/support variation inventory; SI/EP prefilter. Use the beta=40 restricted curvatures and beta=60 frozen warning as *controls only*.
 
 **Terminate this family** if a robust source-to-metric sign theorem, impossibility of physical source, or conservative energy bound rules out the mission under its precise assumptions. If algebra leaves a viable path, transfer the exact missing equations—not the artificial desired force—to GAMMA1-01.
 
@@ -242,35 +293,74 @@ A purported **Newton's-third-law** check between two coordinate derivatives in a
 
 # PART IV — MINIMUM-RUN EXECUTION PLAN AND STOP CONDITIONS
 
-## 10. GAMMA1-00 — Unified gravity-bridge theorem and obstruction atlas
+## 10. GAMMA1-00 — Executed atlas and next R12 off-shell fork
 
-**NEXT SESSION FIRST TASK. No GAMMA work has yet been executed.**
+**Original GAMMA1-00 unified atlas: EXECUTED (2,959 tests). R1–R11: EXECUTED, most recent full regression 3,225. The next experiment is `GAMMA1-00R12_OFFSHELL_COVARIANT_ACTION_AND_CONSTRAINT_CLOSURE_FORK`; it is NOT EXECUTED.** This remains within the original GAMMA1-00 theorem/falsification program; it is **not** automatic GAMMA1-01 authorization. Fidelity: L0 exact analytic/off-shell derivation, then only minimal L1 checks that answer a pre-registered physical question. No new large source PDE.
 
-**Name:** `GAMMA1-00_EXACT_SOURCE_TO_GRAVITY_BRIDGE_FORK`  
-**Fidelity:** L0 exact symbolic/theorem + minimal L1 consistency witnesses only where algebra does not decide.  
-**Central decision:** Does the existing PH16 action, 006D-style stress, or **one explicit minimal new operator** admit a physically meaningful outward metric effect and Earth/craft reaction without contradicting source conservation, mode health or an immediate complete-energy bound?
+**Decisive question:** Can one **fully specified** local, gauge/diffeomorphism-invariant Lorentzian action for charged scalar sources, two U(1) carriers, a conserved neutral fluid and universally coupled physical matter (including Earth and supports) reproduce the PH16 stationary reductions, their exact R11 fixed-Noether response and a legitimate physical metric/Hodge stress, while preserving all constraint identities and a plausible healthy dynamical completion?
 
-**One run must answer all of the following:**
+### 10.1 Fundamental fields, metrics and boundary conditions
 
-1. **Canonicalize the baseline:** exact PH16-04R2 source/Y/X/neutral definitions, action normalization, finite-lattice scope, 18/L12 seed caveat and relevant SHA dependencies.
-2. **Derive** the complete metric-dependent `P`, conformal variation, full stress-energy, Einstein equation and source/neutral/support equations from one candidate action; log every frozen/prescribed term.
-3. **Prove the relevant gauge/diffeomorphism identities** off-shell and derive conservation on-shell; explicitly identify the missing physical Earth/support contributions.
-4. **Compute the leading weak-field sign and spatial exterior falloff** of a finite onboard source interacting with the Earth and a neutral torus. State which sign is guaranteed, which depends on a source stress coefficient and which is not decidable without PDEs.
-5. **Separate physical force from artifact:** source off; Earth off; alpha/beta off; complete craft translation; source-only translation; fictitious chosen Earth susceptibility; homogeneous/planar and finite multipole controls.
-6. **Audit constrained health** for each new physical mode and known PH16 beta=60 warning; never use a positive frozen magnetic margin as proof of full stability.
-7. **Make an SI/UV feasibility prefilter:** dimensional normalization, source/support lower bound, coupling naturalness, empirical fifth-force/EP constraints; mark unknowns explicitly.
-8. **Compare M0/M1/M2 and reserve M3** in one ranked hypothesis matrix, including exact falsifier and cheapest next necessary physical test.
-9. **Return a scientific branching decision:** `STOP_SCOPED_NO_GO`, `ONE_BRIDGE_HYPOTHESIS_SURVIVES`, `TWO_INDEPENDENT_HYPOTHESES_SURVIVE`, or `INSUFFICIENT_THEORY_NEEDS_DERIVATION`. A conditionally attractive toy profile **cannot** count as survival without an action-level route to real source, health and Earth response.
+Before varying anything, specify a single candidate action, including explicit dynamical and constrained pieces:
 
-**Required files/artifacts:** an immutable timestamped `gamma1_00_<UTC>.json` + `.sha256`, focused test log, exact theorem/counterexample ledger, source SHA manifest, complete regression when new repository code is committed, a concise next-decision table. Register both positive and negative hypotheses, explicit assumptions and classification. Do not overwrite PH16 or BETA artifacts.
+```math
+S_{\mathrm{total}}=S_{\mathrm{EH}}[g]+S_X[A_X,g]+S_Y[A_Y,g]
++S_{\mathrm{source}}[\psi_\pm,A_X,\widetilde g]
++S_{\mathrm{fluid}}[J^\mu,\mathrm{constraints},\widetilde g]
++S_{\mathrm{Earth}}[\Psi_E,\widetilde g]
++S_{\mathrm{support}}[\Xi,\widetilde g]
++S_{\mathrm{boundary}}
+```
 
-**Hard pass is an atlas, not antigravity:** `GAMMA1_00_ATLAS_COMPLETE` means every listed question is resolved, formally conditional or marked unknown with a discriminating next experiment. **No physical promotion.**
+The equation is **a required action inventory**, not yet an implemented complete action. If source, fluid, Earth, support or boundary terms are merely symbolic, the *full-action closure gate is NOT MET*. Declare the metric frame, signature, epsilon/star convention, which metric defines `P`, field units, dimensions of `alpha,beta`, number-current variables and physical boundaries. Do not assume a field-coupled `\widetilde g` is healthy or empirically allowed merely because it is written down.
 
-**Stop rule:** if all proposed families are eliminated under their stated assumptions, do **not** spend the remaining deadline running larger PDEs. Preserve the precise no-go and propose *genuinely different* physics for a later research decision, without automatic branch proliferation.
+### 10.2 Primary exact metric/Hodge falsifier
+
+Work with fixed fundamental gauge potentials and antisymmetric field strengths. Derive `delta(sqrt(-g)P)` and `delta P` in at least two ways: tensor index/determinant variation and differential-form `F_X wedge F_Y` variation. Verify epsilon-sign conventions and surface terms. Then derive `delta \widetilde g / delta g`, `delta \widetilde g / delta A_X,Y`, and the *complete* source/neutral/Earth/support contributions to the metric Euler derivative. Identify the genuinely derived `T_{\mu
+u}`, rather than substituting R5's canonical lattice multiplier as if it were the Einstein source. A metric dependency hidden in `P` must not be omitted or double counted.
+
+### 10.3 Source, fluid, two-U(1), and diffeomorphism identities
+
+Independently vary both U(1) potentials; derive charged scalar currents and current conservation from the action, not by prescribed current maps. Include a genuine off-shell conserved fluid-number current construction, with its Lagrange multipliers or equivalent pullback/Clebsch variables, and explain boundary/current flux. Derive the two Bianchi identities, two gauge Ward identities, scalar and fluid number Noether identities, the full diffeomorphism Noether identity and its on-shell stress-exchange relation. Record unresolved Earth/support variational terms as missing; never label the **full** Ward identity closed when those terms are unspecified.
+
+### 10.4 R10/R11 stationary reduction and nonlocal second-variation test
+
+On a declared static ansatz recover the PH16 scalar/fluid terms and both fixed numbers `N_+=N_-=400`. Distinguish frozen-frequency local portal curvature from the **fixed-charge** reduced Hessian. Independently derive:
+
+```math
+H_{PP}|_N=H_{PP}|_\omega-H_{P\omega}H_{\omega\omega}^{-1}H_{\omega P}
+```
+
+and reproduce R11's positive rank-two correction within stated numerical tolerances using the original SHA-locked native R3 profile. This is necessary, not sufficient. Independently calculate the **unreduced** Lorentzian principal symbol and constrained Hamiltonian; the reduced nonlocal static Hessian is **not** itself a claim about local mode speeds or ghost freedom.
+
+### 10.5 Dynamics, source/exterior and physical-force kill tests
+
+- Include all genuinely propagating scalar amplitude and phase variables, X/Y Gauss constraints, fluid and metric constraints. If these cannot be written and eliminated, declare full health `NOT_CERTIFIED`.
+- Test the R2 nonuniqueness counterexample: add an explicitly declared static-invisible gauge-invariant time-derivative operator and show why static PH16 data alone cannot choose its coefficient.
+- Preserve R8's 5.96% X and R9's 20.90% Y **unfitted native-field** mismatches and distinguish finite-box/source-free exterior from true continuum.
+- Test constant mixed-field multiplier (topological bulk null), coupling off, source off, Y off, charge conjugation, pure gauge, and the PH14 spherical on-shell Y-null control.
+- Derive a physical neutral-metric weak-field sign only from a stated action; separate it from assumed Earth reaction or total-craft force. Do **not** report a gravitational thrust value if Earth/support/worldtube variations are missing.
+- Restore SI dimensions and screen classical stress cost, EP/fifth-force/PPN bounds, EFT cutoff and radiative stability before authorizing expensive modeling.
+
+### 10.6 R12 high-information stop/decision order
+
+1. **ACTION_DEFINED?** If some terms are unspecified, output an explicit `ACTION_UNDERDETERMINED` list. An internally consistent *subsector* is not a complete theory.
+2. **METRIC_HODGE_DERIVED?** Independent differential-form/tensor check; stop on contradiction.
+3. **OFFSHELL_WARDS_CLOSED?** Do not promote from on-shell numerical conservation alone.
+4. **FIXED_N_RECOVERED?** Reproduce the R11 rank-two Schur term from the proposed parent reduction.
+5. **HEALTHY_CONSTRAINED_MODES?** Unreduced Lorentzian modes, not R10's local instantaneous curvature alone.
+6. **SOURCE_TO_METRIC_SIGN?** Only with sourced stress/geometry, not prescribed portal gradient.
+7. **SI/EMPIRICAL_PREFILTER?** Unknown energy is `ENERGY_UNDETERMINED`, never `PASS_LT10MJ`.
+
+R12 must report distinct `PASS`, `FAIL`, `CONDITIONAL`, `NOT_DERIVED` or `INCONCLUSIVE` values for every gate, and record at least three discriminating *negative controls*. Prefer a useful precise obstruction over extra parameter points. The main classifications are `SCOPED_ACTION_OBSTRUCTION`, `INSUFFICIENT_UNIQUE_COVARIANT_ACTION`, `EXACT_ACTION_COMPATIBILITY_CONDITIONAL`, `FULL_CONSTRAINT_HEALTH_FAILURE` or a narrowly justified `PHYSICAL_BRIDGE_CANDIDATE_FOR_INDEPENDENT_REVIEW`. The last is **not** GAMMA1-01 authorization, full stability or lift.
+
+**Required outputs:** immutable timestamped `gamma1_00r12_*.json` and `.sha256`; independent theorem ledger; SHA locks to R11 producer, result and native archive; explicit action field inventory, metric/Hodge variation, off-shell identities, static reduction, negative controls, physical/energy claims status; focused tests; separate scientific verifier; one full repository regression after a finalized implementation. The previous complete baseline is 3,225 passing tests. Preserve failures and report any source drift rather than masking it.
+
+**No new R12 numerical results are claimed by this document. The next scientific action is to design and run R12, and independently review its outcome before choosing another run.**
 
 ## 11. GAMMA1-01 — One minimal gravity-bridge action, reciprocal source/metric variation
 
-**Authorized only if GAMMA1-00 returns a concrete survivor.**
+**NOT AUTHORIZED at R11. Authorized only after R12 and independent review demonstrate a concrete physically defined, potentially healthy action-level survivor.**
 
 **Question:** Can the candidate provide a nonzero **source-on minus source-off physical-metric effect** when the onboard source, X/Y fields, neutral target, Earth material and essential support terms arise from **one varied action**?
 
@@ -292,7 +382,7 @@ A purported **Newton's-third-law** check between two coordinate derivatives in a
 
 ## 12. GAMMA1-02 — Real external-force, stand-off and complete-cost discriminant
 
-**Authorized only for a survivor of GAMMA1-01.**
+**NOT AUTHORIZED at R11. Authorized only for a genuine source/metric/exterior/health survivor of GAMMA1-01.**
 
 **Question:** Does the interaction act on the **entire onboard apparatus** through the Earth, and is the strict mission benchmark remotely feasible with credible SI source and supports?
 
@@ -312,7 +402,7 @@ A purported **Newton's-third-law** check between two coordinate derivatives in a
 
 ## 13. GAMMA1-03 — Conditional independent physical transfer review
 
-**Only if GAMMA1-02 survives its decisive gates.** This is **not another free-form search**. Independently rederive the leading effect with different methods and verify the proposed mechanism in the actual physical action. Prepare a **Physical Transfer Record** specifying the exact new operator, why previous failures no longer apply, source construction, Ward/Noether/Bianchi, kinetic/UV, stress/support, exterior, full energy, force sign and independent test.
+**NOT AUTHORIZED at R11. Only if GAMMA1-02 survives its decisive gates.** This is **not another free-form search**. Independently rederive the leading effect with different methods and verify the proposed mechanism in the actual physical action. Prepare a **Physical Transfer Record** specifying the exact new operator, why previous failures no longer apply, source construction, Ward/Noether/Bianchi, kinetic/UV, stress/support, exterior, full energy, force sign and independent test.
 
 **Destination:** PH16 for exact source–X/Y–neutral–metric/gravity closure; PH17 only **after** independently derived Earth-down/whole-craft-up reaction; B11-M6 for causal signed impulse and unreset cycles. Do not copy an artificial solver's desired fields into the physical program as prescribed source data.
 
@@ -374,7 +464,7 @@ Each **attempt**, including failure/timeout, writes new timestamped JSON and `.s
 ```json
 {
   "program": "ANTIGRAVITY_RESEARCH",
-  "branch": "GAMMA1-00",
+  "branch": "GAMMA1-00R12",
   "classification": "FAILED_OR_INCOMPLETE",
   "timestamp_utc": null,
   "parent_manifest_sha256": null,
@@ -410,50 +500,52 @@ Each **attempt**, including failure/timeout, writes new timestamped JSON and `.s
 | **L2** | Joint finite constrained PDE/exterior/mode calculation | No reciprocal closure, no convergence or no real-source route |
 | **L3** | Full finite Earth/craft source/metric and signed force | No healthy physical survivor or complete energy |
 
-One scientific run should bundle all permitted low-cost L0/L1 tests before escalating. Use **focused tests before a costly scientific solve**, and one fresh **complete regression** when a completed new code/run is accepted; don't rerun the full regression for every exploratory symbolic identity. Record the test baseline (PH16-04R2: **2,943 tests**) and any new tests without claiming that they are physical progress.
+One scientific run should bundle all permitted low-cost L0/L1 tests before escalating. Use **focused tests before a costly scientific solve**, and one fresh **complete regression** when a completed new code/run is accepted; don't rerun the full regression for every exploratory symbolic identity. Record **both** test baselines: PH16-04R2 physical-model solver **2,943 passed**; GAMMA1-00R11 latest repository complete regression **3,225 passed**. Count R12 additions only after execution; tests are not physical progress on their own.
 
 **Source control and terminal workflow:** new `src/antigravity_research/gamma1/`, `simulations/gamma1/`, `tests/gamma1/`, immutable `results/data/gamma1_*_<UTC>.json` and `results/logs/gamma1_*_<UTC>.log`; no overwriting ALPHA/BETA/PH16 or negative results, no git commands, complete standalone paste-ready **Bash APPLY** and separate **VERIFY** blocks (all heredocs closed), zsh-compatible invocation, stop on failure, explicit runtime budgets and fail-closed SHA checks.
 
 **Never silently** lower error thresholds, change branch parameters to produce the desired sign, reset matter/fields between cycles, omit recalcitrant configurations, change the tested source version, or convert `NO` into `PASS` because a solver returned success. Separate mathematical, numerical, physical and empirical gates.
 
-## 20. What the first GAMMA1-00 code/run must actually deliver
+## 20. What the next GAMMA1-00R12 code/run must actually deliver
 
-Rather than starting with a giant coupled GR simulation, require:
+The original GAMMA1-00 atlas **already executed**. R12 is the next *proposed* tightly bounded L0 action-closure falsifier. Do **not** begin with a large coupled Einstein PDE, a Y-quadrature sweep or a fitted favorable force. Reuse the original PH16-04R2 action, GAMMA R3 native NPZ, R5 multiplier NPZ, R8/R9 negative operator controls, R10 symbolic restrictions and R11 rank-two Hessian archive.
 
-**Inputs:** frozen PH16-04R2 action/results/field normalization; BETA1-00/01/1B0/1B1/02/03/04 exact findings; M5V control; 006D source, PH14/P7 source failures, AGMINER failures; `RESEARCH_BUILDPLAN.md`, `INTROSPECTIVE_BUILDPLAN.md`, formatting standards.
+**Minimal theory package:**
 
-**Analytic work package (single experiment):**
+- Fundamental action and complete inventory of missing terms, including correct fixed physical/gravity metric definitions and counterterms/boundary terms; declare units and coupling normalizations.
+- Exact independent tensor/form derivations for the mixed Hodge pseudoscalar variation and universal conformal matter stress.
+- Both U(1) EOM, charged scalar current, conserved fluid number action, off-shell gauge/diffeomorphism Ward/Noether/Bianchi identities, stress exchange, and source-off/coupling-off controls.
+- Explicit PH16 static reduction with fixed Noether constraints and R11 rank-two Schur reclosure; separate its static Hessian from actual dynamical constrained principal symbol.
+- Explicit list of all not-yet-derived dynamic modes and stress/support/Earth equations; stop rather than filling gaps with chosen currents or forces.
+- Source-free exterior, physical weak-field Earth/neutral/whole-craft force requirements, conservative SI lower-bound and empirical/UV assessment, each classified by current evidence.
+- A precise positive/negative hypothesis decision table: no more than two surviving physical *hypotheses*, zero qualified physical *survivors* unless actual off-shell, health, source and metric evidence independently supports promotion.
 
-- Action schema with the full metric/Hodge/stress contributions and one explicitly parameterized candidate new operator, or a proof that the baseline is already sufficient/insufficient under stated assumptions.
-- Conditional weak-field Einstein/geodesic response; source-to-neutral/Earth interaction signs; finite multipoles; frame-invariant diagnostic.
-- Off-shell Noether/Ward/Bianchi, on-shell stress conservation and worldtube momentum budget.
-- In-principle finite source/support, Lorentzian positive-mode and source-off/Earth-off controls; historical counterexample matrix.
-- Dimensional SI lower-bound screen, maximum transparent assumptions, EFT/empirical conflict list.
-- At least **three genuinely discriminating tests** for the top remaining hypothesis, each with a signed expected outcome and stop criterion.
-- Ranked decision: at most **two hypotheses** survive, with **one preferred next physical action** and an explicit `NO_NEXT_RUN_IF_KILLED` branch.
+**Verification deliverables:** independent analytic derivation of at least the metric/Hodge sign and R11 constrained reduction; focused tests against archived R11 and relevant R2/R9 controls; source-hash manifest; immutable JSON/SHA/logs, full 3,225-plus-new-tests regression only after finalized new code; original failures retained. Distinguish `NOT_ATTEMPTED`, `NOT_DERIVED`, `FAIL`, `INCONCLUSIVE` and an actual scoped pass.
 
-**PASS** means the theorem atlas is complete, not that the gravity bridge or device works. Even an exact no-go is a valuable completed GAMMA1-00 if the precise assumptions are documented and independent verifier reproduces it.
+**Hard stop:** no GAMMA1-01, PH16-05, PH17, claimed Einstein thrust, or SI lift/energy certificate based on R12 regression alone. The explicit output must say **what new physical fact was derived or which exact assumption failed**, and whether a next expensive solve would change the research decision.
 
 ---
 
 # PART VII — THANKSGIVING RESEARCH PRIORITIZATION AND HANDOFF
 
-## 21. Short-deadline plan: November 18–26, 2026
+## 21. Short-deadline plan: November 19–26, 2026 (updated after execution)
 
-This calendar is a **priority order**, not a prediction of completed discoveries and not permission to perform autonomous/background tasks:
+This is a research *priority order* and a decision deadline, never a promise of an operational spacecraft or authorization for an automatic background schedule.
 
-| Target window | Work only if the prior gate passes | Valuable deliverable even on failure |
+| Window | Actual status or conditional action | Valuable result even without a survivor |
 |---|---|---|
-| **Nov 18–19** | `GAMMA1-00` unified theorem/no-go/sign/energy atlas | Named source-to-metric obstruction and precise allowed mechanism classes |
-| **Nov 20–22** | `GAMMA1-01` one physically motivated action-level bridge | Verified source/metric reciprocity **or** a decisive no-go |
-| **Nov 23–24** | `GAMMA1-02` external Earth/craft force and SI cost *only with a viable survivor* | Honest force/reaction/energy ledger, or a proof of why it cannot pass |
-| **Nov 25–26** | `GAMMA1-03` independent review and PH16 transfer *only with survival*; otherwise freeze negative atlas | Independent result and realistic project status before Thanksgiving |
+| **Nov 18–19** | GAMMA1-00, R1–R11 executed, R4 original verifier failure preserved and R4R1 corrected, R11 3,225 full tests passed | Exact rank-two Noether/Hessian correction; static Green/FV and conditional Lorentzian obstructions |
+| **Next (R12)** | One bounded off-shell complete-action/Hodge/constraint identity fork; **NOT EXECUTED** | A precise action incompleteness, scoped no-go or real conditional parent |
+| **Only after independently qualified R12** | GAMMA1-01 reciprocal source/metric action bridge | Verified physical source-to-metric equation or named physical obstruction |
+| **Only if GAMMA1-01 survives** | GAMMA1-02 actual exterior Earth/craft force and complete SI cost | Conserved whole-craft force test or explicit failure/energy bound |
+| **Only after real survivor** | GAMMA1-03 independent physical review and conditional PH16-05 transfer | Independent check, no overclaimed gravitational engine |
+| **By Thu Nov 26** | Honest research decision and complete provenance preservation | May be a negative theorem or unresolved action; do not fabricate completion |
 
-**Deadline rule:** Practical antigravity before Thanksgiving is an aspiration, **not a credible forecast based on the evidence so far**. The day-of deadline must not override conservation, source health, true external force, continuum or `<10 MJ` verification. If only an impossibility theorem or carefully scoped bridge is delivered, report exactly that. Do not claim an operational engine or a 50% physical milestone from artificial gates.
+**Deadline rule:** Thanksgiving November 26 is a high-priority review point, not a guarantee of a device. Do not reclassify a scoped analytical test as a complete model to meet a calendar target.
 
 ## 22. Next-session introduction / exact first instruction
 
-> We are continuing ANTIGRAVITY_RESEARCH with **GAMMA-1** as the next artificial-theorem discovery branch under the updated `ARTIFICIAL_BUILDPLAN.MD`. **No GAMMA run has yet executed.** Before work, reconstruct the current evidence from the new codebundle, immutable JSON/SHA/logs, buildplans, notes and journal; **PH16-04R2** (2,943 regression passes; SHA `ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`) is the physical finite-lattice checkpoint, **BETA1-04** and **M5V** remain frozen artificial controls, and **006D** is unreplaced. Start with **`GAMMA1-00_EXACT_SOURCE_TO_GRAVITY_BRIDGE_FORK`**: one high-information, theorem-first action/stress/metric/Earth-force/sign/energy atlas that discriminates the PH16 conformal portal, 006D-style stress anisotropy and one minimal healthy new operator **before** authorizing expensive simulations. Do not fabricate a gravity bridge, relax constraints or pursue force/field optimization. Our fixed goal is true source-free exterior gravitational/metric response to neutral matter, Earth-down/whole-craft-up force, ≥1 g throughout a 1 kg torus at ≥1 m stand-off, and complete **strictly <10 MJ** energy. Separate physically demonstrated results from artificial witnesses and preserve all negative results; output complete independently paste-ready APPLY and VERIFY Bash blocks, immutable data/SHA, scoped tests and full regression. **Thanksgiving is a decision deadline, not a promise of an engine.**
+> We are continuing `ANTIGRAVITY_RESEARCH` under updated `ARTIFICIAL_BUILDPLAN.MD`, with **GAMMA1-00 through GAMMA1-00R11 already executed and R11 independently verified**, 3,225 full regression tests passed. The November 18 buildplan, older README/NOTES/journal and old codebundle may say GAMMA had not begun; that is obsolete. Reconstruct from the **fresh code-only codebundle**, latest journal, actual results/NPZ/SHA/logs and corrected PH16 source. Preserve PH16-04R2 (`2,943` source-checkpoint tests; result SHA `ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`), 006D (`C=23.591586299249`) and all historical ALPHA/BETA/AGMINER failures. R11 found an **exact nonlocal rank-two fixed-Noether portal-Hessian correction**; do not treat R10's frozen local `chi` or the conditional photon speed as the full Lorentzian theory. **NEXT: `GAMMA1-00R12_OFFSHELL_COVARIANT_ACTION_AND_CONSTRAINT_CLOSURE_FORK`, not yet run.** Derive one fully specified off-shell charged-scalar/X/Y/fluid/Earth/support/metric action, Hodge-dependent stress, both gauge and diffeomorphism identities, R11's constraint reduction, actual physical-mode requirements and source-to-metric/energy falsifiers. Stop and classify missing terms; no broad PDE scan, artificial desired forces or automatic GAMMA1-01. The physical target remains ≥1g outward throughout a finite neutral 1 kg torus at ≥1m true stand-off, derived Earth-down/whole-craft-up force, and complete operating energy strictly <10 MJ. Supply complete standalone Bash APPLY and VERIFY blocks, immutable data, focused/independent/full tests, and preserve all failed runs. Thanksgiving is a research decision deadline, not an engine guarantee.
 
 ## 23. Next-session success and stop conditions
 
@@ -473,6 +565,6 @@ A great next session will produce **one sharply resolved answer**, not many attr
 
 Maintain the permanent distinction between **artificial interaction**, **one-action finite-lattice stationarity**, **healthy continuum physical field theory**, **genuine neutral-matter gravitational response**, **external whole-craft force**, and **operational energy-feasible spacecraft**. No step may be inferred merely from the previous one.
 
-**Authorized immediate work in the next session: GAMMA1-00 only. No automatic follow-on runs.**
+**Authorized immediate research decision: design/execute the narrowly scoped `GAMMA1-00R12` off-shell action/constraint fork only. This authorization does not extend to GAMMA1-01/02/03, PH16-05, PH17, expensive Einstein/source PDEs or any new M2/M3 operator. No automatic follow-on runs.**
 
-**End of active GAMMA-1 Artificial Discovery Buildplan — November 18, 2026.**
+**End of updated active GAMMA-1 Artificial Discovery Buildplan — November 19, 2026; last executed checkpoint R11, next R12 NOT EXECUTED.**

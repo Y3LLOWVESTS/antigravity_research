@@ -1,0 +1,70 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "Noether_archive_path": "results/data/gamma1_00r11_20261119T074039011670Z_Noether_Schur_12_L12.npz",
+  "Noether_archive_sha256": "d5d0de1f5614be104d28c4fe51b157cb1f26815b905a14495791e7a049fa46fd",
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "R10_local_chi_as_full_Lorentzian_kinetics": "NOT_JUSTIFIED",
+  "branch": "GAMMA1-00R11",
+  "classification": "FIXED_NOETHER_NONLOCAL_HESSIAN_AND_CONDITIONAL_FROZEN_SYMBOL_INDEPENDENTLY_VERIFIED",
+  "complete_Lorentzian_action": "NOT_CLOSED",
+  "complete_SI_energy_lt10MJ": "NOT_CERTIFIED",
+  "fixed_N_Schur_nonlocal_offdiagonal": 0.10231767370555923,
+  "fixed_N_Schur_rank": 2,
+  "fixed_N_second_variation": "RECONSTRUCTED_AND_FD_VERIFIED",
+  "focused_log_sha256": "e2d1ffe1de0f477d85b20bbbe573070821e64d3ca783e970d76270eb3e0c5ea3",
+  "focused_passed": 30,
+  "frozen_two_U1_characteristics": "CONDITIONAL_LOCAL_MODEL_ONLY",
+  "full_constrained_health": "NOT_CERTIFIED",
+  "full_regression_log_sha256": "a7dff87acaa5f886dda966a056a6e4d4af6e90782b4a75ecc4936c3286a7448a",
+  "full_regression_passed": 3225,
+  "independent_log_sha256": "4789b2315617abf93fb488d7cd448ca08fdc907e12764220c452946a11f4e340",
+  "parent_hashes": {
+    "PH16_original": {
+      "actual": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R10_science": {
+      "actual": "0e7b85cf62d1541667f76022885c9b04de58245a760124115d97d84f83df7cfd",
+      "expected": "0e7b85cf62d1541667f76022885c9b04de58245a760124115d97d84f83df7cfd",
+      "path": "results/data/gamma1_00r10_20261119T065042059747Z.json"
+    },
+    "R10_verification": {
+      "actual": "5473718c84c509e17bcbe00451793365c5bdc7e2962fdb441849b8261ce2b028",
+      "expected": "5473718c84c509e17bcbe00451793365c5bdc7e2962fdb441849b8261ce2b028",
+      "path": "results/data/gamma1_00r10_verification_20261119T070450958407Z.json"
+    },
+    "R3_native": {
+      "actual": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R5_multiplier": {
+      "actual": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883",
+      "expected": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883",
+      "path": "results/data/gamma1_00r5_20261119T024922295970Z_lattice_multiplier_12_L12.npz"
+    },
+    "R9_science": {
+      "actual": "eec38658fccbc6f7f7f5de392aa76d08052f2be91937c8e06da553d224b43a9a",
+      "expected": "eec38658fccbc6f7f7f5de392aa76d08052f2be91937c8e06da553d224b43a9a",
+      "path": "results/data/gamma1_00r9_20261119T050922694396Z.json"
+    }
+  },
+  "previous_regression_baseline": 3195,
+  "producing_source_hashes": {
+    "simulations/gamma1/gamma1_00r11_run.py": "eb9755e6daaef14eb40dbb864db8db34ad09357acfab8c12d33f08872c353ec9",
+    "src/antigravity_research/gamma1/gamma1_00r11_constrained_symbol.py": "f58d9f0a35baa1b0a53f491c6c5426d8603c371c0ec0a53f4fe352cc941f7378",
+    "tests/gamma1/test_gamma1_00r11.py": "587474db966d469fd898552f68c27e5791331b0370119bc21ca35ba26a2f7119",
+    "tests/gamma1/verify_gamma1_00r11.py": "492cee08136abd6c00371643b0cb80522675f25efb97b26b6d7b131a6f7e918b",
+    "theory/gamma1/GAMMA1_00R11_NOETHER_SCHUR_AND_FROZEN_SYMBOL_LEDGER.md": "4f2b5b153011e1fd830113544aee3a5aeda50e88cc4a366ca4ebd11d590c482d"
+  },
+  "run_log_sha256": "0fd17f3c7ab076c1b2712edc3fbbfde1aa1a88bfaeb40187a23d54a56a92d22c",
+  "scientific_result_path": "results/data/gamma1_00r11_20261119T074039011670Z.json",
+  "scientific_result_sha256": "ac7050c648959ee0daa21bed994d8cdc34abb261d08433f302d4362af163acef",
+  "timestamp_utc": "2026-11-19T07:54:21.177672+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

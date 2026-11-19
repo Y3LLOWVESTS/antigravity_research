@@ -1,0 +1,217 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "Einstein_metric": "NOT_SOLVED",
+  "GAMMA1_01_authorized": false,
+  "M0_full_physical_survivor": false,
+  "PH16_05_authorized": false,
+  "PH16_replay": "NOT_RUN",
+  "PH17_authorized": false,
+  "archive": {
+    "keys": [
+      "B_Y_3D",
+      "E_X_3D",
+      "fixed_N_P_Hessian",
+      "local_chi",
+      "rank_two_Schur_correction"
+    ],
+    "path": "results/data/gamma1_00r11_20261119T074039011670Z_Noether_Schur_12_L12.npz",
+    "sha256": "d5d0de1f5614be104d28c4fe51b157cb1f26815b905a14495791e7a049fa46fd"
+  },
+  "branch": "GAMMA1-00R11",
+  "classification": "PASS_RANK_TWO_NONLOCAL_NOETHER_HESSIAN_AND_CONDITIONAL_FROZEN_U1_SYMBOL",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "decision": "DO_NOT_IDENTIFY_R10_CHI_WITH_FULL_LORENTZIAN_LOCAL_KINETIC_HESSIAN; COMPLETE_ACTION_UNSPECIFIED",
+  "full_Lorentzian_action": "NOT_CLOSED",
+  "full_constrained_scalar_fluid_gravity_health": "NOT_CERTIFIED",
+  "parents": {
+    "PH16_original": {
+      "actual": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "expected": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0",
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py"
+    },
+    "R10_science": {
+      "actual": "0e7b85cf62d1541667f76022885c9b04de58245a760124115d97d84f83df7cfd",
+      "expected": "0e7b85cf62d1541667f76022885c9b04de58245a760124115d97d84f83df7cfd",
+      "path": "results/data/gamma1_00r10_20261119T065042059747Z.json"
+    },
+    "R10_verification": {
+      "actual": "5473718c84c509e17bcbe00451793365c5bdc7e2962fdb441849b8261ce2b028",
+      "expected": "5473718c84c509e17bcbe00451793365c5bdc7e2962fdb441849b8261ce2b028",
+      "path": "results/data/gamma1_00r10_verification_20261119T070450958407Z.json"
+    },
+    "R3_native": {
+      "actual": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "expected": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54",
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz"
+    },
+    "R5_multiplier": {
+      "actual": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883",
+      "expected": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883",
+      "path": "results/data/gamma1_00r5_20261119T024922295970Z_lattice_multiplier_12_L12.npz"
+    },
+    "R9_science": {
+      "actual": "eec38658fccbc6f7f7f5de392aa76d08052f2be91937c8e06da553d224b43a9a",
+      "expected": "eec38658fccbc6f7f7f5de392aa76d08052f2be91937c8e06da553d224b43a9a",
+      "path": "results/data/gamma1_00r9_20261119T050922694396Z.json"
+    }
+  },
+  "producing_sources": {
+    "simulations/gamma1/gamma1_00r11_run.py": "eb9755e6daaef14eb40dbb864db8db34ad09357acfab8c12d33f08872c353ec9",
+    "src/antigravity_research/gamma1/gamma1_00r11_constrained_symbol.py": "f58d9f0a35baa1b0a53f491c6c5426d8603c371c0ec0a53f4fe352cc941f7378",
+    "tests/gamma1/test_gamma1_00r11.py": "587474db966d469fd898552f68c27e5791331b0370119bc21ca35ba26a2f7119",
+    "tests/gamma1/verify_gamma1_00r11.py": "492cee08136abd6c00371643b0cb80522675f25efb97b26b6d7b131a6f7e918b",
+    "theory/gamma1/GAMMA1_00R11_NOETHER_SCHUR_AND_FROZEN_SYMBOL_LEDGER.md": "4f2b5b153011e1fd830113544aee3a5aeda50e88cc4a366ca4ebd11d590c482d"
+  },
+  "provenance": {
+    "R10_producer_Shas_checked": 5,
+    "previous_full_regression": 3195,
+    "six_parent_raw_Shas": "PASS"
+  },
+  "qualified_full_gravity_bridge_survivors": [],
+  "science": {
+    "Noether_static_Schur": {
+      "H_omegaomega": "diag(-2I_plus,-2I_minus)",
+      "I_plus_minus": [
+        241.44696052181408,
+        241.44696052667513
+      ],
+      "R5_lambda_max_abs_error": 2.220446049250313e-16,
+      "constrained_Hessian_NOT_pointwise_local": true,
+      "constrained_N_max_abs": 5.684341886080802e-14,
+      "corrected_chi_spectrum_max": 76.58578654823582,
+      "corrected_chi_spectrum_min": 11.098839937543323,
+      "correction_norm": 0.7070186725172692,
+      "correction_psd": true,
+      "correction_rank": 2,
+      "correction_singular_values": [
+        0.706679039695903,
+        0.021912054731632862
+      ],
+      "diagonal_hessian_FD_max_abs": 0.0009356208978488212,
+      "formula": "H_PP|N=diag(H_PP|omega)+C.T diag(1/(2I_plus),1/(2I_minus)) C",
+      "frozen_frequency_N_drift": 0.008737436454111958,
+      "frozen_frequency_mixed_null_max_abs": 1.1368683772161603e-05,
+      "local_chi_range": [
+        11.098839937543328,
+        76.58578913132943
+      ],
+      "mixed_hessian_FD_max_abs": 1.0888439876968747e-05,
+      "nonlocal_off_diagonal_max_abs": 0.10231767370555923,
+      "tested_cell_pairs": [
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          35
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          10,
+          13
+        ]
+      ]
+    },
+    "beta60_frozen_control": {
+      "beta60_stationary": "NOT_CLAIMED",
+      "negative_phi_direction_cells": 4,
+      "phi_min_v2": -0.11364103466607206
+    },
+    "hypothetical_frozen_two_U1_principal": {
+      "analytic_all_directions_v2_lower_bound": 0.1893845833535937,
+      "analytic_all_directions_v2_upper_bound": 1.0,
+      "azimuthal_min_v2": 0.1893845833535937,
+      "directions": {
+        "-2.0,1.0,1.0": {
+          "max_v2": 0.9999592339765997,
+          "min_v2": 0.31543034837940526,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        },
+        "0.0,0.0,1.0": {
+          "max_v2": 0.9997914331326799,
+          "min_v2": 0.1893845833535937,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        },
+        "0.0,1.0,0.0": {
+          "max_v2": 0.9999859015801461,
+          "min_v2": 0.887511219634232,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        },
+        "1.0,-1.0,0.0": {
+          "max_v2": 0.9999994517245414,
+          "min_v2": 0.5762876178296719,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        },
+        "1.0,-1.0,1.0": {
+          "max_v2": 0.9998974940521704,
+          "min_v2": 0.45032392738112353,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        },
+        "1.0,0.0,0.0": {
+          "max_v2": 0.9999999945146755,
+          "min_v2": 0.18980256422808592,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        },
+        "1.0,1.0,0.0": {
+          "max_v2": 0.99999945172521,
+          "min_v2": 0.5762876178768495,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        },
+        "1.0,1.0,1.0": {
+          "max_v2": 0.9998974940623655,
+          "min_v2": 0.45032392745612415,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        },
+        "1.0,2.0,3.0": {
+          "max_v2": 0.9998253254854634,
+          "min_v2": 0.4169283658758867,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        },
+        "3.0,1.0,2.0": {
+          "max_v2": 0.9999401068204865,
+          "min_v2": 0.24156794839808193,
+          "nonpositive_cells": 0,
+          "superluminal_cells": 0
+        }
+      },
+      "electric_rank_one_nontrivial_eigen_min": 1.0000001761858768,
+      "gauss_denominator_all_directions_lower_bound": 1.0,
+      "modified_branch": "(1+chi(B.n)^2-chi|E_cross_n|^2)/(1+chi|B|^2)",
+      "other_three_branches": "LUMINAL_IN_FROZEN_TWO_U1_MODEL"
+    },
+    "no_promotion": {
+      "Earth_support_hull_variations": "NOT_DERIVED",
+      "PH16_Green_to_local_Maxwell": "NOT_PROVEN",
+      "SI_energy_lt10MJ": "NOT_CERTIFIED",
+      "exact_ell_doubleprime_equals_R10_chi": "NOT_PROVEN",
+      "full_Lorentzian_action": "NOT_CLOSED",
+      "full_mode_stability": "NOT_CERTIFIED",
+      "gravity_metric_Hodge_variation": "NOT_DERIVED",
+      "nonlocal_fixed_N_kernel_rejects_pointwise_local_chi": "YES_WITHIN_PH16_REDUCTION",
+      "scalar_fluid_kinetic_mixing": "NOT_INCLUDED",
+      "whole_craft_force": "NOT_DERIVED"
+    },
+    "topological_negative_controls": {
+      "constant_lambda_two_U1_plane_wave_null": true,
+      "scalar_fluid_metric_Ward": "NOT_DERIVED",
+      "two_U1_Bianchi": "F=dA_AS_A_HYPOTHESIS_NOT_FULL_SOURCE_WARD"
+    }
+  },
+  "scientific_scope": "STATIC_FIXED_NOETHER_EXACT; LOCAL_FROZEN_TWO_U1_ONLY_HYPOTHETICAL",
+  "timestamp_utc": "2026-11-19T07:40:39.011670+00:00",
+  "whole_craft_up": "NOT_DERIVED"
+}

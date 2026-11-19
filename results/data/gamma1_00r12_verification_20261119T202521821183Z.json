@@ -1,0 +1,20 @@
+{
+  "006D_replaced": false,
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "branch": "GAMMA1-00R12",
+  "classification": "SCOPED_L0_VERIFIED_NO_PHYSICAL_PROMOTION",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "focused_tests_passed": 8,
+  "full_regression_passed": 3233,
+  "independent_metric_fd_error": 4.593983179979055e-12,
+  "logs": {
+    "results/logs/gamma1_00r12_focused_20261119T201134172231Z.log": "b36b0267cb57b8d0a3bd97b8028466dbed23dfa02044c739a67414ccad7e6471",
+    "results/logs/gamma1_00r12_full_regression_20261119T201134172231Z.log": "9402734a32f9226923f50bdfe951adf5b9c0b22017d7340f1a6318adfe2e61a6",
+    "results/logs/gamma1_00r12_independent_20261119T201134172231Z.log": "c6b7cf42b4a09bc2cf8fbeebad43d629db8bb8ac028f35372ba1f26fa21868ed",
+    "results/logs/gamma1_00r12_r11_independent_20261119T201134172231Z.log": "4789b2315617abf93fb488d7cd448ca08fdc907e12764220c452946a11f4e340"
+  },
+  "scientific_result_sha256": "7ebddf22bd718dc9729b1d63cb72943d75e379c12ce68420399edaafcf99bad6",
+  "whole_craft_up": "NOT_DERIVED"
+}

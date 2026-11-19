@@ -1,0 +1,99 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "branch": "GAMMA1-00R12",
+  "classification": "INSUFFICIENT_UNIQUE_COVARIANT_ACTION",
+  "complete_energy": "ENERGY_UNDETERMINED",
+  "conditional_controls": {
+    "PH14_spherical_Y_null": "HISTORICAL_NOT_REEXECUTED",
+    "R2_static_invisible_operator": "GAUGE_INVARIANT_TERM_CHANGES_DYNAMICS_NOT_TESTED_HEALTHY",
+    "constant_multiplier_topological_bulk_null": "CONDITIONAL_dF_EQUALS_ZERO"
+  },
+  "full_Lorentzian_health": "NOT_CERTIFIED",
+  "gates": {
+    "COMPLETE_ACTION": "NOT_DERIVED",
+    "EARTH_CRAFT_FORCE": "NOT_DERIVED",
+    "FIXED_N_RECOVERED": "PASS_SCOPED",
+    "FULL_WARD_NOETHER_BIANCHI": "NOT_DERIVED",
+    "HEALTHY_CONSTRAINED_LORENTZIAN": "NOT_CERTIFIED",
+    "METRIC_HODGE_DERIVED": "PASS_SCOPED",
+    "ONE_SCALAR_OFFSHELL_U1": "PASS_SCOPED",
+    "SI_EMPIRICAL_UV_ENERGY": "NOT_CERTIFIED",
+    "SOURCE_TO_EINSTEIN_EXTERIOR": "NOT_DERIVED"
+  },
+  "hodge_metric_errors": {
+    "P_cov_metric_derivative": 2.8605759525447e-15,
+    "density_metric_independence": 0.0,
+    "forms_tensor": 4.336808689942018e-19,
+    "matter_metric_stress_FD": 1.426640923452016e-13,
+    "matter_stress_trace": 1.1102230246251565e-16
+  },
+  "missing": [
+    "full PH16 Green / continuum Maxwell matching",
+    "same-action charged source and fluid current variations",
+    "Einstein/Hodge/metric and boundary terms",
+    "Earth, hull and support offshell EOM/interface stress",
+    "complete gauge/Noether/Bianchi Ward exchange",
+    "full constrained scalar/fluid/gauge/gravity spectrum",
+    "retarded physical exterior and finite neutral target",
+    "Earth-down/whole-craft-up reaction and momentum ledger",
+    "SI normalization, empirical/UV and conservative energy"
+  ],
+  "negative_controls": {
+    "X_off_P_zero": true,
+    "Y_off_P_zero": true,
+    "coupling_off_null": true,
+    "orientation_correct": true,
+    "symmetric_tensor_null": true
+  },
+  "parents": {
+    "PH16_R2": {
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py",
+      "sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0"
+    },
+    "R11_archive": {
+      "path": "results/data/gamma1_00r11_20261119T074039011670Z_Noether_Schur_12_L12.npz",
+      "sha256": "d5d0de1f5614be104d28c4fe51b157cb1f26815b905a14495791e7a049fa46fd"
+    },
+    "R11_result": {
+      "path": "results/data/gamma1_00r11_20261119T074039011670Z.json",
+      "sha256": "ac7050c648959ee0daa21bed994d8cdc34abb261d08433f302d4362af163acef"
+    },
+    "R11_source": {
+      "path": "src/antigravity_research/gamma1/gamma1_00r11_constrained_symbol.py",
+      "sha256": "f58d9f0a35baa1b0a53f491c6c5426d8603c371c0ec0a53f4fe352cc941f7378"
+    },
+    "R11_verify": {
+      "path": "results/data/gamma1_00r11_verification_20261119T075421177672Z.json",
+      "sha256": "c9ff19031424c27a9da541f4aa0e0d064b158b2b16610d0f147e62eb5769d6ca"
+    },
+    "R3_native": {
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz",
+      "sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54"
+    }
+  },
+  "producing_sources": {
+    "simulations/gamma1/gamma1_00r12_run.py": "8edd6aaeb30f12680662b27ce8db043770872706c0d0ca807f30443005bd3092",
+    "src/antigravity_research/gamma1/gamma1_00r12_offshell_fork.py": "7be8f0b658fe6a006c8b55a82dee0e21b40f55ba70f2f9dcc85a8445df289f9c",
+    "tests/gamma1/test_gamma1_00r12.py": "cedac4cd94c939679c97601750c0c58e2007e348c5ea9bdd7d5d018063f6e906",
+    "tests/gamma1/verify_gamma1_00r12.py": "8dc9857864849bac3b733fc63a9148acf81c302b8600bc7aba473099688cc4b6",
+    "theory/gamma1/GAMMA1_00R12_OFFSHELL_COVARIANT_ACTION_LEDGER.md": "d0b40acfb336c0b0301cc7c21c483492181cdb0eceda12cbc536135c814a5698"
+  },
+  "qualified_gravity_bridge_survivors": [],
+  "r11_fixed_N": {
+    "archive_max_error": 0.0,
+    "charge_reclosure_error": 5.684341886080802e-14,
+    "nonlocal_offdiag_max": 0.10231767370555923,
+    "rank": 2,
+    "singular_values": [
+      0.7066790396959032,
+      0.02191205473163282
+    ]
+  },
+  "scalar_U1_offshell_jet": true,
+  "timestamp_utc": "20261119T201141220587Z",
+  "whole_craft_up": "NOT_DERIVED"
+}

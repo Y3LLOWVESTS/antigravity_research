@@ -15,8 +15,8 @@
           "loaded_min_acceleration_before_adjustment": 10.422163261792425,
           "outward_everywhere_sampled": true,
           "required_source_amplitude_vs_1keV": 433.8068441704615,
-          "static_condition_number": 1.0278469698412016,
-          "static_relative_residual": 8.138414970930432e-15,
+          "static_condition_number": 1.0278469698412014,
+          "static_relative_residual": 8.224317949322626e-15,
           "t": 5e-06
         }
       ]
