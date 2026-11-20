@@ -1,0 +1,25 @@
+{
+  "006D_replaced": false,
+  "branch": "DELTA1-01_EXACT_NONLINEAR_SHELL",
+  "classification": "SCOPED_INDEPENDENT_NONLINEAR_SHELL_VERIFIED_NO_PHYSICAL_PROMOTION",
+  "complete_operating_energy_lt10MJ": "NOT_CERTIFIED",
+  "focused_tests_passed": 14,
+  "full_regression_passed": 3294,
+  "independent_bvp": {
+    "energy_relative_error": 5.2135670068490376e-12,
+    "independent_EM_J": 20010667106736.08,
+    "independent_alpha_threshold": 1757.2811249125732,
+    "independent_scalar_J": 10869702413003.908,
+    "minimum_radial_acceleration_m_s2": 9.806649999941763,
+    "solver_nodes": 450,
+    "solver_status": 0
+  },
+  "logs": {
+    "results/logs/delta1_01_focused_20261120T011154836344Z.log": "fa0b8667251aa219251a6207bf4a77937d1540e89f011eca429b70d96eb725f6",
+    "results/logs/delta1_01_full_regression_20261120T011154836344Z.log": "6734f1669e8cf51b5f0485b64f1c228992e64618f18738b571ec5bc0e6ab9c8c",
+    "results/logs/delta1_01_independent_20261120T011154836344Z.log": "e4ea11a8e9359fb1007f1c0a47358e6114106402b505c2efad3273346753f0cf"
+  },
+  "qualified_gravity_bridge_survivors": [],
+  "science_sha256": "f513d8e2f8e54db618dfcbfcd30ca2f2f35a8fd1de5440f005bd5dcd24bcb84f",
+  "whole_craft_up": "NOT_DERIVED"
+}

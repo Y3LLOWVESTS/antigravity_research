@@ -1,0 +1,194 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "GAMMA1_01_authorized": false,
+  "M0_bianchi": {
+    "Y_current_divergence": "ZERO_EXACT",
+    "constant_lambda_no_bulk_source": "ZERO_EXACT",
+    "vacuum_dipole_laplacian": "ZERO_EXACT"
+  },
+  "M0_conditional_idea": "CONTINUED_ONLY_AS_UNDERDETERMINED_HYPOTHESIS",
+  "M0_conditional_neutral_geometry": {
+    "Earth_down_craft_up": "NOT_DERIVED",
+    "Einstein_response": "NOT_SOLVED",
+    "a_over_c2_minus_grad_sigma": [
+      4.103715209888456e-17,
+      2.051857604944228e-17,
+      4.849845248049993e-17
+    ],
+    "curvature_tidal_hessian_norm": 5.2770873565494144e-17,
+    "gradient_FD_abs_error": 8.718157345542522e-24,
+    "neutral_test_metric_sign": "CONDITIONAL_NOT_SOURCED",
+    "prescribed_metric_profile_only": true
+  },
+  "M0_differential_Y": {
+    "X_polarity_reversal": "ODD",
+    "centered_difference_errors": [
+      1.6191932041256977e-05,
+      4.047721799763469e-06,
+      1.0119136829506868e-06,
+      2.529773659797283e-07
+    ],
+    "centered_difference_steps": [
+      0.08,
+      0.04,
+      0.02,
+      0.01
+    ],
+    "constant_lambda_bulk_source": "EXACT_ZERO_BY_BIANCHI",
+    "differential_source_vector": [
+      -0.0027791694659532605,
+      0.0023471135243218672,
+      0.00344907770888686
+    ],
+    "lambda_equals_function_of_A0_source": "EXACT_ZERO_STATIC_ELECTRIC",
+    "manufactured_Y_source_norm": 0.005012869623128232,
+    "manufactured_lambda": 0.06887539212271962,
+    "manufactured_potential": 0.10649405724032701,
+    "physical_on_shell_source": "NOT_SOLVED"
+  },
+  "M1_DEC_samples": {
+    "max_abs_active_stress_ratio": 3.932657845977487,
+    "max_negative_active_stress_ratio": 1.4679040900192863,
+    "samples": 1000
+  },
+  "M1_GR_DEC_energy": {
+    "006D_excluded_from_GR_energy_cost": "NO; REFERENCE_REMAINS_COSTLY",
+    "DEC_active_source_abs_over_energy_max": 4.0,
+    "DEC_negative_active_source_magnitude_over_energy_max": 2.0,
+    "assumptions": [
+      "linearized_GR",
+      "static_type_I_stress",
+      "DEC",
+      "all_gravitating_source_elements_distance_ge_1m",
+      "finite_positive_total_gravitating_energy"
+    ],
+    "max_accel_if_source_gravitating_energy_lt_10MJ_m_s2": 2.970464107647466e-20,
+    "min_source_gravitating_energy_J": 3.30138646508226e+27,
+    "operating_energy_inference": "NOT_DIRECT_UNLESS_GRAVITATING_SOURCE_ENERGY_COUNTS_IN_BUDGET",
+    "source_energy_to_10MJ_ratio": 3.30138646508226e+20,
+    "stress_extremizers": {
+      "all_negative": -2.0,
+      "all_positive": 4.0,
+      "zero": 1.0
+    },
+    "theorem_scope": "NO_GO_ONLY_IF_ASSUMPTIONS_AND_SOURCE_ENERGY_BUDGET_APPLY"
+  },
+  "M2_canonical_scalar_exchange": {
+    "canonical_kinetic_residue": "POSITIVE",
+    "nonlinear_screened_disformal_or_multifield": "NOT_RULED_OUT",
+    "opposite_charge_repulsion": "POSSIBLE_BUT_NOT_UNIVERSAL_EQUAL_SIGN",
+    "same_sign_universal_scalar_repulsion": "NO_AT_TREE_LEVEL_LINEAR",
+    "universal_like_source_potential": -0.0015534696959010603,
+    "universal_like_source_radial_force": -0.0017386910827200328,
+    "wrong_sign_kinetic_repulsion": "GHOST_DISALLOWED"
+  },
+  "M3_quantum_reserve": "NO_CLOSED_REGULATED_SOURCE_OR_NEW_ASSUMPTION",
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "R11_rank_two": "INHERITED_SHA_LOCKED_NOT_RECOMPUTED",
+  "R8_X_unfitted_exterior_error_fraction": 0.059614,
+  "R9_Y_unfitted_exterior_error_fraction": 0.208987,
+  "SI_portal_scaling_warning": {
+    "canonical_quadratic_field_cost_ratio": 5.8,
+    "physical_SI_normalization": "NOT_SPECIFIED",
+    "portal_sigma_equal_under_rescaling": true,
+    "status": "PORTAL_ONLY_DEGENERACY_NOT_SYMMETRY_OF_FULL_ACTION"
+  },
+  "branch": "GAMMA1-C1_POSTR12_DECISION_ATLAS",
+  "claims_boundary": "M1/M2 are assumption-scoped no-go tests, not universal gravity no-gos",
+  "classification": "SCOPED_IMPOSSIBILITY_CERTIFICATE",
+  "complete_operating_energy_SI_lt10MJ": "NOT_CERTIFIED",
+  "gates": {
+    "D0_Y_EULER_ERRATUM": "DERIVED_DIFFERENTIAL_NECESSARY_CONDITION",
+    "FULL_LORENTZIAN_CONSTRAINT_HEALTH": "NOT_CERTIFIED",
+    "FULL_OFFSHELL_ACTION_EARTH_SUPPORT_FLUID": "NOT_DERIVED",
+    "M0_PH16_NATIVE_CONTINUUM_MATCH": "NOT_DERIVED",
+    "M0_REAL_ONSHELL_SOURCE": "NOT_DERIVED",
+    "M1_STATIC_GR_DEC_BUDGET": "SCOPED_RED_IF_TOTAL_SOURCE_ENERGY_LT_10MJ",
+    "M2_MINIMAL_HEALTHY_SCALAR": "SCOPED_RED_FOR_UNIVERSAL_EQUAL_SIGN_LINEAR",
+    "M3_QFT": "RESERVED",
+    "PORTAL_SI_NORMALIZATION": "NOT_CLOSED",
+    "SI_EP_UV": "NOT_CERTIFIED",
+    "UNIVERSAL_METRIC_EXTERIOR_EINSTEIN": "NOT_DERIVED"
+  },
+  "hypothesis_matrix": [
+    {
+      "family": "M0",
+      "qualified_survivor": false,
+      "question": "Is D0 constitutive response a full Y Euler bulk source?",
+      "result": "ONLY_IF_GRAD_LAMBDA_WEDGE_FX_NONZERO; MANUFACTURED_OFFSHELL_EXAMPLE"
+    },
+    {
+      "family": "M1",
+      "qualified_survivor": false,
+      "question": "Can <=10MJ total DEC gravitating source produce 1g at 1m in static linearized GR?",
+      "result": "NO_UNDER_DECLARED_SOURCE_ENERGY_AND_DEC_ASSUMPTIONS"
+    },
+    {
+      "family": "M2",
+      "qualified_survivor": false,
+      "question": "Can one healthy universal equal-sign canonical linear scalar mediate repulsion?",
+      "result": "NO_IN_LINEAR_TREE_LEVEL_CANONICAL_CLASS"
+    },
+    {
+      "family": "M3",
+      "qualified_survivor": false,
+      "question": "Is a regulated new quantum source available to test?",
+      "result": "NO_SPECIFIED_ASSUMPTION_NOT_ACTIVATED"
+    }
+  ],
+  "negative_controls": {
+    "DEC_negative_active_stress_bound": true,
+    "X_polarity_reverses_manufactured_Y_source": true,
+    "canonical_scalar_equal_sign_attractive": true,
+    "constant_lambda_Y_source_zero": true,
+    "lambda_function_of_A0_Y_source_zero": true,
+    "scalar_wrong_sign_kinetic_ghost_excluded": true
+  },
+  "next_decision": "NO_AUTOMATIC_EXPENSIVE_RUN; REQUIRE_ACTION_LEVEL_ONSHELL_SOURCE_AND_CONTINUUM_EVIDENCE",
+  "parents": {
+    "D0_science": {
+      "path": "results/data/gamma1_d0_20261119T205007375929Z.json",
+      "sha256": "a89998f3a3ab7721295ecbf568795d417e2ec9769fd059caf7e0b6446e380a80"
+    },
+    "D0_verification": {
+      "path": "results/data/gamma1_d0_verification_20261119T210423530904Z.json",
+      "sha256": "8f7281eef967c3e8b0612d25c5427b14aa8473b8185f3f0ca93063500a87b230"
+    },
+    "PH16_R2_source": {
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py",
+      "sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0"
+    },
+    "R11_archive": {
+      "path": "results/data/gamma1_00r11_20261119T074039011670Z_Noether_Schur_12_L12.npz",
+      "sha256": "d5d0de1f5614be104d28c4fe51b157cb1f26815b905a14495791e7a049fa46fd"
+    },
+    "R11_science": {
+      "path": "results/data/gamma1_00r11_20261119T074039011670Z.json",
+      "sha256": "ac7050c648959ee0daa21bed994d8cdc34abb261d08433f302d4362af163acef"
+    },
+    "R12_science": {
+      "path": "results/data/gamma1_00r12_20261119T201141220587Z.json",
+      "sha256": "7ebddf22bd718dc9729b1d63cb72943d75e379c12ce68420399edaafcf99bad6"
+    },
+    "R12_verification": {
+      "path": "results/data/gamma1_00r12_verification_20261119T202521821183Z.json",
+      "sha256": "583ffee14d177af47628d2759a5b61a124f7ec968e83de7cad430b4575860b92"
+    }
+  },
+  "producer_sources": {
+    "simulations/gamma1/gamma1_c1_run.py": "a78e2d5c230db62358772185140d745f2a078ac55fec1db818e13f86776b10fa",
+    "src/antigravity_research/gamma1/gamma1_c1_decision_atlas.py": "38613a5315c69d3df64cfa30d997693748e2bfcd9665626e1e76ed0ba5e97df0",
+    "tests/gamma1/test_gamma1_c1.py": "ae533ab8848dd553725f4c39ee57cfb4502c2eb0195811806591d0d6b4cc0dbe",
+    "tests/gamma1/verify_gamma1_c1.py": "d3bf9a651c6ff8d844a5bb790584b24f719c8b04cdf5e435255166208d9ef233",
+    "theory/gamma1/GAMMA1_C1_GRAVITY_BRIDGE_DECISION_LEDGER.md": "351fce5c2e76688ca4d50729608be5155ac6cb9c24fd51265d37e6902bc448f5"
+  },
+  "program": "ANTIGRAVITY_RESEARCH",
+  "qualified_gravity_bridge_survivors": [],
+  "real_1kg_torus_ge1g_ge1m": "NOT_CERTIFIED",
+  "research_maturity_heuristic_after_percent": 34,
+  "research_maturity_heuristic_before_percent": 34,
+  "timestamp_utc": "20261119T212606521420Z",
+  "whole_craft_up": "NOT_DERIVED"
+}

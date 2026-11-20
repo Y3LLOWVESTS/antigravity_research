@@ -1,0 +1,20 @@
+{
+  "006D_replaced": false,
+  "GAMMA1_01_authorized": false,
+  "branch": "GAMMA1-N1",
+  "classification": "SCOPED_INDEPENDENT_VERIFIED_NO_PHYSICAL_PROMOTION",
+  "focused_passed": 11,
+  "full_regression_passed": 3266,
+  "independent_result": {
+    "Y_source_l2": 1.5849386983856595,
+    "constant_lambda_bulk_inf": 3.3306690738754696e-16,
+    "independent_Y_variational_fd_error": 1.9220736113823023e-15
+  },
+  "logs": {
+    "results/logs/gamma1_n1_focused_20261119T220551961140Z.log": "65398dce23441921a53a155026c0f27737ac8a0178f62d3d35a1e4be36516f7c",
+    "results/logs/gamma1_n1_full_regression_20261119T220551961140Z.log": "6adf8fbe611028a3667c60892f77c40b62605958ebc4160f908d0a7d5ef642bb",
+    "results/logs/gamma1_n1_independent_20261119T220551961140Z.log": "9ff319e0a68a2a83223ab559551f4acc91021c4993a84511b3fd7d18269cf4f1"
+  },
+  "scientific_result_sha256": "fb246ecf729d4c55382e9bb6589f469400849af1aab81b3612067799d1e066fc",
+  "whole_craft_up": "NOT_DERIVED"
+}

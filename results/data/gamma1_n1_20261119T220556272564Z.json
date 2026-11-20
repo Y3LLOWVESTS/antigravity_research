@@ -1,0 +1,151 @@
+{
+  "006D_replaced": false,
+  "Earth_down": "NOT_DERIVED",
+  "GAMMA1_01_authorized": false,
+  "GAMMA_heuristic_percent": "UNCHANGED_34",
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "branch": "GAMMA1-N1_NATIVE_WARD_INDUCTION",
+  "classification": "SCOPED_NATIVE_WARD_AND_INDUCTION_AUDIT_NO_PHYSICAL_PROMOTION",
+  "complete_operating_energy_lt_10MJ": "NOT_CERTIFIED",
+  "gates": {
+    "CONSTANT_MIXED_COEFFICIENT_BULK_TOPOLOGICAL_WARD": "PASS_SCOPED",
+    "EINSTEIN_EARTH_SUPPORT_FLUID": "NOT_DERIVED",
+    "FULL_CONSTRAINED_HEALTH": "NOT_CERTIFIED",
+    "NATIVE_CONTINUUM_AND_EXTERIOR_MATCH": "NOT_ESTABLISHED",
+    "NATIVE_INDUCED_Y_VERSUS_INTEGRABLE_ARTIFACT": "MEASURED_NOT_CERTIFIED",
+    "PH16_COVARIANT_LORENTZIAN_ACTION": "NOT_DERIVED",
+    "R3_NATIVE_SOURCE_STATIONARY": "PASS_SCOPED",
+    "R5_SAME_ROUTHIAN_MULTIPLIER": "PASS_SCOPED",
+    "SI_EFT_EMPIRICAL_UV": "NOT_CERTIFIED",
+    "SYNTHETIC_REFINEMENT_NULL": "PASS_SCOPED"
+  },
+  "native": {
+    "Noether_plus_minus": [
+      400.0,
+      400.0000000000001
+    ],
+    "R5_portal_Y_replication_inf": 0.0,
+    "Routhian_NOT_J": 2401.472107471401,
+    "constant_lambda_X_bulk_inf": 1.6479873021779667e-17,
+    "constant_lambda_X_full_l2_boundary_included": 0.14315565649259393,
+    "constant_lambda_Y_bulk_inf": 4.440892098500626e-16,
+    "constant_lambda_Y_full_l2_boundary_included": 3.09730245355965,
+    "continuum_on_shell_status": "NOT_ESTABLISHED",
+    "cross_gradient_rms": 0.0002798893138440592,
+    "integrability_projection": {
+      "Y_aligned_artifact_over_total": 0.03474779002186003,
+      "Y_continuum_null_f_of_A_artifact_l2": 0.05507311708902504,
+      "Y_nonintegrable_over_total": 0.9864158966758739,
+      "Y_nonintegrable_residual_source_l2": 1.5634087273443829,
+      "Y_total_source_l2": 1.5849386983856595,
+      "exact_linear_decomposition_error": 4.497009910820429e-16,
+      "fitted_lambda_rms": 0.013103004530304871,
+      "fitted_polynomial_coefficients": [
+        -0.008321656362253288,
+        2.4796613980887505e-11,
+        -0.0032302058652733537,
+        -8.410999662885203e-12
+      ],
+      "lambda_f_of_A_fit_weighted_r2": 0.036051640520089134,
+      "lambda_f_of_A_polynomial_degree": 3,
+      "residual_lambda_rms": 0.03197727996561242
+    },
+    "joint_gradient_l2": 6.80575961397518e-08,
+    "lambda_range": [
+      -0.8739409123238795,
+      -0.0067843422262434585
+    ],
+    "linear_lambda_equals_A_bulk_spurious_l2": 0.03782149918131378,
+    "native_Y_EOM_l2": 5.230859064496349e-08,
+    "native_Y_source_bulk_l2": 0.08337527982038956,
+    "native_Y_source_l2": 1.5849386983856595,
+    "native_differential_jacobian_bulk_l2": 0.07710549427497627,
+    "native_discrete_vs_differential_bulk_relative_error": 0.13260045542810767,
+    "native_grid_cells": 288
+  },
+  "native_integrability_decision": "NATIVE_Y_INTEGRABLE_ARTIFACT_UNDER_HALF_SCOPED",
+  "parents": {
+    "C1": {
+      "path": "results/data/gamma1_c1_20261119T212606521420Z.json",
+      "sha256": "ebd7ebef9cd26d70388c7d0d49ee85b7018654b29043678dbdf307ede3ed4111"
+    },
+    "C1_verify": {
+      "path": "results/data/gamma1_c1_verification_20261119T213930352220Z.json",
+      "sha256": "373335f857f8f720d4915917ebacf0a22255014bdbb375c19938ad2d3748dd1a"
+    },
+    "D0": {
+      "path": "results/data/gamma1_d0_20261119T205007375929Z.json",
+      "sha256": "a89998f3a3ab7721295ecbf568795d417e2ec9769fd059caf7e0b6446e380a80"
+    },
+    "PH16": {
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py",
+      "sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0"
+    },
+    "R11": {
+      "path": "results/data/gamma1_00r11_20261119T074039011670Z.json",
+      "sha256": "ac7050c648959ee0daa21bed994d8cdc34abb261d08433f302d4362af163acef"
+    },
+    "R12": {
+      "path": "results/data/gamma1_00r12_20261119T201141220587Z.json",
+      "sha256": "7ebddf22bd718dc9729b1d63cb72943d75e379c12ce68420399edaafcf99bad6"
+    },
+    "R3": {
+      "path": "results/data/gamma1_00r3_20261119T001454764826Z_native_12_L12.npz",
+      "sha256": "94d3763a8d7705ab3dc8774310cf3b8bba96557a0b80d2c34aa110d00b840d54"
+    },
+    "R5": {
+      "path": "results/data/gamma1_00r5_20261119T024922295970Z_lattice_multiplier_12_L12.npz",
+      "sha256": "2b9217ef9b36758ef675eeb47796198adf1be2ff6b5764b316a2e312bc82c883"
+    }
+  },
+  "producer_sources": {
+    "simulations/gamma1/gamma1_n1_run.py": "ae01dd06a71664588f45b4ec88a0a1022d81e841642b393dd92076153a9692e5",
+    "src/antigravity_research/gamma1/gamma1_n1_native_ward.py": "059a778493bcd3824cd9e6a5d5f8fd33f1533c57897c1bb32ff2f4469035c835",
+    "tests/gamma1/test_gamma1_n1.py": "ba013d04fcc00ebfc6acf76b7cc3d3d9ed78f9c37788a6b9cdb56e8029c16372",
+    "tests/gamma1/verify_gamma1_n1.py": "6c74e414fd28dd1ab548eaf633afeed8638a5ce7f0bd08eeb01bb6865aa82942",
+    "theory/gamma1/GAMMA1_N1_NATIVE_TOPOLOGICAL_WARD_LEDGER.md": "8784237d3d3e12372eee19e33687d45e73f269f2a9f4275d6cd9816c8fe44b6e"
+  },
+  "qualified_gravity_bridge_survivors": [],
+  "synthetic_smooth_controls": {
+    "aligned_null_artifact_decreases": true,
+    "controls": [
+      {
+        "aligned_function_of_A_spurious_weighted_l2": 0.02084771451385195,
+        "cells": 1152,
+        "constant_topological_abs_max": 2.0816681711721685e-16,
+        "nonconstant_source_l2": 0.024184020247890667,
+        "nr": 24,
+        "weak_vs_continuum_jacobian_relative_error": 0.478250084472819
+      },
+      {
+        "aligned_function_of_A_spurious_weighted_l2": 0.012240438104511728,
+        "cells": 2592,
+        "constant_topological_abs_max": 1.942890293094024e-16,
+        "nonconstant_source_l2": 0.017454254652181117,
+        "nr": 36,
+        "weak_vs_continuum_jacobian_relative_error": 0.3124465512810382
+      },
+      {
+        "aligned_function_of_A_spurious_weighted_l2": 0.00732637340724746,
+        "cells": 4608,
+        "constant_topological_abs_max": 1.717376241217039e-16,
+        "nonconstant_source_l2": 0.01321124146980223,
+        "nr": 48,
+        "weak_vs_continuum_jacobian_relative_error": 0.1983991608821531
+      },
+      {
+        "aligned_function_of_A_spurious_weighted_l2": 0.003705978476789568,
+        "cells": 10368,
+        "constant_topological_abs_max": 1.9255430583342559e-16,
+        "nonconstant_source_l2": 0.009037334119625979,
+        "nr": 72,
+        "weak_vs_continuum_jacobian_relative_error": 0.10362291714139277
+      }
+    ],
+    "limitations": "SYNTHETIC_SMOOTH_FIELDS_NOT_NATIVE_ONSHELL_CONVERGENCE",
+    "weak_jacobian_error_decreases": true
+  },
+  "utc": "20261119T220556272564Z",
+  "whole_craft_up": "NOT_DERIVED"
+}

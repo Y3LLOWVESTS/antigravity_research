@@ -1,3 +1,340 @@
+# ANTIGRAVITY_RESEARCH — ARTIFICIAL DISCOVERY BUILDPLAN
+
+**ACTIVE REVISION: NOVEMBER 20, 2026 — DELTA-1 FAST / R3B SOURCE–LOADING BRIDGE**  
+**Repository destination:** `ARTIFICIAL_BUILDPLAN.MD`  
+**Authority:** This complete active section supersedes every earlier `NEXT`, authorization, test-baseline, and session-handoff statement in the historical archive appended below. The earlier November 19 GAMMA plan is retained verbatim for traceability, not as a second active queue.  
+**Active discovery program:** `DELTA-1 FAST — CAUSAL OBSTRUCTION REMOVAL AND PHYSICAL SOURCE BRIDGE`  
+**Last executed and independently verified:** `DELTA1-02` on November 20, 2026, **3,304/3,304 full repository tests**, **10/10 focused**, independent verification PASS.  
+**Immediate next conditional micro-run:** `DELTA1-F0_R3B_INTERFACE_RESPONSE_AND_PHYSICAL_CONTROLLABILITY_GATE` — **NOT EXECUTED**. This is a newly specified next-session experiment; no code or result is claimed yet.  
+**Last accepted physical-source stationary checkpoint:** `PH16-04R2` (2,943 tests at its checkpoint); not a Lorentzian Einstein or real-vehicle model.  
+**Conservative GR reference:** `006D`, coefficient `C=23.591586299249`, unreplaced.  
+**Protected few-joule references:** R3B `1.5429162116460216 J`, A12C `2.6568591420597114 J`, B7 `1.5473042949759672 J` — **prescribed-field capacities, not sourced operating energies**.  
+**Qualified complete universal-metric gravitational bridges:** **ZERO**.  
+**Derived Earth-down / whole-spacecraft-up external gravitational force:** **NONE**.  
+**Certified complete device energy strictly `<10,000,000 J`:** **NONE**.  
+**Existing informal research-maturity figures:** GAMMA approximately 34%, overall physical research approximately 37%; planning heuristics only, neither probabilities nor completion measures. **Do not increase for DELTA test counts.**  
+**Research prioritization deadline:** Thursday, November 26, 2026; not an engine-delivery guarantee.
+
+> **DOCUMENT UPDATE BOUNDARY.** At this handoff, update **only** `ARTIFICIAL_BUILDPLAN.MD` and `NOTES.md`. Regenerate the *code-only* codebundle and journal bundle at the beginning of the next session. `RESEARCH_BUILDPLAN.md`, `AGMINER_BUILDPLAN.MD`, `INTROSPECTIVE_BUILDPLAN.md`, `FORMATTING_AND_CODE_STANDARDS.md`, README and historical journals are **not claimed updated**. The November 19 12:39 CST codebundle and 12:43 CST journal bundle predate the verified C1/N1/DELTA1-00/01/02 results. Do not confuse a new bundle with executed scientific evidence.
+
+---
+
+# PART A — THE SCIENTIFIC MISSION AND THE EXACT OBSTACLE
+
+## A1. Mission remains invariant
+
+Discover or rigorously falsify a **finite onboard, physically sourced, healthy universal-metric gravitational-repulsion mechanism** giving **at least 9.80665 m/s² outward acceleration at every material point of a finite, neutral 1 kg torus**, with a **minimum true clearance of 1 m** from all source/support material and required bounded surfaces. Independently derive **Earth down and the entire craft up**, including hull, sources, power supply, neutral payload, supports, field momentum and relevant external fluxes. Auxiliary thrust is allowed only if explicitly separated from the gravitational effect. Complete, non-double-counted conservative operating energy must be **strictly below 10 MJ**, including source preparation/rest mass where applicable, fields, matter loading, supports, confinement, backreaction, off-state, switching, losses, causal dynamics and empirical/quantum/UV obligations. Exactly 10 MJ fails.
+
+No candidate is a working engine simply because it has an outward test-field derivative, a small field energy, a static stationary solution, or an equal-and-opposite force in a prescribed-charge toy. A fifth force must be labeled a fifth force unless the universal physical metric and gravitational interpretation are derived. A local neutral-payload force is not net whole-craft force.
+
+## A2. Why previous research slowed down
+
+The root blocker is **model completion and physical controllability**, not test accuracy. We have many precise reductions and attractive prescribed fields; we lack one source-supported, stable, finite-exterior, common-action bridge from **real sources → fields/stress → universal physical metric → neutral torus and Earth/craft response** with a complete SI cost. Previous GAMMA runs made the incompleteness auditable but did not independently supply the missing degrees of freedom. DELTA1-00/01 tested a *different* scalar mechanism, while DELTA1-02 tested a simple R3B second-invariant intervention; no qualified survivor emerged.
+
+The R3B bottleneck is unusually sharp: the intact 1.5429162116460216 J prescribed mixed-field capacity is not a complete-source cost, and the historical 0.050 m loaded calculation changed the minimum acceleration from favorable preloaded outward behavior to **−129.67185782242464 m/s²** with field energy **1.5211390382733165 J**. Its measured peak dimensionless matter-loading coefficient is **18,987.283771593688** at the 1 keV reference portal scale. Do not confuse decreasing field energy with solving the response sign. Existing source-representability/strong-loading/interface failures remain open only if a *new physical assumption* changes their hypotheses.
+
+### The two constraints we must not mistake for a universal no-go
+
+1. **Single-invariant local reciprocity.** In a conformal metric `g_tilde = exp(2 sigma(P)) g`, the same first derivative `sigma_P` enters neutral geodesic acceleration and the matter-trace carrier variation. With a declared Jordan trace convention:
+
+```math
+\mathbf a_{\rm neutral}=-c^2\sigma_P\nabla P,\qquad
+\lambda=e^{4\sigma}T\sigma_P.
+```
+
+The exact transverse identity at fixed convention is:
+
+```math
+\nabla\lambda\times\nabla P
+=e^{4\sigma}\sigma_P\,\nabla T\times\nabla P.
+```
+
+This prohibits independently assigning the *first-order local* force and matter response while keeping identical fields and metric coupling. It **does not by itself rule out** changes in `sigma_PP`, full coupled susceptibility, source state, material dynamics, or genuinely new independent fields. Where `sigma_P` is fixed over a continuous interval of `P`, its derivative is constrained accordingly; claims about full nonlinear response still require the exact same-action calculation.
+
+2. **Second invariant near-collinearity on the sampled torus.** DELTA1-02 tested an actually Lorentz-invariant parity-even `F_Y^{\mu\nu}F^Y_{\mu\nu}` channel, not the noncovariant local `E²+B²` proposal discarded during installation. Its R3B payload-gradient independent fractions were **0.0015922114543637095** (`h=0.075 m`) and **0.0017631658867701** (`h=0.050 m`); cosine approximately 0.9999987/0.9999984. This closes simple coefficient-only promotion of that channel **in the tested prescribed geometry**. Importantly, the **matter-interface misalignment of approximately 0.629–0.634 measures `∇beta` relative to `∇P`, not `∇Q` relative to `∇P`**. It is not an interface-specific operator-rank result, nor a demonstration that the second operator can cancel the loaded field. A hypothetical enormous coefficient or new field shape is not a free rescue.
+
+**New strategic insight:** Before choosing another nonlinear coupling, measure the *loaded response operator and the physically realizable source/control subspace*. Only a new operator that changes those quantities can plausibly address the blocker. Repeatedly improving an unloaded acceleration plot or re-solving the same loaded equations is low information.
+
+## A3. Permanent evidence ledger — do not overwrite
+
+| Evidence | Verified checkpoint / result | Allowed conclusion | Missing / protected failure |
+|---|---|---|---|
+| `006D` | `C=23.591586299249` | Finite conserved positive-energy type-I linearized GR near-field outward witness, classical energy conditions scoped pass | Catastrophic ~`1/G` energy; no practical realization |
+| `018B/018C`, B7/026, 024–031, AGMINER | Historical closed, failed, and conditional mechanisms | Failure-memory and distinct physical assumptions | No unexplained reopening; preserve B7 nonconvergence and 026C needs |
+| A12C | `2.6568591420597114 J` | Prescribed F² capacity | Reciprocal material/source/metric loading unproved or failed in relevant sectors |
+| R3B | `1.5429162116460216 J` | Prescribed mixed-field capacity | Corrected R3X1 loaded 1 kg response fails; no source-supported device |
+| R3B loaded | `−129.67185782242464 m/s²`, `1.5211390382733165 J` at fine grid | Actual historical failure under declared strong-loading model | Not rerun or fixed by DELTA1-02 |
+| ALPHA-1 M5V | 50/50, 1,803 tests; −11.395675919/+11.397230073 J/m prescribed derivatives | Frozen artificial derivative witness | Not propulsion; preserve M5N 81.458% mismatch and SHA issue |
+| BETA1-04 | 43/43, 2,548 tests, exact toy force pair −0.1262097349021427/+0.12620973490214274 | Frozen 1D scalar toy reaction | Opposing scalar charges prescribed, not universal gravity |
+| PH16-04R2 | 2,943/2,943; Noether 400/400; three joint residuals `<1e−7` | Fully coupled **discrete stationary** F±/X/Y/fluid model at beta=40 | No Einstein/exterior/complete modes/joules/whole craft; weak seed 18/L12 failed |
+| GAMMA R0–R12 | R12 executed after older buildplan; R11 exact rank-two fixed-Noether Schur correction | Scoped operator/metric/Hodge/constraint findings | No unique complete covariant action |
+| GAMMA D0/C1/N1 | C1 3,255 tests; N1 3,266 tests | C1 scoped gravitational stress/energy and scalar-sign tests; N1 native Y variation reproduced | Native continuum/exterior open; N1 full-grid source boundary-sensitive |
+| DELTA1-00 | 3,280 full; 14 focused; independent PASS | Canonical long-range unscreened scalar–F² energetically obstructed under its PPN/target assumptions | Meter-range screened alternatives untested; no full craft |
+| DELTA1-01 | 3,294 full; 14 focused; independent BVP PASS | Exact ideal exponential `Z(phi)>0` radial shell; exterior energy `3.088036951980169e13/alpha² J` | Ideal massless shell/support omission; α>1757 for field-only `<10MJ` is not a viable coupling certificate |
+| **DELTA1-02** | **3,304 full; 10 focused; independent PASS** | Original R3B prescribed geometry, exact reciprocity, second-invariant rank | `NEAR_COLLINEAR_NO_SIMPLE_Q_PROMOTION`; R3B loaded failure remains |
+
+**Historical failure protections:** preserve 018B/018C, 022A, 026/B7, AGMINER source/support and projector health, R3A's `1.84e15` suppression, R3X1 sign correction, B6 interface-boundary artifact correction, B11–B13 failures, B14/B16 inward hotspot `−410.388913 m/s²` (nonconverged), B15 angle-only, B16 weak-loading, PH1–PH11, PH14 spherical `Y=0`, PH15-P7 winding instability, the initial PH16-04/R1 failures, R2 weak-seed failure, R4/R4R1 verifier erratum, R8 X error `~5.9614%`, R9 Y error `~20.8987%`, R11 fixed-Noether nonlocal rank-two correction, and N1 boundary/continuum concerns. Do not re-label a prior failed test PASS because a new run has more tests.
+
+**Authoritative recent SHAs:**
+
+- PH16-04R2 scientific JSON: `ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`; source: `b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0`.
+- GAMMA C1 scientific JSON: `ebd7ebef9cd26d70388c7d0d49ee85b7018654b29043678dbdf307ede3ed4111`; independent verification: `373335f857f8f720d4915917ebacf0a22255014bdbb375c19938ad2d3748dd1a`.
+- GAMMA N1 scientific JSON: `fb246ecf729d4c55382e9bb6589f469400849af1aab81b3612067799d1e066fc`; independent: `6bbe1e228fb7c98786335530d0eeeb5bf420835d423295df0416b0cc63190c73`.
+- DELTA1-00 scientific JSON: `5e4202f310b303fda04156905625c97e31bcdf15b4a29bfbdc4c3e18cfef1aed`; independent: `594a2aefdb0bfbb247db0b8173acf64462d57fe21e8600efefc30ef29f6bfb0f`.
+- DELTA1-01 scientific JSON: `f513d8e2f8e54db618dfcbfcd30ca2f2f35a8fd1de5440f005bd5dcd24bcb84f`; independent: `4fa6141959a2f349fb6310e202c2c3073a9d044eb32f5ffb1a7a2a019dbc0688`.
+- **DELTA1-02** scientific JSON: `3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3`; independent: `db7be8e1399e0bf04db1ca21f87fd0ed5c8e2807cfcb438c278fa817993c8ded`.
+- R3B original scientific-result SHA from DELTA1-02 parent manifest: `9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11`. R3B source SHA: `aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263`.
+
+Numbers are provenance anchors, not independent evidence that the new experimental hypotheses were executed. New session must compare producer files, exact JSON and sidecars; do not rely on this prose against raw evidence.
+
+---
+
+# PART B — DELTA-1 FAST: THE PHYSICS DISCOVERY ENGINE
+
+## B1. Optimize *decision information per wall-clock minute*, not test count
+
+Our next goal is to discover a *changed physical dependency* that can survive R3B's loading obstruction; if none exists under tested assumptions, record the no-go and move. Avoid broad inverse design, handpicked force targets, meaningless coupon parameter sweeps, and repeated Green-operator polishing. Optimize experiments for clear discrimination among:
+
+- **A:** an actual first-order source/response reciprocity restriction;
+- **B:** a second-order material/interface susceptibility or instability;
+- **C:** failure of real conserved source controllability;
+- **D:** a boundary/exterior artifact;
+- **E:** a healthy new degree of freedom/operator with independent, physically sourceable response;
+- **F:** a universal-metric / SI-energy / Earth-force impossibility at the target scale.
+
+If an experiment cannot tell apart at least two of these failure modes, it is not a high-priority experiment. A positive artificial witness must state which physics obligation it resolves. A negative result must name its assumptions and the physically meaningful escape condition.
+
+## B2. The five-layer failure-and-transfer chain
+
+Write each candidate as an explicit causal sequence, with every arrow labeled *derived*, *assumed*, *frozen*, *failed*, or *unknown*:
+
+```text
+FINITE ONBOARD MATTER/CHARGE/CURRENTS AND SUPPORTS
+    |  gauge Ward / Noether / stress conservation; physical cost
+    v
+ON-SHELL COUPLED X/Y/NEW FIELDS WITH REAL EXTERIOR
+    |  full material feedback + mode/constraint health
+    v
+STRESS / PHYSICAL UNIVERSAL METRIC / GRAVITY SOLUTION
+    |  proper neutral dynamics; no arbitrary Earth charge
+    v
+FINITE NEUTRAL 1 kg TORUS  >=1g EVERYWHERE AT >=1m CLEARANCE
+    |  Earth response + entire craft/worldtube momentum accounting
+    v
+EARTH DOWN / ENTIRE CRAFT UP + <10MJ COMPLETE SI LEDGER
+```
+
+The **weakest unclosed arrow** is the research target; do not push a later layer artificially if an earlier one is missing. A source-free exterior or real force cannot be inferred merely by editing an action label. PH16 static Routhian, R3B prescribed-field energy, BETA toy force and DELTA radial fifth-force bounds correspond to *different levels* and must not be stitched together without explicit identical-action derivation.
+
+## B3. Fast causal response/adjoint methodology — the core change
+
+For one declared action and finite-dimensional discretization, write its **actually solved** Euler residual and physical objective as:
+
+```math
+\mathcal E(z,p)=0,\qquad A(z,p)=\min_{x\in\mathrm{target}} a_{\rm out}(x),
+```
+
+where `z` includes every dynamical/gauge-constrained/source/material variable that is claimed on shell, while `p` contains only **physically realizable source/action parameters**. For a differentiable active-target constraint with well-defined gauge fixing and constraints, linearization gives:
+
+```math
+\mathcal E_z\,\delta z=-\mathcal E_p\,\delta p,
+\qquad\delta a=\bigl(a_p-a_z\mathcal E_z^{-1}\mathcal E_p\bigr)\delta p.
+```
+
+This is the **loaded controllability map**. It is not valid if `E_z` is singular from unresolved gauge modes, physical instability, absent source terms, or a frozen off-shell state; eliminate constraints and zero modes properly, or mark `NOT_DEFINED`.
+
+For several target cells, use an active-set Jacobian or vector-valued margin, not an unsupported derivative of the nonsmooth global minimum. An independent adjoint can solve:
+
+```math
+\mathcal E_z^T\,\lambda=a_z^T,\qquad
+\partial_p a=a_p-\lambda^T\mathcal E_p.
+```
+
+**Reconstruct the physical allowable perturbation subspace** using true gauge-current/Noether/continuity, source support, stability and material boundary conditions. Compare the projected source-to-acceleration range with the required all-torus outward margin. Do not inject any arbitrary field profile as a permissible `delta p`. Separate *mathematical controllability* from actual finite-cost material source construction.
+
+Use matrix-free Jacobian-vector products/adjoints if readily available, sparse local Schur blocks and stable preconditioners, rather than dense all-grid Hessians. Validate the sign with an independent finite difference on a tiny restricted model. Do not merely increase optimizer iterations to force a positive answer.
+
+### Two necessary acceptance metrics
+
+1. **Loaded response sign and margin:** effect on every previously failing or marginal torus cell under the same action; not just the torus center or field-only direction. Quantify interface traction, `beta`, carrier EOM residuals and actual source-response sensitivity.
+2. **Physically admissible response rank:** singular value/angle of **sourceable** new-operator response after constrained projection, with an uncertainty bound larger than the grid/exterior error. Rank at the payload is not automatically rank at the material interface. A direction is not usable if it requires nonconserved, unsupported or energetically forbidden source currents.
+
+Do not invent a success threshold based solely on a pleasing numerical percentage; pre-register the threshold based on observed numerical error, required acceleration margin, and physical feasibility. The previous DELTA1-02 `0.05` rank triage threshold was not a fundamental physical acceptance test.
+
+## B4. Invention/failure-inversion discipline
+
+Before coding each new physical hypothesis, write a short **Mechanism Card**:
+
+`operator/action | exact changed premise from named previous failure | new propagating/constrained DOF | microscopic source | continuous/Gauss/Ward | neutral physical metric | loaded interface response | Earth/whole-craft channel | constrained health | SI and empirical range | cheapest falsifier | predicted alternate outcomes | immutable parent`.
+
+At most **four cards** per rapid comparison, **two conditional research hypotheses** retained, **one expensive nonlinear solve** only for an independently justified candidate. These are comparison caps, not targets requiring that many candidates. A new branch number or coefficient is **not** new physics. Do not claim new physical operators preserve R3B's 1.542916 J energy unless re-derived under the same fully loaded Hamiltonian.
+
+Candidate categories to consider, conditional on a real new premise:
+
+- **R3B-M0 (negative control):** unchanged `sigma(P)`, fixed source support and carrier equations; check first-order Ward/reciprocity and historical failure without rerunning costly closed optimization.
+- **R3B-M1 (conditional):** a **new healthy, local dynamical material/interface sector** with its own EOM and source that changes the coupled susceptibility without arbitrarily suppressing the physical metric of neutral matter. Require real constitutive stresses, positive Hamiltonian, off-shell identities, and no hidden rigid anchor. A prescribed interface that merely screens reciprocal loading is *not* accepted.
+- **R3B-M2 (conditional):** a **distinct genuinely independent gauge/metric operator or mediator** whose constrained, loaded response direction survives physical-current projection **at the actual interface and target**, unlike the tested near-parallel `F_Y^2` geometry. Derive complete action, current, mode and SI cutoff, not merely a gradient fit. Do not assume a scalar sign, screening or opposite Earth charge.
+- **R3B-M3 (reserve):** alternative 006D-compatible gravitational stress sourcing or justified semiclassical/quantum operator only if genuinely new, with its own full stress/energy/UV rationale. Do not recycle the failed 006D energy scale or claim quantum negative-energy miracles.
+
+At minimum, always include controls: coupling off, source off, neutral matter trace off, interface made uniform, 1 keV physical loading restored, corrected R3X1 signs, R3B historical loaded inward response and, when relevant, R3B ideal perfect-mirror degeneracy and PH14 `Y=0` spherical null. Each diagnostic must remain meaningful under its stated source and boundary assumptions.
+
+## B5. Evidence labels — never collapse levels
+
+`EXACT_THEOREM`, `SCOPED_NO_GO`, `SOURCEABLE_LINEAR_WITNESS`, `CONDITIONAL_NEW_OPERATOR`, `COUPLED_STATIC_WITNESS`, `CONTINUUM_EXTERIOR_WITNESS`, `FULL_HEALTH_CANDIDATE`, `EARTH_CRAFT_FORCE_CANDIDATE`, `COMPLETE_COST_CANDIDATE`, `NUMERICAL_INCONCLUSIVE`, `UNDERDETERMINED`, `ARTIFICIAL_ONLY`.
+
+A theoretical candidate may be *conditional* but is **not** a qualified gravitational survivor until the actual source/metric/exterior/health/Earth-force obligations are independently passed. Do not rebrand a fifth force as demonstrated GR gravitational repulsion. Do not infer full spectrum stability from a frozen static Hessian or gauge positivity alone.
+
+---
+
+# PART C — FAST EXECUTION POLICY: MORE SCIENCE, FEWER 13-MINUTE WAIT CYCLES
+
+## C1. A four-stage cost-gated run ladder
+
+| Tier | Work | Target practical budget* | Verification required | Allowed outcome |
+|---|---|---:|---|---|
+| **F0** | Exact algebra; dimensional analysis; archive provenance; low-dimensional interface response and source inventory | ~30–90 seconds | Symbolic identity or independent algebra, cheap negative controls, source/parent lock | Decision to reject, refine, or admit next tier |
+| **F1** | Matrix-free JVP/adjoint, small constrained stencil/Green test; two alternative mechanism cases at most | ~2–5 minutes | Focused science tests + independent construction, residual and sign bounds | Conditional sourceability/health decision |
+| **F2** | One reduced nonlinear, fully reciprocal, finite-source solve (only for a survivor) | Explicit per-run bounded cap, typically minutes | Independent EOM, conservation, numerical/boundary checks, failure log | Scoped mathematical physical-model result |
+| **F3** | Full integration, continuum/exterior/modes and whole-craft physical verification | Only on earned promotion | Entire current regression + independent physics review | New physical checkpoint or failure |
+
+*These are **budget goals, not promised runtimes or evidence thresholds**. On a slow Mac, timeouts or factorization cost are valid `NUMERICAL_INCONCLUSIVE` results. Never silently relax numerical acceptance, skip unsuccessful trials, or change physics to meet a timer.
+
+**Old practice eliminated:** Mandatory 13-minute `pytest` full suite after every tiny analytic identity. The repository's **3,304 passing-test** baseline is preserved, but a full suite is required **once per accepted integrated code checkpoint, before publication/transfer, and at the final session closeout for any adopted code**. Any focused failure invalidates promotion immediately; a deferred full suite is clearly labeled `FULL_REGRESSION_PENDING`. Never report `3304+` as a completed current full regression if the suite did not run on the new code.
+
+**Fast local verification:** `python -m py_compile` or AST check; a handful of focused tests; independently recomputed mathematical identity or source effect; optional `pytest --collect-only` to confirm selection; short path-locked inputs. Cache deterministic expensive parent arrays by **exact producing-source + input + relevant dependency hash**; verify cache misses and source hashes once per run; never reuse stale artifacts across different actions, grids or normalization. Avoid re-generating the full 878-file codebundle for each micro-run. Use the fresh codebundle to understand history, then work from exact source files and small immutable parent archives.
+
+**Hot-path efficiency:** isolate solver from JSON/log hashing; use bounded sparse/matrix-free operators; factorize once if the operator is fixed; reuse Krylov preconditioners only when justified by the same operator; restrict expensive source tests to the smallest discriminating grid first. A second mesh is required **before claiming convergence/robust rank**, not before every cheap rejection. Use `time.perf_counter` and record stage timings; each run records a `time_budget_exceeded` outcome instead of abandoning the process without evidence. Concurrency must not corrupt caches or provenance; parallel work only when independent and memory-safe.
+
+**Reproducibility cannot be optimized away:** Every accepted scientific attempt, including scoped failure, has an immutable UTC JSON, SHA-256 sidecar, producer SHA record, parent hashes, timing, negative controls, exact action/assumption strings and explicit `NEXT=NO_AUTOMATIC_PROMOTION`. Cheap exploratory scratch work is not silently called an accepted run. Preserve each failure and source baseline, without overwriting immutable JSON/log/NPZ results. Avoid git commands in user-facing Bash; use complete separate macOS/zsh-compatible **APPLY** and **VERIFY** blocks only when code is requested. Do not send an encoded patch or multiple disconnected manual edits.
+
+## C2. Reuse instead of repeat
+
+- **Do not rerun:** R3B pure-field energy minimization, R3B unchanged strong-loaded inversion, R3B B11–B16 coefficient and angle searches, A12C <100 J polishing, ALPHA M5V inverse translation force, BETA toy Earth charges, PH14 sphere → `Y=0`, GAMMA R4–R9 static exterior matching, DELTA1-00/01 massless scalar shell, or DELTA1-02 near-collinear `F_Y^2` rank check as an independent discovery.
+- **Do reuse:** Original R3B and corrected R3X1 code as **negative controls and exact action data**, PH16 source/Noether Schur identities as conditional source architecture, GAMMA C1/N1 source/Hodge/continuum cautions, DELTA energy/empirical scalar obstructions, and AGMINER failure assumptions.
+- **Only reopen** a prior failure with a named changed fundamental assumption or new EOM, plus a pre-registered falsifier showing why the old obstruction does not apply.
+
+## C3. Research throughput dashboard — metrics that matter
+
+After each F0/F1 batch report: `[real mechanism cards analyzed]`, `[named obstructions decisively closed]`, `[new physical premise survived independent scrutiny]`, `[sourceability/health/energy/exterior force gates advanced]`, `[CPU and wall time]`, `[full suite pending or verified]`. Do **not** score progress by the number of Python tests, newly named branches, field-plot brightness, artificial percentage, or joules of an unsupported prescribed field. Subjective physical maturity stays below the earlier ~50% heuristic threshold until independent source-to-metric **and Earth/whole-craft external interaction** are derived.
+
+---
+
+# PART D — EXACT NEXT SESSION: DELTA1-F0 AND CONDITIONAL SUCCESSORS
+
+## D1. IMMEDIATE NEXT: `DELTA1-F0_R3B_INTERFACE_RESPONSE_AND_PHYSICAL_CONTROLLABILITY_GATE`
+
+**Status:** **NOT EXECUTED, PREAUTHORIZED ONLY FOR CHEAP F0 DISCOVERY**. No unconditional DELTA1-03 nonlinear continuation or full loaded source PDE is authorized. F0 is a different evidence question from DELTA1-02; it is not a relabel of the old rank test.
+
+**One decisive question:** Is the destructive R3B 1 kg loading predominantly forced by *first-order universal matter-current reciprocity*, by a *coupled second-order/material-interface susceptibility*, or by a *non-sourceable control direction*? Can any *genuinely new physical source/interface degree of freedom* address the diagnosed obstruction without changing the original target into a prescribed force?
+
+**F0 inputs (SHA-lock before science):** exact original `hook17_fdual_f_global_mirror_prefight.py` and original R3B summary; `hook17_f2_strong_payload_loading_rescue.py`, R3X1 corrections, historical R3B fully loaded failure/negative controls, latest DELTA1-02 JSON and independent verification; use original `h=.075m` first, `h=.050m` only if an F0 witness changes the decision. If the original loaded solution or same-action Jacobian is unavailable, report the exact missing array/operator and STOP rather than inventing an off-shell source or expensive reconstruction. Use actual source/field geometry and material interface rather than synthetic manufactured fields for the primary claim.
+
+### Pre-registered F0 operations — in this order
+
+**0. Immutable source/action inventory.** Reconstruct the original mixed-field metric `P`, source-current support and stored strong-loading results. Identify which variables were solved versus prescribed, and whether a full loaded Euler residual exists. Separate the metric's matter trace, interface `∇T`, field/source support and asymptotic boundary terms. If the action is incomplete, classify `ACTION_INCOMPLETE` and give the minimal missing variational term rather than marking a source derived.
+
+**1. Exact loaded-response identity.** Derive the first- and second-variation blocks with the correct R3X1 sign, including `sigma_P`, `sigma_PP`, material-trace response, gauge constraints, current conservation and surface/interface traction. For fixed Noether sectors, respect R11's rank-two Schur reduction wherever transferring PH16 formulas; do **not** apply PH16's Schur coefficient to R3B without a proven identical-action reduction. Identify the *specific* coupling term capable of changing the bad eigen-/response direction.
+
+**2. Loaded versus frozen diagnosis.** Compare the R3B historical inward-loaded response and source-support defects against an exact first-order `JVP` or analytic sensitivity **only if the necessary state/action is available**. Separate `delta source`, `delta carrier`, `delta matter`, `delta boundary`; no arbitrary current maps. Quantify the interface susceptibility and signs. If no correct Jacobian can be constructed, output `LOADED_RESPONSE_OPERATOR_UNAVAILABLE` with a precise next minimal action requirement.
+
+**3. Sourceable-control projection.** On the permitted source/current subspace, test whether a proposed new DOF/operator supplies a response direction outside the near-collinear geometry **after** preserving Ward/continuity, supports and locality. Record singular values or an adjoint lower bound with numerical error estimates. Test both the **material interface** and the **worst torus cells**; explicitly distinguish DELTA1-02's ~0.16–0.18% payload `P/Q` gradient rank from the 0.63 interface `beta/P` wedge. If no new action is proposed, this stage must say `NO_NEW_PHYSICAL_CONTROL_TO_TEST`, not claim that the old Q source works.
+
+**4. Cheapest necessary force/energy bound.** Independently state source off/on and Earth off/on physical force observables. If no universal Earth metric and whole-craft source are in the action, mark them `NOT_DERIVED`, not PASS. Produce an SI scale/budget test if the action fixes units; otherwise `ENERGY_UNDETERMINED`. Retain the R3B 1.542916 J field-only reference without inventing full joules.
+
+**5. Negatives and independent validation.** Recover perfect-mirror `P/Q` rank-1 control, R3B loaded negative acceleration, coupling-zero/trace-zero controls, constant matter-density interface suppression where applicable, source-current conservation, sign-reversed R3X1 bad control, and alternate finite differences on one small state. Record any lost residual/continuum accuracy. No 13-minute full regression if F0 only closes a scoped math obstruction and no new accepted integrated code is promoted.
+
+### F0 outcomes and stop rules
+
+| Outcome | Exact meaning | Next action |
+|---|---|---|
+| `F0_SOURCE_ACTION_UNDERDETERMINED` | Missing true on-shell source/current/material EOM or operator | Derive the missing single action term, no PDE |
+| `F0_RECIPROCITY_OBSTRUCTION_SCOPED` | Local response cannot be independently tuned under declared single invariant/source sector | Archive; require genuinely new DOF/action before reopening |
+| `F0_INTERFACE_SUSCEPTIBILITY_IDENTIFIED` | Specific action-derived second-order interface block explains the sign loss | Propose one physical interface/mode modification; health and SI gate first |
+| `F0_SOURCE_CONTROL_RANGE_OBSTRUCTION` | Desired correction lies outside genuine conserved, supported source range | Reject that source mechanism; do not optimize arbitrary currents |
+| `F0_NEW_CONTROL_DIRECTION_CONDITIONAL` | New action-specific direction survives sourceability/health/uncertainty filters | Only then authorize a bounded F1 physical-action test |
+| `F0_NUMERICAL_INCONCLUSIVE` | Missing convergence/ill-conditioning/budget overrun | Record error and narrowed remedial test, not scientific failure |
+
+**Automatic authorization after F0:** **NONE.** Review actual source, scientific JSON, independent verifier and substantive obstruction before authorizing another run.
+
+## D2. Conditional `DELTA1-F1` — exactly one action-level intervention
+
+If F0 isolates a possible new controllable degree of freedom, write a **fully explicit** spacetime action with real source (source plus passive neutral matter, supports, Earth and asymptotic boundary terms), SI dimensions and no double-counted original field energy. Derive X/Y/new-field and source/neutral Euler variations, Ward/Noether/Bianchi/diffeo identities, full constrained Lorentzian physical-mode check, weak-field neutral acceleration and real Earth/craft momentum ledger. A deliberately simplified local source model may be used to reject an operator quickly, but not to promote the full physical device.
+
+Test a single *necessary* low-order source/exterior witness with independent method; do not fit favorable `xi` or assume the old R3B current can freely rotate its field geometry. If the candidate changes the original response, recompute physical source and energy; never claim the original 1.542916 J capacity survives automatically. If the new DOF introduces a ghost, strong coupling below the needed gradients, unphysical source or unpermitted universal metric response, close the realization.
+
+## D3. Conditional `DELTA1-F2` — one jointly loaded finite-source solve
+
+Only if F1 passes can a small constrained PDE/exterior solve be considered: genuine conserved onboard source; X/Y/new fields; actual 1 kg neutral torus; material interface/support forces; physical metric; strict source-free 1m clearance; source-on/off and Earth-present/absent comparisons; bounded continuation with no resets or threshold relaxation; numerical negative controls and two independent discretizations for convergence. Include a source energy lower bound before expensive solve. A solution with positive payload acceleration but no entire-craft force remains a partial witness.
+
+## D4. Conditional `DELTA1-F3` — external gravity, full health and cost
+
+Only after an F2 candidate survives: complete Einstein/modified gravity constraints, Hodge/metric variations, all propagating/constraint modes, real finite exterior, Earth-support/hull/field worldtube momentum and force, causal on/off impulse and whole-cycle recovery (B11-M6), and complete conservative SI energy including off-state and empirical/quantum/UV. Independent reproduction is mandatory. The PH16-05 and PH17 physical certification paths remain **unauthorized** until independently sourced physical closure earns transfer.
+
+## D5. Older branches are evidence, not an active numerical queue
+
+GAMMA R0–R12/C1/N1, DELTA1-00/01/02, PH16-04R2, ALPHA/BETA, R3B/A12C and 006D remain available as control cases. Do not continue GAMMA1-01, DELTA1-03, PH16-05 or PH17 by branch numbering alone. Reopen only on a written exact new action and its falsifier. No automatic general scalar-shell continuation. Quantum/semiclassical avenues remain in reserve until a justified finite stress/mode/UV/source assumption exists.
+
+---
+
+# PART E — NON-NEGOTIABLE PHYSICAL ACCEPTANCE AND SCIENTIFIC HONESTY
+
+## E1. One-action obligation
+
+A fully promoted candidate must have **one common diffeo/gauge-invariant action** for Einstein or justified modified gravity, all X/Y/new carriers, finite conserved charged sources, neutral torus, Earth, supports/hull/power matter and boundary terms. Vary the action with respect to every degree of freedom actually claimed on shell, and state where a reservoir, boundary or external gravitational background enters. Derive currents and field stress, not prescribe favorable source values. Respect exact topological `F_X∧F_Y` bulk null at constant coefficient, its boundary currents, and `lambda=f(A_X0)` static induction null; N1 established a scoped discrete native source, not native continuum closure.
+
+Gauge Ward, charge conservation, Noether fixed-number, Bianchi and diffeomorphism identities must agree off shell under explicit signature/epsilon/Hodge and boundary conventions; eliminate constrained modes and verify a physically sensible characteristic/Hamiltonian sector rather than relying on frozen fields or positive static curvatures. Account for nonlocal fixed-charge Schur terms only when the action genuinely contains those constraints. Include empirical EP/fifth-force/PPN/gravity-wave constraints appropriate to range, and quantum/EFT cutoff/loops/naturalness. A ghost, unsupported source, exact null source, impossible boundary or validated energy lower bound ≥10 MJ is a scoped stop, not a cue for a new arbitrary force term.
+
+## E2. Exterior transmission and whole-craft test
+
+The actual finite onboard source must generate a field in an **exterior region free of source/support matter**, and the neutral torus must receive outward acceleration at every material point at 1m true stand-off. The **entire craft** includes the source, supports, batteries, fields, and payload. Earth is distinct external matter. Check common physical-metric response and full (possibly quasilocal) momentum/boundary flux with appropriate spacetime symmetries. Differential movements of onboard parts cannot generate self-propulsion. A favorable derivative of a prescribed artificial Earth coupling does not establish gravity. Do not assume equal-and-opposite force from a toy pair becomes a real Einstein worldtube force.
+
+## E3. Complete SI and operating-state ledger
+
+Track energy source formation/rest, field configuration, canonical normalization, carrier confinement, neutral loading, supports, battery work, switching and return/reset, off-state, backreaction, radiation, losses, UV/quantum, Earth interaction and work done on the environment. Make explicit whether a quantity is stored, borrowed, recoverable, dissipated or transported; avoid double-counting. The real energy ceiling is *strictly* `<10 MJ` for the complete operating requirement; exactly 10 MJ fails. If a single rigorously defined necessary positive cost already reaches 10 MJ, close that realization. If unknown, say `NOT_CERTIFIED`; a few-joule R3B/A12C field-only capacity is not a total cost.
+
+## E4. Claims and calibration
+
+- `PHYSICAL_LIFT_DEMONSTRATED=NO`; `WHOLE_CRAFT_FORCE_DERIVED=NO`; `COMPLETE_LT10MJ_CERTIFIED=NO`; `006D_REPLACED=NO` remain until independently established otherwise.
+- Existing 34% GAMMA and ~37% physical-research scores are **informal prior planning judgments**, not progress probabilities. A new analytic obstruction may *lower* the heuristic; additional tests do not raise it. The historical 50% criterion requires independently transferred source-to-metric **and whole-craft physical force**, not more tests.
+- Honest negative answers count as successful research prioritization, not as evidence that a near-term engine is achievable. There is no guarantee that any healthy low-energy antigravity model exists.
+
+---
+
+# PART F — NEXT SESSION, PRESERVATION AND HANDOFF
+
+## F1. Exactly what the next session receives
+
+1. Newly regenerated code-only codebundle, generated **after** all DELTA1-02 files and invariant correction. Keep the original scientific comments and simulations; exclude massive journal/docs/results dumps from the codebundle. Do not treat the November 19 12:39 CST bundle as current code.
+2. Newly regenerated combined journal bundle, recognizing that its individual journals were **not updated** in this documentation-only session. If no new dated journal exists, the newer compiled bundle is a new packaging artifact, not evidence of a new experiment.
+3. Updated `ARTIFICIAL_BUILDPLAN.MD` with this **front authoritative DELTA-1 FAST section**, its preserved prior GAMMA buildplan archive, and updated `NOTES.md` carry-forward. Other documentation remains unchanged until deliberately revised.
+4. The original DELTA1-02 scientific JSON, verification JSON, SHA-256 sidecars and focused/independent/full logs, and the exact R3B original capacity and loaded failure artifacts where available. Include source state as of run; immutable producer hashes must match.
+5. Original frozen ALPHA/BETA, PH16-04R2, 006D, historical AGMINER and R3X1/B6/B11–B16 failures as controls. No retry of closed mechanisms without a new physics premise.
+
+## F2. Paste-ready next-session introduction (three paragraphs)
+
+We are continuing **ANTIGRAVITY_RESEARCH** under the **November 20 DELTA-1 FAST revision of `ARTIFICIAL_BUILDPLAN.MD`**. This session updated **only the artificial buildplan and `NOTES.md`**; the new code-only and journal bundles are being regenerated for the next session, while `RESEARCH_BUILDPLAN.md`, `AGMINER_BUILDPLAN.MD`, `INTROSPECTIVE_BUILDPLAN.md`, `FORMATTING_AND_CODE_STANDARDS.md`, README, and existing dated journals were not updated. Reconstruct reality from current producing sources, immutable JSON/SHA/logs, the updated carry-forward notes, and preserved historical failures—not from stale `NEXT` statements in archived sections.
+
+**Last verified full-repository checkpoint is DELTA1-02: 3,304/3,304 tests, 10/10 focused, independent PASS.** Its R3B native-field response found near-collinearity of original mixed-invariant and new `F_Y²` gradients (independent fraction `0.0015922114543637095` / `0.0017631658867701` at 0.075/0.050 m), so no simple parity-even second-invariant promotion. The **1.5429162116460216 J R3B** prescribed capacity remains protected, but the historical loaded 1 kg fine-grid minimum `−129.67185782242464 m/s²` and strong material `beta≈18987.28` failure remain. Preserve A12C 2.656859 J, 006D `C=23.591586299249`, PH16-04R2 and frozen ALPHA/BETA/GAMMA/DELTA results. No independently qualified gravity bridge, whole-craft gravitational lift, or complete energy strictly below 10 MJ exists.
+
+**NEXT: `DELTA1-F0_R3B_INTERFACE_RESPONSE_AND_PHYSICAL_CONTROLLABILITY_GATE` — NOT YET RUN.** Start with exact native same-action source/material interface and loaded response/adjoint controllability, distinguish first-order universal-metric reciprocity from second-order susceptibility and real supported current range, and derive at most one genuinely new action-level physical escape before any nonlinear PDE. Use **fast focused and independent gates**, budgeted F0/F1 stages and immutable failed-result artifacts; **do not run a 13-minute full repository regression after each exploratory micro-test**. Run one fresh full regression before any accepted integrated model, physical promotion or session closeout with adopted code. Supply complete separate paste-ready Bash APPLY/VERIFY blocks when implementing the next experiment; never relax physics to meet the November 26 research decision deadline.
+
+## F3. Hard stop / final directive
+
+**Stop collecting beautiful prescribed-field configurations without solving the cause of reciprocal loading.** Find a new, healthy, physically sourceable degree of freedom whose *loaded, constrained* response has real independent leverage, or derive a scoped no-go and discontinue that family. Preserve R3B's 1.542916 J result as a field-capacity reference unless and until a genuine same-action physical realization changes its status. Only physical sources, modes, neutral/Earth universal response, exterior transmission, whole-craft force and complete energy can earn physical-model progress. A November 26 research decision is a priority, not a promise of a device.
+
+**END OF ACTIVE NOVEMBER 20, 2026 DELTA-1 FAST SECTION.** The earlier GAMMA-1 buildplan follows exclusively as a byte-preserved historical archive and is not the active execution queue.
+
+
+---
+
+# HISTORICAL ARCHIVE — ORIGINAL NOVEMBER 19, 2026 GAMMA-1 BUILDPLAN
+
+**READ-ONLY PROVENANCE.** The original content below is preserved byte-for-byte. All references to `GAMMA1-00R12 NEXT`, `3,225 latest`, and the historical run authorization are **SUPERSEDED** by the November 20 DELTA-1 FAST active section above. Do not execute any old `NEXT` instruction solely because it appears below.
+
+**Original archive SHA-256:** `5c39056319878d62ba6c3064912b86cd9a9999eae0cc87b680255fc5db87e964`.
+
+---
+
 # ANTIGRAVITY_RESEARCH — Artificial Discovery Buildplan
 
 **Active branch:** GAMMA-1 — Physical Gravity-Bridge Discovery  

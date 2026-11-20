@@ -1,0 +1,139 @@
+{
+  "006D_replaced": false,
+  "DELTA1_03_authorized": false,
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "branch": "DELTA1-02_R3B_PORTAL_PHYSICALIZATION_FORK",
+  "classification": "R3B_SCOPED_RECIPROCITY_AND_GEOMETRIC_RANK_AUDIT",
+  "complete_operating_energy_lt10MJ": "NOT_CERTIFIED",
+  "gates": {
+    "FINITE_LOADED_1KG_TORUS": "HISTORICAL_FAIL_UNCHANGED",
+    "FULL_EINSTEIN_EARTH_SUPPORT_ACTION": "NOT_DERIVED",
+    "HEALTHY_LORENTZIAN_MODES": "NOT_CERTIFIED",
+    "MICROSCOPIC_SOURCE_CURRENTS": "NOT_DERIVED",
+    "ONE_NEW_PARITY_EVEN_INVARIANT": "GEOMETRY_ONLY",
+    "ORIGINAL_1P542916J_REFERENCE": "PASS_PRESERVED",
+    "ORIGINAL_R3B_SOURCE_PROVENANCE": "PASS",
+    "PHYSICAL_EXTERIOR_AND_CRAFT_LIFT": "NOT_DERIVED",
+    "R3X1_CORRECTED_SIGNS": "INHERITED_NOT_RERUN",
+    "SINGLE_INVARIANT_RECIPROCITY": "EXACT_IDENTITY",
+    "SI_SOURCE_SUPPORT_UV_EMPIRICAL": "NOT_CERTIFIED",
+    "TWO_INVARIANT_SAME_ACTION_LOADING": "NOT_SOLVED"
+  },
+  "historical_loaded_fine_grid_field_energy_J": 1.5211390382733165,
+  "historical_loaded_fine_grid_min_acceleration_m_s2": -129.67185782242464,
+  "historical_loading_failure": "PRESERVED_NOT_RERUN",
+  "native_meshes": [
+    {
+      "complete_source_energy": "NOT_DERIVED",
+      "field_cells": 49588,
+      "gradient_cosine_P_Q": 0.9999987324305389,
+      "gradient_gram": [
+        [
+          6.94985021937754e-31,
+          6.9003462236717895e-31
+        ],
+        [
+          6.9003462236717895e-31,
+          6.851212215205501e-31
+        ]
+      ],
+      "gradient_independent_fraction_Q": 0.0015922114543637095,
+      "grid_spacing_m": 0.075,
+      "matter_interface_active_cells": 39,
+      "matter_interface_mean_misalignment_sin": 0.6287609035434655,
+      "matter_interface_wedge_L2": 7.502686449858249e-11,
+      "max_abs_P_minus_Q_on_payload": 1.4871999469452947e-18,
+      "min_P_acceleration_m_s2": 9.806649999999998,
+      "min_Q_acceleration_m_s2": 9.730144397867582,
+      "native_loaded_result": "NOT_RE_SOLVED",
+      "original_pre_normalization_min_accel": 9.883757145842175,
+      "peak_original_beta": 18987.283771593688,
+      "portal_scale_eV": 1000.0,
+      "reproduction_normalization_on_sigma": 0.9921985997121943,
+      "torus_sample_cells": 22
+    },
+    {
+      "complete_source_energy": "NOT_DERIVED",
+      "field_cells": 111101,
+      "gradient_cosine_P_Q": 0.9999984456218198,
+      "gradient_gram": [
+        [
+          1.685763411087135e-30,
+          1.6737262244572923e-30
+        ],
+        [
+          1.6737262244572923e-30,
+          1.6617801553741587e-30
+        ]
+      ],
+      "gradient_independent_fraction_Q": 0.0017631658867701,
+      "grid_spacing_m": 0.05,
+      "matter_interface_active_cells": 70,
+      "matter_interface_mean_misalignment_sin": 0.6342592160813438,
+      "matter_interface_wedge_L2": 1.3565533116547596e-10,
+      "max_abs_P_minus_Q_on_payload": 1.5910215127635088e-18,
+      "min_P_acceleration_m_s2": 9.80664999999999,
+      "min_Q_acceleration_m_s2": 9.730034863620823,
+      "native_loaded_result": "NOT_RE_SOLVED",
+      "original_pre_normalization_min_accel": 9.883868410591937,
+      "peak_original_beta": 18987.283771593688,
+      "portal_scale_eV": 1000.0,
+      "reproduction_normalization_on_sigma": 0.9921874303274629,
+      "torus_sample_cells": 48
+    }
+  ],
+  "next_decision": "ONLY_NEW_ACTION_LEVEL_CARRIER_SOURCE_COMPLETION_IF_INDEPENDENT_RANK_AND_HEALTH_SURVIVE",
+  "one_extra_even_invariant_rank_decision": "NEAR_COLLINEAR_NO_SIMPLE_Q_PROMOTION",
+  "original_R3B_prescribed_field_capacity_J": 1.5429162116460216,
+  "parents": {
+    "A12C_source": {
+      "path": "src/antigravity_research/agminer/hook17_concurrent_u1_fieldstrength_metric.py",
+      "sha256": "2fb2094de5995aab5172fc825bd30d895ffbb163d1a3418105c808c19fa50b99"
+    },
+    "DELTA01_science": {
+      "path": "results/data/delta1_01_20261120T011200609297Z.json",
+      "sha256": "f513d8e2f8e54db618dfcbfcd30ca2f2f35a8fd1de5440f005bd5dcd24bcb84f"
+    },
+    "DELTA01_verification": {
+      "path": "results/data/delta1_01_verification_20261120T012531244617Z.json",
+      "sha256": "4fa6141959a2f349fb6310e202c2c3073a9d044eb32f5ffb1a7a2a019dbc0688"
+    },
+    "R3B_original_result": {
+      "historical_preloaded_capacity_j": 1.5429162116460216,
+      "path": "results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json",
+      "sha256": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11"
+    },
+    "R3B_source": {
+      "path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+      "sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263"
+    },
+    "loading_source": {
+      "path": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+      "sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7"
+    }
+  },
+  "perfect_mirror_negative_control": {
+    "P_over_Q": 1.0,
+    "independent_channel_rank": 1
+  },
+  "portal_reciprocity_theorem": {
+    "exact_trace_identity": "lambda=exp(4sigma)*T*sigma_P",
+    "exact_transverse_identity": "grad(lambda) cross grad(P)=exp(4sigma)*sigma_P*grad(T) cross grad(P)",
+    "metric_acceleration": "a=-c^2*sigma_P*grad(P)",
+    "new_field_or_new_invariant_escape": "OPEN_NOT_ESTABLISHED",
+    "portal_only_reparametrization_escape_at_fixed_fields": "NO_IF_SAME_ACCELERATION_REQUIRED"
+  },
+  "potential_new_action": "sigma(P,Q)=sigma_R3B(P)+xi*Q; xi NOT FITTED",
+  "producers": {
+    "simulations/delta1/delta1_02_run.py": "1f6ffadad5e796f5c8e060957f3e80ea9510142abf7b9102654e509f0640aed0",
+    "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+    "tests/delta1/test_delta1_02.py": "9157bfff633c41900449c6fbd57f0af127f42e22496bef18b4304bfa55740109",
+    "tests/delta1/verify_delta1_02.py": "29ab92a90d81f236d00763515503fd85460b9d6eef8d0df7a060f8c0153f9467",
+    "theory/delta1/DELTA1_02_R3B_PORTAL_RECIPROCITY_LEDGER.md": "0b62e1baba381ceced4b96a871956a198ae9e028a85ef92feb68c1b02e5c9ea8"
+  },
+  "qualified_gravity_bridge_survivors": [],
+  "timestamp_utc": "20261120T172005211391Z",
+  "whole_craft_up": "NOT_DERIVED"
+}

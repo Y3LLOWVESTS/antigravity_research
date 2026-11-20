@@ -1,0 +1,120 @@
+{
+  "006D_replaced": false,
+  "DELTA_heuristic_percent": "NOT_ASSIGNED_PREMATURE",
+  "GAMMA1_01_authorized": false,
+  "GAMMA_heuristic_percent": 34,
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "PPN": {
+    "Cassini_observation": "gamma-1=(2.1 +/- 2.3)*1e-5; not used as a hard one-sided bound",
+    "alpha_max_illustrative": 0.007071244595190175,
+    "assumption": "MASSLESS_OR_SOLAR_SYSTEM_RANGE_UNSCREENED_ONLY",
+    "formula": "abs(gamma_PPN-1)=2 alpha^2/(1+alpha^2)",
+    "gamma_tolerance_illustrative_NOT_CONFIDENCE_LIMIT": 0.0001
+  },
+  "action_variations": {
+    "earth_craft_pair_recoil": "SYMBOLIC_EXACT_IN_2_BODY_WEAK_FIELD_MODEL",
+    "electric_field_effective_charge": "OPPOSITE_TO_POSITIVE_MATTER_FOR_ALPHA_ETA_POSITIVE",
+    "magnetic_field_effective_charge": "SAME_AS_POSITIVE_MATTER_FOR_ALPHA_ETA_POSITIVE",
+    "matter_metric": "g_tilde=exp(2 alpha phi) g",
+    "neutral_metric_variation": "SYMBOLIC_EXACT",
+    "on_shell_source_and_support": "NOT_SOLVED",
+    "single_new_operator": "(eta/4) phi F_X^2 via Z(phi)=1+eta*phi",
+    "two_body_conditions": "POINT_MONOPOLE_UNSCREENED_NOT_REAL_EARTH_SUPPORT_SOLUTION"
+  },
+  "actual_neutral_torus_1g_at_1m": "NOT_CERTIFIED",
+  "actual_whole_craft_up": "NOT_DERIVED",
+  "branch": "DELTA1-00_ACTION_FIRST_SCALAR_GATE",
+  "candidate_nonminimal_coupling_count": 1,
+  "classification": "SCOPED_RED_LONG_RANGE_UNSCREENED_SCALAR_F2",
+  "complete_operating_energy_lt_10MJ": "NOT_CERTIFIED",
+  "gates": {
+    "CANONICAL_GRADIENT_ENERGY": "LOWER_BOUND_TARGET_ONLY",
+    "EARTH_DOWN_WHOLE_CRAFT_UP": "NOT_DERIVED_REAL_SOURCE",
+    "EXTERNAL_EARTH_CRAFT_RECOIL": "PASS_POINT_MONOPOLE_PROXY_ONLY",
+    "FULL_DIFFEOMORPHIC_EARTH_HULL_SUPPORT_ACTION": "NOT_CLOSED",
+    "FULL_LORENTZIAN_CONSTRAINED_HEALTH": "NOT_CERTIFIED",
+    "METER_SCALE_EMPIRICAL_FIFTH_FORCE": "NOT_SCREENED",
+    "ONBOARD_OPERATING_ENERGY_OFFSTATE": "NOT_CLOSED",
+    "OPERATOR_AND_UNIVERSAL_METRIC_SPECIFIED": "PASS_SCOPED",
+    "PH16_STATIC_REDUCTION": "NOT_ATTEMPTED_NOT_REQUIRED_FOR_NEW_OPERATOR",
+    "SCALAR_CURRENT_SOURCE_AND_SIGN": "PASS_WEAK_FIELD_SCOPED",
+    "SOLAR_RANGE_UNSCREENED_ENERGY_BOUND": "RED_UNDER_ASSUMPTIONS",
+    "TRUE_STANDOFF_FINITE_SOURCE": "NOT_SOLVED"
+  },
+  "gauge_source_leverage": {
+    "alpha_times_eta_min_ignoring_matter": 1.3205545860329043e+21,
+    "eta_min_ignoring_matter": 1.867499516182963e+23,
+    "eta_times_phi_at_standoff_threshold": 2881667761.5117345,
+    "field_energy_assumed_J": 10000000.0,
+    "finite_Maxwell_source_solution": "NOT_CONSTRUCTED",
+    "linear_Z_perturbation_small": "NO",
+    "support_charge_included": false,
+    "true_point_standoff_assumed_m": 1.0
+  },
+  "negative_controls": {
+    "canonical_scalar_kinetic_sign": true,
+    "electric_magnetic_source_sign_opposed": true,
+    "healthy_scalar_gradient_energy_positive": true,
+    "linear_gauge_Z_weak_field_invalid_at_needed_source": true,
+    "scalar_zero_coupling_no_force": true,
+    "smaller_alpha_increases_energy": true,
+    "stronger_density_reduces_min_energy": true
+  },
+  "next_physics_decision": "EXPLICIT_METER_RANGE_LAB_BOUNDS_OR_NEW_HEALTHY_NONCANONICAL_OPERATOR; NO_AUTOMATIC_PDE",
+  "parent_sha_lock": {
+    "C1_science": {
+      "path": "results/data/gamma1_c1_20261119T212606521420Z.json",
+      "sha256": "ebd7ebef9cd26d70388c7d0d49ee85b7018654b29043678dbdf307ede3ed4111"
+    },
+    "N1_science": {
+      "path": "results/data/gamma1_n1_20261119T220556272564Z.json",
+      "sha256": "fb246ecf729d4c55382e9bb6589f469400849af1aab81b3612067799d1e066fc"
+    },
+    "N1_verification": {
+      "path": "results/data/gamma1_n1_verification_20261119T221950245035Z.json",
+      "sha256": "6bbe1e228fb7c98786335530d0eeeb5bf420835d423295df0416b0cc63190c73"
+    },
+    "PH16_R2_source": {
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py",
+      "sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0"
+    }
+  },
+  "producers": {
+    "simulations/delta1/delta1_00_run.py": "5254aa8f4c15250ed56b419c39b8e591934017d4b6775481af9f7a54d54384be",
+    "src/antigravity_research/delta1/delta1_00_scalar_energy_gate.py": "74e06aaa4c83ac931ada2420e4a3d1cf118ab53835b9adbc6fd30d6a7720464b",
+    "tests/delta1/test_delta1_00.py": "28745b7ed0d203bd4e37a9a4ba150cfc3c93f9f3038cda102f7352097108428b",
+    "tests/delta1/verify_delta1_00.py": "052ababc6026bfa36d9894bcbb9e5d630356c44f45be5bad5c1e12d0b46f5bbe",
+    "theory/delta1/DELTA1_00_ACTION_FIRST_SCALAR_TRANSDUCER_LEDGER.md": "875dc969578dea61d318fe0c9365ad2a5b1d229f1c43bb2046904e3a8338bd04"
+  },
+  "qualified_gravity_bridge_survivors": [],
+  "short_range_screened_branch": "OPEN_UNTESTED_REQUIRES_LAB_EMPIRICS_AND_CONSISTENT_SOURCE",
+  "target_energy": [
+    {
+      "density_kg_m3_ASSUMED": 1000.0,
+      "energy_over_budget": 114657.91714828738,
+      "field_gradient_energy_density_J_m3": 1146579171482873.8,
+      "minimum_alpha_if_target_gradient_energy_lt_budget": 2.3944065061179978,
+      "scalar_field_energy_in_target_J_LOWER_BOUND": 1146579171482.8738,
+      "target_volume_m3_ASSUMED": 0.001
+    },
+    {
+      "density_kg_m3_ASSUMED": 8000.0,
+      "energy_over_budget": 14332.239643535922,
+      "field_gradient_energy_density_J_m3": 1146579171482873.8,
+      "minimum_alpha_if_target_gradient_energy_lt_budget": 0.8465505386966125,
+      "scalar_field_energy_in_target_J_LOWER_BOUND": 143322396435.35922,
+      "target_volume_m3_ASSUMED": 0.000125
+    },
+    {
+      "density_kg_m3_ASSUMED": 20000.0,
+      "energy_over_budget": 5732.895857414369,
+      "field_gradient_energy_density_J_m3": 1146579171482873.8,
+      "minimum_alpha_if_target_gradient_energy_lt_budget": 0.535405571344761,
+      "scalar_field_energy_in_target_J_LOWER_BOUND": 57328958574.14369,
+      "target_volume_m3_ASSUMED": 5e-05
+    }
+  ],
+  "test_volume_NOT_user_specified": true,
+  "timestamp_utc": "20261120T002934122046Z"
+}

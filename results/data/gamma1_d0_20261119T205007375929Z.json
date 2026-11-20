@@ -1,0 +1,75 @@
+{
+  "006D_replaced": false,
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "Y_zero_portal_euler_derivative": -0.0017348937296351688,
+  "both_carrier_variations": "PASS_SCOPED",
+  "branch": "GAMMA1-POSTR12-D0",
+  "charged_X_source_current_variation": "PASS_SCOPED",
+  "classification": "SCOPED_LOCAL_PROXY_ACTION_WARDS_PASS_PHYSICAL_BRIDGE_NOT_ESTABLISHED",
+  "complete_energy": "ENERGY_UNDETERMINED",
+  "errors": {
+    "FX_matter_variation": 5.604147761085684e-12,
+    "FX_total_variation": 6.096071564209993e-12,
+    "FY_matter_variation": 3.0963049507150286e-12,
+    "FY_total_variation": 5.033355676697937e-12,
+    "matter_trace_lambda": 0.0,
+    "metric_stress": 5.041362292901308e-13,
+    "source_current_0": 6.066414731664693e-13,
+    "source_current_1": 1.2010420869651428e-12,
+    "source_current_2": 1.0120115059549309e-12,
+    "source_current_3": 1.1213096423601243e-12
+  },
+  "gates": {
+    "CHARGED_CURRENT_AND_GAUGE_WARD": "PASS_SCOPED",
+    "FULL_EARTH_SUPPORT_FLUID_GR_ACTION": "NOT_DERIVED",
+    "FULL_LORENTZIAN_CONSTRAINED_HEALTH": "NOT_CERTIFIED",
+    "LOCAL_PROXY_ACTION_SPECIFIED": "PASS_SCOPED",
+    "PH16_R11_MATCHED_AS_STATIC_REDUCTION": "NOT_DERIVED",
+    "SI_UV_EFT_ENERGY": "NOT_CERTIFIED",
+    "TRUE_EXTERIOR_EINSTEIN_FORCE": "NOT_DERIVED",
+    "TWO_CARRIER_VARIATIONS": "PASS_SCOPED"
+  },
+  "negative_controls": {
+    "ALPHA_ZERO_Y_LINEAR_SOURCE_NULL": true,
+    "PORTAL_COUPLING_OFF_LAMBDA_ZERO": true,
+    "SYMMETRIC_FIELD_NULL": true,
+    "X_OFF_P_ZERO": true,
+    "Y_OFF_P_ZERO": true,
+    "Y_ZERO_DOES_NOT_FORCE_Y_EULER_NULL": true
+  },
+  "neutral_source_earth_support_proxies": "CANONICAL_SCALARS_NOT_REAL_FLUID_OR_SOLID",
+  "off_shell_charged_U1_jet_and_Bianchi": "PASS_SCOPED",
+  "parents": {
+    "PH16_R2_source": {
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py",
+      "sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0"
+    },
+    "R11_science": {
+      "path": "results/data/gamma1_00r11_20261119T074039011670Z.json",
+      "sha256": "ac7050c648959ee0daa21bed994d8cdc34abb261d08433f302d4362af163acef"
+    },
+    "R12_science": {
+      "path": "results/data/gamma1_00r12_20261119T201141220587Z.json",
+      "sha256": "7ebddf22bd718dc9729b1d63cb72943d75e379c12ce68420399edaafcf99bad6"
+    },
+    "R12_verification": {
+      "path": "results/data/gamma1_00r12_verification_20261119T202521821183Z.json",
+      "sha256": "583ffee14d177af47628d2759a5b61a124f7ec968e83de7cad430b4575860b92"
+    }
+  },
+  "portal_P": 0.0005242950014270419,
+  "portal_lambda": -0.009318568406213458,
+  "producers": {
+    "simulations/gamma1/gamma1_d0_run.py": "3e2fad24843a2d1395c80c2d667b5e7bbec35245167e38b0b9fb138c1c1a45c4",
+    "src/antigravity_research/gamma1/gamma1_d0_m0_local_action_gate.py": "64f2669a8ee4c5db992ab499522fe61b915356cce70d7037d7747f3110c24d27",
+    "tests/gamma1/test_gamma1_d0.py": "0c1b4482f5444d15337b19f37d3f34e281139f5301d51e5ff4c1aab04e0f77a4",
+    "tests/gamma1/verify_gamma1_d0.py": "20a5b3570eb4218d922241f988ea5bf74ea284844f4fe7344cde4e498b86bdbf",
+    "theory/gamma1/GAMMA1_D0_M0_LOCAL_ACTION_LEDGER.md": "8836a4c494c8285de56738f2deeb5fd59df25fd8197bd4a64a31d3b5da227d2d"
+  },
+  "qualified_survivors": [],
+  "scientific_discriminant": "Y_FIELD_ZERO_DOES_NOT_IMPLY_Y_EOM_ZERO",
+  "timestamp_utc": "20261119T205007375929Z",
+  "whole_craft_up": "NOT_DERIVED"
+}

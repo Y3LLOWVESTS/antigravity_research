@@ -1,0 +1,23 @@
+{
+  "006D_replaced": false,
+  "GAMMA1_01_authorized": false,
+  "branch": "GAMMA1-C1_POSTR12_DECISION_ATLAS",
+  "classification": "SCOPED_INDEPENDENT_VERIFIED_NO_PHYSICAL_PROMOTION",
+  "complete_energy_SI": "NOT_CERTIFIED",
+  "focused_passed": 14,
+  "full_regression_passed": 3255,
+  "independent_theorems": {
+    "independent_GR_max_accel_10MJ": 2.970464107647466e-20,
+    "independent_GR_min_source_energy_J": 3.301386465082261e+27,
+    "independent_M0_manufactured_Y_error": 9.979935263609852e-10,
+    "independent_M2_yukawa_radial_force": -0.0017386910828405195
+  },
+  "logs": {
+    "results/logs/gamma1_c1_focused_20261119T212603217206Z.log": "2beb67e890c72731c9372c42319b152e71fb50badff4efd412b94c14c18fe79f",
+    "results/logs/gamma1_c1_full_regression_20261119T212603217206Z.log": "cd3f7b23464e63c0d4c59b0086c456a5efaed50424276411cf2cc23f53f82c5a",
+    "results/logs/gamma1_c1_independent_20261119T212603217206Z.log": "230152fa3ff0e489fc3189b85737b4c87976383327c58641d6aecb52e0fd725c"
+  },
+  "program": "ANTIGRAVITY_RESEARCH",
+  "scientific_result_sha256": "ebd7ebef9cd26d70388c7d0d49ee85b7018654b29043678dbdf307ede3ed4111",
+  "whole_craft_up": "NOT_DERIVED"
+}

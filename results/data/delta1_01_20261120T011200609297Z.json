@@ -1,0 +1,101 @@
+{
+  "006D_replaced": false,
+  "DELTA1_02_authorized": false,
+  "GAMMA1_01_authorized": false,
+  "PH16_05_authorized": false,
+  "PH17_authorized": false,
+  "branch": "DELTA1-01_EXACT_NONLINEAR_SHELL",
+  "classification": "SCOPED_EXACT_NONLINEAR_SHELL_FAMILY_ENERGY_GATE",
+  "complete_operating_energy_lt_10MJ": "NOT_CERTIFIED",
+  "ensemble": {
+    "fixed_Q_energy": "Q^2/(2 C0 exp(eta phi))",
+    "fixed_V_with_battery_potential": "-C0 exp(eta phi) V^2/2",
+    "matched_background_force_sign": "IDENTICAL_NEGATIVE",
+    "positive_gauge_kinetic": "Z=exp(eta phi)>0"
+  },
+  "exact_radial_nonperturbative_solution": {
+    "E_X_exterior_J": 20010667106741.113,
+    "E_scalar_exterior_J": 10869702413060.578,
+    "E_total_exterior_J": 30880369519801.69,
+    "E_unloaded_Coulomb_J": 73249875915406.73,
+    "Q_C_conventional_X_normalization": 90.27816928739026,
+    "Z_shell": 8.013363837412795,
+    "alpha": 1.0,
+    "conservative_complete_energy": "NOT_CALCULATED",
+    "electric_surface_field_V_m_if_EM_normalized": 405013294613.0672,
+    "eta": 4401859509664981.5,
+    "eta_phi_shell": 2.081110627657142,
+    "far_acceleration_m_s2": 9.80665,
+    "min_acceleration_m_s2": 9.80665,
+    "near_acceleration_m_s2": 11.45110577133871,
+    "t": 1.209744480127197
+  },
+  "fixed_radius_m": 0.5,
+  "gates": {
+    "CONSTRAINED_RADIAL_STATIC_SCALAR_CURVATURE": "POSITIVE_FIXED_Q_RESTRICTED",
+    "EMPIRICAL_UV_AND_COMPLETE_OPERATING_ENERGY": "NOT_CERTIFIED",
+    "FULL_EINSTEIN_EARTH_CRAFT_ACTION": "NOT_DERIVED",
+    "FULL_LORENTZIAN_CONSTRAINED_MODES": "NOT_CERTIFIED",
+    "FULL_REAL_CHARGE_SHELL_AND_SUPPORTS": "NOT_DERIVED",
+    "METER_RANGE_MASSIVE_SCALAR": "NOT_SOLVED",
+    "OPTIMIZED_EXTERIOR_EM_PLUS_SCALAR_ENERGY": "RED_IF_ALPHA_LE_1000_FOR_THIS_SUBCLASS",
+    "POSITIVE_GAUGE_KINETIC_Z": "PASS_EXACT",
+    "POSITIVE_SCALAR_GRADIENT_ENERGY": "PASS_EXACT",
+    "REAL_1KG_NEUTRAL_TORUS_ALL_VOXELS": "NOT_TESTED",
+    "REQUIRED_SCALAR_ACCELERATION_RADIAL_INTERVAL": "PASS_MODEL_ONLY",
+    "SAME_STATIC_GAUSS_SCALAR_VARIATIONAL_ENERGY": "PASS_EXACT_RADIAL"
+  },
+  "illustrative_massless_PPN_alpha": 0.007071244595190175,
+  "independent_quadrature": {
+    "EM_numeric_J": 20010667106741.13,
+    "max_relative_error": 7.808335382650137e-16,
+    "scalar_numeric_J": 10869702413060.572
+  },
+  "minimum_matter_standoff_m": 1.0,
+  "next_decision": "MASSIVE_OR_SCREENED_HEALTHY_ACTION_REQUIRES_NEW_DERIVATION_NOT_AUTOMATIC_PDE",
+  "nonlinear_ODE_residual_max": 3.552713678800501e-15,
+  "optimal_dimensionless_t": 1.209744480127197,
+  "optimistic_exterior_energy_times_alpha_squared_J": 30880369519801.69,
+  "parents": {
+    "DELTA00_science": {
+      "path": "results/data/delta1_00_20261120T002934122046Z.json",
+      "sha256": "5e4202f310b303fda04156905625c97e31bcdf15b4a29bfbdc4c3e18cfef1aed"
+    },
+    "DELTA00_verify": {
+      "path": "results/data/delta1_00_verification_20261120T004255846689Z.json",
+      "sha256": "594a2aefdb0bfbb247db0b8173acf64462d57fe21e8600efefc30ef29f6bfb0f"
+    },
+    "N1_science": {
+      "path": "results/data/gamma1_n1_20261119T220556272564Z.json",
+      "sha256": "fb246ecf729d4c55382e9bb6589f469400849af1aab81b3612067799d1e066fc"
+    },
+    "PH16_source": {
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py",
+      "sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0"
+    }
+  },
+  "producers": {
+    "simulations/delta1/delta1_01_run.py": "2230a0d477d9b0db2abe4bf461c268eabd2be6e65a13ac5301913025b5d4a8c3",
+    "src/antigravity_research/delta1/delta1_01_exact_shell.py": "dd47bd7c028e670cf3ad3ae6d5023d083161a14daca987dd63fee2b8ff6cccfc",
+    "tests/delta1/test_delta1_01.py": "5de45a796a22961b64b098273c2dad72a7f8bbf3ba894ef36d5bf72be04672ac",
+    "tests/delta1/verify_delta1_01.py": "7767d778595e9ff64def969ae93586e1dffa94a0dcd724fd5f1af40466feb56b",
+    "theory/delta1/DELTA1_01_NONLINEAR_SHELL_ENERGY_LEDGER.md": "4820e3a623feb94aa98b4989216bde2210ebafe88ca0ba93ab4b97962749949a"
+  },
+  "qualified_gravity_bridge_survivors": [],
+  "representative_exterior_energy_J_by_alpha": {
+    "0.007071244595190175": 6.175765100265139e+17,
+    "1": 30880369519801.69,
+    "10": 308803695198.0169,
+    "100": 3088036951.9801693,
+    "1000": 30880369.51980169,
+    "2000": 7720092.379950423
+  },
+  "source_charge_support": "IDEALIZED_ZERO_SCALAR_CHARGE_MASSLESS_SHELL_NOT_REAL_MATERIAL",
+  "strict_10MJ_exterior_only_alpha_threshold": 1757.2811249143288,
+  "target_radial_distance_m": [
+    1.5,
+    1.7
+  ],
+  "timestamp_utc": "20261120T011200609297Z",
+  "whole_craft_up": "NOT_DERIVED"
+}

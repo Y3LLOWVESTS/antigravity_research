@@ -1,0 +1,19 @@
+{
+  "GAMMA1_01_authorized": false,
+  "branch": "GAMMA1-POSTR12-D0",
+  "classification": "SCOPED_PROXY_AUDIT_VERIFIED_NO_PROMOTION",
+  "complete_energy": "NOT_CERTIFIED",
+  "focused_tests_passed": 8,
+  "full_regression_passed": 3241,
+  "logs": {
+    "results/logs/gamma1_d0_focused_20261119T205003691736Z.log": "1c38689e8fa7fefbff9802351282ffa0241f496832c1578a2743efe6c82c53eb",
+    "results/logs/gamma1_d0_full_regression_20261119T205003691736Z.log": "e8991f5385f333636f745b9c96514fb6eb2ad7d049e4927aba236d56702c0381",
+    "results/logs/gamma1_d0_independent_20261119T205003691736Z.log": "453a1ca396674d4c0ce11d699137a5ef08e3acdadbc1773c0b2e73aee17ee152"
+  },
+  "scientific_sha256": "a89998f3a3ab7721295ecbf568795d417e2ec9769fd059caf7e0b6446e380a80",
+  "second_derivation": {
+    "metric_FD_error": 2.3785541678617017e-13,
+    "portal_Y_FD_error": 1.6352605033964629e-12
+  },
+  "whole_craft_up": "NOT_DERIVED"
+}

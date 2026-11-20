@@ -1,0 +1,22 @@
+{
+  "006D_replaced": false,
+  "GAMMA1_01_authorized": false,
+  "branch": "DELTA1-00_ACTION_FIRST_SCALAR_GATE",
+  "classification": "SCOPED_INDEPENDENT_RED_NO_PHYSICAL_PROMOTION",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "focused_passed": 14,
+  "full_regression_passed": 3280,
+  "independent_analytic_checks": {
+    "PPN_tolerance_NOT_experimental_CI": 0.0001,
+    "alpha_illustrative": 0.007071244595190175,
+    "dense_target_gradient_energy_J": 143322396435.35925,
+    "spherical_exterior_energy_J": 1.4408338807558676e+16
+  },
+  "logs": {
+    "results/logs/delta1_00_focused_20261120T002931294006Z.log": "9a2d5208f2570960640729f14c8d3cc774038ef01ed0162dbf6650067eea3b0e",
+    "results/logs/delta1_00_full_regression_20261120T002931294006Z.log": "49de7f2437a480b4791b406f121401207c50cc90b69fcf3f650333763d2d7e2b",
+    "results/logs/delta1_00_independent_20261120T002931294006Z.log": "5caa28bf5e140e7637e862bddd5fc7419ba1cca176e9e98e2ad8a64f399781ef"
+  },
+  "scientific_sha256": "5e4202f310b303fda04156905625c97e31bcdf15b4a29bfbdc4c3e18cfef1aed",
+  "whole_craft_up": "NOT_DERIVED"
+}

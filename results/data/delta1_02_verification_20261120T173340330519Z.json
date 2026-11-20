@@ -1,0 +1,26 @@
+{
+  "006D_replaced": false,
+  "DELTA1_03_authorized": false,
+  "branch": "DELTA1-02",
+  "classification": "SCOPED_INDEPENDENT_R3B_RECIPROCITY_VERIFIED_NO_PROMOTION",
+  "complete_energy_lt10MJ": "NOT_CERTIFIED",
+  "focused_passed": 10,
+  "full_regression_passed": 3304,
+  "independent_checks": {
+    "identity": {
+      "trace_wedge_abs_error": 2.3453627928660126e-11
+    },
+    "rank": {
+      "coarse_Q_independent_fraction": 0.0015922114544334378,
+      "coarse_invariant_gradient_cosine": 0.9999987324305388,
+      "coarse_normalization": 0.9921985997121935
+    }
+  },
+  "logs": {
+    "results/logs/delta1_02_focused_20261120T171958125692Z.log": "9d12b2bf1e8d3c215bb83fa42026b23228dfdad802241bb88f8d0c8e0dc356c4",
+    "results/logs/delta1_02_full_regression_20261120T171958125692Z.log": "db8f92f514a96f6754b04a265111a859d3dd5a6bce6c948f26889c5e400f7340",
+    "results/logs/delta1_02_independent_20261120T171958125692Z.log": "4cd02c7995630cbb3abe177707d4b120f040f6e22b8e7ad8e52bc84824111122"
+  },
+  "science_sha256": "3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3",
+  "whole_craft_up": "NOT_DERIVED"
+}
