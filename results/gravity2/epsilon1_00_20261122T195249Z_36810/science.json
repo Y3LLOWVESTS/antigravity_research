@@ -1,0 +1,333 @@
+{
+  "assumptions": [
+    "Same canonical scalar normalization as U1",
+    "Frozen U1 scalar reference",
+    "U4A projected deficit, not local EOM",
+    "Positive static scalar Hessian",
+    "Hypothetical dynamical pseudoscalar chi",
+    "No source-material microphysics",
+    "Illustrative reference Maxwell energy",
+    "No full nonlinear or Einstein solution"
+  ],
+  "cases": [
+    {
+      "box_m": 64.0,
+      "dimensionless_required_deficit_gamma": 1.061429819409942,
+      "ell_max": 5,
+      "grid_h_m": 0.2,
+      "minimum_s_to_fit_optimistic_10MJ_quadratic_plus_em": 0.673127629678965,
+      "scans": [
+        {
+          "auxiliary_bare_energy_bound_j": 132191636.01982763,
+          "health_margin_1_minus_s2": 0.9375,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 123957333.31102298,
+          "quadratic_coupled_energy_lower_bound_j": 123957332.00181517,
+          "schur_s": 0.25,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 33047909.00495691,
+          "health_margin_1_minus_s2": 0.75,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 24813606.29615224,
+          "quadratic_coupled_energy_lower_bound_j": 24813604.986944422,
+          "schur_s": 0.5,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 19554975.742578052,
+          "health_margin_1_minus_s2": 0.5774999999999999,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 11320673.03377339,
+          "quadratic_coupled_energy_lower_bound_j": 11320671.724565571,
+          "schur_s": 0.65,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 16861178.063753527,
+          "health_margin_1_minus_s2": 0.51,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 8626875.354948865,
+          "quadratic_coupled_energy_lower_bound_j": 8626874.045741046,
+          "schur_s": 0.7,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 12909339.455061292,
+          "health_margin_1_minus_s2": 0.3599999999999999,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 4675036.746256629,
+          "quadratic_coupled_energy_lower_bound_j": 4675035.43704881,
+          "schur_s": 0.8,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 10199971.915110158,
+          "health_margin_1_minus_s2": 0.18999999999999995,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 1965669.2063054943,
+          "quadratic_coupled_energy_lower_bound_j": 1965667.8970976751,
+          "schur_s": 0.9,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 8429728.85546294,
+          "health_margin_1_minus_s2": 0.01990000000000003,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 195426.146658277,
+          "quadratic_coupled_energy_lower_bound_j": 195424.83745045774,
+          "schur_s": 0.99,
+          "under_10MJ_optimistic_only": true
+        }
+      ],
+      "source_overlap_deficit_m": 0.6275244874901568,
+      "source_projection_observed": -0.06142833286298907,
+      "source_projection_required": 1.000001486546953,
+      "u4a_parent_maxwell_converged": false,
+      "unrestricted_auxiliary_bare_energy_infimum_j": 8261977.251239227
+    },
+    {
+      "box_m": 80.0,
+      "dimensionless_required_deficit_gamma": 1.0667159438722729,
+      "ell_max": 5,
+      "grid_h_m": 0.2,
+      "minimum_s_to_fit_optimistic_10MJ_quadratic_plus_em": 0.6750463532810645,
+      "scans": [
+        {
+          "auxiliary_bare_energy_bound_j": 133511594.1762608,
+          "health_margin_1_minus_s2": 0.9375,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 125199761.64200862,
+          "quadratic_coupled_energy_lower_bound_j": 125199760.3328008,
+          "schur_s": 0.25,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 33377898.5440652,
+          "health_margin_1_minus_s2": 0.75,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 25066066.00981302,
+          "quadratic_coupled_energy_lower_bound_j": 25066064.7006052,
+          "schur_s": 0.5,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 19750235.824890655,
+          "health_margin_1_minus_s2": 0.5774999999999999,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 11438403.290638475,
+          "quadratic_coupled_energy_lower_bound_j": 11438401.981430655,
+          "schur_s": 0.65,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 17029540.073502656,
+          "health_margin_1_minus_s2": 0.51,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 8717707.539250476,
+          "quadratic_coupled_energy_lower_bound_j": 8717706.230042657,
+          "schur_s": 0.7,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 13038241.618775466,
+          "health_margin_1_minus_s2": 0.3599999999999999,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 4726409.084523285,
+          "quadratic_coupled_energy_lower_bound_j": 4726407.775315465,
+          "schur_s": 0.8,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 10301820.538291728,
+          "health_margin_1_minus_s2": 0.18999999999999995,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 1989988.0040395462,
+          "quadratic_coupled_energy_lower_bound_j": 1989986.694831727,
+          "schur_s": 0.9,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 8513901.271315478,
+          "health_margin_1_minus_s2": 0.01990000000000003,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 202068.73706329786,
+          "quadratic_coupled_energy_lower_bound_j": 202067.4278554786,
+          "schur_s": 0.99,
+          "under_10MJ_optimistic_only": true
+        }
+      ],
+      "source_overlap_deficit_m": 0.6306496800213983,
+      "source_projection_observed": -0.0667144573253197,
+      "source_projection_required": 1.000001486546953,
+      "u4a_parent_maxwell_converged": false,
+      "unrestricted_auxiliary_bare_energy_infimum_j": 8344474.636016301
+    },
+    {
+      "box_m": 80.0,
+      "dimensionless_required_deficit_gamma": 0.9992760015664254,
+      "ell_max": 5,
+      "grid_h_m": 0.1,
+      "minimum_s_to_fit_optimistic_10MJ_quadratic_plus_em": 0.6501719227169409,
+      "scans": [
+        {
+          "auxiliary_bare_energy_bound_j": 117163496.53730565,
+          "health_margin_1_minus_s2": 0.9375,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 109840783.15687256,
+          "quadratic_coupled_energy_lower_bound_j": 109840781.84766474,
+          "schur_s": 0.25,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 29290874.134326413,
+          "health_margin_1_minus_s2": 0.75,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 21968160.753893327,
+          "quadratic_coupled_energy_lower_bound_j": 21968159.444685508,
+          "schur_s": 0.5,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 17331878.18599196,
+          "health_margin_1_minus_s2": 0.5774999999999999,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 10009164.805558879,
+          "quadratic_coupled_energy_lower_bound_j": 10009163.49635106,
+          "schur_s": 0.65,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 14944323.537921643,
+          "health_margin_1_minus_s2": 0.51,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 7621610.157488558,
+          "quadratic_coupled_energy_lower_bound_j": 7621608.848280739,
+          "schur_s": 0.7,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 11441747.708721252,
+          "health_margin_1_minus_s2": 0.3599999999999999,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 4119034.3282881677,
+          "quadratic_coupled_energy_lower_bound_j": 4119033.0190803483,
+          "schur_s": 0.8,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 9040393.251335312,
+          "health_margin_1_minus_s2": 0.18999999999999995,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 1717679.8709022289,
+          "quadratic_coupled_energy_lower_bound_j": 1717678.5616944097,
+          "schur_s": 0.9,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 7471399.381268854,
+          "health_margin_1_minus_s2": 0.01990000000000003,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 148686.0008357706,
+          "quadratic_coupled_energy_lower_bound_j": 148684.69162795134,
+          "schur_s": 0.99,
+          "under_10MJ_optimistic_only": true
+        }
+      ],
+      "source_overlap_deficit_m": 0.5907787300462314,
+      "source_projection_observed": 0.0007254849805277547,
+      "source_projection_required": 1.000001486546953,
+      "u4a_parent_maxwell_converged": false,
+      "unrestricted_auxiliary_bare_energy_infimum_j": 7322718.533581603
+    },
+    {
+      "box_m": 80.0,
+      "dimensionless_required_deficit_gamma": 1.0033063780993687,
+      "ell_max": 7,
+      "grid_h_m": 0.1,
+      "minimum_s_to_fit_optimistic_10MJ_quadratic_plus_em": 0.6516833008025271,
+      "scans": [
+        {
+          "auxiliary_bare_energy_bound_j": 118110512.7646251,
+          "health_margin_1_minus_s2": 0.9375,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 110728687.19504218,
+          "quadratic_coupled_energy_lower_bound_j": 110728685.88583437,
+          "schur_s": 0.25,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 29527628.191156276,
+          "health_margin_1_minus_s2": 0.75,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 22145802.62157335,
+          "quadratic_coupled_energy_lower_bound_j": 22145801.312365532,
+          "schur_s": 0.5,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 17471969.34387945,
+          "health_margin_1_minus_s2": 0.5774999999999999,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 10090143.774296531,
+          "quadratic_coupled_energy_lower_bound_j": 10090142.465088712,
+          "schur_s": 0.65,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 15065116.424059331,
+          "health_margin_1_minus_s2": 0.51,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 7683290.854476413,
+          "quadratic_coupled_energy_lower_bound_j": 7683289.545268593,
+          "schur_s": 0.7,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 11534229.76217042,
+          "health_margin_1_minus_s2": 0.3599999999999999,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 4152404.1925875004,
+          "quadratic_coupled_energy_lower_bound_j": 4152402.883379681,
+          "schur_s": 0.8,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 9113465.491097618,
+          "health_margin_1_minus_s2": 0.18999999999999995,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 1731639.921514699,
+          "quadratic_coupled_energy_lower_bound_j": 1731638.6123068798,
+          "schur_s": 0.9,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 7531789.662064145,
+          "health_margin_1_minus_s2": 0.01990000000000003,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 149964.09248122558,
+          "quadratic_coupled_energy_lower_bound_j": 149962.78327340633,
+          "schur_s": 0.99,
+          "under_10MJ_optimistic_only": true
+        }
+      ],
+      "source_overlap_deficit_m": 0.5931615159092042,
+      "source_projection_observed": -0.0033048915524157276,
+      "source_projection_required": 1.000001486546953,
+      "u4a_parent_maxwell_converged": false,
+      "unrestricted_auxiliary_bare_energy_infimum_j": 7381907.04778907
+    }
+  ],
+  "created_utc": "2026-11-22T19:52:49.503443+00:00",
+  "energy_cap_complete_j": 10000000.0,
+  "ephi_u1_fixed_profile_j": 7333333.333333331,
+  "experiment": "EPSILON1-00-HEALTHY-SCHUR-SOURCE-CONTROL-ATLAS",
+  "full_regression": "NOT_RUN",
+  "interpretation": "Necessary healthy quadratic control bounds only; negative interaction included; no complete energy certification",
+  "parent_sha256": "5e29b2d389fee45ff4a3098b29f1ac3c8bd436cb678d9c8df2c24535e14450f5",
+  "physical_survivors": 0,
+  "producer_sha256": "0314fc109153181da619090afa425b955dd96c726ed431345ebc1ae602635b8c",
+  "reference_em_illustrative_j": 1.3092078192690724,
+  "theorem": "For positive Hessian, s=||A^-1/2 K B^-1/2||<1 and |<f,K chi>|<=s sqrt(<f,Af><chi,Bchi>)"
+}

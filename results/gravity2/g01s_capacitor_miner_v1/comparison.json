@@ -1,0 +1,572 @@
+{
+  "exp_loaded_sha256": "9bd304b6cdaa7ec99259d0733b271128d502a82e3781db91ec2e00a21694afa5",
+  "full_regression": "NOT_RUN",
+  "law": "Z=1+eta phi^2/2",
+  "loaded_field": [
+    {
+      "b_over_eta": 3e-15,
+      "craft_portal_up_N": 20888.2738515308,
+      "electric_scalar_rest_increment_J": [
+        5277341.873208161,
+        2158161.5168365072,
+        5758.2692770387575
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 1.7370013165473092e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -20888.2738515308,
+      "loaded_torus_max_up_m_s2": 18.109556324011876,
+      "loaded_torus_min_up_m_s2": 6.129665675121633,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.6244398263802271,
+      "maximum_log_gauge_in_torus": 0.026110799812251034,
+      "maximum_log_mass_shift": 2.6015991251986033e-15,
+      "n_radial": 142,
+      "n_theta": 64,
+      "preconditioned_residual": 1.3429013981013526e-07,
+      "scalar_curvature_check": 0.8421396080482424,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.8829833023009649,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7441261.659321708,
+      "vacuum_plane_stress_N": [
+        20815.794260202136,
+        20810.455648056035
+      ]
+    },
+    {
+      "b_over_eta": 3e-15,
+      "craft_portal_up_N": 20796.217028378927,
+      "electric_scalar_rest_increment_J": [
+        5276087.194260438,
+        2158221.82711479,
+        5759.066006484602
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 1.7364890418868845e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -20796.217028378927,
+      "loaded_torus_max_up_m_s2": 18.09986133541069,
+      "loaded_torus_min_up_m_s2": 6.126428385079638,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.624571538775046,
+      "maximum_log_gauge_in_torus": 0.026106966770464115,
+      "maximum_log_mass_shift": 2.6023369738250364e-15,
+      "n_radial": 250,
+      "n_theta": 112,
+      "preconditioned_residual": 1.3500025401670108e-07,
+      "scalar_curvature_check": 0.842098607511943,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.9973447656679477,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7440068.087381711,
+      "vacuum_plane_stress_N": [
+        20775.620043108494,
+        20773.83883617511
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 30293.856472434873,
+      "electric_scalar_rest_increment_J": [
+        5317822.34884095,
+        2123668.8653699635,
+        32940.079202195324
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 1.826352424938353e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -30293.856472434873,
+      "loaded_torus_max_up_m_s2": 180.52953930309974,
+      "loaded_torus_min_up_m_s2": 60.10062131858333,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.6238878905091266,
+      "maximum_log_gauge_in_torus": 0.025806872946071382,
+      "maximum_log_mass_shift": 2.5985082547654788e-14,
+      "n_radial": 142,
+      "n_theta": 64,
+      "preconditioned_residual": 1.1910928961335656e-07,
+      "scalar_curvature_check": 1.1865111226860847,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.8829833023009649,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7474431.293413109,
+      "vacuum_plane_stress_N": [
+        30215.32855553287,
+        30213.723415712862
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 30249.343127567383,
+      "electric_scalar_rest_increment_J": [
+        5316559.110681599,
+        2123741.696172937,
+        32938.63970406294
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 1.8239418078212656e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -30249.343127567383,
+      "loaded_torus_max_up_m_s2": 180.36852042165583,
+      "loaded_torus_min_up_m_s2": 60.12309591177168,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.6238708232053148,
+      "maximum_log_gauge_in_torus": 0.025808673126315174,
+      "maximum_log_mass_shift": 2.5984127041395995e-14,
+      "n_radial": 250,
+      "n_theta": 112,
+      "preconditioned_residual": 1.2075395159689234e-07,
+      "scalar_curvature_check": 1.1860542381558759,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.9973447656679477,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7473239.446558598,
+      "vacuum_plane_stress_N": [
+        30178.897718011325,
+        30178.251732953846
+      ]
+    },
+    {
+      "b_over_eta": 3e-13,
+      "craft_portal_up_N": 28883.910217904944,
+      "electric_scalar_rest_increment_J": [
+        5652449.865601403,
+        1820572.0695856998,
+        262652.9107886474
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 2.708700901636918e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -28883.910217904944,
+      "loaded_torus_max_up_m_s2": 1528.0606683599663,
+      "loaded_torus_min_up_m_s2": 433.68789439491474,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.55686340177309,
+      "maximum_log_gauge_in_torus": 0.020188058480649036,
+      "maximum_log_mass_shift": 2.2355698404432893e-13,
+      "n_radial": 142,
+      "n_theta": 64,
+      "preconditioned_residual": 7.035572266906875e-08,
+      "scalar_curvature_check": 4.622553390065676,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.8829833023009649,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7735674.84597575,
+      "vacuum_plane_stress_N": [
+        28998.10986584327,
+        28998.582818549396
+      ]
+    },
+    {
+      "b_over_eta": 3e-13,
+      "craft_portal_up_N": 29252.743555540477,
+      "electric_scalar_rest_increment_J": [
+        5651016.474918683,
+        1820828.479147936,
+        262589.9741655006
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 2.7064328166349696e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -29252.743555540477,
+      "loaded_torus_max_up_m_s2": 1520.6222734571636,
+      "loaded_torus_min_up_m_s2": 437.8714711853889,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.5569304942169042,
+      "maximum_log_gauge_in_torus": 0.020224835795884275,
+      "maximum_log_mass_shift": 2.2359211194025948e-13,
+      "n_radial": 250,
+      "n_theta": 112,
+      "preconditioned_residual": 7.13084659509621e-08,
+      "scalar_curvature_check": 4.617938564877022,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.9973447656679477,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7734434.9282321185,
+      "vacuum_plane_stress_N": [
+        28989.622845312162,
+        28989.573847851836
+      ]
+    },
+    {
+      "b_over_eta": 3e-12,
+      "craft_portal_up_N": 4976.582594739508,
+      "electric_scalar_rest_increment_J": [
+        7904051.21068824,
+        499181.15423439466,
+        456248.3752835834
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 9.377073297158817e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -4976.582594739508,
+      "loaded_torus_max_up_m_s2": 2572.4360216400123,
+      "loaded_torus_min_up_m_s2": 158.92956734891843,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.1665843496717938,
+      "maximum_log_gauge_in_torus": 0.002056812832703892,
+      "maximum_log_mass_shift": 5.437895124869644e-13,
+      "n_radial": 142,
+      "n_theta": 64,
+      "preconditioned_residual": 1.4597677610639472e-11,
+      "scalar_curvature_check": 38.7355832465186,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.8829833023009649,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 8859480.740206217,
+      "vacuum_plane_stress_N": [
+        5038.202392467893,
+        5038.314883189355
+      ]
+    },
+    {
+      "b_over_eta": 3e-12,
+      "craft_portal_up_N": 5188.017224733189,
+      "electric_scalar_rest_increment_J": [
+        7899569.868037579,
+        501526.2441926444,
+        457145.29978796694
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 9.368258855073164e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -5188.017224733189,
+      "loaded_torus_max_up_m_s2": 2547.3214014091805,
+      "loaded_torus_min_up_m_s2": 172.62681966191153,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.1673988237937588,
+      "maximum_log_gauge_in_torus": 0.00207139347925388,
+      "maximum_log_mass_shift": 5.466770130762067e-13,
+      "n_radial": 250,
+      "n_theta": 112,
+      "preconditioned_residual": 1.509072179499671e-11,
+      "scalar_curvature_check": 38.69058000094405,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.9973447656679477,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 8858241.41201819,
+      "vacuum_plane_stress_N": [
+        5059.199607247679,
+        5059.21571955912
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 30137.163081349885,
+      "electric_scalar_rest_increment_J": [
+        5316230.921627919,
+        2123760.2382999375,
+        32939.15122746344
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 1.824289377436551e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -30137.163081349885,
+      "loaded_torus_max_up_m_s2": 180.3600249941535,
+      "loaded_torus_min_up_m_s2": 60.12302538471565,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.6239339273367623,
+      "maximum_log_gauge_in_torus": 0.025808437759169935,
+      "maximum_log_mass_shift": 2.5987659982578212e-14,
+      "n_radial": 393,
+      "n_theta": 176,
+      "preconditioned_residual": 1.2116541854506673e-07,
+      "scalar_curvature_check": 1.185912951173762,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 1.0005075068448028,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7472930.311155321,
+      "vacuum_plane_stress_N": [
+        30170.407595655313,
+        30170.165563632283
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 30165.126048490674,
+      "electric_scalar_rest_increment_J": [
+        5316130.1314316755,
+        2123765.947353489,
+        32939.338504611806
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 1.8215712952524254e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -30165.126048490674,
+      "loaded_torus_max_up_m_s2": 180.35270094801038,
+      "loaded_torus_min_up_m_s2": 60.11179311304332,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.6239482769806868,
+      "maximum_log_gauge_in_torus": 0.02580808709755057,
+      "maximum_log_mass_shift": 2.598846339132742e-14,
+      "n_radial": 537,
+      "n_theta": 240,
+      "preconditioned_residual": 1.2129913943884547e-07,
+      "scalar_curvature_check": 1.185870979192316,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.9999379811341135,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7472835.417289776,
+      "vacuum_plane_stress_N": [
+        30167.848248041857,
+        30167.735492243028
+      ]
+    },
+    {
+      "b_over_eta": 3e-13,
+      "craft_portal_up_N": 28931.307851322206,
+      "electric_scalar_rest_increment_J": [
+        5650648.082476226,
+        1820893.1359717522,
+        262575.00551516074
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 2.70389693102514e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -28931.307851322206,
+      "loaded_torus_max_up_m_s2": 1520.3983714357264,
+      "loaded_torus_min_up_m_s2": 437.78472689098885,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.5568547924151591,
+      "maximum_log_gauge_in_torus": 0.020228074025010215,
+      "maximum_log_mass_shift": 2.2355247657425936e-13,
+      "n_radial": 393,
+      "n_theta": 176,
+      "preconditioned_residual": 7.159173415367316e-08,
+      "scalar_curvature_check": 4.616510512756022,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 1.0005075068448028,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7734116.223963138,
+      "vacuum_plane_stress_N": [
+        28991.03448560059,
+        28991.035302900487
+      ]
+    },
+    {
+      "b_over_eta": 3e-13,
+      "craft_portal_up_N": 28988.229087240103,
+      "electric_scalar_rest_increment_J": [
+        5650535.198874046,
+        1820912.7921781167,
+        262570.5862993366
+      ],
+      "empty_torus": false,
+      "gradient_FD_error": 2.707346353597226e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -28988.229087240103,
+      "loaded_torus_max_up_m_s2": 1520.8685319893218,
+      "loaded_torus_min_up_m_s2": 437.9044893715397,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.5568896362488498,
+      "maximum_log_gauge_in_torus": 0.020225646849814347,
+      "maximum_log_mass_shift": 2.2357071946750578e-13,
+      "n_radial": 537,
+      "n_theta": 240,
+      "preconditioned_residual": 7.166281134067567e-08,
+      "scalar_curvature_check": 4.616085941266945,
+      "status": "SOLVED",
+      "steps": 12,
+      "torus_mass_before_discrete_normalization_kg": 0.9999379811341135,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 7734018.577351498,
+      "vacuum_plane_stress_N": [
+        28991.76531755854,
+        28991.78028239561
+      ]
+    }
+  ],
+  "mixing_checks": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0001,
+      -0.00010000000272292196
+    ],
+    [
+      0.01,
+      -0.009999999994736442
+    ],
+    [
+      0.25,
+      -0.25000000002384226
+    ],
+    [
+      0.5,
+      -0.5000000000532356
+    ],
+    [
+      1.0,
+      -1.0000000001009202
+    ]
+  ],
+  "ordinary_charge_projection_ratio_necessary_max": 0.00010184573745444439,
+  "physical_survivors": 0,
+  "projection_domain": "massless canonical photon mixing, fixed ordinary charge, leading material sensitivities",
+  "radial_control_relative_errors": [
+    0.0010053187636087646,
+    0.0003558739129718713,
+    0.00012187321374468318
+  ],
+  "selected_k": 3e-13,
+  "source_sha256": "d01a7c5b44adb70ef9661ce030c3b5b3028b5ef95406f11bcb272c2d8f448f62",
+  "summaries": [
+    {
+      "accel_refinement_change": 0.0005284139205607996,
+      "carried_weight_N": 217.92543369100528,
+      "conditional_numerical_thresholds_met": false,
+      "finest_n": 112,
+      "force_refinement_change": 0.004426613889740194,
+      "ground_up_on_craft_N": 20796.217028378927,
+      "k": 3e-15,
+      "min_up": 6.126428385079638,
+      "stress_relative_difference": 0.0010760703340073619
+    },
+    {
+      "accel_refinement_change": 0.00018685637361071095,
+      "carried_weight_N": 217.92543369100528,
+      "conditional_numerical_thresholds_met": true,
+      "finest_n": 240,
+      "force_refinement_change": 0.0009269965289002702,
+      "ground_up_on_craft_N": 30165.126048490674,
+      "k": 3e-14,
+      "min_up": 60.11179311304332,
+      "stress_relative_difference": 9.024326789841552e-05
+    },
+    {
+      "accel_refinement_change": 0.0002734899583302086,
+      "carried_weight_N": 217.92543369100528,
+      "conditional_numerical_thresholds_met": true,
+      "finest_n": 240,
+      "force_refinement_change": 0.001963598250399934,
+      "ground_up_on_craft_N": 28988.229087240103,
+      "k": 3e-13,
+      "min_up": 437.9044893715397,
+      "stress_relative_difference": 0.00012250472924102418
+    },
+    {
+      "accel_refinement_change": 0.07934602711107741,
+      "carried_weight_N": 217.92543369100528,
+      "conditional_numerical_thresholds_met": false,
+      "finest_n": 112,
+      "force_refinement_change": 0.04075441943131852,
+      "ground_up_on_craft_N": 5188.017224733189,
+      "k": 3e-12,
+      "min_up": 172.62681966191153,
+      "stress_relative_difference": 0.02482983612147427
+    }
+  ],
+  "vacuum_radial_min_up": 58.372869238257195,
+  "zero_ground_empty_torus": [
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 0.0,
+      "electric_scalar_rest_increment_J": [
+        5301116.711513773,
+        2128074.5430948553,
+        31870.96594169728
+      ],
+      "empty_torus": true,
+      "gradient_FD_error": 1.8109591342103487e-09,
+      "ground_kg_m3": 0.0,
+      "ground_up_N": -0.0,
+      "loaded_torus_max_up_m_s2": 172.18530412747555,
+      "loaded_torus_min_up_m_s2": 58.4315525789881,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.603007365984134,
+      "maximum_log_gauge_in_torus": 0.02487592313873923,
+      "maximum_log_mass_shift": 2.4828204798158317e-14,
+      "n_radial": 142,
+      "n_theta": 64,
+      "preconditioned_residual": 3.17558253998858e-08,
+      "scalar_curvature_check": 0.8063167578065134,
+      "status": "SOLVED",
+      "steps": 6,
+      "torus_mass_before_discrete_normalization_kg": 0.8829833023009649,
+      "torus_mass_kg": 0.0,
+      "total_active_static_J": 7461062.220550326,
+      "vacuum_plane_stress_N": [
+        25.200094163093674,
+        14.457346136957499
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 0.0,
+      "electric_scalar_rest_increment_J": [
+        5299848.467437463,
+        2128151.2628542087,
+        31864.362218198865
+      ],
+      "empty_torus": true,
+      "gradient_FD_error": 1.8078538365638097e-09,
+      "ground_kg_m3": 0.0,
+      "ground_up_N": -0.0,
+      "loaded_torus_max_up_m_s2": 172.09509339427888,
+      "loaded_torus_min_up_m_s2": 58.3936426196444,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.6030532441420847,
+      "maximum_log_gauge_in_torus": 0.024870989871594206,
+      "maximum_log_mass_shift": 2.4830720272900438e-14,
+      "n_radial": 250,
+      "n_theta": 112,
+      "preconditioned_residual": 3.280622656694595e-08,
+      "scalar_curvature_check": 0.8063245460210311,
+      "status": "SOLVED",
+      "steps": 6,
+      "torus_mass_before_discrete_normalization_kg": 0.9973447656679477,
+      "torus_mass_kg": 0.0,
+      "total_active_static_J": 7459864.09250987,
+      "vacuum_plane_stress_N": [
+        8.232689730314965,
+        4.726717876613424
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 0.0,
+      "electric_scalar_rest_increment_J": [
+        5299517.214800584,
+        2128171.902331799,
+        31862.784802813254
+      ],
+      "empty_torus": true,
+      "gradient_FD_error": 1.8085588138324846e-09,
+      "ground_kg_m3": 0.0,
+      "ground_up_N": -0.0,
+      "loaded_torus_max_up_m_s2": 172.0711439994442,
+      "loaded_torus_min_up_m_s2": 58.379983327426764,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 0.6030869914441563,
+      "maximum_log_gauge_in_torus": 0.024869882782387,
+      "maximum_log_mass_shift": 2.4832570693003458e-14,
+      "n_radial": 393,
+      "n_theta": 176,
+      "preconditioned_residual": 3.308232096370907e-08,
+      "scalar_curvature_check": 0.8063267165070442,
+      "status": "SOLVED",
+      "steps": 6,
+      "torus_mass_before_discrete_normalization_kg": 1.0005075068448028,
+      "torus_mass_kg": 0.0,
+      "total_active_static_J": 7459551.901935196,
+      "vacuum_plane_stress_N": [
+        3.302835346536195,
+        1.8989983671223096
+      ]
+    }
+  ]
+}

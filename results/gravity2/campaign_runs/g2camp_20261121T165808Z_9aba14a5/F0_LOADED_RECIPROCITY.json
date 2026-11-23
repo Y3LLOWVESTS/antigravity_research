@@ -1,0 +1,34 @@
+{
+  "DELTA1_02_PQ_payload_independent_fraction": [
+    0.0015922114543637095,
+    0.0017631658867701
+  ],
+  "Earth_and_craft": "NOT_DERIVED",
+  "R11_fixed_Nonlocal_Schur": "NOT_IMPORTED_TO_UNPROVED_R3B_ACTION",
+  "R3B_loaded_failure_m_s2": -129.67185782242464,
+  "complete_SI_energy": "NOT_CERTIFIED",
+  "controls": {
+    "coupling_zero": "ZERO",
+    "omit_sigma_PP_or_4sigmaP2": "FAIL_INDEPENDENT_CHECK",
+    "trace_zero": "ZERO",
+    "uniform_trace_transverse_wedge": "ZERO"
+  },
+  "decision": "F0_LOCAL_FIRST_SECOND_VARIATION_EXACT_LOADED_OPERATOR_UNAVAILABLE",
+  "first_order_acceleration": "-c**2*sigma_P*grad(P)  [frozen g_E only]",
+  "interface_beta_vs_P_angle_not_PQ_rank": [
+    0.6287609035434655,
+    0.6342592160813438
+  ],
+  "lambda": "exp(4*sigma)*T*sigma_P",
+  "local_hessian_diagonal_trace_response": "EXACT_CHAIN_RULE_NOT_CONSTRAINED_SCHUR",
+  "partial_lambda_P_fixed_T": "exp(4*sigma)*T*(sigma_PP+4*sigma_P**2)",
+  "partial_lambda_T_fixed_P": "exp(4*sigma)*sigma_P",
+  "qualified_physical_survivors": 0,
+  "response_projection": "NO_NEW_SOURCEABLE_OPERATOR_OR_JVP_TO_TEST",
+  "sample_lambda": -0.15925892096442354,
+  "sample_partial_lambda_P": -0.025329752191484506,
+  "sigma": "alpha*P-beta*P**2",
+  "sigma_PP": "-2*beta",
+  "status": "SCOPED_CONTROL_ONLY",
+  "wedge": "grad(lambda)xgrad(P)=exp(4*sigma)*sigma_P*grad(T)xgrad(P)"
+}

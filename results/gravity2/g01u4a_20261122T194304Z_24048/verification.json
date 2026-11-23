@@ -1,0 +1,12 @@
+{
+  "Einstein_whole_craft": "NOT_SOLVED",
+  "Maxwell_continuum_convergence": "NOT_CERTIFIED",
+  "fixed_scalar_stationarity": "FAIL_IN_RECORDED_U3B_TRIALS",
+  "full_regression": "NOT_RUN",
+  "full_scalar_EOM": "NOT_SOLVED",
+  "independent_baseline": "PASS",
+  "independent_torus": "PASS",
+  "physical_survivors": 0,
+  "science_sha256": "5e29b2d389fee45ff4a3098b29f1ac3c8bd436cb678d9c8df2c24535e14450f5",
+  "source_material_EOM": "NOT_SOLVED"
+}

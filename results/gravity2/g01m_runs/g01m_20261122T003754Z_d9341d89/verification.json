@@ -1,0 +1,18 @@
+{
+  "R3B_12_mode_relative_L2_mismatch": 0.0017517348699577814,
+  "R3B_forced_material_equation_residual": 0.043556344656783694,
+  "canonical_onminusoff_energy_per_B0_squared": 0.09968117370616708,
+  "current_jump_relative_residual": 1.0369767744401753e-15,
+  "energy_finite_difference_max_slope": 7.179442225909345e-10,
+  "independently_verified_modes": 32,
+  "max_X_equation_residual": 8.470329472543003e-22,
+  "max_Y_equation_residual": 8.673617379884035e-19,
+  "max_material_on_shell_residual": 4.30129074843234e-14,
+  "max_two_sided_kernel_error": 0.0,
+  "min_full_static_hessian_eigenvalue": 0.09380301291612922,
+  "min_offstate_static_hessian_eigenvalue": 0.05952380952380931,
+  "no_gravity_or_SI_certification": true,
+  "physical_survivors": 0,
+  "science_sha256": "000302fe81e31faac2bd627fb93f56edfbbee302bec89485855fdf8d1cfc37e4",
+  "status": "PASS_INDEPENDENT_CONDITIONAL_SOURCE_ACTION_NOT_GRAVITY"
+}

@@ -1,0 +1,12 @@
+{
+  "scripts/gravity2_big_scoped_v1.py": "90c1ee3b43e0cd7296511e2f4b7154c00c231329f018b97c8089461456eba86c",
+  "src/antigravity_research/gravity2/campaign_v4.py": "a3785e5bf8bce670af73f4e7b5bbfb2e330f74cb08682e37cf6294292ebe2ef5",
+  "src/antigravity_research/gravity2/campaign_v5.py": "92ca8c97a610420daf45ad5cdc69fc8b1c75a8eb70645c6814ba50484378675a",
+  "src/antigravity_research/gravity2/planner_v8.py": "5fcedfacac7742e002929b4b270f1a70fe299741cc0891a3d5ab292397b8b244",
+  "src/antigravity_research/gravity2/registry_v6.py": "c1232e82ab657b66a5667b17a0a68938e8cf5b16651c3b66c8e8de9cca2ae76f",
+  "src/antigravity_research/gravity2/research_v8.py": "2dd0af8538a8e6675d96b57d9d172a110890b94139d4a1f9e895a47304bf764b",
+  "src/antigravity_research/gravity2/response_check_v7.py": "705af3f64c70a98a20551b36e14014e6fb9d89fc2c4cdf97c5d485543a716c1d",
+  "src/antigravity_research/gravity2/response_v7.py": "d2feeee61d1355c5feeb3a40b6af0aeb503a650fed1b29496fa87aa5b6f247bf",
+  "tests/gravity2/test_registry_v6.py": "4135f064c4175e87988dada38e3205727cb03b10ddad607ff7c8ca602d17d56f",
+  "tests/gravity2/test_research_v8.py": "9d547ef448d0ade3f9725bac083317e99556e6f44bce080b85cefea2798c8c21"
+}

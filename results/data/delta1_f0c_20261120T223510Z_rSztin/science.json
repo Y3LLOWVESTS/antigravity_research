@@ -1,0 +1,161 @@
+{
+  "action": "L2=(E^2-B^2)/2+theta E.B+P.E-a P^2/2-k |grad P|^2/2",
+  "assumptions": "F0B dust trace sign; archived 1-keV load magnitude; R=2 m; canonical unit axial polarization trial; natural polarization boundary; unstrained off state",
+  "cpu_s": 3.596552,
+  "earth_craft": "NOT_DERIVED",
+  "energy": "ENERGY_UNDETERMINED",
+  "full_regression": "PENDING",
+  "isolated_curvature": -0.021232876712328708,
+  "loaded_uniform_curvature_upper": -0.016666666666666663,
+  "next": "NO_AUTOMATIC_PROMOTION",
+  "parents": {
+    "results/data/032h17a12d1r3x1_lorentzian_sign_audit_summary.json": "8c3a7de0fea08ebdc649992cb12e8942bf1ba7b72607f5c06cd56ae388caede5",
+    "results/data/032h17a12d1r3x3b0_inverse_loading_summary.json": "0b37ba0acbf31da4aaa546fad5edbca448474fcf8a94f058d09bf0836161884a",
+    "results/data/032h17a12d1r3x3b8_spherical_interface_screening_summary.json": "57f73dad0ffdefd4e44eaa00ca6906403dead256bc17683b2cb8a0533e855b95",
+    "results/data/delta1_f0_20261120T190601Z_EHxGDA/science.json": "2feab292375dd33f7d97b66e71ad379ce9dd689dd4767052e06d68ede9850bb4",
+    "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/interface_replay_XFyASR/interface.json": "7a7ce0b430fa8c2828320a2751153ec575102d8a7da46848b5ff00e911c944cc",
+    "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/replay_lhVLr2/science.json": "baa5ec84bae337af4927d79b2ebd9380b0aaccf01fa28947aa4f8530c9b6ee44",
+    "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/replay_lhVLr2/verify/verification.json": "71c4b122351c939d32faa8c1fe02fa7483cc92759a5ff03b7e87fe8885d0234c",
+    "results/data/delta1_f0b_20261120T193444Z_Gmr1NE/science.json": "fd21173471942c8e21b2659d25ac8a8b3790ede8f0dce45717d4e38f7206963c",
+    "results/data/delta1_f0b_20261120T193444Z_Gmr1NE/verify_ZuiGh3/verification.json": "9752ac820bd93247477a2c3f282e0eed095dc4182f3ac5c7975feb8acb22e24b",
+    "src/antigravity_research/agminer/hook17_concurrent_u1_fieldstrength_metric.py": "2fb2094de5995aab5172fc825bd30d895ffbb163d1a3418105c808c19fa50b99",
+    "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7"
+  },
+  "physical_minimum": null,
+  "producer": "74850d49ec24251990f0fb0d8a5b55a1cd2a1ebe24e826699434fdefb6684ffc",
+  "reason": "k/R^2 unspecified; axial trial is not a selected loaded source eigenmode",
+  "rows": [
+    {
+      "L": 6,
+      "case": "off",
+      "chord_mean": 0.0,
+      "curvature": -0.02965383353647766,
+      "flip": false,
+      "h": 0.075,
+      "mass_kg": 1.000810148552191,
+      "maximum": -0.0,
+      "minimum": -0.0,
+      "peak_beta": 18987.283771593688,
+      "residual": 2.703904446734265e-14,
+      "sample_count": 21,
+      "source_quadrupole_work": 0.0007496567909195577,
+      "worst_r_z_m": [
+        0.9374999999999999,
+        2.8875
+      ]
+    },
+    {
+      "L": 6,
+      "case": "vacuum",
+      "chord_mean": 0.0008036135715656426,
+      "curvature": -0.033670149593462984,
+      "flip": false,
+      "h": 0.075,
+      "mass_kg": 1.000810148552191,
+      "maximum": 0.0011645574011163356,
+      "minimum": 0.0005497033107384997,
+      "peak_beta": 18987.283771593688,
+      "residual": 2.9088581288192764e-14,
+      "sample_count": 21,
+      "source_quadrupole_work": 0.0007097174757917401,
+      "worst_r_z_m": [
+        1.0875000000000001,
+        3.1875
+      ]
+    },
+    {
+      "L": 6,
+      "case": "loaded",
+      "chord_mean": 1.9334725220673004e-06,
+      "curvature": -0.034988738655674534,
+      "flip": false,
+      "h": 0.075,
+      "mass_kg": 1.000810148552191,
+      "maximum": 0.0052399596247787155,
+      "minimum": -0.0007249877611279129,
+      "peak_beta": 18987.283771593688,
+      "residual": 6.421648708366008e-12,
+      "sample_count": 21,
+      "source_quadrupole_work": 0.0013705492186044995,
+      "worst_r_z_m": [
+        0.8624999999999999,
+        2.9625
+      ]
+    },
+    {
+      "L": 6,
+      "case": "loaded",
+      "chord_mean": -7.976077527453949e-06,
+      "curvature": -0.03328546132212601,
+      "flip": false,
+      "h": 0.05,
+      "mass_kg": 0.9987254582055737,
+      "maximum": 0.009790235185538424,
+      "minimum": -0.010662721128334827,
+      "peak_beta": 18987.283771593688,
+      "residual": 7.687067217459377e-12,
+      "sample_count": 52,
+      "source_quadrupole_work": 0.0008315865018653312,
+      "worst_r_z_m": [
+        1.175,
+        3.125
+      ]
+    },
+    {
+      "L": 7.5,
+      "case": "loaded",
+      "chord_mean": -1.0065201006152723e-05,
+      "curvature": -0.029115216709875658,
+      "flip": false,
+      "h": 0.05,
+      "mass_kg": 0.9987254582055738,
+      "maximum": 0.008799457867238387,
+      "minimum": -0.010055114924514144,
+      "peak_beta": 18987.283771593688,
+      "residual": 5.141487266578771e-12,
+      "sample_count": 52,
+      "source_quadrupole_work": 0.0008067191706483592,
+      "worst_r_z_m": [
+        1.175,
+        3.125
+      ]
+    },
+    {
+      "L": 7.5,
+      "case": "loaded",
+      "chord_mean": 9.201050245111832e-05,
+      "curvature": -0.029090418324058342,
+      "flip": true,
+      "h": 0.05,
+      "mass_kg": 0.9989465150339855,
+      "maximum": 0.010615992921897792,
+      "minimum": -0.007378201944182824,
+      "peak_beta": 18987.283771593688,
+      "potentials_sha256": "9e66b39e18f017a39e4f8ba1b9c9708b8a3fb97b1a4377ec81863f1e9805176f",
+      "residual": 8.28351499378053e-12,
+      "sample_count": 52,
+      "source_quadrupole_work": 0.00045272568478560145,
+      "worst_r_z_m": [
+        0.8250000000000001,
+        2.975
+      ]
+    }
+  ],
+  "silent_k_over_R2_threshold": 0.08077621695331932,
+  "silent_mode": "P=j1(x1*r/R)*(ez cross rhat); tangent, div P=0; E=B=0 for any torus trace",
+  "status": "LOADED_AXIAL_TRIAL_COMPLETE_PHYSICAL_MODE_UNDERDETERMINED",
+  "trial_diagnostics": {
+    "all_sampled_minima_inward": true,
+    "both_chord_signs": true,
+    "continuum_outcome": "NUMERICAL_INCONCLUSIVE",
+    "minimum_changes_mesh_box_diagonal": [
+      0.009937733367206915,
+      0.0006076062038206827,
+      0.0026769129803313205
+    ],
+    "uncertainty": "observed variation only; no continuum enclosure"
+  },
+  "units": "minimum, maximum and chord_mean are a_z/(c^2 q^2), inverse metres, q in F0B units",
+  "utc": "2026-11-20T22:35:13.545342+00:00",
+  "wall_s": 4.380891216998862
+}

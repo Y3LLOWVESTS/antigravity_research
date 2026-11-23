@@ -1,0 +1,30 @@
+{
+  "Earth_craft_force": "NOT_DERIVED",
+  "PH16_alpha": 0.05,
+  "PH16_beta": 40.0,
+  "PH16_sigma_expression": "s.alpha * P - s.beta * P * P",
+  "R3C_sigma_expression": "-2.0 * HBAR_C_EV_M ** 2 * dot_eb / REFERENCE_PORTAL_SCALE_EV ** 4",
+  "classification": "DIRECT_PORTAL_TRANSFER_OBSTRUCTED_SCOPED",
+  "complete_SI_energy": "NOT_CERTIFIED",
+  "constrained_loaded_Hessian_transfer": "BLOCKED",
+  "curvature_difference": "-80*s**2",
+  "negative_controls": {
+    "beta_zero_curvature_only": true,
+    "nonzero_rescaling": true,
+    "orientation_flip": true,
+    "zero_scale_trivial": true
+  },
+  "parents": {
+    "PH16": {
+      "path": "src/antigravity_research/ph16/ph16_04_joint_stationary.py",
+      "sha256": "b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0"
+    },
+    "R3C": {
+      "path": "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py",
+      "sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee"
+    }
+  },
+  "real_physical_maturity_increase": "NOT_EARNED",
+  "schema": "gravity2.act0.science.v1",
+  "source_action_equivalence": "NOT_PROVED"
+}

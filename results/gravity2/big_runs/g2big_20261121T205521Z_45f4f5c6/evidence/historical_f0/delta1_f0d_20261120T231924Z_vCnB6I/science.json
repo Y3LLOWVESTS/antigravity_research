@@ -1,0 +1,125 @@
+{
+  "assumed_parameters": {
+    "a": -0.35,
+    "boundary": "NATURAL_NEUMANN",
+    "eta": 0.25,
+    "source_radius_m": 2.0,
+    "trace": "FROZEN"
+  },
+  "canonical_hamiltonian": "H=0.5*|D-P-theta*B|^2+0.5*|B|^2+0.5*a*|P|^2+0.5*kappa*|grad P|^2",
+  "complete_energy": "UNDETERMINED_NOT_JOULES",
+  "counterfactual_pinned_boundary": "UNIFORM_TRIAL_NOT_ADMISSIBLE; NO_GENERAL_STABILITY_CLAIM",
+  "created_utc": "2026-11-20T23:19:26.093013+00:00",
+  "decision": "DO_NOT_SOLVE_NONLINEAR_PDE_UNTIL_SATURATING_SOURCE_ACTION_AND_BOUNDARY_SPECIFIED",
+  "earth_craft": "NOT_DERIVED",
+  "exterior_metric_force": "NOT_DERIVED",
+  "full_regression": "TO_BE_RUN_SEPARATELY_IN_VERIFY",
+  "historical_loaded_minima": [
+    -0.0007249877611279129,
+    -0.010662721128334827,
+    -0.010055114924514144,
+    -0.007378201944182824
+  ],
+  "kappa_grid": [
+    {
+      "kappa_over_R2": 0.0,
+      "uniform_trial_curvature_upper": -0.01666666666666572,
+      "uniform_trial_negative": true
+    },
+    {
+      "kappa_over_R2": 0.01,
+      "uniform_trial_curvature_upper": -0.01666666666666572,
+      "uniform_trial_negative": true
+    },
+    {
+      "kappa_over_R2": 0.1,
+      "uniform_trial_curvature_upper": -0.01666666666666572,
+      "uniform_trial_negative": true
+    },
+    {
+      "kappa_over_R2": 1.0,
+      "uniform_trial_curvature_upper": -0.01666666666666572,
+      "uniform_trial_negative": true
+    },
+    {
+      "kappa_over_R2": 10.0,
+      "uniform_trial_curvature_upper": -0.01666666666666572,
+      "uniform_trial_negative": true
+    },
+    {
+      "kappa_over_R2": 1000000.0,
+      "uniform_trial_curvature_upper": -0.01666666666666572,
+      "uniform_trial_negative": true
+    }
+  ],
+  "limitations": [
+    "Frozen torus matter trace and prescribed theta profile",
+    "Natural polarization boundary; Dirichlet changes trial space",
+    "Exact quadratic model only; saturation is not specified",
+    "Trial fields need not be the minimizing coupled solution",
+    "Exterior electric dipole does not imply metric repulsion"
+  ],
+  "parents": {
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0c_20261120T223510Z_rSztin/f0c.py": "74850d49ec24251990f0fb0d8a5b55a1cd2a1ebe24e826699434fdefb6684ffc",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0c_20261120T223510Z_rSztin/potentials.npz": "9e66b39e18f017a39e4f8ba1b9c9708b8a3fb97b1a4377ec81863f1e9805176f",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0c_20261120T223510Z_rSztin/science.json": "3c671e54a44a23bd12d2fe2451aed6388bb3c4f6da37408d7abe54c808540f7f",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0c_20261120T223510Z_rSztin/verify_nWI4IF/verification.json": "bafc1cf1d415e33a6da251fade2a29b1497d456f8d3aff5316d4b95936bbd9c6"
+  },
+  "physical_payload_minimum": null,
+  "physical_source_mode": "NOT_SELECTED",
+  "producer_sha256": "4936c50e7819d3cd115740e416255782c174b14c96415514faf80e895fdc240c",
+  "program": "DELTA1-F0D_QUADRATIC_OFFSTATE_STIFFNESS_OBSTRUCTION",
+  "silent_mode": {
+    "critical_kappa_over_R2": 0.08077621695331932,
+    "divergence": "ZERO_ANALYTICALLY",
+    "exterior_metric": "ZERO",
+    "formula": "P=j1(x1*r/R)*(z_hat cross r_hat)",
+    "normal_component": "ZERO_ANALYTICALLY",
+    "phases": [
+      {
+        "kappa_over_R2": 0.0,
+        "silent_curvature": -0.35,
+        "silent_sign": "NEGATIVE",
+        "uniform_curvature_upper": -0.01666666666666572
+      },
+      {
+        "kappa_over_R2": 0.04038810847665966,
+        "silent_curvature": -0.175,
+        "silent_sign": "NEGATIVE",
+        "uniform_curvature_upper": -0.01666666666666572
+      },
+      {
+        "kappa_over_R2": 0.08077621695331932,
+        "silent_curvature": 0.0,
+        "silent_sign": "ZERO",
+        "uniform_curvature_upper": -0.01666666666666572
+      },
+      {
+        "kappa_over_R2": 0.16155243390663865,
+        "silent_curvature": 0.35,
+        "silent_sign": "POSITIVE",
+        "uniform_curvature_upper": -0.01666666666666572
+      }
+    ],
+    "rayleigh_exact_per_m2": 1.0832396378573454,
+    "rayleigh_numeric_per_m2": 1.083239637857343,
+    "root_j1prime": 2.0815759778181007,
+    "source_fields": "E=B=0, D=P"
+  },
+  "source_action": "L2=(E^2-B^2)/2+theta E.B+P.E-a P^2/2-k |grad P|^2/2",
+  "status": "SCOPED_QUADRATIC_OFFSTATE_UNSTABLE_ALL_NONNEGATIVE_STIFFNESS",
+  "theorem_scope": "NEGATIVE_RAYLEIGH_QUOTIENT_AT_P=0; NOT_NONLINEAR_OR_LORENTZIAN_STABILITY",
+  "uniform_dipole_trial": {
+    "admissibility": "div D=0; normal D continuous; B=0; natural source boundary",
+    "curvature_upper": -0.01666666666666572,
+    "field_energy_inside_per_A2": 1.8616845354606202,
+    "field_energy_outside_per_A2": 3.723369070921249,
+    "field_energy_total_per_A2": 5.585053606381869,
+    "gradient_cost": 0,
+    "metric_observable": "NOT_DETERMINED_BY_ELECTRIC_DIPOLE",
+    "source_bare_energy_per_A2": -5.864306286700947,
+    "total_trial_energy_per_A2": -0.27925268031907713,
+    "volume_m3": 33.510321638291124
+  },
+  "wall_s": 0.015392458000860643
+}

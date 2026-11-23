@@ -1,0 +1,74 @@
+{
+  "006D_replaced": false,
+  "Einstein_gravity": "NOT_DERIVED",
+  "complete_energy_under_10MJ": "NOT_CERTIFIED",
+  "independent_checks": {
+    "energy": true,
+    "equal_opposite_coordinate_force": true,
+    "hessian_healthy": true,
+    "inverse_identity": true,
+    "loaded_source_response": true,
+    "no_Earth_craft_promotion": true,
+    "no_energy_promotion": true,
+    "not_Einstein": true,
+    "not_a_real_source": true,
+    "schur_healthy": true,
+    "schur_reconstruction": true,
+    "source_load_force": true,
+    "stationarity": true,
+    "status_scoped": true,
+    "translation_derivative": true
+  },
+  "neutral_torus_1g_1m": "NOT_DERIVED",
+  "new_physics_experiments": 0,
+  "physical_source": "NOT_DERIVED",
+  "plan": {
+    "SI_energy": "NOT_CERTIFIED",
+    "cheap_negative_control": "Reject prescribed source current, gauge violation, unsupported lifting force, and unbounded energy",
+    "gravity": "NOT_DERIVED",
+    "historical_failures": {
+      "006D": "POSITIVE_ENERGY_GR_NEAR_FIELD_BUT_1_OVER_G_ENERGY",
+      "ACT0": "SCOPED_ACTION_OBSTRUCTION",
+      "B15": "ANGLE_ONLY_FAILED",
+      "B16": "WEAK_LOADING_FAILED",
+      "PH16_04R2": "FINITE_LATTICE_STATIONARITY_ONLY",
+      "R3A": "ORDINARY_MATTER_SUPPRESSION_1P84E15",
+      "R3B": "PRESCRIBED_JOULE_CAPACITY_UNSOURCED",
+      "R3X1": "LORENTZIAN_SIGN_ERRATUM"
+    },
+    "next_gate": "G01_ACTION",
+    "next_task": "Derive covariant SAME-ACTION Einstein/Hodge/source/X/Y/neutral/Earth/support variations and Ward/Bianchi identities",
+    "physical_survivors": 0,
+    "physically_authorized_runs": 0,
+    "rejected_ideas": [],
+    "status": "PLAN_ONLY",
+    "unverified_ideas": []
+  },
+  "response": {
+    "Earth_down_craft_up": "NOT_DERIVED",
+    "Einstein_metric_variation": "NOT_DERIVED",
+    "assumption": "PRESCRIBED_SOURCE_RELATIVE_COORDINATE",
+    "complete_SI_energy": "NOT_CERTIFIED",
+    "craft_coordinate_force_toy": 0.10871776890710971,
+    "derivative_fd_error": 3.022262995422409e-12,
+    "earth_coordinate_force_toy": -0.10871776890710971,
+    "finite_source_realization": "NOT_DERIVED",
+    "frozen_field_response_toy": [
+      0.10080729166666666
+    ],
+    "gravitational_survivors": 0,
+    "loaded_field_response_toy": [
+      0.10440716366382563
+    ],
+    "min_hessian_eigenvalue": 1.833932536153686,
+    "min_schur_eigenvalue": 1.9310416666666668,
+    "model": "FINITE_QUADRATIC_TOY",
+    "schur_error": 1.3877787807814457e-17,
+    "stationary_energy_toy": -0.2043987013162153,
+    "stationary_residual": 5.551115123125783e-17,
+    "status": "PASS_SCOPED_RECIPROCAL_TOY_NO_GRAVITY",
+    "whole_craft_lift": "NOT_DERIVED"
+  },
+  "status": "PASS_SCOPED_RESEARCH_NO_GRAVITY",
+  "whole_craft_lift": "NOT_DERIVED"
+}

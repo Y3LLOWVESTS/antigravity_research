@@ -1,0 +1,20 @@
+{
+  "AGMINER": "HASHED_NO_EXECUTION",
+  "created_utc": "2026-11-21T07:02:39.327004+00:00",
+  "disk_soft_mib": 4,
+  "level": "L0",
+  "model": "PERIODIC_2D_SINGLE_X_CHARGED_SCALAR",
+  "no_prior_source_modification": true,
+  "preset": "quick",
+  "program": "GRAVITY2-08",
+  "rss_soft_mib": 384,
+  "run_id": "g208_20261121T070239Z_467d6a03",
+  "seconds_ceiling": 30.0,
+  "source_hashes": {
+    "src/antigravity_research/gravity2/bridge08.py": "d580c73a8a97260bd859176d9f4507a0828808786181ab4d5e411007f8ee290c",
+    "src/antigravity_research/gravity2/bridge08_check.py": "75160144f63e99e08b59c1fed293da181730ff12977c4e5fa026170fd0ff64a6",
+    "src/antigravity_research/gravity2/bridge08_core.py": "63870f7936f6b83b3e690e18087a44ebe57b2618c9109eb332ae8885bc4d63b7",
+    "tests/gravity2/test_bridge08.py": "a745a33e1ec610c93736dea5357e9ba3a968ae9b9f8076c47cb3d7949592f4a7"
+  },
+  "workers": 1
+}

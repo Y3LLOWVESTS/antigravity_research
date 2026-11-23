@@ -1,0 +1,32 @@
+{
+  "Einstein_earthcraft": "NOT_SOLVED",
+  "comparisons": {
+    "angular_truncation": {
+      "absolute_source_projection_change": 0.004030376532943482,
+      "relative_energy_change": 0.1656114900403799,
+      "source_L2_difference_a": 1.8069558387420919,
+      "source_L2_difference_b": 2.8779657523848132
+    },
+    "exterior_64_vs_80m": {
+      "absolute_source_projection_change": 0.005286124462330635,
+      "relative_energy_change": 0.03715677229095895,
+      "source_L2_difference_a": 6.15601129858826,
+      "source_L2_difference_b": 6.488592077752863
+    },
+    "near_source_mesh": {
+      "absolute_source_projection_change": 0.06743994230584746,
+      "relative_energy_change": 0.08139961077519252,
+      "source_L2_difference_a": 6.488592077752863,
+      "source_L2_difference_b": 1.8069558387420919
+    }
+  },
+  "experiment": "G01-U3B-FOCUSED-INDEPENDENT-ARTIFACT-AUDIT",
+  "full_regression": "NOT_RUN",
+  "negative_controls": "PASS_RECORDED",
+  "numerical_verdict": "HOLD_NUMERICAL_NONCONVERGENCE",
+  "physical_survivors": 0,
+  "scalar_local_eom": "NOT_SOLVED",
+  "science_sha256": "44f14ce4ba14e46d3fd4816d9fad2395fd1fef133a35894e884ad8ace9335126",
+  "source_material_eom": "NOT_SOLVED",
+  "transparent_exterior": "NOT_CERTIFIED"
+}

@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "eps_r": 1.0,
+      "field_volume_J": 2842980.177247896,
+      "max_shell_E_V_m": 22477.690447348003,
+      "max_shell_hidden_cB_V_m": 426279831099.4128,
+      "scale_eV": 1000.0,
+      "weak_abs_sigma_upper": 8.137185438712228e-09
+    },
+    {
+      "eps_r": 3.8,
+      "field_volume_J": 2842980.3871218786,
+      "max_shell_E_V_m": 22477.690447348265,
+      "max_shell_hidden_cB_V_m": 426279831099.4145,
+      "scale_eV": 1000.0,
+      "weak_abs_sigma_upper": 8.137185438712355e-09
+    },
+    {
+      "eps_r": 1.0,
+      "field_volume_J": 2887952.9621212147,
+      "max_shell_E_V_m": 10052328.763493558,
+      "max_shell_hidden_cB_V_m": 953190679.7754159,
+      "scale_eV": 21147.425268811283,
+      "weak_abs_sigma_upper": 4.0685927193561137e-14
+    },
+    {
+      "eps_r": 3.8,
+      "field_volume_J": 2927651.928847271,
+      "max_shell_E_V_m": 10056763.395651719,
+      "max_shell_hidden_cB_V_m": 953330847.9606807,
+      "scale_eV": 21147.425268811283,
+      "weak_abs_sigma_upper": 4.0709861550721037e-14
+    }
+  ],
+  "full_regression": "NOT_RUN",
+  "science_sha256": "7635896c65e47e64ffa772651a55605e38499790b44a7c37a582c537a8c752fb",
+  "status": "PASS_SCOPED_SOURCE_BOUNDARY_PROBLEM",
+  "verifier_sha256": "60e22098d8e51223ea4ec8e30d50d3f67e8e795663520a77d0e26355e0edbad5"
+}

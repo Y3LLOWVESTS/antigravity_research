@@ -1,0 +1,32 @@
+{
+  "action_id": "C1_TWO_CHARGED_SCALARS_EINSTEIN_SOURCE",
+  "candidate_id": "C1_STATIC_NO_A0",
+  "complete_source_action": false,
+  "fingerprint": "ace9d383aa77fbb554a4d1f52e218d05102f9d807ef2edaaa4a4f8fa41a9dd1f",
+  "gate_G05": {
+    "assumptions": "D0phi=0, positive spatial norm, m^2>=0, lambda>=0, regular finite decay, zero support/surface term",
+    "consequence": "phi_X=phi_Y=0 and J_X=J_Y=0 for this restricted ansatz",
+    "euler_identity": "PASS_EXACT_3D_STATIC_EULER_INTEGRATED_IDENTITY",
+    "integrated_equation": "0=integral(|D_i phi|^2 + m^2|phi|^2 + lambda|phi|^4) d^3x",
+    "negative_control": "negative m^2/potential or nonzero boundary term defeats positivity assumption",
+    "scope": "NOT A NO-GO FOR SUPPORTED, TIME-HARMONIC, A0-NONZERO OR DIFFERENT SOURCE ACTIONS",
+    "theorem": "STATIC_A0_ZERO_CONVEX_SCALAR_SOURCE_NO_GO",
+    "verdict": "FAIL_SCOPED"
+  },
+  "level": "L1",
+  "loaded_simulation": false,
+  "other_gates": {
+    "G01_ACTION": "INCOMPLETE_SUPPORT_EARTH_BOUNDARY",
+    "G02_VARIATION": "SCOPED_IDENTITIES_PRIOR_G203A_NOT_NEW_FULL_EOM",
+    "G03_WARD": "SCOPED_PRIOR_G203A_NOT_FULL_DIFEOMORPHISM_BIANCHI",
+    "G04_HEALTH": "NOT_PROVEN",
+    "G06_LOAD": "NOT_AUTHORIZED",
+    "G07_METRIC": "NOT_SOLVED_EINSTEIN",
+    "G08_ENERGY": "NOT_CERTIFIED",
+    "G09_EXTERIOR": "NOT_RUN",
+    "G10_REACTION": "NOT_DERIVED",
+    "G11_REALISM": "NOT_CERTIFIED"
+  },
+  "parent_fingerprint": "8cde32519fac505343556163bc8973e3e8d283d55848fed33ccc0f8683b22eec",
+  "qualified_physical_survivor": false
+}

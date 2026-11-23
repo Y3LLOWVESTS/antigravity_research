@@ -1,0 +1,918 @@
+{
+  "006D_replaced": false,
+  "energy_J": "NOT_CERTIFIED",
+  "full_repository_regression": "NOT_RUN",
+  "jobs": [
+    {
+      "evidence_sha256": "4f053c30fc97daee12b4510b506ee4efed26736c849e8ef25ae07d4d244335a9",
+      "execution_origin": "FRESH",
+      "fingerprint": "f392f71167f6fe8ce80773020d95b6ad0a5a994124a0b255067a1ec6b55f646c",
+      "id": "JPAIR_ACTION_INVENTORY",
+      "review_checks": {
+        "missing covariant action sectors": true,
+        "must block incomplete action": true,
+        "not a physical completion": true
+      },
+      "scientific_input_manifest": {
+        "action_sha256": "57a015947503f31d356f0abd48f2fb2036ad9c8d36d8a2b0976af80c28800f57",
+        "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+        "coverage": "REVIEWED_L0_L1_DECLARED_INPUTS_AND_PACKAGE_PYTHON_SUPERSET",
+        "files": {
+          "src/antigravity_research/gravity2/__init__.py": {
+            "present": true,
+            "sha256": "c3dde1e50ce8ba78b3c7c0cb2872ed58a4f43cb472d7b84fdc290e6fe3e0a674"
+          },
+          "src/antigravity_research/gravity2/__main__.py": {
+            "present": true,
+            "sha256": "d7baf944f05116f7957b5abae9029d9d353ece808f7918af7b0633ae82e50868"
+          },
+          "src/antigravity_research/gravity2/act0.py": {
+            "present": true,
+            "sha256": "7b8d2ef2a0c567eb2f807b23c8b1bae07fe857115ac50d829292cf028b845f0f"
+          },
+          "src/antigravity_research/gravity2/action01.py": {
+            "present": true,
+            "sha256": "90b580192ed2cac027d71954ce61ffd06351ab3bb3111428f8c78d5edfbd16cb"
+          },
+          "src/antigravity_research/gravity2/action01_core.py": {
+            "present": true,
+            "sha256": "f4942f0496cf608a7f047743feb80c06bcb59505cf356a391fb6486193948940"
+          },
+          "src/antigravity_research/gravity2/action01_verify.py": {
+            "present": true,
+            "sha256": "a763eef32a44bff164c039093d655a2bd40be7facef66feafe9a7313933e8c1c"
+          },
+          "src/antigravity_research/gravity2/action02.py": {
+            "present": true,
+            "sha256": "8c3ebb85bc6817628a5fe5ba407091411db79a42716b15545292752ff2702632"
+          },
+          "src/antigravity_research/gravity2/action02_core.py": {
+            "present": true,
+            "sha256": "a85e2abd6f66529afb737e8a03a0154f5c7de5500e42124061bc404218856736"
+          },
+          "src/antigravity_research/gravity2/action02_verify.py": {
+            "present": true,
+            "sha256": "67e9201fbf7c045bafc484d3236c0933630a3bac9aebea0d18fc0cdc348586d2"
+          },
+          "src/antigravity_research/gravity2/bridge03a.py": {
+            "present": true,
+            "sha256": "3de52eae90ec63c53846392f0da0d96d579c60d7cbfdd018dd162b7dde5217bf"
+          },
+          "src/antigravity_research/gravity2/bridge03a_verify.py": {
+            "present": true,
+            "sha256": "2cf8a47b3b222a0cf0db0cd2ee7d58746fca5ac0af296990d9baaf4029dd8e89"
+          },
+          "src/antigravity_research/gravity2/bridge05.py": {
+            "present": true,
+            "sha256": "a9d7e626052cdf0212f362f02a2e459052855d561cf83ff6af12cd8180a772de"
+          },
+          "src/antigravity_research/gravity2/bridge05_check.py": {
+            "present": true,
+            "sha256": "8302a4a6c94a667ff5c215e24f0e11db026f9b94e08c9b3521c3692ec520c5b1"
+          },
+          "src/antigravity_research/gravity2/bridge05_core.py": {
+            "present": true,
+            "sha256": "3978c834ac2e94bf5a8da80c34222e80db376ff5c6fb5692d05946b3ea5e1930"
+          },
+          "src/antigravity_research/gravity2/bridge06.py": {
+            "present": true,
+            "sha256": "51b2bd92ffca62d8420bc2edecfefd5c64bf5b12ea6973e10d758fd0057834a6"
+          },
+          "src/antigravity_research/gravity2/bridge06_check.py": {
+            "present": true,
+            "sha256": "53a84a844feea3d65236f89e83cd23347b97526b7e873f8d2b05c805d826b270"
+          },
+          "src/antigravity_research/gravity2/bridge06_core.py": {
+            "present": true,
+            "sha256": "fa22add1c6696aa1fe462518879cb446dcbda9951ecd48875c5a172f2828c04f"
+          },
+          "src/antigravity_research/gravity2/bridge07.py": {
+            "present": true,
+            "sha256": "cfee800973869668a2af6392386b14f487aa629683610a2bc7e0a12600c15f5d"
+          },
+          "src/antigravity_research/gravity2/bridge07_check.py": {
+            "present": true,
+            "sha256": "0a8d44ee3ec6aa3c0e0efa5529d9f66fcf501f09bded33d489a9ed672c8a5c26"
+          },
+          "src/antigravity_research/gravity2/bridge07_core.py": {
+            "present": true,
+            "sha256": "7b70ecc745e8a8124a25283520daf6a846ed85d0b166a6257de84a7c3637ef8a"
+          },
+          "src/antigravity_research/gravity2/bridge08.py": {
+            "present": true,
+            "sha256": "d580c73a8a97260bd859176d9f4507a0828808786181ab4d5e411007f8ee290c"
+          },
+          "src/antigravity_research/gravity2/bridge08_check.py": {
+            "present": true,
+            "sha256": "75160144f63e99e08b59c1fed293da181730ff12977c4e5fa026170fd0ff64a6"
+          },
+          "src/antigravity_research/gravity2/bridge08_core.py": {
+            "present": true,
+            "sha256": "63870f7936f6b83b3e690e18087a44ebe57b2618c9109eb332ae8885bc4d63b7"
+          },
+          "src/antigravity_research/gravity2/campaign.py": {
+            "present": true,
+            "sha256": "c9b4f5055b418f834ce29df954376302be53f7678db15757287327348022865c"
+          },
+          "src/antigravity_research/gravity2/campaign_check.py": {
+            "present": true,
+            "sha256": "2b63b98dabe3011547a4952411373be35adf6a50becec2031fb1e1b2166b6b9e"
+          },
+          "src/antigravity_research/gravity2/campaign_check_v2.py": {
+            "present": true,
+            "sha256": "7a9d48cad0da0ee96a5f5bf03dfdc50c525c1a2ca5394e11a557c3fc0e6c2be5"
+          },
+          "src/antigravity_research/gravity2/campaign_check_v3.py": {
+            "present": true,
+            "sha256": "f464f0eea4047a8dc3450273724f4bb18766f89640f74588f13dcb0e8febed79"
+          },
+          "src/antigravity_research/gravity2/campaign_science.py": {
+            "present": true,
+            "sha256": "3f7943d3da1db36540e4394cd1e62c7608d8db279ab462a7b8e34fc974e9f3d7"
+          },
+          "src/antigravity_research/gravity2/campaign_v2.py": {
+            "present": true,
+            "sha256": "eeab30591418f46aea43afe7256395fd611afc93030310bccf82be61c54d801e"
+          },
+          "src/antigravity_research/gravity2/campaign_v3.py": {
+            "present": true,
+            "sha256": "601c0a175d076ff772f0765ea38276c67e084d8c5bf2ee1d79618d9ae250cd79"
+          },
+          "src/antigravity_research/gravity2/delta_f0_provider.py": {
+            "present": true,
+            "sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87"
+          },
+          "src/antigravity_research/gravity2/delta_f0_review.py": {
+            "present": true,
+            "sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7"
+          },
+          "src/antigravity_research/gravity2/engine.py": {
+            "present": true,
+            "sha256": "17f83c04ec069a56e5a678240051cbe18589398bde06de6dafb7c64d81f6fae6"
+          },
+          "src/antigravity_research/gravity2/independent.py": {
+            "present": true,
+            "sha256": "c647d335aef0303e41bceb86bdba3d63278dba753c8352f2af45ff1dc48af90d"
+          },
+          "src/antigravity_research/gravity2/miner.py": {
+            "present": true,
+            "sha256": "02972ab910dd9d6e0e8e497b3cba06e4dbcaa41ee2ab4943aa50fd4f822d5081"
+          },
+          "src/antigravity_research/gravity2/miner2.py": {
+            "present": true,
+            "sha256": "46fc1215f3d20aa03b9d1d63d30b5e4c2bbbfa77c95924a4d4225b79fdd154cf"
+          },
+          "src/antigravity_research/gravity2/miner2_check.py": {
+            "present": true,
+            "sha256": "c7ac67e0ac3434ae9b54b177e18f88401af70e41c260d29104c30b7a436655ac"
+          },
+          "src/antigravity_research/gravity2/miner2_math.py": {
+            "present": true,
+            "sha256": "d605192dde12cba99d671086a994308c35cb2ba84120e7b207453e4d8c1770ff"
+          },
+          "src/antigravity_research/gravity2/miner_cases.py": {
+            "present": true,
+            "sha256": "8e865e903e48c1068dc288f73dfdad4d26782a06a7f2e2ea75509c142f9f1813"
+          },
+          "src/antigravity_research/gravity2/miner_verify.py": {
+            "present": true,
+            "sha256": "2bf9264d657ec71e0388c046d024d0cdda57b9dc77a81d561263f536fe3c1f0d"
+          },
+          "src/antigravity_research/gravity2/policy.py": {
+            "present": true,
+            "sha256": "e35aeb28d11fa5621d7767c53698ca614b1fa99b4efd717a415cb2d32cb6c25c"
+          },
+          "src/antigravity_research/gravity2/scientific_inputs_v3.py": {
+            "present": true,
+            "sha256": "e102c984cd403bfb4534c775c79827554801e09c4b1da3509b4ca0fba14785ff"
+          }
+        },
+        "gate": "ACTION_COMPLETENESS",
+        "runtime": {
+          "machine": "x86_64",
+          "numpy": "2.5.4",
+          "platform": "darwin",
+          "python": "CPython 3.13.15",
+          "scipy": "1.18.1",
+          "sympy": "1.14.0"
+        },
+        "schema": "gravity2.scientific_inputs.v3"
+      },
+      "scientific_verdict": "BLOCKED_ACTION_INCOMPLETE",
+      "verification_status": "VERIFIED",
+      "worker_peak_rss_mib": 60.172
+    },
+    {
+      "evidence_sha256": "6a986320af0a1a9375d0910881de01158d8164222b2cc8ca01506ceaaca1e730",
+      "execution_origin": "FRESH",
+      "fingerprint": "e2ce28b1931c3450a7349019e39858026357d74c11fe41f2e88ac031f05f237f",
+      "id": "JPAIR_CHARGE_CONTROL",
+      "review_checks": {
+        "charge integral n=15": true,
+        "charge integral n=23": true,
+        "charge integral n=31": true,
+        "charge integral n=9": true,
+        "control frequency n=15": true,
+        "control frequency n=23": true,
+        "control frequency n=31": true,
+        "control frequency n=9": true,
+        "equal-amplitude residual proportional to a": true,
+        "four parent grid controls": true,
+        "independent two-charge Euler": true,
+        "local source still nontrivial n=15": true,
+        "local source still nontrivial n=23": true,
+        "local source still nontrivial n=31": true,
+        "local source still nontrivial n=9": true,
+        "opposing charge gauge shift": true,
+        "opposite current n=15": true,
+        "opposite current n=23": true,
+        "opposite current n=31": true,
+        "opposite current n=9": true,
+        "tuning not a physical equilibrium": true,
+        "zero mode n=15": true,
+        "zero mode n=23": true,
+        "zero mode n=31": true,
+        "zero mode n=9": true
+      },
+      "scientific_input_manifest": {
+        "action_sha256": "57a015947503f31d356f0abd48f2fb2036ad9c8d36d8a2b0976af80c28800f57",
+        "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+        "coverage": "REVIEWED_L0_L1_DECLARED_INPUTS_AND_PACKAGE_PYTHON_SUPERSET",
+        "files": {
+          "results/gravity2/bridge07_runs/g207_20261121T065202Z_450b9280/fields.npz": {
+            "present": true,
+            "sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d"
+          },
+          "src/antigravity_research/gravity2/__init__.py": {
+            "present": true,
+            "sha256": "c3dde1e50ce8ba78b3c7c0cb2872ed58a4f43cb472d7b84fdc290e6fe3e0a674"
+          },
+          "src/antigravity_research/gravity2/__main__.py": {
+            "present": true,
+            "sha256": "d7baf944f05116f7957b5abae9029d9d353ece808f7918af7b0633ae82e50868"
+          },
+          "src/antigravity_research/gravity2/act0.py": {
+            "present": true,
+            "sha256": "7b8d2ef2a0c567eb2f807b23c8b1bae07fe857115ac50d829292cf028b845f0f"
+          },
+          "src/antigravity_research/gravity2/action01.py": {
+            "present": true,
+            "sha256": "90b580192ed2cac027d71954ce61ffd06351ab3bb3111428f8c78d5edfbd16cb"
+          },
+          "src/antigravity_research/gravity2/action01_core.py": {
+            "present": true,
+            "sha256": "f4942f0496cf608a7f047743feb80c06bcb59505cf356a391fb6486193948940"
+          },
+          "src/antigravity_research/gravity2/action01_verify.py": {
+            "present": true,
+            "sha256": "a763eef32a44bff164c039093d655a2bd40be7facef66feafe9a7313933e8c1c"
+          },
+          "src/antigravity_research/gravity2/action02.py": {
+            "present": true,
+            "sha256": "8c3ebb85bc6817628a5fe5ba407091411db79a42716b15545292752ff2702632"
+          },
+          "src/antigravity_research/gravity2/action02_core.py": {
+            "present": true,
+            "sha256": "a85e2abd6f66529afb737e8a03a0154f5c7de5500e42124061bc404218856736"
+          },
+          "src/antigravity_research/gravity2/action02_verify.py": {
+            "present": true,
+            "sha256": "67e9201fbf7c045bafc484d3236c0933630a3bac9aebea0d18fc0cdc348586d2"
+          },
+          "src/antigravity_research/gravity2/bridge03a.py": {
+            "present": true,
+            "sha256": "3de52eae90ec63c53846392f0da0d96d579c60d7cbfdd018dd162b7dde5217bf"
+          },
+          "src/antigravity_research/gravity2/bridge03a_verify.py": {
+            "present": true,
+            "sha256": "2cf8a47b3b222a0cf0db0cd2ee7d58746fca5ac0af296990d9baaf4029dd8e89"
+          },
+          "src/antigravity_research/gravity2/bridge05.py": {
+            "present": true,
+            "sha256": "a9d7e626052cdf0212f362f02a2e459052855d561cf83ff6af12cd8180a772de"
+          },
+          "src/antigravity_research/gravity2/bridge05_check.py": {
+            "present": true,
+            "sha256": "8302a4a6c94a667ff5c215e24f0e11db026f9b94e08c9b3521c3692ec520c5b1"
+          },
+          "src/antigravity_research/gravity2/bridge05_core.py": {
+            "present": true,
+            "sha256": "3978c834ac2e94bf5a8da80c34222e80db376ff5c6fb5692d05946b3ea5e1930"
+          },
+          "src/antigravity_research/gravity2/bridge06.py": {
+            "present": true,
+            "sha256": "51b2bd92ffca62d8420bc2edecfefd5c64bf5b12ea6973e10d758fd0057834a6"
+          },
+          "src/antigravity_research/gravity2/bridge06_check.py": {
+            "present": true,
+            "sha256": "53a84a844feea3d65236f89e83cd23347b97526b7e873f8d2b05c805d826b270"
+          },
+          "src/antigravity_research/gravity2/bridge06_core.py": {
+            "present": true,
+            "sha256": "fa22add1c6696aa1fe462518879cb446dcbda9951ecd48875c5a172f2828c04f"
+          },
+          "src/antigravity_research/gravity2/bridge07.py": {
+            "present": true,
+            "sha256": "cfee800973869668a2af6392386b14f487aa629683610a2bc7e0a12600c15f5d"
+          },
+          "src/antigravity_research/gravity2/bridge07_check.py": {
+            "present": true,
+            "sha256": "0a8d44ee3ec6aa3c0e0efa5529d9f66fcf501f09bded33d489a9ed672c8a5c26"
+          },
+          "src/antigravity_research/gravity2/bridge07_core.py": {
+            "present": true,
+            "sha256": "7b70ecc745e8a8124a25283520daf6a846ed85d0b166a6257de84a7c3637ef8a"
+          },
+          "src/antigravity_research/gravity2/bridge08.py": {
+            "present": true,
+            "sha256": "d580c73a8a97260bd859176d9f4507a0828808786181ab4d5e411007f8ee290c"
+          },
+          "src/antigravity_research/gravity2/bridge08_check.py": {
+            "present": true,
+            "sha256": "75160144f63e99e08b59c1fed293da181730ff12977c4e5fa026170fd0ff64a6"
+          },
+          "src/antigravity_research/gravity2/bridge08_core.py": {
+            "present": true,
+            "sha256": "63870f7936f6b83b3e690e18087a44ebe57b2618c9109eb332ae8885bc4d63b7"
+          },
+          "src/antigravity_research/gravity2/campaign.py": {
+            "present": true,
+            "sha256": "c9b4f5055b418f834ce29df954376302be53f7678db15757287327348022865c"
+          },
+          "src/antigravity_research/gravity2/campaign_check.py": {
+            "present": true,
+            "sha256": "2b63b98dabe3011547a4952411373be35adf6a50becec2031fb1e1b2166b6b9e"
+          },
+          "src/antigravity_research/gravity2/campaign_check_v2.py": {
+            "present": true,
+            "sha256": "7a9d48cad0da0ee96a5f5bf03dfdc50c525c1a2ca5394e11a557c3fc0e6c2be5"
+          },
+          "src/antigravity_research/gravity2/campaign_check_v3.py": {
+            "present": true,
+            "sha256": "f464f0eea4047a8dc3450273724f4bb18766f89640f74588f13dcb0e8febed79"
+          },
+          "src/antigravity_research/gravity2/campaign_science.py": {
+            "present": true,
+            "sha256": "3f7943d3da1db36540e4394cd1e62c7608d8db279ab462a7b8e34fc974e9f3d7"
+          },
+          "src/antigravity_research/gravity2/campaign_v2.py": {
+            "present": true,
+            "sha256": "eeab30591418f46aea43afe7256395fd611afc93030310bccf82be61c54d801e"
+          },
+          "src/antigravity_research/gravity2/campaign_v3.py": {
+            "present": true,
+            "sha256": "601c0a175d076ff772f0765ea38276c67e084d8c5bf2ee1d79618d9ae250cd79"
+          },
+          "src/antigravity_research/gravity2/delta_f0_provider.py": {
+            "present": true,
+            "sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87"
+          },
+          "src/antigravity_research/gravity2/delta_f0_review.py": {
+            "present": true,
+            "sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7"
+          },
+          "src/antigravity_research/gravity2/engine.py": {
+            "present": true,
+            "sha256": "17f83c04ec069a56e5a678240051cbe18589398bde06de6dafb7c64d81f6fae6"
+          },
+          "src/antigravity_research/gravity2/independent.py": {
+            "present": true,
+            "sha256": "c647d335aef0303e41bceb86bdba3d63278dba753c8352f2af45ff1dc48af90d"
+          },
+          "src/antigravity_research/gravity2/miner.py": {
+            "present": true,
+            "sha256": "02972ab910dd9d6e0e8e497b3cba06e4dbcaa41ee2ab4943aa50fd4f822d5081"
+          },
+          "src/antigravity_research/gravity2/miner2.py": {
+            "present": true,
+            "sha256": "46fc1215f3d20aa03b9d1d63d30b5e4c2bbbfa77c95924a4d4225b79fdd154cf"
+          },
+          "src/antigravity_research/gravity2/miner2_check.py": {
+            "present": true,
+            "sha256": "c7ac67e0ac3434ae9b54b177e18f88401af70e41c260d29104c30b7a436655ac"
+          },
+          "src/antigravity_research/gravity2/miner2_math.py": {
+            "present": true,
+            "sha256": "d605192dde12cba99d671086a994308c35cb2ba84120e7b207453e4d8c1770ff"
+          },
+          "src/antigravity_research/gravity2/miner_cases.py": {
+            "present": true,
+            "sha256": "8e865e903e48c1068dc288f73dfdad4d26782a06a7f2e2ea75509c142f9f1813"
+          },
+          "src/antigravity_research/gravity2/miner_verify.py": {
+            "present": true,
+            "sha256": "2bf9264d657ec71e0388c046d024d0cdda57b9dc77a81d561263f536fe3c1f0d"
+          },
+          "src/antigravity_research/gravity2/policy.py": {
+            "present": true,
+            "sha256": "e35aeb28d11fa5621d7767c53698ca614b1fa99b4efd717a415cb2d32cb6c25c"
+          },
+          "src/antigravity_research/gravity2/scientific_inputs_v3.py": {
+            "present": true,
+            "sha256": "e102c984cd403bfb4534c775c79827554801e09c4b1da3509b4ca0fba14785ff"
+          }
+        },
+        "gate": "CHARGE_BALANCE_CONTROL",
+        "runtime": {
+          "machine": "x86_64",
+          "numpy": "2.5.4",
+          "platform": "darwin",
+          "python": "CPython 3.13.15",
+          "scipy": "1.18.1",
+          "sympy": "1.14.0"
+        },
+        "schema": "gravity2.scientific_inputs.v3"
+      },
+      "scientific_verdict": "SCOPED_CONTROL_ONLY",
+      "verification_status": "VERIFIED",
+      "worker_peak_rss_mib": 64.926
+    },
+    {
+      "evidence_sha256": "7be8795e7744d859ac9c62d41901906639f939742aff77b96e1adc8376e276f3",
+      "execution_origin": "FRESH",
+      "fingerprint": "ffb7b157e6eea9f2a0bf21d7cdb6c155413d12cd38d19b247a9a25cfb2bd34d8",
+      "id": "F0_PARENT_STATE_AUDIT",
+      "review_checks": {
+        "R3B loaded failure preserved": true,
+        "candidate is source audit": true,
+        "field capacity not device energy": true,
+        "live parent DELTA1_02_OPERATOR": true,
+        "live parent DELTA1_02_REVIEW": true,
+        "live parent DELTA1_02_SCIENCE": true,
+        "live parent R3B_CAPACITY": true,
+        "live parent R3B_SOURCE": true,
+        "live parent R3C_LOADED_SOURCE": true,
+        "loaded function inventory": true,
+        "no automatic inverse": true,
+        "no certified loaded state": true,
+        "no invented controls": true,
+        "no physical promotion": true,
+        "parent status honest": true,
+        "registered gate and level": true
+      },
+      "scientific_input_manifest": {
+        "action_sha256": "795eefece6a7674240df18a2dfcf2e4b41e09d95435d35ebea36da65e8eef3a5",
+        "candidate": "R3B_F0_INTERFACE_AUDIT",
+        "coverage": "REVIEWED_L0_L1_DECLARED_INPUTS_AND_PACKAGE_PYTHON_SUPERSET",
+        "files": {
+          "results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json": {
+            "present": true,
+            "sha256": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11"
+          },
+          "results/data/032h17a12d1r3c_hook17_fdual_f_loaded_payload_homotopy_summary.json": {
+            "present": true,
+            "sha256": "3ed04c490d3754d388f8ac18adfb4284f1c20ad018d6827528e817e786420883"
+          },
+          "results/data/delta1_02_20261120T172005211391Z.json": {
+            "present": true,
+            "sha256": "3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3"
+          },
+          "results/data/delta1_02_verification_20261120T173340330519Z.json": {
+            "present": true,
+            "sha256": "db7be8e1399e0bf04db1ca21f87fd0ed5c8e2807cfcb438c278fa817993c8ded"
+          },
+          "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py": {
+            "present": true,
+            "sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263"
+          },
+          "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py": {
+            "present": true,
+            "sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee"
+          },
+          "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py": {
+            "present": true,
+            "sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395"
+          },
+          "src/antigravity_research/gravity2/__init__.py": {
+            "present": true,
+            "sha256": "c3dde1e50ce8ba78b3c7c0cb2872ed58a4f43cb472d7b84fdc290e6fe3e0a674"
+          },
+          "src/antigravity_research/gravity2/__main__.py": {
+            "present": true,
+            "sha256": "d7baf944f05116f7957b5abae9029d9d353ece808f7918af7b0633ae82e50868"
+          },
+          "src/antigravity_research/gravity2/act0.py": {
+            "present": true,
+            "sha256": "7b8d2ef2a0c567eb2f807b23c8b1bae07fe857115ac50d829292cf028b845f0f"
+          },
+          "src/antigravity_research/gravity2/action01.py": {
+            "present": true,
+            "sha256": "90b580192ed2cac027d71954ce61ffd06351ab3bb3111428f8c78d5edfbd16cb"
+          },
+          "src/antigravity_research/gravity2/action01_core.py": {
+            "present": true,
+            "sha256": "f4942f0496cf608a7f047743feb80c06bcb59505cf356a391fb6486193948940"
+          },
+          "src/antigravity_research/gravity2/action01_verify.py": {
+            "present": true,
+            "sha256": "a763eef32a44bff164c039093d655a2bd40be7facef66feafe9a7313933e8c1c"
+          },
+          "src/antigravity_research/gravity2/action02.py": {
+            "present": true,
+            "sha256": "8c3ebb85bc6817628a5fe5ba407091411db79a42716b15545292752ff2702632"
+          },
+          "src/antigravity_research/gravity2/action02_core.py": {
+            "present": true,
+            "sha256": "a85e2abd6f66529afb737e8a03a0154f5c7de5500e42124061bc404218856736"
+          },
+          "src/antigravity_research/gravity2/action02_verify.py": {
+            "present": true,
+            "sha256": "67e9201fbf7c045bafc484d3236c0933630a3bac9aebea0d18fc0cdc348586d2"
+          },
+          "src/antigravity_research/gravity2/bridge03a.py": {
+            "present": true,
+            "sha256": "3de52eae90ec63c53846392f0da0d96d579c60d7cbfdd018dd162b7dde5217bf"
+          },
+          "src/antigravity_research/gravity2/bridge03a_verify.py": {
+            "present": true,
+            "sha256": "2cf8a47b3b222a0cf0db0cd2ee7d58746fca5ac0af296990d9baaf4029dd8e89"
+          },
+          "src/antigravity_research/gravity2/bridge05.py": {
+            "present": true,
+            "sha256": "a9d7e626052cdf0212f362f02a2e459052855d561cf83ff6af12cd8180a772de"
+          },
+          "src/antigravity_research/gravity2/bridge05_check.py": {
+            "present": true,
+            "sha256": "8302a4a6c94a667ff5c215e24f0e11db026f9b94e08c9b3521c3692ec520c5b1"
+          },
+          "src/antigravity_research/gravity2/bridge05_core.py": {
+            "present": true,
+            "sha256": "3978c834ac2e94bf5a8da80c34222e80db376ff5c6fb5692d05946b3ea5e1930"
+          },
+          "src/antigravity_research/gravity2/bridge06.py": {
+            "present": true,
+            "sha256": "51b2bd92ffca62d8420bc2edecfefd5c64bf5b12ea6973e10d758fd0057834a6"
+          },
+          "src/antigravity_research/gravity2/bridge06_check.py": {
+            "present": true,
+            "sha256": "53a84a844feea3d65236f89e83cd23347b97526b7e873f8d2b05c805d826b270"
+          },
+          "src/antigravity_research/gravity2/bridge06_core.py": {
+            "present": true,
+            "sha256": "fa22add1c6696aa1fe462518879cb446dcbda9951ecd48875c5a172f2828c04f"
+          },
+          "src/antigravity_research/gravity2/bridge07.py": {
+            "present": true,
+            "sha256": "cfee800973869668a2af6392386b14f487aa629683610a2bc7e0a12600c15f5d"
+          },
+          "src/antigravity_research/gravity2/bridge07_check.py": {
+            "present": true,
+            "sha256": "0a8d44ee3ec6aa3c0e0efa5529d9f66fcf501f09bded33d489a9ed672c8a5c26"
+          },
+          "src/antigravity_research/gravity2/bridge07_core.py": {
+            "present": true,
+            "sha256": "7b70ecc745e8a8124a25283520daf6a846ed85d0b166a6257de84a7c3637ef8a"
+          },
+          "src/antigravity_research/gravity2/bridge08.py": {
+            "present": true,
+            "sha256": "d580c73a8a97260bd859176d9f4507a0828808786181ab4d5e411007f8ee290c"
+          },
+          "src/antigravity_research/gravity2/bridge08_check.py": {
+            "present": true,
+            "sha256": "75160144f63e99e08b59c1fed293da181730ff12977c4e5fa026170fd0ff64a6"
+          },
+          "src/antigravity_research/gravity2/bridge08_core.py": {
+            "present": true,
+            "sha256": "63870f7936f6b83b3e690e18087a44ebe57b2618c9109eb332ae8885bc4d63b7"
+          },
+          "src/antigravity_research/gravity2/campaign.py": {
+            "present": true,
+            "sha256": "c9b4f5055b418f834ce29df954376302be53f7678db15757287327348022865c"
+          },
+          "src/antigravity_research/gravity2/campaign_check.py": {
+            "present": true,
+            "sha256": "2b63b98dabe3011547a4952411373be35adf6a50becec2031fb1e1b2166b6b9e"
+          },
+          "src/antigravity_research/gravity2/campaign_check_v2.py": {
+            "present": true,
+            "sha256": "7a9d48cad0da0ee96a5f5bf03dfdc50c525c1a2ca5394e11a557c3fc0e6c2be5"
+          },
+          "src/antigravity_research/gravity2/campaign_check_v3.py": {
+            "present": true,
+            "sha256": "f464f0eea4047a8dc3450273724f4bb18766f89640f74588f13dcb0e8febed79"
+          },
+          "src/antigravity_research/gravity2/campaign_science.py": {
+            "present": true,
+            "sha256": "3f7943d3da1db36540e4394cd1e62c7608d8db279ab462a7b8e34fc974e9f3d7"
+          },
+          "src/antigravity_research/gravity2/campaign_v2.py": {
+            "present": true,
+            "sha256": "eeab30591418f46aea43afe7256395fd611afc93030310bccf82be61c54d801e"
+          },
+          "src/antigravity_research/gravity2/campaign_v3.py": {
+            "present": true,
+            "sha256": "601c0a175d076ff772f0765ea38276c67e084d8c5bf2ee1d79618d9ae250cd79"
+          },
+          "src/antigravity_research/gravity2/delta_f0_provider.py": {
+            "present": true,
+            "sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87"
+          },
+          "src/antigravity_research/gravity2/delta_f0_review.py": {
+            "present": true,
+            "sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7"
+          },
+          "src/antigravity_research/gravity2/engine.py": {
+            "present": true,
+            "sha256": "17f83c04ec069a56e5a678240051cbe18589398bde06de6dafb7c64d81f6fae6"
+          },
+          "src/antigravity_research/gravity2/independent.py": {
+            "present": true,
+            "sha256": "c647d335aef0303e41bceb86bdba3d63278dba753c8352f2af45ff1dc48af90d"
+          },
+          "src/antigravity_research/gravity2/miner.py": {
+            "present": true,
+            "sha256": "02972ab910dd9d6e0e8e497b3cba06e4dbcaa41ee2ab4943aa50fd4f822d5081"
+          },
+          "src/antigravity_research/gravity2/miner2.py": {
+            "present": true,
+            "sha256": "46fc1215f3d20aa03b9d1d63d30b5e4c2bbbfa77c95924a4d4225b79fdd154cf"
+          },
+          "src/antigravity_research/gravity2/miner2_check.py": {
+            "present": true,
+            "sha256": "c7ac67e0ac3434ae9b54b177e18f88401af70e41c260d29104c30b7a436655ac"
+          },
+          "src/antigravity_research/gravity2/miner2_math.py": {
+            "present": true,
+            "sha256": "d605192dde12cba99d671086a994308c35cb2ba84120e7b207453e4d8c1770ff"
+          },
+          "src/antigravity_research/gravity2/miner_cases.py": {
+            "present": true,
+            "sha256": "8e865e903e48c1068dc288f73dfdad4d26782a06a7f2e2ea75509c142f9f1813"
+          },
+          "src/antigravity_research/gravity2/miner_verify.py": {
+            "present": true,
+            "sha256": "2bf9264d657ec71e0388c046d024d0cdda57b9dc77a81d561263f536fe3c1f0d"
+          },
+          "src/antigravity_research/gravity2/policy.py": {
+            "present": true,
+            "sha256": "e35aeb28d11fa5621d7767c53698ca614b1fa99b4efd717a415cb2d32cb6c25c"
+          },
+          "src/antigravity_research/gravity2/scientific_inputs_v3.py": {
+            "present": true,
+            "sha256": "e102c984cd403bfb4534c775c79827554801e09c4b1da3509b4ca0fba14785ff"
+          }
+        },
+        "gate": "F0_PARENT_STATE_AUDIT",
+        "runtime": {
+          "machine": "x86_64",
+          "numpy": "2.5.4",
+          "platform": "darwin",
+          "python": "CPython 3.13.15",
+          "scipy": "1.18.1",
+          "sympy": "1.14.0"
+        },
+        "schema": "gravity2.scientific_inputs.v3"
+      },
+      "scientific_verdict": "UNDERDETERMINED",
+      "verification_status": "VERIFIED",
+      "worker_peak_rss_mib": 63.949
+    },
+    {
+      "evidence_sha256": "84cedabe2364d5d7521bb1b64f6d097991a97ee2c9e9bc2f72a6a08097a2ab82",
+      "execution_origin": "FRESH",
+      "fingerprint": "0efa30b8b628a36565f4d804034c51388142d590b8e43b3732541301d809c0d5",
+      "id": "F0_LOADED_RECIPROCITY",
+      "review_checks": {
+        "R3B loaded sign preserved": true,
+        "candidate is source audit": true,
+        "coupling-off null": true,
+        "independent finite difference": true,
+        "independent lambda sample": true,
+        "independent second variation": true,
+        "no energy or craft promotion": true,
+        "no physical promotion": true,
+        "no sourceable JVP promotion": true,
+        "omitted curvature rejected": true,
+        "registered gate and level": true,
+        "second derivative with curvature": true,
+        "trace derivative": true,
+        "trace-off null": true,
+        "transverse trace identity": true
+      },
+      "scientific_input_manifest": {
+        "action_sha256": "795eefece6a7674240df18a2dfcf2e4b41e09d95435d35ebea36da65e8eef3a5",
+        "candidate": "R3B_F0_INTERFACE_AUDIT",
+        "coverage": "REVIEWED_L0_L1_DECLARED_INPUTS_AND_PACKAGE_PYTHON_SUPERSET",
+        "files": {
+          "results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json": {
+            "present": true,
+            "sha256": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11"
+          },
+          "results/data/032h17a12d1r3c_hook17_fdual_f_loaded_payload_homotopy_summary.json": {
+            "present": true,
+            "sha256": "3ed04c490d3754d388f8ac18adfb4284f1c20ad018d6827528e817e786420883"
+          },
+          "results/data/delta1_02_20261120T172005211391Z.json": {
+            "present": true,
+            "sha256": "3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3"
+          },
+          "results/data/delta1_02_verification_20261120T173340330519Z.json": {
+            "present": true,
+            "sha256": "db7be8e1399e0bf04db1ca21f87fd0ed5c8e2807cfcb438c278fa817993c8ded"
+          },
+          "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py": {
+            "present": true,
+            "sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263"
+          },
+          "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py": {
+            "present": true,
+            "sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee"
+          },
+          "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py": {
+            "present": true,
+            "sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395"
+          },
+          "src/antigravity_research/gravity2/__init__.py": {
+            "present": true,
+            "sha256": "c3dde1e50ce8ba78b3c7c0cb2872ed58a4f43cb472d7b84fdc290e6fe3e0a674"
+          },
+          "src/antigravity_research/gravity2/__main__.py": {
+            "present": true,
+            "sha256": "d7baf944f05116f7957b5abae9029d9d353ece808f7918af7b0633ae82e50868"
+          },
+          "src/antigravity_research/gravity2/act0.py": {
+            "present": true,
+            "sha256": "7b8d2ef2a0c567eb2f807b23c8b1bae07fe857115ac50d829292cf028b845f0f"
+          },
+          "src/antigravity_research/gravity2/action01.py": {
+            "present": true,
+            "sha256": "90b580192ed2cac027d71954ce61ffd06351ab3bb3111428f8c78d5edfbd16cb"
+          },
+          "src/antigravity_research/gravity2/action01_core.py": {
+            "present": true,
+            "sha256": "f4942f0496cf608a7f047743feb80c06bcb59505cf356a391fb6486193948940"
+          },
+          "src/antigravity_research/gravity2/action01_verify.py": {
+            "present": true,
+            "sha256": "a763eef32a44bff164c039093d655a2bd40be7facef66feafe9a7313933e8c1c"
+          },
+          "src/antigravity_research/gravity2/action02.py": {
+            "present": true,
+            "sha256": "8c3ebb85bc6817628a5fe5ba407091411db79a42716b15545292752ff2702632"
+          },
+          "src/antigravity_research/gravity2/action02_core.py": {
+            "present": true,
+            "sha256": "a85e2abd6f66529afb737e8a03a0154f5c7de5500e42124061bc404218856736"
+          },
+          "src/antigravity_research/gravity2/action02_verify.py": {
+            "present": true,
+            "sha256": "67e9201fbf7c045bafc484d3236c0933630a3bac9aebea0d18fc0cdc348586d2"
+          },
+          "src/antigravity_research/gravity2/bridge03a.py": {
+            "present": true,
+            "sha256": "3de52eae90ec63c53846392f0da0d96d579c60d7cbfdd018dd162b7dde5217bf"
+          },
+          "src/antigravity_research/gravity2/bridge03a_verify.py": {
+            "present": true,
+            "sha256": "2cf8a47b3b222a0cf0db0cd2ee7d58746fca5ac0af296990d9baaf4029dd8e89"
+          },
+          "src/antigravity_research/gravity2/bridge05.py": {
+            "present": true,
+            "sha256": "a9d7e626052cdf0212f362f02a2e459052855d561cf83ff6af12cd8180a772de"
+          },
+          "src/antigravity_research/gravity2/bridge05_check.py": {
+            "present": true,
+            "sha256": "8302a4a6c94a667ff5c215e24f0e11db026f9b94e08c9b3521c3692ec520c5b1"
+          },
+          "src/antigravity_research/gravity2/bridge05_core.py": {
+            "present": true,
+            "sha256": "3978c834ac2e94bf5a8da80c34222e80db376ff5c6fb5692d05946b3ea5e1930"
+          },
+          "src/antigravity_research/gravity2/bridge06.py": {
+            "present": true,
+            "sha256": "51b2bd92ffca62d8420bc2edecfefd5c64bf5b12ea6973e10d758fd0057834a6"
+          },
+          "src/antigravity_research/gravity2/bridge06_check.py": {
+            "present": true,
+            "sha256": "53a84a844feea3d65236f89e83cd23347b97526b7e873f8d2b05c805d826b270"
+          },
+          "src/antigravity_research/gravity2/bridge06_core.py": {
+            "present": true,
+            "sha256": "fa22add1c6696aa1fe462518879cb446dcbda9951ecd48875c5a172f2828c04f"
+          },
+          "src/antigravity_research/gravity2/bridge07.py": {
+            "present": true,
+            "sha256": "cfee800973869668a2af6392386b14f487aa629683610a2bc7e0a12600c15f5d"
+          },
+          "src/antigravity_research/gravity2/bridge07_check.py": {
+            "present": true,
+            "sha256": "0a8d44ee3ec6aa3c0e0efa5529d9f66fcf501f09bded33d489a9ed672c8a5c26"
+          },
+          "src/antigravity_research/gravity2/bridge07_core.py": {
+            "present": true,
+            "sha256": "7b70ecc745e8a8124a25283520daf6a846ed85d0b166a6257de84a7c3637ef8a"
+          },
+          "src/antigravity_research/gravity2/bridge08.py": {
+            "present": true,
+            "sha256": "d580c73a8a97260bd859176d9f4507a0828808786181ab4d5e411007f8ee290c"
+          },
+          "src/antigravity_research/gravity2/bridge08_check.py": {
+            "present": true,
+            "sha256": "75160144f63e99e08b59c1fed293da181730ff12977c4e5fa026170fd0ff64a6"
+          },
+          "src/antigravity_research/gravity2/bridge08_core.py": {
+            "present": true,
+            "sha256": "63870f7936f6b83b3e690e18087a44ebe57b2618c9109eb332ae8885bc4d63b7"
+          },
+          "src/antigravity_research/gravity2/campaign.py": {
+            "present": true,
+            "sha256": "c9b4f5055b418f834ce29df954376302be53f7678db15757287327348022865c"
+          },
+          "src/antigravity_research/gravity2/campaign_check.py": {
+            "present": true,
+            "sha256": "2b63b98dabe3011547a4952411373be35adf6a50becec2031fb1e1b2166b6b9e"
+          },
+          "src/antigravity_research/gravity2/campaign_check_v2.py": {
+            "present": true,
+            "sha256": "7a9d48cad0da0ee96a5f5bf03dfdc50c525c1a2ca5394e11a557c3fc0e6c2be5"
+          },
+          "src/antigravity_research/gravity2/campaign_check_v3.py": {
+            "present": true,
+            "sha256": "f464f0eea4047a8dc3450273724f4bb18766f89640f74588f13dcb0e8febed79"
+          },
+          "src/antigravity_research/gravity2/campaign_science.py": {
+            "present": true,
+            "sha256": "3f7943d3da1db36540e4394cd1e62c7608d8db279ab462a7b8e34fc974e9f3d7"
+          },
+          "src/antigravity_research/gravity2/campaign_v2.py": {
+            "present": true,
+            "sha256": "eeab30591418f46aea43afe7256395fd611afc93030310bccf82be61c54d801e"
+          },
+          "src/antigravity_research/gravity2/campaign_v3.py": {
+            "present": true,
+            "sha256": "601c0a175d076ff772f0765ea38276c67e084d8c5bf2ee1d79618d9ae250cd79"
+          },
+          "src/antigravity_research/gravity2/delta_f0_provider.py": {
+            "present": true,
+            "sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87"
+          },
+          "src/antigravity_research/gravity2/delta_f0_review.py": {
+            "present": true,
+            "sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7"
+          },
+          "src/antigravity_research/gravity2/engine.py": {
+            "present": true,
+            "sha256": "17f83c04ec069a56e5a678240051cbe18589398bde06de6dafb7c64d81f6fae6"
+          },
+          "src/antigravity_research/gravity2/independent.py": {
+            "present": true,
+            "sha256": "c647d335aef0303e41bceb86bdba3d63278dba753c8352f2af45ff1dc48af90d"
+          },
+          "src/antigravity_research/gravity2/miner.py": {
+            "present": true,
+            "sha256": "02972ab910dd9d6e0e8e497b3cba06e4dbcaa41ee2ab4943aa50fd4f822d5081"
+          },
+          "src/antigravity_research/gravity2/miner2.py": {
+            "present": true,
+            "sha256": "46fc1215f3d20aa03b9d1d63d30b5e4c2bbbfa77c95924a4d4225b79fdd154cf"
+          },
+          "src/antigravity_research/gravity2/miner2_check.py": {
+            "present": true,
+            "sha256": "c7ac67e0ac3434ae9b54b177e18f88401af70e41c260d29104c30b7a436655ac"
+          },
+          "src/antigravity_research/gravity2/miner2_math.py": {
+            "present": true,
+            "sha256": "d605192dde12cba99d671086a994308c35cb2ba84120e7b207453e4d8c1770ff"
+          },
+          "src/antigravity_research/gravity2/miner_cases.py": {
+            "present": true,
+            "sha256": "8e865e903e48c1068dc288f73dfdad4d26782a06a7f2e2ea75509c142f9f1813"
+          },
+          "src/antigravity_research/gravity2/miner_verify.py": {
+            "present": true,
+            "sha256": "2bf9264d657ec71e0388c046d024d0cdda57b9dc77a81d561263f536fe3c1f0d"
+          },
+          "src/antigravity_research/gravity2/policy.py": {
+            "present": true,
+            "sha256": "e35aeb28d11fa5621d7767c53698ca614b1fa99b4efd717a415cb2d32cb6c25c"
+          },
+          "src/antigravity_research/gravity2/scientific_inputs_v3.py": {
+            "present": true,
+            "sha256": "e102c984cd403bfb4534c775c79827554801e09c4b1da3509b4ca0fba14785ff"
+          }
+        },
+        "gate": "F0_LOADED_RECIPROCITY",
+        "runtime": {
+          "machine": "x86_64",
+          "numpy": "2.5.4",
+          "platform": "darwin",
+          "python": "CPython 3.13.15",
+          "scipy": "1.18.1",
+          "sympy": "1.14.0"
+        },
+        "schema": "gravity2.scientific_inputs.v3"
+      },
+      "scientific_verdict": "SCOPED_CONTROL_ONLY",
+      "verification_status": "VERIFIED",
+      "worker_peak_rss_mib": 64.891
+    }
+  ],
+  "last_checkpoint_sha256": "3aa219ebe03c60678c93bdef56bb0fecec42e339cea0caa735a3feb214e098b3",
+  "program": "GRAVITY2_V5_CRASH_SAFE_CAMPAIGN",
+  "qualified_physical_survivors": 0,
+  "remaining": [],
+  "run_id": "g2camp5_20261121T204838Z_385faf48",
+  "skipped": [],
+  "state": "COMPLETED",
+  "whole_craft_lift": "NOT_DERIVED"
+}

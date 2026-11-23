@@ -1,0 +1,69 @@
+{
+  "auditor_sha256": "25a688947d6bc7297882d63e2d30ee613538416afd3cfd343328115784bcbd91",
+  "checks": [
+    {
+      "Euler_residual": 7.735671130802788e-10,
+      "energy_J": 7472835.811291121,
+      "ground_force_by_work_N": 30729.687058444444,
+      "ground_reaction_N": 30693.221387999496,
+      "k": 3e-14,
+      "minimum_up_m_s2": 60.18631009328767,
+      "n_angle": 78,
+      "shift_step_m": 0.006
+    },
+    {
+      "Euler_residual": 1.3641512797114484e-09,
+      "energy_J": 7734283.381778349,
+      "ground_force_by_work_N": 30081.57964120619,
+      "ground_reaction_N": 29981.9778713738,
+      "k": 3e-13,
+      "minimum_up_m_s2": 440.10006777301265,
+      "n_angle": 78,
+      "shift_step_m": 0.006
+    },
+    {
+      "Euler_residual": 7.450359078765268e-10,
+      "energy_J": 7472770.640250461,
+      "ground_force_by_work_N": 30326.967935698725,
+      "ground_reaction_N": 30313.9682246612,
+      "k": 3e-14,
+      "minimum_up_m_s2": 60.13804168426944,
+      "n_angle": 138,
+      "shift_step_m": 0.003
+    },
+    {
+      "Euler_residual": 1.2532805899439428e-09,
+      "energy_J": 7734061.576926582,
+      "ground_force_by_work_N": 29333.48053662727,
+      "ground_reaction_N": 29300.80974581805,
+      "k": 3e-13,
+      "minimum_up_m_s2": 438.605983198932,
+      "n_angle": 138,
+      "shift_step_m": 0.003
+    }
+  ],
+  "comparison_sha256": "85ff6d6fb682c22522a358d220ea4b46a1f8b6c8ace7a131936adafd1a1704ac",
+  "comparisons": [
+    {
+      "k": 3e-14,
+      "passes": true,
+      "relative_acceleration_difference": 0.0004366625892653353,
+      "relative_energy_difference": 8.668334801620325e-06,
+      "relative_force_difference": 0.004934246783231178,
+      "relative_force_work_difference": 0.00042883567539497847
+    },
+    {
+      "k": 3e-13,
+      "passes": true,
+      "relative_acceleration_difference": 0.0016019333996759588,
+      "relative_energy_difference": 5.559797232601582e-06,
+      "relative_force_difference": 0.010783020157500323,
+      "relative_force_work_difference": 0.0011150132399970758
+    }
+  ],
+  "full_regression": "NOT_RUN",
+  "physical_survivors": 0,
+  "science_sha256": "eda762f4f920130fc01d4dc088f9ffd957149079f387b6fdd5b5958ce1c7968c",
+  "source_realization": "ASSUMED_DARK_ELECTRODE_CHARGES",
+  "status": "PASS_SCOPED_TWO_DISCRETIZATIONS"
+}

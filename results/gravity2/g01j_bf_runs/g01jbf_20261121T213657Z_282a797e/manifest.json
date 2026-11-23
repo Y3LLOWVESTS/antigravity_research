@@ -1,0 +1,24 @@
+{
+  "parent_pins": {
+    "R3B_LOADED_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+      "sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7"
+    },
+    "R3B_RESULT": {
+      "path": "results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json",
+      "sha256": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11"
+    },
+    "R3B_SOURCE": {
+      "path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+      "sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263"
+    }
+  },
+  "run_id": "g01jbf_20261121T213657Z_282a797e",
+  "schema": "gravity2.g01j.bf_manifest.v1",
+  "sources_sha256": {
+    "g01j_bf_check_v1.py": "962c469a82138a69acf03273f55a0a16267e89e2eb3c4fb61b79419ab4b17c0e",
+    "g01j_bf_source_v1.py": "b8e751c300bb5c11b90b9506d7eb81d2534b7374b4a8261c72a7b9eca1e7080f"
+  },
+  "test_policy": "NO_FULL_REPOSITORY_REGRESSION",
+  "utc": "2026-11-21T21:36:57.784841+00:00"
+}

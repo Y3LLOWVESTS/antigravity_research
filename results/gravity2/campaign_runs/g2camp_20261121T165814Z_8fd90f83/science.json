@@ -1,0 +1,223 @@
+{
+  "006D_replaced": false,
+  "candidate_count": 2,
+  "elapsed_s": 0.0473,
+  "energy_J": "NOT_CERTIFIED",
+  "full_repository_regression": "NOT_RUN",
+  "jobs": [
+    {
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "evidence": {
+        "from_run": "g2camp_20261121T165808Z_9aba14a5",
+        "path": "results/gravity2/campaign_runs/g2camp_20261121T165808Z_9aba14a5/JPAIR_ACTION_INVENTORY.json",
+        "sha256": "4f053c30fc97daee12b4510b506ee4efed26736c849e8ef25ae07d4d244335a9"
+      },
+      "fingerprint": "ab7a99c99e2095ee6a5e509ad19a6ecddc65e533437d7ac634ed585a39152e9d",
+      "gate": "ACTION_COMPLETENESS",
+      "id": "JPAIR_ACTION_INVENTORY",
+      "status": "REUSED_VERIFIED",
+      "worker_peak_rss_mib": null
+    },
+    {
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "evidence": {
+        "from_run": "g2camp_20261121T165808Z_9aba14a5",
+        "path": "results/gravity2/campaign_runs/g2camp_20261121T165808Z_9aba14a5/JPAIR_CHARGE_CONTROL.json",
+        "sha256": "6a986320af0a1a9375d0910881de01158d8164222b2cc8ca01506ceaaca1e730"
+      },
+      "fingerprint": "678300df89bb8c62bd537436879d995bd1df894d97e1ff06a81ce51295441143",
+      "gate": "CHARGE_BALANCE_CONTROL",
+      "id": "JPAIR_CHARGE_CONTROL",
+      "status": "REUSED_VERIFIED",
+      "worker_peak_rss_mib": null
+    },
+    {
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "evidence": {
+        "from_run": "g2camp_20261121T165808Z_9aba14a5",
+        "path": "results/gravity2/campaign_runs/g2camp_20261121T165808Z_9aba14a5/F0_PARENT_STATE_AUDIT.json",
+        "sha256": "7be8795e7744d859ac9c62d41901906639f939742aff77b96e1adc8376e276f3"
+      },
+      "fingerprint": "91b5c77c111b0d3f4a43db7dafe350c8bc44f43a60abafa5bd9796f6941c8012",
+      "gate": "F0_PARENT_STATE_AUDIT",
+      "id": "F0_PARENT_STATE_AUDIT",
+      "status": "REUSED_VERIFIED",
+      "worker_peak_rss_mib": null
+    },
+    {
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "evidence": {
+        "from_run": "g2camp_20261121T165808Z_9aba14a5",
+        "path": "results/gravity2/campaign_runs/g2camp_20261121T165808Z_9aba14a5/F0_LOADED_RECIPROCITY.json",
+        "sha256": "84cedabe2364d5d7521bb1b64f6d097991a97ee2c9e9bc2f72a6a08097a2ab82"
+      },
+      "fingerprint": "cfc2633a74af87ae310e64c4048ba799fed101271f9a5c1e4bb164f0c30a4c1b",
+      "gate": "F0_LOADED_RECIPROCITY",
+      "id": "F0_LOADED_RECIPROCITY",
+      "status": "REUSED_VERIFIED",
+      "worker_peak_rss_mib": null
+    }
+  ],
+  "next_missing_physics": [
+    "complete off-shell source/X/Y/neutral/Earth/support/Einstein action",
+    "physical metric Hodge and constrained mode derivation",
+    "finite source with conserved charges and dynamic supports",
+    "exterior/Earth/craft force, mode/UV and complete SI energy"
+  ],
+  "parent_locks": {
+    "G07_ARCHIVE": {
+      "actual_sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d",
+      "expected_sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d",
+      "match": true,
+      "relative_path": "results/gravity2/bridge07_runs/g207_20261121T065202Z_450b9280/fields.npz"
+    },
+    "G08_SCIENCE": {
+      "actual_sha256": "a883cbe884ef97b839995da7437cf2a3d8c0451dc1415f88caf6ed314ac5e419",
+      "expected_sha256": "a883cbe884ef97b839995da7437cf2a3d8c0451dc1415f88caf6ed314ac5e419",
+      "match": true,
+      "relative_path": "results/gravity2/bridge08_runs/g208_20261121T070239Z_467d6a03/science.json"
+    },
+    "G08_VERIFICATION": {
+      "actual_sha256": "fb14efd798d6a58472421ab611c896c974aff62f743d7666219f0cecd3d676c9",
+      "expected_sha256": "fb14efd798d6a58472421ab611c896c974aff62f743d7666219f0cecd3d676c9",
+      "match": true,
+      "relative_path": "results/gravity2/bridge08_runs/g208_20261121T070239Z_467d6a03/verification.json"
+    }
+  },
+  "program": "GRAVITY2_AUTONOMOUS_CAMPAIGN",
+  "qualified_physical_survivors": 0,
+  "registered_tasks": [
+    {
+      "action": {
+        "Earth_action": null,
+        "Einstein_Hilbert_boundary_action": null,
+        "charges": [
+          0.4,
+          -0.4
+        ],
+        "dynamical_source_and_X": false,
+        "exterior": "PERIODIC_2D_CONTROL",
+        "frequencies": [
+          1.25,
+          1.25
+        ],
+        "metric_Hodge_variation_complete": false,
+        "neutral_action": null,
+        "physical_SI_normalization": false,
+        "potential": "POSITIVE_CONVEX_LOCAL_TEMPLATE",
+        "source_fields": 2,
+        "source_frame": "JORDAN",
+        "source_support_action": null
+      },
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "gate": "ACTION_COMPLETENESS",
+      "id": "JPAIR_ACTION_INVENTORY",
+      "independent": "campaign_check",
+      "level": "L0",
+      "module": "campaign_science",
+      "priority": 100,
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    },
+    {
+      "action": {
+        "Earth_action": null,
+        "Einstein_Hilbert_boundary_action": null,
+        "charges": [
+          0.4,
+          -0.4
+        ],
+        "dynamical_source_and_X": false,
+        "exterior": "PERIODIC_2D_CONTROL",
+        "frequencies": [
+          1.25,
+          1.25
+        ],
+        "metric_Hodge_variation_complete": false,
+        "neutral_action": null,
+        "physical_SI_normalization": false,
+        "potential": "POSITIVE_CONVEX_LOCAL_TEMPLATE",
+        "source_fields": 2,
+        "source_frame": "JORDAN",
+        "source_support_action": null
+      },
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "gate": "CHARGE_BALANCE_CONTROL",
+      "id": "JPAIR_CHARGE_CONTROL",
+      "independent": "campaign_check",
+      "level": "L1",
+      "module": "campaign_science",
+      "priority": 90,
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    },
+    {
+      "action": {
+        "Earth_and_support": "NOT_DERIVED",
+        "exterior": "NOT_DERIVED",
+        "family": "R3B_M0_UNMODIFIED_JORDAN_PORTAL",
+        "input": "IMMUTABLE_PARENT_R3B_SOURCES_AND_DELTA1_02",
+        "loaded_JVP": "NOT_AVAILABLE_AS_A_CERTIFIED_SAME_ACTION_ARTIFACT",
+        "neutral_metric": "g_phys=exp(2*sigma(P))*g_Einstein",
+        "physical_survivor": false,
+        "sigma": "alpha*P-beta*P**2",
+        "source_variation": "NOT_ESTABLISHED"
+      },
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "gate": "F0_PARENT_STATE_AUDIT",
+      "id": "F0_PARENT_STATE_AUDIT",
+      "independent": "delta_f0_review",
+      "independent_sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7",
+      "level": "L0",
+      "module": "delta_f0_provider",
+      "priority": 85,
+      "provider_sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87",
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    },
+    {
+      "action": {
+        "Earth_and_support": "NOT_DERIVED",
+        "exterior": "NOT_DERIVED",
+        "family": "R3B_M0_UNMODIFIED_JORDAN_PORTAL",
+        "input": "IMMUTABLE_PARENT_R3B_SOURCES_AND_DELTA1_02",
+        "loaded_JVP": "NOT_AVAILABLE_AS_A_CERTIFIED_SAME_ACTION_ARTIFACT",
+        "neutral_metric": "g_phys=exp(2*sigma(P))*g_Einstein",
+        "physical_survivor": false,
+        "sigma": "alpha*P-beta*P**2",
+        "source_variation": "NOT_ESTABLISHED"
+      },
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "gate": "F0_LOADED_RECIPROCITY",
+      "id": "F0_LOADED_RECIPROCITY",
+      "independent": "delta_f0_review",
+      "independent_sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7",
+      "level": "L1",
+      "module": "delta_f0_provider",
+      "priority": 84,
+      "provider_sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87",
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    }
+  ],
+  "remaining": [],
+  "run_id": "g2camp_20261121T165814Z_8fd90f83",
+  "scientific_board": {
+    "G00": "PASS_PARENT_SHA",
+    "G01": "INCOMPLETE_SUPPORT_EARTH_NEUTRAL_EINSTEIN",
+    "G02": "SCOPED_SOURCE_ONLY",
+    "G03": "PARTIAL_WARD_ONLY",
+    "G04": "NOT_DERIVED",
+    "G05": "PERIODIC_SINGLE_CHARGE_OBSTRUCTED_JPAIR_CONTROL_ONLY",
+    "G06": "NOT_DERIVED",
+    "G07": "NOT_DERIVED",
+    "G08": "NOT_DERIVED",
+    "G09": "NOT_DERIVED",
+    "G10": "NOT_DERIVED",
+    "G11": "NOT_DERIVED"
+  },
+  "scope": "FINITE_REGISTERED_GATES_NO_SELF_INVENTED_ACTION",
+  "skipped": [],
+  "state": "COMPLETED",
+  "whole_craft_lift": "NOT_DERIVED"
+}

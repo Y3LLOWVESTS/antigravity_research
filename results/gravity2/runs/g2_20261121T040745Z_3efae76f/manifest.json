@@ -1,0 +1,24 @@
+{
+  "continuation_of": null,
+  "created_utc": "2026-11-21T04:07:45Z",
+  "disk_soft_limit_mib": 4,
+  "global_disk_soft_limit_mib": 200,
+  "legacy_miner_access": "READ_ONLY_SOURCE_SHA_NO_EXECUTION_OR_WRITES",
+  "level": "L0",
+  "preset": "quick",
+  "producer_sources_sha256": {
+    "__init__.py": "c3dde1e50ce8ba78b3c7c0cb2872ed58a4f43cb472d7b84fdc290e6fe3e0a674",
+    "engine.py": "17f83c04ec069a56e5a678240051cbe18589398bde06de6dafb7c64d81f6fae6",
+    "independent.py": "c647d335aef0303e41bceb86bdba3d63278dba753c8352f2af45ff1dc48af90d",
+    "policy.py": "e35aeb28d11fa5621d7767c53698ca614b1fa99b4efd717a415cb2d32cb6c25c"
+  },
+  "program": "GRAVITY2-R3B-ACTIONMINER",
+  "regression": "NOT_RUN",
+  "requested_seconds": 30.0,
+  "rss_soft_limit_mib": 384,
+  "run_id": "g2_20261121T040745Z_3efae76f",
+  "runtime_python": "3.13.15",
+  "schema": "gravity2.v1",
+  "science_scope": "PROVENANCE_AND_NEGATIVE_CONTROL_ONLY",
+  "workers": 1
+}

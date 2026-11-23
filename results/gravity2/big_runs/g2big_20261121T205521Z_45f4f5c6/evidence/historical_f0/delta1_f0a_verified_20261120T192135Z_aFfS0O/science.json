@@ -1,0 +1,37 @@
+{
+  "F1": "HOLD",
+  "action_density": "I*Pdot^2/2 - a*P^2/2 - b*(P^2)^2/4 - k*|grad P|^2/2 + P.E_X",
+  "assumptions": "I,b,k,epsilon_X positive; no free charge, drive, surface anchoring or screening",
+  "cpu_s": 0.004721000000000003,
+  "critical_epsilon_k_over_R2": 0.07692973043173272,
+  "critical_sqrt_epsilon_k_m": 0.5547241852731237,
+  "current": "rho=-div(1_ball P); J=dt(1_ball P) for a fixed material region",
+  "first_root": 2.0815759778181,
+  "full_regression": "PENDING",
+  "historical_preload_electric_dipole_energy_fraction": 0.999999849528466,
+  "lambda_unit_ball": 4.33295855142938,
+  "missing": [
+    "microscopic X-charged material and coefficients",
+    "mechanics of source boundary",
+    "Y source",
+    "loaded 1 kg torus and Earth/craft response",
+    "complete operating energy"
+  ],
+  "model": "Fixed 3D ball; isotropic quartic polarization; vacuum X; natural gradient boundary",
+  "new_PDE_solves": 0,
+  "ordered_branch": "P0^2=-(a+1/(3*epsilon_X))/b > 0",
+  "parents": {
+    "032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11",
+    "032h17a12d1r3x3b7_finite_charge_shell_summary.json": "e08703d4b6cd256e007b2e4f46b861f803bca493e30de8e9196d878ff0749e19",
+    "delta1_f0_20261120T190601Z_EHxGDA/science.json": "2feab292375dd33f7d97b66e71ad379ce9dd689dd4767052e06d68ede9850bb4",
+    "delta1_f0_20261120T190601Z_EHxGDA/verify_34S2RK/verification.json": "b750a86cf37b255f15cacecec33ad5208773694991d5b39cb81c8a182584c052"
+  },
+  "producer_sha256": "cab7e65617ab751ed3845eed88b740370ec26e7220a4f436f4fa56063b767c15",
+  "qualified_gravity_bridges": 0,
+  "run": "DELTA1-F0A",
+  "scope": "Static polarization Hessian after electrostatic elimination; two uniform rotation zero modes",
+  "source_radius_m": 2.0,
+  "status": "CONDITIONAL_STATIC_SOURCE_CRITERION",
+  "utc": "2026-11-20T19:16:06.656784+00:00",
+  "wall_s": 0.008039008
+}

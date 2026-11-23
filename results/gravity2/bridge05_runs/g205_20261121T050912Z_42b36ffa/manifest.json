@@ -1,0 +1,18 @@
+{
+  "RSS_soft_mib": 384,
+  "created_utc": "2026-11-21T05:09:12.648990+00:00",
+  "disk_soft_mib": 4,
+  "legacy_AGMINER": "READ_ONLY_HASH_NO_EXECUTION",
+  "level": "L0",
+  "preset": "quick",
+  "prior_modification": "NONE",
+  "producer_sha256": {
+    "bridge05.py": "a9d7e626052cdf0212f362f02a2e459052855d561cf83ff6af12cd8180a772de",
+    "bridge05_check.py": "8302a4a6c94a667ff5c215e24f0e11db026f9b94e08c9b3521c3692ec520c5b1",
+    "bridge05_core.py": "3978c834ac2e94bf5a8da80c34222e80db376ff5c6fb5692d05946b3ea5e1930"
+  },
+  "program": "GRAVITY2-05",
+  "run_id": "g205_20261121T050912Z_42b36ffa",
+  "time_limit_seconds": 30.0,
+  "workers": 1
+}

@@ -1,0 +1,48 @@
+{
+  "Einstein_gravity": "NOT_SOLVED",
+  "GR_energy": "NOT_CERTIFIED",
+  "R3B_coupled_loaded_solve": "NOT_AUTHORIZED",
+  "changes_portal_source_loading": false,
+  "charge_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "decision": "ONE_EXTERIOR_CARRIER_HIGGSED_OTHER_UNBROKEN",
+  "exterior_gauge_mass_matrix": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "exterior_higgs_scope": "EXTERIOR_CONSTANT_VEV_ONLY; INTERIOR_CONDENSATE_NOT_EXCLUDED",
+  "exterior_mass_rank": 1,
+  "fingerprint": "25c5d63f7931016bb7f6e5642179ab8cddb6acc55af4bce56cf53909ab6c0545",
+  "id": "C_HIGGS_Y_CONTROL",
+  "massless_U1_count": 1,
+  "necessary_identity_checks": {
+    "4D_source_Ward_with_variable_conformal_weight": "ZERO_OFF_SHELL",
+    "Einstein_source_direct_P_variation": "ZERO",
+    "Jordan_source_extra_P_variation": "NONZERO_GENERAL",
+    "omitted_source_trace_control": "NONZERO",
+    "reversed_Ward_sign_control": "NONZERO",
+    "scope": "EXACT_FORMAL_SOURCE_SECTOR; NOT_FULL_EINSTEIN_ACTION",
+    "source_trace": "Ttilde_source=-e^(-2sigma)*K-4V",
+    "source_trace_P_variation": "dL_J/dP=e^(4sigma)*Ttilde_source*sigma_P"
+  },
+  "parent_fingerprint": "3e2a70a2b301660d31aea85a2733ad9d4b27845be69801f31a92b03615d0a3b9",
+  "physical_lift": "NOT_DERIVED",
+  "qualified_physical_survivor": false,
+  "source_finite_stable": "NOT_ESTABLISHED",
+  "source_in_physical_metric": true,
+  "supports_Earth_neutral_EOM": "NOT_DERIVED"
+}

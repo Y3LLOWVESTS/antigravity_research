@@ -1,0 +1,76 @@
+{
+  "006D_replaced": false,
+  "Earth_down_craft_up": "NOT_DERIVED",
+  "complete_energy": "NOT_CERTIFIED",
+  "errors": [],
+  "full_regression": "NOT_RUN_DEFAULT",
+  "generated_utc": "2026-11-21T20:55:49.399010+00:00",
+  "next_scientific_gate": "G01_ACTION",
+  "physical_survivors": 0,
+  "physics_experiments_new": 0,
+  "run_id": "g2big_20261121T205521Z_45f4f5c6",
+  "run_ids": {
+    "v5": "g2camp5_20261121T205540Z_dfcc3105",
+    "v8": "g2research8_20261121T205546Z_c6c873b1"
+  },
+  "schema": "gravity2.big_scoped_batch.v1",
+  "status": "PASS_SCOPED",
+  "steps": [
+    {
+      "exit_code": 0,
+      "log": "focused_tests.log",
+      "log_sha256": "3ab5429d61854fe379610dda9ae1e3892537ae76421b43891f3603da1ce4e5ac",
+      "name": "focused_tests"
+    },
+    {
+      "exit_code": 0,
+      "log": "registry_audit.log",
+      "log_sha256": "5d799480912b40a13d0cd4e251e1c8e133c3dc69140f99a353038e1c8dd33ed9",
+      "name": "registry_audit"
+    },
+    {
+      "exit_code": 0,
+      "log": "historical_v4_fresh.log",
+      "log_sha256": "751633213915fd956852db7f2a86e454cc80d208fd040985f177b5d2246b69c5",
+      "name": "historical_v4_fresh"
+    },
+    {
+      "exit_code": 0,
+      "log": "historical_v4_cache.log",
+      "log_sha256": "fab153352ba9df159c2754f4c22e0fb70245debaaf30f02bf6e1b8e3ee314cbe",
+      "name": "historical_v4_cache"
+    },
+    {
+      "exit_code": 0,
+      "log": "historical_v5_recovered.log",
+      "log_sha256": "726e7b0734f8a2baf25e5e4952aac23dfd9b81486831cb94825fc132e1c8dbd4",
+      "name": "historical_v5_recovered"
+    },
+    {
+      "exit_code": 0,
+      "log": "fresh_v5.log",
+      "log_sha256": "d40be10388899336643671985669cd111aca53f3db712503329af989481094b8",
+      "name": "fresh_v5"
+    },
+    {
+      "exit_code": 0,
+      "log": "fresh_v8.log",
+      "log_sha256": "86090e2c2e0521c29b17891087de3a8b2f353cdf00f704738f741553e04197fc",
+      "name": "fresh_v8"
+    },
+    {
+      "exit_code": 0,
+      "log": "verify_v5.log",
+      "log_sha256": "5a3ab919fb0dddd21a5dafa8f3d1f13ee8dcb0087c13ebe5cc5e58fa5c685dc1",
+      "name": "verify_v5"
+    },
+    {
+      "exit_code": 0,
+      "log": "verify_v8.log",
+      "log_sha256": "b0555a0c66112959faf6848a13288502362c7dad3bfe727c7a79845b28587e2c",
+      "name": "verify_v8"
+    }
+  ],
+  "stress_status": "PASS_SCOPED_TOY_NO_GRAVITY",
+  "whole_craft_lift": "NOT_DERIVED"
+}

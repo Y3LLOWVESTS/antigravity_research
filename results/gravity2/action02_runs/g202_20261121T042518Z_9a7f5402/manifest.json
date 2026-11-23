@@ -1,0 +1,17 @@
+{
+  "GRAVITY2_00_01": "NOT_MODIFIED",
+  "disk_soft_limit_mib": 4,
+  "legacy_AGMINER": "READ_ONLY_HASH_NO_EXECUTION",
+  "level": "L0",
+  "max_seconds": 60.0,
+  "preset": "quick",
+  "producer_sha256": {
+    "action02.py": "8c3ebb85bc6817628a5fe5ba407091411db79a42716b15545292752ff2702632",
+    "action02_core.py": "a85e2abd6f66529afb737e8a03a0154f5c7de5500e42124061bc404218856736",
+    "action02_verify.py": "67e9201fbf7c045bafc484d3236c0933630a3bac9aebea0d18fc0cdc348586d2"
+  },
+  "program": "GRAVITY2-02",
+  "rss_soft_limit_mib": 384,
+  "run_id": "g202_20261121T042518Z_9a7f5402",
+  "workers": 1
+}

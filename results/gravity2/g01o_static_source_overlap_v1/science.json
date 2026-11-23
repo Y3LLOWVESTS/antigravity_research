@@ -1,0 +1,72 @@
+{
+  "Earth_craft": "UNSOLVED",
+  "apparatus_self_consistent": false,
+  "archive_sha256": "a1f9b4dbb374c2e857c2efacf1965436c3b52779f8967766b8bcb4f8ad3c8be4",
+  "assumptions": [
+    "one ordinary electric charge direction in spectator-X plane",
+    "no free Y drive or additional source currents; canonical vacuum fields",
+    "passive ordinary electric permittivity >=1, unit magnetic and hidden response",
+    "homogeneous layer, centered dipole, frozen leading trace, field-free off state",
+    "Rider calibration and ordinary incident field transfer to the model",
+    "local coefficient across laboratory and craft length scales"
+  ],
+  "budget_J": 10000000.0,
+  "complete_energy": "UNCERTIFIED",
+  "decision": "NO_OVERLAP_AT_TWO_PARENT_SCALES_CONDITIONAL_ON_LAB_TRANSFER",
+  "full_regression": "NOT_RUN",
+  "laboratory": {
+    "apparent_ratio_ceiling": 0.6,
+    "assumed_source_density_kg_m3": 2200,
+    "chosen_min_density_kg_m3": 1000.0,
+    "chosen_min_radius_um": 1.78,
+    "measured_alpha_over_alpha0": [
+      [
+        0.21,
+        0.13
+      ],
+      [
+        0.0,
+        0.33
+      ],
+      [
+        0.25,
+        0.14
+      ]
+    ],
+    "ordinary_eps_min": 1,
+    "ordinary_null_at_min_radius_eps3": 0.360944128,
+    "radius_spread_um": 0.24,
+    "reference_radius_um": 2.5,
+    "sensitivity_multiples": 3
+  },
+  "model_independent_exclusion": false,
+  "parent_science_sha256": "7635896c65e47e64ffa772651a55605e38499790b44a7c37a582c537a8c752fb",
+  "physical_survivors": 0,
+  "producer_sha256": "651beaf37df0b113371c69b5e5d8d02af8d65ad8f8666ed5b3dcb40499635b2f",
+  "publication": "https://doi.org/10.1103/PhysRevLett.117.101101",
+  "rows": [
+    {
+      "energy_s_strict_min": 0.9999995826836896,
+      "lab_s_max": 0.6649228547638667,
+      "maximum_apparent_response_multiplier_to_overlap": 0.664923132247135,
+      "minimum_alpha_over_alpha0_at_energy_bound": 0.902359943430266,
+      "overlap": false,
+      "portal_scale_eV": 1000.0,
+      "reference_exterior_electric_J": 0.14991003246122336,
+      "theta": 18964574.323057592,
+      "vacuum_exterior_J_at_lab_bound_lower": 12075579813739.395
+    },
+    {
+      "energy_s_strict_min": 0.925583927917187,
+      "lab_s_max": 0.6665335112635776,
+      "maximum_apparent_response_multiplier_to_overlap": 0.7201221749425334,
+      "minimum_alpha_over_alpha0_at_energy_bound": 0.8331919511406252,
+      "overlap": false,
+      "portal_scale_eV": 21147.425268811283,
+      "reference_exterior_electric_J": 29982.006492244673,
+      "theta": 94.82287161528794,
+      "vacuum_exterior_J_at_lab_bound_lower": 61913883.68453271
+    }
+  ],
+  "run": "G01-O"
+}

@@ -1,0 +1,141 @@
+{
+  "006D_replaced": false,
+  "complete_energy": "NOT_CERTIFIED",
+  "evidence": {
+    "Jordan_trace_and_reciprocity": {
+      "Einstein_source_dL_dP": "0_AT_FIXED_CANONICAL_FIELDS",
+      "Schur_scope": "ONE_UNCONSTRAINED_POSITIVE_SOURCE_MODE; NOT_GAUGE_PROJECTED_REAL_FIELD_HESSIAN",
+      "dL_source_dP": "exp(4sigma)*Ttilde_source*sigma_P",
+      "loaded_force_sign": "NOT_DETERMINED",
+      "mixed_FX_FY_includes_P_second_derivative": true,
+      "mixed_F_source_second_derivative": "NONZERO_AT_DECLARED_OFFSHELL_TEST_POINT",
+      "mixed_source_F_reciprocity_residual": "0",
+      "omitted_Pxy_chain_negative_control": "NONZERO",
+      "restricted_positive_Huu_schur": "11/3",
+      "sigma": "alpha*P-beta*P**2",
+      "source_frame": "JORDAN_UNIVERSAL_SOURCE",
+      "source_trace": "Ttilde_source=-exp(-2sigma)*K-4V",
+      "trace_identity_residual": "0",
+      "unrelaxed_Hff": "5"
+    },
+    "complete_energy": "NOT_CERTIFIED",
+    "decision": "SCOPED_JORDAN_STATIC_NO_GO; STATIONARY_SUPPORTED_SOURCE_UNDERDETERMINED",
+    "full_regression": "NOT_RUN",
+    "gates": {
+      "G01_ACTION": "INCOMPLETE_EARTH_NEUTRAL_SUPPORTS",
+      "G02_VARIATION": "PASS_SCOPED_JORDAN_WEIGHTED_EULER_AND_PORTAL_CHAIN",
+      "G03_WARD": "INHERITED_SCOPED_03A_NOT_REDERIVED_FULL_DIFEOMORPHISM",
+      "G04_HEALTH": "NOT_DERIVED_FULL_CONSTRAINED_MODES",
+      "G05_SOURCE": "STATIC_CONVEX_UNSUPPORTED_FAIL; STATIONARY_OPEN",
+      "G06_LOAD": "NOT_AUTHORIZED_UNDERDETERMINED",
+      "G07_METRIC": "NOT_SOLVED_EINSTEIN",
+      "G08_ENERGY": "NOT_CERTIFIED_COMPLETE_SI",
+      "G09_EXTERIOR": "NOT_RUN",
+      "G10_REACTION": "NOT_DERIVED",
+      "G11_REALISM": "NOT_CERTIFIED"
+    },
+    "historical_Higgs_classification_erratum": {
+      "B_JORDAN_LOCALIZED": {
+        "exterior_constant_broken_vacuum": "TRACE_ZERO_IF_K_ZERO_AND_V_AT_MINIMUM_ZERO",
+        "general_interior_portal_trace_term": "PRESENT_WHEN_K_OR_V_NONZERO",
+        "historical_prior_flag_not_overwritten": true,
+        "massless_U1_count_from_previous_scope": 2,
+        "source_in_physical_metric": true
+      },
+      "C_HIGGS_Y_CONTROL": {
+        "exterior_constant_broken_vacuum": "TRACE_ZERO_IF_K_ZERO_AND_V_AT_MINIMUM_ZERO",
+        "general_interior_portal_trace_term": "PRESENT_WHEN_K_OR_V_NONZERO",
+        "historical_prior_flag_not_overwritten": true,
+        "massless_U1_count_from_previous_scope": 1,
+        "source_in_physical_metric": true
+      },
+      "D_HIGGS_BOTH_CONTROL": {
+        "exterior_constant_broken_vacuum": "TRACE_ZERO_IF_K_ZERO_AND_V_AT_MINIMUM_ZERO",
+        "general_interior_portal_trace_term": "PRESENT_WHEN_K_OR_V_NONZERO",
+        "historical_prior_flag_not_overwritten": true,
+        "massless_U1_count_from_previous_scope": 0,
+        "source_in_physical_metric": true
+      }
+    },
+    "historical_R3B_loaded_min_m_s2": -129.67185782242464,
+    "historical_R3B_prescribed_capacity_J": 1.5429162116460216,
+    "historical_values": "PROVENANCE_ONLY_NOT_RECOMPUTED",
+    "physical_lift": "NOT_DERIVED",
+    "source_equations_scope": "STATIC_ONLY_WITH_NONUNIFORM_CONFORMAL_WEIGHT; FULL_JORDAN_4D_SUPPORT_FLUID_NOT_DERIVED",
+    "survivors": 0,
+    "weighted_static_source": {
+      "conditional_no_go": "STATIC_D0_ZERO_A0_ZERO_POSITIVE_POTENTIAL_NO_SUPPORT",
+      "identity": "a*E_a+b*E_b=div_i[w*(a*U_i+b*V_i)]-w*sum_i(U_i**2+V_i**2)-z*(m2+lam*rho)*rho",
+      "nonconstant_weight_derivative_required": true,
+      "omitted_grad_weight_negative_control": "NONZERO",
+      "residual": "0",
+      "result": "TRIVIAL_SCALAR_AND_ZERO_MINIMAL_CURRENT_WITH_ZERO_SURFACE_FLUX",
+      "scope": "R3_STATIC_FLAT_SLICE_NO_MATERIAL_BOUNDARIES; DOES_NOT_EXCLUDE_HARMONIC_PHASE_A0_OR_SUPPORTS",
+      "test": "EXACT_3D_JORDAN_WEIGHTED_STATIC_EULER"
+    }
+  },
+  "execution_status": "COMPLETED",
+  "full_gravitational_action": "NOT_DERIVED",
+  "full_regression": "NOT_RUN",
+  "loaded_PDE": "NOT_AUTHORIZED",
+  "parent_locks": {
+    "all_match": true,
+    "historical": {
+      "A12C_F2_LOAD_NOT_R3B": {
+        "actual_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "expected_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "relative_path": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+        "status": "MATCH"
+      },
+      "DELTA1_02_RECIPROCITY": {
+        "actual_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "expected_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "relative_path": "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py",
+        "status": "MATCH"
+      },
+      "R3B_MIXED_LOADED": {
+        "actual_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "expected_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py",
+        "status": "MATCH"
+      },
+      "R3B_PRELOADED": {
+        "actual_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "expected_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+        "status": "MATCH"
+      },
+      "R3X1_LORENTZ_SIGN": {
+        "actual_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "expected_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_r3x1_lorentzian_sign_audit.py",
+        "status": "MATCH"
+      }
+    },
+    "previous": {
+      "G04_SCIENCE": {
+        "actual_sha256": "be8fa79e2d58f30a36fa50d7c23d8e087647eb1d05f1ab2c1b2121394f5cddb0",
+        "expected_sha256": "be8fa79e2d58f30a36fa50d7c23d8e087647eb1d05f1ab2c1b2121394f5cddb0",
+        "path": "results/gravity2/miner2_runs/g2v2_20261121T045908Z_7c71a597/science.json",
+        "status": "MATCH"
+      },
+      "G04_VERIFIER": {
+        "actual_sha256": "d5daae1f97c5d253334b833cd84e72767efeed25092bfb28d913670cc13ff593",
+        "expected_sha256": "d5daae1f97c5d253334b833cd84e72767efeed25092bfb28d913670cc13ff593",
+        "path": "results/gravity2/miner2_runs/g2v2_20261121T045908Z_7c71a597/verification.json",
+        "status": "MATCH"
+      }
+    }
+  },
+  "physical_lift": "NOT_DERIVED",
+  "physical_survivors": 0,
+  "program": "GRAVITY2-05",
+  "real_source": "NOT_ESTABLISHED",
+  "resource": {
+    "memory_policy": "SOFT_PSUTIL_PROCESS_WATCHDOG",
+    "peak_RSS_mib": 58.137,
+    "worker_elapsed_s": 1.74769,
+    "worker_exit_code": 0
+  },
+  "run_id": "g205_20261121T050912Z_42b36ffa"
+}

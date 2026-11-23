@@ -1,0 +1,542 @@
+{
+  "G01U1_dipole_to_R3B_capacity_ratio": 1.178511301977579,
+  "G01U1_field_normalization_independently_sourced": false,
+  "G01U1_illustrative_dipole_maxwell_energy_j": 1.3092078192690724,
+  "best_projected_root_radial_f0_only_min_m_s2": -5.010321590791191e-10,
+  "blocker_resolution_after_percent": "ASSESS_AFTER_INDEPENDENT_ANALYSIS",
+  "blocker_resolution_previous_percent": 33,
+  "complete_operating_energy_j": null,
+  "constant_theta_topological_null": "Explicitly tested on every grid",
+  "covariant_current_conservation": "U(1) Ward identities follow antisymmetry; X surface charge is net-zero dipolar, Y surface current is azimuthal divergence-free",
+  "current_microphysics": null,
+  "experiment": "G01-U2-RECIPROCAL-MAXWELL-RADIAL-DIPOLE-FORK",
+  "f0_radial_mode_included": true,
+  "fixed_shape_scalar_projected_amplitude_only": true,
+  "full_G01U1_f2_needed_for_positive_torus_sign": true,
+  "full_Lorentzian_healthy_modes_certified": false,
+  "full_regression": "NOT_RUN",
+  "fully_coupled_phi_X_Y_Einstein_solved": false,
+  "largest_absolute_projected_root": 3.2962064303107503e-05,
+  "mesh_domain_gates": {
+    "large_negative_root_relative_mesh_change": 0.03433587809646488,
+    "positive_small_root_relative_mesh_change": 0.0003800306027950118,
+    "projected_roots_are_not_full_scalar_EOM": true,
+    "strong_t1_source_ratio_relative_box_converged": false,
+    "strong_t1_source_ratio_within_1e_7": true
+  },
+  "overall_heuristic_previous_percent": 37,
+  "parent_radial_sha256": "cfe54027edcd6a33532faa5eec138455bc35a89193f9b3af1d4cd4f5bf727999",
+  "parent_u1_sha256": "0f5b138a22d9da0088cdb9d6c2bfdcfbb046603845447d250878809c454616c3",
+  "physical_survivors": 0,
+  "prescribed_shell_current_not_material_EOM": true,
+  "producer_sha256": "950cc136c513ca3d37f171341b2b36678f5f864554fee784df328cca6562c8d3",
+  "projected_amplitude_equation": "scalar_source_projection_ratio(t)=t at fixed f0 shape; necessary but not sufficient scalar EOM",
+  "r3b_capacity_prescribed_j": 1.5429162116460216,
+  "radial_f0_only_torus_max_m_s2_at_t1": 1.2511249612842628,
+  "radial_f0_only_torus_min_m_s2_at_t1": -0.4611442498794267,
+  "reached_full_outward_torus_1g": false,
+  "results": [
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.59345110289319,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.830979843050556e-16,
+        "em_shape_energy": 18.59345110289319,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 8.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.59345110289319,
+        "constant_theta": true,
+        "discrete_b_divergence": 3.830979843050556e-16,
+        "em_shape_energy": 18.593451962376378,
+        "mixed_weighted_integral": 131.23389714900858,
+        "reference_mixed_weighted_integral": 131.2338975064689,
+        "relative_maxwell_residual": 2.2754085997707202e-15,
+        "scalar_source_projection_ratio": 0.9999999972761586,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.59345110289319,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.830979843050556e-16,
+        "em_shape_energy": 87.8842443969658,
+        "mixed_weighted_integral": 8089.219925074454,
+        "reference_mixed_weighted_integral": 201071634.87393346,
+        "relative_maxwell_residual": 5.798175703386564e-14,
+        "scalar_source_projection_ratio": 4.023053739104563e-05,
+        "t": 1
+      },
+      "grid_h_m": 0.04,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 3,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 13.26262948660884,
+          "mixed_weighted_integral": 5.752084666996526e-07,
+          "projected_eom_error": 3.9120287071400144e-11,
+          "reference_mixed_weighted_integral": -10.758379617413196,
+          "relative_maxwell_residual": 2.5421088950508606e-14,
+          "scalar_source_projection_ratio": -5.34660875666292e-08,
+          "t": -5.35052078537006e-08
+        },
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 0.5312713312240613,
+          "mixed_weighted_integral": 0.6112538303737206,
+          "projected_eom_error": 1.16309482119277e-14,
+          "reference_mixed_weighted_integral": -11086.289145702682,
+          "relative_maxwell_residual": 4.5095172122961444e-14,
+          "scalar_source_projection_ratio": -5.513601732196004e-05,
+          "t": -5.5136017333590985e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 7.7754284792506745,
+          "mixed_weighted_integral": 2.786503035904644e-06,
+          "projected_eom_error": 2.131449868596072e-13,
+          "reference_mixed_weighted_integral": 23.670355015512392,
+          "relative_maxwell_residual": 6.888560848510356e-14,
+          "scalar_source_projection_ratio": 1.1772121854862363e-07,
+          "t": 1.1772100540363677e-07
+        },
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 0.6616787685837053,
+          "mixed_weighted_integral": 0.04786463685253735,
+          "projected_eom_error": 2.081176892062761e-14,
+          "reference_mixed_weighted_integral": 3102.29282492881,
+          "relative_maxwell_residual": 4.847247725603845e-14,
+          "scalar_source_projection_ratio": 1.5428793977124233e-05,
+          "t": 1.5428793956312464e-05
+        },
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 0.6311182049344795,
+          "mixed_weighted_integral": 0.37439915421573594,
+          "projected_eom_error": 9.144791315255502e-15,
+          "reference_mixed_weighted_integral": 8676.465295131538,
+          "relative_maxwell_residual": 5.3166440986472455e-14,
+          "scalar_source_projection_ratio": 4.315111528490934e-05,
+          "t": 4.315111527576455e-05
+        }
+      ],
+      "radial_nodes": 201,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    },
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.73700740632634,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.3907435762909167e-16,
+        "em_shape_energy": 18.737007406326338,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 16.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.73700740632634,
+        "constant_theta": true,
+        "discrete_b_divergence": 3.3907435762909167e-16,
+        "em_shape_energy": 18.73700847198749,
+        "mixed_weighted_integral": 16.38374544168927,
+        "reference_mixed_weighted_integral": 16.38374576176984,
+        "relative_maxwell_residual": 3.426554838897816e-15,
+        "scalar_source_projection_ratio": 0.9999999804635292,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.73700740632634,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.3907435762909167e-16,
+        "em_shape_energy": 0.7003083843534956,
+        "mixed_weighted_integral": 9.227569381897744,
+        "reference_mixed_weighted_integral": 201073375.88212553,
+        "relative_maxwell_residual": 4.4400581326813425e-14,
+        "scalar_source_projection_ratio": 4.58915524813548e-08,
+        "t": 1
+      },
+      "grid_h_m": 0.04,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 1,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.73700740632634,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.3907435762909167e-16,
+          "em_shape_energy": 13.372280706329343,
+          "mixed_weighted_integral": 5.833267152700299e-07,
+          "projected_eom_error": -4.877862283295253e-13,
+          "reference_mixed_weighted_integral": -10.83006969780992,
+          "relative_maxwell_residual": 3.810690118951401e-14,
+          "scalar_source_projection_ratio": -5.386176927263834e-08,
+          "t": -5.386128148641001e-08
+        },
+        {
+          "baseline_shape_energy": 18.73700740632634,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.3907435762909167e-16,
+          "em_shape_energy": 0.23894792228055423,
+          "mixed_weighted_integral": 0.23491006747091545,
+          "projected_eom_error": 2.0354594745808363e-14,
+          "reference_mixed_weighted_integral": -6872.711278906118,
+          "relative_maxwell_residual": 4.35918193310718e-14,
+          "scalar_source_projection_ratio": -3.41801158142503e-05,
+          "t": -3.4180115834604896e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.73700740632634,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.3907435762909167e-16,
+          "em_shape_energy": 7.7597153072924145,
+          "mixed_weighted_integral": 2.693635688902273e-06,
+          "projected_eom_error": 4.6454816905525544e-12,
+          "reference_mixed_weighted_integral": 23.272229871182656,
+          "relative_maxwell_residual": 6.245728207615332e-14,
+          "scalar_source_projection_ratio": 1.1574463228544016e-07,
+          "t": 1.1573998680374961e-07
+        }
+      ],
+      "radial_nodes": 401,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    },
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.754927856923366,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.523462268445591e-16,
+        "em_shape_energy": 18.754927856923334,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 32.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.754927856923366,
+        "constant_theta": true,
+        "discrete_b_divergence": 3.523462268445591e-16,
+        "em_shape_energy": 18.754928858273068,
+        "mixed_weighted_integral": 2.046688383781216,
+        "reference_mixed_weighted_integral": 2.0466887044776687,
+        "relative_maxwell_residual": 5.183771815287108e-15,
+        "scalar_source_projection_ratio": 0.9999998433096094,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.754927856923366,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.523462268445591e-16,
+        "em_shape_energy": 0.01084422439533797,
+        "mixed_weighted_integral": 0.018419542720145586,
+        "reference_mixed_weighted_integral": 201073372.0320123,
+        "relative_maxwell_residual": 4.8854611148546116e-14,
+        "scalar_source_projection_ratio": 9.160607659781557e-11,
+        "t": 1
+      },
+      "grid_h_m": 0.04,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 1,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.754927856923366,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.523462268445591e-16,
+          "em_shape_energy": 13.385817271565319,
+          "mixed_weighted_integral": 5.84304006461741e-07,
+          "projected_eom_error": -8.160854563090525e-13,
+          "reference_mixed_weighted_integral": -10.8391050483525,
+          "relative_maxwell_residual": 5.5252033690585085e-14,
+          "scalar_source_projection_ratio": -5.390703419287858e-08,
+          "t": -5.390621810742227e-08
+        },
+        {
+          "baseline_shape_energy": 18.754927856923366,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.523462268445591e-16,
+          "em_shape_energy": 0.22906105258670392,
+          "mixed_weighted_integral": 0.23428284529388435,
+          "projected_eom_error": 3.1206591130650274e-15,
+          "reference_mixed_weighted_integral": -6863.52982923527,
+          "relative_maxwell_residual": 5.5866904439145596e-14,
+          "scalar_source_projection_ratio": -3.4134454300169914e-05,
+          "t": -3.413445430329057e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.754927856923366,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.523462268445591e-16,
+          "em_shape_energy": 7.758023976888415,
+          "mixed_weighted_integral": 2.682586978899043e-06,
+          "projected_eom_error": 6.177039425215065e-12,
+          "reference_mixed_weighted_integral": 23.224296849502,
+          "relative_maxwell_residual": 7.358205223662416e-14,
+          "scalar_source_projection_ratio": 1.1550778033379149e-07,
+          "t": 1.1550160329436628e-07
+        }
+      ],
+      "radial_nodes": 801,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    },
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.756728253565285,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.649691501581641e-16,
+        "em_shape_energy": 18.756728253565214,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 48.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.756728253565285,
+        "constant_theta": true,
+        "discrete_b_divergence": 3.649691501581641e-16,
+        "em_shape_energy": 18.75672927751585,
+        "mixed_weighted_integral": 0.6062996258537472,
+        "reference_mixed_weighted_integral": 0.606299963497457,
+        "relative_maxwell_residual": 6.369993711168258e-15,
+        "scalar_source_projection_ratio": 0.9999994431078177,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.756728253565285,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.649691501581641e-16,
+        "em_shape_energy": 0.0012840171125132103,
+        "mixed_weighted_integral": 0.0008366707236503522,
+        "reference_mixed_weighted_integral": 201073371.43327498,
+        "relative_maxwell_residual": 5.309461159830257e-14,
+        "scalar_source_projection_ratio": 4.161022007471519e-12,
+        "t": 1
+      },
+      "grid_h_m": 0.04,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 1,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.756728253565285,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.649691501581641e-16,
+          "em_shape_energy": 13.387174820999666,
+          "mixed_weighted_integral": 5.844025077685901e-07,
+          "projected_eom_error": -8.519588187142203e-13,
+          "reference_mixed_weighted_integral": -10.840015016085712,
+          "relative_maxwell_residual": 6.573614773334359e-14,
+          "scalar_source_projection_ratio": -5.391159577743977e-08,
+          "t": -5.391074381862105e-08
+        },
+        {
+          "baseline_shape_energy": 18.756728253565285,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.649691501581641e-16,
+          "em_shape_energy": 0.22815374539930242,
+          "mixed_weighted_integral": 0.23427781892574842,
+          "projected_eom_error": 1.729001599011515e-14,
+          "reference_mixed_weighted_integral": -6863.456194024678,
+          "relative_maxwell_residual": 4.7501227826982406e-14,
+          "scalar_source_projection_ratio": -3.4134088176990275e-05,
+          "t": -3.413408819428029e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.756728253565285,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.649691501581641e-16,
+          "em_shape_energy": 7.757855449943726,
+          "mixed_weighted_integral": 2.6814842567056036e-06,
+          "projected_eom_error": 6.370029255828801e-12,
+          "reference_mixed_weighted_integral": 23.219503427003175,
+          "relative_maxwell_residual": 7.693869861890742e-14,
+          "scalar_source_projection_ratio": 1.154841344964839e-07,
+          "t": 1.1547776446722807e-07
+        }
+      ],
+      "radial_nodes": 1201,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    },
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.802218881339712,
+        "constant_theta": false,
+        "discrete_b_divergence": 4.679157945358131e-16,
+        "em_shape_energy": 18.80221888133964,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 48.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.802218881339712,
+        "constant_theta": true,
+        "discrete_b_divergence": 4.679157945358131e-16,
+        "em_shape_energy": 18.80222584433615,
+        "mixed_weighted_integral": 0.6061494830191579,
+        "reference_mixed_weighted_integral": 0.6061509434153104,
+        "relative_maxwell_residual": 8.461016418932918e-15,
+        "scalar_source_projection_ratio": 0.9999975907054698,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.802218881339712,
+        "constant_theta": false,
+        "discrete_b_divergence": 4.679157945358131e-16,
+        "em_shape_energy": 0.004433079415635854,
+        "mixed_weighted_integral": -0.0005005882125599279,
+        "reference_mixed_weighted_integral": 201096311.54074323,
+        "relative_maxwell_residual": 1.4770938055769002e-13,
+        "scalar_source_projection_ratio": -2.4892958439891922e-12,
+        "t": 1
+      },
+      "grid_h_m": 0.02,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 1,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.802218881339712,
+          "constant_theta": false,
+          "discrete_b_divergence": 4.679157945358131e-16,
+          "em_shape_energy": 13.4300193661246,
+          "mixed_weighted_integral": 5.849356678657423e-07,
+          "projected_eom_error": -1.0674347725151227e-12,
+          "reference_mixed_weighted_integral": -10.845555643666357,
+          "relative_maxwell_residual": 1.882976814988984e-13,
+          "scalar_source_projection_ratio": -5.393321348245869e-08,
+          "t": -5.393214604768618e-08
+        },
+        {
+          "baseline_shape_energy": 18.802218881339712,
+          "constant_theta": false,
+          "discrete_b_divergence": 4.679157945358131e-16,
+          "em_shape_energy": 0.2724540638169447,
+          "mixed_weighted_integral": 0.21849067647165787,
+          "projected_eom_error": 1.5354599915747696e-14,
+          "reference_mixed_weighted_integral": -6628.5495521237235,
+          "relative_maxwell_residual": 1.4233740847060684e-13,
+          "scalar_source_projection_ratio": -3.2962064287752903e-05,
+          "t": -3.2962064303107503e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.802218881339712,
+          "constant_theta": false,
+          "discrete_b_divergence": 4.679157945358131e-16,
+          "em_shape_energy": 7.806222921392719,
+          "mixed_weighted_integral": 2.679759575840529e-06,
+          "projected_eom_error": 6.68340447036493e-12,
+          "reference_mixed_weighted_integral": 23.213327370717746,
+          "relative_maxwell_residual": 2.1562973488169726e-13,
+          "scalar_source_projection_ratio": 1.1544056278725854e-07,
+          "t": 1.1543387938278818e-07
+        }
+      ],
+      "radial_nodes": 2401,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    }
+  ],
+  "root_classification": "ONLY_SMALL_PROJECTED_ROOTS_IN_SCANNED_RANGE",
+  "same_action_static_variation": "L=0.5 E_X^2-0.5 B_Y^2+theta(phi) E_X.dot.B_Y+sources; D_X=E_X+theta B_Y; H_Y=B_Y-theta E_X",
+  "scope": "Radial theta0, dipole X/Y Maxwell, prescribed surface currents, fixed scalar f0; no theta2, full scalar EOM, fluid or Einstein force",
+  "source_shell_radius_m": 2.0,
+  "static_gauge_Hessian": "[[1+theta^2,theta],[theta,1]], determinant 1",
+  "theta2_angular_mode_included": false,
+  "utc": "2026-11-22T17:39:46.809118+00:00",
+  "whole_craft_force": null
+}

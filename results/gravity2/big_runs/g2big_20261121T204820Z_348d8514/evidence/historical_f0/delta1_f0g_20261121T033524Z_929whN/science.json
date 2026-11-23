@@ -1,0 +1,118 @@
+{
+  "006D_replaced": false,
+  "a_z_dimensionless": "mu*(-10*x^3+27*x-15+45*mu^2*(1-x))/(5*x^5)",
+  "active_density": "rho_active=2*u_EM/c^2 (Maxwell trace-free exterior)",
+  "all_angles_in_upper_hemisphere_standoff_sign": {
+    "mu_range": [
+      0,
+      1
+    ],
+    "numerator_upper_at_x_min_mu0": -8.25,
+    "outcome": "a_z<=0 for all z>=0 and r>=R+1m; strictly negative if z>0",
+    "r_over_R_min": 1.5,
+    "radial_derivative_upper_at_x_min": -40.5
+  },
+  "axis_1g_sign_at_any_positive_U": "INWARD_NOT_OUTWARD",
+  "axis_U_required_for_1g_MAGNITUDE_J": 6.5222513090649545e+28,
+  "axis_a_z_at_U10MJ_m_per_s2": -1.5035682520190877e-21,
+  "axis_outward_shell_edge_gap_m": 0.08124278268442708,
+  "axis_outward_shell_edge_r_over_R": 1.0406213913422135,
+  "claims_and_limitations": [
+    "Only exterior Maxwell field stress is varied in linearized Einstein source; not full conserved tensor",
+    "EM stress extends into gap, unlike conditional F0F all-stress-away bound",
+    "The dipole originates from F0D prescribed uniform source, not a jointly solved stationary source",
+    "Actual F0D canonical trial energy is not measured in SI joules",
+    "The 1m spherical gap and upper-half-space are not an all-torus coupled test",
+    "Support and interior fields can change metric and force; no global no-go",
+    "No actual Earth reaction or whole-craft momentum balance is derived"
+  ],
+  "complete_operating_energy": "NOT_CERTIFIED",
+  "decision": "EXTERIOR_DIPOLE_STRESS_TAIL_ALONE_CANNOT_SUPPLY_OUTWARD_1G_AT_GE_1M",
+  "earth_craft_reaction": "NOT_DERIVED",
+  "exterior_energy_identity": "U_ext=p^2/(12*pi*R^3)",
+  "exterior_field": "E=p/(4*pi*r^3)*(3*mu*rhat-zhat), B=0",
+  "f0": "1/(3*x)-1/(12*x^4)",
+  "f2": "1/(5*x^3)-1/(6*x^4)",
+  "full_stress_conservation": "NOT_CLOSED",
+  "material_stress_and_interior_fields": "NOT_INCLUDED",
+  "neutral_payload_gravitational_lift": "NOT_DERIVED",
+  "parents": {
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0c_20261120T223510Z_rSztin/science.json": "3c671e54a44a23bd12d2fe2451aed6388bb3c4f6da37408d7abe54c808540f7f",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0d_20261120T231924Z_vCnB6I/science.json": "2db67eea46adf84327c14c0177c1863148893217a377ac67a1f3a39ec9cb6465",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0f_20261121T032200Z_42xBGt/science.json": "145f7db67b440cbd5e5f0c2023ccb1ac7ad9d2151b777f459e1c2fc3964c9e73",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0f_20261121T032200Z_42xBGt/verification.json": "db52ae4365636ec72cb399fa380c13d5333d98db64aaa8d03e5c8e07e0376c50"
+  },
+  "physical_source_support_action": "NOT_DERIVED",
+  "potential_dimensionless": "Phi/[G*U_ext/(c^2*R)]=-6*(f0(x)+f2(x)*P2(mu))",
+  "probes": [
+    {
+      "a_z_for_U10MJ_m_per_s2": -1.5035682520190877e-21,
+      "a_z_normalized": -0.8098765432098766,
+      "classification": "INWARD",
+      "label": "axis_at_one_m_gap",
+      "r_over_R": 1.5,
+      "rho_m": 0.0,
+      "surface_gap_m": 1.0,
+      "z_m": 3.0
+    },
+    {
+      "a_z_for_U10MJ_m_per_s2": -1.3398814374924973e-21,
+      "a_z_normalized": -0.7217088718455651,
+      "classification": "INWARD",
+      "label": "F0C_loaded_worst_A",
+      "r_over_R": 1.5436361294035588,
+      "rho_m": 0.8250000000000001,
+      "surface_gap_m": 1.0872722588071175,
+      "z_m": 2.975
+    },
+    {
+      "a_z_for_U10MJ_m_per_s2": -1.148484663680832e-21,
+      "a_z_normalized": -0.6186156086378858,
+      "classification": "INWARD",
+      "label": "F0C_loaded_worst_B",
+      "r_over_R": 1.6693000029952674,
+      "rho_m": 1.175,
+      "surface_gap_m": 1.3386000059905347,
+      "z_m": 3.125
+    },
+    {
+      "a_z_for_U10MJ_m_per_s2": -1.2609208415753046e-21,
+      "a_z_normalized": -0.6791778231982329,
+      "classification": "INWARD",
+      "label": "off_axis_one_m_plus",
+      "r_over_R": 1.5811388300841898,
+      "rho_m": 1.0,
+      "surface_gap_m": 1.1622776601683795,
+      "z_m": 3.0
+    },
+    {
+      "a_z_for_U10MJ_m_per_s2": 5.35932594820499e-22,
+      "a_z_normalized": 0.2886727866885121,
+      "classification": "OUTWARD",
+      "label": "surface_near_axis_positive_control",
+      "r_over_R": 1.01,
+      "rho_m": 0.0,
+      "surface_gap_m": 0.020000000000000018,
+      "z_m": 2.02
+    }
+  ],
+  "program": "DELTA1-F0G_EXTERIOR_MAXWELL_DIPOLE_METRIC_STRESS_SIGN_GATE",
+  "reference_energy_is_NOT_measured_F0D_energy": true,
+  "regression": "NOT_RUN_SCOPED_THEOREM_PREFLIGHT",
+  "source_radius_m": 2.0,
+  "source_sha256": "fc6da0ae493c7a5c4ea3ec9290a13c3a9302024a2e4194892bd771e8a242cdfd",
+  "status": "EXTERIOR_MAXWELL_DIPOLE_TAIL_INWARD_AT_GE_1M_SCOPED",
+  "stress_eigenvalue_control": {
+    "DEC_saturated": true,
+    "T00_over_u": 1,
+    "active_over_u": 2,
+    "principal_Tii_over_u": [
+      -1,
+      1,
+      1
+    ]
+  },
+  "true_surface_gap_m": 1.0,
+  "u_ext_reference_J": 10000000.0,
+  "utc": "2026-11-21T03:35:25.239921+00:00"
+}

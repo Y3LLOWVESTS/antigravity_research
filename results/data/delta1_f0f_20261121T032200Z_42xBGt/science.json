@@ -1,0 +1,99 @@
+{
+  "006D_replaced": false,
+  "complete_energy_lt_10MJ": "NOT_CERTIFIED",
+  "decision": {
+    "F0_portal_direct_metric_stress": "NULL_UNDER_METRIC_INDEPENDENT_THETA",
+    "full_regression_required_before_promotion": true,
+    "next_high_information_falsifier": "DERIVE_COMPLETE_COVARIANT_THETA_METRIC_VARIATION_AND_ACTUAL_LOADED_STRESS_SPATIAL_SUPPORT_BEFORE_NEW_PDE",
+    "source_to_metric_bridge": "MISSING_REAL_COVARIANT_SOURCE_AND_THETA_METRIC_DEPENDENCE",
+    "status": "SCOPED_L0_ATLAS_COMPLETE_NO_PHYSICAL_PROMOTION",
+    "weak_field_GR_energy": "HUGE_CONDITIONAL_OBSTRUCTION_IF_STRESS_STANDOFF_AND_U_CAP_HOLD"
+  },
+  "earth_craft_sign_negative_control": {
+    "craft_force_z_N": -66.743,
+    "earth_down_craft_up": "NO_FOR_ORDINARY_ATTRACTION",
+    "earth_force_z_N": 66.743,
+    "full_actual_action_force": "NOT_DERIVED",
+    "sum_force_z_N": 0.0,
+    "toy": "ordinary_positive_mass_Newtonian_pair"
+  },
+  "gravitational_lift": "NOT_DERIVED",
+  "parents": {
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0e_r1_20261121T003218Z_NGpmsh/f0e.py": "2b09062244380ce573442e169b76a602e49a4a690d628838bcac92158fcd6fe1",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0e_r1_20261121T003218Z_NGpmsh/science.json": "bdc6d1b27befa108cc982d392e8bf265c17b96f814f54810d49b180d0dc834d4",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0e_r1_20261121T003218Z_NGpmsh/verification.json": "63ca7c612bf5d39e6fa238c9a992b31500f3067e090e3cc43047ca7d87a8503e",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0e_r1_20261121T003218Z_NGpmsh/verify.py": "2628c93c66a31f91b92634a1d3e8de95ff80242ce21ef91afa04754cdd041581"
+  },
+  "physical_source": "NOT_DERIVED",
+  "portal": {
+    "actual_F0E_covariant_completion": "NOT_SPECIFIED",
+    "carrier_source_support_stress": "MUST_BE_VARIED_SEPARATELY",
+    "constant_theta_bulk_current": "ZERO",
+    "covariant_operator": "theta F_X wedge F_Y",
+    "direct_Hilbert_stress_fixed_theta": "EXACTLY_ZERO",
+    "if_theta_is_metric_dependent": "ADDITIONAL_CHAIN_RULE_STRESS_UNDERIVED",
+    "metric_tests": [
+      {
+        "densitized_portal": 1.876677489177489,
+        "det_g": -1.0,
+        "sqrt_minus_g": 1.0
+      },
+      {
+        "densitized_portal": 1.876677489177489,
+        "det_g": -256.0,
+        "sqrt_minus_g": 16.0
+      },
+      {
+        "densitized_portal": 1.876677489177489,
+        "det_g": -1.5840000000000003,
+        "sqrt_minus_g": 1.258570617804182
+      },
+      {
+        "densitized_portal": 1.876677489177489,
+        "det_g": -0.9957999999999999,
+        "sqrt_minus_g": 0.9978977903573091
+      }
+    ],
+    "physical_metric": "NOT_DERIVED",
+    "spatially_variable_theta_bulk_current_123": 0.16,
+    "spatially_variable_theta_bulk_current_123_exact": "4/25",
+    "wedge_exact": "34681/18480",
+    "wedge_float": 1.876677489177489
+  },
+  "program": "DELTA1-F0F_EXACT_PORTAL_METRIC_AND_CONDITIONAL_GR_ENERGY_ATLAS",
+  "regression": "NOT_RUN_F0_ANALYTICAL_PREFLIGHT",
+  "source_sha256": "c811c9eec41508b151d5a25fff1d7b71bf338915b3b07b034ebe15da30062a15",
+  "static_weak_field_GR_conditional_bound": {
+    "DEC_full_F0_source_support": "NOT_ESTABLISHED",
+    "G_SI": 6.6743e-11,
+    "assumptions": [
+      "Einstein gravity; linearized static weak-field",
+      "DEC holds for complete stress-energy including supports",
+      "ALL relevant source stress, including carrier-field energy, is at least d from every tested neutral material point",
+      "U is total positive gravitating stress energy, including rest energy; it is NOT automatically operating energy"
+    ],
+    "c_m_per_s": 299792458.0,
+    "claim_scope": "CONDITIONAL_NECESSARY_LOWER_BOUND_NOT_DEVICE_NO_GO",
+    "if_only_SOURCE_MATTER_is_1m_away": "BOUND_NOT_APPLICABLE_UNTIL_CARRIER_STRESS_IN_GAP_IS_BOUNDED",
+    "illustrative_total_gravitating_stress_energy_J": 10000000.0,
+    "max_acceleration_DEC_m_per_s2": 2.970464107647466e-20,
+    "max_acceleration_Maxwell_only_m_per_s2": 1.485232053823733e-20,
+    "minimum_distance_from_ALL_GRAVITATING_STRESS_m": 1.0,
+    "necessary_DEC_source_mass_equivalent_kg": 36732878354.28435,
+    "necessary_U_DEC_J": 3.301386465082261e+27,
+    "necessary_U_Maxwell_only_J": 6.602772930164521e+27,
+    "necessary_minimum_stress_distance_at_U10MJ_m": 5.503662790030958e-11,
+    "operating_energy_equals_total_gravitating_U": "NOT_ESTABLISHED",
+    "shortfall_factor_at_U10MJ_DEC": 3.301386465082261e+20,
+    "stand_off_to_total_stress": "NOT_ESTABLISHED",
+    "stress_examples": {
+      "DEC_max_trace_factor": 4,
+      "DEC_violation_counterexample_trace_factor": 7,
+      "Maxwell_trace_factor": 2
+    },
+    "target_acceleration_m_per_s2": 9.80665
+  },
+  "status": "PASS_SCOPED_THEOREM_AND_CONDITIONAL_OBSTRUCTION",
+  "utc": "2026-11-21T03:22:00.424126+00:00",
+  "whole_craft_external_force": "NOT_DERIVED"
+}

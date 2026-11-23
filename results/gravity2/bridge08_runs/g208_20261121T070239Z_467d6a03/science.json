@@ -1,0 +1,228 @@
+{
+  "006D_replaced": false,
+  "Einstein_gravity": "NOT_SOLVED",
+  "L2_authorized": false,
+  "complete_energy_SI": "NOT_CERTIFIED",
+  "evidence": {
+    "Einstein_sign": "NOT_DERIVED",
+    "L2_source_solve_authorized": false,
+    "Y_euler": "Lap_b+Dx(Pi*a_z)-Dz(Pi*a_x)",
+    "augmented_candidate_action": "L08=L07+1/2*|grad_a|**2; Y EOM unchanged",
+    "complete_SI_energy": "NOT_CERTIFIED",
+    "complete_action": "NOT_DERIVED",
+    "control_uniform_background": "-mean(rho) cancels only net charge; UNSOURCED, not permitted physical completion",
+    "convergence": "NUMERICAL_DIAGNOSTIC_ONLY_NO_CONTINUUM_CLAIM",
+    "decision": "PARENT_07_X_GAUSS_ZERO_MODE_OBSTRUCTED_NO_COMPENSATOR",
+    "gauss": "Euler_a= -rho_X-Dx(a_x+Pi*b_z)-Dz(a_z-Pi*b_x)",
+    "healthy_modes": "NOT_DERIVED",
+    "parent_action_erratum": "ACTUAL_07_ACTION_OMITS_X_MAXWELL_DESPITE_SCIENCE_L_SUMMARY",
+    "periodic_zero_mode_theorem": "integral(Div D_X)=0 forces integral(rho_X)=0; parent integral(rho_X)>0",
+    "physical_causal_scope": "PERIODIC_2D_SINGLE_CHARGED_SCALAR_ONLY",
+    "physical_source": "NOT_ESTABLISHED",
+    "physical_survivors": 0,
+    "potential_escape": "JUSTIFIED_OPPOSITE_CHARGE_SECTOR_OR_OPEN_FINITE_EXTERIOR; not constructed",
+    "rho_X": "q*exp(2*sigma)*(omega-q*a)*f**2",
+    "rows": [
+      {
+        "Gauss_integral_residual": -16.462108401425734,
+        "Omega_min": 1.13472,
+        "X_euler_mean": -0.41699007712023206,
+        "X_euler_rms": 0.48975359780054095,
+        "X_euler_rms_parent_action": 0.4403388433976834,
+        "X_maxwell_term_missing_in_parent_action": 0.5547364693025462,
+        "Y_euler_rms": 8.321659620795188e-12,
+        "after_uniform_compensator_X_rms": 0.2568615622117038,
+        "augmented_action_value": 9.543144440621008,
+        "charge_density_mean_canonical": 0.41699007712023206,
+        "charge_integral_canonical": 16.462108401425734,
+        "charge_nonzero_sign": "POSITIVE_EVERY_CELL",
+        "f_min": 0.6244935210164576,
+        "h": 0.6981317007977318,
+        "n": 9,
+        "parent_action_value": 8.98840797131846,
+        "periodic_divergence_integral": -5.4110923703857695e-17,
+        "periodic_portal_divergence_integral": -3.6329355514064616e-20,
+        "rho_min": 0.18185473795551776,
+        "scalar_euler_rms": 0.47563899196057635,
+        "uniform_compensator_required_density": -0.41699007712023206,
+        "w_min": 0.9998649303318746
+      },
+      {
+        "Gauss_integral_residual": -16.462103702678174,
+        "Omega_min": 1.1331827714634874,
+        "X_euler_mean": -0.416989958099566,
+        "X_euler_rms": 0.5181556853271463,
+        "X_euler_rms_parent_action": 0.4403392743210433,
+        "X_maxwell_term_missing_in_parent_action": 0.6663058163592435,
+        "Y_euler_rms": 4.601812951186041e-12,
+        "after_uniform_compensator_X_rms": 0.3075787526487596,
+        "augmented_action_value": 9.515239445098054,
+        "charge_density_mean_canonical": 0.416989958099566,
+        "charge_integral_canonical": 16.462103702678174,
+        "charge_nonzero_sign": "POSITIVE_EVERY_CELL",
+        "f_min": 0.6105112647722827,
+        "h": 0.41887902047863906,
+        "n": 15,
+        "parent_action_value": 8.848933628738811,
+        "periodic_divergence_integral": -7.791973013355508e-17,
+        "periodic_portal_divergence_integral": -4.280258613293431e-20,
+        "rho_min": 0.17537547618306631,
+        "scalar_euler_rms": 0.5182295503997101,
+        "uniform_compensator_required_density": -0.416989958099566,
+        "w_min": 0.99985064644647
+      },
+      {
+        "Gauss_integral_residual": -16.462100907618222,
+        "Omega_min": 1.1312772673317686,
+        "X_euler_mean": -0.41698988729987035,
+        "X_euler_rms": 0.5311728418668099,
+        "X_euler_rms_parent_action": 0.44033933334946845,
+        "X_maxwell_term_missing_in_parent_action": 0.7083558051909244,
+        "Y_euler_rms": 2.4123958929591414e-12,
+        "after_uniform_compensator_X_rms": 0.32903498571809126,
+        "augmented_action_value": 9.503677079039061,
+        "charge_density_mean_canonical": 0.4169898872998704,
+        "charge_integral_canonical": 16.462100907618225,
+        "charge_nonzero_sign": "POSITIVE_EVERY_CELL",
+        "f_min": 0.6104878485521296,
+        "h": 0.2731819698773733,
+        "n": 23,
+        "parent_action_value": 8.795321273848137,
+        "periodic_divergence_integral": 1.3256664862041507e-16,
+        "periodic_portal_divergence_integral": 4.854735667251528e-20,
+        "rho_min": 0.17570380836753868,
+        "scalar_euler_rms": 0.5375176115795223,
+        "uniform_compensator_required_density": -0.4169898872998704,
+        "w_min": 0.9998432425340494
+      },
+      {
+        "Gauss_integral_residual": -16.46209987342264,
+        "Omega_min": 1.1310471960210113,
+        "X_euler_mean": -0.4169898611033903,
+        "X_euler_rms": 0.5360249334960533,
+        "X_euler_rms_parent_action": 0.4403393480756706,
+        "X_maxwell_term_missing_in_parent_action": 0.723073082103861,
+        "Y_euler_rms": 2.4584490146251535e-12,
+        "after_uniform_compensator_X_rms": 0.33681179472581374,
+        "augmented_action_value": 9.49951618661479,
+        "charge_density_mean_canonical": 0.41698986110339026,
+        "charge_integral_canonical": 16.46209987342264,
+        "charge_nonzero_sign": "POSITIVE_EVERY_CELL",
+        "f_min": 0.6109997793427976,
+        "h": 0.2026833970057931,
+        "n": 31,
+        "parent_action_value": 8.776443104510928,
+        "periodic_divergence_integral": 1.4594746539063386e-16,
+        "periodic_portal_divergence_integral": 0.0,
+        "rho_min": 0.17609933011345327,
+        "scalar_euler_rms": 0.544666435214104,
+        "uniform_compensator_required_density": -0.41698986110339026,
+        "w_min": 0.9998411535748838
+      }
+    ],
+    "scalar_euler": "div(w*grad_f)+w*(omega-q*a)**2*f-z*(m2*f+lambda*f**3)",
+    "whole_craft": "NOT_DERIVED"
+  },
+  "execution_status": "COMPLETED",
+  "external_neutralizer": "NOT_INTRODUCED",
+  "full_repository_regression": "NOT_RUN",
+  "parents": {
+    "all_match": true,
+    "historical": {
+      "A12C_F2_LOAD_NOT_R3B": {
+        "actual_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "expected_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "relative_path": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+        "status": "MATCH"
+      },
+      "DELTA1_02_RECIPROCITY": {
+        "actual_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "expected_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "relative_path": "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py",
+        "status": "MATCH"
+      },
+      "R3B_MIXED_LOADED": {
+        "actual_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "expected_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py",
+        "status": "MATCH"
+      },
+      "R3B_PRELOADED": {
+        "actual_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "expected_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+        "status": "MATCH"
+      },
+      "R3X1_LORENTZ_SIGN": {
+        "actual_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "expected_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_r3x1_lorentzian_sign_audit.py",
+        "status": "MATCH"
+      }
+    },
+    "previous": {
+      "G07_FIELDS": {
+        "actual_sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d",
+        "expected_sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d",
+        "path": "results/gravity2/bridge07_runs/g207_20261121T065202Z_450b9280/fields.npz",
+        "status": "MATCH"
+      },
+      "G07_MANIFEST": {
+        "actual_sha256": "b54dabfb4463af6a40fac60e541d6c69bb5d843c6bc29ff83f1b469f267a3b38",
+        "expected_sha256": "b54dabfb4463af6a40fac60e541d6c69bb5d843c6bc29ff83f1b469f267a3b38",
+        "path": "results/gravity2/bridge07_runs/g207_20261121T065202Z_450b9280/manifest.json",
+        "status": "MATCH"
+      },
+      "G07_SCIENCE": {
+        "actual_sha256": "458d7309da70a944380f8fc73cb1b93f19e80b981ed64d1f97c64c62cabd04d1",
+        "expected_sha256": "458d7309da70a944380f8fc73cb1b93f19e80b981ed64d1f97c64c62cabd04d1",
+        "path": "results/gravity2/bridge07_runs/g207_20261121T065202Z_450b9280/science.json",
+        "status": "MATCH"
+      },
+      "G07_VERIFICATION": {
+        "actual_sha256": "c82f313b55effd19d90fca9b2306aca104d96296369011262a0ee07cbe113379",
+        "expected_sha256": "c82f313b55effd19d90fca9b2306aca104d96296369011262a0ee07cbe113379",
+        "path": "results/gravity2/bridge07_runs/g207_20261121T065202Z_450b9280/verification.json",
+        "status": "MATCH"
+      }
+    },
+    "prior_source_code": [
+      {
+        "actual_sha256": "cfee800973869668a2af6392386b14f487aa629683610a2bc7e0a12600c15f5d",
+        "expected_sha256": "cfee800973869668a2af6392386b14f487aa629683610a2bc7e0a12600c15f5d",
+        "path": "src/antigravity_research/gravity2/bridge07.py",
+        "status": "MATCH"
+      },
+      {
+        "actual_sha256": "0a8d44ee3ec6aa3c0e0efa5529d9f66fcf501f09bded33d489a9ed672c8a5c26",
+        "expected_sha256": "0a8d44ee3ec6aa3c0e0efa5529d9f66fcf501f09bded33d489a9ed672c8a5c26",
+        "path": "src/antigravity_research/gravity2/bridge07_check.py",
+        "status": "MATCH"
+      },
+      {
+        "actual_sha256": "7b70ecc745e8a8124a25283520daf6a846ed85d0b166a6257de84a7c3637ef8a",
+        "expected_sha256": "7b70ecc745e8a8124a25283520daf6a846ed85d0b166a6257de84a7c3637ef8a",
+        "path": "src/antigravity_research/gravity2/bridge07_core.py",
+        "status": "MATCH"
+      },
+      {
+        "actual_sha256": "feea2c5526686e0777aae96c4c32315a52a067d17adcf8d75dcdccca7a5a6eb7",
+        "expected_sha256": "feea2c5526686e0777aae96c4c32315a52a067d17adcf8d75dcdccca7a5a6eb7",
+        "path": "tests/gravity2/test_bridge07.py",
+        "status": "MATCH"
+      }
+    ]
+  },
+  "physical_finite_source": "NOT_ESTABLISHED",
+  "program": "GRAVITY2-08",
+  "qualified_physical_survivors": 0,
+  "resource": {
+    "elapsed_s": 0.31134,
+    "exit_code": 0,
+    "watchdog": "SOFT_PSUTIL_PROCESS",
+    "worker_peak_rss_mib": 26.18
+  },
+  "run_id": "g208_20261121T070239Z_467d6a03",
+  "source_and_X_solving": "NOT_AUTHORIZED_BECAUSE_PERIODIC_GAUSS_OBSTRUCTION",
+  "whole_craft_lift": "NOT_DERIVED"
+}

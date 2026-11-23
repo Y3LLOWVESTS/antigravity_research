@@ -1,0 +1,683 @@
+"""GRAVITY2-02 bounded action candidate CLI."""
+from __future__ import annotations
+
+import argparse
+import json
+import math
+import os
+from pathlib import Path
+import re
+import secrets
+import subprocess
+import sys
+from datetime import datetime, timezone
+
+from . import action02_core as core
+from .action01 import supervise
+from .engine import (
+    ROOT, atomic_json, atomic_text, bytes_under, digest,
+)
+from .policy import PRESETS, GLOBAL_MIB
+
+BASE = ROOT/"results"/"gravity2"/"action02_runs"
+RUN_RE = re.compile(
+    r"^g202_\d{8}T\d{6}Z_[0-9a-f]{8}$"
+)
+FILES = (
+    "action02_core.py",
+    "action02.py",
+    "action02_verify.py",
+)
+MIB = 1024*1024
+
+
+def run_path(name):
+    if not RUN_RE.fullmatch(name):
+        raise ValueError("invalid run ID")
+    return BASE/name
+
+
+def code_hashes():
+    package = Path(__file__).resolve().parent
+    return {
+        n: digest(package/n)
+        for n in FILES
+    }
+
+
+def execute(args):
+    if args.level != "L0" or args.workers != 1:
+        raise ValueError(
+            "GRAVITY2-02: only L0 and one worker permitted"
+        )
+
+    cap, memory, disk = PRESETS[args.preset]
+    seconds = 60*args.minutes
+
+    if (
+        not math.isfinite(seconds)
+        or not 0 < seconds <= cap
+    ):
+        raise ValueError("invalid time/preset budget")
+
+    if args.dry_run:
+        print(json.dumps({
+            "program": "GRAVITY2-02",
+            "operation": "DRY_RUN_NO_WRITES",
+            "level": "L0",
+            "seconds": seconds,
+            "workers": 1,
+            "memory_soft_limit_mib": memory,
+            "disk_soft_limit_mib": disk,
+            "candidate_templates": len(core.CANDIDATES),
+            "PDE": "DISABLED",
+            "legacy_imports": "NONE",
+        },indent=2))
+        return 0
+
+    if bytes_under(
+        ROOT/"results"/"gravity2"
+    ) > (GLOBAL_MIB-disk)*MIB:
+        raise ValueError(
+            "global 200 MiB budget reserve exhausted"
+        )
+
+    BASE.mkdir(parents=True,exist_ok=True,mode=0o700)
+
+    rid = (
+        datetime.now(timezone.utc).strftime(
+            "g202_%Y%m%dT%H%M%SZ_"
+        )
+        +secrets.token_hex(4)
+    )
+    directory = run_path(rid)
+    directory.mkdir(mode=0o700)
+
+    manifest = {
+        "program": "GRAVITY2-02",
+        "run_id": rid,
+        "level": args.level,
+        "preset": args.preset,
+        "max_seconds": seconds,
+        "workers": 1,
+        "rss_soft_limit_mib": memory,
+        "disk_soft_limit_mib": disk,
+        "producer_sha256": code_hashes(),
+        "legacy_AGMINER": "READ_ONLY_HASH_NO_EXECUTION",
+        "GRAVITY2_00_01": "NOT_MODIFIED",
+    }
+    atomic_json(directory/"manifest.json",manifest)
+
+    env = dict(os.environ)
+    env.update({
+        "PYTHONPATH": str(ROOT/"src"),
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1",
+    })
+
+    proc = subprocess.Popen(
+        [
+            sys.executable,
+            "-m",
+            "antigravity_research.gravity2.action02",
+            "_worker",
+            "--output",str(directory/"_worker.json"),
+        ],
+        cwd=ROOT,
+        stdin=subprocess.DEVNULL,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        start_new_session=True,
+        env=env,
+    )
+    reason,exitcode,elapsed,peak,monitor = supervise(
+        proc,directory,seconds,memory,disk
+    )
+
+    evidence = None
+    if reason=="COMPLETED" and exitcode==0:
+        try:
+            evidence=json.loads(
+                (directory/"_worker.json").read_text()
+            )
+        except (OSError,ValueError):
+            reason="WORKER_BAD_JSON"
+    elif reason=="COMPLETED":
+        reason="WORKER_ERROR"
+
+    (directory/"_worker.json").unlink(
+        missing_ok=True
+    )
+
+    if evidence is None:
+        evidence={
+            "decision":"INCOMPLETE_NO_SCIENTIFIC_RESULT",
+            "gates":{"G00_PARENT":"NOT_RUN"},
+            "qualified_survivors":0,
+            "complete_action":"NOT_DERIVED",
+        }
+
+    science={
+        "program":"GRAVITY2-02",
+        "run_id":rid,
+        "execution_status":reason,
+        "evidence":evidence,
+        "complete_covariant_action":"NOT_DERIVED",
+        "qualified_physical_survivors":0,
+        "whole_craft_lift":"NOT_DERIVED",
+        "complete_energy":"NOT_CERTIFIED",
+        "006D_replaced":False,
+        "full_regression":"NOT_RUN",
+        "resource":{
+            "elapsed_seconds":elapsed,
+            "worker_peak_rss_mib":peak,
+            "rss_monitor":monitor,
+            "limit_kind":"APPLICATION_SOFT_WATCHDOG",
+            "worker_exit_code":exitcode,
+        },
+    }
+    atomic_json(directory/"science.json",science)
+    atomic_text(
+        directory/"hashes.sha256",
+        digest(directory/"manifest.json")
+        +"  manifest.json\n"
+        +digest(directory/"science.json")
+        +"  science.json\n",
+    )
+
+    print("GRAVITY2_02_RUN="+rid)
+    print("EXECUTION="+reason)
+    print("DECISION="+evidence["decision"])
+    print("CANDIDATES="+str(
+        len(evidence.get("candidates",[]))
+    ))
+    print("QUALIFIED_SURVIVORS=0")
+    print(
+        "SCIENCE_SHA256="
+        +digest(directory/"science.json")
+    )
+    print("RUN_DIR="+str(directory))
+    return 0 if reason=="COMPLETED" else 3
+
+
+def main():
+    parser=argparse.ArgumentParser(
+        prog="gravity2.action02"
+    )
+    sub=parser.add_subparsers(
+        dest="command",required=True
+    )
+
+    run=sub.add_parser("run")
+    run.add_argument(
+        "--preset",choices=tuple(PRESETS),default="quick"
+    )
+    run.add_argument(
+        "--level",
+        choices=("L0","L1","L2","L3","L4"),
+        default="L0",
+    )
+    run.add_argument("--minutes",type=float,default=1)
+    run.add_argument("--workers",type=int,default=1)
+    run.add_argument("--dry-run",action="store_true")
+
+    worker=sub.add_parser("_worker")
+    worker.add_argument("--output",required=True)
+
+    verify=sub.add_parser("verify")
+    verify.add_argument("--run-id",required=True)
+
+    report=sub.add_parser("report")
+    report.add_argument("--run-id",required=True)
+
+    args=parser.parse_args()
+
+    try:
+        if args.command=="run":
+            return execute(args)
+
+        if args.command=="_worker":
+            output=Path(args.output)
+            if (
+                output.name!="_worker.json"
+                or output.parent.parent.resolve()!=BASE.resolve()
+                or not RUN_RE.fullmatch(output.parent.name)
+            ):
+                raise ValueError(
+                    "worker output outside GRAVITY2-02"
+                )
+            atomic_json(output,core.audit(ROOT))
+            return 0
+
+        if args.command=="verify":
+            from .action02_verify import verify_run
+            return verify_run(run_path(args.run_id))
+
+        if args.command=="report":
+            data=json.loads(
+                (run_path(args.run_id)/"science.json").read_text()
+            )
+            e=data["evidence"]
+            print("EXECUTION =",data["execution_status"])
+            print("DECISION =",e["decision"])
+            for c in e.get("candidates",[]):
+                print(
+                    "CANDIDATE =",c["id"],
+                    "|",c["classification"]
+                )
+            for name,status in e["gates"].items():
+                print("GATE =",name,"|",status)
+            print("COMPLETE_ACTION =",data["complete_covariant_action"])
+            print("WHOLE_CRAFT =",data["whole_craft_lift"])
+            print("COMPLETE_ENERGY =",data["complete_energy"])
+            return 0
+    except (
+        OSError,ValueError,KeyError,AssertionError
+    ) as exc:
+        print(
+            "GRAVITY2_02_HOLD="+repr(exc),
+            file=sys.stderr
+        )
+        return 2
+    return 2
+
+
+if __name__=="__main__":
+    raise SystemExit(main())
+PY_RUN cat > "$PKG/action02_verify.py" <<'PY_VERIFY'
+"""Independent GRAVITY2-02 action-atlas evidence verifier."""
+from __future__ import annotations
+
+import json
+import sympy as sp
+
+from . import action02_core as core
+from .action02 import code_hashes
+from .engine import ROOT, atomic_json, atomic_text, digest
+
+
+def verify_run(directory):
+    checks={}
+
+    def check(name,ok):
+        checks[name]=bool(ok)
+        if not ok:
+            raise AssertionError(name)
+
+    try:
+        manifest=json.loads(
+            (directory/"manifest.json").read_text()
+        )
+        science=json.loads(
+            (directory/"science.json").read_text()
+        )
+        recorded={
+            name:hash_value
+            for hash_value,name in (
+                row.split("  ",1)
+                for row in (
+                    directory/"hashes.sha256"
+                ).read_text().splitlines()
+            )
+        }
+
+        check(
+            "manifest SHA",
+            recorded["manifest.json"]==
+                digest(directory/"manifest.json")
+        )
+        check(
+            "science SHA",
+            recorded["science.json"]==
+                digest(directory/"science.json")
+        )
+        check(
+            "run ID",
+            manifest["run_id"]==
+                science["run_id"]==directory.name
+        )
+        check(
+            "producing sources",
+            manifest["producer_sha256"]==code_hashes()
+        )
+        check(
+            "read-only old miner",
+            manifest["legacy_AGMINER"]==
+                "READ_ONLY_HASH_NO_EXECUTION"
+        )
+        check(
+            "previous GRAVITY2 untouched declaration",
+            manifest["GRAVITY2_00_01"]=="NOT_MODIFIED"
+        )
+        check(
+            "L0 only",
+            manifest["level"]=="L0"
+            and manifest["workers"]==1
+        )
+        check(
+            "no physical promotion",
+            science["complete_covariant_action"]
+                =="NOT_DERIVED"
+            and science["qualified_physical_survivors"]==0
+            and science["whole_craft_lift"]=="NOT_DERIVED"
+            and science["complete_energy"]=="NOT_CERTIFIED"
+            and science["006D_replaced"] is False
+        )
+        check(
+            "full regression not claimed",
+            science["full_regression"]=="NOT_RUN"
+        )
+        check(
+            "resource scope",
+            science["resource"]["limit_kind"]==
+                "APPLICATION_SOFT_WATCHDOG"
+        )
+
+        if science["execution_status"]=="COMPLETED":
+            e=science["evidence"]
+            check(
+                "parent decision",
+                e["decision"]==
+                    "SCOPED_ACTION_TEMPLATE_ATLAS_NO_PROMOTION"
+            )
+
+            for name,pin in e["parents"].items():
+                path=ROOT/pin["path"]
+                check(
+                    "G01 live SHA "+name,
+                    digest(path)==pin["expected_sha256"]
+                    and pin["actual_sha256"]==pin["expected_sha256"]
+                )
+
+            pins,_=core.read_pinned(ROOT)
+            for name,pin in pins.items():
+                check(
+                    "historical source "+name,
+                    pin["status"]=="MATCH"
+                    and e["historical_files"][name]
+                        ["actual_sha256"]==pin["actual_sha256"]
+                )
+
+            check(
+                "three distinct candidate templates",
+                [c["id"] for c in e["candidates"]]==[
+                    "C0_SOURCE_FREE_CONTROL",
+                    "C1_TWO_CHARGED_SCALARS",
+                    "C2_POINT_CHARGE_CONTROL",
+                ]
+            )
+            check(
+                "no invented source existence",
+                e["candidates"][1]["sourceability"]==
+                    "FINITE_STABLE_EQUILIBRIUM_NOT_DERIVED"
+            )
+            check(
+                "point-charge reject scoped",
+                e["candidates"][2]["classification"]==
+                    "REJECT_INFINITE_SELF_ENERGY_UNDER_ASSUMPTIONS"
+            )
+            check(
+                "support and Earth actions open",
+                "UNEXPANDED" in e["source_action_template"]["supports"]
+                and "UNEXPANDED" in e["source_action_template"]["Earth_matter"]
+            )
+            check(
+                "G02 partial only",
+                e["gates"]["G02_VARIATION"]==
+                    "PARTIAL_EXACT_PORTAL_AND_SOURCE_VARIATION"
+            )
+            check(
+                "no full action",
+                e["qualified_survivors"]==0
+                and e["complete_action"]=="NOT_DERIVED"
+            )
+            check(
+                "loaded failure retained",
+                e["historical_loaded_min_m_s2"]==
+                    -129.67185782242464
+            )
+            check(
+                "field capacity not operating energy",
+                e["historical_R3B_capacity_J"]==
+                    1.5429162116460216
+                and e["historical_values"]==
+                    "PROVENANCE_ANCHORS_NOT_RECOMPUTED"
+            )
+
+            # Independently derive conformal metric trace factor.
+            p,a,b,t=sp.symbols("p a b t")
+            sig=lambda z:a*z-b*z*z
+            s=(1+t)*sp.exp(
+                2*sig(p/(1+t)**2)-2*sig(p)
+            )
+            independently_derived=sp.simplify(
+                sp.diff(s,t).subs(t,0)
+            )
+            expected=1-4*p*(a-2*b*p)
+            check(
+                "independent conformal metric derivative",
+                sp.simplify(independently_derived-expected)==0
+            )
+            check(
+                "reported metric trace structure",
+                sp.simplify(
+                    sp.sympify(
+                        e["symbolic_identities"]["metric_trace_factor"],
+                        locals={"alpha":a,"beta":b}
+                    )-expected
+                )==0
+            )
+
+            # Independent 1D gauge-current Noether check.
+            ar,bi,da,db,Ax,q=sp.symbols(
+                "ar bi da db Ax q"
+            )
+            d2a,d2b,dAx=sp.symbols("d2a d2b dAx")
+            u=da+q*Ax*bi
+            v=db-q*Ax*ar
+            j=q*(bi*u-ar*v)
+            Dj=(
+                sp.diff(j,ar)*da
+                +sp.diff(j,bi)*db
+                +sp.diff(j,da)*d2a
+                +sp.diff(j,db)*d2b
+                +sp.diff(j,Ax)*dAx
+            )
+            Du=d2a+q*(dAx*bi+Ax*db)
+            Dv=d2b-q*(dAx*ar+Ax*da)
+            Ea=q*Ax*v+Du
+            Eb=-q*Ax*u+Dv
+            check(
+                "independent U1 current identity",
+                sp.simplify(
+                    Dj-q*(bi*Ea-ar*Eb)
+                )==0
+            )
+            check(
+                "reported local Ward identity",
+                e["symbolic_identities"][
+                    "charged_scalar_one_coordinate_Ward_residual"
+                ]=="0"
+            )
+
+            eps,R=sp.symbols("eps R",positive=True)
+            check(
+                "independent positive point-charge divergence",
+                sp.limit(1/eps-1/R,eps,0,dir="+")==sp.oo
+                and e["symbolic_identities"][
+                    "point_charge_self_energy_limit"
+                ]=="POSITIVE_INFINITY"
+            )
+            check(
+                "topological direct stress distinction",
+                e["symbolic_identities"][
+                    "bare_fixed_theta_direct_Hilbert_residual"
+                ]=="0"
+                and e["symbolic_identities"]["scope"].startswith(
+                    "EXACT_SYMBOLIC_LOCAL"
+                )
+            )
+            state="PASS_SCOPED_ACTION_ATLAS_NOT_PHYSICAL_MODEL"
+        else:
+            check(
+                "interrupted run not promoted",
+                science["qualified_physical_survivors"]==0
+                and science["complete_covariant_action"]=="NOT_DERIVED"
+            )
+            state="PASS_INTEGRITY_INCOMPLETE_RUN"
+
+        result={
+            "program":"GRAVITY2-02_INDEPENDENT_VERIFIER",
+            "run_id":directory.name,
+            "status":state,
+            "checks":checks,
+            "science_sha256":digest(
+                directory/"science.json"
+            ),
+            "complete_gravitational_action":"NOT_DERIVED",
+            "qualified_survivors":0,
+        }
+
+    except Exception as exc:
+        result={
+            "program":"GRAVITY2-02_INDEPENDENT_VERIFIER",
+            "run_id":directory.name,
+            "status":"HOLD",
+            "checks":checks,
+            "error":repr(exc),
+            "qualified_survivors":0,
+        }
+
+    path=directory/"verification.json"
+    if path.exists():
+        if json.loads(path.read_text())!=result:
+            print("VERIFICATION_RECHECK_DIFFERS_NO_OVERWRITE")
+            return 3
+    else:
+        atomic_json(path,result)
+        atomic_text(
+            directory/"verification.sha256",
+            digest(path)+"  verification.json\n"
+        )
+
+    print("GRAVITY2_02_VERIFY="+result["status"])
+    print(
+        "CHECKS="
+        +str(sum(checks.values()))
+        +"/"+str(len(checks))
+    )
+    print("VERIFICATION_SHA256="+digest(path))
+    return 0 if state==(
+        "PASS_SCOPED_ACTION_ATLAS_NOT_PHYSICAL_MODEL"
+    ) and result["status"]==state else 3
+PY_VERIFY
+
+cat > "$TESTS/test_gravity2_02.py" <<'PY_TEST'
+"""Scoped GRAVITY2-02 guards."""
+import ast
+from pathlib import Path
+
+import pytest
+
+from antigravity_research.gravity2 import (
+    action02_core as core,
+    action02 as cli,
+)
+
+
+def test_exact_symbolic_identities():
+    x=core.symbolic_gate()
+    assert x["metric_variation_residual"]=="0"
+    assert x["transverse_reciprocity_residual"]=="0"
+    assert x["charged_scalar_one_coordinate_Ward_residual"]=="0"
+
+
+def test_point_charge_control():
+    x=core.symbolic_gate()
+    assert x["point_charge_self_energy_limit"]=="POSITIVE_INFINITY"
+
+
+def test_distinct_action_cases():
+    assert len(core.CANDIDATES)==3
+    assert len({c["family"] for c in core.CANDIDATES})==3
+
+
+def test_no_certified_action():
+    a=core.audit(cli.ROOT)
+    assert a["decision"]=="SCOPED_ACTION_TEMPLATE_ATLAS_NO_PROMOTION"
+    assert a["qualified_survivors"]==0
+    assert a["complete_action"]=="NOT_DERIVED"
+
+
+def test_parent_sources_locked():
+    a=core.audit(cli.ROOT)
+    assert all(
+        p["status"]=="MATCH"
+        for p in a["historical_files"].values()
+    )
+
+
+def test_l1_rejected():
+    class Args:
+        level="L1"
+        workers=1
+        preset="quick"
+        minutes=0.5
+        dry_run=True
+    with pytest.raises(ValueError):
+        cli.execute(Args())
+
+
+def test_dry_run_no_output(capsys):
+    class Args:
+        level="L0"
+        workers=1
+        preset="quick"
+        minutes=0.5
+        dry_run=True
+    assert cli.execute(Args())==0
+    assert "DRY_RUN_NO_WRITES" in capsys.readouterr().out
+
+
+def test_no_legacy_imports_or_execution():
+    root=Path(cli.__file__).resolve().parent
+    for name in cli.FILES:
+        tree=ast.parse((root/name).read_text())
+        for node in ast.walk(tree):
+            if isinstance(node,ast.Import):
+                assert all(
+                    "agminer" not in n.name.lower()
+                    for n in node.names
+                )
+            if isinstance(node,ast.ImportFrom) and node.module:
+                assert "agminer" not in node.module.lower()
+PY_TEST
+
+export PYTHONPATH="$REPO/src"
+export PYTHONDONTWRITEBYTECODE=1
+export PYTEST_DISABLE_PLUGIN_AUTOLOAD=1
+export OPENBLAS_NUM_THREADS=1
+export OMP_NUM_THREADS=1
+
+echo "========== GRAVITY2-02 SYNTAX =========="
+"$PYTHON" - <<'PY_SYNTAX'
+import ast
+from pathlib import Path
+base=Path("src/antigravity_research/gravity2")
+for name in (
+    "action02_core.py","action02.py","action02_verify.py"
+):
+    ast.parse((base/name).read_text(),filename=name)
+    print("SYNTAX_PASS =",name)
+PY_SYNTAX
+
+echo "========== GRAVITY2-02 DRY RUN =========="
+"$PYTHON" -m antigravity_research.gravity2.action02 run \
+    --level L0 --preset quick --minutes 1 --workers 1 --dry-run
+
+echo "GRAVITY2_02_APPLY_COMPLETE"
+echo "LEGACY_AGMINER_MODIFIED=NO"
+echo "GRAVITY2_00_01_MODIFIED=NO"

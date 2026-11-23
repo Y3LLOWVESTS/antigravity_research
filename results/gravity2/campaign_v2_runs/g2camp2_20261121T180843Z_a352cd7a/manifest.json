@@ -1,0 +1,24 @@
+{
+  "AGMINER": "NOT_EXECUTED",
+  "L2_L4": "LOCKED",
+  "code_sha256": {
+    "campaign.py": "c9b4f5055b418f834ce29df954376302be53f7678db15757287327348022865c",
+    "campaign_check.py": "2b63b98dabe3011547a4952411373be35adf6a50becec2031fb1e1b2166b6b9e",
+    "campaign_check_v2.py": "7a9d48cad0da0ee96a5f5bf03dfdc50c525c1a2ca5394e11a557c3fc0e6c2be5",
+    "campaign_science.py": "3f7943d3da1db36540e4394cd1e62c7608d8db279ab462a7b8e34fc974e9f3d7",
+    "campaign_v2.py": "eeab30591418f46aea43afe7256395fd611afc93030310bccf82be61c54d801e",
+    "tests/gravity2/test_campaign.py": "ac27e2737e34d4690a72ffd8806de7795d1d84c4c9df0480bd4de38d3d5200c1",
+    "tests/gravity2/test_campaign_v2.py": "088535b998efb918d2e3a58dccb6fd07bdcf42c8f397604e1185efb824b78b6c"
+  },
+  "created_utc": "2026-11-21T18:08:43.198680+00:00",
+  "disk_soft_mib": 8,
+  "level": "L1",
+  "preset": "short",
+  "ram_soft_mib": 640,
+  "resume_from": null,
+  "run_id": "g2camp2_20261121T180843Z_a352cd7a",
+  "schema": "gravity2.campaign.v1",
+  "tasks_sha256": "8f0bfc558e17514c3e073198092cbde709d945ca634c7fc7837a52855d5696ec",
+  "wall_seconds": 120.0,
+  "workers": 1
+}

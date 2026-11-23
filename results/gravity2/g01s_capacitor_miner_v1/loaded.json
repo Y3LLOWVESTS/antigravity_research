@@ -1,0 +1,200 @@
+{
+  "action": "Conditional hidden-photon benchmark. Minimize one static fixed-charge energy\nover the scalar, with the Maxwell potential solved at every iterate. Conducting\nconcentric shells have equal opposite total charge and angular charge redistribution.\nThe hidden charge carriers are assumed. Electrode and payload masses move with\nthe craft; Earth is a fixed smoothed planar density. Gravity in the weight\ncomparison is prescribed. No mechanical support, carrier mass ledger, complete\nmetric dynamics, source material or microscopic hidden charges are derived.\n",
+  "eta": 2.8570886468652265e+38,
+  "full_regression": "NOT_RUN",
+  "ground_interface_width_m": 0.15,
+  "ground_nominal_clearance_m": 1.0,
+  "inner_radius_m": 1.5016161616161616,
+  "physical_survivors": 0,
+  "range_m": 1.0,
+  "reference": "relative to uncharged, phi=0. Static field and conformal rest shift included; no battery, supports, switching or shell mechanical energy.",
+  "rows": [
+    {
+      "b_over_eta": 3e-15,
+      "craft_portal_up_N": 1.137848627073195,
+      "electric_scalar_rest_increment_J": [
+        61975.945716742564,
+        748708.0189350034,
+        169.82069555083092
+      ],
+      "gradient_FD_error": 6.960748013898251e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -1.137848627073195,
+      "loaded_torus_max_up_m_s2": 5.476812383541271,
+      "loaded_torus_min_up_m_s2": 1.3309396404228744,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 13.898477416590582,
+      "maximum_log_gauge_in_torus": 0.007574478714170263,
+      "maximum_log_mass_shift": 4.1695432249771743e-14,
+      "n_radial": 142,
+      "n_theta": 64,
+      "preconditioned_residual": 2.998991609926424e-10,
+      "scalar_curvature_check": 0.8573714835313773,
+      "steps": 48,
+      "torus_mass_before_discrete_normalization_kg": 0.8829833023009649,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 810853.7853472969,
+      "vacuum_plane_stress_N": [
+        1.1295391104219321,
+        1.1291542141841362
+      ]
+    },
+    {
+      "b_over_eta": 3e-15,
+      "craft_portal_up_N": 0.7373142115670767,
+      "electric_scalar_rest_increment_J": [
+        47429.27711036915,
+        641201.5911293222,
+        111.75792108828469
+      ],
+      "gradient_FD_error": 6.478747834658671e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -0.7373142115670767,
+      "loaded_torus_max_up_m_s2": 3.5895621575048486,
+      "loaded_torus_min_up_m_s2": 0.8726826418595632,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 15.099125157994495,
+      "maximum_log_gauge_in_torus": 0.0049639449164524405,
+      "maximum_log_mass_shift": 4.5297375473983483e-14,
+      "n_radial": 250,
+      "n_theta": 112,
+      "preconditioned_residual": 3.891301018185018e-09,
+      "scalar_curvature_check": 0.8292156898626057,
+      "steps": 60,
+      "torus_mass_before_discrete_normalization_kg": 0.9973447656679477,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 688742.6261607796,
+      "vacuum_plane_stress_N": [
+        0.7367144592023483,
+        0.7366252944075485
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 1.5639042100919347,
+      "electric_scalar_rest_increment_J": [
+        62105.62282540428,
+        748588.2256118362,
+        1679.4130031875914
+      ],
+      "gradient_FD_error": 6.971562949655371e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -1.5639042100919347,
+      "loaded_torus_max_up_m_s2": 54.03876755629668,
+      "loaded_torus_min_up_m_s2": 12.962500460944941,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 13.901177614977813,
+      "maximum_log_gauge_in_torus": 0.007428344232078862,
+      "maximum_log_mass_shift": 4.1703532844933435e-13,
+      "n_radial": 142,
+      "n_theta": 64,
+      "preconditioned_residual": 4.5411322630496756e-11,
+      "scalar_curvature_check": 1.204276075389421,
+      "steps": 48,
+      "torus_mass_before_discrete_normalization_kg": 0.8829833023009649,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 812373.2614404281,
+      "vacuum_plane_stress_N": [
+        1.5546123364348308,
+        1.5544592471567587
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 1.0168238909268468,
+      "electric_scalar_rest_increment_J": [
+        47504.82350278095,
+        641133.0810168001,
+        1104.2424851562466
+      ],
+      "gradient_FD_error": 6.487574631450636e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -1.0168238909268468,
+      "loaded_torus_max_up_m_s2": 35.390466269747485,
+      "loaded_torus_min_up_m_s2": 8.490888600045594,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 15.101070343799744,
+      "maximum_log_gauge_in_torus": 0.004863363241869395,
+      "maximum_log_mass_shift": 4.530321103139923e-13,
+      "n_radial": 250,
+      "n_theta": 112,
+      "preconditioned_residual": 1.6698247864742522e-10,
+      "scalar_curvature_check": 1.1755789570966346,
+      "steps": 60,
+      "torus_mass_before_discrete_normalization_kg": 0.9973447656679477,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 689742.1470047374,
+      "vacuum_plane_stress_N": [
+        1.0142832423067314,
+        1.0142320022674767
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 0.762112348302459,
+      "electric_scalar_rest_increment_J": [
+        39611.53978831969,
+        579199.0630429467,
+        826.1730289009623
+      ],
+      "gradient_FD_error": 6.197393476474464e-09,
+      "ground_kg_m3": 2000.0,
+      "ground_up_N": -0.762112348302459,
+      "loaded_torus_max_up_m_s2": 26.60676172104317,
+      "loaded_torus_min_up_m_s2": 6.389610687243345,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 16.088762676766525,
+      "maximum_log_gauge_in_torus": 0.0036557662449875528,
+      "maximum_log_mass_shift": 4.826628803029957e-13,
+      "n_radial": 393,
+      "n_theta": 176,
+      "preconditioned_residual": 3.101916904545969e-09,
+      "scalar_curvature_check": 1.1589571878578564,
+      "steps": 60,
+      "torus_mass_before_discrete_normalization_kg": 1.0005075068448028,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 619636.7758601673,
+      "vacuum_plane_stress_N": [
+        0.7635521741675666,
+        0.7635371808972762
+      ]
+    },
+    {
+      "b_over_eta": 3e-14,
+      "craft_portal_up_N": 0.0,
+      "electric_scalar_rest_increment_J": [
+        47504.27726392809,
+        641133.0269445095,
+        1097.5521893266487
+      ],
+      "gradient_FD_error": 1.919845079655237e-09,
+      "ground_kg_m3": 0.0,
+      "ground_up_N": -0.0,
+      "loaded_torus_max_up_m_s2": 0.0039093320214976775,
+      "loaded_torus_min_up_m_s2": 0.0014448269886528505,
+      "mass_foil_and_torus_kg": 22.222209795496454,
+      "maximum_log_gauge_factor": 15.101066615260528,
+      "maximum_log_gauge_in_torus": 6.043793204280822e-07,
+      "maximum_log_mass_shift": 4.5303199845781584e-13,
+      "n_radial": 250,
+      "n_theta": 112,
+      "preconditioned_residual": 6.565835414170296e-11,
+      "scalar_curvature_check": 0.6972408393701723,
+      "steps": 60,
+      "torus_mass_before_discrete_normalization_kg": 0.9973447656679477,
+      "torus_mass_kg": 1.0,
+      "total_active_static_J": 689734.8563977642,
+      "vacuum_plane_stress_N": [
+        59.528099533673014,
+        12.470790830467742
+      ]
+    }
+  ],
+  "science_sha256": "eda762f4f920130fc01d4dc088f9ffd957149079f387b6fdd5b5958ce1c7968c",
+  "source_sha256": "7c6cfe7eaa739054cf0b06f561c2f5b7112d8875c28abae1550ccf2123f03270",
+  "status": "CONDITIONAL_FIXED_GEOMETRY_HIDDEN_CHARGE_BENCHMARK",
+  "surface_density_kg_m2": 0.27,
+  "uncharged_scalar_phi": 0.0,
+  "unscalarized_charged_energy_J": 9000000.0,
+  "validation": "separate ground-density translation and vacuum planes; positive curvature in one test direction is not full modal stability"
+}

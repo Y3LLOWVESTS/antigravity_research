@@ -1,0 +1,95 @@
+{
+  "complete_SI_energy": "NOT_CERTIFIED",
+  "families": [
+    {
+      "cases": 2048,
+      "independent_pass": 2048,
+      "loaded_frozen_component_sign_changes": 0,
+      "max_abs_response_shift": 0.10344006951025864,
+      "max_schur_error": 4.440892098500626e-16,
+      "max_stationary_residual": 8.881784197001252e-16,
+      "min_hessian_eigenvalue": 1.5549371308917155,
+      "name": "field1_weak",
+      "toy_negative_force": 1000,
+      "toy_positive_force": 1048
+    },
+    {
+      "cases": 2048,
+      "independent_pass": 2048,
+      "loaded_frozen_component_sign_changes": 0,
+      "max_abs_response_shift": 5.048275817211722,
+      "max_schur_error": 2.6645352591003757e-15,
+      "max_stationary_residual": 4.6629367034256575e-15,
+      "min_hessian_eigenvalue": 0.21753910161738682,
+      "name": "field1_strong",
+      "toy_negative_force": 1024,
+      "toy_positive_force": 1024
+    },
+    {
+      "cases": 2048,
+      "independent_pass": 2048,
+      "loaded_frozen_component_sign_changes": 10,
+      "max_abs_response_shift": 0.07590709368650206,
+      "max_schur_error": 2.220446049250313e-16,
+      "max_stationary_residual": 8.881784197001252e-16,
+      "min_hessian_eigenvalue": 1.574209527478427,
+      "name": "field2_weak",
+      "toy_negative_force": 987,
+      "toy_positive_force": 1061
+    },
+    {
+      "cases": 2048,
+      "independent_pass": 2048,
+      "loaded_frozen_component_sign_changes": 169,
+      "max_abs_response_shift": 5.630678064027494,
+      "max_schur_error": 3.1086244689504383e-15,
+      "max_stationary_residual": 4.440892098500626e-15,
+      "min_hessian_eigenvalue": 0.22267490636423415,
+      "name": "field2_strong",
+      "toy_negative_force": 1046,
+      "toy_positive_force": 1002
+    }
+  ],
+  "multi_field_sign_change": "POSSIBLE_COORDINATE_ROTATION_NOT_GRAVITATIONAL_FORCE",
+  "negative_controls": [
+    {
+      "expected": "NO_COMMON_QUADRATIC_ACTION",
+      "name": "asymmetric_A",
+      "observed": "NO_COMMON_QUADRATIC_ACTION",
+      "pass": true
+    },
+    {
+      "expected": "UNHEALTHY_TOY_MODE",
+      "name": "negative_A",
+      "observed": "UNHEALTHY_TOY_MODE",
+      "pass": true
+    },
+    {
+      "expected": "PHYSICAL_SOURCE_OR_SI_NOT_DERIVED",
+      "name": "claimed_real_source",
+      "observed": "PHYSICAL_SOURCE_OR_SI_NOT_DERIVED",
+      "pass": true
+    },
+    {
+      "expected": "NONFINITE_OR_UNBOUNDED_TOY",
+      "name": "nan_coupling",
+      "observed": "NONFINITE_OR_UNBOUNDED_TOY",
+      "pass": true
+    },
+    {
+      "expected": "LOADED_EQUALS_FROZEN",
+      "name": "no_cross_coupling",
+      "observed": "LOADED_EQUALS_FROZEN",
+      "pass": true
+    }
+  ],
+  "physical_new_action": "NOT_SUPPLIED",
+  "qualified_physical_survivors": 0,
+  "research_stop": "G01_ACTION_REQUIRES_NEW_SAME_ACTION_COVARIANT_PHYSICS",
+  "schema": "gravity2.broad_scoped_toy_scan.v1",
+  "seed": 20261121,
+  "single_field_theorem": "POSITIVE_SCALAR_SCHUR_PRESERVES_FIRST_FIELD_SIGN_IN_THIS_TOY",
+  "status": "PASS_SCOPED_TOY_STRESS_NO_GRAVITY",
+  "total_cases": 8192,
+  "whole_craft_force": "NOT_DERIVED"
+}

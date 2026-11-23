@@ -1,0 +1,8 @@
+{
+  "experiment": "EPSILON1-00-INDEPENDENT-CHECK",
+  "full_regression": "NOT_RUN",
+  "independent_math": "PASS",
+  "parent_sha256": "5e29b2d389fee45ff4a3098b29f1ac3c8bd436cb678d9c8df2c24535e14450f5",
+  "physical_survivors": 0,
+  "science_sha256": "2840555051406416bcf4bfc9a8bc17f736d61a97e623f5019aa8dcbe39e23f16"
+}

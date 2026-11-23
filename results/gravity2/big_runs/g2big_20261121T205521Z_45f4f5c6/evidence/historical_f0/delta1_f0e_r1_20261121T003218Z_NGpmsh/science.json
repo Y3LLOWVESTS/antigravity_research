@@ -1,0 +1,130 @@
+{
+  "complete_energy_j": null,
+  "earth_craft_force": "NOT_DERIVED",
+  "einstein_gravity": "NOT_DERIVED",
+  "full_regression": "NOT_RUN_SCOPED_ANALYTICAL_PREFLIGHT",
+  "landau_examples": [
+    {
+      "barrier_above_off": 0.0026982500643704184,
+      "c2": 0.1,
+      "c4": -1,
+      "c6": 1,
+      "classification": "BISTABLE_ON_GLOBALLY_FAVORED",
+      "discriminant": 0.6,
+      "off_strict_local_minimum": true,
+      "on_energy_relative_off": -0.03603158339770375,
+      "on_second_derivative": 1.374596669241483,
+      "x_stable_on": 0.8872983346207417,
+      "x_unstable": 0.1127016653792583
+    },
+    {
+      "barrier_above_off": 0.012060113295832986,
+      "c2": 0.2,
+      "c4": -1,
+      "c6": 1,
+      "classification": "BISTABLE_OFF_GLOBALLY_FAVORED",
+      "discriminant": 0.19999999999999996,
+      "off_strict_local_minimum": true,
+      "on_energy_relative_off": 0.004606553370833696,
+      "on_second_derivative": 0.6472135954999583,
+      "x_stable_on": 0.7236067977499789,
+      "x_unstable": 0.27639320225002106
+    },
+    {
+      "c2": 0.3,
+      "c4": -1,
+      "c6": 1,
+      "classification": "NO_DOUBLE_WELL_BRANCH",
+      "discriminant": -0.19999999999999996,
+      "off_strict_local_minimum": true
+    }
+  ],
+  "metric_lift": "NOT_CERTIFIED",
+  "metric_observability": {
+    "actual_stationary_loaded_mode": "NOT_DERIVED",
+    "toroidal_zero_field_trial": "E_DOT_B_ZERO",
+    "uniform_B_zero_trial": "E_DOT_B_ZERO",
+    "warning": "Zero trial E.B does not prove that field-relaxed eigenmodes have zero E.B"
+  },
+  "next": "CONDITIONAL_MICROPHYSICAL_SOURCE_ACTION_REQUIRED",
+  "parameters": {
+    "R_m": 2.0,
+    "a": -0.35,
+    "gamma": "UNSPECIFIED_SOURCE_PARAMETER",
+    "kappa": "UNSPECIFIED_SOURCE_PARAMETER",
+    "quartic": "UNSPECIFIED_SOURCE_PARAMETER",
+    "sextic": "UNSPECIFIED_SOURCE_PARAMETER"
+  },
+  "parents": {
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0d_20261120T231924Z_vCnB6I/f0d.py": "4936c50e7819d3cd115740e416255782c174b14c96415514faf80e895fdc240c",
+    "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0d_20261120T231924Z_vCnB6I/science.json": "2db67eea46adf84327c14c0177c1863148893217a377ac67a1f3a39ec9cb6465"
+  },
+  "physical_source": "NOT_SPECIFIED",
+  "producer_sha256": "2b09062244380ce573442e169b76a602e49a4a690d628838bcac92158fcd6fe1",
+  "program": "DELTA1_F0E_SOURCE_COMPLETION_NECESSARY_GATES",
+  "scientific_decision": "NO_FURTHER_FIELD_AMPLITUDE_OPTIMIZATION_WITHOUT_PHYSICAL_BOUNDARY_AND_SATURATION_ACTION",
+  "scope": "F0D quadratic trials plus hypothetical surface penalty and conditional polynomial switching models",
+  "status": "NECESSARY_GATES_DERIVED_NO_PHYSICAL_PROMOTION",
+  "switching_theorems": {
+    "microscopic_coefficients": "NOT_DERIVED",
+    "negative_quartic_positive_sextic": "CONDITIONALLY_BISTABLE_IF_c2_POSITIVE_AND_c4_NEGATIVE_AND_c6_POSITIVE_AND_c4_SQUARED_GREATER_THAN_4_c2_c6",
+    "positive_quartic_only": "CANNOT_PRODUCE_STRICTLY_STABLE_OFF_AND_NONZERO_ON"
+  },
+  "toroidal_trial": {
+    "expression": "a+x1\u00b2*kappa/R\u00b2+Csurface*gamma/R",
+    "minimum_gamma_over_R_at_zero_kappa": 0.09422378304668066,
+    "minimum_kappa_over_R2_at_uniform_gamma_threshold": 0.07601354720751376,
+    "root": 2.0815759778181007,
+    "surface_ratio": 3.714561108490006,
+    "trial_only_for_nonzero_gamma": true
+  },
+  "trial_cases": [
+    {
+      "gamma_over_R": 0,
+      "kappa_over_R2": 0,
+      "known_negative_trial": true,
+      "other_modes": "NOT_TESTED",
+      "toroidal_curvature_upper": -0.35,
+      "uniform_curvature_upper": -0.016666666666666663
+    },
+    {
+      "gamma_over_R": 0,
+      "kappa_over_R2": 1,
+      "known_negative_trial": true,
+      "other_modes": "NOT_TESTED",
+      "toroidal_curvature_upper": 3.9829585514293817,
+      "uniform_curvature_upper": -0.016666666666666663
+    },
+    {
+      "gamma_over_R": 0.005555555555555554,
+      "kappa_over_R2": 0,
+      "known_negative_trial": true,
+      "other_modes": "NOT_TESTED",
+      "toroidal_curvature_upper": -0.32936354939727774,
+      "uniform_curvature_upper": 0.0
+    },
+    {
+      "gamma_over_R": 0.005555555555555554,
+      "kappa_over_R2": 0.07601354720751376,
+      "known_negative_trial": false,
+      "other_modes": "NOT_TESTED",
+      "toroidal_curvature_upper": 1.734723475976807e-17,
+      "uniform_curvature_upper": 0.0
+    },
+    {
+      "gamma_over_R": 0.1,
+      "kappa_over_R2": 0,
+      "known_negative_trial": false,
+      "other_modes": "NOT_TESTED",
+      "toroidal_curvature_upper": 0.021456110849000676,
+      "uniform_curvature_upper": 0.2833333333333334
+    }
+  ],
+  "uniform_trial": {
+    "expression": "a+1/3+3*gamma/R",
+    "minimum_gamma_over_R": 0.005555555555555554,
+    "stiffness_alone_suffices": false,
+    "surface_required_to_remove_known_negative_direction": true
+  },
+  "utc": "2026-11-21T00:32:20.096923+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "action_changed": false,
+  "corrected_source_sha256": "2b09062244380ce573442e169b76a602e49a4a690d628838bcac92158fcd6fe1",
+  "full_regression": "NOT_RUN",
+  "original_directory": "/Users/mymac/Desktop/antigravity_research/results/data/delta1_f0e_20261121T002213Z_yThuSg",
+  "original_source_sha256": "9b397566e4d7ae0301c249cb53d46ce8454fd50705d58e8bcb4f6cf8509e511a",
+  "physics_changed": false,
+  "previous_failure_preserved": true,
+  "program": "DELTA1_F0E_R1_SERIALIZATION_REPAIR",
+  "repair": "Convert numpy.bool_ trial result to Python bool",
+  "thresholds_changed": false,
+  "verifier_sha256": "2628c93c66a31f91b92634a1d3e8de95ff80242ce21ef91afa04754cdd041581"
+}

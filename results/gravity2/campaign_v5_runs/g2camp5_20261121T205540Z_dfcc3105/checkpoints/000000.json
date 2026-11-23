@@ -1,0 +1,8 @@
+{
+  "done": [],
+  "manifest_sha256": "0c668233c89a76e6910b4edbe4822f1b194de13d4b6e1fa751549c8cd4da34c6",
+  "previous_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "schema": "gravity2.checkpoint.v5",
+  "sequence": 0,
+  "skipped": []
+}

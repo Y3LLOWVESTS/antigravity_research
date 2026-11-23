@@ -1,0 +1,23 @@
+{
+  "focused": {
+    "origin": "/Users/mymac/Desktop/antigravity_research/results/gravity2/g01l_preflight_20261122T002048Z_63544/focused.log",
+    "passed": 5,
+    "sha256": "9a31bde2c0b10cf89a43c45a74a4f18dab6597730ab65377b6325c2cc7291834",
+    "status": "PASS_SCOPED_SOFTWARE"
+  },
+  "full": {
+    "status": "NOT_RUN"
+  },
+  "parent_shas": {
+    "G01J_SCIENCE": "ce57c05c45428548afe80175943cc256fac94212cbc1b0415ff8a73f6dbd6ce3",
+    "G01K_SCIENCE": "3e81c419afd30d416cb440383ff700a81750f1188383c38ff34732900ae75b12",
+    "G01K_SOURCE": "cb6bc822e2dd363c48982f677c7d852317392098e4e7f610f3506e68e9468112"
+  },
+  "run_id": "g01l_20261122T002340Z_d286fcf8",
+  "schema": "gravity2.g01l.manifest.v1",
+  "source_shas": {
+    "scripts/g01l_check_v1.py": "830c1edcfbe6b37011bfe9d7c07c2e6d35f67c31bbaa1605e7b842f61171b792",
+    "scripts/g01l_source_v1.py": "0132f34e3a6921dc6bc1a5ddda12d025ee9aab877c876d480f5855ba7d02df2d",
+    "src/antigravity_research/gravity2/g01l_core.py": "300e45da0a181f682383247c5ddca803bef851de9f0d02c5de3957bf824fd84a"
+  }
+}

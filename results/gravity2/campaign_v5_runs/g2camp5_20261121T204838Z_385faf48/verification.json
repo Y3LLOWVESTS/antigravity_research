@@ -1,0 +1,20 @@
+{
+  "checkpoint_sha256": "3aa219ebe03c60678c93bdef56bb0fecec42e339cea0caa735a3feb214e098b3",
+  "checks": {
+    "checkpoint anchor": true,
+    "completed entries identical": true,
+    "completion and state consistency": true,
+    "file SHA manifest.json": true,
+    "file SHA science.json": true,
+    "no gravitational promotion": true,
+    "no unsupported full regression claim": true,
+    "remaining tasks honest": true,
+    "run linkage": true,
+    "skipped entries identical": true
+  },
+  "physical_success": false,
+  "program": "GRAVITY2_V5_INDEPENDENT",
+  "run_id": "g2camp5_20261121T204838Z_385faf48",
+  "science_sha256": "d3b37ac7cbc87b3d8112b061cbd0bc49aeeba0c51db8fee5d537a59231141d93",
+  "status": "PASS_SCOPED_CAMPAIGN_NO_LIFT"
+}

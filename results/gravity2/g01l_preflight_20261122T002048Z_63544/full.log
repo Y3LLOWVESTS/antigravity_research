@@ -1,0 +1,8 @@
+........................................................................ [  2%]
+........................................................................ [  4%]
+........................................................................ [  6%]
+..................................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KeyboardInterrupt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/Users/mymac/Desktop/antigravity_research/.venv/lib/python3.13/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py:289: KeyboardInterrupt
+(to show a full traceback on KeyboardInterrupt use --full-trace)
+266 passed in 126.72s (0:02:06)

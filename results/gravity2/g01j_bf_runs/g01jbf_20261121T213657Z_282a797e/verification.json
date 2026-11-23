@@ -1,0 +1,10 @@
+{
+  "manifest_sha256": "0cff25efb9a7a6b916262ac86ca2d6bafbdad9400aec2f5e94d1a3dbe384d5ea",
+  "mode_checks": 12,
+  "negative_controls": 8,
+  "physical_survivors": 0,
+  "quadrature_checks": 10,
+  "science_sha256": "ce57c05c45428548afe80175943cc256fac94212cbc1b0415ff8a73f6dbd6ce3",
+  "status": "PASS_INDEPENDENT_BF_SOURCE_ATLAS_NO_GRAVITY",
+  "truncation_cases": 22
+}

@@ -1,0 +1,169 @@
+{
+  "code_sha256": {
+    "campaign.py": "c9b4f5055b418f834ce29df954376302be53f7678db15757287327348022865c",
+    "campaign_check.py": "2b63b98dabe3011547a4952411373be35adf6a50becec2031fb1e1b2166b6b9e",
+    "campaign_check_v2.py": "7a9d48cad0da0ee96a5f5bf03dfdc50c525c1a2ca5394e11a557c3fc0e6c2be5",
+    "campaign_check_v3.py": "f464f0eea4047a8dc3450273724f4bb18766f89640f74588f13dcb0e8febed79",
+    "campaign_check_v4.py": "357544e5474783c4d561a20debc517a330551754aada3904a320afea0fafd0c1",
+    "campaign_check_v5.py": "7ce7a5888c4e7cb466d60239be15c91b1ec60ce31ed6f54f38bbefef0327d982",
+    "campaign_science.py": "3f7943d3da1db36540e4394cd1e62c7608d8db279ab462a7b8e34fc974e9f3d7",
+    "campaign_v2.py": "eeab30591418f46aea43afe7256395fd611afc93030310bccf82be61c54d801e",
+    "campaign_v3.py": "601c0a175d076ff772f0765ea38276c67e084d8c5bf2ee1d79618d9ae250cd79",
+    "campaign_v4.py": "a3785e5bf8bce670af73f4e7b5bbfb2e330f74cb08682e37cf6294292ebe2ef5",
+    "campaign_v5.py": "92ca8c97a610420daf45ad5cdc69fc8b1c75a8eb70645c6814ba50484378675a",
+    "review_contracts_v4.py": "750253c8ee297e9fdc59473b58e3f175ebb1cbe2cfca3286b060b18f45fe4d60",
+    "scientific_inputs_v3.py": "e102c984cd403bfb4534c775c79827554801e09c4b1da3509b4ca0fba14785ff",
+    "tests/gravity2/test_campaign.py": "ac27e2737e34d4690a72ffd8806de7795d1d84c4c9df0480bd4de38d3d5200c1",
+    "tests/gravity2/test_campaign_v2.py": "088535b998efb918d2e3a58dccb6fd07bdcf42c8f397604e1185efb824b78b6c",
+    "tests/gravity2/test_campaign_v3.py": "b5742fb6a26f941323962c31b4ae1e9e6b18b4b0fc034815cf2ac0034f9aa9f3",
+    "tests/gravity2/test_campaign_v4.py": "1a5de8dc9646df783587ab79ae2b8393f56351235934176c9787114ce16cf9c5",
+    "tests/gravity2/test_campaign_v5.py": "c7e9c8f258139f48a9adca291d230e16bfa94eadc02ffe51333a4354abf2c221"
+  },
+  "disk_soft_mib": 8,
+  "level": "L1",
+  "parents": {
+    "G07_ARCHIVE": {
+      "actual_sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d",
+      "expected_sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d",
+      "match": true,
+      "relative_path": "results/gravity2/bridge07_runs/g207_20261121T065202Z_450b9280/fields.npz"
+    },
+    "G08_SCIENCE": {
+      "actual_sha256": "a883cbe884ef97b839995da7437cf2a3d8c0451dc1415f88caf6ed314ac5e419",
+      "expected_sha256": "a883cbe884ef97b839995da7437cf2a3d8c0451dc1415f88caf6ed314ac5e419",
+      "match": true,
+      "relative_path": "results/gravity2/bridge08_runs/g208_20261121T070239Z_467d6a03/science.json"
+    },
+    "G08_VERIFICATION": {
+      "actual_sha256": "fb14efd798d6a58472421ab611c896c974aff62f743d7666219f0cecd3d676c9",
+      "expected_sha256": "fb14efd798d6a58472421ab611c896c974aff62f743d7666219f0cecd3d676c9",
+      "match": true,
+      "relative_path": "results/gravity2/bridge08_runs/g208_20261121T070239Z_467d6a03/verification.json"
+    }
+  },
+  "physical_scope": "SCOPED_L0_L1_NO_LIFT",
+  "preset": "short",
+  "ram_soft_mib": 640,
+  "resume_checkpoint_sha256": null,
+  "resume_from": null,
+  "run_id": "g2camp5_20261121T204838Z_385faf48",
+  "schema": "gravity2.campaign.v5",
+  "tasks": [
+    {
+      "action": {
+        "Earth_action": null,
+        "Einstein_Hilbert_boundary_action": null,
+        "charges": [
+          0.4,
+          -0.4
+        ],
+        "dynamical_source_and_X": false,
+        "exterior": "PERIODIC_2D_CONTROL",
+        "frequencies": [
+          1.25,
+          1.25
+        ],
+        "metric_Hodge_variation_complete": false,
+        "neutral_action": null,
+        "physical_SI_normalization": false,
+        "potential": "POSITIVE_CONVEX_LOCAL_TEMPLATE",
+        "source_fields": 2,
+        "source_frame": "JORDAN",
+        "source_support_action": null
+      },
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "gate": "ACTION_COMPLETENESS",
+      "id": "JPAIR_ACTION_INVENTORY",
+      "independent": "campaign_check",
+      "level": "L0",
+      "module": "campaign_science",
+      "priority": 100,
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    },
+    {
+      "action": {
+        "Earth_action": null,
+        "Einstein_Hilbert_boundary_action": null,
+        "charges": [
+          0.4,
+          -0.4
+        ],
+        "dynamical_source_and_X": false,
+        "exterior": "PERIODIC_2D_CONTROL",
+        "frequencies": [
+          1.25,
+          1.25
+        ],
+        "metric_Hodge_variation_complete": false,
+        "neutral_action": null,
+        "physical_SI_normalization": false,
+        "potential": "POSITIVE_CONVEX_LOCAL_TEMPLATE",
+        "source_fields": 2,
+        "source_frame": "JORDAN",
+        "source_support_action": null
+      },
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "gate": "CHARGE_BALANCE_CONTROL",
+      "id": "JPAIR_CHARGE_CONTROL",
+      "independent": "campaign_check",
+      "level": "L1",
+      "module": "campaign_science",
+      "priority": 90,
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    },
+    {
+      "action": {
+        "Earth_and_support": "NOT_DERIVED",
+        "exterior": "NOT_DERIVED",
+        "family": "R3B_M0_UNMODIFIED_JORDAN_PORTAL",
+        "input": "IMMUTABLE_PARENT_R3B_SOURCES_AND_DELTA1_02",
+        "loaded_JVP": "NOT_AVAILABLE_AS_A_CERTIFIED_SAME_ACTION_ARTIFACT",
+        "neutral_metric": "g_phys=exp(2*sigma(P))*g_Einstein",
+        "physical_survivor": false,
+        "sigma": "alpha*P-beta*P**2",
+        "source_variation": "NOT_ESTABLISHED"
+      },
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "gate": "F0_PARENT_STATE_AUDIT",
+      "id": "F0_PARENT_STATE_AUDIT",
+      "independent": "delta_f0_review",
+      "independent_sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7",
+      "level": "L0",
+      "module": "delta_f0_provider",
+      "priority": 85,
+      "provider_sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87",
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    },
+    {
+      "action": {
+        "Earth_and_support": "NOT_DERIVED",
+        "exterior": "NOT_DERIVED",
+        "family": "R3B_M0_UNMODIFIED_JORDAN_PORTAL",
+        "input": "IMMUTABLE_PARENT_R3B_SOURCES_AND_DELTA1_02",
+        "loaded_JVP": "NOT_AVAILABLE_AS_A_CERTIFIED_SAME_ACTION_ARTIFACT",
+        "neutral_metric": "g_phys=exp(2*sigma(P))*g_Einstein",
+        "physical_survivor": false,
+        "sigma": "alpha*P-beta*P**2",
+        "source_variation": "NOT_ESTABLISHED"
+      },
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "gate": "F0_LOADED_RECIPROCITY",
+      "id": "F0_LOADED_RECIPROCITY",
+      "independent": "delta_f0_review",
+      "independent_sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7",
+      "level": "L1",
+      "module": "delta_f0_provider",
+      "priority": 84,
+      "provider_sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87",
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    }
+  ],
+  "tasks_sha256": "8f0bfc558e17514c3e073198092cbde709d945ca634c7fc7837a52855d5696ec",
+  "test_fault_pause_after_first_checkpoint_s": 0.0,
+  "wall_seconds": 120.0,
+  "workers": 1
+}

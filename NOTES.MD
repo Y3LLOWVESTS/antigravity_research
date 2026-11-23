@@ -154534,3 +154534,15701 @@ These appendices reproduce the original uploaded scientific JSON and verificatio
 **DOCUMENTATION:** Codebundle(s), journal entry/bundle, NOTES and ARTIFICIAL_BUILDPLAN updated or regenerated as reported for this transition; project instructions, README, RESEARCH_BUILDPLAN and the other standing plans/standards were **not** updated. Verify newer bundle metadata before treating it as current source evidence.
 
 **END OF NOVEMBER 20 EXHAUSTIVE DELTA-1 FAST CARRY-OVER.**
+
+# ANTIGRAVITY_RESEARCH — MASTER SESSION CARRYOVER
+## November 21, 2026 | Consolidated Physics, GRAVITY2 Miner, Independent Review and Next-Session Instructions
+
+**Document purpose:** Preserve the complete current scientific, mathematical, computational, implementation, verification and research-strategy state across sessions. This document consolidates the recent GRAVITY2 development session, the independent November 21 work-session review, the latest DELTA-1 FAST findings, protected historical research, and additional recommendations for autonomous discovery.
+
+**Latest demonstrated miner checkpoint:** GRAVITY2 v1 four-gate DELTA1-F0 campaign, fresh and verified-reuse runs completed November 21, 2026.
+
+**Latest physical-research frontier reported by the reviewing session:** DELTA1-F0G completed; GAMMA-1 historical investigations through R12 and associated D0/C1/N1 studies; PH16-04R2 remains the principal jointly stationary physical-source checkpoint. The code and immutable artifacts govern if documentation differs.
+
+**Overall physical-research maturity:** Approximately **37% heuristic**, not a probability of discovering antigravity.
+
+**Immediate priorities:** Repair the five high-priority GRAVITY2 campaign-integrity problems, then construct one high-information source-action compatibility and constrained loaded-response investigation. Do not rebuild the scheduler, rediscover already identified missing functions, repeat closed mechanisms or promote incomplete physical evidence.
+
+---
+
+# 1. START-OF-SESSION INSTRUCTIONS
+
+We are continuing **ANTIGRAVITY_RESEARCH** with the newly constructed and accepted **GRAVITY2 v1 autonomous campaign miner**. The miner is intended to eliminate the repetitive AI-prompt → Python-script → manual run → output-paste cycle and enable the local computer to perform most routine scientific screening, calculation, verification, failure analysis and experimental prioritization. Our engineering ambition is **at least 1,000× improvement in useful research throughput** over the former prompt-driven workflow. This is a target to benchmark, not a demonstrated discovery-speed multiplier.
+
+The research program's physics has advanced beyond the earlier November 18 instructions. According to the newer November 21 work-session evidence, GAMMA-1 has executed through later R12/D0/C1/N1 investigations, DELTA-1 FAST has executed through F0G, and GRAVITY2 has completed experiments 00–08 plus the accepted two-gate and four-gate campaign runs. **Do not restart GAMMA1-00, DELTA1-F0, or the original GRAVITY2 construction sequence.** Preserve PH16-04R2, 006D, R3B, all closed failures and immutable artifacts. The latest code/results outrank older `NEXT` statements.
+
+The highest-value scientific objective is to derive—or explicitly falsify the possibility of deriving—a **physically sourceable, gauge- and charge-constrained loaded-response operator from one common action**. Compare the original R3B/R3X1 model with PH16-04R2 and native GAMMA variations before attempting to transfer fields, Hessians or source controls. Correct the miner's verified engineering defects first so dependent autonomous campaigns cannot make false promotions.
+
+**The goal is genuine source-to-gravity and Earth/whole-craft closure. No complete antigravity theory, certified gravitational lift or complete sub-10-MJ engine presently exists.**
+
+---
+
+# 2. THE FUNDAMENTAL RESEARCH MISSION
+
+We seek **true gravitational repulsion of finite neutral matter** produced by an onboard spacecraft source.
+
+We are not merely looking for a repulsive laboratory force, a constrained payload acceleration, a field pattern, an artificial inverse-design solution or an internally reacting mechanical system.
+
+A successful physical model must deliver all of the following.
+
+## 2.1 Payload and stand-off
+
+- At least **9.80665 m/s² outward acceleration** at **every material point** of a finite neutral 1 kg torus.
+- At least **1 meter true separation** between the neutral payload and source/support matter.
+- Record the worst acceleration, its location, error estimate and mesh/boundary dependence.
+- The minimum matters; a positive center-of-mass average cannot conceal an inward hotspot.
+- If the active minimum changes location under an admissible perturbation, the entire competing active set must be checked.
+- Acceleration and usable stand-off exceeding the benchmark are beneficial, provided all consistency and energy gates pass.
+
+## 2.2 Universal gravitational character
+
+- Neutral-matter acceleration must arise from the **universal physical metric** or a rigorously justified equivalent gravitational mechanism.
+- The same action must include the relevant source matter, X/Y carrier fields, neutral matter, supports, Earth and gravity.
+- Derive metric and Hodge variations explicitly.
+- Preserve gauge, Ward, Noether and Bianchi identities and relevant constraints.
+- Derive the physical weak-field sign from the action.
+- Never identify a coordinate artifact, arbitrary prescribed source potential or nonuniversal fifth force as true gravitational repulsion.
+
+## 2.3 Finite source and real exterior
+
+- The source must be finite, conserved, stable and physically realizable.
+- Charge, current, support, surface traction and boundary work must be accounted for.
+- Carrier fields must transmit through an actual physical exterior with appropriate asymptotic behavior.
+- Continuum, finite-box, boundary and exterior convergence must be independently tested.
+- True distance to relevant source/support matter must be known.
+- A hypothetical source coefficient or prescribed field is not a source-construction result.
+
+## 2.4 Earth and spacecraft momentum
+
+Derive from one action:
+
+- Earth-down force or momentum transfer.
+- Corresponding spacecraft-up force or momentum transfer.
+- Field momentum and stress flux.
+- Contributions from payload, hull, supports, source matter and radiation.
+- Net force on the entire craft.
+- Signed impulse across startup, operation, shutdown and repeated cycles.
+- Negative-force phases, recoil, losses and switching energy.
+
+**Net whole-craft lift must be derived, never assumed from an internal force or reciprocal artificial toy.**
+
+Auxiliary thrust may be separately identified but cannot be hidden inside the gravitational claim.
+
+## 2.5 Complete energy
+
+The complete conservative operating-energy requirement is:
+
+**E_operating < 10,000,000 J**
+
+Exactly 10 MJ fails.
+
+Include, where relevant:
+
+- Source generation and maintenance.
+- Carrier fields.
+- Source and support stresses.
+- Charged/neutral matter preparation.
+- Backreaction.
+- On/off states.
+- Switching.
+- Radiation and losses.
+- Control work.
+- Recoil and cycle recovery.
+- Quantum and UV obligations.
+
+Distinguish prescribed-field capacity, field energy on a numerical mesh, total gravitating/rest energy, incremental work, and actual complete operating energy.
+
+The existence of a few-joule prescribed-field configuration is not evidence of a few-joule spacecraft.
+
+---
+
+# 3. WHAT COUNTS AS EVIDENCE
+
+The standing evidence hierarchy is:
+
+1. Executed code and original numerical fields.
+2. Immutable scientific JSON.
+3. SHA-256 ledgers.
+4. Independent verification JSON and source.
+5. Exact terminal execution logs.
+6. Historical journal records.
+7. Research notes and build-plan prose.
+
+Where contradictory claims exist, reconstruct the original action, conventions, computation and exact artifact first.
+
+A passing test suite does not repair an incorrect action assumption.
+
+A scientific verdict must retain its **scope**.
+
+Examples:
+
+- “Periodic single-sign charged source violates integrated Gauss law” is a valid scoped no-go.
+- “All charged finite sources fail” does not follow from that result.
+- “Y Euler equation solved with prescribed X/source” is not joint source stationarity.
+- “Independently verified local reciprocity” is not physically controllable loaded acceleration.
+- “External dipole contribution is inward” does not prove that all interior/support contributions must be inward.
+
+Preserve failed runs, numerical errata and obsolete-but-important controls. Do not rewrite historical results to make them appear successful.
+
+---
+
+# 4. DOCUMENT GOVERNANCE AND CHRONOLOGY
+
+The principal documents are:
+
+| Document | Role |
+|---|---|
+| `RESEARCH_BUILDPLAN.md` | Overall physical research strategy |
+| `ARTIFICIAL_BUILDPLAN.MD` | Governing current GAMMA/DELTA artificial-bridge research strategy and prioritization |
+| `AGMINER_BUILDPLAN.MD` | Historical AGMINER mechanisms, results and failures |
+| `INTROSPECTIVE_BUILDPLAN.md` | Introspective physical-mechanism investigations |
+| `FORMATTING_AND_CODE_STANDARDS.md` | Code, documentation and scientific standards |
+| `gravity2buildplan.md` | Original GRAVITY2 miner concept/design; partially superseded by actual implementation |
+| `NOTES.md` | Historical and current carryover notes, potentially behind newer results |
+| `README.md` | Repository description, potentially behind November 21 code |
+| Scientific JSON, source, arrays and verification ledgers | Authoritative executed evidence |
+
+The November 21 reviewing work session reports a newer codebundle generated at **11:05:38 CST**.
+
+Reported codebundle characteristics:
+
+- **961 files listed**.
+- **48 GRAVITY2 source/test files** reportedly compared with their corresponding local files.
+- **52 SHA-256 artifact entries** reportedly verified.
+- Working tree recorded as modified/untracked.
+- A modified B1 artifact was noted and must be protected.
+
+These are findings reported by the reviewing work session. The next session should recheck relevant live files before making source edits; do not infer live repository contents from an older bundle.
+
+Codebundle SHA-256:
+
+`f951b8c4ea1bbf13e65f1216d9d479cb3bd3dd23f6da2ed6fe639f920036f022`
+
+The ordinary November 20 journal and older `NOTES.md` remain valuable chronology but may not describe the later F0 and GRAVITY2 work.
+
+**Do not use older instructions asserting that GAMMA1-00 has not run as the current frontier. That statement belonged to the earlier November 18 checkpoint.**
+
+---
+
+# 5. PHYSICAL RESEARCH MATURITY AND PROGRAM STATUS
+
+| Program | Current assessment |
+|---|---|
+| Overall physical research | **~37% heuristic** |
+| GAMMA-1 | **~34% heuristic** within its gravity-bridge program |
+| DELTA-1 FAST | No independently earned percentage; report actual obstruction closures |
+| PH16 | Important finite-lattice stationarity milestone, not a complete gravity result |
+| ALPHA-1 | Frozen at M5V; artificial inverse design only |
+| BETA-1 | Frozen, approximately 70% artificial-branch heuristic |
+| GRAVITY2 v1 | Tested L0/L1 campaign infrastructure accepted |
+| Full autonomous scientific miner | Incomplete |
+| Physical gravitational lift | Not certified |
+| Complete sub-10-MJ device | Not certified |
+
+Earlier discussions estimated the core miner software at ~95% and the envisioned full scientific miner at ~55%. These were informal engineering estimates, not audited completion percentages.
+
+**Do not combine software completeness, research maturity and probability of success.**
+
+The **50% physical-research milestone** requires independently transferred source-to-metric physics and conserved exterior Earth/whole-craft interaction evidence, with sufficient health and exterior support.
+
+Thousands of additional tests or cache hits alone do not earn it.
+
+Thanksgiving, November 26, 2026, remains a research-prioritization deadline, not a guaranteed prototype date.
+
+---
+
+# 6. PROTECTED CONSERVATIVE ANCHOR — 006D
+
+**006D remains unreplaced.**
+
+Its conservative linearized-GR source demonstrated within its historical scope:
+
+- Finite locally conserved source.
+- Positive energy.
+- Recorded NEC/WEC/DEC passes.
+- Outward near gravitational response.
+- Positive far-field active mass.
+
+The coefficient is:
+
+**C = 23.591586299249**
+
+The associated energy scale is catastrophic, approximately proportional to the inverse gravitational constant.
+
+It is not a practical energy-efficient spacecraft configuration.
+
+A new candidate must be assessed against 006D on genuine gravitational validity, source consistency, finite stand-off, stability and complete energy—not merely the magnitude of a prescribed force.
+
+---
+
+# 7. IMPORTANT EARLIER RESEARCH TO PRESERVE
+
+## 7.1 018–031 and Introspective
+
+Preserve:
+
+- 018B microscopic field-existence results.
+- 018C fatal m=2 instability.
+- Closures through 022A.
+- 024–031 compatibility, transport, switching, stability and naturalness failures.
+- Historical B7/026 and the 026C N=89 convergence gap.
+- Later V13–V25, V17 and related historical controls.
+
+The Introspective branch established a raw coefficient-enhancement signal at least 1,000×, with a historical comparison around 17,230×, but did **not** certify the corresponding continuum physical source.
+
+This is completely different from GRAVITY2's proposed 1,000× research-workflow acceleration.
+
+Do not conflate those two numbers.
+
+## 7.2 A12B and A12C
+
+A12B established scoped protected massless U(1) structure.
+
+A12C remains uniquely important:
+
+**2.6568591420597114 J prescribed F² field capacity.**
+
+Historical finite-torus center-of-mass acceleration:
+
+**Approximately +15.04217 m/s².**
+
+This is not an independently sourced, fully loaded, stable gravitational device.
+
+Preserve A12C for genuinely new physical rescue mechanisms, but do not continually polish its sub-100-J prescribed field energy while source and gravitational obligations remain open.
+
+## 7.3 R3A, R3X1 and R3B
+
+R3A retained approximately:
+
+**1.84 × 10¹⁵ suppression.**
+
+R3X1 corrected the Lorentzian signs.
+
+The corrected convention includes:
+
+`D_X = E_X + theta B_Y`
+
+`H_Y = B_Y - theta E_X`
+
+These conventions are regression requirements.
+
+R3B prescribed global mixed-field capacity:
+
+**1.5429162116460216 J.**
+
+Corrected strong-loaded fine-grid minimum acceleration:
+
+**−129.67185782242464 m/s² inward.**
+
+Historical loaded center-of-mass acceleration:
+
+**+0.15454190 m/s².**
+
+Those values demonstrate why the every-cell minimum must govern acceptance.
+
+Historical mesh energies:
+
+- Fully loaded mesh field energy: **1.5211390382733165 J**.
+- Matched fine preloaded mesh field energy: approximately **1.537764 J**.
+
+Never silently substitute global capacity for mesh energy or complete device operating energy.
+
+## 7.4 AGMINER B-series
+
+Important preserved facts:
+
+- B1: approximately 0.275–0.301 MJ field-only comparator.
+- B2: tested minimal massive-Dirac axial construction closed.
+- B3: approximately 5.35 × 10¹⁴ J or more source-specific cost for the tested electron-sized static dipoles.
+- B4: center-of-mass audit.
+- B5: minimal axion obstruction.
+- B6: corrected finite-box boundary artifact.
+- B8: spherical-screening limitations.
+- B9: reciprocity.
+- B10: kinetic-stiffening limitations.
+- B11–B13: pulse, dual-source and source-basis failures.
+- B14/B16: nonconverged inward hotspot.
+- B15: angle-only failure.
+- B16: weak-loading failure.
+
+B6 corrected previous apparent outside-support source residuals to approximately:
+
+**0.02750%, 0.01177%, 0.00709%.**
+
+Those are residual fractions, not extra gravitational accelerations.
+
+The correction did not eliminate additional compensation required at the fully loaded material interface.
+
+The separate R3X3B7 finite-width electric-source construction had:
+
+**1.5473042949759672 J prescribed capacity.**
+
+Do not confuse it with historical B7/026.
+
+The B14/B16 inward hotspot was:
+
+**−410.388913 m/s².**
+
+It was **not continuum-converged**.
+
+B11-M6 remains open for signed causal impulse, recoil, radiation, negative phases, switching losses and whole-cycle dynamics without resets.
+
+---
+
+# 8. ALPHA-1 AND BETA-1 — FROZEN ARTIFICIAL BRANCHES
+
+## 8.1 ALPHA-1
+
+ALPHA-1 froze at B17-M5V.
+
+It is an artificial inverse-design result, not demonstrated physical propulsion.
+
+M5N identified an **81.458% cross-grid mismatch**.
+
+Later M5O–M5U audits retained the 40/42 incompleteness and X1 erratum.
+
+M5V achieved:
+
+- 50/50 cases.
+- Zero recorded errors.
+- 1,803 tests.
+
+Its quadratic action was of the form:
+
+`Q = gamma * (0.5*u^T*H*u - u^T*W*j)`
+
+with:
+
+`H = W*A`
+
+Prescribed derivatives:
+
+- Earth: −11.395675919 J/m.
+- Craft: +11.397230073 J/m.
+- Translation residual: +0.001554154 J/m.
+
+The historical action was approximately −7.975232332 J at h=0.04 m.
+
+Physical source currents, material response, exterior continuum, whole-craft force and a historical SHA discrepancy remained unresolved.
+
+Do not treat those prescribed derivatives as physical Earth/craft lift.
+
+## 8.2 BETA-1
+
+BETA-1 froze after its obstruction atlas, source-current tests, β=100 instabilities, toy passive interface and reciprocal finite-dimensional source/X/Y witness.
+
+BETA1-04 demonstrated a conserved one-dimensional scalar toy with opposing force values:
+
+- −0.1262097349021427.
+- +0.12620973490214274.
+
+It passed:
+
+- 43/43 gates.
+- 2,548 tests.
+
+The opposing scalar charges were prescribed and did not establish universal gravity.
+
+Historical BETA heuristic maturity was approximately 70% of its artificial-branch objectives.
+
+These programs remain useful comparison controls, not physical source-to-gravity evidence.
+
+---
+
+# 9. PH12–PH16 SOURCE PHYSICS
+
+## 9.1 PH12–PH13
+
+PH12 produced a hypothetical trap-free gauged Q-ball:
+
+- N approximately 79.201926.
+- Canonical energy approximately 78.666865.
+
+PH13 showed a restricted positive Hessian minimum:
+
+**+0.066394**
+
+But the coupled Schur result was:
+
+**−0.4299970**
+
+The Y signal was approximately 2.14608 × 10⁻⁶ and was off shell.
+
+Do not promote restricted stability to full dynamical stability.
+
+## 9.2 PH14
+
+PH14 constructed a jointly solved neutral spherical source.
+
+Historical values:
+
+- N+ and N− approximately 77.988373.
+- Canonical energy approximately 161.51589053332395.
+- Restricted λ_min approximately +0.208838.
+- 2,220 tests.
+
+But spherical on-shell alignment implied:
+
+`grad(lambda) × E_X = 0`
+
+Therefore:
+
+**ZERO induced Y from the tested spherical on-shell configuration.**
+
+It remains a useful exact negative control.
+
+## 9.3 PH15
+
+PH15 used the source-dependent portal:
+
+`sigma(P) = alpha*P - beta*P**2`
+
+Nonzero on-shell Y requires nonparallel gradients of lambda and X electric field.
+
+A pure functional alignment such as lambda = F(A0) gives a null induced-Y source.
+
+P6–P7 winding-stability attempts failed.
+
+P8 introduced a hypothetical repulsive contact and a nonspherical nonwinding neutral source.
+
+P9 tested restricted modes.
+
+P10 solved a discrete finite free-space source/X system with first-order Y but **without Y backreaction**.
+
+Historical P10:
+
+- 8/8 gates.
+- 2,286 tests.
+
+## 9.4 PH16-00–03
+
+Added:
+
+- Source trace loading.
+- Hydrostatic neutral equilibrium.
+- Nonlinear Y response.
+- Fixed source Noether numbers.
+
+However, source/X were still frozen in those intermediate stages.
+
+## 9.5 PH16-04R2 — PRINCIPAL SOURCE STATIONARITY CHECKPOINT
+
+PH16-04R2 is the accepted finite-lattice jointly stationary reference.
+
+Configuration:
+
+- Dynamical charged F+/F− sources.
+- X/Y fields.
+- Neutral-fluid equilibrium.
+- β=40.
+- Noether numbers 400/400.
+
+Recorded acceptance:
+
+- 12/12 exact identities.
+- 19/19 scientific gates.
+- 60/60 focused tests.
+- 2,943/2,943 full tests.
+- 11/11 parent SHA locks.
+
+Three accepted preconditioned joint residuals:
+
+- 6.80576 × 10⁻⁸.
+- 6.53298 × 10⁻⁸.
+- 9.28480 × 10⁻⁸.
+
+The original PH16-04 and R1 each failed at 18/L12 with 56/60 focused tests and a residual approximately 2.09302811 × 10⁻⁶.
+
+R1 isolation failed.
+
+R2's same-iterate Krylov continuation succeeded without changing the underlying action, β or acceptance thresholds.
+
+The weak seed still failed at:
+
+**0.018773933**
+
+Basin dependence and uniqueness therefore remain open.
+
+Accepted science JSON:
+
+`results/data/ph16_04_20261118T164454314313Z.json`
+
+SHA-256:
+
+`ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`
+
+R2 source SHA-256:
+
+`b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0`
+
+**PH16-04R2 establishes discrete canonical stationarity, not full Lorentzian stability, continuum/exterior convergence, Einstein gravity, Earth/craft forces or complete SI energy.**
+
+Any transfer of PH16 fields into an R3B or DELTA model requires proof of common-action compatibility.
+
+---
+
+# 10. GAMMA-1 STATUS FROM THE NOVEMBER 21 REVIEW
+
+The newer work session reports that GAMMA investigated through R12 and associated D0/C1/N1 native-action studies.
+
+Preserved findings include:
+
+- The existing static Routhian does not uniquely determine a healthy Lorentzian completion.
+- Native PH16 fields were replayed.
+- An R4 derivative-sign verifier failure was found and retained.
+- R4R1 corrected the identified sign defect.
+- The native multiplier was reconstructed.
+- The rank-two fixed-Noether Hessian correction was recovered.
+- Exterior matching remained incomplete.
+- Native Y variation was recovered, but an important discretization mismatch remained.
+
+Reported unresolved numerical mismatches:
+
+- R8 X exterior: approximately **5.96%**.
+- R9 axis-regular Y exterior: approximately **20.90%**.
+- N1 discrete-versus-differential Y bulk: approximately **13.26%**.
+
+Constant-multiplier and integrable-source nulls remain negative controls.
+
+No reported GAMMA result established the complete supported Earth/gravity action or licensed PH17.
+
+The GAMMA1-00R12/D0/C1/N1 evidence should be located and inspected before using those results to define a new operator.
+
+The approximate 34% GAMMA heuristic must not be interpreted as gravitational-engine success probability.
+
+---
+
+# 11. DELTA-1 FAST — COMPLETE CURRENT HISTORY
+
+This section is essential because the other work session progressed through F0G while GRAVITY2 was being constructed.
+
+## 11.1 DELTA1-00
+
+Derived a conditional long-range unscreened scalar energy obstruction.
+
+Under the declared illustrative weak-coupling tolerance:
+
+- Target-gradient energy: approximately 1.43 × 10¹¹ J.
+- Spherical exterior energy: approximately 1.44 × 10¹⁶ J.
+
+Tests:
+
+- 14 focused.
+- 3,280 full.
+
+This excludes the tested parameter and coupling assumptions, not every possible new gravitational mechanism.
+
+## 11.2 DELTA1-01
+
+Independently reproduced an exact nonlinear scalar/electric shell solution.
+
+At α=1:
+
+**Exterior energy approximately 3.0880 × 10¹³ J.**
+
+Tests:
+
+- 14 focused.
+- 3,294 full.
+
+No real shell/support, complete empirical clearance or operating-energy certification.
+
+## 11.3 DELTA1-02
+
+Found that the tested physical metric derivative determines both the neutral force and reciprocal loading.
+
+The additional invariant contributed only approximately:
+
+**0.15922–0.17632% independent prescribed payload-gradient direction.**
+
+Tests:
+
+- 10 focused.
+- 3,304 full.
+
+Science SHA:
+
+`3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3`
+
+Prescribed rank does not prove physically sourceable control rank.
+
+This is the latest completed repository-wide regression checkpoint specifically identified by the earlier session.
+
+## 11.4 DELTA1-F0
+
+Archive review passed 31/31.
+
+Weak loading initially improved the old worst point, but the full-load solution relocated the worst point and returned an inward failure.
+
+The inverse compensation required source-like contributions around:
+
+**3.04–3.25 meters from the origin.**
+
+Those lay beyond the declared 2 m onboard source.
+
+The historical archive did not uniquely decompose the full reversal into material, interface and source-relaxation components.
+
+Do not repeat the fixed-mirror compensation experiment without a new physical premise.
+
+## 11.5 DELTA1-F0A
+
+The historical exterior electric multipole energy was approximately:
+
+**99.999985% dipolar.**
+
+A hypothetical neutral polar sphere supplied the same angular mode.
+
+For the isolated-X curling test, the criterion was:
+
+`epsilon*kappa/R**2 > 0.07692973043`
+
+But this was not established for the fully loaded coupled X/Y solid.
+
+A trace-coefficient jump with tangential X electric field generally induces a Y response.
+
+There was no calibrated microscopic real material.
+
+## 11.6 DELTA1-F0B
+
+The affine-solid trial gave:
+
+`B_Y / E_X ≈ -0.08232375`
+
+An admissible slip variation failed, with work per volume:
+
+**−0.0019391448469490622**
+
+A nonuniform leading quadrupole balanced bulk and surface residuals to approximately:
+
+- 7.24 × 10⁻¹⁷.
+- 1.85 × 10⁻¹⁷.
+
+Checks:
+
+**23/23.**
+
+This was mechanical balance in a restricted fixed-polarization setting, not full source selection by coupled equations.
+
+## 11.7 DELTA1-F0C
+
+Important negative-control and convergence result.
+
+- Portal off: zero response.
+- Vacuum axial trial: outward.
+- All four sampled fully loaded trial grids: inward minima.
+- Independent weak residual: 9.063725670460845 × 10⁻¹².
+- 25/25 independent checks.
+
+Normalized acceleration diagnostic:
+
+`a_z / (c**2*q**2)`
+
+Units were inverse meters.
+
+Values:
+
+| Configuration | Minimum |
+|---|---:|
+| Coarse loaded | −0.00072499 |
+| h=0.05 m, L=6 m | −0.01066272 |
+| h=0.05 m, L=7.5 m | −0.01005511 |
+| Diagonal flipped at same resolution | −0.00737820 |
+
+The diagonal flip moved the worst point:
+
+- From (1.175, 3.125) m.
+- To (0.825, 2.975) m.
+
+A fixed interior chord mean changed:
+
+- −1.00652 × 10⁻⁵.
+- To +9.20105 × 10⁻⁵.
+
+The small linear-equation residual shows the discrete equation was solved accurately.
+
+It does **not** establish convergence of the physical minimum or its sign.
+
+Do not convert arbitrary canonical normalized values into 1g by choosing a favorable q.
+
+Science SHA:
+
+`3c671e54a44a23bd12d2fe2451aed6388bb3c4f6da37408d7abe54c808540f7f`
+
+Verification SHA:
+
+`bafc1cf1d415e33a6da251fade2a29b1497d456f8d3aff5316d4b95936bbd9c6`
+
+## 11.8 DELTA1-F0D
+
+A critical stronger obstruction.
+
+For the declared polarization model at:
+
+`a = -0.35`
+
+with natural polarization boundary conditions, the uniform trial had zero gradient cost and curvature:
+
+**≤ −1/60 for every nonnegative stiffness.**
+
+Therefore, arbitrarily large stiffness could not remove that uniform instability in the specified model.
+
+A separate silent circulating mode changed its curvature at:
+
+`kappa/R**2 = 0.08077621695`
+
+Important verification limitation:
+
+- APPLY existed.
+- Full regression was interrupted after **2,285 passing tests**.
+- Recorded KeyboardInterrupt at approximately 517.43 seconds.
+- No completed F0D independent/full closeout was located by the reviewing session.
+
+**Do not count F0D as having passed a completed full regression.**
+
+The scoped analytical negative result remains important, but its exact evidence status must be retained.
+
+## 11.9 DELTA1-F0E/R1
+
+A hypothetical surface penalty removed the uniform negative trial only when:
+
+`gamma/R >= 1/180`
+
+At that threshold, the toroidal mode additionally required:
+
+`kappa/R**2 >= 0.07601354721`
+
+Conditional models with negative quartic and positive sextic terms could be bistable.
+
+But:
+
+- No calibrated material coefficients.
+- No complete dynamical spectrum.
+- No complete SI switching-energy accounting.
+
+Original F0E failed because of NumPy Boolean serialization.
+
+R1 repaired the serialization defect, preserved the original failure and passed:
+
+**35/35 checks.**
+
+These proposed stabilizers cannot be treated as free physical material properties.
+
+## 11.10 DELTA1-F0F
+
+Established a fundamental metric-stress distinction.
+
+For a topological mixing term of the form:
+
+`integral(theta * F_X wedge F_Y)`
+
+the direct Hilbert stress is zero when theta is metric-independent.
+
+A spatially varying theta can still induce currents.
+
+But **current induction and direct stress-energy are different observables**.
+
+If theta depends on matter or metric invariants, the action must be varied through that dependence.
+
+Under the stated static weak-GR, complete DEC and full stress-separation assumptions, obtaining 1g at ≥1m required gravitating energy:
+
+**U ≥ 3.301386465 × 10²⁷ J.**
+
+Tests:
+
+**32/32.**
+
+This is a conditional gravitational stress bound.
+
+It does not automatically constrain all possible fields if the relevant stress lies within the nominal stand-off gap or the assumptions fail.
+
+Total gravitating energy, including rest energy, is not identical to complete incremental operating energy.
+
+## 11.11 DELTA1-F0G — LATEST REPORTED PHYSICAL-RESEARCH CHECKPOINT
+
+For the isolated exterior Maxwell dipole tail:
+
+- Source scale R=2 m.
+- z>0.
+- r≥R+1 m.
+
+Its axial gravitational contribution was inward for every positive exterior dipole-tail energy.
+
+At the 1 m axial gap, illustrative 10 MJ tail energy produced:
+
+**−1.503568252 × 10⁻²¹ m/s².**
+
+To obtain inward acceleration magnitude of 1g from that tail required approximately:
+
+**6.522251309 × 10²⁸ J.**
+
+The near-axis outward collar extended only approximately:
+
+**0.08124 m.**
+
+Tests:
+
+**41/41.**
+
+This was an isolated exterior-tail result.
+
+It omitted the interior source/support stresses.
+
+Therefore, increasing that dipole tail's amplitude cannot fix its exterior axial sign, but a complete source-to-Einstein theory cannot be rejected solely from this tail calculation.
+
+F0G science SHA:
+
+`c8e74278c73b4d74f43560f7dec275c8061ef3f83c33d52afe703a7360a91c1f`
+
+Verification SHA:
+
+`b2def664dae9363fffc4be1d9d6e145f94e6d6ec9b793d0f24d4e39a33cbd566`
+
+## 11.12 What DELTA1-F0D–F0G changed
+
+These later results are more informative than another simple axial field fit.
+
+They established that:
+
+- Stiffness alone cannot repair the tested uniform off-state instability.
+- A hypothetical surface term needs actual material provenance.
+- A fixed-coefficient metric-independent topological term supplies no direct Hilbert stress.
+- The isolated exterior Maxwell dipole tail has the wrong stand-off gravitational sign.
+- Full-load local minima remain sensitive to geometry and the material interface.
+
+**Do not launch another stiffness sweep, fixed mirror, favorable vacuum plot or exterior-dipole amplitude optimization without a new physical mechanism that survives these exact obstructions.**
+
+---
+
+# 12. WHY GRAVITY2 WAS BUILT
+
+The old research cycle required repeated manual interaction:
+
+1. AI proposes an experiment.
+2. AI writes Python and Bash.
+3. User applies code locally.
+4. User runs tests.
+5. User pastes terminal results.
+6. AI interprets the output.
+7. AI designs another one-off script.
+8. Repeat.
+
+This works for early discovery but becomes inefficient when dozens or hundreds of related calculations are needed.
+
+GRAVITY2 was intended to move repeated scientific work onto the local computer.
+
+## 12.1 The intended automated workflow
+
+The long-term miner should:
+
+1. Ingest protected history and known failures.
+2. Generate or register scientifically meaningful candidate-action cards.
+3. Detect whether a candidate is truly new.
+4. Run exact identities and cheap no-go checks first.
+5. Build or identify eligible physical residuals and source controls.
+6. Automatically execute bounded numerical experiments.
+7. Verify results independently.
+8. Reject failed mechanisms with assumption-aware evidence.
+9. Cache completed work.
+10. Schedule the most informative next experiment.
+11. Preserve immutable JSON/SHA artifacts.
+12. Produce concise research conclusions and a next-action recommendation.
+13. Continue without needing an AI prompt after every small run.
+14. Escalate only decisions involving new physical assumptions, costly campaigns or unresolved conceptual interpretation.
+
+## 12.2 The 1,000× objective
+
+The ambition is **at least 1,000× improvement in useful research throughput** compared with repeated prompt/manual workflows.
+
+Do not confuse:
+
+- Raw calculations per second.
+- Cache hits.
+- Tests executed.
+- Distinct physical hypotheses screened.
+- Independently verified scientific decisions.
+- Actual advances in gravitational physics.
+
+The most meaningful objective is:
+
+**Unique, decision-changing, independently verified scientific outcomes per end-to-end research hour, with substantially fewer human/AI interventions.**
+
+No 1,000× meaningful discovery speedup has yet been demonstrated.
+
+---
+
+# 13. GRAVITY2 CONSTRUCTION HISTORY
+
+| Stage | Main achievement | Regression / independent checks |
+|---|---|---|
+| 00–03A | Initial runner, candidate screens, source/Ward checks, resource policy, SHA evidence | 42 / 39 |
+| 04 | Four-card action atlas and source/metric controls | 52 / 54 |
+| 05 | Restricted static convex-source no-go and Hessian reciprocity | 62 / 29 |
+| 06 | Portal polarization restored in reduced Gauss law | 73 / 29 |
+| 07 | Two-dimensional Hodge/Bianchi-compatible Y solver | 86 / 53 |
+| 08 | Periodic charged-source Gauss obstruction and action erratum | 99 / 74 |
+| Campaign v1 JPAIR | Reusable scheduling, worker isolation, evidence cache, independent review | 111 / 52 |
+| Campaign + DELTA1-F0 | Two additional provider gates, independent source review and cache reuse | 119 / 91 |
+
+These test counts are historical checkpoint counts, not additive numbers of new discoveries.
+
+## 13.1 GRAVITY2-04
+
+Four reviewed action cards compared:
+
+- Localized Einstein.
+- Localized Jordan.
+- Higgs-Y control.
+- Higgs-both-fields control.
+
+The later GRAVITY2-05 stage corrected an earlier Higgs portal classification.
+
+No complete physical survivor.
+
+## 13.2 GRAVITY2-05
+
+Proved a restricted static convex charged-source obstruction under declared conditions, including vanishing temporal driving and homogeneous boundaries.
+
+It did not rule out general harmonic-source, electrostatic, supported or finite-open-boundary systems.
+
+It also tested a local reciprocal Hessian.
+
+Do not import an illustrative unconstrained Schur result as a physical R3B constrained mode.
+
+## 13.3 GRAVITY2-06
+
+Identified the source-dependent portal-polarization term in the reduced X Gauss law.
+
+Omitting this term can invalidate a source-existence argument.
+
+Its one-component reduction was not by itself a full smooth Maxwell configuration with validated three-dimensional magnetic constraints.
+
+Science SHA:
+
+`e2a8a141b86e2168912a4110cc258ec0cec65cae909bc9da999f30216901b1a5`
+
+Verification SHA:
+
+`ef9c9ebff7c3c3b32bf40bbaee140bbd62bf3998f37abf698ed84ce36150b883`
+
+## 13.4 GRAVITY2-07
+
+Constructed a two-dimensional periodic Y-field test using gauge potentials:
+
+`A_X = a(x,z) dt`
+
+`A_Y = b(x,z) dy`
+
+Mixed invariant:
+
+`P = a_x*b_z - a_z*b_x`
+
+Numerical grids:
+
+9, 15, 23 and 31.
+
+Y residual below 10⁻¹⁰.
+
+Bianchi residual near machine roundoff.
+
+But the scalar and X field were prescribed.
+
+Run:
+
+`g207_20261121T065202Z_450b9280`
+
+Science SHA:
+
+`458d7309da70a944380f8fc73cb1b93f19e80b981ed64d1f97c64c62cabd04d1`
+
+Verification SHA:
+
+`c82f313b55effd19d90fca9b2306aca104d96296369011262a0ee07cbe113379`
+
+Field archive SHA:
+
+`ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d`
+
+## 13.5 GRAVITY2-08
+
+Audited the saved GRAVITY2-07 fields against a full X/scalar/Y discrete action.
+
+On the finest grid:
+
+- Total X charge: +16.46209987342264.
+- X residual RMS: 0.5360249334960533.
+- Scalar residual RMS: 0.544666435214104.
+- Y residual RMS: 2.4584490146251535 × 10⁻¹².
+
+The nonzero integrated charge contradicts the zero total divergence of the specified periodic domain without a real compensating source.
+
+A prescribed uniform charge compensator left X RMS approximately 0.33681179472581374.
+
+**Charge neutrality alone did not solve the local field equations.**
+
+The experiment also identified a discrepancy between the GRAVITY2-07 scientific action summary and its implemented action: the reported X Maxwell contribution was missing from the actual function.
+
+Finest-grid contribution:
+
+**+0.723073082103861 canonical action units.**
+
+The original action and an explicitly augmented candidate were preserved separately.
+
+Run:
+
+`g208_20261121T070239Z_467d6a03`
+
+Science SHA:
+
+`a883cbe884ef97b839995da7437cf2a3d8c0451dc1415f88caf6ed314ac5e419`
+
+Verification SHA:
+
+`fb14efd798d6a58472421ab611c896c974aff62f743d7666219f0cecd3d676c9`
+
+This is a no-go for the tested periodic single-sign-charge configuration, not for arbitrary finite supported sources.
+
+---
+
+# 14. GRAVITY2 v1 CAMPAIGN ENGINE — IMPLEMENTED ARCHITECTURE
+
+The permanent campaign runner is:
+
+`src/antigravity_research/gravity2/campaign.py`
+
+Associated built-in provider and reviewer:
+
+- `campaign_science.py`
+- `campaign_check.py`
+
+Existing utilities:
+
+- `engine.py`
+- `policy.py`
+- `miner.py`
+
+Tests:
+
+`tests/gravity2/test_campaign.py`
+
+The DELTA1-F0 extension added:
+
+- `delta_f0_provider.py`
+- `delta_f0_review.py`
+- `tests/gravity2/test_delta_f0_provider.py`
+
+All are under the corresponding GRAVITY2 package/test directories.
+
+## 14.1 What the runner actually does
+
+The verified v1 engine:
+
+- Loads reviewed built-in and registered tasks.
+- Validates task schemas and named providers.
+- Orders tasks by priority and dependency.
+- Records scientific-action assumptions.
+- Checks registered producer and reviewer SHA fingerprints.
+- Checks campaign-level parent evidence.
+- Creates unique UTC run IDs.
+- Executes bounded Python subprocesses.
+- Uses the GRAVITY2 process watchdog.
+- Stores structured task evidence.
+- Calls independent scientific verification.
+- Writes immutable JSON/SHA ledgers.
+- Reuses matching verified task evidence.
+- Reports open scientific gates.
+- Exposes CLI commands for candidates, dry runs, execution, verification, report, status, registration, stop and resume.
+
+These features are operational for the tested workload.
+
+## 14.2 Task representation
+
+A task contains:
+
+- Schema.
+- Unique ID.
+- Candidate family.
+- Scientific gate.
+- Fidelity level.
+- Dependencies.
+- Priority.
+- Action declaration.
+- Producer module.
+- Independent-review module.
+- Registered source hashes.
+
+The default reviewed task interface is:
+
+`run_gate(task, context)`
+
+The corresponding independent reviewer provides:
+
+`independent_check(task, evidence, context)`
+
+A producer's result is not automatically a physical success.
+
+## 14.3 Worker isolation
+
+The miner starts task subprocesses using Python rather than constructing arbitrary shell commands.
+
+It applies:
+
+- Wall-clock ceiling.
+- Soft memory limit.
+- Soft disk limit.
+- Single-worker execution.
+- Diagnostic result capture.
+- Controlled artifact publication.
+
+This is useful process isolation, but **not necessarily an operating-system security sandbox**. Registered Python providers remain executable code and need a clear trust model.
+
+## 14.4 Evidence cache
+
+The current cache identifies previously verified evidence through hashes of the task, selected source files, declared parents, provider and reviewer.
+
+If an eligible previous result matches, the campaign records:
+
+`REUSED_VERIFIED`
+
+This avoids rerunning the same known calculation.
+
+It is **verified-result reuse**, not yet a broad semantic mechanism memory, adaptive-learning engine or autonomous hypothesis-generation system.
+
+## 14.5 Scientific status distinctions
+
+The current tasks return verdicts such as:
+
+- `BLOCKED_ACTION_INCOMPLETE`
+- `SCOPED_CONTROL_ONLY`
+- `UNDERDETERMINED`
+
+Some generalized gate statuses also exist.
+
+An execution state of `COMPLETED` means the scheduled task processing finished.
+
+It does not mean:
+
+- The source is real.
+- The field response is stable.
+- The physics passed.
+- The hypothesis produces gravitational lift.
+- The energy objective is met.
+
+The next release must strengthen this separation.
+
+---
+
+# 15. GRAVITY2 CAMPAIGN RUNS AND HASHES
+
+## 15.1 First two-gate JPAIR campaign
+
+Tasks:
+
+1. `JPAIR_ACTION_INVENTORY`
+2. `JPAIR_CHARGE_CONTROL`
+
+The action inventory was blocked because the full support, Earth, neutral, Einstein and metric-variation sectors were absent.
+
+The opposing-charge control demonstrated a prescribed cancellation of the integrated periodic charge zero mode.
+
+Fine-grid required frequency adjustment:
+
+**−0.00018743134912563284 canonical units.**
+
+Local current RMS after adjustment:
+
+**approximately 0.0469301371.**
+
+This was not a joint source/X equilibrium.
+
+Acceptance:
+
+- 111/111 targeted GRAVITY2 tests.
+- 52/52 independent campaign checks.
+- 2/2 verified cached results.
+
+Fresh run:
+
+`g2camp_20261121T071629Z_6057b1f6`
+
+Fresh science SHA:
+
+`f41c8fc50530ce66327135d37ce4b87714b16e5d62c819972f10b5147d45b21a`
+
+Fresh verification SHA:
+
+`ef78320d83a5022c0b7460181f113090ace1b1140a7a600c90c3840f303f7dc7`
+
+Reuse run:
+
+`g2camp_20261121T071633Z_48860c9b`
+
+Reuse science SHA:
+
+`63a567330f78a5d157b6d7c63bbf71dab589a2a9ad8de9770cff9fed13da3f90`
+
+Reuse verification SHA:
+
+`30c8ad8f5b45ad8b731e656df6d67ab46f80b9e1b12999dd69b7ea1f95d923af`
+
+## 15.2 Four-gate DELTA1-F0 campaign
+
+Two additional tasks were registered without scheduler edits:
+
+3. `F0_PARENT_STATE_AUDIT`
+4. `F0_LOADED_RECIPROCITY`
+
+The resulting four verdicts were:
+
+| Task | Recorded verdict |
+|---|---|
+| JPAIR_ACTION_INVENTORY | BLOCKED_ACTION_INCOMPLETE |
+| JPAIR_CHARGE_CONTROL | SCOPED_CONTROL_ONLY |
+| F0_PARENT_STATE_AUDIT | UNDERDETERMINED |
+| F0_LOADED_RECIPROCITY | SCOPED_CONTROL_ONLY |
+
+Acceptance:
+
+- 8/8 new provider-focused tests.
+- 119/119 GRAVITY2 targeted tests.
+- 91/91 independent campaign checks.
+- 4/4 fresh gates completed.
+- 4/4 verified results reused.
+- 6/6 F0 historical source hashes matched.
+
+Fresh run:
+
+`g2camp_20261121T165808Z_9aba14a5`
+
+Science SHA:
+
+`f08d998b05c7a23e0e800269af850763c032282a9f7dc81e78ae1a4a8dbcfe18`
+
+Verification SHA:
+
+`7dfec7290972f57527546c9eedd46482ff23145e837d95f273ed68b7f1e1c0a4`
+
+Reuse run:
+
+`g2camp_20261121T165814Z_8fd90f83`
+
+Science SHA:
+
+`389df300ccb5550966a048fe1592b5f2134da774559b1200975bb6ea9a31e1e7`
+
+Verification SHA:
+
+`5caaded64891138ff42ad1e49a678dec38e12bf2ab68ce488b90b753c3f997b2`
+
+Recorded dispatch-loop times:
+
+- Fresh: approximately **4.2465 seconds**.
+- Reuse: approximately **0.0473 seconds**.
+
+These timings exclude some overall validation/reporting overhead.
+
+They demonstrate useful cache acceleration for a small fixed workload.
+
+They do **not** establish a 1,000× rate of new physical discoveries.
+
+---
+
+# 16. THE F0 PROVIDER'S SCIENTIFIC CONTRIBUTION
+
+The new provider investigated exact local Jordan-portal reciprocity.
+
+Declared relationship:
+
+`sigma(P) = alpha*P - beta*P**2`
+
+With:
+
+`lambda = exp(4*sigma)*T*sigma_P`
+
+The exact fixed-T derivative is:
+
+`partial_P(lambda)|T = exp(4*sigma)*T*(sigma_PP + 4*sigma_P**2)`
+
+Since:
+
+`sigma_PP = -2*beta`
+
+the second-order term contains both the portal curvature and the square of its first derivative.
+
+The trace derivative is:
+
+`partial_T(lambda)|P = exp(4*sigma)*sigma_P`
+
+The transverse identity is:
+
+`grad(lambda) x grad(P) = exp(4*sigma)*sigma_P*[grad(T) x grad(P)]`
+
+These are mathematically useful.
+
+They show how a nonparallel material-trace gradient can contribute to the local portal response.
+
+The orientation diagnostic around **0.629–0.634** is different from DELTA1-02's **0.159–0.176%** independent prescribed P/Q response fraction.
+
+Do not equate them.
+
+The provider located historical R3C loaded functions:
+
+- `provenance_gate`
+- `_build_same_action_coupling`
+- `_prepare_low_rank_loaded_system`
+- `_solve_loaded_deviation`
+
+It also observed a historical R3C summary file.
+
+But it did **not** certify:
+
+- A complete physical source action.
+- An on-shell loaded state suitable for differentiation.
+- A gauge- and charge-constrained Jacobian.
+- A physical source-control map.
+- Full material-interface traction.
+- A new gravitational response.
+- Complete SI operating energy.
+
+Its scientific decision remained:
+
+**UNDERDETERMINED.**
+
+The R3B fully loaded minimum remains:
+
+**−129.67185782242464 m/s² inward.**
+
+**The next research run must go beyond checking whether old functions exist.**
+
+---
+
+# 17. GRAVITY2 CLI AND NORMAL OPERATION
+
+Repository:
+
+`/Users/mymac/Desktop/antigravity_research`
+
+Virtual environment:
+
+`.venv/bin/python`
+
+Import path:
+
+`PYTHONPATH=src`
+
+Useful execution environment:
+
+- `PYTHONDONTWRITEBYTECODE=1`
+- `OPENBLAS_NUM_THREADS=1`
+- `OMP_NUM_THREADS=1`
+- `MKL_NUM_THREADS=1`
+- `VECLIB_MAXIMUM_THREADS=1`
+
+Primary module:
+
+`antigravity_research.gravity2.campaign`
+
+Run commands from repository root.
+
+## 17.1 List current scientific tasks
+
+`PYTHONPATH=src .venv/bin/python -m antigravity_research.gravity2.campaign candidates`
+
+## 17.2 Preview a campaign
+
+`PYTHONPATH=src .venv/bin/python -m antigravity_research.gravity2.campaign run --level L1 --preset short --minutes 3 --workers 1 --dry-run`
+
+## 17.3 Run fresh registered work
+
+`PYTHONPATH=src .venv/bin/python -m antigravity_research.gravity2.campaign run --level L1 --preset short --minutes 3 --workers 1 --fresh`
+
+Use only when fresh execution is scientifically justified.
+
+## 17.4 Run using verified evidence reuse
+
+`PYTHONPATH=src .venv/bin/python -m antigravity_research.gravity2.campaign run --level L1 --preset quick --minutes 1 --workers 1`
+
+## 17.5 Inspect history
+
+`PYTHONPATH=src .venv/bin/python -m antigravity_research.gravity2.campaign status`
+
+## 17.6 Inspect unresolved physics
+
+`PYTHONPATH=src .venv/bin/python -m antigravity_research.gravity2.campaign needs`
+
+## 17.7 Verify a run
+
+`PYTHONPATH=src .venv/bin/python -m antigravity_research.gravity2.campaign verify --run-id RUN_ID`
+
+## 17.8 Report a run
+
+`PYTHONPATH=src .venv/bin/python -m antigravity_research.gravity2.campaign report --run-id RUN_ID`
+
+## 17.9 Register a reviewed gate
+
+`PYTHONPATH=src .venv/bin/python -m antigravity_research.gravity2.campaign register --file TASK_JSON_PATH`
+
+The producer and reviewer modules must already exist and meet the current registry contract.
+
+The CLI also exposes stop and resume operations, but their full crash/interruption guarantees remain a priority for further testing.
+
+---
+
+# 18. WHAT IS FINISHED — AND WHAT IS NOT
+
+| Feature | Current status |
+|---|---|
+| Basic candidate/gate representation | Built |
+| Registered L0/L1 task execution | Demonstrated |
+| Deterministic task scheduling | Demonstrated for small campaigns |
+| Parent SHA locks | Demonstrated |
+| Producer/reviewer source hashes | Demonstrated |
+| Independent verifier modules | Demonstrated |
+| Evidence caching/reuse | Demonstrated |
+| Bounded one-worker execution | Demonstrated |
+| Immutable JSON/SHA artifacts | Demonstrated |
+| Basic mathematical action screening | Demonstrated |
+| Prescribed-field numerical screening | Demonstrated |
+| Historical artifact inspection | Demonstrated |
+| Automated meaningful hypothesis invention | Not implemented |
+| Semantic failure matching | Not implemented |
+| General covariant action compiler | Not implemented |
+| General constrained Jacobian/adjoint system | Not implemented |
+| Physical source-control search | Not implemented |
+| Fully automated physical source solver | Not implemented |
+| Continuum/exterior Einstein integration | Not implemented |
+| Complete stability and Earth/craft analysis | Not implemented |
+| Full crash-safe unattended continuation | Not demonstrated |
+| Verified 1,000× scientific throughput | Not demonstrated |
+
+**The campaign infrastructure is accepted for the tested L0/L1 workload. The envisioned complete scientific discovery miner is not yet finished.**
+
+The engineering strategy should be to keep the functioning architecture and extend it with new independently validated science and necessary correctness repairs.
+
+---
+
+# 19. CRITICAL CODE REVIEW — P0 ISSUES
+
+The earlier work session identified five important engineering problems or unverified safety claims.
+
+These should be addressed before broad unattended campaigns.
+
+The following descriptions distinguish source-observed limitations from proposed design improvements. The next session should inspect the exact live source again before changing code.
+
+## P0-1. Scientific verdict and cache status are conflated
+
+**Affected:** `campaign.py`, `campaign_check.py`.
+
+The current scheduler can mark a cached result as:
+
+`REUSED_VERIFIED`
+
+instead of retaining the original scientific verdict as a separate field.
+
+Its prerequisite logic tests for a qualifying status such as:
+
+`PASS_SCOPED`
+
+This creates two risks.
+
+First, a cached scientifically qualifying parent may not unlock its child because its scheduling status is now `REUSED_VERIFIED`.
+
+Second, a fresh producer's scoped PASS can be used for dependency scheduling before the end-of-campaign independent reviewer certifies the result.
+
+The four current accepted gates have no dependencies. Therefore, this defect does not by itself invalidate their results.
+
+It **does** threaten future multi-stage automatic research campaigns.
+
+### Required fix
+
+Introduce separate concepts:
+
+**Execution state**
+
+For example:
+
+`PENDING | RUNNING | FINISHED | FAILED | INTERRUPTED`
+
+**Verification state**
+
+`UNVERIFIED | VERIFIED | HOLD`
+
+**Scientific verdict**
+
+For example:
+
+`PASS_SCOPED | FAIL_SCOPED | UNDERDETERMINED | BLOCKED_ACTION_INCOMPLETE`
+
+**Cache origin**
+
+`FRESH | REUSED`
+
+A child must depend on the independently verified scientific verdict and the exact acceptance contract, never on whether the parent result came from cache.
+
+### Acceptance
+
+The same parent→child experiment must produce identical scientific decisions when:
+
+- Parent was fresh.
+- Parent came from cache.
+- Campaign was resumed.
+- Parent review failed.
+- Parent evidence was corrupted.
+
+A failed or absent review must block the child.
+
+**Priority: P0 before dependent campaigns.**
+
+## P0-2. Cache fingerprints omit transitive scientific dependencies
+
+**Affected:** `campaign.py`, provider contract.
+
+The current fingerprint covers selected declared inputs, but not necessarily every scientific file consumed by the provider.
+
+Potential missing dependencies include:
+
+- Imported numerical helpers.
+- External source JSON.
+- Historical loaded-state arrays.
+- Optional summaries.
+- Prerequisite gate evidence.
+- Boundary conditions.
+- Gauge choice.
+- Matter ensemble.
+- Action normalization.
+- Units.
+- Solver configuration.
+- Physical model version.
+
+The F0 provider separately checks six historical files, but this is not automatically identical to a complete cache-dependency contract.
+
+### Required fix
+
+Each provider should declare a complete scientific input manifest.
+
+At minimum:
+
+`action_hash`
+
+`source_files`
+
+`consumed_artifacts`
+
+`required_parent_verdicts`
+
+`physical_units`
+
+`ensemble`
+
+`boundary_conditions`
+
+`gauge_constraints`
+
+`solver_version`
+
+`independent_reviewer_hash`
+
+`scientific_scope`
+
+Compute a reproducible fingerprint before dispatch.
+
+Record exactly what was consumed.
+
+If any relevant input changes, invalidate that result's cache key while preserving the old immutable result.
+
+### Acceptance
+
+Change one actual consumed scientific input.
+
+The affected result must be recomputed or explicitly held.
+
+Unrelated cached results should remain reusable.
+
+**Priority: P0 before broad evidence reuse.**
+
+## P0-3. Gate-specific independent review contracts are insufficient
+
+**Affected:** `campaign_check.py` and provider reviewers.
+
+The existing F0 reviewer performs genuine independent symbolic checks.
+
+However, the generic verifier accepts a reviewer's returned check map without requiring a fixed expected scientific contract for every registered gate.
+
+This is too permissive for future physical promotions.
+
+A reviewer should not be able to omit an essential check and nevertheless produce an accepted PASS.
+
+### Required fix
+
+Define reviewed acceptance contracts for each gate.
+
+For example:
+
+- Mandatory independent checks.
+- Accepted scientific verdicts.
+- Parent action and source provenance.
+- Required negative controls.
+- Required convergence evidence.
+- Prohibited physical promotions.
+- Expected units and observables.
+
+Use fail-closed behavior for missing checks.
+
+### Acceptance
+
+Inject known defects:
+
+- Omitted X Maxwell term, recreating GRAVITY2-07's discrepancy.
+- Reversed R3X1 cross sign.
+- Omitted matter-trace derivative.
+- False source closure.
+- Missing boundary contribution.
+- Incorrect every-cell minimum.
+- Artificial PASS from an incomplete reviewer.
+
+All must be rejected.
+
+**Priority: P0 before allowing scientific PASS to unlock expensive work.**
+
+## P0-4. Crash recovery and long-running stop/resume are not fully demonstrated
+
+**Affected:** `campaign.py`, process supervisor and result publication.
+
+The existing runner supports bounded processes and exposes stop/resume functionality.
+
+The accepted Mac campaigns demonstrate normal completion and cache reuse.
+
+They do not establish robust recovery from abrupt host failure or interruption in the middle of an artifact commit.
+
+### Required fix
+
+Use a per-job commit record with clear durable states.
+
+Test interruption:
+
+- Before worker launch.
+- During the worker.
+- After worker completion but before evidence publication.
+- After evidence publication but before review.
+- During independent verification.
+- Between dependent gates.
+- During shutdown.
+
+Require:
+
+- No false scientific FAIL from a crashed process.
+- No orphaned process tree.
+- No silently overwritten evidence.
+- No reuse of unverified files.
+- Deterministic resume/fork semantics.
+- No duplicate irreversible work when valid evidence exists.
+
+### Acceptance
+
+Perform controlled crash-injection tests in disposable directories.
+
+Compare resumed and uninterrupted scientific outcomes.
+
+Include verification and startup/shutdown overhead in total runtime measurements.
+
+**Priority: P0 before long unattended campaigns.**
+
+## P0-5. Registry publication needs full prospective validation
+
+**Affected:** `campaign.py` registration code.
+
+The previous review found that an individually acceptable task could be published before the entire proposed task graph was validated.
+
+This can create a registry that subsequently fails to load because of:
+
+- Duplicate IDs.
+- Missing dependencies.
+- Cycles.
+- Candidate-family limits.
+- Contradictory fidelity declarations.
+- Invalid provider registrations.
+
+### Required fix
+
+Before publishing a new registry entry:
+
+1. Construct the proposed combined registry in memory.
+2. Validate every task.
+3. Validate dependency graph and ordering.
+4. Validate provider hashes.
+5. Validate candidate-budget restrictions.
+6. Reject conflicts.
+7. Publish atomically only after full validation.
+
+### Acceptance
+
+Attempt invalid registrations under every conflict class.
+
+The previous registry must remain usable and byte-identical.
+
+**Priority: P0 before expanding the task catalog.**
+
+---
+
+# 20. ADDITIONAL P0 SAFEGUARDS RECOMMENDED IN THIS CONSOLIDATION
+
+These are further review recommendations. They should not be treated as confirmed defects without checking the latest live code.
+
+## P0-6. Do not confuse a verified incomplete campaign with an eligible physical cache
+
+The current design permits independently verified incomplete campaign records.
+
+That is appropriate for preserving partial evidence.
+
+However, cached reuse should distinguish:
+
+- A complete scientific gate that was verified inside an incomplete campaign.
+- A partially executed gate.
+- A gate lacking its reviewer.
+- A campaign that ended because the parent locks failed.
+- A task stopped for resource exhaustion.
+
+Only individually certified, immutable gate evidence should be reusable.
+
+A campaign-level incomplete status should never allow an unverified individual scientific result to inherit a PASS.
+
+## P0-7. Bind every physical conclusion to a reproducible action identity
+
+Two files can contain similar formulas while defining inequivalent physical theories.
+
+The miner should not combine their outputs merely because:
+
+- Both contain X and Y fields.
+- Both use sigma(P).
+- Both have a stationary Routhian.
+- Both have similar numerical parameter values.
+
+The action identity must include:
+
+- Dynamical fields.
+- Covariant bulk terms.
+- Surface terms.
+- Metric dependence.
+- Source couplings.
+- Normalizations.
+- Signs.
+- Constraints.
+- Ensembles.
+- Boundary conditions.
+- Symmetry assumptions.
+
+This is central to preventing incorrect PH16→R3B transfer.
+
+## P0-8. Separate scientific uncertainty from software failure
+
+A null physical result is not the same as:
+
+- Nonconvergence.
+- Timeout.
+- Process crash.
+- Broken verifier.
+- Incomplete action.
+- Missing parent data.
+- Unstable iteration.
+- Boundary sensitivity.
+- Unknown continuum limit.
+
+Every such state should have its own machine-readable classification.
+
+Otherwise, the miner could incorrectly learn that a viable mechanism failed when the actual experiment simply lacked evidence.
+
+## P0-9. Make the scientific board evidence-derived
+
+The current campaign provides a G00–G11 scientific board.
+
+As more providers are added, every displayed gate status should derive from accepted evidence and its scope—not from hard-coded labels.
+
+A new provider must not make the dashboard claim source closure while the source action remains explicitly incomplete.
+
+## P0-10. Protect historical files during untrusted provider execution
+
+Registered Python providers can execute arbitrary local Python operations.
+
+Hash pinning detects source changes but does not itself prevent a module from writing outside its assigned workspace.
+
+Before genuinely unattended execution, review:
+
+- Approved provider directories.
+- Read-only access to historical science/results.
+- Dedicated output directory permissions.
+- Prevention of accidental source edits.
+- Symlink/path traversal handling.
+- Environment isolation.
+- Process-tree termination.
+- Network access policy.
+- File and resource quotas.
+
+Do not confuse process supervision with a fully isolated sandbox.
+
+---
+
+# 21. P1 — HIGH-VALUE DISCOVERY AUTOMATION
+
+The next improvements should make the miner do substantially more scientific thinking and computation between prompts.
+
+## P1-1. Build one executable action representation
+
+Instead of independently handwriting every equation, create a bounded action-term representation for reviewed physical sectors.
+
+The representation should define:
+
+- Fields and indices.
+- Metric dependence.
+- X/Y gauge strengths.
+- Dual/Hodge operations.
+- Charged source matter.
+- Neutral matter.
+- Boundary/support terms.
+- Units and normalization.
+- Gauge transformations.
+- Ensemble constraints.
+
+From the same action representation, generate:
+
+- Relevant Euler equations.
+- Currents.
+- Stress-energy.
+- Boundary terms.
+- Linearized residuals.
+- Hessians/JVPs where legitimate.
+- Human-readable reports.
+
+Independent review should reconstruct key identities differently.
+
+Initial regression controls should include:
+
+- GRAVITY2-07/08 omitted Maxwell action term.
+- R3X1 Lorentzian sign correction.
+- PH14 spherical induced-Y null.
+- F0F metric-independent topological stress null.
+- F0G exterior-dipole adverse-sign control.
+
+Do not attempt a universal physics compiler immediately. Start with one action family and one reviewed term at a time.
+
+## P1-2. Separate the full hypothesis catalog from the active survivor budget
+
+The present two-family limit is appropriate for restricting expensive active investigations, but it should not automatically restrict the number of cheap hypotheses screened over time.
+
+Maintain:
+
+- A broad catalog of candidate cards.
+- Assumption-aware equivalence classes.
+- Reviewed negative controls.
+- Prior no-go records.
+- Scientific novelty scores.
+- Maximum two expensive physical survivors at once.
+
+A new candidate must state:
+
+1. Which physical assumption changes.
+2. Which old obstruction it evades.
+3. Which exact new equation results.
+4. Which source current generates it.
+5. Which metric/neutral response it predicts.
+6. The cheapest falsification test.
+7. The conditions for retirement.
+
+Coefficient polishing or relabeling an old operator should not qualify as a new mechanism.
+
+## P1-3. Build an assumption-aware failure atlas
+
+The miner should recognize that prior results exclude particular assumptions.
+
+Examples:
+
+**Correct scoped record:**
+
+`single-sign periodic source + no compensator -> integrated Gauss obstruction`
+
+**Incorrect broad record:**
+
+`charged scalar source -> impossible`
+
+**Correct:**
+
+`fixed metric-independent theta topological term -> zero direct Hilbert stress`
+
+**Incorrect:**
+
+`all source-dependent theta portal models -> no gravitational stress`
+
+**Correct:**
+
+`isolated exterior Maxwell dipole tail at tested geometry -> inward axial stand-off gravity`
+
+**Incorrect:**
+
+`all finite source configurations -> inward gravity`
+
+The failure atlas should store exact assumptions, action hash, proof, numerical evidence, unresolved escape mechanisms and matching confidence.
+
+## P1-4. Build a physical constrained-response engine
+
+The scientific target is:
+
+`R(z,u) = 0`
+
+where z is the physically jointly stationary state and u is an admissible source-control vector.
+
+For valid perturbations:
+
+`R_z*delta_z + R_u*delta_u = 0`
+
+The response of the acceleration at torus point i is:
+
+`dA_i/du = partial_u(A_i) - partial_z(A_i)*(R_z constrained inverse)*R_u`
+
+This is only meaningful when:
+
+- The action is complete for the stated scope.
+- The equilibrium is on shell.
+- The control is physical.
+- Relevant charges are fixed or correctly varied.
+- Gauge modes are handled.
+- The linearized operator has a healthy, justified constrained solution.
+- Supports and interface traction are included.
+- The derivative is independently checked.
+
+Compare predicted derivatives to finite differences between nearby **on-shell states**.
+
+A derivative through frozen prescribed fields is not enough.
+
+## P1-5. Automate the earliest decisive falsifier
+
+Every candidate should be scheduled through cheap high-information tests before expensive numerical work.
+
+Example order:
+
+1. Action completeness.
+2. Units and sign consistency.
+3. Gauge/Ward/Noether/Bianchi identities.
+4. Source conservation and integrated Gauss constraints.
+5. Known topological/stress nulls.
+6. Source existence and boundary conditions.
+7. Constrained-mode health.
+8. Loaded worst-point sign.
+9. Exterior gravitational sign.
+10. Whole-craft reaction and SI energy.
+
+The exact order may depend on candidate structure.
+
+The scheduler should choose the cheapest test likely to resolve the largest remaining uncertainty.
+
+## P1-6. Produce autonomous research handoffs
+
+Every completed campaign should generate one concise machine-readable and human-readable synthesis:
+
+- New evidence.
+- Reused evidence.
+- Changed scientific conclusions.
+- Current physical survivor list.
+- Actual unclosed constraints.
+- Important new failure assumptions.
+- Numerical convergence status.
+- Resource cost.
+- One highest-information next task.
+- Any required human authorization.
+
+This directly reduces prompt cycles.
+
+---
+
+# 22. P2 — LONGER-TERM ENGINEERING IMPROVEMENTS
+
+Consider after P0 integrity repairs and the first real source-response provider work.
+
+## 22.1 Result indexing
+
+Use a rebuildable index or small local database if scanning thousands of immutable JSON directories becomes costly.
+
+The immutable original files remain authoritative.
+
+The index must be disposable and reconstructible.
+
+## 22.2 Sparse constrained Jacobians
+
+Use sparse or matrix-free JVP/VJP/adjoint methods when a real physical residual exists.
+
+Do not build a high-performance inverse engine for an unspecified or inconsistent action.
+
+## 22.3 Controlled batching
+
+Group mathematically related negative controls and finite differences where this reduces overhead without hiding failures.
+
+## 22.4 Multiworker execution
+
+Only expand beyond one worker after measuring:
+
+- Memory footprint.
+- Resource isolation.
+- Determinism.
+- Race conditions.
+- Artifact integrity.
+- Worker-stop behavior.
+- Scientific throughput.
+
+Parallelism should not magnify an invalid model.
+
+## 22.5 Optional visualization
+
+A dashboard could show hypothesis families, current gating stage, historical failures and scientific blockers.
+
+Prioritize trustworthy machine-readable records before graphical presentation.
+
+## 22.6 Acceleration hardware
+
+Use vectorization, compiled numerical kernels or accelerated libraries when profiling justifies them.
+
+Do not let implementation optimization displace exact physical verification.
+
+---
+
+# 23. THE 1,000× DISCOVERY-ACCELERATION BENCHMARK
+
+This is an explicit engineering objective, not established performance.
+
+## 23.1 Baseline
+
+Choose a frozen blind workload that the former manual AI-prompt process and the miner can both execute.
+
+Include:
+
+- An already-known no-go.
+- A duplicate mechanism.
+- A legitimate scoped symbolic pass.
+- An underdetermined physical source.
+- A wrong-sign control.
+- A missing-action case.
+- A numerical nonconvergence.
+- A real parent-hash drift.
+- A dependency that requires independent verification.
+- A candidate that warrants a new experiment.
+
+## 23.2 Metrics
+
+Measure:
+
+- Unique hypotheses examined.
+- Unique independently verified decisions.
+- Decision-changing scientific findings.
+- False physical promotions.
+- Incorrect exclusions.
+- Researcher/AI interventions.
+- Human minutes required.
+- End-to-end wall-clock time.
+- Compute memory and disk cost.
+- Verification cost.
+- Cold-cache and warm-cache performance.
+- Novelty and redundancy.
+- Time to earliest fatal obstruction.
+- Successful reuse of historical failures.
+
+## 23.3 Required distinctions
+
+A thousand warm-cache hits may represent excellent elimination of manual repeated work but **zero new physical discoveries**.
+
+Likewise, 10,000 numerically converged prescribed fields may be less informative than one rigorous no-go against an entire proposed source family.
+
+Track both:
+
+**Operational automation speedup**
+
+and
+
+**Useful scientific decision throughput.**
+
+Do not publish a 1,000× discovery claim until the benchmark demonstrates it.
+
+## 23.4 Recommended initial milestone
+
+First demonstrate that the miner can execute a substantial preapproved, independently verified campaign **without requiring a new AI prompt or new scheduler code for every task**.
+
+Then increase hypothesis diversity and decision-information quality.
+
+The 1,000× goal should guide architecture, not justify weaker verification.
+
+---
+
+# 24. EXACT NEXT PHYSICS INVESTIGATION
+
+**Next investigation:** one bounded L0/L1 source-action compatibility and physically constrained loaded-response derivation.
+
+This should use the existing reviewed GRAVITY2 provider architecture.
+
+Do not build another generic scheduler.
+
+## 24.1 Select one source card and ensemble
+
+Define:
+
+- Dynamical matter fields.
+- Charges and frequencies.
+- Conserved quantities.
+- Source control parameters.
+- Bulk/surface support action.
+- Neutral material action.
+- Energy source for switching and control.
+- Boundary conditions.
+- Off-state.
+
+The card must change a genuine physical assumption if reopening a previously failed mechanism.
+
+## 24.2 Compare the actual actions
+
+Construct a term-by-term correspondence between:
+
+- Original R3B/R3X1 loaded source.
+- PH16-04R2 native stationary source.
+- Relevant GAMMA variational results.
+- DELTA1-F0 interface physics.
+
+Compare:
+
+- Field normalizations.
+- Lorentzian signs.
+- Carrier kinetic terms.
+- Hodge dual conventions.
+- Portal coefficient definitions.
+- Charged matter.
+- Source currents.
+- Neutral-matter trace.
+- Metric variation.
+- Noether ensemble.
+- Boundary terms.
+- Interface traction.
+- Supports.
+- Physical exterior.
+
+**Do not use a PH16 stationary state as the loaded R3B equilibrium unless the relevant actions are proven equivalent under the proposed transfer.**
+
+## 24.3 Produce one of two scientific results
+
+**Result A — Explicit incompatibility**
+
+Identify the first failed action identity.
+
+Record:
+
+- The R3B term.
+- The PH16/GAMMA term.
+- The precise mismatch.
+- Historical source references.
+- Why it invalidates transfer.
+- Minimal genuinely new physical ingredient required to reopen the route.
+
+This is an excellent scientific result if rigorously established.
+
+**Result B — Valid constrained-response construction**
+
+If a compatible common action and equilibrium exist:
+
+- Define the exact loaded residual.
+- Specify admissible physical controls.
+- Construct constrained JVP/adjoint.
+- Check gauge and Noether compatibility.
+- Check stability.
+- Independently compare with nearby on-shell finite differences.
+- Evaluate full-load worst-point acceleration response.
+- Check exterior and source-support consistency.
+
+Do not assume that Result B exists.
+
+## 24.4 Metric/Hodge obligation
+
+If theta or lambda depends on source/matter or metric fields, vary that dependence from the actual action.
+
+Mandatory negative controls:
+
+- Fixed theta gives F0F's zero direct Hilbert topological stress.
+- Isolated exterior dipole recovers F0G's adverse axial sign.
+- Portal off produces the appropriate null.
+- Constant multiplier and integrable-source nulls remain null.
+- R3X1 corrected Lorentzian signs hold.
+- PH14 spherical on-shell Y remains zero.
+
+A prescribed spatial theta field is not sufficient to establish physical source generation.
+
+## 24.5 Full-load observable
+
+Do not optimize only center-of-mass acceleration.
+
+Evaluate the entire finite 1 kg torus.
+
+Track:
+
+- Minimum acceleration.
+- Active worst-point set.
+- Location movement.
+- Boundary/mesh sensitivity.
+- Loading dependence.
+- Source-support distance.
+- Exterior transmission.
+- Complete force/energy bookkeeping.
+
+If multiple cells tie as the limiting minimum, a control direction must improve the relevant active inequalities.
+
+## 24.6 Conditional authorization
+
+Only a physically reachable, healthy, conserved control direction should justify a new F1/F2 coupled calculation.
+
+That result would still not establish complete propulsion.
+
+Einstein stress, Earth/craft momentum, health, empirical validity, quantum/UV and full-cycle energy remain required.
+
+---
+
+# 25. SCIENTIFIC G00–G11 GATE DEFINITIONS
+
+| Gate | Requirement |
+|---|---|
+| G00 | Exact parent provenance, signs, units and artifacts |
+| G01 | One complete covariant action for the claimed scope |
+| G02 | All relevant source, carrier, neutral, metric, support and Earth variations |
+| G03 | Gauge/Ward/Noether/Bianchi identities and conservation |
+| G04 | Healthy constrained propagating and nondynamical modes |
+| G05 | Finite physical source, conserved currents and real supports |
+| G06 | Full reciprocal loading of finite neutral matter |
+| G07 | Universal-metric gravitational response with correct sign |
+| G08 | Strictly <10 MJ complete conservative SI operating energy |
+| G09 | Finite exterior transmission and convergence |
+| G10 | Same-action Earth-down/whole-craft-up reaction |
+| G11 | Empirical, quantum/EFT/UV and causal consistency |
+
+The exact scientific evidence must support each PASS.
+
+The current campaign platform does not establish these complete physical gates merely by printing them.
+
+For new candidate scoring, missing gates should receive `NOT_DERIVED`, `BLOCKED` or `UNDERDETERMINED`, not optimistic defaults.
+
+---
+
+# 26. EXECUTION AND DELIVERABLE STANDARDS
+
+The user prefers complete source and run instructions directly in chat.
+
+For future implementation changes:
+
+- Supply separate complete **Bash APPLY** and **Bash VERIFY** blocks.
+- Make the blocks compatible with the user's macOS/zsh environment.
+- Avoid downloadable script files unless requested.
+- Do not use git commands.
+- Avoid encoded payloads.
+- Preserve existing historical files.
+- Use new immutable results and unique UTC run IDs.
+- Verify no-overwrite behavior.
+- Keep code readable and source inspectable.
+- Respect `FORMATTING_AND_CODE_STANDARDS.md`.
+- Include focused tests.
+- Include independent science verification.
+- Include known negative controls.
+- Record SHA-256 hashes.
+- Report CPU, RAM, elapsed time and disk usage.
+- Avoid unbounded CPU/memory/disk runs.
+- Do not rerun already accepted full suites after every trivial change.
+- Preserve failed experiments as first-class artifacts.
+
+The user previously ran the repository on an Intel MacBook Pro (2019). Prefer bounded one-worker experiments until larger workloads are justified and measured.
+
+Do not claim a scientific result from code that has not actually run.
+
+Do not declare successful continuation from a command merely because it was installed.
+
+A full regression is required at appropriate integration checkpoints; a scoped analytical falsifier may instead warrant focused independent verification, with the regression scope stated explicitly.
+
+---
+
+# 27. KEY PROVENANCE LEDGER
+
+These are the principal hashes from the consolidated record.
+
+| Evidence | SHA-256 |
+|---|---|
+| November 21 codebundle | `f951b8c4ea1bbf13e65f1216d9d479cb3bd3dd23f6da2ed6fe639f920036f022` |
+| PH16-04R2 science | `ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0` |
+| DELTA1-02 science | `3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3` |
+| F0C science | `3c671e54a44a23bd12d2fe2451aed6388bb3c4f6da37408d7abe54c808540f7f` |
+| F0C verification | `bafc1cf1d415e33a6da251fade2a29b1497d456f8d3aff5316d4b95936bbd9c6` |
+| F0G science | `c8e74278c73b4d74f43560f7dec275c8061ef3f83c33d52afe703a7360a91c1f` |
+| F0G verification | `b2def664dae9363fffc4be1d9d6e145f94e6d6ec9b793d0f24d4e39a33cbd566` |
+| GRAVITY2-06 science | `e2a8a141b86e2168912a4110cc258ec0cec65cae909bc9da999f30216901b1a5` |
+| GRAVITY2-06 verification | `ef9c9ebff7c3c3b32bf40bbaee140bbd62bf3998f37abf698ed84ce36150b883` |
+| GRAVITY2-07 science | `458d7309da70a944380f8fc73cb1b93f19e80b981ed64d1f97c64c62cabd04d1` |
+| GRAVITY2-07 verification | `c82f313b55effd19d90fca9b2306aca104d96296369011262a0ee07cbe113379` |
+| GRAVITY2-07 field archive | `ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d` |
+| GRAVITY2-08 science | `a883cbe884ef97b839995da7437cf2a3d8c0451dc1415f88caf6ed314ac5e419` |
+| GRAVITY2-08 verification | `fb14efd798d6a58472421ab611c896c974aff62f743d7666219f0cecd3d676c9` |
+| First two-gate science | `f41c8fc50530ce66327135d37ce4b87714b16e5d62c819972f10b5147d45b21a` |
+| First two-gate verification | `ef78320d83a5022c0b7460181f113090ace1b1140a7a600c90c3840f303f7dc7` |
+| Two-gate reuse science | `63a567330f78a5d157b6d7c63bbf71dab589a2a9ad8de9770cff9fed13da3f90` |
+| Two-gate reuse verification | `30c8ad8f5b45ad8b731e656df6d67ab46f80b9e1b12999dd69b7ea1f95d923af` |
+| Four-gate fresh science | `f08d998b05c7a23e0e800269af850763c032282a9f7dc81e78ae1a4a8dbcfe18` |
+| Four-gate fresh verification | `7dfec7290972f57527546c9eedd46482ff23145e837d95f273ed68b7f1e1c0a4` |
+| Four-gate reuse science | `389df300ccb5550966a048fe1592b5f2134da774559b1200975bb6ea9a31e1e7` |
+| Four-gate reuse verification | `5caaded64891138ff42ad1e49a678dec38e12bf2ab68ce488b90b753c3f997b2` |
+
+This table is a practical carryover subset.
+
+The reviewing work session reported a broader 52-entry SHA inventory in its full source/code review. Do not invent missing hashes or claim that all those entries are reproduced here.
+
+Always recalculate live artifact hashes before using them as newly accepted parent locks.
+
+---
+
+# 28. NEXT-SESSION EXECUTION PLAN — IN PRIORITY ORDER
+
+## Phase 0 — Reconstruct and inspect
+
+Before writing new source:
+
+1. Review this carryover document.
+2. Review the November 21 codebundle.
+3. Confirm live campaign source and all important parent hashes.
+4. Check the five P0 findings against actual code.
+5. Preserve the existing four-gate scientific verdicts and immutable results.
+6. Identify the current governing DELTA/ARTIFICIAL plan instruction.
+7. Verify no newer run supersedes this checkpoint.
+
+Do not start from older `NEXT` text.
+
+## Phase 1 — P0 campaign correctness repairs
+
+Implement and independently test:
+
+1. Separate execution, verification, verdict and cache-origin states.
+2. Correct dependency scheduling for fresh/reused/resumed evidence.
+3. Expand cache fingerprints to exact consumed scientific inputs.
+4. Enforce gate-specific mandatory review contracts.
+5. Validate the entire proposed registry before publishing.
+6. Add interruption/crash tests and per-job durable commits.
+
+This should be a bounded correctness release, not a major rewrite.
+
+Preserve original campaign/source artifacts and produce new acceptance evidence.
+
+## Phase 2 — One substantive science provider
+
+Use the existing platform to compare the source actions and physical controls across R3B/R3X1, PH16-04R2 and GAMMA/DELTA results.
+
+Deliver:
+
+- Exact action-term map.
+- Exact mismatch or qualified correspondence.
+- Independent metric/Hodge/sign controls.
+- Complete list of unresolved source/support/ensemble terms.
+- First explicit obstruction if the transfer fails.
+
+Only if the common action is sufficiently established should the provider construct the constrained loaded-response Jacobian.
+
+## Phase 3 — Scientific search automation
+
+After the first substantive provider:
+
+- Typed action cards.
+- Automatic low-cost falsifier selection.
+- Assumption-aware failure memory.
+- Reusable exact variation routines.
+- Automatic experiment queues.
+- Verified source-control calculations.
+- Decision-information scheduling.
+
+Keep physical survivor promotion locked behind independent checks.
+
+## Phase 4 — Benchmark the autonomous workflow
+
+Demonstrate a substantial scientific campaign with minimal prompting.
+
+Measure cold/warm throughput, useful decisions, correctness and total human workload.
+
+The target is ≥1,000× useful research acceleration, but do not claim achievement before evidence.
+
+---
+
+# 29. DEFINITION OF SUCCESS FOR THE NEXT SESSION
+
+The next session should not be judged by how many new files or tests it produces.
+
+A productive session should satisfy as many of these as the physical and engineering evidence allows:
+
+- The five P0 miner issues are independently verified and repaired or explicitly scoped.
+- The original four-gate acceptance remains valid.
+- Fresh/reused dependent tasks behave identically.
+- No false scientific promotion is possible from an unverified result.
+- Exact action/source dependencies invalidate stale caches correctly.
+- The miner survives controlled interruptions without damaging evidence.
+- A real R3B/PH16/GAMMA action compatibility question is answered.
+- The first failed identity is documented if transfer is impossible.
+- If compatible, a legitimate physical control derivative is constructed and independently checked.
+- The resulting research decision eliminates a mechanism or advances a genuinely new one.
+- The miner requires fewer manual AI prompts for equivalent work.
+- All scientific uncertainty and negative results are preserved.
+
+**It is acceptable for the next scientific result to be a rigorous no-go. It is not acceptable to manufacture progress by weakening physical obligations.**
+
+---
+
+# 30. UNRESOLVED PHYSICS — FINAL BLOCKER LIST
+
+The following remain unresolved as of this handoff:
+
+- Complete healthy Lorentzian source/X/Y/neutral/support/Earth/Einstein action.
+- Full source metric/Hodge variation.
+- Conserved physically realizable charged source currents.
+- Valid control subspace under fixed charges and support constraints.
+- Exact jointly loaded on-shell state for the tested R3B model.
+- Constrained, healthy loaded source-response Jacobian.
+- Independently stable interface/material dynamics.
+- Full finite exterior gravitational response.
+- Continuum convergence of the worst-point acceleration.
+- Genuine universal-metric outward gravity everywhere on the finite torus.
+- Earth-down and whole-craft-up momentum transfer.
+- Full spacecraft force including supports and hull.
+- Signed real operation/switching cycle.
+- Complete SI operating energy below 10 MJ.
+- Quantum/EFT/UV and empirical consistency.
+- Replacement of the 006D conservative benchmark.
+
+The currently accepted scientific results do not close these obligations.
+
+---
+
+# 31. SPECIAL CAUTIONS
+
+**Do not confuse static stationarity with stability.**
+
+A positive restricted Hessian does not certify the full constrained dynamical spectrum.
+
+**Do not confuse neutral charge balance with a source solution.**
+
+The JPAIR periodic charge cancellation was prescribed and did not solve the joint equations.
+
+**Do not confuse a good field residual with a good physical action.**
+
+GRAVITY2-07 was numerically accurate in Y yet left X/scalar off shell and omitted an advertised X action term.
+
+**Do not confuse numerical convergence with continuum physics.**
+
+F0C solved its discrete equations accurately but the loaded minimum remained sensitive to geometry.
+
+**Do not confuse matter interface acceleration with whole-craft lift.**
+
+Real Earth/craft forces and field momentum must be derived.
+
+**Do not confuse small field energy with cheap device energy.**
+
+A12C and R3B remain prescribed-field capacities.
+
+**Do not confuse the isolated Maxwell dipole tail with the complete source stress.**
+
+F0G's inward contribution is a scoped result.
+
+**Do not confuse a topological current with direct Hilbert stress.**
+
+F0F requires correct metric variation.
+
+**Do not confuse a software PASS with physical success.**
+
+The four-gate campaign found no physical survivor.
+
+**Do not confuse a 1,000× workflow goal with a demonstrated discovery rate.**
+
+The current miner accelerates accepted repeated operations; its broader research productivity remains to be measured.
+
+---
+
+# 32. REQUIRED SCIENTIFIC AND ENGINEERING DISCIPLINE
+
+The objective is a **scientifically honest, increasingly autonomous discovery system**.
+
+The computer should conduct the heavy repetitive work.
+
+AI should not be required to generate one-off run scripts for ordinary investigations.
+
+But autonomy must be bounded by rigorous physics and transparent evidence.
+
+Every new physical result requires:
+
+- Explicit action provenance.
+- Correct signs and units.
+- Gauge/Noether/Bianchi compatibility.
+- Real sourced matter and support.
+- Independent checks.
+- Numerical convergence where applicable.
+- Full-load observables.
+- Honest energy accounting.
+- Scoped conclusions.
+- Immutable artifact references.
+
+The fastest scientific path may involve ruling out many apparently promising mechanisms.
+
+Failure memory should make those exclusions permanent unless genuinely new physics changes their premises.
+
+---
+
+# 33. FINAL NEXT-SESSION MANDATE
+
+**Do not rebuild GRAVITY2 from scratch.**
+
+**Do not spend the next session merely adding more short audit gates.**
+
+**Do not restart closed GAMMA/DELTA/AGMINER work.**
+
+**First repair the verified P0 miner correctness problems.**
+
+Then use the preserved campaign engine to investigate the central missing physical bridge:
+
+**Can one finite, conserved and stable source under a single complete action provide a physically controllable perturbation that changes the fully loaded neutral-matter gravitational response without violating the existing source, metric, stability, energy and exterior obstructions?**
+
+For the specific R3B/PH16 transfer, establish an exact action correspondence or document the earliest incompatibility.
+
+Only if that correspondence exists should the miner compute a constrained loaded derivative.
+
+Only if that derivative has a valid physical control and improves the full-load worst-point response should expensive subsequent calculations be authorized.
+
+The user's strategic objective is to have the local machine perform most investigations, automatically select informative experiments and preserve complete evidence—with an aspirational **≥1,000× improvement in useful research throughput** versus the old AI-prompt-by-prompt process.
+
+**GRAVITY2 v1 is operational. Its full scientific discovery capabilities are not complete.**
+
+**Physical maturity remains approximately 37% heuristic. The 50% milestone must be earned through new independently transferable gravitational and whole-craft physics.**
+
+**006D remains unreplaced. R3B's loaded inward failure remains. PH16-04R2 remains finite-lattice stationarity. No certified gravitational lift or complete sub-10-MJ engine exists.**
+
+**END OF MASTER CARRYOVER — NOVEMBER 21, 2026**
+
+# ANTIGRAVITY_RESEARCH — MASTER SESSION CARRY-OVER
+## November 21, 2026 — G01-K Closeout and Five-Run Physical Gravity Bridge Campaign
+
+**Research frontier:** G01-K accepted as a conditional static R3B shell-response witness.  
+**Protected R3B prescribed-field capacity:** 1.5429162116460216 J.  
+**Historical loaded worst acceleration:** −129.67185782242464 m/s².  
+**Current physical-research maturity:** approximately 35–37% heuristic.  
+**Target:** Earn at least 50% physical-model maturity through independently verified gravitational and whole-craft physical closure, ideally within five high-information research runs.  
+**Physical survivors:** Zero.  
+**Conservative GR benchmark:** 006D remains unreplaced.  
+**Latest completed experiment:** `G01K_20261121T214747Z_7aba9bce`.
+
+---
+
+# 1. Instructions for the next research session
+
+This handoff consolidates the scientific, mathematical, numerical, software, experimental and strategic state of ANTIGRAVITY_RESEARCH through G01-K.
+
+Before proposing another run:
+
+1. Read this carry-over completely.
+2. Read the newly regenerated codebundle and inspect the actual current source.
+3. Reconcile every relevant result against immutable scientific JSON, verification JSON, SHA-256 ledgers and execution evidence.
+4. Review the governing physical and artificial build plans.
+5. Preserve all historical positive results, negative controls, failed simulations, incomplete proofs and source-provenance corrections.
+6. Distinguish mathematical source-response reconstruction from physical sourcing and gravitational closure.
+7. Identify the earliest scientifically decisive unresolved obligation.
+8. Begin with a theorem-first calculation, not a broad parameter sweep.
+9. Implement new substantive research inside the GRAVITY2 miner rather than continuing indefinitely with disconnected one-off scripts.
+10. Promote a physical-model completion percentage only when the new evidence justifies it.
+
+**This carry-over supersedes older NEXT instructions wherever the older instructions have already been executed or overtaken by later evidence.**
+
+It does not supersede the governing physics, conservation laws, acceptance requirements or historical failures.
+
+## 1.1 Documentation update boundary
+
+For this handoff, update only:
+
+- `NOTES.md` — append the current research checkpoint and five-run plan.
+- The code-only codebundle — regenerate after all G01-K source files exist.
+
+Do not update the following in this handoff:
+
+- `RESEARCH_BUILDPLAN.md`
+- `ARTIFICIAL_BUILDPLAN.MD`
+- `AGMINER_BUILDPLAN.MD`
+- `INTROSPECTIVE_BUILDPLAN.md`
+- `FORMATTING_AND_CODE_STANDARDS.md`
+- `README.md`
+- Historical journals or historical JSON
+- Previously accepted immutable evidence
+
+The newest attached codebundle I inspected was generated **November 21, 2026, at 12:30:57 CST**, before the evening G01-H through G01-K work.
+
+Consequently, that older codebundle does not establish the presence of the newest scripts.
+
+**Regenerate the codebundle after G01-K. Verify that the regenerated bundle actually contains all new GRAVITY2 and G01-H/I/J/K source and verification files.**
+
+The latest experiment archives must remain available alongside the updated codebundle.
+
+---
+
+# 2. Fundamental physical mission
+
+ANTIGRAVITY_RESEARCH seeks true gravitational repulsion acting on finite, electrically neutral matter from a finite onboard spacecraft source.
+
+The intended applications include gravitational weight reduction, lift, hover and ascent.
+
+Auxiliary thrust is permitted, provided it is separately identified and never substituted for the gravitational mechanism.
+
+The mechanism must be physically sourced, obey conservation laws, operate through a universal physical metric, and transmit the required interaction into the exterior.
+
+## 2.1 Quantitative target
+
+The standard benchmark is:
+
+| Requirement | Mandatory target |
+|---|---|
+| Neutral payload | Finite 1 kg torus |
+| Acceleration | At least 9.80665 m/s² outward |
+| Spatial coverage | Every material point of the torus |
+| True stand-off | At least 1 m |
+| Source location | Entirely onboard the spacecraft |
+| Complete operating energy | Strictly below 10,000,000 J |
+| Gravity | Universal physical-metric response |
+| Earth reaction | Independently derived |
+| Whole-craft force | Independently derived |
+| Conservation | Exact same-action consistency |
+
+The acceleration and stand-off values are minimum requirements, not optimization ceilings.
+
+A model providing greater acceleration or larger usable stand-off is desirable if all physical gates still pass.
+
+Exactly 10 MJ fails the energy requirement.
+
+## 2.2 The entire system must be derived from one action
+
+The complete system includes:
+
+- Einstein metric and gravitational degrees of freedom.
+- Universal physical metric coupled to neutral matter.
+- X and Y carrier fields.
+- Microscopic onboard source matter.
+- Actual conserved source currents.
+- Source confinement.
+- Structural supports and shell materials.
+- Hull and relevant spacecraft components.
+- Power and energy-storage systems.
+- Neutral payload.
+- Earth matter.
+- Required boundaries and their stresses.
+- Field energy and momentum.
+- Backreaction and switching states.
+
+The relevant action has the schematic structure
+
+\[
+S_{\rm total}
+=
+S_{\rm EH}
++
+S_{X,Y}
++
+S_{\rm source}
++
+S_{\rm support}
++
+S_{\rm neutral}
++
+S_{\rm Earth}
++
+S_{\rm boundary}.
+\]
+
+Every action term must have explicit field content, signs, units, metric dependence, symmetry and boundary prescriptions.
+
+A prescribed current, externally imposed scalar charge, frozen magnetic drive or inverse-designed field does not establish a physical source.
+
+## 2.3 Mandatory identities and physical requirements
+
+Every candidate must eventually satisfy:
+
+- U(1) gauge/Ward identities.
+- Source-charge conservation.
+- Noether identities.
+- Diffeomorphism identities.
+- Einstein Bianchi identities.
+- Total stress-energy conservation.
+- Correct metric and Hodge variations.
+- Justified gauge and fixed-charge constraints.
+- Healthy physical propagating modes.
+- Real and stable source matter.
+- Finite support and correct boundary tractions.
+- Continuum and exterior convergence.
+- Consistent weak-field gravitational sign.
+- Derived neutral matter acceleration.
+- Derived Earth and whole-craft response.
+- Complete conservative energy accounting.
+- Empirical and quantum/EFT/UV consistency.
+- Causal switching and momentum-transfer closure.
+
+No partial numerical pass can replace these obligations.
+
+---
+
+# 3. Evidence hierarchy and claim discipline
+
+Use the following hierarchy:
+
+1. Actual executed source, result JSON, verification evidence, SHA-256 hashes and terminal logs.
+2. Independently reproduced mathematical derivations.
+3. Contemporaneous scientific journals.
+4. Governing build plans.
+5. `NOTES.md`, README and narrative summaries.
+
+An older document may contain a historically correct NEXT statement that has since been superseded.
+
+For example, the governing November 20 artificial build plan records completed GAMMA and DELTA research through its checkpoint, while subsequent November 21 experiments have now advanced the GRAVITY2-related work further.
+
+Do not restart an experiment merely because an older document still labels it NEXT.
+
+Never convert:
+
+- A prescribed-field capacity into an operating-energy measurement.
+- A static energy minimum into full Lorentzian stability.
+- A canonical energy proxy into SI joules without justification.
+- A field-fit coefficient into a realizable material constant.
+- A formal Ward identity into a tested full off-shell identity.
+- A locally outward force into whole-craft propulsion.
+- A prescribed scalar force into universal gravitational repulsion.
+- An independent software verification into experimental confirmation of gravity.
+
+Every claim must retain its exact scope.
+
+---
+
+# 4. Physical research maturity and the five-run target
+
+The current approximately **35–37% maturity figure is a heuristic characterization of research development**, not a statistically calibrated probability of success.
+
+The software and numerical infrastructure is more developed than the physical gravitational theory.
+
+That distinction must remain explicit.
+
+## 4.1 What does not earn an increase
+
+The following do not independently justify increasing physical maturity:
+
+- Additional passed Python tests.
+- More multipole fit digits.
+- More angular quadrature resolutions after convergence.
+- A lower field-only joule estimate.
+- Repeating the historical loaded inversion.
+- A positive matrix determinant in a toy model.
+- A prescribed magnetic current with an exact field solution.
+- A mathematically equal-and-opposite force pair.
+- A new action written down without full variation.
+- A speculative exterior-force sign.
+
+## 4.2 What would justify progress
+
+Evidence that could justify a meaningful increase includes:
+
+- A previously missing complete source action is independently derived.
+- Its exact equations generate a nontrivial physical source rather than an imposed current.
+- The source maintains its fields under self-consistent neutral loading.
+- The constrained source/field response is healthy.
+- The universal physical metric produces outward acceleration on neutral matter.
+- The acceleration remains outward throughout the finite torus under convergence.
+- The exterior gravitational solution transmits the effect at true stand-off.
+- Earth and whole-craft forces follow from the same conserved action.
+- Complete SI cost can be bounded.
+- Independent scientific implementation reproduces the physical conclusions.
+
+## 4.3 Definition of the 50% milestone
+
+For this research program, the 50% milestone requires a **substantive independently transferred gravitational and whole-craft physical closure**.
+
+At minimum, that means a physically sourced same-action mechanism with a demonstrated universal-metric gravitational response and a derived whole-craft reaction, not merely another conditional field or source witness.
+
+The ultimate 1g/1m/<10 MJ certification may still require later engineering, exhaustive stability, continuum, empirical and operational tests.
+
+However, the 50% threshold must not be awarded unless the physical bridge itself has actually been established.
+
+**Five runs are a research-prioritization budget, not permission to assign a predetermined percentage.**
+
+If no valid gravitational survivor emerges, record the exact obstruction rather than modifying the maturity estimate artificially.
+
+---
+
+# 5. Protected physical anchors
+
+## 5.1 Simulation 006D
+
+006D remains the strongest conservative finite-source linearized-GR reference.
+
+Its preserved coefficient is
+
+\[
+C=23.591586299249.
+\]
+
+The result establishes a scoped finite, conserved, positive-energy source with outward near-field gravitational behavior.
+
+Classical NEC/WEC/DEC checks passed under the recorded assumptions.
+
+The far active mass remains positive.
+
+Its practical problem is the catastrophic gravitational source-energy scale, effectively involving \(1/G\).
+
+006D is not a low-energy spacecraft engine.
+
+**No subsequent model has replaced it as a complete conservative GR reference.**
+
+It must remain the comparison benchmark whenever a purported gravitational survivor is promoted.
+
+## 5.2 A12C
+
+Protected field-capacity result:
+
+\[
+E_{\rm A12C}=2.6568591420597114\ \mathrm J.
+\]
+
+The prescribed-field geometry produced the historical at-least-1g neutral-torus response at approximately 1m stand-off, with reported COM acceleration around 15.04217 m/s².
+
+It remains unsourced.
+
+A12B established a scoped protected massless U(1) sector, not a complete device.
+
+A12C must not be discarded simply because R3B has a smaller capacity.
+
+## 5.3 R3B — principal current research reference
+
+Protected prescribed mixed-field capacity:
+
+\[
+\boxed{E_{\rm R3B}=1.5429162116460216\ \mathrm J}.
+\]
+
+This is the main source-completion research target.
+
+It is not a total energy measurement.
+
+Preserve the exact original producing code, geometry, normalization, multipole decomposition, surface/mirror construction and source hashes.
+
+## 5.4 R3B historical loaded failure
+
+The corrected strong-loading calculation at the fine 0.050 m grid produced:
+
+\[
+a_{\min}=-129.67185782242464\ \mathrm{m/s^2}.
+\]
+
+Historical strong-loaded field energy:
+
+\[
+E_{\rm field,loaded}=1.5211390382733165\ \mathrm J.
+\]
+
+The historical preloaded field was favorable, but reciprocal matter loading produced a severe inward response.
+
+The recorded peak dimensionless matter-loading coefficient at the reference 1 keV portal scale was approximately:
+
+\[
+\beta_{\rm peak}=18987.283771593688.
+\]
+
+A small difference between unloaded and loaded field energy does not mean the loaded acceleration is acceptable.
+
+**This inward response is the principal historical failure that a physically new R3B action must overcome.**
+
+Do not rerun the unchanged original equations expecting a different sign.
+
+## 5.5 Other historical results
+
+Preserve:
+
+| Result | Historical meaning |
+|---|---|
+| B7 / 026 | Important field construction and convergence history |
+| B7 energy | 1.5473042949759672 J field-only |
+| B1 | Approximately 0.275–0.301 MJ field-only |
+| R3A | Approximately \(1.84\times10^{15}\) ordinary-matter suppression |
+| R3X1 | Corrected Lorentzian field and loading signs |
+| B6 | Historical artifact correction |
+| B11–B13 | Source/loading failures |
+| B14/B16 | Nonconverged −410.388913 m/s² inward hotspot |
+| B15 | Angle-only mechanism failure |
+| B16 | Weak-loading failure |
+| 018B/018C | Protected early mechanism evidence |
+| 024–031 | Earlier closures and constraints |
+| Introspective | Large raw signal not certified as continuum physical source |
+
+The Introspective distinction remains:
+
+`RAW_GE1000X_SIGNAL=PRESENT`
+
+`CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`
+
+Do not reopen a closed mechanism unless a genuinely different action or material assumption changes the hypothesis that caused its failure.
+
+---
+
+# 6. ALPHA-1 and BETA-1 remain frozen
+
+## 6.1 ALPHA-1
+
+Frozen checkpoint:
+
+`B17-M5V`
+
+The artificial inverse-design functional is
+
+\[
+Q=\gamma\left(\frac12u^THu-u^TWj\right),
+\qquad H=WA.
+\]
+
+Recorded:
+
+- 50/50 cases passed.
+- 1,803 tests.
+- Earth derivative −11.395675919 J/m.
+- Craft derivative +11.397230073 J/m.
+- Translation residual +0.001554154 J/m.
+- Action −7.975232332 J at \(h=0.04\) m.
+
+Preserve the M5N 81.458% cross-grid mismatch, M5O–M5U audits, incompleteness and historical SHA concerns.
+
+This is artificial source design, not a certified gravitational engine.
+
+## 6.2 BETA-1
+
+Frozen BETA1-04 established a conserved one-dimensional scalar toy force pair:
+
+- Earth −0.1262097349021427.
+- Craft +0.12620973490214274.
+- 43/43 gates.
+- 2,548 tests.
+
+Preserved science SHA:
+
+`2ff63f1e2cbad2dc09d192569701b5503da06ca384ca60546d6e83c8c61ae632`
+
+Its opposing scalar charges were prescribed and not universal gravitational charges.
+
+BETA-1 cannot be relabeled as the solution to R3B's physical-source problem.
+
+---
+
+# 7. PH12–PH16 source-physics history
+
+## 7.1 PH12
+
+Hypothetical trap-free gauged Q-ball:
+
+- Noether number approximately 79.201926.
+- Canonical energy approximately 78.666865.
+
+This was a candidate-source model, not a completed universal-metric device.
+
+## 7.2 PH13
+
+- Restricted Hessian minimum approximately +0.066394.
+- Coupled Schur result approximately −0.4299970.
+- Off-shell Y signal approximately \(2.14608\times10^{-6}\).
+
+Restricted stability did not survive the relevant coupled Schur test.
+
+## 7.3 PH14
+
+Jointly solved neutral spherical source:
+
+- \(N_\pm\approx77.988373\).
+- Canonical energy 161.51589053332395.
+- Restricted minimum Hessian eigenvalue approximately +0.208838.
+- 2,220 tests.
+
+The spherical on-shell identity
+
+\[
+\nabla\lambda\times\mathbf E_X=0
+\]
+
+eliminated induced Y in that configuration.
+
+This is a genuine geometric obstruction to the specific spherical source mechanism, not a universal no-go.
+
+## 7.4 PH15
+
+The portal
+
+\[
+\sigma(P)=\alpha P-\beta P^2
+\]
+
+introduced source-dependent induced currents.
+
+Nonzero on-shell Y requires appropriate nonparallel source gradients.
+
+PH15-P10 achieved:
+
+- Self-consistent discrete source/X solution.
+- First-order induced Y.
+- No fully reciprocal Y backreaction.
+- 8/8 science gates.
+- 2,286 tests.
+
+Science SHA:
+
+`af59b072dba9a0424c569419af1f673172c3123a371eec8443e52cd81efc73c1`
+
+## 7.5 PH16-04R2
+
+This remains the strongest coupled stationary source-model checkpoint.
+
+The model jointly solved finite-lattice \(F_+\), \(F_-\), X, Y and neutral-fluid equilibrium with:
+
+- \(\beta=40\).
+- Noether numbers 400/400.
+- 12/12 exact identities.
+- 19/19 scientific gates.
+- 60/60 focused tests.
+- 2,943/2,943 full tests.
+- 11/11 parent hashes.
+
+Three preconditioned joint residuals:
+
+- \(6.80576\times10^{-8}\)
+- \(6.53298\times10^{-8}\)
+- \(9.28480\times10^{-8}\)
+
+The R2 same-iterate Krylov continuation resolved the previous numerical failure without changing the model action, beta or scientific thresholds.
+
+The weak 18/L12 seed remained unsuccessful, with residual approximately 0.018773933.
+
+This leaves uniqueness and basin independence open.
+
+Its magnetic margins were positive but do not prove full dynamical stability.
+
+Primary science artifact:
+
+`results/data/ph16_04_20261118T164454314313Z.json`
+
+SHA:
+
+`ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`
+
+R2 producing-source SHA:
+
+`b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0`
+
+**PH16-04R2 is a discrete canonical stationary model, not a converged Einstein gravitational or whole-craft solution.**
+
+Any transfer from PH16 into R3B must derive the action correspondence and ensemble constraints explicitly.
+
+---
+
+# 8. GAMMA and DELTA lessons
+
+## 8.1 GAMMA chronology
+
+The governing updated artificial build plan records GAMMA research through its R12-era checkpoint.
+
+Earlier statements that no GAMMA run had occurred are therefore historical and superseded.
+
+GAMMA's major contributions include:
+
+- Metric/Hodge identity audits.
+- Source and neutral-matter variation obligations.
+- Fixed-Noether constrained-mode analysis.
+- R11 Schur correction.
+- R12-era off-shell questions.
+- Continued separation between restricted stationarity and full gravity.
+
+No unique, physically complete covariant gravity-bridge action emerged.
+
+Do not claim all GAMMA failures are universal no-go theorems.
+
+Do not repeat GAMMA symbolic investigations unless the new action introduces a previously untested term or a different admissible constraint sector.
+
+## 8.2 DELTA-1 FAST
+
+The current active artificial build-plan strategy emphasizes decision information per computation, early physical falsification and the R3B source/loading bridge.
+
+DELTA1-00/01 investigated a distinct scalar-type gravitational mechanism.
+
+DELTA1-02 investigated a second Lorentz-invariant response channel for R3B.
+
+Important exact local identity:
+
+\[
+\mathbf a_{\rm neutral}
+=-c^2\sigma_P\nabla P,
+\]
+
+with the matter trace influencing the source response through the same first derivative \(\sigma_P\).
+
+The transverse matter-trace identity is, under its recorded convention,
+
+\[
+\nabla\lambda\times\nabla P
+=e^{4\sigma}\sigma_P\nabla T\times\nabla P.
+\]
+
+The second-invariant response tested in DELTA1-02 was almost collinear with the original sampled payload gradient.
+
+Independent fractions:
+
+- 0.0015922114543637095 at \(h=0.075\) m.
+- 0.0017631658867701 at \(h=0.050\) m.
+
+These results disfavor the tested simple coefficient-only second-invariant rescue.
+
+They do not exclude new physically derived field shapes or source susceptibilities.
+
+---
+
+# 9. DELTA F0 obstruction history
+
+This is essential negative-control evidence for the upcoming five runs.
+
+## 9.1 F0 parent-state audit
+
+The original R3B loaded response operator could not be reconstructed as a complete physical source-control map from the available frozen data.
+
+Outcome:
+
+`UNDERDETERMINED`
+
+A field array and historical solver function are not sufficient to establish a full constrained on-shell source derivative.
+
+## 9.2 F0A and F0B
+
+These investigated polarization and material-interface toy assumptions.
+
+They generated useful interface and equilibrium constraints but did not solve the original R3B same-action source problem.
+
+Keep their assumptions separate from the original model.
+
+## 9.3 F0C
+
+A scoped polarization trial produced numerically interesting behavior but did not establish reliable continuum convergence or a physically selected source branch.
+
+Do not promote a discrete accuracy check into continuum source stability.
+
+## 9.4 F0D
+
+The tested homogeneous quadratic source had an off-state obstruction under its specified natural boundary conditions.
+
+This excludes that exact stable-source proposal under its assumptions.
+
+It does not exclude all nonlinear, driven or supported material systems.
+
+Preserve the originally interrupted full-regression history.
+
+## 9.5 F0E/R1
+
+Established conditional requirements for material stiffness, surface anchoring and switching/bistability in a hypothetical source model.
+
+No physical material coefficients were independently obtained.
+
+## 9.6 F0F
+
+The metric-independent topological mixed four-form has zero direct Hilbert stress at fixed metric-independent coupling.
+
+However, this does not imply the entire R3B portal or source action is metric-independent.
+
+The complete metric variation must include the dependence of \(P\), the conformal physical metric, matter, Hodge duals, carriers and supports.
+
+F0F also found a large conditional gravitational energy obstruction for its tested model.
+
+## 9.7 F0G
+
+The isolated exterior Maxwell-dipole stress contribution produced an inward weak-field gravitational response at the tested true stand-off.
+
+That exterior-only field is not a complete conserved source.
+
+A proposed source must supply the interior/support stress and solve the corresponding Einstein equations before claiming a physical result.
+
+---
+
+# 10. GRAVITY2 software and miner status
+
+The intended miner is a bounded source-to-gravity research engine, not a device-design optimizer.
+
+Its purpose is to automate:
+
+- Action-completion hypothesis registration.
+- Historical failure matching.
+- Exact parent/source verification.
+- Fast symbolic no-go checks.
+- Source-current and Ward calculations.
+- Constraint-aware response derivatives.
+- Independent mathematical verification.
+- Selected numerical solves.
+- Immutable evidence.
+- Scientific next-step decisions.
+
+## 10.1 GRAVITY2 engineering history
+
+Earlier versions established:
+
+- Initial runner and policies.
+- Typed candidate/gate representation.
+- Reviewed action cards.
+- Source/Ward checks.
+- Reduced Maxwell and portal equations.
+- Periodic Hodge/Bianchi-compatible Y tests.
+- Periodic-charge and action-integrity failures.
+- Worker scheduling.
+- Source SHA and evidence manifests.
+- Resume and reuse mechanisms.
+- Independent review.
+- Resource-bound execution.
+
+GRAVITY2-07 attained a good periodic Y residual while X and scalar fields were frozen.
+
+GRAVITY2-08 showed that the resulting configuration was not a joint source/X/scalar/Y solution.
+
+Historical finest-grid failures included:
+
+- X charge approximately +16.46209987342264 in a periodic setting without a valid compensating source.
+- X residual RMS approximately 0.5360249335.
+- Scalar residual RMS approximately 0.5446664352.
+- Y residual RMS approximately \(2.458449\times10^{-12}\).
+
+An omitted X Maxwell action term was also discovered and preserved as an erratum.
+
+These are examples of why a tiny residual in one field is not sufficient.
+
+## 10.2 Campaign architecture
+
+Key modules to inspect in the current codebundle include:
+
+- `campaign.py`
+- `campaign_science.py`
+- `campaign_check.py`
+- `delta_f0_provider.py`
+- `delta_f0_review.py`
+- `engine.py`
+- `policy.py`
+- `miner.py`
+- Later campaign v2–v8 modules.
+- `registry_v6.py`
+- `response_v7.py`
+- `response_check_v7.py`
+- `research_v8.py`
+- Related tests.
+
+The exact live file set must be determined from the newly generated codebundle rather than assumed from these historical names.
+
+The standard CLI is rooted at:
+
+`antigravity_research.gravity2.campaign`
+
+The miner can execute reviewed tasks, verify source evidence, reuse eligible results and produce immutable output.
+
+It does not yet autonomously invent complete source physics.
+
+## 10.3 Important miner operational finding
+
+The November 21 registry audit reported:
+
+`REGISTERED_TASKS=0`
+
+This means the v6 research-task registry did not contain newly authorized physical discovery jobs at that checkpoint.
+
+It does not mean the entire historical campaign runner had never executed tasks.
+
+It also means that G01-H/I/J/K, which were run as standalone versioned scripts, were not demonstrated as an integrated autonomously scheduled discovery workflow.
+
+**The next session must connect substantive physics providers to the miner.**
+
+The computer should execute the research program automatically after the candidate action and scientific gates are properly specified.
+
+Avoid requiring a new large manually authored shell experiment for every minor scientific question.
+
+## 10.4 P0 miner correctness obligations
+
+The prior consolidated review identified engineering requirements that remain important before an unattended dependent campaign.
+
+They include:
+
+1. Separate execution state, scientific verdict, verification status and cache origin.
+2. Include all transitive scientific dependencies in fingerprints.
+3. Require specific mandatory review contracts for each physical gate.
+4. Demonstrate durable recovery from interruption and child-process failure.
+5. Validate the complete proposed task registry before publication.
+6. Prevent incomplete or unreviewed evidence from becoming an eligible cache.
+7. Bind every physical conclusion to one complete action identity.
+8. Separate scientific uncertainty from numerical/software failure.
+9. Derive scientific dashboard status from accepted evidence.
+10. Protect historical results against modification by research workers.
+
+These were previously identified deficiencies or risks, not a claim that each remains unresolved in the latest code.
+
+**Inspect and verify which are already repaired before making changes.**
+
+Do not spend all five research runs rewriting the miner.
+
+Perform focused correctness preflights and fixes as necessary, then devote the actual research runs to physics.
+
+## 10.5 Full repository regression policy
+
+The patched standalone big-run script is:
+
+`scripts/gravity2_big_scoped_v1.py`
+
+The patch established:
+
+`FULL_REGRESSION_DEFAULT=OFF`
+
+An explicit `--full-regression` remains available.
+
+Routine science should use focused tests plus independent verification.
+
+Full regression is appropriate for major integrated checkpoints, physical transfer, significant shared-code changes and final acceptance.
+
+Skipped regression must be reported as skipped, not passed.
+
+---
+
+# 11. November 21 large GRAVITY2 research rerun
+
+Run:
+
+`g2big_20261121T205521Z_45f4f5c6`
+
+Status:
+
+`PASS_SCOPED`
+
+Archive SHA-256:
+
+`bc30e98971419cff8feceac1addfe78026df59411f7a2ae0ad8c9f5b85dc541e`
+
+The uploaded archive was independently inspected.
+
+Its manifest contained **54 matching file hashes**.
+
+The run completed:
+
+- 49/49 focused tests.
+- Registry audit.
+- Historical v4 fresh verification.
+- Historical v4 cached verification.
+- Historical v5 recovered verification.
+- Fresh v5 experiment and independent review.
+- Fresh v8 research experiment and independent review.
+- 8,192 finite-dimensional mathematical response cases.
+- Five toy negative controls.
+
+The mathematical response scan contained four cohorts of 2,048 cases:
+
+| Cohort | Component sign changes |
+|---|---:|
+| One field, weak | 0 |
+| One field, strong | 0 |
+| Two fields, weak | 10 |
+| Two fields, strong | 169 |
+
+These are mathematical toy-response sign changes.
+
+They do not establish physical gravitational sign reversal.
+
+The batch reported:
+
+`PHYSICS_EXPERIMENTS_NEW=0`
+
+`PHYSICAL_SURVIVORS=0`
+
+`NEXT_GATE=G01_ACTION`
+
+`WHOLE_CRAFT_LIFT=NOT_DERIVED`
+
+`COMPLETE_ENERGY=NOT_CERTIFIED`
+
+The full repository regression was correctly skipped by default.
+
+The v8 toy research still belongs to the scoped mathematical evidence category.
+
+---
+
+# 12. G01-H — Exact Maxwell exterior stress and support obligations
+
+Run:
+
+`g01h_20261121T210401Z_69c83be4`
+
+Archive SHA-256:
+
+`e0f11cf27b67d7b9fcd1b5100ff77e49b07784d95811fcc597248dfbbb002333`
+
+The archive's three science/manifest/verification hashes were independently checked and matched.
+
+The experiment investigated a stationary conserved completion of the F0G exterior Maxwell-dipole model.
+
+At the illustrative exterior field energy of 10 MJ:
+
+\[
+\int T_{\rm ext}^{ij}d^3x
+=\operatorname{diag}(4,4,2)\ {\rm MJ}.
+\]
+
+A stationary isolated conserved completion obeying the specified boundary conditions must supply the opposite integrated spatial stress.
+
+Required remainder:
+
+\[
+\operatorname{diag}(-4,-4,-2)\ {\rm MJ}.
+\]
+
+If the entire remainder obeys the dominant energy condition under the declared assumptions, its energy must be at least 4 MJ.
+
+Therefore the conditional lower bound at that reference normalization is:
+
+\[
+E_{\rm total}\ge14\ {\rm MJ}.
+\]
+
+This exceeds the strict 10 MJ objective **at the stated 10 MJ exterior-field reference**.
+
+The test does not prove a universal 14 MJ lower bound for R3B or other theories.
+
+It also does not establish that complete operating energy equals total gravitating energy.
+
+Results:
+
+- Analytic angular moments passed.
+- Four negative controls rejected.
+- Four quadrature levels passed.
+- Maximum reported quadrature error approximately \(2.84\times10^{-14}\).
+- Zero physical survivors.
+
+**Permanent lesson:** Interior material stresses and support energy cannot be omitted from a finite conserved gravitational source.
+
+---
+
+# 13. G01-I — R3B electric mirror shell-source obligations
+
+## 13.1 Original v1 run
+
+Original run:
+
+`g01i_20261121T211437Z_0d794b7a`
+
+The producer completed:
+
+- 12 multipole cutoffs.
+- Eight quadrature resolutions.
+- 96 shell cases.
+
+But its exact-float recomputation verifier failed:
+
+`SCIENCE_RECOMPUTATION_DRIFT`
+
+Preserve this historical verifier failure.
+
+Do not overwrite its original evidence.
+
+## 13.2 Independent v2 repair
+
+Accepted audit:
+
+`g01iaudit2_20261121T211925Z_e9ef822f`
+
+Archive SHA-256:
+
+`2538c0128b0c5daf6765968b795a2a05bb6ec041b9b06deb7c9d21a49e5beab9`
+
+The archive contained four evidence files with matching manifest hashes.
+
+The verifier found 52 floating-point recomputation differences, all accepted under its documented scoped tolerances.
+
+Largest absolute difference:
+
+\(9.313225746154785\times10^{-10}\)
+
+This occurred in a charge proxy around 5.6 million and was consistent with floating-point rounding.
+
+No categorical or source-provenance drift was detected.
+
+## 13.3 Accepted scientific results
+
+Preserved original field capacity:
+
+1.5429162116460216 J.
+
+The reconstructed electric mirror contribution was approximately:
+
+\[
+E_{\rm mirror}=0.22486508919489484\ {\rm J}.
+\]
+
+The remaining modeled field-capacity partition was approximately:
+
+1.3180511224511268 J.
+
+The electric shell construction required:
+
+- Approximately zero net charge.
+- Locally positive and negative surface charges.
+- Nonzero normal and tangential electromagnetic traction.
+- Mechanically supported charged matter.
+- A yet-unconstructed magnetic current source.
+
+The surface-charge and energy identities were numerically well satisfied.
+
+Maximum recorded relative shell-energy error was about \(3.41\times10^{-14}\).
+
+## 13.4 Important negative-control correction
+
+A physically consistent charge reversal changes
+
+\[
+q\rightarrow-q,\qquad \phi\rightarrow-\phi.
+\]
+
+The electrostatic self-energy
+
+\[
+U=\frac12\int q\phi\,dA
+\]
+
+is unchanged.
+
+The original charge-only sign reversal was therefore invalid as a physical self-energy reversal control.
+
+The v2 audit corrected this.
+
+## 13.5 Limitations
+
+The shell charge magnitude is a canonical proxy, not certified physical coulombs.
+
+The reported traction values are normalization-dependent equivalents and cannot be assumed to be measured or physically derived material pressures.
+
+The stated conditional DEC remainder bound of 0.5143054038820072 J is **not** a certified R3B support-energy cost.
+
+The complete mixed-portal stress and material system have not been derived.
+
+**G01-I closed a mathematical reconstruction question. It did not establish a microscopic source.**
+
+---
+
+# 14. G01-J — BF interface source-action compatibility atlas
+
+Run:
+
+`g01jbf_20261121T213657Z_282a797e`
+
+Archive SHA-256:
+
+`32fe937689bf0242627e5e596242034aca77b136200cfa481fd0577d5cf6bd7c`
+
+The archive contained three evidence files with matching SHA-256 entries.
+
+Source SHA-256:
+
+`g01j_bf_source_v1.py`
+
+`b8e751c300bb5c11b90b9506d7eb81d2534b7374b4a8261c72a7b9eca1e7080f`
+
+Independent checker SHA-256:
+
+`g01j_bf_check_v1.py`
+
+`962c469a82138a69acf03273f55a0a16267e89e2eb3c4fb61b79419ab4b17c0e`
+
+## 14.1 Scientific question
+
+Could a gauge-invariant boundary BF interaction source the electric R3B mirror from its magnetic field?
+
+Two candidate operators were examined.
+
+M0:
+
+\[
+S_0=\kappa_0\int_\Sigma A_X\wedge F_Y.
+\]
+
+M1 added one derivative/Hodge response:
+
+\[
+S_1=S_0+\kappa_2R^2
+\int_\Sigma A_X\wedge\Delta_HF_Y.
+\]
+
+These were boundary effective-action hypotheses, not complete microscopic or Einstein actions.
+
+## 14.2 Required multipole spectrum
+
+The original R3B spherical multipoles require
+
+\[
+\kappa_\ell=-\frac{2\ell+1}{\ell+1}.
+\]
+
+Examples:
+
+| Multipole | Required ratio |
+|---|---:|
+| 1 | −1.500000 |
+| 2 | −1.666667 |
+| 12 | −1.923077 |
+
+A single constant \(\kappa_0\) cannot exactly match two different nonzero multipoles.
+
+This establishes a scoped multimode incompatibility for M0.
+
+## 14.3 Actual fit results
+
+M0:
+
+\[
+\kappa_0=-1.5000001212952478.
+\]
+
+Weighted relative charge error:
+
+\[
+1.3065655424843465\times10^{-4}.
+\]
+
+M1 coefficients:
+
+\[
+[\kappa_0,\kappa_2]
+=
+[-1.4867244303984892,\,
+-0.006637808900651159].
+\]
+
+Weighted relative charge error:
+
+\[
+7.618709986121892\times10^{-5}.
+\]
+
+Fit-matrix condition number:
+
+208.47291651355786.
+
+M1 reduced the global weighted fit error by approximately 41.7%.
+
+But neither fit was exact.
+
+## 14.4 Critical dipole-dominance finding
+
+The dipole carried approximately:
+
+**99.9999428% of the total weighted charge-fit norm.**
+
+Thus the global error strongly favored dipole accuracy.
+
+Using the fitted coefficients without refitting and excluding the dipole:
+
+| Model | Nondipole weighted error |
+|---|---:|
+| M0 | Approximately 17.28% |
+| M1 | Approximately 10.07% |
+
+For \(\ell=12\), M1's relative coupling error was approximately **31.16%**.
+
+The fitted derivative model is therefore not a robust exact source response across the multipole spectrum.
+
+## 14.5 Exact spectral observation
+
+Writing
+
+\[
+\lambda=\ell(\ell+1),
+\]
+
+the required response becomes
+
+\[
+\boxed{
+\kappa(\lambda)
+=-2+\frac{2}{1+\sqrt{1+4\lambda}}
+}.
+\]
+
+This reproduces the exact required multipole spectrum algebraically.
+
+The form resembles boundary Dirichlet-to-Neumann structure arising when local bulk fields are eliminated.
+
+**It is not evidence that a physical material automatically generates that response.**
+
+The unresolved questions were source derivation, reciprocal Y current, material dynamics, metric stress, Lorentzian health and field sourcing.
+
+---
+
+# 15. G01-K — Latest accepted experiment
+
+## 15.1 Exact provenance
+
+Run:
+
+`g01k_20261121T214747Z_7aba9bce`
+
+Archive:
+
+`results/gravity2/g01k_runs/g01k_20261121T214747Z_7aba9bce/g01k_20261121T214747Z_7aba9bce_UPLOAD.tar.gz`
+
+Archive SHA-256:
+
+`f069f6c04d5be5b0851f52e2c41e63d189f10014dbbe867762fe06edc452e06b`
+
+The archive was independently opened and checked.
+
+All three evidence files matched their SHA ledger.
+
+Science JSON SHA-256:
+
+`3e81c419afd30d416cb440383ff700a81750f1188383c38ff34732900ae75b12`
+
+Producing source:
+
+`scripts/g01k_source_v1.py`
+
+SHA-256:
+
+`cb6bc822e2dd363c48982f677c7d852317392098e4e7f610f3506e68e9468112`
+
+Independent checker:
+
+`scripts/g01k_check_v1.py`
+
+SHA-256:
+
+`55a07971e262205600a8d1dcfbd5ef09b5cb293c1d0e5d7717ca28c2aeb5ca59`
+
+Locked parent:
+
+`results/gravity2/g01j_bf_runs/g01jbf_20261121T213657Z_282a797e/science.json`
+
+Parent SHA-256:
+
+`ce57c05c45428548afe80175943cc256fac94212cbc1b0415ff8a73f6dbd6ce3`
+
+## 15.2 Proposed mechanism
+
+G01-K investigated a hypothetical local 2+1-dimensional worldvolume gauge field \(a\), with
+
+\[
+f=da.
+\]
+
+Its proposed shell action was written schematically as
+
+\[
+S_{\rm shell}
+=
+\int_\Sigma
+\left[
+A_X\wedge f
+-\frac K2 f\wedge\star_h f
+-g f\wedge\star_h F_Y
+-\frac H2 F_Y\wedge\star_h F_Y
+\right].
+\]
+
+The intent was to let a dynamical shell field generate a conserved X charge response while coupling reciprocally to the Y sector.
+
+The calculation used a reduced static quadratic energy
+
+\[
+U_\ell(q,b)=
+\frac12(K+A_\ell)q^2
++gqb
++\frac12(H+M_\ell)b^2
+-J_\ell b.
+\]
+
+The boundary coefficients were
+
+\[
+A_\ell=\frac{R}{2\ell+1},
+\qquad
+M_\ell=\frac{R}{\ell+1}.
+\]
+
+The induced source response is
+
+\[
+q_\ell=-\frac{g}{K+A_\ell}b_\ell.
+\]
+
+## 15.3 Exact spectral matching
+
+Matching the required R3B ratio gives
+
+\[
+-\frac{g}{K+R/(2\ell+1)}
+=
+-\frac{2\ell+1}{\ell+1}.
+\]
+
+The \(\ell=1,2\) equations imply
+
+\[
+K=R,\qquad g=2R.
+\]
+
+At the reference shell radius \(R=2\), the selected canonical coefficients were:
+
+\[
+K=2,\qquad g=4.
+\]
+
+The selected stabilizer was:
+
+\[
+H=8.2.
+\]
+
+The calculation reconstructed the original twelve multipole ratios to floating-point precision.
+
+Maximum recorded relative reconstruction error:
+
+\[
+1.3965423614524633\times10^{-16}.
+\]
+
+This is the strongest new mathematical result of G01-K.
+
+## 15.4 Static stability prefilter
+
+The local mixed kinetic coefficient matrix was treated as
+
+\[
+\begin{pmatrix}
+K & g\\
+g & H
+\end{pmatrix}.
+\]
+
+Its determinant was:
+
+\[
+KH-g^2=0.4.
+\]
+
+The reduced mode Hessian determinant remained positive across the twelve original modes.
+
+Minimum recorded static determinant:
+
+\[
+1.3759999999999977.
+\]
+
+The approximate smallest local eigenvalue was 0.03937 and the condition ratio was about 258.
+
+These are positive quadratic-matrix prefilters, not a full Lorentzian constrained-spectrum certificate.
+
+The selected H is close to the strict positive-definiteness boundary:
+
+\[
+H>\frac{g^2}{K}=8.
+\]
+
+Using H=8.2 gives a relatively narrow local margin.
+
+This sensitivity should be examined, not hidden.
+
+## 15.5 Magnetic-drive obstruction
+
+For the nonzero R3B field, the reduced magnetic equation requires
+
+\[
+J_\ell=(H+M_\ell)b_\ell+gq_\ell.
+\]
+
+The code calculated this required drive from the target multipole field.
+
+It did not produce that drive from a physical matter action.
+
+After eliminating \(q\),
+
+\[
+U_{\ell,\mathrm{eff}}(b)
+=
+\frac12
+\left(
+H+M_\ell-\frac{g^2}{K+A_\ell}
+\right)b^2
+-J_\ell b.
+\]
+
+When the reduced quadratic coefficient is positive and \(J_\ell=0\), the only stationary equilibrium of this reduced model is the zero-field solution.
+
+Therefore a nonzero source or drive is essential.
+
+**This is the current principal sourceability blocker.**
+
+## 15.6 Energy implications
+
+The run reported:
+
+`STABILIZER_TO_BARE_MAGNETIC_ENERGY_RATIO=8.200001989242555`
+
+The reduced combined-to-bare magnetic energy ratio was:
+
+3.200000048518111.
+
+These are canonical quadratic-model ratios.
+
+They cannot be directly added to or multiplied into the 1.542916 J R3B capacity without a justified common normalization and complete sourced energy ledger.
+
+In particular, G01-K contains very large raw canonical mode-energy proxies. Treating those raw values as SI joules would be an unsupported interpretation.
+
+A real material stabilizer may introduce significant energy, rest mass and confinement costs.
+
+## 15.7 Independent checks
+
+The verifier reported:
+
+- 12/12 multipoles verified.
+- Periodic discrete Ward divergence approximately \(4.44\times10^{-16}\).
+- Mixed-derivative reciprocity error approximately \(3.45\times10^{-9}\).
+- Local kinetic determinant +0.4.
+- Five negative-control inequalities passed.
+
+These are valuable mathematical checks.
+
+However, the periodic Ward test used a separate artificial periodic field configuration. It did not independently verify the full curved-shell, four-dimensional, off-shell Ward identity of the proposed complete action.
+
+Likewise, the checker validated the reduced quadratic model; it did not derive every Euler–Lagrange equation and canonical constraint from the proposed covariant shell action.
+
+## 15.8 Accepted conclusion
+
+G01-K established:
+
+**A conditional local reduced-quadratic shell-response construction that exactly reproduces the original R3B multipole ratio sequence, with positive static quadratic prefilters and an explicitly calculated required magnetic drive.**
+
+It did not establish:
+
+- Real microscopic source matter.
+- Physical magnetic drive.
+- Complete off-shell action equivalence.
+- Full X/Y reciprocal equations.
+- Full Lorentzian dynamical health.
+- Source/support stress-energy.
+- Einstein metric response.
+- Successful loaded torus acceleration.
+- Earth/craft reaction.
+- Complete SI energy.
+
+Its recorded scientific status is:
+
+`PASS_SCOPED_LOCAL_STATIC_SOURCE_RESPONSE_NOT_GRAVITY`
+
+The historical inward loaded failure remains.
+
+Physical survivors remain zero.
+
+---
+
+# 16. Deep scientific assessment — What G01-K actually changes
+
+This section is particularly important for the next five runs.
+
+## 16.1 The good result
+
+G01-J showed that one simple constant BF interaction cannot exactly reproduce the multimode R3B mirror.
+
+G01-K showed that an additional local dynamical shell degree of freedom can generate an exact algebraic response with a single set of canonical parameters.
+
+This supplies a concrete new hypothesis to test.
+
+The hypothesis changes the source-response structure rather than merely fitting each multipole separately.
+
+That is useful.
+
+## 16.2 The principal danger
+
+The quadratic response could be a mathematical construction that does **not** follow from the actual full field equations of the displayed shell action.
+
+This must be checked first.
+
+The full action contains:
+
+- Boundary gauge potentials.
+- Dynamical shell gauge fields.
+- Bulk Maxwell fields.
+- Pullbacks of field strengths.
+- Hodge stars depending on the induced metric.
+- Gauss constraints.
+- Shell and bulk boundary conditions.
+- Magnetic current response.
+- Source/support material energy.
+
+The reduced variables \(q\) and \(b\) cannot simply be declared independent physical degrees of freedom.
+
+They must arise from a legitimate constrained variation.
+
+For example, if \(f=da\), its components obey a Bianchi identity.
+
+Boundary electric charge, magnetic flux, gauge zero modes, topology and fixed-flux sectors can restrict the admissible variations.
+
+An algebraically positive Hessian in variables that are not freely varied is not by itself an acceptable physical stability certificate.
+
+## 16.3 The second danger — source energy and drive
+
+The R3B field may have a small prescribed capacity while requiring a much larger physical source or stabilizer energy.
+
+G01-K already introduced a stabilizing energy sector and a nonzero magnetic-drive requirement.
+
+Until the source matter is solved, its energetic cost is unknown.
+
+The few-joule anchor must remain protected historically, but cannot be imposed as a constraint that hides the required source energy.
+
+The formal certification objective remains complete energy below 10 MJ.
+
+## 16.4 The third danger — gravitational coupling
+
+Even a fully conserved source producing exactly the original electric and magnetic fields might fail to generate true gravitational repulsion.
+
+The source's full Hilbert stress and matter coupling could introduce:
+
+- Additional positive active mass.
+- Compensating support stresses.
+- An inward gravitational exterior.
+- A severely suppressed universal-metric coupling.
+- Matter-loading feedback that reverses the desired sign.
+- An experimentally excluded fifth-force interaction.
+
+Therefore reproducing the R3B field is not sufficient.
+
+The physical force must be derived from the universal metric and the full Einstein/source equations.
+
+## 16.5 Conventional GR scale check
+
+For scale intuition, a conventional positive-energy source containing 1.5 J has gravitating mass equivalent \(E/c^2\) of order \(10^{-17}\) kg.
+
+Its ordinary weak-field gravitational monopole acceleration at a meter is of order \(10^{-27}\,\mathrm{m/s^2}\), vastly below 1g.
+
+This is not a universal no-go theorem against anisotropic stress, alternative universal metric couplings or new physics.
+
+It demonstrates why the 1.5 J prescribed capacity cannot be interpreted as a complete conventional gravitational source without a derived amplification mechanism and its empirical/energy obligations.
+
+006D's much larger energy cost is a relevant conservative comparison.
+
+---
+
+# 17. Primary unresolved blocker — in one sentence
+
+**Find a healthy, finite, physically sourced, same-action X/Y/source/support/neutral/Earth/Einstein system whose actual loaded universal-metric response is gravitationally outward throughout the finite torus, and whose derived Earth/whole-craft momentum transfer and complete energy survive independent verification.**
+
+For G01-K, the immediate first subproblem is:
+
+**Does the proposed shell action really produce the claimed source-current response under full constrained variation, and can actual matter generate the required magnetic drive?**
+
+Do not begin with another fit of the original multipoles.
+
+---
+
+# 18. Five-run research campaign
+
+## Design principles
+
+The next five runs should maximize scientifically decisive evidence rather than numerical throughput.
+
+Run numbering below is a proposed research sequence, not a claim that these runs have already happened.
+
+The five runs should be executed through the GRAVITY2 campaign framework after focused preflight validation.
+
+Each run must have:
+
+- An explicit scientific question.
+- One named action or tightly controlled action fork.
+- A complete parent/evidence fingerprint.
+- The earliest decisive negative control.
+- Independent mathematical verification.
+- Bounded computational work.
+- A machine-readable verdict.
+- A specific next authorization decision.
+- Immutable artifacts.
+- No false physical promotion.
+
+Only two genuinely distinct conditional source-action candidates may remain active after an initial fork.
+
+If a candidate fails a fatal necessary gate, stop that candidate and preserve its failure.
+
+Do not use additional runs to polish already exact mathematical identities.
+
+---
+
+# RUN 1 — G01-L: Exact same-action shell variation and consistency
+
+**Highest priority.**
+
+Scientific question:
+
+*Can the full proposed G01-K local shell action actually produce the twelve-mode reduced response under correct gauge, metric, boundary and constrained variations?*
+
+This should be a substantive physics run, not simply a new test wrapper around the G01-K formulas.
+
+### Required construction
+
+Write the complete action with:
+
+- Four-dimensional X and Y gauge kinetic terms.
+- Worldvolume shell field \(a\).
+- Shell induced metric.
+- Correct pullback of X/Y potentials and field strengths.
+- BF coupling.
+- Mixed Hodge kinetic term.
+- Stabilizing H term.
+- Appropriate shell and bulk boundary terms.
+- Clearly identified source matter and magnetic-drive placeholders.
+- Neutral/Earth physical-metric coupling declarations.
+- Exact fixed versus dynamical variable status.
+
+If the drive source is not yet constructed, label the action as incomplete for sourceability and keep the conditional calculation clearly separated.
+
+### Exact variations
+
+Derive independently:
+
+\[
+\frac{\delta S}{\delta A_X},
+\qquad
+\frac{\delta S}{\delta A_Y},
+\qquad
+\frac{\delta S}{\delta a},
+\qquad
+\frac{\delta S}{\delta h_{ab}},
+\qquad
+\frac{\delta S}{\delta g_{\mu\nu}}.
+\]
+
+Derive:
+
+- Bulk Maxwell equations.
+- Shell jump conditions.
+- Shell source currents.
+- Reciprocal Y response.
+- Shell gauge-field equations.
+- Gauge identities.
+- Boundary inflow, if present.
+- Exact constrained harmonic reduction.
+
+Then independently verify whether
+
+\[
+q_\ell=-\frac{g}{K+A_\ell}b_\ell
+\]
+
+actually follows.
+
+### Negative controls
+
+- Missing BF term.
+- Wrong BF sign.
+- Omitted shell metric variation.
+- Missing reciprocal Y current.
+- Incorrect Hodge pullback.
+- Nonclosed shell or omitted edge inflow.
+- Prescribed \(J_\ell\) masquerading as source matter.
+- Unjustified independent variation of constrained flux variables.
+- A gauge-breaking spatially varying coupling.
+
+### Required result
+
+Return one of:
+
+`PASS_SAME_ACTION_REDUCED_RESPONSE`
+
+`FAIL_REDUCED_ACTION_NOT_EQUIVALENT`
+
+`FAIL_WARD_OR_BOUNDARY_IDENTITY`
+
+`ACTION_INCOMPLETE`
+
+`UNDERDETERMINED`
+
+A pass requires an independent derivation of the reduced model from the declared action.
+
+### Stop rule
+
+If the reduced equation does not follow from the action, **do not send G01-K unchanged into a loaded PDE solve**.
+
+Correct the action if a legitimate correction exists, or close that candidate with its exact failed identity.
+
+### Potential progress
+
+This run can establish a genuine action-level source-response candidate.
+
+It cannot alone certify real gravity or whole-craft lift.
+
+---
+
+# RUN 2 — G01-M: Physically sourced magnetic drive, shell matter and health
+
+Scientific question:
+
+*Can a finite, physically realizable material system supply the required R3B magnetic drive while preserving conservation, health and the original useful response?*
+
+The fixed \(J_\ell\) values calculated by G01-K are constraints to be explained, not admissible independent source controls.
+
+### Candidate families
+
+Consider at most two distinct options:
+
+**Candidate A:** A compact, finite charged or current-carrying material source with an explicit microscopic action.
+
+**Candidate B:** A dynamical polarization, magnetization or condensate source with an independent physically motivated control direction.
+
+Both must respect the stored AGMINER failures.
+
+Do not automatically reintroduce previously rejected Pauli, Dirac, weak-loading or magnetic-current mechanisms under different names.
+
+### Required derivations
+
+Obtain actual source currents
+
+\[
+J_X^\mu=\frac{\delta S_{\rm source}}{\delta A_{X\mu}},
+\qquad
+J_Y^\mu=\frac{\delta S_{\rm source}}{\delta A_{Y\mu}},
+\]
+
+with exact conventions and normalizations.
+
+Derive source matter equations, conserved charges, mechanical support and finite boundary conditions.
+
+For a shell-field construction, determine whether actual dynamical matter can produce the required current harmonics without prescribing them.
+
+### Mandatory physical checks
+
+- Local source-current conservation.
+- Finite total charge/current.
+- Real source matter.
+- Nonzero drive obtained on shell.
+- Valid off-state.
+- Source stress.
+- Material traction.
+- Correct constrained dynamical modes.
+- Full Lorentzian sign analysis.
+- Absence of ghosts and pathological unstable branches.
+- Source backreaction on the original field.
+- Empirical feasibility prefilters.
+- Energy accounting.
+
+### Critical energy question
+
+Determine whether maintaining the field requires:
+
+- Large material rest energy.
+- Large stored magnetic energy.
+- Large support stress.
+- Large confinement energy.
+- Significant continuous power.
+- Near-critical tuning.
+- An unstable source state.
+
+A 1.542916 J field capacity does not guarantee small costs in any of those sectors.
+
+### Negative controls
+
+- All source matter removed.
+- Zero drive.
+- Purely prescribed drive.
+- Wrong-sign kinetic term.
+- Kinetic determinant at zero.
+- Nonconserved source current.
+- Missing support reactions.
+- Unsourced zero-net-charge bipolar pattern.
+- Unphysical source mass or current normalization.
+
+### Required result
+
+At most two source candidates may survive this gate.
+
+Each must provide an independently derived, on-shell current and a defensible energy ledger.
+
+A mathematical current reconstructed by solving Maxwell equations backward is not sufficient.
+
+### Stop rule
+
+If no real source supports the required field, report:
+
+`NO_PHYSICAL_MAGNETIC_DRIVE`
+
+or the exact narrower no-go.
+
+Do not rerun the shell fit.
+
+### Potential progress
+
+A genuine on-shell source solution would represent a materially stronger advance than G01-K.
+
+It would still require loaded gravity, exterior transmission and craft-force analysis.
+
+---
+
+# RUN 3 — G01-N: Fully reciprocal neutral loading and constrained response
+
+Scientific question:
+
+*Does an actual physically sourced R3B candidate retain outward universal-metric acceleration after the full neutral-matter response is included?*
+
+This is the primary historical sign-reversal gate.
+
+It must not be attempted using a merely prescribed current or an incomplete source action.
+
+### Required calculation
+
+Solve the stationary equations jointly for the allowed candidate's:
+
+- Source matter.
+- Source current.
+- X field.
+- Y field.
+- Worldvolume field, if present.
+- Support variables.
+- Neutral fluid/material response.
+- Appropriate physical-metric variables.
+
+Enforce the exact fixed-charge or fixed-Noether ensemble specified by that candidate.
+
+Use an appropriate constraint-projected Jacobian or Hessian.
+
+Do not transfer PH16's Schur projector into R3B without independently deriving its constraints.
+
+### Response derivative
+
+For jointly stationary fields \(u\) and physical displacement/control parameter \(h\), a constrained response has schematic form
+
+\[
+H_{\rm constrained}\,\delta u
+=
+-\frac{\partial^2Q}{\partial u\,\partial h}\delta h,
+\]
+
+with gauge null directions and fixed-charge constraints treated explicitly.
+
+Use an independent adjoint or finite-difference method to verify the response.
+
+### Primary observable
+
+The decisive quantity is the **minimum outward physical-metric acceleration throughout the 1 kg torus**, not a center-of-mass average or a selected favorable surface point.
+
+Record the field-only and fully loaded response separately.
+
+Use the historical result
+
+\[
+-129.67185782242464\ \mathrm{m/s^2}
+\]
+
+as the mandatory negative control for the unchanged action.
+
+A new candidate must identify the physical new term responsible for a different result.
+
+### Grid policy
+
+Use a coarse diagnostic geometry first, with the historical 0.075 m and 0.050 m reference meshes where appropriate.
+
+Those two grids alone cannot certify a continuum limit.
+
+Refine further only if the candidate demonstrates real, promising on-shell behavior.
+
+### Mandatory checks
+
+- Joint stationarity.
+- Local conservation.
+- Source-current continuity.
+- Gauge/constraint consistency.
+- Full-load residuals.
+- Independent adjoint.
+- Constrained healthy-mode spectrum.
+- No spurious boundary-dependent sign reversal.
+- No unphysical source-control knob.
+- Real neutral material equilibrium.
+- Sign at every sampled payload cell.
+
+### Required result
+
+Return one of:
+
+`LOADED_OUTWARD_CONDITIONAL_SURVIVOR`
+
+`LOADED_INWARD_FAILURE`
+
+`LOADED_UNSTABLE`
+
+`SOURCE_DISAPPEARS_UNDER_LOAD`
+
+`NUMERICALLY_INCONCLUSIVE`
+
+`ACTION_UNDERDETERMINED`
+
+A conditional survivor requires the whole loaded solution, not a favorable frozen-field approximation.
+
+### Stop rule
+
+If full loading remains inward and the exact source has no new physical controllability direction, close that action's rescue route.
+
+Do not spend another run adjusting already inadequate field coefficients.
+
+### Potential progress
+
+A stable, source-supported loaded outward response would be a major milestone.
+
+It would still not establish true gravitational exterior transmission or whole-craft force.
+
+---
+
+# RUN 4 — G01-O: Einstein/Hodge stress and finite exterior gravity
+
+Scientific question:
+
+*Does the accepted source/loaded candidate create a genuine outward gravitational response through the universal physical metric and the complete conserved stress-energy tensor?*
+
+This run must use the same action that survived previous gates.
+
+### Required equations
+
+Derive the complete Einstein equations:
+
+\[
+G_{\mu\nu}
+=
+\frac{8\pi G}{c^4}T_{\mu\nu}^{\rm total},
+\]
+
+where
+
+\[
+T_{\mu\nu}^{\rm total}
+=
+T_{\rm source}
++
+T_X+T_Y
++
+T_{\rm shell}
++
+T_{\rm support}
++
+T_{\rm neutral}
++
+T_{\rm Earth}
+\]
+
+with proper accounting for any additional mediator and physical-metric chain-rule terms.
+
+Boundary/interface stresses must be included.
+
+Avoid double-counting sectors that have been integrated out into an effective action.
+
+### Required tests
+
+- Correct Hilbert stress.
+- Einstein and physical metric distinction.
+- Full Hodge metric dependence.
+- Exact Bianchi compatibility.
+- Total stress-energy conservation.
+- Source boundary traction.
+- Finite stress distribution.
+- Exterior asymptotics.
+- Weak-field gravitational sign.
+- Positive-mass control.
+- Source/field support completion.
+- At least 1 m true clearance.
+- Geometry convergence.
+- Independent gravity implementation.
+
+### Special F0F/F0G controls
+
+The fixed-scalar topological term has zero direct Hilbert stress under its recorded assumptions.
+
+Do not let it acquire a fabricated direct gravitational force.
+
+Do not interpret the isolated F0G Maxwell-dipole inward contribution as the whole source's gravitational field.
+
+Include the complete source and support stresses.
+
+### Earth and spacecraft
+
+At this stage begin the exact action-derived Earth/craft force calculation.
+
+Do not stop at a neutral test-particle acceleration.
+
+Record the stress-energy flux and source reactions needed for total momentum conservation.
+
+### Required result
+
+A candidate that achieves actual universal-metric outward acceleration at true stand-off with a finite conserved exterior becomes a genuine gravitational-physics candidate.
+
+However, a claim of net whole-craft lift must still account for all craft sectors, Earth and external momentum flux.
+
+### Stop rule
+
+A candidate that has only a scalar or electromagnetic fifth-force response must not be labeled gravitational.
+
+If the full stress produces inward gravity or violates conservation, record the obstruction.
+
+### Potential progress
+
+This run could provide the first substantive source-to-Einstein gravitational bridge beyond the historical low-energy prescribed-field constructions.
+
+It is a necessary milestone toward the program's 50% target.
+
+---
+
+# RUN 5 — G01-P: Independent physical transfer, whole-craft reaction and complete energy
+
+Scientific question:
+
+*Does a physically sourced, loaded, outward universal-metric solution survive independent whole-system force, energy and dynamical consistency tests?*
+
+This is the five-run campaign's highest-level conditional validation.
+
+It must not execute an expensive integration for a candidate that failed a prerequisite gate.
+
+### Whole-craft force accounting
+
+Compute the net force on the entire spacecraft, not merely on the payload.
+
+Include:
+
+- Source matter.
+- Source electromagnetic/current reaction.
+- Worldvolume shell.
+- Support structure.
+- Hull.
+- Power system.
+- Neutral matter carried aboard.
+- Field momentum.
+- Exterior flux.
+- Earth response.
+
+An internal action/reaction pair cannot accelerate the whole craft's center of mass by itself.
+
+A nonzero spacecraft force must be accompanied by an independently identified external momentum transfer.
+
+### Earth response
+
+Derive the Earth-down component under the same physical metric and conserved action.
+
+Do not manually assign opposing Earth and craft charges.
+
+Do not infer Earth reaction from a toy scalar-force pair.
+
+### Full energy budget
+
+Account separately for:
+
+- Field preparation.
+- Material source formation.
+- Rest energy where relevant to the chosen accounting convention.
+- Source currents.
+- Magnetic drive.
+- Stabilizer.
+- Confinement.
+- Structural supports.
+- Neutral loading.
+- Backreaction.
+- Off-state.
+- Switching.
+- Energy storage.
+- Losses.
+- Radiation.
+- Cycles.
+- Empirical/UV completion obligations.
+
+Avoid double counting energy already integrated into effective field coefficients.
+
+The certification target is
+
+\[
+E_{\rm complete}<10^7\ {\rm J}.
+\]
+
+Unknown mandatory energy sectors prevent certification.
+
+### Dynamical obligations
+
+Connect the candidate to the open B11-M6 requirement for:
+
+- Signed causal impulse.
+- Recoil.
+- Radiation.
+- Negative phases.
+- Switching work.
+- Cyclic operation.
+- No artificial resetting of energy or field momentum.
+
+### Independent transfer
+
+Use a separate implementation of the essential physical quantities.
+
+Require:
+
+- Independent source and Einstein variations.
+- Independent neutral acceleration sign.
+- Independent whole-craft force.
+- Conservation residuals.
+- Finite-domain and mesh convergence.
+- Verified SHA provenance.
+- Complete physical claims manifest.
+
+Run full repository regression only at the appropriate integrated checkpoint.
+
+### Decision
+
+Possible outcomes include:
+
+`PHYSICAL_GRAVITY_BRIDGE_INDEPENDENTLY_TRANSFERRED`
+
+`GRAVITY_BRIDGE_INCOMPLETE`
+
+`WHOLE_CRAFT_FORCE_NOT_DERIVED`
+
+`FULL_ENERGY_NOT_CERTIFIED`
+
+`DYNAMICAL_HEALTH_FAILURE`
+
+`EMPIRICAL_OR_UV_HOLD`
+
+Only an independently established source-to-gravity and whole-craft physical closure can justify reaching the 50% maturity threshold.
+
+---
+
+# 19. Conditional campaign decision tree
+
+The five runs must not become five repetitions of the same failed model.
+
+Use the following decision rules.
+
+**If Run 1 fails action equivalence:** Preserve the G01-K algebraic result but close the unsupported shell-action interpretation. Investigate one genuinely different source action using the same R3B target and historical failure memory.
+
+**If Run 1 passes:** Proceed to physical source realization.
+
+**If Run 2 fails because the magnetic drive is not physically sourceable:** Do not run expensive neutral/Einstein PDEs with the drive prescribed. Compare one alternative material source or the independently established PH16 source architecture under explicitly new premises.
+
+**If Run 2 produces a sourceable, healthy candidate:** Authorize Run 3.
+
+**If Run 3 remains inward:** Stop that source branch and identify the exact loaded susceptibility or gravitational sign obstruction. Do not rescue it with a frozen-field retune.
+
+**If Run 3 is genuinely outward and stable:** Authorize Run 4.
+
+**If Run 4 does not yield universal gravitational exterior transmission:** Do not relabel the effect as gravity. Preserve the surviving source result as a nongravitational or unresolved mechanism.
+
+**If Run 4 establishes source-supported gravity:** Authorize Run 5's whole-craft and energy integration.
+
+**If Run 5 independently establishes a source-to-gravity and whole-craft physical bridge:** Reevaluate the physical maturity using the recorded evidence.
+
+The five-run limit is a high-information campaign goal. A rigorous obstruction may cause the next branch to change before all five stages are reached.
+
+A successful source algebra result alone must not cause the miner to skip missing gates.
+
+---
+
+# 20. What the miner itself must do in these five runs
+
+The computer should own the repetitive scientific workflow.
+
+The AI's role is to specify the physical candidate, verify derivations, review evidence and resolve genuinely new theory questions.
+
+Once a candidate is registered, the miner should be able to execute its bounded scientific sequence without requiring a new hand-written run script after every successful step.
+
+## 20.1 Required campaign task graph
+
+Represent the program as dependency-aware tasks:
+
+`PARENT_LOCK`
+
+→ `ACTION_IDENTITY`
+
+→ `EXACT_VARIATIONS`
+
+→ `WARD_AND_CONSTRAINTS`
+
+→ `SOURCE_CURRENT`
+
+→ `SOURCE_SUPPORT`
+
+→ `HEALTH`
+
+→ `LOADED_RESPONSE`
+
+→ `METRIC_STRESS`
+
+→ `EXTERIOR_GRAVITY`
+
+→ `EARTH_CRAFT_REACTION`
+
+→ `COMPLETE_ENERGY`
+
+→ `INDEPENDENT_TRANSFER`
+
+This is a logical dependency graph.
+
+A child must require an independently verified scientific verdict from its parent.
+
+A cached parent's status must not change whether the child is authorized.
+
+## 20.2 Scientific promotion rules
+
+A task cannot report a complete physical source if:
+
+- Its microscopic matter action is absent.
+- Its required drive is prescribed.
+- Its Ward identity is incomplete.
+- Its boundary traction is unaccounted for.
+- Its source-current continuity fails.
+- Its only evidence is a field inverse reconstruction.
+
+A task cannot report gravitational success if:
+
+- The physical metric is not independently varied.
+- The Einstein equation is absent.
+- The force acts only through prescribed scalar charge.
+- Exterior transmission is not derived.
+- Whole-craft reaction is omitted.
+
+A task cannot report complete-energy success if mandatory source, support, switching or rest-energy terms are unaccounted for.
+
+## 20.3 Resource scheduling
+
+Use the existing multi-fidelity scheme.
+
+| Level | Work |
+|---|---|
+| L0 | Parent/source provenance, exact analytical obstructions |
+| L1 | Complete action and variation prefilters |
+| L2 | Finite source and constrained response |
+| L3 | One justified stationary source/loading calculation |
+| L4 | Full physical integration and independent transfer |
+
+Cheap symbolic failures should be tested before costly numerical solves.
+
+Do not spend minutes or hours proving that a cached hypothesis fails the same historical condition.
+
+## 20.4 Performance objective
+
+The long-term ambition is 1,000× greater useful research throughput.
+
+This does not mean 1,000× more toy calculations.
+
+Measure:
+
+- Distinct physical hypotheses tested.
+- Independently verified scientific decisions.
+- Historical no-gos avoided.
+- Human/AI interventions required.
+- Source/action gates closed.
+- Computer wall time.
+- Unnecessary repeat work eliminated.
+- Physical survivors actually promoted.
+
+No 1,000× scientifically meaningful discovery improvement has yet been certified.
+
+---
+
+# 21. Mandatory five-run failure memory
+
+The campaign must automatically reject or scope the following controls.
+
+| Historical mechanism | Permanent protection |
+|---|---|
+| 006D | Preserve positive-energy GR witness and huge source cost |
+| R3X1 | Preserve corrected Lorentzian signs |
+| R3B strong loading | Preserve −129.6718578 m/s² |
+| DELTA1-02 | Reject unsupported near-collinear coefficient-only rescue |
+| F0D | Reject same homogeneous off-state unstable quadratic source |
+| F0F | Reject fabricated direct metric stress of fixed topological term |
+| F0G | Reject exterior Maxwell stress as a complete isolated source |
+| G01-H | Require source/support stress conservation |
+| G01-I | Require actual bipolar source matter, not only charge reconstruction |
+| G01-J | Reject exact multimode constant-BF claim |
+| G01-K | Reject nonzero zero-drive equilibrium in its positive quadratic model |
+| GRAVITY2-07/08 | Reject single-field low residual as full joint action solution |
+| B14/B16 | Preserve inward hotspot and nonconvergence |
+| PH13 | Preserve failed coupled Schur mode |
+| PH14 | Preserve spherical on-shell Y-induction null |
+| ALPHA/BETA | Reject artificial force as universal gravitational lift |
+
+A failure can be reopened only when the new action changes the precise hypothesis responsible for that failure.
+
+The miner must record the changed assumption explicitly.
+
+---
+
+# 22. Scientific gate board — Current actual status
+
+| Gate | Current best evidence | Physical status |
+|---|---|---|
+| G00 Parent integrity | G01-K SHA-verified | PASS |
+| G01 Complete action | G01-K proposed shell action | INCOMPLETE |
+| G02 Exact variations | Reduced algebra only | NOT CLOSED |
+| G03 Ward/conservation | Scoped periodic and Maxwell identities | PARTIAL |
+| G04 Full physical health | Positive static kinetic/Hessian prefilters | NOT ESTABLISHED |
+| G05 Physical sourceability | Required magnetic drive calculated | NOT SOURCED |
+| G06 Loaded neutral response | Historical inward failure | FAIL FOR HISTORICAL ACTION |
+| G07 Einstein/physical metric | No completed G01-K variation | NOT DERIVED |
+| G08 Complete energy | Prescribed capacity, proxy ratios | NOT CERTIFIED |
+| G09 Exterior continuum | F0G exterior-only control | NOT CLOSED |
+| G10 Earth/whole-craft reaction | No complete physical model | NOT DERIVED |
+| G11 Empirical/quantum/UV | No complete sourced theory | NOT CLOSED |
+
+The most urgent gates are **G01, G02 and G05**.
+
+There is little value in scheduling G09/G10 full numerical integration while G01/G02/G05 remain unresolved.
+
+---
+
+# 23. Exact high-priority provenance ledger
+
+Keep these identifiers in the next session.
+
+## 23.1 Principal physical reference
+
+**006D coefficient**
+
+`23.591586299249`
+
+**R3B protected capacity**
+
+`1.5429162116460216 J`
+
+**Historical loaded minimum**
+
+`-129.67185782242464 m/s²`
+
+**PH16-04R2 science SHA**
+
+`ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`
+
+## 23.2 Historical R3B producing sources
+
+`src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py`
+
+SHA:
+
+`aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263`
+
+`src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py`
+
+SHA:
+
+`e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7`
+
+`src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py`
+
+SHA:
+
+`04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395`
+
+Original R3B summary:
+
+`results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json`
+
+SHA:
+
+`9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11`
+
+## 23.3 New experimental archives
+
+| Experiment | Archive SHA-256 |
+|---|---|
+| GRAVITY2 big rerun | `bc30e98971419cff8feceac1addfe78026df59411f7a2ae0ad8c9f5b85dc541e` |
+| G01-H | `e0f11cf27b67d7b9fcd1b5100ff77e49b07784d95811fcc597248dfbbb002333` |
+| G01-I v2 | `2538c0128b0c5daf6765968b795a2a05bb6ec041b9b06deb7c9d21a49e5beab9` |
+| G01-J | `32fe937689bf0242627e5e596242034aca77b136200cfa481fd0577d5cf6bd7c` |
+| G01-K | `f069f6c04d5be5b0851f52e2c41e63d189f10014dbbe867762fe06edc452e06b` |
+
+All five uploaded archive ledgers were checked in this handoff review.
+
+Historical archive files must not be overwritten or silently regenerated.
+
+## 23.4 Latest G01-K status
+
+`PASS_SCOPED_LOCAL_STATIC_SOURCE_RESPONSE_NOT_GRAVITY`
+
+`MAX_Q_RELATIVE_ERROR=1.3965423614524633e-16`
+
+`MIN_STATIC_DETERMINANT=1.3759999999999977`
+
+`LOCAL_KINETIC_DETERMINANT=0.3999999999999986`
+
+`STABILIZER_RATIO=8.200001989242555`
+
+`PHYSICAL_SURVIVORS=0`
+
+`EINSTEIN_GRAVITY=NOT_DERIVED`
+
+`WHOLE_CRAFT_FORCE=NOT_DERIVED`
+
+`COMPLETE_SI_ENERGY=NOT_CERTIFIED`
+
+---
+
+# 24. Recommended first-session execution sequence
+
+This is the immediate priority order after importing the new codebundle.
+
+## Phase 0 — Evidence reconstruction
+
+Verify the latest G01-K archive and its source hashes.
+
+Confirm the G01-J parent is intact.
+
+Inspect the newest current `NOTES.md` and source.
+
+Check all current miner registry tasks and evidence state.
+
+Confirm the full regression policy remains opt-in for ordinary scoped research.
+
+Identify whether the governing build plans contain historical NEXT instructions that G01-H through G01-K have already superseded.
+
+## Phase 1 — Miner readiness
+
+Run a focused campaign preflight.
+
+Check dependency-verification separation, source fingerprinting, registry integrity and immutable result behavior.
+
+Repair only actual blocking P0 defects.
+
+Do not launch a huge general regression to verify a small research provider.
+
+## Phase 2 — Construct G01-L inside GRAVITY2
+
+Register one substantive same-action variation provider and one genuinely independent reviewer.
+
+The provider must calculate something not already preprinted as a G01-K expected result.
+
+The reviewer should use an independent variational or boundary-integral method.
+
+Negative controls must change real terms or assumptions, not simply compare preselected constants.
+
+## Phase 3 — Execute action-level discovery
+
+Run G01-L and preserve all results.
+
+Allow the miner to stop on an exact action incompatibility.
+
+If the proposed action is mathematically consistent, automatically identify the missing magnetic-source matter variables.
+
+## Phase 4 — Determine Run 2 authorization
+
+Only authorize a source-material experiment if Run 1 yields a legitimate compatible action.
+
+If it fails, select at most one genuinely distinct source family with an explicit new physical assumption.
+
+This first run should improve the **quality of the physical decision**, not merely the test count.
+
+---
+
+# 25. Immutable result schema for future runs
+
+Each run should produce a compact manifest with at least:
+
+- Run identifier and UTC timestamp.
+- Exact scientific question.
+- Candidate action identifier.
+- Parent source/result SHA-256.
+- Producing code SHA-256.
+- Independent reviewer SHA-256.
+- Complete action and assumptions fingerprint.
+- Field and source content.
+- Einstein and physical metric conventions.
+- Boundary conditions.
+- Gauge and fixed-charge constraints.
+- SI and canonical unit conventions.
+- Solver parameters.
+- Numerical convergence status.
+- Ward/Noether/Bianchi gate outcomes.
+- Source-current conservation.
+- Material support status.
+- Full-load acceleration status.
+- Gravitational exterior status.
+- Whole-craft reaction status.
+- Complete energy status.
+- Negative controls.
+- Scope of independent verification.
+- Full regression status.
+- Physical survivor count.
+- Explicit first failed gate.
+- Next scientific authorization.
+- Immutable science JSON.
+- Immutable verification JSON.
+- SHA256SUMS ledger.
+- Single upload archive.
+
+A numerical solver error must not be recorded as a scientific no-go.
+
+An action-completeness failure must not be recorded as a dynamical instability.
+
+A tiny source residual must not be recorded as Einstein gravitational closure.
+
+---
+
+# 26. Important conservation and metric issues for G01-L
+
+The following must be explicitly investigated.
+
+## 26.1 BF gauge variation
+
+The coupling
+
+\[
+\int_\Sigma A_X\wedge f
+\]
+
+is X-gauge invariant up to a boundary term when \(df=0\).
+
+On an interface with edges, boundaries, topological sectors or nontrivial patches, the boundary contribution must be treated.
+
+Do not assume the sphere's global gauge geometry is identical to a periodic Cartesian test.
+
+## 26.2 Reciprocal shell variation
+
+Variation with respect to \(a\) must generate the correct response from:
+
+- BF term.
+- Shell kinetic term.
+- Mixed Y term.
+- Any charged shell matter.
+- Boundary/topological sectors.
+
+Variation with respect to Y must produce the reciprocal interface current.
+
+The reduced quadratic mixed derivative \(g\) is not sufficient to certify the full current identity.
+
+## 26.3 Metric dependence
+
+The kinetic Hodge operators depend on the induced metric.
+
+Consequently the g and H terms can contribute to shell stress-energy.
+
+The worldvolume metric itself depends on the embedding and the spacetime metric.
+
+Derive the full chain.
+
+Do not import F0F's topological stress null into the metric-dependent stabilizer.
+
+## 26.4 Dimensional matching
+
+G01-K uses canonical length-equivalent coefficients.
+
+Before any SI interpretation, derive the normalization of:
+
+- X and Y gauge potentials.
+- f.
+- BF level.
+- K, g, H.
+- Shell measure.
+- Source-current units.
+- Magnetic drive.
+- Material mass and stress.
+- Physical metric response.
+
+The current ratio values are not measured material constants.
+
+## 26.5 Mode health
+
+The small eigenvalue of the local kinetic matrix is a warning that the current parameter choice is close to a degeneracy.
+
+Compute the complete Lorentzian principal symbol and constrained physical spectrum, not merely a Euclidean two-variable determinant.
+
+Check:
+
+- Gauge zero modes.
+- Physical polarization count.
+- Ghosts.
+- Gradient instabilities.
+- Tachyonic modes.
+- Interface/localized modes.
+- Background-dependent kinetic signs.
+- UV behavior and derivative expansion.
+- Finite-support constraints.
+
+## 26.6 Off-state/source controllability
+
+The original R3B field cannot be maintained in the positive quadratic reduction without a drive.
+
+Investigate whether a microscopic source can create and maintain that drive under its own equations.
+
+Do not assume a battery or coil is free.
+
+Derive its field, current, rest energy, stresses, electromagnetic radiation and interaction with the neutral payload.
+
+---
+
+# 27. Research prioritization — What not to spend the five runs on
+
+Avoid:
+
+- Additional 12-mode fits to already exact G01-K ratios.
+- Higher \(\ell\) fitting without a newly derived material or field reason.
+- Another G01-I quadrature sweep.
+- Repeating 8,192 mathematical toy cases.
+- Unchanged R3B strong-loading inversions.
+- Arbitrary susceptibility sweeps that hold the desired field fixed.
+- New action labels without new field equations.
+- Repeating already closed B14/B15/B16 mechanisms.
+- Another artificial Earth/craft force pair.
+- Optimizing 1.542916 J downward.
+- Claiming success by moving a percentage bar.
+- Full repository regression at every minor gate.
+- Massive miner rewrites that postpone the actual physics indefinitely.
+
+The most valuable computation is the cheapest independent test capable of establishing or eliminating a real physical source mechanism.
+
+---
+
+# 28. What success and failure would mean
+
+A successful five-run campaign could establish the first physically sourced R3B-like universal-metric mechanism with a derived external gravitational force and whole-craft reaction.
+
+That would warrant a serious reevaluation of physical maturity, subject to independent verification and remaining limitations.
+
+A partially successful campaign might establish a real material source but fail gravity.
+
+That would still be a narrower, meaningful scientific result.
+
+A failed campaign might demonstrate that the G01-K reduced response cannot arise from the proposed covariant action, or that any stable source realization in its tested class produces inward loaded gravity.
+
+Such a result would close a specific mechanism.
+
+It would not prove that every conceivable physical gravitational-repulsion mechanism is impossible.
+
+Under no circumstances should an unsuccessful branch be rescued by silently weakening its original requirements.
+
+The correct objective is to improve our knowledge of what physical theories survive—not to guarantee a favorable outcome.
+
+---
+
+# 29. Next-session three-paragraph introduction
+
+We are continuing **ANTIGRAVITY_RESEARCH** with the newly regenerated code-only codebundle, updated `NOTES.md` carry-over and existing governing build plans. **Only the notes and codebundle were intended to be updated for this handoff; the other build plans, README, formatting standards and historical journals have not been revised to incorporate the latest G01-H through G01-K work.** Reconstruct the latest scientific and implementation state from actual code, immutable JSON/SHA evidence and the supplied G01-K archive before any new research. Preserve all historical failures, especially the corrected R3B strong-loaded inward response, and retain 006D as the unreplaced conservative GR anchor.
+
+Our protected low-energy R3B reference remains **1.5429162116460216 J prescribed mixed-field capacity**, not complete device energy. G01-H established conditional exterior stress/support obligations; G01-I v2 independently audited the bipolar electric mirror; G01-J showed that constant BF cannot exactly source all twelve multipoles; and **G01-K reproduced all twelve multipole ratios algebraically using a hypothetical local worldvolume shell response**, with positive static quadratic prefilters. Nevertheless the magnetic drive is prescribed, full source/metric/reciprocal variations and Lorentzian health are unproved, the historical loaded acceleration remains **−129.67185782242464 m/s²**, and no Einstein gravity, whole-craft lift or complete sub-10-MJ device has been certified. The current physical research maturity remains approximately **35–37% heuristic**, with zero qualified physical survivors.
+
+Our immediate priority is **G01-L: exact same-action shell variation and physical-source compatibility**, executed through the GRAVITY2 miner with independent verification and strict historical negative controls. We want to complete a maximum-five-run high-information sequence—**G01-L action, G01-M real source, G01-N reciprocal loading, G01-O Einstein exterior, G01-P Earth/craft and complete energy**—with a target of earning at least 50% real physical-model maturity. That percentage must be justified by independently derived gravitational and whole-craft physics, not tests, fit accuracy or prescribed fields. Fix only miner P0 defects that materially block the new research, use focused tests and immutable results instead of automatic full regression, avoid repeating closed mechanisms, and provide complete separate paste-ready APPLY/VERIFY Bash blocks when new code is needed.
+
+---
+
+# 30. Final scientific directive
+
+**Do not rebuild GRAVITY2 from scratch.**
+
+**Do not abandon the protected R3B reference merely because its source is unfinished.**
+
+**Do not confuse the exact G01-K static response with a completed source.**
+
+**Do not spend the five-run budget improving already exact multipole mathematics.**
+
+**Do not assume that small field energy implies small complete gravitational source energy.**
+
+The immediate research question is:
+
+> Can the G01-K worldvolume interaction be derived as a genuinely healthy, covariant, gauge-consistent and source-supported physical action, and can its resulting fields produce an outward, fully loaded universal-metric gravitational response and a conserved Earth-down/whole-craft-up reaction?
+
+If yes, proceed through the five-run gate sequence and independently test the physical result.
+
+If no, preserve the exact failed assumption and transfer the surviving mathematical lessons into one genuinely new source candidate.
+
+At most two conditional source-action candidates should be active at a time.
+
+The finite 1 kg neutral torus, at least 1g outward acceleration at at least 1m true stand-off, strict complete-energy ceiling below 10 MJ, and full Earth/craft momentum accounting remain unchanged.
+
+**Current status: G01-K conditional static mathematical witness accepted; no complete physical source; no certified gravitational lift; 006D unreplaced; next run G01-L.**
+
+**END OF CARRY-OVER — NOVEMBER 21, 2026**
+
+
+# ANTIGRAVITY_RESEARCH — COMPREHENSIVE MASTER SESSION CARRY-OVER
+
+## November 21, 2026 — G01-M Closeout, GRAVITY2 Status, and Three-Run Physical Breakthrough Campaign
+
+**Prepared for the next research session using ChatGPT 6.2 Astra / Work mode.**
+
+**Project:** ANTIGRAVITY_RESEARCH  
+**Scientific objective:** Finite, physically sourced gravitational repulsion acting on electrically neutral matter through a universal physical metric.  
+**Latest completed experiment:** G01-M  
+**Latest independently verified archive:** `g01m_20261122T003754Z_d9341d89`  
+**Current estimated physical-research maturity:** Approximately 35–37%; use 37% as the current planning reference.  
+**Target physical-research maturity:** At least 50%, if independently justified.  
+**Remaining campaign budget:** Three major research runs.  
+**Qualified physical gravitational survivors:** Zero.  
+**Certified spacecraft gravitational lift:** No.  
+**Conservative GR reference:** 006D remains unreplaced.  
+**Protected R3B prescribed-field capacity:** 1.5429162116460216 J.  
+**Historical loaded R3B acceleration:** −129.67185782242464 m/s².  
+**Critical instruction:** No routine full repository regression.  
+**Documentation updates authorized:** `NOTES.md` and regenerated code-only codebundle only.
+
+---
+
+# 1. IMMEDIATE INSTRUCTIONS FOR THE NEXT SESSION
+
+We are continuing ANTIGRAVITY_RESEARCH after completing the first two experiments of a five-run, high-information physical-gravity research campaign.
+
+G01-L and G01-M have executed, passed their scoped focused tests and independent verification, and produced immutable SHA-256 evidence. Both provided useful mathematical and source-modeling knowledge. Neither produced a qualifying gravitational survivor or justified increasing physical-model maturity beyond approximately 37%.
+
+**Three major research runs remain before the user evaluates whether the project should continue.**
+
+The next assistant should use its strongest available reasoning, mathematical, scientific, coding and computational capabilities to determine which experiments have the greatest chance of resolving the actual missing physical mechanism.
+
+The previous proposed labels were G01-N, G01-O and G01-P. These labels are provisional. The next assistant is expressly authorized to redesign the sequence if a more scientifically defensible or higher-impact route is identified.
+
+The next session must:
+
+1. Reconstruct the real scientific and implementation frontier from the newest codebundle, verified experiment archives, original source files, JSON, SHA-256 evidence and execution logs.
+2. Read this carry-over completely before beginning substantive research.
+3. Inspect the actual GRAVITY2 miner implementation rather than assuming the design document describes everything currently operational.
+4. Preserve all accepted results, historical failures, conditional assumptions and known source-provenance issues.
+5. Independently evaluate the physics rather than accepting the previous assistant's proposed run order uncritically.
+6. Prioritize a genuinely sourced gravitational bridge, complete action consistency, reciprocal neutral-matter loading, and Earth/whole-craft reaction.
+7. Avoid additional source-profile polishing, toy-model optimization or repetitive mathematical verification unless a new physical assumption makes the investigation decisive.
+8. Use targeted tests, independent derivations, negative controls, convergence checks and immutable evidence.
+9. Avoid full repository regression by default.
+10. Report physical progress and maturity conservatively, even if the outcome is negative.
+
+**Do not increase the completion percentage merely because additional tests pass or another conditional effective-source solution is found.**
+
+## 1.1 Important scientific distinction
+
+Our software, symbolic calculations, finite-dimensional modeling and source-response reconstruction have advanced considerably.
+
+Our central gravitational model has not advanced at the same rate.
+
+The program has generated useful mathematical fields and hypothetical source mechanisms, but still lacks an independently established, physically sourced same-action mechanism that:
+
+- Produces stable exterior fields.
+- Couples universally to electrically neutral matter.
+- Survives fully reciprocal loading.
+- Generates the required outward gravitational acceleration.
+- Includes a valid Einstein/physical-metric response.
+- Produces an independently derived Earth-down/whole-craft-up external reaction.
+- Satisfies conservation, empirical, quantum and energy requirements.
+
+**The current bottleneck is physical closure, not numerical precision.**
+
+---
+
+# 2. DOCUMENTATION AND FILE UPDATE POLICY
+
+The user wants to save time during the final three-run campaign.
+
+For this handoff, update only:
+
+- `NOTES.md` — append this carry-over and the latest scientific checkpoint.
+- The code-only codebundle — regenerate using the existing `make_codebundle.sh`.
+
+Do not update:
+
+- `RESEARCH_BUILDPLAN.md`
+- `ARTIFICIAL_BUILDPLAN.MD`
+- `AGMINER_BUILDPLAN.MD`
+- `INTROSPECTIVE_BUILDPLAN.md`
+- `FORMATTING_AND_CODE_STANDARDS.md`
+- `README.md`
+- Historical research journals
+- Previously completed research JSON
+- Previous SHA-256 ledgers
+- Previous accepted source or verification files
+
+Previously generated experiment results must remain immutable.
+
+These documents should still be attached to the next session and consulted for strategy, scientific history and formatting requirements.
+
+**Their historical `NEXT` labels are not necessarily current.**
+
+The newest completed experimental evidence always supersedes an older statement about what has or has not executed, without erasing the original historical record.
+
+The codebundle must be regenerated after G01-M because the previously attached codebundle was generated before G01-L and G01-M were installed.
+
+## 2.1 Current source-bundle boundary
+
+Previously attached codebundle:
+
+`ANTIGRAVITY_RESEARCH_CODEBUNDLE_20261121-155200.md`
+
+Metadata:
+
+- Generated November 21, 2026, 15:52:42 CST.
+- 994 included files.
+- Git HEAD recorded as `20f1810c12db4f7ab781701beb736a0572b6c818`.
+- Working tree was dirty/untracked.
+- Includes GRAVITY2 modules and G01-H/I/J/K scripts.
+- Predates the subsequent G01-L and G01-M installations.
+
+This older bundle must not be used as proof that the later source files do not exist.
+
+The new codebundle should contain the additional G01-L and G01-M source, verifier, runner and test files.
+
+The existing codebundle generator deliberately excludes `results/`, root documentation, notes and journals from embedded source content. The experiment archives must therefore accompany the new bundle separately.
+
+## 2.2 Repository filename caution
+
+The prior codebundle's working-tree snapshot displayed `NOTES.MD`, while project instructions typically call the file `NOTES.md`.
+
+The next session should inspect the actual repository filename and preserve its existing spelling/case. Do not accidentally create a second differently cased notes file on macOS.
+
+---
+
+# 3. FUNDAMENTAL PHYSICAL MISSION
+
+ANTIGRAVITY_RESEARCH seeks a mechanism producing genuine gravitational repulsion on finite electrically neutral matter from a finite onboard spacecraft source.
+
+Possible applications include:
+
+- Gravitational weight reduction.
+- Lift.
+- Hover.
+- Ascent.
+- Spacecraft propulsion assisted by conventional thrust if necessary.
+
+Auxiliary thrust is permitted, but it must be identified separately.
+
+A force between internal components of the spacecraft does not establish net spacecraft propulsion.
+
+An arbitrary externally supplied drive does not establish a self-contained onboard source.
+
+A fifth force should not be relabeled gravitational repulsion unless the required universal physical-metric description is independently established.
+
+## 3.1 Mandatory quantitative benchmark
+
+| Requirement | Minimum acceptance criterion |
+|---|---|
+| Neutral payload | Finite 1 kg torus |
+| Outward acceleration | At least 9.80665 m/s² |
+| Spatial coverage | Throughout the finite torus |
+| True source stand-off | At least 1 m |
+| Source | Finite and entirely onboard |
+| Universal metric coupling | Required |
+| Exterior transmission | Independently derived |
+| Earth reaction | Independently derived |
+| Whole-craft upward response | Independently derived |
+| Complete operating energy | Strictly below 10,000,000 J |
+| Conservation | Exact same-action consistency |
+| Source health | Required |
+| Empirical/quantum consistency | Required |
+
+Acceleration and stand-off are minimum performance floors, not exact desired operating points.
+
+Exceeding them is favorable when all physical requirements continue to hold.
+
+Exactly 10 MJ fails the energy target.
+
+## 3.2 What energy must include
+
+Complete energy cannot be identified with an isolated Maxwell field capacity.
+
+The conservative accounting must address, as applicable:
+
+- Field energy.
+- Matter-source formation and preparation.
+- Source rest energy and binding.
+- Material order parameters.
+- Charge/current generation.
+- Supports and confinement.
+- Hull and mechanical stress.
+- Power supply and storage.
+- Neutral payload loading.
+- Reciprocal field backreaction.
+- Earth/environment interaction.
+- Switching energy.
+- Off-state energy and reset requirements.
+- Dissipation and radiation.
+- Causal cycles and momentum flux.
+- Quantum/EFT/UV obligations.
+
+Operating energy and total gravitating rest energy must be distinguished explicitly; they are not automatically interchangeable.
+
+## 3.3 One common action is mandatory
+
+The complete theory must describe, in one consistent physical framework:
+
+```math
+S_{\rm total}
+=
+S_{\rm EH}
++
+S_{X,Y}
++
+S_{\rm source}
++
+S_{\rm support}
++
+S_{\rm neutral}
++
+S_{\rm Earth}
++
+S_{\rm boundary}
+```
+
+If the physical metric is a function of X/Y invariants, its variation must be included.
+
+All source, support, matter, field and metric equations must arise from compatible variations.
+
+In particular, derive:
+
+- Gauge and Ward identities.
+- U(1) current conservation.
+- Noether identities.
+- Diffeomorphism identities.
+- Einstein Bianchi identities.
+- Hilbert stress-energy.
+- Shell and boundary tractions.
+- Constraint equations.
+- Healthy propagating degrees of freedom.
+- Proper exterior boundary conditions.
+- Physical neutral-matter acceleration.
+- Complete Earth/craft momentum exchange.
+
+A source current assigned by hand is not a real microscopic source completion.
+
+---
+
+# 4. COMPLETION RATE AND THE THREE-RUN DEADLINE
+
+## 4.1 Current estimate
+
+The present physical-research maturity estimate is approximately:
+
+**37% heuristic.**
+
+Historical estimates ranged around 35–37%.
+
+This percentage is not:
+
+- A statistically calibrated probability of success.
+- A measured percentage of a working engine.
+- A percentage of required equations already solved.
+- A fraction calculated from Python tests.
+- A guarantee that another few experiments will reach 50%.
+
+It is a subjective planning measure intended to distinguish exploratory mathematics from completed physical modeling.
+
+## 4.2 Why G01-L and G01-M did not raise it
+
+G01-L identified a real omission in the reduced G01-K Maxwell model.
+
+G01-M constructed a hypothetical dynamical source-current equilibrium and passed scoped stability and conservation checks.
+
+Neither established:
+
+- A real microscopic Y source.
+- Fully reciprocal neutral-matter gravitational loading.
+- The required outward gravitational sign.
+- A complete Einstein solution.
+- A conserved whole-craft external gravitational force.
+- Complete physical energy.
+
+Therefore neither justified promoting the physical-research maturity estimate.
+
+## 4.3 What 50% requires
+
+The currently defined 50% milestone requires **substantive independently verified physical gravitational and whole-craft closure**.
+
+At minimum:
+
+1. A physically sourced, sufficiently complete same-action mechanism.
+2. A demonstrated universal-metric gravitational response on neutral matter.
+3. Independently derived external transmission.
+4. A physically derived Earth/whole-craft reaction consistent with momentum conservation.
+
+Final engineering, complete dynamical stability, detailed empirical matching and sub-10-MJ certification may require additional research, but the physical source-to-gravity and spacecraft-reaction bridge cannot remain entirely hypothetical.
+
+Three research runs are a prioritization budget, not authorization to adjust the score artificially.
+
+The user is considering discontinuing the project if sufficient physical progress cannot be demonstrated.
+
+The next assistant should treat the deadline seriously without substituting artificial certainty for scientific evidence.
+
+---
+
+# 5. PERMANENT HISTORICAL ANCHORS
+
+## 5.1 Simulation 006D — strongest conservative GR reference
+
+Preserved coefficient:
+
+```math
+C=23.591586299249
+```
+
+006D established, within its stated linearized-GR assumptions, a finite, locally conserved, positive-energy stress-energy configuration that produces locally outward gravitational behavior.
+
+The recorded classical NEC, WEC and DEC tests passed under the model's conditions.
+
+The far-field active gravitational mass remains positive.
+
+The problem is the enormous stress-energy cost, scaling effectively with inverse Newton's constant.
+
+006D does not provide a practical low-energy antigravity spacecraft.
+
+**No subsequent result has replaced 006D as the principal conservative finite-source GR benchmark.**
+
+Do not overwrite, demote or silently reinterpret it.
+
+## 5.2 A12B/A12C
+
+A12B established a scoped protected massless U(1) sector.
+
+A12C established the historical prescribed F² field-capacity result:
+
+```text
+A12C_PRESCRIBED_FIELD_CAPACITY_J=
+2.6568591420597114
+```
+
+Historical reported neutral-payload center-of-mass response was approximately 15.04217 m/s² under the prescribed-field assumptions.
+
+The result remains an important low-capacity reference, but no complete physical source or operating-energy certificate has been established.
+
+Keep A12C preserved as a distinct branch. Its capacity being higher than R3B does not justify abandoning it permanently.
+
+## 5.3 R3B — current principal field reference
+
+Protected prescribed mixed-field capacity:
+
+```text
+R3B_FIELD_CAPACITY_J=
+1.5429162116460216
+```
+
+This reference combines electric and magnetic source-field structure with a hypothetical physical-metric response.
+
+It is a preloaded prescribed-field capacity, not sourced spacecraft energy.
+
+Preserve the exact original geometry, source conventions, field normalization, multipole response and producing-code hashes.
+
+The source-to-gravity program has investigated whether a physical source can generate the original R3B configuration.
+
+## 5.4 Historical strong-loaded R3B failure
+
+The fine-grid historical strong-loading experiment at \(h=0.050\) m found:
+
+```text
+LOADED_MIN_ACCELERATION_M_S2=
+-129.67185782242464
+
+LOADED_FIELD_ENERGY_J=
+1.5211390382733165
+
+REFERENCE_BETA_PEAK=
+18987.283771593688
+```
+
+The preloaded field was favorable.
+
+After reciprocal neutral-matter loading, the calculated minimum acceleration became strongly inward.
+
+This is a major physical obstruction.
+
+A smaller loaded field energy does not constitute a successful loaded acceleration.
+
+Do not rerun the unchanged strong-loading model expecting a new sign.
+
+Reopen it only when a genuinely new source/action/metric assumption changes the equations.
+
+## 5.5 Other protected failures and lessons
+
+Preserve the following:
+
+| Result | Historical lesson |
+|---|---|
+| 018B/018C | Important source and stability failures |
+| 022A | Protected mechanism closure |
+| B7/026 | Finite-field/convergence history and unresolved issues |
+| B7 | 1.5473042949759672 J field-only reference |
+| B1 | Approximately 0.275–0.301 MJ field-only |
+| R3A | Approximately \(1.84\times10^{15}\) suppression |
+| R3X1 | Essential Lorentzian/loading sign correction |
+| B6 | Corrected source/interface artifact |
+| B11–B13 | Source and loading failures |
+| B14/B16 | Nonconverged −410.388913 m/s² inward hotspot |
+| B15 | Rotation/angle-only rescue failed |
+| B16 | Weak-loading rescue failed |
+| 024–031 | Extensive source, stability and interaction closures |
+| AGMINER | Historical failure atlas and physicalization constraints |
+| Introspective | Strong raw field signal without continuum certification |
+
+Introspective status remains:
+
+```text
+RAW_GE1000X_SIGNAL=PRESENT
+CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO
+```
+
+Failures should be reopened only when new physics invalidates their original assumptions.
+
+---
+
+# 6. FROZEN ARTIFICIAL RESULTS
+
+## 6.1 ALPHA-1 / M5V
+
+Frozen mathematical inverse-design checkpoint.
+
+Key results:
+
+- 50/50 accepted cases.
+- 1,803 regression tests at its checkpoint.
+- Reciprocal prescribed Earth/craft derivatives approximately −11.395675919 and +11.397230073 J/m.
+- Translation residual approximately +0.001554154 J/m.
+- Action approximately −7.975232332 J at the recorded spacing.
+
+Historical M5N cross-grid mismatch: 81.458%.
+
+The M5V formulation corrected important numerical issues, but did not solve microscopic source currents, material interfaces or true gravitational spacecraft force.
+
+**ALPHA-1 is artificial inverse design, not propulsion.**
+
+## 6.2 BETA-1 / BETA1-04
+
+Frozen scalar toy-model action–reaction reference.
+
+Reported Earth/craft forces:
+
+```text
+EARTH_FORCE=
+-0.1262097349021427
+
+CRAFT_FORCE=
++0.12620973490214274
+```
+
+The model used prescribed opposite scalar charges.
+
+Its conservation properties are mathematically useful, but do not establish universal gravitational interaction with ordinary neutral matter.
+
+Do not promote this to a whole-craft antigravity result.
+
+---
+
+# 7. PHYSICAL SOURCE RESEARCH HISTORY
+
+## 7.1 PH12
+
+Trap-free hypothetical gauged Q-ball.
+
+Approximately:
+
+```text
+NOETHER_NUMBER=79.201926
+CANONICAL_ENERGY=78.666865
+```
+
+Conditional source equilibrium, not a spacecraft engine.
+
+## 7.2 PH13
+
+Restricted Hessian minimum:
+
+```text
++0.066394
+```
+
+Coupled Schur result:
+
+```text
+-0.4299970
+```
+
+Off-shell Y response:
+
+```text
+2.14608e-6
+```
+
+The coupled Schur failure prevented full stability promotion.
+
+## 7.3 PH14
+
+Joint neutral spherical source.
+
+Approximately:
+
+```text
+N_PLUS=N_MINUS=77.988373
+CANONICAL_ENERGY=161.51589053332395
+RESTRICTED_HESSIAN_MIN=+0.208838
+```
+
+The on-shell spherical geometry produced zero induced Y because the relevant gradients were aligned.
+
+This ruled out the desired induction within that symmetric configuration, not every possible nonspherical source.
+
+## 7.4 PH15-P10
+
+Produced:
+
+- Discrete nonspherical neutral-source/X equilibrium.
+- First-order induced Y.
+- No complete reciprocal Y backreaction.
+
+Reported:
+
+```text
+SCIENCE_GATES=8/8
+FULL_TESTS=2286
+```
+
+Science SHA:
+
+`af59b072dba9a0424c569419af1f673172c3123a371eec8443e52cd81efc73c1`
+
+## 7.5 PH16-04R2 — strongest coupled source-model stationarity checkpoint
+
+Finite-lattice joint source/X/Y and neutral-fluid stationarity.
+
+Key results:
+
+```text
+BETA=40
+NOETHER_NUMBERS=400/400
+IDENTITIES=12/12
+SCIENCE_GATES=19/19
+FOCUSED_TESTS=60/60
+FULL_TESTS=2943/2943
+PARENT_HASHES=11/11
+```
+
+Three preconditioned residuals:
+
+```text
+6.80576e-8
+6.53298e-8
+9.28480e-8
+```
+
+The R2 same-iterate Krylov continuation succeeded without changing the original action, beta or scientific thresholds.
+
+The independent weak initialization on the difficult 18/L12 mesh still failed, with residual approximately 0.018773933.
+
+Therefore numerical-basin independence and uniqueness remain unresolved.
+
+Physical interpretation:
+
+- Canonical discrete joint stationarity: established in its tested scope.
+- Complete Lorentzian stability: not established.
+- Einstein gravitational exterior: not established.
+- Source energy in SI joules: not established.
+- Earth/craft force: not established.
+
+Immutable science:
+
+`results/data/ph16_04_20261118T164454314313Z.json`
+
+Science SHA:
+
+`ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`
+
+Producing source SHA:
+
+`b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0`
+
+PH16 may be useful as an alternative source-action architecture, but its transfer into R3B or a new gravitational mechanism must be derived, not assumed.
+
+---
+
+# 8. GAMMA, DELTA AND F0 HISTORY
+
+## 8.1 GAMMA
+
+GAMMA progressed beyond the older documents that described it as unexecuted.
+
+GAMMA investigations included:
+
+- Einstein/Hodge variation requirements.
+- Metric dependence.
+- Source Ward identities.
+- Fixed-Noether constrained modes.
+- Schur-complement corrections.
+- Source-to-gravity obstruction tests.
+
+R11 identified an important rank-two constrained Schur issue.
+
+Subsequent work did not produce a complete unique healthy gravitational action.
+
+Astra should consult the actual GAMMA sources/results and avoid repeating closed symbolic investigations unless there is a genuinely new physical operator or constraint structure.
+
+## 8.2 DELTA-1
+
+DELTA focused on decisive source and loading obstructions.
+
+For the conformal portal:
+
+```math
+\tilde g_{\mu\nu}
+=
+e^{2\sigma(P)}g_{\mu\nu}
+```
+
+the local neutral acceleration is schematically:
+
+```math
+\mathbf a
+=
+-c^2\sigma_P\nabla P
+```
+
+under the stated weak-field and convention assumptions.
+
+The same derivative influences the matter-trace source term.
+
+A key relation is:
+
+```math
+\nabla\lambda\times\nabla P
+=
+e^{4\sigma}\sigma_P\nabla T\times\nabla P
+```
+
+for the declared trace convention.
+
+This limits independent control of local payload acceleration and material loading in a single-invariant portal.
+
+It does not prove every nonlinear or multi-field completion impossible.
+
+DELTA1-02 tested a second Lorentz-invariant response direction.
+
+Measured independent gradient fractions were approximately:
+
+```text
+h=0.075m: 0.0015922114543637095
+h=0.050m: 0.0017631658867701
+```
+
+The tested second operator was nearly collinear with the first on the sampled payload.
+
+Simple coefficient-only tuning was not a strong rescue.
+
+## 8.3 DELTA F0 series
+
+Preserve the distinct conclusions:
+
+**F0C:** Conditional polarization trial remained underdetermined/nonconverged as a continuum physical source.
+
+**F0D:** Homogeneous quadratic source suffered an obstruction under its stated natural-boundary assumptions. Historical full regression was interrupted.
+
+**F0E/R1:** Conditional material stiffness, surface and switching requirements; no real microscopic material parameters.
+
+**F0F:** A fixed metric-independent topological four-form has zero direct Hilbert stress. This does not eliminate stress from the complete mixed portal, matter and source action.
+
+**F0G:** Isolated exterior Maxwell-dipole stress gave an inward weak-field contribution at tested clearance. The exterior field is not a complete conserved gravitational source.
+
+Do not combine these narrow conclusions into an unsupported universal no-go theorem.
+
+---
+
+# 9. GRAVITY2 MINER — PURPOSE, ARCHITECTURE AND CURRENT LIMITATIONS
+
+## 9.1 Purpose
+
+GRAVITY2 is a bounded, theorem-first, locally executable Python source-to-gravity research system.
+
+It is distinct from the legacy AGMINER.
+
+Its intended functions include:
+
+- Historical evidence and SHA verification.
+- Candidate action registration.
+- Conservation and Ward gates.
+- Exact symbolic no-go derivations.
+- Source/field response calculations.
+- Constrained-mode checks.
+- Bounded numerical experiments.
+- Scientific failure memory.
+- Independent verification.
+- Immutable JSON outputs.
+- Resource limits and interruption recovery.
+- Research scheduling by expected information gain.
+
+It is not a system that independently discovers complete physical laws without a specified hypothesis library.
+
+## 9.2 Important implementation finding
+
+The November 21 registry audit reported:
+
+```text
+REGISTERED_TASKS=0
+```
+
+The newer v6 registry did not yet contain the substantive new physical discovery jobs at that checkpoint.
+
+This is important.
+
+A large GRAVITY2 software test or mathematical response scan is not equivalent to executing a newly registered gravitational physics candidate.
+
+G01-H through G01-M were largely run through versioned standalone scientific scripts.
+
+**Do not claim that these experiments were autonomously discovered and scheduled by the GRAVITY2 registry.**
+
+The next session should decide whether to integrate a genuinely new physical provider into the miner or use a carefully bounded versioned scientific runner if the integration overhead would consume too much of the remaining campaign.
+
+## 9.3 Modules to inspect
+
+Core infrastructure:
+
+```text
+src/antigravity_research/gravity2/
+    __main__.py
+    engine.py
+    policy.py
+    independent.py
+    miner.py
+    miner2.py
+    miner2_check.py
+    miner2_math.py
+    miner_cases.py
+    miner_verify.py
+```
+
+Campaign infrastructure:
+
+```text
+src/antigravity_research/gravity2/
+    campaign.py
+    campaign_science.py
+    campaign_v2.py
+    campaign_v3.py
+    campaign_v4.py
+    campaign_v5.py
+    campaign_check.py
+    campaign_check_v5.py
+    registry_v6.py
+    response_v7.py
+    response_check_v7.py
+    planner_v8.py
+    research_v8.py
+    review_contracts_v4.py
+    scientific_inputs_v3.py
+```
+
+Physics providers and their verification:
+
+```text
+src/antigravity_research/gravity2/
+    delta_f0_provider.py
+    delta_f0_review.py
+    bridge05.py
+    bridge06.py
+    bridge07.py
+    bridge08.py
+```
+
+Additional providers/versions should be discovered from the live codebundle.
+
+The codebase must be examined before changing existing interfaces.
+
+## 9.4 P0 engineering risks
+
+Previously identified concerns include:
+
+1. Execution status versus scientific validity versus independent verification.
+2. Complete transitive source/dependency fingerprints.
+3. Scientifically specific gate contracts.
+4. Durable interruption and resume behavior.
+5. Atomic registry validation and publication.
+6. Preventing invalid evidence-cache reuse.
+7. Binding scientific conclusions to one action identity.
+8. Separating numerical failure, scientific failure and underdetermination.
+9. Reporting only verified status.
+10. Protecting historical artifacts.
+
+Some issues may already be repaired in newer versions.
+
+Do not rebuild the entire miner unnecessarily.
+
+Inspect the actual implementation and fix only correctness defects that materially block the chosen physical investigation.
+
+## 9.5 Important v8 limitation
+
+The existing v8 response/planning workflow has produced finite-dimensional mathematical toy results.
+
+Its own results state that physical source and gravity are not derived.
+
+The v8 workflow also previously expected an empty new-physics registry for its historical locked experiment.
+
+Changing registry state can therefore invalidate some historical replay assumptions.
+
+Preserve those original results. Do not force a new registry into an old experiment without a versioned migration or appropriate scientific contract.
+
+---
+
+# 10. HOW TO SET UP AND OPERATE GRAVITY2
+
+The user runs the project locally on an Intel MacBook Pro.
+
+The repository path shown in the terminal is:
+
+`/Users/mymac/Desktop/antigravity_research`
+
+The environment has historically used Python 3.13 in `.venv`, with NumPy, SciPy, SymPy and pytest.
+
+The following commands are intended to be run from the repository root.
+
+## 10.1 Initial environment setup
+
+```bash
+cd "$HOME/Desktop/antigravity_research"
+
+test -f pyproject.toml || {
+  echo "ERROR: Repository root not found"
+  exit 1
+}
+
+PY="$PWD/.venv/bin/python"
+
+if [ ! -x "$PY" ]; then
+  PY="$(command -v python3)"
+fi
+
+export PYTHONPATH="$PWD/src"
+
+export OPENBLAS_NUM_THREADS=1
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+export VECLIB_MAXIMUM_THREADS=1
+
+"$PY" --version
+"$PY" -m antigravity_research.gravity2 --help
+```
+
+The single-thread scientific-library settings reduce unnecessary CPU oversubscription and thermal load on the user's Mac.
+
+They are appropriate defaults for the current small symbolic/matrix research jobs.
+
+## 10.2 Check miner status without executing research
+
+```bash
+"$PY" -m antigravity_research.gravity2 status
+
+"$PY" -m antigravity_research.gravity2 \
+  list-candidates
+
+"$PY" -m antigravity_research.gravity2 \
+  failures
+
+"$PY" -m antigravity_research.gravity2 \
+  top
+```
+
+These inspect the primary runner's available state and history.
+
+Do not interpret an empty `top` result as evidence that the software failed; it is expected when no physical survivor has been certified.
+
+## 10.3 Inspect the campaign and registry
+
+```bash
+"$PY" -m antigravity_research.gravity2.campaign \
+  --help
+
+"$PY" -m antigravity_research.gravity2.campaign_v5 \
+  --help
+
+"$PY" -m antigravity_research.gravity2.registry_v6 \
+  audit
+```
+
+Pay attention to the registry's current task count.
+
+If it remains zero, there are no newly registered physical discovery tasks in that registry.
+
+Do not run an empty or historical campaign expecting it to discover new gravitational physics.
+
+## 10.4 Current miner runtime presets
+
+From the recorded `policy.py`:
+
+| Preset | Maximum time | Soft process RSS | Persistent output |
+|---|---:|---:|---:|
+| `quick` | 60 seconds | 384 MiB | 4 MiB |
+| `short` | 180 seconds | 640 MiB | 8 MiB |
+| `focused` | 300 seconds | 768 MiB | 12 MiB |
+| `extended` | 900 seconds | 1536 MiB | 30 MiB |
+
+Default recommendation:
+
+```text
+LEVEL=L1
+PRESET=short
+MINUTES=3
+WORKERS=1
+```
+
+For more demanding, independently justified source-response work:
+
+```text
+LEVEL=L1
+PRESET=focused
+MINUTES=5
+WORKERS=1
+```
+
+L0/L1 are appropriate for theorem-first, source-action and identity work.
+
+L2/L3/L4 require additional physically meaningful gate authorization and suitable implementation support.
+
+**Do not assume that a higher level is already implemented or permitted merely because the build plan describes it.**
+
+The historical `campaign.py` release explicitly rejected L2–L4 integration without the required evidence.
+
+The v5 campaign CLI exposes only L0/L1.
+
+The next assistant must inspect the live CLI and scientific authorization rules before attempting higher-level execution.
+
+## 10.5 Safe campaign dry run
+
+For the existing v5 campaign implementation:
+
+```bash
+"$PY" -m antigravity_research.gravity2.campaign_v5 \
+  run \
+  --level L1 \
+  --preset short \
+  --minutes 3 \
+  --workers 1 \
+  --dry-run
+```
+
+This is a dry-run preview.
+
+It is not a new scientific discovery experiment.
+
+## 10.6 Launch a registered research task
+
+Only after a substantive task has been explicitly reviewed, properly registered and assigned an independently checked producing and verification provider should the new campaign be executed.
+
+For v5's supported interface:
+
+```bash
+"$PY" -m antigravity_research.gravity2.campaign_v5 \
+  run \
+  --level L1 \
+  --preset short \
+  --minutes 3 \
+  --workers 1
+```
+
+This command is illustrative. **Do not launch it blindly.**
+
+First inspect the registered task list and determine whether the intended new experiment is actually included in the active campaign architecture.
+
+A run that repeats historical toy tasks provides no new source-to-gravity evidence.
+
+## 10.7 Registry handling
+
+Use the registry preflight before publishing new tasks.
+
+The existing registry CLI supports:
+
+```bash
+"$PY" -m antigravity_research.gravity2.registry_v6 \
+  audit
+```
+
+Candidate registration has separate validation and atomic-commit commands.
+
+The next assistant must inspect the exact candidate schema, source SHA requirements, action identity, provider names, independent verifier contract and expected-current-generation SHA before registering anything.
+
+Do not insert partially defined tasks merely to make the registered-task count nonzero.
+
+## 10.8 What the miner should optimize
+
+The actual scientific scheduling priority should be:
+
+```text
+EXPECTED_PHYSICAL_INFORMATION_GAIN
+/
+COMPUTATIONAL_COST
+```
+
+Not:
+
+```text
+NUMBER_OF_TESTS_PASSED
+
+NUMBER_OF_MODES_FITTED
+
+LOWEST_PRESCRIBED_FIELD_ENERGY
+
+NUMBER_OF_RANDOM_MODELS_GENERATED
+```
+
+Prefer:
+
+1. The earliest decisive physical obstruction.
+2. An exact theorem or analytic falsifier.
+3. Independently derived action variation.
+4. A source/exterior/force sign test.
+5. A bounded physically meaningful numerical solve.
+6. Independent scientific verification.
+
+Never rerun a model after a decisive scoped falsifier without documenting the new physical assumption that changes the test.
+
+## 10.9 Avoid expensive default regression
+
+**This is an explicit user instruction.**
+
+The user reports that the full repository regression generally takes approximately 15 minutes.
+
+The first G01-L verification became stuck, or appeared stuck, during:
+
+```text
+=== FULL REPOSITORY REGRESSION ===
+```
+
+The verification wrapper redirected pytest output to a file, so no console progress was visible.
+
+The run was interrupted, and a faster verification was subsequently completed.
+
+The successful fast verification required only focused tests, independent mathematical checks, parent hashes, immutable JSON and SHA evidence.
+
+The user strongly prefers this workflow.
+
+**DO NOT run the full repository regression automatically.**
+
+For the remaining three runs:
+
+- Run targeted tests for new or affected code.
+- Run independent scientific verification.
+- Run only relevant historical negative controls.
+- Verify immutable parent SHA hashes.
+- Record convergence and numerical limitations.
+- Record `FULL_REGRESSION=NOT_RUN`.
+- Do not run thousands of unrelated repository tests.
+- Do not interpret skipped tests as passed.
+- Do not run a full suite merely because a previous documentation template mentions it.
+- Require explicit justification and user authorization if a full regression is truly necessary.
+
+The full suite should be reserved for exceptional cross-cutting integration changes or final acceptance where smaller verification cannot establish software compatibility.
+
+A standard fast workflow is:
+
+```bash
+"$PY" -m py_compile \
+  path/to/new_science.py \
+  path/to/new_independent_check.py \
+  path/to/new_runner.py
+
+"$PY" -m pytest -q \
+  tests/gravity2/test_new_experiment.py
+```
+
+Add only the specific historical/parent tests that exercise modified scientific dependencies.
+
+**No routine `python -m pytest -q` over the entire repository.**
+
+---
+
+# 11. PRE-G01-L GRAVITY2 RESEARCH
+
+## 11.1 Large GRAVITY2 scoped rerun
+
+Run ID:
+
+`g2big_20261121T205521Z_45f4f5c6`
+
+Archive SHA:
+
+`bc30e98971419cff8feceac1addfe78026df59411f7a2ae0ad8c9f5b85dc541e`
+
+Reported:
+
+- 49/49 focused tests.
+- 8,192 finite-dimensional response cases.
+- Five toy negative controls.
+- Historical cached/fresh/recovered verification.
+- v8 research review.
+- Full regression skipped.
+
+The two-field toy models had some sign-changing responses.
+
+These were mathematical response-sign changes, not sourced gravitational acceleration.
+
+The run reported:
+
+```text
+PHYSICS_EXPERIMENTS_NEW=0
+PHYSICAL_SURVIVORS=0
+NEXT_GATE=G01_ACTION
+WHOLE_CRAFT_LIFT=NOT_DERIVED
+COMPLETE_ENERGY=NOT_CERTIFIED
+```
+
+## 11.2 G01-H — exterior stress and support
+
+Run:
+
+`g01h_20261121T210401Z_69c83be4`
+
+Archive SHA:
+
+`e0f11cf27b67d7b9fcd1b5100ff77e49b07784d95811fcc597248dfbbb002333`
+
+For the illustrative 10 MJ exterior Maxwell-dipole reference, the integrated exterior stress was:
+
+```math
+\int T^{ij}_{\rm ext}d^3x
+=
+\mathrm{diag}(4,4,2)\ {\rm MJ}
+```
+
+A stationary isolated conserved completion would require the opposite integrated remainder stress.
+
+Under the particular DEC support assumptions, a conditional 4 MJ minimum remainder energy was derived.
+
+The reference model therefore had a conditional total energy floor of 14 MJ.
+
+This is not a universal energy lower bound for R3B.
+
+Principal lesson:
+
+**Exterior field stress requires compensating source/support stress in any stationary conserved completion.**
+
+## 11.3 G01-I — electric mirror shell
+
+Original producer:
+
+`g01i_20261121T211437Z_0d794b7a`
+
+The original independent exact-float recomputation failed with:
+
+`SCIENCE_RECOMPUTATION_DRIFT`
+
+This was resolved by a separate versioned v2 audit, preserving the original history.
+
+Accepted audit:
+
+`g01iaudit2_20261121T211925Z_e9ef822f`
+
+Archive SHA:
+
+`2538c0128b0c5daf6765968b795a2a05bb6ec041b9b06deb7c9d21a49e5beab9`
+
+Electric mirror energy:
+
+```text
+0.22486508919489484 J
+```
+
+Remaining prescribed field-energy partition:
+
+```text
+1.3180511224511268 J
+```
+
+The resulting mathematical source distribution had:
+
+- Approximately zero net charge.
+- Positive and negative local surface charge.
+- Surface tractions.
+- Missing physical charged matter.
+- Missing magnetic source.
+
+Important correction: reversing both physical charge and potential preserves positive electrostatic self-energy. A charge-only sign flip is not a valid physical negative-energy control.
+
+## 11.4 G01-J — constant BF and derivative-response atlas
+
+Run:
+
+`g01jbf_20261121T213657Z_282a797e`
+
+Archive SHA:
+
+`32fe937689bf0242627e5e596242034aca77b136200cfa481fd0577d5cf6bd7c`
+
+The required source response was:
+
+```math
+\kappa_\ell
+=
+-\frac{2\ell+1}{\ell+1}
+```
+
+A constant BF coupling could not exactly reproduce all multipoles.
+
+The derivative-augmented model reduced its weighted fit error but remained inexact.
+
+Important measurements:
+
+```text
+M0_WEIGHTED_ERROR=1.3065655424843465e-4
+M1_WEIGHTED_ERROR=7.618709986121892e-5
+```
+
+The dipole accounted for approximately 99.9999428% of the weighted charge-fit norm.
+
+Nondipole inaccuracies were substantially larger than the globally weighted errors suggested.
+
+The exact required response could be expressed through a spectral operator resembling a boundary Dirichlet-to-Neumann response.
+
+This motivated G01-K.
+
+---
+
+# 12. G01-K — EXACT REDUCED SHELL RESPONSE
+
+Run:
+
+`g01k_20261121T214747Z_7aba9bce`
+
+Archive SHA:
+
+`f069f6c04d5be5b0851f52e2c41e63d189f10014dbbe867762fe06edc452e06b`
+
+Science SHA:
+
+`3e81c419afd30d416cb440383ff700a81750f1188383c38ff34732900ae75b12`
+
+Producing source:
+
+`scripts/g01k_source_v1.py`
+
+Source SHA:
+
+`cb6bc822e2dd363c48982f677c7d852317392098e4e7f610f3506e68e9468112`
+
+Independent checker:
+
+`scripts/g01k_check_v1.py`
+
+Checker SHA:
+
+`55a07971e262205600a8d1dcfbd5ef09b5cb293c1d0e5d7717ca28c2aeb5ca59`
+
+## 12.1 Proposed shell action
+
+The proposed worldvolume interaction was:
+
+```math
+S_{\Sigma}
+=
+\int_{\Sigma}
+\left[
+A_X\wedge f
+-\frac K2f\wedge *_3f
+-gf\wedge *_3i^*F_Y
+-\frac H2i^*F_Y\wedge *_3i^*F_Y
+\right]
+```
+
+where:
+
+```math
+f=da
+```
+
+G01-K modeled the reduced quadratic energy:
+
+```math
+U_\ell
+=
+\frac12(K+A_\ell)q_\ell^2
++
+gq_\ell b_\ell
++
+\frac12(H+M_\ell)b_\ell^2
+-
+J_\ell b_\ell
+```
+
+with:
+
+```math
+A_\ell
+=
+\frac{R}{2\ell+1}
+```
+
+and the originally chosen exterior magnetic coefficient:
+
+```math
+M_\ell
+=
+\frac{R}{\ell+1}
+```
+
+## 12.2 Exact mathematical response
+
+The reduced equation:
+
+```math
+q_\ell
+=
+-\frac{g}{K+A_\ell}b_\ell
+```
+
+reproduced the required twelve-mode mirror response when:
+
+```text
+R=2
+K=2
+g=4
+H=8.2
+```
+
+The original local mixed kinetic matrix was positive in the selected static coefficient prefilter.
+
+```text
+KH-g^2=0.4
+```
+
+Maximum recorded response reconstruction error:
+
+```text
+1.3965423614524633e-16
+```
+
+This was an exact mathematical response match within the reduced model.
+
+## 12.3 Essential limitation
+
+The magnetic drive:
+
+```math
+J_\ell
+=
+(H+M_\ell)b_\ell
++
+gq_\ell
+```
+
+was calculated from the desired field.
+
+It was not generated by physical matter.
+
+For a positive definite reduced quadratic model, removing the source drive leaves the zero-field equilibrium.
+
+Thus G01-K did not provide a physically sourced R3B configuration.
+
+The full worldvolume, bulk, metric and material variations were also incomplete.
+
+These shortcomings motivated G01-L.
+
+---
+
+# 13. G01-L — NEW VERIFIED EXPERIMENT
+
+**This was run 1 of the five-run critical campaign.**
+
+Run ID:
+
+`g01l_20261122T002340Z_d286fcf8`
+
+Archive:
+
+```text
+results/gravity2/g01l_runs/
+g01l_20261122T002340Z_d286fcf8/
+g01l_20261122T002340Z_d286fcf8_UPLOAD.tar.gz
+```
+
+Archive SHA-256:
+
+`9e8ca72576f17200845b75d4b3ca5fdc019d92248d606e021a05d6667a52294c`
+
+Science JSON SHA:
+
+`ab878109e7811ecdd3852f3b5eab72d3bf19420ba8b44f25e7a17536fb95f3e2`
+
+Verification JSON SHA:
+
+`5beeb43cbcde9954f15777204f7aa9594b62d3f0fbc312df8f55ce42d3494983`
+
+## 13.1 Exact source files and fingerprints
+
+| File | SHA-256 |
+|---|---|
+| `src/antigravity_research/gravity2/g01l_core.py` | `300e45da0a181f682383247c5ddca803bef851de9f0d02c5de3957bf824fd84a` |
+| `scripts/g01l_source_v1.py` | `0132f34e3a6921dc6bc1a5ddda12d025ee9aab877c876d480f5855ba7d02df2d` |
+| `scripts/g01l_check_v1.py` | `830c1edcfbe6b37011bfe9d7c07c2e6d35f67c31bbaa1605e7b842f61171b792` |
+| `tests/gravity2/test_g01l.py` | `d0312b5bb293b7ced7fc69dabeef2c5c15526acf8199347e82f1672549935735` |
+
+## 13.2 Scientific question
+
+Does the G01-K shell reduction correctly account for a regular, source-free, two-sided Maxwell magnetic field?
+
+The initial G01-K quadratic model included only the exterior magnetic field contribution.
+
+For a closed spherical shell with no magnetic monopole sheet, normal magnetic flux must be continuous across the shell.
+
+A nonzero regular exterior magnetic multipole generally requires a corresponding interior field unless additional physical bulk sources or boundary assumptions are introduced.
+
+## 13.3 Corrected Maxwell coefficients
+
+For each harmonic \(\ell\ge1\):
+
+```math
+A_\ell
+=
+\frac{R}{2\ell+1}
+```
+
+The originally used exterior coefficient was:
+
+```math
+M_\ell^{\rm ext}
+=
+\frac{R}{\ell+1}
+```
+
+The additional regular interior coefficient is:
+
+```math
+M_\ell^{\rm int}
+=
+\frac{R}{\ell}
+```
+
+For ordinary source-free Maxwell interiors/exteriors:
+
+```math
+M_\ell^{\rm full}
+=
+R
+\left(
+\frac1\ell
++
+\frac1{\ell+1}
+\right)
+```
+
+At the canonical \(R=2\), dipole \(\ell=1\):
+
+```text
+M_EXTERIOR=1
+M_INTERIOR=2
+M_FULL=3
+```
+
+This changes magnetic energy and drive requirements.
+
+It does not by itself change the original algebraic electric mirror ratio.
+
+## 13.4 Verified numerical results
+
+Focused tests:
+
+```text
+5 passed in 0.33s
+```
+
+Independent verdict:
+
+`PASS_INDEPENDENT_SCOPED_TWO_SIDED_MAXWELL_AND_METRIC_AUDIT`
+
+Science status:
+
+`ACTION_INCOMPLETE_G01K_EXTERIOR_ONLY_KERNEL_NOT_FULL_TWO_SIDED_MAXWELL`
+
+Important values:
+
+```text
+MODES=12
+
+MAX_CHARGE_RECONSTRUCTION_ERROR=
+1.3965423614524633e-16
+
+MAX_RATIONAL_KERNEL_ERROR=
+0
+
+MAX_CORRECTED_DRIVE_RELATIVE_ERROR=
+1.6607221374615575e-15
+
+MAX_LORENTZIAN_METRIC_VARIATION_ERROR=
+1.3833401091289943e-10
+
+MAX_1024_RADIAL_RELATIVE_ERROR=
+2.3841522348022615e-05
+
+MANDATORY_INTERIOR_MAGNETIC_ENERGY_PROXY=
+372171481003.3243
+
+PHYSICAL_SURVIVORS=0
+```
+
+The archived evidence ledger independently matched.
+
+## 13.5 Interpretation of the large magnetic energy proxy
+
+The additional interior magnetic energy proxy was:
+
+```text
+3.721714810033243e11
+```
+
+This is a **canonical quadratic energy proxy**, not SI joules.
+
+The interior-to-exterior ratio was later independently reported as:
+
+```text
+1.9999998888529824
+```
+
+Thus the interior contributes approximately twice the exterior magnetic energy under the declared source-free two-sided model.
+
+This is a significant missing contribution to G01-K's reduced source-energy accounting.
+
+**Do not convert this into joules or claim a device-energy lower bound without deriving the normalization.**
+
+## 13.6 Metric result
+
+The Hodge-dependent shell terms contribute nonzero induced-metric Hilbert stress.
+
+The topological BF term has zero direct Hilbert stress under the stated assumptions, but the full shell theory does not.
+
+The independent checker verified Lorentzian metric variations using finite differences.
+
+However, complete four-dimensional embedding variations, microscopic materials, source supports and Einstein gravity were not derived.
+
+## 13.7 G01-L final scientific verdict
+
+```text
+G01L_INDEPENDENT=PASS_SCOPED
+G01L_ACTION_INCOMPLETE=YES
+PHYSICAL_SURVIVORS=0
+WHOLE_CRAFT_GRAVITY=NOT_DERIVED
+FULL_REGRESSION=NOT_RUN
+```
+
+Do not rerun G01-L unless a genuinely different physical action or boundary condition changes the exact assumptions.
+
+This result motivated G01-M.
+
+---
+
+# 14. G01-M — LATEST COMPLETED EXPERIMENT
+
+**This was run 2 of the five-run critical campaign.**
+
+Run ID:
+
+`g01m_20261122T003754Z_d9341d89`
+
+Archive:
+
+```text
+results/gravity2/g01m_runs/
+g01m_20261122T003754Z_d9341d89/
+g01m_20261122T003754Z_d9341d89_UPLOAD.tar.gz
+```
+
+Archive SHA-256:
+
+`06dc3e4deb9f0c3b75032230d2837782b2f58a675274d36bea983ca6dc9da53f`
+
+Science JSON SHA:
+
+`000302fe81e31faac2bd627fb93f56edfbbee302bec89485855fdf8d1cfc37e4`
+
+Independent status:
+
+`PASS_INDEPENDENT_CONDITIONAL_SOURCE_ACTION_NOT_GRAVITY`
+
+## 14.1 Exact producing files and fingerprints
+
+| File | SHA-256 |
+|---|---|
+| `src/antigravity_research/gravity2/g01m_core.py` | `410aa566ef54ea3bceee85e47b2459519a001eb532fcfd0beff1327cb007f4b9` |
+| `scripts/g01m_source_v1.py` | `1e08a061c344e469065048f9cca302e21c23fe69e3c93e5e11fcde9d295a3b15` |
+| `scripts/g01m_check_v1.py` | `2f452ceeb0ed1e8e9dcdff10461ff39a9db67d47208e68b6544dd95b1ec3eaf9` |
+| `tests/gravity2/test_g01m.py` | `87fe618def23df2ab887051a0f60a090c2e191cd11fe32cb77524c41c203e82b` |
+
+The G01-M manifest also pins the original G01-K source and the G01-L science, verification and manifest artifacts.
+
+## 14.2 Scientific objective
+
+G01-M investigated whether a hypothetical dynamical material field could generate the magnetic drive missing from G01-K.
+
+It compared two source models.
+
+### M0 — Passive convex material
+
+A positive quadratic/quartic material without an external magnetic drive has a zero-field obstruction under the specified assumptions.
+
+This is a scope-limited theorem for that action family.
+
+### M1 — Hypothetical spontaneously magnetized material
+
+Introduced a real scalar material order parameter \(m\), with:
+
+- Positive time-kinetic coefficient.
+- Positive gradient stiffness.
+- Negative quartic potential contribution.
+- Positive sextic stabilization.
+- Coupling to the shell's normal Y magnetic field.
+
+The reduced energy includes:
+
+```math
+E
+=
+E_{\rm X/Y}
++
+\frac12
+\int
+\left(
+r m^2
++
+\kappa |\nabla_\Sigma m|^2
+\right)dA
+-
+\frac{\beta}{4}
+\int m^4dA
++
+\frac{\gamma}{6}
+\int m^6dA
+-
+\chi\int m B_\perp\,dA
+```
+
+This is a hypothetical effective material source model.
+
+Its material constants were chosen for exploratory model behavior, not measured or independently derived from known stable microscopic matter.
+
+## 14.3 Coupled spectral equations
+
+After eliminating the electric shell response:
+
+```math
+q_\ell
+=
+-\frac{g}{K+A_\ell}b_\ell
+```
+
+The corrected magnetic effective coefficient becomes:
+
+```math
+D_\ell
+=
+H
++
+M_\ell^{\rm full}
+-
+\frac{g^2}{K+A_\ell}
+```
+
+The magnetic equation is:
+
+```math
+D_\ell b_\ell
+=
+\chi m_\ell
+```
+
+The material equation is:
+
+```math
+(r-\kappa\Delta_\Sigma)m
+-
+\beta m^3
++
+\gamma m^5
+=
+\chi b
+```
+
+The effective Y surface current arises through variation of the magnetic material interaction.
+
+It is represented by a conserved surface stream current.
+
+This is a substantial difference from explicitly prescribing every \(J_\ell\) in G01-K.
+
+However, the material model still does not provide a verified microscopic source for the protected Y carrier, nor a complete physical four-dimensional material theory.
+
+## 14.4 Hypothetical parameter values
+
+From the verified G01-M science JSON:
+
+```text
+R=2
+K=2
+g=4
+H=8.2
+
+Z_TIME_KINETIC=8
+KAPPA_GRADIENT=8
+
+BETA=0.2777777777777778
+GAMMA=0.25
+
+CHI=5.199999999999999
+r=1.2595238095238088
+```
+
+These are canonical model parameters, not experimentally measured material coefficients.
+
+The parameter \(r\) was explicitly chosen to favor a near-unit dipole branch.
+
+This selection must be treated as an exploratory design assumption rather than evidence of independent physical realization.
+
+## 14.5 Verified G01-M results
+
+The combined G01-L/G01-M focused tests reported:
+
+```text
+14 passed in 1.52s
+```
+
+The independent science checker found:
+
+```text
+MAX_X_EQUATION_RESIDUAL=
+8.470329472543003e-22
+
+MAX_Y_EQUATION_RESIDUAL=
+8.673617379884035e-19
+
+MAX_MATERIAL_ON_SHELL_RESIDUAL=
+4.30129074843234e-14
+
+MAXWELL_JUMP_RELATIVE_RESIDUAL=
+1.0369767744401753e-15
+
+ENERGY_FINITE_DIFFERENCE_MAX_SLOPE=
+7.179442225909345e-10
+
+MIN_ONSTATE_STATIC_HESSIAN_EIGENVALUE=
+0.09380301291612922
+
+MIN_OFFSTATE_STATIC_HESSIAN_EIGENVALUE=
+0.05952380952380931
+```
+
+The positive Hessians establish restricted static stability for the tested spectral source model.
+
+They do not establish:
+
+- Full nonsymmetric angular stability.
+- All constrained Lorentzian modes.
+- Full four-dimensional causal health.
+- Dynamical switching stability.
+- Real material realizability.
+
+## 14.6 Critical R3B matching failure
+
+The new source equilibrium did not exactly reproduce the original R3B magnetic multipole field.
+
+Weighted relative twelve-mode mismatch:
+
+```text
+R3B_SOURCE_MODE_L2_MISMATCH=
+0.0017517348699577814
+```
+
+Equivalent to approximately 0.17517%.
+
+Peak angular mismatch:
+
+```text
+0.003821508304403824
+```
+
+More decisively, forcing the exact R3B target field into the hypothetical material source equation produced:
+
+```text
+R3B_FORCED_MATERIAL_EQUATION_RESIDUAL=
+0.043556344656783694
+```
+
+Therefore:
+
+```text
+ON_SHELL_EFFECTIVE_SOURCE=PASS_SCOPED
+EXACT_R3B_SOURCE_MATCH=FAIL
+```
+
+The model should not be promoted to a physical R3B survivor.
+
+A small source-profile mismatch does not guarantee a small change in the fully loaded gravitational acceleration, especially after the historically severe reciprocal loading failure.
+
+## 14.7 Metastability and switching
+
+The reduced model demonstrated a metastable on-state and an off-state.
+
+Normalized canonical energy:
+
+```text
+OFF_ENERGY_PER_B0_SQUARED=
+0
+
+ON_ENERGY_PER_B0_SQUARED=
+0.09968117370619867
+
+SADDLE_ENERGY_PER_B0_SQUARED=
+0.11275477870460243
+
+ON_TO_OFF_BARRIER_PER_B0_SQUARED=
+0.013073604998403765
+
+OFF_TO_ON_BARRIER_PER_B0_SQUARED=
+0.11275477870460243
+```
+
+These are canonical energy ratios divided by the specified squared field-normalization amplitude.
+
+They are not joules.
+
+No complete source switching dynamics, power loss, thermal activation, physical formation energy or operating cycle was solved.
+
+## 14.8 Corrected interior/exterior magnetic ratio
+
+The G01-M independent verifier retained:
+
+```text
+INTERIOR_TO_EXTERIOR_MAGNETIC_RATIO=
+1.9999998888529824
+```
+
+This confirms the G01-L two-sided Maxwell correction within the shared source-model assumptions.
+
+## 14.9 G01-M final verdict
+
+```text
+G01M_VERDICT=
+EFFECTIVE_SOURCE_ON_SHELL_TARGET_MISMATCH
+
+INDEPENDENT_VERIFICATION=
+PASS_INDEPENDENT_CONDITIONAL_SOURCE_ACTION_NOT_GRAVITY
+
+FULL_REGRESSION=NOT_RUN
+
+PHYSICAL_SURVIVORS=0
+
+WHOLE_CRAFT_GRAVITY=NOT_DERIVED
+
+R3B_EXACT_SOURCE_MATCH=FAIL
+
+006D_REPLACED=NO
+```
+
+The archive SHA-256 ledger was independently inspected and all listed evidence files matched.
+
+**G01-M was a successful scoped effective-source mathematical experiment, but not a gravitational breakthrough.**
+
+Do not spend the remaining research budget minimizing the 0.175% mismatch unless a specific physically new source law makes exact matching necessary and independently meaningful.
+
+---
+
+# 15. REASSESSMENT AFTER G01-L AND G01-M
+
+## 15.1 Progress made
+
+The first two campaign runs improved understanding in two concrete ways.
+
+**G01-L:** Established that the original G01-K source-energy and magnetic-drive reduction omitted the regular interior magnetic Maxwell contribution for the stated two-sided source-free field assumptions.
+
+**G01-M:** Established that a hypothetical nonlinear dynamical material model can produce a conserved effective magnetic current and a restricted stable static source equilibrium, but cannot exactly generate the prescribed R3B field under its selected parameters.
+
+These are valid scientific findings.
+
+However, they leave the main gravitational gap intact.
+
+## 15.2 What remains missing
+
+| Physical gate | Actual status |
+|---|---|
+| Original R3B field capacity | Prescribed-field mathematical result |
+| Two-sided Maxwell kernel | G01-L scoped correction verified |
+| Hypothetical effective magnetic source | G01-M conditional on-shell |
+| Exact R3B field under G01-M source law | Failed |
+| Microscopic source and support | Not derived |
+| Complete same-action covariant model | Not derived |
+| Full constrained Lorentzian health | Not derived |
+| Fully reciprocal loaded neutral gravity | Not demonstrated |
+| Uniform outward response throughout 1 kg torus | Not demonstrated after loading |
+| Einstein exterior transmission | Not derived |
+| Earth-down gravitational reaction | Not derived |
+| Net whole-craft upward force | Not derived |
+| Complete SI operating energy below 10 MJ | Not certified |
+| Qualified physical survivor | Zero |
+
+## 15.3 Why our previous strategy stalled
+
+We have repeatedly improved mathematical source descriptions without closing the central source-to-gravity interaction.
+
+The progression has been:
+
+```text
+R3B PRESCRIBED FIELD
+        |
+        v
+G01-I ELECTRIC SOURCE RECONSTRUCTION
+        |
+        v
+G01-J BF COUPLING FIT
+        |
+        v
+G01-K EXACT REDUCED SHELL RESPONSE
+        |
+        v
+G01-L CORRECTED TWO-SIDED MAXWELL
+        |
+        v
+G01-M HYPOTHETICAL DYNAMICAL SOURCE
+        |
+        v
+STILL MISSING:
+FULL LOADED UNIVERSAL-METRIC GRAVITY
++
+REAL MICROSCOPIC SOURCE
++
+EARTH/WHOLE-CRAFT REACTION
+```
+
+Astra should challenge whether continuing this same branch is optimal.
+
+A new source model is not automatically useful merely because it has a lower residual, a better fit or a more sophisticated material potential.
+
+The next important discovery must change our physical assessment of whether gravitational repulsion and whole-craft force can actually be produced.
+
+## 15.4 Fundamental gravitational scale
+
+For an ordinary gravitational monopole at approximately one meter:
+
+```math
+M
+\sim
+\frac{ar^2}{G}
+```
+
+For \(a=9.80665\ \mathrm{m/s^2}\):
+
+```text
+M_APPROX=
+1.47e11 kg
+
+REST_ENERGY_EQUIVALENT_APPROX=
+1.32e28 J
+```
+
+This illustrates why ordinary gravity at 1 m is enormously demanding.
+
+It is not a universal no-go against anisotropic stress, modified universal-metric couplings or genuinely new physics.
+
+It does establish that the few-joule prescribed R3B field cannot simply be interpreted as a conventional low-energy gravitational source.
+
+A physical coupling capable of producing the required acceleration must be derived and shown to obey the relevant empirical and quantum constraints.
+
+---
+
+# 16. THREE REMAINING HIGH-INFORMATION RESEARCH RUNS
+
+The user has three major runs remaining before evaluating whether to continue the project.
+
+The next assistant has full discretion to redesign their content.
+
+The previous proposed labels were:
+
+- G01-N
+- G01-O
+- G01-P
+
+These names are optional.
+
+**Astra should not feel obligated to execute a known weak branch simply to preserve alphabetical run order.**
+
+## 16.1 Proposed strategic priorities — not mandatory run instructions
+
+The highest unresolved physical questions are:
+
+**A. Complete physical action**
+
+Can the currently proposed source/X/Y/metric mechanism be written as one complete, healthy, gauge-consistent theory, with all matter and boundary terms independently derived?
+
+**B. True loaded neutral acceleration**
+
+Can a genuinely sourced, fully reciprocal solution produce outward gravitational acceleration throughout the finite neutral torus?
+
+The historical R3B loaded sign failure must be addressed explicitly.
+
+**C. Exterior transmission and whole-craft interaction**
+
+Can the source's actual exterior fields, physical metric and stress-energy generate the required Earth-down/whole-craft-up response, with all field momentum, support stress and boundary terms included?
+
+**D. Complete energy and physical plausibility**
+
+Can the resulting mechanism survive conservative SI normalization, stability, empirical/quantum constraints and an eventual complete under-10-MJ operating-energy ledger?
+
+These are interconnected. The ordering should depend on whichever has the cheapest decisive physical falsifier.
+
+## 16.2 Possible candidate fork
+
+Astra may find it useful to compare:
+
+**Candidate A — G01-K/L/M R3B shell architecture**
+
+Strength: Exact reduced electric-mirror response and a new conditional material-source equilibrium.
+
+Weakness: Missing microscopic Y source, exact source mismatch, incomplete full covariant action, historical loaded sign failure.
+
+**Candidate B — PH16-04R2 architecture**
+
+Strength: Strongest existing jointly stationary source/X/Y/neutral-fluid model.
+
+Weakness: Canonical discrete model, not yet Einstein gravity, continuum exterior or full Lorentzian health.
+
+A genuinely new action is appropriate only if it changes a previously identified obstruction and can survive exact source and metric-variation preflights.
+
+Do not create arbitrarily many new theories or attempt an unrestricted high-dimensional coefficient search.
+
+## 16.3 Conditions for authorizing an expensive PDE
+
+Require:
+
+1. A named new physical action or independently justified change.
+2. Exact equations, source-current conservation and relevant constraints.
+3. Clearly defined degrees of freedom and boundary conditions.
+4. A necessary-condition test showing the desired gravitational sign is not analytically excluded.
+5. A source/neutral response that is not merely prescribed.
+6. A credible route to real physical scales and external transmission.
+7. A bounded numerical plan with explicit abort conditions.
+
+Without these prerequisites, a large PDE solve could consume the remaining budget without changing the physical-model completion assessment.
+
+## 16.4 What would earn actual progress
+
+Evidence that materially advances the model includes:
+
+- A physically motivated and independently varied complete source action.
+- An on-shell source producing physically required X/Y fields.
+- A healthy constrained source/field response.
+- An independently derived universal physical metric.
+- A fully loaded outward neutral-torus acceleration.
+- Verified continuum and exterior field transmission.
+- A derived Earth reaction and whole-craft force.
+- An independently reproducible physical result with SI and empirical obligations stated.
+
+The 50% milestone specifically requires meaningful physical gravity and whole-craft closure, not merely software completeness.
+
+## 16.5 Important failure policy
+
+If a candidate is conclusively ruled out under its assumptions, preserve the finding.
+
+Do not spend another major run merely trying different coefficients in a failed source class.
+
+If no qualifying survivor remains, Astra should consider a distinct physical mechanism or provide a defensible conclusion about the limits of the current search.
+
+A rigorous negative theorem is useful research evidence, but it must not be counted as an antigravity device breakthrough.
+
+---
+
+# 17. REQUIRED SCIENTIFIC OUTPUT STANDARD
+
+For each substantive remaining experiment, provide:
+
+**Scientific design**
+
+- Explicit physical hypothesis.
+- Complete action terms applicable to the test.
+- Units and sign conventions.
+- Degrees of freedom and constraints.
+- Source and material assumptions.
+- Relevant metric/Hodge variation.
+- Neutral-matter and Earth/craft force definitions.
+- Expected falsifiers.
+
+**Execution**
+
+- Complete separate paste-ready Bash APPLY block.
+- Complete separate paste-ready Bash VERIFY block.
+- No unnecessary interactive prompts.
+- No manual file editing required between blocks.
+- No Git commands.
+- No full regression by default.
+- Resource-bounded computation.
+
+**Verification**
+
+- Targeted tests.
+- Independent mathematical or numerical implementation.
+- Negative controls.
+- Conservation/Ward checks.
+- Source provenance.
+- Convergence/finite-size checks when relevant.
+- Immutable JSON.
+- Exact SHA-256.
+- Clear PASS, FAIL, HOLD or UNDERDETERMINED classification.
+
+**Interpretation**
+
+- What was actually derived.
+- Which assumptions are hypothetical.
+- Whether the new field is genuinely on shell.
+- Whether the source is physically realizable.
+- Whether gravity was calculated or merely inferred.
+- Whether the external Earth/craft force was derived.
+- Whether complete energy is in joules or canonical units.
+- Whether the physical-research maturity changed, and why.
+
+No false physical promotion.
+
+---
+
+# 18. PROVENANCE AND EVIDENCE PRESERVATION
+
+## 18.1 Evidence hierarchy
+
+Use:
+
+1. Executed source, scientific JSON, SHA-256 ledger and terminal logs.
+2. Independent mathematical verification and convergence.
+3. Dated scientific journals.
+4. Active governing build plans.
+5. Notes and README summaries.
+
+The November 21 15:52 codebundle predates G01-L/G01-M.
+
+Those later sources must be included in the newly generated codebundle.
+
+## 18.2 Essential recent archive fingerprints
+
+| Experiment | Archive SHA-256 |
+|---|---|
+| GRAVITY2 large scoped rerun | `bc30e98971419cff8feceac1addfe78026df59411f7a2ae0ad8c9f5b85dc541e` |
+| G01-H | `e0f11cf27b67d7b9fcd1b5100ff77e49b07784d95811fcc597248dfbbb002333` |
+| G01-I accepted v2 | `2538c0128b0c5daf6765968b795a2a05bb6ec041b9b06deb7c9d21a49e5beab9` |
+| G01-J | `32fe937689bf0242627e5e596242034aca77b136200cfa481fd0577d5cf6bd7c` |
+| G01-K | `f069f6c04d5be5b0851f52e2c41e63d189f10014dbbe867762fe06edc452e06b` |
+| G01-L | `9e8ca72576f17200845b75d4b3ca5fdc019d92248d606e021a05d6667a52294c` |
+| G01-M | `06dc3e4deb9f0c3b75032230d2837782b2f58a675274d36bea983ca6dc9da53f` |
+
+All listed SHA values are immutable reference fingerprints, not invitations to modify files to match a desired answer.
+
+The G01-L/G01-M archives were inspected and their internal SHA ledgers verified.
+
+## 18.3 Source provenance rule
+
+Each future scientific result must include exact producing-source and independent-verifier fingerprints.
+
+Every meaningful new physical assumption should appear in:
+
+- The source action.
+- The source documentation.
+- The scientific JSON.
+- The independent test or verification.
+- The stated claim boundary.
+
+Do not conceal a source-law change inside a numerical solver parameter.
+
+If a historical parent SHA differs, report the drift and stop that dependent calculation unless the change is explicitly versioned and independently reconciled.
+
+---
+
+# 19. REGENERATING ONLY NOTES AND THE CODEBUNDLE
+
+The user wants to minimize documentation work before the next research session.
+
+## 19.1 Update notes
+
+Append this complete handoff to the actual existing notes file, preserving the existing historical content.
+
+Do not replace or rewrite older chronology.
+
+Do not modify other build plans or README.
+
+Check the filename's existing case before saving.
+
+## 19.2 Generate the code-only bundle
+
+From the repository root:
+
+```bash
+cd "$HOME/Desktop/antigravity_research"
+
+bash ./make_codebundle.sh
+```
+
+The current generator writes to:
+
+```text
+codebundles/
+```
+
+with a timestamped filename of the form:
+
+```text
+ANTIGRAVITY_RESEARCH_CODEBUNDLE_YYYYMMDD-HHMMSS.md
+```
+
+The current script should exclude:
+
+- Generated result files.
+- Numerical logs.
+- Historical journals.
+- Root notes.
+- Root build plans.
+- Virtual environments.
+- Binary artifacts.
+- Prior codebundles.
+
+It should include relevant scientific code, tests, simulation source and code-adjacent scientific documentation.
+
+## 19.3 Verify the newest bundle contains G01-L and G01-M
+
+Use the following lightweight audit:
+
+```bash
+bash <<'VERIFY_BUNDLE'
+set -euo pipefail
+
+cd "$HOME/Desktop/antigravity_research"
+
+BUNDLE="$(
+  find codebundles \
+    -maxdepth 1 \
+    -type f \
+    -name 'ANTIGRAVITY_RESEARCH_CODEBUNDLE_*.md' \
+    -print |
+  LC_ALL=C sort |
+  tail -n 1
+)"
+
+test -n "$BUNDLE"
+test -f "$BUNDLE"
+
+for rel in \
+  src/antigravity_research/gravity2/g01l_core.py \
+  src/antigravity_research/gravity2/g01m_core.py \
+  scripts/g01l_source_v1.py \
+  scripts/g01l_check_v1.py \
+  scripts/g01m_source_v1.py \
+  scripts/g01m_check_v1.py \
+  tests/gravity2/test_g01l.py \
+  tests/gravity2/test_g01m.py
+do
+  grep -Fq "$rel" "$BUNDLE" || {
+    echo "MISSING_FROM_BUNDLE=$rel"
+    exit 1
+  }
+done
+
+echo "LATEST_CODEBUNDLE=$BUNDLE"
+echo "G01L_G01M_SOURCE_INVENTORY=PASS"
+
+shasum -a 256 "$BUNDLE"
+VERIFY_BUNDLE
+```
+
+This checks file-path inclusion. The source manifest in the bundle should also be used when exact embedded-source SHA verification is required.
+
+## 19.4 What to attach to the next session
+
+Attach:
+
+- The regenerated code-only codebundle.
+- Updated `NOTES.md` containing this handoff.
+- Both G01-L and G01-M result archives.
+- Existing `RESEARCH_BUILDPLAN.md`.
+- Existing `ARTIFICIAL_BUILDPLAN.MD`.
+- Existing `AGMINER_BUILDPLAN.MD`.
+- Existing `INTROSPECTIVE_BUILDPLAN.md`.
+- Existing `FORMATTING_AND_CODE_STANDARDS.md`.
+- Existing `gravity2buildplan.md`.
+- Existing README.
+- The previously generated journal bundle, if useful.
+
+Do not regenerate historical journal bundles or rewrite the governing documents merely for this handoff.
+
+These documents provide context; the latest executed source and immutable experimental artifacts control factual scientific claims.
+
+---
+
+# 20. FINAL DIRECTIVES TO THE NEXT AI RESEARCH SESSION
+
+**Our objective is not to reach 50% by mathematical bookkeeping.**
+
+Our objective is to establish enough independently verified physical source-to-gravity and whole-craft physics that a 50% research-maturity judgment becomes justified.
+
+Three high-impact research runs remain.
+
+The next assistant should:
+
+1. Reassess the entire physical direction before committing to another expensive experiment.
+2. Identify the single most consequential missing assumption or physical obstruction.
+3. Prioritize complete source-to-gravity action consistency over field-profile fitting.
+4. Preserve G01-L's missing-interior Maxwell correction.
+5. Preserve G01-M's conditional source equilibrium and exact R3B mismatch.
+6. Preserve the historical R3B loaded inward force.
+7. Preserve 006D as the conservative GR benchmark.
+8. Consider the PH16 architecture if it provides a more defensible route to actual source matter.
+9. Derive exterior gravity and whole-craft reaction rather than assume them.
+10. Use GRAVITY2 as a theorem-first research and verification tool, not an indiscriminate optimizer.
+11. Avoid automatic full regression.
+12. Minimize documentation updates.
+13. Produce independently checkable, immutable scientific evidence.
+14. Choose the remaining experiments based on physical information gain, not predetermined names.
+15. State clearly if a decisive obstruction prevents the current approach from progressing.
+
+A new physical mechanism must survive its exact assumptions, conservation laws, constrained modes, external response and energy obligations.
+
+No internal scalar force, prescribed current or favorable test-field derivative may be promoted into spacecraft gravitational lift.
+
+No canonical proxy may be silently converted into joules.
+
+No finite-dimensional toy result may be called an Einstein solution.
+
+No passing software test count may be used to inflate physical-model maturity.
+
+**Current physical maturity: approximately 37% heuristic.**
+
+**Remaining major research runs: three.**
+
+**Physical gravitational survivors: zero.**
+
+**006D replaced: no.**
+
+**Complete under-10-MJ engine: not demonstrated.**
+
+**Next physical research decision: delegated to ChatGPT 6.2 Astra.**
+
+---
+
+# 21. SHORT INTRODUCTION FOR THE NEXT SESSION
+
+We are continuing ANTIGRAVITY_RESEARCH with the newest code-only codebundle, updated `NOTES.md` and the existing research build plans, journal bundle and scientific artifacts. **Only the notes and codebundle have been updated for this handoff; the other governing documentation has not been revised to include G01-L/G01-M and may contain historical NEXT instructions.** Reconstruct the actual frontier from the latest code and independently verified JSON/SHA evidence, preserving all historical successes, failures, corrections and provenance. The strongest conservative GR reference remains 006D with `C=23.591586299249`, unreplaced.
+
+Our first two experiments of the five-run campaign are complete. **G01-L** identified a missing regular interior Maxwell magnetic-energy and drive contribution in the G01-K shell model. **G01-M** demonstrated a conditional on-shell hypothetical magnetic material source with positive restricted static Hessians, but its original R3B field remained off shell, with `0.0017517348699577814` relative mode mismatch and `0.043556344656783694` forced-source residual. The protected R3B prescribed-field capacity remains `1.5429162116460216 J`, and the historical fully loaded acceleration remains `−129.67185782242464 m/s²`. No Einstein/exterior gravitational bridge, real microscopic source, whole-craft lift or certified complete sub-10-MJ device has been demonstrated. Physical-research maturity remains approximately **37% heuristic**.
+
+**Three high-information major runs remain before the user decides whether to continue the project.** Use maximum available mathematical, physical and implementation reasoning to choose the most consequential next experiments; the proposed G01-N/O/P sequence is not binding. We need genuine physical source-to-gravity and whole-craft closure to justify 50% completion, not more toy-model tests or field fitting. Run focused tests, independent verification, conservation/negative controls and SHA-256 evidence, but **DO NOT execute the approximately 15-minute full repository regression unless absolutely necessary and specifically justified**. Keep documentation work limited to the notes and codebundle, preserve all historical artifacts, and provide complete separate paste-ready Bash APPLY and VERIFY blocks for any new experiment.
+
+---
+
+**END OF MASTER CARRY-OVER — G01-M CLOSEOUT / THREE-RUN PHYSICAL GRAVITY RESEARCH HANDOFF**
+
+# ANTIGRAVITY_RESEARCH — R3B handoff after G01-S
+
+**Evidence cutoff:** November 21, 2026, Central time. Several immutable run IDs use November 22 UTC. **Planning estimate:** approximately 37% physical research maturity. **Qualified physical gravitational survivors:** zero. **Conservative GR reference:** 006D, unreplaced. **Next experiments proposed below:** unexecuted.
+
+## 1. Paste this introduction into the next session
+
+Our flagship is R3B at **1.5429162116460216 J** of prescribed mixed-field capacity. Our target is a finite onboard source producing at least **9.80665 m/s² outward throughout a finite neutral 1 kg torus at a true source-to-payload clearance of at least 1 m**, with a derived exterior physical metric and Earth-down/whole-craft-up interaction. The complete operating budget is strictly below 10 MJ. R3B’s corrected historical loaded minimum is **−129.67185782242464 m/s²**. Keep the original action, geometry, signs, source conventions and results as immutable controls. Our purpose in running artificial models is to learn how to change that loaded outcome.
+
+G01-S screened 24,200 range–radius pairs for onset, then tested a small number of loaded capacitor settings. The quadratic hidden-carrier law produced approximately **60.11** and **437.90 m/s²** minimum sampled upward acceleration on two refined branches, with an independently reproduced modeled ground reaction. Its charges were assigned, its matter distribution pinned, and its static energies about **7.473 and 7.734 MJ**. Use its fixed-charge variation, constitutive comparison, independent solver and force-by-work check. Its charge, scalar, capacitor geometry, force values and joules have no demonstrated transfer to R3B. PH16-04R2 supplies a different donor for varied matter sources. A previous action comparison already found that its portal curvature fails to transfer directly.
+
+Start with one short R3B source-and-loading audit. Identify a specific physical carrier or induced-current mechanism with independent parameter evidence. Derive its response in the R3B gauge basis, permit the loaded field to deform, and test the weakest point of the payload. Advance one candidate only if that audit identifies a physical source, an allowed outward response and a viable SI scale. Use one conditional finite-body calculation for the source, torus, exterior metric and whole assembly, with independent verification. **Tonight is a decision deadline.** Approximately 37% is the defensible estimate until independently checked physical source-to-gravity and whole-craft closure changes it. The earlier campaign counters have been overtaken by completed runs through S.
+
+## 2. What counts as 50%
+
+The percentage is a planning judgment. It has no calibrated relation to probability, elapsed compute time or the number of equations solved. There is no evidence-based estimate of how many runs will produce the missing physics. The following criteria give two reviewers a way to agree on what the next result earns.
+
+| Question | Evidence now | Evidence needed for a 50% physical-model decision |
+|---|---|---|
+| What carries the source? | R3B multipoles are prescribed. M has effective magnetic material. PH16 has hypothetical charged fields in canonical lattice units. S specifies ideal electrode charges. | Finite, localized matter or a physically supported bound current, with charge preparation, confinement, parameter provenance and SI normalization. Source equations must determine the fields on shell. |
+| What acts on a neutral body? | R3B preload attains the floor. Its strong loaded mirror turns inward. S gives two positive conditional scalar responses. | One action with a universal physical metric, reciprocal matter variations, the measured loading effect and an outward lower bound on the finite torus with spatial, discretization and parameter uncertainty included. |
+| How does the interaction cross the gap? | Several solved exterior field kernels. S has an exterior scalar and a finite computational boundary. | Exterior solution matched to the candidate’s interior and to its metric equation, with tractions, falloff, stand-off, boundary/domain sensitivity and the source of the sign accounted for. |
+| What moves the whole craft? | ALPHA and BETA give artificial reciprocity. Q found a weak positive carrier-force case. S has a modeled ground translation derivative, vacuum stress and independent work check. | On/off external force for the entire craft and opposite Earth reaction from the same solution. Include all carried material and fields. State whether the computed upward force overcomes total weight. Derive each side or a verified control-surface equivalent. |
+| Is the solution physically credible? | Restricted equilibria and energy components exist. Complete energy, constrained dynamics and empirical closure are open. | Enough source health, physical parameter evidence, conservation and scale checks to support the four claims above. Report remaining stability, empirical, quantum and engineering obligations individually. A known fatal contradiction precludes promotion. |
+
+A 50% **research** assessment can precede final engineering, full operational-cycle certification and exhaustive stability tests. A certified mission-capable model additionally needs all the specified health, empirical/quantum and energy gates, including complete operating energy **strictly below** 10,000,000 J. An independently verified exclusion closes a class of hypotheses. An underdetermined result identifies missing inputs. Neither supplies affirmative device evidence.
+
+## 3. Recover the scientific parents before changing equations
+
+The Mac checkout is `$HOME/Desktop/antigravity_research`. The runner packages in this session live under `$HOME/Documents/ChatGPT/ANTIGRAVITY_RESEARCH/results/gravity2`. The checkout contains `NOTES.md`. Its final handoff ends at G01-M. The reviewed codebundle, `codebundles/ANTIGRAVITY_RESEARCH_CODEBUNDLE_20261121-184729.md`, contains 1,002 files, includes L/M, and predates N–S. Its SHA-256 is `ba7ba63dff7b31a14671b84cd4a2e59d6da253957d958940c24bceca839220c6`. Use the separate result archives for later source and data. Existing build plans and journals retain their original dates and purposes.
+
+Start with these files relative to the checkout. The spelling `prefight` occurs in the actual filenames.
+
+| Parent | File or directory | Why read it |
+|---|---|---|
+| R3B preload | `results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json` and `src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py` | Original two grids, electric mirror of the magnetic multipoles, geometry, normalization and acceleration criterion. |
+| Actual mixed loaded failure | `results/data/032h17a12d1r3x1_lorentzian_sign_audit_summary.json` and `results/data/032h17a12d1r3x3b0_inverse_loading_summary.json` with their R3X1 and B0 modules | Signed Gauss/Ampère operators, direct solution, inverse residual and limits of onboard compensation. `hook17_f2_strong_payload_loading_rescue.py` is a protected **A12C F²** dependency. ACTION01 explicitly corrected the historical classification. Use the mixed R3X1/B0 result for the R3B sign. |
+| Universal metric and interface | `src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py`, `results/data/delta1_02_20261120T172005211391Z.json` | How the same metric derivative determines acceleration and reciprocal loading. |
+| Joint material-source donor | `src/antigravity_research/ph16/ph16_04_joint_stationary.py`, `results/data/ph16_04_20261118T164454314313Z.json`, `results/gravity2/act0_runs/` | Fixed Noether numbers, material and field variation, lattice and transfer limitations. |
+| Two-sided shell and material donor | `scripts/g01k_source_v1.py`, `src/antigravity_research/gravity2/g01l_core.py` and `g01m_core.py`, plus L/M run directories | Regular interior magnetic kernel, shell metric variation, effective material current and exact-target failure. |
+| Most recent artificial donor | `results/gravity2/g01s_capacitor_miner_v1/{produce,verify,loaded,compare,audit,run}.py` and the five result JSON files | Separates the onset scan from the loaded problem and its independent implementation. |
+| Governing context | `RESEARCH_BUILDPLAN.md`, `ARTIFICIAL_BUILDPLAN.MD`, `AGMINER_BUILDPLAN.MD`, `INTROSPECTIVE_BUILDPLAN.md`, `FORMATTING_AND_CODE_STANDARDS.md`, `gravity2buildplan.md` | Physical strategy, artificial branches, past exclusions, implementation and reporting. A historical NEXT label does not supersede later executed evidence. |
+
+### What the 1.54 J number measures
+
+R3B started with A12C’s localized magnetic field, expanded its exterior through spherical multipoles and constructed an opposing electric mirror. In the ideal exterior conventions, $E=-B_A/\sqrt{2}$, $B=+B_A/\sqrt{2}$. A regular harmonic electric interior gives a surface charge distribution with zero net monopole. After field normalization to the minimum torus acceleration, the prescribed energies are **1.4667459954338413 J** at $h=0.075$ m and **1.5429162116460216 J** at $h=0.050$ m. The parent records a relative grid difference of about 4.94%. Quote the fine-grid value with its provenance. The printed precision identifies the archived value. Continuum uncertainty remains open.
+
+The R3X1 convention gives $D_X=E_X+\theta B_Y$ and $H_Y=B_Y-\theta E_X$. At full reciprocal loading the coarse/fine minima are **−46.4060741 / −129.6718578 m/s²**. The fine-grid field energy is **1.5211390382733165 J**, with reference peak loading coefficient about **18,987.28**. Both grids fail the sign. The exact limiting continuum value of the negative hotspot has not been established. The favorable preload has essentially no margin above 1 g by construction. Re-normalizing a solved configuration *after* loading changes the source problem.
+
+B0 calculated the additional currents required to keep the exact old field under loading. Their support extended outside the onboard source region on both tested grids. An early baseline electric-support warning and B6’s later correction to an interface/source artifact must both remain in the record. B0 explicitly leaves open a **different on-shell field profile that produces the required physical acceleration**. This is the opening worth testing. R3A’s ordinary-material suppression of about $1.84\times10^{15}$, B14/B16’s nonconverged −410.388913 m/s² hotspot, B15’s rotation-only test and B16’s weak-loading test are separate results.
+
+## 4. What the earlier campaigns bought us
+
+| Evidence | Transferable finding | Limit or prior failure to preserve |
+|---|---|---|
+| 006D | Positive-energy, locally conserved stress-energy gave outward near-field behavior in linearized GR. Recorded NEC/WEC/DEC pass in scope, positive far active mass, $C=23.591586299249$. Useful sign and stress-energy control. | Catastrophic inverse-$G$ scale. For orientation, a Newtonian monopole giving 1 g at 1 m needs about $1.47\times10^{11}$ kg. This scale comparison is not a bound on every modified action. |
+| 018B/018C, 022A, B7/026, 024–031, AGMINER and Introspective | Source existence, coupled stability, finite-field resolution, interfaces and earlier exclusions are separate gates. Introspective retained a raw ≥1,000× signal. | 018C’s instability, closures through 022A and incomplete continuum source certification remain relevant. B7’s 1.5473042949759672 J and B1’s roughly 0.275–0.301 MJ are field-only comparisons. |
+| A12B/A12C | Protected massless U(1) in tested scope. Prescribed F² capacity **2.6568591420597114 J**, historical COM response about 15.04217 m/s². | Preserve as a distinct backup. It contributes neither sourced energy nor a loaded certificate to R3B. |
+| R3X3B2–B13 | Minimal massive Dirac axial U(1) source failed its protection gate. B5 tested a minimal dynamic axion against the exact old mirror. B7 tested finite-width neutral charge geometry. B8–B10 covered spherical interfaces, exact local cancellation and common stiffness. | Exact cancellation of the tested reciprocal coupling also removed the same-channel material force. B11–B13 tested causal, source/support and common-source problems. A repeated parameter scan needs an actual change in the equations. The open signed-cycle question requires recoil, losses and recovery through a complete cycle. |
+| ALPHA-1 / M5V | Use one discrete action for both translations, matched quadratures, exterior and interface checks. Recorded prescribed Earth/craft derivatives −11.395675919/+11.397230073 J/m, residual +0.001554154 J/m, 50/50 cases. | Earlier M5N cross-grid mismatch was 81.458%. Source/interface materials and provenance issues remained. ALPHA is frozen artificial evidence. |
+| BETA-1 / 04 | Explicit reciprocal force check gave −0.1262097349021427/+0.12620973490214274 in the toy model. | Prescribed opposite scalar charges supplied the sign. No inference to ordinary Earth, neutral matter, or physical R3B. BETA stays frozen. |
+| PH1–PH15 | PH12 trap-free hypothetical Q-ball $N\simeq79.20,E\simeq78.67$ canonical. PH13 restricted Hessian +0.066394 but coupled Schur −0.429997. PH14 neutral spherical solution had zero induced Y through gradient alignment. PH15 winding attempts failed. P10 used a nonspherical source/X equilibrium and generated first-order Y. | PH13’s small Y was off shell. PH15-P10 lacked reciprocal Y backreaction. A nonspherical source and a nonzero current need their own field equations. |
+| PH16-04R2 | Joint discrete source/X/Y and neutral-fluid stationary Routhian. Fixed numbers 400/400, beta 40, 12 identities, 19 gates. Three residuals $(6.81,6.53,9.28)\times10^{-8}$. Strongest source-equation donor. | Difficult 18/L12 weak seed stayed near 0.01877. Fixed-box ring kernel and local gradient discretization have an unresolved continuum connection. No SI source scale, full Lorentzian spectrum, Earth or Einstein exterior. |
+| GAMMA and GRAVITY2 ACT0, ACTION01/02, bridges 03A and 05–08 | R11 identified a constrained rank-two Schur issue. R12, post-R12 D0 and N1 executed. ACT0 compared the **actual** linear R3C/R3B-family portal with PH16’s $0.05P-40P^2$. Under nonzero linear rescaling $P\mapsto sP$, the curvature difference is $-80s^2$. GRAVITY2 07 solved nonlinear Y in periodic geometry. | R12/D0/N1 stayed scoped. A sign flip, rescaling or matching one background cannot transfer PH16’s loaded Hessian. Bridge 03A blocked a loaded solve. Bridges 05/06 left supported sources underdetermined. Bridge 08 found a periodic Gauss zero-mode obstruction to the 07 parent with one charged scalar and no compensator. |
+| DELTA and F0 | For $\tilde g=e^{2\sigma(P)}g$, weak static $\mathbf a=-c^2\sigma_P\nabla P$ and matter coefficient $\lambda=e^{4\sigma}T\sigma_P$ use the same derivative. In this convention $\nabla\lambda\times\nabla P=e^{4\sigma}\sigma_P\nabla T\times\nabla P$. DELTA1-02 measured independent-gradient fractions **0.001592 / 0.001763** for the tested second invariant. | F0C continuum source underdetermined, F0D homogeneous quadratic with its natural boundary obstructed, F0E/R1 needed unmeasured material/switching data, F0F fixed topological four-form had zero *direct* Hilbert stress, F0G exterior-only dipole gave inward weak-field contribution. These conclusions have different assumptions. |
+
+## 5. What each recent experiment changed
+
+| Run | Result and implication for R3B |
+|---|---|
+| Large GRAVITY2 replay | 8,192 finite-dimensional response cases, five toy nulls, zero new physical experiments. A larger catalogue of sign changes does not locate physical matter. |
+| H | At the illustrative 10 MJ Maxwell-dipole reference the exterior integrated stresses were diag(4,4,2) MJ. Stationary completion needs compensating stress. Under the stated DEC support assumptions the total reference floor was 14 MJ. Apply the bookkeeping method to the actual source before assigning any number to R3B. |
+| I, J | I’s accepted v2 independent audit gave a 0.22486508919489484 J electric mirror and a remaining 1.3180511224511268 J prescribed partition. Preserve the earlier exact-float verification drift. J required mode response $-(2\ell+1)/(\ell+1)$. The dipole carried about 99.99994% of the weighted charge norm, hiding higher-mode errors. Report local errors as well as global norms. |
+| K | Shell BF plus kinetic mixing matched the twelve-mode electric response to ~$1.4\times10^{-16}$ with $R=K=2,g=4,H=8.2$. Magnetic drive was obtained by substituting the desired field. A positive source-free quadratic equilibrium returns zero. |
+| L | For regular source-free Maxwell interior and exterior, $M_{\ell}=R/\ell+R/(\ell+1)$, electric $A_{\ell}=R/(2\ell+1)$. At $R=2,\ell=1$, interior 2 plus exterior 1 gives 3. Interior magnetic proxy $3.7217\times10^{11}$ **canonical** and interior/exterior ratio 1.99999989. Hodge-dependent shell terms contribute stress. Apply this result to its shell reduction. Altering the original R3B energy requires rederiving its own source and normalization. |
+| M | A localized magnetization order parameter with gradient stiffness, negative quartic and positive sextic produced a conserved surface current and a joint spectral equilibrium. Passive convex M0 had only the zero solution. Restricted on/off Hessian minima +0.0938030/+0.0595238. Relative 12-mode mismatch 0.001751735, peak angular mismatch 0.00382151, forced-original material residual ~0.0435563. The parameter $r$ favored the dipole. Real Y material, 4D supports and SI source cost remain open. |
+| Preload gap | Fitted field energy between radii 2 and 3 m was 0.200716 J coarse and 0.210985 J fine. For a static two-body force carried solely by Maxwell stress across every enclosing vacuum cut spanning 1 m, the traction-energy bound is $U_{\rm gap}\geq \lvert F\rvert d$. Carrying 9.80665 N across 1 m requires at least 9.80665 J in that gap under these assumptions. The fit falls short for that interpretation. A new metric carrier needs its own momentum and stress accounting. |
+| N | Charge-driven dipolar shell at 1,000 and 21,147.425 eV reproduced conditional exterior amplitude. All-space static field energies 2.843–2.928 MJ across four material cases. Hidden response and bright charge sheet were inputs. Load, supports and craft response remained open. |
+| O | At those two scales, respective laboratory maxima for the bright fraction 0.664923 and 0.666534 conflicted with energy minima 0.99999958 and 0.925584. The vacuum exterior floors at the assumed lab bound were ~$1.208\times10^{13}$ J and 61.914 MJ. Conclusion is conditional on the lab-to-source transfer, two scales, passive material and the specified source family. |
+| P | Ideal bright conducting electrodes plus centered linear bead gave force ratios about 1.000048–1.009803. In the sampled ideal apparatus geometry, electrode effects did not provide O's required suppression. The actual apparatus, measured fit, raw time series, charge retention and mixed-source bead response were unresolved. |
+| Q | Fixed bright dipolar drive near a model ground usually acted inward. Best positive case, high scale/dielectric/2 m, was +9.22186 N or **0.000397801 of shell weight**. No payload in Q. This is an electromagnetic carrier/ground check. |
+| R | Finite-range, linear, unscreened scalar transfer. 242 range rows on three meshes, 219 axial rows passed the relevant sign screen. Relaxed minimum $\alpha^2 U=3.7245\times10^{13}$ J, axial $3.2185\times10^{14}$ J, volume-only floor $4.5267\times10^{10}$ J. In the directly compared 0.2–2 m band the archived lab cap gave energy near the two optima of $3.10\times10^{15}$ and $2.68\times10^{16}$ J. The comparison assumed ordinary unscreened scalar charge and did not refit laboratory data. Simply adding like canonical unscreened scalars retains a target-volume bound. |
+| S | Tested a new, quadratically activated scalar/capacitor, then compared two distinct Maxwell constitutive laws. This produced the first favorable numerical result in this sequence with the particular loaded-torus and modeled-ground diagnostics below. Its source and action differ from R3B. |
+
+### G01-S in sufficient detail to reuse it
+
+The atlas used outer radius 2 m, 100 inner radii 0.5–1.98 m, 241 finite ranges 0.003–3,000 m and a massless control, on radial meshes 32/64/128. Those are **24,200 distinct onset cases, not 24,200 loaded spacecraft solutions**. Finest grid minimum onset parameter $\eta=1.1472875569\times10^{37}$. Independent Rayleigh–Ritz checks covered 55 thresholds with maximum relative error 0.0001066. The continuum bounds and the grid minimum are distinct outputs. The ordinary-photon comparison in the leading composition-sensitivity model missed its necessary interval by a factor of at least 9,818.77. The recorded upper bound on the ordinary-to-source projection ratio is 0.000101846 within the stated massless canonical mixing model. Rotating one ordinary charge direction projects both the drive and the ordinary material response.
+
+The loaded runs fixed range 1 m, radii 1.50161616/2 m, $\eta=2.85709\times10^{38}$, 0.27 kg/m² foils, a 1 kg fixed-density torus at 1 m true clearance and a 2,000 kg/m³ smoothed planar ground. The 1 m nominal **ground** clearance is a different distance. The scalar energy was canonical and positive, with $K=c^4/(4\pi G)$. Matter used $\tilde g=e^{b\phi^2}g$. The energy was varied at **fixed total charge** with the Maxwell distribution re-equilibrated. For $Z=\exp(\eta\phi^2/2)$ the initially promising 12.96 m/s² fell to 8.49 and 6.39 with refinement in the candidate lane. The changed law $Z=1+\eta\phi^2/2$ produced the following results. It has the same small-field onset slope in $\phi^2$, with a different large-field response.
+
+| $k=b/\eta$ | Minimum sampled $a_z$, primary / independent (m/s²) | Ground force up on craft, primary / independent magnitude (N) | Independent force by work (N) | Active static energy, primary / independent (MJ) |
+|---|---:|---:|---:|---:|
+| $3\times10^{-14}$ | 60.11179 / 60.13804 | 30,165.13 / 30,313.97 | 30,326.97 | 7.472835 / 7.472771 |
+| $3\times10^{-13}$ | 437.90449 / 438.60598 | 28,988.23 / 29,300.81 | 29,333.48 | 7.734019 / 7.734062 |
+
+The producer’s finest angular grid was 240. The independent triangular solver used 78 and 138 angular subdivisions, its own Maxwell elimination and scalar iteration, dense torus sampling, and changes of ground separation at re-equilibrated fixed charge. The explicit material ground force vanishes in the zero-density control. Residual numerical plane stresses decrease under refinement. The modeled foil-plus-torus mass was 22.2222 kg. Earth was a pinned smoothed density and weight was prescribed. The archived automated selection favored $3\times10^{-13}$ for acceleration. For a **numerical control** prefer $3\times10^{-14}$ for its lower energy and closer two-solver agreement. Neither value is an R3B coefficient.
+
+The lower case contains roughly 5.31613 MJ electric, 2.12377 MJ scalar and 0.03294 MJ conformal rest-energy increment. About 2.52716 MJ remains arithmetically below the ceiling before missing costs. The reference unscalarized charged capacitor was 9 MJ. For the stated radii the vacuum-equivalent capacitance is about $6.705\times10^{-10}$ F and $Q=\sqrt{2 C U_0}\simeq0.109857$ C **in the canonical hidden-charge normalization**. No measured material supplying ±Q was identified. The 9 MJ is a comparison state along a possible preparation path. Determine peak energy and recoverable work along an actual path before combining budget entries. S has no solved support mechanics, dynamical Earth, empirical hidden-carrier certificate, physical Einstein exterior or full on/off cycle.
+
+**What changing the law actually taught us.** In an isotropic electrostatic element at fixed displacement $D$, the electric energy density is $u_E=D^2/(2\epsilon_0 Z)$. Its contribution to the scalar stationarity equation is proportional to $-D^2 Z'(\phi)/Z(\phi)^2$. In a conductor at fixed total charge, $D$ also redistributes and must be solved at each material or scalar state. Matching the off-state curvature of $Z$ can therefore match onset while giving a different loaded response. For R3B this suggests a specific input. Obtain the finite-bias electric and magnetic response and its differential susceptibility for the proposed source in the actual X/Y directions. Use the response in the source and in the reciprocal field equations. The S capacitor cannot supply that constitutive data.
+
+**A direct transfer test already fails by symmetry.** The concentric ideal S capacitor is electrostatic. It supplies no Y magnetic multipole and its exterior capacitor electric field in the spherical vacuum reference vanishes. Its exterior force comes through a scalar. R3B requires a mixed electric–magnetic invariant and its spatial gradient. Mapping the S solution itself into those R3B fields gives zero mixed invariant in that electrostatic limit. Transferring the *response method* leaves a genuine question. Transplanting the S charge or force does not. As a scale illustration only, in the fixed-geometry S onset pencil the required coupling scales as $1/U_0$. Substituting 1.543 J for 9 MJ in that same pencil raises the required onset coupling by about **5.83 million**. R3B has a different action, so this scaling supplies no lower bound on it.
+
+## 6. Recommended strategy for tonight
+
+**Use one short source/transfer experiment and reserve one integrated physical run for a pass. Do not open a broad new artificial program.** This ordering maximizes the chance that a run changes the physical decision. There is no calibrated ranking of probabilities of a breakthrough. There is a clear ranking of dependencies: even a perfect numerical force measurement cannot identify a missing source.
+
+### First decision — one source law on the original R3B problem
+
+Provisional name **G01-T, R3B onboard-source and loaded-response audit**. This is a design, with no installed T provider or result claimed in this handoff. Begin by searching the existing ACTION, bridge, B2/B5/B6/B7/B9/B10/B11, PH and M rows for the *same action and source*. A change in a label, or freeing a coefficient already scanned, does not supply a new hypothesis.
+
+1. **Select the most grounded realization first.** Begin with a finite, neutral onboard assembly whose charge and circulating or bound current come from named microscopic degrees of freedom. Prefer an ordinary charged material with independently characterized polarizability, magnetization, remanence and support, *if* its coupling to the protected R3B fields can be derived. Write the charge vectors or induced-current operators in the canonically normalized X/Y basis. A measured ordinary magnetization establishes coupling to the ordinary photon. Its coupling to Y still requires its own evidence. If only phenomenological hidden charge or an arbitrary conversion coefficient remains, return **HOLD: missing physical carrier or coupling** and identify the single measurement or microscopic derivation that would change that status.
+2. **Abstract only what can be traced to that material.** One concrete candidate class is a finite, biased polarizable medium with comoving electric polarization and magnetic moment. In its rest frame the bound currents contain charge density $-\nabla\cdot\mathbf P$ and current $\partial_t\mathbf P+\nabla\times\mathbf M$, including the surface terms. Vary the material coordinates/order parameters, bias mechanism and interface. A covariant polarization tensor gives a current proportional to its covariant divergence, in the action’s declared sign convention. This supplies a Ward check. The value of the moment, a remanent state and any Y coupling require independent input. M already tested a hypothetical magnetic order parameter. The **new input required here** is physically justified source response in the actual gauge basis, with its SI cost and its coupling to the loaded R3B boundary. Two independently assignable shell drives would merely recreate K.
+3. **Write an action identity that could survive transfer.** Record the protected kinetic sector, mixed invariant $P_{XY}$ and the exact original matter coupling in parent normalization, the proposed source, supports, neutral fluid/solid, Earth, metric and boundary terms. Declare $(-,+,+,+)$, normal orientation, electrode ensemble, gravitational and auxiliary charges, which metric defines distances/masses, SI-to-canonical conversion, and physical preparation data. Derive currents, stresses and boundary conditions by variation. In the zero-new-coupling, original-source *control* limit recover R3B's parent equations where applicable. If a new state, operator or carrier changes the theory, record a **versioned R3B-derived candidate**. It earns its own energy and acceleration. Quotations of 1.542916 J continue to refer to the parent.
+4. **Test the current direction and support before building a mesh.** Can the physical free and bound currents generate the required mixed multipoles or a useful deformation while all independent sources remain onboard? Include the regular interior and exterior, zero net charge where required, current retention, winding/parity, the actual source radius including supports, and neutral-body response wherever matter is present. A single bright current direction remains a single direction after a gauge-basis rotation. Geometry can still provide both electric and magnetic moments, and an allowed interaction may induce Y. Determine those moments from the action. Off-board *effective polarization of neutral matter* is admissible if derived from universal coupling. A compensator secretly placed on the payload is an external source.
+5. **Ask for the observable that matters.** On the two parent grids compute the constraint-projected response of the **least accelerated material point**, monitoring all points and changes of the minimum’s location. At the old fine-grid worst point a new solution on comparable geometry needs a change of at least **139.47851 m/s²** to reach the floor. A successful center-of-mass change can coexist with an inward edge. Follow admissible source variations and coupled material relaxation. Do not optimize exact reproduction of the twelve preload coefficients. Treat any linearized improvement as provisional until full re-equilibration at 1 kg.
+6. **Use analytic bounds to eliminate whole classes cheaply.** For example, let $u$ contain the independent loaded field and material variables after gauge fixing and fixing the actual conserved numbers. For stationary residual $R(u,p)=0$ and physically allowed source parameters $p$, the tangent equation is $R_u\,du=-R_p\,dp$. Map the solution into the vector of pointwise accelerations including any explicit parameter derivative. Weight source directions by measured bounds, support and energy. A true left-null obstruction or certified inequality on the allowed response can eliminate a family *within its validity range*. Poor conditioning, a small singular value, or failure of a local optimizer warrants a conditioning report or HOLD. A tangent test at one state cannot exclude a distant nonlinear or symmetry-broken branch. Use fixed-charge energy only in its correct ensemble. Signed Lorentzian constraints must be reduced before interpreting a Hessian.
+7. **Make conservation and scale early gates.** Derive the independent gauge identities, both divergence conditions, Hilbert stress including metric/Hodge variation, shell traction and the diffeomorphism/Bianchi relation on shell. Check constrained kinetic/gradient signs and hyperbolicity in the proposed regime. Use PH13’s unrestricted Schur failure and ACT0’s curvature mismatch as controls. Calculate conservative SI bounds on field, charge preparation, supports and storage. Test whether the same couplings would already violate laboratory force, composition or clock constraints, with the experiment’s source, range and screening. Unknown parameters get intervals or HOLD. A provable operating-energy floor at or above 10 MJ closes the practical realization. A lower bound below the ceiling says only that the energy test remains open.
+
+**T output.** One signed, reproducible decision for each necessary gate, one action ID, evaluated source support, dimensional normalization, applicable material evidence, parameter intervals and numerical uncertainties. Attach the residual maps for charge, current and force, including material boundaries. Preserve a source-off control, a known inward control, a forbidden prescribed-countercurrent control and an independently differentiated material-current identity. A purely hypothetical nonzero equilibrium may justify a narrowly labeled artificial test, but cannot advance the real-model maturity by itself.
+
+### Second decision — one coupled finite-body run, conditional on T
+
+Provisional name **G01-U, sourced R3B-derived torus and Earth/craft test**. Launch only the survivor that can name its onboard material, field coupling, feasible source range, loading change and SI normalization. If no candidate qualifies by tonight, reporting the missing physical input is a completed research decision. Filling the remaining time with a wider S scan cannot repair it.
+
+| Component | Compute from the same action | What would falsify or withhold the claim |
+|---|---|---|
+| Source and load | Simultaneously vary X/Y, microscopic or anchored material coordinates, interfaces, supports and neutral matter. For sources prepared at fixed charges or Noether numbers, vary the chemical potentials or enforce the global constraints exactly. Follow off → on → fully loaded. | Returning target currents from inverse fitting, prescribing a stabilizing external trap, or holding a source fixed without deriving its reaction. |
+| Exterior and gravity | Solve the justified weak-field Einstein/physical-metric boundary problem with the complete source and support stress. Separate the Einstein contribution, any universal physical-metric contribution, and direct material forces. Specify an operational acceleration, e.g. neutral test masses relative to the supported local laboratory in the weak static limit. Check two neutral material compositions and track electromagnetic forces independently. | Only a scalar potential in a fixed box, an externally assigned metric, exterior-only Maxwell stress, or a composition-dependent fifth force sufficient to explain the signal. |
+| Finite torus | Evaluate the signed physical acceleration throughout 1 kg at an actual minimum 1 m from **every** active source component. Distinguish outward from upward when the geometry changes. Track minimum, its coordinates, distribution, COM, source and torus deformation. Reserve enough margin above 1 g for discretization, interpolation and parameter uncertainty. | A single inward region, clearance loss upon deformation, a center-only or mean-only pass, or an uncertainty interval crossing the floor. |
+| Whole assembly | At fixed physical preparation, use re-equilibrated work, $F_i=-\partial E_{\rm on\,shell}/\partial z_i$, for source/craft and Earth or a controlled Earth approximation. Compute independent vacuum-surface momentum flux and boundary/support tractions. Rerun the translation on both bodies or enclose each with a closed surface. Verify common-translation invariance and baseline-subtracted operating force. | Equal and opposite forces inserted by definition, missing Earth momentum, an unbalanced boundary, or thrust that disappears when the battery, supports or ejected/radiated momentum are included. A planar Earth approximation needs an explicit finite-body or controlled limit. |
+| Hardware and cycle | Include source and payload mass, supports, hull, battery and confinement. Quote gross reaction, whole-craft mass, on/off differential force and net upward force after ordinary weight. Evaluate static field, rest/binding *changes*, fabrication/preparation, peak stored energy, switching, dissipation, recovery and reset. Report inertial/gravitating inventory separately. | Counting only field energy, ignoring the opposite phase or radiation, or double-counting stored energy. If complete operating cost is unknown, retain that status even if a partial total is under 10 MJ. |
+| Independent checks | Use an independent discretization or variational derivation, alternative initial basins, a sequence of at least three successively resolved meshes where feasible, independent payload sampling, expanded exterior domain, clearly reported interface width and resolution, and at least one nonsymmetric mode check. Estimate errors in the *force and minimum acceleration*. | An optimizer success code, a small preconditioned residual or stable COM by itself. Oscillating extrema, unresolved tails or a sign that flips with the box imply numerical inconclusiveness. |
+
+For a large PDE, perform a coarse failure check first. Stop if input support or Ward identities fail, the wrong Lorentzian sign appears, or a rigorous bound closes the chosen action. Numerical failure with one seed is separately recorded. Preserve weak and warm starts, nonlinear continuation, per-field dimensional residuals, global constraint norms, force uncertainty and runtime. Predeclare what counts as passing, failing and requiring more resolution before looking at the favorable rows. An overnight extension would need a reason that the outstanding issue is computational.
+
+### When one more artificial branch would be worth it
+
+**No new broad branch tonight.** There is one useful exception. If a *named physically plausible source* survives the algebra but it is unclear whether compliant matter can reshape the R3B loaded field enough, run a small artificial upper-bound problem within T. Allow an explicitly generous superset of that material’s physically available current variations, with true onboard support, a conservative current/energy bound, the measured direction restrictions and the signed R3B equations. Maximize the minimum finite-torus acceleration. Provide a dual certificate or independent interval bound before treating a negative as exclusion. A verified upper bound below the floor prunes all members of that specified set. A positive relaxed solution identifies which response the physical source must actually supply. Its maximizing current is an artificial witness. If the set of physical currents itself cannot be specified, the artificial exercise has no decision value. ALPHA and BETA remain frozen.
+
+### Decision card for the next assistant
+
+| End-of-session outcome | Disposition |
+|---|---|
+| Missing R3B source coupling, material properties, normalization or non-arbitrary preparation | HOLD at ~37%. Name the missing datum and the one measurement, material calculation or derivation that could supply it. |
+| Scoped analytic, support, energy or empirical contradiction | Record FAIL for that candidate and exact assumptions. Keep the parent, A12C, 006D and alternative laws available under their respective claims. |
+| Numerically unresolved / mesh or basin dependence | Report NUMERICALLY INCONCLUSIVE. Retain worst case, uncertainty, authentic logs and a named convergence remedy. |
+| Positive artificial witness or a sourced material stationary only in canonical units | Record scoped progress and output a quantitative target for physical transfer. Retain the existing real-model estimate. |
+| Material physically grounded and on shell, but loaded gravity or external reaction outstanding | Report the precise physical gate earned and the outstanding one. A partial success does not fulfill the 50% definition. |
+| One source/action, physical exterior metric, independently verified loaded neutral response and external Earth/whole-craft closure | Reassess **50% or greater** explicitly against section 2. Document which energy, stability, empirical and engineering questions remain before any stronger device claim. |
+
+## 7. Operating GRAVITY2 efficiently on the Intel Mac
+
+The v6 registry audit in the S archive **and a fresh audit for this handoff** give `REGISTERED_TASKS=0`, active generation `649c08469be2d6e2deb09de77110982a223b952eb64f4a36a45b394d43e0f9a1`. The legacy candidate listings, older campaign-registry files, v5 campaign and v6 new-task registry have different meanings. H–Q used versioned scientific providers/runners. R/S used versioned providers supervised by the native GRAVITY2 watchdog. An empty v6 registry can coexist with those completed experiments. Replaying the v5 default campaign does not launch T or U.
+
+| Preset | Time ceiling | Soft RSS | Persistent output |
+|---|---:|---:|---:|
+| quick | 60 s | 384 MiB | 4 MiB |
+| short | 180 s | 640 MiB | 8 MiB |
+| focused | 300 s | 768 MiB | 12 MiB |
+| extended | 900 s | 1,536 MiB | 30 MiB |
+
+The v5 CLI accepts L0/L1 with one worker. S’s standalone wrapper used the engine watchdog and extended RSS cap, 24 MiB worker output limit, 240 s maximum for APPLY and an aggregate **600 s** allowance across its stages. The archived Desktop phases took about **56.2 s in total** and peaked near **461 MiB**. On a completed output directory stages with published results and runtime files can be reused. A near-instant replay may be cache reuse. Inspect the runtime JSON before estimating scientific throughput.
+
+### Read-only evidence check and miner preflight
+
+Paste from any shell on the project Mac. This checks fixed archive and parent hashes, all listed S member hashes on disk, registry status and the available v5 CLI. A mismatch stops the block. Use a separately versioned reconciliation if needed.
+
+```bash
+bash <<'CHECK_PARENTS'
+set -euo pipefail
+cd "$HOME/Desktop/antigravity_research"
+test -f pyproject.toml
+export PYTHONDONTWRITEBYTECODE=1
+py="$PWD/.venv/bin/python"
+test -x "$py"
+shasum -a 256 -c <<'PINS'
+9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11  results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json
+8c3a7de0fea08ebdc649992cb12e8942bf1ba7b72607f5c06cd56ae388caede5  results/data/032h17a12d1r3x1_lorentzian_sign_audit_summary.json
+0b37ba0acbf31da4aaa546fad5edbca448474fcf8a94f058d09bf0836161884a  results/data/032h17a12d1r3x3b0_inverse_loading_summary.json
+ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0  results/data/ph16_04_20261118T164454314313Z.json
+b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0  src/antigravity_research/ph16/ph16_04_joint_stationary.py
+d77a7a0eb70bab2d0f95e34f3ba8528d008d21785a0b7ff17754f7ee74cc0e52  results/gravity2/g01r_finite_range_miner_v1_UPLOAD.tar.gz
+27baff7a629815fc1e29be3159b1f5e11ccd30d79b288a364cba5bd21ff73526  results/gravity2/g01s_capacitor_miner_v1_UPLOAD.tar.gz
+PINS
+(cd results/gravity2/g01s_capacitor_miner_v1 && shasum -a 256 -c SHA256SUMS.txt)
+"$py" -IB -m antigravity_research.gravity2.registry_v6 audit
+"$py" -IB -m antigravity_research.gravity2.campaign_v5 run --help
+CHECK_PARENTS
+```
+
+### Optional fresh S reference replay, separate APPLY and VERIFY
+
+Use only to reproduce a control or to validate a new environment. On the original Mac the canonical evidence already passed. Both blocks below use a separate fixed replay directory in Documents. Repeat use resumes completed stages. For a genuinely fresh later replay, use the same new suffix in both blocks. The provider can be taken directly from the verified Desktop evidence package and requires the Desktop checkout’s editable scientific environment and parent archives. **These commands run S. T and U are research designs requiring new code.**
+
+```bash
+bash <<'APPLY'
+set -euo pipefail
+cd "$HOME/Desktop/antigravity_research"
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
+pkg="$PWD/results/gravity2/g01s_capacitor_miner_v1"
+out="$HOME/Documents/ChatGPT/ANTIGRAVITY_RESEARCH/results/gravity2/replays/g01s_handoff_01"
+(cd "$pkg" && shasum -a 256 -c SHA256SUMS.txt)
+.venv/bin/python -IB "$pkg/run.py" apply "$PWD" "$out"
+APPLY
+```
+
+```bash
+bash <<'VERIFY'
+set -euo pipefail
+cd "$HOME/Desktop/antigravity_research"
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
+pkg="$PWD/results/gravity2/g01s_capacitor_miner_v1"
+out="$HOME/Documents/ChatGPT/ANTIGRAVITY_RESEARCH/results/gravity2/replays/g01s_handoff_01"
+test -f "$out/science.json"
+.venv/bin/python -IB "$pkg/run.py" verify "$PWD" "$out"
+(cd "$out" && shasum -a 256 -c SHA256SUMS.txt)
+.venv/bin/python -IB - "$pkg" "$out" <<'PY'
+from pathlib import Path
+import json
+import sys
+
+original, replay = map(Path, sys.argv[1:])
+names = ("science", "verification", "loaded", "comparison", "independent")
+for name in names:
+    file = name + ".json"
+    match = (original / file).read_bytes() == (replay / file).read_bytes()
+    print(file, "IDENTICAL" if match else "DIFFERS_FROM_DESKTOP")
+report = json.loads((replay / "independent.json").read_bytes())
+print(report["status"], "physical_survivors", report["physical_survivors"])
+PY
+VERIFY
+```
+
+On another architecture, preserve any floating-point or dependency drift and assess it against predeclared tolerances. The independent verdict and a bytewise difference are separate facts. Different runtime metadata or differently named archive members can change the archive SHA even with byte-identical science. For new science, publish a new version, action and inputs. Do not overwrite or rename accepted evidence to make a comparison pass.
+
+### How to make a ten-minute *new* run count
+
+- Use the versioned S runner pattern for an actual new provider, or register it in a new compatible campaign generation after verification of the provider contract. Preserve old v8’s empty-registry assumption. Pin the new source, independent verifier, action, SI constants, parent JSON, transitive scientific kernels, engine/policy and numerical environment.
+- Use one worker and one BLAS/OpenMP/Accelerate thread. Record elapsed time per phase, RSS, stdout/stderr, mesh dimensions, candidate counts, arithmetic precision, parameters and seeds. Publish atomic results in a new directory with an exclusive-create or identical-content guard. Treat a timeout, partial phase or interrupted job as incomplete. Resume only from compatible, verified checkpoints.
+- Spend the first minute on parent identity, gauge/units checks and a cheap sign or support bound. Use the next few minutes on coarse-to-fine solves for the eligible source only. Reserve the remaining time for an independent formulation, force-by-work checks, vacuum/source-off and wrong-sign controls, seed/box refinement and the ledger. These are planning targets. A ten-minute timeout is not a convergence certificate.
+- Use symmetry, analytic multipole kernels, batched parameter evaluations, matrix-factorization reuse on unchanged operators and continuation *within a branch*. Independently restart a difficult point. Count distinct hypotheses, range–geometry cells, successfully loaded solves and independently confirmed cases separately. Do not count three meshes as three new physical cases.
+- For changed L/M source code use the relevant existing focused tests, e.g. from the checkout `.venv/bin/python -B -m pytest -q tests/gravity2/test_g01l.py tests/gravity2/test_g01m.py`. For a new provider add narrow failure/claim tests and a checker that can reject a deliberately wrong current, missing interior or reversed force. A verifier that calls the same residual function twice can catch drift but cannot establish an independent sign.
+- Ship each substantive new experiment with separate, complete, paste-ready Bash APPLY and VERIFY blocks for zsh/macOS. Record `FULL_REGRESSION=NOT_RUN` for the scoped workflow. The current project instruction reserves a full repository regression for specifically justified, separately authorized occasions. No Git operations or general miner rebuild are needed for this campaign.
+
+## 8. Evidence index and attachment order
+
+Start the next session with this handoff, the codebundle, the original R3B and R3X1/B0 JSON, the PH16-04R2 JSON/source, ACT0, L/M, the gap preflight and N–S Desktop archives. Include the R constraints JSON. On a machine with the Desktop checkout these already exist in place. Attach the older plans, journal and README for context. The cutoff of the notes, bundle and journals differs. A UTC date or a repeated pasted terminal transcript is not an additional experiment. The sequence in the recent five-run budget was gap preflight → N → O → P → Q, followed by the separately requested range scan R and its expanded successor S. L/M belonged to the earlier source campaign.
+
+The following are SHA-256 values of the actual Desktop files. For L–S the internal ledger entries were also checked against the archive member bytes for this handoff. S contains 22 ledger entries. For H–K the fingerprints below identify the accepted package, including I’s versioned audit. Paths are relative to the Desktop checkout, with N–S archives directly under `results/gravity2/` and H–M under their respective run directories.
+
+| Desktop archive | SHA-256 |
+|---|---|
+| `g01h_20261121T210401Z_69c83be4_UPLOAD.tar.gz` | `e0f11cf27b67d7b9fcd1b5100ff77e49b07784d95811fcc597248dfbbb002333` |
+| `g01iaudit2_20261121T211925Z_e9ef822f_UPLOAD.tar.gz` | `2538c0128b0c5daf6765968b795a2a05bb6ec041b9b06deb7c9d21a49e5beab9` |
+| `g01jbf_20261121T213657Z_282a797e_UPLOAD.tar.gz` | `32fe937689bf0242627e5e596242034aca77b136200cfa481fd0577d5cf6bd7c` |
+| `g01k_20261121T214747Z_7aba9bce_UPLOAD.tar.gz` | `f069f6c04d5be5b0851f52e2c41e63d189f10014dbbe867762fe06edc452e06b` |
+| `g01l_20261122T002340Z_d286fcf8_UPLOAD.tar.gz` | `9e8ca72576f17200845b75d4b3ca5fdc019d92248d606e021a05d6667a52294c` |
+| `g01m_20261122T003754Z_d9341d89_UPLOAD.tar.gz` | `06dc3e4deb9f0c3b75032230d2837782b2f58a675274d36bea983ca6dc9da53f` |
+| `g01n_shell_source_v1_UPLOAD.tar.gz` | `a1f9b4dbb374c2e857c2efacf1965436c3b52779f8967766b8bcb4f8ad3c8be4` |
+| `g01o_static_source_overlap_v1_UPLOAD.tar.gz` | `620202385ecebc57ef7e8fb5c5f64ec2c4017764114cdc569cb8464666671233` |
+| `g01p_electrode_transfer_v1_UPLOAD.tar.gz` | `33f0a710dde2f0ef3e1c297861deefc9c97f90bd9b9ef8f41963be2771d3d47f` |
+| `g01q_shell_ground_reaction_v1_UPLOAD.tar.gz` | `419077a8da4d1c0796b6675fb88487ffd59ffd27cd5a888fdf023e22c4e4b05f` |
+| `g01r_finite_range_miner_v1_UPLOAD.tar.gz` | `d77a7a0eb70bab2d0f95e34f3ba8528d008d21785a0b7ff17754f7ee74cc0e52` |
+| `g01s_capacitor_miner_v1_UPLOAD.tar.gz` | `27baff7a629815fc1e29be3159b1f5e11ccd30d79b288a364cba5bd21ff73526` |
+
+**Scientific artifacts to compare across machines**
+
+| Artifact | SHA-256 |
+|---|---|
+| `r3b_gap_preflight_v1/science.json` | `d5e0f8ac515e2247cce2b2c252136e9aea140c7973d8b0820c3e6d3db94f522e` |
+| `r3b_gap_preflight_v1/verification.json` | `2d4b116fd7e8693eac9e314e697e68364ac190262465e25ae92119af8f332396` |
+| `g01r_finite_range_miner_v1_constraints.json` | `37bc6a6dc0cd92174e9018701a70bc1c17bd9b33b0971a8bcfb15c41eceb4b44` |
+| `g01s_capacitor_miner_v1/run.py` | `5ca5456b370fa4de4b11b894cb82945122a87af36078d287f46395eddb1056ef` |
+| `g01s_capacitor_miner_v1/science.json` | `eda762f4f920130fc01d4dc088f9ffd957149079f387b6fdd5b5958ce1c7968c` |
+| `g01s_capacitor_miner_v1/verification.json` | `fa49650a633aff04c81e9d357125fd6c32fa531f98faa19e3a8728b2d0e8c222` |
+| `g01s_capacitor_miner_v1/loaded.json` | `9bd304b6cdaa7ec99259d0733b271128d502a82e3781db91ec2e00a21694afa5` |
+| `g01s_capacitor_miner_v1/comparison.json` | `85ff6d6fb682c22522a358d220ea4b46a1f8b6c8ace7a131936adafd1a1704ac` |
+| `g01s_capacitor_miner_v1/independent.json` | `74a42734227e79325a19085c788f7bfe640c00888a39ed409f608247c0e13299` |
+
+S’s five scientific JSON files matched the earlier staged run byte for byte. The earlier staged archive had SHA-256 `2cda8430ae3ee67d892d328a8ed72a61ffca5ccdc4b54832fb595ce2014332c6`. The separate Desktop archive in the table is the one produced by the user’s replay. Each archive’s ledger binds its own runner, providers and logs. The earlier package and Desktop package can therefore both be identified unambiguously.
+
+### External sources used in comparing a proposed material
+
+- **Rider et al.** measured a levitated microsphere near a gold-coated silicon cantilever and calibrated electrostatic backgrounds. Use the measurement geometry, composition and coupling observable when evaluating O/P’s transfer. O/P did not reconstruct the real apparatus likelihood. [Rider et al., Phys. Rev. Lett. 117, 101101](https://doi.org/10.1103/PhysRevLett.117.101101)
+- **Goodkind et al.** tested the inverse-square law at laboratory mass separations. In the paper’s convention the 95% bound was 0.012 times Newtonian strength for ranges from 0.2 to 2 m. R records its transfer to a universal unscreened scalar in the constraints JSON. A screened, driven or composition-dependent candidate requires its own prediction for the measurement. [Goodkind et al., Phys. Rev. D 47, 1290](https://doi.org/10.1103/PhysRevD.47.1290)
+- **Damour and Donoghue** give the composition-dependent scalar-charge framework used for S’s ordinary-photon sensitivity comparison. **MICROSCOPE** provides a complementary differential-acceleration measurement with titanium and platinum test bodies in Earth orbit. For a meter-range or environmentally activated candidate, derive its field at the experiment before applying any numerical limit. [Damour and Donoghue](https://arxiv.org/abs/1007.2792) · [MICROSCOPE final result](https://doi.org/10.1103/PhysRevLett.129.121102)
+
+## 9. What to put at the top of the next result
+
+Give the candidate’s action ID and parent SHA, the one new physical input, its independent source and uncertainty, the exact historical failure whose assumptions it changes, the status of source support, minimum signed acceleration and actual clearance, and both signed external forces with numerical error. State which masses move, which are held fixed, where the field momentum goes, the active energy relative to its stated reference and every omitted operating cost. End with the count of physically qualified survivors, the justification for any maturity change and one decision for the following session.
+
+**Current decision:** retain R3B as the few-joule field reference, PH16 as the source-equation method, G01-S as the loaded-force verification method and 006D as the conservative gravity reference. The immediate research question is whether one independently grounded onboard source in the R3B gauge sector can sustain a deformed on-shell field under the 1 kg load. If the source cannot be specified, that physical input is the critical path for tonight.
+
+# ANTIGRAVITY_RESEARCH — EXHAUSTIVE NEXT-SESSION CARRY-OVER
+
+**Handoff scope:** November 22, 2026; latest evidence G01-U2 at 2026-11-22 17:39:46 UTC (11:39:46 CST).
+**Continuation branch:** R3B / G01-T0–T3 / G01-U1–U2 / GRAVITY2 research program.
+**Newly completed this session:** G01-T0/T1, G01-T2, G01-T3, G01-U1, G01-U2, with focused checks as recorded.
+**Next unexecuted fork:** `G01-U3A_FULL_ANGULAR_SOURCE_AND_RECIPROCITY_THEOREM_GATE` (proposed; NOT implemented or run).
+**Doc-update boundary for this handoff:** Update `NOTES.md` and regenerate a **code-only** codebundle from the live Mac checkout. Do not modify the standing buildplans, README, formatting standards, journal, or older artifacts in this transition.
+**Source-of-truth hierarchy:** immutable executed JSON, exact binary artifacts and SHA-256, executed source/logs > independently checked journal > NOTES > stale buildplans.
+**High-level scientific status:** No complete theory, no validated spacecraft lift, no complete <10 MJ operating-energy result, no replacement for 006D.
+**Do not infer success from a numerical pass, convergence of one subsystem, or from a heuristic progress score.**
+
+---
+## A. Ready-to-paste opening for the next session
+
+We are continuing `ANTIGRAVITY_RESEARCH` with attached updated monolithic `NOTES.md`, latest code-only codebundle, historical scientific buildplans, GRAVITY2 plan, and immutable G01-T/U results. **Only NOTES and the freshly generated codebundle were updated for this transition; README, ARTIFICIAL_BUILDPLAN, RESEARCH_BUILDPLAN, AGMINER, INTROSPECTIVE, formatting standards, and journal are older and were not edited.** Reconstruct the actual state from executed JSON, producer SHA, verification logs, current source, and then notes; do not mistake stale “NEXT” text in a prior buildplan for the newest completed run.
+
+The target remains an onboard finite, physically sourced universal-metric mechanism delivering at least **+9.80665 m/s² outward at every point of a neutral 1 kg torus** with at least **1 m genuine stand-off**, with Earth-down/whole-spacecraft-up force **derived rather than assumed**, dynamical health, exterior convergence, realistic source/support physics and **strictly less than 10,000,000 J complete operating energy**. The historical R3B result **1.5429162116460216 J** and A12C **2.6568591420597114 J** are prescribed field capacities, not sourced operational energies; 006D remains the positive-energy, locally outward linearized-GR reference with catastrophic ~1/G energy.
+
+This handoff adds G01-T1 exact source-control responses, G01-T2 exact quadratic optimization and optimistic 18,966.7093 J necessary modeled-field floor, G01-T3 a verified dual bound of **4.999999576 m/s² at 10 MJ for the 10-mode frozen-R3B family**, G01-U1 an outward **+10.78159587 m/s² scalar-only** axion-metric witness at **7.333333 MJ scalar-only** with enormous beta **1.998780722774814e23**, and G01-U2 a reciprocal radial-dipole test with strong source suppression, projected tiny roots and no physical survivors. U2 omitted the essential angular f2 mode and full scalar/material/Einstein equations. **No run has solved gravitational lift.**
+
+Maintain **overall physical-research maturity ~37%**, and separately report the **specific R3B blocker-resolution heuristic 33%** (67% remaining), inherited from G01-U2 assessment; neither score is a probability. The goal of 70% blocker resolution is conditional on physical progress, not a requested target to be assigned automatically. Prioritize one high-information action/source/reciprocal/full-angular theorem gate and use GRAVITY2 to explore bounded genuinely new operators, not repeat the closed ten-shell-mode family. Do not run full regression on every experiment; use sharply targeted scientific checks and SHA integrity, with a single milestone-level regression only when separately authorized. Deliver separate complete Bash APPLY / VERIFY blocks; preserve failed hypotheses, errors, scopes and all immutable archives.
+## B. Decision snapshot: what is true right now
+
+- G01-U2 is the latest executed branch; it is a **restricted static reciprocal Maxwell response** and not a full coupled axion/neutral/Einstein solution.
+- G01-T3 closes *the original ten ideal shell modes*, at fixed R3B loading, below the 10 MJ modeled field-energy cap on the 48-point fine payload sample; it does not close all electromagnetic sources or different actions.
+- G01-U1 has a positive conditional scalar-only force throughout its sampled 1 kg torus; it leaves gauge fields frozen and prescribes source geometry and calibrations.
+- G01-U2 reduces an integrated source projection dramatically but has a sign-changing, mesh-sensitive near-zero result at full G01-U1 amplitude.
+- G01-U2 finds projected roots of a single amplitude equation. These roots are not solutions of the full local scalar equation.
+- The G01-U2 positive projected root changes only 0.0380% between its last meshes; the largest negative root changes 3.4336%, still weak.
+- The 8 m box contains spurious positive projected roots not present at 16–48 m; not all apparent roots survive exterior enlargement.
+- G01-U2 f0-only outward-sign gate fails on part of the torus even before reciprocal branch reduction; the missing f2 is essential to interpret U1.
+- Original R3B loaded sign remains inward at both 0.075 and 0.05 m historical grids; no mathematical transfer from G01-U1 has repaired it.
+- The 1.542916 J R3B and 7.333333 MJ U1 numbers are energy components from **different geometries/models**; do not add or transfer them as if a common solved device.
+- No external Earth-down/whole-craft-up gravitational response is derived; no universal fully sourced metric solution is known.
+- No new operator is yet authorized as a physically sourced completion of R3B; only a *candidate axion-metric action motivated by U1* has a restricted signal.
+- 006D remains the conservative linearized-GR positive-energy repulsive near-field comparator, with energy too large for a device.
+- R3B’s optimistic field-only capacity remains a protected diagnostic reference, not a final engine.
+- Heuristic: blocker 33%, remaining 67%; overall 37%; 70% blocker is a conditional research milestone, not a run count.
+- No more runs were requested in the November 22 closing session; perform next computations only in a new session after verifying live codebundle/source state.
+
+## C. Scientific target, physical and numerical definitions
+
+### C.1 Payload
+- Requirement: Finite 1 kg ordinary electrically neutral matter, not one favorable test particle.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.2 Acceleration
+- Requirement: At every material point, signed outward a_z >= +9.80665 m/s².
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.3 Stand-off
+- Requirement: At least 1 m genuine exterior clearance from physical onboard source, not grid index or nominal separation.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.4 Onboard
+- Requirement: Matter, charges, stresses, active sources and all supports must ride the spacecraft; outside apparatus is not a free external power supply.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.5 Earth
+- Requirement: Earth responds down, via actual action and stress flux; no unphysical Earth-down/craft-up assumed by sign convention.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.6 Craft
+- Requirement: Net whole-craft upward external gravitational force, including its onboard field/source reaction, rather than payload-relative motion.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.7 Energy
+- Requirement: E_complete < 10 MJ strictly, including off-state, supports, sources, fields, matter activation, losses, recoil and burdened energy accounting.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.8 Action
+- Requirement: One covariant finite action for Einstein metric, all source degrees of freedom, gauge X/Y, neutral matter, supports, Earth.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.9 Gauge
+- Requirement: U(1)_X/Y Ward identities and exact covariant divergences; no fake monopoles or uncontrolled divergence violations.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.10 Noether
+- Requirement: Conserved source numbers only when legitimately derived from a dynamical source action.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.11 Bianchi
+- Requirement: On-shell divergence of full Hilbert stress, including external supports and metric-dependent Hodge terms.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.12 Health
+- Requirement: Constrained kinetic modes positive where required, no ghosts, no uncontrolled tachyons, full Lorentzian temporal stability.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.13 Geometry
+- Requirement: Continuum and exterior convergence, genuine source/payload separation, resolution at least across two independent spatial scales.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.14 Empirical
+- Requirement: Constraints from fifth forces, equivalence-principle tests, photon/hidden-sector couplings, local tests of GR and astrophysical bounds.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.15 Quantum
+- Requirement: Naturalness, EFT cutoff and source energy above cutoffs, radiation, radiative stability and strong-coupling checks.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.16 Claim
+- Requirement: A numerical outward acceleration in a prescribed scalar equation is a conditional fifth-force/metric ansatz, not established repulsive Einstein gravity.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.17 Reference
+- Requirement: Sourced 006D near-field stress GR witness has positive far mass and NEC/WEC/DEC; unsuitable energy.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+### C.18 Hierarchy
+- Requirement: Negative controls, exact identities, units and provenance before expensive PDE sweeps.
+- Gate: mark PASS only with explicit action-derived object, accepted artifact, and independently reproduced check.
+- Failure classification: record FAIL, HOLD, NOT RUN, or INCONCLUSIVE; do not merge these labels.
+
+## D. Evidence hierarchy, source authority, and contradictory-version rules
+
+1. Immutable data and producing code hashes decide what actually ran.
+2. Independent verifier logs decide which numerical properties were rechecked.
+3. A focused pass does not imply full repository test suite passed.
+4. SHA-256 validates bytes and provenance, not the physical correctness of assumptions.
+5. A theorem derived with explicit restrictions is stronger than a nonlinear optimizer failing to find a witness.
+6. A solved linearized PDE is not a proof of a stable fully coupled Lorentzian action.
+7. A converged scalar-only partial system is not a converged X/Y/scalar/matter/Einstein system.
+8. The November 20 `ARTIFICIAL_BUILDPLAN.MD` is outdated relative to November 21 G01-S and November 22 T/U runs; it remains a historical authority for scientific constraints, not an up-to-date run log.
+9. The README last updated November 18 is stale for G01-T/U; do not silently edit it during this handoff.
+10. The supplied November 21 21:41 CST codebundle predates G01-T0/T1 and every U script; it cannot establish the live Mac implementation of them.
+11. `NOTES(20261122-035117).md` is newer than the older 3.2 MB `NOTES.md` upload and is used as the monolithic base for this supplement; neither alone contains T/U.
+12. The journal bundle supplied from November 20 does not include the latest T/U executed sessions; preserve it as an older independent archive.
+13. New handoff content is a **new appended section**, not a backdated alteration to historical notes.
+14. A source-hash mismatch in a new experimental script can be a literal transcription error; inspect before declaring parent scientific data corrupt.
+15. The failed G01-T3 first attempt had a 41-character shortened expected parent hash; the repaired producer SHA supersedes that failed script state. Keep the failure in history.
+16. An interrupted `pytest` log of periods does not establish a passed full suite; only explicit completed summary does.
+17. For any future run, pin both parent science SHA and parent source SHA; preserve both outputs of actual and independently verified checks.
+18. The 33% blocker-resolution heuristic is a user-requested subjective planning index; its reporting is separate from data qualification.
+19. The 37% overall physical-research heuristic is a separate broader estimate and cannot be raised merely by additional optimization runs.
+20. Preserve `006D` and each identified failure with its exact scope; reopen only for a genuinely new physical assumption.
+## E. Historical source and theory inheritance — 006D through PH16
+
+## E1. Immutable historical milestones
+
+### E1.01 006D
+- Recorded result: Finite conserved positive-energy linearized GR source; outward near field, positive far active mass, NEC/WEC/DEC scoped pass, C=23.591586299249. ~1/G energy barrier.
+- Scientific status: strong comparator; unreplaced.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.02 018B/018C
+- Recorded result: Preserve stress/source/constraint lessons, no invented repairs.
+- Scientific status: historical closure/failure.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.03 022A
+- Recorded result: Preserve and check exact limitation in archive before reuse.
+- Scientific status: historical closure.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.04 B7/026
+- Recorded result: Preserve finite neutral resolution, nonconvergence and 026C N=89 pending.
+- Scientific status: not solved.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.05 024–031
+- Recorded result: Archive preceding symmetry, metric and finite-payload attempts.
+- Scientific status: do not rescan without new physics.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.06 AGMINER
+- Recorded result: Prior failed classes, source protection, causal and quantum checks.
+- Scientific status: negative-control donor.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.07 Introspective
+- Recorded result: RAW_GE1000X_SIGNAL=PRESENT; CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO.
+- Scientific status: raw signal not a source.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.08 A12B
+- Recorded result: Scoped protected massless U(1).
+- Scientific status: protected field basis only.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.09 A12C
+- Recorded result: 2.6568591420597114 J prescribed F² capacity; COM ~15.04217 m/s² in its prescribed geometry.
+- Scientific status: unsourced; separate backup.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.10 R3A
+- Recorded result: 1.84e15 suppression failure.
+- Scientific status: preserve.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.11 R3B
+- Recorded result: 1.5429162116460216 J prescribed mixed-field capacity.
+- Scientific status: main optimistic field-only comparator.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.12 R3X1
+- Recorded result: Corrected Lorentzian sign; 0.05 m strong loading -129.67185782242464 m/s².
+- Scientific status: decisive loaded-sign failure.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.13 B6
+- Recorded result: Artifact fix, not physics rescue.
+- Scientific status: preserve.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.14 B7 energy
+- Recorded result: 1.5473042949759672 J scoped field capacity.
+- Scientific status: unsourced.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.15 B1
+- Recorded result: 0.275–0.301 MJ field-only.
+- Scientific status: not complete device.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.16 B11–B13
+- Recorded result: Prior physical obstruction/failure classes.
+- Scientific status: preserve.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.17 B14/B16
+- Recorded result: Nonconverged -410.388913 m/s² inward hotspot.
+- Scientific status: not outward.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.18 B15
+- Recorded result: Angle-only and weak loading fail with B16.
+- Scientific status: not transferable.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.19 ALPHA M5V
+- Recorded result: Artificial inverse action Q=gamma(0.5*uTHu-uTWj), 50/50 cases, 1803 tests; Earth/craft derivatives -11.395675919/+11.397230073 J/m, residual +0.001554154.
+- Scientific status: prescribed; not thrust.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.20 BETA1-04
+- Recorded result: Conserved 1D scalar toy; opposite forces -0.1262097349021427/+0.12620973490214274, 43/43, 2548 tests.
+- Scientific status: opposite charges prescribed, not gravity.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.21 PH12
+- Recorded result: Hypothetical trap-free Q-ball N~79.201926, E~78.666865 canonical.
+- Scientific status: full physical stability open.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.22 PH13
+- Recorded result: Restricted Hessian +0.066394; failed coupled Schur -0.429997; off-shell Y ~2.14608e-6.
+- Scientific status: coupled stability fails.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.23 PH14
+- Recorded result: Neutral spherical stationary source N±~77.988373, E~161.5158905333 canonical, restricted lambda_min~+0.208838; on-shell nabla lambda cross E_X =0.
+- Scientific status: spherical Y null.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.24 PH15-P10
+- Recorded result: Nonspherical source/X stationary with induced Y at first order, without reciprocal Y backreaction.
+- Scientific status: partial only.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.25 PH16-04R2
+- Recorded result: Finite-lattice joint F±/X/Y neutral stationarity; 400/400, beta40, 12/12 identities, 19/19 gates, 60/60 focused, 2943 full tests, 11/11 hashes; residuals 6.80576e-8/6.53298e-8/9.28480e-8.
+- Scientific status: not Lorentzian Einstein/continuum/whole craft.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.26 PH16-04 failed predecessors
+- Recorded result: Original and R1 18/L12 failed at 2.09302811e-6; R2 same-iterate Krylov passed; weak seed failed 0.018773933.
+- Scientific status: uniqueness open.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.27 GAMMA1-00
+- Recorded result: Historical theorem-first exact bridge fork specified; no GAMMA run at Nov18 documented frontier.
+- Scientific status: do not invent executed GAMMA.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.28 DELTA1-02
+- Recorded result: 3304 full regression at checkpoint, 10 focused; exact portal reciprocity, Q gradient nearly collinear.
+- Scientific status: no physical survivor.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.29 DELTA F0
+- Recorded result: C/D/E/F/G surface/control, Hilbert four-form, Maxwell exterior and stiffness failure/conditional results described in latest notes.
+- Scientific status: keep each scoped claim.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+### E1.30 GRAVITY2 G01-H–S
+- Recorded result: Recent source/action, supports, electrostatic, scalar capacitor, ground force and cross-grid numerical atlases.
+- Scientific status: comparison donors only.
+- Transfer condition: show a different action-derived physical assumption; cite the old result and its SHA when the exact archive is present.
+- False promotion to forbid: no hidden source, whole-craft lift, complete operating energy or full stability inferred from this anchor alone.
+
+## E2. Historical failure-to-next-test transfer map
+
+- **006D:** Sign-correct positive-energy Hilbert-stress reference; require realistic SI energy and finite support.
+- **A12C:** Preserve field capacity but load the metric and neutral matter on the same action.
+- **R3X1:** Never evaluate candidate only on frozen/preloaded field; actual signed reciprocal load must pass.
+- **B14/B16:** A local favorable point does not imply torus-wide outward minimum; inspect worst-point location.
+- **ALPHA:** Matched source/Earth/craft derivatives should be used as a numerical method, not proof of propulsion.
+- **BETA:** Opposite forces in a prescribed charge toy are not Earth–craft gravity.
+- **PH14:** Parallel source and trace gradients null induced transverse Y, so angular misalignment must be derived.
+- **PH16:** Joint stationarity works discretely in an artificial canonical action, and shows how to structure Routhian and Noether checks.
+- **DELTA1:** Portal field reparametrization cannot simultaneously change necessary reciprocal response and keep prescribed acceleration unchanged.
+- **F0F:** Topological fixed scalar piece may have vanishing direct Hilbert stress; do not equate the portal field force to its GR self-stress.
+- **G01S:** Electrostatic source cannot supply missing Y magnetic mode by itself; scalar-on/off force is not full GR.
+- **G01T3:** Ten-mode shell control at frozen R3B loading fails by dual upper bound at 10 MJ; change operator or source physics.
+- **G01U2:** Radial f0 reciprocal source suppresses strongly; full angular f2 and local scalar EOM remain non-optional.
+
+## F. GRAVITY2 platform: what it can and cannot do
+
+- GRAVITY2 was developed as a bounded, durable source-to-gravity/action discovery miner rather than a device optimizer.
+- The inspected November 21 codebundle contains `src/antigravity_research/gravity2/engine.py`, `policy.py`, `registry_v6.py`, `campaign_v5.py`, `planner_v8.py`, `research_v8.py`, `response_v7.py`, `scientific_inputs_v3.py`, `miner.py`, `miner2.py`, `act0.py`, `action01.py`, `action02.py`, `bridge03a.py`, `bridge05.py` through `bridge08.py`, and associated focused tests.
+- Its codebundle metadata says generation 2026-11-21 21:41:29 CST, 1018 included files, dirty/untracked worktree; it is **not** the November 22 post-G01-U2 bundle.
+- Earlier notes state `REGISTERED_TASKS=0` and v6 registry generation `649c08469be2d6e2deb09de77110982a223b952eb64f4a36a45b394d43e0f9a1` as of G01-S. This is an archival observation; do not assert it is the live next-session state without a new read-only registry audit.
+- Presets recorded: quick 60 s / 384 MiB / 4 MiB output; short 180 s / 640 MiB / 8 MiB; focused 300 s / 768 MiB / 12 MiB; extended 900 s / 1536 MiB / 30 MiB. Recheck live policy before using.
+- The miner can cheaply screen many **specific, physically distinct action/constitutive laws**; it cannot replace identifying a realistic source, proving action variation or deriving Earth/craft reaction.
+- Do not spend 24,200 scans on small parameter changes in an action already excluded by a Ward/health/energy theorem.
+- Use zero-CPU algebraic prefilters first; run at most two action survivors through expensive coupled solvers after explicit gates.
+- Every task must have a hypothesis ID, source code hash, parent SHA, immutable output, negative controls, bounded resources and exact claim scope.
+- The active next-session miner task should be a small **G01-U3 action/reciprocity prefilter** bound to U1/U2 artifacts, not an unconstrained proposal-writing simulation.
+- Do not blindly register or run jobs: inspect actual live CLI contracts for `registry_v6` and `campaign_v5` and do not assume APIs from an older bundle.
+- `make_codebundle.sh` is the live repository source-only collector; its recorded invocation is `./make_codebundle.sh` from project root and it emits a new file in `codebundles/`. It does not run scientific simulations.
+- Keep code, simulation code, tests and relevant in-code comments; exclude huge NOTES, buildplans, generated science JSON, journal bundles and binary artifacts from embedded source snapshots.
+- GRAVITY2 outputs must not be confused with accepted independent experiments merely because jobs completed or a quality score increased.
+## G. G01-S pre-T/U source experiment and its limit
+
+- G01-S screened 24,200 finite-range/radius onset cases, including finite ranges and a massless control; this was **not** 24,200 full spacecraft simulations.
+- The quadratically activated hidden-carrier capacitor scalar branch gave two conditional outward loaded-torus sample minima: approximately **60.11179** and **437.90449 m/s²**.
+- Independent checks produced approximately **60.13804** and **438.60598 m/s²** respectively; these were numerical crosschecks of their proposed action/geometry, not experimental data.
+- The modeled ground reaction in the lower case was approximately **30,165 N** up on craft in the chosen idealized ground/source model, not proof of the required Earth-down/whole-craft-up **gravity** force.
+- Its lower-case active static increment was approximately **7.472835 MJ**, with electric 5.31613 MJ, scalar 2.12377 MJ, and conformal rest increment ~0.03294 MJ.
+- Approximately 2.52716 MJ arithmetic headroom remained before many missing source/support/cycle/empirical costs. The upper case modeled active energy was ~7.734019 MJ.
+- Ground force was dominated by its assumed dark charge/surface/ground configuration and could reflect an artificial fifth-force contact channel.
+- The actual microscopic hidden current/material and its empirical/UV/naturalness viability were not provided, and the old R3B X/Y magnetic multipoles were not physically transferred.
+- Its concentric electrostatic capacitor had zero exterior electric field in the ideal reference and no Y magnetic degree of freedom, so direct symmetry transfer to the R3B mixed-invariant channel fails.
+- The lesson for U3: a source-dependent nonlinearity can change loaded response, but must be applied via a physically allowed same-action source/current, not copied as a successful gravitational device.
+## H. G01-T0/T1 exact ten-mode shell response
+
+- User-executed output directory: `results/gravity2/g01t_t0t1_20261122T040953Z_21912`.
+- Main JSON SHA: `e7a265f3963131e2f0a06e2d0f04c688658bad68cb00bfb49b5ec91a90cc4e39`.
+- Producer source SHA: `57efe5406cd8dde4a9a040a102e9781c2fbb22508fe323d5465ea0928921a3b0`.
+- Historical parents: original R3B summary SHA 9474b..., R3X1 signed solver source SHA 6f1bf..., source-locks recorded in JSON.
+- Shell radius 2.0 m; 10 idealized multipole modes: ell=1,2,4,8,12 times X_electric and Y_magnetic.
+- The shell modes are ideal boundary-supported fields, not identified microscopic charges/current material. They are not a complete charged-source/Einstein system.
+- Both original signed-Lorentzian loaded baselines reproduced: h=0.075 m, min -46.40607408464625 m/s², energy 1.4433196404756485 J; h=0.05 m, min -129.67185782242464 m/s², energy 1.5211390382733163 J.
+- Sampled clearance: 1.0364452901376788 m and 1.0041637771601337 m, respectively.
+- Response ranks 10 on both grids; an algebraically full-rank matrix is not a healthy physically sourced degree-of-freedom set.
+- Linearized optimizer nearly canceled inward response, but exact bilinear force left ~-11.58 m/s² coarse and ~-32.42 m/s² fine when control bound >=0.5.
+- This ~75% adverse-force reduction did **not** produce repulsion; it exposed the need to optimize exact quadratic mixed response, not a tangent approximation.
+- Static signed residual controls and coarse direct sparse reference check passed, with direct relative residual ~4.592e-15 and acceleration mismatch ~1.024e-10 m/s².
+- The independent second G01-T field solver was **not** run; focused artifact/negative-control verification passed.
+- A previously started full regression was interrupted; a partial periods-only log is **not** a pass.
+### H.0.075 — exact recorded per-bound outcomes
+
+- Bound 0.0: linear predicted worst acceleration -46.406074084646 m/s²; exact bilinear -46.406074084646 m/s²; modeled field energy 1.4433196404756 J.
+  - Reverse-control worst acceleration -46.4060740846 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+- Bound 0.25: linear predicted worst acceleration -1.1661273557865e-05 m/s²; exact bilinear -11.544706780532 m/s²; modeled field energy 1.0540788528462 J.
+  - Reverse-control worst acceleration -104.583444889 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+- Bound 0.5: linear predicted worst acceleration -3.9985046252873e-06 m/s²; exact bilinear -11.583141020042 m/s²; modeled field energy 1.0145784521923 J.
+  - Reverse-control worst acceleration -104.468606162 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+- Bound 1.0: linear predicted worst acceleration -3.9985046252857e-06 m/s²; exact bilinear -11.583141020042 m/s²; modeled field energy 1.014578452191 J.
+  - Reverse-control worst acceleration -104.468606162 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+- Bound 2.0: linear predicted worst acceleration -3.9985046252857e-06 m/s²; exact bilinear -11.583141020042 m/s²; modeled field energy 1.014578452191 J.
+  - Reverse-control worst acceleration -104.468606162 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+
+- Mode 01 X_electric ell=1: normalization 330377.680062, unnormalized loaded field energy 9.16175347544e-12 J, signed response residual 1.96e-15; microscopic Y source identified = false.
+- Mode 02 Y_magnetic ell=1: normalization 225480.450849, unnormalized loaded field energy 1.96689968581e-11 J, signed response residual 8.24e-16; microscopic Y source identified = false.
+- Mode 03 X_electric ell=2: normalization 326321.581118, unnormalized loaded field energy 9.39092575082e-12 J, signed response residual 1.11e-15; microscopic Y source identified = false.
+- Mode 04 Y_magnetic ell=2: normalization 393294.494904, unnormalized loaded field energy 6.46493652337e-12 J, signed response residual 8.58e-16; microscopic Y source identified = false.
+- Mode 05 X_electric ell=4: normalization 329634.719752, unnormalized loaded field energy 9.20309918151e-12 J, signed response residual 9.68e-16; microscopic Y source identified = false.
+- Mode 06 Y_magnetic ell=4: normalization 734801.950339, unnormalized loaded field energy 1.85207853864e-12 J, signed response residual 7.09e-16; microscopic Y source identified = false.
+- Mode 07 X_electric ell=8: normalization 344973.652072, unnormalized loaded field energy 8.4028797237e-12 J, signed response residual 7.44e-16; microscopic Y source identified = false.
+- Mode 08 Y_magnetic ell=8: normalization 1462728.33351, unnormalized loaded field energy 4.67382720561e-13 J, signed response residual 5.87e-16; microscopic Y source identified = false.
+- Mode 09 X_electric ell=12: normalization 362752.677483, unnormalized loaded field energy 7.59939023892e-12 J, signed response residual 9.88e-16; microscopic Y source identified = false.
+- Mode 10 Y_magnetic ell=12: normalization 2268009.7779, unnormalized loaded field energy 1.94406219492e-13 J, signed response residual 3.84e-16; microscopic Y source identified = false.
+
+### H.0.05 — exact recorded per-bound outcomes
+
+- Bound 0.0: linear predicted worst acceleration -129.67185782242 m/s²; exact bilinear -129.67185782242 m/s²; modeled field energy 1.5211390382733 J.
+  - Reverse-control worst acceleration -129.671857822 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+- Bound 0.25: linear predicted worst acceleration -6.8931715102924e-05 m/s²; exact bilinear -32.416917019799 m/s²; modeled field energy 1.1234727257924 J.
+  - Reverse-control worst acceleration -291.764402839 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+- Bound 0.5: linear predicted worst acceleration -3.8019412306992e-05 m/s²; exact bilinear -32.417909673482 m/s²; modeled field energy 1.0858624055983 J.
+  - Reverse-control worst acceleration -291.76154928 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+- Bound 1.0: linear predicted worst acceleration -3.8019412307896e-05 m/s²; exact bilinear -32.417909673483 m/s²; modeled field energy 1.0858624055989 J.
+  - Reverse-control worst acceleration -291.76154928 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+- Bound 2.0: linear predicted worst acceleration -3.8019412307896e-05 m/s²; exact bilinear -32.417909673483 m/s²; modeled field energy 1.0858624055989 J.
+  - Reverse-control worst acceleration -291.76154928 m/s²; exact physical-source gate `HOLD_UNIDENTIFIED_XY_SHELL_MATTER`; universal gravity gate `NOT_EVALUATED`.
+
+- Mode 01 X_electric ell=1: normalization 328443.900035, unnormalized loaded field energy 9.26995442881e-12 J, signed response residual 3.61e-15; microscopic Y source identified = false.
+- Mode 02 Y_magnetic ell=1: normalization 224139.997891, unnormalized loaded field energy 1.99049583405e-11 J, signed response residual 1.12e-15; microscopic Y source identified = false.
+- Mode 03 X_electric ell=2: normalization 322860.396545, unnormalized loaded field energy 9.59335351066e-12 J, signed response residual 2.93e-15; microscopic Y source identified = false.
+- Mode 04 Y_magnetic ell=2: normalization 390316.597784, unnormalized loaded field energy 6.56396052916e-12 J, signed response residual 1.1e-15; microscopic Y source identified = false.
+- Mode 05 X_electric ell=4: normalization 323833.085124, unnormalized loaded field energy 9.53580947538e-12 J, signed response residual 1.61e-15; microscopic Y source identified = false.
+- Mode 06 Y_magnetic ell=4: normalization 723241.746028, unnormalized loaded field energy 1.91175849223e-12 J, signed response residual 1.28e-15; microscopic Y source identified = false.
+- Mode 07 X_electric ell=8: normalization 333517.53308, unnormalized loaded field energy 8.9900614525e-12 J, signed response residual 1.2e-15; microscopic Y source identified = false.
+- Mode 08 Y_magnetic ell=8: normalization 1414444.35353, unnormalized loaded field energy 4.99836845946e-13 J, signed response residual 9.24e-16; microscopic Y source identified = false.
+- Mode 09 X_electric ell=12: normalization 344011.008474, unnormalized loaded field energy 8.44997296101e-12 J, signed response residual 1.11e-15; microscopic Y source identified = false.
+- Mode 10 Y_magnetic ell=12: normalization 2152280.85084, unnormalized loaded field energy 2.15874883678e-13 J, signed response residual 6.85e-16; microscopic Y source identified = false.
+
+## I. G01-T2 exact quadratic optimizer and necessary energy bound
+
+- User-executed result directory: `results/gravity2/g01t2_golden_20261122T043552Z_57319`.
+- Main science SHA `8f4e5b27b7b84372bdeb2727f3e37eef270b8ea959754d4f3d9a4f806e3e5ed6`.
+- Saved quadratic coefficient SHA `0296771603d17f1b60b1a790f1a8b46e21c0471fe7e7bbe0d2be273c7b61c962`.
+- Producer source SHA `6489845e2de5e6203e7541c26b3ebbef626cd169266df2d3ef27a4f12f96d388`.
+- It reconstructed both parent grids under one shared physical-shell amplitude normalization, not separate per-grid optimum knobs.
+- Exact acceleration: a_i(u) = a0_i + g_i^T u + u^T Q_i u, all sampled points i on each grid.
+- Exact modeled field energy: E(u) = E0 + ell^T u + u^T K u, with positive numerical Gram K in the saved model.
+- Quadratic reconstruct-and-direct checks passed: acceleration errors <=2.274e-13 m/s² and energy errors <=1.78e-15 J on saved trial vectors.
+- SLSQP multistart ran 5 constraint settings for 2, 10 and 100 J budgets, found no outward +1g candidate, converged to near-zero slightly inward at the best points.
+- SLSQP failure to find a witness is **not** a mathematical proof of global impossibility; use dual certificates for that.
+- Its *single-point optimistic energy-ellipsoid bound* yields ~18,966.70929273964 J as necessary modeled field energy even to permit +1g at all sampled fine points. This is not an actual feasible source or operating energy.
+- At 10,000 J modeled field energy the most restrictive fine-grid single-point optimistic upper bound is 5.1707998907935355 m/s² <9.80665 m/s².
+- At 10 MJ the single-point upper bound is inconclusive (~5169 m/s²); G01-T3 introduced a multi-point dual that closes this gap.
+- Independent saved-coefficient verifier passed. It did not re-solve the original PDE from scratch.
+### I.1 — Budget 2.0 J; maximum per-control normalized bound 0.5
+- Trial status: NO_1G_CANDIDATE_FOUND.
+- Best exact worst sampled acceleration: -5.505597514571248e-05 m/s²; not outward or +1g.
+- Per-grid minimum acceleration: -5.505597309385e-05, -5.505597514571e-05 m/s².
+- Per-grid modeled field energies: 1.059482872781, 1.128627778462 J.
+- Optimistic dual upper on global sampled minimum: 0.00061015995716123 m/s².
+- Dual status: ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES.
+- Number of logged multistart trials: 11; a successful solver termination is not full source certification.
+  - Shared shell-control amplitude u[0] = +0.469480104799, mode=X_electric, ell=1.
+  - Shared shell-control amplitude u[1] = -0.498512076994, mode=Y_magnetic, ell=1.
+  - Shared shell-control amplitude u[2] = -0.080383940515, mode=X_electric, ell=2.
+  - Shared shell-control amplitude u[3] = -0.166854447844, mode=Y_magnetic, ell=2.
+  - Shared shell-control amplitude u[4] = +0.132196886486, mode=X_electric, ell=4.
+  - Shared shell-control amplitude u[5] = +0.0654692062674, mode=Y_magnetic, ell=4.
+  - Shared shell-control amplitude u[6] = -0.135881424362, mode=X_electric, ell=8.
+  - Shared shell-control amplitude u[7] = +0.00954645877663, mode=Y_magnetic, ell=8.
+  - Shared shell-control amplitude u[8] = +0.265890544908, mode=X_electric, ell=12.
+  - Shared shell-control amplitude u[9] = +0.269039080047, mode=Y_magnetic, ell=12.
+
+### I.2 — Budget 2.0 J; maximum per-control normalized bound 2.0
+- Trial status: NO_1G_CANDIDATE_FOUND.
+- Best exact worst sampled acceleration: -5.27191556471962e-05 m/s²; not outward or +1g.
+- Per-grid minimum acceleration: -5.271914817734e-05, -5.27191556472e-05 m/s².
+- Per-grid modeled field energies: 0.9384084690481, 0.9950434108589 J.
+- Optimistic dual upper on global sampled minimum: 0.00061015995716123 m/s².
+- Dual status: ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES.
+- Number of logged multistart trials: 11; a successful solver termination is not full source certification.
+  - Shared shell-control amplitude u[0] = +0.480998713999, mode=X_electric, ell=1.
+  - Shared shell-control amplitude u[1] = -0.589441700161, mode=Y_magnetic, ell=1.
+  - Shared shell-control amplitude u[2] = -0.106611040522, mode=X_electric, ell=2.
+  - Shared shell-control amplitude u[3] = -0.0297851304986, mode=Y_magnetic, ell=2.
+  - Shared shell-control amplitude u[4] = +0.146593497999, mode=X_electric, ell=4.
+  - Shared shell-control amplitude u[5] = -0.0294438983264, mode=Y_magnetic, ell=4.
+  - Shared shell-control amplitude u[6] = -0.18247173211, mode=X_electric, ell=8.
+  - Shared shell-control amplitude u[7] = +0.0748389481404, mode=Y_magnetic, ell=8.
+  - Shared shell-control amplitude u[8] = +0.141341319645, mode=X_electric, ell=12.
+  - Shared shell-control amplitude u[9] = +0.152723501628, mode=Y_magnetic, ell=12.
+
+### I.3 — Budget 10.0 J; maximum per-control normalized bound 2.0
+- Trial status: NO_1G_CANDIDATE_FOUND.
+- Best exact worst sampled acceleration: -5.175982538901946e-05 m/s²; not outward or +1g.
+- Per-grid minimum acceleration: -5.175982527128e-05, -5.175982538902e-05 m/s².
+- Per-grid modeled field energies: 1.530346767669, 1.626837043104 J.
+- Optimistic dual upper on global sampled minimum: 0.0047852567982486 m/s².
+- Dual status: ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES.
+- Number of logged multistart trials: 11; a successful solver termination is not full source certification.
+  - Shared shell-control amplitude u[0] = +0.345827323193, mode=X_electric, ell=1.
+  - Shared shell-control amplitude u[1] = -0.81456299461, mode=Y_magnetic, ell=1.
+  - Shared shell-control amplitude u[2] = +0.259855716289, mode=X_electric, ell=2.
+  - Shared shell-control amplitude u[3] = +0.256770510261, mode=Y_magnetic, ell=2.
+  - Shared shell-control amplitude u[4] = -0.276693758855, mode=X_electric, ell=4.
+  - Shared shell-control amplitude u[5] = -0.178623284729, mode=Y_magnetic, ell=4.
+  - Shared shell-control amplitude u[6] = +0.369093248609, mode=X_electric, ell=8.
+  - Shared shell-control amplitude u[7] = +0.0673149283626, mode=Y_magnetic, ell=8.
+  - Shared shell-control amplitude u[8] = +0.0550003552751, mode=X_electric, ell=12.
+  - Shared shell-control amplitude u[9] = -0.542937182459, mode=Y_magnetic, ell=12.
+
+### I.4 — Budget 10.0 J; maximum per-control normalized bound 5.0
+- Trial status: NO_1G_CANDIDATE_FOUND.
+- Best exact worst sampled acceleration: -5.142883623376893e-05 m/s²; not outward or +1g.
+- Per-grid minimum acceleration: -5.142860403895e-05, -5.142883623377e-05 m/s².
+- Per-grid modeled field energies: 1.898811145416, 2.014709260538 J.
+- Optimistic dual upper on global sampled minimum: 0.0047852567982486 m/s².
+- Dual status: ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES.
+- Number of logged multistart trials: 11; a successful solver termination is not full source certification.
+  - Shared shell-control amplitude u[0] = +0.340717418617, mode=X_electric, ell=1.
+  - Shared shell-control amplitude u[1] = -0.9018802542, mode=Y_magnetic, ell=1.
+  - Shared shell-control amplitude u[2] = +0.271528271279, mode=X_electric, ell=2.
+  - Shared shell-control amplitude u[3] = +0.40938958372, mode=Y_magnetic, ell=2.
+  - Shared shell-control amplitude u[4] = -0.292040007404, mode=X_electric, ell=4.
+  - Shared shell-control amplitude u[5] = -0.307235442413, mode=Y_magnetic, ell=4.
+  - Shared shell-control amplitude u[6] = +0.383959026234, mode=X_electric, ell=8.
+  - Shared shell-control amplitude u[7] = +0.185547271429, mode=Y_magnetic, ell=8.
+  - Shared shell-control amplitude u[8] = +0.0953335741131, mode=X_electric, ell=12.
+  - Shared shell-control amplitude u[9] = -0.633022353448, mode=Y_magnetic, ell=12.
+
+### I.5 — Budget 100.0 J; maximum per-control normalized bound 8.0
+- Trial status: NO_1G_CANDIDATE_FOUND.
+- Best exact worst sampled acceleration: -5.237456529982865e-05 m/s²; not outward or +1g.
+- Per-grid minimum acceleration: -5.237456529983e-05, -5.237456529272e-05 m/s².
+- Per-grid modeled field energies: 1.729910758711, 1.834857772163 J.
+- Optimistic dual upper on global sampled minimum: 0.051449002437458 m/s².
+- Dual status: ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES.
+- Number of logged multistart trials: 11; a successful solver termination is not full source certification.
+  - Shared shell-control amplitude u[0] = +0.318967286882, mode=X_electric, ell=1.
+  - Shared shell-control amplitude u[1] = -0.805806114138, mode=Y_magnetic, ell=1.
+  - Shared shell-control amplitude u[2] = +0.331012331995, mode=X_electric, ell=2.
+  - Shared shell-control amplitude u[3] = +0.24307973461, mode=Y_magnetic, ell=2.
+  - Shared shell-control amplitude u[4] = -0.361952366598, mode=X_electric, ell=4.
+  - Shared shell-control amplitude u[5] = -0.168668995042, mode=Y_magnetic, ell=4.
+  - Shared shell-control amplitude u[6] = +0.515430911601, mode=X_electric, ell=8.
+  - Shared shell-control amplitude u[7] = +0.0606466421868, mode=Y_magnetic, ell=8.
+  - Shared shell-control amplitude u[8] = +0.0230263398878, mode=X_electric, ell=12.
+  - Shared shell-control amplitude u[9] = -0.525179382833, mode=Y_magnetic, ell=12.
+
+## I.6. Conservative pointwise upper-bound atlas
+
+- At modeled-field cap 2 J: joint optimistic sampled maximin upper 0.00061015995716123 m/s²; single-point +1g exclusion flag=True.
+  - Grid h=0.075 m, point index=15, upper=0.016326730995452 m/s², certifying lambda=0.0134747784112.
+  - Grid h=0.05 m, point index=22, upper=0.00061015995716123 m/s², certifying lambda=0.0005264396094216.
+- At modeled-field cap 10 J: joint optimistic sampled maximin upper 0.0047852567982486 m/s²; single-point +1g exclusion flag=True.
+  - Grid h=0.075 m, point index=15, upper=0.1230504486175 m/s², certifying lambda=0.01329220075187.
+  - Grid h=0.05 m, point index=22, upper=0.0047852567982486 m/s², certifying lambda=0.0005202804881964.
+- At modeled-field cap 100 J: joint optimistic sampled maximin upper 0.051449002437458 m/s²; single-point +1g exclusion flag=True.
+  - Grid h=0.075 m, point index=15, upper=1.3144328607691 m/s², certifying lambda=0.01322096047986.
+  - Grid h=0.05 m, point index=22, upper=0.051449002437458 m/s², certifying lambda=0.0005179412677265.
+- At modeled-field cap 10000 J: joint optimistic sampled maximin upper 5.1707998907935 m/s²; single-point +1g exclusion flag=True.
+  - Grid h=0.075 m, point index=15, upper=131.94930223191 m/s², certifying lambda=0.01319289973866.
+  - Grid h=0.05 m, point index=22, upper=5.1707998907935 m/s², certifying lambda=0.0005170229956902.
+- At modeled-field cap 1e+07 J: joint optimistic sampled maximin upper 5169.2782748526 m/s²; single-point +1g exclusion flag=False.
+  - Grid h=0.075 m, point index=15, upper=131899.91084974 m/s², certifying lambda=0.01318989400885.
+  - Grid h=0.05 m, point index=22, upper=5169.2782748526 m/s², certifying lambda=0.0005169246609893.
+
+## J. G01-T3 independently verified 10 MJ multi-point dual
+
+- User-executed result directory: `results/gravity2/g01t3_certificate_20261122T044728Z_74926`.
+- Accepted certificate JSON SHA: `1cfe07d9c3e10a21ac01243b2288d6d4380d0e906768906166165681e9c7e4eb`.
+- Corrected producer SHA: `0a937619437505577a13c3c63ca300cb42f0f7ad0797fe28090bf6edd07ab247`.
+- Failed first attempt used a truncated parent SHA and stopped before writing scientific results. It was a script provenance literal defect, not a result failure.
+- Exact scope: original 10 finite 2 m shell multipoles, frozen R3B beta, 48 sampled fine-grid points, positive canonical model field energy, all ten arbitrary real amplitudes allowed within that E cap.
+- For any nonnegative normalized weights w_i, min_i a_i(u) <= sum_i w_i a_i(u).
+- With lambda>=0 and M=lambda K-sum_i w_i Q_i positive definite, completion of the square bounds the weighted acceleration for all E(u)<=C.
+- Recorded lambda=5e-7, C=10,000,000 J, min eigenvalue M=4.621701779603397e-7 >0; upper on min sampled a = **4.999999576116771 m/s²**.
+- Since required +9.80665 m/s², this is a **scoped rigorous sampled-model exclusion** at 10 MJ field energy, without optimizer convergence assumptions.
+- The independent verification used a triangular Cholesky factorization, checked parent hashes, weights, dual positivity and exact formula.
+- It does not establish a no-go for a new action, altered loading law, angular axion dynamics, new material source, continuum Einstein metric or all physically possible fields.
+- A *post-hoc assistant calculation* at lambda=1e-7 suggested a near-1.0 m/s² stronger upper and an inferred ~98.07 MJ necessary floor. **Not a distinct archived user-run certificate**; do not elevate it to the verified G01-T3 result.
+- No reason to spend more optimization on the closed ten-mode frozen-R3B family unless a specific new physical mechanism changes the model assumptions.
+- Verified G01-T3 certificate field `field_energy_cap_j`: `10000000.0`.
+- Verified G01-T3 certificate field `lambda`: `5e-07`.
+- Verified G01-T3 certificate field `minimum_weight`: `0.0`.
+- Verified G01-T3 certificate field `weight_sum`: `1.0`.
+- Verified G01-T3 certificate field `dual_matrix_minimum_eigenvalue`: `4.621701779603397e-07`.
+- Verified G01-T3 certificate field `acceleration_upper_bound_m_s2`: `4.999999576116771`.
+- Verified G01-T3 certificate field `required_m_s2`: `9.80665`.
+- Verified G01-T3 certificate field `physical_survivors`: `0`.
+- Verified G01-T3 certificate field `scope`: `FINE_GRID_48_POINTS_TEN_ORIGINAL_SHELL_MODES_FROZEN_BETA_POSITIVE_CANONICAL_FIELD_ENERGY`.
+
+## K. G01-U1 axion-like mixed source and even universal metric — CONDITIONAL
+
+- User-executed result directory: `results/gravity2/g01u1_axion_20261122T052145Z_7105`.
+- Science JSON SHA: `0f5b138a22d9da0088cdb9d6c2bfdcfbb046603845447d250878809c454616c3`.
+- Radial reference NPZ SHA: `cfe54027edcd6a33532faa5eec138455bc35a89193f9b3af1d4cd4f5bf727999`.
+- Producing source SHA: `4b6b6001ffbd5c80f90cc8d078704e41161275cebd3095e36308c62bff833816`.
+- Candidate action is a **hypothesis**, not a fully realized material/source action: Einstein Hilbert, two Maxwell U(1), canonical massive pseudoscalar phi, phi(F_X dual F_Y), universal neutral-matter metric exp(beta phi^2) g, hypothetical charged carriers/supports.
+- A finite spherical shell dipole field at radius 2 m is prescribed, with X-electric dipolar charge sheet and Y-azimuthal current profile; an on-shell 3D charged-scalar shell/source equilibrium is not shown.
+- The mixed E_X dot B_Y invariant has a topological total-volume integral zero for localized non-monopole fields, but this does not imply its local axion field is zero.
+- The angular scalar profile includes both radial l=0 and l=2 pieces; finite range inverse length mu=1/m achieved positive scalar-only acceleration throughout 82,944 sampled torus cells (81x1024).
+- Torus geometry major radius=1 m, minor radius=0.2 m, center distance 3.2 m; minimal sampled shell gap ~1.00000016515 m; payload mass fixed to 1 kg.
+- Selected beta=1.998780722774814e23; axion amplitude A=2.269703885395593e-18; modeled scalar kinetic/mass energy=7,333,333.333333331 J.
+- Minimum signed scalar-only neutral-loaded outward acceleration=+10.781595872566479 m/s²; >9.80665 target in its restricted scalar metric model.
+- Scalar-only loading uses a **fixed torus mass-density geometry** and a linear static neutral-backreaction mass-term correction. Neutral dynamics and full material equilibrium are not jointly varied.
+- Loaded scalar mesh h=0.16,0.10,0.08 m gave ~10.7824236428, 10.7818973119, 10.7815958726 m/s²; last-two relative change 2.79579e-5.
+- The 8-to-10 m box comparison at h=0.08 gave relative response difference ~1.05547e-9; this only tests that scalar correction subsystem.
+- Reported radial energy coarse/fine relative change ~4.89042e-6; source X/Y field and material action not tested for full joint continuum convergence.
+- Max abs beta phi²~3.213297460832022e-16, a small local metric expansion despite huge beta; this is **not** a proof of small local effective scalar coupling or quantum health.
+- The scalar-matter derivative d(log A)/dphi = beta phi can be huge, despite beta phi² being tiny; fifth-force/naturalness/strong-coupling and empirical constraints are unresolved.
+- Reciprocal gauge diagnostic R |grad theta| ~8,501,043.943572538 >>1, so frozen X/Y is an inconsistent small-feedback approximation at the chosen amplitude.
+- A heuristic illustrative gauge energy ~13,116,398.516453296 J was estimated from perturbative scaling; scalar + that estimate ~20,449,731.849786628 J. This is **not a theorem** or complete energy ledger.
+- Original R3B 1.542916 J is an *illustrative calibration*, not a sourced same-action Maxwell energy in U1 geometry.
+- PHYSICAL_SURVIVORS=0; REAL_HIDDEN_SOURCE=NOT_IDENTIFIED; EINSTEIN_WHOLE_CRAFT=NOT_DERIVED.
+- Recorded selected-field `inverse_range_per_m` = `1.0`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `beta_dimensionless` = `1.998780722774814e+23`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `beta_energy_necessary_floor` = `1.332520481849876e+23`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `source_axion_amplitude_A` = `2.269703885395593e-18`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `scalar_kinetic_and_mass_energy_j` = `7333333.333333331`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `available_budget_after_scalar_only_j` = `2666666.666666669`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `max_abs_beta_phi2` = `3.213297460832022e-16`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `source_kappa_m_per_J_assuming_illustrative_dipole_calibration` = `3.267847142631918e-17`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `loaded_two_mesh_relative_difference` = `2.7957907691944506e-05`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `loaded_domain_8_vs_10m_relative_difference` = `1.0554682683405758e-09`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+- Recorded selected-field `radial_energy_cross_grid_relative_difference` = `4.890415674196902e-06`; interpret only within the conditional axion scalar + prescribed Maxwell shell model.
+
+## K1. Mediator mass/sign scan: all 18 exact stored rows
+
+### K1.01 mu=0.0/m, beta_sign=1
+- Kernel minimum after sign: -6.6036235624221e-05; kernel maximum: -2.0204894926314e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.080000114172097; sampled torus grid-difference ratio: 5.8080841161764e-06.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.02 mu=0.0/m, beta_sign=-1
+- Kernel minimum after sign: 2.0204894926314e-05; kernel maximum: 6.6036235624221e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `True`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `1.307164897892283e+24`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `-0.030899028296434664`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.080000114172097; sampled torus grid-difference ratio: 6.7653715192096e-06.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.03 mu=0.1/m, beta_sign=1
+- Kernel minimum after sign: -7.872346605806e-05; kernel maximum: -1.8551303533536e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.079234416472611; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.04 mu=0.1/m, beta_sign=-1
+- Kernel minimum after sign: 1.8551303533536e-05; kernel maximum: 7.872346605806e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `True`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `1.4100541756458914e+24`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `-0.023331145858522417`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.079234416472611; sampled torus grid-difference ratio: 8.568197560981e-06.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.05 mu=0.2/m, beta_sign=1
+- Kernel minimum after sign: -9.1285581813806e-05; kernel maximum: -5.884889168037e-06.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.077108304290584; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.06 mu=0.2/m, beta_sign=-1
+- Kernel minimum after sign: 5.884889168037e-06; kernel maximum: 9.1285581813806e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `True`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `4.3257282314340205e+24`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `-0.06225243903143764`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.077108304290584; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.07 mu=0.3/m, beta_sign=1
+- Kernel minimum after sign: -8.3327888017434e-05; kernel maximum: 2.0272811425702e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.074017995414662; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.08 mu=0.3/m, beta_sign=-1
+- Kernel minimum after sign: -2.0272811425702e-05; kernel maximum: 8.3327888017434e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.074017995414662; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.09 mu=0.5/m, beta_sign=1
+- Kernel minimum after sign: -1.3930917491859e-05; kernel maximum: 8.8147129211662e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.06632710645561; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.10 mu=0.5/m, beta_sign=-1
+- Kernel minimum after sign: -8.8147129211662e-05; kernel maximum: 1.3930917491859e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.06632710645561; sampled torus grid-difference ratio: 5.7059863856371e-06.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.11 mu=0.7/m, beta_sign=1
+- Kernel minimum after sign: 6.8170164751052e-05; kernel maximum: 0.00014154116872481.
+- Whole sampled torus positive sign in scalar-only prefilter: `True`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `2.8171708044216288e+23`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `0.49665928533898607`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.05817161968176; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.12 mu=0.7/m, beta_sign=-1
+- Kernel minimum after sign: -0.00014154116872481; kernel maximum: -6.8170164751052e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.05817161968176; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.13 mu=1.0/m, beta_sign=1
+- Kernel minimum after sign: 0.00011656506238151; kernel maximum: 0.00017483996141014.
+- Whole sampled torus positive sign in scalar-only prefilter: `True`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `1.332520481849876e+23`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `1.003149838871947`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.04704851574764; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.14 mu=1.0/m, beta_sign=-1
+- Kernel minimum after sign: -0.00017483996141014; kernel maximum: -0.00011656506238151.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.04704851574764; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.15 mu=1.5/m, beta_sign=1
+- Kernel minimum after sign: 7.5500327592536e-05; kernel maximum: 0.00014955790827168.
+- Whole sampled torus positive sign in scalar-only prefilter: `True`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `1.4484980561198457e+23`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `2.253423989008238`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.033126105928793; sampled torus grid-difference ratio: 6.2105817230595e-06.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.16 mu=1.5/m, beta_sign=-1
+- Kernel minimum after sign: -0.00014955790827168; kernel maximum: -7.5500327592536e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.033126105928793; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.17 mu=2.0/m, beta_sign=1
+- Kernel minimum after sign: 3.8853033619598e-05; kernel maximum: 9.8748579294956e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `True`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `2.040851655681015e+23`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `4.0048242064302215`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.02401817503932; sampled torus grid-difference ratio: 4.5353052518106e-06.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+### K1.18 mu=2.0/m, beta_sign=-1
+- Kernel minimum after sign: -9.8748579294956e-05; kernel maximum: -3.8853033619598e-05.
+- Whole sampled torus positive sign in scalar-only prefilter: `False`.
+- Magnitude beta necessary for 1g at exactly 10MJ scalar-only budget: `None`; null indicates no acceptable uniform sign at this parameter.
+- Approximate homogeneous-matter local mass² margin: `None`; **not** full Lorentzian stability.
+- Scalar radial energy-shape integral: 0.02401817503932; sampled torus grid-difference ratio: 0.
+- Preserve negative sign branch and do not choose beta sign solely to force positive field without a stable source action.
+
+## K2. Scalar-only neutral loading mesh/box records
+
+### K2.1 — scalar-only load h=0.16 m
+- `domain_m` = `8.0`.
+- `unknown_count` = `4950`.
+- `torus_mass_kg` = `1.0`.
+- `loaded_kernel_min` = `0.00011651220758317028`.
+- `loaded_kernel_max` = `0.00017482158494125036`.
+- `free_kernel_min` = `0.00011656506238150821`.
+- `free_kernel_max` = `0.00017483996141013785`.
+- `loaded_min_up_m_s2` = `10.782423642784691`.
+- `maximal_correction_relative` = `0.0002581913731372711`.
+- `max_matter_delta_mass2_per_m2` = `0.01472900448981931`.
+- `minimum_effective_mass2` = `1.0`.
+- `signed_static_relative_residual` = `1.118984541695492e-15`.
+- This validates **the scalar correction equation only**, not reciprocal Maxwell, source material dynamics or the Einstein equations.
+
+### K2.2 — scalar-only load h=0.1 m
+- `domain_m` = `8.0`.
+- `unknown_count` = `12720`.
+- `torus_mass_kg` = `1.0`.
+- `loaded_kernel_min` = `0.00011650652018111473`.
+- `loaded_kernel_max` = `0.00017482801242571158`.
+- `free_kernel_min` = `0.00011656506238150821`.
+- `free_kernel_max` = `0.00017483996141013785`.
+- `loaded_min_up_m_s2` = `10.781897311856268`.
+- `maximal_correction_relative` = `0.00023248867651015295`.
+- `max_matter_delta_mass2_per_m2` = `0.014157864634127652`.
+- `minimum_effective_mass2` = `1.0`.
+- `signed_static_relative_residual` = `2.674440798836383e-15`.
+- This validates **the scalar correction equation only**, not reciprocal Maxwell, source material dynamics or the Einstein equations.
+
+### K2.3 — scalar-only load h=0.08 m
+- `domain_m` = `8.0`.
+- `unknown_count` = `19900`.
+- `torus_mass_kg` = `1.0`.
+- `loaded_kernel_min` = `0.000116503262902578`.
+- `loaded_kernel_max` = `0.0001748277196741848`.
+- `free_kernel_min` = `0.00011656506238150821`.
+- `free_kernel_max` = `0.00017483996141013785`.
+- `loaded_min_up_m_s2` = `10.781595872566479`.
+- `maximal_correction_relative` = `0.0002324073741254594`.
+- `max_matter_delta_mass2_per_m2` = `0.014094906722813442`.
+- `minimum_effective_mass2` = `1.0`.
+- `signed_static_relative_residual` = `3.938779314209102e-15`.
+- This validates **the scalar correction equation only**, not reciprocal Maxwell, source material dynamics or the Einstein equations.
+
+## L. G01-U2 reciprocal Maxwell–axion radial dipole result
+
+- User-executed result directory `results/gravity2/g01u2_reciprocal_20261122T173833Z_39784`.
+- Science JSON SHA `a91e6c325e9a12f2aff4b28b7fc7dede7a95644fb9776fba7fc0d1dd4b0c1d2b`.
+- Producer source SHA `950cc136c513ca3d37f171341b2b36678f5f864554fee784df328cca6562c8d3`.
+- Exact parent U1 science SHA 0f5b138a..., radial binary SHA cfe54027edcd6..., verified against persisted files.
+- Static constitutive fields derived from L=0.5 E_X²-0.5 B_Y²+theta(phi) E_X.B_Y + sources: D_X=E_X+theta B_Y; H_Y=B_Y-theta E_X.
+- Eliminated static gauge Hessian [[1+theta²,theta],[theta,1]], determinant=1; static sector positive. This is **not** full Lorentzian constrained health.
+- Reference Y magnetic divergence is Hodge-projected to essentially zero in the discrete dipole model, preventing false strong-coupling effects from an unconserved B field.
+- Every box passed constant-theta null control within specified discretization tolerance, and reduced Maxwell residuals stayed below 1.5e-13.
+- Source X dipole surface charge and Y azimuthal shell currents remained prescribed and lacked full stationarity and microscopic realization.
+- U2 deliberately includes only radial axion f0 and dipole X/Y gauge multipoles, **omits the angular f2 mode** used for U1 outward sign.
+- Tested (box radius, grid h) configurations (8,0.04),(16,0.04),(32,0.04),(48,0.04),(48,0.02) m.
+- At the original U1 full t=1 amplitude, weighted reciprocal source ratio dropped from ~4.023e-5 in 8m box to ~4.589e-8 at 16m, ~9.161e-11 at 32m and ±few e-12 at 48m.
+- **Near-zero sign reverses with grid refinement** at 48m: +4.1610e-12 to -2.4893e-12. Precise strong-amplitude source ratio is *not converged*; do not call it exactly zero.
+- Strong t=1 Maxwell shape energy in 48m box changes from 0.0012840 to 0.0044331 between h=0.04 and h=0.02, so strong-field shape-energy convergence is also not established.
+- At 8m, extra positive projected roots ~1.54e-5 and 4.315e-5 disappear by 16m, illustrating finite-box artifacts.
+- Small positive projected root ~1.1543387938278818e-7 at 48m fine; relative mesh change 0.0003800306027950118 = 0.038%.
+- Small negative root ~-5.393214604768618e-8 at 48m fine; larger negative ~-3.2962064303107503e-5, latter relative mesh change 3.433587809646488%.
+- Projected scalar amplitude equation `source_projection_ratio(t)=t` is necessary at chosen fixed scalar shape, **not** a full local scalar EOM or an equilibrium/stability proof.
+- U2 f0-only scalar torus acceleration at t=1 ranges from -0.4611442498794267 to +1.2511249612842628 m/s², already failing uniform +1g even before scaling by tiny roots.
+- At largest |root|, f0-only adverse minimum ~-5.010321590791191e-10 m/s². It is not a +1g full-angular source.
+- Physical source, theta2, full scalar/neutral equations, Einstein metric, Earth/craft and complete energy all marked unsolved; physical survivors=0.
+- G01-U2 reproduces a major reciprocal suppression in this *restricted radial sector* but cannot invalidate the full G01-U1 angular candidate.
+## L1. Exact per-box verification values and raw branch evidence
+
+### L1.1 — box radius 8.0 m, h=0.04 m
+- Nodes=201; source theta coefficient at r=1 m=37738899.5804671; at r=3 m=-2138119.79120206.
+- **baseline** Maxwell relative residual=0; magnetic divergence=3.830979843050556e-16.
+  - EM shape energy=18.59345110289319; baseline EM shape energy=18.59345110289319.
+  - Mixed weighted integral=0; reference mixed weighted integral=0; ratio=None.
+- **constant-theta null** Maxwell relative residual=2.27540859977072e-15; magnetic divergence=3.830979843050556e-16.
+  - EM shape energy=18.59345196237638; baseline EM shape energy=18.59345110289319.
+  - Mixed weighted integral=131.2338971490086; reference mixed weighted integral=131.2338975064689; ratio=0.9999999972761586.
+- **t=1 full-amplitude reciprocal** Maxwell relative residual=5.798175703386564e-14; magnetic divergence=3.830979843050556e-16.
+  - EM shape energy=87.8842443969658; baseline EM shape energy=18.59345110289319.
+  - Mixed weighted integral=8089.219925074454; reference mixed weighted integral=201071634.8739335; ratio=4.023053739104563e-05.
+- positive scanned projected root count=3; global uniqueness **not proven**.
+  - projected t=+1.177210054036368e-07; projected scalar equation residual=+2.13145e-13; EM residual=6.88856e-14.
+  - root EM shape energy=7.77542847925067; current mixed-source ratio=1.17721218548624e-07.
+  - projected t=+1.542879395631246e-05; projected scalar equation residual=+2.08118e-14; EM residual=4.84725e-14.
+  - root EM shape energy=0.661678768583705; current mixed-source ratio=1.54287939771242e-05.
+  - projected t=+4.315111527576455e-05; projected scalar equation residual=+9.14479e-15; EM residual=5.31664e-14.
+  - root EM shape energy=0.631118204934479; current mixed-source ratio=4.31511152849093e-05.
+- negative scanned projected root count=2; global uniqueness **not proven**.
+  - projected t=-5.35052078537006e-08; projected scalar equation residual=+3.91203e-11; EM residual=2.54211e-14.
+  - root EM shape energy=13.2626294866088; current mixed-source ratio=-5.34660875666292e-08.
+  - projected t=-5.513601733359099e-05; projected scalar equation residual=+1.16309e-14; EM residual=4.50952e-14.
+  - root EM shape energy=0.531271331224061; current mixed-source ratio=-5.513601732196e-05.
+- Interpret all projected roots as **necessary-only fixed-f0-shape conditions**, not full source+scalar equilibrium or torus lift.
+
+### L1.2 — box radius 16.0 m, h=0.04 m
+- Nodes=401; source theta coefficient at r=1 m=37738899.5804671; at r=3 m=-2138119.79120206.
+- **baseline** Maxwell relative residual=0; magnetic divergence=3.390743576290917e-16.
+  - EM shape energy=18.73700740632634; baseline EM shape energy=18.73700740632634.
+  - Mixed weighted integral=0; reference mixed weighted integral=0; ratio=None.
+- **constant-theta null** Maxwell relative residual=3.426554838897816e-15; magnetic divergence=3.390743576290917e-16.
+  - EM shape energy=18.73700847198749; baseline EM shape energy=18.73700740632634.
+  - Mixed weighted integral=16.38374544168927; reference mixed weighted integral=16.38374576176984; ratio=0.9999999804635292.
+- **t=1 full-amplitude reciprocal** Maxwell relative residual=4.440058132681342e-14; magnetic divergence=3.390743576290917e-16.
+  - EM shape energy=0.7003083843534956; baseline EM shape energy=18.73700740632634.
+  - Mixed weighted integral=9.227569381897744; reference mixed weighted integral=201073375.8821255; ratio=4.58915524813548e-08.
+- positive scanned projected root count=1; global uniqueness **not proven**.
+  - projected t=+1.157399868037496e-07; projected scalar equation residual=+4.64548e-12; EM residual=6.24573e-14.
+  - root EM shape energy=7.75971530729241; current mixed-source ratio=1.1574463228544e-07.
+- negative scanned projected root count=2; global uniqueness **not proven**.
+  - projected t=-5.386128148641001e-08; projected scalar equation residual=-4.87786e-13; EM residual=3.81069e-14.
+  - root EM shape energy=13.3722807063293; current mixed-source ratio=-5.38617692726383e-08.
+  - projected t=-3.41801158346049e-05; projected scalar equation residual=+2.03546e-14; EM residual=4.35918e-14.
+  - root EM shape energy=0.238947922280554; current mixed-source ratio=-3.41801158142503e-05.
+- Interpret all projected roots as **necessary-only fixed-f0-shape conditions**, not full source+scalar equilibrium or torus lift.
+
+### L1.3 — box radius 32.0 m, h=0.04 m
+- Nodes=801; source theta coefficient at r=1 m=37738899.5804671; at r=3 m=-2138119.79120206.
+- **baseline** Maxwell relative residual=0; magnetic divergence=3.523462268445591e-16.
+  - EM shape energy=18.75492785692333; baseline EM shape energy=18.75492785692337.
+  - Mixed weighted integral=0; reference mixed weighted integral=0; ratio=None.
+- **constant-theta null** Maxwell relative residual=5.183771815287108e-15; magnetic divergence=3.523462268445591e-16.
+  - EM shape energy=18.75492885827307; baseline EM shape energy=18.75492785692337.
+  - Mixed weighted integral=2.046688383781216; reference mixed weighted integral=2.046688704477669; ratio=0.9999998433096094.
+- **t=1 full-amplitude reciprocal** Maxwell relative residual=4.885461114854612e-14; magnetic divergence=3.523462268445591e-16.
+  - EM shape energy=0.01084422439533797; baseline EM shape energy=18.75492785692337.
+  - Mixed weighted integral=0.01841954272014559; reference mixed weighted integral=201073372.0320123; ratio=9.160607659781557e-11.
+- positive scanned projected root count=1; global uniqueness **not proven**.
+  - projected t=+1.155016032943663e-07; projected scalar equation residual=+6.17704e-12; EM residual=7.35821e-14.
+  - root EM shape energy=7.75802397688842; current mixed-source ratio=1.15507780333791e-07.
+- negative scanned projected root count=2; global uniqueness **not proven**.
+  - projected t=-5.390621810742227e-08; projected scalar equation residual=-8.16085e-13; EM residual=5.5252e-14.
+  - root EM shape energy=13.3858172715653; current mixed-source ratio=-5.39070341928786e-08.
+  - projected t=-3.413445430329057e-05; projected scalar equation residual=+3.12066e-15; EM residual=5.58669e-14.
+  - root EM shape energy=0.229061052586704; current mixed-source ratio=-3.41344543001699e-05.
+- Interpret all projected roots as **necessary-only fixed-f0-shape conditions**, not full source+scalar equilibrium or torus lift.
+
+### L1.4 — box radius 48.0 m, h=0.04 m
+- Nodes=1201; source theta coefficient at r=1 m=37738899.5804671; at r=3 m=-2138119.79120206.
+- **baseline** Maxwell relative residual=0; magnetic divergence=3.649691501581641e-16.
+  - EM shape energy=18.75672825356521; baseline EM shape energy=18.75672825356529.
+  - Mixed weighted integral=0; reference mixed weighted integral=0; ratio=None.
+- **constant-theta null** Maxwell relative residual=6.369993711168258e-15; magnetic divergence=3.649691501581641e-16.
+  - EM shape energy=18.75672927751585; baseline EM shape energy=18.75672825356529.
+  - Mixed weighted integral=0.6062996258537472; reference mixed weighted integral=0.606299963497457; ratio=0.9999994431078177.
+- **t=1 full-amplitude reciprocal** Maxwell relative residual=5.309461159830257e-14; magnetic divergence=3.649691501581641e-16.
+  - EM shape energy=0.00128401711251321; baseline EM shape energy=18.75672825356529.
+  - Mixed weighted integral=0.0008366707236503522; reference mixed weighted integral=201073371.433275; ratio=4.161022007471519e-12.
+- positive scanned projected root count=1; global uniqueness **not proven**.
+  - projected t=+1.154777644672281e-07; projected scalar equation residual=+6.37003e-12; EM residual=7.69387e-14.
+  - root EM shape energy=7.75785544994373; current mixed-source ratio=1.15484134496484e-07.
+- negative scanned projected root count=2; global uniqueness **not proven**.
+  - projected t=-5.391074381862105e-08; projected scalar equation residual=-8.51959e-13; EM residual=6.57361e-14.
+  - root EM shape energy=13.3871748209997; current mixed-source ratio=-5.39115957774398e-08.
+  - projected t=-3.413408819428029e-05; projected scalar equation residual=+1.729e-14; EM residual=4.75012e-14.
+  - root EM shape energy=0.228153745399302; current mixed-source ratio=-3.41340881769903e-05.
+- Interpret all projected roots as **necessary-only fixed-f0-shape conditions**, not full source+scalar equilibrium or torus lift.
+
+### L1.5 — box radius 48.0 m, h=0.02 m
+- Nodes=2401; source theta coefficient at r=1 m=37738899.5804671; at r=3 m=-2138119.79120206.
+- **baseline** Maxwell relative residual=0; magnetic divergence=4.679157945358131e-16.
+  - EM shape energy=18.80221888133964; baseline EM shape energy=18.80221888133971.
+  - Mixed weighted integral=0; reference mixed weighted integral=0; ratio=None.
+- **constant-theta null** Maxwell relative residual=8.461016418932918e-15; magnetic divergence=4.679157945358131e-16.
+  - EM shape energy=18.80222584433615; baseline EM shape energy=18.80221888133971.
+  - Mixed weighted integral=0.6061494830191579; reference mixed weighted integral=0.6061509434153104; ratio=0.9999975907054698.
+- **t=1 full-amplitude reciprocal** Maxwell relative residual=1.4770938055769e-13; magnetic divergence=4.679157945358131e-16.
+  - EM shape energy=0.004433079415635854; baseline EM shape energy=18.80221888133971.
+  - Mixed weighted integral=-0.0005005882125599279; reference mixed weighted integral=201096311.5407432; ratio=-2.4892958439891922e-12.
+- positive scanned projected root count=1; global uniqueness **not proven**.
+  - projected t=+1.154338793827882e-07; projected scalar equation residual=+6.6834e-12; EM residual=2.1563e-13.
+  - root EM shape energy=7.80622292139272; current mixed-source ratio=1.15440562787259e-07.
+- negative scanned projected root count=2; global uniqueness **not proven**.
+  - projected t=-5.393214604768618e-08; projected scalar equation residual=-1.06743e-12; EM residual=1.88298e-13.
+  - root EM shape energy=13.4300193661246; current mixed-source ratio=-5.39332134824587e-08.
+  - projected t=-3.29620643031075e-05; projected scalar equation residual=+1.53546e-14; EM residual=1.42337e-13.
+  - root EM shape energy=0.272454063816945; current mixed-source ratio=-3.29620642877529e-05.
+- Interpret all projected roots as **necessary-only fixed-f0-shape conditions**, not full source+scalar equilibrium or torus lift.
+
+## L2. Mathematical and numerical root-convergence caveats
+
+- `large_negative_root_relative_mesh_change` = `0.03433587809646488`.
+- `positive_small_root_relative_mesh_change` = `0.0003800306027950118`.
+- `projected_roots_are_not_full_scalar_EOM` = `True`.
+- `strong_t1_source_ratio_relative_box_converged` = `False`.
+- `strong_t1_source_ratio_within_1e_7` = `True`.
+- A ratio tending toward numerical cancellation only in a restricted projection is not a continuum theorem.
+- Box size can change the count of projected roots, not merely their last significant digit.
+- At 48 m the strong-source ratio flips sign under mesh refinement: do not make relative-convergence claims across a zero crossing.
+- A tiny Maxwell residual for the reduced system says nothing about the omitted local f2 scalar residual.
+- A good projected scalar residual need not coincide with a small residual in the full local Euler–Lagrange PDE.
+- Positive static Hessian in source-eliminated coordinates need not establish real-time Hamiltonian positivity after gauge constraints and matter coupling.
+- The prescribed current’s divergence conditions are weaker than a dynamical material Noether-current and surface-traction closure.
+- The torus target in U1 has finite cross section; U2 evaluated f0 alone as a sign-negative control, not the final transferred field.
+
+## M. Competing explanations and falsifiable decisions
+
+### M.1 M0: prescribed R3B geometry only
+- Current evidence: G01-T3 dual exclusion.
+- Classification: STOP until operator/source changes.
+- Next decisive test: No more shell mode-amplitude sweeps.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+### M.2 M1: radial-only axion source
+- Current evidence: G01-U2 suppresses projected source and f0-only sign fails.
+- Classification: RESTRICTED NEGATIVE.
+- Next decisive test: Full angular is not thereby excluded.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+### M.3 M2: full angular f0+f2 axion
+- Current evidence: U1 scalar-only outward; U2 omits f2.
+- Classification: OPEN.
+- Next decisive test: Derive/solve full source-coupled f2 Maxwell/scalar PDE.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+### M.4 M3: independently on-shell shell current material
+- Current evidence: Y current is prescribed in U1/U2.
+- Classification: OPEN HIGH RISK.
+- Next decisive test: Identify charged species, action, support, finite source.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+### M.5 M4: extremely strong beta even metric
+- Current evidence: ~2e23 beta gives alpha=beta phi potentially large.
+- Classification: EMPIRICAL/UV HOLD.
+- Next decisive test: Check fifth-force, strong coupling, cutoff, radiative corrections.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+### M.6 M5: G01-S capacitor scalar law
+- Current evidence: loaded outward with source assumptions, no Y magnetic transfer.
+- Classification: TOY ONLY.
+- Next decisive test: Transfer requires a source-protected magnetic sector.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+### M.7 M6: PH16 charge source
+- Current evidence: joint canonical stationarity demonstrated.
+- Classification: METHOD DONOR.
+- Next decisive test: Port constrained Noether and matter equations, not physical SI claim.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+### M.8 M7: 006D stress-engineering
+- Current evidence: conserved GR outward near field but ~1/G cost.
+- Classification: ENERGY FAIL.
+- Next decisive test: Use as sign and Bianchi negative control only.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+### M.9 M8: new healthy universal-metric operator
+- Current evidence: at most one new operator motivated by proved obstruction.
+- Classification: CONDITIONAL.
+- Next decisive test: Derive symmetry, Ward, modes, empirical/energy first.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+### M.10 M9: quantum/semiclassical reserve
+- Current evidence: no justified external assumptions.
+- Classification: RESERVE.
+- Next decisive test: Require actual state, renormalized stress and quantum inequalities.
+- Minimum gate: conservation, on-shell source, universal metric and complete energy remain separately required.
+- If failed, archive numerical failure; do not relabel it as a positive gravitational survivor.
+
+## N. Physical action checklist: what needs derivation, not assumption
+
+Choose a single coherent candidate in covariant notation with all normalizations stated. A schematic action is:
+
+```math
+S = \int d^4x\sqrt{-g}\left[\frac{c^4}{16\pi G}R-\frac14 Z_X(\phi)F_X^{2}-\frac14 Z_Y(\phi)F_Y^{2}-\frac12(\nabla\phi)^2-V(\phi)-\frac14 h(\phi)F_X\,{}^{\star}\!F_Y+\mathcal L_{\rm charged\ source}+\mathcal L_{\rm supports}\right]+S_{\rm neutral}[\psi,A^2(\phi)g]+S_{\rm Earth}.
+```
+
+This schematic is **not** claimed to be the exact G01-U1 normalization. Re-derive all factors from the producing code and a physically calibrated SI action.
+### N.01 Gauge X
+- Required variation/test: delta S/dX_mu=0 with covariant current J_X and antisymmetric constitutive tensor.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.02 Gauge Y
+- Required variation/test: delta S/dY_mu=0 with J_Y and no monopole; magnetic/electric dualities handled explicitly.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.03 Scalar
+- Required variation/test: delta S/dphi=0 includes full f0 and f2 angular derivative, neutral source, potential and changes to X/Y.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.04 Charged source
+- Required variation/test: delta S/dchi=0, phase/winding, surface bound or free current, finite stress and charge number.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.05 Neutral
+- Required variation/test: delta S/dpsi=0 gives normalized 1 kg static fluid/solid profile with support forces.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.06 Metric
+- Required variation/test: Hilbert T_mu_nu=-2/sqrt(-g) delta S_matter/dg^mu_nu, including Hodge, conformal and support dependence.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.07 Earth
+- Required variation/test: derive force on actual Earth source from common action and exterior metric, not an opposite sign in a toy.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.08 Supports
+- Required variation/test: all onboard mechanical/charged stresses included in T and in source energy.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.09 Gauge Ward
+- Required variation/test: nabla_mu J_X^mu=0 and nabla_mu J_Y^mu=0 on shell, including discontinuous interfaces.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.10 Noether
+- Required variation/test: fixed particle/charge numbers from genuine symmetries, not assigned current profiles.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.11 Diffeomorphism
+- Required variation/test: nabla_mu T_total^mu_nu=0 after matter, metric and gauge equations; fluxes and boundaries close.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.12 Kinetic health
+- Required variation/test: principal symbol and constrained Hamiltonian count, not just static 2x2 Hessian.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.13 Strong coupling
+- Required variation/test: coupling functions and beta/kappa in canonical SI normalization; scale vs cutoff, loop corrections.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.14 Exterior
+- Required variation/test: matched source-to-target solution and vacuum falloff; radius vs box-size convergence.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.15 Transmission
+- Required variation/test: field stress energy and gravitational potential crossing every exterior cut; correct sign.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.16 Whole craft
+- Required variation/test: integrate stress flux over all onboard matter including source and reaction; no internal-force counting.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.17 Energy
+- Required variation/test: E_on-E_off+supports+fields+source mass+activation+recoil+radiation+losses <10 MJ.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.18 Empirical
+- Required variation/test: EP/fifth-force bounds and labs; no freely invented couplings with no exclusion checks.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+### N.19 Time evolution
+- Required variation/test: stable real perturbations, causal impulses, negative phases, recoil, radiation and cycles.
+- Status at G01-U2: NOT SOLVED in full unless explicitly restricted in its JSON/verification; no promotion to physical pass.
+- Least expensive evidence: algebraic Ward/Hamiltonian/energy estimate before mesh construction.
+- Negative control: identify a forbidden sign, zero-coupling limit, frozen-source limit or a known archive failure.
+- Acceptance record: producing action SHA, derivative identity, numeric residual, independent check, and physical claim boundary.
+
+## O. Fastest credible path forward — staged, conditional next-session run budget
+
+The objective is to **increase information per expensive run** and avoid a repeat of the closed family. Do not promise physical success in one or two runs: there is no empirical basis for a guaranteed healthy new gravitational interaction. The 70% blocker-resolution heuristic would require actual evidence, not a better-looking percentage.
+
+**PRESESSION, zero scientific runs:** regenerate the Mac source-only codebundle, verify parent artifacts, read active registry, compare the five specific new G01 producer files and their source hashes to recorded JSON. Stop on provenance mismatch. Preserve old buildplans and journals unmodified.
+
+**Decision Gate A — theoretical prefilter (`G01-U3A`, one short analytical/miner job only if needed):** derive the exact covariant action and its X/Y/phi/source/matter/metric variations; determine whether U1 f2 angular source requires material current components not supported by a finite on-shell shell current. Include beta phi, strong coupling and empirical screening. If a necessary condition fails, HOLD/FAIL and try at most one physically distinct operator in GRAVITY2. No PDE.
+
+**Decision Gate B — full angular reciprocal response (`G01-U3B`, at most one expensive PDE experiment if A passes):** solve X/Y Maxwell plus full axion phi(r,theta) with f0,f2, source shell and neutral loading together under fixed actual source-charge Noether data; test 3D magnetically divergence-free Hodge, constant theta null, no-source null, zero-beta limit and reversed couplings. Use two grids and two exterior boxes with explicit acceptance. A projected scalar equation is never accepted in place of the full local scalar residual.
+
+**Decision Gate C — source/material stationarity (`G01-U3C`, only if B yields a positive loaded minimum):** derive and solve finite current-producing charged field, surface confinement and support traction together with X/Y/phi. Require at least restricted Hessian, Schur complement, stress flux and finite source/activation energy. If physically unsupported, record scoped conditional witness and stop; do not call it lift.
+
+**Decision Gate D — Einstein/Earth/craft (`G01-U4`, only if a sourced field survives C):** solve Hilbert stress including all fields/materials; match interior/exterior gravity and Earth-source boundary; test gravitational reaction and net whole-craft force. Compute true SI energy and apply empirical/UV controls early. Only here should a reassessment toward >=50% overall physical maturity be discussed.
+
+**STOP CONDITIONS:** If no current-producing microscopic action, wrong-sign force anywhere, no finite exterior, Lorentzian ghost, insufficient projected source, unavoidable >=10 MJ complete-energy lower bound, empirical exclusion or conservation mismatch, stop the branch immediately. Negative science is useful; it does not count toward lift.
+## O1. Preflight: exact gates and expected decisions
+
+#### P0: Load only immutable JSON+source SHA; no stale buildplan takes precedence.
+- Expected classification if unmet: FAIL on mismatch.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P1: Write action in physical SI, clarify gravitational scalar normalization and conformal A(phi).
+- Expected classification if unmet: HOLD absent factors.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P2: Derive both X/Y Maxwell variations and their Ward identities including interface jumps.
+- Expected classification if unmet: FAIL on nonconservation.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P3: Derive local scalar equation with both f0 and f2 angular terms; no amplitude-only projection.
+- Expected classification if unmet: FAIL if undefined.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P4: Compute actual shell charge and current from finite material action; test scalar charged-field EOM.
+- Expected classification if unmet: HOLD if prescribed.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P5: Test neutral matter universal metric and finite 1 kg supported equilibrium.
+- Expected classification if unmet: HOLD if geometry imposed.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P6: Compute theta gradient, canonical coupling and effective beta phi at torus and source.
+- Expected classification if unmet: HOLD if uncontrolled.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P7: Check full constrained kinetic symbols and positivity; Hessian only not enough.
+- Expected classification if unmet: FAIL ghost.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P8: Evaluate source/support energy lower bound and meaningful off-state baseline.
+- Expected classification if unmet: FAIL if >=10MJ provable.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P9: Check lab fifth force, dark-sector and composition constraints; allow conditional unknowns only clearly.
+- Expected classification if unmet: HOLD if unconstrained.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P10: Define exterior flux cuts and 1 m stand-off for all source surfaces.
+- Expected classification if unmet: FAIL if hidden overlap.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P11: Specify analytic nulls: constant theta, zero source, zero beta, opposite coupling sign.
+- Expected classification if unmet: FAIL if null broken.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P12: Independent algebraic source-projection bound before discretizing huge box.
+- Expected classification if unmet: STOP if too weak.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P13: Gate full angular radial dipole: compare scalar-only U1 limit at zero feedback.
+- Expected classification if unmet: FAIL if regression.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+#### P14: Accept candidate to expensive PDE only if necessary gate passed with margin.
+- Expected classification if unmet: NO RUN otherwise.
+- Required note: record input source ID, exact assumption and quantitative failure margin.
+- Minimum check: both a negative control and a physically relevant normalization cross-check.
+
+## O2. Full angular coupled PDE gates (only after preflight pass)
+
+#### D0: Correct covariant radial/angular Laplacian at axis; regularity and surface jumps.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D1: Gauge-fixed potentials with exact discrete divergence, no spuriously sourced magnetic monopole.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D2: Coupled phi, X and Y solved at same iterate; source feedback not treated as perturbatively small at Rgradtheta~8.5e6.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D3: Neutral density/field response re-equilibrated at same scalar metric; mass fixed to 1 kg.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D4: On-shell charged shell currents solved or HOLD as prescribed inputs; no fake source promotion.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D5: Full local scalar residual norms on every grid, not only integrated projected root.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D6: X/Y Gauss/Ampere residuals, source-current support, Ward identities and Bianchi at matched boundaries.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D7: Negative controls constant theta and zero theta source with exactly the same boundary conditions.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D8: Check f2=0 reproduces U2 restricted equations while showing scope limitation.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D9: Check frozen-X/Y limit reproduces U1 only within original reference normalization.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D10: Check sign throughout finite torus, not at COM only; store point of weakest acceleration.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D11: Check >=1 m clearance to source material and supports, not only ideal shell.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D12: Check two spatial grids and exterior boxes; compare fields, force, energy, flux and source residual.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D13: Check strong-source shape energy is converged; U2 48m energy drift forbids assuming it.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D14: Check scalar-only vs full reciprocal energy, source energy and off-state terms.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D15: Check Hessian and Schur signs; follow time-dependent constrained modes if survivor.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D16: Check gauge current continuity across shell with finite-width regularization.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+#### D17: Stop on any solver-specific success with physical source gate false; classify conditional witness.
+- Numerical artifact: immutable per-grid residual/force/energy/exterior JSON and SHA.
+- Scientific decision: PASS only with converged same-iterate full-field results; else HOLD/FAIL/INCONCLUSIVE.
+- Run policy: no full repository regression for this micro-run; focused negative controls only.
+
+## O3. Artificial discovery fork only if U3 action prefilter fails
+
+- Limit GRAVITY2 to **one genuinely new healthy universal-metric operator**, plus original U1 action as a negative control; do not introduce a dozen coefficients merely to improve solver objective.
+- Candidate must evade specific U2 strong reciprocity bottleneck **by changing physically derived source response**, not assigning a favorable external Y drive.
+- Consult PH16-04R2 charged source and neutral-fluid stationarity; its canonical units do not transfer to joules without complete calibration.
+- Reject zero source-free equilibrium unless nonconvexity, topological charge or an external source is physically justified and derived.
+- Gauge kinetic mixing removable by field redefinitions is not an independent operator; test basis invariance before claiming new physics.
+- Strong nonlinear scalarization can give a positive sign but introduces strong-coupling/naturalness concerns; measure scales and empirical compatibility before expensive PDE.
+- Axionic topological mixed terms with constant theta have no bulk force; only gradients and source-dependent terms can drive reciprocal fields. Preserve this Ward null exactly.
+- If a candidate survives the theorem gate, demand solver-independent check of complete local Euler–Lagrange equations, not merely target field profile.
+- If two candidates survive, rerank by physical source quality, empirical viability and necessary SI energy rather than peak acceleration.
+- Never use a low canonical field-only joule number from one model to certify operating energy of a different action/geometry.
+## P. The new blocker-resolution heuristic and all other progress metrics
+
+**Heuristic `H_BLOCKER`: 33% as of completed G01-U2 analysis.** This is a subjective *research planning* estimate of how far we have progressed in constructing an independently physically viable resolution of R3B's adverse source/loading/gravity blocker. It is neither a calibrated probability of success, a fraction of tests passed, a percentage of prototype development, a measure of time remaining, nor evidence that one or two runs will complete it.
+
+**Remaining heuristic:** 67 percentage points.
+**Target desired milestone:** 70% blocker-resolution.
+**Gap to 70%:** 37 percentage points.
+**Overall physical research heuristic:** 37%, unchanged after G01-U2. It covers wider Einstein, full source, stability, exterior/Earth/craft, empirical/UV and complete-energy obligations.
+**Understanding of *tested* failure mechanisms:** ~93% subjective, not understanding all possible matter/metric mechanisms.
+**Certified physical gravitational survivors:** 0.
+**Actual confirmed whole-craft lift:** none.
+**Probability of ultimate device success:** not estimated (no defensible calibration).
+**Older GAMMA heuristic:** ~34% as recorded in historical buildplan, separate, stale and not an update to H_BLOCKER.
+**Older overall ~35% in Nov 18 README:** historical snapshot, not latest ~37% planning judgment.
+## P1. Proposed evidence-tier reporting rubric (planning, not automatic score)
+
+### P1.Tier 0: No new action or source, only additional computation in closed model.
+- Guidance: 0 pp / possible downweight.
+- Never auto-increment by a fixed amount when only test counts or field-only acceleration improve.
+- Report current value, previous value, delta percentage points, remaining to 100 and remaining to 70.
+
+### P1.Tier 1: Derived new mathematically consistent coupling, no source material.
+- Guidance: Small positive conditional reassessment only.
+- Never auto-increment by a fixed amount when only test counts or field-only acceleration improve.
+- Report current value, previous value, delta percentage points, remaining to 100 and remaining to 70.
+
+### P1.Tier 2: Full angular X/Y/phi locally reciprocal on two grids with correct sign.
+- Guidance: Potential jump if source health also plausible.
+- Never auto-increment by a fixed amount when only test counts or field-only acceleration improve.
+- Report current value, previous value, delta percentage points, remaining to 100 and remaining to 70.
+
+### P1.Tier 3: Physically identifiable finite currents and support from action with constraints.
+- Guidance: Strong evidence; revisit 40–50% blocker.
+- Never auto-increment by a fixed amount when only test counts or field-only acceleration improve.
+- Report current value, previous value, delta percentage points, remaining to 100 and remaining to 70.
+
+### P1.Tier 4: Fully on-shell source/X/Y/neutral in physical units, continuum/exterior.
+- Guidance: Material advance; revisit 50–60% blocker.
+- Never auto-increment by a fixed amount when only test counts or field-only acceleration improve.
+- Report current value, previous value, delta percentage points, remaining to 100 and remaining to 70.
+
+### P1.Tier 5: Same-action Einstein metric, Earth-down whole-craft-up and empirical/energy prefilter passed.
+- Guidance: Potential >70% blocker milestone.
+- Never auto-increment by a fixed amount when only test counts or field-only acceleration improve.
+- Report current value, previous value, delta percentage points, remaining to 100 and remaining to 70.
+
+### P1.Tier 6: Independent replication and complete energy, stability, causal dynamics.
+- Guidance: Device-class evidence; beyond heuristic discovery milestone.
+- Never auto-increment by a fixed amount when only test counts or field-only acceleration improve.
+- Report current value, previous value, delta percentage points, remaining to 100 and remaining to 70.
+
+## P2. Why G01-U2 remained at 33%
+
+- U2 introduced reciprocal Maxwell response and numerical negative controls; this improved mechanistic understanding.
+- U2 removed several small-box projected roots and revealed major source suppression in a restricted channel.
+- U2 did not solve local phi EOM or include angular f2 mode that created U1 uniform positive sign.
+- U2 omitted finite on-shell X/Y material, supports, neutral-fluid dynamics, full metric and Earth/craft force.
+- U2 strong-amplitude ratios show nonconvergence/sign change at machine-tiny values; no physical response pass was earned.
+- Maintaining 33% rather than upgrading to 70% prevents mistaking a useful obstruction for achieved propulsion physics.
+
+## Q. Complete artifact and reproducibility ledger
+
+### Q.T1 — immutable scientific result
+- Uploaded source filename: `science(20261122-041621).json`.
+- Actual SHA-256 verified in current tool environment: `e7a265f3963131e2f0a06e2d0f04c688658bad68cb00bfb49b5ec91a90cc4e39`.
+- JSON scientific experiment label: `G01-T0T1`.
+- The live Mac checkout path is governed by corresponding LATEST_PATH pointer; verify it exists before any archival comparison.
+- Do not modify an accepted JSON; write new versioned JSON plus sidecar SHA and preserve verification log.
+- If producer code is absent from attached bundle, request newly generated live bundle; never fabricate code from SHA.
+
+### Q.T2 — immutable scientific result
+- Uploaded source filename: `science(20261122-043727).json`.
+- Actual SHA-256 verified in current tool environment: `8f4e5b27b7b84372bdeb2727f3e37eef270b8ea959754d4f3d9a4f806e3e5ed6`.
+- JSON scientific experiment label: `G01-T2-EXACT-QUADRATIC-SHARED-SOURCE-GOLDEN`.
+- The live Mac checkout path is governed by corresponding LATEST_PATH pointer; verify it exists before any archival comparison.
+- Do not modify an accepted JSON; write new versioned JSON plus sidecar SHA and preserve verification log.
+- If producer code is absent from attached bundle, request newly generated live bundle; never fabricate code from SHA.
+
+### Q.T3 — immutable scientific result
+- Uploaded source filename: `certificate.json`.
+- Actual SHA-256 verified in current tool environment: `1cfe07d9c3e10a21ac01243b2288d6d4380d0e906768906166165681e9c7e4eb`.
+- JSON scientific experiment label: `G01-T3-FINE-GRID-ENERGY-CAP-CERTIFICATE`.
+- The live Mac checkout path is governed by corresponding LATEST_PATH pointer; verify it exists before any archival comparison.
+- Do not modify an accepted JSON; write new versioned JSON plus sidecar SHA and preserve verification log.
+- If producer code is absent from attached bundle, request newly generated live bundle; never fabricate code from SHA.
+
+### Q.U1 — immutable scientific result
+- Uploaded source filename: `science(20261122-052244).json`.
+- Actual SHA-256 verified in current tool environment: `0f5b138a22d9da0088cdb9d6c2bfdcfbb046603845447d250878809c454616c3`.
+- JSON scientific experiment label: `G01-U1-AXION_MIXED_SOURCE_SCREENED_METRIC_FORK`.
+- The live Mac checkout path is governed by corresponding LATEST_PATH pointer; verify it exists before any archival comparison.
+- Do not modify an accepted JSON; write new versioned JSON plus sidecar SHA and preserve verification log.
+- If producer code is absent from attached bundle, request newly generated live bundle; never fabricate code from SHA.
+
+### Q.U2 — immutable scientific result
+- Uploaded source filename: `science(20261122-174147).json`.
+- Actual SHA-256 verified in current tool environment: `a91e6c325e9a12f2aff4b28b7fc7dede7a95644fb9776fba7fc0d1dd4b0c1d2b`.
+- JSON scientific experiment label: `G01-U2-RECIPROCAL-MAXWELL-RADIAL-DIPOLE-FORK`.
+- The live Mac checkout path is governed by corresponding LATEST_PATH pointer; verify it exists before any archival comparison.
+- Do not modify an accepted JSON; write new versioned JSON plus sidecar SHA and preserve verification log.
+- If producer code is absent from attached bundle, request newly generated live bundle; never fabricate code from SHA.
+
+- G01-T1 source: `scripts/g01t_t0t1.py`; expected SHA-256 `57efe5406cd8dde4a9a040a102e9781c2fbb22508fe323d5465ea0928921a3b0`. Check against **live repo**, not inferred from older bundle.
+- G01-T2 source: `scripts/g01t2_golden_exact.py`; expected SHA-256 `6489845e2de5e6203e7541c26b3ebbef626cd169266df2d3ef27a4f12f96d388`. Check against **live repo**, not inferred from older bundle.
+- G01-T3 source (corrected): `scripts/g01t3_energy_cap_certificate.py`; expected SHA-256 `0a937619437505577a13c3c63ca300cb42f0f7ad0797fe28090bf6edd07ab247`. Check against **live repo**, not inferred from older bundle.
+- G01-U1 source: `scripts/g01u1_axion_fork.py`; expected SHA-256 `4b6b6001ffbd5c80f90cc8d078704e41161275cebd3095e36308c62bff833816`. Check against **live repo**, not inferred from older bundle.
+- G01-U2 source: `scripts/g01u2_reciprocal_dipole_gate.py`; expected SHA-256 `950cc136c513ca3d37f171341b2b36678f5f864554fee784df328cca6562c8d3`. Check against **live repo**, not inferred from older bundle.
+- G01-T2 coefficient: `quadratic_coefficients.npz`; expected SHA-256 `0296771603d17f1b60b1a790f1a8b46e21c0471fe7e7bbe0d2be273c7b61c962`. Check against **live repo**, not inferred from older bundle.
+- G01-U1 radial reference: `radial_reference.npz`; expected SHA-256 `cfe54027edcd6a33532faa5eec138455bc35a89193f9b3af1d4cd4f5bf727999`. Check against **live repo**, not inferred from older bundle.
+
+## Q2. Exact Mac result directories and pointer names
+
+### T0/T1
+- Expected directory: `results/gravity2/g01t_t0t1_20261122T040953Z_21912`.
+- Pointer: `results/gravity2/G01T_LATEST_PATH.txt`.
+- Always read live pointer, check parent hashes, refuse to rewrite immutable run directory.
+- Preserve run.log, science.json and verifying log; do not infer full regression pass.
+
+### T2
+- Expected directory: `results/gravity2/g01t2_golden_20261122T043552Z_57319`.
+- Pointer: `results/gravity2/G01T2_LATEST_PATH.txt`.
+- Always read live pointer, check parent hashes, refuse to rewrite immutable run directory.
+- Preserve run.log, science.json and verifying log; do not infer full regression pass.
+
+### T3
+- Expected directory: `results/gravity2/g01t3_certificate_20261122T044728Z_74926`.
+- Pointer: `results/gravity2/G01T3_LATEST_PATH.txt`.
+- Always read live pointer, check parent hashes, refuse to rewrite immutable run directory.
+- Preserve run.log, science.json and verifying log; do not infer full regression pass.
+
+### U1
+- Expected directory: `results/gravity2/g01u1_axion_20261122T052145Z_7105`.
+- Pointer: `results/gravity2/G01U1_LATEST_PATH.txt`.
+- Always read live pointer, check parent hashes, refuse to rewrite immutable run directory.
+- Preserve run.log, science.json and verifying log; do not infer full regression pass.
+
+### U2
+- Expected directory: `results/gravity2/g01u2_reciprocal_20261122T173833Z_39784`.
+- Pointer: `results/gravity2/G01U2_LATEST_PATH.txt`.
+- Always read live pointer, check parent hashes, refuse to rewrite immutable run directory.
+- Preserve run.log, science.json and verifying log; do not infer full regression pass.
+
+## R. Next-session operating procedure, only notes/codebundle now
+
+**During this session’s documentation closeout:** do NOT run G01-U3, restart full regression, or modify other standing docs. Create updated NOTES, regenerate code-only bundle **on Mac** using existing collector, and attach actual resulting files at start of next session.
+
+The following is a *documentation-only command*, **not** a physics simulation. Run it on Mac only after NOTES has been copied to correct repository path. It is included so codebundle update is reproducible.
+
+```bash
+bash <<'CODEBUNDLE_ONLY'
+set -euo pipefail
+cd "$HOME/Desktop/antigravity_research"
+test -f ./make_codebundle.sh
+for p in   scripts/g01t_t0t1.py   scripts/g01t2_golden_exact.py   scripts/g01t3_energy_cap_certificate.py   scripts/g01u1_axion_fork.py   scripts/g01u2_reciprocal_dipole_gate.py; do
+  test -f "$p" || { echo "MISSING_NEW_PRODUCER: $p"; exit 1; }
+done
+bash ./make_codebundle.sh
+latest="$(ls -t codebundles/ANTIGRAVITY_RESEARCH_CODEBUNDLE_*.md | head -n 1)"
+test -f "$latest"
+for p in   scripts/g01t_t0t1.py   scripts/g01t2_golden_exact.py   scripts/g01t3_energy_cap_certificate.py   scripts/g01u1_axion_fork.py   scripts/g01u2_reciprocal_dipole_gate.py; do
+  grep -Fq -- "$p" "$latest" || { echo "MISSING_FROM_BUNDLE: $p"; exit 1; }
+done
+shasum -a 256 "$latest"
+echo "CODEBUNDLE_UPDATED=$latest"
+echo "SCIENCE_RUNS=NONE"
+echo "FULL_REGRESSION=NOT_RUN"
+CODEBUNDLE_ONLY
+```
+
+**Caution:** This command assumes the collector generates files into `codebundles/`, as recorded in November 21 codebundle. If live script changes output convention, inspect its output instead of fabricating filename. Codebundle does not contain large binary artifacts: attach JSON/NPZ/logs separately.
+## S. Next-session claims control, failure handling and communication
+
+### S.01 Did G01-U2 solve blocker?
+- Accurate answer: No. It only solved reduced reciprocal Maxwell dipole sector and projected scalar-amplitude equation.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.02 Can 33% rise automatically after U3A?
+- Accurate answer: No. Only new physical gates and independently verified evidence can justify reassessment.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.03 Is +10.7816 U1 real antigravity?
+- Accurate answer: No. Conditional scalar-only, prescribed Maxwell field metric response.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.04 Is 7.333 MJ complete operating budget?
+- Accurate answer: No. Excludes gauge field, source, supports, off-state, metric reaction and dynamics.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.05 Is 13.116 MJ U1 gauge diagnostic rigorous no-go?
+- Accurate answer: No. Perturbative scaling outside weak-feedback regime.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.06 Is G01-T3 universal Maxwell/Einstein no-go?
+- Accurate answer: No. Ten-dimensional frozen-loading fine-sample field-energy-bounded certificate.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.07 Did U2 imply E dot B exactly zero at t=1?
+- Accurate answer: No. Near-zero projected ratios changed sign under refinement and energy not converged.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.08 Does stable positive projected U2 root imply on-shell axion?
+- Accurate answer: No. Full local scalar Euler–Lagrange equations were not solved.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.09 Does constant-theta null prove full gauge health?
+- Accurate answer: No. Important reduced Ward control, not constrained Lorentzian Hamiltonian stability.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.10 Does reduced positive Hessian imply absence of ghosts?
+- Accurate answer: No. Time and gauge constraints plus matter degrees remain.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.11 Is PH16-04R2 already a real gravity model?
+- Accurate answer: No. Finite canonical lattice stationarity with unresolved Lorentzian/metric transfer.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.12 Has 006D been replaced?
+- Accurate answer: No. Positive-energy repulsion with large ~1/G energy remains its conservative reference.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.13 Can we assume hidden charged current or Earth reaction?
+- Accurate answer: No. Both from common action and physical supports.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.14 What if full U3 angular response fails?
+- Accurate answer: Archive exact obstruction, then use GRAVITY2 for at most one genuinely new healthy operator.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.15 What if high outward acceleration but >10 MJ?
+- Accurate answer: Reject strict full operating-energy objective; no hidden nonfield contributions.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.16 What if 10 MJ exactly?
+- Accurate answer: Fail. Strictly less than 10 MJ is required.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.17 Can we optimize R3B sub-100 J capacity now?
+- Accurate answer: No. Source/metric/conservation and genuine loaded response are priorities.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.18 Do we run pytest every run?
+- Accurate answer: No. Focused verification and hashes; milestone regression separately authorized.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.19 Do we update other docs now?
+- Accurate answer: No. Current transition updates NOTES and codebundle only.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+### S.20 Can we promise 70% next session?
+- Accurate answer: No. No evidence supports a guarantee; plan maximizes information per run.
+- Required discipline: cite exact action/output scope; retain counterexamples and failure evidence.
+
+## T. Research strategy distilled to a few decisive choices
+
+1. **Do not repeat G01-T1/T2/T3.** Closure is sufficient for original ideal ten multipoles at 10 MJ field energy.
+2. **Do not copy U1 +10.78 m/s² into U2 without re-solving X/Y.** U2 proved shortcut unreliable.
+3. **Full angular f2 is a critical missing U1 degree of freedom for reversing U2 f0-only negative torus sign.** It may fail fully reciprocal.
+4. **Candidate’s main physical liabilities: real current dynamics, extreme beta, strong gauge backreaction and true Hilbert/whole-craft gravity.** Solve as gates, not caveats.
+5. **Derive action before running huge PDE.** Analytic source-current/health failures are cheap; 48m box scan is not substitute.
+6. **Use GRAVITY2 as constrained discovery assistant.** Action fingerprints, symmetry classifiers, no-go certificates useful; inverse optimizer not enough.
+7. **Strong negative result worth keeping**, but must not raise heuristics like positive physical closure.
+8. **Prefer one source law and one cross-grid integrated attempt** to dozens of slight tweaks; if no candidate, report none.
+9. **Test physical Earth reaction early enough.** Onboard internal relative forces cannot generate net external propulsion.
+10. **Complete gravitational energy accounting.** Canonical J cannot be compared across actions without SI calibration and off-state/support corrections.
+11. **Independent math verification must audit equations**, not recalculate stored value from same imposed formulas.
+12. **70% blocker is a research milestone to earn.** Start 33% blocker / 37% overall; after each result report delta, remaining and uncertainty.
+## U. Archive integrity checklist: preflight before next physics solve
+
+- [ ] U.01: Read parent T1/T2/T3/U1/U2 scientific JSON sidecars and compare exact bytes.
+- [ ] U.02: Confirm five G01 producer scripts exist in live Mac checkout and match JSON source hashes.
+- [ ] U.03: Confirm T2 quadratic NPZ SHA and U1 radial NPZ SHA; preserve binary arrays.
+- [ ] U.04: Confirm make_codebundle.sh is source-only and excludes full notes/journals/results.
+- [ ] U.05: Generate new live codebundle once; check it includes all five G01 source scripts.
+- [ ] U.06: Inspect current GRAVITY2 registry/policy without changing tasks.
+- [ ] U.07: Record exact full-test status; newest G01 T/U suites focused only.
+- [ ] U.08: Read historical 006D and PH16-04R2 source hashes before technique transfer.
+- [ ] U.09: Inspect R3X1 Lorentzian sign audit before adjusting field equation.
+- [ ] U.10: Check U2 gauge implementation and constant-theta boundary terms in live code.
+- [ ] U.11: Check gauge Hodge projection independent from scalar feedback.
+- [ ] U.12: Check U2 large box energy drift; preserve unresolved numerical convergence.
+- [ ] U.13: Re-derive theta axion normalization from common SI action and mixed dual conventions.
+- [ ] U.14: Write U3 full angular scalar projected and local residuals separately.
+- [ ] U.15: Identify finite on-shell shell current or mark physically unsourced.
+- [ ] U.16: Define physical neutral torus stress/support before claiming Earth/craft lift.
+- [ ] U.17: Write strict fail-fast branch-pruning decision for >=10 MJ complete-energy lower bound.
+- [ ] U.18: Make immutable output directory/sidecar SHA before expensive runs.
+- [ ] U.19: Use nulls constant axion, vanishing axion, source-off, wrong sign, boundary enlargement.
+- [ ] U.20: Record blocker heuristic unchanged if only numerical toy/obstruction passes.
+
+## V. Compact latest scientific ledger and next action
+
+| Run | Actual finding | Missing physics | Status |
+| --- | --- | --- | --- |
+| G01-S | Conditional positive loaded capacitor scalar; 7.47 MJ lower active static | real hidden charge/current, R3B Y, full gravity | conditional only |
+| G01-T0/T1 | 10-mode shell reduces inward acceleration about 75% | material source and exact positive sign | no survivor |
+| G01-T2 | Exact quadratic nearly zero inward; 18.97 kJ necessary modeled energy | full source and whole craft | no survivor |
+| G01-T3 | 10-mode 10 MJ dual bound 4.999999576 m/s² <1g | other actions untested | scoped exclusion |
+| G01-U1 | f0+f2 scalar-only +10.7816 m/s²; scalar 7.333 MJ | real source, reciprocal X/Y, Einstein | conditional outward signal |
+| G01-U2 | radial-only reciprocal source suppression; tiny projected roots | f2, local phi, charged matter, Einstein | restricted negative / incomplete |
+
+**Authoritative closeout:** G01-U2 latest executed, exact SHA `a91e6c325e9a12f2aff4b28b7fc7dede7a95644fb9776fba7fc0d1dd4b0c1d2b`. Full repository regression intentionally NOT RUN for G01-U2; physical survivors ZERO. Blocker-resolution heuristic **33%**; remaining **67%**; goal **70%** only after new physical closure. Overall physical research heuristic **37%**; 006D unreplaced; R3B 1.542916 J still prescribed and loaded inward. **Next physics work unexecuted G01-U3A theorem-first full-angular source gate, conditional U3B coupled PDE, conditional charged source/Einstein transfer**. Use GRAVITY2 bounded discovery if source action fails. **No guaranteed breakthrough or engine.**
+## W. Audit matrix: each gate, exact claim wording and rejection triggers
+
+### W.01: Gauge X
+- Prospective author must show: delta S/dX_mu=0 with covariant current J_X and antisymmetric constitutive tensor.
+- Acceptable output label before proof: `HOLD_UNDERIVED_GAUGE_X`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.02: Gauge Y
+- Prospective author must show: delta S/dY_mu=0 with J_Y and no monopole; magnetic/electric dualities handled explicitly.
+- Acceptable output label before proof: `HOLD_UNDERIVED_GAUGE_Y`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.03: Scalar
+- Prospective author must show: delta S/dphi=0 includes full f0 and f2 angular derivative, neutral source, potential and changes to X/Y.
+- Acceptable output label before proof: `HOLD_UNDERIVED_SCALAR`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.04: Charged source
+- Prospective author must show: delta S/dchi=0, phase/winding, surface bound or free current, finite stress and charge number.
+- Acceptable output label before proof: `HOLD_UNDERIVED_CHARGED_SOURCE`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.05: Neutral
+- Prospective author must show: delta S/dpsi=0 gives normalized 1 kg static fluid/solid profile with support forces.
+- Acceptable output label before proof: `HOLD_UNDERIVED_NEUTRAL`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.06: Metric
+- Prospective author must show: Hilbert T_mu_nu=-2/sqrt(-g) delta S_matter/dg^mu_nu, including Hodge, conformal and support dependence.
+- Acceptable output label before proof: `HOLD_UNDERIVED_METRIC`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.07: Earth
+- Prospective author must show: derive force on actual Earth source from common action and exterior metric, not an opposite sign in a toy.
+- Acceptable output label before proof: `HOLD_UNDERIVED_EARTH`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.08: Supports
+- Prospective author must show: all onboard mechanical/charged stresses included in T and in source energy.
+- Acceptable output label before proof: `HOLD_UNDERIVED_SUPPORTS`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.09: Gauge Ward
+- Prospective author must show: nabla_mu J_X^mu=0 and nabla_mu J_Y^mu=0 on shell, including discontinuous interfaces.
+- Acceptable output label before proof: `HOLD_UNDERIVED_GAUGE_WARD`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.10: Noether
+- Prospective author must show: fixed particle/charge numbers from genuine symmetries, not assigned current profiles.
+- Acceptable output label before proof: `HOLD_UNDERIVED_NOETHER`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.11: Diffeomorphism
+- Prospective author must show: nabla_mu T_total^mu_nu=0 after matter, metric and gauge equations; fluxes and boundaries close.
+- Acceptable output label before proof: `HOLD_UNDERIVED_DIFFEOMORPHISM`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.12: Kinetic health
+- Prospective author must show: principal symbol and constrained Hamiltonian count, not just static 2x2 Hessian.
+- Acceptable output label before proof: `HOLD_UNDERIVED_KINETIC_HEALTH`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.13: Strong coupling
+- Prospective author must show: coupling functions and beta/kappa in canonical SI normalization; scale vs cutoff, loop corrections.
+- Acceptable output label before proof: `HOLD_UNDERIVED_STRONG_COUPLING`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.14: Exterior
+- Prospective author must show: matched source-to-target solution and vacuum falloff; radius vs box-size convergence.
+- Acceptable output label before proof: `HOLD_UNDERIVED_EXTERIOR`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.15: Transmission
+- Prospective author must show: field stress energy and gravitational potential crossing every exterior cut; correct sign.
+- Acceptable output label before proof: `HOLD_UNDERIVED_TRANSMISSION`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.16: Whole craft
+- Prospective author must show: integrate stress flux over all onboard matter including source and reaction; no internal-force counting.
+- Acceptable output label before proof: `HOLD_UNDERIVED_WHOLE_CRAFT`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.17: Energy
+- Prospective author must show: E_on-E_off+supports+fields+source mass+activation+recoil+radiation+losses <10 MJ.
+- Acceptable output label before proof: `HOLD_UNDERIVED_ENERGY`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.18: Empirical
+- Prospective author must show: EP/fifth-force bounds and labs; no freely invented couplings with no exclusion checks.
+- Acceptable output label before proof: `HOLD_UNDERIVED_EMPIRICAL`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+### W.19: Time evolution
+- Prospective author must show: stable real perturbations, causal impulses, negative phases, recoil, radiation and cycles.
+- Acceptable output label before proof: `HOLD_UNDERIVED_TIME_EVOLUTION`.
+- If only a numerical field subset solved, output: `RESTRICTED_PARTIAL_PASS_NOT_FULL_PHYSICS`.
+- Negative-control failure: `FAIL_NEGATIVE_CONTROL`, immutable and cause-specific.
+- If two grids disagree in force or energy: `NONCONVERGED`, without averaging away.
+- If no finite action-derived source: `PRESCRIBED_SOURCE_ONLY`, zero survivor.
+- If positive signed torus minimum but no Earth/craft: `LOCAL_METRIC_SIGN_ONLY`, zero whole-craft survivor.
+- If complete-energy floor >=10,000,000 J: `ENERGY_GATE_FAIL`, exactly 10 MJ fails.
+- If source disappears under reciprocal variation: `RECIPROCAL_SOURCE_SUPPRESSION`, preserve factor/grid sensitivity.
+- Stronger evidence must point to specific immutable science SHA and producing source SHA.
+
+## X. Closing notes and what to attach next time
+
+- Attach newly updated monolithic NOTES.md, not older 3.2 MB NOTES.md snapshot.
+- Attach actual newly generated local Mac code-only codebundle; Nov21 older bundle predates T/U.
+- Attach five immutable T/U JSONs, T2 coefficients and U1 radial binary if new model needs replication.
+- Attach SHA sidecars/focused verifiers, especially T3 dual certificate and U2 box/mesh/root gates.
+- Optionally attach Nov20 combined journal for earlier physical model; it was not updated this transition.
+- Attach historical plans only as older physical rules, not current run-frontier declarations.
+- Next session inspect live scripts and run no experiments until source/health/energy necessary-gate plan explicit.
+- Keep R3B, A12C, 006D, PH16, ALPHA/BETA and all failures as controls.
+- After every result report blocker %, change, remaining %, gap to 70, overall % and physical survivor evidence.
+- Never claim guaranteed success within a run count; report conditional paths and stop points.
+
+**END OF NOVEMBER 22 G01-T/U EXHAUSTIVE NEXT-SESSION ADDENDUM.**
+
+# ANTIGRAVITY_RESEARCH — COMPLETE FREEZE AND R3B ENGINE STRATEGY TRANSITION
+
+**Research freeze and transfer date:** November 22, 2026 (America/Chicago).
+
+**Preservation classification:** `ANTIGRAVITY_FROZEN_FOR_LATER_RESUMPTION`.
+
+**New active research designation:** `R3B ENGINE`.
+
+**Document role:** durable, self-contained, source-grounded carry-over record, not a newly executed experiment.
+
+**Intended use:** retain this alongside all original code, NPZ, JSON, SHAs, journals, plans, negative controls, and prior carry-over notes.
+
+**Scope:** freeze historical antigravity state; describe scientific gaps; give exact recovery/reproduction instructions; frame next R3B propulsion research without assuming thrust.
+
+**Important:** this document does NOT modify any original research file or historical claim.
+
+**Line-count promise:** the complete document includes a curated evidence archive and original-source extracts so it exceeds the requested minimum of 2,000 literal text lines.
+
+---
+
+## 00 — Executive decision: research strategy changed, evidence did not
+
+The project is making an intentional strategic pivot from antigravity-first research to the proposed R3B Engine.
+
+Antigravity development is paused, preserved, and available to reactivate.
+
+The specific 1 kg neutral-torus gravitational-repulsion objective remains a historical requirement; it is not silently redefined as propulsion.
+
+The R3B Engine is a **hypothetical external-field reaction propulsion** project, not a certified drive.
+
+The designation refers to the existing few-joule R3B field model and the related conditional finite-Earth B17-M3 force calculation.
+
+The approximately 137,370 N historical force magnitude is **not demonstrated net spacecraft thrust**.
+
+The 1.5429162116460216 J figure is a **prescribed field-only capacity** in R3B; it does **not** establish a 137 kN engine operating for 1.54 J.
+
+The finite Earth force pair arises from two translations of a frozen reduced interaction potential; a mathematical action–reaction pair there is not source/field/whole-craft closure.
+
+The precise B17-M3 137,370 N and 90,341 J values were reported in this conversation; the mounted source code explains their *conditional interpretation*, but the original per-run immutable output JSON was not supplied here for independent numerical re-verification.
+
+Therefore these magnitudes are **discussion-reported historical estimates pending source-result reconciliation**, not a new independent experimental result.
+
+The full Earth, real charged source, exterior geometry, supports, switch-on, moving-body energy, recoil, field momentum and physical source materials have not been solved.
+
+If the R3B Engine someday produces net thrust, all standard energy–momentum conservation requirements remain mandatory.
+
+If its mechanism depends on Earth, deep-space propulsion is not automatically established.
+
+Do not confuse a propulsion application with proof of true gravitational repulsion.
+
+## 01 — Two protected heuristic figures at the instant of freeze
+
+`R3B_RECIPROCAL_LOADING_BLOCKER_HEURISTIC = 33_PERCENT`.
+
+`ANTIGRAVITY_OVERALL_PHYSICAL_RESEARCH_MATURITY = 37_PERCENT`.
+
+`TARGET_LATER_RESEARCH_MATURITY = 50_PERCENT`.
+
+Those numbers are **subjective research-maturity heuristics**, not device completion, physical likelihood, or experiment-based probabilities.
+
+They remain frozen under this strategic pause and may only be revised when later physical research supplies genuinely new evidence.
+
+The earlier README's approximately 35% estimate belongs to its November 18 documentation snapshot and must not overwrite the later 37% working-session estimate.
+
+The same applies to old statements that GAMMA had not run or that DELTA1-F0 was still next: dated documents must be reconciled with later executed artifacts.
+
+EPSILON1-02 is the last user-reported executed experiment in this conversation before the pivot.
+
+All recent G01/EPSILON run results have zero qualified physical survivors.
+
+No physical R3B thruster exists on the evidence supplied.
+
+No verified gravitational whole-craft lift exists.
+
+No complete strictly sub-10-MJ antigravity device has been certified.
+
+## 02 — Authority hierarchy, byte preservation, and source precedence
+
+First authority: original executed result artifacts, their producing source code, exact scientific JSON, NPZ, SHA-256, independent verification, and raw logs.
+
+Second authority: dated scientific journals that accurately describe those immutable artifacts.
+
+Third authority: fresh comprehensive carry-over notes that distinguish source-verified facts from user-discussion estimates.
+
+Fourth authority: current artificial/physical build plans governing the intended research strategy at the date they were revised.
+
+Fifth authority: README, which can lag the scientific frontier.
+
+Historical notes are important failure memory, not automatic evidence of the latest unexecuted branch.
+
+Do not overwrite immutable `results/data/...` or `results/gravity2/...` trees.
+
+Never edit an older producer to obtain a new answer; create a new versioned producer with a newly recorded source hash.
+
+Preserve both source and result SHAs whenever copying or reorganizing code.
+
+Treat an uploaded original filename and its repository absolute path as separate facts; do not claim the original checkout was modified here.
+
+A journal description can be superseded by a later executed JSON but cannot retroactively claim that the run existed earlier.
+
+A complete test suite verifies software behavior; it does not substitute for continuum, physics, material, or experimental verification.
+
+A focused independent identity check is strong within its declared algebraic scope, not a complete hardware feasibility certificate.
+
+A conditional field energy must remain labeled conditional; SI units alone do not imply physical sourceability.
+
+A negative result stays preserved and only reopens with a genuinely new action or proven inapplicability of its assumptions.
+
+## 03 — Original full antigravity mission to preserve without changing it
+
+Carry a finite source, its power supply, its supports, all stress-energy, all actuators and all confinement **aboard** the spacecraft.
+
+Obtain at least 9.80665 m/s² outward acceleration throughout a finite **1 kg electrically neutral torus**.
+
+Require at least **1 m true source-free stand-off**, measured from the nearest source/support material and bounded surface, not merely center-to-center distance.
+
+The original scientific target is universal physical-metric/gravitational response, not a species-selective fifth force with a relabeled name.
+
+Require exact one-action derivations for source, X, Y, neutral matter, Einstein geometry, Earth, supports and relevant boundaries.
+
+Require gauge/Ward/Noether/Bianchi/diffeomorphism identities and physical stress-energy conservation.
+
+Require healthy propagating and constrained modes, finite physical sources, realistic support stresses and nonlinear stability evidence.
+
+Require explicit exterior transmission, genuine source-to-target coupling and convergence with mesh, angular multipoles and domain size.
+
+Require Earth down, complete spacecraft up, and accounting of the atmosphere, field momentum, radiation, boundary forces and recoil.
+
+Require a signed and causal activation/cycle energy and momentum ledger with losses, negative phases, reset, off-state and control costs.
+
+Require complete **non-double-counted** operating energy strictly below 10,000,000 J; exactly 10 MJ fails.
+
+Require realistic SI normalizations, empirical fifth-force/equivalence-principle/atomic/astrophysical constraints and quantum/UV validity.
+
+Auxiliary ordinary thrust was always allowed but must be identified separately and cannot prove gravitational lift.
+
+No accepted run has met the complete stack of these criteria.
+
+All these requirements remain on record for future antigravity resumption.
+
+## 04 — The role of 006D and why it is not replaced
+
+`006D_C = 23.591586299249` is the permanent finite-source linearized-GR anchor.
+
+It established an outward near-field gravitational effect within its finite conserved positive-energy source model.
+
+The reference passed the stated NEC, WEC and DEC conditions within its construction and retained positive far active mass.
+
+Its high energy burden scales catastrophically with approximately inverse Newton constant, making it unsuitable as a low-energy realized device.
+
+006D does **not** certify viable onboard material, field sourcing, stable engineered supports, Earth reaction or 10 MJ operation.
+
+No newer few-joule, ALPHA, BETA, PH16, GAMMA, DELTA, G01 or EPSILON branch supplanted 006D as a conservative GR true-stand-off witness.
+
+Future researchers must keep 006D distinct from scalar conformal-metric or artificial-field calculations.
+
+A mathematical positive near field is not a practical engine.
+
+Do not relabel an efficient nongravitational interaction as a replacement for 006D.
+
+## 05 — Historical mechanism and failure inheritance
+
+Preserve 018B as a finite field-existence study and 018C as its fatal instability result.
+
+Preserve 022A closures and all relevant post-022 negative results.
+
+Preserve B7/026 false-core and topology work, including incomplete 026C N=89 convergence.
+
+Preserve 024–031 gravitational, stress, hypermomentum, source, curvature and scalar-metric investigations.
+
+Preserve old V17–V25, HOOK17 A1–A12, and all AGMINER negative results as assumption-scoped evidence.
+
+Preserve the introspective finding `RAW_GE1000X_SIGNAL=PRESENT` together with `CERTIFIED_GE1000X_CONTINUUM_SOURCE=NO`.
+
+Preserve A12B's protected massless U(1) direction as a restricted theoretical construction, not full source completion.
+
+Preserve A12C's `2.6568591420597114 J` prescribed F² field capacity and roughly 15.04217 m/s² center-of-mass acceleration reference.
+
+Preserve the R3B mixed-field capacity `1.5429162116460216 J` without calling it device energy.
+
+Preserve B7's `1.5473042949759672 J` capacity and B1's approximately 0.275–0.301 MJ field-only result.
+
+Preserve R3A's approximately `1.84e15` ordinary-material suppression.
+
+Preserve the R3X1 sign correction; use corrected Lorentzian and force conventions rather than an earlier favorable sign.
+
+Preserve B6 artifact repair, B11–B13 failures, and B14/B16 nonconverged `−410.388913 m/s²` inward hotspot.
+
+Preserve B15 angle-only and B16 weak-loading failure modes.
+
+The oldest few-joule numbers are scientific capacity clues but never proven complete source-energy outcomes.
+
+New branch work may reopen a failed mechanism only with a named changed physical hypothesis, not a smaller residual or a new label.
+
+## 06 — R3B: what is established, and exactly what failed
+
+R3B was a prescribed mixed two-field source/portal configuration.
+
+It produced a field-energy calculation of `1.5429162116460216 J` under its specified normalization and geometry.
+
+The favorable preloaded neutral-matter outward response was computed while treating key fields/sources as prescribed.
+
+The historical loaded 1 kg simulation at 0.050 m changed the minimum acceleration to `−129.67185782242464 m/s²`.
+
+The corresponding historical loaded field energy was `1.5211390382733165 J`.
+
+The measured peak dimensionless matter-loading coefficient was `18,987.283771593688` at its 1 keV reference portal scale.
+
+The energy becoming slightly smaller under loading was **not** a success; the acceleration sign became inward.
+
+The fundamental R3B blocker is reciprocal source/field/matter response and its physical controllability, not the number of numerical digits in a preloaded field capacity.
+
+The same local metric derivative that drives neutral acceleration enters matter-trace source variation when derived from one action.
+
+The approximate single-invariant relation is `a_neutral = -c² sigma_P grad P`, with `lambda = exp(4 sigma) T sigma_P` under the declared trace convention.
+
+This reciprocity obstructs independently assigning an outward force and a negligibly loading neutral material without adding actual physical degrees of freedom.
+
+A reshaped field, new source, second independent operator, or new healthy metric coupling could change the original hypotheses; a purely new fitting coefficient does not.
+
+The D0/F0 and GRAVITY2 programs sharpened which physical control directions might exist; none supplied a complete physical source.
+
+The 1.54 J capacity remains a protected mathematical reference and an unresolved candidate engineering question.
+
+## 07 — B17-M3: Earth force versus actual net spacecraft thrust
+
+B17-M3 evaluates a frozen R3B scalar physical-metric profile near a **finite** cylindrical patch of Earth material.
+
+Its source module describes `g_J = exp(2 sigma) g` as a prescribed physical metric, and uses `U(X_e,X_c) = c² ∫ rho_e(x−X_e) sigma(x−X_c) d³x`.
+
+`F_Earth = −∂U/∂X_e` and `F_source_anchor = −∂U/∂X_c` follow as opposite gradients because the reduced U depends on relative translation.
+
+That exact reduced-action translation identity is mathematically useful but only **conditional** on the frozen field and an externally prescribed Earth patch.
+
+The simulation code's default finite target is a radius-2 m, depth-1 m cylinder of density 2,000 kg/m³, giving approximately 25,133 kg of test Earth matter.
+
+The R3B source was modeled around a radius-2 m sphere and source center at 3 m for the zero-clearance baseline.
+
+In conversation, the associated force was described as approximately **137,370 N**, with an approximately **90,341 J** historical interaction-potential figure; the original numerical result artifact must be re-opened in the live repository before treating either exact number as independently audited.
+
+The force scale is approximately 137.37 kN, comparable numerically to a fighter jet's engine thrust, but is not a measurement or powered engine specification.
+
+The entire Earth half-space was not solved or integrated to a true global Earth-response certificate.
+
+The true microscopic onboard source was not derived.
+
+The field was held frozen when Earth was moved.
+
+The source material, hull, power and supports were not included as a moving complete spacecraft.
+
+The actual field and gravitational momentum flux was not included.
+
+A rigid source-anchor coordinate derivative is not equivalent to the net force on a complete craft with physically realized source charges.
+
+The actual Earth reaction and craft-up acceleration are **NOT DERIVED**.
+
+The original frozen source code explicitly marks `whole_craft_external_force_n=None`, `effective_weight_cancellation=None`, `total_operating_energy_j=None`.
+
+This classification must be preserved in every future R3B Engine build plan and publication.
+
+## 08 — Engine energy accounting: field capacity is not mechanical work
+
+A physical force acting through a distance transfers mechanical energy: `W = ∫ F·dx`.
+
+For a constant 137,370 N force acting through one meter, the work scale is 137,370 J.
+
+At a craft speed of 10 m/s in the force direction, instantaneous mechanical power `P=F·v` is approximately 1.3737 MW in that frame.
+
+At 100 m/s, the same conditional force corresponds to approximately 13.737 MW mechanical power transfer.
+
+These values cannot be supplied indefinitely by an isolated stored 1.54 J field without a real external reservoir or ongoing power source.
+
+A static source can transmit a force without expending its stored energy at a constant rate if total mechanical work is balanced elsewhere; that balance must be shown.
+
+An Earth-coupled engine would exchange energy and momentum with Earth and/or power supplies; none of those reservoirs may be silently excluded.
+
+An Earth reaction that does no appreciable displacement in the selected frame still must be modeled consistently with craft work, field changes and source power.
+
+Momentum conservation is mandatory: `d(P_craft + P_Earth + P_fields + P_radiation + P_exhaust)/dt = 0` for an isolated global accounting region.
+
+If both Earth and craft are included, equal-and-opposite external exchange can be physically meaningful, but only after a complete action-derived force derivation.
+
+In deep space without Earth or another external reaction partner, a propellantless field engine cannot accelerate an isolated craft merely by exchanging internal forces.
+
+Expelling reaction mass or radiation is a conventional conservation-compatible thruster path, but the R3B static force number does not demonstrate such an exhaust mechanism.
+
+Maintenance power, switching cost, source replenishment, heat, losses, radiation, mechanical support stress, and device mass must all be counted.
+
+For the propulsion track, a separate performance ledger (thrust, impulse, specific impulse if exhaust exists, work and power, thermal load) is needed; 10 MJ may remain a comparative research target but should not automatically be assumed to define a usable propulsion system at every mission speed.
+
+Do not claim a thrust-to-watt advantage by dividing the historical force by the prescribed field storage number.
+
+## 09 — Frozen ALPHA-1 reference and why it cannot be called thrust
+
+ALPHA-1 is frozen at B17-M5V as of November 14.
+
+The artificial objective was inverse-design translation derivatives, not full real-source propulsion.
+
+M5N exposed a cross-grid mismatch of approximately 81.458%.
+
+M5O–M5U carried convergence audits and retained incomplete 40/42 cases and X1 erratum.
+
+M5V used `Q=gamma*(0.5*uᵀH*u−uᵀW*j)` with `H=W*A`.
+
+M5V recorded 50/50 scoped cases, zero stated errors, and 1,803 tests.
+
+Its reduced prescribed Earth/craft derivatives were approximately −11.395675919/+11.397230073 J/m.
+
+The total translational residual was +0.001554154 J/m at the reported state.
+
+The reduced artificial action was −7.975232332 J at h=0.04 m.
+
+Its physical source currents, passive C2 material, exterior continuum, actual craft force and historical SHA discrepancy remain open.
+
+An exact artificial reduced-coordinate force pair is not evidence of onboard physical thrust.
+
+Do not revive ALPHA merely to re-optimize prescribed force gradients.
+
+## 10 — Frozen BETA-1 reference and why it cannot be called gravity
+
+BETA-1 is frozen with BETA1-04 as a finite-dimensional / scalar toy reference.
+
+BETA1-00 created an obstruction atlas; BETA1-01 evaluated source-current maps.
+
+BETA1-1B0/1B1 tested beta=100 constrained instabilities.
+
+BETA1-02 was a passive-interface toy and not full physical material proof.
+
+BETA1-03 supplied a reciprocal finite-dimensional source/X/Y witness with unprojected and Schur warnings.
+
+BETA1-04 yielded 43/43 gates and 2,548 tests.
+
+The toy force pair was −0.1262097349021427/+0.12620973490214274 in its chosen units.
+
+Its scalar charges were prescribed with opposite signs, not universal gravitational charges.
+
+BETA1-04 science SHA was `2ff63f1e2cbad2dc09d192569701b5503da06ca384ca60546d6e83c8c61ae632`.
+
+That result is a mathematical reciprocity/force-control example, not R3B Engine or antigravity certification.
+
+## 11 — PH1–PH11 early source and causal failures
+
+Retain the full PH1–PH11 chronology, not just its final surviving model choices.
+
+Failures addressed actual causal behavior, off-shell loading, confinement, source support and current realization.
+
+Do not erase earlier energy/instability/reciprocal-sign findings because a later stationary toy passed tests.
+
+No early PH result demonstrated real onboard gravitational lift or whole-craft reaction.
+
+The detailed scientific failure-memory authority remains the complete notes, code, tests and archived journals supplied with this project.
+
+## 12 — PH12, PH13 and PH14 spherical/near-spherical source lessons
+
+PH12 gave a trap-free hypothetical gauged Q-ball with N≈79.201926 and canonical energy≈78.666865.
+
+PH13 reported a positive restricted Hessian minimum +0.066394 but failed coupled Schur condition −0.4299970.
+
+PH13's nonspherical induced-Y signal≈2.14608e−6 was off-shell, not a jointly stationary source.
+
+PH14 jointly solved a net-neutral spherical two-species charged source.
+
+PH14's charges were N_+≈N_-≈77.988373 and canonical energy 161.51589053332395 (not joules).
+
+PH14 restricted Hessian minimum≈+0.208838 and reported 2,220 tests.
+
+PH14's on-shell spherical symmetry enforces `grad lambda × E_X = 0` and therefore exactly zero Y induction in the tested channel.
+
+A spherical source cannot be promoted merely by importing PH13's off-shell nonspherical Y signal.
+
+No full nonlinear continuum/Einstein/Earth craft closure was earned at PH14.
+
+## 13 — PH15 induction developments and bounded obstructions
+
+PH15 introduced source dependence `sigma(P)=alpha*P−beta*P²` and a sourced portal current.
+
+Nonzero on-shell Y induction requires a nonvanishing `grad lambda × E_X` response.
+
+A pure functional relation `lambda=F(A_0)` gives a null in the tested induction channel.
+
+P6/P7 winding or current-carrying source stabilization failed its tested gates.
+
+P8 introduced a hypothetical repulsive contact interaction and nonspherical nonwinding net-neutral source.
+
+P9 tested restricted source/modes and did not establish full constrained stability.
+
+PH15-P10 formed a discrete free-space neutral two-center source/X solution and first-order Y field without Y backreaction.
+
+P10 passed 8/8 scoped gates and 2,286 tests, with science SHA `af59b072dba9a0424c569419af1f673172c3123a371eec8443e52cd81efc73c1`.
+
+P10 did not solve the fully reciprocal X/Y/source/neutral/Einstein system.
+
+## 14 — PH16 stationary source/X/Y/neutral-fluid frontier
+
+PH16-00–03 studied source-dependent trace loading, neutral hydrostatic equilibrium, nonlinear Y response and fixed-source Noether conditions.
+
+Those early PH16 iterations held charged matter and X frozen while closing different restricted response sectors.
+
+PH16-04 and PH16-04R1 failed the 18/L12 stationarity threshold with residual `2.093028110157171e−6` and 56/60 focused tests.
+
+R1 isolation failed to resolve this limitation.
+
+PH16-04R2 used same-iterate Krylov continuation without changing the action, beta or thresholds.
+
+PH16-04R2 passed 12/12 exact identities, 19/19 scientific gates, 60/60 focused and 2,943/2,943 full tests.
+
+PH16-04R2 preserved both charged Noether numbers 400/400.
+
+Its three preconditioned joint residuals were `6.80576e−8`, `6.53298e−8` and `9.28480e−8`.
+
+Frozen magnetic margins were positive but did not establish full coupled Lorentzian stability.
+
+The weak 18/L12 initialization still failed with residual `0.018773933`; uniqueness and basin independence remain open.
+
+The result is *discrete canonical stationarity* of hypothetical charged matter/F/X/Y/fluid, not an Einstein-gravity or continuum-source realization.
+
+The authoritative result is `results/data/ph16_04_20261118T164454314313Z.json`.
+
+Its SHA is `ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`.
+
+The corrected R2 producer SHA is `b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0`.
+
+The November 18 early codebundle predates that correction; never use it alone to reconstruct R2.
+
+PH16-05 continuum/exterior/full-modes work remains **NOT EXECUTED / NOT CERTIFIED** on the evidence here.
+
+## 15 — GAMMA-1: source-to-Einstein bridge discoveries and limits
+
+The oldest README says GAMMA1-00 was next and not yet executed, because it is an earlier dated snapshot.
+
+Later GAMMA1-00 through R11 and R12 ran; the updated November 20 artificial build plan records additional C1/N1/DELTA results.
+
+GAMMA compared the existing PH16 conformal portal, positive-energy GR stress approaches, one possible new healthy metric operator and quantum reserve.
+
+Its purpose was a physical Einstein/metric/source bridge, not prescribed force optimization.
+
+R11 found an exact nonlocal rank-two fixed-Noether Hessian correction in a reduced PH16 ensemble.
+
+The R11 nonzero singular values were approximately 0.7066790396959028 and 0.021912054731632862.
+
+Its maximum off-diagonal correction≈0.102317674 and independent FD check error≈1.0888439876968747e−5.
+
+The R10 frozen-frequency local coefficient cannot be silently identified with the complete constrained Lorentzian kinetic coefficient.
+
+R11's conditional frozen photon characteristics did not certify all fields, supports or gravitational modes.
+
+GAMMA R12 and follow-on D0/C1/N1 improved source/metric and boundary understanding, but qualified physically sourced Einstein bridges stayed zero.
+
+The old November 19 R12 queue is historical, not active after the November 20 DELTA strategy.
+
+## 16 — DELTA-1 FAST: action, energy and rank obstructions
+
+The active November 20 artificial build plan superseded earlier GAMMA-only next-step text.
+
+DELTA1-00 examined a long-range unscreened scalar F² candidate and found an assumption-scoped PPN/energy obstruction.
+
+DELTA1-01 solved a specific nonlinear exponential Z(phi)>0 radial shell and found an energy-bound obstruction within that action family.
+
+DELTA1-02 tested a Lorentz-invariant parity-even `F_Y^{mu nu}F^Y_{mu nu}` as an additional metric invariant.
+
+Its gradients were almost collinear with the original R3B invariant in the tested prescribed torus geometry.
+
+The independent gradient fractions were `0.0015922114543637095` at h=0.075 m and `0.0017631658867701` at h=0.050 m.
+
+A new coefficient on that nearly parallel invariant was not a genuinely independent loaded control mechanism.
+
+The matter-interface misalignment≈0.629–0.634 measures grad(beta) relative to grad(P), not grad(Q) relative to grad(P); do not conflate those geometric quantities.
+
+DELTA1-02 reported 3,304 full tests and independent verification.
+
+The next proposed DELTA1-F0 interface-response controllability test later had findings of underdetermination, as recorded in post-Nov20 notes and sessions; do not state that the obsolete Nov20 pending label remains current.
+
+No DELTA completion removed the historical R3B loaded negative sign or sourced gravity gap.
+
+## 17 — GRAVITY2 program and its actual role
+
+GRAVITY2 is a bounded theorem-first R3B source-to-gravity action miner, not a device-design optimizer.
+
+Its separate build plan is preserved as `gravity2buildplan(7).md`, mounted with this handoff.
+
+Its design prioritizes action-level source cards, conservation, reciprocity, actual controllable source operators, cheap negative controls and strict resource budgets.
+
+Its policy is to avoid repeating AGMINER failures, artificial force-target inversions and sub-100-J field polishing.
+
+Executed newer G01-S/T/U experiments explored scalar and auxiliary mechanisms within the broader physical source-controllability campaign.
+
+Their results are neither automatically equivalent to the original R3B action nor transferable to PH16 without an explicit action/normalization map.
+
+Results should be classified as scoped mechanism/energy evidence, not as full GRAVITY2 physically sourced candidates.
+
+## 18 — GRAVITY2 G01-S/T branch, condensed
+
+G01-S yielded a conditional loaded capacitor-scalar positive response but had a roughly 7.47 MJ lower static energy reference and lacked real hidden source currents, R3B Y and gravity closure.
+
+G01-T0/T1 considered 10 finite-shell control modes and reduced the inward acceleration in the targeted reference by approximately 75%, but did not establish positive force with physical sources.
+
+G01-T2 produced a near-zero inward optimized quadratic with an approximately 18.97 kJ necessary modeled energy; it did not certify true thrust or antigravity.
+
+G01-T3 established a conditional 10-mode, 10 MJ dual upper bound of approximately `4.999999576 m/s²` in its tested frozen geometry, below the ≥1g antigravity criterion.
+
+That T3 bound is restricted to its chosen modes, field model, constraints and finite target; it is not a universal theorem against all actions.
+
+A different physically sourced operator would have to change assumptions before a new T3-like control scan was warranted.
+
+## 19 — G01-U1, U2: axion/pseudoscalar and reciprocal source response
+
+G01-U1 considered a mixed two-U(1) axion-like scalar, with source profile `f0(r)+f2(r)P2(cos theta)` at inverse range mu=1/m.
+
+The conditional frozen-scalar profile produced a reported minimum torus outward acceleration of approximately `+10.781595872566479 m/s²`.
+
+The conditional scalar energy was `7,333,333.333333331 J`.
+
+The chosen beta≈`1.998780722774814e23`, scalar amplitude A≈`2.269703885395593e−18`, and kappa≈`3.267847142631918e−17 m/J` were highly nontrivial model parameters.
+
+The result was not a verified full sourced gravitational effect; Maxwell fields were frozen and source currents were prescribed.
+
+G01-U2 reciprocally solved a restricted radial-mode-only Maxwell dipole but omitted the angular f2 component needed for the original U1 outward signal.
+
+Its projected scalar roots collapsed/suppressed, with no physical survivors.
+
+The U2 science SHA in the mounted immutable result is `a91e6c325e9a12f2aff4b28b7fc7dede7a95644fb9776fba7fc0d1dd4b0c1d2b`.
+
+The U2 full repository regression was explicitly not run.
+
+## 20 — G01-U3A: angular reciprocal Maxwell response
+
+U3A restored the f0+f2P2 angular scalar profile and used Maxwell multipoles [1,3] and [1,3,5].
+
+It solved static reciprocal Maxwell trial fields with the scalar held prescribed.
+
+The recorded static Maxwell relative residuals were about 1e−15, but field/source values were severely nonconverged across grids and angular truncation.
+
+Representative source projection changes were 0.1918043 (coarse), 0.00645587 (fine), 0.00699751 (higher angular), and 0.000910854 (larger box).
+
+The corresponding electromagnetic shape-energy magnitudes were about 188,266; 89,987; 69,038; and 82,774 in the prescribed normalization.
+
+Relative energy changes were 52.20% radial refinement, 23.28% angular truncation, and 16.59% box comparison.
+
+The scalar local EOM, source material EOM, full Einstein action and complete energy were not solved.
+
+U3A science SHA: `bd1c3226646f0e82ef14ab4826e00b1cbb9bdeedb9f05a4d9dbf7069151d8fd6`.
+
+Its producer SHA: `a894b741012e8445f711b3ed4fde3a881c6f84391ee6221f479fdcd401a0f46a`.
+
+## 21 — G01-U3B: extended exterior did not cure the strong-coupling problem
+
+U3B used a nonuniform radial grid: uniform near source to 8 m and 96 geometric cells outside, with outer boxes 64 and 80 m.
+
+It compared radial h=0.2/0.1 m and angular ell_max=5/7.
+
+The sampled |theta|max remained about 45 million in the relevant source region, demonstrating an extremely strong prescribed coupling.
+
+The maximum |theta| at 64 m fell to about 0.16787877927917974 and at 80 m to about 0.04396897878836257.
+
+The 64-to-80 m electromagnetic energy difference was 3.715677%, still not a certified transparent exterior.
+
+The near-source radial energy difference was 8.139961%.
+
+The angular truncation difference remained 16.561149%.
+
+Projection differences and source L2 drifts did not converge.
+
+The four full-source projection ratios were −0.06142833286298907, −0.0667144573253197, +0.0007254849805277547 and −0.0033048915524157276.
+
+The full-strength condition estimate remained around log10 30.63; tiny static linear-system residual is not a continuum or physical solution.
+
+U3B negative controls included constant-theta topological null and zero coupling.
+
+U3B numerical verdict: `HOLD_NUMERICAL_NONCONVERGENCE`.
+
+U3B physical survivors: 0.
+
+U3B science SHA: `44f14ce4ba14e46d3fd4816d9fad2395fd1fef133a35894e884ad8ace9335126`.
+
+U3B producer SHA: `103416a4b816af2b4b6a586f135eb0dafc945e1a1c3734315afa6b3352c535ff`.
+
+## 22 — G01-U4A: fixed-scalar stationarity failure
+
+U4A considered the necessary fixed-profile identity `(-Delta+mu²+delta m²) f = P_loaded`.
+
+The unloaded parent profile satisfies `(-Delta+mu²) f = P_0`.
+
+For positive reference overlap and positive matter-loading term, holding the parent f fixed requires a loaded source-overlap ratio above 1.
+
+The calculated required ratio was `1.000001486546953` on all four recorded U3B cases.
+
+The corresponding measured U3B ratios were all below 1, with some negative.
+
+The projected stationarity gaps were approximately 1.0614298194, 1.0667159439, 0.9992760016, and 1.0033063781.
+
+The finite smooth torus normalization integrated to essentially 1 kg with very small quadrature error.
+
+U4A's conditional weak-feedback energy estimate was `18,462,966.536208488 J`.
+
+The scalar-only component was `7,333,333.333333331 J`; a conditional electromagnetic weak-feedback contribution was `11,129,633.202875158 J`.
+
+The canonical dimensional operator estimate reported `15.475963267553281 eV`, **not** a certified UV cutoff or full effective theory.
+
+U4A cannot show a no-go for every reshaped fully coupled scalar because its parent Maxwell solutions are nonconverged.
+
+U4A is a **scoped failure of the frozen U1 profile against the recorded U3B trial fields**.
+
+U4A physical survivors: 0; full regression not run.
+
+U4A science SHA: `5e29b2d389fee45ff4a3098b29f1ac3c8bd436cb678d9c8df2c24535e14450f5`.
+
+## 23 — EPSILON-1: new artificial source-control branch, scope and naming
+
+EPSILON-1 is an active *artificial discovery branch* at the freeze date; it is not a complete new propulsion or gravity model.
+
+Its explicit purpose was to find an independent healthy source capable of overcoming the missing scalar response revealed by U3B/U4A.
+
+It is separate from frozen ALPHA-1 and BETA-1.
+
+The EPSILON-1 runs occurred after the existing November 20 ARTIFICIAL_BUILDPLAN.MD revision and have not yet been incorporated into that on-disk build plan.
+
+EPSILON1-00, EPSILON1-01 and EPSILON1-02 all executed with user-reported APPLY and VERIFY terminal passes.
+
+No EPSILON physical source survived and none demonstrated net thrust, Einstein gravity or sub-10-MJ complete operating energy.
+
+The documented follow-up EPSILON1-03 physical-source action is a **proposal only, not executed**.
+
+Under the new strategy EPSILON remains frozen as an antigravity mechanism ledger; it may be cited by the R3B build plan only after a new same-action transfer hypothesis is specified.
+
+## 24 — EPSILON1-00: Schur necessary bound, not an engine
+
+EPSILON1-00 modeled two hypothetical positive scalar operators A and B with quadratic mixing K and source drives J_f/J_chi.
+
+Define global static mixing `s=||A^(−1/2) K B^(−1/2)||` and require s<1 for a strictly positive quadratic Hessian.
+
+The tested source-overlap deficits gamma ranged approximately 0.999276 to 1.066716.
+
+The optimistic 10 MJ quadratic-plus-reference electromagnetic threshold demanded s≥approximately 0.650172 to 0.675046.
+
+A favorable algebraic mixing window did not establish a source material for chi.
+
+The source energy, supports, UV validity, field backreaction and spacecraft force remained missing.
+
+EPSILON1-00 science SHA: `2840555051406416bcf4bfc9a8bc17f736d61a97e623f5019aa8dcbe39e23f16`.
+
+EPSILON1-00 producer SHA: `0314fc109153181da619090afa425b955dd96c726ed431345ebc1ae602635b8c`.
+
+Its verification reported `PASS` for the independent algebraic bound, no physical survivor.
+
+## 25 — EPSILON1-01: independent source rank and near-critical-mode failure
+
+EPSILON1-01 tested a normalized two-field stationary 2x2 matrix:
+
+`[(1+delta),−s;−s,1] (x,y) = (r,j)`.
+
+Restoring x=1 requires `j=(1+delta−r)/s − s`.
+
+With s=0.8 the required independent drives were approximately 0.526787, 0.533395, 0.449095 and 0.454133 across nonconverged parent trials.
+
+Trying to set j=0 left three parent trials with negative r and therefore no positive target response in the restricted positive-Hessian toy.
+
+The single positive parent trial required s≈0.9996379352377667 if no additional drive existed.
+
+Its resulting 2x2 mass-matrix condition number was approximately 5,511.561, near a soft-mode limit.
+
+If the drive were forced to be proportional to the original Maxwell invariant, inferred q=j/r varied by large factors and changed sign.
+
+At s=0.8 the inferred q sequence was −8.57564, −7.99519, +619.02729, −137.41237.
+
+This is evidence that using nonconverged parent source projections as a single fixed auxiliary-source coefficient is unreliable.
+
+The mathematical toy's static positive eigenvalues do not certify full Lorentzian propagating health.
+
+EPSILON1-01 science SHA: `adfa83e0171ba8102d82d275e4749ffa5ab951ab0b088686333055ebeb9ebd70`.
+
+EPSILON1-01 producer SHA: `ed115ca4d81361bd9822b061bb2b12a9b064b264631942bea59e9fb22c7e1d67`.
+
+## 26 — EPSILON1-02: operator symmetry and scale-dependence
+
+EPSILON1-02 tested two ordinary kinetic pseudoscalars with nondifferentiated mass mixing and possible charged-source operators.
+
+For canonical masses mf,mchi, the static Fourier mixing is `s(k)=|nu²|/sqrt((k²+mf²)(k²+mchi²))`.
+
+The static positive-mass condition is `|nu²|<mf*mchi` with positive kinetic terms.
+
+Equal-mass maximum mixing is 1 at k→0, 0.5 at k=1/m, and approximately 0.03846 at k=5/m.
+
+Maximizing over unconstrained auxiliary mass gives limiting bounds 0.70710678 at k=1/m and 0.19611614 at k=5/m.
+
+The global optimistic 10 MJ thresholds were 0.67312783, 0.67504655, 0.65017213 and 0.65168351.
+
+For equal masses the corresponding conditional modewise cutoffs were k≈0.69685, 0.69382, 0.73352 and 0.73109 inverse meters.
+
+For arbitrary auxiliary mass the limiting cutoffs were k≈1.09864, 1.09292, 1.16859 and 1.16389 inverse meters.
+
+These are **not** a local no-go because the actual spatial/Fourier mismatch spectrum was NOT measured.
+
+The charged scalar density `chi*(|F+|²+|F−|²)` preserves separate phase symmetries at operator level but violates parity if chi is a pseudoscalar.
+
+The Dirac pseudoscalar `chi*(i bar(Psi) gamma5 Psi)` preserves parity with pseudoscalar chi but requires an actual polarized physical source and energy.
+
+A second coupling to the same Maxwell pseudoscalar does not supply an independent source automatically.
+
+A cross-bilinear `chi*Im(F+ F−)` breaks the individually conserved source phase symmetries without compensators.
+
+These are operator-level classifications, not full source equations or quantum/empirical certification.
+
+EPSILON1-02 passed five scoped controls plus independent spectral verification.
+
+EPSILON1-02 science SHA: `4dfcf4f998224046f9eaca2c4494c39f525b330fa938919f81eaa2be896e4ec0`.
+
+EPSILON1-02 producer SHA: `28305918d1a1b4be228119fc91e4cc93aea978f7afc4b1dd7cb34dfa6352a4af`.
+
+EPSILON1-02 verification SHA: `11e17c7747609848c69610b2701924ae1f514aac6f5e84ffd678716f6e8866f1`.
+
+No source-action realization, physical Earth reaction, Einstein closure or complete energy emerged.
+
+## 27 — What antigravity discovery progress was and was not achieved
+
+The program substantially improved negative-control methodology, action bookkeeping, Noether constraints and numerical reproducibility.
+
+It built progressively stronger hypothetical source-sector stationary solutions and learned why an off-shell induced field is not an on-shell physical one.
+
+It established distinct failure mechanisms: sourceability, strong reciprocal loading, missing angular response, exterior-box dependence, near-singular mode mixing and material support closure.
+
+It learned that small prescribed field energy is not a proxy for small device cost.
+
+It learned that equal-and-opposite derivatives in a prescribed reduced action are not the same as full spacecraft recoil.
+
+The current scientific quality of the questions is better than at the start, but the physical model is incomplete.
+
+No full universal Einstein/metric action, sourced real material device, finite continuum external force, healthy full modes, or independent experiment is established.
+
+These distinctions are mandatory to preserve if the antigravity branch is reopened.
+
+## 28 — What carries over to the R3B Engine
+
+Useful transferable quantities include the original R3B field shape, source geometry, field-only energy reference and the B17-M3 conditional Earth-patch potential.
+
+Transferable mathematical tools include translation-invariant reduced-action derivatives, symmetrized source/target Green functions, Noether constraints and independently checked Hessian reductions.
+
+Transferable physics tests include exact source current, gauge invariance, Lorentzian constrained modes, source/material action and exterior convergence.
+
+Transferable negative controls include source off, Earth removed, constant axion, zero coupling, sign reversal, weak loading and reciprocal-vs-frozen response.
+
+Transferable numerical tools include angular multipole convergence, finite-volume/Hodge audit, exact parent SHA locking, immutable outputs, independent verification and bounded multi-fidelity execution.
+
+The 1 kg neutral-torus antigravity benchmark is a historical mission acceptance test; the R3B Engine must develop its own thrust/impulse/power requirements in its new build plan.
+
+The user has selected the official research name `R3B Engine`, not TerraVector or other alternatives.
+
+The R3B Engine is a new active **research target**, not a claim that the B17-M3 calculation has been physically promoted.
+
+## 29 — Necessary new R3B Engine action and system boundary
+
+The research domain must include all source hardware, carrying charged/current matter, energy storage, control electronics, supports, spacecraft hull, Earth matter and fields.
+
+The action must specify an explicit Lorentzian spacetime metric, possible physical/Jordan metric and all field sectors.
+
+Any nonmetric force must be identified by its actual coupling and cannot be mislabeled antigravity.
+
+A source-fixed mathematical limit should be retained only as a control alongside a physical source free to move and respond.
+
+Derive source equations, Earth material equations, support traction and field stress from the identical action.
+
+Enforce all gauge/Noether identities, Bianchi constraints, boundary conditions and physical conserved quantities.
+
+Compute Earth force and net craft force as separately varied observables; do not infer craft force from Earth force alone without identifying all included subsystems.
+
+Compute full total momentum and energy flux through a chosen far surface to identify the genuine external momentum partner.
+
+Identify a finite and realizable onboard source technology or report `PHYSICAL_SOURCE_NOT_FOUND`.
+
+Only after the force survives all of those gates should a thrust magnitude be assigned to a prospective engine.
+
+## 30 — R3B Engine highest-information first physical experiments
+
+R3B-E00: inventory all original R3B and B17-M3 producers/results and perform exact hash/status reconstruction.
+
+R3B-E00: retrieve original B17-M3 result JSON to resolve the 137,370 N and approximately 90,341 J reported values and their geometrical inputs.
+
+R3B-E00: independently verify the finite Earth test mass, location, volume integration and reduced translational invariance.
+
+R3B-E00: distinguish field energy, interaction potential, external work, power, and operating energy in dimensional units.
+
+R3B-E01: derive one coupled source/field/Earth/craft action, or an exact missing-action/underdetermination theorem if no candidate source exists.
+
+R3B-E01: prove source gauge current conservation and identity with actual source matter, not only prescribed shell currents.
+
+R3B-E01: derive and evaluate the physical source backreaction and support forces.
+
+R3B-E01: derive a global momentum ledger and boundary stress flux with Earth on and off.
+
+R3B-E02: measure signed whole-craft force with source free and Earth external; require net upward thrust, not an anchor-only derivative.
+
+R3B-E02: perform grid, angular, Earth-size, outer-domain and reaction-partner convergence tests.
+
+R3B-E02: compare fixed Earth, freely responding Earth and independent numerical force variations.
+
+R3B-E03: assess causal switch-on, stop, reset and cyclic signed impulse with no hidden cancellations.
+
+R3B-E03: measure field and radiation momentum, support impulse, losses and actual power required at finite velocity.
+
+R3B-E04: examine dynamic stability, material cost, heat, environmental effects, empirical fifth-force and gravitational limits.
+
+R3B-E05: if any real source and force survive, seek an independently implementable laboratory observable before claiming useful spacecraft propulsion.
+
+These labels are proposed new build-plan milestones and have **NOT BEEN EXECUTED**.
+
+## 31 — The earliest meaningful R3B Engine stop gates
+
+Stop a candidate immediately if it cannot produce a finite conserved source current from an explicit action.
+
+Stop an Earth-reaction interpretation if the source/craft net momentum cancels internally once the physical source is included.
+
+Stop a claimed external thrust if the force vanishes when the source is freed rather than artificially anchored.
+
+Stop a candidate if the Earth-on/Earth-off result is a boundary artifact or uncontrolled finite-patch truncation.
+
+Stop if the force is actually ordinary electromagnetic/contact/exhaust momentum and the model insists on calling it gravity; reclassify rather than disguise.
+
+Stop if material support energy or mode health is fundamentally incompatible with operation.
+
+Stop if energy conservation would require an unmodeled external supply beyond what the physical architecture provides.
+
+Stop if the claimed 137 kN magnitude cannot be supported once fields, real source, Earth, supports and craft all respond.
+
+Record each stop with immutable evidence and the exact assumption scope.
+
+## 32 — R3B Engine mathematical checkpoints to preserve from antigravity
+
+Start from B17-M3's reduced energy as a frozen-field negative/positive control only.
+
+Calculate `−∂U/∂X_Earth` and `−∂U/∂X_source` independently to establish the old translation identity.
+
+Then derive the full physical source/no-longer-frozen action and re-evaluate both forces.
+
+Keep translation and gauge identities exact while allowing source, Earth, fields and metric to relax.
+
+Define an Earth-coupled field interaction in terms of physical stress and source momentum rather than name alone.
+
+Keep the finite Earth patch as a control, but explore half-space/converged Earth material only after the source is physically defined.
+
+Establish dependence of available thrust on altitude and true distance, not a center-to-center coordinate guess.
+
+Check reaction direction and whether downward Earth force genuinely becomes upward net craft force, or disappears in the full boundary/field response.
+
+Check whether static force persists during motion and where propulsion work is supplied.
+
+Do not infer deep-space operation from an Earth-dependent interaction.
+
+## 33 — Full energy and momentum ledger for the new propulsion target
+
+Source rest/formation energy must have a stated baseline and must not be counted twice.
+
+Charged matter kinetic/chemical/nuclear binding and confinement costs must be included where applicable.
+
+Both X and Y carrier field energies and their interaction terms must follow one Hamiltonian and consistent signs.
+
+Neutral material and Earth loading changes must appear in the action and energy balance.
+
+Support stress and mechanical stored energy must not be omitted.
+
+Activation, standby, switching, control and restoration costs must be included.
+
+Radiation, exhaust, thermal dissipation and any external drive energy must be distinguished.
+
+Mechanical output must be obtained by integrating actual signed force along the motion, not by multiplying a frozen force by an arbitrarily assumed distance.
+
+Momentum must close globally, and a local Earth interaction must not secretly transfer net momentum to an unmodeled boundary.
+
+A small source field can be a useful energy-transmitting mediator without being a self-sustaining energy source.
+
+The complete ledger must state energy per cycle, average power, peak power, impulse per cycle, and force versus relative velocity when available.
+
+## 34 — Negative controls to retain for future engine work
+
+SOURCE_OFF: turn off the onboard physical source and independently check all fields and net force vanish as predicted.
+
+EARTH_OFF: remove the Earth target and independently check whether the Earth-coupled force vanishes.
+
+FIELD_ZERO: set X/Y or scalar coupling to zero and verify the appropriate no-interaction limit.
+
+CONSTANT_THETA: test constant axion angle as a topological null where applicable.
+
+REVERSE_ORIENTATION: reverse source/target or invariant sign and check force transformation by action symmetry.
+
+SAME_ACTION: compare source and Earth translations and total canonical stress/Noether momentum.
+
+FINITE_PATCH: enlarge Earth patch radius/depth and quantify convergence rather than assume it represents the full Earth.
+
+OUTER_DOMAIN: enlarge field box and verify no imposed-boundary force survives.
+
+MESH_AND_ANGULAR: refine radial, angular and multipole discretization independently.
+
+FREE_SOURCE_VS_ANCHORED: isolate artificial anchor force from physically free onboard-source response.
+
+EARTH_FREE_VS_CLAMPED: evaluate real Earth response versus fixed-wall boundary reaction.
+
+NEGATIVE_PHASES: report all inward impulse and reset phases, not just favorable force peaks.
+
+MOMENTUM_FLUX: compute field and radiation flux through a closed surface surrounding the system.
+
+ENERGY_CYCLE: show all source drive, losses and final-state restoration; no perpetual-energy presuppositions.
+
+## 35 — Build-plan and documentation migration procedure
+
+Do not edit historical physical results, producer files or old journal entries merely to announce the strategy pivot.
+
+Create a new R3B Engine build plan whose priority and evidence classification are explicit at the top.
+
+Add a new `README` active-banner section indicating the antigravity program was paused on November 22 and R3B Engine is active.
+
+Make the old November 18 README front page clearly historical without deleting it.
+
+Update `RESEARCH_BUILDPLAN.md` with a **frozen-antigravity** status box rather than overwriting its physics and requirements.
+
+Update `ARTIFICIAL_BUILDPLAN.MD` with EPSILON1-00/01/02 and a frozen artificial-research status, retaining its November 20 DELTA history and earlier GAMMA archive.
+
+Update `NOTES.md` by appending a freeze/transition note and pointer to this carry-over document; avoid replacing the monolithic earlier notes.
+
+Update AGMINER's failure memory only to mark a new transfer boundary and preserve closed cases.
+
+Update Introspective only for validated mechanism conclusions; maintain uncertified >1000x continuum status.
+
+Keep `FORMATTING_AND_CODE_STANDARDS.md` unchanged except for an explicit new evidence-classification annex if necessary.
+
+Create a new dated original journal entry for the strategic decision; do not pretend an R3B Engine experimental run occurred.
+
+Regenerate a **code-only** codebundle; exclude giant NOTES, journals and build plans from it.
+
+Regenerate the independent journal bundle only after its original chronological entries are correct.
+
+Record exact modified document names, hashes and separate preservation of older versions in the migration log.
+
+The current deliverable is documentation for a *future* migration, not evidence those repository docs have been edited.
+
+## 36 — What a future antigravity-resumption session should do first
+
+Read this freeze record before planning any new physics.
+
+Verify the SHA of EPSILON1-02 and its predecessors directly from the original files and sidecars.
+
+Recreate the full chain U2→U3A→U3B→U4A→EPSILON00→EPSILON01→EPSILON02 from immutable artifacts, without rerunning if source records are sufficient.
+
+Inspect all evidence for missing NPZ/producer versions before deciding whether a fresh coupled solve is justified.
+
+Confirm the original PH16-04R2 source fix and its accepted result, rather than trusting the earlier codebundle.
+
+Confirm that older README/GAMMA/DELTA `NEXT` labels have been superseded by the freeze.
+
+Restore the 33% blocker and 37% overall heuristics as frozen historical estimates, not revised progress claims.
+
+Re-establish 006D, A12C, R3B and negative controls.
+
+Decide whether an actual independent sourced pseudoscalar material exists before reopening EPSILON1-03.
+
+Determine the Fourier content of the missing scalar correction; EPSILON1-02 only supplied global/modewise upper bounds.
+
+If a complete source action is found, derive local coupled scalar/X/Y/neutral/metric equations and test a small bounded geometry first.
+
+Do not promote results until continuum/exterior, full constrained modes, real Earth/craft and SI energy are addressed.
+
+## 37 — Reproducibility and code workflow rules
+
+Work from the repository root and use macOS-compatible complete `bash <<'APPLY'` and `bash <<'VERIFY'` blocks when research code is requested.
+
+Keep APPLY and VERIFY independent, copy-paste-ready, and syntactically checked.
+
+Never use git commands unless explicitly requested.
+
+Avoid encoded patches and unnecessary replacement of original working files.
+
+Create new versioned producers for new science; avoid touching historical sources.
+
+Before an expensive run, assert exact source parent hashes and required result keys.
+
+Write timestamped immutable science JSON and SHA-256 sidecars with source and parent provenance.
+
+Write raw run and independent verification logs.
+
+Use explicit positive/negative controls, physical gate statuses, machine-readable verdicts and full units.
+
+Use focused tests for cheap analytical preflight, but run full repository regression at accepted integrated checkpoints.
+
+Do not present a deferred or unrun full suite as complete.
+
+Record sample, mesh, boundary, multipoles and solver tolerance for every claim of convergence.
+
+When reporting a blocker heuristic, say whether a physical mechanism was actually advanced or only a mathematical negative control was passed.
+
+## 38 — Strict vocabulary and claim labels
+
+`PRESCRIBED_CAPACITY`: fields or coefficients specified without physical current generation.
+
+`CONDITIONAL_FORCE`: force calculated from reduced frozen profiles or specified material coordinates.
+
+`ARTIFICIAL_RECIPROCITY`: action/translation algebra in a toy or inverse problem.
+
+`DISCRETE_STATIONARITY`: solution of a finite-lattice specified action; not necessarily continuum dynamics.
+
+`SOURCE_ACTION_PARTIAL`: some real source EOM derived, with other sectors open.
+
+`CONSTRAINED_HEALTH_PARTIAL`: restricted Hessian/projection, not full Lorentzian stability.
+
+`CONTINUUM_EXTERIOR_PARTIAL`: finite-box convergence evidence without transparent physical infinity proof.
+
+`EARTH_REACTION_CONDITIONAL`: finite, externally prescribed Earth target force only.
+
+`CRAFT_THRUST_NOT_DERIVED`: complete craft with momentum balance remains uncalculated.
+
+`ENERGY_NOT_CERTIFIED`: total source, work, power and losses not established.
+
+`FIFTH_FORCE_CANDIDATE`: nongravitational matter interaction, not true antigravity.
+
+`TRUE_GRAVITY_CANDIDATE`: one-action universal physical metric/Einstein response with outstanding validation.
+
+`ACTUAL_THRUST_CANDIDATE`: source, fields and external momentum flux have been physically derived, but independent experiment not yet complete.
+
+`EXPERIMENTALLY_VERIFIED_THRUST`: repeatable signed net force/impulse with stringent controls and independent reproduction; currently absent.
+
+## 39 — Frozen “do not claim” statements
+
+Do not claim the R3B Engine has produced 137 kN net thrust.
+
+Do not claim 1.542916 J is the total operating energy of a 137 kN machine.
+
+Do not claim the B17-M3 source-anchor derivative equals force on every onboard component.
+
+Do not claim the Earth patch is the whole Earth.
+
+Do not claim static action stationarity implies dynamic stability.
+
+Do not claim positive restricted Hessian implies healthy constrained Lorentzian spectrum.
+
+Do not claim gauge source conservation where charges and currents were merely prescribed.
+
+Do not claim a local field exists outside the computational domain without exterior matching tests.
+
+Do not claim antigravity solely because a Jordan-metric test particle accelerates outward in a prescribed field.
+
+Do not claim positive static force can do indefinite work with no power supply or energy transfer.
+
+Do not claim EPSILON source rank tests identify a real microscopic material source.
+
+Do not claim low-energy feasibility from a favorable quadratic lower bound that omits source/support energy.
+
+Do not promote a 50% heuristic just for test counts, naming or methodological progress.
+
+## 40 — Freeze decision and future-facing handoff statement
+
+The antigravity program's accepted progress is retained intact at the November 22, 2026 freeze.
+
+Original gravitational requirements remain available unchanged for future resumption.
+
+No existing immutable physics artifacts or journals are altered by this freeze document.
+
+R3B Engine becomes the new active research goal, and must receive its own build plan before physical model development continues.
+
+Its first scientific objective is to prove or refute a source-supported Earth/whole-craft external interaction derived from one action.
+
+The historic few-joule field reference and conditional 137 kN Earth-patch force remain meaningful **research clues**, not proof of an engine.
+
+A negative conservation or sourceability theorem is a scientifically valuable R3B Engine result and must be preserved.
+
+An apparent positive result must pass independent reaction, external boundary, source-backreaction, work/power and convergence checks before being described as thrust.
+
+Researcher instruction on resumption: rebuild context from original source and immutable evidence; never replace a missing mechanism with an imposed force or a favorable heuristic percentage.
+
+---
+
+## APPENDIX A — Mounted evidence manifest and byte-identical recent JSON
+
+This appendix preserves the exact mounted scientific JSON bytes from the user-uploaded latest GRAVITY2/EPSILON runs.
+
+The following JSON blocks are raw archived scientific outputs; they are not newly authored model claims, and they must be interpreted under the limits stated in the main notes.
+
+File names below are local upload labels, not a promise that the live Mac repository retains the same basenames.
+
+The mounted latest JSONs were independently hashed and compared to uploaded .sha256 sidecars before inclusion.
+
+### A.01 — G01-U2 radial-only reciprocal Maxwell (scoped negative)
+
+- Mounted upload: `science(20261122-180814).json`
+- Source-byte SHA-256: `a91e6c325e9a12f2aff4b28b7fc7dede7a95644fb9776fba7fc0d1dd4b0c1d2b`
+- Uploaded sidecar: `science.json(20261122-180812).sha256` (MATCH).
+- Experiment identifier: `G01-U2-RECIPROCAL-MAXWELL-RADIAL-DIPOLE-FORK`.
+- Physical survivor count: `0`.
+- Full regression in this run: `NOT_RUN`.
+
+```json
+{
+  "G01U1_dipole_to_R3B_capacity_ratio": 1.178511301977579,
+  "G01U1_field_normalization_independently_sourced": false,
+  "G01U1_illustrative_dipole_maxwell_energy_j": 1.3092078192690724,
+  "best_projected_root_radial_f0_only_min_m_s2": -5.010321590791191e-10,
+  "blocker_resolution_after_percent": "ASSESS_AFTER_INDEPENDENT_ANALYSIS",
+  "blocker_resolution_previous_percent": 33,
+  "complete_operating_energy_j": null,
+  "constant_theta_topological_null": "Explicitly tested on every grid",
+  "covariant_current_conservation": "U(1) Ward identities follow antisymmetry; X surface charge is net-zero dipolar, Y surface current is azimuthal divergence-free",
+  "current_microphysics": null,
+  "experiment": "G01-U2-RECIPROCAL-MAXWELL-RADIAL-DIPOLE-FORK",
+  "f0_radial_mode_included": true,
+  "fixed_shape_scalar_projected_amplitude_only": true,
+  "full_G01U1_f2_needed_for_positive_torus_sign": true,
+  "full_Lorentzian_healthy_modes_certified": false,
+  "full_regression": "NOT_RUN",
+  "fully_coupled_phi_X_Y_Einstein_solved": false,
+  "largest_absolute_projected_root": 3.2962064303107503e-05,
+  "mesh_domain_gates": {
+    "large_negative_root_relative_mesh_change": 0.03433587809646488,
+    "positive_small_root_relative_mesh_change": 0.0003800306027950118,
+    "projected_roots_are_not_full_scalar_EOM": true,
+    "strong_t1_source_ratio_relative_box_converged": false,
+    "strong_t1_source_ratio_within_1e_7": true
+  },
+  "overall_heuristic_previous_percent": 37,
+  "parent_radial_sha256": "cfe54027edcd6a33532faa5eec138455bc35a89193f9b3af1d4cd4f5bf727999",
+  "parent_u1_sha256": "0f5b138a22d9da0088cdb9d6c2bfdcfbb046603845447d250878809c454616c3",
+  "physical_survivors": 0,
+  "prescribed_shell_current_not_material_EOM": true,
+  "producer_sha256": "950cc136c513ca3d37f171341b2b36678f5f864554fee784df328cca6562c8d3",
+  "projected_amplitude_equation": "scalar_source_projection_ratio(t)=t at fixed f0 shape; necessary but not sufficient scalar EOM",
+  "r3b_capacity_prescribed_j": 1.5429162116460216,
+  "radial_f0_only_torus_max_m_s2_at_t1": 1.2511249612842628,
+  "radial_f0_only_torus_min_m_s2_at_t1": -0.4611442498794267,
+  "reached_full_outward_torus_1g": false,
+  "results": [
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.59345110289319,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.830979843050556e-16,
+        "em_shape_energy": 18.59345110289319,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 8.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.59345110289319,
+        "constant_theta": true,
+        "discrete_b_divergence": 3.830979843050556e-16,
+        "em_shape_energy": 18.593451962376378,
+        "mixed_weighted_integral": 131.23389714900858,
+        "reference_mixed_weighted_integral": 131.2338975064689,
+        "relative_maxwell_residual": 2.2754085997707202e-15,
+        "scalar_source_projection_ratio": 0.9999999972761586,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.59345110289319,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.830979843050556e-16,
+        "em_shape_energy": 87.8842443969658,
+        "mixed_weighted_integral": 8089.219925074454,
+        "reference_mixed_weighted_integral": 201071634.87393346,
+        "relative_maxwell_residual": 5.798175703386564e-14,
+        "scalar_source_projection_ratio": 4.023053739104563e-05,
+        "t": 1
+      },
+      "grid_h_m": 0.04,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 3,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 13.26262948660884,
+          "mixed_weighted_integral": 5.752084666996526e-07,
+          "projected_eom_error": 3.9120287071400144e-11,
+          "reference_mixed_weighted_integral": -10.758379617413196,
+          "relative_maxwell_residual": 2.5421088950508606e-14,
+          "scalar_source_projection_ratio": -5.34660875666292e-08,
+          "t": -5.35052078537006e-08
+        },
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 0.5312713312240613,
+          "mixed_weighted_integral": 0.6112538303737206,
+          "projected_eom_error": 1.16309482119277e-14,
+          "reference_mixed_weighted_integral": -11086.289145702682,
+          "relative_maxwell_residual": 4.5095172122961444e-14,
+          "scalar_source_projection_ratio": -5.513601732196004e-05,
+          "t": -5.5136017333590985e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 7.7754284792506745,
+          "mixed_weighted_integral": 2.786503035904644e-06,
+          "projected_eom_error": 2.131449868596072e-13,
+          "reference_mixed_weighted_integral": 23.670355015512392,
+          "relative_maxwell_residual": 6.888560848510356e-14,
+          "scalar_source_projection_ratio": 1.1772121854862363e-07,
+          "t": 1.1772100540363677e-07
+        },
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 0.6616787685837053,
+          "mixed_weighted_integral": 0.04786463685253735,
+          "projected_eom_error": 2.081176892062761e-14,
+          "reference_mixed_weighted_integral": 3102.29282492881,
+          "relative_maxwell_residual": 4.847247725603845e-14,
+          "scalar_source_projection_ratio": 1.5428793977124233e-05,
+          "t": 1.5428793956312464e-05
+        },
+        {
+          "baseline_shape_energy": 18.59345110289319,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.830979843050556e-16,
+          "em_shape_energy": 0.6311182049344795,
+          "mixed_weighted_integral": 0.37439915421573594,
+          "projected_eom_error": 9.144791315255502e-15,
+          "reference_mixed_weighted_integral": 8676.465295131538,
+          "relative_maxwell_residual": 5.3166440986472455e-14,
+          "scalar_source_projection_ratio": 4.315111528490934e-05,
+          "t": 4.315111527576455e-05
+        }
+      ],
+      "radial_nodes": 201,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    },
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.73700740632634,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.3907435762909167e-16,
+        "em_shape_energy": 18.737007406326338,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 16.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.73700740632634,
+        "constant_theta": true,
+        "discrete_b_divergence": 3.3907435762909167e-16,
+        "em_shape_energy": 18.73700847198749,
+        "mixed_weighted_integral": 16.38374544168927,
+        "reference_mixed_weighted_integral": 16.38374576176984,
+        "relative_maxwell_residual": 3.426554838897816e-15,
+        "scalar_source_projection_ratio": 0.9999999804635292,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.73700740632634,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.3907435762909167e-16,
+        "em_shape_energy": 0.7003083843534956,
+        "mixed_weighted_integral": 9.227569381897744,
+        "reference_mixed_weighted_integral": 201073375.88212553,
+        "relative_maxwell_residual": 4.4400581326813425e-14,
+        "scalar_source_projection_ratio": 4.58915524813548e-08,
+        "t": 1
+      },
+      "grid_h_m": 0.04,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 1,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.73700740632634,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.3907435762909167e-16,
+          "em_shape_energy": 13.372280706329343,
+          "mixed_weighted_integral": 5.833267152700299e-07,
+          "projected_eom_error": -4.877862283295253e-13,
+          "reference_mixed_weighted_integral": -10.83006969780992,
+          "relative_maxwell_residual": 3.810690118951401e-14,
+          "scalar_source_projection_ratio": -5.386176927263834e-08,
+          "t": -5.386128148641001e-08
+        },
+        {
+          "baseline_shape_energy": 18.73700740632634,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.3907435762909167e-16,
+          "em_shape_energy": 0.23894792228055423,
+          "mixed_weighted_integral": 0.23491006747091545,
+          "projected_eom_error": 2.0354594745808363e-14,
+          "reference_mixed_weighted_integral": -6872.711278906118,
+          "relative_maxwell_residual": 4.35918193310718e-14,
+          "scalar_source_projection_ratio": -3.41801158142503e-05,
+          "t": -3.4180115834604896e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.73700740632634,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.3907435762909167e-16,
+          "em_shape_energy": 7.7597153072924145,
+          "mixed_weighted_integral": 2.693635688902273e-06,
+          "projected_eom_error": 4.6454816905525544e-12,
+          "reference_mixed_weighted_integral": 23.272229871182656,
+          "relative_maxwell_residual": 6.245728207615332e-14,
+          "scalar_source_projection_ratio": 1.1574463228544016e-07,
+          "t": 1.1573998680374961e-07
+        }
+      ],
+      "radial_nodes": 401,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    },
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.754927856923366,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.523462268445591e-16,
+        "em_shape_energy": 18.754927856923334,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 32.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.754927856923366,
+        "constant_theta": true,
+        "discrete_b_divergence": 3.523462268445591e-16,
+        "em_shape_energy": 18.754928858273068,
+        "mixed_weighted_integral": 2.046688383781216,
+        "reference_mixed_weighted_integral": 2.0466887044776687,
+        "relative_maxwell_residual": 5.183771815287108e-15,
+        "scalar_source_projection_ratio": 0.9999998433096094,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.754927856923366,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.523462268445591e-16,
+        "em_shape_energy": 0.01084422439533797,
+        "mixed_weighted_integral": 0.018419542720145586,
+        "reference_mixed_weighted_integral": 201073372.0320123,
+        "relative_maxwell_residual": 4.8854611148546116e-14,
+        "scalar_source_projection_ratio": 9.160607659781557e-11,
+        "t": 1
+      },
+      "grid_h_m": 0.04,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 1,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.754927856923366,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.523462268445591e-16,
+          "em_shape_energy": 13.385817271565319,
+          "mixed_weighted_integral": 5.84304006461741e-07,
+          "projected_eom_error": -8.160854563090525e-13,
+          "reference_mixed_weighted_integral": -10.8391050483525,
+          "relative_maxwell_residual": 5.5252033690585085e-14,
+          "scalar_source_projection_ratio": -5.390703419287858e-08,
+          "t": -5.390621810742227e-08
+        },
+        {
+          "baseline_shape_energy": 18.754927856923366,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.523462268445591e-16,
+          "em_shape_energy": 0.22906105258670392,
+          "mixed_weighted_integral": 0.23428284529388435,
+          "projected_eom_error": 3.1206591130650274e-15,
+          "reference_mixed_weighted_integral": -6863.52982923527,
+          "relative_maxwell_residual": 5.5866904439145596e-14,
+          "scalar_source_projection_ratio": -3.4134454300169914e-05,
+          "t": -3.413445430329057e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.754927856923366,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.523462268445591e-16,
+          "em_shape_energy": 7.758023976888415,
+          "mixed_weighted_integral": 2.682586978899043e-06,
+          "projected_eom_error": 6.177039425215065e-12,
+          "reference_mixed_weighted_integral": 23.224296849502,
+          "relative_maxwell_residual": 7.358205223662416e-14,
+          "scalar_source_projection_ratio": 1.1550778033379149e-07,
+          "t": 1.1550160329436628e-07
+        }
+      ],
+      "radial_nodes": 801,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    },
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.756728253565285,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.649691501581641e-16,
+        "em_shape_energy": 18.756728253565214,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 48.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.756728253565285,
+        "constant_theta": true,
+        "discrete_b_divergence": 3.649691501581641e-16,
+        "em_shape_energy": 18.75672927751585,
+        "mixed_weighted_integral": 0.6062996258537472,
+        "reference_mixed_weighted_integral": 0.606299963497457,
+        "relative_maxwell_residual": 6.369993711168258e-15,
+        "scalar_source_projection_ratio": 0.9999994431078177,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.756728253565285,
+        "constant_theta": false,
+        "discrete_b_divergence": 3.649691501581641e-16,
+        "em_shape_energy": 0.0012840171125132103,
+        "mixed_weighted_integral": 0.0008366707236503522,
+        "reference_mixed_weighted_integral": 201073371.43327498,
+        "relative_maxwell_residual": 5.309461159830257e-14,
+        "scalar_source_projection_ratio": 4.161022007471519e-12,
+        "t": 1
+      },
+      "grid_h_m": 0.04,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 1,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.756728253565285,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.649691501581641e-16,
+          "em_shape_energy": 13.387174820999666,
+          "mixed_weighted_integral": 5.844025077685901e-07,
+          "projected_eom_error": -8.519588187142203e-13,
+          "reference_mixed_weighted_integral": -10.840015016085712,
+          "relative_maxwell_residual": 6.573614773334359e-14,
+          "scalar_source_projection_ratio": -5.391159577743977e-08,
+          "t": -5.391074381862105e-08
+        },
+        {
+          "baseline_shape_energy": 18.756728253565285,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.649691501581641e-16,
+          "em_shape_energy": 0.22815374539930242,
+          "mixed_weighted_integral": 0.23427781892574842,
+          "projected_eom_error": 1.729001599011515e-14,
+          "reference_mixed_weighted_integral": -6863.456194024678,
+          "relative_maxwell_residual": 4.7501227826982406e-14,
+          "scalar_source_projection_ratio": -3.4134088176990275e-05,
+          "t": -3.413408819428029e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.756728253565285,
+          "constant_theta": false,
+          "discrete_b_divergence": 3.649691501581641e-16,
+          "em_shape_energy": 7.757855449943726,
+          "mixed_weighted_integral": 2.6814842567056036e-06,
+          "projected_eom_error": 6.370029255828801e-12,
+          "reference_mixed_weighted_integral": 23.219503427003175,
+          "relative_maxwell_residual": 7.693869861890742e-14,
+          "scalar_source_projection_ratio": 1.154841344964839e-07,
+          "t": 1.1547776446722807e-07
+        }
+      ],
+      "radial_nodes": 1201,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    },
+    {
+      "baseline": {
+        "baseline_shape_energy": 18.802218881339712,
+        "constant_theta": false,
+        "discrete_b_divergence": 4.679157945358131e-16,
+        "em_shape_energy": 18.80221888133964,
+        "mixed_weighted_integral": 0.0,
+        "reference_mixed_weighted_integral": 0.0,
+        "relative_maxwell_residual": 0.0,
+        "scalar_source_projection_ratio": null,
+        "t": 0
+      },
+      "box_radius_m": 48.0,
+      "constant_theta_null": {
+        "baseline_shape_energy": 18.802218881339712,
+        "constant_theta": true,
+        "discrete_b_divergence": 4.679157945358131e-16,
+        "em_shape_energy": 18.80222584433615,
+        "mixed_weighted_integral": 0.6061494830191579,
+        "reference_mixed_weighted_integral": 0.6061509434153104,
+        "relative_maxwell_residual": 8.461016418932918e-15,
+        "scalar_source_projection_ratio": 0.9999975907054698,
+        "t": 1
+      },
+      "full_G01U1_amplitude": {
+        "baseline_shape_energy": 18.802218881339712,
+        "constant_theta": false,
+        "discrete_b_divergence": 4.679157945358131e-16,
+        "em_shape_energy": 0.004433079415635854,
+        "mixed_weighted_integral": -0.0005005882125599279,
+        "reference_mixed_weighted_integral": 201096311.54074323,
+        "relative_maxwell_residual": 1.4770938055769002e-13,
+        "scalar_source_projection_ratio": -2.4892958439891922e-12,
+        "t": 1
+      },
+      "grid_h_m": 0.02,
+      "negative_scan": {
+        "bracketed_root_count": 2,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": -1e-10,
+        "scan_min_t": -1.0
+      },
+      "positive_scan": {
+        "bracketed_root_count": 1,
+        "global_uniqueness_proved": false,
+        "number_of_samples": 56,
+        "scan_max_t": 1.0,
+        "scan_min_t": 1e-10
+      },
+      "projected_negative_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.802218881339712,
+          "constant_theta": false,
+          "discrete_b_divergence": 4.679157945358131e-16,
+          "em_shape_energy": 13.4300193661246,
+          "mixed_weighted_integral": 5.849356678657423e-07,
+          "projected_eom_error": -1.0674347725151227e-12,
+          "reference_mixed_weighted_integral": -10.845555643666357,
+          "relative_maxwell_residual": 1.882976814988984e-13,
+          "scalar_source_projection_ratio": -5.393321348245869e-08,
+          "t": -5.393214604768618e-08
+        },
+        {
+          "baseline_shape_energy": 18.802218881339712,
+          "constant_theta": false,
+          "discrete_b_divergence": 4.679157945358131e-16,
+          "em_shape_energy": 0.2724540638169447,
+          "mixed_weighted_integral": 0.21849067647165787,
+          "projected_eom_error": 1.5354599915747696e-14,
+          "reference_mixed_weighted_integral": -6628.5495521237235,
+          "relative_maxwell_residual": 1.4233740847060684e-13,
+          "scalar_source_projection_ratio": -3.2962064287752903e-05,
+          "t": -3.2962064303107503e-05
+        }
+      ],
+      "projected_positive_amplitude_roots": [
+        {
+          "baseline_shape_energy": 18.802218881339712,
+          "constant_theta": false,
+          "discrete_b_divergence": 4.679157945358131e-16,
+          "em_shape_energy": 7.806222921392719,
+          "mixed_weighted_integral": 2.679759575840529e-06,
+          "projected_eom_error": 6.68340447036493e-12,
+          "reference_mixed_weighted_integral": 23.213327370717746,
+          "relative_maxwell_residual": 2.1562973488169726e-13,
+          "scalar_source_projection_ratio": 1.1544056278725854e-07,
+          "t": 1.1543387938278818e-07
+        }
+      ],
+      "radial_nodes": 2401,
+      "theta_strength_at_r1": 37738899.58046714,
+      "theta_strength_at_r3": -2138119.791202057
+    }
+  ],
+  "root_classification": "ONLY_SMALL_PROJECTED_ROOTS_IN_SCANNED_RANGE",
+  "same_action_static_variation": "L=0.5 E_X^2-0.5 B_Y^2+theta(phi) E_X.dot.B_Y+sources; D_X=E_X+theta B_Y; H_Y=B_Y-theta E_X",
+  "scope": "Radial theta0, dipole X/Y Maxwell, prescribed surface currents, fixed scalar f0; no theta2, full scalar EOM, fluid or Einstein force",
+  "source_shell_radius_m": 2.0,
+  "static_gauge_Hessian": "[[1+theta^2,theta],[theta,1]], determinant 1",
+  "theta2_angular_mode_included": false,
+  "utc": "2026-11-22T17:39:46.809118+00:00",
+  "whole_craft_force": null
+}
+```
+
+### A.02 — G01-U3A full-angular reciprocal Maxwell (nonconverged)
+
+- Mounted upload: `science(20261122-191944).json`
+- Source-byte SHA-256: `bd1c3226646f0e82ef14ab4826e00b1cbb9bdeedb9f05a4d9dbf7069151d8fd6`
+- Uploaded sidecar: `science.json(20261122-191943).sha256` (MATCH).
+- Experiment identifier: `G01-U3A-ANGULAR-STATIC-RECIPROCITY-PREFLIGHT`.
+- Physical survivor count: `0`.
+- Full regression in this run: `NOT_RUN_BY_USER_POLICY`.
+- Companion verifier upload: `verification(20261122-191942).json`; SHA-256 `a6ab7fd2aaf6af12be69ff0256354e23683115028e6e573f633caeffc7c1598b`.
+
+```json
+{
+  "action_static": "L=.5 E_X^2-.5 B_Y^2+theta(phi) E_X.B_Y",
+  "angular_source": "theta=scale*(f0+f2*P2)",
+  "constant_theta_exact_topological_null": true,
+  "experiment": "G01-U3A-ANGULAR-STATIC-RECIPROCITY-PREFLIGHT",
+  "full_regression": "NOT_RUN_BY_USER_POLICY",
+  "gravity_and_earthcraft": "NOT_SOLVED",
+  "parent_radial_sha256": "cfe54027edcd6a33532faa5eec138455bc35a89193f9b3af1d4cd4f5bf727999",
+  "parent_u1_sha256": "0f5b138a22d9da0088cdb9d6c2bfdcfbb046603845447d250878809c454616c3",
+  "physical_survivors": 0,
+  "producer_sha256": "a894b741012e8445f711b3ed4fde3a881c6f84391ee6221f479fdcd401a0f46a",
+  "results": [
+    {
+      "L": 8.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.61313011696795,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.61313011696795,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 188265.95166385613,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 13242.2249493523,
+        "multipole_source_changes": {
+          "0": -0.08595394466312312,
+          "2": -6.59216241583249,
+          "4": 5.875858620957058,
+          "6": -9.396434641416299
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.19180428991154608,
+        "source_L2_relative_difference": 97.7008208629015,
+        "static_maxwell_relative_residual": 9.467628679951075e-16,
+        "t": 1,
+        "theta_abs_max_sampled": 45358438.63562191,
+        "u2_H_log10_condition_estimate": 30.62663238604342
+      },
+      "h": 0.2,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.6643010459808746,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 0.04672551678741816,
+        "multipole_source_changes": {
+          "0": -0.018884397468168987,
+          "2": 1.6300216523754585,
+          "4": -0.0069345651264109895,
+          "6": 0.0009786227833408936
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.0003562262801527003,
+        "source_L2_relative_difference": 0.9992023835526298,
+        "static_maxwell_relative_residual": 5.306129364427442e-16,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 453.58438635621917,
+        "u2_H_log10_condition_estimate": 10.62663238604342
+      },
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.322712551761715,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.2887804679943675,
+        "multipole_source_changes": {
+          "0": 0.004445416371098365,
+          "2": 0.1319327589215677,
+          "4": -0.008766277817056274,
+          "6": 4.272167585258159e-05
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0299718882776083,
+        "source_L2_relative_difference": 0.07050112952522834,
+        "static_maxwell_relative_residual": 5.119511365091447e-15,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4535843863562191,
+        "u2_H_log10_condition_estimate": null
+      }
+    },
+    {
+      "L": 8.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.667646657681786,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.667646657681786,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 89986.52482818917,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 6310.975566137375,
+        "multipole_source_changes": {
+          "0": -0.03606817982991739,
+          "2": -1.5309340664040383,
+          "4": -1.4882155673448252,
+          "6": -1.6978400046168391
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.006455867113716512,
+        "source_L2_relative_difference": 41.822397697161804,
+        "static_maxwell_relative_residual": 3.1836160429079604e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45407914.90936367,
+        "u2_H_log10_condition_estimate": 30.628526239786368
+      },
+      "h": 0.1,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.6110182192752244,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 0.04285220547935575,
+        "multipole_source_changes": {
+          "0": -0.004774391956537307,
+          "2": 1.6352440553804504,
+          "4": -0.00686616649888174,
+          "6": 0.0004084305971345722
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": -2.3311486416513392e-05,
+        "source_L2_relative_difference": 0.9993759180509781,
+        "static_maxwell_relative_residual": 7.583655187817512e-16,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 454.0791490936368,
+        "u2_H_log10_condition_estimate": 10.628526239786366
+      },
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.36780398738991,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.2881791178106,
+        "multipole_source_changes": {
+          "0": 0.0011349486670188995,
+          "2": 0.1322605388222782,
+          "4": -0.008886300840305414,
+          "6": 4.6558384493246524e-05
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.029630468077692,
+        "source_L2_relative_difference": 0.0706753538514146,
+        "static_maxwell_relative_residual": 2.58357831347633e-14,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4540791490936367,
+        "u2_H_log10_condition_estimate": null
+      }
+    },
+    {
+      "L": 8.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.667646657681786,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.667646657681786,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3,
+        5
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 69038.27691791784,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 4841.82359068853,
+        "multipole_source_changes": {
+          "0": -0.023008345841591504,
+          "2": -0.6292081884485088,
+          "4": -1.3169472330475098,
+          "6": -0.015973243915994417
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.0069975106059786095,
+        "source_L2_relative_difference": 35.24133378065832,
+        "static_maxwell_relative_residual": 2.3557330261205027e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45407914.90936367,
+        "u2_H_log10_condition_estimate": 30.628526239786368
+      },
+      "h": 0.1,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.6026587745041756,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 0.042265937126429676,
+        "multipole_source_changes": {
+          "0": -0.004755367413161568,
+          "2": 1.6344657494122514,
+          "4": -0.006831707129857975,
+          "6": 0.001684345370813706
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": -2.927022836395951e-05,
+        "source_L2_relative_difference": 0.9994821998873404,
+        "static_maxwell_relative_residual": 1.0186544726994269e-15,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 454.0791490936368,
+        "u2_H_log10_condition_estimate": 10.628526239786366
+      },
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.36780399140463,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.288179118092162,
+        "multipole_source_changes": {
+          "0": 0.0011349486682484522,
+          "2": 0.13226087891911692,
+          "4": -0.00885695998721253,
+          "6": 0.00010462569927050781
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0296304750955958,
+        "source_L2_relative_difference": 0.07067496361796183,
+        "static_maxwell_relative_residual": 2.3875875619578337e-14,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4540791490936367,
+        "u2_H_log10_condition_estimate": null
+      }
+    },
+    {
+      "L": 12.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.78277880879797,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.78277880879797,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3,
+        5
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 82773.9794864199,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 5769.558502434066,
+        "multipole_source_changes": {
+          "0": -0.07228887454336327,
+          "2": 1.3705688239027263,
+          "4": -0.5624063982517458,
+          "6": -0.31358765148278317
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.0009108543032676203,
+        "source_L2_relative_difference": 2.4993131287515835,
+        "static_maxwell_relative_residual": 7.037872376722795e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45407914.90936367,
+        "u2_H_log10_condition_estimate": 30.628526239786368
+      },
+      "h": 0.1,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.39284324616108474,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 0.027382181031713446,
+        "multipole_source_changes": {
+          "0": -0.00473471762051673,
+          "2": 1.6655139319315213,
+          "4": -0.0036533958251666887,
+          "6": 0.0003807583581375497
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 5.192872808249031e-06,
+        "source_L2_relative_difference": 0.9994499630505536,
+        "static_maxwell_relative_residual": 7.9109975469900965e-16,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 454.0791490936368,
+        "u2_H_log10_condition_estimate": 10.628526239786366
+      },
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.479752102652323,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.288086081257261,
+        "multipole_source_changes": {
+          "0": 0.001130601757009725,
+          "2": 0.10328477107646093,
+          "4": -0.008958513137470562,
+          "6": 0.00010609501184301219
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.030243373421156,
+        "source_L2_relative_difference": 0.07125950828844083,
+        "static_maxwell_relative_residual": 3.024057030142926e-14,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4540791490936367,
+        "u2_H_log10_condition_estimate": null
+      }
+    }
+  ],
+  "scalar_EOM": "NOT_SOLVED_LOCAL_EOM",
+  "source_action": "PRESCRIBED_CHARGE_AND_CURRENT_ONLY",
+  "utc": "2026-11-22T19:18:55.870252+00:00"
+}
+```
+
+### A.03 — G01-U3B extended exterior (nonconverged)
+
+- Mounted upload: `science(20261122-192827).json`
+- Source-byte SHA-256: `44f14ce4ba14e46d3fd4816d9fad2395fd1fef133a35894e884ad8ace9335126`
+- Uploaded sidecar: `science.json(20261122-192826).sha256` (MATCH).
+- Experiment identifier: `G01-U3B-EXTENDED-EXTERIOR-RECIPROCITY-GATE`.
+- Physical survivor count: `0`.
+- Full regression in this run: `NOT_RUN_BY_USER_POLICY`.
+- Companion verifier upload: `verification(20261122-192824).json`; SHA-256 `f90b774c9606c3dc42a37dbec75956cc76c31fdfa2cfc2b3a7418a1655ebb898`.
+
+```json
+{
+  "action_static": "L=.5 E_X^2-.5 B_Y^2+theta(phi) E_X.B_Y",
+  "angular_source": "theta=scale*(f0+f2*P2)",
+  "boundary_condition": "ZERO_CORRECTION_AT_EXTENDED_OUTER_RADIUS",
+  "constant_theta_exact_topological_null": true,
+  "experiment": "G01-U3B-EXTENDED-EXTERIOR-RECIPROCITY-GATE",
+  "full_lorentzian_health_certified": false,
+  "full_regression": "NOT_RUN_BY_USER_POLICY",
+  "full_scalar_EOM_solved": false,
+  "gravity_and_earthcraft": "NOT_SOLVED",
+  "parent_radial_sha256": "cfe54027edcd6a33532faa5eec138455bc35a89193f9b3af1d4cd4f5bf727999",
+  "parent_u1_sha256": "0f5b138a22d9da0088cdb9d6c2bfdcfbb046603845447d250878809c454616c3",
+  "physical_survivors": 0,
+  "producer_sha256": "103416a4b816af2b4b6a586f135eb0dafc945e1a1c3734315afa6b3352c535ff",
+  "results": [
+    {
+      "L": 64.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 64.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.776371318004408,
+        "em_shape_energy_reference": 18.776371318004408,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 64.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.776371318004408,
+        "em_shape_energy_reference": 18.776371318004408,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3,
+        5
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 64.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 74357.4736725944,
+        "em_shape_energy_reference": 18.776371318004408,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 5184.675159246972,
+        "multipole_source_changes": {
+          "0": -0.09959451798568067,
+          "2": -1.381242410481594,
+          "4": -2.0883710641560995,
+          "6": -2.905098397328154
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": -0.06142833286298907,
+        "source_L2_relative_difference": 6.15601129858826,
+        "static_maxwell_relative_residual": 2.0579444360008713e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45358438.63562191,
+        "u2_H_log10_condition_estimate": 30.62663238604342
+      },
+      "h": 0.2,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 64.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.40167493329272147,
+        "em_shape_energy_reference": 18.776371318004408,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 0.0280073265789625,
+        "multipole_source_changes": {
+          "0": -0.018709446821451176,
+          "2": 1.6702574885015744,
+          "4": -0.0034669577358241014,
+          "6": 0.0006436168452737973
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.0003790961614268599,
+        "source_L2_relative_difference": 0.9992265946017825,
+        "static_maxwell_relative_residual": 5.45192454369564e-16,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 453.58438635621917,
+        "u2_H_log10_condition_estimate": 10.62663238604342
+      },
+      "outer_boundary_theta_max": 0.16787877927917974,
+      "radial_grid": "UNIFORM_TO_8M_GEOMETRIC_96_CELLS_OUTSIDE",
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 64.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.48178220459709,
+        "em_shape_energy_reference": 18.776371318004408,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.2886671959392288,
+        "multipole_source_changes": {
+          "0": 0.004420244168720721,
+          "2": 0.0858071737917586,
+          "4": -0.008876488043899216,
+          "6": 9.944860256179186e-05
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.030855293974569,
+        "source_L2_relative_difference": 0.07134107670421079,
+        "static_maxwell_relative_residual": 8.375624784202414e-15,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4535843863562191,
+        "u2_H_log10_condition_estimate": null
+      }
+    },
+    {
+      "L": 80.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.776512766196447,
+        "em_shape_energy_reference": 18.776512766196447,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.776512766196447,
+        "em_shape_energy_reference": 18.776512766196447,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3,
+        5
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 77226.97894393279,
+        "em_shape_energy_reference": 18.776512766196447,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 5384.714720506957,
+        "multipole_source_changes": {
+          "0": -0.1028073771625102,
+          "2": -2.018940672146768,
+          "4": -2.5503852653049104,
+          "6": -3.597090327090167
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": -0.0667144573253197,
+        "source_L2_relative_difference": 6.488592077752863,
+        "static_maxwell_relative_residual": 1.545233653171062e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45358438.63562191,
+        "u2_H_log10_condition_estimate": 30.62663238604342
+      },
+      "h": 0.2,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.4015489641604511,
+        "em_shape_energy_reference": 18.776512766196447,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 0.027998332291217683,
+        "multipole_source_changes": {
+          "0": -0.018720957669093492,
+          "2": 1.6702803712344236,
+          "4": -0.0034671627638464112,
+          "6": 0.0006433624667483893
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.00037908806436160396,
+        "source_L2_relative_difference": 0.9992265630963025,
+        "static_maxwell_relative_residual": 4.561191018167165e-16,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 453.58438635621917,
+        "u2_H_log10_condition_estimate": 10.62663238604342
+      },
+      "outer_boundary_theta_max": 0.04396897878836257,
+      "radial_grid": "UNIFORM_TO_8M_GEOMETRIC_96_CELLS_OUTSIDE",
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.48192074441772,
+        "em_shape_energy_reference": 18.776512766196447,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.2886671478883174,
+        "multipole_source_changes": {
+          "0": 0.004421331148667305,
+          "2": 0.0857048578844829,
+          "4": -0.00887662517381422,
+          "6": 9.944991151789254e-05
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0308562029646549,
+        "source_L2_relative_difference": 0.07134194061147557,
+        "static_maxwell_relative_residual": 9.572989235294942e-15,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4535843863562191,
+        "u2_H_log10_condition_estimate": null
+      }
+    },
+    {
+      "L": 80.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.831029306910278,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.831029306910278,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3,
+        5
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 84070.26586294333,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 5844.898207205556,
+        "multipole_source_changes": {
+          "0": -0.07359805492726615,
+          "2": 1.5171099228441047,
+          "4": -0.37652600893204485,
+          "6": -0.2937123014393386
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.0007254849805277547,
+        "source_L2_relative_difference": 1.8069558387420919,
+        "static_maxwell_relative_residual": 7.364776936624601e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45407914.90936367,
+        "u2_H_log10_condition_estimate": 30.628526239786368
+      },
+      "h": 0.1,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.3417360694733821,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 0.02375884647562258,
+        "multipole_source_changes": {
+          "0": -0.004784033840160161,
+          "2": 1.6759142589890597,
+          "4": -0.003169818161220155,
+          "6": 0.00021457682538967443
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 6.2234258280750646e-06,
+        "source_L2_relative_difference": 0.999442279874325,
+        "static_maxwell_relative_residual": 8.186415888839863e-16,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 454.0791490936368,
+        "u2_H_log10_condition_estimate": 10.628526239786366
+      },
+      "outer_boundary_theta_max": 0.04396897878836257,
+      "radial_grid": "UNIFORM_TO_8M_GEOMETRIC_96_CELLS_OUTSIDE",
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.526673118855225,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.2880477703545723,
+        "multipole_source_changes": {
+          "0": 0.0011334699202242518,
+          "2": 0.08552329816632225,
+          "4": -0.009000692352657283,
+          "6": 0.00010656227290221373
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0305006137218986,
+        "source_L2_relative_difference": 0.07151511590247868,
+        "static_maxwell_relative_residual": 3.285119952266928e-14,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4540791490936367,
+        "u2_H_log10_condition_estimate": null
+      }
+    },
+    {
+      "L": 80.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.831029306910278,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.831029306910278,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 70147.2638652904,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 4876.9159059758995,
+        "multipole_source_changes": {
+          "0": -0.06377828814732335,
+          "2": 1.25932709857674,
+          "4": -0.9893550665862743,
+          "6": -1.216362277532011
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": -0.0033048915524157276,
+        "source_L2_relative_difference": 2.8779657523848132,
+        "static_maxwell_relative_residual": 5.944373947663104e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45407914.90936367,
+        "u2_H_log10_condition_estimate": 30.628526239786368
+      },
+      "h": 0.1,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.34345875893687505,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 0.02387861467729756,
+        "multipole_source_changes": {
+          "0": -0.004779027435773445,
+          "2": 1.675830819091554,
+          "4": -0.0031875757304598447,
+          "6": 0.00042908941376977415
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0026910755164221e-05,
+        "source_L2_relative_difference": 0.9994347641252147,
+        "static_maxwell_relative_residual": 1.0692183148585191e-15,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 454.0791490936368,
+        "u2_H_log10_condition_estimate": 10.628526239786366
+      },
+      "outer_boundary_theta_max": 0.04396897878836257,
+      "radial_grid": "UNIFORM_TO_8M_GEOMETRIC_96_CELLS_OUTSIDE",
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "box_m": 80.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.52667311885512,
+        "em_shape_energy_reference": 18.831029306910278,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.288047770354565,
+        "multipole_source_changes": {
+          "0": 0.0011334699202238362,
+          "2": 0.08552329816322612,
+          "4": -0.009000692505920829,
+          "6": 0.00010675174123998359
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0305006137218646,
+        "source_L2_relative_difference": 0.07151511592484315,
+        "static_maxwell_relative_residual": 2.751227340219366e-14,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4540791490936367,
+        "u2_H_log10_condition_estimate": null
+      }
+    }
+  ],
+  "scalar_EOM": "NOT_SOLVED_LOCAL_EOM",
+  "source_action": "PRESCRIBED_CHARGE_AND_CURRENT_ONLY",
+  "transparent_boundary_certified": false,
+  "utc": "2026-11-22T19:27:36.610612+00:00"
+}
+```
+
+### A.04 — G01-U4A frozen scalar stationarity (scoped failure)
+
+- Mounted upload: `science(20261122-194350).json`
+- Source-byte SHA-256: `5e29b2d389fee45ff4a3098b29f1ac3c8bd436cb678d9c8df2c24535e14450f5`
+- Uploaded sidecar: `science.json(20261122-194348).sha256` (MATCH).
+- Experiment identifier: `G01-U4A-SCALAR-STATIONARITY-ENERGY-GATE`.
+- Physical survivor count: `0`.
+- Full regression in this run: `NOT_RUN`.
+- Companion verifier upload: `verification(20261122-194344).json`; SHA-256 `2dd9cb9dbc4f26ae930e5294b8d337cb6ec81dd5d674968505d2b0ac15ef3a0e`.
+
+```json
+{
+  "Einstein_earthcraft": "NOT_SOLVED",
+  "Maxwell_convergence": "HOLD_NONCONVERGED_PARENT",
+  "claim": "FROZEN_U1_PROFILE_INCONSISTENT_WITH_RECORDED_U3B_TRIALS",
+  "created_utc": "2026-11-22T19:43:06.503497+00:00",
+  "experiment": "G01-U4A-SCALAR-STATIONARITY-ENERGY-GATE",
+  "full_local_scalar_EOM": "NOT_SOLVED",
+  "full_regression": "NOT_RUN",
+  "parents_sha256": {
+    "radial": "cfe54027edcd6a33532faa5eec138455bc35a89193f9b3af1d4cd4f5bf727999",
+    "u1": "0f5b138a22d9da0088cdb9d6c2bfdcfbb046603845447d250878809c454616c3",
+    "u3b": "44f14ce4ba14e46d3fd4816d9fad2395fd1fef133a35894e884ad8ace9335126"
+  },
+  "physical_source_current": "NOT_SOLVED",
+  "physical_survivors": 0,
+  "producer_sha256": "8a07597deb37d1d0bb5ccf92583f3a355b3fa78856a5bb56b864e4711af3d5d1",
+  "science": {
+    "canonical_dimensional_estimate": {
+      "UV_certified": false,
+      "operator_scale_eV": 15.475963267553281,
+      "scalar_coefficient_J_per_m": 4.815453886722423e+42,
+      "theta_per_dimensionless_phi": 1.5736167224201635e+26
+    },
+    "cases": [
+      {
+        "box_m": 64.0,
+        "ells": [
+          1,
+          3,
+          5
+        ],
+        "h_m": 0.2,
+        "matter_overlap_m": 8.788566118939252e-07,
+        "maxwell_continuum": "NOT_CONVERGED",
+        "measured_source_ratio": -0.06142833286298907,
+        "parent_maxwell_residual": 2.0579444360008713e-15,
+        "projected_stationarity_gap": 1.061429819409942,
+        "reference_overlap_m": 0.5912067628164084,
+        "required_frozen_profile_ratio": 1.000001486546953,
+        "stationarity": "FAIL_IN_RECORDED_TRIAL"
+      },
+      {
+        "box_m": 80.0,
+        "ells": [
+          1,
+          3,
+          5
+        ],
+        "h_m": 0.2,
+        "matter_overlap_m": 8.788566118939252e-07,
+        "maxwell_continuum": "NOT_CONVERGED",
+        "measured_source_ratio": -0.0667144573253197,
+        "parent_maxwell_residual": 1.545233653171062e-15,
+        "projected_stationarity_gap": 1.0667159438722729,
+        "reference_overlap_m": 0.5912067628164293,
+        "required_frozen_profile_ratio": 1.000001486546953,
+        "stationarity": "FAIL_IN_RECORDED_TRIAL"
+      },
+      {
+        "box_m": 80.0,
+        "ells": [
+          1,
+          3,
+          5
+        ],
+        "h_m": 0.1,
+        "matter_overlap_m": 8.788566118939252e-07,
+        "maxwell_continuum": "NOT_CONVERGED",
+        "measured_source_ratio": 0.0007254849805277547,
+        "parent_maxwell_residual": 7.364776936624601e-15,
+        "projected_stationarity_gap": 0.9992760015664254,
+        "reference_overlap_m": 0.5912067628164293,
+        "required_frozen_profile_ratio": 1.000001486546953,
+        "stationarity": "FAIL_IN_RECORDED_TRIAL"
+      },
+      {
+        "box_m": 80.0,
+        "ells": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "h_m": 0.1,
+        "matter_overlap_m": 8.788566118939252e-07,
+        "maxwell_continuum": "NOT_CONVERGED",
+        "measured_source_ratio": -0.0033048915524157276,
+        "parent_maxwell_residual": 5.944373947663104e-15,
+        "projected_stationarity_gap": 1.0033063780993687,
+        "reference_overlap_m": 0.5912067628164293,
+        "required_frozen_profile_ratio": 1.000001486546953,
+        "stationarity": "FAIL_IN_RECORDED_TRIAL"
+      }
+    ],
+    "finite_torus": {
+      "mass_averaged_f_squared": 0.0002355855748740347,
+      "matter_overlap_m": 8.788566118939252e-07,
+      "na": 256,
+      "nq": 80,
+      "smooth_shape_volume_m3": 0.23687050562614465,
+      "torus_mass_kg": 0.9999999999999983
+    },
+    "scalar_equation": "(-Delta+mu^2+8piG beta rho/c^2)f=P_loaded",
+    "scope": "FROZEN_U1_F0_F2_SCALAR_PROFILE",
+    "torus_relative_quadrature_error": 4.674416170194002e-11,
+    "weak_feedback_energy": {
+      "R_gradient_theta": 8501043.943572538,
+      "conditional_scalar_plus_em_j": 18462966.536208488,
+      "em_for_Rgradienttheta_le_1_j": 11129633.202875158,
+      "exceeds_10MJ": true,
+      "general_no_go": false,
+      "illustrative_em_reference_j": 1.3092078192690724,
+      "scalar_energy_j": 7333333.333333331
+    }
+  }
+}
+```
+
+### A.05 — EPSILON1-00 healthy static quadratic mixing atlas
+
+- Mounted upload: `science(20261122-195330).json`
+- Source-byte SHA-256: `2840555051406416bcf4bfc9a8bc17f736d61a97e623f5019aa8dcbe39e23f16`
+- Uploaded sidecar: `science.json(20261122-195326).sha256` (MATCH).
+- Experiment identifier: `EPSILON1-00-HEALTHY-SCHUR-SOURCE-CONTROL-ATLAS`.
+- Physical survivor count: `0`.
+- Full regression in this run: `NOT_RUN`.
+- Companion verifier upload: `verification(20261122-195323).json`; SHA-256 `804a205000cf37d8b214d926185032c03f59a18df818595ed4738e9930b6cf8c`.
+
+```json
+{
+  "assumptions": [
+    "Same canonical scalar normalization as U1",
+    "Frozen U1 scalar reference",
+    "U4A projected deficit, not local EOM",
+    "Positive static scalar Hessian",
+    "Hypothetical dynamical pseudoscalar chi",
+    "No source-material microphysics",
+    "Illustrative reference Maxwell energy",
+    "No full nonlinear or Einstein solution"
+  ],
+  "cases": [
+    {
+      "box_m": 64.0,
+      "dimensionless_required_deficit_gamma": 1.061429819409942,
+      "ell_max": 5,
+      "grid_h_m": 0.2,
+      "minimum_s_to_fit_optimistic_10MJ_quadratic_plus_em": 0.673127629678965,
+      "scans": [
+        {
+          "auxiliary_bare_energy_bound_j": 132191636.01982763,
+          "health_margin_1_minus_s2": 0.9375,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 123957333.31102298,
+          "quadratic_coupled_energy_lower_bound_j": 123957332.00181517,
+          "schur_s": 0.25,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 33047909.00495691,
+          "health_margin_1_minus_s2": 0.75,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 24813606.29615224,
+          "quadratic_coupled_energy_lower_bound_j": 24813604.986944422,
+          "schur_s": 0.5,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 19554975.742578052,
+          "health_margin_1_minus_s2": 0.5774999999999999,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 11320673.03377339,
+          "quadratic_coupled_energy_lower_bound_j": 11320671.724565571,
+          "schur_s": 0.65,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 16861178.063753527,
+          "health_margin_1_minus_s2": 0.51,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 8626875.354948865,
+          "quadratic_coupled_energy_lower_bound_j": 8626874.045741046,
+          "schur_s": 0.7,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 12909339.455061292,
+          "health_margin_1_minus_s2": 0.3599999999999999,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 4675036.746256629,
+          "quadratic_coupled_energy_lower_bound_j": 4675035.43704881,
+          "schur_s": 0.8,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 10199971.915110158,
+          "health_margin_1_minus_s2": 0.18999999999999995,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 1965669.2063054943,
+          "quadratic_coupled_energy_lower_bound_j": 1965667.8970976751,
+          "schur_s": 0.9,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 8429728.85546294,
+          "health_margin_1_minus_s2": 0.01990000000000003,
+          "negative_interaction_energy_at_target_j": -15567637.351345813,
+          "plus_reference_em_j": 195426.146658277,
+          "quadratic_coupled_energy_lower_bound_j": 195424.83745045774,
+          "schur_s": 0.99,
+          "under_10MJ_optimistic_only": true
+        }
+      ],
+      "source_overlap_deficit_m": 0.6275244874901568,
+      "source_projection_observed": -0.06142833286298907,
+      "source_projection_required": 1.000001486546953,
+      "u4a_parent_maxwell_converged": false,
+      "unrestricted_auxiliary_bare_energy_infimum_j": 8261977.251239227
+    },
+    {
+      "box_m": 80.0,
+      "dimensionless_required_deficit_gamma": 1.0667159438722729,
+      "ell_max": 5,
+      "grid_h_m": 0.2,
+      "minimum_s_to_fit_optimistic_10MJ_quadratic_plus_em": 0.6750463532810645,
+      "scans": [
+        {
+          "auxiliary_bare_energy_bound_j": 133511594.1762608,
+          "health_margin_1_minus_s2": 0.9375,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 125199761.64200862,
+          "quadratic_coupled_energy_lower_bound_j": 125199760.3328008,
+          "schur_s": 0.25,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 33377898.5440652,
+          "health_margin_1_minus_s2": 0.75,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 25066066.00981302,
+          "quadratic_coupled_energy_lower_bound_j": 25066064.7006052,
+          "schur_s": 0.5,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 19750235.824890655,
+          "health_margin_1_minus_s2": 0.5774999999999999,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 11438403.290638475,
+          "quadratic_coupled_energy_lower_bound_j": 11438401.981430655,
+          "schur_s": 0.65,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 17029540.073502656,
+          "health_margin_1_minus_s2": 0.51,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 8717707.539250476,
+          "quadratic_coupled_energy_lower_bound_j": 8717706.230042657,
+          "schur_s": 0.7,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 13038241.618775466,
+          "health_margin_1_minus_s2": 0.3599999999999999,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 4726409.084523285,
+          "quadratic_coupled_energy_lower_bound_j": 4726407.775315465,
+          "schur_s": 0.8,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 10301820.538291728,
+          "health_margin_1_minus_s2": 0.18999999999999995,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 1989988.0040395462,
+          "quadratic_coupled_energy_lower_bound_j": 1989986.694831727,
+          "schur_s": 0.9,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 8513901.271315478,
+          "health_margin_1_minus_s2": 0.01990000000000003,
+          "negative_interaction_energy_at_target_j": -15645167.176793331,
+          "plus_reference_em_j": 202068.73706329786,
+          "quadratic_coupled_energy_lower_bound_j": 202067.4278554786,
+          "schur_s": 0.99,
+          "under_10MJ_optimistic_only": true
+        }
+      ],
+      "source_overlap_deficit_m": 0.6306496800213983,
+      "source_projection_observed": -0.0667144573253197,
+      "source_projection_required": 1.000001486546953,
+      "u4a_parent_maxwell_converged": false,
+      "unrestricted_auxiliary_bare_energy_infimum_j": 8344474.636016301
+    },
+    {
+      "box_m": 80.0,
+      "dimensionless_required_deficit_gamma": 0.9992760015664254,
+      "ell_max": 5,
+      "grid_h_m": 0.1,
+      "minimum_s_to_fit_optimistic_10MJ_quadratic_plus_em": 0.6501719227169409,
+      "scans": [
+        {
+          "auxiliary_bare_energy_bound_j": 117163496.53730565,
+          "health_margin_1_minus_s2": 0.9375,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 109840783.15687256,
+          "quadratic_coupled_energy_lower_bound_j": 109840781.84766474,
+          "schur_s": 0.25,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 29290874.134326413,
+          "health_margin_1_minus_s2": 0.75,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 21968160.753893327,
+          "quadratic_coupled_energy_lower_bound_j": 21968159.444685508,
+          "schur_s": 0.5,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 17331878.18599196,
+          "health_margin_1_minus_s2": 0.5774999999999999,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 10009164.805558879,
+          "quadratic_coupled_energy_lower_bound_j": 10009163.49635106,
+          "schur_s": 0.65,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 14944323.537921643,
+          "health_margin_1_minus_s2": 0.51,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 7621610.157488558,
+          "quadratic_coupled_energy_lower_bound_j": 7621608.848280739,
+          "schur_s": 0.7,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 11441747.708721252,
+          "health_margin_1_minus_s2": 0.3599999999999999,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 4119034.3282881677,
+          "quadratic_coupled_energy_lower_bound_j": 4119033.0190803483,
+          "schur_s": 0.8,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 9040393.251335312,
+          "health_margin_1_minus_s2": 0.18999999999999995,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 1717679.8709022289,
+          "quadratic_coupled_energy_lower_bound_j": 1717678.5616944097,
+          "schur_s": 0.9,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 7471399.381268854,
+          "health_margin_1_minus_s2": 0.01990000000000003,
+          "negative_interaction_energy_at_target_j": -14656048.022974234,
+          "plus_reference_em_j": 148686.0008357706,
+          "quadratic_coupled_energy_lower_bound_j": 148684.69162795134,
+          "schur_s": 0.99,
+          "under_10MJ_optimistic_only": true
+        }
+      ],
+      "source_overlap_deficit_m": 0.5907787300462314,
+      "source_projection_observed": 0.0007254849805277547,
+      "source_projection_required": 1.000001486546953,
+      "u4a_parent_maxwell_converged": false,
+      "unrestricted_auxiliary_bare_energy_infimum_j": 7322718.533581603
+    },
+    {
+      "box_m": 80.0,
+      "dimensionless_required_deficit_gamma": 1.0033063780993687,
+      "ell_max": 7,
+      "grid_h_m": 0.1,
+      "minimum_s_to_fit_optimistic_10MJ_quadratic_plus_em": 0.6516833008025271,
+      "scans": [
+        {
+          "auxiliary_bare_energy_bound_j": 118110512.7646251,
+          "health_margin_1_minus_s2": 0.9375,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 110728687.19504218,
+          "quadratic_coupled_energy_lower_bound_j": 110728685.88583437,
+          "schur_s": 0.25,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 29527628.191156276,
+          "health_margin_1_minus_s2": 0.75,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 22145802.62157335,
+          "quadratic_coupled_energy_lower_bound_j": 22145801.312365532,
+          "schur_s": 0.5,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 17471969.34387945,
+          "health_margin_1_minus_s2": 0.5774999999999999,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 10090143.774296531,
+          "quadratic_coupled_energy_lower_bound_j": 10090142.465088712,
+          "schur_s": 0.65,
+          "under_10MJ_optimistic_only": false
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 15065116.424059331,
+          "health_margin_1_minus_s2": 0.51,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 7683290.854476413,
+          "quadratic_coupled_energy_lower_bound_j": 7683289.545268593,
+          "schur_s": 0.7,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 11534229.76217042,
+          "health_margin_1_minus_s2": 0.3599999999999999,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 4152404.1925875004,
+          "quadratic_coupled_energy_lower_bound_j": 4152402.883379681,
+          "schur_s": 0.8,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 9113465.491097618,
+          "health_margin_1_minus_s2": 0.18999999999999995,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 1731639.921514699,
+          "quadratic_coupled_energy_lower_bound_j": 1731638.6123068798,
+          "schur_s": 0.9,
+          "under_10MJ_optimistic_only": true
+        },
+        {
+          "auxiliary_bare_energy_bound_j": 7531789.662064145,
+          "health_margin_1_minus_s2": 0.01990000000000003,
+          "negative_interaction_energy_at_target_j": -14715160.21212407,
+          "plus_reference_em_j": 149964.09248122558,
+          "quadratic_coupled_energy_lower_bound_j": 149962.78327340633,
+          "schur_s": 0.99,
+          "under_10MJ_optimistic_only": true
+        }
+      ],
+      "source_overlap_deficit_m": 0.5931615159092042,
+      "source_projection_observed": -0.0033048915524157276,
+      "source_projection_required": 1.000001486546953,
+      "u4a_parent_maxwell_converged": false,
+      "unrestricted_auxiliary_bare_energy_infimum_j": 7381907.04778907
+    }
+  ],
+  "created_utc": "2026-11-22T19:52:49.503443+00:00",
+  "energy_cap_complete_j": 10000000.0,
+  "ephi_u1_fixed_profile_j": 7333333.333333331,
+  "experiment": "EPSILON1-00-HEALTHY-SCHUR-SOURCE-CONTROL-ATLAS",
+  "full_regression": "NOT_RUN",
+  "interpretation": "Necessary healthy quadratic control bounds only; negative interaction included; no complete energy certification",
+  "parent_sha256": "5e29b2d389fee45ff4a3098b29f1ac3c8bd436cb678d9c8df2c24535e14450f5",
+  "physical_survivors": 0,
+  "producer_sha256": "0314fc109153181da619090afa425b955dd96c726ed431345ebc1ae602635b8c",
+  "reference_em_illustrative_j": 1.3092078192690724,
+  "theorem": "For positive Hessian, s=||A^-1/2 K B^-1/2||<1 and |<f,K chi>|<=s sqrt(<f,Af><chi,Bchi>)"
+}
+```
+
+### A.06 — EPSILON1-01 source-rank / near-critical mode
+
+- Mounted upload: `science(20261122-195913).json`
+- Source-byte SHA-256: `adfa83e0171ba8102d82d275e4749ffa5ab951ab0b088686333055ebeb9ebd70`
+- Uploaded sidecar: `science.json(20261122-195908).sha256` (MATCH).
+- Experiment identifier: `EPSILON1-01-SOURCE-RANK-AND-NEAR-CRITICAL-GATE`.
+- Physical survivor count: `0`.
+- Full regression in this run: `NOT_RUN`.
+- Companion verifier upload: `verification(20261122-195906).json`; SHA-256 `46616b3d30149ca644a5120bd3620cedb5e4f307cf97c13211ebd26e29bfb5d2`.
+
+```json
+{
+  "Einstein_metric_earthcraft": "NOT_SOLVED",
+  "cases": [
+    {
+      "D_required": 1.000001486546953,
+      "box_m": 64.0,
+      "delta_loading": 1.4865469530889186e-06,
+      "ell_max": 5,
+      "gamma_deficit": 1.061429819409942,
+      "h_m": 0.2,
+      "no_independent_source_tuned_condition_number": null,
+      "no_independent_source_tuned_health_margin_1_minus_s2": null,
+      "no_independent_source_tuned_s": null,
+      "r_loaded_observed_unconverged": -0.06142833286298907,
+      "s_scan": [
+        {
+          "auxiliary_y_for_x_equals_one": 1.5163283134427745,
+          "condition_number_mass_matrix": 5.666655104672222,
+          "no_independent_source_x": -0.1204473604163381,
+          "no_independent_source_y": -0.08431315229143667,
+          "optimistic_budget_headroom_j": 1373113.7437068115,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 8626884.94708537,
+          "quadratic_plus_reference_EM_j": 8626886.256293189,
+          "required_independent_source_j_over_2Ef": 0.8163283134427746,
+          "required_shared_invariant_q_j_over_r": -13.289117177630864,
+          "s": 0.7,
+          "static_hessian_eigen_max": 1.700000743273871,
+          "static_hessian_eigen_min": 0.300000743273082
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.3267872742624276,
+          "condition_number_mass_matrix": 8.999970269188696,
+          "no_independent_source_x": -0.17063355335611183,
+          "no_independent_source_y": -0.13650684268488947,
+          "optimistic_budget_headroom_j": 5324952.352399046,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 4675046.338393135,
+          "quadratic_plus_reference_EM_j": 4675047.647600954,
+          "required_independent_source_j_over_2Ef": 0.5267872742624276,
+          "required_shared_invariant_q_j_over_r": -8.575640094895363,
+          "s": 0.8,
+          "static_hessian_eigen_max": 1.8000007432738219,
+          "static_hessian_eigen_min": 0.20000074327313122
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.1793664660110468,
+          "condition_number_mass_matrix": 18.99986621183003,
+          "no_independent_source_x": -0.3233044855562693,
+          "no_independent_source_y": -0.29097403700064234,
+          "optimistic_budget_headroom_j": 8034319.892350182,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 1965678.7984419984,
+          "quadratic_plus_reference_EM_j": 1965680.1076498176,
+          "required_independent_source_j_over_2Ef": 0.27936646601104675,
+          "required_shared_invariant_q_j_over_r": -4.5478438530010425,
+          "s": 0.9,
+          "static_hessian_eigen_max": 1.9000007432737835,
+          "static_hessian_eigen_min": 0.10000074327316955
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.0721513327373153,
+          "condition_number_mass_matrix": 198.9852842845239,
+          "no_independent_source_x": -3.0866203244698642,
+          "no_independent_source_y": -3.0557541212251653,
+          "optimistic_budget_headroom_j": 9804562.9519974,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 195435.73879478095,
+          "quadratic_plus_reference_EM_j": 195437.0480026002,
+          "required_independent_source_j_over_2Ef": 0.08215133273731534,
+          "required_shared_invariant_q_j_over_r": -1.3373524708955922,
+          "s": 0.99,
+          "static_hessian_eigen_max": 1.9900007432737556,
+          "static_hessian_eigen_min": 0.010000743273197554
+        }
+      ]
+    },
+    {
+      "D_required": 1.000001486546953,
+      "box_m": 80.0,
+      "delta_loading": 1.4865469530889186e-06,
+      "ell_max": 5,
+      "gamma_deficit": 1.0667159438722729,
+      "h_m": 0.2,
+      "no_independent_source_tuned_condition_number": null,
+      "no_independent_source_tuned_health_margin_1_minus_s2": null,
+      "no_independent_source_tuned_s": null,
+      "r_loaded_observed_unconverged": -0.0667144573253197,
+      "s_scan": [
+        {
+          "auxiliary_y_for_x_equals_one": 1.5238799198175328,
+          "condition_number_mass_matrix": 5.666655104672222,
+          "no_independent_source_x": -0.1308122801308299,
+          "no_independent_source_y": -0.09156859609158093,
+          "optimistic_budget_headroom_j": 1282281.5594052023,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 8717717.131386979,
+          "quadratic_plus_reference_EM_j": 8717718.440594798,
+          "required_independent_source_j_over_2Ef": 0.8238799198175328,
+          "required_shared_invariant_q_j_over_r": -12.349346046540516,
+          "s": 0.7,
+          "static_hessian_eigen_max": 1.700000743273871,
+          "static_hessian_eigen_min": 0.300000743273082
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.333394929840341,
+          "condition_number_mass_matrix": 8.999970269188696,
+          "no_independent_source_x": -0.1853171717851185,
+          "no_independent_source_y": -0.1482537374280948,
+          "optimistic_budget_headroom_j": 5273580.014132393,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 4726418.676659788,
+          "quadratic_plus_reference_EM_j": 4726419.985867607,
+          "required_independent_source_j_over_2Ef": 0.5333949298403409,
+          "required_shared_invariant_q_j_over_r": -7.995192514859968,
+          "s": 0.8,
+          "static_hessian_eigen_max": 1.8000007432738219,
+          "static_hessian_eigen_min": 0.20000074327313122
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.1852399376358587,
+          "condition_number_mass_matrix": 18.99986621183003,
+          "no_independent_source_x": -0.35112597557931885,
+          "no_independent_source_y": -0.31601337802138696,
+          "optimistic_budget_headroom_j": 8010001.09461613,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 1989997.5961760508,
+          "quadratic_plus_reference_EM_j": 1989998.90538387,
+          "required_independent_source_j_over_2Ef": 0.28523993763585864,
+          "required_shared_invariant_q_j_over_r": -4.275534105672825,
+          "s": 0.9,
+          "static_hessian_eigen_max": 1.9000007432737835,
+          "static_hessian_eigen_min": 0.10000074327316955
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.0774908523962352,
+          "condition_number_mass_matrix": 198.9852842845239,
+          "no_independent_source_x": -3.3522348779284314,
+          "no_independent_source_y": -3.318712529149147,
+          "optimistic_budget_headroom_j": 9797920.361592377,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 202078.32919980327,
+          "quadratic_plus_reference_EM_j": 202079.63840762252,
+          "required_independent_source_j_over_2Ef": 0.08749085239623522,
+          "required_shared_invariant_q_j_over_r": -1.3114226796390411,
+          "s": 0.99,
+          "static_hessian_eigen_max": 1.9900007432737556,
+          "static_hessian_eigen_min": 0.010000743273197554
+        }
+      ]
+    },
+    {
+      "D_required": 1.000001486546953,
+      "box_m": 80.0,
+      "delta_loading": 1.4865469530889186e-06,
+      "ell_max": 5,
+      "gamma_deficit": 0.9992760015664254,
+      "h_m": 0.1,
+      "no_independent_source_tuned_condition_number": 5511.561165182167,
+      "no_independent_source_tuned_health_margin_1_minus_s2": 0.0007239984335746241,
+      "no_independent_source_tuned_s": 0.9996379352377667,
+      "r_loaded_observed_unconverged": 0.0007254849805277547,
+      "s_scan": [
+        {
+          "auxiliary_y_for_x_equals_one": 1.4275371450948935,
+          "condition_number_mass_matrix": 5.666655104672222,
+          "no_independent_source_x": 0.0014225154233172283,
+          "no_independent_source_y": 0.0009957607963220598,
+          "optimistic_budget_headroom_j": 2378378.941167119,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 7621619.749625062,
+          "quadratic_plus_reference_EM_j": 7621621.058832881,
+          "required_independent_source_j_over_2Ef": 0.7275371450948935,
+          "required_shared_invariant_q_j_over_r": 1002.8286796036026,
+          "s": 0.7,
+          "static_hessian_eigen_max": 1.700000743273871,
+          "static_hessian_eigen_min": 0.300000743273082
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.2490950019580316,
+          "condition_number_mass_matrix": 8.999970269188696,
+          "no_independent_source_x": 0.0020152277355475136,
+          "no_independent_source_y": 0.0016121821884380108,
+          "optimistic_budget_headroom_j": 5880954.770367507,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 4119043.9204246737,
+          "quadratic_plus_reference_EM_j": 4119045.229632493,
+          "required_independent_source_j_over_2Ef": 0.44909500195803154,
+          "required_shared_invariant_q_j_over_r": 619.0272907253532,
+          "s": 0.8,
+          "static_hessian_eigen_max": 1.8000007432738219,
+          "static_hessian_eigen_min": 0.20000074327313122
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.1103066684071392,
+          "condition_number_mass_matrix": 18.99986621183003,
+          "no_independent_source_x": 0.003818312128565759,
+          "no_independent_source_y": 0.0034364809157091834,
+          "optimistic_budget_headroom_j": 8282309.227753447,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 1717689.4630387328,
+          "quadratic_plus_reference_EM_j": 1717690.772246552,
+          "required_independent_source_j_over_2Ef": 0.21030666840713919,
+          "required_shared_invariant_q_j_over_r": 289.88424853971674,
+          "s": 0.9,
+          "static_hessian_eigen_max": 1.9000007432737835,
+          "static_hessian_eigen_min": 0.10000074327316955
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.009369698551945,
+          "condition_number_mass_matrix": 198.9852842845239,
+          "no_independent_source_x": 0.03645380855425723,
+          "no_independent_source_y": 0.03608927046871466,
+          "optimistic_budget_headroom_j": 9851303.097819908,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 148695.59297227216,
+          "quadratic_plus_reference_EM_j": 148696.90218009142,
+          "required_independent_source_j_over_2Ef": 0.019369698551944925,
+          "required_shared_invariant_q_j_over_r": 26.698965618632684,
+          "s": 0.99,
+          "static_hessian_eigen_max": 1.9900007432737556,
+          "static_hessian_eigen_min": 0.010000743273197554
+        }
+      ]
+    },
+    {
+      "D_required": 1.000001486546953,
+      "box_m": 80.0,
+      "delta_loading": 1.4865469530889186e-06,
+      "ell_max": 7,
+      "gamma_deficit": 1.0033063780993687,
+      "h_m": 0.1,
+      "no_independent_source_tuned_condition_number": null,
+      "no_independent_source_tuned_health_margin_1_minus_s2": null,
+      "no_independent_source_tuned_s": null,
+      "r_loaded_observed_unconverged": -0.0033048915524157276,
+      "s_scan": [
+        {
+          "auxiliary_y_for_x_equals_one": 1.4332948258562412,
+          "condition_number_mass_matrix": 5.666655104672222,
+          "no_independent_source_x": -0.006480160626181751,
+          "no_independent_source_y": -0.004536112438327225,
+          "optimistic_budget_headroom_j": 2316698.2441792665,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 7683300.446612914,
+          "quadratic_plus_reference_EM_j": 7683301.7558207335,
+          "required_independent_source_j_over_2Ef": 0.7332948258562413,
+          "required_shared_invariant_q_j_over_r": -221.88166063126508,
+          "s": 0.7,
+          "static_hessian_eigen_max": 1.700000743273871,
+          "static_hessian_eigen_min": 0.300000743273082
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.2541329726242108,
+          "condition_number_mass_matrix": 8.999970269188696,
+          "no_independent_source_x": -0.00918021640442501,
+          "no_independent_source_y": -0.00734417312354001,
+          "optimistic_budget_headroom_j": 5847584.906068177,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 4152413.7847240036,
+          "quadratic_plus_reference_EM_j": 4152415.093931823,
+          "required_independent_source_j_over_2Ef": 0.4541329726242107,
+          "required_shared_invariant_q_j_over_r": -137.41236752300082,
+          "s": 0.8,
+          "static_hessian_eigen_max": 1.8000007432738219,
+          "static_hessian_eigen_min": 0.20000074327313122
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.1147848645548541,
+          "condition_number_mass_matrix": 18.99986621183003,
+          "no_independent_source_x": -0.017394029975649823,
+          "no_independent_source_y": -0.01565462697808484,
+          "optimistic_budget_headroom_j": 8268349.17714098,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 1731649.5136512008,
+          "quadratic_plus_reference_EM_j": 1731650.82285902,
+          "required_independent_source_j_over_2Ef": 0.21478486455485413,
+          "required_shared_invariant_q_j_over_r": -64.98998867235326,
+          "s": 0.9,
+          "static_hessian_eigen_max": 1.9000007432737835,
+          "static_hessian_eigen_min": 0.10000074327316955
+        },
+        {
+          "auxiliary_y_for_x_equals_one": 1.0134407859589583,
+          "condition_number_mass_matrix": 198.9852842845239,
+          "no_independent_source_x": -0.16606254736894016,
+          "no_independent_source_y": -0.16440192189525077,
+          "optimistic_budget_headroom_j": 9850025.006174453,
+          "positive_static_modes": true,
+          "quadratic_energy_loaded_j": 149973.6846177288,
+          "quadratic_plus_reference_EM_j": 149974.99382554807,
+          "required_independent_source_j_over_2Ef": 0.023440785958958266,
+          "required_shared_invariant_q_j_over_r": -7.092754962511282,
+          "s": 0.99,
+          "static_hessian_eigen_max": 1.9900007432737556,
+          "static_hessian_eigen_min": 0.010000743273197554
+        }
+      ]
+    }
+  ],
+  "complete_operating_energy": "NOT_ESTABLISHED",
+  "controls_passed": 6,
+  "created_utc": "2026-11-22T19:58:37.357389+00:00",
+  "derivation": "(1+delta)x-s*y=r; y-s*x=j",
+  "experiment": "EPSILON1-01-SOURCE-RANK-AND-NEAR-CRITICAL-GATE",
+  "fixed_co_source_cannot_match_sign_mixed_parent_trials": true,
+  "full_regression": "NOT_RUN",
+  "independent_source_action": "NOT_SUPPLIED",
+  "model": "one-mode canonical quadratic two-scalar toy",
+  "parent_ephi_j": 7333333.333333331,
+  "parent_maxwell_continuum": "NOT_CONVERGED",
+  "parent_reference_em_j": 1.3092078192690724,
+  "parent_sha256": "2840555051406416bcf4bfc9a8bc17f736d61a97e623f5019aa8dcbe39e23f16",
+  "physical_source_provenance": "NOT_SUPPLIED",
+  "physical_survivors": 0,
+  "producer_sha256": "ed115ca4d81361bd9822b061bb2b12a9b064b264631942bea59e9fb22c7e1d67"
+}
+```
+
+### A.07 — EPSILON1-02 spectral and source symmetry
+
+- Mounted upload: `science(20261122-200551).json`
+- Source-byte SHA-256: `4dfcf4f998224046f9eaca2c4494c39f525b330fa938919f81eaa2be896e4ec0`
+- Uploaded sidecar: `science.json(20261122-200544).sha256` (MATCH).
+- Experiment identifier: `EPSILON1-02-COVARIANT-SOURCE-SYMMETRY-AND-SPECTRAL-MIXING-GATE`.
+- Physical survivor count: `0`.
+- Full regression in this run: `NOT_RUN`.
+- Companion verifier upload: `verification(20261122-200542).json`; SHA-256 `11e17c7747609848c69610b2701924ae1f514aac6f5e84ffd678716f6e8866f1`.
+
+```json
+{
+  "actual_mismatch_spectrum": "NOT_AVAILABLE",
+  "candidate_covariant_extension": "L=-1/2(df)^2-m_f^2*f^2/2-1/2(dchi)^2-m_chi^2*chi^2/2+nu^2*f*chi+g_chi*chi*(abs(Fplus)^2+abs(Fminus)^2)",
+  "canonicalized_mf_inverse_range_per_m": 1.0,
+  "cases": [
+    {
+      "any_aux_mass_modewise_cutoff_k_inverse_m": 1.0986414672780858,
+      "box_m": 64.0,
+      "ell_max": 5,
+      "equal_masses_modewise_cutoff_k_inverse_m": 0.6968514353867361,
+      "global_optimistic_quadratic_energy_threshold_s": 0.6731278308931126,
+      "h_m": 0.2,
+      "independent_drive_j_required_at_s_0p8": 0.5267872742624276,
+      "k_scan": [
+        {
+          "absolute_modewise_healthy_upper": 1.0,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 0.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 1.0
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.8944271909999159,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 0.5,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.6324555320336759
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.8
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.8677218312746247
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.8875203139603666
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.8933112489671068
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.8944160108696554
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.7071067811865475,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 1.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.31622776601683794
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.5
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.6324555320336759
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.6859943405700353
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.7035975447302919
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.7070714284989177
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.4472135954999579,
+          "cannot_reach_threshold_even_with_unbounded_mchi": true,
+          "k_inverse_m": 2.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.10846522890932808
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.2
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.31622776601683794
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.4
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.43852900965351466
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.44712417960473255
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.19611613513818404,
+          "cannot_reach_threshold_even_with_unbounded_mchi": true,
+          "k_inverse_m": 5.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.019514284806274117
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.038461538461538464
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.07283570407292297
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.12251277836633775
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.17541160386140583
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.19587144866094477
+            }
+          ]
+        }
+      ],
+      "unconverged_projection_r": -0.06142833286298907
+    },
+    {
+      "any_aux_mass_modewise_cutoff_k_inverse_m": 1.092924821660467,
+      "box_m": 80.0,
+      "ell_max": 5,
+      "equal_masses_modewise_cutoff_k_inverse_m": 0.693815041582218,
+      "global_optimistic_quadratic_energy_threshold_s": 0.6750465542144228,
+      "h_m": 0.2,
+      "independent_drive_j_required_at_s_0p8": 0.5333949298403409,
+      "k_scan": [
+        {
+          "absolute_modewise_healthy_upper": 1.0,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 0.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 1.0
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.8944271909999159,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 0.5,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.6324555320336759
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.8
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.8677218312746247
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.8875203139603666
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.8933112489671068
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.8944160108696554
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.7071067811865475,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 1.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.31622776601683794
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.5
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.6324555320336759
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.6859943405700353
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.7035975447302919
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.7070714284989177
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.4472135954999579,
+          "cannot_reach_threshold_even_with_unbounded_mchi": true,
+          "k_inverse_m": 2.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.10846522890932808
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.2
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.31622776601683794
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.4
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.43852900965351466
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.44712417960473255
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.19611613513818404,
+          "cannot_reach_threshold_even_with_unbounded_mchi": true,
+          "k_inverse_m": 5.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.019514284806274117
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.038461538461538464
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.07283570407292297
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.12251277836633775
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.17541160386140583
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.19587144866094477
+            }
+          ]
+        }
+      ],
+      "unconverged_projection_r": -0.0667144573253197
+    },
+    {
+      "any_aux_mass_modewise_cutoff_k_inverse_m": 1.1685935387530215,
+      "box_m": 80.0,
+      "ell_max": 5,
+      "equal_masses_modewise_cutoff_k_inverse_m": 0.7335218091045461,
+      "global_optimistic_quadratic_energy_threshold_s": 0.6501721272966505,
+      "h_m": 0.1,
+      "independent_drive_j_required_at_s_0p8": 0.44909500195803154,
+      "k_scan": [
+        {
+          "absolute_modewise_healthy_upper": 1.0,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 0.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 1.0
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.8944271909999159,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 0.5,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.6324555320336759
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.8
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.8677218312746247
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.8875203139603666
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.8933112489671068
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.8944160108696554
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.7071067811865475,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 1.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.31622776601683794
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.5
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.6324555320336759
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.6859943405700353
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.7035975447302919
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.7070714284989177
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.4472135954999579,
+          "cannot_reach_threshold_even_with_unbounded_mchi": true,
+          "k_inverse_m": 2.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.10846522890932808
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.2
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.31622776601683794
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.4
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.43852900965351466
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.44712417960473255
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.19611613513818404,
+          "cannot_reach_threshold_even_with_unbounded_mchi": true,
+          "k_inverse_m": 5.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.019514284806274117
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.038461538461538464
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.07283570407292297
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.12251277836633775
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.17541160386140583
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.19587144866094477
+            }
+          ]
+        }
+      ],
+      "unconverged_projection_r": 0.0007254849805277547
+    },
+    {
+      "any_aux_mass_modewise_cutoff_k_inverse_m": 1.163894746326914,
+      "box_m": 80.0,
+      "ell_max": 7,
+      "equal_masses_modewise_cutoff_k_inverse_m": 0.731086318036093,
+      "global_optimistic_quadratic_energy_threshold_s": 0.6516835051604459,
+      "h_m": 0.1,
+      "independent_drive_j_required_at_s_0p8": 0.4541329726242107,
+      "k_scan": [
+        {
+          "absolute_modewise_healthy_upper": 1.0,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 0.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 1.0
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 1.0
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.8944271909999159,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 0.5,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.6324555320336759
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.8
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.8677218312746247
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.8875203139603666
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.8933112489671068
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.8944160108696554
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.7071067811865475,
+          "cannot_reach_threshold_even_with_unbounded_mchi": false,
+          "k_inverse_m": 1.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.31622776601683794
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.5
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.6324555320336759
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.6859943405700353
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.7035975447302919
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": true,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.7070714284989177
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.4472135954999579,
+          "cannot_reach_threshold_even_with_unbounded_mchi": true,
+          "k_inverse_m": 2.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.10846522890932808
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.2
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.31622776601683794
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.4
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.43852900965351466
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.44712417960473255
+            }
+          ]
+        },
+        {
+          "absolute_modewise_healthy_upper": 0.19611613513818404,
+          "cannot_reach_threshold_even_with_unbounded_mchi": true,
+          "k_inverse_m": 5.0,
+          "mass_cases": [
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 0.5,
+              "modewise_mixing_strict_upper": 0.019514284806274117
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 1.0,
+              "modewise_mixing_strict_upper": 0.038461538461538464
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 2.0,
+              "modewise_mixing_strict_upper": 0.07283570407292297
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 4.0,
+              "modewise_mixing_strict_upper": 0.12251277836633775
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 10.0,
+              "modewise_mixing_strict_upper": 0.17541160386140583
+            },
+            {
+              "can_exceed_global_optimistic_threshold_in_this_mode": false,
+              "mchi_inverse_range_per_m": 100.0,
+              "modewise_mixing_strict_upper": 0.19587144866094477
+            }
+          ]
+        }
+      ],
+      "unconverged_projection_r": -0.0033048915524157276
+    }
+  ],
+  "controls": {
+    "cross_bilinear_noether_break": "PASS",
+    "opposite_gauge_phase": "PASS",
+    "parity_violation_density_source": "PASS",
+    "separate_phase_density": "PASS",
+    "spectral_upper_bounds": "PASS"
+  },
+  "created_utc": "2026-11-22T20:04:06.419276+00:00",
+  "exact_modewise_s_k": "abs(nu_squared)/sqrt((k^2+m_f^2)*(k^2+m_chi^2))",
+  "experiment": "EPSILON1-02-COVARIANT-SOURCE-SYMMETRY-AND-SPECTRAL-MIXING-GATE",
+  "full_action_including_original_X_Y_matter_metric_Earth_support": "NOT_DERIVED",
+  "full_regression": "NOT_RUN",
+  "gravitational_survivors": 0,
+  "healthy_quadratic_condition": "abs(nu_squared)<m_f*m_chi with positive kinetic terms",
+  "interpretation": "The EPSILON1-00 mixing threshold is GLOBAL. Modewise comparison is a CONDITIONAL screen, not a no-go without the actual Fourier spectrum.",
+  "parent_sha256": "adfa83e0171ba8102d82d275e4749ffa5ab951ab0b088686333055ebeb9ebd70",
+  "physical_source_survivors": 0,
+  "producer_sha256": "28305918d1a1b4be228119fc91e4cc93aea978f7afc4b1dd7cb34dfa6352a4af",
+  "source_charges_and_backreaction": "NOT_DERIVED",
+  "source_coupling_magnitude": "NOT_DERIVED",
+  "source_operators": [
+    {
+      "X_gauge": "PRESERVED_AT_OPERATOR_LEVEL",
+      "name": "charged_scalar_density",
+      "operator": "chi*(abs(Fplus)^2+abs(Fminus)^2)",
+      "parity": "VIOLATED_IF_CHI_PSEUDOSCALAR",
+      "physical_source": "CONDITIONAL_NEEDS_FULL_SOURCE_EOM_AND_COUPLING",
+      "separate_noether": "PRESERVED_AT_OPERATOR_LEVEL"
+    },
+    {
+      "fermion_number": "PRESERVED_AT_OPERATOR_LEVEL",
+      "name": "dirac_pseudoscalar",
+      "operator": "chi*(i*bar(Psi)*gamma5*Psi)",
+      "parity": "PRESERVED",
+      "physical_source": "CONDITIONAL_NEEDS_POLARIZED_SOURCE_AND_ENERGY"
+    },
+    {
+      "X_Y_gauge": "PRESERVED_AT_OPERATOR_LEVEL",
+      "independent_source": "NOT_ESTABLISHED_SHARED_EXISTING_CARRIER",
+      "name": "same_maxwell_pseudoscalar",
+      "operator": "chi*(F_X wedge F_Y)"
+    },
+    {
+      "X_gauge": "PRESERVED_FOR_OPPOSITE_X_CHARGES",
+      "name": "cross_bilinear_scalar",
+      "operator": "chi*Im(Fplus*Fminus)",
+      "separate_noether": "BROKEN_UNLESS_ADDITIONAL_SYMMETRY_COMPENSATORS"
+    }
+  ]
+}
+```
+
+## APPENDIX B — Independent verifier JSON snapshots
+
+### B.02: verification(20261122-191942).json
+
+`SHA256=a6ab7fd2aaf6af12be69ff0256354e23683115028e6e573f633caeffc7c1598b`
+
+```json
+{
+  "Einstein_earthcraft_force": "NOT_SOLVED",
+  "comparisons": {
+    "angular_truncation": {
+      "absolute_source_projection_change": 0.0005416434922620979,
+      "relative_energy_change": 0.2327931648684924,
+      "source_projection_a": 0.006455867113716512,
+      "source_projection_b": 0.0069975106059786095
+    },
+    "exterior_box": {
+      "absolute_source_projection_change": 0.006086656302710989,
+      "relative_energy_change": 0.16594227622891533,
+      "source_projection_a": 0.0069975106059786095,
+      "source_projection_b": 0.0009108543032676203
+    },
+    "radial_mesh": {
+      "absolute_source_projection_change": 0.18534842279782957,
+      "relative_energy_change": 0.5220244338771478,
+      "source_projection_a": 0.19180428991154608,
+      "source_projection_b": 0.006455867113716512
+    }
+  },
+  "constant_theta_negative_control": "PASS",
+  "experiment": "G01-U3A-INDEPENDENT-FOCUSED-VERIFICATION",
+  "full_local_scalar_eom": "NOT_SOLVED",
+  "full_repository_regression": "NOT_RUN",
+  "material_source_eom": "NOT_SOLVED",
+  "parent_locks": "PASS",
+  "physical_survivors": 0,
+  "producer_sha256": "a894b741012e8445f711b3ed4fde3a881c6f84391ee6221f479fdcd401a0f46a",
+  "science_sha256": "bd1c3226646f0e82ef14ab4826e00b1cbb9bdeedb9f05a4d9dbf7069151d8fd6",
+  "static_linear_residual_checks": "PASS",
+  "strong_coupling_numerical_verdict": "HOLD_STRONG_COUPLING_NONCONVERGENCE",
+  "zero_coupling_negative_control": "PASS"
+}
+```
+
+### B.03: verification(20261122-192824).json
+
+`SHA256=f90b774c9606c3dc42a37dbec75956cc76c31fdfa2cfc2b3a7418a1655ebb898`
+
+```json
+{
+  "Einstein_earthcraft": "NOT_SOLVED",
+  "comparisons": {
+    "angular_truncation": {
+      "absolute_source_projection_change": 0.004030376532943482,
+      "relative_energy_change": 0.1656114900403799,
+      "source_L2_difference_a": 1.8069558387420919,
+      "source_L2_difference_b": 2.8779657523848132
+    },
+    "exterior_64_vs_80m": {
+      "absolute_source_projection_change": 0.005286124462330635,
+      "relative_energy_change": 0.03715677229095895,
+      "source_L2_difference_a": 6.15601129858826,
+      "source_L2_difference_b": 6.488592077752863
+    },
+    "near_source_mesh": {
+      "absolute_source_projection_change": 0.06743994230584746,
+      "relative_energy_change": 0.08139961077519252,
+      "source_L2_difference_a": 6.488592077752863,
+      "source_L2_difference_b": 1.8069558387420919
+    }
+  },
+  "experiment": "G01-U3B-FOCUSED-INDEPENDENT-ARTIFACT-AUDIT",
+  "full_regression": "NOT_RUN",
+  "negative_controls": "PASS_RECORDED",
+  "numerical_verdict": "HOLD_NUMERICAL_NONCONVERGENCE",
+  "physical_survivors": 0,
+  "scalar_local_eom": "NOT_SOLVED",
+  "science_sha256": "44f14ce4ba14e46d3fd4816d9fad2395fd1fef133a35894e884ad8ace9335126",
+  "source_material_eom": "NOT_SOLVED",
+  "transparent_exterior": "NOT_CERTIFIED"
+}
+```
+
+### B.04: verification(20261122-194344).json
+
+`SHA256=2dd9cb9dbc4f26ae930e5294b8d337cb6ec81dd5d674968505d2b0ac15ef3a0e`
+
+```json
+{
+  "Einstein_whole_craft": "NOT_SOLVED",
+  "Maxwell_continuum_convergence": "NOT_CERTIFIED",
+  "fixed_scalar_stationarity": "FAIL_IN_RECORDED_U3B_TRIALS",
+  "full_regression": "NOT_RUN",
+  "full_scalar_EOM": "NOT_SOLVED",
+  "independent_baseline": "PASS",
+  "independent_torus": "PASS",
+  "physical_survivors": 0,
+  "science_sha256": "5e29b2d389fee45ff4a3098b29f1ac3c8bd436cb678d9c8df2c24535e14450f5",
+  "source_material_EOM": "NOT_SOLVED"
+}
+```
+
+### B.05: verification(20261122-195323).json
+
+`SHA256=804a205000cf37d8b214d926185032c03f59a18df818595ed4738e9930b6cf8c`
+
+```json
+{
+  "experiment": "EPSILON1-00-INDEPENDENT-CHECK",
+  "full_regression": "NOT_RUN",
+  "independent_math": "PASS",
+  "parent_sha256": "5e29b2d389fee45ff4a3098b29f1ac3c8bd436cb678d9c8df2c24535e14450f5",
+  "physical_survivors": 0,
+  "science_sha256": "2840555051406416bcf4bfc9a8bc17f736d61a97e623f5019aa8dcbe39e23f16"
+}
+```
+
+### B.06: verification(20261122-195906).json
+
+`SHA256=46616b3d30149ca644a5120bd3620cedb5e4f307cf97c13211ebd26e29bfb5d2`
+
+```json
+{
+  "algebraic_source_equations": "PASS",
+  "energy_reconstruction": "PASS_CONDITIONAL",
+  "experiment": "EPSILON1-01-INDEPENDENT-VERIFICATION",
+  "full_regression": "NOT_RUN",
+  "gravitational_earthcraft": "NOT_SOLVED",
+  "maxwell_continuum": "NOT_CONVERGED",
+  "parent_sha256": "2840555051406416bcf4bfc9a8bc17f736d61a97e623f5019aa8dcbe39e23f16",
+  "physical_source": "NOT_DERIVED",
+  "physical_survivors": 0,
+  "producer_sha256": "ed115ca4d81361bd9822b061bb2b12a9b064b264631942bea59e9fb22c7e1d67",
+  "science_sha256": "adfa83e0171ba8102d82d275e4749ffa5ab951ab0b088686333055ebeb9ebd70",
+  "static_eigenvalue_checks": "PASS"
+}
+```
+
+### B.07: verification(20261122-200542).json
+
+`SHA256=11e17c7747609848c69610b2701924ae1f514aac6f5e84ffd678716f6e8866f1`
+
+```json
+{
+  "experiment": "EPSILON1-02-INDEPENDENT-SPECTRAL-VERIFICATION",
+  "full_regression": "NOT_RUN",
+  "full_source_backreaction": "NOT_DERIVED",
+  "parent_sha256": "adfa83e0171ba8102d82d275e4749ffa5ab951ab0b088686333055ebeb9ebd70",
+  "physical_source": "NOT_DERIVED",
+  "physical_survivors": 0,
+  "producer_sha256": "28305918d1a1b4be228119fc91e4cc93aea978f7afc4b1dd7cb34dfa6352a4af",
+  "quadratic_energy_thresholds": "PASS_CONDITIONAL",
+  "science_sha256": "4dfcf4f998224046f9eaca2c4494c39f525b330fa938919f81eaa2be896e4ec0",
+  "source_operator_symmetry": "SCOPED_OPERATOR_LEVEL_ONLY",
+  "spectral_formulas": "PASS",
+  "whole_craft_gravity": "NOT_DERIVED"
+}
+```
+
+## APPENDIX C — Governing document fingerprints and update state
+
+This is a mounting-time manifest, not a commit history; it establishes the exact source versions considered in this handoff.
+
+- `README.md`: README remains an older November 18 science synopsis; bytes=108781; SHA256=`1cba4afb3f92986b1842c279e0c4a0e7d070848ce5d78e457c333170fb0a654d`.
+- `RESEARCH_BUILDPLAN.md`: Physical acceptance and archived prior research strategy; bytes=486632; SHA256=`95fea37c5b8dc57d028dcecf8ed61f61bd85561d419f87d31484c3ef31767808`.
+- `ARTIFICIAL_BUILDPLAN.MD`: November 20 DELTA-1 FAST active section; older GAMMA archived; bytes=107015; SHA256=`7a34966f3b6321af464709e349b00d6b43c3c973202ca856994b4bf07a27f0e7`.
+- `AGMINER_BUILDPLAN(20260915-014855).MD`: Historical AGMINER source and failure policy; bytes=60435; SHA256=`62de3a209204587f84cffb43111621892d1da4d94801fd92580e196dd5ab0657`.
+- `INTROSPECTIVE_BUILDPLAN(1).md`: Mechanism and tomography priorities; bytes=37681; SHA256=`246f8d0b18c67b5509f2f7e34553c6444d588cbc11aac50f0d4963ca2a26a9fc`.
+- `FORMATTING_AND_CODE_STANDARDS.md`: Original documentation/code standards; bytes=20263; SHA256=`788d4a47c5dfd53c95a100b5543fc67a5fad5262497f73624270c979fa7db145`.
+- `NOTES.md`: Earlier monolithic notes; later variant also provided; bytes=3349358; SHA256=`348e81f2e4b48335a043c71935a6592d91ff18b61daaa4125781d55752ce5090`.
+- `NOTES(20261122-180801).md`: More recent carryover notes through G01-U2; bytes=3805634; SHA256=`a038fff16159c47e68973a7e2949280412614f1ce78c4545d8d7744c8614257c`.
+- `README(20261122-180802).md`: Uploaded copy of README; bytes=108781; SHA256=`1cba4afb3f92986b1842c279e0c4a0e7d070848ce5d78e457c333170fb0a654d`.
+- `ARTIFICIAL_BUILDPLAN(20261122-180758).MD`: Uploaded variant of artificial plan; bytes=107015; SHA256=`7a34966f3b6321af464709e349b00d6b43c3c973202ca856994b4bf07a27f0e7`.
+- `gravity2buildplan(7).md`: GRAVITY2 action-miner buildplan; bytes=54879; SHA256=`ae7e120d10d7aea0412eeb6192ac848243bfb98941ee5b1b6c371528b2aa0d89`.
+- `ANTIGRAVITY_RESEARCH_JOURNAL_BUNDLE_20261120-123043.md`: Journals through November 20; bytes=2026102; SHA256=`c12bfb9bd8a23545f62f55634edee2a5ef434996a1ba37e9433a733f4ca86734`.
+- `ANTIGRAVITY_RESEARCH_CODEBUNDLE_20261120-122641.md`: Code-only-ish historical bundle November 20; bytes=15499952; SHA256=`93c03b51c50faa6459bd136e230c6fc675fff72a7185ac0ab0786d486dd304e4`.
+- `ANTIGRAVITY_RESEARCH_CODEBUNDLE_20261122-114050.md`: Codebundle provided during G01 continuation; bytes=16574887; SHA256=`866e5917af5667e4e575cfdeae9413c84eea0f7dd2696fc75943d35b367441d2`.
+
+No exact November 22 user-reported EPSILON producer is present in these older November 20/22-11:40 codebundles; use the current repository scripts with their stdout/JSON source SHA locks.
+
+## APPENDIX D — Original B17-M3 frozen finite-Earth producer (archival source extract)
+
+Extracted verbatim from the supplied November 20 codebundle; it is source code for a **prescribed finite-Earth reaction control**, not a true propulsion solver.
+
+```python
+"""B17-M3 finite Earth patch: frozen interaction and conditional recoil.
+
+The actual coupled Earth-loaded fields, source current and whole
+spacecraft momentum are not computed. Never promote a finite patch
+conditional force to a physical spacecraft lift claim.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import math
+from pathlib import Path
+
+from antigravity_research.agminer.hook17_r3b_exterior_transmission import (
+    normalized_r3b_fit,
+)
+
+from antigravity_research.agminer.hook17_r3b_earth_frozen_reaction import (
+    FiniteEarthCylinder,
+    conditional_force_pair,
+)
+
+BRANCH = "032H17A12D1R3X3B17-M3"
+
+
+def run(grid_m=0.05, craft_mass_kg=100.0, order=32):
+    if not math.isfinite(craft_mass_kg) or craft_mass_kg <= 0:
+        raise ValueError("Positive finite craft mass required")
+
+    fit = normalized_r3b_fit(grid_m)
+    rows = []
+
+    for clearance in (0.0, 1.0, 5.0):
+        # Original 2m sphere, with 1m gap from hull bottom.
+        source_center = clearance + 3.0
+
+        for radius, depth in (
+            (1.0, 0.25),
+            (2.0, 0.5),
+            (2.0, 1.0),
+            (4.0, 1.0),
+            (4.0, 2.0),
+        ):
+            patch = FiniteEarthCylinder(
+                radius_m=radius,
+                depth_m=depth,
+                density_kg_m3=2000.0,
+            )
+
+            result = conditional_force_pair(
+                fit,
+                patch,
+                source_center,
+                order=order,
+            )
+
+            rows.append({
+                "hull_clearance_m": clearance,
+                "source_center_above_surface_m": source_center,
+                "earth_patch_radius_m": radius,
+                "earth_patch_depth_m": depth,
+                **result,
+            })
+
+    return {
+        "branch": BRANCH,
+        "classification":
+            "FROZEN_EXTERNAL_FIELD_FINITE_EARTH_ACTION_REACTION_CONTROL",
+        "r3b_grid_m": grid_m,
+        "r3b_preloaded_field_energy_j": fit["preloaded_energy_j"],
+        "r3b_exterior_fit_relative_rms":
+            fit["fitted_exterior_rms"],
+        "craft_reference_mass_kg": craft_mass_kg,
+        "craft_reference_weight_n": craft_mass_kg*9.80665,
+        "finite_earth_region_results": rows,
+        "field_is_held_prescribed": True,
+        "dense_earth_loading_included": False,
+        "atmosphere_and_hull_loading_included": False,
+        "microscopic_onboard_source_derived": False,
+        "source_hardware_recoil_derived": False,
+        "field_and_gravity_momentum_complete": False,
+        "earth_full_halfspace_integrated": False,
+        "earth_reaction_certified": False,
+        "whole_craft_external_force_n": None,
+        "effective_weight_cancellation": None,
+        "field_only_lift": None,
+        "auxiliary_thrust_reduction_n": None,
+        "total_operating_energy_j": None,
+        "complete_energy_below_10mj_certified": False,
+        "006d_replaced": False,
+        "warning":
+            "Frozen reduced interaction potential only; no actual lift",
+    }
+
+
+def main():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--grid",
+        type=float,
+        choices=(0.075, 0.05, 0.04),
+        default=0.05,
+    )
+    parser.add_argument(
+        "--mass", type=float, default=100.0
+    )
+    parser.add_argument(
+        "--order", type=int, default=32
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=Path(
+            "results/data/"
+            "032h17a12d1r3x3b17_m3_finite_earth_frozen_reaction_summary.json"
+        ),
+    )
+
+    args = parser.parse_args()
+    result = run(args.grid, args.mass, args.order)
+
+    args.output.parent.mkdir(
+        parents=True, exist_ok=True
+    )
+
+    args.output.write_text(
+        json.dumps(result, indent=2, allow_nan=False) + "\n",
+        encoding="utf-8",
+    )
+
+    selected = next(
+        row
+        for row in result["finite_earth_region_results"]
+        if (
+            row["hull_clearance_m"] == 0
+            and row["earth_patch_radius_m"] == 2
+            and row["earth_patch_depth_m"] == 1
+        )
+    )
+
+    print(json.dumps({
+        "branch": BRANCH,
+        "grid_m": args.grid,
+        "preloaded_r3b_j":
+            result["r3b_preloaded_field_energy_j"],
+        "conditional_frozen_earth_down_n":
+            selected["earth_frozen_force_z_n"],
+        "conditional_frozen_source_anchor_up_n":
+            selected["source_anchor_frozen_force_z_n"],
+        "reduced_action_force_residual":
+            selected["pair_force_relative_residual"],
+        "independent_force_residual":
+            selected["volume_vs_energy_derivative_relative_residual"],
+        "whole_craft_force_n":
+            result["whole_craft_external_force_n"],
+        "gravity_cancellation":
+            result["effective_weight_cancellation"],
+        "field_only_lift": result["field_only_lift"],
+        "warning": result["warning"],
+    }, indent=2))
+
+
+if __name__ == "__main__":
+    main()
+```
+
+## APPENDIX E — Preserved November 20 DELTA-1 action/obstruction/build-policy extract
+
+This appendix is the *dated original source*, not the newly active R3B build plan. Its obsolete NEXT field remains historical. It is included to retain scientific assumptions and stop conditions.
+
+````markdown
+# ANTIGRAVITY_RESEARCH — ARTIFICIAL DISCOVERY BUILDPLAN
+
+**ACTIVE REVISION: NOVEMBER 20, 2026 — DELTA-1 FAST / R3B SOURCE–LOADING BRIDGE**  
+**Repository destination:** `ARTIFICIAL_BUILDPLAN.MD`  
+**Authority:** This complete active section supersedes every earlier `NEXT`, authorization, test-baseline, and session-handoff statement in the historical archive appended below. The earlier November 19 GAMMA plan is retained verbatim for traceability, not as a second active queue.  
+**Active discovery program:** `DELTA-1 FAST — CAUSAL OBSTRUCTION REMOVAL AND PHYSICAL SOURCE BRIDGE`  
+**Last executed and independently verified:** `DELTA1-02` on November 20, 2026, **3,304/3,304 full repository tests**, **10/10 focused**, independent verification PASS.  
+**Immediate next conditional micro-run:** `DELTA1-F0_R3B_INTERFACE_RESPONSE_AND_PHYSICAL_CONTROLLABILITY_GATE` — **NOT EXECUTED**. This is a newly specified next-session experiment; no code or result is claimed yet.  
+**Last accepted physical-source stationary checkpoint:** `PH16-04R2` (2,943 tests at its checkpoint); not a Lorentzian Einstein or real-vehicle model.  
+**Conservative GR reference:** `006D`, coefficient `C=23.591586299249`, unreplaced.  
+**Protected few-joule references:** R3B `1.5429162116460216 J`, A12C `2.6568591420597114 J`, B7 `1.5473042949759672 J` — **prescribed-field capacities, not sourced operating energies**.  
+**Qualified complete universal-metric gravitational bridges:** **ZERO**.  
+**Derived Earth-down / whole-spacecraft-up external gravitational force:** **NONE**.  
+**Certified complete device energy strictly `<10,000,000 J`:** **NONE**.  
+**Existing informal research-maturity figures:** GAMMA approximately 34%, overall physical research approximately 37%; planning heuristics only, neither probabilities nor completion measures. **Do not increase for DELTA test counts.**  
+**Research prioritization deadline:** Thursday, November 26, 2026; not an engine-delivery guarantee.
+
+> **DOCUMENT UPDATE BOUNDARY.** At this handoff, update **only** `ARTIFICIAL_BUILDPLAN.MD` and `NOTES.md`. Regenerate the *code-only* codebundle and journal bundle at the beginning of the next session. `RESEARCH_BUILDPLAN.md`, `AGMINER_BUILDPLAN.MD`, `INTROSPECTIVE_BUILDPLAN.md`, `FORMATTING_AND_CODE_STANDARDS.md`, README and historical journals are **not claimed updated**. The November 19 12:39 CST codebundle and 12:43 CST journal bundle predate the verified C1/N1/DELTA1-00/01/02 results. Do not confuse a new bundle with executed scientific evidence.
+
+---
+
+# PART A — THE SCIENTIFIC MISSION AND THE EXACT OBSTACLE
+
+## A1. Mission remains invariant
+
+Discover or rigorously falsify a **finite onboard, physically sourced, healthy universal-metric gravitational-repulsion mechanism** giving **at least 9.80665 m/s² outward acceleration at every material point of a finite, neutral 1 kg torus**, with a **minimum true clearance of 1 m** from all source/support material and required bounded surfaces. Independently derive **Earth down and the entire craft up**, including hull, sources, power supply, neutral payload, supports, field momentum and relevant external fluxes. Auxiliary thrust is allowed only if explicitly separated from the gravitational effect. Complete, non-double-counted conservative operating energy must be **strictly below 10 MJ**, including source preparation/rest mass where applicable, fields, matter loading, supports, confinement, backreaction, off-state, switching, losses, causal dynamics and empirical/quantum/UV obligations. Exactly 10 MJ fails.
+
+No candidate is a working engine simply because it has an outward test-field derivative, a small field energy, a static stationary solution, or an equal-and-opposite force in a prescribed-charge toy. A fifth force must be labeled a fifth force unless the universal physical metric and gravitational interpretation are derived. A local neutral-payload force is not net whole-craft force.
+
+## A2. Why previous research slowed down
+
+The root blocker is **model completion and physical controllability**, not test accuracy. We have many precise reductions and attractive prescribed fields; we lack one source-supported, stable, finite-exterior, common-action bridge from **real sources → fields/stress → universal physical metric → neutral torus and Earth/craft response** with a complete SI cost. Previous GAMMA runs made the incompleteness auditable but did not independently supply the missing degrees of freedom. DELTA1-00/01 tested a *different* scalar mechanism, while DELTA1-02 tested a simple R3B second-invariant intervention; no qualified survivor emerged.
+
+The R3B bottleneck is unusually sharp: the intact 1.5429162116460216 J prescribed mixed-field capacity is not a complete-source cost, and the historical 0.050 m loaded calculation changed the minimum acceleration from favorable preloaded outward behavior to **−129.67185782242464 m/s²** with field energy **1.5211390382733165 J**. Its measured peak dimensionless matter-loading coefficient is **18,987.283771593688** at the 1 keV reference portal scale. Do not confuse decreasing field energy with solving the response sign. Existing source-representability/strong-loading/interface failures remain open only if a *new physical assumption* changes their hypotheses.
+
+### The two constraints we must not mistake for a universal no-go
+
+1. **Single-invariant local reciprocity.** In a conformal metric `g_tilde = exp(2 sigma(P)) g`, the same first derivative `sigma_P` enters neutral geodesic acceleration and the matter-trace carrier variation. With a declared Jordan trace convention:
+
+```math
+\mathbf a_{\rm neutral}=-c^2\sigma_P\nabla P,\qquad
+\lambda=e^{4\sigma}T\sigma_P.
+```
+
+The exact transverse identity at fixed convention is:
+
+```math
+\nabla\lambda\times\nabla P
+=e^{4\sigma}\sigma_P\,\nabla T\times\nabla P.
+```
+
+This prohibits independently assigning the *first-order local* force and matter response while keeping identical fields and metric coupling. It **does not by itself rule out** changes in `sigma_PP`, full coupled susceptibility, source state, material dynamics, or genuinely new independent fields. Where `sigma_P` is fixed over a continuous interval of `P`, its derivative is constrained accordingly; claims about full nonlinear response still require the exact same-action calculation.
+
+2. **Second invariant near-collinearity on the sampled torus.** DELTA1-02 tested an actually Lorentz-invariant parity-even `F_Y^{\mu\nu}F^Y_{\mu\nu}` channel, not the noncovariant local `E²+B²` proposal discarded during installation. Its R3B payload-gradient independent fractions were **0.0015922114543637095** (`h=0.075 m`) and **0.0017631658867701** (`h=0.050 m`); cosine approximately 0.9999987/0.9999984. This closes simple coefficient-only promotion of that channel **in the tested prescribed geometry**. Importantly, the **matter-interface misalignment of approximately 0.629–0.634 measures `∇beta` relative to `∇P`, not `∇Q` relative to `∇P`**. It is not an interface-specific operator-rank result, nor a demonstration that the second operator can cancel the loaded field. A hypothetical enormous coefficient or new field shape is not a free rescue.
+
+**New strategic insight:** Before choosing another nonlinear coupling, measure the *loaded response operator and the physically realizable source/control subspace*. Only a new operator that changes those quantities can plausibly address the blocker. Repeatedly improving an unloaded acceleration plot or re-solving the same loaded equations is low information.
+
+## A3. Permanent evidence ledger — do not overwrite
+
+| Evidence | Verified checkpoint / result | Allowed conclusion | Missing / protected failure |
+|---|---|---|---|
+| `006D` | `C=23.591586299249` | Finite conserved positive-energy type-I linearized GR near-field outward witness, classical energy conditions scoped pass | Catastrophic ~`1/G` energy; no practical realization |
+| `018B/018C`, B7/026, 024–031, AGMINER | Historical closed, failed, and conditional mechanisms | Failure-memory and distinct physical assumptions | No unexplained reopening; preserve B7 nonconvergence and 026C needs |
+| A12C | `2.6568591420597114 J` | Prescribed F² capacity | Reciprocal material/source/metric loading unproved or failed in relevant sectors |
+| R3B | `1.5429162116460216 J` | Prescribed mixed-field capacity | Corrected R3X1 loaded 1 kg response fails; no source-supported device |
+| R3B loaded | `−129.67185782242464 m/s²`, `1.5211390382733165 J` at fine grid | Actual historical failure under declared strong-loading model | Not rerun or fixed by DELTA1-02 |
+| ALPHA-1 M5V | 50/50, 1,803 tests; −11.395675919/+11.397230073 J/m prescribed derivatives | Frozen artificial derivative witness | Not propulsion; preserve M5N 81.458% mismatch and SHA issue |
+| BETA1-04 | 43/43, 2,548 tests, exact toy force pair −0.1262097349021427/+0.12620973490214274 | Frozen 1D scalar toy reaction | Opposing scalar charges prescribed, not universal gravity |
+| PH16-04R2 | 2,943/2,943; Noether 400/400; three joint residuals `<1e−7` | Fully coupled **discrete stationary** F±/X/Y/fluid model at beta=40 | No Einstein/exterior/complete modes/joules/whole craft; weak seed 18/L12 failed |
+| GAMMA R0–R12 | R12 executed after older buildplan; R11 exact rank-two fixed-Noether Schur correction | Scoped operator/metric/Hodge/constraint findings | No unique complete covariant action |
+| GAMMA D0/C1/N1 | C1 3,255 tests; N1 3,266 tests | C1 scoped gravitational stress/energy and scalar-sign tests; N1 native Y variation reproduced | Native continuum/exterior open; N1 full-grid source boundary-sensitive |
+| DELTA1-00 | 3,280 full; 14 focused; independent PASS | Canonical long-range unscreened scalar–F² energetically obstructed under its PPN/target assumptions | Meter-range screened alternatives untested; no full craft |
+| DELTA1-01 | 3,294 full; 14 focused; independent BVP PASS | Exact ideal exponential `Z(phi)>0` radial shell; exterior energy `3.088036951980169e13/alpha² J` | Ideal massless shell/support omission; α>1757 for field-only `<10MJ` is not a viable coupling certificate |
+| **DELTA1-02** | **3,304 full; 10 focused; independent PASS** | Original R3B prescribed geometry, exact reciprocity, second-invariant rank | `NEAR_COLLINEAR_NO_SIMPLE_Q_PROMOTION`; R3B loaded failure remains |
+
+**Historical failure protections:** preserve 018B/018C, 022A, 026/B7, AGMINER source/support and projector health, R3A's `1.84e15` suppression, R3X1 sign correction, B6 interface-boundary artifact correction, B11–B13 failures, B14/B16 inward hotspot `−410.388913 m/s²` (nonconverged), B15 angle-only, B16 weak-loading, PH1–PH11, PH14 spherical `Y=0`, PH15-P7 winding instability, the initial PH16-04/R1 failures, R2 weak-seed failure, R4/R4R1 verifier erratum, R8 X error `~5.9614%`, R9 Y error `~20.8987%`, R11 fixed-Noether nonlocal rank-two correction, and N1 boundary/continuum concerns. Do not re-label a prior failed test PASS because a new run has more tests.
+
+**Authoritative recent SHAs:**
+
+- PH16-04R2 scientific JSON: `ff700285effc35841fbb8d0e20cffa3c8e4b812e6629b549785a2304b716b2b0`; source: `b5468671f6418fad7b6ed01d916ea65a95a1d59252b84d4411beed9709f86df0`.
+- GAMMA C1 scientific JSON: `ebd7ebef9cd26d70388c7d0d49ee85b7018654b29043678dbdf307ede3ed4111`; independent verification: `373335f857f8f720d4915917ebacf0a22255014bdbb375c19938ad2d3748dd1a`.
+- GAMMA N1 scientific JSON: `fb246ecf729d4c55382e9bb6589f469400849af1aab81b3612067799d1e066fc`; independent: `6bbe1e228fb7c98786335530d0eeeb5bf420835d423295df0416b0cc63190c73`.
+- DELTA1-00 scientific JSON: `5e4202f310b303fda04156905625c97e31bcdf15b4a29bfbdc4c3e18cfef1aed`; independent: `594a2aefdb0bfbb247db0b8173acf64462d57fe21e8600efefc30ef29f6bfb0f`.
+- DELTA1-01 scientific JSON: `f513d8e2f8e54db618dfcbfcd30ca2f2f35a8fd1de5440f005bd5dcd24bcb84f`; independent: `4fa6141959a2f349fb6310e202c2c3073a9d044eb32f5ffb1a7a2a019dbc0688`.
+- **DELTA1-02** scientific JSON: `3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3`; independent: `db7be8e1399e0bf04db1ca21f87fd0ed5c8e2807cfcb438c278fa817993c8ded`.
+- R3B original scientific-result SHA from DELTA1-02 parent manifest: `9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11`. R3B source SHA: `aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263`.
+
+Numbers are provenance anchors, not independent evidence that the new experimental hypotheses were executed. New session must compare producer files, exact JSON and sidecars; do not rely on this prose against raw evidence.
+
+---
+
+# PART B — DELTA-1 FAST: THE PHYSICS DISCOVERY ENGINE
+
+## B1. Optimize *decision information per wall-clock minute*, not test count
+
+Our next goal is to discover a *changed physical dependency* that can survive R3B's loading obstruction; if none exists under tested assumptions, record the no-go and move. Avoid broad inverse design, handpicked force targets, meaningless coupon parameter sweeps, and repeated Green-operator polishing. Optimize experiments for clear discrimination among:
+
+- **A:** an actual first-order source/response reciprocity restriction;
+- **B:** a second-order material/interface susceptibility or instability;
+- **C:** failure of real conserved source controllability;
+- **D:** a boundary/exterior artifact;
+- **E:** a healthy new degree of freedom/operator with independent, physically sourceable response;
+- **F:** a universal-metric / SI-energy / Earth-force impossibility at the target scale.
+
+If an experiment cannot tell apart at least two of these failure modes, it is not a high-priority experiment. A positive artificial witness must state which physics obligation it resolves. A negative result must name its assumptions and the physically meaningful escape condition.
+
+## B2. The five-layer failure-and-transfer chain
+
+Write each candidate as an explicit causal sequence, with every arrow labeled *derived*, *assumed*, *frozen*, *failed*, or *unknown*:
+
+```text
+FINITE ONBOARD MATTER/CHARGE/CURRENTS AND SUPPORTS
+    |  gauge Ward / Noether / stress conservation; physical cost
+    v
+ON-SHELL COUPLED X/Y/NEW FIELDS WITH REAL EXTERIOR
+    |  full material feedback + mode/constraint health
+    v
+STRESS / PHYSICAL UNIVERSAL METRIC / GRAVITY SOLUTION
+    |  proper neutral dynamics; no arbitrary Earth charge
+    v
+FINITE NEUTRAL 1 kg TORUS  >=1g EVERYWHERE AT >=1m CLEARANCE
+    |  Earth response + entire craft/worldtube momentum accounting
+    v
+EARTH DOWN / ENTIRE CRAFT UP + <10MJ COMPLETE SI LEDGER
+```
+
+The **weakest unclosed arrow** is the research target; do not push a later layer artificially if an earlier one is missing. A source-free exterior or real force cannot be inferred merely by editing an action label. PH16 static Routhian, R3B prescribed-field energy, BETA toy force and DELTA radial fifth-force bounds correspond to *different levels* and must not be stitched together without explicit identical-action derivation.
+
+## B3. Fast causal response/adjoint methodology — the core change
+
+For one declared action and finite-dimensional discretization, write its **actually solved** Euler residual and physical objective as:
+
+```math
+\mathcal E(z,p)=0,\qquad A(z,p)=\min_{x\in\mathrm{target}} a_{\rm out}(x),
+```
+
+where `z` includes every dynamical/gauge-constrained/source/material variable that is claimed on shell, while `p` contains only **physically realizable source/action parameters**. For a differentiable active-target constraint with well-defined gauge fixing and constraints, linearization gives:
+
+```math
+\mathcal E_z\,\delta z=-\mathcal E_p\,\delta p,
+\qquad\delta a=\bigl(a_p-a_z\mathcal E_z^{-1}\mathcal E_p\bigr)\delta p.
+```
+
+This is the **loaded controllability map**. It is not valid if `E_z` is singular from unresolved gauge modes, physical instability, absent source terms, or a frozen off-shell state; eliminate constraints and zero modes properly, or mark `NOT_DEFINED`.
+
+For several target cells, use an active-set Jacobian or vector-valued margin, not an unsupported derivative of the nonsmooth global minimum. An independent adjoint can solve:
+
+```math
+\mathcal E_z^T\,\lambda=a_z^T,\qquad
+\partial_p a=a_p-\lambda^T\mathcal E_p.
+```
+
+**Reconstruct the physical allowable perturbation subspace** using true gauge-current/Noether/continuity, source support, stability and material boundary conditions. Compare the projected source-to-acceleration range with the required all-torus outward margin. Do not inject any arbitrary field profile as a permissible `delta p`. Separate *mathematical controllability* from actual finite-cost material source construction.
+
+Use matrix-free Jacobian-vector products/adjoints if readily available, sparse local Schur blocks and stable preconditioners, rather than dense all-grid Hessians. Validate the sign with an independent finite difference on a tiny restricted model. Do not merely increase optimizer iterations to force a positive answer.
+
+### Two necessary acceptance metrics
+
+1. **Loaded response sign and margin:** effect on every previously failing or marginal torus cell under the same action; not just the torus center or field-only direction. Quantify interface traction, `beta`, carrier EOM residuals and actual source-response sensitivity.
+2. **Physically admissible response rank:** singular value/angle of **sourceable** new-operator response after constrained projection, with an uncertainty bound larger than the grid/exterior error. Rank at the payload is not automatically rank at the material interface. A direction is not usable if it requires nonconserved, unsupported or energetically forbidden source currents.
+
+Do not invent a success threshold based solely on a pleasing numerical percentage; pre-register the threshold based on observed numerical error, required acceleration margin, and physical feasibility. The previous DELTA1-02 `0.05` rank triage threshold was not a fundamental physical acceptance test.
+
+## B4. Invention/failure-inversion discipline
+
+Before coding each new physical hypothesis, write a short **Mechanism Card**:
+
+`operator/action | exact changed premise from named previous failure | new propagating/constrained DOF | microscopic source | continuous/Gauss/Ward | neutral physical metric | loaded interface response | Earth/whole-craft channel | constrained health | SI and empirical range | cheapest falsifier | predicted alternate outcomes | immutable parent`.
+
+At most **four cards** per rapid comparison, **two conditional research hypotheses** retained, **one expensive nonlinear solve** only for an independently justified candidate. These are comparison caps, not targets requiring that many candidates. A new branch number or coefficient is **not** new physics. Do not claim new physical operators preserve R3B's 1.542916 J energy unless re-derived under the same fully loaded Hamiltonian.
+
+Candidate categories to consider, conditional on a real new premise:
+
+- **R3B-M0 (negative control):** unchanged `sigma(P)`, fixed source support and carrier equations; check first-order Ward/reciprocity and historical failure without rerunning costly closed optimization.
+- **R3B-M1 (conditional):** a **new healthy, local dynamical material/interface sector** with its own EOM and source that changes the coupled susceptibility without arbitrarily suppressing the physical metric of neutral matter. Require real constitutive stresses, positive Hamiltonian, off-shell identities, and no hidden rigid anchor. A prescribed interface that merely screens reciprocal loading is *not* accepted.
+- **R3B-M2 (conditional):** a **distinct genuinely independent gauge/metric operator or mediator** whose constrained, loaded response direction survives physical-current projection **at the actual interface and target**, unlike the tested near-parallel `F_Y^2` geometry. Derive complete action, current, mode and SI cutoff, not merely a gradient fit. Do not assume a scalar sign, screening or opposite Earth charge.
+- **R3B-M3 (reserve):** alternative 006D-compatible gravitational stress sourcing or justified semiclassical/quantum operator only if genuinely new, with its own full stress/energy/UV rationale. Do not recycle the failed 006D energy scale or claim quantum negative-energy miracles.
+
+At minimum, always include controls: coupling off, source off, neutral matter trace off, interface made uniform, 1 keV physical loading restored, corrected R3X1 signs, R3B historical loaded inward response and, when relevant, R3B ideal perfect-mirror degeneracy and PH14 `Y=0` spherical null. Each diagnostic must remain meaningful under its stated source and boundary assumptions.
+
+## B5. Evidence labels — never collapse levels
+
+`EXACT_THEOREM`, `SCOPED_NO_GO`, `SOURCEABLE_LINEAR_WITNESS`, `CONDITIONAL_NEW_OPERATOR`, `COUPLED_STATIC_WITNESS`, `CONTINUUM_EXTERIOR_WITNESS`, `FULL_HEALTH_CANDIDATE`, `EARTH_CRAFT_FORCE_CANDIDATE`, `COMPLETE_COST_CANDIDATE`, `NUMERICAL_INCONCLUSIVE`, `UNDERDETERMINED`, `ARTIFICIAL_ONLY`.
+
+A theoretical candidate may be *conditional* but is **not** a qualified gravitational survivor until the actual source/metric/exterior/health/Earth-force obligations are independently passed. Do not rebrand a fifth force as demonstrated GR gravitational repulsion. Do not infer full spectrum stability from a frozen static Hessian or gauge positivity alone.
+
+---
+
+# PART C — FAST EXECUTION POLICY: MORE SCIENCE, FEWER 13-MINUTE WAIT CYCLES
+
+## C1. A four-stage cost-gated run ladder
+
+| Tier | Work | Target practical budget* | Verification required | Allowed outcome |
+|---|---|---:|---|---|
+| **F0** | Exact algebra; dimensional analysis; archive provenance; low-dimensional interface response and source inventory | ~30–90 seconds | Symbolic identity or independent algebra, cheap negative controls, source/parent lock | Decision to reject, refine, or admit next tier |
+| **F1** | Matrix-free JVP/adjoint, small constrained stencil/Green test; two alternative mechanism cases at most | ~2–5 minutes | Focused science tests + independent construction, residual and sign bounds | Conditional sourceability/health decision |
+| **F2** | One reduced nonlinear, fully reciprocal, finite-source solve (only for a survivor) | Explicit per-run bounded cap, typically minutes | Independent EOM, conservation, numerical/boundary checks, failure log | Scoped mathematical physical-model result |
+| **F3** | Full integration, continuum/exterior/modes and whole-craft physical verification | Only on earned promotion | Entire current regression + independent physics review | New physical checkpoint or failure |
+
+*These are **budget goals, not promised runtimes or evidence thresholds**. On a slow Mac, timeouts or factorization cost are valid `NUMERICAL_INCONCLUSIVE` results. Never silently relax numerical acceptance, skip unsuccessful trials, or change physics to meet a timer.
+
+**Old practice eliminated:** Mandatory 13-minute `pytest` full suite after every tiny analytic identity. The repository's **3,304 passing-test** baseline is preserved, but a full suite is required **once per accepted integrated code checkpoint, before publication/transfer, and at the final session closeout for any adopted code**. Any focused failure invalidates promotion immediately; a deferred full suite is clearly labeled `FULL_REGRESSION_PENDING`. Never report `3304+` as a completed current full regression if the suite did not run on the new code.
+
+**Fast local verification:** `python -m py_compile` or AST check; a handful of focused tests; independently recomputed mathematical identity or source effect; optional `pytest --collect-only` to confirm selection; short path-locked inputs. Cache deterministic expensive parent arrays by **exact producing-source + input + relevant dependency hash**; verify cache misses and source hashes once per run; never reuse stale artifacts across different actions, grids or normalization. Avoid re-generating the full 878-file codebundle for each micro-run. Use the fresh codebundle to understand history, then work from exact source files and small immutable parent archives.
+
+**Hot-path efficiency:** isolate solver from JSON/log hashing; use bounded sparse/matrix-free operators; factorize once if the operator is fixed; reuse Krylov preconditioners only when justified by the same operator; restrict expensive source tests to the smallest discriminating grid first. A second mesh is required **before claiming convergence/robust rank**, not before every cheap rejection. Use `time.perf_counter` and record stage timings; each run records a `time_budget_exceeded` outcome instead of abandoning the process without evidence. Concurrency must not corrupt caches or provenance; parallel work only when independent and memory-safe.
+
+**Reproducibility cannot be optimized away:** Every accepted scientific attempt, including scoped failure, has an immutable UTC JSON, SHA-256 sidecar, producer SHA record, parent hashes, timing, negative controls, exact action/assumption strings and explicit `NEXT=NO_AUTOMATIC_PROMOTION`. Cheap exploratory scratch work is not silently called an accepted run. Preserve each failure and source baseline, without overwriting immutable JSON/log/NPZ results. Avoid git commands in user-facing Bash; use complete separate macOS/zsh-compatible **APPLY** and **VERIFY** blocks only when code is requested. Do not send an encoded patch or multiple disconnected manual edits.
+
+## C2. Reuse instead of repeat
+
+- **Do not rerun:** R3B pure-field energy minimization, R3B unchanged strong-loaded inversion, R3B B11–B16 coefficient and angle searches, A12C <100 J polishing, ALPHA M5V inverse translation force, BETA toy Earth charges, PH14 sphere → `Y=0`, GAMMA R4–R9 static exterior matching, DELTA1-00/01 massless scalar shell, or DELTA1-02 near-collinear `F_Y^2` rank check as an independent discovery.
+- **Do reuse:** Original R3B and corrected R3X1 code as **negative controls and exact action data**, PH16 source/Noether Schur identities as conditional source architecture, GAMMA C1/N1 source/Hodge/continuum cautions, DELTA energy/empirical scalar obstructions, and AGMINER failure assumptions.
+- **Only reopen** a prior failure with a named changed fundamental assumption or new EOM, plus a pre-registered falsifier showing why the old obstruction does not apply.
+
+## C3. Research throughput dashboard — metrics that matter
+
+After each F0/F1 batch report: `[real mechanism cards analyzed]`, `[named obstructions decisively closed]`, `[new physical premise survived independent scrutiny]`, `[sourceability/health/energy/exterior force gates advanced]`, `[CPU and wall time]`, `[full suite pending or verified]`. Do **not** score progress by the number of Python tests, newly named branches, field-plot brightness, artificial percentage, or joules of an unsupported prescribed field. Subjective physical maturity stays below the earlier ~50% heuristic threshold until independent source-to-metric **and Earth/whole-craft external interaction** are derived.
+
+---
+
+# PART D — EXACT NEXT SESSION: DELTA1-F0 AND CONDITIONAL SUCCESSORS
+
+## D1. IMMEDIATE NEXT: `DELTA1-F0_R3B_INTERFACE_RESPONSE_AND_PHYSICAL_CONTROLLABILITY_GATE`
+
+**Status:** **NOT EXECUTED, PREAUTHORIZED ONLY FOR CHEAP F0 DISCOVERY**. No unconditional DELTA1-03 nonlinear continuation or full loaded source PDE is authorized. F0 is a different evidence question from DELTA1-02; it is not a relabel of the old rank test.
+
+**One decisive question:** Is the destructive R3B 1 kg loading predominantly forced by *first-order universal matter-current reciprocity*, by a *coupled second-order/material-interface susceptibility*, or by a *non-sourceable control direction*? Can any *genuinely new physical source/interface degree of freedom* address the diagnosed obstruction without changing the original target into a prescribed force?
+
+**F0 inputs (SHA-lock before science):** exact original `hook17_fdual_f_global_mirror_prefight.py` and original R3B summary; `hook17_f2_strong_payload_loading_rescue.py`, R3X1 corrections, historical R3B fully loaded failure/negative controls, latest DELTA1-02 JSON and independent verification; use original `h=.075m` first, `h=.050m` only if an F0 witness changes the decision. If the original loaded solution or same-action Jacobian is unavailable, report the exact missing array/operator and STOP rather than inventing an off-shell source or expensive reconstruction. Use actual source/field geometry and material interface rather than synthetic manufactured fields for the primary claim.
+
+### Pre-registered F0 operations — in this order
+
+**0. Immutable source/action inventory.** Reconstruct the original mixed-field metric `P`, source-current support and stored strong-loading results. Identify which variables were solved versus prescribed, and whether a full loaded Euler residual exists. Separate the metric's matter trace, interface `∇T`, field/source support and asymptotic boundary terms. If the action is incomplete, classify `ACTION_INCOMPLETE` and give the minimal missing variational term rather than marking a source derived.
+
+**1. Exact loaded-response identity.** Derive the first- and second-variation blocks with the correct R3X1 sign, including `sigma_P`, `sigma_PP`, material-trace response, gauge constraints, current conservation and surface/interface traction. For fixed Noether sectors, respect R11's rank-two Schur reduction wherever transferring PH16 formulas; do **not** apply PH16's Schur coefficient to R3B without a proven identical-action reduction. Identify the *specific* coupling term capable of changing the bad eigen-/response direction.
+
+**2. Loaded versus frozen diagnosis.** Compare the R3B historical inward-loaded response and source-support defects against an exact first-order `JVP` or analytic sensitivity **only if the necessary state/action is available**. Separate `delta source`, `delta carrier`, `delta matter`, `delta boundary`; no arbitrary current maps. Quantify the interface susceptibility and signs. If no correct Jacobian can be constructed, output `LOADED_RESPONSE_OPERATOR_UNAVAILABLE` with a precise next minimal action requirement.
+
+**3. Sourceable-control projection.** On the permitted source/current subspace, test whether a proposed new DOF/operator supplies a response direction outside the near-collinear geometry **after** preserving Ward/continuity, supports and locality. Record singular values or an adjoint lower bound with numerical error estimates. Test both the **material interface** and the **worst torus cells**; explicitly distinguish DELTA1-02's ~0.16–0.18% payload `P/Q` gradient rank from the 0.63 interface `beta/P` wedge. If no new action is proposed, this stage must say `NO_NEW_PHYSICAL_CONTROL_TO_TEST`, not claim that the old Q source works.
+
+**4. Cheapest necessary force/energy bound.** Independently state source off/on and Earth off/on physical force observables. If no universal Earth metric and whole-craft source are in the action, mark them `NOT_DERIVED`, not PASS. Produce an SI scale/budget test if the action fixes units; otherwise `ENERGY_UNDETERMINED`. Retain the R3B 1.542916 J field-only reference without inventing full joules.
+
+**5. Negatives and independent validation.** Recover perfect-mirror `P/Q` rank-1 control, R3B loaded negative acceleration, coupling-zero/trace-zero controls, constant matter-density interface suppression where applicable, source-current conservation, sign-reversed R3X1 bad control, and alternate finite differences on one small state. Record any lost residual/continuum accuracy. No 13-minute full regression if F0 only closes a scoped math obstruction and no new accepted integrated code is promoted.
+
+### F0 outcomes and stop rules
+
+| Outcome | Exact meaning | Next action |
+|---|---|---|
+| `F0_SOURCE_ACTION_UNDERDETERMINED` | Missing true on-shell source/current/material EOM or operator | Derive the missing single action term, no PDE |
+| `F0_RECIPROCITY_OBSTRUCTION_SCOPED` | Local response cannot be independently tuned under declared single invariant/source sector | Archive; require genuinely new DOF/action before reopening |
+| `F0_INTERFACE_SUSCEPTIBILITY_IDENTIFIED` | Specific action-derived second-order interface block explains the sign loss | Propose one physical interface/mode modification; health and SI gate first |
+| `F0_SOURCE_CONTROL_RANGE_OBSTRUCTION` | Desired correction lies outside genuine conserved, supported source range | Reject that source mechanism; do not optimize arbitrary currents |
+| `F0_NEW_CONTROL_DIRECTION_CONDITIONAL` | New action-specific direction survives sourceability/health/uncertainty filters | Only then authorize a bounded F1 physical-action test |
+| `F0_NUMERICAL_INCONCLUSIVE` | Missing convergence/ill-conditioning/budget overrun | Record error and narrowed remedial test, not scientific failure |
+
+**Automatic authorization after F0:** **NONE.** Review actual source, scientific JSON, independent verifier and substantive obstruction before authorizing another run.
+
+## D2. Conditional `DELTA1-F1` — exactly one action-level intervention
+
+If F0 isolates a possible new controllable degree of freedom, write a **fully explicit** spacetime action with real source (source plus passive neutral matter, supports, Earth and asymptotic boundary terms), SI dimensions and no double-counted original field energy. Derive X/Y/new-field and source/neutral Euler variations, Ward/Noether/Bianchi/diffeo identities, full constrained Lorentzian physical-mode check, weak-field neutral acceleration and real Earth/craft momentum ledger. A deliberately simplified local source model may be used to reject an operator quickly, but not to promote the full physical device.
+
+Test a single *necessary* low-order source/exterior witness with independent method; do not fit favorable `xi` or assume the old R3B current can freely rotate its field geometry. If the candidate changes the original response, recompute physical source and energy; never claim the original 1.542916 J capacity survives automatically. If the new DOF introduces a ghost, strong coupling below the needed gradients, unphysical source or unpermitted universal metric response, close the realization.
+
+## D3. Conditional `DELTA1-F2` — one jointly loaded finite-source solve
+
+Only if F1 passes can a small constrained PDE/exterior solve be considered: genuine conserved onboard source; X/Y/new fields; actual 1 kg neutral torus; material interface/support forces; physical metric; strict source-free 1m clearance; source-on/off and Earth-present/absent comparisons; bounded continuation with no resets or threshold relaxation; numerical negative controls and two independent discretizations for convergence. Include a source energy lower bound before expensive solve. A solution with positive payload acceleration but no entire-craft force remains a partial witness.
+
+## D4. Conditional `DELTA1-F3` — external gravity, full health and cost
+
+Only after an F2 candidate survives: complete Einstein/modified gravity constraints, Hodge/metric variations, all propagating/constraint modes, real finite exterior, Earth-support/hull/field worldtube momentum and force, causal on/off impulse and whole-cycle recovery (B11-M6), and complete conservative SI energy including off-state and empirical/quantum/UV. Independent reproduction is mandatory. The PH16-05 and PH17 physical certification paths remain **unauthorized** until independently sourced physical closure earns transfer.
+
+## D5. Older branches are evidence, not an active numerical queue
+
+GAMMA R0–R12/C1/N1, DELTA1-00/01/02, PH16-04R2, ALPHA/BETA, R3B/A12C and 006D remain available as control cases. Do not continue GAMMA1-01, DELTA1-03, PH16-05 or PH17 by branch numbering alone. Reopen only on a written exact new action and its falsifier. No automatic general scalar-shell continuation. Quantum/semiclassical avenues remain in reserve until a justified finite stress/mode/UV/source assumption exists.
+
+---
+
+# PART E — NON-NEGOTIABLE PHYSICAL ACCEPTANCE AND SCIENTIFIC HONESTY
+
+## E1. One-action obligation
+
+A fully promoted candidate must have **one common diffeo/gauge-invariant action** for Einstein or justified modified gravity, all X/Y/new carriers, finite conserved charged sources, neutral torus, Earth, supports/hull/power matter and boundary terms. Vary the action with respect to every degree of freedom actually claimed on shell, and state where a reservoir, boundary or external gravitational background enters. Derive currents and field stress, not prescribe favorable source values. Respect exact topological `F_X∧F_Y` bulk null at constant coefficient, its boundary currents, and `lambda=f(A_X0)` static induction null; N1 established a scoped discrete native source, not native continuum closure.
+
+Gauge Ward, charge conservation, Noether fixed-number, Bianchi and diffeomorphism identities must agree off shell under explicit signature/epsilon/Hodge and boundary conventions; eliminate constrained modes and verify a physically sensible characteristic/Hamiltonian sector rather than relying on frozen fields or positive static curvatures. Account for nonlocal fixed-charge Schur terms only when the action genuinely contains those constraints. Include empirical EP/fifth-force/PPN/gravity-wave constraints appropriate to range, and quantum/EFT cutoff/loops/naturalness. A ghost, unsupported source, exact null source, impossible boundary or validated energy lower bound ≥10 MJ is a scoped stop, not a cue for a new arbitrary force term.
+
+## E2. Exterior transmission and whole-craft test
+
+The actual finite onboard source must generate a field in an **exterior region free of source/support matter**, and the neutral torus must receive outward acceleration at every material point at 1m true stand-off. The **entire craft** includes the source, supports, batteries, fields, and payload. Earth is distinct external matter. Check common physical-metric response and full (possibly quasilocal) momentum/boundary flux with appropriate spacetime symmetries. Differential movements of onboard parts cannot generate self-propulsion. A favorable derivative of a prescribed artificial Earth coupling does not establish gravity. Do not assume equal-and-opposite force from a toy pair becomes a real Einstein worldtube force.
+
+## E3. Complete SI and operating-state ledger
+
+Track energy source formation/rest, field configuration, canonical normalization, carrier confinement, neutral loading, supports, battery work, switching and return/reset, off-state, backreaction, radiation, losses, UV/quantum, Earth interaction and work done on the environment. Make explicit whether a quantity is stored, borrowed, recoverable, dissipated or transported; avoid double-counting. The real energy ceiling is *strictly* `<10 MJ` for the complete operating requirement; exactly 10 MJ fails. If a single rigorously defined necessary positive cost already reaches 10 MJ, close that realization. If unknown, say `NOT_CERTIFIED`; a few-joule R3B/A12C field-only capacity is not a total cost.
+
+## E4. Claims and calibration
+
+- `PHYSICAL_LIFT_DEMONSTRATED=NO`; `WHOLE_CRAFT_FORCE_DERIVED=NO`; `COMPLETE_LT10MJ_CERTIFIED=NO`; `006D_REPLACED=NO` remain until independently established otherwise.
+- Existing 34% GAMMA and ~37% physical-research scores are **informal prior planning judgments**, not progress probabilities. A new analytic obstruction may *lower* the heuristic; additional tests do not raise it. The historical 50% criterion requires independently transferred source-to-metric **and whole-craft physical force**, not more tests.
+- Honest negative answers count as successful research prioritization, not as evidence that a near-term engine is achievable. There is no guarantee that any healthy low-energy antigravity model exists.
+
+---
+
+# PART F — NEXT SESSION, PRESERVATION AND HANDOFF
+
+## F1. Exactly what the next session receives
+
+1. Newly regenerated code-only codebundle, generated **after** all DELTA1-02 files and invariant correction. Keep the original scientific comments and simulations; exclude massive journal/docs/results dumps from the codebundle. Do not treat the November 19 12:39 CST bundle as current code.
+2. Newly regenerated combined journal bundle, recognizing that its individual journals were **not updated** in this documentation-only session. If no new dated journal exists, the newer compiled bundle is a new packaging artifact, not evidence of a new experiment.
+3. Updated `ARTIFICIAL_BUILDPLAN.MD` with this **front authoritative DELTA-1 FAST section**, its preserved prior GAMMA buildplan archive, and updated `NOTES.md` carry-forward. Other documentation remains unchanged until deliberately revised.
+4. The original DELTA1-02 scientific JSON, verification JSON, SHA-256 sidecars and focused/independent/full logs, and the exact R3B original capacity and loaded failure artifacts where available. Include source state as of run; immutable producer hashes must match.
+5. Original frozen ALPHA/BETA, PH16-04R2, 006D, historical AGMINER and R3X1/B6/B11–B16 failures as controls. No retry of closed mechanisms without a new physics premise.
+
+## F2. Paste-ready next-session introduction (three paragraphs)
+
+We are continuing **ANTIGRAVITY_RESEARCH** under the **November 20 DELTA-1 FAST revision of `ARTIFICIAL_BUILDPLAN.MD`**. This session updated **only the artificial buildplan and `NOTES.md`**; the new code-only and journal bundles are being regenerated for the next session, while `RESEARCH_BUILDPLAN.md`, `AGMINER_BUILDPLAN.MD`, `INTROSPECTIVE_BUILDPLAN.md`, `FORMATTING_AND_CODE_STANDARDS.md`, README, and existing dated journals were not updated. Reconstruct reality from current producing sources, immutable JSON/SHA/logs, the updated carry-forward notes, and preserved historical failures—not from stale `NEXT` statements in archived sections.
+
+**Last verified full-repository checkpoint is DELTA1-02: 3,304/3,304 tests, 10/10 focused, independent PASS.** Its R3B native-field response found near-collinearity of original mixed-invariant and new `F_Y²` gradients (independent fraction `0.0015922114543637095` / `0.0017631658867701` at 0.075/0.050 m), so no simple parity-even second-invariant promotion. The **1.5429162116460216 J R3B** prescribed capacity remains protected, but the historical loaded 1 kg fine-grid minimum `−129.67185782242464 m/s²` and strong material `beta≈18987.28` failure remain. Preserve A12C 2.656859 J, 006D `C=23.591586299249`, PH16-04R2 and frozen ALPHA/BETA/GAMMA/DELTA results. No independently qualified gravity bridge, whole-craft gravitational lift, or complete energy strictly below 10 MJ exists.
+
+**NEXT: `DELTA1-F0_R3B_INTERFACE_RESPONSE_AND_PHYSICAL_CONTROLLABILITY_GATE` — NOT YET RUN.** Start with exact native same-action source/material interface and loaded response/adjoint controllability, distinguish first-order universal-metric reciprocity from second-order susceptibility and real supported current range, and derive at most one genuinely new action-level physical escape before any nonlinear PDE. Use **fast focused and independent gates**, budgeted F0/F1 stages and immutable failed-result artifacts; **do not run a 13-minute full repository regression after each exploratory micro-test**. Run one fresh full regression before any accepted integrated model, physical promotion or session closeout with adopted code. Supply complete separate paste-ready Bash APPLY/VERIFY blocks when implementing the next experiment; never relax physics to meet the November 26 research decision deadline.
+
+## F3. Hard stop / final directive
+
+**Stop collecting beautiful prescribed-field configurations without solving the cause of reciprocal loading.** Find a new, healthy, physically sourceable degree of freedom whose *loaded, constrained* response has real independent leverage, or derive a scoped no-go and discontinue that family. Preserve R3B's 1.542916 J result as a field-capacity reference unless and until a genuine same-action physical realization changes its status. Only physical sources, modes, neutral/Earth universal response, exterior transmission, whole-craft force and complete energy can earn physical-model progress. A November 26 research decision is a priority, not a promise of a device.
+
+**END OF ACTIVE NOVEMBER 20, 2026 DELTA-1 FAST SECTION.** The earlier GAMMA-1 buildplan follows exclusively as a byte-preserved historical archive and is not the active execution queue.
+
+
+---
+````
+
+## APPENDIX F — GRAVITY2 original build-plan preservation (snapshot, not current next instruction)
+
+The following is the supplied GRAVITY2 build plan verbatim. It preserves the action/source-mapping program and intended cheap-run gate architecture. It does **not** automatically authorize new GRAVITY2 execution after the R3B Engine pivot.
+
+````markdown
+# ANTIGRAVITY_RESEARCH — GRAVITY2 BUILD PLAN
+
+## R3B-ACTIONMINER: Bounded, theorem-first Python source-to-gravity discovery engine
+
+**Proposed repository file:** `gravity2buildplan.md`  
+**Status:** DESIGN / IMPLEMENTATION PLAN — **NOT AN EXECUTED MINER OR A PHYSICAL RESULT**  
+**Prepared:** November 20, 2026 (America/Chicago)  
+**Program ID:** `GRAVITY2-R3B-ACTIONMINER`  
+**Primary candidate:** historical `032H17A12D1R3B`, preserved, **not presumed physically valid**  
+**Scientific authority:** `RESEARCH_BUILDPLAN.md` for physical strategy; current `ARTIFICIAL_BUILDPLAN.MD` for DELTA-1/F0 and action-bridge decisions; `AGMINER_BUILDPLAN.MD` for historical failures and mining methodology; `FORMATTING_AND_CODE_STANDARDS.md` for documentation and code; actual immutable source/JSON/SHA/logs outrank prose.  
+**Document relationship:** This is a new subsystem implementation plan. It does **not** overwrite or silently supersede the existing physical-research buildplans or historical results.
+
+> **Mission:** Build a restartable, local Python program that investigates a small, explicitly defined family of physically motivated **same-action completions** of R3B. Spend computation on deriving or falsifying the missing **real source → X/Y fields → universal physical metric → neutral payload → Earth/craft reaction** chain. Use fast theorem and sourceability gates before numerical solvers, limit wall time/memory/disk, preserve failures, and never convert a prescribed-field capacity into a device claim.
+
+---
+
+# 0. Immutable scientific baseline and truthful objective
+
+## 0.1 What is and is not established
+
+| Anchor | Preserve exactly | What it establishes | What it does **not** establish |
+|---|---|---|---|
+| `R3B` | `1.5429162116460216 J` | Original prescribed mixed-field **capacity** in its reference geometry | Physical current/source, stable loaded field, real Einstein response or complete operating energy |
+| `R3X1` / strong load | Fine-grid preloaded approximately `+9.80665 m/s²`, `1.537764 J`; **loaded `−129.67185782242464 m/s²`, `1.5211390382733165 J`** | A severe adverse reciprocal-loading result in the recorded strong-loading model | A converged no-go against every possible new source action |
+| `DELTA1-02` | `3,304/3,304` full regression, `10/10` focused at its checkpoint | One-invariant reciprocity; a simple extra $F_Y^2$ direction nearly collinear with the original payload gradient | An independent physical source or gravitational lift |
+| `006D` | $C=23.591586299249$ | Historical finite positive-energy, conserved linearized-GR locally outward field witness | A practical low-energy source; its energy scales catastrophically with $1/G$ |
+| `PH16-04R2` | `2,943/2,943` at checkpoint | Coupled finite-lattice canonical stationarity with source/field/fluid variables | Full Lorentzian dynamics, continuum Einstein gravity or spacecraft force |
+| `F0C` | Scoped trial, independent `25/25` | Underdetermined physically selected polarization mode / inconclusive continuum | A loaded gravitational survivor |
+| `F0D` | Exact quadratic negative trial; APPLY success | Specific natural-boundary quadratic off-state obstruction | Completed independent verification/full regression; universal R3B failure |
+| `F0E-R1` | `35/35` independent checks | Necessary surface/stiffness and conditional switching **trial** conditions | Microscopic source coefficients or complete stability |
+| `F0F` | `32/32` independent checks | Fixed-scalar topological four-form has zero **direct** Hilbert stress; conditional GR energy obstruction | The full R3B metric coupling is zero; a universal device no-go |
+| `F0G` | `41/41` independent checks | Isolated exterior Maxwell dipole-stress contribution has inward sign at $\ge1$ m clearance | Complete conserved Einstein source or Earth/craft lift |
+
+**Current physical maturity:** approximately **37% as a heuristic**, **not** probability or algorithmic score. Software construction and additional tests do not automatically increase it. **No complete physical gravity model, 50% milestone, demonstrated whole-craft lift or certified $<10\,\mathrm{MJ}$ engine exists.**
+
+**Evidence integrity:** `F0D`'s long full regression was interrupted; `F0E-R1`, `F0F` and `F0G` explicitly did **not** run the full suite. An independent focused PASS is not a full-regression PASS.
+
+## 0.1A Exact parent locks for initial implementation
+
+The following source/result SHA-256 strings come from the supplied repository codebundle, current buildplan or user-run console evidence. They are **expected locks**, not permission to fabricate an absent file. GRAVITY2 must inspect and hash the actual repository files at runtime; mismatch or missing evidence is an explicit stop.
+
+| Parent input | Expected SHA-256 | Initial use |
+|---|---|---|
+| `src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py` | `aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263` | Original R3B source/geometry/energy |
+| `src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py` | `e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7` | Original strong-loading source class and torus density |
+| `src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py` | `04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395` | Local reciprocity and rank comparator |
+| `DELTA1-02` scientific JSON | `3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3` | Prior scientific checkpoint |
+| `DELTA1-02` independent JSON | `db7be8e1399e0bf04db1ca21f87fd0ed5c8e2807cfcb438c278fa817993c8ded` | Prior verification |
+| `F0C` scientific JSON | `3c671e54a44a23bd12d2fe2451aed6388bb3c4f6da37408d7abe54c808540f7f` | Underdetermined source mode control |
+| `F0D` scientific JSON | `2db67eea46adf84327c14c0177c1863148893217a377ac67a1f3a39ec9cb6465` | Quadratic obstruction trial |
+| `F0E-R1` science / independent JSON | `bdc6d1b27befa108cc982d392e8bf265c17b96f814f54810d49b180d0dc834d4` / `63ca7c612bf5d39e6fa238c9a992b31500f3067e090e3cc43047ca7d87a8503e` | Conditional boundary and switching gates |
+| `F0F` science / independent JSON | `145f7db67b440cbd5e5f0c2023ccb1ac7ad9d2151b777f459e1c2fc3964c9e73` / `db52ae4365636ec72cb399fa380c13d5333d98db64aaa8d03e5c8e07e0376c50` | Topological metric and conditional SI bound |
+| `F0G` science / independent JSON | `c8e74278c73b4d74f43560f7dec275c8061ef3f83c33d52afe703a7360a91c1f` / `b2def664dae9363fffc4be1d9d6e145f94e6d6ec9b793d0f24d4e39a33cbd566` | Exterior-dipole stress negative control |
+
+`F0C`–`F0G` live under separate `results/data/delta1_f0.../` run directories on the user's Mac, **not** necessarily inside the older codebundle. The November 20 12:27 CST codebundle predates the evening F0 runs; never infer that their absence from that bundle means they were not executed. The user's F0D independent/full-suite closeout was interrupted and must remain explicitly incomplete.
+
+## 0.2 Frozen target
+
+- Onboard, finite **physical** source, including actual currents, confinement, supports, hull and power system.
+- Universal gravitational/metric response of an **electrically neutral 1 kg finite torus**.
+- **At least $9.80665\,\mathrm{m/s^2}$ outward at every material point** of that torus, not merely one sample or its center.
+- **At least 1 m true separation** from the entire source/support material and relevant bounding surfaces; independently track field stress that may extend across the gap.
+- Independently derive **Earth down, the entire craft up** including source/hull/support/power/payload/field momenta and external flux. An internal neutral-payload force does not qualify.
+- Complete, non-double-counted operating energy **strictly below $10,000,000\,\mathrm{J}$**; equality fails. Distinguish operating energy, total gravitating rest energy and prescribed-field capacity.
+- Gauge/Ward/Noether/Bianchi identities; real-source conservation and finite support; constrained mode health; continuum/exterior convergence; SI, empirical, quantum/UV and causal consistency.
+
+## 0.3 Success definition for GRAVITY2 itself
+
+**Software success is different from physics success.** A successful *first version* of the miner can independently reconstruct the parent evidence, enumerate a *small* admissible source-action library, derive candidate-specific equations and stop at the earliest decisive obstruction, all within a user-chosen resource budget. **Zero survivors with reproducible explanations is a valid software/scientific outcome.**
+
+A **physical survivor** cannot be reported merely because a candidate passes symbolic syntax, Gaussian constraints, source-current conservation, a frozen inverse field or a selected force-sign sample. It needs an independently varied common action and subsequently the missing physical closures. The program cannot promise discovery of physics not present in its explicitly represented candidate class.
+
+---
+
+# 1. Strategy: solve R3B blocker #1, not repeat a broad AGMINER
+
+## 1.1 Core research question
+
+> Does any **physically motivated, finite and stable** microscopic source/support completion, with one well-defined covariant action, generate the original useful R3B field/metric response **after full reciprocal neutral-matter loading**, while preserving a healthy universal physical metric and offering a viable exterior Earth/craft interaction?
+
+This is a *constrained source-completion/existence* search, not energy minimization or general gravity-theory enumeration.
+
+## 1.2 Freeze-and-vary contract
+
+**Freeze as exact provenance, not as guaranteed on-shell fields:**
+
+- R3B original producing source, reference capacity, fitted source geometry, multipole normalization, $P=-4\mathbf E\cdot\mathbf B$ in the documented sign convention, source radius and torus geometry.
+- Reference $1\,\mathrm{keV}$ metric scale, when comparing to the original model, and the historical preloaded-versus-loaded failure.
+- Corrected Lorentzian signs and source/interface negative controls from R3X1, B6 and B11–B16.
+- DELTA1-02 local reciprocity and near-collinear $F_Y^2$ counterexample.
+- 006D GR stress-energy reference and PH16-04R2 as a **different** conditional source/Noether architecture.
+
+**Allow physically justified variation only in:**
+
+- Source field content and its microscopic action; conserved source currents and support constraints.
+- Realizable source boundary conditions and material interface/response.
+- Additional dynamical mediator **only if** it breaks a named obstruction and passes its own health/empirical tests.
+- Physically derived source geometry and material state, when permitted by the action; do not silently retune the payload target.
+
+A change in the physical portal/operator or frame is a **new action family**. Tag it explicitly; it is not a same-kernel R3B rescue by default.
+
+## 1.3 Evidence precedence
+
+1. Immutable original Python/source, actual numerical JSON, independent verifier, SHA-256 and execution log.
+2. Journal entries with source/results.
+3. Current active physical and artificial buildplans.
+4. `NOTES.md`, README and secondary prose.
+
+When evidence conflicts: **halt and label `PARENT_CONFLICT`** until reconciled; never silently pick the more favorable number.
+
+## 1.4 Hard avoid-repeat policy
+
+- No broad random Wilson-coefficient sweep or 100,000-configuration field geometry search.
+- No sub-100-J field-energy polishing of R3B/A12C.
+- No repetition of the unchanged R3B loaded inversion, B15 angle-only routes, B16 weak-loading, R3A ordinary-material suppression, or near-collinear $F_Y^2$ coefficient sweep.
+- No relabeling ALPHA inverse design or BETA prescribed scalar charge pairs as source physics.
+- No F0D/F0E polarization-model assumption automatically imported into the original R3B action.
+- No reuse of PH16's fixed-Noether Schur term without deriving the **same constraints** for the actual candidate.
+- Every reopen proposal must record **the exact historical hypothesis it changes** and a cheap falsifier that distinguishes the new action from that failed hypothesis.
+
+---
+
+# 2. Scope of the automated search
+
+## 2.1 Candidate = one action-completion card
+
+Each card is an explicit versioned record with:
+
+1. Exact covariant action terms, signs, dimensions, assumptions and bibliographic/derivation provenance where known.
+2. Fields and dynamical versus fixed variables (including physical versus Einstein metric).
+3. Symmetries and conserved charges; whether anomalies or boundary current inflow are relevant.
+4. Source matter constituents, microscopic couplings, physical current $J_X,J_Y$, finite boundary, support action and stress.
+5. Neutral material and Earth matter actions with **the same universal physical metric**.
+6. Canonical energy, rest mass, formation, off-state and switching obligations, with known versus unknown SI entries.
+7. Declared relation to R3B $P$, $\sigma(P)$ and corrected loading operator.
+8. Previous failure potentially escaped, and its **specific new physical term**.
+9. Complete gate verdicts, independent-verifier IDs, source fingerprints and unresolved derivations.
+
+**Deduplicate by canonicalized full action/assumption fingerprint**, not by a parameter value or filename. The fingerprint covers operator AST, field redefinitions, metric convention, boundary, source species and conserved-number sector, sign/unit normalization, and source/matter profile. Different physical assumptions must not hash as identical; equivalent coordinate relabelings must not be treated as new physics.
+
+## 2.2 Initial library: at most two nontrivial candidate families
+
+Do not seed 35 unrelated candidates. The initial registry contains:
+
+| ID | Candidate | Why it exists | Preliminary status |
+|---|---|---|---|
+| `R3B-NULL` | Original prescribed currents and fields, **not** a physical completion | Reproduce published R3B preloaded/loaded mismatch and prove nonphysical fields are rejected | Required **negative control**, never survivor |
+| `R3B-SRC-A` | One finite, explicitly charged matter source (complex scalar/charged fluid *or* Dirac matter) plus actual support fields | Test whether an **action-derived** compact conserved current can realize the R3B exterior without fictitious current knobs | Candidate only after exact action chosen |
+| `R3B-SRC-B` | One **genuinely distinct** dynamical polarization/magnetization/condensate source with physically derived boundary | Test a new source response/control direction, with previous Pauli/source-basis failures respected | Conditional; no default promotion |
+
+These labels are **templates to be instantiated** with real couplings and defensible equations, not claims that such matter is viable. If existing AGMINER failure memory already excludes a given instantiation under the same premises, generate a one-row `HISTORICAL_NO_GO` and do not rerun it. If none is scientifically justified, output `NO_JUSTIFIED_CANDIDATE_ACTION` rather than filling slots with synthetic models.
+
+**No arbitrary new metric operator by default.** A new operator is a separate, explicitly authorized action fork only if it is covariant, changes an independently meaningful response direction and has a concrete physical motivation. Quantum/semiclassical branches remain reserved for a justified, calculable hypothesis.
+
+## 2.3 Necessary representation, not an assumed solution
+
+A candidate's declared action has the schematic form
+
+```math
+S=S_{\rm EH}[g]+S_{X,Y}[g,A_X,A_Y]
++S_{\rm source}[g,A_X,A_Y,\Psi,\Xi]
++S_{\rm neutral}[\widetilde g,\psi_m]
++S_{\rm Earth}[\widetilde g,\psi_E]+S_{\rm boundaries}
+```
+
+For the original conformal mechanism:
+
+```math
+\widetilde g_{\mu\nu}=e^{2\sigma(P)}g_{\mu\nu}
+```
+
+The precise $P$ must be constructed from **covariant field tensors and the correct Hodge dual**, with the original normalization and metric dependence—not entered as an arbitrary external scalar. Recover $P=-4\mathbf E\cdot\mathbf B$ in the declared local frame/sign convention. The Einstein–Hilbert term must carry the proper SI normalization and boundary prescription. Source and support sectors must be actual variables with equations, not prescribed numerical currents.
+
+**Key F0F distinction:** $\theta F_X\wedge F_Y$ has zero *direct* Hilbert stress at fixed metric-independent $\theta$, but a physical $\theta(P)$, $P$ involving a Hodge dual, metric-dependent matter, and the other carrier/source/support terms require their **full chain-rule metric variations**. The miner must not infer that R3B's complete gravitational response is identically zero from F0F's scoped result.
+
+**Action first, force second:** a candidate cannot supply Earth forces, a sign-adjusted material coupling, or a new source-current profile as independently prescribed inputs to a force optimizer.
+
+---
+
+# 3. Scientific gate architecture — earliest decisive failure wins
+
+A worker runs a **fixed, ordered gate DAG**, preserving every resolved gate and leaving unrun gates `NOT_RUN`. A software error is never a scientific falsification.
+
+| Gate | Scientific task | Minimum acceptance evidence | Early-exit classification |
+|---|---|---|---|
+| `G00_PARENT` | Lock exact R3B, R3X1 and DELTA parents and unit/sign conventions | Producing-code and JSON SHA, historical negative control | `PARENT_MISSING`, `PARENT_DRIFT`, `PARENT_CONFLICT` |
+| `G01_ACTION` | Parse one **fully specified** local covariant action, source/interface/boundaries, dynamical variables | Canonical typed action AST, physical metric and complete variation inventory | `ACTION_INCOMPLETE`, `NO_COVARIANT_COMPLETION` |
+| `G02_VARIATION` | Derive Einstein/physical-metric, X, Y, source, support, neutral and Earth EOM | Exact symbolic/hand-verified variational identities with metric/Hodge chain rule | `METRIC_VARIATION_MISSING`, `EOM_INCOMPLETE` |
+| `G03_WARD` | Check gauge, Ward, Noether, Bianchi, diffeo and charge-flux identities | Off-shell identities plus on-shell boundary/current conservation | `WARD_FAIL`, `NONCONSERVED_SOURCE` |
+| `G04_HEALTH` | Canonical sign/kinetic constraints and genuine physical modes | Constrained propagating-mode and static-sector checks; no ghost by gauge counting alone | `GHOST`, `GRADIENT_INSTABILITY`, `UNRESOLVED_CONSTRAINTS` |
+| `G05_SOURCE` | Finite source realizability, current range, interface traction and supports | Action-derived $J$, finite support, no hidden external anchor/charge | `SOURCE_NOT_REALIZABLE`, `SUPPORT_MISSING` |
+| `G06_LOAD` | **Exact reciprocal** loading of finite neutral torus | Same-action Hessian/JVP and independently verified R3X1 negative control | `LOADING_SIGN_FAIL`, `LOADED_OPERATOR_MISSING`, `SUSCEPTIBILITY_UNRESOLVED` |
+| `G07_METRIC` | Physical metric, sign, frame/coordinate invariant and linearized Einstein stress | Neutral geodesic/metric acceleration; full source/support stress at tested order | `NO_METRIC_REPULSION`, `FIFTH_FORCE_ONLY`, `METRIC_UNDERDETERMINED` |
+| `G08_ENERGY` | Conservative SI lower bound and complete energy ledger | Canonically normalized, source/support and rest-energy accounting | `ENERGY_FLOOR_GE_10MJ`, `ENERGY_UNDETERMINED` |
+| `G09_EXTERIOR` | Real exterior transmission and source/field support | True 1m material clearance, field-stress map, continuum/box/BC consistency | `NO_EXTERIOR`, `NUMERICAL_INCONCLUSIVE` |
+| `G10_REACTION` | Earth-down and complete-craft-up with field flux | Derived force/energy-momentum accounting from identical action | `ONLY_INTERNAL_FORCES`, `EARTH_CRAFT_NOT_DERIVED` |
+| `G11_REALISM` | Quantum/UV, naturalness, fifth force, EP, laboratory/astrophysical constraints | Independently supported EFT/regime and observational bound ledger | `UV_OR_EMPIRICAL_FAIL`, `EMPIRICAL_OPEN` |
+
+**Computational ordering is flexible only when scientifically justified.** Cheap fatal energy or empirical bounds may run before an expensive source/field solve. Expensive gates never run merely because earlier checks returned `UNDERDETERMINED`.
+
+## 3.1 Exact invariants that must be independently derived
+
+For the declared Jordan/universal metric, check the original local relation (with explicit trace convention)
+
+```math
+\mathbf a_{\rm neutral}=-c^2\sigma_P\boldsymbol\nabla P
+```
+
+and the reciprocal matter-loading multiplier
+
+```math
+\lambda=e^{4\sigma}T\sigma_P
+```
+
+with transverse identity
+
+```math
+\boldsymbol\nabla\lambda\times\boldsymbol\nabla P
+=e^{4\sigma}\sigma_P\boldsymbol\nabla T\times\boldsymbol\nabla P
+```
+
+These are **scoped original single-invariant formulas**. Their sign/trace conventions must be checked against actual action variations; never assume they are unchanged with an extra mediator or operator.
+
+The action compiler must also generate a proof obligation for:
+
+- $\delta S/\delta g_{\mu\nu}$, including Hodge dual and physical metric dependence; Jordan–Einstein frame bookkeeping.
+- $\delta S/\delta A_X$, $\delta S/\delta A_Y$ with the correct R3X1 Lorentzian signs.
+- $\delta S/\delta\Psi$, $\delta S/\delta\Xi$ for all source and support variables, with boundary traction.
+- Both U(1) Ward identities, Gauss constraints and gauge null spaces; source-charge continuity.
+- Diffeomorphism identity and **total** stress-energy conservation, not merely exterior $T_{\rm EM}$.
+- Einstein Bianchi identity $\nabla_\mu G^{\mu\nu}=0$ consistent with the derived total source.
+- Correct constrained canonical Hessian, eliminating gauge and fixed-charge directions only with justified constraints.
+- Off/on initial and final material states, and source-support response to the moving neutral payload.
+
+**No proof by a preprinted formula.** When symbolic general-relativistic expressions are intractable, produce a documented derivation obligation, a reduced symbolic test and an independent finite-difference variation. Output `UNDERDETERMINED`, not fabricated closed-form Einstein EOM.
+
+## 3.2 Sourceability is the core discriminator
+
+The miner asks whether the **action-derived source current** can create the R3B fields:
+
+```math
+\frac{\delta S}{\delta A_X}=0,
+\qquad
+\frac{\delta S}{\delta A_Y}=0
+```
+
+subject to matter equations, finite support, conserved charge and support stress. In a linearized candidate, form a permitted source-to-field map and a **constraint-projected** response subspace. Report singular values and uncertainty rather than declaring an arbitrary inverse current physically realizable. Demand the source work/energy implied by those currents. If a current basis has the same physical premises as a historical failed basis, use the stored no-go.
+
+**When the true loaded Jacobian is absent, STOP:** report exactly which state, derivative, boundary or EOM is missing. Do not manufacture it from fitted preloaded arrays.
+
+## 3.3 Negative controls that must run automatically
+
+- Frozen original R3B preloaded favorable response versus the corrected historical loaded **$-129.67185782242464\,\mathrm{m/s^2}$** result; retain both energies and configurations separately.
+- Incorrect sign-flipped R3X1 block rejected; correct canonical signs pass.
+- Source prescribed externally rather than obtained by variation **rejected**.
+- Matter trace/loading off, constant $T$ interface and vanishing $P$ cases where mathematically applicable.
+- Pure constant-$\theta$ topological term has zero bulk current; variable-$\theta$ may source bulk field equations but fixed-scalar direct Hilbert stress remains zero.
+- Perfect mirror $P/Q$ rank-one degeneracy and DELTA1-02's 0.16–0.18% independent-direction witness; no coefficient-only rescue.
+- F0D uniform unstable quadratic trial and F0E hypothetical boundaries/saturation labeled **separate trial action**, not automatically physical R3B.
+- F0G exterior-only Maxwell result rejected as a **complete conserved Einstein source** even when its restricted field integral checks pass.
+- Arbitrary prescribed Earth charge, an internal reaction pair and a manually selected net lift **rejected**.
+- Positive-mass Newtonian attraction is a force-sign negative control; coordinate relabeling cannot create gravitational repulsion.
+- Dimension, SI normalization, ghost sign, gauge breaking, continuum-resolution and disconnected-source controls.
+
+---
+
+# 4. Two independent axes: scientific fidelity and resource budget
+
+**Important:** A runtime preset must not silently authorize a higher scientific fidelity level. The user selects both. `--level` chooses **what physics gates may execute**; `--minutes`/resource options determine **when to stop**. If the budget expires, save `TIME_BUDGET_EXCEEDED` with unfinished gates and no implied scientific failure.
+
+## 4.1 Scientific levels
+
+| Level | Permitted work | Excluded work | Promotion |
+|---|---|---|---|
+| `L0 INVENTORY` | Evidence lock, historical failure lookup, action AST and units, fast exact algebra/no-go | Mesh solves, nonlinear state search | Candidate completeness/obstruction only |
+| `L1 ACTION` | Exact or reduced symbolic variations, Ward/Noether/Bianchi tests, independent FD identities, cheap energy bounds | New multi-dimensional PDE | Candidate *theoretical* necessary-gate verdict |
+| `L2 RESPONSE` | Restricted finite-source/current-map JVP, gauge-projector, small sparse linear solve, R3B loaded-sensitivity diagnostic | Full-scale PDE, high-res continuum and full repo regression | Conditional source/response evidence, **not** full survivor |
+| `L3 STATIONARY` | At most **one** justified nonlinear source+X/Y+neutral stationary solve, coarse-to-fine if earned | Arbitrary batch PDE, Lorentzian-stability/whole-craft claims by inference | Scoped mathematical stationary candidate |
+| `L4 INTEGRATION` | Independently derived Einstein/exterior/whole-craft/modes, convergence, full regression and complete-energy validation | Automatic access from lower levels | Human-authorized physical integration only |
+
+`L3` and `L4` start **disabled** and require explicit `--authorize-stationary` / `--authorize-integration`, including named action and scientific question. An unproved source-variation gate cannot be bypassed by requesting a higher level.
+
+## 4.2 Runtime presets (defaults; adjustable only within safe ceilings)
+
+| Preset | Wall-clock cap | Worker cap | Process-tree RSS soft cap | Permanent-output cap | Typical use |
+|---|---:|---:|---:|---:|---|
+| `quick` | **60 s** | 1 | **384 MiB** | **4 MiB** | Parent SHA/inventory, one theorem |
+| `short` | **180 s** | 1 | **640 MiB** | **8 MiB** | Two small action candidates |
+| `focused` | **300 s** | 1 | **768 MiB** | **12 MiB** | Independent action/sensitivity gates |
+| `extended` | **900 s** | 2 (explicit opt-in) | **1536 MiB** | **30 MiB** | One preauthorized L2/L3 step |
+
+Other limits: default global GRAVITY2 persistent storage **200 MiB**, transient scratch per run **32 MiB**, persistent SQLite database **64 MiB including WAL/shm**, per-candidate stdout/stderr captured **64 KiB each maximum**, zero figures and zero retained full-field arrays at L0/L1. Lower levels must usually finish in seconds to minutes; these are **ceilings**, not runtime promises. A user-specified `--minutes 2` or `--minutes 7` is a hard wall-clock request, capped by the selected preset's safe maximum unless the user explicitly chooses a larger preset.
+
+**Policy under disk pressure:** never delete existing immutable evidence or historical AGMINER records. Stop scheduling new candidates, seal an `STORAGE_LIMIT` summary if space allows, report how to archive manually, and do not claim new verification. Auto-pruning applies **only** to run-owned temporary files and recomputable unpinned caches, never to accepted science evidence.
+
+## 4.3 Enforcement implementation (macOS-first)
+
+- Use `time.monotonic()` deadlines, fixed dispatch queue and a per-worker watchdog. Every nontrivial candidate/gate runs in a **child process**, not as an unstoppable in-process SymPy call.
+- Use `subprocess.Popen(..., start_new_session=True)`, track the process group; on timeout/cancellation send `SIGTERM`, allow a short grace, then `SIGKILL` to remaining process group. Record attempted signals and actual process exit/timeout.
+- Monitor **worker + descendants** RSS with `psutil` (declare dependency); if unavailable, fail closed for memory-limited L2+ work, rather than pretending RSS is enforced. macOS `RLIMIT_RSS` is not a dependable hard guarantee. Apply conservative worker counts; no concurrent factorization by default.
+- Limit NumPy/OpenBLAS/Accelerate/MKL/OpenMP threads (normally 1) in worker environment; bound solver iterations, matrix dimension and sparse fill. CPU core counts are policy caps, not a portable hard per-process CPU guarantee on macOS.
+- Treat disk quotas as **application-enforced** with preflight free-space checks, bounded output writers, bounded cache and scratch monitoring. OS processes can transiently exceed quotas; if exact hard disk reservation is unavailable, the report must say `SOFT_LIMIT_WITH_WATCHDOG`, not falsely claim kernel enforcement.
+- Use stream-to-bounded-tail capture, truncation metadata and incremental log SHA; never buffer unlimited subprocess output in memory.
+- Parent scheduler is the **only SQLite writer**. Workers return bounded structured messages; no worker writes to the shared DB.
+- Do not kill unrelated processes; only the miner's own recorded child process groups. `stop` acts on a miner run PID/lease, not a broad `pkill python`.
+- On sleep, thermal slowdown, low battery, low free disk or shutdown, checkpoint and stop. Battery/thermal integrations can be advisory; only promise enforcement where the platform provides a reliable signal.
+
+## 4.4 Scheduling, prioritization and no compute wastage
+
+1. One candidate is examined at a time by default; at most **two genuinely distinct new source completions** per focused batch.
+2. Cache exact *pure* symbolic kernels and parent-array reconstructions by full SHA of action, parameters, metric/boundary/mesh and code/dependency versions. Never reuse loaded solver output across different actions or source states.
+3. Prefer an analytic obstruction over a mesh solve. Start with the smallest valid discriminating geometry; h=`0.075 m` is the historical low-cost R3B diagnostic. `0.050 m` is **conditional** and does not alone certify convergence.
+4. No full pytest suite in automatic 1/3/5-minute sessions. Targeted project tests and an independent different-method check are mandatory for any acceptance. Full regression runs only for an integrated accepted code checkpoint, publication/transfer or explicitly requested `L4` job.
+5. Stop a candidate immediately after a **proven** fatal failure. An `UNDERDETERMINED` or solver timeout does not license rejection or reranking as viable.
+6. Rank **expected information gain / predicted wall-clock minute** using auditable deterministic features: unresolved physical obligation, historical failure coverage, cheapest decisive test, source novelty and projected resource cost. Do **not** rank by raw field capacity, arbitrary success probabilities, or number of passing Python assertions.
+7. Revisit only when one named new assumption defeats an old falsifier. Reject endless coefficient polishing.
+
+---
+
+# 5. Python architecture and repository layout
+
+## 5.1 Proposed files (none claimed to exist yet)
+
+```text
+gravity2buildplan.md
+src/antigravity_research/gravity2/
+    __init__.py
+    __main__.py               # argparse CLI
+    config.py                 # versioned scientific/runtime config
+    models.py                 # typed immutable action/candidate/gate dataclasses
+    provenance.py             # parent SHA and original R3B loaders
+    canonical_action.py       # restricted covariant operator AST
+    action_templates.py      # at most two explicit source completions
+    variations.py            # symbolic/reduced Euler/Hilbert variations
+    identities.py            # Ward/Noether/Bianchi/constraint checks
+    sourceability.py         # physical current/support response range
+    loading.py               # corrected R3X1 and exact reciprocal JVP
+    metric.py                # physical metric, neutral sign, stress
+    energy.py                # separate conservative SI ledgers
+    historical.py            # failure memory and negative controls
+    gates.py                 # stop/underdetermination policy
+    scheduler.py             # deterministic priority, checkpoint/resume
+    worker.py                # isolated child-process scientific jobs
+    resource_guard.py        # watchdog/time/RSS/disk/cancellation
+    cache.py                 # small disposable content-addressed cache
+    storage.py               # single-writer SQLite + immutable JSON
+    verification.py          # independent-result orchestration
+    reporting.py             # compact terminal + Markdown summary
+simulations/gravity2/
+    run_gravity2.py          # thin entrypoint if repo convention requires
+    verify_gravity2.py       # independent offline science verifier
+tests/gravity2/
+    test_config_and_limits.py
+    test_parent_provenance.py
+    test_action_ast.py
+    test_variations_and_ward.py
+    test_source_and_loading.py
+    test_scheduler_and_resume.py
+    test_negative_controls.py
+    test_resource_guard.py
+    test_serialization_and_storage.py
+    test_scientific_claim_boundaries.py
+results/gravity2/
+    gravity2.sqlite3
+    runs/<run_id>/
+        manifest.json
+        science.json
+        independent_verification.json
+        hashes.sha256
+        report.md
+    cache/                   # disposable, content-addressed
+    scratch/                 # cleaned after every completed run
+```
+
+Where current AGMINER storage utilities are appropriate, **reuse their implementation without copying their entire historic database**. The existing database remains source-of-truth for historical failed premises. An optional read-only AGMINER adapter imports just required fingerprints and failure rules. No schema migration to the historical AGMINER DB in `GRAVITY2-00`.
+
+## 5.2 Types and explicit state machine
+
+Essential conceptual types:
+
+```text
+ActionSpec
+  action_id, version, fields, metric_frames, terms, boundaries,
+  source_species, constraints, parameters_with_units, assumptions,
+  historical_failure_delta, action_sha256
+
+Candidate
+  candidate_id, action_spec, parent_lock, source_profile,
+  status, scientific_level, next_gate, fingerprint
+
+GateResult
+  gate_id, verdict, proven_scope, equations, residuals,
+  units, uncertainty, negative_controls, evidence_files,
+  independent_verifier, wall_s, peak_rss_mib, disk_bytes
+
+RunManifest
+  run_id, seed, CLI, scientific_level, runtime_preset,
+  deadlines, CPU/threads/RSS/disk limits, exact parent hashes,
+  versions, safety_flags, resume_cursor
+```
+
+Verdicts: `PASS_SCOPED`, `FAIL_SCOPED`, `UNDERDETERMINED`, `NUMERICAL_INCONCLUSIVE`, `TIME_BUDGET_EXCEEDED`, `MEMORY_LIMIT`, `STORAGE_LIMIT`, `NOT_RUN`, `SOFTWARE_ERROR`. Distinguish **scientific theorem failure** from **test or implementation failure** and from **candidate not yet physical**. A PASS at `G03` cannot silently set `G07`–`G11` PASS.
+
+Run lifecycle: `CREATED → PARENT_LOCKED → ACTIVE → STOP_REQUESTED / RESOURCE_STOP / COMPLETED → SEALED`. Resume creates a **new immutable continuation ID** that cites the previous run and restarts only an incomplete gate with identical action/assumption fingerprint. Never append into a sealed science JSON or alter a previous failed result.
+
+## 5.3 Small persistent database
+
+SQLite main-process writer, WAL mode with bounded checkpoints, unique constraints on fingerprints and run IDs; fixed schema/version. Tables:
+
+```text
+runs
+candidates
+actions
+gate_results
+failure_rules
+parent_evidence
+cache_index
+resource_events
+resume_links
+```
+
+Store short statuses, hashes, paths, scalar observables and obstruction proofs. Do **not** store large arrays, raw SymPy expression trees, solver histories or duplicate codebundles in SQLite. WAL/shm count toward the disk cap; checkpoint during idle transitions. No database auto-`VACUUM` during a timed science run.
+
+## 5.4 Evidence and data hygiene
+
+- Create a unique UTC run ID and manifest with `open(...,'x')`; never overwrite existing files.
+- Compute script/parent input hashes once at stage boundary, not during each solver iteration. Save parent-producing SHA, dependencies, Python/NumPy/SciPy/SymPy versions and precise SI/sign conventions.
+- Write temporary output to the run scratch path, validate with JSON `allow_nan=False`, flush and `fsync`, then **seal without overwrite** using same-filesystem exclusive `os.link(temp, final)` followed by unlinking the temporary name, or an equivalent rigorously no-clobber atomic create. Do not rely on `os.replace` alone: it overwrites existing destinations. The parent is the sole sealer.
+- Prefer scalar observables, proofs and tiny compressed sampled arrays. Large numerical fields retained only for explicitly promoted L3/L4 checkpoints, with user opt-in and known quota; record array shape/dtype/units/mesh/BC/source-hash.
+- Record process exit code, wall-clock, CPU/RSS monitoring quality, disk usage, truncation flags and why incomplete gates were skipped.
+- Track exact survivor-to-parent links, verified theorem assumptions, and hash any reported immutable science/verification file.
+- No external telemetry, network services or cloud requirement; local-only by default.
+
+---
+
+# 6. Planned CLI — simple operation in minutes
+
+**These commands are specification examples; the package does not exist yet.** They become paste-ready commands **after implementation and acceptance of `GRAVITY2-00`**.
+
+From the repository root:
+
+```bash
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 --help
+
+# 1 minute: audit parent evidence and cheap source-action no-gos.
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 run \
+  --level L0 --preset quick --minutes 1 --workers 1
+
+# 3 minutes: bounded source-action and identities investigation.
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 run \
+  --level L1 --preset short --minutes 3 --workers 1
+
+# 5 minutes: source controllability / loaded-response screening if authorized by L1.
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 run \
+  --level L2 --preset focused --minutes 5 --workers 1
+
+# Progress and scientific state without launching work.
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 status
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 top --max 5
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 failures --max 10
+
+# Explicit safe stop and independently audited resume.
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 stop --run-id RUN_ID
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 resume \
+  --run-id RUN_ID --level L1 --preset focused --minutes 5
+
+# Explicit offline verification of sealed evidence.
+PYTHONPATH="$PWD/src" .venv/bin/python -m antigravity_research.gravity2 verify \
+  --run-id RUN_ID
+```
+
+**CLI guarantees:** `run --dry-run` previews source files, candidates, next gates, constraints and estimated cost; `--list-candidates` identifies locked and conditional candidates; `--explain CANDIDATE_ID` displays proven failures and open equations. No `run` command defaults to broad search, L3, 2+ workers, bulk disk persistence or the full test suite.
+
+Provide short human-readable terminal progress such as:
+
+```text
+GRAVITY2 | L1 | 03:00 budget | 1 worker | 640 MiB RSS | 8 MiB output
+R3B parent lock: PASS
+R3B-NULL historical loaded failure: REPRODUCED
+R3B-SRC-A G02 variation: UNDERDETERMINED (missing support term)
+Remaining: 01:42 | CPU/RSS/disk: reported | next: G05 source action
+STOP: NO PROMOTION; immutable report sealed
+```
+
+This is **illustrative format**, not an executed result or promised runtime.
+
+---
+
+# 7. Implementation sequence with strict acceptance gates
+
+## `GRAVITY2-00` — Runner, provenance and resource safety (first build)
+
+**Build:** CLI, typed schema, parent-hash loader, scheduler/worker/watchdog, SQLite single writer, bounded logs/JSON, crash-safe resume, negative controls and compact report. No speculative new physics. Load exact R3B, R3X1, DELTA1-02 and the F0C–F0G parent manifests where present; missing optional latter files are explicit missing evidence, not fabricated. Import historical source/checkpoint SHAs and status.
+
+**Acceptance:**
+
+- A 60-second `L0` run terminates by its deadline, seals immutable evidence, and reports peak RSS/disk.
+- Timeouts or memory/storage exhaustion preserve previous completed gates, kill only miner-owned worker children, and never write false scientific FAIL.
+- Cold-start/restart/resume determinism; duplicate fingerprints never create duplicate candidates.
+- Forced crash and corrupt checkpoint produce a bounded recoverable status; original reports never mutate.
+- Injected NumPy scalars/bools, NaN, Unicode and missing parent sidecars are handled intentionally—**no repeat of F0E's serialization defect**.
+- Dummy worker that sleeps past deadline and dummy worker that allocates memory are contained.
+- All new focused unit and independent source/JSON tests pass. Full regression only once after integrating these modules into repository code, in a separately scheduled bounded job.
+
+**Exit:** `GRAVITY2-00_INFRA_ACCEPTED`, or explicit infrastructure HOLD. **Not physics progress.**
+
+## `GRAVITY2-01` — Original R3B action and current-provenance compiler
+
+**Build:** exact original R3B source/field/metric/strong-loading inventory; typed covariant action AST; symbolic/independent variational test harness; original sign, dimension and source-current identity tests. Distinguish generating scripts that calculate fields from actual covariant spacetime actions. Produce a matrix of **solved/fixed/prescribed/missing** variables.
+
+**Acceptance:** original R3B capacity reproduces within source tolerance; historical loaded negative result is recorded and separately reconstructable only if the original state/action are actually present; no silent claim that a source action exists when only a field recipe exists. `G01` and `G02` missing terms reported by name.
+
+**Exit:** action-completeness/undertermination atlas with SHA; permits source templates **only** where their missing terms are specified.
+
+## `GRAVITY2-02` — At most two physically motivated source completions
+
+**Build:** instantiate `R3B-SRC-A/B` if and only if source currents/support terms are physically specified, units are matched, and historical exclusions are addressed. Derive exact X/Y, source, neutral, support and Einstein variation requirements; independent Ward/diffeo checks. Tie any extra mode to a named new mechanism rather than coefficient fitting.
+
+**Acceptance:** for every candidate, source-current conservation and support boundary arise from its action, not injected to satisfy field equations. If one necessary action cannot be completed, report `NO_JUSTIFIED_ACTION` and halt that branch. Never consume the unused candidate slot with an arbitrary model.
+
+**Exit:** 0–2 `ACTION_THEORY_CONDITIONAL` cards, or scoped falsifications.
+
+## `GRAVITY2-03` — Reciprocal finite-neutral loading and control range
+
+**Prerequisite:** actual candidate source action and sufficient static reduction. **Build:** gauge-projected same-action sensitivity/Hessian/JVP, neutral trace/interface response, source/current permitted control subspace, source work and signed acceleration. Recover R3X1 failure as a negative control; compare only legitimate new action terms. Retain uncertainties and compare mesh/boundary when a candidate changes conclusion.
+
+**Acceptance:** nonzero physical source-control direction beyond the already nearly collinear simple $F_Y^2$ channel; source/current/support consistency and residuals independently verified; no claim of full stability from one frozen Schur block.
+
+**Exit:** conditional action-derived loaded response, `UNDERDETERMINED`, or precise scope-bounded failure. **No automatic new PDE**.
+
+## `GRAVITY2-04` — Earned stationary/exterior and complete force evidence
+
+**Prerequisite:** L1/L2 sourceability, health, energy and sign bounds pass plus explicit research authorization. Only **one** candidate/geometry per expensive session. Couple source, X/Y, finite neutral material and supports; verify full static action residuals, regular boundaries, at least two independent discretizations and exterior/box checks. Transfer to physical metric, Earth/craft action and momentum/field flux; independently assess physical-mode spectrum and complete energy. Schedule a separately bounded full regression after accepted integration.
+
+**Exit:** real physical milestone **only if independently established**, else preserved failure/unknown. Do not equate this phase with engine certification.
+
+## `GRAVITY2-05` — Independent review, transfer and documentation
+
+Generate a compact reproducible technical packet: complete source/action, each EOM and identity, source/support provenance, actual neutral-payload minimum, Earth/craft reaction, SI/UV/empirical ledger, numerical error/convergence, negative controls, producer and independent SHA, regression scope, known failures and explicit future work. Compare with 006D and the original R3B data. No heuristic percent change without **independent** source-to-gravity and Earth/whole-craft closure.
+
+---
+
+# 8. Test strategy and scientific acceptance conditions
+
+## 8.1 Three separate verification layers
+
+1. **Implementation:** unit tests, pure function tests, timeout/resume/cache/SQLite tests and type/schema checks.
+2. **Independent mathematics:** separately constructed metric variation, Ward identity, SI bound, source support/current and finite-difference Jacobian; do not have the verifier simply read the science file and assert expected status strings.
+3. **Physical evidence:** real source action, actual loaded neutral/Einstein/exterior/whole-craft response, energy and independent parameter/domain checks. A calculation may pass layers 1–2 but fail or leave layer 3 unknown.
+
+## 8.2 Mandatory acceptance checks
+
+- `python -m compileall` scoped to new modules; selected pytest modules; strict JSON schema including `numpy.bool_`/scalar conversion at deliberate serializer boundary.
+- Existing reference SHA and numeric anchors, including negative loaded sign and original R3B capacity.
+- Mismatched producer SHA, changed BC, altered normalization or absent parent → immediate `PARENT_DRIFT` / `PARENT_MISSING`.
+- Source-current and stress conservation with support terms. On-shell vs off-shell explicitly distinguished.
+- Wrong-index, wrong-sign and wrong-metric controls fail; identical fields under gauge transform do not change physical observables.
+- Independent variation or a mathematically distinct method for every scientific acceptance, not assertions that compare the same function to itself.
+- Hard stop during worker iteration and process-tree cancellation; no endless pytest when `--minutes 5` was requested.
+- Incomplete execution produces `TIME_BUDGET_EXCEEDED` or `NUMERICAL_INCONCLUSIVE`; does not fabricate a failing theorem.
+- A reported total force must include **whole spacecraft** and Earth, not just neutral material and a pair of toy forces.
+- A reported $E<10\,\mathrm{MJ}$ includes explicitly accounted source formation/rest/reference, supports, power, field, off state, backreaction, dissipative cycles and significant UV/empirical obligations; unknown entries prevent certification.
+
+## 8.3 Full regression cadence
+
+A full `pytest` suite is **not part of** `quick`, `short`, or `focused` research runs. The latest explicitly established historical suite baseline from `DELTA1-02` is 3,304 tests; use the true live count when the new modules are integrated. Run the complete suite:
+
+- Once per accepted integrated feature checkpoint; run explicitly outside the short research deadline, with a separately declared cap.
+- Before publishing/transferring a physical claim or modifying shared source.
+- At a deliberate closeout checkpoint if accepted code changes were made.
+
+Record `FULL_REGRESSION_PENDING` otherwise. A skipped suite cannot be displayed as a current PASS.
+
+---
+
+# 9. Minimal JSON science/report contract
+
+The exact schema will be versioned in `models.py`; this **illustrative skeleton** contains no execution claims:
+
+```json
+{
+  "schema_version": "gravity2.v1",
+  "run_id": "EXAMPLE_NOT_EXECUTED",
+  "program": "GRAVITY2-R3B-ACTIONMINER",
+  "run_state": "COMPLETED",
+  "level": "L1",
+  "preset": "short",
+  "budget_seconds": 180,
+  "candidate_id": "R3B-SRC-A",
+  "action_sha256": "NOT_YET_DERIVED",
+  "parent_sha256": {},
+  "gates": {
+    "G00_PARENT": "NOT_RUN",
+    "G01_ACTION": "NOT_RUN",
+    "G02_VARIATION": "NOT_RUN",
+    "G03_WARD": "NOT_RUN",
+    "G04_HEALTH": "NOT_RUN",
+    "G05_SOURCE": "NOT_RUN",
+    "G06_LOAD": "NOT_RUN",
+    "G07_METRIC": "NOT_RUN",
+    "G08_ENERGY": "NOT_RUN",
+    "G09_EXTERIOR": "NOT_RUN",
+    "G10_REACTION": "NOT_RUN",
+    "G11_REALISM": "NOT_RUN"
+  },
+  "reference_field_capacity_j": 1.5429162116460216,
+  "certified_operating_energy_j": null,
+  "certified_minimum_payload_acceleration_m_s2": null,
+  "whole_craft_gravitational_force_n": null,
+  "physical_success": false,
+  "full_regression": "NOT_RUN",
+  "independent_verification": "NOT_RUN",
+  "next_gate": "G01_ACTION",
+  "limitations": ["SCHEMA_EXAMPLE_ONLY"]
+}
+```
+
+Accepted evidence includes the exact SHA-256 of `science.json`, `independent_verification.json`, the producing code, action AST and locked parent files. Counters include actual candidate count, scoped false hypotheses removed, genuine new action directions, peak RSS, wall time, elapsed CPU, disk bytes and cache hits. A numerical error or empty survivor set is reported plainly.
+
+---
+
+# 10. Release criteria and immediate next work
+
+## 10.1 Definition of done for first useful release
+
+`GRAVITY2-00` is ready for unattended bounded runs when:
+
+1. The original R3B kernel, historical $-129.67185782242464\,\mathrm{m/s^2}$ loaded failure, DELTA1-02 identity and parent hashes are reproduced/read with explicit scope.
+2. A worker cannot exceed the configured wall-time policy without being terminated and classified; memory/disk limits are monitored with truthful caveats.
+3. The miner can run 1, 3 and 5 minutes locally, stop and resume, leave compact immutable SHA evidence, and never duplicate old work by fingerprint.
+4. The system refuses arbitrary currents, incomplete actions, incorrect metric variations and force-sign/energy promotion.
+5. Scientific gates are independently testable and an empty survivor list is a valid output.
+6. No new parameter search, source synthesis or long PDE is silently authorized by merely starting the software.
+
+## 10.2 First actual scientific batch (only after infrastructure acceptance)
+
+**`GRAVITY2-R3B-01_SOURCE_ACTION_COMPLETENESS_AND_CONTROL_FORK`**
+
+One coherent question: *what exact source/support/metric variations are absent from the original R3B construction, and which one physically distinct action completion—if any—can provide a new conserved response direction that addresses the loaded sign reversal?*
+
+Expected cheap discriminators:
+
+- Reconstruct $P$, $\sigma(P)$, torus $T$, current locations, source geometry and R3X1 sign from original code and results.
+- Declare every dynamical, fixed and prescribed variable, including Earth and supports, and mark absent EOM.
+- Compute exact response dependencies from the original action sector; only attempt a controlled candidate if its full source/support term is present.
+- Test a real conserved-current basis against the required R3B field profile; do not infer physical current by inverting free Maxwell equations alone.
+- Compare with the fixed R3B loaded failure and near-collinear second-invariant control. Produce `ACTION_INCOMPLETE`, `NO_NEW_SOURCE_DIRECTION`, or one independently supported conditional source-action candidate—not a preloaded field-energy improvement.
+
+**Strict initial budget:** `L1`, 180–300 seconds, 1 worker, 640–768 MiB RSS soft cap, 8–12 MiB permanent output cap, no full suite, no 3D PDE. Only escalate from a documented mechanism that survives its cheapest falsifiers.
+
+## 10.3 Decision rule at the end of each batch
+
+```text
+IF action is incomplete:
+    name missing variation(s); preserve evidence; STOP
+ELSE IF Ward/Noether/Bianchi or ghost/energy necessary gate fails:
+    save scoped no-go; STOP
+ELSE IF source current or support is not physically realizable:
+    save sourceability obstruction; STOP
+ELSE IF a new action-derived loaded response survives:
+    mark CONDITIONAL_SURVIVOR; request explicit L2/L3 authorization
+ELSE:
+    UNDERDETERMINED or NUMERICAL_INCONCLUSIVE; retain provenance
+```
+
+No report may set `SUCCEEDS_006D`, `PHYSICAL_LIFT`, `E_COMPLETE_LT_10MJ` or **research maturity $\ge50\%$** from automated fitting, a partial static source, test counts or a few-joule capacity. The first genuinely meaningful milestone is an **independently derived, sourceable, same-action universal-metric mechanism**, followed by a demonstrated physical external Earth/whole-craft interaction.
+
+---
+
+# 11. Compatibility notes and research governance
+
+- **Existing project files:** no change to `ARTIFICIAL_BUILDPLAN.MD`, `AGMINER_BUILDPLAN.MD`, `NOTES.md`, `RESEARCH_BUILDPLAN.md`, historical journal or immutable artifacts is implied by creating this plan. Any later documentation updates should explicitly state their evidence boundary.
+- **Python target:** project's Python 3.13 environment and existing NumPy/SciPy/SymPy stack. Small additional dependency `psutil` is justified only for process-tree memory monitoring; version pin and fail-closed fallback as specified.
+- **macOS/Intel:** use single-worker by default, control BLAS threads, avoid large dense Hessians/automatic differentiated full-grid actions, and check available memory before any L2+ stage.
+- **Observability:** terminal output is compact and live (gate, timer, memory/disk, candidate, last scientific result); full evidence is a small sealed file set, not a giant continuously appended console transcript.
+- **No arbitrary async claim:** automation exists only while the local process is actually running. It cannot discover new physics or send reports after shutdown without an explicitly operating scheduler outside this chat.
+- **User-facing delivery policy for future implementation:** separate complete paste-ready `APPLY` and `VERIFY` Bash blocks, source comments/docstrings per `FORMATTING_AND_CODE_STANDARDS.md`, no encoded patches, no hidden Git operations, no downloadable scripts unless specifically requested.
+
+**Bottom line:** This miner is a **time-bounded physics falsifier and source-action completion assistant**, not an automatic engine designer. Its highest value is to find out—cheaply, reproducibly and decisively—whether the celebrated R3B prescribed field admits a realistic source-to-Einstein/metric completion, and to retain exact reasons when it does not.
+````
+
+## APPENDIX G — Machine-readable freeze summary
+
+```json
+{
+  "006D_coefficient": 23.591586299249,
+  "006D_replaced": false,
+  "EPSILON1_03": "PROPOSED_NOT_EXECUTED",
+  "R3B_E00_through_E05": "PROPOSED_NOT_EXECUTED",
+  "R3B_engine_137kN_force": "HISTORICAL_FROZEN_FINITE_EARTH_CONDITIONAL_ONLY",
+  "R3B_engine_net_thrust_n": null,
+  "R3B_engine_operating_energy_j": null,
+  "R3B_prescribed_field_capacity_j": 1.5429162116460216,
+  "antigravity_physical_research_heuristic_percent": 37,
+  "blocker_heuristic_percent": 33,
+  "complete_sub10MJ_energy_certified": false,
+  "date": "2026-11-22",
+  "heuristics_are_success_probabilities": false,
+  "historical_sources_modified_by_this_handoff": false,
+  "last_full_repository_regression_reported_from_DELTA_checkpoint": 3304,
+  "last_reported_executed_branch": "EPSILON1-02",
+  "latest_epsilon1_02_science_sha256": "4dfcf4f998224046f9eaca2c4494c39f525b330fa938919f81eaa2be896e4ec0",
+  "new_R3B_engine_build_plan": "TO_BE_CREATED",
+  "next_active_target": "R3B_ENGINE",
+  "nov22_G01_EPSILON_full_repository_regression": "NOT_RUN",
+  "original_antigravity_target_preserved": true,
+  "real_gravitational_lift": false,
+  "reopening_antigravity_requires": "EXPLICIT_DECISION_AND_FRESH_SOURCE_HASH_REVIEW",
+  "state": "ANTIGRAVITY_FROZEN_FOR_LATER_RESUMPTION",
+  "whole_craft_external_force_certified": false
+}
+```
+
+**END — Source-grounded ANTIGRAVITY_RESEARCH freeze and R3B Engine transition record.**

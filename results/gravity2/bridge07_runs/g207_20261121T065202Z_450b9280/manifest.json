@@ -1,0 +1,21 @@
+{
+  "AGMINER": "READ_ONLY_PINNED_HASHES_NOT_EXECUTED",
+  "created_utc": "2026-11-21T06:52:02.835506+00:00",
+  "disk_soft_mib": 4,
+  "field_geometry": "A_X0=a(x,z) fixed; A_Yy=b(x,z) solved; scalar f fixed",
+  "level": "L1",
+  "preset": "quick",
+  "previous_source_modification": "NONE",
+  "producer_sha256": {
+    "src/antigravity_research/gravity2/bridge07.py": "cfee800973869668a2af6392386b14f487aa629683610a2bc7e0a12600c15f5d",
+    "src/antigravity_research/gravity2/bridge07_check.py": "0a8d44ee3ec6aa3c0e0efa5529d9f66fcf501f09bded33d489a9ed672c8a5c26",
+    "src/antigravity_research/gravity2/bridge07_core.py": "7b70ecc745e8a8124a25283520daf6a846ed85d0b166a6257de84a7c3637ef8a",
+    "tests/gravity2/test_bridge07.py": "feea2c5526686e0777aae96c4c32315a52a067d17adcf8d75dcdccca7a5a6eb7"
+  },
+  "program": "GRAVITY2-07",
+  "rss_soft_mib": 384,
+  "run_id": "g207_20261121T065202Z_450b9280",
+  "solver": "2D_PERIODIC_ODE_INVERSION_AND_NONLINEAR_FIXED_POINT",
+  "time_ceiling_s": 30.0,
+  "workers": 1
+}

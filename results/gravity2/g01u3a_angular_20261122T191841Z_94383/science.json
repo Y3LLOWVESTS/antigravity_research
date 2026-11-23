@@ -1,0 +1,581 @@
+{
+  "action_static": "L=.5 E_X^2-.5 B_Y^2+theta(phi) E_X.B_Y",
+  "angular_source": "theta=scale*(f0+f2*P2)",
+  "constant_theta_exact_topological_null": true,
+  "experiment": "G01-U3A-ANGULAR-STATIC-RECIPROCITY-PREFLIGHT",
+  "full_regression": "NOT_RUN_BY_USER_POLICY",
+  "gravity_and_earthcraft": "NOT_SOLVED",
+  "parent_radial_sha256": "cfe54027edcd6a33532faa5eec138455bc35a89193f9b3af1d4cd4f5bf727999",
+  "parent_u1_sha256": "0f5b138a22d9da0088cdb9d6c2bfdcfbb046603845447d250878809c454616c3",
+  "physical_survivors": 0,
+  "producer_sha256": "a894b741012e8445f711b3ed4fde3a881c6f84391ee6221f479fdcd401a0f46a",
+  "results": [
+    {
+      "L": 8.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.61313011696795,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.61313011696795,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 188265.95166385613,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 13242.2249493523,
+        "multipole_source_changes": {
+          "0": -0.08595394466312312,
+          "2": -6.59216241583249,
+          "4": 5.875858620957058,
+          "6": -9.396434641416299
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.19180428991154608,
+        "source_L2_relative_difference": 97.7008208629015,
+        "static_maxwell_relative_residual": 9.467628679951075e-16,
+        "t": 1,
+        "theta_abs_max_sampled": 45358438.63562191,
+        "u2_H_log10_condition_estimate": 30.62663238604342
+      },
+      "h": 0.2,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.6643010459808746,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 0.04672551678741816,
+        "multipole_source_changes": {
+          "0": -0.018884397468168987,
+          "2": 1.6300216523754585,
+          "4": -0.0069345651264109895,
+          "6": 0.0009786227833408936
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.0003562262801527003,
+        "source_L2_relative_difference": 0.9992023835526298,
+        "static_maxwell_relative_residual": 5.306129364427442e-16,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 453.58438635621917,
+        "u2_H_log10_condition_estimate": 10.62663238604342
+      },
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.322712551761715,
+        "em_shape_energy_reference": 18.61313011696795,
+        "grid_h_m": 0.2,
+        "illustrative_em_energy_j": 1.2887804679943675,
+        "multipole_source_changes": {
+          "0": 0.004445416371098365,
+          "2": 0.1319327589215677,
+          "4": -0.008766277817056274,
+          "6": 4.272167585258159e-05
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0299718882776083,
+        "source_L2_relative_difference": 0.07050112952522834,
+        "static_maxwell_relative_residual": 5.119511365091447e-15,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4535843863562191,
+        "u2_H_log10_condition_estimate": null
+      }
+    },
+    {
+      "L": 8.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.667646657681786,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.667646657681786,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 89986.52482818917,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 6310.975566137375,
+        "multipole_source_changes": {
+          "0": -0.03606817982991739,
+          "2": -1.5309340664040383,
+          "4": -1.4882155673448252,
+          "6": -1.6978400046168391
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.006455867113716512,
+        "source_L2_relative_difference": 41.822397697161804,
+        "static_maxwell_relative_residual": 3.1836160429079604e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45407914.90936367,
+        "u2_H_log10_condition_estimate": 30.628526239786368
+      },
+      "h": 0.1,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.6110182192752244,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 0.04285220547935575,
+        "multipole_source_changes": {
+          "0": -0.004774391956537307,
+          "2": 1.6352440553804504,
+          "4": -0.00686616649888174,
+          "6": 0.0004084305971345722
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": -2.3311486416513392e-05,
+        "source_L2_relative_difference": 0.9993759180509781,
+        "static_maxwell_relative_residual": 7.583655187817512e-16,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 454.0791490936368,
+        "u2_H_log10_condition_estimate": 10.628526239786366
+      },
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.36780398738991,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.2881791178106,
+        "multipole_source_changes": {
+          "0": 0.0011349486670188995,
+          "2": 0.1322605388222782,
+          "4": -0.008886300840305414,
+          "6": 4.6558384493246524e-05
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.029630468077692,
+        "source_L2_relative_difference": 0.0706753538514146,
+        "static_maxwell_relative_residual": 2.58357831347633e-14,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4540791490936367,
+        "u2_H_log10_condition_estimate": null
+      }
+    },
+    {
+      "L": 8.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.667646657681786,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.667646657681786,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3,
+        5
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 69038.27691791784,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 4841.82359068853,
+        "multipole_source_changes": {
+          "0": -0.023008345841591504,
+          "2": -0.6292081884485088,
+          "4": -1.3169472330475098,
+          "6": -0.015973243915994417
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.0069975106059786095,
+        "source_L2_relative_difference": 35.24133378065832,
+        "static_maxwell_relative_residual": 2.3557330261205027e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45407914.90936367,
+        "u2_H_log10_condition_estimate": 30.628526239786368
+      },
+      "h": 0.1,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.6026587745041756,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 0.042265937126429676,
+        "multipole_source_changes": {
+          "0": -0.004755367413161568,
+          "2": 1.6344657494122514,
+          "4": -0.006831707129857975,
+          "6": 0.001684345370813706
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": -2.927022836395951e-05,
+        "source_L2_relative_difference": 0.9994821998873404,
+        "static_maxwell_relative_residual": 1.0186544726994269e-15,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 454.0791490936368,
+        "u2_H_log10_condition_estimate": 10.628526239786366
+      },
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 8.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.36780399140463,
+        "em_shape_energy_reference": 18.667646657681786,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.288179118092162,
+        "multipole_source_changes": {
+          "0": 0.0011349486682484522,
+          "2": 0.13226087891911692,
+          "4": -0.00885695998721253,
+          "6": 0.00010462569927050781
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0296304750955958,
+        "source_L2_relative_difference": 0.07067496361796183,
+        "static_maxwell_relative_residual": 2.3875875619578337e-14,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4540791490936367,
+        "u2_H_log10_condition_estimate": null
+      }
+    },
+    {
+      "L": 12.0,
+      "baseline": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.78277880879797,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 0,
+        "theta_abs_max_sampled": 0.0,
+        "u2_H_log10_condition_estimate": null
+      },
+      "constant_theta": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": true,
+        "em_shape_energy": 18.78277880879797,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.3092078192690724,
+        "multipole_source_changes": {
+          "0": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "6": 0.0
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.0,
+        "source_L2_relative_difference": 0.0,
+        "static_maxwell_relative_residual": 0.0,
+        "t": 1,
+        "theta_abs_max_sampled": 1000,
+        "u2_H_log10_condition_estimate": 12.0
+      },
+      "ells": [
+        1,
+        3,
+        5
+      ],
+      "full": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 82773.9794864199,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 5769.558502434066,
+        "multipole_source_changes": {
+          "0": -0.07228887454336327,
+          "2": 1.3705688239027263,
+          "4": -0.5624063982517458,
+          "6": -0.31358765148278317
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 0.0009108543032676203,
+        "source_L2_relative_difference": 2.4993131287515835,
+        "static_maxwell_relative_residual": 7.037872376722795e-15,
+        "t": 1,
+        "theta_abs_max_sampled": 45407914.90936367,
+        "u2_H_log10_condition_estimate": 30.628526239786368
+      },
+      "h": 0.1,
+      "medium": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 0.39284324616108474,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 0.027382181031713446,
+        "multipole_source_changes": {
+          "0": -0.00473471762051673,
+          "2": 1.6655139319315213,
+          "4": -0.0036533958251666887,
+          "6": 0.0003807583581375497
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 5.192872808249031e-06,
+        "source_L2_relative_difference": 0.9994499630505536,
+        "static_maxwell_relative_residual": 7.9109975469900965e-16,
+        "t": 1e-05,
+        "theta_abs_max_sampled": 454.0791490936368,
+        "u2_H_log10_condition_estimate": 10.628526239786366
+      },
+      "weak": {
+        "angular_f2_included": true,
+        "angular_modes": [
+          1,
+          3,
+          5
+        ],
+        "box_m": 12.0,
+        "constant_theta_null": false,
+        "em_shape_energy": 18.479752102652323,
+        "em_shape_energy_reference": 18.78277880879797,
+        "grid_h_m": 0.1,
+        "illustrative_em_energy_j": 1.288086081257261,
+        "multipole_source_changes": {
+          "0": 0.001130601757009725,
+          "2": 0.10328477107646093,
+          "4": -0.008958513137470562,
+          "6": 0.00010609501184301219
+        },
+        "physical_survivors": 0,
+        "scalar_source_projection_ratio": 1.030243373421156,
+        "source_L2_relative_difference": 0.07125950828844083,
+        "static_maxwell_relative_residual": 3.024057030142926e-14,
+        "t": 1e-08,
+        "theta_abs_max_sampled": 0.4540791490936367,
+        "u2_H_log10_condition_estimate": null
+      }
+    }
+  ],
+  "scalar_EOM": "NOT_SOLVED_LOCAL_EOM",
+  "source_action": "PRESCRIBED_CHARGE_AND_CURRENT_ONLY",
+  "utc": "2026-11-22T19:18:55.870252+00:00"
+}

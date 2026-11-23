@@ -1,0 +1,11 @@
+{
+  "full_repository_regression": "SKIPPED",
+  "parent_path": "results/gravity2/g01j_bf_runs/g01jbf_20261121T213657Z_282a797e/science.json",
+  "parent_sha256": "ce57c05c45428548afe80175943cc256fac94212cbc1b0415ff8a73f6dbd6ce3",
+  "run_id": "g01k_20261121T214747Z_7aba9bce",
+  "schema": "gravity2.g01k.manifest.v1",
+  "source_sha256": {
+    "g01k_check_v1.py": "55a07971e262205600a8d1dcfbd5ef09b5cb293c1d0e5d7717ca28c2aeb5ca59",
+    "g01k_source_v1.py": "cb6bc822e2dd363c48982f677c7d852317392098e4e7f610f3506e68e9468112"
+  }
+}

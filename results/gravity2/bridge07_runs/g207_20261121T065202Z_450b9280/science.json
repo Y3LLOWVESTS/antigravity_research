@@ -1,0 +1,154 @@
+{
+  "006D_replaced": false,
+  "Einstein_gravity": "NOT_SOLVED",
+  "L2_authorized": false,
+  "complete_energy_SI": "NOT_CERTIFIED",
+  "evidence": {
+    "L": "1/2|grad a|^2-1/2|grad b|^2+1/2 exp(2sigma)K-exp(4sigma)V",
+    "L2_authorized": false,
+    "P": "a_x*b_z-a_z*b_x = E_X dot B_Y with chosen orientation",
+    "Pi": "(exp(2sigma)*K-4*exp(4sigma)*V)*sigma_P",
+    "SI_complete_energy": "NOT_CERTIFIED",
+    "Y_euler": "Delta b+Dx(Pi*Dz a)-Dz(Pi*Dx a)=0",
+    "complete_Einstein_action": "NOT_DERIVED",
+    "controls": {
+      "collinear_1D_zero_source_max": 0.0,
+      "constant_Pi_topological_source_max": 6.938893903907228e-17,
+      "no_portal_zero_Y_max": 0.0
+    },
+    "convergence": "FOUR_RESOLUTION_SENSITIVITY_ONLY_NOT_CONTINUUM_PROOF",
+    "decision": "2D_HODGE_VALID_NONLINEAR_Y_RESPONSE; FROZEN_SOURCE_AND_X_NOT_PHYSICALIZED",
+    "full_mode_stability": "NOT_DERIVED",
+    "geometry": "2D_PERIODIC_FLAT_XZ_PATCH_NOT_FINITE_EXTERIOR",
+    "loaded_neutral_force": "NOT_COMPUTED",
+    "n_y_solved": true,
+    "parent_history": {
+      "R3B_history_recomputed": false,
+      "R3B_loaded_min_m_s2": -129.67185782242464,
+      "R3B_prescribed_capacity_J": 1.5429162116460216
+    },
+    "physical_survivors": 0,
+    "potentials": "A_X=a(x,z)dt; A_Y=b(x,z)dy",
+    "real_finite_supported_source": "NOT_ESTABLISHED",
+    "rows": [
+      {
+        "bianchi_max_abs": 4.336808689942018e-19,
+        "equation_residual_relative": 7.489493587556133e-11,
+        "h_canonical": 0.6981317007977318,
+        "iterations": 28,
+        "magnetic_gradient_energy_density_canonical": 1.4551456819084721e-06,
+        "mean_b": 3.614007241618348e-20,
+        "n": 9,
+        "off_shell_action_canonical": 8.988407971318463,
+        "status": "PASS_SCOPED_2D_Y_EULER_ONLY",
+        "y_field_max_abs": 0.0035337537528137334
+      },
+      {
+        "bianchi_max_abs": 8.673617379884035e-19,
+        "equation_residual_relative": 6.902719383903643e-11,
+        "h_canonical": 0.41887902047863906,
+        "iterations": 29,
+        "magnetic_gradient_energy_density_canonical": 1.448862742630601e-06,
+        "mean_b": 0.0,
+        "n": 15,
+        "off_shell_action_canonical": 8.848933628738811,
+        "status": "PASS_SCOPED_2D_Y_EULER_ONLY",
+        "y_field_max_abs": 0.0031546857207902963
+      },
+      {
+        "bianchi_max_abs": 1.734723475976807e-18,
+        "equation_residual_relative": 5.548510527892465e-11,
+        "h_canonical": 0.2731819698773733,
+        "iterations": 30,
+        "magnetic_gradient_energy_density_canonical": 1.467401044931969e-06,
+        "mean_b": 6.5585008543546584e-21,
+        "n": 23,
+        "off_shell_action_canonical": 8.795321273848137,
+        "status": "PASS_SCOPED_2D_Y_EULER_ONLY",
+        "y_field_max_abs": 0.0030631139610280776
+      },
+      {
+        "bianchi_max_abs": 1.3552527156068805e-18,
+        "equation_residual_relative": 7.621191900636688e-11,
+        "h_canonical": 0.2026833970057931,
+        "iterations": 30,
+        "magnetic_gradient_energy_density_canonical": 1.4752868367823772e-06,
+        "mean_b": -7.220493136219801e-21,
+        "n": 31,
+        "off_shell_action_canonical": 8.776443104510928,
+        "status": "PASS_SCOPED_2D_Y_EULER_ONLY",
+        "y_field_max_abs": 0.0030504397107640724
+      }
+    ],
+    "source": "f(x,z) and a(x,z) PRESCRIBED; NOT ON SHELL",
+    "whole_craft_lift": "NOT_DERIVED",
+    "x_and_source_solved": false
+  },
+  "execution_status": "COMPLETED",
+  "field_archive_sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d",
+  "full_Lorentzian_mode_health": "NOT_DERIVED",
+  "full_repository_regression": "NOT_RUN",
+  "parents": {
+    "all_match": true,
+    "historical": {
+      "A12C_F2_LOAD_NOT_R3B": {
+        "actual_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "expected_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "relative_path": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+        "status": "MATCH"
+      },
+      "DELTA1_02_RECIPROCITY": {
+        "actual_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "expected_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "relative_path": "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py",
+        "status": "MATCH"
+      },
+      "R3B_MIXED_LOADED": {
+        "actual_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "expected_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py",
+        "status": "MATCH"
+      },
+      "R3B_PRELOADED": {
+        "actual_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "expected_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+        "status": "MATCH"
+      },
+      "R3X1_LORENTZ_SIGN": {
+        "actual_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "expected_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_r3x1_lorentzian_sign_audit.py",
+        "status": "MATCH"
+      }
+    },
+    "previous": {
+      "G06_SCIENCE": {
+        "actual_sha256": "e2a8a141b86e2168912a4110cc258ec0cec65cae909bc9da999f30216901b1a5",
+        "expected_sha256": "e2a8a141b86e2168912a4110cc258ec0cec65cae909bc9da999f30216901b1a5",
+        "path": "results/gravity2/bridge06_runs/g206_20261121T063924Z_a430c5c5/science.json",
+        "status": "MATCH"
+      },
+      "G06_VERIFICATION": {
+        "actual_sha256": "ef9c9ebff7c3c3b32bf40bbaee140bbd62bf3998f37abf698ed84ce36150b883",
+        "expected_sha256": "ef9c9ebff7c3c3b32bf40bbaee140bbd62bf3998f37abf698ed84ce36150b883",
+        "path": "results/gravity2/bridge06_runs/g206_20261121T063924Z_a430c5c5/verification.json",
+        "status": "MATCH"
+      }
+    }
+  },
+  "physical_exterior": "NOT_SOLVED",
+  "program": "GRAVITY2-07",
+  "qualified_survivors": 0,
+  "real_finite_source": "NOT_ESTABLISHED",
+  "resource": {
+    "elapsed_s": 0.50577,
+    "watchdog": "SOFT_PSUTIL_PROCESS",
+    "worker_exit_code": 0,
+    "worker_peak_rss_mib": 26.785
+  },
+  "run_id": "g207_20261121T065202Z_450b9280",
+  "source_still_prescribed": true,
+  "source_support_Earth": "NOT_DERIVED",
+  "whole_craft_lift": "NOT_DERIVED"
+}

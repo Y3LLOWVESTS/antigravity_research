@@ -1,0 +1,11 @@
+{
+  "fitted_preload_gap_J": {
+    "0.05": 0.2109845337017519,
+    "0.075": 0.20071559775444833
+  },
+  "full_regression": "NOT_RUN",
+  "parent_sha256": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11",
+  "physical_survivors": 0,
+  "producer_sha256": "03aea50b83249a222eeef9ca3dd741f48e0e29a45ddb3a7469ebb161f8bc914e",
+  "static_two_body_Maxwell_floor_J": 9.80665
+}

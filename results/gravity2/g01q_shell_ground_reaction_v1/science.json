@@ -1,0 +1,1459 @@
+{
+  "direct_bright_s": 1,
+  "drive": "G01-N dipolar free surface charge held fixed",
+  "earth_comparison": "planar static induced field stress; homogeneous ground and perfect bright conductor end cases",
+  "full_regression": "NOT_RUN",
+  "g01n_science_sha256": "7635896c65e47e64ffa772651a55605e38499790b44a7c37a582c537a8c752fb",
+  "g01p_science_sha256": "581889941c7fb9b2a137e3621fb53fd2eb3a960021a6568385af177052e2066e",
+  "g01p_verification_sha256": "2871ee26e3606777d64881d9958245c3216d40f51f78712c8ac9b20108327011",
+  "ground_density_kg_m3": 2000,
+  "ground_relative_permittivity": 4,
+  "payload": "absent",
+  "physical_survivors": 0,
+  "producer_sha256": "69aa9277598f7f1d0c3ced78639f80be0ae016cc8863323df3e627918cd43101",
+  "rows": [
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.25,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 6,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.5,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 6,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 1.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 6,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 2.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 6,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.12687918937181605,
+      "fraction_shell_weight": -1.1094053472865133,
+      "gap_m": 0.25,
+      "interaction_J": -0.0568019079566125,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.2526044122655946,
+        -0.9999999800202956
+      ],
+      "order": 6,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.056746822483283485,
+      "fraction_shell_weight": -0.4961824599933771,
+      "gap_m": 0.5,
+      "interaction_J": -0.03571715610581564,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.1588381719994272,
+        -0.9999999874367209
+      ],
+      "order": 6,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.020841556245230167,
+      "fraction_shell_weight": -0.18223425022422987,
+      "gap_m": 1.0,
+      "interaction_J": -0.01845162523762052,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.082056432894021,
+        -0.9999999935097599
+      ],
+      "order": 6,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0056946396447408185,
+      "fraction_shell_weight": -0.049792749339148845,
+      "gap_m": 2.0,
+      "interaction_J": -0.007290931330969943,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.032423583819319,
+        -0.999999997435462
+      ],
+      "order": 6,
+      "residual": 1.734723475976807e-18,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.04085734413296332,
+      "fraction_shell_weight": -0.3572481529985517,
+      "gap_m": 0.25,
+      "interaction_J": -0.008879327539917582,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.2526044012984345,
+        -1.1065584692904318
+      ],
+      "order": 6,
+      "residual": 5.551115123125783e-17,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.011203144848514184,
+      "fraction_shell_weight": -0.09795797768651125,
+      "gap_m": 0.5,
+      "interaction_J": -0.0034005108448410494,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.158838165528285,
+        -1.0718578233357805
+      ],
+      "order": 6,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0020211216042437157,
+      "fraction_shell_weight": -0.01767226860737139,
+      "gap_m": 1.0,
+      "interaction_J": -0.0008651947726559537,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.082056429715316,
+        -1.0391043878469812
+      ],
+      "order": 6,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.00020468057177513584,
+      "fraction_shell_weight": -0.0017896845175103008,
+      "gap_m": 2.0,
+      "interaction_J": -0.0001280326647138252,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0324235826009087,
+        -1.0159270961876206
+      ],
+      "order": 6,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.25,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 12,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.5,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 12,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 1.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 12,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 2.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 12,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.1277494303592605,
+      "fraction_shell_weight": -1.117014554199631,
+      "gap_m": 0.25,
+      "interaction_J": -0.056862249278514514,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.2528727568459568,
+        -0.9999999799990709
+      ],
+      "order": 12,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.05677861016507326,
+      "fraction_shell_weight": -0.4964604048977387,
+      "gap_m": 0.5,
+      "interaction_J": -0.03572041786874886,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.158852677422543,
+        -0.9999999874355735
+      ],
+      "order": 12,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.02084197007650378,
+      "fraction_shell_weight": -0.18223786867915615,
+      "gap_m": 1.0,
+      "interaction_J": -0.018451686999812044,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.082056707557367,
+        -0.9999999935097381
+      ],
+      "order": 12,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.005694640811186632,
+      "fraction_shell_weight": -0.04979275953830939,
+      "gap_m": 2.0,
+      "interaction_J": -0.007290931582204801,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0324235849365884,
+        -0.9999999974354619
+      ],
+      "order": 12,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.04135703679890391,
+      "fraction_shell_weight": -0.36161736215207024,
+      "gap_m": 0.25,
+      "interaction_J": -0.008910585948772042,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.2528727458606526,
+        -1.1066231367177397
+      ],
+      "order": 12,
+      "residual": 4.440892098500626e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.011216283204567879,
+      "fraction_shell_weight": -0.09807285675007311,
+      "gap_m": 0.5,
+      "interaction_J": -0.0034017134060024016,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.1588526709505307,
+        -1.0718624020826566
+      ],
+      "order": 12,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.002021228689843039,
+      "fraction_shell_weight": -0.017673204941667776,
+      "gap_m": 1.0,
+      "interaction_J": -0.0008652093371293644,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0820567043786469,
+        -1.0391044927936754
+      ],
+      "order": 12,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.00020468076786113362,
+      "fraction_shell_weight": -0.0017896862320456437,
+      "gap_m": 2.0,
+      "interaction_J": -0.0001280327051526421,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.032423583718178,
+        -1.0159270966563372
+      ],
+      "order": 12,
+      "residual": 3.3306690738754696e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.25,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 24,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.5,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 24,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 1.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 24,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 2.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 24,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.12775188336206092,
+      "fraction_shell_weight": -1.117036002747948,
+      "gap_m": 0.25,
+      "interaction_J": -0.05686234135675755,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.2528731663281607,
+        -0.9999999799990384
+      ],
+      "order": 24,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.05677861801141755,
+      "fraction_shell_weight": -0.4964604735045477,
+      "gap_m": 0.5,
+      "interaction_J": -0.03572041831778411,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.1588526794194527,
+        -0.9999999874355734
+      ],
+      "order": 24,
+      "residual": 3.3306690738754696e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.020841970081667147,
+      "fraction_shell_weight": -0.18223786872430353,
+      "gap_m": 1.0,
+      "interaction_J": -0.01845168700026785,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0820567075593939,
+        -0.9999999935097381
+      ],
+      "order": 24,
+      "residual": 3.3306690738754696e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.005694640811186995,
+      "fraction_shell_weight": -0.04979275953831257,
+      "gap_m": 2.0,
+      "interaction_J": -0.0072909315822048465,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0324235849365886,
+        -0.9999999974354619
+      ],
+      "order": 24,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.04135853250383071,
+      "fraction_shell_weight": -0.36163044028609653,
+      "gap_m": 0.25,
+      "interaction_J": -0.008910639384111992,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.2528731553428258,
+        -1.1066232226423136
+      ],
+      "order": 24,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.011216286751360008,
+      "fraction_shell_weight": -0.09807288776248872,
+      "gap_m": 0.5,
+      "interaction_J": -0.0034017135954421524,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.1588526729474402,
+        -1.0718624026598813
+      ],
+      "order": 24,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0020212286911679895,
+      "fraction_shell_weight": -0.01767320495325287,
+      "gap_m": 1.0,
+      "interaction_J": -0.0008652093372366297,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0820567043806741,
+        -1.0391044927944506
+      ],
+      "order": 24,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.00020468076786118043,
+      "fraction_shell_weight": -0.0017896862320460531,
+      "gap_m": 2.0,
+      "interaction_J": -0.00012803270515264833,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0324235837181783,
+        -1.0159270966563372
+      ],
+      "order": 24,
+      "residual": 4.440892098500626e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.25,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 40,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.5,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 40,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 1.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 40,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 2.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 40,
+      "residual": 0.0,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.12775188337993507,
+      "fraction_shell_weight": -1.1170360029042359,
+      "gap_m": 0.25,
+      "interaction_J": -0.05686234135711392,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.2528731663297457,
+        -0.9999999799990384
+      ],
+      "order": 40,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.05677861801141799,
+      "fraction_shell_weight": -0.4964604735045515,
+      "gap_m": 0.5,
+      "interaction_J": -0.03572041831778412,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.1588526794194527,
+        -0.9999999874355735
+      ],
+      "order": 40,
+      "residual": 3.3306690738754696e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.02084197008166715,
+      "fraction_shell_weight": -0.18223786872430356,
+      "gap_m": 1.0,
+      "interaction_J": -0.01845168700026785,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.082056707559394,
+        -0.9999999935097381
+      ],
+      "order": 40,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.005694640811186995,
+      "fraction_shell_weight": -0.04979275953831257,
+      "gap_m": 2.0,
+      "interaction_J": -0.0072909315822048465,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0324235849365886,
+        -0.9999999974354619
+      ],
+      "order": 40,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.04135853251492336,
+      "fraction_shell_weight": -0.36163044038308834,
+      "gap_m": 0.25,
+      "interaction_J": -0.008910639384327852,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.2528731553444108,
+        -1.1066232226426262
+      ],
+      "order": 40,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.011216286751360252,
+      "fraction_shell_weight": -0.09807288776249087,
+      "gap_m": 0.5,
+      "interaction_J": -0.0034017135954421776,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.1588526729474404,
+        -1.0718624026598809
+      ],
+      "order": 40,
+      "residual": 6.661338147750939e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0020212286911679865,
+      "fraction_shell_weight": -0.017673204953252843,
+      "gap_m": 1.0,
+      "interaction_J": -0.0008652093372366267,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.082056704380674,
+        -1.0391044927944506
+      ],
+      "order": 40,
+      "residual": 2.0816681711721685e-17,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.00020468076786117886,
+      "fraction_shell_weight": -0.0017896862320460395,
+      "gap_m": 2.0,
+      "interaction_J": -0.0001280327051526468,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0324235837181783,
+        -1.0159270966563374
+      ],
+      "order": 40,
+      "residual": 4.440892098500626e-16,
+      "scale_eV": 1000.0,
+      "shell_weight_N": 0.1143668449788429
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.25,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 6,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.5,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 6,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 1.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 6,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 2.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 6,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -25070.015549001488,
+      "fraction_shell_weight": -1.0814392845826017,
+      "gap_m": 0.25,
+      "interaction_J": -11299.049002604466,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.2473812442467764,
+        -0.9961405763809316
+      ],
+      "order": 6,
+      "residual": 2.7755575615628914e-17,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -11273.242328486764,
+      "fraction_shell_weight": -0.4862911670244495,
+      "gap_m": 0.5,
+      "interaction_J": -7121.278854231203,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.1559131943920151,
+        -0.9975675800855756
+      ],
+      "order": 6,
+      "residual": 2.7755575615628914e-17,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -4155.425360511433,
+      "fraction_shell_weight": -0.1792515932119902,
+      "gap_m": 1.0,
+      "interaction_J": -3684.900161878659,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0806771602424745,
+        -0.99874134622167
+      ],
+      "order": 6,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -1137.6616515082283,
+      "fraction_shell_weight": -0.049075039466942874,
+      "gap_m": 2.0,
+      "interaction_J": -1457.3974934066403,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.031908243357292,
+        -0.9995021957770847
+      ],
+      "order": 6,
+      "residual": 3.469446951953614e-18,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -7196.848699342319,
+      "fraction_shell_weight": -0.31044874676896533,
+      "gap_m": 0.25,
+      "interaction_J": -1312.3264153588825,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.245135477085676,
+        -1.098463563350073
+      ],
+      "order": 6,
+      "residual": 3.3306690738754696e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -1794.8720078913182,
+      "fraction_shell_weight": -0.07742496594536954,
+      "gap_m": 0.5,
+      "interaction_J": -379.3678970005326,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.1545818809173367,
+        -1.066728998823092
+      ],
+      "order": 6,
+      "residual": 1.3877787807814457e-17,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -229.88042996162082,
+      "fraction_shell_weight": -0.009916297308684263,
+      "gap_m": 1.0,
+      "interaction_J": -11.939114192972713,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0800208718317037,
+        -1.0364516985920873
+      ],
+      "order": 6,
+      "residual": 6.179952383167375e-18,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": 9.221891198975728,
+      "fraction_shell_weight": 0.0003978025223488987,
+      "gap_m": 2.0,
+      "interaction_J": 39.7114899419521,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.031656151344374,
+        -1.014880083507291
+      ],
+      "order": 6,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.25,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 12,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.5,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 12,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 1.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 12,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 2.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 12,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -25240.02326269145,
+      "fraction_shell_weight": -1.0887728668018486,
+      "gap_m": 0.25,
+      "interaction_J": -11310.877499488954,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.2476402172166414,
+        -0.9961365361134503
+      ],
+      "order": 12,
+      "residual": 4.440892098500626e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -11279.50946555426,
+      "fraction_shell_weight": -0.48656151102217887,
+      "gap_m": 0.5,
+      "interaction_J": -7121.923220058437,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.1559273021297596,
+        -0.9975673599891149
+      ],
+      "order": 12,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -4155.507486256211,
+      "fraction_shell_weight": -0.1792551358506657,
+      "gap_m": 1.0,
+      "interaction_J": -3684.9124292155043,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0806774288234011,
+        -0.9987413420315077
+      ],
+      "order": 12,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -1137.661883756483,
+      "fraction_shell_weight": -0.049075049485380474,
+      "gap_m": 2.0,
+      "interaction_J": -1457.3975434419015,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0319082444527632,
+        -0.999502195759994
+      ],
+      "order": 12,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -7289.770799366551,
+      "fraction_shell_weight": -0.31445710524707243,
+      "gap_m": 0.25,
+      "interaction_J": -1318.1164783820404,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.2453908151451967,
+        -1.0985203515290132
+      ],
+      "order": 12,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -1797.2729067954028,
+      "fraction_shell_weight": -0.07752853294907217,
+      "gap_m": 0.5,
+      "interaction_J": -379.5851878176925,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.1545958126298363,
+        -1.0667331179359891
+      ],
+      "order": 12,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -229.8988356239846,
+      "fraction_shell_weight": -0.009917091269354136,
+      "gap_m": 1.0,
+      "interaction_J": -11.941572356129278,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0800211373960036,
+        -1.036451794535176
+      ],
+      "order": 12,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": 9.22186092481405,
+      "fraction_shell_weight": 0.00039780121641960314,
+      "gap_m": 2.0,
+      "interaction_J": 39.711483789902985,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0316561524282237,
+        -1.014880083939022
+      ],
+      "order": 12,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.25,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 24,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.5,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 24,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 1.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 24,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 2.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 24,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -25240.501645927106,
+      "fraction_shell_weight": -1.0887935027054487,
+      "gap_m": 0.25,
+      "interaction_J": -11310.895492500675,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.2476406111554255,
+        -0.9961365299675653
+      ],
+      "order": 24,
+      "residual": 4.440892098500626e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -11279.511010172988,
+      "fraction_shell_weight": -0.48656157765202873,
+      "gap_m": 0.5,
+      "interaction_J": -7121.923308576606,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.1559273040677753,
+        -0.9975673599588797
+      ],
+      "order": 24,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -4155.507487280808,
+      "fraction_shell_weight": -0.17925513589486347,
+      "gap_m": 1.0,
+      "interaction_J": -3684.912429306018,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0806774288253826,
+        -0.9987413420314767
+      ],
+      "order": 24,
+      "residual": 4.440892098500626e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -1137.6618837565554,
+      "fraction_shell_weight": -0.0490750494853836,
+      "gap_m": 2.0,
+      "interaction_J": -1457.397543441911,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0319082444527634,
+        -0.999502195759994
+      ],
+      "order": 24,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -7290.049201160015,
+      "fraction_shell_weight": -0.3144691145988721,
+      "gap_m": 0.25,
+      "interaction_J": -1318.1264170245697,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.2453912029074616,
+        -1.0985204259121606
+      ],
+      "order": 24,
+      "residual": 6.661338147750939e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -1797.273559231784,
+      "fraction_shell_weight": -0.07752856109306482,
+      "gap_m": 0.5,
+      "interaction_J": -379.5852224658663,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.1545958145413273,
+        -1.0667331184511137
+      ],
+      "order": 24,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -229.89883585021528,
+      "fraction_shell_weight": -0.009917091279112994,
+      "gap_m": 1.0,
+      "interaction_J": -11.941572374113466,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0800211373979625,
+        -1.0364517945358855
+      ],
+      "order": 24,
+      "residual": 6.938893903907228e-18,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": 9.221860924808277,
+      "fraction_shell_weight": 0.0003978012164193541,
+      "gap_m": 2.0,
+      "interaction_J": 39.71148378990205,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.031656152428224,
+        -1.014880083939022
+      ],
+      "order": 24,
+      "residual": 3.3306690738754696e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.25,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 40,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 0.5,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 40,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 1.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 40,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -0.0,
+      "fraction_shell_weight": -0.0,
+      "gap_m": 2.0,
+      "interaction_J": 0.0,
+      "kind": "vacuum",
+      "loaded_exterior_dipole": [
+        1.0,
+        -1.0
+      ],
+      "order": 40,
+      "residual": 0.0,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -25240.501649410722,
+      "fraction_shell_weight": -1.0887935028557205,
+      "gap_m": 0.25,
+      "interaction_J": -11310.895492570204,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.2476406111569478,
+        -0.9961365299675418
+      ],
+      "order": 40,
+      "residual": 8.326672684688674e-17,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -11279.511010173079,
+      "fraction_shell_weight": -0.4865615776520327,
+      "gap_m": 0.5,
+      "interaction_J": -7121.92330857661,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.1559273040677753,
+        -0.9975673599588797
+      ],
+      "order": 40,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -4155.50748728081,
+      "fraction_shell_weight": -0.17925513589486355,
+      "gap_m": 1.0,
+      "interaction_J": -3684.912429306019,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0806774288253829,
+        -0.9987413420314767
+      ],
+      "order": 40,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -1137.6618837565554,
+      "fraction_shell_weight": -0.0490750494853836,
+      "gap_m": 2.0,
+      "interaction_J": -1457.397543441911,
+      "kind": "conductor",
+      "loaded_exterior_dipole": [
+        1.0319082444527634,
+        -0.999502195759994
+      ],
+      "order": 40,
+      "residual": 1.1102230246251565e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -7290.049203219434,
+      "fraction_shell_weight": -0.3144691146877088,
+      "gap_m": 0.25,
+      "interaction_J": -1318.1264170646386,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.2453912029089573,
+        -1.09852042591243
+      ],
+      "order": 40,
+      "residual": 4.440892098500626e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -1797.273559231824,
+      "fraction_shell_weight": -0.07752856109306655,
+      "gap_m": 0.5,
+      "interaction_J": -379.5852224658638,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.1545958145413273,
+        -1.0667331184511142
+      ],
+      "order": 40,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": -229.89883585021528,
+      "fraction_shell_weight": -0.009917091279112994,
+      "gap_m": 1.0,
+      "interaction_J": -11.941572374113466,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.0800211373979625,
+        -1.0364517945358855
+      ],
+      "order": 40,
+      "residual": 6.938893903907228e-18,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    },
+    {
+      "craft_field_force_up_N": 9.221860924808746,
+      "fraction_shell_weight": 0.0003978012164193743,
+      "gap_m": 2.0,
+      "interaction_J": 39.71148378990236,
+      "kind": "dielectric",
+      "loaded_exterior_dipole": [
+        1.031656152428224,
+        -1.0148800839390222
+      ],
+      "order": 40,
+      "residual": 2.220446049250313e-16,
+      "scale_eV": 21147.425268811283,
+      "shell_weight_N": 23182.083272180786
+    }
+  ],
+  "run": "G01-Q",
+  "shell_radius_m": 2,
+  "whole_craft_lift": "uncertified"
+}

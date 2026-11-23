@@ -1,0 +1,18 @@
+{
+  "codes_sha256": {
+    "action01.py": "90b580192ed2cac027d71954ce61ffd06351ab3bb3111428f8c78d5edfbd16cb",
+    "action01_core.py": "f4942f0496cf608a7f047743feb80c06bcb59505cf356a391fb6486193948940",
+    "action01_verify.py": "a763eef32a44bff164c039093d655a2bd40be7facef66feafe9a7313933e8c1c"
+  },
+  "disk_soft_limit_mib": 4,
+  "legacy_AGMINER_write_or_execution": "NONE",
+  "level": "L0",
+  "old_GRAVITY2_00_code_modified": false,
+  "preset": "quick",
+  "program": "GRAVITY2-01",
+  "rss_soft_limit_mib": 384,
+  "run_id": "g201_20261121T041450Z_f4c901cc",
+  "science_claim": "ACTION_PROVENANCE_INVENTORY_ONLY",
+  "time_limit_s": 60.0,
+  "utc": "2026-11-21T04:14:50.495971+00:00"
+}

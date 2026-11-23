@@ -1,0 +1,39 @@
+{
+  "action_id": "C1_TWO_CHARGED_SCALARS_EINSTEIN_SOURCE",
+  "candidate_id": "C1_HARMONIC_PHASE",
+  "complete_source_action": false,
+  "fingerprint": "6cf6b98078bb46de80afc5ba641cc51f74718d8aaa971ad11a11f22b736dba96",
+  "gate_G05": {
+    "equation": "|Q|^2<=2*q^2*N*E_time, N=int f^2, E_time=int (omega-qA0)^2*f^2/2",
+    "example_exact": {
+      "E": "27",
+      "N": "6",
+      "Q": "28"
+    },
+    "missing": [
+      "finite stable solution of coupled source+X/Y Euler equations",
+      "source/support boundaries",
+      "realizable current and total energy in SI",
+      "loaded R3B exterior response"
+    ],
+    "scope": "NECESSARY_FLAT_NORMAL_FRAME_NOT_FINITE_SOURCE_PROOF",
+    "theorem": "STATIONARY_TEMPORAL_CURRENT_CAPACITY_INEQUALITY",
+    "verdict": "UNDERDETERMINED"
+  },
+  "level": "L1",
+  "loaded_simulation": false,
+  "other_gates": {
+    "G01_ACTION": "INCOMPLETE_SUPPORT_EARTH_BOUNDARY",
+    "G02_VARIATION": "SCOPED_IDENTITIES_PRIOR_G203A_NOT_NEW_FULL_EOM",
+    "G03_WARD": "SCOPED_PRIOR_G203A_NOT_FULL_DIFEOMORPHISM_BIANCHI",
+    "G04_HEALTH": "NOT_PROVEN",
+    "G06_LOAD": "NOT_AUTHORIZED",
+    "G07_METRIC": "NOT_SOLVED_EINSTEIN",
+    "G08_ENERGY": "NOT_CERTIFIED",
+    "G09_EXTERIOR": "NOT_RUN",
+    "G10_REACTION": "NOT_DERIVED",
+    "G11_REALISM": "NOT_CERTIFIED"
+  },
+  "parent_fingerprint": "8cde32519fac505343556163bc8973e3e8d283d55848fed33ccc0f8683b22eec",
+  "qualified_physical_survivor": false
+}

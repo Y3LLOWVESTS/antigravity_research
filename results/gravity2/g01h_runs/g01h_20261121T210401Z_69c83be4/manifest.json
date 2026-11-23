@@ -1,0 +1,30 @@
+{
+  "parents": {
+    "F0D": {
+      "path": "results/data/delta1_f0d_20261120T231924Z_vCnB6I/science.json",
+      "sha256": "2db67eea46adf84327c14c0177c1863148893217a377ac67a1f3a39ec9cb6465"
+    },
+    "F0F": {
+      "path": "results/data/delta1_f0f_20261121T032200Z_42xBGt/science.json",
+      "sha256": "145f7db67b440cbd5e5f0c2023ccb1ac7ad9d2151b777f459e1c2fc3964c9e73"
+    },
+    "F0F_VERIFIED": {
+      "path": "results/data/delta1_f0f_20261121T032200Z_42xBGt/verification.json",
+      "sha256": "db52ae4365636ec72cb399fa380c13d5333d98db64aaa8d03e5c8e07e0376c50"
+    },
+    "F0G": {
+      "path": "results/data/delta1_f0g_20261121T033524Z_929whN/science.json",
+      "sha256": "c8e74278c73b4d74f43560f7dec275c8061ef3f83c33d52afe703a7360a91c1f"
+    },
+    "F0G_VERIFIED": {
+      "path": "results/data/delta1_f0g_20261121T033524Z_929whN/verification.json",
+      "sha256": "b2def664dae9363fffc4be1d9d6e145f94e6d6ec9b793d0f24d4e39a33cbd566"
+    }
+  },
+  "run_id": "g01h_20261121T210401Z_69c83be4",
+  "schema": "gravity2.g01h.manifest.v1",
+  "source_sha256": {
+    "scripts/g01h_independent_v1.py": "217a59305efd06d675f5fb3a31387ded84e50ef1e64a8cc8e580002c1f19ec37",
+    "scripts/gravity2_g01h_laue_v1.py": "d4e8692fbc0b4e2fbb5e69bf02693c1fc912c04637d20f69414e6fe8a8661d78"
+  }
+}

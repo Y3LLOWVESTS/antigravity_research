@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-11-21T06:39:24.968469+00:00",
+  "disk_soft_mib": 4,
+  "legacy_AGMINER": "READ_ONLY_HASH_NO_EXECUTION",
+  "level": "L0",
+  "preset": "quick",
+  "prior_GRAVITY2_modifications": "NONE",
+  "producer_sha256": {
+    "bridge06.py": "51b2bd92ffca62d8420bc2edecfefd5c64bf5b12ea6973e10d758fd0057834a6",
+    "bridge06_check.py": "53a84a844feea3d65236f89e83cd23347b97526b7e873f8d2b05c805d826b270",
+    "bridge06_core.py": "fa22add1c6696aa1fe462518879cb446dcbda9951ecd48875c5a172f2828c04f"
+  },
+  "program": "GRAVITY2-06",
+  "rss_soft_mib": 384,
+  "run_id": "g206_20261121T063924Z_a430c5c5",
+  "scope": "NOT_FULL_R3B_SOURCE_OR_EINSTEIN",
+  "seconds": 30.0,
+  "workers": 1
+}

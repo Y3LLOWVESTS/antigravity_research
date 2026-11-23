@@ -1,0 +1,548 @@
+{
+  "date_utc": "2026-11-22T04:10:04.035087+00:00",
+  "decision": "SOURCE_MICROPHYSICS_AND_SI_COST_HOLD",
+  "earth_craft_Einstein_force_derived": false,
+  "energy_cap_j": 10000000.0,
+  "experiment": "G01-T0T1",
+  "full_Lorentzian_health": false,
+  "grids": [
+    {
+      "control_modes": [
+        {
+          "ell": 1,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 330377.6800623978,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 9.161753475436506e-12,
+          "signed_static_residual": 1.9568601397102715e-15
+        },
+        {
+          "ell": 1,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 225480.45084875403,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 1.966899685808434e-11,
+          "signed_static_residual": 8.241453336424405e-16
+        },
+        {
+          "ell": 2,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 326321.58111783385,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 9.390925750816888e-12,
+          "signed_static_residual": 1.1106667606413733e-15
+        },
+        {
+          "ell": 2,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 393294.49490374577,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 6.464936523373633e-12,
+          "signed_static_residual": 8.578957978398068e-16
+        },
+        {
+          "ell": 4,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 329634.71975181607,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 9.203099181511877e-12,
+          "signed_static_residual": 9.678790879331006e-16
+        },
+        {
+          "ell": 4,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 734801.9503388086,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 1.8520785386449923e-12,
+          "signed_static_residual": 7.086271066996162e-16
+        },
+        {
+          "ell": 8,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 344973.65207156254,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 8.402879723700169e-12,
+          "signed_static_residual": 7.443466523975691e-16
+        },
+        {
+          "ell": 8,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 1462728.333514118,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 4.673827205614079e-13,
+          "signed_static_residual": 5.869470847554345e-16
+        },
+        {
+          "ell": 12,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 362752.67748262803,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 7.599390238923801e-12,
+          "signed_static_residual": 9.883910766255598e-16
+        },
+        {
+          "ell": 12,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 2268009.7778990776,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 1.9440621949153028e-13,
+          "signed_static_residual": 3.8354817913001513e-16
+        }
+      ],
+      "direct_sparse_parent_validation": {
+        "direct_relative_residual": 4.591974766629801e-15,
+        "field_energy_relative_difference": 2.2768762100455762e-14,
+        "lambda": 1.0,
+        "minimum_acceleration_absolute_difference_m_s2": 1.0238210279567284e-10,
+        "pass": true,
+        "theta_sign": 1.0,
+        "vector_relative_difference": 8.938955551982844e-13
+      },
+      "h_m": 0.075,
+      "loaded_response_rank_at_rel_1e_8": 10,
+      "loaded_response_singular_values_m_s2_per_sqrt_j": [
+        211.86135957223485,
+        37.67127516859362,
+        22.383270182204356,
+        5.733988053649919,
+        2.7448242341791587,
+        0.3061717388179303,
+        0.21137626228026168,
+        0.125385916217809,
+        0.007615842010009199,
+        0.0008886293348106727
+      ],
+      "lorentzian_coupling_signs": [
+        1,
+        -1
+      ],
+      "magnetic_monopole": "ANALYTICALLY_ABSENT_ELL_GE_1",
+      "no_electric_monopole_quadrature_max_error": 2.9418741748221677e-15,
+      "original_loaded_energy_j": 1.4433196404756485,
+      "original_loaded_min_m_s2": -46.40607408464625,
+      "original_relative_residual": 2.0507704565179178e-15,
+      "payload_count": 22,
+      "rows": [
+        {
+          "controls": [
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0
+          ],
+          "directional_min_finite_difference_slope": 0.0,
+          "full_bilinear_field_energy_j": 1.4433196404756485,
+          "full_bilinear_min_m_s2": -46.40607408464625,
+          "linearized_min_m_s2": -46.40607408464625,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 0.0,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 1.4433196404756485,
+          "reverse_direction_min_m_s2": -46.40607408464625,
+          "source_cost_j": null,
+          "success": true
+        },
+        {
+          "controls": [
+            0.2173419377503894,
+            -0.25,
+            0.00430443635009975,
+            -0.09627586269170617,
+            -0.0017740755104929406,
+            0.05916682006950265,
+            -0.013166066444520475,
+            -0.046905631820586435,
+            0.07170326016643863,
+            0.04089223205420939
+          ],
+          "directional_min_finite_difference_slope": 46.51936905414544,
+          "full_bilinear_field_energy_j": 1.0540788528462206,
+          "full_bilinear_min_m_s2": -11.54470678053153,
+          "linearized_min_m_s2": -1.1661273557864941e-05,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 0.25,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 2.09556632624055,
+          "reverse_direction_min_m_s2": -104.5834448886223,
+          "source_cost_j": null,
+          "success": true
+        },
+        {
+          "controls": [
+            0.2216259549798281,
+            -0.2777488202543551,
+            -0.00690557203441742,
+            -0.052303693027959,
+            0.010229118938922888,
+            0.026108867128598282,
+            -0.026145458314731165,
+            -0.017226949301357312,
+            0.04587533440181971,
+            -0.0023368932078094568
+          ],
+          "directional_min_finite_difference_slope": 46.4427325710659,
+          "full_bilinear_field_energy_j": 1.0145784521922725,
+          "full_bilinear_min_m_s2": -11.583141020042442,
+          "linearized_min_m_s2": -3.998504625287287e-06,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 0.5,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 2.137861601419141,
+          "reverse_direction_min_m_s2": -104.46860616243423,
+          "source_cost_j": null,
+          "success": true
+        },
+        {
+          "controls": [
+            0.22162595497982565,
+            -0.2777488202556407,
+            -0.006905572034420663,
+            -0.05230369302591481,
+            0.010229118938933251,
+            0.026108867127038582,
+            -0.02614545831483522,
+            -0.017226949300031286,
+            0.04587533440237445,
+            -0.002336893210053815
+          ],
+          "directional_min_finite_difference_slope": 46.4427325710659,
+          "full_bilinear_field_energy_j": 1.0145784521910104,
+          "full_bilinear_min_m_s2": -11.58314102004178,
+          "linearized_min_m_s2": -3.998504625285715e-06,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 1.0,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 2.1378616014212852,
+          "reverse_direction_min_m_s2": -104.46860616243622,
+          "source_cost_j": null,
+          "success": true
+        },
+        {
+          "controls": [
+            0.22162595497982565,
+            -0.2777488202556407,
+            -0.006905572034420663,
+            -0.05230369302591481,
+            0.010229118938933251,
+            0.026108867127038582,
+            -0.02614545831483522,
+            -0.017226949300031286,
+            0.04587533440237445,
+            -0.002336893210053815
+          ],
+          "directional_min_finite_difference_slope": 46.4427325710659,
+          "full_bilinear_field_energy_j": 1.0145784521910104,
+          "full_bilinear_min_m_s2": -11.58314102004178,
+          "linearized_min_m_s2": -3.998504625285715e-06,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 2.0,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 2.1378616014212852,
+          "reverse_direction_min_m_s2": -104.46860616243622,
+          "source_cost_j": null,
+          "success": true
+        }
+      ],
+      "sampled_min_shell_clearance_m": 1.0364452901376788,
+      "shell_current_divergence": "ZERO_FOR_AXISYMMETRIC_AZIMUTHAL_CURRENT",
+      "source_microphysics": "NOT_IDENTIFIED",
+      "source_shell_radius_m": 2.0,
+      "worst_point_base_sensitivity_m_s2_per_sqrt_j": [
+        108.59958831773719,
+        -70.92842746452712,
+        51.33410429635193,
+        -83.52524396727915,
+        -4.747565035610521,
+        -56.779132624281814,
+        -6.8705417695274065,
+        0.3008477764413913,
+        0.5510557242515727,
+        3.8331744342421983
+      ]
+    },
+    {
+      "control_modes": [
+        {
+          "ell": 1,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 328443.9000351849,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 9.269954428812346e-12,
+          "signed_static_residual": 3.6101009608291384e-15
+        },
+        {
+          "ell": 1,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 224139.99789103534,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 1.9904958340520954e-11,
+          "signed_static_residual": 1.1241669915579907e-15
+        },
+        {
+          "ell": 2,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 322860.39654508856,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 9.593353510663763e-12,
+          "signed_static_residual": 2.934667204817674e-15
+        },
+        {
+          "ell": 2,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 390316.5977844324,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 6.563960529162748e-12,
+          "signed_static_residual": 1.103679098337286e-15
+        },
+        {
+          "ell": 4,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 323833.0851237904,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 9.535809475382298e-12,
+          "signed_static_residual": 1.6109445535364247e-15
+        },
+        {
+          "ell": 4,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 723241.7460275404,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 1.9117584922285193e-12,
+          "signed_static_residual": 1.2782895314038046e-15
+        },
+        {
+          "ell": 8,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 333517.53307984397,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 8.990061452497628e-12,
+          "signed_static_residual": 1.1984994269504662e-15
+        },
+        {
+          "ell": 8,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 1414444.353532361,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 4.998368459459738e-13,
+          "signed_static_residual": 9.236108095481248e-16
+        },
+        {
+          "ell": 12,
+          "kind": "X_electric",
+          "normalization_to_one_loaded_field_j": 344011.0084743558,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 8.449972961011452e-12,
+          "signed_static_residual": 1.1121239381590636e-15
+        },
+        {
+          "ell": 12,
+          "kind": "Y_magnetic",
+          "normalization_to_one_loaded_field_j": 2152280.8508356703,
+          "physical_Y_source_identified": false,
+          "raw_loaded_energy_j": 2.1587488367772795e-13,
+          "signed_static_residual": 6.850199184550774e-16
+        }
+      ],
+      "direct_sparse_parent_validation": null,
+      "h_m": 0.05,
+      "loaded_response_rank_at_rel_1e_8": 10,
+      "loaded_response_singular_values_m_s2_per_sqrt_j": [
+        619.0018628528807,
+        188.1138623168119,
+        51.923933802875716,
+        6.533473133780047,
+        4.429757908479161,
+        1.510754699127381,
+        0.2463117105974294,
+        0.20134458505653405,
+        0.03743736299783401,
+        0.01600762835273879
+      ],
+      "lorentzian_coupling_signs": [
+        1,
+        -1
+      ],
+      "magnetic_monopole": "ANALYTICALLY_ABSENT_ELL_GE_1",
+      "no_electric_monopole_quadrature_max_error": 2.946644664381104e-15,
+      "original_loaded_energy_j": 1.5211390382733165,
+      "original_loaded_min_m_s2": -129.67185782242464,
+      "original_relative_residual": 3.4098370552798215e-15,
+      "payload_count": 48,
+      "rows": [
+        {
+          "controls": [
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0,
+            -0.0
+          ],
+          "directional_min_finite_difference_slope": 0.0,
+          "full_bilinear_field_energy_j": 1.5211390382733163,
+          "full_bilinear_min_m_s2": -129.67185782242464,
+          "linearized_min_m_s2": -129.67185782242464,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 0.0,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 1.5211390382733163,
+          "reverse_direction_min_m_s2": -129.67185782242464,
+          "source_cost_j": null,
+          "success": true
+        },
+        {
+          "controls": [
+            0.22014018932873863,
+            -0.25,
+            0.014232944993807943,
+            -0.11270469246926972,
+            -0.012385196924314884,
+            0.07290735406100966,
+            0.014518511549614956,
+            -0.060074341990196956,
+            0.032231518931909786,
+            0.06308669758578138
+          ],
+          "directional_min_finite_difference_slope": 129.6737429096595,
+          "full_bilinear_field_energy_j": 1.1234727257924237,
+          "full_bilinear_min_m_s2": -32.41691701979913,
+          "linearized_min_m_s2": -6.893171510292431e-05,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 0.25,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 2.194768908236797,
+          "reverse_direction_min_m_s2": -291.7644028392393,
+          "source_cost_j": null,
+          "success": true
+        },
+        {
+          "controls": [
+            0.2207984894027397,
+            -0.2741371330813479,
+            0.012997092264253565,
+            -0.07399228023921679,
+            -0.012446729051180638,
+            0.04319737897641226,
+            0.01531683904618273,
+            -0.03381904935714275,
+            0.020883854576967956,
+            0.022291238387058303
+          ],
+          "directional_min_finite_difference_slope": 129.6718198030078,
+          "full_bilinear_field_energy_j": 1.0858624055983124,
+          "full_bilinear_min_m_s2": -32.41790967348207,
+          "linearized_min_m_s2": -3.801941230699175e-05,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 0.5,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 2.2237352195579816,
+          "reverse_direction_min_m_s2": -291.76154927950694,
+          "source_cost_j": null,
+          "success": true
+        },
+        {
+          "controls": [
+            0.220798489402755,
+            -0.274137133080984,
+            0.012997092264184872,
+            -0.07399228023984898,
+            -0.01244672905105012,
+            0.043197378976974406,
+            0.015316839045863515,
+            -0.03381904935783517,
+            0.020883854577964864,
+            0.022291238387944133
+          ],
+          "directional_min_finite_difference_slope": 129.6718198030078,
+          "full_bilinear_field_energy_j": 1.0858624055988533,
+          "full_bilinear_min_m_s2": -32.41790967348253,
+          "linearized_min_m_s2": -3.8019412307896405e-05,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 1.0,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 2.223735219557569,
+          "reverse_direction_min_m_s2": -291.7615492795055,
+          "source_cost_j": null,
+          "success": true
+        },
+        {
+          "controls": [
+            0.220798489402755,
+            -0.274137133080984,
+            0.012997092264184872,
+            -0.07399228023984898,
+            -0.01244672905105012,
+            0.043197378976974406,
+            0.015316839045863515,
+            -0.03381904935783517,
+            0.020883854577964864,
+            0.022291238387944133
+          ],
+          "directional_min_finite_difference_slope": 129.6718198030078,
+          "full_bilinear_field_energy_j": 1.0858624055988533,
+          "full_bilinear_min_m_s2": -32.41790967348253,
+          "linearized_min_m_s2": -3.8019412307896405e-05,
+          "meets_1g_full_bilinear": false,
+          "mode_bound": 2.0,
+          "physical_gravity_gate": "NOT_EVALUATED",
+          "physical_source_gate": "HOLD_UNIDENTIFIED_XY_SHELL_MATTER",
+          "reverse_direction_field_energy_j": 2.223735219557569,
+          "reverse_direction_min_m_s2": -291.7615492795055,
+          "source_cost_j": null,
+          "success": true
+        }
+      ],
+      "sampled_min_shell_clearance_m": 1.0041637771601337,
+      "shell_current_divergence": "ZERO_FOR_AXISYMMETRIC_AZIMUTHAL_CURRENT",
+      "source_microphysics": "NOT_IDENTIFIED",
+      "source_shell_radius_m": 2.0,
+      "worst_point_base_sensitivity_m_s2_per_sqrt_j": [
+        333.8817110542169,
+        -164.23638513707968,
+        192.9981421353569,
+        -215.38049687136626,
+        22.912395426770466,
+        -178.40904627350088,
+        -23.50426380015082,
+        -18.8989235860049,
+        -1.3077349370088303,
+        10.013232644177059
+      ]
+    }
+  ],
+  "loaded_response": "LINEARIZED_FROZEN_BETA_SOURCE_INPUT_WITH_EXACT_BILINEAR_ACC",
+  "model": "ORIGINAL_R3X1_SIGNED_FROZEN_BETA_IDEAL_SHELL_CONTROLS",
+  "neutral_matter_equilibrium_varied": false,
+  "operating_energy_certified": false,
+  "parents": {
+    "results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11",
+    "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+    "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+    "src/antigravity_research/agminer/hook17_fdual_f_r3x1_lorentzian_sign_audit.py": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531"
+  },
+  "physical_qualified_survivors": 0,
+  "physical_research_maturity_percent_not_updated": 37,
+  "source_action_identified": false,
+  "source_sha256": "57efe5406cd8dde4a9a040a102e9781c2fbb22508fe323d5465ea0928921a3b0",
+  "statement": "Ideal shell-source response, not physical gravitational lift",
+  "target_acceleration_m_s2": 9.80665
+}

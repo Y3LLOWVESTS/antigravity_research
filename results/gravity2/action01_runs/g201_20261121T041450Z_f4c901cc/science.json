@@ -1,0 +1,218 @@
+{
+  "006D_replaced": false,
+  "complete_covariant_action": "NOT_DERIVED",
+  "complete_energy": "NOT_CERTIFIED",
+  "evidence": {
+    "action_terms": {
+      "Earth_matter_and_whole_craft_force_action": "NOT_IDENTIFIED_IN_AUDITED_FILES",
+      "X_and_Y_complete_canonical_covariant_EOM": "NOT_IDENTIFIED_AS_COMPLETE_DYNAMICAL_SYSTEM",
+      "complete_SI_source_and_operating_energy": "NOT_CERTIFIED",
+      "einstein_hilbert_and_metric_variation": "NOT_IDENTIFIED_AS_COMPLETE_COVARIANT_VARIATION",
+      "finite_real_source_matter_action_and_JX_JY": "NOT_IDENTIFIED_IN_AUDITED_FILES",
+      "healthy_constrained_dynamic_modes": "NOT_DERIVED_FOR_COMPLETE_ACTION",
+      "metric_Hodge_chain_rule_for_P": "NOT_INDEPENDENTLY_DERIVED_HERE",
+      "neutral_material_euler_and_interface_tractions": "NOT_IDENTIFIED_AS_DERIVED_FULL_ACTION",
+      "off_shell_Ward_Noether_Bianchi": "NOT_DERIVED_FOR_COMPLETE_ACTION",
+      "source_boundary_and_support_stress_action": "NOT_IDENTIFIED_IN_AUDITED_FILES"
+    },
+    "capacity_result": "RECORDED_NOT_RECOMPUTED",
+    "complete_energy": "NOT_CERTIFIED",
+    "decision": "ACTION_COMPLETENESS_ATLAS_NO_PHYSICAL_PROMOTION",
+    "gates": {
+      "G00_PARENT": "PASS_SCOPED",
+      "G01_ACTION": "UNDERDETERMINED_IN_AUDITED_CODE",
+      "G02_VARIATION": "NOT_RUN_FULL_VARIATION_MISSING",
+      "G03_WARD": "NOT_RUN",
+      "G04_HEALTH": "NOT_RUN",
+      "G05_SOURCE": "NOT_RUN",
+      "G06_LOAD": "NOT_RUN",
+      "G07_METRIC": "NOT_RUN",
+      "G08_ENERGY": "NOT_RUN",
+      "G09_EXTERIOR": "NOT_RUN",
+      "G10_REACTION": "NOT_RUN",
+      "G11_REALISM": "NOT_RUN"
+    },
+    "gravity2_00_parent": {
+      "run_id": "g2_20261121T040745Z_3efae76f",
+      "science_sha256_actual": "d863290c37145b65d584915147e586d087f88d327a1a5f648f9e0e2447e1f890",
+      "science_sha256_expected": "d863290c37145b65d584915147e586d087f88d327a1a5f648f9e0e2447e1f890",
+      "status": "MATCH",
+      "verification_sha256_actual": "6f13463781dc1a6c75ea4d2a41ea0328b7ec433923608eafe8e572f19545a3c4",
+      "verification_sha256_expected": "6f13463781dc1a6c75ea4d2a41ea0328b7ec433923608eafe8e572f19545a3c4"
+    },
+    "historical_classification_correction": {
+      "F2_strong_payload_rescue": "A12C_F2_SECTOR_NOT_R3B_MIXED_LOADED",
+      "actual_R3B_mixed_loading": "R3B_MIXED_LOADED_AND_R3X1_LORENTZ_SIGN",
+      "mutated_prior_evidence": false
+    },
+    "historical_loaded_min_acceleration_m_s2": -129.67185782242464,
+    "historical_loaded_result": "RECORDED_NOT_RERUN",
+    "historical_prescribed_capacity_J": 1.5429162116460216,
+    "method": "READ_ONLY_AST_WITH_PINNED_SHA; NO_LEGACY_IMPORT_EXECUTION",
+    "parents": {
+      "A12C_F2_LOAD_NOT_R3B": {
+        "actual_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "expected_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "relative_path": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+        "status": "MATCH"
+      },
+      "DELTA1_02_RECIPROCITY": {
+        "actual_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "expected_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "relative_path": "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py",
+        "status": "MATCH"
+      },
+      "R3B_MIXED_LOADED": {
+        "actual_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "expected_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py",
+        "status": "MATCH"
+      },
+      "R3B_PRELOADED": {
+        "actual_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "expected_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+        "status": "MATCH"
+      },
+      "R3X1_LORENTZ_SIGN": {
+        "actual_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "expected_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_r3x1_lorentzian_sign_audit.py",
+        "status": "MATCH"
+      }
+    },
+    "physical_lift": "NOT_DERIVED",
+    "program": "GRAVITY2-01_ACTION_PROVENANCE_COMPILER",
+    "qualified_source_actions": 0,
+    "sector_inventory": {
+      "Earth_craft_system": "NOT_DERIVED",
+      "Einstein_metric": "NOT_SOLVED",
+      "finite_torus_density": "PRESCRIBED_PROFILE_NOT_DYNAMICAL_MATERIAL",
+      "mixed_E_B_preloaded_geometry": "PRESCRIBED_AND_RECONSTRUCTED_R3B",
+      "source_current": "FROZEN_OR_RECONSTRUCTED_NOT_MICROSCOPIC_ACTION_DERIVED",
+      "source_support_material": "NOT_DERIVED",
+      "static_mixed_potentials": "NUMERICALLY_SOLVED_IN_FROZEN_BETA_REDUCTION_R3C_R3X1",
+      "universal_conformal_metric": "DECLARED_AS_ASSUMPTION_NOT_COMPLETE_EINSTEIN_SOLUTION"
+    },
+    "sign_negative_control": {
+      "dQ_da_exact": "409/280",
+      "dQ_de_exact": "-13/420",
+      "independent_central_difference_rational_exact": true,
+      "not_the_full_R3B_action": true,
+      "positive_K_cross_blocks_exact": [
+        "4/3",
+        "-4/3"
+      ],
+      "status": "PASS_EXACT_SCOPED_STATIC_QUADRATIC"
+    },
+    "witnesses": {
+      "A12C_F2_LOAD_NOT_R3B": [
+        {
+          "end_line": 2356,
+          "function": "solve_strong_payload_loading",
+          "start_line": 1707,
+          "status": "FOUND"
+        },
+        {
+          "end_line": 562,
+          "function": "payload_density_profile_kg_m3",
+          "start_line": 475,
+          "status": "FOUND"
+        }
+      ],
+      "DELTA1_02_RECIPROCITY": [
+        {
+          "end_line": 211,
+          "function": "theorem",
+          "start_line": 177,
+          "status": "FOUND"
+        },
+        {
+          "end_line": 223,
+          "function": "perfect_mirror_control",
+          "start_line": 214,
+          "status": "FOUND"
+        }
+      ],
+      "R3B_MIXED_LOADED": [
+        {
+          "end_line": 2702,
+          "function": "_build_same_action_coupling",
+          "start_line": 2280,
+          "status": "FOUND"
+        },
+        {
+          "end_line": 2982,
+          "function": "_prepare_low_rank_loaded_system",
+          "start_line": 2790,
+          "status": "FOUND"
+        },
+        {
+          "end_line": 3297,
+          "function": "_solve_loaded_deviation",
+          "start_line": 2985,
+          "status": "FOUND"
+        },
+        {
+          "end_line": 3856,
+          "function": "_run_grid",
+          "start_line": 3357,
+          "status": "FOUND"
+        }
+      ],
+      "R3B_PRELOADED": [
+        {
+          "end_line": 1928,
+          "function": "mirror_global_energy_gate",
+          "start_line": 1859,
+          "status": "FOUND"
+        },
+        {
+          "end_line": 2033,
+          "function": "surface_charge_diagnostics",
+          "start_line": 1931,
+          "status": "FOUND"
+        },
+        {
+          "end_line": 2237,
+          "function": "mirror_payload_reconstruction",
+          "start_line": 2036,
+          "status": "FOUND"
+        }
+      ],
+      "R3X1_LORENTZ_SIGN": [
+        {
+          "end_line": 170,
+          "function": "constitutive_action_gate",
+          "start_line": 113,
+          "status": "FOUND"
+        },
+        {
+          "end_line": 291,
+          "function": "weighted_sign_certificate",
+          "start_line": 173,
+          "status": "FOUND"
+        },
+        {
+          "end_line": 717,
+          "function": "run_grid",
+          "start_line": 664,
+          "status": "FOUND"
+        }
+      ]
+    }
+  },
+  "execution_status": "COMPLETED",
+  "full_regression": "NOT_RUN",
+  "new_source_action_survivors": 0,
+  "physical_lift": "NOT_DERIVED",
+  "program": "GRAVITY2-01",
+  "resource": {
+    "elapsed_s": 0.2548,
+    "limit_class": "APPLICATION_WATCHDOG_SOFT_LIMITS",
+    "memory_monitor": "PSUTIL_SOFT_LIMIT",
+    "peak_worker_RSS_MiB": 24.531,
+    "worker_exit_code": 0
+  },
+  "run_id": "g201_20261121T041450Z_f4c901cc"
+}

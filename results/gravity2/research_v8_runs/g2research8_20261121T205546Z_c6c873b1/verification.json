@@ -1,0 +1,8 @@
+{
+  "manifest_sha256": "3d5795768e19961c2ed17a16ac29e5d6fbfe74f9118fbc72196b12dbe2614dda",
+  "physical_gravity": false,
+  "review_checks": 15,
+  "run_id": "g2research8_20261121T205546Z_c6c873b1",
+  "science_sha256": "775e604b4146e0e346a037536f2d47156c97298ea25119deb2ae440a45978fb9",
+  "status": "PASS_SCOPED_RESEARCH_NO_LIFT"
+}

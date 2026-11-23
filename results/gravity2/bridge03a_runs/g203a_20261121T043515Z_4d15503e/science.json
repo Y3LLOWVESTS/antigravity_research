@@ -1,0 +1,129 @@
+{
+  "006D_replaced": false,
+  "complete_action": "NOT_DERIVED",
+  "complete_energy": "NOT_CERTIFIED",
+  "evidence": {
+    "Einstein_and_diffeomorphism_Bianchi": "NOT_FULLY_DERIVED",
+    "action_terms": {
+      "D_real": "u_I_mu=partial_mu a_I+q_I A_I_mu b_I; v_I_mu=partial_mu b_I-q_I A_I_mu a_I",
+      "EH": "Mpl^2/2 int sqrt(-g) R plus prescribed gravitational boundary term",
+      "Earth": "S_Earth[e^{2sigma(P)}g,psi_E] UNEXPANDED",
+      "X_Y": "-1/4 int sqrt(-g)(F_X^2+F_Y^2)",
+      "neutral": "S_neutral[e^{2sigma(P)}g,psi_n] UNEXPANDED",
+      "sigma": "sigma(P)=alpha P-beta P^2",
+      "source": "int sqrt(-g) sum[-1/2 ((D a_I)^2+(D b_I)^2)-V_I(a_I^2+b_I^2)]",
+      "supports": "S_support[g,xi,Psi_X,Psi_Y] UNEXPANDED"
+    },
+    "candidate": "C1_TWO_CHARGED_SCALARS",
+    "candidate_status": "FORMAL_COVARIANT_SECTOR_NOT_REALIZED_SOURCE",
+    "complete_covariant_action": "NOT_DERIVED",
+    "complete_energy": "NOT_CERTIFIED",
+    "decision": "BLOCKED_FOR_LOADED_SOLVER_INCOMPLETE_SOURCE_SUPPORT_AND_EARTH_ACTION",
+    "derived": {
+      "Maxwell_field_equations": "nabla_mu(F_I^{munu}-lambda *F_J^{munu})=j_I^nu; lambda=e^{4sigma}*Ttilde_trace*sigma_P; J=-delta Lsrc/dA",
+      "P_definition": "P=1/4 epsilon^{munurhosigma} F_X_munu F_Y_rhosigma",
+      "P_minkowski_control": "2",
+      "Ward_relation": "nabla_mu j_I^mu=q_I(b_I E_aI-a_I E_bI) (off shell)",
+      "dP_fixed_F": "delta P=-P/2*g^{munu} delta g_munu",
+      "dP_metric_variation_residual": "0",
+      "epsilon_convention": "epsilon^0123=+1/sqrt(-g)",
+      "gauge_Bianchi": "nabla_[mu F_I_nurho]=0; divergence of antisymmetric Euler tensor vanishes identically",
+      "matter_Einstein_stress": "T_E^{munu}=e^{6sigma}T_tilde^{munu}-e^{4sigma}P*sigma_P*Ttilde_trace*g^{munu}",
+      "metric_Hodge_chain_variation_residual": "0",
+      "metric_signature": "(-,+,+,+)",
+      "scope": "EXACT_LOCAL_4D_COMPONENT_AND_SOURCE_WARD; NO_GRAVITY_SOLUTION",
+      "source_ward": {
+        "X": "ZERO_OFF_SHELL_FULL_4D_SOURCE_JET",
+        "Y": "ZERO_OFF_SHELL_FULL_4D_SOURCE_JET"
+      },
+      "wrong_no_Hodge_negative_control": "NONZERO"
+    },
+    "full_regression": "NOT_RUN",
+    "gates": {
+      "G00_PARENT": "PASS_SCOPED",
+      "G01_ACTION": "ACTION_INCOMPLETE_SUPPORT_EARTH_BOUNDARY",
+      "G02_VARIATION": "PASS_SCOPED_4D_METRIC_SOURCE_EQUATIONS",
+      "G03_WARD": "PASS_SCOPED_4D_U1_OFFSHELL_ONLY",
+      "G04_HEALTH": "NOT_RUN_FULL_MODE_SPECTRUM",
+      "G05_SOURCE": "UNDERDETERMINED_FINITE_STABLE_CURRENT",
+      "G06_LOAD": "NOT_AUTHORIZED_MISSING_STATIONARY_SOURCE_AND_SUPPORT",
+      "G07_METRIC": "NOT_RUN_FULL_EINSTEIN",
+      "G08_ENERGY": "NOT_CERTIFIED",
+      "G09_EXTERIOR": "NOT_RUN",
+      "G10_REACTION": "NOT_DERIVED",
+      "G11_REALISM": "NOT_CERTIFIED"
+    },
+    "historical_locks": {
+      "A12C_F2_LOAD_NOT_R3B": {
+        "actual_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "expected_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "relative_path": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+        "status": "MATCH"
+      },
+      "DELTA1_02_RECIPROCITY": {
+        "actual_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "expected_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "relative_path": "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py",
+        "status": "MATCH"
+      },
+      "R3B_MIXED_LOADED": {
+        "actual_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "expected_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py",
+        "status": "MATCH"
+      },
+      "R3B_PRELOADED": {
+        "actual_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "expected_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+        "status": "MATCH"
+      },
+      "R3X1_LORENTZ_SIGN": {
+        "actual_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "expected_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_r3x1_lorentzian_sign_audit.py",
+        "status": "MATCH"
+      }
+    },
+    "historical_values": "REFERENCE_ONLY_NOT_RECOMPUTED",
+    "loaded_PDE_executed": false,
+    "missing_prerequisites": [
+      "One specified and stationary 4D support action with boundary tractions",
+      "Earth and neutral matter equations, finite torus and source geometry",
+      "Finite stable compact C1 charged source from its own equations",
+      "Metric-compatible full constrained source/field/neutral Hessian",
+      "Converged original R3B loaded negative control from same action",
+      "Physical exterior Einstein stress and Earth/whole-craft force",
+      "Complete SI energy and empirical/quantum/UV constraints"
+    ],
+    "original_R3B_historical_loaded_min_m_s2": -129.67185782242464,
+    "original_R3B_prescribed_capacity_J": 1.5429162116460216,
+    "parent_locks": {
+      "G02_SCIENCE": {
+        "actual_sha256": "f87f925417b36f8a9b319eb4fb3c54547d9d13e1e106e9c26fcf7e997895fe61",
+        "expected_sha256": "f87f925417b36f8a9b319eb4fb3c54547d9d13e1e106e9c26fcf7e997895fe61",
+        "relative_path": "results/gravity2/action02_runs/g202_20261121T042518Z_9a7f5402/science.json"
+      },
+      "G02_VERIFICATION": {
+        "actual_sha256": "b2c91f6be46c532154e5dec211af7bbd942c6c720ba0afd9fac1f184843e2b28",
+        "expected_sha256": "b2c91f6be46c532154e5dec211af7bbd942c6c720ba0afd9fac1f184843e2b28",
+        "relative_path": "results/gravity2/action02_runs/g202_20261121T042518Z_9a7f5402/verification.json"
+      }
+    },
+    "qualified_survivors": 0,
+    "whole_craft_lift": "NOT_DERIVED"
+  },
+  "execution_status": "COMPLETED",
+  "full_regression": "NOT_RUN",
+  "physical_lift": "NOT_DERIVED",
+  "program": "GRAVITY2-03A",
+  "qualified_survivors": 0,
+  "resource": {
+    "elapsed_s": 1.4239,
+    "memory_monitor": "PSUTIL_SOFT_LIMIT",
+    "monitor_kind": "SOFT_WATCHDOG",
+    "worker_exit_code": 0,
+    "worker_peak_rss_mib": 67.027
+  },
+  "run_id": "g203a_20261121T043515Z_4d15503e"
+}

@@ -1,0 +1,83 @@
+{
+  "006D_replaced": false,
+  "DEC_max_exterior_field_energy_with_strict_10MJ_total_budget_J": 7142857.142857144,
+  "DEC_necessary_bound_scope": "IF_ALL_REMAINDER_SECTORS_OBEY_DEC_AND_HAVE_NONNEGATIVE_ENERGY",
+  "DEC_required_remaining_energy_at_reference_J_min": 4000000.0,
+  "DEC_required_total_energy_at_reference_J_min": 14000000.0,
+  "DEC_strict_10MJ_feasibility_at_REFERENCE_Uext": "FAIL_CONDITIONAL_BUDGET",
+  "F0F_all_stress_standoff_energy_bound_applicable": "NO_EXTERIOR_FIELD_STRESS_OCCUPIES_GAP",
+  "F0G_exterior_only_axis_acceleration_1m_gap_reference_m_s2": -1.5035682520190877e-21,
+  "action_scoped": "EXTERIOR_STANDARD_MAXWELL_STRESS_PLUS_CONDITIONAL_STATIC_CONSERVED_COMPLETION",
+  "complete_operating_energy_equals_total_gravitating_energy": "NOT_ESTABLISHED",
+  "decision": "MUST_PROVIDE_LOCAL_SOURCED_STRESS_SUPPORT_AND_SAME_ACTION_BEFORE_ANY_PHYSICAL_PROMOTION",
+  "exterior_stress_tensor_integral_J": [
+    [
+      4000000.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4000000.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2000000.0
+    ]
+  ],
+  "far_weak_field_M_active_min_kg_if_DEC_at_reference": 1.5577100784750657e-10,
+  "far_weak_field_mass_sign_if_Utot_positive": "POSITIVE_ACTIVE_MONOPOLE_ATTRACTIVE_ASYMPTOTICALLY",
+  "gravitational_payload_response": "NOT_DERIVED",
+  "input": {
+    "reference_exterior_field_energy_J": 10000000.0,
+    "source_radius_m": 2.0,
+    "true_surface_gap_m": 1.0
+  },
+  "laue_assumptions": [
+    "STATIC",
+    "LOCAL_TOTAL_CONSERVATION_FLAT_BACKGROUND",
+    "ISOLATED_FINITE_ENERGY",
+    "VANISHING_BOUNDARY_VIRIAL_FLUX"
+  ],
+  "max_surface_abs_normal_traction_Pa": 596831.0365946075,
+  "max_surface_abs_shear_traction_Pa": 298415.51829730376,
+  "min_average_abs_xx_remainder_stress_Pa_if_confined_to_sphere": 119366.20731892152,
+  "min_average_abs_zz_remainder_stress_Pa_if_confined_to_sphere": 59683.10365946076,
+  "necessary_missing_trace_integral_J": -10000000.0,
+  "next_gate": "G01_ACTION_LOCAL_SOURCE_SUPPORT_STRESS_AND_METRIC_VARIATION",
+  "physical_survivors": 0,
+  "quantum_uv_empirical": "NOT_DERIVED",
+  "relative_exterior_stress_diagonal": [
+    0.4,
+    0.4,
+    0.2
+  ],
+  "remaining_region_volume_assumed_sphere_m3": 33.510321638291124,
+  "required_remaining_interior_and_support_integral_J": [
+    [
+      -4000000.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -4000000.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -2000000.0
+    ]
+  ],
+  "schema": "gravity2.g01h.laue.v1",
+  "source_current_support_action": "NOT_DERIVED",
+  "sourceable_Einstein_metric": "NOT_DERIVED",
+  "status": "PASS_NECESSARY_CONSERVATION_OBLIGATIONS_NOT_SOURCE_CLOSURE",
+  "surface_field_k_squared_J_per_m3": 298415.51829730376,
+  "surface_normal_traction_equator_Pa": 149207.75914865188,
+  "trace_ext_stress_integral_J": 10000000.0,
+  "whole_craft_force": "NOT_DERIVED"
+}

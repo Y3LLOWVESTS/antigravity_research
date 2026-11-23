@@ -1,0 +1,28 @@
+{
+  "AGMINER": "NOT_EXECUTED",
+  "L2_L4": "LOCKED",
+  "code_sha256": {
+    "campaign.py": "c9b4f5055b418f834ce29df954376302be53f7678db15757287327348022865c",
+    "campaign_check.py": "2b63b98dabe3011547a4952411373be35adf6a50becec2031fb1e1b2166b6b9e",
+    "campaign_check_v2.py": "7a9d48cad0da0ee96a5f5bf03dfdc50c525c1a2ca5394e11a557c3fc0e6c2be5",
+    "campaign_check_v3.py": "f464f0eea4047a8dc3450273724f4bb18766f89640f74588f13dcb0e8febed79",
+    "campaign_science.py": "3f7943d3da1db36540e4394cd1e62c7608d8db279ab462a7b8e34fc974e9f3d7",
+    "campaign_v2.py": "eeab30591418f46aea43afe7256395fd611afc93030310bccf82be61c54d801e",
+    "campaign_v3.py": "601c0a175d076ff772f0765ea38276c67e084d8c5bf2ee1d79618d9ae250cd79",
+    "scientific_inputs_v3.py": "e102c984cd403bfb4534c775c79827554801e09c4b1da3509b4ca0fba14785ff",
+    "tests/gravity2/test_campaign.py": "ac27e2737e34d4690a72ffd8806de7795d1d84c4c9df0480bd4de38d3d5200c1",
+    "tests/gravity2/test_campaign_v2.py": "088535b998efb918d2e3a58dccb6fd07bdcf42c8f397604e1185efb824b78b6c",
+    "tests/gravity2/test_campaign_v3.py": "b5742fb6a26f941323962c31b4ae1e9e6b18b4b0fc034815cf2ac0034f9aa9f3"
+  },
+  "created_utc": "2026-11-21T18:17:30.857404+00:00",
+  "disk_soft_mib": 8,
+  "level": "L1",
+  "preset": "short",
+  "ram_soft_mib": 640,
+  "resume_from": null,
+  "run_id": "g2camp3_20261121T181730Z_1731fe22",
+  "schema": "gravity2.campaign.v1",
+  "tasks_sha256": "8f0bfc558e17514c3e073198092cbde709d945ca634c7fc7837a52855d5696ec",
+  "wall_seconds": 120.0,
+  "workers": 1
+}

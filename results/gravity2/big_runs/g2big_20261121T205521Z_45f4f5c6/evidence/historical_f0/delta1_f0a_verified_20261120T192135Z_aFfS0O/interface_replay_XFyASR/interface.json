@@ -1,0 +1,30 @@
+{
+  "F1": "HOLD",
+  "assumptions": "B_Y=0, no free Y sheet current, step theta, fixed sphere, continuous E_X tangent",
+  "boundary_weak_work": 8.377580409572781,
+  "cpu_s": 0.001356999999999997,
+  "jump_convention": "outside minus inside; outward unit normal",
+  "new_PDE_solves": 0,
+  "normalized_rms": 0.816496580927726,
+  "parents": {
+    "hook17_fdual_f_r3x1_lorentzian_sign_audit.py": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+    "science.json": "9fd210b534a9eccedf4b2e81553fc957edb0cd9de7f79c6a4420c725ba3cf9f1",
+    "verification.json": "d8ab8970e2445bced8b9f07cd05c83f70c421d36c898105746f6f190a51d53e5"
+  },
+  "physical_jump_value": "UNDETERMINED",
+  "producer_sha256": "6b8bfec4b64bb4762dee9dde1e3ebdc2669be41b6d2c56347b0d765ae11e5837",
+  "status": "Y_ZERO_FAILS_AT_A_NONZERO_TRACE_COEFFICIENT_JUMP",
+  "stop": "Actual trace/material action and reciprocal Y response required; no force inferred",
+  "tests": {
+    "pole_equator_and_reversed_step": true,
+    "sha_hook17_fdual_f_r3x1_lorentzian_sign_audit.py": true,
+    "sha_science.json": true,
+    "sha_verification.json": true,
+    "signed_weak_variation": true,
+    "surface_rms": true,
+    "uniform_coefficient_or_source_off": true
+  },
+  "utc": "2026-11-20T19:21:52.960855+00:00",
+  "volume_weak_work": 8.377580409572781,
+  "wall_s": 0.002359125999999996
+}

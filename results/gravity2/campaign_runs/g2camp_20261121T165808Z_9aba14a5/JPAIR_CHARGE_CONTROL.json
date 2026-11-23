@@ -1,0 +1,45 @@
+{
+  "full_Einstein_support": "NOT_DERIVED",
+  "historical": "PH14 opposing charges already investigated; not new sourced physics",
+  "rows": [
+    {
+      "equal_frequency_pair_charge": -0.0024659021182712217,
+      "grid": 9,
+      "local_current_rms_after_adjustment": 0.0469301313518713,
+      "required_negative_frequency_shift_control": -0.00018722673495279215,
+      "scalar_and_X_stationary": "NOT_TESTED",
+      "single_charge": 16.462108401425734,
+      "zero_mode_adjusted_charge": -3.720126004640217e-17
+    },
+    {
+      "equal_frequency_pair_charge": -0.0024680737430772433,
+      "grid": 15,
+      "local_current_rms_after_adjustment": 0.04693014226326232,
+      "required_negative_frequency_shift_control": -0.00018739165943460346,
+      "scalar_and_X_stationary": "NOT_TESTED",
+      "single_charge": 16.462103702678174,
+      "zero_mode_adjusted_charge": 5.843979760016631e-17
+    },
+    {
+      "equal_frequency_pair_charge": -0.00246848238980365,
+      "grid": 23,
+      "local_current_rms_after_adjustment": 0.04693013893271327,
+      "required_negative_frequency_shift_control": -0.00018742271595418564,
+      "scalar_and_X_stationary": "NOT_TESTED",
+      "single_charge": 16.462100907618225,
+      "zero_mode_adjusted_charge": 0.0
+    },
+    {
+      "equal_frequency_pair_charge": -0.002468595947880795,
+      "grid": 31,
+      "local_current_rms_after_adjustment": 0.04693013711067558,
+      "required_negative_frequency_shift_control": -0.00018743134912563284,
+      "scalar_and_X_stationary": "NOT_TESTED",
+      "single_charge": 16.46209987342264,
+      "zero_mode_adjusted_charge": 0.0
+    }
+  ],
+  "status": "SCOPED_CONTROL_ONLY",
+  "symbolic": "EXACT_OPPOSITE_CHARGE_VARIATION_AND_GAUGE_SHIFT",
+  "zero_mode_tuning": "PRESCRIBED_FREQUENCY_CONTROL_NOT_AN_EOM_SOLUTION"
+}

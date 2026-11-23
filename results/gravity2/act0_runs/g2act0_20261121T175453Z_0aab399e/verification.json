@@ -1,0 +1,7 @@
+{
+  "gravitational_lift": "NOT_DERIVED",
+  "independent_method": "MULTI_SCALE_CENTRAL_FINITE_DIFFERENCE",
+  "max_curvature_error": 8.526512829121202e-14,
+  "science_sha256": "677088a8fa87ae64012382dd61f3f39a0355758cd08c6bc04111ab4d4df8fc0f",
+  "status": "PASS_SCOPED"
+}

@@ -1,0 +1,436 @@
+{
+  "Earth_down_craft_up": "NOT_DERIVED",
+  "H": 8.2,
+  "K": 2.0,
+  "R3B_prescribed_capacity_J": 1.5429162116460216,
+  "Ward": "closed_S2_BF_gauge_invariant_up_to_boundary; edge_inflow_unresolved",
+  "X_interface_variation": "j_X_dual_2form=f=da; d f=0",
+  "Y_interface_variation": "surface current 2form = d(g star3 f + H star3 pullback(FY)); orientation-fixed bulk jump required",
+  "action": "Maxwell_4D_X_Y + BF_AX_wedge_da + shell_K_f2 + shell_g_fFY + shell_H_FY2; source/support/EH/metric not fully specified",
+  "canonical_radius": 2.0,
+  "claim": "SCOPED_NECESSARY_MAXWELL_BOUNDARY_CORRECTION_NOT_GRAVITY",
+  "complete_4D_shell_embedding_variation": "NOT_DERIVED",
+  "complete_operating_energy": "NOT_CERTIFIED",
+  "current_energy_scope": "CANONICAL_PROXY_NOT_SI_JOULES",
+  "first_failed_gate": "TWO_SIDED_MAXWELL_Y_INTERIOR_OMITTED_FROM_G01K_REDUCED_KERNEL",
+  "g": 4.0,
+  "historical_loaded_acceleration_m_s2": -129.67185782242464,
+  "magnetic_bianchi": "dF_Y=0 -> Bnormal_plus=Bnormal_minus; no_monopoles",
+  "magnetic_drive": "REQUIRED_NOT_ONSHELL_SOURCED",
+  "max_1024_radial_relative_error": 2.3841522348022615e-05,
+  "max_charge_reconstruction_error": 1.3965423614524633e-16,
+  "metric_stress": {
+    "BF_direct_Hilbert_T_ab": "EXACT_ZERO",
+    "Y": [
+      [
+        0.0,
+        -0.2,
+        0.25
+      ],
+      [
+        0.2,
+        0.0,
+        0.6
+      ],
+      [
+        -0.25,
+        -0.6,
+        0.0
+      ]
+    ],
+    "f": [
+      [
+        0.0,
+        0.3,
+        -0.4
+      ],
+      [
+        -0.3,
+        0.0,
+        0.7
+      ],
+      [
+        0.4,
+        -0.7,
+        0.0
+      ]
+    ],
+    "h": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.6,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.1
+      ]
+    ],
+    "kinetic_T_ab": [
+      [
+        1.1016071428571426,
+        0.19523809523809527,
+        0.25249999999999995
+      ],
+      [
+        0.19523809523809516,
+        1.7345714285714282,
+        0.02999999999999986
+      ],
+      [
+        0.25250000000000006,
+        0.02999999999999986,
+        2.280875
+      ]
+    ],
+    "omit_H_changes_T": true,
+    "omit_mixed_Hodge_changes_T": true
+  },
+  "microscopic_Y_current_and_support": "NOT_DERIVED",
+  "modes": [
+    {
+      "X_exterior": 0.4444444444444444,
+      "X_full": 0.6666666666666666,
+      "X_interior": 0.2222222222222222,
+      "Y_exterior": 1.0,
+      "Y_full": 3.0,
+      "Y_interior": 2.0,
+      "b_mode": 149038.0722228661,
+      "delta_drive": 298076.1444457322,
+      "ell": 1,
+      "full_hessian_determinant": 13.866666666666664,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 372171445684.98364,
+      "old_drive": 476921.8311131714,
+      "old_hessian_determinant": 8.533333333333331,
+      "old_magnetic_energy_proxy": 186085722842.49182,
+      "q_mode": -223557.10833429915,
+      "radial_midpoint_errors": [
+        1.52587890625e-05,
+        3.814697265625e-06,
+        9.5367431640625e-07,
+        2.384185791015625e-07
+      ],
+      "required_two_sided_drive": 774997.9755589034,
+      "weight": 16.755160819145562,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.24,
+      "X_full": 0.4,
+      "X_interior": 0.16,
+      "Y_exterior": 0.6666666666666666,
+      "Y_full": 1.6666666666666667,
+      "Y_interior": 1.0,
+      "b_mode": -0.0009408290963276608,
+      "delta_drive": -0.0009408290963276608,
+      "ell": 2,
+      "full_hessian_determinant": 7.679999999999996,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 4.449296371451741e-06,
+      "old_drive": -0.002069824011920852,
+      "old_hessian_determinant": 5.279999999999998,
+      "old_magnetic_energy_proxy": 2.9661975809678272e-06,
+      "q_mode": 0.0015680484938794348,
+      "radial_midpoint_errors": [
+        5.0862086936831474e-05,
+        1.2715623597614467e-05,
+        3.178912265866529e-06,
+        7.947284643705643e-07
+      ],
+      "required_two_sided_drive": -0.0030106531082485137,
+      "weight": 10.053096491487338,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.16326530612244897,
+      "X_full": 0.2857142857142857,
+      "X_interior": 0.12244897959183673,
+      "Y_exterior": 0.5,
+      "Y_full": 1.1666666666666667,
+      "Y_interior": 0.6666666666666666,
+      "b_mode": 87.85274490014261,
+      "delta_drive": 58.568496600095074,
+      "ell": 3,
+      "full_hessian_determinant": 5.4095238095238045,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 18474.012416664176,
+      "old_drive": 149.34966633024237,
+      "old_hessian_determinant": 3.8857142857142826,
+      "old_magnetic_energy_proxy": 13855.509312498134,
+      "q_mode": -153.74230357524957,
+      "radial_midpoint_errors": [
+        0.00010680772057369836,
+        2.6702643178833085e-05,
+        6.675705359948658e-06,
+        1.6689291254534666e-06
+      ],
+      "required_two_sided_drive": 207.91816293033742,
+      "weight": 7.180783208205241,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.12345679012345678,
+      "X_full": 0.2222222222222222,
+      "X_interior": 0.09876543209876543,
+      "Y_exterior": 0.4,
+      "Y_full": 0.9,
+      "Y_interior": 0.5,
+      "b_mode": -0.0018754209076272024,
+      "delta_drive": -0.0009377104538136012,
+      "ell": 4,
+      "full_hessian_determinant": 4.222222222222221,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 4.910942635783018e-06,
+      "old_drive": -0.0026255892706780817,
+      "old_hessian_determinant": 3.1111111111111107,
+      "old_magnetic_energy_proxy": 3.928754108626414e-06,
+      "q_mode": 0.0033757576337289643,
+      "radial_midpoint_errors": [
+        0.00018309177874875626,
+        4.577551154183457e-05,
+        1.1444038318764171e-05,
+        2.8610196068923344e-06
+      ],
+      "required_two_sided_drive": -0.0035632997244916843,
+      "weight": 5.585053606381854,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.09917355371900827,
+      "X_full": 0.18181818181818182,
+      "X_interior": 0.08264462809917356,
+      "Y_exterior": 0.3333333333333333,
+      "Y_full": 0.7333333333333333,
+      "Y_interior": 0.4,
+      "b_mode": 128.35550024873694,
+      "delta_drive": 51.34220009949478,
+      "ell": 5,
+      "full_hessian_determinant": 3.490909090909085,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 15056.919661527201,
+      "old_drive": 154.02660029848425,
+      "old_hessian_determinant": 2.6181818181818173,
+      "old_magnetic_energy_proxy": 12547.433051272665,
+      "q_mode": -235.31841712268442,
+      "radial_midpoint_errors": [
+        0.0002797086126496984,
+        6.993387557940878e-05,
+        1.7483889072744674e-05,
+        4.370998529679149e-06
+      ],
+      "required_two_sided_drive": 205.36880039797893,
+      "weight": 4.569589314312426,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.08284023668639054,
+      "X_full": 0.15384615384615385,
+      "X_interior": 0.07100591715976332,
+      "Y_exterior": 0.2857142857142857,
+      "Y_full": 0.6190476190476191,
+      "Y_interior": 0.3333333333333333,
+      "b_mode": -0.0032395991919969298,
+      "delta_drive": -0.00107986639733231,
+      "ell": 6,
+      "full_hessian_determinant": 2.9948717948717913,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 6.763286992392766e-06,
+      "old_drive": -0.003424719145825327,
+      "old_hessian_determinant": 2.276923076923076,
+      "old_magnetic_energy_proxy": 5.797103136336657e-06,
+      "q_mode": 0.0060163984994228694,
+      "radial_midpoint_errors": [
+        0.0003966508367991839,
+        9.917727355779338e-05,
+        2.4795228760865484e-05,
+        6.198864090145584e-06
+      ],
+      "required_two_sided_drive": -0.004504585543157632,
+      "weight": 3.866575573648976,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.07111111111111111,
+      "X_full": 0.13333333333333333,
+      "X_interior": 0.06222222222222222,
+      "Y_exterior": 0.25,
+      "Y_full": 0.5357142857142857,
+      "Y_interior": 0.2857142857142857,
+      "b_mode": 41.22044264897596,
+      "delta_drive": 11.777269328278845,
+      "ell": 7,
+      "full_hessian_determinant": 2.6361904761904746,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 813.40316629279,
+      "old_drive": 39.15942051652712,
+      "old_hessian_determinant": 2.0266666666666637,
+      "old_magnetic_energy_proxy": 711.7277705061912,
+      "q_mode": -77.28832996682993,
+      "radial_midpoint_errors": [
+        0.0005339093303131648,
+        0.00013350513513676887,
+        3.3378021732533014e-05,
+        8.344614059518918e-06
+      ],
+      "required_two_sided_drive": 50.93668984480598,
+      "weight": 3.3510321638291125,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.06228373702422145,
+      "X_full": 0.11764705882352941,
+      "X_interior": 0.05536332179930796,
+      "Y_exterior": 0.2222222222222222,
+      "Y_full": 0.4722222222222222,
+      "Y_interior": 0.25,
+      "b_mode": -0.0059252627407265215,
+      "delta_drive": -0.0014813156851816304,
+      "ell": 8,
+      "full_hessian_determinant": 2.36470588235294,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 1.2976159422933553e-05,
+      "old_drive": -0.00513522770862964,
+      "old_hessian_determinant": 1.8352941176470559,
+      "old_magnetic_energy_proxy": 1.153436393149649e-05,
+      "q_mode": 0.011192162954705652,
+      "radial_midpoint_errors": [
+        0.0006914732384929456,
+        0.00017291678139530475,
+        4.3232225547362724e-05,
+        1.0808245785365322e-05
+      ],
+      "required_two_sided_drive": -0.006616543393811271,
+      "weight": 2.95679308573157,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.055401662049861494,
+      "X_full": 0.10526315789473684,
+      "X_interior": 0.04986149584487535,
+      "Y_exterior": 0.2,
+      "Y_full": 0.4222222222222222,
+      "Y_interior": 0.2222222222222222,
+      "b_mode": -37.528905604345255,
+      "delta_drive": -8.339756800965612,
+      "ell": 9,
+      "full_hessian_determinant": 2.152046783625728,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 414.0049606163651,
+      "old_drive": -30.023124483476124,
+      "old_hessian_determinant": 1.684210526315784,
+      "old_magnetic_energy_proxy": 372.6044645547287,
+      "q_mode": 71.30492064825599,
+      "radial_midpoint_errors": [
+        0.0008693299747528638,
+        0.00021741142485964815,
+        5.435779097573423e-05,
+        1.3589756191034752e-05
+      ],
+      "required_two_sided_drive": -38.36288128444181,
+      "weight": 2.6455517082861415,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.049886621315192746,
+      "X_full": 0.09523809523809523,
+      "X_interior": 0.045351473922902494,
+      "Y_exterior": 0.18181818181818182,
+      "Y_full": 0.38181818181818183,
+      "Y_interior": 0.2,
+      "b_mode": -0.012365940879693678,
+      "delta_drive": -0.0024731881759387357,
+      "ell": 10,
+      "full_hessian_determinant": 1.980952380952381,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 3.660200637414872e-05,
+      "old_drive": -0.00921824683758983,
+      "old_hessian_determinant": 1.56190476190476,
+      "old_magnetic_energy_proxy": 3.32745512492261e-05,
+      "q_mode": 0.023607705315778837,
+      "radial_midpoint_errors": [
+        0.0010674652228805925,
+        0.00026698816954073834,
+        6.675466199923541e-05,
+        1.6689141774439697e-05
+      ],
+      "required_two_sided_drive": -0.011691435013528581,
+      "weight": 2.3935944027350806,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.045368620037807186,
+      "X_full": 0.08695652173913043,
+      "X_interior": 0.04158790170132325,
+      "Y_exterior": 0.16666666666666666,
+      "Y_full": 0.3484848484848485,
+      "Y_interior": 0.18181818181818182,
+      "b_mode": 53.090827650464355,
+      "delta_drive": 9.652877754629882,
+      "ell": 11,
+      "full_hessian_determinant": 1.8403162055335933,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 560.0003851277379,
+      "old_drive": 37.163579355325,
+      "old_hessian_determinant": 1.4608695652173864,
+      "old_magnetic_energy_proxy": 513.333686367093,
+      "q_mode": -101.75741966339001,
+      "radial_midpoint_errors": [
+        0.001285862939630733,
+        0.00032164601097450785,
+        8.042277581099544e-05,
+        2.0106398610275633e-05
+      ],
+      "required_two_sided_drive": 46.816457109954854,
+      "weight": 2.1854557590189865,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    },
+    {
+      "X_exterior": 0.0416,
+      "X_full": 0.08,
+      "X_interior": 0.0384,
+      "Y_exterior": 0.15384615384615385,
+      "Y_full": 0.32051282051282054,
+      "Y_interior": 0.16666666666666666,
+      "b_mode": -0.022320482720960943,
+      "delta_drive": -0.0037200804534934903,
+      "ell": 12,
+      "full_hessian_determinant": 1.7226666666666688,
+      "magnetic_normal_continuity": "B_normal_plus_equals_B_normal_minus",
+      "mandatory_interior_magnetic_energy_proxy": 8.347487284497855e-05,
+      "old_drive": -0.014765857800020293,
+      "old_hessian_determinant": 1.3759999999999977,
+      "old_magnetic_energy_proxy": 7.705372877998021e-05,
+      "q_mode": 0.0429240052326172,
+      "radial_midpoint_errors": [
+        0.0015245053576518064,
+        0.00038138383626673544,
+        9.536206281679505e-05,
+        2.3841522348022615e-05
+      ],
+      "required_two_sided_drive": -0.0184859382535138,
+      "weight": 2.0106192982974678,
+      "zero_interior_with_nonzero_Bnormal": "FORBIDDEN_BY_dF_Y_EQUALS_ZERO"
+    }
+  ],
+  "neutral_matter_loaded_sign": "HISTORICAL_INWARD_FAILURE_UNRESOLVED",
+  "next_authorization": "G01M_ONLY_AFTER_NEW_COMPLETE_SOURCE_AND_INTERIOR_BOUNDARY_ACTION",
+  "parent_shas": {
+    "G01J_SCIENCE": "ce57c05c45428548afe80175943cc256fac94212cbc1b0415ff8a73f6dbd6ce3",
+    "G01K_SCIENCE": "3e81c419afd30d416cb440383ff700a81750f1188383c38ff34732900ae75b12",
+    "G01K_SOURCE": "cb6bc822e2dd363c48982f677c7d852317392098e4e7f610f3506e68e9468112"
+  },
+  "physical_survivors": 0,
+  "replaced_006D": false,
+  "schema": "gravity2.g01l.two_sided_shell_variation.v1",
+  "shell_a_variation": "d(K star3 f + g star3 pullback(FY) - AX)=0",
+  "status": "ACTION_INCOMPLETE_G01K_EXTERIOR_ONLY_KERNEL_NOT_FULL_TWO_SIDED_MAXWELL",
+  "total_mandatory_interior_magnetic_energy_proxy": 372171481003.3243,
+  "universal_metric_and_Einstein_variations": "NOT_DERIVED"
+}

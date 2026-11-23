@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "exterior_floor_J": 12075579813739.39,
+      "lab_limit": 0.6649228547638668,
+      "scale_eV": 1000.0
+    },
+    {
+      "exterior_floor_J": 61913883.6845327,
+      "lab_limit": 0.6665335112635777,
+      "scale_eV": 21147.425268811283
+    }
+  ],
+  "full_regression": "NOT_RUN",
+  "science_sha256": "9852e3c1a7cf1b6fbe66dad3d73e270b25d1dd984a72bcfbb8cea9fba4c2c948",
+  "status": "PASS_SCOPED_IDENTITIES_AND_TWO_SCALE_NONOVERLAP",
+  "verified_by": "exact polynomial certificates and independent 12-equation interface solve",
+  "verifier_sha256": "9ae6d2f6c938c662b3ca87e2b33b8faf34e35732bed61581dabb66887cbb1563"
+}

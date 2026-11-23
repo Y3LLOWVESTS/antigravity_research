@@ -1,0 +1,45 @@
+{
+  "action_gradient": {
+    "ordered": 1.1528774574871714e-16,
+    "portal_off": 1.0391142090936329e-16,
+    "reversed": 1.1567257937561106e-16,
+    "unordered": 0.0
+  },
+  "checks": {
+    "bulk_and_free_traction": true,
+    "external_mirror_and_reversal": true,
+    "ordered_interface": true,
+    "ordered_variation": true,
+    "parent_032h17a12d1r3x1_lorentzian_sign_audit_summary.json": true,
+    "parent_032h17a12d1r3x3b8_spherical_interface_screening_summary.json": true,
+    "parent_interface.json": true,
+    "parent_science.json": true,
+    "parent_verification.json": true,
+    "portal_off": true,
+    "portal_off_interface": true,
+    "portal_off_variation": true,
+    "quadrupole_drive": true,
+    "receipt": true,
+    "reversed_interface": true,
+    "reversed_variation": true,
+    "slip_work": true,
+    "sphere_shape_derivative": true,
+    "tangency_0.23": true,
+    "tangency_0.73": true,
+    "unordered_interface": true,
+    "unordered_off": true,
+    "unordered_variation": true
+  },
+  "cpu_s": 1.793161,
+  "independent_slip_work_per_volume": -0.0019391448469490622,
+  "linear_residuals": {
+    "bulk": 7.244205235679146e-17,
+    "surface": 1.850371707708594e-17
+  },
+  "next": "NO_AUTOMATIC_PROMOTION",
+  "science_sha256": "fd21173471942c8e21b2659d25ac8a8b3790ede8f0dce45717d4e38f7206963c",
+  "status": "PASS_SCOPED_SOURCE_AND_LINEAR_FREE_BOUNDARY",
+  "utc": "2026-11-20T19:35:14.811669+00:00",
+  "verifier_sha256": "c17b40c7dba3872f113b549f4e25539ef7b53e339d534108a9609f5423f44a23",
+  "wall_s": 1.7964638820012624
+}

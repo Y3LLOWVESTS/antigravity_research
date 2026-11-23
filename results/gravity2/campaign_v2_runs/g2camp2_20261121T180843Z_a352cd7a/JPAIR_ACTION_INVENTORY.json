@@ -1,0 +1,22 @@
+{
+  "complete_covariant_action": "NOT_DERIVED",
+  "gates": {
+    "G01_ACTION": "INCOMPLETE",
+    "G02_VARIATION": "PARTIAL_ONLY",
+    "G04_HEALTH": "NOT_DERIVED",
+    "G05_SOURCE": "NOT_ESTABLISHED",
+    "G07_METRIC": "NOT_DERIVED",
+    "G10_REACTION": "NOT_DERIVED"
+  },
+  "missing_action_terms": [
+    "source_support_action",
+    "Earth_action",
+    "neutral_action",
+    "Einstein_Hilbert_boundary_action",
+    "dynamical_source_and_X",
+    "metric_Hodge_variation_complete",
+    "physical_SI_normalization"
+  ],
+  "operator": "TWO_OPPOSITE_CHARGED_SCALARS_JORDAN_PORTAL",
+  "status": "BLOCKED_ACTION_INCOMPLETE"
+}

@@ -1,0 +1,18 @@
+{
+  "parent_sha256": {
+    "results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11",
+    "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+    "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+    "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395"
+  },
+  "run_id": "g01i_20261121T211437Z_0d794b7a",
+  "runtime": {
+    "numpy": "2.5.4",
+    "python": "3.13.15"
+  },
+  "schema": "gravity2.g01i.v1",
+  "source_sha256": {
+    "g01i_independent_v1.py": "ae454466db8074dcc58cff4a2c8c689396b163247ab00d2ad865658d82529fff",
+    "g01i_r3b_source_v1.py": "40bda623ebd3781725e25200e67d4662362e761affca4fea103238574d46b252"
+  }
+}

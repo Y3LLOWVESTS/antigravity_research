@@ -1,0 +1,5 @@
+independent 78 3e-14 {'energy_J': 7472835.811291121, 'minimum_up_m_s2': 60.18631009328767, 'ground_reaction_N': 30693.221387999496, 'Euler_residual': 7.735671130802788e-10, 'n_angle': 78, 'k': 3e-14, 'shift_step_m': 0.006, 'ground_force_by_work_N': 30729.687058444444}
+independent 78 3e-13 {'energy_J': 7734283.381778349, 'minimum_up_m_s2': 440.10006777301265, 'ground_reaction_N': 29981.9778713738, 'Euler_residual': 1.3641512797114484e-09, 'n_angle': 78, 'k': 3e-13, 'shift_step_m': 0.006, 'ground_force_by_work_N': 30081.57964120619}
+independent 138 3e-14 {'energy_J': 7472770.640250461, 'minimum_up_m_s2': 60.13804168426944, 'ground_reaction_N': 30313.9682246612, 'Euler_residual': 7.450359078765268e-10, 'n_angle': 138, 'k': 3e-14, 'shift_step_m': 0.003, 'ground_force_by_work_N': 30326.967935698725}
+independent 138 3e-13 {'energy_J': 7734061.576926582, 'minimum_up_m_s2': 438.605983198932, 'ground_reaction_N': 29300.80974581805, 'Euler_residual': 1.2532805899439428e-09, 'n_angle': 138, 'k': 3e-13, 'shift_step_m': 0.003, 'ground_force_by_work_N': 29333.48053662727}
+PASS_SCOPED_TWO_DISCRETIZATIONS

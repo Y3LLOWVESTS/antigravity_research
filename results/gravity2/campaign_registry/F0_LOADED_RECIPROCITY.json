@@ -1,0 +1,24 @@
+{
+  "action": {
+    "Earth_and_support": "NOT_DERIVED",
+    "exterior": "NOT_DERIVED",
+    "family": "R3B_M0_UNMODIFIED_JORDAN_PORTAL",
+    "input": "IMMUTABLE_PARENT_R3B_SOURCES_AND_DELTA1_02",
+    "loaded_JVP": "NOT_AVAILABLE_AS_A_CERTIFIED_SAME_ACTION_ARTIFACT",
+    "neutral_metric": "g_phys=exp(2*sigma(P))*g_Einstein",
+    "physical_survivor": false,
+    "sigma": "alpha*P-beta*P**2",
+    "source_variation": "NOT_ESTABLISHED"
+  },
+  "candidate": "R3B_F0_INTERFACE_AUDIT",
+  "gate": "F0_LOADED_RECIPROCITY",
+  "id": "F0_LOADED_RECIPROCITY",
+  "independent": "delta_f0_review",
+  "independent_sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7",
+  "level": "L1",
+  "module": "delta_f0_provider",
+  "priority": 84,
+  "provider_sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87",
+  "requires": [],
+  "schema": "gravity2.campaign.task.v1"
+}

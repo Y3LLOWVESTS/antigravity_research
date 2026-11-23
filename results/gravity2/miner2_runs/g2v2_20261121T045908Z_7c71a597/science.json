@@ -1,0 +1,243 @@
+{
+  "006D_replaced": false,
+  "complete_action": "NOT_DERIVED",
+  "complete_energy": "NOT_CERTIFIED",
+  "execution_status": "COMPLETED",
+  "finite_stable_source": "NOT_ESTABLISHED",
+  "full_regression": "NOT_RUN",
+  "generated_actions": [
+    {
+      "action": {
+        "Earth_neutral": "unexpanded universal Jordan-metric matter actions",
+        "R3B_loaded_kernel": "NOT_REUSABLE_WITHOUT_NEW_SECOND_VARIATION",
+        "carriers": "two canonical U(1) Maxwell kinetic terms in Einstein frame",
+        "exterior_source_vevs": [
+          0,
+          0
+        ],
+        "metric_signature": "-+++",
+        "mixed_invariant": "P=(1/4)epsilon^{munurhosigma} FX_munu FY_rhosigma",
+        "portal": "gtilde=exp(2sigma(P))*g; sigma=alpha*P-beta*P**2",
+        "source_charges": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "source_kinetic": "-1/2 sum_i g_source^{mu nu} (Dmu ai Dnu ai + Dmu bi Dnu bi)",
+        "source_metric": "g",
+        "source_potential": "m2*f2/2+lambda*f2**2/4, m2>=0,lambda>=0",
+        "supports": "UNSPECIFIED",
+        "units": "CANONICAL_FORMAL_NOT_COMPLETE_SI"
+      },
+      "family": "R3B-SRC-A",
+      "fingerprint": "f18816fb4756b6133e12bd37d341693b882c10ce9f8a31bc33b6ccdaf5cd0ad7",
+      "frame": "EINSTEIN",
+      "id": "A_EINSTEIN_LOCALIZED",
+      "potential": "CONVEX",
+      "qualification": "EXACT_PREFLIGHT_ONLY",
+      "vev": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": {
+        "Earth_neutral": "unexpanded universal Jordan-metric matter actions",
+        "R3B_loaded_kernel": "NOT_REUSABLE_WITHOUT_NEW_SECOND_VARIATION",
+        "carriers": "two canonical U(1) Maxwell kinetic terms in Einstein frame",
+        "exterior_source_vevs": [
+          0,
+          0
+        ],
+        "metric_signature": "-+++",
+        "mixed_invariant": "P=(1/4)epsilon^{munurhosigma} FX_munu FY_rhosigma",
+        "portal": "gtilde=exp(2sigma(P))*g; sigma=alpha*P-beta*P**2",
+        "source_charges": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "source_kinetic": "-1/2 sum_i g_source^{mu nu} (Dmu ai Dnu ai + Dmu bi Dnu bi)",
+        "source_metric": "gtilde",
+        "source_potential": "m2*f2/2+lambda*f2**2/4, m2>=0,lambda>=0",
+        "supports": "UNSPECIFIED",
+        "units": "CANONICAL_FORMAL_NOT_COMPLETE_SI"
+      },
+      "family": "R3B-SRC-A",
+      "fingerprint": "8b0b42182d8a8380d2e2041cbbff9266e2bd7afd22ad50dd0eb70a3a77018576",
+      "frame": "JORDAN",
+      "id": "B_JORDAN_LOCALIZED",
+      "potential": "CONVEX",
+      "qualification": "EXACT_PREFLIGHT_ONLY",
+      "vev": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": {
+        "Earth_neutral": "unexpanded universal Jordan-metric matter actions",
+        "R3B_loaded_kernel": "NOT_REUSABLE_WITHOUT_NEW_SECOND_VARIATION",
+        "carriers": "two canonical U(1) Maxwell kinetic terms in Einstein frame",
+        "exterior_source_vevs": [
+          0,
+          1
+        ],
+        "metric_signature": "-+++",
+        "mixed_invariant": "P=(1/4)epsilon^{munurhosigma} FX_munu FY_rhosigma",
+        "portal": "gtilde=exp(2sigma(P))*g; sigma=alpha*P-beta*P**2",
+        "source_charges": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "source_kinetic": "-1/2 sum_i g_source^{mu nu} (Dmu ai Dnu ai + Dmu bi Dnu bi)",
+        "source_metric": "gtilde",
+        "source_potential": "sum_i kappa_i*(f2_i-v2_i)**2/4; kappa_i>0, v2_i=exterior_source_vevs[i]",
+        "supports": "UNSPECIFIED",
+        "units": "CANONICAL_FORMAL_NOT_COMPLETE_SI"
+      },
+      "family": "BROKEN_VACUUM_NEGATIVE_CONTROL",
+      "fingerprint": "25c5d63f7931016bb7f6e5642179ab8cddb6acc55af4bce56cf53909ab6c0545",
+      "frame": "JORDAN",
+      "id": "C_HIGGS_Y_CONTROL",
+      "potential": "BROKEN",
+      "qualification": "EXACT_PREFLIGHT_ONLY",
+      "vev": [
+        0,
+        1
+      ]
+    },
+    {
+      "action": {
+        "Earth_neutral": "unexpanded universal Jordan-metric matter actions",
+        "R3B_loaded_kernel": "NOT_REUSABLE_WITHOUT_NEW_SECOND_VARIATION",
+        "carriers": "two canonical U(1) Maxwell kinetic terms in Einstein frame",
+        "exterior_source_vevs": [
+          1,
+          1
+        ],
+        "metric_signature": "-+++",
+        "mixed_invariant": "P=(1/4)epsilon^{munurhosigma} FX_munu FY_rhosigma",
+        "portal": "gtilde=exp(2sigma(P))*g; sigma=alpha*P-beta*P**2",
+        "source_charges": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "source_kinetic": "-1/2 sum_i g_source^{mu nu} (Dmu ai Dnu ai + Dmu bi Dnu bi)",
+        "source_metric": "gtilde",
+        "source_potential": "sum_i kappa_i*(f2_i-v2_i)**2/4; kappa_i>0, v2_i=exterior_source_vevs[i]",
+        "supports": "UNSPECIFIED",
+        "units": "CANONICAL_FORMAL_NOT_COMPLETE_SI"
+      },
+      "family": "BROKEN_VACUUM_NEGATIVE_CONTROL",
+      "fingerprint": "1997ce405b203d14377a7258296c4a11a49c5ca12aa5c65c8692499b1a6474bc",
+      "frame": "JORDAN",
+      "id": "D_HIGGS_BOTH_CONTROL",
+      "potential": "BROKEN",
+      "qualification": "EXACT_PREFLIGHT_ONLY",
+      "vev": [
+        1,
+        1
+      ]
+    }
+  ],
+  "historical_exclusions": [
+    "PH12 gauged Q-ball finite source not certified, not rerun",
+    "PH13 coupled Schur mode failed, not reopened",
+    "PH15 P6-P7 winding stability failed, not reopened",
+    "R3B original loaded response -129.67185782242464 m/s^2 not rerun"
+  ],
+  "loaded_PDE": "NOT_AUTHORIZED",
+  "parent_locks": {
+    "G03A_SCIENCE": {
+      "actual_sha256": "3ab38bcb8aad876fec46b76a713d8769aa345902f4f2c8ee0c4d1619b65227a6",
+      "expected_sha256": "3ab38bcb8aad876fec46b76a713d8769aa345902f4f2c8ee0c4d1619b65227a6",
+      "path": "results/gravity2/bridge03a_runs/g203a_20261121T043515Z_4d15503e/science.json"
+    },
+    "G03A_VERIFICATION": {
+      "actual_sha256": "261080c5be930767817179b34447d7cb989b89c603dc6b081f79d8a9732da89e",
+      "expected_sha256": "261080c5be930767817179b34447d7cb989b89c603dc6b081f79d8a9732da89e",
+      "path": "results/gravity2/bridge03a_runs/g203a_20261121T043515Z_4d15503e/verification.json"
+    },
+    "G2M1_SCIENCE": {
+      "actual_sha256": "1376376ddabafce1e987d8f462eacca42ea4392931e6efedfc9fbc60743b6af1",
+      "expected_sha256": "1376376ddabafce1e987d8f462eacca42ea4392931e6efedfc9fbc60743b6af1",
+      "path": "results/gravity2/miner_runs/g2m_20261121T044838Z_1457cdfc/science.json"
+    },
+    "G2M1_VERIFICATION": {
+      "actual_sha256": "5901c074d21bae364c1295886aa3272bf56cb8cc0b2ad01e91e1d5b731317004",
+      "expected_sha256": "5901c074d21bae364c1295886aa3272bf56cb8cc0b2ad01e91e1d5b731317004",
+      "path": "results/gravity2/miner_runs/g2m_20261121T044838Z_1457cdfc/verification.json"
+    }
+  },
+  "pending": [],
+  "physical_survivors": [],
+  "processed": [
+    {
+      "candidate_id": "A_EINSTEIN_LOCALIZED",
+      "evidence_ref": {
+        "from_run": "g2v2_20261121T045908Z_7c71a597",
+        "relative_path": "results/gravity2/miner2_runs/g2v2_20261121T045908Z_7c71a597/cases/A_EINSTEIN_LOCALIZED.json",
+        "sha256": "93e2b69c6c527c9fc1193e978dcdb48b6574f759fad5e1ba7b73c176a73749da"
+      },
+      "fingerprint": "f18816fb4756b6133e12bd37d341693b882c10ce9f8a31bc33b6ccdaf5cd0ad7",
+      "status": "ACTION_COMPARISON_UNDERDETERMINED_SOURCE_SUPPORT"
+    },
+    {
+      "candidate_id": "B_JORDAN_LOCALIZED",
+      "evidence_ref": {
+        "from_run": "g2v2_20261121T045908Z_7c71a597",
+        "relative_path": "results/gravity2/miner2_runs/g2v2_20261121T045908Z_7c71a597/cases/B_JORDAN_LOCALIZED.json",
+        "sha256": "1351c3c589f42bd1f8f510287f992a05b941b8fe6a5ed38bbfb7c00cbfdbf08b"
+      },
+      "fingerprint": "8b0b42182d8a8380d2e2041cbbff9266e2bd7afd22ad50dd0eb70a3a77018576",
+      "status": "ACTION_COMPARISON_UNDERDETERMINED_SOURCE_SUPPORT"
+    },
+    {
+      "candidate_id": "C_HIGGS_Y_CONTROL",
+      "evidence_ref": {
+        "from_run": "g2v2_20261121T045908Z_7c71a597",
+        "relative_path": "results/gravity2/miner2_runs/g2v2_20261121T045908Z_7c71a597/cases/C_HIGGS_Y_CONTROL.json",
+        "sha256": "62d04c1f44bc669a312c24681a1e4749ede522e311f7bcb3d32aca43531cbb92"
+      },
+      "fingerprint": "25c5d63f7931016bb7f6e5642179ab8cddb6acc55af4bce56cf53909ab6c0545",
+      "status": "ONE_EXTERIOR_CARRIER_HIGGSED_OTHER_UNBROKEN"
+    },
+    {
+      "candidate_id": "D_HIGGS_BOTH_CONTROL",
+      "evidence_ref": {
+        "from_run": "g2v2_20261121T045908Z_7c71a597",
+        "relative_path": "results/gravity2/miner2_runs/g2v2_20261121T045908Z_7c71a597/cases/D_HIGGS_BOTH_CONTROL.json",
+        "sha256": "c2d66d96b21e76c778313610d0d6f00f046f831389b028deecd0d576d71570c2"
+      },
+      "fingerprint": "1997ce405b203d14377a7258296c4a11a49c5ca12aa5c65c8692499b1a6474bc",
+      "status": "SCOPED_NO_UNBROKEN_U1_FOR_BOTH_EXTERIOR_VEVS"
+    }
+  ],
+  "program": "GRAVITY2-04_GENERATED_SOURCE_FRAMES",
+  "run_id": "g2v2_20261121T045908Z_7c71a597",
+  "scientific_scope": "EXACT_CHARGED_SOURCE_FRAME_AND_EXTERIOR_VEV_PREFLIGHT_ONLY",
+  "whole_craft_lift": "NOT_DERIVED"
+}

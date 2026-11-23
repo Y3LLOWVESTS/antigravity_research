@@ -1,0 +1,21 @@
+{
+  "algorithm": "DETERMINISTIC_THEOREM_FIRST",
+  "continuation_of": null,
+  "created_utc": "2026-11-21T04:48:57.672247+00:00",
+  "disk_soft_mib": 12,
+  "level": "L1",
+  "max_seconds": 300.0,
+  "memory_soft_mib": 768,
+  "parent_fingerprint": "8cde32519fac505343556163bc8973e3e8d283d55848fed33ccc0f8683b22eec",
+  "preset": "focused",
+  "producer_sha256": {
+    "miner.py": "02972ab910dd9d6e0e8e497b3cba06e4dbcaa41ee2ab4943aa50fd4f822d5081",
+    "miner_cases.py": "8e865e903e48c1068dc288f73dfdad4d26782a06a7f2e2ea75509c142f9f1813",
+    "miner_verify.py": "2bf9264d657ec71e0388c046d024d0cdda57b9dc77a81d561263f536fe3c1f0d"
+  },
+  "program": "GRAVITY2_AUTONOMOUS_V1",
+  "run_id": "g2m_20261121T044857Z_de81def3",
+  "schema": "gravity2.miner.v1",
+  "scope": "ONLY_EXPLICIT_R3B_SOURCE_ACTION_ANSATZE; NO_L2_L4",
+  "workers": 1
+}

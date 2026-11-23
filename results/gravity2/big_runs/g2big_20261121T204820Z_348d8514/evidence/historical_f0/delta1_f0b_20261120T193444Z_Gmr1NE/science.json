@@ -1,0 +1,116 @@
+{
+  "action": "V*(E^2/(2*N)-B^2/(2*(1-N))-Omega^4*W+n*q*E/Omega)",
+  "assumptions": "Free homogeneous spheroid, insulating, unanchored director, no free sheets or surface action; dimensionless",
+  "branch": "DELTA1-F0B",
+  "cases": {
+    "ordered": {
+      "N": 0.33074902811462975,
+      "a": -0.35,
+      "affine_residual": 1.2576745200831851e-17,
+      "eta": 0.25,
+      "exterior_B_over_E": -0.0823237502536638,
+      "pressure": -0.0019694355035156097,
+      "shear_difference": 0.002423931058686312,
+      "slip_work_per_volume": -0.0019391448469490498,
+      "solver_success": true,
+      "state": [
+        -0.03634007355665174,
+        -0.006053428015145327,
+        0.11183236900785794,
+        0.004119454191373829,
+        0.006469790561783498
+      ],
+      "theta": 0.24890095890208436
+    },
+    "portal_off": {
+      "N": 0.3312358818360689,
+      "a": -0.35,
+      "affine_residual": 1.6479873021779667e-17,
+      "eta": 0.0,
+      "exterior_B_over_E": -0.0,
+      "pressure": -0.0016328239212007323,
+      "shear_difference": 0.001967324923060013,
+      "slip_work_per_volume": -0.0015738599384480104,
+      "solver_success": true,
+      "state": [
+        -0.03288920404698016,
+        -3.6844284769923536e-39,
+        0.09961824612869155,
+        0.0032763589620311427,
+        0.005249564958768786
+      ],
+      "theta": 0.0
+    },
+    "reversed": {
+      "N": 0.3307490281146297,
+      "a": -0.35,
+      "affine_residual": 5.160802341031001e-17,
+      "eta": -0.25,
+      "exterior_B_over_E": 0.08232375025366379,
+      "pressure": -0.001969435503515554,
+      "shear_difference": 0.0024239310586863126,
+      "slip_work_per_volume": -0.0019391448469490502,
+      "solver_success": true,
+      "state": [
+        -0.036340073556651684,
+        0.006053428015145317,
+        0.11183236900785776,
+        0.004119454191373765,
+        0.006469790561783485
+      ],
+      "theta": -0.24890095890208433
+    },
+    "unordered": {
+      "N": 0.3333333333333337,
+      "a": 0.35,
+      "affine_residual": 0.0,
+      "eta": 0.25,
+      "exterior_B_over_E": null,
+      "pressure": 0.0,
+      "shear_difference": 0.0,
+      "slip_work_per_volume": -0.0,
+      "solver_success": true,
+      "state": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "theta": 0.25
+    }
+  },
+  "cpu_s": 0.006107000000000085,
+  "full_regression": "PENDING",
+  "linear_free_boundary": {
+    "coefficients": [
+      1.1371739538374934,
+      -0.7993995121035845,
+      0.46162507036967554
+    ],
+    "normal_load_per_q2": 0.32651529367611193,
+    "normalized_radius": 1,
+    "scope": "l=2 static mechanical response at fixed small polarization, no external clamp",
+    "surface_displacement_per_q2": 0.7993995121035844
+  },
+  "missing": "Nonuniform material equilibrium, loaded torus, gravity, SI cost and microscopic X coupling",
+  "new_PDE_solves": 0,
+  "next": "NO_AUTOMATIC_PROMOTION",
+  "parameters": {
+    "K": 0.5,
+    "b4": 2.0,
+    "mass": 1.0,
+    "mu": 0.125
+  },
+  "parents": {
+    "results/data/032h17a12d1r3x1_lorentzian_sign_audit_summary.json": "8c3a7de0fea08ebdc649992cb12e8942bf1ba7b72607f5c06cd56ae388caede5",
+    "results/data/032h17a12d1r3x3b8_spherical_interface_screening_summary.json": "57f73dad0ffdefd4e44eaa00ca6906403dead256bc17683b2cb8a0533e855b95",
+    "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/interface_replay_XFyASR/interface.json": "7a7ce0b430fa8c2828320a2751153ec575102d8a7da46848b5ff00e911c944cc",
+    "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/replay_lhVLr2/science.json": "baa5ec84bae337af4927d79b2ebd9380b0aaccf01fa28947aa4f8530c9b6ee44",
+    "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/replay_lhVLr2/verify/verification.json": "71c4b122351c939d32faa8c1fe02fa7483cc92759a5ff03b7e87fe8885d0234c"
+  },
+  "producer_sha256": "ce8b7e1bd94a9eb1b254614ed0ec390a16c053fa4afcd29ad9e5bbe40c77c315",
+  "status": "AFFINE_FAILS_LINEAR_QUADRUPOLE_BALANCE_DERIVED",
+  "utc": "2026-11-20T19:34:45.498333+00:00",
+  "wall_s": 0.008392604999244213
+}

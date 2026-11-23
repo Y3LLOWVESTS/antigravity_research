@@ -1,0 +1,55 @@
+{
+  "all_lambda_ge_3cm_pair_kernel_minimum": 0.9715249981124935,
+  "conditional_on_ordinary_scalar_charges": true,
+  "continuous_band_target_only_energy_floor_J": 3772282893166.246,
+  "derivation": "G01-R postcheck: empirical transfer and all-range positive-energy bound.\n\nFor freely diagonalized, unscreened canonical scalars of strengths b_i, set\na=-c^2 sum b_i grad(phi_i). Cauchy-Schwarz pointwise and integration over\nthe full target give sum(U_i)*sum(b_i^2)>=g^2*V/(8*pi*G). This bounds the\ndriven field energy using a zero off-state (or just the quadratic norm of the\non-minus-off field). Positive scalar exchange between ordinary masses has\nYukawa/Newton coefficient b_i^2 in the same normalization. For any pair of\nnonoverlapping spheres on the centerline, each projected Newton kernel is\npositive, hence its weighted Yukawa ratio is >=(1+x)*exp(-x), with x the\nmaximum pair-element distance divided by the shortest range. No assumption on\nEM source shape. Couplings/charges must remain universal and unscreened.\nThese are model predictions for the two masses, not a refit of the apparatus.\n",
+  "inputs": {
+    "Goodkind_DOI": "10.1103/PhysRevD.47.1290",
+    "Westphal_DOI": "10.1038/s41586-021-03250-7",
+    "center_range_m": [
+      0.0025,
+      0.0058
+    ],
+    "confidence": 0.95,
+    "published_Yukawa_strength_max": 0.012,
+    "published_range_m": [
+      0.2,
+      2.0
+    ],
+    "sphere_radius_m": 0.001
+  },
+  "model_minimum_sum_scalar_strength_at_10MJ": 4526.739471799496,
+  "near_optima": [
+    {
+      "range_m": 1.3400507764528895,
+      "required_strength_strict_min": 3724518.395769971,
+      "scalar_energy_at_lab_limit_J": 3103765329808309.0,
+      "strength_factor_over_lab_cap": 310376532.9808309
+    },
+    {
+      "range_m": 0.6463304070095656,
+      "required_strength_strict_min": 32184706.277988825,
+      "scalar_energy_at_lab_limit_J": 2.682058856499069e+16,
+      "strength_factor_over_lab_cap": 2682058856.4990687
+    }
+  ],
+  "postcheck_sha256": "e8bd5c1ae8602cc8bec0330fbbbd65e6ce963696880ad31dda7ad8c848ea6b2d",
+  "predicted_extra_force_over_Newton_strict_min": 4397.840556795755,
+  "raw_laboratory_fit": false,
+  "sampled_rows_in_band": 60,
+  "science_sha256": "650f6f582f5b4385c05feb0eede6b3ba4e1f241894823fa979e614df6aa0f392",
+  "two_sphere_checks": [
+    {
+      "analytic": 0.9969362957846428,
+      "d_m": 0.0025,
+      "force_ratio_per_unit_strength": 0.9969362957978696
+    },
+    {
+      "analytic": 0.9837725048733091,
+      "d_m": 0.0058,
+      "force_ratio_per_unit_strength": 0.9837725048733089
+    }
+  ],
+  "verdict": "NO_ENERGY_LAB_OVERLAP_IN_DIRECT_PUBLISHED_BAND",
+  "verification_sha256": "3001a19cff66b63ae0492970632725f58df838cc20035366a00a812c4a84d63b"
+}

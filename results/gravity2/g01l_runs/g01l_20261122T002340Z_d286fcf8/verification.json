@@ -1,0 +1,23 @@
+{
+  "max_Lorentzian_metric_variation_error": 1.3833401091289943e-10,
+  "max_corrected_drive_relative_error": 1.6607221374615575e-15,
+  "max_rational_kernel_error": 0.0,
+  "min_interior_kernel": 0.16666666666666666,
+  "modes": 12,
+  "negative_controls": {
+    "H_critical_marginal": true,
+    "H_zero_local_ghost_prefilter": true,
+    "correct_Bnormal_continuity": true,
+    "g_zero_no_mirror_source": true,
+    "historical_loaded_inward_retained": true,
+    "interior_energy_strictly_positive": true,
+    "no_J_positive_hessian_zero_field": true,
+    "no_SI_interpretation": true,
+    "no_interior_field_violates_Bianchi": true,
+    "original_Mexterior_not_Mfull": true
+  },
+  "physical_survivors": 0,
+  "science_sha256": "ab878109e7811ecdd3852f3b5eab72d3bf19420ba8b44f25e7a17536fb95f3e2",
+  "status": "PASS_INDEPENDENT_SCOPED_TWO_SIDED_MAXWELL_AND_METRIC_AUDIT",
+  "unresolved": "FULL_ACTION_SOURCE_LORENTZIAN_HEALTH_EINSTEIN_EARTH"
+}

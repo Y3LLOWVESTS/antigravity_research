@@ -1,0 +1,17 @@
+{
+  "disk_soft_mib": 4,
+  "legacy_AGMINER_access": "READ_ONLY_SHA_NO_IMPORT",
+  "level": "L0",
+  "older_GRAVITY2_modules_modified": false,
+  "preset": "quick",
+  "producer_sha256": {
+    "bridge03a.py": "3de52eae90ec63c53846392f0da0d96d579c60d7cbfdd018dd162b7dde5217bf",
+    "bridge03a_verify.py": "2cf8a47b3b222a0cf0db0cd2ee7d58746fca5ac0af296990d9baaf4029dd8e89"
+  },
+  "program": "GRAVITY2-03A",
+  "rss_soft_mib": 384,
+  "run_id": "g203a_20261121T043515Z_4d15503e",
+  "seconds": 30.0,
+  "sympy_version": "1.14.0",
+  "workers": 1
+}

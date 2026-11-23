@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "boundary": true,
+    "chord work": true,
+    "completed producer": true,
+    "corrected Gauss and Ampere": true,
+    "full 1 kg trace": true,
+    "historical loaded failure": true,
+    "isolated curvature": true,
+    "mass quadrature": true,
+    "material variation": true,
+    "mesh experiment": true,
+    "parent bytes": true,
+    "physical stop": true,
+    "pinned F0B": true,
+    "portal off": true,
+    "saved fields": true,
+    "science sidecar": true,
+    "shape": true,
+    "signed minimum": true,
+    "silent mode stiffness ambiguity": true,
+    "silent threshold": true,
+    "uncertainty ledger": true,
+    "unloaded bound": true,
+    "unloaded dipole": true,
+    "variational trial bound sign": true,
+    "worst point": true
+  },
+  "full_regression": "PENDING",
+  "independent_weak_residual": 9.063725670460845e-12,
+  "minimum_changes_mesh_box_diagonal": [
+    0.009937733367206915,
+    0.0006076062038206827,
+    0.0026769129803313205
+  ],
+  "next": "NO_AUTOMATIC_PROMOTION",
+  "science_sha256": "3c671e54a44a23bd12d2fe2451aed6388bb3c4f6da37408d7abe54c808540f7f",
+  "status": "PASS_SCOPED_TRIAL_AND_MODE_OBSTRUCTION",
+  "utc": "2026-11-20T22:35:25.599424+00:00",
+  "verifier": "a3e0049b9c59e082dfa94323810f47c2c56933cf10c056528bb1fbde8d920f04",
+  "wall_s": 0.038117183998110704
+}

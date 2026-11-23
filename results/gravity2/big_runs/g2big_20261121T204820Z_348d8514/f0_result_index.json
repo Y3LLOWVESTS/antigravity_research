@@ -1,0 +1,110 @@
+{
+  "files": [
+    {
+      "bytes": 1202,
+      "path": "results/data/delta1_f0_20261120T190601Z_EHxGDA/receipt.json",
+      "sha256": "75a2284163357cced21359c67d6ec8d5a942ca646c23d7e7881c8aacdf617875"
+    },
+    {
+      "bytes": 656,
+      "path": "results/data/delta1_f0_20261120T190601Z_EHxGDA/science.json",
+      "sha256": "2feab292375dd33f7d97b66e71ad379ce9dd689dd4767052e06d68ede9850bb4"
+    },
+    {
+      "bytes": 2555,
+      "path": "results/data/delta1_f0_20261120T190601Z_EHxGDA/verify_34S2RK/verification.json",
+      "sha256": "b750a86cf37b255f15cacecec33ad5208773694991d5b39cb81c8a182584c052"
+    },
+    {
+      "bytes": 1349,
+      "path": "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/interface_replay_XFyASR/interface.json",
+      "sha256": "7a7ce0b430fa8c2828320a2751153ec575102d8a7da46848b5ff00e911c944cc"
+    },
+    {
+      "bytes": 1351,
+      "path": "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/interface_xRhZb4/interface.json",
+      "sha256": "60bf091a288779fad14e3c4e5d568eb2de1ad0ac45cca27ceaa686a4e214abef"
+    },
+    {
+      "bytes": 1931,
+      "path": "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/replay_lhVLr2/science.json",
+      "sha256": "baa5ec84bae337af4927d79b2ebd9380b0aaccf01fa28947aa4f8530c9b6ee44"
+    },
+    {
+      "bytes": 1024,
+      "path": "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/replay_lhVLr2/verify/verification.json",
+      "sha256": "71c4b122351c939d32faa8c1fe02fa7483cc92759a5ff03b7e87fe8885d0234c"
+    },
+    {
+      "bytes": 1931,
+      "path": "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/science.json",
+      "sha256": "9fd210b534a9eccedf4b2e81553fc957edb0cd9de7f79c6a4420c725ba3cf9f1"
+    },
+    {
+      "bytes": 1022,
+      "path": "results/data/delta1_f0a_verified_20261120T192135Z_aFfS0O/verify_TniiUP/verification.json",
+      "sha256": "d8ab8970e2445bced8b9f07cd05c83f70c421d36c898105746f6f190a51d53e5"
+    },
+    {
+      "bytes": 4039,
+      "path": "results/data/delta1_f0b_20261120T193444Z_Gmr1NE/science.json",
+      "sha256": "fd21173471942c8e21b2659d25ac8a8b3790ede8f0dce45717d4e38f7206963c"
+    },
+    {
+      "bytes": 1536,
+      "path": "results/data/delta1_f0b_20261120T193444Z_Gmr1NE/verify_ZuiGh3/verification.json",
+      "sha256": "9752ac820bd93247477a2c3f282e0eed095dc4182f3ac5c7975feb8acb22e24b"
+    },
+    {
+      "bytes": 6308,
+      "path": "results/data/delta1_f0c_20261120T223510Z_rSztin/science.json",
+      "sha256": "3c671e54a44a23bd12d2fe2451aed6388bb3c4f6da37408d7abe54c808540f7f"
+    },
+    {
+      "bytes": 1313,
+      "path": "results/data/delta1_f0c_20261120T223510Z_rSztin/verify_nWI4IF/verification.json",
+      "sha256": "bafc1cf1d415e33a6da251fade2a29b1497d456f8d3aff5316d4b95936bbd9c6"
+    },
+    {
+      "bytes": 5005,
+      "path": "results/data/delta1_f0d_20261120T231924Z_vCnB6I/science.json",
+      "sha256": "2db67eea46adf84327c14c0177c1863148893217a377ac67a1f3a39ec9cb6465"
+    },
+    {
+      "bytes": 672,
+      "path": "results/data/delta1_f0e_r1_20261121T003218Z_NGpmsh/repair_manifest.json",
+      "sha256": "2af2d9143532cece7c64db8b6048d6fe909058c90bd342353cd47409a89542e5"
+    },
+    {
+      "bytes": 4858,
+      "path": "results/data/delta1_f0e_r1_20261121T003218Z_NGpmsh/science.json",
+      "sha256": "bdc6d1b27befa108cc982d392e8bf265c17b96f814f54810d49b180d0dc834d4"
+    },
+    {
+      "bytes": 1603,
+      "path": "results/data/delta1_f0e_r1_20261121T003218Z_NGpmsh/verification.json",
+      "sha256": "63ca7c612bf5d39e6fa238c9a992b31500f3067e090e3cc43047ca7d87a8503e"
+    },
+    {
+      "bytes": 4852,
+      "path": "results/data/delta1_f0f_20261121T032200Z_42xBGt/science.json",
+      "sha256": "145f7db67b440cbd5e5f0c2023ccb1ac7ad9d2151b777f459e1c2fc3964c9e73"
+    },
+    {
+      "bytes": 1611,
+      "path": "results/data/delta1_f0f_20261121T032200Z_42xBGt/verification.json",
+      "sha256": "db52ae4365636ec72cb399fa380c13d5333d98db64aaa8d03e5c8e07e0376c50"
+    },
+    {
+      "bytes": 4935,
+      "path": "results/data/delta1_f0g_20261121T033524Z_929whN/science.json",
+      "sha256": "c8e74278c73b4d74f43560f7dec275c8061ef3f83c33d52afe703a7360a91c1f"
+    },
+    {
+      "bytes": 1859,
+      "path": "results/data/delta1_f0g_20261121T033524Z_929whN/verification.json",
+      "sha256": "b2def664dae9363fffc4be1d9d6e145f94e6d6ec9b793d0f24d4e39a33cbd566"
+    }
+  ],
+  "note": "Inventory and raw-copy only; not independent physics certification"
+}

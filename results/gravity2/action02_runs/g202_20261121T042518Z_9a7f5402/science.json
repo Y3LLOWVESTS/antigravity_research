@@ -1,0 +1,147 @@
+{
+  "006D_replaced": false,
+  "complete_covariant_action": "NOT_DERIVED",
+  "complete_energy": "NOT_CERTIFIED",
+  "evidence": {
+    "candidates": [
+      {
+        "assumptions": "Static regular all-space source-free fields; finite energy; no external boundary flux",
+        "classification": "NEGATIVE_CONTROL_NO_FINITE_SOURCE",
+        "definition": "Einstein-Hilbert + canonical Maxwell X/Y + universal conformal neutral-matter portal",
+        "family": "TWO_U1_NO_CHARGED_SOURCE",
+        "id": "C0_SOURCE_FREE_CONTROL",
+        "sourceability": "NOT_ESTABLISHED"
+      },
+      {
+        "assumptions": "Canonical scalar kinetic terms; real charges; nonnegative mass and quartic parameters; support and Earth actions still unspecified",
+        "classification": "FORMAL_COVARIANT_SOURCE_TEMPLATE_UNDERDETERMINED",
+        "definition": "Einstein-Hilbert + two canonical Maxwell sectors + two independently charged complex scalars + universal conformal neutral-matter portal + dynamical-support and Earth action slots",
+        "family": "LOCAL_U1X_U1Y_SCALAR_SOURCE",
+        "id": "C1_TWO_CHARGED_SCALARS",
+        "sourceability": "FINITE_STABLE_EQUILIBRIUM_NOT_DERIVED"
+      },
+      {
+        "assumptions": "Ordinary positive Maxwell energy; nonzero charge; zero core radius",
+        "classification": "REJECT_INFINITE_SELF_ENERGY_UNDER_ASSUMPTIONS",
+        "definition": "Static 3D Maxwell point charges with zero core radius, no finite material regularization",
+        "family": "UNREGULARIZED_MAXWELL_POINT_SOURCE",
+        "id": "C2_POINT_CHARGE_CONTROL",
+        "sourceability": "SINGULAR_ZERO_RADIUS_SOURCE"
+      }
+    ],
+    "complete_action": "NOT_DERIVED",
+    "complete_energy": "NOT_CERTIFIED",
+    "decision": "SCOPED_ACTION_TEMPLATE_ATLAS_NO_PROMOTION",
+    "full_regression": "NOT_RUN",
+    "gates": {
+      "G00_PARENT": "PASS_SCOPED",
+      "G01_ACTION": "TEMPLATES_ONLY_NOT_COMPLETE_SOURCE_ACTION",
+      "G02_VARIATION": "PARTIAL_EXACT_PORTAL_AND_SOURCE_VARIATION",
+      "G03_WARD": "SCOPED_ONE_COORDINATE_U1_NOETHER_IDENTITY",
+      "G04_HEALTH": "NOT_DERIVED_FULL_MODES",
+      "G05_SOURCE": "FINITE_SOURCE_NOT_DERIVED",
+      "G06_LOAD": "NOT_RUN",
+      "G07_METRIC": "NOT_SOLVED",
+      "G08_ENERGY": "COMPLETE_SI_NOT_CERTIFIED",
+      "G09_EXTERIOR": "NOT_RUN",
+      "G10_REACTION": "NOT_DERIVED",
+      "G11_REALISM": "NOT_CERTIFIED"
+    },
+    "historical_R3B_capacity_J": 1.5429162116460216,
+    "historical_files": {
+      "A12C_F2_LOAD_NOT_R3B": {
+        "actual_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "expected_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "relative_path": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+        "status": "MATCH"
+      },
+      "DELTA1_02_RECIPROCITY": {
+        "actual_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "expected_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "relative_path": "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py",
+        "status": "MATCH"
+      },
+      "R3B_MIXED_LOADED": {
+        "actual_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "expected_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py",
+        "status": "MATCH"
+      },
+      "R3B_PRELOADED": {
+        "actual_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "expected_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+        "status": "MATCH"
+      },
+      "R3X1_LORENTZ_SIGN": {
+        "actual_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "expected_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_r3x1_lorentzian_sign_audit.py",
+        "status": "MATCH"
+      }
+    },
+    "historical_loaded_min_m_s2": -129.67185782242464,
+    "historical_values": "PROVENANCE_ANCHORS_NOT_RECOMPUTED",
+    "parents": {
+      "GRAVITY2_01_SCIENCE": {
+        "actual_sha256": "e1d3012279be440b8b021cc9cf52505e90c317263dc42a43c64133a4baa2720f",
+        "expected_sha256": "e1d3012279be440b8b021cc9cf52505e90c317263dc42a43c64133a4baa2720f",
+        "path": "results/gravity2/action01_runs/g201_20261121T041450Z_f4c901cc/science.json"
+      },
+      "GRAVITY2_01_VERIFICATION": {
+        "actual_sha256": "4ae76fd26c41278519ceebb38a86585e45a4a4149a45b8edf2362019cb15d74f",
+        "expected_sha256": "4ae76fd26c41278519ceebb38a86585e45a4a4149a45b8edf2362019cb15d74f",
+        "path": "results/gravity2/action01_runs/g201_20261121T041450Z_f4c901cc/verification.json"
+      }
+    },
+    "physical_lift": "NOT_DERIVED",
+    "qualified_survivors": 0,
+    "source_action_template": {
+      "D_i": "nabla-i*q_i*A_i",
+      "Earth_matter": "S_Earth[g_tilde,psi_E] UNEXPANDED",
+      "Einstein": "S_EH[g]=M_Pl^2/2 integral sqrt(-g) R",
+      "carriers": "integral sqrt(-g)*(-F_X^2/4-F_Y^2/4)",
+      "charged_sources": "sum_i integral sqrt(-g)*(-|D_i Psi_i|^2-m_i^2|Psi_i|^2-lambda_i|Psi_i|^4/2)",
+      "neutral_matter": "S_neutral[g_tilde,psi_n] UNEXPANDED",
+      "portal": "g_tilde=exp(2*sigma(P))*g; P=epsilon(F_X,F_Y)/(4*sqrt(-g))",
+      "supports": "S_support[g,chi,Psi_X,Psi_Y] UNEXPANDED"
+    },
+    "symbolic_identities": {
+      "bare_fixed_theta_direct_Hilbert_residual": "0",
+      "charged_scalar_gauge_variation": "0",
+      "charged_scalar_one_coordinate_Ward_residual": "0",
+      "metric_trace_factor": "-4*alpha*p + 8*beta*p**2 + 1",
+      "metric_variation_residual": "0",
+      "point_charge_self_energy_limit": "POSITIVE_INFINITY",
+      "portal_lambda": "exp(4*sigma)*trace*diff(sigma,p)",
+      "portal_sigma": "alpha*p-beta*p**2",
+      "scope": "EXACT_SYMBOLIC_LOCAL_IDENTITY_CHECKS_ONLY; NO_FULL_GRAVITATIONAL_OR_CONSTRAINED_MODE_CLOSURE",
+      "transverse_reciprocity_residual": "0"
+    },
+    "unresolved": [
+      "Exact reproduction of the original R3B field kernel",
+      "Physically stable, compact current-carrying source",
+      "Explicit source/support/Earth material actions",
+      "All off-shell 4D metric and source variations",
+      "Gauge constraints and full Lorentzian mode spectrum",
+      "Reciprocal strong neutral-matter loading",
+      "Finite continuum and exterior metric solution",
+      "Earth-down and total spacecraft-up reaction",
+      "Complete SI operating energy strictly below 10 MJ",
+      "Empirical, quantum and UV consistency"
+    ]
+  },
+  "execution_status": "COMPLETED",
+  "full_regression": "NOT_RUN",
+  "program": "GRAVITY2-02",
+  "qualified_physical_survivors": 0,
+  "resource": {
+    "elapsed_seconds": 1.7374,
+    "limit_kind": "APPLICATION_SOFT_WATCHDOG",
+    "rss_monitor": "PSUTIL_SOFT_LIMIT",
+    "worker_exit_code": 0,
+    "worker_peak_rss_mib": 66.477
+  },
+  "run_id": "g202_20261121T042518Z_9a7f5402",
+  "whole_craft_lift": "NOT_DERIVED"
+}

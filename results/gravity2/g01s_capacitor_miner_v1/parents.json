@@ -1,0 +1,61 @@
+{
+  "parents": {
+    "DELTA1_02": {
+      "mandatory": true,
+      "path_relative_to_repo": "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py",
+      "sha256_actual": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+      "sha256_expected": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+      "status": "MATCH"
+    },
+    "F0C": {
+      "mandatory": false,
+      "path_relative_to_repo": "results/data/delta1_f0c_20261120T223510Z_rSztin/science.json",
+      "sha256_actual": "3c671e54a44a23bd12d2fe2451aed6388bb3c4f6da37408d7abe54c808540f7f",
+      "sha256_expected": "3c671e54a44a23bd12d2fe2451aed6388bb3c4f6da37408d7abe54c808540f7f",
+      "status": "MATCH"
+    },
+    "F0D": {
+      "mandatory": false,
+      "path_relative_to_repo": "results/data/delta1_f0d_20261120T231924Z_vCnB6I/science.json",
+      "sha256_actual": "2db67eea46adf84327c14c0177c1863148893217a377ac67a1f3a39ec9cb6465",
+      "sha256_expected": "2db67eea46adf84327c14c0177c1863148893217a377ac67a1f3a39ec9cb6465",
+      "status": "MATCH"
+    },
+    "F0E_R1": {
+      "mandatory": false,
+      "path_relative_to_repo": "results/data/delta1_f0e_r1_20261121T003218Z_NGpmsh/science.json",
+      "sha256_actual": "bdc6d1b27befa108cc982d392e8bf265c17b96f814f54810d49b180d0dc834d4",
+      "sha256_expected": "bdc6d1b27befa108cc982d392e8bf265c17b96f814f54810d49b180d0dc834d4",
+      "status": "MATCH"
+    },
+    "F0F": {
+      "mandatory": false,
+      "path_relative_to_repo": "results/data/delta1_f0f_20261121T032200Z_42xBGt/science.json",
+      "sha256_actual": "145f7db67b440cbd5e5f0c2023ccb1ac7ad9d2151b777f459e1c2fc3964c9e73",
+      "sha256_expected": "145f7db67b440cbd5e5f0c2023ccb1ac7ad9d2151b777f459e1c2fc3964c9e73",
+      "status": "MATCH"
+    },
+    "F0G": {
+      "mandatory": false,
+      "path_relative_to_repo": "results/data/delta1_f0g_20261121T033524Z_929whN/science.json",
+      "sha256_actual": "c8e74278c73b4d74f43560f7dec275c8061ef3f83c33d52afe703a7360a91c1f",
+      "sha256_expected": "c8e74278c73b4d74f43560f7dec275c8061ef3f83c33d52afe703a7360a91c1f",
+      "status": "MATCH"
+    },
+    "R3B_LOADED": {
+      "mandatory": true,
+      "path_relative_to_repo": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+      "sha256_actual": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+      "sha256_expected": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+      "status": "MATCH"
+    },
+    "R3B_ORIGINAL": {
+      "mandatory": true,
+      "path_relative_to_repo": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+      "sha256_actual": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+      "sha256_expected": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+      "status": "MATCH"
+    }
+  },
+  "registry": "REGISTRY_V6_AUDIT=PASS\nACTIVE_GENERATION_SHA256=649c08469be2d6e2deb09de77110982a223b952eb64f4a36a45b394d43e0f9a1\nREGISTERED_TASKS=0\nHISTORICAL_CAMPAIGNS_CHANGED=NO\n"
+}

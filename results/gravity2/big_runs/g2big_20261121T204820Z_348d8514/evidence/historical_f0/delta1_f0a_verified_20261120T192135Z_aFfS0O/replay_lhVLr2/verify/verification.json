@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "archived_dipole_normalization": true,
+    "curl_signs": true,
+    "depolarization_and_energy": true,
+    "disordered_control": true,
+    "ordered_radial_curvature": true,
+    "parent_032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json": true,
+    "parent_032h17a12d1r3x3b7_finite_charge_shell_summary.json": true,
+    "parent_delta1_f0_20261120T190601Z_EHxGDA/science.json": true,
+    "parent_delta1_f0_20261120T190601Z_EHxGDA/verify_34S2RK/verification.json": true,
+    "science_and_code": true,
+    "threshold": true,
+    "variational_convergence": true
+  },
+  "cpu_s": 0.0035840000000000316,
+  "ritz": [
+    5.0,
+    4.334959388286979,
+    4.332960069115982,
+    4.332958551798722
+  ],
+  "science_sha256": "baa5ec84bae337af4927d79b2ebd9380b0aaccf01fa28947aa4f8530c9b6ee44",
+  "status": "PASS_SCOPED_SOURCE_ALGEBRA",
+  "utc": "2026-11-20T19:21:52.765014+00:00",
+  "verifier_sha256": "9de826aec7937f6484d55a48e29d973cbca709f5457475d3e010a6d772dfcd81",
+  "wall_s": 0.0035969509990536608
+}

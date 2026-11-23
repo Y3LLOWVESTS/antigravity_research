@@ -1,0 +1,946 @@
+{
+  "best_evaluated_setting": {
+    "cap_j": 10.0,
+    "minimum_m_s2": -5.1428836233768926e-05,
+    "mode_bound": 5.0
+  },
+  "claim": "ARTIFICIAL_SOURCE_CONTROL_FEASIBILITY_ONLY",
+  "continuum_exterior": "NOT_CERTIFIED",
+  "created_utc": "2026-11-22T04:36:09.470700+00:00",
+  "earth_down_whole_craft_up": "NOT_DERIVED",
+  "experiment": "G01-T2-EXACT-QUADRATIC-SHARED-SOURCE-GOLDEN",
+  "full_regression": "NOT_RUN_BY_USER_POLICY",
+  "grids": [
+    {
+      "baseline_field_energy_j": 1.4433196404756485,
+      "baseline_min_m_s2": -46.40607408464625,
+      "energy_quadratic_eigen_min": 0.9516294066463611,
+      "h_m": 0.075,
+      "minimum_sampled_clearance_m": 1.0364452901376788,
+      "payload_count": 22,
+      "quadratic_reconstruction_acc_max_abs_error": 5.684341886080802e-14,
+      "quadratic_reconstruction_energy_max_abs_error": 8.881784197001252e-16,
+      "raw_loaded_mode_energy_j": [
+        9.161753475436506e-12,
+        1.966899685808434e-11,
+        9.390925750816888e-12,
+        6.464936523373633e-12,
+        9.203099181511877e-12,
+        1.8520785386449923e-12,
+        8.402879723700169e-12,
+        4.673827205614079e-13,
+        7.599390238923801e-12,
+        1.9440621949153028e-13
+      ],
+      "signed_response_residual_max": 1.956860139710271e-15,
+      "t1_exact_reproduction": [
+        {
+          "acc_diff": 0.0,
+          "bound": 0.0,
+          "energy_diff_j": 0.0
+        },
+        {
+          "acc_diff": 0.0,
+          "bound": 0.25,
+          "energy_diff_j": 2.220446049250313e-16
+        },
+        {
+          "acc_diff": 0.0,
+          "bound": 0.5,
+          "energy_diff_j": 2.220446049250313e-16
+        },
+        {
+          "acc_diff": 3.552713678800501e-15,
+          "bound": 1.0,
+          "energy_diff_j": 0.0
+        },
+        {
+          "acc_diff": 3.552713678800501e-15,
+          "bound": 2.0,
+          "energy_diff_j": 0.0
+        }
+      ]
+    },
+    {
+      "baseline_field_energy_j": 1.5211390382733163,
+      "baseline_min_m_s2": -129.67185782242464,
+      "energy_quadratic_eigen_min": 0.969833810785815,
+      "h_m": 0.05,
+      "minimum_sampled_clearance_m": 1.0041637771601337,
+      "payload_count": 48,
+      "quadratic_reconstruction_acc_max_abs_error": 2.2737367544323206e-13,
+      "quadratic_reconstruction_energy_max_abs_error": 1.7763568394002505e-15,
+      "raw_loaded_mode_energy_j": [
+        9.269954428812346e-12,
+        1.9904958340520954e-11,
+        9.593353510663763e-12,
+        6.563960529162748e-12,
+        9.535809475382298e-12,
+        1.9117584922285193e-12,
+        8.990061452497628e-12,
+        4.998368459459738e-13,
+        8.449972961011452e-12,
+        2.1587488367772795e-13
+      ],
+      "signed_response_residual_max": 3.6101009608291384e-15,
+      "t1_exact_reproduction": [
+        {
+          "acc_diff": 0.0,
+          "bound": 0.0,
+          "energy_diff_j": 0.0
+        },
+        {
+          "acc_diff": 2.842170943040401e-14,
+          "bound": 0.25,
+          "energy_diff_j": 0.0
+        },
+        {
+          "acc_diff": 7.105427357601002e-15,
+          "bound": 0.5,
+          "energy_diff_j": -4.440892098500626e-16
+        },
+        {
+          "acc_diff": 2.842170943040401e-14,
+          "bound": 1.0,
+          "energy_diff_j": -4.440892098500626e-16
+        },
+        {
+          "acc_diff": 2.842170943040401e-14,
+          "bound": 2.0,
+          "energy_diff_j": -4.440892098500626e-16
+        }
+      ]
+    }
+  ],
+  "independent_second_field_solver": "NOT_RUN",
+  "microscopic_Y_current": "NOT_IDENTIFIED",
+  "model": "ORIGINAL_R3X1_LORENTZIAN_FROZEN_BETA_IDEAL_SHELL_CONTROLS",
+  "neutral_body_equilibrium": "FROZEN_BETA",
+  "optimistic_necessary_field_energy_j_for_sampled_1g": 18966.70929273964,
+  "parent_files_sha256": {
+    "results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11",
+    "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+    "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+    "src/antigravity_research/agminer/hook17_fdual_f_r3x1_lorentzian_sign_audit.py": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531"
+  },
+  "physical_research_maturity_percent": 37,
+  "physical_source_action": "NOT_DERIVED",
+  "physical_survivors": 0,
+  "quadratic_coefficients_file": "quadratic_coefficients.npz",
+  "quadratic_coefficients_sha256": "0296771603d17f1b60b1a790f1a8b46e21c0471fe7e7bbe0d2be273c7b61c962",
+  "results": [
+    {
+      "best": {
+        "acceleration_m_s2_by_grid": [
+          -5.5055973093853794e-05,
+          -5.505597514571248e-05
+        ],
+        "field_energy_j_by_grid": [
+          1.0594828727806704,
+          1.1286277784617063
+        ],
+        "iteration_count": 53,
+        "min_m_s2": -5.505597514571248e-05,
+        "solver_reported_success": true,
+        "u": [
+          0.46948010479910124,
+          -0.4985120769942894,
+          -0.080383940514959,
+          -0.16685444784353404,
+          0.1321968864864236,
+          0.06546920626737954,
+          -0.1358814243623927,
+          0.009546458776626614,
+          0.2658905449079076,
+          0.26903908004716875
+        ]
+      },
+      "bound_per_coarse_normalized_mode": 0.5,
+      "cap_canonical_field_j": 2.0,
+      "relaxed_upper_bound_on_global_min_m_s2": 0.0006101599571612302,
+      "solver_trials": [
+        {
+          "actual_min_m_s2": -0.00017261899318432583,
+          "feasible": true,
+          "iterations": 39,
+          "max_field_energy_j": 1.2920125778274827,
+          "message": "Optimization terminated successfully",
+          "seed": 0,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.042386492799423e-05,
+          "feasible": true,
+          "iterations": 48,
+          "max_field_energy_j": 1.7070104684177045,
+          "message": "Optimization terminated successfully",
+          "seed": 1,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.048575020312086e-05,
+          "feasible": true,
+          "iterations": 51,
+          "max_field_energy_j": 1.7094162546050755,
+          "message": "Optimization terminated successfully",
+          "seed": 2,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.044997792065132e-05,
+          "feasible": true,
+          "iterations": 62,
+          "max_field_energy_j": 1.7083815205427932,
+          "message": "Optimization terminated successfully",
+          "seed": 3,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.111609991421574e-05,
+          "feasible": true,
+          "iterations": 59,
+          "max_field_energy_j": 1.6844302133350177,
+          "message": "Optimization terminated successfully",
+          "seed": 4,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.00015080292128999417,
+          "feasible": true,
+          "iterations": 61,
+          "max_field_energy_j": 1.94803914294093,
+          "message": "Optimization terminated successfully",
+          "seed": 5,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.0001301272169773604,
+          "feasible": true,
+          "iterations": 65,
+          "max_field_energy_j": 1.6397376455427226,
+          "message": "Optimization terminated successfully",
+          "seed": 6,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.00013000346005398455,
+          "feasible": true,
+          "iterations": 51,
+          "max_field_energy_j": 1.6468826067952391,
+          "message": "Optimization terminated successfully",
+          "seed": 7,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.0002702345014102825,
+          "feasible": true,
+          "iterations": 54,
+          "max_field_energy_j": 1.4644675700450156,
+          "message": "Optimization terminated successfully",
+          "seed": 8,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.0424902082356624e-05,
+          "feasible": true,
+          "iterations": 53,
+          "max_field_energy_j": 1.706458684245371,
+          "message": "Optimization terminated successfully",
+          "seed": 9,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.505597514571248e-05,
+          "feasible": true,
+          "iterations": 53,
+          "max_field_energy_j": 1.1286277784617063,
+          "message": "Optimization terminated successfully",
+          "seed": 10,
+          "success": true
+        }
+      ],
+      "status": "NO_1G_CANDIDATE_FOUND",
+      "upper_bound_status": "ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES"
+    },
+    {
+      "best": {
+        "acceleration_m_s2_by_grid": [
+          -5.271914817733814e-05,
+          -5.27191556471962e-05
+        ],
+        "field_energy_j_by_grid": [
+          0.9384084690481371,
+          0.9950434108588795
+        ],
+        "iteration_count": 70,
+        "min_m_s2": -5.27191556471962e-05,
+        "solver_reported_success": true,
+        "u": [
+          0.48099871399868666,
+          -0.5894417001613543,
+          -0.10661104052187666,
+          -0.029785130498647578,
+          0.1465934979990361,
+          -0.02944389832643787,
+          -0.18247173211040213,
+          0.07483894814041636,
+          0.14134131964534688,
+          0.15272350162804652
+        ]
+      },
+      "bound_per_coarse_normalized_mode": 2.0,
+      "cap_canonical_field_j": 2.0,
+      "relaxed_upper_bound_on_global_min_m_s2": 0.0006101599571612302,
+      "solver_trials": [
+        {
+          "actual_min_m_s2": -5.878551658344833e-05,
+          "feasible": true,
+          "iterations": 53,
+          "max_field_energy_j": 1.3184461817638458,
+          "message": "Optimization terminated successfully",
+          "seed": 0,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.665195551962654e-05,
+          "feasible": true,
+          "iterations": 58,
+          "max_field_energy_j": 1.70458970367048,
+          "message": "Optimization terminated successfully",
+          "seed": 1,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.741600063696728e-05,
+          "feasible": true,
+          "iterations": 55,
+          "max_field_energy_j": 1.4247398044662294,
+          "message": "Optimization terminated successfully",
+          "seed": 2,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.732993980744894e-05,
+          "feasible": true,
+          "iterations": 43,
+          "max_field_energy_j": 1.717618301252596,
+          "message": "Optimization terminated successfully",
+          "seed": 3,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.0946242398163264e-05,
+          "feasible": true,
+          "iterations": 50,
+          "max_field_energy_j": 1.7450301112239623,
+          "message": "Optimization terminated successfully",
+          "seed": 4,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.00015420081987116419,
+          "feasible": true,
+          "iterations": 38,
+          "max_field_energy_j": 1.287057523834073,
+          "message": "Optimization terminated successfully",
+          "seed": 5,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -8.198291867245189e-05,
+          "feasible": true,
+          "iterations": 60,
+          "max_field_energy_j": 2.0000000004288414,
+          "message": "Optimization terminated successfully",
+          "seed": 6,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.398769017579298e-05,
+          "feasible": true,
+          "iterations": 57,
+          "max_field_energy_j": 1.9999454320921355,
+          "message": "Optimization terminated successfully",
+          "seed": 7,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.27191556471962e-05,
+          "feasible": true,
+          "iterations": 70,
+          "max_field_energy_j": 0.9950434108588795,
+          "message": "Optimization terminated successfully",
+          "seed": 8,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -8.183077037671183e-05,
+          "feasible": true,
+          "iterations": 67,
+          "max_field_energy_j": 2.000000000141883,
+          "message": "Optimization terminated successfully",
+          "seed": 9,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.00014546393550318726,
+          "feasible": true,
+          "iterations": 59,
+          "max_field_energy_j": 2.000000000511533,
+          "message": "Optimization terminated successfully",
+          "seed": 10,
+          "success": true
+        }
+      ],
+      "status": "NO_1G_CANDIDATE_FOUND",
+      "upper_bound_status": "ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES"
+    },
+    {
+      "best": {
+        "acceleration_m_s2_by_grid": [
+          -5.175982527128031e-05,
+          -5.1759825389019465e-05
+        ],
+        "field_energy_j_by_grid": [
+          1.5303467676694582,
+          1.6268370431044155
+        ],
+        "iteration_count": 63,
+        "min_m_s2": -5.1759825389019465e-05,
+        "solver_reported_success": true,
+        "u": [
+          0.3458273231934394,
+          -0.8145629946102269,
+          0.259855716288988,
+          0.2567705102608644,
+          -0.2766937588548917,
+          -0.17862328472867678,
+          0.36909324860949966,
+          0.0673149283626282,
+          0.0550003552750842,
+          -0.542937182458867
+        ]
+      },
+      "bound_per_coarse_normalized_mode": 2.0,
+      "cap_canonical_field_j": 10.0,
+      "relaxed_upper_bound_on_global_min_m_s2": 0.004785256798248623,
+      "solver_trials": [
+        {
+          "actual_min_m_s2": -5.8785516584336506e-05,
+          "feasible": true,
+          "iterations": 53,
+          "max_field_energy_j": 1.3184461816455002,
+          "message": "Optimization terminated successfully",
+          "seed": 0,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.5720946292581175e-05,
+          "feasible": true,
+          "iterations": 56,
+          "max_field_energy_j": 2.578230996667795,
+          "message": "Optimization terminated successfully",
+          "seed": 1,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.115901516556832e-05,
+          "feasible": true,
+          "iterations": 42,
+          "max_field_energy_j": 2.195208142625539,
+          "message": "Optimization terminated successfully",
+          "seed": 2,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.8451272682891187e-05,
+          "feasible": true,
+          "iterations": 46,
+          "max_field_energy_j": 1.639345699863191,
+          "message": "Optimization terminated successfully",
+          "seed": 3,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.757816452095499e-05,
+          "feasible": true,
+          "iterations": 61,
+          "max_field_energy_j": 1.5098959186323784,
+          "message": "Optimization terminated successfully",
+          "seed": 4,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.704350005686365e-05,
+          "feasible": true,
+          "iterations": 84,
+          "max_field_energy_j": 3.5872327984496883,
+          "message": "Optimization terminated successfully",
+          "seed": 5,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.0003044573360999614,
+          "feasible": true,
+          "iterations": 47,
+          "max_field_energy_j": 1.5695941507379167,
+          "message": "Optimization terminated successfully",
+          "seed": 6,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.1759825389019465e-05,
+          "feasible": true,
+          "iterations": 63,
+          "max_field_energy_j": 1.6268370431044155,
+          "message": "Optimization terminated successfully",
+          "seed": 7,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.0001635214982798061,
+          "feasible": true,
+          "iterations": 66,
+          "max_field_energy_j": 10.0,
+          "message": "Optimization terminated successfully",
+          "seed": 8,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -9.947401661425381e-05,
+          "feasible": true,
+          "iterations": 60,
+          "max_field_energy_j": 2.1334910972479615,
+          "message": "Optimization terminated successfully",
+          "seed": 9,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.74424058470413e-05,
+          "feasible": true,
+          "iterations": 60,
+          "max_field_energy_j": 4.697828163332169,
+          "message": "Optimization terminated successfully",
+          "seed": 10,
+          "success": true
+        }
+      ],
+      "status": "NO_1G_CANDIDATE_FOUND",
+      "upper_bound_status": "ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES"
+    },
+    {
+      "best": {
+        "acceleration_m_s2_by_grid": [
+          -5.142860403895e-05,
+          -5.1428836233768926e-05
+        ],
+        "field_energy_j_by_grid": [
+          1.898811145415731,
+          2.014709260538438
+        ],
+        "iteration_count": 74,
+        "min_m_s2": -5.1428836233768926e-05,
+        "solver_reported_success": true,
+        "u": [
+          0.3407174186174939,
+          -0.901880254200264,
+          0.27152827127894275,
+          0.4093895837197609,
+          -0.2920400074042741,
+          -0.30723544241332806,
+          0.3839590262337131,
+          0.18554727142908842,
+          0.09533357411306881,
+          -0.633022353448389
+        ]
+      },
+      "bound_per_coarse_normalized_mode": 5.0,
+      "cap_canonical_field_j": 10.0,
+      "relaxed_upper_bound_on_global_min_m_s2": 0.004785256798248623,
+      "solver_trials": [
+        {
+          "actual_min_m_s2": -5.993471468457301e-05,
+          "feasible": true,
+          "iterations": 52,
+          "max_field_energy_j": 2.4966592925336273,
+          "message": "Optimization terminated successfully",
+          "seed": 0,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.174376417567018e-05,
+          "feasible": true,
+          "iterations": 41,
+          "max_field_energy_j": 2.8709976756696527,
+          "message": "Optimization terminated successfully",
+          "seed": 1,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.086933594579014e-05,
+          "feasible": true,
+          "iterations": 45,
+          "max_field_energy_j": 2.1965603519747385,
+          "message": "Optimization terminated successfully",
+          "seed": 2,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.76425582426532e-05,
+          "feasible": true,
+          "iterations": 49,
+          "max_field_energy_j": 2.689721300680035,
+          "message": "Optimization terminated successfully",
+          "seed": 3,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.133998434387777e-05,
+          "feasible": true,
+          "iterations": 48,
+          "max_field_energy_j": 1.6795900284470622,
+          "message": "Optimization terminated successfully",
+          "seed": 4,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.00011263114126336404,
+          "feasible": true,
+          "iterations": 40,
+          "max_field_energy_j": 3.2393072711938737,
+          "message": "Optimization terminated successfully",
+          "seed": 5,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.0003044571797715112,
+          "feasible": true,
+          "iterations": 47,
+          "max_field_energy_j": 1.5695923933557694,
+          "message": "Optimization terminated successfully",
+          "seed": 6,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.1428836233768926e-05,
+          "feasible": true,
+          "iterations": 74,
+          "max_field_energy_j": 2.014709260538438,
+          "message": "Optimization terminated successfully",
+          "seed": 7,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.000163521673670175,
+          "feasible": true,
+          "iterations": 62,
+          "max_field_energy_j": 10.000000000307441,
+          "message": "Optimization terminated successfully",
+          "seed": 8,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -9.945474492845108e-05,
+          "feasible": true,
+          "iterations": 63,
+          "max_field_energy_j": 2.135669074151774,
+          "message": "Optimization terminated successfully",
+          "seed": 9,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.744240585414673e-05,
+          "feasible": true,
+          "iterations": 60,
+          "max_field_energy_j": 4.6978281628525655,
+          "message": "Optimization terminated successfully",
+          "seed": 10,
+          "success": true
+        }
+      ],
+      "status": "NO_1G_CANDIDATE_FOUND",
+      "upper_bound_status": "ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES"
+    },
+    {
+      "best": {
+        "acceleration_m_s2_by_grid": [
+          -5.2374565299828646e-05,
+          -5.237456529272322e-05
+        ],
+        "field_energy_j_by_grid": [
+          1.7299107587114704,
+          1.8348577721631658
+        ],
+        "iteration_count": 73,
+        "min_m_s2": -5.2374565299828646e-05,
+        "solver_reported_success": true,
+        "u": [
+          0.3189672868821878,
+          -0.8058061141383146,
+          0.33101233199472296,
+          0.24307973461029778,
+          -0.36195236659783314,
+          -0.1686689950420831,
+          0.5154309116006203,
+          0.060646642186796086,
+          0.023026339887828415,
+          -0.5251793828333121
+        ]
+      },
+      "bound_per_coarse_normalized_mode": 8.0,
+      "cap_canonical_field_j": 100.0,
+      "relaxed_upper_bound_on_global_min_m_s2": 0.05144900243745793,
+      "solver_trials": [
+        {
+          "actual_min_m_s2": -5.878463102160225e-05,
+          "feasible": true,
+          "iterations": 54,
+          "max_field_energy_j": 1.3185025106938963,
+          "message": "Optimization terminated successfully",
+          "seed": 0,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.16261144692487e-05,
+          "feasible": true,
+          "iterations": 47,
+          "max_field_energy_j": 3.125066793417317,
+          "message": "Optimization terminated successfully",
+          "seed": 1,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.127596516591893e-05,
+          "feasible": true,
+          "iterations": 42,
+          "max_field_energy_j": 2.093422871912312,
+          "message": "Optimization terminated successfully",
+          "seed": 2,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.763598794279346e-05,
+          "feasible": true,
+          "iterations": 50,
+          "max_field_energy_j": 2.696253970247204,
+          "message": "Optimization terminated successfully",
+          "seed": 3,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.742866174496264e-05,
+          "feasible": true,
+          "iterations": 62,
+          "max_field_energy_j": 1.5584108936093803,
+          "message": "Optimization terminated successfully",
+          "seed": 4,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -6.751270769156381e-05,
+          "feasible": true,
+          "iterations": 80,
+          "max_field_energy_j": 23.299980573162618,
+          "message": "Optimization terminated successfully",
+          "seed": 5,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.00013705685810805335,
+          "feasible": true,
+          "iterations": 104,
+          "max_field_energy_j": 16.709617188577017,
+          "message": "Optimization terminated successfully",
+          "seed": 6,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.2374565299828646e-05,
+          "feasible": true,
+          "iterations": 73,
+          "max_field_energy_j": 1.8348577721631658,
+          "message": "Optimization terminated successfully",
+          "seed": 7,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -0.00013705687343534834,
+          "feasible": true,
+          "iterations": 61,
+          "max_field_energy_j": 16.709617606141723,
+          "message": "Optimization terminated successfully",
+          "seed": 8,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -9.924247794401708e-05,
+          "feasible": true,
+          "iterations": 60,
+          "max_field_energy_j": 2.1244257656144736,
+          "message": "Optimization terminated successfully",
+          "seed": 9,
+          "success": true
+        },
+        {
+          "actual_min_m_s2": -5.7442522162887144e-05,
+          "feasible": true,
+          "iterations": 61,
+          "max_field_energy_j": 4.698354817921226,
+          "message": "Optimization terminated successfully",
+          "seed": 10,
+          "success": true
+        }
+      ],
+      "status": "NO_1G_CANDIDATE_FOUND",
+      "upper_bound_status": "ENERGY_BALL_POINTWISE_IMPOSSIBILITY_FOR_FROZEN_BETA_SAMPLES"
+    }
+  ],
+  "rigorous_relaxed_energy_ball_bounds": [
+    {
+      "field_energy_cap_j": 2.0,
+      "joint_optimistic_upper_m_s2": 0.0006101599571612309,
+      "one_point_1g_exclusion": true,
+      "per_grid": [
+        {
+          "certifying_dual_lambda": 0.013474778411200952,
+          "energy_ellipsoid_dual_upper_m_s2": 0.01632673099545202,
+          "h_m": 0.075,
+          "payload_index": 15
+        },
+        {
+          "certifying_dual_lambda": 0.0005264396094215572,
+          "energy_ellipsoid_dual_upper_m_s2": 0.0006101599571612309,
+          "h_m": 0.05,
+          "payload_index": 22
+        }
+      ]
+    },
+    {
+      "field_energy_cap_j": 10.0,
+      "joint_optimistic_upper_m_s2": 0.004785256798248629,
+      "one_point_1g_exclusion": true,
+      "per_grid": [
+        {
+          "certifying_dual_lambda": 0.01329220075187286,
+          "energy_ellipsoid_dual_upper_m_s2": 0.12305044861749626,
+          "h_m": 0.075,
+          "payload_index": 15
+        },
+        {
+          "certifying_dual_lambda": 0.0005202804881963611,
+          "energy_ellipsoid_dual_upper_m_s2": 0.004785256798248629,
+          "h_m": 0.05,
+          "payload_index": 22
+        }
+      ]
+    },
+    {
+      "field_energy_cap_j": 100.0,
+      "joint_optimistic_upper_m_s2": 0.05144900243745793,
+      "one_point_1g_exclusion": true,
+      "per_grid": [
+        {
+          "certifying_dual_lambda": 0.013220960479857605,
+          "energy_ellipsoid_dual_upper_m_s2": 1.3144328607691493,
+          "h_m": 0.075,
+          "payload_index": 15
+        },
+        {
+          "certifying_dual_lambda": 0.0005179412677265115,
+          "energy_ellipsoid_dual_upper_m_s2": 0.05144900243745793,
+          "h_m": 0.05,
+          "payload_index": 22
+        }
+      ]
+    },
+    {
+      "field_energy_cap_j": 10000.0,
+      "joint_optimistic_upper_m_s2": 5.1707998907935355,
+      "one_point_1g_exclusion": true,
+      "per_grid": [
+        {
+          "certifying_dual_lambda": 0.013192899738661727,
+          "energy_ellipsoid_dual_upper_m_s2": 131.94930223191307,
+          "h_m": 0.075,
+          "payload_index": 15
+        },
+        {
+          "certifying_dual_lambda": 0.0005170229956902264,
+          "energy_ellipsoid_dual_upper_m_s2": 5.1707998907935355,
+          "h_m": 0.05,
+          "payload_index": 22
+        }
+      ]
+    },
+    {
+      "field_energy_cap_j": 10000000.0,
+      "joint_optimistic_upper_m_s2": 5169.278274852555,
+      "one_point_1g_exclusion": false,
+      "per_grid": [
+        {
+          "certifying_dual_lambda": 0.013189894008853467,
+          "energy_ellipsoid_dual_upper_m_s2": 131899.91084974413,
+          "h_m": 0.075,
+          "payload_index": 15
+        },
+        {
+          "certifying_dual_lambda": 0.0005169246609893196,
+          "energy_ellipsoid_dual_upper_m_s2": 5169.278274852555,
+          "h_m": 0.05,
+          "payload_index": 22
+        }
+      ]
+    }
+  ],
+  "same_shell_amplitudes_on_both_grids": true,
+  "source_control_modes": [
+    {
+      "ell": 1,
+      "kind": "X_electric"
+    },
+    {
+      "ell": 1,
+      "kind": "Y_magnetic"
+    },
+    {
+      "ell": 2,
+      "kind": "X_electric"
+    },
+    {
+      "ell": 2,
+      "kind": "Y_magnetic"
+    },
+    {
+      "ell": 4,
+      "kind": "X_electric"
+    },
+    {
+      "ell": 4,
+      "kind": "Y_magnetic"
+    },
+    {
+      "ell": 8,
+      "kind": "X_electric"
+    },
+    {
+      "ell": 8,
+      "kind": "Y_magnetic"
+    },
+    {
+      "ell": 12,
+      "kind": "X_electric"
+    },
+    {
+      "ell": 12,
+      "kind": "Y_magnetic"
+    }
+  ],
+  "source_sha256": "6489845e2de5e6203e7541c26b3ebbef626cd169266df2d3ef27a4f12f96d388",
+  "source_shell_radius_m": 2.0,
+  "source_support_energy_j": null,
+  "t1_science_sha256": "e7a265f3963131e2f0a06e2d0f04c688658bad68cb00bfb49b5ec91a90cc4e39",
+  "t1_source_sha256": "57efe5406cd8dde4a9a040a102e9781c2fbb22508fe323d5465ea0928921a3b0",
+  "target_m_s2": 9.80665,
+  "universal_Einstein_metric": "NOT_SOLVED",
+  "wall_seconds": 14.05956447700737
+}

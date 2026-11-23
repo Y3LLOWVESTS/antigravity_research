@@ -1,0 +1,4 @@
+NO_OVERLAP_AT_TWO_PARENT_SCALES_CONDITIONAL_ON_LAB_TRANSFER
+{'portal_scale_eV': 1000.0, 'theta': 18964574.323057592, 'reference_exterior_electric_J': 0.14991003246122336, 'lab_s_max': 0.6649228547638667, 'energy_s_strict_min': 0.9999995826836896, 'vacuum_exterior_J_at_lab_bound_lower': 12075579813739.395, 'minimum_alpha_over_alpha0_at_energy_bound': 0.902359943430266, 'maximum_apparent_response_multiplier_to_overlap': 0.664923132247135, 'overlap': False}
+{'portal_scale_eV': 21147.425268811283, 'theta': 94.82287161528794, 'reference_exterior_electric_J': 29982.006492244673, 'lab_s_max': 0.6665335112635776, 'energy_s_strict_min': 0.925583927917187, 'vacuum_exterior_J_at_lab_bound_lower': 61913883.68453271, 'minimum_alpha_over_alpha0_at_energy_bound': 0.8331919511406252, 'maximum_apparent_response_multiplier_to_overlap': 0.7201221749425334, 'overlap': False}
+SCIENCE_SHA256 9852e3c1a7cf1b6fbe66dad3d73e270b25d1dd984a72bcfbb8cea9fba4c2c948

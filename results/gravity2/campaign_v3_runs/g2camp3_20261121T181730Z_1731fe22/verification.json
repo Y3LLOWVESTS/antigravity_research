@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "JPAIR_ACTION_INVENTORY | missing covariant action sectors": true,
+    "JPAIR_ACTION_INVENTORY | must block incomplete action": true,
+    "JPAIR_ACTION_INVENTORY | not a physical completion": true,
+    "L0-L1 only": true,
+    "cached evidence previously certified JPAIR_ACTION_INVENTORY": false,
+    "evidence SHA JPAIR_ACTION_INVENTORY": true,
+    "file SHA manifest.json": true,
+    "file SHA science.json": true,
+    "immutable source scope": true,
+    "job fingerprint JPAIR_ACTION_INVENTORY": true,
+    "known run state": true,
+    "linkage": true,
+    "live source parents": true,
+    "no full regression claim": true,
+    "no gravity claim": true,
+    "no invented action": true,
+    "parent Sha complete": true,
+    "per-job verified science JPAIR_ACTION_INVENTORY": true,
+    "registered task collection pinned": true,
+    "science prerequisites JPAIR_ACTION_INVENTORY": true,
+    "source hash locks": true,
+    "transitive input manifest JPAIR_ACTION_INVENTORY": true,
+    "unique job JPAIR_ACTION_INVENTORY": true
+  },
+  "error": "AssertionError('cached evidence previously certified JPAIR_ACTION_INVENTORY')",
+  "physical_success": false,
+  "program": "GRAVITY2_CAMPAIGN_INDEPENDENT",
+  "run_id": "g2camp3_20261121T181730Z_1731fe22",
+  "status": "HOLD"
+}

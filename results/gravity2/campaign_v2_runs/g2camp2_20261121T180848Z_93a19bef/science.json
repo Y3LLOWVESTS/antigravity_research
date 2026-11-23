@@ -1,0 +1,302 @@
+{
+  "006D_replaced": false,
+  "candidate_count": 2,
+  "elapsed_s": 0.6104,
+  "energy_J": "NOT_CERTIFIED",
+  "full_repository_regression": "NOT_RUN",
+  "jobs": [
+    {
+      "cache_origin": "REUSED",
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "evidence": {
+        "from_run": "g2camp2_20261121T180843Z_a352cd7a",
+        "path": "results/gravity2/campaign_v2_runs/g2camp2_20261121T180843Z_a352cd7a/JPAIR_ACTION_INVENTORY.json",
+        "sha256": "4f053c30fc97daee12b4510b506ee4efed26736c849e8ef25ae07d4d244335a9"
+      },
+      "fingerprint": "729f503f173bc46b355b738e142f5703588b5989edd1fd60cab6c58d74a25f7c",
+      "gate": "ACTION_COMPLETENESS",
+      "id": "JPAIR_ACTION_INVENTORY",
+      "review_checks": {
+        "missing covariant action sectors": true,
+        "must block incomplete action": true,
+        "not a physical completion": true
+      },
+      "scientific_verdict": "BLOCKED_ACTION_INCOMPLETE",
+      "status": "REUSED_VERIFIED",
+      "verification_status": "VERIFIED",
+      "worker_peak_rss_mib": null
+    },
+    {
+      "cache_origin": "REUSED",
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "evidence": {
+        "from_run": "g2camp2_20261121T180843Z_a352cd7a",
+        "path": "results/gravity2/campaign_v2_runs/g2camp2_20261121T180843Z_a352cd7a/JPAIR_CHARGE_CONTROL.json",
+        "sha256": "6a986320af0a1a9375d0910881de01158d8164222b2cc8ca01506ceaaca1e730"
+      },
+      "fingerprint": "aed17e01837b53e40d3ef2f74ba33bd6fd5ab9b730e1541a96ca70974285cea9",
+      "gate": "CHARGE_BALANCE_CONTROL",
+      "id": "JPAIR_CHARGE_CONTROL",
+      "review_checks": {
+        "charge integral n=15": true,
+        "charge integral n=23": true,
+        "charge integral n=31": true,
+        "charge integral n=9": true,
+        "control frequency n=15": true,
+        "control frequency n=23": true,
+        "control frequency n=31": true,
+        "control frequency n=9": true,
+        "equal-amplitude residual proportional to a": true,
+        "four parent grid controls": true,
+        "independent two-charge Euler": true,
+        "local source still nontrivial n=15": true,
+        "local source still nontrivial n=23": true,
+        "local source still nontrivial n=31": true,
+        "local source still nontrivial n=9": true,
+        "opposing charge gauge shift": true,
+        "opposite current n=15": true,
+        "opposite current n=23": true,
+        "opposite current n=31": true,
+        "opposite current n=9": true,
+        "tuning not a physical equilibrium": true,
+        "zero mode n=15": true,
+        "zero mode n=23": true,
+        "zero mode n=31": true,
+        "zero mode n=9": true
+      },
+      "scientific_verdict": "SCOPED_CONTROL_ONLY",
+      "status": "REUSED_VERIFIED",
+      "verification_status": "VERIFIED",
+      "worker_peak_rss_mib": null
+    },
+    {
+      "cache_origin": "REUSED",
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "evidence": {
+        "from_run": "g2camp2_20261121T180843Z_a352cd7a",
+        "path": "results/gravity2/campaign_v2_runs/g2camp2_20261121T180843Z_a352cd7a/F0_PARENT_STATE_AUDIT.json",
+        "sha256": "7be8795e7744d859ac9c62d41901906639f939742aff77b96e1adc8376e276f3"
+      },
+      "fingerprint": "cbbd259237f2685edbb1e05de9dadfc0fe6d09436b4283e3351049b086887411",
+      "gate": "F0_PARENT_STATE_AUDIT",
+      "id": "F0_PARENT_STATE_AUDIT",
+      "review_checks": {
+        "R3B loaded failure preserved": true,
+        "candidate is source audit": true,
+        "field capacity not device energy": true,
+        "live parent DELTA1_02_OPERATOR": true,
+        "live parent DELTA1_02_REVIEW": true,
+        "live parent DELTA1_02_SCIENCE": true,
+        "live parent R3B_CAPACITY": true,
+        "live parent R3B_SOURCE": true,
+        "live parent R3C_LOADED_SOURCE": true,
+        "loaded function inventory": true,
+        "no automatic inverse": true,
+        "no certified loaded state": true,
+        "no invented controls": true,
+        "no physical promotion": true,
+        "parent status honest": true,
+        "registered gate and level": true
+      },
+      "scientific_verdict": "UNDERDETERMINED",
+      "status": "REUSED_VERIFIED",
+      "verification_status": "VERIFIED",
+      "worker_peak_rss_mib": null
+    },
+    {
+      "cache_origin": "REUSED",
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "evidence": {
+        "from_run": "g2camp2_20261121T180843Z_a352cd7a",
+        "path": "results/gravity2/campaign_v2_runs/g2camp2_20261121T180843Z_a352cd7a/F0_LOADED_RECIPROCITY.json",
+        "sha256": "84cedabe2364d5d7521bb1b64f6d097991a97ee2c9e9bc2f72a6a08097a2ab82"
+      },
+      "fingerprint": "45e686bd2ed56be74713d7bdc4e4d3ace2c6f8ffefae5681d415970dc1acd3bd",
+      "gate": "F0_LOADED_RECIPROCITY",
+      "id": "F0_LOADED_RECIPROCITY",
+      "review_checks": {
+        "R3B loaded sign preserved": true,
+        "candidate is source audit": true,
+        "coupling-off null": true,
+        "independent finite difference": true,
+        "independent lambda sample": true,
+        "independent second variation": true,
+        "no energy or craft promotion": true,
+        "no physical promotion": true,
+        "no sourceable JVP promotion": true,
+        "omitted curvature rejected": true,
+        "registered gate and level": true,
+        "second derivative with curvature": true,
+        "trace derivative": true,
+        "trace-off null": true,
+        "transverse trace identity": true
+      },
+      "scientific_verdict": "SCOPED_CONTROL_ONLY",
+      "status": "REUSED_VERIFIED",
+      "verification_status": "VERIFIED",
+      "worker_peak_rss_mib": null
+    }
+  ],
+  "next_missing_physics": [
+    "complete off-shell source/X/Y/neutral/Earth/support/Einstein action",
+    "physical metric Hodge and constrained mode derivation",
+    "finite source with conserved charges and dynamic supports",
+    "exterior/Earth/craft force, mode/UV and complete SI energy"
+  ],
+  "parent_locks": {
+    "G07_ARCHIVE": {
+      "actual_sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d",
+      "expected_sha256": "ee9c9557d6d30897d8ed3a4872b11bc464c17af37d98f87c4047884bb0bcc46d",
+      "match": true,
+      "relative_path": "results/gravity2/bridge07_runs/g207_20261121T065202Z_450b9280/fields.npz"
+    },
+    "G08_SCIENCE": {
+      "actual_sha256": "a883cbe884ef97b839995da7437cf2a3d8c0451dc1415f88caf6ed314ac5e419",
+      "expected_sha256": "a883cbe884ef97b839995da7437cf2a3d8c0451dc1415f88caf6ed314ac5e419",
+      "match": true,
+      "relative_path": "results/gravity2/bridge08_runs/g208_20261121T070239Z_467d6a03/science.json"
+    },
+    "G08_VERIFICATION": {
+      "actual_sha256": "fb14efd798d6a58472421ab611c896c974aff62f743d7666219f0cecd3d676c9",
+      "expected_sha256": "fb14efd798d6a58472421ab611c896c974aff62f743d7666219f0cecd3d676c9",
+      "match": true,
+      "relative_path": "results/gravity2/bridge08_runs/g208_20261121T070239Z_467d6a03/verification.json"
+    }
+  },
+  "program": "GRAVITY2_AUTONOMOUS_CAMPAIGN",
+  "qualified_physical_survivors": 0,
+  "registered_tasks": [
+    {
+      "action": {
+        "Earth_action": null,
+        "Einstein_Hilbert_boundary_action": null,
+        "charges": [
+          0.4,
+          -0.4
+        ],
+        "dynamical_source_and_X": false,
+        "exterior": "PERIODIC_2D_CONTROL",
+        "frequencies": [
+          1.25,
+          1.25
+        ],
+        "metric_Hodge_variation_complete": false,
+        "neutral_action": null,
+        "physical_SI_normalization": false,
+        "potential": "POSITIVE_CONVEX_LOCAL_TEMPLATE",
+        "source_fields": 2,
+        "source_frame": "JORDAN",
+        "source_support_action": null
+      },
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "gate": "ACTION_COMPLETENESS",
+      "id": "JPAIR_ACTION_INVENTORY",
+      "independent": "campaign_check",
+      "level": "L0",
+      "module": "campaign_science",
+      "priority": 100,
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    },
+    {
+      "action": {
+        "Earth_action": null,
+        "Einstein_Hilbert_boundary_action": null,
+        "charges": [
+          0.4,
+          -0.4
+        ],
+        "dynamical_source_and_X": false,
+        "exterior": "PERIODIC_2D_CONTROL",
+        "frequencies": [
+          1.25,
+          1.25
+        ],
+        "metric_Hodge_variation_complete": false,
+        "neutral_action": null,
+        "physical_SI_normalization": false,
+        "potential": "POSITIVE_CONVEX_LOCAL_TEMPLATE",
+        "source_fields": 2,
+        "source_frame": "JORDAN",
+        "source_support_action": null
+      },
+      "candidate": "R3B_JORDAN_OPPOSITE_CHARGE_CONTROL",
+      "gate": "CHARGE_BALANCE_CONTROL",
+      "id": "JPAIR_CHARGE_CONTROL",
+      "independent": "campaign_check",
+      "level": "L1",
+      "module": "campaign_science",
+      "priority": 90,
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    },
+    {
+      "action": {
+        "Earth_and_support": "NOT_DERIVED",
+        "exterior": "NOT_DERIVED",
+        "family": "R3B_M0_UNMODIFIED_JORDAN_PORTAL",
+        "input": "IMMUTABLE_PARENT_R3B_SOURCES_AND_DELTA1_02",
+        "loaded_JVP": "NOT_AVAILABLE_AS_A_CERTIFIED_SAME_ACTION_ARTIFACT",
+        "neutral_metric": "g_phys=exp(2*sigma(P))*g_Einstein",
+        "physical_survivor": false,
+        "sigma": "alpha*P-beta*P**2",
+        "source_variation": "NOT_ESTABLISHED"
+      },
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "gate": "F0_PARENT_STATE_AUDIT",
+      "id": "F0_PARENT_STATE_AUDIT",
+      "independent": "delta_f0_review",
+      "independent_sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7",
+      "level": "L0",
+      "module": "delta_f0_provider",
+      "priority": 85,
+      "provider_sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87",
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    },
+    {
+      "action": {
+        "Earth_and_support": "NOT_DERIVED",
+        "exterior": "NOT_DERIVED",
+        "family": "R3B_M0_UNMODIFIED_JORDAN_PORTAL",
+        "input": "IMMUTABLE_PARENT_R3B_SOURCES_AND_DELTA1_02",
+        "loaded_JVP": "NOT_AVAILABLE_AS_A_CERTIFIED_SAME_ACTION_ARTIFACT",
+        "neutral_metric": "g_phys=exp(2*sigma(P))*g_Einstein",
+        "physical_survivor": false,
+        "sigma": "alpha*P-beta*P**2",
+        "source_variation": "NOT_ESTABLISHED"
+      },
+      "candidate": "R3B_F0_INTERFACE_AUDIT",
+      "gate": "F0_LOADED_RECIPROCITY",
+      "id": "F0_LOADED_RECIPROCITY",
+      "independent": "delta_f0_review",
+      "independent_sha256": "4235e144fb869ae57ac9ebaf70c3bf602e4b46a2b52feef80b7e30e619b691b7",
+      "level": "L1",
+      "module": "delta_f0_provider",
+      "priority": 84,
+      "provider_sha256": "8a424389813d15c288fd939dbf6fdb9ca6a71bc5a1805995960de551766b8c87",
+      "requires": [],
+      "schema": "gravity2.campaign.task.v1"
+    }
+  ],
+  "remaining": [],
+  "run_id": "g2camp2_20261121T180848Z_93a19bef",
+  "scientific_board": {
+    "G00": "PASS_PARENT_SHA",
+    "G01": "INCOMPLETE_SUPPORT_EARTH_NEUTRAL_EINSTEIN",
+    "G02": "SCOPED_SOURCE_ONLY",
+    "G03": "PARTIAL_WARD_ONLY",
+    "G04": "NOT_DERIVED",
+    "G05": "PERIODIC_SINGLE_CHARGE_OBSTRUCTED_JPAIR_CONTROL_ONLY",
+    "G06": "NOT_DERIVED",
+    "G07": "NOT_DERIVED",
+    "G08": "NOT_DERIVED",
+    "G09": "NOT_DERIVED",
+    "G10": "NOT_DERIVED",
+    "G11": "NOT_DERIVED"
+  },
+  "scope": "FINITE_REGISTERED_GATES_NO_SELF_INVENTED_ACTION",
+  "skipped": [],
+  "state": "COMPLETED",
+  "whole_craft_lift": "NOT_DERIVED"
+}

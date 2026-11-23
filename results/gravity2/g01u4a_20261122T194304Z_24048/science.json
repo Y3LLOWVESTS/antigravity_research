@@ -1,0 +1,116 @@
+{
+  "Einstein_earthcraft": "NOT_SOLVED",
+  "Maxwell_convergence": "HOLD_NONCONVERGED_PARENT",
+  "claim": "FROZEN_U1_PROFILE_INCONSISTENT_WITH_RECORDED_U3B_TRIALS",
+  "created_utc": "2026-11-22T19:43:06.503497+00:00",
+  "experiment": "G01-U4A-SCALAR-STATIONARITY-ENERGY-GATE",
+  "full_local_scalar_EOM": "NOT_SOLVED",
+  "full_regression": "NOT_RUN",
+  "parents_sha256": {
+    "radial": "cfe54027edcd6a33532faa5eec138455bc35a89193f9b3af1d4cd4f5bf727999",
+    "u1": "0f5b138a22d9da0088cdb9d6c2bfdcfbb046603845447d250878809c454616c3",
+    "u3b": "44f14ce4ba14e46d3fd4816d9fad2395fd1fef133a35894e884ad8ace9335126"
+  },
+  "physical_source_current": "NOT_SOLVED",
+  "physical_survivors": 0,
+  "producer_sha256": "8a07597deb37d1d0bb5ccf92583f3a355b3fa78856a5bb56b864e4711af3d5d1",
+  "science": {
+    "canonical_dimensional_estimate": {
+      "UV_certified": false,
+      "operator_scale_eV": 15.475963267553281,
+      "scalar_coefficient_J_per_m": 4.815453886722423e+42,
+      "theta_per_dimensionless_phi": 1.5736167224201635e+26
+    },
+    "cases": [
+      {
+        "box_m": 64.0,
+        "ells": [
+          1,
+          3,
+          5
+        ],
+        "h_m": 0.2,
+        "matter_overlap_m": 8.788566118939252e-07,
+        "maxwell_continuum": "NOT_CONVERGED",
+        "measured_source_ratio": -0.06142833286298907,
+        "parent_maxwell_residual": 2.0579444360008713e-15,
+        "projected_stationarity_gap": 1.061429819409942,
+        "reference_overlap_m": 0.5912067628164084,
+        "required_frozen_profile_ratio": 1.000001486546953,
+        "stationarity": "FAIL_IN_RECORDED_TRIAL"
+      },
+      {
+        "box_m": 80.0,
+        "ells": [
+          1,
+          3,
+          5
+        ],
+        "h_m": 0.2,
+        "matter_overlap_m": 8.788566118939252e-07,
+        "maxwell_continuum": "NOT_CONVERGED",
+        "measured_source_ratio": -0.0667144573253197,
+        "parent_maxwell_residual": 1.545233653171062e-15,
+        "projected_stationarity_gap": 1.0667159438722729,
+        "reference_overlap_m": 0.5912067628164293,
+        "required_frozen_profile_ratio": 1.000001486546953,
+        "stationarity": "FAIL_IN_RECORDED_TRIAL"
+      },
+      {
+        "box_m": 80.0,
+        "ells": [
+          1,
+          3,
+          5
+        ],
+        "h_m": 0.1,
+        "matter_overlap_m": 8.788566118939252e-07,
+        "maxwell_continuum": "NOT_CONVERGED",
+        "measured_source_ratio": 0.0007254849805277547,
+        "parent_maxwell_residual": 7.364776936624601e-15,
+        "projected_stationarity_gap": 0.9992760015664254,
+        "reference_overlap_m": 0.5912067628164293,
+        "required_frozen_profile_ratio": 1.000001486546953,
+        "stationarity": "FAIL_IN_RECORDED_TRIAL"
+      },
+      {
+        "box_m": 80.0,
+        "ells": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "h_m": 0.1,
+        "matter_overlap_m": 8.788566118939252e-07,
+        "maxwell_continuum": "NOT_CONVERGED",
+        "measured_source_ratio": -0.0033048915524157276,
+        "parent_maxwell_residual": 5.944373947663104e-15,
+        "projected_stationarity_gap": 1.0033063780993687,
+        "reference_overlap_m": 0.5912067628164293,
+        "required_frozen_profile_ratio": 1.000001486546953,
+        "stationarity": "FAIL_IN_RECORDED_TRIAL"
+      }
+    ],
+    "finite_torus": {
+      "mass_averaged_f_squared": 0.0002355855748740347,
+      "matter_overlap_m": 8.788566118939252e-07,
+      "na": 256,
+      "nq": 80,
+      "smooth_shape_volume_m3": 0.23687050562614465,
+      "torus_mass_kg": 0.9999999999999983
+    },
+    "scalar_equation": "(-Delta+mu^2+8piG beta rho/c^2)f=P_loaded",
+    "scope": "FROZEN_U1_F0_F2_SCALAR_PROFILE",
+    "torus_relative_quadrature_error": 4.674416170194002e-11,
+    "weak_feedback_energy": {
+      "R_gradient_theta": 8501043.943572538,
+      "conditional_scalar_plus_em_j": 18462966.536208488,
+      "em_for_Rgradienttheta_le_1_j": 11129633.202875158,
+      "exceeds_10MJ": true,
+      "general_no_go": false,
+      "illustrative_em_reference_j": 1.3092078192690724,
+      "scalar_energy_j": 7333333.333333331
+    }
+  }
+}

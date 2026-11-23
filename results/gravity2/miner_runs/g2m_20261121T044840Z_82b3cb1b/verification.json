@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "L1 memory policy": true,
+    "action and Earth not closed": true,
+    "action specification exact": true,
+    "complete queue partition": true,
+    "exact producer source locks": true,
+    "exact theorem controls independent": true,
+    "immutable manifest": true,
+    "immutable science": true,
+    "incomplete not promoted": true,
+    "no duplicate evaluated cards": true,
+    "no invented lift": true,
+    "parent files unchanged": true,
+    "parent fingerprint consistent": true,
+    "program schema": true,
+    "run association": true,
+    "scope not upgraded": true,
+    "supported levels": true
+  },
+  "full_regression": "NOT_RUN",
+  "physical_lift": "NOT_DERIVED",
+  "program": "GRAVITY2_MINER_INDEPENDENT",
+  "run_id": "g2m_20261121T044840Z_82b3cb1b",
+  "science_sha256": "3bfbc4050b1faacc4e52753f4d9e04be913ecb9cfd99b86aad4588577165855c",
+  "source_action": "NOT_COMPLETE",
+  "status": "PASS_INCOMPLETE_EVIDENCE_ONLY"
+}

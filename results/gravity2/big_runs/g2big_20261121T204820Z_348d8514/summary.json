@@ -1,0 +1,157 @@
+{
+  "006D_replaced": false,
+  "Earth_down_craft_up": "NOT_DERIVED",
+  "batch_execution_status": "HOLD",
+  "batch_run_id": "g2big_20261121T204820Z_348d8514",
+  "complete_operating_energy_below_10MJ": "NOT_CERTIFIED",
+  "errors": [
+    "KeyboardInterrupt()"
+  ],
+  "fresh_run_ids": {
+    "v5": "g2camp5_20261121T204838Z_385faf48",
+    "v8": "g2research8_20261121T204845Z_1378723b"
+  },
+  "generated_utc": "2026-11-21T20:50:35.012454+00:00",
+  "new_covariant_source_action": "NOT_SUPPLIED",
+  "next_scientific_gate": "G01_ACTION",
+  "physical_progress_50_percent": "NOT_ESTABLISHED",
+  "qualified_GR_survivors": 0,
+  "schema": "gravity2.broad_run.scoped.v1",
+  "source_root": "/Users/mymac/Desktop/antigravity_research",
+  "steps": [
+    {
+      "argv": [
+        "/Users/mymac/Desktop/antigravity_research/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/gravity2/test_campaign_v2.py",
+        "tests/gravity2/test_campaign_v3.py",
+        "tests/gravity2/test_campaign_v4.py",
+        "tests/gravity2/test_campaign_v5.py",
+        "tests/gravity2/test_registry_v6.py",
+        "tests/gravity2/test_research_v8.py"
+      ],
+      "exit_code": 0,
+      "log": "focused_tests.log",
+      "log_sha256": "520e324cd738b94e81d2114e6463a767dc0ca8158c9ce71b5fa047094d854fb0",
+      "name": "focused_tests"
+    },
+    {
+      "argv": [
+        "/Users/mymac/Desktop/antigravity_research/.venv/bin/python",
+        "-m",
+        "antigravity_research.gravity2.registry_v6",
+        "audit"
+      ],
+      "exit_code": 0,
+      "log": "registry_audit.log",
+      "log_sha256": "5d799480912b40a13d0cd4e251e1c8e133c3dc69140f99a353038e1c8dd33ed9",
+      "name": "registry_audit"
+    },
+    {
+      "argv": [
+        "/Users/mymac/Desktop/antigravity_research/.venv/bin/python",
+        "-m",
+        "antigravity_research.gravity2.campaign_v4",
+        "verify",
+        "--run-id",
+        "g2camp4_20261121T184146Z_73cb7751"
+      ],
+      "exit_code": 0,
+      "log": "v4_fresh_reverify.log",
+      "log_sha256": "751633213915fd956852db7f2a86e454cc80d208fd040985f177b5d2246b69c5",
+      "name": "v4_fresh_reverify"
+    },
+    {
+      "argv": [
+        "/Users/mymac/Desktop/antigravity_research/.venv/bin/python",
+        "-m",
+        "antigravity_research.gravity2.campaign_v4",
+        "verify",
+        "--run-id",
+        "g2camp4_20261121T184153Z_05423ae3"
+      ],
+      "exit_code": 0,
+      "log": "v4_cache_reverify.log",
+      "log_sha256": "fab153352ba9df159c2754f4c22e0fb70245debaaf30f02bf6e1b8e3ee314cbe",
+      "name": "v4_cache_reverify"
+    },
+    {
+      "argv": [
+        "/Users/mymac/Desktop/antigravity_research/.venv/bin/python",
+        "-m",
+        "antigravity_research.gravity2.campaign_v5",
+        "verify",
+        "--run-id",
+        "g2camp5_20261121T195147Z_adec6224"
+      ],
+      "exit_code": 0,
+      "log": "v5_recovery_reverify.log",
+      "log_sha256": "726e7b0734f8a2baf25e5e4952aac23dfd9b81486831cb94825fc132e1c8dbd4",
+      "name": "v5_recovery_reverify"
+    },
+    {
+      "argv": [
+        "/Users/mymac/Desktop/antigravity_research/.venv/bin/python",
+        "-m",
+        "antigravity_research.gravity2.campaign_v5",
+        "run",
+        "--level",
+        "L1",
+        "--preset",
+        "short",
+        "--minutes",
+        "2",
+        "--workers",
+        "1"
+      ],
+      "exit_code": 0,
+      "log": "v5_fresh_science.log",
+      "log_sha256": "0dc0ac40781ef563baffd3d2e1707cbdce3d1b09b196b5c36f6f799c19e8cd8b",
+      "name": "v5_fresh_science"
+    },
+    {
+      "argv": [
+        "/Users/mymac/Desktop/antigravity_research/.venv/bin/python",
+        "-m",
+        "antigravity_research.gravity2.research_v8",
+        "run"
+      ],
+      "exit_code": 0,
+      "log": "v8_scoped_science.log",
+      "log_sha256": "fffb748ce561707531c63566d95ed3f6998edeb7fa4990283700de2b2a964760",
+      "name": "v8_scoped_science"
+    },
+    {
+      "argv": [
+        "/Users/mymac/Desktop/antigravity_research/.venv/bin/python",
+        "-m",
+        "antigravity_research.gravity2.campaign_v5",
+        "verify",
+        "--run-id",
+        "g2camp5_20261121T204838Z_385faf48"
+      ],
+      "exit_code": 0,
+      "log": "v5_new_reverify.log",
+      "log_sha256": "ca3a37301cef5ed3cd5b77ab2ea5042ca41a16fd6b3656be0f57f36a31f78425",
+      "name": "v5_new_reverify"
+    },
+    {
+      "argv": [
+        "/Users/mymac/Desktop/antigravity_research/.venv/bin/python",
+        "-m",
+        "antigravity_research.gravity2.research_v8",
+        "verify",
+        "--run-id",
+        "g2research8_20261121T204845Z_1378723b"
+      ],
+      "exit_code": 0,
+      "log": "v8_new_reverify.log",
+      "log_sha256": "06e3a989abf85994d96ac625018ef6ceff26835da076749617900b06cd895774",
+      "name": "v8_new_reverify"
+    }
+  ],
+  "toy_scan_status": "PASS_SCOPED_TOY_STRESS_NO_GRAVITY",
+  "whole_craft_lift": "NOT_DERIVED"
+}

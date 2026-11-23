@@ -1,0 +1,29 @@
+{
+  "manifest_sha256": "922a575290f876e0d57949134881cac2f5a03f58acf8751c5de98eaeb2fb10d1",
+  "physical_survivors": 0,
+  "quadrature_convergence": [
+    {
+      "max_error": 1.6375789613221059e-15,
+      "n_mu": 8,
+      "n_phi": 16
+    },
+    {
+      "max_error": 9.992007221626409e-16,
+      "n_mu": 16,
+      "n_phi": 32
+    },
+    {
+      "max_error": 2.842170943040401e-14,
+      "n_mu": 32,
+      "n_phi": 64
+    },
+    {
+      "max_error": 1.5765166949677223e-14,
+      "n_mu": 64,
+      "n_phi": 128
+    }
+  ],
+  "science_sha256": "ed539d8e4ac7d0ee2998919039ff1d0ca701ce0f280013ed9eca986c822bc2a3",
+  "status": "PASS_NECESSARY_LAUE_BUDGET_NOT_GRAVITY",
+  "whole_craft_lift": false
+}

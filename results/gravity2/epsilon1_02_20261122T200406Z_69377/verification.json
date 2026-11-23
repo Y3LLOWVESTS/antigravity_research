@@ -1,0 +1,14 @@
+{
+  "experiment": "EPSILON1-02-INDEPENDENT-SPECTRAL-VERIFICATION",
+  "full_regression": "NOT_RUN",
+  "full_source_backreaction": "NOT_DERIVED",
+  "parent_sha256": "adfa83e0171ba8102d82d275e4749ffa5ab951ab0b088686333055ebeb9ebd70",
+  "physical_source": "NOT_DERIVED",
+  "physical_survivors": 0,
+  "producer_sha256": "28305918d1a1b4be228119fc91e4cc93aea978f7afc4b1dd7cb34dfa6352a4af",
+  "quadratic_energy_thresholds": "PASS_CONDITIONAL",
+  "science_sha256": "4dfcf4f998224046f9eaca2c4494c39f525b330fa938919f81eaa2be896e4ec0",
+  "source_operator_symmetry": "SCOPED_OPERATOR_LEVEL_ONLY",
+  "spectral_formulas": "PASS",
+  "whole_craft_gravity": "NOT_DERIVED"
+}

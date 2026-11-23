@@ -1,0 +1,342 @@
+{
+  "affirmative_gate": "ordinary-photon closure relies on positive matter curvature and electromagnetic sensitivity transfer",
+  "cells_refinement_over_one_percent": 0,
+  "checker_sha256": "b12faf27f8a369f8def05a9dbdf66e146779f472da3d022c16bbac9874a9c5ca",
+  "full_regression": "NOT_RUN",
+  "hidden_source_gate": "requires independent microscopic carrier, supports, clock/force bounds",
+  "largest_independent_relative_error": 0.00010658447532185811,
+  "samples": [
+    {
+      "i": 0,
+      "independent_eta": 1.147288436605859e+37,
+      "j": 0,
+      "relative_error": 7.667929876609136e-07
+    },
+    {
+      "i": 0,
+      "independent_eta": 1.6272750628045074e+37,
+      "j": 23,
+      "relative_error": 1.4755851651671037e-06
+    },
+    {
+      "i": 0,
+      "independent_eta": 2.0035547837615338e+37,
+      "j": 50,
+      "relative_error": 1.640126795932062e-06
+    },
+    {
+      "i": 0,
+      "independent_eta": 2.2432296384493024e+37,
+      "j": 75,
+      "relative_error": 9.377544420985373e-07
+    },
+    {
+      "i": 0,
+      "independent_eta": 2.4123831384400845e+37,
+      "j": 99,
+      "relative_error": 6.40133437368462e-08
+    },
+    {
+      "i": 1,
+      "independent_eta": 1.4890509362440067e+41,
+      "j": 0,
+      "relative_error": 7.788077933235105e-05
+    },
+    {
+      "i": 1,
+      "independent_eta": 5.270818036714374e+41,
+      "j": 23,
+      "relative_error": 0.00010658447532185811
+    },
+    {
+      "i": 1,
+      "independent_eta": 1.0798900886505373e+42,
+      "j": 50,
+      "relative_error": 7.753817806732677e-05
+    },
+    {
+      "i": 1,
+      "independent_eta": 1.1760944957372718e+42,
+      "j": 75,
+      "relative_error": 2.7215107216149725e-05
+    },
+    {
+      "i": 1,
+      "independent_eta": 1.2074239027497985e+41,
+      "j": 99,
+      "relative_error": 5.795419514287303e-07
+    },
+    {
+      "i": 2,
+      "independent_eta": 1.3349797917847144e+41,
+      "j": 0,
+      "relative_error": 6.846695014228743e-05
+    },
+    {
+      "i": 2,
+      "independent_eta": 4.718198632166985e+41,
+      "j": 23,
+      "relative_error": 9.792602245750626e-05
+    },
+    {
+      "i": 2,
+      "independent_eta": 9.657971524456076e+41,
+      "j": 50,
+      "relative_error": 7.204236961244614e-05
+    },
+    {
+      "i": 2,
+      "independent_eta": 1.0513058664287809e+42,
+      "j": 75,
+      "relative_error": 2.5419009751392885e-05
+    },
+    {
+      "i": 2,
+      "independent_eta": 1.0881866643847401e+41,
+      "j": 99,
+      "relative_error": 4.953777882343857e-07
+    },
+    {
+      "i": 11,
+      "independent_eta": 5.042885587709435e+40,
+      "j": 0,
+      "relative_error": 1.625829760953934e-05
+    },
+    {
+      "i": 11,
+      "independent_eta": 1.7540031348627652e+41,
+      "j": 23,
+      "relative_error": 4.037396730360854e-05
+    },
+    {
+      "i": 11,
+      "independent_eta": 3.5564975098542656e+41,
+      "j": 50,
+      "relative_error": 3.453412302234504e-05
+    },
+    {
+      "i": 11,
+      "independent_eta": 3.850758727570525e+41,
+      "j": 75,
+      "relative_error": 1.3005949041633436e-05
+    },
+    {
+      "i": 11,
+      "independent_eta": 4.438804150031755e+40,
+      "j": 99,
+      "relative_error": 8.353541365302419e-07
+    },
+    {
+      "i": 36,
+      "independent_eta": 3.810978652751293e+39,
+      "j": 0,
+      "relative_error": 7.666855969201691e-06
+    },
+    {
+      "i": 36,
+      "independent_eta": 1.2369923689427268e+40,
+      "j": 23,
+      "relative_error": 5.926944843137605e-06
+    },
+    {
+      "i": 36,
+      "independent_eta": 2.403344234731976e+40,
+      "j": 50,
+      "relative_error": 1.2881899063010849e-06
+    },
+    {
+      "i": 36,
+      "independent_eta": 2.5387500786406277e+40,
+      "j": 75,
+      "relative_error": 2.0862457250636623e-07
+    },
+    {
+      "i": 36,
+      "independent_eta": 5.591759444155537e+39,
+      "j": 99,
+      "relative_error": 3.785814448598046e-06
+    },
+    {
+      "i": 61,
+      "independent_eta": 3.7436570935070046e+38,
+      "j": 0,
+      "relative_error": 1.223859016119544e-05
+    },
+    {
+      "i": 61,
+      "independent_eta": 1.092000322396421e+39,
+      "j": 23,
+      "relative_error": 3.036312124060636e-06
+    },
+    {
+      "i": 61,
+      "independent_eta": 1.9749876114489494e+39,
+      "j": 50,
+      "relative_error": 1.4694742911380843e-07
+    },
+    {
+      "i": 61,
+      "independent_eta": 2.026348356546712e+39,
+      "j": 75,
+      "relative_error": 7.056788930981384e-08
+    },
+    {
+      "i": 61,
+      "independent_eta": 1.0823108984216102e+39,
+      "j": 99,
+      "relative_error": 1.7380642955977521e-06
+    },
+    {
+      "i": 97,
+      "independent_eta": 2.9873155413254623e+37,
+      "j": 0,
+      "relative_error": 2.3078067543647052e-05
+    },
+    {
+      "i": 97,
+      "independent_eta": 6.304186689144626e+37,
+      "j": 23,
+      "relative_error": 1.0921791292139993e-05
+    },
+    {
+      "i": 97,
+      "independent_eta": 1.000201215778321e+38,
+      "j": 50,
+      "relative_error": 7.358707752036509e-07
+    },
+    {
+      "i": 97,
+      "independent_eta": 1.2122583933719889e+38,
+      "j": 75,
+      "relative_error": 2.5024233800685636e-06
+    },
+    {
+      "i": 97,
+      "independent_eta": 1.289829081018221e+38,
+      "j": 99,
+      "relative_error": 2.663568698935137e-07
+    },
+    {
+      "i": 121,
+      "independent_eta": 1.5185932827550525e+37,
+      "j": 0,
+      "relative_error": 1.598131412872128e-06
+    },
+    {
+      "i": 121,
+      "independent_eta": 2.452338003702518e+37,
+      "j": 23,
+      "relative_error": 1.023076828143843e-06
+    },
+    {
+      "i": 121,
+      "independent_eta": 3.3286633116123784e+37,
+      "j": 50,
+      "relative_error": 2.045068299150188e-06
+    },
+    {
+      "i": 121,
+      "independent_eta": 3.933196959815169e+37,
+      "j": 75,
+      "relative_error": 1.4400322687624367e-06
+    },
+    {
+      "i": 121,
+      "independent_eta": 4.362271149282232e+37,
+      "j": 99,
+      "relative_error": 1.0010175355290585e-07
+    },
+    {
+      "i": 161,
+      "independent_eta": 1.1817705522725146e+37,
+      "j": 0,
+      "relative_error": 8.996026589214168e-07
+    },
+    {
+      "i": 161,
+      "independent_eta": 1.699679428345331e+37,
+      "j": 23,
+      "relative_error": 1.428944679027211e-06
+    },
+    {
+      "i": 161,
+      "independent_eta": 2.1156331616757417e+37,
+      "j": 50,
+      "relative_error": 1.6857082361099174e-06
+    },
+    {
+      "i": 161,
+      "independent_eta": 2.384691070716927e+37,
+      "j": 75,
+      "relative_error": 9.850342033157489e-07
+    },
+    {
+      "i": 161,
+      "independent_eta": 2.576229737843119e+37,
+      "j": 99,
+      "relative_error": 6.387595341550423e-08
+    },
+    {
+      "i": 200,
+      "independent_eta": 1.150913430802672e+37,
+      "j": 0,
+      "relative_error": 7.953769395330212e-07
+    },
+    {
+      "i": 200,
+      "independent_eta": 1.6348413382851478e+37,
+      "j": 23,
+      "relative_error": 1.4656844102844957e-06
+    },
+    {
+      "i": 200,
+      "independent_eta": 2.015219388228504e+37,
+      "j": 50,
+      "relative_error": 1.6430963820646127e-06
+    },
+    {
+      "i": 200,
+      "independent_eta": 2.257928233901246e+37,
+      "j": 75,
+      "relative_error": 9.430346910033194e-07
+    },
+    {
+      "i": 200,
+      "independent_eta": 2.4294013889094026e+37,
+      "j": 99,
+      "relative_error": 5.4213325606511376e-08
+    },
+    {
+      "i": 241,
+      "independent_eta": 1.1476303790746791e+37,
+      "j": 0,
+      "relative_error": 7.692546825088797e-07
+    },
+    {
+      "i": 241,
+      "independent_eta": 1.6279883244644617e+37,
+      "j": 23,
+      "relative_error": 1.4741787577321475e-06
+    },
+    {
+      "i": 241,
+      "independent_eta": 2.0046539054815638e+37,
+      "j": 50,
+      "relative_error": 1.6392301660506092e-06
+    },
+    {
+      "i": 241,
+      "independent_eta": 2.2446143913759097e+37,
+      "j": 75,
+      "relative_error": 9.376991896292708e-07
+    },
+    {
+      "i": 241,
+      "independent_eta": 2.4139863674018234e+37,
+      "j": 99,
+      "relative_error": 5.4675235006129697e-08
+    }
+  ],
+  "science_sha256": "eda762f4f920130fc01d4dc088f9ffd957149079f387b6fdd5b5958ce1c7968c",
+  "status": "PASS_SCOPED_NUMERICS_AND_CONTINUOUS_BOUNDS"
+}

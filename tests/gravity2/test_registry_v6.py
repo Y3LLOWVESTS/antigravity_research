@@ -1,0 +1,442 @@
+"""Patch 5: transactional registration positive/adversarial tests."""
+
+import json
+
+import pytest
+
+from antigravity_research.gravity2 import registry_v6 as reg
+from antigravity_research.gravity2 import delta_f0_provider as f0
+
+
+def candidate(ident="F0_EXTRA_AUDIT"):
+    return {
+        "schema": "gravity2.campaign.task.v1",
+        "id": ident,
+        "candidate": f0.CANDIDATE,
+        "gate": "F0_PARENT_STATE_AUDIT",
+        "level": "L0",
+        "action": f0.ACTION,
+        "requires": [],
+        "priority": 60,
+        "module": "delta_f0_provider",
+        "independent": "delta_f0_review",
+    }
+
+
+def proposal(tmp_path, jobs):
+    path = tmp_path / (
+        jobs[0]["id"] + ".json"
+    )
+
+    path.write_text(
+        json.dumps({
+            "schema": reg.PROPOSAL_SCHEMA,
+            "tasks": jobs,
+        })
+    )
+
+    return path
+
+
+def test_dry_run_no_writes(tmp_path):
+    base = tmp_path / "private-registry"
+    path = proposal(tmp_path, [candidate()])
+
+    original, suggested = reg.prepare(
+        base,
+        path,
+    )
+
+    assert not base.exists()
+    assert suggested["sequence"] == 1
+    assert len(suggested["tasks"]) == 1
+    assert suggested["previous_sha256"] == original
+
+
+def test_atomic_register_and_verification(tmp_path):
+    base = tmp_path / "private-registry"
+    path = proposal(tmp_path, [candidate()])
+
+    empty, expected = reg.prepare(
+        base,
+        path,
+    )
+
+    old, active, count = reg.register(
+        base,
+        path,
+        empty,
+    )
+
+    assert old == empty
+    assert count == 1
+    assert reg.sha(reg.pack(expected)) == active
+
+    doc, checksum = reg._snapshot(
+        base,
+        reg._baseline(),
+    )
+
+    assert checksum == active
+    assert doc["tasks"] == expected["tasks"]
+
+    assert all(
+        j["provider_sha256"]
+        and j["independent_sha256"]
+        for j in doc["tasks"]
+    )
+
+    assert not (
+        reg.native.REGISTRY
+        / "F0_EXTRA_AUDIT.json"
+    ).exists()
+
+
+def test_stale_cas_and_duplicates_do_not_change_pointer(
+    tmp_path,
+):
+    base = tmp_path / "private-registry"
+    path = proposal(tmp_path, [candidate()])
+
+    current, _ = reg.prepare(base, path)
+
+    _, active, _ = reg.register(
+        base,
+        path,
+        current,
+    )
+
+    before = (
+        base / "active.json"
+    ).read_bytes()
+
+    stale_path = proposal(
+        tmp_path,
+        [candidate("F0_FRESH_CANDIDATE")],
+    )
+
+    with pytest.raises(
+        ValueError,
+        match="STALE_REGISTRY_GENERATION",
+    ):
+        reg.register(
+            base,
+            stale_path,
+            current,
+        )
+
+    assert (
+        base / "active.json"
+    ).read_bytes() == before
+
+    with pytest.raises(
+        ValueError,
+        match="DUPLICATE_TASK_ID",
+    ):
+        reg.prepare(base, path)
+
+    assert (
+        base / "active.json"
+    ).read_bytes() == before
+
+
+def test_hash_tamper_fails_closed(tmp_path):
+    base = tmp_path / "private-registry"
+    path = proposal(tmp_path, [candidate()])
+
+    current, _ = reg.prepare(base, path)
+
+    _, active, _ = reg.register(
+        base,
+        path,
+        current,
+    )
+
+    generation = (
+        base / "generations"
+        / (active + ".json")
+    )
+
+    generation.write_bytes(
+        generation.read_bytes() + b"\n"
+    )
+
+    with pytest.raises(
+        ValueError,
+        match="GENERATION_HASH_MISMATCH",
+    ):
+        reg._snapshot(
+            base,
+            reg._baseline(),
+        )
+
+
+def test_pointer_symlink_fails_closed(tmp_path):
+    base = tmp_path / "private-registry"
+    base.mkdir()
+
+    target = base / "outside.json"
+    target.write_text("{}")
+
+    (
+        base / "active.json"
+    ).symlink_to(target)
+
+    with pytest.raises(
+        ValueError,
+        match="UNSAFE_REGISTRY_FILE",
+    ):
+        reg._snapshot(
+            base,
+            reg._baseline(),
+        )
+
+
+def test_graph_critical_controls():
+    tasks = [
+        candidate("TASK_A"),
+        candidate("TASK_B"),
+    ]
+
+    validator = lambda task: task
+
+    assert len(
+        reg.graph(
+            [],
+            tasks,
+            validator=validator,
+        )
+    ) == 2
+
+    with pytest.raises(
+        ValueError,
+        match="MISSING_DEPENDENCY",
+    ):
+        reg.graph(
+            [],
+            [{
+                **tasks[0],
+                "requires": ["ABSENT"],
+            }],
+            validator=validator,
+        )
+
+    with pytest.raises(
+        ValueError,
+        match="cycle|ordering",
+    ):
+        reg.graph(
+            [],
+            [
+                {
+                    **tasks[0],
+                    "requires": ["TASK_B"],
+                },
+                {
+                    **tasks[1],
+                    "requires": ["TASK_A"],
+                },
+            ],
+            validator=validator,
+        )
+
+    with pytest.raises(
+        ValueError,
+        match="MORE_THAN_TWO_CANDIDATES",
+    ):
+        reg.graph(
+            [],
+            [
+                {
+                    **tasks[0],
+                    "candidate": "ALPHA",
+                },
+                {
+                    **tasks[1],
+                    "candidate": "BETA",
+                },
+                {
+                    **candidate("TASK_C"),
+                    "candidate": "GAMMA",
+                },
+            ],
+            validator=validator,
+        )
+
+    with pytest.raises(
+        ValueError,
+        match="UPWARD_FIDELITY_DEPENDENCY",
+    ):
+        reg.graph(
+            [],
+            [
+                {
+                    **tasks[0],
+                    "requires": ["TASK_B"],
+                },
+                {
+                    **tasks[1],
+                    "level": "L1",
+                },
+            ],
+            validator=validator,
+        )
+
+    with pytest.raises(
+        ValueError,
+        match="SAME_CANDIDATE_ACTION_COLLISION",
+    ):
+        reg.graph(
+            [],
+            [
+                tasks[0],
+                {
+                    **tasks[1],
+                    "action": {"other": 1},
+                },
+            ],
+            validator=validator,
+        )
+
+
+def test_rejects_unapproved_gate_and_changed_source_hash(
+    tmp_path,
+):
+    base = tmp_path / "private-registry"
+
+    path = proposal(
+        tmp_path,
+        [{
+            **candidate(),
+            "gate": "UNREVIEWED_THEORY",
+        }],
+    )
+
+    with pytest.raises(
+        ValueError,
+        match="V4_UNREGISTERED_REVIEW_CONTRACT",
+    ):
+        reg.prepare(base, path)
+
+    path = proposal(
+        tmp_path,
+        [{
+            **candidate(),
+            "provider_sha256": "bad",
+        }],
+    )
+
+    with pytest.raises(
+        ValueError,
+        match="PROPOSED_SOURCE_PIN_DRIFT",
+    ):
+        reg.prepare(base, path)
+
+    assert not base.exists()
+
+
+def test_two_generations_and_history_snapshot(
+    tmp_path,
+):
+    base = tmp_path / "private-registry"
+
+    path = proposal(
+        tmp_path,
+        [candidate()],
+    )
+
+    empty, _ = reg.prepare(base, path)
+
+    _, first, _ = reg.register(
+        base,
+        path,
+        empty,
+    )
+
+    path = proposal(
+        tmp_path,
+        [candidate("F0_EXTRA_CONTROL")],
+    )
+
+    _, second, count = reg.register(
+        base,
+        path,
+        first,
+    )
+
+    assert count == 2
+    assert first != second
+
+    doc, checksum = reg._snapshot(
+        base,
+        reg._baseline(),
+    )
+
+    assert checksum == second
+    assert doc["previous_sha256"] == first
+
+    assert (
+        base / "generations"
+        / (first + ".json")
+    ).is_file()
+
+    assert (
+        base / "generations"
+        / (second + ".json")
+    ).is_file()
+
+
+def test_no_legacy_output_or_source_changed(
+    tmp_path,
+):
+    base = tmp_path / "private-registry"
+    olddir = reg.native.REGISTRY
+
+    before = (
+        {
+            p.name: reg.sha(p.read_bytes())
+            for p in olddir.glob("*.json")
+        }
+        if olddir.is_dir()
+        else {}
+    )
+
+    path = proposal(
+        tmp_path,
+        [candidate()],
+    )
+
+    empty, _ = reg.prepare(base, path)
+
+    reg.register(
+        base,
+        path,
+        empty,
+    )
+
+    after = (
+        {
+            p.name: reg.sha(p.read_bytes())
+            for p in olddir.glob("*.json")
+        }
+        if olddir.is_dir()
+        else {}
+    )
+
+    assert before == after
+
+
+def test_different_registration_sources_are_not_accepted(
+    tmp_path,
+):
+    base = tmp_path / "private-registry"
+
+    job = candidate()
+    job["independent"] = "delta_f0_provider"
+
+    path = proposal(tmp_path, [job])
+
+    with pytest.raises(ValueError):
+        reg.prepare(base, path)
+
+    assert not base.exists()

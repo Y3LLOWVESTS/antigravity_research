@@ -1,0 +1,77 @@
+{
+  "parents": {
+    "006D": {
+      "path": "simulations/006d_finite_thickness_conserved_source.py",
+      "sha256": "e303b3bb454d19cc16516e189e6db559d1812dad733f9e02bf1ecafce2594d76"
+    },
+    "registry_v6": {
+      "head_sha256": "649c08469be2d6e2deb09de77110982a223b952eb64f4a36a45b394d43e0f9a1",
+      "registered_tasks": 0
+    },
+    "v4_review": {
+      "path": "results/gravity2/campaign_v4_runs/g2camp4_20261121T184146Z_73cb7751/verification.json",
+      "sha256": "b61ebb4cad5abc4bea29404fa35c9c3174c51b1c1d1afb8d5b30e4d42321cd30"
+    },
+    "v4_science": {
+      "path": "results/gravity2/campaign_v4_runs/g2camp4_20261121T184146Z_73cb7751/science.json",
+      "sha256": "2e631798707cb18237f97b9e171b56e5d2c2183f2d87dff0758c99f789b6068c"
+    }
+  },
+  "physical_scope": "TOY_AND_UNVERIFIED_PLAN_ONLY",
+  "request": {
+    "cards": [],
+    "model": {
+      "A": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ],
+      "B": [
+        [
+          0.4
+        ],
+        [
+          0.25
+        ]
+      ],
+      "C": [
+        [
+          2.0
+        ]
+      ],
+      "j_field": [
+        0.3
+      ],
+      "j_source": [
+        1.0,
+        0.4
+      ],
+      "relative_displacement": 0.125,
+      "schema": "gravity2.toy_response.v7",
+      "source_kind": "PRESCRIBED_TOY",
+      "translation_field": [
+        0.5
+      ],
+      "translation_source": [
+        0.2,
+        -0.1
+      ],
+      "units": "ABSTRACT_CANONICAL"
+    },
+    "schema": "gravity2.research.request.v8"
+  },
+  "run_id": "g2research8_20261121T205546Z_c6c873b1",
+  "schema": "gravity2.research.v8",
+  "sources": {
+    "src/antigravity_research/gravity2/planner_v8.py": "5fcedfacac7742e002929b4b270f1a70fe299741cc0891a3d5ab292397b8b244",
+    "src/antigravity_research/gravity2/research_v8.py": "2dd0af8538a8e6675d96b57d9d172a110890b94139d4a1f9e895a47304bf764b",
+    "src/antigravity_research/gravity2/response_check_v7.py": "705af3f64c70a98a20551b36e14014e6fb9d89fc2c4cdf97c5d485543a716c1d",
+    "src/antigravity_research/gravity2/response_v7.py": "d2feeee61d1355c5feeb3a40b6af0aeb503a650fed1b29496fa87aa5b6f247bf",
+    "tests/gravity2/test_research_v8.py": "9d547ef448d0ade3f9725bac083317e99556e6f44bce080b85cefea2798c8c21"
+  }
+}

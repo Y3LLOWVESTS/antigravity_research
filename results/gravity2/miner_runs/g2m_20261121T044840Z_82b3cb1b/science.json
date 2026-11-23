@@ -1,0 +1,123 @@
+{
+  "006D_replaced": false,
+  "Einstein_exterior_force": "NOT_DERIVED",
+  "candidate_action": {
+    "Earth_action": "NOT_EXPANDED",
+    "boundary": "NO_SUPPORTED_STATIONARY_SOURCE_YET",
+    "carrier": "two canonical abelian Maxwell sectors X,Y",
+    "id": "C1_TWO_CHARGED_SCALARS_EINSTEIN_SOURCE",
+    "mixed_invariant": "P=epsilon(F_X,F_Y)/4, epsilon contravariant 1/sqrt(-g)",
+    "neutral_action": "NOT_EXPANDED",
+    "neutral_and_Earth_metric": "gtilde=exp(2*(alpha*P-beta*P**2))*g",
+    "physical_units": "NOT_NORMALIZED_TO_COMPLETE_SI",
+    "signature": "-+++",
+    "source": "two complex scalars, L=-1/2 sum_i|D_i phi_i|^2 - sum_i(m_i^2|phi_i|^2/2+lambda_i|phi_i|^4/4)",
+    "source_metric": "g (explicit Einstein-frame source assumption; equivalence principle untested)",
+    "source_support": "NOT_SPECIFIED"
+  },
+  "candidate_registry": [
+    {
+      "assumptions": "F_X=F_Y=0; no charged source; no engine mechanism",
+      "family": "NEGATIVE_CONTROL",
+      "fingerprint": "5ddc1736c97ef69a4feb19e7509a58c9951cd3ad26668bd403c4d692c88689db",
+      "id": "NULL_ZERO_SOURCE",
+      "priority": 0,
+      "question": "Does a source-free zero-field control falsely earn a physical survivor?"
+    },
+    {
+      "assumptions": "source Einstein-frame canonical charged scalars; partial_t phi=0, A0=0; R3 no material/support boundary; regular finite-energy phi->0; m_i^2>=0, lambda_i>=0",
+      "family": "R3B-SRC-A/STRICT_STATIC",
+      "fingerprint": "ace9d383aa77fbb554a4d1f52e218d05102f9d807ef2edaaa4a4f8fa41a9dd1f",
+      "id": "C1_STATIC_NO_A0",
+      "priority": 1,
+      "question": "Does positive static scalar energy require phi=0, ruling out nonzero source currents within this sector?"
+    },
+    {
+      "assumptions": "phi=f(x)exp(i omega t); A0 allowed; finite support and dynamical confinement NOT demonstrated; real q, frequency and norm are unprovided",
+      "family": "R3B-SRC-A/STATIONARY_PHASE",
+      "fingerprint": "6cf6b98078bb46de80afc5ba641cc51f74718d8aaa971ad11a11f22b736dba96",
+      "id": "C1_HARMONIC_PHASE",
+      "priority": 2,
+      "question": "Can stationary phase evade the static obstruction without falsely implying finite stable supported source?"
+    }
+  ],
+  "complete_covariant_action": "NOT_DERIVED",
+  "complete_energy_SI": "NOT_CERTIFIED",
+  "execution_status": "TIME_BUDGET_EXCEEDED",
+  "full_regression": "NOT_RUN",
+  "high_level_solvers": "DISABLED_UNTIL_INDEPENDENT_SOURCE_ACTION",
+  "parent_locks": {
+    "all_match": true,
+    "historical_sources": {
+      "A12C_F2_LOAD_NOT_R3B": {
+        "actual_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "expected_sha256": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+        "relative_path": "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py",
+        "status": "MATCH"
+      },
+      "DELTA1_02_RECIPROCITY": {
+        "actual_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "expected_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+        "relative_path": "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py",
+        "status": "MATCH"
+      },
+      "R3B_MIXED_LOADED": {
+        "actual_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "expected_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py",
+        "status": "MATCH"
+      },
+      "R3B_PRELOADED": {
+        "actual_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "expected_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py",
+        "status": "MATCH"
+      },
+      "R3X1_LORENTZ_SIGN": {
+        "actual_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "expected_sha256": "6f1bf0922712a81e860075a71201af49c7870fa18fe2c21e7f576bb46da97531",
+        "relative_path": "src/antigravity_research/agminer/hook17_fdual_f_r3x1_lorentzian_sign_audit.py",
+        "status": "MATCH"
+      }
+    },
+    "reports": {
+      "G02_SCIENCE": {
+        "actual_sha256": "f87f925417b36f8a9b319eb4fb3c54547d9d13e1e106e9c26fcf7e997895fe61",
+        "expected_sha256": "f87f925417b36f8a9b319eb4fb3c54547d9d13e1e106e9c26fcf7e997895fe61",
+        "match": true,
+        "path": "results/gravity2/action02_runs/g202_20261121T042518Z_9a7f5402/science.json"
+      },
+      "G02_VERIFY": {
+        "actual_sha256": "b2c91f6be46c532154e5dec211af7bbd942c6c720ba0afd9fac1f184843e2b28",
+        "expected_sha256": "b2c91f6be46c532154e5dec211af7bbd942c6c720ba0afd9fac1f184843e2b28",
+        "match": true,
+        "path": "results/gravity2/action02_runs/g202_20261121T042518Z_9a7f5402/verification.json"
+      },
+      "G03A_SCIENCE": {
+        "actual_sha256": "3ab38bcb8aad876fec46b76a713d8769aa345902f4f2c8ee0c4d1619b65227a6",
+        "expected_sha256": "3ab38bcb8aad876fec46b76a713d8769aa345902f4f2c8ee0c4d1619b65227a6",
+        "match": true,
+        "path": "results/gravity2/bridge03a_runs/g203a_20261121T043515Z_4d15503e/science.json"
+      },
+      "G03A_VERIFY": {
+        "actual_sha256": "261080c5be930767817179b34447d7cb989b89c603dc6b081f79d8a9732da89e",
+        "expected_sha256": "261080c5be930767817179b34447d7cb989b89c603dc6b081f79d8a9732da89e",
+        "match": true,
+        "path": "results/gravity2/bridge03a_runs/g203a_20261121T043515Z_4d15503e/verification.json"
+      }
+    }
+  },
+  "pending": [
+    "NULL_ZERO_SOURCE",
+    "C1_STATIC_NO_A0",
+    "C1_HARMONIC_PHASE"
+  ],
+  "physical_lift": "NOT_DERIVED",
+  "physical_survivors": [],
+  "processed": [],
+  "program": "GRAVITY2_AUTONOMOUS_V1",
+  "real_finite_supported_source": "NOT_ESTABLISHED",
+  "run_id": "g2m_20261121T044840Z_82b3cb1b",
+  "schema": "gravity2.miner.v1",
+  "science_limit": "Theorems are scoped to stated source ansatz; L1 stationary bound is only necessary."
+}

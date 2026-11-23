@@ -1,0 +1,35 @@
+{
+  "Einstein_earthcraft_force": "NOT_SOLVED",
+  "comparisons": {
+    "angular_truncation": {
+      "absolute_source_projection_change": 0.0005416434922620979,
+      "relative_energy_change": 0.2327931648684924,
+      "source_projection_a": 0.006455867113716512,
+      "source_projection_b": 0.0069975106059786095
+    },
+    "exterior_box": {
+      "absolute_source_projection_change": 0.006086656302710989,
+      "relative_energy_change": 0.16594227622891533,
+      "source_projection_a": 0.0069975106059786095,
+      "source_projection_b": 0.0009108543032676203
+    },
+    "radial_mesh": {
+      "absolute_source_projection_change": 0.18534842279782957,
+      "relative_energy_change": 0.5220244338771478,
+      "source_projection_a": 0.19180428991154608,
+      "source_projection_b": 0.006455867113716512
+    }
+  },
+  "constant_theta_negative_control": "PASS",
+  "experiment": "G01-U3A-INDEPENDENT-FOCUSED-VERIFICATION",
+  "full_local_scalar_eom": "NOT_SOLVED",
+  "full_repository_regression": "NOT_RUN",
+  "material_source_eom": "NOT_SOLVED",
+  "parent_locks": "PASS",
+  "physical_survivors": 0,
+  "producer_sha256": "a894b741012e8445f711b3ed4fde3a881c6f84391ee6221f479fdcd401a0f46a",
+  "science_sha256": "bd1c3226646f0e82ef14ab4826e00b1cbb9bdeedb9f05a4d9dbf7069151d8fd6",
+  "static_linear_residual_checks": "PASS",
+  "strong_coupling_numerical_verdict": "HOLD_STRONG_COUPLING_NONCONVERGENCE",
+  "zero_coupling_negative_control": "PASS"
+}

@@ -1,0 +1,70 @@
+{
+  "R3B_field_only_J": 1.5429162116460216,
+  "all_pins_match": true,
+  "conditional_Ez_inverse": "PROHIBITED_WITHOUT_EOM_GAUGE_AND_SOURCE_CONSTRAINTS",
+  "constraint_projected_JVP": "NOT_DEFINED",
+  "decision": "F0_SOURCE_ACTION_AND_LOADED_JVP_NOT_CERTIFIED",
+  "full_Einstein_and_earth": "NOT_DERIVED",
+  "historical_failure_m_s2": -129.67185782242464,
+  "loaded_python_functions_present": [
+    "provenance_gate",
+    "_build_same_action_coupling",
+    "_prepare_low_rank_loaded_system",
+    "_solve_loaded_deviation"
+  ],
+  "loaded_solver_summary_observation": {
+    "path": "results/data/032h17a12d1r3c_hook17_fdual_f_loaded_payload_homotopy_summary.json",
+    "present": true,
+    "sha256": "3ed04c490d3754d388f8ac18adfb4284f1c20ad018d6827528e817e786420883",
+    "solver_state_format": "NOT_CERTIFIED"
+  },
+  "next_minimal_inputs": [
+    "same-action residual E(z,p) for the loaded physical source and neutral matter",
+    "gauge/Noether/charge/support constraints defining physical delta p",
+    "on-shell loaded state and boundary/interface traction",
+    "independently audited JVP and constrained-mode spectrum"
+  ],
+  "no_expensive_PDE": true,
+  "on_shell_loaded_state_for_differentiation": "NOT_CERTIFIED",
+  "parents": {
+    "DELTA1_02_OPERATOR": {
+      "actual_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+      "expected_sha256": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395",
+      "match": true,
+      "path": "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py"
+    },
+    "DELTA1_02_REVIEW": {
+      "actual_sha256": "db7be8e1399e0bf04db1ca21f87fd0ed5c8e2807cfcb438c278fa817993c8ded",
+      "expected_sha256": "db7be8e1399e0bf04db1ca21f87fd0ed5c8e2807cfcb438c278fa817993c8ded",
+      "match": true,
+      "path": "results/data/delta1_02_verification_20261120T173340330519Z.json"
+    },
+    "DELTA1_02_SCIENCE": {
+      "actual_sha256": "3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3",
+      "expected_sha256": "3bd142aacf1b068268e0a4322274382f66c7f249035db0c25a8710d690774fc3",
+      "match": true,
+      "path": "results/data/delta1_02_20261120T172005211391Z.json"
+    },
+    "R3B_CAPACITY": {
+      "actual_sha256": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11",
+      "expected_sha256": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11",
+      "match": true,
+      "path": "results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json"
+    },
+    "R3B_SOURCE": {
+      "actual_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+      "expected_sha256": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+      "match": true,
+      "path": "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py"
+    },
+    "R3C_LOADED_SOURCE": {
+      "actual_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+      "expected_sha256": "a0368a7163e1f392745fd47c7c2e79fd54adce5e666362e51dc5c980c87a0fee",
+      "match": true,
+      "path": "src/antigravity_research/agminer/hook17_fdual_f_loaded_payload_homotopy.py"
+    }
+  },
+  "source_realization": "NOT_ESTABLISHED",
+  "sourceable_control_map": "NOT_DERIVED",
+  "status": "UNDERDETERMINED"
+}

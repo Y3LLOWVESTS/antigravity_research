@@ -1,0 +1,20 @@
+{
+  "code_sha256": {
+    "miner2.py": "46fc1215f3d20aa03b9d1d63d30b5e4c2bbbfa77c95924a4d4225b79fdd154cf",
+    "miner2_check.py": "c7ac67e0ac3434ae9b54b177e18f88401af70e41c260d29104c30b7a436655ac",
+    "miner2_math.py": "d605192dde12cba99d671086a994308c35cb2ba84120e7b207453e4d8c1770ff"
+  },
+  "continuation_of": null,
+  "created_utc": "2026-11-21T04:59:16.608961+00:00",
+  "disk_soft_mib": 4,
+  "level": "L1",
+  "max_seconds": 60.0,
+  "memory_soft_mib": 384,
+  "old_AGMINER": "READ_ONLY_NO_EXECUTION",
+  "parent_fingerprint": "3e2a70a2b301660d31aea85a2733ad9d4b27845be69801f31a92b03615d0a3b9",
+  "preset": "quick",
+  "previous_GRAVITY2_producers": "NOT_MODIFIED",
+  "program": "GRAVITY2-04_GENERATED_SOURCE_FRAMES",
+  "run_id": "g2v2_20261121T045916Z_6e2dbe11",
+  "workers": 1
+}

@@ -1,0 +1,4 @@
+mesh 96 ranges 242 payload samples 576
+mesh 192 ranges 242 payload samples 2176
+mesh 384 ranges 242 payload samples 8448
+science_sha256 650f6f582f5b4385c05feb0eede6b3ba4e1f241894823fa979e614df6aa0f392

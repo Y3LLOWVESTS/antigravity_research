@@ -1,0 +1,17 @@
+{
+  "certified_gravitational_survivors": 0,
+  "local_kinetic_determinant": 0.4,
+  "mixed_derivative_reciprocity_error": 3.4456917319403146e-09,
+  "multipoles_verified": 12,
+  "negative_controls": {
+    "H_equals_4R_kinetic_marginal": true,
+    "historical_loaded_response_inward": true,
+    "zero_H_static_unstable": true,
+    "zero_coupling_no_induced_charge": true,
+    "zero_drive_zero_unique_equilibrium": true
+  },
+  "periodic_Ward_max_divergence": 4.440892098500626e-16,
+  "periodic_X_gauge_variation_abs": 0.0,
+  "science_sha256": "3e81c419afd30d416cb440383ff700a81750f1188383c38ff34732900ae75b12",
+  "status": "PASS_CONDITIONAL_STATIC_WORLDVOLUME_SOURCE_NOT_GRAVITY"
+}

@@ -1,0 +1,188 @@
+{
+  "006D_replaced": false,
+  "Einstein_gravity": "NOT_DERIVED",
+  "accepted_negative_controls": "ORIGINAL_FOUR_OTHER_LOGICAL_CONTROLS_SCOPED_ONLY",
+  "auditor_v2_sha256": "3edd8d2b7f0618778e1005332a4d4d5bb9e3721deb4b4d48de00a3cede95a1fc",
+  "complete_operating_energy": "NOT_CERTIFIED",
+  "correction_charge_reversal": {
+    "historical_charge_only_control": "INVALID_AS_PHYSICAL_NEGATIVE_CONTROL",
+    "original_energy_J": 0.2248650891948872,
+    "physical_reversal_energy_sign": "UNCHANGED",
+    "reversed_charge_and_potential_energy_J": 0.2248650891948872
+  },
+  "float_comparison": {
+    "abs_tol": 2e-12,
+    "accepted_numeric_differences": 52,
+    "all_nonfloat_values_exact": true,
+    "first_differences": [
+      {
+        "abs_delta": 2.468642928467421e-16,
+        "allowed": 2e-12,
+        "path": "rows[1].energy_relative_error",
+        "recomputed": 8.763682396059304e-15,
+        "saved": 8.516818103212562e-15
+      },
+      {
+        "abs_delta": 5.551115123125783e-17,
+        "allowed": 2e-12,
+        "path": "rows[1].surface_charge_energy_J",
+        "recomputed": 0.22486504869183702,
+        "saved": 0.22486504869183696
+      },
+      {
+        "abs_delta": 9.313225746154785e-10,
+        "allowed": 1.123942794546157e-05,
+        "path": "rows[2].absolute_charge_proxy",
+        "recomputed": 5619713.972730786,
+        "saved": 5619713.972730785
+      },
+      {
+        "abs_delta": 4.336808689942018e-19,
+        "allowed": 2e-12,
+        "path": "rows[2].radial_traction_rms_Pa_equivalent",
+        "recomputed": 0.0030009472309223974,
+        "saved": 0.003000947230922397
+      },
+      {
+        "abs_delta": 2.468642928467413e-16,
+        "allowed": 2e-12,
+        "path": "rows[8].energy_relative_error",
+        "recomputed": 4.320125124817967e-15,
+        "saved": 4.0732608319712254e-15
+      },
+      {
+        "abs_delta": 1.0186340659856796e-10,
+        "allowed": 1e-08,
+        "path": "rows[8].net_charge_proxy",
+        "recomputed": 2.9103830456733704e-11,
+        "saved": -7.275957614183426e-11
+      },
+      {
+        "abs_delta": 7.76380716083168e-18,
+        "allowed": 2e-12,
+        "path": "rows[8].net_over_absolute_charge",
+        "recomputed": 5.175871440554453e-18,
+        "saved": 1.2939678601386132e-17
+      },
+      {
+        "abs_delta": 5.551115123125783e-17,
+        "allowed": 2e-12,
+        "path": "rows[8].surface_charge_energy_J",
+        "recomputed": 0.22486504869183602,
+        "saved": 0.22486504869183596
+      },
+      {
+        "abs_delta": 8.673617379884035e-19,
+        "allowed": 2e-12,
+        "path": "rows[8].tangential_traction_rms_Pa_equivalent",
+        "recomputed": 0.004900526307185326,
+        "saved": 0.004900526307185327
+      },
+      {
+        "abs_delta": 2.4686427140231253e-16,
+        "allowed": 2e-12,
+        "path": "rows[16].energy_relative_error",
+        "recomputed": 4.320124749540473e-15,
+        "saved": 4.073260478138161e-15
+      },
+      {
+        "abs_delta": 5.551115123125783e-17,
+        "allowed": 2e-12,
+        "path": "rows[16].surface_charge_energy_J",
+        "recomputed": 0.2248650682252515,
+        "saved": 0.22486506822525146
+      },
+      {
+        "abs_delta": 2.1827872842550278e-11,
+        "allowed": 1e-08,
+        "path": "rows[25].net_charge_proxy",
+        "recomputed": -1.1641532182693481e-10,
+        "saved": -9.458744898438454e-11
+      },
+      {
+        "abs_delta": 3.884239433814849e-18,
+        "allowed": 2e-12,
+        "path": "rows[25].net_over_absolute_charge",
+        "recomputed": 2.0715943647012527e-17,
+        "saved": 1.6831704213197678e-17
+      },
+      {
+        "abs_delta": 9.313225746154785e-10,
+        "allowed": 1.1240686807375944e-05,
+        "path": "rows[33].absolute_charge_proxy",
+        "recomputed": 5620343.403687973,
+        "saved": 5620343.403687972
+      },
+      {
+        "abs_delta": 1.5407439555097887e-33,
+        "allowed": 2e-12,
+        "path": "rows[33].net_over_absolute_charge",
+        "recomputed": 1.2945752762027082e-17,
+        "saved": 1.2945752762027083e-17
+      },
+      {
+        "abs_delta": 8.673617379884035e-19,
+        "allowed": 2e-12,
+        "path": "rows[33].tangential_traction_rms_Pa_equivalent",
+        "recomputed": 0.004901565162355958,
+        "saved": 0.004901565162355959
+      },
+      {
+        "abs_delta": 1.2343212552883276e-16,
+        "allowed": 2e-12,
+        "path": "rows[40].energy_relative_error",
+        "recomputed": 4.320124393509138e-15,
+        "saved": 4.4435565190379705e-15
+      },
+      {
+        "abs_delta": 2.7755575615628914e-17,
+        "allowed": 2e-12,
+        "path": "rows[40].surface_charge_energy_J",
+        "recomputed": 0.22486508675689626,
+        "saved": 0.2248650867568963
+      },
+      {
+        "abs_delta": 1.2343212552883197e-16,
+        "allowed": 2e-12,
+        "path": "rows[41].energy_relative_error",
+        "recomputed": 8.640248787018276e-15,
+        "saved": 8.516816661489444e-15
+      },
+      {
+        "abs_delta": 2.7755575615628914e-17,
+        "allowed": 2e-12,
+        "path": "rows[41].surface_charge_energy_J",
+        "recomputed": 0.22486508675689723,
+        "saved": 0.2248650867568972
+      }
+    ],
+    "maximum_absolute_difference": 9.313225746154785e-10,
+    "net_charge_proxy_abs_tol": 1e-08,
+    "rel_tol": 2e-12
+  },
+  "independently_reviewed_cases": 96,
+  "loaded_response": "HISTORICAL_INWARD_FAILURE",
+  "next_gate": "G01_COMPLETE_SOURCED_COVARIANT_ACTION",
+  "original_evidence_sha256": {
+    "manifest.json": "59fec7698efe6d04da1226212a10a6cc016549a5e445f53e28bdd440bb05d513",
+    "mode_scan.json": "6efea561c34da54c68cebd3a72ab9358f05aa2d477f3f83504209a87544a0254",
+    "science.json": "ebddb46c53fb35fabbce3d71ce999747f01b2c43071e449113eb9726197073f8"
+  },
+  "original_run_id": "g01i_20261121T211437Z_0d794b7a",
+  "original_v1_verification": "HOLD_SCIENCE_RECOMPUTATION_DRIFT_PRESERVED",
+  "parent_sha256": {
+    "results/data/032h17a12d1r3b_hook17_fdual_f_global_mirror_prefight_summary.json": "9474b6782104abb5bd8dd5e893137621b30ad96109e3e52c5a01268794810b11",
+    "src/antigravity_research/agminer/hook17_f2_strong_payload_loading_rescue.py": "e1296794c25a4d0e4d5634c7e7d543a0b488b8d2a1963afcf7878bea1c1b99e7",
+    "src/antigravity_research/agminer/hook17_fdual_f_global_mirror_prefight.py": "aa8f196fcae6a63405181ca62674e22ac67e5da88303759bdd99d25716fa2263",
+    "src/antigravity_research/delta1/delta1_02_r3b_portal_rank.py": "04d8d669adb1e4b067e75a285dd13f0fbaa6bbd879090b88e850a277baca9395"
+  },
+  "physical_source": "NOT_DERIVED",
+  "physical_survivors": 0,
+  "schema": "gravity2.g01i.independent.v2",
+  "source_v1_sha256": {
+    "g01i_independent_v1.py": "ae454466db8074dcc58cff4a2c8c689396b163247ab00d2ad865658d82529fff",
+    "g01i_r3b_source_v1.py": "40bda623ebd3781725e25200e67d4662362e761affca4fea103238574d46b252"
+  },
+  "status": "PASS_SCOPED_FLOAT_TOLERANT_SHELL_AUDIT_NOT_GRAVITY",
+  "whole_craft_lift": "NOT_DERIVED"
+}

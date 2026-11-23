@@ -1,0 +1,23 @@
+{
+  "claim": "HYPOTHETICAL_EFFECTIVE_SOURCE_NOT_GRAVITATIONAL_ENGINE",
+  "focused": {
+    "passed": 14,
+    "sha256": "e581ae755533b618614c05d9b63303a9bd9da6de263a18581c45d83bbae3ba34",
+    "status": "PASS_SCOPED"
+  },
+  "full_regression": "NOT_RUN",
+  "parent_shas": {
+    "G01K_SOURCE": "cb6bc822e2dd363c48982f677c7d852317392098e4e7f610f3506e68e9468112",
+    "G01L_MANIFEST": "6a4b68b2bbea9067dcdf29ae535c4ce8307dd51d9ea44155c69d8d149e7ad7c4",
+    "G01L_SCIENCE": "ab878109e7811ecdd3852f3b5eab72d3bf19420ba8b44f25e7a17536fb95f3e2",
+    "G01L_VERIFICATION": "5beeb43cbcde9954f15777204f7aa9594b62d3f0fbc312df8f55ce42d3494983"
+  },
+  "run_id": "g01m_20261122T003754Z_d9341d89",
+  "schema": "gravity2.g01m.manifest.v1",
+  "source_shas": {
+    "scripts/g01m_check_v1.py": "2f452ceeb0ed1e8e9dcdff10461ff39a9db67d47208e68b6544dd95b1ec3eaf9",
+    "scripts/g01m_source_v1.py": "1e08a061c344e469065048f9cca302e21c23fe69e3c93e5e11fcde9d295a3b15",
+    "src/antigravity_research/gravity2/g01m_core.py": "410aa566ef54ea3bceee85e47b2459519a001eb532fcfd0beff1327cb007f4b9",
+    "tests/gravity2/test_g01m.py": "87fe618def23df2ab887051a0f60a090c2e191cd11fe32cb77524c41c203e82b"
+  }
+}

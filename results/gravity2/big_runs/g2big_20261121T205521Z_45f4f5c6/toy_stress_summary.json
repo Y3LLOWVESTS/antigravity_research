@@ -1,0 +1,89 @@
+{
+  "Einstein_metric": "NOT_DERIVED",
+  "complete_SI_energy": "NOT_CERTIFIED",
+  "families": [
+    {
+      "cases": 2048,
+      "max_response_shift": 0.10344006951025864,
+      "max_schur_error": 4.440892098500626e-16,
+      "max_stationary_residual": 8.881784197001252e-16,
+      "min_hessian_eigenvalue": 1.5549371308917155,
+      "name": "field1_weak",
+      "negative_toy_coordinate_forces": 1000,
+      "positive_toy_coordinate_forces": 1048,
+      "sign_changes": 0
+    },
+    {
+      "cases": 2048,
+      "max_response_shift": 5.048275817211722,
+      "max_schur_error": 2.6645352591003757e-15,
+      "max_stationary_residual": 4.6629367034256575e-15,
+      "min_hessian_eigenvalue": 0.21753910161738682,
+      "name": "field1_strong",
+      "negative_toy_coordinate_forces": 1024,
+      "positive_toy_coordinate_forces": 1024,
+      "sign_changes": 0
+    },
+    {
+      "cases": 2048,
+      "max_response_shift": 0.07590709368650206,
+      "max_schur_error": 2.220446049250313e-16,
+      "max_stationary_residual": 8.881784197001252e-16,
+      "min_hessian_eigenvalue": 1.574209527478427,
+      "name": "field2_weak",
+      "negative_toy_coordinate_forces": 987,
+      "positive_toy_coordinate_forces": 1061,
+      "sign_changes": 10
+    },
+    {
+      "cases": 2048,
+      "max_response_shift": 5.630678064027494,
+      "max_schur_error": 3.1086244689504383e-15,
+      "max_stationary_residual": 4.440892098500626e-15,
+      "min_hessian_eigenvalue": 0.22267490636423415,
+      "name": "field2_strong",
+      "negative_toy_coordinate_forces": 1046,
+      "positive_toy_coordinate_forces": 1002,
+      "sign_changes": 169
+    }
+  ],
+  "negative_controls": [
+    {
+      "expected": "NO_COMMON_QUADRATIC_ACTION",
+      "name": "asymmetric_action",
+      "observed": "NO_COMMON_QUADRATIC_ACTION",
+      "pass": true
+    },
+    {
+      "expected": "UNHEALTHY_TOY_MODE",
+      "name": "negative_hessian",
+      "observed": "UNHEALTHY_TOY_MODE",
+      "pass": true
+    },
+    {
+      "expected": "PHYSICAL_SOURCE_OR_SI_NOT_DERIVED",
+      "name": "claimed_source",
+      "observed": "PHYSICAL_SOURCE_OR_SI_NOT_DERIVED",
+      "pass": true
+    },
+    {
+      "expected": "NONFINITE_OR_UNBOUNDED_TOY",
+      "name": "nonfinite_translation",
+      "observed": "NONFINITE_OR_UNBOUNDED_TOY",
+      "pass": true
+    },
+    {
+      "expected": "LOADED_EQ_FROZEN",
+      "name": "zero_coupling",
+      "pass": true
+    }
+  ],
+  "next_gate": "G01_ACTION",
+  "physical_survivors": 0,
+  "schema": "gravity2.broad_toy_stress.v1",
+  "seed": 20261121,
+  "source_action_new": false,
+  "total_cases": 8192,
+  "verdict": "PASS_SCOPED_TOY_NO_GRAVITY",
+  "whole_craft_lift": "NOT_DERIVED"
+}

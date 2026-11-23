@@ -1,0 +1,28 @@
+{
+  "action_id": "C1_TWO_CHARGED_SCALARS_EINSTEIN_SOURCE",
+  "candidate_id": "NULL_ZERO_SOURCE",
+  "complete_source_action": false,
+  "fingerprint": "5ddc1736c97ef69a4feb19e7509a58c9951cd3ad26668bd403c4d692c88689db",
+  "gate_G05": {
+    "consequence": "no portal gradient or gravitational lift in the zero-field control",
+    "scope": "ZERO_FIELDS_ONLY",
+    "theorem": "ZERO_CARRIER_AND_CURRENT_CONTROL",
+    "verdict": "FAIL_SCOPED"
+  },
+  "level": "L1",
+  "loaded_simulation": false,
+  "other_gates": {
+    "G01_ACTION": "INCOMPLETE_SUPPORT_EARTH_BOUNDARY",
+    "G02_VARIATION": "SCOPED_IDENTITIES_PRIOR_G203A_NOT_NEW_FULL_EOM",
+    "G03_WARD": "SCOPED_PRIOR_G203A_NOT_FULL_DIFEOMORPHISM_BIANCHI",
+    "G04_HEALTH": "NOT_PROVEN",
+    "G06_LOAD": "NOT_AUTHORIZED",
+    "G07_METRIC": "NOT_SOLVED_EINSTEIN",
+    "G08_ENERGY": "NOT_CERTIFIED",
+    "G09_EXTERIOR": "NOT_RUN",
+    "G10_REACTION": "NOT_DERIVED",
+    "G11_REALISM": "NOT_CERTIFIED"
+  },
+  "parent_fingerprint": "8cde32519fac505343556163bc8973e3e8d283d55848fed33ccc0f8683b22eec",
+  "qualified_physical_survivor": false
+}
